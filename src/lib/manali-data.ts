@@ -1,0 +1,30 @@
+export const manaliPost = {
+  slug: "manali-travel-guide",
+  title: "Manali Travel Guide 2025: Top Places, Itinerary & Insider Tips",
+  subtitle:
+    "Everything you need to plan the perfect Manali trip — from snowy peaks to apple orchards, ancient temples to adrenaline-packed adventures.",
+  excerpt:
+    "The definitive guide to Manali in 2025. Discover the best places to visit, a complete 5-day itinerary, where to stay, what to eat, and all the insider tips you need.",
+  coverImage: "/images/manali/hero.jpg",
+  coverAlt: "Snow-capped Himalayan mountains above Manali valley",
+  category: "Himachal Pradesh",
+  tags: ["Manali", "Himachal Pradesh", "Mountain Travel", "India", "Adventure"],
+  readTime: "16 min",
+  wordCount: 3200,
+  tableOfContents: [
+    { id: "introduction", title: "Why Visit Manali?", level: 2 },
+    { id: "best-time", title: "Best Time to Visit", level: 2 },
+    { id: "how-to-reach", title: "How to Reach Manali", level: 2 },
+    { id: "top-places", title: "Top Places to Visit", level: 2 },
+    { id: "rohtang-pass", title: "→ Rohtang Pass", level: 3 },
+    { id: "solang-valley", title: "→ Solang Valley", level: 3 },
+    { id: "hadimba-temple", title: "→ Hadimba Devi Temple", level: 3 },
+    { id: "old-manali", title: "→ Old Manali", level: 3 },
+    { id: "vashisht", title: "→ Vashisht Village", level: 3 },
+    { id: "itinerary", title: "5-Day Itinerary", level: 2 },
+    { id: "where-to-stay", title: "Where to Stay", level: 2 },
+    { id: "food-guide", title: "What to Eat", level: 2 },
+    { id: "budget", title: "Budget Breakdown", level: 2 },
+    { id: "tips", title: "Essential Travel Tips", level: 2 },
+  ],
+};
