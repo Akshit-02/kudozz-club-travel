@@ -104,6 +104,7 @@ export default function RootLayout({
           href="https://fonts.gstatic.com"
           crossOrigin="anonymous"
         />
+
         <meta
           name="google-site-verification"
           content="0hbFb6pYWfYAfW77QdmlDy2euqOTCP7XfVqyGeac39s"
