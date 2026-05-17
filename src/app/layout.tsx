@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import Script from "next/script";
 
 // ── Site-wide default metadata ──────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -103,6 +104,10 @@ export default function RootLayout({
           href="https://fonts.gstatic.com"
           crossOrigin="anonymous"
         />
+        <meta
+          name="google-site-verification"
+          content="0hbFb6pYWfYAfW77QdmlDy2euqOTCP7XfVqyGeac39s"
+        />
         {/* JSON-LD: Organisation schema */}
         <script
           type="application/ld+json"
@@ -120,6 +125,20 @@ export default function RootLayout({
             }),
           }}
         />
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-4WSGYN224F"
+          strategy="afterInteractive"
+        />
+
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){window.dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-4WSGYN224F');
+          `}
+        </Script>
       </head>
       <body className="min-h-screen bg-stone-50 antialiased">{children}</body>
     </html>
