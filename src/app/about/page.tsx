@@ -58,21 +58,24 @@ const team = [
 ];
 
 const milestones = [
-  { year: "2021", event: "Kudozz Club launched as a personal travel journal" },
   {
-    year: "2022",
+    year: "Nov, 2025",
+    event: "Kudozz Club launched as a personal travel journal",
+  },
+  {
+    year: "Dec, 2025",
     event: "First 1,000 newsletter subscribers — purely word of mouth",
   },
   {
-    year: "2023",
+    year: "Feb, 2026",
     event: "Expanded to full destination guides & itineraries section",
   },
   {
-    year: "2024",
+    year: "Apr, 2026",
     event: "Reached 10,000 monthly readers, launched explore.kudozz.in",
   },
   {
-    year: "2025",
+    year: "Jun, 2026",
     event: "12,000+ club members and 350+ published travel guides",
   },
 ];
@@ -141,16 +144,6 @@ export default function AboutPage() {
               </span>
               "
             </p>
-            <div className="flex items-center justify-center gap-3 mt-8">
-              <div className="h-px w-12 bg-stone-700" />
-              <span
-                className="text-stone-500 text-sm"
-                style={{ fontFamily: "var(--font-dm-sans)" }}
-              >
-                Arjun Mehta, Founder
-              </span>
-              <div className="h-px w-12 bg-stone-700" />
-            </div>
           </div>
         </section>
 
@@ -232,7 +225,7 @@ export default function AboutPage() {
         </section>
 
         {/* ── Team ── */}
-        <section className="bg-white py-24">
+        {/* <section className="bg-white py-24">
           <div className="max-w-5xl mx-auto px-6 sm:px-10">
             <div className="text-center mb-14">
               <div className="flex items-center justify-center gap-3 mb-3">
@@ -291,7 +284,7 @@ export default function AboutPage() {
               ))}
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* ── Timeline ── */}
         <section className="bg-stone-950 py-24">
