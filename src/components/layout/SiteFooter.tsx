@@ -24,7 +24,7 @@ const footerLinks = {
     { label: "About Us", href: "/about" },
     { label: "Contact", href: "/contact" },
     { label: "Write for Us", href: "/write-for-us" },
-    { label: "Privacy Policy", href: "/privacy" },
+    // { label: "Privacy Policy", href: "/privacy" },
   ],
 };
 
