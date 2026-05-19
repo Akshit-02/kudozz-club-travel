@@ -211,7 +211,7 @@ export default function LehLadakhPage() {
             </h1>
 
             <p
-              className="text-lg text-white/72 max-w-2xl mb-8 leading-relaxed"
+              className="text-lg text-white/80 max-w-2xl mb-8 leading-relaxed"
               style={{ fontFamily: "var(--font-source-serif)" }}
             >
               A moonscape at 3,500 metres, ringed by the highest mountains on
