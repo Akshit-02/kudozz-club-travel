@@ -8,13 +8,13 @@ import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
-  title: "Rishikesh Travel Guide 2025: Adventure, Yoga, Rafting & More",
+  title: "Rishikesh Travel Guide 2026: Adventure, Yoga, Rafting & More",
   description:
-    "The complete Rishikesh travel guide for 2025. White-water rafting, bungee jumping, yoga retreats, Ganga aarti, best cafes, where to stay, and everything you need to plan the perfect trip.",
+    "The complete Rishikesh travel guide for 2026. White-water rafting, bungee jumping, yoga retreats, Ganga aarti, best cafes, where to stay, and everything you need to plan the perfect trip.",
   keywords:
     "Rishikesh travel guide, Rishikesh rafting, Rishikesh yoga, Rishikesh bungee jumping, Laxman Jhula, Ganga aarti Rishikesh, things to do in Rishikesh, Uttarakhand travel",
   openGraph: {
-    title: "Rishikesh Travel Guide 2025: Adventure, Yoga, Rafting & More",
+    title: "Rishikesh Travel Guide 2026: Adventure, Yoga, Rafting & More",
     description:
       "White-water rafting, bungee jumping, yoga retreats and Ganga sunsets — the complete guide to Rishikesh.",
     url: "https://explore.kudozz.in/blog/rishikesh-adventure-guide",
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Rishikesh Travel Guide 2025",
+    title: "Rishikesh Travel Guide 2026",
     description:
       "Adventure, yoga, rafting and Ganga aarti — everything you need to plan your Rishikesh trip.",
     images: ["/images/related/rishikesh.jpg"],
@@ -51,9 +51,9 @@ function ArticleSchema() {
           "@context": "https://schema.org",
           "@type": "TravelGuide",
           headline:
-            "Rishikesh Travel Guide 2025: Adventure, Yoga, Rafting & More",
+            "Rishikesh Travel Guide 2026: Adventure, Yoga, Rafting & More",
           description:
-            "The complete Rishikesh travel guide for 2025 — rafting, yoga, bungee, Ganga aarti, cafes, stays and insider tips.",
+            "The complete Rishikesh travel guide for 2026 — rafting, yoga, bungee, Ganga aarti, cafes, stays and insider tips.",
           image: "https://explore.kudozz.in/images/related/rishikesh.jpg",
           publisher: {
             "@type": "Organization",
@@ -203,7 +203,7 @@ export default function RishikeshPage() {
               className="text-4xl sm:text-5xl lg:text-[3.4rem] font-bold text-white mb-5 leading-[1.08] max-w-4xl"
               style={{ fontFamily: "var(--font-playfair)" }}
             >
-              Rishikesh Travel Guide 2025: Adventure, Yoga, Rafting & More
+              Rishikesh Travel Guide 2026: Adventure, Yoga, Rafting & More
             </h1>
 
             <p

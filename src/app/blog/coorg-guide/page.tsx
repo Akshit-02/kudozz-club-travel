@@ -8,13 +8,13 @@ import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
-  title: "Coorg Travel Guide 2025: Coffee, Waterfalls, Trekking & More",
+  title: "Coorg Travel Guide 2026: Coffee, Waterfalls, Trekking & More",
   description:
-    "The complete Coorg (Kodagu) travel guide for 2025. India's coffee capital — misty hills, Abbey Falls, Nagarhole safaris, Madikeri fort, homestays, and the best of Kodava culture. Everything you need to plan the perfect Coorg trip.",
+    "The complete Coorg (Kodagu) travel guide for 2026. India's coffee capital — misty hills, Abbey Falls, Nagarhole safaris, Madikeri fort, homestays, and the best of Kodava culture. Everything you need to plan the perfect Coorg trip.",
   keywords:
-    "Coorg travel guide, Coorg Karnataka, Kodagu tourism, Abbey Falls Coorg, Madikeri, Coorg coffee plantations, Nagarhole National Park, Coorg homestays, things to do in Coorg, Coorg itinerary 2025",
+    "Coorg travel guide, Coorg Karnataka, Kodagu tourism, Abbey Falls Coorg, Madikeri, Coorg coffee plantations, Nagarhole National Park, Coorg homestays, things to do in Coorg, Coorg itinerary 2026",
   openGraph: {
-    title: "Coorg Travel Guide 2025: Coffee, Waterfalls, Trekking & More",
+    title: "Coorg Travel Guide 2026: Coffee, Waterfalls, Trekking & More",
     description:
       "Misty coffee hills, thundering waterfalls, spice plantations and Kodava hospitality — the complete guide to Coorg.",
     url: "https://explore.kudozz.in/blog/coorg-guide",
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Coorg Travel Guide 2025",
+    title: "Coorg Travel Guide 2026",
     description:
       "Coffee, waterfalls, wildlife and warm Kodava hospitality — everything you need to plan your Coorg trip.",
     images: ["/images/destinations/coorg.jpg"],
@@ -51,8 +51,8 @@ function ArticleSchema() {
           "@context": "https://schema.org",
           "@type": "TravelGuide",
           headline:
-            "Coorg Travel Guide 2025: Coffee, Waterfalls, Trekking & More",
-          description: "The complete Coorg (Kodagu) travel guide for 2025.",
+            "Coorg Travel Guide 2026: Coffee, Waterfalls, Trekking & More",
+          description: "The complete Coorg (Kodagu) travel guide for 2026.",
           image: "https://explore.kudozz.in/images/destinations/coorg.jpg",
           publisher: {
             "@type": "Organization",
@@ -200,7 +200,7 @@ export default function CoorgPage() {
               className="text-4xl sm:text-5xl lg:text-[3.4rem] font-bold text-white mb-5 leading-[1.08] max-w-4xl"
               style={{ fontFamily: "var(--font-playfair)" }}
             >
-              Coorg Travel Guide 2025: Coffee, Waterfalls, Trekking & More
+              Coorg Travel Guide 2026: Coffee, Waterfalls, Trekking & More
             </h1>
 
             <p

@@ -13,13 +13,13 @@ export interface RelatedPost {
 const RELATED_POSTS: RelatedPost[] = [
   {
     slug: "spiti-valley-travel-guide",
-    title: "Spiti Valley: The Complete Travel Guide 2025",
+    title: "Spiti Valley: The Complete Travel Guide 2026",
     excerpt:
       "A remote high-altitude desert in Himachal Pradesh — monasteries, fossils, and jaw-dropping roads.",
     category: "Himachal Pradesh",
     readTime: "14 min",
     image: "/images/related/spiti-valley.jpg",
-    date: "Apr 12, 2025",
+    date: "Apr 12, 2026",
   },
   {
     slug: "leh-ladakh-road-trip",
@@ -29,7 +29,7 @@ const RELATED_POSTS: RelatedPost[] = [
     category: "Ladakh",
     readTime: "18 min",
     image: "/images/related/leh-ladakh.jpg",
-    date: "Mar 28, 2025",
+    date: "Mar 28, 2026",
   },
   {
     slug: "kasol-kheerganga-trek",
@@ -39,7 +39,7 @@ const RELATED_POSTS: RelatedPost[] = [
     category: "Himachal Pradesh",
     readTime: "10 min",
     image: "/images/related/kasol.jpg",
-    date: "Mar 10, 2025",
+    date: "Mar 10, 2026",
   },
   {
     slug: "rishikesh-adventure-guide",
@@ -49,7 +49,7 @@ const RELATED_POSTS: RelatedPost[] = [
     category: "Uttarakhand",
     readTime: "12 min",
     image: "/images/related/rishikesh.jpg",
-    date: "Feb 20, 2025",
+    date: "Feb 20, 2026",
   },
 ];
 

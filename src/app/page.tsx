@@ -91,7 +91,7 @@ const categories = [
 const recentPosts = [
   {
     slug: "spiti-valley-travel-guide",
-    title: "Spiti Valley: The Complete Travel Guide 2025",
+    title: "Spiti Valley: The Complete Travel Guide 2026",
     excerpt:
       "A remote high-altitude desert in Himachal Pradesh — monasteries, fossils, and jaw-dropping roads.",
     image: "/images/related/spiti-valley.jpg",

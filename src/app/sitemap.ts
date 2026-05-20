@@ -49,19 +49,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const blogPosts: MetadataRoute.Sitemap = [
     {
       url: `${baseUrl}/blog/manali-travel-guide`,
-      lastModified: new Date("2025-05-10"),
+      lastModified: new Date("6-05-10"),
       changeFrequency: "monthly",
       priority: 0.85,
     },
     {
       url: `${baseUrl}/blog/spiti-valley-travel-guide`,
-      lastModified: new Date("2025-04-12"),
+      lastModified: new Date("2026-04-12"),
       changeFrequency: "monthly",
       priority: 0.8,
     },
     {
       url: `${baseUrl}/blog/leh-ladakh-road-trip`,
-      lastModified: new Date("2025-03-28"),
+      lastModified: new Date("2026-03-28"),
       changeFrequency: "monthly",
       priority: 0.8,
     },
