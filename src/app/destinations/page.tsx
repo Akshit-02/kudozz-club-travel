@@ -124,23 +124,23 @@ const featured = [
 
 const allDestinations = [
   ...featured,
-  //   {
-  //     slug: "kasol-kheerganga-trek",
-  //     title: "Kasol & Kheerganga",
-  //     state: "Himachal Pradesh",
-  //     tagline: "The Parvati Valley trail",
-  //     description:
-  //       "Follow the Parvati River to steaming hot springs through pine forests, tiny Himalayan villages and backpacker cafes.",
-  //     image: "/images/related/kasol.jpg",
-  //     category: "Trekking",
-  //     region: "north",
-  //     tags: ["mountains", "adventure"],
-  //     readTime: "12 min",
-  //     highlight: "Kheerganga hot springs",
-  //     bestTime: "Mar – Jun, Sep – Nov",
-  //     featured: false,
-  //     large: false,
-  //   },
+  {
+    slug: "kasol-kheerganga-trek",
+    title: "Kasol & Kheerganga",
+    state: "Himachal Pradesh",
+    tagline: "The Parvati Valley trail",
+    description:
+      "Follow the Parvati River to steaming hot springs through pine forests, tiny Himalayan villages and backpacker cafes.",
+    image: "/images/related/kasol.jpg",
+    category: "Trekking",
+    region: "north",
+    tags: ["mountains", "adventure"],
+    readTime: "12 min",
+    highlight: "Kheerganga hot springs",
+    bestTime: "Mar – Jun, Sep – Nov",
+    featured: false,
+    large: false,
+  },
   //   {
   //     slug: "valley-of-flowers",
   //     title: "Valley of Flowers",
