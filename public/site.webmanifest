@@ -1,0 +1,9 @@
+{
+  "name": "Kudozz Club — Travel Guides & Itineraries",
+  "short_name": "Kudozz Club",
+  "description": "Discover the world's most breathtaking destinations with hand-crafted travel guides, hidden gems, detailed itineraries, and insider tips from seasoned explorers.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#6255e8"
+}
