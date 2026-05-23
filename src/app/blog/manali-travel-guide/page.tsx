@@ -1,39 +1,59 @@
+import SiteFooter from "@/components/layout/SiteFooter";
+import SiteHeader from "@/components/layout/SiteHeader";
+import { RelatedPostsGrid, RelatedSidebar } from "@/components/ui/RelatedPosts";
+import TableOfContents from "@/components/ui/TableOfContents";
 import type { Metadata } from "next";
 import Link from "next/link";
-import SiteHeader from "@/components/layout/SiteHeader";
-import SiteFooter from "@/components/layout/SiteFooter";
-import TableOfContents from "@/components/ui/TableOfContents";
-import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
-import { manaliPost } from "@/lib/manali-data";
 
 // ── Per-page SEO metadata ─────────────────────────────────────────────────────
 export const metadata: Metadata = {
-  title: manaliPost.title,
-  description: manaliPost.excerpt,
-  keywords: manaliPost.tags.join(", "),
+  title: "Manali Travel Guide 2026: Top Places, Itinerary & Insider Tips",
+  description:
+    "The definitive guide to Manali in 2026. Discover the best places to visit, a complete 5-day itinerary, where to stay, what to eat, and all the insider tips you need.",
+  keywords: [
+    "Manali",
+    "Himachal Pradesh",
+    "Mountain Travel",
+    "India",
+    "Adventure",
+  ].join(", "),
   openGraph: {
-    title: manaliPost.title,
-    description: manaliPost.excerpt,
-    url: `https://explore.kudozz.in/blog/${manaliPost.slug}`,
+    title: "Manali Travel Guide 2026: Top Places, Itinerary & Insider Tips",
+    description:
+      "The definitive guide to Manali in 2026. Discover the best places to visit, a complete 5-day itinerary, where to stay, what to eat, and all the insider tips you need.",
+    url: `https://explore.kudozz.in/blog/manali-travel-guide`,
     type: "article",
-    tags: manaliPost.tags,
+    tags: [
+      "Manali",
+      "Himachal Pradesh",
+      "Mountain Travel",
+      "India",
+      "Adventure",
+    ],
+    siteName: "Kudozz Club",
+    authors: ["Kudozz Club"],
     images: [
       {
-        url: manaliPost.coverImage,
+        url: "/images/destinations/manali/hero.jpg",
         width: 1600,
         height: 900,
-        alt: manaliPost.coverAlt,
+        alt: "Snow-capped Himalayan mountains above Manali valley",
       },
     ],
   },
+  robots: {
+    index: true,
+    follow: true,
+  },
   twitter: {
     card: "summary_large_image",
-    title: manaliPost.title,
-    description: manaliPost.excerpt,
-    images: [manaliPost.coverImage],
+    title: "Manali Travel Guide 2026: Top Places, Itinerary & Insider Tips",
+    description:
+      "The definitive guide to Manali in 2026. Discover the best places to visit, a complete 5-day itinerary, where to stay, what to eat, and all the insider tips you need.",
+    images: ["/images/destinations/manali/hero.jpg"],
   },
   alternates: {
-    canonical: `https://explore.kudozz.in/blog/${manaliPost.slug}`,
+    canonical: `https://explore.kudozz.in/blog/manali-travel-guide`,
   },
 };
 
@@ -45,10 +65,12 @@ function ArticleSchema() {
       dangerouslySetInnerHTML={{
         __html: JSON.stringify({
           "@context": "https://schema.org",
-          "@type": "TravelGuide",
-          headline: manaliPost.title,
-          description: manaliPost.excerpt,
-          image: manaliPost.coverImage,
+          "@type": "BlogPosting",
+          headline:
+            "Manali Travel Guide 2026: Top Places, Itinerary & Insider Tips",
+          description:
+            "The definitive guide to Manali in 2026. Discover the best places to visit, a complete 5-day itinerary, where to stay, what to eat, and all the insider tips you need.",
+          image: "/images/destinations/manali/hero.jpg",
 
           publisher: {
             "@type": "Organization",
@@ -58,11 +80,21 @@ function ArticleSchema() {
               url: "https://explore.kudozz.in/logo.png",
             },
           },
+          author: {
+            "@type": "Organization",
+            name: "Kudozz Club",
+          },
           mainEntityOfPage: {
             "@type": "WebPage",
-            "@id": `https://explore.kudozz.in/blog/${manaliPost.slug}`,
+            "@id": `https://explore.kudozz.in/blog/manali-travel-guide`,
           },
-          keywords: manaliPost.tags.join(", "),
+          keywords: [
+            "Manali",
+            "Himachal Pradesh",
+            "Mountain Travel",
+            "India",
+            "Adventure",
+          ].join(", "),
           about: {
             "@type": "Place",
             name: "Manali",
@@ -96,10 +128,25 @@ function ArticleSchema() {
   );
 }
 
+const tableOfContents = [
+  { id: "introduction", title: "Why Visit Manali?", level: 2 },
+  { id: "best-time", title: "Best Time to Visit", level: 2 },
+  { id: "how-to-reach", title: "How to Reach Manali", level: 2 },
+  { id: "top-places", title: "Top Places to Visit", level: 2 },
+  { id: "rohtang-pass", title: "→ Rohtang Pass", level: 3 },
+  { id: "solang-valley", title: "→ Solang Valley", level: 3 },
+  { id: "hadimba-temple", title: "→ Hadimba Devi Temple", level: 3 },
+  { id: "old-manali", title: "→ Old Manali", level: 3 },
+  { id: "vashisht", title: "→ Vashisht Village", level: 3 },
+  { id: "itinerary", title: "5-Day Itinerary", level: 2 },
+  { id: "where-to-stay", title: "Where to Stay", level: 2 },
+  { id: "food-guide", title: "What to Eat", level: 2 },
+  { id: "budget", title: "Budget Breakdown", level: 2 },
+  { id: "tips", title: "Essential Travel Tips", level: 2 },
+];
+
 // ── Page ─────────────────────────────────────────────────────────────────────
 export default function ManaliPage() {
-  const post = manaliPost;
-
   return (
     <>
       <ArticleSchema />
@@ -111,8 +158,8 @@ export default function ManaliPage() {
           {/* Hero Image */}
           <div className="absolute inset-0">
             <img
-              src={post.coverImage}
-              alt={post.coverAlt}
+              src="/images/destinations/manali/hero.jpg"
+              alt="Snow-capped Himalayan mountains above Manali valley"
               className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/50 to-stone-800/20" />
@@ -155,28 +202,38 @@ export default function ManaliPage() {
           {/* Hero Content */}
           <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-8 pb-14 pt-32">
             <div className="flex flex-wrap gap-2 mb-5">
-              {post.tags.slice(0, 4).map((tag) => (
-                <span
-                  key={tag}
-                  className="px-3 py-1 text-xs font-semibold uppercase tracking-wide bg-white/20 backdrop-blur-sm text-white rounded-full border border-white/30"
-                  style={{ fontFamily: "var(--font-dm-sans)" }}
-                >
-                  {tag}
-                </span>
-              ))}
+              {[
+                "Manali",
+                "Himachal Pradesh",
+                "Mountain Travel",
+                "India",
+                "Adventure",
+              ]
+                .slice(0, 4)
+                .map((tag) => (
+                  <span
+                    key={tag}
+                    className="px-3 py-1 text-xs font-semibold uppercase tracking-wide bg-white/20 backdrop-blur-sm text-white rounded-full border border-white/30"
+                    style={{ fontFamily: "var(--font-dm-sans)" }}
+                  >
+                    {tag}
+                  </span>
+                ))}
             </div>
 
             <h1
               className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-5 leading-tight"
               style={{ fontFamily: "var(--font-playfair)" }}
             >
-              {post.title}
+              Manali Travel Guide 2026: Top Places, Itinerary & Insider Tips
             </h1>
             <p
               className="text-lg text-white/80 max-w-2xl mb-8 leading-relaxed"
               style={{ fontFamily: "var(--font-source-serif)" }}
             >
-              {post.subtitle}
+              "Everything you need to plan the perfect Manali trip — from snowy
+              peaks to apple orchards, ancient temples to adrenaline-packed
+              adventures."
             </p>
 
             {/* Meta Row */}
@@ -198,7 +255,7 @@ export default function ManaliPage() {
                     d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
                   />
                 </svg>
-                {post.readTime} read
+                16 min read
               </span>
             </div>
           </div>
@@ -210,7 +267,7 @@ export default function ManaliPage() {
             {/* Left: Table of Contents */}
             <div className="hidden lg:block w-64 xl:w-72 flex-shrink-0">
               <div className="sticky top-24">
-                <TableOfContents items={post.tableOfContents} />
+                <TableOfContents items={tableOfContents} />
               </div>
             </div>
 
@@ -822,7 +879,13 @@ export default function ManaliPage() {
 
               {/* Tags */}
               <div className="mt-8 flex flex-wrap gap-2">
-                {post.tags.map((tag) => (
+                {[
+                  "Manali",
+                  "Himachal Pradesh",
+                  "Mountain Travel",
+                  "India",
+                  "Adventure",
+                ].map((tag) => (
                   <Link
                     key={tag}
                     href={`/blog?tag=${tag.toLowerCase()}`}

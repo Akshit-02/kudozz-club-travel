@@ -30,6 +30,9 @@ export const metadata: Metadata = {
 
   // Open Graph
   openGraph: {
+    title: "Kudozz Club — Travel Guides & Itineraries",
+    description:
+      "Discover the world's most breathtaking destinations with hand-crafted travel guides, hidden gems, detailed itineraries, and insider tips from seasoned explorers.",
     type: "website",
     locale: "en_IN",
     url: "https://explore.kudozz.in",
@@ -49,6 +52,9 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@kudozz.in",
     creator: "@kudozz.in",
+    title: "Kudozz Club — Travel Guides & Itineraries",
+    description:
+      "Discover the world's most breathtaking destinations with hand-crafted travel guides, hidden gems, detailed itineraries, and insider tips from seasoned explorers.",
   },
 
   // Robots
@@ -64,21 +70,15 @@ export const metadata: Metadata = {
     },
   },
 
-  // Verification tags (add your values)
-  verification: {
-    google: "YOUR_GOOGLE_SITE_VERIFICATION_TOKEN",
-    // bing: 'YOUR_BING_VERIFICATION_TOKEN',
-  },
-
   // Icons
   icons: {
     icon: "/favicon.ico",
-    shortcut: "/favicon-16x16.png",
-    apple: "/apple-touch-icon.png",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
   },
 
-  // Manifest for PWA
-  manifest: "/site.webmanifest",
+  // // Manifest for PWA
+  // manifest: "/site.webmanifest",
 
   // Canonical URL handled per-page via generateMetadata
   alternates: {
@@ -87,6 +87,13 @@ export const metadata: Metadata = {
       "en-IN": "https://explore.kudozz.in",
     },
   },
+
+  authors: [
+    {
+      name: "Kudozz Club",
+      url: "https://explore.kudozz.in",
+    },
+  ],
 };
 
 export default function RootLayout({
@@ -123,6 +130,23 @@ export default function RootLayout({
                 "https://twitter.com/kudozz.in",
                 "https://instagram.com/kudozz.in",
               ],
+            }),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              name: "Kudozz Club",
+              url: "https://explore.kudozz.in",
+              potentialAction: {
+                "@type": "SearchAction",
+                target:
+                  "https://explore.kudozz.in/search?q={search_term_string}",
+                "query-input": "required name=search_term_string",
+              },
             }),
           }}
         />

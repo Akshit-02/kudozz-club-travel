@@ -20,6 +20,7 @@ export const metadata: Metadata = {
     url: "https://explore.kudozz.in/blog/leh-ladakh-road-trip",
     type: "article",
     siteName: "Kudozz Club",
+    authors: ["Kudozz Club"],
     images: [
       {
         url: "/images/destinations/leh-ladakh/leh-ladakh.jpg",
@@ -28,6 +29,10 @@ export const metadata: Metadata = {
         alt: "Leh Ladakh moonscape landscape with Himalayan peaks",
       },
     ],
+  },
+  robots: {
+    index: true,
+    follow: true,
   },
   twitter: {
     card: "summary_large_image",
@@ -49,7 +54,7 @@ function ArticleSchema() {
       dangerouslySetInnerHTML={{
         __html: JSON.stringify({
           "@context": "https://schema.org",
-          "@type": "TravelGuide",
+          "@type": "BlogPosting",
           headline:
             "Leh Ladakh Road Trip Guide 2026: Routes, Permits, Passes & Tips",
           description:
@@ -63,6 +68,10 @@ function ArticleSchema() {
               "@type": "ImageObject",
               url: "https://explore.kudozz.in/logo.png",
             },
+          },
+          author: {
+            "@type": "Organization",
+            name: "Kudozz Club",
           },
           mainEntityOfPage: {
             "@type": "WebPage",

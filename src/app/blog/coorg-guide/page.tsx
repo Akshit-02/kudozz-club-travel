@@ -20,6 +20,7 @@ export const metadata: Metadata = {
     url: "https://explore.kudozz.in/blog/coorg-guide",
     type: "article",
     siteName: "Kudozz Club",
+    authors: ["Kudozz Club"],
     images: [
       {
         url: "/images/destinations/coorg/coorg.jpg",
@@ -28,6 +29,10 @@ export const metadata: Metadata = {
         alt: "Coorg coffee plantation with misty Western Ghats hills",
       },
     ],
+  },
+  robots: {
+    index: true,
+    follow: true,
   },
   twitter: {
     card: "summary_large_image",
@@ -49,7 +54,7 @@ function ArticleSchema() {
       dangerouslySetInnerHTML={{
         __html: JSON.stringify({
           "@context": "https://schema.org",
-          "@type": "TravelGuide",
+          "@type": "BlogPosting",
           headline:
             "Coorg Travel Guide 2026: Coffee, Waterfalls, Trekking & More",
           description: "The complete Coorg (Kodagu) travel guide for 2026.",
@@ -62,6 +67,10 @@ function ArticleSchema() {
               "@type": "ImageObject",
               url: "https://explore.kudozz.in/logo.png",
             },
+          },
+          author: {
+            "@type": "Organization",
+            name: "Kudozz Club",
           },
           mainEntityOfPage: {
             "@type": "WebPage",

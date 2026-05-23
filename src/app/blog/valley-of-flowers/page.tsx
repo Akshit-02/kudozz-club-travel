@@ -21,6 +21,7 @@ export const metadata: Metadata = {
     url: "https://explore.kudozz.in/blog/valley-of-flowers",
     type: "article",
     siteName: "Kudozz Club",
+    authors: ["Kudozz Club"],
     images: [
       {
         url: "/images/destinations/manali/hero.jpg",
@@ -29,6 +30,10 @@ export const metadata: Metadata = {
         alt: "Valley of Flowers in full bloom with Himalayan peaks",
       },
     ],
+  },
+  robots: {
+    index: true,
+    follow: true,
   },
   twitter: {
     card: "summary_large_image",
@@ -50,7 +55,7 @@ function ArticleSchema() {
       dangerouslySetInnerHTML={{
         __html: JSON.stringify({
           "@context": "https://schema.org",
-          "@type": "TravelGuide",
+          "@type": "BlogPosting",
           headline:
             "Valley of Flowers Trek Guide 2025: Permits, Routes, Best Time & Tips",
           description:
@@ -64,6 +69,10 @@ function ArticleSchema() {
               "@type": "ImageObject",
               url: "https://explore.kudozz.in/logo.png",
             },
+          },
+          author: {
+            "@type": "Organization",
+            name: "Kudozz Club",
           },
           mainEntityOfPage: {
             "@type": "WebPage",

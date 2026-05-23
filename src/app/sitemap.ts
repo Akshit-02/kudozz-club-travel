@@ -26,12 +26,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
-      url: `${baseUrl}/itineraries`,
-      lastModified: now,
-      changeFrequency: "weekly",
-      priority: 0.8,
-    },
-    {
       url: `${baseUrl}/about`,
       lastModified: now,
       changeFrequency: "monthly",
@@ -43,25 +37,61 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
       priority: 0.4,
     },
+    {
+      url: `${baseUrl}/newsletter`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.4,
+    },
+    {
+      url: `${baseUrl}/write-for-us`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.4,
+    },
   ];
 
   // Blog post pages (fetch from CMS/DB in production)
   const blogPosts: MetadataRoute.Sitemap = [
     {
+      url: `${baseUrl}/blog/coorg-guide`,
+      lastModified: new Date("2026-05-23"),
+      changeFrequency: "monthly",
+      priority: 0.85,
+    },
+    {
+      url: `${baseUrl}/blog/kasol-kheerganga-trek`,
+      lastModified: new Date("2026-05-23"),
+      changeFrequency: "monthly",
+      priority: 0.85,
+    },
+    {
       url: `${baseUrl}/blog/manali-travel-guide`,
-      lastModified: new Date("6-05-10"),
+      lastModified: new Date("2026-05-23"),
       changeFrequency: "monthly",
       priority: 0.85,
     },
     {
       url: `${baseUrl}/blog/spiti-valley-travel-guide`,
-      lastModified: new Date("2026-04-12"),
+      lastModified: new Date("2026-05-23"),
       changeFrequency: "monthly",
       priority: 0.8,
     },
     {
       url: `${baseUrl}/blog/leh-ladakh-road-trip`,
-      lastModified: new Date("2026-03-28"),
+      lastModified: new Date("2026-05-23"),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/blog/rishikesh-adventure-guide`,
+      lastModified: new Date("2026-05-23"),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/blog/valley-of-flowers`,
+      lastModified: new Date("2026-05-23"),
       changeFrequency: "monthly",
       priority: 0.8,
     },

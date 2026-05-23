@@ -22,6 +22,7 @@ export const metadata: Metadata = {
     url: "https://explore.kudozz.in/blog/kasol-kheerganga-trek",
     type: "article",
     siteName: "Kudozz Club",
+    authors: ["Kudozz Club"],
     images: [
       {
         url: "/images/destinations/kasol/kasol.jpg",
@@ -30,6 +31,10 @@ export const metadata: Metadata = {
         alt: "Kasol riverside and Parvati Valley pine forest",
       },
     ],
+  },
+  robots: {
+    index: true,
+    follow: true,
   },
   twitter: {
     card: "summary_large_image",
@@ -51,7 +56,8 @@ function ArticleSchema() {
       dangerouslySetInnerHTML={{
         __html: JSON.stringify({
           "@context": "https://schema.org",
-          "@type": "TravelGuide",
+          "@type": "BlogPosting",
+
           headline:
             "Kasol & Kheerganga Trek Guide 2025: The Complete Parvati Valley Trail",
           description:
@@ -65,6 +71,10 @@ function ArticleSchema() {
               "@type": "ImageObject",
               url: "https://explore.kudozz.in/logo.png",
             },
+          },
+          author: {
+            "@type": "Organization",
+            name: "Kudozz Club",
           },
           mainEntityOfPage: {
             "@type": "WebPage",

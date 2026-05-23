@@ -20,6 +20,7 @@ export const metadata: Metadata = {
     url: "https://explore.kudozz.in/blog/rishikesh-adventure-guide",
     type: "article",
     siteName: "Kudozz Club",
+    authors: ["Kudozz Club"],
     images: [
       {
         url: "/images/destinations/rishikesh/rishikesh.jpg",
@@ -28,6 +29,10 @@ export const metadata: Metadata = {
         alt: "Rishikesh Ganges river and suspension bridge",
       },
     ],
+  },
+  robots: {
+    index: true,
+    follow: true,
   },
   twitter: {
     card: "summary_large_image",
@@ -49,7 +54,7 @@ function ArticleSchema() {
       dangerouslySetInnerHTML={{
         __html: JSON.stringify({
           "@context": "https://schema.org",
-          "@type": "TravelGuide",
+          "@type": "BlogPosting",
           headline:
             "Rishikesh Travel Guide 2026: Adventure, Yoga, Rafting & More",
           description:
@@ -63,6 +68,10 @@ function ArticleSchema() {
               "@type": "ImageObject",
               url: "https://explore.kudozz.in/logo.png",
             },
+          },
+          author: {
+            "@type": "Organization",
+            name: "Kudozz Club",
           },
           mainEntityOfPage: {
             "@type": "WebPage",
