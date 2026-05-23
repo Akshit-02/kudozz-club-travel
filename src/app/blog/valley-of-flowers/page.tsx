@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/manali/hero.jpg",
+        url: "/images/destinations/manali/hero.jpg",
         width: 1200,
         height: 630,
         alt: "Valley of Flowers in full bloom with Himalayan peaks",
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     title: "Valley of Flowers Trek Guide 2025",
     description:
       "300+ wildflowers, UNESCO heritage, and a Himalayan meadow that blooms for just 8 weeks — the complete guide.",
-    images: ["/images/manali/hero.jpg"],
+    images: ["/images/destinations/manali/hero.jpg"],
   },
   alternates: {
     canonical: "https://explore.kudozz.in/blog/valley-of-flowers",
@@ -55,7 +55,8 @@ function ArticleSchema() {
             "Valley of Flowers Trek Guide 2025: Permits, Routes, Best Time & Tips",
           description:
             "The complete Valley of Flowers National Park trek guide for 2025.",
-          image: "https://explore.kudozz.in/images/manali/hero.jpg",
+          image:
+            "https://explore.kudozz.in/images/destinations/manali/hero.jpg",
           publisher: {
             "@type": "Organization",
             name: "Kudozz Club",
@@ -141,7 +142,7 @@ export default function ValleyOfFlowersPage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <img
-              src="/images/manali/hero.jpg"
+              src="/images/destinations/manali/hero.jpg"
               alt="Valley of Flowers — Himalayan meadow in full bloom with snow-capped peaks"
               className="w-full h-full object-cover"
             />
@@ -833,7 +834,7 @@ export default function ValleyOfFlowersPage() {
                   <section id="govindghat-ghangaria">
                     <h3>Stage 1: Govindghat to Ghangaria</h3>
                     <img
-                      src="/images/manali/rohtang-pass.jpg"
+                      src="/images/destinations/manali/rohtang-pass.jpg"
                       alt="Trail from Govindghat to Ghangaria along the Pushpawati River"
                       className="w-full rounded-xl my-6 h-64 object-cover"
                     />

@@ -38,21 +38,21 @@ const team = [
     name: "Arjun Mehta",
     role: "Founder & Lead Writer",
     bio: "Former software engineer turned full-time traveller. Has visited 28 Indian states and counts Spiti Valley as his spiritual home.",
-    avatar: "/images/related/spiti-valley.jpg",
+    avatar: "/images/destinations/spiti-valley/spiti-valley.jpg",
     trips: "28 states",
   },
   {
     name: "Sneha Iyer",
     role: "Destination Editor",
     bio: "South India specialist and wildlife photographer. If it involves a forest, a temple, or a backwater, she's probably been twice.",
-    avatar: "/images/related/rishikesh.jpg",
+    avatar: "/images/destinations/rishikesh/rishikesh.jpg",
     trips: "South & East India",
   },
   {
     name: "Kabir Nair",
     role: "Adventure & Trekking",
     bio: "Certified mountaineer and trekking guide. Has completed 40+ Himalayan treks and writes our most detailed high-altitude guides.",
-    avatar: "/images/related/leh-ladakh.jpg",
+    avatar: "/images/destinations/leh-ladakh/leh-ladakh.jpg",
     trips: "40+ Himalayan treks",
   },
 ];
@@ -89,7 +89,7 @@ export default function AboutPage() {
         <section className="relative min-h-[60vh] flex items-end overflow-hidden">
           <div className="absolute inset-0">
             <img
-              src="/images/related/leh-ladakh.jpg"
+              src="/images/destinations/leh-ladakh/leh-ladakh.jpg"
               alt="About Kudozz Club"
               className="w-full h-full object-cover"
             />

@@ -145,7 +145,7 @@ export default function WriteForUsPage() {
         <section className="relative min-h-[65vh] flex items-end overflow-hidden">
           <div className="absolute inset-0">
             <img
-              src="/images/manali/hero.jpg"
+              src="/images/destinations/manali/hero.jpg"
               alt="Write for Kudozz Club"
               className="w-full h-full object-cover"
             />

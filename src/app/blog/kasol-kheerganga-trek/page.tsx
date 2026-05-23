@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/related/kasol.jpg",
+        url: "/images/destinations/kasol/kasol.jpg",
         width: 1200,
         height: 630,
         alt: "Kasol riverside and Parvati Valley pine forest",
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     title: "Kasol & Kheerganga Trek Guide 2025",
     description:
       "Parvati Valley cafes, forest trails and Himalayan hot springs — everything you need for Kasol and Kheerganga.",
-    images: ["/images/related/kasol.jpg"],
+    images: ["/images/destinations/kasol/kasol.jpg"],
   },
   alternates: {
     canonical: "https://explore.kudozz.in/blog/kasol-kheerganga-trek",
@@ -56,7 +56,8 @@ function ArticleSchema() {
             "Kasol & Kheerganga Trek Guide 2025: The Complete Parvati Valley Trail",
           description:
             "The complete guide to Kasol and the Kheerganga trek in 2025.",
-          image: "https://explore.kudozz.in/images/related/kasol.jpg",
+          image:
+            "https://explore.kudozz.in/images/destinations/kasol/kasol.jpg",
           publisher: {
             "@type": "Organization",
             name: "Kudozz Club",
@@ -142,7 +143,7 @@ export default function KasolKheergangaPage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <img
-              src="/images/related/kasol.jpg"
+              src="/images/destinations/kasol/kasol.jpg"
               alt="Kasol — pine forests along the Parvati River in Himachal Pradesh"
               className="w-full h-full object-cover"
             />
@@ -630,7 +631,7 @@ export default function KasolKheergangaPage() {
                   <section id="tosh">
                     <h3>Tosh Village</h3>
                     <img
-                      src="/images/related/kasol.jpg"
+                      src="/images/destinations/kasol/kasol.jpg"
                       alt="Tosh village perched high above Parvati Valley"
                       className="w-full rounded-xl my-6 h-64 object-cover"
                     />

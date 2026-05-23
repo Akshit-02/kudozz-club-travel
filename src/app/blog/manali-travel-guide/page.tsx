@@ -391,7 +391,7 @@ export default function ManaliPage() {
                   <section id="rohtang-pass">
                     <h3>Rohtang Pass</h3>
                     <img
-                      src="/images/manali/rohtang-pass.jpg"
+                      src="/images/destinations/manali/rohtang-pass.jpg"
                       alt="Snow-covered Rohtang Pass with vehicles and tourists"
                       className="w-full rounded-xl my-6 h-72 object-cover"
                     />
@@ -425,7 +425,7 @@ export default function ManaliPage() {
                   <section id="solang-valley">
                     <h3>Solang Valley</h3>
                     <img
-                      src="/images/manali/solang-valley.jpg"
+                      src="/images/destinations/manali/solang-valley.jpg"
                       alt="Solang Valley with cable cars and snow mountains"
                       className="w-full rounded-xl my-6 h-72 object-cover"
                     />
@@ -449,7 +449,7 @@ export default function ManaliPage() {
                   <section id="hadimba-temple">
                     <h3>Hadimba Devi Temple</h3>
                     <img
-                      src="/images/manali/hadimba-temple.jpg"
+                      src="/images/destinations/manali/hadimba-temple.jpg"
                       alt="Pagoda-style Hadimba Devi Temple in cedar forest"
                       className="w-full rounded-xl my-6 h-72 object-cover"
                     />

@@ -29,7 +29,7 @@ const featuredPost = {
   title: "Leh Ladakh Road Trip Guide 2026: Routes, Permits, Passes & Tips",
   excerpt:
     "Moonscapes, Buddhist monasteries, and the world's highest motorable passes — the most complete Leh Ladakh road trip guide you'll find, written after 14 days on the ground.",
-  image: "/images/related/leh-ladakh.jpg",
+  image: "/images/destinations/leh-ladakh/leh-ladakh.jpg",
   category: "Road Trip",
   categoryColor: "bg-stone-100 text-stone-700",
   tags: ["Ladakh", "Road Trip", "High Altitude"],
@@ -42,7 +42,7 @@ const posts = [
     title: "Manali Travel Guide 2026: Top Places, Itinerary & Insider Tips",
     excerpt:
       "The definitive guide to Manali — Rohtang Pass, Solang Valley, Old Manali cafes, and a 5-day itinerary that covers it all.",
-    image: "/images/manali/hero.jpg",
+    image: "/images/destinations/manali/hero.jpg",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Manali", "Himachal Pradesh"],
@@ -54,7 +54,7 @@ const posts = [
     title: "Spiti Valley: The Complete Travel Guide 2026",
     excerpt:
       "A cold desert between Tibet and India — monasteries, fossils, and roads that will test your nerve and reward your soul.",
-    image: "/images/related/spiti-valley.jpg",
+    image: "/images/destinations/spiti-valley/spiti-valley.jpg",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Spiti Valley", "Off-beat"],
@@ -66,7 +66,7 @@ const posts = [
     title: "Rishikesh Travel Guide 2026: Adventure, Yoga, Rafting & More",
     excerpt:
       "India's adventure capital where white-water rafting meets Ganga aarti — everything you need for the perfect Rishikesh trip.",
-    image: "/images/related/rishikesh.jpg",
+    image: "/images/destinations/rishikesh/rishikesh.jpg",
     category: "Adventure",
     categoryColor: "bg-amber-100 text-amber-700",
     tags: ["Rishikesh", "Rafting", "Yoga"],
@@ -78,7 +78,7 @@ const posts = [
     title: "Coorg Travel Guide 2026: Coffee, Waterfalls, Trekking & More",
     excerpt:
       "Misty coffee hills, thundering waterfalls, Nagarhole wildlife and Kodava warmth — South India's most quietly magnificent escape.",
-    image: "/images/related/coorg.jpg",
+    image: "/images/destinations/coorg/coorg.jpg",
     category: "Destination Guide",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Coorg", "Karnataka", "Coffee"],
@@ -90,7 +90,7 @@ const posts = [
     title: "Leh Ladakh Road Trip Guide 2026",
     excerpt:
       "Pangong Tso, Nubra Valley, Khardung La and 14 days on the most dramatic roads on earth.",
-    image: "/images/related/leh-ladakh.jpg",
+    image: "/images/destinations/leh-ladakh/leh-ladakh.jpg",
     category: "Road Trip",
     categoryColor: "bg-stone-100 text-stone-700",
     tags: ["Ladakh", "Road Trip"],
@@ -102,7 +102,7 @@ const posts = [
     title: "Kasol & Kheerganga: The Backpacker's Himalayan Trail",
     excerpt:
       "Follow the Parvati River to natural hot springs through pine forests and tiny Himalayan villages.",
-    image: "/images/related/kasol.jpg",
+    image: "/images/destinations/kasol/kasol.jpg",
     category: "Trekking",
     categoryColor: "bg-green-100 text-green-700",
     tags: ["Kasol", "Trekking"],

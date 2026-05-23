@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/related/spiti-valley.jpg",
+        url: "/images/destinations/spiti-valley/spiti-valley.jpg",
         width: 1200,
         height: 630,
         alt: "Spiti Valley landscape",
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     title: "Spiti Valley Travel Guide 2026",
     description:
       "Roads, monasteries, hidden villages — the complete guide to Spiti Valley.",
-    images: ["/images/related/spiti-valley.jpg"],
+    images: ["/images/destinations/spiti-valley/spiti-valley.jpg"],
   },
   alternates: {
     canonical: "https://explore.kudozz.in/blog/spiti-valley-travel-guide",
@@ -54,7 +54,8 @@ function ArticleSchema() {
           headline:
             "Spiti Valley Travel Guide 2026: Roads, Monasteries & Hidden Villages",
           description: "The most complete Spiti Valley travel guide for 2026.",
-          image: "https://explore.kudozz.in/images/related/spiti-valley.jpg",
+          image:
+            "https://explore.kudozz.in/images/destinations/spiti-valley/spiti-valley.jpg",
           publisher: {
             "@type": "Organization",
             name: "Kudozz Club",
@@ -149,7 +150,7 @@ export default function SpitiValleyPage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <img
-              src="/images/related/spiti-valley.jpg"
+              src="/images/destinations/spiti-valley/spiti-valley.jpg"
               alt="Spiti Valley — barren moonscape with Key Monastery"
               className="w-full h-full object-cover"
             />
@@ -490,7 +491,7 @@ export default function SpitiValleyPage() {
                   <section id="kaza">
                     <h3>Kaza — The Heart of Spiti</h3>
                     <img
-                      src="/images/related/spiti-valley.jpg"
+                      src="/images/destinations/spiti-valley/spiti-valley.jpg"
                       alt="Kaza town in Spiti Valley"
                       className="w-full rounded-xl my-6 h-72 object-cover"
                     />

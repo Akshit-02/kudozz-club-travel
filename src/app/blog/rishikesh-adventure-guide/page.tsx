@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/related/rishikesh.jpg",
+        url: "/images/destinations/rishikesh/rishikesh.jpg",
         width: 1200,
         height: 630,
         alt: "Rishikesh Ganges river and suspension bridge",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     title: "Rishikesh Travel Guide 2026",
     description:
       "Adventure, yoga, rafting and Ganga aarti — everything you need to plan your Rishikesh trip.",
-    images: ["/images/related/rishikesh.jpg"],
+    images: ["/images/destinations/rishikesh/rishikesh.jpg"],
   },
   alternates: {
     canonical: "https://explore.kudozz.in/blog/rishikesh-adventure-guide",
@@ -54,7 +54,8 @@ function ArticleSchema() {
             "Rishikesh Travel Guide 2026: Adventure, Yoga, Rafting & More",
           description:
             "The complete Rishikesh travel guide for 2026 — rafting, yoga, bungee, Ganga aarti, cafes, stays and insider tips.",
-          image: "https://explore.kudozz.in/images/related/rishikesh.jpg",
+          image:
+            "https://explore.kudozz.in/images/destinations/rishikesh/rishikesh.jpg",
           publisher: {
             "@type": "Organization",
             name: "Kudozz Club",
@@ -141,7 +142,7 @@ export default function RishikeshPage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <img
-              src="/images/related/rishikesh.jpg"
+              src="/images/destinations/rishikesh/rishikesh.jpg"
               alt="Rishikesh — Ganges river, suspension bridge and Himalayan foothills"
               className="w-full h-full object-cover"
             />
@@ -503,7 +504,7 @@ export default function RishikeshPage() {
                   <section id="rafting">
                     <h3>White-Water Rafting</h3>
                     <img
-                      src="/images/related/rishikesh.jpg"
+                      src="/images/destinations/rishikesh/rishikesh.jpg"
                       alt="White-water rafting on the Ganges in Rishikesh"
                       className="w-full rounded-xl my-6 h-72 object-cover"
                     />

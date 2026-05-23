@@ -18,7 +18,7 @@ const RELATED_POSTS: RelatedPost[] = [
       "A remote high-altitude desert in Himachal Pradesh — monasteries, fossils, and jaw-dropping roads.",
     category: "Himachal Pradesh",
     readTime: "14 min",
-    image: "/images/related/spiti-valley.jpg",
+    image: "/images/destinations/spiti-valley/spiti-valley.jpg",
     date: "Apr 12, 2026",
   },
   {
@@ -28,7 +28,7 @@ const RELATED_POSTS: RelatedPost[] = [
       "Moonscapes, Buddhist monasteries, and the world's highest motorable passes await on this epic road trip.",
     category: "Ladakh",
     readTime: "18 min",
-    image: "/images/related/leh-ladakh.jpg",
+    image: "/images/destinations/leh-ladakh/leh-ladakh.jpg",
     date: "Mar 28, 2026",
   },
   {
@@ -38,7 +38,7 @@ const RELATED_POSTS: RelatedPost[] = [
       "Follow the Parvati River trail to Kheerganga hot springs through pine forests and tiny Himalayan villages.",
     category: "Himachal Pradesh",
     readTime: "10 min",
-    image: "/images/related/kasol.jpg",
+    image: "/images/destinations/kasol/kasol.jpg",
     date: "Mar 10, 2026",
   },
   {
@@ -48,7 +48,7 @@ const RELATED_POSTS: RelatedPost[] = [
       "The yoga capital of the world also happens to be India's adventure hub — white water rafting, bungee, and beyond.",
     category: "Uttarakhand",
     readTime: "12 min",
-    image: "/images/related/rishikesh.jpg",
+    image: "/images/destinations/rishikesh/rishikesh.jpg",
     date: "Feb 20, 2026",
   },
 ];

@@ -42,7 +42,7 @@ const featured = [
     tagline: "Where the mountains begin",
     description:
       "Snow-capped peaks, apple orchards, ancient temples and Himalayan adventure in one of India's most beloved hill stations.",
-    image: "/images/manali/hero.jpg",
+    image: "/images/destinations/manali/hero.jpg",
     category: "Mountains",
     region: "north",
     tags: ["mountains", "adventure"],
@@ -59,7 +59,7 @@ const featured = [
     tagline: "Beyond the highest passes",
     description:
       "Moonscapes, Buddhist monasteries and the world's most dramatic road trip through passes that touch the sky.",
-    image: "/images/related/leh-ladakh.jpg",
+    image: "/images/destinations/leh-ladakh/leh-ladakh.jpg",
     category: "Road Trip",
     region: "north",
     tags: ["mountains", "adventure"],
@@ -76,7 +76,7 @@ const featured = [
     tagline: "The cold desert between worlds",
     description:
       "Remote monasteries, Mars-like landscapes and an unfiltered slice of Tibetan-Buddhist culture on India's most dramatic road.",
-    image: "/images/related/spiti-valley.jpg",
+    image: "/images/destinations/spiti-valley/spiti-valley.jpg",
     category: "Off-beat",
     region: "north",
     tags: ["mountains", "offbeat"],
@@ -93,7 +93,7 @@ const featured = [
     tagline: "Where the Ganga roars",
     description:
       "India's adventure capital and yoga heartland — white-water rafting, bungee jumping and Ganga aarti all in one spiritual town.",
-    image: "/images/related/rishikesh.jpg",
+    image: "/images/destinations/rishikesh/rishikesh.jpg",
     category: "Adventure",
     region: "north",
     tags: ["adventure", "spiritual"],
@@ -110,7 +110,7 @@ const featured = [
     tagline: "India's coffee country",
     description:
       "Misty coffee hills, thundering waterfalls, Nagarhole wildlife and the warm hospitality of the Kodava people.",
-    image: "/images/related/coorg.jpg",
+    image: "/images/destinations/coorg/coorg.jpg",
     category: "Nature",
     region: "south",
     tags: ["wildlife", "offbeat"],
@@ -131,7 +131,7 @@ const allDestinations = [
     tagline: "The Parvati Valley trail",
     description:
       "Follow the Parvati River to steaming hot springs through pine forests, tiny Himalayan villages and backpacker cafes.",
-    image: "/images/related/kasol.jpg",
+    image: "/images/destinations/kasol/kasol.jpg",
     category: "Trekking",
     region: "north",
     tags: ["mountains", "adventure"],
@@ -148,7 +148,7 @@ const allDestinations = [
     tagline: "A meadow of 300 wildflowers",
     description:
       "A UNESCO World Heritage Site that blooms briefly each monsoon with hundreds of Himalayan wildflower species.",
-    image: "/images/manali/hero.jpg",
+    image: "/images/destinations/manali/hero.jpg",
     category: "Trekking",
     region: "north",
     tags: ["mountains", "offbeat"],
@@ -165,7 +165,7 @@ const allDestinations = [
   //     tagline: "Where the Bay meets paradise",
   //     description:
   //       "Crystal-clear waters, pristine coral reefs, white sand beaches and the haunting history of Cellular Jail.",
-  //     image: "/images/related/rishikesh.jpg",
+  //     image: "/images/destinations/rishikesh/rishikesh.jpg",
   //     category: "Beaches",
   //     region: "islands",
   //     tags: ["beaches", "adventure"],
@@ -182,7 +182,7 @@ const allDestinations = [
   //     tagline: "Ruins of a lost empire",
   //     description:
   //       "The extraordinary ruins of the Vijayanagara Empire scattered across a surreal boulder landscape — one of India's most unique heritage sites.",
-  //     image: "/images/destinations/coorg.jpg",
+  //     image: "/images/destinations/coorg/coorg.jpg",
   //     category: "Heritage",
   //     region: "south",
   //     tags: ["heritage", "offbeat"],
@@ -199,7 +199,7 @@ const allDestinations = [
   //     tagline: "Life on the waterways",
   //     description:
   //       "A 900-km network of lagoons, canals and lakes explored by houseboat — coconut palms, toddy shops and village life at water level.",
-  //     image: "/images/related/spiti-valley.jpg",
+  //     image: "/images/destinations/spiti-valley/spiti-valley.jpg",
   //     category: "Nature",
   //     region: "south",
   //     tags: ["offbeat"],
@@ -216,7 +216,7 @@ const allDestinations = [
   //     tagline: "The golden city of sand",
   //     description:
   //       "A living medieval fort rising from the Thar Desert, camel safaris into the dunes and the most spectacular havelis in Rajasthan.",
-  //     image: "/images/related/leh-ladakh.jpg",
+  //     image: "/images/destinations/leh-ladakh/leh-ladakh.jpg",
   //     category: "Heritage",
   //     region: "west",
   //     tags: ["heritage", "adventure"],
@@ -233,7 +233,7 @@ const allDestinations = [
   //     tagline: "India's most untouched valley",
   //     description:
   //       "A UNESCO tentative heritage site in Arunachal — home to the Apatani tribe, terraced rice fields and one of India's best music festivals.",
-  //     image: "/images/related/kasol.jpg",
+  //     image: "/images/destinations/kasol/kasol.jpg",
   //     category: "Off-beat",
   //     region: "northeast",
   //     tags: ["offbeat", "heritage"],
@@ -250,7 +250,7 @@ const allDestinations = [
   //     tagline: "Quieter than Goa",
   //     description:
   //       "A temple town with world-class beaches — Om Beach, Half Moon, and Paradise — without Goa's commercialisation.",
-  //     image: "/images/related/coorg.jpg",
+  //     image: "/images/destinations/coorg/coorg.jpg",
   //     category: "Beaches",
   //     region: "south",
   //     tags: ["beaches", "spiritual"],
@@ -291,7 +291,7 @@ export default function DestinationsPage() {
         <section className="relative min-h-[55vh] flex items-end overflow-hidden">
           <div className="absolute inset-0">
             <img
-              src="/images/manali/hero.jpg"
+              src="/images/destinations/manali/hero.jpg"
               alt="Destinations"
               className="w-full h-full object-cover"
             />

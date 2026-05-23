@@ -5,7 +5,7 @@ export const manaliPost = {
     "Everything you need to plan the perfect Manali trip — from snowy peaks to apple orchards, ancient temples to adrenaline-packed adventures.",
   excerpt:
     "The definitive guide to Manali in 2026. Discover the best places to visit, a complete 5-day itinerary, where to stay, what to eat, and all the insider tips you need.",
-  coverImage: "/images/manali/hero.jpg",
+  coverImage: "/images/destinations/manali/hero.jpg",
   coverAlt: "Snow-capped Himalayan mountains above Manali valley",
   category: "Himachal Pradesh",
   tags: ["Manali", "Himachal Pradesh", "Mountain Travel", "India", "Adventure"],

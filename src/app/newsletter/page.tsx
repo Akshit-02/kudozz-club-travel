@@ -69,7 +69,7 @@ export default function NewsletterPage() {
         <section className="relative min-h-[55vh] flex items-center justify-center overflow-hidden bg-stone-950">
           <div className="absolute inset-0">
             <img
-              src="/images/manali/hero.jpg"
+              src="/images/destinations/manali/hero.jpg"
               alt="Newsletter hero"
               className="w-full h-full object-cover opacity-30"
             />

@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/coorg.jpg",
+        url: "/images/destinations/coorg/coorg.jpg",
         width: 1200,
         height: 630,
         alt: "Coorg coffee plantation with misty Western Ghats hills",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     title: "Coorg Travel Guide 2026",
     description:
       "Coffee, waterfalls, wildlife and warm Kodava hospitality — everything you need to plan your Coorg trip.",
-    images: ["/images/destinations/coorg.jpg"],
+    images: ["/images/destinations/coorg/coorg.jpg"],
   },
   alternates: {
     canonical: "https://explore.kudozz.in/blog/coorg-guide",
@@ -53,7 +53,8 @@ function ArticleSchema() {
           headline:
             "Coorg Travel Guide 2026: Coffee, Waterfalls, Trekking & More",
           description: "The complete Coorg (Kodagu) travel guide for 2026.",
-          image: "https://explore.kudozz.in/images/destinations/coorg.jpg",
+          image:
+            "https://explore.kudozz.in/images/destinations/coorg/coorg.jpg",
           publisher: {
             "@type": "Organization",
             name: "Kudozz Club",
@@ -134,7 +135,7 @@ export default function CoorgPage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <img
-              src="/images/related/coorg.jpg"
+              src="/images/destinations/coorg/coorg.jpg"
               alt="Coorg — misty coffee plantation hills in the Western Ghats"
               className="w-full h-full object-cover"
             />
@@ -482,7 +483,7 @@ export default function CoorgPage() {
                   <section id="abbey-falls">
                     <h3>Abbey Falls</h3>
                     <img
-                      src="/images/coorg/abbey-falls.jpg"
+                      src="/images/destinations/coorg/abbey-falls.jpg"
                       alt="Abbey Falls cascading through coffee and spice plantation"
                       className="w-full rounded-xl my-6 h-72 object-cover"
                     />

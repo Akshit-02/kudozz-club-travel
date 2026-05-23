@@ -12,7 +12,7 @@ const featuredDestinations = [
     title: "Manali",
     subtitle: "Himachal Pradesh",
     description: "Snow-capped peaks, apple orchards & Himalayan adventure",
-    image: "/images/manali/hero.jpg",
+    image: "/images/destinations/manali/hero.jpg",
     tag: "Mountains",
     readTime: "16 min",
     color: "from-sky-900/80",
@@ -22,7 +22,7 @@ const featuredDestinations = [
     title: "Spiti Valley",
     subtitle: "Himachal Pradesh",
     description: "Cold desert monasteries & moonscape roads less travelled",
-    image: "/images/related/spiti-valley.jpg",
+    image: "/images/destinations/spiti-valley/spiti-valley.jpg",
     tag: "Off-beat",
     readTime: "14 min",
     color: "from-amber-900/80",
@@ -32,7 +32,7 @@ const featuredDestinations = [
     title: "Leh Ladakh",
     subtitle: "Jammu & Kashmir",
     description: "World's highest passes & ancient Buddhist monasteries",
-    image: "/images/related/leh-ladakh.jpg",
+    image: "/images/destinations/leh-ladakh/leh-ladakh.jpg",
     tag: "Road Trip",
     readTime: "18 min",
     color: "from-stone-900/80",
@@ -42,7 +42,7 @@ const featuredDestinations = [
     title: "Rishikesh",
     subtitle: "Uttarakhand",
     description: "Yoga, white-water rafting & Ganges sunsets",
-    image: "/images/related/rishikesh.jpg",
+    image: "/images/destinations/rishikesh/rishikesh.jpg",
     tag: "Adventure",
     readTime: "12 min",
     color: "from-forest-900/80",
@@ -94,7 +94,7 @@ const recentPosts = [
     title: "Spiti Valley: The Complete Travel Guide 2026",
     excerpt:
       "A remote high-altitude desert in Himachal Pradesh — monasteries, fossils, and jaw-dropping roads.",
-    image: "/images/related/spiti-valley.jpg",
+    image: "/images/destinations/spiti-valley/spiti-valley.jpg",
     category: "Himachal Pradesh",
     readTime: "14 min",
   },
@@ -103,7 +103,7 @@ const recentPosts = [
     title: "Leh Ladakh Road Trip: Everything You Need to Know",
     excerpt:
       "Moonscapes, Buddhist monasteries, and the world's highest motorable passes await.",
-    image: "/images/related/leh-ladakh.jpg",
+    image: "/images/destinations/leh-ladakh/leh-ladakh.jpg",
     category: "Ladakh",
     readTime: "18 min",
   },
@@ -112,7 +112,7 @@ const recentPosts = [
     title: "Rishikesh Adventure Guide: Rafting, Yoga & More",
     excerpt:
       "The yoga capital of the world is also India's adventure hub — rafting, bungee, and beyond.",
-    image: "/images/related/rishikesh.jpg",
+    image: "/images/destinations/rishikesh/rishikesh.jpg",
     category: "Uttarakhand",
     readTime: "12 min",
   },
@@ -127,17 +127,17 @@ const stats = [
 
 const heroSlides = [
   {
-    image: "/images/manali/hero.jpg",
+    image: "/images/destinations/manali/hero.jpg",
     location: "Manali, Himachal Pradesh",
     tagline: "Where the mountains call",
   },
   {
-    image: "/images/related/leh-ladakh.jpg",
+    image: "/images/destinations/leh-ladakh/leh-ladakh.jpg",
     location: "Leh Ladakh, J&K",
     tagline: "Beyond the highest passes",
   },
   {
-    image: "/images/related/spiti-valley.jpg",
+    image: "/images/destinations/spiti-valley/spiti-valley.jpg",
     location: "Spiti Valley, Himachal Pradesh",
     tagline: "Roads less travelled",
   },
@@ -767,7 +767,7 @@ export default function HomePage() {
         <section className="relative overflow-hidden py-28">
           {/* BG image */}
           <img
-            src="/images/manali/rohtang-pass.jpg"
+            src="/images/destinations/manali/rohtang-pass.jpg"
             alt="Mountain landscape"
             className="absolute inset-0 w-full h-full object-cover"
           />

@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/related/leh-ladakh.jpg",
+        url: "/images/destinations/leh-ladakh/leh-ladakh.jpg",
         width: 1200,
         height: 630,
         alt: "Leh Ladakh moonscape landscape with Himalayan peaks",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     title: "Leh Ladakh Road Trip Guide 2026",
     description:
       "Pangong Lake, Nubra Valley, Khardung La — the complete road trip guide to Ladakh.",
-    images: ["/images/related/leh-ladakh.jpg"],
+    images: ["/images/destinations/leh-ladakh/leh-ladakh.jpg"],
   },
   alternates: {
     canonical: "https://explore.kudozz.in/blog/leh-ladakh-road-trip",
@@ -54,7 +54,8 @@ function ArticleSchema() {
             "Leh Ladakh Road Trip Guide 2026: Routes, Permits, Passes & Tips",
           description:
             "The ultimate Leh Ladakh road trip guide for 2026 — routes, permits, passes, itinerary, and insider tips.",
-          image: "https://explore.kudozz.in/images/related/leh-ladakh.jpg",
+          image:
+            "https://explore.kudozz.in/images/destinations/leh-ladakh/leh-ladakh.jpg",
           publisher: {
             "@type": "Organization",
             name: "Kudozz Club",
@@ -141,7 +142,7 @@ export default function LehLadakhPage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <img
-              src="/images/related/leh-ladakh.jpg"
+              src="/images/destinations/leh-ladakh/leh-ladakh.jpg"
               alt="Leh Ladakh — moonscape valleys and snow-capped Himalayan peaks"
               className="w-full h-full object-cover"
             />
@@ -447,7 +448,7 @@ export default function LehLadakhPage() {
                   <section id="manali-leh">
                     <h3>Manali–Leh Highway (NH3)</h3>
                     <img
-                      src="/images/manali/rohtang-pass.jpg"
+                      src="/images/destinations/manali/rohtang-pass.jpg"
                       alt="Manali Leh highway through mountain passes"
                       className="w-full rounded-xl my-6 h-64 object-cover"
                     />
@@ -801,7 +802,7 @@ export default function LehLadakhPage() {
                   <section id="pangong">
                     <h3>Pangong Tso — The Colour-Changing Lake</h3>
                     <img
-                      src="/images/related/leh-ladakh.jpg"
+                      src="/images/destinations/leh-ladakh/leh-ladakh.jpg"
                       alt="Pangong Tso lake with turquoise water and snow mountains"
                       className="w-full rounded-xl my-6 h-72 object-cover"
                     />
