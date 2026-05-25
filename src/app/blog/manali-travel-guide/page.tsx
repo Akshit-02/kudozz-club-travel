@@ -2,6 +2,9 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import SiteHeader from "@/components/layout/SiteHeader";
 import { RelatedPostsGrid, RelatedSidebar } from "@/components/ui/RelatedPosts";
 import TableOfContents from "@/components/ui/TableOfContents";
+import TrekGearRecommendations, {
+  HIMALAYAN_GEAR,
+} from "@/components/ui/TrekGearRecommendations";
 import type { Metadata } from "next";
 import Link from "next/link";
 
@@ -896,6 +899,10 @@ export default function ManaliPage() {
                 ))}
               </div>
 
+              <TrekGearRecommendations
+                sections={HIMALAYAN_GEAR}
+                destination="Manali"
+              />
               {/* Related Posts Grid at bottom */}
               <RelatedPostsGrid />
             </article>

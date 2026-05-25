@@ -1,10 +1,14 @@
 // src/app/blog/rishikesh-adventure-guide/page.tsx
+import SiteFooter from "@/components/layout/SiteFooter";
+import SiteHeader from "@/components/layout/SiteHeader";
+import { RelatedPostsGrid, RelatedSidebar } from "@/components/ui/RelatedPosts";
+import TableOfContents from "@/components/ui/TableOfContents";
+import TrekGearRecommendations, {
+  HIMALAYAN_GEAR,
+  SPIRITUAL_GEAR,
+} from "@/components/ui/TrekGearRecommendations";
 import type { Metadata } from "next";
 import Link from "next/link";
-import SiteHeader from "@/components/layout/SiteHeader";
-import SiteFooter from "@/components/layout/SiteFooter";
-import TableOfContents from "@/components/ui/TableOfContents";
-import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -1460,6 +1464,19 @@ export default function RishikeshPage() {
                   </Link>
                 ))}
               </div>
+
+              <TrekGearRecommendations
+                sections={[
+                  {
+                    ...HIMALAYAN_GEAR[0],
+                    title: "Things Worth Carrying",
+                    subtitle:
+                      "Gear for rafting, trekking, and ashram life in Rishikesh",
+                  },
+                  ...SPIRITUAL_GEAR,
+                ]}
+                destination="Rishikesh"
+              />
 
               {/* Related Posts Grid */}
               <RelatedPostsGrid />

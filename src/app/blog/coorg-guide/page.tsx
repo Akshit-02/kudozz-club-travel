@@ -5,6 +5,9 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import TrekGearRecommendations, {
+  FOREST_GEAR,
+} from "@/components/ui/TrekGearRecommendations";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -1507,6 +1510,11 @@ export default function CoorgPage() {
                   </Link>
                 ))}
               </div>
+
+              <TrekGearRecommendations
+                sections={FOREST_GEAR}
+                destination="Coorg"
+              />
 
               <RelatedPostsGrid />
             </article>

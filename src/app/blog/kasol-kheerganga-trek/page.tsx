@@ -5,6 +5,9 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import TrekGearRecommendations, {
+  HIMALAYAN_GEAR,
+} from "@/components/ui/TrekGearRecommendations";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -1512,6 +1515,11 @@ export default function KasolKheergangaPage() {
                   </Link>
                 ))}
               </div>
+
+              <TrekGearRecommendations
+                sections={HIMALAYAN_GEAR}
+                destination="Leh Ladakh"
+              />
 
               <RelatedPostsGrid />
             </article>
