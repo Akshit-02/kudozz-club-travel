@@ -37,7 +37,7 @@ export const HIMALAYAN_GEAR: GearSection[] = [
         reviews: "2.1k",
         image: "🧥",
         affiliateUrl:
-          "https://www.amazon.in/s?k=waterproof+trekking+jacket&tag=mytech03f_ux19n-21",
+          "https://www.amazon.in/s?k=waterproof+trekking+jacket&tag=mywall02_0412-21",
         tag: "Non-negotiable",
         tagColor: "bg-red-100 text-red-700",
         why: "Afternoon rain is guaranteed on most Himalayan treks. A waterproof shell is the single item you'll be most thankful you packed.",
@@ -51,7 +51,7 @@ export const HIMALAYAN_GEAR: GearSection[] = [
         reviews: "4.8k",
         image: "👟",
         affiliateUrl:
-          "https://www.amazon.in/s?k=waterproof+trekking+shoes&tag=mytech03f_ux19n-21",
+          "https://www.amazon.in/s?k=waterproof+trekking+shoes&tag=mywall02_0412-21",
         tag: "Most important",
         tagColor: "bg-amber-100 text-amber-700",
         why: "Your feet are your vehicle. Wet, unsupported feet ruin a trek faster than anything else. These are reliable and genuinely waterproof.",
@@ -65,7 +65,7 @@ export const HIMALAYAN_GEAR: GearSection[] = [
         reviews: "1.3k",
         image: "🏔️",
         affiliateUrl:
-          "https://www.amazon.in/s?k=trekking+poles+collapsible&tag=mytech03f_ux19n-21",
+          "https://www.amazon.in/s?k=trekking+poles+collapsible&tag=mywall02_0412-21",
         tag: "Knees will thank you",
         tagColor: "bg-forest-100 text-forest-700",
         why: "Most people who skip poles regret it on the descent. The knee strain on a long downhill with a loaded pack is real.",
@@ -79,7 +79,7 @@ export const HIMALAYAN_GEAR: GearSection[] = [
         reviews: "6.2k",
         image: "💧",
         affiliateUrl:
-          "https://www.amazon.in/s?k=lifestraw+water+filter&tag=mytech03f_ux19n-21",
+          "https://www.amazon.in/s?k=lifestraw+water+filter&tag=mywall02_0412-21",
         tag: "Eco + practical",
         tagColor: "bg-sky-100 text-sky-700",
         why: "Mountain streams in most Himalayan treks are clean enough to filter directly — stop buying single-use plastic and carry this instead.",
@@ -93,7 +93,7 @@ export const HIMALAYAN_GEAR: GearSection[] = [
         reviews: "890",
         image: "🔦",
         affiliateUrl:
-          "https://www.amazon.in/s?k=petzl+head+torch+trekking&tag=mytech03f_ux19n-21",
+          "https://www.amazon.in/s?k=petzl+head+torch+trekking&tag=mywall02_0412-21",
         tag: "Pre-dawn starts",
         tagColor: "bg-stone-100 text-stone-700",
         why: "Every experienced trekker starts before dawn. A headtorch isn't optional — it's infrastructure. Always carry spare batteries.",
@@ -107,7 +107,7 @@ export const HIMALAYAN_GEAR: GearSection[] = [
         reviews: "15.4k",
         image: "🩺",
         affiliateUrl:
-          "https://www.amazon.in/s?k=pulse+oximeter+trekking&tag=mytech03f_ux19n-21",
+          "https://www.amazon.in/s?k=pulse+oximeter+trekking&tag=mywall02_0412-21",
         tag: "Safety essential",
         tagColor: "bg-purple-100 text-purple-700",
         why: "SpO2 below 85% at rest means descend. You can't know your oxygen level without this. At ₹800 it's one of the best investments for any high-altitude trek.",
@@ -132,7 +132,7 @@ export const BEACH_GEAR: GearSection[] = [
         reviews: "3.2k",
         image: "🎒",
         affiliateUrl:
-          "https://www.amazon.in/s?k=waterproof+dry+bag+travel&tag=mytech03f_ux19n-21",
+          "https://www.amazon.in/s?k=waterproof+dry+bag+travel&tag=mywall02_0412-21",
         tag: "Waterproof essentials",
         tagColor: "bg-sky-100 text-sky-700",
         why: "Salt water and electronics are a catastrophic combination. A dry bag costs ₹1,000. A new phone doesn't.",
@@ -146,7 +146,7 @@ export const BEACH_GEAR: GearSection[] = [
         reviews: "8.7k",
         image: "🧴",
         affiliateUrl:
-          "https://www.amazon.in/s?k=SPF+50+sunscreen+water+resistant&tag=mytech03f_ux19n-21",
+          "https://www.amazon.in/s?k=SPF+50+sunscreen+water+resistant&tag=mywall02_0412-21",
         tag: "UV index 11",
         tagColor: "bg-amber-100 text-amber-700",
         why: "A day without sunscreen at tropical latitudes means a painful, trip-ruining sunburn. Apply before you leave the room. Reapply every 2 hours.",
@@ -172,7 +172,7 @@ export const FOREST_GEAR: GearSection[] = [
         reviews: "1.8k",
         image: "🔭",
         affiliateUrl:
-          "https://www.amazon.in/s?k=binoculars+8x42+wildlife+safari&tag=mytech03f_ux19n-21",
+          "https://www.amazon.in/s?k=binoculars+8x42+wildlife+safari&tag=mywall02_0412-21",
         tag: "Wildlife essential",
         tagColor: "bg-forest-100 text-forest-700",
         why: "A safari without binoculars is like a concert in the wrong seat. You'll see the leopard-shaped shadow; binoculars let you actually watch it move.",
@@ -186,7 +186,7 @@ export const FOREST_GEAR: GearSection[] = [
         reviews: "2.1k",
         image: "👖",
         affiliateUrl:
-          "https://www.amazon.in/s?k=convertible+trekking+trousers+UPF&tag=mytech03f_ux19n-21",
+          "https://www.amazon.in/s?k=convertible+trekking+trousers+UPF&tag=mywall02_0412-21",
         tag: "Versatile",
         tagColor: "bg-amber-100 text-amber-700",
         why: "Forest walks and restaurant dinners require different dress. These handle both without a change of outfit — one less item to pack.",
@@ -200,7 +200,7 @@ export const FOREST_GEAR: GearSection[] = [
         reviews: "920",
         image: "🦟",
         affiliateUrl:
-          "https://www.amazon.in/s?k=permethrin+clothing+insect+repellent&tag=mytech03f_ux19n-21",
+          "https://www.amazon.in/s?k=permethrin+clothing+insect+repellent&tag=mywall02_0412-21",
         tag: "Leeches + ticks",
         tagColor: "bg-red-100 text-red-700",
         why: "Monsoon forest trails in Coorg and similar destinations have leeches. Permethrin on your trousers and socks is far more effective than DEET on skin.",
@@ -226,7 +226,7 @@ export const SPIRITUAL_GEAR: GearSection[] = [
         reviews: "5.4k",
         image: "👛",
         affiliateUrl:
-          "https://www.amazon.in/s?k=RFID+travel+wallet+slim&tag=mytech03f_ux19n-21",
+          "https://www.amazon.in/s?k=RFID+travel+wallet+slim&tag=mywall02_0412-21",
         tag: "Smart precaution",
         tagColor: "bg-sky-100 text-sky-700",
         why: "Crowded ghats and temple queues are where pickpockets work. Keep cash and one card in a slim wallet; leave the rest at the guesthouse.",
@@ -240,7 +240,7 @@ export const SPIRITUAL_GEAR: GearSection[] = [
         reviews: "3.1k",
         image: "🧣",
         affiliateUrl:
-          "https://www.amazon.in/s?k=cotton+stole+travel+multipurpose&tag=mytech03f_ux19n-21",
+          "https://www.amazon.in/s?k=cotton+stole+travel+multipurpose&tag=mywall02_0412-21",
         tag: "Temple dress code",
         tagColor: "bg-amber-100 text-amber-700",
         why: "Most temples, Gurudwaras, and mosques require covered heads and shoulders. Carrying a stole means you're never turned away at the entrance.",
@@ -413,7 +413,7 @@ export default function TrekGearRecommendations({
           {/* Browse all link */}
           <div className="mt-6 flex justify-center">
             <Link
-              href={`https://www.amazon.in/s?k=trekking+gear+india&tag=mytech03f_ux19n-21`}
+              href={`https://www.amazon.in/s?k=trekking+gear+india&tag=mywall02_0412-21`}
               target="_blank"
               rel="noopener noreferrer nofollow"
               className="flex items-center gap-2 px-6 py-3 border border-stone-200 text-stone-500 hover:border-amber-400 hover:text-amber-600 rounded-full text-xs font-semibold transition-all"
