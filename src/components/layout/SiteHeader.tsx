@@ -86,7 +86,7 @@ export default function SiteHeader() {
                   }`}
                   style={{ fontFamily: "var(--font-dm-sans)" }}
                 >
-                  explore.kudozz.in
+                  club.kudozz.in
                 </span>
               </div>
             </Link>

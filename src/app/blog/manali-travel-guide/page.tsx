@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     title: "Manali Travel Guide 2026: Top Places, Itinerary & Insider Tips",
     description:
       "The definitive guide to Manali in 2026. Discover the best places to visit, a complete 5-day itinerary, where to stay, what to eat, and all the insider tips you need.",
-    url: `https://explore.kudozz.in/blog/manali-travel-guide`,
+    url: `https://club.kudozz.in/blog/manali-travel-guide`,
     type: "article",
     tags: [
       "Manali",
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
     images: ["/images/destinations/manali/hero.jpg"],
   },
   alternates: {
-    canonical: `https://explore.kudozz.in/blog/manali-travel-guide`,
+    canonical: `https://club.kudozz.in/blog/manali-travel-guide`,
   },
 };
 
@@ -80,7 +80,7 @@ function ArticleSchema() {
             name: "Kudozz Club",
             logo: {
               "@type": "ImageObject",
-              url: "https://explore.kudozz.in/logo.png",
+              url: "https://club.kudozz.in/logo.png",
             },
           },
           author: {
@@ -89,7 +89,7 @@ function ArticleSchema() {
           },
           mainEntityOfPage: {
             "@type": "WebPage",
-            "@id": `https://explore.kudozz.in/blog/manali-travel-guide`,
+            "@id": `https://club.kudozz.in/blog/manali-travel-guide`,
           },
           keywords: [
             "Manali",
@@ -114,13 +114,13 @@ function ArticleSchema() {
                 "@type": "ListItem",
                 position: 1,
                 name: "Home",
-                item: "https://explore.kudozz.in",
+                item: "https://club.kudozz.in",
               },
               {
                 "@type": "ListItem",
                 position: 2,
                 name: "Blog",
-                item: "https://explore.kudozz.in/blog",
+                item: "https://club.kudozz.in/blog",
               },
               { "@type": "ListItem", position: 3, name: "Manali Travel Guide" },
             ],

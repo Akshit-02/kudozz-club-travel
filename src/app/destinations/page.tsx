@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "Destinations — Explore India & Beyond",
   description:
     "Browse all travel destinations on Kudozz Club — from Himalayan peaks to tropical beaches, ancient heritage sites to off-beat hidden gems. Hand-crafted guides for every kind of explorer.",
-  alternates: { canonical: "https://explore.kudozz.in/destinations" },
+  alternates: { canonical: "https://club.kudozz.in/destinations" },
 };
 
 // ── Data ──────────────────────────────────────────────────────────────────────

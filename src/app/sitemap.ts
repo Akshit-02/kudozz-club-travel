@@ -2,7 +2,7 @@ import { MetadataRoute } from "next";
 
 // Static + dynamic pages for sitemap generation
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://explore.kudozz.in";
+  const baseUrl = "https://club.kudozz.in";
   const now = new Date();
 
   // Static pages

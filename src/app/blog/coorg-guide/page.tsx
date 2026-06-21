@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     title: "Coorg Travel Guide 2026: Coffee, Waterfalls, Trekking & More",
     description:
       "Misty coffee hills, thundering waterfalls, spice plantations and Kodava hospitality — the complete guide to Coorg.",
-    url: "https://explore.kudozz.in/blog/coorg-guide",
+    url: "https://club.kudozz.in/blog/coorg-guide",
     type: "article",
     siteName: "Kudozz Club",
     authors: ["Kudozz Club"],
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     images: ["/images/destinations/coorg/coorg.jpg"],
   },
   alternates: {
-    canonical: "https://explore.kudozz.in/blog/coorg-guide",
+    canonical: "https://club.kudozz.in/blog/coorg-guide",
   },
 };
 
@@ -61,14 +61,13 @@ function ArticleSchema() {
           headline:
             "Coorg Travel Guide 2026: Coffee, Waterfalls, Trekking & More",
           description: "The complete Coorg (Kodagu) travel guide for 2026.",
-          image:
-            "https://explore.kudozz.in/images/destinations/coorg/coorg.jpg",
+          image: "https://club.kudozz.in/images/destinations/coorg/coorg.jpg",
           publisher: {
             "@type": "Organization",
             name: "Kudozz Club",
             logo: {
               "@type": "ImageObject",
-              url: "https://explore.kudozz.in/logo.png",
+              url: "https://club.kudozz.in/logo.png",
             },
           },
           author: {
@@ -77,7 +76,7 @@ function ArticleSchema() {
           },
           mainEntityOfPage: {
             "@type": "WebPage",
-            "@id": "https://explore.kudozz.in/blog/coorg-guide",
+            "@id": "https://club.kudozz.in/blog/coorg-guide",
           },
           about: {
             "@type": "Place",
@@ -95,13 +94,13 @@ function ArticleSchema() {
                 "@type": "ListItem",
                 position: 1,
                 name: "Home",
-                item: "https://explore.kudozz.in",
+                item: "https://club.kudozz.in",
               },
               {
                 "@type": "ListItem",
                 position: 2,
                 name: "Blog",
-                item: "https://explore.kudozz.in/blog",
+                item: "https://club.kudozz.in/blog",
               },
               { "@type": "ListItem", position: 3, name: "Coorg Travel Guide" },
             ],

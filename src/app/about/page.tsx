@@ -72,7 +72,7 @@ const milestones = [
   },
   {
     year: "Apr, 2026",
-    event: "Reached 10,000 monthly readers, launched explore.kudozz.in",
+    event: "Reached 10,000 monthly readers, launched club.kudozz.in",
   },
   {
     year: "Jun, 2026",

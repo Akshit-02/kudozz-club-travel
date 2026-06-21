@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     title: "Leh Ladakh Road Trip Guide 2026: Routes, Permits, Passes & Tips",
     description:
       "Moonscapes, Buddhist monasteries, and the world's highest motorable passes — the complete guide to Leh Ladakh.",
-    url: "https://explore.kudozz.in/blog/leh-ladakh-road-trip",
+    url: "https://club.kudozz.in/blog/leh-ladakh-road-trip",
     type: "article",
     siteName: "Kudozz Club",
     authors: ["Kudozz Club"],
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     images: ["/images/destinations/leh-ladakh/leh-ladakh.jpg"],
   },
   alternates: {
-    canonical: "https://explore.kudozz.in/blog/leh-ladakh-road-trip",
+    canonical: "https://club.kudozz.in/blog/leh-ladakh-road-trip",
   },
 };
 
@@ -63,13 +63,13 @@ function ArticleSchema() {
           description:
             "The ultimate Leh Ladakh road trip guide for 2026 — routes, permits, passes, itinerary, and insider tips.",
           image:
-            "https://explore.kudozz.in/images/destinations/leh-ladakh/leh-ladakh.jpg",
+            "https://club.kudozz.in/images/destinations/leh-ladakh/leh-ladakh.jpg",
           publisher: {
             "@type": "Organization",
             name: "Kudozz Club",
             logo: {
               "@type": "ImageObject",
-              url: "https://explore.kudozz.in/logo.png",
+              url: "https://club.kudozz.in/logo.png",
             },
           },
           author: {
@@ -78,7 +78,7 @@ function ArticleSchema() {
           },
           mainEntityOfPage: {
             "@type": "WebPage",
-            "@id": "https://explore.kudozz.in/blog/leh-ladakh-road-trip",
+            "@id": "https://club.kudozz.in/blog/leh-ladakh-road-trip",
           },
           about: {
             "@type": "Place",
@@ -96,13 +96,13 @@ function ArticleSchema() {
                 "@type": "ListItem",
                 position: 1,
                 name: "Home",
-                item: "https://explore.kudozz.in",
+                item: "https://club.kudozz.in",
               },
               {
                 "@type": "ListItem",
                 position: 2,
                 name: "Blog",
-                item: "https://explore.kudozz.in/blog",
+                item: "https://club.kudozz.in/blog",
               },
               {
                 "@type": "ListItem",

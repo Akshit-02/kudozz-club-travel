@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     title: "Rishikesh Travel Guide 2026: Adventure, Yoga, Rafting & More",
     description:
       "White-water rafting, bungee jumping, yoga retreats and Ganga sunsets — the complete guide to Rishikesh.",
-    url: "https://explore.kudozz.in/blog/rishikesh-adventure-guide",
+    url: "https://club.kudozz.in/blog/rishikesh-adventure-guide",
     type: "article",
     siteName: "Kudozz Club",
     authors: ["Kudozz Club"],
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     images: ["/images/destinations/rishikesh/rishikesh.jpg"],
   },
   alternates: {
-    canonical: "https://explore.kudozz.in/blog/rishikesh-adventure-guide",
+    canonical: "https://club.kudozz.in/blog/rishikesh-adventure-guide",
   },
 };
 
@@ -64,13 +64,13 @@ function ArticleSchema() {
           description:
             "The complete Rishikesh travel guide for 2026 — rafting, yoga, bungee, Ganga aarti, cafes, stays and insider tips.",
           image:
-            "https://explore.kudozz.in/images/destinations/rishikesh/rishikesh.jpg",
+            "https://club.kudozz.in/images/destinations/rishikesh/rishikesh.jpg",
           publisher: {
             "@type": "Organization",
             name: "Kudozz Club",
             logo: {
               "@type": "ImageObject",
-              url: "https://explore.kudozz.in/logo.png",
+              url: "https://club.kudozz.in/logo.png",
             },
           },
           author: {
@@ -79,7 +79,7 @@ function ArticleSchema() {
           },
           mainEntityOfPage: {
             "@type": "WebPage",
-            "@id": "https://explore.kudozz.in/blog/rishikesh-adventure-guide",
+            "@id": "https://club.kudozz.in/blog/rishikesh-adventure-guide",
           },
           about: {
             "@type": "Place",
@@ -97,13 +97,13 @@ function ArticleSchema() {
                 "@type": "ListItem",
                 position: 1,
                 name: "Home",
-                item: "https://explore.kudozz.in",
+                item: "https://club.kudozz.in",
               },
               {
                 "@type": "ListItem",
                 position: 2,
                 name: "Blog",
-                item: "https://explore.kudozz.in/blog",
+                item: "https://club.kudozz.in/blog",
               },
               {
                 "@type": "ListItem",

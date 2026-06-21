@@ -4,7 +4,7 @@ import Script from "next/script";
 
 // ── Site-wide default metadata ──────────────────────────────────────────────
 export const metadata: Metadata = {
-  metadataBase: new URL("https://explore.kudozz.in"),
+  metadataBase: new URL("https://club.kudozz.in"),
 
   title: {
     default: "Kudozz Club — Travel Guides & Itineraries",
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
       "Discover the world's most breathtaking destinations with hand-crafted travel guides, hidden gems, detailed itineraries, and insider tips from seasoned explorers.",
     type: "website",
     locale: "en_IN",
-    url: "https://explore.kudozz.in",
+    url: "https://club.kudozz.in",
     siteName: "Kudozz Club",
     images: [
       {
@@ -82,16 +82,16 @@ export const metadata: Metadata = {
 
   // Canonical URL handled per-page via generateMetadata
   alternates: {
-    canonical: "https://explore.kudozz.in",
+    canonical: "https://club.kudozz.in",
     languages: {
-      "en-IN": "https://explore.kudozz.in",
+      "en-IN": "https://club.kudozz.in",
     },
   },
 
   authors: [
     {
       name: "Kudozz Club",
-      url: "https://explore.kudozz.in",
+      url: "https://club.kudozz.in",
     },
   ],
 };
@@ -124,8 +124,8 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "Organization",
               name: "Kudozz Club",
-              url: "https://explore.kudozz.in",
-              logo: "https://explore.kudozz.in/logo.png",
+              url: "https://club.kudozz.in",
+              logo: "https://club.kudozz.in/logo.png",
               sameAs: [
                 "https://twitter.com/kudozz.in",
                 "https://instagram.com/kudozz.in",
@@ -140,11 +140,10 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "WebSite",
               name: "Kudozz Club",
-              url: "https://explore.kudozz.in",
+              url: "https://club.kudozz.in",
               potentialAction: {
                 "@type": "SearchAction",
-                target:
-                  "https://explore.kudozz.in/search?q={search_term_string}",
+                target: "https://club.kudozz.in/search?q={search_term_string}",
                 "query-input": "required name=search_term_string",
               },
             }),

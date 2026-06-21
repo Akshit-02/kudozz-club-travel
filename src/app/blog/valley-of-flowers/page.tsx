@@ -21,7 +21,7 @@ export const metadata: Metadata = {
       "Valley of Flowers Trek Guide 2025: Permits, Routes, Best Time & Tips",
     description:
       "A meadow of 300+ Himalayan wildflowers that blooms for just 8 weeks a year — the complete guide to India's most extraordinary trek.",
-    url: "https://explore.kudozz.in/blog/valley-of-flowers",
+    url: "https://club.kudozz.in/blog/valley-of-flowers",
     type: "article",
     siteName: "Kudozz Club",
     authors: ["Kudozz Club"],
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     images: ["/images/destinations/manali/hero.jpg"],
   },
   alternates: {
-    canonical: "https://explore.kudozz.in/blog/valley-of-flowers",
+    canonical: "https://club.kudozz.in/blog/valley-of-flowers",
   },
 };
 
@@ -63,14 +63,13 @@ function ArticleSchema() {
             "Valley of Flowers Trek Guide 2025: Permits, Routes, Best Time & Tips",
           description:
             "The complete Valley of Flowers National Park trek guide for 2025.",
-          image:
-            "https://explore.kudozz.in/images/destinations/manali/hero.jpg",
+          image: "https://club.kudozz.in/images/destinations/manali/hero.jpg",
           publisher: {
             "@type": "Organization",
             name: "Kudozz Club",
             logo: {
               "@type": "ImageObject",
-              url: "https://explore.kudozz.in/logo.png",
+              url: "https://club.kudozz.in/logo.png",
             },
           },
           author: {
@@ -79,7 +78,7 @@ function ArticleSchema() {
           },
           mainEntityOfPage: {
             "@type": "WebPage",
-            "@id": "https://explore.kudozz.in/blog/valley-of-flowers",
+            "@id": "https://club.kudozz.in/blog/valley-of-flowers",
           },
           about: {
             "@type": "Place",
@@ -97,13 +96,13 @@ function ArticleSchema() {
                 "@type": "ListItem",
                 position: 1,
                 name: "Home",
-                item: "https://explore.kudozz.in",
+                item: "https://club.kudozz.in",
               },
               {
                 "@type": "ListItem",
                 position: 2,
                 name: "Blog",
-                item: "https://explore.kudozz.in/blog",
+                item: "https://club.kudozz.in/blog",
               },
               {
                 "@type": "ListItem",

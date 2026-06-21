@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "Travel Blog — Guides, Stories & Itineraries",
   description:
     "Browse all travel guides on Kudozz Club — destination deep-dives, honest itineraries, budget breakdowns and insider tips written by real travellers.",
-  alternates: { canonical: "https://explore.kudozz.in/blog" },
+  alternates: { canonical: "https://club.kudozz.in/blog" },
 };
 
 // ── Data ──────────────────────────────────────────────────────────────────────

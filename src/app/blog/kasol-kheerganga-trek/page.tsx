@@ -22,7 +22,7 @@ export const metadata: Metadata = {
       "Kasol & Kheerganga Trek Guide 2025: The Complete Parvati Valley Trail",
     description:
       "Follow the Parvati River to steaming hot springs through pine forests and Himalayan villages — the complete Kasol and Kheerganga guide.",
-    url: "https://explore.kudozz.in/blog/kasol-kheerganga-trek",
+    url: "https://club.kudozz.in/blog/kasol-kheerganga-trek",
     type: "article",
     siteName: "Kudozz Club",
     authors: ["Kudozz Club"],
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     images: ["/images/destinations/kasol/kasol.jpg"],
   },
   alternates: {
-    canonical: "https://explore.kudozz.in/blog/kasol-kheerganga-trek",
+    canonical: "https://club.kudozz.in/blog/kasol-kheerganga-trek",
   },
 };
 
@@ -65,14 +65,13 @@ function ArticleSchema() {
             "Kasol & Kheerganga Trek Guide 2025: The Complete Parvati Valley Trail",
           description:
             "The complete guide to Kasol and the Kheerganga trek in 2025.",
-          image:
-            "https://explore.kudozz.in/images/destinations/kasol/kasol.jpg",
+          image: "https://club.kudozz.in/images/destinations/kasol/kasol.jpg",
           publisher: {
             "@type": "Organization",
             name: "Kudozz Club",
             logo: {
               "@type": "ImageObject",
-              url: "https://explore.kudozz.in/logo.png",
+              url: "https://club.kudozz.in/logo.png",
             },
           },
           author: {
@@ -81,7 +80,7 @@ function ArticleSchema() {
           },
           mainEntityOfPage: {
             "@type": "WebPage",
-            "@id": "https://explore.kudozz.in/blog/kasol-kheerganga-trek",
+            "@id": "https://club.kudozz.in/blog/kasol-kheerganga-trek",
           },
           about: {
             "@type": "Place",
@@ -99,13 +98,13 @@ function ArticleSchema() {
                 "@type": "ListItem",
                 position: 1,
                 name: "Home",
-                item: "https://explore.kudozz.in",
+                item: "https://club.kudozz.in",
               },
               {
                 "@type": "ListItem",
                 position: 2,
                 name: "Blog",
-                item: "https://explore.kudozz.in/blog",
+                item: "https://club.kudozz.in/blog",
               },
               {
                 "@type": "ListItem",

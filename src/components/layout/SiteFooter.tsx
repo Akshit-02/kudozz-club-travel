@@ -124,7 +124,7 @@ export default function SiteFooter() {
                   className="text-forest-500 text-[9px] uppercase tracking-[0.18em] font-semibold"
                   style={{ fontFamily: "var(--font-dm-sans)" }}
                 >
-                  explore.kudozz.in
+                  club.kudozz.in
                 </span>
               </div>
             </Link>
@@ -213,7 +213,7 @@ export default function SiteFooter() {
             className="text-stone-600 text-xs"
             style={{ fontFamily: "var(--font-dm-sans)" }}
           >
-            © {new Date().getFullYear()} Kudozz Club · explore.kudozz.in · All
+            © {new Date().getFullYear()} Kudozz Club · club.kudozz.in · All
             rights reserved.
           </p>
           <p
