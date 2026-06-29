@@ -12,13 +12,13 @@ import TrekGearRecommendations, {
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
-  title: "Andaman Islands Travel Guide 2025: Beaches, Diving, Permits & Tips",
+  title: "Andaman Islands Travel Guide: Beaches, Diving, Permits & Tips",
   description:
-    "The complete Andaman & Nicobar Islands travel guide for 2025. Everything you need — how to reach Port Blair, Havelock Island, Neil Island, Radhanagar Beach, scuba diving, snorkelling, Cellular Jail, permits, ferries, and a 7-day itinerary.",
+    "The complete Andaman & Nicobar Islands travel guide. Everything you need — how to reach Port Blair, Havelock Island, Neil Island, Radhanagar Beach, scuba diving, snorkelling, Cellular Jail, permits, ferries, and a 7-day itinerary.",
   keywords:
-    "Andaman Islands travel guide, Havelock Island, Radhanagar Beach, Neil Island, Andaman scuba diving, Port Blair, Cellular Jail, Andaman ferry, Andaman permit, Ross Island, Andaman itinerary 2025, Elephant Beach snorkelling",
+    "Andaman Islands travel guide, Havelock Island, Radhanagar Beach, Neil Island, Andaman scuba diving, Port Blair, Cellular Jail, Andaman ferry, Andaman permit, Ross Island, Andaman itinerary, Elephant Beach snorkelling",
   openGraph: {
-    title: "Andaman Islands Travel Guide 2025: Beaches, Diving, Permits & Tips",
+    title: "Andaman Islands Travel Guide: Beaches, Diving, Permits & Tips",
     description:
       "Crystal-clear waters, pristine coral reefs, white sand beaches and the haunting history of Cellular Jail — the complete guide to the Andaman Islands.",
     url: "https://explore.kudozz.in/blog/andaman-islands-guide",
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Andaman Islands Travel Guide 2025",
+    title: "Andaman Islands Travel Guide",
     description:
       "Radhanagar Beach, scuba diving, Cellular Jail and island-hopping — the complete Andaman guide.",
     images: ["/images/related/rishikesh.jpg"],
@@ -55,9 +55,8 @@ function ArticleSchema() {
           "@context": "https://schema.org",
           "@type": "TravelGuide",
           headline:
-            "Andaman Islands Travel Guide 2025: Beaches, Diving, Permits & Tips",
-          description:
-            "The complete Andaman & Nicobar Islands travel guide for 2025.",
+            "Andaman Islands Travel Guide: Beaches, Diving, Permits & Tips",
+          description: "The complete Andaman & Nicobar Islands travel guide.",
           image: "https://explore.kudozz.in/images/related/rishikesh.jpg",
           publisher: {
             "@type": "Organization",
@@ -309,7 +308,7 @@ export default function AndamanIslandsPage() {
               className="text-4xl sm:text-5xl lg:text-[3.4rem] font-bold text-white mb-5 leading-[1.08] max-w-4xl"
               style={{ fontFamily: "var(--font-playfair)" }}
             >
-              Andaman Islands Travel Guide 2025: Beaches, Diving, Permits & Tips
+              Andaman Islands Travel Guide: Beaches, Diving, Permits & Tips
             </h1>
 
             <p

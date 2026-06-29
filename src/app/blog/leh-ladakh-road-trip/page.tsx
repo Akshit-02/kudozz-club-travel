@@ -11,13 +11,13 @@ import TrekGearRecommendations, {
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
-  title: "Leh Ladakh Road Trip Guide 2026: Routes, Permits, Passes & Tips",
+  title: "Leh Ladakh Road Trip Guide: Routes, Permits, Passes & Tips",
   description:
-    "The ultimate Leh Ladakh road trip guide for 2026. Everything you need — Manali-Leh and Srinagar-Leh routes, Inner Line Permits, Khardung La, Pangong Lake, Nubra Valley, monasteries, bike vs car, and a complete 14-day itinerary.",
+    "The ultimate Leh Ladakh road trip guide. Everything you need — Manali-Leh and Srinagar-Leh routes, Inner Line Permits, Khardung La, Pangong Lake, Nubra Valley, monasteries, bike vs car, and a complete 14-day itinerary.",
   keywords:
-    "Leh Ladakh road trip, Ladakh travel guide 2026, Manali to Leh highway, Pangong Lake, Nubra Valley, Khardung La, Ladakh inner line permit, Ladakh bike trip, Ladakh itinerary",
+    "Leh Ladakh road trip, Ladakh travel guide, Manali to Leh highway, Pangong Lake, Nubra Valley, Khardung La, Ladakh inner line permit, Ladakh bike trip, Ladakh itinerary",
   openGraph: {
-    title: "Leh Ladakh Road Trip Guide 2026: Routes, Permits, Passes & Tips",
+    title: "Leh Ladakh Road Trip Guide: Routes, Permits, Passes & Tips",
     description:
       "Moonscapes, Buddhist monasteries, and the world's highest motorable passes — the complete guide to Leh Ladakh.",
     url: "https://club.kudozz.in/blog/leh-ladakh-road-trip",
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Leh Ladakh Road Trip Guide 2026",
+    title: "Leh Ladakh Road Trip Guide",
     description:
       "Pangong Lake, Nubra Valley, Khardung La — the complete road trip guide to Ladakh.",
     images: ["/images/destinations/leh-ladakh/leh-ladakh.jpg"],
@@ -59,9 +59,9 @@ function ArticleSchema() {
           "@context": "https://schema.org",
           "@type": "BlogPosting",
           headline:
-            "Leh Ladakh Road Trip Guide 2026: Routes, Permits, Passes & Tips",
+            "Leh Ladakh Road Trip Guide: Routes, Permits, Passes & Tips",
           description:
-            "The ultimate Leh Ladakh road trip guide for 2026 — routes, permits, passes, itinerary, and insider tips.",
+            "The ultimate Leh Ladakh road trip guide — routes, permits, passes, itinerary, and insider tips.",
           image:
             "https://club.kudozz.in/images/destinations/leh-ladakh/leh-ladakh.jpg",
           publisher: {
@@ -220,7 +220,7 @@ export default function LehLadakhPage() {
               className="text-4xl sm:text-5xl lg:text-[3.4rem] font-bold text-white mb-5 leading-[1.08] max-w-4xl"
               style={{ fontFamily: "var(--font-playfair)" }}
             >
-              Leh Ladakh Road Trip Guide 2026: Routes, Permits, Passes & Tips
+              Leh Ladakh Road Trip Guide: Routes, Permits, Passes & Tips
             </h1>
 
             <p

@@ -11,15 +11,13 @@ import TrekGearRecommendations, {
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
-  title:
-    "Kasol & Kheerganga Trek Guide 2025: The Complete Parvati Valley Trail",
+  title: "Kasol & Kheerganga Trek Guide: The Complete Parvati Valley Trail",
   description:
-    "The complete guide to Kasol and the Kheerganga trek in 2025. Everything you need — how to get there, the trek route, camping at Kheerganga hot springs, Chalal, Tosh, Malana, where to stay, best cafes, and honest tips for the Parvati Valley trail.",
+    "The complete guide to Kasol and the Kheerganga trek. Everything you need — how to get there, the trek route, camping at Kheerganga hot springs, Chalal, Tosh, Malana, where to stay, best cafes, and honest tips for the Parvati Valley trail.",
   keywords:
-    "Kasol travel guide, Kheerganga trek, Parvati Valley, Kasol cafes, Tosh village, Malana village, Kheerganga hot springs, Himachal Pradesh trek, Kasol itinerary 2025, Barshaini trek",
+    "Kasol travel guide, Kheerganga trek, Parvati Valley, Kasol cafes, Tosh village, Malana village, Kheerganga hot springs, Himachal Pradesh trek, Kasol itinerary, Barshaini trek",
   openGraph: {
-    title:
-      "Kasol & Kheerganga Trek Guide 2025: The Complete Parvati Valley Trail",
+    title: "Kasol & Kheerganga Trek Guide: The Complete Parvati Valley Trail",
     description:
       "Follow the Parvati River to steaming hot springs through pine forests and Himalayan villages — the complete Kasol and Kheerganga guide.",
     url: "https://club.kudozz.in/blog/kasol-kheerganga-trek",
@@ -41,7 +39,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Kasol & Kheerganga Trek Guide 2025",
+    title: "Kasol & Kheerganga Trek Guide",
     description:
       "Parvati Valley cafes, forest trails and Himalayan hot springs — everything you need for Kasol and Kheerganga.",
     images: ["/images/destinations/kasol/kasol.jpg"],
@@ -62,9 +60,8 @@ function ArticleSchema() {
           "@type": "BlogPosting",
 
           headline:
-            "Kasol & Kheerganga Trek Guide 2025: The Complete Parvati Valley Trail",
-          description:
-            "The complete guide to Kasol and the Kheerganga trek in 2025.",
+            "Kasol & Kheerganga Trek Guide: The Complete Parvati Valley Trail",
+          description: "The complete guide to Kasol and the Kheerganga trek.",
           image: "https://club.kudozz.in/images/destinations/kasol/kasol.jpg",
           publisher: {
             "@type": "Organization",
@@ -224,8 +221,7 @@ export default function KasolKheergangaPage() {
               className="text-4xl sm:text-5xl lg:text-[3.4rem] font-bold text-white mb-5 leading-[1.08] max-w-4xl"
               style={{ fontFamily: "var(--font-playfair)" }}
             >
-              Kasol & Kheerganga Trek Guide 2025: The Complete Parvati Valley
-              Trail
+              Kasol & Kheerganga Trek Guide: The Complete Parvati Valley Trail
             </h1>
 
             <p

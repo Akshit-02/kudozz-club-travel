@@ -11,14 +11,13 @@ import TrekGearRecommendations, {
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
-  title: "Valley of Flowers Trek Guide 2025: Permits, Routes, Best Time & Tips",
+  title: "Valley of Flowers Trek Guide: Permits, Routes, Best Time & Tips",
   description:
-    "The complete Valley of Flowers National Park trek guide for 2025. Everything you need — how to reach Govindghat, the trek route, permits, what flowers bloom when, Hemkund Sahib, where to stay in Ghangaria, and essential tips for this UNESCO World Heritage trek in Uttarakhand.",
+    "The complete Valley of Flowers National Park trek guide. Everything you need — how to reach Govindghat, the trek route, permits, what flowers bloom when, Hemkund Sahib, where to stay in Ghangaria, and essential tips for this UNESCO World Heritage trek in Uttarakhand.",
   keywords:
-    "Valley of Flowers trek, Valley of Flowers National Park, Uttarakhand trek, Ghangaria, Govindghat, Hemkund Sahib, Valley of Flowers permit, Valley of Flowers best time, Nanda Devi Biosphere Reserve, Chamoli Uttarakhand trek 2025",
+    "Valley of Flowers trek, Valley of Flowers National Park, Uttarakhand trek, Ghangaria, Govindghat, Hemkund Sahib, Valley of Flowers permit, Valley of Flowers best time, Nanda Devi Biosphere Reserve, Chamoli Uttarakhand trek",
   openGraph: {
-    title:
-      "Valley of Flowers Trek Guide 2025: Permits, Routes, Best Time & Tips",
+    title: "Valley of Flowers Trek Guide: Permits, Routes, Best Time & Tips",
     description:
       "A meadow of 300+ Himalayan wildflowers that blooms for just 8 weeks a year — the complete guide to India's most extraordinary trek.",
     url: "https://club.kudozz.in/blog/valley-of-flowers",
@@ -40,7 +39,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Valley of Flowers Trek Guide 2025",
+    title: "Valley of Flowers Trek Guide",
     description:
       "300+ wildflowers, UNESCO heritage, and a Himalayan meadow that blooms for just 8 weeks — the complete guide.",
     images: ["/images/destinations/manali/hero.jpg"],
@@ -60,9 +59,9 @@ function ArticleSchema() {
           "@context": "https://schema.org",
           "@type": "BlogPosting",
           headline:
-            "Valley of Flowers Trek Guide 2025: Permits, Routes, Best Time & Tips",
+            "Valley of Flowers Trek Guide: Permits, Routes, Best Time & Tips",
           description:
-            "The complete Valley of Flowers National Park trek guide for 2025.",
+            "The complete Valley of Flowers National Park trek guide.",
           image: "https://club.kudozz.in/images/destinations/manali/hero.jpg",
           publisher: {
             "@type": "Organization",
@@ -219,8 +218,7 @@ export default function ValleyOfFlowersPage() {
               className="text-4xl sm:text-5xl lg:text-[3.4rem] font-bold text-white mb-5 leading-[1.08] max-w-4xl"
               style={{ fontFamily: "var(--font-playfair)" }}
             >
-              Valley of Flowers Trek Guide 2025: Permits, Routes, Best Time &
-              Tips
+              Valley of Flowers Trek Guide: Permits, Routes, Best Time & Tips
             </h1>
 
             <p

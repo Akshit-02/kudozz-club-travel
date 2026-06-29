@@ -11,16 +11,15 @@ import TrekGearRecommendations, {
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
-  title: "Spiti Valley Travel Guide 2026: Roads, Monasteries & Hidden Villages",
+  title: "Spiti Valley Travel Guide: Roads, Monasteries & Hidden Villages",
   description:
-    "The most complete Spiti Valley travel guide for 2026. Discover the best places to visit, how to reach Spiti, a 10-day itinerary, where to stay, what to eat, and essential tips for this remote Himalayan desert.",
+    "The most complete Spiti Valley travel guide. Discover the best places to visit, how to reach Spiti, a 10-day itinerary, where to stay, what to eat, and essential tips for this remote Himalayan desert.",
   keywords:
     "Spiti Valley, Spiti Valley travel guide, Spiti Valley itinerary, Kaza, Key Monastery, Chandratal Lake, Pin Valley, Himachal Pradesh travel",
   openGraph: {
-    title:
-      "Spiti Valley Travel Guide 2026: Roads, Monasteries & Hidden Villages",
+    title: "Spiti Valley Travel Guide: Roads, Monasteries & Hidden Villages",
     description:
-      "The most complete Spiti Valley travel guide for 2026 — routes, itineraries, permits, stays and insider tips.",
+      "The most complete Spiti Valley travel guide — routes, itineraries, permits, stays and insider tips.",
     url: "https://club.kudozz.in/blog/spiti-valley-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
@@ -40,7 +39,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Spiti Valley Travel Guide 2026",
+    title: "Spiti Valley Travel Guide",
     description:
       "Roads, monasteries, hidden villages — the complete guide to Spiti Valley.",
     images: ["/images/destinations/spiti-valley/spiti-valley.jpg"],
@@ -60,8 +59,8 @@ function ArticleSchema() {
           "@context": "https://schema.org",
           "@type": "BlogPosting",
           headline:
-            "Spiti Valley Travel Guide 2026: Roads, Monasteries & Hidden Villages",
-          description: "The most complete Spiti Valley travel guide for 2026.",
+            "Spiti Valley Travel Guide: Roads, Monasteries & Hidden Villages",
+          description: "The most complete Spiti Valley travel guide.",
           image:
             "https://club.kudozz.in/images/destinations/spiti-valley/spiti-valley.jpg",
           publisher: {
@@ -231,8 +230,7 @@ export default function SpitiValleyPage() {
               className="text-4xl sm:text-5xl lg:text-[3.4rem] font-bold text-white mb-5 leading-[1.08] max-w-4xl"
               style={{ fontFamily: "var(--font-playfair)" }}
             >
-              Spiti Valley Travel Guide 2026: Roads, Monasteries & Hidden
-              Villages
+              Spiti Valley Travel Guide: Roads, Monasteries & Hidden Villages
             </h1>
 
             <p

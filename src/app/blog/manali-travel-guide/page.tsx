@@ -10,9 +10,9 @@ import Link from "next/link";
 
 // ── Per-page SEO metadata ─────────────────────────────────────────────────────
 export const metadata: Metadata = {
-  title: "Manali Travel Guide 2026: Top Places, Itinerary & Insider Tips",
+  title: "Manali Travel Guide: Top Places, Itinerary & Insider Tips",
   description:
-    "The definitive guide to Manali in 2026. Discover the best places to visit, a complete 5-day itinerary, where to stay, what to eat, and all the insider tips you need.",
+    "The definitive guide to Manali. Discover the best places to visit, a complete 5-day itinerary, where to stay, what to eat, and all the insider tips you need.",
   keywords: [
     "Manali",
     "Himachal Pradesh",
@@ -21,9 +21,9 @@ export const metadata: Metadata = {
     "Adventure",
   ].join(", "),
   openGraph: {
-    title: "Manali Travel Guide 2026: Top Places, Itinerary & Insider Tips",
+    title: "Manali Travel Guide: Top Places, Itinerary & Insider Tips",
     description:
-      "The definitive guide to Manali in 2026. Discover the best places to visit, a complete 5-day itinerary, where to stay, what to eat, and all the insider tips you need.",
+      "The definitive guide to Manali. Discover the best places to visit, a complete 5-day itinerary, where to stay, what to eat, and all the insider tips you need.",
     url: `https://club.kudozz.in/blog/manali-travel-guide`,
     type: "article",
     tags: [
@@ -50,9 +50,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Manali Travel Guide 2026: Top Places, Itinerary & Insider Tips",
+    title: "Manali Travel Guide: Top Places, Itinerary & Insider Tips",
     description:
-      "The definitive guide to Manali in 2026. Discover the best places to visit, a complete 5-day itinerary, where to stay, what to eat, and all the insider tips you need.",
+      "The definitive guide to Manali. Discover the best places to visit, a complete 5-day itinerary, where to stay, what to eat, and all the insider tips you need.",
     images: ["/images/destinations/manali/hero.jpg"],
   },
   alternates: {
@@ -69,10 +69,9 @@ function ArticleSchema() {
         __html: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "BlogPosting",
-          headline:
-            "Manali Travel Guide 2026: Top Places, Itinerary & Insider Tips",
+          headline: "Manali Travel Guide: Top Places, Itinerary & Insider Tips",
           description:
-            "The definitive guide to Manali in 2026. Discover the best places to visit, a complete 5-day itinerary, where to stay, what to eat, and all the insider tips you need.",
+            "The definitive guide to Manali. Discover the best places to visit, a complete 5-day itinerary, where to stay, what to eat, and all the insider tips you need.",
           image: "/images/destinations/manali/hero.jpg",
 
           publisher: {
@@ -228,7 +227,7 @@ export default function ManaliPage() {
               className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-5 leading-tight"
               style={{ fontFamily: "var(--font-playfair)" }}
             >
-              Manali Travel Guide 2026: Top Places, Itinerary & Insider Tips
+              Manali Travel Guide: Top Places, Itinerary & Insider Tips
             </h1>
             <p
               className="text-lg text-white/80 max-w-2xl mb-8 leading-relaxed"
