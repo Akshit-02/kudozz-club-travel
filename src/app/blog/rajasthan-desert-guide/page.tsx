@@ -151,7 +151,7 @@ const DESERT_GEAR: GearSection[] = [
         reviews: "4.1k",
         image: "🧣",
         affiliateUrl:
-          "https://www.amazon.in/s?k=cotton+scarf+stole+desert+travel&tag=YOUR_AFFILIATE_TAG",
+          "https://www.amazon.in/s?k=cotton+scarf+stole+desert+travel&tag=mytech0d6-21",
         tag: "Desert essential",
         tagColor: "bg-amber-100 text-amber-700",
         why: "Sand blows constantly on the dunes — wrapped properly, a scarf keeps it out of your eyes, nose, and mouth during the camel ride. Locals wear them for exactly this reason.",
@@ -165,7 +165,7 @@ const DESERT_GEAR: GearSection[] = [
         reviews: "11.3k",
         image: "💧",
         affiliateUrl:
-          "https://www.amazon.in/s?k=insulated+water+bottle+1L+travel&tag=YOUR_AFFILIATE_TAG",
+          "https://www.amazon.in/s?k=insulated+water+bottle+1L+travel&tag=mytech0d6-21",
         tag: "Extreme temperature swing",
         tagColor: "bg-sky-100 text-sky-700",
         why: "The Thar's day-night temperature swing is one of the most extreme in India. One bottle that keeps water cold at noon and your chai hot at midnight is genuinely useful.",
@@ -179,7 +179,7 @@ const DESERT_GEAR: GearSection[] = [
         reviews: "5.8k",
         image: "🧥",
         affiliateUrl:
-          "https://www.amazon.in/s?k=packable+down+jacket+lightweight+travel&tag=YOUR_AFFILIATE_TAG",
+          "https://www.amazon.in/s?k=packable+down+jacket+lightweight+travel&tag=mytech0d6-21",
         tag: "Desert night chill",
         tagColor: "bg-purple-100 text-purple-700",
         why: "Visitors arrive prepared for desert heat and are blindsided by how cold the dunes get after sunset. A packable down jacket takes no space and solves this completely.",
@@ -193,7 +193,7 @@ const DESERT_GEAR: GearSection[] = [
         reviews: "3.4k",
         image: "🕶️",
         affiliateUrl:
-          "https://www.amazon.in/s?k=wraparound+sunglasses+UV+protection&tag=YOUR_AFFILIATE_TAG",
+          "https://www.amazon.in/s?k=wraparound+sunglasses+UV+protection&tag=mytech0d6-21",
         tag: "Sand + sun glare",
         tagColor: "bg-stone-100 text-stone-700",
         why: "Standard sunglasses let sand and side-glare in around the edges. Wraparound frames are what desert guides actually wear, and there's a reason.",
@@ -207,7 +207,7 @@ const DESERT_GEAR: GearSection[] = [
         reviews: "8.9k",
         image: "💄",
         affiliateUrl:
-          "https://www.amazon.in/s?k=lip+balm+SPF+travel&tag=YOUR_AFFILIATE_TAG",
+          "https://www.amazon.in/s?k=lip+balm+SPF+travel&tag=mytech0d6-21",
         tag: "Easy to forget",
         tagColor: "bg-red-100 text-red-700",
         why: "The combination of dry desert wind and direct sun cracks lips faster than almost anywhere else in India. At ₹200, there's no excuse to skip this.",
@@ -221,7 +221,7 @@ const DESERT_GEAR: GearSection[] = [
         reviews: "9.7k",
         image: "🔋",
         affiliateUrl:
-          "https://www.amazon.in/s?k=power+bank+10000mAh+travel&tag=YOUR_AFFILIATE_TAG",
+          "https://www.amazon.in/s?k=power+bank+10000mAh+travel&tag=mytech0d6-21",
         tag: "Camp essential",
         tagColor: "bg-forest-100 text-forest-700",
         why: "Most desert camps have generator power for only a few hours each evening. A power bank ensures you're not stuck with a dead phone for your sunrise photos.",
