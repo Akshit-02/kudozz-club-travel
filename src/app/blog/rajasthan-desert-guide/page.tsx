@@ -11,14 +11,13 @@ import TrekGearRecommendations, {
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
-  title: "Jaisalmer & Thar Desert Travel Guide 2025: Fort, Camel Safari & Tips",
+  title: "Jaisalmer & Thar Desert Travel Guide: Fort, Camel Safari & Tips",
   description:
-    "The complete Jaisalmer travel guide for 2025. Everything you need — Jaisalmer Fort, Sam Sand Dunes camel safari, havelis, desert camping, where to stay, what to eat, and a complete 4-day itinerary through the golden city of the Thar Desert.",
+    "The complete Jaisalmer travel guide. Everything you need — Jaisalmer Fort, Sam Sand Dunes camel safari, havelis, desert camping, where to stay, what to eat, and a complete 4-day itinerary through the golden city of the Thar Desert.",
   keywords:
-    "Jaisalmer travel guide, Jaisalmer Fort, Sam Sand Dunes, Thar Desert camel safari, Jaisalmer havelis, Khuri desert camp, Rajasthan desert tour, Jaisalmer itinerary 2025, Patwon ki Haveli, Kuldhara ghost village",
+    "Jaisalmer travel guide, Jaisalmer Fort, Sam Sand Dunes, Thar Desert camel safari, Jaisalmer havelis, Khuri desert camp, Rajasthan desert tour, Jaisalmer itinerary, Patwon ki Haveli, Kuldhara ghost village",
   openGraph: {
-    title:
-      "Jaisalmer & Thar Desert Travel Guide 2025: Fort, Camel Safari & Tips",
+    title: "Jaisalmer & Thar Desert Travel Guide: Fort, Camel Safari & Tips",
     description:
       "A living medieval fort rising from the Thar Desert, camel safaris into the dunes and the most spectacular havelis in Rajasthan — the complete guide to Jaisalmer.",
     url: "https://explore.kudozz.in/blog/rajasthan-desert-guide",
@@ -35,7 +34,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Jaisalmer & Thar Desert Travel Guide 2025",
+    title: "Jaisalmer & Thar Desert Travel Guide",
     description:
       "The golden city, camel safaris, and the Thar Desert — the complete guide to Jaisalmer.",
     images: ["/images/related/leh-ladakh.jpg"],
@@ -55,8 +54,8 @@ function ArticleSchema() {
           "@context": "https://schema.org",
           "@type": "TravelGuide",
           headline:
-            "Jaisalmer & Thar Desert Travel Guide 2025: Fort, Camel Safari & Tips",
-          description: "The complete Jaisalmer travel guide for 2025.",
+            "Jaisalmer & Thar Desert Travel Guide: Fort, Camel Safari & Tips",
+          description: "The complete Jaisalmer travel guide.",
           image: "https://explore.kudozz.in/images/related/leh-ladakh.jpg",
           publisher: {
             "@type": "Organization",
@@ -309,8 +308,7 @@ export default function RajasthanDesertGuidePage() {
               className="text-4xl sm:text-5xl lg:text-[3.4rem] font-bold text-white mb-5 leading-[1.08] max-w-4xl"
               style={{ fontFamily: "var(--font-playfair)" }}
             >
-              Jaisalmer & Thar Desert Travel Guide 2025: Fort, Camel Safari &
-              Tips
+              Jaisalmer & Thar Desert Travel Guide: Fort, Camel Safari & Tips
             </h1>
 
             <p

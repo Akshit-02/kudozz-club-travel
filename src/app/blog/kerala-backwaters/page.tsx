@@ -11,13 +11,13 @@ import TrekGearRecommendations, {
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
-  title: "Kerala Backwaters Guide 2025: Houseboats, Routes, Villages & Tips",
+  title: "Kerala Backwaters Guide: Houseboats, Routes, Villages & Tips",
   description:
-    "The complete Kerala Backwaters travel guide for 2025. Everything you need — Alleppey vs Kumarakom vs Kollam, houseboat booking, the Kuttanad route, village life, food, where to stay, and a complete 4-day itinerary through the 900-km backwater network.",
+    "The complete Kerala Backwaters travel guide. Everything you need — Alleppey vs Kumarakom vs Kollam, houseboat booking, the Kuttanad route, village life, food, where to stay, and a complete 4-day itinerary through the 900-km backwater network.",
   keywords:
-    "Kerala backwaters, Alleppey houseboat, Kumarakom backwaters, Kuttanad, Kerala houseboat booking, Vembanad Lake, Kollam Alleppey ferry, backwater village tour, Kerala itinerary 2025, Munroe Island",
+    "Kerala backwaters, Alleppey houseboat, Kumarakom backwaters, Kuttanad, Kerala houseboat booking, Vembanad Lake, Kollam Alleppey ferry, backwater village tour, Kerala itinerary, Munroe Island",
   openGraph: {
-    title: "Kerala Backwaters Guide 2025: Houseboats, Routes, Villages & Tips",
+    title: "Kerala Backwaters Guide: Houseboats, Routes, Villages & Tips",
     description:
       "A 900-km network of lagoons, canals and lakes explored by houseboat — the complete guide to Kerala's backwaters.",
     url: "https://explore.kudozz.in/blog/kerala-backwaters",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Kerala Backwaters Guide 2025",
+    title: "Kerala Backwaters Guide",
     description:
       "Houseboats, coconut palms, and village life on the water — the complete Kerala backwaters guide.",
     images: ["/images/related/spiti-valley.jpg"],
@@ -54,8 +54,8 @@ function ArticleSchema() {
           "@context": "https://schema.org",
           "@type": "TravelGuide",
           headline:
-            "Kerala Backwaters Guide 2025: Houseboats, Routes, Villages & Tips",
-          description: "The complete Kerala Backwaters travel guide for 2025.",
+            "Kerala Backwaters Guide: Houseboats, Routes, Villages & Tips",
+          description: "The complete Kerala Backwaters travel guide.",
           image: "https://explore.kudozz.in/images/related/spiti-valley.jpg",
           publisher: {
             "@type": "Organization",
@@ -303,7 +303,7 @@ export default function KeralaBackwatersPage() {
               className="text-4xl sm:text-5xl lg:text-[3.4rem] font-bold text-white mb-5 leading-[1.08] max-w-4xl"
               style={{ fontFamily: "var(--font-playfair)" }}
             >
-              Kerala Backwaters Guide 2025: Houseboats, Routes, Villages & Tips
+              Kerala Backwaters Guide: Houseboats, Routes, Villages & Tips
             </h1>
 
             <p
