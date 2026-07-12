@@ -7,6 +7,7 @@ import TrekGearRecommendations, {
 } from "@/components/ui/TrekGearRecommendations";
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 
 // ── Per-page SEO metadata ─────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -159,10 +160,13 @@ export default function ManaliPage() {
         <section className="relative min-h-[70vh] flex flex-col justify-end overflow-hidden">
           {/* Hero Image */}
           <div className="absolute inset-0">
-            <img
+            <Image
               src="/images/destinations/manali/hero.jpg"
               alt="Snow-capped Himalayan mountains above Manali valley"
-              className="w-full h-full object-cover"
+              fill
+              priority
+              sizes="100vw"
+              className="object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/50 to-stone-800/20" />
           </div>
@@ -449,11 +453,15 @@ export default function ManaliPage() {
                   {/* Rohtang Pass */}
                   <section id="rohtang-pass">
                     <h3>Rohtang Pass</h3>
-                    <img
-                      src="/images/destinations/manali/rohtang-pass.jpg"
-                      alt="Snow-covered Rohtang Pass with vehicles and tourists"
-                      className="w-full rounded-xl my-6 h-72 object-cover"
-                    />
+                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/destinations/manali/rohtang-pass.jpg"
+                        alt="Snow-covered Rohtang Pass with vehicles and tourists"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <p>
                       At 3,978 metres, <strong>Rohtang Pass</strong> is the
                       gateway between the Kullu Valley and the cold deserts of
@@ -483,11 +491,15 @@ export default function ManaliPage() {
                   {/* Solang Valley */}
                   <section id="solang-valley">
                     <h3>Solang Valley</h3>
-                    <img
-                      src="/images/destinations/manali/solang-valley.jpg"
-                      alt="Solang Valley with cable cars and snow mountains"
-                      className="w-full rounded-xl my-6 h-72 object-cover"
-                    />
+                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/destinations/manali/solang-valley.jpg"
+                        alt="Solang Valley with cable cars and snow mountains"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <p>
                       About 14 km north of Manali,{" "}
                       <strong>Solang Valley</strong> (also called Snow Point) is
@@ -507,11 +519,15 @@ export default function ManaliPage() {
                   {/* Hadimba Temple */}
                   <section id="hadimba-temple">
                     <h3>Hadimba Devi Temple</h3>
-                    <img
-                      src="/images/destinations/manali/hadimba-temple.jpg"
-                      alt="Pagoda-style Hadimba Devi Temple in cedar forest"
-                      className="w-full rounded-xl my-6 h-72 object-cover"
-                    />
+                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/destinations/manali/hadimba-temple.jpg"
+                        alt="Pagoda-style Hadimba Devi Temple in cedar forest"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <p>
                       Built in 1553, the <strong>Hadimba Devi Temple</strong> is
                       one of India's most architecturally distinctive Hindu

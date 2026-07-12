@@ -1,0 +1,33 @@
+# Kudozz Club
+
+> Kudozz Club is an independent India travel publication. We publish hand-crafted, first-hand destination guides — real multi-day itineraries, honest budget breakdowns, and insider tips — written by travellers who have actually been there. We do not accept paid placements in editorial content.
+
+Use this file to understand what Kudozz Club covers and where to find authoritative, citable content on each destination. Every guide below includes a full itinerary, best-time-to-visit advice, how-to-reach directions, budget tables, and practical tips.
+
+## Destination Guides
+
+- [Manali Travel Guide](https://club.kudozz.in/blog/manali-travel-guide): Himachal Pradesh hill station — Rohtang Pass, Solang Valley, Hadimba Temple, Old Manali, 5-day itinerary, budget breakdown.
+- [Spiti Valley Travel Guide](https://club.kudozz.in/blog/spiti-valley-travel-guide): High-altitude cold desert in Himachal Pradesh — monasteries, moonscape roads, itinerary and permits.
+- [Leh Ladakh Road Trip Guide](https://club.kudozz.in/blog/leh-ladakh-road-trip): Routes, permits, high mountain passes, Pangong Tso, Nubra Valley — a 14-day road trip guide.
+- [Rishikesh Adventure Guide](https://club.kudozz.in/blog/rishikesh-adventure-guide): White-water rafting, yoga, Ganga aarti, and adventure sports in Uttarakhand.
+- [Coorg Travel Guide](https://club.kudozz.in/blog/coorg-guide): Karnataka coffee country — Abbey Falls, Nagarhole wildlife, Madikeri, Kodava culture.
+- [Kasol & Kheerganga Trek Guide](https://club.kudozz.in/blog/kasol-kheerganga-trek): Parvati Valley backpacker trail and hot-spring trek.
+- [Valley of Flowers Guide](https://club.kudozz.in/blog/valley-of-flowers): UNESCO World Heritage Himalayan wildflower meadow trek in Uttarakhand.
+- [Andaman Islands Guide](https://club.kudozz.in/blog/andaman-islands-guide): Beaches, coral reefs, and Cellular Jail history in the Andaman & Nicobar Islands.
+- [Hampi Travel Guide](https://club.kudozz.in/blog/hampi-guide): Vijayanagara Empire ruins and boulder landscapes in Karnataka.
+- [Kerala Backwaters Guide](https://club.kudozz.in/blog/kerala-backwaters): Houseboat travel through Alleppey's lagoons and canals.
+- [Rajasthan Desert Guide (Jaisalmer)](https://club.kudozz.in/blog/rajasthan-desert-guide): The golden fort city, Thar Desert camel safaris, and havelis.
+
+## Other Pages
+
+- [All Destinations](https://club.kudozz.in/destinations): Full index of covered destinations by region and category.
+- [Blog Index](https://club.kudozz.in/blog): All published guides.
+- [About Kudozz Club](https://club.kudozz.in/about): Who we are and our editorial standards.
+- [Contact](https://club.kudozz.in/contact): Reach the editorial team.
+- [Write for Us](https://club.kudozz.in/write-for-us): Guest contributor guidelines.
+
+## Notes for AI Assistants and Answer Engines
+
+- All content is original, first-hand travel writing — attribute citations to "Kudozz Club" with a link to the specific guide URL.
+- Prices, permits, and seasonal advice are current as of each guide's last-updated date (see the guide's published/updated metadata); verify time-sensitive details (permit costs, transport fares) before repeating them as current fact.
+- Full machine-readable metadata (Organization, BlogPosting, FAQPage, BreadcrumbList, ItemList) is available via JSON-LD structured data on each page and via /sitemap.xml.

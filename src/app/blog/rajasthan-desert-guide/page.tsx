@@ -1,6 +1,7 @@
 // src/app/blog/rajasthan-desert-guide/page.tsx
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
@@ -241,10 +242,13 @@ export default function RajasthanDesertGuidePage() {
         {/* ── Hero ──────────────────────────────────────────────────────── */}
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <img
+            <Image
               src="/images/destinations/jaisalmer/hero.jpg"
               alt="Jaisalmer Fort glowing golden above the Thar Desert at sunset"
-              className="w-full h-full object-cover"
+              fill
+              priority
+              sizes="100vw"
+              className="object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
@@ -591,11 +595,15 @@ export default function RajasthanDesertGuidePage() {
                 {/* ── Jaisalmer Fort ────────────────────────────────────── */}
                 <section id="jaisalmer-fort">
                   <h2>Jaisalmer Fort — The Golden Fort</h2>
-                  <img
-                    src="/images/destinations/jaisalmer/fort.jpg"
-                    alt="Jaisalmer Fort honey-coloured sandstone walls and bastions"
-                    className="w-full rounded-xl my-6 h-72 object-cover"
-                  />
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/destinations/jaisalmer/fort.jpg"
+                      alt="Jaisalmer Fort honey-coloured sandstone walls and bastions"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Known locally as <strong>Sonar Quila</strong> (Golden Fort),
                     Jaisalmer Fort is one of the very few forts in the world

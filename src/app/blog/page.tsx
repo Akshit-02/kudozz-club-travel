@@ -1,6 +1,7 @@
 // src/app/blog/page.tsx
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 
@@ -10,6 +11,58 @@ export const metadata: Metadata = {
     "Browse all travel guides on Kudozz Club — destination deep-dives, honest itineraries, budget breakdowns and insider tips written by real travellers.",
   alternates: { canonical: "https://club.kudozz.in/blog" },
 };
+
+function BlogSchema({
+  entries,
+}: {
+  entries: { slug: string; title: string; excerpt: string; image: string }[];
+}) {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Blog",
+          name: "Kudozz Club Travel Blog",
+          url: "https://club.kudozz.in/blog",
+          publisher: {
+            "@type": "Organization",
+            name: "Kudozz Club",
+            logo: {
+              "@type": "ImageObject",
+              url: "https://club.kudozz.in/logo.png",
+            },
+          },
+          breadcrumb: {
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: "Home",
+                item: "https://club.kudozz.in",
+              },
+              {
+                "@type": "ListItem",
+                position: 2,
+                name: "Blog",
+                item: "https://club.kudozz.in/blog",
+              },
+            ],
+          },
+          blogPost: entries.map((p) => ({
+            "@type": "BlogPosting",
+            headline: p.title,
+            description: p.excerpt,
+            url: `https://club.kudozz.in/blog/${p.slug}`,
+            image: `https://club.kudozz.in${p.image}`,
+          })),
+        }),
+      }}
+    />
+  );
+}
 
 // ── Data ──────────────────────────────────────────────────────────────────────
 
@@ -151,6 +204,7 @@ const readingListItems = [
 export default function BlogPage() {
   return (
     <>
+      <BlogSchema entries={[featuredPost, ...posts]} />
       <SiteHeader />
       <main>
         {/* ── Hero ──────────────────────────────────────────────────────── */}
@@ -265,11 +319,13 @@ export default function BlogPage() {
                     href={`/blog/${featuredPost.slug}`}
                     className="group flex flex-col sm:flex-row gap-6 bg-white rounded-3xl overflow-hidden border border-stone-200 hover:border-forest-200 hover:shadow-xl transition-all duration-300 p-6"
                   >
-                    <div className="sm:w-72 h-52 sm:h-auto rounded-2xl overflow-hidden flex-shrink-0 bg-stone-100">
-                      <img
+                    <div className="relative sm:w-72 h-52 sm:h-auto rounded-2xl overflow-hidden flex-shrink-0 bg-stone-100">
+                      <Image
                         src={featuredPost.image}
                         alt={featuredPost.title}
-                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                        fill
+                        sizes="(min-width: 640px) 288px, 100vw"
+                        className="object-cover group-hover:scale-105 transition-transform duration-500"
                       />
                     </div>
                     <div className="flex flex-col justify-center flex-1">
@@ -366,10 +422,12 @@ export default function BlogPage() {
                         className="group bg-white rounded-2xl overflow-hidden border border-stone-200 hover:border-forest-200 hover:shadow-lg hover:-translate-y-1 transition-all duration-300 flex flex-col"
                       >
                         <div className="relative h-48 overflow-hidden bg-stone-100">
-                          <img
+                          <Image
                             src={post.image}
                             alt={post.title}
-                            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                            fill
+                            sizes="(min-width: 640px) 50vw, 100vw"
+                            className="object-cover group-hover:scale-105 transition-transform duration-500"
                           />
                           <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
                           <span

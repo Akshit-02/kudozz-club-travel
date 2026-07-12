@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export interface RelatedPost {
   slug: string;
@@ -87,11 +88,13 @@ export function RelatedSidebar() {
               href={`/blog/${post.slug}`}
               className="flex gap-3 p-4 hover:bg-stone-50 transition-colors group"
             >
-              <div className="w-16 h-16 rounded-lg overflow-hidden flex-shrink-0">
-                <img
+              <div className="relative w-16 h-16 rounded-lg overflow-hidden flex-shrink-0">
+                <Image
                   src={post.image}
                   alt={post.title}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  fill
+                  sizes="64px"
+                  className="object-cover group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <div className="flex-1 min-w-0">
@@ -236,10 +239,12 @@ export function RelatedPostsGrid() {
             className="group bg-white rounded-2xl overflow-hidden border border-stone-200 card-hover"
           >
             <div className="relative h-44 overflow-hidden">
-              <img
+              <Image
                 src={post.image}
                 alt={post.title}
-                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                fill
+                sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw"
+                className="object-cover group-hover:scale-105 transition-transform duration-500"
               />
               <span
                 className="absolute top-3 left-3 tag-pill text-xs"

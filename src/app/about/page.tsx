@@ -1,6 +1,7 @@
 // src/app/about/page.tsx
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 
@@ -8,7 +9,47 @@ export const metadata: Metadata = {
   title: "About Us — Our Story",
   description:
     "Kudozz Club is a travel community built by explorers, for explorers. Learn about our story, our mission, and the people behind the guides.",
+  alternates: { canonical: "https://club.kudozz.in/about" },
 };
+
+function AboutSchema() {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "AboutPage",
+          name: "About Kudozz Club",
+          url: "https://club.kudozz.in/about",
+          mainEntity: {
+            "@type": "Organization",
+            name: "Kudozz Club",
+            url: "https://club.kudozz.in",
+            logo: "https://club.kudozz.in/logo.png",
+          },
+          breadcrumb: {
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: "Home",
+                item: "https://club.kudozz.in",
+              },
+              {
+                "@type": "ListItem",
+                position: 2,
+                name: "About",
+                item: "https://club.kudozz.in/about",
+              },
+            ],
+          },
+        }),
+      }}
+    />
+  );
+}
 
 const values = [
   {
@@ -83,15 +124,18 @@ const milestones = [
 export default function AboutPage() {
   return (
     <>
+      <AboutSchema />
       <SiteHeader />
       <main>
         {/* ── Hero ── */}
         <section className="relative min-h-[60vh] flex items-end overflow-hidden">
           <div className="absolute inset-0">
-            <img
+            <Image
               src="/images/destinations/leh-ladakh/leh-ladakh.jpg"
               alt="About Kudozz Club"
-              className="w-full h-full object-cover"
+              fill
+              sizes="100vw"
+              className="object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/60 to-stone-800/20" />
           </div>
@@ -249,10 +293,12 @@ export default function AboutPage() {
               {team.map((member) => (
                 <div key={member.name} className="group text-center">
                   <div className="relative w-28 h-28 mx-auto mb-5 rounded-2xl overflow-hidden shadow-lg">
-                    <img
+                    <Image
                       src={member.avatar}
                       alt={member.name}
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                      fill
+                      sizes="112px"
+                      className="object-cover group-hover:scale-105 transition-transform duration-500"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-forest-900/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
                   </div>

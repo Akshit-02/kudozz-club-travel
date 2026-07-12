@@ -1,6 +1,7 @@
 // src/app/blog/hampi-guide/page.tsx
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
@@ -232,10 +233,13 @@ export default function HampiPage() {
         {/* ── Hero ──────────────────────────────────────────────────────── */}
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <img
+            <Image
               src="/images/destinations/hampi/hero.jpg"
               alt="Hampi — Virupaksha Temple and the surreal boulder landscape of the Vijayanagara Empire"
-              className="w-full h-full object-cover"
+              fill
+              priority
+              sizes="100vw"
+              className="object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/50 to-transparent" />
@@ -710,11 +714,15 @@ export default function HampiPage() {
 
                   <section id="virupaksha">
                     <h3>Virupaksha Temple</h3>
-                    <img
-                      src="/images/destinations/hampi/virupaksha.jpg"
-                      alt="Virupaksha Temple gopuram against the boulder landscape of Hampi"
-                      className="w-full rounded-xl my-6 h-72 object-cover"
-                    />
+                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/destinations/hampi/virupaksha.jpg"
+                        alt="Virupaksha Temple gopuram against the boulder landscape of Hampi"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <p>
                       The <strong>Virupaksha Temple</strong> is Hampi's
                       centrepiece and the only monument in the complex that has

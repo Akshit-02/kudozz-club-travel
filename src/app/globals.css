@@ -79,8 +79,11 @@
     @apply font-semibold text-stone-900;
   }
 
+  /* Note: content images are next/image with `fill`, so margin/width live on
+     the wrapping <div>, not here — a margin on the absolutely-positioned
+     <img> itself would push it outside its wrapper's bounds. */
   .prose-travel img {
-    @apply rounded-xl my-8 w-full object-cover shadow-md;
+    @apply rounded-xl object-cover;
   }
 
   /* TOC styles */

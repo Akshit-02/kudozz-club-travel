@@ -1,6 +1,7 @@
 // src/app/blog/leh-ladakh-road-trip/page.tsx
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
@@ -153,10 +154,13 @@ export default function LehLadakhPage() {
         {/* ── Hero ──────────────────────────────────────────────────────── */}
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <img
+            <Image
               src="/images/destinations/leh-ladakh/leh-ladakh.jpg"
               alt="Leh Ladakh — moonscape valleys and snow-capped Himalayan peaks"
-              className="w-full h-full object-cover"
+              fill
+              priority
+              sizes="100vw"
+              className="object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/40 to-transparent" />
@@ -459,11 +463,15 @@ export default function LehLadakhPage() {
 
                   <section id="manali-leh">
                     <h3>Manali–Leh Highway (NH3)</h3>
-                    <img
-                      src="/images/destinations/manali/rohtang-pass.jpg"
-                      alt="Manali Leh highway through mountain passes"
-                      className="w-full rounded-xl my-6 h-64 object-cover"
-                    />
+                    <div className="relative w-full rounded-xl my-6 h-64 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/destinations/manali/rohtang-pass.jpg"
+                        alt="Manali Leh highway through mountain passes"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <p>
                       At 479 km and crossing five mountain passes including
                       Rohtang (3,978 m), Baralacha La (4,890 m), Nakee La (4,739
@@ -813,11 +821,15 @@ export default function LehLadakhPage() {
 
                   <section id="pangong">
                     <h3>Pangong Tso — The Colour-Changing Lake</h3>
-                    <img
-                      src="/images/destinations/leh-ladakh/leh-ladakh.jpg"
-                      alt="Pangong Tso lake with turquoise water and snow mountains"
-                      className="w-full rounded-xl my-6 h-72 object-cover"
-                    />
+                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/destinations/leh-ladakh/leh-ladakh.jpg"
+                        alt="Pangong Tso lake with turquoise water and snow mountains"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <p>
                       At 4,350 metres and stretching 134 km from India into
                       Tibet (only 40 km of which lies in India),{" "}

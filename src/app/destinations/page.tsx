@@ -1,6 +1,7 @@
 // src/app/destinations/page.tsx
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 
@@ -10,6 +11,52 @@ export const metadata: Metadata = {
     "Browse all travel destinations on Kudozz Club — from Himalayan peaks to tropical beaches, ancient heritage sites to off-beat hidden gems. Hand-crafted guides for every kind of explorer.",
   alternates: { canonical: "https://club.kudozz.in/destinations" },
 };
+
+function DestinationsSchema({
+  destinations,
+}: {
+  destinations: { slug: string; title: string; state: string }[];
+}) {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "CollectionPage",
+          name: "Destinations — Explore India & Beyond",
+          url: "https://club.kudozz.in/destinations",
+          breadcrumb: {
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: "Home",
+                item: "https://club.kudozz.in",
+              },
+              {
+                "@type": "ListItem",
+                position: 2,
+                name: "Destinations",
+                item: "https://club.kudozz.in/destinations",
+              },
+            ],
+          },
+          mainEntity: {
+            "@type": "ItemList",
+            itemListElement: destinations.map((d, i) => ({
+              "@type": "ListItem",
+              position: i + 1,
+              url: `https://club.kudozz.in/blog/${d.slug}`,
+              name: `${d.title}, ${d.state}`,
+            })),
+          },
+        }),
+      }}
+    />
+  );
+}
 
 // ── Data ──────────────────────────────────────────────────────────────────────
 
@@ -285,15 +332,18 @@ const stats = [
 export default function DestinationsPage() {
   return (
     <>
+      <DestinationsSchema destinations={allDestinations} />
       <SiteHeader />
       <main>
         {/* ── Hero ──────────────────────────────────────────────────────── */}
         <section className="relative min-h-[55vh] flex items-end overflow-hidden">
           <div className="absolute inset-0">
-            <img
+            <Image
               src="/images/destinations/manali/hero.jpg"
               alt="Destinations"
-              className="w-full h-full object-cover"
+              fill
+              sizes="100vw"
+              className="object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/60 to-stone-800/20" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/50 to-transparent" />
@@ -422,10 +472,12 @@ export default function DestinationsPage() {
                 href={`/blog/${featured[0].slug}`}
                 className="group lg:row-span-2 relative flex flex-col justify-end overflow-hidden rounded-3xl min-h-[400px] lg:min-h-[520px] shadow-md hover:shadow-xl transition-all duration-500"
               >
-                <img
+                <Image
                   src={featured[0].image}
                   alt={featured[0].title}
-                  className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                  fill
+                  sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
+                  className="object-cover group-hover:scale-105 transition-transform duration-700"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/40 to-transparent" />
                 <div className="absolute top-5 left-5">
@@ -490,10 +542,12 @@ export default function DestinationsPage() {
                   href={`/blog/${dest.slug}`}
                   className="group relative flex flex-col justify-end overflow-hidden rounded-3xl min-h-[240px] shadow-md hover:shadow-xl transition-all duration-500"
                 >
-                  <img
+                  <Image
                     src={dest.image}
                     alt={dest.title}
-                    className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                    fill
+                    sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
+                    className="object-cover group-hover:scale-105 transition-transform duration-700"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/30 to-transparent" />
                   <div className="absolute top-4 left-4">
@@ -589,10 +643,12 @@ export default function DestinationsPage() {
                 >
                   {/* Image */}
                   <div className="relative h-48 overflow-hidden bg-stone-100">
-                    <img
+                    <Image
                       src={dest.image}
                       alt={dest.title}
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                      fill
+                      sizes="(min-width: 1280px) 25vw, (min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
+                      className="object-cover group-hover:scale-105 transition-transform duration-500"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
                     <span
