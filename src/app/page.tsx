@@ -70,44 +70,15 @@ const featuredDestinations = [
     readTime: "12 min",
     color: "from-forest-900/80",
   },
-];
-
-const categories = [
   {
-    label: "Mountains",
-    icon: "🏔️",
-    count: 24,
-    href: "/destinations?type=mountains",
-  },
-  {
-    label: "Beaches",
-    icon: "🏖️",
-    count: 18,
-    href: "/destinations?type=beaches",
-  },
-  {
-    label: "Heritage",
-    icon: "🏛️",
-    count: 31,
-    href: "/destinations?type=heritage",
-  },
-  {
-    label: "Adventure",
-    icon: "🧗",
-    count: 15,
-    href: "/destinations?type=adventure",
-  },
-  {
-    label: "Wildlife",
-    icon: "🐅",
-    count: 12,
-    href: "/destinations?type=wildlife",
-  },
-  {
-    label: "Road Trips",
-    icon: "🚗",
-    count: 20,
-    href: "/destinations?type=road-trips",
+    slug: "meghalaya-travel-guide",
+    title: "Meghalaya",
+    subtitle: "Northeast India",
+    description: "Living root bridges, waterfalls & the cleanest river in Asia",
+    image: "/images/destinations/meghalaya/hero.jpg",
+    tag: "Off-beat",
+    readTime: "20 min",
+    color: "from-emerald-900/80",
   },
 ];
 
@@ -356,68 +327,6 @@ export default function HomePage() {
                         >
                           {dest.readTime} read
                         </span>
-                      </div>
-                    </div>
-                  </Link>
-                </AnimatedSection>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        {/* ══════════════════════════════════════════════════════════════════
-            EXPLORE BY CATEGORY
-        ══════════════════════════════════════════════════════════════════ */}
-        <section className="bg-white py-24">
-          <div className="max-w-7xl mx-auto px-6 sm:px-10">
-            <AnimatedSection className="text-center mb-14">
-              <div className="flex items-center justify-center gap-3 mb-3">
-                <div className="h-px w-8 bg-forest-500" />
-                <span
-                  className="text-forest-600 text-xs font-bold uppercase tracking-[0.2em]"
-                  style={{ fontFamily: "var(--font-dm-sans)" }}
-                >
-                  Browse
-                </span>
-                <div className="h-px w-8 bg-forest-500" />
-              </div>
-              <h2
-                className="text-3xl md:text-4xl font-bold text-stone-900"
-                style={{ fontFamily: "var(--font-playfair)" }}
-              >
-                Explore by Category
-              </h2>
-              <p
-                className="text-stone-500 mt-3 max-w-md mx-auto text-sm"
-                style={{ fontFamily: "var(--font-dm-sans)" }}
-              >
-                Whether you're chasing peaks or beaches, we've got a guide for
-                every kind of explorer.
-              </p>
-            </AnimatedSection>
-
-            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
-              {categories.map((cat, i) => (
-                <AnimatedSection key={cat.label} delay={i * 60}>
-                  <Link
-                    href={cat.href}
-                    className="group flex flex-col items-center gap-3 p-6 rounded-2xl bg-stone-50 border border-stone-200 hover:border-forest-300 hover:bg-forest-50 hover:shadow-md hover:-translate-y-1 transition-all duration-300 text-center"
-                  >
-                    <span className="text-3xl group-hover:scale-110 transition-transform duration-300">
-                      {cat.icon}
-                    </span>
-                    <div>
-                      <div
-                        className="font-semibold text-stone-800 text-sm group-hover:text-forest-700 transition-colors"
-                        style={{ fontFamily: "var(--font-dm-sans)" }}
-                      >
-                        {cat.label}
-                      </div>
-                      <div
-                        className="text-stone-400 text-xs mt-0.5"
-                        style={{ fontFamily: "var(--font-dm-sans)" }}
-                      >
-                        {cat.count} guides
                       </div>
                     </div>
                   </Link>

@@ -60,27 +60,6 @@ function DestinationsSchema({
 
 // ── Data ──────────────────────────────────────────────────────────────────────
 
-const categories = [
-  { id: "all", label: "All" },
-  { id: "mountains", label: "Mountains" },
-  { id: "beaches", label: "Beaches" },
-  { id: "heritage", label: "Heritage" },
-  { id: "wildlife", label: "Wildlife" },
-  { id: "adventure", label: "Adventure" },
-  { id: "spiritual", label: "Spiritual" },
-  { id: "offbeat", label: "Off-beat" },
-];
-
-const regions = [
-  { id: "all", label: "All India" },
-  { id: "north", label: "North India" },
-  { id: "south", label: "South India" },
-  { id: "east", label: "East India" },
-  { id: "west", label: "West India" },
-  { id: "northeast", label: "Northeast" },
-  { id: "islands", label: "Islands" },
-];
-
 const featured = [
   {
     slug: "manali-travel-guide",
@@ -98,6 +77,7 @@ const featured = [
     bestTime: "Oct – Jun",
     featured: true,
     large: true,
+    comingSoon: false,
   },
   {
     slug: "leh-ladakh-road-trip",
@@ -115,6 +95,7 @@ const featured = [
     bestTime: "Jun – Sep",
     featured: true,
     large: false,
+    comingSoon: false,
   },
   {
     slug: "spiti-valley-travel-guide",
@@ -132,6 +113,7 @@ const featured = [
     bestTime: "Jun – Oct",
     featured: true,
     large: false,
+    comingSoon: false,
   },
   {
     slug: "rishikesh-adventure-guide",
@@ -149,6 +131,7 @@ const featured = [
     bestTime: "Sep – Jun",
     featured: true,
     large: false,
+    comingSoon: false,
   },
   {
     slug: "coorg-guide",
@@ -166,6 +149,7 @@ const featured = [
     bestTime: "Oct – May",
     featured: true,
     large: false,
+    comingSoon: false,
   },
 ];
 
@@ -187,6 +171,7 @@ const allDestinations = [
     bestTime: "Mar – Jun, Sep – Nov",
     featured: false,
     large: false,
+    comingSoon: false,
   },
   {
     slug: "valley-of-flowers",
@@ -204,6 +189,7 @@ const allDestinations = [
     bestTime: "Jul – Aug",
     featured: false,
     large: false,
+    comingSoon: false,
   },
   {
     slug: "andaman-islands-guide",
@@ -221,6 +207,7 @@ const allDestinations = [
     bestTime: "Nov – May",
     featured: false,
     large: false,
+    comingSoon: false,
   },
   {
     slug: "hampi-guide",
@@ -238,6 +225,7 @@ const allDestinations = [
     bestTime: "Oct – Feb",
     featured: false,
     large: false,
+    comingSoon: false,
   },
   {
     slug: "kerala-backwaters",
@@ -255,6 +243,7 @@ const allDestinations = [
     bestTime: "Sep – Mar",
     featured: false,
     large: false,
+    comingSoon: false,
   },
   {
     slug: "rajasthan-desert-guide",
@@ -272,6 +261,7 @@ const allDestinations = [
     bestTime: "Oct – Feb",
     featured: false,
     large: false,
+    comingSoon: false,
   },
   {
     slug: "meghalaya-travel-guide",
@@ -289,41 +279,80 @@ const allDestinations = [
     bestTime: "Oct – Apr",
     featured: false,
     large: false,
+    comingSoon: false,
   },
-  //   {
-  //     slug: "ziro-valley-arunachal",
-  //     title: "Ziro Valley",
-  //     state: "Arunachal Pradesh",
-  //     tagline: "India's most untouched valley",
-  //     description:
-  //       "A UNESCO tentative heritage site in Arunachal — home to the Apatani tribe, terraced rice fields and one of India's best music festivals.",
-  //     image: "/images/destinations/kasol/kasol.jpg",
-  //     category: "Off-beat",
-  //     region: "northeast",
-  //     tags: ["offbeat", "heritage"],
-  //     readTime: "11 min",
-  //     highlight: "Ziro Music Festival (September)",
-  //     bestTime: "Mar – Oct",
-  //     featured: false,
-  //     large: false,
-  //   },
-  //   {
-  //     slug: "gokarna-beaches",
-  //     title: "Gokarna",
-  //     state: "Karnataka",
-  //     tagline: "Quieter than Goa",
-  //     description:
-  //       "A temple town with world-class beaches — Om Beach, Half Moon, and Paradise — without Goa's commercialisation.",
-  //     image: "/images/destinations/coorg/coorg.jpg",
-  //     category: "Beaches",
-  //     region: "south",
-  //     tags: ["beaches", "spiritual"],
-  //     readTime: "9 min",
-  //     highlight: "Om Beach at low tide",
-  //     bestTime: "Oct – Mar",
-  //     featured: false,
-  //     large: false,
-  //   },
+  {
+    slug: "ziro-valley-arunachal",
+    title: "Ziro Valley",
+    state: "Arunachal Pradesh",
+    tagline: "India's most untouched valley",
+    description:
+      "A UNESCO tentative heritage site in Arunachal — home to the Apatani tribe, terraced rice fields and one of India's best music festivals.",
+    image: "/images/destinations/kasol/kasol.jpg",
+    category: "Off-beat",
+    region: "northeast",
+    tags: ["offbeat", "heritage"],
+    readTime: "11 min",
+    highlight: "Ziro Music Festival (September)",
+    bestTime: "Mar – Oct",
+    featured: false,
+    large: false,
+    comingSoon: true,
+  },
+  {
+    slug: "gokarna-beaches",
+    title: "Gokarna",
+    state: "Karnataka",
+    tagline: "Quieter than Goa",
+    description:
+      "A temple town with world-class beaches — Om Beach, Half Moon, and Paradise — without Goa's commercialisation.",
+    image: "/images/destinations/coorg/coorg.jpg",
+    category: "Beaches",
+    region: "south",
+    tags: ["beaches", "spiritual"],
+    readTime: "9 min",
+    highlight: "Om Beach at low tide",
+    bestTime: "Oct – Mar",
+    featured: false,
+    large: false,
+    comingSoon: true,
+  },
+  {
+    slug: "udaipur-city-of-lakes",
+    title: "Udaipur",
+    state: "Rajasthan",
+    tagline: "The city of lakes",
+    description:
+      "Palaces floating on still water, whitewashed havelis and the most romantic skyline in Rajasthan.",
+    image: "/images/destinations/jaisalmer/hero.jpg",
+    category: "Heritage",
+    region: "west",
+    tags: ["heritage", "spiritual"],
+    readTime: "10 min",
+    highlight: "Sunset boat ride on Lake Pichola",
+    bestTime: "Sep – Mar",
+    featured: false,
+    large: false,
+    comingSoon: true,
+  },
+  {
+    slug: "goa-beaches-guide",
+    title: "Goa",
+    state: "Goa",
+    tagline: "Sun, sand and susegad",
+    description:
+      "Portuguese-era churches, beach shacks, and a coastline that switches from party-loud to monastery-quiet within a few kilometres.",
+    image: "/images/destinations/andaman/hero.jpg",
+    category: "Beaches",
+    region: "west",
+    tags: ["beaches", "adventure"],
+    readTime: "12 min",
+    highlight: "Sunset at Palolem Beach",
+    bestTime: "Nov – Feb",
+    featured: false,
+    large: false,
+    comingSoon: true,
+  },
 ];
 
 const categoryColors: Record<string, string> = {
@@ -349,7 +378,9 @@ const stats = [
 export default function DestinationsPage() {
   return (
     <>
-      <DestinationsSchema destinations={allDestinations} />
+      <DestinationsSchema
+        destinations={allDestinations.filter((d) => !d.comingSoon)}
+      />
       <SiteHeader />
       <main>
         {/* ── Hero ──────────────────────────────────────────────────────── */}
@@ -416,45 +447,6 @@ export default function DestinationsPage() {
                   </div>
                 </div>
               ))}
-            </div>
-          </div>
-        </section>
-
-        {/* ── Filter Bar ────────────────────────────────────────────────── */}
-        <section className="bg-white border-b border-stone-200 sticky top-[65px] z-30 shadow-sm">
-          <div className="max-w-7xl mx-auto px-6 sm:px-10">
-            <div className="flex flex-col sm:flex-row sm:items-center gap-4 py-4">
-              {/* Category filters */}
-              <div className="flex items-center gap-2 overflow-x-auto pb-1 sm:pb-0 scrollbar-none flex-1">
-                {categories.map((cat, i) => (
-                  <Link
-                    key={cat.id}
-                    href={`/destinations${cat.id !== "all" ? `?category=${cat.id}` : ""}`}
-                    className={`flex-shrink-0 px-4 py-2 rounded-full text-xs font-semibold uppercase tracking-wide transition-all duration-200 ${
-                      i === 0
-                        ? "gradient-forest text-white shadow-sm"
-                        : "bg-stone-100 text-stone-500 hover:bg-stone-200 hover:text-stone-700"
-                    }`}
-                    style={{ fontFamily: "var(--font-dm-sans)" }}
-                  >
-                    {cat.label}
-                  </Link>
-                ))}
-              </div>
-
-              {/* Region select */}
-              <div className="flex-shrink-0">
-                <select
-                  className="px-4 py-2 text-xs font-semibold text-stone-600 bg-stone-100 border border-stone-200 rounded-full focus:outline-none focus:border-forest-400 uppercase tracking-wide"
-                  style={{ fontFamily: "var(--font-dm-sans)" }}
-                >
-                  {regions.map((r) => (
-                    <option key={r.id} value={r.id}>
-                      {r.label}
-                    </option>
-                  ))}
-                </select>
-              </div>
             </div>
           </div>
         </section>
@@ -652,37 +644,45 @@ export default function DestinationsPage() {
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-              {allDestinations.map((dest) => (
-                <Link
-                  key={dest.slug}
-                  href={`/blog/${dest.slug}`}
-                  className="group bg-white rounded-2xl overflow-hidden border border-stone-200 hover:border-forest-200 hover:shadow-lg hover:-translate-y-1 transition-all duration-300 flex flex-col"
-                >
-                  {/* Image */}
-                  <div className="relative h-48 overflow-hidden bg-stone-100">
-                    <Image
-                      src={dest.image}
-                      alt={dest.title}
-                      fill
-                      sizes="(min-width: 1280px) 25vw, (min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
-                      className="object-cover group-hover:scale-105 transition-transform duration-500"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
-                    <span
-                      className={`absolute top-3 left-3 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider rounded-full ${categoryColors[dest.category] ?? "bg-white/90 text-stone-700"}`}
-                      style={{ fontFamily: "var(--font-dm-sans)" }}
-                    >
-                      {dest.category}
-                    </span>
-                    {dest.featured && (
+              {allDestinations.map((dest) => {
+                const cardContent = (
+                  <>
+                    {/* Image */}
+                    <div className="relative h-48 overflow-hidden bg-stone-100">
+                      <Image
+                        src={dest.image}
+                        alt={dest.title}
+                        fill
+                        sizes="(min-width: 1280px) 25vw, (min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
+                        className={`object-cover transition-transform duration-500 ${dest.comingSoon ? "" : "group-hover:scale-105"}`}
+                      />
+                      {!dest.comingSoon && (
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
+                      )}
                       <span
-                        className="absolute top-3 right-3 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider rounded-full bg-forest-500 text-white"
+                        className={`absolute top-3 left-3 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider rounded-full ${categoryColors[dest.category] ?? "bg-white/90 text-stone-700"}`}
                         style={{ fontFamily: "var(--font-dm-sans)" }}
                       >
-                        Featured
+                        {dest.category}
                       </span>
-                    )}
-                  </div>
+                      {dest.comingSoon ? (
+                        <span
+                          className="absolute top-3 right-3 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider rounded-full bg-stone-800 text-white"
+                          style={{ fontFamily: "var(--font-dm-sans)" }}
+                        >
+                          Coming Soon
+                        </span>
+                      ) : (
+                        dest.featured && (
+                          <span
+                            className="absolute top-3 right-3 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider rounded-full bg-forest-500 text-white"
+                            style={{ fontFamily: "var(--font-dm-sans)" }}
+                          >
+                            Featured
+                          </span>
+                        )
+                      )}
+                    </div>
 
                   {/* Content */}
                   <div className="flex flex-col flex-1 p-5">
@@ -749,27 +749,51 @@ export default function DestinationsPage() {
                             {dest.readTime}
                           </span>
                         </div>
-                        <span className="text-xs font-semibold text-forest-600 flex items-center gap-1 group-hover:gap-1.5 transition-all">
-                          Read
-                          <svg
-                            className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                            strokeWidth={2.5}
-                          >
-                            <path
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              d="M9 5l7 7-7 7"
-                            />
-                          </svg>
-                        </span>
+                        {dest.comingSoon ? (
+                          <span className="text-xs font-semibold text-stone-400">
+                            Guide coming soon
+                          </span>
+                        ) : (
+                          <span className="text-xs font-semibold text-forest-600 flex items-center gap-1 group-hover:gap-1.5 transition-all">
+                            Read
+                            <svg
+                              className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform"
+                              fill="none"
+                              viewBox="0 0 24 24"
+                              stroke="currentColor"
+                              strokeWidth={2.5}
+                            >
+                              <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                d="M9 5l7 7-7 7"
+                              />
+                            </svg>
+                          </span>
+                        )}
                       </div>
                     </div>
                   </div>
-                </Link>
-              ))}
+                  </>
+                );
+
+                return dest.comingSoon ? (
+                  <div
+                    key={dest.slug}
+                    className="group bg-white rounded-2xl overflow-hidden border border-stone-200 opacity-70 flex flex-col cursor-default"
+                  >
+                    {cardContent}
+                  </div>
+                ) : (
+                  <Link
+                    key={dest.slug}
+                    href={`/blog/${dest.slug}`}
+                    className="group bg-white rounded-2xl overflow-hidden border border-stone-200 hover:border-forest-200 hover:shadow-lg hover:-translate-y-1 transition-all duration-300 flex flex-col"
+                  >
+                    {cardContent}
+                  </Link>
+                );
+              })}
             </div>
 
             {/* Load more */}

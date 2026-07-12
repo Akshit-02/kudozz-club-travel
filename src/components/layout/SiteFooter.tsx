@@ -8,12 +8,6 @@ const footerLinks = {
     { label: "Rishikesh", href: "/blog/rishikesh-guide" },
     { label: "Coorg", href: "/blog/coorg-guide" },
   ],
-  Itineraries: [
-    { label: "7 Days in Manali", href: "/itineraries/manali-7-days" },
-    { label: "Golden Triangle", href: "/itineraries/golden-triangle" },
-    { label: "Kerala Backwaters", href: "/itineraries/kerala-backwaters" },
-    { label: "Northeast India", href: "/itineraries/northeast-india" },
-  ],
   Resources: [
     { label: "Travel Tips", href: "/travel-tips" },
     { label: "Packing Lists", href: "/packing-lists" },
@@ -90,7 +84,7 @@ export default function SiteFooter() {
 
       {/* ── Main Footer ─────────────────────────────────────────────────── */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10 pt-16 pb-10">
-        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-10">
+        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-10">
           {/* Brand column — spans 2 on large */}
           <div className="col-span-2 md:col-span-4 lg:col-span-2">
             {/* Logo */}

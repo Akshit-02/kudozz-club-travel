@@ -24,7 +24,6 @@ const heroSlides = [
 export default function HomeHero() {
   const [heroSlide, setHeroSlide] = useState(0);
   const [heroLoaded, setHeroLoaded] = useState(false);
-  const [searchQuery, setSearchQuery] = useState("");
 
   useEffect(() => {
     const t = setInterval(
@@ -141,63 +140,18 @@ export default function HomeHero() {
             for explorers who want more than a tourist map.
           </p>
 
-          {/* Search bar */}
+          {/* CTA */}
           <div
             className={`transition-all duration-700 ${heroLoaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
             style={{ transitionDelay: "500ms" }}
           >
-            <div className="flex items-center bg-white/10 backdrop-blur-md border border-white/25 rounded-2xl p-2 max-w-lg hover:bg-white/15 hover:border-white/35 transition-all duration-200 focus-within:bg-white/15 focus-within:border-white/40 focus-within:ring-2 focus-within:ring-white/20">
-              <svg
-                className="w-5 h-5 text-white/50 ml-3 flex-shrink-0"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                strokeWidth={2}
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-                />
-              </svg>
-              <input
-                type="text"
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-                placeholder="Search destinations, guides, tips..."
-                className="flex-1 bg-transparent px-4 py-2.5 text-white placeholder:text-white/40 text-sm focus:outline-none"
-                style={{ fontFamily: "var(--font-dm-sans)" }}
-              />
-              <Link
-                href={`/search?q=${searchQuery}`}
-                className="px-5 py-2.5 gradient-forest text-white text-sm font-semibold rounded-xl hover:opacity-90 transition-opacity whitespace-nowrap"
-                style={{ fontFamily: "var(--font-dm-sans)" }}
-              >
-                Explore →
-              </Link>
-            </div>
-
-            {/* Quick links */}
-            <div className="flex flex-wrap items-center gap-2 mt-4">
-              <span
-                className="text-white/40 text-xs"
-                style={{ fontFamily: "var(--font-dm-sans)" }}
-              >
-                Popular:
-              </span>
-              {["Manali", "Ladakh", "Spiti", "Rishikesh", "Coorg"].map(
-                (place) => (
-                  <Link
-                    key={place}
-                    href={`/search?q=${place}`}
-                    className="px-3 py-1 text-xs text-white/70 bg-white/10 hover:bg-white/20 border border-white/15 rounded-full transition-all hover:text-white"
-                    style={{ fontFamily: "var(--font-dm-sans)" }}
-                  >
-                    {place}
-                  </Link>
-                ),
-              )}
-            </div>
+            <Link
+              href="/destinations"
+              className="inline-flex items-center gap-2 px-6 py-3.5 gradient-forest text-white text-sm font-semibold rounded-full hover:opacity-90 transition-opacity"
+              style={{ fontFamily: "var(--font-dm-sans)" }}
+            >
+              Explore Destinations →
+            </Link>
           </div>
         </div>
       </div>
