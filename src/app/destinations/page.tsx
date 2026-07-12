@@ -273,6 +273,23 @@ const allDestinations = [
     featured: false,
     large: false,
   },
+  {
+    slug: "meghalaya-travel-guide",
+    title: "Meghalaya",
+    state: "Meghalaya",
+    tagline: "The abode of clouds",
+    description:
+      "Double-decker living root bridges, Asia's cleanest village, and a river so clear boats appear to float on air.",
+    image: "/images/destinations/meghalaya/hero.jpg",
+    category: "Nature",
+    region: "northeast",
+    tags: ["offbeat", "adventure"],
+    readTime: "20 min",
+    highlight: "Umngot River at Dawki",
+    bestTime: "Oct – Apr",
+    featured: false,
+    large: false,
+  },
   //   {
   //     slug: "ziro-valley-arunachal",
   //     title: "Ziro Valley",

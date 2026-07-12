@@ -91,6 +91,18 @@ const featuredPost = {
 
 const posts = [
   {
+    slug: "meghalaya-travel-guide",
+    title: "Meghalaya Travel Guide: Living Root Bridges, Cherrapunji & More",
+    excerpt:
+      "Double-decker living root bridges, the cleanest river in Asia, and waterfalls that drop straight out of the clouds — the complete guide to India's wettest state.",
+    image: "/images/destinations/meghalaya/hero.jpg",
+    category: "Off-beat",
+    categoryColor: "bg-forest-100 text-forest-700",
+    tags: ["Meghalaya", "Northeast India"],
+    readTime: "20 min",
+    featured: true,
+  },
+  {
     slug: "manali-travel-guide",
     title: "Manali Travel Guide: Top Places, Itinerary & Insider Tips",
     excerpt:
