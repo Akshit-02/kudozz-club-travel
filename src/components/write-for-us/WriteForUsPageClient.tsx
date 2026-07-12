@@ -126,13 +126,47 @@ export default function WriteForUsPageClient() {
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
   const [charCount, setCharCount] = useState(0);
+  const [error, setError] = useState<string | null>(null);
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setLoading(true);
-    await new Promise((r) => setTimeout(r, 1400));
-    setLoading(false);
-    setSubmitted(true);
+    setError(null);
+
+    const form = e.currentTarget;
+    const data = new FormData(form);
+
+    try {
+      const res = await fetch("/api/write-for-us", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          fullName: data.get("fullName"),
+          email: data.get("email"),
+          website: data.get("website"),
+          destination: data.get("destination"),
+          contentType: data.get("contentType"),
+          pitch: data.get("pitch"),
+          photos: data.get("photos"),
+          agree: data.get("agree") === "on",
+        }),
+      });
+
+      if (!res.ok) {
+        const body = await res.json().catch(() => ({}));
+        throw new Error(
+          body.error || "Something went wrong. Please try again.",
+        );
+      }
+
+      setSubmitted(true);
+      form.reset();
+      setCharCount(0);
+    } catch (err) {
+      setError(err instanceof Error ? err.message : "Something went wrong.");
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
@@ -522,6 +556,7 @@ export default function WriteForUsPageClient() {
                     </label>
                     <input
                       type="text"
+                      name="fullName"
                       required
                       placeholder="Your name"
                       className="w-full px-4 py-3 bg-stone-50 border border-stone-200 rounded-xl text-stone-900 text-sm placeholder:text-stone-400 focus:outline-none focus:border-forest-400 focus:ring-2 focus:ring-forest-400/20 focus:bg-white transition-all"
@@ -537,6 +572,7 @@ export default function WriteForUsPageClient() {
                     </label>
                     <input
                       type="email"
+                      name="email"
                       required
                       placeholder="your@email.com"
                       className="w-full px-4 py-3 bg-stone-50 border border-stone-200 rounded-xl text-stone-900 text-sm placeholder:text-stone-400 focus:outline-none focus:border-forest-400 focus:ring-2 focus:ring-forest-400/20 focus:bg-white transition-all"
@@ -555,6 +591,7 @@ export default function WriteForUsPageClient() {
                   </label>
                   <input
                     type="url"
+                    name="website"
                     placeholder="https://..."
                     className="w-full px-4 py-3 bg-stone-50 border border-stone-200 rounded-xl text-stone-900 text-sm placeholder:text-stone-400 focus:outline-none focus:border-forest-400 focus:ring-2 focus:ring-forest-400/20 focus:bg-white transition-all"
                     style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -571,6 +608,7 @@ export default function WriteForUsPageClient() {
                   </label>
                   <input
                     type="text"
+                    name="destination"
                     required
                     placeholder="e.g. Spiti Valley in October, Solo trek to Kedarkantha..."
                     className="w-full px-4 py-3 bg-stone-50 border border-stone-200 rounded-xl text-stone-900 text-sm placeholder:text-stone-400 focus:outline-none focus:border-forest-400 focus:ring-2 focus:ring-forest-400/20 focus:bg-white transition-all"
@@ -605,6 +643,7 @@ export default function WriteForUsPageClient() {
                           type="radio"
                           name="contentType"
                           value={type}
+                          required
                           className="accent-forest-500 w-3 h-3"
                         />
                         <span
@@ -635,6 +674,7 @@ export default function WriteForUsPageClient() {
                     </span>
                   </div>
                   <textarea
+                    name="pitch"
                     required
                     rows={6}
                     placeholder="Describe your piece — what's the destination, what's the unique angle, what will readers take away? Include 2–3 sentences written in the voice you'd use for the article."
@@ -716,6 +756,7 @@ export default function WriteForUsPageClient() {
                 <label className="flex items-start gap-3 cursor-pointer group">
                   <input
                     type="checkbox"
+                    name="agree"
                     required
                     className="accent-forest-500 w-4 h-4 mt-0.5 flex-shrink-0"
                   />
@@ -734,6 +775,15 @@ export default function WriteForUsPageClient() {
                     and agree to them.
                   </span>
                 </label>
+
+                {error && (
+                  <p
+                    className="text-red-500 text-sm"
+                    style={{ fontFamily: "var(--font-dm-sans)" }}
+                  >
+                    {error}
+                  </p>
+                )}
 
                 {/* Submit */}
                 <button

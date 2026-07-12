@@ -1,4 +1,5 @@
 import Link from "next/link";
+import NewsletterFooterForm from "./NewsletterFooterForm";
 
 const footerLinks = {
   Destinations: [
@@ -57,27 +58,7 @@ export default function SiteFooter() {
             </div>
 
             {/* Right form */}
-            <form
-              action="/api/newsletter"
-              method="POST"
-              className="w-full lg:w-auto flex flex-col sm:flex-row gap-3 lg:min-w-[420px]"
-            >
-              <input
-                type="email"
-                name="email"
-                placeholder="your@email.com"
-                required
-                className="flex-1 px-5 py-3.5 rounded-full bg-white/15 backdrop-blur-sm border border-white/25 text-white placeholder:text-white/50 text-sm focus:outline-none focus:ring-2 focus:ring-white/40 focus:bg-white/20 transition-all"
-                style={{ fontFamily: "var(--font-dm-sans)" }}
-              />
-              <button
-                type="submit"
-                className="px-6 py-3.5 bg-white text-forest-700 font-semibold rounded-full text-sm hover:bg-stone-100 active:scale-95 transition-all whitespace-nowrap shadow-lg"
-                style={{ fontFamily: "var(--font-dm-sans)" }}
-              >
-                Join Free →
-              </button>
-            </form>
+            <NewsletterFooterForm />
           </div>
         </div>
       </div>

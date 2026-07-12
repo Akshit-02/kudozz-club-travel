@@ -1,7 +1,9 @@
 // src/app/newsletter/page.tsx
 import type { Metadata } from "next";
+import Image from "next/image";
 import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
+import NewsletterSignupForm from "@/components/newsletter/NewsletterSignupForm";
 
 export const metadata: Metadata = {
   title: "Join the Club — Free Travel Newsletter",
@@ -69,10 +71,13 @@ export default function NewsletterPage() {
         {/* ── Hero ── */}
         <section className="relative min-h-[55vh] flex items-center justify-center overflow-hidden bg-stone-950">
           <div className="absolute inset-0">
-            <img
+            <Image
               src="/images/destinations/manali/hero.jpg"
-              alt="Newsletter hero"
-              className="w-full h-full object-cover opacity-30"
+              alt="Himalayan mountain landscape"
+              fill
+              priority
+              sizes="100vw"
+              className="object-cover opacity-30"
             />
             <div className="absolute inset-0 bg-gradient-to-b from-stone-950/60 via-stone-950/50 to-stone-950" />
           </div>
@@ -125,107 +130,7 @@ export default function NewsletterPage() {
                 No spam. Unsubscribe anytime. Takes 10 seconds.
               </p>
 
-              <form
-                action="/api/newsletter"
-                method="POST"
-                className="space-y-4"
-              >
-                <div className="grid grid-cols-2 gap-4">
-                  <div>
-                    <label
-                      className="text-xs font-semibold text-stone-400 uppercase tracking-widest block mb-2"
-                      style={{ fontFamily: "var(--font-dm-sans)" }}
-                    >
-                      First Name
-                    </label>
-                    <input
-                      type="text"
-                      name="firstName"
-                      placeholder="Aditya"
-                      required
-                      className="w-full px-4 py-3 bg-stone-800 border border-stone-700 rounded-xl text-white text-sm placeholder:text-stone-600 focus:outline-none focus:border-forest-500 focus:ring-1 focus:ring-forest-500/30 transition-all"
-                      style={{ fontFamily: "var(--font-dm-sans)" }}
-                    />
-                  </div>
-                  <div>
-                    <label
-                      className="text-xs font-semibold text-stone-400 uppercase tracking-widest block mb-2"
-                      style={{ fontFamily: "var(--font-dm-sans)" }}
-                    >
-                      Last Name
-                    </label>
-                    <input
-                      type="text"
-                      name="lastName"
-                      placeholder="Sharma"
-                      className="w-full px-4 py-3 bg-stone-800 border border-stone-700 rounded-xl text-white text-sm placeholder:text-stone-600 focus:outline-none focus:border-forest-500 focus:ring-1 focus:ring-forest-500/30 transition-all"
-                      style={{ fontFamily: "var(--font-dm-sans)" }}
-                    />
-                  </div>
-                </div>
-
-                <div>
-                  <label
-                    className="text-xs font-semibold text-stone-400 uppercase tracking-widest block mb-2"
-                    style={{ fontFamily: "var(--font-dm-sans)" }}
-                  >
-                    Email Address
-                  </label>
-                  <input
-                    type="email"
-                    name="email"
-                    placeholder="your@email.com"
-                    required
-                    className="w-full px-4 py-3 bg-stone-800 border border-stone-700 rounded-xl text-white text-sm placeholder:text-stone-600 focus:outline-none focus:border-forest-500 focus:ring-1 focus:ring-forest-500/30 transition-all"
-                    style={{ fontFamily: "var(--font-dm-sans)" }}
-                  />
-                </div>
-
-                <div>
-                  <label
-                    className="text-xs font-semibold text-stone-400 uppercase tracking-widest block mb-2"
-                    style={{ fontFamily: "var(--font-dm-sans)" }}
-                  >
-                    Travel Interests
-                  </label>
-                  <div className="flex flex-wrap gap-2">
-                    {[
-                      "Mountains",
-                      "Beaches",
-                      "Heritage",
-                      "Adventure",
-                      "Road Trips",
-                      "Budget Travel",
-                    ].map((interest) => (
-                      <label
-                        key={interest}
-                        className="flex items-center gap-2 px-3 py-1.5 bg-stone-800 border border-stone-700 rounded-full cursor-pointer hover:border-forest-500/50 transition-colors group"
-                      >
-                        <input
-                          type="checkbox"
-                          name="interests"
-                          value={interest}
-                          className="accent-forest-500 w-3 h-3"
-                        />
-                        <span
-                          className="text-xs text-stone-400 group-hover:text-stone-300"
-                          style={{ fontFamily: "var(--font-dm-sans)" }}
-                        >
-                          {interest}
-                        </span>
-                      </label>
-                    ))}
-                  </div>
-                </div>
-
-                <button
-                  type="submit"
-                  className="w-full py-4 gradient-forest text-white font-semibold rounded-xl hover:opacity-90 active:scale-[0.98] transition-all shadow-lg shadow-forest-900/30 text-sm mt-2"
-                  style={{ fontFamily: "var(--font-dm-sans)" }}
-                >
-                  Join Free — Get My First Guide →
-                </button>
-              </form>
+              <NewsletterSignupForm />
 
               <p
                 className="text-center text-xs text-stone-600 mt-4"

@@ -16,13 +16,41 @@ const reasons = [
 export default function ContactPageClient() {
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setLoading(true);
-    await new Promise((r) => setTimeout(r, 1200)); // Simulate API call
-    setLoading(false);
-    setSubmitted(true);
+    setError(null);
+
+    const form = e.currentTarget;
+    const data = new FormData(form);
+
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          name: data.get("name"),
+          email: data.get("email"),
+          reason: data.get("reason"),
+          subject: data.get("subject"),
+          message: data.get("message"),
+        }),
+      });
+
+      if (!res.ok) {
+        const body = await res.json().catch(() => ({}));
+        throw new Error(body.error || "Something went wrong. Please try again.");
+      }
+
+      setSubmitted(true);
+      form.reset();
+    } catch (err) {
+      setError(err instanceof Error ? err.message : "Something went wrong.");
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
@@ -260,6 +288,7 @@ export default function ContactPageClient() {
                         </label>
                         <input
                           type="text"
+                          name="name"
                           required
                           placeholder="Your name"
                           className="w-full px-4 py-3 bg-stone-800 border border-stone-700 rounded-xl text-white text-sm placeholder:text-stone-600 focus:outline-none focus:border-forest-500 focus:ring-1 focus:ring-forest-500/30 transition-all"
@@ -275,6 +304,7 @@ export default function ContactPageClient() {
                         </label>
                         <input
                           type="email"
+                          name="email"
                           required
                           placeholder="your@email.com"
                           className="w-full px-4 py-3 bg-stone-800 border border-stone-700 rounded-xl text-white text-sm placeholder:text-stone-600 focus:outline-none focus:border-forest-500 focus:ring-1 focus:ring-forest-500/30 transition-all"
@@ -291,11 +321,13 @@ export default function ContactPageClient() {
                         Reason *
                       </label>
                       <select
+                        name="reason"
                         required
+                        defaultValue=""
                         className="w-full px-4 py-3 bg-stone-800 border border-stone-700 rounded-xl text-white text-sm focus:outline-none focus:border-forest-500 focus:ring-1 focus:ring-forest-500/30 transition-all appearance-none"
                         style={{ fontFamily: "var(--font-dm-sans)" }}
                       >
-                        <option value="" disabled selected>
+                        <option value="" disabled>
                           Select a reason...
                         </option>
                         {reasons.map((r) => (
@@ -315,6 +347,7 @@ export default function ContactPageClient() {
                       </label>
                       <input
                         type="text"
+                        name="subject"
                         required
                         placeholder="Brief subject line"
                         className="w-full px-4 py-3 bg-stone-800 border border-stone-700 rounded-xl text-white text-sm placeholder:text-stone-600 focus:outline-none focus:border-forest-500 focus:ring-1 focus:ring-forest-500/30 transition-all"
@@ -330,6 +363,7 @@ export default function ContactPageClient() {
                         Message *
                       </label>
                       <textarea
+                        name="message"
                         required
                         rows={5}
                         placeholder="Tell us more..."
@@ -337,6 +371,15 @@ export default function ContactPageClient() {
                         style={{ fontFamily: "var(--font-dm-sans)" }}
                       />
                     </div>
+
+                    {error && (
+                      <p
+                        className="text-red-400 text-sm"
+                        style={{ fontFamily: "var(--font-dm-sans)" }}
+                      >
+                        {error}
+                      </p>
+                    )}
 
                     <button
                       type="submit"
