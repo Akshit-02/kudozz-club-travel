@@ -315,7 +315,7 @@ const allDestinations = [
     bestTime: "Oct – Mar",
     featured: false,
     large: false,
-    comingSoon: true,
+    comingSoon: false,
   },
   {
     slug: "udaipur-city-of-lakes",
