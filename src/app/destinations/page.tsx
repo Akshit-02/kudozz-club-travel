@@ -351,7 +351,7 @@ const allDestinations = [
     bestTime: "Nov – Feb",
     featured: false,
     large: false,
-    comingSoon: true,
+    comingSoon: false,
   },
 ];
 

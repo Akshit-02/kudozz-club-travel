@@ -23,6 +23,18 @@ export const featuredPost = {
 
 export const posts = [
   {
+    slug: "goa-beaches-guide",
+    title: "Goa Travel Guide: Best Beaches, North vs South & Itinerary",
+    excerpt:
+      "Portuguese-era churches, beach shacks, and a coastline that switches from party-loud to monastery-quiet within a few kilometres — the complete guide to Goa.",
+    image: "/images/destinations/andaman/hero.jpg",
+    category: "Beaches",
+    categoryColor: "bg-sky-100 text-sky-700",
+    tags: ["Goa", "Beaches"],
+    readTime: "12 min",
+    featured: true,
+  },
+  {
     slug: "udaipur-city-of-lakes",
     title: "Udaipur Travel Guide: City Palace, Lake Pichola & Itinerary",
     excerpt:
