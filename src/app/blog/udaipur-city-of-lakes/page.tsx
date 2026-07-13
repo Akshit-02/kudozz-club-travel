@@ -18,7 +18,8 @@ export const metadata: Metadata = {
   keywords:
     "Udaipur travel guide, City Palace Udaipur, Lake Pichola boat ride, Jag Mandir, Fateh Sagar Lake, Bagore ki Haveli, Monsoon Palace Udaipur, Saheliyon ki Bari, Udaipur itinerary, Rajasthan lake city",
   openGraph: {
-    title: "Udaipur Travel Guide: City Palace, Lake Pichola & Complete Itinerary",
+    title:
+      "Udaipur Travel Guide: City Palace, Lake Pichola & Complete Itinerary",
     description:
       "Palaces floating on still water, whitewashed havelis, and the most romantic skyline in Rajasthan — the complete guide to Udaipur.",
     url: "https://club.kudozz.in/blog/udaipur-city-of-lakes",
@@ -35,7 +36,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Udaipur Travel Guide: City Palace, Lake Pichola & Complete Itinerary",
+    title:
+      "Udaipur Travel Guide: City Palace, Lake Pichola & Complete Itinerary",
     description:
       "The City of Lakes — City Palace, Lake Pichola, and the most romantic skyline in Rajasthan.",
     images: ["/images/destinations/jaisalmer/hero.jpg"],
@@ -236,7 +238,7 @@ export default function UdaipurCityOfLakesPage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jaisalmer/hero.jpg"
+              src="/images/destinations/udaipur/hero.jpg"
               alt="Udaipur City Palace overlooking Lake Pichola at sunset"
               fill
               priority
@@ -313,10 +315,10 @@ export default function UdaipurCityOfLakesPage() {
               className="text-lg text-white/80 max-w-2xl mb-8 leading-relaxed"
               style={{ fontFamily: "var(--font-source-serif)" }}
             >
-              Palaces that appear to float on still water, whitewashed
-              havelis climbing narrow lanes, and a skyline that turns gold at
-              sunset — Udaipur is the most romantic city in Rajasthan, and
-              one of the most photogenic in India.
+              Palaces that appear to float on still water, whitewashed havelis
+              climbing narrow lanes, and a skyline that turns gold at sunset —
+              Udaipur is the most romantic city in Rajasthan, and one of the
+              most photogenic in India.
             </p>
 
             <div
@@ -378,19 +380,18 @@ export default function UdaipurCityOfLakesPage() {
                 <section id="introduction">
                   <h2>Why Udaipur?</h2>
                   <p>
-                    Rajasthan is a state built on desert forts and dry,
-                    dramatic landscapes — which is exactly what makes{" "}
+                    Rajasthan is a state built on desert forts and dry, dramatic
+                    landscapes — which is exactly what makes{" "}
                     <strong>Udaipur</strong> such a surprise. Here the desert
-                    gives way to a cluster of artificial lakes, ringed by
-                    hills and dotted with marble palaces that seem to rise
-                    directly out of the water. It's the reason Udaipur has
-                    been called the <strong>City of Lakes</strong> and,
-                    somewhat more cinematically, the{" "}
-                    <strong>Venice of the East</strong>.
+                    gives way to a cluster of artificial lakes, ringed by hills
+                    and dotted with marble palaces that seem to rise directly
+                    out of the water. It's the reason Udaipur has been called
+                    the <strong>City of Lakes</strong> and, somewhat more
+                    cinematically, the <strong>Venice of the East</strong>.
                   </p>
                   <p>
-                    At the centre of it all is the <strong>City Palace</strong>
-                    , the largest palace complex in Rajasthan, built up over
+                    At the centre of it all is the <strong>City Palace</strong>,
+                    the largest palace complex in Rajasthan, built up over
                     nearly 400 years by successive Mewar rulers on the eastern
                     bank of Lake Pichola. Just offshore, Jag Mandir and Jag
                     Niwas (now the Taj Lake Palace hotel) sit on their own
@@ -437,7 +438,11 @@ export default function UdaipurCityOfLakesPage() {
                           label: "Nearest Airport",
                           value: "Maharana Pratap (UDR)",
                         },
-                        { icon: "🌊", label: "Lakes", value: "Pichola, Fateh Sagar" },
+                        {
+                          icon: "🌊",
+                          label: "Lakes",
+                          value: "Pichola, Fateh Sagar",
+                        },
                         {
                           icon: "💰",
                           label: "Budget/Day",
@@ -463,8 +468,8 @@ export default function UdaipurCityOfLakesPage() {
                   <p>
                     Udaipur's lakes make it slightly milder than the rest of
                     desert Rajasthan, but the same broad seasonal pattern
-                    applies — cool winters are the clear favourite, summers
-                    are best avoided.
+                    applies — cool winters are the clear favourite, summers are
+                    best avoided.
                   </p>
 
                   <div className="grid sm:grid-cols-2 gap-4 my-6">
@@ -526,8 +531,8 @@ export default function UdaipurCityOfLakesPage() {
 
                   <blockquote>
                     <strong>Our pick:</strong> October to February. Lakes are
-                    fullest right after monsoon, evenings are cool enough for
-                    a jacket and a rooftop dinner, and the light in the golden
+                    fullest right after monsoon, evenings are cool enough for a
+                    jacket and a rooftop dinner, and the light in the golden
                     hour before sunset is exactly what makes Udaipur's
                     palace-and-water views so famous.
                   </blockquote>
@@ -543,30 +548,30 @@ export default function UdaipurCityOfLakesPage() {
                   </p>
                   <ul>
                     <li>
-                      <strong>By Air:</strong> Maharana Pratap Airport (UDR)
-                      has direct daily flights from Delhi, Mumbai, Bangalore,
-                      Ahmedabad, and Jaipur, plus seasonal connections to
-                      other cities. The airport is about 22 km from the city
-                      centre, roughly 30–40 minutes by taxi.
+                      <strong>By Air:</strong> Maharana Pratap Airport (UDR) has
+                      direct daily flights from Delhi, Mumbai, Bangalore,
+                      Ahmedabad, and Jaipur, plus seasonal connections to other
+                      cities. The airport is about 22 km from the city centre,
+                      roughly 30–40 minutes by taxi.
                     </li>
                     <li>
                       <strong>By Train:</strong> Udaipur City Railway Station
-                      connects to Delhi, Mumbai, Ahmedabad, and Jaipur with
-                      both day and overnight options. The Mewar Express and
+                      connects to Delhi, Mumbai, Ahmedabad, and Jaipur with both
+                      day and overnight options. The Mewar Express and
                       Udaipur–Delhi overnight trains are popular choices for
                       arriving rested.
                     </li>
                     <li>
-                      <strong>By Road:</strong> Udaipur connects to Jaipur
-                      (405 km, 6–7 hrs), Jodhpur (265 km, 5 hrs), and
-                      Ahmedabad (260 km, 5 hrs) via good highways. RSRTC and
-                      private overnight buses run regularly from all three.
+                      <strong>By Road:</strong> Udaipur connects to Jaipur (405
+                      km, 6–7 hrs), Jodhpur (265 km, 5 hrs), and Ahmedabad (260
+                      km, 5 hrs) via good highways. RSRTC and private overnight
+                      buses run regularly from all three.
                     </li>
                     <li>
-                      <strong>Classic Rajasthan circuit:</strong> Udaipur
-                      pairs naturally with Jodhpur and Jaisalmer for a
-                      south-to-west Rajasthan loop, or with Mount Abu (185 km,
-                      ~4 hrs) as a shorter hill-station add-on.
+                      <strong>Classic Rajasthan circuit:</strong> Udaipur pairs
+                      naturally with Jodhpur and Jaisalmer for a south-to-west
+                      Rajasthan loop, or with Mount Abu (185 km, ~4 hrs) as a
+                      shorter hill-station add-on.
                     </li>
                   </ul>
                   <div
@@ -576,9 +581,8 @@ export default function UdaipurCityOfLakesPage() {
                     <strong>💡 Pro Tip:</strong> If your dates are flexible,
                     flying in is genuinely the easiest option here — unlike
                     Jaisalmer, Udaipur's airport connectivity is excellent, so
-                    there's little reason to take a long overland journey
-                    unless you're already combining it with other Rajasthan
-                    stops.
+                    there's little reason to take a long overland journey unless
+                    you're already combining it with other Rajasthan stops.
                   </div>
                 </section>
 
@@ -588,18 +592,18 @@ export default function UdaipurCityOfLakesPage() {
                   <p>
                     Begun in 1559 CE by Maharana Udai Singh II (Udaipur's
                     founder) and expanded by successive Mewar rulers over the
-                    next four centuries, the <strong>City Palace</strong> is
-                    the largest palace complex in Rajasthan — a sprawling
-                    fusion of courtyards, balconies, towers, and domes built
-                    directly on the eastern shore of Lake Pichola.
+                    next four centuries, the <strong>City Palace</strong> is the
+                    largest palace complex in Rajasthan — a sprawling fusion of
+                    courtyards, balconies, towers, and domes built directly on
+                    the eastern shore of Lake Pichola.
                   </p>
                   <p>
                     Unlike Jaisalmer's austere desert fort, City Palace is all
                     ornamentation — coloured glass, mirror-work mosaics,
-                    miniature paintings, and peacock motifs picked out in
-                    inlaid tile. Large sections remain the private residence
-                    of the Mewar royal family, while the rest is open as a
-                    museum showing armour, royal portraits, and palanquins.
+                    miniature paintings, and peacock motifs picked out in inlaid
+                    tile. Large sections remain the private residence of the
+                    Mewar royal family, while the rest is open as a museum
+                    showing armour, royal portraits, and palanquins.
                   </p>
                   <ul>
                     <li>
@@ -610,21 +614,20 @@ export default function UdaipurCityOfLakesPage() {
                       Palace.
                     </li>
                     <li>
-                      <strong>Manak Mahal (Ruby Palace):</strong> A mirrored
-                      and glass-inlaid hall lined with royal portraits, one
-                      of the most opulent interior spaces in the complex.
+                      <strong>Manak Mahal (Ruby Palace):</strong> A mirrored and
+                      glass-inlaid hall lined with royal portraits, one of the
+                      most opulent interior spaces in the complex.
                     </li>
                     <li>
                       <strong>Crystal Gallery:</strong> A separate ticketed
                       section housing an extraordinary collection of crystal
                       furniture ordered from England in the 1870s by Maharana
-                      Sajjan Singh — some pieces were never even unpacked
-                      before the maharana's death.
+                      Sajjan Singh — some pieces were never even unpacked before
+                      the maharana's death.
                     </li>
                     <li>
-                      <strong>Entry:</strong> ₹300 (Indian), ₹700 (Foreign)
-                      for the museum; Crystal Gallery is a separate ticket
-                      (~₹500).
+                      <strong>Entry:</strong> ₹300 (Indian), ₹700 (Foreign) for
+                      the museum; Crystal Gallery is a separate ticket (~₹500).
                     </li>
                     <li>
                       <strong>Timings:</strong> 9:30 AM – 5:30 PM daily
@@ -636,9 +639,9 @@ export default function UdaipurCityOfLakesPage() {
                   >
                     <strong>💡 Pro Tip:</strong> Arrive at opening time. City
                     Palace draws heavy tour-group traffic by mid-morning, and
-                    the narrow passages between courtyards get genuinely
-                    crowded — the first hour is the only time you'll get
-                    Mor Chowk close to empty.
+                    the narrow passages between courtyards get genuinely crowded
+                    — the first hour is the only time you'll get Mor Chowk close
+                    to empty.
                   </div>
                 </section>
 
@@ -647,31 +650,31 @@ export default function UdaipurCityOfLakesPage() {
                   <h2>Lake Pichola</h2>
                   <p>
                     <strong>Lake Pichola</strong> is the reason Udaipur looks
-                    the way it does — an artificial lake created in 1362 CE
-                    and later expanded under Maharana Udai Singh II, ringed by
-                    the City Palace, ghats, havelis, and hills, with two
+                    the way it does — an artificial lake created in 1362 CE and
+                    later expanded under Maharana Udai Singh II, ringed by the
+                    City Palace, ghats, havelis, and hills, with two
                     palace-topped islands rising from its centre.
                   </p>
 
                   <section id="jag-mandir">
                     <h3>Jag Mandir & Jag Niwas</h3>
                     <p>
-                      <strong>Jag Mandir</strong>, built across the 17th
-                      century on a southern island, is open to visitors as a
-                      restaurant and event venue, with a marble courtyard,
-                      garden, and elephant-carved sandstone gateway. It once
-                      sheltered a young Prince Khurram (the future Shah
-                      Jahan) during a rebellion against his father — a stay
-                      some historians believe influenced the design of the
-                      Taj Mahal decades later.
+                      <strong>Jag Mandir</strong>, built across the 17th century
+                      on a southern island, is open to visitors as a restaurant
+                      and event venue, with a marble courtyard, garden, and
+                      elephant-carved sandstone gateway. It once sheltered a
+                      young Prince Khurram (the future Shah Jahan) during a
+                      rebellion against his father — a stay some historians
+                      believe influenced the design of the Taj Mahal decades
+                      later.
                     </p>
                     <p>
                       <strong>Jag Niwas</strong>, on the second island, is now
                       the <strong>Taj Lake Palace</strong> hotel — not open to
                       non-guests for casual visits, but its illuminated
                       silhouette at night, appearing to float on the water, is
-                      one of Udaipur's defining views regardless of whether
-                      you stay there.
+                      one of Udaipur's defining views regardless of whether you
+                      stay there.
                     </p>
                   </section>
 
@@ -680,26 +683,24 @@ export default function UdaipurCityOfLakesPage() {
                     <p>
                       A <strong>Lake Pichola boat ride</strong> is close to
                       mandatory in Udaipur — departing from the City Palace
-                      jetty, most trips circle past Jag Mandir with a
-                      photo stop, and the sunset departure (last slot of the
-                      day) is by far the most popular, timed so the palace
-                      skyline turns gold and pink as the sun drops behind the
-                      Aravalli hills.
+                      jetty, most trips circle past Jag Mandir with a photo
+                      stop, and the sunset departure (last slot of the day) is
+                      by far the most popular, timed so the palace skyline turns
+                      gold and pink as the sun drops behind the Aravalli hills.
                     </p>
                     <ul>
                       <li>
                         <strong>Duration:</strong> ~1 hour
                       </li>
                       <li>
-                        <strong>Price:</strong> ₹400–₹700 per person
-                        (sunset slots cost more and sell out first)
+                        <strong>Price:</strong> ₹400–₹700 per person (sunset
+                        slots cost more and sell out first)
                       </li>
                       <li>
                         <strong>Book ahead in peak season:</strong> The sunset
-                        slot fills up by early afternoon during
-                        December–January — book at the jetty counter as soon
-                        as you arrive in the city if sunset timing matters to
-                        you.
+                        slot fills up by early afternoon during December–January
+                        — book at the jetty counter as soon as you arrive in the
+                        city if sunset timing matters to you.
                       </li>
                     </ul>
                   </section>
@@ -711,17 +712,16 @@ export default function UdaipurCityOfLakesPage() {
                   <p>
                     North of Lake Pichola, <strong>Fateh Sagar Lake</strong>
                     is Udaipur's second major lake — larger, quieter, and
-                    considerably less touristy, popular with locals for
-                    evening walks along its promenade. It holds three
-                    islands, including <strong>Nehru Garden</strong>, a small
-                    public park reachable by boat, and offers some of the
-                    best unobstructed sunset views in the city, with the
-                    Aravalli hills as backdrop.
+                    considerably less touristy, popular with locals for evening
+                    walks along its promenade. It holds three islands, including{" "}
+                    <strong>Nehru Garden</strong>, a small public park reachable
+                    by boat, and offers some of the best unobstructed sunset
+                    views in the city, with the Aravalli hills as backdrop.
                   </p>
                   <ul>
                     <li>
-                      <strong>Boat rides:</strong> ₹200–₹400 per person,
-                      shorter queues than Pichola
+                      <strong>Boat rides:</strong> ₹200–₹400 per person, shorter
+                      queues than Pichola
                     </li>
                     <li>
                       <strong>Best for:</strong> A calmer alternative to
@@ -736,7 +736,7 @@ export default function UdaipurCityOfLakesPage() {
                   <h2>Saheliyon ki Bari</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/jaisalmer/fort.jpg"
+                      src="/images/destinations/udaipur/saheliyon.jpg"
                       alt="Ornate marble fountains and gardens in Udaipur"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
@@ -744,13 +744,13 @@ export default function UdaipurCityOfLakesPage() {
                     />
                   </div>
                   <p>
-                    Built in the early 18th century by Maharana Sangram Singh
-                    II for the queen's attendants, <strong>Saheliyon ki
-                    Bari</strong> ("Garden of the Maidens") is a compact but
-                    beautifully maintained garden of marble fountains, lotus
-                    pools, and a small museum, designed originally so royal
-                    women could enjoy the monsoon without leaving the palace
-                    grounds.
+                    Built in the early 18th century by Maharana Sangram Singh II
+                    for the queen's attendants,{" "}
+                    <strong>Saheliyon ki Bari</strong> ("Garden of the Maidens")
+                    is a compact but beautifully maintained garden of marble
+                    fountains, lotus pools, and a small museum, designed
+                    originally so royal women could enjoy the monsoon without
+                    leaving the palace grounds.
                   </p>
                   <ul>
                     <li>
@@ -770,28 +770,27 @@ export default function UdaipurCityOfLakesPage() {
                 <section id="bagore-ki-haveli">
                   <h2>Bagore ki Haveli</h2>
                   <p>
-                    Sitting directly on the Gangaur Ghat at Lake Pichola's
-                    edge, <strong>Bagore ki Haveli</strong> is an 18th-century
-                    mansion built by a Mewar prime minister, now restored as a
-                    museum of Mewar royal life — turbans, glass and mirror
-                    work rooms, and period furniture across more than a
-                    hundred rooms.
+                    Sitting directly on the Gangaur Ghat at Lake Pichola's edge,{" "}
+                    <strong>Bagore ki Haveli</strong> is an 18th-century mansion
+                    built by a Mewar prime minister, now restored as a museum of
+                    Mewar royal life — turbans, glass and mirror work rooms, and
+                    period furniture across more than a hundred rooms.
                   </p>
                   <p>
                     Its real draw, though, is the evening{" "}
                     <strong>Dharohar cultural show</strong> in the haveli's
                     courtyard — traditional Rajasthani dance including the
-                    Kalbeliya (snake charmer) dance and a spectacular
-                    finale where a dancer balances up to eleven brass pots on
-                    her head while dancing on broken glass.
+                    Kalbeliya (snake charmer) dance and a spectacular finale
+                    where a dancer balances up to eleven brass pots on her head
+                    while dancing on broken glass.
                   </p>
                   <ul>
                     <li>
                       <strong>Museum entry:</strong> ₹60
                     </li>
                     <li>
-                      <strong>Dharohar show:</strong> ₹150–₹200, nightly at
-                      7 PM (arrive 20–30 min early for good seats)
+                      <strong>Dharohar show:</strong> ₹150–₹200, nightly at 7 PM
+                      (arrive 20–30 min early for good seats)
                     </li>
                   </ul>
                 </section>
@@ -804,27 +803,27 @@ export default function UdaipurCityOfLakesPage() {
                     <strong>Monsoon Palace</strong> (Sajjangarh) was built in
                     the late 19th century by Maharana Sajjan Singh, originally
                     intended as an astronomical centre and monsoon-watching
-                    retreat. Today it's Udaipur's best sunset viewpoint,
-                    with a panoramic outlook over the entire city, Lake
-                    Pichola, and the surrounding Aravalli range.
+                    retreat. Today it's Udaipur's best sunset viewpoint, with a
+                    panoramic outlook over the entire city, Lake Pichola, and
+                    the surrounding Aravalli range.
                   </p>
                   <ul>
                     <li>
-                      <strong>Distance from city centre:</strong> ~9 km,
-                      20–30 minutes by taxi/auto
+                      <strong>Distance from city centre:</strong> ~9 km, 20–30
+                      minutes by taxi/auto
                     </li>
                     <li>
                       <strong>Entry:</strong> ₹300 (includes vehicle entry to
                       Sajjangarh Wildlife Sanctuary en route)
                     </li>
                     <li>
-                      <strong>Timings:</strong> 9 AM – 6:30 PM (last entry
-                      ~5:30 PM for sunset)
+                      <strong>Timings:</strong> 9 AM – 6:30 PM (last entry ~5:30
+                      PM for sunset)
                     </li>
                     <li>
-                      <strong>Note:</strong> Book a taxi round trip rather
-                      than relying on finding return transport at the top —
-                      options thin out after dark.
+                      <strong>Note:</strong> Book a taxi round trip rather than
+                      relying on finding return transport at the top — options
+                      thin out after dark.
                     </li>
                   </ul>
                 </section>
@@ -835,16 +834,16 @@ export default function UdaipurCityOfLakesPage() {
                   <p>
                     Udaipur's old city, wrapped around Lake Pichola's eastern
                     shore, rewards aimless wandering as much as any specific
-                    sight — narrow lanes packed with miniature-painting
-                    studios, silver jewellery shops, and rooftop cafés with
-                    palace or lake views at every turn.
+                    sight — narrow lanes packed with miniature-painting studios,
+                    silver jewellery shops, and rooftop cafés with palace or
+                    lake views at every turn.
                   </p>
                   <ul>
                     <li>
                       <strong>Jagdish Temple:</strong> A large, active Indo-
                       Aryan temple just outside City Palace's main gate,
-                      dedicated to Vishnu, with intricately carved pillars
-                      and a constant flow of local worshippers.
+                      dedicated to Vishnu, with intricately carved pillars and a
+                      constant flow of local worshippers.
                     </li>
                     <li>
                       <strong>Hathi Pol and Bada Bazaar:</strong> The main
@@ -853,15 +852,15 @@ export default function UdaipurCityOfLakesPage() {
                     </li>
                     <li>
                       <strong>Miniature painting studios:</strong> Udaipur is
-                      known for a distinctive school of Mewar miniature
-                      painting — several old-city workshops let you watch
-                      artists at work before buying directly.
+                      known for a distinctive school of Mewar miniature painting
+                      — several old-city workshops let you watch artists at work
+                      before buying directly.
                     </li>
                     <li>
                       <strong>Rooftop cafés:</strong> Cafés overlooking Lake
                       Pichola near Jagdish Chowk and Lal Ghat are where most
-                      travellers end up for sunset drinks — arrive 30–45
-                      minutes before sunset for a good table.
+                      travellers end up for sunset drinks — arrive 30–45 minutes
+                      before sunset for a good table.
                     </li>
                   </ul>
                 </section>
@@ -870,11 +869,10 @@ export default function UdaipurCityOfLakesPage() {
                 <section id="where-to-stay">
                   <h2>Where to Stay in Udaipur</h2>
                   <p>
-                    Staying near Lake Pichola — around Lal Ghat, Hanuman
-                    Ghat, or the old city — puts you within walking distance
-                    of City Palace, the boat jetty, and Bagore ki Haveli,
-                    and most rooftop rooms come with a lake or palace view as
-                    standard.
+                    Staying near Lake Pichola — around Lal Ghat, Hanuman Ghat,
+                    or the old city — puts you within walking distance of City
+                    Palace, the boat jetty, and Bagore ki Haveli, and most
+                    rooftop rooms come with a lake or palace view as standard.
                   </p>
 
                   <div className="grid sm:grid-cols-3 gap-4 my-6">
@@ -947,9 +945,9 @@ export default function UdaipurCityOfLakesPage() {
 
                   <blockquote>
                     For the best value-to-view ratio, book a mid-range haveli
-                    hotel directly on Lake Pichola — Amet Haveli and Jagat
-                    Niwas Palace both offer City Palace or Lake Palace views
-                    for a fraction of the Taj Lake Palace's price.
+                    hotel directly on Lake Pichola — Amet Haveli and Jagat Niwas
+                    Palace both offer City Palace or Lake Palace views for a
+                    fraction of the Taj Lake Palace's price.
                   </blockquote>
                 </section>
 
@@ -957,29 +955,28 @@ export default function UdaipurCityOfLakesPage() {
                 <section id="food-guide">
                   <h2>What to Eat in Udaipur</h2>
                   <p>
-                    Udaipur's food draws on the same Rajasthani tradition as
-                    the rest of the state, with a few local specialities and
-                    an unusually good rooftop-dining scene thanks to the
-                    city's lake and palace views.
+                    Udaipur's food draws on the same Rajasthani tradition as the
+                    rest of the state, with a few local specialities and an
+                    unusually good rooftop-dining scene thanks to the city's
+                    lake and palace views.
                   </p>
                   <ul>
                     <li>
-                      <strong>Dal Baati Churma:</strong> Rajasthan's
-                      signature dish, found across the old city — baked
-                      wheat dough balls with spiced lentils and a sweet
-                      wheat-jaggery crumble.
+                      <strong>Dal Baati Churma:</strong> Rajasthan's signature
+                      dish, found across the old city — baked wheat dough balls
+                      with spiced lentils and a sweet wheat-jaggery crumble.
                     </li>
                     <li>
-                      <strong>Laal Maas:</strong> A fiery Rajputana mutton
-                      curry cooked with dried red chillies — one of the
-                      state's most iconic non-vegetarian dishes, worth
-                      seeking out at a proper Rajasthani restaurant.
+                      <strong>Laal Maas:</strong> A fiery Rajputana mutton curry
+                      cooked with dried red chillies — one of the state's most
+                      iconic non-vegetarian dishes, worth seeking out at a
+                      proper Rajasthani restaurant.
                     </li>
                     <li>
-                      <strong>Mirchi Bada:</strong> A local Udaipur street-
-                      food speciality — large green chillies stuffed with
-                      spiced potato, dipped in gram-flour batter, and deep
-                      fried. Best found near Jagdish Chowk in the evening.
+                      <strong>Mirchi Bada:</strong> A local Udaipur street- food
+                      speciality — large green chillies stuffed with spiced
+                      potato, dipped in gram-flour batter, and deep fried. Best
+                      found near Jagdish Chowk in the evening.
                     </li>
                     <li>
                       <strong>Gatte ki Sabzi and Ker Sangri:</strong> The same
@@ -987,11 +984,10 @@ export default function UdaipurCityOfLakesPage() {
                       Rajasthan, widely available at local thalis.
                     </li>
                     <li>
-                      <strong>Best restaurants:</strong> Ambrai Restaurant
-                      (Amet Haveli, unbeatable ground-level lake views),
-                      Upre by 1559 AD (rooftop, City Palace views), and
-                      Millets of Mewar (rustic, traditional Rajasthani
-                      thalis).
+                      <strong>Best restaurants:</strong> Ambrai Restaurant (Amet
+                      Haveli, unbeatable ground-level lake views), Upre by 1559
+                      AD (rooftop, City Palace views), and Millets of Mewar
+                      (rustic, traditional Rajasthani thalis).
                     </li>
                   </ul>
                 </section>
@@ -1000,10 +996,10 @@ export default function UdaipurCityOfLakesPage() {
                 <section id="itinerary">
                   <h2>3-Day Udaipur Itinerary</h2>
                   <p>
-                    Udaipur is compact enough to cover its essentials in
-                    three unhurried days, with time for a sunset boat ride,
-                    the Monsoon Palace, and enough slack to simply wander the
-                    old city.
+                    Udaipur is compact enough to cover its essentials in three
+                    unhurried days, with time for a sunset boat ride, the
+                    Monsoon Palace, and enough slack to simply wander the old
+                    city.
                   </p>
 
                   <div className="space-y-4 my-8">
@@ -1104,20 +1100,10 @@ export default function UdaipurCityOfLakesPage() {
                         {[
                           ["Accommodation/night", "₹900", "₹3,500", "₹25,000"],
                           ["Food/day", "₹400", "₹1,000", "₹2,500"],
-                          [
-                            "Palace + monument entries",
-                            "₹300",
-                            "₹800",
-                            "₹800",
-                          ],
+                          ["Palace + monument entries", "₹300", "₹800", "₹800"],
                           ["Lake Pichola boat ride", "₹500", "₹700", "₹700"],
                           ["Local transport/day", "₹250", "₹700", "₹2,000"],
-                          [
-                            "Daily total",
-                            "₹2,350",
-                            "₹6,700",
-                            "₹31,000",
-                          ],
+                          ["Daily total", "₹2,350", "₹6,700", "₹31,000"],
                           ["3-Day trip total", "₹7,050", "₹20,100", "₹93,000"],
                         ].map(([exp, b, m, l], i) => (
                           <tr
@@ -1157,45 +1143,46 @@ export default function UdaipurCityOfLakesPage() {
                   <ul>
                     <li>
                       <strong>Book the sunset boat slot early:</strong>
-                      It sells out by early afternoon in peak season
-                      (Dec–Jan) — head to the City Palace jetty counter as
-                      soon as you arrive in the city if you want that
-                      specific slot.
+                      It sells out by early afternoon in peak season (Dec–Jan) —
+                      head to the City Palace jetty counter as soon as you
+                      arrive in the city if you want that specific slot.
                     </li>
                     <li>
                       <strong>Arrive at City Palace at opening time:</strong>
-                      Tour groups arrive by mid-morning and the narrow
-                      courtyard passages get genuinely crowded — the first
-                      hour is the only time Mor Chowk is close to empty.
+                      Tour groups arrive by mid-morning and the narrow courtyard
+                      passages get genuinely crowded — the first hour is the
+                      only time Mor Chowk is close to empty.
                     </li>
                     <li>
-                      <strong>Pack a light jacket even in "warm" months:</strong>
-                      Winter nights around the lakes drop to 8–10°C, colder
-                      than most visitors expect from a Rajasthan trip.
+                      <strong>
+                        Pack a light jacket even in "warm" months:
+                      </strong>
+                      Winter nights around the lakes drop to 8–10°C, colder than
+                      most visitors expect from a Rajasthan trip.
                     </li>
                     <li>
                       <strong>
                         Book a round-trip taxi for the Monsoon Palace:
                       </strong>
-                      Return transport options thin out after dark at
-                      Sajjangarh — arrange your ride both ways in advance.
+                      Return transport options thin out after dark at Sajjangarh
+                      — arrange your ride both ways in advance.
                     </li>
                     <li>
                       <strong>Bargain respectfully in the markets:</strong>
-                      Silver jewellery and miniature paintings in the old
-                      city bazaars are priced expecting negotiation — bargain
-                      firmly but politely.
+                      Silver jewellery and miniature paintings in the old city
+                      bazaars are priced expecting negotiation — bargain firmly
+                      but politely.
                     </li>
                     <li>
                       <strong>Dress modestly for temples:</strong>
-                      Jagdish Temple and other active temples expect
-                      shoulders and knees covered — carry a light scarf as a
-                      quick cover-up.
+                      Jagdish Temple and other active temples expect shoulders
+                      and knees covered — carry a light scarf as a quick
+                      cover-up.
                     </li>
                     <li>
                       <strong>Walk instead of driving in the old city:</strong>
-                      Lanes around Lake Pichola are narrow and best explored
-                      on foot — most key sights (City Palace, Jagdish Temple,
+                      Lanes around Lake Pichola are narrow and best explored on
+                      foot — most key sights (City Palace, Jagdish Temple,
                       Bagore ki Haveli) are within a 15-minute walk of each
                       other.
                     </li>
