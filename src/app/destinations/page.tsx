@@ -288,7 +288,7 @@ const allDestinations = [
     tagline: "India's most untouched valley",
     description:
       "A UNESCO tentative heritage site in Arunachal — home to the Apatani tribe, terraced rice fields and one of India's best music festivals.",
-    image: "/images/destinations/kasol/kasol.jpg",
+    image: "/images/destinations/meghalaya/hero.jpg",
     category: "Off-beat",
     region: "northeast",
     tags: ["offbeat", "heritage"],
@@ -297,7 +297,7 @@ const allDestinations = [
     bestTime: "Mar – Oct",
     featured: false,
     large: false,
-    comingSoon: true,
+    comingSoon: false,
   },
   {
     slug: "gokarna-beaches",

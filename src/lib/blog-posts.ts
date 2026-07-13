@@ -23,6 +23,18 @@ export const featuredPost = {
 
 export const posts = [
   {
+    slug: "ziro-valley-arunachal",
+    title: "Ziro Valley Travel Guide: Apatani Villages, Rice Fields & Festival",
+    excerpt:
+      "A UNESCO tentative heritage site in Arunachal — home to the Apatani tribe, terraced rice fields and one of India's best music festivals.",
+    image: "/images/destinations/meghalaya/hero.jpg",
+    category: "Off-beat",
+    categoryColor: "bg-forest-100 text-forest-700",
+    tags: ["Ziro Valley", "Arunachal Pradesh", "Off-beat"],
+    readTime: "11 min",
+    featured: true,
+  },
+  {
     slug: "gokarna-beaches",
     title: "Gokarna Travel Guide: Best Beaches, Temples & Itinerary",
     excerpt:
