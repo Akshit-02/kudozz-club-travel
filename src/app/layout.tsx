@@ -125,7 +125,7 @@ export default function RootLayout({
               "@type": "Organization",
               name: "Kudozz Club",
               url: "https://club.kudozz.in",
-              logo: "https://club.kudozz.in/logo.png",
+              logo: "https://club.kudozz.in/favicon.ico",
               sameAs: [
                 "https://twitter.com/kudozz.in",
                 "https://instagram.com/kudozz.in",
