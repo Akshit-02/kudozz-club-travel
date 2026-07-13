@@ -125,6 +125,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
       priority: 0.85,
     },
+    {
+      url: `${baseUrl}/blog/udaipur-city-of-lakes`,
+      lastModified: new Date("2026-07-13"),
+      changeFrequency: "monthly",
+      priority: 0.85,
+    },
   ];
 
   return [...staticPages, ...blogPosts];

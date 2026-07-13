@@ -23,6 +23,18 @@ export const featuredPost = {
 
 export const posts = [
   {
+    slug: "udaipur-city-of-lakes",
+    title: "Udaipur Travel Guide: City Palace, Lake Pichola & Itinerary",
+    excerpt:
+      "Palaces that appear to float on still water, whitewashed havelis and the most romantic skyline in Rajasthan — the complete guide to the City of Lakes.",
+    image: "/images/destinations/jaisalmer/hero.jpg",
+    category: "Heritage",
+    categoryColor: "bg-purple-100 text-purple-700",
+    tags: ["Udaipur", "Rajasthan"],
+    readTime: "10 min",
+    featured: true,
+  },
+  {
     slug: "meghalaya-travel-guide",
     title: "Meghalaya Travel Guide: Living Root Bridges, Cherrapunji & More",
     excerpt:

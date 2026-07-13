@@ -333,7 +333,7 @@ const allDestinations = [
     bestTime: "Sep – Mar",
     featured: false,
     large: false,
-    comingSoon: true,
+    comingSoon: false,
   },
   {
     slug: "goa-beaches-guide",
