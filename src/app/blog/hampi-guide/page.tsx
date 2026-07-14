@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     title: "Hampi Travel Guide: Ruins, Boulders, Temples & Tips",
     description:
       "The extraordinary ruins of the Vijayanagara Empire scattered across a surreal boulder landscape — the complete guide to Hampi.",
-    url: "https://explore.kudozz.in/blog/hampi-guide",
+    url: "https://club.kudozz.in/blog/hampi-guide",
     type: "article",
     siteName: "Kudozz Club",
     images: [
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     images: ["/images/destinations/hampi.jpg"],
   },
   alternates: {
-    canonical: "https://explore.kudozz.in/blog/hampi-guide",
+    canonical: "https://club.kudozz.in/blog/hampi-guide",
   },
 };
 
@@ -53,21 +53,27 @@ function ArticleSchema() {
       dangerouslySetInnerHTML={{
         __html: JSON.stringify({
           "@context": "https://schema.org",
-          "@type": "TravelGuide",
+          "@type": "BlogPosting",
           headline: "Hampi Travel Guide: Ruins, Boulders, Temples & Tips",
           description: "The complete Hampi travel guide.",
-          image: "https://explore.kudozz.in/images/destinations/hampi.jpg",
+          image: "https://club.kudozz.in/images/destinations/hampi.jpg",
+          datePublished: "2026-06-29",
+          dateModified: "2026-07-12",
           publisher: {
             "@type": "Organization",
             name: "Kudozz Club",
             logo: {
               "@type": "ImageObject",
-              url: "https://explore.kudozz.in/logo.png",
+              url: "https://club.kudozz.in/logo.png",
             },
+          },
+          author: {
+            "@type": "Organization",
+            name: "Kudozz Club",
           },
           mainEntityOfPage: {
             "@type": "WebPage",
-            "@id": "https://explore.kudozz.in/blog/hampi-guide",
+            "@id": "https://club.kudozz.in/blog/hampi-guide",
           },
           about: {
             "@type": "Place",
@@ -85,13 +91,13 @@ function ArticleSchema() {
                 "@type": "ListItem",
                 position: 1,
                 name: "Home",
-                item: "https://explore.kudozz.in",
+                item: "https://club.kudozz.in",
               },
               {
                 "@type": "ListItem",
                 position: 2,
                 name: "Blog",
-                item: "https://explore.kudozz.in/blog",
+                item: "https://club.kudozz.in/blog",
               },
               { "@type": "ListItem", position: 3, name: "Hampi Travel Guide" },
             ],

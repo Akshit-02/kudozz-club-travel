@@ -64,6 +64,8 @@ function ArticleSchema() {
           description:
             "The complete Valley of Flowers National Park trek guide.",
           image: "https://club.kudozz.in/images/destinations/manali/hero.jpg",
+          datePublished: "2026-05-23",
+          dateModified: "2026-07-12",
           publisher: {
             "@type": "Organization",
             name: "Kudozz Club",

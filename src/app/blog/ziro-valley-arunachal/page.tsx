@@ -53,12 +53,14 @@ function ArticleSchema() {
       dangerouslySetInnerHTML={{
         __html: JSON.stringify({
           "@context": "https://schema.org",
-          "@type": "TravelGuide",
+          "@type": "BlogPosting",
           headline:
             "Ziro Valley Travel Guide: Apatani Villages, Rice Fields & Festival",
           description: "The complete Ziro Valley travel guide.",
           image:
             "https://club.kudozz.in/images/destinations/meghalaya/hero.jpg",
+          datePublished: "2026-07-13",
+          dateModified: "2026-07-13",
           publisher: {
             "@type": "Organization",
             name: "Kudozz Club",
@@ -66,6 +68,10 @@ function ArticleSchema() {
               "@type": "ImageObject",
               url: "https://club.kudozz.in/logo.png",
             },
+          },
+          author: {
+            "@type": "Organization",
+            name: "Kudozz Club",
           },
           mainEntityOfPage: {
             "@type": "WebPage",

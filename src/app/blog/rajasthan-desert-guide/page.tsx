@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     title: "Jaisalmer & Thar Desert Travel Guide: Fort, Camel Safari & Tips",
     description:
       "A living medieval fort rising from the Thar Desert, camel safaris into the dunes and the most spectacular havelis in Rajasthan — the complete guide to Jaisalmer.",
-    url: "https://explore.kudozz.in/blog/rajasthan-desert-guide",
+    url: "https://club.kudozz.in/blog/rajasthan-desert-guide",
     type: "article",
     siteName: "Kudozz Club",
     images: [
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     images: ["/images/related/leh-ladakh.jpg"],
   },
   alternates: {
-    canonical: "https://explore.kudozz.in/blog/rajasthan-desert-guide",
+    canonical: "https://club.kudozz.in/blog/rajasthan-desert-guide",
   },
 };
 
@@ -53,22 +53,28 @@ function ArticleSchema() {
       dangerouslySetInnerHTML={{
         __html: JSON.stringify({
           "@context": "https://schema.org",
-          "@type": "TravelGuide",
+          "@type": "BlogPosting",
           headline:
             "Jaisalmer & Thar Desert Travel Guide: Fort, Camel Safari & Tips",
           description: "The complete Jaisalmer travel guide.",
-          image: "https://explore.kudozz.in/images/related/leh-ladakh.jpg",
+          image: "https://club.kudozz.in/images/related/leh-ladakh.jpg",
+          datePublished: "2026-06-30",
+          dateModified: "2026-07-12",
           publisher: {
             "@type": "Organization",
             name: "Kudozz Club",
             logo: {
               "@type": "ImageObject",
-              url: "https://explore.kudozz.in/logo.png",
+              url: "https://club.kudozz.in/logo.png",
             },
+          },
+          author: {
+            "@type": "Organization",
+            name: "Kudozz Club",
           },
           mainEntityOfPage: {
             "@type": "WebPage",
-            "@id": "https://explore.kudozz.in/blog/rajasthan-desert-guide",
+            "@id": "https://club.kudozz.in/blog/rajasthan-desert-guide",
           },
           about: {
             "@type": "Place",
@@ -86,13 +92,13 @@ function ArticleSchema() {
                 "@type": "ListItem",
                 position: 1,
                 name: "Home",
-                item: "https://explore.kudozz.in",
+                item: "https://club.kudozz.in",
               },
               {
                 "@type": "ListItem",
                 position: 2,
                 name: "Blog",
-                item: "https://explore.kudozz.in/blog",
+                item: "https://club.kudozz.in/blog",
               },
               {
                 "@type": "ListItem",

@@ -64,6 +64,8 @@ function ArticleSchema() {
           description: "The most complete Spiti Valley travel guide.",
           image:
             "https://club.kudozz.in/images/destinations/spiti-valley/spiti-valley.jpg",
+          datePublished: "2026-05-18",
+          dateModified: "2026-07-12",
           publisher: {
             "@type": "Organization",
             name: "Kudozz Club",

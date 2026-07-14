@@ -74,6 +74,8 @@ function ArticleSchema() {
           description:
             "The definitive guide to Manali. Discover the best places to visit, a complete 5-day itinerary, where to stay, what to eat, and all the insider tips you need.",
           image: "/images/destinations/manali/hero.jpg",
+          datePublished: "2026-05-17",
+          dateModified: "2026-07-12",
 
           publisher: {
             "@type": "Organization",

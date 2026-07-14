@@ -62,6 +62,8 @@ function ArticleSchema() {
           headline: "Coorg Travel Guide: Coffee, Waterfalls, Trekking & More",
           description: "The complete Coorg (Kodagu) travel guide.",
           image: "https://club.kudozz.in/images/destinations/coorg/coorg.jpg",
+          datePublished: "2026-05-19",
+          dateModified: "2026-07-12",
           publisher: {
             "@type": "Organization",
             name: "Kudozz Club",

@@ -65,6 +65,8 @@ function ArticleSchema() {
             "The ultimate Leh Ladakh road trip guide — routes, permits, passes, itinerary, and insider tips.",
           image:
             "https://club.kudozz.in/images/destinations/leh-ladakh/leh-ladakh.jpg",
+          datePublished: "2026-05-19",
+          dateModified: "2026-07-12",
           publisher: {
             "@type": "Organization",
             name: "Kudozz Club",

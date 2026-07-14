@@ -65,6 +65,8 @@ function ArticleSchema() {
             "The complete Rishikesh travel guide — rafting, yoga, bungee, Ganga aarti, cafes, stays and insider tips.",
           image:
             "https://club.kudozz.in/images/destinations/rishikesh/rishikesh.jpg",
+          datePublished: "2026-05-19",
+          dateModified: "2026-07-12",
           publisher: {
             "@type": "Organization",
             name: "Kudozz Club",

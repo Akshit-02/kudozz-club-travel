@@ -53,11 +53,13 @@ function ArticleSchema() {
       dangerouslySetInnerHTML={{
         __html: JSON.stringify({
           "@context": "https://schema.org",
-          "@type": "TravelGuide",
+          "@type": "BlogPosting",
           headline:
             "Gokarna Travel Guide: Best Beaches, Temples & Complete Itinerary",
           description: "The complete Gokarna travel guide.",
           image: "https://club.kudozz.in/images/destinations/coorg/coorg.jpg",
+          datePublished: "2026-07-13",
+          dateModified: "2026-07-13",
           publisher: {
             "@type": "Organization",
             name: "Kudozz Club",
@@ -65,6 +67,10 @@ function ArticleSchema() {
               "@type": "ImageObject",
               url: "https://club.kudozz.in/logo.png",
             },
+          },
+          author: {
+            "@type": "Organization",
+            name: "Kudozz Club",
           },
           mainEntityOfPage: {
             "@type": "WebPage",

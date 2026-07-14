@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     title: "Andaman Islands Travel Guide: Beaches, Diving, Permits & Tips",
     description:
       "Crystal-clear waters, pristine coral reefs, white sand beaches and the haunting history of Cellular Jail — the complete guide to the Andaman Islands.",
-    url: "https://explore.kudozz.in/blog/andaman-islands-guide",
+    url: "https://club.kudozz.in/blog/andaman-islands-guide",
     type: "article",
     siteName: "Kudozz Club",
     images: [
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     images: ["/images/related/rishikesh.jpg"],
   },
   alternates: {
-    canonical: "https://explore.kudozz.in/blog/andaman-islands-guide",
+    canonical: "https://club.kudozz.in/blog/andaman-islands-guide",
   },
 };
 
@@ -54,22 +54,28 @@ function ArticleSchema() {
       dangerouslySetInnerHTML={{
         __html: JSON.stringify({
           "@context": "https://schema.org",
-          "@type": "TravelGuide",
+          "@type": "BlogPosting",
           headline:
             "Andaman Islands Travel Guide: Beaches, Diving, Permits & Tips",
           description: "The complete Andaman & Nicobar Islands travel guide.",
-          image: "https://explore.kudozz.in/images/related/rishikesh.jpg",
+          image: "https://club.kudozz.in/images/related/rishikesh.jpg",
+          datePublished: "2026-06-28",
+          dateModified: "2026-07-12",
           publisher: {
             "@type": "Organization",
             name: "Kudozz Club",
             logo: {
               "@type": "ImageObject",
-              url: "https://explore.kudozz.in/logo.png",
+              url: "https://club.kudozz.in/logo.png",
             },
+          },
+          author: {
+            "@type": "Organization",
+            name: "Kudozz Club",
           },
           mainEntityOfPage: {
             "@type": "WebPage",
-            "@id": "https://explore.kudozz.in/blog/andaman-islands-guide",
+            "@id": "https://club.kudozz.in/blog/andaman-islands-guide",
           },
           about: {
             "@type": "Place",
@@ -87,13 +93,13 @@ function ArticleSchema() {
                 "@type": "ListItem",
                 position: 1,
                 name: "Home",
-                item: "https://explore.kudozz.in",
+                item: "https://club.kudozz.in",
               },
               {
                 "@type": "ListItem",
                 position: 2,
                 name: "Blog",
-                item: "https://explore.kudozz.in/blog",
+                item: "https://club.kudozz.in/blog",
               },
               {
                 "@type": "ListItem",

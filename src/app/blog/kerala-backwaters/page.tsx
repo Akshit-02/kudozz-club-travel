@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     title: "Kerala Backwaters Guide: Houseboats, Routes, Villages & Tips",
     description:
       "A 900-km network of lagoons, canals and lakes explored by houseboat — the complete guide to Kerala's backwaters.",
-    url: "https://explore.kudozz.in/blog/kerala-backwaters",
+    url: "https://club.kudozz.in/blog/kerala-backwaters",
     type: "article",
     siteName: "Kudozz Club",
     images: [
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     images: ["/images/related/spiti-valley.jpg"],
   },
   alternates: {
-    canonical: "https://explore.kudozz.in/blog/kerala-backwaters",
+    canonical: "https://club.kudozz.in/blog/kerala-backwaters",
   },
 };
 
@@ -53,22 +53,28 @@ function ArticleSchema() {
       dangerouslySetInnerHTML={{
         __html: JSON.stringify({
           "@context": "https://schema.org",
-          "@type": "TravelGuide",
+          "@type": "BlogPosting",
           headline:
             "Kerala Backwaters Guide: Houseboats, Routes, Villages & Tips",
           description: "The complete Kerala Backwaters travel guide.",
-          image: "https://explore.kudozz.in/images/related/spiti-valley.jpg",
+          image: "https://club.kudozz.in/images/related/spiti-valley.jpg",
+          datePublished: "2026-06-30",
+          dateModified: "2026-07-12",
           publisher: {
             "@type": "Organization",
             name: "Kudozz Club",
             logo: {
               "@type": "ImageObject",
-              url: "https://explore.kudozz.in/logo.png",
+              url: "https://club.kudozz.in/logo.png",
             },
+          },
+          author: {
+            "@type": "Organization",
+            name: "Kudozz Club",
           },
           mainEntityOfPage: {
             "@type": "WebPage",
-            "@id": "https://explore.kudozz.in/blog/kerala-backwaters",
+            "@id": "https://club.kudozz.in/blog/kerala-backwaters",
           },
           about: {
             "@type": "Place",
@@ -86,13 +92,13 @@ function ArticleSchema() {
                 "@type": "ListItem",
                 position: 1,
                 name: "Home",
-                item: "https://explore.kudozz.in",
+                item: "https://club.kudozz.in",
               },
               {
                 "@type": "ListItem",
                 position: 2,
                 name: "Blog",
-                item: "https://explore.kudozz.in/blog",
+                item: "https://club.kudozz.in/blog",
               },
               {
                 "@type": "ListItem",

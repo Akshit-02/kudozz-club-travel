@@ -65,6 +65,8 @@ function ArticleSchema() {
             "The complete Meghalaya travel guide — living root bridges, Cherrapunji waterfalls, Dawki river, Shillong cafes, itinerary and insider tips.",
           image:
             "https://club.kudozz.in/images/destinations/meghalaya/hero.jpg",
+          datePublished: "2026-07-12",
+          dateModified: "2026-07-12",
           publisher: {
             "@type": "Organization",
             name: "Kudozz Club",

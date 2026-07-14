@@ -64,6 +64,8 @@ function ArticleSchema() {
             "Kasol & Kheerganga Trek Guide: The Complete Parvati Valley Trail",
           description: "The complete guide to Kasol and the Kheerganga trek.",
           image: "https://club.kudozz.in/images/destinations/kasol/kasol.jpg",
+          datePublished: "2026-05-22",
+          dateModified: "2026-07-12",
           publisher: {
             "@type": "Organization",
             name: "Kudozz Club",
