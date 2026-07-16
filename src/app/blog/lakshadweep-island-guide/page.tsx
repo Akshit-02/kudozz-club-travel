@@ -9,6 +9,7 @@ import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
+import { amazonSearchUrl } from "@/lib/common";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -145,8 +146,7 @@ const LAKSHADWEEP_GEAR: GearSection[] = [
         rating: 4.5,
         reviews: "11k",
         image: "🧴",
-        affiliateUrl:
-          "https://www.amazon.in/s?k=reef+safe+sunscreen+spf+50&tag=mytech0d6-21",
+        affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+spf+50"),
         tag: "Reef essential",
         tagColor: "bg-sky-100 text-sky-700",
         why: "Regular sunscreen can bleach coral over time — several resorts now check for reef-safe formulas before letting you into the water.",
@@ -159,8 +159,7 @@ const LAKSHADWEEP_GEAR: GearSection[] = [
         rating: 4.4,
         reviews: "6.9k",
         image: "🤿",
-        affiliateUrl:
-          "https://www.amazon.in/s?k=snorkeling+mask+fins+set&tag=mytech0d6-21",
+        affiliateUrl: amazonSearchUrl("snorkeling+mask+fins+set"),
         tag: "Lagoon essential",
         tagColor: "bg-forest-100 text-forest-700",
         why: "Nearly every island activity here happens in or over water — a properly fitted mask makes the difference between a great reef view and a foggy, leaking one.",
@@ -173,8 +172,7 @@ const LAKSHADWEEP_GEAR: GearSection[] = [
         rating: 4.4,
         reviews: "4.2k",
         image: "🩱",
-        affiliateUrl:
-          "https://www.amazon.in/s?k=rash+guard+uv+protection&tag=mytech0d6-21",
+        affiliateUrl: amazonSearchUrl("rash+guard+uv+protection"),
         tag: "Sun essential",
         tagColor: "bg-amber-100 text-amber-700",
         why: "Sunburn on the back and shoulders is the most common complaint from snorkeling trips here, given how long visitors linger in the water.",
@@ -187,8 +185,7 @@ const LAKSHADWEEP_GEAR: GearSection[] = [
         rating: 4.5,
         reviews: "5.1k",
         image: "🎒",
-        affiliateUrl:
-          "https://www.amazon.in/s?k=waterproof+dry+bag+10l&tag=mytech0d6-21",
+        affiliateUrl: amazonSearchUrl("waterproof+dry+bag+10l"),
         tag: "Boat-transfer essential",
         tagColor: "bg-purple-100 text-purple-700",
         why: "You'll be carrying your entry permit and ID on every inter-island ferry — keeping it dry isn't optional here, it's required for boarding.",
@@ -201,8 +198,7 @@ const LAKSHADWEEP_GEAR: GearSection[] = [
         rating: 4.4,
         reviews: "3.9k",
         image: "🩹",
-        affiliateUrl:
-          "https://www.amazon.in/s?k=travel+first+aid+kit+seasickness&tag=mytech0d6-21",
+        affiliateUrl: amazonSearchUrl("travel+first+aid+kit+seasickness"),
         tag: "Remote-travel essential",
         tagColor: "bg-red-100 text-red-700",
         why: "The nearest full-service hospital for most islands is back on the mainland — basic self-sufficiency matters more here than on a typical beach trip.",
@@ -215,8 +211,7 @@ const LAKSHADWEEP_GEAR: GearSection[] = [
         rating: 4.5,
         reviews: "9.7k",
         image: "🔋",
-        affiliateUrl:
-          "https://www.amazon.in/s?k=power+bank+10000mAh+travel&tag=mytech0d6-21",
+        affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
         tag: "Off-grid essential",
         tagColor: "bg-stone-100 text-stone-700",
         why: "Some island resorts run limited-hour generators — a charged power bank is the difference between working and dead devices by evening.",
@@ -314,8 +309,8 @@ export default function LakshadweepGuidePage() {
               style={{ fontFamily: "var(--font-source-serif)" }}
             >
               Coral atolls barely a kilometre wide, lagoons in every shade of
-              turquoise, and reefs among the clearest in the Indian Ocean —
-              this is India's least-visited tropical paradise.
+              turquoise, and reefs among the clearest in the Indian Ocean — this
+              is India's least-visited tropical paradise.
             </p>
 
             <div
@@ -377,28 +372,28 @@ export default function LakshadweepGuidePage() {
                 <section id="introduction">
                   <h2>Why Lakshadweep?</h2>
                   <p>
-                    A cluster of coral atolls roughly 250–450 km off the
-                    Kerala coast, <strong>Lakshadweep</strong> is India's
-                    smallest Union Territory and, despite lagoons that rival
-                    the Maldives, remains genuinely under-visited — largely
-                    because access is deliberately restricted to protect the
-                    islands' fragile reef ecosystems.
+                    A cluster of coral atolls roughly 250–450 km off the Kerala
+                    coast, <strong>Lakshadweep</strong> is India's smallest
+                    Union Territory and, despite lagoons that rival the
+                    Maldives, remains genuinely under-visited — largely because
+                    access is deliberately restricted to protect the islands'
+                    fragile reef ecosystems.
                   </p>
                   <p>
-                    Only a handful of the 36 islands are open to tourists,
-                    and every visitor — Indian or foreign — needs an entry
-                    permit issued by the Lakshadweep administration. That
-                    friction is exactly why the islands have stayed
-                    uncrowded: shallow turquoise lagoons enclosed by coral
-                    reefs, water clear enough to see the seabed at several
-                    metres, and beaches that see a fraction of the footfall
-                    of comparable coastlines elsewhere in India.
+                    Only a handful of the 36 islands are open to tourists, and
+                    every visitor — Indian or foreign — needs an entry permit
+                    issued by the Lakshadweep administration. That friction is
+                    exactly why the islands have stayed uncrowded: shallow
+                    turquoise lagoons enclosed by coral reefs, water clear
+                    enough to see the seabed at several metres, and beaches that
+                    see a fraction of the footfall of comparable coastlines
+                    elsewhere in India.
                   </p>
                   <p>
-                    Lakshadweep isn't a spontaneous trip — permits and ferry
-                    or flight bookings need lead time — but for travellers
-                    willing to plan ahead, it delivers a coral-island
-                    experience that's genuinely rare within India's borders.
+                    Lakshadweep isn't a spontaneous trip — permits and ferry or
+                    flight bookings need lead time — but for travellers willing
+                    to plan ahead, it delivers a coral-island experience that's
+                    genuinely rare within India's borders.
                   </p>
 
                   {/* At a Glance */}
@@ -521,9 +516,9 @@ export default function LakshadweepGuidePage() {
                   </div>
 
                   <blockquote>
-                    <strong>Our pick:</strong> December to February —
-                    the calmest seas, clearest lagoons, and the most reliable
-                    ferry and flight schedules of the year.
+                    <strong>Our pick:</strong> December to February — the
+                    calmest seas, clearest lagoons, and the most reliable ferry
+                    and flight schedules of the year.
                   </blockquote>
                 </section>
 
@@ -531,11 +526,11 @@ export default function LakshadweepGuidePage() {
                 <section id="permits">
                   <h2>Entry Permit (Required)</h2>
                   <p>
-                    Every visitor to Lakshadweep — including Indian
-                    citizens — needs an <strong>entry permit</strong> issued
-                    by the Lakshadweep administration. This is the single
-                    biggest piece of planning the islands require, and it
-                    cannot be arranged on arrival.
+                    Every visitor to Lakshadweep — including Indian citizens —
+                    needs an <strong>entry permit</strong> issued by the
+                    Lakshadweep administration. This is the single biggest piece
+                    of planning the islands require, and it cannot be arranged
+                    on arrival.
                   </p>
                   <ul>
                     <li>
@@ -551,14 +546,14 @@ export default function LakshadweepGuidePage() {
                     </li>
                     <li>
                       <strong>Foreign nationals:</strong> Face additional
-                      restrictions and are currently permitted on fewer
-                      islands than Indian citizens — check current
-                      eligibility before booking.
+                      restrictions and are currently permitted on fewer islands
+                      than Indian citizens — check current eligibility before
+                      booking.
                     </li>
                     <li>
-                      <strong>Carry originals:</strong> Physical permit and
-                      ID copies are checked at the port or airport before
-                      boarding, and again on arrival at the island.
+                      <strong>Carry originals:</strong> Physical permit and ID
+                      copies are checked at the port or airport before boarding,
+                      and again on arrival at the island.
                     </li>
                   </ul>
                   <div
@@ -566,10 +561,9 @@ export default function LakshadweepGuidePage() {
                     style={{ fontFamily: "var(--font-dm-sans)" }}
                   >
                     <strong>💡 Pro Tip:</strong> Book through a recognised
-                    Lakshadweep tour operator for your first trip — most
-                    handle the permit application alongside your stay and
-                    ferry/flight booking, which removes most of the
-                    logistics headache.
+                    Lakshadweep tour operator for your first trip — most handle
+                    the permit application alongside your stay and ferry/flight
+                    booking, which removes most of the logistics headache.
                   </div>
                 </section>
 
@@ -578,21 +572,20 @@ export default function LakshadweepGuidePage() {
                   <h2>How to Reach Lakshadweep</h2>
                   <p>
                     All routes to Lakshadweep originate from{" "}
-                    <strong>Kochi, Kerala</strong> — there is no other
-                    mainland gateway.
+                    <strong>Kochi, Kerala</strong> — there is no other mainland
+                    gateway.
                   </p>
                   <ul>
                     <li>
-                      <strong>By Air:</strong> Flights run from Kochi to
-                      Agatti Airport (~1 hr), the only airstrip in the
-                      archipelago — followed by a short boat transfer to
-                      most resort islands.
+                      <strong>By Air:</strong> Flights run from Kochi to Agatti
+                      Airport (~1 hr), the only airstrip in the archipelago —
+                      followed by a short boat transfer to most resort islands.
                     </li>
                     <li>
-                      <strong>By Sea:</strong> Passenger ships depart from
-                      Kochi to various islands (Kavaratti, Agatti, Kadmat,
-                      Minicoy, and others), taking roughly 14–20 hours
-                      depending on the island and sea conditions.
+                      <strong>By Sea:</strong> Passenger ships depart from Kochi
+                      to various islands (Kavaratti, Agatti, Kadmat, Minicoy,
+                      and others), taking roughly 14–20 hours depending on the
+                      island and sea conditions.
                     </li>
                     <li>
                       <strong>Inter-island transfer:</strong> Boats and small
@@ -604,8 +597,8 @@ export default function LakshadweepGuidePage() {
                     className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-xl my-4 text-sm"
                     style={{ fontFamily: "var(--font-dm-sans)" }}
                   >
-                    <strong>💡 Pro Tip:</strong> Flying to Agatti is far
-                    faster and more reliable than the ship, especially in
+                    <strong>💡 Pro Tip:</strong> Flying to Agatti is far faster
+                    and more reliable than the ship, especially in
                     shoulder-season months when sea conditions can add
                     unpredictable delays to the ferry schedule.
                   </div>
@@ -625,8 +618,8 @@ export default function LakshadweepGuidePage() {
                   </div>
                   <p>
                     Only a few islands are open to tourists, and each has a
-                    distinct character — picking the right one matters more
-                    here than at most Indian beach destinations.
+                    distinct character — picking the right one matters more here
+                    than at most Indian beach destinations.
                   </p>
                   <ul>
                     <li>
@@ -635,9 +628,9 @@ export default function LakshadweepGuidePage() {
                       base for short trips given direct flight access.
                     </li>
                     <li>
-                      <strong>Bangaram:</strong> An uninhabited private
-                      island resort known for arguably the best lagoon in
-                      the archipelago — the closest experience to a Maldives
+                      <strong>Bangaram:</strong> An uninhabited private island
+                      resort known for arguably the best lagoon in the
+                      archipelago — the closest experience to a Maldives
                       overwater resort within India.
                     </li>
                     <li>
@@ -647,15 +640,14 @@ export default function LakshadweepGuidePage() {
                     </li>
                     <li>
                       <strong>Kadmat:</strong> A long, narrow island with
-                      lagoons on both sides — popular for scuba diving and
-                      water sports, with a well-regarded government-run
-                      resort.
+                      lagoons on both sides — popular for scuba diving and water
+                      sports, with a well-regarded government-run resort.
                     </li>
                     <li>
                       <strong>Minicoy:</strong> The southernmost island,
                       culturally distinct with Maldivian influence, known for
-                      its lighthouse and tuna fishing traditions — less
-                      visited than the northern islands.
+                      its lighthouse and tuna fishing traditions — less visited
+                      than the northern islands.
                     </li>
                   </ul>
                 </section>
@@ -667,14 +659,13 @@ export default function LakshadweepGuidePage() {
                     <li>
                       <strong>Scuba diving:</strong> Certified dive centres
                       operate on Kadmat, Agatti, and Bangaram, with visibility
-                      regularly exceeding 20 metres in peak season — among
-                      the best diving conditions in India.
+                      regularly exceeding 20 metres in peak season — among the
+                      best diving conditions in India.
                     </li>
                     <li>
-                      <strong>Snorkeling the lagoons:</strong> Shallow,
-                      calm, and exceptionally clear — most islands' lagoons
-                      are snorkel-friendly straight off the beach, no boat
-                      required.
+                      <strong>Snorkeling the lagoons:</strong> Shallow, calm,
+                      and exceptionally clear — most islands' lagoons are
+                      snorkel-friendly straight off the beach, no boat required.
                     </li>
                     <li>
                       <strong>Glass-bottom boat rides:</strong> A good option
@@ -683,18 +674,17 @@ export default function LakshadweepGuidePage() {
                     </li>
                     <li>
                       <strong>Kayaking:</strong> Calm lagoon water makes for
-                      easy, low-effort kayaking, offered at most resort
-                      islands.
+                      easy, low-effort kayaking, offered at most resort islands.
                     </li>
                     <li>
                       <strong>Island hopping:</strong> Day trips between
-                      neighbouring islands by boat, where itinerary and
-                      permits allow — check what's included in your package.
+                      neighbouring islands by boat, where itinerary and permits
+                      allow — check what's included in your package.
                     </li>
                     <li>
-                      <strong>Sunset on the lagoon side:</strong> With no
-                      light pollution and unobstructed horizons, sunsets
-                      here are genuinely spectacular — best watched from the
+                      <strong>Sunset on the lagoon side:</strong> With no light
+                      pollution and unobstructed horizons, sunsets here are
+                      genuinely spectacular — best watched from the
                       lagoon-facing shore.
                     </li>
                   </ul>
@@ -704,9 +694,9 @@ export default function LakshadweepGuidePage() {
                 <section id="where-to-stay">
                   <h2>Where to Stay in Lakshadweep</h2>
                   <p>
-                    Accommodation is limited and almost always bundled with
-                    your permit and transport as part of a package — very
-                    few standalone bookings exist.
+                    Accommodation is limited and almost always bundled with your
+                    permit and transport as part of a package — very few
+                    standalone bookings exist.
                   </p>
 
                   <div className="grid sm:grid-cols-3 gap-4 my-6">
@@ -775,10 +765,9 @@ export default function LakshadweepGuidePage() {
                   </div>
 
                   <blockquote>
-                    Book well ahead regardless of budget tier — room
-                    inventory across the entire archipelago is small, and
-                    permits are typically only issued once accommodation is
-                    confirmed.
+                    Book well ahead regardless of budget tier — room inventory
+                    across the entire archipelago is small, and permits are
+                    typically only issued once accommodation is confirmed.
                   </blockquote>
                 </section>
 
@@ -793,14 +782,13 @@ export default function LakshadweepGuidePage() {
                   <ul>
                     <li>
                       <strong>Tuna preparations:</strong> Fresh tuna is the
-                      island staple, grilled, curried, or dried into
-                      "mas" — a Maldivian-style dried tuna product also
-                      common here.
+                      island staple, grilled, curried, or dried into "mas" — a
+                      Maldivian-style dried tuna product also common here.
                     </li>
                     <li>
-                      <strong>Coconut-based curries:</strong> Similar to
-                      coastal Kerala cooking, coconut milk and grated coconut
-                      feature heavily in fish curries and chutneys.
+                      <strong>Coconut-based curries:</strong> Similar to coastal
+                      Kerala cooking, coconut milk and grated coconut feature
+                      heavily in fish curries and chutneys.
                     </li>
                     <li>
                       <strong>Mus Kavab:</strong> A local spiced fish
@@ -812,8 +800,8 @@ export default function LakshadweepGuidePage() {
                       restaurants are rare outside Kavaratti and Agatti town.
                     </li>
                     <li>
-                      <strong>No alcohol:</strong> Lakshadweep is largely a
-                      dry territory; alcohol is restricted to a few resort
+                      <strong>No alcohol:</strong> Lakshadweep is largely a dry
+                      territory; alcohol is restricted to a few resort
                       properties like Bangaram — don't expect it to be widely
                       available.
                     </li>
@@ -824,9 +812,9 @@ export default function LakshadweepGuidePage() {
                 <section id="itinerary">
                   <h2>4-Day Lakshadweep Itinerary</h2>
                   <p>
-                    Given permit lead time and travel logistics, four days
-                    on a single island (or two, if your package allows
-                    transfers) is a sensible baseline.
+                    Given permit lead time and travel logistics, four days on a
+                    single island (or two, if your package allows transfers) is
+                    a sensible baseline.
                   </p>
 
                   <div className="space-y-4 my-8">
@@ -926,7 +914,7 @@ export default function LakshadweepGuidePage() {
                               >
                                 {h}
                               </th>
-                            )
+                            ),
                           )}
                         </tr>
                       </thead>
@@ -938,15 +926,30 @@ export default function LakshadweepGuidePage() {
                             "₹10,000",
                             "₹35,000",
                           ],
-                          ["Food (often included)", "₹800", "Included", "Included"],
-                          ["Flight Kochi ↔ Agatti", "₹8,000", "₹8,000", "₹8,000"],
+                          [
+                            "Food (often included)",
+                            "₹800",
+                            "Included",
+                            "Included",
+                          ],
+                          [
+                            "Flight Kochi ↔ Agatti",
+                            "₹8,000",
+                            "₹8,000",
+                            "₹8,000",
+                          ],
                           [
                             "Diving / activities per day",
                             "₹1,500",
                             "₹3,000",
                             "Included",
                           ],
-                          ["Daily total (excl. flight)", "₹6,300", "₹13,000", "₹35,000"],
+                          [
+                            "Daily total (excl. flight)",
+                            "₹6,300",
+                            "₹13,000",
+                            "₹35,000",
+                          ],
                           [
                             "4-Day trip total",
                             "₹33,200",
@@ -980,8 +983,8 @@ export default function LakshadweepGuidePage() {
                     style={{ fontFamily: "var(--font-dm-sans)" }}
                   >
                     * Excludes travel to Kochi. Most mid-range and luxury
-                    packages bundle meals, permit fees, and transfers into
-                    a single quoted price.
+                    packages bundle meals, permit fees, and transfers into a
+                    single quoted price.
                   </p>
                 </section>
 
@@ -990,35 +993,37 @@ export default function LakshadweepGuidePage() {
                   <h2>Essential Travel Tips for Lakshadweep</h2>
                   <ul>
                     <li>
-                      <strong>Apply for your permit at least 3–4 weeks out:</strong>
-                      This is the one dependency outside your control, and
-                      it takes far longer than most Indian domestic permits.
+                      <strong>
+                        Apply for your permit at least 3–4 weeks out:
+                      </strong>
+                      This is the one dependency outside your control, and it
+                      takes far longer than most Indian domestic permits.
                     </li>
                     <li>
-                      <strong>Book through a recognised operator first time:</strong>
+                      <strong>
+                        Book through a recognised operator first time:
+                      </strong>
                       They bundle permit, stay, and transfers, which removes
                       most first-trip logistics risk.
                     </li>
                     <li>
-                      <strong>Only reef-safe sunscreen:</strong> Several
-                      resorts actively check for it before letting you into
-                      lagoon water.
+                      <strong>Only reef-safe sunscreen:</strong> Several resorts
+                      actively check for it before letting you into lagoon
+                      water.
                     </li>
                     <li>
-                      <strong>Carry cash:</strong> ATMs and card acceptance
-                      are limited outside Kavaratti and Agatti — most resort
+                      <strong>Carry cash:</strong> ATMs and card acceptance are
+                      limited outside Kavaratti and Agatti — most resort
                       packages are pre-paid, but carry cash for extras.
                     </li>
                     <li>
                       <strong>Don't expect alcohol:</strong> Lakshadweep is
-                      largely dry; only a few resort properties are
-                      exceptions.
+                      largely dry; only a few resort properties are exceptions.
                     </li>
                     <li>
                       <strong>Confirm sea conditions before travel:</strong>
-                      Especially in shoulder-season months (May, September)
-                      — ferries can be delayed or cancelled with short
-                      notice.
+                      Especially in shoulder-season months (May, September) —
+                      ferries can be delayed or cancelled with short notice.
                     </li>
                   </ul>
 

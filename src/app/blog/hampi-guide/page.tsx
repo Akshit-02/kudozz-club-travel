@@ -9,6 +9,7 @@ import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
+import { amazonSearchUrl } from "@/lib/common";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -148,8 +149,7 @@ const HAMPI_GEAR: GearSection[] = [
         rating: 4.5,
         reviews: "3.8k",
         image: "🎒",
-        affiliateUrl:
-          "https://www.amazon.in/s?k=hydration+backpack+2L+trekking&tag=mytech0d6-21",
+        affiliateUrl: amazonSearchUrl("hydration+backpack+2L+trekking"),
         tag: "Heat essential",
         tagColor: "bg-red-100 text-red-700",
         why: "Hampi's ruins have almost no shade between sites. Dehydration sets in fast at 40°C on exposed rock. A hydration pack means you drink every few minutes without breaking pace.",
@@ -162,8 +162,7 @@ const HAMPI_GEAR: GearSection[] = [
         rating: 4.4,
         reviews: "5.2k",
         image: "👒",
-        affiliateUrl:
-          "https://www.amazon.in/s?k=wide+brim+sun+hat+UPF50+trekking&tag=mytech0d6-21",
+        affiliateUrl: amazonSearchUrl("wide+brim+sun+hat+UPF50+trekking"),
         tag: "Shade for your neck",
         tagColor: "bg-amber-100 text-amber-700",
         why: "Neck and ear sunburn is the most common Hampi injury. You spend hours looking up at temple carvings and boulder formations — a cap leaves your neck completely exposed.",
@@ -176,8 +175,7 @@ const HAMPI_GEAR: GearSection[] = [
         rating: 4.2,
         reviews: "2.1k",
         image: "📷",
-        affiliateUrl:
-          "https://www.amazon.in/s?k=smartphone+clip+on+lens+kit+wide+macro&tag=mytech0d6-21",
+        affiliateUrl: amazonSearchUrl("smartphone+clip+on+lens+kit+wide+macro"),
         tag: "Photography upgrade",
         tagColor: "bg-purple-100 text-purple-700",
         why: "The carvings inside Vittala Temple and the scale of the boulder landscape both require lenses your phone doesn't have built-in. A ₹1,000 clip-on kit changes your photos completely.",
@@ -190,8 +188,7 @@ const HAMPI_GEAR: GearSection[] = [
         rating: 4.6,
         reviews: "8.9k",
         image: "⚡",
-        affiliateUrl:
-          "https://www.amazon.in/s?k=ORS+electrolyte+powder+sachets+travel&tag=mytech0d6-21",
+        affiliateUrl: amazonSearchUrl("ORS+electrolyte+powder+sachets+travel"),
         tag: "Heat exhaustion prevention",
         tagColor: "bg-sky-100 text-sky-700",
         why: "Heat exhaustion at Hampi is genuinely common — the combination of sun, granite heat, and distance between sites is relentless. ORS sachets cost ₹5 each and could save your trip.",
@@ -204,8 +201,7 @@ const HAMPI_GEAR: GearSection[] = [
         rating: 4.5,
         reviews: "4.1k",
         image: "👟",
-        affiliateUrl:
-          "https://www.amazon.in/s?k=minimalist+trail+running+shoes+grip&tag=mytech0d6-21",
+        affiliateUrl: amazonSearchUrl("minimalist+trail+running+shoes+grip"),
         tag: "For boulder hopping",
         tagColor: "bg-forest-100 text-forest-700",
         why: "Flip flops on Hampi's boulders are how people sprain ankles. The granite is smooth, steep, and deceptively slippery. Grippy rubber soles are the single most practical gear choice here.",
@@ -218,8 +214,7 @@ const HAMPI_GEAR: GearSection[] = [
         rating: 4.1,
         reviews: "6.7k",
         image: "🌀",
-        affiliateUrl:
-          "https://www.amazon.in/s?k=rechargeable+pocket+fan+mini+USB&tag=mytech0d6-21",
+        affiliateUrl: amazonSearchUrl("rechargeable+pocket+fan+mini+USB"),
         tag: "Queue survival",
         tagColor: "bg-stone-100 text-stone-700",
         why: "Hampi's major temples have queues — sometimes 20–40 minutes in the open sun. A pocket fan costs ₹500 and makes every queue tolerable.",

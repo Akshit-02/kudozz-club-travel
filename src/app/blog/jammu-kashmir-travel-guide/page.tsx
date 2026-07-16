@@ -9,6 +9,7 @@ import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
+import { amazonSearchUrl } from "@/lib/common";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -150,8 +151,7 @@ const JK_GEAR: GearSection[] = [
         rating: 4.6,
         reviews: "9.4k",
         image: "🧥",
-        affiliateUrl:
-          "https://www.amazon.in/s?k=down+jacket+heavy+winter&tag=mytech0d6-21",
+        affiliateUrl: amazonSearchUrl("down+jacket+heavy+winter"),
         tag: "High-altitude essential",
         tagColor: "bg-sky-100 text-sky-700",
         why: "Even in April and October, Gulmarg's gondola takes you well above the snow line — visitors without proper insulation cut their trip up the mountain short.",
@@ -164,8 +164,7 @@ const JK_GEAR: GearSection[] = [
         rating: 4.5,
         reviews: "6.1k",
         image: "🥾",
-        affiliateUrl:
-          "https://www.amazon.in/s?k=waterproof+snow+boots&tag=mytech0d6-21",
+        affiliateUrl: amazonSearchUrl("waterproof+snow+boots"),
         tag: "Snow essential",
         tagColor: "bg-stone-100 text-stone-700",
         why: "Rental gumboots are available at Gulmarg, but they're often ill-fitting and cold by midday — your own pair is worth carrying for a multi-day trip.",
@@ -178,8 +177,7 @@ const JK_GEAR: GearSection[] = [
         rating: 4.4,
         reviews: "7.8k",
         image: "🧣",
-        affiliateUrl:
-          "https://www.amazon.in/s?k=thermal+base+layer+set&tag=mytech0d6-21",
+        affiliateUrl: amazonSearchUrl("thermal+base+layer+set"),
         tag: "Layering essential",
         tagColor: "bg-purple-100 text-purple-700",
         why: "Kashmir's weather shifts quickly between valley floor and higher altitude — thermals let you regulate without carrying multiple heavy jackets.",
@@ -192,8 +190,7 @@ const JK_GEAR: GearSection[] = [
         rating: 4.4,
         reviews: "5.6k",
         image: "🕶️",
-        affiliateUrl:
-          "https://www.amazon.in/s?k=polarized+sunglasses+snow&tag=mytech0d6-21",
+        affiliateUrl: amazonSearchUrl("polarized+sunglasses+snow"),
         tag: "Snow essential",
         tagColor: "bg-amber-100 text-amber-700",
         why: "Reflected sunlight off snow is far more intense than regular daylight — this is the one item visitors most often forget and most regret forgetting.",
@@ -206,8 +203,7 @@ const JK_GEAR: GearSection[] = [
         rating: 4.5,
         reviews: "9.7k",
         image: "🔋",
-        affiliateUrl:
-          "https://www.amazon.in/s?k=power+bank+10000mAh+travel&tag=mytech0d6-21",
+        affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
         tag: "Cold-weather essential",
         tagColor: "bg-forest-100 text-forest-700",
         why: "Batteries lose charge faster in cold conditions — a power bank is more necessary here than in warmer destinations.",
@@ -220,8 +216,7 @@ const JK_GEAR: GearSection[] = [
         rating: 4.4,
         reviews: "3.9k",
         image: "🩹",
-        affiliateUrl:
-          "https://www.amazon.in/s?k=travel+first+aid+kit+altitude&tag=mytech0d6-21",
+        affiliateUrl: amazonSearchUrl("travel+first+aid+kit+altitude"),
         tag: "High-altitude essential",
         tagColor: "bg-red-100 text-red-700",
         why: "The Gulmarg gondola's second phase gains altitude fast — carrying basic altitude relief (and staying hydrated) helps first-time high-altitude travellers.",

@@ -9,6 +9,7 @@ import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
+import { amazonSearchUrl } from "@/lib/common";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -146,8 +147,7 @@ const ZIRO_GEAR: GearSection[] = [
         rating: 4.5,
         reviews: "6.3k",
         image: "🥾",
-        affiliateUrl:
-          "https://www.amazon.in/s?k=waterproof+trekking+shoes&tag=mytech0d6-21",
+        affiliateUrl: amazonSearchUrl("waterproof+trekking+shoes"),
         tag: "Rice-field essential",
         tagColor: "bg-forest-100 text-forest-700",
         why: "Slipping off the narrow field bunds into the paddy water is the single most common mishap for visitors walking through the villages.",
@@ -160,8 +160,7 @@ const ZIRO_GEAR: GearSection[] = [
         rating: 4.4,
         reviews: "5.8k",
         image: "🧥",
-        affiliateUrl:
-          "https://www.amazon.in/s?k=packable+rain+jacket+travel&tag=mytech0d6-21",
+        affiliateUrl: amazonSearchUrl("packable+rain+jacket+travel"),
         tag: "All-season essential",
         tagColor: "bg-sky-100 text-sky-700",
         why: "Weather in Ziro changes fast — travellers without rain protection regularly get caught out mid-village-walk.",
@@ -174,8 +173,7 @@ const ZIRO_GEAR: GearSection[] = [
         rating: 4.5,
         reviews: "7.1k",
         image: "🧣",
-        affiliateUrl:
-          "https://www.amazon.in/s?k=fleece+jacket+travel+warm&tag=mytech0d6-21",
+        affiliateUrl: amazonSearchUrl("fleece+jacket+travel+warm"),
         tag: "Evening essential",
         tagColor: "bg-stone-100 text-stone-700",
         why: "Homestays and campsites rarely have heating — a proper layer makes the cold valley evenings comfortable rather than something to endure.",
@@ -188,8 +186,7 @@ const ZIRO_GEAR: GearSection[] = [
         rating: 4.5,
         reviews: "9.7k",
         image: "🔋",
-        affiliateUrl:
-          "https://www.amazon.in/s?k=power+bank+10000mAh+travel&tag=mytech0d6-21",
+        affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
         tag: "Off-grid essential",
         tagColor: "bg-amber-100 text-amber-700",
         why: "Ziro's remoteness is exactly its appeal, but it also means fewer charging opportunities than most Indian destinations.",
@@ -202,8 +199,7 @@ const ZIRO_GEAR: GearSection[] = [
         rating: 4.3,
         reviews: "6.8k",
         image: "🦟",
-        affiliateUrl:
-          "https://www.amazon.in/s?k=mosquito+repellent+travel&tag=mytech0d6-21",
+        affiliateUrl: amazonSearchUrl("mosquito+repellent+travel"),
         tag: "Evening essential",
         tagColor: "bg-red-100 text-red-700",
         why: "Rice-fish fields are mosquito breeding grounds by design — repellent is worth applying before any evening village walk.",
@@ -216,8 +212,7 @@ const ZIRO_GEAR: GearSection[] = [
         rating: 4.4,
         reviews: "3.9k",
         image: "🩹",
-        affiliateUrl:
-          "https://www.amazon.in/s?k=travel+first+aid+kit&tag=mytech0d6-21",
+        affiliateUrl: amazonSearchUrl("travel+first+aid+kit"),
         tag: "Remote-travel essential",
         tagColor: "bg-purple-100 text-purple-700",
         why: "Ziro's isolation is part of its charm, but it also means self-sufficiency matters more than on a typical hill-station trip.",

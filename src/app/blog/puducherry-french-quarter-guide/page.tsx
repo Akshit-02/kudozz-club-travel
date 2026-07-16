@@ -9,6 +9,7 @@ import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
+import { amazonSearchUrl } from "@/lib/common";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -146,8 +147,7 @@ const PUDUCHERRY_GEAR: GearSection[] = [
         rating: 4.4,
         reviews: "8.2k",
         image: "👡",
-        affiliateUrl:
-          "https://www.amazon.in/s?k=comfortable+walking+sandals+travel&tag=mytech0d6-21",
+        affiliateUrl: amazonSearchUrl("comfortable+walking+sandals+travel"),
         tag: "Quarter-walk essential",
         tagColor: "bg-sky-100 text-sky-700",
         why: "Most of the French Quarter's charm is in the details — door knockers, bougainvillea, faded signage — that you only notice walking slowly, which means hours on your feet.",
@@ -160,8 +160,7 @@ const PUDUCHERRY_GEAR: GearSection[] = [
         rating: 4.5,
         reviews: "11k",
         image: "🧴",
-        affiliateUrl:
-          "https://www.amazon.in/s?k=reef+safe+sunscreen+spf+50&tag=mytech0d6-21",
+        affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+spf+50"),
         tag: "Daily essential",
         tagColor: "bg-amber-100 text-amber-700",
         why: "There's very little shade along the seafront Promenade or around the Matrimandir gardens — sunburn is the most common complaint from first-time visitors.",
@@ -174,8 +173,7 @@ const PUDUCHERRY_GEAR: GearSection[] = [
         rating: 4.3,
         reviews: "5.4k",
         image: "👒",
-        affiliateUrl:
-          "https://www.amazon.in/s?k=wide+brim+sun+hat+travel&tag=mytech0d6-21",
+        affiliateUrl: amazonSearchUrl("wide+brim+sun+hat+travel"),
         tag: "Beach essential",
         tagColor: "bg-forest-100 text-forest-700",
         why: "Puducherry's charm is best enjoyed at a slow pace outdoors — a good hat means you can linger without cutting the day short.",
@@ -188,8 +186,7 @@ const PUDUCHERRY_GEAR: GearSection[] = [
         rating: 4.2,
         reviews: "2.6k",
         image: "🔒",
-        affiliateUrl:
-          "https://www.amazon.in/s?k=portable+bicycle+lock&tag=mytech0d6-21",
+        affiliateUrl: amazonSearchUrl("portable+bicycle+lock"),
         tag: "Cycling essential",
         tagColor: "bg-stone-100 text-stone-700",
         why: "Bicycles are the best way to cover both the French and Tamil Quarters in a single unhurried morning without the parking hassles of a scooter.",
@@ -202,8 +199,7 @@ const PUDUCHERRY_GEAR: GearSection[] = [
         rating: 4.6,
         reviews: "9.8k",
         image: "💧",
-        affiliateUrl:
-          "https://www.amazon.in/s?k=insulated+water+bottle+steel&tag=mytech0d6-21",
+        affiliateUrl: amazonSearchUrl("insulated+water+bottle+steel"),
         tag: "All-day essential",
         tagColor: "bg-sky-100 text-sky-700",
         why: "Cafés in the French Quarter are plentiful, but the stretches between them along the Promenade and out to Auroville are not — carry your own water.",
@@ -216,8 +212,7 @@ const PUDUCHERRY_GEAR: GearSection[] = [
         rating: 4.5,
         reviews: "9.7k",
         image: "🔋",
-        affiliateUrl:
-          "https://www.amazon.in/s?k=power+bank+10000mAh+travel&tag=mytech0d6-21",
+        affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
         tag: "Navigation essential",
         tagColor: "bg-purple-100 text-purple-700",
         why: "Auroville in particular is spread over a large, forested area with patchy signage — a dead phone there is a genuinely inconvenient problem.",

@@ -9,6 +9,7 @@ import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
+import { amazonSearchUrl } from "@/lib/common";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -150,8 +151,7 @@ const GOA_GEAR: GearSection[] = [
         rating: 4.5,
         reviews: "7.4k",
         image: "🧴",
-        affiliateUrl:
-          "https://www.amazon.in/s?k=reef+safe+sunscreen+SPF+50&tag=mytech0d6-21",
+        affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+SPF+50"),
         tag: "Beach essential",
         tagColor: "bg-amber-100 text-amber-700",
         why: "Full days on the sand without reapplying sunscreen is the single most common regret travellers report after a Goa trip.",
@@ -164,8 +164,7 @@ const GOA_GEAR: GearSection[] = [
         rating: 4.4,
         reviews: "5.9k",
         image: "🏖️",
-        affiliateUrl:
-          "https://www.amazon.in/s?k=quick+dry+microfiber+beach+towel&tag=mytech0d6-21",
+        affiliateUrl: amazonSearchUrl("quick+dry+microfiber+beach+towel"),
         tag: "Multi-beach days",
         tagColor: "bg-sky-100 text-sky-700",
         why: "Standard hotel towels stay damp for hours in Goa's humidity — a quick-dry towel packs down small and doesn't smell by evening.",
@@ -178,8 +177,7 @@ const GOA_GEAR: GearSection[] = [
         rating: 4.3,
         reviews: "9.1k",
         image: "📱",
-        affiliateUrl:
-          "https://www.amazon.in/s?k=waterproof+phone+pouch+beach&tag=mytech0d6-21",
+        affiliateUrl: amazonSearchUrl("waterproof+phone+pouch+beach"),
         tag: "Watersports essential",
         tagColor: "bg-forest-100 text-forest-700",
         why: "Parasailing, jet-skiing, and dolphin-watching boat trips all carry real risk of a dropped or soaked phone without one.",
@@ -192,8 +190,7 @@ const GOA_GEAR: GearSection[] = [
         rating: 4.4,
         reviews: "4.2k",
         image: "🧣",
-        affiliateUrl:
-          "https://www.amazon.in/s?k=beach+sarong+cover+up&tag=mytech0d6-21",
+        affiliateUrl: amazonSearchUrl("beach+sarong+cover+up"),
         tag: "Beach-to-town essential",
         tagColor: "bg-purple-100 text-purple-700",
         why: "Old Goa's churches expect covered shoulders — a sarong solves this instantly without needing a separate outfit change.",
@@ -206,8 +203,7 @@ const GOA_GEAR: GearSection[] = [
         rating: 4.3,
         reviews: "6.8k",
         image: "🦟",
-        affiliateUrl:
-          "https://www.amazon.in/s?k=mosquito+repellent+travel&tag=mytech0d6-21",
+        affiliateUrl: amazonSearchUrl("mosquito+repellent+travel"),
         tag: "Evening essential",
         tagColor: "bg-red-100 text-red-700",
         why: "Beach shack dinners run late into the evening — repellent makes those hours noticeably more comfortable.",
@@ -220,8 +216,7 @@ const GOA_GEAR: GearSection[] = [
         rating: 4.5,
         reviews: "9.7k",
         image: "🔋",
-        affiliateUrl:
-          "https://www.amazon.in/s?k=power+bank+10000mAh+travel&tag=mytech0d6-21",
+        affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
         tag: "All-day essential",
         tagColor: "bg-stone-100 text-stone-700",
         why: "Outlets are scarce at beach shacks — a power bank means you're never stuck choosing between photos and navigation.",

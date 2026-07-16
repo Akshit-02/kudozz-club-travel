@@ -9,6 +9,7 @@ import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
+import { amazonSearchUrl } from "@/lib/common";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -152,8 +153,7 @@ const UDAIPUR_GEAR: GearSection[] = [
         rating: 4.4,
         reviews: "6.2k",
         image: "👟",
-        affiliateUrl:
-          "https://www.amazon.in/s?k=comfortable+walking+sandals+travel&tag=mytech0d6-21",
+        affiliateUrl: amazonSearchUrl("comfortable+walking+sandals+travel"),
         tag: "Old-city essential",
         tagColor: "bg-amber-100 text-amber-700",
         why: "Between City Palace's courtyards, the ghats around Lake Pichola, and the narrow bazaars, you'll easily clock 10+ km a day on foot.",
@@ -166,8 +166,7 @@ const UDAIPUR_GEAR: GearSection[] = [
         rating: 4.3,
         reviews: "3.8k",
         image: "👒",
-        affiliateUrl:
-          "https://www.amazon.in/s?k=wide+brim+travel+hat+cotton&tag=mytech0d6-21",
+        affiliateUrl: amazonSearchUrl("wide+brim+travel+hat+cotton"),
         tag: "Lake glare",
         tagColor: "bg-sky-100 text-sky-700",
         why: "Sun reflecting off the lake surface during the boat ride is more intense than it looks — a hat and sunglasses together make a real difference.",
@@ -180,8 +179,7 @@ const UDAIPUR_GEAR: GearSection[] = [
         rating: 4.4,
         reviews: "4.5k",
         image: "🌂",
-        affiliateUrl:
-          "https://www.amazon.in/s?k=compact+rain+jacket+travel&tag=mytech0d6-21",
+        affiliateUrl: amazonSearchUrl("compact+rain+jacket+travel"),
         tag: "Monsoon shoulder season",
         tagColor: "bg-forest-100 text-forest-700",
         why: "July–September brings Udaipur's lakes to their most dramatic, but pack for sudden short bursts of rain rather than sustained downpours.",
@@ -194,8 +192,7 @@ const UDAIPUR_GEAR: GearSection[] = [
         rating: 4.5,
         reviews: "9.7k",
         image: "🔋",
-        affiliateUrl:
-          "https://www.amazon.in/s?k=power+bank+10000mAh+travel&tag=mytech0d6-21",
+        affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
         tag: "All-day essential",
         tagColor: "bg-purple-100 text-purple-700",
         why: "Udaipur is one of the most photogenic cities in India — you'll be shooting constantly, and outlets are scarce mid-sightseeing.",
@@ -208,8 +205,7 @@ const UDAIPUR_GEAR: GearSection[] = [
         rating: 4.5,
         reviews: "4.1k",
         image: "🧣",
-        affiliateUrl:
-          "https://www.amazon.in/s?k=cotton+scarf+stole+travel&tag=mytech0d6-21",
+        affiliateUrl: amazonSearchUrl("cotton+scarf+stole+travel"),
         tag: "Temple + sun cover",
         tagColor: "bg-stone-100 text-stone-700",
         why: "Several temples and havelis expect shoulders and knees covered — a scarf solves this instantly without carrying a separate outfit.",
@@ -222,8 +218,7 @@ const UDAIPUR_GEAR: GearSection[] = [
         rating: 4.5,
         reviews: "11.3k",
         image: "💧",
-        affiliateUrl:
-          "https://www.amazon.in/s?k=insulated+water+bottle+1L+travel&tag=mytech0d6-21",
+        affiliateUrl: amazonSearchUrl("insulated+water+bottle+1L+travel"),
         tag: "Stay hydrated",
         tagColor: "bg-red-100 text-red-700",
         why: "Refill points are limited inside City Palace and around the ghats, so carrying your own is more reliable than buying bottled water all day.",

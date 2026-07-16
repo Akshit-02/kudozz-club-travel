@@ -9,6 +9,7 @@ import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
+import { amazonSearchUrl } from "@/lib/common";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -144,8 +145,7 @@ const GOKARNA_GEAR: GearSection[] = [
         rating: 4.4,
         reviews: "5.1k",
         image: "🥾",
-        affiliateUrl:
-          "https://www.amazon.in/s?k=trekking+sandals+grip+outdoor&tag=mytech0d6-21",
+        affiliateUrl: amazonSearchUrl("trekking+sandals+grip+outdoor"),
         tag: "Beach-trek essential",
         tagColor: "bg-amber-100 text-amber-700",
         why: "Twisted ankles on the rocky headland stretches are the most common minor injury travellers report on the Gokarna beach trek.",
@@ -158,8 +158,7 @@ const GOKARNA_GEAR: GearSection[] = [
         rating: 4.5,
         reviews: "7.4k",
         image: "🧴",
-        affiliateUrl:
-          "https://www.amazon.in/s?k=reef+safe+sunscreen+SPF+50&tag=mytech0d6-21",
+        affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+SPF+50"),
         tag: "Trek essential",
         tagColor: "bg-sky-100 text-sky-700",
         why: "Sunburn from the exposed cliff trail is easily the top regret among travellers doing the full beach-hopping route.",
@@ -172,8 +171,7 @@ const GOKARNA_GEAR: GearSection[] = [
         rating: 4.4,
         reviews: "4.6k",
         image: "🎒",
-        affiliateUrl:
-          "https://www.amazon.in/s?k=20L+quick+dry+daypack&tag=mytech0d6-21",
+        affiliateUrl: amazonSearchUrl("20L+quick+dry+daypack"),
         tag: "Beach-trek essential",
         tagColor: "bg-forest-100 text-forest-700",
         why: "Between beaches there are long stretches with no shops — a daypack with water and snacks keeps you from having to turn back.",
@@ -186,8 +184,7 @@ const GOKARNA_GEAR: GearSection[] = [
         rating: 4.3,
         reviews: "9.1k",
         image: "📱",
-        affiliateUrl:
-          "https://www.amazon.in/s?k=waterproof+phone+pouch+beach&tag=mytech0d6-21",
+        affiliateUrl: amazonSearchUrl("waterproof+phone+pouch+beach"),
         tag: "Boat-ride essential",
         tagColor: "bg-purple-100 text-purple-700",
         why: "The boat to Paradise Beach and the swim breaks at Om Beach both carry real risk of a soaked phone without one.",
@@ -200,8 +197,7 @@ const GOKARNA_GEAR: GearSection[] = [
         rating: 4.5,
         reviews: "6.2k",
         image: "💧",
-        affiliateUrl:
-          "https://www.amazon.in/s?k=2l+hydration+water+bottle+travel&tag=mytech0d6-21",
+        affiliateUrl: amazonSearchUrl("2l+hydration+water+bottle+travel"),
         tag: "Trek essential",
         tagColor: "bg-red-100 text-red-700",
         why: "Dehydration mid-trek is the single most common reason travellers cut the Om-to-Paradise walk short.",
@@ -214,8 +210,7 @@ const GOKARNA_GEAR: GearSection[] = [
         rating: 4.4,
         reviews: "4.0k",
         image: "🧣",
-        affiliateUrl:
-          "https://www.amazon.in/s?k=cotton+wrap+travel+modest&tag=mytech0d6-21",
+        affiliateUrl: amazonSearchUrl("cotton+wrap+travel+modest"),
         tag: "Temple-town essential",
         tagColor: "bg-stone-100 text-stone-700",
         why: "Unlike Goa, Gokarna's town centre is a living pilgrimage site — beachwear worn into the temple lanes draws real disapproval locally.",

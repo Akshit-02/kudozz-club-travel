@@ -9,6 +9,7 @@ import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
+import { amazonSearchUrl } from "@/lib/common";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -152,8 +153,7 @@ const BACKWATERS_GEAR: GearSection[] = [
         rating: 4.4,
         reviews: "2.4k",
         image: "🔭",
-        affiliateUrl:
-          "https://www.amazon.in/s?k=compact+binoculars+8x21+travel&tag=mytech0d6-21",
+        affiliateUrl: amazonSearchUrl("compact+binoculars+8x21+travel"),
         tag: "Birdwatching essential",
         tagColor: "bg-forest-100 text-forest-700",
         why: "The slow pace of a houseboat is perfect for birdwatching, but the birds are often distant on the water. Compact binoculars cost little and change the whole texture of the cruise.",
@@ -166,8 +166,7 @@ const BACKWATERS_GEAR: GearSection[] = [
         rating: 4.3,
         reviews: "9.1k",
         image: "🦟",
-        affiliateUrl:
-          "https://www.amazon.in/s?k=mosquito+repellent+spray+DEET+travel&tag=mytech0d6-21",
+        affiliateUrl: amazonSearchUrl("mosquito+repellent+spray+DEET+travel"),
         tag: "Evening essential",
         tagColor: "bg-red-100 text-red-700",
         why: "Houseboats moor for the night near villages and paddy fields — exactly where mosquitoes are most active at dusk. Apply before sunset, not after the first bite.",
@@ -180,8 +179,7 @@ const BACKWATERS_GEAR: GearSection[] = [
         rating: 4.5,
         reviews: "5.6k",
         image: "🧖",
-        affiliateUrl:
-          "https://www.amazon.in/s?k=quick+dry+microfiber+travel+towel&tag=mytech0d6-21",
+        affiliateUrl: amazonSearchUrl("quick+dry+microfiber+travel+towel"),
         tag: "Humidity solution",
         tagColor: "bg-sky-100 text-sky-700",
         why: "Kerala's coastal humidity means cotton towels stay damp for days on a multi-day houseboat trip. Microfiber dries fast and packs to the size of a water bottle.",
@@ -194,8 +192,7 @@ const BACKWATERS_GEAR: GearSection[] = [
         rating: 4.5,
         reviews: "3.8k",
         image: "🎒",
-        affiliateUrl:
-          "https://www.amazon.in/s?k=waterproof+dry+bag+10L&tag=mytech0d6-21",
+        affiliateUrl: amazonSearchUrl("waterproof+dry+bag+10L"),
         tag: "Canoe tour essential",
         tagColor: "bg-amber-100 text-amber-700",
         why: "The narrow canal canoe tours are the highlight of any backwaters trip — and the most likely place for your phone to get wet from a splash or sudden tilt.",
@@ -208,8 +205,7 @@ const BACKWATERS_GEAR: GearSection[] = [
         rating: 4.4,
         reviews: "6.2k",
         image: "🕶️",
-        affiliateUrl:
-          "https://www.amazon.in/s?k=polarised+sunglasses+travel&tag=mytech0d6-21",
+        affiliateUrl: amazonSearchUrl("polarised+sunglasses+travel"),
         tag: "Glare reduction",
         tagColor: "bg-purple-100 text-purple-700",
         why: "Hours of houseboat deck time with sun reflecting off flat water causes eye strain fast. Polarised lenses cut that glare and make the whole experience more comfortable.",
@@ -222,8 +218,7 @@ const BACKWATERS_GEAR: GearSection[] = [
         rating: 4.5,
         reviews: "11.3k",
         image: "💧",
-        affiliateUrl:
-          "https://www.amazon.in/s?k=insulated+water+bottle+1L+travel&tag=mytech0d6-21",
+        affiliateUrl: amazonSearchUrl("insulated+water+bottle+1L+travel"),
         tag: "Coastal heat",
         tagColor: "bg-stone-100 text-stone-700",
         why: "Houseboat itineraries rarely stop at shops. Bring your own bottle and refill from the boat's filtered water rather than relying on single-use plastic bottles sold onboard.",

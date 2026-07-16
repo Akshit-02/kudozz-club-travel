@@ -10,6 +10,7 @@ import TrekGearRecommendations, {
   BEACH_GEAR,
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
+import { amazonSearchUrl } from "@/lib/common";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -155,8 +156,7 @@ const ANDAMAN_GEAR: GearSection[] = [
         rating: 4.7,
         reviews: "8.2k",
         image: "📷",
-        affiliateUrl:
-          "https://www.amazon.in/s?k=gopro+hero+waterproof+action+camera&tag=mytech0d6-21",
+        affiliateUrl: amazonSearchUrl("gopro+hero+waterproof+action+camera"),
         tag: "Underwater essential",
         tagColor: "bg-sky-100 text-sky-700",
         why: "The coral reefs at Elephant Beach and North Bay are extraordinary. A waterproof action camera is the single item most Andaman travellers wish they'd brought.",
@@ -169,8 +169,7 @@ const ANDAMAN_GEAR: GearSection[] = [
         rating: 4.4,
         reviews: "3.1k",
         image: "🧴",
-        affiliateUrl:
-          "https://www.amazon.in/s?k=reef+safe+mineral+sunscreen+SPF50&tag=mytech0d6-21",
+        affiliateUrl: amazonSearchUrl("reef+safe+mineral+sunscreen+SPF50"),
         tag: "Reef-safe",
         tagColor: "bg-forest-100 text-forest-700",
         why: "Chemical sunscreens are banned at many Andaman dive sites for good reason — they bleach coral. Reef-safe mineral SPF is non-negotiable here.",
@@ -183,8 +182,7 @@ const ANDAMAN_GEAR: GearSection[] = [
         rating: 4.6,
         reviews: "4.2k",
         image: "🎒",
-        affiliateUrl:
-          "https://www.amazon.in/s?k=dry+bag+waterproof+10L+20L+set&tag=mytech0d6-21",
+        affiliateUrl: amazonSearchUrl("dry+bag+waterproof+10L+20L+set"),
         tag: "Ferry essential",
         tagColor: "bg-amber-100 text-amber-700",
         why: "Open boat transfers get wet. Spray comes over the sides. Your passport and phone in an unprotected bag is a ₹50,000 risk for a ₹1,900 solution.",
@@ -197,8 +195,7 @@ const ANDAMAN_GEAR: GearSection[] = [
         rating: 4.5,
         reviews: "2.1k",
         image: "🤿",
-        affiliateUrl:
-          "https://www.amazon.in/s?k=cressi+snorkel+set+mask+fins&tag=mytech0d6-21",
+        affiliateUrl: amazonSearchUrl("cressi+snorkel+set+mask+fins"),
         tag: "Snorkelling upgrade",
         tagColor: "bg-blue-100 text-blue-700",
         why: "Rental masks at beach vendors often leak or fog. A proper-fitting mask with anti-fog coating transforms snorkelling from tolerable to genuinely magical.",
@@ -211,8 +208,7 @@ const ANDAMAN_GEAR: GearSection[] = [
         rating: 4.3,
         reviews: "12.4k",
         image: "☀️",
-        affiliateUrl:
-          "https://www.amazon.in/s?k=neutrogena+ultra+sheer+SPF55+sunscreen&tag=mytech0d6-21",
+        affiliateUrl: amazonSearchUrl("neutrogena+ultra+sheer+SPF55+sunscreen"),
         tag: "UV index 12",
         tagColor: "bg-red-100 text-red-700",
         why: "The Andamans sit near the equator. UV index regularly hits 12 — the maximum classification. Sunburn here happens in under 20 minutes without protection.",
@@ -225,8 +221,7 @@ const ANDAMAN_GEAR: GearSection[] = [
         rating: 4.2,
         reviews: "5.8k",
         image: "⚓",
-        affiliateUrl:
-          "https://www.amazon.in/s?k=sea+band+anti+nausea+wristband&tag=mytech0d6-21",
+        affiliateUrl: amazonSearchUrl("sea+band+anti+nausea+wristband"),
         tag: "Ferry crossings",
         tagColor: "bg-purple-100 text-purple-700",
         why: "The Havelock crossing can be rough, especially October–December. Sea-bands work without drowsiness — unlike Avomine, which knocks you out for hours.",
