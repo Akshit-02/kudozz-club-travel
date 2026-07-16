@@ -23,6 +23,42 @@ export const featuredPost = {
 
 export const posts = [
   {
+    slug: "jammu-kashmir-travel-guide",
+    title: "Jammu & Kashmir Travel Guide: Srinagar, Gulmarg & Pahalgam",
+    excerpt:
+      "Houseboats on Dal Lake, gondola rides above the snow line, and valleys that earned Kashmir the name 'Paradise on Earth' — the complete guide.",
+    image: "/images/destinations/jammu-kashmir/hero.jpg",
+    category: "Destination Guide",
+    categoryColor: "bg-sky-100 text-sky-700",
+    tags: ["Jammu & Kashmir", "Srinagar", "Gulmarg"],
+    readTime: "15 min",
+    featured: true,
+  },
+  {
+    slug: "lakshadweep-island-guide",
+    title: "Lakshadweep Travel Guide: Permits, Islands & Best Time to Visit",
+    excerpt:
+      "Coral atolls barely a kilometre wide, turquoise lagoons, and some of India's clearest diving water — the complete guide to India's least-visited tropical paradise.",
+    image: "/images/destinations/lakshadweep/hero.jpg",
+    category: "Destination Guide",
+    categoryColor: "bg-sky-100 text-sky-700",
+    tags: ["Lakshadweep", "Coral Islands", "Scuba Diving"],
+    readTime: "12 min",
+    featured: true,
+  },
+  {
+    slug: "puducherry-french-quarter-guide",
+    title: "Puducherry Travel Guide: French Quarter, Auroville & Beaches",
+    excerpt:
+      "Mustard-yellow colonial villas, a seafront promenade closed to traffic, and the golden Matrimandir at Auroville — the complete guide to India's most European town.",
+    image: "/images/destinations/puducherry/hero.jpg",
+    category: "Destination Guide",
+    categoryColor: "bg-sky-100 text-sky-700",
+    tags: ["Puducherry", "Tamil Nadu", "French Quarter"],
+    readTime: "10 min",
+    featured: true,
+  },
+  {
     slug: "ziro-valley-arunachal",
     title: "Ziro Valley Travel Guide: Apatani Villages, Rice Fields & Festival",
     excerpt:
