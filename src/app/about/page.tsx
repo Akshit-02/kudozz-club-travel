@@ -8,7 +8,14 @@ import SiteFooter from "@/components/layout/SiteFooter";
 export const metadata: Metadata = {
   title: "About Us — Our Story",
   description:
-    "Kudozz Club is a travel community built by explorers, for explorers. Learn about our story, our mission, and the people behind the guides.",
+    "Kudozz Club (also searched as Kudoz Club or Kudos Club) is a travel community built by explorers, for explorers. Learn about our story, our mission, and the people behind the guides.",
+  keywords: [
+    "Kudozz Club",
+    "Kudoz Club",
+    "Kudos Club",
+    "Kudoss Club",
+    "about Kudozz",
+  ],
   alternates: { canonical: "https://club.kudozz.in/about" },
 };
 
@@ -45,6 +52,28 @@ function AboutSchema() {
               },
             ],
           },
+        }),
+      }}
+    />
+  );
+}
+
+function BrandFAQSchema() {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: brandFaqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.a,
+            },
+          })),
         }),
       }}
     />
@@ -98,6 +127,21 @@ const team = [
   },
 ];
 
+const brandFaqs = [
+  {
+    q: "Is it Kudozz Club, Kudoz Club, or Kudos Club?",
+    a: "Kudozz — spelled with two Z's. We know people also search for Kudoz Club, Kudos Club, and Kudoss Club, so if that's how you found us: you're in the right place.",
+  },
+  {
+    q: "Why the double Z?",
+    a: "It's a small, deliberate quirk — a nod to giving 'kudos' to great trips and hidden gems, spelled our own way. club.kudozz.in is our only official web address.",
+  },
+  {
+    q: "Is Kudozz Club affiliated with any other 'Kudos' or 'Kudoz' travel brand?",
+    a: "No. We're an independent, India-based travel guide publisher. If you're looking for us, the only official site is club.kudozz.in.",
+  },
+];
+
 const milestones = [
   {
     year: "Nov, 2025",
@@ -125,6 +169,7 @@ export default function AboutPage() {
   return (
     <>
       <AboutSchema />
+      <BrandFAQSchema />
       <SiteHeader />
       <main>
         {/* ── Hero ── */}
@@ -370,6 +415,51 @@ export default function AboutPage() {
                   </div>
                 ))}
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* ── Brand FAQ ── */}
+        <section className="bg-white py-24">
+          <div className="max-w-3xl mx-auto px-6 sm:px-10">
+            <div className="text-center mb-12">
+              <div className="flex items-center justify-center gap-3 mb-3">
+                <div className="h-px w-8 bg-forest-500" />
+                <span
+                  className="text-forest-600 text-xs font-bold uppercase tracking-[0.2em]"
+                  style={{ fontFamily: "var(--font-dm-sans)" }}
+                >
+                  Good to know
+                </span>
+                <div className="h-px w-8 bg-forest-500" />
+              </div>
+              <h2
+                className="text-3xl font-bold text-stone-900"
+                style={{ fontFamily: "var(--font-playfair)" }}
+              >
+                About the Name
+              </h2>
+            </div>
+            <div className="space-y-6">
+              {brandFaqs.map((f) => (
+                <div
+                  key={f.q}
+                  className="bg-stone-50 border border-stone-200 rounded-2xl p-6"
+                >
+                  <h3
+                    className="font-bold text-stone-900 mb-2"
+                    style={{ fontFamily: "var(--font-playfair)" }}
+                  >
+                    {f.q}
+                  </h3>
+                  <p
+                    className="text-sm text-stone-500 leading-relaxed"
+                    style={{ fontFamily: "var(--font-dm-sans)" }}
+                  >
+                    {f.a}
+                  </p>
+                </div>
+              ))}
             </div>
           </div>
         </section>

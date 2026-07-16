@@ -4,16 +4,16 @@ import NewsletterFooterForm from "./NewsletterFooterForm";
 const footerLinks = {
   Destinations: [
     { label: "Manali", href: "/blog/manali-travel-guide" },
-    { label: "Spiti Valley", href: "/blog/spiti-valley-guide" },
-    { label: "Leh Ladakh", href: "/blog/leh-ladakh-guide" },
-    { label: "Rishikesh", href: "/blog/rishikesh-guide" },
+    { label: "Spiti Valley", href: "/blog/spiti-valley-travel-guide" },
+    { label: "Leh Ladakh", href: "/blog/leh-ladakh-road-trip" },
+    { label: "Rishikesh", href: "/blog/rishikesh-adventure-guide" },
     { label: "Coorg", href: "/blog/coorg-guide" },
   ],
   Resources: [
-    { label: "Travel Tips", href: "/travel-tips" },
-    { label: "Packing Lists", href: "/packing-lists" },
-    { label: "Budget Travel", href: "/budget-travel" },
-    { label: "Visa Guides", href: "/visa-guides" },
+    { label: "Travel Tips", href: "/blog" },
+    { label: "Packing Lists", href: "/blog" },
+    { label: "Budget Travel", href: "/blog" },
+    { label: "Visa Guides", href: "/blog" },
   ],
   Company: [
     { label: "About Us", href: "/about" },

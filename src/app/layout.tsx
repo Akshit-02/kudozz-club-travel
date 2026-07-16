@@ -23,6 +23,10 @@ export const metadata: Metadata = {
     "Himalayan travel",
     "solo travel",
     "adventure travel",
+    "Kudozz Club",
+    "Kudoz Club",
+    "Kudos Club",
+    "Kudoss Club",
   ],
 
   creator: "Kudozz Club",
@@ -124,6 +128,13 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "Organization",
               name: "Kudozz Club",
+              alternateName: [
+                "Kudoz Club",
+                "Kudos Club",
+                "Kudoss Club",
+                "Kudoz",
+                "Kudos",
+              ],
               url: "https://club.kudozz.in",
               logo: "https://club.kudozz.in/favicon.ico",
               sameAs: [
@@ -140,12 +151,8 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "WebSite",
               name: "Kudozz Club",
+              alternateName: ["Kudoz Club", "Kudos Club", "Kudoss Club"],
               url: "https://club.kudozz.in",
-              potentialAction: {
-                "@type": "SearchAction",
-                target: "https://club.kudozz.in/search?q={search_term_string}",
-                "query-input": "required name=search_term_string",
-              },
             }),
           }}
         />
