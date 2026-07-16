@@ -8,22 +8,30 @@ import AnimatedSection from "@/components/home/AnimatedSection";
 
 // ── Per-page SEO metadata ────────────────────────────────────────────────────
 export const metadata: Metadata = {
-  title: "Kudozz Club — India Travel Guides, Itineraries & Hidden Gems",
+  title: "Kudozz Club — India Travel Blog, Guides & Itineraries",
   description:
-    "Hand-crafted India travel guides for Manali, Spiti Valley, Leh Ladakh, Rishikesh, Coorg, Kerala, Rajasthan & more. Real itineraries, honest budgets, and insider tips — no fluff.",
+    "Kudozz Club is an independent India travel blog with hand-crafted guides for Manali, Spiti Valley, Leh Ladakh, Rishikesh, Coorg, Kerala, Rajasthan & more. Real itineraries, honest budgets, and insider tips — no fluff.",
+  keywords: [
+    "travel blog",
+    "travel website",
+    "India travel blog",
+    "best travel blog India",
+    "travel guides India",
+    "travel itinerary website",
+  ],
   alternates: { canonical: "https://club.kudozz.in" },
   openGraph: {
-    title: "Kudozz Club — India Travel Guides, Itineraries & Hidden Gems",
+    title: "Kudozz Club — India Travel Blog, Guides & Itineraries",
     description:
-      "Hand-crafted India travel guides for Manali, Spiti Valley, Leh Ladakh, Rishikesh, Coorg, Kerala, Rajasthan & more. Real itineraries, honest budgets, and insider tips.",
+      "An independent India travel blog with hand-crafted guides for Manali, Spiti Valley, Leh Ladakh, Rishikesh, Coorg, Kerala, Rajasthan & more. Real itineraries, honest budgets, and insider tips.",
     url: "https://club.kudozz.in",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Kudozz Club — India Travel Guides, Itineraries & Hidden Gems",
+    title: "Kudozz Club — India Travel Blog, Guides & Itineraries",
     description:
-      "Hand-crafted India travel guides, itineraries and hidden gems for explorers who want more than a tourist map.",
+      "An independent India travel blog with hand-crafted guides, itineraries and hidden gems for explorers who want more than a tourist map.",
   },
 };
 
@@ -128,10 +136,20 @@ function HomeSchema() {
         __html: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "CollectionPage",
-          name: "Kudozz Club — India Travel Guides, Itineraries & Hidden Gems",
+          name: "Kudozz Club — India Travel Blog, Guides & Itineraries",
           url: "https://club.kudozz.in",
           description:
-            "Hand-crafted India travel guides, real itineraries, honest budgets and insider tips for explorers.",
+            "An independent India travel blog with hand-crafted guides, real itineraries, honest budgets and insider tips for explorers.",
+          isPartOf: {
+            "@type": "WebSite",
+            name: "Kudozz Club",
+            url: "https://club.kudozz.in",
+          },
+          about: [
+            { "@type": "Thing", name: "Travel Blog" },
+            { "@type": "Thing", name: "India Travel" },
+            { "@type": "Thing", name: "Travel Itineraries" },
+          ],
           mainEntity: {
             "@type": "ItemList",
             itemListElement: featuredDestinations.map((d, i) => ({

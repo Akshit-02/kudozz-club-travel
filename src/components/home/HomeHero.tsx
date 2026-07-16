@@ -109,7 +109,7 @@ export default function HomeHero() {
               className="text-forest-300 text-xs font-bold uppercase tracking-[0.25em]"
               style={{ fontFamily: "var(--font-dm-sans)" }}
             >
-              Kudozz Club
+              Kudozz Club · India Travel Blog
             </span>
           </div>
 

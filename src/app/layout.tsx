@@ -135,8 +135,19 @@ export default function RootLayout({
                 "Kudoz",
                 "Kudos",
               ],
+              description:
+                "Kudozz Club is an independent India travel blog and travel website publishing hand-crafted destination guides, itineraries, and budget breakdowns.",
               url: "https://club.kudozz.in",
               logo: "https://club.kudozz.in/favicon.ico",
+              knowsAbout: [
+                "Travel Blog",
+                "India Travel",
+                "Travel Itineraries",
+                "Adventure Travel",
+                "Budget Travel",
+                "Trekking",
+                "Solo Travel",
+              ],
               sameAs: [
                 "https://twitter.com/kudozz.in",
                 "https://instagram.com/kudozz.in",
