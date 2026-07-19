@@ -18,20 +18,20 @@ Manipur
 Meghalaya
 Mizoram
 Nagaland
-Odisha
-Punjab
-Rajasthan
-Sikkim
-Tamil Nadu
-Telangana
-Tripura
-Uttar Pradesh
-Uttarakhand
-West Bengal
-Andaman and Nicobar Islands
-Chandigarh
-Dadra and Nagar Haveli and Daman and Diu
-Delhi (NCT)
+Odisha - done
+Punjab - done
+Rajasthan - done
+Sikkim - done
+Tamil Nadu - done
+Telangana - done
+Tripura - done
+Uttar Pradesh - done
+Uttarakhand - done
+West Bengal - done
+Andaman and Nicobar Islands - done
+Chandigarh - done
+Dadra and Nagar Haveli and Daman and Diu - done
+Delhi (NCT) - done
 Jammu and Kashmir - done
 Ladakh - done
 Lakshadweep - done

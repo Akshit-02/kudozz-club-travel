@@ -137,6 +137,78 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
       priority: 0.85,
     },
+    {
+      url: `${baseUrl}/blog/dadra-nagar-haveli-daman-diu-guide`,
+      lastModified: new Date("2026-07-19"),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/blog/chandigarh-travel-guide`,
+      lastModified: new Date("2026-07-19"),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/blog/delhi-travel-guide`,
+      lastModified: new Date("2026-07-19"),
+      changeFrequency: "monthly",
+      priority: 0.85,
+    },
+    {
+      url: `${baseUrl}/blog/west-bengal-travel-guide`,
+      lastModified: new Date("2026-07-19"),
+      changeFrequency: "monthly",
+      priority: 0.85,
+    },
+    {
+      url: `${baseUrl}/blog/uttarakhand-travel-guide`,
+      lastModified: new Date("2026-07-19"),
+      changeFrequency: "monthly",
+      priority: 0.85,
+    },
+    {
+      url: `${baseUrl}/blog/uttar-pradesh-travel-guide`,
+      lastModified: new Date("2026-07-19"),
+      changeFrequency: "monthly",
+      priority: 0.85,
+    },
+    {
+      url: `${baseUrl}/blog/tripura-travel-guide`,
+      lastModified: new Date("2026-07-19"),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/blog/tamil-nadu-travel-guide`,
+      lastModified: new Date("2026-07-19"),
+      changeFrequency: "monthly",
+      priority: 0.85,
+    },
+    {
+      url: `${baseUrl}/blog/sikkim-travel-guide`,
+      lastModified: new Date("2026-07-19"),
+      changeFrequency: "monthly",
+      priority: 0.85,
+    },
+    {
+      url: `${baseUrl}/blog/rajasthan-travel-guide`,
+      lastModified: new Date("2026-07-19"),
+      changeFrequency: "monthly",
+      priority: 0.85,
+    },
+    {
+      url: `${baseUrl}/blog/punjab-travel-guide`,
+      lastModified: new Date("2026-07-19"),
+      changeFrequency: "monthly",
+      priority: 0.85,
+    },
+    {
+      url: `${baseUrl}/blog/odisha-travel-guide`,
+      lastModified: new Date("2026-07-19"),
+      changeFrequency: "monthly",
+      priority: 0.85,
+    },
   ];
 
   return [...staticPages, ...blogPosts];
