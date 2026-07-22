@@ -119,6 +119,18 @@ export const posts = [
     featured: true,
   },
   {
+    slug: "manipur-travel-guide",
+    title: "Manipur Travel Guide: Loktak Lake, Imphal & Kangla Fort",
+    excerpt:
+      "Floating islands drifting across a shimmering lake, the world's only floating national park, and a market run entirely by women for centuries — the complete guide to Manipur.",
+    image: "/images/destinations/meghalaya/dawki-river.jpg",
+    category: "Off-beat",
+    categoryColor: "bg-forest-100 text-forest-700",
+    tags: ["Manipur", "Loktak Lake", "Imphal"],
+    readTime: "14 min",
+    featured: true,
+  },
+  {
     slug: "uttar-pradesh-travel-guide",
     title: "Uttar Pradesh Travel Guide: Taj Mahal, Varanasi & Lucknow",
     excerpt:

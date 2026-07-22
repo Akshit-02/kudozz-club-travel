@@ -14,7 +14,7 @@ Karnataka
 Kerala - done
 Madhya Pradesh
 Maharashtra
-Manipur
+Manipur - done
 Meghalaya - done
 Mizoram - done
 Nagaland - done
