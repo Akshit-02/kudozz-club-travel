@@ -13,7 +13,7 @@ Jharkhand
 Karnataka
 Kerala - done
 Madhya Pradesh
-Maharashtra
+Maharashtra - done
 Manipur - done
 Meghalaya - done
 Mizoram - done

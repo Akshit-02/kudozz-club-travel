@@ -131,6 +131,18 @@ export const posts = [
     featured: true,
   },
   {
+    slug: "maharashtra-travel-guide",
+    title: "Maharashtra Travel Guide: Mumbai, Ajanta-Ellora & Konkan Coast",
+    excerpt:
+      "A city that never sleeps, 2,000-year-old rock-cut cave temples, and a coastline dotted with sea forts and fishing villages — the complete guide to Maharashtra.",
+    image: "/images/destinations/hampi/hero.jpg",
+    category: "Destination Guide",
+    categoryColor: "bg-sky-100 text-sky-700",
+    tags: ["Maharashtra", "Mumbai", "Ajanta-Ellora"],
+    readTime: "17 min",
+    featured: true,
+  },
+  {
     slug: "uttar-pradesh-travel-guide",
     title: "Uttar Pradesh Travel Guide: Taj Mahal, Varanasi & Lucknow",
     excerpt:
