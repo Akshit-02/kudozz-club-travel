@@ -215,6 +215,66 @@ export const posts = [
     featured: true,
   },
   {
+    slug: "andhra-pradesh-travel-guide",
+    title: "Andhra Pradesh Travel Guide: Tirupati, Visakhapatnam & Araku Valley",
+    excerpt:
+      "From the world's richest temple at Tirumala to Vizag's underrated coastline and the coffee-scented hills of Araku Valley — a complete guide to Andhra Pradesh's pilgrimage sites, beaches, and fiery cuisine.",
+    image: "/images/destinations/hampi/hero.jpg",
+    category: "Destination Guide",
+    categoryColor: "bg-sky-100 text-sky-700",
+    tags: ["Andhra Pradesh", "Tirupati", "Visakhapatnam"],
+    readTime: "17 min",
+    featured: true,
+  },
+  {
+    slug: "arunachal-pradesh-travel-guide",
+    title: "Arunachal Pradesh Travel Guide: Tawang, Ziro Valley & Bomdila",
+    excerpt:
+      "From Tawang's Himalayan monasteries to Ziro's terraced tribal valleys, this is the complete guide to India's largest and least-visited Northeastern state — permits, passes, and all.",
+    image: "/images/destinations/ziro/hero.jpg",
+    category: "Off-beat",
+    categoryColor: "bg-forest-100 text-forest-700",
+    tags: ["Arunachal Pradesh", "Tawang", "Ziro Valley"],
+    readTime: "19 min",
+    featured: true,
+  },
+  {
+    slug: "assam-travel-guide",
+    title: "Assam Travel Guide: Kaziranga, Guwahati & Majuli Island",
+    excerpt:
+      "Rhino safaris in Kaziranga, a hilltop Shakti Peeth temple above the Brahmaputra, and the world's largest river island — Assam is the gateway to Northeast India and a destination worth its own trip.",
+    image: "/images/destinations/meghalaya/dawki-river.jpg",
+    category: "Destination Guide",
+    categoryColor: "bg-sky-100 text-sky-700",
+    tags: ["Assam", "Kaziranga", "Majuli Island"],
+    readTime: "16 min",
+    featured: true,
+  },
+  {
+    slug: "bihar-travel-guide",
+    title: "Bihar Travel Guide: Bodh Gaya, Nalanda & Patna",
+    excerpt:
+      "The place where Buddha attained enlightenment, the ruins of one of the world's oldest universities, and the ancient heartland of the Magadha empire — a complete guide to Bihar's temples, ruins, and history for travelers.",
+    image: "/images/destinations/hampi/hero.jpg",
+    category: "Destination Guide",
+    categoryColor: "bg-sky-100 text-sky-700",
+    tags: ["Bihar", "Bodh Gaya", "Nalanda"],
+    readTime: "15 min",
+    featured: true,
+  },
+  {
+    slug: "chhattisgarh-travel-guide",
+    title: "Chhattisgarh Travel Guide: Chitrakote Falls, Bastar & Raipur",
+    excerpt:
+      "A horseshoe waterfall wider than Niagara, a tribal heartland with a 75-day festival tradition, and near-empty forest trails — Chhattisgarh is Central India's most overlooked state.",
+    image: "/images/destinations/meghalaya/dawki-river.jpg",
+    category: "Off-beat",
+    categoryColor: "bg-forest-100 text-forest-700",
+    tags: ["Chhattisgarh", "Chitrakote Falls", "Bastar"],
+    readTime: "13 min",
+    featured: true,
+  },
+  {
     slug: "uttar-pradesh-travel-guide",
     title: "Uttar Pradesh Travel Guide: Taj Mahal, Varanasi & Lucknow",
     excerpt:

@@ -1,10 +1,10 @@
 # List of Indian States and Union Territories
 
-Andhra Pradesh
-Arunachal Pradesh
-Assam
-Bihar
-Chhattisgarh
+Andhra Pradesh - done
+Arunachal Pradesh - done
+Assam - done
+Bihar - done
+Chhattisgarh - done
 Goa - done
 Gujarat - done
 Haryana - done
