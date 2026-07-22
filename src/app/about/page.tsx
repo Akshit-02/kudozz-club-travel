@@ -33,7 +33,7 @@ function AboutSchema() {
             "@type": "Organization",
             name: "Kudozz Club",
             url: "https://club.kudozz.in",
-            logo: "https://club.kudozz.in/logo.png",
+            logo: "https://club.kudozz.in/favicon.ico",
           },
           breadcrumb: {
             "@type": "BreadcrumbList",

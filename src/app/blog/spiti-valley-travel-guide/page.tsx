@@ -71,7 +71,7 @@ function ArticleSchema() {
             name: "Kudozz Club",
             logo: {
               "@type": "ImageObject",
-              url: "https://club.kudozz.in/logo.png",
+              url: "https://club.kudozz.in/favicon.ico",
             },
           },
           author: {
