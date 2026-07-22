@@ -12,7 +12,7 @@ Himachal Pradesh
 Jharkhand
 Karnataka
 Kerala - done
-Madhya Pradesh
+Madhya Pradesh - done
 Maharashtra - done
 Manipur - done
 Meghalaya - done

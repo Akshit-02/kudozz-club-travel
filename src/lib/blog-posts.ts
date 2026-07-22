@@ -143,6 +143,18 @@ export const posts = [
     featured: true,
   },
   {
+    slug: "madhya-pradesh-travel-guide",
+    title: "Madhya Pradesh Travel Guide: Khajuraho, Bandhavgarh & Gwalior Fort",
+    excerpt:
+      "Temples carved with astonishing detail, some of India's best tiger sightings, and a hilltop fortress that guarded the heart of the country — the complete guide to Madhya Pradesh.",
+    image: "/images/destinations/hampi/hero.jpg",
+    category: "Destination Guide",
+    categoryColor: "bg-sky-100 text-sky-700",
+    tags: ["Madhya Pradesh", "Khajuraho", "Bandhavgarh"],
+    readTime: "17 min",
+    featured: true,
+  },
+  {
     slug: "uttar-pradesh-travel-guide",
     title: "Uttar Pradesh Travel Guide: Taj Mahal, Varanasi & Lucknow",
     excerpt:
