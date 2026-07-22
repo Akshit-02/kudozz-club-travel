@@ -107,6 +107,18 @@ export const posts = [
     featured: true,
   },
   {
+    slug: "mizoram-travel-guide",
+    title: "Mizoram Travel Guide: Aizawl, Reiek & Vantawng Falls",
+    excerpt:
+      "A hillside capital with no traffic jams, a waterfall dropping through pine-covered gorges, and one of India's cleanest, most literate states — the complete guide to Mizoram.",
+    image: "/images/destinations/meghalaya/dawki-river.jpg",
+    category: "Off-beat",
+    categoryColor: "bg-forest-100 text-forest-700",
+    tags: ["Mizoram", "Aizawl", "Reiek"],
+    readTime: "13 min",
+    featured: true,
+  },
+  {
     slug: "uttar-pradesh-travel-guide",
     title: "Uttar Pradesh Travel Guide: Taj Mahal, Varanasi & Lucknow",
     excerpt:

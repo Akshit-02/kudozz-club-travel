@@ -16,7 +16,7 @@ Madhya Pradesh
 Maharashtra
 Manipur
 Meghalaya - done
-Mizoram
+Mizoram - done
 Nagaland - done
 Odisha - done
 Punjab - done
