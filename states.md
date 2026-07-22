@@ -5,19 +5,19 @@ Arunachal Pradesh
 Assam
 Bihar
 Chhattisgarh
-Goa
+Goa - done
 Gujarat
 Haryana
 Himachal Pradesh
 Jharkhand
 Karnataka
-Kerala
+Kerala - done
 Madhya Pradesh
 Maharashtra
 Manipur
-Meghalaya
+Meghalaya - done
 Mizoram
-Nagaland
+Nagaland - done
 Odisha - done
 Punjab - done
 Rajasthan - done

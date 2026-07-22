@@ -95,6 +95,18 @@ export const posts = [
     featured: true,
   },
   {
+    slug: "nagaland-travel-guide",
+    title: "Nagaland Travel Guide: Hornbill Festival, Kohima & Dzukou Valley",
+    excerpt:
+      "A festival where sixteen tribes gather in their warrior best, a war cemetery from a WWII turning point, and a valley called the Switzerland of the East — the complete guide to Nagaland.",
+    image: "/images/destinations/meghalaya/hero.jpg",
+    category: "Off-beat",
+    categoryColor: "bg-forest-100 text-forest-700",
+    tags: ["Nagaland", "Hornbill Festival", "Kohima"],
+    readTime: "15 min",
+    featured: true,
+  },
+  {
     slug: "uttar-pradesh-travel-guide",
     title: "Uttar Pradesh Travel Guide: Taj Mahal, Varanasi & Lucknow",
     excerpt:
