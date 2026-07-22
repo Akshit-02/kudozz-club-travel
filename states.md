@@ -6,11 +6,11 @@ Assam
 Bihar
 Chhattisgarh
 Goa - done
-Gujarat
-Haryana
-Himachal Pradesh
-Jharkhand
-Karnataka
+Gujarat - done
+Haryana - done
+Himachal Pradesh - done
+Jharkhand - done
+Karnataka - done
 Kerala - done
 Madhya Pradesh - done
 Maharashtra - done

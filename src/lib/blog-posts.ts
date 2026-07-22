@@ -155,6 +155,66 @@ export const posts = [
     featured: true,
   },
   {
+    slug: "gujarat-travel-guide",
+    title: "Gujarat Travel Guide: Rann of Kutch, Somnath & Gir National Park",
+    excerpt:
+      "A shimmering white salt desert stretching to the horizon, temple towns steeped in mythology, and the last wild lions outside Africa — Gujarat is India's most quietly extraordinary state.",
+    image: "/images/destinations/jaisalmer/hero.jpg",
+    category: "Destination Guide",
+    categoryColor: "bg-sky-100 text-sky-700",
+    tags: ["Gujarat", "Rann of Kutch", "Gir National Park"],
+    readTime: "16 min",
+    featured: true,
+  },
+  {
+    slug: "haryana-travel-guide",
+    title: "Haryana Travel Guide: Kurukshetra, Surajkund & Panchkula",
+    excerpt:
+      "The ground where the Bhagavad Gita is said to have been spoken, one of the world's largest craft fairs, and the easiest weekend escape from Delhi-NCR — Haryana doesn't oversell itself, and that's exactly the point.",
+    image: "/images/destinations/chandigarh/hero.jpg",
+    category: "Destination Guide",
+    categoryColor: "bg-sky-100 text-sky-700",
+    tags: ["Haryana", "Kurukshetra", "Surajkund"],
+    readTime: "11 min",
+    featured: true,
+  },
+  {
+    slug: "himachal-pradesh-travel-guide",
+    title: "Himachal Pradesh Travel Guide: Shimla, Manali & Dharamshala",
+    excerpt:
+      "From colonial Shimla's toy train to the Tibetan Buddhist calm of McLeod Ganj and the apple orchards of Kullu — a state-level guide to planning a multi-region Himachal Pradesh trip.",
+    image: "/images/destinations/manali/hero.jpg",
+    category: "Destination Guide",
+    categoryColor: "bg-sky-100 text-sky-700",
+    tags: ["Himachal Pradesh", "Shimla", "Dharamshala"],
+    readTime: "20 min",
+    featured: true,
+  },
+  {
+    slug: "jharkhand-travel-guide",
+    title: "Jharkhand Travel Guide: Netarhat, Betla National Park & Waterfalls",
+    excerpt:
+      "Dense sal forests, waterfalls that thunder off laterite cliffs, and tiger territory at Betla — Jharkhand is one of India's most underrated, off-the-beaten-path states.",
+    image: "/images/destinations/ziro/hero.jpg",
+    category: "Off-beat",
+    categoryColor: "bg-forest-100 text-forest-700",
+    tags: ["Jharkhand", "Netarhat", "Betla National Park"],
+    readTime: "13 min",
+    featured: true,
+  },
+  {
+    slug: "karnataka-travel-guide",
+    title: "Karnataka Travel Guide: Bangalore, Mysore & Hampi",
+    excerpt:
+      "From Bangalore's tech-city energy to Mysore's royal palaces, the ancient ruins of Hampi, and coffee hills beyond — a complete guide to planning a multi-region trip across Karnataka.",
+    image: "/images/destinations/hampi/hero.jpg",
+    category: "Destination Guide",
+    categoryColor: "bg-sky-100 text-sky-700",
+    tags: ["Karnataka", "Bangalore", "Mysore"],
+    readTime: "19 min",
+    featured: true,
+  },
+  {
     slug: "uttar-pradesh-travel-guide",
     title: "Uttar Pradesh Travel Guide: Taj Mahal, Varanasi & Lucknow",
     excerpt:
