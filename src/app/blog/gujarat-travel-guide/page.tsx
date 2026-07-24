@@ -1199,13 +1199,13 @@ export default function GujaratGuidePage() {
                 destination="Gujarat"
               />
 
-              <RelatedPostsGrid />
+              <RelatedPostsGrid currentSlug="gujarat-travel-guide" />
             </article>
 
             {/* RIGHT — Sidebar */}
             <div className="hidden xl:block w-64 2xl:w-72 flex-shrink-0">
               <div className="sticky top-24">
-                <RelatedSidebar />
+                <RelatedSidebar currentSlug="gujarat-travel-guide" />
               </div>
             </div>
           </div>

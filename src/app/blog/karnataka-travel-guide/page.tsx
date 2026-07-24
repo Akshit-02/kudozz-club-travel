@@ -1176,13 +1176,13 @@ export default function KarnatakaGuidePage() {
                 destination="Karnataka"
               />
 
-              <RelatedPostsGrid />
+              <RelatedPostsGrid currentSlug="karnataka-travel-guide" />
             </article>
 
             {/* RIGHT — Sidebar */}
             <div className="hidden xl:block w-64 2xl:w-72 flex-shrink-0">
               <div className="sticky top-24">
-                <RelatedSidebar />
+                <RelatedSidebar currentSlug="karnataka-travel-guide" />
               </div>
             </div>
           </div>

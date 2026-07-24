@@ -1068,13 +1068,13 @@ export default function MaheDistrictGuidePage() {
                 destination="Mahe District"
               />
 
-              <RelatedPostsGrid />
+              <RelatedPostsGrid currentSlug="mahe-district-travel-guide" />
             </article>
 
             {/* RIGHT — Sidebar */}
             <div className="hidden xl:block w-64 2xl:w-72 flex-shrink-0">
               <div className="sticky top-24">
-                <RelatedSidebar />
+                <RelatedSidebar currentSlug="mahe-district-travel-guide" />
               </div>
             </div>
           </div>

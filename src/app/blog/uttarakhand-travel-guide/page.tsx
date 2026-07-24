@@ -1117,13 +1117,13 @@ export default function UttarakhandGuidePage() {
                 destination="Uttarakhand"
               />
 
-              <RelatedPostsGrid />
+              <RelatedPostsGrid currentSlug="uttarakhand-travel-guide" />
             </article>
 
             {/* RIGHT — Sidebar */}
             <div className="hidden xl:block w-64 2xl:w-72 flex-shrink-0">
               <div className="sticky top-24">
-                <RelatedSidebar />
+                <RelatedSidebar currentSlug="uttarakhand-travel-guide" />
               </div>
             </div>
           </div>

@@ -921,13 +921,13 @@ export default function ManaliPage() {
                 destination="Manali"
               />
               {/* Related Posts Grid at bottom */}
-              <RelatedPostsGrid />
+              <RelatedPostsGrid currentSlug="manali-travel-guide" />
             </article>
 
             {/* Right: Related Sidebar */}
             <div className="hidden xl:block w-64 2xl:w-72 flex-shrink-0">
               <div className="sticky top-24">
-                <RelatedSidebar />
+                <RelatedSidebar currentSlug="manali-travel-guide" />
               </div>
             </div>
           </div>

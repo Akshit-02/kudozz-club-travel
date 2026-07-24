@@ -1,5 +1,5 @@
 "use client";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import SiteHeader from "@/components/layout/SiteHeader";
@@ -22,6 +22,8 @@ type Post = {
   tags: string[];
   readTime: string;
 };
+
+const PAGE_SIZE = 9;
 
 function matchesQuery(post: Post, query: string) {
   const q = query.trim().toLowerCase();
@@ -127,16 +129,46 @@ function ResultCard({ post }: { post: Post }) {
 
 export default function BlogPageClient() {
   const [query, setQuery] = useState("");
+  const [category, setCategory] = useState("all");
+  const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
 
-  const allPosts: Post[] = useMemo(
-    () => [featuredPost, ...posts],
-    [],
-  );
+  const allPosts: Post[] = useMemo(() => [featuredPost, ...posts], []);
 
-  const results = useMemo(() => {
-    if (!query.trim()) return null;
-    return allPosts.filter((post) => matchesQuery(post, query));
-  }, [query, allPosts]);
+  const categoryCounts = useMemo(() => {
+    const counts: Record<string, number> = { all: allPosts.length };
+    for (const post of allPosts) {
+      counts[post.category] = (counts[post.category] ?? 0) + 1;
+    }
+    return counts;
+  }, [allPosts]);
+
+  const hasFilters = query.trim() !== "" || category !== "all";
+
+  const filtered = useMemo(() => {
+    if (!hasFilters) return null;
+    return allPosts.filter(
+      (post) =>
+        (category === "all" || post.category === category) &&
+        matchesQuery(post, query),
+    );
+  }, [query, category, hasFilters, allPosts]);
+
+  // Reset pagination whenever the active filters change.
+  useEffect(() => {
+    setVisibleCount(PAGE_SIZE);
+  }, [query, category]);
+
+  function selectTag(tag: string) {
+    setCategory("all");
+    setQuery(tag);
+  }
+
+  function clearFilters() {
+    setQuery("");
+    setCategory("all");
+  }
+
+  const activeCategoryLabel = categories.find((c) => c.id === category)?.label;
 
   return (
     <>
@@ -204,6 +236,7 @@ export default function BlogPageClient() {
                   <button
                     type="button"
                     onClick={() => setQuery("")}
+                    aria-label="Clear search"
                     className="px-4 py-2 text-white/60 hover:text-white text-xs font-semibold transition-colors"
                     style={{ fontFamily: "var(--font-dm-sans)" }}
                   >
@@ -211,16 +244,12 @@ export default function BlogPageClient() {
                   </button>
                 )}
               </div>
-              {results !== null && (
-                <p
-                  className="text-white/40 text-xs mt-3"
-                  style={{ fontFamily: "var(--font-dm-sans)" }}
-                >
-                  {results.length}{" "}
-                  {results.length === 1 ? "guide" : "guides"} found for "
-                  {query}"
-                </p>
-              )}
+              <p
+                className="text-white/40 text-xs mt-3"
+                style={{ fontFamily: "var(--font-dm-sans)" }}
+              >
+                {allPosts.length} guides and counting
+              </p>
             </div>
           </div>
         </section>
@@ -229,20 +258,33 @@ export default function BlogPageClient() {
         <section className="bg-stone-950 border-b border-stone-800 sticky top-[65px] z-30">
           <div className="max-w-7xl mx-auto px-6 sm:px-10 py-3">
             <div className="flex items-center gap-2 overflow-x-auto pb-1 scrollbar-none">
-              {categories.map((cat, i) => (
-                <Link
-                  key={cat.id}
-                  href={`/blog${cat.id !== "all" ? `?category=${cat.id}` : ""}`}
-                  className={`flex-shrink-0 px-4 py-2 rounded-full text-xs font-semibold uppercase tracking-wide transition-all duration-200 ${
-                    i === 0
-                      ? "gradient-forest text-white"
-                      : "bg-white/5 text-stone-400 hover:bg-white/10 hover:text-white border border-white/10"
-                  }`}
-                  style={{ fontFamily: "var(--font-dm-sans)" }}
-                >
-                  {cat.label}
-                </Link>
-              ))}
+              {categories.map((cat) => {
+                const isActive = category === cat.id;
+                const count = categoryCounts[cat.id] ?? 0;
+                return (
+                  <button
+                    key={cat.id}
+                    type="button"
+                    onClick={() => setCategory(cat.id)}
+                    aria-pressed={isActive}
+                    className={`flex-shrink-0 flex items-center gap-1.5 px-4 py-2 rounded-full text-xs font-semibold uppercase tracking-wide transition-all duration-200 ${
+                      isActive
+                        ? "gradient-forest text-white"
+                        : "bg-white/5 text-stone-400 hover:bg-white/10 hover:text-white border border-white/10"
+                    }`}
+                    style={{ fontFamily: "var(--font-dm-sans)" }}
+                  >
+                    {cat.label}
+                    <span
+                      className={
+                        isActive ? "text-white/70" : "text-stone-600"
+                      }
+                    >
+                      {count}
+                    </span>
+                  </button>
+                );
+              })}
             </div>
           </div>
         </section>
@@ -253,34 +295,82 @@ export default function BlogPageClient() {
             <div className="flex flex-col lg:flex-row gap-10">
               {/* LEFT — Posts */}
               <div className="flex-1 min-w-0">
-                {results !== null ? (
-                  /* ── Search results ──────────────────────────────────── */
+                {filtered !== null ? (
+                  /* ── Filtered results (search and/or category) ────────── */
                   <div>
-                    <div className="flex items-center gap-3 mb-6">
-                      <div className="h-px w-8 bg-forest-500" />
-                      <span
-                        className="text-forest-600 text-xs font-bold uppercase tracking-[0.2em]"
+                    <div className="flex flex-wrap items-center justify-between gap-4 mb-6">
+                      <div className="flex items-center gap-3">
+                        <div className="h-px w-8 bg-forest-500" />
+                        <span
+                          className="text-forest-600 text-xs font-bold uppercase tracking-[0.2em]"
+                          style={{ fontFamily: "var(--font-dm-sans)" }}
+                        >
+                          {filtered.length}{" "}
+                          {filtered.length === 1 ? "guide" : "guides"}
+                          {query.trim() && <> for &quot;{query}&quot;</>}
+                          {category !== "all" && (
+                            <> in {activeCategoryLabel}</>
+                          )}
+                        </span>
+                      </div>
+                      <button
+                        type="button"
+                        onClick={clearFilters}
+                        className="text-xs font-semibold text-stone-400 hover:text-forest-600 transition-colors"
                         style={{ fontFamily: "var(--font-dm-sans)" }}
                       >
-                        Search results
-                      </span>
+                        Clear filters ✕
+                      </button>
                     </div>
 
-                    {results.length > 0 ? (
-                      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                        {results.map((post) => (
-                          <ResultCard key={post.slug} post={post} />
-                        ))}
-                      </div>
+                    {filtered.length > 0 ? (
+                      <>
+                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                          {filtered.slice(0, visibleCount).map((post) => (
+                            <ResultCard key={post.slug} post={post} />
+                          ))}
+                        </div>
+                        {visibleCount < filtered.length && (
+                          <div className="flex flex-col items-center mt-10 gap-3">
+                            <p
+                              className="text-stone-400 text-xs"
+                              style={{ fontFamily: "var(--font-dm-sans)" }}
+                            >
+                              Showing {Math.min(visibleCount, filtered.length)}{" "}
+                              of {filtered.length}
+                            </p>
+                            <button
+                              type="button"
+                              onClick={() =>
+                                setVisibleCount((c) => c + PAGE_SIZE)
+                              }
+                              className="px-6 py-3 text-sm font-semibold text-forest-700 bg-white border border-stone-200 rounded-full hover:border-forest-300 hover:shadow-sm transition-all"
+                              style={{ fontFamily: "var(--font-dm-sans)" }}
+                            >
+                              Load more guides
+                            </button>
+                          </div>
+                        )}
+                      </>
                     ) : (
                       <div className="bg-white border border-stone-200 rounded-2xl p-12 text-center">
                         <p
-                          className="text-stone-500 text-sm"
+                          className="text-stone-500 text-sm mb-4"
                           style={{ fontFamily: "var(--font-dm-sans)" }}
                         >
-                          No guides match "{query}". Try a destination name
-                          like "Manali" or a topic like "trekking".
+                          No guides match{query.trim() && <> &quot;{query}&quot;</>}
+                          {category !== "all" && <> in {activeCategoryLabel}</>}.
+                          Try a destination name like &quot;Manali&quot; or clear
+                          your filters.
                         </p>
+                        <button
+                          type="button"
+                          onClick={clearFilters}
+                          className="text-sm font-semibold text-forest-600 hover:text-forest-700 transition-colors"
+                          style={{ fontFamily: "var(--font-dm-sans)" }}
+                        >
+                          Clear filters
+                        </button>
                       </div>
                     )}
                   </div>
@@ -398,10 +488,31 @@ export default function BlogPageClient() {
                       </div>
 
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                        {posts.map((post) => (
+                        {posts.slice(0, visibleCount).map((post) => (
                           <ResultCard key={post.slug} post={post} />
                         ))}
                       </div>
+                      {visibleCount < posts.length && (
+                        <div className="flex flex-col items-center mt-10 gap-3">
+                          <p
+                            className="text-stone-400 text-xs"
+                            style={{ fontFamily: "var(--font-dm-sans)" }}
+                          >
+                            Showing {Math.min(visibleCount, posts.length)} of{" "}
+                            {posts.length}
+                          </p>
+                          <button
+                            type="button"
+                            onClick={() =>
+                              setVisibleCount((c) => c + PAGE_SIZE)
+                            }
+                            className="px-6 py-3 text-sm font-semibold text-forest-700 bg-white border border-stone-200 rounded-full hover:border-forest-300 hover:shadow-sm transition-all"
+                            style={{ fontFamily: "var(--font-dm-sans)" }}
+                          >
+                            Load more guides
+                          </button>
+                        </div>
+                      )}
                     </div>
                   </>
                 )}
@@ -479,17 +590,26 @@ export default function BlogPageClient() {
                     Popular Topics
                   </h3>
                   <div className="flex flex-wrap gap-2">
-                    {popularTags.map((tag) => (
-                      <button
-                        key={tag}
-                        type="button"
-                        onClick={() => setQuery(tag)}
-                        className="px-3 py-1.5 text-xs font-medium bg-stone-100 text-stone-600 rounded-full hover:bg-forest-100 hover:text-forest-700 transition-colors"
-                        style={{ fontFamily: "var(--font-dm-sans)" }}
-                      >
-                        {tag}
-                      </button>
-                    ))}
+                    {popularTags.map((tag) => {
+                      const isActive =
+                        query.trim().toLowerCase() === tag.toLowerCase();
+                      return (
+                        <button
+                          key={tag}
+                          type="button"
+                          onClick={() => (isActive ? clearFilters() : selectTag(tag))}
+                          aria-pressed={isActive}
+                          className={`px-3 py-1.5 text-xs font-medium rounded-full transition-colors ${
+                            isActive
+                              ? "bg-forest-600 text-white"
+                              : "bg-stone-100 text-stone-600 hover:bg-forest-100 hover:text-forest-700"
+                          }`}
+                          style={{ fontFamily: "var(--font-dm-sans)" }}
+                        >
+                          {tag}
+                        </button>
+                      );
+                    })}
                   </div>
                 </div>
 

@@ -1,12 +1,14 @@
+// `id` matches the `category` value used on each post in `posts` below,
+// so filtering is a direct equality check with no separate mapping table.
 export const categories = [
-  { id: "all", label: "All Posts" },
-  { id: "destination-guides", label: "Destination Guides" },
-  { id: "itineraries", label: "Itineraries" },
-  { id: "adventure", label: "Adventure" },
-  { id: "budget-travel", label: "Budget Travel" },
-  { id: "trekking", label: "Trekking" },
-  { id: "culture", label: "Culture" },
-  { id: "tips", label: "Travel Tips" },
+  { id: "all", label: "All Guides" },
+  { id: "Destination Guide", label: "Destination Guides" },
+  { id: "Off-beat", label: "Off-beat" },
+  { id: "Heritage", label: "Heritage" },
+  { id: "Beaches", label: "Beaches" },
+  { id: "Trekking", label: "Trekking" },
+  { id: "Road Trip", label: "Road Trip" },
+  { id: "Adventure", label: "Adventure" },
 ];
 
 export const featuredPost = {

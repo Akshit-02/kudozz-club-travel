@@ -1182,13 +1182,13 @@ export default function HimachalPradeshGuidePage() {
                 destination="Himachal Pradesh"
               />
 
-              <RelatedPostsGrid />
+              <RelatedPostsGrid currentSlug="himachal-pradesh-travel-guide" />
             </article>
 
             {/* RIGHT — Sidebar */}
             <div className="hidden xl:block w-64 2xl:w-72 flex-shrink-0">
               <div className="sticky top-24">
-                <RelatedSidebar />
+                <RelatedSidebar currentSlug="himachal-pradesh-travel-guide" />
               </div>
             </div>
           </div>

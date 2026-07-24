@@ -1,61 +1,60 @@
 import Link from "next/link";
 import Image from "next/image";
+import { posts, featuredPost } from "@/lib/blog-posts";
 
-export interface RelatedPost {
+type Post = {
   slug: string;
   title: string;
   excerpt: string;
-  category: string;
-  readTime: string;
   image: string;
-  date: string;
+  category: string;
+  categoryColor: string;
+  tags: string[];
+  readTime: string;
+};
+
+const ALL_POSTS: Post[] = [featuredPost, ...posts];
+
+// Deterministic small hash, used only to break relevance ties so that two
+// posts in the same large category (e.g. "Destination Guide") don't always
+// surface the exact same related set.
+function hashPair(a: string, b: string): number {
+  const s = `${a}::${b}`;
+  let h = 0;
+  for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) | 0;
+  return Math.abs(h);
 }
 
-const RELATED_POSTS: RelatedPost[] = [
-  {
-    slug: "spiti-valley-travel-guide",
-    title: "Spiti Valley: The Complete Travel Guide",
-    excerpt:
-      "A remote high-altitude desert in Himachal Pradesh — monasteries, fossils, and jaw-dropping roads.",
-    category: "Himachal Pradesh",
-    readTime: "14 min",
-    image: "/images/destinations/spiti-valley/spiti-valley.jpg",
-    date: "Apr 12",
-  },
-  {
-    slug: "leh-ladakh-road-trip-travel-guide",
-    title: "Leh Ladakh Road Trip: Everything You Need to Know",
-    excerpt:
-      "Moonscapes, Buddhist monasteries, and the world's highest motorable passes await on this epic road trip.",
-    category: "Ladakh",
-    readTime: "18 min",
-    image: "/images/destinations/leh-ladakh/leh-ladakh.jpg",
-    date: "Mar 28",
-  },
-  {
-    slug: "kasol-kheerganga-trek-travel-guide",
-    title: "Kasol & Kheerganga: Backpacker's Paradise",
-    excerpt:
-      "Follow the Parvati River trail to Kheerganga hot springs through pine forests and tiny Himalayan villages.",
-    category: "Himachal Pradesh",
-    readTime: "10 min",
-    image: "/images/destinations/kasol/kasol.jpg",
-    date: "Mar 10",
-  },
-  {
-    slug: "rishikesh-adventure-travel-guide",
-    title: "Rishikesh Adventure Guide: Rafting, Yoga & More",
-    excerpt:
-      "The yoga capital of the world also happens to be India's adventure hub — white water rafting, bungee, and beyond.",
-    category: "Uttarakhand",
-    readTime: "12 min",
-    image: "/images/destinations/rishikesh/rishikesh.jpg",
-    date: "Feb 20",
-  },
-];
+// Ranks candidates by shared tags (topical relevance) with same-category as
+// a smaller bonus, then breaks ties with a per-post-pair hash so the result
+// varies across posts instead of always returning a fixed top-N.
+function getRelatedPosts(currentSlug: string, count: number): Post[] {
+  const current = ALL_POSTS.find((p) => p.slug === currentSlug);
+  const rest = ALL_POSTS.filter((p) => p.slug !== currentSlug);
+  if (!current) return rest.slice(0, count);
+
+  return rest
+    .map((post) => {
+      const sharedTags = post.tags.filter((t) =>
+        current.tags.includes(t),
+      ).length;
+      const sameCategory = post.category === current.category ? 1 : 0;
+      return {
+        post,
+        score: sharedTags * 2 + sameCategory,
+        tiebreak: hashPair(currentSlug, post.slug),
+      };
+    })
+    .sort((a, b) => b.score - a.score || a.tiebreak - b.tiebreak)
+    .slice(0, count)
+    .map((s) => s.post);
+}
 
 // ── Sidebar Widget ────────────────────────────────────────────────────────────
-export function RelatedSidebar() {
+export function RelatedSidebar({ currentSlug }: { currentSlug: string }) {
+  const related = getRelatedPosts(currentSlug, 3);
+  const current = ALL_POSTS.find((p) => p.slug === currentSlug);
+
   return (
     <aside className="w-full space-y-6">
       {/* Related Posts */}
@@ -82,7 +81,7 @@ export function RelatedSidebar() {
           </h2>
         </div>
         <div className="divide-y divide-stone-100">
-          {RELATED_POSTS.slice(0, 3).map((post) => (
+          {related.map((post) => (
             <Link
               key={post.slug}
               href={`/blog/${post.slug}`}
@@ -122,85 +121,75 @@ export function RelatedSidebar() {
         </div>
       </div>
 
-      {/* Quick Facts Widget */}
-      <div className="bg-forest-900 text-white rounded-2xl overflow-hidden">
-        <div className="p-5">
+      {/* Guide Info */}
+      {current && (
+        <div className="bg-forest-900 text-white rounded-2xl p-5">
           <h3
             className="font-bold text-lg mb-4"
             style={{ fontFamily: "var(--font-playfair)" }}
           >
-            Manali Quick Facts
+            Guide Info
           </h3>
-          <ul
-            className="space-y-3"
-            style={{ fontFamily: "var(--font-dm-sans)" }}
-          >
-            {[
-              {
-                icon: "📍",
-                label: "Location",
-                value: "Himachal Pradesh, India",
-              },
-              { icon: "🏔️", label: "Altitude", value: "2,050 m (6,726 ft)" },
-              { icon: "🌡️", label: "Best Time", value: "Oct–June" },
-              {
-                icon: "✈️",
-                label: "Nearest Airport",
-                value: "Bhuntar (50 km)",
-              },
-              { icon: "💰", label: "Budget/Day", value: "₹1,500 – ₹5,000" },
-            ].map((f) => (
-              <li key={f.label} className="flex items-start gap-3 text-sm">
-                <span>{f.icon}</span>
-                <div>
-                  <span className="text-forest-300 block text-xs">
-                    {f.label}
+          <ul className="space-y-3" style={{ fontFamily: "var(--font-dm-sans)" }}>
+            <li className="flex items-start gap-3 text-sm">
+              <span>🗂️</span>
+              <div>
+                <span className="text-forest-300 block text-xs">
+                  Category
+                </span>
+                <span className="text-white font-medium">
+                  {current.category}
+                </span>
+              </div>
+            </li>
+            <li className="flex items-start gap-3 text-sm">
+              <span>⏱️</span>
+              <div>
+                <span className="text-forest-300 block text-xs">
+                  Read time
+                </span>
+                <span className="text-white font-medium">
+                  {current.readTime}
+                </span>
+              </div>
+            </li>
+            {current.tags.length > 0 && (
+              <li className="flex items-start gap-3 text-sm">
+                <span>🏷️</span>
+                <div className="min-w-0">
+                  <span className="text-forest-300 block text-xs mb-1.5">
+                    Topics
                   </span>
-                  <span className="text-white font-medium">{f.value}</span>
+                  <div className="flex flex-wrap gap-1.5">
+                    {current.tags.map((tag) => (
+                      <span
+                        key={tag}
+                        className="text-[11px] font-medium bg-white/10 text-white px-2 py-0.5 rounded-full"
+                      >
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
                 </div>
               </li>
-            ))}
+            )}
           </ul>
-        </div>
-        <div className="px-5 pb-5">
           <Link
-            href="/itineraries/manali-7-days"
-            className="block w-full py-2.5 text-center text-sm font-semibold bg-forest-500 hover:bg-forest-400 rounded-xl transition-colors"
+            href="/blog"
+            className="mt-5 block w-full py-2.5 text-center text-sm font-semibold bg-forest-500 hover:bg-forest-400 rounded-xl transition-colors"
           >
-            See 7-Day Itinerary →
+            Browse all guides →
           </Link>
         </div>
-      </div>
-
-      {/* Newsletter in sidebar */}
-      <div className="bg-amber-50 border border-amber-200 rounded-2xl p-5">
-        <h3
-          className="font-bold text-stone-900 mb-2"
-          style={{ fontFamily: "var(--font-playfair)" }}
-        >
-          ✉️ Travel Insider
-        </h3>
-        <p
-          className="text-sm text-stone-600 mb-4"
-          style={{ fontFamily: "var(--font-dm-sans)" }}
-        >
-          Weekly hidden gems & exclusive guides — free.
-        </p>
-        <input
-          type="email"
-          placeholder="your@email.com"
-          className="w-full px-3 py-2 text-sm rounded-lg border border-amber-300 mb-2 focus:outline-none focus:ring-2 focus:ring-amber-400"
-        />
-        <button className="w-full py-2 text-sm font-semibold gradient-forest text-white rounded-lg hover:opacity-90 transition-opacity">
-          Subscribe Free
-        </button>
-      </div>
+      )}
     </aside>
   );
 }
 
 // ── Bottom Related Grid ───────────────────────────────────────────────────────
-export function RelatedPostsGrid() {
+export function RelatedPostsGrid({ currentSlug }: { currentSlug: string }) {
+  const related = getRelatedPosts(currentSlug, 4);
+
   return (
     <section className="mt-16 pt-12 border-t border-stone-200">
       <div className="flex items-center justify-between mb-8">
@@ -232,7 +221,7 @@ export function RelatedPostsGrid() {
         </Link>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-        {RELATED_POSTS.map((post) => (
+        {related.map((post) => (
           <Link
             key={post.slug}
             href={`/blog/${post.slug}`}
@@ -267,10 +256,9 @@ export function RelatedPostsGrid() {
                 {post.excerpt}
               </p>
               <div
-                className="flex items-center justify-between text-xs text-stone-400"
+                className="flex items-center justify-end text-xs text-stone-400"
                 style={{ fontFamily: "var(--font-dm-sans)" }}
               >
-                <span>{post.date}</span>
                 <span>{post.readTime} read</span>
               </div>
             </div>

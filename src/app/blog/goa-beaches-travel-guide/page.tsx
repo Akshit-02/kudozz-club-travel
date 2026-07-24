@@ -1344,13 +1344,13 @@ export default function GoaBeachesGuidePage() {
               {/* ── Gear Recommendations ──────────────────────────────── */}
               <TrekGearRecommendations sections={GOA_GEAR} destination="Goa" />
 
-              <RelatedPostsGrid />
+              <RelatedPostsGrid currentSlug="goa-beaches-travel-guide" />
             </article>
 
             {/* RIGHT — Sidebar */}
             <div className="hidden xl:block w-64 2xl:w-72 flex-shrink-0">
               <div className="sticky top-24">
-                <RelatedSidebar />
+                <RelatedSidebar currentSlug="goa-beaches-travel-guide" />
               </div>
             </div>
           </div>
