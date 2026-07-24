@@ -686,7 +686,7 @@ export default function RajasthanGuidePage() {
                       that appear to float on Lake Pichola, whitewashed
                       havelis, and the most romantic skyline in Rajasthan.
                       See our full{" "}
-                      <Link href="/blog/udaipur-city-of-lakes">
+                      <Link href="/blog/udaipur-city-of-lakes-travel-guide">
                         Udaipur travel guide
                       </Link>{" "}
                       for details.
@@ -695,7 +695,7 @@ export default function RajasthanGuidePage() {
                       <strong>Jaisalmer — the Golden City:</strong> A living
                       medieval fort rising from the Thar Desert, with camel
                       safaris into the Sam Sand Dunes. See our full{" "}
-                      <Link href="/blog/rajasthan-desert-guide">
+                      <Link href="/blog/rajasthan-desert-travel-guide">
                         Jaisalmer & Thar Desert guide
                       </Link>{" "}
                       for details.

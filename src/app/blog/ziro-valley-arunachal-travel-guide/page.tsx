@@ -1,4 +1,4 @@
-// src/app/blog/ziro-valley-arunachal/page.tsx
+// src/app/blog/ziro-valley-arunachal-travel-guide/page.tsx
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     title: "Ziro Valley Travel Guide: Apatani Villages, Rice Fields & Festival",
     description:
       "A UNESCO tentative heritage site in Arunachal — home to the Apatani tribe, terraced rice fields, and one of India's best music festivals.",
-    url: "https://club.kudozz.in/blog/ziro-valley-arunachal",
+    url: "https://club.kudozz.in/blog/ziro-valley-arunachal-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
     images: [
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     images: ["/images/destinations/meghalaya/hero.jpg"],
   },
   alternates: {
-    canonical: "https://club.kudozz.in/blog/ziro-valley-arunachal",
+    canonical: "https://club.kudozz.in/blog/ziro-valley-arunachal-travel-guide",
   },
 };
 
@@ -76,7 +76,7 @@ function ArticleSchema() {
           },
           mainEntityOfPage: {
             "@type": "WebPage",
-            "@id": "https://club.kudozz.in/blog/ziro-valley-arunachal",
+            "@id": "https://club.kudozz.in/blog/ziro-valley-arunachal-travel-guide",
           },
           about: {
             "@type": "Place",

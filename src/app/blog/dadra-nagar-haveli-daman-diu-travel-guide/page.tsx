@@ -1,4 +1,4 @@
-// src/app/blog/dadra-nagar-haveli-daman-diu-guide/page.tsx
+// src/app/blog/dadra-nagar-haveli-daman-diu-travel-guide/page.tsx
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
       "Dadra & Nagar Haveli and Daman & Diu Travel Guide: Forts, Beaches & Weekend Trip",
     description:
       "Portuguese forts, quiet beaches, duty-free liquor, and a coastline barely anyone visits — the complete guide to India's smallest, most overlooked Union Territory.",
-    url: "https://club.kudozz.in/blog/dadra-nagar-haveli-daman-diu-guide",
+    url: "https://club.kudozz.in/blog/dadra-nagar-haveli-daman-diu-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
     images: [
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     images: ["/images/destinations/goa/hero.jpg"],
   },
   alternates: {
-    canonical: "https://club.kudozz.in/blog/dadra-nagar-haveli-daman-diu-guide",
+    canonical: "https://club.kudozz.in/blog/dadra-nagar-haveli-daman-diu-travel-guide",
   },
 };
 
@@ -79,7 +79,7 @@ function ArticleSchema() {
           },
           mainEntityOfPage: {
             "@type": "WebPage",
-            "@id": "https://club.kudozz.in/blog/dadra-nagar-haveli-daman-diu-guide",
+            "@id": "https://club.kudozz.in/blog/dadra-nagar-haveli-daman-diu-travel-guide",
           },
           about: {
             "@type": "Place",

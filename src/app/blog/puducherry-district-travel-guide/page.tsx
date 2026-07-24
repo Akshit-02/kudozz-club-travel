@@ -1,4 +1,4 @@
-// src/app/blog/puducherry-district-guide/page.tsx
+// src/app/blog/puducherry-district-travel-guide/page.tsx
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     title: "Puducherry District Travel Guide: All 7 Towns & Attractions",
     description:
       "Beyond the French Quarter — a full town-by-town guide to Puducherry District, from Auroville's Matrimandir to Villianur's temple, Ariyankuppam's ancient port, and Bahour's lake.",
-    url: "https://club.kudozz.in/blog/puducherry-district-guide",
+    url: "https://club.kudozz.in/blog/puducherry-district-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
     images: [
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     images: ["/images/destinations/puducherry/hero.jpg"],
   },
   alternates: {
-    canonical: "https://club.kudozz.in/blog/puducherry-district-guide",
+    canonical: "https://club.kudozz.in/blog/puducherry-district-travel-guide",
   },
 };
 
@@ -75,7 +75,7 @@ function ArticleSchema() {
           },
           mainEntityOfPage: {
             "@type": "WebPage",
-            "@id": "https://club.kudozz.in/blog/puducherry-district-guide",
+            "@id": "https://club.kudozz.in/blog/puducherry-district-travel-guide",
           },
           about: {
             "@type": "Place",
@@ -399,7 +399,7 @@ export default function PuducherryDistrictGuidePage() {
                     is worth adding to your trip. For a deep dive into
                     Puducherry town itself — French Quarter walking routes,
                     café culture, and a dedicated itinerary — see our{" "}
-                    <Link href="/blog/puducherry-french-quarter-guide">
+                    <Link href="/blog/puducherry-french-quarter-travel-guide">
                       Puducherry Travel Guide
                     </Link>
                     .
@@ -634,7 +634,7 @@ export default function PuducherryDistrictGuidePage() {
                     <strong>💡 Pro Tip:</strong> For café recommendations,
                     boutique streets, and a full French Quarter walking route,
                     our dedicated{" "}
-                    <Link href="/blog/puducherry-french-quarter-guide">
+                    <Link href="/blog/puducherry-french-quarter-travel-guide">
                       Puducherry Travel Guide
                     </Link>{" "}
                     covers the town in far more depth than this district

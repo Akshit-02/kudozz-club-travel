@@ -1,4 +1,4 @@
-// src/app/blog/goa-beaches-guide/page.tsx
+// src/app/blog/goa-beaches-travel-guide/page.tsx
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
       "Goa Travel Guide: Best Beaches, North vs South & Complete Itinerary",
     description:
       "Portuguese-era churches, beach shacks, and a coastline that switches from party-loud to monastery-quiet within a few kilometres — the complete guide to Goa.",
-    url: "https://club.kudozz.in/blog/goa-beaches-guide",
+    url: "https://club.kudozz.in/blog/goa-beaches-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
     images: [
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     images: ["/images/destinations/andaman/hero.jpg"],
   },
   alternates: {
-    canonical: "https://club.kudozz.in/blog/goa-beaches-guide",
+    canonical: "https://club.kudozz.in/blog/goa-beaches-travel-guide",
   },
 };
 
@@ -77,7 +77,7 @@ function ArticleSchema() {
           },
           mainEntityOfPage: {
             "@type": "WebPage",
-            "@id": "https://club.kudozz.in/blog/goa-beaches-guide",
+            "@id": "https://club.kudozz.in/blog/goa-beaches-travel-guide",
           },
           about: {
             "@type": "Place",

@@ -1,4 +1,4 @@
-// src/app/blog/hampi-guide/page.tsx
+// src/app/blog/hampi-travel-guide/page.tsx
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     title: "Hampi Travel Guide: Ruins, Boulders, Temples & Tips",
     description:
       "The extraordinary ruins of the Vijayanagara Empire scattered across a surreal boulder landscape — the complete guide to Hampi.",
-    url: "https://club.kudozz.in/blog/hampi-guide",
+    url: "https://club.kudozz.in/blog/hampi-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
     images: [
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     images: ["/images/destinations/hampi.jpg"],
   },
   alternates: {
-    canonical: "https://club.kudozz.in/blog/hampi-guide",
+    canonical: "https://club.kudozz.in/blog/hampi-travel-guide",
   },
 };
 
@@ -74,7 +74,7 @@ function ArticleSchema() {
           },
           mainEntityOfPage: {
             "@type": "WebPage",
-            "@id": "https://club.kudozz.in/blog/hampi-guide",
+            "@id": "https://club.kudozz.in/blog/hampi-travel-guide",
           },
           about: {
             "@type": "Place",

@@ -23,7 +23,7 @@ const RELATED_POSTS: RelatedPost[] = [
     date: "Apr 12",
   },
   {
-    slug: "leh-ladakh-road-trip",
+    slug: "leh-ladakh-road-trip-travel-guide",
     title: "Leh Ladakh Road Trip: Everything You Need to Know",
     excerpt:
       "Moonscapes, Buddhist monasteries, and the world's highest motorable passes await on this epic road trip.",
@@ -33,7 +33,7 @@ const RELATED_POSTS: RelatedPost[] = [
     date: "Mar 28",
   },
   {
-    slug: "kasol-kheerganga-trek",
+    slug: "kasol-kheerganga-trek-travel-guide",
     title: "Kasol & Kheerganga: Backpacker's Paradise",
     excerpt:
       "Follow the Parvati River trail to Kheerganga hot springs through pine forests and tiny Himalayan villages.",
@@ -43,7 +43,7 @@ const RELATED_POSTS: RelatedPost[] = [
     date: "Mar 10",
   },
   {
-    slug: "rishikesh-adventure-guide",
+    slug: "rishikesh-adventure-travel-guide",
     title: "Rishikesh Adventure Guide: Rafting, Yoga & More",
     excerpt:
       "The yoga capital of the world also happens to be India's adventure hub — white water rafting, bungee, and beyond.",

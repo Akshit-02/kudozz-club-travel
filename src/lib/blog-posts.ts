@@ -10,7 +10,7 @@ export const categories = [
 ];
 
 export const featuredPost = {
-  slug: "leh-ladakh-road-trip",
+  slug: "leh-ladakh-road-trip-travel-guide",
   title: "Leh Ladakh Road Trip Guide: Routes, Permits, Passes & Tips",
   excerpt:
     "Moonscapes, Buddhist monasteries, and the world's highest motorable passes — the most complete Leh Ladakh road trip guide you'll find, written after 14 days on the ground.",
@@ -335,7 +335,7 @@ export const posts = [
     featured: true,
   },
   {
-    slug: "dadra-nagar-haveli-daman-diu-guide",
+    slug: "dadra-nagar-haveli-daman-diu-travel-guide",
     title: "Dadra & Nagar Haveli and Daman & Diu Travel Guide",
     excerpt:
       "A 16th-century Portuguese sea fort, near-empty beaches, and duty-free shopping — the complete guide to India's smallest, most overlooked Union Territory.",
@@ -359,7 +359,7 @@ export const posts = [
     featured: true,
   },
   {
-    slug: "lakshadweep-island-guide",
+    slug: "lakshadweep-island-travel-guide",
     title: "Lakshadweep Travel Guide: Permits, Islands & Best Time to Visit",
     excerpt:
       "Coral atolls barely a kilometre wide, turquoise lagoons, and some of India's clearest diving water — the complete guide to India's least-visited tropical paradise.",
@@ -371,7 +371,7 @@ export const posts = [
     featured: true,
   },
   {
-    slug: "puducherry-french-quarter-guide",
+    slug: "puducherry-french-quarter-travel-guide",
     title: "Puducherry Travel Guide: French Quarter, Auroville & Beaches",
     excerpt:
       "Mustard-yellow colonial villas, a seafront promenade closed to traffic, and the golden Matrimandir at Auroville — the complete guide to India's most European town.",
@@ -383,7 +383,7 @@ export const posts = [
     featured: true,
   },
   {
-    slug: "puducherry-district-guide",
+    slug: "puducherry-district-travel-guide",
     title: "Puducherry District Travel Guide: All 7 Towns & Attractions",
     excerpt:
       "Beyond the French Quarter and Auroville — a full town-by-town guide to Puducherry District, covering Villianur's ancient temple, Ariyankuppam's Arikamedu ruins and Chunnambar boat rides, Bahour's lake, Nettapakkam, and Oulgaret.",
@@ -395,7 +395,7 @@ export const posts = [
     featured: false,
   },
   {
-    slug: "karaikal-district-guide",
+    slug: "karaikal-district-travel-guide",
     title: "Karaikal District Travel Guide: Temples, Beach & Cauvery Delta",
     excerpt:
       "Tirunallar's famous Saneeswaran Temple and Nala Theertham, Karaikal town's beach, lighthouse and Karaikal Ammaiyar Temple, and the quiet Cauvery delta villages of Neravy, Kottucherry, and Nedungadu.",
@@ -407,7 +407,7 @@ export const posts = [
     featured: false,
   },
   {
-    slug: "mahe-district-guide",
+    slug: "mahe-district-travel-guide",
     title: "Mahe District Travel Guide: Riverfront, Church & Malabar Coast",
     excerpt:
       "Mahe town's riverfront walkway, St. Teresa's Shrine, Tagore Park, beach and lighthouse, plus the quiet river villages of Palloor, Pandakkal, Chalakkara, and Parakkal on Kerala's Malabar coast.",
@@ -419,7 +419,7 @@ export const posts = [
     featured: false,
   },
   {
-    slug: "yanam-district-guide",
+    slug: "yanam-district-travel-guide",
     title: "Yanam District Travel Guide: Godavari Delta & French Heritage",
     excerpt:
       "St. Ann's Church, Yanam Ferry Road, the Godavari River, Yanam Tower and Rajiv Gandhi Beach, plus the quiet Godavari delta villages of Mettakur, Kolanka, and Kanakalapeta.",
@@ -431,7 +431,7 @@ export const posts = [
     featured: false,
   },
   {
-    slug: "kavaratti-island-guide",
+    slug: "kavaratti-island-travel-guide",
     title: "Kavaratti Island Travel Guide: Lagoon, Diving & Ujra Mosque",
     excerpt:
       "Lakshadweep's capital and most developed inhabited island — Kavaratti Beach and Lagoon, the Marine Aquarium, the driftwood-ceilinged Ujra Mosque, scuba diving, snorkelling, and glass-bottom boat rides.",
@@ -443,7 +443,7 @@ export const posts = [
     featured: false,
   },
   {
-    slug: "agatti-island-guide",
+    slug: "agatti-island-travel-guide",
     title: "Agatti Island Travel Guide: Lagoon, Reefs & Diving Spots",
     excerpt:
       "Lakshadweep's gateway island — Agatti Beach and Lagoon, the Agatti Island Resort, coral reefs and diving spots, snorkelling sites, kayaking, glass-bottom boat rides, lagoon cruises, and sunset views.",
@@ -455,7 +455,7 @@ export const posts = [
     featured: false,
   },
   {
-    slug: "ziro-valley-arunachal",
+    slug: "ziro-valley-arunachal-travel-guide",
     title: "Ziro Valley Travel Guide: Apatani Villages, Rice Fields & Festival",
     excerpt:
       "A UNESCO tentative heritage site in Arunachal — home to the Apatani tribe, terraced rice fields and one of India's best music festivals.",
@@ -467,7 +467,7 @@ export const posts = [
     featured: true,
   },
   {
-    slug: "gokarna-beaches",
+    slug: "gokarna-beaches-travel-guide",
     title: "Gokarna Travel Guide: Best Beaches, Temples & Itinerary",
     excerpt:
       "A temple town with world-class beaches — Om Beach, Half Moon, and Paradise — linked by a cliffside trek and still a fraction as commercial as Goa.",
@@ -479,7 +479,7 @@ export const posts = [
     featured: true,
   },
   {
-    slug: "goa-beaches-guide",
+    slug: "goa-beaches-travel-guide",
     title: "Goa Travel Guide: Best Beaches, North vs South & Itinerary",
     excerpt:
       "Portuguese-era churches, beach shacks, and a coastline that switches from party-loud to monastery-quiet within a few kilometres — the complete guide to Goa.",
@@ -491,7 +491,7 @@ export const posts = [
     featured: true,
   },
   {
-    slug: "udaipur-city-of-lakes",
+    slug: "udaipur-city-of-lakes-travel-guide",
     title: "Udaipur Travel Guide: City Palace, Lake Pichola & Itinerary",
     excerpt:
       "Palaces that appear to float on still water, whitewashed havelis and the most romantic skyline in Rajasthan — the complete guide to the City of Lakes.",
@@ -539,7 +539,7 @@ export const posts = [
     featured: true,
   },
   {
-    slug: "rishikesh-adventure-guide",
+    slug: "rishikesh-adventure-travel-guide",
     title: "Rishikesh Travel Guide: Adventure, Yoga, Rafting & More",
     excerpt:
       "India's adventure capital where white-water rafting meets Ganga aarti — everything you need for the perfect Rishikesh trip.",
@@ -551,7 +551,7 @@ export const posts = [
     featured: true,
   },
   {
-    slug: "coorg-guide",
+    slug: "coorg-travel-guide",
     title: "Coorg Travel Guide: Coffee, Waterfalls, Trekking & More",
     excerpt:
       "Misty coffee hills, thundering waterfalls, Nagarhole wildlife and Kodava warmth — South India's most quietly magnificent escape.",
@@ -563,7 +563,7 @@ export const posts = [
     featured: false,
   },
   {
-    slug: "leh-ladakh-road-trip",
+    slug: "leh-ladakh-road-trip-travel-guide",
     title: "Leh Ladakh Road Trip Guide",
     excerpt:
       "Pangong Tso, Nubra Valley, Khardung La and 14 days on the most dramatic roads on earth.",
@@ -575,7 +575,7 @@ export const posts = [
     featured: false,
   },
   {
-    slug: "kasol-kheerganga-trek",
+    slug: "kasol-kheerganga-trek-travel-guide",
     title: "Kasol & Kheerganga: The Backpacker's Himalayan Trail",
     excerpt:
       "Follow the Parvati River to natural hot springs through pine forests and tiny Himalayan villages.",
@@ -587,7 +587,7 @@ export const posts = [
     featured: false,
   },
   {
-    slug: "andaman-islands-guide",
+    slug: "andaman-islands-travel-guide",
     title: "Andaman Islands Travel Guide: Beaches, Diving, Permits & Tips",
     excerpt:
       "Crystal-clear waters, pristine coral reefs, white sand beaches and the haunting history of Cellular Jail — the complete guide to the Andaman Islands.",
@@ -599,7 +599,7 @@ export const posts = [
     featured: false,
   },
   {
-    slug: "hampi-guide",
+    slug: "hampi-travel-guide",
     title: "Hampi Travel Guide: Ruins, Boulders, Temples & Tips",
     excerpt:
       "The extraordinary ruins of the Vijayanagara Empire scattered across a surreal boulder landscape — the complete guide to Hampi.",
@@ -611,7 +611,7 @@ export const posts = [
     featured: false,
   },
   {
-    slug: "kerala-backwaters",
+    slug: "kerala-backwaters-travel-guide",
     title: "Kerala Backwaters Guide: Houseboats, Routes, Villages & Tips",
     excerpt:
       "A 900-km network of lagoons, canals and lakes explored by houseboat — the complete guide to Kerala's backwaters.",
@@ -623,7 +623,7 @@ export const posts = [
     featured: false,
   },
   {
-    slug: "rajasthan-desert-guide",
+    slug: "rajasthan-desert-travel-guide",
     title: "Jaisalmer & Thar Desert Travel Guide: Fort, Camel Safari & Tips",
     excerpt:
       "A living medieval fort rising from the Thar Desert, camel safaris into the dunes and the most spectacular havelis in Rajasthan — the complete guide to Jaisalmer.",
@@ -635,7 +635,7 @@ export const posts = [
     featured: false,
   },
   {
-    slug: "valley-of-flowers",
+    slug: "valley-of-flowers-travel-guide",
     title: "Valley of Flowers Trek Guide: Permits, Routes, Best Time & Tips",
     excerpt:
       "A meadow of 300+ Himalayan wildflowers that blooms for just 8 weeks a year — the complete guide to India's most extraordinary trek.",
@@ -677,9 +677,9 @@ export const readingListItems = [
     readTime: "22 min",
   },
   {
-    slug: "rishikesh-adventure-guide",
+    slug: "rishikesh-adventure-travel-guide",
     title: "Rishikesh Adventure Guide",
     readTime: "18 min",
   },
-  { slug: "coorg-guide", title: "Coorg Travel Guide", readTime: "17 min" },
+  { slug: "coorg-travel-guide", title: "Coorg Travel Guide", readTime: "17 min" },
 ];

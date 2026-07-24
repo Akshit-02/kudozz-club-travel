@@ -1,4 +1,4 @@
-// src/app/blog/leh-ladakh-road-trip/page.tsx
+// src/app/blog/leh-ladakh-road-trip-travel-guide/page.tsx
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     title: "Leh Ladakh Road Trip Guide: Routes, Permits, Passes & Tips",
     description:
       "Moonscapes, Buddhist monasteries, and the world's highest motorable passes — the complete guide to Leh Ladakh.",
-    url: "https://club.kudozz.in/blog/leh-ladakh-road-trip",
+    url: "https://club.kudozz.in/blog/leh-ladakh-road-trip-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
     authors: ["Kudozz Club"],
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     images: ["/images/destinations/leh-ladakh/leh-ladakh.jpg"],
   },
   alternates: {
-    canonical: "https://club.kudozz.in/blog/leh-ladakh-road-trip",
+    canonical: "https://club.kudozz.in/blog/leh-ladakh-road-trip-travel-guide",
   },
 };
 
@@ -81,7 +81,7 @@ function ArticleSchema() {
           },
           mainEntityOfPage: {
             "@type": "WebPage",
-            "@id": "https://club.kudozz.in/blog/leh-ladakh-road-trip",
+            "@id": "https://club.kudozz.in/blog/leh-ladakh-road-trip-travel-guide",
           },
           about: {
             "@type": "Place",

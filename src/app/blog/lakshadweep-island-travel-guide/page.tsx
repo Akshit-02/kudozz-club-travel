@@ -1,4 +1,4 @@
-// src/app/blog/lakshadweep-island-guide/page.tsx
+// src/app/blog/lakshadweep-island-travel-guide/page.tsx
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     title: "Lakshadweep Travel Guide: Permits, Islands & Best Time to Visit",
     description:
       "Turquoise lagoons, coral reefs, and coconut-palm islands barely a kilometre wide — the complete guide to India's only coral atoll archipelago.",
-    url: "https://club.kudozz.in/blog/lakshadweep-island-guide",
+    url: "https://club.kudozz.in/blog/lakshadweep-island-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
     images: [
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     images: ["/images/destinations/lakshadweep/hero.jpg"],
   },
   alternates: {
-    canonical: "https://club.kudozz.in/blog/lakshadweep-island-guide",
+    canonical: "https://club.kudozz.in/blog/lakshadweep-island-travel-guide",
   },
 };
 
@@ -76,7 +76,7 @@ function ArticleSchema() {
           },
           mainEntityOfPage: {
             "@type": "WebPage",
-            "@id": "https://club.kudozz.in/blog/lakshadweep-island-guide",
+            "@id": "https://club.kudozz.in/blog/lakshadweep-island-travel-guide",
           },
           about: {
             "@type": "Place",

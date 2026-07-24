@@ -1,4 +1,4 @@
-// src/app/blog/yanam-district-guide/page.tsx
+// src/app/blog/yanam-district-travel-guide/page.tsx
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     title: "Yanam District Travel Guide: Godavari Delta & French Heritage",
     description:
       "A French colonial enclave on the Godavari River delta — Yanam's riverfront, church, and tower, and the quiet delta villages around it.",
-    url: "https://club.kudozz.in/blog/yanam-district-guide",
+    url: "https://club.kudozz.in/blog/yanam-district-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
     images: [
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     images: ["/images/destinations/kerala/alleppey.jpg"],
   },
   alternates: {
-    canonical: "https://club.kudozz.in/blog/yanam-district-guide",
+    canonical: "https://club.kudozz.in/blog/yanam-district-travel-guide",
   },
 };
 
@@ -77,7 +77,7 @@ function ArticleSchema() {
           },
           mainEntityOfPage: {
             "@type": "WebPage",
-            "@id": "https://club.kudozz.in/blog/yanam-district-guide",
+            "@id": "https://club.kudozz.in/blog/yanam-district-travel-guide",
           },
           about: {
             "@type": "Place",

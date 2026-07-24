@@ -5,9 +5,9 @@ const footerLinks = {
   Destinations: [
     { label: "Manali", href: "/blog/manali-travel-guide" },
     { label: "Spiti Valley", href: "/blog/spiti-valley-travel-guide" },
-    { label: "Leh Ladakh", href: "/blog/leh-ladakh-road-trip" },
-    { label: "Rishikesh", href: "/blog/rishikesh-adventure-guide" },
-    { label: "Coorg", href: "/blog/coorg-guide" },
+    { label: "Leh Ladakh", href: "/blog/leh-ladakh-road-trip-travel-guide" },
+    { label: "Rishikesh", href: "/blog/rishikesh-adventure-travel-guide" },
+    { label: "Coorg", href: "/blog/coorg-travel-guide" },
   ],
   Resources: [
     { label: "Travel Tips", href: "/blog" },

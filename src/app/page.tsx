@@ -59,7 +59,7 @@ const featuredDestinations = [
     color: "from-amber-900/80",
   },
   {
-    slug: "leh-ladakh-road-trip",
+    slug: "leh-ladakh-road-trip-travel-guide",
     title: "Leh Ladakh",
     subtitle: "Jammu & Kashmir",
     description: "World's highest passes & ancient Buddhist monasteries",
@@ -69,7 +69,7 @@ const featuredDestinations = [
     color: "from-stone-900/80",
   },
   {
-    slug: "rishikesh-adventure-guide",
+    slug: "rishikesh-adventure-travel-guide",
     title: "Rishikesh",
     subtitle: "Uttarakhand",
     description: "Yoga, white-water rafting & Ganges sunsets",
@@ -101,7 +101,7 @@ const recentPosts = [
     readTime: "14 min",
   },
   {
-    slug: "leh-ladakh-road-trip",
+    slug: "leh-ladakh-road-trip-travel-guide",
     title: "Leh Ladakh Road Trip: Everything You Need to Know",
     excerpt:
       "Moonscapes, Buddhist monasteries, and the world's highest motorable passes await.",
@@ -110,7 +110,7 @@ const recentPosts = [
     readTime: "18 min",
   },
   {
-    slug: "rishikesh-adventure-guide",
+    slug: "rishikesh-adventure-travel-guide",
     title: "Rishikesh Adventure Guide: Rafting, Yoga & More",
     excerpt:
       "The yoga capital of the world is also India's adventure hub — rafting, bungee, and beyond.",

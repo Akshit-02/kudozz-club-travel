@@ -1,4 +1,4 @@
-// src/app/blog/karaikal-district-guide/page.tsx
+// src/app/blog/karaikal-district-travel-guide/page.tsx
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     title: "Karaikal District Travel Guide: Temples, Beach & Cauvery Delta",
     description:
       "A Shani pilgrimage temple with its own healing tank, a lighthouse-and-port beach town, and quiet Cauvery delta villages — the complete guide to Karaikal District.",
-    url: "https://club.kudozz.in/blog/karaikal-district-guide",
+    url: "https://club.kudozz.in/blog/karaikal-district-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
     images: [
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     images: ["/images/destinations/hampi/virupaksha.jpg"],
   },
   alternates: {
-    canonical: "https://club.kudozz.in/blog/karaikal-district-guide",
+    canonical: "https://club.kudozz.in/blog/karaikal-district-travel-guide",
   },
 };
 
@@ -77,7 +77,7 @@ function ArticleSchema() {
           },
           mainEntityOfPage: {
             "@type": "WebPage",
-            "@id": "https://club.kudozz.in/blog/karaikal-district-guide",
+            "@id": "https://club.kudozz.in/blog/karaikal-district-travel-guide",
           },
           about: {
             "@type": "Place",

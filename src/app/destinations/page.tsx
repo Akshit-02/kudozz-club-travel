@@ -80,7 +80,7 @@ const featured = [
     comingSoon: false,
   },
   {
-    slug: "leh-ladakh-road-trip",
+    slug: "leh-ladakh-road-trip-travel-guide",
     title: "Leh Ladakh",
     state: "Ladakh",
     tagline: "Beyond the highest passes",
@@ -116,7 +116,7 @@ const featured = [
     comingSoon: false,
   },
   {
-    slug: "rishikesh-adventure-guide",
+    slug: "rishikesh-adventure-travel-guide",
     title: "Rishikesh",
     state: "Uttarakhand",
     tagline: "Where the Ganga roars",
@@ -134,7 +134,7 @@ const featured = [
     comingSoon: false,
   },
   {
-    slug: "coorg-guide",
+    slug: "coorg-travel-guide",
     title: "Coorg",
     state: "Karnataka",
     tagline: "India's coffee country",
@@ -156,7 +156,7 @@ const featured = [
 const allDestinations = [
   ...featured,
   {
-    slug: "kasol-kheerganga-trek",
+    slug: "kasol-kheerganga-trek-travel-guide",
     title: "Kasol & Kheerganga",
     state: "Himachal Pradesh",
     tagline: "The Parvati Valley trail",
@@ -174,7 +174,7 @@ const allDestinations = [
     comingSoon: false,
   },
   {
-    slug: "valley-of-flowers",
+    slug: "valley-of-flowers-travel-guide",
     title: "Valley of Flowers",
     state: "Uttarakhand",
     tagline: "A meadow of 300 wildflowers",
@@ -192,7 +192,7 @@ const allDestinations = [
     comingSoon: false,
   },
   {
-    slug: "andaman-islands-guide",
+    slug: "andaman-islands-travel-guide",
     title: "Andaman Islands",
     state: "Andaman & Nicobar",
     tagline: "Where the Bay meets paradise",
@@ -210,7 +210,7 @@ const allDestinations = [
     comingSoon: false,
   },
   {
-    slug: "hampi-guide",
+    slug: "hampi-travel-guide",
     title: "Hampi",
     state: "Karnataka",
     tagline: "Ruins of a lost empire",
@@ -228,7 +228,7 @@ const allDestinations = [
     comingSoon: false,
   },
   {
-    slug: "kerala-backwaters",
+    slug: "kerala-backwaters-travel-guide",
     title: "Kerala Backwaters",
     state: "Kerala",
     tagline: "Life on the waterways",
@@ -246,7 +246,7 @@ const allDestinations = [
     comingSoon: false,
   },
   {
-    slug: "rajasthan-desert-guide",
+    slug: "rajasthan-desert-travel-guide",
     title: "Jaisalmer",
     state: "Rajasthan",
     tagline: "The golden city of sand",
@@ -282,7 +282,7 @@ const allDestinations = [
     comingSoon: false,
   },
   {
-    slug: "ziro-valley-arunachal",
+    slug: "ziro-valley-arunachal-travel-guide",
     title: "Ziro Valley",
     state: "Arunachal Pradesh",
     tagline: "India's most untouched valley",
@@ -300,7 +300,7 @@ const allDestinations = [
     comingSoon: false,
   },
   {
-    slug: "gokarna-beaches",
+    slug: "gokarna-beaches-travel-guide",
     title: "Gokarna",
     state: "Karnataka",
     tagline: "Quieter than Goa",
@@ -318,7 +318,7 @@ const allDestinations = [
     comingSoon: false,
   },
   {
-    slug: "udaipur-city-of-lakes",
+    slug: "udaipur-city-of-lakes-travel-guide",
     title: "Udaipur",
     state: "Rajasthan",
     tagline: "The city of lakes",
@@ -336,7 +336,7 @@ const allDestinations = [
     comingSoon: false,
   },
   {
-    slug: "goa-beaches-guide",
+    slug: "goa-beaches-travel-guide",
     title: "Goa",
     state: "Goa",
     tagline: "Sun, sand and susegad",
@@ -354,7 +354,7 @@ const allDestinations = [
     comingSoon: false,
   },
   {
-    slug: "puducherry-french-quarter-guide",
+    slug: "puducherry-french-quarter-travel-guide",
     title: "Puducherry",
     state: "Puducherry",
     tagline: "India's most European town",
@@ -372,7 +372,7 @@ const allDestinations = [
     comingSoon: false,
   },
   {
-    slug: "puducherry-district-guide",
+    slug: "puducherry-district-travel-guide",
     title: "Puducherry District",
     state: "Puducherry",
     tagline: "Seven towns beyond the French Quarter",
@@ -390,7 +390,7 @@ const allDestinations = [
     comingSoon: false,
   },
   {
-    slug: "karaikal-district-guide",
+    slug: "karaikal-district-travel-guide",
     title: "Karaikal District",
     state: "Puducherry",
     tagline: "A Shani pilgrimage temple and Cauvery delta villages",
@@ -408,7 +408,7 @@ const allDestinations = [
     comingSoon: false,
   },
   {
-    slug: "mahe-district-guide",
+    slug: "mahe-district-travel-guide",
     title: "Mahe District",
     state: "Puducherry",
     tagline: "A French riverfront enclave on the Malabar coast",
@@ -426,7 +426,7 @@ const allDestinations = [
     comingSoon: false,
   },
   {
-    slug: "yanam-district-guide",
+    slug: "yanam-district-travel-guide",
     title: "Yanam District",
     state: "Puducherry",
     tagline: "A French enclave on the Godavari delta",
@@ -444,7 +444,7 @@ const allDestinations = [
     comingSoon: false,
   },
   {
-    slug: "kavaratti-island-guide",
+    slug: "kavaratti-island-travel-guide",
     title: "Kavaratti",
     state: "Lakshadweep",
     tagline: "Lakshadweep's capital island",
@@ -462,7 +462,7 @@ const allDestinations = [
     comingSoon: false,
   },
   {
-    slug: "agatti-island-guide",
+    slug: "agatti-island-travel-guide",
     title: "Agatti",
     state: "Lakshadweep",
     tagline: "Lakshadweep's gateway island",
@@ -480,7 +480,7 @@ const allDestinations = [
     comingSoon: false,
   },
   {
-    slug: "lakshadweep-island-guide",
+    slug: "lakshadweep-island-travel-guide",
     title: "Lakshadweep",
     state: "Lakshadweep",
     tagline: "India's coral atoll islands",
@@ -516,7 +516,7 @@ const allDestinations = [
     comingSoon: false,
   },
   {
-    slug: "dadra-nagar-haveli-daman-diu-guide",
+    slug: "dadra-nagar-haveli-daman-diu-travel-guide",
     title: "Daman & Diu",
     state: "Dadra & Nagar Haveli and Daman & Diu",
     tagline: "Portuguese forts by the sea",

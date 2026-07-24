@@ -1,4 +1,4 @@
-// src/app/blog/gokarna-beaches/page.tsx
+// src/app/blog/gokarna-beaches-travel-guide/page.tsx
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     title: "Gokarna Travel Guide: Best Beaches, Temples & Complete Itinerary",
     description:
       "A temple town with world-class beaches — Om Beach, Half Moon, and Paradise — without Goa's commercialisation. The complete guide to Gokarna.",
-    url: "https://club.kudozz.in/blog/gokarna-beaches",
+    url: "https://club.kudozz.in/blog/gokarna-beaches-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
     images: [
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     images: ["/images/destinations/coorg/coorg.jpg"],
   },
   alternates: {
-    canonical: "https://club.kudozz.in/blog/gokarna-beaches",
+    canonical: "https://club.kudozz.in/blog/gokarna-beaches-travel-guide",
   },
 };
 
@@ -75,7 +75,7 @@ function ArticleSchema() {
           },
           mainEntityOfPage: {
             "@type": "WebPage",
-            "@id": "https://club.kudozz.in/blog/gokarna-beaches",
+            "@id": "https://club.kudozz.in/blog/gokarna-beaches-travel-guide",
           },
           about: {
             "@type": "Place",

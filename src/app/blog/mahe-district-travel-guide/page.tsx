@@ -1,4 +1,4 @@
-// src/app/blog/mahe-district-guide/page.tsx
+// src/app/blog/mahe-district-travel-guide/page.tsx
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     title: "Mahe District Travel Guide: Riverfront, Church & Malabar Coast",
     description:
       "A French-era riverfront enclave on Kerala's Malabar coast — Mahe's walkway, St. Teresa's Shrine, and the quiet river villages around it.",
-    url: "https://club.kudozz.in/blog/mahe-district-guide",
+    url: "https://club.kudozz.in/blog/mahe-district-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
     images: [
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     images: ["/images/destinations/kerala/hero.jpg"],
   },
   alternates: {
-    canonical: "https://club.kudozz.in/blog/mahe-district-guide",
+    canonical: "https://club.kudozz.in/blog/mahe-district-travel-guide",
   },
 };
 
@@ -76,7 +76,7 @@ function ArticleSchema() {
           },
           mainEntityOfPage: {
             "@type": "WebPage",
-            "@id": "https://club.kudozz.in/blog/mahe-district-guide",
+            "@id": "https://club.kudozz.in/blog/mahe-district-travel-guide",
           },
           about: {
             "@type": "Place",

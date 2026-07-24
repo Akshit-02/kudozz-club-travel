@@ -1,4 +1,4 @@
-// src/app/blog/kasol-kheerganga-trek/page.tsx
+// src/app/blog/kasol-kheerganga-trek-travel-guide/page.tsx
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     title: "Kasol & Kheerganga Trek Guide: The Complete Parvati Valley Trail",
     description:
       "Follow the Parvati River to steaming hot springs through pine forests and Himalayan villages — the complete Kasol and Kheerganga guide.",
-    url: "https://club.kudozz.in/blog/kasol-kheerganga-trek",
+    url: "https://club.kudozz.in/blog/kasol-kheerganga-trek-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
     authors: ["Kudozz Club"],
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     images: ["/images/destinations/kasol/kasol.jpg"],
   },
   alternates: {
-    canonical: "https://club.kudozz.in/blog/kasol-kheerganga-trek",
+    canonical: "https://club.kudozz.in/blog/kasol-kheerganga-trek-travel-guide",
   },
 };
 
@@ -80,7 +80,7 @@ function ArticleSchema() {
           },
           mainEntityOfPage: {
             "@type": "WebPage",
-            "@id": "https://club.kudozz.in/blog/kasol-kheerganga-trek",
+            "@id": "https://club.kudozz.in/blog/kasol-kheerganga-trek-travel-guide",
           },
           about: {
             "@type": "Place",

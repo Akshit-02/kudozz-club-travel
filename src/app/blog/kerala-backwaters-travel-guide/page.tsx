@@ -1,4 +1,4 @@
-// src/app/blog/kerala-backwaters/page.tsx
+// src/app/blog/kerala-backwaters-travel-guide/page.tsx
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     title: "Kerala Backwaters Guide: Houseboats, Routes, Villages & Tips",
     description:
       "A 900-km network of lagoons, canals and lakes explored by houseboat — the complete guide to Kerala's backwaters.",
-    url: "https://club.kudozz.in/blog/kerala-backwaters",
+    url: "https://club.kudozz.in/blog/kerala-backwaters-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
     images: [
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     images: ["/images/related/spiti-valley.jpg"],
   },
   alternates: {
-    canonical: "https://club.kudozz.in/blog/kerala-backwaters",
+    canonical: "https://club.kudozz.in/blog/kerala-backwaters-travel-guide",
   },
 };
 
@@ -75,7 +75,7 @@ function ArticleSchema() {
           },
           mainEntityOfPage: {
             "@type": "WebPage",
-            "@id": "https://club.kudozz.in/blog/kerala-backwaters",
+            "@id": "https://club.kudozz.in/blog/kerala-backwaters-travel-guide",
           },
           about: {
             "@type": "Place",

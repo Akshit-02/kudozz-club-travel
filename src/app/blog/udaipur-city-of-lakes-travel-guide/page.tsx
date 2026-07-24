@@ -1,4 +1,4 @@
-// src/app/blog/udaipur-city-of-lakes/page.tsx
+// src/app/blog/udaipur-city-of-lakes-travel-guide/page.tsx
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
       "Udaipur Travel Guide: City Palace, Lake Pichola & Complete Itinerary",
     description:
       "Palaces floating on still water, whitewashed havelis, and the most romantic skyline in Rajasthan — the complete guide to Udaipur.",
-    url: "https://club.kudozz.in/blog/udaipur-city-of-lakes",
+    url: "https://club.kudozz.in/blog/udaipur-city-of-lakes-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
     images: [
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     images: ["/images/destinations/jaisalmer/hero.jpg"],
   },
   alternates: {
-    canonical: "https://club.kudozz.in/blog/udaipur-city-of-lakes",
+    canonical: "https://club.kudozz.in/blog/udaipur-city-of-lakes-travel-guide",
   },
 };
 
@@ -78,7 +78,7 @@ function ArticleSchema() {
           },
           mainEntityOfPage: {
             "@type": "WebPage",
-            "@id": "https://club.kudozz.in/blog/udaipur-city-of-lakes",
+            "@id": "https://club.kudozz.in/blog/udaipur-city-of-lakes-travel-guide",
           },
           about: {
             "@type": "Place",

@@ -1,4 +1,4 @@
-// src/app/blog/coorg-guide/page.tsx
+// src/app/blog/coorg-travel-guide/page.tsx
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     title: "Coorg Travel Guide: Coffee, Waterfalls, Trekking & More",
     description:
       "Misty coffee hills, thundering waterfalls, spice plantations and Kodava hospitality — the complete guide to Coorg.",
-    url: "https://club.kudozz.in/blog/coorg-guide",
+    url: "https://club.kudozz.in/blog/coorg-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
     authors: ["Kudozz Club"],
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     images: ["/images/destinations/coorg/coorg.jpg"],
   },
   alternates: {
-    canonical: "https://club.kudozz.in/blog/coorg-guide",
+    canonical: "https://club.kudozz.in/blog/coorg-travel-guide",
   },
 };
 
@@ -78,7 +78,7 @@ function ArticleSchema() {
           },
           mainEntityOfPage: {
             "@type": "WebPage",
-            "@id": "https://club.kudozz.in/blog/coorg-guide",
+            "@id": "https://club.kudozz.in/blog/coorg-travel-guide",
           },
           about: {
             "@type": "Place",

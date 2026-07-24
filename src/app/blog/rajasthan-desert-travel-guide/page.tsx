@@ -1,4 +1,4 @@
-// src/app/blog/rajasthan-desert-guide/page.tsx
+// src/app/blog/rajasthan-desert-travel-guide/page.tsx
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     title: "Jaisalmer & Thar Desert Travel Guide: Fort, Camel Safari & Tips",
     description:
       "A living medieval fort rising from the Thar Desert, camel safaris into the dunes and the most spectacular havelis in Rajasthan — the complete guide to Jaisalmer.",
-    url: "https://club.kudozz.in/blog/rajasthan-desert-guide",
+    url: "https://club.kudozz.in/blog/rajasthan-desert-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
     images: [
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     images: ["/images/related/leh-ladakh.jpg"],
   },
   alternates: {
-    canonical: "https://club.kudozz.in/blog/rajasthan-desert-guide",
+    canonical: "https://club.kudozz.in/blog/rajasthan-desert-travel-guide",
   },
 };
 
@@ -75,7 +75,7 @@ function ArticleSchema() {
           },
           mainEntityOfPage: {
             "@type": "WebPage",
-            "@id": "https://club.kudozz.in/blog/rajasthan-desert-guide",
+            "@id": "https://club.kudozz.in/blog/rajasthan-desert-travel-guide",
           },
           about: {
             "@type": "Place",

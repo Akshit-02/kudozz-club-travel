@@ -1,4 +1,4 @@
-// src/app/blog/rishikesh-adventure-guide/page.tsx
+// src/app/blog/rishikesh-adventure-travel-guide/page.tsx
 import SiteFooter from "@/components/layout/SiteFooter";
 import SiteHeader from "@/components/layout/SiteHeader";
 import { RelatedPostsGrid, RelatedSidebar } from "@/components/ui/RelatedPosts";
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     title: "Rishikesh Travel Guide: Adventure, Yoga, Rafting & More",
     description:
       "White-water rafting, bungee jumping, yoga retreats and Ganga sunsets — the complete guide to Rishikesh.",
-    url: "https://club.kudozz.in/blog/rishikesh-adventure-guide",
+    url: "https://club.kudozz.in/blog/rishikesh-adventure-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
     authors: ["Kudozz Club"],
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     images: ["/images/destinations/rishikesh/rishikesh.jpg"],
   },
   alternates: {
-    canonical: "https://club.kudozz.in/blog/rishikesh-adventure-guide",
+    canonical: "https://club.kudozz.in/blog/rishikesh-adventure-travel-guide",
   },
 };
 
@@ -81,7 +81,7 @@ function ArticleSchema() {
           },
           mainEntityOfPage: {
             "@type": "WebPage",
-            "@id": "https://club.kudozz.in/blog/rishikesh-adventure-guide",
+            "@id": "https://club.kudozz.in/blog/rishikesh-adventure-travel-guide",
           },
           about: {
             "@type": "Place",

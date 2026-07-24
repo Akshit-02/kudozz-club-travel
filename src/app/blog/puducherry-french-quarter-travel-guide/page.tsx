@@ -1,4 +1,4 @@
-// src/app/blog/puducherry-french-quarter-guide/page.tsx
+// src/app/blog/puducherry-french-quarter-travel-guide/page.tsx
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     title: "Puducherry Travel Guide: French Quarter, Auroville & Beaches",
     description:
       "Mustard-yellow colonial villas, a rock-hewn seafront promenade, and the golden Matrimandir at Auroville — the complete guide to Puducherry.",
-    url: "https://club.kudozz.in/blog/puducherry-french-quarter-guide",
+    url: "https://club.kudozz.in/blog/puducherry-french-quarter-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
     images: [
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     images: ["/images/destinations/puducherry/hero.jpg"],
   },
   alternates: {
-    canonical: "https://club.kudozz.in/blog/puducherry-french-quarter-guide",
+    canonical: "https://club.kudozz.in/blog/puducherry-french-quarter-travel-guide",
   },
 };
 
@@ -77,7 +77,7 @@ function ArticleSchema() {
           mainEntityOfPage: {
             "@type": "WebPage",
             "@id":
-              "https://club.kudozz.in/blog/puducherry-french-quarter-guide",
+              "https://club.kudozz.in/blog/puducherry-french-quarter-travel-guide",
           },
           about: {
             "@type": "Place",

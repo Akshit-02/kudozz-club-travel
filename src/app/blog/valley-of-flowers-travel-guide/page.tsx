@@ -1,4 +1,4 @@
-// src/app/blog/valley-of-flowers/page.tsx
+// src/app/blog/valley-of-flowers-travel-guide/page.tsx
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     title: "Valley of Flowers Trek Guide: Permits, Routes, Best Time & Tips",
     description:
       "A meadow of 300+ Himalayan wildflowers that blooms for just 8 weeks a year — the complete guide to India's most extraordinary trek.",
-    url: "https://club.kudozz.in/blog/valley-of-flowers",
+    url: "https://club.kudozz.in/blog/valley-of-flowers-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
     authors: ["Kudozz Club"],
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     images: ["/images/destinations/manali/hero.jpg"],
   },
   alternates: {
-    canonical: "https://club.kudozz.in/blog/valley-of-flowers",
+    canonical: "https://club.kudozz.in/blog/valley-of-flowers-travel-guide",
   },
 };
 
@@ -80,7 +80,7 @@ function ArticleSchema() {
           },
           mainEntityOfPage: {
             "@type": "WebPage",
-            "@id": "https://club.kudozz.in/blog/valley-of-flowers",
+            "@id": "https://club.kudozz.in/blog/valley-of-flowers-travel-guide",
           },
           about: {
             "@type": "Place",

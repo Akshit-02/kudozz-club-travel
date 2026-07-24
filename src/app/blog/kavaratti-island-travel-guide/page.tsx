@@ -1,4 +1,4 @@
-// src/app/blog/kavaratti-island-guide/page.tsx
+// src/app/blog/kavaratti-island-travel-guide/page.tsx
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     title: "Kavaratti Island Travel Guide: Lagoon, Diving & Ujra Mosque",
     description:
       "Lakshadweep's capital island — a turquoise lagoon, a driftwood-ceilinged mosque, and some of the most accessible diving and water sports in the archipelago.",
-    url: "https://club.kudozz.in/blog/kavaratti-island-guide",
+    url: "https://club.kudozz.in/blog/kavaratti-island-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
     images: [
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     images: ["/images/destinations/lakshadweep/hero.jpg"],
   },
   alternates: {
-    canonical: "https://club.kudozz.in/blog/kavaratti-island-guide",
+    canonical: "https://club.kudozz.in/blog/kavaratti-island-travel-guide",
   },
 };
 
@@ -76,7 +76,7 @@ function ArticleSchema() {
           },
           mainEntityOfPage: {
             "@type": "WebPage",
-            "@id": "https://club.kudozz.in/blog/kavaratti-island-guide",
+            "@id": "https://club.kudozz.in/blog/kavaratti-island-travel-guide",
           },
           about: {
             "@type": "Place",

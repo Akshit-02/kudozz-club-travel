@@ -1,4 +1,4 @@
-// src/app/blog/andaman-islands-guide/page.tsx
+// src/app/blog/andaman-islands-travel-guide/page.tsx
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     title: "Andaman Islands Travel Guide: Beaches, Diving, Permits & Tips",
     description:
       "Crystal-clear waters, pristine coral reefs, white sand beaches and the haunting history of Cellular Jail — the complete guide to the Andaman Islands.",
-    url: "https://club.kudozz.in/blog/andaman-islands-guide",
+    url: "https://club.kudozz.in/blog/andaman-islands-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
     images: [
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     images: ["/images/related/rishikesh.jpg"],
   },
   alternates: {
-    canonical: "https://club.kudozz.in/blog/andaman-islands-guide",
+    canonical: "https://club.kudozz.in/blog/andaman-islands-travel-guide",
   },
 };
 
@@ -76,7 +76,7 @@ function ArticleSchema() {
           },
           mainEntityOfPage: {
             "@type": "WebPage",
-            "@id": "https://club.kudozz.in/blog/andaman-islands-guide",
+            "@id": "https://club.kudozz.in/blog/andaman-islands-travel-guide",
           },
           about: {
             "@type": "Place",
