@@ -586,6 +586,66 @@ export const posts = [
     readTime: "12 min",
     featured: false,
   },
+  {
+    slug: "andaman-islands-guide",
+    title: "Andaman Islands Travel Guide: Beaches, Diving, Permits & Tips",
+    excerpt:
+      "Crystal-clear waters, pristine coral reefs, white sand beaches and the haunting history of Cellular Jail — the complete guide to the Andaman Islands.",
+    image: "/images/destinations/andaman/hero.jpg",
+    category: "Beaches",
+    categoryColor: "bg-sky-100 text-sky-700",
+    tags: ["Andaman", "Beaches", "Scuba Diving"],
+    readTime: "20 min",
+    featured: false,
+  },
+  {
+    slug: "hampi-guide",
+    title: "Hampi Travel Guide: Ruins, Boulders, Temples & Tips",
+    excerpt:
+      "The extraordinary ruins of the Vijayanagara Empire scattered across a surreal boulder landscape — the complete guide to Hampi.",
+    image: "/images/destinations/hampi/hero.jpg",
+    category: "Heritage",
+    categoryColor: "bg-purple-100 text-purple-700",
+    tags: ["Hampi", "Karnataka", "Heritage"],
+    readTime: "14 min",
+    featured: false,
+  },
+  {
+    slug: "kerala-backwaters",
+    title: "Kerala Backwaters Guide: Houseboats, Routes, Villages & Tips",
+    excerpt:
+      "A 900-km network of lagoons, canals and lakes explored by houseboat — the complete guide to Kerala's backwaters.",
+    image: "/images/destinations/kerala/hero.jpg",
+    category: "Off-beat",
+    categoryColor: "bg-forest-100 text-forest-700",
+    tags: ["Kerala", "Backwaters", "Houseboat"],
+    readTime: "15 min",
+    featured: false,
+  },
+  {
+    slug: "rajasthan-desert-guide",
+    title: "Jaisalmer & Thar Desert Travel Guide: Fort, Camel Safari & Tips",
+    excerpt:
+      "A living medieval fort rising from the Thar Desert, camel safaris into the dunes and the most spectacular havelis in Rajasthan — the complete guide to Jaisalmer.",
+    image: "/images/destinations/jaisalmer/hero.jpg",
+    category: "Heritage",
+    categoryColor: "bg-purple-100 text-purple-700",
+    tags: ["Jaisalmer", "Rajasthan", "Desert Safari"],
+    readTime: "13 min",
+    featured: false,
+  },
+  {
+    slug: "valley-of-flowers",
+    title: "Valley of Flowers Trek Guide: Permits, Routes, Best Time & Tips",
+    excerpt:
+      "A meadow of 300+ Himalayan wildflowers that blooms for just 8 weeks a year — the complete guide to India's most extraordinary trek.",
+    image: "/images/destinations/manali/hero.jpg",
+    category: "Trekking",
+    categoryColor: "bg-green-100 text-green-700",
+    tags: ["Valley of Flowers", "Uttarakhand", "Trekking"],
+    readTime: "10 min",
+    featured: false,
+  },
 ];
 
 export const popularTags = [
