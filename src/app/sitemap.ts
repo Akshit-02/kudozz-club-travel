@@ -54,6 +54,42 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Blog post pages (fetch from CMS/DB in production)
   const blogPosts: MetadataRoute.Sitemap = [
     {
+      url: `${baseUrl}/blog/puducherry-district-guide`,
+      lastModified: new Date("2026-07-24"),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/blog/karaikal-district-guide`,
+      lastModified: new Date("2026-07-24"),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/blog/mahe-district-guide`,
+      lastModified: new Date("2026-07-24"),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/blog/yanam-district-guide`,
+      lastModified: new Date("2026-07-24"),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/blog/kavaratti-island-guide`,
+      lastModified: new Date("2026-07-24"),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/blog/agatti-island-guide`,
+      lastModified: new Date("2026-07-24"),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
       url: `${baseUrl}/blog/coorg-guide`,
       lastModified: new Date("2026-06-28"),
       changeFrequency: "monthly",

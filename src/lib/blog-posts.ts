@@ -383,6 +383,78 @@ export const posts = [
     featured: true,
   },
   {
+    slug: "puducherry-district-guide",
+    title: "Puducherry District Travel Guide: All 7 Towns & Attractions",
+    excerpt:
+      "Beyond the French Quarter and Auroville — a full town-by-town guide to Puducherry District, covering Villianur's ancient temple, Ariyankuppam's Arikamedu ruins and Chunnambar boat rides, Bahour's lake, Nettapakkam, and Oulgaret.",
+    image: "/images/destinations/puducherry/hero.jpg",
+    category: "Destination Guide",
+    categoryColor: "bg-sky-100 text-sky-700",
+    tags: ["Puducherry District", "Villianur", "Ariyankuppam"],
+    readTime: "15 min",
+    featured: false,
+  },
+  {
+    slug: "karaikal-district-guide",
+    title: "Karaikal District Travel Guide: Temples, Beach & Cauvery Delta",
+    excerpt:
+      "Tirunallar's famous Saneeswaran Temple and Nala Theertham, Karaikal town's beach, lighthouse and Karaikal Ammaiyar Temple, and the quiet Cauvery delta villages of Neravy, Kottucherry, and Nedungadu.",
+    image: "/images/destinations/hampi/virupaksha.jpg",
+    category: "Destination Guide",
+    categoryColor: "bg-sky-100 text-sky-700",
+    tags: ["Karaikal District", "Tirunallar", "Puducherry"],
+    readTime: "12 min",
+    featured: false,
+  },
+  {
+    slug: "mahe-district-guide",
+    title: "Mahe District Travel Guide: Riverfront, Church & Malabar Coast",
+    excerpt:
+      "Mahe town's riverfront walkway, St. Teresa's Shrine, Tagore Park, beach and lighthouse, plus the quiet river villages of Palloor, Pandakkal, Chalakkara, and Parakkal on Kerala's Malabar coast.",
+    image: "/images/destinations/kerala/hero.jpg",
+    category: "Destination Guide",
+    categoryColor: "bg-sky-100 text-sky-700",
+    tags: ["Mahe District", "Malabar Coast", "Puducherry"],
+    readTime: "10 min",
+    featured: false,
+  },
+  {
+    slug: "yanam-district-guide",
+    title: "Yanam District Travel Guide: Godavari Delta & French Heritage",
+    excerpt:
+      "St. Ann's Church, Yanam Ferry Road, the Godavari River, Yanam Tower and Rajiv Gandhi Beach, plus the quiet Godavari delta villages of Mettakur, Kolanka, and Kanakalapeta.",
+    image: "/images/destinations/kerala/alleppey.jpg",
+    category: "Destination Guide",
+    categoryColor: "bg-sky-100 text-sky-700",
+    tags: ["Yanam District", "Godavari Delta", "Puducherry"],
+    readTime: "9 min",
+    featured: false,
+  },
+  {
+    slug: "kavaratti-island-guide",
+    title: "Kavaratti Island Travel Guide: Lagoon, Diving & Ujra Mosque",
+    excerpt:
+      "Lakshadweep's capital and most developed inhabited island — Kavaratti Beach and Lagoon, the Marine Aquarium, the driftwood-ceilinged Ujra Mosque, scuba diving, snorkelling, and glass-bottom boat rides.",
+    image: "/images/destinations/lakshadweep/hero.jpg",
+    category: "Destination Guide",
+    categoryColor: "bg-sky-100 text-sky-700",
+    tags: ["Kavaratti", "Lakshadweep", "Scuba Diving"],
+    readTime: "11 min",
+    featured: false,
+  },
+  {
+    slug: "agatti-island-guide",
+    title: "Agatti Island Travel Guide: Lagoon, Reefs & Diving Spots",
+    excerpt:
+      "Lakshadweep's gateway island — Agatti Beach and Lagoon, the Agatti Island Resort, coral reefs and diving spots, snorkelling sites, kayaking, glass-bottom boat rides, lagoon cruises, and sunset views.",
+    image: "/images/destinations/lakshadweep/hero.jpg",
+    category: "Destination Guide",
+    categoryColor: "bg-sky-100 text-sky-700",
+    tags: ["Agatti", "Lakshadweep", "Scuba Diving"],
+    readTime: "11 min",
+    featured: false,
+  },
+  {
     slug: "ziro-valley-arunachal",
     title: "Ziro Valley Travel Guide: Apatani Villages, Rice Fields & Festival",
     excerpt:
