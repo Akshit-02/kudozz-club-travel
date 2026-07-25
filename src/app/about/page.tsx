@@ -243,7 +243,7 @@ export default function AboutPage() {
               {[
                 { value: "120+", label: "Destinations covered" },
                 { value: "350+", label: "Guides published" },
-                { value: "12K+", label: "Club members" },
+                { value: "15K+", label: "Club members" },
                 { value: "4", label: "Years on the road" },
               ].map((stat) => (
                 <div key={stat.label} className="py-10 px-6 text-center">

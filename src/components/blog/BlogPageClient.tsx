@@ -276,9 +276,7 @@ export default function BlogPageClient() {
                   >
                     {cat.label}
                     <span
-                      className={
-                        isActive ? "text-white/70" : "text-stone-600"
-                      }
+                      className={isActive ? "text-white/70" : "text-stone-600"}
                     >
                       {count}
                     </span>
@@ -308,9 +306,7 @@ export default function BlogPageClient() {
                           {filtered.length}{" "}
                           {filtered.length === 1 ? "guide" : "guides"}
                           {query.trim() && <> for &quot;{query}&quot;</>}
-                          {category !== "all" && (
-                            <> in {activeCategoryLabel}</>
-                          )}
+                          {category !== "all" && <> in {activeCategoryLabel}</>}
                         </span>
                       </div>
                       <button
@@ -358,10 +354,11 @@ export default function BlogPageClient() {
                           className="text-stone-500 text-sm mb-4"
                           style={{ fontFamily: "var(--font-dm-sans)" }}
                         >
-                          No guides match{query.trim() && <> &quot;{query}&quot;</>}
-                          {category !== "all" && <> in {activeCategoryLabel}</>}.
-                          Try a destination name like &quot;Manali&quot; or clear
-                          your filters.
+                          No guides match
+                          {query.trim() && <> &quot;{query}&quot;</>}
+                          {category !== "all" && <> in {activeCategoryLabel}</>}
+                          . Try a destination name like &quot;Manali&quot; or
+                          clear your filters.
                         </p>
                         <button
                           type="button"
@@ -597,7 +594,9 @@ export default function BlogPageClient() {
                         <button
                           key={tag}
                           type="button"
-                          onClick={() => (isActive ? clearFilters() : selectTag(tag))}
+                          onClick={() =>
+                            isActive ? clearFilters() : selectTag(tag)
+                          }
                           aria-pressed={isActive}
                           className={`px-3 py-1.5 text-xs font-medium rounded-full transition-colors ${
                             isActive
@@ -626,8 +625,8 @@ export default function BlogPageClient() {
                     className="text-stone-400 text-xs leading-relaxed mb-4"
                     style={{ fontFamily: "var(--font-dm-sans)" }}
                   >
-                    Every new guide goes to our newsletter subscribers 48
-                    hours before it's public.
+                    Every new guide goes to our newsletter subscribers 48 hours
+                    before it's public.
                   </p>
                   <input
                     type="email"
@@ -648,7 +647,7 @@ export default function BlogPageClient() {
                 <div className="grid grid-cols-2 gap-3">
                   {[
                     { value: "350+", label: "Guides" },
-                    { value: "12K+", label: "Members" },
+                    { value: "15K+", label: "Members" },
                     { value: "120+", label: "Destinations" },
                     { value: "4.9★", label: "Rating" },
                   ].map((stat) => (

@@ -236,7 +236,7 @@ export default function WriteForUsPageClient() {
               {/* Quick stats */}
               <div className="flex flex-wrap gap-6 mt-8">
                 {[
-                  { value: "12K+", label: "Newsletter readers" },
+                  { value: "15K+", label: "Newsletter readers" },
                   { value: "48hr", label: "Pitch response time" },
                   { value: "Free", label: "No fees to submit" },
                 ].map((s) => (

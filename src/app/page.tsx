@@ -123,7 +123,7 @@ const recentPosts = [
 const stats = [
   { value: "120+", label: "Destinations" },
   { value: "350+", label: "Travel Guides" },
-  { value: "12K+", label: "Club Members" },
+  { value: "15K+", label: "Club Members" },
   { value: "4.9★", label: "Avg. Rating" },
 ];
 
