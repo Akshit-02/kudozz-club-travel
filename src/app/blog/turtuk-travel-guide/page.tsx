@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   description:
     "A complete guide to Turtuk, Ladakh — the Balti village opened to tourists only in 2010. Best time to visit, how to reach via Nubra Valley, ILP permits, Farol & Chutang villages, apricot orchards, homestays, and essential tips.",
   keywords:
-    "Turtuk, Turtuk Ladakh, Turtuk village, Balti culture Ladakh, Nubra Valley Turtuk, Turtuk homestay, Turtuk travel guide, Farol Chutang village, Line of Control Ladakh, apricot village Ladakh",
+    "Turtuk, Turtuk Ladakh, Turtuk village, Balti culture Ladakh, Nubra Valley Turtuk, Turtuk homestay, Turtuk travel guide, Farol Chutang village, Line of Control Ladakh, apricot village Ladakh, best time to visit Turtuk, how to reach Turtuk from Leh, Turtuk permits ILP, is Turtuk safe to visit, Turtuk budget trip, things to do in Turtuk, northernmost village in India",
   openGraph: {
     title: "Turtuk Travel Guide: Ladakh's Last Balti Village Before the LOC",
     description:
@@ -120,6 +120,60 @@ function ArticleSchema() {
   );
 }
 
+// ── FAQ data (shared by visible section + JSON-LD) ────────────────────────────
+const faqs = [
+  {
+    q: "How many days do I need to visit Turtuk?",
+    a: "A day trip from Hunder or Diskit works for a taste of the village, but staying at least one night in a homestay transforms the experience — you'll eat with the family, hear the 1971 border history firsthand, and see the village at dawn before day-trippers arrive.",
+  },
+  {
+    q: "What is the best time to visit Turtuk?",
+    a: "Mid-August is the pick — the apricot harvest is in full swing with rooftops turning gold with drying fruit, the weather is warm and settled, and it can be combined with the Nubra dunes without fighting peak-July crowds. Turtuk is impractical to visit November through March, when the Khardung La and Shyok route become unreliable or close under snow.",
+  },
+  {
+    q: "How do I reach Turtuk from Leh?",
+    a: "It's about 205 km and 7–8 hours of driving from Leh via Khardung La and the Nubra Valley — almost nobody attempts this in one day. Most visitors treat Turtuk as a day trip or overnight extension from a Nubra Valley base instead: Hunder to Turtuk is about 85 km (2.5–3 hours).",
+  },
+  {
+    q: "Do I need a permit to visit Turtuk?",
+    a: "Yes. Indian nationals need an Inner Line Permit (ILP) covering the Turtuk/Nubra sector specifically — a Pangong-only ILP won't cover this route. Foreign nationals need a Protected Area Permit (PAP) arranged through a registered Leh tour operator and must travel in a group of two or more with a licensed guide.",
+  },
+  {
+    q: "Is Turtuk safe to visit?",
+    a: "Yes, it's open to tourists and welcoming, but it sits inside a sensitive border zone with the ceasefire line just a few kilometres beyond the village. Practical rules apply: no photographing army installations or checkposts, no drones, carry ID and permits at all times, and don't wander past Tyakshi toward the restricted zone.",
+  },
+  {
+    q: "What is the budget for a Turtuk trip?",
+    a: "Turtuk is inexpensive by design — a daily budget (excluding your main Leh–Nubra vehicle) runs from roughly ₹1,050 at the budget tier up to ₹5,200 at the comfort tier, covering a homestay with meals, local transport, the heritage museum donation, and apricots to take home.",
+  },
+  {
+    q: "What makes Turtuk different from the rest of Ladakh?",
+    a: "Turtuk is a Balti Muslim village — a distinct culture, language, and stone-and-timber architecture closer to Baltistan than to the Tibetan Buddhist culture found elsewhere in Ladakh. It belonged to Pakistan until the 1971 war and was only opened to tourists in 2010, making it one of the most recently accessible corners of India.",
+  },
+];
+
+function FAQSchema() {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.a,
+            },
+          })),
+        }),
+      }}
+    />
+  );
+}
+
 // ── TOC ───────────────────────────────────────────────────────────────────────
 const tableOfContents = [
   { id: "introduction", title: "Why Visit Turtuk?", level: 2 },
@@ -134,6 +188,7 @@ const tableOfContents = [
   { id: "food-guide", title: "What to Eat", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
 // ── Page ─────────────────────────────────────────────────────────────────────
@@ -141,6 +196,7 @@ export default function TurtukPage() {
   return (
     <>
       <ArticleSchema />
+      <FAQSchema />
       <SiteHeader />
 
       <main>
@@ -1116,6 +1172,32 @@ export default function TurtukPage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── FAQ ───────────────────────────────────────────────── */}
+                <section id="faq">
+                  <h2>Frequently Asked Questions</h2>
+                  <div className="space-y-5 my-6">
+                    {faqs.map((f) => (
+                      <div
+                        key={f.q}
+                        className="bg-white border border-stone-200 rounded-xl p-5"
+                      >
+                        <h4
+                          className="font-bold text-stone-900 mb-2 text-base"
+                          style={{ fontFamily: "var(--font-playfair)" }}
+                        >
+                          {f.q}
+                        </h4>
+                        <p
+                          className="text-sm text-stone-600 leading-relaxed m-0"
+                          style={{ fontFamily: "var(--font-dm-sans)" }}
+                        >
+                          {f.a}
+                        </p>
+                      </div>
+                    ))}
                   </div>
                 </section>
               </div>

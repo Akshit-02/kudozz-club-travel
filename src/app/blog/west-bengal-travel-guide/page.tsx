@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description:
     "The complete West Bengal travel guide — Kolkata's colonial architecture and food, Darjeeling's tea gardens and Toy Train, the Sundarbans mangroves and Royal Bengal Tiger, where to stay and eat, and a full itinerary connecting the plains to the hills.",
   keywords:
-    "West Bengal travel guide, Kolkata travel guide, Darjeeling travel guide, Sundarbans tiger safari, Toy Train Darjeeling, Victoria Memorial, Kolkata food, Kalimpong, Digha beach, West Bengal itinerary",
+    "West Bengal travel guide, Kolkata travel guide, Darjeeling travel guide, Sundarbans tiger safari, Toy Train Darjeeling, Victoria Memorial, Kolkata food, Kalimpong, Digha beach, West Bengal itinerary, best time to visit West Bengal, how to reach Darjeeling from Kolkata, West Bengal budget trip, is Sundarbans safe for tiger safari, top things to do in Kolkata, Darjeeling Himalayan Railway UNESCO, West Bengal 7 day itinerary",
   openGraph: {
     title: "West Bengal Travel Guide: Kolkata, Darjeeling & Sundarbans",
     description:
@@ -115,6 +115,60 @@ function ArticleSchema() {
   );
 }
 
+// ── FAQ data (shared by visible section + JSON-LD) ────────────────────────────
+const faqs = [
+  {
+    q: "How many days do I need for a West Bengal trip?",
+    a: "Seven days is a reasonable minimum to properly cover Kolkata and Darjeeling together. Add 2–3 more days if you want to include a Sundarbans boat safari extension.",
+  },
+  {
+    q: "What is the best time to visit West Bengal?",
+    a: "October to March is the only window that works well across Kolkata, Darjeeling, and the Sundarbans simultaneously — pleasant temperatures in Kolkata, clear mountain views in Darjeeling, and comfortable conditions for Sundarbans boat safaris. Avoid July–September, when heavy monsoon rain brings landslide risk to the hills.",
+  },
+  {
+    q: "How do I reach Darjeeling from Kolkata?",
+    a: "The popular route is an overnight train from Kolkata to New Jalpaiguri (NJP), followed by a roughly 3-hour shared jeep or taxi ride up to Darjeeling. Flying into Bagdogra Airport (IXB) is the faster alternative if you'd rather skip the train.",
+  },
+  {
+    q: "Is a Sundarbans tiger safari safe?",
+    a: "Yes, as long as it's booked through a licensed operator — permits, guides, and safety protocols are strictly regulated within the tiger reserve. Royal Bengal Tiger sightings themselves are rare given the dense mangrove cover, so go for the boat-safari experience and birdwatching rather than a guaranteed sighting.",
+  },
+  {
+    q: "What is the budget for a West Bengal trip?",
+    a: "Daily costs range from about ₹2,300 on a budget trip up to ₹18,600 on a luxury one, which works out to roughly ₹16,100–₹1,30,200 for a 7-day trip covering Kolkata and Darjeeling. This excludes flights into Kolkata/Bagdogra and any separate Sundarbans boat package, typically an extra ₹4,000–₹15,000 per person for two days.",
+  },
+  {
+    q: "Is the Darjeeling Toy Train worth it?",
+    a: "Yes — the Darjeeling Himalayan Railway is a UNESCO World Heritage narrow-gauge railway, and the short joyride section between Darjeeling and Ghum, past the Batasia Loop war memorial, is a classic part of any Darjeeling visit. Just confirm schedules in advance, since services can be suspended for track maintenance after monsoon damage.",
+  },
+  {
+    q: "What are the top things to do in Kolkata?",
+    a: "Visit Victoria Memorial and Howrah Bridge, browse Asia's largest second-hand book market at College Street, see the Indian Museum, and take an evening walk or food crawl around Park Street. A sunset boat ride on the Hooghly River is also a highlight.",
+  },
+];
+
+function FAQSchema() {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.a,
+            },
+          })),
+        }),
+      }}
+    />
+  );
+}
+
 // ── TOC ───────────────────────────────────────────────────────────────────────
 const tableOfContents = [
   { id: "introduction", title: "Why West Bengal?", level: 2 },
@@ -129,6 +183,7 @@ const tableOfContents = [
   { id: "itinerary", title: "7-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
 // ── West Bengal-specific gear ─────────────────────────────────────────────────
@@ -226,6 +281,7 @@ export default function WestBengalGuidePage() {
   return (
     <>
       <ArticleSchema />
+      <FAQSchema />
       <SiteHeader />
 
       <main>
@@ -1122,6 +1178,32 @@ export default function WestBengalGuidePage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── FAQ ───────────────────────────────────────────────── */}
+                <section id="faq">
+                  <h2>Frequently Asked Questions</h2>
+                  <div className="space-y-5 my-6">
+                    {faqs.map((f) => (
+                      <div
+                        key={f.q}
+                        className="bg-white border border-stone-200 rounded-xl p-5"
+                      >
+                        <h4
+                          className="font-bold text-stone-900 mb-2 text-base"
+                          style={{ fontFamily: "var(--font-playfair)" }}
+                        >
+                          {f.q}
+                        </h4>
+                        <p
+                          className="text-sm text-stone-600 leading-relaxed m-0"
+                          style={{ fontFamily: "var(--font-dm-sans)" }}
+                        >
+                          {f.a}
+                        </p>
+                      </div>
+                    ))}
                   </div>
                 </section>
               </div>

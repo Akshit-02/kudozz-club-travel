@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description:
     "The complete Sikkim travel guide — Gangtok, Tsomgo Lake and Nathula Pass, Yumthang Valley's flower fields, Pelling's Kanchenjunga views, permits explained, where to stay and eat, and a full itinerary through India's cleanest, most organised Himalayan state.",
   keywords:
-    "Sikkim travel guide, Gangtok travel guide, Tsomgo Lake, Nathula Pass, Yumthang Valley, Pelling, Kanchenjunga view, Rumtek Monastery, Gurudongmar Lake, Sikkim permit, Sikkim itinerary",
+    "Sikkim travel guide, Gangtok travel guide, Tsomgo Lake, Nathula Pass, Yumthang Valley, Pelling, Kanchenjunga view, Rumtek Monastery, Gurudongmar Lake, Sikkim permit, Sikkim itinerary, best time to visit Sikkim, how to reach Gangtok from Bagdogra, Sikkim 6 day itinerary, is Sikkim safe for solo travellers, Sikkim trip budget, top things to do in Sikkim, Sikkim permit requirements, Sikkim vs Darjeeling, is Sikkim worth visiting",
   openGraph: {
     title: "Sikkim Travel Guide: Gangtok, Yumthang Valley & Nathula Pass",
     description:
@@ -115,6 +115,60 @@ function ArticleSchema() {
   );
 }
 
+// ── FAQ data (shared by visible section + JSON-LD) ────────────────────────────
+const faqs = [
+  {
+    q: "How many days do I need for Sikkim?",
+    a: "Six days is a comfortable minimum to cover Gangtok, East Sikkim (Tsomgo Lake and Nathula Pass), and either North or West Sikkim without rushing, as covered in our suggested itinerary.",
+  },
+  {
+    q: "What is the best time to visit Sikkim?",
+    a: "April to May is best for the rhododendron bloom at Yumthang Valley, while October to November offers the clearest possible Kanchenjunga views from Pelling. Avoid July–September, when heavy monsoon rain brings real landslide risk on mountain roads.",
+  },
+  {
+    q: "How do I reach Gangtok from Bagdogra?",
+    a: "Bagdogra Airport (IXB) in West Bengal is the most reliable air gateway to Sikkim, followed by a scenic 4-5 hour drive to Gangtok. New Jalpaiguri (NJP) is the nearest railhead and involves the same road transfer. Pakyong Airport (PYG) near Gangtok has limited direct flights.",
+  },
+  {
+    q: "Do I need a permit to visit Sikkim?",
+    a: "Yes, for several key areas. A Restricted Area Permit (RAP) is required for both Indian and foreign visitors to Tsomgo Lake, Nathula Pass, and North Sikkim (Yumthang, Lachung, Lachen, Gurudongmar), arranged through a registered travel agent. Foreign nationals also need a Protected Area Permit (PAP) to travel beyond Gangtok and Pelling.",
+  },
+  {
+    q: "Is Sikkim safe for solo travellers?",
+    a: "Sikkim is one of India's cleanest and most organised Himalayan states, with a structured permit and shared-jeep system that keeps travel to restricted areas orderly. The main things to plan around are cold-weather preparation for high passes and acclimatisation before high-altitude excursions like Gurudongmar Lake (5,430m).",
+  },
+  {
+    q: "What is the budget for a Sikkim trip?",
+    a: "A 6-day trip runs around ₹16,800 total on a budget, ₹44,400 mid-range, or roughly ₹1,17,600 for a luxury trip, covering accommodation, food, permits and shared jeeps, and local transport — excluding travel to Bagdogra or NJP.",
+  },
+  {
+    q: "Is Sikkim worth visiting?",
+    a: "Yes — within a single trip it delivers alpine lakes near 4,000 metres, a genuine international border crossing at Nathula Pass, a valley that turns into a sea of blooming rhododendrons every spring, and some of the closest, most unobstructed views anywhere of Kanchenjunga, the world's third-highest peak.",
+  },
+];
+
+function FAQSchema() {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.a,
+            },
+          })),
+        }),
+      }}
+    />
+  );
+}
+
 // ── TOC ───────────────────────────────────────────────────────────────────────
 const tableOfContents = [
   { id: "introduction", title: "Why Sikkim?", level: 2 },
@@ -130,6 +184,7 @@ const tableOfContents = [
   { id: "itinerary", title: "6-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
 // ── Sikkim-specific gear ─────────────────────────────────────────────────
@@ -227,6 +282,7 @@ export default function SikkimGuidePage() {
   return (
     <>
       <ArticleSchema />
+      <FAQSchema />
       <SiteHeader />
 
       <main>
@@ -1124,6 +1180,32 @@ export default function SikkimGuidePage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── FAQ ───────────────────────────────────────────────── */}
+                <section id="faq">
+                  <h2>Frequently Asked Questions</h2>
+                  <div className="space-y-5 my-6">
+                    {faqs.map((f) => (
+                      <div
+                        key={f.q}
+                        className="bg-white border border-stone-200 rounded-xl p-5"
+                      >
+                        <h4
+                          className="font-bold text-stone-900 mb-2 text-base"
+                          style={{ fontFamily: "var(--font-playfair)" }}
+                        >
+                          {f.q}
+                        </h4>
+                        <p
+                          className="text-sm text-stone-600 leading-relaxed m-0"
+                          style={{ fontFamily: "var(--font-dm-sans)" }}
+                        >
+                          {f.a}
+                        </p>
+                      </div>
+                    ))}
                   </div>
                 </section>
               </div>

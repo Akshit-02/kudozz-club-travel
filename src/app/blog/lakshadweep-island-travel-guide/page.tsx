@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description:
     "The complete Lakshadweep travel guide. Entry permits, how to reach Agatti and Kavaratti, the best islands for lagoons and diving, where to stay, what to eat, and a full 4-day itinerary through India's coral atoll islands.",
   keywords:
-    "Lakshadweep travel guide, Lakshadweep permit, Agatti island, Kavaratti, Bangaram island, Lakshadweep scuba diving, Lakshadweep itinerary, Lakshadweep entry pass, India coral islands",
+    "Lakshadweep travel guide, Lakshadweep permit, Agatti island, Kavaratti, Bangaram island, Lakshadweep scuba diving, Lakshadweep itinerary, Lakshadweep entry pass, India coral islands, best time to visit Lakshadweep, how to reach Lakshadweep from Kochi, Lakshadweep budget trip, which Lakshadweep island to choose, Lakshadweep 4 day itinerary, is Lakshadweep safe for solo travellers, Kadmat island diving",
   openGraph: {
     title: "Lakshadweep Travel Guide: Permits, Islands & Best Time to Visit",
     description:
@@ -115,6 +115,60 @@ function ArticleSchema() {
   );
 }
 
+// ── FAQ data (shared by visible section + JSON-LD) ────────────────────────────
+const faqs = [
+  {
+    q: "How many days do I need for Lakshadweep?",
+    a: "Four days on a single island is a sensible baseline, factoring in permit lead time and travel logistics — enough for diving or snorkelling, kayaking, some island exploration, and a relaxed pace without rushing. Extending to two islands is possible if your package includes an inter-island transfer.",
+  },
+  {
+    q: "Do I need a permit to visit Lakshadweep, and how long does it take?",
+    a: "Yes — every visitor, including Indian citizens, needs an entry permit issued by the Lakshadweep administration, and it can't be arranged on arrival. Permits are processed through the official e-Permit portal or via authorised tour operators, and you should allow at least 15–20 days for processing since it requires identity verification.",
+  },
+  {
+    q: "What is the best time to visit Lakshadweep?",
+    a: "October to February is the best window, with calm seas, clear skies, and the best underwater visibility of the year. December and January specifically are the peak diving season, with the clearest water — book resorts and permits well ahead for this stretch. Avoid June to September, when the monsoon makes the Arabian Sea rough and most resorts close.",
+  },
+  {
+    q: "How do I reach Lakshadweep from Kochi?",
+    a: "All routes to Lakshadweep start from Kochi, Kerala — there's no other mainland gateway. Flights run from Kochi to Agatti Airport in about an hour, followed by a short boat transfer to most resort islands, or you can take a passenger ship from Kochi directly to islands like Kavaratti, Agatti, Kadmat, or Minicoy, a crossing of roughly 14–20 hours. Flying is faster and more reliable, especially in shoulder-season months.",
+  },
+  {
+    q: "Which Lakshadweep island should I choose?",
+    a: "It depends on what you want: Agatti is the main air gateway and good for short trips; Bangaram is an uninhabited private-island resort with arguably the best lagoon in the archipelago; Kavaratti is the administrative capital with the most developed infrastructure; Kadmat is popular for scuba diving with lagoons on both sides; and Minicoy is the culturally distinct, less-visited southernmost island with Maldivian influence.",
+  },
+  {
+    q: "What is the budget for a Lakshadweep trip?",
+    a: "Costs vary widely by island and resort tier — a budget 4-day trip runs around ₹33,200, mid-range closer to ₹60,000, and luxury packages (like Bangaram) can exceed ₹1,48,000, excluding travel to Kochi. Most mid-range and luxury packages bundle meals, permit fees, and transfers into a single quoted price.",
+  },
+  {
+    q: "Is Lakshadweep safe for solo travellers?",
+    a: "Lakshadweep is a heavily permit-controlled destination, which means tourism is deliberately limited and most visitors travel via a recognised tour operator who bundles the permit, stay, and transfers — a structure that removes much of the logistics risk for solo travellers. That said, the islands are remote with minimal medical infrastructure and limited ATM or card access outside Kavaratti and Agatti, so carrying cash and planning ahead matters more here than on a typical beach trip.",
+  },
+];
+
+function FAQSchema() {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.a,
+            },
+          })),
+        }),
+      }}
+    />
+  );
+}
+
 // ── TOC ───────────────────────────────────────────────────────────────────────
 const tableOfContents = [
   { id: "introduction", title: "Why Lakshadweep?", level: 2 },
@@ -128,6 +182,7 @@ const tableOfContents = [
   { id: "itinerary", title: "4-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
 // ── Lakshadweep-specific gear ───────────────────────────────────────────────────
@@ -225,6 +280,7 @@ export default function LakshadweepGuidePage() {
   return (
     <>
       <ArticleSchema />
+      <FAQSchema />
       <SiteHeader />
 
       <main>
@@ -1085,6 +1141,32 @@ export default function LakshadweepGuidePage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── FAQ ───────────────────────────────────────────────── */}
+                <section id="faq">
+                  <h2>Frequently Asked Questions</h2>
+                  <div className="space-y-5 my-6">
+                    {faqs.map((f) => (
+                      <div
+                        key={f.q}
+                        className="bg-white border border-stone-200 rounded-xl p-5"
+                      >
+                        <h4
+                          className="font-bold text-stone-900 mb-2 text-base"
+                          style={{ fontFamily: "var(--font-playfair)" }}
+                        >
+                          {f.q}
+                        </h4>
+                        <p
+                          className="text-sm text-stone-600 leading-relaxed m-0"
+                          style={{ fontFamily: "var(--font-dm-sans)" }}
+                        >
+                          {f.a}
+                        </p>
+                      </div>
+                    ))}
                   </div>
                 </section>
               </div>

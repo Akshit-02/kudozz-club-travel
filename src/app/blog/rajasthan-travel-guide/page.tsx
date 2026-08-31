@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description:
     "The complete Rajasthan travel guide — Jaipur's Amber Fort and City Palace, Jodhpur's Blue City and Mehrangarh Fort, Pushkar's sacred lake, plus Udaipur and Jaisalmer, where to stay and eat, and a full circuit itinerary through India's most royal state.",
   keywords:
-    "Rajasthan travel guide, Jaipur travel guide, Jodhpur Blue City, Mehrangarh Fort, Pushkar travel guide, Amber Fort, Hawa Mahal, Rajasthan itinerary, Rajasthan forts and palaces, Golden Triangle Rajasthan",
+    "Rajasthan travel guide, Jaipur travel guide, Jodhpur Blue City, Mehrangarh Fort, Pushkar travel guide, Amber Fort, Hawa Mahal, Rajasthan itinerary, Rajasthan forts and palaces, Golden Triangle Rajasthan, best time to visit Rajasthan, how to reach Jaipur from Delhi, Rajasthan 8 day itinerary, is Rajasthan safe for solo travellers, Rajasthan trip budget, top things to do in Rajasthan, Rajasthan circuit itinerary, Pushkar Camel Fair dates, Jaipur to Jodhpur distance, is Rajasthan worth visiting",
   openGraph: {
     title: "Rajasthan Travel Guide: Jaipur, Jodhpur & Pushkar Circuit",
     description:
@@ -114,6 +114,60 @@ function ArticleSchema() {
   );
 }
 
+// ── FAQ data (shared by visible section + JSON-LD) ────────────────────────────
+const faqs = [
+  {
+    q: "How many days do I need for a Rajasthan trip?",
+    a: "Eight days is a reasonable minimum to cover the classic circuit — Jaipur, Pushkar, Jodhpur, and Jaisalmer — as outlined in our suggested itinerary. Add more time if you want to extend into Udaipur or Jaisalmer in real depth.",
+  },
+  {
+    q: "What is the best time to visit Rajasthan?",
+    a: "Late October to February is the best window, with cool, dry days (10–28°C) that make fort climbs and desert safaris genuinely comfortable across the whole circuit. April to June brings extreme heat, with Jaisalmer and Jodhpur regularly crossing 42-45°C.",
+  },
+  {
+    q: "How do I reach Jaipur from Delhi?",
+    a: "Jaipur is roughly 5-6 hours from Delhi by road via NH48, a common starting point for a self-drive circuit. Jaipur International Airport (JAI) also has regular domestic flights from Delhi, Mumbai, and other major cities, and Jaipur is well connected by rail as well.",
+  },
+  {
+    q: "Is Rajasthan safe for solo travellers?",
+    a: "Rajasthan is one of India's most visited and well-set-up states for independent travel, with an established tourism infrastructure across Jaipur, Jodhpur, Pushkar, and Jaisalmer. As with any trip, negotiate fixed prices for safaris and guides upfront and carry cash for smaller towns where card acceptance drops off.",
+  },
+  {
+    q: "What is the budget for a Rajasthan trip?",
+    a: "An 8-day circuit runs around ₹21,600 total on a budget, ₹65,600 mid-range, or roughly ₹2,16,000 for a luxury trip, covering accommodation, food, local transport, and monument entry fees — inter-city car hire is typically quoted separately.",
+  },
+  {
+    q: "What is the distance between Jaipur and Jodhpur?",
+    a: "Jodhpur is roughly a 3.5-hour drive from Jaipur, making it a comfortable next stop on the classic circuit after Jaipur and a Pushkar stopover.",
+  },
+  {
+    q: "Is Rajasthan worth visiting?",
+    a: "Yes — few states in India deliver as much consistent visual and historical payoff. Pink-walled Jaipur, the indigo-washed Blue City of Jodhpur, the sacred lake town of Pushkar, and onward extensions to Udaipur's lake palaces and Jaisalmer's desert fort make it India's most theatrical road trip.",
+  },
+];
+
+function FAQSchema() {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.a,
+            },
+          })),
+        }),
+      }}
+    />
+  );
+}
+
 // ── TOC ───────────────────────────────────────────────────────────────────────
 const tableOfContents = [
   { id: "introduction", title: "Why Rajasthan?", level: 2 },
@@ -129,6 +183,7 @@ const tableOfContents = [
   { id: "itinerary", title: "8-Day Circuit Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
 // ── Rajasthan-specific gear ─────────────────────────────────────────────────
@@ -226,6 +281,7 @@ export default function RajasthanGuidePage() {
   return (
     <>
       <ArticleSchema />
+      <FAQSchema />
       <SiteHeader />
 
       <main>
@@ -1112,6 +1168,32 @@ export default function RajasthanGuidePage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── FAQ ───────────────────────────────────────────────── */}
+                <section id="faq">
+                  <h2>Frequently Asked Questions</h2>
+                  <div className="space-y-5 my-6">
+                    {faqs.map((f) => (
+                      <div
+                        key={f.q}
+                        className="bg-white border border-stone-200 rounded-xl p-5"
+                      >
+                        <h4
+                          className="font-bold text-stone-900 mb-2 text-base"
+                          style={{ fontFamily: "var(--font-playfair)" }}
+                        >
+                          {f.q}
+                        </h4>
+                        <p
+                          className="text-sm text-stone-600 leading-relaxed m-0"
+                          style={{ fontFamily: "var(--font-dm-sans)" }}
+                        >
+                          {f.a}
+                        </p>
+                      </div>
+                    ))}
                   </div>
                 </section>
               </div>

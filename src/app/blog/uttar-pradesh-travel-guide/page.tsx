@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description:
     "The complete Uttar Pradesh travel guide — the Taj Mahal and Agra Fort, Varanasi's ancient ghats and Ganga Aarti, Lucknow's Nawabi food and architecture, Ayodhya, where to stay and eat, and a full itinerary through India's most historically dense state.",
   keywords:
-    "Uttar Pradesh travel guide, Taj Mahal, Agra travel guide, Varanasi travel guide, Lucknow travel guide, Ganga Aarti, Fatehpur Sikri, Ayodhya Ram Mandir, Mathura Vrindavan, UP itinerary",
+    "Uttar Pradesh travel guide, Taj Mahal, Agra travel guide, Varanasi travel guide, Lucknow travel guide, Ganga Aarti, Fatehpur Sikri, Ayodhya Ram Mandir, Mathura Vrindavan, UP itinerary, best time to visit Uttar Pradesh, how to reach Agra from Delhi, Uttar Pradesh 6 day itinerary, Uttar Pradesh budget trip, top things to do in Varanasi, Taj Mahal sunrise visit, Kashi Vishwanath Temple",
   openGraph: {
     title: "Uttar Pradesh Travel Guide: Taj Mahal, Varanasi & Lucknow",
     description:
@@ -114,6 +114,60 @@ function ArticleSchema() {
   );
 }
 
+// ── FAQ data (shared by visible section + JSON-LD) ────────────────────────────
+const faqs = [
+  {
+    q: "How many days do I need for an Uttar Pradesh trip?",
+    a: "Six days is a comfortable minimum to cover Agra, Varanasi, and Lucknow without rushing any single city — roughly two days each in Agra and Varanasi, plus a day and a half in Lucknow, given the hundreds of kilometres between them.",
+  },
+  {
+    q: "What is the best time to visit Uttar Pradesh?",
+    a: "Late October to February is the pick — comfortable temperatures for the Taj Mahal at sunrise, Varanasi's ghats, and long days of walking in Lucknow. Avoid April–June, when temperatures regularly cross 42–45°C in Agra and Lucknow and sightseeing outside early morning and evening is genuinely uncomfortable.",
+  },
+  {
+    q: "How do I reach Agra from Delhi?",
+    a: "The Gatimaan Express or Shatabdi train from Delhi takes about 2 hours — the Gatimaan is India's fastest train and makes a same-day Taj Mahal trip genuinely feasible. By road via the Yamuna Expressway it's roughly 3.5 hours.",
+  },
+  {
+    q: "What is the budget for a trip to Uttar Pradesh?",
+    a: "A 6-day trip covering Agra, Varanasi, and Lucknow runs roughly ₹16,800 at the budget level up to ₹1,33,200 at the luxury level, excluding inter-city travel. Taj Mahal entry fees are notably higher for foreign nationals.",
+  },
+  {
+    q: "What are the top things to do in Varanasi?",
+    a: "The essentials are a sunrise boat ride along the ghats, the nightly Ganga Aarti fire ceremony at Dashashwamedh Ghat, Kashi Vishwanath Temple (one of the twelve Jyotirlinga shrines), wandering the old city's narrow lanes, and a short trip to Sarnath, where the Buddha delivered his first sermon.",
+  },
+  {
+    q: "Is the Taj Mahal open every day?",
+    a: "No — it's closed on Fridays, so plan Agra days around this if you're on a tight schedule. It's best visited at sunrise for both the light and thinner crowds, and booking tickets online in advance avoids queues at the gate.",
+  },
+  {
+    q: "Is Uttar Pradesh safe for solo travellers?",
+    a: "Yes, with the usual sensible precautions common across India's most-visited circuits — carry cash in smaller towns and the old city lanes of Agra and Varanasi where card acceptance drops off, dress modestly at active religious sites, and approach cremation ghats like Manikarnika respectfully, avoiding photography without explicit permission.",
+  },
+];
+
+function FAQSchema() {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.a,
+            },
+          })),
+        }),
+      }}
+    />
+  );
+}
+
 // ── TOC ───────────────────────────────────────────────────────────────────────
 const tableOfContents = [
   { id: "introduction", title: "Why Uttar Pradesh?", level: 2 },
@@ -128,6 +182,7 @@ const tableOfContents = [
   { id: "itinerary", title: "6-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
 // ── Uttar Pradesh-specific gear ─────────────────────────────────────────────
@@ -225,6 +280,7 @@ export default function UttarPradeshGuidePage() {
   return (
     <>
       <ArticleSchema />
+      <FAQSchema />
       <SiteHeader />
 
       <main>
@@ -1098,6 +1154,32 @@ export default function UttarPradeshGuidePage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── FAQ ───────────────────────────────────────────────── */}
+                <section id="faq">
+                  <h2>Frequently Asked Questions</h2>
+                  <div className="space-y-5 my-6">
+                    {faqs.map((f) => (
+                      <div
+                        key={f.q}
+                        className="bg-white border border-stone-200 rounded-xl p-5"
+                      >
+                        <h4
+                          className="font-bold text-stone-900 mb-2 text-base"
+                          style={{ fontFamily: "var(--font-playfair)" }}
+                        >
+                          {f.q}
+                        </h4>
+                        <p
+                          className="text-sm text-stone-600 leading-relaxed m-0"
+                          style={{ fontFamily: "var(--font-dm-sans)" }}
+                        >
+                          {f.a}
+                        </p>
+                      </div>
+                    ))}
                   </div>
                 </section>
               </div>

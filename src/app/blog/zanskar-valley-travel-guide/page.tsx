@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   description:
     "The complete guide to Zanskar Valley, Ladakh's most remote region — the frozen-river Chadar Trek, the cliffside Phugtal Monastery, Padum, Rangdum, the road from Kargil, and everything you need to plan a trip to one of the Himalaya's last true frontiers.",
   keywords:
-    "Zanskar Valley, Chadar Trek, Phugtal Monastery, Padum Ladakh, Pensi La, Rangdum, Karsha Monastery, Sani Monastery, Zanskar travel guide, frozen river trek Ladakh, Kargil to Padum road",
+    "Zanskar Valley, Chadar Trek, Phugtal Monastery, Padum Ladakh, Pensi La, Rangdum, Karsha Monastery, Sani Monastery, Zanskar travel guide, frozen river trek Ladakh, Kargil to Padum road, best time to visit Zanskar Valley, how to reach Zanskar from Leh, Zanskar Valley budget trip, is Chadar Trek safe, Zanskar Valley itinerary days, Ladakh Zanskar trek",
   openGraph: {
     title: "Zanskar Valley Travel Guide: Chadar Trek, Phugtal & Padum",
     description:
@@ -119,6 +119,60 @@ function ArticleSchema() {
   );
 }
 
+// ── FAQ data (shared by visible section + JSON-LD) ────────────────────────────
+const faqs = [
+  {
+    q: "How many days do I need for Zanskar Valley?",
+    a: "For a road-trip visit covering Padum, Phugtal, Karsha, and Sani, allow at least several days — the Kargil–Padum drive alone is best split over two days with an overnight at Rangdum. The Chadar Trek is a separate commitment of 6–9 days, run only as an all-inclusive guided package.",
+  },
+  {
+    q: "What is the best time to visit Zanskar Valley?",
+    a: "For the road-trip version of Zanskar, aim for August to early September, when river levels have dropped from their July peak and Padum's guesthouses are all operating. The Chadar Trek runs on a completely different calendar — only in January and February, when the Zanskar River is frozen solid enough to walk on.",
+  },
+  {
+    q: "How do I reach Zanskar Valley from Leh?",
+    a: "For most of the year, the only reliable route is the long way round via Kargil and the roughly 230-km Kargil–Padum road over Pensi La. A more direct Nimmu–Padum–Darcha road from Leh is under construction but remains unpaved and weather-dependent, so treat the Kargil route as primary.",
+  },
+  {
+    q: "Is the Chadar Trek safe?",
+    a: "It can be done safely, but only with a registered local operator and experienced Zanskari guides who read the ice conditions daily — this is described in the guide as the one rule with zero exceptions. Attempting it independently is strongly discouraged given the extreme cold and unpredictable ice.",
+  },
+  {
+    q: "What is the budget for a Zanskar Valley trip?",
+    a: "Outside the Chadar Trek, expect roughly ₹800–₹3,500 per night for accommodation and ₹500–₹1,500 per day for food, depending on comfort level. The Chadar Trek itself is priced separately as an all-inclusive package, typically ₹28,000 to ₹55,000+ per person for around 8 days.",
+  },
+  {
+    q: "Is Zanskar Valley worth visiting?",
+    a: "Yes — it's described as one of the last genuinely remote corners of the Himalaya, with its own dialect, royal lineage, and the extraordinary cliffside Phugtal Monastery. It does demand real planning around remoteness, acclimatisation, and limited connectivity, so it rewards travellers willing to prepare properly.",
+  },
+  {
+    q: "What is Phugtal Monastery famous for?",
+    a: "Phugtal Monastery is built into and around a natural cave halfway up a sheer cliff face above the Lungnak River, with a meditation cave in use since the 2nd century and a monastery founded in the 12th century. It's reachable only on foot — a roughly 60 km drive from Padum to Purne, followed by a 1.5–2 hour trek along the river gorge.",
+  },
+];
+
+function FAQSchema() {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.a,
+            },
+          })),
+        }),
+      }}
+    />
+  );
+}
+
 // ── TOC ───────────────────────────────────────────────────────────────────────
 const tableOfContents = [
   { id: "introduction", title: "Why Zanskar Valley?", level: 2 },
@@ -136,6 +190,7 @@ const tableOfContents = [
   { id: "food-guide", title: "What to Eat", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
 // ── Page ─────────────────────────────────────────────────────────────────────
@@ -143,6 +198,7 @@ export default function ZanskarValleyPage() {
   return (
     <>
       <ArticleSchema />
+      <FAQSchema />
       <SiteHeader />
 
       <main>
@@ -1140,6 +1196,32 @@ export default function ZanskarValleyPage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── FAQ ───────────────────────────────────────────────── */}
+                <section id="faq">
+                  <h2>Frequently Asked Questions</h2>
+                  <div className="space-y-5 my-6">
+                    {faqs.map((f) => (
+                      <div
+                        key={f.q}
+                        className="bg-white border border-stone-200 rounded-xl p-5"
+                      >
+                        <h4
+                          className="font-bold text-stone-900 mb-2 text-base"
+                          style={{ fontFamily: "var(--font-playfair)" }}
+                        >
+                          {f.q}
+                        </h4>
+                        <p
+                          className="text-sm text-stone-600 leading-relaxed m-0"
+                          style={{ fontFamily: "var(--font-dm-sans)" }}
+                        >
+                          {f.a}
+                        </p>
+                      </div>
+                    ))}
                   </div>
                 </section>
               </div>

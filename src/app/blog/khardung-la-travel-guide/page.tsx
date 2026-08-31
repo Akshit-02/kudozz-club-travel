@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   description:
     "Complete guide to Khardung La — the legendary high-altitude pass to Nubra Valley. Real altitude facts, best time to visit, how to reach from Leh, altitude sickness precautions, permits, and essential tips.",
   keywords:
-    "Khardung La, Khardung La pass, Ladakh, Nubra Valley road, Leh to Khardung La, highest motorable pass, South Pullu, North Pullu, Ladakh bike trip, BRO road",
+    "Khardung La, Khardung La pass, Ladakh, Nubra Valley road, Leh to Khardung La, highest motorable pass, South Pullu, North Pullu, Ladakh bike trip, BRO road, Khardung La height in metres, best time to visit Khardung La, Khardung La altitude sickness, Khardung La permit ILP, Khardung La budget, is Khardung La the highest motorable pass, Khardung La motorcycle vs car",
   openGraph: {
     title: "Khardung La Travel Guide: Height, Route, Permits & Tips",
     description:
@@ -125,6 +125,60 @@ function ArticleSchema() {
   );
 }
 
+// ── FAQ data (shared by visible section + JSON-LD) ────────────────────────────
+const faqs = [
+  {
+    q: "How high is Khardung La?",
+    a: "Khardung La sits at 5,359 metres (17,582 ft) according to modern GPS surveys. For decades the signboard at the top claimed 5,602 m, but that figure has since been corrected.",
+  },
+  {
+    q: "Is Khardung La really the world's highest motorable pass?",
+    a: "No — that long-repeated claim has been debunked. Ladakh itself has higher roads, including Umling La near Chumathang, which tops 5,800 m, along with passes like Mardung La and Semo La that also clear Khardung La's true elevation. Khardung La remains a genuinely high, spectacular BRO-built road regardless.",
+  },
+  {
+    q: "How do I reach Khardung La from Leh?",
+    a: "Khardung La is about 40 km from Leh Market and takes roughly 1.5–2 hours each way by road, depending on traffic at the checkposts. The route runs Leh → South Pullu checkpost → Khardung village → the summit → North Pullu checkpost → down into Nubra Valley — no trekking or multi-day approach is required.",
+  },
+  {
+    q: "Do I need a permit to visit Khardung La?",
+    a: "Yes, an Inner Line Permit (ILP) is required and checked at both the South Pullu and North Pullu checkposts. ILPs are obtained in Leh, either online in advance or in person at the DC Office, and the same permit covers Nubra Valley, Pangong, and other restricted border areas. Carry 2–3 physical printouts per traveller, since digital copies aren't always accepted.",
+  },
+  {
+    q: "What is the best time to visit Khardung La?",
+    a: "The pass is open to civilian traffic roughly from late May or early June through October, with exact dates shifting each year based on snow clearance. Early-to-mid September is the recommended window — the road is fully open and reliably maintained, skies are clear, and crowds have thinned from the July–August peak.",
+  },
+  {
+    q: "How long should I stay at the top of Khardung La?",
+    a: "15–20 minutes is the widely recommended ceiling, since atmospheric pressure at 5,359 m delivers roughly half the oxygen you're used to. Take your photos, breathe, avoid exertion, and head back down rather than lingering.",
+  },
+  {
+    q: "Should I ride a motorcycle or take a car to Khardung La?",
+    a: "Both are common. Royal Enfields and other motorcycles are a rite of passage for many riders, with rental fleets concentrated in Leh's Changspa area, while shared or private taxis (Bolero, Sumo, or Innova) suit families, older travellers, or anyone who'd rather not manage a bike at altitude. A shared taxi to Nubra via the pass costs roughly ₹1,500–₹2,500 per person; a private full-day hire runs ₹4,500–₹7,000.",
+  },
+];
+
+function FAQSchema() {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.a,
+            },
+          })),
+        }),
+      }}
+    />
+  );
+}
+
 // ── TOC ───────────────────────────────────────────────────────────────────────
 const tableOfContents = [
   { id: "introduction", title: "Why Khardung La?", level: 2 },
@@ -141,6 +195,7 @@ const tableOfContents = [
   { id: "where-to-stay", title: "Where to Stay", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Tips: Do's & Don'ts", level: 2 },
+  { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
 // ── Page ─────────────────────────────────────────────────────────────────────
@@ -148,6 +203,7 @@ export default function KhardungLaPage() {
   return (
     <>
       <ArticleSchema />
+      <FAQSchema />
       <SiteHeader />
 
       <main>
@@ -994,6 +1050,32 @@ export default function KhardungLaPage() {
                     be — a genuinely thrilling, genuinely beautiful high
                     point of any Ladakh trip, not an ordeal to survive.
                   </p>
+                </section>
+
+                {/* ── FAQ ───────────────────────────────────────────────── */}
+                <section id="faq">
+                  <h2>Frequently Asked Questions</h2>
+                  <div className="space-y-5 my-6">
+                    {faqs.map((f) => (
+                      <div
+                        key={f.q}
+                        className="bg-white border border-stone-200 rounded-xl p-5"
+                      >
+                        <h4
+                          className="font-bold text-stone-900 mb-2 text-base"
+                          style={{ fontFamily: "var(--font-playfair)" }}
+                        >
+                          {f.q}
+                        </h4>
+                        <p
+                          className="text-sm text-stone-600 leading-relaxed m-0"
+                          style={{ fontFamily: "var(--font-dm-sans)" }}
+                        >
+                          {f.a}
+                        </p>
+                      </div>
+                    ))}
+                  </div>
                 </section>
               </div>
 

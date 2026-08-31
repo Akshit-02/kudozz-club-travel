@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   description:
     "The complete guide to Tso Moriri — Ladakh's remote Rupshu plateau lake at 4,522m. How to reach it, permits, Korzok village, Tso Kar, wildlife, homestays, a 2-day itinerary, and essential tips.",
   keywords:
-    "Tso Moriri, Tso Moriri Ladakh, Rupshu plateau, Korzok village, Tso Kar, Ladakh lakes, Changthang wildlife sanctuary, Ladakh inner line permit, Ladakh travel guide, high altitude lake India",
+    "Tso Moriri, Tso Moriri Ladakh, Rupshu plateau, Korzok village, Tso Kar, Ladakh lakes, Changthang wildlife sanctuary, Ladakh inner line permit, Ladakh travel guide, high altitude lake India, best time to visit Tso Moriri, how to reach Tso Moriri from Leh, Tso Moriri 2 day itinerary, Tso Moriri vs Pangong, Tso Moriri budget trip, Korzok homestay, black necked crane Ladakh",
   openGraph: {
     title: "Tso Moriri Travel Guide: Ladakh's Most Pristine High-Altitude Lake",
     description:
@@ -91,7 +91,7 @@ function ArticleSchema() {
             "@id": "https://club.kudozz.in/blog/tso-moriri-travel-guide",
           },
           keywords:
-            "Tso Moriri, Rupshu plateau, Korzok, Tso Kar, Ladakh, Changthang, high altitude lake",
+            "Tso Moriri, Rupshu plateau, Korzok, Tso Kar, Ladakh, Changthang, high altitude lake, best time to visit Tso Moriri, how to reach Tso Moriri from Leh, Tso Moriri 2 day itinerary, Tso Moriri budget trip, Korzok homestay, black necked crane Ladakh",
           about: {
             "@type": "Place",
             name: "Tso Moriri",
@@ -135,6 +135,60 @@ function ArticleSchema() {
   );
 }
 
+// ── FAQ data (shared by visible section + JSON-LD) ────────────────────────────
+const faqs = [
+  {
+    q: "How many days do I need for Tso Moriri?",
+    a: "Two full days is the realistic minimum — one day each way from Leh, with a full day at the lake in between for the Korzok Monastery, birdwatching along the shore, and simply sitting with the view. Adding a third day to exit via Tso Kar and Puga turns it into a fuller Rupshu plateau circuit.",
+  },
+  {
+    q: "What is the best time to visit Tso Moriri?",
+    a: "Mid-to-late August is the pick — migratory bird activity is still strong, the plateau is at its lushest by Rupshu standards, and daytime temperatures at the lake are as comfortable as they get. The lake is really only accessible from May through September; October to April is effectively closed, with temperatures falling to -25°C or lower.",
+  },
+  {
+    q: "How do I reach Tso Moriri from Leh?",
+    a: "There's no shortcut — every route is a full day's drive, roughly 220 km and 6–7 hours one-way via Upshi and Chumathang. A more adventurous route approaches from the Manali–Leh highway side via Tso Kar and Puga. There's no public bus service, so a private vehicle or organised tour is the reliable way in.",
+  },
+  {
+    q: "Do I need a permit to visit Tso Moriri?",
+    a: "Yes. All Indian nationals need an Inner Line Permit (ILP), obtainable online or at the DC Office in Leh, checked at the Sumdo checkpoint. Foreign nationals additionally need a Protected Area Permit (PAP), arranged through a registered Leh-based tour operator, and must travel with a licensed guide. There's also a small Wildlife Sanctuary entry fee.",
+  },
+  {
+    q: "Is Tso Moriri better than Pangong Tso?",
+    a: "They're different experiences rather than strictly better or worse — Tso Moriri lies entirely within Indian territory (unlike Pangong, which stretches into Tibet) and sees a fraction of the tourist footfall, offering the same high-altitude drama with far more solitude, plus a genuine wildlife draw as a Ramsar wetland and Changthang Wildlife Sanctuary core zone.",
+  },
+  {
+    q: "What is the budget for a Tso Moriri trip?",
+    a: "A 2-day trip runs roughly ₹5,500 per person on a budget level (shared vehicle) up to ₹22,000 on a more comfortable level, covering homestay accommodation, vehicle hire, permits, and food. Costs drop significantly when splitting a private vehicle across a group of 4–5.",
+  },
+  {
+    q: "Where do I stay at Tso Moriri?",
+    a: "There are no hotels — accommodation means a family-run homestay in Korzok village (₹1,200–₹2,000/night, usually including meals) or a seasonal tented camp (₹2,500–₹5,000/night), both run through the village's homestay cooperative to keep tourism revenue with local families.",
+  },
+];
+
+function FAQSchema() {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.a,
+            },
+          })),
+        }),
+      }}
+    />
+  );
+}
+
 // ── TOC ───────────────────────────────────────────────────────────────────────
 const tableOfContents = [
   { id: "introduction", title: "Why Visit Tso Moriri?", level: 2 },
@@ -151,6 +205,7 @@ const tableOfContents = [
   { id: "food-guide", title: "What to Eat", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
 // ── Page ─────────────────────────────────────────────────────────────────────
@@ -158,6 +213,7 @@ export default function TsoMoririPage() {
   return (
     <>
       <ArticleSchema />
+      <FAQSchema />
       <SiteHeader />
 
       <main>
@@ -1163,6 +1219,32 @@ export default function TsoMoririPage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── FAQ ───────────────────────────────────────────────── */}
+                <section id="faq">
+                  <h2>Frequently Asked Questions</h2>
+                  <div className="space-y-5 my-6">
+                    {faqs.map((f) => (
+                      <div
+                        key={f.q}
+                        className="bg-white border border-stone-200 rounded-xl p-5"
+                      >
+                        <h4
+                          className="font-bold text-stone-900 mb-2 text-base"
+                          style={{ fontFamily: "var(--font-playfair)" }}
+                        >
+                          {f.q}
+                        </h4>
+                        <p
+                          className="text-sm text-stone-600 leading-relaxed m-0"
+                          style={{ fontFamily: "var(--font-dm-sans)" }}
+                        >
+                          {f.a}
+                        </p>
+                      </div>
+                    ))}
                   </div>
                 </section>
               </div>

@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description:
     "The complete Kerala Backwaters travel guide. Everything you need — Alleppey vs Kumarakom vs Kollam, houseboat booking, the Kuttanad route, village life, food, where to stay, and a complete 4-day itinerary through the 900-km backwater network.",
   keywords:
-    "Kerala backwaters, Alleppey houseboat, Kumarakom backwaters, Kuttanad, Kerala houseboat booking, Vembanad Lake, Kollam Alleppey ferry, backwater village tour, Kerala itinerary, Munroe Island",
+    "Kerala backwaters, Alleppey houseboat, Kumarakom backwaters, Kuttanad, Kerala houseboat booking, Vembanad Lake, Kollam Alleppey ferry, backwater village tour, Kerala itinerary, Munroe Island, best time to visit Kerala backwaters, how to reach Alleppey from Kochi, Kerala backwaters budget trip, Kerala backwaters itinerary days, is one night on a houseboat enough, things to do in Kerala backwaters, Alleppey vs Kumarakom vs Kollam",
   openGraph: {
     title: "Kerala Backwaters Guide: Houseboats, Routes, Villages & Tips",
     description:
@@ -114,6 +114,60 @@ function ArticleSchema() {
   );
 }
 
+// ── FAQ data (shared by visible section + JSON-LD) ────────────────────────────
+const faqs = [
+  {
+    q: "How many days do I need for the Kerala backwaters?",
+    a: "Four days is a comfortable length, as laid out in this guide's itinerary — one night on a houseboat, a village canoe tour, a day in Kumarakom for birdwatching, and a stop at Munroe Island before departure. If time is tight, even a single overnight houseboat combined with a half-day canoe tour captures most of what makes the backwaters special.",
+  },
+  {
+    q: "Is one night on a houseboat enough?",
+    a: "Yes, for most travellers one night is enough — the novelty of the houseboat experience is real, but the routes become repetitive after the first night. Pairing one overnight houseboat stay with a village canoe tour and a land-based homestay gives a fuller experience than booking multiple houseboat nights.",
+  },
+  {
+    q: "What is the best time to visit the Kerala backwaters?",
+    a: "Late September to November is the recommended window — the backwaters are at their lushest right after the monsoon, with high water levels and vivid green paddy fields, and crowds and prices are lower than the December–February peak. December to February is the most popular and driest season, while March to May is hotter but cheaper, with houseboat rates sometimes 30% lower than peak.",
+  },
+  {
+    q: "How do I reach the Kerala backwaters from Kochi?",
+    a: "The main gateway is Alleppey (Alappuzha). Cochin International Airport (COK) is 85 km away, roughly a 2-hour taxi ride; Alappuzha railway station connects directly to Kochi in about 1.5 hours; and KSRTC buses cover the same route in 1.5–2 hours. Kumarakom and Kollam are also viable bases, both reachable via Kochi.",
+  },
+  {
+    q: "What is the budget for a Kerala backwaters trip?",
+    a: "A 4-day trip including one houseboat night costs roughly ₹14,000 on a budget itinerary, closer to ₹27,000 mid-range, and upward of ₹65,000 for a luxury trip. The houseboat itself is the single biggest variable in the budget, and splitting the cost across a group of four reduces the per-person price significantly.",
+  },
+  {
+    q: "Should I base myself in Alleppey, Kumarakom, or Kollam?",
+    a: "Alleppey is the best choice for first-timers, with the widest range of houseboats and price points, though its main channels can feel congested in peak season. Kumarakom, on Vembanad Lake's eastern shore, is calmer, more upmarket, and better for birdwatching. Kollam connects to the quieter Ashtamudi Lake system and suits travellers who've done Alleppey before or want lower crowds, while nearby Munroe Island offers an off-the-houseboat-circuit canoe experience.",
+  },
+  {
+    q: "What is Kuttanad and why is it famous?",
+    a: "Kuttanad, known as the 'rice bowl of Kerala,' is one of the very few places on earth where farming happens below sea level — some paddy fields sit as much as 2.2 metres below mean sea level, protected by a network of mud embankments (bunds) and pumping systems maintained for over a century. It's best experienced via a houseboat route that traverses the smaller paddy-adjacent canals or a guided village walk.",
+  },
+];
+
+function FAQSchema() {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.a,
+            },
+          })),
+        }),
+      }}
+    />
+  );
+}
+
 // ── TOC ───────────────────────────────────────────────────────────────────────
 const tableOfContents = [
   { id: "introduction", title: "Why the Kerala Backwaters?", level: 2 },
@@ -136,6 +190,7 @@ const tableOfContents = [
   { id: "itinerary", title: "4-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
 // ── Backwaters-specific gear ───────────────────────────────────────────────────
@@ -232,6 +287,7 @@ export default function KeralaBackwatersPage() {
   return (
     <>
       <ArticleSchema />
+      <FAQSchema />
       <SiteHeader />
 
       <main>
@@ -1572,6 +1628,32 @@ export default function KeralaBackwatersPage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── FAQ ───────────────────────────────────────────────── */}
+                <section id="faq">
+                  <h2>Frequently Asked Questions</h2>
+                  <div className="space-y-5 my-6">
+                    {faqs.map((f) => (
+                      <div
+                        key={f.q}
+                        className="bg-white border border-stone-200 rounded-xl p-5"
+                      >
+                        <h4
+                          className="font-bold text-stone-900 mb-2 text-base"
+                          style={{ fontFamily: "var(--font-playfair)" }}
+                        >
+                          {f.q}
+                        </h4>
+                        <p
+                          className="text-sm text-stone-600 leading-relaxed m-0"
+                          style={{ fontFamily: "var(--font-dm-sans)" }}
+                        >
+                          {f.a}
+                        </p>
+                      </div>
+                    ))}
                   </div>
                 </section>
               </div>

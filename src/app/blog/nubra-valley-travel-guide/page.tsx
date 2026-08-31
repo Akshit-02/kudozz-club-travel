@@ -22,6 +22,14 @@ export const metadata: Metadata = {
     "Hunder Sand Dunes",
     "Bactrian Camels",
     "India",
+    "best time to visit Nubra Valley",
+    "how to reach Nubra Valley from Leh",
+    "Nubra Valley itinerary days",
+    "Nubra Valley permits ILP",
+    "Nubra Valley budget trip",
+    "top things to do in Nubra Valley",
+    "Turtuk village",
+    "Panamik hot springs",
   ].join(", "),
   openGraph: {
     title: "Nubra Valley Travel Guide: Sand Dunes, Camels & Cold Desert",
@@ -103,6 +111,14 @@ function ArticleSchema() {
             "Hunder Sand Dunes",
             "Bactrian Camels",
             "India",
+            "best time to visit Nubra Valley",
+            "how to reach Nubra Valley from Leh",
+            "Nubra Valley itinerary days",
+            "Nubra Valley permits ILP",
+            "Nubra Valley budget trip",
+            "top things to do in Nubra Valley",
+            "Turtuk village",
+            "Panamik hot springs",
           ].join(", "),
           about: {
             "@type": "Place",
@@ -163,13 +179,69 @@ const tableOfContents = [
   { id: "food-guide", title: "What to Eat", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
+
+// ── FAQ data (shared by visible section + JSON-LD) ────────────────────────────
+const faqs = [
+  {
+    q: "How many days do I need for Nubra Valley?",
+    a: "The classic loop from Leh is a 2-day, 1-night trip — enough to see Diskit Monastery, the Maitreya Buddha, and a sunset camel ride on the Hunder dunes on Day 1, then Sumur, Panamik, and the return over Khardung La on Day 2. With a third day, add Turtuk as a worthwhile overnight extension.",
+  },
+  {
+    q: "What is the best time to visit Nubra Valley?",
+    a: "Our pick is early-to-mid September, when the apricot orchards in Sumur and Diskit turn gold, Khardung La is free of summer traffic jams, and the dunes at Hunder catch beautiful late-afternoon light. July–August is the warmest, driest, and busiest window, while Khardung La is typically closed to civilian traffic from late October to May.",
+  },
+  {
+    q: "How do I reach Nubra Valley from Leh?",
+    a: "The standard route crosses Khardung La (5,359 m) north of Leh, descending to Diskit — roughly 120 km and 4–5 hours by shared taxi, private cab, or motorbike. A scenic alternative runs via the Shyok River and Wari La, skipping Khardung La entirely and taking 6–7 hours, which works well as one leg of a loop if you're continuing on to Pangong Tso.",
+  },
+  {
+    q: "Do I need a permit to visit Nubra Valley?",
+    a: "Yes. Nubra sits inside a protected border zone near the Line of Control, so an Inner Line Permit (ILP) is mandatory for all Indian nationals, obtainable online or at the DC Office in Leh. Foreign nationals need a Protected Area Permit (PAP) arranged through a registered Leh travel agent, and anyone continuing on to Turtuk or Panamik needs the PAP as well.",
+  },
+  {
+    q: "What is the budget for a trip to Nubra Valley?",
+    a: "Excluding transport from Leh, a daily budget (accommodation, food, permits, and a camel ride) runs roughly ₹2,200 on a budget trip, ₹5,100 mid-range, or ₹11,300 for a luxury trip. Vehicle hire for the Leh–Nubra return adds ₹700–₹9,000 depending on whether you go by shared taxi, private cab, or self-driven bike.",
+  },
+  {
+    q: "Is Nubra Valley worth visiting?",
+    a: "Yes — it's one of Ladakh's most rewarding detours precisely because it looks so different from the rest of the region: pale sand dunes with double-humped Bactrian camels set against snow peaks, a 32-metre golden Buddha at Diskit, and centuries-old monasteries tucked into cliffs above the Shyok and Nubra rivers.",
+  },
+  {
+    q: "What are the Hunder sand dunes and are the camel rides worth it?",
+    a: "The Hunder sand dunes are Nubra's postcard image — pale, cold-desert dunes along the Shyok riverbed that host Ladakh's famous double-humped Bactrian camels, descendants of animals used on old Silk Route caravans. A 20–25 minute camel ride costs roughly ₹500–₹700 per person and is genuinely worth doing once, especially at sunset when the dunes turn gold and day-trip crowds have thinned.",
+  },
+];
+
+function FAQSchema() {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.a,
+            },
+          })),
+        }),
+      }}
+    />
+  );
+}
 
 // ── Page ─────────────────────────────────────────────────────────────────────
 export default function NubraValleyPage() {
   return (
     <>
       <ArticleSchema />
+      <FAQSchema />
       <SiteHeader />
 
       <main>
@@ -1071,6 +1143,32 @@ export default function NubraValleyPage() {
                     sit with a cup of butter tea in a Sumur homestay, and let
                     the valley's quiet, high-desert rhythm take over.
                   </p>
+                </section>
+
+                {/* ── FAQ ───────────────────────────────────────────────── */}
+                <section id="faq">
+                  <h2>Frequently Asked Questions</h2>
+                  <div className="space-y-5 my-6">
+                    {faqs.map((f) => (
+                      <div
+                        key={f.q}
+                        className="bg-white border border-stone-200 rounded-xl p-5"
+                      >
+                        <h4
+                          className="font-bold text-stone-900 mb-2 text-base"
+                          style={{ fontFamily: "var(--font-playfair)" }}
+                        >
+                          {f.q}
+                        </h4>
+                        <p
+                          className="text-sm text-stone-600 leading-relaxed m-0"
+                          style={{ fontFamily: "var(--font-dm-sans)" }}
+                        >
+                          {f.a}
+                        </p>
+                      </div>
+                    ))}
+                  </div>
                 </section>
               </div>
 

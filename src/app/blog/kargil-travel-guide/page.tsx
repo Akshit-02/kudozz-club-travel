@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   description:
     "The complete Kargil travel guide — how to reach Kargil on the Srinagar-Leh highway, the Mulbekh rock-cut Buddha, Kargil War Memorial at Dras, Balti culture, Suru Valley, the road to Zanskar, where to stay, what to eat, and essential tips.",
   keywords:
-    "Kargil travel guide, Kargil Ladakh, Srinagar Leh highway, Kargil War Memorial, Dras war memorial, Mulbekh Chamba statue, Suru Valley, Zanskar road, Balti culture Ladakh, Kargil to Leh",
+    "Kargil travel guide, Kargil Ladakh, Srinagar Leh highway, Kargil War Memorial, Dras war memorial, Mulbekh Chamba statue, Suru Valley, Zanskar road, Balti culture Ladakh, Kargil to Leh, best time to visit Kargil, how to reach Kargil, Kargil to Zanskar distance, Kargil budget trip, Nun Kun massif, things to do in Kargil",
   openGraph: {
     title: "Kargil Travel Guide: Gateway to Zanskar & the Srinagar-Leh Highway",
     description:
@@ -126,6 +126,60 @@ function ArticleSchema() {
   );
 }
 
+// ── FAQ data (shared by visible section + JSON-LD) ────────────────────────────
+const faqs = [
+  {
+    q: "How do I reach Kargil?",
+    a: "Kargil has no airport or railway line — every visitor arrives by road. From Srinagar it's 204 km via NH1 over Zoji La, taking 7–8 hours; from Leh it's also 204 km via Lamayuru, Fotu La, and Namika La, taking 6–7 hours. Both routes are typically open from roughly May to November, weather dependent.",
+  },
+  {
+    q: "What is the best time to visit Kargil?",
+    a: "Late August is our pick — the apricot harvest is in full swing, the Zanskar road is at its most reliable, and the midsummer heat in the lower Suru Valley has eased. If Zanskar isn't on your itinerary, June–July gives the widest window with every route open.",
+  },
+  {
+    q: "Is Kargil worth an overnight stay, or just a drive-through?",
+    a: "It's worth stopping for. Most highway travellers treat Kargil as a place to sleep before the next day's drive, but the town is one of the few places in Ladakh where Balti Muslim and Buddhist Ladakhi worlds visibly meet — the bazaar, its mixed architecture, and Balti cuisine reward at least one unhurried evening.",
+  },
+  {
+    q: "What is the Kargil War Memorial?",
+    a: "The Kargil War Memorial (also called the Vijayanta War Memorial) stands at Dras, about 60 km before Kargil on the Srinagar side, with the peaks of Tololing and Tiger Hill — the actual battle sites of the 1999 Kargil War — as its backdrop. It includes a wall inscribed with the names of the fallen, a small museum, and an eternal flame; most travellers pause for 30–45 minutes.",
+  },
+  {
+    q: "Can I visit Zanskar from Kargil?",
+    a: "Yes — Kargil is the practical entry point to Zanskar for most travellers. A single road runs 230 km south through the Suru Valley, over the Pensi La (4,400 m), and down to Padum, typically open only from June to early October and best split over two days. The alternative approach from Manali via Shinkun La is longer, higher, and open for a shorter window.",
+  },
+  {
+    q: "What is the budget for a trip to Kargil?",
+    a: "A budget traveller can expect around ₹1,450 a day covering accommodation, food, local transport, and sightseeing. Mid-range travel runs about ₹4,000 a day, and a more comfortable stay can reach ₹8,500 a day — Kargil has no true luxury tier, so plan accordingly. This excludes the cost of reaching Kargil itself from Srinagar or Leh.",
+  },
+  {
+    q: "What is the Suru Valley known for?",
+    a: "The Suru Valley, running south of Kargil town along the Suru River, is known for its willow-lined villages like Sankoo and Panikhar and for close-up views of the Nun Kun massif — twin peaks of 7,135 m and 7,077 m visible from the road near Parkachik, one of the few places in Ladakh where a 7,000-metre peak is visible from a paved highway.",
+  },
+];
+
+function FAQSchema() {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.a,
+            },
+          })),
+        }),
+      }}
+    />
+  );
+}
+
 // ── TOC ───────────────────────────────────────────────────────────────────────
 const tableOfContents = [
   { id: "introduction", title: "Why Kargil?", level: 2 },
@@ -143,6 +197,7 @@ const tableOfContents = [
   { id: "food-guide", title: "What to Eat", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
 // ── Page ─────────────────────────────────────────────────────────────────────
@@ -150,6 +205,7 @@ export default function KargilPage() {
   return (
     <>
       <ArticleSchema />
+      <FAQSchema />
       <SiteHeader />
 
       <main>
@@ -1139,6 +1195,32 @@ export default function KargilPage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── FAQ ───────────────────────────────────────────────── */}
+                <section id="faq">
+                  <h2>Frequently Asked Questions</h2>
+                  <div className="space-y-5 my-6">
+                    {faqs.map((f) => (
+                      <div
+                        key={f.q}
+                        className="bg-white border border-stone-200 rounded-xl p-5"
+                      >
+                        <h4
+                          className="font-bold text-stone-900 mb-2 text-base"
+                          style={{ fontFamily: "var(--font-playfair)" }}
+                        >
+                          {f.q}
+                        </h4>
+                        <p
+                          className="text-sm text-stone-600 leading-relaxed m-0"
+                          style={{ fontFamily: "var(--font-dm-sans)" }}
+                        >
+                          {f.a}
+                        </p>
+                      </div>
+                    ))}
                   </div>
                 </section>
               </div>

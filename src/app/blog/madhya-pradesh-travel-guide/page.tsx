@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description:
     "The complete Madhya Pradesh travel guide — the intricately carved temples of Khajuraho, tiger safaris in Bandhavgarh and Kanha, Gwalior Fort, the Sanchi Stupa, Pachmarhi's hills, where to stay and eat, and a full itinerary through the 'Heart of India.'",
   keywords:
-    "Madhya Pradesh travel guide, Khajuraho temples, Bandhavgarh National Park, Kanha National Park, Gwalior Fort, Sanchi Stupa, Pachmarhi, Madhya Pradesh itinerary, tiger safari India, Ujjain Mahakaleshwar",
+    "Madhya Pradesh travel guide, Khajuraho temples, Bandhavgarh National Park, Kanha National Park, Gwalior Fort, Sanchi Stupa, Pachmarhi, Madhya Pradesh itinerary, tiger safari India, Ujjain Mahakaleshwar, best time to visit Madhya Pradesh, how to reach Khajuraho, Madhya Pradesh itinerary days, Madhya Pradesh budget trip, top things to do in Madhya Pradesh, Bandhavgarh vs Kanha tiger safari, Khajuraho dance festival, is Madhya Pradesh safe for solo travellers",
   openGraph: {
     title:
       "Madhya Pradesh Travel Guide: Khajuraho, Bandhavgarh & Gwalior Fort",
@@ -116,6 +116,60 @@ function ArticleSchema() {
   );
 }
 
+// ── FAQ data (shared by visible section + JSON-LD) ────────────────────────────
+const faqs = [
+  {
+    q: "How many days do I need for Madhya Pradesh?",
+    a: "Seven days is a reasonable minimum to combine Khajuraho, a tiger reserve like Bandhavgarh, and Gwalior without excessive rushing, as covered in our suggested itinerary. With less time, prioritize either Khajuraho and Gwalior, or Khajuraho and a tiger reserve, rather than trying to fit everything in.",
+  },
+  {
+    q: "What is the best time to visit Madhya Pradesh?",
+    a: "October to March is the best overall window, with cool, dry, and pleasant weather (10–28°C) ideal for temple sightseeing, forts, and comfortable safari mornings. If a tiger sighting is the top priority, April–May offers the best odds as water sources shrink and tigers concentrate near remaining waterholes, despite the heat.",
+  },
+  {
+    q: "How do I reach Khajuraho?",
+    a: "Khajuraho Airport (HJR) has regular domestic connections from major Indian cities, and the town also has its own well-connected rail station. Bhopal's Raja Bhoj Airport and Indore's Devi Ahilya Bai Holkar Airport are other options if flying into Khajuraho directly isn't available on your dates.",
+  },
+  {
+    q: "Is Madhya Pradesh good for a tiger safari?",
+    a: "Yes — Madhya Pradesh is often called the 'Tiger State' of India, home to more tigers than any other state. Bandhavgarh National Park is known for an unusually high tiger density and is often considered the most reliable park for sightings, while Kanha National Park offers sprawling sal forests said to have inspired Kipling's The Jungle Book.",
+  },
+  {
+    q: "What is the budget for a Madhya Pradesh trip?",
+    a: "A budget traveller can expect a daily total of around ₹3,650, a mid-range trip around ₹9,100/day, and a luxury trip around ₹21,000/day, based on accommodation, food, local transport, and safari and entry fees. Safari permit and jeep costs at Bandhavgarh and Kanha are a significant line item, though shared jeeps bring per-person costs down considerably.",
+  },
+  {
+    q: "Is Khajuraho worth visiting?",
+    a: "Yes — Khajuraho is a UNESCO World Heritage Site, built between the 10th and 12th centuries by the Chandela dynasty, and remains one of India's most significant architectural achievements. The Western Group of Temples, including Kandariya Mahadeva Temple, is renowned for its exceptionally detailed sculptural work.",
+  },
+  {
+    q: "When do Bandhavgarh and Kanha national parks close?",
+    a: "Both parks' core safari zones typically close entirely during monsoon, roughly July through September, to protect breeding wildlife. Always confirm current closure dates before booking, since safari permits are capped daily and demand is high in the surrounding peak season of November through February.",
+  },
+];
+
+function FAQSchema() {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.a,
+            },
+          })),
+        }),
+      }}
+    />
+  );
+}
+
 // ── TOC ───────────────────────────────────────────────────────────────────────
 const tableOfContents = [
   { id: "introduction", title: "Why Madhya Pradesh?", level: 2 },
@@ -130,6 +184,7 @@ const tableOfContents = [
   { id: "itinerary", title: "7-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
 // ── Madhya Pradesh-specific gear ───────────────────────────────────────────
@@ -227,6 +282,7 @@ export default function MadhyaPradeshGuidePage() {
   return (
     <>
       <ArticleSchema />
+      <FAQSchema />
       <SiteHeader />
 
       <main>
@@ -1103,6 +1159,32 @@ export default function MadhyaPradeshGuidePage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── FAQ ───────────────────────────────────────────────── */}
+                <section id="faq">
+                  <h2>Frequently Asked Questions</h2>
+                  <div className="space-y-5 my-6">
+                    {faqs.map((f) => (
+                      <div
+                        key={f.q}
+                        className="bg-white border border-stone-200 rounded-xl p-5"
+                      >
+                        <h4
+                          className="font-bold text-stone-900 mb-2 text-base"
+                          style={{ fontFamily: "var(--font-playfair)" }}
+                        >
+                          {f.q}
+                        </h4>
+                        <p
+                          className="text-sm text-stone-600 leading-relaxed m-0"
+                          style={{ fontFamily: "var(--font-dm-sans)" }}
+                        >
+                          {f.a}
+                        </p>
+                      </div>
+                    ))}
                   </div>
                 </section>
               </div>

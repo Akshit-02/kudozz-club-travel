@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description:
     "The complete Tamil Nadu travel guide — Madurai's Meenakshi Temple, Mahabalipuram's UNESCO shore temples, Thanjavur's Brihadeeswarar Temple, Ooty's tea gardens, Chennai, where to stay and eat, and a full itinerary through the heart of Dravidian India.",
   keywords:
-    "Tamil Nadu travel guide, Meenakshi Temple Madurai, Mahabalipuram shore temple, Thanjavur Brihadeeswarar Temple, Ooty travel guide, Chennai travel guide, Kanyakumari, Rameswaram, Tamil Nadu itinerary, Chettinad food",
+    "Tamil Nadu travel guide, Meenakshi Temple Madurai, Mahabalipuram shore temple, Thanjavur Brihadeeswarar Temple, Ooty travel guide, Chennai travel guide, Kanyakumari, Rameswaram, Tamil Nadu itinerary, Chettinad food, best time to visit Tamil Nadu, how to reach Madurai from Chennai, Tamil Nadu 7 day itinerary, is Tamil Nadu safe for solo travellers, Tamil Nadu trip budget, top things to do in Tamil Nadu, Nilgiri Mountain Railway tickets, Ooty vs Kodaikanal, is Tamil Nadu worth visiting",
   openGraph: {
     title: "Tamil Nadu Travel Guide: Madurai, Mahabalipuram & Ooty",
     description:
@@ -115,6 +115,60 @@ function ArticleSchema() {
   );
 }
 
+// ── FAQ data (shared by visible section + JSON-LD) ────────────────────────────
+const faqs = [
+  {
+    q: "How many days do I need for a Tamil Nadu trip?",
+    a: "Seven days is a comfortable minimum to cover the temple towns, the coast, and a hill-station leg without excessive rushing, as outlined in our suggested itinerary through Chennai, Mahabalipuram, Thanjavur, Madurai, and Ooty.",
+  },
+  {
+    q: "What is the best time to visit Tamil Nadu?",
+    a: "December to February is the best window — cooler, drier conditions (20–30°C) make temple courtyards and coastal sightseeing genuinely comfortable, and it's past the worst of the northeast monsoon rains while still cool enough in Ooty for a proper hill-station experience.",
+  },
+  {
+    q: "How do I reach Madurai from Chennai?",
+    a: "Chennai Central is a major railway hub well connected to Madurai, and Madurai also has its own regional airport. Most itineraries route through Mahabalipuram and Thanjavur first, reaching Madurai via a roughly 2-hour onward journey from Thanjavur.",
+  },
+  {
+    q: "Is Tamil Nadu safe for solo travellers?",
+    a: "Tamil Nadu is one of India's most temple-tourism-friendly states with well-developed infrastructure across all major towns. The main things to plan around are temple dress codes (covered shoulders and knees, sometimes a dhoti for men) and avoiding Chennai during the disruptive northeast monsoon in November–December.",
+  },
+  {
+    q: "What is the budget for a Tamil Nadu trip?",
+    a: "A 7-day trip runs around ₹16,800 total on a budget, ₹47,600 mid-range, or roughly ₹1,47,000 for a luxury trip, covering accommodation, food, local transport, and activities — excluding flights to Chennai.",
+  },
+  {
+    q: "How do I book Nilgiri Mountain Railway tickets to Ooty?",
+    a: "Book the Nilgiri Mountain Railway toy train from Mettupalayam to Ooty well in advance — it's a UNESCO World Heritage narrow-gauge railway and seats sell out quickly in peak season, especially April–June.",
+  },
+  {
+    q: "Is Tamil Nadu worth visiting?",
+    a: "Yes — from Madurai's Meenakshi Amman Temple with its fourteen painted gopurams, to Mahabalipuram's UNESCO shore temples on the Bay of Bengal, to a genuine climate escape in the Nilgiri hills, Tamil Nadu is one of India's most complete single-state itineraries.",
+  },
+];
+
+function FAQSchema() {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.a,
+            },
+          })),
+        }),
+      }}
+    />
+  );
+}
+
 // ── TOC ───────────────────────────────────────────────────────────────────────
 const tableOfContents = [
   { id: "introduction", title: "Why Tamil Nadu?", level: 2 },
@@ -130,6 +184,7 @@ const tableOfContents = [
   { id: "itinerary", title: "7-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
 // ── Tamil Nadu-specific gear ─────────────────────────────────────────────────
@@ -227,6 +282,7 @@ export default function TamilNaduGuidePage() {
   return (
     <>
       <ArticleSchema />
+      <FAQSchema />
       <SiteHeader />
 
       <main>
@@ -1109,6 +1165,32 @@ export default function TamilNaduGuidePage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── FAQ ───────────────────────────────────────────────── */}
+                <section id="faq">
+                  <h2>Frequently Asked Questions</h2>
+                  <div className="space-y-5 my-6">
+                    {faqs.map((f) => (
+                      <div
+                        key={f.q}
+                        className="bg-white border border-stone-200 rounded-xl p-5"
+                      >
+                        <h4
+                          className="font-bold text-stone-900 mb-2 text-base"
+                          style={{ fontFamily: "var(--font-playfair)" }}
+                        >
+                          {f.q}
+                        </h4>
+                        <p
+                          className="text-sm text-stone-600 leading-relaxed m-0"
+                          style={{ fontFamily: "var(--font-dm-sans)" }}
+                        >
+                          {f.a}
+                        </p>
+                      </div>
+                    ))}
                   </div>
                 </section>
               </div>

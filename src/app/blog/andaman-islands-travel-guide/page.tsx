@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   description:
     "The complete Andaman & Nicobar Islands travel guide. Everything you need — how to reach Port Blair, Havelock Island, Neil Island, Radhanagar Beach, scuba diving, snorkelling, Cellular Jail, permits, ferries, and a 7-day itinerary.",
   keywords:
-    "Andaman Islands travel guide, Havelock Island, Radhanagar Beach, Neil Island, Andaman scuba diving, Port Blair, Cellular Jail, Andaman ferry, Andaman permit, Ross Island, Andaman itinerary, Elephant Beach snorkelling",
+    "Andaman Islands travel guide, Havelock Island, Radhanagar Beach, Neil Island, Andaman scuba diving, Port Blair, Cellular Jail, Andaman ferry, Andaman permit, Ross Island, Andaman itinerary, Elephant Beach snorkelling, best time to visit Andaman Islands, how to reach Andaman from Chennai, Andaman itinerary 7 days, is Andaman safe for solo travellers, Andaman budget trip, top things to do in Andaman Islands, Andaman honeymoon package, Baratang limestone caves, Barren Island volcano diving, Andaman islands FAQ",
   openGraph: {
     title: "Andaman Islands Travel Guide: Beaches, Diving, Permits & Tips",
     description:
@@ -115,6 +115,60 @@ function ArticleSchema() {
   );
 }
 
+// ── FAQ data (shared by visible section + JSON-LD) ────────────────────────────
+const faqs = [
+  {
+    q: "How many days do I need for the Andaman Islands?",
+    a: "Seven days is the ideal minimum — enough time to cover Port Blair, Havelock, and Neil Island properly, with a half-day at Ross Island and a day trip to Baratang if time allows. Shorter trips are possible but mean cutting either Neil Island or the diving/snorkelling days.",
+  },
+  {
+    q: "What is the best time to visit the Andaman Islands?",
+    a: "Mid-November to mid-February is the sweet spot, with crystal-clear water visibility (20–30m for diving), calm seas, and the best beach weather. March to May is excellent value with thinner crowds and still-good diving visibility. June to September, the southwest monsoon, is best avoided — ferries are frequently cancelled and dive visibility drops sharply.",
+  },
+  {
+    q: "How do I reach the Andaman Islands from the mainland?",
+    a: "Almost all visitors fly into Port Blair's Veer Savarkar International Airport (IXZ), with daily direct flights from Chennai (2 hrs), Kolkata (2 hrs), and connections from Delhi and Bangalore. Government passenger ships also run from Chennai, Kolkata, and Visakhapatnam, taking 56–60 hours — a memorable but far slower option.",
+  },
+  {
+    q: "Do I need a permit to visit the Andaman Islands?",
+    a: "Indian nationals don't need a permit for the freely accessible islands — Port Blair, Havelock, Neil, Baratang, Ross Island, and North Bay — which cover most of what tourists visit. Islands like Little Andaman or North Andaman require a free Restricted Area Permit (RAP) from the Deputy Commissioner's Office in Port Blair, while a few areas, including North Sentinel Island, are permanently off-limits.",
+  },
+  {
+    q: "What is the budget for a trip to the Andaman Islands?",
+    a: "A 7-day trip costs roughly ₹18,200 on a budget itinerary, ₹54,600 mid-range, or up to ₹1,57,500 for a luxury trip, covering accommodation, food, ferries, diving, and local transport — excluding flights from mainland India, which typically run ₹4,000–₹15,000 one way.",
+  },
+  {
+    q: "Which is better — Havelock Island or Neil Island?",
+    a: "They serve different purposes rather than one being outright better. Havelock has the best beaches (Radhanagar), the best dive sites, and the widest range of accommodation, and is the reason most people visit at all. Neil Island is smaller, quieter, and more village-like, best for slowing down after Havelock rather than as the main event.",
+  },
+  {
+    q: "Is scuba diving beginner-friendly in the Andaman Islands?",
+    a: "Yes. A Discover Scuba introductory session (pool briefing plus one shallow ocean dive, no certification required) costs roughly ₹3,500–₹4,500, and sites like Lighthouse and Aquarium near North Bay are rated Beginner. Certified divers can also do a full PADI Open Water course on Havelock over four days.",
+  },
+];
+
+function FAQSchema() {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.a,
+            },
+          })),
+        }),
+      }}
+    />
+  );
+}
+
 // ── TOC ───────────────────────────────────────────────────────────────────────
 const tableOfContents = [
   { id: "introduction", title: "Why Andaman Islands?", level: 2 },
@@ -139,6 +193,7 @@ const tableOfContents = [
   { id: "itinerary", title: "7-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
 // ── Andaman-specific gear ─────────────────────────────────────────────────────
@@ -237,6 +292,7 @@ export default function AndamanIslandsPage() {
   return (
     <>
       <ArticleSchema />
+      <FAQSchema />
       <SiteHeader />
 
       <main>
@@ -1968,6 +2024,32 @@ export default function AndamanIslandsPage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── FAQ ───────────────────────────────────────────────── */}
+                <section id="faq">
+                  <h2>Frequently Asked Questions</h2>
+                  <div className="space-y-5 my-6">
+                    {faqs.map((f) => (
+                      <div
+                        key={f.q}
+                        className="bg-white border border-stone-200 rounded-xl p-5"
+                      >
+                        <h4
+                          className="font-bold text-stone-900 mb-2 text-base"
+                          style={{ fontFamily: "var(--font-playfair)" }}
+                        >
+                          {f.q}
+                        </h4>
+                        <p
+                          className="text-sm text-stone-600 leading-relaxed m-0"
+                          style={{ fontFamily: "var(--font-dm-sans)" }}
+                        >
+                          {f.a}
+                        </p>
+                      </div>
+                    ))}
                   </div>
                 </section>
               </div>

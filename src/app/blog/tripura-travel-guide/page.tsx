@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description:
     "The complete Tripura travel guide — the lake palace of Neermahal, the ancient rock carvings of Unakoti, Ujjayanta Palace and Agartala, tribal culture, where to stay and eat, and a full itinerary through one of India's least-visited Northeastern states.",
   keywords:
-    "Tripura travel guide, Neermahal, Unakoti rock carvings, Ujjayanta Palace, Agartala travel guide, Tripura Sundari Temple, Sepahijala Wildlife Sanctuary, Tripura itinerary, Northeast India travel",
+    "Tripura travel guide, Neermahal, Unakoti rock carvings, Ujjayanta Palace, Agartala travel guide, Tripura Sundari Temple, Sepahijala Wildlife Sanctuary, Tripura itinerary, Northeast India travel, best time to visit Tripura, how to reach Tripura, Tripura 4 day itinerary, is Tripura safe for solo travellers, Tripura budget trip, top things to do in Tripura, Matabari Shakti Peeth",
   openGraph: {
     title: "Tripura Travel Guide: Neermahal, Unakoti & Ujjayanta Palace",
     description:
@@ -114,6 +114,60 @@ function ArticleSchema() {
   );
 }
 
+// ── FAQ data (shared by visible section + JSON-LD) ────────────────────────────
+const faqs = [
+  {
+    q: "How many days do I need for a Tripura trip?",
+    a: "Four days is a reasonable minimum to cover Agartala, Neermahal, and Unakoti without excessive rushing — one day for Agartala's palaces, one for Neermahal and Matabari, one for the long Unakoti day trip, and one for Sepahijala Wildlife Sanctuary before departure.",
+  },
+  {
+    q: "What is the best time to visit Tripura?",
+    a: "November to February is the pick — cool, dry conditions (15–28°C) make Unakoti's forest trail and a Neermahal boat crossing genuinely pleasant. Avoid the July–September monsoon, when heavy rainfall makes Unakoti's forested paths and rural roads difficult.",
+  },
+  {
+    q: "How do I reach Tripura?",
+    a: "Flying into Agartala's Maharaja Bir Bikram Airport (IXA) from Kolkata, Guwahati, or Delhi is by far the most practical option. Road and rail journeys from major Indian cities take a day or more given Tripura's location, connected mainly via Assam.",
+  },
+  {
+    q: "Is Tripura safe for solo travellers?",
+    a: "Tripura sees far fewer tourists than neighbouring states, which means thinner infrastructure rather than any particular safety concern — the main practical points are hiring a car with driver for day trips to Neermahal and Unakoti (public transport is limited and slow), carrying cash outside Agartala, and checking current advisories before visiting areas close to the Bangladesh border.",
+  },
+  {
+    q: "What is the budget for a Tripura trip?",
+    a: "A 4-day trip runs roughly ₹8,000 on a budget level up to ₹50,000 on a luxury level, excluding flights to Agartala. Daily costs cover accommodation, food, local transport, and activities, with local transport costing more than average given the long distances to Unakoti and other outlying sites.",
+  },
+  {
+    q: "What are the top things to do in Tripura?",
+    a: "The highlights are Neermahal, the lake palace reached only by boat across Rudrasagar Lake; Unakoti's massive rock-cut carvings dating back to the 7th–9th centuries; Ujjayanta Palace and Heritage Park in Agartala; the Tripura Sundari Temple at Matabari, one of the 51 Shakti Peethas; and Sepahijala Wildlife Sanctuary with its rare spectacled langurs.",
+  },
+  {
+    q: "Is Unakoti worth the long drive from Agartala?",
+    a: "Yes, for anyone interested in ancient history — Unakoti is one of Northeast India's most significant archaeological sites, with a giant 30-foot carved face of Shiva (Unakotishwara Kal Bhairava) and numerous smaller rock-cut figures scattered across the hillside. Given the roughly 178 km distance and 4-hour drive each way, consider an overnight stay in nearby Kailashahar rather than rushing back to Agartala the same day.",
+  },
+];
+
+function FAQSchema() {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.a,
+            },
+          })),
+        }),
+      }}
+    />
+  );
+}
+
 // ── TOC ───────────────────────────────────────────────────────────────────────
 const tableOfContents = [
   { id: "introduction", title: "Why Tripura?", level: 2 },
@@ -128,6 +182,7 @@ const tableOfContents = [
   { id: "itinerary", title: "4-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
 // ── Tripura-specific gear ─────────────────────────────────────────────────
@@ -225,6 +280,7 @@ export default function TripuraGuidePage() {
   return (
     <>
       <ArticleSchema />
+      <FAQSchema />
       <SiteHeader />
 
       <main>
@@ -1052,6 +1108,32 @@ export default function TripuraGuidePage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── FAQ ───────────────────────────────────────────────── */}
+                <section id="faq">
+                  <h2>Frequently Asked Questions</h2>
+                  <div className="space-y-5 my-6">
+                    {faqs.map((f) => (
+                      <div
+                        key={f.q}
+                        className="bg-white border border-stone-200 rounded-xl p-5"
+                      >
+                        <h4
+                          className="font-bold text-stone-900 mb-2 text-base"
+                          style={{ fontFamily: "var(--font-playfair)" }}
+                        >
+                          {f.q}
+                        </h4>
+                        <p
+                          className="text-sm text-stone-600 leading-relaxed m-0"
+                          style={{ fontFamily: "var(--font-dm-sans)" }}
+                        >
+                          {f.a}
+                        </p>
+                      </div>
+                    ))}
                   </div>
                 </section>
               </div>

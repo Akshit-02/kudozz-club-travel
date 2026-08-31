@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description:
     "The complete Agatti island travel guide — Lakshadweep's gateway island and one of its most popular. Agatti Beach and Lagoon, the Agatti Island Resort, coral reefs and diving spots, snorkelling sites, kayaking, glass-bottom boat rides, lagoon cruises, and sunset views, where to stay, what to eat, and a full itinerary.",
   keywords:
-    "Agatti island travel guide, Agatti Lakshadweep, Agatti airport, Agatti beach, Agatti lagoon, Agatti Island Resort, Agatti coral reefs, Agatti diving spots, Lakshadweep permit, Lakshadweep gateway island",
+    "Agatti island travel guide, Agatti Lakshadweep, Agatti airport, Agatti beach, Agatti lagoon, Agatti Island Resort, Agatti coral reefs, Agatti diving spots, Lakshadweep permit, Lakshadweep gateway island, best time to visit Agatti, how to reach Agatti from Kochi, Agatti itinerary 3 days, is Agatti safe for solo travellers, Agatti budget trip, things to do in Agatti, Agatti snorkelling and kayaking, Agatti lagoon cruise sunset, Kochi to Agatti flight time, Lakshadweep travel guide",
   openGraph: {
     title: "Agatti Island Travel Guide: Lagoon, Reefs & Diving Spots",
     description:
@@ -115,6 +115,60 @@ function ArticleSchema() {
   );
 }
 
+// ── FAQ data (shared by visible section + JSON-LD) ────────────────────────────
+const faqs = [
+  {
+    q: "How many days do I need for Agatti?",
+    a: "Three days is a comfortable length for Agatti, whether it's your only stop or the first leg of a longer Lakshadweep trip — enough time for the lagoon, a reef dive or snorkel session, a lagoon cruise, and a relaxed final morning before departure.",
+  },
+  {
+    q: "What is the best time to visit Agatti?",
+    a: "October to May is the best window overall, with calm seas and clear lagoon and reef visibility. December to February is the most comfortable and busiest period, so book well ahead, while March to May stays hot but keeps excellent diving visibility. The June–September southwest monsoon is largely avoided, since most tour operators pause departures.",
+  },
+  {
+    q: "How do I reach Agatti from Kochi?",
+    a: "The fastest way is a roughly 1.5-hour flight from Kochi to Agatti Airport, Lakshadweep's only airport. Passenger ships from Kochi also serve Agatti, taking 14+ hours but at a lower cost, with cabin and dormitory classes available.",
+  },
+  {
+    q: "Do I need a permit to visit Agatti?",
+    a: "Yes. Lakshadweep is a restricted-entry territory for both Indian and foreign nationals, and every visitor needs a permit, issued through the Lakshadweep administration's official portal or via SPORTS. Apply at least a few weeks ahead of travel, longer during the December–February peak season.",
+  },
+  {
+    q: "What is the budget for a trip to Agatti?",
+    a: "A daily budget runs roughly ₹4,800 on a budget trip, ₹9,500 mid-range, or ₹18,200 upscale, covering accommodation, food, diving/water sports, and local transport. For a 3-day trip that works out to about ₹14,400–₹54,600 depending on tier, excluding the Kochi–Agatti flight and permit fee.",
+  },
+  {
+    q: "Is Agatti worth visiting, and what is it known for?",
+    a: "Yes — Agatti is Lakshadweep's gateway island, known for its wide, shallow turquoise lagoon, some of the archipelago's healthiest coral reef, accessible snorkelling and diving spots, lagoon cruises, and reliably good sunset views, making it a genuine destination rather than just a transit stop.",
+  },
+  {
+    q: "Can beginners snorkel or dive at Agatti's reefs?",
+    a: "Yes. Agatti's shallow reef flats sit close to shore, making it one of the more accessible islands for snorkelling without a boat transfer, and resort-affiliated operators provide equipment and instruction for both beginners and certified divers at its diving spots.",
+  },
+];
+
+function FAQSchema() {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.a,
+            },
+          })),
+        }),
+      }}
+    />
+  );
+}
+
 // ── TOC ───────────────────────────────────────────────────────────────────────
 const tableOfContents = [
   { id: "introduction", title: "Why Agatti?", level: 2 },
@@ -129,6 +183,7 @@ const tableOfContents = [
   { id: "itinerary", title: "3-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
 // ── Agatti-specific gear ──────────────────────────────────────────────────────
@@ -226,6 +281,7 @@ export default function AgattiIslandGuidePage() {
   return (
     <>
       <ArticleSchema />
+      <FAQSchema />
       <SiteHeader />
 
       <main>
@@ -1088,6 +1144,32 @@ export default function AgattiIslandGuidePage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── FAQ ───────────────────────────────────────────────── */}
+                <section id="faq">
+                  <h2>Frequently Asked Questions</h2>
+                  <div className="space-y-5 my-6">
+                    {faqs.map((f) => (
+                      <div
+                        key={f.q}
+                        className="bg-white border border-stone-200 rounded-xl p-5"
+                      >
+                        <h4
+                          className="font-bold text-stone-900 mb-2 text-base"
+                          style={{ fontFamily: "var(--font-playfair)" }}
+                        >
+                          {f.q}
+                        </h4>
+                        <p
+                          className="text-sm text-stone-600 leading-relaxed m-0"
+                          style={{ fontFamily: "var(--font-dm-sans)" }}
+                        >
+                          {f.a}
+                        </p>
+                      </div>
+                    ))}
                   </div>
                 </section>
               </div>

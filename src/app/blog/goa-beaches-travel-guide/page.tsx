@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description:
     "The complete Goa travel guide. North Goa vs South Goa, the best beaches (Palolem, Anjuna, Vagator, Agonda), Portuguese heritage in Old Goa, beach shacks, nightlife, where to stay, what to eat, and a full 5-day itinerary.",
   keywords:
-    "Goa travel guide, Goa beaches, Palolem Beach, Anjuna flea market, North Goa vs South Goa, Old Goa churches, Goa nightlife, Goa itinerary, Goa beach shacks, Dudhsagar Falls",
+    "Goa travel guide, Goa beaches, Palolem Beach, Anjuna flea market, North Goa vs South Goa, Old Goa churches, Goa nightlife, Goa itinerary, Goa beach shacks, Dudhsagar Falls, best time to visit Goa, how to reach Goa, Goa itinerary 5 days, is Goa safe for solo travellers, Goa budget trip, top things to do in Goa, Goa watersports, Agonda beach, Goa casinos",
   openGraph: {
     title:
       "Goa Travel Guide: Best Beaches, North vs South & Complete Itinerary",
@@ -116,6 +116,60 @@ function ArticleSchema() {
   );
 }
 
+// ── FAQ data (shared by visible section + JSON-LD) ────────────────────────────
+const faqs = [
+  {
+    q: "How many days do you need for a Goa trip?",
+    a: "Five days gives you time to properly experience both North and South Goa without rushing — enough for the beaches, Old Goa's heritage churches, markets, and a Dudhsagar Falls day trip, split across the two halves of the state. With fewer days, pick one half rather than splitting your stay.",
+  },
+  {
+    q: "What is the best time to visit Goa?",
+    a: "November to February is the best overall window — dry, sunny weather (22–32°C) with every beach shack open. December–January is peak season with the highest prices and crowds around Christmas and New Year, so our pick is mid-November to mid-December, or January, for the same good weather without the price spike. June to September (monsoon) shuts down most beach shacks and watersports.",
+  },
+  {
+    q: "Should I stay in North Goa or South Goa?",
+    a: "North Goa (Baga, Calangute, Anjuna) is busier, louder, and better for first-time visitors, groups, and nightlife. South Goa (Palolem, Agonda, Colva) is quieter, greener, and better for couples, families, and travellers who want to relax rather than go out. With 5+ days, splitting your stay between both is the ideal way to see Goa properly.",
+  },
+  {
+    q: "How do I reach Goa?",
+    a: "Goa has two airports — Dabolim Airport (GOI) near Vasco da Gama, closer to South Goa, and Manohar International Airport (GOX) at Mopa, closer to North Goa — both with frequent direct flights from major Indian cities. Goa is also on the Konkan Railway line, with Madgaon (Margao) and Thivim as the main stations, and connects to Mumbai (590 km) and Pune (450 km) by road, though flying is far more time-efficient.",
+  },
+  {
+    q: "Is Goa safe for solo travellers?",
+    a: "Goa is one of India's most solo-traveller-friendly destinations, with a well-established backpacker and hostel scene, especially around Anjuna, Arambol, and Palolem. Standard precautions apply: rent from licensed watersport operators rather than beach touts offering suspiciously cheap rides, carry cash since card acceptance is inconsistent at smaller shacks and markets, and be cautious about scooter safety, since road accidents are a real risk on Goa's roads.",
+  },
+  {
+    q: "What is the budget for a Goa trip?",
+    a: "A budget traveller can expect a daily total of around ₹3,100, a mid-range traveller around ₹9,700, and a luxury traveller around ₹32,500 per day, covering accommodation, food, scooter rental, watersports, and nightlife — working out to roughly ₹15,500, ₹48,500, or ₹1,62,500 respectively for a 5-day trip, excluding flights or trains to Goa. Prices spike 30–50% during the Christmas–New Year peak window.",
+  },
+  {
+    q: "What are the best beaches in Goa?",
+    a: "In North Goa, Anjuna (flea market and clifftop parties), Vagator (dramatic cliffs and Chapora Fort sunsets), and Morjim/Ashwem (quieter, turtle nesting) stand out. In South Goa, Palolem is widely considered Goa's most classically beautiful beach, Agonda offers a strict no-nightlife policy for genuine calm, and Butterfly Beach and Cola Beach are boat-access-only coves for true seclusion.",
+  },
+];
+
+function FAQSchema() {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.a,
+            },
+          })),
+        }),
+      }}
+    />
+  );
+}
+
 // ── TOC ───────────────────────────────────────────────────────────────────────
 const tableOfContents = [
   { id: "introduction", title: "Why Goa?", level: 2 },
@@ -134,6 +188,7 @@ const tableOfContents = [
   { id: "itinerary", title: "5-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
 // ── Goa-specific gear ───────────────────────────────────────────────────────────
@@ -230,6 +285,7 @@ export default function GoaBeachesGuidePage() {
   return (
     <>
       <ArticleSchema />
+      <FAQSchema />
       <SiteHeader />
 
       <main>
@@ -1315,6 +1371,32 @@ export default function GoaBeachesGuidePage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── FAQ ───────────────────────────────────────────────── */}
+                <section id="faq">
+                  <h2>Frequently Asked Questions</h2>
+                  <div className="space-y-5 my-6">
+                    {faqs.map((f) => (
+                      <div
+                        key={f.q}
+                        className="bg-white border border-stone-200 rounded-xl p-5"
+                      >
+                        <h4
+                          className="font-bold text-stone-900 mb-2 text-base"
+                          style={{ fontFamily: "var(--font-playfair)" }}
+                        >
+                          {f.q}
+                        </h4>
+                        <p
+                          className="text-sm text-stone-600 leading-relaxed m-0"
+                          style={{ fontFamily: "var(--font-dm-sans)" }}
+                        >
+                          {f.a}
+                        </p>
+                      </div>
+                    ))}
                   </div>
                 </section>
               </div>

@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description:
     "The complete Jharkhand travel guide — Ranchi's waterfalls, the hill station of Netarhat, tiger territory at Betla National Park, tribal culture, where to stay and eat, and a full itinerary through one of India's most underrated forested states.",
   keywords:
-    "Jharkhand travel guide, Netarhat, Betla National Park, Ranchi waterfalls, Hundru Falls, Dassam Falls, Patratu Valley, Deoghar, Jamshedpur, Jharkhand itinerary, Chotanagpur plateau",
+    "Jharkhand travel guide, Netarhat, Betla National Park, Ranchi waterfalls, Hundru Falls, Dassam Falls, Patratu Valley, Deoghar, Jamshedpur, Jharkhand itinerary, Chotanagpur plateau, best time to visit Jharkhand, how to reach Ranchi, Jharkhand 5 day itinerary, is Jharkhand safe to visit, Jharkhand budget trip, things to do in Jharkhand, Netarhat hill station guide",
   openGraph: {
     title: "Jharkhand Travel Guide: Netarhat, Betla National Park & Waterfalls",
     description:
@@ -114,6 +114,60 @@ function ArticleSchema() {
   );
 }
 
+// ── FAQ data (shared by visible section + JSON-LD) ────────────────────────────
+const faqs = [
+  {
+    q: "How many days do I need for Jharkhand?",
+    a: "Five days is a reasonable minimum to cover Ranchi's waterfalls, Netarhat, and Betla National Park without excessive rushing — roughly two days around Ranchi, one for the drive and stay at Netarhat, and two more for Betla and the return.",
+  },
+  {
+    q: "What is the best time to visit Jharkhand?",
+    a: "October to March is the most comfortable overall window, with cool, dry weather in the 10–27°C range for Netarhat, Betla safaris, and general sightseeing. If waterfalls are the priority, late September to October is when Hundru, Dassam, and Jonha Falls look their most dramatic, just after the monsoon eases.",
+  },
+  {
+    q: "How do I reach Jharkhand?",
+    a: "Birsa Munda Airport (IXR) in Ranchi is the main gateway, with regular flights from Delhi, Mumbai, Kolkata, and Bengaluru. Ranchi, Jamshedpur (Tatanagar Junction), and Dhanbad are all major rail junctions well connected to Delhi, Kolkata, and Mumbai, and Ranchi also has road links to Kolkata (~430 km) and Patna (~330 km).",
+  },
+  {
+    q: "Is Jharkhand safe to visit?",
+    a: "Ranchi and Jamshedpur are well set up for visitors, but tourist infrastructure thins out quickly beyond the two big cities. Parts of the state's forested interior, including areas near Betla and Palamu, have had periodic security concerns, so it's worth checking current advisories before travelling to remote districts.",
+  },
+  {
+    q: "What is the budget for a trip to Jharkhand?",
+    a: "A budget traveller can expect around ₹2,200 a day for accommodation, food, local transport, and activities, totalling roughly ₹11,000 for a 5-day trip. Mid-range travel runs about ₹5,800 a day (around ₹29,000 for five days), while a luxury trip can reach ₹13,300 a day. This excludes flights to Ranchi.",
+  },
+  {
+    q: "Are tiger sightings guaranteed at Betla National Park?",
+    a: "No. Betla, part of the Palamu Tiger Reserve, is home to tigers, leopards, wild elephants, sloth bears, and gaur, but sightings are far less guaranteed than at India's better-known reserves in Madhya Pradesh or Rajasthan — it's worth going in with realistic expectations rather than a guaranteed-sighting mindset.",
+  },
+  {
+    q: "Can Netarhat be visited as a day trip from Ranchi?",
+    a: "It's possible but not recommended. Netarhat sits roughly 150 km and about a 5-hour drive from Ranchi, so a same-day round trip is rushed and tiring — planning it as an overnight stay lets you catch both the Magnolia Sunset Point in the evening and the sunrise at Koel View Point the next morning.",
+  },
+];
+
+function FAQSchema() {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.a,
+            },
+          })),
+        }),
+      }}
+    />
+  );
+}
+
 // ── TOC ───────────────────────────────────────────────────────────────────────
 const tableOfContents = [
   { id: "introduction", title: "Why Jharkhand?", level: 2 },
@@ -128,6 +182,7 @@ const tableOfContents = [
   { id: "itinerary", title: "5-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
 // ── Jharkhand-specific gear ────────────────────────────────────────────────
@@ -225,6 +280,7 @@ export default function JharkhandGuidePage() {
   return (
     <>
       <ArticleSchema />
+      <FAQSchema />
       <SiteHeader />
 
       <main>
@@ -1121,6 +1177,32 @@ export default function JharkhandGuidePage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── FAQ ───────────────────────────────────────────────── */}
+                <section id="faq">
+                  <h2>Frequently Asked Questions</h2>
+                  <div className="space-y-5 my-6">
+                    {faqs.map((f) => (
+                      <div
+                        key={f.q}
+                        className="bg-white border border-stone-200 rounded-xl p-5"
+                      >
+                        <h4
+                          className="font-bold text-stone-900 mb-2 text-base"
+                          style={{ fontFamily: "var(--font-playfair)" }}
+                        >
+                          {f.q}
+                        </h4>
+                        <p
+                          className="text-sm text-stone-600 leading-relaxed m-0"
+                          style={{ fontFamily: "var(--font-dm-sans)" }}
+                        >
+                          {f.a}
+                        </p>
+                      </div>
+                    ))}
                   </div>
                 </section>
               </div>

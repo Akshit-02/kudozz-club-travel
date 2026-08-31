@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   description:
     "The complete Andhra Pradesh travel guide — Tirupati's Sri Venkateswara Temple, Visakhapatnam's beaches, the coffee-scented hills of Araku Valley, Amaravati, Lepakshi, Srisailam, where to stay and eat, and a full itinerary along the Eastern coast.",
   keywords:
-    "Andhra Pradesh travel guide, Tirupati Tirumala temple, Visakhapatnam Vizag, Araku Valley, Borra Caves, Lepakshi temple, Srisailam Jyotirlinga, Amaravati, Andhra Pradesh itinerary, Andhra cuisine",
+    "Andhra Pradesh travel guide, Tirupati Tirumala temple, Visakhapatnam Vizag, Araku Valley, Borra Caves, Lepakshi temple, Srisailam Jyotirlinga, Amaravati, Andhra Pradesh itinerary, Andhra cuisine, best time to visit Andhra Pradesh, how to reach Tirupati, Andhra Pradesh itinerary 7 days, is Tirupati safe for solo travellers, Andhra Pradesh budget trip, things to do in Visakhapatnam, Tirumala darshan booking, Araku Valley coffee train, Vizag beaches guide, Andhra Pradesh travel FAQ",
   openGraph: {
     title:
       "Andhra Pradesh Travel Guide: Tirupati, Visakhapatnam & Araku Valley",
@@ -117,6 +117,60 @@ function ArticleSchema() {
   );
 }
 
+// ── FAQ data (shared by visible section + JSON-LD) ────────────────────────────
+const faqs = [
+  {
+    q: "How many days do I need for Andhra Pradesh?",
+    a: "Seven days is a reasonable minimum to combine Tirupati, Visakhapatnam, and Araku Valley without excessive rushing, though the two regions require a flight or long train transfer between them. Cutting Araku Valley can bring it down to 4-5 days for Tirupati and Vizag alone.",
+  },
+  {
+    q: "What is the best time to visit Andhra Pradesh?",
+    a: "October to March is the best window, with cooler, drier weather (18–30°C) across both the coast and inland — the most comfortable time for Tirupati, Vizag, and Araku Valley alike. October to December carries genuine cyclone risk along the Bay of Bengal coast, so track forecasts before finalizing coastal travel.",
+  },
+  {
+    q: "How do I reach Tirupati?",
+    a: "Tirupati Airport is the natural gateway for pilgrimage trips, with frequent connections from major Indian cities. Tirupati is also a major railway junction with strong long-distance connectivity, and national highways connect it well by road.",
+  },
+  {
+    q: "Do I need to book my Tirumala darshan in advance?",
+    a: "Yes, strongly recommended. Free darshan can mean several hours' wait, while paid Seva and special darshan tickets, bookable online through the Tirumala Tirupati Devasthanams (TTD) portal, cut this significantly — book weeks ahead, especially in peak season and around festivals like Brahmotsavam.",
+  },
+  {
+    q: "What is the budget for a trip to Andhra Pradesh?",
+    a: "A daily budget runs roughly ₹2,150 on a budget trip, ₹7,100 mid-range, or ₹17,500 luxury, covering accommodation, food, local transport, and darshan/entry fees. A 7-day trip totals about ₹15,050–₹1,22,500 depending on tier, excluding flights.",
+  },
+  {
+    q: "Is Andhra Pradesh worth visiting beyond Tirupati?",
+    a: "Yes — Visakhapatnam and the surrounding Eastern coast offer some of India's most underrated beach and hill scenery, Araku Valley's coffee plantations and Borra Caves make for a scenic detour, and ancient sites at Amaravati and Lepakshi add historical depth well beyond the state's pilgrimage reputation.",
+  },
+  {
+    q: "How do I get to Araku Valley from Visakhapatnam?",
+    a: "Araku Valley is roughly three hours inland from Vizag. The Kirandul Passenger train through the Eastern Ghats — passing dozens of tunnels and viaducts — is the scenic highlight of the trip and is recommended over the faster road option, which skips the experience.",
+  },
+];
+
+function FAQSchema() {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.a,
+            },
+          })),
+        }),
+      }}
+    />
+  );
+}
+
 // ── TOC ───────────────────────────────────────────────────────────────────────
 const tableOfContents = [
   { id: "introduction", title: "Why Andhra Pradesh?", level: 2 },
@@ -130,6 +184,7 @@ const tableOfContents = [
   { id: "itinerary", title: "7-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
 // ── Andhra Pradesh-specific gear ───────────────────────────────────────────
@@ -227,6 +282,7 @@ export default function AndhraPradeshGuidePage() {
   return (
     <>
       <ArticleSchema />
+      <FAQSchema />
       <SiteHeader />
 
       <main>
@@ -1124,6 +1180,32 @@ export default function AndhraPradeshGuidePage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── FAQ ───────────────────────────────────────────────── */}
+                <section id="faq">
+                  <h2>Frequently Asked Questions</h2>
+                  <div className="space-y-5 my-6">
+                    {faqs.map((f) => (
+                      <div
+                        key={f.q}
+                        className="bg-white border border-stone-200 rounded-xl p-5"
+                      >
+                        <h4
+                          className="font-bold text-stone-900 mb-2 text-base"
+                          style={{ fontFamily: "var(--font-playfair)" }}
+                        >
+                          {f.q}
+                        </h4>
+                        <p
+                          className="text-sm text-stone-600 leading-relaxed m-0"
+                          style={{ fontFamily: "var(--font-dm-sans)" }}
+                        >
+                          {f.a}
+                        </p>
+                      </div>
+                    ))}
                   </div>
                 </section>
               </div>

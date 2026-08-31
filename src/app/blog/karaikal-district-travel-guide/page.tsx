@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description:
     "The complete Karaikal District travel guide — Karaikal town's beach, lighthouse, port and Karaikal Ammaiyar Temple, Tirunallar's famous Saneeswaran Temple and Nala Theertham, and the coastal, rural stretches of Neravy, Kottucherry, and Nedungadu.",
   keywords:
-    "Karaikal district travel guide, Karaikal beach, Tirunallar Saneeswaran temple, Sri Dharbaranyeswarar temple, Nala Theertham, Karaikal Ammaiyar Temple, Karaikal lighthouse, Karaikal port, Neravy, Kottucherry, Nedungadu, Puducherry union territory",
+    "Karaikal district travel guide, Karaikal beach, Tirunallar Saneeswaran temple, Sri Dharbaranyeswarar temple, Nala Theertham, Karaikal Ammaiyar Temple, Karaikal lighthouse, Karaikal port, Neravy, Kottucherry, Nedungadu, Puducherry union territory, best time to visit Karaikal, how to reach Karaikal from Puducherry, Karaikal 3 day itinerary, Karaikal budget trip, things to do in Karaikal district",
   openGraph: {
     title: "Karaikal District Travel Guide: Temples, Beach & Cauvery Delta",
     description:
@@ -116,6 +116,60 @@ function ArticleSchema() {
   );
 }
 
+// ── FAQ data (shared by visible section + JSON-LD) ────────────────────────────
+const faqs = [
+  {
+    q: "How many days do I need for Karaikal District?",
+    a: "Three days covers the district comfortably — a day for Karaikal town, a day for Tirunallar's Saneeswaran Temple, and a day for a slow drive through Neravy, Kottucherry, and Nedungadu. It works especially well as an extension tacked onto a Puducherry town trip rather than a standalone visit.",
+  },
+  {
+    q: "What is the best time to visit Karaikal District?",
+    a: "November through February is the pick — cool, pleasant temperatures around 18–28°C for temple visits at Tirunallar and Karaikal town, and for exploring the delta villages, without the crowd spikes Tirunallar sees around major Shani-related festival dates.",
+  },
+  {
+    q: "How do I reach Karaikal District?",
+    a: "The nearest major airport is Tiruchirappalli (Trichy), roughly 130–140 km away, with Chennai (around 280 km) offering more flight options. Karaikal railway station connects to Chennai, Trichy, and other Tamil Nadu junctions, and by road it's about 150 km south of Puducherry town along the East Coast Road — a relaxed half-day drive if combined with a Puducherry trip.",
+  },
+  {
+    q: "What is the Tirunallar Saneeswaran Temple famous for?",
+    a: "Tirunallar's Sri Dharbaranyeswarar Temple, widely known as the Saneeswaran (Shani) Temple, is one of the most significant Navagraha-related shrines in the country, drawing devotees from across South India specifically to worship Shani. Its Nala Theertham tank is tied to the legend of King Nala, who local tradition says was relieved of Shani's affliction after bathing there — pilgrims still follow the ritual believing it eases Shani dosha.",
+  },
+  {
+    q: "Should I visit Tirunallar on a Saturday?",
+    a: "Only if the pilgrimage itself is the goal. Shani worship draws heavy devotee crowds specifically on Saturdays, so the temple gets genuinely crowded then — visiting on a weekday makes for a far calmer, more unhurried experience if you're mainly sightseeing.",
+  },
+  {
+    q: "What is the budget for a trip to Karaikal District?",
+    a: "A budget traveller can expect around ₹1,750 a day covering accommodation, food, local transport, and temple offerings, totalling roughly ₹5,250 for a 3-day trip. Mid-range travel runs about ₹4,300 a day (around ₹12,900 for three days), while an upscale trip can reach ₹8,700 a day. Costs run noticeably lower than Puducherry town, reflecting Karaikal's much lighter tourist footprint.",
+  },
+  {
+    q: "Is Karaikal District worth visiting from Puducherry?",
+    a: "Yes, especially as a two- or three-day extension after Puducherry town rather than a standalone trip. The coastal drive down is straightforward, and Karaikal offers a quieter alternative to the French Quarter circuit — a major Shani pilgrimage temple, a working port-and-lighthouse beach town, and genuine Cauvery delta countryside that sees almost no outside tourist traffic.",
+  },
+];
+
+function FAQSchema() {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.a,
+            },
+          })),
+        }),
+      }}
+    />
+  );
+}
+
 // ── TOC ───────────────────────────────────────────────────────────────────────
 const tableOfContents = [
   { id: "introduction", title: "Why Karaikal District?", level: 2 },
@@ -133,6 +187,7 @@ const tableOfContents = [
   { id: "itinerary", title: "3-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
 // ── Karaikal District gear ───────────────────────────────────────────────────
@@ -230,6 +285,7 @@ export default function KaraikalDistrictGuidePage() {
   return (
     <>
       <ArticleSchema />
+      <FAQSchema />
       <SiteHeader />
 
       <main>
@@ -1071,6 +1127,32 @@ export default function KaraikalDistrictGuidePage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── FAQ ───────────────────────────────────────────────── */}
+                <section id="faq">
+                  <h2>Frequently Asked Questions</h2>
+                  <div className="space-y-5 my-6">
+                    {faqs.map((f) => (
+                      <div
+                        key={f.q}
+                        className="bg-white border border-stone-200 rounded-xl p-5"
+                      >
+                        <h4
+                          className="font-bold text-stone-900 mb-2 text-base"
+                          style={{ fontFamily: "var(--font-playfair)" }}
+                        >
+                          {f.q}
+                        </h4>
+                        <p
+                          className="text-sm text-stone-600 leading-relaxed m-0"
+                          style={{ fontFamily: "var(--font-dm-sans)" }}
+                        >
+                          {f.a}
+                        </p>
+                      </div>
+                    ))}
                   </div>
                 </section>
               </div>

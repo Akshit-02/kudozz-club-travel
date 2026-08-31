@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   description:
     "The ultimate Leh Ladakh road trip guide. Everything you need — Manali-Leh and Srinagar-Leh routes, Inner Line Permits, Khardung La, Pangong Lake, Nubra Valley, monasteries, bike vs car, and a complete 14-day itinerary.",
   keywords:
-    "Leh Ladakh road trip, Ladakh travel guide, Manali to Leh highway, Pangong Lake, Nubra Valley, Khardung La, Ladakh inner line permit, Ladakh bike trip, Ladakh itinerary",
+    "Leh Ladakh road trip, Ladakh travel guide, Manali to Leh highway, Pangong Lake, Nubra Valley, Khardung La, Ladakh inner line permit, Ladakh bike trip, Ladakh itinerary, best time to visit Leh Ladakh, how to reach Leh Ladakh, Leh Ladakh budget trip, Leh Ladakh 14 day itinerary, Ladakh bike vs car, is Khardung La the highest motorable pass",
   openGraph: {
     title: "Leh Ladakh Road Trip Guide: Routes, Permits, Passes & Tips",
     description:
@@ -120,6 +120,60 @@ function ArticleSchema() {
   );
 }
 
+// ── FAQ data (shared by visible section + JSON-LD) ────────────────────────────
+const faqs = [
+  {
+    q: "How many days do I need for a Leh Ladakh road trip?",
+    a: "This guide's itinerary is built around 14 days — enough to properly acclimatise in Leh, then loop out to Nubra Valley, Pangong Tso, and Tso Moriri before exiting via the Manali–Leh highway. Shorter 7–10 day trips are possible if you fly in and out and skip Tso Moriri or Zanskar, but acclimatisation still needs at least 2 days at the start regardless of overall trip length.",
+  },
+  {
+    q: "What is the best time to visit Leh Ladakh?",
+    a: "The first two weeks of September is the recommended window — crowds from peak summer have cleared, prices drop 20–30%, and both highways are still open. August is the peak season with both highways open and festivals (Hemis in July, Ladakh Festival in August–September) underway, while June–July is when the roads first open for the season.",
+  },
+  {
+    q: "How do I reach Leh Ladakh?",
+    a: "There are three routes: fly into Kushok Bakula Rimpochee Airport (IXL) in Leh, direct from Delhi in about 1 hour 15 minutes; drive the Manali–Leh highway (479 km, crossing five passes including Tanglang La at 5,328 m, open roughly mid-June to mid-October); or drive the Srinagar–Leh highway (434 km via Zoji La and Kargil, gentler on altitude and open April to November). The classic loop enters via Srinagar and exits via Manali.",
+  },
+  {
+    q: "What permits do I need for Ladakh?",
+    a: "An Inner Line Permit (ILP) is required for all Indian nationals visiting Pangong Tso, Nubra Valley, Tso Moriri, and Dah-Hanu, obtainable online or at the DC Office in Leh. Foreign nationals additionally need a Protected Area Permit (PAP) for the Nubra/Siachen region and the Tso Moriri/Korzok area, arranged only through a registered Leh-based tour operator.",
+  },
+  {
+    q: "Is Khardung La really the world's highest motorable pass?",
+    a: "No — despite old BRO signboards claiming otherwise, Khardung La (5,359 m) is not the world's highest motorable pass. Mardung La (5,582 m) and Semo La (5,565 m), both also in Ladakh, are higher. Khardung La remains a genuine achievement and the practical gateway to Nubra Valley regardless.",
+  },
+  {
+    q: "Should I do the Leh Ladakh trip by bike or car?",
+    a: "It depends on your priorities: a Royal Enfield offers the most legendary experience and the most gradual acclimatisation but is physically demanding and requires riding experience for Ladakh's technical roads; an SUV or car is more comfortable and better suited to groups and families; flying in and hiring a local taxi is fastest but riskiest for acclimatisation, since it skips the gradual altitude gain of an overland route.",
+  },
+  {
+    q: "What is the budget for a 14-day Leh Ladakh trip?",
+    a: "A 14-day trip costs roughly ₹39,000 on a budget itinerary, around ₹1,02,000 mid-range, and ₹3,00,000+ for a comfort-tier trip, covering accommodation in Leh and at the camps, food, vehicle, permits, and activities — excluding flights to and from Leh and travel insurance.",
+  },
+];
+
+function FAQSchema() {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.a,
+            },
+          })),
+        }),
+      }}
+    />
+  );
+}
+
 // ── TOC ───────────────────────────────────────────────────────────────────────
 const tableOfContents = [
   { id: "introduction", title: "Why Leh Ladakh?", level: 2 },
@@ -143,6 +197,7 @@ const tableOfContents = [
   { id: "food-guide", title: "What to Eat", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
 // ── Page ─────────────────────────────────────────────────────────────────────
@@ -150,6 +205,7 @@ export default function LehLadakhPage() {
   return (
     <>
       <ArticleSchema />
+      <FAQSchema />
       <SiteHeader />
 
       <main>
@@ -1653,6 +1709,32 @@ export default function LehLadakhPage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── FAQ ───────────────────────────────────────────────── */}
+                <section id="faq">
+                  <h2>Frequently Asked Questions</h2>
+                  <div className="space-y-5 my-6">
+                    {faqs.map((f) => (
+                      <div
+                        key={f.q}
+                        className="bg-white border border-stone-200 rounded-xl p-5"
+                      >
+                        <h4
+                          className="font-bold text-stone-900 mb-2 text-base"
+                          style={{ fontFamily: "var(--font-playfair)" }}
+                        >
+                          {f.q}
+                        </h4>
+                        <p
+                          className="text-sm text-stone-600 leading-relaxed m-0"
+                          style={{ fontFamily: "var(--font-dm-sans)" }}
+                        >
+                          {f.a}
+                        </p>
+                      </div>
+                    ))}
                   </div>
                 </section>
               </div>

@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   description:
     "The complete guide to Padum, the administrative headquarters of Zanskar Valley — how to reach it via Kargil or the new Leh route, what's in town, day trips to Karsha, Sani, Stongdey and Zangla, and trekking from Padum to Lamayuru, Darcha and Phugtal.",
   keywords:
-    "Padum Zanskar, Padum Ladakh, Zanskar Valley capital, Padum travel guide, how to reach Padum, Karsha Monastery, Sani Monastery, Stongdey Monastery, Zangla palace, Padum Darcha trek, Phugtal Monastery trek, Chadar Trek Padum",
+    "Padum Zanskar, Padum Ladakh, Zanskar Valley capital, Padum travel guide, how to reach Padum, Karsha Monastery, Sani Monastery, Stongdey Monastery, Zangla palace, Padum Darcha trek, Phugtal Monastery trek, Chadar Trek Padum, best time to visit Padum, Padum from Kargil distance, is Padum safe for solo travellers, Padum Zanskar budget trip, top things to do in Padum, Zanskar district Ladakh",
   openGraph: {
     title: "Padum Travel Guide: Zanskar Valley's Historic Capital Town",
     description:
@@ -138,13 +138,69 @@ const tableOfContents = [
   { id: "food-guide", title: "What to Eat", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
+
+// ── FAQ data (shared by visible section + JSON-LD) ────────────────────────────
+const faqs = [
+  {
+    q: "How do I reach Padum?",
+    a: "The classic route is the roughly 230-km road from Kargil, running through Sankoo and Rangdum before climbing over Pensi La (around 4,400 m) — typically 8–10 hours in a single push, or 2 days with an overnight at Rangdum. The newer Nimmu–Padum–Darcha (NPD) road from Leh is only partially motorable so far and isn't yet a reliable substitute for an ordinary trip.",
+  },
+  {
+    q: "What is the best time to visit Padum?",
+    a: "Late July to mid-August is our pick — both entry roads are dependably open, Padum's barley fields are at their greenest, river crossings on the trekking routes are manageable, and you'll likely catch a monastery festival in the surrounding villages. The Kargil–Padum road is typically open from June to October, and closes completely by late October until the following June.",
+  },
+  {
+    q: "Is Padum worth visiting?",
+    a: "Padum isn't scenic in the postcard sense — it's a working administrative town rather than a monastery village. But it's the essential base for Zanskar: the only place with a hospital, functioning fuel pumps, and a real market, and the gateway to Karsha, Sani, Stongdey, and Zangla monasteries, plus some of the Himalaya's most respected treks.",
+  },
+  {
+    q: "What is the budget for a trip to Padum?",
+    a: "A daily budget in Padum runs roughly ₹1,200 on a tight budget, ₹2,800 mid-range, or ₹5,500 for more comfort, covering accommodation, food, and local taxi hire to Karsha, Sani, and Zangla combined. This excludes the Leh/Kargil-side transport to reach Padum and any multi-day trek costs beyond the per-day guide/pony rate.",
+  },
+  {
+    q: "Can Padum be visited in winter?",
+    a: "Not by road — the Kargil–Padum road closes completely by late October and stays shut until June. In winter, the traditional way in or out of lower Zanskar is the Chadar Trek, walking along the frozen Zanskar River between roughly January and February with a licensed guide, though the classic Chadar route runs mainly between Chilling and central Zanskar rather than all the way to Padum itself.",
+  },
+  {
+    q: "What treks start from Padum?",
+    a: "Padum is the trailhead for several of the Indian Himalaya's most respected long-distance treks: the 8–10 day Padum–Lamayuru trek through the Zanskar Range, the 7–9 day Padum–Darcha trek over Shingo La into Himachal Pradesh, and the more popular 2–3 day Phugtal Monastery trek to the 12th-century cave monastery built into a cliff above the Lungnak River.",
+  },
+  {
+    q: "Do I need a permit to visit Padum and Zanskar?",
+    a: "Indian nationals generally do not need special permits to visit Padum and the core Zanskar Valley, though some routes closer to sensitive border areas can be subject to change. Foreign nationals should confirm current requirements in Kargil or Leh before travelling, since regulations here shift more often than guidebooks keep up with.",
+  },
+];
+
+function FAQSchema() {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.a,
+            },
+          })),
+        }),
+      }}
+    />
+  );
+}
 
 // ── Page ─────────────────────────────────────────────────────────────────────
 export default function PadumPage() {
   return (
     <>
       <ArticleSchema />
+      <FAQSchema />
       <SiteHeader />
 
       <main>
@@ -1163,6 +1219,32 @@ export default function PadumPage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── FAQ ───────────────────────────────────────────────── */}
+                <section id="faq">
+                  <h2>Frequently Asked Questions</h2>
+                  <div className="space-y-5 my-6">
+                    {faqs.map((f) => (
+                      <div
+                        key={f.q}
+                        className="bg-white border border-stone-200 rounded-xl p-5"
+                      >
+                        <h4
+                          className="font-bold text-stone-900 mb-2 text-base"
+                          style={{ fontFamily: "var(--font-playfair)" }}
+                        >
+                          {f.q}
+                        </h4>
+                        <p
+                          className="text-sm text-stone-600 leading-relaxed m-0"
+                          style={{ fontFamily: "var(--font-dm-sans)" }}
+                        >
+                          {f.a}
+                        </p>
+                      </div>
+                    ))}
                   </div>
                 </section>
               </div>

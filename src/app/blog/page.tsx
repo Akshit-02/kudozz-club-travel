@@ -7,6 +7,18 @@ export const metadata: Metadata = {
   title: "Travel Blog — Guides, Stories & Itineraries",
   description:
     "Browse all travel guides on Kudozz Club — destination deep-dives, honest itineraries, budget breakdowns and insider tips written by real travellers.",
+  keywords: [
+    "India travel blog",
+    "travel guides India",
+    "travel itineraries India",
+    "Ladakh travel guides",
+    "Jammu and Kashmir travel guides",
+    "Delhi travel guides",
+    "Daman and Diu travel guides",
+    "offbeat India travel blog",
+    "budget travel India blog",
+    "India destination guides",
+  ],
   alternates: { canonical: "https://club.kudozz.in/blog" },
 };
 

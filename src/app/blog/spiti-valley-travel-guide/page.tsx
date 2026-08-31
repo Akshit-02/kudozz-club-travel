@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   description:
     "The most complete Spiti Valley travel guide. Discover the best places to visit, how to reach Spiti, a 10-day itinerary, where to stay, what to eat, and essential tips for this remote Himalayan desert.",
   keywords:
-    "Spiti Valley, Spiti Valley travel guide, Spiti Valley itinerary, Kaza, Key Monastery, Chandratal Lake, Pin Valley, Himachal Pradesh travel",
+    "Spiti Valley, Spiti Valley travel guide, Spiti Valley itinerary, Kaza, Key Monastery, Chandratal Lake, Pin Valley, Himachal Pradesh travel, best time to visit Spiti Valley, how to reach Spiti Valley from Manali, Spiti Valley 10 day itinerary, is Spiti Valley safe for solo travellers, Spiti Valley trip budget, top things to do in Spiti Valley, Spiti Valley permit requirements, Kibber snow leopard, is Spiti Valley worth visiting, Spiti Valley altitude sickness",
   openGraph: {
     title: "Spiti Valley Travel Guide: Roads, Monasteries & Hidden Villages",
     description:
@@ -119,6 +119,60 @@ function ArticleSchema() {
   );
 }
 
+// ── FAQ data (shared by visible section + JSON-LD) ────────────────────────────
+const faqs = [
+  {
+    q: "How many days do I need for Spiti Valley?",
+    a: "Ten days is what our suggested itinerary uses to cover the classic circuit — entering from Shimla/Kinnaur and exiting via Manali (or vice versa) — with proper acclimatisation stops built in, which are non-negotiable at these altitudes.",
+  },
+  {
+    q: "What is the best time to visit Spiti Valley?",
+    a: "Mid-August to late September is our pick — all roads are open, Chandratal is accessible, the sky is impossibly clear, and the landscape turns a vivid rust-gold. The overall travel window runs roughly June to October; outside that, the valley is buried under snow and most roads are impassable.",
+  },
+  {
+    q: "How do I reach Spiti Valley from Manali?",
+    a: "The Manali–Rohtang–Kunzum route crosses two high passes including the legendary Kunzum Pass (4,590m) and is only open from late June to mid-October. It typically takes 2 days: Manali to Batal (~130 km, ~6 hrs) via Rohtang Pass, then Batal to Kaza via Chandratal Lake and Losar (~90 km, ~4 hrs).",
+  },
+  {
+    q: "Do I need a permit for Spiti Valley?",
+    a: "Indian nationals don't need a permit for Spiti Valley itself. Foreign nationals need an Inner Line Permit (ILP) for areas near the Chinese border, such as Kibber, Pin Valley, and Kaza, obtainable from DC offices in Shimla or Kaza for around ₹500, valid for 7 days.",
+  },
+  {
+    q: "Is Spiti Valley safe for solo travellers?",
+    a: "Spiti is generally welcoming to solo travellers and the local Spitian community is genuinely warm, but the roads are brutal and altitude sickness is a real risk. Acclimatise seriously with intermediate altitude nights before reaching Kaza, carry a medical kit with Diamox, and know the warning signs of altitude sickness.",
+  },
+  {
+    q: "What is the budget for a Spiti Valley trip?",
+    a: "A 10-day trip runs around ₹10,000 total on a budget, ₹29,000 mid-range, or roughly ₹61,000 for a comfort-level trip, covering accommodation, food, local transport, and activities/permits — excluding transport to and from Shimla or Manali.",
+  },
+  {
+    q: "Is Spiti Valley worth visiting?",
+    a: "Yes — Spiti offers something increasingly rare in modern travel: a cold desert landscape that looks more like the surface of Mars than India, with monasteries perched on cliff faces, a moon-like lake at Chandratal, and villages so remote that supply trucks arrive only a few months a year.",
+  },
+];
+
+function FAQSchema() {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.a,
+            },
+          })),
+        }),
+      }}
+    />
+  );
+}
+
 // ── TOC ───────────────────────────────────────────────────────────────────────
 const tableOfContents = [
   { id: "introduction", title: "Why Visit Spiti Valley?", level: 2 },
@@ -140,6 +194,7 @@ const tableOfContents = [
   { id: "permits", title: "Permits & Formalities", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
 // ── Related Posts override ────────────────────────────────────────────────────
@@ -157,6 +212,7 @@ export default function SpitiValleyPage() {
   return (
     <>
       <ArticleSchema />
+      <FAQSchema />
       <SiteHeader />
 
       <main>
@@ -1179,6 +1235,32 @@ export default function SpitiValleyPage() {
                         </div>
                       ))}
                     </div>
+                  </div>
+                </section>
+
+                {/* ── FAQ ───────────────────────────────────────────────── */}
+                <section id="faq">
+                  <h2>Frequently Asked Questions</h2>
+                  <div className="space-y-5 my-6">
+                    {faqs.map((f) => (
+                      <div
+                        key={f.q}
+                        className="bg-white border border-stone-200 rounded-xl p-5"
+                      >
+                        <h4
+                          className="font-bold text-stone-900 mb-2 text-base"
+                          style={{ fontFamily: "var(--font-playfair)" }}
+                        >
+                          {f.q}
+                        </h4>
+                        <p
+                          className="text-sm text-stone-600 leading-relaxed m-0"
+                          style={{ fontFamily: "var(--font-dm-sans)" }}
+                        >
+                          {f.a}
+                        </p>
+                      </div>
+                    ))}
                   </div>
                 </section>
               </div>

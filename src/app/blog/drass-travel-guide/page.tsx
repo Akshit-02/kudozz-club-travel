@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   description:
     "A complete travel guide to Drass, Ladakh — the second-coldest inhabited place on Earth and site of the Kargil War Memorial. Best time to visit, how to reach via Zoji La, Tiger Hill, Mushkoh Valley, where to stay, and essential tips.",
   keywords:
-    "Drass, Dras Ladakh, Kargil War Memorial, Vijaypath, second coldest inhabited place, Zoji La, Tiger Hill, Tololing, Mushkoh Valley, Srinagar Leh highway, Kargil",
+    "Drass, Dras Ladakh, Kargil War Memorial, Vijaypath, second coldest inhabited place, Zoji La, Tiger Hill, Tololing, Mushkoh Valley, Srinagar Leh highway, Kargil, best time to visit Drass, how to reach Drass from Srinagar, is Drass safe to visit, Drass budget trip, Kargil Vijay Diwas, Drass to Kargil distance, Mushkoh Valley wildflowers, Zoji La pass road status",
   openGraph: {
     title: "Drass Travel Guide: Kargil War Memorial, Gateway to Ladakh",
     description:
@@ -83,7 +83,7 @@ function ArticleSchema() {
             "@id": "https://club.kudozz.in/blog/drass-travel-guide",
           },
           keywords:
-            "Drass, Dras Ladakh, Kargil War Memorial, Vijaypath, second coldest inhabited place, Zoji La, Tiger Hill, Tololing, Mushkoh Valley",
+            "Drass, Dras Ladakh, Kargil War Memorial, Vijaypath, second coldest inhabited place, Zoji La, Tiger Hill, Tololing, Mushkoh Valley, best time to visit Drass, how to reach Drass from Srinagar, is Drass safe to visit, Drass budget trip, Kargil Vijay Diwas, Drass to Kargil distance, Mushkoh Valley wildflowers, Zoji La pass road status",
           about: {
             "@type": "Place",
             name: "Drass",
@@ -123,6 +123,60 @@ function ArticleSchema() {
   );
 }
 
+// ── FAQ data (shared by visible section + JSON-LD) ────────────────────────────
+const faqs = [
+  {
+    q: "How many days do you need in Drass?",
+    a: "Most travellers visit Drass as a stop rather than a standalone destination — a few hours to a half-day is enough to see the Kargil War Memorial and, if time allows, a short detour into Mushkoh Valley, before continuing on toward Kargil or back to Srinagar. Many road-trippers heading to Leh simply schedule Drass as a mid-morning stop rather than an overnight.",
+  },
+  {
+    q: "What is the best time to visit Drass?",
+    a: "Late June through August is the pick — the Mushkoh Valley's wildflowers are at their fullest, the highway is dependable, and it's close to Kargil Vijay Diwas (26 July), when the War Memorial holds a solemn remembrance ceremony. Summer (May–September) is really the only comfortable window, since Zoji La closes completely from around November to May and Drass becomes essentially cut off.",
+  },
+  {
+    q: "How do I reach Drass from Srinagar?",
+    a: "Drass sits directly on National Highway 1, roughly 140 km and 5–6 hours from Srinagar via Sonamarg and the Zoji La pass. Shared taxis and private cabs run daily from Srinagar's TRC (Tourist Reception Centre). From Kargil, Drass is a much shorter 60 km, about 2 hours away, and shared sumos run regularly between the two.",
+  },
+  {
+    q: "Is Drass safe to visit?",
+    a: "Yes, for standard highway travel and a visit to the Kargil War Memorial — Drass is a well-travelled stop on the Srinagar–Leh highway. The main safety considerations are practical: check the Zoji La road status before departing since it can close for hours after fresh snowfall or rockfall even in summer, avoid driving the pass after dark or in poor visibility, and don't attempt to approach Tiger Hill, Tololing, or the Mushkoh ridgelines beyond marked civilian areas, since this remains a sensitive military area close to the Line of Control.",
+  },
+  {
+    q: "What is the budget for a Drass visit?",
+    a: "Costs in Drass itself are modest since most travellers pass through as part of a longer Srinagar–Kargil–Leh journey. A daily total of around ₹1,200 (budget) to ₹3,500 (mid-range) covers accommodation, food, and the War Memorial's nominal entry fee, excluding the shared taxi or vehicle cost for the wider route.",
+  },
+  {
+    q: "Why is Drass called the second-coldest inhabited place on Earth?",
+    a: "Drass has historically recorded winter temperatures as low as -45°C to -60°C, cold enough to freeze diesel in vehicle tanks — a reputation that places it second only to Siberia's Verkhoyansk and Oymyakon among inhabited places worldwide. This is strictly a winter phenomenon; summer daytime temperatures are a mild 15–20°C, which is when nearly all visitors come.",
+  },
+  {
+    q: "What is the Kargil War Memorial?",
+    a: "Also called Vijaypath, the Kargil War Memorial was built by the Indian Army at the foot of the Tiger Hill and Tololing ridgelines to commemorate Operation Vijay, the 1999 Kargil War. It includes a wall inscribed with the names of soldiers who lost their lives, an amphitheatre used for the annual Kargil Vijay Diwas commemoration on 26 July, and a small museum with recovered weapons, photographs, and personal effects.",
+  },
+];
+
+function FAQSchema() {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.a,
+            },
+          })),
+        }),
+      }}
+    />
+  );
+}
+
 // ── TOC ───────────────────────────────────────────────────────────────────────
 const tableOfContents = [
   { id: "introduction", title: "Why Visit Drass?", level: 2 },
@@ -136,6 +190,7 @@ const tableOfContents = [
   { id: "food-guide", title: "What to Eat", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
 // ── Page ─────────────────────────────────────────────────────────────────────
@@ -143,6 +198,7 @@ export default function DrassPage() {
   return (
     <>
       <ArticleSchema />
+      <FAQSchema />
       <SiteHeader />
 
       <main>
@@ -897,6 +953,32 @@ export default function DrassPage() {
                     of memory than the rest of their Ladakh trip: quieter,
                     heavier, and worth carrying home.
                   </p>
+                </section>
+
+                {/* ── FAQ ───────────────────────────────────────────────── */}
+                <section id="faq">
+                  <h2>Frequently Asked Questions</h2>
+                  <div className="space-y-5 my-6">
+                    {faqs.map((f) => (
+                      <div
+                        key={f.q}
+                        className="bg-white border border-stone-200 rounded-xl p-5"
+                      >
+                        <h4
+                          className="font-bold text-stone-900 mb-2 text-base"
+                          style={{ fontFamily: "var(--font-playfair)" }}
+                        >
+                          {f.q}
+                        </h4>
+                        <p
+                          className="text-sm text-stone-600 leading-relaxed m-0"
+                          style={{ fontFamily: "var(--font-dm-sans)" }}
+                        >
+                          {f.a}
+                        </p>
+                      </div>
+                    ))}
+                  </div>
                 </section>
               </div>
 

@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description:
     "The complete Jammu & Kashmir travel guide. Srinagar's Dal Lake and houseboats, Gulmarg's gondola and skiing, Pahalgam and Sonamarg valleys, Vaishno Devi, where to stay, what to eat, and a full 6-day itinerary.",
   keywords:
-    "Jammu Kashmir travel guide, Srinagar Dal Lake, Gulmarg gondola, Pahalgam valley, Sonamarg, Vaishno Devi yatra, Kashmir houseboat, Kashmir itinerary, Kashmir best time to visit",
+    "Jammu Kashmir travel guide, Srinagar Dal Lake, Gulmarg gondola, Pahalgam valley, Sonamarg, Vaishno Devi yatra, Kashmir houseboat, Kashmir itinerary, Kashmir best time to visit, how to reach Srinagar, Jammu Kashmir 6 day itinerary, is Kashmir safe to visit, Kashmir budget trip, best time to visit Gulmarg, Dal Lake houseboat cost, things to do in Kashmir",
   openGraph: {
     title: "Jammu & Kashmir Travel Guide: Srinagar, Gulmarg & Pahalgam",
     description:
@@ -115,6 +115,60 @@ function ArticleSchema() {
   );
 }
 
+// ── FAQ data (shared by visible section + JSON-LD) ────────────────────────────
+const faqs = [
+  {
+    q: "How many days do I need for Jammu & Kashmir?",
+    a: "Six days covers Srinagar comfortably along with the three main valley day trips — Gulmarg, Pahalgam, and Sonamarg — without rushing. If you're also doing the Vaishno Devi yatra from Jammu, add roughly two more days to that plan.",
+  },
+  {
+    q: "What is the best time to visit Jammu & Kashmir?",
+    a: "It depends on what you're after. Late April to early June brings tulip season and green meadows at their most photogenic, while late December to February is snow season, best for skiing and gondola rides at Gulmarg. September–October offers Srinagar's chinar autumn colours with fewer crowds than spring.",
+  },
+  {
+    q: "How do I reach Srinagar and Jammu & Kashmir?",
+    a: "Srinagar Airport has direct flights from Delhi, Mumbai, Bangalore, and other major cities, and is the fastest way into the valley. Jammu Tawi is the region's main railhead with strong connectivity to Delhi, and the Jammu–Srinagar highway (~270 km) takes roughly 7–8 hours by road through the Jawahar Tunnel.",
+  },
+  {
+    q: "Is Jammu & Kashmir safe to visit?",
+    a: "Tourist infrastructure has expanded substantially in recent years and Srinagar handles high visitor volumes smoothly in peak season, but conditions and access can shift with the security situation more than in most Indian destinations. It's worth checking official travel advisories before booking non-refundable travel.",
+  },
+  {
+    q: "What is the budget for a Jammu & Kashmir trip?",
+    a: "A budget traveller can expect around ₹4,800 a day covering accommodation, food, local transport, and activities, adding up to roughly ₹28,800 for a 6-day trip. Mid-range travel runs closer to ₹10,500 a day (about ₹63,000 for six days), while a luxury trip can reach ₹25,500 a day. This excludes flights or train travel to Srinagar or Jammu.",
+  },
+  {
+    q: "Is a Dal Lake houseboat stay worth it?",
+    a: "Yes — it's the signature Srinagar experience and, for many travellers, the one thing genuinely unique to the city. Options range from simple budget houseboats to genuinely luxurious ones, and it's worth building in at least one night, ideally paired with a sunrise shikara ride the next morning.",
+  },
+  {
+    q: "Do I need to register for the Vaishno Devi yatra?",
+    a: "Yes. A free Yatra Registration Slip (an RFID card) is mandatory before starting the trek from Katra, and it can be obtained online in advance or at counters in Katra. Registering early is worth doing, since queues at Katra can get long during peak pilgrimage season.",
+  },
+];
+
+function FAQSchema() {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.a,
+            },
+          })),
+        }),
+      }}
+    />
+  );
+}
+
 // ── TOC ───────────────────────────────────────────────────────────────────────
 const tableOfContents = [
   { id: "introduction", title: "Why Jammu & Kashmir?", level: 2 },
@@ -133,6 +187,7 @@ const tableOfContents = [
   { id: "itinerary", title: "6-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
 // ── J&K-specific gear ───────────────────────────────────────────────────
@@ -230,6 +285,7 @@ export default function JammuKashmirGuidePage() {
   return (
     <>
       <ArticleSchema />
+      <FAQSchema />
       <SiteHeader />
 
       <main>
@@ -1147,6 +1203,32 @@ export default function JammuKashmirGuidePage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── FAQ ───────────────────────────────────────────────── */}
+                <section id="faq">
+                  <h2>Frequently Asked Questions</h2>
+                  <div className="space-y-5 my-6">
+                    {faqs.map((f) => (
+                      <div
+                        key={f.q}
+                        className="bg-white border border-stone-200 rounded-xl p-5"
+                      >
+                        <h4
+                          className="font-bold text-stone-900 mb-2 text-base"
+                          style={{ fontFamily: "var(--font-playfair)" }}
+                        >
+                          {f.q}
+                        </h4>
+                        <p
+                          className="text-sm text-stone-600 leading-relaxed m-0"
+                          style={{ fontFamily: "var(--font-dm-sans)" }}
+                        >
+                          {f.a}
+                        </p>
+                      </div>
+                    ))}
                   </div>
                 </section>
               </div>

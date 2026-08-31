@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   description:
     "The complete Hemis travel guide — Ladakh's largest and wealthiest monastery, the legendary Hemis Festival cham dances, and Hemis National Park, the snow leopard capital of the world. How to reach, best time, and insider tips.",
   keywords:
-    "Hemis, Hemis Monastery, Hemis Festival, Hemis National Park, snow leopard Ladakh, Drukpa Kagyu, cham dance, Leh Ladakh monasteries, Ladakh wildlife, snow leopard trek",
+    "Hemis, Hemis Monastery, Hemis Festival, Hemis National Park, snow leopard Ladakh, Drukpa Kagyu, cham dance, Leh Ladakh monasteries, Ladakh wildlife, snow leopard trek, best time to visit Hemis, how to reach Hemis from Leh, is Hemis safe for solo travellers, Hemis trip budget, top things to do in Hemis, Hemis Tsechu dates, snow leopard capital of the world, Rumbak village homestay, Stakna Monastery Ladakh, Hemis vs Thiksey monastery",
   openGraph: {
     title: "Hemis Travel Guide: Monastery, Festival & Snow Leopard Country",
     description:
@@ -120,6 +120,60 @@ function ArticleSchema() {
   );
 }
 
+// ── FAQ data (shared by visible section + JSON-LD) ────────────────────────────
+const faqs = [
+  {
+    q: "How many days do I need for Hemis?",
+    a: "Hemis itself is an easy half-day trip from Leh, often combined with Thiksey and Shey monasteries in a single day. If you're going specifically for the Hemis Festival, plan for the two festival days plus travel; a dedicated snow leopard expedition inside Hemis National Park typically runs 5-10 days.",
+  },
+  {
+    q: "What is the best time to visit Hemis?",
+    a: "It depends on what you're after. For the Hemis Festival, June or July, when the monastery courtyard fills with masked cham dances during the two-day Hemis Tsechu. For snow leopard spotting, January to March, when leopards descend to lower elevations to hunt. August-September offers pleasant weather and fewer crowds for a straightforward monastery visit.",
+  },
+  {
+    q: "How do I reach Hemis from Leh?",
+    a: "Hemis is about 45 km from Leh, roughly 1.5 hours by road via Choglamsar and Karu on the Leh-Manali highway, then a turn-off climbing about 9 km into the side valley. A half-day taxi from Leh covering Hemis, Thiksey, and Shey costs roughly ₹2,500-3,500, and the road is well-paved enough for self-drive bikes and cars.",
+  },
+  {
+    q: "Is Hemis safe for solo travellers?",
+    a: "Yes, Hemis is a well-established day-trip destination from Leh with regular taxi and shared-transport access, making it comfortable for solo travellers. A dedicated snow leopard expedition into the national park is a more serious undertaking and should be booked through an experienced operator with a licensed guide rather than attempted independently.",
+  },
+  {
+    q: "What is the budget for a trip to Hemis?",
+    a: "A Hemis-only day trip from Leh is inexpensive — a shared taxi runs around ₹1,500 plus a ₹50 monastery entry fee. Costs rise sharply for a snow leopard expedition, which runs closer to a full trekking package: a 5-day all-in expedition costs roughly ₹20,000 on a budget and ₹40,000+ mid-range, including homestays and a naturalist guide.",
+  },
+  {
+    q: "Is Hemis worth visiting?",
+    a: "Yes — Hemis is the largest and wealthiest monastery in Ladakh, its remoteness having spared it from 17th-century Mongol raids that hit other monasteries. It also hosts Ladakh's most spectacular festival, the Hemis Tsechu, and sits at the edge of Hemis National Park, India's largest national park outside the Arctic and the most reliable place on the planet to see a wild snow leopard.",
+  },
+  {
+    q: "What are the odds of seeing a snow leopard in Hemis National Park?",
+    a: "Sightings are never guaranteed, since these are supremely elusive, well-camouflaged cats, but Hemis National Park offers better odds than almost anywhere else thanks to dense prey populations and a resident leopard population unusually tolerant of distant human presence. Multi-day expeditions in peak winter (January-March), based out of villages like Rumbak and Ulley, report remarkably high success rates for such a rare animal.",
+  },
+];
+
+function FAQSchema() {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.a,
+            },
+          })),
+        }),
+      }}
+    />
+  );
+}
+
 // ── TOC ───────────────────────────────────────────────────────────────────────
 const tableOfContents = [
   { id: "introduction", title: "Why Hemis?", level: 2 },
@@ -137,6 +191,7 @@ const tableOfContents = [
   { id: "food-guide", title: "What to Eat", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
 // ── Page ─────────────────────────────────────────────────────────────────────
@@ -144,6 +199,7 @@ export default function HemisPage() {
   return (
     <>
       <ArticleSchema />
+      <FAQSchema />
       <SiteHeader />
 
       <main>
@@ -1129,6 +1185,32 @@ export default function HemisPage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── FAQ ───────────────────────────────────────────────── */}
+                <section id="faq">
+                  <h2>Frequently Asked Questions</h2>
+                  <div className="space-y-5 my-6">
+                    {faqs.map((f) => (
+                      <div
+                        key={f.q}
+                        className="bg-white border border-stone-200 rounded-xl p-5"
+                      >
+                        <h4
+                          className="font-bold text-stone-900 mb-2 text-base"
+                          style={{ fontFamily: "var(--font-playfair)" }}
+                        >
+                          {f.q}
+                        </h4>
+                        <p
+                          className="text-sm text-stone-600 leading-relaxed m-0"
+                          style={{ fontFamily: "var(--font-dm-sans)" }}
+                        >
+                          {f.a}
+                        </p>
+                      </div>
+                    ))}
                   </div>
                 </section>
               </div>

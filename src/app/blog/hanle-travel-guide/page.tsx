@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   description:
     "The complete Hanle travel guide — India's first Dark Sky Reserve on the Changthang plateau. Stargazing tips, the Indian Astronomical Observatory, how to reach, permits, homestays, and a full itinerary for this remote Ladakh village.",
   keywords:
-    "Hanle, Hanle Dark Sky Reserve, Hanle Ladakh, Indian Astronomical Observatory, Changthang plateau, stargazing India, Hanle Monastery, Ladakh astro tourism, Hanle permit, Nyoma Ladakh",
+    "Hanle, Hanle Dark Sky Reserve, Hanle Ladakh, Indian Astronomical Observatory, Changthang plateau, stargazing India, Hanle Monastery, Ladakh astro tourism, Hanle permit, Nyoma Ladakh, best time to visit Hanle, how to reach Hanle from Leh, Hanle itinerary days, is Hanle safe for solo travellers, Hanle trip budget, top things to do in Hanle, Hanle homestays, Hanle Pangong Tso Moriri loop, Ladakh dark sky tourism, Hanle stargazing tips",
   openGraph: {
     title: "Hanle Travel Guide: Dark Sky Reserve, Observatory & Stargazing",
     description:
@@ -120,6 +120,60 @@ function ArticleSchema() {
   );
 }
 
+// ── FAQ data (shared by visible section + JSON-LD) ────────────────────────────
+const faqs = [
+  {
+    q: "How many days do I need for Hanle?",
+    a: "Plan for at least 2 days acclimatising in Leh, then a full day of driving each way to Hanle (7-8 hours via the Nyoma route), plus at least one overnight in the village for a stargazing session. Most travellers fold Hanle into a longer loop with Pangong Tso and Tso Moriri, which stretches the trip to around a week from Leh.",
+  },
+  {
+    q: "What is the best time to visit Hanle?",
+    a: "The roads are open from roughly May through late October. September is our pick — crowds thin out, the air is at its driest, and clear-sky nights are near-guaranteed, with days crisp and nights cold but manageable. Whatever month you choose, time your visit around the new moon, since a full moon washes out the fainter stars and the Milky Way.",
+  },
+  {
+    q: "How do I reach Hanle from Leh?",
+    a: "The standard route runs Leh to Upshi to Chumathang to Mahe to Nyoma to Hanle, roughly 254 km and 7-8 hours of driving. Fuel up in Leh or Upshi, since there is no reliable fuel station beyond Nyoma and none in Hanle itself. Travellers coming from Pangong Tso can also continue south via Chushul, though that route is longer, rougher, and requires confirming your permit covers it.",
+  },
+  {
+    q: "Is Hanle safe for solo travellers?",
+    a: "Hanle is remote but not unsafe — the main risks are altitude (roughly 4,500 metres, higher than Leh itself), extreme cold after dark, and the lack of fuel, ATMs, or mobile signal beyond Nyoma. Acclimatise in Leh for at least 2 days first, carry sufficient cash, and confirm your Inner Line Permit before setting out; solo travellers regularly make the trip via homestays and shared taxis.",
+  },
+  {
+    q: "What is the budget for a trip to Hanle?",
+    a: "A standard homestay with meals runs roughly ₹1,200-2,500 a night, while an astro-stay homestay with guided telescope sessions runs ₹2,500-5,000. Daily costs excluding vehicle hire range from about ₹1,300 on a budget to ₹6,600 for comfort. Vehicle hire for the Leh-Hanle return (₹6,000-14,000) is usually the largest single cost, and is far more affordable split across a group of 3-4.",
+  },
+  {
+    q: "Do I need a permit to visit Hanle?",
+    a: "Yes. Indian nationals need an Inner Line Permit (ILP), available online at lahdclehpermit.in or in person at the Leh DC Office, typically approved within 24-48 hours. Foreign nationals need a Protected Area Permit (PAP) arranged through a registered Leh tour operator and cannot travel to Hanle independently. Checkpoints at Upshi and Nyoma are strictly enforced.",
+  },
+  {
+    q: "What makes Hanle's Dark Sky Reserve special?",
+    a: "Hanle sits at nearly 4,500 metres in one of India's driest, least light-polluted corners, with over 250 clear nights a year. In 2022 it became India's first Dark Sky Reserve, a roughly 1,000 sq km zone where outdoor lighting is shielded and dimmed and vehicles use parking lights after dark, protecting the conditions that also make it home to the Indian Astronomical Observatory.",
+  },
+];
+
+function FAQSchema() {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.a,
+            },
+          })),
+        }),
+      }}
+    />
+  );
+}
+
 // ── TOC ───────────────────────────────────────────────────────────────────────
 const tableOfContents = [
   { id: "introduction", title: "Why Hanle?", level: 2 },
@@ -136,6 +190,7 @@ const tableOfContents = [
   { id: "food-guide", title: "What to Eat", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
 // ── Page ─────────────────────────────────────────────────────────────────────
@@ -143,6 +198,7 @@ export default function HanlePage() {
   return (
     <>
       <ArticleSchema />
+      <FAQSchema />
       <SiteHeader />
 
       <main>
@@ -1182,6 +1238,32 @@ export default function HanlePage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── FAQ ───────────────────────────────────────────────── */}
+                <section id="faq">
+                  <h2>Frequently Asked Questions</h2>
+                  <div className="space-y-5 my-6">
+                    {faqs.map((f) => (
+                      <div
+                        key={f.q}
+                        className="bg-white border border-stone-200 rounded-xl p-5"
+                      >
+                        <h4
+                          className="font-bold text-stone-900 mb-2 text-base"
+                          style={{ fontFamily: "var(--font-playfair)" }}
+                        >
+                          {f.q}
+                        </h4>
+                        <p
+                          className="text-sm text-stone-600 leading-relaxed m-0"
+                          style={{ fontFamily: "var(--font-dm-sans)" }}
+                        >
+                          {f.a}
+                        </p>
+                      </div>
+                    ))}
                   </div>
                 </section>
               </div>

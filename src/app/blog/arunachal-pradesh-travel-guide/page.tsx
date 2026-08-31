@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description:
     "The complete Arunachal Pradesh travel guide — Tawang's monastery and Himalayan frontier, Bomdila and Dirang, Ziro Valley's Apatani villages, Namdapha's rainforest, permit requirements (ILP/PAP), where to stay, what to eat, and a full itinerary through India's largest Northeastern state.",
   keywords:
-    "Arunachal Pradesh travel guide, Tawang Monastery, Sela Pass, Bomdila, Dirang, Ziro Valley, Namdapha National Park, Inner Line Permit Arunachal, Protected Area Permit, Arunachal Pradesh itinerary, Northeast India travel",
+    "Arunachal Pradesh travel guide, Tawang Monastery, Sela Pass, Bomdila, Dirang, Ziro Valley, Namdapha National Park, Inner Line Permit Arunachal, Protected Area Permit, Arunachal Pradesh itinerary, Northeast India travel, best time to visit Arunachal Pradesh, how to reach Tawang from Guwahati, Arunachal Pradesh itinerary 8 days, is Arunachal Pradesh safe for solo travellers, Arunachal Pradesh budget trip, things to do in Tawang, Ziro Valley Apatani tribe, Bum La Pass permit, Sela Pass road trip, Arunachal Pradesh travel FAQ",
   openGraph: {
     title: "Arunachal Pradesh Travel Guide: Tawang, Ziro Valley & Bomdila",
     description:
@@ -114,6 +114,60 @@ function ArticleSchema() {
   );
 }
 
+// ── FAQ data (shared by visible section + JSON-LD) ────────────────────────────
+const faqs = [
+  {
+    q: "How many days do I need for Arunachal Pradesh?",
+    a: "Eight days is a realistic minimum to properly cover Tawang with a Ziro Valley extension — trying to compress this further mostly means sacrificing rest and acclimatization days. Given how far Ziro sits from Tawang, some travelers prefer splitting the state into two separate, shorter trips instead of one combined loop.",
+  },
+  {
+    q: "What is the best time to visit Arunachal Pradesh?",
+    a: "October and November are the best window, with clear skies, crisp mountain air, and post-monsoon roads in their best shape for Tawang and the passes. March-April is a good alternative for rhododendron blooms, while December-February can bring heavy snow and temporary road closures, and June-September monsoon carries real landslide risk on the mountain roads.",
+  },
+  {
+    q: "How do I reach Tawang from Guwahati?",
+    a: "Guwahati (GAU) in Assam is the main air gateway to the region. From there, expect long, scenic, but genuinely slow mountain drives via Tezpur or Itanagar — the Guwahati–Tawang stretch alone typically takes two full days of driving, so a car with an experienced local driver is the realistic way to get around.",
+  },
+  {
+    q: "Do I need a permit to visit Arunachal Pradesh?",
+    a: "Yes. Indian citizens need an Inner Line Permit (ILP), applied for online in advance or in some cases on arrival at entry checkpoints. Foreign nationals need a Protected Area Permit (PAP) instead, typically arranged through a registered travel agent and sometimes requiring a minimum group size.",
+  },
+  {
+    q: "What is the budget for a trip to Arunachal Pradesh?",
+    a: "A daily budget runs roughly ₹5,500 on a budget trip, ₹10,300 mid-range, or ₹20,500 luxury, with a hired car with driver as the single biggest line item. An 8-day trip totals about ₹44,000–₹1,64,000 depending on tier, excluding flights into Guwahati.",
+  },
+  {
+    q: "Is Arunachal Pradesh safe for solo travellers?",
+    a: "The state is genuinely remote with thin infrastructure outside Itanagar, Tawang, and Ziro, long distances, and mountain roads, so it requires real planning rather than posing a specific safety risk. A hired car with an experienced local driver, cash for smaller towns, and buffer days for weather and road delays are all recommended regardless of group size.",
+  },
+  {
+    q: "What is Ziro Valley known for?",
+    a: "Ziro Valley is home to the Apatani tribe and is Arunachal's most famous valley — a UNESCO tentative World Heritage site known for its distinctive terraced rice-fish fields, traditional bamboo villages, and pine-covered hills. It also hosts the annual Ziro Music Festival every September, one of India's best independent music festivals.",
+  },
+];
+
+function FAQSchema() {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.a,
+            },
+          })),
+        }),
+      }}
+    />
+  );
+}
+
 // ── TOC ───────────────────────────────────────────────────────────────────────
 const tableOfContents = [
   { id: "introduction", title: "Why Arunachal Pradesh?", level: 2 },
@@ -127,6 +181,7 @@ const tableOfContents = [
   { id: "itinerary", title: "8-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
 // ── Arunachal Pradesh-specific gear ────────────────────────────────────────
@@ -224,6 +279,7 @@ export default function ArunachalPradeshGuidePage() {
   return (
     <>
       <ArticleSchema />
+      <FAQSchema />
       <SiteHeader />
 
       <main>
@@ -1146,6 +1202,32 @@ export default function ArunachalPradeshGuidePage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── FAQ ───────────────────────────────────────────────── */}
+                <section id="faq">
+                  <h2>Frequently Asked Questions</h2>
+                  <div className="space-y-5 my-6">
+                    {faqs.map((f) => (
+                      <div
+                        key={f.q}
+                        className="bg-white border border-stone-200 rounded-xl p-5"
+                      >
+                        <h4
+                          className="font-bold text-stone-900 mb-2 text-base"
+                          style={{ fontFamily: "var(--font-playfair)" }}
+                        >
+                          {f.q}
+                        </h4>
+                        <p
+                          className="text-sm text-stone-600 leading-relaxed m-0"
+                          style={{ fontFamily: "var(--font-dm-sans)" }}
+                        >
+                          {f.a}
+                        </p>
+                      </div>
+                    ))}
                   </div>
                 </section>
               </div>

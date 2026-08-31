@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description:
     "The complete Assam travel guide — rhino safaris in Kaziranga National Park, Kamakhya Temple and the Brahmaputra in Guwahati, the world's largest river island Majuli, Assam's tea gardens, where to stay and eat, and a full itinerary through Northeast India's gateway state.",
   keywords:
-    "Assam travel guide, Kaziranga National Park, one-horned rhinoceros, Guwahati, Kamakhya Temple, Majuli Island, Brahmaputra river, Assam tea gardens, Assam itinerary, Northeast India travel",
+    "Assam travel guide, Kaziranga National Park, one-horned rhinoceros, Guwahati, Kamakhya Temple, Majuli Island, Brahmaputra river, Assam tea gardens, Assam itinerary, Northeast India travel, best time to visit Assam, how to reach Kaziranga from Guwahati, Assam itinerary 7 days, is Assam safe for solo travellers, Assam budget trip, things to do in Guwahati, Kaziranga safari booking, Majuli river island ferry, Assam tea garden tour, Assam travel FAQ",
   openGraph: {
     title: "Assam Travel Guide: Kaziranga, Guwahati & Majuli Island",
     description:
@@ -114,6 +114,60 @@ function ArticleSchema() {
   );
 }
 
+// ── FAQ data (shared by visible section + JSON-LD) ────────────────────────────
+const faqs = [
+  {
+    q: "How many days do I need for Assam?",
+    a: "Seven days is a reasonable minimum to combine Guwahati, Kaziranga, and Majuli without excessive rushing — typically two days in Guwahati, two days at Kaziranga for safaris, and two to three days around Jorhat and Majuli.",
+  },
+  {
+    q: "What is the best time to visit Assam?",
+    a: "November to February is the best window, with cool, dry, and clear weather (10–25°C) ideal for safaris, river cruises, and sightseeing. March-April is still good, but May to October is Kaziranga's monsoon closure — the park's core zones shut entirely as the Brahmaputra floods, which is a hard logistics constraint, not just a comfort issue.",
+  },
+  {
+    q: "How do I reach Kaziranga from Guwahati?",
+    a: "Guwahati's Lokpriya Gopinath Bordoloi International Airport is the main gateway to Northeast India. A solid highway connects Guwahati to Kaziranga in roughly 4–5 hours by road, and the route continues onward to Jorhat for Majuli.",
+  },
+  {
+    q: "What is the budget for a trip to Assam?",
+    a: "A daily budget runs roughly ₹3,950 on a budget trip, ₹9,800 mid-range, or ₹22,000 luxury, with safari and entry fees at Kaziranga a significant line item. A 7-day trip totals about ₹27,650–₹1,54,000 depending on tier, excluding flights.",
+  },
+  {
+    q: "Is Assam safe for solo travellers?",
+    a: "Assam is generally straightforward to travel, with Guwahati as a well-connected base and organized safari and homestay infrastructure around Kaziranga and Majuli. As with anywhere, carry cash outside Guwahati since card acceptance drops off near Kaziranga, Jorhat, and especially on Majuli, and confirm ferry timings a day ahead when heading to Majuli.",
+  },
+  {
+    q: "Is Kaziranga National Park worth visiting?",
+    a: "Yes — Kaziranga is a UNESCO World Heritage Site and home to roughly two-thirds of the world's remaining one-horned rhinoceros population, alongside Bengal tigers, wild elephants, and one of the largest swamp deer populations anywhere. Both elephant-back and jeep safaris are worth booking, since they cover different zones with genuinely different vantage points.",
+  },
+  {
+    q: "How do I get to Majuli Island?",
+    a: "Majuli, the world's largest river island, is reached by ferry from Jorhat — a slow crossing that feels like a genuine transition into a different pace of life. Crossings run on a limited daily schedule and can be affected by river conditions, so confirm timings a day ahead, and it's worth staying overnight rather than a rushed day trip.",
+  },
+];
+
+function FAQSchema() {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.a,
+            },
+          })),
+        }),
+      }}
+    />
+  );
+}
+
 // ── TOC ───────────────────────────────────────────────────────────────────────
 const tableOfContents = [
   { id: "introduction", title: "Why Assam?", level: 2 },
@@ -128,6 +182,7 @@ const tableOfContents = [
   { id: "itinerary", title: "7-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
 // ── Assam-specific gear ──────────────────────────────────────────────────────
@@ -225,6 +280,7 @@ export default function AssamGuidePage() {
   return (
     <>
       <ArticleSchema />
+      <FAQSchema />
       <SiteHeader />
 
       <main>
@@ -1122,6 +1178,32 @@ export default function AssamGuidePage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── FAQ ───────────────────────────────────────────────── */}
+                <section id="faq">
+                  <h2>Frequently Asked Questions</h2>
+                  <div className="space-y-5 my-6">
+                    {faqs.map((f) => (
+                      <div
+                        key={f.q}
+                        className="bg-white border border-stone-200 rounded-xl p-5"
+                      >
+                        <h4
+                          className="font-bold text-stone-900 mb-2 text-base"
+                          style={{ fontFamily: "var(--font-playfair)" }}
+                        >
+                          {f.q}
+                        </h4>
+                        <p
+                          className="text-sm text-stone-600 leading-relaxed m-0"
+                          style={{ fontFamily: "var(--font-dm-sans)" }}
+                        >
+                          {f.a}
+                        </p>
+                      </div>
+                    ))}
                   </div>
                 </section>
               </div>

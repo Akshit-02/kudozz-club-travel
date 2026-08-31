@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description:
     "The complete Yanam District travel guide — St. Ann's Church, Yanam Ferry Road, the Godavari River, Yanam Tower, Rajiv Gandhi Beach and Yanam's French colonial heritage, plus the quiet Godavari delta villages of Mettakur, Kolanka, and Kanakalapeta.",
   keywords:
-    "Yanam district travel guide, Yanam Andhra Pradesh, St. Ann's Church Yanam, Yanam ferry road, Godavari river Yanam, Yanam tower, Rajiv Gandhi beach Yanam, Mettakur, Kolanka, Kanakalapeta, French colonial India, Puducherry union territory",
+    "Yanam district travel guide, Yanam Andhra Pradesh, St. Ann's Church Yanam, Yanam ferry road, Godavari river Yanam, Yanam tower, Rajiv Gandhi beach Yanam, Mettakur, Kolanka, Kanakalapeta, French colonial India, Puducherry union territory, how to reach Yanam from Kakinada, best time to visit Yanam, Yanam 2 day itinerary, Yanam budget trip, is Yanam worth visiting, Godavari delta villages Andhra Pradesh",
   openGraph: {
     title: "Yanam District Travel Guide: Godavari Delta & French Heritage",
     description:
@@ -116,6 +116,60 @@ function ArticleSchema() {
   );
 }
 
+// ── FAQ data (shared by visible section + JSON-LD) ────────────────────────────
+const faqs = [
+  {
+    q: "How many days do I need for Yanam district?",
+    a: "Two days is enough to cover Yanam comfortably — one day for the town (St. Ann's Church, Yanam Tower, Ferry Road, Rajiv Gandhi Beach) and a second for the delta villages of Mettakur, Kolanka, and Kanakalapeta.",
+  },
+  {
+    q: "What is the best time to visit Yanam?",
+    a: "November through February, when temperatures are cool and pleasant (20–30°C), is the best window for walking the Ferry Road and driving out to the delta villages. Avoid July–September, when the Godavari runs high and outdoor plans need more flexibility.",
+  },
+  {
+    q: "How do I reach Yanam from Kakinada?",
+    a: "Yanam sits roughly 25 km from Kakinada, connected by a straightforward local road — about a 45-minute drive, making it an easy day trip if you're already based in Kakinada or exploring the East Godavari coast.",
+  },
+  {
+    q: "Is Yanam worth visiting?",
+    a: "Yes, if you're already in the Godavari delta or Kakinada area — Yanam's French colonial heritage, riverfront church, and the quiet delta villages beyond it offer something genuinely different from the surrounding Andhra Pradesh coast. It isn't a standalone multi-day destination, though; it works best as a half-day-to-two-day detour.",
+  },
+  {
+    q: "What is the budget for a Yanam trip?",
+    a: "For a 2-day trip, expect around ₹2,800 on a tight budget, roughly ₹7,400 for a mid-range trip, and up to about ₹15,600 for a more upscale version, assuming a base in Kakinada rather than pricier Rajahmundry stays.",
+  },
+  {
+    q: "Where should I stay when visiting Yanam?",
+    a: "Accommodation inside Yanam itself is limited, so most visitors base themselves in Kakinada or Rajahmundry and treat Yanam as a day trip, with only a handful of guesthouses and hotels available in Yanam town.",
+  },
+  {
+    q: "What are the delta villages near Yanam?",
+    a: "Mettakur, Kolanka, and Kanakalapeta are the three quiet villages beyond Yanam town — none has a single standout monument, but the drive through their paddy fields and Godavari-fed waterways is a genuine look at delta life away from any tourist circuit.",
+  },
+];
+
+function FAQSchema() {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.a,
+            },
+          })),
+        }),
+      }}
+    />
+  );
+}
+
 // ── TOC ───────────────────────────────────────────────────────────────────────
 const tableOfContents = [
   { id: "introduction", title: "Why Yanam District?", level: 2 },
@@ -132,6 +186,7 @@ const tableOfContents = [
   { id: "itinerary", title: "2-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
 // ── Yanam District gear ──────────────────────────────────────────────────────
@@ -229,6 +284,7 @@ export default function YanamDistrictGuidePage() {
   return (
     <>
       <ArticleSchema />
+      <FAQSchema />
       <SiteHeader />
 
       <main>
@@ -1011,6 +1067,32 @@ export default function YanamDistrictGuidePage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── FAQ ───────────────────────────────────────────────── */}
+                <section id="faq">
+                  <h2>Frequently Asked Questions</h2>
+                  <div className="space-y-5 my-6">
+                    {faqs.map((f) => (
+                      <div
+                        key={f.q}
+                        className="bg-white border border-stone-200 rounded-xl p-5"
+                      >
+                        <h4
+                          className="font-bold text-stone-900 mb-2 text-base"
+                          style={{ fontFamily: "var(--font-playfair)" }}
+                        >
+                          {f.q}
+                        </h4>
+                        <p
+                          className="text-sm text-stone-600 leading-relaxed m-0"
+                          style={{ fontFamily: "var(--font-dm-sans)" }}
+                        >
+                          {f.a}
+                        </p>
+                      </div>
+                    ))}
                   </div>
                 </section>
               </div>

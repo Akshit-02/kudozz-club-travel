@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description:
     "The complete Bihar travel guide — the Mahabodhi Temple where Buddha attained enlightenment, the ruins of the ancient Nalanda university, Rajgir's Buddhist and Jain heritage, Patna's riverside history, where to stay and eat, and a full itinerary through one of India's most historically significant states.",
   keywords:
-    "Bihar travel guide, Bodh Gaya, Mahabodhi Temple, Nalanda University ruins, Rajgir, Patna Sahib, Vaishali, Sasaram Sher Shah Suri tomb, Bihar itinerary, Buddhist pilgrimage India",
+    "Bihar travel guide, Bodh Gaya, Mahabodhi Temple, Nalanda University ruins, Rajgir, Patna Sahib, Vaishali, Sasaram Sher Shah Suri tomb, Bihar itinerary, Buddhist pilgrimage India, best time to visit Bihar, how to reach Bodh Gaya, Bihar itinerary 6 days, is Bihar safe for solo travellers, Bihar budget trip, things to do in Bodh Gaya, Nalanda ruins Rajgir day trip, Patna sightseeing guide, Bihar travel FAQ, Bodh Gaya Gaya airport",
   openGraph: {
     title: "Bihar Travel Guide: Bodh Gaya, Nalanda & Patna",
     description:
@@ -113,6 +113,60 @@ function ArticleSchema() {
   );
 }
 
+// ── FAQ data (shared by visible section + JSON-LD) ────────────────────────────
+const faqs = [
+  {
+    q: "How many days do I need for Bihar?",
+    a: "Six days is a comfortable amount of time to properly cover Bodh Gaya, Nalanda and Rajgir, and Patna without rushing the sites that matter most — roughly two days in Bodh Gaya, a day trip to Nalanda/Rajgir, and two days in Patna, with room for a Vaishali detour.",
+  },
+  {
+    q: "What is the best time to visit Bihar?",
+    a: "October to March is the best window, with cool and comfortable weather (10–27°C) ideal for temple visits and ruin sightseeing. April to June brings extreme heat that regularly crosses 40°C, and July to September monsoon carries real flooding risk in parts of the Gangetic plain — best avoided for sightseeing-heavy travel.",
+  },
+  {
+    q: "How do I reach Bodh Gaya?",
+    a: "Gaya Airport, close to Bodh Gaya, runs direct international flights, especially from Buddhist-majority countries like Thailand, Sri Lanka, Myanmar, and Japan — it's roughly a 15-minute drive from Bodh Gaya versus 2+ hours from Patna. Patna's Jay Prakash Narayan International Airport and strong rail connectivity to Gaya are the alternative routes in.",
+  },
+  {
+    q: "What is the budget for a trip to Bihar?",
+    a: "A daily budget runs roughly ₹3,700 on a budget trip, ₹7,800 mid-range, or ₹17,000 luxury, with a car with driver for the Nalanda/Rajgir day trip as a near-essential line item given thin local transport. A 6-day trip totals about ₹22,200–₹1,02,000 depending on tier, excluding flights.",
+  },
+  {
+    q: "Is Bihar safe for solo travellers?",
+    a: "Bodh Gaya is well set up for visitors thanks to decades of Buddhist pilgrim traffic, with good hotels and English-speaking guides, and Patna has a reasonable range of business hotels. Outside these hubs, general tourist infrastructure is genuinely thin, so hiring a car with driver for day trips to Rajgir, Nalanda, and Vaishali, and carrying cash outside major towns, are both recommended.",
+  },
+  {
+    q: "Is Bihar worth visiting for its history?",
+    a: "Yes — Bihar is where the Buddha attained enlightenment at Bodh Gaya's Mahabodhi Temple, home to the ruins of Nalanda Mahavihara, one of the world's first residential universities predating Oxford by centuries, and the ancient heartland of the Magadha and Maurya empires, plus Vaishali (one of the world's earliest republics) and Sasaram's Sher Shah Suri tomb.",
+  },
+  {
+    q: "Can Nalanda and Rajgir be visited as a day trip from Bodh Gaya?",
+    a: "Yes, and this is the recommended approach — Nalanda and Rajgir are easily combined as a single day trip from Bodh Gaya. Hire a car with a driver rather than relying on local transport, which is thin between the two.",
+  },
+];
+
+function FAQSchema() {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.a,
+            },
+          })),
+        }),
+      }}
+    />
+  );
+}
+
 // ── TOC ───────────────────────────────────────────────────────────────────────
 const tableOfContents = [
   { id: "introduction", title: "Why Bihar?", level: 2 },
@@ -127,6 +181,7 @@ const tableOfContents = [
   { id: "itinerary", title: "6-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
 // ── Bihar-specific gear ─────────────────────────────────────────────────────
@@ -224,6 +279,7 @@ export default function BiharGuidePage() {
   return (
     <>
       <ArticleSchema />
+      <FAQSchema />
       <SiteHeader />
 
       <main>
@@ -1155,6 +1211,32 @@ export default function BiharGuidePage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── FAQ ───────────────────────────────────────────────── */}
+                <section id="faq">
+                  <h2>Frequently Asked Questions</h2>
+                  <div className="space-y-5 my-6">
+                    {faqs.map((f) => (
+                      <div
+                        key={f.q}
+                        className="bg-white border border-stone-200 rounded-xl p-5"
+                      >
+                        <h4
+                          className="font-bold text-stone-900 mb-2 text-base"
+                          style={{ fontFamily: "var(--font-playfair)" }}
+                        >
+                          {f.q}
+                        </h4>
+                        <p
+                          className="text-sm text-stone-600 leading-relaxed m-0"
+                          style={{ fontFamily: "var(--font-dm-sans)" }}
+                        >
+                          {f.a}
+                        </p>
+                      </div>
+                    ))}
                   </div>
                 </section>
               </div>

@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   description:
     "The complete Valley of Flowers National Park trek guide. Everything you need — how to reach Govindghat, the trek route, permits, what flowers bloom when, Hemkund Sahib, where to stay in Ghangaria, and essential tips for this UNESCO World Heritage trek in Uttarakhand.",
   keywords:
-    "Valley of Flowers trek, Valley of Flowers National Park, Uttarakhand trek, Ghangaria, Govindghat, Hemkund Sahib, Valley of Flowers permit, Valley of Flowers best time, Nanda Devi Biosphere Reserve, Chamoli Uttarakhand trek",
+    "Valley of Flowers trek, Valley of Flowers National Park, Uttarakhand trek, Ghangaria, Govindghat, Hemkund Sahib, Valley of Flowers permit, Valley of Flowers best time, Nanda Devi Biosphere Reserve, Chamoli Uttarakhand trek, how to reach Govindghat, Valley of Flowers trek difficulty, Valley of Flowers 5 day itinerary, is Valley of Flowers trek safe for solo travellers, Valley of Flowers budget trip, best time to visit Valley of Flowers, Rishikesh to Govindghat distance",
   openGraph: {
     title: "Valley of Flowers Trek Guide: Permits, Routes, Best Time & Tips",
     description:
@@ -119,6 +119,60 @@ function ArticleSchema() {
   );
 }
 
+// ── FAQ data (shared by visible section + JSON-LD) ────────────────────────────
+const faqs = [
+  {
+    q: "How many days do I need for the Valley of Flowers trek?",
+    a: "Five days is the ideal length — it covers the full Govindghat–Ghangaria–Valley of Flowers–Hemkund Sahib circuit without rushing, plus a buffer for weather or road delays on the Rishikesh–Govindghat highway.",
+  },
+  {
+    q: "What is the best time to visit Valley of Flowers?",
+    a: "The National Park is open from June 1 to October 31, but peak bloom falls in the last week of July through the first two weeks of August, when the greatest number of wildflower species are simultaneously in flower. Early September is a quieter, still-excellent alternative.",
+  },
+  {
+    q: "Is the Valley of Flowers trek difficult?",
+    a: "It's moderate rather than technical — no climbing gear or prior trekking experience is needed. The main challenge is the altitude gain on the 14 km Govindghat-to-Ghangaria stage (1,828 m to 3,048 m), which is steady but genuinely tiring if rushed.",
+  },
+  {
+    q: "How do I reach Govindghat?",
+    a: "Most trekkers travel overland from Rishikesh via the Char Dham highway (about 273 km, 8–10 hours by car, or by GMOU/KSRTC bus), often breaking the journey overnight at Joshimath. The nearest airport is Jolly Grant Airport in Dehradun, about 295 km away, and the nearest railhead is Rishikesh or Haridwar.",
+  },
+  {
+    q: "Do I need a permit for the Valley of Flowers?",
+    a: "Yes. It's a protected National Park, and the entry permit must be obtained in person at the Forest Department office in Ghangaria — not at Govindghat. It costs ₹150 per day for Indian nationals and ₹600 per day for foreign nationals, and must be renewed daily if you stay longer than one day.",
+  },
+  {
+    q: "What is the budget for a Valley of Flowers trip?",
+    a: "For a 5-day trip, expect roughly ₹6,000 on a tight budget, around ₹12,000 for a mid-range trip, and up to about ₹22,000 for a more comfortable version — covering stays in Joshimath and Ghangaria, food, permits, and local transport.",
+  },
+  {
+    q: "Can I visit Hemkund Sahib along with the Valley of Flowers?",
+    a: "Yes — both treks start from the same base camp at Ghangaria and are usually done on separate days. Hemkund Sahib is a steeper 6 km climb to 4,329 metres, while the Valley of Flowers walk is comparatively gentle once you're inside the park gate.",
+  },
+];
+
+function FAQSchema() {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.a,
+            },
+          })),
+        }),
+      }}
+    />
+  );
+}
+
 // ── TOC ───────────────────────────────────────────────────────────────────────
 const tableOfContents = [
   { id: "introduction", title: "Why Valley of Flowers?", level: 2 },
@@ -141,6 +195,7 @@ const tableOfContents = [
   { id: "packing-list", title: "Packing List", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
 // ── Page ─────────────────────────────────────────────────────────────────────
@@ -148,6 +203,7 @@ export default function ValleyOfFlowersPage() {
   return (
     <>
       <ArticleSchema />
+      <FAQSchema />
       <SiteHeader />
 
       <main>
@@ -1906,6 +1962,32 @@ export default function ValleyOfFlowersPage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── FAQ ───────────────────────────────────────────────── */}
+                <section id="faq">
+                  <h2>Frequently Asked Questions</h2>
+                  <div className="space-y-5 my-6">
+                    {faqs.map((f) => (
+                      <div
+                        key={f.q}
+                        className="bg-white border border-stone-200 rounded-xl p-5"
+                      >
+                        <h4
+                          className="font-bold text-stone-900 mb-2 text-base"
+                          style={{ fontFamily: "var(--font-playfair)" }}
+                        >
+                          {f.q}
+                        </h4>
+                        <p
+                          className="text-sm text-stone-600 leading-relaxed m-0"
+                          style={{ fontFamily: "var(--font-dm-sans)" }}
+                        >
+                          {f.a}
+                        </p>
+                      </div>
+                    ))}
                   </div>
                 </section>
               </div>

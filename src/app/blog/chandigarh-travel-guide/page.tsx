@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description:
     "The complete Chandigarh travel guide — Le Corbusier's Capitol Complex, the Rock Garden, Sukhna Lake, Sector 17 Plaza, Rose Garden, where to eat and stay, and a full 2-day itinerary for India's most planned city.",
   keywords:
-    "Chandigarh travel guide, Rock Garden Chandigarh, Sukhna Lake, Capitol Complex, Sector 17 Chandigarh, Chandigarh itinerary, Rose Garden Chandigarh, Le Corbusier Chandigarh, Chandigarh weekend trip, Elante Mall",
+    "Chandigarh travel guide, Rock Garden Chandigarh, Sukhna Lake, Capitol Complex, Sector 17 Chandigarh, Chandigarh itinerary, Rose Garden Chandigarh, Le Corbusier Chandigarh, Chandigarh weekend trip, Elante Mall, best time to visit Chandigarh, how to reach Chandigarh from Delhi, Chandigarh itinerary 2 days, is Chandigarh safe for solo travellers, Chandigarh budget trip, things to do in Chandigarh, Chandigarh day trips Kasauli, Chandigarh Capitol Complex UNESCO, Chandigarh travel FAQ",
   openGraph: {
     title: "Chandigarh Travel Guide: Rock Garden, Sukhna Lake & Itinerary",
     description:
@@ -115,6 +115,60 @@ function ArticleSchema() {
   );
 }
 
+// ── FAQ data (shared by visible section + JSON-LD) ────────────────────────────
+const faqs = [
+  {
+    q: "How many days do I need for Chandigarh?",
+    a: "Chandigarh's sights are compact enough to cover well in two focused days — one for the Rock Garden and Sukhna Lake, and a second for the Capitol Complex, Rose Garden, and shopping — leaving room for a day trip if you have more time.",
+  },
+  {
+    q: "What is the best time to visit Chandigarh?",
+    a: "October to March is the best window, with cool, pleasant days (10–25°C) that make walking the Rock Garden and Sukhna Lake promenade genuinely enjoyable. April to June gets hot, regularly crossing 40°C, so plan for early morning or evening sightseeing if visiting then.",
+  },
+  {
+    q: "How do I reach Chandigarh from Delhi?",
+    a: "Chandigarh International Airport has regular flights from Delhi (roughly 1 hour), Chandigarh Junction railway station connects to Delhi in about 4 hours by train, and it's a smooth 4–5 hour drive from Delhi via NH44, making it a popular weekend self-drive destination.",
+  },
+  {
+    q: "What is the budget for a trip to Chandigarh?",
+    a: "A daily budget runs roughly ₹2,900 on a budget trip, ₹7,200 mid-range, or ₹17,800 luxury, covering accommodation, food, local transport, and activities. A 2-day trip totals about ₹5,800–₹35,600 depending on tier, excluding travel to Chandigarh — add ₹1,500–3,000 per day trip if visiting Kasauli or Morni Hills.",
+  },
+  {
+    q: "Is Chandigarh worth visiting?",
+    a: "Yes — Chandigarh is India's first fully planned city, designed by Le Corbusier, with the brutalist Capitol Complex (a UNESCO World Heritage Site), the surreal Rock Garden built entirely from industrial and household waste, Sukhna Lake ringed by the Shivalik foothills, and a relaxed café culture in Sector 17.",
+  },
+  {
+    q: "What are the best day trips from Chandigarh?",
+    a: "Kasauli (~65 km, ~2 hrs) is a small, quiet colonial-era hill town with pine-lined walks. Morni Hills (~45 km, ~1.5 hrs) is Haryana's only hill station and less crowded. Pinjore Gardens (~20 km, ~30 min) is a well-maintained Mughal-style garden good for a half-day, and Shimla (~115 km, ~3.5 hrs) works better as an onward overnight stop than a rushed day trip.",
+  },
+  {
+    q: "Do I need permission to visit the Capitol Complex?",
+    a: "Yes. Le Corbusier's Capitol Complex — the High Court, Secretariat, and Assembly buildings — is a UNESCO World Heritage Site, and visits require advance permission via the Chandigarh Tourism office along with ID verification, so arrange this before you arrive rather than showing up.",
+  },
+];
+
+function FAQSchema() {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.a,
+            },
+          })),
+        }),
+      }}
+    />
+  );
+}
+
 // ── TOC ───────────────────────────────────────────────────────────────────────
 const tableOfContents = [
   { id: "introduction", title: "Why Chandigarh?", level: 2 },
@@ -127,6 +181,7 @@ const tableOfContents = [
   { id: "itinerary", title: "2-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
 // ── Chandigarh-specific gear ─────────────────────────────────────────────────
@@ -211,6 +266,7 @@ export default function ChandigarhGuidePage() {
   return (
     <>
       <ArticleSchema />
+      <FAQSchema />
       <SiteHeader />
 
       <main>
@@ -972,6 +1028,32 @@ export default function ChandigarhGuidePage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── FAQ ───────────────────────────────────────────────── */}
+                <section id="faq">
+                  <h2>Frequently Asked Questions</h2>
+                  <div className="space-y-5 my-6">
+                    {faqs.map((f) => (
+                      <div
+                        key={f.q}
+                        className="bg-white border border-stone-200 rounded-xl p-5"
+                      >
+                        <h4
+                          className="font-bold text-stone-900 mb-2 text-base"
+                          style={{ fontFamily: "var(--font-playfair)" }}
+                        >
+                          {f.q}
+                        </h4>
+                        <p
+                          className="text-sm text-stone-600 leading-relaxed m-0"
+                          style={{ fontFamily: "var(--font-dm-sans)" }}
+                        >
+                          {f.a}
+                        </p>
+                      </div>
+                    ))}
                   </div>
                 </section>
               </div>

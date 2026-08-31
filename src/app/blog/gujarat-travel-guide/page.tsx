@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description:
     "The complete Gujarat travel guide — the white salt desert of the Rann of Kutch, the Rann Utsav festival, Somnath and Dwarka's temple towns, wild Asiatic lions in Gir National Park, Ahmedabad's UNESCO heritage, the Statue of Unity, where to stay and eat, and a full itinerary through India's westernmost state.",
   keywords:
-    "Gujarat travel guide, Rann of Kutch, Rann Utsav, Somnath temple, Dwarka, Gir National Park, Asiatic lions, Ahmedabad heritage, Statue of Unity, Gujarat itinerary, Gujarati food",
+    "Gujarat travel guide, Rann of Kutch, Rann Utsav, Somnath temple, Dwarka, Gir National Park, Asiatic lions, Ahmedabad heritage, Statue of Unity, Gujarat itinerary, Gujarati food, best time to visit Gujarat, how to reach Gujarat from Ahmedabad, Gujarat 7 day itinerary, is Gujarat safe for solo travellers, Gujarat trip budget, top things to do in Gujarat, Rann of Kutch full moon walk, Gir National Park jeep safari, Sabarmati Ashram Ahmedabad, Dwarkadhish Temple",
   openGraph: {
     title: "Gujarat Travel Guide: Rann of Kutch, Somnath & Gir National Park",
     description:
@@ -115,6 +115,60 @@ function ArticleSchema() {
   );
 }
 
+// ── FAQ data (shared by visible section + JSON-LD) ────────────────────────────
+const faqs = [
+  {
+    q: "How many days do I need for Gujarat?",
+    a: "Seven days is a reasonable minimum to combine Ahmedabad, the Rann of Kutch, Gir National Park, and the temple towns of Somnath and Dwarka without excessive rushing. Given Gujarat's spread, plan on basing yourself in 3-4 distinct hubs rather than one central location.",
+  },
+  {
+    q: "What is the best time to visit Gujarat?",
+    a: "November to February is best — cool, dry, and pleasant (10–28°C), ideal for the Rann of Kutch, wildlife safaris in Gir, and comfortable city sightseeing. This window also coincides with the Rann Utsav festival. Avoid Kutch entirely during monsoon (July–September), when the Rann actually floods, and during the extreme heat of March–June.",
+  },
+  {
+    q: "How do I reach Gujarat?",
+    a: "Fly into Ahmedabad's Sardar Vallabhbhai Patel International Airport (AMD), Gujarat's best-connected gateway, with regular domestic and several international connections. Smaller airports at Rajkot, Bhuj, and Diu serve regional routes, and Ahmedabad, Rajkot, Bhuj, and Vadodara are all well connected by rail to Delhi, Mumbai, and other major cities.",
+  },
+  {
+    q: "Is Gujarat safe for solo travellers?",
+    a: "Gujarat is generally considered one of India's safer and more organized states to travel, with well-developed tourist infrastructure around Ahmedabad, Gir, and the Rann Utsav tent city. As a legally 'dry' state, its nightlife is limited, which many solo travellers find adds to the sense of calm compared to more touristy circuits.",
+  },
+  {
+    q: "What is the budget for a trip to Gujarat?",
+    a: "A budget traveller can expect to spend roughly ₹3,100 a day, a mid-range trip runs about ₹8,150 a day, and a luxury trip around ₹18,900 a day. A full 7-day trip totals roughly ₹21,700 on a budget, ₹57,050 mid-range, or ₹132,300 for luxury, excluding flights. Gir's safari and jeep costs are a significant line item, though shared jeeps bring per-person costs down.",
+  },
+  {
+    q: "Is Gujarat worth visiting?",
+    a: "Yes — it's a genuinely singular mix rarely covered on a first India trip: a UNESCO-listed heritage city in Ahmedabad, the otherworldly white salt desert of the Rann of Kutch, temple towns like Somnath and Dwarka steeped in mythology, and Gir National Park, the only place on Earth outside Africa where lions still roam wild.",
+  },
+  {
+    q: "Can I drink alcohol in Gujarat?",
+    a: "Gujarat is a legally 'dry' state, so alcohol sale and consumption is prohibited without a permit. Tourists can apply for a temporary liquor permit at designated shops or hotels, but casual availability shouldn't be expected the way it would elsewhere in India.",
+  },
+];
+
+function FAQSchema() {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.a,
+            },
+          })),
+        }),
+      }}
+    />
+  );
+}
+
 // ── TOC ───────────────────────────────────────────────────────────────────────
 const tableOfContents = [
   { id: "introduction", title: "Why Gujarat?", level: 2 },
@@ -129,6 +183,7 @@ const tableOfContents = [
   { id: "itinerary", title: "7-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
 // ── Gujarat-specific gear ────────────────────────────────────────────────────
@@ -226,6 +281,7 @@ export default function GujaratGuidePage() {
   return (
     <>
       <ArticleSchema />
+      <FAQSchema />
       <SiteHeader />
 
       <main>
@@ -1168,6 +1224,32 @@ export default function GujaratGuidePage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── FAQ ───────────────────────────────────────────────── */}
+                <section id="faq">
+                  <h2>Frequently Asked Questions</h2>
+                  <div className="space-y-5 my-6">
+                    {faqs.map((f) => (
+                      <div
+                        key={f.q}
+                        className="bg-white border border-stone-200 rounded-xl p-5"
+                      >
+                        <h4
+                          className="font-bold text-stone-900 mb-2 text-base"
+                          style={{ fontFamily: "var(--font-playfair)" }}
+                        >
+                          {f.q}
+                        </h4>
+                        <p
+                          className="text-sm text-stone-600 leading-relaxed m-0"
+                          style={{ fontFamily: "var(--font-dm-sans)" }}
+                        >
+                          {f.a}
+                        </p>
+                      </div>
+                    ))}
                   </div>
                 </section>
               </div>

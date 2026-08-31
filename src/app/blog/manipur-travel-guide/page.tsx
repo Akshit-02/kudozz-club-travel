@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description:
     "The complete Manipur travel guide — the floating islands of Loktak Lake, Imphal's Kangla Fort and war cemeteries, Keibul Lamjao's floating national park, Meitei culture, where to stay and eat, and a full itinerary through India's 'Jewel of the East.'",
   keywords:
-    "Manipur travel guide, Loktak Lake, Imphal travel guide, Kangla Fort, Keibul Lamjao National Park, Sangai deer, Manipur itinerary, Northeast India travel, Ima Keithel market",
+    "Manipur travel guide, Loktak Lake, Imphal travel guide, Kangla Fort, Keibul Lamjao National Park, Sangai deer, Manipur itinerary, Northeast India travel, Ima Keithel market, best time to visit Manipur, how to reach Imphal, Manipur itinerary days, is Manipur safe to visit, Manipur budget trip, Loktak Lake floating islands, Sangai Festival",
   openGraph: {
     title: "Manipur Travel Guide: Loktak Lake, Imphal & Kangla Fort",
     description:
@@ -114,6 +114,60 @@ function ArticleSchema() {
   );
 }
 
+// ── FAQ data (shared by visible section + JSON-LD) ────────────────────────────
+const faqs = [
+  {
+    q: "How many days do I need for Manipur?",
+    a: "Five days is a reasonable minimum to cover Imphal, Loktak Lake, and Moirang without excessive rushing, as laid out in our suggested itinerary. With less time, prioritize Imphal's Kangla Fort and Ima Keithel market along with a day trip to Loktak Lake.",
+  },
+  {
+    q: "What is the best time to visit Manipur?",
+    a: "October to March is the best window — cool, dry, and clear (10–24°C), the most comfortable conditions for Loktak Lake boat rides and Imphal sightseeing. November is a particularly good time to visit, coinciding with the Sangai Festival, Manipur's flagship cultural celebration of music, dance, sports, and cuisine.",
+  },
+  {
+    q: "How do I reach Manipur?",
+    a: "Imphal Airport (IMF) has regular flights from Kolkata, Guwahati, and Delhi, and is by far the fastest way in. By road, Imphal connects to Guwahati (~580 km) via NH-2, though drive times are substantial given the hilly terrain. Jiribam is Manipur's nearest rail link, connected to the broader network via Assam.",
+  },
+  {
+    q: "Is Manipur safe to visit?",
+    a: "Parts of Manipur have periodically seen security-related travel advisories, so check current conditions before finalizing plans and stick to well-established tourist routes around Imphal and Loktak Lake. Within those established routes, travel is routine for visitors.",
+  },
+  {
+    q: "What is the budget for a trip to Manipur?",
+    a: "A budget traveller can expect a daily total of around ₹2,100, a mid-range trip around ₹5,550/day, and a luxury trip around ₹12,800/day, based on accommodation, food, local transport, and activities. A five-day trip works out to roughly ₹10,500 (budget), ₹27,750 (mid-range), or ₹64,000 (luxury) in total.",
+  },
+  {
+    q: "What is Loktak Lake famous for?",
+    a: "Loktak Lake is Northeast India's largest freshwater lake, famous for its phumdis — floating masses of vegetation and soil that drift across the water and even support small fishing villages built on them. It's also home to Keibul Lamjao National Park, the world's only floating national park, where the endangered Sangai deer lives.",
+  },
+  {
+    q: "What is Ima Keithel in Imphal?",
+    a: "Ima Keithel (Mother's Market) is an all-women-run market with centuries of history, one of the largest of its kind in Asia, and a genuine highlight of any Imphal visit. As it's run entirely by women vendors, it's respectful to ask before photographing individual stallholders.",
+  },
+];
+
+function FAQSchema() {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.a,
+            },
+          })),
+        }),
+      }}
+    />
+  );
+}
+
 // ── TOC ───────────────────────────────────────────────────────────────────────
 const tableOfContents = [
   { id: "introduction", title: "Why Manipur?", level: 2 },
@@ -127,6 +181,7 @@ const tableOfContents = [
   { id: "itinerary", title: "5-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
 // ── Manipur-specific gear ─────────────────────────────────────────────────
@@ -224,6 +279,7 @@ export default function ManipurGuidePage() {
   return (
     <>
       <ArticleSchema />
+      <FAQSchema />
       <SiteHeader />
 
       <main>
@@ -1043,6 +1099,32 @@ export default function ManipurGuidePage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── FAQ ───────────────────────────────────────────────── */}
+                <section id="faq">
+                  <h2>Frequently Asked Questions</h2>
+                  <div className="space-y-5 my-6">
+                    {faqs.map((f) => (
+                      <div
+                        key={f.q}
+                        className="bg-white border border-stone-200 rounded-xl p-5"
+                      >
+                        <h4
+                          className="font-bold text-stone-900 mb-2 text-base"
+                          style={{ fontFamily: "var(--font-playfair)" }}
+                        >
+                          {f.q}
+                        </h4>
+                        <p
+                          className="text-sm text-stone-600 leading-relaxed m-0"
+                          style={{ fontFamily: "var(--font-dm-sans)" }}
+                        >
+                          {f.a}
+                        </p>
+                      </div>
+                    ))}
                   </div>
                 </section>
               </div>

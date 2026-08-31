@@ -9,6 +9,14 @@ export const metadata: Metadata = {
   title: "Join the Club — Free Travel Newsletter",
   description:
     "Get weekly travel guides, hidden gems, and curated itineraries delivered to your inbox. Join 12,000+ explorers in the Kudozz Club newsletter.",
+  keywords: [
+    "India travel newsletter",
+    "free travel newsletter",
+    "weekly travel guides email",
+    "travel itinerary newsletter",
+    "Kudozz Club newsletter",
+    "hidden gems India newsletter",
+  ],
   alternates: { canonical: "https://club.kudozz.in/newsletter" },
 };
 

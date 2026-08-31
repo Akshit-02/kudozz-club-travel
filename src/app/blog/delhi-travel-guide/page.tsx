@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description:
     "The complete Delhi travel guide — Red Fort, Humayun's Tomb, Qutub Minar, Chandni Chowk food trails, Hauz Khas Village, day trips to Agra, where to stay, and a full 3-day itinerary for India's layered, chaotic, endlessly rewarding capital.",
   keywords:
-    "Delhi travel guide, Red Fort, Qutub Minar, Humayun's Tomb, Chandni Chowk food, Hauz Khas Village, Delhi itinerary, India Gate, Lotus Temple, Delhi metro guide, Delhi to Agra day trip",
+    "Delhi travel guide, Red Fort, Qutub Minar, Humayun's Tomb, Chandni Chowk food, Hauz Khas Village, Delhi itinerary, India Gate, Lotus Temple, Delhi metro guide, Delhi to Agra day trip, best time to visit Delhi, how to reach Delhi, Delhi itinerary 3 days, is Delhi safe for solo travellers, Delhi budget trip, top things to do in Delhi, Jama Masjid, Old Delhi food trail, Delhi day trips",
   openGraph: {
     title: "Delhi Travel Guide: Red Fort, Qutub Minar & 3-Day Itinerary",
     description:
@@ -114,6 +114,60 @@ function ArticleSchema() {
   );
 }
 
+// ── FAQ data (shared by visible section + JSON-LD) ────────────────────────────
+const faqs = [
+  {
+    q: "How many days do you need for Delhi?",
+    a: "Three days is a comfortable minimum to cover Old and New Delhi properly without feeling rushed — one day for Old Delhi (Red Fort, Jama Masjid, Chandni Chowk), one for Mughal monuments and New Delhi (Humayun's Tomb, Qutub Minar, India Gate), and one for modern Delhi and markets (Lotus Temple or Akshardham, Hauz Khas Village, Khan Market).",
+  },
+  {
+    q: "What is the best time to visit Delhi?",
+    a: "October to March is the best window, when cool, dry days (10–26°C) make monument-hopping and long walks through Old Delhi genuinely pleasant. Our pick is late February to early April, or October to November — cool enough for full days of sightseeing and outside the worst of the winter smog that settles in November–January.",
+  },
+  {
+    q: "How do I reach Delhi?",
+    a: "Indira Gandhi International Airport (DEL) is India's busiest, with direct flights from almost every major domestic and international city. New Delhi, Old Delhi, and Nizamuddin railway stations connect to virtually every part of the country, including high-speed options like the Shatabdi and Rajdhani Expresses. The Airport Express Metro Line connects IGI Airport to New Delhi Railway Station in around 20 minutes.",
+  },
+  {
+    q: "Is Delhi safe for solo travellers?",
+    a: "Delhi is generally manageable for solo travellers who take standard city precautions — use the Delhi Metro for most cross-city travel rather than unfamiliar routes, stay alert with belongings in dense crowds like Chandni Chowk and major markets, use app-based cab and auto booking to avoid overcharging, and dress modestly at religious sites like Jama Masjid, Akshardham, and the Lotus Temple.",
+  },
+  {
+    q: "What is the budget for a Delhi trip?",
+    a: "A budget traveller can expect a daily total of around ₹2,500, a mid-range traveller around ₹7,900, and a luxury traveller around ₹24,500 per day, covering accommodation, food, local transport, and monument entry fees — working out to roughly ₹7,500, ₹23,700, or ₹73,500 respectively for a 3-day trip, excluding travel to Delhi.",
+  },
+  {
+    q: "Can I visit Agra as a day trip from Delhi?",
+    a: "Yes — Agra is about 230 km from Delhi, roughly 3.5 hours by road or 2 hours by the Gatimaan Express, making it a very doable long day trip to see the Taj Mahal and Agra Fort. An early start gives you far more time at both sites before the afternoon crowds and heat; an overnight stay is worth considering if you want to linger.",
+  },
+  {
+    q: "What is the best way to get around Delhi?",
+    a: "The Delhi Metro is by far the best way to cover long distances across the city, since it avoids Delhi's notorious road traffic. Auto-rickshaws and app-based cabs (Uber/Ola) work well for shorter or local trips, while walking is the best way to actually experience Chandni Chowk and Old Delhi's narrow lanes, which are often too congested for vehicles.",
+  },
+];
+
+function FAQSchema() {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.a,
+            },
+          })),
+        }),
+      }}
+    />
+  );
+}
+
 // ── TOC ───────────────────────────────────────────────────────────────────────
 const tableOfContents = [
   { id: "introduction", title: "Why Delhi?", level: 2 },
@@ -128,6 +182,7 @@ const tableOfContents = [
   { id: "itinerary", title: "3-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
 // ── Delhi-specific gear ──────────────────────────────────────────────────────
@@ -225,6 +280,7 @@ export default function DelhiGuidePage() {
   return (
     <>
       <ArticleSchema />
+      <FAQSchema />
       <SiteHeader />
 
       <main>
@@ -1078,6 +1134,32 @@ export default function DelhiGuidePage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── FAQ ───────────────────────────────────────────────── */}
+                <section id="faq">
+                  <h2>Frequently Asked Questions</h2>
+                  <div className="space-y-5 my-6">
+                    {faqs.map((f) => (
+                      <div
+                        key={f.q}
+                        className="bg-white border border-stone-200 rounded-xl p-5"
+                      >
+                        <h4
+                          className="font-bold text-stone-900 mb-2 text-base"
+                          style={{ fontFamily: "var(--font-playfair)" }}
+                        >
+                          {f.q}
+                        </h4>
+                        <p
+                          className="text-sm text-stone-600 leading-relaxed m-0"
+                          style={{ fontFamily: "var(--font-dm-sans)" }}
+                        >
+                          {f.a}
+                        </p>
+                      </div>
+                    ))}
                   </div>
                 </section>
               </div>

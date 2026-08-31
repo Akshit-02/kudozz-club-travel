@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description:
     "The complete Chhattisgarh travel guide — the thundering Chitrakote Falls on the Indravati river, the tribal heartland of Bastar, Kanger Valley's caves, Sirpur's Buddhist ruins, where to stay and eat, and a full itinerary through one of India's most underrated, forest-covered states.",
   keywords:
-    "Chhattisgarh travel guide, Chitrakote Falls, Bastar travel guide, Bastar Dussehra, Jagdalpur, Kanger Valley National Park, Sirpur, Raipur travel guide, Chhattisgarh itinerary, Central India travel",
+    "Chhattisgarh travel guide, Chitrakote Falls, Bastar travel guide, Bastar Dussehra, Jagdalpur, Kanger Valley National Park, Sirpur, Raipur travel guide, Chhattisgarh itinerary, Central India travel, best time to visit Chhattisgarh, how to reach Chhattisgarh, Chhattisgarh itinerary 5 days, is Chhattisgarh safe for travellers, Chhattisgarh budget trip, top things to do in Chhattisgarh, Kotumsar Cave, Chitrakote Falls best time to visit",
   openGraph: {
     title: "Chhattisgarh Travel Guide: Chitrakote Falls, Bastar & Raipur",
     description:
@@ -115,6 +115,60 @@ function ArticleSchema() {
   );
 }
 
+// ── FAQ data (shared by visible section + JSON-LD) ────────────────────────────
+const faqs = [
+  {
+    q: "How many days do you need for a Chhattisgarh trip?",
+    a: "Five days is a reasonable minimum to cover Raipur, Bastar, Chitrakote Falls, and Kanger Valley without excessive rushing, following a route that touches Sirpur, Jagdalpur, and the tribal villages around Bastar as well.",
+  },
+  {
+    q: "What is the best time to visit Chhattisgarh?",
+    a: "October to March is cool, dry, and pleasant (12–28°C) and the most comfortable window for exploring Bastar, Kanger Valley, and Jagdalpur. If seeing Chitrakote Falls at its widest and loudest matters more, plan for late September or early October, just after monsoon, and accept a bit more mud and heat along the way.",
+  },
+  {
+    q: "Is Chhattisgarh safe for travellers?",
+    a: "Chhattisgarh is generally fine to visit on well-established tourist routes around Raipur, Jagdalpur, Chitrakote Falls, and Kanger Valley, but parts of interior Bastar districts have periodically seen security-related travel advisories. Confirm the latest guidance before finalising plans and stick to established routes rather than unfamiliar interior areas.",
+  },
+  {
+    q: "How do I reach Chhattisgarh?",
+    a: "Swami Vivekananda Airport (RPR) in Raipur is the state's main gateway, with regular flights from Delhi, Mumbai, Bengaluru, and Kolkata. Raipur and Bilaspur are the two major railway junctions, and Raipur is linked by national highways to Nagpur and Bhubaneswar, though onward travel to Bastar and Jagdalpur still takes several hours by road.",
+  },
+  {
+    q: "Is Chitrakote Falls worth visiting?",
+    a: "Yes — Chitrakote Falls on the Indravati river, roughly 38 km from Jagdalpur, is a horseshoe-shaped waterfall often nicknamed the 'Niagara of India' because at peak flow its width genuinely exceeds Niagara Falls, even though its roughly 29-metre drop is nowhere near as tall. It's most dramatic post-monsoon (August–October); in the dry season it thins into smaller, still-scenic cascades.",
+  },
+  {
+    q: "What is Bastar Dussehra?",
+    a: "Bastar Dussehra is an extraordinary festival tradition centred on Jagdalpur that runs for over 75 days, among the longest continuous festival cycles anywhere in India. It's distinct from the Dussehra celebrated elsewhere in the country and is rooted in local tribal and royal history — worth timing a trip around if you're interested in Chhattisgarh's tribal culture.",
+  },
+  {
+    q: "What is the budget for a Chhattisgarh trip?",
+    a: "A budget traveller can expect a daily total of around ₹2,000, a mid-range traveller around ₹5,300, and a luxury traveller around ₹12,300 per day, covering accommodation, food, local transport, and activities — working out to roughly ₹10,000, ₹26,500, or ₹61,500 respectively for a 5-day trip, excluding flights to Raipur.",
+  },
+];
+
+function FAQSchema() {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.a,
+            },
+          })),
+        }),
+      }}
+    />
+  );
+}
+
 // ── TOC ───────────────────────────────────────────────────────────────────────
 const tableOfContents = [
   { id: "introduction", title: "Why Chhattisgarh?", level: 2 },
@@ -128,6 +182,7 @@ const tableOfContents = [
   { id: "itinerary", title: "5-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
 // ── Chhattisgarh-specific gear ─────────────────────────────────────────────
@@ -225,6 +280,7 @@ export default function ChhattisgarhGuidePage() {
   return (
     <>
       <ArticleSchema />
+      <FAQSchema />
       <SiteHeader />
 
       <main>
@@ -1070,6 +1126,32 @@ export default function ChhattisgarhGuidePage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── FAQ ───────────────────────────────────────────────── */}
+                <section id="faq">
+                  <h2>Frequently Asked Questions</h2>
+                  <div className="space-y-5 my-6">
+                    {faqs.map((f) => (
+                      <div
+                        key={f.q}
+                        className="bg-white border border-stone-200 rounded-xl p-5"
+                      >
+                        <h4
+                          className="font-bold text-stone-900 mb-2 text-base"
+                          style={{ fontFamily: "var(--font-playfair)" }}
+                        >
+                          {f.q}
+                        </h4>
+                        <p
+                          className="text-sm text-stone-600 leading-relaxed m-0"
+                          style={{ fontFamily: "var(--font-dm-sans)" }}
+                        >
+                          {f.a}
+                        </p>
+                      </div>
+                    ))}
                   </div>
                 </section>
               </div>

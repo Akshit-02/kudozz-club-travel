@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   description:
     "The complete guide to Kasol and the Kheerganga trek. Everything you need — how to get there, the trek route, camping at Kheerganga hot springs, Chalal, Tosh, Malana, where to stay, best cafes, and honest tips for the Parvati Valley trail.",
   keywords:
-    "Kasol travel guide, Kheerganga trek, Parvati Valley, Kasol cafes, Tosh village, Malana village, Kheerganga hot springs, Himachal Pradesh trek, Kasol itinerary, Barshaini trek",
+    "Kasol travel guide, Kheerganga trek, Parvati Valley, Kasol cafes, Tosh village, Malana village, Kheerganga hot springs, Himachal Pradesh trek, Kasol itinerary, Barshaini trek, best time to visit Kasol, how to reach Kasol from Delhi, Kheerganga trek distance, is Kheerganga trek difficult, Kasol Kheerganga budget trip, Kheerganga trek difficulty level",
   openGraph: {
     title: "Kasol & Kheerganga Trek Guide: The Complete Parvati Valley Trail",
     description:
@@ -119,6 +119,60 @@ function ArticleSchema() {
   );
 }
 
+// ── FAQ data (shared by visible section + JSON-LD) ────────────────────────────
+const faqs = [
+  {
+    q: "How many days do I need for Kasol and Kheerganga?",
+    a: "Five days gives you time to do Kasol properly, cover the best side trips like Manikaran and Tosh, and do the Kheerganga trek without rushing the descent. A tighter version — Kasol plus the Kheerganga trek alone — can be done in three days if side trips are skipped.",
+  },
+  {
+    q: "How do I reach Kasol from Delhi?",
+    a: "Overnight Volvo buses run from ISBT Kashmiri Gate directly to Kasol or Bhuntar, taking 12–14 hours and costing roughly ₹700–₹1,200. Alternatively, fly to Bhuntar Airport (KUU) from Delhi in about 50 minutes, then take a shared taxi or local bus the remaining 30 km to Kasol.",
+  },
+  {
+    q: "How long is the Kheerganga trek and is it difficult?",
+    a: "The trek runs 12–14 km one way, depending on the route, climbing from 1,800 m at Barshaini to 2,960 m at the Kheerganga meadow, and takes 5–7 hours. It's classified as easy-to-moderate and suitable for first-time trekkers, though the final stretch does steepen noticeably before the meadow.",
+  },
+  {
+    q: "What is the best time to visit Kasol and Kheerganga?",
+    a: "Early October is the pick — the monsoon has cleared completely, the forest is at peak colour, the Kheerganga meadow still has green grass before the winter freeze, and September's crowds have thinned. March to June is also excellent, while July–August monsoon rains make the Kheerganga trail slippery and landslide-prone and are best avoided.",
+  },
+  {
+    q: "Is it safe to visit Malana village?",
+    a: "Yes, if you follow the rules strictly. Malana has strict no-touch customs — don't touch walls, temples, or people, and don't enter houses uninvited — enforced because touching triggers a costly purification ritual for the village. A pollution tax of ₹100–₹300 applies at entry, and buying or carrying charas, which the area is known for, is illegal and results in real arrests.",
+  },
+  {
+    q: "What is the budget for a Kasol and Kheerganga trip?",
+    a: "A budget traveller can expect around ₹1,450 a day covering accommodation, food, local transport, and the Kheerganga camp and hot spring entry, totalling roughly ₹7,250 for a 5-day trip excluding the Delhi bus fare. Mid-range travel runs about ₹3,150 a day (around ₹15,750 for five days), while a more comfortable trip can reach ₹6,150 a day.",
+  },
+  {
+    q: "What should I know about the Kheerganga hot springs?",
+    a: "The natural hot spring water emerges at roughly 45°C into two forest department-managed pools, one for men and one for women, with ₹50 entry per person. The pools are open from about 6 AM to 9 PM, and going after 5 PM avoids the day-tripper crowds — carry a towel, flip-flops, and a change of clothes.",
+  },
+];
+
+function FAQSchema() {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.a,
+            },
+          })),
+        }),
+      }}
+    />
+  );
+}
+
 // ── TOC ───────────────────────────────────────────────────────────────────────
 const tableOfContents = [
   { id: "introduction", title: "Why Kasol & Kheerganga?", level: 2 },
@@ -141,6 +195,7 @@ const tableOfContents = [
   { id: "itinerary", title: "5-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
 // ── Page ─────────────────────────────────────────────────────────────────────
@@ -148,6 +203,7 @@ export default function KasolKheergangaPage() {
   return (
     <>
       <ArticleSchema />
+      <FAQSchema />
       <SiteHeader />
 
       <main>
@@ -1494,6 +1550,32 @@ export default function KasolKheergangaPage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── FAQ ───────────────────────────────────────────────── */}
+                <section id="faq">
+                  <h2>Frequently Asked Questions</h2>
+                  <div className="space-y-5 my-6">
+                    {faqs.map((f) => (
+                      <div
+                        key={f.q}
+                        className="bg-white border border-stone-200 rounded-xl p-5"
+                      >
+                        <h4
+                          className="font-bold text-stone-900 mb-2 text-base"
+                          style={{ fontFamily: "var(--font-playfair)" }}
+                        >
+                          {f.q}
+                        </h4>
+                        <p
+                          className="text-sm text-stone-600 leading-relaxed m-0"
+                          style={{ fontFamily: "var(--font-dm-sans)" }}
+                        >
+                          {f.a}
+                        </p>
+                      </div>
+                    ))}
                   </div>
                 </section>
               </div>

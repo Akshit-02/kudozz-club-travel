@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description:
     "The complete Himachal Pradesh travel guide — colonial Shimla, the Kullu Valley, Tibetan Buddhist Dharamshala and McLeod Ganj, high-altitude Spiti, Kasauli, Dalhousie, Kangra's tea gardens, where to stay and eat, and a full 9-day itinerary across India's most accessible Himalayan state.",
   keywords:
-    "Himachal Pradesh travel guide, Shimla travel guide, Manali Himachal, Dharamshala McLeod Ganj, Kasauli, Dalhousie Chamba, Kangra Valley tea gardens, Kullu Manali, Himachal itinerary, Kalka Shimla toy train",
+    "Himachal Pradesh travel guide, Shimla travel guide, Manali Himachal, Dharamshala McLeod Ganj, Kasauli, Dalhousie Chamba, Kangra Valley tea gardens, Kullu Manali, Himachal itinerary, Kalka Shimla toy train, best time to visit Himachal Pradesh, how to reach Himachal Pradesh from Delhi, Himachal Pradesh 9 day itinerary, is Himachal Pradesh safe for solo travellers, Himachal Pradesh trip budget, top things to do in Himachal Pradesh, Triund trek Dharamshala, Spiti Valley best time, Rohtang Pass permit, Himachal Pradesh vs Uttarakhand",
   openGraph: {
     title: "Himachal Pradesh Travel Guide: Shimla, Manali & Dharamshala",
     description:
@@ -113,6 +113,60 @@ function ArticleSchema() {
   );
 }
 
+// ── FAQ data (shared by visible section + JSON-LD) ────────────────────────────
+const faqs = [
+  {
+    q: "How many days do I need for Himachal Pradesh?",
+    a: "Nine days is a comfortable window to cover Shimla, Manali/Kullu, and Dharamshala without excessive rushing, with a short taste of Spiti if your dates fall within its open season (roughly June to early October). Given the state's spread, plan on basing yourself in at least three hubs rather than trying to day-trip between them.",
+  },
+  {
+    q: "What is the best time to visit Himachal Pradesh?",
+    a: "Late September to early November is our pick for the clearest views and thinner crowds across Shimla, Manali, and Dharamshala. March to June is also good, with orchards blooming in spring. If Spiti is part of your plan, it's realistically accessible only from around June to early October — build your route around that window first.",
+  },
+  {
+    q: "How do I reach Himachal Pradesh from Delhi?",
+    a: "Overnight Volvo buses run directly from Delhi to Shimla, Manali, and Dharamshala. By air, Chandigarh Airport is the main gateway for Shimla and Dharamshala, with Kullu-Manali Airport (Bhuntar) serving Manali directly. By rail, the nearest broad-gauge station is Kalka, from where the UNESCO-listed Kalka-Shimla toy train climbs to Shimla.",
+  },
+  {
+    q: "Is Himachal Pradesh safe for solo travellers?",
+    a: "Yes, Himachal Pradesh is one of the most accessible and well-travelled Himalayan states, with a long-established backpacker and traveller circuit through Old Manali, McLeod Ganj, and Shimla's Mall Road. The main risks are winding hill roads and altitude at higher elevations like Rohtang Pass or Spiti — hire experienced local drivers and build in acclimatization time.",
+  },
+  {
+    q: "What is the budget for a trip to Himachal Pradesh?",
+    a: "A budget traveller can expect to spend roughly ₹2,900 a day, a mid-range trip runs about ₹8,400 a day, and a luxury trip around ₹21,300 a day. A 9-day trip totals roughly ₹26,100 on a budget and ₹75,600 mid-range, excluding flights. Inter-city travel between Shimla, Manali, and Dharamshala adds up over a multi-region trip, so shared Volvo or HRTC buses cost significantly less than private cabs.",
+  },
+  {
+    q: "Is Himachal Pradesh worth visiting?",
+    a: "Yes — it packs more range into one state than almost anywhere else in the Himalayas: Shimla's colonial-era architecture and UNESCO toy train, Manali and the Kullu Valley's apple orchards and adventure sports, McLeod Ganj's Tibetan Buddhist character as the seat of the Dalai Lama since 1960, and the high-altitude cold desert of Spiti bordering Tibet.",
+  },
+  {
+    q: "How do I reach Manali or Dharamshala from Shimla?",
+    a: "Manali is roughly 7-8 hours from Shimla via the Kullu Valley, and Dharamshala is a further 6-7 hours from Manali. Fly into Chandigarh and out of Kullu (or vice versa) if you're combining multiple regions, to avoid backtracking across the same winding hill roads twice.",
+  },
+];
+
+function FAQSchema() {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.a,
+            },
+          })),
+        }),
+      }}
+    />
+  );
+}
+
 // ── TOC ───────────────────────────────────────────────────────────────────────
 const tableOfContents = [
   { id: "introduction", title: "Why Himachal Pradesh?", level: 2 },
@@ -127,6 +181,7 @@ const tableOfContents = [
   { id: "itinerary", title: "9-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
 // ── Himachal Pradesh-specific gear ──────────────────────────────────────────
@@ -224,6 +279,7 @@ export default function HimachalPradeshGuidePage() {
   return (
     <>
       <ArticleSchema />
+      <FAQSchema />
       <SiteHeader />
 
       <main>
@@ -1151,6 +1207,32 @@ export default function HimachalPradeshGuidePage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── FAQ ───────────────────────────────────────────────── */}
+                <section id="faq">
+                  <h2>Frequently Asked Questions</h2>
+                  <div className="space-y-5 my-6">
+                    {faqs.map((f) => (
+                      <div
+                        key={f.q}
+                        className="bg-white border border-stone-200 rounded-xl p-5"
+                      >
+                        <h4
+                          className="font-bold text-stone-900 mb-2 text-base"
+                          style={{ fontFamily: "var(--font-playfair)" }}
+                        >
+                          {f.q}
+                        </h4>
+                        <p
+                          className="text-sm text-stone-600 leading-relaxed m-0"
+                          style={{ fontFamily: "var(--font-dm-sans)" }}
+                        >
+                          {f.a}
+                        </p>
+                      </div>
+                    ))}
                   </div>
                 </section>
               </div>

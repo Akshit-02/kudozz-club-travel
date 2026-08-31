@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   description:
     "A responsible traveller's guide to Dha-Hanu, the so-called 'Aryan Valley' of Ladakh — how to reach Dha, Hanu, Garkone and Darchik, permits, Brokpa culture, and how to visit this living community with respect.",
   keywords:
-    "Dha Hanu, Aryan Valley Ladakh, Brokpa people, Drokpa Ladakh, Dha village, Hanu village, Garkone, Darchik, Batalik sector, Ladakh permits, offbeat Ladakh, Ladakh culture",
+    "Dha Hanu, Aryan Valley Ladakh, Brokpa people, Drokpa Ladakh, Dha village, Hanu village, Garkone, Darchik, Batalik sector, Ladakh permits, offbeat Ladakh, Ladakh culture, best time to visit Dha Hanu, how to reach Dha Hanu from Leh, is Dha Hanu safe for solo travellers, Dha Hanu budget trip, Dha Hanu homestays, Inner Line Permit Ladakh, apricot blossom Ladakh, Aryan Valley legend truth",
   openGraph: {
     title: "Dha-Hanu Travel Guide: Ladakh's Aryan Valley & the Brokpa People",
     description:
@@ -120,6 +120,60 @@ function ArticleSchema() {
   );
 }
 
+// ── FAQ data (shared by visible section + JSON-LD) ────────────────────────────
+const faqs = [
+  {
+    q: "How many days do you need for Dha-Hanu?",
+    a: "A day trip from Leh is technically possible but rushed, since you'll spend most of the day driving. An overnight homestay is strongly preferable — give it a full day and a night if you possibly can, so the itinerary can loosen and let the valley's own rhythm set the pace.",
+  },
+  {
+    q: "What is the best time to visit Dha-Hanu?",
+    a: "April–May brings the apricot blossom, when the valley's trees flower in pale pink and white against bare hillsides. June–July is the green season, with fields turning deep green and the best chance of seeing Brokpa dress worn for real weddings or festivals. Our pick is late August, during the apricot harvest, when the passes and roads elsewhere in Ladakh are busy but Dha-Hanu stays quiet. October–March, the region effectively closes to outside visitors.",
+  },
+  {
+    q: "How do I reach Dha-Hanu from Leh?",
+    a: "There's no reliable public transport, so a hired taxi or your own vehicle is the practical option. The main route from Leh follows the Srinagar–Leh highway west through Nimmu, Basgo and Saspol to Khalsi (~95 km), then a local road traces the Indus upstream — Dha is roughly 163 km from Leh, Hanu a little further, with Garkone and Darchik another 20–30 km beyond. Budget 5–6 hours of driving each way.",
+  },
+  {
+    q: "Do I need a permit to visit Dha-Hanu?",
+    a: "Yes. All Indian nationals need an Inner Line Permit (ILP) for Dha, Hanu, and surrounding villages, obtainable online or at the DC Office in Leh. Foreign nationals additionally need a Protected Area Permit (PAP), which can't be obtained independently and must be arranged through a registered Leh tour operator. Garkone and Darchik, being closer to the Line of Control, have at times been fully off-limits to foreign nationals, so confirm current access before planning around them.",
+  },
+  {
+    q: "Is Dha-Hanu safe for solo travellers?",
+    a: "Dha-Hanu itself is a quiet, low-key farming community, but it sits inside an active border sector near the Line of Control, so checkpoints, ID checks, and photography restrictions around military installations are part of the trip. Carrying original photo ID and permit copies at every checkpoint, avoiding photography of bunkers, bridges, or checkpoints, and confirming current permit rules with a Leh-based operator before travelling are the main precautions.",
+  },
+  {
+    q: "What is the budget for a Dha-Hanu trip?",
+    a: "Excluding return transport from Leh, a daily budget of around ₹1,000 to ₹2,000 covers a homestay with meals (₹800–₹1,500/night), ILP fees (₹20–₹400), and apricots or apricot oil to buy directly from families. Return taxi from Leh runs from roughly ₹1,500 per person shared to ₹4,500 for a private cab.",
+  },
+  {
+    q: "Is the 'Aryan Valley' label about the Brokpa people actually true?",
+    a: "No — the popular story that the Brokpa are 'pure' descendants of Alexander the Great's soldiers is not supported by modern genetics or serious anthropology. Population genetics studies have found the Brokpa closely related to neighbouring Ladakhi, Balti, and other Dardic-speaking Himalayan populations, not a genetically isolated lineage. The label is largely a colonial-era romanticisation later amplified by tourism marketing.",
+  },
+];
+
+function FAQSchema() {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.a,
+            },
+          })),
+        }),
+      }}
+    />
+  );
+}
+
 // ── TOC ───────────────────────────────────────────────────────────────────────
 const tableOfContents = [
   { id: "introduction", title: "Why Dha-Hanu?", level: 2 },
@@ -138,6 +192,7 @@ const tableOfContents = [
   { id: "food-guide", title: "What to Eat", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
 // ── Page ─────────────────────────────────────────────────────────────────────
@@ -145,6 +200,7 @@ export default function DhaHanuPage() {
   return (
     <>
       <ArticleSchema />
+      <FAQSchema />
       <SiteHeader />
 
       <main>
@@ -1156,6 +1212,32 @@ export default function DhaHanuPage() {
                     apricots drying on a rooftop — set the pace instead of
                     your camera roll.
                   </p>
+                </section>
+
+                {/* ── FAQ ───────────────────────────────────────────────── */}
+                <section id="faq">
+                  <h2>Frequently Asked Questions</h2>
+                  <div className="space-y-5 my-6">
+                    {faqs.map((f) => (
+                      <div
+                        key={f.q}
+                        className="bg-white border border-stone-200 rounded-xl p-5"
+                      >
+                        <h4
+                          className="font-bold text-stone-900 mb-2 text-base"
+                          style={{ fontFamily: "var(--font-playfair)" }}
+                        >
+                          {f.q}
+                        </h4>
+                        <p
+                          className="text-sm text-stone-600 leading-relaxed m-0"
+                          style={{ fontFamily: "var(--font-dm-sans)" }}
+                        >
+                          {f.a}
+                        </p>
+                      </div>
+                    ))}
+                  </div>
                 </section>
               </div>
 

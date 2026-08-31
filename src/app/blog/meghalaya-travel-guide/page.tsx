@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   description:
     "The complete Meghalaya travel guide. Double-decker living root bridges, Cherrapunji's waterfalls, Dawki's crystal-clear river, Shillong's cafes, and a full itinerary for India's wettest and most spectacular state.",
   keywords:
-    "Meghalaya travel guide, Cherrapunji, Mawlynnong, living root bridges, Dawki river, Shillong travel, Northeast India travel, Umngot river, Nohkalikai Falls, Meghalaya itinerary",
+    "Meghalaya travel guide, Cherrapunji, Mawlynnong, living root bridges, Dawki river, Shillong travel, Northeast India travel, Umngot river, Nohkalikai Falls, Meghalaya itinerary, best time to visit Meghalaya, how to reach Meghalaya from Guwahati, Meghalaya itinerary days, is permit required for Meghalaya, Meghalaya budget trip, living root bridge trek Nongriat, Shillong travel guide",
   openGraph: {
     title: "Meghalaya Travel Guide: Living Root Bridges, Cherrapunji & More",
     description:
@@ -120,6 +120,60 @@ function ArticleSchema() {
   );
 }
 
+// ── FAQ data (shared by visible section + JSON-LD) ────────────────────────────
+const faqs = [
+  {
+    q: "How many days do I need for Meghalaya?",
+    a: "Six days is a good length for covering Shillong, Cherrapunji, the living root bridges, Mawlynnong, and Dawki without excessive rushing, as laid out in our 6-day itinerary structured around a Guwahati arrival and departure. With less time, prioritize Cherrapunji's waterfalls and either the root bridge trek or Dawki's Umngot River.",
+  },
+  {
+    q: "What is the best time to visit Meghalaya?",
+    a: "October to April is the best overall window — dry, clear skies, with the Umngot River at Dawki at its most transparent, and cool, pleasant temperatures (8–22°C). Our pick specifically is late October to early December, when the monsoon has just cleared, waterfalls are still full, and the air is crisp without being bitterly cold.",
+  },
+  {
+    q: "How do I reach Meghalaya?",
+    a: "Guwahati's Lokpriya Gopinath Bordoloi International Airport (GAU) in neighbouring Assam is the main gateway, well connected to Delhi, Mumbai, Kolkata, and Bengaluru. From Guwahati, it's roughly a 3-hour drive (100 km) to Shillong. Shillong's own Umroi Airport has limited flights, mostly from Kolkata, and there's no railway in Meghalaya itself.",
+  },
+  {
+    q: "Is a permit required to visit Meghalaya?",
+    a: "No — an Inner Line Permit is not required for Indian citizens visiting Meghalaya, unlike some other Northeast states. Foreign nationals should carry their passport and visa at all times; no special permit is needed either, but registration may be requested at some checkpoints.",
+  },
+  {
+    q: "What is the budget for a trip to Meghalaya?",
+    a: "A six-day trip works out to roughly ₹18,000 for a budget traveller, ₹32,000 for a mid-range trip, and ₹65,000 for a luxury trip, covering accommodation, food, a private taxi (the most practical way to get around), the Dawki boat ride, and an optional root bridge guide.",
+  },
+  {
+    q: "What are the living root bridges in Meghalaya?",
+    a: "The Khasi people have been training the aerial roots of rubber fig trees across rivers for over 500 years, guiding them along bamboo scaffolding until they fuse into living, load-bearing bridges. The most famous is the Double-Decker Root Bridge near Nongriat village, reached by descending roughly 3,500 steep steps from Tyrna — genuinely strenuous, so budget 5–6 hours round trip. A far easier single-root bridge is at Riwai, near Mawlynnong, reachable in under 15 minutes on a flat path.",
+  },
+  {
+    q: "Is Nohkalikai Falls worth visiting?",
+    a: "Yes — Nohkalikai Falls is India's tallest plunge waterfall at 340 metres, dropping from a sheer cliff into a striking turquoise pool, best viewed from the designated viewpoint. It's especially spectacular post-monsoon (September–November) when flow is at its peak, and it's one of several dramatic waterfalls clustered around Cherrapunji.",
+  },
+];
+
+function FAQSchema() {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.a,
+            },
+          })),
+        }),
+      }}
+    />
+  );
+}
+
 // ── TOC ───────────────────────────────────────────────────────────────────────
 const tableOfContents = [
   { id: "introduction", title: "Why Meghalaya?", level: 2 },
@@ -140,6 +194,7 @@ const tableOfContents = [
   { id: "food-guide", title: "What to Eat", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
 // ── Page ─────────────────────────────────────────────────────────────────────
@@ -147,6 +202,7 @@ export default function MeghalayaPage() {
   return (
     <>
       <ArticleSchema />
+      <FAQSchema />
       <SiteHeader />
 
       <main>
@@ -1060,6 +1116,32 @@ export default function MeghalayaPage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── FAQ ───────────────────────────────────────────────── */}
+                <section id="faq">
+                  <h2>Frequently Asked Questions</h2>
+                  <div className="space-y-5 my-6">
+                    {faqs.map((f) => (
+                      <div
+                        key={f.q}
+                        className="bg-white border border-stone-200 rounded-xl p-5"
+                      >
+                        <h4
+                          className="font-bold text-stone-900 mb-2 text-base"
+                          style={{ fontFamily: "var(--font-playfair)" }}
+                        >
+                          {f.q}
+                        </h4>
+                        <p
+                          className="text-sm text-stone-600 leading-relaxed m-0"
+                          style={{ fontFamily: "var(--font-dm-sans)" }}
+                        >
+                          {f.a}
+                        </p>
+                      </div>
+                    ))}
                   </div>
                 </section>
               </div>

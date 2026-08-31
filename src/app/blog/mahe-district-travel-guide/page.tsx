@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description:
     "The complete Mahe District travel guide — Mahe town's riverfront walkway, St. Teresa's Shrine, Tagore Park, beach and lighthouse on the Mahe River mouth, plus the quiet river-and-village surroundings of Palloor, Pandakkal, Chalakkara, and Parakkal.",
   keywords:
-    "Mahe district travel guide, Mahe Kerala, Mahe beach, St. Teresa's shrine Mahe, Mahe walkway, Mahe river, Tagore park Mahe, Mahe lighthouse, Palloor, Pandakkal, Chalakkara, Parakkal, Malabar coast, Puducherry union territory",
+    "Mahe district travel guide, Mahe Kerala, Mahe beach, St. Teresa's shrine Mahe, Mahe walkway, Mahe river, Tagore park Mahe, Mahe lighthouse, Palloor, Pandakkal, Chalakkara, Parakkal, Malabar coast, Puducherry union territory, best time to visit Mahe, how to reach Mahe from Kozhikode, Mahe day trip itinerary, is Mahe worth visiting, things to do in Mahe, Mahe vs Thalassery, Kozhikode Kannur road trip",
   openGraph: {
     title: "Mahe District Travel Guide: Riverfront, Church & Malabar Coast",
     description:
@@ -115,6 +115,60 @@ function ArticleSchema() {
   );
 }
 
+// ── FAQ data (shared by visible section + JSON-LD) ────────────────────────────
+const faqs = [
+  {
+    q: "How many days do I need for Mahe?",
+    a: "Mahe isn't a multi-day destination on its own — it's a genuinely worthwhile half-day-to-two-day detour if you're already travelling along the Malabar coast between Kozhikode and Kannur. Our suggested itinerary covers Mahe town on day one and the surrounding villages of Palloor, Pandakkal, Chalakkara, and Parakkal on day two.",
+  },
+  {
+    q: "What is the best time to visit Mahe?",
+    a: "November through February is the best window — cool, dry, and pleasant (20–30°C), ideal for the riverfront walkway, Mahe Beach, and drives out to the surrounding villages. June to September brings heavy southwest monsoon rain, when the Mahe and Chalakkara rivers run high and outdoor plans need real flexibility.",
+  },
+  {
+    q: "How do I reach Mahe from Kozhikode?",
+    a: "Mahe is roughly 50 km from Kozhikode (Calicut) International Airport, about 1.5 hours by road. Mahe sits directly on NH66 between Kozhikode and Kannur, making it an easy stop on any Malabar coast road trip. Thalassery railway station, about 8 km from Mahe, is the closest well-connected rail stop, with onward autos and taxis into town.",
+  },
+  {
+    q: "Is Mahe worth visiting?",
+    a: "Yes, if you're already on the Malabar coast — Mahe sits where the Mahe River meets the Arabian Sea, with a compact town centre that still carries a genuine French colonial layer: the Mahe Walkway riverfront promenade, St. Teresa's Shrine, and Tagore Park. Beyond the town, the surrounding villages are quiet river-and-farmland stretches that rarely appear on any itinerary at all.",
+  },
+  {
+    q: "What is the budget for a trip to Mahe?",
+    a: "A budget traveller can expect a daily total of around ₹1,550, a mid-range trip around ₹4,000/day, and an upscale trip around ₹8,500/day, based on accommodation, food, local transport, and sightseeing. A two-day trip works out to roughly ₹3,100 (budget), ₹8,000 (mid-range), or ₹17,000 (upscale) in total.",
+  },
+  {
+    q: "Should I stay in Mahe or a nearby town?",
+    a: "Accommodation in Mahe itself is limited, so many travellers base themselves in Thalassery or Kozhikode instead and treat Mahe as a day trip. Given Mahe's small size, most visitors are better served staying nearby and visiting the district as a half-day-to-two-day detour on a longer Malabar coast trip.",
+  },
+  {
+    q: "What is St. Teresa's Shrine in Mahe?",
+    a: "St. Teresa's Shrine is a prominent Catholic church and one of Mahe's most significant landmarks, especially lively during its annual feast. As an active place of worship, modest dress with covered shoulders is expected of visitors.",
+  },
+];
+
+function FAQSchema() {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.a,
+            },
+          })),
+        }),
+      }}
+    />
+  );
+}
+
 // ── TOC ───────────────────────────────────────────────────────────────────────
 const tableOfContents = [
   { id: "introduction", title: "Why Mahe District?", level: 2 },
@@ -136,6 +190,7 @@ const tableOfContents = [
   { id: "itinerary", title: "2-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
 // ── Mahe District gear ───────────────────────────────────────────────────────
@@ -233,6 +288,7 @@ export default function MaheDistrictGuidePage() {
   return (
     <>
       <ArticleSchema />
+      <FAQSchema />
       <SiteHeader />
 
       <main>
@@ -1037,6 +1093,32 @@ export default function MaheDistrictGuidePage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── FAQ ───────────────────────────────────────────────── */}
+                <section id="faq">
+                  <h2>Frequently Asked Questions</h2>
+                  <div className="space-y-5 my-6">
+                    {faqs.map((f) => (
+                      <div
+                        key={f.q}
+                        className="bg-white border border-stone-200 rounded-xl p-5"
+                      >
+                        <h4
+                          className="font-bold text-stone-900 mb-2 text-base"
+                          style={{ fontFamily: "var(--font-playfair)" }}
+                        >
+                          {f.q}
+                        </h4>
+                        <p
+                          className="text-sm text-stone-600 leading-relaxed m-0"
+                          style={{ fontFamily: "var(--font-dm-sans)" }}
+                        >
+                          {f.a}
+                        </p>
+                      </div>
+                    ))}
                   </div>
                 </section>
               </div>

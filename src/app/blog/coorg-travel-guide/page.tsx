@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   description:
     "The complete Coorg (Kodagu) travel guide. India's coffee capital — misty hills, Abbey Falls, Nagarhole safaris, Madikeri fort, homestays, and the best of Kodava culture. Everything you need to plan the perfect Coorg trip.",
   keywords:
-    "Coorg travel guide, Coorg Karnataka, Kodagu tourism, Abbey Falls Coorg, Madikeri, Coorg coffee plantations, Nagarhole National Park, Coorg homestays, things to do in Coorg, Coorg itinerary",
+    "Coorg travel guide, Coorg Karnataka, Kodagu tourism, Abbey Falls Coorg, Madikeri, Coorg coffee plantations, Nagarhole National Park, Coorg homestays, things to do in Coorg, Coorg itinerary, best time to visit Coorg, how to reach Coorg from Bangalore, Coorg itinerary 4 days, is Coorg safe for solo travellers, Coorg budget trip, Tadiandamol Peak trek, Iruppu Falls Coorg, Coorg plantation homestay, Dubare Elephant Camp, Mandalpatti viewpoint",
   openGraph: {
     title: "Coorg Travel Guide: Coffee, Waterfalls, Trekking & More",
     description:
@@ -113,6 +113,60 @@ function ArticleSchema() {
   );
 }
 
+// ── FAQ data (shared by visible section + JSON-LD) ────────────────────────────
+const faqs = [
+  {
+    q: "How many days do you need for Coorg?",
+    a: "Four days is the ideal duration for Coorg — enough to cover the highlights (Madikeri town, Abbey Falls, Mandalpatti, a Nagarhole safari, Dubare, and Talakaveri/Brahmagiri) without rushing, and long enough to settle into the pace of plantation life.",
+  },
+  {
+    q: "What is the best time to visit Coorg?",
+    a: "October to February is the best overall window — post-monsoon Coorg is lush, misty, and cool (10–22°C), with coffee harvest season (Nov–Jan) filling the estates with activity. March–April brings the coffee blossom bloom, while June–September monsoon (2,500–3,000 mm of rain) makes roads difficult and closes many homestays. Our pick is November, when the harvest is on and crowds are manageable on weekdays.",
+  },
+  {
+    q: "How do I reach Coorg?",
+    a: "Coorg has no airport or railway station of its own — all access is by road. The most common route is from Bangalore (270 km, 5–6 hours via NH275) by KSRTC bus or private cab. Mysuru (120 km, 3 hours via Hunsur) offers the most scenic drive, while Mangalore (160 km) and Hassan/Belur (100 km) are alternative approaches.",
+  },
+  {
+    q: "Is Coorg safe for solo travellers?",
+    a: "Yes — Coorg is a generally safe, low-crowd destination popular with solo and independent travellers, especially outside weekend rushes from Bangalore. The main safety considerations are practical: self-drive or hire a vehicle since public transport is limited, avoid driving fast on forest roads after dark due to elephant crossings, and always use a registered forest department guide on wildlife-sanctuary treks.",
+  },
+  {
+    q: "What is the budget for a Coorg trip?",
+    a: "A budget traveller can expect a daily total of around ₹3,500, a mid-range traveller around ₹8,900, and a luxury traveller around ₹24,500 per day, covering accommodation, food, transport, and activities like a Nagarhole safari — working out to roughly ₹14,000, ₹35,600, or ₹98,000 respectively for a 4-day trip, excluding travel to and from Coorg.",
+  },
+  {
+    q: "Is Coorg worth visiting for coffee lovers?",
+    a: "Absolutely — Coorg produces roughly 33% of India's total coffee output, and unlike many tea and coffee regions, its plantations actively welcome visitors for guided walks and harvest participation. Freshly roasted, chicory-blended filter coffee served at homestays is widely considered one of the best reasons to visit.",
+  },
+  {
+    q: "What is the highest trek in Coorg?",
+    a: "The Tadiandamol Peak Trek, starting from Kakkabe village, climbs to Coorg's highest point at 1,748 metres through dense rainforest and rolling grassland meadows (sholas) — a moderate, 12 km return trek taking 5–6 hours, with a forest department permit required.",
+  },
+];
+
+function FAQSchema() {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.a,
+            },
+          })),
+        }),
+      }}
+    />
+  );
+}
+
 // ── TOC ───────────────────────────────────────────────────────────────────────
 const tableOfContents = [
   { id: "introduction", title: "Why Coorg?", level: 2 },
@@ -134,6 +188,7 @@ const tableOfContents = [
   { id: "itinerary", title: "4-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
 // ── Page ─────────────────────────────────────────────────────────────────────
@@ -141,6 +196,7 @@ export default function CoorgPage() {
   return (
     <>
       <ArticleSchema />
+      <FAQSchema />
       <SiteHeader />
 
       <main>
@@ -1492,6 +1548,32 @@ export default function CoorgPage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── FAQ ───────────────────────────────────────────────── */}
+                <section id="faq">
+                  <h2>Frequently Asked Questions</h2>
+                  <div className="space-y-5 my-6">
+                    {faqs.map((f) => (
+                      <div
+                        key={f.q}
+                        className="bg-white border border-stone-200 rounded-xl p-5"
+                      >
+                        <h4
+                          className="font-bold text-stone-900 mb-2 text-base"
+                          style={{ fontFamily: "var(--font-playfair)" }}
+                        >
+                          {f.q}
+                        </h4>
+                        <p
+                          className="text-sm text-stone-600 leading-relaxed m-0"
+                          style={{ fontFamily: "var(--font-dm-sans)" }}
+                        >
+                          {f.a}
+                        </p>
+                      </div>
+                    ))}
                   </div>
                 </section>
               </div>

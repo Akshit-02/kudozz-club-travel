@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description:
     "The complete Karnataka travel guide — Bangalore's tech-city energy, Mysore's royal palaces, the Vijayanagara ruins of Hampi, Coorg's coffee hills, Gokarna's beaches, coastal Mangalore, Hoysala temples at Belur & Halebidu, where to stay and eat, and a full 8-9 day itinerary across the state.",
   keywords:
-    "Karnataka travel guide, Bangalore travel, Mysore Palace, Hampi Karnataka, Coorg Karnataka, Gokarna beaches, Mangalore coastal Karnataka, Chikmagalur coffee, Belur Halebidu Hoysala temples, Karnataka itinerary, South India travel",
+    "Karnataka travel guide, Bangalore travel, Mysore Palace, Hampi Karnataka, Coorg Karnataka, Gokarna beaches, Mangalore coastal Karnataka, Chikmagalur coffee, Belur Halebidu Hoysala temples, Karnataka itinerary, South India travel, best time to visit Karnataka, how to reach Bangalore, Karnataka 9 day itinerary, Karnataka budget trip, distance Bangalore to Hampi, things to do in Karnataka",
   openGraph: {
     title: "Karnataka Travel Guide: Bangalore, Mysore & Hampi",
     description:
@@ -113,6 +113,60 @@ function ArticleSchema() {
   );
 }
 
+// ── FAQ data (shared by visible section + JSON-LD) ────────────────────────────
+const faqs = [
+  {
+    q: "How many days do I need for Karnataka?",
+    a: "Nine days is a realistic minimum to combine Bangalore, Mysore, and one of Hampi or Coorg without excessive rushing. Given Karnataka's spread, covering everything — the tech capital, royal Mysore, Hampi's ruins, coffee country, and the coast — in one trip is a stretch, so most itineraries pick two or three regions.",
+  },
+  {
+    q: "What is the best time to visit Karnataka?",
+    a: "October to February is the pick for a comfortable trip across Bangalore, Mysore, Hampi, and Coorg alike, with cool, dry weather in the 15–30°C range. If you want to catch Mysore's ten-day Dasara festival with its illuminated palace and parades, September–October is the window, though it draws bigger crowds.",
+  },
+  {
+    q: "How do I reach Karnataka?",
+    a: "Kempegowda International Airport (BLR) in Bangalore is the main gateway, with extensive domestic and international connections; Mangalore International Airport serves coastal Karnataka directly. By rail, Bangalore, Mysore, Hubballi, and Hospet (the closest station to Hampi) are all well connected, and by road, Bangalore links to Mysore (~3 hrs), Coorg (~5–6 hrs), and Hampi (~6–7 hrs).",
+  },
+  {
+    q: "What is the budget for a trip to Karnataka?",
+    a: "A budget traveller can expect around ₹3,100 a day covering accommodation, food, local transport, and entry fees, totalling roughly ₹27,900 for a 9-day trip. Mid-range travel runs about ₹8,400 a day (around ₹75,600 for nine days), while a luxury trip can reach ₹21,000 a day. Bangalore stays and food push daily costs up noticeably compared to Hampi, Mysore, or Coorg.",
+  },
+  {
+    q: "How far is Hampi from Bangalore, and is it worth visiting?",
+    a: "Hampi is roughly a 6–7 hour drive from Bangalore, or reachable by overnight train or bus to Hospet, the nearest station. It's absolutely worth the distance — the ruined Vijayanagara Empire capital is a UNESCO World Heritage site scattered across a surreal boulder landscape, with the Virupaksha Temple and the stone chariot at Vittala Temple as highlights.",
+  },
+  {
+    q: "Should I visit Coorg or Chikmagalur for coffee country?",
+    a: "Both are Western Ghats coffee regions, but they suit slightly different trips. Coorg (Kodagu) is Karnataka's better-known coffee capital, with misty plantations, Abbey Falls, and Kodava hospitality, while Chikmagalur is quieter and less visited, home to Mullayanagiri, the state's highest peak, and good for plantation stays and shorter treks.",
+  },
+  {
+    q: "Is Gokarna a good alternative to Goa?",
+    a: "Yes — Gokarna, on Karnataka's coast, is known as a quieter, more laid-back alternative to Goa, with a string of beaches reachable by a coastal trek and a lower-key beach-town atmosphere than Goa's more commercialised strips.",
+  },
+];
+
+function FAQSchema() {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.a,
+            },
+          })),
+        }),
+      }}
+    />
+  );
+}
+
 // ── TOC ───────────────────────────────────────────────────────────────────────
 const tableOfContents = [
   { id: "introduction", title: "Why Karnataka?", level: 2 },
@@ -127,6 +181,7 @@ const tableOfContents = [
   { id: "itinerary", title: "9-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
 // ── Karnataka-specific gear ─────────────────────────────────────────────────
@@ -224,6 +279,7 @@ export default function KarnatakaGuidePage() {
   return (
     <>
       <ArticleSchema />
+      <FAQSchema />
       <SiteHeader />
 
       <main>
@@ -1145,6 +1201,32 @@ export default function KarnatakaGuidePage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── FAQ ───────────────────────────────────────────────── */}
+                <section id="faq">
+                  <h2>Frequently Asked Questions</h2>
+                  <div className="space-y-5 my-6">
+                    {faqs.map((f) => (
+                      <div
+                        key={f.q}
+                        className="bg-white border border-stone-200 rounded-xl p-5"
+                      >
+                        <h4
+                          className="font-bold text-stone-900 mb-2 text-base"
+                          style={{ fontFamily: "var(--font-playfair)" }}
+                        >
+                          {f.q}
+                        </h4>
+                        <p
+                          className="text-sm text-stone-600 leading-relaxed m-0"
+                          style={{ fontFamily: "var(--font-dm-sans)" }}
+                        >
+                          {f.a}
+                        </p>
+                      </div>
+                    ))}
                   </div>
                 </section>
               </div>

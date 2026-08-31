@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description:
     "The complete Jaisalmer travel guide. Everything you need — Jaisalmer Fort, Sam Sand Dunes camel safari, havelis, desert camping, where to stay, what to eat, and a complete 4-day itinerary through the golden city of the Thar Desert.",
   keywords:
-    "Jaisalmer travel guide, Jaisalmer Fort, Sam Sand Dunes, Thar Desert camel safari, Jaisalmer havelis, Khuri desert camp, Rajasthan desert tour, Jaisalmer itinerary, Patwon ki Haveli, Kuldhara ghost village",
+    "Jaisalmer travel guide, Jaisalmer Fort, Sam Sand Dunes, Thar Desert camel safari, Jaisalmer havelis, Khuri desert camp, Rajasthan desert tour, Jaisalmer itinerary, Patwon ki Haveli, Kuldhara ghost village, best time to visit Jaisalmer, how to reach Jaisalmer from Jodhpur, Jaisalmer 4 day itinerary, is Jaisalmer safe for solo travellers, Jaisalmer trip budget, top things to do in Jaisalmer, camel safari cost Jaisalmer, desert camping Sam Dunes, Jaisalmer to Jodhpur distance, is Jaisalmer worth visiting",
   openGraph: {
     title: "Jaisalmer & Thar Desert Travel Guide: Fort, Camel Safari & Tips",
     description:
@@ -114,6 +114,60 @@ function ArticleSchema() {
   );
 }
 
+// ── FAQ data (shared by visible section + JSON-LD) ────────────────────────────
+const faqs = [
+  {
+    q: "How many days do I need for Jaisalmer?",
+    a: "Four days is a comfortable amount of time to explore the fort and old city thoroughly, visit the major havelis, do an overnight camel safari into the dunes, and see Kuldhara without rushing, as covered in our suggested itinerary.",
+  },
+  {
+    q: "What is the best time to visit Jaisalmer?",
+    a: "Late December to early February is the best window — daytime temperatures of 20–28°C and cool desert nights (5–15°C) make it ideal for camel safaris and fort exploration. May–June should be avoided, with temperatures regularly hitting 45–48°C.",
+  },
+  {
+    q: "How do I reach Jaisalmer from Jodhpur?",
+    a: "Jaisalmer is 285 km from Jodhpur, roughly 5-6 hours by road or train. Most travellers fly into Jodhpur first since it has far better flight connectivity than Jaisalmer Airport, then continue on by train or road.",
+  },
+  {
+    q: "How much does a camel safari in Jaisalmer cost?",
+    a: "Prices range from ₹500–₹800 for a sunset-only ride (2-3 hours), ₹2,000–₹4,000 for the most popular overnight safari, up to ₹4,500–₹8,000 for a multi-day 2-night/3-day trek into remoter parts of the desert.",
+  },
+  {
+    q: "Is Jaisalmer safe for solo travellers?",
+    a: "Jaisalmer is a well-established tourist town used to independent travellers. The main things to watch for are street touts offering suspiciously cheap camel safaris — book through your guesthouse or a known operator instead — and underestimating how cold the desert gets at night.",
+  },
+  {
+    q: "Should I visit Sam Dunes or Khuri Dunes?",
+    a: "If you have to choose one, go to Khuri instead of Sam, especially for an overnight stay. Khuri's dunes are comparably beautiful, sometimes considered more sculptural, and see a fraction of the crowds that gather at Sam around sunset in peak season.",
+  },
+  {
+    q: "What is the budget for a Jaisalmer trip?",
+    a: "A 4-day trip runs around ₹6,200 total on a budget, ₹18,500 mid-range, or ₹65,300 for a luxury trip, covering accommodation, food, fort and monument entries, an overnight camel safari, and local transport.",
+  },
+];
+
+function FAQSchema() {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.a,
+            },
+          })),
+        }),
+      }}
+    />
+  );
+}
+
 // ── TOC ───────────────────────────────────────────────────────────────────────
 const tableOfContents = [
   { id: "introduction", title: "Why Jaisalmer?", level: 2 },
@@ -141,6 +195,7 @@ const tableOfContents = [
   { id: "itinerary", title: "4-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
 // ── Desert-specific gear ───────────────────────────────────────────────────────
@@ -239,6 +294,7 @@ export default function RajasthanDesertGuidePage() {
   return (
     <>
       <ArticleSchema />
+      <FAQSchema />
       <SiteHeader />
 
       <main>
@@ -1518,6 +1574,32 @@ export default function RajasthanDesertGuidePage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── FAQ ───────────────────────────────────────────────── */}
+                <section id="faq">
+                  <h2>Frequently Asked Questions</h2>
+                  <div className="space-y-5 my-6">
+                    {faqs.map((f) => (
+                      <div
+                        key={f.q}
+                        className="bg-white border border-stone-200 rounded-xl p-5"
+                      >
+                        <h4
+                          className="font-bold text-stone-900 mb-2 text-base"
+                          style={{ fontFamily: "var(--font-playfair)" }}
+                        >
+                          {f.q}
+                        </h4>
+                        <p
+                          className="text-sm text-stone-600 leading-relaxed m-0"
+                          style={{ fontFamily: "var(--font-dm-sans)" }}
+                        >
+                          {f.a}
+                        </p>
+                      </div>
+                    ))}
                   </div>
                 </section>
               </div>

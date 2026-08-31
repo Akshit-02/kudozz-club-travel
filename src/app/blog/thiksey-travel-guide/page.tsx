@@ -23,6 +23,14 @@ export const metadata: Metadata = {
     "Maitreya Buddha",
     "Potala Palace Ladakh",
     "Ladakh monasteries",
+    "best time to visit Thiksey",
+    "how to reach Thiksey from Leh",
+    "Thiksey monastery timings",
+    "Thiksey 6 AM morning prayers",
+    "Shey Palace Ladakh",
+    "Stakna Monastery",
+    "Indus Valley Ladakh monasteries",
+    "things to do near Leh",
   ].join(", "),
   openGraph: {
     title: "Thiksey Travel Guide: Monastery, Morning Prayers & Maitreya Buddha",
@@ -105,6 +113,14 @@ function ArticleSchema() {
             "Maitreya Buddha",
             "Potala Palace Ladakh",
             "Ladakh monasteries",
+            "best time to visit Thiksey",
+            "how to reach Thiksey from Leh",
+            "Thiksey monastery timings",
+            "Thiksey 6 AM morning prayers",
+            "Shey Palace Ladakh",
+            "Stakna Monastery",
+            "Indus Valley Ladakh monasteries",
+            "things to do near Leh",
           ].join(", "),
           about: {
             "@type": "Place",
@@ -145,6 +161,60 @@ function ArticleSchema() {
   );
 }
 
+// ── FAQ data (shared by visible section + JSON-LD) ────────────────────────────
+const faqs = [
+  {
+    q: "How many days do I need to visit Thiksey?",
+    a: "Thiksey is a half-day trip, not a multi-day destination — most visitors combine the 6 AM morning prayers, the Maitreya Buddha hall, the museum, and the rooftop views into a single morning out of Leh, often bundled with Shey Palace and Stakna Monastery along the same road.",
+  },
+  {
+    q: "What time are the morning prayers at Thiksey?",
+    a: "The prayer ceremony in the main dukhang typically runs 6:00–7:00 AM. Arrive by 5:45 AM for a seat with a clear view — the hall fills up and it's considerate to be seated quietly before the chanting starts.",
+  },
+  {
+    q: "How do I reach Thiksey from Leh?",
+    a: "Thiksey is about 12–19 km southeast of Leh along the Leh–Manali highway, roughly a 30–40 minute drive. A round-trip taxi with waiting time costs ₹1,200–₹1,800, shared taxis/buses run for ₹30–₹50, and rented scooters (₹800–₹1,500/day) are also common since the road is flat and well-paved.",
+  },
+  {
+    q: "Is Thiksey worth visiting?",
+    a: "Yes — it's widely considered the single best half-day trip out of Leh, combining a genuinely spectacular 12-storey silhouette that echoes the Potala Palace, a 15-metre Maitreya Buddha statue, and a 6 AM prayer ceremony visitors can quietly sit in on.",
+  },
+  {
+    q: "What is the entry fee for Thiksey Monastery?",
+    a: "Monastery entry is around ₹30, with a small additional camera/museum fee of about ₹20. It's one of the cheapest excursions you can make from Leh — no permits or expensive gear required.",
+  },
+  {
+    q: "What is the best time of year to visit Thiksey?",
+    a: "The monastery is open year-round and the monks pray every morning regardless of season, but mid-September stands out — the peak-season tourist convoys have thinned, the light is gentler, and crowds are noticeably smaller during the prayer ceremony.",
+  },
+  {
+    q: "What can I combine with a trip to Thiksey?",
+    a: "Thiksey sits on the same road as Shey Palace (about 7 km back toward Leh, with a beautiful gilded copper Buddha) and Stakna Monastery (a short drive further along the Indus, quieter and belonging to the Drukpa Kagyu lineage) — most visitors combine all three into one half- or full-day loop from Leh.",
+  },
+];
+
+function FAQSchema() {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.a,
+            },
+          })),
+        }),
+      }}
+    />
+  );
+}
+
 // ── TOC ───────────────────────────────────────────────────────────────────────
 const tableOfContents = [
   { id: "introduction", title: "Why Visit Thiksey?", level: 2 },
@@ -160,6 +230,7 @@ const tableOfContents = [
   { id: "food-guide", title: "Food Near Thiksey", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Tips", level: 2 },
+  { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
 // ── Page ─────────────────────────────────────────────────────────────────────
@@ -167,6 +238,7 @@ export default function ThikseyPage() {
   return (
     <>
       <ArticleSchema />
+      <FAQSchema />
       <SiteHeader />
 
       <main>
@@ -978,6 +1050,32 @@ export default function ThikseyPage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── FAQ ───────────────────────────────────────────────── */}
+                <section id="faq">
+                  <h2>Frequently Asked Questions</h2>
+                  <div className="space-y-5 my-6">
+                    {faqs.map((f) => (
+                      <div
+                        key={f.q}
+                        className="bg-white border border-stone-200 rounded-xl p-5"
+                      >
+                        <h4
+                          className="font-bold text-stone-900 mb-2 text-base"
+                          style={{ fontFamily: "var(--font-playfair)" }}
+                        >
+                          {f.q}
+                        </h4>
+                        <p
+                          className="text-sm text-stone-600 leading-relaxed m-0"
+                          style={{ fontFamily: "var(--font-dm-sans)" }}
+                        >
+                          {f.a}
+                        </p>
+                      </div>
+                    ))}
                   </div>
                 </section>
               </div>

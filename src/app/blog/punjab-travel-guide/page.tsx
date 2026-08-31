@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description:
     "The complete Punjab travel guide — the Golden Temple and langar, Jallianwala Bagh, the Wagah Border ceremony, Anandpur Sahib, Punjabi food, where to stay, and a full itinerary through the land of five rivers.",
   keywords:
-    "Punjab travel guide, Golden Temple Amritsar, Wagah Border ceremony, Jallianwala Bagh, Amritsar travel guide, Anandpur Sahib, Punjabi food, Amritsari kulcha, Punjab itinerary",
+    "Punjab travel guide, Golden Temple Amritsar, Wagah Border ceremony, Jallianwala Bagh, Amritsar travel guide, Anandpur Sahib, Punjabi food, Amritsari kulcha, Punjab itinerary, best time to visit Punjab, how to reach Amritsar from Delhi, Punjab trip budget, is Amritsar safe for solo travellers, things to do in Amritsar, Golden Temple langar timings, Wagah Border ceremony timing, Punjab 3 day itinerary, Patiala travel guide, Partition Museum Amritsar, is Punjab worth visiting",
   openGraph: {
     title: "Punjab Travel Guide: Golden Temple, Amritsar & Wagah Border",
     description:
@@ -115,6 +115,60 @@ function ArticleSchema() {
   );
 }
 
+// ── FAQ data (shared by visible section + JSON-LD) ────────────────────────────
+const faqs = [
+  {
+    q: "How many days do I need for a Punjab trip?",
+    a: "Three days is a comfortable minimum to properly cover Amritsar and the Wagah Border without rushing, as outlined in our suggested itinerary. Add an extra day or two if you want to include Patiala, Anandpur Sahib, or a rural farm-stay detour.",
+  },
+  {
+    q: "What is the best time to visit Punjab?",
+    a: "November to February is the best window — cool, comfortable temperatures (8–25°C), mustard fields in bloom, and the most pleasant conditions for both the Golden Temple's marble parikrama and an evening at Wagah. April to June brings extreme heat, often crossing 42°C in Amritsar.",
+  },
+  {
+    q: "How do I reach Amritsar from Delhi?",
+    a: "Amritsar is roughly 6-7 hours from Delhi by road, or about 6 hours by rail via Amritsar Junction. Sri Guru Ram Dass Jee International Airport (ATQ) in Amritsar also has direct domestic connections, so flying in is the fastest option if you're short on time.",
+  },
+  {
+    q: "Is the Golden Temple free to visit?",
+    a: "Yes. The Golden Temple is open 24 hours and free to all visitors regardless of religion, and its langar (community kitchen) serves free vegetarian meals to over 100,000 people daily — donations are entirely optional.",
+  },
+  {
+    q: "What time should I arrive for the Wagah Border ceremony?",
+    a: "Arrive at least 90 minutes before the scheduled start (around sunset) — the grandstands fill up fast, especially on weekends. Expect thorough security checks and restrictions on bags and electronics, so travel light.",
+  },
+  {
+    q: "What is the budget for a Punjab trip?",
+    a: "A budget traveller can expect a daily total of around ₹1,900, a mid-range trip around ₹6,000/day, and a luxury trip around ₹17,500/day, covering accommodation, food, local transport, and activities — excluding travel to Amritsar itself.",
+  },
+  {
+    q: "Is Punjab worth visiting?",
+    a: "Yes — the Golden Temple's Amrit Sarovar, the nightly theatre of the Wagah Border ceremony, and a food culture that shaped how much of India eats (butter chicken, dal makhani, Amritsari kulcha) make Punjab a genuinely rewarding trip beyond its temple circuit.",
+  },
+];
+
+function FAQSchema() {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.a,
+            },
+          })),
+        }),
+      }}
+    />
+  );
+}
+
 // ── TOC ───────────────────────────────────────────────────────────────────────
 const tableOfContents = [
   { id: "introduction", title: "Why Punjab?", level: 2 },
@@ -129,6 +183,7 @@ const tableOfContents = [
   { id: "itinerary", title: "3-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
 // ── Punjab-specific gear ─────────────────────────────────────────────────
@@ -226,6 +281,7 @@ export default function PunjabGuidePage() {
   return (
     <>
       <ArticleSchema />
+      <FAQSchema />
       <SiteHeader />
 
       <main>
@@ -1057,6 +1113,32 @@ export default function PunjabGuidePage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── FAQ ───────────────────────────────────────────────── */}
+                <section id="faq">
+                  <h2>Frequently Asked Questions</h2>
+                  <div className="space-y-5 my-6">
+                    {faqs.map((f) => (
+                      <div
+                        key={f.q}
+                        className="bg-white border border-stone-200 rounded-xl p-5"
+                      >
+                        <h4
+                          className="font-bold text-stone-900 mb-2 text-base"
+                          style={{ fontFamily: "var(--font-playfair)" }}
+                        >
+                          {f.q}
+                        </h4>
+                        <p
+                          className="text-sm text-stone-600 leading-relaxed m-0"
+                          style={{ fontFamily: "var(--font-dm-sans)" }}
+                        >
+                          {f.a}
+                        </p>
+                      </div>
+                    ))}
                   </div>
                 </section>
               </div>

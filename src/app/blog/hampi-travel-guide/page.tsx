@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description:
     "The complete Hampi travel guide. Explore the ruins of the Vijayanagara Empire — Virupaksha Temple, Vittala Temple, Hampi Bazaar, coracle rides, boulder-hopping, Anegundi, where to stay, what to eat, and a complete 3-day itinerary.",
   keywords:
-    "Hampi travel guide, Hampi Karnataka, Vijayanagara Empire ruins, Virupaksha Temple, Vittala Temple stone chariot, Hampi boulders, Hampi Bazaar, Anegundi, Hampi itinerary, Hospet Hampi, UNESCO World Heritage Hampi",
+    "Hampi travel guide, Hampi Karnataka, Vijayanagara Empire ruins, Virupaksha Temple, Vittala Temple stone chariot, Hampi boulders, Hampi Bazaar, Anegundi, Hampi itinerary, Hospet Hampi, UNESCO World Heritage Hampi, best time to visit Hampi, how to reach Hampi from Bangalore, Hampi 3 day itinerary, is Hampi safe for solo travellers, Hampi budget trip, top things to do in Hampi, Hampi bouldering, Matanga Hill sunrise, Hippie Island Hampi, Hampi vs other heritage sites",
   openGraph: {
     title: "Hampi Travel Guide: Ruins, Boulders, Temples & Tips",
     description:
@@ -109,6 +109,60 @@ function ArticleSchema() {
   );
 }
 
+// ── FAQ data (shared by visible section + JSON-LD) ────────────────────────────
+const faqs = [
+  {
+    q: "How many days do I need in Hampi?",
+    a: "Three days is the ideal length — enough to cover both the Sacred and Royal Centres thoroughly, cross to Anegundi, do a sunrise and a sunset from different viewpoints, and have time to simply sit among the boulders without rushing.",
+  },
+  {
+    q: "What is the best time to visit Hampi?",
+    a: "Late October or November is our pick — temperatures of 20–30°C, clear skies, and golden light, with the landscape still lush from the monsoon and the Hampi Utsav cultural festival adding music, dance, and light shows on the monuments in early November. Avoid April and May, when temperatures climb to 38–44°C and the boulders radiate heat back at you.",
+  },
+  {
+    q: "How do I reach Hampi from Bangalore?",
+    a: "The Hampi Express (Train 16591) is the classic route — an overnight sleeper departing Bangalore City Station at 10 PM and arriving at Hospet, 13 km from Hampi, by 7 AM, followed by a short auto-rickshaw ride. KSRTC also runs overnight buses from Bangalore's Majestic bus stand to Hospet (8–9 hours). Hampi itself has no railway station or airport of its own.",
+  },
+  {
+    q: "Is Hampi safe for solo travellers?",
+    a: "Yes, Hampi is a long-established stop on the backpacker circuit with a strong community around Hippie Island's guesthouses and the bouldering scene, making it comfortable for solo travellers. As with any heavily touristed heritage site, keep cash secure, stick to marked paths on the boulders and hills, and be cautious around monkeys carrying visible food.",
+  },
+  {
+    q: "What is the budget for a trip to Hampi?",
+    a: "A budget traveller can get by on roughly ₹1,115 a day (basic guesthouses, thalis, bicycle hire), a mid-range trip runs around ₹4,940 a day, and a comfort-tier trip about ₹11,940 a day. A 3-day trip totals roughly ₹3,345 on a budget and ₹14,820 mid-range, excluding the train or bus from Bangalore to Hospet.",
+  },
+  {
+    q: "Is Hampi worth visiting?",
+    a: "Yes — Hampi combines the ruins of the Vijayanagara Empire, once home to half a million people and described by Portuguese travellers as larger and more beautiful than Rome, with a surreal boulder landscape found nowhere else in India. Over 1,600 monuments spread across a UNESCO World Heritage site make it one of the country's most extraordinary destinations.",
+  },
+  {
+    q: "Can beginners try bouldering in Hampi?",
+    a: "Yes — Hampi is one of the world's premier bouldering destinations, but the lowest-grade problems around Sanapur Lake are V0–V1 and completely accessible to anyone with good shoes and no fear of heights. Crashpads, shoes, and chalk bags can be rented from guesthouses on Hippie Island for ₹300–₹600/day.",
+  },
+];
+
+function FAQSchema() {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.a,
+            },
+          })),
+        }),
+      }}
+    />
+  );
+}
+
 // ── TOC ───────────────────────────────────────────────────────────────────────
 const tableOfContents = [
   { id: "introduction", title: "Why Hampi?", level: 2 },
@@ -132,6 +186,7 @@ const tableOfContents = [
   { id: "itinerary", title: "3-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
 // ── Hampi-specific gear ───────────────────────────────────────────────────────
@@ -228,6 +283,7 @@ export default function HampiPage() {
   return (
     <>
       <ArticleSchema />
+      <FAQSchema />
       <SiteHeader />
 
       <main>
@@ -1626,6 +1682,32 @@ export default function HampiPage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── FAQ ───────────────────────────────────────────────── */}
+                <section id="faq">
+                  <h2>Frequently Asked Questions</h2>
+                  <div className="space-y-5 my-6">
+                    {faqs.map((f) => (
+                      <div
+                        key={f.q}
+                        className="bg-white border border-stone-200 rounded-xl p-5"
+                      >
+                        <h4
+                          className="font-bold text-stone-900 mb-2 text-base"
+                          style={{ fontFamily: "var(--font-playfair)" }}
+                        >
+                          {f.q}
+                        </h4>
+                        <p
+                          className="text-sm text-stone-600 leading-relaxed m-0"
+                          style={{ fontFamily: "var(--font-dm-sans)" }}
+                        >
+                          {f.a}
+                        </p>
+                      </div>
+                    ))}
                   </div>
                 </section>
               </div>

@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description:
     "The honest Haryana travel guide — Kurukshetra's Mahabharata sites and Brahma Sarovar, the International Surajkund Crafts Mela, Pinjore Gardens, Sultanpur bird sanctuary, Morni Hills, where to stay and eat, and a realistic short-trip itinerary through India's NCR-adjacent state.",
   keywords:
-    "Haryana travel guide, Kurukshetra, Jyotisar Bhagavad Gita, Surajkund Crafts Mela, Pinjore Gardens, Sultanpur National Park, Panchkula, Morni Hills, Haryana itinerary, weekend trip from Delhi",
+    "Haryana travel guide, Kurukshetra, Jyotisar Bhagavad Gita, Surajkund Crafts Mela, Pinjore Gardens, Sultanpur National Park, Panchkula, Morni Hills, Haryana itinerary, weekend trip from Delhi, best time to visit Haryana, how to reach Kurukshetra from Delhi, Haryana 4 day itinerary, is Haryana safe for solo travellers, Haryana trip budget, top things to do in Haryana, Brahma Sarovar Kurukshetra, International Surajkund Crafts Mela dates, Sultanpur bird sanctuary Gurugram, Haryana road trip NH-44",
   openGraph: {
     title: "Haryana Travel Guide: Kurukshetra, Surajkund & Panchkula",
     description:
@@ -114,6 +114,60 @@ function ArticleSchema() {
   );
 }
 
+// ── FAQ data (shared by visible section + JSON-LD) ────────────────────────────
+const faqs = [
+  {
+    q: "How many days do I need for Haryana?",
+    a: "Four days is enough to cover Kurukshetra, Panchkula/Pinjore, and Surajkund/Faridabad without feeling rushed. Haryana is more of a short-trip state than most others, and slots naturally onto either end of a Delhi trip rather than needing a dedicated week.",
+  },
+  {
+    q: "What is the best time to visit Haryana?",
+    a: "October to March is best — cool and dry (7–25°C), comfortable for temple visits, the Surajkund Mela, and outdoor sightseeing. If the International Surajkund Crafts Mela interests you, time your trip specifically to February, when it runs for about two weeks. Avoid April–June, when temperatures regularly cross 40°C.",
+  },
+  {
+    q: "How do I reach Kurukshetra from Delhi?",
+    a: "Kurukshetra sits on a major rail line out of Delhi with frequent daily trains, or you can drive via NH-44, roughly 3 hours by car. Delhi's Indira Gandhi International Airport (IGI) is effectively the gateway for the whole state, since most Haryana towns have no airport of their own.",
+  },
+  {
+    q: "Is Haryana safe for solo travellers?",
+    a: "Haryana is generally straightforward for solo travellers, especially around the well-trodden Delhi-NCR-adjacent circuit of Kurukshetra, Surajkund, and Panchkula. It's a practical, road-heavy trip rather than a remote one, with good rail and highway connectivity back to Delhi throughout.",
+  },
+  {
+    q: "What is the budget for a trip to Haryana?",
+    a: "A budget traveller can expect to spend roughly ₹2,200 a day, a mid-range trip runs about ₹6,000 a day, and a luxury trip around ₹15,000 a day. A 4-day trip totals roughly ₹8,800 on a budget and ₹24,000 mid-range, excluding flights into Delhi. A self-drive or hired car is usually the single biggest cost lever, and sharing one across a group brings per-person costs down considerably.",
+  },
+  {
+    q: "Is Haryana worth visiting?",
+    a: "It won't compete with Rajasthan or Kerala for postcard scenery, and it doesn't pretend to — but Kurukshetra, the site traditionally identified as the Mahabharata's battlefield and where the Bhagavad Gita is said to have been spoken, one of the world's largest craft fairs at Surajkund, and dead-easy access from Delhi-NCR make it a genuinely worthwhile short trip.",
+  },
+  {
+    q: "When is the Surajkund Crafts Mela held?",
+    a: "The International Surajkund Crafts Mela runs for about two weeks every February in Faridabad, just across the Delhi border. It's one of the world's largest handicrafts fairs, with hundreds of stalls of textiles, pottery, and woodwork, and is genuinely one of the best reasons to visit Haryana specifically — check exact dates in advance, as they shift slightly year to year.",
+  },
+];
+
+function FAQSchema() {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.a,
+            },
+          })),
+        }),
+      }}
+    />
+  );
+}
+
 // ── TOC ───────────────────────────────────────────────────────────────────────
 const tableOfContents = [
   { id: "introduction", title: "Why Haryana?", level: 2 },
@@ -127,6 +181,7 @@ const tableOfContents = [
   { id: "itinerary", title: "4-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
 // ── Haryana-specific gear ───────────────────────────────────────────
@@ -224,6 +279,7 @@ export default function HaryanaGuidePage() {
   return (
     <>
       <ArticleSchema />
+      <FAQSchema />
       <SiteHeader />
 
       <main>
@@ -1091,6 +1147,32 @@ export default function HaryanaGuidePage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── FAQ ───────────────────────────────────────────────── */}
+                <section id="faq">
+                  <h2>Frequently Asked Questions</h2>
+                  <div className="space-y-5 my-6">
+                    {faqs.map((f) => (
+                      <div
+                        key={f.q}
+                        className="bg-white border border-stone-200 rounded-xl p-5"
+                      >
+                        <h4
+                          className="font-bold text-stone-900 mb-2 text-base"
+                          style={{ fontFamily: "var(--font-playfair)" }}
+                        >
+                          {f.q}
+                        </h4>
+                        <p
+                          className="text-sm text-stone-600 leading-relaxed m-0"
+                          style={{ fontFamily: "var(--font-dm-sans)" }}
+                        >
+                          {f.a}
+                        </p>
+                      </div>
+                    ))}
                   </div>
                 </section>
               </div>

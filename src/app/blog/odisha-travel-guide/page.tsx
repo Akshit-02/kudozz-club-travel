@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description:
     "The complete Odisha travel guide — the Konark Sun Temple, Puri's Jagannath Temple and beach, Bhubaneswar's temple architecture, Chilika Lake's Irrawaddy dolphins, where to stay and eat, and a full itinerary through India's most underrated temple state.",
   keywords:
-    "Odisha travel guide, Konark Sun Temple, Puri Jagannath Temple, Bhubaneswar travel guide, Chilika Lake, Puri beach, Rath Yatra, Udayagiri Khandagiri Caves, Odisha itinerary, Odia food",
+    "Odisha travel guide, Konark Sun Temple, Puri Jagannath Temple, Bhubaneswar travel guide, Chilika Lake, Puri beach, Rath Yatra, Udayagiri Khandagiri Caves, Odisha itinerary, Odia food, best time to visit Odisha, how to reach Odisha, Odisha itinerary days, is Odisha safe for solo travellers, Odisha budget trip, top things to do in Odisha, Irrawaddy dolphins Chilika, Golden Triangle Odisha",
   openGraph: {
     title: "Odisha Travel Guide: Konark, Puri & Chilika Lake",
     description:
@@ -128,7 +128,62 @@ const tableOfContents = [
   { id: "itinerary", title: "5-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
+
+// ── FAQ data (shared by visible section + JSON-LD) ────────────────────────────
+const faqs = [
+  {
+    q: "How many days do I need for Odisha?",
+    a: "Five days is a comfortable minimum to cover the Golden Triangle — Bhubaneswar, Konark, and Puri — plus Chilika Lake without rushing. It's realistic to spend a day in Bhubaneswar, a day travelling to Puri via Konark, a day exploring Puri, a day at Chilika, and a final day for departure.",
+  },
+  {
+    q: "What is the best time to visit Odisha?",
+    a: "November to February is the best window — cooler, drier conditions (18–28°C) that make temple visits and Chilika Lake boat trips genuinely comfortable. This also sits past the worst of the October–November cyclone-risk transition period on Odisha's coast.",
+  },
+  {
+    q: "How do I reach Odisha?",
+    a: "Biju Patnaik International Airport (BBI) in Bhubaneswar has good domestic connectivity from Delhi, Mumbai, Kolkata, Bengaluru, and other major cities. Bhubaneswar and Puri are also both well connected by rail to Delhi, Kolkata, Chennai, and Mumbai, and the three Golden Triangle towns are each roughly 1–1.5 hours apart by road.",
+  },
+  {
+    q: "What is the budget for a trip to Odisha?",
+    a: "Excluding flights to Bhubaneswar, a daily budget runs roughly ₹2,100 on a tight budget, ₹6,100 mid-range, or ₹16,200 for a luxury trip, covering accommodation, food, local transport, and activities. A 5-day trip works out to approximately ₹10,500–₹81,000 depending on your travel style.",
+  },
+  {
+    q: "Can non-Hindus enter the Jagannath Temple or Lingaraj Temple?",
+    a: "No — entry to the sanctum of both the Jagannath Temple in Puri and the Lingaraj Temple in Bhubaneswar is restricted to Hindus only. Viewing platforms are available outside both temples, and it's worth confirming current access rules before visiting since policies can change.",
+  },
+  {
+    q: "Is Odisha worth visiting?",
+    a: "Yes — it's genuinely one of India's most underrated temple states, home to the 13th-century Konark Sun Temple carved as a colossal stone chariot, the Jagannath Temple and its famous Rath Yatra festival in Puri, and Chilika Lake, Asia's largest brackish-water lagoon, where Irrawaddy dolphins surface between fishing boats.",
+  },
+  {
+    q: "What is Chilika Lake known for?",
+    a: "Chilika Lake, roughly 100 km from Bhubaneswar, is Asia's largest brackish-water lagoon and one of India's most important wetland ecosystems. It's known for Irrawaddy dolphin sightings near Satapada and for hosting over a million migratory birds each winter at the Nalabana Bird Sanctuary within the lake — both best experienced on an organised boat safari.",
+  },
+];
+
+function FAQSchema() {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.a,
+            },
+          })),
+        }),
+      }}
+    />
+  );
+}
 
 // ── Odisha-specific gear ─────────────────────────────────────────────────
 const ODISHA_GEAR: GearSection[] = [
@@ -225,6 +280,7 @@ export default function OdishaGuidePage() {
   return (
     <>
       <ArticleSchema />
+      <FAQSchema />
       <SiteHeader />
 
       <main>
@@ -1116,6 +1172,32 @@ export default function OdishaGuidePage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── FAQ ───────────────────────────────────────────────── */}
+                <section id="faq">
+                  <h2>Frequently Asked Questions</h2>
+                  <div className="space-y-5 my-6">
+                    {faqs.map((f) => (
+                      <div
+                        key={f.q}
+                        className="bg-white border border-stone-200 rounded-xl p-5"
+                      >
+                        <h4
+                          className="font-bold text-stone-900 mb-2 text-base"
+                          style={{ fontFamily: "var(--font-playfair)" }}
+                        >
+                          {f.q}
+                        </h4>
+                        <p
+                          className="text-sm text-stone-600 leading-relaxed m-0"
+                          style={{ fontFamily: "var(--font-dm-sans)" }}
+                        >
+                          {f.a}
+                        </p>
+                      </div>
+                    ))}
                   </div>
                 </section>
               </div>

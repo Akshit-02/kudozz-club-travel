@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description:
     "The complete Puducherry District travel guide, town by town — Puducherry town's French Quarter and temples, Auroville's Matrimandir, Villianur's ancient Shiva temple, Ariyankuppam's Chunnambar boat rides and Arikamedu ruins, Bahour's lake, Nettapakkam's rural landscapes, and Oulgaret's urban stretch.",
   keywords:
-    "Puducherry district travel guide, Puducherry towns, Villianur temple, Ariyankuppam, Arikamedu, Chunnambar boat house, Bahour lake, Nettapakkam, Oulgaret, Auroville, Pondicherry travel guide",
+    "Puducherry district travel guide, Puducherry towns, Villianur temple, Ariyankuppam, Arikamedu, Chunnambar boat house, Bahour lake, Nettapakkam, Oulgaret, Auroville, Pondicherry travel guide, best time to visit Puducherry district, how to reach Puducherry from Chennai, Puducherry district itinerary days, Puducherry district budget trip, top things to do in Puducherry district, Matrimandir Auroville visit, Paradise Beach Chunnambar",
   openGraph: {
     title: "Puducherry District Travel Guide: All 7 Towns & Attractions",
     description:
@@ -130,7 +130,62 @@ const tableOfContents = [
   { id: "itinerary", title: "4-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
+
+// ── FAQ data (shared by visible section + JSON-LD) ────────────────────────────
+const faqs = [
+  {
+    q: "How many days do I need for Puducherry District?",
+    a: "Four days is a reasonable minimum to cover all seven towns without excessive rushing, based out of Puducherry town throughout — roughly a day each for Puducherry town, Auroville, Villianur and Bahour together, and Ariyankuppam, Nettapakkam and Oulgaret together.",
+  },
+  {
+    q: "What is the best time to visit Puducherry District?",
+    a: "November through February gives the most comfortable conditions across the whole district — coastal Puducherry town, the wetlands around Bahour, and the open temple courtyards of Villianur alike, with cool, dry weather (18–28°C). March–June turns hot and humid, and July–September brings the southwest monsoon.",
+  },
+  {
+    q: "How do I reach Puducherry District from Chennai?",
+    a: "Most travellers fly into Chennai (roughly 170 km, about 3.5 hours by road) since Puducherry Airport has limited connectivity. The East Coast Road (ECR) from Chennai is the most scenic approach by car; Puducherry Junction also connects by train to Chennai, Bangalore, and Villupuram.",
+  },
+  {
+    q: "What is the budget for a trip to Puducherry District?",
+    a: "A daily budget runs roughly ₹2,500 on a tight budget, ₹6,700 mid-range, or ₹16,700 for a boutique-tier trip, covering accommodation, food, local transport, and sightseeing. A 4-day trip works out to approximately ₹10,000–₹66,800 depending on your travel style, excluding travel to Chennai.",
+  },
+  {
+    q: "Where should I base myself to see the whole district?",
+    a: "Puducherry town is the only practical base — accommodation elsewhere in the district is minimal to non-existent. Rent a scooter for a day if you're covering Villianur, Bahour, and Ariyankuppam together, since public transport between the outlying communes is infrequent.",
+  },
+  {
+    q: "Is Puducherry District worth visiting beyond the French Quarter?",
+    a: "Yes — beyond the well-known French Quarter and Auroville, the district holds a two-thousand-year-old Indo-Roman trading port at Arikamedu near Ariyankuppam, one of the region's oldest and most significant Shiva temples at Villianur, and a working agricultural landscape around Bahour Lake and Nettapakkam that most itineraries skip entirely.",
+  },
+  {
+    q: "Do I need to book anything in advance for Auroville's Matrimandir?",
+    a: "Same-day viewing passes for the Matrimandir are issued from the Visitors Centre but run out by early afternoon, especially on weekends — arrive by mid-morning to be safe. Entry inside the meditation chamber itself needs advance booking rather than a same-day pass.",
+  },
+];
+
+function FAQSchema() {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.a,
+            },
+          })),
+        }),
+      }}
+    />
+  );
+}
 
 // ── Puducherry District gear ───────────────────────────────────────────────
 const PUDUCHERRY_DISTRICT_GEAR: GearSection[] = [
@@ -227,6 +282,7 @@ export default function PuducherryDistrictGuidePage() {
   return (
     <>
       <ArticleSchema />
+      <FAQSchema />
       <SiteHeader />
 
       <main>
@@ -1250,6 +1306,32 @@ export default function PuducherryDistrictGuidePage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── FAQ ───────────────────────────────────────────────── */}
+                <section id="faq">
+                  <h2>Frequently Asked Questions</h2>
+                  <div className="space-y-5 my-6">
+                    {faqs.map((f) => (
+                      <div
+                        key={f.q}
+                        className="bg-white border border-stone-200 rounded-xl p-5"
+                      >
+                        <h4
+                          className="font-bold text-stone-900 mb-2 text-base"
+                          style={{ fontFamily: "var(--font-playfair)" }}
+                        >
+                          {f.q}
+                        </h4>
+                        <p
+                          className="text-sm text-stone-600 leading-relaxed m-0"
+                          style={{ fontFamily: "var(--font-dm-sans)" }}
+                        >
+                          {f.a}
+                        </p>
+                      </div>
+                    ))}
                   </div>
                 </section>
               </div>

@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description:
     "The complete Ziro Valley travel guide. Apatani tribal villages, terraced rice-fish fields, the Ziro Music Festival, permits (ILP), where to stay, what to eat, and a full 4-day itinerary through Arunachal Pradesh's most untouched valley.",
   keywords:
-    "Ziro Valley travel guide, Apatani tribe, Ziro Music Festival, Arunachal Pradesh Inner Line Permit, Ziro rice fields, Talley Valley, Ziro itinerary, Arunachal off-beat travel",
+    "Ziro Valley travel guide, Apatani tribe, Ziro Music Festival, Arunachal Pradesh Inner Line Permit, Ziro rice fields, Talley Valley, Ziro itinerary, Arunachal off-beat travel, best time to visit Ziro Valley, how to reach Ziro Valley, Ziro Valley budget trip, is Ziro Valley safe for solo travellers, Ziro Valley 4 day itinerary, Apatani villages Arunachal Pradesh, Hong village Ziro",
   openGraph: {
     title: "Ziro Valley Travel Guide: Apatani Villages, Rice Fields & Festival",
     description:
@@ -115,6 +115,60 @@ function ArticleSchema() {
   );
 }
 
+// ── FAQ data (shared by visible section + JSON-LD) ────────────────────────────
+const faqs = [
+  {
+    q: "How many days do I need for Ziro Valley?",
+    a: "Four days is a sensible minimum given the long journey in — enough time to properly cover the Apatani villages, the rice-fish fields, and a day trip into Talley Valley Wildlife Sanctuary.",
+  },
+  {
+    q: "What is the best time to visit Ziro Valley?",
+    a: "Late September, around the Ziro Music Festival, is the pick — golden harvest-season fields, drier weather, and the one time of year the valley has any real buzz. For quieter scenery without crowds, March to May offers vividly green freshly planted fields instead.",
+  },
+  {
+    q: "Do I need a permit to visit Ziro Valley?",
+    a: "Yes — all Indian citizens need an Inner Line Permit (ILP) to enter Arunachal Pradesh, including Ziro, and foreign nationals need a separate Protected Area Permit. Apply online through the Arunachal Pradesh e-ILP portal at least a week ahead; approval usually takes 1–3 working days.",
+  },
+  {
+    q: "How do I reach Ziro Valley?",
+    a: "The nearest airport is Lilabari in Assam, about 115 km away (roughly 4 hours by road), and the nearest railhead is North Lakhimpur, also about 110 km away. Shared taxis and sumos also run from Itanagar, around 150 km and 5–6 hours by road.",
+  },
+  {
+    q: "What is the budget for a Ziro Valley trip?",
+    a: "For a 4-day trip, expect around ₹8,400 on a tight budget, roughly ₹22,400 for a mid-range trip, and up to about ₹35,200 during Ziro Music Festival season, when accommodation prices rise due to limited availability.",
+  },
+  {
+    q: "Is Ziro Valley safe for solo travellers?",
+    a: "Yes — the Apatani are described as welcoming to visitors, though it's good etiquette to ask before photographing people, especially elders. Because the valley is remote, it's worth carrying enough cash, planning the ILP paperwork ahead, and knowing the nearest well-equipped hospital is in Itanagar, several hours away.",
+  },
+  {
+    q: "What is special about the Apatani tribe's rice fields?",
+    a: "The Apatani developed a rice-cum-fish farming system where paddies double as fish ponds, maximising a single plot of land without chemical fertiliser — a technique refined independently over centuries in this valley. Hong Village, reputedly one of the largest villages in Asia built entirely of traditional materials, is the best place to see it up close.",
+  },
+];
+
+function FAQSchema() {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.a,
+            },
+          })),
+        }),
+      }}
+    />
+  );
+}
+
 // ── TOC ───────────────────────────────────────────────────────────────────────
 const tableOfContents = [
   { id: "introduction", title: "Why Ziro Valley?", level: 2 },
@@ -129,6 +183,7 @@ const tableOfContents = [
   { id: "itinerary", title: "4-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
 // ── Ziro-specific gear ───────────────────────────────────────────────────────────
@@ -226,6 +281,7 @@ export default function ZiroValleyGuidePage() {
   return (
     <>
       <ArticleSchema />
+      <FAQSchema />
       <SiteHeader />
 
       <main>
@@ -1120,6 +1176,32 @@ export default function ZiroValleyGuidePage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── FAQ ───────────────────────────────────────────────── */}
+                <section id="faq">
+                  <h2>Frequently Asked Questions</h2>
+                  <div className="space-y-5 my-6">
+                    {faqs.map((f) => (
+                      <div
+                        key={f.q}
+                        className="bg-white border border-stone-200 rounded-xl p-5"
+                      >
+                        <h4
+                          className="font-bold text-stone-900 mb-2 text-base"
+                          style={{ fontFamily: "var(--font-playfair)" }}
+                        >
+                          {f.q}
+                        </h4>
+                        <p
+                          className="text-sm text-stone-600 leading-relaxed m-0"
+                          style={{ fontFamily: "var(--font-dm-sans)" }}
+                        >
+                          {f.a}
+                        </p>
+                      </div>
+                    ))}
                   </div>
                 </section>
               </div>

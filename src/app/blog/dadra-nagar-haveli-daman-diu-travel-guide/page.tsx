@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   description:
     "The complete travel guide to Dadra & Nagar Haveli and Daman & Diu — Diu Fort, Nagoa Beach, Silvassa's tribal culture, INS Khukri Memorial, duty-free shopping, where to stay and eat, and a full weekend itinerary for India's quietest coastal Union Territory.",
   keywords:
-    "Dadra Nagar Haveli travel guide, Daman Diu travel guide, Diu Fort, Nagoa Beach, Silvassa tourism, Diu weekend trip, Daman beaches, Gujarat coastal getaway, INS Khukri Memorial, Diu Portuguese heritage",
+    "Dadra Nagar Haveli travel guide, Daman Diu travel guide, Diu Fort, Nagoa Beach, Silvassa tourism, Diu weekend trip, Daman beaches, Gujarat coastal getaway, INS Khukri Memorial, Diu Portuguese heritage, best time to visit Diu, how to reach Diu from Mumbai, Diu itinerary 3 days, is Diu safe for solo travellers, Diu Daman budget trip, top things to do in Diu, Diu duty free shopping, Jampore Beach Daman, Warli art Silvassa",
   openGraph: {
     title:
       "Dadra & Nagar Haveli and Daman & Diu Travel Guide: Forts, Beaches & Weekend Trip",
@@ -118,6 +118,60 @@ function ArticleSchema() {
   );
 }
 
+// ── FAQ data (shared by visible section + JSON-LD) ────────────────────────────
+const faqs = [
+  {
+    q: "How many days do you need for Diu?",
+    a: "Diu alone justifies a focused 3-day trip — enough time to cover Diu Fort and the old town, Nagoa Beach and a moped loop of the island, Gangeshwar Temple, Naida Caves, and the INS Khukri Memorial without feeling rushed.",
+  },
+  {
+    q: "What is the best time to visit Diu and Daman?",
+    a: "October to February is the best window, with pleasant, dry weather (18–30°C) that makes fort walks, beach time, and drives between towns genuinely comfortable. December–January is the peak season with the most weekend travellers, so book stays ahead. Monsoon (June–September) brings heavy rain and rough seas that make beach time unpleasant, though the fort and old town are still atmospheric and crowd-free.",
+  },
+  {
+    q: "How do I reach Diu from Mumbai?",
+    a: "Diu Airport has limited direct flights from Mumbai; otherwise the nearest railhead is Una (13 km) or Veraval, both connected to Ahmedabad and Rajkot. A self-drive road trip from Ahmedabad covers roughly 360 km in about 7 hours. Daman, by contrast, is much closer to Mumbai — roughly 3 hours by road, with the nearest railway station at Vapi (12 km) on the Mumbai–Ahmedabad main line.",
+  },
+  {
+    q: "Can I visit both Diu and Daman on one trip?",
+    a: "It's not recommended on a short trip — Diu and Daman are roughly 750 km apart despite sharing a name, so treat them as two separate destinations rather than one combined itinerary unless you have 5+ days and enjoy long coastal drives.",
+  },
+  {
+    q: "Is Diu safe for solo travellers?",
+    a: "Yes — Diu is a small, walkable, low-crowd island that's considered a relaxed and safe destination for solo and independent travel. The main practical notes are to carry cash since card acceptance thins out quickly outside main markets and hotels, and to avoid midday fort visits in summer since the ramparts have no shade.",
+  },
+  {
+    q: "What is the budget for a Diu trip?",
+    a: "A budget traveller can expect a daily total of around ₹2,500, a mid-range traveller around ₹6,300, and a luxury traveller around ₹14,200 per day, covering accommodation, food, local transport, and activities — working out to roughly ₹7,500, ₹18,900, or ₹42,600 respectively for a 3-day trip, excluding travel to Diu.",
+  },
+  {
+    q: "Why is Diu known for duty-free shopping?",
+    a: "Both Diu and Daman sell alcohol tax-free, making them popular weekend day-trip destinations from dry-state-adjacent Gujarat, and a common pairing with fresh seafood at Diu's seafront shacks. There are quantity restrictions on alcohol carried out of the territory into neighbouring states, so check current limits before stocking up.",
+  },
+];
+
+function FAQSchema() {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.a,
+            },
+          })),
+        }),
+      }}
+    />
+  );
+}
+
 // ── TOC ───────────────────────────────────────────────────────────────────────
 const tableOfContents = [
   { id: "introduction", title: "Why Visit DNH & DD?", level: 2 },
@@ -132,6 +186,7 @@ const tableOfContents = [
   { id: "itinerary", title: "3-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
 // ── DNH & DD-specific gear ──────────────────────────────────────────────────
@@ -229,6 +284,7 @@ export default function DadraNagarHaveliDamanDiuGuidePage() {
   return (
     <>
       <ArticleSchema />
+      <FAQSchema />
       <SiteHeader />
 
       <main>
@@ -1117,6 +1173,32 @@ export default function DadraNagarHaveliDamanDiuGuidePage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── FAQ ───────────────────────────────────────────────── */}
+                <section id="faq">
+                  <h2>Frequently Asked Questions</h2>
+                  <div className="space-y-5 my-6">
+                    {faqs.map((f) => (
+                      <div
+                        key={f.q}
+                        className="bg-white border border-stone-200 rounded-xl p-5"
+                      >
+                        <h4
+                          className="font-bold text-stone-900 mb-2 text-base"
+                          style={{ fontFamily: "var(--font-playfair)" }}
+                        >
+                          {f.q}
+                        </h4>
+                        <p
+                          className="text-sm text-stone-600 leading-relaxed m-0"
+                          style={{ fontFamily: "var(--font-dm-sans)" }}
+                        >
+                          {f.a}
+                        </p>
+                      </div>
+                    ))}
                   </div>
                 </section>
               </div>

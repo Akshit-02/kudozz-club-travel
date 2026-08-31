@@ -15,6 +15,10 @@ export const metadata: Metadata = {
     "Kudos Club",
     "Kudoss Club",
     "about Kudozz",
+    "who is behind Kudozz Club",
+    "independent India travel publication",
+    "first-hand travel guides India",
+    "Kudozz Club editorial team",
   ],
   alternates: { canonical: "https://club.kudozz.in/about" },
 };

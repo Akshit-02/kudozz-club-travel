@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description:
     "The complete Rishikesh travel guide. White-water rafting, bungee jumping, yoga retreats, Ganga aarti, best cafes, where to stay, and everything you need to plan the perfect trip.",
   keywords:
-    "Rishikesh travel guide, Rishikesh rafting, Rishikesh yoga, Rishikesh bungee jumping, Laxman Jhula, Ganga aarti Rishikesh, things to do in Rishikesh, Uttarakhand travel",
+    "Rishikesh travel guide, Rishikesh rafting, Rishikesh yoga, Rishikesh bungee jumping, Laxman Jhula, Ganga aarti Rishikesh, things to do in Rishikesh, Uttarakhand travel, best time to visit Rishikesh, how to reach Rishikesh from Delhi, Rishikesh 5 day itinerary, is Rishikesh safe for solo travellers, Rishikesh trip budget, Rishikesh rafting cost, Rishikesh yoga teacher training, Neelkanth Mahadev trek, is Rishikesh worth visiting, Rishikesh vs Haridwar",
   openGraph: {
     title: "Rishikesh Travel Guide: Adventure, Yoga, Rafting & More",
     description:
@@ -120,6 +120,60 @@ function ArticleSchema() {
   );
 }
 
+// ── FAQ data (shared by visible section + JSON-LD) ────────────────────────────
+const faqs = [
+  {
+    q: "How many days do I need in Rishikesh?",
+    a: "Five days is a comfortable amount of time to blend adventure, spirituality, and downtime without feeling rushed — enough for rafting, a bungee jump, the Beatles Ashram, a Kunjapuri sunrise trek, and a day trip to Haridwar, as laid out in our suggested itinerary.",
+  },
+  {
+    q: "What is the best time to visit Rishikesh?",
+    a: "October is our pick — the Ganga is at its most powerful post-monsoon for rafting, the air is crystal clear, and temperatures sit around 15–28°C. Rafting is completely shut down June–September during monsoon, so avoid that window if adventure activities are the priority.",
+  },
+  {
+    q: "How do I reach Rishikesh from Delhi?",
+    a: "Delhi to Rishikesh is around 240 km via NH334, roughly 5-6 hours by car. UPSRTC and GMOU buses run from Delhi's ISBT Kashmiri Gate (6-7 hours), or you can fly into Jolly Grant Airport in Dehradun (45 km away) or take a train to Haridwar Junction (25 km away), both followed by a short taxi ride.",
+  },
+  {
+    q: "Is Rishikesh safe for solo travellers?",
+    a: "Yes — Rishikesh has a large, established backpacker and yoga-retreat community used to solo travellers of all backgrounds. The main safety notes are to avoid swimming in the Ganga (the current is deceptively powerful year-round) and to book adventure activities directly with ATOAI-certified operators rather than street touts.",
+  },
+  {
+    q: "How much does rafting cost in Rishikesh?",
+    a: "Prices depend on the stretch: the beginner-friendly Brahmpuri stretch runs ₹600–₹800, the popular Shivpuri stretch ₹900–₹1,200, Marine Drive ₹1,200–₹1,600, and the advanced Kaudiyala stretch ₹1,800–₹2,500 — all typically including life jacket, helmet, paddle, and a guide.",
+  },
+  {
+    q: "What is the budget for a Rishikesh trip?",
+    a: "A 5-day trip runs around ₹12,000 total on a budget, ₹22,000 mid-range, or ₹50,000 for a comfort-level trip, covering accommodation, food, local transport, a rafting trip, a bungee jump, and yoga classes.",
+  },
+  {
+    q: "Is Rishikesh worth visiting?",
+    a: "Yes — it's one of the very few places where you can chant at an evening Ganga Aarti and do a 30-metre bungee jump the same afternoon. Between the Grade III–IV rapids, the highest commercial bungee jump in India, over 200 yoga schools, and a thriving café scene, it rarely disappoints.",
+  },
+];
+
+function FAQSchema() {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.a,
+            },
+          })),
+        }),
+      }}
+    />
+  );
+}
+
 // ── TOC ───────────────────────────────────────────────────────────────────────
 const tableOfContents = [
   { id: "introduction", title: "Why Rishikesh?", level: 2 },
@@ -143,6 +197,7 @@ const tableOfContents = [
   { id: "itinerary", title: "5-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
 // ── Page ─────────────────────────────────────────────────────────────────────
@@ -150,6 +205,7 @@ export default function RishikeshPage() {
   return (
     <>
       <ArticleSchema />
+      <FAQSchema />
       <SiteHeader />
 
       <main>
@@ -1449,6 +1505,32 @@ export default function RishikeshPage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── FAQ ───────────────────────────────────────────────── */}
+                <section id="faq">
+                  <h2>Frequently Asked Questions</h2>
+                  <div className="space-y-5 my-6">
+                    {faqs.map((f) => (
+                      <div
+                        key={f.q}
+                        className="bg-white border border-stone-200 rounded-xl p-5"
+                      >
+                        <h4
+                          className="font-bold text-stone-900 mb-2 text-base"
+                          style={{ fontFamily: "var(--font-playfair)" }}
+                        >
+                          {f.q}
+                        </h4>
+                        <p
+                          className="text-sm text-stone-600 leading-relaxed m-0"
+                          style={{ fontFamily: "var(--font-dm-sans)" }}
+                        >
+                          {f.a}
+                        </p>
+                      </div>
+                    ))}
                   </div>
                 </section>
               </div>

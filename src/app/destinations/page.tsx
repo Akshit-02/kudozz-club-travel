@@ -9,6 +9,19 @@ export const metadata: Metadata = {
   title: "Destinations — Explore India & Beyond",
   description:
     "Browse all travel destinations on Kudozz Club — from Himalayan peaks to tropical beaches, ancient heritage sites to off-beat hidden gems. Hand-crafted guides for every kind of explorer.",
+  keywords: [
+    "India travel destinations",
+    "best places to visit in India",
+    "India destination guide",
+    "Ladakh destinations",
+    "Jammu and Kashmir destinations",
+    "Delhi destinations",
+    "offbeat places in India",
+    "hill stations in India",
+    "beaches in India",
+    "heritage sites in India",
+    "state-wise travel guide India",
+  ],
   alternates: { canonical: "https://club.kudozz.in/destinations" },
 };
 

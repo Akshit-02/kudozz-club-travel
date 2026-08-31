@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   description:
     "A complete travel guide to Leh town — Leh Palace, Leh Market, Shanti Stupa, Namgyal Tsemo Fort, acclimatisation advice, cafés, old town walks, day trips, and a full budget breakdown.",
   keywords:
-    "Leh travel guide, Leh town, Leh Palace, Leh Market, Shanti Stupa, Namgyal Tsemo, Leh acclimatisation, Leh Ladakh, things to do in Leh, Leh cafes",
+    "Leh travel guide, Leh town, Leh Palace, Leh Market, Shanti Stupa, Namgyal Tsemo, Leh acclimatisation, Leh Ladakh, things to do in Leh, Leh cafes, best time to visit Leh, how to reach Leh, Leh permit requirements, Leh budget trip, how many days in Leh, Leh day trips from town",
   openGraph: {
     title: "Leh Travel Guide: Leh Palace, Market, Shanti Stupa & Tips",
     description:
@@ -119,6 +119,60 @@ function ArticleSchema() {
   );
 }
 
+// ── FAQ data (shared by visible section + JSON-LD) ────────────────────────────
+const faqs = [
+  {
+    q: "How many days do I need in Leh?",
+    a: "Two to three unhurried days is enough to properly see Leh town itself — Leh Palace, the market and old town, Shanti Stupa, and one or two day trips like Thiksey or Hemis — while also building in the acclimatisation time your body needs at 3,524 m before heading onward to Pangong or Nubra.",
+  },
+  {
+    q: "How do I acclimatise in Leh?",
+    a: "The golden rule is to do nothing for your first 24 hours — no sightseeing, no hikes, not even a brisk walk to the market. Hydrate constantly, eat light carbohydrate-rich meals, and skip alcohol and sleeping pills. Day 2 can include gentle activity like a slow walk to Leh Market or Leh Palace, saving the steeper climbs to Shanti Stupa and Namgyal Tsemo for day 3.",
+  },
+  {
+    q: "Do I need a permit to visit Leh town?",
+    a: "No — the Inner Line Permit is only required if you're heading onward to Pangong, Nubra, Tso Moriri, or other restricted border areas. You can explore Leh town itself, including Leh Palace, the market, and Shanti Stupa, freely without one.",
+  },
+  {
+    q: "What is the best time to visit Leh?",
+    a: "The first two weeks of September are the recommended window — the bazaar is still fully open, the light turns the old town gold in the evenings, and Leh Palace and Shanti Stupa see a fraction of the peak-August crowds. July–August is the busiest and warmest period, when the Hemis and Ladakh festivals also fall.",
+  },
+  {
+    q: "How do I reach Leh?",
+    a: "Most visitors fly into Kushok Bakula Rimpochee Airport (IXL), just 4 km from town, with daily flights from Delhi in around 1 hour 20 minutes. Alternatively, you can drive overland via Manali (479 km, 2–3 days, crossing Tanglang La) or via Srinagar (434 km through Zoji La and Kargil, open longer in the season and gentler on altitude).",
+  },
+  {
+    q: "What is the budget for a Leh town trip?",
+    a: "A 3-day stay in Leh town costs roughly ₹5,300 on a budget itinerary, around ₹16,500 mid-range, and ₹45,000+ for a comfort-tier trip — covering accommodation, food, local taxis, monument entries, and cafés, but excluding flights and any onward permits for Pangong or Nubra.",
+  },
+  {
+    q: "What are the must-see sights in Leh town?",
+    a: "The core sights are Leh Palace (a nine-storey former royal residence with sweeping Indus Valley views), Leh Market and the old town, Shanti Stupa (best for sunrise or sunset panoramas), and Namgyal Tsemo Fort, the toughest climb but the single best viewpoint over Leh. The Hall of Fame war memorial and Sankar Gompa are worthwhile lower-effort additions.",
+  },
+];
+
+function FAQSchema() {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.a,
+            },
+          })),
+        }),
+      }}
+    />
+  );
+}
+
 // ── TOC ───────────────────────────────────────────────────────────────────────
 const tableOfContents = [
   { id: "introduction", title: "Why Leh?", level: 2 },
@@ -139,6 +193,7 @@ const tableOfContents = [
   { id: "cafes-food", title: "Cafés & Food", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Tips", level: 2 },
+  { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
 // ── Page ─────────────────────────────────────────────────────────────────────
@@ -146,6 +201,7 @@ export default function LehTravelGuidePage() {
   return (
     <>
       <ArticleSchema />
+      <FAQSchema />
       <SiteHeader />
 
       <main>
@@ -1302,6 +1358,32 @@ export default function LehTravelGuidePage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── FAQ ───────────────────────────────────────────────── */}
+                <section id="faq">
+                  <h2>Frequently Asked Questions</h2>
+                  <div className="space-y-5 my-6">
+                    {faqs.map((f) => (
+                      <div
+                        key={f.q}
+                        className="bg-white border border-stone-200 rounded-xl p-5"
+                      >
+                        <h4
+                          className="font-bold text-stone-900 mb-2 text-base"
+                          style={{ fontFamily: "var(--font-playfair)" }}
+                        >
+                          {f.q}
+                        </h4>
+                        <p
+                          className="text-sm text-stone-600 leading-relaxed m-0"
+                          style={{ fontFamily: "var(--font-dm-sans)" }}
+                        >
+                          {f.a}
+                        </p>
+                      </div>
+                    ))}
                   </div>
                 </section>
               </div>

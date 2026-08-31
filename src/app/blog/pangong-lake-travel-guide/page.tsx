@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   description:
     "The complete Pangong Tso travel guide — how to reach via Chang La or the Nubra-Shyok route, ILP permits, the colour-changing lake, overnight camping, south vs north shore, a 2-day Leh itinerary, budget and essential tips.",
   keywords:
-    "Pangong Lake, Pangong Tso, Ladakh, Chang La pass, Pangong camping, Pangong permit, Merek, Spangmik, 3 Idiots lake, Leh to Pangong",
+    "Pangong Lake, Pangong Tso, Ladakh, Chang La pass, Pangong camping, Pangong permit, Merek, Spangmik, 3 Idiots lake, Leh to Pangong, best time to visit Pangong Lake, how to reach Pangong from Leh, Pangong Lake itinerary days, is Pangong Lake safe for solo travellers, Pangong Lake budget trip, top things to do at Pangong Lake, Nubra Shyok route to Pangong",
   openGraph: {
     title: "Pangong Lake Travel Guide: Routes, Permits, Camping & Tips",
     description:
@@ -136,13 +136,69 @@ const tableOfContents = [
   { id: "food-guide", title: "What to Eat", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
+
+// ── FAQ data (shared by visible section + JSON-LD) ────────────────────────────
+const faqs = [
+  {
+    q: "How many days do I need for Pangong Lake?",
+    a: "The minimum sensible plan is a 2-day, 1-night trip from Leh — one night camping on the shore, ideally on the quieter south side near Spangmik or Man. A same-day out-and-back is technically possible but not recommended, since you'd spend nearly 10 hours driving for barely 90 minutes at the lake.",
+  },
+  {
+    q: "What is the best time to visit Pangong Lake?",
+    a: "The first two weeks of September are our pick — day-trip crowds have thinned, the water holds its deepest blues in the clear post-monsoon air, and camps that were fully booked in August have rooms to spare. July–August is peak season with the warmest weather but the biggest crowds. The lake is only accessible for about five months a year, roughly May through September/October.",
+  },
+  {
+    q: "How do I reach Pangong Lake from Leh?",
+    a: "The direct route crosses Chang La (5,360 m) from Leh, roughly 160 km and 4.5–5.5 hours of driving. An alternative if you're already in Nubra Valley follows the Shyok River south from Diskit or Hunder, skipping Chang La entirely — a longer, rougher 6–7 hour drive that lets you combine both regions into one loop without backtracking through Leh.",
+  },
+  {
+    q: "Do I need a permit for Pangong Lake?",
+    a: "Yes — an Inner Line Permit (ILP) is mandatory for every visitor, Indian or foreign, since Pangong sits inside a protected border zone. Indian nationals apply online at lahdclehpermit.in or in person at the DC Office in Leh; foreign nationals need a Protected Area Permit (PAP) arranged through a registered Leh-based tour operator in a group of at least two.",
+  },
+  {
+    q: "What is the budget for a trip to Pangong Lake?",
+    a: "For a shared vehicle split between 2–4 people, a 2-day trip totals roughly ₹6,950 on a budget plan, ₹12,650 mid-range, or ₹26,150 for more comfort — covering the tent camp, vehicle hire from Leh, permits, and food. Tent camps alone range from ₹1,800 to ₹12,000 per night including meals.",
+  },
+  {
+    q: "Is it safe to camp overnight at Pangong Lake?",
+    a: "Yes, camping is the recommended way to experience Pangong — a strip of semi-permanent tent camps runs along the shore near Spangmik and Man, ranging from basic two-person tents to heated 'luxury' tents. The main things to plan around are the cold (nights drop close to freezing even in July) and the altitude, since Pangong (4,225 m) sits higher than Leh — spend at least two acclimatisation days in Leh first.",
+  },
+  {
+    q: "Why does Pangong Lake change colour?",
+    a: "The colour shift through the day — from pale jade to turquoise, sapphire, steel grey, and violet at dusk — comes from the lake's unusual mineral content, its extreme clarity and depth, and the angle of sunlight hitting a treeless, high-UV desert environment with no vegetation or silt to mute the colour. It's most dramatic in the hour after sunrise and the hour before sunset.",
+  },
+];
+
+function FAQSchema() {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.a,
+            },
+          })),
+        }),
+      }}
+    />
+  );
+}
 
 // ── Page ─────────────────────────────────────────────────────────────────────
 export default function PangongLakePage() {
   return (
     <>
       <ArticleSchema />
+      <FAQSchema />
       <SiteHeader />
 
       <main>
@@ -1292,6 +1348,32 @@ export default function PangongLakePage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── FAQ ───────────────────────────────────────────────── */}
+                <section id="faq">
+                  <h2>Frequently Asked Questions</h2>
+                  <div className="space-y-5 my-6">
+                    {faqs.map((f) => (
+                      <div
+                        key={f.q}
+                        className="bg-white border border-stone-200 rounded-xl p-5"
+                      >
+                        <h4
+                          className="font-bold text-stone-900 mb-2 text-base"
+                          style={{ fontFamily: "var(--font-playfair)" }}
+                        >
+                          {f.q}
+                        </h4>
+                        <p
+                          className="text-sm text-stone-600 leading-relaxed m-0"
+                          style={{ fontFamily: "var(--font-dm-sans)" }}
+                        >
+                          {f.a}
+                        </p>
+                      </div>
+                    ))}
                   </div>
                 </section>
               </div>

@@ -22,6 +22,13 @@ export const metadata: Metadata = {
     "Cold Desert",
     "Diskit Monastery",
     "India",
+    "Hunder sand dunes travel guide",
+    "best time to visit Hunder",
+    "how to reach Hunder from Leh",
+    "Hunder Ladakh itinerary",
+    "Inner Line Permit for Nubra Valley",
+    "Hunder camping under the stars",
+    "Khardung La to Hunder distance",
   ].join(", "),
   openGraph: {
     title: "Hunder Travel Guide: Nubra Valley's Sand Dunes & Camel Safari",
@@ -104,6 +111,13 @@ function ArticleSchema() {
             "Cold Desert",
             "Diskit Monastery",
             "India",
+            "Hunder sand dunes travel guide",
+            "best time to visit Hunder",
+            "how to reach Hunder from Leh",
+            "Hunder Ladakh itinerary",
+            "Inner Line Permit for Nubra Valley",
+            "Hunder camping under the stars",
+            "Khardung La to Hunder distance",
           ].join(", "),
           about: {
             "@type": "Place",
@@ -144,6 +158,60 @@ function ArticleSchema() {
   );
 }
 
+// ── FAQ data (shared by visible section + JSON-LD) ────────────────────────────
+const faqs = [
+  {
+    q: "How many days do I need in Hunder?",
+    a: "Most travellers see Hunder as a single afternoon stop on a Nubra Valley loop from Leh, but staying at least one night is worth it. A fuller trip covering Hunder's dunes, the camel safari, and Diskit Monastery, with camping, is comfortably planned as about three days out of Leh, including travel time via Khardung La.",
+  },
+  {
+    q: "How do I reach Hunder from Leh?",
+    a: "The classic route runs from Leh over Khardung La (~5,359 m), then down through South Pullu and Khardung village into the Shyok river valley to Diskit and on to Hunder — roughly 120 km and 4–5 hours of driving with stops. Shared jeeps and J&K Road Transport Corporation buses run from Leh to Diskit, with the final 7 km to Hunder covered by shared autos or a short taxi ride.",
+  },
+  {
+    q: "Do I need a permit to visit Hunder?",
+    a: "Yes. Nubra Valley, including Hunder, lies in a protected border zone, so every visitor — Indian or foreign — needs an Inner Line Permit (ILP) before travelling past Khardung La. Indian nationals can apply online or through registered Leh travel agents, usually issued the same day; foreign nationals typically arrange it through a registered Leh-based agency.",
+  },
+  {
+    q: "What is the best time to visit Hunder?",
+    a: "The travel window runs roughly May through September, once Khardung La and the Nubra road reopen. Mid-June or early September are the sweet spots — warm, walkable dune conditions without the peak July–August crowds, and especially good light for photography at both ends of the day.",
+  },
+  {
+    q: "How long does the camel safari in Hunder last?",
+    a: "A typical Bactrian camel ride at Hunder's dunes lasts about 15–20 minutes, looping through the dune patch near Hunder village close to the Sand Dunes Camping ground. Early morning or just before sunset are the best times to go, since midday light and heat flatten the experience.",
+  },
+  {
+    q: "What is the budget for a trip to Hunder?",
+    a: "Costs stay lower than in Leh proper, though camel rides and dune camping add up. On a budget plan, expect roughly ₹1,950 a day covering guesthouse stays, food, the camel safari, local transport, and permit fees; a mid-range day runs closer to ₹4,950, and a luxury dune-camp experience can reach around ₹12,500 a day.",
+  },
+  {
+    q: "Is Diskit Monastery worth visiting from Hunder?",
+    a: "Yes — it's just 7 km from Hunder and considered the oldest and largest monastery in Nubra Valley, founded in the 14th century. Beyond the 32-metre Maitreya Buddha statue overlooking the valley, the rooftop offers one of the finest panoramic views in Nubra, taking in the Shyok river's braided channels and, on clear days, the Hunder dunes themselves.",
+  },
+];
+
+function FAQSchema() {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.a,
+            },
+          })),
+        }),
+      }}
+    />
+  );
+}
+
 const tableOfContents = [
   { id: "introduction", title: "Why Visit Hunder?", level: 2 },
   { id: "best-time", title: "Best Time to Visit", level: 2 },
@@ -158,6 +226,7 @@ const tableOfContents = [
   { id: "food-guide", title: "What to Eat", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
 // ── Page ─────────────────────────────────────────────────────────────────────
@@ -165,6 +234,7 @@ export default function HunderPage() {
   return (
     <>
       <ArticleSchema />
+      <FAQSchema />
       <SiteHeader />
 
       <main>
@@ -981,6 +1051,32 @@ export default function HunderPage() {
                       dress modestly when visiting Diskit Monastery.
                     </li>
                   </ul>
+                </section>
+
+                {/* ── FAQ ───────────────────────────────────────────────── */}
+                <section id="faq">
+                  <h2>Frequently Asked Questions</h2>
+                  <div className="space-y-5 my-6">
+                    {faqs.map((f) => (
+                      <div
+                        key={f.q}
+                        className="bg-white border border-stone-200 rounded-xl p-5"
+                      >
+                        <h4
+                          className="font-bold text-stone-900 mb-2 text-base"
+                          style={{ fontFamily: "var(--font-playfair)" }}
+                        >
+                          {f.q}
+                        </h4>
+                        <p
+                          className="text-sm text-stone-600 leading-relaxed m-0"
+                          style={{ fontFamily: "var(--font-dm-sans)" }}
+                        >
+                          {f.a}
+                        </p>
+                      </div>
+                    ))}
+                  </div>
                 </section>
               </div>
 

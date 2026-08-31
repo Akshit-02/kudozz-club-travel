@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description:
     "The complete Puducherry travel guide. French Quarter walking routes, Auroville and the Matrimandir, Promenade Beach, Ousteri Lake, where to stay, what to eat, and a full 3-day itinerary through India's most European town.",
   keywords:
-    "Puducherry travel guide, Pondicherry French Quarter, Auroville Matrimandir, Promenade Beach Pondicherry, Ousteri Lake, Pondicherry itinerary, Puducherry cafes, Tamil Nadu weekend trip",
+    "Puducherry travel guide, Pondicherry French Quarter, Auroville Matrimandir, Promenade Beach Pondicherry, Ousteri Lake, Pondicherry itinerary, Puducherry cafes, Tamil Nadu weekend trip, best time to visit Puducherry, how to reach Puducherry from Chennai, Puducherry itinerary days, is Puducherry safe for solo travellers, Puducherry budget trip, top things to do in Puducherry, Paradise Beach Chunnambar, White Town Pondicherry",
   openGraph: {
     title: "Puducherry Travel Guide: French Quarter, Auroville & Beaches",
     description:
@@ -129,7 +129,62 @@ const tableOfContents = [
   { id: "itinerary", title: "3-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
+
+// ── FAQ data (shared by visible section + JSON-LD) ────────────────────────────
+const faqs = [
+  {
+    q: "How many days do I need for Puducherry?",
+    a: "Three days is a comfortable length — one for the French Quarter, one for Auroville, and one for Ousteri Lake, Paradise Beach, and departure. It's compact enough to see properly in that time while still leaving room to slow down and linger at cafés.",
+  },
+  {
+    q: "What is the best time to visit Puducherry?",
+    a: "October to February is the best window, with cool, dry, pleasant weather (18–28°C) ideal for long walks in the French Quarter and cycling out to Auroville. Our pick is December, timed around the Puducherry Beach Festival, when the weather is cool and the town is lively.",
+  },
+  {
+    q: "How do I reach Puducherry from Chennai?",
+    a: "Most travellers fly into Chennai (roughly 170 km, about 3.5 hours by road) since Puducherry Airport has limited connectivity. The East Coast Road (ECR) from Chennai is one of South India's best coastal drives, with a worthwhile stop at Mahabalipuram along the way. Puducherry Junction is also well connected by train to Chennai, Bangalore, and Villupuram.",
+  },
+  {
+    q: "What is the budget for a trip to Puducherry?",
+    a: "A daily budget runs roughly ₹2,300 on a tight budget, ₹6,400 mid-range, or ₹16,200 for a boutique-tier trip, covering accommodation, food, local transport, and sightseeing. A 3-day trip works out to approximately ₹6,900–₹48,600 depending on your travel style, excluding travel to Chennai.",
+  },
+  {
+    q: "Is Puducherry worth visiting for a weekend?",
+    a: "Yes — it's an easy, rewarding weekend trip from Chennai or Bangalore. The French Quarter offers a genuinely different texture from anywhere else on India's east coast, with mustard-yellow colonial villas and bilingual street signs, while nearby Auroville adds the golden, geodesic Matrimandir and decades of regreened forest.",
+  },
+  {
+    q: "Do I need to book anything in advance to visit the Matrimandir?",
+    a: "Free viewing-point access at the Matrimandir requires a same-day pass from the Auroville Visitor Centre, and slots run out by early afternoon, especially on weekends — arrive by mid-morning. Entry inside the meditation chamber itself needs advance booking and a short orientation video.",
+  },
+  {
+    q: "What is the best way to get around the French Quarter?",
+    a: "Cycling is genuinely the best way to see White Town — the streets are flat, largely low-traffic, and small enough that a bicycle beats an auto for short hops. Renting one for a sunrise ride is worth doing, when the streets are quiet and the light on the colonial facades is best for photos.",
+  },
+];
+
+function FAQSchema() {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.a,
+            },
+          })),
+        }),
+      }}
+    />
+  );
+}
 
 // ── Puducherry-specific gear ───────────────────────────────────────────────────
 const PUDUCHERRY_GEAR: GearSection[] = [
@@ -226,6 +281,7 @@ export default function PuducherryGuidePage() {
   return (
     <>
       <ArticleSchema />
+      <FAQSchema />
       <SiteHeader />
 
       <main>
@@ -1076,6 +1132,32 @@ export default function PuducherryGuidePage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── FAQ ───────────────────────────────────────────────── */}
+                <section id="faq">
+                  <h2>Frequently Asked Questions</h2>
+                  <div className="space-y-5 my-6">
+                    {faqs.map((f) => (
+                      <div
+                        key={f.q}
+                        className="bg-white border border-stone-200 rounded-xl p-5"
+                      >
+                        <h4
+                          className="font-bold text-stone-900 mb-2 text-base"
+                          style={{ fontFamily: "var(--font-playfair)" }}
+                        >
+                          {f.q}
+                        </h4>
+                        <p
+                          className="text-sm text-stone-600 leading-relaxed m-0"
+                          style={{ fontFamily: "var(--font-dm-sans)" }}
+                        >
+                          {f.a}
+                        </p>
+                      </div>
+                    ))}
                   </div>
                 </section>
               </div>

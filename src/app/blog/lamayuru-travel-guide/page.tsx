@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   description:
     "A complete guide to Lamayuru — Ladakh's oldest monastery set amid the surreal moonland badlands. Best time to visit, how to reach, the Yuru Kabgyat festival, short treks, and where to stay.",
   keywords:
-    "Lamayuru, Lamayuru Monastery, Moonland Ladakh, Ladakh oldest monastery, Yuru Kabgyat festival, Lamayuru Alchi trek, Wanla monastery, Srinagar Leh highway",
+    "Lamayuru, Lamayuru Monastery, Moonland Ladakh, Ladakh oldest monastery, Yuru Kabgyat festival, Lamayuru Alchi trek, Wanla monastery, Srinagar Leh highway, best time to visit Lamayuru, how to reach Lamayuru from Leh, Lamayuru day trip or overnight, Lamayuru Chilling trek, Lamayuru budget, things to do in Lamayuru",
   openGraph: {
     title: "Lamayuru Travel Guide: Moonland, Monastery & How to Visit",
     description:
@@ -119,6 +119,60 @@ function ArticleSchema() {
   );
 }
 
+// ── FAQ data (shared by visible section + JSON-LD) ────────────────────────────
+const faqs = [
+  {
+    q: "How many days do I need for Lamayuru?",
+    a: "Most travellers treat Lamayuru as a 20-minute photo stop between Leh and Kargil, and that's enough to see the moonland viewpoint and take a quick look at the monastery. But staying just one night — in a budget guesthouse or homestay — lets you catch the monastery at dawn without another visitor around and gives you time to add Wanla or a short trek, which the day-trip crowd misses entirely.",
+  },
+  {
+    q: "What is the best time to visit Lamayuru?",
+    a: "Mid-to-late September is the recommended window — the monastery is quiet, the moonland glows amber in the evening light, and the Srinagar–Leh highway is still comfortably open. July–August is peak season and also when the Yuru Kabgyat festival usually falls, so plan around then if you want the masked cham dances specifically.",
+  },
+  {
+    q: "How do I reach Lamayuru from Leh?",
+    a: "Lamayuru sits directly on NH1, the Srinagar–Leh highway, about 125 km west of Leh and roughly 3 hours by road via Nimmu, Basgo, Khaltse, and Wanla. Shared taxis and local buses run the route, though a private cab or self-drive lets you stop at Magnetic Hill, Sangam, and Alchi along the way.",
+  },
+  {
+    q: "Why is Lamayuru called the Moonland?",
+    a: "The hills around Lamayuru have been eroded by wind and water into pale, cracked sedimentary ridges and cones — the remains of what geologists believe was once a vast Himalayan lake. The bare, cratered result looks so unearthly that everyone who passes through calls it the Moonland, and it's visible from a pull-off on NH1 just before the village.",
+  },
+  {
+    q: "When is the Yuru Kabgyat festival held?",
+    a: "Yuru Kabgyat follows the Tibetan lunar calendar and typically falls in summer, often around July, with exact dates shifting year to year — check locally or with a Ladakh-based operator a season ahead. It's two days of masked cham dances performed by monks, drawing a mostly local and pilgrim crowd rather than the bigger tourist numbers seen at Hemis.",
+  },
+  {
+    q: "What treks start from Lamayuru?",
+    a: "Lamayuru is the trailhead for two well-known short treks: the classic Lamayuru–Alchi trek (3–4 days, crossing Konzke La at around 4,900 m) and the shorter Lamayuru–Chilling trek (2–3 days, ending at the Zanskar River). Both require a local guide since trails are unmarked in places and mobile signal disappears almost immediately outside the village.",
+  },
+  {
+    q: "Is Lamayuru Monastery really the oldest in Ladakh?",
+    a: "Lamayuru Monastery is generally accepted as the oldest continuously used monastery in Ladakh, tracing its roots to the 11th century and the Kashmiri Buddhist master Naropa, who is said to have meditated in a cave still preserved within the complex today. It belongs to the Drikung Kagyu lineage, though tradition holds it began earlier still as a Bon site.",
+  },
+];
+
+function FAQSchema() {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.a,
+            },
+          })),
+        }),
+      }}
+    />
+  );
+}
+
 // ── TOC ───────────────────────────────────────────────────────────────────────
 const tableOfContents = [
   { id: "introduction", title: "Why Visit Lamayuru?", level: 2 },
@@ -136,6 +190,7 @@ const tableOfContents = [
   { id: "food-guide", title: "What to Eat", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
 // ── Page ─────────────────────────────────────────────────────────────────────
@@ -143,6 +198,7 @@ export default function LamayuruPage() {
   return (
     <>
       <ArticleSchema />
+      <FAQSchema />
       <SiteHeader />
 
       <main>
@@ -1082,6 +1138,32 @@ export default function LamayuruPage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── FAQ ───────────────────────────────────────────────── */}
+                <section id="faq">
+                  <h2>Frequently Asked Questions</h2>
+                  <div className="space-y-5 my-6">
+                    {faqs.map((f) => (
+                      <div
+                        key={f.q}
+                        className="bg-white border border-stone-200 rounded-xl p-5"
+                      >
+                        <h4
+                          className="font-bold text-stone-900 mb-2 text-base"
+                          style={{ fontFamily: "var(--font-playfair)" }}
+                        >
+                          {f.q}
+                        </h4>
+                        <p
+                          className="text-sm text-stone-600 leading-relaxed m-0"
+                          style={{ fontFamily: "var(--font-dm-sans)" }}
+                        >
+                          {f.a}
+                        </p>
+                      </div>
+                    ))}
                   </div>
                 </section>
               </div>

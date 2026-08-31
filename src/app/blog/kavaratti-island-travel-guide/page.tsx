@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description:
     "The complete Kavaratti island travel guide — Lakshadweep's capital and most developed inhabited island. Kavaratti Beach and Lagoon, the Marine Aquarium, the driftwood-ceilinged Ujra Mosque, scuba diving, snorkelling, kayaking, and glass-bottom boat rides, where to stay, what to eat, and a full itinerary.",
   keywords:
-    "Kavaratti island travel guide, Kavaratti Lakshadweep, Kavaratti beach, Kavaratti lagoon, Ujra mosque, Kavaratti aquarium, Kavaratti diving centre, Kavaratti water sports, Lakshadweep capital island, Lakshadweep permit",
+    "Kavaratti island travel guide, Kavaratti Lakshadweep, Kavaratti beach, Kavaratti lagoon, Ujra mosque, Kavaratti aquarium, Kavaratti diving centre, Kavaratti water sports, Lakshadweep capital island, Lakshadweep permit, best time to visit Kavaratti, how to reach Kavaratti from Kochi, Kavaratti travel permit process, Kavaratti budget trip, things to do in Kavaratti island, Kavaratti 3 day itinerary, is Kavaratti safe for solo travellers, Kavaratti diving and snorkelling",
   openGraph: {
     title: "Kavaratti Island Travel Guide: Lagoon, Diving & Ujra Mosque",
     description:
@@ -115,6 +115,60 @@ function ArticleSchema() {
   );
 }
 
+// ── FAQ data (shared by visible section + JSON-LD) ────────────────────────────
+const faqs = [
+  {
+    q: "How many days do I need for Kavaratti?",
+    a: "Three days is a comfortable length for Kavaratti — enough time to settle in and swim the lagoon on Day 1, spend Day 2 diving, snorkelling, or kayaking and visiting the aquarium, and use Day 3 for Ujra Mosque and the town centre before departure. Longer stays are easy given the island's relatively developed accommodation, but three days covers the core sights without feeling rushed.",
+  },
+  {
+    q: "Is Kavaratti safe for solo travellers?",
+    a: "Kavaratti is Lakshadweep's capital and most developed inhabited island, with more established infrastructure, tour operators, and SPORTS-run guesthouses than most other islands in the archipelago — a genuine advantage for solo travellers navigating logistics. The island's culture is conservative and predominantly Muslim, so solo travellers should dress modestly, especially around the town centre and mosques, and should note that alcohol isn't available anywhere on the island.",
+  },
+  {
+    q: "What is the best time to visit Kavaratti?",
+    a: "October to May is the best window, when seas are calm enough for reliable ferry crossings and lagoon visibility is at its clearest. December to February is the most comfortable and busiest period, so book permits and accommodation weeks ahead; March to May is hotter but still delivers excellent diving visibility with fewer crowds. Avoid June to September, when the southwest monsoon makes ferry crossings unreliable and most operators pause departures.",
+  },
+  {
+    q: "How do I reach Kavaratti from Kochi?",
+    a: "Most visitors reach Kavaratti by passenger ship from Kochi, a crossing of roughly 14–20 hours depending on the vessel and sea conditions, with cabin and dormitory classes available. Alternatively, you can fly into Agatti Airport — Lakshadweep's only airstrip — and continue to Kavaratti by boat or a limited helicopter service; this route costs more but is worth it if you get seasick easily.",
+  },
+  {
+    q: "Do I need a permit to visit Kavaratti?",
+    a: "Yes. Lakshadweep is a restricted-entry territory, and every visitor — including Indian citizens — needs a permit to travel to Kavaratti; there's no permit-free access for domestic tourists as there is on most of the mainland. Permits are issued through the Lakshadweep administration's official portal or via SPORTS, and you should apply at least a few weeks ahead of travel — longer during the December–February peak — without booking flights or ferries until it's confirmed.",
+  },
+  {
+    q: "What is the budget for a trip to Kavaratti?",
+    a: "Expect roughly ₹2,500–₹9,000 per day depending on your accommodation tier and how much diving or water sports you add on, covering stays, food, and local transport. This excludes the ship or flight fare to reach the island and the permit fee, and most visitors book through SPORTS or a registered operator as a bundled package.",
+  },
+  {
+    q: "What makes Ujra Mosque worth visiting?",
+    a: "Ujra Mosque is Kavaratti's most distinctive heritage site, known locally for a ceiling reputedly built from shipwreck driftwood and intricately carved — one of the archipelago's most visited religious and architectural landmarks. It's worth checking visiting hours locally in advance, since it remains an active place of worship.",
+  },
+];
+
+function FAQSchema() {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.a,
+            },
+          })),
+        }),
+      }}
+    />
+  );
+}
+
 // ── TOC ───────────────────────────────────────────────────────────────────────
 const tableOfContents = [
   { id: "introduction", title: "Why Kavaratti?", level: 2 },
@@ -129,6 +183,7 @@ const tableOfContents = [
   { id: "itinerary", title: "3-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
 // ── Kavaratti-specific gear ───────────────────────────────────────────────────
@@ -226,6 +281,7 @@ export default function KavarattiIslandGuidePage() {
   return (
     <>
       <ArticleSchema />
+      <FAQSchema />
       <SiteHeader />
 
       <main>
@@ -1102,6 +1158,32 @@ export default function KavarattiIslandGuidePage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── FAQ ───────────────────────────────────────────────── */}
+                <section id="faq">
+                  <h2>Frequently Asked Questions</h2>
+                  <div className="space-y-5 my-6">
+                    {faqs.map((f) => (
+                      <div
+                        key={f.q}
+                        className="bg-white border border-stone-200 rounded-xl p-5"
+                      >
+                        <h4
+                          className="font-bold text-stone-900 mb-2 text-base"
+                          style={{ fontFamily: "var(--font-playfair)" }}
+                        >
+                          {f.q}
+                        </h4>
+                        <p
+                          className="text-sm text-stone-600 leading-relaxed m-0"
+                          style={{ fontFamily: "var(--font-dm-sans)" }}
+                        >
+                          {f.a}
+                        </p>
+                      </div>
+                    ))}
                   </div>
                 </section>
               </div>

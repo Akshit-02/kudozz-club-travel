@@ -20,6 +20,15 @@ export const metadata: Metadata = {
     "Mountain Travel",
     "India",
     "Adventure",
+    "Manali travel guide",
+    "best time to visit Manali",
+    "how to reach Manali from Delhi",
+    "Rohtang Pass permit",
+    "Solang Valley activities",
+    "Manali itinerary days",
+    "Manali budget trip",
+    "Old Manali cafes",
+    "Hadimba Temple",
   ].join(", "),
   openGraph: {
     title: "Manali Travel Guide: Top Places, Itinerary & Insider Tips",
@@ -99,6 +108,15 @@ function ArticleSchema() {
             "Mountain Travel",
             "India",
             "Adventure",
+            "Manali travel guide",
+            "best time to visit Manali",
+            "how to reach Manali from Delhi",
+            "Rohtang Pass permit",
+            "Solang Valley activities",
+            "Manali itinerary days",
+            "Manali budget trip",
+            "Old Manali cafes",
+            "Hadimba Temple",
           ].join(", "),
           about: {
             "@type": "Place",
@@ -133,6 +151,60 @@ function ArticleSchema() {
   );
 }
 
+// ── FAQ data (shared by visible section + JSON-LD) ────────────────────────────
+const faqs = [
+  {
+    q: "How many days do I need for Manali?",
+    a: "Five days is a good length for a first trip, enough to cover Mall Road, Hadimba Temple, Vashisht, Old Manali, Solang Valley, and a day trip to Rohtang Pass without rushing, as laid out in our 5-day itinerary. With less time, prioritize the in-town sights and Solang Valley over the longer Rohtang Pass excursion.",
+  },
+  {
+    q: "What is the best time to visit Manali?",
+    a: "Manali's best season runs October to June, with peak crowds in May–June and December–January. Our pick is early October — crisp mountain air, golden foliage, thin crowds, and the occasional early snowfall on the high passes. Monsoon (July–September) is best avoided due to landslides and road closures.",
+  },
+  {
+    q: "How do I reach Manali?",
+    a: "The nearest airport is Bhuntar (Kullu–Manali Airport, KUU), about 50 km south, with daily flights from Delhi. HPTDC and HRTC run overnight Volvo buses from Delhi's ISBT Kashmiri Gate (roughly 12 hours), which is the most popular option since you arrive fresh in the morning. A private cab from Delhi is also common, with stops at Chandigarh and Bilaspur along the way.",
+  },
+  {
+    q: "Do I need a permit for Rohtang Pass?",
+    a: "Yes — a daily permit is required (₹550 for non-AC vehicles), and the Himachal Pradesh government caps visitors at 1,200 vehicles per day. Book your permit online at least 2 days in advance via the HRTC portal, and start by 6 AM since permits sell out fast and afternoon clouds obscure the views. The pass is open from late May to early November.",
+  },
+  {
+    q: "What is the budget for a trip to Manali?",
+    a: "A budget traveller can expect a daily total of around ₹1,900, a mid-range trip around ₹6,900/day, and a luxury trip around ₹19,000/day, based on accommodation, food, local transport, sightseeing, and activities. Costs rise notably in peak season (May–June and Dec–Jan), so book accommodation weeks in advance if travelling then.",
+  },
+  {
+    q: "What can I do in Solang Valley?",
+    a: "In winter, Solang Valley transforms into a ski resort with proper runs and equipment rental. In summer, it hosts paragliding (around ₹2,500/person), zorbing, ATVing, and horse riding against a backdrop of glaciated peaks. The Atal Tunnel starts near Solang and connects the valley to Sissu, keeping the Rohtang area accessible year-round.",
+  },
+  {
+    q: "Is Old Manali different from Manali?",
+    a: "Yes — cross the Manalsu River and Old Manali is the bohemian soul of the town, with narrow cobblestone lanes, Israeli-run cafes, guesthouses painted in psychedelic murals, and a laid-back traveller culture dating back to the 1970s hippie trail. It has a distinctly different feel from the busier Mall Road area in the main town.",
+  },
+];
+
+function FAQSchema() {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.a,
+            },
+          })),
+        }),
+      }}
+    />
+  );
+}
+
 const tableOfContents = [
   { id: "introduction", title: "Why Visit Manali?", level: 2 },
   { id: "best-time", title: "Best Time to Visit", level: 2 },
@@ -148,6 +220,7 @@ const tableOfContents = [
   { id: "food-guide", title: "What to Eat", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
 // ── Page ─────────────────────────────────────────────────────────────────────
@@ -155,6 +228,7 @@ export default function ManaliPage() {
   return (
     <>
       <ArticleSchema />
+      <FAQSchema />
       <SiteHeader />
 
       <main>
@@ -894,6 +968,32 @@ export default function ManaliPage() {
                       simply sitting by a river with a cup of chai.
                     </li>
                   </ul>
+                </section>
+
+                {/* ── FAQ ───────────────────────────────────────────────── */}
+                <section id="faq">
+                  <h2>Frequently Asked Questions</h2>
+                  <div className="space-y-5 my-6">
+                    {faqs.map((f) => (
+                      <div
+                        key={f.q}
+                        className="bg-white border border-stone-200 rounded-xl p-5"
+                      >
+                        <h4
+                          className="font-bold text-stone-900 mb-2 text-base"
+                          style={{ fontFamily: "var(--font-playfair)" }}
+                        >
+                          {f.q}
+                        </h4>
+                        <p
+                          className="text-sm text-stone-600 leading-relaxed m-0"
+                          style={{ fontFamily: "var(--font-dm-sans)" }}
+                        >
+                          {f.a}
+                        </p>
+                      </div>
+                    ))}
+                  </div>
                 </section>
               </div>
 

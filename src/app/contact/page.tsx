@@ -6,6 +6,13 @@ export const metadata: Metadata = {
   title: "Contact Us — Get in Touch",
   description:
     "Reach the Kudozz Club team for guide feedback, collaborations, corrections, or general enquiries. We reply within 48 hours.",
+  keywords: [
+    "contact Kudozz Club",
+    "Kudozz Club email",
+    "travel guide feedback",
+    "collaborate with Kudozz Club",
+    "report an error travel guide",
+  ],
   alternates: { canonical: "https://club.kudozz.in/contact" },
 };
 

@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description:
     "The complete Maharashtra travel guide — Mumbai's Gateway of India and Marine Drive, the rock-cut caves of Ajanta and Ellora, the hill stations of Lonavala and Mahabaleshwar, the Konkan coast, where to stay and eat, and a full itinerary through India's most economically dynamic state.",
   keywords:
-    "Maharashtra travel guide, Mumbai travel guide, Ajanta Ellora caves, Konkan coast, Lonavala, Mahabaleshwar, Pune travel guide, Maharashtra itinerary, Elephanta Caves, Alibaug",
+    "Maharashtra travel guide, Mumbai travel guide, Ajanta Ellora caves, Konkan coast, Lonavala, Mahabaleshwar, Pune travel guide, Maharashtra itinerary, Elephanta Caves, Alibaug, best time to visit Maharashtra, how to reach Mumbai, Maharashtra itinerary days, Maharashtra budget trip, top things to do in Maharashtra, Sindhudurg Fort, Matheran hill station, is Mumbai safe for solo travellers",
   openGraph: {
     title: "Maharashtra Travel Guide: Mumbai, Ajanta-Ellora & Konkan Coast",
     description:
@@ -114,6 +114,60 @@ function ArticleSchema() {
   );
 }
 
+// ── FAQ data (shared by visible section + JSON-LD) ────────────────────────────
+const faqs = [
+  {
+    q: "How many days do I need for Maharashtra?",
+    a: "Seven days is a reasonable minimum to combine Mumbai, Ajanta-Ellora, and either a hill station or coastal stretch without excessive rushing, as covered in our suggested itinerary. With less time, focus on Mumbai and Ajanta-Ellora, since both are genuinely worth 2-3 days on their own.",
+  },
+  {
+    q: "What is the best time to visit Maharashtra?",
+    a: "October to February is the best overall window — cool, dry, and pleasant (15–30°C), ideal for Mumbai sightseeing, Ajanta-Ellora, and coastal towns alike. If hill stations and waterfalls are the priority, the monsoon months (June–September) are genuinely the better call, when Lonavala, Mahabaleshwar, and Matheran are at their greenest.",
+  },
+  {
+    q: "How do I reach Mumbai?",
+    a: "Chhatrapati Shivaji Maharaj International Airport (BOM) in Mumbai is one of India's busiest, with direct flights from across the world and every major Indian city. Mumbai is also a major rail hub with extensive nationwide connections, and an extensive expressway network connects it to Pune, the Konkan coast, and neighboring states.",
+  },
+  {
+    q: "Is Mumbai safe for solo travellers?",
+    a: "Mumbai is generally considered one of India's safer major cities for solo travellers, though the usual big-city precautions apply. The main practical challenge is Mumbai's extremely crowded local trains at rush hour — avoid peak commute times if traveling with luggage, and stick to well-lit, populated areas at night as anywhere.",
+  },
+  {
+    q: "What is the budget for a Maharashtra trip?",
+    a: "A budget traveller can expect a daily total of around ₹2,650, a mid-range trip around ₹7,400/day, and a luxury trip around ₹17,800/day, based on accommodation, food, local transport, and activities. Mumbai accommodation costs run notably higher than the rest of the state, so budget accordingly if spending multiple nights there.",
+  },
+  {
+    q: "Are Ajanta and Ellora caves worth visiting?",
+    a: "Yes — both are UNESCO World Heritage Sites carved directly out of basalt rock cliffs over centuries. Ajanta's 30 Buddhist caves are famous for intricate paintings and sculptures, while Ellora's 34 caves include the Kailasa Temple, a single monolithic structure carved from one rock. Visit them on separate days, since each needs 3–4 hours minimum to do justice.",
+  },
+  {
+    q: "What is the Konkan coast known for?",
+    a: "South of Mumbai, the Konkan coast runs quieter and less commercial than neighboring Goa, with a string of sea forts, fishing villages, and beach towns. Highlights covered in this guide include Alibaug's Kolaba Fort, the quiet beach town of Ganpatipule, and Sindhudurg Fort, a 17th-century sea fort built by Chhatrapati Shivaji Maharaj on its own island off Malvan.",
+  },
+];
+
+function FAQSchema() {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.a,
+            },
+          })),
+        }),
+      }}
+    />
+  );
+}
+
 // ── TOC ───────────────────────────────────────────────────────────────────────
 const tableOfContents = [
   { id: "introduction", title: "Why Maharashtra?", level: 2 },
@@ -128,6 +182,7 @@ const tableOfContents = [
   { id: "itinerary", title: "7-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
 // ── Maharashtra-specific gear ─────────────────────────────────────────────
@@ -225,6 +280,7 @@ export default function MaharashtraGuidePage() {
   return (
     <>
       <ArticleSchema />
+      <FAQSchema />
       <SiteHeader />
 
       <main>
@@ -1078,6 +1134,32 @@ export default function MaharashtraGuidePage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── FAQ ───────────────────────────────────────────────── */}
+                <section id="faq">
+                  <h2>Frequently Asked Questions</h2>
+                  <div className="space-y-5 my-6">
+                    {faqs.map((f) => (
+                      <div
+                        key={f.q}
+                        className="bg-white border border-stone-200 rounded-xl p-5"
+                      >
+                        <h4
+                          className="font-bold text-stone-900 mb-2 text-base"
+                          style={{ fontFamily: "var(--font-playfair)" }}
+                        >
+                          {f.q}
+                        </h4>
+                        <p
+                          className="text-sm text-stone-600 leading-relaxed m-0"
+                          style={{ fontFamily: "var(--font-dm-sans)" }}
+                        >
+                          {f.a}
+                        </p>
+                      </div>
+                    ))}
                   </div>
                 </section>
               </div>

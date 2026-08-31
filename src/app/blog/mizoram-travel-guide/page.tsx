@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description:
     "The complete Mizoram travel guide — Aizawl's hillside markets, Reiek's viewpoint and tribal heritage village, Vantawng Falls, Mizo culture, where to stay and eat, and a full itinerary through one of India's cleanest and most orderly Northeastern states.",
   keywords:
-    "Mizoram travel guide, Aizawl travel guide, Reiek Tlang, Vantawng Falls, Mizo culture, Champhai Mizoram, Mizoram itinerary, Northeast India travel, Chapchar Kut festival",
+    "Mizoram travel guide, Aizawl travel guide, Reiek Tlang, Vantawng Falls, Mizo culture, Champhai Mizoram, Mizoram itinerary, Northeast India travel, Chapchar Kut festival, best time to visit Mizoram, how to reach Aizawl, Mizoram itinerary days, is Mizoram safe for solo travellers, Mizoram budget trip, Reiek heritage village, Vantawng Falls Thenzawl",
   openGraph: {
     title: "Mizoram Travel Guide: Aizawl, Reiek & Vantawng Falls",
     description:
@@ -114,6 +114,60 @@ function ArticleSchema() {
   );
 }
 
+// ── FAQ data (shared by visible section + JSON-LD) ────────────────────────────
+const faqs = [
+  {
+    q: "How many days do I need for Mizoram?",
+    a: "Five days is a reasonable minimum to cover Aizawl, Reiek, and Vantawng Falls without excessive rushing, as laid out in our suggested itinerary. With less time, prioritize Aizawl's city sights and the Reiek day trip, since Vantawng Falls is a longer excursion best paired with an overnight stay in Thenzawl.",
+  },
+  {
+    q: "What is the best time to visit Mizoram?",
+    a: "October to April is the best window — cool, dry, and clear (11–24°C), the most comfortable conditions for Aizawl, Reiek, and the drive out to Champhai. March is a strong alternative if you want to catch Chapchar Kut, Mizoram's biggest spring festival, marked by traditional Cheraw (bamboo) dance and community celebrations.",
+  },
+  {
+    q: "How do I reach Mizoram?",
+    a: "Lengpui Airport (AJL), about 35 km from Aizawl, has regular flights from Kolkata, Guwahati, and Imphal, and is by far the fastest way in. Mizoram has no railway station of its own — the nearest major link is Silchar in Assam, roughly 180 km from Aizawl — and road journeys from Guwahati or Silchar take the better part of a day given the terrain.",
+  },
+  {
+    q: "Is Mizoram safe for solo travellers?",
+    a: "Mizoram sees far fewer tourists than Meghalaya or Nagaland, which means near-empty viewpoints and genuine hospitality, though tourist infrastructure is thinner so plan with some flexibility. Given Mizoram's proximity to Myanmar and Bangladesh, confirm current travel advisories before visiting areas near Champhai and the border.",
+  },
+  {
+    q: "What is the budget for a trip to Mizoram?",
+    a: "A budget traveller can expect a daily total of around ₹2,100, a mid-range trip around ₹5,550/day, and a luxury trip around ₹12,800/day, based on accommodation, food, local transport, and activities. A five-day trip works out to roughly ₹10,500 (budget), ₹27,750 (mid-range), or ₹64,000 (luxury) in total, with local transport costs running higher than average given the long distances to Champhai and Vantawng Falls.",
+  },
+  {
+    q: "What is Vantawng Falls?",
+    a: "Vantawng Falls is Mizoram's highest waterfall, dropping roughly 750 feet through a forested gorge near Thenzawl, about 137 km from Aizawl. A well-built viewing platform offers a clear view of the multi-tiered falls without requiring a difficult trek, and water volume peaks during and just after monsoon (July–October).",
+  },
+  {
+    q: "Is alcohol available in Mizoram?",
+    a: "Mizoram has strong prohibition laws restricting alcohol sale and consumption under state law, so check current regulations before assuming availability. Rice beer (zu) holds cultural significance in Mizo tradition, but its accessibility to visitors depends on current state rules.",
+  },
+];
+
+function FAQSchema() {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.a,
+            },
+          })),
+        }),
+      }}
+    />
+  );
+}
+
 // ── TOC ───────────────────────────────────────────────────────────────────────
 const tableOfContents = [
   { id: "introduction", title: "Why Mizoram?", level: 2 },
@@ -128,6 +182,7 @@ const tableOfContents = [
   { id: "itinerary", title: "5-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
 // ── Mizoram-specific gear ─────────────────────────────────────────────────
@@ -225,6 +280,7 @@ export default function MizoramGuidePage() {
   return (
     <>
       <ArticleSchema />
+      <FAQSchema />
       <SiteHeader />
 
       <main>
@@ -1056,6 +1112,32 @@ export default function MizoramGuidePage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── FAQ ───────────────────────────────────────────────── */}
+                <section id="faq">
+                  <h2>Frequently Asked Questions</h2>
+                  <div className="space-y-5 my-6">
+                    {faqs.map((f) => (
+                      <div
+                        key={f.q}
+                        className="bg-white border border-stone-200 rounded-xl p-5"
+                      >
+                        <h4
+                          className="font-bold text-stone-900 mb-2 text-base"
+                          style={{ fontFamily: "var(--font-playfair)" }}
+                        >
+                          {f.q}
+                        </h4>
+                        <p
+                          className="text-sm text-stone-600 leading-relaxed m-0"
+                          style={{ fontFamily: "var(--font-dm-sans)" }}
+                        >
+                          {f.a}
+                        </p>
+                      </div>
+                    ))}
                   </div>
                 </section>
               </div>

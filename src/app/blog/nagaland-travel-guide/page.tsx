@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description:
     "The complete Nagaland travel guide — the Hornbill Festival, Kohima's war cemetery, Dzukou Valley trekking, Khonoma green village, tribal culture, where to stay and eat, and a full itinerary through India's most culturally distinct Northeastern state.",
   keywords:
-    "Nagaland travel guide, Hornbill Festival, Kohima War Cemetery, Dzukou Valley trek, Khonoma green village, Nagaland itinerary, Naga tribes, Northeast India travel, Kisama Heritage Village",
+    "Nagaland travel guide, Hornbill Festival, Kohima War Cemetery, Dzukou Valley trek, Khonoma green village, Nagaland itinerary, Naga tribes, Northeast India travel, Kisama Heritage Village, best time to visit Nagaland, how to reach Nagaland from Dimapur, Nagaland itinerary days, is Nagaland safe for solo travellers, Nagaland budget trip, top things to do in Nagaland, Longwa village Konyak tribe, Nagaland Inner Line Permit",
   openGraph: {
     title: "Nagaland Travel Guide: Hornbill Festival, Kohima & Dzukou Valley",
     description:
@@ -128,7 +128,62 @@ const tableOfContents = [
   { id: "itinerary", title: "5-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
+
+// ── FAQ data (shared by visible section + JSON-LD) ────────────────────────────
+const faqs = [
+  {
+    q: "How many days do I need for Nagaland?",
+    a: "Five days is a reasonable minimum to cover Kohima, the Dzukou Valley trek, and at least one nearby tribal village like Khonoma without excessive rushing. If you're travelling for the Hornbill Festival, consider adding a 6th day since the festival alone comfortably fills a full day at Kisama.",
+  },
+  {
+    q: "What is the best time to visit Nagaland?",
+    a: "October to March is the best window overall, with cool, dry, clear weather (8–22°C) ideal for Dzukou Valley trekking and Kohima sightseeing. Early December is our top pick specifically, timed to the Hornbill Festival at Kisama, which brings all of Nagaland's tribes together in one place.",
+  },
+  {
+    q: "How do I reach Nagaland from Dimapur?",
+    a: "Dimapur Airport (DMU) is Nagaland's only airport, with regular flights from Kolkata, Guwahati, and Delhi. From Dimapur, it's roughly a 2.5–3 hour drive to Kohima along the Dimapur–Kohima highway, which is the main entry route for most travellers. Dimapur railway station also connects to Guwahati and the wider Indian rail network.",
+  },
+  {
+    q: "Do I need a permit to visit Nagaland?",
+    a: "Yes. Indian citizens need an Inner Line Permit (ILP) to enter Nagaland, which can be obtained online or on arrival at Dimapur. Foreign nationals need a Protected Area Permit (PAP) instead. It's worth checking the latest requirements before travel, since rules can change.",
+  },
+  {
+    q: "Is the Dzukou Valley trek difficult?",
+    a: "It's a genuine but manageable trek — a steep 3–4 hour climb from the base at Viswema village up to the valley's rim, which then opens into flat meadow beyond. The trail is largely unshaded near the top, so starting early morning helps you avoid midday heat and the afternoon mist that can reduce visibility.",
+  },
+  {
+    q: "What is the budget for a trip to Nagaland?",
+    a: "Expect a daily budget of roughly ₹2,350 on a tight budget, ₹6,100 mid-range, or ₹14,000 for a luxury trip, covering accommodation, food, local transport, and activities. A 5-day trip works out to approximately ₹11,750–₹70,000 depending on your travel style, excluding flights to Dimapur. Note that accommodation costs rise 30–50% around the Hornbill Festival.",
+  },
+  {
+    q: "When is the Hornbill Festival and is it worth visiting?",
+    a: "The Hornbill Festival runs every year from December 1st to 10th at Kisama Heritage Village, roughly 12 km from Kohima. It's genuinely Nagaland's marquee event, where all 16 tribes build traditional morungs and showcase their dress, war dances, music, and cuisine — a level of cultural access you won't get at any other time of year. Book Kohima accommodation 2–3 months ahead if you're planning to attend.",
+  },
+];
+
+function FAQSchema() {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.a,
+            },
+          })),
+        }),
+      }}
+    />
+  );
+}
 
 // ── Nagaland-specific gear ─────────────────────────────────────────────────
 const NAGALAND_GEAR: GearSection[] = [
@@ -225,6 +280,7 @@ export default function NagalandGuidePage() {
   return (
     <>
       <ArticleSchema />
+      <FAQSchema />
       <SiteHeader />
 
       <main>
@@ -1087,6 +1143,32 @@ export default function NagalandGuidePage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── FAQ ───────────────────────────────────────────────── */}
+                <section id="faq">
+                  <h2>Frequently Asked Questions</h2>
+                  <div className="space-y-5 my-6">
+                    {faqs.map((f) => (
+                      <div
+                        key={f.q}
+                        className="bg-white border border-stone-200 rounded-xl p-5"
+                      >
+                        <h4
+                          className="font-bold text-stone-900 mb-2 text-base"
+                          style={{ fontFamily: "var(--font-playfair)" }}
+                        >
+                          {f.q}
+                        </h4>
+                        <p
+                          className="text-sm text-stone-600 leading-relaxed m-0"
+                          style={{ fontFamily: "var(--font-dm-sans)" }}
+                        >
+                          {f.a}
+                        </p>
+                      </div>
+                    ))}
                   </div>
                 </section>
               </div>

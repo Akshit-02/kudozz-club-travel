@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description:
     "The complete Udaipur travel guide. City Palace, a Lake Pichola boat ride, Jag Mandir, Saheliyon ki Bari, Bagore ki Haveli, the Monsoon Palace, where to stay, what to eat, and a full 3-day itinerary through Rajasthan's City of Lakes.",
   keywords:
-    "Udaipur travel guide, City Palace Udaipur, Lake Pichola boat ride, Jag Mandir, Fateh Sagar Lake, Bagore ki Haveli, Monsoon Palace Udaipur, Saheliyon ki Bari, Udaipur itinerary, Rajasthan lake city",
+    "Udaipur travel guide, City Palace Udaipur, Lake Pichola boat ride, Jag Mandir, Fateh Sagar Lake, Bagore ki Haveli, Monsoon Palace Udaipur, Saheliyon ki Bari, Udaipur itinerary, Rajasthan lake city, best time to visit Udaipur, how to reach Udaipur, Udaipur 3 day itinerary, is Udaipur worth visiting, Udaipur budget trip, top things to do in Udaipur, Taj Lake Palace Udaipur",
   openGraph: {
     title:
       "Udaipur Travel Guide: City Palace, Lake Pichola & Complete Itinerary",
@@ -117,6 +117,60 @@ function ArticleSchema() {
   );
 }
 
+// ── FAQ data (shared by visible section + JSON-LD) ────────────────────────────
+const faqs = [
+  {
+    q: "How many days do I need in Udaipur?",
+    a: "Udaipur is compact enough to cover its essentials in three unhurried days — City Palace and a sunset boat ride, the gardens and Bagore ki Haveli's Dharohar dance show, and the Monsoon Palace plus old-city markets, with plenty of slack for wandering.",
+  },
+  {
+    q: "What is the best time to visit Udaipur?",
+    a: "October to February is the pick — lakes are fullest right after monsoon, evenings are cool enough for a jacket and a rooftop dinner, and the golden-hour light before sunset makes the palace-and-water views especially striking. Avoid April–June, when temperatures climb into the high 30s°C and midday walking through the old city gets genuinely tiring.",
+  },
+  {
+    q: "How do I reach Udaipur?",
+    a: "Udaipur has direct flights from Delhi, Mumbai, Bangalore, Ahmedabad, and Jaipur into Maharana Pratap Airport, about 22 km from the city centre. It's also connected by train (Udaipur City Railway Station, with overnight options from Delhi and Mumbai) and by road to Jaipur, Jodhpur, and Ahmedabad.",
+  },
+  {
+    q: "Is Udaipur worth visiting?",
+    a: "Yes — it's a compact, walkable city where marble palaces appear to float on artificial lakes ringed by hills, home to the largest palace complex in Rajasthan (City Palace), the iconic Lake Pichola boat ride past Jag Mandir, and an old city of havelis and rooftop cafés that make it one of the most photogenic cities in India.",
+  },
+  {
+    q: "What is the budget for a trip to Udaipur?",
+    a: "A 3-day trip runs roughly ₹7,050 at the budget level up to ₹93,000 at the luxury level (excluding flights or train fare), with luxury figures spiking mainly on accommodation — a night at the Taj Lake Palace alone can exceed the entire budget-tier trip total.",
+  },
+  {
+    q: "What are the top things to do in Udaipur?",
+    a: "City Palace (especially the Mor Chowk peacock courtyard and Crystal Gallery), a sunset boat ride on Lake Pichola past Jag Mandir, Saheliyon ki Bari's marble fountains, the Dharohar cultural dance show at Bagore ki Haveli, and the panoramic sunset views from the Monsoon Palace (Sajjangarh) are the essentials.",
+  },
+  {
+    q: "Can I visit the Taj Lake Palace without staying there?",
+    a: "Not for a casual visit — Jag Niwas (the Taj Lake Palace hotel) isn't open to non-guests, though its illuminated silhouette on the lake at night is one of Udaipur's defining views regardless. Jag Mandir, the neighbouring island palace, is open to visitors as a restaurant and event venue.",
+  },
+];
+
+function FAQSchema() {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.a,
+            },
+          })),
+        }),
+      }}
+    />
+  );
+}
+
 // ── TOC ───────────────────────────────────────────────────────────────────────
 const tableOfContents = [
   { id: "introduction", title: "Why Udaipur?", level: 2 },
@@ -136,6 +190,7 @@ const tableOfContents = [
   { id: "itinerary", title: "3-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
 // ── Udaipur-specific gear ──────────────────────────────────────────────────────
@@ -232,6 +287,7 @@ export default function UdaipurCityOfLakesPage() {
   return (
     <>
       <ArticleSchema />
+      <FAQSchema />
       <SiteHeader />
 
       <main>
@@ -1251,6 +1307,32 @@ export default function UdaipurCityOfLakesPage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── FAQ ───────────────────────────────────────────────── */}
+                <section id="faq">
+                  <h2>Frequently Asked Questions</h2>
+                  <div className="space-y-5 my-6">
+                    {faqs.map((f) => (
+                      <div
+                        key={f.q}
+                        className="bg-white border border-stone-200 rounded-xl p-5"
+                      >
+                        <h4
+                          className="font-bold text-stone-900 mb-2 text-base"
+                          style={{ fontFamily: "var(--font-playfair)" }}
+                        >
+                          {f.q}
+                        </h4>
+                        <p
+                          className="text-sm text-stone-600 leading-relaxed m-0"
+                          style={{ fontFamily: "var(--font-dm-sans)" }}
+                        >
+                          {f.a}
+                        </p>
+                      </div>
+                    ))}
                   </div>
                 </section>
               </div>

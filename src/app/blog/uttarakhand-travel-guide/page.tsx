@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description:
     "The complete Uttarakhand travel guide — the Char Dham Yatra, Rishikesh and Haridwar on the Ganga, Nainital's lakes, Mussoorie's hill views, Jim Corbett's tigers, where to stay and eat, and a full itinerary through Dev Bhoomi, the Land of the Gods.",
   keywords:
-    "Uttarakhand travel guide, Char Dham Yatra, Rishikesh travel guide, Nainital travel guide, Mussoorie travel guide, Jim Corbett National Park, Kedarnath, Badrinath, Auli, Valley of Flowers, Uttarakhand itinerary",
+    "Uttarakhand travel guide, Char Dham Yatra, Rishikesh travel guide, Nainital travel guide, Mussoorie travel guide, Jim Corbett National Park, Kedarnath, Badrinath, Auli, Valley of Flowers, Uttarakhand itinerary, best time to visit Uttarakhand, how to reach Rishikesh from Delhi, Uttarakhand 7 day itinerary, Uttarakhand budget trip, is Char Dham Yatra difficult, top things to do in Rishikesh, Char Dham registration",
   openGraph: {
     title: "Uttarakhand Travel Guide: Char Dham, Nainital & Rishikesh",
     description:
@@ -115,6 +115,60 @@ function ArticleSchema() {
   );
 }
 
+// ── FAQ data (shared by visible section + JSON-LD) ────────────────────────────
+const faqs = [
+  {
+    q: "How many days do I need for an Uttarakhand trip?",
+    a: "Seven days is a focused itinerary combining Rishikesh, Haridwar, Nainital, Jim Corbett, and Mussoorie — a separate, longer trip of 8–9+ days is better suited to the Char Dham circuit alone, since altitude, mountain roads, and unpredictable weather all add real time buffers.",
+  },
+  {
+    q: "What is the best time to visit Uttarakhand?",
+    a: "September to mid-October is the pick for the Char Dham circuit and clear mountain views, or March to June for a Rishikesh, Nainital, and Mussoorie-focused trip without Yatra crowds. Avoid July–August, when heavy monsoon rain brings real landslide danger on mountain roads.",
+  },
+  {
+    q: "How do I reach Rishikesh from Delhi?",
+    a: "Delhi to Rishikesh/Haridwar is roughly 5–6 hours by road. Haridwar and Dehradun are the main railheads, well connected to Delhi (4–6 hours by train). Jolly Grant Airport (DED) in Dehradun is the main air gateway, with connections to Delhi and other major cities.",
+  },
+  {
+    q: "Is the Char Dham Yatra difficult?",
+    a: "It varies by shrine — Badrinath is accessible by road right up to the temple, Gangotri involves a short walk from the road head, Yamunotri needs a steep 5–6 km trek, and Kedarnath is the most demanding at roughly 16 km (or a helicopter option) above 3,500m altitude. Biometric registration is mandatory, and building in acclimatisation days rather than rushing the full circuit in under 8–9 days matters for avoiding altitude sickness.",
+  },
+  {
+    q: "What is the budget for a trip to Uttarakhand?",
+    a: "A 7-day trip runs roughly ₹16,800 at the budget level up to ₹1,38,600 at the luxury level, excluding travel to Uttarakhand. A dedicated Char Dham Yatra with a helicopter option for Kedarnath typically adds ₹15,000–₹60,000+ per person on top of a standard trip.",
+  },
+  {
+    q: "What are the top things to do in Rishikesh?",
+    a: "White-water rafting on the Ganga, walking across the iconic Laxman Jhula and Ram Jhula suspension bridges, visiting the Beatles Ashram, joining a yoga or meditation session at one of the town's ashrams, and taking in the evening Ganga Aarti a short distance away at Har Ki Pauri in Haridwar.",
+  },
+  {
+    q: "Do I need to register for the Char Dham Yatra?",
+    a: "Yes — biometric registration on the official Uttarakhand portal is mandatory and checked at multiple checkpoints along the route. Register well before travel, since it's required regardless of which of the four shrines you're visiting.",
+  },
+];
+
+function FAQSchema() {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.a,
+            },
+          })),
+        }),
+      }}
+    />
+  );
+}
+
 // ── TOC ───────────────────────────────────────────────────────────────────────
 const tableOfContents = [
   { id: "introduction", title: "Why Uttarakhand?", level: 2 },
@@ -129,6 +183,7 @@ const tableOfContents = [
   { id: "itinerary", title: "7-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
 // ── Uttarakhand-specific gear ─────────────────────────────────────────────────
@@ -226,6 +281,7 @@ export default function UttarakhandGuidePage() {
   return (
     <>
       <ArticleSchema />
+      <FAQSchema />
       <SiteHeader />
 
       <main>
@@ -1086,6 +1142,32 @@ export default function UttarakhandGuidePage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── FAQ ───────────────────────────────────────────────── */}
+                <section id="faq">
+                  <h2>Frequently Asked Questions</h2>
+                  <div className="space-y-5 my-6">
+                    {faqs.map((f) => (
+                      <div
+                        key={f.q}
+                        className="bg-white border border-stone-200 rounded-xl p-5"
+                      >
+                        <h4
+                          className="font-bold text-stone-900 mb-2 text-base"
+                          style={{ fontFamily: "var(--font-playfair)" }}
+                        >
+                          {f.q}
+                        </h4>
+                        <p
+                          className="text-sm text-stone-600 leading-relaxed m-0"
+                          style={{ fontFamily: "var(--font-dm-sans)" }}
+                        >
+                          {f.a}
+                        </p>
+                      </div>
+                    ))}
                   </div>
                 </section>
               </div>

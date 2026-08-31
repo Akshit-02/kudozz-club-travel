@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description:
     "The complete Gokarna travel guide. Om Beach, Kudle, Half Moon & Paradise Beach, the Mahabaleshwar Temple, the beach-hopping trek, where to stay, what to eat, and a full 3-day itinerary through Karnataka's quieter answer to Goa.",
   keywords:
-    "Gokarna travel guide, Om Beach, Kudle Beach, Half Moon Beach, Paradise Beach, Gokarna temple, Gokarna trek, Gokarna itinerary, Gokarna vs Goa, Karnataka beaches",
+    "Gokarna travel guide, Om Beach, Kudle Beach, Half Moon Beach, Paradise Beach, Gokarna temple, Gokarna trek, Gokarna itinerary, Gokarna vs Goa, Karnataka beaches, best time to visit Gokarna, how to reach Gokarna from Goa, Gokarna itinerary days, is Gokarna safe for solo travellers, Gokarna budget trip, top things to do in Gokarna, Gokarna beach hopping trek, Mahabaleshwar Temple Gokarna, Gokarna Road railway station, Gokarna 3 day itinerary",
   openGraph: {
     title: "Gokarna Travel Guide: Best Beaches, Temples & Complete Itinerary",
     description:
@@ -114,6 +114,60 @@ function ArticleSchema() {
   );
 }
 
+// ── FAQ data (shared by visible section + JSON-LD) ────────────────────────────
+const faqs = [
+  {
+    q: "How many days do I need in Gokarna?",
+    a: "Three days is enough to cover the temple town, do the full beach-hopping trek, and still have downtime on the sand — Gokarna doesn't need the 5+ days a Goa trip usually does.",
+  },
+  {
+    q: "Is Gokarna safe for solo travellers?",
+    a: "Gokarna is a well-established stop on the backpacker circuit and generally comfortable for solo travellers, including solo women, especially around Om Beach and Kudle Beach where there's a steady flow of other travellers. As anywhere, check sea conditions before swimming and avoid isolated stretches after dark.",
+  },
+  {
+    q: "What is the best time to visit Gokarna?",
+    a: "October to February is the best window — dry, sunny weather between 22–32°C, calm seas, and every beach shack open. Late October to December, just before the Christmas–New Year backpacker crowds peak, is our pick for the best balance of good conditions and fewer people.",
+  },
+  {
+    q: "How do I reach Gokarna from Goa?",
+    a: "Gokarna is about 145 km from Goa's airports (Dabolim/GOI or Manohar International/GOX), roughly 3.5 hours by road. Regular buses and shared taxis also run from Panjim/Margao (about 4 hours), and Gokarna Road station on the Konkan Railway line connects directly to Goa by train.",
+  },
+  {
+    q: "What is the budget for a trip to Gokarna?",
+    a: "A budget traveller can get by on roughly ₹1,450 a day (huts, thalis, local transport), a mid-range trip runs closer to ₹4,700 a day, and a luxury stay like SwaSwara can run ₹17,500+ a day. A 3-day trip totals roughly ₹4,350 on a budget and ₹14,100 mid-range, excluding flights or trains to the region.",
+  },
+  {
+    q: "Is Gokarna worth visiting over Goa?",
+    a: "It depends on what you want. Gokarna suits backpackers, couples, and solo travellers looking for genuinely secluded beaches, a working temple town, and calm over convenience. Goa has more built-up infrastructure, nightlife, and easy access — better for groups and first-timers who want variety.",
+  },
+  {
+    q: "How long is the Gokarna beach-hopping trek?",
+    a: "The full route from Gokarna Town through Kudle, Om Beach, Half Moon, and Paradise Beach runs roughly 7–8 km one-way, taking about 3–4 hours at a relaxed pace with swim stops. Shared autos can shortcut the first leg to Kudle or Om Beach if you only want to trek the quieter Om–Half Moon–Paradise stretch.",
+  },
+];
+
+function FAQSchema() {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.a,
+            },
+          })),
+        }),
+      }}
+    />
+  );
+}
+
 // ── TOC ───────────────────────────────────────────────────────────────────────
 const tableOfContents = [
   { id: "introduction", title: "Why Gokarna?", level: 2 },
@@ -128,6 +182,7 @@ const tableOfContents = [
   { id: "itinerary", title: "3-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
 // ── Gokarna-specific gear ───────────────────────────────────────────────────────
@@ -224,6 +279,7 @@ export default function GokarnaBeachesGuidePage() {
   return (
     <>
       <ArticleSchema />
+      <FAQSchema />
       <SiteHeader />
 
       <main>
@@ -1093,6 +1149,32 @@ export default function GokarnaBeachesGuidePage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── FAQ ───────────────────────────────────────────────── */}
+                <section id="faq">
+                  <h2>Frequently Asked Questions</h2>
+                  <div className="space-y-5 my-6">
+                    {faqs.map((f) => (
+                      <div
+                        key={f.q}
+                        className="bg-white border border-stone-200 rounded-xl p-5"
+                      >
+                        <h4
+                          className="font-bold text-stone-900 mb-2 text-base"
+                          style={{ fontFamily: "var(--font-playfair)" }}
+                        >
+                          {f.q}
+                        </h4>
+                        <p
+                          className="text-sm text-stone-600 leading-relaxed m-0"
+                          style={{ fontFamily: "var(--font-dm-sans)" }}
+                        >
+                          {f.a}
+                        </p>
+                      </div>
+                    ))}
                   </div>
                 </section>
               </div>
