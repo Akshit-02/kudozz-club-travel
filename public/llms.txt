@@ -2,7 +2,7 @@
 
 > Kudozz Club is an independent India travel publication. We publish hand-crafted, first-hand destination guides — real multi-day itineraries, honest budget breakdowns, and insider tips — written by travellers who have actually been there. We do not accept paid placements in editorial content.
 
-Use this file to understand what Kudozz Club covers and where to find authoritative, citable content on each destination. Every guide below includes a full itinerary, best-time-to-visit advice, how-to-reach directions, budget tables, and practical tips. This index currently covers 158 published guides.
+Use this file to understand what Kudozz Club covers and where to find authoritative, citable content on each destination. Every guide below includes a full itinerary, best-time-to-visit advice, how-to-reach directions, budget tables, and practical tips. This index currently covers 178 published guides.
 
 ## Ladakh
 
@@ -134,6 +134,30 @@ Use this file to understand what Kudozz Club covers and where to find authoritat
 - [Little Andaman Travel Guide: Butler Bay, Surfing & Tips](https://club.kudozz.in/blog/little-andaman-travel-guide): India's most consistent surf break, two forest waterfalls, and a six-to-eight-hour ferry crossing — Little Andaman is the Andamans' furthest-flung island stop.
 - [Long Island Andaman: Lalaji Bay Beach Travel Guide](https://club.kudozz.in/blog/long-island-andaman-travel-guide): A pristine, little-visited beach reached through mangrove forest, minimal infrastructure, and none of the Havelock crowds — Long Island is Middle Andaman's quiet secret.
 
+## West Bengal
+
+- [West Bengal Travel Guide: Kolkata, Darjeeling & Sundarbans](https://club.kudozz.in/blog/west-bengal-travel-guide): the West Bengal hub guide — start here for the full state circuit, then use the place-specific guides below for depth.
+- [Kolkata Travel Guide: Heritage, Food & Culture](https://club.kudozz.in/blog/kolkata-travel-guide): Victoria Memorial, Howrah Bridge, Durga Puja, College Street, Park Street food, where to stay, day trips, and a full visit plan for the City of Joy.
+- [Darjeeling Travel Guide: Tea Gardens, Toy Train & Tiger Hill](https://club.kudozz.in/blog/darjeeling-travel-guide): Tiger Hill sunrise, the UNESCO Toy Train, tea garden tours, Batasia Loop, Peace Pagoda, monasteries, where to stay, and a full visit plan for the Queen of the Hills.
+- [Kalimpong Travel Guide: Monasteries, Flowers & Views](https://club.kudozz.in/blog/kalimpong-travel-guide): Durpin Monastery, Deolo Hill, the town's famous flower nurseries, Dr Graham's Homes, how to reach it from Bagdogra and Darjeeling, and a full visit plan.
+- [Sandakphu Trek Guide: Route, Permits & Best Time](https://club.kudozz.in/blog/sandakphu-travel-guide): the Maney Bhanjang route, permits for Singalila National Park, trek duration, tea-house stays, and views of four of the world's five highest peaks.
+- [Dooars Travel Guide: Wildlife, Tea Gardens & Rivers](https://club.kudozz.in/blog/dooars-travel-guide): the foothill forests of Gorumara, Jaldapara, Chapramari and Buxa, tea gardens, jeep safaris for rhinos and elephants, base towns, and a full visit plan.
+- [Sundarbans Travel Guide: Tiger Safari, Permits & Tips](https://club.kudozz.in/blog/sundarbans-travel-guide): Royal Bengal Tiger safaris, mangrove boat routes, permits, how to reach from Kolkata, where to stay on boat-and-lodge packages, and a full visit plan.
+- [Digha Travel Guide: Beaches, Marine Aquarium & Tips](https://club.kudozz.in/blog/digha-travel-guide): New Digha and Old Digha, the beach promenade, Marine Aquarium & Research Centre, how to reach from Kolkata by train or road, and where to stay.
+- [Mandarmani Travel Guide: Beach Drive & Resorts](https://club.kudozz.in/blog/mandarmani-travel-guide): one of India's longest motorable beaches, resort-lined coastline, nearby Tajpur, how to reach from Kolkata, and where to stay.
+- [Santiniketan Travel Guide: Tagore's University Town](https://club.kudozz.in/blog/santiniketan-travel-guide): Vishwa-Bharati University (UNESCO World Heritage), Uttarayan, Kala Bhavana, Sonajhuri haat, Poush Mela, how to reach from Kolkata, and a full visit plan.
+- [Bishnupur Travel Guide: Terracotta Temples & Baluchari](https://club.kudozz.in/blog/bishnupur-travel-guide): the Malla dynasty's terracotta temples, Rasmancha, Baluchari sarees, the Bishnupur Gharana, how to reach from Kolkata, and a full visit plan.
+- [Murshidabad Travel Guide: Hazarduari & Nawabi History](https://club.kudozz.in/blog/murshidabad-travel-guide): Hazarduari Palace, Katra Mosque, the Battle of Plassey, Bengal's Nawabi history, silk weaving, how to reach from Kolkata, and a full visit plan.
+- [Mayapur Travel Guide: ISKCON Temple & Visit Tips](https://club.kudozz.in/blog/mayapur-travel-guide): ISKCON's global headquarters, the TOVP, Chandrodaya Mandir, Gaura Purnima, how to reach from Kolkata, where to stay, and a full visit plan.
+- [Tarapith Travel Guide: Shakti Peeth Temple & Tips](https://club.kudozz.in/blog/tarapith-travel-guide): the Maa Tara Shakti Peeth temple, the Mahashmashan cremation ground, Bengal's Tantric tradition, how to reach from Kolkata, and where to stay.
+- [Cooch Behar Travel Guide: Palace & Royal Heritage](https://club.kudozz.in/blog/cooch-behar-travel-guide): the Buckingham Palace-inspired royal palace, Madan Mohan Temple, Sagardighi, Rasmela, how to reach from Siliguri, and a full visit plan.
+- [Ajodhya Hills Travel Guide: Trekking & Tribal Culture](https://club.kudozz.in/blog/ajodhya-hills-travel-guide): Bamni Falls, Turga Falls, Murguma Dam, Marble Lake, trekking trails, Chhau dance heritage, how to reach from Purulia, and a full visit plan.
+- [Jhargram Travel Guide: Forests, Palace & Deer Park](https://club.kudozz.in/blog/jhargram-travel-guide): the Raj Palace, Deer Park, Kanak Durga Temple, Belpahari's forests, how to reach from Kolkata by train, where to stay, and a full visit plan.
+- [Mukutmanipur Travel Guide: Dam, Boating & Tips](https://club.kudozz.in/blog/mukutmanipur-travel-guide): one of India's largest earthen dams, reservoir boating, Bhairavi Temple, Pareshnath Hill, how to reach from Kolkata, and a full visit plan.
+- [Gorumara National Park: Safari, Timings & Tips](https://club.kudozz.in/blog/gorumara-travel-guide): rhino and elephant jeep safaris, watchtowers, safari timings, Murti riverside stays, Chapramari sanctuary, and how to plan your visit.
+- [Buxa Tiger Reserve Travel Guide: Trek & Safari](https://club.kudozz.in/blog/buxa-travel-guide): the trek to Buxa Fort, Jayanti river & village, permits, how to reach from Alipurduar, where to stay, and a full visit plan.
+- [Gangasagar Travel Guide: Mela, Temple & How to Reach](https://club.kudozz.in/blog/gangasagar-travel-guide): Sagar Island, Kapil Muni Temple, the massive Gangasagar Mela at Makar Sankranti, how to reach via Kakdwip, and where to stay.
+
 ## States, Regions & Other Destinations
 
 - [Agatti Island Travel Guide: Lagoon, Reefs & Diving Spots](https://club.kudozz.in/blog/agatti-island-travel-guide): Lakshadweep's gateway island — Agatti Beach and Lagoon, the Agatti Island Resort, coral reefs and diving spots, snorkelling sites, kayaking, glass-bottom boat rides, lagoon cruises, and sunset views.
@@ -179,7 +203,6 @@ Use this file to understand what Kudozz Club covers and where to find authoritat
 - [Uttar Pradesh Travel Guide: Taj Mahal, Varanasi & Lucknow](https://club.kudozz.in/blog/uttar-pradesh-travel-guide): The world's most famous monument to love, the ghats of Varanasi, and Lucknow's Nawabi elegance — the complete guide to India's most historically dense state.
 - [Uttarakhand Travel Guide: Char Dham, Nainital & Rishikesh](https://club.kudozz.in/blog/uttarakhand-travel-guide): Sacred temples above 3,000 metres, the Ganga's first rush out of the mountains, and lake towns wrapped in pine forest — the complete guide to Dev Bhoomi.
 - [Valley of Flowers Trek Guide: Permits, Routes, Best Time & Tips](https://club.kudozz.in/blog/valley-of-flowers-travel-guide): A meadow of 300+ Himalayan wildflowers that blooms for just 8 weeks a year — the complete guide to India's most extraordinary trek.
-- [West Bengal Travel Guide: Kolkata, Darjeeling & Sundarbans](https://club.kudozz.in/blog/west-bengal-travel-guide): Colonial-era Kolkata, tea gardens climbing into the clouds at Darjeeling, and mangrove creeks where the Royal Bengal Tiger still roams — the complete guide.
 - [Yanam District Travel Guide: Godavari Delta & French Heritage](https://club.kudozz.in/blog/yanam-district-travel-guide): St. Ann's Church, Yanam Ferry Road, the Godavari River, Yanam Tower and Rajiv Gandhi Beach, plus the quiet Godavari delta villages of Mettakur, Kolanka, and Kanakalapeta.
 - [Ziro Valley Travel Guide: Apatani Villages, Rice Fields & Festival](https://club.kudozz.in/blog/ziro-valley-arunachal-travel-guide): A UNESCO tentative heritage site in Arunachal — home to the Apatani tribe, terraced rice fields and one of India's best music festivals.
 
