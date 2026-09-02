@@ -1,0 +1,22 @@
+SUBJECT: Are you planning to visit at the wrong time?
+ALT SUBJECT 1: Wrong season, wrong trip
+ALT SUBJECT 2: {{FIRST_NAME}}, check your dates before you book
+
+-----------------------------------------------------------
+BODY (plain text — paste as-is, no HTML)
+-----------------------------------------------------------
+
+Hi {{FIRST_NAME}},
+
+Most trips go wrong before they even start — wrong season, wrong crowd, wrong budget.
+
+Kudozz Club's guides lead with exactly that: an honest best-time-to-visit for 200+ India destinations, plus real budgets and day-by-day itineraries. No sponsored placements — just what we'd tell a friend.
+
+Check your dates: club.kudozz.in/blog
+
+— Arjun
+Kudozz Club
+
+-----------------------------------------------------------
+Got this by mistake, or don't want future notes like this? {{UNSUBSCRIBE_URL}}
+{{COMPANY_NAME}}, {{COMPANY_ADDRESS}}

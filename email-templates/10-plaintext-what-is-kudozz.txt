@@ -1,0 +1,25 @@
+SUBJECT: What is Kudozz Club? (30 seconds)
+ALT SUBJECT 1: Never heard of Kudozz Club? Here's the 30-second version
+ALT SUBJECT 2: {{FIRST_NAME}}, a travel site with no sponsored posts
+
+-----------------------------------------------------------
+BODY (plain text — paste as-is, no HTML)
+-----------------------------------------------------------
+
+Hi {{FIRST_NAME}},
+
+Quick intro. Kudozz Club is a free India travel guide site. What makes it different:
+
+- Real day-by-day itineraries, not templated fluff
+- Honest budgets — what things actually cost, broken down by budget/mid-range/luxury
+- Zero sponsored placements, ever
+- 200+ destinations covered, from Manali to the Sundarbans
+
+See for yourself: club.kudozz.in/blog
+
+— Arjun
+Kudozz Club
+
+-----------------------------------------------------------
+Got this by mistake, or don't want future notes like this? {{UNSUBSCRIBE_URL}}
+{{COMPANY_NAME}}, {{COMPANY_ADDRESS}}

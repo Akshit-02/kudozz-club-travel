@@ -30,6 +30,13 @@ yarn-error.log*
 .env
 .env.*
 
+# email campaign data (real recipient PII — never commit)
+/scripts/input.csv
+/scripts/sent_mails_09.csv
+/scripts/failed_mails_09.csv
+/scripts/*_sent.csv
+/scripts/*_failed.csv
+
 # vercel
 .vercel
 

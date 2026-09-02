@@ -1,0 +1,22 @@
+SUBJECT: Check this before your next trip
+ALT SUBJECT 1: One thing to check before you book
+ALT SUBJECT 2: {{FIRST_NAME}}, saving you a planning headache
+
+-----------------------------------------------------------
+BODY (plain text — paste as-is, no HTML)
+-----------------------------------------------------------
+
+Hi {{FIRST_NAME}},
+
+Before you lock in your next trip — a free resource worth two minutes.
+
+Kudozz Club is an independent India travel site: real day-by-day itineraries, honest budgets, and practical checklists for 200+ destinations. No sponsored placements — if something's recommended, it's because we'd tell a friend the same thing.
+
+Worth a look before you finalize plans: club.kudozz.in/blog
+
+— Arjun
+Kudozz Club
+
+-----------------------------------------------------------
+Got this by mistake, or don't want future notes like this? {{UNSUBSCRIBE_URL}}
+{{COMPANY_NAME}}, {{COMPANY_ADDRESS}}

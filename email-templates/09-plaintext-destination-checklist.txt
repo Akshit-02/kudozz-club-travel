@@ -1,0 +1,84 @@
+VARIANT-BASED TEMPLATE — read by scripts/send-campaign.js
+===========================================================
+For every send, the script randomly picks ONE numbered line from each of
+the four sections below (SUBJECT, FIRST LINE, SECOND LINE, BLOG LINE),
+fills in {{FIRST_NAME}} / {{DESTINATION}} / {{DESTINATION_URL}}, and
+assembles them into the fixed skeleton shown at the bottom of this file.
+That's 5 x 5 x 5 x 5 = 625 wordings per destination — combined with the
+10-way random destination pick in send-campaign.js, no two recipients are
+likely to receive an identical email. This is deliberate: identical bulk
+content is itself a spam-filter signal, on top of everything else in the
+deliverability notes below.
+
+Add, remove, or reword lines freely — just keep each one on a single line
+starting with its label ("SUBJECT 3:", "BLOG LINE 2:", etc.). The count
+doesn't have to stay at exactly 5 per section.
+
+-----------------------------------------------------------
+SUBJECT VARIANTS
+-----------------------------------------------------------
+SUBJECT 1: Your {{DESTINATION}} trip, mapped out (before you book)
+SUBJECT 2: {{FIRST_NAME}}, planning {{DESTINATION}}? Read this first
+SUBJECT 3: What most people get wrong about a {{DESTINATION}} trip
+SUBJECT 4: Before you book {{DESTINATION}}, read this
+SUBJECT 5: A {{DESTINATION}} trip guide worth bookmarking
+
+-----------------------------------------------------------
+FIRST LINE VARIANTS (the opening hook, right after "Hi {{FIRST_NAME}},")
+-----------------------------------------------------------
+FIRST LINE 1: Planning a {{DESTINATION}} trip? Before you book anything, here's a complete trip guide that covers it all — best time to go, how to get there, where to stay by budget, and a day-by-day plan you can actually follow.
+FIRST LINE 2: Thinking about {{DESTINATION}}? Here's a trip guide that covers the parts people usually figure out too late — timing, getting there, budgets by tier, and a full day-by-day plan.
+FIRST LINE 3: If {{DESTINATION}} is on your list this year, this is worth two minutes before you book anything.
+FIRST LINE 4: Before you lock in a {{DESTINATION}} trip, here's everything in one place — best time to go, getting there, where to stay, and a plan for each day.
+FIRST LINE 5: {{DESTINATION}} done right starts with timing and budget — here's a guide that covers both, plus a full itinerary.
+
+-----------------------------------------------------------
+SECOND LINE VARIANTS (the "who's behind this" line)
+-----------------------------------------------------------
+SECOND LINE 1: It's from Kudozz Club — an India travel publication written by people who've actually done these trips. Real itineraries, honest budgets, and zero sponsored placements, across 200+ destinations.
+SECOND LINE 2: This is from Kudozz Club, an India travel publication — real itineraries and honest budgets from people who've actually made these trips, with no sponsored placements mixed in.
+SECOND LINE 3: It's part of Kudozz Club, a travel publication built on one rule: if we recommend something, it's because we'd tell a friend the same thing. No paid placements, ever.
+SECOND LINE 4: Kudozz Club put this together — an India travel guide covering 200+ destinations, written from real trips rather than recycled listicles.
+SECOND LINE 5: It comes from Kudozz Club, a small independent publication covering India trip planning properly — real budgets, real timing, no sponsored content.
+
+-----------------------------------------------------------
+BLOG LINE VARIANTS (the closing link line)
+-----------------------------------------------------------
+BLOG LINE 1: {{DESTINATION}} guide: {{DESTINATION_URL}}
+BLOG LINE 2: Full {{DESTINATION}} guide here: {{DESTINATION_URL}}
+BLOG LINE 3: Read the {{DESTINATION}} guide: {{DESTINATION_URL}}
+BLOG LINE 4: Here's the {{DESTINATION}} guide: {{DESTINATION_URL}}
+BLOG LINE 5: The {{DESTINATION}} guide, in full: {{DESTINATION_URL}}
+
+-----------------------------------------------------------
+DELIVERABILITY NOTES (reference only — not parsed by the script)
+-----------------------------------------------------------
+- All 625 combinations avoid "free," "checklist," and other bulk-mail-flagged
+  words in favor of specific, concrete language.
+- Every BLOG LINE variant uses the full https:// URL, never a bare domain
+  or shortener.
+- No urgency language ("act now," "limited time," etc.) in any variant —
+  filters weigh that heavily regardless of which line gets picked.
+- Before sending at volume: confirm SPF, DKIM, and DMARC are configured on
+  the sending domain, warm up gradually (see README), and send from a real
+  person's address (e.g. arjun@kudozz.in), not newsletter@ or noreply@.
+- By request, the assembled email ends at the "Kudozz Club" sign-off — no
+  postal address or unsubscribe link. Worth knowing: CAN-SPAM (US) and
+  similar laws elsewhere require both in commercial email, so this is a
+  compliance trade-off, not just a style choice. The other plain-text
+  templates in this kit (08, 10, 11) still include that footer.
+
+-----------------------------------------------------------
+ASSEMBLED BODY SKELETON (for reference — send-campaign.js builds this
+automatically from the four sections above; you don't need to edit this part)
+-----------------------------------------------------------
+Hi {{FIRST_NAME}},
+
+{{FIRST_LINE}}
+
+{{SECOND_LINE}}
+
+{{BLOG_LINE}}
+
+— Arjun
+Kudozz Club
