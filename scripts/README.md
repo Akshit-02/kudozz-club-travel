@@ -17,7 +17,7 @@ Sends the plain-text "09" template (`email-templates/09-plaintext-destination-ch
    | `email` | recipient address, and the dedupe key against `sent_mails_09.csv` |
    | `name` | `{{FIRST_NAME}}` — the first word of `name` is used, so "Jane Doe" greets as "Hi Jane," |
 
-3. Edit the `DESTINATIONS` array in `send-campaign.js` if you want a different set of 10 (or more/fewer) places — each entry is `{ name, url }`, filling `{{DESTINATION}}` / `{{DESTINATION_URL}}`. Currently: Manali, Goa, Rishikesh, Kerala, Leh Ladakh, Spiti Valley, Darjeeling, Kolkata, Kedarnath, Jim Corbett — all verified against real, live guide URLs on the site.
+3. Edit the `DESTINATIONS` array in `send-campaign.js` if you want a different set of 10 (or more/fewer) places — each entry is `{ name, url }`, filling `{{DESTINATION}}` / `{{DESTINATION_URL}}`. Currently: Manali, Uttarakhand, Kerala, Goa, Udaipur, Meghalaya, Rishikesh, Ladakh, Srinagar, Darjeeling — all verified against real, live guide URLs on the site.
 4. Edit the `SUBJECT`/`FIRST LINE`/`SECOND LINE`/`BLOG LINE` sections in `email-templates/09-plaintext-destination-checklist.txt` if you want different wording variants — add, remove, or reword lines freely, the count doesn't have to stay at exactly 5 per section.
 
 ## Run it

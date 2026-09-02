@@ -60,15 +60,15 @@ const args = parseArgs(process.argv.slice(2));
 
 const DESTINATIONS = [
   { name: "Manali", url: "https://club.kudozz.in/blog/manali-travel-guide" },
-  { name: "Goa", url: "https://club.kudozz.in/blog/goa-beaches-travel-guide" },
-  { name: "Rishikesh", url: "https://club.kudozz.in/blog/rishikesh-adventure-travel-guide" },
+  { name: "Uttarakhand", url: "https://club.kudozz.in/blog/uttarakhand-travel-guide" },
   { name: "Kerala", url: "https://club.kudozz.in/blog/kerala-backwaters-travel-guide" },
-  { name: "Leh Ladakh", url: "https://club.kudozz.in/blog/leh-ladakh-road-trip-travel-guide" },
-  { name: "Spiti Valley", url: "https://club.kudozz.in/blog/spiti-valley-travel-guide" },
+  { name: "Goa", url: "https://club.kudozz.in/blog/goa-beaches-travel-guide" },
+  { name: "Udaipur", url: "https://club.kudozz.in/blog/udaipur-city-of-lakes-travel-guide" },
+  { name: "Meghalaya", url: "https://club.kudozz.in/blog/meghalaya-travel-guide" },
+  { name: "Rishikesh", url: "https://club.kudozz.in/blog/rishikesh-adventure-travel-guide" },
+  { name: "Ladakh", url: "https://club.kudozz.in/blog/leh-ladakh-road-trip-travel-guide" },
+  { name: "Srinagar", url: "https://club.kudozz.in/blog/srinagar-travel-guide" },
   { name: "Darjeeling", url: "https://club.kudozz.in/blog/darjeeling-travel-guide" },
-  { name: "Kolkata", url: "https://club.kudozz.in/blog/kolkata-travel-guide" },
-  { name: "Kedarnath", url: "https://club.kudozz.in/blog/kedarnath-travel-guide" },
-  { name: "Jim Corbett", url: "https://club.kudozz.in/blog/jim-corbett-travel-guide" },
 ];
 
 function pickRandomDestination() {

@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
+import { posts as blogPosts } from "@/lib/blog-posts";
 
 export const metadata: Metadata = {
   title: "Destinations — Explore India & Beyond",
@@ -1026,12 +1027,112 @@ const categoryColors: Record<string, string> = {
   Beaches: "bg-blue-100 text-blue-700",
   Heritage: "bg-rose-100 text-rose-700",
   Spiritual: "bg-orange-100 text-orange-700",
+  "Destination Guide": "bg-sky-100 text-sky-700",
 };
 
+// ── Auto-generated entries ───────────────────────────────────────────────────
+// Every hand-authored destination above already has its own rich tagline,
+// highlight, and best-time copy. Everything else published under
+// src/app/blog/ (driven by src/lib/blog-posts.ts, the same source the /blog
+// index uses) gets a lighter auto-generated card here instead of being
+// missing from this page entirely — title/description/image/category all
+// come straight from that post's real metadata; only "state" is inferred
+// from its tags below, and best-time is simply omitted when unknown.
+
+const STATE_NAMES = [
+  "Andhra Pradesh", "Arunachal Pradesh", "Assam", "Bihar", "Chhattisgarh",
+  "Goa", "Gujarat", "Haryana", "Himachal Pradesh", "Jharkhand", "Karnataka",
+  "Kerala", "Madhya Pradesh", "Maharashtra", "Manipur", "Meghalaya",
+  "Mizoram", "Nagaland", "Odisha", "Punjab", "Rajasthan", "Sikkim",
+  "Tamil Nadu", "Telangana", "Tripura", "Uttar Pradesh", "Uttarakhand",
+  "West Bengal", "Andaman & Nicobar Islands", "Chandigarh",
+  "Dadra & Nagar Haveli and Daman & Diu", "Delhi", "Jammu & Kashmir",
+  "Ladakh", "Lakshadweep", "Puducherry",
+];
+const STATE_NAMES_LOWER = new Map(STATE_NAMES.map((s) => [s.toLowerCase(), s]));
+
+// Fallback substring aliases for tags that name a place/UT rather than the
+// exact state name (e.g. a tag of "Andaman Islands" rather than "Andaman &
+// Nicobar Islands").
+const STATE_ALIASES: [string, string][] = [
+  ["andaman", "Andaman & Nicobar Islands"],
+  ["port blair", "Andaman & Nicobar Islands"],
+  ["sri vijaya puram", "Andaman & Nicobar Islands"],
+  ["daman and diu", "Dadra & Nagar Haveli and Daman & Diu"],
+  ["dadra and nagar haveli", "Dadra & Nagar Haveli and Daman & Diu"],
+  ["jammu", "Jammu & Kashmir"],
+  ["kashmir", "Jammu & Kashmir"],
+  ["puducherry", "Puducherry"],
+  ["ladakh", "Ladakh"],
+  ["chandigarh", "Chandigarh"],
+  ["delhi", "Delhi"],
+  ["lakshadweep", "Lakshadweep"],
+];
+
+function deriveState(tags: string[]): string {
+  for (const tag of tags) {
+    const exact = STATE_NAMES_LOWER.get(tag.toLowerCase());
+    if (exact) return exact;
+  }
+  for (const tag of tags) {
+    const tagLower = tag.toLowerCase();
+    const alias = STATE_ALIASES.find(([key]) => tagLower.includes(key));
+    if (alias) return alias[1];
+  }
+  return "";
+}
+
+// "Darjeeling Travel Guide: Tea Gardens, Toy Train & Tiger Hill" -> "Darjeeling"
+function shortTitle(fullTitle: string): string {
+  return fullTitle.split(":")[0].replace(/\s+Travel Guide$/i, "").trim();
+}
+
+const handAuthoredSlugs = new Set(allDestinations.map((d) => d.slug));
+
+const derivedDestinations = blogPosts
+  .filter((post) => !handAuthoredSlugs.has(post.slug))
+  .map((post) => ({
+    slug: post.slug,
+    title: shortTitle(post.title),
+    state: deriveState(post.tags),
+    description: post.excerpt,
+    image: post.image,
+    category: post.category,
+    categoryColor: post.categoryColor as string | undefined,
+    readTime: post.readTime,
+    bestTime: "",
+    featured: false,
+    comingSoon: false,
+  }));
+
+type GridDestination = {
+  slug: string;
+  title: string;
+  state: string;
+  description: string;
+  image: string;
+  category: string;
+  categoryColor?: string;
+  readTime: string;
+  bestTime?: string;
+  featured: boolean;
+  comingSoon: boolean;
+};
+
+const combinedDestinations: GridDestination[] = [
+  ...allDestinations,
+  ...derivedDestinations,
+];
+
 const stats = [
-  { value: "36", label: "States covered" },
-  { value: "52", label: "Destinations" },
-  { value: "52", label: "Guides published" },
+  {
+    value: String(
+      new Set(combinedDestinations.map((d) => d.state).filter(Boolean)).size,
+    ),
+    label: "States covered",
+  },
+  { value: String(combinedDestinations.length), label: "Destinations" },
+  { value: String(combinedDestinations.length), label: "Guides published" },
   { value: "7", label: "Regions" },
 ];
 
@@ -1040,7 +1141,7 @@ export default function DestinationsPage() {
   return (
     <>
       <DestinationsSchema
-        destinations={allDestinations.filter((d) => !d.comingSoon)}
+        destinations={combinedDestinations.filter((d) => !d.comingSoon)}
       />
       <SiteHeader />
       <main>
@@ -1300,12 +1401,12 @@ export default function DestinationsPage() {
                 className="text-stone-400 text-sm"
                 style={{ fontFamily: "var(--font-dm-sans)" }}
               >
-                {allDestinations.length} destinations
+                {combinedDestinations.length} destinations
               </span>
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-              {allDestinations.map((dest) => {
+              {combinedDestinations.map((dest) => {
                 const cardContent = (
                   <>
                     {/* Image */}
@@ -1321,7 +1422,7 @@ export default function DestinationsPage() {
                         <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
                       )}
                       <span
-                        className={`absolute top-3 left-3 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider rounded-full ${categoryColors[dest.category] ?? "bg-white/90 text-stone-700"}`}
+                        className={`absolute top-3 left-3 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider rounded-full ${dest.categoryColor ?? categoryColors[dest.category] ?? "bg-white/90 text-stone-700"}`}
                         style={{ fontFamily: "var(--font-dm-sans)" }}
                       >
                         {dest.category}
@@ -1355,12 +1456,14 @@ export default function DestinationsPage() {
                         >
                           {dest.title}
                         </h3>
-                        <p
-                          className="text-forest-600 text-xs font-medium"
-                          style={{ fontFamily: "var(--font-dm-sans)" }}
-                        >
-                          {dest.state}
-                        </p>
+                        {dest.state && (
+                          <p
+                            className="text-forest-600 text-xs font-medium"
+                            style={{ fontFamily: "var(--font-dm-sans)" }}
+                          >
+                            {dest.state}
+                          </p>
+                        )}
                       </div>
                     </div>
 
@@ -1377,22 +1480,24 @@ export default function DestinationsPage() {
                         style={{ fontFamily: "var(--font-dm-sans)" }}
                       >
                         <div className="flex items-center gap-3 text-xs text-stone-400">
-                          <span className="flex items-center gap-1">
-                            <svg
-                              className="w-3 h-3"
-                              fill="none"
-                              viewBox="0 0 24 24"
-                              stroke="currentColor"
-                              strokeWidth={2}
-                            >
-                              <path
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
-                              />
-                            </svg>
-                            {dest.bestTime}
-                          </span>
+                          {dest.bestTime && (
+                            <span className="flex items-center gap-1">
+                              <svg
+                                className="w-3 h-3"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke="currentColor"
+                                strokeWidth={2}
+                              >
+                                <path
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                  d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+                                />
+                              </svg>
+                              {dest.bestTime}
+                            </span>
+                          )}
                           <span className="flex items-center gap-1">
                             <svg
                               className="w-3 h-3"
@@ -1463,7 +1568,7 @@ export default function DestinationsPage() {
                 className="text-stone-400 text-sm mb-5"
                 style={{ fontFamily: "var(--font-dm-sans)" }}
               >
-                Showing {allDestinations.length} of 120+ destinations
+                Showing {combinedDestinations.length} of {combinedDestinations.length} destinations
               </p>
               <button
                 className="px-8 py-3.5 border-2 border-stone-200 text-stone-600 font-semibold rounded-full hover:border-forest-400 hover:text-forest-700 hover:bg-forest-50 transition-all text-sm"
