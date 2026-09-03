@@ -25,10 +25,10 @@ Sikkim - done
 Tamil Nadu - done
 Telangana - done
 Tripura - done
-Uttar Pradesh - done
 
 ## Cities Covered
 
+Uttar Pradesh - done
 Uttarakhand - done
 West Bengal - done
 Andaman and Nicobar Islands - done

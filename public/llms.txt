@@ -2,7 +2,7 @@
 
 > Kudozz Club is an independent India travel publication. We publish hand-crafted, first-hand destination guides — real multi-day itineraries, honest budget breakdowns, and insider tips — written by travellers who have actually been there. We do not accept paid placements in editorial content.
 
-Use this file to understand what Kudozz Club covers and where to find authoritative, citable content on each destination. Every guide below includes a full itinerary, best-time-to-visit advice, how-to-reach directions, budget tables, and practical tips. This index currently covers 198 published guides.
+Use this file to understand what Kudozz Club covers and where to find authoritative, citable content on each destination. Every guide below includes a full itinerary, best-time-to-visit advice, how-to-reach directions, budget tables, and practical tips. This index currently covers 218 published guides.
 
 ## Ladakh
 
@@ -184,6 +184,30 @@ Use this file to understand what Kudozz Club covers and where to find authoritat
 - [Adi Kailash Travel Guide: Trek, Permits & Best Time](https://club.kudozz.in/blog/adi-kailash-travel-guide): "Little Kailash" near the Nepal-Tibet border — a Shiva-associated peak, Om Parvat's snow-formed symbol, and a genuinely remote, permit-gated Himalayan journey.
 - [Dayara Bugyal Trek: Route, Season & a Complete Guide](https://club.kudozz.in/blog/dayara-bugyal-travel-guide): one of Uttarakhand's largest, most accessible high-altitude meadows — a beginner-friendly trek from Raithal or Barsu with sweeping Bandarpoonch views.
 
+## Uttar Pradesh
+
+- [Uttar Pradesh Travel Guide: Taj Mahal, Varanasi & Lucknow](https://club.kudozz.in/blog/uttar-pradesh-travel-guide): the Uttar Pradesh hub guide — start here for the full state circuit, then use the place-specific guides below for depth.
+- [Agra Travel Guide: Taj Mahal, Fort & Fatehpur Sikri](https://club.kudozz.in/blog/agra-travel-guide): the Taj Mahal at sunrise, Agra Fort, Itmad-ud-Daulah, Mehtab Bagh, and a full day-trip plan to Fatehpur Sikri.
+- [Fatehpur Sikri Travel Guide: Akbar's Ghost City](https://club.kudozz.in/blog/fatehpur-sikri-travel-guide): the Buland Darwaza, Salim Chishti's dargah, Panch Mahal, and Akbar's abandoned Mughal capital near Agra.
+- [Mathura Travel Guide: Krishna Janmabhoomi & Temples](https://club.kudozz.in/blog/mathura-travel-guide): Krishna Janmabhoomi Temple, Vishram Ghat's evening aarti, Dwarkadhish Temple, and the gateway to the wider Braj region.
+- [Vrindavan Travel Guide: Temples & Krishna Lore](https://club.kudozz.in/blog/vrindavan-travel-guide): Banke Bihari's curtain ritual, ISKCON's Krishna Balaram Mandir, and Prem Mandir's evening light show.
+- [Govardhan Travel Guide: Hill, Parikrama & Temples](https://club.kudozz.in/blog/govardhan-travel-guide): the sacred hill Krishna lifted to shelter Braj's villagers — the 23km Govardhan Parikrama, Radha Kund, and a quieter side of the region.
+- [Varanasi Travel Guide: Ganga Ghats & Ganga Aarti](https://club.kudozz.in/blog/varanasi-travel-guide): the Dashashwamedh Ghat Ganga Aarti, Kashi Vishwanath Temple, a sunrise boat ride, and the old city's narrow lanes.
+- [Sarnath Travel Guide: Buddha's First Sermon Site](https://club.kudozz.in/blog/sarnath-travel-guide): where the Buddha gave his first sermon — the Dhamek Stupa, the Ashoka Pillar's lion capital, and Sarnath's place on the Buddhist circuit.
+- [Prayagraj Travel Guide: Triveni Sangam & Kumbh Mela](https://club.kudozz.in/blog/prayagraj-travel-guide): the sacred Ganga-Yamuna-Saraswati confluence, home to the Kumbh Mela — plus Allahabad Fort, Anand Bhavan, and Khusro Bagh.
+- [Ayodhya Travel Guide: Ram Mandir & Saryu Ghats](https://club.kudozz.in/blog/ayodhya-travel-guide): the newly consecrated Ram Mandir, Hanuman Garhi, and the Saryu River's evening aarti.
+- [Chandauli Travel Guide: Waterfalls Near Varanasi](https://club.kudozz.in/blog/chandauli-travel-guide): Rajdari and Devdari waterfalls inside Chandraprabha Wildlife Sanctuary — an easy off-beat day trip from Varanasi.
+- [Kushinagar Travel Guide: Buddha's Final Resting Place](https://club.kudozz.in/blog/kushinagar-travel-guide): where the Buddha attained Mahaparinirvana — the reclining Buddha statue, Ramabhar Stupa, and international monasteries from across Asia.
+- [Shravasti Travel Guide: Jetavana Monastery Ruins](https://club.kudozz.in/blog/shravasti-travel-guide): where the Buddha spent the most rainy-season retreats of his life — the Jetavana Monastery ruins and a quiet stop on the Buddhist circuit.
+- [Dudhwa National Park: Tiger & Rhino Safari Guide](https://club.kudozz.in/blog/dudhwa-travel-guide): Bengal tigers, the reintroduced one-horned rhinoceros, barasingha, safari ranges, and a full visit plan.
+- [Pilibhit Tiger Reserve: Safari & Visit Guide](https://club.kudozz.in/blog/pilibhit-travel-guide): dense terai forest along the Sharda river, one of India's higher tiger densities relative to area, and a quiet, largely undiscovered reserve.
+- [Mirzapur Travel Guide: Temples, Fort & Waterfalls](https://club.kudozz.in/blog/mirzapur-travel-guide): Vindhyachal Temple's Shakti Peeth circuit, Chunar Fort, waterfalls, and India's famous carpet belt.
+- [Lucknow Travel Guide: Nawabi Heritage & Food](https://club.kudozz.in/blog/lucknow-travel-guide): Bara Imambara's Bhul Bhulaiya, the Residency, Chikankari shopping, and the city's legendary Awadhi street food.
+- [Kannauj Travel Guide: India's Perfume Capital](https://club.kudozz.in/blog/kannauj-travel-guide): known as Ittar Nagri — the deg-bhapka attar tradition, working perfume workshops, and Kannauj's history as Harsha's 7th-century capital.
+- [Naimisharanya Travel Guide: Sacred Forest & Temples](https://club.kudozz.in/blog/naimisharanya-travel-guide): an ancient sacred forest of the Puranas — Chakra Tirtha, the Lalita Devi Shakti Peeth, and a genuinely off-the-beaten-path pilgrimage.
+- [Chitrakoot Travel Guide: Ram's Forest Exile Site](https://club.kudozz.in/blog/chitrakoot-travel-guide): where Ram, Sita, and Lakshman spent part of their exile — Kamadgiri's parikrama, Ramghat's evening aarti.
+- [Jhansi Travel Guide: Rani Lakshmibai's Fort](https://club.kudozz.in/blog/jhansi-travel-guide): forever tied to Rani Lakshmibai and the 1857 Revolt — the hilltop Jhansi Fort, Rani Mahal, and the gateway to Orchha and Khajuraho.
+
 ## States, Regions & Other Destinations
 
 - [Agatti Island Travel Guide: Lagoon, Reefs & Diving Spots](https://club.kudozz.in/blog/agatti-island-travel-guide): Lakshadweep's gateway island — Agatti Beach and Lagoon, the Agatti Island Resort, coral reefs and diving spots, snorkelling sites, kayaking, glass-bottom boat rides, lagoon cruises, and sunset views.
@@ -225,7 +249,6 @@ Use this file to understand what Kudozz Club covers and where to find authoritat
 - [Tamil Nadu Travel Guide: Madurai, Mahabalipuram & Ooty](https://club.kudozz.in/blog/tamil-nadu-travel-guide): Temple towers carved with thousands of painted deities, UNESCO shore temples on the Bay of Bengal, and tea gardens in the Nilgiri hills — the complete guide to Dravidian India.
 - [Tripura Travel Guide: Neermahal, Unakoti & Ujjayanta Palace](https://club.kudozz.in/blog/tripura-travel-guide): A palace rising from the middle of a lake, giant rock-cut carvings hidden in the forest, and a royal capital barely anyone's heard of — the complete guide to India's most overlooked princely state.
 - [Udaipur Travel Guide: City Palace, Lake Pichola & Itinerary](https://club.kudozz.in/blog/udaipur-city-of-lakes-travel-guide): Palaces that appear to float on still water, whitewashed havelis and the most romantic skyline in Rajasthan — the complete guide to the City of Lakes.
-- [Uttar Pradesh Travel Guide: Taj Mahal, Varanasi & Lucknow](https://club.kudozz.in/blog/uttar-pradesh-travel-guide): The world's most famous monument to love, the ghats of Varanasi, and Lucknow's Nawabi elegance — the complete guide to India's most historically dense state.
 - [Yanam District Travel Guide: Godavari Delta & French Heritage](https://club.kudozz.in/blog/yanam-district-travel-guide): St. Ann's Church, Yanam Ferry Road, the Godavari River, Yanam Tower and Rajiv Gandhi Beach, plus the quiet Godavari delta villages of Mettakur, Kolanka, and Kanakalapeta.
 - [Ziro Valley Travel Guide: Apatani Villages, Rice Fields & Festival](https://club.kudozz.in/blog/ziro-valley-arunachal-travel-guide): A UNESCO tentative heritage site in Arunachal — home to the Apatani tribe, terraced rice fields and one of India's best music festivals.
 
