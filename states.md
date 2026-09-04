@@ -17,10 +17,10 @@ Maharashtra - done
 Manipur - done
 Meghalaya - done
 Mizoram - done
-Nagaland - done
 
 ## Cities Covered
 
+Nagaland - done
 Odisha - done
 Punjab - done
 Rajasthan - done
