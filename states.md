@@ -18,6 +18,9 @@ Manipur - done
 Meghalaya - done
 Mizoram - done
 Nagaland - done
+
+## Cities Covered
+
 Odisha - done
 Punjab - done
 Rajasthan - done
@@ -25,9 +28,6 @@ Sikkim - done
 Tamil Nadu - done
 Telangana - done
 Tripura - done
-
-## Cities Covered
-
 Uttar Pradesh - done
 Uttarakhand - done
 West Bengal - done
