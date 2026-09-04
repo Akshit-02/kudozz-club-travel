@@ -100,7 +100,8 @@ const FROM_EMAIL = process.env.FROM_EMAIL || process.env.GMAIL_USER;
 const REPLY_TO = process.env.REPLY_TO_EMAIL || FROM_EMAIL;
 
 // Template 09's assembled body doesn't use these (it ends at the "Kudozz
-// Club" sign-off, no footer) — kept for the other plain-text templates
+// Club" sign-off, no footer) — kept for the ot
+// her plain-text templates
 // (08, 10, 11), which do still reference {{COMPANY_NAME}} / {{COMPANY_ADDRESS}}
 // / {{UNSUBSCRIBE_URL}} in their own file text if sent via --template=.
 const COMPANY_NAME = process.env.COMPANY_NAME || "Kudozz Club";

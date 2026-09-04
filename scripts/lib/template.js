@@ -73,13 +73,19 @@ function loadPlainTextTemplate(filePath) {
 // (any count per section, not just 5 — everything else in the file is
 // free-form commentary and ignored). Returns one array per section.
 
-const VARIANT_LINE_RE = /^(SUBJECT|FIRST LINE|SECOND LINE|BLOG LINE)\s+\d+:\s*(.*)$/;
+const VARIANT_LINE_RE =
+  /^(SUBJECT|FIRST LINE|SECOND LINE|BLOG LINE)\s+\d+:\s*(.*)$/;
 
 function loadVariantTemplate(filePath) {
   const raw = fs.readFileSync(filePath, "utf8");
   const lines = raw.split(/\r?\n/);
 
-  const sections = { SUBJECT: [], "FIRST LINE": [], "SECOND LINE": [], "BLOG LINE": [] };
+  const sections = {
+    SUBJECT: [],
+    "FIRST LINE": [],
+    "SECOND LINE": [],
+    "BLOG LINE": [],
+  };
 
   for (const line of lines) {
     const match = line.match(VARIANT_LINE_RE);
@@ -114,9 +120,18 @@ function pickRandom(arr) {
  */
 function renderVariantEmail(variantTemplate, mergeData) {
   const rawSubject = pickRandom(variantTemplate.subjects);
-  const firstLine = renderTemplate(pickRandom(variantTemplate.firstLines), mergeData);
-  const secondLine = renderTemplate(pickRandom(variantTemplate.secondLines), mergeData);
-  const blogLine = renderTemplate(pickRandom(variantTemplate.blogLines), mergeData);
+  const firstLine = renderTemplate(
+    pickRandom(variantTemplate.firstLines),
+    mergeData,
+  );
+  const secondLine = renderTemplate(
+    pickRandom(variantTemplate.secondLines),
+    mergeData,
+  );
+  const blogLine = renderTemplate(
+    pickRandom(variantTemplate.blogLines),
+    mergeData,
+  );
 
   const subject = renderTemplate(rawSubject, mergeData);
 
@@ -129,7 +144,7 @@ function renderVariantEmail(variantTemplate, mergeData) {
     "",
     "{{BLOG_LINE}}",
     "",
-    "— Arjun",
+    "Kashish Agarwal",
     "Kudozz Club",
   ].join("\n");
 
@@ -147,7 +162,9 @@ function renderVariantEmail(variantTemplate, mergeData) {
 function renderTemplate(text, data) {
   return text.replace(/{{\s*([A-Z0-9_]+)\s*}}/g, (match, key) => {
     const value = data[key];
-    return value === undefined || value === null || value === "" ? match : String(value);
+    return value === undefined || value === null || value === ""
+      ? match
+      : String(value);
   });
 }
 

@@ -17,29 +17,29 @@ doesn't have to stay at exactly 5 per section.
 -----------------------------------------------------------
 SUBJECT VARIANTS
 -----------------------------------------------------------
-SUBJECT 1: Your {{DESTINATION}} trip, mapped out (before you book)
-SUBJECT 2: {{FIRST_NAME}}, planning {{DESTINATION}}? Read this first
-SUBJECT 3: What most people get wrong about a {{DESTINATION}} trip
-SUBJECT 4: Before you book {{DESTINATION}}, read this
-SUBJECT 5: A {{DESTINATION}} trip guide worth bookmarking
+SUBJECT 1: Before you plan {{DESTINATION}}, read this
+SUBJECT 2: Planning a trip to {{DESTINATION}}? Start here
+SUBJECT 3: Everything you need to plan {{DESTINATION}} in one place
+SUBJECT 4: Your {{DESTINATION}} trip, properly planned
+SUBJECT 5: The complete {{DESTINATION}} travel plan
 
 -----------------------------------------------------------
 FIRST LINE VARIANTS (the opening hook, right after "Hi {{FIRST_NAME}},")
 -----------------------------------------------------------
-FIRST LINE 1: Planning a {{DESTINATION}} trip? Before you book anything, here's a complete trip guide that covers it all — best time to go, how to get there, where to stay by budget, and a day-by-day plan you can actually follow.
-FIRST LINE 2: Thinking about {{DESTINATION}}? Here's a trip guide that covers the parts people usually figure out too late — timing, getting there, budgets by tier, and a full day-by-day plan.
-FIRST LINE 3: If {{DESTINATION}} is on your list this year, this is worth two minutes before you book anything.
-FIRST LINE 4: Before you lock in a {{DESTINATION}} trip, here's everything in one place — best time to go, getting there, where to stay, and a plan for each day.
-FIRST LINE 5: {{DESTINATION}} done right starts with timing and budget — here's a guide that covers both, plus a full itinerary.
+FIRST LINE 1: Planning a trip to {{DESTINATION}}? Before you start booking, here's a practical guide covering the best time to visit, how to get there, where to stay, what to budget, and a day-by-day itinerary.
+FIRST LINE 2: Thinking about visiting {{DESTINATION}}? We've put together everything you need to plan the trip without spending hours jumping between blogs and videos.
+FIRST LINE 3: If {{DESTINATION}} is on your travel list, this guide can help you figure out the important stuff before you book: timing, budget, stays, transport, and a complete itinerary.
+FIRST LINE 4: Planning {{DESTINATION}} shouldn't require opening 20 different tabs. Here's everything you need to plan the trip in one place.
+FIRST LINE 5: A good {{DESTINATION}} trip comes down to a few things: going at the right time, planning the right route, and knowing what you'll actually spend. This guide covers all three.
 
 -----------------------------------------------------------
 SECOND LINE VARIANTS (the "who's behind this" line)
 -----------------------------------------------------------
-SECOND LINE 1: It's from Kudozz Club — an India travel publication written by people who've actually done these trips. Real itineraries, honest budgets, and zero sponsored placements, across 200+ destinations.
-SECOND LINE 2: This is from Kudozz Club, an India travel publication — real itineraries and honest budgets from people who've actually made these trips, with no sponsored placements mixed in.
-SECOND LINE 3: It's part of Kudozz Club, a travel publication built on one rule: if we recommend something, it's because we'd tell a friend the same thing. No paid placements, ever.
-SECOND LINE 4: Kudozz Club put this together — an India travel guide covering 200+ destinations, written from real trips rather than recycled listicles.
-SECOND LINE 5: It comes from Kudozz Club, a small independent publication covering India trip planning properly — real budgets, real timing, no sponsored content.
+SECOND LINE 1: It's from Kudozz Club, an India travel publication written by people who've actually done these trips. Real itineraries, honest budgets, and zero sponsored placements, across 200+ destinations.
+SECOND LINE 2: This is from Kudozz Club, an India travel publication featuring real itineraries and honest budgets from people who've actually made these trips, with no sponsored placements mixed in.
+SECOND LINE 3: This guide is from Kudozz Club, an independent India travel publication focused on practical trip planning. We cover real itineraries, realistic budgets, and useful travel information without paid placements.
+SECOND LINE 4: We created Kudozz Club with a simple rule: every recommendation should be useful enough that we'd confidently give it to a friend planning the same trip.
+SECOND LINE 5: This comes from Kudozz Club, where we create detailed travel guides designed to save you research time and make trip planning simpler.
 
 -----------------------------------------------------------
 BLOG LINE VARIANTS (the closing link line)
@@ -80,5 +80,5 @@ Hi {{FIRST_NAME}},
 
 {{BLOG_LINE}}
 
-— Arjun
+Kashish Agarwal
 Kudozz Club
