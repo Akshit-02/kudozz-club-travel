@@ -15,11 +15,11 @@ Kerala - done
 Madhya Pradesh - done
 Maharashtra - done
 Manipur - done
-Meghalaya - done
-Mizoram - done
 
 ## Cities Covered
 
+Meghalaya - done
+Mizoram - done
 Nagaland - done
 Odisha - done
 Punjab - done
