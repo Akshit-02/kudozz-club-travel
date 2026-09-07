@@ -6,12 +6,12 @@ Assam - done
 Bihar - done
 Chhattisgarh - done
 Goa - done
-Gujarat - done
-Haryana - done
-Himachal Pradesh - done
 
 ## Cities Covered
 
+Gujarat - done
+Haryana - done
+Himachal Pradesh - done
 Jharkhand - done
 Karnataka - done
 Kerala - done
