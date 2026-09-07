@@ -9,13 +9,13 @@ Goa - done
 Gujarat - done
 Haryana - done
 Himachal Pradesh - done
+
+## Cities Covered
+
 Jharkhand - done
 Karnataka - done
 Kerala - done
 Madhya Pradesh - done
-
-## Cities Covered
-
 Maharashtra - done
 Manipur - done
 Meghalaya - done
