@@ -13,11 +13,11 @@ Jharkhand - done
 Karnataka - done
 Kerala - done
 Madhya Pradesh - done
-Maharashtra - done
-Manipur - done
 
 ## Cities Covered
 
+Maharashtra - done
+Manipur - done
 Meghalaya - done
 Mizoram - done
 Nagaland - done
