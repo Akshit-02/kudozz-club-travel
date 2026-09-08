@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/coorg/coorg.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Misty tea estate hills representative of Munnar, Kerala",
+        url: "/images/blogs/kerala/munnar/munnar-tea-plantation-hero.webp",
+        width: 1600,
+        height: 636,
+        alt: "Rolling tea plantations across the Munnar valley with mist-covered hills in the background",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Munnar Travel Guide: Tea Gardens, Viewpoints & Best Time to Visit",
     description:
       "Tea estates, Eravikulam National Park, and the coolest hill air in Kerala — the complete guide to Munnar.",
-    images: ["/images/destinations/coorg/coorg.jpg"],
+    images: ["/images/blogs/kerala/munnar/munnar-tea-plantation-hero.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/munnar-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline:
             "Munnar Travel Guide: Tea Gardens, Viewpoints & Best Time to Visit",
           description: "The complete Munnar travel guide.",
-          image: "https://club.kudozz.in/images/destinations/coorg/coorg.jpg",
+          image: "https://club.kudozz.in/images/blogs/kerala/munnar/munnar-tea-plantation-hero.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: {
@@ -267,8 +267,8 @@ export default function MunnarGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/coorg/coorg.jpg"
-              alt="Misty tea estate hills representative of Munnar, Kerala"
+              src="/images/blogs/kerala/munnar/munnar-tea-plantation-hero.webp"
+              alt="Rolling tea plantations across the Munnar valley with mist-covered hills in the background"
               fill
               priority
               sizes="100vw"
@@ -491,14 +491,25 @@ export default function MunnarGuidePage() {
                 {/* ── Top Attractions ─────────────────────────────────────── */}
                 <section id="top-attractions">
                   <h2>Top Things to Do in Munnar</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/coorg/coorg.jpg"
-                      alt="Rolling tea estate hills near Munnar"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
+                  <div className="grid sm:grid-cols-2 gap-4 my-6">
+                    <div className="relative w-full rounded-xl h-56 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/blogs/kerala/munnar/eravikulam-national-park-munnar.webp"
+                        alt="Tea-covered hills and forest inside Eravikulam National Park, Munnar"
+                        fill
+                        sizes="(min-width: 1024px) 384px, 50vw"
+                        className="object-cover"
+                      />
+                    </div>
+                    <div className="relative w-full rounded-xl h-56 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/blogs/kerala/munnar/mattupetty-dam-munnar.webp"
+                        alt="Mattupetty Dam reservoir surrounded by forested hills near Munnar"
+                        fill
+                        sizes="(min-width: 1024px) 384px, 50vw"
+                        className="object-cover"
+                      />
+                    </div>
                   </div>
                   <ul>
                     <li>

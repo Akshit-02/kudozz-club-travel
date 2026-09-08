@@ -773,8 +773,8 @@ export default function HampiPage() {
                     <h3>Virupaksha Temple</h3>
                     <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                       <Image
-                        src="/images/destinations/hampi/virupaksha.jpg"
-                        alt="Virupaksha Temple gopuram against the boulder landscape of Hampi"
+                        src="/images/blogs/karnataka/hampi/virupaksha-temple-gopuram-hampi.webp"
+                        alt="Close-up of the carved gopuram tower of Virupaksha Temple, Hampi"
                         fill
                         sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                         className="object-cover"
@@ -916,6 +916,15 @@ export default function HampiPage() {
                       as a result — the sculptors had free rein to create
                       without the practical constraints of active worship.
                     </p>
+                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/blogs/karnataka/hampi/stone-chariot-vittala-temple-hampi.webp"
+                        alt="The famous stone chariot dedicated to Garuda inside Vittala Temple, Hampi"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <p>
                       The temple complex contains three things that stop most
                       visitors in their tracks:
@@ -1006,6 +1015,15 @@ export default function HampiPage() {
 
                   <section id="lotus-mahal">
                     <h3>Lotus Mahal & Elephant Stables</h3>
+                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/blogs/karnataka/hampi/lotus-mahal-hampi.webp"
+                        alt="Lotus Mahal pavilion with its distinctive lotus-shaped arches, Hampi"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <p>
                       The <strong>Lotus Mahal</strong> is the most elegant
                       secular building in Hampi — a two-storey pavilion of
@@ -1029,6 +1047,15 @@ export default function HampiPage() {
 
                   <section id="queens-bath">
                     <h3>Queen's Bath</h3>
+                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/blogs/karnataka/hampi/queens-bath-hampi.webp"
+                        alt="Ornate corbelled arches and balconies inside the Queen's Bath, Hampi"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <p>
                       The <strong>Queen's Bath</strong> is one of Hampi's most
                       surprising monuments — an ornate bath chamber that appears

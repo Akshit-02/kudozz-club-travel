@@ -23,13 +23,13 @@ export const metadata: Metadata = {
     url: "https://club.kudozz.in/blog/mumbai-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/hampi/hero.jpg", width: 1200, height: 630, alt: "Heritage architecture representative of Mumbai, Maharashtra" }],
+    images: [{ url: "/images/blogs/maharashtra/mumbai/gateway-of-india-evening-mumbai.webp", width: 1600, height: 1067, alt: "The Gateway of India monument lit up at dusk beside Mumbai's harbour" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Mumbai Travel Guide: Gateway of India, Marine Drive & Bollywood",
     description: "Gateway of India, Marine Drive, and the beating heart of Indian cinema — the complete guide to Mumbai.",
-    images: ["/images/destinations/hampi/hero.jpg"],
+    images: ["/images/blogs/maharashtra/mumbai/gateway-of-india-evening-mumbai.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/mumbai-travel-guide" },
 };
@@ -44,7 +44,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Mumbai Travel Guide: Gateway of India, Marine Drive & Bollywood",
           description: "The complete Mumbai travel guide.",
-          image: "https://club.kudozz.in/images/destinations/hampi/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/maharashtra/mumbai/gateway-of-india-evening-mumbai.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
@@ -128,7 +128,7 @@ export default function MumbaiGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/hampi/hero.jpg" alt="Heritage architecture representative of Mumbai, Maharashtra" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/maharashtra/mumbai/gateway-of-india-evening-mumbai.webp" alt="The Gateway of India monument lit up at dusk beside Mumbai's harbour" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -250,8 +250,25 @@ export default function MumbaiGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do in Mumbai</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/hampi/hero.jpg" alt="Historic architecture in Mumbai" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
+                  <div className="grid sm:grid-cols-2 gap-4 my-6">
+                    <div className="relative w-full rounded-xl h-56 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/blogs/maharashtra/mumbai/marine-drive-night-mumbai.webp"
+                        alt="Marine Drive's curved seafront skyline lit up at night, Mumbai's 'Queen's Necklace'"
+                        fill
+                        sizes="(min-width: 1024px) 384px, 50vw"
+                        className="object-cover"
+                      />
+                    </div>
+                    <div className="relative w-full rounded-xl h-56 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/blogs/maharashtra/mumbai/chhatrapati-shivaji-terminus-mumbai.webp"
+                        alt="The Victorian Gothic facade of Chhatrapati Shivaji Maharaj Terminus (CSMT), Mumbai"
+                        fill
+                        sizes="(min-width: 1024px) 384px, 50vw"
+                        className="object-cover"
+                      />
+                    </div>
                   </div>
                   <ul>
                     <li><strong>Gateway of India:</strong> Mumbai's most iconic monument, built to commemorate a royal visit in the early 20th century, now the departure point for Elephanta Caves ferries.</li>

@@ -869,7 +869,7 @@ export const posts = [
     title: "Udaipur Travel Guide: City Palace, Lake Pichola & Itinerary",
     excerpt:
       "Palaces that appear to float on still water, whitewashed havelis and the most romantic skyline in Rajasthan — the complete guide to the City of Lakes.",
-    image: "/images/destinations/jaisalmer/hero.jpg",
+    image: "/images/blogs/rajasthan/udaipur/udaipur-city-palace-lake-pichola.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Udaipur", "Rajasthan"],
@@ -4613,7 +4613,7 @@ export const posts = [
     title: "Mumbai Travel Guide: Gateway of India, Marine Drive & Bollywood",
     excerpt:
       "Colonial-era monuments beside the Arabian Sea, a promenade lit up every evening as the Queen's Necklace, and the beating heart of Indian cinema — the complete guide to Mumbai.",
-    image: "/images/destinations/hampi/hero.jpg",
+    image: "/images/blogs/maharashtra/mumbai/gateway-of-india-evening-mumbai.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Mumbai", "Maharashtra", "Gateway of India"],
@@ -5009,7 +5009,7 @@ export const posts = [
     title: "Munnar Travel Guide: Tea Gardens, Viewpoints & Best Time to Visit",
     excerpt:
       "Rolling tea estates climbing into the clouds, a rare flower that blooms once every 12 years, and the coolest hill air in Kerala — the complete guide to Munnar.",
-    image: "/images/destinations/coorg/coorg.jpg",
+    image: "/images/blogs/kerala/munnar/munnar-tea-plantation-hero.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Munnar", "Kerala", "Tea Gardens"],
@@ -6833,7 +6833,7 @@ export const posts = [
     title: "Tirupati Travel Guide: Tirumala Temple, Darshan & How to Reach",
     excerpt:
       "The world's most visited and richest pilgrimage temple, atop a hill where millions queue every year for a few seconds before the deity — the complete guide to Tirupati.",
-    image: "/images/destinations/jaisalmer/hero.jpg",
+    image: "/images/blogs/andhra-pradesh/tirupati/tirumala-venkateswara-temple-gopuram-tirupati.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Tirupati", "Andhra Pradesh", "Tirumala Temple"],

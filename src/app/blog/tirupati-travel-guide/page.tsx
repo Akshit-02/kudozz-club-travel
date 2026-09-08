@@ -20,9 +20,9 @@ export const metadata: Metadata = {
     description: "The world's most visited and richest pilgrimage temple, atop a hill where millions queue every year for a few seconds before the deity — the complete guide to Tirupati.",
     url: "https://club.kudozz.in/blog/tirupati-travel-guide",
     type: "article", siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/jaisalmer/hero.jpg", width: 1200, height: 630, alt: "Ancient South Indian temple architecture representative of Tirupati, Andhra Pradesh" }],
+    images: [{ url: "/images/blogs/andhra-pradesh/tirupati/tirumala-venkateswara-temple-gopuram-tirupati.webp", width: 1600, height: 1067, alt: "The white gopuram of Tirumala Venkateswara Temple rising against the forested Tirumala hills" }],
   },
-  twitter: { card: "summary_large_image", title: "Tirupati Travel Guide: Tirumala Temple, Darshan & How to Reach", description: "Darshan types, booking, and everything you need to plan a visit to Tirumala — the complete guide to Tirupati.", images: ["/images/destinations/jaisalmer/hero.jpg"] },
+  twitter: { card: "summary_large_image", title: "Tirupati Travel Guide: Tirumala Temple, Darshan & How to Reach", description: "Darshan types, booking, and everything you need to plan a visit to Tirumala — the complete guide to Tirupati.", images: ["/images/blogs/andhra-pradesh/tirupati/tirumala-venkateswara-temple-gopuram-tirupati.webp"] },
   alternates: { canonical: "https://club.kudozz.in/blog/tirupati-travel-guide" },
 };
 
@@ -32,7 +32,7 @@ function ArticleSchema() {
       "@context": "https://schema.org", "@type": "BlogPosting",
       headline: "Tirupati Travel Guide: Tirumala Temple, Darshan & How to Reach",
       description: "The complete Tirupati travel guide.",
-      image: "https://club.kudozz.in/images/destinations/jaisalmer/hero.jpg",
+      image: "https://club.kudozz.in/images/blogs/andhra-pradesh/tirupati/tirumala-venkateswara-temple-gopuram-tirupati.webp",
       datePublished: "2026-09-08", dateModified: "2026-09-08",
       publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
       author: { "@type": "Organization", name: "Kudozz Club" },
@@ -96,7 +96,7 @@ export default function TirupatiGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/jaisalmer/hero.jpg" alt="Ancient South Indian temple architecture representative of Tirupati, Andhra Pradesh" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/andhra-pradesh/tirupati/tirumala-venkateswara-temple-gopuram-tirupati.webp" alt="The white gopuram of Tirumala Venkateswara Temple rising against the forested Tirumala hills" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -200,7 +200,7 @@ export default function TirupatiGuidePage() {
                 <section id="top-attractions">
                   <h2>Top Things to Do in Tirupati</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/jaisalmer/hero.jpg" alt="Temple architecture representative of Tirumala" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
+                    <Image src="/images/blogs/andhra-pradesh/tirupati/maha-dwaram-gopuram-close-up-tirumala.webp" alt="Close-up of the ornately carved Maha Dwaram gopuram tower at Tirumala Venkateswara Temple" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
                   </div>
                   <ul>
                     <li><strong>Tirumala Venkateswara Temple darshan:</strong> The central pilgrimage experience — free general darshan involves long waits, while paid Seeghra Darshan offers a faster but still not instant option.</li>

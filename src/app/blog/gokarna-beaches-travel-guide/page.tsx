@@ -668,14 +668,25 @@ export default function GokarnaBeachesGuidePage() {
                 {/* ── Best Beaches ──────────────────────────────────────── */}
                 <section id="best-beaches">
                   <h2>The Best Beaches</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/gokarna/hero.jpg"
-                      alt="Rocky headland and turquoise cove near Gokarna"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
+                  <div className="grid sm:grid-cols-2 gap-4 my-6">
+                    <div className="relative w-full rounded-xl h-56 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/blogs/karnataka/gokarna/om-beach-gokarna.webp"
+                        alt="Rocky headland and curved cove at Om Beach, Gokarna"
+                        fill
+                        sizes="(min-width: 1024px) 384px, 50vw"
+                        className="object-cover"
+                      />
+                    </div>
+                    <div className="relative w-full rounded-xl h-56 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/blogs/karnataka/gokarna/kudle-beach-gokarna.webp"
+                        alt="Aerial view of Kudle Beach's palm-lined cove near Gokarna"
+                        fill
+                        sizes="(min-width: 1024px) 384px, 50vw"
+                        className="object-cover"
+                      />
+                    </div>
                   </div>
 
                   <ul>

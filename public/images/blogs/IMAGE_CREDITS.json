@@ -1,0 +1,225 @@
+{
+  "_readme": "Source/license/attribution record for every image under public/images/blogs/. All images sourced from Wikimedia Commons unless noted. CC BY-SA and CC BY licenses require attribution — see 'attribution' field for the credit line to display if/when an attribution UI is added. Public domain / CC0 images require no attribution but source is recorded anyway for provenance.",
+  "images": [
+    {
+      "path": "blogs/rajasthan/udaipur/udaipur-city-palace-lake-pichola.webp",
+      "usedIn": ["udaipur-city-of-lakes-travel-guide (hero)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:View_of_Lake_Pichola_in_Udaipur_from_the_City_Palace,_20191207_0515_6924.jpg",
+      "originalFile": "View_of_Lake_Pichola_in_Udaipur_from_the_City_Palace,_20191207_0515_6924.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Jakubhal",
+      "attribution": "Photo by Jakubhal, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/rajasthan/udaipur/mor-chowk-city-palace-udaipur.webp",
+      "usedIn": ["udaipur-city-of-lakes-travel-guide (City Palace section)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Peacock_mosaic_at_Mor_Chowk,_Udaipur_City_palace,_Rajasthan.jpg",
+      "originalFile": "Peacock_mosaic_at_Mor_Chowk,_Udaipur_City_palace,_Rajasthan.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Sujay25",
+      "attribution": "Photo by Sujay25, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/rajasthan/udaipur/jag-mandir-lake-pichola-udaipur.webp",
+      "usedIn": ["udaipur-city-of-lakes-travel-guide (Lake Pichola / Jag Mandir section)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Jag_Mandir_Palace_from_above,_on_Lake_Pichola,_Udaipur.jpg",
+      "originalFile": "Jag_Mandir_Palace_from_above,_on_Lake_Pichola,_Udaipur.jpg",
+      "license": "CC BY-SA 2.0",
+      "author": "Flickr user (see source page)",
+      "attribution": "Photo via Wikimedia Commons, CC BY-SA 2.0"
+    },
+    {
+      "path": "blogs/rajasthan/udaipur/fateh-sagar-lake-udaipur.webp",
+      "usedIn": ["udaipur-city-of-lakes-travel-guide (Fateh Sagar Lake section)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Udaipur-Fateh_Sagar-02-2018-gje.jpg",
+      "originalFile": "Udaipur-Fateh_Sagar-02-2018-gje.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Gerd Eichmann",
+      "attribution": "Photo by Gerd Eichmann, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/rajasthan/udaipur/bagore-ki-haveli-udaipur.webp",
+      "usedIn": ["udaipur-city-of-lakes-travel-guide (Bagore ki Haveli section)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:20191207_Bagore_Ki_Haveli,_Udaipur,_0646_7054.jpg",
+      "originalFile": "20191207_Bagore_Ki_Haveli,_Udaipur,_0646_7054.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Jakubhal",
+      "attribution": "Photo by Jakubhal, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/rajasthan/udaipur/monsoon-palace-sajjangarh-udaipur.webp",
+      "usedIn": ["udaipur-city-of-lakes-travel-guide (Monsoon Palace section)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Sajjangarh_Monsoon_Palace_at_dusk,_Udaipur,_Rajasthan,_India.jpg",
+      "originalFile": "Sajjangarh_Monsoon_Palace_at_dusk,_Udaipur,_Rajasthan,_India.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "UnpetitproleX",
+      "attribution": "Photo by UnpetitproleX, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/rajasthan/udaipur/jagdish-temple-udaipur.webp",
+      "usedIn": ["udaipur-city-of-lakes-travel-guide (Old City & Markets section)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:20191207_Jagdish_Temple,_Udaipur,_0608_7004.jpg",
+      "originalFile": "20191207_Jagdish_Temple,_Udaipur,_0608_7004.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Jakubhal",
+      "attribution": "Photo by Jakubhal, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/rajasthan/udaipur/saheliyon-ki-bari-udaipur.webp",
+      "usedIn": ["udaipur-city-of-lakes-travel-guide (Saheliyon ki Bari section)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Saheliyon-ki-Bari_(Udaipur).jpg",
+      "originalFile": "Saheliyon-ki-Bari_(Udaipur).jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Ktzsikka",
+      "attribution": "Photo by Ktzsikka, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/karnataka/hampi/virupaksha-temple-gopuram-hampi.webp",
+      "usedIn": ["hampi-travel-guide (Virupaksha Temple section — replaces a previously mislabeled image)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Virupaksha_-_Gopuram_-_Top.jpg",
+      "originalFile": "Virupaksha_-_Gopuram_-_Top.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Imehling (Ingo Mehling)",
+      "attribution": "Photo by Ingo Mehling, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/karnataka/hampi/stone-chariot-vittala-temple-hampi.webp",
+      "usedIn": ["hampi-travel-guide (Vittala Temple section)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Vittala_Temple_-_Garuda_Stone_Chariot_-_Rupesh_Sarkar_-_24.jpg",
+      "originalFile": "Vittala_Temple_-_Garuda_Stone_Chariot_-_Rupesh_Sarkar_-_24.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Rupesh Sarkar",
+      "attribution": "Photo by Rupesh Sarkar, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/karnataka/hampi/lotus-mahal-hampi.webp",
+      "usedIn": ["hampi-travel-guide (Lotus Mahal section)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Perspective_view_of_Lotus_Mahal,_Hampi.jpg",
+      "originalFile": "Perspective_view_of_Lotus_Mahal,_Hampi.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "I.Mahesh",
+      "attribution": "Photo by I.Mahesh, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/karnataka/hampi/queens-bath-hampi.webp",
+      "usedIn": ["hampi-travel-guide (Queen's Bath section)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Queens_bath_Hampi.jpg",
+      "originalFile": "Queens_bath_Hampi.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Suraj S Rao",
+      "attribution": "Photo by Suraj S Rao, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/karnataka/gokarna/om-beach-gokarna.webp",
+      "usedIn": ["gokarna-beaches-travel-guide (Best Beaches section — replaces a duplicated hero image)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:PXL_20260103_101009613_People_and_Beach_Om_Beach_Gokarna,_Karnataka_02.jpg",
+      "originalFile": "PXL_20260103_101009613_People_and_Beach_Om_Beach_Gokarna,_Karnataka_02.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Sourabh.biswas003",
+      "attribution": "Photo by Sourabh.biswas003, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/karnataka/gokarna/kudle-beach-gokarna.webp",
+      "usedIn": ["gokarna-beaches-travel-guide (Best Beaches section)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kodalu_beach_at_Gokarna.JPG",
+      "originalFile": "Kodalu_beach_at_Gokarna.JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "Infoayan",
+      "attribution": "Photo by Infoayan, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/kerala/munnar/munnar-tea-plantation-hero.webp",
+      "usedIn": ["munnar-travel-guide (hero — replaces a Coorg photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Munnar_-_Lockhart_tea_plantation.jpg",
+      "originalFile": "Munnar_-_Lockhart_tea_plantation.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Imehling (Ingo Mehling)",
+      "attribution": "Photo by Ingo Mehling, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/kerala/munnar/eravikulam-national-park-munnar.webp",
+      "usedIn": ["munnar-travel-guide (Top Attractions section — replaces a Coorg photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Eravikulam_National_Park-WUS07189.jpg",
+      "originalFile": "Eravikulam_National_Park-WUS07189.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Rainer Halama",
+      "attribution": "Photo by Rainer Halama, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/kerala/munnar/mattupetty-dam-munnar.webp",
+      "usedIn": ["munnar-travel-guide (Top Attractions section)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Mattupetty_Dam,_Munnar,_Kerala_(2).jpg",
+      "originalFile": "Mattupetty_Dam,_Munnar,_Kerala_(2).jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "PrasanPadale",
+      "attribution": "Photo by PrasanPadale, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/andhra-pradesh/tirupati/tirumala-venkateswara-temple-gopuram-tirupati.webp",
+      "usedIn": ["tirupati-travel-guide (hero — replaces a Jaisalmer photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Tirumala_090615.jpg",
+      "originalFile": "Tirumala_090615.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Nikhilb239",
+      "attribution": "Photo by Nikhilb239, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/andhra-pradesh/tirupati/maha-dwaram-gopuram-close-up-tirumala.webp",
+      "usedIn": ["tirupati-travel-guide (Top Things to Do section — replaces a Jaisalmer photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Maha_Dwaram_of_Venkateswara_temples,_Tirupati.jpg",
+      "originalFile": "Maha_Dwaram_of_Venkateswara_temples,_Tirupati.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "eclicks_by_bunny",
+      "attribution": "Photo by eclicks_by_bunny, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/maharashtra/mumbai/gateway-of-india-evening-mumbai.webp",
+      "usedIn": ["mumbai-travel-guide (hero — replaces a Hampi photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Gateway_of_India_in_the_evening,_Mumbai,_India.jpg",
+      "originalFile": "Gateway_of_India_in_the_evening,_Mumbai,_India.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "SriSriChinmaya",
+      "attribution": "Photo by SriSriChinmaya, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/maharashtra/mumbai/marine-drive-night-mumbai.webp",
+      "usedIn": ["mumbai-travel-guide (Top Things to Do section — replaces a Hampi photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Mumbai,_marine_drive_di_notte_01.jpg",
+      "originalFile": "Mumbai,_marine_drive_di_notte_01.jpg",
+      "license": "CC BY 3.0",
+      "author": "Sailko",
+      "attribution": "Photo by Sailko, CC BY 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/maharashtra/mumbai/chhatrapati-shivaji-terminus-mumbai.webp",
+      "usedIn": ["mumbai-travel-guide (Top Things to Do section)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Mumbai_-_Chhatrapati_Shivaji_Terminus_Frontside_-_2.jpg",
+      "originalFile": "Mumbai_-_Chhatrapati_Shivaji_Terminus_Frontside_-_2.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Imehling (Ingo Mehling)",
+      "attribution": "Photo by Ingo Mehling, CC BY-SA 4.0, via Wikimedia Commons"
+    }
+  ]
+}

@@ -28,10 +28,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jaisalmer/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Udaipur City Palace overlooking Lake Pichola at sunset",
+        url: "/images/blogs/rajasthan/udaipur/udaipur-city-palace-lake-pichola.webp",
+        width: 1600,
+        height: 1064,
+        alt: "City Palace rooftops overlooking Lake Pichola in Udaipur, with the Taj Lake Palace visible on the water",
       },
     ],
   },
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
       "Udaipur Travel Guide: City Palace, Lake Pichola & Complete Itinerary",
     description:
       "The City of Lakes — City Palace, Lake Pichola, and the most romantic skyline in Rajasthan.",
-    images: ["/images/destinations/jaisalmer/hero.jpg"],
+    images: ["/images/blogs/rajasthan/udaipur/udaipur-city-palace-lake-pichola.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/udaipur-city-of-lakes-travel-guide",
@@ -61,7 +61,7 @@ function ArticleSchema() {
             "Udaipur Travel Guide: City Palace, Lake Pichola & Complete Itinerary",
           description: "The complete Udaipur travel guide.",
           image:
-            "https://club.kudozz.in/images/destinations/jaisalmer/hero.jpg",
+            "https://club.kudozz.in/images/blogs/rajasthan/udaipur/udaipur-city-palace-lake-pichola.webp",
           datePublished: "2026-07-13",
           dateModified: "2026-07-13",
           publisher: {
@@ -295,8 +295,8 @@ export default function UdaipurCityOfLakesPage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/udaipur/hero.jpg"
-              alt="Udaipur City Palace overlooking Lake Pichola at sunset"
+              src="/images/blogs/rajasthan/udaipur/udaipur-city-palace-lake-pichola.webp"
+              alt="City Palace rooftops overlooking Lake Pichola in Udaipur, with the Taj Lake Palace visible on the water"
               fill
               priority
               sizes="100vw"
@@ -646,6 +646,15 @@ export default function UdaipurCityOfLakesPage() {
                 {/* ── City Palace ───────────────────────────────────────── */}
                 <section id="city-palace">
                   <h2>City Palace</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/rajasthan/udaipur/mor-chowk-city-palace-udaipur.webp"
+                      alt="Peacock mosaic in glass and tile at Mor Chowk, City Palace, Udaipur"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Begun in 1559 CE by Maharana Udai Singh II (Udaipur's
                     founder) and expanded by successive Mewar rulers over the
@@ -705,6 +714,15 @@ export default function UdaipurCityOfLakesPage() {
                 {/* ── Lake Pichola ──────────────────────────────────────── */}
                 <section id="lake-pichola">
                   <h2>Lake Pichola</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/rajasthan/udaipur/jag-mandir-lake-pichola-udaipur.webp"
+                      alt="Aerial view of Jag Mandir island palace on Lake Pichola, Udaipur"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     <strong>Lake Pichola</strong> is the reason Udaipur looks
                     the way it does — an artificial lake created in 1362 CE and
@@ -766,6 +784,15 @@ export default function UdaipurCityOfLakesPage() {
                 {/* ── Fateh Sagar ───────────────────────────────────────── */}
                 <section id="fateh-sagar">
                   <h2>Fateh Sagar Lake</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/rajasthan/udaipur/fateh-sagar-lake-udaipur.webp"
+                      alt="Sunset over Fateh Sagar Lake in Udaipur, with a small island pavilion silhouetted on the water"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     North of Lake Pichola, <strong>Fateh Sagar Lake</strong>
                     is Udaipur's second major lake — larger, quieter, and
@@ -793,8 +820,8 @@ export default function UdaipurCityOfLakesPage() {
                   <h2>Saheliyon ki Bari</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/udaipur/saheliyon.jpg"
-                      alt="Ornate marble fountains and gardens in Udaipur"
+                      src="/images/blogs/rajasthan/udaipur/saheliyon-ki-bari-udaipur.webp"
+                      alt="Marble domed fountain surrounded by lush trees at Saheliyon ki Bari garden, Udaipur"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -826,6 +853,15 @@ export default function UdaipurCityOfLakesPage() {
                 {/* ── Bagore ki Haveli ──────────────────────────────────── */}
                 <section id="bagore-ki-haveli">
                   <h2>Bagore ki Haveli</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/rajasthan/udaipur/bagore-ki-haveli-udaipur.webp"
+                      alt="Ornate carved courtyard and balconies inside Bagore ki Haveli museum, Udaipur"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Sitting directly on the Gangaur Ghat at Lake Pichola's edge,{" "}
                     <strong>Bagore ki Haveli</strong> is an 18th-century mansion
@@ -855,6 +891,15 @@ export default function UdaipurCityOfLakesPage() {
                 {/* ── Monsoon Palace ────────────────────────────────────── */}
                 <section id="monsoon-palace">
                   <h2>Monsoon Palace (Sajjangarh)</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/rajasthan/udaipur/monsoon-palace-sajjangarh-udaipur.webp"
+                      alt="Monsoon Palace (Sajjangarh) hilltop fort at dusk above Udaipur"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Perched on a hilltop 944 metres above sea level, the{" "}
                     <strong>Monsoon Palace</strong> (Sajjangarh) was built in
@@ -888,6 +933,15 @@ export default function UdaipurCityOfLakesPage() {
                 {/* ── Old City & Markets ────────────────────────────────── */}
                 <section id="old-city">
                   <h2>The Old City & Markets</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/rajasthan/udaipur/jagdish-temple-udaipur.webp"
+                      alt="Carved stone facade of Jagdish Temple in Udaipur's old city"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Udaipur's old city, wrapped around Lake Pichola's eastern
                     shore, rewards aimless wandering as much as any specific
