@@ -1,13 +1,12 @@
 # List of Indian States and Union Territories
 
+## Cities Covered
+
 Andhra Pradesh - done
 Arunachal Pradesh - done
 Assam - done
 Bihar - done
 Chhattisgarh - done
-
-## Cities Covered
-
 Goa - done
 Gujarat - done
 Haryana - done
