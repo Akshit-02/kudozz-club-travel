@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/ziro/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Dense green forest and hills, evoking Jharkhand's Chotanagpur plateau",
+        url: "/images/blogs/jharkhand/jharkhand/hundru-falls-ranchi-jharkhand.webp",
+        width: 1400,
+        height: 1050,
+        alt: "Hundru Falls cascading over granite rocks near Ranchi, Jharkhand",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Jharkhand Travel Guide: Netarhat, Betla National Park & Waterfalls",
     description:
       "Waterfalls, forests, and tribal heritage on the Chotanagpur plateau — the complete guide to Jharkhand.",
-    images: ["/images/destinations/ziro/hero.jpg"],
+    images: ["/images/blogs/jharkhand/jharkhand/hundru-falls-ranchi-jharkhand.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/jharkhand-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline:
             "Jharkhand Travel Guide: Netarhat, Betla National Park & Waterfalls",
           description: "The complete Jharkhand travel guide.",
-          image: "https://club.kudozz.in/images/destinations/ziro/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/jharkhand/jharkhand/hundru-falls-ranchi-jharkhand.webp",
           datePublished: "2026-07-22",
           dateModified: "2026-07-22",
           publisher: {
@@ -288,8 +288,8 @@ export default function JharkhandGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/ziro/hero.jpg"
-              alt="Dense green forest and hills, evoking Jharkhand's Chotanagpur plateau"
+              src="/images/blogs/jharkhand/jharkhand/hundru-falls-ranchi-jharkhand.webp"
+              alt="Hundru Falls cascading over granite rocks near Ranchi, Jharkhand"
               fill
               priority
               sizes="100vw"
@@ -667,7 +667,7 @@ export default function JharkhandGuidePage() {
                   <h2>Netarhat: Queen of Chotanagpur</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/meghalaya/dawki-river.jpg"
+                      src="/images/blogs/jharkhand/jharkhand/hundru-falls-ranchi-jharkhand.webp"
                       alt="Clear flowing water over rock, evoking the streams and forested valleys around Jharkhand's Netarhat plateau"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"

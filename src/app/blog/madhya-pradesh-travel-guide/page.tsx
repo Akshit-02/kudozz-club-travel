@@ -28,10 +28,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/hampi/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Ancient carved temple architecture, evoking Madhya Pradesh's Khajuraho temples",
+        url: "/images/blogs/madhya-pradesh/madhya-pradesh/khajuraho-devi-jagadambi-temple-madhya-pradesh.webp",
+        width: 1600,
+        height: 1375,
+        alt: "The sandstone spire of the Devi Jagadambi Temple, part of the Khajuraho temple complex, Madhya Pradesh",
       },
     ],
   },
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
       "Madhya Pradesh Travel Guide: Khajuraho, Bandhavgarh & Gwalior Fort",
     description:
       "Carved temples, tiger safaris, and a hilltop fortress — the complete guide to Madhya Pradesh.",
-    images: ["/images/destinations/hampi/hero.jpg"],
+    images: ["/images/blogs/madhya-pradesh/madhya-pradesh/khajuraho-devi-jagadambi-temple-madhya-pradesh.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/madhya-pradesh-travel-guide",
@@ -60,7 +60,7 @@ function ArticleSchema() {
           headline:
             "Madhya Pradesh Travel Guide: Khajuraho, Bandhavgarh & Gwalior Fort",
           description: "The complete Madhya Pradesh travel guide.",
-          image: "https://club.kudozz.in/images/destinations/hampi/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/madhya-pradesh/madhya-pradesh/khajuraho-devi-jagadambi-temple-madhya-pradesh.webp",
           datePublished: "2026-07-22",
           dateModified: "2026-07-22",
           publisher: {
@@ -290,8 +290,8 @@ export default function MadhyaPradeshGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/hampi/hero.jpg"
-              alt="Ancient carved temple architecture, evoking Madhya Pradesh's Khajuraho temples"
+              src="/images/blogs/madhya-pradesh/madhya-pradesh/khajuraho-devi-jagadambi-temple-madhya-pradesh.webp"
+              alt="The sandstone spire of the Devi Jagadambi Temple, part of the Khajuraho temple complex, Madhya Pradesh"
               fill
               priority
               sizes="100vw"
@@ -666,7 +666,7 @@ export default function MadhyaPradeshGuidePage() {
                   <h2>Bandhavgarh & Kanha: Tiger Country</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/ziro/hero.jpg"
+                      src="/images/blogs/madhya-pradesh/madhya-pradesh/khajuraho-devi-jagadambi-temple-madhya-pradesh.webp"
                       alt="Dense green forest landscape, evoking the tiger reserves of Bandhavgarh and Kanha in Madhya Pradesh"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
@@ -716,7 +716,7 @@ export default function MadhyaPradeshGuidePage() {
                   <h2>Gwalior Fort & Sanchi Stupa</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/jaisalmer/fort.jpg"
+                      src="/images/blogs/madhya-pradesh/madhya-pradesh/khajuraho-devi-jagadambi-temple-madhya-pradesh.webp"
                       alt="A large hilltop fort with sandstone walls, evoking Gwalior Fort in Madhya Pradesh"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"

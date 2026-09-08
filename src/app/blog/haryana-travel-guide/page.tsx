@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/chandigarh/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "City skyline near the Shivalik foothills, evoking Haryana's Panchkula region",
+        url: "/images/blogs/haryana/haryana/krishna-arjun-chariot-statue-kurukshetra-haryana.webp",
+        width: 1600,
+        height: 1200,
+        alt: "The bronze Krishna-Arjuna chariot statue at Jyotisar, Kurukshetra, Haryana",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Haryana Travel Guide: Kurukshetra, Surajkund & Panchkula",
     description:
       "Mahabharata mythology, a legendary crafts fair, and easy weekend trips from Delhi — the honest guide to Haryana.",
-    images: ["/images/destinations/chandigarh/hero.jpg"],
+    images: ["/images/blogs/haryana/haryana/krishna-arjun-chariot-statue-kurukshetra-haryana.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/haryana-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Haryana Travel Guide: Kurukshetra, Surajkund & Panchkula",
           description: "The complete Haryana travel guide.",
           image:
-            "https://club.kudozz.in/images/destinations/chandigarh/hero.jpg",
+            "https://club.kudozz.in/images/blogs/haryana/haryana/krishna-arjun-chariot-statue-kurukshetra-haryana.webp",
           datePublished: "2026-07-22",
           dateModified: "2026-07-22",
           publisher: {
@@ -287,8 +287,8 @@ export default function HaryanaGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/chandigarh/hero.jpg"
-              alt="City skyline near the Shivalik foothills, evoking Haryana's Panchkula region"
+              src="/images/blogs/haryana/haryana/krishna-arjun-chariot-statue-kurukshetra-haryana.webp"
+              alt="The bronze Krishna-Arjuna chariot statue at Jyotisar, Kurukshetra, Haryana"
               fill
               priority
               sizes="100vw"
@@ -631,7 +631,7 @@ export default function HaryanaGuidePage() {
                   <h2>Kurukshetra: Mahabharata's Battlefield</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/hampi/virupaksha.jpg"
+                      src="/images/blogs/haryana/haryana/krishna-arjun-chariot-statue-kurukshetra-haryana.webp"
                       alt="Ancient carved stone temple architecture with pillared halls, evoking the temple sites around Kurukshetra"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
@@ -685,7 +685,7 @@ export default function HaryanaGuidePage() {
                   <h2>Surajkund & Faridabad</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/jaisalmer/fort.jpg"
+                      src="/images/blogs/haryana/haryana/krishna-arjun-chariot-statue-kurukshetra-haryana.webp"
                       alt="Sandstone fort ramparts and bastions, evoking the historic stone architecture around Surajkund's ancient reservoir"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"

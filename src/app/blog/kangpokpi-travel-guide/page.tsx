@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/manali/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Cool pine-covered hill town landscape, evoking Kangpokpi's forested hills north of Imphal in Manipur",
+        url: "/images/blogs/manipur/kangpokpi/pineapple-terraces-kangpokpi-manipur.webp",
+        width: 1600,
+        height: 1197,
+        alt: "Sunlit pineapple terraces climbing a hillside near Kangpokpi, Manipur",
       },
     ],
   },
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     title: "Kangpokpi Travel Guide: Pineapple Hills Near Imphal",
     description:
       "Cool hills, pineapple orchards, and forested terrain a short drive from Imphal — the complete Kangpokpi guide.",
-    images: ["/images/destinations/manali/hero.jpg"],
+    images: ["/images/blogs/manipur/kangpokpi/pineapple-terraces-kangpokpi-manipur.webp"],
   },
   robots: {
     index: true,
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Kangpokpi Travel Guide: Pineapple Hills Near Imphal",
           description:
             "Complete Kangpokpi travel guide — a Kuki-Zo hill town north of Imphal on NH2, known for pineapple cultivation, forested terrain and waterfalls.",
-          image: "https://club.kudozz.in/images/destinations/manali/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/manipur/kangpokpi/pineapple-terraces-kangpokpi-manipur.webp",
           datePublished: "2026-09-05",
           dateModified: "2026-09-05",
           publisher: {
@@ -194,8 +194,8 @@ export default function KangpokpiGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/manali/hero.jpg"
-              alt="Cool pine-covered hill town landscape, evoking Kangpokpi's forested hills north of Imphal in Manipur"
+              src="/images/blogs/manipur/kangpokpi/pineapple-terraces-kangpokpi-manipur.webp"
+              alt="Sunlit pineapple terraces climbing a hillside near Kangpokpi, Manipur"
               fill
               priority
               sizes="100vw"
@@ -521,8 +521,8 @@ export default function KangpokpiGuidePage() {
                   <h2>Things to Do in Kangpokpi</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/manali/hero.jpg"
-                      alt="Forested hill terrain near Kangpokpi, Manipur"
+                      src="/images/blogs/manipur/kangpokpi/pineapple-terraces-kangpokpi-manipur.webp"
+                      alt="Sunlit pineapple terraces climbing a hillside near Kangpokpi, Manipur"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

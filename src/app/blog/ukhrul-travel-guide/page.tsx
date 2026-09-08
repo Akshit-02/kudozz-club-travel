@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/ziro/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Pine-clad hills of a Northeast Indian hill town, evoking Ukhrul's forested ridges in Manipur",
+        url: "/images/blogs/manipur/ukhrul/ukhrul-hill-town-panoramic-view.webp",
+        width: 1600,
+        height: 1067,
+        alt: "Panoramic view of Ukhrul, the Tangkhul Naga hill town, spread across the ridges of Manipur",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Ukhrul Travel Guide: Tangkhul Naga Hills & Shirui Lily Gateway",
     description:
       "Pine-covered hills and a distinct Tangkhul Naga culture — the complete guide to Ukhrul, Manipur.",
-    images: ["/images/destinations/ziro/hero.jpg"],
+    images: ["/images/blogs/manipur/ukhrul/ukhrul-hill-town-panoramic-view.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/ukhrul-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Ukhrul Travel Guide: Tangkhul Naga Hills & Shirui Lily Gateway",
           description:
             "Complete Ukhrul travel guide — the Tangkhul Naga hill town near the Shirui Lily's only wild habitat, Khangkhui Lime Cave, and best time to visit.",
-          image: "https://club.kudozz.in/images/destinations/ziro/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/manipur/ukhrul/ukhrul-hill-town-panoramic-view.webp",
           datePublished: "2026-09-05",
           dateModified: "2026-09-05",
           publisher: {
@@ -194,8 +194,8 @@ export default function UkhrulGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/ziro/hero.jpg"
-              alt="Pine-clad hills of a Northeast Indian hill town, evoking Ukhrul's forested ridges in Manipur"
+              src="/images/blogs/manipur/ukhrul/ukhrul-hill-town-panoramic-view.webp"
+              alt="Panoramic view of Ukhrul, the Tangkhul Naga hill town, spread across the ridges of Manipur"
               fill
               priority
               sizes="100vw"
@@ -526,8 +526,8 @@ export default function UkhrulGuidePage() {
                   <h2>Things to Do in Ukhrul</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/ziro/hero.jpg"
-                      alt="Pine forest hillside near Ukhrul, Manipur"
+                      src="/images/blogs/manipur/ukhrul/ukhrul-town-south-view-tangkhul-hills.webp"
+                      alt="Ukhrul town spread across the Tangkhul hills under a monsoon sky, Manipur"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

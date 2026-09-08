@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/coorg/abbey-falls.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Waterfall in green hill country, evoking Senapati's cool northern Naga hills in Manipur",
+        url: "/images/blogs/manipur/senapati/dzukou-valley-rolling-naga-hills-senapati.webp",
+        width: 1600,
+        height: 1064,
+        alt: "Rolling green Naga hills of the Dzukou Valley on the Manipur-Nagaland border in Senapati district",
       },
     ],
   },
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     title: "Senapati Travel Guide: Mao Gate, King Chilli & Naga Hills",
     description:
       "Terraced hill farms, fiery King Chilli, and a well-known state-border gateway — the complete Senapati guide.",
-    images: ["/images/destinations/coorg/abbey-falls.jpg"],
+    images: ["/images/blogs/manipur/senapati/dzukou-valley-rolling-naga-hills-senapati.webp"],
   },
   robots: {
     index: true,
@@ -59,7 +59,7 @@ function ArticleSchema() {
           description:
             "Complete Senapati travel guide — the northern Naga hill country of Manipur, Mao Gate on NH2, King Chilli, terraced farms, and full trip planning.",
           image:
-            "https://club.kudozz.in/images/destinations/coorg/abbey-falls.jpg",
+            "https://club.kudozz.in/images/blogs/manipur/senapati/dzukou-valley-rolling-naga-hills-senapati.webp",
           datePublished: "2026-09-05",
           dateModified: "2026-09-05",
           publisher: {
@@ -195,8 +195,8 @@ export default function SenapatiGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/coorg/abbey-falls.jpg"
-              alt="Waterfall in green hill country, evoking Senapati's cool northern Naga hills in Manipur"
+              src="/images/blogs/manipur/senapati/dzukou-valley-rolling-naga-hills-senapati.webp"
+              alt="Rolling green Naga hills of the Dzukou Valley on the Manipur-Nagaland border in Senapati district"
               fill
               priority
               sizes="100vw"
@@ -526,8 +526,8 @@ export default function SenapatiGuidePage() {
                   <h2>Things to Do in Senapati</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/coorg/abbey-falls.jpg"
-                      alt="Green hill terrain in Senapati district, Manipur"
+                      src="/images/blogs/manipur/senapati/dzukou-valley-rolling-naga-hills-senapati.webp"
+                      alt="Rolling green Naga hills of the Dzukou Valley in Senapati district, Manipur"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

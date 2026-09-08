@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/meghalaya/dawki-river.jpg",
-        width: 1200,
-        height: 630,
-        alt: "River forming a border landscape, evoking the Yu River at Moreh on the India-Myanmar frontier in Manipur",
+        url: "/images/blogs/manipur/moreh/indo-myanmar-friendship-gate-moreh.webp",
+        width: 1600,
+        height: 2133,
+        alt: "The Indo-Myanmar Friendship Gate marking the India-Myanmar border crossing at Moreh, Manipur",
       },
     ],
   },
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     title: "Moreh Travel Guide: India's Border Town to Myanmar",
     description:
       "A frontier trading town on the India-Myanmar border — the complete Moreh travel guide.",
-    images: ["/images/destinations/meghalaya/dawki-river.jpg"],
+    images: ["/images/blogs/manipur/moreh/indo-myanmar-friendship-gate-moreh.webp"],
   },
   robots: {
     index: true,
@@ -59,7 +59,7 @@ function ArticleSchema() {
           description:
             "Complete Moreh travel guide — India's frontier trading town on the Manipur-Myanmar border, the Friendship Bridge over the Yu River, and full trip planning.",
           image:
-            "https://club.kudozz.in/images/destinations/meghalaya/dawki-river.jpg",
+            "https://club.kudozz.in/images/blogs/manipur/moreh/indo-myanmar-friendship-gate-moreh.webp",
           datePublished: "2026-09-05",
           dateModified: "2026-09-05",
           publisher: {
@@ -195,8 +195,8 @@ export default function MorehGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/meghalaya/dawki-river.jpg"
-              alt="River forming a border landscape, evoking the Yu River at Moreh on the India-Myanmar frontier in Manipur"
+              src="/images/blogs/manipur/moreh/indo-myanmar-friendship-gate-moreh.webp"
+              alt="The Indo-Myanmar Friendship Gate marking the India-Myanmar border crossing at Moreh, Manipur"
               fill
               priority
               sizes="100vw"
@@ -539,8 +539,8 @@ export default function MorehGuidePage() {
                   <h2>Things to Do in Moreh</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/meghalaya/dawki-river.jpg"
-                      alt="River landscape near the India-Myanmar border at Moreh, Manipur"
+                      src="/images/blogs/manipur/moreh/indo-myanmar-friendship-gate-moreh.webp"
+                      alt="The Indo-Myanmar Friendship Gate marking the India-Myanmar border crossing at Moreh, Manipur"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

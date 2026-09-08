@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jaisalmer/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "A grand Rajasthani sandstone fort at golden hour, evoking Rajasthan's royal architectural heritage",
+        url: "/images/blogs/rajasthan/rajasthan/hawa-mahal-facade-jaipur.webp",
+        width: 1500,
+        height: 1000,
+        alt: "The pink sandstone honeycomb facade of the Hawa Mahal (Palace of Winds) in Jaipur",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Rajasthan Travel Guide: Jaipur, Jodhpur & Pushkar Circuit",
     description:
       "Pink-walled Jaipur, the Blue City of Jodhpur, and royal forts across the desert — the complete guide to Rajasthan.",
-    images: ["/images/destinations/jaisalmer/hero.jpg"],
+    images: ["/images/blogs/rajasthan/rajasthan/hawa-mahal-facade-jaipur.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/rajasthan-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Rajasthan Travel Guide: Jaipur, Jodhpur & Pushkar Circuit",
           description: "The complete Rajasthan travel guide.",
           image:
-            "https://club.kudozz.in/images/destinations/jaisalmer/hero.jpg",
+            "https://club.kudozz.in/images/blogs/rajasthan/rajasthan/hawa-mahal-facade-jaipur.webp",
           datePublished: "2026-07-19",
           dateModified: "2026-07-19",
           publisher: {
@@ -289,8 +289,8 @@ export default function RajasthanGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jaisalmer/hero.jpg"
-              alt="A grand Rajasthani sandstone fort at golden hour, evoking Rajasthan's royal architectural heritage"
+              src="/images/blogs/rajasthan/rajasthan/hawa-mahal-facade-jaipur.webp"
+              alt="The pink sandstone honeycomb facade of the Hawa Mahal (Palace of Winds) in Jaipur"
               fill
               priority
               sizes="100vw"
@@ -654,8 +654,8 @@ export default function RajasthanGuidePage() {
                   <h2>Jodhpur: The Blue City</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/jaisalmer/fort.jpg"
-                      alt="A massive hilltop sandstone fort, evoking Jodhpur's Mehrangarh Fort towering above the Blue City"
+                      src="/images/blogs/rajasthan/rajasthan/mehrangarh-fort-blue-city-jodhpur.webp"
+                      alt="Mehrangarh Fort's ramparts overlooking Jodhpur's indigo-washed Blue City below"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

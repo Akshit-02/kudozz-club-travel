@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/meghalaya/dawki-river.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Green misty hills in Northeast India, evoking Mizoram's forested mountain terrain",
+        url: "/images/blogs/mizoram/mizoram/vantawng-falls-mizoram.webp",
+        width: 1300,
+        height: 865,
+        alt: "Vantawng Falls, Mizoram's highest waterfall, dropping through a forested gorge near Thenzawl",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Mizoram Travel Guide: Aizawl, Reiek & Vantawng Falls",
     description:
       "Hillside markets, waterfalls, and Mizo culture — the complete guide to Mizoram.",
-    images: ["/images/destinations/meghalaya/dawki-river.jpg"],
+    images: ["/images/blogs/mizoram/mizoram/vantawng-falls-mizoram.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/mizoram-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Mizoram Travel Guide: Aizawl, Reiek & Vantawng Falls",
           description: "The complete Mizoram travel guide.",
           image:
-            "https://club.kudozz.in/images/destinations/meghalaya/dawki-river.jpg",
+            "https://club.kudozz.in/images/blogs/mizoram/mizoram/vantawng-falls-mizoram.webp",
           datePublished: "2026-07-22",
           dateModified: "2026-07-22",
           publisher: {
@@ -288,8 +288,8 @@ export default function MizoramGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/meghalaya/dawki-river.jpg"
-              alt="Green misty hills in Northeast India, evoking Mizoram's forested mountain terrain"
+              src="/images/blogs/mizoram/mizoram/vantawng-falls-mizoram.webp"
+              alt="Vantawng Falls, Mizoram's highest waterfall, dropping through a forested gorge near Thenzawl"
               fill
               priority
               sizes="100vw"
@@ -637,8 +637,8 @@ export default function MizoramGuidePage() {
                   <h2>Reiek: Viewpoint & Heritage Village</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/ziro/hero.jpg"
-                      alt="Green hills and forest landscape, evoking Reiek's viewpoint near Aizawl in Mizoram"
+                      src="/images/blogs/mizoram/mizoram/vantawng-falls-mizoram.webp"
+                      alt="Vantawng Falls plunging through Mizoram's forested hills, one of the state's most iconic sights"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

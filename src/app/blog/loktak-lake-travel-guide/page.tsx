@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/meghalaya/dawki-river.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Calm lake water reflecting green hills, evoking Manipur's Loktak Lake",
+        url: "/images/blogs/manipur/loktak-lake/loktak-lake-fishing-nets-manipur.webp",
+        width: 1600,
+        height: 898,
+        alt: "Traditional fishing nets standing in the calm waters of Loktak Lake, Manipur",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Loktak Lake Travel Guide: Phumdis, Sendra & Boating",
     description:
       "Floating islands, fishing huts on the water, and the world's only floating national park — the complete Loktak Lake guide.",
-    images: ["/images/destinations/meghalaya/dawki-river.jpg"],
+    images: ["/images/blogs/manipur/loktak-lake/loktak-lake-fishing-nets-manipur.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/loktak-lake-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           description:
             "The complete Loktak Lake travel guide — floating phumdi islands, fishing villages on the water, Sendra's viewpoint, Keibul Lamjao's floating national park, and boating.",
           image:
-            "https://club.kudozz.in/images/destinations/meghalaya/dawki-river.jpg",
+            "https://club.kudozz.in/images/blogs/manipur/loktak-lake/loktak-lake-fishing-nets-manipur.webp",
           datePublished: "2026-09-05",
           dateModified: "2026-09-05",
           publisher: {
@@ -196,8 +196,8 @@ export default function LoktakLakeGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/meghalaya/dawki-river.jpg"
-              alt="Calm lake water reflecting green hills, evoking Manipur's Loktak Lake"
+              src="/images/blogs/manipur/loktak-lake/loktak-lake-fishing-nets-manipur.webp"
+              alt="Traditional fishing nets standing in the calm waters of Loktak Lake, Manipur"
               fill
               priority
               sizes="100vw"
@@ -513,8 +513,8 @@ export default function LoktakLakeGuidePage() {
                   <h2>Things to Do at Loktak Lake</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/meghalaya/dawki-river.jpg"
-                      alt="Calm lake water reflecting green hills, evoking Manipur's Loktak Lake"
+                      src="/images/blogs/manipur/loktak-lake/loktak-lake-phumdi-floating-vegetation.webp"
+                      alt="Floating phumdi vegetation islands drifting on Loktak Lake, Manipur"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/kerala/alleppey.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Calm wetland backwater fringed with vegetation, evoking the floating phumdis of Keibul Lamjao",
+        url: "/images/blogs/manipur/keibul-lamjao/floating-phumdi-islands-keibul-lamjao.webp",
+        width: 1600,
+        height: 1200,
+        alt: "Floating phumdi islands drifting on the water at Keibul Lamjao National Park, Manipur",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Keibul Lamjao National Park Guide: Floating Park & Sangai Deer",
     description:
       "The world's only floating national park and home to the endangered Sangai deer — the complete Keibul Lamjao guide.",
-    images: ["/images/destinations/kerala/alleppey.jpg"],
+    images: ["/images/blogs/manipur/keibul-lamjao/floating-phumdi-islands-keibul-lamjao.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/keibul-lamjao-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
             "Keibul Lamjao National Park Guide: Floating Park & Sangai Deer",
           description:
             "Complete guide to Keibul Lamjao National Park — the world's only floating national park inside Loktak Lake, home to the endangered Sangai deer.",
-          image: "https://club.kudozz.in/images/destinations/kerala/alleppey.jpg",
+          image: "https://club.kudozz.in/images/blogs/manipur/keibul-lamjao/floating-phumdi-islands-keibul-lamjao.webp",
           datePublished: "2026-09-05",
           dateModified: "2026-09-05",
           publisher: {
@@ -196,8 +196,8 @@ export default function KeibulLamjaoGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/kerala/alleppey.jpg"
-              alt="Calm wetland backwater fringed with vegetation, evoking the floating phumdis of Keibul Lamjao"
+              src="/images/blogs/manipur/keibul-lamjao/floating-phumdi-islands-keibul-lamjao.webp"
+              alt="Floating phumdi islands drifting on the water at Keibul Lamjao National Park, Manipur"
               fill
               priority
               sizes="100vw"
@@ -526,8 +526,8 @@ export default function KeibulLamjaoGuidePage() {
                   <h2>The Park & the Sangai</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/kerala/alleppey.jpg"
-                      alt="Wetland backwater with dense floating vegetation, evoking the phumdis of Keibul Lamjao National Park"
+                      src="/images/blogs/manipur/keibul-lamjao/sangai-brow-antlered-deer-keibul-lamjao.webp"
+                      alt="Sangai, the endangered Manipur brow-antlered deer, in Keibul Lamjao National Park"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

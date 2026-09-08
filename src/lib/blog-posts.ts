@@ -29,7 +29,7 @@ export const posts = [
     title: "Odisha Travel Guide: Konark, Puri & Chilika Lake",
     excerpt:
       "A stone temple carved as a giant chariot, one of Hinduism's holiest shrines, and a lagoon where Irrawaddy dolphins surface between fishing boats — the complete guide to India's most underrated temple state.",
-    image: "/images/destinations/hampi/hero.jpg",
+    image: "/images/blogs/odisha/odisha/konark-sun-temple-wheel-odisha.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Odisha", "Konark", "Puri"],
@@ -41,7 +41,7 @@ export const posts = [
     title: "Punjab Travel Guide: Golden Temple, Amritsar & Wagah Border",
     excerpt:
       "A temple that shimmers gold over a sacred pool, a nightly border ceremony full of pageantry, and food that shaped how the rest of India eats — the complete guide to Punjab.",
-    image: "/images/destinations/udaipur/hero.jpg",
+    image: "/images/blogs/punjab/punjab/golden-temple-amritsar-punjab.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Punjab", "Amritsar", "Golden Temple"],
@@ -53,7 +53,7 @@ export const posts = [
     title: "Rajasthan Travel Guide: Jaipur, Jodhpur & Pushkar Circuit",
     excerpt:
       "Pink-walled bazaars, a fort city painted entirely blue, and royal palaces still standing where maharajas built them centuries ago — the complete guide to Rajasthan's classic circuit.",
-    image: "/images/destinations/jaisalmer/hero.jpg",
+    image: "/images/blogs/rajasthan/rajasthan/hawa-mahal-facade-jaipur.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Rajasthan", "Jaipur", "Jodhpur"],
@@ -65,7 +65,7 @@ export const posts = [
     title: "Sikkim Travel Guide: Gangtok, Yumthang Valley & Nathula Pass",
     excerpt:
       "Alpine lakes above 12,000 feet, a valley that turns into a carpet of rhododendrons every spring, and unobstructed views of Kanchenjunga — the complete guide to Sikkim.",
-    image: "/images/destinations/manali/hero.jpg",
+    image: "/images/blogs/sikkim/sikkim/rumtek-monastery-gangtok-sikkim.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Sikkim", "Gangtok", "Yumthang Valley"],
@@ -77,7 +77,7 @@ export const posts = [
     title: "Tamil Nadu Travel Guide: Madurai, Mahabalipuram & Ooty",
     excerpt:
       "Temple towers carved with thousands of painted deities, UNESCO shore temples on the Bay of Bengal, and tea gardens in the Nilgiri hills — the complete guide to Dravidian India.",
-    image: "/images/destinations/hampi/virupaksha.jpg",
+    image: "/images/blogs/tamil-nadu/tamil-nadu/meenakshi-temple-gopuram-madurai.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Tamil Nadu", "Madurai", "Ooty"],
@@ -89,7 +89,7 @@ export const posts = [
     title: "Tripura Travel Guide: Neermahal, Unakoti & Ujjayanta Palace",
     excerpt:
       "A palace rising from the middle of a lake, giant rock-cut carvings hidden in the forest, and a royal capital barely anyone's heard of — the complete guide to India's most overlooked princely state.",
-    image: "/images/destinations/ziro/hero.jpg",
+    image: "/images/blogs/tripura/tripura/neermahal-lake-palace-tripura.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Tripura", "Neermahal", "Unakoti"],
@@ -101,7 +101,7 @@ export const posts = [
     title: "Nagaland Travel Guide: Hornbill Festival, Kohima & Dzukou Valley",
     excerpt:
       "A festival where sixteen tribes gather in their warrior best, a war cemetery from a WWII turning point, and a valley called the Switzerland of the East — the complete guide to Nagaland.",
-    image: "/images/destinations/meghalaya/hero.jpg",
+    image: "/images/blogs/nagaland/nagaland/dzukou-valley-nagaland.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Nagaland", "Hornbill Festival", "Kohima"],
@@ -113,7 +113,7 @@ export const posts = [
     title: "Mizoram Travel Guide: Aizawl, Reiek & Vantawng Falls",
     excerpt:
       "A hillside capital with no traffic jams, a waterfall dropping through pine-covered gorges, and one of India's cleanest, most literate states — the complete guide to Mizoram.",
-    image: "/images/destinations/meghalaya/dawki-river.jpg",
+    image: "/images/blogs/mizoram/mizoram/vantawng-falls-mizoram.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Mizoram", "Aizawl", "Reiek"],
@@ -125,7 +125,7 @@ export const posts = [
     title: "Manipur Travel Guide: Loktak Lake, Imphal & Kangla Fort",
     excerpt:
       "Floating islands drifting across a shimmering lake, the world's only floating national park, and a market run entirely by women for centuries — the complete guide to Manipur.",
-    image: "/images/destinations/meghalaya/dawki-river.jpg",
+    image: "/images/blogs/manipur/manipur/loktak-lake-floating-islands-manipur.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Manipur", "Loktak Lake", "Imphal"],
@@ -137,7 +137,7 @@ export const posts = [
     title: "Imphal Travel Guide: Kangla Fort & Ima Keithel Market",
     excerpt:
       "A royal fort built for dragon-lion kings, an all-women-run market centuries old, and a WWII cemetery on the edge of the valley — the complete guide to Manipur's capital.",
-    image: "/images/destinations/meghalaya/hero.jpg",
+    image: "/images/blogs/manipur/imphal/kangla-fort-gate-imphal.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Manipur", "Imphal", "Kangla Fort"],
@@ -149,7 +149,7 @@ export const posts = [
     title: "Loktak Lake Travel Guide: Phumdis, Sendra & Boating",
     excerpt:
       "Floating islands of vegetation thick enough to build a village on, a hilltop viewpoint over the water, and Northeast India's largest freshwater lake — the complete guide to Loktak.",
-    image: "/images/destinations/meghalaya/dawki-river.jpg",
+    image: "/images/blogs/manipur/loktak-lake/loktak-lake-fishing-nets-manipur.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Manipur", "Loktak Lake", "Phumdi"],
@@ -161,7 +161,7 @@ export const posts = [
     title: "Moirang Travel Guide: INA Memorial & Loktak Lake Gateway",
     excerpt:
       "The spot where Netaji Subhas Chandra Bose first raised the Indian tricolor on Indian soil, and the historic lakeside town that's the gateway to Loktak — the complete guide to Moirang.",
-    image: "/images/destinations/jammu-kashmir/dal.jpg",
+    image: "/images/blogs/manipur/moirang/ina-memorial-complex-moirang-manipur.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Manipur", "Moirang", "INA Memorial"],
@@ -173,7 +173,7 @@ export const posts = [
     title: "Keibul Lamjao National Park Guide: Floating Park & Sangai Deer",
     excerpt:
       "The world's only floating national park, made entirely of drifting biomass on Loktak Lake, and home to an endangered deer found nowhere else on Earth — the complete guide to Keibul Lamjao.",
-    image: "/images/destinations/kerala/alleppey.jpg",
+    image: "/images/blogs/manipur/keibul-lamjao/floating-phumdi-islands-keibul-lamjao.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Manipur", "Keibul Lamjao", "Sangai Deer"],
@@ -185,7 +185,7 @@ export const posts = [
     title: "Andro Village Travel Guide: Pottery, Heritage & Temples",
     excerpt:
       "A centuries-old heritage village where women still shape black pottery by hand without a wheel, a cluster of ancient shrines, and an open-air museum of tribal Manipur — the complete guide to Andro.",
-    image: "/images/destinations/hampi/virupaksha.jpg",
+    image: "/images/blogs/manipur/andro/cultural-heritage-complex-wood-carvings-andro.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Manipur", "Andro", "Heritage Village"],
@@ -197,7 +197,7 @@ export const posts = [
     title: "Zeilad Lake Travel Guide: Tamenglong's Sacred Lake",
     excerpt:
       "A remote lake sacred to the Zeliangrong Naga people, hidden deep in Manipur's forested hill country with barely any tourist trail — the complete guide to Zeilad Lake.",
-    image: "/images/destinations/kerala/alleppey.jpg",
+    image: "/images/blogs/manipur/zeilad-lake/forest-fringed-lake-northeast-india.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Manipur", "Zeilad Lake", "Tamenglong"],
@@ -209,7 +209,7 @@ export const posts = [
     title: "Ukhrul Travel Guide: Tangkhul Naga Hills & Shirui Lily Gateway",
     excerpt:
       "A pine-covered Tangkhul Naga hill town, a WWII-era limestone cave, and the gateway to a flower found nowhere else on Earth — the complete guide to Ukhrul.",
-    image: "/images/destinations/ziro/hero.jpg",
+    image: "/images/blogs/manipur/ukhrul/ukhrul-hill-town-panoramic-view.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Manipur", "Ukhrul", "Tangkhul Naga"],
@@ -221,7 +221,7 @@ export const posts = [
     title: "Shirui Hills Trek Guide: Shirui Lily & Best Time to Visit",
     excerpt:
       "The only place on the planet where the rare Shirui Lily grows wild, and a moderate trek to a 2,835m peak with sweeping views of the Naga hills — the complete guide to Shirui Hills.",
-    image: "/images/destinations/manali/solang-valley.jpg",
+    image: "/images/blogs/manipur/shirui-hills/shirui-siroy-national-park-rolling-hills.webp",
     category: "Trekking",
     categoryColor: "bg-green-100 text-green-700",
     tags: ["Manipur", "Shirui Hills", "Shirui Lily"],
@@ -233,7 +233,7 @@ export const posts = [
     title: "Tharon Cave Guide: Manipur's Longest Limestone Cave",
     excerpt:
       "One of the longest known cave systems in Northeast India, undeveloped and unlit, with stalactite formations and bat colonies deep in Manipur's western hill country — the complete guide to Tharon Cave.",
-    image: "/images/destinations/manali/rohtang-pass.jpg",
+    image: "/images/blogs/manipur/tharon-cave/tharon-cave-limestone-passage-entrance.webp",
     category: "Adventure",
     categoryColor: "bg-amber-100 text-amber-700",
     tags: ["Manipur", "Tharon Cave", "Caving"],
@@ -245,7 +245,7 @@ export const posts = [
     title: "Tamenglong Travel Guide: Orange Hills of Zeliangrong Country",
     excerpt:
       "Misty forested hills famous for a citrus so good it gets its own festival, plus a sacred lake and one of Northeast India's longest caves nearby — the complete guide to Tamenglong.",
-    image: "/images/destinations/coorg/coorg.jpg",
+    image: "/images/blogs/manipur/tamenglong/kianthok-hills-valley-tamenglong.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Manipur", "Tamenglong", "Zeliangrong"],
@@ -257,7 +257,7 @@ export const posts = [
     title: "Senapati Travel Guide: Mao Gate, King Chilli & Naga Hills",
     excerpt:
       "Terraced Naga hill farms growing one of the world's hottest chillies, and the road gateway where Manipur meets Nagaland at Mao Gate — the complete guide to Senapati.",
-    image: "/images/destinations/coorg/abbey-falls.jpg",
+    image: "/images/blogs/manipur/senapati/dzukou-valley-rolling-naga-hills-senapati.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Manipur", "Senapati", "Naga Hills"],
@@ -269,7 +269,7 @@ export const posts = [
     title: "Kangpokpi Travel Guide: Pineapple Hills Near Imphal",
     excerpt:
       "A cool Kuki-Zo hill town on NH2 known for its pineapple harvest, forested slopes and quiet waterfalls, just a short drive north of Imphal — the complete guide to Kangpokpi.",
-    image: "/images/destinations/manali/hero.jpg",
+    image: "/images/blogs/manipur/kangpokpi/pineapple-terraces-kangpokpi-manipur.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Manipur", "Kangpokpi", "Kuki-Zo"],
@@ -281,7 +281,7 @@ export const posts = [
     title: "Moreh Travel Guide: India's Border Town to Myanmar",
     excerpt:
       "A frontier trading town linked to Myanmar by a bridge over the Yu River, and India's easternmost gateway on the road to Southeast Asia — the complete guide to Moreh.",
-    image: "/images/destinations/meghalaya/dawki-river.jpg",
+    image: "/images/blogs/manipur/moreh/indo-myanmar-friendship-gate-moreh.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Manipur", "Moreh", "India-Myanmar Border"],
@@ -293,7 +293,7 @@ export const posts = [
     title: "Maharashtra Travel Guide: Mumbai, Ajanta-Ellora & Konkan Coast",
     excerpt:
       "A city that never sleeps, 2,000-year-old rock-cut cave temples, and a coastline dotted with sea forts and fishing villages — the complete guide to Maharashtra.",
-    image: "/images/destinations/hampi/hero.jpg",
+    image: "/images/blogs/maharashtra/maharashtra/ajanta-caves-rock-cut-facade-maharashtra.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Maharashtra", "Mumbai", "Ajanta-Ellora"],
@@ -305,7 +305,7 @@ export const posts = [
     title: "Madhya Pradesh Travel Guide: Khajuraho, Bandhavgarh & Gwalior Fort",
     excerpt:
       "Temples carved with astonishing detail, some of India's best tiger sightings, and a hilltop fortress that guarded the heart of the country — the complete guide to Madhya Pradesh.",
-    image: "/images/destinations/hampi/hero.jpg",
+    image: "/images/blogs/madhya-pradesh/madhya-pradesh/khajuraho-devi-jagadambi-temple-madhya-pradesh.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Madhya Pradesh", "Khajuraho", "Bandhavgarh"],
@@ -317,7 +317,7 @@ export const posts = [
     title: "Gujarat Travel Guide: Rann of Kutch, Somnath & Gir National Park",
     excerpt:
       "A shimmering white salt desert stretching to the horizon, temple towns steeped in mythology, and the last wild lions outside Africa — Gujarat is India's most quietly extraordinary state.",
-    image: "/images/destinations/jaisalmer/hero.jpg",
+    image: "/images/blogs/gujarat/gujarat/rann-of-kutch-white-desert-gujarat.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Gujarat", "Rann of Kutch", "Gir National Park"],
@@ -329,7 +329,7 @@ export const posts = [
     title: "Haryana Travel Guide: Kurukshetra, Surajkund & Panchkula",
     excerpt:
       "The ground where the Bhagavad Gita is said to have been spoken, one of the world's largest craft fairs, and the easiest weekend escape from Delhi-NCR — Haryana doesn't oversell itself, and that's exactly the point.",
-    image: "/images/destinations/chandigarh/hero.jpg",
+    image: "/images/blogs/haryana/haryana/krishna-arjun-chariot-statue-kurukshetra-haryana.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Haryana", "Kurukshetra", "Surajkund"],
@@ -353,7 +353,7 @@ export const posts = [
     title: "Jharkhand Travel Guide: Netarhat, Betla National Park & Waterfalls",
     excerpt:
       "Dense sal forests, waterfalls that thunder off laterite cliffs, and tiger territory at Betla — Jharkhand is one of India's most underrated, off-the-beaten-path states.",
-    image: "/images/destinations/ziro/hero.jpg",
+    image: "/images/blogs/jharkhand/jharkhand/hundru-falls-ranchi-jharkhand.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Jharkhand", "Netarhat", "Betla National Park"],
@@ -377,7 +377,7 @@ export const posts = [
     title: "Andhra Pradesh Travel Guide: Tirupati, Visakhapatnam & Araku Valley",
     excerpt:
       "From the world's richest temple at Tirumala to Vizag's underrated coastline and the coffee-scented hills of Araku Valley — a complete guide to Andhra Pradesh's pilgrimage sites, beaches, and fiery cuisine.",
-    image: "/images/destinations/hampi/hero.jpg",
+    image: "/images/blogs/andhra-pradesh/andhra-pradesh/sunrise-tenneti-beach-visakhapatnam-andhra-pradesh.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Andhra Pradesh", "Tirupati", "Visakhapatnam"],

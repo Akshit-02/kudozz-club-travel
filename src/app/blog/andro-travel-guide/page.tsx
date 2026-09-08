@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/hampi/virupaksha.jpg",
+        url: "/images/blogs/manipur/andro/cultural-heritage-complex-wood-carvings-andro.webp",
         width: 1200,
-        height: 630,
-        alt: "Weathered stone temple complex, evoking Andro village's traditional shrines and heritage architecture",
+        height: 1457,
+        alt: "Traditional carved wooden relief panel at the Andro Cultural Heritage Complex, Manipur",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Andro Village Travel Guide: Pottery, Heritage & Temples",
     description:
       "Centuries-old hand-built pottery, traditional shrines, and a living open-air heritage complex — the complete Andro guide.",
-    images: ["/images/destinations/hampi/virupaksha.jpg"],
+    images: ["/images/blogs/manipur/andro/cultural-heritage-complex-wood-carvings-andro.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/andro-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           description:
             "Complete Andro travel guide — Manipur's centuries-old heritage village near Imphal, its hand-built black pottery tradition, and the Andro Cultural Complex.",
           image:
-            "https://club.kudozz.in/images/destinations/hampi/virupaksha.jpg",
+            "https://club.kudozz.in/images/blogs/manipur/andro/cultural-heritage-complex-wood-carvings-andro.webp",
           datePublished: "2026-09-05",
           dateModified: "2026-09-05",
           publisher: {
@@ -195,8 +195,8 @@ export default function AndroGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/hampi/virupaksha.jpg"
-              alt="Weathered stone temple complex, evoking Andro village's traditional shrines and heritage architecture"
+              src="/images/blogs/manipur/andro/cultural-heritage-complex-wood-carvings-andro.webp"
+              alt="Traditional carved wooden relief panel at the Andro Cultural Heritage Complex, Manipur"
               fill
               priority
               sizes="100vw"
@@ -513,8 +513,8 @@ export default function AndroGuidePage() {
                   <h2>Pottery, Temples & Culture</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/hampi/virupaksha.jpg"
-                      alt="Traditional stone temple architecture, evoking the shrines at Andro's Panam Ningthou Temple complex"
+                      src="/images/blogs/manipur/andro/cultural-heritage-complex-wood-carvings-andro.webp"
+                      alt="Traditional carved wooden relief panel at the Andro Cultural Heritage Complex, Manipur"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

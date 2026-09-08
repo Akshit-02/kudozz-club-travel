@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/ziro/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Green hills and forest landscape, evoking Tripura's tribal heartland in Northeast India",
+        url: "/images/blogs/tripura/tripura/neermahal-lake-palace-tripura.webp",
+        width: 1500,
+        height: 1000,
+        alt: "Neermahal, Tripura's red-and-white lake palace, rising from the middle of Rudrasagar Lake",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Tripura Travel Guide: Neermahal, Unakoti & Ujjayanta Palace",
     description:
       "A lake palace, ancient rock carvings, and royal heritage — the complete guide to Tripura.",
-    images: ["/images/destinations/ziro/hero.jpg"],
+    images: ["/images/blogs/tripura/tripura/neermahal-lake-palace-tripura.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/tripura-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline:
             "Tripura Travel Guide: Neermahal, Unakoti & Ujjayanta Palace",
           description: "The complete Tripura travel guide.",
-          image: "https://club.kudozz.in/images/destinations/ziro/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/tripura/tripura/neermahal-lake-palace-tripura.webp",
           datePublished: "2026-07-19",
           dateModified: "2026-07-19",
           publisher: {
@@ -288,8 +288,8 @@ export default function TripuraGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/ziro/hero.jpg"
-              alt="Green hills and forest landscape, evoking Tripura's tribal heartland in Northeast India"
+              src="/images/blogs/tripura/tripura/neermahal-lake-palace-tripura.webp"
+              alt="Neermahal, Tripura's red-and-white lake palace, rising from the middle of Rudrasagar Lake"
               fill
               priority
               sizes="100vw"
@@ -641,8 +641,8 @@ export default function TripuraGuidePage() {
                   <h2>Neermahal: The Lake Palace</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/meghalaya/dawki-river.jpg"
-                      alt="Clear lake water with reflections, evoking Rudrasagar Lake around Tripura's Neermahal palace"
+                      src="/images/blogs/tripura/tripura/neermahal-lake-palace-tripura.webp"
+                      alt="Neermahal palace reflected in Rudrasagar Lake, Tripura's most iconic landmark"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/manali/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Snow-capped Himalayan peaks, evoking Sikkim's Kanchenjunga views and high-altitude terrain",
+        url: "/images/blogs/sikkim/sikkim/rumtek-monastery-gangtok-sikkim.webp",
+        width: 1500,
+        height: 1000,
+        alt: "The colourful, mist-wrapped facade of Rumtek Monastery near Gangtok, Sikkim's most significant Buddhist monastery",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Sikkim Travel Guide: Gangtok, Yumthang Valley & Nathula Pass",
     description:
       "Alpine lakes, rhododendron valleys, and Kanchenjunga views — the complete guide to Sikkim.",
-    images: ["/images/destinations/manali/hero.jpg"],
+    images: ["/images/blogs/sikkim/sikkim/rumtek-monastery-gangtok-sikkim.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/sikkim-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
             "Sikkim Travel Guide: Gangtok, Yumthang Valley & Nathula Pass",
           description: "The complete Sikkim travel guide.",
           image:
-            "https://club.kudozz.in/images/destinations/manali/hero.jpg",
+            "https://club.kudozz.in/images/blogs/sikkim/sikkim/rumtek-monastery-gangtok-sikkim.webp",
           datePublished: "2026-07-19",
           dateModified: "2026-07-19",
           publisher: {
@@ -290,8 +290,8 @@ export default function SikkimGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/manali/hero.jpg"
-              alt="Snow-capped Himalayan peaks, evoking Sikkim's Kanchenjunga views and high-altitude terrain"
+              src="/images/blogs/sikkim/sikkim/rumtek-monastery-gangtok-sikkim.webp"
+              alt="The colourful, mist-wrapped facade of Rumtek Monastery near Gangtok, Sikkim's most significant Buddhist monastery"
               fill
               priority
               sizes="100vw"
@@ -692,8 +692,8 @@ export default function SikkimGuidePage() {
                   <h2>Tsomgo Lake & Nathula Pass</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/leh-ladakh/leh-ladakh.jpg"
-                      alt="High-altitude mountain pass landscape, evoking Sikkim's Nathula Pass at over 4,000 metres"
+                      src="/images/blogs/sikkim/sikkim/rumtek-monastery-gangtok-sikkim.webp"
+                      alt="Rumtek Monastery near Gangtok, one of Sikkim's most significant Buddhist sites"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

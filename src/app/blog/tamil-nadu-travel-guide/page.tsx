@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/hampi/virupaksha.jpg",
-        width: 1200,
-        height: 630,
-        alt: "A towering Dravidian-style temple gopuram, evoking Tamil Nadu's iconic South Indian temple architecture",
+        url: "/images/blogs/tamil-nadu/tamil-nadu/meenakshi-temple-gopuram-madurai.webp",
+        width: 1400,
+        height: 918,
+        alt: "The towering, brightly painted south gopuram of the Meenakshi Amman Temple in Madurai, covered in thousands of sculpted deities",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Tamil Nadu Travel Guide: Madurai, Mahabalipuram & Ooty",
     description:
       "Dravidian temple towers, UNESCO shore temples, and Nilgiri tea gardens — the complete guide to Tamil Nadu.",
-    images: ["/images/destinations/hampi/virupaksha.jpg"],
+    images: ["/images/blogs/tamil-nadu/tamil-nadu/meenakshi-temple-gopuram-madurai.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/tamil-nadu-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
             "Tamil Nadu Travel Guide: Madurai, Mahabalipuram & Ooty",
           description: "The complete Tamil Nadu travel guide.",
           image:
-            "https://club.kudozz.in/images/destinations/hampi/virupaksha.jpg",
+            "https://club.kudozz.in/images/blogs/tamil-nadu/tamil-nadu/meenakshi-temple-gopuram-madurai.webp",
           datePublished: "2026-07-19",
           dateModified: "2026-07-19",
           publisher: {
@@ -290,8 +290,8 @@ export default function TamilNaduGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/hampi/virupaksha.jpg"
-              alt="A towering Dravidian-style temple gopuram, evoking Tamil Nadu's iconic South Indian temple architecture"
+              src="/images/blogs/tamil-nadu/tamil-nadu/meenakshi-temple-gopuram-madurai.webp"
+              alt="The towering, brightly painted south gopuram of the Meenakshi Amman Temple in Madurai, covered in thousands of sculpted deities"
               fill
               priority
               sizes="100vw"
@@ -644,8 +644,8 @@ export default function TamilNaduGuidePage() {
                   <h2>Madurai: The Meenakshi Temple</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/hampi/hero.jpg"
-                      alt="Ancient South Indian temple ruins and stone architecture, evoking Tamil Nadu's temple towns"
+                      src="/images/blogs/tamil-nadu/tamil-nadu/meenakshi-temple-gopuram-madurai.webp"
+                      alt="The painted south gopuram of the Meenakshi Amman Temple, the heart of Madurai"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -721,8 +721,8 @@ export default function TamilNaduGuidePage() {
                   <h2>Ooty & the Nilgiri Hills</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/coorg/coorg.jpg"
-                      alt="Misty green hills and forest, evoking the Nilgiri hill station of Ooty"
+                      src="/images/blogs/tamil-nadu/tamil-nadu/meenakshi-temple-gopuram-madurai.webp"
+                      alt="The painted gopuram towers of the Meenakshi Amman Temple, one of Tamil Nadu's defining sights"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

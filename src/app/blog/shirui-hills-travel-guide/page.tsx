@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/manali/solang-valley.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Green rolling mountain valley and peak, evoking Shirui Hills' rare lily habitat in Manipur",
+        url: "/images/blogs/manipur/shirui-hills/shirui-siroy-national-park-rolling-hills.webp",
+        width: 1600,
+        height: 1064,
+        alt: "Rolling green ridgeline of Shirui (Siroy) National Park, the rare Shirui Lily's only habitat, Manipur",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Shirui Hills Trek Guide: Shirui Lily & Best Time to Visit",
     description:
       "The only place on Earth where the rare Shirui Lily grows wild — the complete Shirui Hills trek guide.",
-    images: ["/images/destinations/manali/solang-valley.jpg"],
+    images: ["/images/blogs/manipur/shirui-hills/shirui-siroy-national-park-rolling-hills.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/shirui-hills-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           description:
             "Complete Shirui Hills trek guide — home to the rare Shirui Lily, Shirui Kashong Peak, the Shirui Lily Festival, and best time to visit.",
           image:
-            "https://club.kudozz.in/images/destinations/manali/solang-valley.jpg",
+            "https://club.kudozz.in/images/blogs/manipur/shirui-hills/shirui-siroy-national-park-rolling-hills.webp",
           datePublished: "2026-09-05",
           dateModified: "2026-09-05",
           publisher: {
@@ -195,8 +195,8 @@ export default function ShiruiHillsGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/manali/solang-valley.jpg"
-              alt="Green rolling mountain valley and peak, evoking Shirui Hills' rare lily habitat in Manipur"
+              src="/images/blogs/manipur/shirui-hills/shirui-siroy-national-park-rolling-hills.webp"
+              alt="Rolling green ridgeline of Shirui (Siroy) National Park, the rare Shirui Lily's only habitat, Manipur"
               fill
               priority
               sizes="100vw"
@@ -533,8 +533,8 @@ export default function ShiruiHillsGuidePage() {
                   <h2>The Trek & the Lily</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/manali/solang-valley.jpg"
-                      alt="Rolling green hills near Shirui, Manipur"
+                      src="/images/blogs/manipur/shirui-hills/shirui-lily-rare-flower-manipur.webp"
+                      alt="The rare Shirui Lily (Lilium mackliniae), found only on Shirui Hills, Manipur"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

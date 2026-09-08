@@ -220,6 +220,346 @@
       "license": "CC BY-SA 4.0",
       "author": "Imehling (Ingo Mehling)",
       "attribution": "Photo by Ingo Mehling, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/odisha/odisha/konark-sun-temple-wheel-odisha.webp",
+      "usedIn": ["odisha-travel-guide (hero + Chilika Lake section — replaces a Hampi photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Konark_Sun_Temple_wheel.jpg",
+      "originalFile": "Konark Sun Temple wheel.jpg",
+      "license": "CC BY 2.0",
+      "author": "Ankur Panchbudhe",
+      "attribution": "Photo by Ankur Panchbudhe, CC BY 2.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/punjab/punjab/golden-temple-amritsar-punjab.webp",
+      "usedIn": ["punjab-travel-guide (hero + Wagah Border section — replaces an Udaipur photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Golden_Temple,_Amritsar_02.jpg",
+      "originalFile": "Golden Temple, Amritsar 02.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Bernard Gagnon",
+      "attribution": "Photo by Bernard Gagnon, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/rajasthan/rajasthan/hawa-mahal-facade-jaipur.webp",
+      "usedIn": ["rajasthan-travel-guide (hero — replaces a Jaisalmer photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Hawa_Mahal,_Jaipur,_Rajasthan,_India_in_2026.jpg",
+      "originalFile": "Hawa Mahal, Jaipur, Rajasthan, India in 2026.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Donvikro",
+      "attribution": "Photo by Donvikro, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/rajasthan/rajasthan/mehrangarh-fort-blue-city-jodhpur.webp",
+      "usedIn": ["rajasthan-travel-guide (Jodhpur section)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:20191210_View_from_Mehrangarh_Fort,_Jodhpur,_0950_7793.jpg",
+      "originalFile": "20191210_View_from_Mehrangarh_Fort,_Jodhpur,_0950_7793.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Jakub Hałun",
+      "attribution": "Photo by Jakub Hałun, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/sikkim/sikkim/rumtek-monastery-gangtok-sikkim.webp",
+      "usedIn": ["sikkim-travel-guide (hero + Tsomgo Lake/Nathula Pass section — replaces a Manali photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Rumtek_Monastery_04.jpg",
+      "originalFile": "Rumtek Monastery 04.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Bernard Gagnon",
+      "attribution": "Photo by Bernard Gagnon, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/tamil-nadu/tamil-nadu/meenakshi-temple-gopuram-madurai.webp",
+      "usedIn": ["tamil-nadu-travel-guide (hero + Madurai section + Ooty section — replaces a Hampi photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:S-TN-34_Meenakshi_Amman_Temple_South_Gopuram_enriched_with_delicate_Stucco_works.jpg",
+      "originalFile": "S-TN-34 Meenakshi Amman Temple South Gopuram enriched with delicate Stucco works.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Madhuranthakan Jagadeesan",
+      "attribution": "Photo by Madhuranthakan Jagadeesan, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/tripura/tripura/neermahal-lake-palace-tripura.webp",
+      "usedIn": ["tripura-travel-guide (hero + Neermahal section — replaces a Ziro photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Neer_Mahal,_the_water_palace_of_Tripura_05.jpg",
+      "originalFile": "Neer Mahal, the water palace of Tripura 05.jpg",
+      "license": "CC BY 4.0",
+      "author": "Kingshuk Mondal",
+      "attribution": "Photo by Kingshuk Mondal, CC BY 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/nagaland/nagaland/dzukou-valley-nagaland.webp",
+      "usedIn": ["nagaland-travel-guide (hero + Hornbill Festival section — replaces a Meghalaya photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Breathtaking_beauty_of_Dzukou_Valley_in_Manipur-Nagaland_border_(edit).jpg",
+      "originalFile": "Breathtaking beauty of Dzukou Valley in Manipur-Nagaland border (edit).jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Samudra Bikash Hazarika",
+      "attribution": "Photo by Samudra Bikash Hazarika, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/mizoram/mizoram/vantawng-falls-mizoram.webp",
+      "usedIn": ["mizoram-travel-guide (hero + Reiek section — replaces a Meghalaya photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Vantawng_waterfall,_Mizoram,India.JPG",
+      "originalFile": "Vantawng waterfall, Mizoram,India.JPG",
+      "license": "CC BY-SA 4.0",
+      "author": "Bodhisattwa",
+      "attribution": "Photo by Bodhisattwa, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/manipur/manipur/loktak-lake-floating-islands-manipur.webp",
+      "usedIn": ["manipur-travel-guide (hero + Loktak Lake section — replaces a Meghalaya photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:A_view_of_Loktak_Lake.jpg",
+      "originalFile": "A view of Loktak Lake.jpg (cropped to remove a foreground signboard before optimizing)",
+      "license": "CC BY-SA 4.0",
+      "author": "Wang Tensu",
+      "attribution": "Photo by Wang Tensu, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/manipur/imphal/kangla-fort-gate-imphal.webp",
+      "usedIn": ["imphal-travel-guide (hero + Things to Do section — replaces a Meghalaya photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kangla_Sanathong_(Kangla_Grand_Gate_or_Kangla_Royal_Gate)_-_Classical_Meitei_architecture_-_in_the_western_side_of_the_Kangla_Fort_(Kangla_Palace)_in_Imphal_West_district_of_Manipur_state_(Kangleipak)_01.jpg",
+      "originalFile": "Kangla Sanathong (Kangla Grand Gate or Kangla Royal Gate) - Classical Meitei architecture - in the western side of the Kangla Fort (Kangla Palace) in Imphal West district of Manipur state (Kangleipak) 01.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Haoreima",
+      "attribution": "Photo by Haoreima, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/manipur/loktak-lake/loktak-lake-fishing-nets-manipur.webp",
+      "usedIn": ["loktak-lake-travel-guide (hero — replaces a Meghalaya photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Loktak_Lake_Manipur_05.jpg",
+      "originalFile": "Loktak Lake Manipur 05.jpg",
+      "license": "CC BY 2.0",
+      "author": "ch_15march",
+      "attribution": "Photo by ch_15march, CC BY 2.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/manipur/loktak-lake/loktak-lake-phumdi-floating-vegetation.webp",
+      "usedIn": ["loktak-lake-travel-guide (inline section)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Floating_biomasses_(\"Phumdi\"_or_\"Phumthi\"_or_\"Phum\"_in_Classical_Meitei_language)_&_islands_in_the_Loktak_Lake_(alias_\"Meitei_Sea\")_-_World's_only_floating_lake_-_in_Kangleipak_(Manipur)_01.jpg",
+      "originalFile": "Floating biomasses (Phumdi/Phumthi/Phum) & islands in the Loktak Lake, World's only floating lake, in Kangleipak (Manipur) 01.jpg",
+      "license": "CC BY 4.0",
+      "author": "Haoreima",
+      "attribution": "Photo by Haoreima, CC BY 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/manipur/moirang/ina-memorial-complex-moirang-manipur.webp",
+      "usedIn": ["moirang-travel-guide (hero + inline — replaces a Jammu & Kashmir photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:INA_Memorial,_Moirang,_Manipur_(16).jpeg",
+      "originalFile": "INA Memorial, Moirang, Manipur (16).jpeg",
+      "license": "CC BY-SA 3.0",
+      "author": "Ppyoonus",
+      "attribution": "Photo by Ppyoonus, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/manipur/keibul-lamjao/floating-phumdi-islands-keibul-lamjao.webp",
+      "usedIn": ["keibul-lamjao-travel-guide (hero — replaces a Kerala photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:THE_FLOATING_NATIONAL_PARK-_The_Keibul_Lamjao_National_Park,_Manipur.jpg",
+      "originalFile": "THE FLOATING NATIONAL PARK- The Keibul Lamjao National Park, Manipur.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Rjdutta007",
+      "attribution": "Photo by Rjdutta007, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/manipur/keibul-lamjao/sangai-brow-antlered-deer-keibul-lamjao.webp",
+      "usedIn": ["keibul-lamjao-travel-guide (inline section)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Sangai_at_the_Keibullamjao_National_Park,_Manipur.jpg",
+      "originalFile": "Sangai at the Keibullamjao National Park, Manipur.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Naturenlight",
+      "attribution": "Photo by Naturenlight, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/manipur/andro/cultural-heritage-complex-wood-carvings-andro.webp",
+      "usedIn": ["andro-travel-guide (hero + inline — replaces a Hampi photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Relief_carvings_and_sculptures_in_the_Cultural_Heritage_Complex_in_Andro,_Imphal_East_district,_Manipur,_India.jpg",
+      "originalFile": "Relief carvings and sculptures in the Cultural Heritage Complex in Andro, Imphal East district, Manipur, India.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Haoreima",
+      "attribution": "Photo by Haoreima, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/manipur/zeilad-lake/forest-fringed-lake-northeast-india.webp",
+      "usedIn": ["zeilad-lake-travel-guide (hero + inline — replaces a Kerala photo used in error; regional fallback, no direct Zeilad Lake coverage exists on Commons)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Doyang_reservoir_and_its_suroundings_in_Nagaland_JEG6035.JPG",
+      "originalFile": "Doyang reservoir and its suroundings in Nagaland JEG6035.JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "P Jeganathan",
+      "attribution": "Photo by P Jeganathan, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/manipur/ukhrul/ukhrul-hill-town-panoramic-view.webp",
+      "usedIn": ["ukhrul-travel-guide (hero — replaces a Ziro photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Partial_View_of_North-Eastern_Ukhrul_Town_01.JPG",
+      "originalFile": "Partial View of North-Eastern Ukhrul Town 01.JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "Ac apam",
+      "attribution": "Photo by Ac apam, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/manipur/ukhrul/ukhrul-town-south-view-tangkhul-hills.webp",
+      "usedIn": ["ukhrul-travel-guide (inline section)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Ukhrul_-South_View.jpg",
+      "originalFile": "Ukhrul -South View.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Ac apam",
+      "attribution": "Photo by Ac apam, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/manipur/shirui-hills/shirui-siroy-national-park-rolling-hills.webp",
+      "usedIn": ["shirui-hills-travel-guide (hero — replaces a Manali photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:A_scene_from_Siroy_National_Park,_Manipur_(1).jpg",
+      "originalFile": "A scene from Siroy National Park, Manipur (1).jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Naturenlight",
+      "attribution": "Photo by Naturenlight, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/manipur/shirui-hills/shirui-lily-rare-flower-manipur.webp",
+      "usedIn": ["shirui-hills-travel-guide (inline section)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Shirui_Lily.jpg",
+      "originalFile": "Shirui Lily.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Mashangva",
+      "attribution": "Photo by Mashangva, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/manipur/tharon-cave/tharon-cave-limestone-passage-entrance.webp",
+      "usedIn": ["tharon-cave-travel-guide (hero — replaces a Manali photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Tharon_Caves_Tamenglong_Manipur_by_Dr_Raju_Kasambe_DSC_5649_(11).jpg",
+      "originalFile": "Tharon Caves Tamenglong Manipur by Dr Raju Kasambe DSC 5649 (11).jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Dr. Raju Kasambe",
+      "attribution": "Photo by Dr. Raju Kasambe, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/manipur/tharon-cave/tharon-cave-interior-visitors-exploring.webp",
+      "usedIn": ["tharon-cave-travel-guide (inline section)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Tharon_Caves_Tamenglong_Manipur_by_Dr_Raju_Kasambe_DSC_5649_(9).jpg",
+      "originalFile": "Tharon Caves Tamenglong Manipur by Dr Raju Kasambe DSC 5649 (9).jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Dr. Raju Kasambe",
+      "attribution": "Photo by Dr. Raju Kasambe, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/manipur/tamenglong/kianthok-hills-valley-tamenglong.webp",
+      "usedIn": ["tamenglong-travel-guide (hero + inline — replaces a Coorg photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kianthok_in_between_two_hills._-_panoramio.jpg",
+      "originalFile": "Kianthok in between two hills. - panoramio.jpg",
+      "license": "CC BY 3.0",
+      "author": "Krushna Sundar",
+      "attribution": "Photo by Krushna Sundar, CC BY 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/manipur/senapati/dzukou-valley-rolling-naga-hills-senapati.webp",
+      "usedIn": ["senapati-travel-guide (hero + inline — replaces a Coorg photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Breathtaking_beauty_of_Dzukou_Valley_in_Manipur-Nagaland_border.jpg",
+      "originalFile": "Breathtaking beauty of Dzukou Valley in Manipur-Nagaland border.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Samudra bikash hazarika",
+      "attribution": "Photo by Samudra bikash hazarika, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/manipur/kangpokpi/pineapple-terraces-kangpokpi-manipur.webp",
+      "usedIn": ["kangpokpi-travel-guide (hero + inline — replaces a Manali photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Pineapple_crop_plantation_in_a_slope_of_the_Nongmaiching_Ching_(meaning_%22Nongmaijing_Hill%22_in_Classical_Meitei_language)_in_Imphal_East_District,_Kangleipak_(Manipur)_01.jpg",
+      "originalFile": "Pineapple crop plantation in a slope of the Nongmaiching Ching (meaning \"Nongmaijing Hill\" in Classical Meitei language) in Imphal East District, Kangleipak (Manipur) 01.jpg",
+      "license": "CC BY 4.0",
+      "author": "Haoreima",
+      "attribution": "Photo by Haoreima, CC BY 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/manipur/moreh/indo-myanmar-friendship-gate-moreh.webp",
+      "usedIn": ["moreh-travel-guide (hero + inline — replaces a Meghalaya photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:MOREH_INDO_MYANMAY_FRIENDSHIP_GATE.jpg",
+      "originalFile": "MOREH INDO MYANMAY FRIENDSHIP GATE.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Neilsatyam",
+      "attribution": "Photo by Neilsatyam, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/maharashtra/maharashtra/ajanta-caves-rock-cut-facade-maharashtra.webp",
+      "usedIn": ["maharashtra-travel-guide (hero + 2 inline sections — replaces a Hampi photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Ajanta_Caves_from_Cave_26.jpg",
+      "originalFile": "Ajanta Caves from Cave 26.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Shishirdasika",
+      "attribution": "Photo by Shishirdasika, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/madhya-pradesh/madhya-pradesh/khajuraho-devi-jagadambi-temple-madhya-pradesh.webp",
+      "usedIn": ["madhya-pradesh-travel-guide (hero + 2 inline sections — replaces a Hampi photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Khajuraho_Devi_Jagadambi_Temple_2010.jpg",
+      "originalFile": "Khajuraho Devi Jagadambi Temple 2010.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Marcin Białek",
+      "attribution": "Photo by Marcin Białek, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/gujarat/gujarat/rann-of-kutch-white-desert-gujarat.webp",
+      "usedIn": ["gujarat-travel-guide (hero + 3 inline sections — replaces a Jaisalmer photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:The_White_Desert_in_Kutch,_the_great_rann_of_kutch.jpg",
+      "originalFile": "The White Desert in Kutch, the great rann of kutch.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Ranjith Kumar Inbasekaran",
+      "attribution": "Photo by Ranjith Kumar Inbasekaran, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/haryana/haryana/krishna-arjun-chariot-statue-kurukshetra-haryana.webp",
+      "usedIn": ["haryana-travel-guide (hero + 2 inline sections — replaces a Chandigarh photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kurukshetra_Shri_Krishna_Arjun_chariot.jpg",
+      "originalFile": "Kurukshetra Shri Krishna Arjun chariot.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Tsevang",
+      "attribution": "Photo by Tsevang, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/jharkhand/jharkhand/hundru-falls-ranchi-jharkhand.webp",
+      "usedIn": ["jharkhand-travel-guide (hero + inline — replaces a Ziro photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Hundru_Falls,_Jharkhand,_India.jpg",
+      "originalFile": "Hundru Falls, Jharkhand, India.jpg",
+      "license": "CC BY 4.0",
+      "author": "Kingshuk Mondal",
+      "attribution": "Photo by Kingshuk Mondal, CC BY 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/andhra-pradesh/andhra-pradesh/sunrise-tenneti-beach-visakhapatnam-andhra-pradesh.webp",
+      "usedIn": ["andhra-pradesh-travel-guide (hero + 2 inline sections — replaces a Hampi photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Sunrise,_Tenneti_Beach,_Tennetti_Beach,_Visakhapatnam,_Andhra_Pradesh,_India,.jpg",
+      "originalFile": "Sunrise, Tenneti Beach, Tennetti Beach, Visakhapatnam, Andhra Pradesh, India,.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "UdayAgastya77",
+      "attribution": "Photo by UdayAgastya77, CC BY-SA 4.0, via Wikimedia Commons"
     }
   ]
 }

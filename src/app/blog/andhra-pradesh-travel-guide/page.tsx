@@ -29,10 +29,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/hampi/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Ancient South Indian temple architecture, evoking Andhra Pradesh's Tirupati temple complex",
+        url: "/images/blogs/andhra-pradesh/andhra-pradesh/sunrise-tenneti-beach-visakhapatnam-andhra-pradesh.webp",
+        width: 1600,
+        height: 1000,
+        alt: "Sunrise over the waves at Tenneti Beach, Visakhapatnam, Andhra Pradesh",
       },
     ],
   },
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
       "Andhra Pradesh Travel Guide: Tirupati, Visakhapatnam & Araku Valley",
     description:
       "The world's richest temple, an underrated coastline, and coffee-scented hills — the complete guide to Andhra Pradesh.",
-    images: ["/images/destinations/hampi/hero.jpg"],
+    images: ["/images/blogs/andhra-pradesh/andhra-pradesh/sunrise-tenneti-beach-visakhapatnam-andhra-pradesh.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/andhra-pradesh-travel-guide",
@@ -61,7 +61,7 @@ function ArticleSchema() {
           headline:
             "Andhra Pradesh Travel Guide: Tirupati, Visakhapatnam & Araku Valley",
           description: "The complete Andhra Pradesh travel guide.",
-          image: "https://club.kudozz.in/images/destinations/hampi/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/andhra-pradesh/andhra-pradesh/sunrise-tenneti-beach-visakhapatnam-andhra-pradesh.webp",
           datePublished: "2026-07-22",
           dateModified: "2026-07-22",
           publisher: {
@@ -290,8 +290,8 @@ export default function AndhraPradeshGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/hampi/hero.jpg"
-              alt="Ancient South Indian temple architecture, evoking Andhra Pradesh's Tirupati temple complex"
+              src="/images/blogs/andhra-pradesh/andhra-pradesh/sunrise-tenneti-beach-visakhapatnam-andhra-pradesh.webp"
+              alt="Sunrise over the waves at Tenneti Beach, Visakhapatnam, Andhra Pradesh"
               fill
               priority
               sizes="100vw"
@@ -631,7 +631,7 @@ export default function AndhraPradeshGuidePage() {
                   <h2>Tirupati & Tirumala: The Temple of Lord Venkateswara</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/hampi/virupaksha.jpg"
+                      src="/images/blogs/andhra-pradesh/andhra-pradesh/sunrise-tenneti-beach-visakhapatnam-andhra-pradesh.webp"
                       alt="Ornate South Indian temple gopuram architecture, evoking the Sri Venkateswara Temple at Tirumala"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
@@ -691,7 +691,7 @@ export default function AndhraPradeshGuidePage() {
                   <h2>Visakhapatnam (Vizag): Beaches & the Eastern Coast</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/goa/beach.jpg"
+                      src="/images/blogs/andhra-pradesh/andhra-pradesh/sunrise-tenneti-beach-visakhapatnam-andhra-pradesh.webp"
                       alt="A wide sandy beach meeting the sea, evoking Visakhapatnam's coastline along the Bay of Bengal"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"

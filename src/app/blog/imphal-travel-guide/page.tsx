@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/meghalaya/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Green hills and misty countryside, evoking the valley setting of Imphal, Manipur's capital",
+        url: "/images/blogs/manipur/imphal/kangla-fort-gate-imphal.webp",
+        width: 1400,
+        height: 1047,
+        alt: "The wooden Kangla Sanathong (Grand Gate) at Kangla Fort, the former royal seat of the Meitei kings in Imphal",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Imphal Travel Guide: Kangla Fort & Ima Keithel Market",
     description:
       "A royal fort, an all-women market centuries old, and the gateway to Loktak Lake — the complete Imphal guide.",
-    images: ["/images/destinations/meghalaya/hero.jpg"],
+    images: ["/images/blogs/manipur/imphal/kangla-fort-gate-imphal.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/imphal-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           description:
             "The complete Imphal travel guide — Kangla Fort's royal ruins, Ima Keithel's all-women market, Shree Govindajee Temple, the Imphal War Cemetery, and day trips to Loktak Lake.",
           image:
-            "https://club.kudozz.in/images/destinations/meghalaya/hero.jpg",
+            "https://club.kudozz.in/images/blogs/manipur/imphal/kangla-fort-gate-imphal.webp",
           datePublished: "2026-09-05",
           dateModified: "2026-09-05",
           publisher: {
@@ -195,8 +195,8 @@ export default function ImphalGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/meghalaya/hero.jpg"
-              alt="Green hills and misty countryside, evoking the valley setting of Imphal, Manipur's capital"
+              src="/images/blogs/manipur/imphal/kangla-fort-gate-imphal.webp"
+              alt="The wooden Kangla Sanathong (Grand Gate) at Kangla Fort, the former royal seat of the Meitei kings in Imphal"
               fill
               priority
               sizes="100vw"
@@ -498,8 +498,8 @@ export default function ImphalGuidePage() {
                   <h2>Things to Do in Imphal</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/meghalaya/hero.jpg"
-                      alt="Green valley landscape, evoking the setting around Imphal, Manipur"
+                      src="/images/blogs/manipur/imphal/kangla-fort-gate-imphal.webp"
+                      alt="The Kangla Sanathong gate at Kangla Fort, Imphal's most significant heritage landmark"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

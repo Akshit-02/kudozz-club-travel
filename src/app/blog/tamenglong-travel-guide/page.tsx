@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/coorg/coorg.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Misty green forested hills with orange orchards, evoking Tamenglong's cool Zeliangrong hill country in Manipur",
+        url: "/images/blogs/manipur/tamenglong/kianthok-hills-valley-tamenglong.webp",
+        width: 1600,
+        height: 1200,
+        alt: "Forested hills and a river valley near Kianthok in Tamenglong district, Manipur",
       },
     ],
   },
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     title: "Tamenglong Travel Guide: Orange Hills of Zeliangrong Country",
     description:
       "Misty hills, a citrus variety worth a festival, and Zeliangrong Naga heritage — the complete Tamenglong guide.",
-    images: ["/images/destinations/coorg/coorg.jpg"],
+    images: ["/images/blogs/manipur/tamenglong/kianthok-hills-valley-tamenglong.webp"],
   },
   robots: {
     index: true,
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Tamenglong Travel Guide: Orange Hills of Zeliangrong Country",
           description:
             "Complete Tamenglong travel guide — the misty Zeliangrong hill country of western Manipur, the Tamenglong orange, Orange Festival, waterfalls, and full trip planning.",
-          image: "https://club.kudozz.in/images/destinations/coorg/coorg.jpg",
+          image: "https://club.kudozz.in/images/blogs/manipur/tamenglong/kianthok-hills-valley-tamenglong.webp",
           datePublished: "2026-09-05",
           dateModified: "2026-09-05",
           publisher: {
@@ -194,8 +194,8 @@ export default function TamenglongGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/coorg/coorg.jpg"
-              alt="Misty green forested hills with orange orchards, evoking Tamenglong's cool Zeliangrong hill country in Manipur"
+              src="/images/blogs/manipur/tamenglong/kianthok-hills-valley-tamenglong.webp"
+              alt="Forested hills and a river valley near Kianthok in Tamenglong district, Manipur"
               fill
               priority
               sizes="100vw"
@@ -530,8 +530,8 @@ export default function TamenglongGuidePage() {
                   <h2>Things to Do in Tamenglong</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/coorg/coorg.jpg"
-                      alt="Misty forested hills in Tamenglong district, Manipur"
+                      src="/images/blogs/manipur/tamenglong/kianthok-hills-valley-tamenglong.webp"
+                      alt="Misty forested hills near Kianthok in Tamenglong district, Manipur"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

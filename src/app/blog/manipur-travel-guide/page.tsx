@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/meghalaya/dawki-river.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Calm lake water reflecting green hills, evoking Manipur's Loktak Lake in Northeast India",
+        url: "/images/blogs/manipur/manipur/loktak-lake-floating-islands-manipur.webp",
+        width: 1500,
+        height: 766,
+        alt: "Loktak Lake's phumdis — floating islands of vegetation — scattered across the water with hills beyond, Manipur",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Manipur Travel Guide: Loktak Lake, Imphal & Kangla Fort",
     description:
       "Floating islands, a historic fort, and an all-women market — the complete guide to Manipur.",
-    images: ["/images/destinations/meghalaya/dawki-river.jpg"],
+    images: ["/images/blogs/manipur/manipur/loktak-lake-floating-islands-manipur.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/manipur-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Manipur Travel Guide: Loktak Lake, Imphal & Kangla Fort",
           description: "The complete Manipur travel guide.",
           image:
-            "https://club.kudozz.in/images/destinations/meghalaya/dawki-river.jpg",
+            "https://club.kudozz.in/images/blogs/manipur/manipur/loktak-lake-floating-islands-manipur.webp",
           datePublished: "2026-07-22",
           dateModified: "2026-07-22",
           publisher: {
@@ -287,8 +287,8 @@ export default function ManipurGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/meghalaya/dawki-river.jpg"
-              alt="Calm lake water reflecting green hills, evoking Manipur's Loktak Lake in Northeast India"
+              src="/images/blogs/manipur/manipur/loktak-lake-floating-islands-manipur.webp"
+              alt="Loktak Lake's phumdis — floating islands of vegetation — scattered across the water with hills beyond, Manipur"
               fill
               priority
               sizes="100vw"
@@ -652,8 +652,8 @@ export default function ManipurGuidePage() {
                   <h2>Loktak Lake & Floating Islands</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/ziro/hero.jpg"
-                      alt="Green hills and water landscape, evoking Manipur's Loktak Lake and surrounding countryside"
+                      src="/images/blogs/manipur/manipur/loktak-lake-floating-islands-manipur.webp"
+                      alt="The floating phumdi islands of Loktak Lake, Northeast India's largest freshwater lake"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

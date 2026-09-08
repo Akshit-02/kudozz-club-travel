@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jaisalmer/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Golden desert fort at dusk, evoking the arid, sand-swept landscape of Gujarat's Rann of Kutch region",
+        url: "/images/blogs/gujarat/gujarat/rann-of-kutch-white-desert-gujarat.webp",
+        width: 1600,
+        height: 1200,
+        alt: "The vast white salt flats of the Rann of Kutch stretching to the horizon, Gujarat",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Gujarat Travel Guide: Rann of Kutch, Somnath & Gir National Park",
     description:
       "A white salt desert, temple towns, and India's only wild lions — the complete guide to Gujarat.",
-    images: ["/images/destinations/jaisalmer/hero.jpg"],
+    images: ["/images/blogs/gujarat/gujarat/rann-of-kutch-white-desert-gujarat.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/gujarat-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
             "Gujarat Travel Guide: Rann of Kutch, Somnath & Gir National Park",
           description: "The complete Gujarat travel guide.",
           image:
-            "https://club.kudozz.in/images/destinations/jaisalmer/hero.jpg",
+            "https://club.kudozz.in/images/blogs/gujarat/gujarat/rann-of-kutch-white-desert-gujarat.webp",
           datePublished: "2026-07-22",
           dateModified: "2026-07-22",
           publisher: {
@@ -289,8 +289,8 @@ export default function GujaratGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jaisalmer/hero.jpg"
-              alt="Golden desert fort at dusk, evoking the arid, sand-swept landscape of Gujarat's Rann of Kutch region"
+              src="/images/blogs/gujarat/gujarat/rann-of-kutch-white-desert-gujarat.webp"
+              alt="The vast white salt flats of the Rann of Kutch stretching to the horizon, Gujarat"
               fill
               priority
               sizes="100vw"
@@ -635,7 +635,7 @@ export default function GujaratGuidePage() {
                   <h2>Rann of Kutch: The White Desert</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/jaisalmer/fort.jpg"
+                      src="/images/blogs/gujarat/gujarat/rann-of-kutch-white-desert-gujarat.webp"
                       alt="A large hilltop desert fort with sandstone walls, evoking the arid Kutch region that borders the Rann's white salt desert"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
@@ -686,7 +686,7 @@ export default function GujaratGuidePage() {
                   <h2>Somnath & Dwarka: Temple Towns</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/hampi/virupaksha.jpg"
+                      src="/images/blogs/gujarat/gujarat/rann-of-kutch-white-desert-gujarat.webp"
                       alt="Ornately carved temple gopuram architecture, evoking the coastal temple towns of Somnath and Dwarka in Gujarat"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
@@ -736,7 +736,7 @@ export default function GujaratGuidePage() {
                   <h2>Gir National Park: Asiatic Lions</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/ziro/hero.jpg"
+                      src="/images/blogs/gujarat/gujarat/rann-of-kutch-white-desert-gujarat.webp"
                       alt="Dense green forest landscape, evoking the dry deciduous forest habitat of Gir National Park in Gujarat"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"

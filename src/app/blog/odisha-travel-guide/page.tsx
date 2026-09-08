@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/hampi/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Ancient carved stone temple ruins, evoking Odisha's Konark Sun Temple architecture",
+        url: "/images/blogs/odisha/odisha/konark-sun-temple-wheel-odisha.webp",
+        width: 1400,
+        height: 933,
+        alt: "The intricately carved stone wheel of the Konark Sun Temple, Odisha's 13th-century chariot-shaped shrine",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Odisha Travel Guide: Konark, Puri & Chilika Lake",
     description:
       "The Konark Sun Temple, Puri's Jagannath Temple, and Chilika Lake's dolphins — the complete guide to Odisha.",
-    images: ["/images/destinations/hampi/hero.jpg"],
+    images: ["/images/blogs/odisha/odisha/konark-sun-temple-wheel-odisha.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/odisha-travel-guide",
@@ -57,7 +57,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Odisha Travel Guide: Konark, Puri & Chilika Lake",
           description: "The complete Odisha travel guide.",
-          image: "https://club.kudozz.in/images/destinations/hampi/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/odisha/odisha/konark-sun-temple-wheel-odisha.webp",
           datePublished: "2026-07-19",
           dateModified: "2026-07-19",
           publisher: {
@@ -288,8 +288,8 @@ export default function OdishaGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/hampi/hero.jpg"
-              alt="Ancient carved stone temple ruins, evoking Odisha's Konark Sun Temple architecture"
+              src="/images/blogs/odisha/odisha/konark-sun-temple-wheel-odisha.webp"
+              alt="The intricately carved stone wheel of the Konark Sun Temple, Odisha's 13th-century chariot-shaped shrine"
               fill
               priority
               sizes="100vw"
@@ -724,8 +724,8 @@ export default function OdishaGuidePage() {
                   <h2>Chilika Lake: Dolphins & Birds</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/kerala/alleppey.jpg"
-                      alt="Calm lagoon waters with boats, evoking Odisha's Chilika Lake, Asia's largest brackish-water lagoon"
+                      src="/images/blogs/odisha/odisha/konark-sun-temple-wheel-odisha.webp"
+                      alt="The intricately carved stone wheel of the Konark Sun Temple, one of Odisha's most iconic sights"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

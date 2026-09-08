@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/hampi/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Ancient rock-cut heritage architecture, evoking Maharashtra's Ajanta and Ellora cave temples",
+        url: "/images/blogs/maharashtra/maharashtra/ajanta-caves-rock-cut-facade-maharashtra.webp",
+        width: 1600,
+        height: 1066,
+        alt: "The rock-cut cave temple facades of the Ajanta Caves carved into a horseshoe-shaped cliff, Maharashtra",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Maharashtra Travel Guide: Mumbai, Ajanta-Ellora & Konkan Coast",
     description:
       "Mumbai's energy, ancient cave temples, and a fort-studded coastline — the complete guide to Maharashtra.",
-    images: ["/images/destinations/hampi/hero.jpg"],
+    images: ["/images/blogs/maharashtra/maharashtra/ajanta-caves-rock-cut-facade-maharashtra.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/maharashtra-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline:
             "Maharashtra Travel Guide: Mumbai, Ajanta-Ellora & Konkan Coast",
           description: "The complete Maharashtra travel guide.",
-          image: "https://club.kudozz.in/images/destinations/hampi/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/maharashtra/maharashtra/ajanta-caves-rock-cut-facade-maharashtra.webp",
           datePublished: "2026-07-22",
           dateModified: "2026-07-22",
           publisher: {
@@ -288,8 +288,8 @@ export default function MaharashtraGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/hampi/hero.jpg"
-              alt="Ancient rock-cut heritage architecture, evoking Maharashtra's Ajanta and Ellora cave temples"
+              src="/images/blogs/maharashtra/maharashtra/ajanta-caves-rock-cut-facade-maharashtra.webp"
+              alt="The rock-cut cave temple facades of the Ajanta Caves carved into a horseshoe-shaped cliff, Maharashtra"
               fill
               priority
               sizes="100vw"
@@ -651,7 +651,7 @@ export default function MaharashtraGuidePage() {
                   <h2>Ajanta & Ellora Caves</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/hampi/virupaksha.jpg"
+                      src="/images/blogs/maharashtra/maharashtra/ajanta-caves-rock-cut-facade-maharashtra.webp"
                       alt="Ancient carved temple architecture, evoking the rock-cut caves of Ajanta and Ellora"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
@@ -730,7 +730,7 @@ export default function MaharashtraGuidePage() {
                   <h2>The Konkan Coast</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/goa/beach.jpg"
+                      src="/images/blogs/maharashtra/maharashtra/ajanta-caves-rock-cut-facade-maharashtra.webp"
                       alt="A quiet coastal beach, evoking Maharashtra's Konkan coastline"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"

@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/meghalaya/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Misty green hills in Northeast India, evoking Nagaland's mountainous tribal heartland",
+        url: "/images/blogs/nagaland/nagaland/dzukou-valley-nagaland.webp",
+        width: 1500,
+        height: 843,
+        alt: "The rolling green meadows of Dzukou Valley on the Nagaland-Manipur border, known as the 'Switzerland of the East'",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Nagaland Travel Guide: Hornbill Festival, Kohima & Dzukou Valley",
     description:
       "Warrior festivals, alpine valleys, and 16 distinct tribes — the complete guide to Nagaland.",
-    images: ["/images/destinations/meghalaya/hero.jpg"],
+    images: ["/images/blogs/nagaland/nagaland/dzukou-valley-nagaland.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/nagaland-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline:
             "Nagaland Travel Guide: Hornbill Festival, Kohima & Dzukou Valley",
           description: "The complete Nagaland travel guide.",
-          image: "https://club.kudozz.in/images/destinations/meghalaya/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/nagaland/nagaland/dzukou-valley-nagaland.webp",
           datePublished: "2026-07-22",
           dateModified: "2026-07-22",
           publisher: {
@@ -288,8 +288,8 @@ export default function NagalandGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/meghalaya/hero.jpg"
-              alt="Misty green hills in Northeast India, evoking Nagaland's mountainous tribal heartland"
+              src="/images/blogs/nagaland/nagaland/dzukou-valley-nagaland.webp"
+              alt="The rolling green meadows of Dzukou Valley on the Nagaland-Manipur border, known as the 'Switzerland of the East'"
               fill
               priority
               sizes="100vw"
@@ -625,8 +625,8 @@ export default function NagalandGuidePage() {
                   <h2>Hornbill Festival</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/meghalaya/dawki-river.jpg"
-                      alt="Green hills near Kisama, the venue for Nagaland's Hornbill Festival"
+                      src="/images/blogs/nagaland/nagaland/dzukou-valley-nagaland.webp"
+                      alt="The rolling green meadows of Dzukou Valley, one of Nagaland's most iconic landscapes"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/manali/rohtang-pass.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Rugged, rocky mountain terrain, evoking the remote limestone hill country around Tharon Cave in Manipur",
+        url: "/images/blogs/manipur/tharon-cave/tharon-cave-limestone-passage-entrance.webp",
+        width: 1600,
+        height: 1067,
+        alt: "The layered limestone rock passage at the entrance of Tharon Cave, Manipur",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Tharon Cave Guide: Manipur's Longest Limestone Cave",
     description:
       "One of the longest known cave systems in Northeast India — the complete guide to visiting Tharon Cave, Manipur.",
-    images: ["/images/destinations/manali/rohtang-pass.jpg"],
+    images: ["/images/blogs/manipur/tharon-cave/tharon-cave-limestone-passage-entrance.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/tharon-cave-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           description:
             "Complete Tharon Cave travel guide — one of the longest known cave systems in Northeast India, near Tharon village, best time to visit, and how to arrange a guided visit.",
           image:
-            "https://club.kudozz.in/images/destinations/manali/rohtang-pass.jpg",
+            "https://club.kudozz.in/images/blogs/manipur/tharon-cave/tharon-cave-limestone-passage-entrance.webp",
           datePublished: "2026-09-05",
           dateModified: "2026-09-05",
           publisher: {
@@ -195,8 +195,8 @@ export default function TharonCaveGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/manali/rohtang-pass.jpg"
-              alt="Rugged, rocky mountain terrain, evoking the remote limestone hill country around Tharon Cave in Manipur"
+              src="/images/blogs/manipur/tharon-cave/tharon-cave-limestone-passage-entrance.webp"
+              alt="The layered limestone rock passage at the entrance of Tharon Cave, Manipur"
               fill
               priority
               sizes="100vw"
@@ -534,8 +534,8 @@ export default function TharonCaveGuidePage() {
                   <h2>Inside the Cave</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/manali/rohtang-pass.jpg"
-                      alt="Rocky terrain near the Tharon Cave hill country, Manipur"
+                      src="/images/blogs/manipur/tharon-cave/tharon-cave-interior-visitors-exploring.webp"
+                      alt="Visitors exploring the layered limestone interior of Tharon Cave, Manipur"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/kerala/alleppey.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Still forest-fringed lake water, evoking the remote, sacred setting of Zeilad Lake in Tamenglong",
+        url: "/images/blogs/manipur/zeilad-lake/forest-fringed-lake-northeast-india.webp",
+        width: 1600,
+        height: 1060,
+        alt: "A lone boat on a still, forest-fringed hill lake at dusk in Northeast India, evoking the remote setting of Zeilad Lake",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Zeilad Lake Travel Guide: Tamenglong's Sacred Lake",
     description:
       "A remote, sacred lake tied to Zeliangrong Naga tradition, deep in Manipur's forested hill country.",
-    images: ["/images/destinations/kerala/alleppey.jpg"],
+    images: ["/images/blogs/manipur/zeilad-lake/forest-fringed-lake-northeast-india.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/zeilad-lake-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Zeilad Lake Travel Guide: Tamenglong's Sacred Lake",
           description:
             "Complete Zeilad Lake travel guide — the remote, sacred lake in Manipur's Tamenglong district, its Zeliangrong Naga heritage, and forest birdlife.",
-          image: "https://club.kudozz.in/images/destinations/kerala/alleppey.jpg",
+          image: "https://club.kudozz.in/images/blogs/manipur/zeilad-lake/forest-fringed-lake-northeast-india.webp",
           datePublished: "2026-09-05",
           dateModified: "2026-09-05",
           publisher: {
@@ -194,8 +194,8 @@ export default function ZeiladLakeGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/kerala/alleppey.jpg"
-              alt="Still forest-fringed lake water, evoking the remote, sacred setting of Zeilad Lake in Tamenglong"
+              src="/images/blogs/manipur/zeilad-lake/forest-fringed-lake-northeast-india.webp"
+              alt="A lone boat on a still, forest-fringed hill lake at dusk in Northeast India, evoking the remote setting of Zeilad Lake"
               fill
               priority
               sizes="100vw"
@@ -528,8 +528,8 @@ export default function ZeiladLakeGuidePage() {
                   <h2>The Lake & Its Forest</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/kerala/alleppey.jpg"
-                      alt="Calm forest-fringed water, evoking the tranquil, remote setting of Zeilad Lake"
+                      src="/images/blogs/manipur/zeilad-lake/forest-fringed-lake-northeast-india.webp"
+                      alt="Calm forest-fringed hill lake, evoking the tranquil, remote setting of Zeilad Lake"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

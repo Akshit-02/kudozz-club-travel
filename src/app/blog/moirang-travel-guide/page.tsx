@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jammu-kashmir/dal.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Still lake water at dusk, evoking Loktak Lake's shoreline at Moirang, Manipur",
+        url: "/images/blogs/manipur/moirang/ina-memorial-complex-moirang-manipur.webp",
+        width: 1600,
+        height: 1200,
+        alt: "The INA War Memorial monument at the INA Memorial Complex in Moirang, Manipur",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Moirang Travel Guide: INA Memorial & Loktak Lake Gateway",
     description:
       "Where the Indian tricolor was first raised on Indian soil, and the gateway to Loktak Lake — the complete Moirang guide.",
-    images: ["/images/destinations/jammu-kashmir/dal.jpg"],
+    images: ["/images/blogs/manipur/moirang/ina-memorial-complex-moirang-manipur.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/moirang-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           description:
             "The complete Moirang travel guide — the INA Memorial Complex, the historic Moirang principality, Lai Haraoba tradition, and how to combine it with a Loktak Lake visit.",
           image:
-            "https://club.kudozz.in/images/destinations/jammu-kashmir/dal.jpg",
+            "https://club.kudozz.in/images/blogs/manipur/moirang/ina-memorial-complex-moirang-manipur.webp",
           datePublished: "2026-09-05",
           dateModified: "2026-09-05",
           publisher: {
@@ -196,8 +196,8 @@ export default function MoirangGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jammu-kashmir/dal.jpg"
-              alt="Still lake water at dusk, evoking Loktak Lake's shoreline at Moirang, Manipur"
+              src="/images/blogs/manipur/moirang/ina-memorial-complex-moirang-manipur.webp"
+              alt="The INA War Memorial monument at the INA Memorial Complex in Moirang, Manipur"
               fill
               priority
               sizes="100vw"
@@ -511,8 +511,8 @@ export default function MoirangGuidePage() {
                   <h2>Things to Do in Moirang</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/jammu-kashmir/dal.jpg"
-                      alt="Still lake water at dusk, evoking Loktak Lake's shoreline at Moirang, Manipur"
+                      src="/images/blogs/manipur/moirang/ina-memorial-complex-moirang-manipur.webp"
+                      alt="The INA War Memorial monument at the INA Memorial Complex in Moirang, Manipur"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

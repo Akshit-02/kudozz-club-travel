@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/udaipur/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "A white marble monument reflected in a still sacred pool, evoking the Golden Temple's Amrit Sarovar in Amritsar",
+        url: "/images/blogs/punjab/punjab/golden-temple-amritsar-punjab.webp",
+        width: 1600,
+        height: 1067,
+        alt: "The gold-plated Golden Temple (Sri Harmandir Sahib) reflected in the Amrit Sarovar at sunset, Amritsar",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Punjab Travel Guide: Golden Temple, Amritsar & Wagah Border",
     description:
       "The Golden Temple, the Wagah Border ceremony, and legendary Punjabi food — the complete guide to Punjab.",
-    images: ["/images/destinations/udaipur/hero.jpg"],
+    images: ["/images/blogs/punjab/punjab/golden-temple-amritsar-punjab.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/punjab-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
             "Punjab Travel Guide: Golden Temple, Amritsar & Wagah Border",
           description: "The complete Punjab travel guide.",
           image:
-            "https://club.kudozz.in/images/destinations/udaipur/hero.jpg",
+            "https://club.kudozz.in/images/blogs/punjab/punjab/golden-temple-amritsar-punjab.webp",
           datePublished: "2026-07-19",
           dateModified: "2026-07-19",
           publisher: {
@@ -289,8 +289,8 @@ export default function PunjabGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/udaipur/hero.jpg"
-              alt="A white marble monument reflected in a still sacred pool, evoking the Golden Temple's Amrit Sarovar in Amritsar"
+              src="/images/blogs/punjab/punjab/golden-temple-amritsar-punjab.webp"
+              alt="The gold-plated Golden Temple (Sri Harmandir Sahib) reflected in the Amrit Sarovar at sunset, Amritsar"
               fill
               priority
               sizes="100vw"
@@ -658,8 +658,8 @@ export default function PunjabGuidePage() {
                   <h2>The Wagah Border Ceremony</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/udaipur/saheliyon.jpg"
-                      alt="Ornate garden fountains and pavilions, evoking the ceremonial pageantry near Amritsar's Wagah Border"
+                      src="/images/blogs/punjab/punjab/golden-temple-amritsar-punjab.webp"
+                      alt="The gold-plated Golden Temple reflected in the Amrit Sarovar, Amritsar's most iconic sight"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
