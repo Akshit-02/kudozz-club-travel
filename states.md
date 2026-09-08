@@ -5,10 +5,10 @@ Arunachal Pradesh - done
 Assam - done
 Bihar - done
 Chhattisgarh - done
-Goa - done
 
 ## Cities Covered
 
+Goa - done
 Gujarat - done
 Haryana - done
 Himachal Pradesh - done
