@@ -26,10 +26,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jammu-kashmir/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Mountain landscape of the Trikuta Hills surrounding Katra, base town for the Vaishno Devi Yatra",
+        url: "/images/blogs/jammu-and-kashmir/katra/vaishno-devi-shrine-mountain-valley.webp",
+        width: 1280,
+        height: 960,
+        alt: "The Vaishno Devi shrine complex nestled in a mountain fold of the Trikuta Hills above Katra",
       },
     ],
   },
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     title: "Katra & Vaishno Devi Yatra Guide: Route, Tips & Stay",
     description:
       "Registration, the 13 km trek from Katra to Bhawan, helicopter booking, Bhairon Temple, and where to stay — the complete Vaishno Devi Yatra guide.",
-    images: ["/images/destinations/jammu-kashmir/hero.jpg"],
+    images: ["/images/blogs/jammu-and-kashmir/katra/vaishno-devi-shrine-mountain-valley.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/katra-travel-guide",
@@ -62,7 +62,7 @@ function ArticleSchema() {
           description:
             "Complete Katra travel guide for the Vaishno Devi Yatra — registration, the 13 km trek route, helicopter booking, best time to visit, and where to stay.",
           image:
-            "https://club.kudozz.in/images/destinations/jammu-kashmir/hero.jpg",
+            "https://club.kudozz.in/images/blogs/jammu-and-kashmir/katra/vaishno-devi-shrine-mountain-valley.webp",
           datePublished: "2026-08-30",
           dateModified: "2026-08-30",
           publisher: {
@@ -215,8 +215,8 @@ export default function KatraGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jammu-kashmir/hero.jpg"
-              alt="Mountain landscape of the Trikuta Hills surrounding Katra, base town for the Vaishno Devi Yatra"
+              src="/images/blogs/jammu-and-kashmir/katra/vaishno-devi-shrine-mountain-valley.webp"
+              alt="The Vaishno Devi shrine complex nestled in a mountain fold of the Trikuta Hills above Katra"
               fill
               priority
               sizes="100vw"

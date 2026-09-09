@@ -850,6 +850,306 @@
       "license": "CC BY 4.0",
       "author": "Vyacheslav Argenberg",
       "attribution": "Photo by Vyacheslav Argenberg, CC BY 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/ladakh/hemis/hemis-monastery-facade-courtyard.webp",
+      "usedIn": ["hemis-travel-guide (hero + inline — replaces a generic shared leh-ladakh.jpg photo)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Hemis_Monastery-Hemis-Ladakh_UT-IMG_4344.jpg",
+      "originalFile": "Hemis Monastery-Hemis-Ladakh UT-IMG 4344.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Kmohankar",
+      "attribution": "Photo by Kmohankar, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/ladakh/thiksey/thiksey-monastery-hilltop-view.webp",
+      "usedIn": ["thiksey-travel-guide (hero + inline — replaces a generic shared leh-ladakh.jpg photo)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Thiksey_Monastery_Complex,_Ladakh_02.jpg",
+      "originalFile": "Thiksey Monastery Complex, Ladakh 02.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Deepank Ranka",
+      "attribution": "Photo by Deepank Ranka, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/ladakh/khardung-la/khardung-la-winding-pass-road.webp",
+      "usedIn": ["khardung-la-travel-guide (hero — replaces a generic shared leh-ladakh.jpg photo)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Khardung_La,_Ladakh_Range,_North_India.jpg",
+      "originalFile": "Khardung La, Ladakh Range, North India.jpg",
+      "license": "CC BY 4.0",
+      "author": "Vyacheslav Argenberg",
+      "attribution": "Photo by Vyacheslav Argenberg, CC BY 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/ladakh/dha-hanu/brokpa-women-traditional-headdress-dha-hanu.webp",
+      "usedIn": ["dha-hanu-travel-guide (hero + inline — replaces a generic shared leh-ladakh.jpg photo)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Brokpa_women_before_the_ceremony_began.jpg",
+      "originalFile": "Brokpa women before the ceremony began.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Vinay.chittora",
+      "attribution": "Photo by Vinay.chittora, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/ladakh/padum/padum-zanskar-valley-view-from-karsha.webp",
+      "usedIn": ["padum-travel-guide (hero + Karsha Monastery inline section — replaces a generic shared leh-ladakh.jpg photo)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Padum_Zanskar_View_From_Karsha_Oct22_A7C_03984.jpg",
+      "originalFile": "Padum Zanskar View From Karsha Oct22 A7C 03984.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Timothy A. Gonsalves",
+      "attribution": "Photo by Timothy A. Gonsalves, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/jammu-and-kashmir/sonamarg/thajiwas-glacier-valley-sonamarg.webp",
+      "usedIn": ["sonamarg-travel-guide (hero + inline — replaces a generic shared jammu-kashmir/hero.jpg photo)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Thajiwas_Glacier,_Sonamarg,_Kashmir_-_Picture_1_(8707802225).jpg",
+      "originalFile": "Thajiwas Glacier, Sonamarg, Kashmir - Picture 1 (8707802225).jpg",
+      "license": "CC BY 2.0",
+      "author": "Kashmir Pictures",
+      "attribution": "Photo by Kashmir Pictures, CC BY 2.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/jammu-and-kashmir/katra/vaishno-devi-shrine-mountain-valley.webp",
+      "usedIn": ["katra-travel-guide (hero — replaces a generic shared jammu-kashmir/hero.jpg photo)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Shri_Mata_Vaishno_Devi_Shrine,_Katra,_Jammu_and_Kashmir,_India.jpg",
+      "originalFile": "Shri Mata Vaishno Devi Shrine, Katra, Jammu and Kashmir, India.jpg",
+      "license": "CC0",
+      "author": "Baap8969",
+      "attribution": "Photo by Baap8969, CC0 (public domain dedication), via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/jammu-and-kashmir/gurez-valley/habba-khatoon-peak-kishanganga-river.webp",
+      "usedIn": ["gurez-valley-travel-guide (hero + inline — replaces a generic shared jammu-kashmir/hero.jpg photo)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Habba_Khatoon.jpg",
+      "originalFile": "Habba Khatoon.jpg",
+      "license": "CC BY 3.0",
+      "author": "Zahid samoon",
+      "attribution": "Photo by Zahid samoon, CC BY 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/jammu-and-kashmir/doodhpathri/doodhpathri-meadow-pine-forest.webp",
+      "usedIn": ["doodhpathri-travel-guide (hero + inline — replaces a generic shared jammu-kashmir/hero.jpg photo)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Meadows_and_Forests_Doodhpathri_southwest_Jammu_Kashmir_India.jpg",
+      "originalFile": "Meadows and Forests Doodhpathri southwest Jammu Kashmir India.jpg",
+      "license": "CC BY-SA 2.0",
+      "author": "Ankur P",
+      "attribution": "Photo by Ankur P, CC BY-SA 2.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/jammu-and-kashmir/yusmarg/yusmarg-meadow-pine-forest.webp",
+      "usedIn": ["yusmarg-travel-guide (hero + inline — replaces a generic shared jammu-kashmir/hero.jpg photo)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Yousmarg.jpg",
+      "originalFile": "Yousmarg.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Suhail Skindar Sofi",
+      "attribution": "Photo by Suhail Skindar Sofi, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/hauz-khas/hauz-khas-fort-madrasa-ruins.webp",
+      "usedIn": ["hauz-khas-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Hauz_Khas_Fort_1.jpg",
+      "originalFile": "Hauz Khas Fort 1.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "MansiVikram",
+      "attribution": "Photo by MansiVikram, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/nizamuddin/nizamuddin-dargah-marble-dome-delhi.webp",
+      "usedIn": ["nizamuddin-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Hazrat_Nizamuddin_Dargah,_Delhi_(2017).jpg",
+      "originalFile": "Hazrat Nizamuddin Dargah, Delhi (2017).jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Nehasinha18",
+      "attribution": "Photo by Nehasinha18, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/akshardham/akshardham-temple-domes-delhi.webp",
+      "usedIn": ["akshardham-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Akshardham_temple,_Delhi.jpg",
+      "originalFile": "Akshardham temple, Delhi.jpg",
+      "license": "CC BY 2.0",
+      "author": "Daniel Echeverri",
+      "attribution": "Photo by Daniel Echeverri, CC BY 2.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/dwarka/dwarka-residential-sub-city-aerial-view.webp",
+      "usedIn": ["dwarka-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Dwarka_-_Residential_Area_-_Aerial_View_-_New_Delhi_2016-08-04_5783.JPG",
+      "originalFile": "Dwarka - Residential Area - Aerial View - New Delhi 2016-08-04 5783.JPG",
+      "license": "CC BY 3.0",
+      "author": "Biswarup Ganguly",
+      "attribution": "Photo by Biswarup Ganguly, CC BY 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/karol-bagh/karol-bagh-gaffar-market-ajmal-khan-road.webp",
+      "usedIn": ["karol-bagh-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Karol_Bagh,_2008_(6).JPG",
+      "originalFile": "Karol Bagh, 2008 (6).JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "Bahnfrend",
+      "attribution": "Photo by Bahnfrend, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/lajpat-nagar/lajpat-nagar-central-market-street-scene.webp",
+      "usedIn": ["lajpat-nagar-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Lajpat_Nagar_marketplace_in_2006.jpg",
+      "originalFile": "Lajpat Nagar marketplace in 2006.jpg",
+      "license": "CC BY 2.0",
+      "author": "Ville Miettinen",
+      "attribution": "Photo by Ville Miettinen, CC BY 2.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/jammu-and-kashmir/aharbal/aharbal-falls-viewing-deck-kashmir.webp",
+      "usedIn": ["aharbal-travel-guide (hero + inline — replaces a generic shared jammu-kashmir/hero.jpg photo)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Waterfall_of_Aharbal.JPG",
+      "originalFile": "Waterfall of Aharbal.JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "Akshey25",
+      "attribution": "Photo by Akshey25, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/jammu-and-kashmir/patnitop/patnitop-pine-forest-meadow-jk.webp",
+      "usedIn": ["patnitop-travel-guide (hero + inline — replaces a generic shared jammu-kashmir/hero.jpg photo)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Patnitop_Park.jpg",
+      "originalFile": "Patnitop Park.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "My Lord",
+      "attribution": "Photo by My Lord, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/jammu-and-kashmir/bhaderwah/jai-valley-bhaderwah-meadow-doda.webp",
+      "usedIn": ["bhaderwah-travel-guide (hero + inline — replaces a generic shared jammu-kashmir/hero.jpg photo)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Jai_Valley_Bhaderwah_1.jpg",
+      "originalFile": "Jai Valley Bhaderwah 1.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Sumbria.vikramaditya",
+      "attribution": "Photo by Vikramaditya Singh Sumbria, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/new-delhi/india-gate-lawns-new-delhi.webp",
+      "usedIn": ["new-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:India_Gate,_New_Delhi_from_West.jpg",
+      "originalFile": "India Gate, New Delhi from West.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Nikhilb239",
+      "attribution": "Photo by Nikhilb239, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/old-delhi/jama-masjid-courtyard-old-delhi.webp",
+      "usedIn": ["old-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:20191203_Jama_Masjid,_Delhi_0707_6468_DxO.jpg",
+      "originalFile": "20191203 Jama Masjid, Delhi 0707 6468 DxO.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Jakub Hałun",
+      "attribution": "Photo by Jakub Hałun, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/mehrauli/qutub-minar-tower-ruins-mehrauli.webp",
+      "usedIn": ["mehrauli-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Qutub_Minar,_Delhi_04.jpg",
+      "originalFile": "Qutub Minar, Delhi 04.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Indrajit Das",
+      "attribution": "Photo by Indrajit Das, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/south-delhi/lotus-temple-kalkaji-south-delhi.webp",
+      "usedIn": ["south-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:The_Lotus_temple_in_Delhi,_India_(11).jpg",
+      "originalFile": "The Lotus temple in Delhi, India (11).jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Shagil Kannur",
+      "attribution": "Photo by Shagil Kannur, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/tughlaqabad/tughlaqabad-fort-sloping-ramparts.webp",
+      "usedIn": ["tughlaqabad-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Outside_view_of_Tughlaqabad_Fort_in_Tughlakabad_05.jpg",
+      "originalFile": "Outside view of Tughlaqabad Fort in Tughlakabad 05.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Pinakpani",
+      "attribution": "Photo by Pinakpani, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/connaught-place/connaught-place-colonnade-facade.webp",
+      "usedIn": ["connaught-place-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Connaught_place,_Delhi.jpg",
+      "originalFile": "Connaught place, Delhi.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Kushared",
+      "attribution": "Photo by Mohammed Sardar (Kushared), CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/chandni-chowk/chandni-chowk-bazaar-street-scene.webp",
+      "usedIn": ["chandni-chowk-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Chandni_Chowk,_2008_(01).JPG",
+      "originalFile": "Chandni Chowk, 2008 (01).JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "Bahnfrend",
+      "attribution": "Photo by Bahnfrend, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/majnu-ka-tilla/majnu-ka-tilla-tibetan-colony-lane.webp",
+      "usedIn": ["majnu-ka-tilla-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Rick_Bradley,_Street_in_Majnu-ka-tilla.jpg",
+      "originalFile": "Rick Bradley, Street in Majnu-ka-tilla.jpg",
+      "license": "CC BY 2.0",
+      "author": "Rick Bradley",
+      "attribution": "Photo by Rick Bradley, CC BY 2.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/chanakyapuri/gandhi-charkha-statue-gandhi-smriti.webp",
+      "usedIn": ["chanakyapuri-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Gandhi_Smriti-Delhi-India07.JPG",
+      "originalFile": "Gandhi Smriti-Delhi-India07.JPG",
+      "license": "CC BY-SA 4.0",
+      "author": "Diego Delso",
+      "attribution": "Photo by Diego Delso, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/lodhi-garden/lodhi-garden-tomb-of-sikandar-lodi.webp",
+      "usedIn": ["lodhi-garden-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Tomb_of_Sikandar_Lodhi,_Lodhi_Gardens_Delhi_3.jpg",
+      "originalFile": "Tomb of Sikandar Lodhi, Lodhi Gardens Delhi 3.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Slyronit",
+      "attribution": "Photo by Slyronit, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/vasant-kunj/vasant-kunj-aerial-ongc-ambience-complex.webp",
+      "usedIn": ["vasant-kunj-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:ONGC_Rajiv_Gandhi_Urja_Bhavan_and_other_Commercial_Buildings_-_Aerial_View_-_Vasant_Kunj_-_New_Delhi_2016-08-04_5810.JPG",
+      "originalFile": "ONGC Rajiv Gandhi Urja Bhavan and other Commercial Buildings - Aerial View - Vasant Kunj - New Delhi 2016-08-04 5810.JPG",
+      "license": "CC BY 3.0",
+      "author": "Biswarup Ganguly",
+      "attribution": "Photo by Biswarup Ganguly, CC BY 3.0, via Wikimedia Commons"
     }
   ]
 }

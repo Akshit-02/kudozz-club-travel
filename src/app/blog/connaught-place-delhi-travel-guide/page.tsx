@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jaisalmer/fort.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Sandstone heritage architecture, India — used here for illustrative purposes only, not a photograph of Connaught Place's colonial Georgian buildings",
+        url: "/images/blogs/delhi/connaught-place/connaught-place-colonnade-facade.webp",
+        width: 1600,
+        height: 1200,
+        alt: "The white colonnaded facade of Connaught Place's shopping arcade, Delhi",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Connaught Place Guide: Shopping, Food & Nightlife",
     description:
       "The Inner, Middle & Outer Circle layout, Central Park, Palika Bazaar, old-school eateries and nightlife — the complete Connaught Place guide.",
-    images: ["/images/destinations/jaisalmer/fort.jpg"],
+    images: ["/images/blogs/delhi/connaught-place/connaught-place-colonnade-facade.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/connaught-place-delhi-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           description:
             "Complete Connaught Place travel guide — the Inner, Middle & Outer Circle layout, Central Park, Palika Bazaar, iconic old-school eateries, nightlife, and how to reach CP via Rajiv Chowk Metro.",
           image:
-            "https://club.kudozz.in/images/destinations/jaisalmer/fort.jpg",
+            "https://club.kudozz.in/images/blogs/delhi/connaught-place/connaught-place-colonnade-facade.webp",
           datePublished: "2026-08-30",
           dateModified: "2026-08-30",
           publisher: {
@@ -206,8 +206,8 @@ export default function ConnaughtPlaceGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jaisalmer/fort.jpg"
-              alt="Sandstone heritage architecture, India — used here for illustrative purposes only, not a photograph of Connaught Place's colonial Georgian buildings"
+              src="/images/blogs/delhi/connaught-place/connaught-place-colonnade-facade.webp"
+              alt="The white colonnaded facade of Connaught Place's shopping arcade, Delhi"
               fill
               priority
               sizes="100vw"
@@ -571,8 +571,8 @@ export default function ConnaughtPlaceGuidePage() {
                   <h2>The Layout Explained: Inner, Middle & Outer Circle</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/jaisalmer/hero.jpg"
-                      alt="Generic Indian heritage architecture — illustrative only, not a photograph of Connaught Place"
+                      src="/images/blogs/delhi/connaught-place/connaught-place-colonnade-facade.webp"
+                      alt="Connaught Place's colonnaded Inner Circle facade with shops beneath the arcade, Delhi"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

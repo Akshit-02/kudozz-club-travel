@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jaisalmer/fort.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Sandstone architecture at golden hour, used here to represent Delhi travel content — Dwarka sub-city itself is a modern planned residential district, not a historic monument site",
+        url: "/images/blogs/delhi/dwarka/dwarka-residential-sub-city-aerial-view.webp",
+        width: 1600,
+        height: 1064,
+        alt: "Aerial view of Dwarka's dense grid of planned residential tower blocks in South West Delhi",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Dwarka Delhi Travel Guide: Sub-City & ISKCON Temple",
     description:
       "One of Asia's largest planned sub-cities, minutes from IGI Airport — Dwarka in South West Delhi, its ISKCON Temple, and metro access. Not Dwarka, Gujarat.",
-    images: ["/images/destinations/jaisalmer/fort.jpg"],
+    images: ["/images/blogs/delhi/dwarka/dwarka-residential-sub-city-aerial-view.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/dwarka-delhi-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           description:
             "Guide to Dwarka, Delhi's sub-city near IGI Airport — ISKCON Temple, sector markets, Delhi Metro Blue Line access, and why it's not Dwarka, Gujarat.",
           image:
-            "https://club.kudozz.in/images/destinations/jaisalmer/fort.jpg",
+            "https://club.kudozz.in/images/blogs/delhi/dwarka/dwarka-residential-sub-city-aerial-view.webp",
           datePublished: "2026-08-30",
           dateModified: "2026-08-30",
           publisher: {
@@ -206,8 +206,8 @@ export default function DwarkaDelhiGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jaisalmer/fort.jpg"
-              alt="Sandstone architecture at golden hour, used here to represent Delhi travel content — Dwarka sub-city itself is a modern planned residential district, not a historic monument site"
+              src="/images/blogs/delhi/dwarka/dwarka-residential-sub-city-aerial-view.webp"
+              alt="Aerial view of Dwarka's dense grid of planned residential tower blocks in South West Delhi"
               fill
               priority
               sizes="100vw"
@@ -573,8 +573,8 @@ export default function DwarkaDelhiGuidePage() {
                   <h2>ISKCON Temple Dwarka (Sri Sri Radha Parthasarathi Mandir)</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/jaisalmer/hero.jpg"
-                      alt="Stock architectural image used to represent temple travel content — not a photo of the actual ISKCON Temple Dwarka complex"
+                      src="/images/blogs/delhi/dwarka/dwarka-residential-sub-city-aerial-view.webp"
+                      alt="Aerial view of Dwarka's residential sub-city in South West Delhi, home to the ISKCON Temple (Sri Sri Radha Parthasarathi Mandir)"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

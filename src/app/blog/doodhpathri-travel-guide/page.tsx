@@ -26,10 +26,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jammu-kashmir/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Green meadow and pine forest at Doodhpathri, Kashmir's Valley of Milk",
+        url: "/images/blogs/jammu-and-kashmir/doodhpathri/doodhpathri-meadow-pine-forest.webp",
+        width: 1600,
+        height: 900,
+        alt: "The rolling green meadow of Doodhpathri ringed by dense pine forest, Kashmir",
       },
     ],
   },
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     title: "Doodhpathri Travel Guide: Kashmir's Valley of Milk",
     description:
       "A rolling green meadow ringed by pine forest, a milky-white mountain stream, and a fraction of the crowds at Gulmarg — the complete Doodhpathri guide.",
-    images: ["/images/destinations/jammu-kashmir/hero.jpg"],
+    images: ["/images/blogs/jammu-and-kashmir/doodhpathri/doodhpathri-meadow-pine-forest.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/doodhpathri-travel-guide",
@@ -62,7 +62,7 @@ function ArticleSchema() {
           description:
             "The complete Doodhpathri travel guide — Kashmir's quiet, milk-white meadow near Srinagar. Best time to visit, how to reach, things to do, and a day-trip itinerary.",
           image:
-            "https://club.kudozz.in/images/destinations/jammu-kashmir/hero.jpg",
+            "https://club.kudozz.in/images/blogs/jammu-and-kashmir/doodhpathri/doodhpathri-meadow-pine-forest.webp",
           datePublished: "2026-08-30",
           dateModified: "2026-08-30",
           publisher: {
@@ -218,8 +218,8 @@ export default function DoodhpathriGuidePage() {
         <section className="relative min-h-[70vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jammu-kashmir/hero.jpg"
-              alt="Green meadow and pine forest at Doodhpathri, Kashmir's Valley of Milk"
+              src="/images/blogs/jammu-and-kashmir/doodhpathri/doodhpathri-meadow-pine-forest.webp"
+              alt="The rolling green meadow of Doodhpathri ringed by dense pine forest, Kashmir"
               fill
               priority
               sizes="100vw"
@@ -577,8 +577,8 @@ export default function DoodhpathriGuidePage() {
                   <h2>Things to Do in Doodhpathri</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/jammu-kashmir/hero.jpg"
-                      alt="Rolling meadow and pine forest at Doodhpathri near Srinagar, Kashmir"
+                      src="/images/blogs/jammu-and-kashmir/doodhpathri/doodhpathri-meadow-pine-forest.webp"
+                      alt="The rolling green meadow of Doodhpathri ringed by dense pine forest, Kashmir"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jaisalmer/fort.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Sandstone fort walls at golden hour, evoking the Mughal-era architecture found near Chandni Chowk and Old Delhi",
+        url: "/images/blogs/delhi/chandni-chowk/chandni-chowk-bazaar-street-scene.webp",
+        width: 1600,
+        height: 1064,
+        alt: "Crowded bazaar lane in Chandni Chowk with market stalls and shoppers, Old Delhi",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Chandni Chowk Food Guide: Street Food & Shopping",
     description:
       "Delhi's 350-year-old moonlit bazaar — Kinari Bazaar, Khari Baoli spice market, Paranthe Wali Gali, and the legendary Chandni Chowk food walk.",
-    images: ["/images/destinations/jaisalmer/fort.jpg"],
+    images: ["/images/blogs/delhi/chandni-chowk/chandni-chowk-bazaar-street-scene.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/chandni-chowk-delhi-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           description:
             "Chandni Chowk travel guide — Delhi's 350-year-old bazaar built by Jahanara Begum. The legendary food walk, Kinari Bazaar, Khari Baoli spice market, and how to explore its lanes.",
           image:
-            "https://club.kudozz.in/images/destinations/jaisalmer/fort.jpg",
+            "https://club.kudozz.in/images/blogs/delhi/chandni-chowk/chandni-chowk-bazaar-street-scene.webp",
           datePublished: "2026-08-30",
           dateModified: "2026-08-30",
           publisher: {
@@ -206,8 +206,8 @@ export default function ChandniChowkGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jaisalmer/fort.jpg"
-              alt="Sandstone fort walls at golden hour, evoking the Mughal-era architecture found near Chandni Chowk and Old Delhi"
+              src="/images/blogs/delhi/chandni-chowk/chandni-chowk-bazaar-street-scene.webp"
+              alt="Crowded bazaar lane in Chandni Chowk with market stalls and shoppers, Old Delhi"
               fill
               priority
               sizes="100vw"

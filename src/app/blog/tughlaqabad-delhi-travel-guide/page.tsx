@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jaisalmer/fort.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Massive sloping stone fort ramparts at golden hour, evoking Tughlaqabad Fort's imposing 14th-century walls",
+        url: "/images/blogs/delhi/tughlaqabad/tughlaqabad-fort-sloping-ramparts.webp",
+        width: 1600,
+        height: 900,
+        alt: "Massive sloping stone ramparts and a rampart pathway at Tughlaqabad Fort, Delhi",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Tughlaqabad Fort Travel Guide: Delhi's Cursed City",
     description:
       "Massive sloping ramparts, 13 gates, and the legend of a Sufi saint's curse — inside Delhi's most dramatic and least-visited fort ruins.",
-    images: ["/images/destinations/jaisalmer/fort.jpg"],
+    images: ["/images/blogs/delhi/tughlaqabad/tughlaqabad-fort-sloping-ramparts.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/tughlaqabad-delhi-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           description:
             "Complete guide to Tughlaqabad Fort — Delhi's massive, mostly-empty 14th-century ruins built by Ghiyasuddin Tughlaq, the legend of Nizamuddin Auliya's curse, how to reach it, and what to see inside.",
           image:
-            "https://club.kudozz.in/images/destinations/jaisalmer/fort.jpg",
+            "https://club.kudozz.in/images/blogs/delhi/tughlaqabad/tughlaqabad-fort-sloping-ramparts.webp",
           datePublished: "2026-08-30",
           dateModified: "2026-08-30",
           publisher: {
@@ -208,8 +208,8 @@ export default function TughlaqabadGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jaisalmer/fort.jpg"
-              alt="Massive sloping stone fort ramparts at golden hour, evoking Tughlaqabad Fort's imposing 14th-century walls"
+              src="/images/blogs/delhi/tughlaqabad/tughlaqabad-fort-sloping-ramparts.webp"
+              alt="Massive sloping stone ramparts and a rampart pathway at Tughlaqabad Fort, Delhi"
               fill
               priority
               sizes="100vw"
@@ -558,8 +558,8 @@ export default function TughlaqabadGuidePage() {
                   <h2>The Massive Ramparts & 13 Gates</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/jaisalmer/hero.jpg"
-                      alt="Weathered stone fortress walls reminiscent of Tughlaqabad's sloping ramparts and battlements"
+                      src="/images/blogs/delhi/tughlaqabad/tughlaqabad-fort-sloping-ramparts.webp"
+                      alt="Weathered sloping stone ramparts and battlements at Tughlaqabad Fort, Delhi"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

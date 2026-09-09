@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jaisalmer/fort.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Generic representative Indian heritage and landscape imagery, used here as a placeholder — not a literal photo of Vasant Kunj's mall district",
+        url: "/images/blogs/delhi/vasant-kunj/vasant-kunj-aerial-ongc-ambience-complex.webp",
+        width: 1600,
+        height: 1063,
+        alt: "Aerial view of the ONGC Rajiv Gandhi Urja Bhavan and surrounding mall complex in Vasant Kunj, Delhi",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Vasant Kunj Guide: Malls, Shopping & Nature Nearby",
     description:
       "Delhi's airport-adjacent mall district — Ambience Mall, DLF Promenade, DLF Emporio, and the Asola Bhatti forest just beyond it.",
-    images: ["/images/destinations/jaisalmer/fort.jpg"],
+    images: ["/images/blogs/delhi/vasant-kunj/vasant-kunj-aerial-ongc-ambience-complex.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/vasant-kunj-delhi-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           description:
             "Vasant Kunj travel guide — Delhi's airport-adjacent mall district with Ambience Mall, DLF Promenade, and DLF Emporio, plus the offbeat Asola Bhatti Wildlife Sanctuary next door.",
           image:
-            "https://club.kudozz.in/images/destinations/jaisalmer/fort.jpg",
+            "https://club.kudozz.in/images/blogs/delhi/vasant-kunj/vasant-kunj-aerial-ongc-ambience-complex.webp",
           datePublished: "2026-08-30",
           dateModified: "2026-08-30",
           publisher: {
@@ -206,8 +206,8 @@ export default function VasantKunjGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jaisalmer/fort.jpg"
-              alt="Generic representative Indian heritage and landscape imagery, used here as a placeholder — not a literal photo of Vasant Kunj's mall district"
+              src="/images/blogs/delhi/vasant-kunj/vasant-kunj-aerial-ongc-ambience-complex.webp"
+              alt="Aerial view of the ONGC Rajiv Gandhi Urja Bhavan and surrounding mall complex in Vasant Kunj, Delhi"
               fill
               priority
               sizes="100vw"
@@ -565,8 +565,8 @@ export default function VasantKunjGuidePage() {
                   <h2>The Mall District</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/jaisalmer/hero.jpg"
-                      alt="Generic landscape imagery used as a stand-in — not a photo of Vasant Kunj's malls, which are modern indoor retail complexes"
+                      src="/images/blogs/delhi/vasant-kunj/vasant-kunj-aerial-ongc-ambience-complex.webp"
+                      alt="Aerial view of Vasant Kunj's mall and commercial complex, Delhi"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

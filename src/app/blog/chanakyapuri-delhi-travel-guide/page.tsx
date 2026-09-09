@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jaisalmer/fort.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Generic representative Indian heritage architecture — used as a stand-in image; it does not depict Chanakyapuri's mid-century diplomatic buildings",
+        url: "/images/blogs/delhi/chanakyapuri/gandhi-charkha-statue-gandhi-smriti.webp",
+        width: 1600,
+        height: 1067,
+        alt: "The bronze statue of Mahatma Gandhi seated at a spinning wheel (charkha) at Gandhi Smriti, Chanakyapuri, Delhi",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Chanakyapuri Guide: Delhi's Diplomatic Enclave",
     description:
       "Embassies, tree-lined boulevards, and Nehru Park — an honest look at what's actually worth visiting in Chanakyapuri.",
-    images: ["/images/destinations/jaisalmer/fort.jpg"],
+    images: ["/images/blogs/delhi/chanakyapuri/gandhi-charkha-statue-gandhi-smriti.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/chanakyapuri-delhi-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           description:
             "An honest guide to Chanakyapuri, Delhi's diplomatic enclave — what's actually worth visiting, from Nehru Park and tree-lined boulevards to nearby Gandhi Smriti and Teen Murti Bhavan.",
           image:
-            "https://club.kudozz.in/images/destinations/jaisalmer/fort.jpg",
+            "https://club.kudozz.in/images/blogs/delhi/chanakyapuri/gandhi-charkha-statue-gandhi-smriti.webp",
           datePublished: "2026-08-30",
           dateModified: "2026-08-30",
           publisher: {
@@ -205,8 +205,8 @@ export default function ChanakyapuriGuidePage() {
         <section className="relative min-h-[70vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jaisalmer/fort.jpg"
-              alt="Generic representative Indian heritage architecture — used as a stand-in image; it does not depict Chanakyapuri's mid-century diplomatic buildings"
+              src="/images/blogs/delhi/chanakyapuri/gandhi-charkha-statue-gandhi-smriti.webp"
+              alt="The bronze statue of Mahatma Gandhi seated at a spinning wheel (charkha) at Gandhi Smriti, Chanakyapuri, Delhi"
               fill
               priority
               sizes="100vw"
@@ -522,8 +522,8 @@ export default function ChanakyapuriGuidePage() {
                   <h2>What's Actually Worth Seeing</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/jaisalmer/hero.jpg"
-                      alt="Generic Indian heritage architecture used as representative stand-in imagery — not a photograph of Chanakyapuri, Nehru Park, or Teen Murti Bhavan"
+                      src="/images/blogs/delhi/chanakyapuri/gandhi-charkha-statue-gandhi-smriti.webp"
+                      alt="The bronze statue of Mahatma Gandhi seated at a spinning wheel (charkha) at Gandhi Smriti, Chanakyapuri, Delhi"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

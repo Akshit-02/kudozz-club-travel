@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     authors: ["Kudozz Club"],
     images: [
       {
-        url: "/images/destinations/leh-ladakh/leh-ladakh.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Ladakh mountain landscape near Hemis, Himalayan peaks and valley",
+        url: "/images/blogs/ladakh/hemis/hemis-monastery-facade-courtyard.webp",
+        width: 1600,
+        height: 1067,
+        alt: "The whitewashed, multi-storey facade of Hemis Monastery with its stone entrance staircase, Ladakh",
       },
     ],
   },
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     title: "Hemis Travel Guide: Monastery, Festival & Snow Leopard Country",
     description:
       "Ladakh's wealthiest monastery, its most spectacular festival, and the world's premier snow leopard habitat.",
-    images: ["/images/destinations/leh-ladakh/leh-ladakh.jpg"],
+    images: ["/images/blogs/ladakh/hemis/hemis-monastery-facade-courtyard.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/hemis-travel-guide",
@@ -64,7 +64,7 @@ function ArticleSchema() {
           description:
             "The complete Hemis travel guide — Ladakh's largest and wealthiest monastery, the Hemis Festival, and Hemis National Park, the snow leopard capital of the world.",
           image:
-            "https://club.kudozz.in/images/destinations/leh-ladakh/leh-ladakh.jpg",
+            "https://club.kudozz.in/images/blogs/ladakh/hemis/hemis-monastery-facade-courtyard.webp",
           datePublished: "2026-08-30",
           dateModified: "2026-08-30",
           publisher: {
@@ -207,8 +207,8 @@ export default function HemisPage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/leh-ladakh/leh-ladakh.jpg"
-              alt="Hemis, Ladakh — mountain valley near the largest monastery in Ladakh"
+              src="/images/blogs/ladakh/hemis/hemis-monastery-facade-courtyard.webp"
+              alt="The whitewashed, multi-storey facade of Hemis Monastery with its stone entrance staircase, Ladakh"
               fill
               priority
               sizes="100vw"
@@ -564,8 +564,8 @@ export default function HemisPage() {
                   <h2>Hemis Monastery</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/leh-ladakh/leh-ladakh.jpg"
-                      alt="Mountain landscape near Hemis Monastery, Ladakh"
+                      src="/images/blogs/ladakh/hemis/hemis-monastery-facade-courtyard.webp"
+                      alt="The whitewashed, multi-storey facade of Hemis Monastery with its stone entrance staircase, Ladakh"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

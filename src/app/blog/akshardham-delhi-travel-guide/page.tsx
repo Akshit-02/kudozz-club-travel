@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jaisalmer/fort.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Intricately carved sandstone architecture evocative of Indian temple craftsmanship, in the spirit of Akshardham's ornate stonework",
+        url: "/images/blogs/delhi/akshardham/akshardham-temple-domes-delhi.webp",
+        width: 1600,
+        height: 1065,
+        alt: "The carved sandstone and marble domes and shikharas of Akshardham Temple, Delhi",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Akshardham Temple Delhi: Timings, Tickets & Guide",
     description:
       "Timings, tickets, the musical fountain show, boat ride, and strict entry rules — the complete guide to visiting Akshardham in Delhi.",
-    images: ["/images/destinations/jaisalmer/fort.jpg"],
+    images: ["/images/blogs/delhi/akshardham/akshardham-temple-domes-delhi.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/akshardham-delhi-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           description:
             "Complete Akshardham Delhi guide — timings, entry rules, the musical fountain show, boat ride, ticket pricing, security checklist, and a half-day visit plan.",
           image:
-            "https://club.kudozz.in/images/destinations/jaisalmer/fort.jpg",
+            "https://club.kudozz.in/images/blogs/delhi/akshardham/akshardham-temple-domes-delhi.webp",
           datePublished: "2026-08-30",
           dateModified: "2026-08-30",
           publisher: {
@@ -212,8 +212,8 @@ export default function AkshardhamGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jaisalmer/fort.jpg"
-              alt="Intricately carved sandstone architecture evocative of Indian temple craftsmanship, in the spirit of Akshardham's ornate stonework"
+              src="/images/blogs/delhi/akshardham/akshardham-temple-domes-delhi.webp"
+              alt="The carved sandstone and marble domes and shikharas of Akshardham Temple, Delhi"
               fill
               priority
               sizes="100vw"
@@ -573,8 +573,8 @@ export default function AkshardhamGuidePage() {
                   <h2>The Mandir Architecture</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/jaisalmer/hero.jpg"
-                      alt="Ornately carved stone facade evocative of traditional Indian temple craftsmanship, in the style seen at Akshardham"
+                      src="/images/blogs/delhi/akshardham/akshardham-temple-domes-delhi.webp"
+                      alt="The carved sandstone and marble domes and shikharas of Akshardham Temple, Delhi"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

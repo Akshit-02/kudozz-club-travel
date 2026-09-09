@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jaisalmer/fort.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Red sandstone fort walls at golden hour, evoking the sandstone facades of Lutyens' New Delhi government buildings",
+        url: "/images/blogs/delhi/new-delhi/india-gate-lawns-new-delhi.webp",
+        width: 1600,
+        height: 1241,
+        alt: "India Gate war memorial arch viewed across its lawns in New Delhi",
       },
     ],
   },
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     title: "New Delhi Travel Guide: India Gate, Rajpath & More",
     description:
       "India Gate, Kartavya Path, Rashtrapati Bhavan, Parliament House and Jantar Mantar — the complete guide to Lutyens' planned imperial capital.",
-    images: ["/images/destinations/jaisalmer/fort.jpg"],
+    images: ["/images/blogs/delhi/new-delhi/india-gate-lawns-new-delhi.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/new-delhi-travel-guide",
@@ -63,7 +63,7 @@ function ArticleSchema() {
           description:
             "New Delhi travel guide: India Gate, Kartavya Path, Rashtrapati Bhavan, Parliament House, Jantar Mantar, itinerary, budget tips, and FAQs for Lutyens' Delhi.",
           image:
-            "https://club.kudozz.in/images/destinations/jaisalmer/fort.jpg",
+            "https://club.kudozz.in/images/blogs/delhi/new-delhi/india-gate-lawns-new-delhi.webp",
           datePublished: "2026-08-30",
           dateModified: "2026-08-30",
           publisher: {
@@ -303,8 +303,8 @@ export default function NewDelhiGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jaisalmer/fort.jpg"
-              alt="Red sandstone fort walls at golden hour, evoking the sandstone facades of Lutyens' New Delhi government buildings"
+              src="/images/blogs/delhi/new-delhi/india-gate-lawns-new-delhi.webp"
+              alt="India Gate war memorial arch viewed across its lawns in New Delhi"
               fill
               priority
               sizes="100vw"
@@ -684,8 +684,8 @@ export default function NewDelhiGuidePage() {
                   <h2>India Gate & the National War Memorial</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/jaisalmer/hero.jpg"
-                      alt="Sweeping sandstone architecture and open plazas, evocative of the monumental scale of India Gate and Kartavya Path"
+                      src="/images/blogs/delhi/new-delhi/india-gate-lawns-new-delhi.webp"
+                      alt="The sandstone arch of India Gate with its surrounding lawns, New Delhi"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

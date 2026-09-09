@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jaisalmer/fort.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Red sandstone fort walls at golden hour, evoking the Mughal-era architecture found around Delhi's Nizamuddin Dargah and Humayun's Tomb",
+        url: "/images/blogs/delhi/nizamuddin/nizamuddin-dargah-marble-dome-delhi.webp",
+        width: 1600,
+        height: 900,
+        alt: "The white marble dome and red sandstone facade of Hazrat Nizamuddin Dargah, the Sufi shrine in Delhi",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Nizamuddin Travel Guide: Dargah, Qawwali & Tomb",
     description:
       "A living Sufi shrine, Thursday qawwali, and Humayun's Tomb next door — the complete guide to Nizamuddin, Delhi.",
-    images: ["/images/destinations/jaisalmer/fort.jpg"],
+    images: ["/images/blogs/delhi/nizamuddin/nizamuddin-dargah-marble-dome-delhi.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/nizamuddin-delhi-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           description:
             "Nizamuddin travel guide to Hazrat Nizamuddin Dargah, Thursday qawwali, Humayun's Tomb, Ghalib's grave, Sunder Nursery, basti food, and visitor etiquette.",
           image:
-            "https://club.kudozz.in/images/destinations/jaisalmer/fort.jpg",
+            "https://club.kudozz.in/images/blogs/delhi/nizamuddin/nizamuddin-dargah-marble-dome-delhi.webp",
           datePublished: "2026-08-30",
           dateModified: "2026-08-30",
           publisher: {
@@ -208,8 +208,8 @@ export default function NizamuddinGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jaisalmer/fort.jpg"
-              alt="Red sandstone fort walls at golden hour, evoking the Mughal-era architecture found around Delhi's Nizamuddin Dargah and Humayun's Tomb"
+              src="/images/blogs/delhi/nizamuddin/nizamuddin-dargah-marble-dome-delhi.webp"
+              alt="The white marble dome and red sandstone facade of Hazrat Nizamuddin Dargah, the Sufi shrine in Delhi"
               fill
               priority
               sizes="100vw"
@@ -633,8 +633,8 @@ export default function NizamuddinGuidePage() {
                   <h2>The Thursday Evening Qawwali</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/jaisalmer/hero.jpg"
-                      alt="Warm evening light over historic sandstone architecture, evoking the atmosphere of a Thursday qawwali night at Nizamuddin Dargah"
+                      src="/images/blogs/delhi/nizamuddin/nizamuddin-dargah-marble-dome-delhi.webp"
+                      alt="The white marble dome and red sandstone facade of Hazrat Nizamuddin Dargah, the Sufi shrine in Delhi"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

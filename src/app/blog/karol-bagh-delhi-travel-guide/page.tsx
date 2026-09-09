@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jaisalmer/fort.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Warm sandstone architecture at golden hour — used here to represent Karol Bagh's Delhi setting, not an actual photo of the neighbourhood",
+        url: "/images/blogs/delhi/karol-bagh/karol-bagh-gaffar-market-ajmal-khan-road.webp",
+        width: 1600,
+        height: 1064,
+        alt: "The Gaffar Market gateway on Ajmal Khan Road, the crowded shopping stretch at the heart of Karol Bagh, Delhi",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Karol Bagh Travel Guide: Shopping & Budget Hotels",
     description:
       "Ajmal Khan Road's pedestrian bazaar, Gaffar Market's electronics stalls, and a dense cluster of budget hotels near the metro — the complete Karol Bagh guide.",
-    images: ["/images/destinations/jaisalmer/fort.jpg"],
+    images: ["/images/blogs/delhi/karol-bagh/karol-bagh-gaffar-market-ajmal-khan-road.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/karol-bagh-delhi-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           description:
             "Karol Bagh travel guide — Ajmal Khan Road shopping, Gaffar Market electronics, budget hotels near the metro, street food, and honest tips for Delhi's busiest bazaar.",
           image:
-            "https://club.kudozz.in/images/destinations/jaisalmer/fort.jpg",
+            "https://club.kudozz.in/images/blogs/delhi/karol-bagh/karol-bagh-gaffar-market-ajmal-khan-road.webp",
           datePublished: "2026-08-30",
           dateModified: "2026-08-30",
           publisher: {
@@ -207,8 +207,8 @@ export default function KarolBaghGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jaisalmer/fort.jpg"
-              alt="Warm sandstone architecture at golden hour — used here to represent Karol Bagh's Delhi setting, not an actual photo of the neighbourhood"
+              src="/images/blogs/delhi/karol-bagh/karol-bagh-gaffar-market-ajmal-khan-road.webp"
+              alt="The Gaffar Market gateway on Ajmal Khan Road, the crowded shopping stretch at the heart of Karol Bagh, Delhi"
               fill
               priority
               sizes="100vw"
@@ -535,8 +535,8 @@ export default function KarolBaghGuidePage() {
                   <h2>Ajmal Khan Road: The Main Shopping Stretch</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/jaisalmer/hero.jpg"
-                      alt="Warm-toned architectural facade — a stand-in image, not an actual photo of Ajmal Khan Road"
+                      src="/images/blogs/delhi/karol-bagh/karol-bagh-gaffar-market-ajmal-khan-road.webp"
+                      alt="The Gaffar Market gateway on Ajmal Khan Road, the crowded shopping stretch at the heart of Karol Bagh, Delhi"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

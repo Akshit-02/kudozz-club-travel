@@ -1373,7 +1373,7 @@ export const posts = [
     title: "Hemis Travel Guide: Monastery, Festival & Snow Leopard Country",
     excerpt:
       "Ladakh's largest and wealthiest monastery, its most spectacular masked-dance festival, and the wild high-altitude kingdom of the snow leopard — all hidden in one secluded valley.",
-    image: "/images/destinations/leh-ladakh/leh-ladakh.jpg",
+    image: "/images/blogs/ladakh/hemis/hemis-monastery-facade-courtyard.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Hemis", "Ladakh", "Monastery", "Snow Leopard", "Festival"],
@@ -1385,7 +1385,7 @@ export const posts = [
     title: "Thiksey Travel Guide: Monastery, Morning Prayers & Maitreya Buddha",
     excerpt:
       "Twelve storeys of whitewashed walls climb a hillside above the Indus like a mini Potala Palace — home to a 15-metre golden Buddha and the most spellbinding 6 AM prayer ceremony in Ladakh.",
-    image: "/images/destinations/leh-ladakh/leh-ladakh.jpg",
+    image: "/images/blogs/ladakh/thiksey/thiksey-monastery-hilltop-view.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Thiksey", "Ladakh", "Leh", "Monastery", "Buddhism"],
@@ -1397,7 +1397,7 @@ export const posts = [
     title: "Khardung La Travel Guide: Height, Route, Permits & Tips",
     excerpt:
       "At 5,359 metres, the air thins, prayer flags snap in the wind, and the road to Nubra Valley climbs above the clouds — everything you need to cross Khardung La safely and unforgettably.",
-    image: "/images/destinations/leh-ladakh/leh-ladakh.jpg",
+    image: "/images/blogs/ladakh/khardung-la/khardung-la-winding-pass-road.webp",
     category: "Adventure",
     categoryColor: "bg-amber-100 text-amber-700",
     tags: ["Khardung La", "Ladakh", "Nubra Valley", "High Altitude", "Road Trip"],
@@ -1409,7 +1409,7 @@ export const posts = [
     title: "Dha-Hanu Travel Guide: Ladakh's Aryan Valley & the Brokpa People",
     excerpt:
       "Along a quiet bend of the Indus, the Brokpa villages of Dha, Hanu, Garkone and Darchik hold on to a language, dress, and way of life found nowhere else in India — a guide to visiting them carefully, and on their own terms.",
-    image: "/images/destinations/leh-ladakh/leh-ladakh.jpg",
+    image: "/images/blogs/ladakh/dha-hanu/brokpa-women-traditional-headdress-dha-hanu.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Dha-Hanu", "Ladakh", "Aryan Valley", "Brokpa", "Offbeat India", "Indus Valley", "Cultural Travel"],
@@ -1421,7 +1421,7 @@ export const posts = [
     title: "Padum Travel Guide: Zanskar Valley's Historic Capital Town",
     excerpt:
       "A dusty bazaar town where two rivers meet, Padum is Zanskar's historic capital and the essential base for its monasteries, royal ruins, and legendary high-altitude treks.",
-    image: "/images/destinations/leh-ladakh/leh-ladakh.jpg",
+    image: "/images/blogs/ladakh/padum/padum-zanskar-valley-view-from-karsha.webp",
     category: "Trekking",
     categoryColor: "bg-green-100 text-green-700",
     tags: ["Padum", "Zanskar Valley", "Ladakh", "Monasteries", "High Altitude"],
@@ -1469,7 +1469,7 @@ export const posts = [
     title: "Sonamarg Travel Guide: Thajiwas Glacier & How to Visit",
     excerpt:
       "A glacier you can walk to, a river valley that never stops moving, and the last stretch of Kashmir before the road climbs into Ladakh — meet Sonamarg, the Meadow of Gold.",
-    image: "/images/destinations/jammu-kashmir/hero.jpg",
+    image: "/images/blogs/jammu-and-kashmir/sonamarg/thajiwas-glacier-valley-sonamarg.webp",
     category: "Adventure",
     categoryColor: "bg-amber-100 text-amber-700",
     tags: ["Sonamarg", "Jammu and Kashmir", "Thajiwas Glacier", "Zoji La", "Kashmir", "Ladakh Gateway"],
@@ -1493,7 +1493,7 @@ export const posts = [
     title: "Katra & Vaishno Devi Yatra Guide: Route, Tips & Stay",
     excerpt:
       "The complete gateway-town guide to the Vaishno Devi Yatra — the 13 km trek from Katra to Bhawan, registration, helicopter booking, and where to rest before the climb.",
-    image: "/images/destinations/jammu-kashmir/hero.jpg",
+    image: "/images/blogs/jammu-and-kashmir/katra/vaishno-devi-shrine-mountain-valley.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Katra", "Vaishno Devi", "Jammu and Kashmir", "Pilgrimage", "Trekking"],
@@ -1505,7 +1505,7 @@ export const posts = [
     title: "Gurez Valley Travel Guide: Kashmir's Hidden Border Valley",
     excerpt:
       "A remote Dard-Shin valley along the Kishanganga River, cradled beneath the cone of Habba Khatoon Peak — closed to civilian tourism for decades, and still one of the quietest corners of Kashmir.",
-    image: "/images/destinations/jammu-kashmir/hero.jpg",
+    image: "/images/blogs/jammu-and-kashmir/gurez-valley/habba-khatoon-peak-kishanganga-river.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Gurez Valley", "Jammu and Kashmir", "Habba Khatoon", "Dawar", "Tulail Valley", "Offbeat Kashmir"],
@@ -1517,7 +1517,7 @@ export const posts = [
     title: "Doodhpathri Travel Guide: Kashmir's Valley of Milk",
     excerpt:
       "A rolling green meadow ringed by pine forest, a stream that froths milky-white over its stones, and a fraction of the crowds at Gulmarg — Kashmir's quietest valley, best done as an unhurried day trip from Srinagar.",
-    image: "/images/destinations/jammu-kashmir/hero.jpg",
+    image: "/images/blogs/jammu-and-kashmir/doodhpathri/doodhpathri-meadow-pine-forest.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Doodhpathri", "Jammu and Kashmir", "Kashmir Meadows", "Budgam", "Off-beat Kashmir", "Srinagar Day Trips"],
@@ -1529,7 +1529,7 @@ export const posts = [
     title: "Yusmarg Travel Guide: Meadow of Jesus & Nilnag Lake",
     excerpt:
       "A quiet, pine-fringed meadow in Budgam where the crowds thin out — pony rides across open grassland, a glacial lake through the pines, and a Sufi shrine on the way.",
-    image: "/images/destinations/jammu-kashmir/hero.jpg",
+    image: "/images/blogs/jammu-and-kashmir/yusmarg/yusmarg-meadow-pine-forest.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Yusmarg", "Jammu and Kashmir", "Nilnag Lake", "Kashmir", "Budgam", "Charar-e-Sharief"],
@@ -1541,7 +1541,7 @@ export const posts = [
     title: "Aharbal Waterfall Travel Guide: Kashmir's Niagara",
     excerpt:
       "A wide, roaring curtain of water on the Veshaw River, framed by pine forest — Aharbal is the waterfall Kashmiris proudly call their own Niagara.",
-    image: "/images/destinations/jammu-kashmir/hero.jpg",
+    image: "/images/blogs/jammu-and-kashmir/aharbal/aharbal-falls-viewing-deck-kashmir.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Aharbal", "Jammu and Kashmir", "Waterfall", "Kulgam", "Kashmir Waterfalls", "Veshaw River"],
@@ -1553,7 +1553,7 @@ export const posts = [
     title: "Patnitop Travel Guide: Paragliding, Pines & Best Time",
     excerpt:
       "A pine-forested plateau on the Jammu-Srinagar highway, three hours from Jammu — paragliding launches at Sanasar, forest walks, and one of North India's closest winter snow escapes.",
-    image: "/images/destinations/jammu-kashmir/hero.jpg",
+    image: "/images/blogs/jammu-and-kashmir/patnitop/patnitop-pine-forest-meadow-jk.webp",
     category: "Adventure",
     categoryColor: "bg-amber-100 text-amber-700",
     tags: ["Patnitop", "Jammu and Kashmir", "Sanasar", "Paragliding", "Nathatop", "Weekend Getaway", "Hill Station"],
@@ -1565,7 +1565,7 @@ export const posts = [
     title: "Bhaderwah Travel Guide: J&K's Mini Kashmir",
     excerpt:
       "Terraced meadows, glacier-fed valleys, and a snow point toward Chamba — Bhaderwah is the quiet Doda district town locals call Mini Kashmir.",
-    image: "/images/destinations/jammu-kashmir/hero.jpg",
+    image: "/images/blogs/jammu-and-kashmir/bhaderwah/jai-valley-bhaderwah-meadow-doda.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Bhaderwah", "Jammu and Kashmir", "Mini Kashmir", "Doda District", "Jai Valley", "Padri"],
@@ -1577,7 +1577,7 @@ export const posts = [
     title: "New Delhi Travel Guide: India Gate, Rajpath & More",
     excerpt:
       "Wide colonial avenues, a president's palace, and a parliament at the centre of the world's largest democracy — the complete guide to New Delhi's Lutyens-era core.",
-    image: "/images/destinations/jaisalmer/fort.jpg",
+    image: "/images/blogs/delhi/new-delhi/india-gate-lawns-new-delhi.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["New Delhi", "Delhi", "India Gate", "Kartavya Path", "Rashtrapati Bhavan"],
@@ -1589,7 +1589,7 @@ export const posts = [
     title: "Old Delhi Travel Guide: Red Fort, Jama Masjid & Food",
     excerpt:
       "Shahjahanabad, Shah Jahan's 17th-century walled capital — Red Fort, India's largest mosque, cycle-rickshaw lanes, havelis, bazaars, and a street food trail running for well over a century.",
-    image: "/images/destinations/jaisalmer/fort.jpg",
+    image: "/images/blogs/delhi/old-delhi/jama-masjid-courtyard-old-delhi.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Old Delhi", "Delhi", "Red Fort", "Jama Masjid", "Chandni Chowk", "Street Food", "Shahjahanabad"],
@@ -1601,7 +1601,7 @@ export const posts = [
     title: "Mehrauli Travel Guide: Qutub Minar & Ancient Delhi",
     excerpt:
       "Delhi's oldest continuously inhabited settlement — Qutub Minar, the rust-resistant Iron Pillar, a forest full of forgotten tombs, and 800+ years of layered history in one walkable quarter.",
-    image: "/images/destinations/jaisalmer/fort.jpg",
+    image: "/images/blogs/delhi/mehrauli/qutub-minar-tower-ruins-mehrauli.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Mehrauli", "Delhi", "Qutub Minar", "Iron Pillar", "Mehrauli Archaeological Park", "UNESCO World Heritage Site", "Heritage Walk"],
@@ -1613,7 +1613,7 @@ export const posts = [
     title: "South Delhi Travel Guide: Best Areas & Things to Do",
     excerpt:
       "Hauz Khas, Greater Kailash, Saket, Vasant Kunj, Mehrauli, Lodhi Garden, and Chhatarpur Temple — a guide to Delhi's most affluent, green, and heritage-dense quarter, area by area.",
-    image: "/images/destinations/jaisalmer/fort.jpg",
+    image: "/images/blogs/delhi/south-delhi/lotus-temple-kalkaji-south-delhi.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["South Delhi", "Delhi", "Hauz Khas", "Qutub Minar", "Greater Kailash"],
@@ -1625,7 +1625,7 @@ export const posts = [
     title: "Hauz Khas Travel Guide: Village, Deer Park & Fort Ruins",
     excerpt:
       "A 700-year-old royal reservoir and madrasa ruins sit right beside Delhi's trendiest boutique-and-nightlife village — the complete Hauz Khas guide.",
-    image: "/images/destinations/jaisalmer/fort.jpg",
+    image: "/images/blogs/delhi/hauz-khas/hauz-khas-fort-madrasa-ruins.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Hauz Khas", "Delhi", "Deer Park", "Hauz Khas Village", "Nightlife", "South Delhi"],
@@ -1637,7 +1637,7 @@ export const posts = [
     title: "Nizamuddin Travel Guide: Dargah, Qawwali & Humayun's Tomb",
     excerpt:
       "A 700-year-old Sufi shrine still alive with devotion, Thursday night qawwali, and Humayun's Tomb next door — inside Delhi's most spiritually alive neighbourhood.",
-    image: "/images/destinations/jaisalmer/fort.jpg",
+    image: "/images/blogs/delhi/nizamuddin/nizamuddin-dargah-marble-dome-delhi.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Nizamuddin", "Delhi", "Sufi Shrine", "Qawwali", "Humayun's Tomb"],
@@ -1649,7 +1649,7 @@ export const posts = [
     title: "Akshardham Temple Delhi: Timings, Tickets & Guide",
     excerpt:
       "Timings, ticket pricing, the Sahaj Anand Water Show, the boat ride, strict entry rules, and a full half-day plan for visiting Akshardham in Delhi.",
-    image: "/images/destinations/jaisalmer/fort.jpg",
+    image: "/images/blogs/delhi/akshardham/akshardham-temple-domes-delhi.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Akshardham", "Delhi", "Hindu Temple", "Water Show", "Family-Friendly"],
@@ -1661,7 +1661,7 @@ export const posts = [
     title: "Tughlaqabad Fort Travel Guide: Delhi's Cursed City",
     excerpt:
       "Delhi's massive, mostly-empty 14th-century fort ruins built by Sultan Ghiyasuddin Tughlaq — sloping ramparts, 13 gates, an underground citadel, and the legendary curse of Nizamuddin Auliya.",
-    image: "/images/destinations/jaisalmer/fort.jpg",
+    image: "/images/blogs/delhi/tughlaqabad/tughlaqabad-fort-sloping-ramparts.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Tughlaqabad", "Delhi", "Fort Ruins", "Delhi Sultanate", "Off-Beat Delhi"],
@@ -1673,7 +1673,7 @@ export const posts = [
     title: "Connaught Place Guide: Shopping, Food & Nightlife",
     excerpt:
       "The Inner, Middle & Outer Circle layout, Central Park, Palika Bazaar, old-school eateries and nightlife — the complete guide to Delhi's Georgian-era commercial hub.",
-    image: "/images/destinations/jaisalmer/fort.jpg",
+    image: "/images/blogs/delhi/connaught-place/connaught-place-colonnade-facade.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Connaught Place", "Delhi", "Rajiv Chowk", "Central Park", "Palika Bazaar", "Shopping", "Nightlife"],
@@ -1685,7 +1685,7 @@ export const posts = [
     title: "Chandni Chowk: Delhi's Legendary Food Walk & Bazaar Guide",
     excerpt:
       "A 350-year-old market built by Jahanara Begum — Kinari Bazaar, Khari Baoli's spice trade, and the legendary Chandni Chowk street food walk.",
-    image: "/images/destinations/jaisalmer/fort.jpg",
+    image: "/images/blogs/delhi/chandni-chowk/chandni-chowk-bazaar-street-scene.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Chandni Chowk", "Delhi", "Old Delhi", "Street Food", "Khari Baoli"],
@@ -1697,7 +1697,7 @@ export const posts = [
     title: "Majnu Ka Tilla Guide: Delhi's Tibetan Colony",
     excerpt:
       "A slice of Tibet on the banks of the Yamuna — momos, thukpa, Korean cafés, prayer-flag markets, and Delhi's most concentrated Tibetan cultural enclave.",
-    image: "/images/destinations/jaisalmer/fort.jpg",
+    image: "/images/blogs/delhi/majnu-ka-tilla/majnu-ka-tilla-tibetan-colony-lane.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Majnu Ka Tilla", "Delhi", "Little Tibet", "Tibetan Colony", "Momos"],
@@ -1709,7 +1709,7 @@ export const posts = [
     title: "Chanakyapuri Guide: Delhi's Diplomatic Enclave",
     excerpt:
       "An honest look at Chanakyapuri — Delhi's diplomatic enclave of embassies, Nehru Park, tree-lined boulevards, and nearby Gandhi Smriti and Teen Murti Bhavan.",
-    image: "/images/destinations/jaisalmer/fort.jpg",
+    image: "/images/blogs/delhi/chanakyapuri/gandhi-charkha-statue-gandhi-smriti.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Chanakyapuri", "Delhi", "Nehru Park", "Diplomatic Enclave", "Gandhi Smriti", "Teen Murti Bhavan", "City Guide"],
@@ -1721,7 +1721,7 @@ export const posts = [
     title: "Lodhi Garden: Delhi's Tombs, Timings & Complete Visit Guide",
     excerpt:
       "90 acres of landscaped green in the middle of South Delhi, dotted with 500-year-old tombs from the Sayyid and Lodi dynasties — Delhi's favourite morning-walk park doubling as an open-air museum.",
-    image: "/images/destinations/jaisalmer/fort.jpg",
+    image: "/images/blogs/delhi/lodhi-garden/lodhi-garden-tomb-of-sikandar-lodi.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Lodhi Garden", "Delhi", "Lodi Dynasty", "Khan Market", "South Delhi", "Heritage Walk"],
@@ -1733,7 +1733,7 @@ export const posts = [
     title: "Vasant Kunj Guide: Malls, Shopping & Nature Nearby",
     excerpt:
       "Delhi's upscale mall district next to IGI Airport — Ambience Mall, DLF Promenade, DLF Emporio, and the surprisingly wild Asola Bhatti forest just beyond it.",
-    image: "/images/destinations/jaisalmer/fort.jpg",
+    image: "/images/blogs/delhi/vasant-kunj/vasant-kunj-aerial-ongc-ambience-complex.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Vasant Kunj", "Delhi", "Ambience Mall", "DLF Emporio", "Asola Bhatti Wildlife Sanctuary", "Airport Guide", "Shopping"],
@@ -1745,7 +1745,7 @@ export const posts = [
     title: "Dwarka, Delhi Travel Guide: Sub-City & ISKCON Temple",
     excerpt:
       "One of Asia's largest planned sub-cities, minutes from IGI Airport — Dwarka's ISKCON Temple, sector markets, and metro access. Not Dwarka, Gujarat.",
-    image: "/images/destinations/jaisalmer/fort.jpg",
+    image: "/images/blogs/delhi/dwarka/dwarka-residential-sub-city-aerial-view.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Dwarka Delhi", "Delhi", "ISKCON Temple Dwarka", "South West Delhi"],
@@ -1757,7 +1757,7 @@ export const posts = [
     title: "Karol Bagh Travel Guide: Shopping, Markets & Budget Hotels",
     excerpt:
       "A pedestrianised bazaar on Ajmal Khan Road, Gaffar Market's electronics stalls, and one of Delhi's densest budget-hotel clusters — the complete guide to shopping, eating, and staying in Karol Bagh.",
-    image: "/images/destinations/jaisalmer/fort.jpg",
+    image: "/images/blogs/delhi/karol-bagh/karol-bagh-gaffar-market-ajmal-khan-road.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Karol Bagh", "Delhi", "Ajmal Khan Road", "Gaffar Market", "Shopping", "Budget Hotels"],
@@ -1769,7 +1769,7 @@ export const posts = [
     title: "Lajpat Nagar Travel Guide: Central Market & More",
     excerpt:
       "One of Delhi's most beloved shopping neighbourhoods — Central Market's ethnic wear and bridal shopping, the Tibetan Market next door, bargaining etiquette, and a practical half-day plan.",
-    image: "/images/destinations/jaisalmer/fort.jpg",
+    image: "/images/blogs/delhi/lajpat-nagar/lajpat-nagar-central-market-street-scene.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Lajpat Nagar", "Delhi", "Central Market", "Tibetan Market", "Shopping"],

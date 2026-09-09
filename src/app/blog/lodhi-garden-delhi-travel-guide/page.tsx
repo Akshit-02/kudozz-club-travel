@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jaisalmer/fort.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Golden-hour sandstone fort architecture, used here to evoke the centuries-old stone domes and tombs found within Lodhi Garden, Delhi",
+        url: "/images/blogs/delhi/lodhi-garden/lodhi-garden-tomb-of-sikandar-lodi.webp",
+        width: 1600,
+        height: 1067,
+        alt: "The domed Tomb of Sikandar Lodi set on a grassy mound in Lodhi Garden, Delhi",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Lodhi Garden Travel Guide: Tombs, Timings & Tips",
     description:
       "90 acres of landscaped green dotted with 500-year-old Lodi and Sayyid dynasty tombs — the complete guide to Delhi's favourite park-museum.",
-    images: ["/images/destinations/jaisalmer/fort.jpg"],
+    images: ["/images/blogs/delhi/lodhi-garden/lodhi-garden-tomb-of-sikandar-lodi.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/lodhi-garden-delhi-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           description:
             "Complete Lodhi Garden guide — Delhi's 90-acre park of 15th-century Lodi and Sayyid tombs. Entry timings, the Bara Gumbad, Sheesh Gumbad, Athpula bridge, and visit tips.",
           image:
-            "https://club.kudozz.in/images/destinations/jaisalmer/fort.jpg",
+            "https://club.kudozz.in/images/blogs/delhi/lodhi-garden/lodhi-garden-tomb-of-sikandar-lodi.webp",
           datePublished: "2026-08-30",
           dateModified: "2026-08-30",
           publisher: {
@@ -208,8 +208,8 @@ export default function LodhiGardenGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jaisalmer/fort.jpg"
-              alt="Golden-hour sandstone fort architecture, used here to evoke the centuries-old stone domes and tombs found within Lodhi Garden, Delhi"
+              src="/images/blogs/delhi/lodhi-garden/lodhi-garden-tomb-of-sikandar-lodi.webp"
+              alt="The domed Tomb of Sikandar Lodi set on a grassy mound in Lodhi Garden, Delhi"
               fill
               priority
               sizes="100vw"
@@ -563,8 +563,8 @@ export default function LodhiGardenGuidePage() {
 
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/jaisalmer/hero.jpg"
-                      alt="Historic sandstone fortress architecture, used here to evoke the weathered stone domes and monuments scattered through Lodhi Garden's 90 acres"
+                      src="/images/blogs/delhi/lodhi-garden/lodhi-garden-tomb-of-sikandar-lodi.webp"
+                      alt="The 15th-century domed Tomb of Sikandar Lodi surrounded by lawns in Lodhi Garden, Delhi"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

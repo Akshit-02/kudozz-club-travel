@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jaisalmer/fort.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Generic representative Indian heritage architecture — used here as a placeholder, not a literal depiction of Majnu Ka Tilla",
+        url: "/images/blogs/delhi/majnu-ka-tilla/majnu-ka-tilla-tibetan-colony-lane.webp",
+        width: 1400,
+        height: 1867,
+        alt: "A narrow market lane in Majnu Ka Tilla, Delhi's Tibetan colony, with shop signage and stalls",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Majnu Ka Tilla Guide: Delhi's Tibetan Colony",
     description:
       "Momos, thukpa, Korean cafés, and prayer-flag markets — the complete guide to Delhi's Tibetan colony on the Yamuna.",
-    images: ["/images/destinations/jaisalmer/fort.jpg"],
+    images: ["/images/blogs/delhi/majnu-ka-tilla/majnu-ka-tilla-tibetan-colony-lane.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/majnu-ka-tilla-delhi-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           description:
             "Majnu Ka Tilla travel guide — Delhi's Tibetan refugee colony on the Yamuna. Momos, thukpa, Korean cafés, prayer-flag markets, monastery visits, budget and tips.",
           image:
-            "https://club.kudozz.in/images/destinations/jaisalmer/fort.jpg",
+            "https://club.kudozz.in/images/blogs/delhi/majnu-ka-tilla/majnu-ka-tilla-tibetan-colony-lane.webp",
           datePublished: "2026-08-30",
           dateModified: "2026-08-30",
           publisher: {
@@ -206,8 +206,8 @@ export default function MajnuKaTillaGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jaisalmer/fort.jpg"
-              alt="Generic representative Indian heritage architecture — used here as a placeholder, not a literal depiction of Majnu Ka Tilla's Tibetan colony"
+              src="/images/blogs/delhi/majnu-ka-tilla/majnu-ka-tilla-tibetan-colony-lane.webp"
+              alt="A narrow market lane in Majnu Ka Tilla, Delhi's Tibetan colony, with shop signage and stalls"
               fill
               priority
               sizes="100vw"
@@ -563,8 +563,8 @@ export default function MajnuKaTillaGuidePage() {
                   <h2>The Market & Shopping</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/jaisalmer/hero.jpg"
-                      alt="Generic representative Indian market-town imagery, used as a placeholder — not a literal depiction of Majnu Ka Tilla's market lanes"
+                      src="/images/blogs/delhi/majnu-ka-tilla/majnu-ka-tilla-tibetan-colony-lane.webp"
+                      alt="Shop stalls and signage along a market lane in Majnu Ka Tilla's Tibetan colony, Delhi"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

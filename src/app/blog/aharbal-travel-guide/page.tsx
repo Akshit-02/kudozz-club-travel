@@ -26,10 +26,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jammu-kashmir/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Aharbal waterfall cascading over rocks on the Veshaw River, Kashmir",
+        url: "/images/blogs/jammu-and-kashmir/aharbal/aharbal-falls-viewing-deck-kashmir.webp",
+        width: 1600,
+        height: 1200,
+        alt: "Aharbal Falls thundering through a rocky gorge on the Veshaw River, Kulgam district, Kashmir",
       },
     ],
   },
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     title: "Aharbal Waterfall Travel Guide: Kashmir's Niagara",
     description:
       "A wide, roaring waterfall on the Veshaw River near Kulgam, nicknamed the 'Niagara Falls of Kashmir' — how to get there, when to go, and what to expect.",
-    images: ["/images/destinations/jammu-kashmir/hero.jpg"],
+    images: ["/images/blogs/jammu-and-kashmir/aharbal/aharbal-falls-viewing-deck-kashmir.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/aharbal-travel-guide",
@@ -62,7 +62,7 @@ function ArticleSchema() {
           description:
             "Plan a trip to Aharbal, the 'Niagara Falls of Kashmir' — a wide, roaring waterfall on the Veshaw River. Best time to visit, distance from Srinagar, and tips.",
           image:
-            "https://club.kudozz.in/images/destinations/jammu-kashmir/hero.jpg",
+            "https://club.kudozz.in/images/blogs/jammu-and-kashmir/aharbal/aharbal-falls-viewing-deck-kashmir.webp",
           datePublished: "2026-08-30",
           dateModified: "2026-08-30",
           publisher: {
@@ -221,8 +221,8 @@ export default function AharbalGuidePage() {
         <section className="relative min-h-[70vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jammu-kashmir/hero.jpg"
-              alt="Aharbal waterfall cascading over rocks on the Veshaw River, Kashmir"
+              src="/images/blogs/jammu-and-kashmir/aharbal/aharbal-falls-viewing-deck-kashmir.webp"
+              alt="Aharbal Falls thundering through a rocky gorge on the Veshaw River, Kulgam district, Kashmir"
               fill
               priority
               sizes="100vw"
@@ -578,8 +578,8 @@ export default function AharbalGuidePage() {
                   <h2>The Falls Experience</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/jammu-kashmir/hero.jpg"
-                      alt="Wide cascade of Aharbal falls surrounded by pine forest, Kulgam district"
+                      src="/images/blogs/jammu-and-kashmir/aharbal/aharbal-falls-viewing-deck-kashmir.webp"
+                      alt="Viewing deck overlooking the roaring cascade of Aharbal Falls, Kulgam district, Kashmir"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

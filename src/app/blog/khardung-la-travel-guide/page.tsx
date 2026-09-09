@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     authors: ["Kudozz Club"],
     images: [
       {
-        url: "/images/destinations/leh-ladakh/leh-ladakh.jpg",
-        width: 1200,
-        height: 630,
-        alt: "High-altitude Himalayan pass road near Leh Ladakh",
+        url: "/images/blogs/ladakh/khardung-la/khardung-la-winding-pass-road.webp",
+        width: 1600,
+        height: 1067,
+        alt: "The winding road switchbacking up Khardung La through the barren Ladakh Range",
       },
     ],
   },
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     title: "Khardung La Travel Guide",
     description:
       "The complete guide to riding or driving Khardung La — Ladakh's legendary gateway to Nubra Valley.",
-    images: ["/images/destinations/leh-ladakh/leh-ladakh.jpg"],
+    images: ["/images/blogs/ladakh/khardung-la/khardung-la-winding-pass-road.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/khardung-la-travel-guide",
@@ -63,7 +63,7 @@ function ArticleSchema() {
           description:
             "Complete guide to Khardung La — altitude facts, best time to visit, how to reach, permits, altitude sickness precautions, and what to expect at the top.",
           image:
-            "https://club.kudozz.in/images/destinations/leh-ladakh/leh-ladakh.jpg",
+            "https://club.kudozz.in/images/blogs/ladakh/khardung-la/khardung-la-winding-pass-road.webp",
           datePublished: "2026-08-30",
           dateModified: "2026-08-30",
           publisher: {
@@ -211,8 +211,8 @@ export default function KhardungLaPage() {
         <section className="relative min-h-[70vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/leh-ladakh/leh-ladakh.jpg"
-              alt="Khardung La — high-altitude Himalayan pass road near Leh, Ladakh"
+              src="/images/blogs/ladakh/khardung-la/khardung-la-winding-pass-road.webp"
+              alt="The winding road switchbacking up Khardung La through the barren Ladakh Range"
               fill
               priority
               sizes="100vw"

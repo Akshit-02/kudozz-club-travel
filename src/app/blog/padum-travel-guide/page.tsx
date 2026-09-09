@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     authors: ["Kudozz Club"],
     images: [
       {
-        url: "/images/destinations/leh-ladakh/leh-ladakh.jpg",
-        width: 1200,
-        height: 630,
-        alt: "High-altitude Ladakh landscape near Zanskar Valley",
+        url: "/images/blogs/ladakh/padum/padum-zanskar-valley-view-from-karsha.webp",
+        width: 1600,
+        height: 1067,
+        alt: "The braided Stod and Tsarap rivers threading through the wide Zanskar valley near Padum, seen from Karsha",
       },
     ],
   },
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     title: "Padum Travel Guide: Zanskar Valley's Historic Capital Town",
     description:
       "How to reach Padum, what's in town, day trips to Karsha and Zangla, and treks that start where the road ends.",
-    images: ["/images/destinations/leh-ladakh/leh-ladakh.jpg"],
+    images: ["/images/blogs/ladakh/padum/padum-zanskar-valley-view-from-karsha.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/padum-travel-guide",
@@ -63,7 +63,7 @@ function ArticleSchema() {
           description:
             "The complete guide to Padum, the administrative headquarters of Zanskar Valley — logistics, what's in town, day trips, and trekking routes.",
           image:
-            "https://club.kudozz.in/images/destinations/leh-ladakh/leh-ladakh.jpg",
+            "https://club.kudozz.in/images/blogs/ladakh/padum/padum-zanskar-valley-view-from-karsha.webp",
           datePublished: "2026-06-02",
           dateModified: "2026-08-14",
           publisher: {
@@ -208,8 +208,8 @@ export default function PadumPage() {
         <section className="relative min-h-[70vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/leh-ladakh/leh-ladakh.jpg"
-              alt="High-altitude Zanskar landscape near Padum, Ladakh"
+              src="/images/blogs/ladakh/padum/padum-zanskar-valley-view-from-karsha.webp"
+              alt="The braided Stod and Tsarap rivers threading through the wide Zanskar valley near Padum, seen from Karsha"
               fill
               priority
               sizes="100vw"
@@ -705,8 +705,8 @@ export default function PadumPage() {
                     <h3>Karsha Monastery</h3>
                     <div className="relative w-full rounded-xl my-6 h-64 overflow-hidden shadow-md">
                       <Image
-                        src="/images/destinations/leh-ladakh/leh-ladakh.jpg"
-                        alt="Himalayan monastery landscape typical of Zanskar Valley"
+                        src="/images/blogs/ladakh/padum/padum-zanskar-valley-view-from-karsha.webp"
+                        alt="The braided Stod and Tsarap rivers threading through the wide Zanskar valley near Padum, seen from Karsha"
                         fill
                         sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                         className="object-cover"

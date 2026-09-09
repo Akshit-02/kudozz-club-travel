@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jaisalmer/fort.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Sandstone fort walls at golden hour, used here to evoke the golden-stone ruins of Hauz Khas Fort and madrasa overlooking the reservoir",
+        url: "/images/blogs/delhi/hauz-khas/hauz-khas-fort-madrasa-ruins.webp",
+        width: 1600,
+        height: 1067,
+        alt: "The weathered stone ruins of Hauz Khas Fort and madrasa rising beside the historic reservoir, Delhi",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Hauz Khas Travel Guide: Village, Deer Park & Fort Ruins",
     description:
       "A 700-year-old royal reservoir and madrasa ruins beside Delhi's trendiest boutique-and-nightlife village — the complete Hauz Khas guide.",
-    images: ["/images/destinations/jaisalmer/fort.jpg"],
+    images: ["/images/blogs/delhi/hauz-khas/hauz-khas-fort-madrasa-ruins.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/hauz-khas-delhi-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           description:
             "Hauz Khas travel guide — the 14th-century reservoir, madrasa ruins and Deer Park beside Delhi's trendiest boutique and nightlife village. Metro route, tips, budget.",
           image:
-            "https://club.kudozz.in/images/destinations/jaisalmer/fort.jpg",
+            "https://club.kudozz.in/images/blogs/delhi/hauz-khas/hauz-khas-fort-madrasa-ruins.webp",
           datePublished: "2026-08-30",
           dateModified: "2026-08-30",
           publisher: {
@@ -206,8 +206,8 @@ export default function HauzKhasGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jaisalmer/fort.jpg"
-              alt="Sandstone fort walls at golden hour, used here to evoke the golden-stone ruins of Hauz Khas Fort and madrasa overlooking the reservoir"
+              src="/images/blogs/delhi/hauz-khas/hauz-khas-fort-madrasa-ruins.webp"
+              alt="The weathered stone ruins of Hauz Khas Fort and madrasa rising beside the historic reservoir, Delhi"
               fill
               priority
               sizes="100vw"
@@ -567,8 +567,8 @@ export default function HauzKhasGuidePage() {
                   <h2>Hauz Khas Complex & Deer Park</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/jaisalmer/hero.jpg"
-                      alt="Historic sandstone fortress architecture reminiscent of the madrasa and tomb ruins standing along the edge of the Hauz Khas reservoir"
+                      src="/images/blogs/delhi/hauz-khas/hauz-khas-fort-madrasa-ruins.webp"
+                      alt="The weathered stone ruins of Hauz Khas Fort and madrasa rising beside the historic reservoir, Delhi"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

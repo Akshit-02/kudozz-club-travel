@@ -26,10 +26,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jammu-kashmir/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Habba Khatoon Peak rising above Dawar village in Gurez Valley, Kashmir",
+        url: "/images/blogs/jammu-and-kashmir/gurez-valley/habba-khatoon-peak-kishanganga-river.webp",
+        width: 1600,
+        height: 1200,
+        alt: "Habba Khatoon Peak's pyramid summit rising above the Kishanganga river in Gurez Valley, Kashmir",
       },
     ],
   },
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     title: "Gurez Valley Travel Guide: Kashmir's Hidden Border Valley",
     description:
       "A remote, Dard-Shin valley along the Kishanganga river near the Line of Control — opened to tourists only in recent years. Habba Khatoon Peak, permits, and Dawar village.",
-    images: ["/images/destinations/jammu-kashmir/hero.jpg"],
+    images: ["/images/blogs/jammu-and-kashmir/gurez-valley/habba-khatoon-peak-kishanganga-river.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/gurez-valley-travel-guide",
@@ -62,7 +62,7 @@ function ArticleSchema() {
           description:
             "Discover Gurez Valley, Kashmir's remote border valley near the LOC — Habba Khatoon Peak, Dawar village, permits, best time to visit, and full travel tips.",
           image:
-            "https://club.kudozz.in/images/destinations/jammu-kashmir/hero.jpg",
+            "https://club.kudozz.in/images/blogs/jammu-and-kashmir/gurez-valley/habba-khatoon-peak-kishanganga-river.webp",
           datePublished: "2026-08-30",
           dateModified: "2026-08-30",
           publisher: {
@@ -228,8 +228,8 @@ export default function GurezValleyGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jammu-kashmir/hero.jpg"
-              alt="Habba Khatoon Peak rising above Dawar village in Gurez Valley, Kashmir"
+              src="/images/blogs/jammu-and-kashmir/gurez-valley/habba-khatoon-peak-kishanganga-river.webp"
+              alt="Habba Khatoon Peak's pyramid summit rising above the Kishanganga river in Gurez Valley, Kashmir"
               fill
               priority
               sizes="100vw"
@@ -609,8 +609,8 @@ export default function GurezValleyGuidePage() {
                   <h2>Dawar — The Valley's Base</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/jammu-kashmir/hero.jpg"
-                      alt="Wooden houses and green meadows of Dawar village, the main town in Gurez Valley"
+                      src="/images/blogs/jammu-and-kashmir/gurez-valley/habba-khatoon-peak-kishanganga-river.webp"
+                      alt="Habba Khatoon Peak's pyramid summit rising above the Kishanganga river in Gurez Valley, Kashmir"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

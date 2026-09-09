@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jaisalmer/fort.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Red sandstone fort walls at golden hour, evoking Delhi's Red Fort and Mughal-era architecture",
+        url: "/images/blogs/delhi/old-delhi/jama-masjid-courtyard-old-delhi.webp",
+        width: 1600,
+        height: 1064,
+        alt: "The red sandstone gateway and courtyard of Jama Masjid, Old Delhi",
       },
     ],
   },
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     title: "Old Delhi Travel Guide: Red Fort, Jama Masjid & Food",
     description:
       "The walled Mughal capital of Shahjahanabad — Red Fort, Jama Masjid, havelis, bazaars, and legendary street food.",
-    images: ["/images/destinations/jaisalmer/fort.jpg"],
+    images: ["/images/blogs/delhi/old-delhi/jama-masjid-courtyard-old-delhi.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/old-delhi-travel-guide",
@@ -63,7 +63,7 @@ function ArticleSchema() {
           description:
             "Old Delhi travel guide: Red Fort, Jama Masjid, Chandni Chowk's food lanes, havelis and bazaars in Shahjahanabad — walking itinerary, budget, tips and FAQs.",
           image:
-            "https://club.kudozz.in/images/destinations/jaisalmer/fort.jpg",
+            "https://club.kudozz.in/images/blogs/delhi/old-delhi/jama-masjid-courtyard-old-delhi.webp",
           datePublished: "2026-08-30",
           dateModified: "2026-08-30",
           publisher: {
@@ -303,8 +303,8 @@ export default function OldDelhiGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jaisalmer/fort.jpg"
-              alt="Red sandstone fort walls at golden hour, evoking Delhi's Red Fort and Mughal-era architecture"
+              src="/images/blogs/delhi/old-delhi/jama-masjid-courtyard-old-delhi.webp"
+              alt="The red sandstone gateway and courtyard of Jama Masjid, Old Delhi"
               fill
               priority
               sizes="100vw"
@@ -664,8 +664,8 @@ export default function OldDelhiGuidePage() {
                   <h2>Red Fort (Lal Qila)</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/jaisalmer/hero.jpg"
-                      alt="Historic sandstone fortress architecture reminiscent of Old Delhi's Red Fort"
+                      src="/images/blogs/delhi/old-delhi/jama-masjid-courtyard-old-delhi.webp"
+                      alt="Worshippers and visitors crossing the sandstone courtyard of Jama Masjid, Old Delhi"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

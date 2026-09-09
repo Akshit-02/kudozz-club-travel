@@ -26,10 +26,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jammu-kashmir/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Wide alpine meadow and pine forest at Yusmarg near Srinagar",
+        url: "/images/blogs/jammu-and-kashmir/yusmarg/yusmarg-meadow-pine-forest.webp",
+        width: 1600,
+        height: 900,
+        alt: "The wide grassy meadow of Yusmarg ringed by pine forest and distant snow peaks, Budgam district, Kashmir",
       },
     ],
   },
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     title: "Yusmarg Travel Guide: Meadow of Jesus & Nilnag Lake",
     description:
       "A quiet, pine-fringed alpine meadow in Budgam district, far less commercial than Gulmarg — with Nilnag Lake and the Charar-e-Sharief shrine nearby.",
-    images: ["/images/destinations/jammu-kashmir/hero.jpg"],
+    images: ["/images/blogs/jammu-and-kashmir/yusmarg/yusmarg-meadow-pine-forest.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/yusmarg-travel-guide",
@@ -62,7 +62,7 @@ function ArticleSchema() {
           description:
             "Yusmarg travel guide: how to reach this quiet Kashmir meadow from Srinagar, the Charar-e-Sharief shrine en route, Nilnag Lake, best time to visit, and a day-trip itinerary.",
           image:
-            "https://club.kudozz.in/images/destinations/jammu-kashmir/hero.jpg",
+            "https://club.kudozz.in/images/blogs/jammu-and-kashmir/yusmarg/yusmarg-meadow-pine-forest.webp",
           datePublished: "2026-08-30",
           dateModified: "2026-08-30",
           publisher: {
@@ -214,8 +214,8 @@ export default function YusmargGuidePage() {
         <section className="relative min-h-[70vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jammu-kashmir/hero.jpg"
-              alt="Wide alpine meadow and pine forest at Yusmarg near Srinagar"
+              src="/images/blogs/jammu-and-kashmir/yusmarg/yusmarg-meadow-pine-forest.webp"
+              alt="The wide grassy meadow of Yusmarg ringed by pine forest and distant snow peaks, Budgam district, Kashmir"
               fill
               priority
               sizes="100vw"
@@ -580,8 +580,8 @@ export default function YusmargGuidePage() {
                   <h2>The Yusmarg Meadow</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/jammu-kashmir/hero.jpg"
-                      alt="Open grassland at Yusmarg meadow bordered by dense pine forest"
+                      src="/images/blogs/jammu-and-kashmir/yusmarg/yusmarg-meadow-pine-forest.webp"
+                      alt="The wide grassy meadow of Yusmarg ringed by pine forest and distant snow peaks, Budgam district, Kashmir"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

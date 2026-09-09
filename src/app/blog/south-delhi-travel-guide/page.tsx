@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jaisalmer/fort.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Warm sandstone architecture at golden hour, evoking the heritage ruins scattered through South Delhi's Mehrauli Archaeological Park",
+        url: "/images/blogs/delhi/south-delhi/lotus-temple-kalkaji-south-delhi.webp",
+        width: 1600,
+        height: 1067,
+        alt: "The white lotus-shaped petals of the Bahá'í Lotus Temple in Kalkaji, South Delhi",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "South Delhi Travel Guide: Best Areas & Things to Do",
     description:
       "Hauz Khas, Greater Kailash, Saket, Vasant Kunj, Mehrauli, Lodhi Garden, and Chhatarpur Temple — South Delhi's neighbourhoods, mapped out.",
-    images: ["/images/destinations/jaisalmer/fort.jpg"],
+    images: ["/images/blogs/delhi/south-delhi/lotus-temple-kalkaji-south-delhi.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/south-delhi-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           description:
             "South Delhi travel guide covering Hauz Khas Village, Greater Kailash, Saket, Vasant Kunj, Mehrauli & Qutub Minar, Lodhi Garden, Chhatarpur Temple, dining, and a 2-day itinerary.",
           image:
-            "https://club.kudozz.in/images/destinations/jaisalmer/fort.jpg",
+            "https://club.kudozz.in/images/blogs/delhi/south-delhi/lotus-temple-kalkaji-south-delhi.webp",
           datePublished: "2026-08-30",
           dateModified: "2026-08-30",
           publisher: {
@@ -210,8 +210,8 @@ export default function SouthDelhiGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jaisalmer/fort.jpg"
-              alt="Warm sandstone architecture at golden hour, evoking the heritage ruins scattered through South Delhi's Mehrauli Archaeological Park"
+              src="/images/blogs/delhi/south-delhi/lotus-temple-kalkaji-south-delhi.webp"
+              alt="The white lotus-shaped petals of the Bahá'í Lotus Temple in Kalkaji, South Delhi"
               fill
               priority
               sizes="100vw"
@@ -673,8 +673,8 @@ export default function SouthDelhiGuidePage() {
                   <h2>Mehrauli & Qutub Minar</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/jaisalmer/hero.jpg"
-                      alt="Historic sandstone ruins reminiscent of the Sultanate-era architecture scattered across Mehrauli Archaeological Park"
+                      src="/images/blogs/delhi/south-delhi/lotus-temple-kalkaji-south-delhi.webp"
+                      alt="Visitors approaching the marble-clad petals of the Lotus Temple, South Delhi"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

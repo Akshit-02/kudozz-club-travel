@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     authors: ["Kudozz Club"],
     images: [
       {
-        url: "/images/destinations/leh-ladakh/leh-ladakh.jpg",
-        width: 1200,
-        height: 630,
-        alt: "The Indus valley near Dha-Hanu in Ladakh",
+        url: "/images/blogs/ladakh/dha-hanu/brokpa-women-traditional-headdress-dha-hanu.webp",
+        width: 1600,
+        height: 1060,
+        alt: "Brokpa women in traditional flower headdresses and silver jewellery at a village ceremony in Dha-Hanu, Ladakh",
       },
     ],
   },
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     title: "Dha-Hanu Travel Guide: Ladakh's Aryan Valley",
     description:
       "How to visit Dha, Hanu, Garkone and Darchik — permits, culture, and respectful travel in Ladakh's Brokpa villages.",
-    images: ["/images/destinations/leh-ladakh/leh-ladakh.jpg"],
+    images: ["/images/blogs/ladakh/dha-hanu/brokpa-women-traditional-headdress-dha-hanu.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/dha-hanu-travel-guide",
@@ -64,7 +64,7 @@ function ArticleSchema() {
           description:
             "A responsible traveller's guide to Dha-Hanu, Ladakh — permits, how to reach, Brokpa culture, and etiquette for visiting this distinct community along the Indus.",
           image:
-            "https://club.kudozz.in/images/destinations/leh-ladakh/leh-ladakh.jpg",
+            "https://club.kudozz.in/images/blogs/ladakh/dha-hanu/brokpa-women-traditional-headdress-dha-hanu.webp",
           datePublished: "2026-06-02",
           dateModified: "2026-08-30",
           publisher: {
@@ -208,8 +208,8 @@ export default function DhaHanuPage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/leh-ladakh/leh-ladakh.jpg"
-              alt="The Indus river valley near Dha-Hanu in Ladakh"
+              src="/images/blogs/ladakh/dha-hanu/brokpa-women-traditional-headdress-dha-hanu.webp"
+              alt="Brokpa women in traditional flower headdresses and silver jewellery at a village ceremony in Dha-Hanu, Ladakh"
               fill
               priority
               sizes="100vw"
@@ -701,8 +701,8 @@ export default function DhaHanuPage() {
                     <h3>Dha & Hanu</h3>
                     <div className="relative w-full rounded-xl my-6 h-64 overflow-hidden shadow-md">
                       <Image
-                        src="/images/destinations/leh-ladakh/leh-ladakh.jpg"
-                        alt="Terraced fields and orchards near Dha village, Ladakh"
+                        src="/images/blogs/ladakh/dha-hanu/brokpa-women-traditional-headdress-dha-hanu.webp"
+                        alt="Brokpa women in traditional flower headdresses and silver jewellery at a village ceremony in Dha-Hanu, Ladakh"
                         fill
                         sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                         className="object-cover"

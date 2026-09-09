@@ -49,10 +49,10 @@ export const metadata: Metadata = {
     authors: ["Kudozz Club"],
     images: [
       {
-        url: "/images/destinations/leh-ladakh/leh-ladakh.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Thiksey Monastery rising over the Indus valley in Ladakh",
+        url: "/images/blogs/ladakh/thiksey/thiksey-monastery-hilltop-view.webp",
+        width: 1600,
+        height: 1069,
+        alt: "Thiksey Monastery's tiered, Potala-like complex crowning its hilltop above the Indus valley, Ladakh",
       },
     ],
   },
@@ -65,7 +65,7 @@ export const metadata: Metadata = {
     title: "Thiksey Travel Guide: Monastery, Morning Prayers & Maitreya Buddha",
     description:
       "The 12-storey monastery that mirrors the Potala Palace — everything you need for Thiksey's morning prayers, giant Buddha statue, and views over the Indus.",
-    images: ["/images/destinations/leh-ladakh/leh-ladakh.jpg"],
+    images: ["/images/blogs/ladakh/thiksey/thiksey-monastery-hilltop-view.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/thiksey-travel-guide",
@@ -86,7 +86,7 @@ function ArticleSchema() {
           description:
             "The complete guide to Thiksey Monastery, Ladakh — the 12-storey gompa that mirrors Lhasa's Potala Palace. Best time to visit, how to reach, the famous 6 AM prayers, the 15m Maitreya Buddha, and nearby Shey Palace and Stakna.",
           image:
-            "https://club.kudozz.in/images/destinations/leh-ladakh/leh-ladakh.jpg",
+            "https://club.kudozz.in/images/blogs/ladakh/thiksey/thiksey-monastery-hilltop-view.webp",
           datePublished: "2026-06-10",
           dateModified: "2026-08-20",
           publisher: {
@@ -246,8 +246,8 @@ export default function ThikseyPage() {
         <section className="relative min-h-[70vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/leh-ladakh/leh-ladakh.jpg"
-              alt="Thiksey Monastery's tiered walls rising above the Indus valley, Ladakh"
+              src="/images/blogs/ladakh/thiksey/thiksey-monastery-hilltop-view.webp"
+              alt="Thiksey Monastery's tiered, Potala-like complex crowning its hilltop above the Indus valley, Ladakh"
               fill
               priority
               sizes="100vw"
@@ -632,8 +632,8 @@ export default function ThikseyPage() {
                   <h2>The Maitreya Buddha Statue</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/leh-ladakh/leh-ladakh.jpg"
-                      alt="Ladakh's Indus valley landscape near Thiksey Monastery"
+                      src="/images/blogs/ladakh/thiksey/thiksey-monastery-hilltop-view.webp"
+                      alt="Thiksey Monastery's tiered, Potala-like complex crowning its hilltop above the Indus valley, Ladakh"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

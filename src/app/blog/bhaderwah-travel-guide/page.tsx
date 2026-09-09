@@ -26,10 +26,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jammu-kashmir/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Terraced green fields and forested hills in the Bhaderwah valley, Doda district",
+        url: "/images/blogs/jammu-and-kashmir/bhaderwah/jai-valley-bhaderwah-meadow-doda.webp",
+        width: 1600,
+        height: 1063,
+        alt: "Pine forest, green meadow, and a mountain stream in Jai Valley near Bhaderwah, Doda district",
       },
     ],
   },
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     title: "Bhaderwah Travel Guide: J&K's Mini Kashmir",
     description:
       "Terraced meadows, glacier-fed valleys, and a snow point toward Chamba — Bhaderwah is the Doda district valley locals call 'Mini Kashmir.'",
-    images: ["/images/destinations/jammu-kashmir/hero.jpg"],
+    images: ["/images/blogs/jammu-and-kashmir/bhaderwah/jai-valley-bhaderwah-meadow-doda.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/bhaderwah-travel-guide",
@@ -62,7 +62,7 @@ function ArticleSchema() {
           description:
             "Complete Bhaderwah travel guide covering Jai Valley, Chinta Valley, Padri, Vasuki Nag Temple, best time to visit, how to reach, and a 2-day itinerary.",
           image:
-            "https://club.kudozz.in/images/destinations/jammu-kashmir/hero.jpg",
+            "https://club.kudozz.in/images/blogs/jammu-and-kashmir/bhaderwah/jai-valley-bhaderwah-meadow-doda.webp",
           datePublished: "2026-08-30",
           dateModified: "2026-08-30",
           publisher: {
@@ -208,8 +208,8 @@ export default function BhaderwahGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jammu-kashmir/hero.jpg"
-              alt="Terraced green fields and forested hills in the Bhaderwah valley, Doda district"
+              src="/images/blogs/jammu-and-kashmir/bhaderwah/jai-valley-bhaderwah-meadow-doda.webp"
+              alt="Pine forest, green meadow, and a mountain stream in Jai Valley near Bhaderwah, Doda district"
               fill
               priority
               sizes="100vw"
@@ -580,8 +580,8 @@ export default function BhaderwahGuidePage() {
                     <h3>Jai Valley</h3>
                     <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                       <Image
-                        src="/images/destinations/jammu-kashmir/hero.jpg"
-                        alt="Glacier-fed meadow and stream at Jai Valley near Bhaderwah"
+                        src="/images/blogs/jammu-and-kashmir/bhaderwah/jai-valley-bhaderwah-meadow-doda.webp"
+                        alt="Deodar pine trees bordering a grassy meadow and stream at Jai Valley, Bhaderwah"
                         fill
                         sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                         className="object-cover"

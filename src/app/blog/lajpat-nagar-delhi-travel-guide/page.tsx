@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jaisalmer/fort.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Warm sandstone architecture at golden hour, used here to represent the spirit of old South Delhi neighbourhoods like Lajpat Nagar",
+        url: "/images/blogs/delhi/lajpat-nagar/lajpat-nagar-central-market-street-scene.webp",
+        width: 1600,
+        height: 1072,
+        alt: "Crowded market lanes lined with clothing stalls at Lajpat Nagar Central Market, Delhi",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Lajpat Nagar Travel Guide: Central Market & More",
     description:
       "Central Market's ethnic wear and bargains, the Tibetan Market, food, and a practical half-day shopping plan for Lajpat Nagar.",
-    images: ["/images/destinations/jaisalmer/fort.jpg"],
+    images: ["/images/blogs/delhi/lajpat-nagar/lajpat-nagar-central-market-street-scene.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/lajpat-nagar-delhi-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           description:
             "Complete Lajpat Nagar travel guide — Central Market's ethnic-wear and bridal shopping, the Tibetan Market next door, bargaining tips, food, and how to plan a half-day visit in South Delhi.",
           image:
-            "https://club.kudozz.in/images/destinations/jaisalmer/fort.jpg",
+            "https://club.kudozz.in/images/blogs/delhi/lajpat-nagar/lajpat-nagar-central-market-street-scene.webp",
           datePublished: "2026-08-30",
           dateModified: "2026-08-30",
           publisher: {
@@ -206,8 +206,8 @@ export default function LajpatNagarGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jaisalmer/fort.jpg"
-              alt="Warm sandstone architecture at golden hour, used here to represent the spirit of old South Delhi neighbourhoods like Lajpat Nagar"
+              src="/images/blogs/delhi/lajpat-nagar/lajpat-nagar-central-market-street-scene.webp"
+              alt="Crowded market lanes lined with clothing stalls at Lajpat Nagar Central Market, Delhi"
               fill
               priority
               sizes="100vw"
@@ -561,8 +561,8 @@ export default function LajpatNagarGuidePage() {
                   <h2>Central Market: Delhi's Ethnic-Wear Hub</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/jaisalmer/hero.jpg"
-                      alt="Warm sandstone streetscape, used here to represent the dense, colourful market lanes typical of South Delhi shopping areas like Lajpat Nagar's Central Market"
+                      src="/images/blogs/delhi/lajpat-nagar/lajpat-nagar-central-market-street-scene.webp"
+                      alt="Crowded market lanes lined with clothing stalls at Lajpat Nagar Central Market, Delhi"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

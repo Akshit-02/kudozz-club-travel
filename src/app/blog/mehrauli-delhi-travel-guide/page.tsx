@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jaisalmer/fort.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Red sandstone fort walls at golden hour, evoking the Sultanate-era stonework of Mehrauli's Qutub Minar complex",
+        url: "/images/blogs/delhi/mehrauli/qutub-minar-tower-ruins-mehrauli.webp",
+        width: 1600,
+        height: 974,
+        alt: "The Qutub Minar tower rising above the lawns of Mehrauli Archaeological Park, Delhi",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Mehrauli Travel Guide: Qutub Minar & Ancient Delhi",
     description:
       "Qutub Minar, the Iron Pillar, and a forest full of forgotten tombs — the complete guide to Delhi's oldest continuously inhabited settlement.",
-    images: ["/images/destinations/jaisalmer/fort.jpg"],
+    images: ["/images/blogs/delhi/mehrauli/qutub-minar-tower-ruins-mehrauli.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/mehrauli-delhi-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           description:
             "Complete Mehrauli travel guide — Qutub Minar, the rust-resistant Iron Pillar, Mehrauli Archaeological Park, Jamali Kamali, Rajon ki Baoli, the Qutub Festival, and a half-day walking itinerary through Delhi's oldest settlement.",
           image:
-            "https://club.kudozz.in/images/destinations/jaisalmer/fort.jpg",
+            "https://club.kudozz.in/images/blogs/delhi/mehrauli/qutub-minar-tower-ruins-mehrauli.webp",
           datePublished: "2026-08-30",
           dateModified: "2026-08-30",
           publisher: {
@@ -207,8 +207,8 @@ export default function MehrauliGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jaisalmer/fort.jpg"
-              alt="Red sandstone fort walls at golden hour, evoking the Sultanate-era stonework of Mehrauli's Qutub Minar complex"
+              src="/images/blogs/delhi/mehrauli/qutub-minar-tower-ruins-mehrauli.webp"
+              alt="The Qutub Minar tower rising above the lawns of Mehrauli Archaeological Park, Delhi"
               fill
               priority
               sizes="100vw"
@@ -562,8 +562,8 @@ export default function MehrauliGuidePage() {
                   <h2>Qutub Minar & Complex</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/jaisalmer/hero.jpg"
-                      alt="Historic sandstone monument architecture reminiscent of the Qutub Minar complex's carved stonework"
+                      src="/images/blogs/delhi/mehrauli/qutub-minar-tower-ruins-mehrauli.webp"
+                      alt="The fluted red sandstone tower of Qutub Minar seen through the trees of Mehrauli park"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

@@ -26,10 +26,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jammu-kashmir/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Snow-capped peaks and the Sindh River valley near Sonamarg, Kashmir",
+        url: "/images/blogs/jammu-and-kashmir/sonamarg/thajiwas-glacier-valley-sonamarg.webp",
+        width: 1600,
+        height: 1200,
+        alt: "Snow patches and a glacial stream in the Thajiwas Glacier valley above Sonamarg, Kashmir",
       },
     ],
   },
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     title: "Sonamarg Travel Guide: Thajiwas Glacier & How to Visit",
     description:
       "Kashmir's 'Meadow of Gold' — Thajiwas Glacier, the Sindh River valley, and the road to Zoji La and Ladakh. The complete Sonamarg travel guide.",
-    images: ["/images/destinations/jammu-kashmir/hero.jpg"],
+    images: ["/images/blogs/jammu-and-kashmir/sonamarg/thajiwas-glacier-valley-sonamarg.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/sonamarg-travel-guide",
@@ -62,7 +62,7 @@ function ArticleSchema() {
           description:
             "Complete Sonamarg travel guide: Thajiwas Glacier, distance from Srinagar, best time to visit, Zoji La pass to Ladakh, where to stay, and a 2-day itinerary.",
           image:
-            "https://club.kudozz.in/images/destinations/jammu-kashmir/hero.jpg",
+            "https://club.kudozz.in/images/blogs/jammu-and-kashmir/sonamarg/thajiwas-glacier-valley-sonamarg.webp",
           datePublished: "2026-08-30",
           dateModified: "2026-08-30",
           publisher: {
@@ -228,8 +228,8 @@ export default function SonamargGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jammu-kashmir/hero.jpg"
-              alt="Snow-capped peaks and the Sindh River valley near Sonamarg, Kashmir"
+              src="/images/blogs/jammu-and-kashmir/sonamarg/thajiwas-glacier-valley-sonamarg.webp"
+              alt="Snow patches and a glacial stream in the Thajiwas Glacier valley above Sonamarg, Kashmir"
               fill
               priority
               sizes="100vw"
@@ -598,8 +598,8 @@ export default function SonamargGuidePage() {
                   <h2>Thajiwas Glacier</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/jammu-kashmir/hero.jpg"
-                      alt="Snow-covered slopes near Thajiwas Glacier above Sonamarg meadow"
+                      src="/images/blogs/jammu-and-kashmir/sonamarg/thajiwas-glacier-valley-sonamarg.webp"
+                      alt="Snow patches and a glacial stream in the Thajiwas Glacier valley above Sonamarg, Kashmir"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

@@ -26,10 +26,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jammu-kashmir/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Pine forest and rolling hills at Patnitop hill station on the Jammu-Srinagar highway",
+        url: "/images/blogs/jammu-and-kashmir/patnitop/patnitop-pine-forest-meadow-jk.webp",
+        width: 1400,
+        height: 1050,
+        alt: "Green meadow ringed by deodar pine forest at Patnitop hill station, Jammu and Kashmir",
       },
     ],
   },
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     title: "Patnitop Travel Guide: Paragliding, Pines & Best Time",
     description:
       "Pine-forested plateau, paragliding launch sites, and winter snow within a three-hour drive of Jammu — the complete Patnitop travel guide.",
-    images: ["/images/destinations/jammu-kashmir/hero.jpg"],
+    images: ["/images/blogs/jammu-and-kashmir/patnitop/patnitop-pine-forest-meadow-jk.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/patnitop-travel-guide",
@@ -62,7 +62,7 @@ function ArticleSchema() {
           description:
             "The complete Patnitop travel guide: paragliding, pine forests, snowfall season, distance from Jammu, Sanasar meadow, where to stay, and a full itinerary.",
           image:
-            "https://club.kudozz.in/images/destinations/jammu-kashmir/hero.jpg",
+            "https://club.kudozz.in/images/blogs/jammu-and-kashmir/patnitop/patnitop-pine-forest-meadow-jk.webp",
           datePublished: "2026-08-30",
           dateModified: "2026-08-30",
           publisher: {
@@ -229,8 +229,8 @@ export default function PatnitopGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jammu-kashmir/hero.jpg"
-              alt="Pine forest and rolling hills at Patnitop hill station on the Jammu-Srinagar highway"
+              src="/images/blogs/jammu-and-kashmir/patnitop/patnitop-pine-forest-meadow-jk.webp"
+              alt="Green meadow ringed by deodar pine forest at Patnitop hill station, Jammu and Kashmir"
               fill
               priority
               sizes="100vw"
@@ -599,8 +599,8 @@ export default function PatnitopGuidePage() {
                   <h2>Adventure Activities in Patnitop</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/jammu-kashmir/hero.jpg"
-                      alt="Open meadow and pine-covered slopes near Sanasar, the paragliding launch site close to Patnitop"
+                      src="/images/blogs/jammu-and-kashmir/patnitop/patnitop-pine-forest-meadow-jk.webp"
+                      alt="Cottages and camps set in a pine-forested meadow at Patnitop hill station, Jammu and Kashmir"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
