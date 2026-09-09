@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/hampi.jpg",
+        url: "/images/destinations/hampi/hero.jpg",
         width: 1200,
         height: 630,
         alt: "Hampi — Virupaksha Temple and boulder landscape at sunset",
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Hampi Travel Guide",
     description:
       "Vijayanagara ruins, surreal boulder landscapes and the stone chariot of Vittala — the complete Hampi guide.",
-    images: ["/images/destinations/hampi.jpg"],
+    images: ["/images/destinations/hampi/hero.jpg"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/hampi-travel-guide",
@@ -57,7 +57,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Hampi Travel Guide: Ruins, Boulders, Temples & Tips",
           description: "The complete Hampi travel guide.",
-          image: "https://club.kudozz.in/images/destinations/hampi.jpg",
+          image: "https://club.kudozz.in/images/destinations/hampi/hero.jpg",
           datePublished: "2026-06-29",
           dateModified: "2026-07-12",
           publisher: {

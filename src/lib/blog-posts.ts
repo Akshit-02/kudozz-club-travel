@@ -845,7 +845,7 @@ export const posts = [
     title: "Gokarna Travel Guide: Best Beaches, Temples & Itinerary",
     excerpt:
       "A temple town with world-class beaches — Om Beach, Half Moon, and Paradise — linked by a cliffside trek and still a fraction as commercial as Goa.",
-    image: "/images/destinations/coorg/coorg.jpg",
+    image: "/images/destinations/gokarna/hero.jpg",
     category: "Beaches",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Gokarna", "Karnataka", "Beaches"],

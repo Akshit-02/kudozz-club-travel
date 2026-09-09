@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/coorg/coorg.jpg",
+        url: "/images/destinations/gokarna/hero.jpg",
         width: 1200,
         height: 630,
         alt: "Quiet palm-backed beach cove near Gokarna, Karnataka",
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Gokarna Travel Guide: Best Beaches, Temples & Complete Itinerary",
     description:
       "Om Beach, Half Moon, and Paradise — the complete guide to Gokarna's beaches, temples, and the coastal trek that connects them.",
-    images: ["/images/destinations/coorg/coorg.jpg"],
+    images: ["/images/destinations/gokarna/hero.jpg"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/gokarna-beaches-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline:
             "Gokarna Travel Guide: Best Beaches, Temples & Complete Itinerary",
           description: "The complete Gokarna travel guide.",
-          image: "https://club.kudozz.in/images/destinations/coorg/coorg.jpg",
+          image: "https://club.kudozz.in/images/destinations/gokarna/hero.jpg",
           datePublished: "2026-07-13",
           dateModified: "2026-07-13",
           publisher: {
