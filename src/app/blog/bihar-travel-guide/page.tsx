@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/hampi/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Ancient stone ruins and temple architecture, evoking Bihar's Nalanda and Bodh Gaya heritage sites",
+        url: "/images/blogs/bihar/bihar/mahabodhi-temple-bodh-gaya-bihar.webp",
+        width: 1600,
+        height: 1067,
+        alt: "The tall stepped spire of the Mahabodhi Temple rising above its garden complex, Bodh Gaya, Bihar",
       },
     ],
   },
@@ -39,7 +39,9 @@ export const metadata: Metadata = {
     title: "Bihar Travel Guide: Bodh Gaya, Nalanda & Patna",
     description:
       "Where Buddha attained enlightenment, and the ruins of one of the world's oldest universities — the complete guide to Bihar.",
-    images: ["/images/destinations/hampi/hero.jpg"],
+    images: [
+      "/images/blogs/bihar/bihar/mahabodhi-temple-bodh-gaya-bihar.webp",
+    ],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/bihar-travel-guide",
@@ -57,7 +59,8 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Bihar Travel Guide: Bodh Gaya, Nalanda & Patna",
           description: "The complete Bihar travel guide.",
-          image: "https://club.kudozz.in/images/destinations/hampi/hero.jpg",
+          image:
+            "https://club.kudozz.in/images/blogs/bihar/bihar/mahabodhi-temple-bodh-gaya-bihar.webp",
           datePublished: "2026-07-22",
           dateModified: "2026-07-22",
           publisher: {
@@ -287,8 +290,8 @@ export default function BiharGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/hampi/hero.jpg"
-              alt="Ancient stone ruins and temple architecture, evoking Bihar's Nalanda and Bodh Gaya heritage sites"
+              src="/images/blogs/bihar/bihar/mahabodhi-temple-bodh-gaya-bihar.webp"
+              alt="The tall stepped spire of the Mahabodhi Temple rising above its garden complex, Bodh Gaya, Bihar"
               fill
               priority
               sizes="100vw"
@@ -637,8 +640,8 @@ export default function BiharGuidePage() {
                   <h2>Bodh Gaya: Where Buddhism Began</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/hampi/virupaksha.jpg"
-                      alt="Ancient temple architecture with a tall spire, evoking the Mahabodhi Temple in Bodh Gaya"
+                      src="/images/blogs/bihar/bihar/mahabodhi-temple-bodh-gaya-bihar.webp"
+                      alt="The tall stepped spire of the Mahabodhi Temple rising above its garden complex, Bodh Gaya, Bihar"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -739,8 +742,8 @@ export default function BiharGuidePage() {
                   <h2>Patna: The Ancient Capital</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/jaisalmer/fort.jpg"
-                      alt="A large historic stone structure, evoking Patna's Golghar granary and riverside heritage"
+                      src="/images/blogs/bihar/bihar/mahabodhi-temple-bodh-gaya-bihar.webp"
+                      alt="The tall stepped spire of the Mahabodhi Temple rising above its garden complex, Bodh Gaya, Bihar"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

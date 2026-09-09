@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/kerala/alleppey.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Calm river with palm-lined banks, evoking Yanam's setting on the Godavari River delta",
+        url: "/images/blogs/puducherry/yanam-district/koringa-river-godavari-delta-yanam.webp",
+        width: 1600,
+        height: 1109,
+        alt: "Koringa River lined with palms at Yanam on the Godavari River delta",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Yanam District Travel Guide: Godavari Delta & French Heritage",
     description:
       "St. Ann's Church, the Yanam Ferry Road, and the quiet Godavari delta villages of Mettakur, Kolanka, and Kanakalapeta.",
-    images: ["/images/destinations/kerala/alleppey.jpg"],
+    images: ["/images/blogs/puducherry/yanam-district/koringa-river-godavari-delta-yanam.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/yanam-district-travel-guide",
@@ -60,7 +60,7 @@ function ArticleSchema() {
           description:
             "The complete Yanam District travel guide, covering Yanam town, Mettakur, Kolanka, and Kanakalapeta.",
           image:
-            "https://club.kudozz.in/images/destinations/kerala/alleppey.jpg",
+            "https://club.kudozz.in/images/blogs/puducherry/yanam-district/koringa-river-godavari-delta-yanam.webp",
           datePublished: "2026-07-24",
           dateModified: "2026-07-24",
           publisher: {
@@ -292,8 +292,8 @@ export default function YanamDistrictGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/kerala/alleppey.jpg"
-              alt="Calm river with palm-lined banks, evoking Yanam's setting on the Godavari River delta"
+              src="/images/blogs/puducherry/yanam-district/koringa-river-godavari-delta-yanam.webp"
+              alt="Koringa River lined with palms at Yanam on the Godavari River delta"
               fill
               priority
               sizes="100vw"
@@ -623,8 +623,8 @@ export default function YanamDistrictGuidePage() {
                   <h2>Yanam Town</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/goa/beach.jpg"
-                      alt="Sandy beach along calm water, evoking Yanam's Rajiv Gandhi Beach on the Godavari delta coast"
+                      src="/images/blogs/puducherry/yanam-district/rajiv-gandhi-beach-shivalinga-monument-yanam.webp"
+                      alt="Shivalinga fountain flanked by elephant statues at Yanam's Rajiv Gandhi Beach"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

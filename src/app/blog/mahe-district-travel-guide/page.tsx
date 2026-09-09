@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/kerala/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Calm river meeting the coast, evoking Mahe's riverfront on the Malabar coast",
+        url: "/images/blogs/puducherry/mahe-district/mahe-river-boathouse-mahe-district.webp",
+        width: 1600,
+        height: 989,
+        alt: "Mahe River waterfront with the bridge and riverside gazebo, Mahe district",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Mahe District Travel Guide: Riverfront, Church & Malabar Coast",
     description:
       "Mahe's riverfront walkway, St. Teresa's Shrine, and the quiet river villages of Palloor, Pandakkal, Chalakkara, and Parakkal.",
-    images: ["/images/destinations/kerala/hero.jpg"],
+    images: ["/images/blogs/puducherry/mahe-district/mahe-river-boathouse-mahe-district.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/mahe-district-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
             "Mahe District Travel Guide: Riverfront, Church & Malabar Coast",
           description:
             "The complete Mahe District travel guide, covering Mahe town, Palloor, Pandakkal, Chalakkara, and Parakkal.",
-          image: "https://club.kudozz.in/images/destinations/kerala/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/puducherry/mahe-district/mahe-river-boathouse-mahe-district.webp",
           datePublished: "2026-07-24",
           dateModified: "2026-07-24",
           publisher: {
@@ -296,8 +296,8 @@ export default function MaheDistrictGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/kerala/hero.jpg"
-              alt="Calm river meeting the coast, evoking Mahe's riverfront on the Malabar coast"
+              src="/images/blogs/puducherry/mahe-district/mahe-river-boathouse-mahe-district.webp"
+              alt="Mahe River waterfront with the bridge and riverside gazebo, Mahe district"
               fill
               priority
               sizes="100vw"
@@ -626,8 +626,8 @@ export default function MaheDistrictGuidePage() {
                   <h2>Mahe Town</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/kerala/alleppey.jpg"
-                      alt="Calm river with palm-lined banks, evoking Mahe's riverfront and the Mahe River"
+                      src="/images/blogs/puducherry/mahe-district/mahe-river-boathouse-mahe-district.webp"
+                      alt="Mahe town riverfront with the bridge over the Mahe River"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

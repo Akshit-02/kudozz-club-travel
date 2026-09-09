@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/meghalaya/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Green terraced valley with traditional bamboo houses near Ziro",
+        url: "/images/blogs/arunachal-pradesh/ziro-valley-arunachal/apatani-rice-paddies-ziro-valley.webp",
+        width: 1600,
+        height: 1088,
+        alt: "Terraced rice-fish fields of the Apatani tribe with traditional bamboo huts in Ziro Valley",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Ziro Valley Travel Guide: Apatani Villages, Rice Fields & Festival",
     description:
       "Apatani villages, terraced rice-fish fields, and the Ziro Music Festival — the complete guide to Arunachal's quietest valley.",
-    images: ["/images/destinations/meghalaya/hero.jpg"],
+    images: ["/images/blogs/arunachal-pradesh/ziro-valley-arunachal/apatani-rice-paddies-ziro-valley.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/ziro-valley-arunachal-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
             "Ziro Valley Travel Guide: Apatani Villages, Rice Fields & Festival",
           description: "The complete Ziro Valley travel guide.",
           image:
-            "https://club.kudozz.in/images/destinations/meghalaya/hero.jpg",
+            "https://club.kudozz.in/images/blogs/arunachal-pradesh/ziro-valley-arunachal/apatani-rice-paddies-ziro-valley.webp",
           datePublished: "2026-07-13",
           dateModified: "2026-07-13",
           publisher: {
@@ -289,8 +289,8 @@ export default function ZiroValleyGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/ziro/hero.jpg"
-              alt="Green terraced valley with traditional bamboo houses near Ziro"
+              src="/images/blogs/arunachal-pradesh/ziro-valley-arunachal/apatani-rice-paddies-ziro-valley.webp"
+              alt="Terraced rice-fish fields of the Apatani tribe with traditional bamboo huts in Ziro Valley"
               fill
               priority
               sizes="100vw"
@@ -675,8 +675,8 @@ export default function ZiroValleyGuidePage() {
                   <h2>The Apatani Tribe & Villages</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/ziro/hero.jpg"
-                      alt="Traditional village houses beside terraced fields in the valley"
+                      src="/images/blogs/arunachal-pradesh/ziro-valley-arunachal/apatani-rice-paddies-ziro-valley.webp"
+                      alt="Apatani village houses beside terraced rice-fish fields in Ziro Valley"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

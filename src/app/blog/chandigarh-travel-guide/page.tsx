@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/rishikesh/rishikesh.jpg",
-        width: 1200,
-        height: 630,
-        alt: "A calm lake ringed by hills, evoking Chandigarh's Sukhna Lake and the Shivalik foothills",
+        url: "/images/blogs/chandigarh/chandigarh/rock-garden-mosaic-sculptures-chandigarh.webp",
+        width: 1500,
+        height: 1125,
+        alt: "Mosaic animal sculptures made from broken ceramics and bangles at the Rock Garden, Chandigarh",
       },
     ],
   },
@@ -39,7 +39,9 @@ export const metadata: Metadata = {
     title: "Chandigarh Travel Guide: Rock Garden, Sukhna Lake & Itinerary",
     description:
       "Modernist architecture, a lake at the foothills, and a rock garden built from industrial waste — the complete guide to Chandigarh.",
-    images: ["/images/destinations/rishikesh/rishikesh.jpg"],
+    images: [
+      "/images/blogs/chandigarh/chandigarh/rock-garden-mosaic-sculptures-chandigarh.webp",
+    ],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/chandigarh-travel-guide",
@@ -59,7 +61,7 @@ function ArticleSchema() {
             "Chandigarh Travel Guide: Rock Garden, Sukhna Lake & Itinerary",
           description: "The complete Chandigarh travel guide.",
           image:
-            "https://club.kudozz.in/images/destinations/rishikesh/rishikesh.jpg",
+            "https://club.kudozz.in/images/blogs/chandigarh/chandigarh/rock-garden-mosaic-sculptures-chandigarh.webp",
           datePublished: "2026-07-19",
           dateModified: "2026-07-19",
           publisher: {
@@ -274,8 +276,8 @@ export default function ChandigarhGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/chandigarh/hero.jpg"
-              alt="A calm lake ringed by hills, evoking Chandigarh's Sukhna Lake and the Shivalik foothills"
+              src="/images/blogs/chandigarh/chandigarh/rock-garden-mosaic-sculptures-chandigarh.webp"
+              alt="Mosaic animal sculptures made from broken ceramics and bangles at the Rock Garden, Chandigarh"
               fill
               priority
               sizes="100vw"
@@ -606,8 +608,8 @@ export default function ChandigarhGuidePage() {
                   <h2>Things to Do in Chandigarh</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/chandigarh/hero.jpg"
-                      alt="A wide lake with hills in the background, evoking Chandigarh's Sukhna Lake"
+                      src="/images/blogs/chandigarh/chandigarh/rock-garden-mosaic-sculptures-chandigarh.webp"
+                      alt="Mosaic animal sculptures made from broken ceramics and bangles at the Rock Garden, Chandigarh"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

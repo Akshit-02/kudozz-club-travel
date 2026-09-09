@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/andaman/hero.jpg",
+        url: "/images/destinations/goa/hero.jpg",
         width: 1200,
         height: 630,
         alt: "Palm-lined Goa beach at sunset with fishing boats",
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
       "Goa Travel Guide: Best Beaches, North vs South & Complete Itinerary",
     description:
       "Sun, sand, and susegad — the complete guide to Goa's beaches, heritage, and nightlife.",
-    images: ["/images/destinations/andaman/hero.jpg"],
+    images: ["/images/destinations/goa/hero.jpg"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/goa-beaches-travel-guide",
@@ -60,7 +60,7 @@ function ArticleSchema() {
           headline:
             "Goa Travel Guide: Best Beaches, North vs South & Complete Itinerary",
           description: "The complete Goa travel guide.",
-          image: "https://club.kudozz.in/images/destinations/andaman/hero.jpg",
+          image: "https://club.kudozz.in/images/destinations/goa/hero.jpg",
           datePublished: "2026-07-13",
           dateModified: "2026-07-13",
           publisher: {

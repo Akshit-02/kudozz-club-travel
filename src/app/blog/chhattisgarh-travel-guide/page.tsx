@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/meghalaya/dawki-river.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Clear river water surrounded by green hills, evoking Chhattisgarh's Chitrakote Falls on the Indravati river",
+        url: "/images/blogs/chhattisgarh/chhattisgarh/chitrakote-falls-chhattisgarh.webp",
+        width: 1600,
+        height: 1067,
+        alt: "Chitrakote Falls cascading in multiple horseshoe-shaped tiers over a wide rock face on the Indravati river, Chhattisgarh",
       },
     ],
   },
@@ -39,7 +39,9 @@ export const metadata: Metadata = {
     title: "Chhattisgarh Travel Guide: Chitrakote Falls, Bastar & Raipur",
     description:
       "The 'Niagara of India,' deep tribal heritage, and near-empty forest trails — the complete guide to Chhattisgarh.",
-    images: ["/images/destinations/meghalaya/dawki-river.jpg"],
+    images: [
+      "/images/blogs/chhattisgarh/chhattisgarh/chitrakote-falls-chhattisgarh.webp",
+    ],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/chhattisgarh-travel-guide",
@@ -59,7 +61,7 @@ function ArticleSchema() {
             "Chhattisgarh Travel Guide: Chitrakote Falls, Bastar & Raipur",
           description: "The complete Chhattisgarh travel guide.",
           image:
-            "https://club.kudozz.in/images/destinations/meghalaya/dawki-river.jpg",
+            "https://club.kudozz.in/images/blogs/chhattisgarh/chhattisgarh/chitrakote-falls-chhattisgarh.webp",
           datePublished: "2026-07-22",
           dateModified: "2026-07-22",
           publisher: {
@@ -288,8 +290,8 @@ export default function ChhattisgarhGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/meghalaya/dawki-river.jpg"
-              alt="Clear river water surrounded by green hills, evoking Chhattisgarh's Chitrakote Falls on the Indravati river"
+              src="/images/blogs/chhattisgarh/chhattisgarh/chitrakote-falls-chhattisgarh.webp"
+              alt="Chitrakote Falls cascading in multiple horseshoe-shaped tiers over a wide rock face on the Indravati river, Chhattisgarh"
               fill
               priority
               sizes="100vw"
@@ -622,8 +624,8 @@ export default function ChhattisgarhGuidePage() {
                   <h2>Chitrakote Falls: The Niagara of India</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/meghalaya/dawki-river.jpg"
-                      alt="Clear river water surrounded by green hills, evoking Chhattisgarh's Chitrakote Falls on the Indravati river"
+                      src="/images/blogs/chhattisgarh/chhattisgarh/chitrakote-falls-chhattisgarh.webp"
+                      alt="Chitrakote Falls cascading in multiple horseshoe-shaped tiers over a wide rock face on the Indravati river, Chhattisgarh"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

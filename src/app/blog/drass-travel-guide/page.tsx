@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     authors: ["Kudozz Club"],
     images: [
       {
-        url: "/images/destinations/leh-ladakh/leh-ladakh.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Snow-capped peaks along the Srinagar-Leh highway near Drass, Ladakh",
+        url: "/images/blogs/ladakh/drass/kargil-war-memorial-flag-drass.webp",
+        width: 1600,
+        height: 1200,
+        alt: "The Kargil War Memorial at Drass, with the Indian flag flying against bare mountains",
       },
     ],
   },
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     title: "Drass Travel Guide: Kargil War Memorial, Gateway to Ladakh",
     description:
       "The second-coldest inhabited place on Earth, and the town that stands watch over the Kargil War Memorial.",
-    images: ["/images/destinations/leh-ladakh/leh-ladakh.jpg"],
+    images: ["/images/blogs/ladakh/drass/kargil-war-memorial-flag-drass.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/drass-travel-guide",
@@ -63,7 +63,7 @@ function ArticleSchema() {
           description:
             "A complete travel guide to Drass, Ladakh — the second-coldest inhabited place on Earth and site of the Kargil War Memorial. Best time to visit, how to reach via Zoji La, Tiger Hill, Mushkoh Valley, where to stay, and essential tips.",
           image:
-            "https://club.kudozz.in/images/destinations/leh-ladakh/leh-ladakh.jpg",
+            "https://club.kudozz.in/images/blogs/ladakh/drass/kargil-war-memorial-flag-drass.webp",
           datePublished: "2026-08-20",
           dateModified: "2026-08-30",
           publisher: {
@@ -206,8 +206,8 @@ export default function DrassPage() {
         <section className="relative min-h-[70vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/leh-ladakh/leh-ladakh.jpg"
-              alt="Snow-capped peaks along the Srinagar-Leh highway near Drass, Ladakh"
+              src="/images/blogs/ladakh/drass/kargil-war-memorial-flag-drass.webp"
+              alt="The Kargil War Memorial at Drass, with the Indian flag flying against bare mountains"
               fill
               priority
               sizes="100vw"
@@ -548,8 +548,8 @@ export default function DrassPage() {
                   <h2>The Kargil War Memorial</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/leh-ladakh/leh-ladakh.jpg"
-                      alt="Mountain ridgelines above Drass, near the site of the Kargil War Memorial"
+                      src="/images/blogs/ladakh/drass/kargil-war-memorial-howitzer-display.webp"
+                      alt="A 75/24 Pack Howitzer on display at the Kargil War Memorial, Drass"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

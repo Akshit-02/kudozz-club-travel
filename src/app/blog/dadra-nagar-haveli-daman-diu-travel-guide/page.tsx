@@ -29,10 +29,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/goa/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Portuguese-era fort walls overlooking the sea, evoking the coastal forts of Diu",
+        url: "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu/diu-fort-gateway.webp",
+        width: 1600,
+        height: 1200,
+        alt: "The weathered brick archway and turrets of the Portuguese-built Diu Fort gateway",
       },
     ],
   },
@@ -42,7 +42,9 @@ export const metadata: Metadata = {
       "Dadra & Nagar Haveli and Daman & Diu Travel Guide: Forts, Beaches & Weekend Trip",
     description:
       "Portuguese forts, quiet beaches, and duty-free shopping — the complete guide to Daman, Diu, Silvassa and Dadra & Nagar Haveli.",
-    images: ["/images/destinations/goa/hero.jpg"],
+    images: [
+      "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu/diu-fort-gateway.webp",
+    ],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/dadra-nagar-haveli-daman-diu-travel-guide",
@@ -62,7 +64,8 @@ function ArticleSchema() {
             "Dadra & Nagar Haveli and Daman & Diu Travel Guide: Forts, Beaches & Weekend Trip",
           description:
             "The complete travel guide to Dadra & Nagar Haveli and Daman & Diu.",
-          image: "https://club.kudozz.in/images/destinations/goa/hero.jpg",
+          image:
+            "https://club.kudozz.in/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu/diu-fort-gateway.webp",
           datePublished: "2026-07-19",
           dateModified: "2026-07-19",
           publisher: {
@@ -292,8 +295,8 @@ export default function DadraNagarHaveliDamanDiuGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/goa/hero.jpg"
-              alt="Portuguese-era fort walls overlooking the sea, evoking the coastal forts of Diu"
+              src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu/diu-fort-gateway.webp"
+              alt="The weathered brick archway and turrets of the Portuguese-built Diu Fort gateway"
               fill
               priority
               sizes="100vw"
@@ -631,8 +634,8 @@ export default function DadraNagarHaveliDamanDiuGuidePage() {
                   <h2>Diu: Forts & Beaches</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/goa/hero.jpg"
-                      alt="Coastal fort ramparts by the sea, evocative of Diu Fort's Portuguese architecture"
+                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu/diu-fort-gateway.webp"
+                      alt="The weathered brick archway and turrets of the Portuguese-built Diu Fort gateway"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

@@ -619,8 +619,8 @@ export default function UttarakhandGuidePage() {
                   <h2>The Char Dham Yatra</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/manali/hero.jpg"
-                      alt="Snow-capped Himalayan peaks, evoking the high-altitude terrain around Uttarakhand's Char Dham shrines"
+                      src="/images/blogs/uttarakhand/char-dham/kedarnath-temple-uttarakhand.webp"
+                      alt="Kedarnath Temple's stone shrine standing before the snow-capped Kedarnath massif, Uttarakhand"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

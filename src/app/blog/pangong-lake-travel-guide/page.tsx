@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     authors: ["Kudozz Club"],
     images: [
       {
-        url: "/images/destinations/leh-ladakh/leh-ladakh.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Pangong Tso lake with turquoise water and snow-capped mountains",
+        url: "/images/blogs/ladakh/pangong-lake/pangong-tso-turquoise-water-mountains.webp",
+        width: 1600,
+        height: 900,
+        alt: "Pangong Tso lake with turquoise-blue water and snow-capped mountains, Ladakh",
       },
     ],
   },
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     title: "Pangong Lake Travel Guide",
     description:
       "Routes, permits, camping, and the complete guide to Ladakh's most famous lake.",
-    images: ["/images/destinations/leh-ladakh/leh-ladakh.jpg"],
+    images: ["/images/blogs/ladakh/pangong-lake/pangong-tso-turquoise-water-mountains.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/pangong-lake-travel-guide",
@@ -63,7 +63,7 @@ function ArticleSchema() {
           description:
             "The complete Pangong Tso travel guide — routes, permits, camping, the colour-changing lake phenomenon, itinerary, budget and tips.",
           image:
-            "https://club.kudozz.in/images/destinations/leh-ladakh/leh-ladakh.jpg",
+            "https://club.kudozz.in/images/blogs/ladakh/pangong-lake/pangong-tso-turquoise-water-mountains.webp",
           datePublished: "2026-08-30",
           dateModified: "2026-08-30",
           publisher: {
@@ -206,8 +206,8 @@ export default function PangongLakePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/leh-ladakh/leh-ladakh.jpg"
-              alt="Pangong Tso — turquoise saline lake ringed by Himalayan peaks"
+              src="/images/blogs/ladakh/pangong-lake/pangong-tso-turquoise-water-mountains.webp"
+              alt="Pangong Tso — turquoise-blue saline lake ringed by Himalayan peaks"
               fill
               priority
               sizes="100vw"
@@ -521,8 +521,8 @@ export default function PangongLakePage() {
                     <h3>Via Chang La (from Leh) — the direct route</h3>
                     <div className="relative w-full rounded-xl my-6 h-64 overflow-hidden shadow-md">
                       <Image
-                        src="/images/destinations/leh-ladakh/leh-ladakh.jpg"
-                        alt="Road to Pangong Lake crossing Chang La pass"
+                        src="/images/blogs/ladakh/pangong-lake/chang-la-pass-signboard-ladakh.webp"
+                        alt="Signboard at the summit of Chang La pass, the route from Leh to Pangong Lake"
                         fill
                         sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                         className="object-cover"
@@ -747,8 +747,8 @@ export default function PangongLakePage() {
                   <h2>The Colour-Changing Lake</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/leh-ladakh/leh-ladakh.jpg"
-                      alt="Pangong Tso changing colour from turquoise to deep blue"
+                      src="/images/blogs/ladakh/pangong-lake/pangong-tso-shoreline-colour-change.webp"
+                      alt="Pangong Tso's shoreline showing the lake's water shifting from turquoise to deep blue"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

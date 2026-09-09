@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jaisalmer/fort.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Red sandstone fort walls at golden hour, evoking Delhi's Red Fort and Mughal-era architecture",
+        url: "/images/blogs/delhi/delhi/red-fort-lahori-gate-delhi.webp",
+        width: 1600,
+        height: 902,
+        alt: "The red sandstone Lahori Gate entrance of the Red Fort with its twin domed towers and the Indian flag, Delhi",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Delhi Travel Guide: Red Fort, Qutub Minar & 3-Day Itinerary",
     description:
       "Mughal monuments, colonial avenues, and legendary street food — the complete guide to Delhi.",
-    images: ["/images/destinations/jaisalmer/fort.jpg"],
+    images: ["/images/blogs/delhi/delhi/red-fort-lahori-gate-delhi.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/delhi-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Delhi Travel Guide: Red Fort, Qutub Minar & 3-Day Itinerary",
           description: "The complete Delhi travel guide.",
           image:
-            "https://club.kudozz.in/images/destinations/jaisalmer/fort.jpg",
+            "https://club.kudozz.in/images/blogs/delhi/delhi/red-fort-lahori-gate-delhi.webp",
           datePublished: "2026-07-19",
           dateModified: "2026-07-19",
           publisher: {
@@ -288,8 +288,8 @@ export default function DelhiGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jaisalmer/fort.jpg"
-              alt="Red sandstone fort walls at golden hour, evoking Delhi's Red Fort and Mughal-era architecture"
+              src="/images/blogs/delhi/delhi/red-fort-lahori-gate-delhi.webp"
+              alt="The red sandstone Lahori Gate entrance of the Red Fort with its twin domed towers and the Indian flag, Delhi"
               fill
               priority
               sizes="100vw"
@@ -648,8 +648,8 @@ export default function DelhiGuidePage() {
                   <h2>Things to Do in Delhi</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/jaisalmer/hero.jpg"
-                      alt="Historic sandstone fortress architecture reminiscent of Delhi's Mughal-era monuments"
+                      src="/images/blogs/delhi/delhi/red-fort-lahori-gate-delhi.webp"
+                      alt="The red sandstone Lahori Gate entrance of the Red Fort with its twin domed towers and the Indian flag, Delhi"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/udaipur/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "White marble monument reflected in still water, evoking the Taj Mahal at sunrise",
+        url: "/images/blogs/uttar-pradesh/uttar-pradesh/taj-mahal-agra-uttar-pradesh.webp",
+        width: 1600,
+        height: 1052,
+        alt: "The white marble Taj Mahal and its four minarets reflected in the long garden pool, Agra, Uttar Pradesh",
       },
     ],
   },
@@ -39,7 +39,9 @@ export const metadata: Metadata = {
     title: "Uttar Pradesh Travel Guide: Taj Mahal, Varanasi & Lucknow",
     description:
       "The Taj Mahal, ancient Varanasi ghats, and Lucknow's Nawabi elegance — the complete guide to Uttar Pradesh.",
-    images: ["/images/destinations/udaipur/hero.jpg"],
+    images: [
+      "/images/blogs/uttar-pradesh/uttar-pradesh/taj-mahal-agra-uttar-pradesh.webp",
+    ],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/uttar-pradesh-travel-guide",
@@ -58,7 +60,8 @@ function ArticleSchema() {
           headline:
             "Uttar Pradesh Travel Guide: Taj Mahal, Varanasi & Lucknow",
           description: "The complete Uttar Pradesh travel guide.",
-          image: "https://club.kudozz.in/images/destinations/udaipur/hero.jpg",
+          image:
+            "https://club.kudozz.in/images/blogs/uttar-pradesh/uttar-pradesh/taj-mahal-agra-uttar-pradesh.webp",
           datePublished: "2026-07-19",
           dateModified: "2026-07-19",
           publisher: {
@@ -288,8 +291,8 @@ export default function UttarPradeshGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/udaipur/hero.jpg"
-              alt="White marble monument reflected in still water, evoking the Taj Mahal at sunrise"
+              src="/images/blogs/uttar-pradesh/uttar-pradesh/taj-mahal-agra-uttar-pradesh.webp"
+              alt="The white marble Taj Mahal and its four minarets reflected in the long garden pool, Agra, Uttar Pradesh"
               fill
               priority
               sizes="100vw"
@@ -621,8 +624,8 @@ export default function UttarPradeshGuidePage() {
                   <h2>Agra: Taj Mahal & Beyond</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/jaisalmer/hero.jpg"
-                      alt="Sandstone fortress architecture, evoking Agra Fort's Mughal-era red sandstone walls"
+                      src="/images/blogs/uttar-pradesh/uttar-pradesh/taj-mahal-agra-uttar-pradesh.webp"
+                      alt="The white marble Taj Mahal and its four minarets reflected in the long garden pool, Agra, Uttar Pradesh"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

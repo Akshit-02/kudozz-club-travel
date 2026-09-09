@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/meghalaya/dawki-river.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Clear river water reflecting green hills, evoking Assam's Brahmaputra river and Majuli Island",
+        url: "/images/blogs/assam/assam/one-horned-rhinoceros-kaziranga-assam.webp",
+        width: 1600,
+        height: 1143,
+        alt: "A one-horned Indian rhinoceros grazing on grassland in Kaziranga National Park, Assam",
       },
     ],
   },
@@ -39,7 +39,9 @@ export const metadata: Metadata = {
     title: "Assam Travel Guide: Kaziranga, Guwahati & Majuli Island",
     description:
       "Rhino safaris, riverine temples, and the world's largest river island — the complete guide to Assam.",
-    images: ["/images/destinations/meghalaya/dawki-river.jpg"],
+    images: [
+      "/images/blogs/assam/assam/one-horned-rhinoceros-kaziranga-assam.webp",
+    ],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/assam-travel-guide",
@@ -58,7 +60,7 @@ function ArticleSchema() {
           headline: "Assam Travel Guide: Kaziranga, Guwahati & Majuli Island",
           description: "The complete Assam travel guide.",
           image:
-            "https://club.kudozz.in/images/destinations/meghalaya/dawki-river.jpg",
+            "https://club.kudozz.in/images/blogs/assam/assam/one-horned-rhinoceros-kaziranga-assam.webp",
           datePublished: "2026-07-22",
           dateModified: "2026-07-22",
           publisher: {
@@ -288,8 +290,8 @@ export default function AssamGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/meghalaya/dawki-river.jpg"
-              alt="Clear river water reflecting green hills, evoking Assam's Brahmaputra river and Majuli Island"
+              src="/images/blogs/assam/assam/one-horned-rhinoceros-kaziranga-assam.webp"
+              alt="A one-horned Indian rhinoceros grazing on grassland in Kaziranga National Park, Assam"
               fill
               priority
               sizes="100vw"
@@ -626,8 +628,8 @@ export default function AssamGuidePage() {
                   <h2>Kaziranga National Park: Rhino Country</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/ziro/hero.jpg"
-                      alt="Dense green forest and hills, evoking the grasslands and forest of Kaziranga National Park in Assam"
+                      src="/images/blogs/assam/assam/one-horned-rhinoceros-kaziranga-assam.webp"
+                      alt="A one-horned Indian rhinoceros grazing on grassland in Kaziranga National Park, Assam"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -676,8 +678,8 @@ export default function AssamGuidePage() {
                   <h2>Guwahati & Kamakhya Temple</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/meghalaya/dawki-river.jpg"
-                      alt="Clear, calm river water, evoking the Brahmaputra flowing past Guwahati"
+                      src="/images/blogs/assam/assam/one-horned-rhinoceros-kaziranga-assam.webp"
+                      alt="A one-horned Indian rhinoceros grazing on grassland in Kaziranga National Park, Assam"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

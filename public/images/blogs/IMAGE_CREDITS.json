@@ -560,6 +560,296 @@
       "license": "CC BY-SA 4.0",
       "author": "UdayAgastya77",
       "attribution": "Photo by UdayAgastya77, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/ladakh/pangong-lake/pangong-tso-turquoise-water-mountains.webp",
+      "usedIn": ["pangong-lake-travel-guide (hero — replaces a generic shared leh-ladakh.jpg photo)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Pangong_Lake,_Ladakh,_India_05.jpg",
+      "originalFile": "Pangong Lake, Ladakh, India 05.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Geet Arts",
+      "attribution": "Photo by Geet Arts, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/ladakh/pangong-lake/chang-la-pass-signboard-ladakh.webp",
+      "usedIn": ["pangong-lake-travel-guide (inline section)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Chang_La.jpg",
+      "originalFile": "Chang La.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Siddharth Mallya",
+      "attribution": "Photo by Siddharth Mallya, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/ladakh/pangong-lake/pangong-tso-shoreline-colour-change.webp",
+      "usedIn": ["pangong-lake-travel-guide (inline section)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:PANGOG_LAKE!.jpg",
+      "originalFile": "PANGOG LAKE!.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Shiralitiwari!",
+      "attribution": "Photo by Shiralitiwari!, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/ladakh/nubra-valley/hunder-dunes-bactrian-camels-nubra-valley.webp",
+      "usedIn": ["nubra-valley-travel-guide (hero — replaces a generic shared leh-ladakh.jpg photo)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Nubra_Valley_double_hump_camel_ride.jpg",
+      "originalFile": "Nubra Valley double hump camel ride.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Bhrigu bayan",
+      "attribution": "Photo by Bhrigu bayan, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/ladakh/nubra-valley/diskit-monastery-maitreya-buddha-statue.webp",
+      "usedIn": ["nubra-valley-travel-guide (inline section)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Statue_of_Maitreya_Buddha,_Diskit_Monastery,_Nubra_Valley,_Ladakh.jpg",
+      "originalFile": "Statue of Maitreya Buddha, Diskit Monastery, Nubra Valley, Ladakh.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Pavithrah",
+      "attribution": "Photo by Pavithrah, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/ladakh/hunder/hunder-sand-dunes-aerial-view.webp",
+      "usedIn": ["hunder-travel-guide (hero — replaces a generic shared leh-ladakh.jpg photo)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Nubra_Sand_Dunes.jpg",
+      "originalFile": "Nubra Sand Dunes.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Raghavan V",
+      "attribution": "Photo by Raghavan V, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/ladakh/tso-moriri/tso-moriri-lake-korzok-village.webp",
+      "usedIn": ["tso-moriri-travel-guide (hero — replaces a generic shared leh-ladakh.jpg photo)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Tso_Moriri,_Ladakh_(34855616204).jpg",
+      "originalFile": "Tso Moriri, Ladakh (34855616204).jpg",
+      "license": "CC BY-SA 2.0",
+      "author": "Tanay Kibe",
+      "attribution": "Photo by Tanay Kibe, CC BY-SA 2.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/puducherry/karaikal-district/thirunallar-temple-tank-karaikal.webp",
+      "usedIn": ["karaikal-district-travel-guide (hero + inline — replaces a Hampi photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Thirunallar_Dharbaranyeeswarar_Temple_and_Tank.jpg",
+      "originalFile": "Thirunallar Dharbaranyeeswarar Temple and Tank.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "VasuVR",
+      "attribution": "Photo by VasuVR, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/puducherry/mahe-district/mahe-river-boathouse-mahe-district.webp",
+      "usedIn": ["mahe-district-travel-guide (hero + inline — replaces a Kerala photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Mahe_Boat_House.jpg",
+      "originalFile": "Mahe Boat House.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Bergundies",
+      "attribution": "Photo by Bergundies, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/puducherry/yanam-district/koringa-river-godavari-delta-yanam.webp",
+      "usedIn": ["yanam-district-travel-guide (hero — replaces a Kerala photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Koringa_River_at_Yanam_01.jpg",
+      "originalFile": "Koringa River at Yanam 01.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Adityamadhav83",
+      "attribution": "Photo by Adityamadhav83, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/puducherry/yanam-district/rajiv-gandhi-beach-shivalinga-monument-yanam.webp",
+      "usedIn": ["yanam-district-travel-guide (Yanam Town / Rajiv Gandhi Beach section)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:ShivaLinga_and_Elephants_Statue_at_Yanam_Beach,_Yanam.jpg",
+      "originalFile": "ShivaLinga and Elephants Statue at Yanam Beach, Yanam.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Pranayraj1985",
+      "attribution": "Photo by Pranayraj1985, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/lakshadweep/kavaratti-island/kavaratti-lagoon-fishing-boats.webp",
+      "usedIn": ["kavaratti-island-travel-guide (hero + inline — replaces a generic shared Lakshadweep photo, previously identical to Agatti's)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kavaratti_Lagoon_(5799663383).jpg",
+      "originalFile": "Kavaratti Lagoon (5799663383).jpg",
+      "license": "CC BY 2.0",
+      "author": "Mike Prince",
+      "attribution": "Photo by Mike Prince, CC BY 2.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/lakshadweep/agatti-island/agatti-island-lagoon-beach.webp",
+      "usedIn": ["agatti-island-travel-guide (hero + inline — replaces a generic shared Lakshadweep photo, previously identical to Kavaratti's)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:View_from_Agatti_Island_in_Lakshadweep_-_IMG_5602.jpg",
+      "originalFile": "View from Agatti Island in Lakshadweep - IMG 5602.jpg",
+      "license": "CC BY 4.0",
+      "author": "Saif Arash",
+      "attribution": "Photo by Saif Arash, CC BY 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/arunachal-pradesh/ziro-valley-arunachal/apatani-rice-paddies-ziro-valley.webp",
+      "usedIn": ["ziro-valley-arunachal-travel-guide (hero + inline — replaces a Meghalaya photo in metadata and a mislabeled Alps-style photo in the body)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Apatani_Rice_Paddies.jpg",
+      "originalFile": "Apatani Rice Paddies.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "KNChaudhuri",
+      "attribution": "Photo by KNChaudhuri, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/uttarakhand/valley-of-flowers/alpine-meadow-snow-peaks-valley-of-flowers.webp",
+      "usedIn": ["valley-of-flowers-travel-guide (hero — replaces a Manali photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Valley_of_flowers_national_park,_Uttarakhand,_India.jpg",
+      "originalFile": "Valley of flowers national park, Uttarakhand, India.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Rohit Sharma (Rohit14400)",
+      "attribution": "Photo by Rohit Sharma, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/uttarakhand/valley-of-flowers/wildflower-bloom-valley-of-flowers.webp",
+      "usedIn": ["valley-of-flowers-travel-guide (Govindghat to Ghangaria section)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Valley_of_flower_in_bloom.jpg",
+      "originalFile": "Valley of flower in bloom.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Yoginipatil",
+      "attribution": "Photo by Yoginipatil, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/ladakh/hunder/bactrian-camel-resting-nubra-valley.webp",
+      "usedIn": ["hunder-travel-guide (inline section)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:The_Bactrian_Camel_of_Nubra_Valley.jpg",
+      "originalFile": "The Bactrian Camel of Nubra Valley.jpg",
+      "license": "CC BY 4.0",
+      "author": "Subhra2jyoti",
+      "attribution": "Photo by Subhra2jyoti, CC BY 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/ladakh/kargil/kargil-town-suru-river-valley.webp",
+      "usedIn": ["kargil-travel-guide (hero + 2 inline sections — replaces a generic shared leh-ladakh.jpg photo)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kargil_City_Ladakh.jpg",
+      "originalFile": "Kargil City Ladakh.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Lalitgupta isgec",
+      "attribution": "Photo by Lalitgupta isgec, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/ladakh/kargil/kargil-war-memorial-drass.webp",
+      "usedIn": ["kargil-travel-guide (War Memorial inline section)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kargil_War_Memorial_1_Sculpture_at_Drass.jpg",
+      "originalFile": "Kargil War Memorial 1 Sculpture at Drass.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "PhotoholicAbhishek",
+      "attribution": "Photo by PhotoholicAbhishek, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/ladakh/drass/kargil-war-memorial-flag-drass.webp",
+      "usedIn": ["drass-travel-guide (hero — replaces a generic shared leh-ladakh.jpg photo)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kargil_War_Memorial2.jpg",
+      "originalFile": "Kargil War Memorial2.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Ashoosaini2002",
+      "attribution": "Photo by Ashoosaini2002, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/ladakh/drass/kargil-war-memorial-howitzer-display.webp",
+      "usedIn": ["drass-travel-guide (War Memorial inline section)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kargil_War_Memorial-Drass_-1.jpg",
+      "originalFile": "Kargil War Memorial-Drass -1.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Lalitgupta isgec",
+      "attribution": "Photo by Lalitgupta isgec, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/ladakh/zanskar-valley/phugtal-monastery-cliff-zanskar.webp",
+      "usedIn": ["zanskar-valley-travel-guide (hero + Phugtal Monastery section — replaces a generic shared leh-ladakh.jpg photo)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Cave_Buildings_Wide_Phuktal_Gompa_Oct22_A7C_04519.jpg",
+      "originalFile": "Cave Buildings Wide Phuktal Gompa Oct22 A7C 04519.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Timothy A. Gonsalves",
+      "attribution": "Photo by Timothy A. Gonsalves, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/ladakh/zanskar-valley/drang-drung-glacier-pensi-la.webp",
+      "usedIn": ["zanskar-valley-travel-guide (Kargil-Padum road via Pensi La section)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Drang_Drung_glacier_seen_from_Pensi_La_pass.jpg",
+      "originalFile": "Drang Drung glacier seen from Pensi La pass.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "MatousekFoto",
+      "attribution": "Photo by MatousekFoto, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/ladakh/hanle/hanle-observatory-night-sky-ladakh.webp",
+      "usedIn": ["hanle-travel-guide (hero — replaces a generic shared leh-ladakh.jpg photo)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:IAO-Hanle-high_energy_gamma-ray_telescope-AtNight.jpg",
+      "originalFile": "IAO-Hanle-high energy gamma-ray telescope-AtNight.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Indiajoe",
+      "attribution": "Photo by Indiajoe, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/ladakh/hanle/indian-astronomical-observatory-hanle.webp",
+      "usedIn": ["hanle-travel-guide (Observatory inline section)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:IAO-Hanle-high_energy_gamma_ray_telescope-UnderRainbow.jpg",
+      "originalFile": "IAO-Hanle-high energy gamma ray telescope-UnderRainbow.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Indiajoe",
+      "attribution": "Photo by Indiajoe, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/ladakh/turtuk/turtuk-village-shyok-valley.webp",
+      "usedIn": ["turtuk-travel-guide (hero — replaces a generic shared leh-ladakh.jpg photo)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:View_of_Shyok_Valley_from_Turtuk_Village,_Ladakh.JPG",
+      "originalFile": "View of Shyok Valley from Turtuk Village, Ladakh.JPG",
+      "license": "CC BY-SA 4.0",
+      "author": "Rajnish71",
+      "attribution": "Photo by Rajnish71, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/ladakh/turtuk/balti-women-turtuk-harvest.webp",
+      "usedIn": ["turtuk-travel-guide (Farol & Chutang inline section)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Balti_Women_Buckwheat_Turtuk_Mar19_DSC01118.jpg",
+      "originalFile": "Balti Women Buckwheat Turtuk Mar19 DSC01118.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "KartikiGonsalves",
+      "attribution": "Photo by KartikiGonsalves, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/ladakh/lamayuru/lamayuru-monastery-moonland.webp",
+      "usedIn": ["lamayuru-travel-guide (hero — replaces a generic shared leh-ladakh.jpg photo)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Lamayuru_Monastery_with_Moonland_in_the_Background.jpg",
+      "originalFile": "Lamayuru Monastery with Moonland in the Background.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Kushaldonde",
+      "attribution": "Photo by Kushaldonde, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/ladakh/lamayuru/lamayuru-moonscape-eroded-badlands.webp",
+      "usedIn": ["lamayuru-travel-guide (Moonland inline section)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Moonscape,_Lunar_landscape,_Lamayuru,_Ladakh,_India.jpg",
+      "originalFile": "Moonscape, Lunar landscape, Lamayuru, Ladakh, India.jpg",
+      "license": "CC BY 4.0",
+      "author": "Vyacheslav Argenberg",
+      "attribution": "Photo by Vyacheslav Argenberg, CC BY 4.0, via Wikimedia Commons"
     }
   ]
 }

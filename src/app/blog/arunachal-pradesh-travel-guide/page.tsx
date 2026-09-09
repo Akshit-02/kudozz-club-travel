@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/ziro/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Green terraced valley with traditional bamboo houses in Ziro, Arunachal Pradesh",
+        url: "/images/blogs/arunachal-pradesh/arunachal-pradesh/tawang-monastery-arunachal-pradesh.webp",
+        width: 1600,
+        height: 1067,
+        alt: "Tawang Monastery's whitewashed buildings covering a hillside at sunset, with mountains behind, Arunachal Pradesh",
       },
     ],
   },
@@ -39,7 +39,9 @@ export const metadata: Metadata = {
     title: "Arunachal Pradesh Travel Guide: Tawang, Ziro Valley & Bomdila",
     description:
       "Himalayan monasteries, terraced valleys, and one of India's last true frontiers — the complete guide to Arunachal Pradesh.",
-    images: ["/images/destinations/ziro/hero.jpg"],
+    images: [
+      "/images/blogs/arunachal-pradesh/arunachal-pradesh/tawang-monastery-arunachal-pradesh.webp",
+    ],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/arunachal-pradesh-travel-guide",
@@ -58,7 +60,8 @@ function ArticleSchema() {
           headline:
             "Arunachal Pradesh Travel Guide: Tawang, Ziro Valley & Bomdila",
           description: "The complete Arunachal Pradesh travel guide.",
-          image: "https://club.kudozz.in/images/destinations/ziro/hero.jpg",
+          image:
+            "https://club.kudozz.in/images/blogs/arunachal-pradesh/arunachal-pradesh/tawang-monastery-arunachal-pradesh.webp",
           datePublished: "2026-07-22",
           dateModified: "2026-07-22",
           publisher: {
@@ -287,8 +290,8 @@ export default function ArunachalPradeshGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/ziro/hero.jpg"
-              alt="Green terraced valley with traditional bamboo houses in Ziro, Arunachal Pradesh"
+              src="/images/blogs/arunachal-pradesh/arunachal-pradesh/tawang-monastery-arunachal-pradesh.webp"
+              alt="Tawang Monastery's whitewashed buildings covering a hillside at sunset, with mountains behind, Arunachal Pradesh"
               fill
               priority
               sizes="100vw"
@@ -646,8 +649,8 @@ export default function ArunachalPradeshGuidePage() {
                   <h2>Tawang: Monasteries & the Himalayan Frontier</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/meghalaya/dawki-river.jpg"
-                      alt="A river winding through green hills — evocative of the valleys en route to Tawang, though not a photograph of Tawang itself"
+                      src="/images/blogs/arunachal-pradesh/arunachal-pradesh/tawang-monastery-arunachal-pradesh.webp"
+                      alt="Tawang Monastery's whitewashed buildings covering a hillside at sunset, with mountains behind, Arunachal Pradesh"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

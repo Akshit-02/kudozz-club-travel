@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     authors: ["Kudozz Club"],
     images: [
       {
-        url: "/images/destinations/leh-ladakh/leh-ladakh.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Zanskar Valley high-altitude landscape near Leh Ladakh",
+        url: "/images/blogs/ladakh/zanskar-valley/phugtal-monastery-cliff-zanskar.webp",
+        width: 1400,
+        height: 933,
+        alt: "Phugtal Monastery built into a sheer cliff face above the Tsarap River, Zanskar Valley",
       },
     ],
   },
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     title: "Zanskar Valley Travel Guide",
     description:
       "The Chadar Trek, Phugtal Monastery, and the road less travelled — the complete guide to Zanskar Valley.",
-    images: ["/images/destinations/leh-ladakh/leh-ladakh.jpg"],
+    images: ["/images/blogs/ladakh/zanskar-valley/phugtal-monastery-cliff-zanskar.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/zanskar-valley-travel-guide",
@@ -63,7 +63,7 @@ function ArticleSchema() {
           description:
             "The complete guide to Zanskar Valley — the frozen-river Chadar Trek, Phugtal Monastery, Padum, Rangdum, road access from Kargil, and essential travel tips.",
           image:
-            "https://club.kudozz.in/images/destinations/leh-ladakh/leh-ladakh.jpg",
+            "https://club.kudozz.in/images/blogs/ladakh/zanskar-valley/phugtal-monastery-cliff-zanskar.webp",
           datePublished: "2026-08-30",
           dateModified: "2026-08-30",
           publisher: {
@@ -206,8 +206,8 @@ export default function ZanskarValleyPage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/leh-ladakh/leh-ladakh.jpg"
-              alt="Zanskar Valley — remote high-altitude Himalayan landscape"
+              src="/images/blogs/ladakh/zanskar-valley/phugtal-monastery-cliff-zanskar.webp"
+              alt="Phugtal Monastery built into a sheer cliff face above the Tsarap River, Zanskar Valley"
               fill
               priority
               sizes="100vw"
@@ -536,8 +536,8 @@ export default function ZanskarValleyPage() {
                     <h3>The Kargil–Padum Road via Rangdum & Pensi La</h3>
                     <div className="relative w-full rounded-xl my-6 h-64 overflow-hidden shadow-md">
                       <Image
-                        src="/images/destinations/leh-ladakh/leh-ladakh.jpg"
-                        alt="High-altitude road through the Zanskar range towards Pensi La"
+                        src="/images/blogs/ladakh/zanskar-valley/drang-drung-glacier-pensi-la.webp"
+                        alt="The Drang Drung glacier seen from Pensi La pass on the Kargil–Padum road, Zanskar"
                         fill
                         sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                         className="object-cover"
@@ -677,8 +677,8 @@ export default function ZanskarValleyPage() {
                     <h3>Phugtal Monastery — The Cave Monastery of Zanskar</h3>
                     <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                       <Image
-                        src="/images/destinations/leh-ladakh/leh-ladakh.jpg"
-                        alt="Remote Himalayan cliffs above the Lungnak river valley near Phugtal"
+                        src="/images/blogs/ladakh/zanskar-valley/phugtal-monastery-cliff-zanskar.webp"
+                        alt="Phugtal Monastery built into a sheer cliff face above the Tsarap River, Zanskar Valley"
                         fill
                         sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                         className="object-cover"

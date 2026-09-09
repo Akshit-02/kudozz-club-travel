@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     authors: ["Kudozz Club"],
     images: [
       {
-        url: "/images/destinations/leh-ladakh/leh-ladakh.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Mountain landscape on the Srinagar-Leh highway near Kargil, Ladakh",
+        url: "/images/blogs/ladakh/kargil/kargil-town-suru-river-valley.webp",
+        width: 1600,
+        height: 900,
+        alt: "Kargil town spread along the Suru river valley beneath dry mountain slopes, Ladakh",
       },
     ],
   },
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     title: "Kargil Travel Guide: Gateway to Zanskar",
     description:
       "The Srinagar-Leh highway's halfway town — Balti culture, the Mulbekh Buddha, and the road to Zanskar. The complete Kargil guide.",
-    images: ["/images/destinations/leh-ladakh/leh-ladakh.jpg"],
+    images: ["/images/blogs/ladakh/kargil/kargil-town-suru-river-valley.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/kargil-travel-guide",
@@ -64,7 +64,7 @@ function ArticleSchema() {
           description:
             "The complete Kargil travel guide — routes, the Kargil War Memorial, Mulbekh, Balti culture, Suru Valley, the road to Zanskar, and practical travel tips.",
           image:
-            "https://club.kudozz.in/images/destinations/leh-ladakh/leh-ladakh.jpg",
+            "https://club.kudozz.in/images/blogs/ladakh/kargil/kargil-town-suru-river-valley.webp",
           datePublished: "2026-08-30",
           dateModified: "2026-08-30",
           publisher: {
@@ -213,8 +213,8 @@ export default function KargilPage() {
         <section className="relative min-h-[72vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/leh-ladakh/leh-ladakh.jpg"
-              alt="Mountain valley along the Srinagar-Leh highway near Kargil, Ladakh"
+              src="/images/blogs/ladakh/kargil/kargil-town-suru-river-valley.webp"
+              alt="Kargil town spread along the Suru river valley beneath dry mountain slopes, Ladakh"
               fill
               priority
               sizes="100vw"
@@ -641,8 +641,8 @@ export default function KargilPage() {
                   <h2>Kargil War Memorial, Dras</h2>
                   <div className="relative w-full rounded-xl my-6 h-64 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/leh-ladakh/leh-ladakh.jpg"
-                      alt="Mountains above Dras, site of the 1999 Kargil War, near Kargil"
+                      src="/images/blogs/ladakh/kargil/kargil-war-memorial-drass.webp"
+                      alt="Visitors at the Kargil War Memorial in Drass, honouring the 1999 Kargil War"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

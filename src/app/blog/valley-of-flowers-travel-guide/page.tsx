@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     authors: ["Kudozz Club"],
     images: [
       {
-        url: "/images/destinations/manali/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Valley of Flowers in full bloom with Himalayan peaks",
+        url: "/images/blogs/uttarakhand/valley-of-flowers/alpine-meadow-snow-peaks-valley-of-flowers.webp",
+        width: 1600,
+        height: 1067,
+        alt: "Green alpine meadow of Valley of Flowers National Park framed by snow-capped Himalayan peaks",
       },
     ],
   },
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     title: "Valley of Flowers Trek Guide",
     description:
       "300+ wildflowers, UNESCO heritage, and a Himalayan meadow that blooms for just 8 weeks — the complete guide.",
-    images: ["/images/destinations/manali/hero.jpg"],
+    images: ["/images/blogs/uttarakhand/valley-of-flowers/alpine-meadow-snow-peaks-valley-of-flowers.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/valley-of-flowers-travel-guide",
@@ -63,7 +63,7 @@ function ArticleSchema() {
             "Valley of Flowers Trek Guide: Permits, Routes, Best Time & Tips",
           description:
             "The complete Valley of Flowers National Park trek guide.",
-          image: "https://club.kudozz.in/images/destinations/manali/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/uttarakhand/valley-of-flowers/alpine-meadow-snow-peaks-valley-of-flowers.webp",
           datePublished: "2026-05-23",
           dateModified: "2026-07-12",
           publisher: {
@@ -211,8 +211,8 @@ export default function ValleyOfFlowersPage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/manali/hero.jpg"
-              alt="Valley of Flowers — Himalayan meadow in full bloom with snow-capped peaks"
+              src="/images/blogs/uttarakhand/valley-of-flowers/alpine-meadow-snow-peaks-valley-of-flowers.webp"
+              alt="Green alpine meadow of Valley of Flowers National Park framed by snow-capped Himalayan peaks"
               fill
               priority
               sizes="100vw"
@@ -906,8 +906,8 @@ export default function ValleyOfFlowersPage() {
                     <h3>Stage 1: Govindghat to Ghangaria</h3>
                     <div className="relative w-full rounded-xl my-6 h-64 overflow-hidden shadow-md">
                       <Image
-                        src="/images/destinations/manali/rohtang-pass.jpg"
-                        alt="Trail from Govindghat to Ghangaria along the Pushpawati River"
+                        src="/images/blogs/uttarakhand/valley-of-flowers/wildflower-bloom-valley-of-flowers.webp"
+                        alt="Himalayan wildflowers in bloom inside Valley of Flowers National Park"
                         fill
                         sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                         className="object-cover"

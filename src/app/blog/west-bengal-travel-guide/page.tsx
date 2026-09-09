@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/meghalaya/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Misty green hills and tea gardens, evoking Darjeeling's tea estates in North Bengal",
+        url: "/images/blogs/west-bengal/west-bengal/victoria-memorial-kolkata-west-bengal.webp",
+        width: 1600,
+        height: 1165,
+        alt: "The white marble domed facade and colonnade of the Victoria Memorial, Kolkata, West Bengal",
       },
     ],
   },
@@ -39,7 +39,9 @@ export const metadata: Metadata = {
     title: "West Bengal Travel Guide: Kolkata, Darjeeling & Sundarbans",
     description:
       "Colonial Kolkata, Himalayan tea gardens, and mangrove tiger country — the complete guide to West Bengal.",
-    images: ["/images/destinations/meghalaya/hero.jpg"],
+    images: [
+      "/images/blogs/west-bengal/west-bengal/victoria-memorial-kolkata-west-bengal.webp",
+    ],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/west-bengal-travel-guide",
@@ -59,7 +61,7 @@ function ArticleSchema() {
             "West Bengal Travel Guide: Kolkata, Darjeeling & Sundarbans",
           description: "The complete West Bengal travel guide.",
           image:
-            "https://club.kudozz.in/images/destinations/meghalaya/hero.jpg",
+            "https://club.kudozz.in/images/blogs/west-bengal/west-bengal/victoria-memorial-kolkata-west-bengal.webp",
           datePublished: "2026-07-19",
           dateModified: "2026-07-19",
           publisher: {
@@ -289,8 +291,8 @@ export default function WestBengalGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/meghalaya/hero.jpg"
-              alt="Misty green hills and tea gardens, evoking Darjeeling's tea estates in North Bengal"
+              src="/images/blogs/west-bengal/west-bengal/victoria-memorial-kolkata-west-bengal.webp"
+              alt="The white marble domed facade and colonnade of the Victoria Memorial, Kolkata, West Bengal"
               fill
               priority
               sizes="100vw"
@@ -616,8 +618,8 @@ export default function WestBengalGuidePage() {
                   <h2>Kolkata: The City of Joy</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/puducherry/french.jpg"
-                      alt="Colonial-era architecture with ornate facades, evoking Kolkata's British-era buildings"
+                      src="/images/blogs/west-bengal/west-bengal/victoria-memorial-kolkata-west-bengal.webp"
+                      alt="The white marble domed facade and colonnade of the Victoria Memorial, Kolkata, West Bengal"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

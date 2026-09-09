@@ -389,7 +389,7 @@ export const posts = [
     title: "Arunachal Pradesh Travel Guide: Tawang, Ziro Valley & Bomdila",
     excerpt:
       "From Tawang's Himalayan monasteries to Ziro's terraced tribal valleys, this is the complete guide to India's largest and least-visited Northeastern state — permits, passes, and all.",
-    image: "/images/destinations/ziro/hero.jpg",
+    image: "/images/blogs/arunachal-pradesh/arunachal-pradesh/tawang-monastery-arunachal-pradesh.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Arunachal Pradesh", "Tawang", "Ziro Valley"],
@@ -401,7 +401,7 @@ export const posts = [
     title: "Assam Travel Guide: Kaziranga, Guwahati & Majuli Island",
     excerpt:
       "Rhino safaris in Kaziranga, a hilltop Shakti Peeth temple above the Brahmaputra, and the world's largest river island — Assam is the gateway to Northeast India and a destination worth its own trip.",
-    image: "/images/destinations/meghalaya/dawki-river.jpg",
+    image: "/images/blogs/assam/assam/one-horned-rhinoceros-kaziranga-assam.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Assam", "Kaziranga", "Majuli Island"],
@@ -413,7 +413,7 @@ export const posts = [
     title: "Bihar Travel Guide: Bodh Gaya, Nalanda & Patna",
     excerpt:
       "The place where Buddha attained enlightenment, the ruins of one of the world's oldest universities, and the ancient heartland of the Magadha empire — a complete guide to Bihar's temples, ruins, and history for travelers.",
-    image: "/images/destinations/hampi/hero.jpg",
+    image: "/images/blogs/bihar/bihar/mahabodhi-temple-bodh-gaya-bihar.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Bihar", "Bodh Gaya", "Nalanda"],
@@ -425,7 +425,7 @@ export const posts = [
     title: "Chhattisgarh Travel Guide: Chitrakote Falls, Bastar & Raipur",
     excerpt:
       "A horseshoe waterfall wider than Niagara, a tribal heartland with a 75-day festival tradition, and near-empty forest trails — Chhattisgarh is Central India's most overlooked state.",
-    image: "/images/destinations/meghalaya/dawki-river.jpg",
+    image: "/images/blogs/chhattisgarh/chhattisgarh/chitrakote-falls-chhattisgarh.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Chhattisgarh", "Chitrakote Falls", "Bastar"],
@@ -437,7 +437,7 @@ export const posts = [
     title: "Uttar Pradesh Travel Guide: Taj Mahal, Varanasi & Lucknow",
     excerpt:
       "The world's most famous monument to love, the ghats of Varanasi, and Lucknow's Nawabi elegance — the complete guide to India's most historically dense state.",
-    image: "/images/destinations/udaipur/hero.jpg",
+    image: "/images/blogs/uttar-pradesh/uttar-pradesh/taj-mahal-agra-uttar-pradesh.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Uttar Pradesh", "Taj Mahal", "Varanasi"],
@@ -461,7 +461,7 @@ export const posts = [
     title: "West Bengal Travel Guide: Kolkata, Darjeeling & Sundarbans",
     excerpt:
       "Colonial-era Kolkata, tea gardens climbing into the clouds at Darjeeling, and mangrove creeks where the Royal Bengal Tiger still roams — the complete guide.",
-    image: "/images/destinations/meghalaya/hero.jpg",
+    image: "/images/blogs/west-bengal/west-bengal/victoria-memorial-kolkata-west-bengal.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["West Bengal", "Kolkata", "Darjeeling"],
@@ -473,7 +473,7 @@ export const posts = [
     title: "Delhi Travel Guide: Red Fort, Qutub Minar & 3-Day Itinerary",
     excerpt:
       "Mughal forts, Sultanate-era minarets, colonial avenues, and one of the world's great street food scenes — the complete guide to India's layered capital.",
-    image: "/images/destinations/jaisalmer/fort.jpg",
+    image: "/images/blogs/delhi/delhi/red-fort-lahori-gate-delhi.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Delhi", "Red Fort", "Street Food"],
@@ -485,7 +485,7 @@ export const posts = [
     title: "Chandigarh Travel Guide: Rock Garden, Sukhna Lake & Itinerary",
     excerpt:
       "Le Corbusier's modernist Capitol Complex, a rock garden built entirely from industrial waste, and a lake at the foot of the Shivaliks — the complete guide to India's most planned city.",
-    image: "/images/destinations/rishikesh/rishikesh.jpg",
+    image: "/images/blogs/chandigarh/chandigarh/rock-garden-mosaic-sculptures-chandigarh.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Chandigarh", "Rock Garden", "Sukhna Lake"],
@@ -713,7 +713,7 @@ export const posts = [
     title: "Dadra & Nagar Haveli and Daman & Diu Travel Guide",
     excerpt:
       "A 16th-century Portuguese sea fort, near-empty beaches, and duty-free shopping — the complete guide to India's smallest, most overlooked Union Territory.",
-    image: "/images/destinations/goa/hero.jpg",
+    image: "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu/diu-fort-gateway.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Diu", "Daman", "Silvassa"],
@@ -773,7 +773,7 @@ export const posts = [
     title: "Karaikal District Travel Guide: Temples, Beach & Cauvery Delta",
     excerpt:
       "Tirunallar's famous Saneeswaran Temple and Nala Theertham, Karaikal town's beach, lighthouse and Karaikal Ammaiyar Temple, and the quiet Cauvery delta villages of Neravy, Kottucherry, and Nedungadu.",
-    image: "/images/destinations/hampi/virupaksha.jpg",
+    image: "/images/blogs/puducherry/karaikal-district/thirunallar-temple-tank-karaikal.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Karaikal District", "Tirunallar", "Puducherry"],
@@ -785,7 +785,7 @@ export const posts = [
     title: "Mahe District Travel Guide: Riverfront, Church & Malabar Coast",
     excerpt:
       "Mahe town's riverfront walkway, St. Teresa's Shrine, Tagore Park, beach and lighthouse, plus the quiet river villages of Palloor, Pandakkal, Chalakkara, and Parakkal on Kerala's Malabar coast.",
-    image: "/images/destinations/kerala/hero.jpg",
+    image: "/images/blogs/puducherry/mahe-district/mahe-river-boathouse-mahe-district.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Mahe District", "Malabar Coast", "Puducherry"],
@@ -797,7 +797,7 @@ export const posts = [
     title: "Yanam District Travel Guide: Godavari Delta & French Heritage",
     excerpt:
       "St. Ann's Church, Yanam Ferry Road, the Godavari River, Yanam Tower and Rajiv Gandhi Beach, plus the quiet Godavari delta villages of Mettakur, Kolanka, and Kanakalapeta.",
-    image: "/images/destinations/kerala/alleppey.jpg",
+    image: "/images/blogs/puducherry/yanam-district/koringa-river-godavari-delta-yanam.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Yanam District", "Godavari Delta", "Puducherry"],
@@ -809,7 +809,7 @@ export const posts = [
     title: "Kavaratti Island Travel Guide: Lagoon, Diving & Ujra Mosque",
     excerpt:
       "Lakshadweep's capital and most developed inhabited island — Kavaratti Beach and Lagoon, the Marine Aquarium, the driftwood-ceilinged Ujra Mosque, scuba diving, snorkelling, and glass-bottom boat rides.",
-    image: "/images/destinations/lakshadweep/hero.jpg",
+    image: "/images/blogs/lakshadweep/kavaratti-island/kavaratti-lagoon-fishing-boats.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Kavaratti", "Lakshadweep", "Scuba Diving"],
@@ -821,7 +821,7 @@ export const posts = [
     title: "Agatti Island Travel Guide: Lagoon, Reefs & Diving Spots",
     excerpt:
       "Lakshadweep's gateway island — Agatti Beach and Lagoon, the Agatti Island Resort, coral reefs and diving spots, snorkelling sites, kayaking, glass-bottom boat rides, lagoon cruises, and sunset views.",
-    image: "/images/destinations/lakshadweep/hero.jpg",
+    image: "/images/blogs/lakshadweep/agatti-island/agatti-island-lagoon-beach.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Agatti", "Lakshadweep", "Scuba Diving"],
@@ -833,7 +833,7 @@ export const posts = [
     title: "Ziro Valley Travel Guide: Apatani Villages, Rice Fields & Festival",
     excerpt:
       "A UNESCO tentative heritage site in Arunachal — home to the Apatani tribe, terraced rice fields and one of India's best music festivals.",
-    image: "/images/destinations/meghalaya/hero.jpg",
+    image: "/images/blogs/arunachal-pradesh/ziro-valley-arunachal/apatani-rice-paddies-ziro-valley.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Ziro Valley", "Arunachal Pradesh", "Off-beat"],
@@ -857,7 +857,7 @@ export const posts = [
     title: "Goa Travel Guide: Best Beaches, North vs South & Itinerary",
     excerpt:
       "Portuguese-era churches, beach shacks, and a coastline that switches from party-loud to monastery-quiet within a few kilometres — the complete guide to Goa.",
-    image: "/images/destinations/andaman/hero.jpg",
+    image: "/images/destinations/goa/hero.jpg",
     category: "Beaches",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Goa", "Beaches"],
@@ -1229,7 +1229,7 @@ export const posts = [
     title: "Valley of Flowers Trek Guide: Permits, Routes, Best Time & Tips",
     excerpt:
       "A meadow of 300+ Himalayan wildflowers that blooms for just 8 weeks a year — the complete guide to India's most extraordinary trek.",
-    image: "/images/destinations/manali/hero.jpg",
+    image: "/images/blogs/uttarakhand/valley-of-flowers/alpine-meadow-snow-peaks-valley-of-flowers.webp",
     category: "Trekking",
     categoryColor: "bg-green-100 text-green-700",
     tags: ["Valley of Flowers", "Uttarakhand", "Trekking"],
@@ -1253,7 +1253,7 @@ export const posts = [
     title: "Nubra Valley Travel Guide: Sand Dunes, Camels & Cold Desert",
     excerpt:
       "Cross the world's second-highest motorable pass into a valley where sand dunes meet snow peaks, Bactrian camels roam ancient Silk Route trails, and a 32-metre Buddha watches over the Shyok River.",
-    image: "/images/destinations/leh-ladakh/leh-ladakh.jpg",
+    image: "/images/blogs/ladakh/nubra-valley/hunder-dunes-bactrian-camels-nubra-valley.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Nubra Valley", "Ladakh", "Khardung La", "Sand Dunes", "Ladakh Monasteries"],
@@ -1265,7 +1265,7 @@ export const posts = [
     title: "Pangong Lake Travel Guide: Routes, Permits, Camping & Tips",
     excerpt:
       "A saline lake at 4,225 metres that turns turquoise to violet across a single afternoon — here's how to reach it, camp on its shore, and see it away from the crowds.",
-    image: "/images/destinations/leh-ladakh/leh-ladakh.jpg",
+    image: "/images/blogs/ladakh/pangong-lake/pangong-tso-turquoise-water-mountains.webp",
     category: "Adventure",
     categoryColor: "bg-amber-100 text-amber-700",
     tags: ["Pangong Lake", "Ladakh", "Chang La", "Camping", "High Altitude", "Road Trip"],
@@ -1277,7 +1277,7 @@ export const posts = [
     title: "Hunder Travel Guide: Nubra Valley's Sand Dunes & Camel Safari",
     excerpt:
       "Silver sand dunes, double-humped Bactrian camels, and snow peaks rising from a cold desert — Hunder in Nubra Valley is Ladakh's strangest, most beautiful contradiction.",
-    image: "/images/destinations/leh-ladakh/leh-ladakh.jpg",
+    image: "/images/blogs/ladakh/hunder/hunder-sand-dunes-aerial-view.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Hunder", "Nubra Valley", "Ladakh", "Bactrian Camel Safari", "Cold Desert"],
@@ -1289,7 +1289,7 @@ export const posts = [
     title: "Tso Moriri Travel Guide: Ladakh's Most Pristine High-Altitude Lake",
     excerpt:
       "A sapphire lake at 4,522 metres on the remote Rupshu plateau, ringed by bare mountains and grazed by wild kiang — Tso Moriri is the Ladakh lake that stayed wild.",
-    image: "/images/destinations/leh-ladakh/leh-ladakh.jpg",
+    image: "/images/blogs/ladakh/tso-moriri/tso-moriri-lake-korzok-village.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Tso Moriri", "Ladakh", "Rupshu Plateau", "Korzok", "High Altitude Lake"],
@@ -1301,7 +1301,7 @@ export const posts = [
     title: "Kargil Travel Guide: Gateway to Zanskar & the Srinagar-Leh Highway",
     excerpt:
       "Halfway between Srinagar and Leh, where Balti Muslim and Ladakhi Buddhist worlds meet amid apricot orchards — Kargil is the highway town most travellers rush through, and the doorway to remote Zanskar.",
-    image: "/images/destinations/leh-ladakh/leh-ladakh.jpg",
+    image: "/images/blogs/ladakh/kargil/kargil-town-suru-river-valley.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Kargil", "Ladakh", "Srinagar-Leh Highway", "Balti Culture", "Zanskar"],
@@ -1313,7 +1313,7 @@ export const posts = [
     title: "Drass Travel Guide: Kargil War Memorial & the Gateway to Ladakh",
     excerpt:
       "The second-coldest inhabited place on Earth, and the town that stands quietly at the foot of the Kargil War Memorial — a stopover on the Srinagar-Leh highway you won't forget.",
-    image: "/images/destinations/leh-ladakh/leh-ladakh.jpg",
+    image: "/images/blogs/ladakh/drass/kargil-war-memorial-flag-drass.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Drass", "Ladakh", "Kargil War Memorial", "Zoji La", "Kargil"],
@@ -1325,7 +1325,7 @@ export const posts = [
     title: "Zanskar Valley Travel Guide: Chadar Trek, Phugtal Monastery & Padum",
     excerpt:
       "Cut off from the world for eight months a year by snow, Zanskar is Ladakh's last true frontier — home to the legendary frozen-river Chadar Trek and the cliffside Phugtal Monastery.",
-    image: "/images/destinations/leh-ladakh/leh-ladakh.jpg",
+    image: "/images/blogs/ladakh/zanskar-valley/phugtal-monastery-cliff-zanskar.webp",
     category: "Trekking",
     categoryColor: "bg-green-100 text-green-700",
     tags: ["Zanskar Valley", "Ladakh", "Trekking", "Chadar Trek", "Phugtal Monastery"],
@@ -1337,7 +1337,7 @@ export const posts = [
     title: "Hanle Travel Guide: Dark Sky Reserve, Observatory & Stargazing",
     excerpt:
       "A village at 4,500 metres on the Changthang plateau where the Milky Way is visible to the naked eye — the complete guide to India's first Dark Sky Reserve and the Indian Astronomical Observatory.",
-    image: "/images/destinations/leh-ladakh/leh-ladakh.jpg",
+    image: "/images/blogs/ladakh/hanle/hanle-observatory-night-sky-ladakh.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Hanle", "Ladakh", "Dark Sky Reserve", "Stargazing", "Changthang"],
@@ -1349,7 +1349,7 @@ export const posts = [
     title: "Turtuk Travel Guide: Ladakh's Last Balti Village Before the LOC",
     excerpt:
       "A Balti village of stone houses and apricot orchards on the Shyok River, under Pakistani control until 1971 and closed to outsiders until 2010 — Turtuk is unlike anywhere else in Ladakh.",
-    image: "/images/destinations/leh-ladakh/leh-ladakh.jpg",
+    image: "/images/blogs/ladakh/turtuk/turtuk-village-shyok-valley.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Turtuk", "Ladakh", "Nubra Valley", "Balti Culture", "Homestays"],
@@ -1361,7 +1361,7 @@ export const posts = [
     title: "Lamayuru Travel Guide: Moonland, Monastery & How to Visit",
     excerpt:
       "Ladakh's oldest monastery perches above a landscape so eroded it's simply called the Moonland — here's how to see it right, from the Yuru Kabgyat festival to the short treks that begin at its gates.",
-    image: "/images/destinations/leh-ladakh/leh-ladakh.jpg",
+    image: "/images/blogs/ladakh/lamayuru/lamayuru-monastery-moonland.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Lamayuru", "Ladakh", "Moonland", "Monastery"],

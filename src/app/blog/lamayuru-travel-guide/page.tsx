@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     authors: ["Kudozz Club"],
     images: [
       {
-        url: "/images/destinations/leh-ladakh/leh-ladakh.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Lamayuru moonland landscape in Ladakh with eroded badland formations",
+        url: "/images/blogs/ladakh/lamayuru/lamayuru-monastery-moonland.webp",
+        width: 1400,
+        height: 795,
+        alt: "Lamayuru Monastery perched above the eroded moonland badlands, Ladakh",
       },
     ],
   },
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     title: "Lamayuru Travel Guide: Moonland, Monastery & How to Visit",
     description:
       "Ladakh's oldest monastery, perched above the surreal Moonland badlands on the Srinagar–Leh highway.",
-    images: ["/images/destinations/leh-ladakh/leh-ladakh.jpg"],
+    images: ["/images/blogs/ladakh/lamayuru/lamayuru-monastery-moonland.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/lamayuru-travel-guide",
@@ -63,7 +63,7 @@ function ArticleSchema() {
           description:
             "A complete guide to Lamayuru — Ladakh's oldest monastery set amid the surreal moonland badlands. Best time to visit, how to reach, the Yuru Kabgyat festival, short treks, and where to stay.",
           image:
-            "https://club.kudozz.in/images/destinations/leh-ladakh/leh-ladakh.jpg",
+            "https://club.kudozz.in/images/blogs/ladakh/lamayuru/lamayuru-monastery-moonland.webp",
           datePublished: "2026-07-02",
           dateModified: "2026-08-14",
           publisher: {
@@ -206,8 +206,8 @@ export default function LamayuruPage() {
         <section className="relative min-h-[72vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/leh-ladakh/leh-ladakh.jpg"
-              alt="Lamayuru moonland landscape with eroded badland formations in Ladakh"
+              src="/images/blogs/ladakh/lamayuru/lamayuru-monastery-moonland.webp"
+              alt="Lamayuru Monastery perched above the eroded moonland badlands, Ladakh"
               fill
               priority
               sizes="100vw"
@@ -570,8 +570,8 @@ export default function LamayuruPage() {
                   <h2>The Moonland Landscape</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/leh-ladakh/leh-ladakh.jpg"
-                      alt="Eroded moonland badlands surrounding Lamayuru monastery"
+                      src="/images/blogs/ladakh/lamayuru/lamayuru-moonscape-eroded-badlands.webp"
+                      alt="The eroded, lunar-like moonscape rock formations near Lamayuru, Ladakh"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

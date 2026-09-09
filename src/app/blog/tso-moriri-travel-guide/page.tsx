@@ -34,10 +34,10 @@ export const metadata: Metadata = {
     authors: ["Kudozz Club"],
     images: [
       {
-        url: "/images/destinations/leh-ladakh/leh-ladakh.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Tso Moriri high-altitude lake on the Rupshu plateau in Ladakh",
+        url: "/images/blogs/ladakh/tso-moriri/tso-moriri-lake-korzok-village.webp",
+        width: 1600,
+        height: 1066,
+        alt: "Tso Moriri lake with Korzok village on its shore, Rupshu plateau, Ladakh",
       },
     ],
   },
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     title: "Tso Moriri Travel Guide: Ladakh's Most Pristine High-Altitude Lake",
     description:
       "Remote, wild, and entirely within India — the complete guide to Tso Moriri, Ladakh's most pristine high-altitude lake.",
-    images: ["/images/destinations/leh-ladakh/leh-ladakh.jpg"],
+    images: ["/images/blogs/ladakh/tso-moriri/tso-moriri-lake-korzok-village.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/tso-moriri-travel-guide",
@@ -71,7 +71,7 @@ function ArticleSchema() {
           description:
             "The complete guide to Tso Moriri — Ladakh's remote Rupshu plateau lake at 4,522m. How to reach it, permits, Korzok village, Tso Kar, wildlife, homestays, and a 2-day itinerary.",
           image:
-            "https://club.kudozz.in/images/destinations/leh-ladakh/leh-ladakh.jpg",
+            "https://club.kudozz.in/images/blogs/ladakh/tso-moriri/tso-moriri-lake-korzok-village.webp",
           datePublished: "2026-08-20",
           dateModified: "2026-08-30",
           publisher: {
@@ -221,8 +221,8 @@ export default function TsoMoririPage() {
         <section className="relative min-h-[70vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/leh-ladakh/leh-ladakh.jpg"
-              alt="Tso Moriri high-altitude lake on the Rupshu plateau in Ladakh"
+              src="/images/blogs/ladakh/tso-moriri/tso-moriri-lake-korzok-village.webp"
+              alt="Tso Moriri lake with Korzok village on its shore, Rupshu plateau, Ladakh"
               fill
               priority
               sizes="100vw"

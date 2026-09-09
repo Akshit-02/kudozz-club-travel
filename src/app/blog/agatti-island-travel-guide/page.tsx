@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/lakshadweep/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Turquoise lagoon and white sand beach fringed with coconut palms, evoking Agatti island",
+        url: "/images/blogs/lakshadweep/agatti-island/agatti-island-lagoon-beach.webp",
+        width: 1600,
+        height: 1200,
+        alt: "Crystal-clear Agatti Island lagoon beside a palm-fringed white sand beach",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Agatti Island Travel Guide: Lagoon, Reefs & Diving Spots",
     description:
       "Lakshadweep's gateway island — a famously vast lagoon, coral reefs, and some of the archipelago's most popular diving spots.",
-    images: ["/images/destinations/lakshadweep/hero.jpg"],
+    images: ["/images/blogs/lakshadweep/agatti-island/agatti-island-lagoon-beach.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/agatti-island-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           description:
             "The complete Agatti island travel guide — Lakshadweep's gateway island and one of its most popular tourist destinations.",
           image:
-            "https://club.kudozz.in/images/destinations/lakshadweep/hero.jpg",
+            "https://club.kudozz.in/images/blogs/lakshadweep/agatti-island/agatti-island-lagoon-beach.webp",
           datePublished: "2026-07-24",
           dateModified: "2026-07-24",
           publisher: {
@@ -289,8 +289,8 @@ export default function AgattiIslandGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/lakshadweep/hero.jpg"
-              alt="Turquoise lagoon and white sand beach fringed with coconut palms, evoking Agatti island"
+              src="/images/blogs/lakshadweep/agatti-island/agatti-island-lagoon-beach.webp"
+              alt="Crystal-clear Agatti Island lagoon beside a palm-fringed white sand beach"
               fill
               priority
               sizes="100vw"
@@ -669,7 +669,7 @@ export default function AgattiIslandGuidePage() {
                   <h2>Agatti Beach & Lagoon</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/lakshadweep/hero.jpg"
+                      src="/images/blogs/lakshadweep/agatti-island/agatti-island-lagoon-beach.webp"
                       alt="Turquoise Agatti lagoon fringed with white sand and coconut palms"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"

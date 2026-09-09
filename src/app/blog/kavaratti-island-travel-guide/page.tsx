@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/lakshadweep/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Turquoise lagoon and white sand beach fringed with coconut palms, evoking Kavaratti island",
+        url: "/images/blogs/lakshadweep/kavaratti-island/kavaratti-lagoon-fishing-boats.webp",
+        width: 1600,
+        height: 1066,
+        alt: "Turquoise Kavaratti lagoon with traditional fishing boats and a palm-lined beach",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Kavaratti Island Travel Guide: Lagoon, Diving & Ujra Mosque",
     description:
       "Lakshadweep's capital island — a turquoise lagoon, the driftwood-ceilinged Ujra Mosque, and easy access to diving and water sports.",
-    images: ["/images/destinations/lakshadweep/hero.jpg"],
+    images: ["/images/blogs/lakshadweep/kavaratti-island/kavaratti-lagoon-fishing-boats.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/kavaratti-island-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           description:
             "The complete Kavaratti island travel guide — Lakshadweep's capital and most developed inhabited island.",
           image:
-            "https://club.kudozz.in/images/destinations/lakshadweep/hero.jpg",
+            "https://club.kudozz.in/images/blogs/lakshadweep/kavaratti-island/kavaratti-lagoon-fishing-boats.webp",
           datePublished: "2026-07-24",
           dateModified: "2026-07-24",
           publisher: {
@@ -289,8 +289,8 @@ export default function KavarattiIslandGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/lakshadweep/hero.jpg"
-              alt="Turquoise lagoon and white sand beach fringed with coconut palms, evoking Kavaratti island"
+              src="/images/blogs/lakshadweep/kavaratti-island/kavaratti-lagoon-fishing-boats.webp"
+              alt="Turquoise Kavaratti lagoon with traditional fishing boats and a palm-lined beach"
               fill
               priority
               sizes="100vw"
@@ -669,7 +669,7 @@ export default function KavarattiIslandGuidePage() {
                   <h2>Kavaratti Beach & Lagoon</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/lakshadweep/hero.jpg"
+                      src="/images/blogs/lakshadweep/kavaratti-island/kavaratti-lagoon-fishing-boats.webp"
                       alt="Turquoise Kavaratti lagoon fringed with white sand and coconut palms"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"

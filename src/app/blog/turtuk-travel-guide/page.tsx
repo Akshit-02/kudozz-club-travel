@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     authors: ["Kudozz Club"],
     images: [
       {
-        url: "/images/destinations/leh-ladakh/leh-ladakh.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Ladakh mountain landscape near Turtuk and the Shyok River valley",
+        url: "/images/blogs/ladakh/turtuk/turtuk-village-shyok-valley.webp",
+        width: 1600,
+        height: 1200,
+        alt: "Turtuk village's green terraced fields along the Shyok River valley, Ladakh",
       },
     ],
   },
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     title: "Turtuk Travel Guide: Ladakh's Last Balti Village",
     description:
       "The Balti village opened to tourists only in 2010 — apricot orchards, stone houses, and the road that ends near the Line of Control.",
-    images: ["/images/destinations/leh-ladakh/leh-ladakh.jpg"],
+    images: ["/images/blogs/ladakh/turtuk/turtuk-village-shyok-valley.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/turtuk-travel-guide",
@@ -64,7 +64,7 @@ function ArticleSchema() {
           description:
             "A complete guide to Turtuk, Ladakh — the Balti village opened to tourists only in 2010, its people, culture, apricot orchards, and how to visit responsibly.",
           image:
-            "https://club.kudozz.in/images/destinations/leh-ladakh/leh-ladakh.jpg",
+            "https://club.kudozz.in/images/blogs/ladakh/turtuk/turtuk-village-shyok-valley.webp",
           datePublished: "2026-08-30",
           dateModified: "2026-08-30",
           publisher: {
@@ -204,8 +204,8 @@ export default function TurtukPage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/leh-ladakh/leh-ladakh.jpg"
-              alt="Turtuk village landscape near the Shyok River, Ladakh"
+              src="/images/blogs/ladakh/turtuk/turtuk-village-shyok-valley.webp"
+              alt="Turtuk village's green terraced fields along the Shyok River valley, Ladakh"
               fill
               priority
               sizes="100vw"
@@ -688,8 +688,8 @@ export default function TurtukPage() {
                   <h2>Farol & Chutang — The Two Halves of Turtuk</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/leh-ladakh/leh-ladakh.jpg"
-                      alt="Turtuk village stone houses and terraced fields above the Shyok River"
+                      src="/images/blogs/ladakh/turtuk/balti-women-turtuk-harvest.webp"
+                      alt="Balti women winnowing buckwheat in Turtuk village, Nubra Valley"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

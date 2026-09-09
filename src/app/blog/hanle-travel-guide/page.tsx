@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     authors: ["Kudozz Club"],
     images: [
       {
-        url: "/images/destinations/leh-ladakh/leh-ladakh.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Night sky over the Changthang plateau near Hanle, Ladakh",
+        url: "/images/blogs/ladakh/hanle/hanle-observatory-night-sky-ladakh.webp",
+        width: 1600,
+        height: 1060,
+        alt: "Star trails over the Indian Astronomical Observatory telescopes at Hanle, Ladakh",
       },
     ],
   },
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     title: "Hanle Travel Guide: Dark Sky Reserve, Observatory & Stargazing",
     description:
       "India's first Dark Sky Reserve — stargazing, the Indian Astronomical Observatory, permits, and homestays in remote Hanle, Ladakh.",
-    images: ["/images/destinations/leh-ladakh/leh-ladakh.jpg"],
+    images: ["/images/blogs/ladakh/hanle/hanle-observatory-night-sky-ladakh.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/hanle-travel-guide",
@@ -64,7 +64,7 @@ function ArticleSchema() {
           description:
             "The complete Hanle travel guide — India's first Dark Sky Reserve, the Indian Astronomical Observatory, how to reach, permits, homestays, and stargazing tips.",
           image:
-            "https://club.kudozz.in/images/destinations/leh-ladakh/leh-ladakh.jpg",
+            "https://club.kudozz.in/images/blogs/ladakh/hanle/hanle-observatory-night-sky-ladakh.webp",
           datePublished: "2026-07-02",
           dateModified: "2026-08-30",
           publisher: {
@@ -206,8 +206,8 @@ export default function HanlePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/leh-ladakh/leh-ladakh.jpg"
-              alt="Night sky and mountain silhouettes over the Changthang plateau near Hanle, Ladakh"
+              src="/images/blogs/ladakh/hanle/hanle-observatory-night-sky-ladakh.webp"
+              alt="Star trails over the Indian Astronomical Observatory telescopes at Hanle, Ladakh"
               fill
               priority
               sizes="100vw"
@@ -812,8 +812,8 @@ export default function HanlePage() {
                   <h2>Indian Astronomical Observatory</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/leh-ladakh/leh-ladakh.jpg"
-                      alt="High-altitude ridge landscape near the Indian Astronomical Observatory, Hanle"
+                      src="/images/blogs/ladakh/hanle/indian-astronomical-observatory-hanle.webp"
+                      alt="A rainbow over the telescope domes of the Indian Astronomical Observatory, Hanle"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

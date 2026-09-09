@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/related/leh-ladakh.jpg",
+        url: "/images/destinations/jaisalmer/hero.jpg",
         width: 1200,
         height: 630,
         alt: "Jaisalmer Fort rising from the golden Thar Desert at sunset",
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Jaisalmer & Thar Desert Travel Guide",
     description:
       "The golden city, camel safaris, and the Thar Desert — the complete guide to Jaisalmer.",
-    images: ["/images/related/leh-ladakh.jpg"],
+    images: ["/images/destinations/jaisalmer/hero.jpg"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/rajasthan-desert-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline:
             "Jaisalmer & Thar Desert Travel Guide: Fort, Camel Safari & Tips",
           description: "The complete Jaisalmer travel guide.",
-          image: "https://club.kudozz.in/images/related/leh-ladakh.jpg",
+          image: "https://club.kudozz.in/images/destinations/jaisalmer/hero.jpg",
           datePublished: "2026-06-30",
           dateModified: "2026-07-12",
           publisher: {

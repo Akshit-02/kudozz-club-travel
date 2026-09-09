@@ -47,10 +47,10 @@ export const metadata: Metadata = {
     authors: ["Kudozz Club"],
     images: [
       {
-        url: "/images/destinations/leh-ladakh/leh-ladakh.jpg",
+        url: "/images/blogs/ladakh/hunder/hunder-sand-dunes-aerial-view.webp",
         width: 1600,
-        height: 900,
-        alt: "Sand dunes of Hunder in Nubra Valley with snow peaks behind",
+        height: 1024,
+        alt: "Aerial view of the pale sand dunes at Hunder in Nubra Valley, Ladakh",
       },
     ],
   },
@@ -63,7 +63,7 @@ export const metadata: Metadata = {
     title: "Hunder Travel Guide: Nubra Valley's Sand Dunes & Camel Safari",
     description:
       "A complete guide to Hunder in Nubra Valley, Ladakh — cold desert sand dunes, double-humped Bactrian camel safaris, Diskit Monastery, permits, budget, and camping under the stars.",
-    images: ["/images/destinations/leh-ladakh/leh-ladakh.jpg"],
+    images: ["/images/blogs/ladakh/hunder/hunder-sand-dunes-aerial-view.webp"],
   },
   alternates: {
     canonical: `https://club.kudozz.in/blog/hunder-travel-guide`,
@@ -83,7 +83,7 @@ function ArticleSchema() {
             "Hunder Travel Guide: Nubra Valley's Sand Dunes & Camel Safari",
           description:
             "A complete guide to Hunder in Nubra Valley, Ladakh — cold desert sand dunes, double-humped Bactrian camel safaris, Diskit Monastery, permits, budget, and camping under the stars.",
-          image: "/images/destinations/leh-ladakh/leh-ladakh.jpg",
+          image: "https://club.kudozz.in/images/blogs/ladakh/hunder/hunder-sand-dunes-aerial-view.webp",
           datePublished: "2026-08-30",
           dateModified: "2026-08-30",
 
@@ -243,8 +243,8 @@ export default function HunderPage() {
           {/* Hero Image */}
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/leh-ladakh/leh-ladakh.jpg"
-              alt="Sand dunes of Hunder in Nubra Valley with snow peaks behind"
+              src="/images/blogs/ladakh/hunder/hunder-sand-dunes-aerial-view.webp"
+              alt="Aerial view of the pale sand dunes at Hunder in Nubra Valley, Ladakh"
               fill
               priority
               sizes="100vw"
@@ -595,8 +595,8 @@ export default function HunderPage() {
                   <h2>The Bactrian Camel Safari</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/leh-ladakh/leh-ladakh.jpg"
-                      alt="Double-humped Bactrian camels crossing the sand dunes of Hunder"
+                      src="/images/blogs/ladakh/hunder/bactrian-camel-resting-nubra-valley.webp"
+                      alt="A saddled double-humped Bactrian camel resting on the sand with the caravan and mountains of Nubra Valley behind"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

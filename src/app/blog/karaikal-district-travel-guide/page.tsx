@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/hampi/virupaksha.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Tall Dravidian temple gopuram, evoking Karaikal district's Tirunallar and Karaikal Ammaiyar temples",
+        url: "/images/blogs/puducherry/karaikal-district/thirunallar-temple-tank-karaikal.webp",
+        width: 1600,
+        height: 1200,
+        alt: "Thirunallar Dharbaranyeeswarar (Saneeswaran) Temple gopuram reflected in its temple tank, Karaikal district",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Karaikal District Travel Guide: Temples, Beach & Cauvery Delta",
     description:
       "Tirunallar's Saneeswaran Temple, Karaikal's lighthouse and beach, and the quiet Cauvery delta villages around them — the complete guide to Karaikal District.",
-    images: ["/images/destinations/hampi/virupaksha.jpg"],
+    images: ["/images/blogs/puducherry/karaikal-district/thirunallar-temple-tank-karaikal.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/karaikal-district-travel-guide",
@@ -60,7 +60,7 @@ function ArticleSchema() {
           description:
             "The complete Karaikal District travel guide, covering Karaikal town, Tirunallar, Neravy, Kottucherry, and Nedungadu.",
           image:
-            "https://club.kudozz.in/images/destinations/hampi/virupaksha.jpg",
+            "https://club.kudozz.in/images/blogs/puducherry/karaikal-district/thirunallar-temple-tank-karaikal.webp",
           datePublished: "2026-07-24",
           dateModified: "2026-07-24",
           publisher: {
@@ -293,8 +293,8 @@ export default function KaraikalDistrictGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/hampi/virupaksha.jpg"
-              alt="Tall Dravidian temple gopuram, evoking Karaikal district's Tirunallar and Karaikal Ammaiyar temples"
+              src="/images/blogs/puducherry/karaikal-district/thirunallar-temple-tank-karaikal.webp"
+              alt="Thirunallar Dharbaranyeeswarar (Saneeswaran) Temple gopuram reflected in its temple tank, Karaikal district"
               fill
               priority
               sizes="100vw"
@@ -679,8 +679,8 @@ export default function KaraikalDistrictGuidePage() {
                   <h2>Tirunallar: The Saneeswaran Temple</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/hampi/virupaksha.jpg"
-                      alt="Dravidian temple gopuram, evoking the Sri Dharbaranyeswarar Temple at Tirunallar"
+                      src="/images/blogs/puducherry/karaikal-district/thirunallar-temple-tank-karaikal.webp"
+                      alt="Sri Dharbaranyeswarar Temple tank at Tirunallar with the temple gopuram behind it"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

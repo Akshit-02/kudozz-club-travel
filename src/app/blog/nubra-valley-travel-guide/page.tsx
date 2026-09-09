@@ -48,10 +48,10 @@ export const metadata: Metadata = {
     authors: ["Kudozz Club"],
     images: [
       {
-        url: "/images/destinations/leh-ladakh/leh-ladakh.jpg",
+        url: "/images/blogs/ladakh/nubra-valley/hunder-dunes-bactrian-camels-nubra-valley.webp",
         width: 1600,
-        height: 900,
-        alt: "Sand dunes and mountains of Nubra Valley, Ladakh",
+        height: 1067,
+        alt: "Double-humped Bactrian camels resting on the sand dunes at Hunder, Nubra Valley, Ladakh",
       },
     ],
   },
@@ -64,7 +64,7 @@ export const metadata: Metadata = {
     title: "Nubra Valley Travel Guide: Sand Dunes, Camels & Cold Desert",
     description:
       "The complete Nubra Valley travel guide — crossing Khardung La, Diskit Monastery's giant Maitreya Buddha, Hunder's Bactrian camels, permits, a 2-day itinerary, stays, food and budget for Ladakh's high-altitude desert.",
-    images: ["/images/destinations/leh-ladakh/leh-ladakh.jpg"],
+    images: ["/images/blogs/ladakh/nubra-valley/hunder-dunes-bactrian-camels-nubra-valley.webp"],
   },
   alternates: {
     canonical: `https://club.kudozz.in/blog/nubra-valley-travel-guide`,
@@ -83,7 +83,7 @@ function ArticleSchema() {
           headline: "Nubra Valley Travel Guide: Sand Dunes, Camels & Cold Desert",
           description:
             "The complete Nubra Valley travel guide — crossing Khardung La, Diskit Monastery's giant Maitreya Buddha, Hunder's Bactrian camels, permits, a 2-day itinerary, stays, food and budget for Ladakh's high-altitude desert.",
-          image: "/images/destinations/leh-ladakh/leh-ladakh.jpg",
+          image: "https://club.kudozz.in/images/blogs/ladakh/nubra-valley/hunder-dunes-bactrian-camels-nubra-valley.webp",
           datePublished: "2026-07-22",
           dateModified: "2026-08-30",
 
@@ -250,8 +250,8 @@ export default function NubraValleyPage() {
           {/* Hero Image */}
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/leh-ladakh/leh-ladakh.jpg"
-              alt="Sand dunes and mountains of Nubra Valley, Ladakh"
+              src="/images/blogs/ladakh/nubra-valley/hunder-dunes-bactrian-camels-nubra-valley.webp"
+              alt="Double-humped Bactrian camels resting on the sand dunes at Hunder, Nubra Valley, Ladakh"
               fill
               priority
               sizes="100vw"
@@ -655,8 +655,8 @@ export default function NubraValleyPage() {
                     <h3>Diskit Monastery & the Maitreya Buddha</h3>
                     <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                       <Image
-                        src="/images/destinations/leh-ladakh/leh-ladakh.jpg"
-                        alt="Mountain landscape near Diskit, Nubra Valley"
+                        src="/images/blogs/ladakh/nubra-valley/diskit-monastery-maitreya-buddha-statue.webp"
+                        alt="The 32-metre golden Maitreya Buddha statue at Diskit Monastery, Nubra Valley"
                         fill
                         sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                         className="object-cover"
