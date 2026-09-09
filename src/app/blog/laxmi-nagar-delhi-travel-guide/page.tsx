@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jaisalmer/fort.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Generic representative Indian heritage and market-town imagery, used here as a stand-in for Laxmi Nagar, Delhi",
+        url: "/images/blogs/delhi/laxmi-nagar/laxmi-nagar-market-road-view.webp",
+        width: 1600,
+        height: 1200,
+        alt: "An elevated view of Laxmi Nagar's busy market road in East Delhi, lined with shops and heavy traffic",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Laxmi Nagar Delhi Guide: Market, Coaching & Food",
     description:
       "East Delhi's busiest market-and-coaching neighbourhood — market, coaching institutes, PG stays, food, and how to get there.",
-    images: ["/images/destinations/jaisalmer/fort.jpg"],
+    images: ["/images/blogs/delhi/laxmi-nagar/laxmi-nagar-market-road-view.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/laxmi-nagar-delhi-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           description:
             "A local's guide to Laxmi Nagar, Delhi — East Delhi's dense market-and-coaching neighbourhood, its UPSC/SSC institute ecosystem, PG accommodation, street food, and how to reach it by metro.",
           image:
-            "https://club.kudozz.in/images/destinations/jaisalmer/fort.jpg",
+            "https://club.kudozz.in/images/blogs/delhi/laxmi-nagar/laxmi-nagar-market-road-view.webp",
           datePublished: "2026-08-30",
           dateModified: "2026-08-30",
           publisher: {
@@ -206,8 +206,8 @@ export default function LaxmiNagarGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jaisalmer/fort.jpg"
-              alt="Generic representative Indian heritage and market-town imagery, used here as a stand-in for Laxmi Nagar, Delhi"
+              src="/images/blogs/delhi/laxmi-nagar/laxmi-nagar-market-road-view.webp"
+              alt="An elevated view of Laxmi Nagar's busy market road in East Delhi, lined with shops and heavy traffic"
               fill
               priority
               sizes="100vw"
@@ -580,8 +580,8 @@ export default function LaxmiNagarGuidePage() {
                   <h2>The Laxmi Nagar Market</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/jaisalmer/hero.jpg"
-                      alt="Generic representative Indian market-street imagery, used here as a stand-in for the Laxmi Nagar market"
+                      src="/images/blogs/delhi/laxmi-nagar/laxmi-nagar-market-road-view.webp"
+                      alt="Traffic and shopfronts along Laxmi Nagar's main market road in East Delhi"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

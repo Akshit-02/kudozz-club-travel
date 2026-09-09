@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/goa/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "A landscaped waterfront garden with palm trees and walking paths, evoking the setting of Vanganga Lake Garden in Daman",
+        url: "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/vanganga-lake-garden/vanganga-lake-garden-lakeside-view-silvassa.webp",
+        width: 1600,
+        height: 1200,
+        alt: "The lake at Vanganga Garden framed by palm trees, part of the landscaped lake garden known for its landmark replica sculptures",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Vanganga Lake Garden Daman: Visit Guide & Tips",
     description:
       "A landscaped garden built around a lake, dotted with miniature replicas of world landmarks — Daman's favourite family and photography stop.",
-    images: ["/images/destinations/goa/hero.jpg"],
+    images: ["/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/vanganga-lake-garden/vanganga-lake-garden-lakeside-view-silvassa.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/vanganga-lake-garden-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Vanganga Lake Garden Daman: Visit Guide & Tips",
           description:
             "Visit Vanganga Lake Garden in Daman — a landscaped lake garden with miniature replicas of world-famous landmarks, walking paths and boating.",
-          image: "https://club.kudozz.in/images/destinations/goa/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/vanganga-lake-garden/vanganga-lake-garden-lakeside-view-silvassa.webp",
           datePublished: "2026-08-30",
           dateModified: "2026-08-30",
           publisher: {
@@ -204,8 +204,8 @@ export default function VangangaLakeGardenGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/goa/hero.jpg"
-              alt="A landscaped waterfront garden with palm trees and walking paths, evoking the setting of Vanganga Lake Garden in Daman"
+              src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/vanganga-lake-garden/vanganga-lake-garden-lakeside-view-silvassa.webp"
+              alt="The lake at Vanganga Garden framed by palm trees, part of the landscaped lake garden known for its landmark replica sculptures"
               fill
               priority
               sizes="100vw"
@@ -534,8 +534,8 @@ export default function VangangaLakeGardenGuidePage() {
                   <h2>What to See</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/goa/hero.jpg"
-                      alt="A palm-lined lakeside garden path, illustrative of the walking paths and greenery at Vanganga Lake Garden"
+                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/vanganga-lake-garden/vanganga-lake-garden-lakeside-view-silvassa.webp"
+                      alt="Palm-fringed lake at Vanganga Garden, with the walking path and lawns visible along the shore"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

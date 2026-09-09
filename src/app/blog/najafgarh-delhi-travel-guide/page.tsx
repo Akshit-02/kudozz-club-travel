@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jaisalmer/fort.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Generic Indian heritage fort architecture, representative imagery used as a stand-in for Najafgarh",
+        url: "/images/blogs/delhi/najafgarh/najafgarh-drain-aerial-view.webp",
+        width: 1600,
+        height: 1064,
+        alt: "Aerial view of the winding Najafgarh Drain, fed by the Najafgarh Jheel wetland, cutting through green fields on Delhi's south-western edge",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Najafgarh Delhi Guide: History, Jheel & Sehwag",
     description:
       "Nawab Najaf Khan's fort roots, the shrinking Najafgarh Jheel wetland, and Virender Sehwag's hometown fame — an honest look at South West Delhi's Najafgarh.",
-    images: ["/images/destinations/jaisalmer/fort.jpg"],
+    images: ["/images/blogs/delhi/najafgarh/najafgarh-drain-aerial-view.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/najafgarh-delhi-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           description:
             "An honest guide to Najafgarh, Delhi — Nawab Najaf Khan's 18th-century fort, the shrinking Najafgarh Jheel, and its fame as Virender Sehwag's hometown.",
           image:
-            "https://club.kudozz.in/images/destinations/jaisalmer/fort.jpg",
+            "https://club.kudozz.in/images/blogs/delhi/najafgarh/najafgarh-drain-aerial-view.webp",
           datePublished: "2026-08-30",
           dateModified: "2026-08-30",
           publisher: {
@@ -206,8 +206,8 @@ export default function NajafgarhGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jaisalmer/fort.jpg"
-              alt="Generic Indian heritage fort architecture, representative imagery used as a stand-in for Najafgarh"
+              src="/images/blogs/delhi/najafgarh/najafgarh-drain-aerial-view.webp"
+              alt="Aerial view of the winding Najafgarh Drain, fed by the Najafgarh Jheel wetland, cutting through green fields on Delhi's south-western edge"
               fill
               priority
               sizes="100vw"
@@ -524,8 +524,8 @@ export default function NajafgarhGuidePage() {
                   <h2>The History of Najafgarh</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/jaisalmer/hero.jpg"
-                      alt="Generic historic Indian fortress architecture, representative imagery used as a stand-in for Najafgarh's Mughal-era fort history"
+                      src="/images/blogs/delhi/najafgarh/najafgarh-drain-aerial-view.webp"
+                      alt="The Najafgarh Drain winding through fields and settlements near Najafgarh, South West Delhi"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

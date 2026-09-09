@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/goa/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Sunlight filtering into a sandstone cave chamber, evoking the natural skylights inside Naida Caves in Diu",
+        url: "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/naida-caves/naida-caves-sandstone-chamber-roots.webp",
+        width: 1600,
+        height: 1067,
+        alt: "Eroded sandstone chamber of Naida Caves with exposed tree roots hanging from the rock ceiling, Diu",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Naida Caves Diu: Photography Spot & Visit Guide",
     description:
       "A maze of sandstone chambers near Diu Fort with natural skylights and root-covered walls — one of Diu's most photogenic offbeat spots.",
-    images: ["/images/destinations/goa/hero.jpg"],
+    images: ["/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/naida-caves/naida-caves-sandstone-chamber-roots.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/naida-caves-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Naida Caves Diu: Photography Spot & Visit Guide",
           description:
             "Naida Caves near Diu Fort is a maze of sandstone chambers with natural skylights and root-covered walls — a favourite offbeat photo spot. Full visit guide.",
-          image: "https://club.kudozz.in/images/destinations/goa/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/naida-caves/naida-caves-sandstone-chamber-roots.webp",
           datePublished: "2026-08-30",
           dateModified: "2026-08-30",
           publisher: {
@@ -205,8 +205,8 @@ export default function NaidaCavesGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/goa/hero.jpg"
-              alt="Sunlight filtering into a sandstone cave chamber, evoking the natural skylights inside Naida Caves in Diu"
+              src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/naida-caves/naida-caves-sandstone-chamber-roots.webp"
+              alt="Eroded sandstone chamber of Naida Caves with exposed tree roots hanging from the rock ceiling, Diu"
               fill
               priority
               sizes="100vw"
@@ -536,8 +536,8 @@ export default function NaidaCavesGuidePage() {
                   <h2>What to Expect Inside</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/goa/beach.jpg"
-                      alt="A stand-in coastal scene included for visual pacing — not an actual photo of Naida Caves' interior"
+                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/naida-caves/naida-caves-sunlit-rock-formations.webp"
+                      alt="Sunlight streaming through a natural skylight onto the carved sandstone walls inside Naida Caves, Diu"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

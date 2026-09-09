@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/meghalaya/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Misty Himalayan hills and green tea gardens near Darjeeling, West Bengal",
+        url: "/images/blogs/west-bengal/darjeeling/tiger-hill-kanchenjunga-sunrise-darjeeling.webp",
+        width: 1600,
+        height: 1200,
+        alt: "Sunrise light on the snow peaks of the Kanchenjunga range seen from Tiger Hill, Darjeeling",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Darjeeling Travel Guide: Tea Gardens, Toy Train & Tiger Hill",
     description:
       "Tiger Hill sunrise, the UNESCO Toy Train, and centuries-old tea estates — the complete Darjeeling guide.",
-    images: ["/images/destinations/meghalaya/hero.jpg"],
+    images: ["/images/blogs/west-bengal/darjeeling/tiger-hill-kanchenjunga-sunrise-darjeeling.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/darjeeling-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Darjeeling Travel Guide: Tea Gardens, Toy Train & Tiger Hill",
           description:
             "Complete Darjeeling guide — Tiger Hill sunrise, the UNESCO Toy Train, tea garden tours, Batasia Loop, Peace Pagoda, monasteries, where to stay, and a full visit plan for the Queen of the Hills.",
-          image: "https://club.kudozz.in/images/destinations/meghalaya/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/west-bengal/darjeeling/tiger-hill-kanchenjunga-sunrise-darjeeling.webp",
           datePublished: "2026-09-02",
           dateModified: "2026-09-02",
           publisher: {
@@ -200,8 +200,8 @@ export default function DarjeelingGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/meghalaya/hero.jpg"
-              alt="Misty Himalayan hills and green tea gardens near Darjeeling, West Bengal"
+              src="/images/blogs/west-bengal/darjeeling/tiger-hill-kanchenjunga-sunrise-darjeeling.webp"
+              alt="Sunrise light on the snow peaks of the Kanchenjunga range seen from Tiger Hill, Darjeeling"
               fill
               priority
               sizes="100vw"
@@ -549,8 +549,8 @@ export default function DarjeelingGuidePage() {
                   <h2>Things to Do in Darjeeling</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/meghalaya/hero.jpg"
-                      alt="Tea gardens and hill slopes near Darjeeling, West Bengal"
+                      src="/images/blogs/west-bengal/darjeeling/darjeeling-himalayan-railway-toy-train.webp"
+                      alt="The Darjeeling Himalayan Railway 'Toy Train' steam locomotive winding along the hillside track"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

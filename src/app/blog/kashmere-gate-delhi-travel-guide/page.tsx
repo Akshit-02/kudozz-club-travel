@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jaisalmer/fort.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Red sandstone fortified gate architecture at golden hour, evoking the historic walled-city gates of Old Delhi such as Kashmere Gate",
+        url: "/images/blogs/delhi/kashmere-gate/kashmere-gate-brick-arches-ruins.webp",
+        width: 1600,
+        height: 1067,
+        alt: "The weathered brick arches and crenellated ramparts of the historic Kashmere Gate in Old Delhi",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Kashmere Gate Travel Guide: History & ISBT Hub",
     description:
       "Shahjahanabad's northern gate, an 1857 Revolt battleground, and Delhi's biggest transit interchange — the complete Kashmere Gate guide.",
-    images: ["/images/destinations/jaisalmer/fort.jpg"],
+    images: ["/images/blogs/delhi/kashmere-gate/kashmere-gate-brick-arches-ruins.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/kashmere-gate-delhi-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           description:
             "Kashmere Gate travel guide — Shahjahanabad's northern gate, an 1857 Revolt battleground, St. James' Church, Nicholson Cemetery, and Delhi's biggest ISBT transit hub, with a heritage-walk plan.",
           image:
-            "https://club.kudozz.in/images/destinations/jaisalmer/fort.jpg",
+            "https://club.kudozz.in/images/blogs/delhi/kashmere-gate/kashmere-gate-brick-arches-ruins.webp",
           datePublished: "2026-08-30",
           dateModified: "2026-08-30",
           publisher: {
@@ -205,8 +205,8 @@ export default function KashmereGateGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jaisalmer/fort.jpg"
-              alt="Red sandstone fortified gate architecture at golden hour, evoking the historic walled-city gates of Old Delhi such as Kashmere Gate"
+              src="/images/blogs/delhi/kashmere-gate/kashmere-gate-brick-arches-ruins.webp"
+              alt="The weathered brick arches and crenellated ramparts of the historic Kashmere Gate in Old Delhi"
               fill
               priority
               sizes="100vw"
@@ -566,8 +566,8 @@ export default function KashmereGateGuidePage() {
                   <h2>The Historic Gate Structure</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/jaisalmer/hero.jpg"
-                      alt="Historic sandstone fortress gate architecture reminiscent of Old Delhi's Mughal-era city gates, illustrative of Kashmere Gate's style rather than an on-site photograph"
+                      src="/images/blogs/delhi/kashmere-gate/kashmere-gate-brick-arches-ruins.webp"
+                      alt="Visitors walking through the arched brick passageways of Kashmere Gate, Old Delhi"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

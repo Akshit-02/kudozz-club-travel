@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/manali/rohtang-pass.jpg",
-        width: 1200,
-        height: 630,
-        alt: "High-altitude Himalayan trail along the Sandakphu ridge, Singalila National Park",
+        url: "/images/blogs/west-bengal/sandakphu/kanchenjunga-range-view-sandakphu-singalila.webp",
+        width: 1600,
+        height: 1066,
+        alt: "The snow-capped Kangchenjunga range seen through pine trees from Sandakphu, Singalila National Park",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Sandakphu Trek Guide: Route, Permits & Best Time",
     description:
       "Views of four of the world's five highest peaks from West Bengal's highest point — the complete Sandakphu trek guide.",
-    images: ["/images/destinations/manali/rohtang-pass.jpg"],
+    images: ["/images/blogs/west-bengal/sandakphu/kanchenjunga-range-view-sandakphu-singalila.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/sandakphu-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           description:
             "Complete Sandakphu trek guide — the Maney Bhanjang route, permits for Singalila National Park, trek duration, tea-house stays, and views of four of the world's five highest peaks.",
           image:
-            "https://club.kudozz.in/images/destinations/manali/rohtang-pass.jpg",
+            "https://club.kudozz.in/images/blogs/west-bengal/sandakphu/kanchenjunga-range-view-sandakphu-singalila.webp",
           datePublished: "2026-09-02",
           dateModified: "2026-09-02",
           publisher: {
@@ -200,8 +200,8 @@ export default function SandakphuGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/manali/rohtang-pass.jpg"
-              alt="High-altitude Himalayan trail along the Sandakphu ridge, Singalila National Park"
+              src="/images/blogs/west-bengal/sandakphu/kanchenjunga-range-view-sandakphu-singalila.webp"
+              alt="The snow-capped Kangchenjunga range seen through pine trees from Sandakphu, Singalila National Park"
               fill
               priority
               sizes="100vw"
@@ -537,8 +537,8 @@ export default function SandakphuGuidePage() {
                   <h2>Route, Permits & Trek Style</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/manali/rohtang-pass.jpg"
-                      alt="High-altitude ridge trail near Sandakphu, Singalila National Park"
+                      src="/images/blogs/west-bengal/sandakphu/kanchenjunga-range-view-sandakphu-singalila.webp"
+                      alt="Kumbhakarna, Kangchenjunga and Pandim peaks seen along the Singalila ridge near Sandakphu"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

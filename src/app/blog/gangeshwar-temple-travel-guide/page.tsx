@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/goa/beach.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Waves breaking over dark coastal rocks, evoking the rocky shoreline setting of Gangeshwar Temple in Diu",
+        url: "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/gangeshwar-temple/gangeshwar-temple-shivlings-rock-shrine-diu.webp",
+        width: 1229,
+        height: 1334,
+        alt: "Natural rock Shiva lingams decorated with flowers inside the rock crevice shrine at Gangeshwar Temple, Diu",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Gangeshwar Temple Diu: Sea-Washed Shiva Shrine Guide",
     description:
       "Five natural rock lingams set among the boulders on Diu's coastline, partly submerged by the tide — a guide to visiting Gangeshwar Temple respectfully and safely.",
-    images: ["/images/destinations/goa/beach.jpg"],
+    images: ["/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/gangeshwar-temple/gangeshwar-temple-shivlings-rock-shrine-diu.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/gangeshwar-temple-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Gangeshwar Temple Diu: Sea-Washed Shiva Shrine Guide",
           description:
             "Gangeshwar Temple travel guide — Diu's coastal Shiva shrine with five natural rock lingams washed by the tide. Best time, tide timing, safety and etiquette.",
-          image: "https://club.kudozz.in/images/destinations/goa/beach.jpg",
+          image: "https://club.kudozz.in/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/gangeshwar-temple/gangeshwar-temple-shivlings-rock-shrine-diu.webp",
           datePublished: "2026-08-30",
           dateModified: "2026-08-30",
           publisher: {
@@ -206,8 +206,8 @@ export default function GangeshwarTempleGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/goa/beach.jpg"
-              alt="Waves breaking over dark coastal rocks, evoking the rocky shoreline setting of Gangeshwar Temple in Diu"
+              src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/gangeshwar-temple/gangeshwar-temple-shivlings-rock-shrine-diu.webp"
+              alt="Natural rock Shiva lingams decorated with flowers inside the rock crevice shrine at Gangeshwar Temple, Diu"
               fill
               priority
               sizes="100vw"
@@ -572,8 +572,8 @@ export default function GangeshwarTempleGuidePage() {
                   <h2>The Setting & Atmosphere</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/goa/beach.jpg"
-                      alt="Waves crashing against dark rocks along a coastline, similar to the boulder-strewn shore at Gangeshwar Temple"
+                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/gangeshwar-temple/gangeshwar-temple-shivlings-rock-shrine-diu.webp"
+                      alt="The five natural rock Shiva lingams tucked into the boulder crevice at Gangeshwar Temple, Diu"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

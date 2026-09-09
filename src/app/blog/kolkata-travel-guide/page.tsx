@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/puducherry/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Grand colonial-era architecture in Kolkata, capital of West Bengal, evoking the city's British-colonial heritage buildings",
+        url: "/images/blogs/west-bengal/kolkata/howrah-bridge-cantilever-hooghly-river-kolkata.webp",
+        width: 1600,
+        height: 1066,
+        alt: "The cantilever span of Howrah Bridge over the Hooghly River, Kolkata, crowded with commuters",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Kolkata Travel Guide: Heritage, Food & Culture",
     description:
       "Victoria Memorial, Howrah Bridge, Durga Puja, College Street, and Bengal's richest food scene — the complete Kolkata guide.",
-    images: ["/images/destinations/puducherry/hero.jpg"],
+    images: ["/images/blogs/west-bengal/kolkata/howrah-bridge-cantilever-hooghly-river-kolkata.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/kolkata-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Kolkata Travel Guide: Heritage, Food & Culture",
           description:
             "Complete Kolkata travel guide — Victoria Memorial, Howrah Bridge, Durga Puja, College Street, Park Street food, where to stay, day trips, and a full visit plan for the City of Joy.",
-          image: "https://club.kudozz.in/images/destinations/puducherry/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/west-bengal/kolkata/howrah-bridge-cantilever-hooghly-river-kolkata.webp",
           datePublished: "2026-09-02",
           dateModified: "2026-09-02",
           publisher: {
@@ -203,8 +203,8 @@ export default function KolkataGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/puducherry/hero.jpg"
-              alt="Grand colonial-era architecture in Kolkata, capital of West Bengal, evoking the city's British-colonial heritage buildings"
+              src="/images/blogs/west-bengal/kolkata/howrah-bridge-cantilever-hooghly-river-kolkata.webp"
+              alt="The cantilever span of Howrah Bridge over the Hooghly River, Kolkata, crowded with commuters"
               fill
               priority
               sizes="100vw"
@@ -609,8 +609,8 @@ export default function KolkataGuidePage() {
                   <h2>Colonial Landmarks & Temples</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/puducherry/hero.jpg"
-                      alt="Colonial-era architecture reminiscent of Kolkata's grand British-era buildings"
+                      src="/images/blogs/west-bengal/kolkata/victoria-memorial-west-facade-kolkata.webp"
+                      alt="The white marble Victoria Memorial in Kolkata, viewed from its west facade with the angel statue atop the dome"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

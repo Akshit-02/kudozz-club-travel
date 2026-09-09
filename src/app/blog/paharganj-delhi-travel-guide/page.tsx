@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jaisalmer/fort.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Sandstone fort architecture at golden hour, used here to represent Delhi's old-city character around Paharganj",
+        url: "/images/blogs/delhi/paharganj/main-bazaar-paharganj-street-scene.webp",
+        width: 1600,
+        height: 1067,
+        alt: "Crowded Main Bazaar street in Paharganj, Delhi, lined with shops, guesthouse signboards, and tangled overhead wires",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Paharganj Travel Guide: Main Bazaar & Budget Stays",
     description:
       "Delhi's classic backpacker district — Main Bazaar shopping, budget guesthouses, cheap eats, and honest safety tips beside New Delhi Railway Station.",
-    images: ["/images/destinations/jaisalmer/fort.jpg"],
+    images: ["/images/blogs/delhi/paharganj/main-bazaar-paharganj-street-scene.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/paharganj-delhi-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           description:
             "Paharganj travel guide: Main Bazaar shopping, budget guesthouses, cheap eats, safety tips, and how to use this backpacker hub beside New Delhi Railway Station.",
           image:
-            "https://club.kudozz.in/images/destinations/jaisalmer/fort.jpg",
+            "https://club.kudozz.in/images/blogs/delhi/paharganj/main-bazaar-paharganj-street-scene.webp",
           datePublished: "2026-08-30",
           dateModified: "2026-08-30",
           publisher: {
@@ -206,8 +206,8 @@ export default function PaharganjGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jaisalmer/fort.jpg"
-              alt="Sandstone fort architecture at golden hour, used here to represent Delhi's old-city character around Paharganj"
+              src="/images/blogs/delhi/paharganj/main-bazaar-paharganj-street-scene.webp"
+              alt="Crowded Main Bazaar street in Paharganj, Delhi, lined with shops, guesthouse signboards, and tangled overhead wires"
               fill
               priority
               sizes="100vw"
@@ -566,8 +566,8 @@ export default function PaharganjGuidePage() {
                   <h2>Main Bazaar</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/jaisalmer/hero.jpg"
-                      alt="Old-city sandstone architecture and narrow lanes, used here to represent the dense bazaar character of Paharganj's Main Bazaar"
+                      src="/images/blogs/delhi/paharganj/main-bazaar-paharganj-street-scene.webp"
+                      alt="Pedestrians walking through Paharganj's Main Bazaar past shopfronts and a parked scooter"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

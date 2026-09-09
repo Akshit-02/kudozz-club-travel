@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/goa/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Generic lush green landscape used as representative imagery for the forested Khanvel area — not an actual photo of Khanvel",
+        url: "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/khanvel/madhuban-dam-view-near-khanvel.webp",
+        width: 1600,
+        height: 1067,
+        alt: "Forested hills along the misty shoreline of Madhuban Dam, near Khanvel in Dadra and Nagar Haveli",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Khanvel Travel Guide: Gardens & Nature Escape",
     description:
       "A quiet forested town near Silvassa with a family garden, deer sanctuary, and dam close by — the complete Khanvel travel guide.",
-    images: ["/images/destinations/goa/hero.jpg"],
+    images: ["/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/khanvel/madhuban-dam-view-near-khanvel.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/khanvel-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Khanvel Travel Guide: Gardens & Nature Escape",
           description:
             "Khanvel travel guide: a small forested town near Silvassa with a family-friendly garden, and the gateway to Satmaliya Deer Sanctuary and Madhuban Dam.",
-          image: "https://club.kudozz.in/images/destinations/goa/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/khanvel/madhuban-dam-view-near-khanvel.webp",
           datePublished: "2026-08-30",
           dateModified: "2026-08-30",
           publisher: {
@@ -207,8 +207,8 @@ export default function KhanvelGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/goa/hero.jpg"
-              alt="Generic lush green landscape used as representative imagery for the forested Khanvel area — not an actual photo of Khanvel"
+              src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/khanvel/madhuban-dam-view-near-khanvel.webp"
+              alt="Forested hills along the misty shoreline of Madhuban Dam, near Khanvel in Dadra and Nagar Haveli"
               fill
               priority
               sizes="100vw"
@@ -561,8 +561,8 @@ export default function KhanvelGuidePage() {
                   <h2>Khanvel Garden</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/goa/beach.jpg"
-                      alt="Generic green, landscaped outdoor setting used as representative imagery — not an actual photo of Khanvel Garden"
+                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/khanvel/forest-owlet-dadra-nagar-haveli.webp"
+                      alt="A Forest Owlet perched on a branch, a bird species native to the forests around Khanvel in Dadra and Nagar Haveli"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

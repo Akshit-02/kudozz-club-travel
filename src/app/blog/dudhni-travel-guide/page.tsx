@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/goa/beach.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Calm waterside scenery reminiscent of the Madhuban Dam reservoir backwaters at Dudhni",
+        url: "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/dudhni/dudhni-lake-reservoir-boating-view.webp",
+        width: 1600,
+        height: 900,
+        alt: "Boat's-eye view across the still water of Dudhni Lake reservoir under a cloudy monsoon sky, near Silvassa",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Dudhni Lake Travel Guide: Boating Near Silvassa",
     description:
       "Motorboat rides, picnic spots, and a quiet reservoir setting barely 20 minutes from Silvassa — the complete guide to Dudhni.",
-    images: ["/images/destinations/goa/beach.jpg"],
+    images: ["/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/dudhni/dudhni-lake-reservoir-boating-view.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/dudhni-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Dudhni Lake Travel Guide: Boating Near Silvassa",
           description:
             "Complete Dudhni travel guide — boating on the Madhuban Dam reservoir near Silvassa, the best time to visit, how to reach, picnic spots, and a half-day plan combining Dudhni with Madhuban Dam.",
-          image: "https://club.kudozz.in/images/destinations/goa/beach.jpg",
+          image: "https://club.kudozz.in/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/dudhni/dudhni-lake-reservoir-boating-view.webp",
           datePublished: "2026-08-30",
           dateModified: "2026-08-30",
           publisher: {
@@ -205,8 +205,8 @@ export default function DudhniGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/goa/beach.jpg"
-              alt="Calm waterside scenery reminiscent of the Madhuban Dam reservoir backwaters at Dudhni"
+              src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/dudhni/dudhni-lake-reservoir-boating-view.webp"
+              alt="Boat's-eye view across the still water of Dudhni Lake reservoir under a cloudy monsoon sky, near Silvassa"
               fill
               priority
               sizes="100vw"
@@ -552,8 +552,8 @@ export default function DudhniGuidePage() {
                   <h2>The Boating Experience</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/goa/beach.jpg"
-                      alt="Calm, tree-fringed water reminiscent of the Dudhni jetty on the Madhuban Dam reservoir"
+                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/dudhni/dudhni-lake-island-hills.webp"
+                      alt="A forested hillock rising from the water of the Dudhni reservoir, seen from a boat on Madhuban Dam"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

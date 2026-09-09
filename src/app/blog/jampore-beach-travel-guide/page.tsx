@@ -23,9 +23,9 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/goa/beach.jpg",
-        width: 1200,
-        height: 630,
+        url: "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/jampore-beach/jampore-beach-shoreline-waves-daman.webp",
+        width: 1600,
+        height: 1200,
         alt: "A long, quiet stretch of sandy coastline with palm trees, illustrative of the casuarina-lined shore at Jampore Beach, Daman",
       },
     ],
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Jampore Beach Daman: Camel Rides, Timings & Tips",
     description:
       "A long, casuarina-lined stretch of sand south of Moti Daman — camel rides, quiet sunset walks, and honest guidance on swimming conditions.",
-    images: ["/images/destinations/goa/beach.jpg"],
+    images: ["/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/jampore-beach/jampore-beach-shoreline-waves-daman.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/jampore-beach-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Jampore Beach Daman: Camel Rides, Timings & Tips",
           description:
             "Jampore Beach travel guide — the long, quiet, casuarina-lined beach south of Moti Daman. Camel and pony rides, sunset walks, timings, how to reach, and honest swimming advice.",
-          image: "https://club.kudozz.in/images/destinations/goa/beach.jpg",
+          image: "https://club.kudozz.in/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/jampore-beach/jampore-beach-shoreline-waves-daman.webp",
           datePublished: "2026-08-30",
           dateModified: "2026-08-30",
           publisher: {
@@ -204,8 +204,8 @@ export default function JamporeBeachGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/goa/beach.jpg"
-              alt="A long, quiet stretch of sandy coastline with palm trees, illustrative of the casuarina-lined shore at Jampore Beach, Daman"
+              src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/jampore-beach/jampore-beach-shoreline-waves-daman.webp"
+              alt="Waves breaking on the wide sandy shoreline of Jampore Beach, Daman"
               fill
               priority
               sizes="100vw"
@@ -557,8 +557,8 @@ export default function JamporeBeachGuidePage() {
                   <h2>Things to Do at Jampore Beach</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/goa/hero.jpg"
-                      alt="A quiet coastal shoreline at golden hour, illustrative of sunset conditions similar to those at Jampore Beach"
+                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/jampore-beach/jampore-beach-fishing-boat-sea.webp"
+                      alt="A local fishing boat anchored offshore at Jampore Beach, Daman"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

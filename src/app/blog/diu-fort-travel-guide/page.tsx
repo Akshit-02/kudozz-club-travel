@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/goa/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Portuguese-era fort walls overlooking the sea, evoking the coastal forts of Diu",
+        url: "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu-fort/diu-fort-sea-facing-ramparts.webp",
+        width: 1600,
+        height: 1200,
+        alt: "Sea-facing ramparts of Diu Fort curving along the rocky Arabian Sea coastline",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Diu Fort Travel Guide: History, Timings & Tips",
     description:
       "A 16th-century Portuguese sea fort with a seawater-filled moat, original cannons, and one of the best sunset spots on India's west coast.",
-    images: ["/images/destinations/goa/hero.jpg"],
+    images: ["/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu-fort/diu-fort-sea-facing-ramparts.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/diu-fort-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Diu Fort Travel Guide: History, Timings & Tips",
           description:
             "Diu Fort travel guide: 16th-century Portuguese history, the double-moat layout, cannons, lighthouse, entry timings, tickets, photo spots, and a visit plan.",
-          image: "https://club.kudozz.in/images/destinations/goa/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu-fort/diu-fort-sea-facing-ramparts.webp",
           datePublished: "2026-08-30",
           dateModified: "2026-08-30",
           publisher: {
@@ -207,8 +207,8 @@ export default function DiuFortGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/goa/hero.jpg"
-              alt="Portuguese-era fort walls overlooking the sea, evoking the coastal forts of Diu"
+              src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu-fort/diu-fort-sea-facing-ramparts.webp"
+              alt="Sea-facing ramparts of Diu Fort curving along the rocky Arabian Sea coastline"
               fill
               priority
               sizes="100vw"
@@ -609,8 +609,8 @@ export default function DiuFortGuidePage() {
                   <h2>The Sea-Facing Ramparts & Sunset Views</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/goa/beach.jpg"
-                      alt="Waves meeting a rocky coastline at sunset, similar to the sea view from Diu Fort's ramparts"
+                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu-fort/diu-fort-chapel-doorway-interior.webp"
+                      alt="Ornate carved stone doorway of the old chapel inside Diu Fort's inner courtyard"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

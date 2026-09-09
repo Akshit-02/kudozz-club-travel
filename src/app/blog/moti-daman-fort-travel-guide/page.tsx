@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/goa/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Portuguese-era fort ramparts overlooking the sea, evocative of Moti Daman Fort's bastioned walls",
+        url: "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/moti-daman-fort/moti-daman-fort-east-gate-inscription.webp",
+        width: 1600,
+        height: 2133,
+        alt: "The old inscribed wooden east gate of Moti Daman Fort, set within its stone archway",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Moti Daman Fort: St. Jerome Fort History & Guide",
     description:
       "A deep dive into Moti Daman Fort — the Fort of St. Jerome — its ten bastions, cannons, Bom Jesus Church, the collectorate, and how to visit today.",
-    images: ["/images/destinations/goa/hero.jpg"],
+    images: ["/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/moti-daman-fort/moti-daman-fort-east-gate-inscription.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/moti-daman-fort-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Moti Daman Fort: St. Jerome Fort History & Guide",
           description:
             "Moti Daman Fort (Fort of St. Jerome) guide — history, ten bastions, cannons, Bom Jesus Church's gilded altar, the collectorate, sea views and visiting tips.",
-          image: "https://club.kudozz.in/images/destinations/goa/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/moti-daman-fort/moti-daman-fort-east-gate-inscription.webp",
           datePublished: "2026-08-30",
           dateModified: "2026-08-30",
           publisher: {
@@ -207,8 +207,8 @@ export default function MotiDamanFortGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/goa/hero.jpg"
-              alt="Portuguese-era fort ramparts overlooking the sea, evocative of Moti Daman Fort's bastioned walls"
+              src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/moti-daman-fort/moti-daman-fort-east-gate-inscription.webp"
+              alt="The old inscribed wooden east gate of Moti Daman Fort, set within its stone archway"
               fill
               priority
               sizes="100vw"
@@ -700,8 +700,8 @@ export default function MotiDamanFortGuidePage() {
                   <h2>Sea-Facing Bastions & the Daman Ganga Estuary</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/goa/beach.jpg"
-                      alt="Coastal shoreline with waves meeting old stone fortifications, evocative of the estuary views from Moti Daman Fort's sea-facing bastions"
+                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/moti-daman-fort/moti-daman-fort-lighthouse-estuary-view.webp"
+                      alt="View along Moti Daman Fort's sea wall toward the Daman lighthouse and the Daman Ganga river mouth"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

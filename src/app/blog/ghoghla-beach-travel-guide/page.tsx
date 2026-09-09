@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/goa/beach.jpg",
-        width: 1200,
-        height: 630,
-        alt: "A long, wide sandy beach with gentle surf, representative of Ghoghla Beach's broad sandy expanse near Diu",
+        url: "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/ghoghla-beach/ghoghla-beach-waves-sand-diu.webp",
+        width: 1600,
+        height: 1200,
+        alt: "Waves breaking on the wide, empty sandy shore of Ghoghla Beach, Diu",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Ghoghla Beach Diu: Water Sports & Camping Guide",
     description:
       "The long, wide beach by the Diu-Gujarat causeway — water sports, camping, resorts, and everything else to know before you go.",
-    images: ["/images/destinations/goa/beach.jpg"],
+    images: ["/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/ghoghla-beach/ghoghla-beach-waves-sand-diu.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/ghoghla-beach-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Ghoghla Beach Diu: Water Sports & Camping Guide",
           description:
             "Complete guide to Ghoghla Beach, Diu — the long, wide beach by the Diu-Gujarat causeway, its water sports, beach camping, growing resort cluster, and travel tips.",
-          image: "https://club.kudozz.in/images/destinations/goa/beach.jpg",
+          image: "https://club.kudozz.in/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/ghoghla-beach/ghoghla-beach-waves-sand-diu.webp",
           datePublished: "2026-08-30",
           dateModified: "2026-08-30",
           publisher: {
@@ -207,8 +207,8 @@ export default function GhoghlaBeachGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/goa/beach.jpg"
-              alt="A long, wide sandy beach with gentle surf, representative of Ghoghla Beach's broad sandy expanse near Diu"
+              src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/ghoghla-beach/ghoghla-beach-waves-sand-diu.webp"
+              alt="Waves breaking on the wide, empty sandy shore of Ghoghla Beach, Diu"
               fill
               priority
               sizes="100vw"
@@ -558,8 +558,8 @@ export default function GhoghlaBeachGuidePage() {
                   <h2>Water Sports & Activities</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/goa/beach.jpg"
-                      alt="Open beach with shallow surf, representative of the kind of wide sandy stretch used for water sports at Ghoghla Beach"
+                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/ghoghla-beach/ghoghla-beach-rocky-coastline.webp"
+                      alt="Rocky tidal coastline near Ghoghla Beach, Diu, where the sand gives way to exposed rock"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

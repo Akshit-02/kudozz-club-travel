@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jaisalmer/fort.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Generic representative Indian heritage and landscape imagery — Rohini itself has no comparable monument; it's a modern planned residential sub-city",
+        url: "/images/blogs/delhi/rohini/japanese-park-carved-tree-sculpture-rohini.webp",
+        width: 1400,
+        height: 1867,
+        alt: "A carved wooden tree-trunk sculpture on the lawns of Japanese Park in Rohini, Delhi",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Rohini Delhi Guide: Japanese Park & Family Outings",
     description:
       "Delhi's sprawling DDA-planned residential sub-city — Japanese Park, Adventure Island, and an honest look at what Rohini actually offers travellers.",
-    images: ["/images/destinations/jaisalmer/fort.jpg"],
+    images: ["/images/blogs/delhi/rohini/japanese-park-carved-tree-sculpture-rohini.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/rohini-delhi-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           description:
             "A practical Rohini guide — Delhi's huge DDA residential sub-city known for Japanese Park, Adventure Island, and extensive Metro coverage, not for heritage sightseeing.",
           image:
-            "https://club.kudozz.in/images/destinations/jaisalmer/fort.jpg",
+            "https://club.kudozz.in/images/blogs/delhi/rohini/japanese-park-carved-tree-sculpture-rohini.webp",
           datePublished: "2026-08-30",
           dateModified: "2026-08-30",
           publisher: {
@@ -206,8 +206,8 @@ export default function RohiniGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jaisalmer/fort.jpg"
-              alt="Generic representative Indian heritage and landscape imagery — Rohini itself has no comparable monument; it's a modern planned residential sub-city"
+              src="/images/blogs/delhi/rohini/japanese-park-carved-tree-sculpture-rohini.webp"
+              alt="A carved wooden tree-trunk sculpture on the lawns of Japanese Park in Rohini, Delhi"
               fill
               priority
               sizes="100vw"
@@ -568,8 +568,8 @@ export default function RohiniGuidePage() {
                   <h2>Japanese Park</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/jaisalmer/hero.jpg"
-                      alt="Generic landscape imagery used as a stand-in — not an actual photo of Japanese Park, Rohini"
+                      src="/images/blogs/delhi/rohini/japanese-park-carved-tree-sculpture-rohini.webp"
+                      alt="A large carved wooden animal sculpture set into the greenery of Japanese Park, Rohini"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

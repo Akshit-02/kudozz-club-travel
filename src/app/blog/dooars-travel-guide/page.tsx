@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/meghalaya/dawki-river.jpg",
+        url: "/images/blogs/west-bengal/dooars/one-horned-rhino-jaldapara-national-park-dooars.webp",
         width: 1200,
-        height: 630,
-        alt: "Forested riverbank in the Dooars foothills, West Bengal, near the Teesta and Jaldhaka rivers",
+        height: 778,
+        alt: "A greater one-horned rhinoceros grazing in the grasslands of Jaldapara National Park, Dooars",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Dooars Travel Guide: Wildlife, Tea Gardens & Rivers",
     description:
       "Rhino and elephant safaris, sprawling tea gardens, and Himalayan rivers — the complete Dooars guide.",
-    images: ["/images/destinations/meghalaya/dawki-river.jpg"],
+    images: ["/images/blogs/west-bengal/dooars/one-horned-rhino-jaldapara-national-park-dooars.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/dooars-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           description:
             "Complete Dooars guide — the foothill forests of Gorumara, Jaldapara, Chapramari and Buxa, tea gardens, jeep safaris for rhinos and elephants, base towns, and a full visit plan.",
           image:
-            "https://club.kudozz.in/images/destinations/meghalaya/dawki-river.jpg",
+            "https://club.kudozz.in/images/blogs/west-bengal/dooars/one-horned-rhino-jaldapara-national-park-dooars.webp",
           datePublished: "2026-09-02",
           dateModified: "2026-09-02",
           publisher: {
@@ -196,8 +196,8 @@ export default function DooarsGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/meghalaya/dawki-river.jpg"
-              alt="Forested riverbank in the Dooars foothills, West Bengal, near the Teesta and Jaldhaka rivers"
+              src="/images/blogs/west-bengal/dooars/one-horned-rhino-jaldapara-national-park-dooars.webp"
+              alt="A greater one-horned rhinoceros grazing in the grasslands of Jaldapara National Park, Dooars"
               fill
               priority
               sizes="100vw"
@@ -543,8 +543,8 @@ export default function DooarsGuidePage() {
                   <h2>Things to Do in the Dooars</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/meghalaya/dawki-river.jpg"
-                      alt="River and forest landscape in the Dooars region, West Bengal"
+                      src="/images/blogs/west-bengal/dooars/one-horned-rhino-jaldapara-national-park-dooars.webp"
+                      alt="A greater one-horned rhinoceros in the grasslands of Jaldapara National Park, a highlight safari sighting in the Dooars"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

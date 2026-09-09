@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/goa/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Generic representative forest and woodland landscape, evocative of the tree cover around Khanvel's forest belt",
+        url: "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/satmaliya-deer-sanctuary/spotted-deer-fawn-satmaliya-deer-park.webp",
+        width: 1600,
+        height: 1200,
+        alt: "A young spotted deer (chital fawn) among the trees at the Deer Park in Dadra & Nagar Haveli, near Satmaliya",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Satmaliya Deer Sanctuary: Visit Guide & Tips",
     description:
       "How to reach Satmaliya Deer Sanctuary from Silvassa, what to expect, and how to pair it with Madhuban Dam and Khanvel.",
-    images: ["/images/destinations/goa/hero.jpg"],
+    images: ["/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/satmaliya-deer-sanctuary/spotted-deer-fawn-satmaliya-deer-park.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/satmaliya-deer-sanctuary-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Satmaliya Deer Sanctuary: Visit Guide & Tips",
           description:
             "Planning a visit to Satmaliya Deer Sanctuary near Khanvel? Here's how to reach it from Silvassa, what to expect, best time to go, and how to pair it with Madhuban Dam.",
-          image: "https://club.kudozz.in/images/destinations/goa/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/satmaliya-deer-sanctuary/spotted-deer-fawn-satmaliya-deer-park.webp",
           datePublished: "2026-08-30",
           dateModified: "2026-08-30",
           publisher: {
@@ -204,8 +204,8 @@ export default function SatmaliyaDeerSanctuaryGuidePage() {
         <section className="relative min-h-[70vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/goa/hero.jpg"
-              alt="Generic representative forest and woodland landscape, evocative of the tree cover around Khanvel's forest belt"
+              src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/satmaliya-deer-sanctuary/spotted-deer-fawn-satmaliya-deer-park.webp"
+              alt="A young spotted deer (chital fawn) among the trees at the Deer Park in Dadra & Nagar Haveli, near Satmaliya"
               fill
               priority
               sizes="100vw"
@@ -552,8 +552,8 @@ export default function SatmaliyaDeerSanctuaryGuidePage() {
                   <h2>What to Expect</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/goa/beach.jpg"
-                      alt="Generic representative open landscape with tree cover, used here only as a placeholder for the sanctuary's setting"
+                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/satmaliya-deer-sanctuary/spotted-deer-fawn-satmaliya-deer-park.webp"
+                      alt="Close-up of a spotted chital deer fawn browsing in the forest at the Deer Park, Dadra & Nagar Haveli"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

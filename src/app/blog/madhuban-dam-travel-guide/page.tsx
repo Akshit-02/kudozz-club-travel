@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/goa/beach.jpg",
-        width: 1200,
-        height: 630,
-        alt: "A large, calm forest-fringed reservoir under an open sky, evoking the scenic backwaters of Madhuban Dam",
+        url: "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/madhuban-dam/madhuban-dam-reservoir-view-silvassa.webp",
+        width: 1600,
+        height: 1067,
+        alt: "The Damanganga reservoir at Madhuban Dam near Silvassa, with forested hills along the far shore",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Madhuban Dam Travel Guide: Boating & Picnic Spot",
     description:
       "A dam on the Damanganga river whose reservoir feeds Dudhni's boating scene — the complete guide to Madhuban Dam near Silvassa.",
-    images: ["/images/destinations/goa/beach.jpg"],
+    images: ["/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/madhuban-dam/madhuban-dam-reservoir-view-silvassa.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/madhuban-dam-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Madhuban Dam Travel Guide: Boating & Picnic Spot",
           description:
             "Complete Madhuban Dam guide near Silvassa — the Damanganga reservoir, dam viewpoint, boating at Dudhni, forest and birdlife, best time to visit, and a half-day plan.",
-          image: "https://club.kudozz.in/images/destinations/goa/beach.jpg",
+          image: "https://club.kudozz.in/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/madhuban-dam/madhuban-dam-reservoir-view-silvassa.webp",
           datePublished: "2026-08-30",
           dateModified: "2026-08-30",
           publisher: {
@@ -204,8 +204,8 @@ export default function MadhubanDamGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/goa/beach.jpg"
-              alt="A large, calm forest-fringed reservoir under an open sky, evoking the scenic backwaters of Madhuban Dam"
+              src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/madhuban-dam/madhuban-dam-reservoir-view-silvassa.webp"
+              alt="The Damanganga reservoir at Madhuban Dam near Silvassa, with forested hills along the far shore"
               fill
               priority
               sizes="100vw"
@@ -565,8 +565,8 @@ export default function MadhubanDamGuidePage() {
                   <h2>What to See & Do at Madhuban Dam</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/goa/hero.jpg"
-                      alt="An open, calm waterfront framed by greenery, evocative of the view from Madhuban Dam's reservoir edge"
+                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/madhuban-dam/madhuban-dam-reservoir-view-silvassa.webp"
+                      alt="View across the Madhuban Dam reservoir on the Damanganga river near Silvassa"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

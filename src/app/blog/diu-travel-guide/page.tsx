@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/goa/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Portuguese-era fort walls overlooking the sea, evoking the coastal forts of Diu",
+        url: "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu/diu-fort-sea-facing-ramparts.webp",
+        width: 1600,
+        height: 900,
+        alt: "The weathered sea-facing ramparts of Diu Fort overlooking the Arabian Sea",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Diu Travel Guide: Beaches, Fort & Weekend Trip",
     description:
       "A former Portuguese colony off Gujarat's coast — Diu Fort, quiet beaches, old-town churches, duty-free liquor, and a full 2-day itinerary.",
-    images: ["/images/destinations/goa/hero.jpg"],
+    images: ["/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu/diu-fort-sea-facing-ramparts.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/diu-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Diu Travel Guide: Beaches, Fort & Weekend Trip",
           description:
             "Complete Diu travel guide — Diu Fort, Nagoa & Ghoghla beaches, Portuguese old town, duty-free shopping, where to stay, budget tips and a 2-day itinerary.",
-          image: "https://club.kudozz.in/images/destinations/goa/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu/diu-fort-sea-facing-ramparts.webp",
           datePublished: "2026-08-30",
           dateModified: "2026-08-30",
           publisher: {
@@ -211,8 +211,8 @@ export default function DiuTravelGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/goa/hero.jpg"
-              alt="Portuguese-era fort walls overlooking the sea, evoking the coastal forts of Diu"
+              src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu/diu-fort-sea-facing-ramparts.webp"
+              alt="The weathered sea-facing ramparts of Diu Fort overlooking the Arabian Sea"
               fill
               priority
               sizes="100vw"
@@ -606,8 +606,8 @@ export default function DiuTravelGuidePage() {
                   <h2>Diu's Beaches</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/goa/beach.jpg"
-                      alt="A calm, palm-fringed tropical shoreline, evoking the relaxed feel of Diu's Nagoa and Ghoghla beaches"
+                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu/nagoa-beach-i-love-diu-hand-sculpture.webp"
+                      alt="The iconic 'I Love Diu' hand sculpture framed by palm trees at Nagoa Beach"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/kerala/alleppey.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Winding waterway through mangrove forest, evoking the Sundarbans' tidal creeks",
+        url: "/images/blogs/west-bengal/sundarbans/tourist-boat-mangrove-forest-sundarbans-national-park.webp",
+        width: 1600,
+        height: 1067,
+        alt: "A tourist launch boat on a tidal creek fringed by mangrove forest in Sundarbans National Park, West Bengal",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Sundarbans Travel Guide: Tiger Safari, Permits & Tips",
     description:
       "Royal Bengal Tiger territory, tidal mangrove creeks, and the Bonbibi legend — the complete Sundarbans guide.",
-    images: ["/images/destinations/kerala/alleppey.jpg"],
+    images: ["/images/blogs/west-bengal/sundarbans/tourist-boat-mangrove-forest-sundarbans-national-park.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/sundarbans-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Sundarbans Travel Guide: Tiger Safari, Permits & Tips",
           description:
             "Complete Sundarbans guide — Royal Bengal Tiger safaris, mangrove boat routes, permits, how to reach from Kolkata, where to stay on boat-and-lodge packages, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/kerala/alleppey.jpg",
+          image: "https://club.kudozz.in/images/blogs/west-bengal/sundarbans/tourist-boat-mangrove-forest-sundarbans-national-park.webp",
           datePublished: "2026-09-02",
           dateModified: "2026-09-02",
           publisher: {
@@ -199,8 +199,8 @@ export default function SundarbansGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/kerala/alleppey.jpg"
-              alt="Winding waterway through mangrove forest, evoking the Sundarbans' tidal creeks"
+              src="/images/blogs/west-bengal/sundarbans/tourist-boat-mangrove-forest-sundarbans-national-park.webp"
+              alt="A tourist launch boat on a tidal creek fringed by mangrove forest in Sundarbans National Park, West Bengal"
               fill
               priority
               sizes="100vw"
@@ -542,8 +542,8 @@ export default function SundarbansGuidePage() {
                   <h2>Wildlife, Safaris & Culture</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/kerala/alleppey.jpg"
-                      alt="Mangrove-lined tidal creek in the Sundarbans delta"
+                      src="/images/blogs/west-bengal/sundarbans/tourist-boat-mangrove-forest-sundarbans-national-park.webp"
+                      alt="Tourist launch boat used for wildlife safaris through the mangrove-lined creeks of Sundarbans National Park"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

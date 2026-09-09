@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/goa/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Portuguese-era fort walls and coastal architecture, evocative of Moti Daman's colonial old town",
+        url: "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/moti-daman/bom-jesus-church-interior-altar.webp",
+        width: 1600,
+        height: 1067,
+        alt: "The gilded altar and nave of Bom Jesus Church in Moti Daman's old town",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Moti Daman Travel Guide: Old Town, Churches & Fort",
     description:
       "The seat of old Portuguese Daman — Bom Jesus Church, colonial government buildings, and the massive walls of the Fort of St. Jerome, all in one walkable old town.",
-    images: ["/images/destinations/goa/hero.jpg"],
+    images: ["/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/moti-daman/bom-jesus-church-interior-altar.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/moti-daman-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Moti Daman Travel Guide: Old Town, Churches & Fort",
           description:
             "A complete guide to Moti Daman, Daman's walled old town — Bom Jesus Church's gilded altar, colonial buildings, quiet lanes, and the Fort of St. Jerome.",
-          image: "https://club.kudozz.in/images/destinations/goa/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/moti-daman/bom-jesus-church-interior-altar.webp",
           datePublished: "2026-08-30",
           dateModified: "2026-08-30",
           publisher: {
@@ -207,8 +207,8 @@ export default function MotiDamanGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/goa/hero.jpg"
-              alt="Portuguese-era fort walls and coastal architecture, evocative of Moti Daman's colonial old town"
+              src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/moti-daman/bom-jesus-church-interior-altar.webp"
+              alt="The gilded altar and nave of Bom Jesus Church in Moti Daman's old town"
               fill
               priority
               sizes="100vw"
@@ -576,8 +576,8 @@ export default function MotiDamanGuidePage() {
                   <h2>The Fort of St. Jerome</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/goa/hero.jpg"
-                      alt="Coastal fort ramparts and bastion walls, evocative of the Fort of St. Jerome's Portuguese architecture in Moti Daman"
+                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/moti-daman/moti-daman-fort-gate-arch.webp"
+                      alt="The weathered stone archway gate of Moti Daman Fort with its carved Portuguese crest"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

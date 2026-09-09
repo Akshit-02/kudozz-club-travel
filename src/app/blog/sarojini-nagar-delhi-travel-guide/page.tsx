@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jaisalmer/fort.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Sandstone architecture used here as a placeholder image — Sarojini Nagar itself is a dense open-air market of fabric-covered stalls, not a monument",
+        url: "/images/blogs/delhi/sarojini-nagar/cloth-stall-sarojini-nagar-market.webp",
+        width: 1600,
+        height: 2133,
+        alt: "A cloth-canopied clothing stall hung with export-surplus dresses at Sarojini Nagar Market, Delhi",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Sarojini Nagar Market Guide: Shopping & Bargaining Tips",
     description:
       "Export-surplus clothing, rock-bottom prices, and serious bargaining — the complete guide to Delhi's most famous street market.",
-    images: ["/images/destinations/jaisalmer/fort.jpg"],
+    images: ["/images/blogs/delhi/sarojini-nagar/cloth-stall-sarojini-nagar-market.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/sarojini-nagar-delhi-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           description:
             "Complete Sarojini Nagar market guide — export-surplus shopping, how the stalls work, bargaining strategy, nearby INA Market, best time to visit, and a half-day plan.",
           image:
-            "https://club.kudozz.in/images/destinations/jaisalmer/fort.jpg",
+            "https://club.kudozz.in/images/blogs/delhi/sarojini-nagar/cloth-stall-sarojini-nagar-market.webp",
           datePublished: "2026-08-30",
           dateModified: "2026-08-30",
           publisher: {
@@ -206,8 +206,8 @@ export default function SarojiniNagarGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jaisalmer/fort.jpg"
-              alt="Sandstone architecture used here as a placeholder image — Sarojini Nagar itself is a dense open-air market of fabric-covered stalls, not a monument"
+              src="/images/blogs/delhi/sarojini-nagar/cloth-stall-sarojini-nagar-market.webp"
+              alt="A cloth-canopied clothing stall hung with export-surplus dresses at Sarojini Nagar Market, Delhi"
               fill
               priority
               sizes="100vw"
@@ -559,8 +559,8 @@ export default function SarojiniNagarGuidePage() {
                   <h2>How the Market Works</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/jaisalmer/hero.jpg"
-                      alt="Sandstone architecture used as a placeholder — not an actual photograph of Sarojini Nagar market"
+                      src="/images/blogs/delhi/sarojini-nagar/cloth-stall-sarojini-nagar-market.webp"
+                      alt="Rows of export-surplus clothing hanging at a Sarojini Nagar Market stall in Delhi"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

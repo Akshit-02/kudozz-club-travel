@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/goa/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Portuguese-era fort walls overlooking the sea, evoking the coastal forts of Daman",
+        url: "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/daman/fort-of-st-jerome-gate-daman.webp",
+        width: 1600,
+        height: 1200,
+        alt: "The ornate Portuguese-era stone gateway, topped with a cross, of the Fort of St. Jerome in Daman",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Daman Travel Guide: Forts, Beaches & Weekend Trip",
     description:
       "Forts, quiet beaches, and duty-free shopping on Gujarat's coast — the complete Daman travel guide.",
-    images: ["/images/destinations/goa/hero.jpg"],
+    images: ["/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/daman/fort-of-st-jerome-gate-daman.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/daman-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Daman Travel Guide: Forts, Beaches & Weekend Trip",
           description:
             "The complete Daman travel guide — Moti Daman Fort, Nani Daman, Devka & Jampore beaches, Vanganga Lake Garden, duty-free shopping, food, stay and a full 2-day itinerary.",
-          image: "https://club.kudozz.in/images/destinations/goa/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/daman/fort-of-st-jerome-gate-daman.webp",
           datePublished: "2026-08-30",
           dateModified: "2026-08-30",
           publisher: {
@@ -209,8 +209,8 @@ export default function DamanGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/goa/hero.jpg"
-              alt="Portuguese-era fort walls overlooking the sea, evoking the coastal forts of Daman"
+              src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/daman/fort-of-st-jerome-gate-daman.webp"
+              alt="The ornate Portuguese-era stone gateway, topped with a cross, of the Fort of St. Jerome in Daman"
               fill
               priority
               sizes="100vw"
@@ -593,8 +593,8 @@ export default function DamanGuidePage() {
                   <h2>Moti Daman: The Historic Walled Quarter</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/goa/hero.jpg"
-                      alt="Coastal fort ramparts by the sea, evocative of the Portuguese-era Fort of St. Jerome in Moti Daman"
+                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/daman/fort-of-st-jerome-gate-daman.webp"
+                      alt="The ornate carved stone entrance gate of the Fort of St. Jerome, Daman"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -667,8 +667,8 @@ export default function DamanGuidePage() {
                   <h2>Devka & Jampore Beaches</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/goa/beach.jpg"
-                      alt="A quiet, tree-lined coastal beach, representative of Daman's Devka and Jampore beaches"
+                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/daman/devka-beach-sunset-tidal-flats.webp"
+                      alt="Sunset over the tidal flats of Devka Beach, Daman"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/manali/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Terraced hill slopes and mountain views around Kalimpong, West Bengal",
+        url: "/images/blogs/west-bengal/kalimpong/zang-dhok-palri-phodang-monastery-kalimpong.webp",
+        width: 1600,
+        height: 960,
+        alt: "The colourful facade of Zang Dhok Palri Phodang, a Tibetan Buddhist monastery in Kalimpong",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Kalimpong Travel Guide: Monasteries, Flowers & Views",
     description:
       "Hilltop monasteries, orchid and cactus nurseries, and sweeping Teesta valley views — the complete Kalimpong guide.",
-    images: ["/images/destinations/manali/hero.jpg"],
+    images: ["/images/blogs/west-bengal/kalimpong/zang-dhok-palri-phodang-monastery-kalimpong.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/kalimpong-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Kalimpong Travel Guide: Monasteries, Flowers & Views",
           description:
             "Complete Kalimpong guide — Durpin Monastery, Deolo Hill, the town's famous flower nurseries, Dr Graham's Homes, how to reach it from Bagdogra and Darjeeling, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/manali/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/west-bengal/kalimpong/zang-dhok-palri-phodang-monastery-kalimpong.webp",
           datePublished: "2026-09-02",
           dateModified: "2026-09-02",
           publisher: {
@@ -196,8 +196,8 @@ export default function KalimpongGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/manali/hero.jpg"
-              alt="Terraced hill slopes and mountain views around Kalimpong, West Bengal"
+              src="/images/blogs/west-bengal/kalimpong/zang-dhok-palri-phodang-monastery-kalimpong.webp"
+              alt="The colourful facade of Zang Dhok Palri Phodang, a Tibetan Buddhist monastery in Kalimpong"
               fill
               priority
               sizes="100vw"
@@ -535,8 +535,8 @@ export default function KalimpongGuidePage() {
                   <h2>Things to Do in Kalimpong</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/manali/hero.jpg"
-                      alt="Ridge-top views over the Teesta valley near Kalimpong, West Bengal"
+                      src="/images/blogs/west-bengal/kalimpong/zang-dhok-palri-phodang-monastery-kalimpong.webp"
+                      alt="Zang Dhok Palri Phodang monastery, one of Kalimpong's best-known Tibetan Buddhist landmarks"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

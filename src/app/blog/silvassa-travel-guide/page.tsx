@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/goa/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Lush green Indian heritage landscape, used here to represent Silvassa's forested, inland character rather than a literal photo of the town",
+        url: "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/silvassa/silvassa-road-signage-khanvel-collectorate.webp",
+        width: 1600,
+        height: 1063,
+        alt: "A road sign in Silvassa pointing toward Khanvel, the Collectorate, District Court and Secretariat",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Silvassa Travel Guide: Lakes, Forests & Tribal Culture",
     description:
       "Lakes, forested hills, Warli tribal art and a string of quiet day-trip destinations — the complete guide to Silvassa, capital of Dadra & Nagar Haveli.",
-    images: ["/images/destinations/goa/hero.jpg"],
+    images: ["/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/silvassa/silvassa-road-signage-khanvel-collectorate.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/silvassa-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Silvassa Travel Guide: Lakes, Forests & Tribal Culture",
           description:
             "Complete Silvassa travel guide — capital of Dadra & Nagar Haveli. Dudhni lake, Khanvel gardens, Satmaliya Deer Sanctuary, Madhuban Dam, Warli tribal art, best time, how to reach, stay, food and a 2-day itinerary.",
-          image: "https://club.kudozz.in/images/destinations/goa/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/silvassa/silvassa-road-signage-khanvel-collectorate.webp",
           datePublished: "2026-08-30",
           dateModified: "2026-08-30",
           publisher: {
@@ -210,8 +210,8 @@ export default function SilvassaGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/goa/hero.jpg"
-              alt="Lush green Indian heritage landscape, used here to represent Silvassa's forested, inland character rather than a literal photo of the town"
+              src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/silvassa/silvassa-road-signage-khanvel-collectorate.webp"
+              alt="A road sign in Silvassa pointing toward Khanvel, the Collectorate, District Court and Secretariat"
               fill
               priority
               sizes="100vw"
@@ -578,8 +578,8 @@ export default function SilvassaGuidePage() {
                   <h2>Dudhni: Lake & Tribal Museum</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/goa/beach.jpg"
-                      alt="A calm inland waterfront scene, used here to represent the general feel of a reservoir lake rather than a literal photo of Dudhni"
+                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/silvassa/damanganga-riverside-near-silvassa.webp"
+                      alt="The Damanganga River near Silvassa, the water body feeding the region's Dudhni reservoir and lake"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

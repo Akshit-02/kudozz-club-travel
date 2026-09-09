@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/goa/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Coastal fort ramparts by the sea, evocative of the Portuguese-era forts along Daman's coastline",
+        url: "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/nani-daman/nani-daman-fort-entrance-gate.webp",
+        width: 1600,
+        height: 1200,
+        alt: "The weathered stone entrance gate of Nani Daman Fort, carved with a cross and lion reliefs",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Nani Daman Travel Guide: Fort, Harbour & Lighthouse",
     description:
       "The smaller, northern quarter of Daman town — a working fishing harbour, the Fort of St. Francis Xavier, and a lighthouse across the river from Moti Daman.",
-    images: ["/images/destinations/goa/hero.jpg"],
+    images: ["/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/nani-daman/nani-daman-fort-entrance-gate.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/nani-daman-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Nani Daman Travel Guide: Fort, Harbour & Lighthouse",
           description:
             "Nani Daman travel guide — the smaller northern quarter of Daman town, home to the Fort of St. Francis Xavier, a working fishing harbour, and the lighthouse.",
-          image: "https://club.kudozz.in/images/destinations/goa/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/nani-daman/nani-daman-fort-entrance-gate.webp",
           datePublished: "2026-08-30",
           dateModified: "2026-08-30",
           publisher: {
@@ -205,8 +205,8 @@ export default function NaniDamanGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/goa/hero.jpg"
-              alt="Coastal fort ramparts by the sea, evocative of the Portuguese-era forts along Daman's coastline"
+              src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/nani-daman/nani-daman-fort-entrance-gate.webp"
+              alt="The weathered stone entrance gate of Nani Daman Fort, carved with a cross and lion reliefs"
               fill
               priority
               sizes="100vw"
@@ -605,8 +605,8 @@ export default function NaniDamanGuidePage() {
                   <h2>The Fishing Harbour & Jetty</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/goa/beach.jpg"
-                      alt="A working coastal harbour scene with boats moored along the shore, evocative of Nani Daman's fishing jetty"
+                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/nani-daman/nani-daman-fishing-boats-harbour.webp"
+                      alt="Fishing boats moored at Daman's harbour, with the fort and lighthouse visible across the water"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jaisalmer/fort.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Sandstone architecture at golden hour — generic representative Indian imagery used here, as no specific photograph of Janakpuri is available",
+        url: "/images/blogs/delhi/janakpuri/janakpuri-west-metro-interchange-signage.webp",
+        width: 1600,
+        height: 1200,
+        alt: "The Janakpuri West metro station concourse with signage for the Blue and Magenta line interchange",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Janakpuri Delhi Guide: Parks, Markets & Transport",
     description:
       "West Delhi's largest planned residential colony — District Park, local markets, and a major Metro interchange, explained practically.",
-    images: ["/images/destinations/jaisalmer/fort.jpg"],
+    images: ["/images/blogs/delhi/janakpuri/janakpuri-west-metro-interchange-signage.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/janakpuri-delhi-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           description:
             "A practical guide to Janakpuri, West Delhi's planned residential colony — District Park, local markets, the Janakpuri West Metro interchange, and why it's worth knowing about.",
           image:
-            "https://club.kudozz.in/images/destinations/jaisalmer/fort.jpg",
+            "https://club.kudozz.in/images/blogs/delhi/janakpuri/janakpuri-west-metro-interchange-signage.webp",
           datePublished: "2026-08-30",
           dateModified: "2026-08-30",
           publisher: {
@@ -205,8 +205,8 @@ export default function JanakpuriGuidePage() {
         <section className="relative min-h-[65vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jaisalmer/fort.jpg"
-              alt="Sandstone architecture at golden hour — generic representative Indian imagery used here, as no specific photograph of Janakpuri is available"
+              src="/images/blogs/delhi/janakpuri/janakpuri-west-metro-interchange-signage.webp"
+              alt="The Janakpuri West metro station concourse with signage for the Blue and Magenta line interchange"
               fill
               priority
               sizes="100vw"
@@ -528,8 +528,8 @@ export default function JanakpuriGuidePage() {
                   <h2>District Park, Janakpuri</h2>
                   <div className="relative w-full rounded-xl my-6 h-64 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/jaisalmer/hero.jpg"
-                      alt="Generic Indian landscape imagery used here as a representative visual — not an actual photograph of District Park, Janakpuri"
+                      src="/images/blogs/delhi/janakpuri/janakpuri-west-metro-interchange-signage.webp"
+                      alt="Janakpuri West metro station, the interchange serving Janakpuri's residents near District Park"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

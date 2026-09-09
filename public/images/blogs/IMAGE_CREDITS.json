@@ -1150,6 +1150,456 @@
       "license": "CC BY 3.0",
       "author": "Biswarup Ganguly",
       "attribution": "Photo by Biswarup Ganguly, CC BY 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/satmaliya-deer-sanctuary/spotted-deer-fawn-satmaliya-deer-park.webp",
+      "usedIn": ["satmaliya-deer-sanctuary-travel-guide (hero + inline — replaces a Goa photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Baby_Cheetal_Deer.jpg",
+      "originalFile": "Baby Cheetal Deer.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Bhaskar.das47",
+      "attribution": "Photo by Bhaskar.das47, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/vanganga-lake-garden/vanganga-lake-garden-lakeside-view-silvassa.webp",
+      "usedIn": ["vanganga-lake-garden-travel-guide (hero + inline — replaces a Goa photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Vanganga_Lake,_Dadra_-_panoramio.jpg",
+      "originalFile": "Vanganga Lake, Dadra - panoramio.jpg",
+      "license": "CC BY 3.0",
+      "author": "Raman Patel",
+      "attribution": "Photo by Raman Patel, CC BY 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/madhuban-dam/madhuban-dam-reservoir-view-silvassa.webp",
+      "usedIn": ["madhuban-dam-travel-guide (hero + inline — replaces a Goa photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:A_Beautiful_Nature_of_Silvassa.jpg",
+      "originalFile": "A Beautiful Nature of Silvassa.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Vishnukumar Jangid",
+      "attribution": "Photo by Vishnukumar Jangid, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/gangeshwar-temple/gangeshwar-temple-shivlings-rock-shrine-diu.webp",
+      "usedIn": ["gangeshwar-temple-travel-guide (hero + inline — replaces a Goa photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Gangeshwar_Temple.jpg",
+      "originalFile": "Gangeshwar Temple.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Shakti",
+      "attribution": "Photo by Shakti, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/west-bengal/kolkata/howrah-bridge-cantilever-hooghly-river-kolkata.webp",
+      "usedIn": ["kolkata-travel-guide (hero — replaces a Puducherry photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Howrah_Bridge_02.jpg",
+      "originalFile": "Howrah Bridge 02.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Bernard Gagnon",
+      "attribution": "Photo by Bernard Gagnon, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/west-bengal/kolkata/victoria-memorial-west-facade-kolkata.webp",
+      "usedIn": ["kolkata-travel-guide (Colonial Landmarks & Temples section)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Victoria_Memorial,_Kolkata_-_West_facade_01.jpg",
+      "originalFile": "Victoria Memorial, Kolkata - West facade 01.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Bernard Gagnon",
+      "attribution": "Photo by Bernard Gagnon, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/west-bengal/darjeeling/tiger-hill-kanchenjunga-sunrise-darjeeling.webp",
+      "usedIn": ["darjeeling-travel-guide (hero — replaces a Meghalaya photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:The_majestic_kanchenjunga.jpg",
+      "originalFile": "The majestic kanchenjunga.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "K94t",
+      "attribution": "Photo by K94t, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/west-bengal/darjeeling/darjeeling-himalayan-railway-toy-train.webp",
+      "usedIn": ["darjeeling-travel-guide (Things to Do section)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Toy_Train_by_Paramanu_Sarkar_01.jpg",
+      "originalFile": "Toy Train by Paramanu Sarkar 01.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Paramanu Sarkar",
+      "attribution": "Photo by Paramanu Sarkar, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/west-bengal/kalimpong/zang-dhok-palri-phodang-monastery-kalimpong.webp",
+      "usedIn": ["kalimpong-travel-guide (hero + inline — replaces a Manali photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Zang_Dhok_Palri_Phodang_01.jpg",
+      "originalFile": "Zang Dhok Palri Phodang 01.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Bernard Gagnon",
+      "attribution": "Photo by Bernard Gagnon, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/west-bengal/sandakphu/kanchenjunga-range-view-sandakphu-singalila.webp",
+      "usedIn": ["sandakphu-travel-guide (hero + inline — replaces a Rohtang Pass photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2024-03-10_Kumbhakarna,_Kangchenjunga_and_Pandim_mountains_seen_from_Sandakphu_2.jpg",
+      "originalFile": "2024-03-10 Kumbhakarna, Kangchenjunga and Pandim mountains seen from Sandakphu 2.jpg",
+      "license": "CC BY 4.0",
+      "author": "Alexkom000",
+      "attribution": "Photo by Alexkom000, CC BY 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/west-bengal/dooars/one-horned-rhino-jaldapara-national-park-dooars.webp",
+      "usedIn": ["dooars-travel-guide (hero + inline — replaces a Meghalaya photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Rhino_at_Jaldapara.jpg",
+      "originalFile": "Rhino at Jaldapara.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Rupaks",
+      "attribution": "Photo by Rupaks, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/west-bengal/sundarbans/tourist-boat-mangrove-forest-sundarbans-national-park.webp",
+      "usedIn": ["sundarbans-travel-guide (hero + inline — replaces a Kerala photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Tourist_Boat_in_Sundarbans,_West_Bengal,_India_01.jpg",
+      "originalFile": "Tourist Boat in Sundarbans, West Bengal, India 01.jpg",
+      "license": "CC BY 4.0",
+      "author": "Kingshuk Mondal",
+      "attribution": "Photo by Kingshuk Mondal, CC BY 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/sarojini-nagar/cloth-stall-sarojini-nagar-market.webp",
+      "usedIn": ["sarojini-nagar-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Cloth_Stall_at_Sarojini_Nagar_Market,_Delhi.jpg",
+      "originalFile": "Cloth Stall at Sarojini Nagar Market, Delhi.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Dev Jadiya",
+      "attribution": "Photo by Dev Jadiya, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/paharganj/main-bazaar-paharganj-street-scene.webp",
+      "usedIn": ["paharganj-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Main_Bazaar,_Paharganj,_Delhi,_India.jpg",
+      "originalFile": "Main Bazaar, Paharganj, Delhi, India.jpg",
+      "license": "CC BY 4.0",
+      "author": "Vyacheslav Argenberg",
+      "attribution": "Photo by Vyacheslav Argenberg, CC BY 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/kashmere-gate/kashmere-gate-brick-arches-ruins.webp",
+      "usedIn": ["kashmere-gate-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kashmiri_Gate_002.jpg",
+      "originalFile": "Kashmiri Gate 002.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Anupamg",
+      "attribution": "Photo by Anupamg, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/rohini/japanese-park-carved-tree-sculpture-rohini.webp",
+      "usedIn": ["rohini-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Japnese_park_rohini,Delhi.jpg",
+      "originalFile": "Japnese park rohini,Delhi.jpg",
+      "license": "CC0",
+      "author": "Krishnav25",
+      "attribution": "Photo by Krishnav25, CC0 (public domain dedication), via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/janakpuri/janakpuri-west-metro-interchange-signage.webp",
+      "usedIn": ["janakpuri-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Janakpuri_West_(Delhi)_metro_station.jpg",
+      "originalFile": "Janakpuri West (Delhi) metro station.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Santosh4118",
+      "attribution": "Photo by Santosh4118, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/laxmi-nagar/laxmi-nagar-market-road-view.webp",
+      "usedIn": ["laxmi-nagar-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Laxmi_Nagar_view.jpg",
+      "originalFile": "Laxmi Nagar view.jpg",
+      "license": "CC BY 4.0",
+      "author": "Immanuelle",
+      "attribution": "Photo by Immanuelle, CC BY 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/najafgarh/najafgarh-drain-aerial-view.webp",
+      "usedIn": ["najafgarh-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Najafgarh_Drain_-_Aerial_View_-_New_Delhi_2016-08-04_5779.JPG",
+      "originalFile": "Najafgarh Drain - Aerial View - New Delhi 2016-08-04 5779.JPG",
+      "license": "CC BY 3.0",
+      "author": "Biswarup Ganguly",
+      "attribution": "Photo by Biswarup Ganguly, CC BY 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu/diu-fort-sea-facing-ramparts.webp",
+      "usedIn": ["diu-travel-guide (hero — replaces a Goa photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Diu_Fort.JPG",
+      "originalFile": "Diu Fort.JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "Krishna Vir Singh",
+      "attribution": "Photo by Krishna Vir Singh, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu/nagoa-beach-i-love-diu-hand-sculpture.webp",
+      "usedIn": ["diu-travel-guide (beaches section)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Nagoa_Beach,_Diu.jpg",
+      "originalFile": "Nagoa Beach, Diu.jpg",
+      "license": "Public Domain",
+      "author": "SyeN",
+      "attribution": "Photo by SyeN, public domain, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/daman/fort-of-st-jerome-gate-daman.webp",
+      "usedIn": ["daman-travel-guide (hero + Moti Daman inline section — replaces a Goa photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Fort_of_St._Jerome,_Nani_Daman.jpg",
+      "originalFile": "Fort of St. Jerome, Nani Daman.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Ameyawiki",
+      "attribution": "Photo by Ameyawiki, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/daman/devka-beach-sunset-tidal-flats.webp",
+      "usedIn": ["daman-travel-guide (Devka Beach section)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Devka_beach_sunset_in_daman.jpg",
+      "originalFile": "Devka beach sunset in daman.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Dublinsantosh",
+      "attribution": "Photo by Dublinsantosh, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/silvassa/silvassa-road-signage-khanvel-collectorate.webp",
+      "usedIn": ["silvassa-travel-guide (hero — replaces a Goa photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Dadra_and_Nagar_Haveli_Silvassa_2.jpg",
+      "originalFile": "Dadra and Nagar Haveli Silvassa 2.jpg",
+      "license": "CC BY 2.0",
+      "author": "Sharada Prasad CS",
+      "attribution": "Photo by Sharada Prasad CS, CC BY 2.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/silvassa/damanganga-riverside-near-silvassa.webp",
+      "usedIn": ["silvassa-travel-guide (Dudhni section)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Dadra_and_Nagar_Haveli_Silvassa.jpg",
+      "originalFile": "Dadra and Nagar Haveli Silvassa.jpg",
+      "license": "CC BY 2.0",
+      "author": "Sharada Prasad CS",
+      "attribution": "Photo by Sharada Prasad CS, CC BY 2.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/dudhni/dudhni-lake-reservoir-boating-view.webp",
+      "usedIn": ["dudhni-travel-guide (hero — replaces a Goa photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Wonderful_sky_with_pond.jpg",
+      "originalFile": "Wonderful sky with pond.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Vta patel",
+      "attribution": "Photo by Vta patel, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/dudhni/dudhni-lake-island-hills.webp",
+      "usedIn": ["dudhni-travel-guide (inline section)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:One_type_of_iland.jpg",
+      "originalFile": "One type of iland.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Vta patel",
+      "attribution": "Photo by Vta patel, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/jampore-beach/jampore-beach-shoreline-waves-daman.webp",
+      "usedIn": ["jampore-beach-travel-guide (hero — replaces a Goa photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Jampore_Beach_Daman_India.jpg",
+      "originalFile": "Jampore Beach Daman India.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Nizil Shah",
+      "attribution": "Photo by Nizil Shah, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/jampore-beach/jampore-beach-fishing-boat-sea.webp",
+      "usedIn": ["jampore-beach-travel-guide (inline section)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Boat_at_Jampore_Beach,_Daman,_India.jpg",
+      "originalFile": "Boat at Jampore Beach, Daman, India.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Ameyawiki",
+      "attribution": "Photo by Ameyawiki, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/devka-beach/devka-beach-black-sand-shoreline-daman.webp",
+      "usedIn": ["devka-beach-travel-guide (hero — replaces a Goa photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Daman_Devka_Beach_HighTide.JPG",
+      "originalFile": "Daman Devka Beach HighTide.JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "Pradeep717",
+      "attribution": "Photo by Pradeep717, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/devka-beach/devka-beach-low-tide-rocky-flats.webp",
+      "usedIn": ["devka-beach-travel-guide (inline section)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Daman_Devka_Beach_LowTide.JPG",
+      "originalFile": "Daman Devka Beach LowTide.JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "Pradeep717",
+      "attribution": "Photo by Pradeep717, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu-fort/diu-fort-sea-facing-ramparts.webp",
+      "usedIn": ["diu-fort-travel-guide (hero — replaces a Goa photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Diu_fort_Sea_View.JPG",
+      "originalFile": "Diu fort Sea View.JPG",
+      "license": "CC BY-SA 4.0",
+      "author": "Aditya Mahar",
+      "attribution": "Photo by Aditya Mahar, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu-fort/diu-fort-chapel-doorway-interior.webp",
+      "usedIn": ["diu-fort-travel-guide (inline section)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Diu_Fortress,_fort_interior.jpg",
+      "originalFile": "Diu Fortress, fort interior.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Radhi.pandit",
+      "attribution": "Photo by Radhi.pandit, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/moti-daman/bom-jesus-church-interior-altar.webp",
+      "usedIn": ["moti-daman-travel-guide (hero — replaces a Goa photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Church_of_Bom_Jesus,_Daman,_Dadra_and_Nagar_Haveli_and_Daman_and_Diu,_India_(2015).jpg",
+      "originalFile": "Church of Bom Jesus, Daman, Dadra and Nagar Haveli and Daman and Diu, India (2015).jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Miteshnathani",
+      "attribution": "Photo by Miteshnathani, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/moti-daman/moti-daman-fort-gate-arch.webp",
+      "usedIn": ["moti-daman-travel-guide (Fort of St. Jerome section)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Daman_MotiDaman_Fort.JPG",
+      "originalFile": "Daman MotiDaman Fort.JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "Pradeep717",
+      "attribution": "Photo by Pradeep717, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/naida-caves/naida-caves-sandstone-chamber-roots.webp",
+      "usedIn": ["naida-caves-travel-guide (hero — replaces a Goa photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Naida_Caves2.jpg",
+      "originalFile": "Naida Caves2.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Vipulvaibhav5",
+      "attribution": "Photo by Vipulvaibhav5, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/naida-caves/naida-caves-sunlit-rock-formations.webp",
+      "usedIn": ["naida-caves-travel-guide (inline section)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Naida_Caves.jpg",
+      "originalFile": "Naida Caves.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Vipulvaibhav5",
+      "attribution": "Photo by Vipulvaibhav5, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/ghoghla-beach/ghoghla-beach-waves-sand-diu.webp",
+      "usedIn": ["ghoghla-beach-travel-guide (hero — replaces a Goa photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Clean_coast_between_Ghoghla_and_Khodighar_Beach,_Diu-20-_29.06.2021.jpg",
+      "originalFile": "Clean coast between Ghoghla and Khodighar Beach, Diu-20- 29.06.2021.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "SMarndi",
+      "attribution": "Photo by SMarndi, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/ghoghla-beach/ghoghla-beach-rocky-coastline.webp",
+      "usedIn": ["ghoghla-beach-travel-guide (Water Sports section)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Wide_view_of_rock_coast,_Diu-16-_29.06.2021.jpg",
+      "originalFile": "Wide view of rock coast, Diu-16- 29.06.2021.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "SMarndi",
+      "attribution": "Photo by SMarndi, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/khanvel/madhuban-dam-view-near-khanvel.webp",
+      "usedIn": ["khanvel-travel-guide (hero — replaces a Goa photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:A_Beautiful_Nature_of_Silvassa.jpg",
+      "originalFile": "A Beautiful Nature of Silvassa.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Vishnukumar Jangid",
+      "attribution": "Photo by Vishnukumar Jangid, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/khanvel/forest-owlet-dadra-nagar-haveli.webp",
+      "usedIn": ["khanvel-travel-guide (Khanvel Garden section)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Forest_Owlet_by_Saswat_Mishra.jpg",
+      "originalFile": "Forest Owlet by Saswat Mishra.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Saswatmishra1407",
+      "attribution": "Photo by Saswatmishra1407, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/moti-daman-fort/moti-daman-fort-east-gate-inscription.webp",
+      "usedIn": ["moti-daman-fort-travel-guide (hero — replaces a Goa photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:East_Gate_of_Moti_Daman_fort_with_inscription.jpg",
+      "originalFile": "East Gate of Moti Daman fort with inscription.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Nizil Shah",
+      "attribution": "Photo by Nizil Shah, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/moti-daman-fort/moti-daman-fort-lighthouse-estuary-view.webp",
+      "usedIn": ["moti-daman-fort-travel-guide (Sea-Facing Bastions & Daman Ganga Estuary section)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Moti_Daman_fort_wall,_Daman_lighthouse_and_Damanganga_mouth_to_Arabian_Sea_01.jpg",
+      "originalFile": "Moti Daman fort wall, Daman lighthouse and Damanganga mouth to Arabian Sea 01.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Nizil Shah",
+      "attribution": "Photo by Nizil Shah, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/nani-daman/nani-daman-fort-entrance-gate.webp",
+      "usedIn": ["nani-daman-travel-guide (hero — replaces a Goa photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Daman_NaniDaman_Fort_Entrance.JPG",
+      "originalFile": "Daman NaniDaman Fort Entrance.JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "Pradeep717",
+      "attribution": "Photo by Pradeep717, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/nani-daman/nani-daman-fishing-boats-harbour.webp",
+      "usedIn": ["nani-daman-travel-guide (Fishing Harbour & Jetty section)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:The_port_of_Daman,_India.jpg",
+      "originalFile": "The port of Daman, India.jpg",
+      "license": "CC BY 2.0",
+      "author": "Ashok Prabhakaran",
+      "attribution": "Photo by Ashok Prabhakaran, CC BY 2.0, via Wikimedia Commons"
     }
   ]
 }

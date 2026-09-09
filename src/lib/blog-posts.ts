@@ -1781,7 +1781,7 @@ export const posts = [
     title: "Sarojini Nagar Market Guide: Shopping & Bargaining Tips",
     excerpt:
       "A maze of stalls selling export-surplus clothing, footwear, and accessories at rock-bottom prices — how to shop Sarojini Nagar well and bargain like a local.",
-    image: "/images/destinations/jaisalmer/fort.jpg",
+    image: "/images/blogs/delhi/sarojini-nagar/cloth-stall-sarojini-nagar-market.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Sarojini Nagar", "Delhi", "Street Shopping", "Export Surplus", "Bargaining"],
@@ -1793,7 +1793,7 @@ export const posts = [
     title: "Paharganj Travel Guide: Main Bazaar & Budget Stays",
     excerpt:
       "Delhi's classic backpacker district — Main Bazaar shopping, budget guesthouses, cheap eats, and honest safety tips, all right beside New Delhi Railway Station.",
-    image: "/images/destinations/jaisalmer/fort.jpg",
+    image: "/images/blogs/delhi/paharganj/main-bazaar-paharganj-street-scene.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Paharganj", "Delhi", "Main Bazaar", "Backpacking", "Budget Travel"],
@@ -1805,7 +1805,7 @@ export const posts = [
     title: "Kashmere Gate Travel Guide: History, 1857 Sites & the ISBT Hub",
     excerpt:
       "Shahjahanabad's northern gate, an 1857 Revolt battleground, St. James' Church, Nicholson Cemetery, and Delhi's biggest ISBT transit hub — with a suggested heritage-walk plan.",
-    image: "/images/destinations/jaisalmer/fort.jpg",
+    image: "/images/blogs/delhi/kashmere-gate/kashmere-gate-brick-arches-ruins.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Kashmere Gate", "Delhi", "1857 Revolt", "Old Delhi", "St. James Church", "ISBT"],
@@ -1817,7 +1817,7 @@ export const posts = [
     title: "Rohini Delhi Guide: Japanese Park & Family Outings",
     excerpt:
       "A practical Rohini guide — Delhi's huge DDA residential sub-city known for Japanese Park, Adventure Island, and extensive Metro coverage, not for heritage sightseeing.",
-    image: "/images/destinations/jaisalmer/fort.jpg",
+    image: "/images/blogs/delhi/rohini/japanese-park-carved-tree-sculpture-rohini.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Rohini", "Delhi", "Japanese Park", "Adventure Island", "North West Delhi", "Family Outing"],
@@ -1829,7 +1829,7 @@ export const posts = [
     title: "Janakpuri Delhi Guide: Parks, Markets & Transport",
     excerpt:
       "A practical guide to Janakpuri, West Delhi's planned residential colony — District Park, local markets, the Janakpuri West Metro interchange, and why it's worth knowing about.",
-    image: "/images/destinations/jaisalmer/fort.jpg",
+    image: "/images/blogs/delhi/janakpuri/janakpuri-west-metro-interchange-signage.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Janakpuri", "Delhi", "West Delhi", "Delhi Metro", "District Park"],
@@ -1841,7 +1841,7 @@ export const posts = [
     title: "Laxmi Nagar, Delhi: Market, Coaching Hub & Local Food Guide",
     excerpt:
       "A local's guide to Laxmi Nagar, Delhi — East Delhi's dense market-and-coaching neighbourhood, its UPSC/SSC institute ecosystem, PG accommodation, street food, and how to reach it by metro.",
-    image: "/images/destinations/jaisalmer/fort.jpg",
+    image: "/images/blogs/delhi/laxmi-nagar/laxmi-nagar-market-road-view.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Laxmi Nagar", "Delhi", "UPSC Coaching", "Nirman Vihar Metro", "East Delhi", "Student Life", "Local Market"],
@@ -1853,7 +1853,7 @@ export const posts = [
     title: "Najafgarh Delhi Guide: History, Jheel & Sehwag",
     excerpt:
       "An honest guide to Najafgarh — Nawab Najaf Khan's 18th-century fort roots, the shrinking Najafgarh Jheel wetland, and its fame as Virender Sehwag's hometown.",
-    image: "/images/destinations/jaisalmer/fort.jpg",
+    image: "/images/blogs/delhi/najafgarh/najafgarh-drain-aerial-view.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Najafgarh", "Delhi", "Najafgarh Jheel", "Virender Sehwag", "South West Delhi"],
@@ -1865,7 +1865,7 @@ export const posts = [
     title: "Diu Travel Guide: Beaches, Fort & Weekend Trip",
     excerpt:
       "A former Portuguese colony off Gujarat's coast — Diu Fort, quiet beaches, old-town churches, duty-free liquor, and a full 2-day itinerary.",
-    image: "/images/destinations/goa/hero.jpg",
+    image: "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu/diu-fort-sea-facing-ramparts.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Diu", "Daman and Diu", "Diu Fort", "Nagoa Beach", "Portuguese Heritage", "Island Getaway"],
@@ -1877,7 +1877,7 @@ export const posts = [
     title: "Daman Travel Guide: Forts, Beaches & Weekend Trip",
     excerpt:
       "A former Portuguese enclave split by the Daman Ganga river into Moti Daman and Nani Daman — forts, quiet beaches, duty-free shopping, and a full 2-day itinerary for this Gujarat coastal getaway.",
-    image: "/images/destinations/goa/hero.jpg",
+    image: "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/daman/fort-of-st-jerome-gate-daman.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Daman", "Daman and Diu", "Moti Daman", "Nani Daman", "Portuguese Heritage", "Weekend Trip", "Gujarat Coast"],
@@ -1889,7 +1889,7 @@ export const posts = [
     title: "Silvassa Travel Guide: Lakes, Forests & Tribal Culture",
     excerpt:
       "Capital of Dadra & Nagar Haveli — Dudhni's lake and Tribal Museum, Khanvel's gardens, Satmaliya Deer Sanctuary, Madhuban Dam, Warli tribal art, and a full 2-day itinerary for this green, inland weekend escape near Mumbai.",
-    image: "/images/destinations/goa/hero.jpg",
+    image: "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/silvassa/silvassa-road-signage-khanvel-collectorate.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Silvassa", "Dadra and Nagar Haveli", "Dudhni", "Khanvel", "Warli Art", "Weekend Trip"],
@@ -1901,7 +1901,7 @@ export const posts = [
     title: "Dudhni Lake Travel Guide: Boating Near Silvassa",
     excerpt:
       "A short drive from Silvassa, Dudhni is a quiet reservoir village on the Madhuban Dam backwaters — motorboat rides, picnic spots, and an easy half-day escape from town.",
-    image: "/images/destinations/goa/beach.jpg",
+    image: "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/dudhni/dudhni-lake-reservoir-boating-view.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Dudhni", "Dadra and Nagar Haveli", "Silvassa", "Madhuban Dam", "Boating"],
@@ -1925,7 +1925,7 @@ export const posts = [
     title: "Jampore Beach Daman: Camel Rides, Timings & Tips",
     excerpt:
       "A long, quiet, casuarina-lined beach south of Moti Daman — camel and pony rides, sunset walks, and honest advice on swimming conditions.",
-    image: "/images/destinations/goa/beach.jpg",
+    image: "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/jampore-beach/jampore-beach-shoreline-waves-daman.webp",
     category: "Beaches",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Jampore Beach", "Daman", "Daman and Diu", "Moti Daman", "Camel Ride", "Sunset Point"],
@@ -1937,7 +1937,7 @@ export const posts = [
     title: "Devka Beach Daman: Promenade, Rides & Activities",
     excerpt:
       "Daman's busiest, most developed beach — a landscaped seafront promenade, garden, rock-climbing wall, camel rides, and food stalls, with honest advice on the rocky shoreline and best evening visit plan.",
-    image: "/images/destinations/goa/beach.jpg",
+    image: "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/devka-beach/devka-beach-black-sand-shoreline-daman.webp",
     category: "Beaches",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Devka Beach", "Daman", "Daman and Diu", "Nani Daman", "Beaches", "Family Trip", "Sunset Point"],
@@ -1949,7 +1949,7 @@ export const posts = [
     title: "Diu Fort Travel Guide: History, Timings & Tips",
     excerpt:
       "A 16th-century Portuguese sea fort with a seawater-filled moat, original cannons, and one of the best sunset spots on India's west coast — the complete guide to Diu Fort.",
-    image: "/images/destinations/goa/hero.jpg",
+    image: "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu-fort/diu-fort-sea-facing-ramparts.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Diu Fort", "Diu", "Daman and Diu", "Portuguese Heritage", "Sea Fort", "Heritage Sites", "Sunset Point"],
@@ -1961,7 +1961,7 @@ export const posts = [
     title: "Moti Daman Travel Guide: Old Town, Churches & Fort",
     excerpt:
       "Massive fort walls, a gilded church altar, and the quiet lanes of old Portuguese administration — inside Moti Daman, the grander, southern half of Daman's historic riverside old town.",
-    image: "/images/destinations/goa/hero.jpg",
+    image: "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/moti-daman/bom-jesus-church-interior-altar.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Moti Daman", "Daman", "Daman and Diu", "Bom Jesus Church", "Fort of St Jerome", "Portuguese Heritage", "Old Town"],
@@ -1973,7 +1973,7 @@ export const posts = [
     title: "Naida Caves Diu: Photography Spot & Visit Guide",
     excerpt:
       "A maze of sun-dappled sandstone chambers near Diu Fort — natural skylights, root-covered walls, and one of Diu's best offbeat photography spots.",
-    image: "/images/destinations/goa/hero.jpg",
+    image: "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/naida-caves/naida-caves-sandstone-chamber-roots.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Naida Caves", "Diu", "Daman and Diu", "Diu Fort", "Photography", "Hidden Gems"],
@@ -1985,7 +1985,7 @@ export const posts = [
     title: "Ghoghla Beach Diu: Water Sports & Camping Guide",
     excerpt:
       "A long, wide beach where Diu island meets the Gujarat mainland — jet-skiing, banana boat rides, beach camping, and a quieter alternative to Nagoa.",
-    image: "/images/destinations/goa/beach.jpg",
+    image: "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/ghoghla-beach/ghoghla-beach-waves-sand-diu.webp",
     category: "Beaches",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Ghoghla Beach", "Diu", "Daman and Diu", "Water Sports", "Beach Camping"],
@@ -1997,7 +1997,7 @@ export const posts = [
     title: "Khanvel Travel Guide: Gardens & Nature Escape",
     excerpt:
       "A small forested town near Silvassa with a family-friendly garden, and the gateway to Satmaliya Deer Sanctuary and Madhuban Dam.",
-    image: "/images/destinations/goa/hero.jpg",
+    image: "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/khanvel/madhuban-dam-view-near-khanvel.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Khanvel", "Dadra and Nagar Haveli", "Silvassa", "Satmaliya Deer Sanctuary", "Madhuban Dam", "Family Trip"],
@@ -2009,7 +2009,7 @@ export const posts = [
     title: "Moti Daman Fort: The Fort of St. Jerome, Bastion by Bastion",
     excerpt:
       "A 16th-century Portuguese fortress so large it doesn't just guard a town — it contains one. Ten bastions, a gilded church, old cannons, and a district collectorate, all inside the same set of walls.",
-    image: "/images/destinations/goa/hero.jpg",
+    image: "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/moti-daman-fort/moti-daman-fort-east-gate-inscription.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Moti Daman Fort", "Fort of St. Jerome", "Daman", "Daman and Diu", "Bom Jesus Church", "Portuguese Heritage"],
@@ -2021,7 +2021,7 @@ export const posts = [
     title: "Nani Daman Travel Guide: Fort, Harbour & Lighthouse",
     excerpt:
       "The smaller, northern quarter of Daman town — a working fishing harbour, the Fort of St. Francis Xavier, and a lighthouse across the river from Moti Daman.",
-    image: "/images/destinations/goa/hero.jpg",
+    image: "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/nani-daman/nani-daman-fort-entrance-gate.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Nani Daman", "Daman", "Daman and Diu", "Fishing Harbour", "Portuguese Heritage"],
@@ -2033,7 +2033,7 @@ export const posts = [
     title: "Satmaliya Deer Sanctuary: Visit Guide & Tips",
     excerpt:
       "A small, quiet forest sanctuary near Khanvel where spotted deer roam close to the trees — how to reach it, what to expect, and how to pair it with Madhuban Dam.",
-    image: "/images/destinations/goa/hero.jpg",
+    image: "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/satmaliya-deer-sanctuary/spotted-deer-fawn-satmaliya-deer-park.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Satmaliya Deer Sanctuary", "Dadra and Nagar Haveli", "Silvassa", "Khanvel", "Wildlife"],
@@ -2045,7 +2045,7 @@ export const posts = [
     title: "Vanganga Lake Garden, Daman: Complete Visit Guide",
     excerpt:
       "A landscaped garden built around a lake, dotted with miniature replicas of famous world landmarks — one of Daman's most relaxed, easy-to-love family stops.",
-    image: "/images/destinations/goa/hero.jpg",
+    image: "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/vanganga-lake-garden/vanganga-lake-garden-lakeside-view-silvassa.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Vanganga Lake Garden", "Daman", "Daman and Diu", "Family Friendly", "Lake Garden", "Photography"],
@@ -2057,7 +2057,7 @@ export const posts = [
     title: "Madhuban Dam Travel Guide: Reservoir, Viewpoint & Picnic Spot",
     excerpt:
       "A dam on the Damanganga river whose reservoir stretches to Dudhni's boat jetties — the dam viewpoint, forest and birdlife, and a half-day plan near Silvassa.",
-    image: "/images/destinations/goa/beach.jpg",
+    image: "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/madhuban-dam/madhuban-dam-reservoir-view-silvassa.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Madhuban Dam", "Dadra and Nagar Haveli", "Silvassa", "Dudhni", "Reservoir"],
@@ -2069,7 +2069,7 @@ export const posts = [
     title: "Gangeshwar Temple, Diu: A Shiva Shrine Washed by the Sea",
     excerpt:
       "Five natural rock lingams set among the boulders on Diu's southern coastline, partly covered by the tide — when to go, how to visit respectfully, and how to stay safe.",
-    image: "/images/destinations/goa/beach.jpg",
+    image: "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/gangeshwar-temple/gangeshwar-temple-shivlings-rock-shrine-diu.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Gangeshwar Temple", "Diu", "Daman and Diu", "Shiva Temple", "Coastal Shrine", "Pilgrimage"],
@@ -2081,7 +2081,7 @@ export const posts = [
     title: "Kolkata Travel Guide: Heritage, Food & Culture",
     excerpt:
       "Complete Kolkata travel guide — Victoria Memorial, Howrah Bridge, Durga Puja, College Street, Park Street food, where to stay, day trips, and a full visit plan for the City of Joy.",
-    image: "/images/destinations/puducherry/hero.jpg",
+    image: "/images/blogs/west-bengal/kolkata/howrah-bridge-cantilever-hooghly-river-kolkata.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Kolkata", "West Bengal", "Victoria Memorial", "Durga Puja", "Howrah Bridge", "Heritage City", "Bengali Cuisine"],
@@ -2093,7 +2093,7 @@ export const posts = [
     title: "Darjeeling Travel Guide: Tea Gardens, Toy Train & Tiger Hill",
     excerpt:
       "Complete Darjeeling guide — Tiger Hill sunrise, the UNESCO Toy Train, tea garden tours, Batasia Loop, Peace Pagoda, monasteries, where to stay, and a full visit plan for the Queen of the Hills.",
-    image: "/images/destinations/meghalaya/hero.jpg",
+    image: "/images/blogs/west-bengal/darjeeling/tiger-hill-kanchenjunga-sunrise-darjeeling.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Darjeeling", "Toy Train", "Tea Gardens", "Tiger Hill", "West Bengal", "Hill Station", "Kanchenjunga"],
@@ -2105,7 +2105,7 @@ export const posts = [
     title: "Kalimpong Travel Guide: Monasteries, Flowers & Views",
     excerpt:
       "Complete Kalimpong guide — Durpin Monastery, Deolo Hill, the town's famous flower nurseries, Dr Graham's Homes, how to reach it from Bagdogra and Darjeeling, and a full visit plan.",
-    image: "/images/destinations/manali/hero.jpg",
+    image: "/images/blogs/west-bengal/kalimpong/zang-dhok-palri-phodang-monastery-kalimpong.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Kalimpong", "West Bengal", "Hill Station", "Monasteries", "Flower Nurseries", "Teesta River", "Darjeeling Hills"],
@@ -2117,7 +2117,7 @@ export const posts = [
     title: "Sandakphu Trek Guide: Route, Permits & Best Time",
     excerpt:
       "Complete Sandakphu trek guide — the Maney Bhanjang route, permits for Singalila National Park, trek duration, tea-house stays, and views of four of the world's five highest peaks.",
-    image: "/images/destinations/manali/rohtang-pass.jpg",
+    image: "/images/blogs/west-bengal/sandakphu/kanchenjunga-range-view-sandakphu-singalila.webp",
     category: "Trekking",
     categoryColor: "bg-green-100 text-green-700",
     tags: ["Sandakphu", "Singalila National Park", "Trekking", "West Bengal", "Kanchenjunga View", "Darjeeling", "Himalayan Trek"],
@@ -2129,7 +2129,7 @@ export const posts = [
     title: "Dooars Travel Guide: Wildlife, Tea Gardens & Rivers",
     excerpt:
       "Complete Dooars guide — the foothill forests of Gorumara, Jaldapara, Chapramari and Buxa, tea gardens, jeep safaris for rhinos and elephants, base towns, and a full visit plan.",
-    image: "/images/destinations/meghalaya/dawki-river.jpg",
+    image: "/images/blogs/west-bengal/dooars/one-horned-rhino-jaldapara-national-park-dooars.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Dooars", "West Bengal", "Wildlife Safari", "Tea Gardens", "Gorumara", "Jaldapara", "Off-beat"],
@@ -2141,7 +2141,7 @@ export const posts = [
     title: "Sundarbans Travel Guide: Tiger Safari, Permits & Tips",
     excerpt:
       "Complete Sundarbans guide — Royal Bengal Tiger safaris, mangrove boat routes, permits, how to reach from Kolkata, where to stay on boat-and-lodge packages, and a full visit plan.",
-    image: "/images/destinations/kerala/alleppey.jpg",
+    image: "/images/blogs/west-bengal/sundarbans/tourist-boat-mangrove-forest-sundarbans-national-park.webp",
     category: "Adventure",
     categoryColor: "bg-amber-100 text-amber-700",
     tags: ["Sundarbans", "Royal Bengal Tiger", "West Bengal", "Mangrove Forest", "UNESCO Heritage", "Tiger Reserve", "Boat Safari"],

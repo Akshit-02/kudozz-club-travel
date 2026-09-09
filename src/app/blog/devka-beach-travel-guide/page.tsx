@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/goa/beach.jpg",
-        width: 1200,
-        height: 630,
-        alt: "A palm-lined beach promenade at golden hour, evocative of Devka Beach's seafront walkway in Daman",
+        url: "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/devka-beach/devka-beach-black-sand-shoreline-daman.webp",
+        width: 1600,
+        height: 1200,
+        alt: "The dark, pebbly shoreline of Devka Beach at high tide, with its pine treeline and beach shacks, Daman",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Devka Beach Daman: Promenade, Rides & Activities",
     description:
       "The seafront promenade, garden, rock-climbing wall, camel and pony rides, and honest swimming advice for Daman's busiest, most developed beach.",
-    images: ["/images/destinations/goa/beach.jpg"],
+    images: ["/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/devka-beach/devka-beach-black-sand-shoreline-daman.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/devka-beach-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Devka Beach Daman: Promenade, Rides & Activities",
           description:
             "Devka Beach travel guide — Daman's busiest, most developed beach, with its seafront promenade, garden, rock-climbing wall, camel rides, food stalls, and honest swimming advice.",
-          image: "https://club.kudozz.in/images/destinations/goa/beach.jpg",
+          image: "https://club.kudozz.in/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/devka-beach/devka-beach-black-sand-shoreline-daman.webp",
           datePublished: "2026-08-30",
           dateModified: "2026-08-30",
           publisher: {
@@ -206,8 +206,8 @@ export default function DevkaBeachGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/goa/beach.jpg"
-              alt="A palm-lined beach promenade at golden hour, evocative of Devka Beach's seafront walkway in Daman"
+              src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/devka-beach/devka-beach-black-sand-shoreline-daman.webp"
+              alt="The dark, pebbly shoreline of Devka Beach at high tide, with its pine treeline and beach shacks, Daman"
               fill
               priority
               sizes="100vw"
@@ -565,8 +565,8 @@ export default function DevkaBeachGuidePage() {
                   <h2>What to Do at Devka Beach</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/goa/hero.jpg"
-                      alt="A beachfront garden walkway with palm trees, evocative of Devka Beach's landscaped promenade"
+                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/devka-beach/devka-beach-low-tide-rocky-flats.webp"
+                      alt="Exposed rocky tidal flats and tide pools at Devka Beach during low tide, Daman"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
