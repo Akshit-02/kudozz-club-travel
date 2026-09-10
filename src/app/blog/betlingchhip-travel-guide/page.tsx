@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/manali/rohtang-pass.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Mountain pass landscape, evoking Betlingchhip's forested peak trek in South Tripura",
+        url: "/images/blogs/tripura/betlingchhip/thaidawr-tlang-betlingchhip-peak.webp",
+        width: 960,
+        height: 720,
+        alt: "The dense-forested summit of Betlingchhip (Thaidawr tlang), Tripura's highest peak",
       },
     ],
   },
@@ -39,7 +39,9 @@ export const metadata: Metadata = {
     title: "Betlingchhip Trek Guide: Tripura's Highest Peak",
     description:
       "Tripura's highest point, a forested and genuinely off-beat trek in South Tripura.",
-    images: ["/images/destinations/manali/rohtang-pass.jpg"],
+    images: [
+      "/images/blogs/tripura/betlingchhip/thaidawr-tlang-betlingchhip-peak.webp",
+    ],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/betlingchhip-travel-guide",
@@ -59,7 +61,7 @@ function ArticleSchema() {
           description:
             "Complete Betlingchhip guide — Tripura's highest peak at roughly 939 m, an off-beat forest trek in South Tripura, difficulty, how to reach, permits, and a full visit plan.",
           image:
-            "https://club.kudozz.in/images/destinations/manali/rohtang-pass.jpg",
+            "https://club.kudozz.in/images/blogs/tripura/betlingchhip/thaidawr-tlang-betlingchhip-peak.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -200,8 +202,8 @@ export default function BetlingchhipGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/manali/rohtang-pass.jpg"
-              alt="Mountain pass landscape, evoking Betlingchhip's forested peak trek in South Tripura"
+              src="/images/blogs/tripura/betlingchhip/thaidawr-tlang-betlingchhip-peak.webp"
+              alt="The dense-forested summit of Betlingchhip (Thaidawr tlang), Tripura's highest peak"
               fill
               priority
               sizes="100vw"
@@ -529,8 +531,8 @@ export default function BetlingchhipGuidePage() {
                   <h2>The Trek & Terrain</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/manali/rohtang-pass.jpg"
-                      alt="Forested mountain terrain near Betlingchhip, South Tripura"
+                      src="/images/blogs/tripura/betlingchhip/thaidawr-tlang-betlingchhip-peak.webp"
+                      alt="Forested mountain terrain near the summit of Betlingchhip, Tripura's highest peak"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

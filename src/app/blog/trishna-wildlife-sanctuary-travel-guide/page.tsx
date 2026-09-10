@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/meghalaya/dawki-river.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Forested riverbank landscape, evoking Trishna Wildlife Sanctuary along the Trishna and Sonai rivers in South Tripura",
+        url: "/images/blogs/tripura/trishna-wildlife-sanctuary/indian-gaur-bison-trishna-wildlife-sanctuary.webp",
+        width: 1600,
+        height: 1066,
+        alt: "An Indian gaur (Indian bison) at Trishna Wildlife Sanctuary, South Tripura",
       },
     ],
   },
@@ -39,7 +39,9 @@ export const metadata: Metadata = {
     title: "Trishna Wildlife Sanctuary: Safari Guide & Tips",
     description:
       "Barking deer, leopards, hoolock gibbons, and a python conservation centre — the complete Trishna Wildlife Sanctuary guide.",
-    images: ["/images/destinations/meghalaya/dawki-river.jpg"],
+    images: [
+      "/images/blogs/tripura/trishna-wildlife-sanctuary/indian-gaur-bison-trishna-wildlife-sanctuary.webp",
+    ],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/trishna-wildlife-sanctuary-travel-guide",
@@ -58,7 +60,8 @@ function ArticleSchema() {
           headline: "Trishna Wildlife Sanctuary: Safari Guide & Tips",
           description:
             "Complete Trishna Wildlife Sanctuary guide — barking deer, leopards, hoolock gibbons, a python conservation centre, watchtowers, reservoir boating, how to reach from Agartala, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/meghalaya/dawki-river.jpg",
+          image:
+            "https://club.kudozz.in/images/blogs/tripura/trishna-wildlife-sanctuary/indian-gaur-bison-trishna-wildlife-sanctuary.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -195,8 +198,8 @@ export default function TrishnaWildlifeSanctuaryGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/meghalaya/dawki-river.jpg"
-              alt="Forested riverbank landscape, evoking Trishna Wildlife Sanctuary along the Trishna and Sonai rivers in South Tripura"
+              src="/images/blogs/tripura/trishna-wildlife-sanctuary/indian-gaur-bison-trishna-wildlife-sanctuary.webp"
+              alt="An Indian gaur (Indian bison) in the grassland-forest habitat of Trishna Wildlife Sanctuary, South Tripura"
               fill
               priority
               sizes="100vw"
@@ -522,8 +525,8 @@ export default function TrishnaWildlifeSanctuaryGuidePage() {
                   <h2>Safari, Boating & the Python Centre</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/meghalaya/dawki-river.jpg"
-                      alt="River and forest at Trishna Wildlife Sanctuary, South Tripura"
+                      src="/images/blogs/tripura/trishna-wildlife-sanctuary/indian-gaur-bison-trishna-wildlife-sanctuary.webp"
+                      alt="Indian gaur (Indian bison) at Trishna Wildlife Sanctuary, South Tripura"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

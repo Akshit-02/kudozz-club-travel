@@ -3,7 +3,9 @@
   "images": [
     {
       "path": "blogs/rajasthan/udaipur/udaipur-city-palace-lake-pichola.webp",
-      "usedIn": ["udaipur-city-of-lakes-travel-guide (hero)"],
+      "usedIn": [
+        "udaipur-city-of-lakes-travel-guide (hero)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:View_of_Lake_Pichola_in_Udaipur_from_the_City_Palace,_20191207_0515_6924.jpg",
       "originalFile": "View_of_Lake_Pichola_in_Udaipur_from_the_City_Palace,_20191207_0515_6924.jpg",
@@ -13,7 +15,9 @@
     },
     {
       "path": "blogs/rajasthan/udaipur/mor-chowk-city-palace-udaipur.webp",
-      "usedIn": ["udaipur-city-of-lakes-travel-guide (City Palace section)"],
+      "usedIn": [
+        "udaipur-city-of-lakes-travel-guide (City Palace section)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Peacock_mosaic_at_Mor_Chowk,_Udaipur_City_palace,_Rajasthan.jpg",
       "originalFile": "Peacock_mosaic_at_Mor_Chowk,_Udaipur_City_palace,_Rajasthan.jpg",
@@ -23,7 +27,9 @@
     },
     {
       "path": "blogs/rajasthan/udaipur/jag-mandir-lake-pichola-udaipur.webp",
-      "usedIn": ["udaipur-city-of-lakes-travel-guide (Lake Pichola / Jag Mandir section)"],
+      "usedIn": [
+        "udaipur-city-of-lakes-travel-guide (Lake Pichola / Jag Mandir section)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Jag_Mandir_Palace_from_above,_on_Lake_Pichola,_Udaipur.jpg",
       "originalFile": "Jag_Mandir_Palace_from_above,_on_Lake_Pichola,_Udaipur.jpg",
@@ -33,7 +39,9 @@
     },
     {
       "path": "blogs/rajasthan/udaipur/fateh-sagar-lake-udaipur.webp",
-      "usedIn": ["udaipur-city-of-lakes-travel-guide (Fateh Sagar Lake section)"],
+      "usedIn": [
+        "udaipur-city-of-lakes-travel-guide (Fateh Sagar Lake section)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Udaipur-Fateh_Sagar-02-2018-gje.jpg",
       "originalFile": "Udaipur-Fateh_Sagar-02-2018-gje.jpg",
@@ -43,7 +51,9 @@
     },
     {
       "path": "blogs/rajasthan/udaipur/bagore-ki-haveli-udaipur.webp",
-      "usedIn": ["udaipur-city-of-lakes-travel-guide (Bagore ki Haveli section)"],
+      "usedIn": [
+        "udaipur-city-of-lakes-travel-guide (Bagore ki Haveli section)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:20191207_Bagore_Ki_Haveli,_Udaipur,_0646_7054.jpg",
       "originalFile": "20191207_Bagore_Ki_Haveli,_Udaipur,_0646_7054.jpg",
@@ -53,7 +63,9 @@
     },
     {
       "path": "blogs/rajasthan/udaipur/monsoon-palace-sajjangarh-udaipur.webp",
-      "usedIn": ["udaipur-city-of-lakes-travel-guide (Monsoon Palace section)"],
+      "usedIn": [
+        "udaipur-city-of-lakes-travel-guide (Monsoon Palace section)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Sajjangarh_Monsoon_Palace_at_dusk,_Udaipur,_Rajasthan,_India.jpg",
       "originalFile": "Sajjangarh_Monsoon_Palace_at_dusk,_Udaipur,_Rajasthan,_India.jpg",
@@ -63,7 +75,9 @@
     },
     {
       "path": "blogs/rajasthan/udaipur/jagdish-temple-udaipur.webp",
-      "usedIn": ["udaipur-city-of-lakes-travel-guide (Old City & Markets section)"],
+      "usedIn": [
+        "udaipur-city-of-lakes-travel-guide (Old City & Markets section)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:20191207_Jagdish_Temple,_Udaipur,_0608_7004.jpg",
       "originalFile": "20191207_Jagdish_Temple,_Udaipur,_0608_7004.jpg",
@@ -73,7 +87,9 @@
     },
     {
       "path": "blogs/rajasthan/udaipur/saheliyon-ki-bari-udaipur.webp",
-      "usedIn": ["udaipur-city-of-lakes-travel-guide (Saheliyon ki Bari section)"],
+      "usedIn": [
+        "udaipur-city-of-lakes-travel-guide (Saheliyon ki Bari section)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Saheliyon-ki-Bari_(Udaipur).jpg",
       "originalFile": "Saheliyon-ki-Bari_(Udaipur).jpg",
@@ -83,7 +99,9 @@
     },
     {
       "path": "blogs/karnataka/hampi/virupaksha-temple-gopuram-hampi.webp",
-      "usedIn": ["hampi-travel-guide (Virupaksha Temple section — replaces a previously mislabeled image)"],
+      "usedIn": [
+        "hampi-travel-guide (Virupaksha Temple section — replaces a previously mislabeled image)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Virupaksha_-_Gopuram_-_Top.jpg",
       "originalFile": "Virupaksha_-_Gopuram_-_Top.jpg",
@@ -93,7 +111,9 @@
     },
     {
       "path": "blogs/karnataka/hampi/stone-chariot-vittala-temple-hampi.webp",
-      "usedIn": ["hampi-travel-guide (Vittala Temple section)"],
+      "usedIn": [
+        "hampi-travel-guide (Vittala Temple section)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Vittala_Temple_-_Garuda_Stone_Chariot_-_Rupesh_Sarkar_-_24.jpg",
       "originalFile": "Vittala_Temple_-_Garuda_Stone_Chariot_-_Rupesh_Sarkar_-_24.jpg",
@@ -103,7 +123,9 @@
     },
     {
       "path": "blogs/karnataka/hampi/lotus-mahal-hampi.webp",
-      "usedIn": ["hampi-travel-guide (Lotus Mahal section)"],
+      "usedIn": [
+        "hampi-travel-guide (Lotus Mahal section)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Perspective_view_of_Lotus_Mahal,_Hampi.jpg",
       "originalFile": "Perspective_view_of_Lotus_Mahal,_Hampi.jpg",
@@ -113,7 +135,9 @@
     },
     {
       "path": "blogs/karnataka/hampi/queens-bath-hampi.webp",
-      "usedIn": ["hampi-travel-guide (Queen's Bath section)"],
+      "usedIn": [
+        "hampi-travel-guide (Queen's Bath section)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Queens_bath_Hampi.jpg",
       "originalFile": "Queens_bath_Hampi.jpg",
@@ -123,7 +147,9 @@
     },
     {
       "path": "blogs/karnataka/gokarna/om-beach-gokarna.webp",
-      "usedIn": ["gokarna-beaches-travel-guide (Best Beaches section — replaces a duplicated hero image)"],
+      "usedIn": [
+        "gokarna-beaches-travel-guide (Best Beaches section — replaces a duplicated hero image)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:PXL_20260103_101009613_People_and_Beach_Om_Beach_Gokarna,_Karnataka_02.jpg",
       "originalFile": "PXL_20260103_101009613_People_and_Beach_Om_Beach_Gokarna,_Karnataka_02.jpg",
@@ -133,7 +159,9 @@
     },
     {
       "path": "blogs/karnataka/gokarna/kudle-beach-gokarna.webp",
-      "usedIn": ["gokarna-beaches-travel-guide (Best Beaches section)"],
+      "usedIn": [
+        "gokarna-beaches-travel-guide (Best Beaches section)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Kodalu_beach_at_Gokarna.JPG",
       "originalFile": "Kodalu_beach_at_Gokarna.JPG",
@@ -143,7 +171,9 @@
     },
     {
       "path": "blogs/kerala/munnar/munnar-tea-plantation-hero.webp",
-      "usedIn": ["munnar-travel-guide (hero — replaces a Coorg photo used in error)"],
+      "usedIn": [
+        "munnar-travel-guide (hero — replaces a Coorg photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Munnar_-_Lockhart_tea_plantation.jpg",
       "originalFile": "Munnar_-_Lockhart_tea_plantation.jpg",
@@ -153,7 +183,9 @@
     },
     {
       "path": "blogs/kerala/munnar/eravikulam-national-park-munnar.webp",
-      "usedIn": ["munnar-travel-guide (Top Attractions section — replaces a Coorg photo used in error)"],
+      "usedIn": [
+        "munnar-travel-guide (Top Attractions section — replaces a Coorg photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Eravikulam_National_Park-WUS07189.jpg",
       "originalFile": "Eravikulam_National_Park-WUS07189.jpg",
@@ -163,7 +195,9 @@
     },
     {
       "path": "blogs/kerala/munnar/mattupetty-dam-munnar.webp",
-      "usedIn": ["munnar-travel-guide (Top Attractions section)"],
+      "usedIn": [
+        "munnar-travel-guide (Top Attractions section)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Mattupetty_Dam,_Munnar,_Kerala_(2).jpg",
       "originalFile": "Mattupetty_Dam,_Munnar,_Kerala_(2).jpg",
@@ -173,7 +207,9 @@
     },
     {
       "path": "blogs/andhra-pradesh/tirupati/tirumala-venkateswara-temple-gopuram-tirupati.webp",
-      "usedIn": ["tirupati-travel-guide (hero — replaces a Jaisalmer photo used in error)"],
+      "usedIn": [
+        "tirupati-travel-guide (hero — replaces a Jaisalmer photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Tirumala_090615.jpg",
       "originalFile": "Tirumala_090615.jpg",
@@ -183,7 +219,9 @@
     },
     {
       "path": "blogs/andhra-pradesh/tirupati/maha-dwaram-gopuram-close-up-tirumala.webp",
-      "usedIn": ["tirupati-travel-guide (Top Things to Do section — replaces a Jaisalmer photo used in error)"],
+      "usedIn": [
+        "tirupati-travel-guide (Top Things to Do section — replaces a Jaisalmer photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Maha_Dwaram_of_Venkateswara_temples,_Tirupati.jpg",
       "originalFile": "Maha_Dwaram_of_Venkateswara_temples,_Tirupati.jpg",
@@ -193,7 +231,9 @@
     },
     {
       "path": "blogs/maharashtra/mumbai/gateway-of-india-evening-mumbai.webp",
-      "usedIn": ["mumbai-travel-guide (hero — replaces a Hampi photo used in error)"],
+      "usedIn": [
+        "mumbai-travel-guide (hero — replaces a Hampi photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Gateway_of_India_in_the_evening,_Mumbai,_India.jpg",
       "originalFile": "Gateway_of_India_in_the_evening,_Mumbai,_India.jpg",
@@ -203,7 +243,9 @@
     },
     {
       "path": "blogs/maharashtra/mumbai/marine-drive-night-mumbai.webp",
-      "usedIn": ["mumbai-travel-guide (Top Things to Do section — replaces a Hampi photo used in error)"],
+      "usedIn": [
+        "mumbai-travel-guide (Top Things to Do section — replaces a Hampi photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Mumbai,_marine_drive_di_notte_01.jpg",
       "originalFile": "Mumbai,_marine_drive_di_notte_01.jpg",
@@ -213,7 +255,9 @@
     },
     {
       "path": "blogs/maharashtra/mumbai/chhatrapati-shivaji-terminus-mumbai.webp",
-      "usedIn": ["mumbai-travel-guide (Top Things to Do section)"],
+      "usedIn": [
+        "mumbai-travel-guide (Top Things to Do section)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Mumbai_-_Chhatrapati_Shivaji_Terminus_Frontside_-_2.jpg",
       "originalFile": "Mumbai_-_Chhatrapati_Shivaji_Terminus_Frontside_-_2.jpg",
@@ -223,7 +267,9 @@
     },
     {
       "path": "blogs/odisha/odisha/konark-sun-temple-wheel-odisha.webp",
-      "usedIn": ["odisha-travel-guide (hero + Chilika Lake section — replaces a Hampi photo used in error)"],
+      "usedIn": [
+        "odisha-travel-guide (hero + Chilika Lake section — replaces a Hampi photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Konark_Sun_Temple_wheel.jpg",
       "originalFile": "Konark Sun Temple wheel.jpg",
@@ -233,7 +279,9 @@
     },
     {
       "path": "blogs/punjab/punjab/golden-temple-amritsar-punjab.webp",
-      "usedIn": ["punjab-travel-guide (hero + Wagah Border section — replaces an Udaipur photo used in error)"],
+      "usedIn": [
+        "punjab-travel-guide (hero + Wagah Border section — replaces an Udaipur photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Golden_Temple,_Amritsar_02.jpg",
       "originalFile": "Golden Temple, Amritsar 02.jpg",
@@ -243,7 +291,9 @@
     },
     {
       "path": "blogs/rajasthan/rajasthan/hawa-mahal-facade-jaipur.webp",
-      "usedIn": ["rajasthan-travel-guide (hero — replaces a Jaisalmer photo used in error)"],
+      "usedIn": [
+        "rajasthan-travel-guide (hero — replaces a Jaisalmer photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Hawa_Mahal,_Jaipur,_Rajasthan,_India_in_2026.jpg",
       "originalFile": "Hawa Mahal, Jaipur, Rajasthan, India in 2026.jpg",
@@ -253,7 +303,9 @@
     },
     {
       "path": "blogs/rajasthan/rajasthan/mehrangarh-fort-blue-city-jodhpur.webp",
-      "usedIn": ["rajasthan-travel-guide (Jodhpur section)"],
+      "usedIn": [
+        "rajasthan-travel-guide (Jodhpur section)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:20191210_View_from_Mehrangarh_Fort,_Jodhpur,_0950_7793.jpg",
       "originalFile": "20191210_View_from_Mehrangarh_Fort,_Jodhpur,_0950_7793.jpg",
@@ -263,7 +315,9 @@
     },
     {
       "path": "blogs/sikkim/sikkim/rumtek-monastery-gangtok-sikkim.webp",
-      "usedIn": ["sikkim-travel-guide (hero + Tsomgo Lake/Nathula Pass section — replaces a Manali photo used in error)"],
+      "usedIn": [
+        "sikkim-travel-guide (hero + Tsomgo Lake/Nathula Pass section — replaces a Manali photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Rumtek_Monastery_04.jpg",
       "originalFile": "Rumtek Monastery 04.jpg",
@@ -273,7 +327,9 @@
     },
     {
       "path": "blogs/tamil-nadu/tamil-nadu/meenakshi-temple-gopuram-madurai.webp",
-      "usedIn": ["tamil-nadu-travel-guide (hero + Madurai section + Ooty section — replaces a Hampi photo used in error)"],
+      "usedIn": [
+        "tamil-nadu-travel-guide (hero + Madurai section + Ooty section — replaces a Hampi photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:S-TN-34_Meenakshi_Amman_Temple_South_Gopuram_enriched_with_delicate_Stucco_works.jpg",
       "originalFile": "S-TN-34 Meenakshi Amman Temple South Gopuram enriched with delicate Stucco works.jpg",
@@ -283,7 +339,9 @@
     },
     {
       "path": "blogs/tripura/tripura/neermahal-lake-palace-tripura.webp",
-      "usedIn": ["tripura-travel-guide (hero + Neermahal section — replaces a Ziro photo used in error)"],
+      "usedIn": [
+        "tripura-travel-guide (hero + Neermahal section — replaces a Ziro photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Neer_Mahal,_the_water_palace_of_Tripura_05.jpg",
       "originalFile": "Neer Mahal, the water palace of Tripura 05.jpg",
@@ -293,7 +351,9 @@
     },
     {
       "path": "blogs/nagaland/nagaland/dzukou-valley-nagaland.webp",
-      "usedIn": ["nagaland-travel-guide (hero + Hornbill Festival section — replaces a Meghalaya photo used in error)"],
+      "usedIn": [
+        "nagaland-travel-guide (hero + Hornbill Festival section — replaces a Meghalaya photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Breathtaking_beauty_of_Dzukou_Valley_in_Manipur-Nagaland_border_(edit).jpg",
       "originalFile": "Breathtaking beauty of Dzukou Valley in Manipur-Nagaland border (edit).jpg",
@@ -303,7 +363,9 @@
     },
     {
       "path": "blogs/mizoram/mizoram/vantawng-falls-mizoram.webp",
-      "usedIn": ["mizoram-travel-guide (hero + Reiek section — replaces a Meghalaya photo used in error)"],
+      "usedIn": [
+        "mizoram-travel-guide (hero + Reiek section — replaces a Meghalaya photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Vantawng_waterfall,_Mizoram,India.JPG",
       "originalFile": "Vantawng waterfall, Mizoram,India.JPG",
@@ -313,7 +375,9 @@
     },
     {
       "path": "blogs/manipur/manipur/loktak-lake-floating-islands-manipur.webp",
-      "usedIn": ["manipur-travel-guide (hero + Loktak Lake section — replaces a Meghalaya photo used in error)"],
+      "usedIn": [
+        "manipur-travel-guide (hero + Loktak Lake section — replaces a Meghalaya photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:A_view_of_Loktak_Lake.jpg",
       "originalFile": "A view of Loktak Lake.jpg (cropped to remove a foreground signboard before optimizing)",
@@ -323,7 +387,9 @@
     },
     {
       "path": "blogs/manipur/imphal/kangla-fort-gate-imphal.webp",
-      "usedIn": ["imphal-travel-guide (hero + Things to Do section — replaces a Meghalaya photo used in error)"],
+      "usedIn": [
+        "imphal-travel-guide (hero + Things to Do section — replaces a Meghalaya photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Kangla_Sanathong_(Kangla_Grand_Gate_or_Kangla_Royal_Gate)_-_Classical_Meitei_architecture_-_in_the_western_side_of_the_Kangla_Fort_(Kangla_Palace)_in_Imphal_West_district_of_Manipur_state_(Kangleipak)_01.jpg",
       "originalFile": "Kangla Sanathong (Kangla Grand Gate or Kangla Royal Gate) - Classical Meitei architecture - in the western side of the Kangla Fort (Kangla Palace) in Imphal West district of Manipur state (Kangleipak) 01.jpg",
@@ -333,7 +399,9 @@
     },
     {
       "path": "blogs/manipur/loktak-lake/loktak-lake-fishing-nets-manipur.webp",
-      "usedIn": ["loktak-lake-travel-guide (hero — replaces a Meghalaya photo used in error)"],
+      "usedIn": [
+        "loktak-lake-travel-guide (hero — replaces a Meghalaya photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Loktak_Lake_Manipur_05.jpg",
       "originalFile": "Loktak Lake Manipur 05.jpg",
@@ -343,7 +411,9 @@
     },
     {
       "path": "blogs/manipur/loktak-lake/loktak-lake-phumdi-floating-vegetation.webp",
-      "usedIn": ["loktak-lake-travel-guide (inline section)"],
+      "usedIn": [
+        "loktak-lake-travel-guide (inline section)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Floating_biomasses_(\"Phumdi\"_or_\"Phumthi\"_or_\"Phum\"_in_Classical_Meitei_language)_&_islands_in_the_Loktak_Lake_(alias_\"Meitei_Sea\")_-_World's_only_floating_lake_-_in_Kangleipak_(Manipur)_01.jpg",
       "originalFile": "Floating biomasses (Phumdi/Phumthi/Phum) & islands in the Loktak Lake, World's only floating lake, in Kangleipak (Manipur) 01.jpg",
@@ -353,7 +423,9 @@
     },
     {
       "path": "blogs/manipur/moirang/ina-memorial-complex-moirang-manipur.webp",
-      "usedIn": ["moirang-travel-guide (hero + inline — replaces a Jammu & Kashmir photo used in error)"],
+      "usedIn": [
+        "moirang-travel-guide (hero + inline — replaces a Jammu & Kashmir photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:INA_Memorial,_Moirang,_Manipur_(16).jpeg",
       "originalFile": "INA Memorial, Moirang, Manipur (16).jpeg",
@@ -363,7 +435,9 @@
     },
     {
       "path": "blogs/manipur/keibul-lamjao/floating-phumdi-islands-keibul-lamjao.webp",
-      "usedIn": ["keibul-lamjao-travel-guide (hero — replaces a Kerala photo used in error)"],
+      "usedIn": [
+        "keibul-lamjao-travel-guide (hero — replaces a Kerala photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:THE_FLOATING_NATIONAL_PARK-_The_Keibul_Lamjao_National_Park,_Manipur.jpg",
       "originalFile": "THE FLOATING NATIONAL PARK- The Keibul Lamjao National Park, Manipur.jpg",
@@ -373,7 +447,9 @@
     },
     {
       "path": "blogs/manipur/keibul-lamjao/sangai-brow-antlered-deer-keibul-lamjao.webp",
-      "usedIn": ["keibul-lamjao-travel-guide (inline section)"],
+      "usedIn": [
+        "keibul-lamjao-travel-guide (inline section)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Sangai_at_the_Keibullamjao_National_Park,_Manipur.jpg",
       "originalFile": "Sangai at the Keibullamjao National Park, Manipur.jpg",
@@ -383,7 +459,9 @@
     },
     {
       "path": "blogs/manipur/andro/cultural-heritage-complex-wood-carvings-andro.webp",
-      "usedIn": ["andro-travel-guide (hero + inline — replaces a Hampi photo used in error)"],
+      "usedIn": [
+        "andro-travel-guide (hero + inline — replaces a Hampi photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Relief_carvings_and_sculptures_in_the_Cultural_Heritage_Complex_in_Andro,_Imphal_East_district,_Manipur,_India.jpg",
       "originalFile": "Relief carvings and sculptures in the Cultural Heritage Complex in Andro, Imphal East district, Manipur, India.jpg",
@@ -393,7 +471,9 @@
     },
     {
       "path": "blogs/manipur/zeilad-lake/forest-fringed-lake-northeast-india.webp",
-      "usedIn": ["zeilad-lake-travel-guide (hero + inline — replaces a Kerala photo used in error; regional fallback, no direct Zeilad Lake coverage exists on Commons)"],
+      "usedIn": [
+        "zeilad-lake-travel-guide (hero + inline — replaces a Kerala photo used in error; regional fallback, no direct Zeilad Lake coverage exists on Commons)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Doyang_reservoir_and_its_suroundings_in_Nagaland_JEG6035.JPG",
       "originalFile": "Doyang reservoir and its suroundings in Nagaland JEG6035.JPG",
@@ -403,7 +483,9 @@
     },
     {
       "path": "blogs/manipur/ukhrul/ukhrul-hill-town-panoramic-view.webp",
-      "usedIn": ["ukhrul-travel-guide (hero — replaces a Ziro photo used in error)"],
+      "usedIn": [
+        "ukhrul-travel-guide (hero — replaces a Ziro photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Partial_View_of_North-Eastern_Ukhrul_Town_01.JPG",
       "originalFile": "Partial View of North-Eastern Ukhrul Town 01.JPG",
@@ -413,7 +495,9 @@
     },
     {
       "path": "blogs/manipur/ukhrul/ukhrul-town-south-view-tangkhul-hills.webp",
-      "usedIn": ["ukhrul-travel-guide (inline section)"],
+      "usedIn": [
+        "ukhrul-travel-guide (inline section)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Ukhrul_-South_View.jpg",
       "originalFile": "Ukhrul -South View.jpg",
@@ -423,7 +507,9 @@
     },
     {
       "path": "blogs/manipur/shirui-hills/shirui-siroy-national-park-rolling-hills.webp",
-      "usedIn": ["shirui-hills-travel-guide (hero — replaces a Manali photo used in error)"],
+      "usedIn": [
+        "shirui-hills-travel-guide (hero — replaces a Manali photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:A_scene_from_Siroy_National_Park,_Manipur_(1).jpg",
       "originalFile": "A scene from Siroy National Park, Manipur (1).jpg",
@@ -433,7 +519,9 @@
     },
     {
       "path": "blogs/manipur/shirui-hills/shirui-lily-rare-flower-manipur.webp",
-      "usedIn": ["shirui-hills-travel-guide (inline section)"],
+      "usedIn": [
+        "shirui-hills-travel-guide (inline section)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Shirui_Lily.jpg",
       "originalFile": "Shirui Lily.jpg",
@@ -443,7 +531,9 @@
     },
     {
       "path": "blogs/manipur/tharon-cave/tharon-cave-limestone-passage-entrance.webp",
-      "usedIn": ["tharon-cave-travel-guide (hero — replaces a Manali photo used in error)"],
+      "usedIn": [
+        "tharon-cave-travel-guide (hero — replaces a Manali photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Tharon_Caves_Tamenglong_Manipur_by_Dr_Raju_Kasambe_DSC_5649_(11).jpg",
       "originalFile": "Tharon Caves Tamenglong Manipur by Dr Raju Kasambe DSC 5649 (11).jpg",
@@ -453,7 +543,9 @@
     },
     {
       "path": "blogs/manipur/tharon-cave/tharon-cave-interior-visitors-exploring.webp",
-      "usedIn": ["tharon-cave-travel-guide (inline section)"],
+      "usedIn": [
+        "tharon-cave-travel-guide (inline section)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Tharon_Caves_Tamenglong_Manipur_by_Dr_Raju_Kasambe_DSC_5649_(9).jpg",
       "originalFile": "Tharon Caves Tamenglong Manipur by Dr Raju Kasambe DSC 5649 (9).jpg",
@@ -463,7 +555,9 @@
     },
     {
       "path": "blogs/manipur/tamenglong/kianthok-hills-valley-tamenglong.webp",
-      "usedIn": ["tamenglong-travel-guide (hero + inline — replaces a Coorg photo used in error)"],
+      "usedIn": [
+        "tamenglong-travel-guide (hero + inline — replaces a Coorg photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Kianthok_in_between_two_hills._-_panoramio.jpg",
       "originalFile": "Kianthok in between two hills. - panoramio.jpg",
@@ -473,7 +567,9 @@
     },
     {
       "path": "blogs/manipur/senapati/dzukou-valley-rolling-naga-hills-senapati.webp",
-      "usedIn": ["senapati-travel-guide (hero + inline — replaces a Coorg photo used in error)"],
+      "usedIn": [
+        "senapati-travel-guide (hero + inline — replaces a Coorg photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Breathtaking_beauty_of_Dzukou_Valley_in_Manipur-Nagaland_border.jpg",
       "originalFile": "Breathtaking beauty of Dzukou Valley in Manipur-Nagaland border.jpg",
@@ -483,7 +579,9 @@
     },
     {
       "path": "blogs/manipur/kangpokpi/pineapple-terraces-kangpokpi-manipur.webp",
-      "usedIn": ["kangpokpi-travel-guide (hero + inline — replaces a Manali photo used in error)"],
+      "usedIn": [
+        "kangpokpi-travel-guide (hero + inline — replaces a Manali photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Pineapple_crop_plantation_in_a_slope_of_the_Nongmaiching_Ching_(meaning_%22Nongmaijing_Hill%22_in_Classical_Meitei_language)_in_Imphal_East_District,_Kangleipak_(Manipur)_01.jpg",
       "originalFile": "Pineapple crop plantation in a slope of the Nongmaiching Ching (meaning \"Nongmaijing Hill\" in Classical Meitei language) in Imphal East District, Kangleipak (Manipur) 01.jpg",
@@ -493,7 +591,9 @@
     },
     {
       "path": "blogs/manipur/moreh/indo-myanmar-friendship-gate-moreh.webp",
-      "usedIn": ["moreh-travel-guide (hero + inline — replaces a Meghalaya photo used in error)"],
+      "usedIn": [
+        "moreh-travel-guide (hero + inline — replaces a Meghalaya photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:MOREH_INDO_MYANMAY_FRIENDSHIP_GATE.jpg",
       "originalFile": "MOREH INDO MYANMAY FRIENDSHIP GATE.jpg",
@@ -503,7 +603,9 @@
     },
     {
       "path": "blogs/maharashtra/maharashtra/ajanta-caves-rock-cut-facade-maharashtra.webp",
-      "usedIn": ["maharashtra-travel-guide (hero + 2 inline sections — replaces a Hampi photo used in error)"],
+      "usedIn": [
+        "maharashtra-travel-guide (hero + 2 inline sections — replaces a Hampi photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Ajanta_Caves_from_Cave_26.jpg",
       "originalFile": "Ajanta Caves from Cave 26.jpg",
@@ -513,7 +615,9 @@
     },
     {
       "path": "blogs/madhya-pradesh/madhya-pradesh/khajuraho-devi-jagadambi-temple-madhya-pradesh.webp",
-      "usedIn": ["madhya-pradesh-travel-guide (hero + 2 inline sections — replaces a Hampi photo used in error)"],
+      "usedIn": [
+        "madhya-pradesh-travel-guide (hero + 2 inline sections — replaces a Hampi photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Khajuraho_Devi_Jagadambi_Temple_2010.jpg",
       "originalFile": "Khajuraho Devi Jagadambi Temple 2010.jpg",
@@ -523,7 +627,9 @@
     },
     {
       "path": "blogs/gujarat/gujarat/rann-of-kutch-white-desert-gujarat.webp",
-      "usedIn": ["gujarat-travel-guide (hero + 3 inline sections — replaces a Jaisalmer photo used in error)"],
+      "usedIn": [
+        "gujarat-travel-guide (hero + 3 inline sections — replaces a Jaisalmer photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:The_White_Desert_in_Kutch,_the_great_rann_of_kutch.jpg",
       "originalFile": "The White Desert in Kutch, the great rann of kutch.jpg",
@@ -533,7 +639,9 @@
     },
     {
       "path": "blogs/haryana/haryana/krishna-arjun-chariot-statue-kurukshetra-haryana.webp",
-      "usedIn": ["haryana-travel-guide (hero + 2 inline sections — replaces a Chandigarh photo used in error)"],
+      "usedIn": [
+        "haryana-travel-guide (hero + 2 inline sections — replaces a Chandigarh photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Kurukshetra_Shri_Krishna_Arjun_chariot.jpg",
       "originalFile": "Kurukshetra Shri Krishna Arjun chariot.jpg",
@@ -543,7 +651,9 @@
     },
     {
       "path": "blogs/jharkhand/jharkhand/hundru-falls-ranchi-jharkhand.webp",
-      "usedIn": ["jharkhand-travel-guide (hero + inline — replaces a Ziro photo used in error)"],
+      "usedIn": [
+        "jharkhand-travel-guide (hero + inline — replaces a Ziro photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Hundru_Falls,_Jharkhand,_India.jpg",
       "originalFile": "Hundru Falls, Jharkhand, India.jpg",
@@ -553,7 +663,9 @@
     },
     {
       "path": "blogs/andhra-pradesh/andhra-pradesh/sunrise-tenneti-beach-visakhapatnam-andhra-pradesh.webp",
-      "usedIn": ["andhra-pradesh-travel-guide (hero + 2 inline sections — replaces a Hampi photo used in error)"],
+      "usedIn": [
+        "andhra-pradesh-travel-guide (hero + 2 inline sections — replaces a Hampi photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Sunrise,_Tenneti_Beach,_Tennetti_Beach,_Visakhapatnam,_Andhra_Pradesh,_India,.jpg",
       "originalFile": "Sunrise, Tenneti Beach, Tennetti Beach, Visakhapatnam, Andhra Pradesh, India,.jpg",
@@ -563,7 +675,9 @@
     },
     {
       "path": "blogs/ladakh/pangong-lake/pangong-tso-turquoise-water-mountains.webp",
-      "usedIn": ["pangong-lake-travel-guide (hero — replaces a generic shared leh-ladakh.jpg photo)"],
+      "usedIn": [
+        "pangong-lake-travel-guide (hero — replaces a generic shared leh-ladakh.jpg photo)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Pangong_Lake,_Ladakh,_India_05.jpg",
       "originalFile": "Pangong Lake, Ladakh, India 05.jpg",
@@ -573,7 +687,9 @@
     },
     {
       "path": "blogs/ladakh/pangong-lake/chang-la-pass-signboard-ladakh.webp",
-      "usedIn": ["pangong-lake-travel-guide (inline section)"],
+      "usedIn": [
+        "pangong-lake-travel-guide (inline section)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Chang_La.jpg",
       "originalFile": "Chang La.jpg",
@@ -583,7 +699,9 @@
     },
     {
       "path": "blogs/ladakh/pangong-lake/pangong-tso-shoreline-colour-change.webp",
-      "usedIn": ["pangong-lake-travel-guide (inline section)"],
+      "usedIn": [
+        "pangong-lake-travel-guide (inline section)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:PANGOG_LAKE!.jpg",
       "originalFile": "PANGOG LAKE!.jpg",
@@ -593,7 +711,9 @@
     },
     {
       "path": "blogs/ladakh/nubra-valley/hunder-dunes-bactrian-camels-nubra-valley.webp",
-      "usedIn": ["nubra-valley-travel-guide (hero — replaces a generic shared leh-ladakh.jpg photo)"],
+      "usedIn": [
+        "nubra-valley-travel-guide (hero — replaces a generic shared leh-ladakh.jpg photo)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Nubra_Valley_double_hump_camel_ride.jpg",
       "originalFile": "Nubra Valley double hump camel ride.jpg",
@@ -603,7 +723,9 @@
     },
     {
       "path": "blogs/ladakh/nubra-valley/diskit-monastery-maitreya-buddha-statue.webp",
-      "usedIn": ["nubra-valley-travel-guide (inline section)"],
+      "usedIn": [
+        "nubra-valley-travel-guide (inline section)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Statue_of_Maitreya_Buddha,_Diskit_Monastery,_Nubra_Valley,_Ladakh.jpg",
       "originalFile": "Statue of Maitreya Buddha, Diskit Monastery, Nubra Valley, Ladakh.jpg",
@@ -613,7 +735,9 @@
     },
     {
       "path": "blogs/ladakh/hunder/hunder-sand-dunes-aerial-view.webp",
-      "usedIn": ["hunder-travel-guide (hero — replaces a generic shared leh-ladakh.jpg photo)"],
+      "usedIn": [
+        "hunder-travel-guide (hero — replaces a generic shared leh-ladakh.jpg photo)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Nubra_Sand_Dunes.jpg",
       "originalFile": "Nubra Sand Dunes.jpg",
@@ -623,7 +747,9 @@
     },
     {
       "path": "blogs/ladakh/tso-moriri/tso-moriri-lake-korzok-village.webp",
-      "usedIn": ["tso-moriri-travel-guide (hero — replaces a generic shared leh-ladakh.jpg photo)"],
+      "usedIn": [
+        "tso-moriri-travel-guide (hero — replaces a generic shared leh-ladakh.jpg photo)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Tso_Moriri,_Ladakh_(34855616204).jpg",
       "originalFile": "Tso Moriri, Ladakh (34855616204).jpg",
@@ -633,7 +759,9 @@
     },
     {
       "path": "blogs/puducherry/karaikal-district/thirunallar-temple-tank-karaikal.webp",
-      "usedIn": ["karaikal-district-travel-guide (hero + inline — replaces a Hampi photo used in error)"],
+      "usedIn": [
+        "karaikal-district-travel-guide (hero + inline — replaces a Hampi photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Thirunallar_Dharbaranyeeswarar_Temple_and_Tank.jpg",
       "originalFile": "Thirunallar Dharbaranyeeswarar Temple and Tank.jpg",
@@ -643,7 +771,9 @@
     },
     {
       "path": "blogs/puducherry/mahe-district/mahe-river-boathouse-mahe-district.webp",
-      "usedIn": ["mahe-district-travel-guide (hero + inline — replaces a Kerala photo used in error)"],
+      "usedIn": [
+        "mahe-district-travel-guide (hero + inline — replaces a Kerala photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Mahe_Boat_House.jpg",
       "originalFile": "Mahe Boat House.jpg",
@@ -653,7 +783,9 @@
     },
     {
       "path": "blogs/puducherry/yanam-district/koringa-river-godavari-delta-yanam.webp",
-      "usedIn": ["yanam-district-travel-guide (hero — replaces a Kerala photo used in error)"],
+      "usedIn": [
+        "yanam-district-travel-guide (hero — replaces a Kerala photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Koringa_River_at_Yanam_01.jpg",
       "originalFile": "Koringa River at Yanam 01.jpg",
@@ -663,7 +795,9 @@
     },
     {
       "path": "blogs/puducherry/yanam-district/rajiv-gandhi-beach-shivalinga-monument-yanam.webp",
-      "usedIn": ["yanam-district-travel-guide (Yanam Town / Rajiv Gandhi Beach section)"],
+      "usedIn": [
+        "yanam-district-travel-guide (Yanam Town / Rajiv Gandhi Beach section)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:ShivaLinga_and_Elephants_Statue_at_Yanam_Beach,_Yanam.jpg",
       "originalFile": "ShivaLinga and Elephants Statue at Yanam Beach, Yanam.jpg",
@@ -673,7 +807,9 @@
     },
     {
       "path": "blogs/lakshadweep/kavaratti-island/kavaratti-lagoon-fishing-boats.webp",
-      "usedIn": ["kavaratti-island-travel-guide (hero + inline — replaces a generic shared Lakshadweep photo, previously identical to Agatti's)"],
+      "usedIn": [
+        "kavaratti-island-travel-guide (hero + inline — replaces a generic shared Lakshadweep photo, previously identical to Agatti's)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Kavaratti_Lagoon_(5799663383).jpg",
       "originalFile": "Kavaratti Lagoon (5799663383).jpg",
@@ -683,7 +819,9 @@
     },
     {
       "path": "blogs/lakshadweep/agatti-island/agatti-island-lagoon-beach.webp",
-      "usedIn": ["agatti-island-travel-guide (hero + inline — replaces a generic shared Lakshadweep photo, previously identical to Kavaratti's)"],
+      "usedIn": [
+        "agatti-island-travel-guide (hero + inline — replaces a generic shared Lakshadweep photo, previously identical to Kavaratti's)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:View_from_Agatti_Island_in_Lakshadweep_-_IMG_5602.jpg",
       "originalFile": "View from Agatti Island in Lakshadweep - IMG 5602.jpg",
@@ -693,7 +831,9 @@
     },
     {
       "path": "blogs/arunachal-pradesh/ziro-valley-arunachal/apatani-rice-paddies-ziro-valley.webp",
-      "usedIn": ["ziro-valley-arunachal-travel-guide (hero + inline — replaces a Meghalaya photo in metadata and a mislabeled Alps-style photo in the body)"],
+      "usedIn": [
+        "ziro-valley-arunachal-travel-guide (hero + inline — replaces a Meghalaya photo in metadata and a mislabeled Alps-style photo in the body)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Apatani_Rice_Paddies.jpg",
       "originalFile": "Apatani Rice Paddies.jpg",
@@ -703,7 +843,9 @@
     },
     {
       "path": "blogs/uttarakhand/valley-of-flowers/alpine-meadow-snow-peaks-valley-of-flowers.webp",
-      "usedIn": ["valley-of-flowers-travel-guide (hero — replaces a Manali photo used in error)"],
+      "usedIn": [
+        "valley-of-flowers-travel-guide (hero — replaces a Manali photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Valley_of_flowers_national_park,_Uttarakhand,_India.jpg",
       "originalFile": "Valley of flowers national park, Uttarakhand, India.jpg",
@@ -713,7 +855,9 @@
     },
     {
       "path": "blogs/uttarakhand/valley-of-flowers/wildflower-bloom-valley-of-flowers.webp",
-      "usedIn": ["valley-of-flowers-travel-guide (Govindghat to Ghangaria section)"],
+      "usedIn": [
+        "valley-of-flowers-travel-guide (Govindghat to Ghangaria section)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Valley_of_flower_in_bloom.jpg",
       "originalFile": "Valley of flower in bloom.jpg",
@@ -723,7 +867,9 @@
     },
     {
       "path": "blogs/ladakh/hunder/bactrian-camel-resting-nubra-valley.webp",
-      "usedIn": ["hunder-travel-guide (inline section)"],
+      "usedIn": [
+        "hunder-travel-guide (inline section)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:The_Bactrian_Camel_of_Nubra_Valley.jpg",
       "originalFile": "The Bactrian Camel of Nubra Valley.jpg",
@@ -733,7 +879,9 @@
     },
     {
       "path": "blogs/ladakh/kargil/kargil-town-suru-river-valley.webp",
-      "usedIn": ["kargil-travel-guide (hero + 2 inline sections — replaces a generic shared leh-ladakh.jpg photo)"],
+      "usedIn": [
+        "kargil-travel-guide (hero + 2 inline sections — replaces a generic shared leh-ladakh.jpg photo)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Kargil_City_Ladakh.jpg",
       "originalFile": "Kargil City Ladakh.jpg",
@@ -743,7 +891,9 @@
     },
     {
       "path": "blogs/ladakh/kargil/kargil-war-memorial-drass.webp",
-      "usedIn": ["kargil-travel-guide (War Memorial inline section)"],
+      "usedIn": [
+        "kargil-travel-guide (War Memorial inline section)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Kargil_War_Memorial_1_Sculpture_at_Drass.jpg",
       "originalFile": "Kargil War Memorial 1 Sculpture at Drass.jpg",
@@ -753,7 +903,9 @@
     },
     {
       "path": "blogs/ladakh/drass/kargil-war-memorial-flag-drass.webp",
-      "usedIn": ["drass-travel-guide (hero — replaces a generic shared leh-ladakh.jpg photo)"],
+      "usedIn": [
+        "drass-travel-guide (hero — replaces a generic shared leh-ladakh.jpg photo)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Kargil_War_Memorial2.jpg",
       "originalFile": "Kargil War Memorial2.jpg",
@@ -763,7 +915,9 @@
     },
     {
       "path": "blogs/ladakh/drass/kargil-war-memorial-howitzer-display.webp",
-      "usedIn": ["drass-travel-guide (War Memorial inline section)"],
+      "usedIn": [
+        "drass-travel-guide (War Memorial inline section)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Kargil_War_Memorial-Drass_-1.jpg",
       "originalFile": "Kargil War Memorial-Drass -1.jpg",
@@ -773,7 +927,9 @@
     },
     {
       "path": "blogs/ladakh/zanskar-valley/phugtal-monastery-cliff-zanskar.webp",
-      "usedIn": ["zanskar-valley-travel-guide (hero + Phugtal Monastery section — replaces a generic shared leh-ladakh.jpg photo)"],
+      "usedIn": [
+        "zanskar-valley-travel-guide (hero + Phugtal Monastery section — replaces a generic shared leh-ladakh.jpg photo)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Cave_Buildings_Wide_Phuktal_Gompa_Oct22_A7C_04519.jpg",
       "originalFile": "Cave Buildings Wide Phuktal Gompa Oct22 A7C 04519.jpg",
@@ -783,7 +939,9 @@
     },
     {
       "path": "blogs/ladakh/zanskar-valley/drang-drung-glacier-pensi-la.webp",
-      "usedIn": ["zanskar-valley-travel-guide (Kargil-Padum road via Pensi La section)"],
+      "usedIn": [
+        "zanskar-valley-travel-guide (Kargil-Padum road via Pensi La section)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Drang_Drung_glacier_seen_from_Pensi_La_pass.jpg",
       "originalFile": "Drang Drung glacier seen from Pensi La pass.jpg",
@@ -793,7 +951,9 @@
     },
     {
       "path": "blogs/ladakh/hanle/hanle-observatory-night-sky-ladakh.webp",
-      "usedIn": ["hanle-travel-guide (hero — replaces a generic shared leh-ladakh.jpg photo)"],
+      "usedIn": [
+        "hanle-travel-guide (hero — replaces a generic shared leh-ladakh.jpg photo)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:IAO-Hanle-high_energy_gamma-ray_telescope-AtNight.jpg",
       "originalFile": "IAO-Hanle-high energy gamma-ray telescope-AtNight.jpg",
@@ -803,7 +963,9 @@
     },
     {
       "path": "blogs/ladakh/hanle/indian-astronomical-observatory-hanle.webp",
-      "usedIn": ["hanle-travel-guide (Observatory inline section)"],
+      "usedIn": [
+        "hanle-travel-guide (Observatory inline section)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:IAO-Hanle-high_energy_gamma_ray_telescope-UnderRainbow.jpg",
       "originalFile": "IAO-Hanle-high energy gamma ray telescope-UnderRainbow.jpg",
@@ -813,7 +975,9 @@
     },
     {
       "path": "blogs/ladakh/turtuk/turtuk-village-shyok-valley.webp",
-      "usedIn": ["turtuk-travel-guide (hero — replaces a generic shared leh-ladakh.jpg photo)"],
+      "usedIn": [
+        "turtuk-travel-guide (hero — replaces a generic shared leh-ladakh.jpg photo)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:View_of_Shyok_Valley_from_Turtuk_Village,_Ladakh.JPG",
       "originalFile": "View of Shyok Valley from Turtuk Village, Ladakh.JPG",
@@ -823,7 +987,9 @@
     },
     {
       "path": "blogs/ladakh/turtuk/balti-women-turtuk-harvest.webp",
-      "usedIn": ["turtuk-travel-guide (Farol & Chutang inline section)"],
+      "usedIn": [
+        "turtuk-travel-guide (Farol & Chutang inline section)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Balti_Women_Buckwheat_Turtuk_Mar19_DSC01118.jpg",
       "originalFile": "Balti Women Buckwheat Turtuk Mar19 DSC01118.jpg",
@@ -833,7 +999,9 @@
     },
     {
       "path": "blogs/ladakh/lamayuru/lamayuru-monastery-moonland.webp",
-      "usedIn": ["lamayuru-travel-guide (hero — replaces a generic shared leh-ladakh.jpg photo)"],
+      "usedIn": [
+        "lamayuru-travel-guide (hero — replaces a generic shared leh-ladakh.jpg photo)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Lamayuru_Monastery_with_Moonland_in_the_Background.jpg",
       "originalFile": "Lamayuru Monastery with Moonland in the Background.jpg",
@@ -843,7 +1011,9 @@
     },
     {
       "path": "blogs/ladakh/lamayuru/lamayuru-moonscape-eroded-badlands.webp",
-      "usedIn": ["lamayuru-travel-guide (Moonland inline section)"],
+      "usedIn": [
+        "lamayuru-travel-guide (Moonland inline section)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Moonscape,_Lunar_landscape,_Lamayuru,_Ladakh,_India.jpg",
       "originalFile": "Moonscape, Lunar landscape, Lamayuru, Ladakh, India.jpg",
@@ -853,7 +1023,9 @@
     },
     {
       "path": "blogs/ladakh/hemis/hemis-monastery-facade-courtyard.webp",
-      "usedIn": ["hemis-travel-guide (hero + inline — replaces a generic shared leh-ladakh.jpg photo)"],
+      "usedIn": [
+        "hemis-travel-guide (hero + inline — replaces a generic shared leh-ladakh.jpg photo)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Hemis_Monastery-Hemis-Ladakh_UT-IMG_4344.jpg",
       "originalFile": "Hemis Monastery-Hemis-Ladakh UT-IMG 4344.jpg",
@@ -863,7 +1035,9 @@
     },
     {
       "path": "blogs/ladakh/thiksey/thiksey-monastery-hilltop-view.webp",
-      "usedIn": ["thiksey-travel-guide (hero + inline — replaces a generic shared leh-ladakh.jpg photo)"],
+      "usedIn": [
+        "thiksey-travel-guide (hero + inline — replaces a generic shared leh-ladakh.jpg photo)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Thiksey_Monastery_Complex,_Ladakh_02.jpg",
       "originalFile": "Thiksey Monastery Complex, Ladakh 02.jpg",
@@ -873,7 +1047,9 @@
     },
     {
       "path": "blogs/ladakh/khardung-la/khardung-la-winding-pass-road.webp",
-      "usedIn": ["khardung-la-travel-guide (hero — replaces a generic shared leh-ladakh.jpg photo)"],
+      "usedIn": [
+        "khardung-la-travel-guide (hero — replaces a generic shared leh-ladakh.jpg photo)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Khardung_La,_Ladakh_Range,_North_India.jpg",
       "originalFile": "Khardung La, Ladakh Range, North India.jpg",
@@ -883,7 +1059,9 @@
     },
     {
       "path": "blogs/ladakh/dha-hanu/brokpa-women-traditional-headdress-dha-hanu.webp",
-      "usedIn": ["dha-hanu-travel-guide (hero + inline — replaces a generic shared leh-ladakh.jpg photo)"],
+      "usedIn": [
+        "dha-hanu-travel-guide (hero + inline — replaces a generic shared leh-ladakh.jpg photo)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Brokpa_women_before_the_ceremony_began.jpg",
       "originalFile": "Brokpa women before the ceremony began.jpg",
@@ -893,7 +1071,9 @@
     },
     {
       "path": "blogs/ladakh/padum/padum-zanskar-valley-view-from-karsha.webp",
-      "usedIn": ["padum-travel-guide (hero + Karsha Monastery inline section — replaces a generic shared leh-ladakh.jpg photo)"],
+      "usedIn": [
+        "padum-travel-guide (hero + Karsha Monastery inline section — replaces a generic shared leh-ladakh.jpg photo)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Padum_Zanskar_View_From_Karsha_Oct22_A7C_03984.jpg",
       "originalFile": "Padum Zanskar View From Karsha Oct22 A7C 03984.jpg",
@@ -903,7 +1083,9 @@
     },
     {
       "path": "blogs/jammu-and-kashmir/sonamarg/thajiwas-glacier-valley-sonamarg.webp",
-      "usedIn": ["sonamarg-travel-guide (hero + inline — replaces a generic shared jammu-kashmir/hero.jpg photo)"],
+      "usedIn": [
+        "sonamarg-travel-guide (hero + inline — replaces a generic shared jammu-kashmir/hero.jpg photo)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Thajiwas_Glacier,_Sonamarg,_Kashmir_-_Picture_1_(8707802225).jpg",
       "originalFile": "Thajiwas Glacier, Sonamarg, Kashmir - Picture 1 (8707802225).jpg",
@@ -913,7 +1095,9 @@
     },
     {
       "path": "blogs/jammu-and-kashmir/katra/vaishno-devi-shrine-mountain-valley.webp",
-      "usedIn": ["katra-travel-guide (hero — replaces a generic shared jammu-kashmir/hero.jpg photo)"],
+      "usedIn": [
+        "katra-travel-guide (hero — replaces a generic shared jammu-kashmir/hero.jpg photo)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Shri_Mata_Vaishno_Devi_Shrine,_Katra,_Jammu_and_Kashmir,_India.jpg",
       "originalFile": "Shri Mata Vaishno Devi Shrine, Katra, Jammu and Kashmir, India.jpg",
@@ -923,7 +1107,9 @@
     },
     {
       "path": "blogs/jammu-and-kashmir/gurez-valley/habba-khatoon-peak-kishanganga-river.webp",
-      "usedIn": ["gurez-valley-travel-guide (hero + inline — replaces a generic shared jammu-kashmir/hero.jpg photo)"],
+      "usedIn": [
+        "gurez-valley-travel-guide (hero + inline — replaces a generic shared jammu-kashmir/hero.jpg photo)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Habba_Khatoon.jpg",
       "originalFile": "Habba Khatoon.jpg",
@@ -933,7 +1119,9 @@
     },
     {
       "path": "blogs/jammu-and-kashmir/doodhpathri/doodhpathri-meadow-pine-forest.webp",
-      "usedIn": ["doodhpathri-travel-guide (hero + inline — replaces a generic shared jammu-kashmir/hero.jpg photo)"],
+      "usedIn": [
+        "doodhpathri-travel-guide (hero + inline — replaces a generic shared jammu-kashmir/hero.jpg photo)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Meadows_and_Forests_Doodhpathri_southwest_Jammu_Kashmir_India.jpg",
       "originalFile": "Meadows and Forests Doodhpathri southwest Jammu Kashmir India.jpg",
@@ -943,7 +1131,9 @@
     },
     {
       "path": "blogs/jammu-and-kashmir/yusmarg/yusmarg-meadow-pine-forest.webp",
-      "usedIn": ["yusmarg-travel-guide (hero + inline — replaces a generic shared jammu-kashmir/hero.jpg photo)"],
+      "usedIn": [
+        "yusmarg-travel-guide (hero + inline — replaces a generic shared jammu-kashmir/hero.jpg photo)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Yousmarg.jpg",
       "originalFile": "Yousmarg.jpg",
@@ -953,7 +1143,9 @@
     },
     {
       "path": "blogs/delhi/hauz-khas/hauz-khas-fort-madrasa-ruins.webp",
-      "usedIn": ["hauz-khas-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"],
+      "usedIn": [
+        "hauz-khas-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Hauz_Khas_Fort_1.jpg",
       "originalFile": "Hauz Khas Fort 1.jpg",
@@ -963,7 +1155,9 @@
     },
     {
       "path": "blogs/delhi/nizamuddin/nizamuddin-dargah-marble-dome-delhi.webp",
-      "usedIn": ["nizamuddin-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"],
+      "usedIn": [
+        "nizamuddin-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Hazrat_Nizamuddin_Dargah,_Delhi_(2017).jpg",
       "originalFile": "Hazrat Nizamuddin Dargah, Delhi (2017).jpg",
@@ -973,7 +1167,9 @@
     },
     {
       "path": "blogs/delhi/akshardham/akshardham-temple-domes-delhi.webp",
-      "usedIn": ["akshardham-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"],
+      "usedIn": [
+        "akshardham-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Akshardham_temple,_Delhi.jpg",
       "originalFile": "Akshardham temple, Delhi.jpg",
@@ -983,7 +1179,9 @@
     },
     {
       "path": "blogs/delhi/dwarka/dwarka-residential-sub-city-aerial-view.webp",
-      "usedIn": ["dwarka-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"],
+      "usedIn": [
+        "dwarka-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Dwarka_-_Residential_Area_-_Aerial_View_-_New_Delhi_2016-08-04_5783.JPG",
       "originalFile": "Dwarka - Residential Area - Aerial View - New Delhi 2016-08-04 5783.JPG",
@@ -993,7 +1191,9 @@
     },
     {
       "path": "blogs/delhi/karol-bagh/karol-bagh-gaffar-market-ajmal-khan-road.webp",
-      "usedIn": ["karol-bagh-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"],
+      "usedIn": [
+        "karol-bagh-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Karol_Bagh,_2008_(6).JPG",
       "originalFile": "Karol Bagh, 2008 (6).JPG",
@@ -1003,7 +1203,9 @@
     },
     {
       "path": "blogs/delhi/lajpat-nagar/lajpat-nagar-central-market-street-scene.webp",
-      "usedIn": ["lajpat-nagar-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"],
+      "usedIn": [
+        "lajpat-nagar-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Lajpat_Nagar_marketplace_in_2006.jpg",
       "originalFile": "Lajpat Nagar marketplace in 2006.jpg",
@@ -1013,7 +1215,9 @@
     },
     {
       "path": "blogs/jammu-and-kashmir/aharbal/aharbal-falls-viewing-deck-kashmir.webp",
-      "usedIn": ["aharbal-travel-guide (hero + inline — replaces a generic shared jammu-kashmir/hero.jpg photo)"],
+      "usedIn": [
+        "aharbal-travel-guide (hero + inline — replaces a generic shared jammu-kashmir/hero.jpg photo)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Waterfall_of_Aharbal.JPG",
       "originalFile": "Waterfall of Aharbal.JPG",
@@ -1023,7 +1227,9 @@
     },
     {
       "path": "blogs/jammu-and-kashmir/patnitop/patnitop-pine-forest-meadow-jk.webp",
-      "usedIn": ["patnitop-travel-guide (hero + inline — replaces a generic shared jammu-kashmir/hero.jpg photo)"],
+      "usedIn": [
+        "patnitop-travel-guide (hero + inline — replaces a generic shared jammu-kashmir/hero.jpg photo)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Patnitop_Park.jpg",
       "originalFile": "Patnitop Park.jpg",
@@ -1033,7 +1239,9 @@
     },
     {
       "path": "blogs/jammu-and-kashmir/bhaderwah/jai-valley-bhaderwah-meadow-doda.webp",
-      "usedIn": ["bhaderwah-travel-guide (hero + inline — replaces a generic shared jammu-kashmir/hero.jpg photo)"],
+      "usedIn": [
+        "bhaderwah-travel-guide (hero + inline — replaces a generic shared jammu-kashmir/hero.jpg photo)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Jai_Valley_Bhaderwah_1.jpg",
       "originalFile": "Jai Valley Bhaderwah 1.jpg",
@@ -1043,7 +1251,9 @@
     },
     {
       "path": "blogs/delhi/new-delhi/india-gate-lawns-new-delhi.webp",
-      "usedIn": ["new-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"],
+      "usedIn": [
+        "new-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:India_Gate,_New_Delhi_from_West.jpg",
       "originalFile": "India Gate, New Delhi from West.jpg",
@@ -1053,7 +1263,9 @@
     },
     {
       "path": "blogs/delhi/old-delhi/jama-masjid-courtyard-old-delhi.webp",
-      "usedIn": ["old-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"],
+      "usedIn": [
+        "old-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:20191203_Jama_Masjid,_Delhi_0707_6468_DxO.jpg",
       "originalFile": "20191203 Jama Masjid, Delhi 0707 6468 DxO.jpg",
@@ -1063,7 +1275,9 @@
     },
     {
       "path": "blogs/delhi/mehrauli/qutub-minar-tower-ruins-mehrauli.webp",
-      "usedIn": ["mehrauli-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"],
+      "usedIn": [
+        "mehrauli-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Qutub_Minar,_Delhi_04.jpg",
       "originalFile": "Qutub Minar, Delhi 04.jpg",
@@ -1073,7 +1287,9 @@
     },
     {
       "path": "blogs/delhi/south-delhi/lotus-temple-kalkaji-south-delhi.webp",
-      "usedIn": ["south-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"],
+      "usedIn": [
+        "south-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:The_Lotus_temple_in_Delhi,_India_(11).jpg",
       "originalFile": "The Lotus temple in Delhi, India (11).jpg",
@@ -1083,7 +1299,9 @@
     },
     {
       "path": "blogs/delhi/tughlaqabad/tughlaqabad-fort-sloping-ramparts.webp",
-      "usedIn": ["tughlaqabad-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"],
+      "usedIn": [
+        "tughlaqabad-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Outside_view_of_Tughlaqabad_Fort_in_Tughlakabad_05.jpg",
       "originalFile": "Outside view of Tughlaqabad Fort in Tughlakabad 05.jpg",
@@ -1093,7 +1311,9 @@
     },
     {
       "path": "blogs/delhi/connaught-place/connaught-place-colonnade-facade.webp",
-      "usedIn": ["connaught-place-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"],
+      "usedIn": [
+        "connaught-place-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Connaught_place,_Delhi.jpg",
       "originalFile": "Connaught place, Delhi.jpg",
@@ -1103,7 +1323,9 @@
     },
     {
       "path": "blogs/delhi/chandni-chowk/chandni-chowk-bazaar-street-scene.webp",
-      "usedIn": ["chandni-chowk-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"],
+      "usedIn": [
+        "chandni-chowk-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Chandni_Chowk,_2008_(01).JPG",
       "originalFile": "Chandni Chowk, 2008 (01).JPG",
@@ -1113,7 +1335,9 @@
     },
     {
       "path": "blogs/delhi/majnu-ka-tilla/majnu-ka-tilla-tibetan-colony-lane.webp",
-      "usedIn": ["majnu-ka-tilla-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"],
+      "usedIn": [
+        "majnu-ka-tilla-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Rick_Bradley,_Street_in_Majnu-ka-tilla.jpg",
       "originalFile": "Rick Bradley, Street in Majnu-ka-tilla.jpg",
@@ -1123,7 +1347,9 @@
     },
     {
       "path": "blogs/delhi/chanakyapuri/gandhi-charkha-statue-gandhi-smriti.webp",
-      "usedIn": ["chanakyapuri-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"],
+      "usedIn": [
+        "chanakyapuri-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Gandhi_Smriti-Delhi-India07.JPG",
       "originalFile": "Gandhi Smriti-Delhi-India07.JPG",
@@ -1133,7 +1359,9 @@
     },
     {
       "path": "blogs/delhi/lodhi-garden/lodhi-garden-tomb-of-sikandar-lodi.webp",
-      "usedIn": ["lodhi-garden-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"],
+      "usedIn": [
+        "lodhi-garden-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Tomb_of_Sikandar_Lodhi,_Lodhi_Gardens_Delhi_3.jpg",
       "originalFile": "Tomb of Sikandar Lodhi, Lodhi Gardens Delhi 3.jpg",
@@ -1143,7 +1371,9 @@
     },
     {
       "path": "blogs/delhi/vasant-kunj/vasant-kunj-aerial-ongc-ambience-complex.webp",
-      "usedIn": ["vasant-kunj-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"],
+      "usedIn": [
+        "vasant-kunj-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:ONGC_Rajiv_Gandhi_Urja_Bhavan_and_other_Commercial_Buildings_-_Aerial_View_-_Vasant_Kunj_-_New_Delhi_2016-08-04_5810.JPG",
       "originalFile": "ONGC Rajiv Gandhi Urja Bhavan and other Commercial Buildings - Aerial View - Vasant Kunj - New Delhi 2016-08-04 5810.JPG",
@@ -1153,7 +1383,9 @@
     },
     {
       "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/satmaliya-deer-sanctuary/spotted-deer-fawn-satmaliya-deer-park.webp",
-      "usedIn": ["satmaliya-deer-sanctuary-travel-guide (hero + inline — replaces a Goa photo used in error)"],
+      "usedIn": [
+        "satmaliya-deer-sanctuary-travel-guide (hero + inline — replaces a Goa photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Baby_Cheetal_Deer.jpg",
       "originalFile": "Baby Cheetal Deer.jpg",
@@ -1163,7 +1395,9 @@
     },
     {
       "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/vanganga-lake-garden/vanganga-lake-garden-lakeside-view-silvassa.webp",
-      "usedIn": ["vanganga-lake-garden-travel-guide (hero + inline — replaces a Goa photo used in error)"],
+      "usedIn": [
+        "vanganga-lake-garden-travel-guide (hero + inline — replaces a Goa photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Vanganga_Lake,_Dadra_-_panoramio.jpg",
       "originalFile": "Vanganga Lake, Dadra - panoramio.jpg",
@@ -1173,7 +1407,9 @@
     },
     {
       "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/madhuban-dam/madhuban-dam-reservoir-view-silvassa.webp",
-      "usedIn": ["madhuban-dam-travel-guide (hero + inline — replaces a Goa photo used in error)"],
+      "usedIn": [
+        "madhuban-dam-travel-guide (hero + inline — replaces a Goa photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:A_Beautiful_Nature_of_Silvassa.jpg",
       "originalFile": "A Beautiful Nature of Silvassa.jpg",
@@ -1183,7 +1419,9 @@
     },
     {
       "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/gangeshwar-temple/gangeshwar-temple-shivlings-rock-shrine-diu.webp",
-      "usedIn": ["gangeshwar-temple-travel-guide (hero + inline — replaces a Goa photo used in error)"],
+      "usedIn": [
+        "gangeshwar-temple-travel-guide (hero + inline — replaces a Goa photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Gangeshwar_Temple.jpg",
       "originalFile": "Gangeshwar Temple.jpg",
@@ -1193,7 +1431,9 @@
     },
     {
       "path": "blogs/west-bengal/kolkata/howrah-bridge-cantilever-hooghly-river-kolkata.webp",
-      "usedIn": ["kolkata-travel-guide (hero — replaces a Puducherry photo used in error)"],
+      "usedIn": [
+        "kolkata-travel-guide (hero — replaces a Puducherry photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Howrah_Bridge_02.jpg",
       "originalFile": "Howrah Bridge 02.jpg",
@@ -1203,7 +1443,9 @@
     },
     {
       "path": "blogs/west-bengal/kolkata/victoria-memorial-west-facade-kolkata.webp",
-      "usedIn": ["kolkata-travel-guide (Colonial Landmarks & Temples section)"],
+      "usedIn": [
+        "kolkata-travel-guide (Colonial Landmarks & Temples section)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Victoria_Memorial,_Kolkata_-_West_facade_01.jpg",
       "originalFile": "Victoria Memorial, Kolkata - West facade 01.jpg",
@@ -1213,7 +1455,9 @@
     },
     {
       "path": "blogs/west-bengal/darjeeling/tiger-hill-kanchenjunga-sunrise-darjeeling.webp",
-      "usedIn": ["darjeeling-travel-guide (hero — replaces a Meghalaya photo used in error)"],
+      "usedIn": [
+        "darjeeling-travel-guide (hero — replaces a Meghalaya photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:The_majestic_kanchenjunga.jpg",
       "originalFile": "The majestic kanchenjunga.jpg",
@@ -1223,7 +1467,9 @@
     },
     {
       "path": "blogs/west-bengal/darjeeling/darjeeling-himalayan-railway-toy-train.webp",
-      "usedIn": ["darjeeling-travel-guide (Things to Do section)"],
+      "usedIn": [
+        "darjeeling-travel-guide (Things to Do section)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Toy_Train_by_Paramanu_Sarkar_01.jpg",
       "originalFile": "Toy Train by Paramanu Sarkar 01.jpg",
@@ -1233,7 +1479,9 @@
     },
     {
       "path": "blogs/west-bengal/kalimpong/zang-dhok-palri-phodang-monastery-kalimpong.webp",
-      "usedIn": ["kalimpong-travel-guide (hero + inline — replaces a Manali photo used in error)"],
+      "usedIn": [
+        "kalimpong-travel-guide (hero + inline — replaces a Manali photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Zang_Dhok_Palri_Phodang_01.jpg",
       "originalFile": "Zang Dhok Palri Phodang 01.jpg",
@@ -1243,7 +1491,9 @@
     },
     {
       "path": "blogs/west-bengal/sandakphu/kanchenjunga-range-view-sandakphu-singalila.webp",
-      "usedIn": ["sandakphu-travel-guide (hero + inline — replaces a Rohtang Pass photo used in error)"],
+      "usedIn": [
+        "sandakphu-travel-guide (hero + inline — replaces a Rohtang Pass photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:2024-03-10_Kumbhakarna,_Kangchenjunga_and_Pandim_mountains_seen_from_Sandakphu_2.jpg",
       "originalFile": "2024-03-10 Kumbhakarna, Kangchenjunga and Pandim mountains seen from Sandakphu 2.jpg",
@@ -1253,7 +1503,9 @@
     },
     {
       "path": "blogs/west-bengal/dooars/one-horned-rhino-jaldapara-national-park-dooars.webp",
-      "usedIn": ["dooars-travel-guide (hero + inline — replaces a Meghalaya photo used in error)"],
+      "usedIn": [
+        "dooars-travel-guide (hero + inline — replaces a Meghalaya photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Rhino_at_Jaldapara.jpg",
       "originalFile": "Rhino at Jaldapara.jpg",
@@ -1263,7 +1515,9 @@
     },
     {
       "path": "blogs/west-bengal/sundarbans/tourist-boat-mangrove-forest-sundarbans-national-park.webp",
-      "usedIn": ["sundarbans-travel-guide (hero + inline — replaces a Kerala photo used in error)"],
+      "usedIn": [
+        "sundarbans-travel-guide (hero + inline — replaces a Kerala photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Tourist_Boat_in_Sundarbans,_West_Bengal,_India_01.jpg",
       "originalFile": "Tourist Boat in Sundarbans, West Bengal, India 01.jpg",
@@ -1273,7 +1527,9 @@
     },
     {
       "path": "blogs/delhi/sarojini-nagar/cloth-stall-sarojini-nagar-market.webp",
-      "usedIn": ["sarojini-nagar-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"],
+      "usedIn": [
+        "sarojini-nagar-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Cloth_Stall_at_Sarojini_Nagar_Market,_Delhi.jpg",
       "originalFile": "Cloth Stall at Sarojini Nagar Market, Delhi.jpg",
@@ -1283,7 +1539,9 @@
     },
     {
       "path": "blogs/delhi/paharganj/main-bazaar-paharganj-street-scene.webp",
-      "usedIn": ["paharganj-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"],
+      "usedIn": [
+        "paharganj-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Main_Bazaar,_Paharganj,_Delhi,_India.jpg",
       "originalFile": "Main Bazaar, Paharganj, Delhi, India.jpg",
@@ -1293,7 +1551,9 @@
     },
     {
       "path": "blogs/delhi/kashmere-gate/kashmere-gate-brick-arches-ruins.webp",
-      "usedIn": ["kashmere-gate-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"],
+      "usedIn": [
+        "kashmere-gate-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Kashmiri_Gate_002.jpg",
       "originalFile": "Kashmiri Gate 002.jpg",
@@ -1303,7 +1563,9 @@
     },
     {
       "path": "blogs/delhi/rohini/japanese-park-carved-tree-sculpture-rohini.webp",
-      "usedIn": ["rohini-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"],
+      "usedIn": [
+        "rohini-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Japnese_park_rohini,Delhi.jpg",
       "originalFile": "Japnese park rohini,Delhi.jpg",
@@ -1313,7 +1575,9 @@
     },
     {
       "path": "blogs/delhi/janakpuri/janakpuri-west-metro-interchange-signage.webp",
-      "usedIn": ["janakpuri-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"],
+      "usedIn": [
+        "janakpuri-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Janakpuri_West_(Delhi)_metro_station.jpg",
       "originalFile": "Janakpuri West (Delhi) metro station.jpg",
@@ -1323,7 +1587,9 @@
     },
     {
       "path": "blogs/delhi/laxmi-nagar/laxmi-nagar-market-road-view.webp",
-      "usedIn": ["laxmi-nagar-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"],
+      "usedIn": [
+        "laxmi-nagar-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Laxmi_Nagar_view.jpg",
       "originalFile": "Laxmi Nagar view.jpg",
@@ -1333,7 +1599,9 @@
     },
     {
       "path": "blogs/delhi/najafgarh/najafgarh-drain-aerial-view.webp",
-      "usedIn": ["najafgarh-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"],
+      "usedIn": [
+        "najafgarh-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Najafgarh_Drain_-_Aerial_View_-_New_Delhi_2016-08-04_5779.JPG",
       "originalFile": "Najafgarh Drain - Aerial View - New Delhi 2016-08-04 5779.JPG",
@@ -1343,7 +1611,9 @@
     },
     {
       "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu/diu-fort-sea-facing-ramparts.webp",
-      "usedIn": ["diu-travel-guide (hero — replaces a Goa photo used in error)"],
+      "usedIn": [
+        "diu-travel-guide (hero — replaces a Goa photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Diu_Fort.JPG",
       "originalFile": "Diu Fort.JPG",
@@ -1353,7 +1623,9 @@
     },
     {
       "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu/nagoa-beach-i-love-diu-hand-sculpture.webp",
-      "usedIn": ["diu-travel-guide (beaches section)"],
+      "usedIn": [
+        "diu-travel-guide (beaches section)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Nagoa_Beach,_Diu.jpg",
       "originalFile": "Nagoa Beach, Diu.jpg",
@@ -1363,7 +1635,9 @@
     },
     {
       "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/daman/fort-of-st-jerome-gate-daman.webp",
-      "usedIn": ["daman-travel-guide (hero + Moti Daman inline section — replaces a Goa photo used in error)"],
+      "usedIn": [
+        "daman-travel-guide (hero + Moti Daman inline section — replaces a Goa photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Fort_of_St._Jerome,_Nani_Daman.jpg",
       "originalFile": "Fort of St. Jerome, Nani Daman.jpg",
@@ -1373,7 +1647,9 @@
     },
     {
       "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/daman/devka-beach-sunset-tidal-flats.webp",
-      "usedIn": ["daman-travel-guide (Devka Beach section)"],
+      "usedIn": [
+        "daman-travel-guide (Devka Beach section)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Devka_beach_sunset_in_daman.jpg",
       "originalFile": "Devka beach sunset in daman.jpg",
@@ -1383,7 +1659,9 @@
     },
     {
       "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/silvassa/silvassa-road-signage-khanvel-collectorate.webp",
-      "usedIn": ["silvassa-travel-guide (hero — replaces a Goa photo used in error)"],
+      "usedIn": [
+        "silvassa-travel-guide (hero — replaces a Goa photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Dadra_and_Nagar_Haveli_Silvassa_2.jpg",
       "originalFile": "Dadra and Nagar Haveli Silvassa 2.jpg",
@@ -1393,7 +1671,9 @@
     },
     {
       "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/silvassa/damanganga-riverside-near-silvassa.webp",
-      "usedIn": ["silvassa-travel-guide (Dudhni section)"],
+      "usedIn": [
+        "silvassa-travel-guide (Dudhni section)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Dadra_and_Nagar_Haveli_Silvassa.jpg",
       "originalFile": "Dadra and Nagar Haveli Silvassa.jpg",
@@ -1403,7 +1683,9 @@
     },
     {
       "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/dudhni/dudhni-lake-reservoir-boating-view.webp",
-      "usedIn": ["dudhni-travel-guide (hero — replaces a Goa photo used in error)"],
+      "usedIn": [
+        "dudhni-travel-guide (hero — replaces a Goa photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Wonderful_sky_with_pond.jpg",
       "originalFile": "Wonderful sky with pond.jpg",
@@ -1413,7 +1695,9 @@
     },
     {
       "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/dudhni/dudhni-lake-island-hills.webp",
-      "usedIn": ["dudhni-travel-guide (inline section)"],
+      "usedIn": [
+        "dudhni-travel-guide (inline section)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:One_type_of_iland.jpg",
       "originalFile": "One type of iland.jpg",
@@ -1423,7 +1707,9 @@
     },
     {
       "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/jampore-beach/jampore-beach-shoreline-waves-daman.webp",
-      "usedIn": ["jampore-beach-travel-guide (hero — replaces a Goa photo used in error)"],
+      "usedIn": [
+        "jampore-beach-travel-guide (hero — replaces a Goa photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Jampore_Beach_Daman_India.jpg",
       "originalFile": "Jampore Beach Daman India.jpg",
@@ -1433,7 +1719,9 @@
     },
     {
       "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/jampore-beach/jampore-beach-fishing-boat-sea.webp",
-      "usedIn": ["jampore-beach-travel-guide (inline section)"],
+      "usedIn": [
+        "jampore-beach-travel-guide (inline section)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Boat_at_Jampore_Beach,_Daman,_India.jpg",
       "originalFile": "Boat at Jampore Beach, Daman, India.jpg",
@@ -1443,7 +1731,9 @@
     },
     {
       "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/devka-beach/devka-beach-black-sand-shoreline-daman.webp",
-      "usedIn": ["devka-beach-travel-guide (hero — replaces a Goa photo used in error)"],
+      "usedIn": [
+        "devka-beach-travel-guide (hero — replaces a Goa photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Daman_Devka_Beach_HighTide.JPG",
       "originalFile": "Daman Devka Beach HighTide.JPG",
@@ -1453,7 +1743,9 @@
     },
     {
       "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/devka-beach/devka-beach-low-tide-rocky-flats.webp",
-      "usedIn": ["devka-beach-travel-guide (inline section)"],
+      "usedIn": [
+        "devka-beach-travel-guide (inline section)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Daman_Devka_Beach_LowTide.JPG",
       "originalFile": "Daman Devka Beach LowTide.JPG",
@@ -1463,7 +1755,9 @@
     },
     {
       "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu-fort/diu-fort-sea-facing-ramparts.webp",
-      "usedIn": ["diu-fort-travel-guide (hero — replaces a Goa photo used in error)"],
+      "usedIn": [
+        "diu-fort-travel-guide (hero — replaces a Goa photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Diu_fort_Sea_View.JPG",
       "originalFile": "Diu fort Sea View.JPG",
@@ -1473,7 +1767,9 @@
     },
     {
       "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu-fort/diu-fort-chapel-doorway-interior.webp",
-      "usedIn": ["diu-fort-travel-guide (inline section)"],
+      "usedIn": [
+        "diu-fort-travel-guide (inline section)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Diu_Fortress,_fort_interior.jpg",
       "originalFile": "Diu Fortress, fort interior.jpg",
@@ -1483,7 +1779,9 @@
     },
     {
       "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/moti-daman/bom-jesus-church-interior-altar.webp",
-      "usedIn": ["moti-daman-travel-guide (hero — replaces a Goa photo used in error)"],
+      "usedIn": [
+        "moti-daman-travel-guide (hero — replaces a Goa photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Church_of_Bom_Jesus,_Daman,_Dadra_and_Nagar_Haveli_and_Daman_and_Diu,_India_(2015).jpg",
       "originalFile": "Church of Bom Jesus, Daman, Dadra and Nagar Haveli and Daman and Diu, India (2015).jpg",
@@ -1493,7 +1791,9 @@
     },
     {
       "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/moti-daman/moti-daman-fort-gate-arch.webp",
-      "usedIn": ["moti-daman-travel-guide (Fort of St. Jerome section)"],
+      "usedIn": [
+        "moti-daman-travel-guide (Fort of St. Jerome section)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Daman_MotiDaman_Fort.JPG",
       "originalFile": "Daman MotiDaman Fort.JPG",
@@ -1503,7 +1803,9 @@
     },
     {
       "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/naida-caves/naida-caves-sandstone-chamber-roots.webp",
-      "usedIn": ["naida-caves-travel-guide (hero — replaces a Goa photo used in error)"],
+      "usedIn": [
+        "naida-caves-travel-guide (hero — replaces a Goa photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Naida_Caves2.jpg",
       "originalFile": "Naida Caves2.jpg",
@@ -1513,7 +1815,9 @@
     },
     {
       "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/naida-caves/naida-caves-sunlit-rock-formations.webp",
-      "usedIn": ["naida-caves-travel-guide (inline section)"],
+      "usedIn": [
+        "naida-caves-travel-guide (inline section)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Naida_Caves.jpg",
       "originalFile": "Naida Caves.jpg",
@@ -1523,7 +1827,9 @@
     },
     {
       "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/ghoghla-beach/ghoghla-beach-waves-sand-diu.webp",
-      "usedIn": ["ghoghla-beach-travel-guide (hero — replaces a Goa photo used in error)"],
+      "usedIn": [
+        "ghoghla-beach-travel-guide (hero — replaces a Goa photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Clean_coast_between_Ghoghla_and_Khodighar_Beach,_Diu-20-_29.06.2021.jpg",
       "originalFile": "Clean coast between Ghoghla and Khodighar Beach, Diu-20- 29.06.2021.jpg",
@@ -1533,7 +1839,9 @@
     },
     {
       "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/ghoghla-beach/ghoghla-beach-rocky-coastline.webp",
-      "usedIn": ["ghoghla-beach-travel-guide (Water Sports section)"],
+      "usedIn": [
+        "ghoghla-beach-travel-guide (Water Sports section)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Wide_view_of_rock_coast,_Diu-16-_29.06.2021.jpg",
       "originalFile": "Wide view of rock coast, Diu-16- 29.06.2021.jpg",
@@ -1543,7 +1851,9 @@
     },
     {
       "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/khanvel/madhuban-dam-view-near-khanvel.webp",
-      "usedIn": ["khanvel-travel-guide (hero — replaces a Goa photo used in error)"],
+      "usedIn": [
+        "khanvel-travel-guide (hero — replaces a Goa photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:A_Beautiful_Nature_of_Silvassa.jpg",
       "originalFile": "A Beautiful Nature of Silvassa.jpg",
@@ -1553,7 +1863,9 @@
     },
     {
       "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/khanvel/forest-owlet-dadra-nagar-haveli.webp",
-      "usedIn": ["khanvel-travel-guide (Khanvel Garden section)"],
+      "usedIn": [
+        "khanvel-travel-guide (Khanvel Garden section)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Forest_Owlet_by_Saswat_Mishra.jpg",
       "originalFile": "Forest Owlet by Saswat Mishra.jpg",
@@ -1563,7 +1875,9 @@
     },
     {
       "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/moti-daman-fort/moti-daman-fort-east-gate-inscription.webp",
-      "usedIn": ["moti-daman-fort-travel-guide (hero — replaces a Goa photo used in error)"],
+      "usedIn": [
+        "moti-daman-fort-travel-guide (hero — replaces a Goa photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:East_Gate_of_Moti_Daman_fort_with_inscription.jpg",
       "originalFile": "East Gate of Moti Daman fort with inscription.jpg",
@@ -1573,7 +1887,9 @@
     },
     {
       "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/moti-daman-fort/moti-daman-fort-lighthouse-estuary-view.webp",
-      "usedIn": ["moti-daman-fort-travel-guide (Sea-Facing Bastions & Daman Ganga Estuary section)"],
+      "usedIn": [
+        "moti-daman-fort-travel-guide (Sea-Facing Bastions & Daman Ganga Estuary section)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Moti_Daman_fort_wall,_Daman_lighthouse_and_Damanganga_mouth_to_Arabian_Sea_01.jpg",
       "originalFile": "Moti Daman fort wall, Daman lighthouse and Damanganga mouth to Arabian Sea 01.jpg",
@@ -1583,7 +1899,9 @@
     },
     {
       "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/nani-daman/nani-daman-fort-entrance-gate.webp",
-      "usedIn": ["nani-daman-travel-guide (hero — replaces a Goa photo used in error)"],
+      "usedIn": [
+        "nani-daman-travel-guide (hero — replaces a Goa photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Daman_NaniDaman_Fort_Entrance.JPG",
       "originalFile": "Daman NaniDaman Fort Entrance.JPG",
@@ -1593,7 +1911,9 @@
     },
     {
       "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/nani-daman/nani-daman-fishing-boats-harbour.webp",
-      "usedIn": ["nani-daman-travel-guide (Fishing Harbour & Jetty section)"],
+      "usedIn": [
+        "nani-daman-travel-guide (Fishing Harbour & Jetty section)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:The_port_of_Daman,_India.jpg",
       "originalFile": "The port of Daman, India.jpg",
@@ -1603,7 +1923,9 @@
     },
     {
       "path": "blogs/west-bengal/digha/new-digha-beach-promenade-boulder-embankment.webp",
-      "usedIn": ["digha-travel-guide (hero — replaces a Goa photo used in error)"],
+      "usedIn": [
+        "digha-travel-guide (hero — replaces a Goa photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:New_Digha_Sea_beach_in_Digha_01.jpg",
       "originalFile": "New Digha Sea beach in Digha 01.jpg",
@@ -1613,7 +1935,9 @@
     },
     {
       "path": "blogs/west-bengal/santiniketan/udayan-tagore-house-santiniketan.webp",
-      "usedIn": ["santiniketan-travel-guide (hero — replaces a Kasol photo used in error)"],
+      "usedIn": [
+        "santiniketan-travel-guide (hero — replaces a Kasol photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Santiniketan_Rabindranath_Tagore%27s_House_Udayan.jpg",
       "originalFile": "Santiniketan Rabindranath Tagore's House Udayan.jpg",
@@ -1623,7 +1947,9 @@
     },
     {
       "path": "blogs/west-bengal/mayapur/iskcon-sri-krishna-temple-mayapur.webp",
-      "usedIn": ["mayapur-travel-guide (hero — replaces a Rishikesh photo used in error)"],
+      "usedIn": [
+        "mayapur-travel-guide (hero — replaces a Rishikesh photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Sri_Krishna_Temple,_ISKCON,_Mayapur.jpg",
       "originalFile": "Sri Krishna Temple, ISKCON, Mayapur.jpg",
@@ -1633,7 +1959,9 @@
     },
     {
       "path": "blogs/west-bengal/cooch-behar/cooch-behar-royal-palace-facade.webp",
-      "usedIn": ["cooch-behar-travel-guide (hero — replaces an Udaipur photo used in error)"],
+      "usedIn": [
+        "cooch-behar-travel-guide (hero — replaces an Udaipur photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Exterior_of_Cooch_Behar_Palace,_Cooch_Behar,_WB,_India_01.jpg",
       "originalFile": "Exterior of Cooch Behar Palace, Cooch Behar, WB, India 01.jpg",
@@ -1643,7 +1971,9 @@
     },
     {
       "path": "blogs/west-bengal/mukutmanipur/mukutmanipur-dam-reservoir-bankura.webp",
-      "usedIn": ["mukutmanipur-travel-guide (hero — replaces a Jammu & Kashmir photo used in error)"],
+      "usedIn": [
+        "mukutmanipur-travel-guide (hero — replaces a Jammu & Kashmir photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Mukutmanipur_Dam_in_the_Evening.jpg",
       "originalFile": "Mukutmanipur Dam in the Evening.jpg",
@@ -1653,7 +1983,9 @@
     },
     {
       "path": "blogs/west-bengal/gorumara/jeep-safari-trail-gorumara-national-park.webp",
-      "usedIn": ["gorumara-travel-guide (hero — replaces a Ziro photo used in error)"],
+      "usedIn": [
+        "gorumara-travel-guide (hero — replaces a Ziro photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:There_goes_the_trail.jpg",
       "originalFile": "There goes the trail.jpg",
@@ -1663,7 +1995,9 @@
     },
     {
       "path": "blogs/west-bengal/buxa/buxa-fort-ruins-tiger-reserve.webp",
-      "usedIn": ["buxa-travel-guide (hero — replaces a Meghalaya photo used in error)"],
+      "usedIn": [
+        "buxa-travel-guide (hero — replaces a Meghalaya photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Buxa_Fort,_Alipurduar.jpg",
       "originalFile": "Buxa Fort, Alipurduar.jpg",
@@ -1673,7 +2007,9 @@
     },
     {
       "path": "blogs/west-bengal/gangasagar/kapil-muni-temple-gangasagar-sagar-island.webp",
-      "usedIn": ["gangasagar-travel-guide (hero — replaces a Goa photo used in error)"],
+      "usedIn": [
+        "gangasagar-travel-guide (hero — replaces a Goa photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Kapil_Muni_Ashram,_Gangasagar_2022.jpg",
       "originalFile": "Kapil Muni Ashram, Gangasagar 2022.jpg",
@@ -1683,7 +2019,9 @@
     },
     {
       "path": "blogs/uttarakhand/mussoorie/mussoorie-ridge-town-himalayan-view.webp",
-      "usedIn": ["mussoorie-travel-guide (hero — replaces a Manali photo used in error)"],
+      "usedIn": [
+        "mussoorie-travel-guide (hero — replaces a Manali photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Mussoorie_Ridge.jpg",
       "originalFile": "Mussoorie Ridge.jpg",
@@ -1693,7 +2031,9 @@
     },
     {
       "path": "blogs/uttarakhand/kedarnath/kedarnath-temple-hillside-mountain-view.webp",
-      "usedIn": ["kedarnath-travel-guide (hero — replaces a Spiti Valley photo used in error)"],
+      "usedIn": [
+        "kedarnath-travel-guide (hero — replaces a Spiti Valley photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Kedarnath_Temple.jpg",
       "originalFile": "Kedarnath Temple.jpg",
@@ -1703,7 +2043,9 @@
     },
     {
       "path": "blogs/uttarakhand/gangotri/gangotri-temple-bhagirathi-valley.webp",
-      "usedIn": ["gangotri-travel-guide (hero — replaces a Leh-Ladakh photo used in error)"],
+      "usedIn": [
+        "gangotri-travel-guide (hero — replaces a Leh-Ladakh photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Gangotri_Ganga_Temple.jpg",
       "originalFile": "Gangotri Ganga Temple.jpg",
@@ -1713,7 +2055,9 @@
     },
     {
       "path": "blogs/uttarakhand/yamunotri/yamunotri-temple-gorge-shrine.webp",
-      "usedIn": ["yamunotri-travel-guide (hero — replaces a Kasol photo used in error)"],
+      "usedIn": [
+        "yamunotri-travel-guide (hero — replaces a Kasol photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Yamunotri_shrine.jpg",
       "originalFile": "Yamunotri shrine.jpg",
@@ -1723,7 +2067,9 @@
     },
     {
       "path": "blogs/uttarakhand/chopta/chopta-meadow-camping-himalayan-view.webp",
-      "usedIn": ["chopta-travel-guide (hero — replaces a Solang Valley photo used in error)"],
+      "usedIn": [
+        "chopta-travel-guide (hero — replaces a Solang Valley photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Chandrasila_RohiniBugiyal_view.jpg",
       "originalFile": "Chandrasila RohiniBugiyal view.jpg",
@@ -1733,7 +2079,9 @@
     },
     {
       "path": "blogs/uttarakhand/kausani/nanda-devi-trisul-himalayan-range-kausani.webp",
-      "usedIn": ["kausani-travel-guide (hero — replaces a Meghalaya photo used in error)"],
+      "usedIn": [
+        "kausani-travel-guide (hero — replaces a Meghalaya photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Trisul,_Nanda_Devi_and_Himalayan_range_from_Kausani,_Uttarakhand.jpg",
       "originalFile": "Trisul, Nanda Devi and Himalayan range from Kausani, Uttarakhand.jpg",
@@ -1743,7 +2091,9 @@
     },
     {
       "path": "blogs/west-bengal/ajodhya-hills/ajodhya-hills-forested-plateau-baghmundi.webp",
-      "usedIn": ["ajodhya-hills-travel-guide (hero — replaces a Coorg photo used in error)"],
+      "usedIn": [
+        "ajodhya-hills-travel-guide (hero — replaces a Coorg photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Ajodhya_Hills_in_Purulia_district_01.jpg",
       "originalFile": "Ajodhya Hills in Purulia district 01.jpg",
@@ -1753,7 +2103,9 @@
     },
     {
       "path": "blogs/uttarakhand/lansdowne/bhulla-tal-lake-bridge-lansdowne.webp",
-      "usedIn": ["lansdowne-travel-guide (hero — replaces a Coorg photo used in error)"],
+      "usedIn": [
+        "lansdowne-travel-guide (hero — replaces a Coorg photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Bhulla_Tal_Lake_in_Lansdowne_town_of_Uttarakhand,_India.jpg",
       "originalFile": "Bhulla Tal Lake in Lansdowne town of Uttarakhand, India.jpg",
@@ -1763,7 +2115,9 @@
     },
     {
       "path": "blogs/uttarakhand/tehri-lake/tehri-lake-reservoir-aerial-view.webp",
-      "usedIn": ["tehri-lake-travel-guide (hero — replaces a Jammu & Kashmir photo used in error)"],
+      "usedIn": [
+        "tehri-lake-travel-guide (hero — replaces a Jammu & Kashmir photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Tehri_lake02.jpg",
       "originalFile": "Tehri lake02.jpg",
@@ -1773,7 +2127,9 @@
     },
     {
       "path": "blogs/uttarakhand/dhanaulti/dhanaulti-eco-park-pine-forest.webp",
-      "usedIn": ["dhanaulti-travel-guide (hero — replaces a Meghalaya photo used in error)"],
+      "usedIn": [
+        "dhanaulti-travel-guide (hero — replaces a Meghalaya photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Dhanaulti_eco_park_pic_02.jpg",
       "originalFile": "Dhanaulti eco park pic 02.jpg",
@@ -1783,7 +2139,9 @@
     },
     {
       "path": "blogs/west-bengal/mandarmani/mandarmani-beach-fishing-boats-stormy-sky.webp",
-      "usedIn": ["mandarmani-travel-guide (hero — replaces a Goa photo used in error)"],
+      "usedIn": [
+        "mandarmani-travel-guide (hero — replaces a Goa photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Fishing_Boat_in_Mandarmani_beach_12.jpg",
       "originalFile": "Fishing Boat in Mandarmani beach 12.jpg",
@@ -1793,7 +2151,9 @@
     },
     {
       "path": "blogs/west-bengal/bishnupur/jor-bangla-temple-terracotta-facade-bishnupur.webp",
-      "usedIn": ["bishnupur-travel-guide (hero — replaces a Hampi photo used in error)"],
+      "usedIn": [
+        "bishnupur-travel-guide (hero — replaces a Hampi photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Jor-Bangla_Temple,_Bishnupur_(8415024198).jpg",
       "originalFile": "Jor-Bangla Temple, Bishnupur (8415024198).jpg",
@@ -1803,7 +2163,9 @@
     },
     {
       "path": "blogs/west-bengal/murshidabad/hazarduari-palace-front-lawn-murshidabad.webp",
-      "usedIn": ["murshidabad-travel-guide (hero — replaces an Udaipur photo used in error)"],
+      "usedIn": [
+        "murshidabad-travel-guide (hero — replaces an Udaipur photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Hazarduari_Palace_(Murshidabad)_-_Front.JPG",
       "originalFile": "Hazarduari Palace (Murshidabad) - Front.JPG",
@@ -1813,7 +2175,9 @@
     },
     {
       "path": "blogs/west-bengal/tarapith/maa-tara-temple-dome-tarapith.webp",
-      "usedIn": ["tarapith-travel-guide (hero — replaces a Manali/Hadimba temple photo used in error)"],
+      "usedIn": [
+        "tarapith-travel-guide (hero — replaces a Manali/Hadimba temple photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Tarapith_Temple_Architecture_20.jpg",
       "originalFile": "Tarapith Temple Architecture 20.jpg",
@@ -1823,7 +2187,9 @@
     },
     {
       "path": "blogs/uttarakhand/haridwar/evening-ganga-aarti-har-ki-pauri.webp",
-      "usedIn": ["haridwar-travel-guide (hero — replaces a generic Rishikesh photo used in error)"],
+      "usedIn": [
+        "haridwar-travel-guide (hero — replaces a generic Rishikesh photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Evening_aarti_at_Har-ki-pauri,_Haridwar.JPG",
       "originalFile": "Evening aarti at Har-ki-pauri, Haridwar.JPG",
@@ -1833,7 +2199,9 @@
     },
     {
       "path": "blogs/uttarakhand/nainital/colorful-boats-naini-lake-nainital.webp",
-      "usedIn": ["nainital-travel-guide (hero — replaces a Jammu & Kashmir photo used in error)"],
+      "usedIn": [
+        "nainital-travel-guide (hero — replaces a Jammu & Kashmir photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Boats_in_Naini_lake.jpg",
       "originalFile": "Boats in Naini lake.jpg",
@@ -1843,7 +2211,9 @@
     },
     {
       "path": "blogs/uttarakhand/jim-corbett/bengal-tiger-roaring-jim-corbett-reserve.webp",
-      "usedIn": ["jim-corbett-travel-guide (hero — replaces a Coorg photo used in error)"],
+      "usedIn": [
+        "jim-corbett-travel-guide (hero — replaces a Coorg photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Queen_Sharmili.jpg",
       "originalFile": "Queen Sharmili.jpg",
@@ -1853,7 +2223,9 @@
     },
     {
       "path": "blogs/uttarakhand/munsiyari/panchachuli-peak-golden-light-munsiyari.webp",
-      "usedIn": ["munsiyari-travel-guide (hero — replaces a Jammu & Kashmir photo used in error)"],
+      "usedIn": [
+        "munsiyari-travel-guide (hero — replaces a Jammu & Kashmir photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Panchchuli_mountain_Peak_as_seen_from_Munsiyari,_in_the_Pithoragarh_District_of_Uttarakhand,_India.jpg",
       "originalFile": "Panchchuli mountain Peak as seen from Munsiyari, in the Pithoragarh District of Uttarakhand, India.jpg",
@@ -1863,7 +2235,9 @@
     },
     {
       "path": "blogs/uttarakhand/ranikhet/sunset-point-himalayan-hills-ranikhet.webp",
-      "usedIn": ["ranikhet-travel-guide (hero — replaces a Ziro photo used in error)"],
+      "usedIn": [
+        "ranikhet-travel-guide (hero — replaces a Ziro photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Sunset_point,_Ranikhet.jpg",
       "originalFile": "Sunset point, Ranikhet.jpg",
@@ -1873,7 +2247,9 @@
     },
     {
       "path": "blogs/west-bengal/jhargram/chilkigarh-raj-palace-facade-jhargram.webp",
-      "usedIn": ["jhargram-travel-guide (hero — replaces a Coorg/Abbey Falls photo used in error)"],
+      "usedIn": [
+        "jhargram-travel-guide (hero — replaces a Coorg/Abbey Falls photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Chilkigarh_Raj_Palace,_Jhargram,_West_Bengal_01.jpg",
       "originalFile": "Chilkigarh Raj Palace, Jhargram, West Bengal 01.jpg",
@@ -1883,7 +2259,9 @@
     },
     {
       "path": "blogs/uttarakhand/auli/auli-snow-slopes-mountain-view.webp",
-      "usedIn": ["auli-travel-guide (hero — replaces a Manali/Rohtang Pass photo used in error)"],
+      "usedIn": [
+        "auli-travel-guide (hero — replaces a Manali/Rohtang Pass photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Auli_view.jpg",
       "originalFile": "Auli view.jpg",
@@ -1893,7 +2271,9 @@
     },
     {
       "path": "blogs/uttarakhand/badrinath/badrinath-temple-colorful-facade-mountains.webp",
-      "usedIn": ["badrinath-travel-guide (hero — replaces a Manali/Hadimba temple photo used in error)"],
+      "usedIn": [
+        "badrinath-travel-guide (hero — replaces a Manali/Hadimba temple photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Badrinath_Temple.jpg",
       "originalFile": "Badrinath Temple.jpg",
@@ -1903,7 +2283,9 @@
     },
     {
       "path": "blogs/uttar-pradesh/kannauj/camel-skin-attar-perfume-bottles.webp",
-      "usedIn": ["kannauj-travel-guide (hero + inline — replaces a Hampi photo used in error)"],
+      "usedIn": [
+        "kannauj-travel-guide (hero + inline — replaces a Hampi photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Camel_skin_Perfume_Bottles_from_Kannauj.jpg",
       "originalFile": "Camel skin Perfume Bottles from Kannauj.jpg",
@@ -1913,7 +2295,9 @@
     },
     {
       "path": "blogs/uttar-pradesh/naimisharanya/chakra-tirtha-sacred-pond.webp",
-      "usedIn": ["naimisharanya-travel-guide (hero + inline — replaces a Meghalaya photo used in error)"],
+      "usedIn": [
+        "naimisharanya-travel-guide (hero + inline — replaces a Meghalaya photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Cakratirtham.jpg",
       "originalFile": "Cakratirtham.jpg",
@@ -1923,7 +2307,9 @@
     },
     {
       "path": "blogs/uttar-pradesh/chitrakoot/ramghat-mandakini-river.webp",
-      "usedIn": ["chitrakoot-travel-guide (hero + inline — replaces a Coorg/Abbey Falls photo used in error)"],
+      "usedIn": [
+        "chitrakoot-travel-guide (hero + inline — replaces a Coorg/Abbey Falls photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Ramghat_at_chitrakoot.jpg",
       "originalFile": "Ramghat at chitrakoot.jpg",
@@ -1933,7 +2319,9 @@
     },
     {
       "path": "blogs/uttar-pradesh/jhansi/jhansi-fort-ramparts.webp",
-      "usedIn": ["jhansi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"],
+      "usedIn": [
+        "jhansi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Jhansi_Fort_of_Rani_Laxmibai_in_Jhansi_04.jpg",
       "originalFile": "Jhansi Fort of Rani Laxmibai in Jhansi 04.jpg",
@@ -1943,7 +2331,9 @@
     },
     {
       "path": "blogs/tripura/agartala/agartala-town-hall.webp",
-      "usedIn": ["agartala-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"],
+      "usedIn": [
+        "agartala-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Agartala_town_Hall-version.jpg",
       "originalFile": "Agartala town Hall-version.jpg",
@@ -1953,7 +2343,9 @@
     },
     {
       "path": "blogs/tripura/ujjayanta-palace/ujjayanta-palace-facade.webp",
-      "usedIn": ["ujjayanta-palace-travel-guide (hero + inline — replaces an Udaipur/Rajasthan photo used in error)"],
+      "usedIn": [
+        "ujjayanta-palace-travel-guide (hero + inline — replaces an Udaipur/Rajasthan photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Right_Facade_of_Ujjayanta_Palace,_Agartala,_Tripura_03.JPG",
       "originalFile": "Right Facade of Ujjayanta Palace, Agartala, Tripura 03.JPG",
@@ -1963,7 +2355,9 @@
     },
     {
       "path": "blogs/tripura/udaipur/udaipur-railway-station.webp",
-      "usedIn": ["udaipur-tripura-travel-guide (hero + inline — replaces a Hampi photo used in error)"],
+      "usedIn": [
+        "udaipur-tripura-travel-guide (hero + inline — replaces a Hampi photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Udaipur_Railway_station_of_Tripura_state.jpg",
       "originalFile": "Udaipur Railway station of Tripura state.jpg",
@@ -1973,7 +2367,9 @@
     },
     {
       "path": "blogs/tripura/tripura-sundari-temple/tripura-sundari-temple-facade.webp",
-      "usedIn": ["tripura-sundari-temple-travel-guide (hero + inline — replaces a Manali/Hadimba temple photo used in error)"],
+      "usedIn": [
+        "tripura-sundari-temple-travel-guide (hero + inline — replaces a Manali/Hadimba temple photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Tripura_Sundari_Temple_in_Udaipur,_Tripura_2018-03-25_-1.jpg",
       "originalFile": "Tripura Sundari Temple in Udaipur, Tripura 2018-03-25 -1.jpg",
@@ -1983,7 +2379,9 @@
     },
     {
       "path": "blogs/tripura/unakoti/rock-cut-carvings-unakoti.webp",
-      "usedIn": ["unakoti-travel-guide (hero + inline — replaces a Meghalaya photo used in error)"],
+      "usedIn": [
+        "unakoti-travel-guide (hero + inline — replaces a Meghalaya photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:A_View_of_Unakoti,_Tripura.jpg",
       "originalFile": "A View of Unakoti, Tripura.jpg",
@@ -1993,7 +2391,9 @@
     },
     {
       "path": "blogs/tripura/jampui-hills/misty-hill-valley-view.webp",
-      "usedIn": ["jampui-hills-travel-guide (hero + inline — replaces a Manali/Solang Valley photo used in error)"],
+      "usedIn": [
+        "jampui-hills-travel-guide (hero + inline — replaces a Manali/Solang Valley photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Jampui_2.jpg",
       "originalFile": "Jampui 2.jpg",
@@ -2003,7 +2403,9 @@
     },
     {
       "path": "blogs/uttarakhand/mukteshwar/himalayan-sunset-ridge-view-mukteshwar.webp",
-      "usedIn": ["mukteshwar-travel-guide (hero + inline — replaces a Spiti Valley photo used in error)"],
+      "usedIn": [
+        "mukteshwar-travel-guide (hero + inline — replaces a Spiti Valley photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Mukteshwar_Sunset_01.jpg",
       "originalFile": "Mukteshwar Sunset 01.jpg",
@@ -2013,7 +2415,9 @@
     },
     {
       "path": "blogs/uttarakhand/jageshwar/ancient-stone-temple-cluster-jageshwar.webp",
-      "usedIn": ["jageshwar-travel-guide (hero + inline — replaces a Manali/Hadimba temple photo used in error)"],
+      "usedIn": [
+        "jageshwar-travel-guide (hero + inline — replaces a Manali/Hadimba temple photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Temple_Cluster_at_Jageshwar.jpg",
       "originalFile": "Temple Cluster at Jageshwar.jpg",
@@ -2023,7 +2427,9 @@
     },
     {
       "path": "blogs/uttarakhand/adi-kailash/adi-kailash-peak-parvati-kund-reflection.webp",
-      "usedIn": ["adi-kailash-travel-guide (hero + inline — replaces a Leh-Ladakh photo used in error)"],
+      "usedIn": [
+        "adi-kailash-travel-guide (hero + inline — replaces a Leh-Ladakh photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Adi_Kailash1.jpg",
       "originalFile": "Adi Kailash1.jpg",
@@ -2033,7 +2439,9 @@
     },
     {
       "path": "blogs/uttarakhand/dayara-bugyal/alpine-meadow-himalayan-view-dayara-bugyal.webp",
-      "usedIn": ["dayara-bugyal-travel-guide (hero + inline — replaces a Manali/Solang Valley photo used in error)"],
+      "usedIn": [
+        "dayara-bugyal-travel-guide (hero + inline — replaces a Manali/Solang Valley photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Dayara_Bugyal_Trek_(49011837287).jpg",
       "originalFile": "Dayara Bugyal Trek (49011837287).jpg",
@@ -2043,7 +2451,9 @@
     },
     {
       "path": "blogs/uttar-pradesh/agra/taj-mahal-reflection-river-yamuna-agra.webp",
-      "usedIn": ["agra-travel-guide (hero + inline — replaces an Udaipur photo used in error)"],
+      "usedIn": [
+        "agra-travel-guide (hero + inline — replaces an Udaipur photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Aks_The_Reflection_Taj_Mahal.jpg",
       "originalFile": "Aks The Reflection Taj Mahal.jpg",
@@ -2053,7 +2463,9 @@
     },
     {
       "path": "blogs/uttar-pradesh/fatehpur-sikri/buland-darwaza-gateway-fatehpur-sikri.webp",
-      "usedIn": ["fatehpur-sikri-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"],
+      "usedIn": [
+        "fatehpur-sikri-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Fatehput_Sikiri_Buland_Darwaza_gate_2010.jpg",
       "originalFile": "Fatehput Sikiri Buland Darwaza gate 2010.jpg",
@@ -2063,7 +2475,9 @@
     },
     {
       "path": "blogs/uttar-pradesh/mathura/vishram-ghat-evening-yamuna-mathura.webp",
-      "usedIn": ["mathura-travel-guide (hero + inline — replaces a Manali/Hadimba temple photo used in error)"],
+      "usedIn": [
+        "mathura-travel-guide (hero + inline — replaces a Manali/Hadimba temple photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Vishram_Ghat.jpg",
       "originalFile": "Vishram Ghat.jpg",
@@ -2073,7 +2487,9 @@
     },
     {
       "path": "blogs/uttar-pradesh/vrindavan/prem-mandir-illuminated-night-vrindavan.webp",
-      "usedIn": ["vrindavan-travel-guide (hero + inline — replaces a generic Rishikesh photo used in error)"],
+      "usedIn": [
+        "vrindavan-travel-guide (hero + inline — replaces a generic Rishikesh photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Prem_mandir_brindavanam.jpg",
       "originalFile": "Prem mandir brindavanam.jpg",
@@ -2083,7 +2499,9 @@
     },
     {
       "path": "blogs/uttar-pradesh/govardhan/govardhan-hill-sandstone-outcrop-braj.webp",
-      "usedIn": ["govardhan-travel-guide (hero + inline — replaces a Jammu & Kashmir photo used in error)"],
+      "usedIn": [
+        "govardhan-travel-guide (hero + inline — replaces a Jammu & Kashmir photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Govardhan_hill,_Govardhan.jpg",
       "originalFile": "Govardhan hill, Govardhan.jpg",
@@ -2093,7 +2511,9 @@
     },
     {
       "path": "blogs/uttar-pradesh/varanasi/ganga-aarti-fire-ritual-varanasi-ghat.webp",
-      "usedIn": ["varanasi-travel-guide (hero + inline — replaces a generic Rishikesh photo used in error)"],
+      "usedIn": [
+        "varanasi-travel-guide (hero + inline — replaces a generic Rishikesh photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Ganga_Aarti_Varanasi.jpg",
       "originalFile": "Ganga Aarti Varanasi.jpg",
@@ -2103,7 +2523,9 @@
     },
     {
       "path": "blogs/uttar-pradesh/sarnath/dhamek-stupa-sarnath.webp",
-      "usedIn": ["sarnath-travel-guide (hero + inline — replaces a Spiti Valley photo used in error)"],
+      "usedIn": [
+        "sarnath-travel-guide (hero + inline — replaces a Spiti Valley photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:14._Dhamek_Stupa,_Sarnath.jpg",
       "originalFile": "14. Dhamek Stupa, Sarnath.jpg",
@@ -2113,7 +2535,9 @@
     },
     {
       "path": "blogs/uttar-pradesh/prayagraj/triveni-sangam-boats-prayagraj.webp",
-      "usedIn": ["prayagraj-travel-guide (hero + inline — replaces a Jammu & Kashmir photo used in error)"],
+      "usedIn": [
+        "prayagraj-travel-guide (hero + inline — replaces a Jammu & Kashmir photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Prayagraj_Sangam_2.jpg",
       "originalFile": "Prayagraj Sangam 2.jpg",
@@ -2123,7 +2547,9 @@
     },
     {
       "path": "blogs/uttar-pradesh/ayodhya/ram-mandir-illuminated-gateway-ayodhya.webp",
-      "usedIn": ["ayodhya-travel-guide (hero + inline — replaces a Manali/Hadimba temple photo used in error)"],
+      "usedIn": [
+        "ayodhya-travel-guide (hero + inline — replaces a Manali/Hadimba temple photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Illuminated_gateway_inside_Shri_Ram_Janmabhoomi_Mandir_complex,_Ayodhya.png",
       "originalFile": "Illuminated gateway inside Shri Ram Janmabhoomi Mandir complex, Ayodhya.png",
@@ -2133,7 +2559,9 @@
     },
     {
       "path": "blogs/uttar-pradesh/chandauli/rajdari-waterfall-chandauli.webp",
-      "usedIn": ["chandauli-travel-guide (hero + inline — replaces a Kasol photo used in error)"],
+      "usedIn": [
+        "chandauli-travel-guide (hero + inline — replaces a Kasol photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Rajdari_Waterfall.jpg",
       "originalFile": "Rajdari Waterfall.jpg",
@@ -2143,7 +2571,9 @@
     },
     {
       "path": "blogs/uttar-pradesh/kushinagar/ramabhar-stupa-kushinagar.webp",
-      "usedIn": ["kushinagar-travel-guide (hero + inline — replaces a Leh-Ladakh photo used in error)"],
+      "usedIn": [
+        "kushinagar-travel-guide (hero + inline — replaces a Leh-Ladakh photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Ramabhar_Stupa_6.jpg",
       "originalFile": "Ramabhar Stupa 6.jpg",
@@ -2153,7 +2583,9 @@
     },
     {
       "path": "blogs/uttar-pradesh/shravasti/anathapindikas-stupa-jetavana-shravasti.webp",
-      "usedIn": ["shravasti-travel-guide (hero + inline — replaces a Jammu & Kashmir photo used in error)"],
+      "usedIn": [
+        "shravasti-travel-guide (hero + inline — replaces a Jammu & Kashmir photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Jetavana_-_Anathapindika%27s_Stupa,_Shravasti_(9239811156).jpg",
       "originalFile": "Jetavana - Anathapindika's Stupa, Shravasti (9239811156).jpg",
@@ -2163,7 +2595,9 @@
     },
     {
       "path": "blogs/uttar-pradesh/dudhwa/swamp-deer-dudhwa-national-park.webp",
-      "usedIn": ["dudhwa-travel-guide (hero + inline — replaces a Ziro photo used in error)"],
+      "usedIn": [
+        "dudhwa-travel-guide (hero + inline — replaces a Ziro photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:DeerDudhwa_Blue.jpg",
       "originalFile": "DeerDudhwa Blue.jpg",
@@ -2173,7 +2607,9 @@
     },
     {
       "path": "blogs/uttar-pradesh/pilibhit/chuka-spot-forest-pilibhit-tiger-reserve.webp",
-      "usedIn": ["pilibhit-travel-guide (hero + inline — replaces a Coorg photo used in error)"],
+      "usedIn": [
+        "pilibhit-travel-guide (hero + inline — replaces a Coorg photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Chuka_Spot_,Pilibhit_Tiger_Reserve.jpg",
       "originalFile": "Chuka Spot ,Pilibhit Tiger Reserve.jpg",
@@ -2183,7 +2619,9 @@
     },
     {
       "path": "blogs/uttar-pradesh/mirzapur/chunar-fort-mirzapur.webp",
-      "usedIn": ["mirzapur-travel-guide (hero + inline — replaces a Meghalaya photo used in error)"],
+      "usedIn": [
+        "mirzapur-travel-guide (hero + inline — replaces a Meghalaya photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Chunar_Fort,_Mirzapur,_Uttar_Pradesh_01.jpg",
       "originalFile": "Chunar Fort, Mirzapur, Uttar Pradesh 01.jpg",
@@ -2193,13 +2631,147 @@
     },
     {
       "path": "blogs/uttar-pradesh/lucknow/bara-imambara-lucknow.webp",
-      "usedIn": ["lucknow-travel-guide (hero + inline — replaces a Puducherry photo used in error)"],
+      "usedIn": [
+        "lucknow-travel-guide (hero + inline — replaces a Puducherry photo used in error)"
+      ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:View_of_Bara_Imambara,_Lucknow.jpg",
       "originalFile": "View of Bara Imambara, Lucknow.jpg",
       "license": "CC BY-SA 4.0",
       "author": "Slyronit",
       "attribution": "Photo by Slyronit, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/tripura/betlingchhip/thaidawr-tlang-betlingchhip-peak.webp",
+      "usedIn": [
+        "betlingchhip-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Thaidawr_tlang.jpg",
+      "originalFile": "Thaidawr tlang.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Tlinga",
+      "attribution": "Tlinga, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/tripura/chabimura/rock-carvings-gomati-river-chabimura.webp",
+      "usedIn": [
+        "chabimura-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:1)Chabimura,_the_archaeological_site_at_Devtamura.jpg",
+      "originalFile": "1)Chabimura, the archaeological site at Devtamura.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Sanjibroy56",
+      "attribution": "Sanjibroy56, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/tripura/dumboor-lake/small-island-dumboor-lake-tripura.webp",
+      "usedIn": [
+        "dumboor-lake-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:In_the_middle_of_the_Deep_Dumboor_Lake.jpg",
+      "originalFile": "In the middle of the Deep Dumboor Lake.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Yapri Debbarma",
+      "attribution": "Yapri Debbarma, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/tripura/sepahijala/spotted-deer-sepahijala-wildlife-sanctuary.webp",
+      "usedIn": [
+        "sepahijala-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Deer,_Sepahijala_WLS.jpg",
+      "originalFile": "Deer, Sepahijala WLS.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Pritamg24",
+      "attribution": "Pritamg24, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/tripura/trishna-wildlife-sanctuary/indian-gaur-bison-trishna-wildlife-sanctuary.webp",
+      "usedIn": [
+        "trishna-wildlife-sanctuary-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Indian_Bison_Gobo.jpg",
+      "originalFile": "Indian Bison Gobo.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Seearka",
+      "attribution": "Seearka, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/telangana/golconda-fort/golconda-fort-ramparts-hyderabad.webp",
+      "usedIn": [
+        "golconda-fort-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:A_View_of_the_Ramparts_of_Golconda_Fort.jpg",
+      "originalFile": "A View of the Ramparts of Golconda Fort.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Navins~commonswiki",
+      "attribution": "Navins~commonswiki, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/telangana/warangal/warangal-fort-kakatiya-kala-thoranam-gateway.webp",
+      "usedIn": [
+        "warangal-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kakatiya_Kala_Thoranam_09.jpg",
+      "originalFile": "Kakatiya Kala Thoranam 09.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Torchtelangana",
+      "attribution": "Torchtelangana, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/telangana/yadadri/yadadri-narasimha-swamy-temple-gopuram.webp",
+      "usedIn": [
+        "yadadri-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Sri_Lakshminarasimha_Swamy_Temple_Yadagirigutta_Yadadri_Telangana_07.jpg",
+      "originalFile": "Sri Lakshminarasimha Swamy Temple Yadagirigutta Yadadri Telangana 07.jpg",
+      "license": "CC BY 4.0",
+      "author": "Ravindraoudeptling",
+      "attribution": "Ravindraoudeptling, CC BY 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/telangana/bhadrachalam/bhadrachalam-sita-ramachandraswamy-temple.webp",
+      "usedIn": [
+        "bhadrachalam-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Sri_sita_rama_temple_bhadrachalam_temple_view.jpg",
+      "originalFile": "Sri sita rama temple bhadrachalam temple view.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "WithShivaram",
+      "attribution": "WithShivaram, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/telangana/alampur/navabrahma-temples-cluster-alampur.webp",
+      "usedIn": [
+        "alampur-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:7th_century_Alampur_Navabrahma_Temples,_Telangana_India_-_1.jpg",
+      "originalFile": "7th century Alampur Navabrahma Temples, Telangana India - 1.jpg",
+      "license": "CC0",
+      "author": "Ms Sarah Welch",
+      "attribution": "Ms Sarah Welch, CC0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/telangana/kuntala-waterfall/kuntala-waterfall-valley-view-adilabad.webp",
+      "usedIn": [
+        "kuntala-waterfall-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:View_of_Valley_of_Kuntala_Waterfalls.jpg",
+      "originalFile": "View of Valley of Kuntala Waterfalls.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Rajib Ghosh",
+      "attribution": "Rajib Ghosh, CC BY-SA 4.0, via Wikimedia Commons"
     }
   ]
 }

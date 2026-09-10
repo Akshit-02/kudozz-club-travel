@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jammu-kashmir/dal.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Calm lake water framed by hills, evoking Dumboor Lake's scattered islands in Dhalai district, Tripura",
+        url: "/images/blogs/tripura/dumboor-lake/small-island-dumboor-lake-tripura.webp",
+        width: 1600,
+        height: 1067,
+        alt: "A small forested island rising from the water at Dumboor Lake, Dhalai district, Tripura",
       },
     ],
   },
@@ -39,7 +39,9 @@ export const metadata: Metadata = {
     title: "Dumboor Lake Travel Guide: Islands, Boating & Tips",
     description:
       "Roughly 50 small islands scattered across a hydel reservoir, and a sacred river confluence nearby — the complete Dumboor Lake guide.",
-    images: ["/images/destinations/jammu-kashmir/dal.jpg"],
+    images: [
+      "/images/blogs/tripura/dumboor-lake/small-island-dumboor-lake-tripura.webp",
+    ],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/dumboor-lake-travel-guide",
@@ -58,7 +60,8 @@ function ArticleSchema() {
           headline: "Dumboor Lake Travel Guide: Islands, Boating & Tips",
           description:
             "Complete Dumboor Lake guide — the Gumti Hydel reservoir's scattered islands, boating, the Tirthamukh pilgrimage point, how to reach from Agartala, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/jammu-kashmir/dal.jpg",
+          image:
+            "https://club.kudozz.in/images/blogs/tripura/dumboor-lake/small-island-dumboor-lake-tripura.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -195,8 +198,8 @@ export default function DumboorLakeGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jammu-kashmir/dal.jpg"
-              alt="Calm lake water framed by hills, evoking Dumboor Lake's scattered islands in Dhalai district, Tripura"
+              src="/images/blogs/tripura/dumboor-lake/small-island-dumboor-lake-tripura.webp"
+              alt="A small forested island rising from the water at Dumboor Lake, Dhalai district, Tripura"
               fill
               priority
               sizes="100vw"
@@ -534,7 +537,7 @@ export default function DumboorLakeGuidePage() {
                   <h2>Boating, Tirthamukh & Nearby Sights</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/jammu-kashmir/dal.jpg"
+                      src="/images/blogs/tripura/dumboor-lake/small-island-dumboor-lake-tripura.webp"
                       alt="Reservoir dotted with small islands at Dumboor Lake, Dhalai district"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"

@@ -2873,7 +2873,7 @@ export const posts = [
     title: "Betlingchhip Trek Guide: Tripura's Highest Peak",
     excerpt:
       "A dense-forested climb to Tripura's highest point — one of Northeast India's most genuinely off-the-beaten-path treks, far from any built-up trail infrastructure.",
-    image: "/images/destinations/manali/rohtang-pass.jpg",
+    image: "/images/blogs/tripura/betlingchhip/thaidawr-tlang-betlingchhip-peak.webp",
     category: "Trekking",
     categoryColor: "bg-green-100 text-green-700",
     tags: ["Betlingchhip", "South Tripura", "Trekking", "Highest Peak"],
@@ -2885,7 +2885,7 @@ export const posts = [
     title: "Dumboor Lake Travel Guide: Islands, Boating & Tips",
     excerpt:
       "A hydel reservoir scattered with roughly fifty small islands, a sacred river confluence, and one of Tripura's quietest off-beat escapes — the complete Dumboor Lake guide.",
-    image: "/images/destinations/jammu-kashmir/dal.jpg",
+    image: "/images/blogs/tripura/dumboor-lake/small-island-dumboor-lake-tripura.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Dumboor Lake", "Dhalai District", "Tripura", "Off-beat"],
@@ -2897,7 +2897,7 @@ export const posts = [
     title: "Chabimura Travel Guide: Rock Carvings & Boat Ride",
     excerpt:
       "Rock-cut Hindu deities carved into cliffs above the Gomati river, viewable only from a boat gliding through forested riverbanks — the complete Chabimura guide.",
-    image: "/images/destinations/jammu-kashmir/hero.jpg",
+    image: "/images/blogs/tripura/chabimura/rock-carvings-gomati-river-chabimura.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Chabimura", "Gomati River", "Tripura", "Rock Carvings"],
@@ -2909,7 +2909,7 @@ export const posts = [
     title: "Sepahijala Wildlife Sanctuary: Safari & Tips",
     excerpt:
       "One of India's best places to spot the rare spectacled langur, plus a botanical garden, lake, and mini-zoo just outside Agartala — the complete Sepahijala guide.",
-    image: "/images/destinations/ziro/hero.jpg",
+    image: "/images/blogs/tripura/sepahijala/spotted-deer-sepahijala-wildlife-sanctuary.webp",
     category: "Adventure",
     categoryColor: "bg-amber-100 text-amber-700",
     tags: ["Sepahijala Wildlife Sanctuary", "Bishalgarh", "Tripura", "Wildlife Safari"],
@@ -2921,7 +2921,7 @@ export const posts = [
     title: "Trishna Wildlife Sanctuary: Safari Guide & Tips",
     excerpt:
       "A river-straddling sanctuary in South Tripura where hoolock gibbons and leopards share the forest with a distinctive python conservation programme — the complete Trishna guide.",
-    image: "/images/destinations/meghalaya/dawki-river.jpg",
+    image: "/images/blogs/tripura/trishna-wildlife-sanctuary/indian-gaur-bison-trishna-wildlife-sanctuary.webp",
     category: "Adventure",
     categoryColor: "bg-amber-100 text-amber-700",
     tags: ["Trishna Wildlife Sanctuary", "South Tripura", "Tripura", "Wildlife Safari"],
@@ -2993,7 +2993,7 @@ export const posts = [
     title: "Golconda Fort Guide: History, Sound Show & Tips",
     excerpt:
       "A hilltop citadel engineered so a single hand clap could be heard a kilometre away — once the beating heart of the world's diamond trade.",
-    image: "/images/destinations/jaisalmer/fort.jpg",
+    image: "/images/blogs/telangana/golconda-fort/golconda-fort-ramparts-hyderabad.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Golconda Fort", "Hyderabad", "Telangana", "Heritage"],
@@ -3005,7 +3005,7 @@ export const posts = [
     title: "Warangal Travel Guide: Kakatiya Heritage & Tips",
     excerpt:
       "Star-shaped stone temples, a fort gateway that became Telangana's state emblem, and a UNESCO World Heritage temple nearby — the complete Warangal guide.",
-    image: "/images/destinations/hampi/hero.jpg",
+    image: "/images/blogs/telangana/warangal/warangal-fort-kakatiya-kala-thoranam-gateway.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Warangal", "Kakatiya Heritage", "Telangana", "Thousand Pillar Temple"],
@@ -3017,7 +3017,7 @@ export const posts = [
     title: "Yadadri Temple Guide: Darshan, Timings & Tips",
     excerpt:
       "An ancient cave shrine rebuilt into one of Telangana's most opulent gold-plated temples — and one of the easiest, most rewarding day trips from Hyderabad.",
-    image: "/images/destinations/manali/hadimba-temple.jpg",
+    image: "/images/blogs/telangana/yadadri/yadadri-narasimha-swamy-temple-gopuram.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Yadadri", "Yadagirigutta", "Telangana", "Narasimha Temple"],
@@ -3029,7 +3029,7 @@ export const posts = [
     title: "Bhadrachalam Travel Guide: Temple & Godavari",
     excerpt:
       "A temple built on a devotee's sacrifice, ghats on the sacred Godavari, and an annual celestial wedding that draws crowds from across South India.",
-    image: "/images/destinations/rishikesh/rishikesh.jpg",
+    image: "/images/blogs/telangana/bhadrachalam/bhadrachalam-sita-ramachandraswamy-temple.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Bhadrachalam", "Godavari River", "Telangana", "Rama Temple"],
@@ -3113,7 +3113,7 @@ export const posts = [
     title: "Kuntala Waterfall Guide: Telangana's Tallest Falls",
     excerpt:
       "A 45-metre drop through remote Adilabad-district forest — Telangana's tallest waterfall, and one of its most genuinely far-flung destinations.",
-    image: "/images/destinations/meghalaya/hero.jpg",
+    image: "/images/blogs/telangana/kuntala-waterfall/kuntala-waterfall-valley-view-adilabad.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Kuntala Waterfall", "Adilabad District", "Telangana", "Waterfall"],
@@ -3125,7 +3125,7 @@ export const posts = [
     title: "Alampur Travel Guide: Navabrahma Temples & Tips",
     excerpt:
       "Nine sandstone Chalukyan temples at a sacred river confluence, and a Shakti Peetha reborn from ruin — the complete guide to Alampur.",
-    image: "/images/destinations/udaipur/saheliyon.jpg",
+    image: "/images/blogs/telangana/alampur/navabrahma-temples-cluster-alampur.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Alampur", "Navabrahma Temples", "Telangana", "Jogulamba"],

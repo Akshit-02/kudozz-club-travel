@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/udaipur/saheliyon.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Ancient stone temple architecture set within a landscaped courtyard, evoking Alampur's Chalukyan-era Navabrahma Temples",
+        url: "/images/blogs/telangana/alampur/navabrahma-temples-cluster-alampur.webp",
+        width: 1600,
+        height: 1200,
+        alt: "Sandstone shikharas of the Navabrahma Temples cluster within their whitewashed courtyard, Alampur, Telangana",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Alampur Travel Guide: Navabrahma Temples & Tips",
     description:
       "Nine sandstone Chalukyan temples at a sacred river confluence — the complete guide to Alampur, Telangana's western gateway to Srisailam.",
-    images: ["/images/destinations/udaipur/saheliyon.jpg"],
+    images: ["/images/blogs/telangana/alampur/navabrahma-temples-cluster-alampur.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/alampur-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Alampur Travel Guide: Navabrahma Temples & Tips",
           description:
             "Complete Alampur guide — the nine Chalukyan Navabrahma Temples, the Jogulamba Shakti Peetha, the Krishna-Tungabhadra confluence, how to reach from Hyderabad, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/udaipur/saheliyon.jpg",
+          image: "https://club.kudozz.in/images/blogs/telangana/alampur/navabrahma-temples-cluster-alampur.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -195,8 +195,8 @@ export default function AlampurGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/udaipur/saheliyon.jpg"
-              alt="Ancient stone temple architecture set within a landscaped courtyard, evoking Alampur's Chalukyan-era Navabrahma Temples"
+              src="/images/blogs/telangana/alampur/navabrahma-temples-cluster-alampur.webp"
+              alt="Sandstone shikharas and Nandi shrine of the Navabrahma Temples courtyard, Alampur, Telangana"
               fill
               priority
               sizes="100vw"
@@ -532,8 +532,8 @@ export default function AlampurGuidePage() {
                   <h2>Navabrahma Temples & Jogulamba</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/udaipur/saheliyon.jpg"
-                      alt="Stone temple courtyard architecture, Alampur, Telangana"
+                      src="/images/blogs/telangana/alampur/navabrahma-temples-cluster-alampur.webp"
+                      alt="Cluster of Chalukyan-era Navabrahma temple towers within the Alampur temple courtyard"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

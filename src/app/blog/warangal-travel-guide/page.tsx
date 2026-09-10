@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/hampi/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Ancient carved stone ruins, evoking Warangal's Kakatiya-era temples and fort architecture",
+        url: "/images/blogs/telangana/warangal/warangal-fort-kakatiya-kala-thoranam-gateway.webp",
+        width: 1600,
+        height: 1066,
+        alt: "The carved stone Kakatiya Kala Thoranam arch, the iconic gateway of Warangal Fort",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Warangal Travel Guide: Kakatiya Heritage & Tips",
     description:
       "Star-shaped stone temples, a fort gateway that became Telangana's state emblem, and a UNESCO World Heritage temple nearby — the complete Warangal guide.",
-    images: ["/images/destinations/hampi/hero.jpg"],
+    images: ["/images/blogs/telangana/warangal/warangal-fort-kakatiya-kala-thoranam-gateway.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/warangal-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Warangal Travel Guide: Kakatiya Heritage & Tips",
           description:
             "Complete Warangal guide — the Thousand Pillar Temple, Warangal Fort and the Kakatiya Kala Thoranam, Bhadrakali Temple, the UNESCO-listed Ramappa Temple nearby, how to reach from Hyderabad, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/hampi/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/telangana/warangal/warangal-fort-kakatiya-kala-thoranam-gateway.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -199,8 +199,8 @@ export default function WarangalGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/hampi/hero.jpg"
-              alt="Ancient carved stone ruins, evoking Warangal's Kakatiya-era temples and fort architecture"
+              src="/images/blogs/telangana/warangal/warangal-fort-kakatiya-kala-thoranam-gateway.webp"
+              alt="The carved stone Kakatiya Kala Thoranam arch, the iconic gateway of Warangal Fort"
               fill
               priority
               sizes="100vw"
@@ -531,8 +531,8 @@ export default function WarangalGuidePage() {
                   <h2>Temples, Fort & the Ramappa Extension</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/hampi/hero.jpg"
-                      alt="Carved stone temple architecture typical of the Kakatiya period around Warangal"
+                      src="/images/blogs/telangana/warangal/warangal-fort-kakatiya-kala-thoranam-gateway.webp"
+                      alt="Close view of the carved Kakatiya Kala Thoranam gateway arch at Warangal Fort"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

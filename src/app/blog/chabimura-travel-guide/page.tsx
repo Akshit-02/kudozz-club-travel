@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jammu-kashmir/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "River flowing through a forested gorge, evoking the Gomati river cliffs at Chabimura, Tripura",
+        url: "/images/blogs/tripura/chabimura/rock-carvings-gomati-river-chabimura.webp",
+        width: 1100,
+        height: 1467,
+        alt: "Ancient rock relief carvings on the cliffs above the Gomati River at Chabimura, Tripura",
       },
     ],
   },
@@ -39,7 +39,9 @@ export const metadata: Metadata = {
     title: "Chabimura Travel Guide: Rock Carvings & Boat Ride",
     description:
       "16th-century rock-cut carvings on cliffs above the Gomati river, seen only by boat — the complete Chabimura guide.",
-    images: ["/images/destinations/jammu-kashmir/hero.jpg"],
+    images: [
+      "/images/blogs/tripura/chabimura/rock-carvings-gomati-river-chabimura.webp",
+    ],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/chabimura-travel-guide",
@@ -58,7 +60,8 @@ function ArticleSchema() {
           headline: "Chabimura Travel Guide: Rock Carvings & Boat Ride",
           description:
             "Complete Chabimura guide — the 16th-century rock-cut carvings on the Gomati river cliffs, the boat ride from Amarpur, how to combine it with Udaipur, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/jammu-kashmir/hero.jpg",
+          image:
+            "https://club.kudozz.in/images/blogs/tripura/chabimura/rock-carvings-gomati-river-chabimura.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -195,8 +198,8 @@ export default function ChabimuraGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jammu-kashmir/hero.jpg"
-              alt="River flowing through a forested gorge, evoking the Gomati river cliffs at Chabimura, Tripura"
+              src="/images/blogs/tripura/chabimura/rock-carvings-gomati-river-chabimura.webp"
+              alt="Ancient rock relief carvings on the cliffs above the Gomati River at Chabimura, Tripura"
               fill
               priority
               sizes="100vw"
@@ -521,7 +524,7 @@ export default function ChabimuraGuidePage() {
                   <h2>The Boat Ride & the Carvings</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/jammu-kashmir/hero.jpg"
+                      src="/images/blogs/tripura/chabimura/rock-carvings-gomati-river-chabimura.webp"
                       alt="Forested river gorge near the Chabimura rock carvings, South Tripura"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"

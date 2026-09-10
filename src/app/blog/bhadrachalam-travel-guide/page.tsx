@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/rishikesh/rishikesh.jpg",
-        width: 1200,
-        height: 630,
-        alt: "River ghats beside a temple town, evoking Bhadrachalam's setting on the Godavari",
+        url: "/images/blogs/telangana/bhadrachalam/bhadrachalam-sita-ramachandraswamy-temple.webp",
+        width: 1600,
+        height: 1067,
+        alt: "The gopuram towers of the Sita Ramachandraswamy Temple complex at Bhadrachalam",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Bhadrachalam Travel Guide: Temple & Godavari",
     description:
       "A temple built on devotion and imprisonment, ghats on the Godavari, and one of South India's grandest annual celestial weddings — the complete Bhadrachalam guide.",
-    images: ["/images/destinations/rishikesh/rishikesh.jpg"],
+    images: ["/images/blogs/telangana/bhadrachalam/bhadrachalam-sita-ramachandraswamy-temple.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/bhadrachalam-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           description:
             "Complete Bhadrachalam guide — the Sita Ramachandraswamy Temple, the legend of Bhakta Ramadasu, Godavari river ghats, Rama Navami Kalyanam, how to reach from Hyderabad, and a full visit plan.",
           image:
-            "https://club.kudozz.in/images/destinations/rishikesh/rishikesh.jpg",
+            "https://club.kudozz.in/images/blogs/telangana/bhadrachalam/bhadrachalam-sita-ramachandraswamy-temple.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -196,8 +196,8 @@ export default function BhadrachalamGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/rishikesh/rishikesh.jpg"
-              alt="River ghats beside a temple town, evoking Bhadrachalam's setting on the Godavari"
+              src="/images/blogs/telangana/bhadrachalam/bhadrachalam-sita-ramachandraswamy-temple.webp"
+              alt="The gopuram towers of the Sita Ramachandraswamy Temple complex at Bhadrachalam"
               fill
               priority
               sizes="100vw"
@@ -526,8 +526,8 @@ export default function BhadrachalamGuidePage() {
                   <h2>Temple, Ghats & the Kalyanam</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/rishikesh/rishikesh.jpg"
-                      alt="Riverside temple town setting typical of Bhadrachalam on the Godavari"
+                      src="/images/blogs/telangana/bhadrachalam/bhadrachalam-sita-ramachandraswamy-temple.webp"
+                      alt="Close view of the Sita Ramachandraswamy Temple towers at Bhadrachalam"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

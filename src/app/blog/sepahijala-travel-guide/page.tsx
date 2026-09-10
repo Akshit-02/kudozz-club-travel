@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/ziro/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Green forest landscape, evoking Sepahijala Wildlife Sanctuary's forest habitat in Tripura",
+        url: "/images/blogs/tripura/sepahijala/spotted-deer-sepahijala-wildlife-sanctuary.webp",
+        width: 1500,
+        height: 1125,
+        alt: "Spotted deer at Sepahijala Wildlife Sanctuary, Tripura",
       },
     ],
   },
@@ -39,7 +39,9 @@ export const metadata: Metadata = {
     title: "Sepahijala Wildlife Sanctuary: Safari & Tips",
     description:
       "One of India's best places to spot the rare spectacled langur, close enough to Agartala for an easy day trip — the complete Sepahijala guide.",
-    images: ["/images/destinations/ziro/hero.jpg"],
+    images: [
+      "/images/blogs/tripura/sepahijala/spotted-deer-sepahijala-wildlife-sanctuary.webp",
+    ],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/sepahijala-travel-guide",
@@ -58,7 +60,8 @@ function ArticleSchema() {
           headline: "Sepahijala Wildlife Sanctuary: Safari & Tips",
           description:
             "Complete Sepahijala Wildlife Sanctuary guide — spectacled langur sightings, the botanical garden and lake, how to reach from Agartala, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/ziro/hero.jpg",
+          image:
+            "https://club.kudozz.in/images/blogs/tripura/sepahijala/spotted-deer-sepahijala-wildlife-sanctuary.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -195,8 +198,8 @@ export default function SepahijalaGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/ziro/hero.jpg"
-              alt="Green forest landscape, evoking Sepahijala Wildlife Sanctuary's forest habitat in Tripura"
+              src="/images/blogs/tripura/sepahijala/spotted-deer-sepahijala-wildlife-sanctuary.webp"
+              alt="Spotted deer at Sepahijala Wildlife Sanctuary, Tripura"
               fill
               priority
               sizes="100vw"
@@ -535,7 +538,7 @@ export default function SepahijalaGuidePage() {
                   <h2>Wildlife, Lake & Botanical Garden</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/ziro/hero.jpg"
+                      src="/images/blogs/tripura/sepahijala/spotted-deer-sepahijala-wildlife-sanctuary.webp"
                       alt="Forest habitat at Sepahijala Wildlife Sanctuary, Tripura"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"

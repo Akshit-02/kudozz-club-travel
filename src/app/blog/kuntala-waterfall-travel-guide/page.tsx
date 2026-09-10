@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/meghalaya/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Forested hills and greenery, evoking the remote Adilabad-district setting of Kuntala Waterfall",
+        url: "/images/blogs/telangana/kuntala-waterfall/kuntala-waterfall-valley-view-adilabad.webp",
+        width: 1600,
+        height: 900,
+        alt: "Kuntala Waterfall cascading down a rock face into a pool, Adilabad district, Telangana",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Kuntala Waterfall Guide: Telangana's Tallest Falls",
     description:
       "Telangana's tallest waterfall, dropping roughly 45 metres through remote Adilabad-district forest.",
-    images: ["/images/destinations/meghalaya/hero.jpg"],
+    images: ["/images/blogs/telangana/kuntala-waterfall/kuntala-waterfall-valley-view-adilabad.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/kuntala-waterfall-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Kuntala Waterfall Guide: Telangana's Tallest Falls",
           description:
             "Complete Kuntala Waterfall guide — Telangana's tallest waterfall in remote Adilabad district, best time to visit, how to reach from Hyderabad, and how to combine it with Kawal Tiger Reserve.",
-          image: "https://club.kudozz.in/images/destinations/meghalaya/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/telangana/kuntala-waterfall/kuntala-waterfall-valley-view-adilabad.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -195,8 +195,8 @@ export default function KuntalaWaterfallGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/meghalaya/hero.jpg"
-              alt="Forested hills and greenery, evoking the remote Adilabad-district setting of Kuntala Waterfall"
+              src="/images/blogs/telangana/kuntala-waterfall/kuntala-waterfall-valley-view-adilabad.webp"
+              alt="Kuntala Waterfall dropping through a rocky gorge into a pool, Adilabad district, Telangana"
               fill
               priority
               sizes="100vw"
@@ -529,8 +529,8 @@ export default function KuntalaWaterfallGuidePage() {
                   <h2>The Waterfall & the Walk Down</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/meghalaya/hero.jpg"
-                      alt="Forested landscape evoking the remote setting of Kuntala Waterfall"
+                      src="/images/blogs/telangana/kuntala-waterfall/kuntala-waterfall-valley-view-adilabad.webp"
+                      alt="Wide view of Kuntala Waterfall's valley and rock pool, Adilabad district, Telangana"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

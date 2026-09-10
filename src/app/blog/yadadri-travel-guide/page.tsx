@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/manali/hadimba-temple.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Ornate temple architecture, evoking Yadadri's Lakshmi Narasimha Swamy temple",
+        url: "/images/blogs/telangana/yadadri/yadadri-narasimha-swamy-temple-gopuram.webp",
+        width: 1600,
+        height: 1200,
+        alt: "The gold-plated gopuram towers of the Sri Lakshmi Narasimha Swamy Temple at Yadadri",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Yadadri Temple Guide: Darshan, Timings & Tips",
     description:
       "An ancient cave shrine rebuilt into one of Telangana's most opulent gold-plated temples — the complete Yadadri guide.",
-    images: ["/images/destinations/manali/hadimba-temple.jpg"],
+    images: ["/images/blogs/telangana/yadadri/yadadri-narasimha-swamy-temple-gopuram.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/yadadri-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           description:
             "Complete Yadadri (Yadagirigutta) guide — the Lakshmi Narasimha Swamy temple's dramatic gold-plated redevelopment, darshan options, how to reach from Hyderabad, and a full visit plan.",
           image:
-            "https://club.kudozz.in/images/destinations/manali/hadimba-temple.jpg",
+            "https://club.kudozz.in/images/blogs/telangana/yadadri/yadadri-narasimha-swamy-temple-gopuram.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -200,8 +200,8 @@ export default function YadadriGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/manali/hadimba-temple.jpg"
-              alt="Ornate temple architecture, evoking Yadadri's Lakshmi Narasimha Swamy temple"
+              src="/images/blogs/telangana/yadadri/yadadri-narasimha-swamy-temple-gopuram.webp"
+              alt="The gold-plated gopuram towers of the Sri Lakshmi Narasimha Swamy Temple at Yadadri"
               fill
               priority
               sizes="100vw"
@@ -525,8 +525,8 @@ export default function YadadriGuidePage() {
                   <h2>The Temple & Darshan Experience</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/manali/hadimba-temple.jpg"
-                      alt="Ornate temple detailing typical of Yadadri's rebuilt complex"
+                      src="/images/blogs/telangana/yadadri/yadadri-narasimha-swamy-temple-gopuram.webp"
+                      alt="Close view of the carved stone gopuram of the Yadadri Narasimha Swamy temple"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

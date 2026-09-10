@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jaisalmer/fort.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Massive hilltop fort ramparts at golden hour, evoking Hyderabad's Golconda Fort",
+        url: "/images/blogs/telangana/golconda-fort/golconda-fort-ramparts-hyderabad.webp",
+        width: 1600,
+        height: 1068,
+        alt: "Stone ramparts and bastions of Golconda Fort rising over granite boulders, Hyderabad",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Golconda Fort Guide: History, Sound Show & Tips",
     description:
       "A hilltop citadel built for acoustics, once the centre of the world's diamond trade — the complete Golconda Fort guide.",
-    images: ["/images/destinations/jaisalmer/fort.jpg"],
+    images: ["/images/blogs/telangana/golconda-fort/golconda-fort-ramparts-hyderabad.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/golconda-fort-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Golconda Fort Guide: History, Sound Show & Tips",
           description:
             "Complete Golconda Fort guide — Qutb Shahi history, the famous clap-and-echo acoustics, the evening sound-and-light show, the nearby Qutb Shahi Tombs, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/jaisalmer/fort.jpg",
+          image: "https://club.kudozz.in/images/blogs/telangana/golconda-fort/golconda-fort-ramparts-hyderabad.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -195,8 +195,8 @@ export default function GolcondaFortGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jaisalmer/fort.jpg"
-              alt="Massive hilltop fort ramparts at golden hour, evoking Hyderabad's Golconda Fort"
+              src="/images/blogs/telangana/golconda-fort/golconda-fort-ramparts-hyderabad.webp"
+              alt="Stone ramparts and bastions of Golconda Fort rising over granite boulders, Hyderabad"
               fill
               priority
               sizes="100vw"
