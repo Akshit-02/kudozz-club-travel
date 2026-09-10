@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/coorg/coorg.jpg",
+        url: "/images/blogs/uttarakhand/jim-corbett/bengal-tiger-roaring-jim-corbett-reserve.webp",
         width: 1200,
         height: 630,
-        alt: "Dense sal forest and open grassland typical of Jim Corbett National Park's tiger habitat",
+        alt: "A Bengal tiger walking down a forest track in Jim Corbett National Park, Uttarakhand",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Jim Corbett National Park: Safari, Zones & Tips",
     description:
       "India's oldest national park — safari zones, tiger sightings, and how to plan a trip to Corbett.",
-    images: ["/images/destinations/coorg/coorg.jpg"],
+    images: ["/images/blogs/uttarakhand/jim-corbett/bengal-tiger-roaring-jim-corbett-reserve.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/jim-corbett-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Jim Corbett National Park: Safari, Zones & Tips",
           description:
             "Complete Jim Corbett National Park guide — Dhikala, Bijrani, Jhirna & other safari zones, tiger sighting tips, how to reach Ramnagar, where to stay, and a full budget breakdown.",
-          image: "https://club.kudozz.in/images/destinations/coorg/coorg.jpg",
+          image: "https://club.kudozz.in/images/blogs/uttarakhand/jim-corbett/bengal-tiger-roaring-jim-corbett-reserve.webp",
           datePublished: "2026-09-02",
           dateModified: "2026-09-02",
           publisher: {
@@ -202,8 +202,8 @@ export default function JimCorbettGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/coorg/coorg.jpg"
-              alt="Dense sal forest and open grassland typical of Jim Corbett National Park's tiger habitat"
+              src="/images/blogs/uttarakhand/jim-corbett/bengal-tiger-roaring-jim-corbett-reserve.webp"
+              alt="A Bengal tiger walking down a forest track in Jim Corbett National Park, Uttarakhand"
               fill
               priority
               sizes="100vw"
@@ -536,8 +536,8 @@ export default function JimCorbettGuidePage() {
                   <h2>Safari Zones</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/coorg/coorg.jpg"
-                      alt="Forest track through Jim Corbett National Park used for jeep safaris"
+                      src="/images/blogs/uttarakhand/jim-corbett/bengal-tiger-roaring-jim-corbett-reserve.webp"
+                      alt="Bengal tiger on a jeep safari trail through the sal forest of Jim Corbett National Park"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

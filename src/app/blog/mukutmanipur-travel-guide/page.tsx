@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jammu-kashmir/dal.jpg",
+        url: "/images/blogs/west-bengal/mukutmanipur/mukutmanipur-dam-reservoir-bankura.webp",
         width: 1200,
         height: 630,
-        alt: "Large reservoir surrounded by hills, evoking Mukutmanipur's dam and lake landscape",
+        alt: "Mukutmanipur Dam and reservoir at dusk, ringed by hills in Bankura district, West Bengal",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Mukutmanipur Travel Guide: Dam, Boating & Tips",
     description:
       "A hill-ringed reservoir, one of India's largest earthen dams, and a quiet Bankura weekend getaway — the complete Mukutmanipur guide.",
-    images: ["/images/destinations/jammu-kashmir/dal.jpg"],
+    images: ["/images/blogs/west-bengal/mukutmanipur/mukutmanipur-dam-reservoir-bankura.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/mukutmanipur-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Mukutmanipur Travel Guide: Dam, Boating & Tips",
           description:
             "Complete Mukutmanipur guide — one of India's largest earthen dams, reservoir boating, Bhairavi Temple, Pareshnath Hill, how to reach from Kolkata, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/jammu-kashmir/dal.jpg",
+          image: "https://club.kudozz.in/images/blogs/west-bengal/mukutmanipur/mukutmanipur-dam-reservoir-bankura.webp",
           datePublished: "2026-09-02",
           dateModified: "2026-09-02",
           publisher: {
@@ -199,8 +199,8 @@ export default function MukutmanipurGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jammu-kashmir/dal.jpg"
-              alt="Large reservoir surrounded by hills, evoking Mukutmanipur's dam and lake landscape"
+              src="/images/blogs/west-bengal/mukutmanipur/mukutmanipur-dam-reservoir-bankura.webp"
+              alt="Mukutmanipur Dam and reservoir at dusk, ringed by hills in Bankura district, West Bengal"
               fill
               priority
               sizes="100vw"
@@ -529,7 +529,7 @@ export default function MukutmanipurGuidePage() {
                   <h2>Dam, Boating & Nearby Sights</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/jammu-kashmir/dal.jpg"
+                      src="/images/blogs/west-bengal/mukutmanipur/mukutmanipur-dam-reservoir-bankura.webp"
                       alt="Reservoir and hills at Mukutmanipur, Bankura district"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"

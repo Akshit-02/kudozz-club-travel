@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/coorg/abbey-falls.jpg",
+        url: "/images/blogs/west-bengal/jhargram/chilkigarh-raj-palace-facade-jhargram.webp",
         width: 1200,
         height: 630,
-        alt: "Dense sal forest landscape, evoking the Jangalmahal forests around Jhargram",
+        alt: "Facade and garden of the heritage Jhargram Raj Palace, West Bengal",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Jhargram Travel Guide: Forests, Palace & Deer Park",
     description:
       "A heritage Raj Palace, a deer park, and sal forest — the complete Jhargram guide, an easy train ride from Kolkata.",
-    images: ["/images/destinations/coorg/abbey-falls.jpg"],
+    images: ["/images/blogs/west-bengal/jhargram/chilkigarh-raj-palace-facade-jhargram.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/jhargram-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Jhargram Travel Guide: Forests, Palace & Deer Park",
           description:
             "Complete Jhargram guide — the Raj Palace, Deer Park, Kanak Durga Temple, Belpahari's forests, how to reach from Kolkata by train, where to stay, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/coorg/abbey-falls.jpg",
+          image: "https://club.kudozz.in/images/blogs/west-bengal/jhargram/chilkigarh-raj-palace-facade-jhargram.webp",
           datePublished: "2026-09-02",
           dateModified: "2026-09-02",
           publisher: {
@@ -199,8 +199,8 @@ export default function JhargramGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/coorg/abbey-falls.jpg"
-              alt="Dense sal forest landscape, evoking the Jangalmahal forests around Jhargram"
+              src="/images/blogs/west-bengal/jhargram/chilkigarh-raj-palace-facade-jhargram.webp"
+              alt="Facade and garden of the heritage Jhargram Raj Palace, West Bengal"
               fill
               priority
               sizes="100vw"
@@ -536,8 +536,8 @@ export default function JhargramGuidePage() {
                   <h2>Palace, Park & Temples</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/coorg/abbey-falls.jpg"
-                      alt="Sal forest terrain around Jhargram, West Bengal"
+                      src="/images/blogs/west-bengal/jhargram/chilkigarh-raj-palace-facade-jhargram.webp"
+                      alt="The heritage Jhargram Raj Palace and its landscaped grounds"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

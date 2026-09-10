@@ -23,9 +23,9 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/goa/hero.jpg",
-        width: 1200,
-        height: 630,
+        url: "/images/blogs/west-bengal/mandarmani/mandarmani-beach-fishing-boats-stormy-sky.webp",
+        width: 1600,
+        height: 1200,
         alt: "Long sandy beach coastline evocative of Mandarmani's motorable beach drive, West Bengal",
       },
     ],
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Mandarmani Travel Guide: Beach Drive & Resorts",
     description:
       "One of India's longest motorable beaches and a quieter, resort-lined alternative to Digha — the complete Mandarmani guide.",
-    images: ["/images/destinations/goa/hero.jpg"],
+    images: ["/images/blogs/west-bengal/mandarmani/mandarmani-beach-fishing-boats-stormy-sky.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/mandarmani-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Mandarmani Travel Guide: Beach Drive & Resorts",
           description:
             "Complete Mandarmani guide — one of India's longest motorable beaches, resort-lined coastline, nearby Tajpur, how to reach from Kolkata, and where to stay.",
-          image: "https://club.kudozz.in/images/destinations/goa/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/west-bengal/mandarmani/mandarmani-beach-fishing-boats-stormy-sky.webp",
           datePublished: "2026-09-02",
           dateModified: "2026-09-02",
           publisher: {
@@ -199,8 +199,8 @@ export default function MandarmaniGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/goa/hero.jpg"
-              alt="Long sandy beach coastline evocative of Mandarmani's motorable beach drive, West Bengal"
+              src="/images/blogs/west-bengal/mandarmani/mandarmani-beach-fishing-boats-stormy-sky.webp"
+              alt="Traditional fishing boats parked on Mandarmani's wide sandy beach under a dramatic monsoon sky, West Bengal"
               fill
               priority
               sizes="100vw"
@@ -535,8 +535,8 @@ export default function MandarmaniGuidePage() {
                   <h2>Beach, Drive & Nearby Tajpur</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/goa/hero.jpg"
-                      alt="Beach coastline similar in character to Mandarmani's motorable beach, West Bengal"
+                      src="/images/blogs/west-bengal/mandarmani/mandarmani-beach-fishing-boats-stormy-sky.webp"
+                      alt="Fishing boats on Mandarmani's sandy beach, near the stretch used as a motorable beach drive"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

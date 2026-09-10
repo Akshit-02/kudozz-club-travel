@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/meghalaya/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Tea garden hillside at Kausani with a wide Himalayan mountain backdrop",
+        url: "/images/blogs/uttarakhand/kausani/nanda-devi-trisul-himalayan-range-kausani.webp",
+        width: 1600,
+        height: 1071,
+        alt: "The snow-capped Trisul and Nanda Devi Himalayan range as seen from Kausani",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Kausani Travel Guide: Himalayan Views & Tea Gardens",
     description:
       "The Kumaon ridge-top town Gandhi called the 'Switzerland of India' — Himalayan panoramas, tea gardens, and a quieter alternative to Nainital.",
-    images: ["/images/destinations/meghalaya/hero.jpg"],
+    images: ["/images/blogs/uttarakhand/kausani/nanda-devi-trisul-himalayan-range-kausani.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/kausani-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Kausani Travel Guide: Himalayan Views & Tea Gardens",
           description:
             "Complete Kausani guide — the Himalayan panorama of Trishul, Nanda Devi & Panchachuli, Anasakti Ashram, Kausani Tea Estate, Rudradhari Falls, how to reach, where to stay, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/meghalaya/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/uttarakhand/kausani/nanda-devi-trisul-himalayan-range-kausani.webp",
           datePublished: "2026-09-02",
           dateModified: "2026-09-02",
           publisher: {
@@ -199,8 +199,8 @@ export default function KausaniGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/meghalaya/hero.jpg"
-              alt="Tea garden hillside at Kausani with a wide Himalayan mountain backdrop"
+              src="/images/blogs/uttarakhand/kausani/nanda-devi-trisul-himalayan-range-kausani.webp"
+              alt="The snow-capped Trisul and Nanda Devi Himalayan range as seen from Kausani"
               fill
               priority
               sizes="100vw"
@@ -531,8 +531,8 @@ export default function KausaniGuidePage() {
                   <h2>Things to Do in Kausani</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/meghalaya/hero.jpg"
-                      alt="Tea garden rows at Kausani with the Himalayan range visible in the distance"
+                      src="/images/blogs/uttarakhand/kausani/nanda-devi-trisul-himalayan-range-kausani.webp"
+                      alt="Panoramic view of the Trisul and Nanda Devi Himalayan peaks from a Kausani viewpoint"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

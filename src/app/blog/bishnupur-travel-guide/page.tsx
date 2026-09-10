@@ -23,9 +23,9 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/hampi/virupaksha.jpg",
-        width: 1200,
-        height: 630,
+        url: "/images/blogs/west-bengal/bishnupur/jor-bangla-temple-terracotta-facade-bishnupur.webp",
+        width: 1600,
+        height: 1063,
         alt: "Intricately carved stone temple architecture evoking Bishnupur's terracotta temple carvings",
       },
     ],
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Bishnupur Travel Guide: Terracotta Temples & Baluchari",
     description:
       "The Malla dynasty's terracotta temple capital — carved brick shrines, a distinct classical music tradition, and hand-woven Baluchari silk.",
-    images: ["/images/destinations/hampi/virupaksha.jpg"],
+    images: ["/images/blogs/west-bengal/bishnupur/jor-bangla-temple-terracotta-facade-bishnupur.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/bishnupur-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           description:
             "Complete Bishnupur guide — the Malla dynasty's terracotta temples, Rasmancha, Baluchari sarees, the Bishnupur Gharana, how to reach from Kolkata, and a full visit plan.",
           image:
-            "https://club.kudozz.in/images/destinations/hampi/virupaksha.jpg",
+            "https://club.kudozz.in/images/blogs/west-bengal/bishnupur/jor-bangla-temple-terracotta-facade-bishnupur.webp",
           datePublished: "2026-09-02",
           dateModified: "2026-09-02",
           publisher: {
@@ -198,8 +198,8 @@ export default function BishnupurGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/hampi/virupaksha.jpg"
-              alt="Intricately carved stone temple architecture evoking Bishnupur's terracotta temple carvings"
+              src="/images/blogs/west-bengal/bishnupur/jor-bangla-temple-terracotta-facade-bishnupur.webp"
+              alt="The twin hut-roofed Jor Bangla terracotta temple with its curved dome, Bishnupur, West Bengal"
               fill
               priority
               sizes="100vw"
@@ -538,8 +538,8 @@ export default function BishnupurGuidePage() {
                   <h2>The Terracotta Temples</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/hampi/virupaksha.jpg"
-                      alt="Detailed carved temple facade evoking Bishnupur's terracotta panel work"
+                      src="/images/blogs/west-bengal/bishnupur/jor-bangla-temple-terracotta-facade-bishnupur.webp"
+                      alt="Terracotta relief carvings on the Jor Bangla temple facade, Bishnupur, built by the Malla dynasty"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

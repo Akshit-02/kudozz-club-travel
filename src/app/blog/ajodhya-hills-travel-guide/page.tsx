@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/coorg/coorg.jpg",
+        url: "/images/blogs/west-bengal/ajodhya-hills/ajodhya-hills-forested-plateau-baghmundi.webp",
         width: 1200,
         height: 630,
         alt: "Forested plateau and hills, evoking the landscape of Ajodhya Hills, Purulia",
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Ajodhya Hills Travel Guide: Trekking & Tribal Culture",
     description:
       "Waterfalls, sal forests, and Purulia's Chhau dance heritage — the complete Ajodhya Hills guide.",
-    images: ["/images/destinations/coorg/coorg.jpg"],
+    images: ["/images/blogs/west-bengal/ajodhya-hills/ajodhya-hills-forested-plateau-baghmundi.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/ajodhya-hills-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Ajodhya Hills Travel Guide: Trekking & Tribal Culture",
           description:
             "Complete Ajodhya Hills guide — Bamni Falls, Turga Falls, Murguma Dam, Marble Lake, trekking trails, Chhau dance heritage, how to reach from Purulia, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/coorg/coorg.jpg",
+          image: "https://club.kudozz.in/images/blogs/west-bengal/ajodhya-hills/ajodhya-hills-forested-plateau-baghmundi.webp",
           datePublished: "2026-09-02",
           dateModified: "2026-09-02",
           publisher: {
@@ -199,7 +199,7 @@ export default function AjodhyaHillsGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/coorg/coorg.jpg"
+              src="/images/blogs/west-bengal/ajodhya-hills/ajodhya-hills-forested-plateau-baghmundi.webp"
               alt="Forested plateau and hills, evoking the landscape of Ajodhya Hills, Purulia"
               fill
               priority
@@ -536,7 +536,7 @@ export default function AjodhyaHillsGuidePage() {
                   <h2>Waterfalls, Treks & Culture</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/coorg/coorg.jpg"
+                      src="/images/blogs/west-bengal/ajodhya-hills/ajodhya-hills-forested-plateau-baghmundi.webp"
                       alt="Sal forest and hill terrain typical of the Ajodhya Hills plateau"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"

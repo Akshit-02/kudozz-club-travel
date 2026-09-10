@@ -2153,7 +2153,7 @@ export const posts = [
     title: "Digha Travel Guide: Beaches, Marine Aquarium & Tips",
     excerpt:
       "Complete Digha guide — New Digha and Old Digha, the beach promenade, Marine Aquarium & Research Centre, how to reach from Kolkata by train or road, and where to stay.",
-    image: "/images/destinations/goa/beach.jpg",
+    image: "/images/blogs/west-bengal/digha/new-digha-beach-promenade-boulder-embankment.webp",
     category: "Beaches",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Digha", "West Bengal", "Beach", "Bay of Bengal", "Weekend Getaway", "Marine Aquarium", "Kolkata Day Trip"],
@@ -2165,7 +2165,7 @@ export const posts = [
     title: "Mandarmani Travel Guide: Beach Drive & Resorts",
     excerpt:
       "Complete Mandarmani guide — one of India's longest motorable beaches, resort-lined coastline, nearby Tajpur, how to reach from Kolkata, and where to stay.",
-    image: "/images/destinations/goa/hero.jpg",
+    image: "/images/blogs/west-bengal/mandarmani/mandarmani-beach-fishing-boats-stormy-sky.webp",
     category: "Beaches",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Mandarmani", "West Bengal", "Beach Drive", "Bay of Bengal", "Weekend Getaway", "Tajpur", "Digha"],
@@ -2177,7 +2177,7 @@ export const posts = [
     title: "Santiniketan Travel Guide: Tagore's University Town",
     excerpt:
       "Complete Santiniketan guide — Vishwa-Bharati University (UNESCO World Heritage), Uttarayan, Kala Bhavana, Sonajhuri haat, Poush Mela, how to reach from Kolkata, and a full visit plan.",
-    image: "/images/destinations/kasol/kasol.jpg",
+    image: "/images/blogs/west-bengal/santiniketan/udayan-tagore-house-santiniketan.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Santiniketan", "Rabindranath Tagore", "Vishwa-Bharati", "West Bengal", "UNESCO Heritage", "Bolpur", "Basanta Utsav"],
@@ -2189,7 +2189,7 @@ export const posts = [
     title: "Bishnupur Travel Guide: Terracotta Temples & Baluchari",
     excerpt:
       "Complete Bishnupur guide — the Malla dynasty's terracotta temples, Rasmancha, Baluchari sarees, the Bishnupur Gharana, how to reach from Kolkata, and a full visit plan.",
-    image: "/images/destinations/hampi/virupaksha.jpg",
+    image: "/images/blogs/west-bengal/bishnupur/jor-bangla-temple-terracotta-facade-bishnupur.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Bishnupur", "Terracotta Temples", "West Bengal", "Bankura", "Baluchari Saree", "Malla Dynasty", "Heritage"],
@@ -2201,7 +2201,7 @@ export const posts = [
     title: "Murshidabad Travel Guide: Hazarduari & Nawabi History",
     excerpt:
       "Complete Murshidabad guide — Hazarduari Palace, Katra Mosque, the Battle of Plassey, Bengal's Nawabi history, silk weaving, how to reach from Kolkata, and a full visit plan.",
-    image: "/images/destinations/udaipur/hero.jpg",
+    image: "/images/blogs/west-bengal/murshidabad/hazarduari-palace-front-lawn-murshidabad.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Murshidabad", "Hazarduari Palace", "West Bengal", "Nawabs of Bengal", "Battle of Plassey", "Heritage", "Berhampore"],
@@ -2213,7 +2213,7 @@ export const posts = [
     title: "Mayapur Travel Guide: ISKCON Temple & Visit Tips",
     excerpt:
       "Complete Mayapur guide — ISKCON's global headquarters, the TOVP, Chandrodaya Mandir, Gaura Purnima, how to reach from Kolkata, where to stay, and a full visit plan.",
-    image: "/images/destinations/rishikesh/rishikesh.jpg",
+    image: "/images/blogs/west-bengal/mayapur/iskcon-sri-krishna-temple-mayapur.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Mayapur", "ISKCON", "West Bengal", "Nabadwip", "Hare Krishna", "Pilgrimage", "TOVP"],
@@ -2225,7 +2225,7 @@ export const posts = [
     title: "Tarapith Travel Guide: Shakti Peeth Temple & Tips",
     excerpt:
       "Complete Tarapith guide — the Maa Tara Shakti Peeth temple, the Mahashmashan cremation ground, Bengal's Tantric tradition, how to reach from Kolkata, and where to stay.",
-    image: "/images/destinations/manali/hadimba-temple.jpg",
+    image: "/images/blogs/west-bengal/tarapith/maa-tara-temple-dome-tarapith.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Tarapith", "Shakti Peeth", "West Bengal", "Maa Tara Temple", "Pilgrimage", "Birbhum", "Tantric Tradition"],
@@ -2237,7 +2237,7 @@ export const posts = [
     title: "Cooch Behar Travel Guide: Palace & Royal Heritage",
     excerpt:
       "Complete Cooch Behar guide — the Buckingham Palace-inspired royal palace, Madan Mohan Temple, Sagardighi, Rasmela, how to reach from Siliguri, and a full visit plan.",
-    image: "/images/destinations/udaipur/saheliyon.jpg",
+    image: "/images/blogs/west-bengal/cooch-behar/cooch-behar-royal-palace-facade.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Cooch Behar", "West Bengal", "Royal Palace", "North Bengal", "Heritage", "Rasmela"],
@@ -2249,7 +2249,7 @@ export const posts = [
     title: "Ajodhya Hills Travel Guide: Trekking & Tribal Culture",
     excerpt:
       "Complete Ajodhya Hills guide — Bamni Falls, Turga Falls, Murguma Dam, Marble Lake, trekking trails, Chhau dance heritage, how to reach from Purulia, and a full visit plan.",
-    image: "/images/destinations/coorg/coorg.jpg",
+    image: "/images/blogs/west-bengal/ajodhya-hills/ajodhya-hills-forested-plateau-baghmundi.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Ajodhya Hills", "Purulia", "West Bengal", "Chhau Dance", "Trekking", "Tribal Culture", "Off-beat"],
@@ -2261,7 +2261,7 @@ export const posts = [
     title: "Jhargram Travel Guide: Forests, Palace & Deer Park",
     excerpt:
       "Complete Jhargram guide — the Raj Palace, Deer Park, Kanak Durga Temple, Belpahari's forests, how to reach from Kolkata by train, where to stay, and a full visit plan.",
-    image: "/images/destinations/coorg/abbey-falls.jpg",
+    image: "/images/blogs/west-bengal/jhargram/chilkigarh-raj-palace-facade-jhargram.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Jhargram", "West Bengal", "Jangalmahal", "Sal Forest", "Deer Park", "Tribal Culture", "Off-beat"],
@@ -2273,7 +2273,7 @@ export const posts = [
     title: "Mukutmanipur Travel Guide: Dam, Boating & Tips",
     excerpt:
       "Complete Mukutmanipur guide — one of India's largest earthen dams, reservoir boating, Bhairavi Temple, Pareshnath Hill, how to reach from Kolkata, and a full visit plan.",
-    image: "/images/destinations/jammu-kashmir/dal.jpg",
+    image: "/images/blogs/west-bengal/mukutmanipur/mukutmanipur-dam-reservoir-bankura.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Mukutmanipur", "West Bengal", "Bankura", "Dam", "Boating", "Weekend Getaway", "Off-beat"],
@@ -2285,7 +2285,7 @@ export const posts = [
     title: "Gorumara National Park: Safari, Timings & Tips",
     excerpt:
       "Complete Gorumara National Park guide — rhino and elephant jeep safaris, watchtowers, safari timings, Murti riverside stays, Chapramari sanctuary, and how to plan your visit.",
-    image: "/images/destinations/ziro/hero.jpg",
+    image: "/images/blogs/west-bengal/gorumara/jeep-safari-trail-gorumara-national-park.webp",
     category: "Adventure",
     categoryColor: "bg-amber-100 text-amber-700",
     tags: ["Gorumara National Park", "Dooars", "West Bengal", "Wildlife Safari", "One-Horned Rhino", "Jeep Safari"],
@@ -2297,7 +2297,7 @@ export const posts = [
     title: "Buxa Tiger Reserve Travel Guide: Trek & Safari",
     excerpt:
       "Complete Buxa Tiger Reserve guide — the trek to Buxa Fort, Jayanti river & village, permits, how to reach from Alipurduar, where to stay, and a full visit plan.",
-    image: "/images/destinations/meghalaya/hero.jpg",
+    image: "/images/blogs/west-bengal/buxa/buxa-fort-ruins-tiger-reserve.webp",
     category: "Adventure",
     categoryColor: "bg-amber-100 text-amber-700",
     tags: ["Buxa Tiger Reserve", "West Bengal", "Dooars", "Buxa Fort", "Trekking", "Bhutan Border", "Wildlife"],
@@ -2309,7 +2309,7 @@ export const posts = [
     title: "Gangasagar Travel Guide: Mela, Temple & How to Reach",
     excerpt:
       "Complete Gangasagar guide — Sagar Island, Kapil Muni Temple, the massive Gangasagar Mela at Makar Sankranti, how to reach via Kakdwip, and where to stay.",
-    image: "/images/destinations/goa/hero.jpg",
+    image: "/images/blogs/west-bengal/gangasagar/kapil-muni-temple-gangasagar-sagar-island.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Gangasagar", "Sagar Island", "Gangasagar Mela", "West Bengal", "Kapil Muni Temple", "Makar Sankranti", "Pilgrimage"],
@@ -2321,7 +2321,7 @@ export const posts = [
     title: "Mussoorie Travel Guide: Mall Road, Views & Tips",
     excerpt:
       "Complete Mussoorie guide — Mall Road, Gun Hill, Kempty Falls, Landour's quiet cantonment lanes, how to reach from Dehradun, where to stay, and a full visit plan.",
-    image: "/images/destinations/manali/hero.jpg",
+    image: "/images/blogs/uttarakhand/mussoorie/mussoorie-ridge-town-himalayan-view.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Mussoorie", "Uttarakhand", "Hill Station", "Landour", "Mall Road", "Dehradun", "Queen of the Hills"],
@@ -2333,7 +2333,7 @@ export const posts = [
     title: "Haridwar Travel Guide: Ganga Aarti, Ghats & Temples",
     excerpt:
       "Complete Haridwar guide — Har Ki Pauri's Ganga Aarti, Mansa Devi & Chandi Devi temples, the Kumbh Mela, how to reach, where to stay, and its role as gateway to Char Dham and Rishikesh.",
-    image: "/images/destinations/rishikesh/rishikesh.jpg",
+    image: "/images/blogs/uttarakhand/haridwar/evening-ganga-aarti-har-ki-pauri.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Haridwar", "Uttarakhand", "Har Ki Pauri", "Ganga Aarti", "Rishikesh", "Kumbh Mela", "Pilgrimage"],
@@ -2345,7 +2345,7 @@ export const posts = [
     title: "Nainital Travel Guide: Naini Lake, Views & Tips",
     excerpt:
       "Complete Nainital guide — Naini Lake boating, Naina Devi Temple, Naina Peak's cable car, how to reach from Kathgodam, where to stay, and a full visit plan.",
-    image: "/images/destinations/jammu-kashmir/dal.jpg",
+    image: "/images/blogs/uttarakhand/nainital/colorful-boats-naini-lake-nainital.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Nainital", "Naini Lake", "Uttarakhand", "Kumaon", "Hill Station", "Naina Devi Temple"],
@@ -2357,7 +2357,7 @@ export const posts = [
     title: "Jim Corbett National Park: Safari, Zones & Tips",
     excerpt:
       "Complete Jim Corbett National Park guide — Dhikala, Bijrani, Jhirna & other safari zones, tiger sighting tips, how to reach Ramnagar, where to stay, and a full budget breakdown.",
-    image: "/images/destinations/coorg/coorg.jpg",
+    image: "/images/blogs/uttarakhand/jim-corbett/bengal-tiger-roaring-jim-corbett-reserve.webp",
     category: "Adventure",
     categoryColor: "bg-amber-100 text-amber-700",
     tags: ["Jim Corbett National Park", "Uttarakhand", "Tiger Safari", "Dhikala", "Ramnagar", "Wildlife Safari", "Project Tiger"],
@@ -2369,7 +2369,7 @@ export const posts = [
     title: "Auli Travel Guide: Skiing, Cable Car & Best Time",
     excerpt:
       "India's premier ski destination with gentle beginner-friendly slopes, one of Asia's longest cable car rides, and sweeping Nanda Devi views — a genuine year-round Himalayan escape.",
-    image: "/images/destinations/manali/rohtang-pass.jpg",
+    image: "/images/blogs/uttarakhand/auli/auli-snow-slopes-mountain-view.webp",
     category: "Adventure",
     categoryColor: "bg-amber-100 text-amber-700",
     tags: ["Auli", "Uttarakhand", "Skiing India", "Joshimath", "Nanda Devi", "Ropeway", "Winter Sports"],
@@ -2381,7 +2381,7 @@ export const posts = [
     title: "Badrinath Travel Guide: Temple, Timings & How to Reach",
     excerpt:
       "Complete Badrinath guide — temple opening dates, Tapt Kund, Mana village, Vasudhara Falls, how to reach via Joshimath, where to stay, and a full Char Dham visit plan.",
-    image: "/images/destinations/manali/hadimba-temple.jpg",
+    image: "/images/blogs/uttarakhand/badrinath/badrinath-temple-colorful-facade-mountains.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Badrinath", "Char Dham", "Uttarakhand", "Vishnu Temple", "Joshimath", "Pilgrimage", "Alaknanda River"],
@@ -2393,7 +2393,7 @@ export const posts = [
     title: "Kedarnath Travel Guide: Trek, Yatra & Helicopter Tips",
     excerpt:
       "Complete Kedarnath guide — the Gaurikund/Sonprayag trek route, helicopter shuttle booking, temple opening dates, Bhairav Temple, Vasuki Tal, where to stay, and a full yatra plan.",
-    image: "/images/destinations/spiti-valley/spiti-valley.jpg",
+    image: "/images/blogs/uttarakhand/kedarnath/kedarnath-temple-hillside-mountain-view.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Kedarnath", "Char Dham", "Uttarakhand", "Jyotirlinga", "Kedarnath Trek", "Pilgrimage", "Himalayas"],
@@ -2405,7 +2405,7 @@ export const posts = [
     title: "Gangotri Travel Guide: Temple, Gaumukh Trek & Tips",
     excerpt:
       "Complete Gangotri guide — the temple marking Ganga's descent, the Gaumukh glacier trek, Tapovan meadow, permits, how to reach via Uttarkashi, where to stay, and a full visit plan.",
-    image: "/images/destinations/leh-ladakh/leh-ladakh.jpg",
+    image: "/images/blogs/uttarakhand/gangotri/gangotri-temple-bhagirathi-valley.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Gangotri", "Char Dham", "Uttarakhand", "Gaumukh Trek", "Ganga River", "Uttarkashi", "Pilgrimage"],
@@ -2417,7 +2417,7 @@ export const posts = [
     title: "Yamunotri Travel Guide: Trek, Hot Springs & Tips",
     excerpt:
       "The traditional first stop of the Char Dham Yatra — a forested trek from Janki Chatti to the Yamuna's source, past the Surya Kund hot-spring prasad ritual.",
-    image: "/images/destinations/kasol/kasol.jpg",
+    image: "/images/blogs/uttarakhand/yamunotri/yamunotri-temple-gorge-shrine.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Yamunotri", "Char Dham", "Uttarakhand", "Yamuna River", "Janki Chatti", "Pilgrimage", "Himalayan Trek"],
@@ -2429,7 +2429,7 @@ export const posts = [
     title: "Chopta Travel Guide: Tungnath Trek & Best Time",
     excerpt:
       "The \"Mini Switzerland of India\" — base for the Tungnath-Chandrashila trek to the world's highest Shiva temple and a 360-degree Garhwal Himalaya panorama.",
-    image: "/images/destinations/manali/solang-valley.jpg",
+    image: "/images/blogs/uttarakhand/chopta/chopta-meadow-camping-himalayan-view.webp",
     category: "Trekking",
     categoryColor: "bg-green-100 text-green-700",
     tags: ["Chopta", "Tungnath", "Chandrashila", "Uttarakhand", "Trekking", "Deoria Tal", "Panch Kedar"],
@@ -2441,7 +2441,7 @@ export const posts = [
     title: "Munsiyari Travel Guide: Panchachuli Views & Treks",
     excerpt:
       "Complete Munsiyari guide — Panchachuli peak views, Betuli Dhar, Thamri Kund, Milam Glacier trek logistics, how to reach this remote Kumaon town, where to stay, and a full visit plan.",
-    image: "/images/destinations/jammu-kashmir/hero.jpg",
+    image: "/images/blogs/uttarakhand/munsiyari/panchachuli-peak-golden-light-munsiyari.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Munsiyari", "Panchachuli", "Uttarakhand", "Kumaon", "Off-beat", "Pithoragarh", "Himalayan Views"],
@@ -2453,7 +2453,7 @@ export const posts = [
     title: "Kausani Travel Guide: Himalayan Views & Tea Gardens",
     excerpt:
       "A ridge-top Kumaon town with one of the widest uninterrupted Himalayan panoramas in the region, Anasakti Ashram, tea gardens, and Rudradhari Falls.",
-    image: "/images/destinations/meghalaya/hero.jpg",
+    image: "/images/blogs/uttarakhand/kausani/nanda-devi-trisul-himalayan-range-kausani.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Kausani", "Uttarakhand", "Kumaon", "Himalayan Views", "Tea Garden", "Mahatma Gandhi", "Hill Station"],
@@ -2465,7 +2465,7 @@ export const posts = [
     title: "Ranikhet Travel Guide: Cantonment Views & Golf",
     excerpt:
       "A quiet Kumaon Regiment cantonment town with one of India's highest-altitude golf courses, pine forests, and a slower pace than Nainital.",
-    image: "/images/destinations/ziro/hero.jpg",
+    image: "/images/blogs/uttarakhand/ranikhet/sunset-point-himalayan-hills-ranikhet.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Ranikhet", "Uttarakhand", "Kumaon", "Cantonment Town", "Golf Course", "Off-beat", "Hill Station"],
@@ -2477,7 +2477,7 @@ export const posts = [
     title: "Lansdowne: Quiet Hills, Bhulla Lake & a Complete Visit Guide",
     excerpt:
       "A Garhwal Rifles cantonment town kept deliberately low-key — Bhulla Lake, Tip N Top, and thick oak-pine-deodar forest, one of Uttarakhand's quietest hill towns.",
-    image: "/images/destinations/coorg/abbey-falls.jpg",
+    image: "/images/blogs/uttarakhand/lansdowne/bhulla-tal-lake-bridge-lansdowne.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Lansdowne", "Uttarakhand", "Garhwal", "Cantonment Town", "Off-beat", "Bhulla Lake", "Quiet Hill Station"],
@@ -2489,7 +2489,7 @@ export const posts = [
     title: "Tehri Lake: Water Sports, Houseboats & a Complete Visit Guide",
     excerpt:
       "A vast Bhagirathi reservoir behind one of the world's tallest dams — jet skiing, kayaking, cable-skiing at Koti, and houseboats, Uttarakhand's top water-sports spot.",
-    image: "/images/destinations/jammu-kashmir/dal.jpg",
+    image: "/images/blogs/uttarakhand/tehri-lake/tehri-lake-reservoir-aerial-view.webp",
     category: "Adventure",
     categoryColor: "bg-amber-100 text-amber-700",
     tags: ["Tehri Lake", "Tehri Dam", "Uttarakhand", "Water Sports", "New Tehri", "Bhagirathi River"],
@@ -2501,7 +2501,7 @@ export const posts = [
     title: "Dhanaulti: Pine Forests, Quiet Views & a Complete Guide",
     excerpt:
       "A quiet alternative to nearby Mussoorie — dense deodar and oak forest, the managed Eco Park, and the Surkanda Devi trek, just 25 km from the crowds.",
-    image: "/images/destinations/meghalaya/dawki-river.jpg",
+    image: "/images/blogs/uttarakhand/dhanaulti/dhanaulti-eco-park-pine-forest.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Dhanaulti", "Uttarakhand", "Pine Forest", "Eco Park", "Mussoorie", "Off-beat", "Hill Station"],

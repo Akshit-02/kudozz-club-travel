@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/manali/hero.jpg",
+        url: "/images/blogs/uttarakhand/mussoorie/mussoorie-ridge-town-himalayan-view.webp",
         width: 1200,
         height: 630,
-        alt: "Mussoorie's hill-station skyline of terraced buildings along a forested Himalayan ridge",
+        alt: "Panoramic view of Mussoorie town spread along the forested ridge with the Himalayas beyond, Uttarakhand",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Mussoorie Travel Guide: Mall Road, Views & Tips",
     description:
       "Mall Road, Gun Hill, Kempty Falls, and quiet Landour — the complete Mussoorie guide, the closest major hill station to Delhi and Dehradun.",
-    images: ["/images/destinations/manali/hero.jpg"],
+    images: ["/images/blogs/uttarakhand/mussoorie/mussoorie-ridge-town-himalayan-view.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/mussoorie-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Mussoorie Travel Guide: Mall Road, Views & Tips",
           description:
             "Complete Mussoorie guide — Mall Road, Gun Hill, Kempty Falls, Landour's quiet cantonment lanes, how to reach from Dehradun, where to stay, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/manali/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/uttarakhand/mussoorie/mussoorie-ridge-town-himalayan-view.webp",
           datePublished: "2026-09-02",
           dateModified: "2026-09-02",
           publisher: {
@@ -195,8 +195,8 @@ export default function MussoorieGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/manali/hero.jpg"
-              alt="Mussoorie's hill-station skyline of terraced buildings along a forested Himalayan ridge"
+              src="/images/blogs/uttarakhand/mussoorie/mussoorie-ridge-town-himalayan-view.webp"
+              alt="Panoramic view of Mussoorie town spread along the forested ridge with the Himalayas beyond, Uttarakhand"
               fill
               priority
               sizes="100vw"
@@ -534,8 +534,8 @@ export default function MussoorieGuidePage() {
                   <h2>Things to Do in Mussoorie</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/manali/hero.jpg"
-                      alt="Mussoorie town along the ridge with the Himalayan skyline behind"
+                      src="/images/blogs/uttarakhand/mussoorie/mussoorie-ridge-town-himalayan-view.webp"
+                      alt="Mussoorie's buildings clustered along the ridge with snow-capped Himalayan peaks in the distance"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

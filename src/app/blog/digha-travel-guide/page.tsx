@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/goa/beach.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Sandy beach coastline evocative of Digha, West Bengal's most popular seaside town on the Bay of Bengal",
+        url: "/images/blogs/west-bengal/digha/new-digha-beach-promenade-boulder-embankment.webp",
+        width: 1600,
+        height: 1200,
+        alt: "The boulder-lined promenade along New Digha beach, West Bengal, with the Bay of Bengal shoreline beside it",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Digha Travel Guide: Beaches, Marine Aquarium & Tips",
     description:
       "New Digha, Old Digha, the beach promenade, and the Marine Aquarium — the complete guide to Bengal's favourite beach getaway.",
-    images: ["/images/destinations/goa/beach.jpg"],
+    images: ["/images/blogs/west-bengal/digha/new-digha-beach-promenade-boulder-embankment.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/digha-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Digha Travel Guide: Beaches, Marine Aquarium & Tips",
           description:
             "Complete Digha guide — New Digha and Old Digha, the beach promenade, Marine Aquarium & Research Centre, how to reach from Kolkata by train or road, and where to stay.",
-          image: "https://club.kudozz.in/images/destinations/goa/beach.jpg",
+          image: "https://club.kudozz.in/images/blogs/west-bengal/digha/new-digha-beach-promenade-boulder-embankment.webp",
           datePublished: "2026-09-02",
           dateModified: "2026-09-02",
           publisher: {
@@ -199,8 +199,8 @@ export default function DighaGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/goa/beach.jpg"
-              alt="Sandy beach coastline evocative of Digha, West Bengal's most popular seaside town on the Bay of Bengal"
+              src="/images/blogs/west-bengal/digha/new-digha-beach-promenade-boulder-embankment.webp"
+              alt="The boulder-lined promenade along New Digha beach, West Bengal, with the Bay of Bengal shoreline beside it"
               fill
               priority
               sizes="100vw"
@@ -535,8 +535,8 @@ export default function DighaGuidePage() {
                   <h2>Beaches & Attractions</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/goa/beach.jpg"
-                      alt="Beach coastline similar in character to Digha's shoreline, West Bengal"
+                      src="/images/blogs/west-bengal/digha/new-digha-beach-promenade-boulder-embankment.webp"
+                      alt="New Digha beach's stone embankment and promenade lined with casuarina trees"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

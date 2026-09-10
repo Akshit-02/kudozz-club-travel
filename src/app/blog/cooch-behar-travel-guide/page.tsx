@@ -23,9 +23,9 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/udaipur/saheliyon.jpg",
-        width: 1200,
-        height: 630,
+        url: "/images/blogs/west-bengal/cooch-behar/cooch-behar-royal-palace-facade.webp",
+        width: 1600,
+        height: 1067,
         alt: "Formal palace garden grounds evoking Cooch Behar Palace and its landscaped lawns in North Bengal",
       },
     ],
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Cooch Behar Travel Guide: Palace & Royal Heritage",
     description:
       "A Buckingham Palace-inspired royal residence, a placid central lake, and North Bengal's gateway feel toward the Dooars.",
-    images: ["/images/destinations/udaipur/saheliyon.jpg"],
+    images: ["/images/blogs/west-bengal/cooch-behar/cooch-behar-royal-palace-facade.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/cooch-behar-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           description:
             "Complete Cooch Behar guide — the Buckingham Palace-inspired royal palace, Madan Mohan Temple, Sagardighi, Rasmela, how to reach from Siliguri, and a full visit plan.",
           image:
-            "https://club.kudozz.in/images/destinations/udaipur/saheliyon.jpg",
+            "https://club.kudozz.in/images/blogs/west-bengal/cooch-behar/cooch-behar-royal-palace-facade.webp",
           datePublished: "2026-09-02",
           dateModified: "2026-09-02",
           publisher: {
@@ -198,8 +198,8 @@ export default function CoochBeharGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/udaipur/saheliyon.jpg"
-              alt="Formal palace garden grounds evoking Cooch Behar Palace and its landscaped lawns in North Bengal"
+              src="/images/blogs/west-bengal/cooch-behar/cooch-behar-royal-palace-facade.webp"
+              alt="The red-and-white Italianate facade of Cooch Behar Palace (Victor Jubilee Palace), North Bengal"
               fill
               priority
               sizes="100vw"
@@ -526,8 +526,8 @@ export default function CoochBeharGuidePage() {
                   <h2>Palace, Temple & Sagardighi</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/udaipur/saheliyon.jpg"
-                      alt="Landscaped palace grounds evoking Cooch Behar Palace's formal gardens"
+                      src="/images/blogs/west-bengal/cooch-behar/cooch-behar-royal-palace-facade.webp"
+                      alt="Domed corner towers and colonnaded balconies of the Cooch Behar royal palace"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

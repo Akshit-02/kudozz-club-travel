@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/rishikesh/rishikesh.jpg",
+        url: "/images/blogs/uttarakhand/haridwar/evening-ganga-aarti-har-ki-pauri.webp",
         width: 1200,
         height: 630,
-        alt: "Riverside ghats and temple spires along the Ganga at Haridwar, Uttarakhand, at dusk",
+        alt: "Ganga Aarti fire ceremony with flaming lamps held aloft at Har Ki Pauri ghat, Haridwar, Uttarakhand",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Haridwar Travel Guide: Ganga Aarti, Ghats & Temples",
     description:
       "Har Ki Pauri's Ganga Aarti, hilltop temples, the Kumbh Mela, and the gateway to Char Dham — the complete Haridwar guide.",
-    images: ["/images/destinations/rishikesh/rishikesh.jpg"],
+    images: ["/images/blogs/uttarakhand/haridwar/evening-ganga-aarti-har-ki-pauri.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/haridwar-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           description:
             "Complete Haridwar guide — Har Ki Pauri's Ganga Aarti, Mansa Devi & Chandi Devi temples, the Kumbh Mela, how to reach, where to stay, and its role as gateway to Char Dham and Rishikesh.",
           image:
-            "https://club.kudozz.in/images/destinations/rishikesh/rishikesh.jpg",
+            "https://club.kudozz.in/images/blogs/uttarakhand/haridwar/evening-ganga-aarti-har-ki-pauri.webp",
           datePublished: "2026-09-02",
           dateModified: "2026-09-02",
           publisher: {
@@ -204,8 +204,8 @@ export default function HaridwarGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/rishikesh/rishikesh.jpg"
-              alt="Riverside ghats and temple spires along the Ganga at Haridwar, Uttarakhand, at dusk"
+              src="/images/blogs/uttarakhand/haridwar/evening-ganga-aarti-har-ki-pauri.webp"
+              alt="Ganga Aarti fire ceremony with flaming lamps held aloft at Har Ki Pauri ghat, Haridwar, Uttarakhand"
               fill
               priority
               sizes="100vw"
@@ -551,8 +551,8 @@ export default function HaridwarGuidePage() {
                   <h2>Har Ki Pauri & the Ganga Aarti</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/rishikesh/rishikesh.jpg"
-                      alt="Pilgrims gathered at a Ganga-side ghat in Haridwar for the evening Ganga Aarti"
+                      src="/images/blogs/uttarakhand/haridwar/evening-ganga-aarti-har-ki-pauri.webp"
+                      alt="Priests and pilgrims performing the evening Ganga Aarti with fire lamps at Har Ki Pauri, Haridwar"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

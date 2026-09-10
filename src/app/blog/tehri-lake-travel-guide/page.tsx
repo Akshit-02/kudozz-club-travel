@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jammu-kashmir/dal.jpg",
+        url: "/images/blogs/uttarakhand/tehri-lake/tehri-lake-reservoir-aerial-view.webp",
         width: 1200,
         height: 630,
         alt: "Tehri Lake reservoir surrounded by forested Garhwal hills, Uttarakhand",
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Tehri Lake Travel Guide: Water Sports & Tips",
     description:
       "Jet skiing, kayaking, cable-skiing and houseboats on the Bhagirathi's giant reservoir — the complete Tehri Lake guide.",
-    images: ["/images/destinations/jammu-kashmir/dal.jpg"],
+    images: ["/images/blogs/uttarakhand/tehri-lake/tehri-lake-reservoir-aerial-view.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/tehri-lake-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Tehri Lake Travel Guide: Water Sports & Tips",
           description:
             "Complete Tehri Lake travel guide — jet skiing, kayaking and cable-skiing at Koti, houseboats, the Tehri Lake Festival, how to reach, where to stay, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/jammu-kashmir/dal.jpg",
+          image: "https://club.kudozz.in/images/blogs/uttarakhand/tehri-lake/tehri-lake-reservoir-aerial-view.webp",
           datePublished: "2026-09-02",
           dateModified: "2026-09-02",
           publisher: {
@@ -199,7 +199,7 @@ export default function TehriLakeGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jammu-kashmir/dal.jpg"
+              src="/images/blogs/uttarakhand/tehri-lake/tehri-lake-reservoir-aerial-view.webp"
               alt="Tehri Lake reservoir surrounded by forested Garhwal hills, Uttarakhand"
               fill
               priority
@@ -538,7 +538,7 @@ export default function TehriLakeGuidePage() {
                   <h2>Water Sports & Things to Do</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/jammu-kashmir/dal.jpg"
+                      src="/images/blogs/uttarakhand/tehri-lake/tehri-lake-reservoir-aerial-view.webp"
                       alt="Water sports activity on Tehri Lake, Uttarakhand"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"

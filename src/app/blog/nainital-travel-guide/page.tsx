@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jammu-kashmir/dal.jpg",
+        url: "/images/blogs/uttarakhand/nainital/colorful-boats-naini-lake-nainital.webp",
         width: 1200,
         height: 630,
-        alt: "Naini Lake ringed by forested hills at Nainital, Kumaon",
+        alt: "Colourful rowboats moored on Naini Lake with Nainital town and forested hills beyond, Kumaon",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Nainital Travel Guide: Naini Lake, Views & Tips",
     description:
       "Naini Lake, Naina Devi Temple, and cable car viewpoints — the complete Nainital guide and gateway to the Kumaon hill circuit.",
-    images: ["/images/destinations/jammu-kashmir/dal.jpg"],
+    images: ["/images/blogs/uttarakhand/nainital/colorful-boats-naini-lake-nainital.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/nainital-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           description:
             "Complete Nainital guide — Naini Lake boating, Naina Devi Temple, Naina Peak's cable car, how to reach from Kathgodam, where to stay, and a full visit plan.",
           image:
-            "https://club.kudozz.in/images/destinations/jammu-kashmir/dal.jpg",
+            "https://club.kudozz.in/images/blogs/uttarakhand/nainital/colorful-boats-naini-lake-nainital.webp",
           datePublished: "2026-09-02",
           dateModified: "2026-09-02",
           publisher: {
@@ -196,8 +196,8 @@ export default function NainitalGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jammu-kashmir/dal.jpg"
-              alt="Naini Lake ringed by forested hills at Nainital, Kumaon"
+              src="/images/blogs/uttarakhand/nainital/colorful-boats-naini-lake-nainital.webp"
+              alt="Colourful rowboats moored on Naini Lake with Nainital town and forested hills beyond, Kumaon"
               fill
               priority
               sizes="100vw"
@@ -538,8 +538,8 @@ export default function NainitalGuidePage() {
                   <h2>Things to Do in Nainital</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/jammu-kashmir/dal.jpg"
-                      alt="Boats on Naini Lake with Nainital's Mall Road along the shore"
+                      src="/images/blogs/uttarakhand/nainital/colorful-boats-naini-lake-nainital.webp"
+                      alt="Rowboats on Naini Lake with Nainital's hillside town along the shore, Uttarakhand"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

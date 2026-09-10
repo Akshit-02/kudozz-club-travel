@@ -23,9 +23,9 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/rishikesh/rishikesh.jpg",
-        width: 1200,
-        height: 630,
+        url: "/images/blogs/west-bengal/mayapur/iskcon-sri-krishna-temple-mayapur.webp",
+        width: 1400,
+        height: 1734,
         alt: "Riverside spiritual town setting evocative of Mayapur's temples on the banks of the Hooghly (Ganga), West Bengal",
       },
     ],
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Mayapur Travel Guide: ISKCON Temple & Visit Tips",
     description:
       "ISKCON's global headquarters, the TOVP, and the birthplace of Sri Chaitanya Mahaprabhu — the complete Mayapur guide.",
-    images: ["/images/destinations/rishikesh/rishikesh.jpg"],
+    images: ["/images/blogs/west-bengal/mayapur/iskcon-sri-krishna-temple-mayapur.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/mayapur-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           description:
             "Complete Mayapur guide — ISKCON's global headquarters, the TOVP, Chandrodaya Mandir, Gaura Purnima, how to reach from Kolkata, where to stay, and a full visit plan.",
           image:
-            "https://club.kudozz.in/images/destinations/rishikesh/rishikesh.jpg",
+            "https://club.kudozz.in/images/blogs/west-bengal/mayapur/iskcon-sri-krishna-temple-mayapur.webp",
           datePublished: "2026-09-02",
           dateModified: "2026-09-02",
           publisher: {
@@ -200,8 +200,8 @@ export default function MayapurGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/rishikesh/rishikesh.jpg"
-              alt="Riverside spiritual town setting evocative of Mayapur's temples on the banks of the Hooghly (Ganga), West Bengal"
+              src="/images/blogs/west-bengal/mayapur/iskcon-sri-krishna-temple-mayapur.webp"
+              alt="ISKCON Mayapur's ornate Sri Krishna temple building with its gilded spires, Nadia district, West Bengal"
               fill
               priority
               sizes="100vw"
@@ -547,8 +547,8 @@ export default function MayapurGuidePage() {
                   <h2>Temples & Attractions</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/rishikesh/rishikesh.jpg"
-                      alt="Riverside temple town atmosphere similar to Mayapur's ISKCON campus on the Hooghly"
+                      src="/images/blogs/west-bengal/mayapur/iskcon-sri-krishna-temple-mayapur.webp"
+                      alt="The ISKCON Mayapur temple complex with its spired towers, part of the wider Sri Mayapur Dham campus"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

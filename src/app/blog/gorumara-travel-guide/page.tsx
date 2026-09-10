@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/ziro/hero.jpg",
+        url: "/images/blogs/west-bengal/gorumara/jeep-safari-trail-gorumara-national-park.webp",
         width: 1200,
         height: 630,
-        alt: "Open grassland and forest edge at Gorumara National Park, Dooars, West Bengal",
+        alt: "Misty jeep safari trail winding through the forest of Gorumara National Park, Dooars, West Bengal",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Gorumara National Park: Safari, Timings & Tips",
     description:
       "One-horned rhinos, elephant herds, and gaur in one of India's most wildlife-dense small parks — the complete Gorumara guide.",
-    images: ["/images/destinations/ziro/hero.jpg"],
+    images: ["/images/blogs/west-bengal/gorumara/jeep-safari-trail-gorumara-national-park.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/gorumara-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Gorumara National Park: Safari, Timings & Tips",
           description:
             "Complete Gorumara National Park guide — rhino and elephant jeep safaris, watchtowers, safari timings, Murti riverside stays, Chapramari sanctuary, and how to plan your visit.",
-          image: "https://club.kudozz.in/images/destinations/ziro/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/west-bengal/gorumara/jeep-safari-trail-gorumara-national-park.webp",
           datePublished: "2026-09-02",
           dateModified: "2026-09-02",
           publisher: {
@@ -195,8 +195,8 @@ export default function GorumaraGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/ziro/hero.jpg"
-              alt="Open grassland and forest edge at Gorumara National Park, Dooars, West Bengal"
+              src="/images/blogs/west-bengal/gorumara/jeep-safari-trail-gorumara-national-park.webp"
+              alt="Misty jeep safari trail winding through the forest of Gorumara National Park, Dooars, West Bengal"
               fill
               priority
               sizes="100vw"
@@ -534,8 +534,8 @@ export default function GorumaraGuidePage() {
                   <h2>Safaris & Things to Do</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/ziro/hero.jpg"
-                      alt="Grassland safari trail at Gorumara National Park, West Bengal"
+                      src="/images/blogs/west-bengal/gorumara/jeep-safari-trail-gorumara-national-park.webp"
+                      alt="Jeep safari trail through misty forest at Gorumara National Park, West Bengal"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

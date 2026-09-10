@@ -23,9 +23,9 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/udaipur/hero.jpg",
-        width: 1200,
-        height: 630,
+        url: "/images/blogs/west-bengal/murshidabad/hazarduari-palace-front-lawn-murshidabad.webp",
+        width: 1600,
+        height: 1200,
         alt: "Grand palace architecture evoking Murshidabad's Hazarduari Palace, seat of the Nawabs of Bengal",
       },
     ],
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Murshidabad Travel Guide: Hazarduari & Nawabi History",
     description:
       "The former capital of Nawabi Bengal — the thousand-doored Hazarduari Palace, the story of Plassey, and Bengal's silk-weaving heritage.",
-    images: ["/images/destinations/udaipur/hero.jpg"],
+    images: ["/images/blogs/west-bengal/murshidabad/hazarduari-palace-front-lawn-murshidabad.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/murshidabad-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Murshidabad Travel Guide: Hazarduari & Nawabi History",
           description:
             "Complete Murshidabad guide — Hazarduari Palace, Katra Mosque, the Battle of Plassey, Bengal's Nawabi history, silk weaving, how to reach from Kolkata, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/udaipur/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/west-bengal/murshidabad/hazarduari-palace-front-lawn-murshidabad.webp",
           datePublished: "2026-09-02",
           dateModified: "2026-09-02",
           publisher: {
@@ -197,8 +197,8 @@ export default function MurshidabadGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/udaipur/hero.jpg"
-              alt="Grand palace architecture evoking Murshidabad's Hazarduari Palace, seat of the Nawabs of Bengal"
+              src="/images/blogs/west-bengal/murshidabad/hazarduari-palace-front-lawn-murshidabad.webp"
+              alt="The neoclassical facade of Hazarduari Palace, former seat of the Nawabs of Bengal, Murshidabad"
               fill
               priority
               sizes="100vw"
@@ -527,8 +527,8 @@ export default function MurshidabadGuidePage() {
                   <h2>Hazarduari & the Palace Complex</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/udaipur/hero.jpg"
-                      alt="Grand Italianate palace architecture evoking Murshidabad's Hazarduari Palace"
+                      src="/images/blogs/west-bengal/murshidabad/hazarduari-palace-front-lawn-murshidabad.webp"
+                      alt="Hazarduari Palace's colonnaded Italianate facade and front lawn, Murshidabad"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

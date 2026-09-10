@@ -23,9 +23,9 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/manali/hadimba-temple.jpg",
-        width: 1200,
-        height: 630,
+        url: "/images/blogs/west-bengal/tarapith/maa-tara-temple-dome-tarapith.webp",
+        width: 1600,
+        height: 1200,
         alt: "Temple setting evocative of Tarapith's Maa Tara Temple, a Shakti Peeth in Birbhum, West Bengal",
       },
     ],
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Tarapith Travel Guide: Shakti Peeth Temple & Tips",
     description:
       "The Maa Tara Temple, the Mahashmashan, and Bengal's Tantric heartland — the complete Tarapith pilgrimage guide.",
-    images: ["/images/destinations/manali/hadimba-temple.jpg"],
+    images: ["/images/blogs/west-bengal/tarapith/maa-tara-temple-dome-tarapith.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/tarapith-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           description:
             "Complete Tarapith guide — the Maa Tara Shakti Peeth temple, the Mahashmashan cremation ground, Bengal's Tantric tradition, how to reach from Kolkata, and where to stay.",
           image:
-            "https://club.kudozz.in/images/destinations/manali/hadimba-temple.jpg",
+            "https://club.kudozz.in/images/blogs/west-bengal/tarapith/maa-tara-temple-dome-tarapith.webp",
           datePublished: "2026-09-02",
           dateModified: "2026-09-02",
           publisher: {
@@ -200,8 +200,8 @@ export default function TarapithGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/manali/hadimba-temple.jpg"
-              alt="Temple setting evocative of Tarapith's Maa Tara Temple, a Shakti Peeth in Birbhum, West Bengal"
+              src="/images/blogs/west-bengal/tarapith/maa-tara-temple-dome-tarapith.webp"
+              alt="The red-and-white domed exterior of the Maa Tara Temple, a Shakti Peeth at Tarapith, Birbhum"
               fill
               priority
               sizes="100vw"
@@ -543,8 +543,8 @@ export default function TarapithGuidePage() {
                   <h2>Temple & Attractions</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/manali/hadimba-temple.jpg"
-                      alt="Temple architecture similar in spirit to Tarapith's Maa Tara Temple, Birbhum"
+                      src="/images/blogs/west-bengal/tarapith/maa-tara-temple-dome-tarapith.webp"
+                      alt="Close view of the Maa Tara Temple's ornate domed structure at Tarapith, Birbhum district"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

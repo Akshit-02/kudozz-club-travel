@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/kasol/kasol.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Forested Himalayan trail on the approach to Yamunotri temple, Uttarakhand",
+        url: "/images/blogs/uttarakhand/yamunotri/yamunotri-temple-gorge-shrine.webp",
+        width: 1600,
+        height: 1067,
+        alt: "Yamunotri Temple's shrine complex tucked into a steep, forested Himalayan gorge",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Yamunotri Travel Guide: Trek, Hot Springs & Tips",
     description:
       "The Char Dham Yatra's traditional first stop — a forested trek to the source of the Yamuna, with its distinctive Surya Kund hot-spring ritual. The complete Yamunotri guide.",
-    images: ["/images/destinations/kasol/kasol.jpg"],
+    images: ["/images/blogs/uttarakhand/yamunotri/yamunotri-temple-gorge-shrine.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/yamunotri-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Yamunotri Travel Guide: Trek, Hot Springs & Tips",
           description:
             "Complete Yamunotri guide — the Char Dham temple at the Yamuna's source, the Janki Chatti trek, Surya Kund hot spring, how to reach via Barkot, where to stay, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/kasol/kasol.jpg",
+          image: "https://club.kudozz.in/images/blogs/uttarakhand/yamunotri/yamunotri-temple-gorge-shrine.webp",
           datePublished: "2026-09-02",
           dateModified: "2026-09-02",
           publisher: {
@@ -199,8 +199,8 @@ export default function YamunotriGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/kasol/kasol.jpg"
-              alt="Forested Himalayan trail on the approach to Yamunotri temple, Uttarakhand"
+              src="/images/blogs/uttarakhand/yamunotri/yamunotri-temple-gorge-shrine.webp"
+              alt="Yamunotri Temple's shrine complex tucked into a steep, forested Himalayan gorge"
               fill
               priority
               sizes="100vw"
@@ -544,8 +544,8 @@ export default function YamunotriGuidePage() {
                   <h2>The Trek & Key Sites</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/kasol/kasol.jpg"
-                      alt="Pine forest trail along the route to Yamunotri temple, Uttarakhand"
+                      src="/images/blogs/uttarakhand/yamunotri/yamunotri-temple-gorge-shrine.webp"
+                      alt="Yamunotri Temple's colorful shrine roof and flags amid the Yamuna river gorge"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

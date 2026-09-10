@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/goa/hero.jpg",
+        url: "/images/blogs/west-bengal/gangasagar/kapil-muni-temple-gangasagar-sagar-island.webp",
         width: 1200,
         height: 630,
-        alt: "Coastal river-meets-sea setting evocative of Gangasagar, where the Ganga meets the Bay of Bengal at Sagar Island, West Bengal",
+        alt: "Kapil Muni Temple's colourful triple-spired towers with pilgrims at Gangasagar, Sagar Island, West Bengal",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Gangasagar Travel Guide: Mela, Temple & How to Reach",
     description:
       "Kapil Muni Temple, the vast Gangasagar Mela, and the point where the Ganga meets the sea — the complete Gangasagar guide.",
-    images: ["/images/destinations/goa/hero.jpg"],
+    images: ["/images/blogs/west-bengal/gangasagar/kapil-muni-temple-gangasagar-sagar-island.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/gangasagar-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Gangasagar Travel Guide: Mela, Temple & How to Reach",
           description:
             "Complete Gangasagar guide — Sagar Island, Kapil Muni Temple, the massive Gangasagar Mela at Makar Sankranti, how to reach via Kakdwip, and where to stay.",
-          image: "https://club.kudozz.in/images/destinations/goa/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/west-bengal/gangasagar/kapil-muni-temple-gangasagar-sagar-island.webp",
           datePublished: "2026-09-02",
           dateModified: "2026-09-02",
           publisher: {
@@ -199,8 +199,8 @@ export default function GangasagarGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/goa/hero.jpg"
-              alt="Coastal river-meets-sea setting evocative of Gangasagar, where the Ganga meets the Bay of Bengal at Sagar Island, West Bengal"
+              src="/images/blogs/west-bengal/gangasagar/kapil-muni-temple-gangasagar-sagar-island.webp"
+              alt="Kapil Muni Temple's colourful triple-spired towers with pilgrims at Gangasagar, Sagar Island, West Bengal"
               fill
               priority
               sizes="100vw"
@@ -550,8 +550,8 @@ export default function GangasagarGuidePage() {
                   <h2>Temple, Mela & Island</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/goa/hero.jpg"
-                      alt="Coastline where river meets sea, similar in character to Sagar Island's Gangasagar beach"
+                      src="/images/blogs/west-bengal/gangasagar/kapil-muni-temple-gangasagar-sagar-island.webp"
+                      alt="Pilgrims gathered outside Kapil Muni Temple at Gangasagar, Sagar Island, West Bengal"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

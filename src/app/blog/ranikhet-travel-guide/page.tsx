@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/ziro/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Pine-forested hillside of Ranikhet cantonment town with a Himalayan backdrop",
+        url: "/images/blogs/uttarakhand/ranikhet/sunset-point-himalayan-hills-ranikhet.webp",
+        width: 1600,
+        height: 1067,
+        alt: "Snow-capped Himalayan range seen over pine-forested ridges from a Ranikhet viewpoint",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Ranikhet Travel Guide: Cantonment Views & Golf",
     description:
       "A Kumaon Regiment cantonment town with one of India's highest golf courses, pine forests, and a quiet, uncrowded pace.",
-    images: ["/images/destinations/ziro/hero.jpg"],
+    images: ["/images/blogs/uttarakhand/ranikhet/sunset-point-himalayan-hills-ranikhet.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/ranikhet-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Ranikhet Travel Guide: Cantonment Views & Golf",
           description:
             "Complete Ranikhet guide — Upat Golf Course, Jhula Devi Temple, Chaubatia Gardens, Kumaon Regimental Centre Museum, how to reach, where to stay, and a full visit plan for this quiet Kumaon cantonment town.",
-          image: "https://club.kudozz.in/images/destinations/ziro/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/uttarakhand/ranikhet/sunset-point-himalayan-hills-ranikhet.webp",
           datePublished: "2026-09-02",
           dateModified: "2026-09-02",
           publisher: {
@@ -199,8 +199,8 @@ export default function RanikhetGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/ziro/hero.jpg"
-              alt="Pine-forested hillside of Ranikhet cantonment town with a Himalayan backdrop"
+              src="/images/blogs/uttarakhand/ranikhet/sunset-point-himalayan-hills-ranikhet.webp"
+              alt="Snow-capped Himalayan range seen over pine-forested ridges from a Ranikhet viewpoint"
               fill
               priority
               sizes="100vw"
@@ -534,8 +534,8 @@ export default function RanikhetGuidePage() {
                   <h2>Things to Do in Ranikhet</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/ziro/hero.jpg"
-                      alt="Pine and deodar forest trail near Ranikhet, Kumaon"
+                      src="/images/blogs/uttarakhand/ranikhet/sunset-point-himalayan-hills-ranikhet.webp"
+                      alt="Panoramic Himalayan skyline visible from a Ranikhet cantonment viewpoint"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

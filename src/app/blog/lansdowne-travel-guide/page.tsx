@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/coorg/abbey-falls.jpg",
+        url: "/images/blogs/uttarakhand/lansdowne/bhulla-tal-lake-bridge-lansdowne.webp",
         width: 1200,
         height: 630,
-        alt: "Forested cantonment hills of Lansdowne, Uttarakhand, wrapped in oak and pine",
+        alt: "Bhulla Tal Lake with its footbridge, ringed by pine forest, in Lansdowne",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Lansdowne Travel Guide: Quiet Hills & Bhulla Lake",
     description:
       "Bhulla Lake, Tip N Top, and thick Garhwal forest — the complete guide to one of Uttarakhand's quietest hill towns.",
-    images: ["/images/destinations/coorg/abbey-falls.jpg"],
+    images: ["/images/blogs/uttarakhand/lansdowne/bhulla-tal-lake-bridge-lansdowne.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/lansdowne-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Lansdowne Travel Guide: Quiet Hills & Bhulla Lake",
           description:
             "Complete Lansdowne travel guide — the Garhwal Rifles cantonment town, Bhulla Lake, Tip N Top, St. Mary's Church, how to reach via Kotdwar, where to stay, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/coorg/abbey-falls.jpg",
+          image: "https://club.kudozz.in/images/blogs/uttarakhand/lansdowne/bhulla-tal-lake-bridge-lansdowne.webp",
           datePublished: "2026-09-02",
           dateModified: "2026-09-02",
           publisher: {
@@ -199,8 +199,8 @@ export default function LansdowneGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/coorg/abbey-falls.jpg"
-              alt="Forested cantonment hills of Lansdowne, Uttarakhand, wrapped in oak and pine"
+              src="/images/blogs/uttarakhand/lansdowne/bhulla-tal-lake-bridge-lansdowne.webp"
+              alt="Bhulla Tal Lake with its footbridge, ringed by pine forest, in Lansdowne"
               fill
               priority
               sizes="100vw"
@@ -535,8 +535,8 @@ export default function LansdowneGuidePage() {
                   <h2>Things to Do in Lansdowne</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/coorg/abbey-falls.jpg"
-                      alt="Deodar and pine forest trail near Lansdowne, Uttarakhand"
+                      src="/images/blogs/uttarakhand/lansdowne/bhulla-tal-lake-bridge-lansdowne.webp"
+                      alt="Visitors crossing the footbridge over Bhulla Tal Lake in Lansdowne"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

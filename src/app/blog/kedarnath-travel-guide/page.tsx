@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/spiti-valley/spiti-valley.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Kedarnath temple standing alone against a stark, snow-dusted high-altitude Himalayan backdrop",
+        url: "/images/blogs/uttarakhand/kedarnath/kedarnath-temple-hillside-mountain-view.webp",
+        width: 1600,
+        height: 1067,
+        alt: "Kedarnath Temple's stone shikhara at the foot of a steep, snow-streaked Himalayan slope",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Kedarnath Travel Guide: Trek, Yatra & Helicopter Tips",
     description:
       "The Gaurikund trek, helicopter shuttle booking, and everything else you need for the Kedarnath yatra.",
-    images: ["/images/destinations/spiti-valley/spiti-valley.jpg"],
+    images: ["/images/blogs/uttarakhand/kedarnath/kedarnath-temple-hillside-mountain-view.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/kedarnath-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           description:
             "Complete Kedarnath guide — the Gaurikund/Sonprayag trek route, helicopter shuttle booking, temple opening dates, Bhairav Temple, Vasuki Tal, where to stay, and a full yatra plan.",
           image:
-            "https://club.kudozz.in/images/destinations/spiti-valley/spiti-valley.jpg",
+            "https://club.kudozz.in/images/blogs/uttarakhand/kedarnath/kedarnath-temple-hillside-mountain-view.webp",
           datePublished: "2026-09-02",
           dateModified: "2026-09-02",
           publisher: {
@@ -200,8 +200,8 @@ export default function KedarnathGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/spiti-valley/spiti-valley.jpg"
-              alt="Kedarnath temple standing alone against a stark, snow-dusted high-altitude Himalayan backdrop"
+              src="/images/blogs/uttarakhand/kedarnath/kedarnath-temple-hillside-mountain-view.webp"
+              alt="Kedarnath Temple's stone shikhara at the foot of a steep, snow-streaked Himalayan slope, with pilgrims gathered outside"
               fill
               priority
               sizes="100vw"
@@ -552,8 +552,8 @@ export default function KedarnathGuidePage() {
                   <h2>The Trek, Temple & Beyond</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/spiti-valley/spiti-valley.jpg"
-                      alt="High-altitude trail leading toward Kedarnath temple through a rugged Himalayan valley"
+                      src="/images/blogs/uttarakhand/kedarnath/kedarnath-temple-hillside-mountain-view.webp"
+                      alt="Kedarnath Temple's stone tower framed against a snow-streaked Himalayan ridge above Kedarnath valley"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

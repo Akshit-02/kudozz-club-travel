@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jammu-kashmir/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Snow-capped Panchachuli peaks rising above the remote Himalayan valley of Munsiyari, Kumaon",
+        url: "/images/blogs/uttarakhand/munsiyari/panchachuli-peak-golden-light-munsiyari.webp",
+        width: 1600,
+        height: 961,
+        alt: "The snow-capped Panchachuli twin peaks glowing at sunset, as seen from Munsiyari",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Munsiyari Travel Guide: Panchachuli Views & Treks",
     description:
       "The closest unobstructed view of the five Panchachuli peaks, and the gateway to some of Kumaon's most serious treks — the complete Munsiyari guide.",
-    images: ["/images/destinations/jammu-kashmir/hero.jpg"],
+    images: ["/images/blogs/uttarakhand/munsiyari/panchachuli-peak-golden-light-munsiyari.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/munsiyari-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Munsiyari Travel Guide: Panchachuli Views & Treks",
           description:
             "Complete Munsiyari guide — Panchachuli peak views, Betuli Dhar, Thamri Kund, Milam Glacier trek logistics, how to reach this remote Kumaon town, where to stay, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/jammu-kashmir/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/uttarakhand/munsiyari/panchachuli-peak-golden-light-munsiyari.webp",
           datePublished: "2026-09-02",
           dateModified: "2026-09-02",
           publisher: {
@@ -199,8 +199,8 @@ export default function MunsiyariGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jammu-kashmir/hero.jpg"
-              alt="Snow-capped Panchachuli peaks rising above the remote Himalayan valley of Munsiyari, Kumaon"
+              src="/images/blogs/uttarakhand/munsiyari/panchachuli-peak-golden-light-munsiyari.webp"
+              alt="The snow-capped Panchachuli twin peaks glowing at sunset, as seen from Munsiyari"
               fill
               priority
               sizes="100vw"
@@ -541,7 +541,7 @@ export default function MunsiyariGuidePage() {
                   <h2>Things to Do & See in Munsiyari</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/jammu-kashmir/hero.jpg"
+                      src="/images/blogs/uttarakhand/munsiyari/panchachuli-peak-golden-light-munsiyari.webp"
                       alt="View of the Panchachuli massif from Betuli Dhar viewpoint near Munsiyari"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"

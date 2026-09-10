@@ -23,9 +23,9 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/kasol/kasol.jpg",
-        width: 1200,
-        height: 630,
+        url: "/images/blogs/west-bengal/santiniketan/udayan-tagore-house-santiniketan.webp",
+        width: 1600,
+        height: 929,
         alt: "Tree-lined rural campus setting evoking Santiniketan's open-air Vishwa-Bharati University grounds",
       },
     ],
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Santiniketan Travel Guide: Tagore's University Town",
     description:
       "UNESCO-listed Vishwa-Bharati, open-air classrooms, Sonajhuri's Saturday haat, and Bengal's most colourful spring festival.",
-    images: ["/images/destinations/kasol/kasol.jpg"],
+    images: ["/images/blogs/west-bengal/santiniketan/udayan-tagore-house-santiniketan.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/santiniketan-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Santiniketan Travel Guide: Tagore's University Town",
           description:
             "Complete Santiniketan guide — Vishwa-Bharati University (UNESCO World Heritage), Uttarayan, Kala Bhavana, Sonajhuri haat, Poush Mela, how to reach from Kolkata, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/kasol/kasol.jpg",
+          image: "https://club.kudozz.in/images/blogs/west-bengal/santiniketan/udayan-tagore-house-santiniketan.webp",
           datePublished: "2026-09-02",
           dateModified: "2026-09-02",
           publisher: {
@@ -197,8 +197,8 @@ export default function SantiniketanGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/kasol/kasol.jpg"
-              alt="Tree-lined rural campus setting evoking Santiniketan's open-air Vishwa-Bharati University grounds"
+              src="/images/blogs/west-bengal/santiniketan/udayan-tagore-house-santiniketan.webp"
+              alt="Udayan, Rabindranath Tagore's residence within the Uttarayan complex at Santiniketan"
               fill
               priority
               sizes="100vw"
@@ -538,8 +538,8 @@ export default function SantiniketanGuidePage() {
                   <h2>Things to Do in Santiniketan</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/kasol/kasol.jpg"
-                      alt="Quiet, tree-lined countryside setting near Santiniketan, West Bengal"
+                      src="/images/blogs/west-bengal/santiniketan/udayan-tagore-house-santiniketan.webp"
+                      alt="Udayan, Tagore's house in the Uttarayan complex, part of the Vishwa-Bharati campus at Santiniketan"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

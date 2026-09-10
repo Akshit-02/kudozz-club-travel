@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/manali/rohtang-pass.jpg",
+        url: "/images/blogs/uttarakhand/auli/auli-snow-slopes-mountain-view.webp",
         width: 1200,
         height: 630,
         alt: "Snow-covered ski slopes at Auli with panoramic views of the Garhwal Himalaya",
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Auli Travel Guide: Skiing, Cable Car & Best Time",
     description:
       "India's premier ski destination — gentle slopes, one of Asia's longest cable car rides, and Nanda Devi views. The complete Auli guide.",
-    images: ["/images/destinations/manali/rohtang-pass.jpg"],
+    images: ["/images/blogs/uttarakhand/auli/auli-snow-slopes-mountain-view.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/auli-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Auli Travel Guide: Skiing, Cable Car & Best Time",
           description:
             "Complete Auli guide — skiing on India's premier slopes, the Auli-Joshimath ropeway, Gorson Bugyal meadow, Nanda Devi views, how to reach, where to stay, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/manali/rohtang-pass.jpg",
+          image: "https://club.kudozz.in/images/blogs/uttarakhand/auli/auli-snow-slopes-mountain-view.webp",
           datePublished: "2026-09-02",
           dateModified: "2026-09-02",
           publisher: {
@@ -199,7 +199,7 @@ export default function AuliGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/manali/rohtang-pass.jpg"
+              src="/images/blogs/uttarakhand/auli/auli-snow-slopes-mountain-view.webp"
               alt="Snow-covered ski slopes at Auli with panoramic views of the Garhwal Himalaya"
               fill
               priority
@@ -539,7 +539,7 @@ export default function AuliGuidePage() {
                   <h2>Things to Do & See in Auli</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/manali/rohtang-pass.jpg"
+                      src="/images/blogs/uttarakhand/auli/auli-snow-slopes-mountain-view.webp"
                       alt="Skiers on the open snow slopes of Auli, Uttarakhand"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"

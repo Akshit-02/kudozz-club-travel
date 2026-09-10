@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/manali/solang-valley.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Alpine meadows and Himalayan peaks surrounding Chopta, Uttarakhand",
+        url: "/images/blogs/uttarakhand/chopta/chopta-meadow-camping-himalayan-view.webp",
+        width: 1600,
+        height: 1067,
+        alt: "Tents pitched on a green alpine meadow near Chopta with snow-capped Himalayan ridges behind",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Chopta Travel Guide: Tungnath Trek & Best Time",
     description:
       "The 'Mini Switzerland of India' — base for the Tungnath-Chandrashila trek to the world's highest Shiva temple. The complete Chopta guide.",
-    images: ["/images/destinations/manali/solang-valley.jpg"],
+    images: ["/images/blogs/uttarakhand/chopta/chopta-meadow-camping-himalayan-view.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/chopta-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Chopta Travel Guide: Tungnath Trek & Best Time",
           description:
             "Complete Chopta guide — the Tungnath-Chandrashila trek to the world's highest Shiva temple, Deoria Tal, how to reach via Ukhimath, where to stay, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/manali/solang-valley.jpg",
+          image: "https://club.kudozz.in/images/blogs/uttarakhand/chopta/chopta-meadow-camping-himalayan-view.webp",
           datePublished: "2026-09-02",
           dateModified: "2026-09-02",
           publisher: {
@@ -199,8 +199,8 @@ export default function ChoptaGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/manali/solang-valley.jpg"
-              alt="Alpine meadows and Himalayan peaks surrounding Chopta, Uttarakhand"
+              src="/images/blogs/uttarakhand/chopta/chopta-meadow-camping-himalayan-view.webp"
+              alt="Tents pitched on a green alpine meadow near Chopta with snow-capped Himalayan ridges behind"
               fill
               priority
               sizes="100vw"
@@ -543,8 +543,8 @@ export default function ChoptaGuidePage() {
                   <h2>The Trek & Key Sites</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/manali/solang-valley.jpg"
-                      alt="Trekking trail through meadows near Chopta, Uttarakhand"
+                      src="/images/blogs/uttarakhand/chopta/chopta-meadow-camping-himalayan-view.webp"
+                      alt="Camp tents on the grassy bugyal meadow near Chopta, on the trail toward Tungnath and Chandrashila"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

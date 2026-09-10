@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/manali/hadimba-temple.jpg",
+        url: "/images/blogs/uttarakhand/badrinath/badrinath-temple-colorful-facade-mountains.webp",
         width: 1200,
         height: 630,
-        alt: "Badrinath temple's colourful facade set against snow-capped Himalayan peaks on the banks of the Alaknanda river",
+        alt: "Close-up of the colourful, intricately painted facade of the Badrinath temple",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Badrinath Travel Guide: Temple, Timings & How to Reach",
     description:
       "Temple opening dates, Tapt Kund, Mana village, and how to reach Badrinath via Joshimath — the complete guide.",
-    images: ["/images/destinations/manali/hadimba-temple.jpg"],
+    images: ["/images/blogs/uttarakhand/badrinath/badrinath-temple-colorful-facade-mountains.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/badrinath-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           description:
             "Complete Badrinath guide — temple opening dates, Tapt Kund, Mana village, Vasudhara Falls, how to reach via Joshimath, where to stay, and a full Char Dham visit plan.",
           image:
-            "https://club.kudozz.in/images/destinations/manali/hadimba-temple.jpg",
+            "https://club.kudozz.in/images/blogs/uttarakhand/badrinath/badrinath-temple-colorful-facade-mountains.webp",
           datePublished: "2026-09-02",
           dateModified: "2026-09-02",
           publisher: {
@@ -200,8 +200,8 @@ export default function BadrinathGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/manali/hadimba-temple.jpg"
-              alt="Badrinath temple's colourful facade set against snow-capped Himalayan peaks on the banks of the Alaknanda river"
+              src="/images/blogs/uttarakhand/badrinath/badrinath-temple-colorful-facade-mountains.webp"
+              alt="Close-up of the colourful, intricately painted facade of the Badrinath temple"
               fill
               priority
               sizes="100vw"
@@ -552,8 +552,8 @@ export default function BadrinathGuidePage() {
                   <h2>The Temple, Mana & Beyond</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/manali/hadimba-temple.jpg"
-                      alt="Badrinath temple courtyard with pilgrims, framed by the Himalayan skyline"
+                      src="/images/blogs/uttarakhand/badrinath/badrinath-temple-colorful-facade-mountains.webp"
+                      alt="The vividly painted entrance gate of the Badrinath temple"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

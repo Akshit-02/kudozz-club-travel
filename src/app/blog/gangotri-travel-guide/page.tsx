@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/leh-ladakh/leh-ladakh.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Rugged high-Himalayan glacier-fed terrain near Gangotri, with the Bhagirathi peaks rising above the valley",
+        url: "/images/blogs/uttarakhand/gangotri/gangotri-temple-bhagirathi-valley.webp",
+        width: 1600,
+        height: 1033,
+        alt: "Gangotri Temple's white and gold spires beside the Bhagirathi river, framed by pine forest and Himalayan peaks",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Gangotri Travel Guide: Temple, Gaumukh Trek & Tips",
     description:
       "The temple marking Ganga's descent, the Gaumukh glacier trek, and how to reach Gangotri via Uttarkashi.",
-    images: ["/images/destinations/leh-ladakh/leh-ladakh.jpg"],
+    images: ["/images/blogs/uttarakhand/gangotri/gangotri-temple-bhagirathi-valley.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/gangotri-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           description:
             "Complete Gangotri guide — the temple marking Ganga's descent, the Gaumukh glacier trek, Tapovan meadow, permits, how to reach via Uttarkashi, where to stay, and a full visit plan.",
           image:
-            "https://club.kudozz.in/images/destinations/leh-ladakh/leh-ladakh.jpg",
+            "https://club.kudozz.in/images/blogs/uttarakhand/gangotri/gangotri-temple-bhagirathi-valley.webp",
           datePublished: "2026-09-02",
           dateModified: "2026-09-02",
           publisher: {
@@ -200,8 +200,8 @@ export default function GangotriGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/leh-ladakh/leh-ladakh.jpg"
-              alt="Rugged high-Himalayan glacier-fed terrain near Gangotri, with the Bhagirathi peaks rising above the valley"
+              src="/images/blogs/uttarakhand/gangotri/gangotri-temple-bhagirathi-valley.webp"
+              alt="Gangotri Temple's white and gold spires beside the Bhagirathi river, framed by pine forest and Himalayan peaks"
               fill
               priority
               sizes="100vw"
@@ -541,8 +541,8 @@ export default function GangotriGuidePage() {
                   <h2>The Temple, Gaumukh & Tapovan</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/leh-ladakh/leh-ladakh.jpg"
-                      alt="Glacial valley trail toward Gaumukh, the source of the Bhagirathi river near Gangotri"
+                      src="/images/blogs/uttarakhand/gangotri/gangotri-temple-bhagirathi-valley.webp"
+                      alt="Gangotri Temple complex on the banks of the Bhagirathi river, gateway to the Gaumukh trek"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

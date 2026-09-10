@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/meghalaya/hero.jpg",
+        url: "/images/blogs/west-bengal/buxa/buxa-fort-ruins-tiger-reserve.webp",
         width: 1200,
         height: 630,
-        alt: "Forested hills near the Bhutan border, evoking the landscape of Buxa Tiger Reserve",
+        alt: "Ruins of Buxa Fort with prayer flags amid forested hills, Buxa Tiger Reserve, West Bengal",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Buxa Tiger Reserve Travel Guide: Trek & Safari",
     description:
       "A historic hilltop fort, a Bhutan-border tiger reserve, and North Bengal's best forest trekking — the complete Buxa guide.",
-    images: ["/images/destinations/meghalaya/hero.jpg"],
+    images: ["/images/blogs/west-bengal/buxa/buxa-fort-ruins-tiger-reserve.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/buxa-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Buxa Tiger Reserve Travel Guide: Trek & Safari",
           description:
             "Complete Buxa Tiger Reserve guide — the trek to Buxa Fort, Jayanti river & village, permits, how to reach from Alipurduar, where to stay, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/meghalaya/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/west-bengal/buxa/buxa-fort-ruins-tiger-reserve.webp",
           datePublished: "2026-09-02",
           dateModified: "2026-09-02",
           publisher: {
@@ -199,8 +199,8 @@ export default function BuxaGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/meghalaya/hero.jpg"
-              alt="Forested hills near the Bhutan border, evoking the landscape of Buxa Tiger Reserve"
+              src="/images/blogs/west-bengal/buxa/buxa-fort-ruins-tiger-reserve.webp"
+              alt="Ruins of Buxa Fort with prayer flags amid forested hills, Buxa Tiger Reserve, West Bengal"
               fill
               priority
               sizes="100vw"
@@ -538,8 +538,8 @@ export default function BuxaGuidePage() {
                   <h2>Fort Trek, Jayanti & Wildlife</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/meghalaya/hero.jpg"
-                      alt="Forest trail near Buxa Tiger Reserve, North Bengal"
+                      src="/images/blogs/west-bengal/buxa/buxa-fort-ruins-tiger-reserve.webp"
+                      alt="Buxa Fort's stone ruins surrounded by dense forest, Buxa Tiger Reserve, North Bengal"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

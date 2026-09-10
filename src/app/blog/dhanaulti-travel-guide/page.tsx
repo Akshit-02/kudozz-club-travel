@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/meghalaya/dawki-river.jpg",
+        url: "/images/blogs/uttarakhand/dhanaulti/dhanaulti-eco-park-pine-forest.webp",
         width: 1200,
         height: 630,
         alt: "Quiet pine and deodar forest hillside at Dhanaulti, Uttarakhand",
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Dhanaulti Travel Guide: Pine Forests & Quiet Views",
     description:
       "Dense deodar forest, the Eco Park, and the Surkanda Devi trek — a quiet alternative to Mussoorie, just 25 km away.",
-    images: ["/images/destinations/meghalaya/dawki-river.jpg"],
+    images: ["/images/blogs/uttarakhand/dhanaulti/dhanaulti-eco-park-pine-forest.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/dhanaulti-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Dhanaulti Travel Guide: Pine Forests & Quiet Views",
           description:
             "Complete Dhanaulti travel guide — Eco Park forest walks, Surkanda Devi Temple trek, how to reach from Dehradun or Mussoorie, where to stay, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/meghalaya/dawki-river.jpg",
+          image: "https://club.kudozz.in/images/blogs/uttarakhand/dhanaulti/dhanaulti-eco-park-pine-forest.webp",
           datePublished: "2026-09-02",
           dateModified: "2026-09-02",
           publisher: {
@@ -199,7 +199,7 @@ export default function DhanaultiGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/meghalaya/dawki-river.jpg"
+              src="/images/blogs/uttarakhand/dhanaulti/dhanaulti-eco-park-pine-forest.webp"
               alt="Quiet pine and deodar forest hillside at Dhanaulti, Uttarakhand"
               fill
               priority
@@ -530,7 +530,7 @@ export default function DhanaultiGuidePage() {
                   <h2>Things to Do in Dhanaulti</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/meghalaya/dawki-river.jpg"
+                      src="/images/blogs/uttarakhand/dhanaulti/dhanaulti-eco-park-pine-forest.webp"
                       alt="Deodar forest trail in Dhanaulti's Eco Park, Uttarakhand"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
