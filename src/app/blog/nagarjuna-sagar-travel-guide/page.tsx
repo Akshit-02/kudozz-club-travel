@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/kerala/alleppey.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Large calm reservoir landscape, evoking Nagarjuna Sagar's dam and lake setting",
+        url: "/images/blogs/telangana/nagarjuna-sagar/nagarjuna-sagar-masonry-dam-crest-gates.webp",
+        width: 1600,
+        height: 900,
+        alt: "Wide-angle view of the Nagarjuna Sagar masonry dam and its crest gates across the Krishna river reservoir",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Nagarjuna Sagar Guide: Dam, Island & Tips",
     description:
       "A vast dam, an island museum of relocated Buddhist heritage, and a scenic waterfall nearby — the complete Nagarjuna Sagar guide.",
-    images: ["/images/destinations/kerala/alleppey.jpg"],
+    images: ["/images/blogs/telangana/nagarjuna-sagar/nagarjuna-sagar-masonry-dam-crest-gates.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/nagarjuna-sagar-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Nagarjuna Sagar Guide: Dam, Island & Tips",
           description:
             "Complete Nagarjuna Sagar guide — one of the world's largest masonry dams, the Nagarjunakonda island museum reached only by boat, Ethipothala waterfall, how to reach from Hyderabad, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/kerala/alleppey.jpg",
+          image: "https://club.kudozz.in/images/blogs/telangana/nagarjuna-sagar/nagarjuna-sagar-masonry-dam-crest-gates.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -199,8 +199,8 @@ export default function NagarjunaSagarGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/kerala/alleppey.jpg"
-              alt="Large calm reservoir landscape, evoking Nagarjuna Sagar's dam and lake setting"
+              src="/images/blogs/telangana/nagarjuna-sagar/nagarjuna-sagar-masonry-dam-crest-gates.webp"
+              alt="Wide-angle view of the Nagarjuna Sagar masonry dam and its crest gates across the Krishna river reservoir"
               fill
               priority
               sizes="100vw"
@@ -522,8 +522,8 @@ export default function NagarjunaSagarGuidePage() {
                   <h2>Dam, Island & Waterfall</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/kerala/alleppey.jpg"
-                      alt="Reservoir landscape near Nagarjuna Sagar dam, Telangana"
+                      src="/images/blogs/telangana/nagarjuna-sagar/nagarjuna-sagar-masonry-dam-crest-gates.webp"
+                      alt="The Nagarjuna Sagar masonry dam with its crest gates, viewed across the reservoir"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

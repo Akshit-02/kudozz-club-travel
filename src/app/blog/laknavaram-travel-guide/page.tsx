@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jammu-kashmir/dal.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Calm lake framed by hills, evoking Laknavaram Lake's horseshoe shape and forested islands",
+        url: "/images/blogs/telangana/laknavaram/laknavaram-lake-forested-islands-mulugu.webp",
+        width: 1600,
+        height: 1200,
+        alt: "Laknavaram Lake with its forested islands scattered across the still water, Mulugu district",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Laknavaram Lake Guide: Bridge, Boating & Tips",
     description:
       "A horseshoe lake, a cantilever hanging bridge, and forested islands — the complete Laknavaram guide.",
-    images: ["/images/destinations/jammu-kashmir/dal.jpg"],
+    images: ["/images/blogs/telangana/laknavaram/laknavaram-lake-forested-islands-mulugu.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/laknavaram-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Laknavaram Lake Guide: Bridge, Boating & Tips",
           description:
             "Complete Laknavaram Lake guide — the horseshoe-shaped lake and its cantilever hanging bridge, boating, how to combine it with Ramappa Temple and Bogatha Waterfall, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/jammu-kashmir/dal.jpg",
+          image: "https://club.kudozz.in/images/blogs/telangana/laknavaram/laknavaram-lake-forested-islands-mulugu.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -195,8 +195,8 @@ export default function LaknavaramGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jammu-kashmir/dal.jpg"
-              alt="Calm lake framed by hills, evoking Laknavaram Lake's horseshoe shape and forested islands"
+              src="/images/blogs/telangana/laknavaram/laknavaram-lake-forested-islands-mulugu.webp"
+              alt="Laknavaram Lake with its forested islands scattered across the still water, Mulugu district"
               fill
               priority
               sizes="100vw"
@@ -530,8 +530,8 @@ export default function LaknavaramGuidePage() {
                   <h2>The Bridge, Boating & Islands</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/jammu-kashmir/dal.jpg"
-                      alt="Lake and hills at Laknavaram, Mulugu district"
+                      src="/images/blogs/telangana/laknavaram/laknavaram-lake-forested-islands-mulugu.webp"
+                      alt="Forested islands scattered across Laknavaram Lake, Mulugu district"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

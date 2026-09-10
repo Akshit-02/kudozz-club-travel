@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jaisalmer/fort.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Ancient South Indian temple architecture, evoking Chidambaram's Thillai Nataraja Temple",
+        url: "/images/blogs/tamil-nadu/chidambaram/nataraja-temple-gopuram-chidambaram.webp",
+        width: 1600,
+        height: 1067,
+        alt: "The colourfully sculpted gopuram tower of the Thillai Nataraja Temple, Chidambaram, rising above the treeline",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Chidambaram Guide: Nataraja Temple & Tips",
     description:
       "One of the Pancha Bhoota Stalams and the spiritual home of the cosmic dance — the complete guide to Chidambaram's Nataraja Temple.",
-    images: ["/images/destinations/jaisalmer/fort.jpg"],
+    images: ["/images/blogs/tamil-nadu/chidambaram/nataraja-temple-gopuram-chidambaram.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/chidambaram-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Chidambaram Guide: Nataraja Temple & Tips",
           description:
             "Complete Chidambaram guide — the Thillai Nataraja Temple, the Chidambara Rahasyam, Bharatanatyam and the Natyanjali festival, how to reach, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/jaisalmer/fort.jpg",
+          image: "https://club.kudozz.in/images/blogs/tamil-nadu/chidambaram/nataraja-temple-gopuram-chidambaram.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -195,8 +195,8 @@ export default function ChidambaramGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jaisalmer/fort.jpg"
-              alt="Ancient South Indian temple architecture, evoking Chidambaram's Thillai Nataraja Temple"
+              src="/images/blogs/tamil-nadu/chidambaram/nataraja-temple-gopuram-chidambaram.webp"
+              alt="The colourfully sculpted gopuram tower of the Thillai Nataraja Temple, Chidambaram, rising above the treeline"
               fill
               priority
               sizes="100vw"
@@ -514,8 +514,8 @@ export default function ChidambaramGuidePage() {
                   <h2>The Nataraja Temple</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/hampi/hero.jpg"
-                      alt="Ancient South Indian temple courtyard architecture, evoking Chidambaram's Nataraja Temple complex"
+                      src="/images/blogs/tamil-nadu/chidambaram/thillai-nataraja-temple-tower-base-chidambaram.webp"
+                      alt="Ground-level view of the sculpted gopuram tower and stone base of the Thillai Nataraja Temple complex, Chidambaram"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

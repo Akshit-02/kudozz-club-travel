@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/spiti-valley/spiti-valley.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Wide hill valley landscape, evoking the offbeat hill terrain of Longtharai Valley in Dhalai district, Tripura",
+        url: "/images/blogs/tripura/longtharai-valley/forest-road-gandacherra-dhalai-district-tripura.webp",
+        width: 1400,
+        height: 1050,
+        alt: "A quiet forest road lined with sal trees near Gandacherra in Dhalai district, Tripura, close to Longtharai Valley",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Longtharai Valley Travel Guide: Tips & How to Reach",
     description:
       "Offbeat hill terrain, tribal villages, and jhum-cultivated slopes in Tripura's Dhalai district — the complete Longtharai Valley guide.",
-    images: ["/images/destinations/spiti-valley/spiti-valley.jpg"],
+    images: ["/images/blogs/tripura/longtharai-valley/forest-road-gandacherra-dhalai-district-tripura.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/longtharai-valley-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Longtharai Valley Travel Guide: Tips & How to Reach",
           description:
             "Complete Longtharai Valley guide — Dhalai district's offbeat hill terrain, tribal villages, jhum cultivation, Longtharai Wildlife Sanctuary, how to reach from Agartala, and honest tips.",
-          image: "https://club.kudozz.in/images/destinations/spiti-valley/spiti-valley.jpg",
+          image: "https://club.kudozz.in/images/blogs/tripura/longtharai-valley/forest-road-gandacherra-dhalai-district-tripura.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -195,8 +195,8 @@ export default function LongtharaiValleyGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/spiti-valley/spiti-valley.jpg"
-              alt="Wide hill valley landscape, evoking the offbeat hill terrain of Longtharai Valley in Dhalai district, Tripura"
+              src="/images/blogs/tripura/longtharai-valley/forest-road-gandacherra-dhalai-district-tripura.webp"
+              alt="A quiet forest road lined with sal trees near Gandacherra in Dhalai district, Tripura, close to Longtharai Valley"
               fill
               priority
               sizes="100vw"
@@ -522,8 +522,8 @@ export default function LongtharaiValleyGuidePage() {
                   <h2>Valley Views, Villages & Walks</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/spiti-valley/spiti-valley.jpg"
-                      alt="Hill valley landscape near Longtharai Valley, Dhalai district"
+                      src="/images/blogs/tripura/longtharai-valley/forest-road-gandacherra-dhalai-district-tripura.webp"
+                      alt="Forest road near Gandacherra in Dhalai district, close to Longtharai Valley, Tripura"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

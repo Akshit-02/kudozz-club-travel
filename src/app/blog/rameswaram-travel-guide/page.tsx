@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/lakshadweep/hero.jpg",
+        url: "/images/blogs/tamil-nadu/rameswaram/ramanathaswamy-temple-gopuram-rameswaram.webp",
         width: 1200,
-        height: 630,
-        alt: "Turquoise island waters and coastline, evoking Rameswaram's island setting on Pamban Island",
+        height: 1807,
+        alt: "The white sculpted gopuram tower of Ramanathaswamy Temple rising above the street in Rameswaram",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Rameswaram Travel Guide: Temple & Dhanushkodi",
     description:
       "India's longest temple corridor, a historic sea bridge, and a cyclone-ruined ghost town — the complete Rameswaram guide.",
-    images: ["/images/destinations/lakshadweep/hero.jpg"],
+    images: ["/images/blogs/tamil-nadu/rameswaram/ramanathaswamy-temple-gopuram-rameswaram.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/rameswaram-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Rameswaram Travel Guide: Temple & Dhanushkodi",
           description:
             "Complete Rameswaram guide — the Ramanathaswamy Temple's giant corridor, the Pamban Bridge crossing, Dhanushkodi's ghost town, how to reach, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/lakshadweep/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/tamil-nadu/rameswaram/ramanathaswamy-temple-gopuram-rameswaram.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -195,8 +195,8 @@ export default function RameswaramGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/lakshadweep/hero.jpg"
-              alt="Turquoise island waters and coastline, evoking Rameswaram's island setting on Pamban Island"
+              src="/images/blogs/tamil-nadu/rameswaram/ramanathaswamy-temple-gopuram-rameswaram.webp"
+              alt="The white sculpted gopuram tower of Ramanathaswamy Temple rising above the street in Rameswaram"
               fill
               priority
               sizes="100vw"
@@ -512,8 +512,8 @@ export default function RameswaramGuidePage() {
                   <h2>Temple, Bridge & Dhanushkodi</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/lakshadweep/hero.jpg"
-                      alt="Coastal waters near Rameswaram, evoking the setting of Dhanushkodi and the Pamban Bridge"
+                      src="/images/blogs/tamil-nadu/rameswaram/pamban-bridge-sea-rameswaram.webp"
+                      alt="The Pamban railway bridge spanning the sea between Mandapam and Rameswaram Island, with its lift-span section raised"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

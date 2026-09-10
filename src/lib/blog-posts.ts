@@ -2933,7 +2933,7 @@ export const posts = [
     title: "Longtharai Valley Travel Guide: Tips & How to Reach",
     excerpt:
       "Rolling hills, tribal villages, and terraced jhum fields in Dhalai district — a corner of Tripura most visitors never reach, and the honest guide to exploring it.",
-    image: "/images/destinations/spiti-valley/spiti-valley.jpg",
+    image: "/images/blogs/tripura/longtharai-valley/forest-road-gandacherra-dhalai-district-tripura.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Longtharai Valley", "Dhalai District", "Tripura", "Off-beat"],
@@ -2945,7 +2945,7 @@ export const posts = [
     title: "Sabroom Travel Guide: Maitri Setu Bridge & Tips",
     excerpt:
       "Tripura's southernmost town, sitting on the Feni river border with Bangladesh — home to the Maitri Setu, a landmark bridge built to link Northeast India toward Chittagong port.",
-    image: "/images/destinations/udaipur/hero.jpg",
+    image: "/images/blogs/tripura/sabroom/sabroom-railway-station-platform-sunset.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Sabroom", "Maitri Setu", "Tripura", "Border Town"],
@@ -2957,7 +2957,7 @@ export const posts = [
     title: "Telangana Travel Guide: Hyderabad, Warangal & Temples",
     excerpt:
       "Nizam-era palaces, Kakatiya-era temples, and a Jyotirlinga hidden in tiger country — the complete guide to Telangana, from Charminar's bazaars to a five-day temple-and-nature circuit.",
-    image: "/images/destinations/hampi/hero.jpg",
+    image: "/images/blogs/telangana/telangana/charminar-low-angle-hyderabad-telangana.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Telangana", "Hyderabad", "Charminar", "Warangal"],
@@ -2969,7 +2969,7 @@ export const posts = [
     title: "Hyderabad Travel Guide: Charminar, Golconda & Food",
     excerpt:
       "A Qutb Shahi fort, a Nizam-era monument, and a biryani tradition Hyderabadis will argue about for hours — the complete guide to Telangana's capital.",
-    image: "/images/destinations/chandigarh/hero.jpg",
+    image: "/images/blogs/telangana/hyderabad/hussain-sagar-buddha-statue-night-hyderabad.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Hyderabad", "Telangana", "Charminar", "Golconda Fort"],
@@ -2981,7 +2981,7 @@ export const posts = [
     title: "Charminar Guide: History, Timings & Tips",
     excerpt:
       "Four grand arches, four soaring minarets, and a bangle bazaar that has traded beneath them since the 16th century — the complete Charminar guide.",
-    image: "/images/destinations/jaisalmer/hero.jpg",
+    image: "/images/blogs/telangana/charminar/charminar-angled-view-street-life-hyderabad.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Charminar", "Hyderabad", "Telangana", "Heritage"],
@@ -3041,7 +3041,7 @@ export const posts = [
     title: "Vemulawada Temple Guide: Darshan & Tips",
     excerpt:
       "Known locally as the 'Dakshina Kashi' — a Shiva temple sharing its complex with a Vishnu shrine, and one of Telangana's most significant pilgrimage towns.",
-    image: "/images/destinations/gokarna/hero.jpg",
+    image: "/images/blogs/telangana/vemulawada/raja-rajeshwara-swamy-temple-gopuram-vemulawada.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Vemulawada", "Telangana", "Shiva Temple", "Rajanna Sircilla"],
@@ -3053,7 +3053,7 @@ export const posts = [
     title: "Srisailam Travel Guide: Jyotirlinga & Nallamala",
     excerpt:
       "A Jyotirlinga and a Shakti Peetha under one roof, reached by a winding forest road through the Nallamala hills above a dramatic Krishna river gorge — the complete Srisailam guide.",
-    image: "/images/destinations/jammu-kashmir/hero.jpg",
+    image: "/images/blogs/telangana/srisailam/mallikarjuna-bhramaramba-temple-gopuram-srisailam.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Srisailam", "Mallikarjuna Jyotirlinga", "Telangana", "Nallamala Forest"],
@@ -3065,7 +3065,7 @@ export const posts = [
     title: "Nagarjuna Sagar Guide: Dam, Island & Tips",
     excerpt:
       "One of the world's largest masonry dams, and an island museum of relocated Buddhist heritage reachable only by boat — the complete Nagarjuna Sagar guide.",
-    image: "/images/destinations/kerala/alleppey.jpg",
+    image: "/images/blogs/telangana/nagarjuna-sagar/nagarjuna-sagar-masonry-dam-crest-gates.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Nagarjuna Sagar", "Nagarjunakonda", "Telangana", "Dam"],
@@ -3077,7 +3077,7 @@ export const posts = [
     title: "Ananthagiri Hills Guide: Coffee & Weekend Trip",
     excerpt:
       "Coffee plantations on the Deccan plateau, the birthplace of Hyderabad's own river, and a misty weekend escape — the complete Ananthagiri Hills guide.",
-    image: "/images/destinations/coorg/coorg.jpg",
+    image: "/images/blogs/telangana/ananthagiri-hills/ananthagiri-hills-forest-viewpoint-vikarabad.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Ananthagiri Hills", "Vikarabad", "Telangana", "Weekend Getaway"],
@@ -3089,7 +3089,7 @@ export const posts = [
     title: "Laknavaram Lake Guide: Bridge, Boating & Tips",
     excerpt:
       "A horseshoe-shaped lake scattered with forested islands and a cantilever bridge that walks you out over the water — Mulugu district's most photographed stop.",
-    image: "/images/destinations/jammu-kashmir/dal.jpg",
+    image: "/images/blogs/telangana/laknavaram/laknavaram-lake-forested-islands-mulugu.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Laknavaram Lake", "Mulugu District", "Telangana", "Off-beat"],
@@ -3101,7 +3101,7 @@ export const posts = [
     title: "Bogatha Waterfall Guide: Best Time & How to Reach",
     excerpt:
       "Nicknamed the 'Niagara of Telangana' — a broad monsoon-fed cascade in Mulugu district, spectacular in season and easy to be disappointed by outside it.",
-    image: "/images/destinations/coorg/abbey-falls.jpg",
+    image: "/images/blogs/telangana/bogatha-waterfall/bogatha-waterfall-broad-cascade-mulugu.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Bogatha Waterfall", "Mulugu District", "Telangana", "Waterfall"],
@@ -3137,7 +3137,7 @@ export const posts = [
     title: "Medaram Jatara Guide: Sammakka Saralamma Festival",
     excerpt:
       "One of the largest tribal gatherings on earth, held once every two years deep in a Telangana forest — the complete guide to Medaram.",
-    image: "/images/destinations/ziro/hero.jpg",
+    image: "/images/blogs/telangana/medaram/sammakka-gadde-shrine-jatara-crowd-medaram.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Medaram", "Sammakka Saralamma Jatara", "Telangana", "Tribal Festival"],
@@ -3149,7 +3149,7 @@ export const posts = [
     title: "Kawal Tiger Reserve: Safari Guide & Tips",
     excerpt:
       "Dry deciduous forest, the rare four-horned antelope, and a genuinely offbeat wildlife corridor in northern Telangana — the complete Kawal guide.",
-    image: "/images/destinations/meghalaya/dawki-river.jpg",
+    image: "/images/blogs/telangana/kawal-tiger-reserve/dry-deciduous-forest-grassland-kawal-tiger-reserve.webp",
     category: "Adventure",
     categoryColor: "bg-amber-100 text-amber-700",
     tags: ["Kawal Tiger Reserve", "Adilabad District", "Telangana", "Wildlife Safari"],
@@ -3161,7 +3161,7 @@ export const posts = [
     title: "Chennai Travel Guide: Beaches, Temples & Food",
     excerpt:
       "One of the world's longest urban beaches, Dravidian temples tucked into old neighbourhoods, and a food scene built on filter coffee and dosas — the complete Chennai guide.",
-    image: "/images/destinations/puducherry/hero.jpg",
+    image: "/images/blogs/tamil-nadu/chennai/marina-beach-shoreline-waves-chennai.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Chennai", "Tamil Nadu", "Marina Beach", "South India"],
@@ -3173,7 +3173,7 @@ export const posts = [
     title: "Mahabalipuram Travel Guide: Shore Temples & Tips",
     excerpt:
       "A UNESCO World Heritage cluster of 7th-century Pallava rock-cut monuments on the Bay of Bengal — the complete Mahabalipuram guide.",
-    image: "/images/destinations/hampi/virupaksha.jpg",
+    image: "/images/blogs/tamil-nadu/mahabalipuram/shore-temple-pyramidal-tower-mahabalipuram.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Mahabalipuram", "Shore Temple", "Tamil Nadu", "UNESCO"],
@@ -3185,7 +3185,7 @@ export const posts = [
     title: "Kanchipuram Travel Guide: Temples & Silk Sarees",
     excerpt:
       "The City of a Thousand Temples and the home of India's finest handwoven silk — the complete Kanchipuram guide.",
-    image: "/images/destinations/kerala/hero.jpg",
+    image: "/images/blogs/tamil-nadu/kanchipuram/kailasanathar-temple-vimana-tower-kanchipuram.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Kanchipuram", "Silk Sarees", "Tamil Nadu", "Temple City"],
@@ -3197,7 +3197,7 @@ export const posts = [
     title: "Chidambaram Guide: Nataraja Temple & Tips",
     excerpt:
       "One of the Pancha Bhoota Stalams and the spiritual home of the cosmic dance — the complete guide to Chidambaram's Nataraja Temple.",
-    image: "/images/destinations/jaisalmer/fort.jpg",
+    image: "/images/blogs/tamil-nadu/chidambaram/nataraja-temple-gopuram-chidambaram.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Chidambaram", "Nataraja Temple", "Tamil Nadu", "Cuddalore"],
@@ -3209,7 +3209,7 @@ export const posts = [
     title: "Madurai Travel Guide: Meenakshi Temple & Tips",
     excerpt:
       "Fourteen painted gopurams rising over one of India's oldest cities — the complete guide to Madurai, the Meenakshi Amman Temple, and the old-town streets around it.",
-    image: "/images/destinations/hampi/hero.jpg",
+    image: "/images/blogs/tamil-nadu/madurai/meenakshi-temple-east-gopuram-madurai.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Madurai", "Meenakshi Temple", "Tamil Nadu", "Heritage"],
@@ -3221,7 +3221,7 @@ export const posts = [
     title: "Rameswaram Travel Guide: Temple & Dhanushkodi",
     excerpt:
       "India's longest temple corridor, a historic sea bridge, and a cyclone-ruined ghost town at the edge of the map — the complete Rameswaram guide.",
-    image: "/images/destinations/lakshadweep/hero.jpg",
+    image: "/images/blogs/tamil-nadu/rameswaram/ramanathaswamy-temple-gopuram-rameswaram.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Rameswaram", "Ramanathaswamy Temple", "Tamil Nadu", "Dhanushkodi"],

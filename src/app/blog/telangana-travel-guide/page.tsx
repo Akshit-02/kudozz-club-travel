@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/hampi/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Grand South Indian temple architecture at golden hour, evoking Telangana's Kakatiya and Qutb Shahi heritage",
+        url: "/images/blogs/telangana/telangana/charminar-low-angle-hyderabad-telangana.webp",
+        width: 1600,
+        height: 1197,
+        alt: "Charminar's twin minarets seen from below, Hyderabad, Telangana",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Telangana Travel Guide: Hyderabad, Warangal & Temples",
     description:
       "Nizam-era palaces, Kakatiya temples, and a Jyotirlinga in a tiger-country gorge — the complete guide to Telangana.",
-    images: ["/images/destinations/hampi/hero.jpg"],
+    images: ["/images/blogs/telangana/telangana/charminar-low-angle-hyderabad-telangana.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/telangana-travel-guide",
@@ -57,7 +57,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Telangana Travel Guide: Hyderabad, Warangal & Temples",
           description: "The complete Telangana travel guide.",
-          image: "https://club.kudozz.in/images/destinations/hampi/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/telangana/telangana/charminar-low-angle-hyderabad-telangana.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -289,8 +289,8 @@ export default function TelanganaGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/hampi/hero.jpg"
-              alt="Grand South Indian temple architecture at golden hour, evoking Telangana's Kakatiya and Qutb Shahi heritage"
+              src="/images/blogs/telangana/telangana/charminar-low-angle-hyderabad-telangana.webp"
+              alt="Charminar's twin minarets seen from below, Hyderabad, Telangana"
               fill
               priority
               sizes="100vw"
@@ -661,8 +661,8 @@ export default function TelanganaGuidePage() {
                   <h2>Warangal: Kakatiya Heritage</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/hampi/virupaksha.jpg"
-                      alt="Ancient South Indian temple architecture, evoking Warangal's Kakatiya-era stone temples"
+                      src="/images/blogs/telangana/warangal-thousand-pillar-temple/thousand-pillar-temple-hanamakonda-warangal.webp"
+                      alt="The star-shaped stone mandapam of the Thousand Pillar Temple at Hanamakonda, near Warangal"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

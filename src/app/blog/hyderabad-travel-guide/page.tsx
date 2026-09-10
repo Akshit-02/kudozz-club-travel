@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/chandigarh/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "City skyline at dusk, evoking Hyderabad's blend of old-city heritage and modern skyline",
+        url: "/images/blogs/telangana/hyderabad/hussain-sagar-buddha-statue-night-hyderabad.webp",
+        width: 1600,
+        height: 1067,
+        alt: "The Buddha statue illuminated at night on Hussain Sagar lake, Hyderabad",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Hyderabad Travel Guide: Charminar, Golconda & Food",
     description:
       "Qutb Shahi forts, Nizam-era palaces, and India's most argued-about biryani — the complete Hyderabad guide.",
-    images: ["/images/destinations/chandigarh/hero.jpg"],
+    images: ["/images/blogs/telangana/hyderabad/hussain-sagar-buddha-statue-night-hyderabad.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/hyderabad-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Hyderabad Travel Guide: Charminar, Golconda & Food",
           description:
             "Complete Hyderabad guide — Charminar, Golconda Fort, Hussain Sagar, Ramoji Film City, the Nizam-era palaces, Hyderabadi biryani, where to stay, and a full 2-3 day itinerary.",
-          image: "https://club.kudozz.in/images/destinations/chandigarh/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/telangana/hyderabad/hussain-sagar-buddha-statue-night-hyderabad.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -195,8 +195,8 @@ export default function HyderabadGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/chandigarh/hero.jpg"
-              alt="City skyline at dusk, evoking Hyderabad's blend of old-city heritage and modern skyline"
+              src="/images/blogs/telangana/hyderabad/hussain-sagar-buddha-statue-night-hyderabad.webp"
+              alt="The Buddha statue illuminated at night on Hussain Sagar lake, Hyderabad"
               fill
               priority
               sizes="100vw"
@@ -514,8 +514,8 @@ export default function HyderabadGuidePage() {
                   <h2>Old City, Museums & Ramoji Film City</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/jaisalmer/hero.jpg"
-                      alt="Historic monument in a bustling old-city bazaar setting, evoking Hyderabad's Charminar and Laad Bazaar"
+                      src="/images/blogs/telangana/hyderabad/laad-bazaar-street-view-from-charminar.webp"
+                      alt="Aerial view of the bustling Laad Bazaar street market beside Charminar in Hyderabad's Old City"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

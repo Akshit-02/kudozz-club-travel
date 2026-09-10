@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/coorg/abbey-falls.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Waterfall cascading over rocks through forest, evoking Bogatha Waterfall in Mulugu district",
+        url: "/images/blogs/telangana/bogatha-waterfall/bogatha-waterfall-broad-cascade-mulugu.webp",
+        width: 1600,
+        height: 900,
+        alt: "The broad, multi-tiered cascade of Bogatha Waterfall in full monsoon flow, Mulugu district",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Bogatha Waterfall Guide: Best Time & How to Reach",
     description:
       "Telangana's 'Niagara' — a broad monsoon-fed cascade, and exactly when it's worth the drive.",
-    images: ["/images/destinations/coorg/abbey-falls.jpg"],
+    images: ["/images/blogs/telangana/bogatha-waterfall/bogatha-waterfall-broad-cascade-mulugu.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/bogatha-waterfall-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Bogatha Waterfall Guide: Best Time & How to Reach",
           description:
             "Complete Bogatha Waterfall guide — Telangana's 'Niagara', when the falls are actually worth seeing, how to reach from Warangal, and how to combine it with Laknavaram Lake and Ramappa Temple.",
-          image: "https://club.kudozz.in/images/destinations/coorg/abbey-falls.jpg",
+          image: "https://club.kudozz.in/images/blogs/telangana/bogatha-waterfall/bogatha-waterfall-broad-cascade-mulugu.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -195,8 +195,8 @@ export default function BogathaWaterfallGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/coorg/abbey-falls.jpg"
-              alt="Waterfall cascading over rocks through forest, evoking Bogatha Waterfall in Mulugu district"
+              src="/images/blogs/telangana/bogatha-waterfall/bogatha-waterfall-broad-cascade-mulugu.webp"
+              alt="The broad, multi-tiered cascade of Bogatha Waterfall in full monsoon flow, Mulugu district"
               fill
               priority
               sizes="100vw"
@@ -532,8 +532,8 @@ export default function BogathaWaterfallGuidePage() {
                   <h2>The Waterfall & Viewpoint</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/coorg/abbey-falls.jpg"
-                      alt="Waterfall in forested terrain, evoking Bogatha Waterfall"
+                      src="/images/blogs/telangana/bogatha-waterfall/bogatha-waterfall-broad-cascade-mulugu.webp"
+                      alt="Broad tiered cascade of Bogatha Waterfall, Mulugu district"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

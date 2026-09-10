@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/ziro/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Green forest landscape, evoking the Dandakaranya forest setting of Medaram in Mulugu district, Telangana",
+        url: "/images/blogs/telangana/medaram/sammakka-gadde-shrine-jatara-crowd-medaram.webp",
+        width: 1600,
+        height: 1200,
+        alt: "The sacred Sammakka gadde shrine platform decorated for the jatara, surrounded by dense pilgrim crowds at Medaram, Mulugu district, Telangana",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Medaram Jatara Guide: Sammakka Saralamma Festival",
     description:
       "One of the largest tribal gatherings on earth, held once every two years deep in a Telangana forest — the complete Medaram guide.",
-    images: ["/images/destinations/ziro/hero.jpg"],
+    images: ["/images/blogs/telangana/medaram/sammakka-gadde-shrine-jatara-crowd-medaram.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/medaram-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Medaram Jatara Guide: Sammakka Saralamma Festival",
           description:
             "Complete Medaram guide — the biennial Sammakka Saralamma Jatara, one of the world's largest tribal gatherings, the legend behind it, how to reach Mulugu district, and what to expect on and off festival years.",
-          image: "https://club.kudozz.in/images/destinations/ziro/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/telangana/medaram/sammakka-gadde-shrine-jatara-crowd-medaram.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -195,8 +195,8 @@ export default function MedaramGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/ziro/hero.jpg"
-              alt="Green forest landscape, evoking the Dandakaranya forest setting of Medaram in Mulugu district, Telangana"
+              src="/images/blogs/telangana/medaram/sammakka-gadde-shrine-jatara-crowd-medaram.webp"
+              alt="The sacred Sammakka gadde shrine platform decorated for the jatara, surrounded by dense pilgrim crowds at Medaram, Mulugu district, Telangana"
               fill
               priority
               sizes="100vw"
@@ -536,8 +536,8 @@ export default function MedaramGuidePage() {
                   <h2>The Jatara & The Forest Shrine</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/ziro/hero.jpg"
-                      alt="Forest landscape near Medaram, Mulugu district, Telangana"
+                      src="/images/blogs/telangana/medaram/sammakka-gadde-shrine-jatara-crowd-medaram.webp"
+                      alt="Pilgrims gathered around the decorated Sammakka gadde shrine platform during the Medaram jatara, Mulugu district, Telangana"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

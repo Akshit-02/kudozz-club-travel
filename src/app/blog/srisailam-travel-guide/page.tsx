@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jammu-kashmir/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Forested mountain gorge landscape, evoking Srisailam's Nallamala forest and Krishna river gorge setting",
+        url: "/images/blogs/telangana/srisailam/mallikarjuna-bhramaramba-temple-gopuram-srisailam.webp",
+        width: 1600,
+        height: 1067,
+        alt: "The tiered West Gopuram of the Sri Bhramaramba Mallikarjuna Swamy Temple, Srisailam",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Srisailam Travel Guide: Jyotirlinga & Nallamala",
     description:
       "A Jyotirlinga and a Shakti Peetha in one temple, deep in the Nallamala forest above the Krishna gorge — the complete Srisailam guide.",
-    images: ["/images/destinations/jammu-kashmir/hero.jpg"],
+    images: ["/images/blogs/telangana/srisailam/mallikarjuna-bhramaramba-temple-gopuram-srisailam.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/srisailam-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Srisailam Travel Guide: Jyotirlinga & Nallamala",
           description:
             "Complete Srisailam guide — the Mallikarjuna Jyotirlinga and Bhramaramba Shakti Peetha, Patala Ganga, the Krishna river gorge through Nallamala forest, how to reach from Hyderabad, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/jammu-kashmir/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/telangana/srisailam/mallikarjuna-bhramaramba-temple-gopuram-srisailam.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -199,8 +199,8 @@ export default function SrisailamGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jammu-kashmir/hero.jpg"
-              alt="Forested mountain gorge landscape, evoking Srisailam's Nallamala forest and Krishna river gorge setting"
+              src="/images/blogs/telangana/srisailam/mallikarjuna-bhramaramba-temple-gopuram-srisailam.webp"
+              alt="The tiered West Gopuram of the Sri Bhramaramba Mallikarjuna Swamy Temple, Srisailam"
               fill
               priority
               sizes="100vw"
@@ -526,8 +526,8 @@ export default function SrisailamGuidePage() {
                   <h2>Temple, Patala Ganga & the Krishna Gorge</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/jammu-kashmir/hero.jpg"
-                      alt="Forested gorge landscape near Srisailam, Nallamala forest, Telangana"
+                      src="/images/blogs/telangana/srisailam/mallikarjuna-bhramaramba-temple-gopuram-srisailam.webp"
+                      alt="West Gopuram of the Sri Bhramaramba Mallikarjuna Swamy Temple complex, Srisailam"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

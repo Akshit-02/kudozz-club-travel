@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/puducherry/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Coastal promenade and coastal architecture, evoking Chennai's Bay of Bengal seafront and colonial-era buildings",
+        url: "/images/blogs/tamil-nadu/chennai/marina-beach-shoreline-waves-chennai.webp",
+        width: 1600,
+        height: 900,
+        alt: "Waves rolling onto the wide sandy shore of Marina Beach, Chennai, with the Bay of Bengal under a cloudy sky",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Chennai Travel Guide: Beaches, Temples & Food",
     description:
       "Marina Beach, Dravidian temples, colonial forts, and a food scene built on filter coffee and dosas — the complete Chennai guide.",
-    images: ["/images/destinations/puducherry/hero.jpg"],
+    images: ["/images/blogs/tamil-nadu/chennai/marina-beach-shoreline-waves-chennai.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/chennai-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Chennai Travel Guide: Beaches, Temples & Food",
           description:
             "Complete Chennai guide — Marina Beach, Fort St. George, Mylapore's Kapaleeshwarar Temple, San Thome Basilica, filter coffee and dosas, how to reach, and a full 2-day visit plan.",
-          image: "https://club.kudozz.in/images/destinations/puducherry/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/tamil-nadu/chennai/marina-beach-shoreline-waves-chennai.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -199,8 +199,8 @@ export default function ChennaiGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/puducherry/hero.jpg"
-              alt="Coastal promenade and coastal architecture, evoking Chennai's Bay of Bengal seafront and colonial-era buildings"
+              src="/images/blogs/tamil-nadu/chennai/marina-beach-shoreline-waves-chennai.webp"
+              alt="Waves rolling onto the wide sandy shore of Marina Beach, Chennai, with the Bay of Bengal under a cloudy sky"
               fill
               priority
               sizes="100vw"
@@ -516,8 +516,8 @@ export default function ChennaiGuidePage() {
                   <h2>Beaches, Forts & Temples</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/puducherry/french.jpg"
-                      alt="Coastal colonial-era architecture, evoking Chennai's Fort St. George and seafront heritage buildings"
+                      src="/images/blogs/tamil-nadu/chennai/fort-st-george-pavilion-memorial-chennai.webp"
+                      alt="Colonial-era domed pavilion and memorial inside the Fort St. George complex, Chennai"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

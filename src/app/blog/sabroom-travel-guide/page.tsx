@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/udaipur/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Riverside landscape at dusk, evoking Sabroom's Feni river and the Maitri Setu bridge to Bangladesh",
+        url: "/images/blogs/tripura/sabroom/sabroom-railway-station-platform-sunset.webp",
+        width: 1600,
+        height: 1200,
+        alt: "Sabroom railway station platform at sunset, Tripura's southernmost railhead near the Bangladesh border",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Sabroom Travel Guide: Maitri Setu Bridge & Tips",
     description:
       "The Maitri Setu Friendship Bridge, the Feni river border, and Tripura's southernmost town — the complete Sabroom guide.",
-    images: ["/images/destinations/udaipur/hero.jpg"],
+    images: ["/images/blogs/tripura/sabroom/sabroom-railway-station-platform-sunset.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/sabroom-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Sabroom Travel Guide: Maitri Setu Bridge & Tips",
           description:
             "Complete Sabroom guide — the Maitri Setu Friendship Bridge over the Feni river, Baikhora archaeological site, Rabindra Kanan, how to reach from Agartala, and a South Tripura visit plan.",
-          image: "https://club.kudozz.in/images/destinations/udaipur/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/tripura/sabroom/sabroom-railway-station-platform-sunset.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -195,8 +195,8 @@ export default function SabroomGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/udaipur/hero.jpg"
-              alt="Riverside landscape at dusk, evoking Sabroom's Feni river and the Maitri Setu bridge to Bangladesh"
+              src="/images/blogs/tripura/sabroom/sabroom-railway-station-platform-sunset.webp"
+              alt="Sabroom railway station platform at sunset, Tripura's southernmost railhead near the Bangladesh border"
               fill
               priority
               sizes="100vw"
@@ -522,8 +522,8 @@ export default function SabroomGuidePage() {
                   <h2>Maitri Setu, Baikhora & Rabindra Kanan</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/udaipur/hero.jpg"
-                      alt="Riverside scenery near Sabroom, South Tripura"
+                      src="/images/blogs/tripura/sabroom/sabroom-railway-station-platform-sunset.webp"
+                      alt="Sabroom railway station platform, South Tripura"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

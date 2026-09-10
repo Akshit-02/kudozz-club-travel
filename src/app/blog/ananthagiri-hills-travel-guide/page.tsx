@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/coorg/coorg.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Misty green coffee-plantation hills, evoking Ananthagiri Hills' forested, coffee-growing landscape",
+        url: "/images/blogs/telangana/ananthagiri-hills/ananthagiri-hills-forest-viewpoint-vikarabad.webp",
+        width: 1600,
+        height: 1060,
+        alt: "Forested hills and valley view from a viewpoint at Ananthagiri Hills, Vikarabad, Telangana",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Ananthagiri Hills Guide: Coffee & Weekend Trip",
     description:
       "Coffee plantations, misty mornings, and the birthplace of Hyderabad's own river — the complete Ananthagiri Hills guide.",
-    images: ["/images/destinations/coorg/coorg.jpg"],
+    images: ["/images/blogs/telangana/ananthagiri-hills/ananthagiri-hills-forest-viewpoint-vikarabad.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/ananthagiri-hills-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Ananthagiri Hills Guide: Coffee & Weekend Trip",
           description:
             "Complete Ananthagiri Hills guide — Telangana's surprise coffee plantations, the Musi river's origin point, the Ananthagiri temple, forest walks, how to reach from Hyderabad, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/coorg/coorg.jpg",
+          image: "https://club.kudozz.in/images/blogs/telangana/ananthagiri-hills/ananthagiri-hills-forest-viewpoint-vikarabad.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -195,8 +195,8 @@ export default function AnanthagiriHillsGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/coorg/coorg.jpg"
-              alt="Misty green coffee-plantation hills, evoking Ananthagiri Hills' forested, coffee-growing landscape"
+              src="/images/blogs/telangana/ananthagiri-hills/ananthagiri-hills-forest-viewpoint-vikarabad.webp"
+              alt="Forested hills and valley view from a viewpoint at Ananthagiri Hills, Vikarabad, Telangana"
               fill
               priority
               sizes="100vw"
@@ -517,8 +517,8 @@ export default function AnanthagiriHillsGuidePage() {
                   <h2>Temple, Plantations & Forest Trails</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/coorg/coorg.jpg"
-                      alt="Coffee plantation hills near Ananthagiri, Telangana"
+                      src="/images/blogs/telangana/ananthagiri-hills/ananthagiri-hills-forest-viewpoint-vikarabad.webp"
+                      alt="Forested hills viewpoint at Ananthagiri Hills near Vikarabad, Telangana"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jaisalmer/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Iconic historic monument glowing at dusk, evoking Hyderabad's Charminar",
+        url: "/images/blogs/telangana/charminar/charminar-angled-view-street-life-hyderabad.webp",
+        width: 1400,
+        height: 1748,
+        alt: "Charminar seen from a street-level angle at dusk with pedestrians and traffic below, Hyderabad",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Charminar Guide: History, Timings & Tips",
     description:
       "Four grand arches, four minarets, and a bangle bazaar unchanged since the 16th century — the complete Charminar guide.",
-    images: ["/images/destinations/jaisalmer/hero.jpg"],
+    images: ["/images/blogs/telangana/charminar/charminar-angled-view-street-life-hyderabad.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/charminar-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Charminar Guide: History, Timings & Tips",
           description:
             "Complete Charminar guide — history, architecture, the Laad Bazaar and Mecca Masjid nearby, best time to visit, how to reach, and a full visit plan for Hyderabad's iconic monument.",
-          image: "https://club.kudozz.in/images/destinations/jaisalmer/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/telangana/charminar/charminar-angled-view-street-life-hyderabad.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -195,8 +195,8 @@ export default function CharminarGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jaisalmer/hero.jpg"
-              alt="Iconic historic monument glowing at dusk, evoking Hyderabad's Charminar"
+              src="/images/blogs/telangana/charminar/charminar-angled-view-street-life-hyderabad.webp"
+              alt="Charminar seen from a street-level angle at dusk with pedestrians and traffic below, Hyderabad"
               fill
               priority
               sizes="100vw"

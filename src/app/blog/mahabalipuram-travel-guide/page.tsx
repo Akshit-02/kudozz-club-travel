@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/hampi/virupaksha.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Ancient South Indian temple architecture, evoking Mahabalipuram's Pallava-era Shore Temple and rock-cut monuments",
+        url: "/images/blogs/tamil-nadu/mahabalipuram/shore-temple-pyramidal-tower-mahabalipuram.webp",
+        width: 1600,
+        height: 1082,
+        alt: "The pyramidal stone tower of the Shore Temple at Mahabalipuram, built directly on the Bay of Bengal coastline",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Mahabalipuram Travel Guide: Shore Temples & Tips",
     description:
       "A UNESCO World Heritage cluster of 7th-century Pallava rock-cut monuments on the Bay of Bengal — the complete Mahabalipuram guide.",
-    images: ["/images/destinations/hampi/virupaksha.jpg"],
+    images: ["/images/blogs/tamil-nadu/mahabalipuram/shore-temple-pyramidal-tower-mahabalipuram.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/mahabalipuram-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Mahabalipuram Travel Guide: Shore Temples & Tips",
           description:
             "Complete Mahabalipuram guide — the Shore Temple, Pancha Rathas, Arjuna's Penance, Krishna's Butterball, how to reach from Chennai, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/hampi/virupaksha.jpg",
+          image: "https://club.kudozz.in/images/blogs/tamil-nadu/mahabalipuram/shore-temple-pyramidal-tower-mahabalipuram.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -195,8 +195,8 @@ export default function MahabalipuramGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/hampi/virupaksha.jpg"
-              alt="Ancient South Indian temple architecture, evoking Mahabalipuram's Pallava-era Shore Temple and rock-cut monuments"
+              src="/images/blogs/tamil-nadu/mahabalipuram/shore-temple-pyramidal-tower-mahabalipuram.webp"
+              alt="The pyramidal stone tower of the Shore Temple at Mahabalipuram, built directly on the Bay of Bengal coastline"
               fill
               priority
               sizes="100vw"
@@ -509,8 +509,8 @@ export default function MahabalipuramGuidePage() {
                   <h2>Shore Temple & Rock-Cut Monuments</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/hampi/hero.jpg"
-                      alt="Ancient stone temple ruins, evoking Mahabalipuram's Pancha Rathas and rock-cut monument complex"
+                      src="/images/blogs/tamil-nadu/mahabalipuram/pancha-rathas-rock-cut-monuments-mahabalipuram.webp"
+                      alt="The Pancha Rathas rock-cut monument complex at Mahabalipuram, including the carved stone elephant sculpture"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

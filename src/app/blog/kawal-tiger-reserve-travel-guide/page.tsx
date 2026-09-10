@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/meghalaya/dawki-river.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Forested river landscape, evoking Kawal Tiger Reserve's dry deciduous forest and river-fed terrain in northern Telangana",
+        url: "/images/blogs/telangana/kawal-tiger-reserve/dry-deciduous-forest-grassland-kawal-tiger-reserve.webp",
+        width: 1600,
+        height: 1068,
+        alt: "Dry deciduous forest grassland with scattered trees and low hills inside Kawal Tiger Reserve, Adilabad district, Telangana",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Kawal Tiger Reserve: Safari Guide & Tips",
     description:
       "Dry deciduous forest, the rare four-horned antelope, and a genuinely offbeat wildlife corridor in northern Telangana — the complete Kawal guide.",
-    images: ["/images/destinations/meghalaya/dawki-river.jpg"],
+    images: ["/images/blogs/telangana/kawal-tiger-reserve/dry-deciduous-forest-grassland-kawal-tiger-reserve.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/kawal-tiger-reserve-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           description:
             "Complete Kawal Tiger Reserve guide — dry deciduous forest safaris, the rare four-horned antelope, leopards and wild dogs, permits, how to reach from Hyderabad, and a full visit plan.",
           image:
-            "https://club.kudozz.in/images/destinations/meghalaya/dawki-river.jpg",
+            "https://club.kudozz.in/images/blogs/telangana/kawal-tiger-reserve/dry-deciduous-forest-grassland-kawal-tiger-reserve.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -196,8 +196,8 @@ export default function KawalTigerReserveGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/meghalaya/dawki-river.jpg"
-              alt="Forested river landscape, evoking Kawal Tiger Reserve's dry deciduous forest and river-fed terrain in northern Telangana"
+              src="/images/blogs/telangana/kawal-tiger-reserve/dry-deciduous-forest-grassland-kawal-tiger-reserve.webp"
+              alt="Dry deciduous forest grassland with scattered trees and low hills inside Kawal Tiger Reserve, Adilabad district, Telangana"
               fill
               priority
               sizes="100vw"
@@ -524,8 +524,8 @@ export default function KawalTigerReserveGuidePage() {
                   <h2>Safaris & Wildlife</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/meghalaya/dawki-river.jpg"
-                      alt="Dry deciduous forest and river terrain, Kawal Tiger Reserve, Telangana"
+                      src="/images/blogs/telangana/kawal-tiger-reserve/dry-deciduous-forest-grassland-kawal-tiger-reserve.webp"
+                      alt="Grassland and dry deciduous forest inside Kawal Tiger Reserve, with low hills in the background, Adilabad district, Telangana"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

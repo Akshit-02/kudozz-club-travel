@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/gokarna/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Temple-town coastline mood image, evoking Vemulawada's pilgrimage character",
+        url: "/images/blogs/telangana/vemulawada/raja-rajeshwara-swamy-temple-gopuram-vemulawada.webp",
+        width: 1080,
+        height: 720,
+        alt: "Illuminated entrance gopuram of Sri Raja Rajeshwara Swamy Temple, Vemulawada, at night",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Vemulawada Temple Guide: Darshan & Tips",
     description:
       "Known locally as the 'Dakshina Kashi' — a Shiva temple sharing its complex with a Vishnu shrine, and one of Telangana's most significant pilgrimage towns.",
-    images: ["/images/destinations/gokarna/hero.jpg"],
+    images: ["/images/blogs/telangana/vemulawada/raja-rajeshwara-swamy-temple-gopuram-vemulawada.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/vemulawada-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Vemulawada Temple Guide: Darshan & Tips",
           description:
             "Complete Vemulawada guide — the Sri Raja Rajeswara Swamy temple, its dual Shiva-Vishnu shrines, Kartika Masam significance, how to reach from Hyderabad, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/gokarna/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/telangana/vemulawada/raja-rajeshwara-swamy-temple-gopuram-vemulawada.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -195,8 +195,8 @@ export default function VemulawadaGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/gokarna/hero.jpg"
-              alt="Temple-town coastline mood image, evoking Vemulawada's pilgrimage character"
+              src="/images/blogs/telangana/vemulawada/raja-rajeshwara-swamy-temple-gopuram-vemulawada.webp"
+              alt="Illuminated entrance gopuram of Sri Raja Rajeshwara Swamy Temple, Vemulawada, at night"
               fill
               priority
               sizes="100vw"
@@ -523,8 +523,8 @@ export default function VemulawadaGuidePage() {
                   <h2>Temple & Rituals</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/gokarna/hero.jpg"
-                      alt="Temple-town mood image standing in for Vemulawada's pilgrimage setting"
+                      src="/images/blogs/telangana/vemulawada/raja-rajeshwara-swamy-temple-gopuram-vemulawada.webp"
+                      alt="Illuminated gopuram of Sri Raja Rajeshwara Swamy Temple in Vemulawada at night"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

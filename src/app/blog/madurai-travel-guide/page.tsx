@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/hampi/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Grand South Indian temple architecture with carved stone towers, evoking Madurai's Meenakshi Amman Temple gopurams",
+        url: "/images/blogs/tamil-nadu/madurai/meenakshi-temple-east-gopuram-madurai.webp",
+        width: 1100,
+        height: 1467,
+        alt: "The towering east gopuram of Meenakshi Amman Temple, covered in colourful sculpted deities, seen through the surrounding trees, Madurai",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Madurai Travel Guide: Meenakshi Temple & Tips",
     description:
       "Fourteen painted gopurams, a 17th-century Indo-Saracenic palace, and one of India's oldest cities — the complete Madurai guide.",
-    images: ["/images/destinations/hampi/hero.jpg"],
+    images: ["/images/blogs/tamil-nadu/madurai/meenakshi-temple-east-gopuram-madurai.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/madurai-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Madurai Travel Guide: Meenakshi Temple & Tips",
           description:
             "Complete Madurai guide — the Meenakshi Amman Temple's 14 gopurams, Thirumalai Nayakkar Palace, jigarthanda, how to reach, and a full 2-day visit plan.",
-          image: "https://club.kudozz.in/images/destinations/hampi/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/tamil-nadu/madurai/meenakshi-temple-east-gopuram-madurai.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -195,8 +195,8 @@ export default function MaduraiGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/hampi/hero.jpg"
-              alt="Grand South Indian temple architecture with carved stone towers, evoking Madurai's Meenakshi Amman Temple gopurams"
+              src="/images/blogs/tamil-nadu/madurai/meenakshi-temple-east-gopuram-madurai.webp"
+              alt="The towering east gopuram of Meenakshi Amman Temple, covered in colourful sculpted deities, seen through the surrounding trees, Madurai"
               fill
               priority
               sizes="100vw"
@@ -514,8 +514,8 @@ export default function MaduraiGuidePage() {
                   <h2>Temple, Palace & Old Town</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/hampi/virupaksha.jpg"
-                      alt="Carved stone temple tower, evoking Madurai's Meenakshi Amman Temple architecture"
+                      src="/images/blogs/tamil-nadu/madurai/meenakshi-temple-thousand-pillar-hall-madurai.webp"
+                      alt="The Thousand-Pillared Hall inside Meenakshi Amman Temple, with carved stone yali pillars and a painted lotus ceiling, Madurai"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/kerala/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "South Indian temple gopuram and courtyard, evoking Kanchipuram's Dravidian temple architecture",
+        url: "/images/blogs/tamil-nadu/kanchipuram/kailasanathar-temple-vimana-tower-kanchipuram.webp",
+        width: 1600,
+        height: 1067,
+        alt: "The sandstone pyramidal vimana tower of the Kailasanathar Temple, Kanchipuram, covered in intricate carved sculptures",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Kanchipuram Travel Guide: Temples & Silk Sarees",
     description:
       "The City of a Thousand Temples and the home of India's finest handwoven silk — the complete Kanchipuram guide.",
-    images: ["/images/destinations/kerala/hero.jpg"],
+    images: ["/images/blogs/tamil-nadu/kanchipuram/kailasanathar-temple-vimana-tower-kanchipuram.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/kanchipuram-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Kanchipuram Travel Guide: Temples & Silk Sarees",
           description:
             "Complete Kanchipuram guide — the Ekambareswarar, Kailasanathar and Kamakshi Amman temples, buying genuine Kanchipuram silk, how to reach from Chennai, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/kerala/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/tamil-nadu/kanchipuram/kailasanathar-temple-vimana-tower-kanchipuram.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -195,8 +195,8 @@ export default function KanchipuramGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/kerala/hero.jpg"
-              alt="South Indian temple gopuram and courtyard, evoking Kanchipuram's Dravidian temple architecture"
+              src="/images/blogs/tamil-nadu/kanchipuram/kailasanathar-temple-vimana-tower-kanchipuram.webp"
+              alt="The sandstone pyramidal vimana tower of the Kailasanathar Temple, Kanchipuram, covered in intricate carved sculptures"
               fill
               priority
               sizes="100vw"
@@ -510,8 +510,8 @@ export default function KanchipuramGuidePage() {
                   <h2>Temples & Silk Weaving</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/hampi/virupaksha.jpg"
-                      alt="South Indian temple tower architecture, evoking Kanchipuram's major Dravidian temples"
+                      src="/images/blogs/tamil-nadu/kanchipuram/ekambareswarar-temple-gopuram-kanchipuram.webp"
+                      alt="The towering stone gopuram of Ekambareswarar Temple, Kanchipuram, rising against a clear blue sky"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
