@@ -1900,6 +1900,306 @@
       "license": "CC BY-SA 4.0",
       "author": "Harshit SR",
       "attribution": "Photo by Harshit SR, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/uttar-pradesh/kannauj/camel-skin-attar-perfume-bottles.webp",
+      "usedIn": ["kannauj-travel-guide (hero + inline — replaces a Hampi photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Camel_skin_Perfume_Bottles_from_Kannauj.jpg",
+      "originalFile": "Camel skin Perfume Bottles from Kannauj.jpg",
+      "license": "CC BY-SA 2.0",
+      "author": "David Prasad",
+      "attribution": "Photo by David Prasad, CC BY-SA 2.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/uttar-pradesh/naimisharanya/chakra-tirtha-sacred-pond.webp",
+      "usedIn": ["naimisharanya-travel-guide (hero + inline — replaces a Meghalaya photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Cakratirtham.jpg",
+      "originalFile": "Cakratirtham.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "T.sujatha",
+      "attribution": "Photo by T.sujatha, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/uttar-pradesh/chitrakoot/ramghat-mandakini-river.webp",
+      "usedIn": ["chitrakoot-travel-guide (hero + inline — replaces a Coorg/Abbey Falls photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Ramghat_at_chitrakoot.jpg",
+      "originalFile": "Ramghat at chitrakoot.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Engshubham",
+      "attribution": "Photo by Engshubham, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/uttar-pradesh/jhansi/jhansi-fort-ramparts.webp",
+      "usedIn": ["jhansi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Jhansi_Fort_of_Rani_Laxmibai_in_Jhansi_04.jpg",
+      "originalFile": "Jhansi Fort of Rani Laxmibai in Jhansi 04.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Pinakpani",
+      "attribution": "Photo by Pinakpani, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/tripura/agartala/agartala-town-hall.webp",
+      "usedIn": ["agartala-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Agartala_town_Hall-version.jpg",
+      "originalFile": "Agartala town Hall-version.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Tojoroy20",
+      "attribution": "Photo by Tojoroy20, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/tripura/ujjayanta-palace/ujjayanta-palace-facade.webp",
+      "usedIn": ["ujjayanta-palace-travel-guide (hero + inline — replaces an Udaipur/Rajasthan photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Right_Facade_of_Ujjayanta_Palace,_Agartala,_Tripura_03.JPG",
+      "originalFile": "Right Facade of Ujjayanta Palace, Agartala, Tripura 03.JPG",
+      "license": "CC BY 4.0",
+      "author": "Kingshuk Mondal",
+      "attribution": "Photo by Kingshuk Mondal, CC BY 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/tripura/udaipur/udaipur-railway-station.webp",
+      "usedIn": ["udaipur-tripura-travel-guide (hero + inline — replaces a Hampi photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Udaipur_Railway_station_of_Tripura_state.jpg",
+      "originalFile": "Udaipur Railway station of Tripura state.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Sanjibroy56",
+      "attribution": "Photo by Sanjibroy56, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/tripura/tripura-sundari-temple/tripura-sundari-temple-facade.webp",
+      "usedIn": ["tripura-sundari-temple-travel-guide (hero + inline — replaces a Manali/Hadimba temple photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Tripura_Sundari_Temple_in_Udaipur,_Tripura_2018-03-25_-1.jpg",
+      "originalFile": "Tripura Sundari Temple in Udaipur, Tripura 2018-03-25 -1.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Yash raina",
+      "attribution": "Photo by Yash raina, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/tripura/unakoti/rock-cut-carvings-unakoti.webp",
+      "usedIn": ["unakoti-travel-guide (hero + inline — replaces a Meghalaya photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:A_View_of_Unakoti,_Tripura.jpg",
+      "originalFile": "A View of Unakoti, Tripura.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Dr. Srimanta Ray",
+      "attribution": "Photo by Dr. Srimanta Ray, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/tripura/jampui-hills/misty-hill-valley-view.webp",
+      "usedIn": ["jampui-hills-travel-guide (hero + inline — replaces a Manali/Solang Valley photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Jampui_2.jpg",
+      "originalFile": "Jampui 2.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Barunghosh",
+      "attribution": "Photo by Barunghosh, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/uttarakhand/mukteshwar/himalayan-sunset-ridge-view-mukteshwar.webp",
+      "usedIn": ["mukteshwar-travel-guide (hero + inline — replaces a Spiti Valley photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Mukteshwar_Sunset_01.jpg",
+      "originalFile": "Mukteshwar Sunset 01.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "ArmouredCyborg",
+      "attribution": "Photo by ArmouredCyborg, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/uttarakhand/jageshwar/ancient-stone-temple-cluster-jageshwar.webp",
+      "usedIn": ["jageshwar-travel-guide (hero + inline — replaces a Manali/Hadimba temple photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Temple_Cluster_at_Jageshwar.jpg",
+      "originalFile": "Temple Cluster at Jageshwar.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Itsmalay~commonswiki",
+      "attribution": "Photo by Itsmalay~commonswiki, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/uttarakhand/adi-kailash/adi-kailash-peak-parvati-kund-reflection.webp",
+      "usedIn": ["adi-kailash-travel-guide (hero + inline — replaces a Leh-Ladakh photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Adi_Kailash1.jpg",
+      "originalFile": "Adi Kailash1.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Geet Arts",
+      "attribution": "Photo by Geet Arts, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/uttarakhand/dayara-bugyal/alpine-meadow-himalayan-view-dayara-bugyal.webp",
+      "usedIn": ["dayara-bugyal-travel-guide (hero + inline — replaces a Manali/Solang Valley photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Dayara_Bugyal_Trek_(49011837287).jpg",
+      "originalFile": "Dayara Bugyal Trek (49011837287).jpg",
+      "license": "CC BY 2.0",
+      "author": "Mike Prince",
+      "attribution": "Photo by Mike Prince, CC BY 2.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/uttar-pradesh/agra/taj-mahal-reflection-river-yamuna-agra.webp",
+      "usedIn": ["agra-travel-guide (hero + inline — replaces an Udaipur photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Aks_The_Reflection_Taj_Mahal.jpg",
+      "originalFile": "Aks The Reflection Taj Mahal.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Antrix3",
+      "attribution": "Photo by Antrix3, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/uttar-pradesh/fatehpur-sikri/buland-darwaza-gateway-fatehpur-sikri.webp",
+      "usedIn": ["fatehpur-sikri-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Fatehput_Sikiri_Buland_Darwaza_gate_2010.jpg",
+      "originalFile": "Fatehput Sikiri Buland Darwaza gate 2010.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Marcin Białek",
+      "attribution": "Photo by Marcin Białek, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/uttar-pradesh/mathura/vishram-ghat-evening-yamuna-mathura.webp",
+      "usedIn": ["mathura-travel-guide (hero + inline — replaces a Manali/Hadimba temple photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Vishram_Ghat.jpg",
+      "originalFile": "Vishram Ghat.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Umang108",
+      "attribution": "Photo by Umang108, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/uttar-pradesh/vrindavan/prem-mandir-illuminated-night-vrindavan.webp",
+      "usedIn": ["vrindavan-travel-guide (hero + inline — replaces a generic Rishikesh photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Prem_mandir_brindavanam.jpg",
+      "originalFile": "Prem mandir brindavanam.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Kasisripada17",
+      "attribution": "Photo by Kasisripada17, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/uttar-pradesh/govardhan/govardhan-hill-sandstone-outcrop-braj.webp",
+      "usedIn": ["govardhan-travel-guide (hero + inline — replaces a Jammu & Kashmir photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Govardhan_hill,_Govardhan.jpg",
+      "originalFile": "Govardhan hill, Govardhan.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Ekabhishek",
+      "attribution": "Photo by Ekabhishek, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/uttar-pradesh/varanasi/ganga-aarti-fire-ritual-varanasi-ghat.webp",
+      "usedIn": ["varanasi-travel-guide (hero + inline — replaces a generic Rishikesh photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Ganga_Aarti_Varanasi.jpg",
+      "originalFile": "Ganga Aarti Varanasi.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Philip Nalangan",
+      "attribution": "Photo by Philip Nalangan, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/uttar-pradesh/sarnath/dhamek-stupa-sarnath.webp",
+      "usedIn": ["sarnath-travel-guide (hero + inline — replaces a Spiti Valley photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:14._Dhamek_Stupa,_Sarnath.jpg",
+      "originalFile": "14. Dhamek Stupa, Sarnath.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Preeti Prajapati",
+      "attribution": "Photo by Preeti Prajapati, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/uttar-pradesh/prayagraj/triveni-sangam-boats-prayagraj.webp",
+      "usedIn": ["prayagraj-travel-guide (hero + inline — replaces a Jammu & Kashmir photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Prayagraj_Sangam_2.jpg",
+      "originalFile": "Prayagraj Sangam 2.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Rangan Datta Wiki",
+      "attribution": "Photo by Rangan Datta Wiki, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/uttar-pradesh/ayodhya/ram-mandir-illuminated-gateway-ayodhya.webp",
+      "usedIn": ["ayodhya-travel-guide (hero + inline — replaces a Manali/Hadimba temple photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Illuminated_gateway_inside_Shri_Ram_Janmabhoomi_Mandir_complex,_Ayodhya.png",
+      "originalFile": "Illuminated gateway inside Shri Ram Janmabhoomi Mandir complex, Ayodhya.png",
+      "license": "CC BY-SA 4.0",
+      "author": "Gamerzer",
+      "attribution": "Photo by Gamerzer, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/uttar-pradesh/chandauli/rajdari-waterfall-chandauli.webp",
+      "usedIn": ["chandauli-travel-guide (hero + inline — replaces a Kasol photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Rajdari_Waterfall.jpg",
+      "originalFile": "Rajdari Waterfall.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Nandanupadhyay",
+      "attribution": "Photo by Nandanupadhyay, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/uttar-pradesh/kushinagar/ramabhar-stupa-kushinagar.webp",
+      "usedIn": ["kushinagar-travel-guide (hero + inline — replaces a Leh-Ladakh photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Ramabhar_Stupa_6.jpg",
+      "originalFile": "Ramabhar Stupa 6.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Rangan Datta Wiki",
+      "attribution": "Photo by Rangan Datta Wiki, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/uttar-pradesh/shravasti/anathapindikas-stupa-jetavana-shravasti.webp",
+      "usedIn": ["shravasti-travel-guide (hero + inline — replaces a Jammu & Kashmir photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Jetavana_-_Anathapindika%27s_Stupa,_Shravasti_(9239811156).jpg",
+      "originalFile": "Jetavana - Anathapindika's Stupa, Shravasti (9239811156).jpg",
+      "license": "CC BY 2.0",
+      "author": "Photo Dharma",
+      "attribution": "Photo by Photo Dharma, CC BY 2.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/uttar-pradesh/dudhwa/swamp-deer-dudhwa-national-park.webp",
+      "usedIn": ["dudhwa-travel-guide (hero + inline — replaces a Ziro photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:DeerDudhwa_Blue.jpg",
+      "originalFile": "DeerDudhwa Blue.jpg",
+      "license": "CC BY-SA 2.0",
+      "author": "Abhishek Shastri",
+      "attribution": "Photo by Abhishek Shastri, CC BY-SA 2.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/uttar-pradesh/pilibhit/chuka-spot-forest-pilibhit-tiger-reserve.webp",
+      "usedIn": ["pilibhit-travel-guide (hero + inline — replaces a Coorg photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Chuka_Spot_,Pilibhit_Tiger_Reserve.jpg",
+      "originalFile": "Chuka Spot ,Pilibhit Tiger Reserve.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Shivansh JHO",
+      "attribution": "Photo by Shivansh JHO, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/uttar-pradesh/mirzapur/chunar-fort-mirzapur.webp",
+      "usedIn": ["mirzapur-travel-guide (hero + inline — replaces a Meghalaya photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Chunar_Fort,_Mirzapur,_Uttar_Pradesh_01.jpg",
+      "originalFile": "Chunar Fort, Mirzapur, Uttar Pradesh 01.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Paramanu Sarkar",
+      "attribution": "Photo by Paramanu Sarkar, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/uttar-pradesh/lucknow/bara-imambara-lucknow.webp",
+      "usedIn": ["lucknow-travel-guide (hero + inline — replaces a Puducherry photo used in error)"],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:View_of_Bara_Imambara,_Lucknow.jpg",
+      "originalFile": "View of Bara Imambara, Lucknow.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Slyronit",
+      "attribution": "Photo by Slyronit, CC BY-SA 4.0, via Wikimedia Commons"
     }
   ]
 }

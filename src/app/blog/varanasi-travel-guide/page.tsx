@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/rishikesh/rishikesh.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Stone ghats and boats along the Ganga at sunrise in Varanasi",
+        url: "/images/blogs/uttar-pradesh/varanasi/ganga-aarti-fire-ritual-varanasi-ghat.webp",
+        width: 1600,
+        height: 1248,
+        alt: "A priest swinging a flaming multi-tiered lamp during the evening Ganga Aarti on a Varanasi ghat",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Varanasi Travel Guide: Ganga Ghats & Ganga Aarti",
     description:
       "Kashi Vishwanath Temple, the Dashashwamedh Ghat Ganga Aarti, Manikarnika Ghat, and sunrise boat rides — the complete Varanasi guide.",
-    images: ["/images/destinations/rishikesh/rishikesh.jpg"],
+    images: ["/images/blogs/uttar-pradesh/varanasi/ganga-aarti-fire-ritual-varanasi-ghat.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/varanasi-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           description:
             "Complete Varanasi guide — Kashi Vishwanath Temple, the Dashashwamedh Ghat Ganga Aarti, Manikarnika Ghat, sunrise boat rides, Banarasi silk, and a full visit plan for one of the world's oldest cities.",
           image:
-            "https://club.kudozz.in/images/destinations/rishikesh/rishikesh.jpg",
+            "https://club.kudozz.in/images/blogs/uttar-pradesh/varanasi/ganga-aarti-fire-ritual-varanasi-ghat.webp",
           datePublished: "2026-09-02",
           dateModified: "2026-09-02",
           publisher: {
@@ -204,8 +204,8 @@ export default function VaranasiGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/rishikesh/rishikesh.jpg"
-              alt="Stone ghats and boats along the Ganga at sunrise in Varanasi"
+              src="/images/blogs/uttar-pradesh/varanasi/ganga-aarti-fire-ritual-varanasi-ghat.webp"
+              alt="A priest swinging a flaming multi-tiered lamp during the evening Ganga Aarti on a Varanasi ghat"
               fill
               priority
               sizes="100vw"
@@ -557,7 +557,7 @@ export default function VaranasiGuidePage() {
                   <h2>The Ghats & Ganga Aarti</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/rishikesh/rishikesh.jpg"
+                      src="/images/blogs/uttar-pradesh/varanasi/ganga-aarti-fire-ritual-varanasi-ghat.webp"
                       alt="Pilgrims and boats along the Ganga ghats in Varanasi at dusk"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"

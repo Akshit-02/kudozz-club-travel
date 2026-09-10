@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/puducherry/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Grand Nawabi-era domed architecture and arched gateways in Lucknow, the City of Nawabs",
+        url: "/images/blogs/uttar-pradesh/lucknow/bara-imambara-lucknow.webp",
+        width: 1600,
+        height: 900,
+        alt: "Aerial view of the Bara Imambara complex with its lawns and arched gateway in Lucknow",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Lucknow Travel Guide: Nawabi Heritage & Food",
     description:
       "Bara Imambara's Bhul Bhulaiya, Chikankari markets, and Awadhi street food — the complete guide to the City of Nawabs.",
-    images: ["/images/destinations/puducherry/hero.jpg"],
+    images: ["/images/blogs/uttar-pradesh/lucknow/bara-imambara-lucknow.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/lucknow-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Lucknow Travel Guide: Nawabi Heritage & Food",
           description:
             "Complete Lucknow travel guide — Bara Imambara and the Bhul Bhulaiya, Chota Imambara, Rumi Darwaza, the Residency, Chikankari shopping, and the city's legendary Awadhi street food.",
-          image: "https://club.kudozz.in/images/destinations/puducherry/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/uttar-pradesh/lucknow/bara-imambara-lucknow.webp",
           datePublished: "2026-09-02",
           dateModified: "2026-09-02",
           publisher: {
@@ -205,8 +205,8 @@ export default function LucknowGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/puducherry/hero.jpg"
-              alt="Grand Nawabi-era domed architecture and arched gateways in Lucknow, the City of Nawabs"
+              src="/images/blogs/uttar-pradesh/lucknow/bara-imambara-lucknow.webp"
+              alt="Aerial view of the Bara Imambara complex with its lawns and arched gateway in Lucknow"
               fill
               priority
               sizes="100vw"
@@ -561,8 +561,8 @@ export default function LucknowGuidePage() {
                   <h2>Things to Do in Lucknow</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/puducherry/hero.jpg"
-                      alt="Nawabi-era architecture and arched gateways of old Lucknow"
+                      src="/images/blogs/uttar-pradesh/lucknow/bara-imambara-lucknow.webp"
+                      alt="The Bara Imambara's grand central gateway and manicured lawns in Lucknow"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

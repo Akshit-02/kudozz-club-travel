@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/manali/hadimba-temple.jpg",
+        url: "/images/blogs/uttar-pradesh/ayodhya/ram-mandir-illuminated-gateway-ayodhya.webp",
         width: 1200,
-        height: 630,
-        alt: "Ornate temple architecture and pilgrim gathering, evocative of Ayodhya's Ram Mandir complex",
+        height: 2134,
+        alt: "The illuminated entrance gateway of the Ram Mandir temple complex in Ayodhya at dusk",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Ayodhya Travel Guide: Ram Mandir & Saryu Ghats",
     description:
       "The newly consecrated Ram Mandir, Hanuman Garhi, and the Saryu River's evening aarti — the complete Ayodhya guide.",
-    images: ["/images/destinations/manali/hadimba-temple.jpg"],
+    images: ["/images/blogs/uttar-pradesh/ayodhya/ram-mandir-illuminated-gateway-ayodhya.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/ayodhya-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           description:
             "Complete Ayodhya travel guide — the Ram Mandir, Hanuman Garhi, Kanak Bhawan, Saryu River aarti, how to reach, entry rules, where to stay, and a full visit plan.",
           image:
-            "https://club.kudozz.in/images/destinations/manali/hadimba-temple.jpg",
+            "https://club.kudozz.in/images/blogs/uttar-pradesh/ayodhya/ram-mandir-illuminated-gateway-ayodhya.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -200,8 +200,8 @@ export default function AyodhyaGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/manali/hadimba-temple.jpg"
-              alt="Ornate temple architecture and pilgrim gathering, evocative of Ayodhya's Ram Mandir complex"
+              src="/images/blogs/uttar-pradesh/ayodhya/ram-mandir-illuminated-gateway-ayodhya.webp"
+              alt="The illuminated entrance gateway of the Ram Mandir temple complex in Ayodhya at dusk"
               fill
               priority
               sizes="100vw"
@@ -550,8 +550,8 @@ export default function AyodhyaGuidePage() {
                   <h2>Temples & Ghats in Ayodhya</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/manali/hadimba-temple.jpg"
-                      alt="Elaborately carved temple towers, representative of Ayodhya's Ram Mandir architecture"
+                      src="/images/blogs/uttar-pradesh/ayodhya/ram-mandir-illuminated-gateway-ayodhya.webp"
+                      alt="Carved sandstone towers of the Ram Mandir gateway lit up in the evening at Ayodhya"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

@@ -2513,7 +2513,7 @@ export const posts = [
     title: "Mukteshwar Travel Guide: Views, Orchards & Adventure",
     excerpt:
       "A quiet Kumaon ridge town with sweeping Himalayan views, apple orchards, and a growing base for rock climbing, rappelling and paragliding.",
-    image: "/images/destinations/spiti-valley/spiti-valley.jpg",
+    image: "/images/blogs/uttarakhand/mukteshwar/himalayan-sunset-ridge-view-mukteshwar.webp",
     category: "Adventure",
     categoryColor: "bg-amber-100 text-amber-700",
     tags: ["Mukteshwar", "Uttarakhand", "Kumaon", "Himalayan Views", "Adventure Sports", "Apple Orchards"],
@@ -2525,7 +2525,7 @@ export const posts = [
     title: "Jageshwar Temple Travel Guide: History & Visit Tips",
     excerpt:
       "A cluster of roughly 124 ancient stone temples set inside a dense deodar forest near Almora, dating mostly from the 7th-14th centuries.",
-    image: "/images/destinations/manali/hadimba-temple.jpg",
+    image: "/images/blogs/uttarakhand/jageshwar/ancient-stone-temple-cluster-jageshwar.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Jageshwar", "Uttarakhand", "Kumaon", "Ancient Temples", "Jyotirlinga", "Almora", "Heritage"],
@@ -2537,7 +2537,7 @@ export const posts = [
     title: "Adi Kailash Travel Guide: Trek, Permits & Best Time",
     excerpt:
       "\"Little Kailash\" near the Nepal-Tibet border — a Shiva-associated peak, Om Parvat's snow-formed symbol, and a genuinely remote, permit-gated multi-day Himalayan journey.",
-    image: "/images/destinations/leh-ladakh/leh-ladakh.jpg",
+    image: "/images/blogs/uttarakhand/adi-kailash/adi-kailash-peak-parvati-kund-reflection.webp",
     category: "Trekking",
     categoryColor: "bg-green-100 text-green-700",
     tags: ["Adi Kailash", "Chhota Kailash", "Uttarakhand", "Om Parvat", "Pithoragarh", "High Altitude Trek", "Inner Line Permit"],
@@ -2549,7 +2549,7 @@ export const posts = [
     title: "Dayara Bugyal Trek: Route, Season & a Complete Guide",
     excerpt:
       "One of Uttarakhand's largest, most accessible high-altitude meadows — a beginner-friendly trek from Raithal or Barsu with sweeping Bandarpoonch views.",
-    image: "/images/destinations/manali/solang-valley.jpg",
+    image: "/images/blogs/uttarakhand/dayara-bugyal/alpine-meadow-himalayan-view-dayara-bugyal.webp",
     category: "Trekking",
     categoryColor: "bg-green-100 text-green-700",
     tags: ["Dayara Bugyal", "Uttarakhand", "Bugyal Trek", "Uttarkashi", "Garhwal", "Himalayan Meadow", "Winter Trek"],
@@ -2561,7 +2561,7 @@ export const posts = [
     title: "Agra Travel Guide: Taj Mahal, Fort & Fatehpur Sikri",
     excerpt:
       "Complete Agra guide — the Taj Mahal at sunrise, Agra Fort, Itmad-ud-Daulah, Mehtab Bagh, and a full day-trip plan to Fatehpur Sikri.",
-    image: "/images/destinations/udaipur/hero.jpg",
+    image: "/images/blogs/uttar-pradesh/agra/taj-mahal-reflection-river-yamuna-agra.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Agra", "Taj Mahal", "Uttar Pradesh", "Agra Fort", "Mughal Heritage", "UNESCO World Heritage", "Fatehpur Sikri"],
@@ -2573,7 +2573,7 @@ export const posts = [
     title: "Fatehpur Sikri Travel Guide: Akbar's Ghost City",
     excerpt:
       "Complete Fatehpur Sikri guide — the Buland Darwaza, Salim Chishti's dargah, Panch Mahal, and Akbar's abandoned Mughal capital near Agra.",
-    image: "/images/destinations/jaisalmer/hero.jpg",
+    image: "/images/blogs/uttar-pradesh/fatehpur-sikri/buland-darwaza-gateway-fatehpur-sikri.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Fatehpur Sikri", "Uttar Pradesh", "Buland Darwaza", "Akbar", "Mughal Architecture", "UNESCO World Heritage", "Agra Day Trip"],
@@ -2585,7 +2585,7 @@ export const posts = [
     title: "Mathura Travel Guide: Krishna Janmabhoomi & Temples",
     excerpt:
       "Complete Mathura guide to Krishna Janmabhoomi Temple, Vishram Ghat's evening aarti, Dwarkadhish Temple, and the gateway to the wider Braj region.",
-    image: "/images/destinations/manali/hadimba-temple.jpg",
+    image: "/images/blogs/uttar-pradesh/mathura/vishram-ghat-evening-yamuna-mathura.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Mathura", "Krishna Janmabhoomi", "Uttar Pradesh", "Braj Region", "Yamuna River", "Pilgrimage", "Holi"],
@@ -2597,7 +2597,7 @@ export const posts = [
     title: "Vrindavan Travel Guide: Temples & Krishna Lore",
     excerpt:
       "Banke Bihari's curtain ritual, ISKCON's Krishna Balaram Mandir, and Prem Mandir's evening light show — the complete Vrindavan temple-town guide.",
-    image: "/images/destinations/rishikesh/rishikesh.jpg",
+    image: "/images/blogs/uttar-pradesh/vrindavan/prem-mandir-illuminated-night-vrindavan.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Vrindavan", "Banke Bihari Temple", "Prem Mandir", "Uttar Pradesh", "ISKCON", "Braj Region", "Krishna Temples"],
@@ -2609,7 +2609,7 @@ export const posts = [
     title: "Govardhan Travel Guide: Hill, Parikrama & Temples",
     excerpt:
       "The sacred hill Krishna lifted to shelter Braj's villagers — the 23km Govardhan Parikrama, Radha Kund, and a quieter side of the region.",
-    image: "/images/destinations/jammu-kashmir/hero.jpg",
+    image: "/images/blogs/uttar-pradesh/govardhan/govardhan-hill-sandstone-outcrop-braj.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Govardhan", "Govardhan Parikrama", "Uttar Pradesh", "Braj Region", "Radha Kund", "Krishna Lore", "Pilgrimage"],
@@ -2621,7 +2621,7 @@ export const posts = [
     title: "Varanasi Travel Guide: Ganga Ghats & Ganga Aarti",
     excerpt:
       "Complete Varanasi guide — the Dashashwamedh Ghat Ganga Aarti, Kashi Vishwanath Temple, a sunrise boat ride, and the old city's narrow lanes.",
-    image: "/images/destinations/rishikesh/rishikesh.jpg",
+    image: "/images/blogs/uttar-pradesh/varanasi/ganga-aarti-fire-ritual-varanasi-ghat.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Varanasi", "Kashi", "Ganga Aarti", "Uttar Pradesh", "Kashi Vishwanath", "Ghats", "Pilgrimage"],
@@ -2633,7 +2633,7 @@ export const posts = [
     title: "Sarnath Travel Guide: Buddha's First Sermon Site",
     excerpt:
       "Where the Buddha gave his first sermon — the Dhamek Stupa, the Ashoka Pillar's lion capital, and Sarnath's place on the Buddhist circuit.",
-    image: "/images/destinations/spiti-valley/spiti-valley.jpg",
+    image: "/images/blogs/uttar-pradesh/sarnath/dhamek-stupa-sarnath.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Sarnath", "Buddha", "Dhamek Stupa", "Uttar Pradesh", "Buddhist Circuit", "Varanasi", "Ashoka Pillar"],
@@ -2645,7 +2645,7 @@ export const posts = [
     title: "Prayagraj Travel Guide: Triveni Sangam & Kumbh Mela",
     excerpt:
       "The sacred Ganga-Yamuna-Saraswati confluence, home to the Kumbh Mela — plus Allahabad Fort, Anand Bhavan, and Khusro Bagh.",
-    image: "/images/destinations/jammu-kashmir/dal.jpg",
+    image: "/images/blogs/uttar-pradesh/prayagraj/triveni-sangam-boats-prayagraj.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Prayagraj", "Allahabad", "Triveni Sangam", "Kumbh Mela", "Uttar Pradesh", "Pilgrimage", "Anand Bhavan"],
@@ -2657,7 +2657,7 @@ export const posts = [
     title: "Ayodhya Travel Guide: Ram Mandir & Saryu Ghats",
     excerpt:
       "The newly consecrated Ram Mandir, Hanuman Garhi, and the Saryu River's evening aarti — a complete guide to Lord Ram's birthplace.",
-    image: "/images/destinations/manali/hadimba-temple.jpg",
+    image: "/images/blogs/uttar-pradesh/ayodhya/ram-mandir-illuminated-gateway-ayodhya.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Ayodhya", "Ram Mandir", "Uttar Pradesh", "Saryu River", "Pilgrimage", "Deepotsav", "Ram Janmabhoomi"],
@@ -2669,7 +2669,7 @@ export const posts = [
     title: "Chandauli Travel Guide: Waterfalls Near Varanasi",
     excerpt:
       "Rajdari and Devdari waterfalls inside Chandraprabha Wildlife Sanctuary — an easy off-beat day trip from Varanasi's ghats and temples.",
-    image: "/images/destinations/kasol/kasol.jpg",
+    image: "/images/blogs/uttar-pradesh/chandauli/rajdari-waterfall-chandauli.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Chandauli", "Rajdari Devdari Waterfalls", "Uttar Pradesh", "Chandraprabha Wildlife Sanctuary", "Varanasi Day Trip", "Off-beat"],
@@ -2681,7 +2681,7 @@ export const posts = [
     title: "Kushinagar Travel Guide: Buddha's Final Resting Place",
     excerpt:
       "Where the Buddha attained Mahaparinirvana — the reclining Buddha statue, Ramabhar Stupa, and international monasteries from across Asia.",
-    image: "/images/destinations/leh-ladakh/leh-ladakh.jpg",
+    image: "/images/blogs/uttar-pradesh/kushinagar/ramabhar-stupa-kushinagar.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Kushinagar", "Buddha", "Mahaparinirvana", "Uttar Pradesh", "Buddhist Circuit", "Ramabhar Stupa", "Gorakhpur"],
@@ -2693,7 +2693,7 @@ export const posts = [
     title: "Shravasti Travel Guide: Jetavana Monastery Ruins",
     excerpt:
       "Where the Buddha spent the most rainy-season retreats of his life — the Jetavana Monastery ruins and a quiet stop on the Buddhist circuit.",
-    image: "/images/destinations/jammu-kashmir/hero.jpg",
+    image: "/images/blogs/uttar-pradesh/shravasti/anathapindikas-stupa-jetavana-shravasti.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Shravasti", "Buddha", "Jetavana Monastery", "Uttar Pradesh", "Buddhist Circuit", "Off-beat", "Anathapindika"],
@@ -2705,7 +2705,7 @@ export const posts = [
     title: "Dudhwa National Park: Tiger & Rhino Safari Guide",
     excerpt:
       "Complete Dudhwa National Park guide — Bengal tigers, the reintroduced one-horned rhinoceros, barasingha, safari ranges, and a full visit plan.",
-    image: "/images/destinations/ziro/hero.jpg",
+    image: "/images/blogs/uttar-pradesh/dudhwa/swamp-deer-dudhwa-national-park.webp",
     category: "Adventure",
     categoryColor: "bg-amber-100 text-amber-700",
     tags: ["Dudhwa National Park", "Tiger Reserve", "Uttar Pradesh", "One-Horned Rhino", "Terai", "Wildlife Safari", "Barasingh"],
@@ -2717,7 +2717,7 @@ export const posts = [
     title: "Pilibhit Tiger Reserve: Safari & Visit Guide",
     excerpt:
       "Dense terai forest along the Sharda river, one of India's higher tiger densities relative to area, and a quiet, largely undiscovered reserve.",
-    image: "/images/destinations/coorg/coorg.jpg",
+    image: "/images/blogs/uttar-pradesh/pilibhit/chuka-spot-forest-pilibhit-tiger-reserve.webp",
     category: "Adventure",
     categoryColor: "bg-amber-100 text-amber-700",
     tags: ["Pilibhit Tiger Reserve", "Uttar Pradesh", "Terai", "Wildlife Safari", "Sharda River", "Tiger Reserve", "Flute Making"],
@@ -2729,7 +2729,7 @@ export const posts = [
     title: "Mirzapur Travel Guide: Temples, Fort & Waterfalls",
     excerpt:
       "A Ganga-side stop between Varanasi and Prayagraj — Vindhyachal Temple's Shakti Peeth circuit, Chunar Fort, waterfalls, and India's famous carpet belt.",
-    image: "/images/destinations/meghalaya/dawki-river.jpg",
+    image: "/images/blogs/uttar-pradesh/mirzapur/chunar-fort-mirzapur.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Mirzapur", "Vindhyachal Temple", "Chunar Fort", "Uttar Pradesh", "Carpet Weaving", "Waterfalls", "Shakti Peeth"],
@@ -2741,7 +2741,7 @@ export const posts = [
     title: "Lucknow Travel Guide: Nawabi Heritage & Food",
     excerpt:
       "Complete Lucknow guide — Bara Imambara's Bhul Bhulaiya, the Residency, Chikankari shopping, and the city's legendary Awadhi street food.",
-    image: "/images/destinations/puducherry/hero.jpg",
+    image: "/images/blogs/uttar-pradesh/lucknow/bara-imambara-lucknow.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Lucknow", "Uttar Pradesh", "Bara Imambara", "Nawabi Heritage", "Chikankari", "Street Food", "Residency"],
@@ -2753,7 +2753,7 @@ export const posts = [
     title: "Kannauj Travel Guide: India's Perfume Capital",
     excerpt:
       "Known as Ittar Nagri — the deg-bhapka attar tradition, working perfume workshops, and Kannauj's deep history as Harsha's 7th-century capital.",
-    image: "/images/destinations/hampi/hero.jpg",
+    image: "/images/blogs/uttar-pradesh/kannauj/camel-skin-attar-perfume-bottles.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Kannauj", "Ittar", "Uttar Pradesh", "Perfume Capital", "Attar", "Ancient History", "Off-beat"],
@@ -2765,7 +2765,7 @@ export const posts = [
     title: "Naimisharanya Travel Guide: Sacred Forest & Temples",
     excerpt:
       "An ancient sacred forest of the Puranas — Chakra Tirtha, the Lalita Devi Shakti Peeth, and a genuinely off-the-beaten-path pilgrimage near Lucknow.",
-    image: "/images/destinations/meghalaya/hero.jpg",
+    image: "/images/blogs/uttar-pradesh/naimisharanya/chakra-tirtha-sacred-pond.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Naimisharanya", "Uttar Pradesh", "Chakra Tirtha", "Sacred Forest", "Puranas", "Pilgrimage", "Off-beat"],
@@ -2777,7 +2777,7 @@ export const posts = [
     title: "Chitrakoot Travel Guide: Ram's Forest Exile Site",
     excerpt:
       "Where Ram, Sita, and Lakshman spent part of their exile — Kamadgiri's parikrama, Ramghat's evening aarti, and a quieter Ramayana circuit.",
-    image: "/images/destinations/coorg/abbey-falls.jpg",
+    image: "/images/blogs/uttar-pradesh/chitrakoot/ramghat-mandakini-river.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Chitrakoot", "Uttar Pradesh", "Ramayana Circuit", "Kamadgiri", "Mandakini River", "Pilgrimage", "Bundelkhand"],
@@ -2789,7 +2789,7 @@ export const posts = [
     title: "Jhansi Travel Guide: Rani Lakshmibai's Fort",
     excerpt:
       "Forever tied to Rani Lakshmibai and the 1857 Revolt — the hilltop Jhansi Fort, Rani Mahal, and the gateway to Orchha and Khajuraho.",
-    image: "/images/destinations/jaisalmer/fort.jpg",
+    image: "/images/blogs/uttar-pradesh/jhansi/jhansi-fort-ramparts.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Jhansi", "Rani Lakshmibai", "Jhansi Fort", "Uttar Pradesh", "1857 Revolt", "Bundelkhand", "Orchha"],
@@ -2801,7 +2801,7 @@ export const posts = [
     title: "Agartala Travel Guide: Palaces, Sightseeing & Tips",
     excerpt:
       "A royal palace turned museum, unhurried streets a stone's throw from Bangladesh, and the practical gateway to one of India's most overlooked states — the complete Agartala guide.",
-    image: "/images/destinations/jaisalmer/hero.jpg",
+    image: "/images/blogs/tripura/agartala/agartala-town-hall.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Agartala", "Tripura", "Ujjayanta Palace", "Northeast India"],
@@ -2813,7 +2813,7 @@ export const posts = [
     title: "Ujjayanta Palace Guide: History, Timings & Tips",
     excerpt:
       "Domed roofs rising over Mughal-style gardens and twin ornamental lakes — the former seat of the Tripura kings, now the state's finest museum.",
-    image: "/images/destinations/udaipur/saheliyon.jpg",
+    image: "/images/blogs/tripura/ujjayanta-palace/ujjayanta-palace-facade.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Ujjayanta Palace", "Agartala", "Tripura", "Heritage"],
@@ -2825,7 +2825,7 @@ export const posts = [
     title: "Udaipur Tripura Travel Guide: Lakes & Old Capital",
     excerpt:
       "Not the Rajasthan lake city — Tripura's own Udaipur was the old Manikya capital, ringed by sacred lakes and home to one of Hinduism's 51 Shakti Peethas.",
-    image: "/images/destinations/hampi/hero.jpg",
+    image: "/images/blogs/tripura/udaipur/udaipur-railway-station.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Udaipur Tripura", "Tripura Sundari Temple", "Tripura", "Heritage"],
@@ -2837,7 +2837,7 @@ export const posts = [
     title: "Tripura Sundari Temple Guide: Matabari Shakti Peeth",
     excerpt:
       "A tortoise-shaped temple beside a sacred lake full of hand-fed fish — one of Hinduism's 51 Shakti Peethas, and Udaipur's spiritual heart.",
-    image: "/images/destinations/manali/hadimba-temple.jpg",
+    image: "/images/blogs/tripura/tripura-sundari-temple/tripura-sundari-temple-facade.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Tripura Sundari Temple", "Matabari", "Shakti Peeth", "Udaipur Tripura"],
@@ -2849,7 +2849,7 @@ export const posts = [
     title: "Unakoti Travel Guide: Rock Carvings & How to Reach",
     excerpt:
       "One of Northeast India's most significant archaeological sites — a forested hillside covered in thousand-year-old rock-cut carvings, centred on a giant thirty-foot face of Shiva.",
-    image: "/images/destinations/meghalaya/hero.jpg",
+    image: "/images/blogs/tripura/unakoti/rock-cut-carvings-unakoti.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Unakoti", "Kailashahar", "Tripura", "Rock Carvings"],
@@ -2861,7 +2861,7 @@ export const posts = [
     title: "Jampui Hills Travel Guide: Orange Orchards & Tips",
     excerpt:
       "Tripura's highest hill range, ridgelines lined with orange orchards, and mornings where the hills seem to float above a sea of clouds — the state's best hill escape.",
-    image: "/images/destinations/manali/solang-valley.jpg",
+    image: "/images/blogs/tripura/jampui-hills/misty-hill-valley-view.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Jampui Hills", "North Tripura", "Off-beat", "Hill Station"],

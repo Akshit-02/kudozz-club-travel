@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/meghalaya/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Sacred forest and riverside pilgrimage setting at Naimisharanya, Uttar Pradesh",
+        url: "/images/blogs/uttar-pradesh/naimisharanya/chakra-tirtha-sacred-pond.webp",
+        width: 1600,
+        height: 1195,
+        alt: "Pilgrims bathing at the circular Chakra Tirtha sacred pond in Naimisharanya, Uttar Pradesh",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Naimisharanya Travel Guide: Sacred Forest & Temples",
     description:
       "The ancient sacred forest of the Puranas — Chakra Tirtha, Lalita Devi Temple, and a quiet pilgrimage circuit near Lucknow.",
-    images: ["/images/destinations/meghalaya/hero.jpg"],
+    images: ["/images/blogs/uttar-pradesh/naimisharanya/chakra-tirtha-sacred-pond.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/naimisharanya-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           description:
             "Complete Naimisharanya (Naimisaranya) guide — the sacred forest of the Puranas, Chakra Tirtha, Lalita Devi Shakti Peeth temple, Vyas Gaddi, Hanuman Garhi, how to reach, and a full visit plan.",
           image:
-            "https://club.kudozz.in/images/destinations/meghalaya/hero.jpg",
+            "https://club.kudozz.in/images/blogs/uttar-pradesh/naimisharanya/chakra-tirtha-sacred-pond.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -200,8 +200,8 @@ export default function NaimisharanyaGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/meghalaya/hero.jpg"
-              alt="Sacred forest and riverside pilgrimage setting at Naimisharanya, Uttar Pradesh"
+              src="/images/blogs/uttar-pradesh/naimisharanya/chakra-tirtha-sacred-pond.webp"
+              alt="Pilgrims bathing at the circular Chakra Tirtha sacred pond in Naimisharanya, Uttar Pradesh"
               fill
               priority
               sizes="100vw"
@@ -530,8 +530,8 @@ export default function NaimisharanyaGuidePage() {
                   <h2>Sacred Sites & Temples</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/meghalaya/hero.jpg"
-                      alt="Pilgrimage grounds and forest setting at Naimisharanya"
+                      src="/images/blogs/uttar-pradesh/naimisharanya/chakra-tirtha-sacred-pond.webp"
+                      alt="The circular ghats of Chakra Tirtha, the sacred pond at Naimisharanya"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

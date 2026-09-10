@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/leh-ladakh/leh-ladakh.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Remote high-altitude Himalayan peak landscape near Adi Kailash, Pithoragarh",
+        url: "/images/blogs/uttarakhand/adi-kailash/adi-kailash-peak-parvati-kund-reflection.webp",
+        width: 1600,
+        height: 1068,
+        alt: "Snow-capped Adi Kailash peak reflected in the glacial waters of Parvati Kund, Pithoragarh",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Adi Kailash Travel Guide: Trek, Permits & Best Time",
     description:
       "'Little Kailash' near the Nepal-Tibet border — Om Parvat, Parvati Tal, and a genuinely remote multi-day Himalayan journey. The complete Adi Kailash guide.",
-    images: ["/images/destinations/leh-ladakh/leh-ladakh.jpg"],
+    images: ["/images/blogs/uttarakhand/adi-kailash/adi-kailash-peak-parvati-kund-reflection.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/adi-kailash-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Adi Kailash Travel Guide: Trek, Permits & Best Time",
           description:
             "Complete Adi Kailash (Chhota Kailash) guide — the Om Parvat and Parvati Tal trek near the Nepal-Tibet border, Inner Line Permits, how to reach via Dharchula, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/leh-ladakh/leh-ladakh.jpg",
+          image: "https://club.kudozz.in/images/blogs/uttarakhand/adi-kailash/adi-kailash-peak-parvati-kund-reflection.webp",
           datePublished: "2026-09-02",
           dateModified: "2026-09-02",
           publisher: {
@@ -199,8 +199,8 @@ export default function AdiKailashGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/leh-ladakh/leh-ladakh.jpg"
-              alt="Remote high-altitude Himalayan peak landscape near Adi Kailash, Pithoragarh"
+              src="/images/blogs/uttarakhand/adi-kailash/adi-kailash-peak-parvati-kund-reflection.webp"
+              alt="Snow-capped Adi Kailash peak reflected in the glacial waters of Parvati Kund, Pithoragarh"
               fill
               priority
               sizes="100vw"
@@ -549,7 +549,7 @@ export default function AdiKailashGuidePage() {
                   <h2>The Trek & Key Sites</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/leh-ladakh/leh-ladakh.jpg"
+                      src="/images/blogs/uttarakhand/adi-kailash/adi-kailash-peak-parvati-kund-reflection.webp"
                       alt="High-altitude Himalayan terrain near Adi Kailash and Om Parvat, Pithoragarh"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"

@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jaisalmer/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Golden-hour city skyline with fort-like silhouettes, evoking Agartala's royal heritage character",
+        url: "/images/blogs/tripura/agartala/agartala-town-hall.webp",
+        width: 1600,
+        height: 898,
+        alt: "Agartala Town Hall, a colonial-era civic landmark in Tripura's capital city",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Agartala Travel Guide: Palaces, Sightseeing & Tips",
     description:
       "Tripura's unhurried capital and the practical gateway to the whole state — the complete Agartala guide.",
-    images: ["/images/destinations/jaisalmer/hero.jpg"],
+    images: ["/images/blogs/tripura/agartala/agartala-town-hall.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/agartala-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Agartala Travel Guide: Palaces, Sightseeing & Tips",
           description:
             "Complete Agartala travel guide — Ujjayanta Palace, Heritage Park, Laxmi Narayan Bari, how to reach Tripura's capital, a 2-day city itinerary, where to stay and eat, day trips, and essential tips.",
-          image: "https://club.kudozz.in/images/destinations/jaisalmer/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/tripura/agartala/agartala-town-hall.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -199,8 +199,8 @@ export default function AgartalaGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jaisalmer/hero.jpg"
-              alt="Golden-hour city skyline with fort-like silhouettes, evoking Agartala's royal heritage character"
+              src="/images/blogs/tripura/agartala/agartala-town-hall.webp"
+              alt="Agartala Town Hall, a colonial-era civic landmark in Tripura's capital city"
               fill
               priority
               sizes="100vw"
@@ -526,8 +526,8 @@ export default function AgartalaGuidePage() {
                   <h2>Palaces & City Sights</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/jaisalmer/hero.jpg"
-                      alt="Heritage architecture at golden hour, evoking Agartala's palace district"
+                      src="/images/blogs/tripura/agartala/agartala-town-hall.webp"
+                      alt="Facade of Agartala Town Hall in the city centre"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

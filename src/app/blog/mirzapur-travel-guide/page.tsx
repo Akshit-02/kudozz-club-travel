@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/meghalaya/dawki-river.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Vindhya hills and cascading waterfall near Mirzapur, Uttar Pradesh",
+        url: "/images/blogs/uttar-pradesh/mirzapur/chunar-fort-mirzapur.webp",
+        width: 1600,
+        height: 900,
+        alt: "Red sandstone arched cloisters of Chunar Fort near Mirzapur, Uttar Pradesh",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Mirzapur Travel Guide: Temples, Fort & Waterfalls",
     description:
       "Vindhyachal Temple, Chunar Fort, Vindhya hill waterfalls, and the famous carpet-weaving belt — the complete Mirzapur guide.",
-    images: ["/images/destinations/meghalaya/dawki-river.jpg"],
+    images: ["/images/blogs/uttar-pradesh/mirzapur/chunar-fort-mirzapur.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/mirzapur-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           description:
             "Complete Mirzapur guide — Vindhyachal Temple's Shakti Peeth circuit, Chunar Fort's layered history, Sirsi and Wyndham Falls, the famous carpet-weaving belt, and how to reach from Varanasi.",
           image:
-            "https://club.kudozz.in/images/destinations/meghalaya/dawki-river.jpg",
+            "https://club.kudozz.in/images/blogs/uttar-pradesh/mirzapur/chunar-fort-mirzapur.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -200,8 +200,8 @@ export default function MirzapurGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/meghalaya/dawki-river.jpg"
-              alt="Vindhya hills and cascading waterfall near Mirzapur, Uttar Pradesh"
+              src="/images/blogs/uttar-pradesh/mirzapur/chunar-fort-mirzapur.webp"
+              alt="Red sandstone arched cloisters of Chunar Fort near Mirzapur, Uttar Pradesh"
               fill
               priority
               sizes="100vw"
@@ -531,8 +531,8 @@ export default function MirzapurGuidePage() {
                   <h2>Temples, Fort & Waterfalls</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/meghalaya/dawki-river.jpg"
-                      alt="Waterfall cascading through the Vindhya hills near Mirzapur"
+                      src="/images/blogs/uttar-pradesh/mirzapur/chunar-fort-mirzapur.webp"
+                      alt="Carved sandstone archways inside the historic Chunar Fort near Mirzapur"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

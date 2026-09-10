@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/coorg/abbey-falls.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Forested hills and riverside setting at Chitrakoot on the Uttar Pradesh-Madhya Pradesh border",
+        url: "/images/blogs/uttar-pradesh/chitrakoot/ramghat-mandakini-river.webp",
+        width: 1600,
+        height: 900,
+        alt: "Ramghat and its riverside temples on the Mandakini River in Chitrakoot, Uttar Pradesh",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Chitrakoot Travel Guide: Ram's Forest Exile Site",
     description:
       "Kamadgiri, Ramghat on the Mandakini, Hanuman Dhara, and Gupt Godavari — the complete guide to this Ramayana-circuit town.",
-    images: ["/images/destinations/coorg/abbey-falls.jpg"],
+    images: ["/images/blogs/uttar-pradesh/chitrakoot/ramghat-mandakini-river.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/chitrakoot-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           description:
             "Complete Chitrakoot guide — Kamadgiri parikrama, Ramghat on the Mandakini river, Hanuman Dhara, Gupt Godavari, Sati Anasuya Ashram, how to reach, and a full visit plan for this Ramayana circuit town.",
           image:
-            "https://club.kudozz.in/images/destinations/coorg/abbey-falls.jpg",
+            "https://club.kudozz.in/images/blogs/uttar-pradesh/chitrakoot/ramghat-mandakini-river.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -200,8 +200,8 @@ export default function ChitrakootGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/coorg/abbey-falls.jpg"
-              alt="Forested hills and riverside setting at Chitrakoot on the Uttar Pradesh-Madhya Pradesh border"
+              src="/images/blogs/uttar-pradesh/chitrakoot/ramghat-mandakini-river.webp"
+              alt="Ramghat and its riverside temples on the Mandakini River in Chitrakoot, Uttar Pradesh"
               fill
               priority
               sizes="100vw"
@@ -532,8 +532,8 @@ export default function ChitrakootGuidePage() {
                   <h2>Sacred Sites of the Ramayana Circuit</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/coorg/abbey-falls.jpg"
-                      alt="Riverside ghats and forested hills around Chitrakoot's sacred sites"
+                      src="/images/blogs/uttar-pradesh/chitrakoot/ramghat-mandakini-river.webp"
+                      alt="Pilgrims and boats along Ramghat on the Mandakini River, Chitrakoot"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

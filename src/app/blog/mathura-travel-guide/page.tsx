@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/manali/hadimba-temple.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Ornately carved temple spires against a dusk sky, evocative of Mathura's Krishna Janmabhoomi temple complex",
+        url: "/images/blogs/uttar-pradesh/mathura/vishram-ghat-evening-yamuna-mathura.webp",
+        width: 1600,
+        height: 1066,
+        alt: "Boats and temple spires along Vishram Ghat on the Yamuna at dusk, Mathura",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Mathura Travel Guide: Krishna Janmabhoomi & Temples",
     description:
       "Krishna Janmabhoomi, Vishram Ghat's evening aarti, and Dwarkadhish Temple — the complete Mathura guide.",
-    images: ["/images/destinations/manali/hadimba-temple.jpg"],
+    images: ["/images/blogs/uttar-pradesh/mathura/vishram-ghat-evening-yamuna-mathura.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/mathura-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           description:
             "Complete Mathura travel guide — Krishna Janmabhoomi Temple, Vishram Ghat aarti, Dwarkadhish Temple, Mathura Museum, how to reach, where to stay, and a full visit plan for the Braj region.",
           image:
-            "https://club.kudozz.in/images/destinations/manali/hadimba-temple.jpg",
+            "https://club.kudozz.in/images/blogs/uttar-pradesh/mathura/vishram-ghat-evening-yamuna-mathura.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -200,8 +200,8 @@ export default function MathuraGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/manali/hadimba-temple.jpg"
-              alt="Ornately carved temple spires against a dusk sky, evocative of Mathura's Krishna Janmabhoomi temple complex"
+              src="/images/blogs/uttar-pradesh/mathura/vishram-ghat-evening-yamuna-mathura.webp"
+              alt="Boats and temple spires along Vishram Ghat on the Yamuna at dusk, Mathura"
               fill
               priority
               sizes="100vw"
@@ -554,7 +554,7 @@ export default function MathuraGuidePage() {
                   <h2>Temples & Attractions in Mathura</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/manali/hadimba-temple.jpg"
+                      src="/images/blogs/uttar-pradesh/mathura/vishram-ghat-evening-yamuna-mathura.webp"
                       alt="Temple spires and pilgrims near a riverside ghat, representative of Mathura's temple town atmosphere"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"

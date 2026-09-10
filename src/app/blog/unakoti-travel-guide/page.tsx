@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/meghalaya/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Forested hillside landscape, evoking Unakoti's rock-cut carvings hidden among the trees in North Tripura",
+        url: "/images/blogs/tripura/unakoti/rock-cut-carvings-unakoti.webp",
+        width: 1600,
+        height: 1067,
+        alt: "Ancient rock-cut relief carvings of deities on the forested hillside at Unakoti, Tripura",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Unakoti Travel Guide: Rock Carvings & How to Reach",
     description:
       "A giant carved face of Shiva and a hillside of thousand-year-old rock art — the complete guide to Unakoti.",
-    images: ["/images/destinations/meghalaya/hero.jpg"],
+    images: ["/images/blogs/tripura/unakoti/rock-cut-carvings-unakoti.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/unakoti-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Unakoti Travel Guide: Rock Carvings & How to Reach",
           description:
             "Complete Unakoti guide — the giant Unakotishwara Kal Bhairava carving, ancient rock-cut deities on a forested hillside, the Ashokashtami Mela, how to reach from Agartala, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/meghalaya/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/tripura/unakoti/rock-cut-carvings-unakoti.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -199,8 +199,8 @@ export default function UnakotiGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/meghalaya/hero.jpg"
-              alt="Forested hillside landscape, evoking Unakoti's rock-cut carvings hidden among the trees in North Tripura"
+              src="/images/blogs/tripura/unakoti/rock-cut-carvings-unakoti.webp"
+              alt="Ancient rock-cut relief carvings of deities on the forested hillside at Unakoti, Tripura"
               fill
               priority
               sizes="100vw"
@@ -533,8 +533,8 @@ export default function UnakotiGuidePage() {
                   <h2>The Carvings & the Trail</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/meghalaya/hero.jpg"
-                      alt="Forested hillside at Unakoti, North Tripura"
+                      src="/images/blogs/tripura/unakoti/rock-cut-carvings-unakoti.webp"
+                      alt="Moss-covered rock-cut carvings and a waterfall at the Unakoti archaeological site"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

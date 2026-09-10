@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jaisalmer/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Red sandstone Mughal gateway and courtyards of Fatehpur Sikri",
+        url: "/images/blogs/uttar-pradesh/fatehpur-sikri/buland-darwaza-gateway-fatehpur-sikri.webp",
+        width: 1600,
+        height: 1381,
+        alt: "The towering red-sandstone Buland Darwaza gateway of Fatehpur Sikri, seen head-on from its stairway",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Fatehpur Sikri Travel Guide: Akbar's Ghost City",
     description:
       "The Buland Darwaza, Salim Chishti's dargah, and Akbar's abandoned red-sandstone capital — the complete Fatehpur Sikri guide.",
-    images: ["/images/destinations/jaisalmer/hero.jpg"],
+    images: ["/images/blogs/uttar-pradesh/fatehpur-sikri/buland-darwaza-gateway-fatehpur-sikri.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/fatehpur-sikri-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Fatehpur Sikri Travel Guide: Akbar's Ghost City",
           description:
             "Complete Fatehpur Sikri guide — Buland Darwaza, the dargah of Salim Chishti, Panch Mahal, Jodha Bai's Palace, why Akbar's capital was abandoned, and how to visit as a day trip from Agra.",
-          image: "https://club.kudozz.in/images/destinations/jaisalmer/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/uttar-pradesh/fatehpur-sikri/buland-darwaza-gateway-fatehpur-sikri.webp",
           datePublished: "2026-09-02",
           dateModified: "2026-09-02",
           publisher: {
@@ -199,8 +199,8 @@ export default function FatehpurSikriGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jaisalmer/hero.jpg"
-              alt="Red sandstone Mughal gateway and courtyards of Fatehpur Sikri"
+              src="/images/blogs/uttar-pradesh/fatehpur-sikri/buland-darwaza-gateway-fatehpur-sikri.webp"
+              alt="The towering red-sandstone Buland Darwaza gateway of Fatehpur Sikri, seen head-on from its stairway"
               fill
               priority
               sizes="100vw"
@@ -538,7 +538,7 @@ export default function FatehpurSikriGuidePage() {
                   <h2>Top Attractions in Fatehpur Sikri</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/jaisalmer/hero.jpg"
+                      src="/images/blogs/uttar-pradesh/fatehpur-sikri/buland-darwaza-gateway-fatehpur-sikri.webp"
                       alt="Buland Darwaza gateway at Fatehpur Sikri, Uttar Pradesh"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"

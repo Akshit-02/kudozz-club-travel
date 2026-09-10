@@ -23,9 +23,9 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/manali/hadimba-temple.jpg",
-        width: 1200,
-        height: 630,
+        url: "/images/blogs/uttarakhand/jageshwar/ancient-stone-temple-cluster-jageshwar.webp",
+        width: 1400,
+        height: 1050,
         alt: "Ancient stone temple cluster of Jageshwar set inside a dense deodar forest",
       },
     ],
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Jageshwar Temple Travel Guide: History & Visit Tips",
     description:
       "Roughly 124 ancient stone temples set in a dense deodar forest near Almora — the complete Jageshwar visit guide.",
-    images: ["/images/destinations/manali/hadimba-temple.jpg"],
+    images: ["/images/blogs/uttarakhand/jageshwar/ancient-stone-temple-cluster-jageshwar.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/jageshwar-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           description:
             "Complete Jageshwar guide — the cluster of roughly 124 ancient stone temples in a deodar forest, Dandeshwar & Kuber temples, Vriddha Jageshwar, how to reach, where to stay, and a full visit plan.",
           image:
-            "https://club.kudozz.in/images/destinations/manali/hadimba-temple.jpg",
+            "https://club.kudozz.in/images/blogs/uttarakhand/jageshwar/ancient-stone-temple-cluster-jageshwar.webp",
           datePublished: "2026-09-02",
           dateModified: "2026-09-02",
           publisher: {
@@ -200,7 +200,7 @@ export default function JageshwarGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/manali/hadimba-temple.jpg"
+              src="/images/blogs/uttarakhand/jageshwar/ancient-stone-temple-cluster-jageshwar.webp"
               alt="Ancient stone temple cluster of Jageshwar set inside a dense deodar forest"
               fill
               priority
@@ -537,7 +537,7 @@ export default function JageshwarGuidePage() {
                   <h2>The Temples & Complex</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/manali/hadimba-temple.jpg"
+                      src="/images/blogs/uttarakhand/jageshwar/ancient-stone-temple-cluster-jageshwar.webp"
                       alt="Stone temple spires at Jageshwar surrounded by deodar trees"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"

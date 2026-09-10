@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/udaipur/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "White marble domes and minarets of the Taj Mahal glowing at sunrise, Agra",
+        url: "/images/blogs/uttar-pradesh/agra/taj-mahal-reflection-river-yamuna-agra.webp",
+        width: 1600,
+        height: 1060,
+        alt: "The white marble Taj Mahal and its flanking red-sandstone buildings mirrored in the still water of the Yamuna, Agra",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Agra Travel Guide: Taj Mahal, Fort & Fatehpur Sikri",
     description:
       "Sunrise at the Taj, the red-sandstone Agra Fort, and a day trip to Fatehpur Sikri — the complete Agra guide.",
-    images: ["/images/destinations/udaipur/hero.jpg"],
+    images: ["/images/blogs/uttar-pradesh/agra/taj-mahal-reflection-river-yamuna-agra.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/agra-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Agra Travel Guide: Taj Mahal, Fort & Fatehpur Sikri",
           description:
             "Complete Agra guide — Taj Mahal sunrise strategy and ticket tiers, Agra Fort, Itmad-ud-Daulah, Mehtab Bagh, marble-inlay shopping, how to reach from Delhi, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/udaipur/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/uttar-pradesh/agra/taj-mahal-reflection-river-yamuna-agra.webp",
           datePublished: "2026-09-02",
           dateModified: "2026-09-02",
           publisher: {
@@ -199,8 +199,8 @@ export default function AgraGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/udaipur/hero.jpg"
-              alt="White marble domes and minarets of the Taj Mahal glowing at sunrise, Agra"
+              src="/images/blogs/uttar-pradesh/agra/taj-mahal-reflection-river-yamuna-agra.webp"
+              alt="The white marble Taj Mahal and its flanking red-sandstone buildings mirrored in the still water of the Yamuna, Agra"
               fill
               priority
               sizes="100vw"
@@ -555,7 +555,7 @@ export default function AgraGuidePage() {
                   <h2>Top Attractions in Agra</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/udaipur/hero.jpg"
+                      src="/images/blogs/uttar-pradesh/agra/taj-mahal-reflection-river-yamuna-agra.webp"
                       alt="The Taj Mahal's central dome and reflecting pool, Agra"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"

@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jammu-kashmir/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Quiet archaeological monastery grounds at Shravasti, site of the ancient Jetavana Monastery",
+        url: "/images/blogs/uttar-pradesh/shravasti/anathapindikas-stupa-jetavana-shravasti.webp",
+        width: 1600,
+        height: 900,
+        alt: "The ancient brick ruins of Anathapindika's Stupa at the Jetavana Monastery site in Shravasti",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Shravasti Travel Guide: Jetavana Monastery Ruins",
     description:
       "The Jetavana Monastery ruins, the Anandabodhi Tree, and one of the quietest, least-crowded stops on India's Buddhist circuit.",
-    images: ["/images/destinations/jammu-kashmir/hero.jpg"],
+    images: ["/images/blogs/uttar-pradesh/shravasti/anathapindikas-stupa-jetavana-shravasti.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/shravasti-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           description:
             "Complete Shravasti guide — the Jetavana Monastery ruins, Anandabodhi Tree, Angulimala Stupa, how to reach this quiet Buddhist site, where to stay, and a full visit plan.",
           image:
-            "https://club.kudozz.in/images/destinations/jammu-kashmir/hero.jpg",
+            "https://club.kudozz.in/images/blogs/uttar-pradesh/shravasti/anathapindikas-stupa-jetavana-shravasti.webp",
           datePublished: "2026-09-02",
           dateModified: "2026-09-02",
           publisher: {
@@ -200,8 +200,8 @@ export default function ShravastiGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jammu-kashmir/hero.jpg"
-              alt="Quiet archaeological monastery grounds at Shravasti, site of the ancient Jetavana Monastery"
+              src="/images/blogs/uttar-pradesh/shravasti/anathapindikas-stupa-jetavana-shravasti.webp"
+              alt="The ancient brick ruins of Anathapindika's Stupa at the Jetavana Monastery site in Shravasti"
               fill
               priority
               sizes="100vw"
@@ -550,8 +550,8 @@ export default function ShravastiGuidePage() {
                   <h2>The Sacred Sites</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/jammu-kashmir/hero.jpg"
-                      alt="Brick ruins and monastery grounds at the Jetavana site, Shravasti"
+                      src="/images/blogs/uttar-pradesh/shravasti/anathapindikas-stupa-jetavana-shravasti.webp"
+                      alt="Visitors atop the weathered brick mound of Anathapindika's Stupa at Jetavana, Shravasti"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

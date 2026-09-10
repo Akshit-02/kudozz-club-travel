@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/udaipur/saheliyon.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Landscaped palace garden with fountains, evoking Ujjayanta Palace's Mughal-style grounds",
+        url: "/images/blogs/tripura/ujjayanta-palace/ujjayanta-palace-facade.webp",
+        width: 1600,
+        height: 1067,
+        alt: "White colonnaded facade of Ujjayanta Palace, the former royal residence in Agartala",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Ujjayanta Palace Guide: History, Timings & Tips",
     description:
       "A royal residence turned state museum, framed by Mughal-style gardens — the complete guide to Agartala's grandest landmark.",
-    images: ["/images/destinations/udaipur/saheliyon.jpg"],
+    images: ["/images/blogs/tripura/ujjayanta-palace/ujjayanta-palace-facade.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/ujjayanta-palace-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           description:
             "Complete Ujjayanta Palace guide — history of the Manikya royal residence, Mughal-style gardens, the Tripura State Museum galleries, timings, entry fees, photography rules, and how to visit.",
           image:
-            "https://club.kudozz.in/images/destinations/udaipur/saheliyon.jpg",
+            "https://club.kudozz.in/images/blogs/tripura/ujjayanta-palace/ujjayanta-palace-facade.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -201,8 +201,8 @@ export default function UjjayantaPalaceGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/udaipur/saheliyon.jpg"
-              alt="Landscaped palace garden with fountains, evoking Ujjayanta Palace's Mughal-style grounds"
+              src="/images/blogs/tripura/ujjayanta-palace/ujjayanta-palace-facade.webp"
+              alt="White colonnaded facade of Ujjayanta Palace, the former royal residence in Agartala"
               fill
               priority
               sizes="100vw"
@@ -513,8 +513,8 @@ export default function UjjayantaPalaceGuidePage() {
                   <h2>History, Architecture & Galleries</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/udaipur/saheliyon.jpg"
-                      alt="Ornamental garden with fountains at a royal palace"
+                      src="/images/blogs/tripura/ujjayanta-palace/ujjayanta-palace-facade.webp"
+                      alt="Arched colonnades and domed towers of Ujjayanta Palace's right wing"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

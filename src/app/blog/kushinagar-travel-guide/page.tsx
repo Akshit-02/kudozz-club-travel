@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/leh-ladakh/leh-ladakh.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Quiet monastic grounds and stupa spires at Kushinagar, the site of Buddha's Mahaparinirvana",
+        url: "/images/blogs/uttar-pradesh/kushinagar/ramabhar-stupa-kushinagar.webp",
+        width: 1600,
+        height: 734,
+        alt: "The brick dome of Ramabhar Stupa amid palm trees at Kushinagar, the site of Buddha's Mahaparinirvana",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Kushinagar Travel Guide: Buddha's Final Resting Place",
     description:
       "Mahaparinirvana Temple, Ramabhar Stupa, and a cluster of international Buddhist monasteries — the complete Kushinagar guide.",
-    images: ["/images/destinations/leh-ladakh/leh-ladakh.jpg"],
+    images: ["/images/blogs/uttar-pradesh/kushinagar/ramabhar-stupa-kushinagar.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/kushinagar-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           description:
             "Complete Kushinagar guide — Mahaparinirvana Temple, Ramabhar Stupa, international Buddhist monasteries, how to reach, where to stay, and a full pilgrimage visit plan.",
           image:
-            "https://club.kudozz.in/images/destinations/leh-ladakh/leh-ladakh.jpg",
+            "https://club.kudozz.in/images/blogs/uttar-pradesh/kushinagar/ramabhar-stupa-kushinagar.webp",
           datePublished: "2026-09-02",
           dateModified: "2026-09-02",
           publisher: {
@@ -200,8 +200,8 @@ export default function KushinagarGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/leh-ladakh/leh-ladakh.jpg"
-              alt="Quiet monastic grounds and stupa spires at Kushinagar, the site of Buddha's Mahaparinirvana"
+              src="/images/blogs/uttar-pradesh/kushinagar/ramabhar-stupa-kushinagar.webp"
+              alt="The brick dome of Ramabhar Stupa amid palm trees at Kushinagar, the site of Buddha's Mahaparinirvana"
               fill
               priority
               sizes="100vw"
@@ -551,8 +551,8 @@ export default function KushinagarGuidePage() {
                   <h2>The Sacred Sites</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/leh-ladakh/leh-ladakh.jpg"
-                      alt="Monastery courtyard and stupa at Kushinagar"
+                      src="/images/blogs/uttar-pradesh/kushinagar/ramabhar-stupa-kushinagar.webp"
+                      alt="Ruins of ancient brick shrines around the base of the Ramabhar Stupa in Kushinagar"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

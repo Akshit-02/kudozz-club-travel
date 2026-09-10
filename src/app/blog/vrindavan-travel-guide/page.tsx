@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/rishikesh/rishikesh.jpg",
-        width: 1200,
-        height: 630,
-        alt: "A riverside town at dusk with temple ghats, evocative of Vrindavan's sacred Yamuna riverfront",
+        url: "/images/blogs/uttar-pradesh/vrindavan/prem-mandir-illuminated-night-vrindavan.webp",
+        width: 1600,
+        height: 1200,
+        alt: "Prem Mandir in Vrindavan illuminated pink and turquoise at night",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Vrindavan Travel Guide: Temples & Krishna Lore",
     description:
       "Banke Bihari's curtain ritual, ISKCON's Krishna Balaram Mandir, and Prem Mandir's evening light show — the complete Vrindavan guide.",
-    images: ["/images/destinations/rishikesh/rishikesh.jpg"],
+    images: ["/images/blogs/uttar-pradesh/vrindavan/prem-mandir-illuminated-night-vrindavan.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/vrindavan-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           description:
             "Complete Vrindavan travel guide — Banke Bihari Temple, ISKCON Krishna Balaram Mandir, Prem Mandir's light show, Nidhivan, how to reach from Mathura, where to stay, and a full visit plan.",
           image:
-            "https://club.kudozz.in/images/destinations/rishikesh/rishikesh.jpg",
+            "https://club.kudozz.in/images/blogs/uttar-pradesh/vrindavan/prem-mandir-illuminated-night-vrindavan.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -200,8 +200,8 @@ export default function VrindavanGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/rishikesh/rishikesh.jpg"
-              alt="A riverside town at dusk with temple ghats, evocative of Vrindavan's sacred Yamuna riverfront"
+              src="/images/blogs/uttar-pradesh/vrindavan/prem-mandir-illuminated-night-vrindavan.webp"
+              alt="Prem Mandir in Vrindavan illuminated pink and turquoise at night"
               fill
               priority
               sizes="100vw"
@@ -547,8 +547,8 @@ export default function VrindavanGuidePage() {
                   <h2>Temples & Sacred Sites in Vrindavan</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/rishikesh/rishikesh.jpg"
-                      alt="Riverside temple town scenery representative of Vrindavan's ghats and shrines along the Yamuna"
+                      src="/images/blogs/uttar-pradesh/vrindavan/prem-mandir-illuminated-night-vrindavan.webp"
+                      alt="Prem Mandir in Vrindavan lit up pink and turquoise in the evening"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

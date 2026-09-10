@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/spiti-valley/spiti-valley.jpg",
-        width: 1200,
-        height: 630,
-        alt: "High-ridge Himalayan viewpoint over Mukteshwar's orchards and hills",
+        url: "/images/blogs/uttarakhand/mukteshwar/himalayan-sunset-ridge-view-mukteshwar.webp",
+        width: 1600,
+        height: 1200,
+        alt: "Sunset over layered Himalayan ridgelines seen from a rocky viewpoint near Mukteshwar",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Mukteshwar Travel Guide: Views, Orchards & Adventure",
     description:
       "Sweeping Himalayan views, apple orchards, and Kumaon's growing adventure sports hub — the complete Mukteshwar guide.",
-    images: ["/images/destinations/spiti-valley/spiti-valley.jpg"],
+    images: ["/images/blogs/uttarakhand/mukteshwar/himalayan-sunset-ridge-view-mukteshwar.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/mukteshwar-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           description:
             "Complete Mukteshwar guide — Mukteshwar Dham temple, Chauli Ki Jali cliffside viewpoint, apple orchards, rock climbing & paragliding, how to reach, where to stay, and a full visit plan.",
           image:
-            "https://club.kudozz.in/images/destinations/spiti-valley/spiti-valley.jpg",
+            "https://club.kudozz.in/images/blogs/uttarakhand/mukteshwar/himalayan-sunset-ridge-view-mukteshwar.webp",
           datePublished: "2026-09-02",
           dateModified: "2026-09-02",
           publisher: {
@@ -200,8 +200,8 @@ export default function MukteshwarGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/spiti-valley/spiti-valley.jpg"
-              alt="High-ridge Himalayan viewpoint over Mukteshwar's orchards and hills"
+              src="/images/blogs/uttarakhand/mukteshwar/himalayan-sunset-ridge-view-mukteshwar.webp"
+              alt="Sunset over layered Himalayan ridgelines seen from a rocky viewpoint near Mukteshwar"
               fill
               priority
               sizes="100vw"
@@ -532,7 +532,7 @@ export default function MukteshwarGuidePage() {
                   <h2>Things to Do in Mukteshwar</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/spiti-valley/spiti-valley.jpg"
+                      src="/images/blogs/uttarakhand/mukteshwar/himalayan-sunset-ridge-view-mukteshwar.webp"
                       alt="Sweeping Himalayan ridge view near Mukteshwar, Kumaon"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"

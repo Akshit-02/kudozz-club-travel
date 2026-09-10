@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/manali/solang-valley.jpg",
-        width: 1200,
-        height: 630,
-        alt: "High-altitude alpine meadow at Dayara Bugyal with Garhwal Himalayan peaks in view",
+        url: "/images/blogs/uttarakhand/dayara-bugyal/alpine-meadow-himalayan-view-dayara-bugyal.webp",
+        width: 1500,
+        height: 1125,
+        alt: "A trekker at the edge of the Dayara Bugyal alpine meadow overlooking cloud-wrapped Garhwal Himalayan peaks",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Dayara Bugyal Trek Guide: Route, Season & Tips",
     description:
       "Green meadows, winter snow, and sweeping Bandarpoonch views — the complete beginner-friendly guide to the Dayara Bugyal trek.",
-    images: ["/images/destinations/manali/solang-valley.jpg"],
+    images: ["/images/blogs/uttarakhand/dayara-bugyal/alpine-meadow-himalayan-view-dayara-bugyal.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/dayara-bugyal-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Dayara Bugyal Trek Guide: Route, Season & Tips",
           description:
             "Complete Dayara Bugyal trek guide — route from Raithal or Barsu, best season for green meadows or winter snow, how to reach Uttarkashi, camping, and a full itinerary.",
-          image: "https://club.kudozz.in/images/destinations/manali/solang-valley.jpg",
+          image: "https://club.kudozz.in/images/blogs/uttarakhand/dayara-bugyal/alpine-meadow-himalayan-view-dayara-bugyal.webp",
           datePublished: "2026-09-02",
           dateModified: "2026-09-02",
           publisher: {
@@ -199,8 +199,8 @@ export default function DayaraBugyalGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/manali/solang-valley.jpg"
-              alt="High-altitude alpine meadow at Dayara Bugyal with Garhwal Himalayan peaks in view"
+              src="/images/blogs/uttarakhand/dayara-bugyal/alpine-meadow-himalayan-view-dayara-bugyal.webp"
+              alt="A trekker at the edge of the Dayara Bugyal alpine meadow overlooking cloud-wrapped Garhwal Himalayan peaks"
               fill
               priority
               sizes="100vw"
@@ -538,7 +538,7 @@ export default function DayaraBugyalGuidePage() {
                   <h2>The Trek Route</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/manali/solang-valley.jpg"
+                      src="/images/blogs/uttarakhand/dayara-bugyal/alpine-meadow-himalayan-view-dayara-bugyal.webp"
                       alt="Trekking trail leading toward the Dayara Bugyal meadow, Garhwal Himalaya"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"

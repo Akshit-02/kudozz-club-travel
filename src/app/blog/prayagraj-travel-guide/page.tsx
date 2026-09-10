@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jammu-kashmir/dal.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Boats gathered on a wide river confluence at dawn, evocative of Prayagraj's Triveni Sangam",
+        url: "/images/blogs/uttar-pradesh/prayagraj/triveni-sangam-boats-prayagraj.webp",
+        width: 1600,
+        height: 1060,
+        alt: "Pilgrim boats on the river at Triveni Sangam, the confluence of the Ganga and Yamuna in Prayagraj",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Prayagraj Travel Guide: Triveni Sangam & Kumbh Mela",
     description:
       "The Triveni Sangam, the Kumbh Mela's 12-year cycle, and the Nehru family's Anand Bhavan — the complete Prayagraj guide.",
-    images: ["/images/destinations/jammu-kashmir/dal.jpg"],
+    images: ["/images/blogs/uttar-pradesh/prayagraj/triveni-sangam-boats-prayagraj.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/prayagraj-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           description:
             "Complete Prayagraj (Allahabad) travel guide — the Triveni Sangam, Kumbh Mela's 12-year cycle, Allahabad Fort, Anand Bhavan, Khusro Bagh, how to reach, and a full visit plan.",
           image:
-            "https://club.kudozz.in/images/destinations/jammu-kashmir/dal.jpg",
+            "https://club.kudozz.in/images/blogs/uttar-pradesh/prayagraj/triveni-sangam-boats-prayagraj.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -200,8 +200,8 @@ export default function PrayagrajGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jammu-kashmir/dal.jpg"
-              alt="Boats gathered on a wide river confluence at dawn, evocative of Prayagraj's Triveni Sangam"
+              src="/images/blogs/uttar-pradesh/prayagraj/triveni-sangam-boats-prayagraj.webp"
+              alt="Pilgrim boats on the river at Triveni Sangam, the confluence of the Ganga and Yamuna in Prayagraj"
               fill
               priority
               sizes="100vw"
@@ -553,8 +553,8 @@ export default function PrayagrajGuidePage() {
                   <h2>Sangam & Landmarks</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/jammu-kashmir/dal.jpg"
-                      alt="Rowboats on a wide, calm river at sunrise, representative of the Triveni Sangam boat rides in Prayagraj"
+                      src="/images/blogs/uttar-pradesh/prayagraj/triveni-sangam-boats-prayagraj.webp"
+                      alt="Rowboats carrying pilgrims across the Triveni Sangam confluence in Prayagraj"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

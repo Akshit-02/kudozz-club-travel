@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/hampi/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Ancient historic streets of Kannauj, India's perfume capital",
+        url: "/images/blogs/uttar-pradesh/kannauj/camel-skin-attar-perfume-bottles.webp",
+        width: 1600,
+        height: 1060,
+        alt: "Traditional camel-skin attar storage bottles, a craft of Kannauj, India's perfume capital",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Kannauj Travel Guide: India's Perfume Capital",
     description:
       "The deg-bhapka attar tradition, family-run perfume workshops, and Kannauj's deep history as Harsha's 7th-century capital — the complete guide.",
-    images: ["/images/destinations/hampi/hero.jpg"],
+    images: ["/images/blogs/uttar-pradesh/kannauj/camel-skin-attar-perfume-bottles.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/kannauj-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Kannauj Travel Guide: India's Perfume Capital",
           description:
             "Complete Kannauj guide — the deg-bhapka attar-distillation tradition, working perfume workshops, Harsha's ancient capital, the Perfume Museum, temples and fort ruins, and how to reach.",
-          image: "https://club.kudozz.in/images/destinations/hampi/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/uttar-pradesh/kannauj/camel-skin-attar-perfume-bottles.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -199,8 +199,8 @@ export default function KannaujGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/hampi/hero.jpg"
-              alt="Ancient historic streets of Kannauj, India's perfume capital"
+              src="/images/blogs/uttar-pradesh/kannauj/camel-skin-attar-perfume-bottles.webp"
+              alt="Traditional camel-skin attar storage bottles, a craft of Kannauj, India's perfume capital"
               fill
               priority
               sizes="100vw"
@@ -529,8 +529,8 @@ export default function KannaujGuidePage() {
                   <h2>Attar Craft & Ancient History</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/hampi/hero.jpg"
-                      alt="Old town streets and historic character of Kannauj"
+                      src="/images/blogs/uttar-pradesh/kannauj/camel-skin-attar-perfume-bottles.webp"
+                      alt="Camel-skin attar storage bottles used in Kannauj's traditional perfume trade"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

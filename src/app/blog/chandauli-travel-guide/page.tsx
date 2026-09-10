@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/kasol/kasol.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Forested hills and a flowing stream, evocative of Chandauli's Rajdari and Devdari waterfalls",
+        url: "/images/blogs/uttar-pradesh/chandauli/rajdari-waterfall-chandauli.webp",
+        width: 1600,
+        height: 720,
+        alt: "Rajdari Waterfall cascading over layered rock terraces in Chandauli",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Chandauli Travel Guide: Waterfalls Near Varanasi",
     description:
       "Rajdari and Devdari waterfalls, Chandraprabha Wildlife Sanctuary, and Naugarh Fort — an off-beat day trip from Varanasi.",
-    images: ["/images/destinations/kasol/kasol.jpg"],
+    images: ["/images/blogs/uttar-pradesh/chandauli/rajdari-waterfall-chandauli.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/chandauli-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Chandauli Travel Guide: Waterfalls Near Varanasi",
           description:
             "Complete Chandauli travel guide — Rajdari and Devdari waterfalls, Chandraprabha Wildlife Sanctuary, Naugarh Fort, how to reach from Varanasi, and a full day-trip plan.",
-          image: "https://club.kudozz.in/images/destinations/kasol/kasol.jpg",
+          image: "https://club.kudozz.in/images/blogs/uttar-pradesh/chandauli/rajdari-waterfall-chandauli.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -199,8 +199,8 @@ export default function ChandauliGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/kasol/kasol.jpg"
-              alt="Forested hills and a flowing stream, evocative of Chandauli's Rajdari and Devdari waterfalls"
+              src="/images/blogs/uttar-pradesh/chandauli/rajdari-waterfall-chandauli.webp"
+              alt="Rajdari Waterfall cascading over layered rock terraces in Chandauli"
               fill
               priority
               sizes="100vw"
@@ -533,8 +533,8 @@ export default function ChandauliGuidePage() {
                   <h2>Waterfalls & the Sanctuary</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/kasol/kasol.jpg"
-                      alt="A forested valley with a stream, representative of the landscape around Chandauli's waterfalls"
+                      src="/images/blogs/uttar-pradesh/chandauli/rajdari-waterfall-chandauli.webp"
+                      alt="Water tumbling down the terraced rock steps of Rajdari Waterfall near Chandauli"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

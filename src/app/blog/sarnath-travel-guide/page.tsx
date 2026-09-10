@@ -23,9 +23,9 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/spiti-valley/spiti-valley.jpg",
-        width: 1200,
-        height: 630,
+        url: "/images/blogs/uttar-pradesh/sarnath/dhamek-stupa-sarnath.webp",
+        width: 1600,
+        height: 899,
         alt: "The Dhamek Stupa and monastic ruins at Sarnath near Varanasi",
       },
     ],
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Sarnath Travel Guide: Buddha's First Sermon Site",
     description:
       "The Dhamek Stupa, Ashoka's lion capital, and the Deer Park — a complete guide to Sarnath, 10 km from Varanasi.",
-    images: ["/images/destinations/spiti-valley/spiti-valley.jpg"],
+    images: ["/images/blogs/uttar-pradesh/sarnath/dhamek-stupa-sarnath.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/sarnath-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           description:
             "Complete Sarnath guide — Dhamek Stupa, the Ashoka Pillar's lion capital, Sarnath Archaeological Museum, Mulagandha Kuti Vihar, and how to plan a half-day trip from Varanasi.",
           image:
-            "https://club.kudozz.in/images/destinations/spiti-valley/spiti-valley.jpg",
+            "https://club.kudozz.in/images/blogs/uttar-pradesh/sarnath/dhamek-stupa-sarnath.webp",
           datePublished: "2026-09-02",
           dateModified: "2026-09-02",
           publisher: {
@@ -196,7 +196,7 @@ export default function SarnathGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/spiti-valley/spiti-valley.jpg"
+              src="/images/blogs/uttar-pradesh/sarnath/dhamek-stupa-sarnath.webp"
               alt="The Dhamek Stupa and monastic ruins at Sarnath near Varanasi"
               fill
               priority
@@ -529,7 +529,7 @@ export default function SarnathGuidePage() {
                   <h2>What to See in Sarnath</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/spiti-valley/spiti-valley.jpg"
+                      src="/images/blogs/uttar-pradesh/sarnath/dhamek-stupa-sarnath.webp"
                       alt="Ancient stupa ruins and monastery grounds at Sarnath"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"

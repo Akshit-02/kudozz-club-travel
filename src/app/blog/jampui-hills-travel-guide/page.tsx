@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/manali/solang-valley.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Green hill valley landscape, evoking Jampui Hills' ridgelines and orange orchards in North Tripura",
+        url: "/images/blogs/tripura/jampui-hills/misty-hill-valley-view.webp",
+        width: 1600,
+        height: 1200,
+        alt: "Misty forested ridgelines and valley view from Jampui Hills, North Tripura",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Jampui Hills Travel Guide: Orange Orchards & Tips",
     description:
       "Tripura's highest hill range, orange orchards, and cloud-sea views — the complete guide to Jampui Hills.",
-    images: ["/images/destinations/manali/solang-valley.jpg"],
+    images: ["/images/blogs/tripura/jampui-hills/misty-hill-valley-view.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/jampui-hills-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           description:
             "Complete Jampui Hills guide — Tripura's highest hill range, orange orchards, cloud-sea viewpoints, Mizo tribal villages, the Orange & Tourism Festival, how to reach, and a full visit plan.",
           image:
-            "https://club.kudozz.in/images/destinations/manali/solang-valley.jpg",
+            "https://club.kudozz.in/images/blogs/tripura/jampui-hills/misty-hill-valley-view.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -200,8 +200,8 @@ export default function JampuiHillsGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/manali/solang-valley.jpg"
-              alt="Green hill valley landscape, evoking Jampui Hills' ridgelines and orange orchards in North Tripura"
+              src="/images/blogs/tripura/jampui-hills/misty-hill-valley-view.webp"
+              alt="Misty forested ridgelines and valley view from Jampui Hills, North Tripura"
               fill
               priority
               sizes="100vw"
@@ -525,8 +525,8 @@ export default function JampuiHillsGuidePage() {
                   <h2>Orchards, Viewpoints & Villages</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/manali/solang-valley.jpg"
-                      alt="Hill ridgelines at Jampui Hills, North Tripura"
+                      src="/images/blogs/tripura/jampui-hills/misty-hill-valley-view.webp"
+                      alt="Cloud-covered valley seen from a Jampui Hills viewpoint"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/coorg/coorg.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Dense terai forest canopy at Pilibhit Tiger Reserve, Uttar Pradesh",
+        url: "/images/blogs/uttar-pradesh/pilibhit/chuka-spot-forest-pilibhit-tiger-reserve.webp",
+        width: 1100,
+        height: 1467,
+        alt: "Sunlight filtering through the terai forest canopy at Chuka, Pilibhit Tiger Reserve",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Pilibhit Tiger Reserve: Safari & Visit Guide",
     description:
       "One of India's highest tiger densities, dense terai forest, and Pilibhit town's traditional flute-making craft — the complete guide.",
-    images: ["/images/destinations/coorg/coorg.jpg"],
+    images: ["/images/blogs/uttar-pradesh/pilibhit/chuka-spot-forest-pilibhit-tiger-reserve.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/pilibhit-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Pilibhit Tiger Reserve: Safari & Visit Guide",
           description:
             "Complete Pilibhit Tiger Reserve guide — dense terai forest, one of India's highest tiger densities, swamp deer and birdlife, safari zones, how to reach, and Pilibhit's flute-making heritage.",
-          image: "https://club.kudozz.in/images/destinations/coorg/coorg.jpg",
+          image: "https://club.kudozz.in/images/blogs/uttar-pradesh/pilibhit/chuka-spot-forest-pilibhit-tiger-reserve.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -200,8 +200,8 @@ export default function PilibhitGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/coorg/coorg.jpg"
-              alt="Dense terai forest canopy at Pilibhit Tiger Reserve, Uttar Pradesh"
+              src="/images/blogs/uttar-pradesh/pilibhit/chuka-spot-forest-pilibhit-tiger-reserve.webp"
+              alt="Sunlight filtering through the terai forest canopy at Chuka, Pilibhit Tiger Reserve"
               fill
               priority
               sizes="100vw"
@@ -536,8 +536,8 @@ export default function PilibhitGuidePage() {
                   <h2>Wildlife & Safari Zones</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/coorg/coorg.jpg"
-                      alt="Forest track through Pilibhit Tiger Reserve's terai woodland"
+                      src="/images/blogs/uttar-pradesh/pilibhit/chuka-spot-forest-pilibhit-tiger-reserve.webp"
+                      alt="Dense sal forest at the Chuka watchtower spot inside Pilibhit Tiger Reserve"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

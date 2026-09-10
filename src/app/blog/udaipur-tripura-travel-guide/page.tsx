@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/hampi/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Old temple-town architecture, evoking Udaipur Tripura's history as the former Manikya capital",
+        url: "/images/blogs/tripura/udaipur/udaipur-railway-station.webp",
+        width: 1600,
+        height: 1200,
+        alt: "Temple-style domed architecture of Udaipur railway station in Tripura",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Udaipur Tripura Travel Guide: Lakes & Old Capital",
     description:
       "Tripura's own Udaipur — the old Manikya capital, ringed by sacred lakes and home to a major Shakti Peetha.",
-    images: ["/images/destinations/hampi/hero.jpg"],
+    images: ["/images/blogs/tripura/udaipur/udaipur-railway-station.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/udaipur-tripura-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Udaipur Tripura Travel Guide: Lakes & Old Capital",
           description:
             "Complete guide to Udaipur, Tripura — the old Manikya capital of Rangamati, its sacred lakes, the Tripura Sundari Temple, Bhuvaneswari Temple, Pilak ruins, how to reach from Agartala, and tips.",
-          image: "https://club.kudozz.in/images/destinations/hampi/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/tripura/udaipur/udaipur-railway-station.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -195,8 +195,8 @@ export default function UdaipurTripuraGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/hampi/hero.jpg"
-              alt="Old temple-town architecture, evoking Udaipur Tripura's history as the former Manikya capital"
+              src="/images/blogs/tripura/udaipur/udaipur-railway-station.webp"
+              alt="Temple-style domed architecture of Udaipur railway station in Tripura"
               fill
               priority
               sizes="100vw"
@@ -514,8 +514,8 @@ export default function UdaipurTripuraGuidePage() {
                   <h2>Lakes, Temples & Pilak</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/hampi/hero.jpg"
-                      alt="Old temple-town architecture in South Tripura"
+                      src="/images/blogs/tripura/udaipur/udaipur-railway-station.webp"
+                      alt="Domed, temple-style facade of Udaipur railway station, Tripura"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

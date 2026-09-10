@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jaisalmer/fort.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Hilltop ramparts of Jhansi Fort, Uttar Pradesh",
+        url: "/images/blogs/uttar-pradesh/jhansi/jhansi-fort-ramparts.webp",
+        width: 1600,
+        height: 900,
+        alt: "Stone ramparts and gateway of Jhansi Fort, Uttar Pradesh",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Jhansi Travel Guide: Rani Lakshmibai's Fort",
     description:
       "Jhansi Fort, Rani Mahal, and the story of Rani Lakshmibai's stand in the 1857 Revolt — the complete guide, plus the gateway to Orchha and Khajuraho.",
-    images: ["/images/destinations/jaisalmer/fort.jpg"],
+    images: ["/images/blogs/uttar-pradesh/jhansi/jhansi-fort-ramparts.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/jhansi-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           description:
             "Complete Jhansi guide — Jhansi Fort and Rani Mahal, the story of Rani Lakshmibai and the 1857 Revolt, the Government Museum, how to reach, and Bundelkhand add-ons like Orchha and Khajuraho.",
           image:
-            "https://club.kudozz.in/images/destinations/jaisalmer/fort.jpg",
+            "https://club.kudozz.in/images/blogs/uttar-pradesh/jhansi/jhansi-fort-ramparts.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -200,8 +200,8 @@ export default function JhansiGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jaisalmer/fort.jpg"
-              alt="Hilltop ramparts of Jhansi Fort, Uttar Pradesh"
+              src="/images/blogs/uttar-pradesh/jhansi/jhansi-fort-ramparts.webp"
+              alt="Stone ramparts and gateway of Jhansi Fort, Uttar Pradesh"
               fill
               priority
               sizes="100vw"
@@ -530,8 +530,8 @@ export default function JhansiGuidePage() {
                   <h2>Jhansi Fort & the 1857 Revolt</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/jaisalmer/fort.jpg"
-                      alt="Ramparts and bastions of Jhansi Fort overlooking the city"
+                      src="/images/blogs/uttar-pradesh/jhansi/jhansi-fort-ramparts.webp"
+                      alt="Crenellated stone bastions and entrance gate of Jhansi Fort"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

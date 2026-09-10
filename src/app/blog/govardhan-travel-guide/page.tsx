@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jammu-kashmir/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "A low sacred hill and pilgrimage path at dawn, evocative of Govardhan Hill and its parikrama route",
+        url: "/images/blogs/uttar-pradesh/govardhan/govardhan-hill-sandstone-outcrop-braj.webp",
+        width: 1400,
+        height: 1050,
+        alt: "Exposed sandstone rock outcrop of Govardhan Hill, the sacred low hill on the Braj parikrama route",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Govardhan Travel Guide: Hill, Parikrama & Temples",
     description:
       "Govardhan Hill, the 23km parikrama path, and the twin sacred ponds of Radha Kund and Shyam Kund — a quieter corner of the Braj region.",
-    images: ["/images/destinations/jammu-kashmir/hero.jpg"],
+    images: ["/images/blogs/uttar-pradesh/govardhan/govardhan-hill-sandstone-outcrop-braj.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/govardhan-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           description:
             "Complete Govardhan travel guide — the sacred Govardhan Hill, the 23km Govardhan Parikrama, Radha Kund, Mansi Ganga, Daan Ghati Temple, how to reach, and a full visit plan.",
           image:
-            "https://club.kudozz.in/images/destinations/jammu-kashmir/hero.jpg",
+            "https://club.kudozz.in/images/blogs/uttar-pradesh/govardhan/govardhan-hill-sandstone-outcrop-braj.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -200,8 +200,8 @@ export default function GovardhanGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jammu-kashmir/hero.jpg"
-              alt="A low sacred hill and pilgrimage path at dawn, evocative of Govardhan Hill and its parikrama route"
+              src="/images/blogs/uttar-pradesh/govardhan/govardhan-hill-sandstone-outcrop-braj.webp"
+              alt="Exposed sandstone rock outcrop of Govardhan Hill, the sacred low hill on the Braj parikrama route"
               fill
               priority
               sizes="100vw"
@@ -554,7 +554,7 @@ export default function GovardhanGuidePage() {
                   <h2>The Parikrama & Sacred Sites</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/jammu-kashmir/hero.jpg"
+                      src="/images/blogs/uttar-pradesh/govardhan/govardhan-hill-sandstone-outcrop-braj.webp"
                       alt="A gently rising sacred hill landscape representative of Govardhan Hill and its surrounding countryside"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"

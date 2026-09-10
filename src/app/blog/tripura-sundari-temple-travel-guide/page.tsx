@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/manali/hadimba-temple.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Traditional temple architecture, evoking the Tripura Sundari Temple at Matabari",
+        url: "/images/blogs/tripura/tripura-sundari-temple/tripura-sundari-temple-facade.webp",
+        width: 1600,
+        height: 1200,
+        alt: "The red, tortoise-shaped dome of Tripura Sundari Temple at Matabari, Udaipur",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Tripura Sundari Temple Guide: Matabari Shakti Peeth",
     description:
       "A tortoise-shaped temple beside a sacred lake, one of Hinduism's 51 Shakti Peethas — the complete guide to Matabari.",
-    images: ["/images/destinations/manali/hadimba-temple.jpg"],
+    images: ["/images/blogs/tripura/tripura-sundari-temple/tripura-sundari-temple-facade.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/tripura-sundari-temple-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           description:
             "Complete Tripura Sundari Temple guide — the Matabari Shakti Peeth's history, tortoise-shaped architecture, Kalyan Sagar lake, the Diwali mela, how to reach from Agartala, and visiting tips.",
           image:
-            "https://club.kudozz.in/images/destinations/manali/hadimba-temple.jpg",
+            "https://club.kudozz.in/images/blogs/tripura/tripura-sundari-temple/tripura-sundari-temple-facade.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -202,8 +202,8 @@ export default function TripuraSundariTempleGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/manali/hadimba-temple.jpg"
-              alt="Traditional temple architecture, evoking the Tripura Sundari Temple at Matabari"
+              src="/images/blogs/tripura/tripura-sundari-temple/tripura-sundari-temple-facade.webp"
+              alt="The red, tortoise-shaped dome of Tripura Sundari Temple at Matabari, Udaipur"
               fill
               priority
               sizes="100vw"
@@ -519,8 +519,8 @@ export default function TripuraSundariTempleGuidePage() {
                   <h2>Temple, Lake & Festivals</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/manali/hadimba-temple.jpg"
-                      alt="Temple architecture and grounds at Matabari"
+                      src="/images/blogs/tripura/tripura-sundari-temple/tripura-sundari-temple-facade.webp"
+                      alt="Pilgrims at the tortoise-shaped Tripura Sundari Temple, Matabari"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

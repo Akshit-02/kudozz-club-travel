@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/ziro/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Terai grassland and sal forest at Dudhwa National Park, Uttar Pradesh",
+        url: "/images/blogs/uttar-pradesh/dudhwa/swamp-deer-dudhwa-national-park.webp",
+        width: 1600,
+        height: 1016,
+        alt: "A barasingha (swamp deer) in the grasslands of Dudhwa National Park, Uttar Pradesh",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Dudhwa National Park: Tiger & Rhino Safari Guide",
     description:
       "Bengal tigers, reintroduced one-horned rhinos, and India's largest wild barasingha herds on the Nepal border — the complete Dudhwa guide.",
-    images: ["/images/destinations/ziro/hero.jpg"],
+    images: ["/images/blogs/uttar-pradesh/dudhwa/swamp-deer-dudhwa-national-park.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/dudhwa-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Dudhwa National Park: Tiger & Rhino Safari Guide",
           description:
             "Complete Dudhwa National Park guide — Bengal tigers, the reintroduced one-horned rhinoceros, barasingha, safari ranges, best time to visit, how to reach, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/ziro/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/uttar-pradesh/dudhwa/swamp-deer-dudhwa-national-park.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -199,8 +199,8 @@ export default function DudhwaGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/ziro/hero.jpg"
-              alt="Terai grassland and sal forest at Dudhwa National Park, Uttar Pradesh"
+              src="/images/blogs/uttar-pradesh/dudhwa/swamp-deer-dudhwa-national-park.webp"
+              alt="A barasingha (swamp deer) in the grasslands of Dudhwa National Park, Uttar Pradesh"
               fill
               priority
               sizes="100vw"
@@ -534,8 +534,8 @@ export default function DudhwaGuidePage() {
                   <h2>Wildlife & Safari Zones</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/ziro/hero.jpg"
-                      alt="Sal forest and open grassland inside Dudhwa National Park"
+                      src="/images/blogs/uttar-pradesh/dudhwa/swamp-deer-dudhwa-national-park.webp"
+                      alt="Close-up of a barasingha deer's head amid a herd in Dudhwa National Park"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
