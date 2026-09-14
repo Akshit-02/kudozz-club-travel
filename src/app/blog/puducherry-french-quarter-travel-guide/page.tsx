@@ -312,7 +312,7 @@ export default function PuducherryGuidePage() {
               {[
                 { label: "Home", href: "/" },
                 { label: "Blog", href: "/blog" },
-                { label: "Puducherry", href: "/blog?category=puducherry" },
+                { label: "Puducherry", href: "/blog/puducherry-district-travel-guide" },
                 { label: "Travel Guide", href: null },
               ].map((crumb, i, arr) => (
                 <li key={i} className="flex items-center gap-2">

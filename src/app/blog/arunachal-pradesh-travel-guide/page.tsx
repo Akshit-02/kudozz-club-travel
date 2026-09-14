@@ -184,6 +184,7 @@ const tableOfContents = [
   { id: "itinerary", title: "8-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "places-to-explore", title: "Places to Explore in Arunachal Pradesh", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
@@ -315,7 +316,7 @@ export default function ArunachalPradeshGuidePage() {
                 { label: "Blog", href: "/blog" },
                 {
                   label: "Arunachal Pradesh",
-                  href: "/blog?category=arunachal-pradesh",
+                  href: "/blog/arunachal-pradesh-travel-guide",
                 },
                 { label: "Travel Guide", href: null },
               ].map((crumb, i, arr) => (
@@ -1205,6 +1206,100 @@ export default function ArunachalPradeshGuidePage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── Places to Explore ────────────────────────────────── */}
+                <section id="places-to-explore">
+                  <h2>Places to Explore in Arunachal Pradesh</h2>
+                  <p>
+                    Every Arunachal Pradesh guide on Kudozz Club, in one place — 14 destinations covered so far, from cities and towns to individual attractions. Use this index to plan beyond the highlights above.
+                  </p>
+                  <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3 my-6">
+                      <Link
+                        href="/blog/anini-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Anini Travel Guide: India&apos;s Least Explored Valley
+                      </Link>
+                      <Link
+                        href="/blog/bomdila-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Bomdila Travel Guide: Monastery Town & Gateway to Tawang
+                      </Link>
+                      <Link
+                        href="/blog/dirang-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Dirang Travel Guide: Hot Springs, Apple Orchards & Dirang Dzong
+                      </Link>
+                      <Link
+                        href="/blog/itanagar-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Itanagar Travel Guide: Arunachal Pradesh&apos;s Capital City
+                      </Link>
+                      <Link
+                        href="/blog/mechuka-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Mechuka Travel Guide: A Hidden Valley on the Tibet Border
+                      </Link>
+                      <Link
+                        href="/blog/namdapha-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Namdapha National Park Travel Guide: India&apos;s Most Biodiverse Park
+                      </Link>
+                      <Link
+                        href="/blog/namsai-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Namsai Travel Guide: The Golden Pagoda of Arunachal
+                      </Link>
+                      <Link
+                        href="/blog/pakke-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Pakke Tiger Reserve Travel Guide: Hornbills & Foothill Forest
+                      </Link>
+                      <Link
+                        href="/blog/pasighat-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Pasighat Travel Guide: Arunachal&apos;s Oldest Town on the Siang River
+                      </Link>
+                      <Link
+                        href="/blog/roing-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Roing Travel Guide: Mehao Lake & Bhismaknagar Ruins
+                      </Link>
+                      <Link
+                        href="/blog/sela-pass-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Sela Pass Travel Guide: One of India&apos;s Highest Motorable Passes
+                      </Link>
+                      <Link
+                        href="/blog/tawang-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Tawang Travel Guide: Monastery, War Memorial & Best Time to Visit
+                      </Link>
+                      <Link
+                        href="/blog/walong-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Walong Travel Guide: The Easternmost Battlefield of the 1962 War
+                      </Link>
+                      <Link
+                        href="/blog/ziro-valley-arunachal-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Ziro Valley Travel Guide: Apatani Villages, Rice Fields & Festival
+                      </Link>
                   </div>
                 </section>
 

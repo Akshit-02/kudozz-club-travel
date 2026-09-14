@@ -128,6 +128,7 @@ const tableOfContents = [
   { id: "itinerary", title: "5-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "places-to-explore", title: "Places to Explore in Odisha", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
@@ -311,7 +312,7 @@ export default function OdishaGuidePage() {
               {[
                 { label: "Home", href: "/" },
                 { label: "Blog", href: "/blog" },
-                { label: "Odisha", href: "/blog?category=odisha" },
+                { label: "Odisha", href: "/blog/odisha-travel-guide" },
                 { label: "Travel Guide", href: null },
               ].map((crumb, i, arr) => (
                 <li key={i} className="flex items-center gap-2">
@@ -1172,6 +1173,106 @@ export default function OdishaGuidePage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── Places to Explore ────────────────────────────────── */}
+                <section id="places-to-explore">
+                  <h2>Places to Explore in Odisha</h2>
+                  <p>
+                    Every Odisha guide on Kudozz Club, in one place — 15 destinations covered so far, from cities and towns to individual attractions. Use this index to plan beyond the highlights above.
+                  </p>
+                  <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3 my-6">
+                      <Link
+                        href="/blog/bhitarkanika-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Bhitarkanika Guide: Mangroves & Crocodiles
+                      </Link>
+                      <Link
+                        href="/blog/bhubaneswar-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Bhubaneswar Travel Guide: Temple City of India
+                      </Link>
+                      <Link
+                        href="/blog/chandipur-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Chandipur Beach Guide: The Vanishing Sea
+                      </Link>
+                      <Link
+                        href="/blog/chilika-lake-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Chilika Lake Guide: Dolphins, Birds & Boating
+                      </Link>
+                      <Link
+                        href="/blog/cuttack-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Cuttack Travel Guide: Silver City & Barabati Fort
+                      </Link>
+                      <Link
+                        href="/blog/daringbadi-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Daringbadi Guide: The Kashmir of Odisha
+                      </Link>
+                      <Link
+                        href="/blog/deomali-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Deomali Trek Guide: Odisha&apos;s Highest Peak
+                      </Link>
+                      <Link
+                        href="/blog/jeypore-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Jeypore Travel Guide: Tribal Heritage & Tips
+                      </Link>
+                      <Link
+                        href="/blog/konark-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Konark Sun Temple Guide: History & Tips
+                      </Link>
+                      <Link
+                        href="/blog/koraput-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Koraput Travel Guide: Tribal Culture & Coffee
+                      </Link>
+                      <Link
+                        href="/blog/puri-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Puri Travel Guide: Jagannath Temple & Beach
+                      </Link>
+                      <Link
+                        href="/blog/rourkela-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Rourkela Travel Guide: Steel City & Waterfalls
+                      </Link>
+                      <Link
+                        href="/blog/sambalpur-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Sambalpur Guide: Hirakud Dam & Sarees
+                      </Link>
+                      <Link
+                        href="/blog/satkosia-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Satkosia Gorge Guide: Tiger Reserve & Safari
+                      </Link>
+                      <Link
+                        href="/blog/similipal-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Similipal Tiger Reserve: Safari Guide & Tips
+                      </Link>
                   </div>
                 </section>
 

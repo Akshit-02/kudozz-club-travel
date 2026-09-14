@@ -183,6 +183,7 @@ const tableOfContents = [
   { id: "itinerary", title: "8-Day Circuit Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "places-to-explore", title: "Places to Explore in Rajasthan", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
@@ -312,7 +313,7 @@ export default function RajasthanGuidePage() {
               {[
                 { label: "Home", href: "/" },
                 { label: "Blog", href: "/blog" },
-                { label: "Rajasthan", href: "/blog?category=rajasthan" },
+                { label: "Rajasthan", href: "/blog/rajasthan-travel-guide" },
                 { label: "Travel Guide", href: null },
               ].map((crumb, i, arr) => (
                 <li key={i} className="flex items-center gap-2">
@@ -1168,6 +1169,130 @@ export default function RajasthanGuidePage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── Places to Explore ────────────────────────────────── */}
+                <section id="places-to-explore">
+                  <h2>Places to Explore in Rajasthan</h2>
+                  <p>
+                    Every Rajasthan guide on Kudozz Club, in one place — 19 destinations covered so far, from cities and towns to individual attractions. Use this index to plan beyond the highlights above.
+                  </p>
+                  <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3 my-6">
+                      <Link
+                        href="/blog/abhaneri-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Abhaneri Guide: Chand Baori Stepwell & Tips
+                      </Link>
+                      <Link
+                        href="/blog/ajmer-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Ajmer Travel Guide: Dargah Sharif & Ana Sagar
+                      </Link>
+                      <Link
+                        href="/blog/bharatpur-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Bharatpur Guide: Keoladeo Bird Sanctuary & Tips
+                      </Link>
+                      <Link
+                        href="/blog/bikaner-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Bikaner Travel Guide: Junagarh Fort & Desert
+                      </Link>
+                      <Link
+                        href="/blog/bundi-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Bundi Travel Guide: Stepwells, Palace & Murals
+                      </Link>
+                      <Link
+                        href="/blog/chittorgarh-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Chittorgarh Fort Guide: History & Tips
+                      </Link>
+                      <Link
+                        href="/blog/jaipur-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Jaipur Travel Guide: Amber Fort, Hawa Mahal & Tips
+                      </Link>
+                      <Link
+                        href="/blog/rajasthan-desert-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Jaisalmer & Thar Desert Travel Guide: Fort, Camel Safari & Tips
+                      </Link>
+                      <Link
+                        href="/blog/jawai-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Jawai Travel Guide: Leopard Hills & Rabari Villages
+                      </Link>
+                      <Link
+                        href="/blog/jodhpur-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Jodhpur Travel Guide: Mehrangarh Fort & Blue City
+                      </Link>
+                      <Link
+                        href="/blog/khatu-shyam-ji-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Khatu Shyam Ji Guide: Temple & Best Time
+                      </Link>
+                      <Link
+                        href="/blog/kumbhalgarh-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Kumbhalgarh Fort Guide: The Great Wall of India
+                      </Link>
+                      <Link
+                        href="/blog/mandawa-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Mandawa Travel Guide: Shekhawati Havelis & Tips
+                      </Link>
+                      <Link
+                        href="/blog/mount-abu-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Mount Abu Travel Guide: Dilwara Temples & Tips
+                      </Link>
+                      <Link
+                        href="/blog/osian-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Osian Travel Guide: Desert Temples & Tips
+                      </Link>
+                      <Link
+                        href="/blog/pushkar-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Pushkar Travel Guide: Lake, Temple & Camel Fair
+                      </Link>
+                      <Link
+                        href="/blog/ranthambore-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Ranthambore Safari Guide: Tigers & Fort
+                      </Link>
+                      <Link
+                        href="/blog/ranthambore-first-time-visitors-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Things to Do in Ranthambore for First-Time Visitors
+                      </Link>
+                      <Link
+                        href="/blog/udaipur-city-of-lakes-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Udaipur Travel Guide: City Palace, Lake Pichola & Itinerary
+                      </Link>
                   </div>
                 </section>
 

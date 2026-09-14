@@ -185,6 +185,7 @@ const tableOfContents = [
   { id: "itinerary", title: "6-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "places-to-explore", title: "Places to Explore in Uttar Pradesh", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
@@ -316,7 +317,7 @@ export default function UttarPradeshGuidePage() {
                 { label: "Blog", href: "/blog" },
                 {
                   label: "Uttar Pradesh",
-                  href: "/blog?category=uttar-pradesh",
+                  href: "/blog/uttar-pradesh-travel-guide",
                 },
                 { label: "Travel Guide", href: null },
               ].map((crumb, i, arr) => (
@@ -1157,6 +1158,136 @@ export default function UttarPradeshGuidePage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── Places to Explore ────────────────────────────────── */}
+                <section id="places-to-explore">
+                  <h2>Places to Explore in Uttar Pradesh</h2>
+                  <p>
+                    Every Uttar Pradesh guide on Kudozz Club, in one place — 20 destinations covered so far, from cities and towns to individual attractions. Use this index to plan beyond the highlights above.
+                  </p>
+                  <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3 my-6">
+                      <Link
+                        href="/blog/agra-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Agra Travel Guide: Taj Mahal, Fort & Fatehpur Sikri
+                      </Link>
+                      <Link
+                        href="/blog/ayodhya-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Ayodhya Travel Guide: Ram Mandir & Saryu Ghats
+                      </Link>
+                      <Link
+                        href="/blog/chandauli-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Chandauli Travel Guide: Waterfalls Near Varanasi
+                      </Link>
+                      <Link
+                        href="/blog/chitrakoot-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Chitrakoot Travel Guide: Ram&apos;s Forest Exile Site
+                      </Link>
+                      <Link
+                        href="/blog/dudhwa-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Dudhwa National Park: Tiger & Rhino Safari Guide
+                      </Link>
+                      <Link
+                        href="/blog/fatehpur-sikri-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Fatehpur Sikri Travel Guide: Akbar&apos;s Ghost City
+                      </Link>
+                      <Link
+                        href="/blog/govardhan-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Govardhan Travel Guide: Hill, Parikrama & Temples
+                      </Link>
+                      <Link
+                        href="/blog/jhansi-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Jhansi Travel Guide: Rani Lakshmibai&apos;s Fort
+                      </Link>
+                      <Link
+                        href="/blog/kannauj-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Kannauj Travel Guide: India&apos;s Perfume Capital
+                      </Link>
+                      <Link
+                        href="/blog/kushinagar-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Kushinagar Travel Guide: Buddha&apos;s Final Resting Place
+                      </Link>
+                      <Link
+                        href="/blog/lucknow-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Lucknow Travel Guide: Nawabi Heritage & Food
+                      </Link>
+                      <Link
+                        href="/blog/mathura-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Mathura Travel Guide: Krishna Janmabhoomi & Temples
+                      </Link>
+                      <Link
+                        href="/blog/mirzapur-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Mirzapur Travel Guide: Temples, Fort & Waterfalls
+                      </Link>
+                      <Link
+                        href="/blog/naimisharanya-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Naimisharanya Travel Guide: Sacred Forest & Temples
+                      </Link>
+                      <Link
+                        href="/blog/pilibhit-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Pilibhit Tiger Reserve: Safari & Visit Guide
+                      </Link>
+                      <Link
+                        href="/blog/prayagraj-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Prayagraj Travel Guide: Triveni Sangam & Kumbh Mela
+                      </Link>
+                      <Link
+                        href="/blog/sarnath-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Sarnath Travel Guide: Buddha&apos;s First Sermon Site
+                      </Link>
+                      <Link
+                        href="/blog/shravasti-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Shravasti Travel Guide: Jetavana Monastery Ruins
+                      </Link>
+                      <Link
+                        href="/blog/varanasi-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Varanasi Travel Guide: Ganga Ghats & Ganga Aarti
+                      </Link>
+                      <Link
+                        href="/blog/vrindavan-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Vrindavan Travel Guide: Temples & Krishna Lore
+                      </Link>
                   </div>
                 </section>
 

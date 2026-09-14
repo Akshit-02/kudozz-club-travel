@@ -182,6 +182,7 @@ const tableOfContents = [
   { id: "itinerary", title: "3-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "places-to-explore", title: "Places to Explore in Delhi", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
@@ -311,7 +312,7 @@ export default function DelhiGuidePage() {
               {[
                 { label: "Home", href: "/" },
                 { label: "Blog", href: "/blog" },
-                { label: "Delhi", href: "/blog?category=delhi" },
+                { label: "Delhi", href: "/blog/delhi-travel-guide" },
                 { label: "Travel Guide", href: null },
               ].map((crumb, i, arr) => (
                 <li key={i} className="flex items-center gap-2">
@@ -1134,6 +1135,166 @@ export default function DelhiGuidePage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── Places to Explore ────────────────────────────────── */}
+                <section id="places-to-explore">
+                  <h2>Places to Explore in Delhi</h2>
+                  <p>
+                    Every Delhi guide on Kudozz Club, in one place — 25 destinations covered so far, from cities and towns to individual attractions. Use this index to plan beyond the highlights above.
+                  </p>
+                  <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3 my-6">
+                      <Link
+                        href="/blog/akshardham-delhi-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Akshardham Temple Delhi: Timings, Tickets & Guide
+                      </Link>
+                      <Link
+                        href="/blog/chanakyapuri-delhi-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Chanakyapuri Guide: Delhi&apos;s Diplomatic Enclave
+                      </Link>
+                      <Link
+                        href="/blog/chandni-chowk-delhi-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Chandni Chowk: Delhi&apos;s Legendary Food Walk & Bazaar Guide
+                      </Link>
+                      <Link
+                        href="/blog/connaught-place-delhi-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Connaught Place Guide: Shopping, Food & Nightlife
+                      </Link>
+                      <Link
+                        href="/blog/dwarka-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Dwarka Travel Guide: Krishna&apos;s Ancient Kingdom & Char Dham Site
+                      </Link>
+                      <Link
+                        href="/blog/dwarka-delhi-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Dwarka, Delhi Travel Guide: Sub-City & ISKCON Temple
+                      </Link>
+                      <Link
+                        href="/blog/hauz-khas-delhi-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Hauz Khas Travel Guide: Village, Deer Park & Fort Ruins
+                      </Link>
+                      <Link
+                        href="/blog/janakpuri-delhi-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Janakpuri Delhi Guide: Parks, Markets & Transport
+                      </Link>
+                      <Link
+                        href="/blog/karol-bagh-delhi-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Karol Bagh Travel Guide: Shopping, Markets & Budget Hotels
+                      </Link>
+                      <Link
+                        href="/blog/kashmere-gate-delhi-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Kashmere Gate Travel Guide: History, 1857 Sites & the ISBT Hub
+                      </Link>
+                      <Link
+                        href="/blog/lajpat-nagar-delhi-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Lajpat Nagar Travel Guide: Central Market & More
+                      </Link>
+                      <Link
+                        href="/blog/laxmi-nagar-delhi-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Laxmi Nagar, Delhi: Market, Coaching Hub & Local Food Guide
+                      </Link>
+                      <Link
+                        href="/blog/lodhi-garden-delhi-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Lodhi Garden: Delhi&apos;s Tombs, Timings & Complete Visit Guide
+                      </Link>
+                      <Link
+                        href="/blog/majnu-ka-tilla-delhi-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Majnu Ka Tilla Guide: Delhi&apos;s Tibetan Colony
+                      </Link>
+                      <Link
+                        href="/blog/mehrauli-delhi-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Mehrauli Travel Guide: Qutub Minar & Ancient Delhi
+                      </Link>
+                      <Link
+                        href="/blog/najafgarh-delhi-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Najafgarh Delhi Guide: History, Jheel & Sehwag
+                      </Link>
+                      <Link
+                        href="/blog/new-delhi-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        New Delhi Travel Guide: India Gate, Rajpath & More
+                      </Link>
+                      <Link
+                        href="/blog/nizamuddin-delhi-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Nizamuddin Travel Guide: Dargah, Qawwali & Humayun&apos;s Tomb
+                      </Link>
+                      <Link
+                        href="/blog/old-delhi-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Old Delhi Travel Guide: Red Fort, Jama Masjid & Food
+                      </Link>
+                      <Link
+                        href="/blog/paharganj-delhi-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Paharganj Travel Guide: Main Bazaar & Budget Stays
+                      </Link>
+                      <Link
+                        href="/blog/rohini-delhi-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Rohini Delhi Guide: Japanese Park & Family Outings
+                      </Link>
+                      <Link
+                        href="/blog/sarojini-nagar-delhi-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Sarojini Nagar Market Guide: Shopping & Bargaining Tips
+                      </Link>
+                      <Link
+                        href="/blog/south-delhi-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        South Delhi Travel Guide: Best Areas & Things to Do
+                      </Link>
+                      <Link
+                        href="/blog/tughlaqabad-delhi-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Tughlaqabad Fort Travel Guide: Delhi&apos;s Cursed City
+                      </Link>
+                      <Link
+                        href="/blog/vasant-kunj-delhi-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Vasant Kunj Guide: Malls, Shopping & Nature Nearby
+                      </Link>
                   </div>
                 </section>
 

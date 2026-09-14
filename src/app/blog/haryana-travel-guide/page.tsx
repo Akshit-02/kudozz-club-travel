@@ -181,6 +181,7 @@ const tableOfContents = [
   { id: "itinerary", title: "4-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "places-to-explore", title: "Places to Explore in Haryana", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
@@ -312,7 +313,7 @@ export default function HaryanaGuidePage() {
                 { label: "Blog", href: "/blog" },
                 {
                   label: "Haryana",
-                  href: "/blog?category=haryana",
+                  href: "/blog/haryana-travel-guide",
                 },
                 { label: "Travel Guide", href: null },
               ].map((crumb, i, arr) => (
@@ -1147,6 +1148,100 @@ export default function HaryanaGuidePage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── Places to Explore ────────────────────────────────── */}
+                <section id="places-to-explore">
+                  <h2>Places to Explore in Haryana</h2>
+                  <p>
+                    Every Haryana guide on Kudozz Club, in one place — 14 destinations covered so far, from cities and towns to individual attractions. Use this index to plan beyond the highlights above.
+                  </p>
+                  <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3 my-6">
+                      <Link
+                        href="/blog/agroha-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Agroha Travel Guide: Ancient Mound & Agroha Dham
+                      </Link>
+                      <Link
+                        href="/blog/bhindawas-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Bhindawas Wildlife Sanctuary Travel Guide: Haryana&apos;s Largest Wetland
+                      </Link>
+                      <Link
+                        href="/blog/damdama-lake-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Damdama Lake Travel Guide: Haryana&apos;s Largest Natural Lake
+                      </Link>
+                      <Link
+                        href="/blog/gurugram-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Gurugram Travel Guide: Cyber City, Kingdom of Dreams & Malls
+                      </Link>
+                      <Link
+                        href="/blog/hisar-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Hisar Travel Guide: Firoz Shah Palace & Blackbuck Country
+                      </Link>
+                      <Link
+                        href="/blog/kurukshetra-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Kurukshetra Travel Guide: Bhagavad Gita&apos;s Battlefield & Brahma Sarovar
+                      </Link>
+                      <Link
+                        href="/blog/morni-hills-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Morni Hills Travel Guide: Haryana&apos;s Only Hill Station
+                      </Link>
+                      <Link
+                        href="/blog/murthal-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Murthal Travel Guide: The Parathas That Built a Highway Legend
+                      </Link>
+                      <Link
+                        href="/blog/narnaul-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Narnaul Travel Guide: Mughal Tombs & Sher Shah Suri Connections
+                      </Link>
+                      <Link
+                        href="/blog/panipat-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Panipat Travel Guide: The Battlefield That Shaped Indian History
+                      </Link>
+                      <Link
+                        href="/blog/pinjore-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Pinjore Gardens Travel Guide: Mughal Terraces Near Chandigarh
+                      </Link>
+                      <Link
+                        href="/blog/rewari-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Rewari Travel Guide: Brass Town & 1857 Rebellion History
+                      </Link>
+                      <Link
+                        href="/blog/sultanpur-national-park-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Sultanpur National Park Travel Guide: Birdwatching Near Delhi
+                      </Link>
+                      <Link
+                        href="/blog/surajkund-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Surajkund Travel Guide: Crafts Mela & Ancient Sun Reservoir
+                      </Link>
                   </div>
                 </section>
 

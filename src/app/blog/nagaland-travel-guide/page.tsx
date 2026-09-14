@@ -128,6 +128,7 @@ const tableOfContents = [
   { id: "itinerary", title: "5-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "places-to-explore", title: "Places to Explore in Nagaland", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
@@ -311,7 +312,7 @@ export default function NagalandGuidePage() {
               {[
                 { label: "Home", href: "/" },
                 { label: "Blog", href: "/blog" },
-                { label: "Nagaland", href: "/blog?category=nagaland" },
+                { label: "Nagaland", href: "/blog/nagaland-travel-guide" },
                 { label: "Travel Guide", href: null },
               ].map((crumb, i, arr) => (
                 <li key={i} className="flex items-center gap-2">
@@ -1143,6 +1144,100 @@ export default function NagalandGuidePage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── Places to Explore ────────────────────────────────── */}
+                <section id="places-to-explore">
+                  <h2>Places to Explore in Nagaland</h2>
+                  <p>
+                    Every Nagaland guide on Kudozz Club, in one place — 14 destinations covered so far, from cities and towns to individual attractions. Use this index to plan beyond the highlights above.
+                  </p>
+                  <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3 my-6">
+                      <Link
+                        href="/blog/benreu-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Benreu Village Guide: Zeliang Naga Heritage
+                      </Link>
+                      <Link
+                        href="/blog/dimapur-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Dimapur Travel Guide: Gateway to Nagaland
+                      </Link>
+                      <Link
+                        href="/blog/doyang-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Doyang Guide: Amur Falcon Capital of the World
+                      </Link>
+                      <Link
+                        href="/blog/dzukou-valley-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Dzukou Valley Trek Guide: Route & Best Time
+                      </Link>
+                      <Link
+                        href="/blog/khonoma-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Khonoma Guide: India&apos;s First Green Village
+                      </Link>
+                      <Link
+                        href="/blog/kisama-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Kisama Guide: Hornbill Festival Heritage Village
+                      </Link>
+                      <Link
+                        href="/blog/kohima-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Kohima Travel Guide: War Cemetery & History
+                      </Link>
+                      <Link
+                        href="/blog/longwa-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Longwa Village Guide: India-Myanmar Border
+                      </Link>
+                      <Link
+                        href="/blog/mokokchung-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Mokokchung Guide: Ao Naga Heartland
+                      </Link>
+                      <Link
+                        href="/blog/mon-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Mon Travel Guide: Konyak Naga Heritage
+                      </Link>
+                      <Link
+                        href="/blog/mount-saramati-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Mount Saramati Trek: Nagaland&apos;s Highest Peak
+                      </Link>
+                      <Link
+                        href="/blog/peren-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Peren Travel Guide: Intanki National Park & Tips
+                      </Link>
+                      <Link
+                        href="/blog/phek-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Phek Travel Guide: Terraced Fields & Tips
+                      </Link>
+                      <Link
+                        href="/blog/shilloi-lake-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Shilloi Lake Guide: Nagaland&apos;s Largest Lake
+                      </Link>
                   </div>
                 </section>
 

@@ -319,7 +319,7 @@ export default function MaheDistrictGuidePage() {
               {[
                 { label: "Home", href: "/" },
                 { label: "Blog", href: "/blog" },
-                { label: "Mahe", href: "/blog?category=mahe" },
+                { label: "Mahe", href: "/blog/puducherry-district-travel-guide" },
                 { label: "District Guide", href: null },
               ].map((crumb, i, arr) => (
                 <li key={i} className="flex items-center gap-2">

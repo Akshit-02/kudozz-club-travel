@@ -112,7 +112,7 @@ function ArticleSchema() {
                 "@type": "ListItem",
                 position: 3,
                 name: "Ladakh",
-                item: "https://club.kudozz.in/blog?category=ladakh",
+                item: "https://club.kudozz.in/blog/leh-ladakh-road-trip-travel-guide",
               },
               { "@type": "ListItem", position: 4, name: "Drass" },
             ],
@@ -225,7 +225,7 @@ export default function DrassPage() {
               {[
                 { label: "Home", href: "/" },
                 { label: "Blog", href: "/blog" },
-                { label: "Ladakh", href: "/blog?category=ladakh" },
+                { label: "Ladakh", href: "/blog/leh-ladakh-road-trip-travel-guide" },
                 { label: "Drass", href: null },
               ].map((crumb, i, arr) => (
                 <li key={i} className="flex items-center gap-2">

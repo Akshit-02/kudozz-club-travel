@@ -184,6 +184,7 @@ const tableOfContents = [
   { id: "itinerary", title: "7-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "places-to-explore", title: "Places to Explore in Andhra Pradesh", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
@@ -315,7 +316,7 @@ export default function AndhraPradeshGuidePage() {
                 { label: "Blog", href: "/blog" },
                 {
                   label: "Andhra Pradesh",
-                  href: "/blog?category=andhra-pradesh",
+                  href: "/blog/andhra-pradesh-travel-guide",
                 },
                 { label: "Travel Guide", href: null },
               ].map((crumb, i, arr) => (
@@ -1180,6 +1181,100 @@ export default function AndhraPradeshGuidePage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── Places to Explore ────────────────────────────────── */}
+                <section id="places-to-explore">
+                  <h2>Places to Explore in Andhra Pradesh</h2>
+                  <p>
+                    Every Andhra Pradesh guide on Kudozz Club, in one place — 14 destinations covered so far, from cities and towns to individual attractions. Use this index to plan beyond the highlights above.
+                  </p>
+                  <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3 my-6">
+                      <Link
+                        href="/blog/ahobilam-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Ahobilam Travel Guide: The Nine Forms of Lord Narasimha
+                      </Link>
+                      <Link
+                        href="/blog/amaravati-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Amaravati Travel Guide: Ancient Buddhist Stupa & New Capital
+                      </Link>
+                      <Link
+                        href="/blog/araku-valley-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Araku Valley Travel Guide: Coffee Hills & the Train Journey Through 58 Tunnels
+                      </Link>
+                      <Link
+                        href="/blog/belum-caves-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Belum Caves Travel Guide: India&apos;s Second-Longest Cave System
+                      </Link>
+                      <Link
+                        href="/blog/borra-caves-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Borra Caves Travel Guide: Million-Year-Old Limestone Caverns
+                      </Link>
+                      <Link
+                        href="/blog/gandikota-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Gandikota Travel Guide: India&apos;s Grand Canyon
+                      </Link>
+                      <Link
+                        href="/blog/horsley-hills-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Horsley Hills Travel Guide: A Quiet Hill Station in Rayalaseema
+                      </Link>
+                      <Link
+                        href="/blog/lambasingi-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Lambasingi Travel Guide: The Kashmir of Andhra Pradesh
+                      </Link>
+                      <Link
+                        href="/blog/maredumilli-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Maredumilli Travel Guide: Rainforest Eco-Tourism in the Eastern Ghats
+                      </Link>
+                      <Link
+                        href="/blog/papi-hills-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Papi Hills Travel Guide: Godavari Gorge Boat Cruise
+                      </Link>
+                      <Link
+                        href="/blog/rajahmundry-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Rajahmundry Travel Guide: Godavari Bridges & Papi Hills Gateway
+                      </Link>
+                      <Link
+                        href="/blog/tirupati-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Tirupati Travel Guide: Tirumala Temple, Darshan & How to Reach
+                      </Link>
+                      <Link
+                        href="/blog/vijayawada-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Vijayawada Travel Guide: Kanaka Durga Temple & Krishna River
+                      </Link>
+                      <Link
+                        href="/blog/visakhapatnam-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Visakhapatnam Travel Guide: Beaches, Submarine Museum & Vizag City Guide
+                      </Link>
                   </div>
                 </section>
 

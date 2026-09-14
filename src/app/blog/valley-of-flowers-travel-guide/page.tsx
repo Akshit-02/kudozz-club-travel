@@ -234,7 +234,7 @@ export default function ValleyOfFlowersPage() {
               {[
                 { label: "Home", href: "/" },
                 { label: "Blog", href: "/blog" },
-                { label: "Uttarakhand", href: "/blog?category=uttarakhand" },
+                { label: "Uttarakhand", href: "/blog/uttarakhand-travel-guide" },
                 { label: "Valley of Flowers", href: null },
               ].map((crumb, i, arr) => (
                 <li key={i} className="flex items-center gap-2">

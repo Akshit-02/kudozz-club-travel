@@ -193,6 +193,7 @@ const tableOfContents = [
   { id: "itinerary", title: "7-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "places-to-explore", title: "Places to Explore in Andaman & Nicobar Islands", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
@@ -323,7 +324,7 @@ export default function AndamanIslandsPage() {
               {[
                 { label: "Home", href: "/" },
                 { label: "Blog", href: "/blog" },
-                { label: "Islands", href: "/blog?category=islands" },
+                { label: "Islands", href: "/blog/andaman-islands-travel-guide" },
                 { label: "Andaman Islands", href: null },
               ].map((crumb, i, arr) => (
                 <li key={i} className="flex items-center gap-2">
@@ -2024,6 +2025,124 @@ export default function AndamanIslandsPage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── Places to Explore ────────────────────────────────── */}
+                <section id="places-to-explore">
+                  <h2>Places to Explore in Andaman & Nicobar Islands</h2>
+                  <p>
+                    Every Andaman & Nicobar Islands guide on Kudozz Club, in one place — 18 destinations covered so far, from cities and towns to individual attractions. Use this index to plan beyond the highlights above.
+                  </p>
+                  <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3 my-6">
+                      <Link
+                        href="/blog/baratang-andaman-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Baratang Island Travel Guide: Caves, Mud Volcano & Convoy Tips
+                      </Link>
+                      <Link
+                        href="/blog/cellular-jail-andaman-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Cellular Jail Travel Guide: History, Timings & Light Show
+                      </Link>
+                      <Link
+                        href="/blog/chidiya-tapu-andaman-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Chidiya Tapu Travel Guide: Sunset Point, Birds & Tips
+                      </Link>
+                      <Link
+                        href="/blog/diglipur-andaman-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Diglipur Travel Guide: Saddle Peak, Kalipur & North Andaman
+                      </Link>
+                      <Link
+                        href="/blog/jolly-buoy-island-andaman-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Jolly Buoy Island Andaman: Marine Park Visit Guide
+                      </Link>
+                      <Link
+                        href="/blog/kalipur-andaman-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Kalipur Beach Travel Guide: Turtles, Saddle Peak & Tips
+                      </Link>
+                      <Link
+                        href="/blog/little-andaman-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Little Andaman Travel Guide: Butler Bay, Surfing & Tips
+                      </Link>
+                      <Link
+                        href="/blog/long-island-andaman-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Long Island Andaman: Lalaji Bay Beach Travel Guide
+                      </Link>
+                      <Link
+                        href="/blog/mayabunder-andaman-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Mayabunder Travel Guide: Interview Island & Karmatang Beach
+                      </Link>
+                      <Link
+                        href="/blog/mount-manipur-andaman-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Mount Manipur (Mount Harriet) Travel Guide: Trek & Views
+                      </Link>
+                      <Link
+                        href="/blog/north-bay-island-andaman-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        North Bay Island Andaman: Coral, Sea Walking & Visit Guide
+                      </Link>
+                      <Link
+                        href="/blog/radhanagar-beach-andaman-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Radhanagar Beach Travel Guide: Timings, Sunset & Tips
+                      </Link>
+                      <Link
+                        href="/blog/rangat-andaman-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Rangat Andaman Travel Guide: Cuthbert Bay & Long Island
+                      </Link>
+                      <Link
+                        href="/blog/ross-and-smith-islands-andaman-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Ross & Smith Islands Travel Guide: Sandbar, Permits & Tips
+                      </Link>
+                      <Link
+                        href="/blog/ross-island-andaman-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Ross Island Travel Guide: Ruins, History & How to Visit
+                      </Link>
+                      <Link
+                        href="/blog/neil-island-andaman-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Shaheed Dweep (Neil Island) Travel Guide: Beaches & Tips
+                      </Link>
+                      <Link
+                        href="/blog/port-blair-andaman-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Sri Vijaya Puram (Port Blair) Travel Guide: Sights & Tips
+                      </Link>
+                      <Link
+                        href="/blog/havelock-island-andaman-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Swaraj Dweep (Havelock Island) Travel Guide: Beaches & Diving
+                      </Link>
                   </div>
                 </section>
 

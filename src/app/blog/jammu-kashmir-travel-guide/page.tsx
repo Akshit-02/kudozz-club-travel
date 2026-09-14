@@ -187,6 +187,7 @@ const tableOfContents = [
   { id: "itinerary", title: "6-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "places-to-explore", title: "Places to Explore in Jammu & Kashmir", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
@@ -318,7 +319,7 @@ export default function JammuKashmirGuidePage() {
                 { label: "Blog", href: "/blog" },
                 {
                   label: "Jammu & Kashmir",
-                  href: "/blog?category=jammu-kashmir",
+                  href: "/blog/jammu-kashmir-travel-guide",
                 },
                 { label: "Travel Guide", href: null },
               ].map((crumb, i, arr) => (
@@ -1203,6 +1204,88 @@ export default function JammuKashmirGuidePage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── Places to Explore ────────────────────────────────── */}
+                <section id="places-to-explore">
+                  <h2>Places to Explore in Jammu & Kashmir</h2>
+                  <p>
+                    Every Jammu & Kashmir guide on Kudozz Club, in one place — 12 destinations covered so far, from cities and towns to individual attractions. Use this index to plan beyond the highlights above.
+                  </p>
+                  <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3 my-6">
+                      <Link
+                        href="/blog/aharbal-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Aharbal Waterfall Travel Guide: Kashmir&apos;s Niagara
+                      </Link>
+                      <Link
+                        href="/blog/bhaderwah-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Bhaderwah Travel Guide: J&K&apos;s Mini Kashmir
+                      </Link>
+                      <Link
+                        href="/blog/doodhpathri-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Doodhpathri Travel Guide: Kashmir&apos;s Valley of Milk
+                      </Link>
+                      <Link
+                        href="/blog/gulmarg-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Gulmarg Travel Guide: Gondola, Skiing & Meadows
+                      </Link>
+                      <Link
+                        href="/blog/gurez-valley-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Gurez Valley Travel Guide: Kashmir&apos;s Hidden Border Valley
+                      </Link>
+                      <Link
+                        href="/blog/jammu-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Jammu Travel Guide: Temples, Forts & Winter Capital
+                      </Link>
+                      <Link
+                        href="/blog/katra-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Katra & Vaishno Devi Yatra Guide: Route, Tips & Stay
+                      </Link>
+                      <Link
+                        href="/blog/pahalgam-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Pahalgam Travel Guide: Betaab Valley, Aru & Chandanwari
+                      </Link>
+                      <Link
+                        href="/blog/patnitop-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Patnitop Travel Guide: Paragliding, Pines & Best Time
+                      </Link>
+                      <Link
+                        href="/blog/sonamarg-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Sonamarg Travel Guide: Thajiwas Glacier & How to Visit
+                      </Link>
+                      <Link
+                        href="/blog/srinagar-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Srinagar Travel Guide: Dal Lake, Houseboats & Mughal Gardens
+                      </Link>
+                      <Link
+                        href="/blog/yusmarg-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Yusmarg Travel Guide: Meadow of Jesus & Nilnag Lake
+                      </Link>
                   </div>
                 </section>
 

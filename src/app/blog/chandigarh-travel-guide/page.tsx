@@ -183,6 +183,7 @@ const tableOfContents = [
   { id: "itinerary", title: "2-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "places-to-explore", title: "Places to Explore in Chandigarh", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
@@ -299,7 +300,7 @@ export default function ChandigarhGuidePage() {
               {[
                 { label: "Home", href: "/" },
                 { label: "Blog", href: "/blog" },
-                { label: "Chandigarh", href: "/blog?category=chandigarh" },
+                { label: "Chandigarh", href: "/blog/chandigarh-travel-guide" },
                 { label: "Travel Guide", href: null },
               ].map((crumb, i, arr) => (
                 <li key={i} className="flex items-center gap-2">
@@ -1030,6 +1031,124 @@ export default function ChandigarhGuidePage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── Places to Explore ────────────────────────────────── */}
+                <section id="places-to-explore">
+                  <h2>Places to Explore in Chandigarh</h2>
+                  <p>
+                    Every Chandigarh guide on Kudozz Club, in one place — 18 destinations covered so far, from cities and towns to individual attractions. Use this index to plan beyond the highlights above.
+                  </p>
+                  <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3 my-6">
+                      <Link
+                        href="/blog/bougainvillea-garden-chandigarh-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Bougainvillea Garden Chandigarh: Blooms & Best Time
+                      </Link>
+                      <Link
+                        href="/blog/capitol-complex-chandigarh-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Capitol Complex Chandigarh: Le Corbusier&apos;s UNESCO Site Guide
+                      </Link>
+                      <Link
+                        href="/blog/chandigarh-botanical-garden-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Chandigarh Botanical Garden: Sarangpur Visit Guide
+                      </Link>
+                      <Link
+                        href="/blog/garden-of-fragrance-chandigarh-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Garden of Fragrance Chandigarh: Scented Plants & Braille Trail
+                      </Link>
+                      <Link
+                        href="/blog/government-museum-chandigarh-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Government Museum Chandigarh: Gandhara Art & Miniatures
+                      </Link>
+                      <Link
+                        href="/blog/international-dolls-museum-chandigarh-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        International Dolls Museum Chandigarh: Visit Guide
+                      </Link>
+                      <Link
+                        href="/blog/japanese-garden-chandigarh-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Japanese Garden Chandigarh: Pagodas, Ponds & Best Time
+                      </Link>
+                      <Link
+                        href="/blog/le-corbusier-centre-chandigarh-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Le Corbusier Centre Chandigarh: Museum Visit Guide
+                      </Link>
+                      <Link
+                        href="/blog/leisure-valley-chandigarh-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Leisure Valley Chandigarh: The City&apos;s Green Corridor Guide
+                      </Link>
+                      <Link
+                        href="/blog/rock-garden-chandigarh-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Rock Garden Chandigarh: Nek Chand&apos;s Sculpture Garden Guide
+                      </Link>
+                      <Link
+                        href="/blog/sector-17-chandigarh-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Sector 17 Chandigarh: Plaza, Shopping & Nightlife Guide
+                      </Link>
+                      <Link
+                        href="/blog/sector-22-chandigarh-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Sector 22 Chandigarh: Market, Stays & Local Life Guide
+                      </Link>
+                      <Link
+                        href="/blog/sector-26-chandigarh-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Sector 26 Chandigarh: Grain Market Food Street Guide
+                      </Link>
+                      <Link
+                        href="/blog/sector-35-chandigarh-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Sector 35 Chandigarh: Market, Cafés & Student Vibe Guide
+                      </Link>
+                      <Link
+                        href="/blog/shanti-kunj-chandigarh-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Shanti Kunj Chandigarh: A Quiet Garden Near Rose Garden
+                      </Link>
+                      <Link
+                        href="/blog/sukhna-lake-chandigarh-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Sukhna Lake Chandigarh: Promenade, Boating & Best Time
+                      </Link>
+                      <Link
+                        href="/blog/terraced-garden-chandigarh-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Terraced Garden Chandigarh: Sector 33 Visit Guide
+                      </Link>
+                      <Link
+                        href="/blog/rose-garden-chandigarh-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Zakir Hussain Rose Garden: Chandigarh&apos;s Rose Festival Guide
+                      </Link>
                   </div>
                 </section>
 

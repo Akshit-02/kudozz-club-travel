@@ -183,6 +183,7 @@ const tableOfContents = [
   { id: "itinerary", title: "7-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "places-to-explore", title: "Places to Explore in Uttarakhand", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
@@ -312,7 +313,7 @@ export default function UttarakhandGuidePage() {
               {[
                 { label: "Home", href: "/" },
                 { label: "Blog", href: "/blog" },
-                { label: "Uttarakhand", href: "/blog?category=uttarakhand" },
+                { label: "Uttarakhand", href: "/blog/uttarakhand-travel-guide" },
                 { label: "Travel Guide", href: null },
               ].map((crumb, i, arr) => (
                 <li key={i} className="flex items-center gap-2">
@@ -1142,6 +1143,148 @@ export default function UttarakhandGuidePage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── Places to Explore ────────────────────────────────── */}
+                <section id="places-to-explore">
+                  <h2>Places to Explore in Uttarakhand</h2>
+                  <p>
+                    Every Uttarakhand guide on Kudozz Club, in one place — 22 destinations covered so far, from cities and towns to individual attractions. Use this index to plan beyond the highlights above.
+                  </p>
+                  <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3 my-6">
+                      <Link
+                        href="/blog/adi-kailash-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Adi Kailash Travel Guide: Trek, Permits & Best Time
+                      </Link>
+                      <Link
+                        href="/blog/auli-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Auli Travel Guide: Skiing, Cable Car & Best Time
+                      </Link>
+                      <Link
+                        href="/blog/badrinath-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Badrinath Travel Guide: Temple, Timings & How to Reach
+                      </Link>
+                      <Link
+                        href="/blog/chopta-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Chopta Travel Guide: Tungnath Trek & Best Time
+                      </Link>
+                      <Link
+                        href="/blog/dayara-bugyal-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Dayara Bugyal Trek: Route, Season & a Complete Guide
+                      </Link>
+                      <Link
+                        href="/blog/dhanaulti-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Dhanaulti: Pine Forests, Quiet Views & a Complete Guide
+                      </Link>
+                      <Link
+                        href="/blog/gangotri-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Gangotri Travel Guide: Temple, Gaumukh Trek & Tips
+                      </Link>
+                      <Link
+                        href="/blog/haridwar-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Haridwar Travel Guide: Ganga Aarti, Ghats & Temples
+                      </Link>
+                      <Link
+                        href="/blog/jageshwar-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Jageshwar Temple Travel Guide: History & Visit Tips
+                      </Link>
+                      <Link
+                        href="/blog/jim-corbett-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Jim Corbett National Park: Safari, Zones & Tips
+                      </Link>
+                      <Link
+                        href="/blog/kausani-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Kausani Travel Guide: Himalayan Views & Tea Gardens
+                      </Link>
+                      <Link
+                        href="/blog/kedarnath-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Kedarnath Travel Guide: Trek, Yatra & Helicopter Tips
+                      </Link>
+                      <Link
+                        href="/blog/lansdowne-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Lansdowne: Quiet Hills, Bhulla Lake & a Complete Visit Guide
+                      </Link>
+                      <Link
+                        href="/blog/mukteshwar-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Mukteshwar Travel Guide: Views, Orchards & Adventure
+                      </Link>
+                      <Link
+                        href="/blog/munsiyari-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Munsiyari Travel Guide: Panchachuli Views & Treks
+                      </Link>
+                      <Link
+                        href="/blog/mussoorie-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Mussoorie Travel Guide: Mall Road, Views & Tips
+                      </Link>
+                      <Link
+                        href="/blog/nainital-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Nainital Travel Guide: Naini Lake, Views & Tips
+                      </Link>
+                      <Link
+                        href="/blog/ranikhet-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Ranikhet Travel Guide: Cantonment Views & Golf
+                      </Link>
+                      <Link
+                        href="/blog/rishikesh-adventure-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Rishikesh Travel Guide: Adventure, Yoga, Rafting & More
+                      </Link>
+                      <Link
+                        href="/blog/tehri-lake-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Tehri Lake: Water Sports, Houseboats & a Complete Visit Guide
+                      </Link>
+                      <Link
+                        href="/blog/valley-of-flowers-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Valley of Flowers Trek Guide: Permits, Routes, Best Time & Tips
+                      </Link>
+                      <Link
+                        href="/blog/yamunotri-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Yamunotri Travel Guide: Trek, Hot Springs & Tips
+                      </Link>
                   </div>
                 </section>
 

@@ -181,6 +181,7 @@ const tableOfContents = [
   { id: "itinerary", title: "9-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "places-to-explore", title: "Places to Explore in Karnataka", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
@@ -312,7 +313,7 @@ export default function KarnatakaGuidePage() {
                 { label: "Blog", href: "/blog" },
                 {
                   label: "Karnataka",
-                  href: "/blog?category=karnataka",
+                  href: "/blog/karnataka-travel-guide",
                 },
                 { label: "Travel Guide", href: null },
               ].map((crumb, i, arr) => (
@@ -1201,6 +1202,106 @@ export default function KarnatakaGuidePage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── Places to Explore ────────────────────────────────── */}
+                <section id="places-to-explore">
+                  <h2>Places to Explore in Karnataka</h2>
+                  <p>
+                    Every Karnataka guide on Kudozz Club, in one place — 15 destinations covered so far, from cities and towns to individual attractions. Use this index to plan beyond the highlights above.
+                  </p>
+                  <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3 my-6">
+                      <Link
+                        href="/blog/badami-aihole-pattadakal-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Badami, Aihole & Pattadakal Travel Guide: Chalukya Cave Temples
+                      </Link>
+                      <Link
+                        href="/blog/bandipur-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Bandipur National Park: Tiger Safari Guide, Zones & Best Time
+                      </Link>
+                      <Link
+                        href="/blog/bengaluru-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Bengaluru Travel Guide: Gardens, Palaces & India&apos;s Tech Capital
+                      </Link>
+                      <Link
+                        href="/blog/chikmagalur-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Chikmagalur Travel Guide: Coffee Estates, Peaks & Waterfalls
+                      </Link>
+                      <Link
+                        href="/blog/coorg-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Coorg Travel Guide: Coffee, Waterfalls, Trekking & More
+                      </Link>
+                      <Link
+                        href="/blog/dandeli-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Dandeli Travel Guide: White-Water Rafting & Wildlife Sanctuary
+                      </Link>
+                      <Link
+                        href="/blog/gokarna-beaches-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Gokarna Travel Guide: Best Beaches, Temples & Itinerary
+                      </Link>
+                      <Link
+                        href="/blog/hampi-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Hampi Travel Guide: Ruins, Boulders, Temples & Tips
+                      </Link>
+                      <Link
+                        href="/blog/jog-falls-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Jog Falls Travel Guide: India&apos;s Tallest Plunge Waterfall
+                      </Link>
+                      <Link
+                        href="/blog/kabini-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Kabini Travel Guide: Wildlife Safari & Backwater Boat Rides
+                      </Link>
+                      <Link
+                        href="/blog/mangaluru-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Mangaluru Travel Guide: Beaches, Temples & Coastal Cuisine
+                      </Link>
+                      <Link
+                        href="/blog/mysuru-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Mysuru Travel Guide: Mysore Palace, Dasara & City Guide
+                      </Link>
+                      <Link
+                        href="/blog/nandi-hills-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Nandi Hills Travel Guide: Sunrise Point Near Bengaluru
+                      </Link>
+                      <Link
+                        href="/blog/sakleshpur-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Sakleshpur Travel Guide: Coffee Trails, Railway Trek & Waterfalls
+                      </Link>
+                      <Link
+                        href="/blog/udupi-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Udupi Travel Guide: Krishna Temple, Beaches & Udupi Cuisine
+                      </Link>
                   </div>
                 </section>
 

@@ -312,7 +312,7 @@ export default function ZiroValleyGuidePage() {
               {[
                 { label: "Home", href: "/" },
                 { label: "Blog", href: "/blog" },
-                { label: "Ziro Valley", href: "/blog?category=ziro-valley" },
+                { label: "Ziro Valley", href: "/blog/arunachal-pradesh-travel-guide" },
                 { label: "Travel Guide", href: null },
               ].map((crumb, i, arr) => (
                 <li key={i} className="flex items-center gap-2">

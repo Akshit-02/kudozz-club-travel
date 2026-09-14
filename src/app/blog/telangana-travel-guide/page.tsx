@@ -104,7 +104,7 @@ function ArticleSchema() {
                 "@type": "ListItem",
                 position: 3,
                 name: "Telangana",
-                item: "https://club.kudozz.in/blog?category=telangana",
+                item: "https://club.kudozz.in/blog/telangana-travel-guide",
               },
               {
                 "@type": "ListItem",
@@ -183,6 +183,7 @@ const tableOfContents = [
   { id: "itinerary", title: "5-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "places-to-explore", title: "Places to Explore in Telangana", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
@@ -312,7 +313,7 @@ export default function TelanganaGuidePage() {
               {[
                 { label: "Home", href: "/" },
                 { label: "Blog", href: "/blog" },
-                { label: "Telangana", href: "/blog?category=telangana" },
+                { label: "Telangana", href: "/blog/telangana-travel-guide" },
                 { label: "Travel Guide", href: null },
               ].map((crumb, i, arr) => (
                 <li key={i} className="flex items-center gap-2">
@@ -1203,6 +1204,112 @@ export default function TelanganaGuidePage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── Places to Explore ────────────────────────────────── */}
+                <section id="places-to-explore">
+                  <h2>Places to Explore in Telangana</h2>
+                  <p>
+                    Every Telangana guide on Kudozz Club, in one place — 16 destinations covered so far, from cities and towns to individual attractions. Use this index to plan beyond the highlights above.
+                  </p>
+                  <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3 my-6">
+                      <Link
+                        href="/blog/alampur-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Alampur Travel Guide: Navabrahma Temples & Tips
+                      </Link>
+                      <Link
+                        href="/blog/ananthagiri-hills-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Ananthagiri Hills Guide: Coffee & Weekend Trip
+                      </Link>
+                      <Link
+                        href="/blog/bhadrachalam-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Bhadrachalam Travel Guide: Temple & Godavari
+                      </Link>
+                      <Link
+                        href="/blog/bogatha-waterfall-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Bogatha Waterfall Guide: Best Time & How to Reach
+                      </Link>
+                      <Link
+                        href="/blog/charminar-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Charminar Guide: History, Timings & Tips
+                      </Link>
+                      <Link
+                        href="/blog/golconda-fort-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Golconda Fort Guide: History, Sound Show & Tips
+                      </Link>
+                      <Link
+                        href="/blog/hyderabad-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Hyderabad Travel Guide: Charminar, Golconda & Food
+                      </Link>
+                      <Link
+                        href="/blog/kawal-tiger-reserve-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Kawal Tiger Reserve: Safari Guide & Tips
+                      </Link>
+                      <Link
+                        href="/blog/kuntala-waterfall-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Kuntala Waterfall Guide: Telangana&apos;s Tallest Falls
+                      </Link>
+                      <Link
+                        href="/blog/laknavaram-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Laknavaram Lake Guide: Bridge, Boating & Tips
+                      </Link>
+                      <Link
+                        href="/blog/medaram-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Medaram Jatara Guide: Sammakka Saralamma Festival
+                      </Link>
+                      <Link
+                        href="/blog/nagarjuna-sagar-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Nagarjuna Sagar Guide: Dam, Island & Tips
+                      </Link>
+                      <Link
+                        href="/blog/srisailam-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Srisailam Travel Guide: Jyotirlinga & Nallamala
+                      </Link>
+                      <Link
+                        href="/blog/vemulawada-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Vemulawada Temple Guide: Darshan & Tips
+                      </Link>
+                      <Link
+                        href="/blog/warangal-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Warangal Travel Guide: Kakatiya Heritage & Tips
+                      </Link>
+                      <Link
+                        href="/blog/yadadri-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Yadadri Temple Guide: Darshan, Timings & Tips
+                      </Link>
                   </div>
                 </section>
 

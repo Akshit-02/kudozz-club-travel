@@ -183,6 +183,7 @@ const tableOfContents = [
   { id: "itinerary", title: "3-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "places-to-explore", title: "Places to Explore in Punjab", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
@@ -312,7 +313,7 @@ export default function PunjabGuidePage() {
               {[
                 { label: "Home", href: "/" },
                 { label: "Blog", href: "/blog" },
-                { label: "Punjab", href: "/blog?category=punjab" },
+                { label: "Punjab", href: "/blog/punjab-travel-guide" },
                 { label: "Travel Guide", href: null },
               ].map((crumb, i, arr) => (
                 <li key={i} className="flex items-center gap-2">
@@ -1113,6 +1114,100 @@ export default function PunjabGuidePage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── Places to Explore ────────────────────────────────── */}
+                <section id="places-to-explore">
+                  <h2>Places to Explore in Punjab</h2>
+                  <p>
+                    Every Punjab guide on Kudozz Club, in one place — 14 destinations covered so far, from cities and towns to individual attractions. Use this index to plan beyond the highlights above.
+                  </p>
+                  <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3 my-6">
+                      <Link
+                        href="/blog/abohar-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Abohar Travel Guide: Blackbuck Sanctuary & Tips
+                      </Link>
+                      <Link
+                        href="/blog/amritsar-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Amritsar Travel Guide: Golden Temple & Food
+                      </Link>
+                      <Link
+                        href="/blog/anandpur-sahib-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Anandpur Sahib Guide: Birthplace of the Khalsa
+                      </Link>
+                      <Link
+                        href="/blog/bathinda-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Bathinda Travel Guide: Qila Mubarak & History
+                      </Link>
+                      <Link
+                        href="/blog/fatehgarh-sahib-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Fatehgarh Sahib Guide: History & Tips
+                      </Link>
+                      <Link
+                        href="/blog/ferozepur-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Ferozepur Travel Guide: Hussainiwala & Tips
+                      </Link>
+                      <Link
+                        href="/blog/golden-temple-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Golden Temple Guide: Timings, Langar & Tips
+                      </Link>
+                      <Link
+                        href="/blog/kapurthala-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Kapurthala Travel Guide: The Paris of Punjab
+                      </Link>
+                      <Link
+                        href="/blog/mohali-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Mohali Travel Guide: Cricket, Stay & Tips
+                      </Link>
+                      <Link
+                        href="/blog/patiala-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Patiala Travel Guide: Qila Mubarak & Tips
+                      </Link>
+                      <Link
+                        href="/blog/ranjit-sagar-dam-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Ranjit Sagar Dam Guide: Best Time & Tips
+                      </Link>
+                      <Link
+                        href="/blog/sultanpur-lodhi-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Sultanpur Lodhi Guide: Guru Nanak&apos;s Sacred Town
+                      </Link>
+                      <Link
+                        href="/blog/tarn-taran-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Tarn Taran Sahib Guide: The Largest Sarovar
+                      </Link>
+                      <Link
+                        href="/blog/wagah-border-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Wagah Border Guide: Beating Retreat Ceremony
+                      </Link>
                   </div>
                 </section>
 

@@ -185,6 +185,7 @@ const tableOfContents = [
   { id: "itinerary", title: "7-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "places-to-explore", title: "Places to Explore in West Bengal", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
@@ -314,7 +315,7 @@ export default function WestBengalGuidePage() {
               {[
                 { label: "Home", href: "/" },
                 { label: "Blog", href: "/blog" },
-                { label: "West Bengal", href: "/blog?category=west-bengal" },
+                { label: "West Bengal", href: "/blog/west-bengal-travel-guide" },
                 { label: "Travel Guide", href: null },
               ].map((crumb, i, arr) => (
                 <li key={i} className="flex items-center gap-2">
@@ -1180,6 +1181,136 @@ export default function WestBengalGuidePage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── Places to Explore ────────────────────────────────── */}
+                <section id="places-to-explore">
+                  <h2>Places to Explore in West Bengal</h2>
+                  <p>
+                    Every West Bengal guide on Kudozz Club, in one place — 20 destinations covered so far, from cities and towns to individual attractions. Use this index to plan beyond the highlights above.
+                  </p>
+                  <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3 my-6">
+                      <Link
+                        href="/blog/ajodhya-hills-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Ajodhya Hills Travel Guide: Trekking & Tribal Culture
+                      </Link>
+                      <Link
+                        href="/blog/bishnupur-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Bishnupur Travel Guide: Terracotta Temples & Baluchari
+                      </Link>
+                      <Link
+                        href="/blog/buxa-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Buxa Tiger Reserve Travel Guide: Trek & Safari
+                      </Link>
+                      <Link
+                        href="/blog/cooch-behar-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Cooch Behar Travel Guide: Palace & Royal Heritage
+                      </Link>
+                      <Link
+                        href="/blog/darjeeling-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Darjeeling Travel Guide: Tea Gardens, Toy Train & Tiger Hill
+                      </Link>
+                      <Link
+                        href="/blog/digha-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Digha Travel Guide: Beaches, Marine Aquarium & Tips
+                      </Link>
+                      <Link
+                        href="/blog/dooars-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Dooars Travel Guide: Wildlife, Tea Gardens & Rivers
+                      </Link>
+                      <Link
+                        href="/blog/gangasagar-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Gangasagar Travel Guide: Mela, Temple & How to Reach
+                      </Link>
+                      <Link
+                        href="/blog/gorumara-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Gorumara National Park: Safari, Timings & Tips
+                      </Link>
+                      <Link
+                        href="/blog/jhargram-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Jhargram Travel Guide: Forests, Palace & Deer Park
+                      </Link>
+                      <Link
+                        href="/blog/kalimpong-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Kalimpong Travel Guide: Monasteries, Flowers & Views
+                      </Link>
+                      <Link
+                        href="/blog/kolkata-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Kolkata Travel Guide: Heritage, Food & Culture
+                      </Link>
+                      <Link
+                        href="/blog/mandarmani-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Mandarmani Travel Guide: Beach Drive & Resorts
+                      </Link>
+                      <Link
+                        href="/blog/mayapur-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Mayapur Travel Guide: ISKCON Temple & Visit Tips
+                      </Link>
+                      <Link
+                        href="/blog/mukutmanipur-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Mukutmanipur Travel Guide: Dam, Boating & Tips
+                      </Link>
+                      <Link
+                        href="/blog/murshidabad-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Murshidabad Travel Guide: Hazarduari & Nawabi History
+                      </Link>
+                      <Link
+                        href="/blog/sandakphu-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Sandakphu Trek Guide: Route, Permits & Best Time
+                      </Link>
+                      <Link
+                        href="/blog/santiniketan-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Santiniketan Travel Guide: Tagore&apos;s University Town
+                      </Link>
+                      <Link
+                        href="/blog/sundarbans-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Sundarbans Travel Guide: Tiger Safari, Permits & Tips
+                      </Link>
+                      <Link
+                        href="/blog/tarapith-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Tarapith Travel Guide: Shakti Peeth Temple & Tips
+                      </Link>
                   </div>
                 </section>
 

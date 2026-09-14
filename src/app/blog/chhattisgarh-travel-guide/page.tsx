@@ -184,6 +184,7 @@ const tableOfContents = [
   { id: "itinerary", title: "5-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "places-to-explore", title: "Places to Explore in Chhattisgarh", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
@@ -313,7 +314,7 @@ export default function ChhattisgarhGuidePage() {
               {[
                 { label: "Home", href: "/" },
                 { label: "Blog", href: "/blog" },
-                { label: "Chhattisgarh", href: "/blog?category=chhattisgarh" },
+                { label: "Chhattisgarh", href: "/blog/chhattisgarh-travel-guide" },
                 { label: "Travel Guide", href: null },
               ].map((crumb, i, arr) => (
                 <li key={i} className="flex items-center gap-2">
@@ -1128,6 +1129,106 @@ export default function ChhattisgarhGuidePage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── Places to Explore ────────────────────────────────── */}
+                <section id="places-to-explore">
+                  <h2>Places to Explore in Chhattisgarh</h2>
+                  <p>
+                    Every Chhattisgarh guide on Kudozz Club, in one place — 15 destinations covered so far, from cities and towns to individual attractions. Use this index to plan beyond the highlights above.
+                  </p>
+                  <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3 my-6">
+                      <Link
+                        href="/blog/achanakmar-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Achanakmar Tiger Reserve Travel Guide: Safari & Best Time
+                      </Link>
+                      <Link
+                        href="/blog/barnawapara-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Barnawapara Wildlife Sanctuary Travel Guide: Safari Near Raipur
+                      </Link>
+                      <Link
+                        href="/blog/bastar-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Bastar Travel Guide: Tribal Culture, Bastar Dussehra & Dandami Art
+                      </Link>
+                      <Link
+                        href="/blog/bhoramdeo-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Bhoramdeo Temple Travel Guide: Chhattisgarh&apos;s Khajuraho
+                      </Link>
+                      <Link
+                        href="/blog/chitrakote-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Chitrakote Falls Travel Guide: India&apos;s Widest Waterfall
+                      </Link>
+                      <Link
+                        href="/blog/danteshwari-temple-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Danteshwari Temple Travel Guide: Bastar&apos;s Shakti Peetha
+                      </Link>
+                      <Link
+                        href="/blog/dongargarh-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Dongargarh Travel Guide: Bamleshwari Temple & Ropeway
+                      </Link>
+                      <Link
+                        href="/blog/jagdalpur-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Jagdalpur Travel Guide: Gateway to Bastar&apos;s Waterfalls & Tribal Culture
+                      </Link>
+                      <Link
+                        href="/blog/kanger-valley-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Kanger Valley National Park Travel Guide: Caves, Falls & Wildlife
+                      </Link>
+                      <Link
+                        href="/blog/kanker-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Kanker Travel Guide: Palace Stays & Gateway to Interior Bastar
+                      </Link>
+                      <Link
+                        href="/blog/kawardha-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Kawardha Travel Guide: Palace Town & Bhoramdeo Gateway
+                      </Link>
+                      <Link
+                        href="/blog/mainpat-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Mainpat Travel Guide: Chhattisgarh&apos;s Tibetan Plateau Retreat
+                      </Link>
+                      <Link
+                        href="/blog/sirpur-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Sirpur Travel Guide: Ancient Buddhist Ruins on the Mahanadi
+                      </Link>
+                      <Link
+                        href="/blog/tatapani-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Tatapani Travel Guide: Chhattisgarh&apos;s Natural Hot Springs
+                      </Link>
+                      <Link
+                        href="/blog/tirathgarh-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Tirathgarh Falls Travel Guide: Multi-Tiered Cascade in Kanger Valley
+                      </Link>
                   </div>
                 </section>
 

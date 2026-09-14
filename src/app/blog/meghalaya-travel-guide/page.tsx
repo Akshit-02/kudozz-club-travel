@@ -194,6 +194,7 @@ const tableOfContents = [
   { id: "food-guide", title: "What to Eat", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "places-to-explore", title: "Places to Explore in Meghalaya", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
@@ -233,7 +234,7 @@ export default function MeghalayaPage() {
               {[
                 { label: "Home", href: "/" },
                 { label: "Blog", href: "/blog" },
-                { label: "Meghalaya", href: "/blog?category=meghalaya" },
+                { label: "Meghalaya", href: "/blog/meghalaya-travel-guide" },
                 { label: "Travel Guide", href: null },
               ].map((crumb, i, arr) => (
                 <li key={i} className="flex items-center gap-2">
@@ -1116,6 +1117,100 @@ export default function MeghalayaPage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── Places to Explore ────────────────────────────────── */}
+                <section id="places-to-explore">
+                  <h2>Places to Explore in Meghalaya</h2>
+                  <p>
+                    Every Meghalaya guide on Kudozz Club, in one place — 14 destinations covered so far, from cities and towns to individual attractions. Use this index to plan beyond the highlights above.
+                  </p>
+                  <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3 my-6">
+                      <Link
+                        href="/blog/balpakram-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Balpakram National Park: Myths & Wildlife
+                      </Link>
+                      <Link
+                        href="/blog/cherrapunji-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Cherrapunji Travel Guide: Waterfalls & Rainfall
+                      </Link>
+                      <Link
+                        href="/blog/dawki-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Dawki Travel Guide: Crystal Clear River & Tips
+                      </Link>
+                      <Link
+                        href="/blog/jowai-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Jowai Travel Guide: Jaintia Hills & Tips
+                      </Link>
+                      <Link
+                        href="/blog/krang-suri-falls-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Krang Suri Falls Guide: Best Time & Tips
+                      </Link>
+                      <Link
+                        href="/blog/laitlum-canyons-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Laitlum Canyons Guide: Meghalaya&apos;s Grand Canyon
+                      </Link>
+                      <Link
+                        href="/blog/mawlynnong-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Mawlynnong Guide: India&apos;s Cleanest Village
+                      </Link>
+                      <Link
+                        href="/blog/mawphanlur-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Mawphanlur Guide: Grasslands & Camping
+                      </Link>
+                      <Link
+                        href="/blog/nongriat-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Nongriat Trek Guide: Living Root Bridge
+                      </Link>
+                      <Link
+                        href="/blog/shillong-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Shillong Travel Guide: Sightseeing & Tips
+                      </Link>
+                      <Link
+                        href="/blog/shnongpdeng-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Shnongpdeng Guide: Camping & River Adventure
+                      </Link>
+                      <Link
+                        href="/blog/siju-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Siju Cave Guide: Caving & Best Time
+                      </Link>
+                      <Link
+                        href="/blog/tura-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Tura Travel Guide: Gateway to Garo Hills
+                      </Link>
+                      <Link
+                        href="/blog/umiam-lake-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Umiam Lake Guide: Boating & Best Time
+                      </Link>
                   </div>
                 </section>
 

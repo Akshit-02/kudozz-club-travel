@@ -229,7 +229,7 @@ export default function PangongLakePage() {
               {[
                 { label: "Home", href: "/" },
                 { label: "Blog", href: "/blog" },
-                { label: "Ladakh", href: "/blog?category=ladakh" },
+                { label: "Ladakh", href: "/blog/leh-ladakh-road-trip-travel-guide" },
                 { label: "Pangong Lake", href: null },
               ].map((crumb, i, arr) => (
                 <li key={i} className="flex items-center gap-2">

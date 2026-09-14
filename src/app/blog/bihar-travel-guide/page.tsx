@@ -184,6 +184,7 @@ const tableOfContents = [
   { id: "itinerary", title: "6-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "places-to-explore", title: "Places to Explore in Bihar", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
@@ -315,7 +316,7 @@ export default function BiharGuidePage() {
                 { label: "Blog", href: "/blog" },
                 {
                   label: "Bihar",
-                  href: "/blog?category=bihar",
+                  href: "/blog/bihar-travel-guide",
                 },
                 { label: "Travel Guide", href: null },
               ].map((crumb, i, arr) => (
@@ -1214,6 +1215,88 @@ export default function BiharGuidePage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── Places to Explore ────────────────────────────────── */}
+                <section id="places-to-explore">
+                  <h2>Places to Explore in Bihar</h2>
+                  <p>
+                    Every Bihar guide on Kudozz Club, in one place — 12 destinations covered so far, from cities and towns to individual attractions. Use this index to plan beyond the highlights above.
+                  </p>
+                  <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3 my-6">
+                      <Link
+                        href="/blog/barabar-caves-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Barabar Caves Travel Guide: India&apos;s Oldest Rock-Cut Caves
+                      </Link>
+                      <Link
+                        href="/blog/bodh-gaya-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Bodh Gaya Travel Guide: Mahabodhi Temple & Buddha&apos;s Enlightenment Site
+                      </Link>
+                      <Link
+                        href="/blog/gaya-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Gaya Travel Guide: Vishnupad Temple & Pitru Paksha Pilgrimage
+                      </Link>
+                      <Link
+                        href="/blog/madhubani-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Madhubani Travel Guide: The Town Behind India&apos;s Famous Folk Art
+                      </Link>
+                      <Link
+                        href="/blog/nalanda-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Nalanda Travel Guide: Ruins of the World&apos;s Oldest University
+                      </Link>
+                      <Link
+                        href="/blog/patna-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Patna Travel Guide: Golghar, Patna Sahib & Bihar&apos;s Capital
+                      </Link>
+                      <Link
+                        href="/blog/pawapuri-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Pawapuri Travel Guide: Where Mahavira Attained Nirvana
+                      </Link>
+                      <Link
+                        href="/blog/rajgir-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Rajgir Travel Guide: Hot Springs, Ropeway & Buddhist Heritage
+                      </Link>
+                      <Link
+                        href="/blog/sasaram-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Sasaram Travel Guide: Sher Shah Suri&apos;s Tomb & Grand Trunk Road History
+                      </Link>
+                      <Link
+                        href="/blog/vaishali-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Vaishali Travel Guide: The World&apos;s First Republic & Buddha&apos;s Last Sermon
+                      </Link>
+                      <Link
+                        href="/blog/valmiki-nagar-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Valmiki Nagar Travel Guide: Tiger Reserve & Himalayan Foothills
+                      </Link>
+                      <Link
+                        href="/blog/vikramshila-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Vikramshila Travel Guide: The Other Great Ancient Buddhist University
+                      </Link>
                   </div>
                 </section>
 

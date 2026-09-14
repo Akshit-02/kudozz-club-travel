@@ -258,7 +258,7 @@ export default function ManaliPage() {
                 { label: "Blog", href: "/blog" },
                 {
                   label: "Himachal Pradesh",
-                  href: "/blog?category=himachal-pradesh",
+                  href: "/blog/himachal-pradesh-travel-guide",
                 },
                 { label: "Manali", href: null },
               ].map((crumb, i, arr) => (

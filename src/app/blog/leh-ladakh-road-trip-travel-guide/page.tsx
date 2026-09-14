@@ -197,6 +197,7 @@ const tableOfContents = [
   { id: "food-guide", title: "What to Eat", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "places-to-explore", title: "Places to Explore in Ladakh", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
@@ -236,7 +237,7 @@ export default function LehLadakhPage() {
               {[
                 { label: "Home", href: "/" },
                 { label: "Blog", href: "/blog" },
-                { label: "Ladakh", href: "/blog?category=ladakh" },
+                { label: "Ladakh", href: "/blog/leh-ladakh-road-trip-travel-guide" },
                 { label: "Leh Ladakh Road Trip", href: null },
               ].map((crumb, i, arr) => (
                 <li key={i} className="flex items-center gap-2">
@@ -1709,6 +1710,112 @@ export default function LehLadakhPage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── Places to Explore ────────────────────────────────── */}
+                <section id="places-to-explore">
+                  <h2>Places to Explore in Ladakh</h2>
+                  <p>
+                    Every Ladakh guide on Kudozz Club, in one place — 16 destinations covered so far, from cities and towns to individual attractions. Use this index to plan beyond the highlights above.
+                  </p>
+                  <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3 my-6">
+                      <Link
+                        href="/blog/dha-hanu-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Dha-Hanu Travel Guide: Ladakh&apos;s Aryan Valley & the Brokpa People
+                      </Link>
+                      <Link
+                        href="/blog/drass-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Drass Travel Guide: Kargil War Memorial & the Gateway to Ladakh
+                      </Link>
+                      <Link
+                        href="/blog/hanle-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Hanle Travel Guide: Dark Sky Reserve, Observatory & Stargazing
+                      </Link>
+                      <Link
+                        href="/blog/hemis-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Hemis Travel Guide: Monastery, Festival & Snow Leopard Country
+                      </Link>
+                      <Link
+                        href="/blog/hunder-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Hunder Travel Guide: Nubra Valley&apos;s Sand Dunes & Camel Safari
+                      </Link>
+                      <Link
+                        href="/blog/kargil-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Kargil Travel Guide: Gateway to Zanskar & the Srinagar-Leh Highway
+                      </Link>
+                      <Link
+                        href="/blog/khardung-la-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Khardung La Travel Guide: Height, Route, Permits & Tips
+                      </Link>
+                      <Link
+                        href="/blog/lamayuru-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Lamayuru Travel Guide: Moonland, Monastery & How to Visit
+                      </Link>
+                      <Link
+                        href="/blog/leh-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Leh Travel Guide: Leh Palace, Market, Shanti Stupa & Tips
+                      </Link>
+                      <Link
+                        href="/blog/nubra-valley-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Nubra Valley Travel Guide: Sand Dunes, Camels & Cold Desert
+                      </Link>
+                      <Link
+                        href="/blog/padum-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Padum Travel Guide: Zanskar Valley&apos;s Historic Capital Town
+                      </Link>
+                      <Link
+                        href="/blog/pangong-lake-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Pangong Lake Travel Guide: Routes, Permits, Camping & Tips
+                      </Link>
+                      <Link
+                        href="/blog/thiksey-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Thiksey Travel Guide: Monastery, Morning Prayers & Maitreya Buddha
+                      </Link>
+                      <Link
+                        href="/blog/tso-moriri-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Tso Moriri Travel Guide: Ladakh&apos;s Most Pristine High-Altitude Lake
+                      </Link>
+                      <Link
+                        href="/blog/turtuk-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Turtuk Travel Guide: Ladakh&apos;s Last Balti Village Before the LOC
+                      </Link>
+                      <Link
+                        href="/blog/zanskar-valley-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Zanskar Valley Travel Guide: Chadar Trek, Phugtal Monastery & Padum
+                      </Link>
                   </div>
                 </section>
 

@@ -184,6 +184,7 @@ const tableOfContents = [
   { id: "itinerary", title: "6-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "places-to-explore", title: "Places to Explore in Sikkim", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
@@ -313,7 +314,7 @@ export default function SikkimGuidePage() {
               {[
                 { label: "Home", href: "/" },
                 { label: "Blog", href: "/blog" },
-                { label: "Sikkim", href: "/blog?category=sikkim" },
+                { label: "Sikkim", href: "/blog/sikkim-travel-guide" },
                 { label: "Travel Guide", href: null },
               ].map((crumb, i, arr) => (
                 <li key={i} className="flex items-center gap-2">
@@ -1180,6 +1181,112 @@ export default function SikkimGuidePage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── Places to Explore ────────────────────────────────── */}
+                <section id="places-to-explore">
+                  <h2>Places to Explore in Sikkim</h2>
+                  <p>
+                    Every Sikkim guide on Kudozz Club, in one place — 16 destinations covered so far, from cities and towns to individual attractions. Use this index to plan beyond the highlights above.
+                  </p>
+                  <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3 my-6">
+                      <Link
+                        href="/blog/aritar-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Aritar Travel Guide: Lake, Views & Tips
+                      </Link>
+                      <Link
+                        href="/blog/dzongu-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Dzongu Travel Guide: Permits & Lepcha Culture
+                      </Link>
+                      <Link
+                        href="/blog/gangtok-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Gangtok Travel Guide: Sightseeing, Food & Tips
+                      </Link>
+                      <Link
+                        href="/blog/gurudongmar-lake-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Gurudongmar Lake Guide: Permits & Altitude
+                      </Link>
+                      <Link
+                        href="/blog/khecheopalri-lake-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Khecheopalri Lake Guide: The Wishing Lake
+                      </Link>
+                      <Link
+                        href="/blog/lachen-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Lachen Travel Guide: Gateway to Gurudongmar
+                      </Link>
+                      <Link
+                        href="/blog/lachung-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Lachung Travel Guide: Gateway to Yumthang
+                      </Link>
+                      <Link
+                        href="/blog/namchi-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Namchi Travel Guide: Char Dham & Samdruptse
+                      </Link>
+                      <Link
+                        href="/blog/nathula-pass-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Nathula Pass Guide: Permits, Height & Tips
+                      </Link>
+                      <Link
+                        href="/blog/pelling-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Pelling Travel Guide: Kanchenjunga Views & Tips
+                      </Link>
+                      <Link
+                        href="/blog/ravangla-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Ravangla Travel Guide: Buddha Park & Views
+                      </Link>
+                      <Link
+                        href="/blog/temi-tea-garden-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Temi Tea Garden Guide: Sikkim&apos;s Only Estate
+                      </Link>
+                      <Link
+                        href="/blog/tsomgo-lake-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Tsomgo Lake Guide: Permits & Best Time
+                      </Link>
+                      <Link
+                        href="/blog/yuksom-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Yuksom Travel Guide: Sikkim&apos;s First Capital
+                      </Link>
+                      <Link
+                        href="/blog/yumthang-valley-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Yumthang Valley Guide: Flowers & Best Time
+                      </Link>
+                      <Link
+                        href="/blog/zuluk-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Zuluk Travel Guide: Old Silk Route & Tips
+                      </Link>
                   </div>
                 </section>
 

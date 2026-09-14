@@ -182,6 +182,7 @@ const tableOfContents = [
   { id: "itinerary", title: "5-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "places-to-explore", title: "Places to Explore in Mizoram", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
@@ -311,7 +312,7 @@ export default function MizoramGuidePage() {
               {[
                 { label: "Home", href: "/" },
                 { label: "Blog", href: "/blog" },
-                { label: "Mizoram", href: "/blog?category=mizoram" },
+                { label: "Mizoram", href: "/blog/mizoram-travel-guide" },
                 { label: "Travel Guide", href: null },
               ].map((crumb, i, arr) => (
                 <li key={i} className="flex items-center gap-2">
@@ -1112,6 +1113,88 @@ export default function MizoramGuidePage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── Places to Explore ────────────────────────────────── */}
+                <section id="places-to-explore">
+                  <h2>Places to Explore in Mizoram</h2>
+                  <p>
+                    Every Mizoram guide on Kudozz Club, in one place — 12 destinations covered so far, from cities and towns to individual attractions. Use this index to plan beyond the highlights above.
+                  </p>
+                  <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3 my-6">
+                      <Link
+                        href="/blog/aizawl-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Aizawl Travel Guide: Sightseeing & Tips
+                      </Link>
+                      <Link
+                        href="/blog/champhai-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Champhai Travel Guide: Rice Bowl of Mizoram
+                      </Link>
+                      <Link
+                        href="/blog/dampa-tiger-reserve-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Dampa Tiger Reserve: Safari Guide & Tips
+                      </Link>
+                      <Link
+                        href="/blog/hmuifang-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Hmuifang Guide: Paragliding & Views
+                      </Link>
+                      <Link
+                        href="/blog/murlen-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Murlen National Park: Biodiversity & Tips
+                      </Link>
+                      <Link
+                        href="/blog/palak-dil-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Palak Dil Guide: Mizoram&apos;s Largest Lake
+                      </Link>
+                      <Link
+                        href="/blog/phawngpui-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Phawngpui Trek Guide: The Blue Mountain
+                      </Link>
+                      <Link
+                        href="/blog/reiek-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Reiek Travel Guide: Heritage Village & Views
+                      </Link>
+                      <Link
+                        href="/blog/serchhip-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Serchhip Travel Guide: Gateway & Tips
+                      </Link>
+                      <Link
+                        href="/blog/tamdil-lake-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Tamdil Lake Guide: Legend, Boating & Tips
+                      </Link>
+                      <Link
+                        href="/blog/thenzawl-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Thenzawl Travel Guide: Handloom & Tips
+                      </Link>
+                      <Link
+                        href="/blog/vantawng-falls-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Vantawng Falls Guide: Mizoram&apos;s Tallest Falls
+                      </Link>
                   </div>
                 </section>
 

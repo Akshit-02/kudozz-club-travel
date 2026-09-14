@@ -3100,7 +3100,8 @@
     {
       "path": "/images/blogs/rajasthan/ranthambore-first-time-visitors/ranthambore-fort-from-forest-below.webp",
       "usedIn": [
-        "ranthambore-first-time-visitors-travel-guide"
+        "ranthambore-first-time-visitors-travel-guide",
+        "site-wide default OG image (public/og-default.jpg)"
       ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Fort_of_Ranthambore_as_visible_from_Ranthambore_National_Park.jpg",

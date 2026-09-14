@@ -325,7 +325,7 @@ export default function RajasthanDesertGuidePage() {
               {[
                 { label: "Home", href: "/" },
                 { label: "Blog", href: "/blog" },
-                { label: "Rajasthan", href: "/blog?category=rajasthan" },
+                { label: "Rajasthan", href: "/blog/rajasthan-travel-guide" },
                 { label: "Jaisalmer", href: null },
               ].map((crumb, i, arr) => (
                 <li key={i} className="flex items-center gap-2">

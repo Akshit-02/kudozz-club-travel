@@ -134,7 +134,7 @@ export default function MumbaiGuidePage() {
           </div>
           <nav className="absolute top-24 left-0 right-0 z-10 px-6 sm:px-10" aria-label="Breadcrumb">
             <ol className="flex items-center gap-2 text-xs text-white/55" style={{ fontFamily: "var(--font-dm-sans)" }}>
-              {[{ label: "Home", href: "/" }, { label: "Blog", href: "/blog" }, { label: "Mumbai", href: "/blog?category=mumbai" }, { label: "City Guide", href: null }].map((crumb, i, arr) => (
+              {[{ label: "Home", href: "/" }, { label: "Blog", href: "/blog" }, { label: "Mumbai", href: "/blog/maharashtra-travel-guide" }, { label: "City Guide", href: null }].map((crumb, i, arr) => (
                 <li key={i} className="flex items-center gap-2">
                   {crumb.href ? <Link href={crumb.href} className="hover:text-white transition-colors">{crumb.label}</Link> : <span className="text-white/35">{crumb.label}</span>}
                   {i < arr.length - 1 && <span className="text-white/20">/</span>}

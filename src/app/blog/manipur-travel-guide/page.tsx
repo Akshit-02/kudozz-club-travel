@@ -181,6 +181,7 @@ const tableOfContents = [
   { id: "itinerary", title: "5-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "places-to-explore", title: "Places to Explore in Manipur", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
@@ -310,7 +311,7 @@ export default function ManipurGuidePage() {
               {[
                 { label: "Home", href: "/" },
                 { label: "Blog", href: "/blog" },
-                { label: "Manipur", href: "/blog?category=manipur" },
+                { label: "Manipur", href: "/blog/manipur-travel-guide" },
                 { label: "Travel Guide", href: null },
               ].map((crumb, i, arr) => (
                 <li key={i} className="flex items-center gap-2">
@@ -1099,6 +1100,94 @@ export default function ManipurGuidePage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── Places to Explore ────────────────────────────────── */}
+                <section id="places-to-explore">
+                  <h2>Places to Explore in Manipur</h2>
+                  <p>
+                    Every Manipur guide on Kudozz Club, in one place — 13 destinations covered so far, from cities and towns to individual attractions. Use this index to plan beyond the highlights above.
+                  </p>
+                  <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3 my-6">
+                      <Link
+                        href="/blog/andro-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Andro Village Travel Guide: Pottery, Heritage & Temples
+                      </Link>
+                      <Link
+                        href="/blog/imphal-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Imphal Travel Guide: Kangla Fort & Ima Keithel Market
+                      </Link>
+                      <Link
+                        href="/blog/kangpokpi-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Kangpokpi Travel Guide: Pineapple Hills Near Imphal
+                      </Link>
+                      <Link
+                        href="/blog/keibul-lamjao-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Keibul Lamjao National Park Guide: Floating Park & Sangai Deer
+                      </Link>
+                      <Link
+                        href="/blog/loktak-lake-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Loktak Lake Travel Guide: Phumdis, Sendra & Boating
+                      </Link>
+                      <Link
+                        href="/blog/moirang-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Moirang Travel Guide: INA Memorial & Loktak Lake Gateway
+                      </Link>
+                      <Link
+                        href="/blog/moreh-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Moreh Travel Guide: India&apos;s Border Town to Myanmar
+                      </Link>
+                      <Link
+                        href="/blog/senapati-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Senapati Travel Guide: Mao Gate, King Chilli & Naga Hills
+                      </Link>
+                      <Link
+                        href="/blog/shirui-hills-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Shirui Hills Trek Guide: Shirui Lily & Best Time to Visit
+                      </Link>
+                      <Link
+                        href="/blog/tamenglong-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Tamenglong Travel Guide: Orange Hills of Zeliangrong Country
+                      </Link>
+                      <Link
+                        href="/blog/tharon-cave-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Tharon Cave Guide: Manipur&apos;s Longest Limestone Cave
+                      </Link>
+                      <Link
+                        href="/blog/ukhrul-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Ukhrul Travel Guide: Tangkhul Naga Hills & Shirui Lily Gateway
+                      </Link>
+                      <Link
+                        href="/blog/zeilad-lake-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Zeilad Lake Travel Guide: Tamenglong&apos;s Sacred Lake
+                      </Link>
                   </div>
                 </section>
 

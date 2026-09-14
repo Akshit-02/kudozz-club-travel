@@ -182,6 +182,7 @@ const tableOfContents = [
   { id: "itinerary", title: "4-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "places-to-explore", title: "Places to Explore in Tripura", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
@@ -311,7 +312,7 @@ export default function TripuraGuidePage() {
               {[
                 { label: "Home", href: "/" },
                 { label: "Blog", href: "/blog" },
-                { label: "Tripura", href: "/blog?category=tripura" },
+                { label: "Tripura", href: "/blog/tripura-travel-guide" },
                 { label: "Travel Guide", href: null },
               ].map((crumb, i, arr) => (
                 <li key={i} className="flex items-center gap-2">
@@ -1108,6 +1109,94 @@ export default function TripuraGuidePage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── Places to Explore ────────────────────────────────── */}
+                <section id="places-to-explore">
+                  <h2>Places to Explore in Tripura</h2>
+                  <p>
+                    Every Tripura guide on Kudozz Club, in one place — 13 destinations covered so far, from cities and towns to individual attractions. Use this index to plan beyond the highlights above.
+                  </p>
+                  <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3 my-6">
+                      <Link
+                        href="/blog/agartala-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Agartala Travel Guide: Palaces, Sightseeing & Tips
+                      </Link>
+                      <Link
+                        href="/blog/betlingchhip-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Betlingchhip Trek Guide: Tripura&apos;s Highest Peak
+                      </Link>
+                      <Link
+                        href="/blog/chabimura-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Chabimura Travel Guide: Rock Carvings & Boat Ride
+                      </Link>
+                      <Link
+                        href="/blog/dumboor-lake-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Dumboor Lake Travel Guide: Islands, Boating & Tips
+                      </Link>
+                      <Link
+                        href="/blog/jampui-hills-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Jampui Hills Travel Guide: Orange Orchards & Tips
+                      </Link>
+                      <Link
+                        href="/blog/longtharai-valley-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Longtharai Valley Travel Guide: Tips & How to Reach
+                      </Link>
+                      <Link
+                        href="/blog/sabroom-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Sabroom Travel Guide: Maitri Setu Bridge & Tips
+                      </Link>
+                      <Link
+                        href="/blog/sepahijala-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Sepahijala Wildlife Sanctuary: Safari & Tips
+                      </Link>
+                      <Link
+                        href="/blog/tripura-sundari-temple-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Tripura Sundari Temple Guide: Matabari Shakti Peeth
+                      </Link>
+                      <Link
+                        href="/blog/trishna-wildlife-sanctuary-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Trishna Wildlife Sanctuary: Safari Guide & Tips
+                      </Link>
+                      <Link
+                        href="/blog/udaipur-tripura-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Udaipur Tripura Travel Guide: Lakes & Old Capital
+                      </Link>
+                      <Link
+                        href="/blog/ujjayanta-palace-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Ujjayanta Palace Guide: History, Timings & Tips
+                      </Link>
+                      <Link
+                        href="/blog/unakoti-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Unakoti Travel Guide: Rock Carvings & How to Reach
+                      </Link>
                   </div>
                 </section>
 

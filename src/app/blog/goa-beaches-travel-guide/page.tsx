@@ -188,6 +188,7 @@ const tableOfContents = [
   { id: "itinerary", title: "5-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "places-to-explore", title: "Places to Explore in Goa", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
@@ -316,7 +317,7 @@ export default function GoaBeachesGuidePage() {
               {[
                 { label: "Home", href: "/" },
                 { label: "Blog", href: "/blog" },
-                { label: "Goa", href: "/blog?category=goa" },
+                { label: "Goa", href: "/blog/goa-travel-guide" },
                 { label: "Beaches Guide", href: null },
               ].map((crumb, i, arr) => (
                 <li key={i} className="flex items-center gap-2">
@@ -1371,6 +1372,106 @@ export default function GoaBeachesGuidePage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── Places to Explore ────────────────────────────────── */}
+                <section id="places-to-explore">
+                  <h2>Places to Explore in Goa</h2>
+                  <p>
+                    Every Goa guide on Kudozz Club, in one place — 15 destinations covered so far, from cities and towns to individual attractions. Use this index to plan beyond the highlights above.
+                  </p>
+                  <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3 my-6">
+                      <Link
+                        href="/blog/agonda-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Agonda Beach Travel Guide: Turtle Nesting & South Goa&apos;s Quiet Side
+                      </Link>
+                      <Link
+                        href="/blog/anjuna-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Anjuna Travel Guide: Flea Market, Cliffs & Trance Party Legacy
+                      </Link>
+                      <Link
+                        href="/blog/baga-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Baga Beach Travel Guide: Nightlife, Water Sports & Tito&apos;s Lane
+                      </Link>
+                      <Link
+                        href="/blog/calangute-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Calangute Beach Travel Guide: Goa&apos;s Busiest Beach & Nightlife
+                      </Link>
+                      <Link
+                        href="/blog/canacona-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Canacona Travel Guide: South Goa&apos;s Quiet Taluka & Beach Cluster
+                      </Link>
+                      <Link
+                        href="/blog/candolim-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Candolim Beach Travel Guide: Quiet Sands Near the Nightlife
+                      </Link>
+                      <Link
+                        href="/blog/dudhsagar-falls-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Dudhsagar Falls Travel Guide: Jeep Safari & Best Time to Visit
+                      </Link>
+                      <Link
+                        href="/blog/mandrem-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Mandrem Beach Travel Guide: Yoga Retreats & River-Meets-Sea Views
+                      </Link>
+                      <Link
+                        href="/blog/mollem-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Mollem National Park Travel Guide: Wildlife & Waterfalls Near Dudhsagar
+                      </Link>
+                      <Link
+                        href="/blog/morjim-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Morjim Beach Travel Guide: Turtle Nesting & Quiet North Goa
+                      </Link>
+                      <Link
+                        href="/blog/old-goa-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Old Goa Travel Guide: Basilica of Bom Jesus & UNESCO Churches
+                      </Link>
+                      <Link
+                        href="/blog/palolem-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Palolem Beach Travel Guide: South Goa&apos;s Postcard Crescent
+                      </Link>
+                      <Link
+                        href="/blog/panjim-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Panjim Travel Guide: Fontainhas, Latin Quarter & Goa&apos;s Capital
+                      </Link>
+                      <Link
+                        href="/blog/ponda-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Ponda Travel Guide: Hindu Temples & Spice Plantation Tours
+                      </Link>
+                      <Link
+                        href="/blog/vagator-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Vagator Beach Travel Guide: Red Cliffs & Chapora Fort
+                      </Link>
                   </div>
                 </section>
 

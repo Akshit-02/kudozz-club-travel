@@ -314,7 +314,7 @@ export default function HampiPage() {
               {[
                 { label: "Home", href: "/" },
                 { label: "Blog", href: "/blog" },
-                { label: "Karnataka", href: "/blog?category=karnataka" },
+                { label: "Karnataka", href: "/blog/karnataka-travel-guide" },
                 { label: "Hampi", href: null },
               ].map((crumb, i, arr) => (
                 <li key={i} className="flex items-center gap-2">

@@ -183,6 +183,7 @@ const tableOfContents = [
   { id: "itinerary", title: "7-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "places-to-explore", title: "Places to Explore in Gujarat", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
@@ -314,7 +315,7 @@ export default function GujaratGuidePage() {
                 { label: "Blog", href: "/blog" },
                 {
                   label: "Gujarat",
-                  href: "/blog?category=gujarat",
+                  href: "/blog/gujarat-travel-guide",
                 },
                 { label: "Travel Guide", href: null },
               ].map((crumb, i, arr) => (
@@ -1224,6 +1225,100 @@ export default function GujaratGuidePage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── Places to Explore ────────────────────────────────── */}
+                <section id="places-to-explore">
+                  <h2>Places to Explore in Gujarat</h2>
+                  <p>
+                    Every Gujarat guide on Kudozz Club, in one place — 14 destinations covered so far, from cities and towns to individual attractions. Use this index to plan beyond the highlights above.
+                  </p>
+                  <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3 my-6">
+                      <Link
+                        href="/blog/ahmedabad-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Ahmedabad Travel Guide: Heritage Walk, Sabarmati Ashram & Food
+                      </Link>
+                      <Link
+                        href="/blog/dholavira-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Dholavira Travel Guide: Harappan City & UNESCO World Heritage Site
+                      </Link>
+                      <Link
+                        href="/blog/gir-national-park-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Gir National Park Travel Guide: Asiatic Lion Safari & Best Time
+                      </Link>
+                      <Link
+                        href="/blog/junagadh-girnar-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Junagadh & Girnar Travel Guide: 10,000 Steps to Jain & Hindu Shrines
+                      </Link>
+                      <Link
+                        href="/blog/mandvi-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Mandvi Travel Guide: Beach, Shipbuilding Yards & Vijay Vilas Palace
+                      </Link>
+                      <Link
+                        href="/blog/palitana-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Palitana Travel Guide: 3,500 Steps to the World&apos;s Largest Jain Temple Complex
+                      </Link>
+                      <Link
+                        href="/blog/patan-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Patan Travel Guide: Rani ki Vav Stepwell & Patola Sarees
+                      </Link>
+                      <Link
+                        href="/blog/polo-forest-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Polo Forest Travel Guide: Ruined Temples in the Aravalli Jungle
+                      </Link>
+                      <Link
+                        href="/blog/rann-of-kutch-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Rann of Kutch Travel Guide: White Desert & Rann Utsav
+                      </Link>
+                      <Link
+                        href="/blog/saputara-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Saputara Travel Guide: Gujarat&apos;s Only Hill Station
+                      </Link>
+                      <Link
+                        href="/blog/somnath-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Somnath Temple Travel Guide: History, Timings & Light Show
+                      </Link>
+                      <Link
+                        href="/blog/statue-of-unity-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Statue of Unity Travel Guide: World&apos;s Tallest Statue, Timings & Tips
+                      </Link>
+                      <Link
+                        href="/blog/surat-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Surat Travel Guide: Diamond City, Riverfront & Street Food
+                      </Link>
+                      <Link
+                        href="/blog/vadodara-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Vadodara Travel Guide: Laxmi Vilas Palace & Baroda&apos;s Heritage
+                      </Link>
                   </div>
                 </section>
 

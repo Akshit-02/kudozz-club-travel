@@ -190,6 +190,7 @@ const tableOfContents = [
   { id: "itinerary", title: "4-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "places-to-explore", title: "Places to Explore in Kerala", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
@@ -318,7 +319,7 @@ export default function KeralaBackwatersPage() {
               {[
                 { label: "Home", href: "/" },
                 { label: "Blog", href: "/blog" },
-                { label: "Kerala", href: "/blog?category=kerala" },
+                { label: "Kerala", href: "/blog/kerala-travel-guide" },
                 { label: "Backwaters", href: null },
               ].map((crumb, i, arr) => (
                 <li key={i} className="flex items-center gap-2">
@@ -1628,6 +1629,106 @@ export default function KeralaBackwatersPage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── Places to Explore ────────────────────────────────── */}
+                <section id="places-to-explore">
+                  <h2>Places to Explore in Kerala</h2>
+                  <p>
+                    Every Kerala guide on Kudozz Club, in one place — 15 destinations covered so far, from cities and towns to individual attractions. Use this index to plan beyond the highlights above.
+                  </p>
+                  <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3 my-6">
+                      <Link
+                        href="/blog/alappuzha-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Alappuzha (Alleppey) Travel Guide: Houseboats & Backwaters
+                      </Link>
+                      <Link
+                        href="/blog/athirappilly-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Athirappilly Falls Travel Guide: Kerala&apos;s Niagara & Best Time to Visit
+                      </Link>
+                      <Link
+                        href="/blog/bekal-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Bekal Travel Guide: Fort, Beach & North Kerala&apos;s Quiet Coast
+                      </Link>
+                      <Link
+                        href="/blog/gavi-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Gavi Travel Guide: Eco-Tourism, Forest Trails & Permits
+                      </Link>
+                      <Link
+                        href="/blog/guruvayur-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Guruvayur Temple Travel Guide: Darshan, Timings & How to Reach
+                      </Link>
+                      <Link
+                        href="/blog/kannur-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Kannur Travel Guide: Theyyam, Beaches & Handloom Heritage
+                      </Link>
+                      <Link
+                        href="/blog/kochi-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Kochi Travel Guide: Fort Kochi, Chinese Nets & 3-Day Itinerary
+                      </Link>
+                      <Link
+                        href="/blog/kovalam-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Kovalam Travel Guide: Lighthouse Beach, Ayurveda & Itinerary
+                      </Link>
+                      <Link
+                        href="/blog/kumarakom-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Kumarakom Travel Guide: Vembanad Lake, Bird Sanctuary & Houseboats
+                      </Link>
+                      <Link
+                        href="/blog/munnar-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Munnar Travel Guide: Tea Gardens, Viewpoints & Best Time to Visit
+                      </Link>
+                      <Link
+                        href="/blog/munroe-island-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Munroe Island Travel Guide: Backwater Canoeing & Village Life
+                      </Link>
+                      <Link
+                        href="/blog/thekkady-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Thekkady Travel Guide: Periyar Wildlife Sanctuary & Spice Plantations
+                      </Link>
+                      <Link
+                        href="/blog/vagamon-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Vagamon Travel Guide: Meadows, Pine Forests & Paragliding
+                      </Link>
+                      <Link
+                        href="/blog/varkala-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Varkala Travel Guide: Cliff Beach, Yoga & Best Time to Visit
+                      </Link>
+                      <Link
+                        href="/blog/wayanad-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Wayanad Travel Guide: Waterfalls, Wildlife & Western Ghats
+                      </Link>
                   </div>
                 </section>
 

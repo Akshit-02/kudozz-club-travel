@@ -312,7 +312,7 @@ export default function KavarattiIslandGuidePage() {
               {[
                 { label: "Home", href: "/" },
                 { label: "Blog", href: "/blog" },
-                { label: "Lakshadweep", href: "/blog?category=lakshadweep" },
+                { label: "Lakshadweep", href: "/blog/lakshadweep-island-travel-guide" },
                 { label: "Kavaratti", href: null },
               ].map((crumb, i, arr) => (
                 <li key={i} className="flex items-center gap-2">

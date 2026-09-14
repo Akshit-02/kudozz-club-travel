@@ -189,6 +189,7 @@ const tableOfContents = [
   { id: "itinerary", title: "3-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "places-to-explore", title: "Places to Explore in Dadra & Nagar Haveli and Daman & Diu", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
@@ -320,7 +321,7 @@ export default function DadraNagarHaveliDamanDiuGuidePage() {
                 { label: "Blog", href: "/blog" },
                 {
                   label: "Daman & Diu",
-                  href: "/blog?category=dadra-nagar-haveli-daman-diu",
+                  href: "/blog/dadra-nagar-haveli-daman-diu-travel-guide",
                 },
                 { label: "Travel Guide", href: null },
               ].map((crumb, i, arr) => (
@@ -1176,6 +1177,124 @@ export default function DadraNagarHaveliDamanDiuGuidePage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── Places to Explore ────────────────────────────────── */}
+                <section id="places-to-explore">
+                  <h2>Places to Explore in Dadra & Nagar Haveli and Daman & Diu</h2>
+                  <p>
+                    Every Dadra & Nagar Haveli and Daman & Diu guide on Kudozz Club, in one place — 18 destinations covered so far, from cities and towns to individual attractions. Use this index to plan beyond the highlights above.
+                  </p>
+                  <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3 my-6">
+                      <Link
+                        href="/blog/daman-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Daman Travel Guide: Forts, Beaches & Weekend Trip
+                      </Link>
+                      <Link
+                        href="/blog/devka-beach-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Devka Beach Daman: Promenade, Rides & Activities
+                      </Link>
+                      <Link
+                        href="/blog/diu-fort-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Diu Fort Travel Guide: History, Timings & Tips
+                      </Link>
+                      <Link
+                        href="/blog/diu-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Diu Travel Guide: Beaches, Fort & Weekend Trip
+                      </Link>
+                      <Link
+                        href="/blog/dudhni-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Dudhni Lake Travel Guide: Boating Near Silvassa
+                      </Link>
+                      <Link
+                        href="/blog/gangeshwar-temple-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Gangeshwar Temple, Diu: A Shiva Shrine Washed by the Sea
+                      </Link>
+                      <Link
+                        href="/blog/ghoghla-beach-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Ghoghla Beach Diu: Water Sports & Camping Guide
+                      </Link>
+                      <Link
+                        href="/blog/jampore-beach-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Jampore Beach Daman: Camel Rides, Timings & Tips
+                      </Link>
+                      <Link
+                        href="/blog/khanvel-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Khanvel Travel Guide: Gardens & Nature Escape
+                      </Link>
+                      <Link
+                        href="/blog/madhuban-dam-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Madhuban Dam Travel Guide: Reservoir, Viewpoint & Picnic Spot
+                      </Link>
+                      <Link
+                        href="/blog/moti-daman-fort-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Moti Daman Fort: The Fort of St. Jerome, Bastion by Bastion
+                      </Link>
+                      <Link
+                        href="/blog/moti-daman-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Moti Daman Travel Guide: Old Town, Churches & Fort
+                      </Link>
+                      <Link
+                        href="/blog/nagoa-beach-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Nagoa Beach Diu: Water Sports, Timings & Tips
+                      </Link>
+                      <Link
+                        href="/blog/naida-caves-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Naida Caves Diu: Photography Spot & Visit Guide
+                      </Link>
+                      <Link
+                        href="/blog/nani-daman-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Nani Daman Travel Guide: Fort, Harbour & Lighthouse
+                      </Link>
+                      <Link
+                        href="/blog/satmaliya-deer-sanctuary-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Satmaliya Deer Sanctuary: Visit Guide & Tips
+                      </Link>
+                      <Link
+                        href="/blog/silvassa-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Silvassa Travel Guide: Lakes, Forests & Tribal Culture
+                      </Link>
+                      <Link
+                        href="/blog/vanganga-lake-garden-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Vanganga Lake Garden, Daman: Complete Visit Guide
+                      </Link>
                   </div>
                 </section>
 

@@ -310,7 +310,7 @@ export default function GokarnaBeachesGuidePage() {
               {[
                 { label: "Home", href: "/" },
                 { label: "Blog", href: "/blog" },
-                { label: "Gokarna", href: "/blog?category=gokarna" },
+                { label: "Gokarna", href: "/blog/karnataka-travel-guide" },
                 { label: "Beaches Guide", href: null },
               ].map((crumb, i, arr) => (
                 <li key={i} className="flex items-center gap-2">

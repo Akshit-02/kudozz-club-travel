@@ -245,7 +245,7 @@ export default function SpitiValleyPage() {
                 { label: "Blog", href: "/blog" },
                 {
                   label: "Himachal Pradesh",
-                  href: "/blog?category=himachal-pradesh",
+                  href: "/blog/himachal-pradesh-travel-guide",
                 },
                 { label: "Spiti Valley", href: null },
               ].map((crumb, i, arr) => (

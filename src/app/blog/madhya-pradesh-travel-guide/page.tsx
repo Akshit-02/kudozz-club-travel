@@ -184,6 +184,7 @@ const tableOfContents = [
   { id: "itinerary", title: "7-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "places-to-explore", title: "Places to Explore in Madhya Pradesh", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
@@ -315,7 +316,7 @@ export default function MadhyaPradeshGuidePage() {
                 { label: "Blog", href: "/blog" },
                 {
                   label: "Madhya Pradesh",
-                  href: "/blog?category=madhya-pradesh",
+                  href: "/blog/madhya-pradesh-travel-guide",
                 },
                 { label: "Travel Guide", href: null },
               ].map((crumb, i, arr) => (
@@ -1159,6 +1160,118 @@ export default function MadhyaPradeshGuidePage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── Places to Explore ────────────────────────────────── */}
+                <section id="places-to-explore">
+                  <h2>Places to Explore in Madhya Pradesh</h2>
+                  <p>
+                    Every Madhya Pradesh guide on Kudozz Club, in one place — 17 destinations covered so far, from cities and towns to individual attractions. Use this index to plan beyond the highlights above.
+                  </p>
+                  <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3 my-6">
+                      <Link
+                        href="/blog/amarkantak-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Amarkantak Travel Guide: Source of the Narmada & Son Rivers
+                      </Link>
+                      <Link
+                        href="/blog/bandhavgarh-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Bandhavgarh National Park: Tiger Safari Guide, Zones & Best Time
+                      </Link>
+                      <Link
+                        href="/blog/bhimbetka-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Bhimbetka Rock Shelters: Prehistoric Cave Art Travel Guide
+                      </Link>
+                      <Link
+                        href="/blog/bhopal-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Bhopal Travel Guide: Lakes, Old City & Bhimbetka Gateway
+                      </Link>
+                      <Link
+                        href="/blog/gwalior-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Gwalior Fort Travel Guide: History, Timings & City Guide
+                      </Link>
+                      <Link
+                        href="/blog/indore-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Indore Travel Guide: Sarafa Bazaar, Rajwada & Street Food Capital
+                      </Link>
+                      <Link
+                        href="/blog/jabalpur-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Jabalpur Travel Guide: Marble Rocks, Dhuandhar Falls & Bhedaghat
+                      </Link>
+                      <Link
+                        href="/blog/kanha-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Kanha National Park: Tiger Safari Guide, Zones & Best Time
+                      </Link>
+                      <Link
+                        href="/blog/khajuraho-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Khajuraho Temples Travel Guide: History, Timings & Best Time to Visit
+                      </Link>
+                      <Link
+                        href="/blog/kuno-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Kuno National Park Travel Guide: Cheetahs, Safaris & Best Time
+                      </Link>
+                      <Link
+                        href="/blog/mandu-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Mandu Travel Guide: Jahaz Mahal, Monsoon Palaces & Afghan Ruins
+                      </Link>
+                      <Link
+                        href="/blog/omkareshwar-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Omkareshwar Travel Guide: Jyotirlinga Island Temple & Narmada Ghats
+                      </Link>
+                      <Link
+                        href="/blog/orchha-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Orchha Travel Guide: Cenotaphs, Palaces & Betwa River
+                      </Link>
+                      <Link
+                        href="/blog/pachmarhi-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Pachmarhi Travel Guide: Waterfalls, Caves & Satpura&apos;s Only Hill Station
+                      </Link>
+                      <Link
+                        href="/blog/panna-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Panna National Park Travel Guide: Tiger Safari & Ken River Gorge
+                      </Link>
+                      <Link
+                        href="/blog/sanchi-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Sanchi Stupa Travel Guide: Buddhist Monuments & History
+                      </Link>
+                      <Link
+                        href="/blog/ujjain-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Ujjain Travel Guide: Mahakaleshwar Temple, Simhastha & Kumbh
+                      </Link>
                   </div>
                 </section>
 

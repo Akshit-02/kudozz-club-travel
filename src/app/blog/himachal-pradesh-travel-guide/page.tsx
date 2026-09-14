@@ -181,6 +181,7 @@ const tableOfContents = [
   { id: "itinerary", title: "9-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "places-to-explore", title: "Places to Explore in Himachal Pradesh", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
@@ -312,7 +313,7 @@ export default function HimachalPradeshGuidePage() {
                 { label: "Blog", href: "/blog" },
                 {
                   label: "Himachal Pradesh",
-                  href: "/blog?category=himachal-pradesh",
+                  href: "/blog/himachal-pradesh-travel-guide",
                 },
                 { label: "Travel Guide", href: null },
               ].map((crumb, i, arr) => (
@@ -1207,6 +1208,106 @@ export default function HimachalPradeshGuidePage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── Places to Explore ────────────────────────────────── */}
+                <section id="places-to-explore">
+                  <h2>Places to Explore in Himachal Pradesh</h2>
+                  <p>
+                    Every Himachal Pradesh guide on Kudozz Club, in one place — 15 destinations covered so far, from cities and towns to individual attractions. Use this index to plan beyond the highlights above.
+                  </p>
+                  <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3 my-6">
+                      <Link
+                        href="/blog/bir-billing-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Bir Billing Travel Guide: Paragliding Capital of India
+                      </Link>
+                      <Link
+                        href="/blog/chitkul-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Chitkul Travel Guide: The Last Indian Village Before Tibet
+                      </Link>
+                      <Link
+                        href="/blog/dalhousie-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Dalhousie Travel Guide: Colonial Charm & Khajjiar Gateway
+                      </Link>
+                      <Link
+                        href="/blog/dharamshala-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Dharamshala Travel Guide: McLeod Ganj, Triund Trek & Tibetan Culture
+                      </Link>
+                      <Link
+                        href="/blog/jibhi-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Jibhi Travel Guide: Waterfalls, Cafes & Himachal&apos;s Quiet Village
+                      </Link>
+                      <Link
+                        href="/blog/kasauli-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Kasauli Travel Guide: Quiet Cantonment Hill Town Near Chandigarh
+                      </Link>
+                      <Link
+                        href="/blog/kasol-kheerganga-trek-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Kasol & Kheerganga: The Backpacker&apos;s Himalayan Trail
+                      </Link>
+                      <Link
+                        href="/blog/khajjiar-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Khajjiar Travel Guide: Mini Switzerland of India
+                      </Link>
+                      <Link
+                        href="/blog/kinnaur-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Kinnaur Travel Guide: Apple Orchards, Kinner Kailash & Sangla Valley
+                      </Link>
+                      <Link
+                        href="/blog/kullu-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Kullu Travel Guide: Valley of Gods & International Dussehra
+                      </Link>
+                      <Link
+                        href="/blog/manali-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Manali Travel Guide: Top Places, Itinerary & Insider Tips
+                      </Link>
+                      <Link
+                        href="/blog/prashar-lake-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Prashar Lake Trek Guide: Floating Island & Best Time to Visit
+                      </Link>
+                      <Link
+                        href="/blog/shimla-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Shimla Travel Guide: Mall Road, Toy Train & Best Time to Visit
+                      </Link>
+                      <Link
+                        href="/blog/spiti-valley-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Spiti Valley: The Complete Travel Guide
+                      </Link>
+                      <Link
+                        href="/blog/tirthan-valley-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Tirthan Valley Travel Guide: Trout Fishing & GHNP Gateway
+                      </Link>
                   </div>
                 </section>
 

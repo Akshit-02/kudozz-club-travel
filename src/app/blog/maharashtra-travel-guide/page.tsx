@@ -182,6 +182,7 @@ const tableOfContents = [
   { id: "itinerary", title: "7-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "places-to-explore", title: "Places to Explore in Maharashtra", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
@@ -311,7 +312,7 @@ export default function MaharashtraGuidePage() {
               {[
                 { label: "Home", href: "/" },
                 { label: "Blog", href: "/blog" },
-                { label: "Maharashtra", href: "/blog?category=maharashtra" },
+                { label: "Maharashtra", href: "/blog/maharashtra-travel-guide" },
                 { label: "Travel Guide", href: null },
               ].map((crumb, i, arr) => (
                 <li key={i} className="flex items-center gap-2">
@@ -1134,6 +1135,112 @@ export default function MaharashtraGuidePage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── Places to Explore ────────────────────────────────── */}
+                <section id="places-to-explore">
+                  <h2>Places to Explore in Maharashtra</h2>
+                  <p>
+                    Every Maharashtra guide on Kudozz Club, in one place — 16 destinations covered so far, from cities and towns to individual attractions. Use this index to plan beyond the highlights above.
+                  </p>
+                  <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3 my-6">
+                      <Link
+                        href="/blog/ajanta-ellora-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Ajanta & Ellora Caves Travel Guide: History, Timings & Tips
+                      </Link>
+                      <Link
+                        href="/blog/alibaug-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Alibaug Travel Guide: Beaches, Forts & Weekend Getaway
+                      </Link>
+                      <Link
+                        href="/blog/bhandardara-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Bhandardara Travel Guide: Arthur Lake, Waterfalls & Camping
+                      </Link>
+                      <Link
+                        href="/blog/chhatrapati-sambhajinagar-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Chhatrapati Sambhajinagar Travel Guide: Bibi Ka Maqbara & Forts
+                      </Link>
+                      <Link
+                        href="/blog/ganpatipule-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Ganpatipule Travel Guide: Beach, Temple & Konkan Coast
+                      </Link>
+                      <Link
+                        href="/blog/kaas-plateau-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Kaas Plateau Travel Guide: The Valley of Flowers of Maharashtra
+                      </Link>
+                      <Link
+                        href="/blog/kolhapur-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Kolhapur Travel Guide: Mahalaxmi Temple, Palace & Kolhapuri Food
+                      </Link>
+                      <Link
+                        href="/blog/lonavala-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Lonavala Travel Guide: Waterfalls, Caves & Monsoon Getaway
+                      </Link>
+                      <Link
+                        href="/blog/mahabaleshwar-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Mahabaleshwar Travel Guide: Viewpoints, Strawberries & Itinerary
+                      </Link>
+                      <Link
+                        href="/blog/matheran-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Matheran Travel Guide: India&apos;s Only Vehicle-Free Hill Station
+                      </Link>
+                      <Link
+                        href="/blog/mumbai-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Mumbai Travel Guide: Gateway of India, Marine Drive & Bollywood
+                      </Link>
+                      <Link
+                        href="/blog/nashik-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Nashik Travel Guide: Vineyards, Temples & Godavari Ghats
+                      </Link>
+                      <Link
+                        href="/blog/pune-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Pune Travel Guide: Shaniwar Wada, Sinhagad & City Guide
+                      </Link>
+                      <Link
+                        href="/blog/shirdi-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Shirdi Travel Guide: Sai Baba Temple, Timings & How to Reach
+                      </Link>
+                      <Link
+                        href="/blog/tadoba-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Tadoba Andhari Tiger Reserve: Safari Guide, Zones & Best Time
+                      </Link>
+                      <Link
+                        href="/blog/tarkarli-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Tarkarli Travel Guide: Scuba Diving, Beaches & Malvan
+                      </Link>
                   </div>
                 </section>
 

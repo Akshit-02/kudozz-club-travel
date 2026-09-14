@@ -184,6 +184,7 @@ const tableOfContents = [
   { id: "itinerary", title: "7-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "places-to-explore", title: "Places to Explore in Tamil Nadu", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
@@ -313,7 +314,7 @@ export default function TamilNaduGuidePage() {
               {[
                 { label: "Home", href: "/" },
                 { label: "Blog", href: "/blog" },
-                { label: "Tamil Nadu", href: "/blog?category=tamil-nadu" },
+                { label: "Tamil Nadu", href: "/blog/tamil-nadu-travel-guide" },
                 { label: "Travel Guide", href: null },
               ].map((crumb, i, arr) => (
                 <li key={i} className="flex items-center gap-2">
@@ -1165,6 +1166,136 @@ export default function TamilNaduGuidePage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── Places to Explore ────────────────────────────────── */}
+                <section id="places-to-explore">
+                  <h2>Places to Explore in Tamil Nadu</h2>
+                  <p>
+                    Every Tamil Nadu guide on Kudozz Club, in one place — 20 destinations covered so far, from cities and towns to individual attractions. Use this index to plan beyond the highlights above.
+                  </p>
+                  <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3 my-6">
+                      <Link
+                        href="/blog/chennai-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Chennai Travel Guide: Beaches, Temples & Food
+                      </Link>
+                      <Link
+                        href="/blog/chettinad-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Chettinad Travel Guide: Mansions & Cuisine
+                      </Link>
+                      <Link
+                        href="/blog/chidambaram-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Chidambaram Guide: Nataraja Temple & Tips
+                      </Link>
+                      <Link
+                        href="/blog/coimbatore-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Coimbatore Travel Guide: Gateway to the Nilgiris
+                      </Link>
+                      <Link
+                        href="/blog/courtallam-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Courtallam Falls Guide: Best Time & How to Reach
+                      </Link>
+                      <Link
+                        href="/blog/hogenakkal-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Hogenakkal Falls Guide: Boating & Best Time
+                      </Link>
+                      <Link
+                        href="/blog/kanchipuram-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Kanchipuram Travel Guide: Temples & Silk Sarees
+                      </Link>
+                      <Link
+                        href="/blog/kanyakumari-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Kanyakumari Travel Guide: Sunrise, Sunset & Tips
+                      </Link>
+                      <Link
+                        href="/blog/kodaikanal-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Kodaikanal Travel Guide: Lake, Views & Tips
+                      </Link>
+                      <Link
+                        href="/blog/kolli-hills-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Kolli Hills Travel Guide: 70 Hairpin Bends & Tips
+                      </Link>
+                      <Link
+                        href="/blog/madurai-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Madurai Travel Guide: Meenakshi Temple & Tips
+                      </Link>
+                      <Link
+                        href="/blog/mahabalipuram-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Mahabalipuram Travel Guide: Shore Temples & Tips
+                      </Link>
+                      <Link
+                        href="/blog/meghamalai-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Meghamalai Guide: High Wavy Mountains & Tips
+                      </Link>
+                      <Link
+                        href="/blog/ooty-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Ooty Travel Guide: Nilgiris, Lakes & Best Time
+                      </Link>
+                      <Link
+                        href="/blog/rameswaram-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Rameswaram Travel Guide: Temple & Dhanushkodi
+                      </Link>
+                      <Link
+                        href="/blog/thanjavur-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Thanjavur Travel Guide: Brihadeeswarar Temple
+                      </Link>
+                      <Link
+                        href="/blog/tiruvannamalai-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Tiruvannamalai Guide: Arunachala & Girivalam
+                      </Link>
+                      <Link
+                        href="/blog/valparai-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Valparai Travel Guide: Tea Estates & Wildlife
+                      </Link>
+                      <Link
+                        href="/blog/yelagiri-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Yelagiri Travel Guide: Lake, Hills & Best Time
+                      </Link>
+                      <Link
+                        href="/blog/yercaud-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Yercaud Travel Guide: Coffee Hills & Best Time
+                      </Link>
                   </div>
                 </section>
 

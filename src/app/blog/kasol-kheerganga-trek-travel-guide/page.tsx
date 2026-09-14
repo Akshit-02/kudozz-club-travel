@@ -235,7 +235,7 @@ export default function KasolKheergangaPage() {
                 { label: "Blog", href: "/blog" },
                 {
                   label: "Himachal Pradesh",
-                  href: "/blog?category=himachal-pradesh",
+                  href: "/blog/himachal-pradesh-travel-guide",
                 },
                 { label: "Kasol & Kheerganga", href: null },
               ].map((crumb, i, arr) => (

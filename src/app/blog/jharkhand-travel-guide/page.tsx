@@ -182,6 +182,7 @@ const tableOfContents = [
   { id: "itinerary", title: "5-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "places-to-explore", title: "Places to Explore in Jharkhand", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
@@ -311,7 +312,7 @@ export default function JharkhandGuidePage() {
               {[
                 { label: "Home", href: "/" },
                 { label: "Blog", href: "/blog" },
-                { label: "Jharkhand", href: "/blog?category=jharkhand" },
+                { label: "Jharkhand", href: "/blog/jharkhand-travel-guide" },
                 { label: "Travel Guide", href: null },
               ].map((crumb, i, arr) => (
                 <li key={i} className="flex items-center gap-2">
@@ -1177,6 +1178,100 @@ export default function JharkhandGuidePage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── Places to Explore ────────────────────────────────── */}
+                <section id="places-to-explore">
+                  <h2>Places to Explore in Jharkhand</h2>
+                  <p>
+                    Every Jharkhand guide on Kudozz Club, in one place — 14 destinations covered so far, from cities and towns to individual attractions. Use this index to plan beyond the highlights above.
+                  </p>
+                  <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3 my-6">
+                      <Link
+                        href="/blog/betla-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Betla National Park Travel Guide: Tiger Safari & Palamu Forts
+                      </Link>
+                      <Link
+                        href="/blog/chandil-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Chandil Dam Travel Guide: Reservoir, Boating & Day Trip Guide
+                      </Link>
+                      <Link
+                        href="/blog/deoghar-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Deoghar Travel Guide: Baidyanath Temple & Jyotirlinga Pilgrimage
+                      </Link>
+                      <Link
+                        href="/blog/ghatshila-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Ghatshila Travel Guide: Subarnarekha River & Dalma Hills
+                      </Link>
+                      <Link
+                        href="/blog/hazaribagh-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Hazaribagh Travel Guide: Wildlife Sanctuary & Hazaribagh Lake
+                      </Link>
+                      <Link
+                        href="/blog/jamshedpur-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Jamshedpur Travel Guide: Jubilee Park, Dimna Lake & Steel City
+                      </Link>
+                      <Link
+                        href="/blog/massanjore-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Massanjore Dam Travel Guide: Mayurakshi Reservoir & Day Trip Guide
+                      </Link>
+                      <Link
+                        href="/blog/netarhat-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Netarhat Travel Guide: Sunrise Point & Chotanagpur&apos;s Hill Queen
+                      </Link>
+                      <Link
+                        href="/blog/parasnath-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Parasnath Hill Travel Guide: Jain Temples & Jharkhand&apos;s Highest Peak
+                      </Link>
+                      <Link
+                        href="/blog/patratu-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Patratu Valley Travel Guide: Dam, Ghati Road & Best Time to Visit
+                      </Link>
+                      <Link
+                        href="/blog/rajrappa-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Rajrappa Travel Guide: Chhinnamasta Temple & River Confluence
+                      </Link>
+                      <Link
+                        href="/blog/ranchi-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Ranchi Travel Guide: Waterfalls, Lakes & Jharkhand&apos;s Capital
+                      </Link>
+                      <Link
+                        href="/blog/saranda-forest-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Saranda Forest Travel Guide: Asia&apos;s Largest Sal Forest
+                      </Link>
+                      <Link
+                        href="/blog/trikut-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Trikut Hills Travel Guide: Ropeway, Trekking & Deoghar Day Trip
+                      </Link>
                   </div>
                 </section>
 

@@ -315,7 +315,7 @@ export default function YanamDistrictGuidePage() {
               {[
                 { label: "Home", href: "/" },
                 { label: "Blog", href: "/blog" },
-                { label: "Yanam", href: "/blog?category=yanam" },
+                { label: "Yanam", href: "/blog/puducherry-district-travel-guide" },
                 { label: "District Guide", href: null },
               ].map((crumb, i, arr) => (
                 <li key={i} className="flex items-center gap-2">

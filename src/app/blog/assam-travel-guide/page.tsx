@@ -184,6 +184,7 @@ const tableOfContents = [
   { id: "itinerary", title: "7-Day Itinerary", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
+  { id: "places-to-explore", title: "Places to Explore in Assam", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
@@ -315,7 +316,7 @@ export default function AssamGuidePage() {
                 { label: "Blog", href: "/blog" },
                 {
                   label: "Assam",
-                  href: "/blog?category=assam",
+                  href: "/blog/assam-travel-guide",
                 },
                 { label: "Travel Guide", href: null },
               ].map((crumb, i, arr) => (
@@ -1180,6 +1181,106 @@ export default function AssamGuidePage() {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </section>
+
+                {/* ── Places to Explore ────────────────────────────────── */}
+                <section id="places-to-explore">
+                  <h2>Places to Explore in Assam</h2>
+                  <p>
+                    Every Assam guide on Kudozz Club, in one place — 15 destinations covered so far, from cities and towns to individual attractions. Use this index to plan beyond the highlights above.
+                  </p>
+                  <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3 my-6">
+                      <Link
+                        href="/blog/charaideo-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Charaideo Travel Guide: The Pyramids of Assam
+                      </Link>
+                      <Link
+                        href="/blog/dibrugarh-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Dibrugarh Travel Guide: The Tea Capital of Assam
+                      </Link>
+                      <Link
+                        href="/blog/guwahati-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Guwahati Travel Guide: Brahmaputra Sunset Cruises & City Guide
+                      </Link>
+                      <Link
+                        href="/blog/haflong-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Haflong Travel Guide: Assam&apos;s Only Hill Station
+                      </Link>
+                      <Link
+                        href="/blog/hajo-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Hajo Travel Guide: A Temple Town Sacred to Four Religions
+                      </Link>
+                      <Link
+                        href="/blog/jorhat-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Jorhat Travel Guide: Tea Estates & Gateway to Majuli
+                      </Link>
+                      <Link
+                        href="/blog/kamakhya-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Kamakhya Temple Travel Guide: Shakti Peetha & Ambubachi Mela
+                      </Link>
+                      <Link
+                        href="/blog/kaziranga-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Kaziranga National Park Travel Guide: One-Horned Rhino Safari
+                      </Link>
+                      <Link
+                        href="/blog/majuli-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Majuli Travel Guide: The World&apos;s Largest River Island
+                      </Link>
+                      <Link
+                        href="/blog/manas-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Manas National Park Travel Guide: Tiger Reserve & UNESCO Site
+                      </Link>
+                      <Link
+                        href="/blog/nameri-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Nameri National Park Travel Guide: Rafting & Birdwatching
+                      </Link>
+                      <Link
+                        href="/blog/pobitora-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Pobitora Wildlife Sanctuary Travel Guide: Highest Rhino Density on Earth
+                      </Link>
+                      <Link
+                        href="/blog/silchar-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Silchar Travel Guide: Gateway to the Barak Valley
+                      </Link>
+                      <Link
+                        href="/blog/sivasagar-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Sivasagar Travel Guide: Ahom Dynasty Capital & Ancient Tanks
+                      </Link>
+                      <Link
+                        href="/blog/tezpur-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Tezpur Travel Guide: The City of Eternal Romance
+                      </Link>
                   </div>
                 </section>
 
