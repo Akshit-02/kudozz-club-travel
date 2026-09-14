@@ -3649,6 +3649,19 @@ export const posts = [
     featured: false,
   },
   {
+    slug: "ranthambore-first-time-visitors-travel-guide",
+    title: "Things to Do in Ranthambore for First-Time Visitors",
+    excerpt:
+      "A first-timer's honest account of Ranthambore — the safari that finally delivered a tigress near Padam Talao, the climb up Ranthambore Fort almost skipped, and a half-day at Chambal Gharial Sanctuary.",
+    image:
+      "/images/blogs/rajasthan/ranthambore-first-time-visitors/ranthambore-fort-from-forest-below.webp",
+    category: "Adventure",
+    categoryColor: "bg-amber-100 text-amber-700",
+    tags: ["Ranthambore", "Tiger Safari", "Rajasthan", "Ranthambore Fort"],
+    readTime: "6 min",
+    featured: false,
+  },
+  {
     slug: "mount-abu-travel-guide",
     title: "Mount Abu Travel Guide: Dilwara Temples & Tips",
     excerpt:
