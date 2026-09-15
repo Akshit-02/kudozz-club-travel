@@ -616,6 +616,15 @@ export default function MaharashtraGuidePage() {
                 {/* ── Mumbai ────────────────────────────────────────────── */}
                 <section id="mumbai">
                   <h2>Mumbai: Gateway of India & Marine Drive</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/maharashtra/mumbai/gateway-of-india-evening-mumbai.webp"
+                      alt="The Gateway of India monument lit up at dusk beside Mumbai's harbour"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     India's financial and entertainment capital rewards at
                     least 2–3 days of proper exploring, blending colonial
@@ -701,6 +710,15 @@ export default function MaharashtraGuidePage() {
                 {/* ── Hill Stations ─────────────────────────────────────── */}
                 <section id="hill-stations">
                   <h2>Lonavala, Mahabaleshwar & Matheran</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/maharashtra/maharashtra/lonavala-valley-misty-hills-sahyadri.webp"
+                      alt="Misty green Sahyadri peaks rising above forest cover near Lonavala hill station"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     The Sahyadri range gives Maharashtra a string of
                     accessible hill stations, especially popular as weekend
@@ -724,6 +742,15 @@ export default function MaharashtraGuidePage() {
                       — genuinely quiet and pollution-free.
                     </li>
                   </ul>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/maharashtra/maharashtra/mahabaleshwar-needle-hole-point-rock-formation.webp"
+                      alt="The wind-carved rock arch at Needle Hole Point, one of Mahabaleshwar's well-known viewpoints"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                 </section>
 
                 {/* ── Konkan Coast ──────────────────────────────────────── */}
@@ -731,8 +758,8 @@ export default function MaharashtraGuidePage() {
                   <h2>The Konkan Coast</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/blogs/maharashtra/maharashtra/ajanta-caves-rock-cut-facade-maharashtra.webp"
-                      alt="A quiet coastal beach, evoking Maharashtra's Konkan coastline"
+                      src="/images/blogs/maharashtra/maharashtra/sindhudurg-fort-island-malvan-coast.webp"
+                      alt="Sindhudurg Fort's long sea-facing ramparts on its own island off the Malvan coast"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

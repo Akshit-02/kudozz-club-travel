@@ -654,6 +654,15 @@ export default function SikkimGuidePage() {
                 {/* ── Gangtok ───────────────────────────────────────────── */}
                 <section id="gangtok">
                   <h2>Gangtok: Capital & Base</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/sikkim/sikkim/mg-marg-pedestrian-street-gangtok-sikkim.webp"
+                      alt="The pedestrian-only MG Marg promenade lined with shops and cafés, Gangtok"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Sikkim's capital sits on a ridge at around 1,650m and
                     functions as the natural base for the whole state —
@@ -693,8 +702,8 @@ export default function SikkimGuidePage() {
                   <h2>Tsomgo Lake & Nathula Pass</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/blogs/sikkim/sikkim/rumtek-monastery-gangtok-sikkim.webp"
-                      alt="Rumtek Monastery near Gangtok, one of Sikkim's most significant Buddhist sites"
+                      src="/images/blogs/sikkim/sikkim/tsomgo-changu-lake-east-sikkim.webp"
+                      alt="Tsomgo (Changu) Lake ringed by mountains in East Sikkim, with a yak on the shore path"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -729,6 +738,15 @@ export default function SikkimGuidePage() {
                 {/* ── North Sikkim ──────────────────────────────────────── */}
                 <section id="north-sikkim">
                   <h2>Yumthang Valley & Lachung</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/sikkim/sikkim/yumthang-valley-alpine-landscape-sikkim.webp"
+                      alt="Yumthang Valley's snow-capped peaks and prayer flags in North Sikkim"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     North Sikkim's permit-controlled circuit is where the
                     state's high-altitude scenery is at its most dramatic —
@@ -765,6 +783,15 @@ export default function SikkimGuidePage() {
                 {/* ── West Sikkim ───────────────────────────────────────── */}
                 <section id="west-sikkim">
                   <h2>Pelling & Kanchenjunga Views</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/sikkim/sikkim/kanchenjunga-peak-view-from-pelling-sikkim.webp"
+                      alt="The snow-capped Kanchenjunga range seen from Pelling, West Sikkim"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     West Sikkim offers some of the state's best mountain
                     views without the permit complexity of the north and

@@ -619,6 +619,15 @@ export default function TelanganaGuidePage() {
                 {/* ── Hyderabad ─────────────────────────────────────────── */}
                 <section id="hyderabad">
                   <h2>Hyderabad: Charminar & Golconda</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/telangana/hyderabad/hussain-sagar-buddha-statue-night-hyderabad.webp"
+                      alt="The monolithic Buddha statue illuminated at night in the middle of Hussain Sagar lake, Hyderabad"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Telangana's capital blends Qutb Shahi and Nizam-era
                     heritage with a genuinely thriving modern IT economy —
@@ -704,6 +713,15 @@ export default function TelanganaGuidePage() {
                 {/* ── Temple Circuit ────────────────────────────────────── */}
                 <section id="temple-circuit">
                   <h2>The Temple Circuit</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/telangana/yadadri/yadadri-narasimha-swamy-temple-gopuram.webp"
+                      alt="The gold-plated gopuram of the Yadagirigutta Narasimha Swamy Temple at Yadadri, Telangana"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Telangana's temple towns range from a gold-plated hill
                     shrine barely an hour from Hyderabad to a Jyotirlinga deep
@@ -753,6 +771,15 @@ export default function TelanganaGuidePage() {
                 {/* ── Nature & Offbeat ──────────────────────────────────── */}
                 <section id="nature-offbeat">
                   <h2>Nature, Lakes & Offbeat Trails</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/telangana/laknavaram/laknavaram-lake-forested-islands-mulugu.webp"
+                      alt="Forested islands dotting the still waters of Laknavaram Lake near Mulugu, Telangana"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Beyond heritage and temples, Telangana has a genuinely
                     offbeat nature side — dams, hill stations, cantilever

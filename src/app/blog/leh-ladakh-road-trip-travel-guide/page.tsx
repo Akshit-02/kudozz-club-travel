@@ -882,8 +882,8 @@ export default function LehLadakhPage() {
                     <h3>Pangong Tso — The Colour-Changing Lake</h3>
                     <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                       <Image
-                        src="/images/destinations/leh-ladakh/leh-ladakh.jpg"
-                        alt="Pangong Tso lake with turquoise water and snow mountains"
+                        src="/images/blogs/ladakh/pangong-lake/pangong-tso-turquoise-water-mountains.webp"
+                        alt="Pangong Tso — turquoise-blue saline lake ringed by Himalayan peaks"
                         fill
                         sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                         className="object-cover"
@@ -940,6 +940,15 @@ export default function LehLadakhPage() {
 
                   <section id="nubra">
                     <h3>Nubra Valley — The Valley of Flowers</h3>
+                    <div className="relative w-full rounded-xl my-6 h-64 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/blogs/ladakh/nubra-valley/hunder-dunes-bactrian-camels-nubra-valley.webp"
+                        alt="Double-humped Bactrian camels resting on the sand dunes at Hunder, Nubra Valley, Ladakh"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <p>
                       Cross the world-famous <strong>Khardung La Pass</strong>{" "}
                       and descend into an entirely different world: Nubra
@@ -980,6 +989,15 @@ export default function LehLadakhPage() {
 
                   <section id="khardung-la">
                     <h3>Khardung La Pass — The Gateway to Nubra</h3>
+                    <div className="relative w-full rounded-xl my-6 h-64 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/blogs/ladakh/khardung-la/khardung-la-winding-pass-road.webp"
+                        alt="The winding road switchbacking up Khardung La through the barren Ladakh Range"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <p>
                       At 5,359 metres (17,582 ft), <strong>Khardung La</strong>
                       is the world's second-highest motorable pass (after
@@ -1017,6 +1035,15 @@ export default function LehLadakhPage() {
                       the most spectacular religious buildings on earth. Here
                       are the essential ones:
                     </p>
+                    <div className="relative w-full rounded-xl my-6 h-64 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/blogs/ladakh/thiksey/thiksey-monastery-hilltop-view.webp"
+                        alt="Thiksey Monastery's tiered, Potala-like complex crowning its hilltop above the Indus valley, Ladakh"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
 
                     <div className="space-y-4 my-4">
                       {[
@@ -1110,6 +1137,15 @@ export default function LehLadakhPage() {
 
                   <section id="tso-moriri">
                     <h3>Tso Moriri Lake</h3>
+                    <div className="relative w-full rounded-xl my-6 h-64 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/blogs/ladakh/tso-moriri/tso-moriri-lake-korzok-village.webp"
+                        alt="Tso Moriri lake with Korzok village on its shore, Rupshu plateau, Ladakh"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <p>
                       If Pangong is Ladakh's most famous lake,{" "}
                       <strong>Tso Moriri</strong>
@@ -1132,6 +1168,15 @@ export default function LehLadakhPage() {
 
                   <section id="zanskar">
                     <h3>Zanskar Valley</h3>
+                    <div className="relative w-full rounded-xl my-6 h-64 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/blogs/ladakh/zanskar-valley/phugtal-monastery-cliff-zanskar.webp"
+                        alt="Phugtal Monastery built into a sheer cliff face above the Tsarap River, Zanskar Valley"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <p>
                       The remote <strong>Zanskar Valley</strong> is Ladakh's
                       final frontier — cut off from Leh for 8–9 months of the

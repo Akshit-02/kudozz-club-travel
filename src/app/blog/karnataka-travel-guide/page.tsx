@@ -627,6 +627,15 @@ export default function KarnatakaGuidePage() {
                 {/* ── Bangalore ─────────────────────────────────────────── */}
                 <section id="bangalore">
                   <h2>Bangalore: India's Silicon Valley</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/karnataka/karnataka/bangalore-palace-tudor-facade.webp"
+                      alt="The Tudor-Gothic towers and ivy-covered facade of Bangalore Palace"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     <strong>Bangalore</strong> (officially Bengaluru) is
                     India's tech capital, and most Karnataka trips start
@@ -674,6 +683,15 @@ export default function KarnatakaGuidePage() {
                 {/* ── Mysore ────────────────────────────────────────────── */}
                 <section id="mysore">
                   <h2>Mysore: The Royal City</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/karnataka/karnataka/mysore-palace-arches-view.webp"
+                      alt="Mysore Palace's domes and towers framed by the arches of a neighboring pavilion"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     A comfortable 3-hour drive from Bangalore,{" "}
                     <strong>Mysore</strong> (Mysuru) was the seat of the
@@ -761,6 +779,15 @@ export default function KarnatakaGuidePage() {
                 {/* ── Other Sights ──────────────────────────────────────── */}
                 <section id="other-sights">
                   <h2>Coastal Karnataka, Chikmagalur & Hoysala Temples</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/karnataka/karnataka/hoysaleswara-temple-halebidu.webp"
+                      alt="The intricately carved stone facade of Hoysaleswara Temple at Halebidu"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <ul>
                     <li>
                       <strong>Mangalore & coastal Karnataka:</strong> A

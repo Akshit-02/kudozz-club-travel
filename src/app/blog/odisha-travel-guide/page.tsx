@@ -610,6 +610,15 @@ export default function OdishaGuidePage() {
                 {/* ── Puri ──────────────────────────────────────────────── */}
                 <section id="puri">
                   <h2>Puri: Jagannath Temple & Beach</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/odisha/odisha/jagannath-temple-shikhara-puri.webp"
+                      alt="The towering shikhara of the Jagannath Temple rising above Puri's old city"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     One of Hinduism's four sacred Char Dham pilgrimage
                     sites, Puri is built around the <strong>Jagannath
@@ -648,6 +657,15 @@ export default function OdishaGuidePage() {
                 {/* ── Konark ────────────────────────────────────────────── */}
                 <section id="konark">
                   <h2>Konark: The Sun Temple</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/odisha/odisha/konark-sun-temple-facade-scaffolding-visitors.webp"
+                      alt="Visitors gathered before the ornately carved stone facade of the Konark Sun Temple"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     A UNESCO World Heritage Site roughly 35 km from Puri,
                     the <strong>Konark Sun Temple</strong> was built in the
@@ -687,6 +705,15 @@ export default function OdishaGuidePage() {
                 {/* ── Bhubaneswar ───────────────────────────────────────── */}
                 <section id="bhubaneswar">
                   <h2>Bhubaneswar: The Temple City</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/odisha/odisha/lingaraj-temple-complex-bhubaneswar.webp"
+                      alt="The towering shikhara of the Lingaraj Temple rising above its temple complex in Bhubaneswar"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Odisha's capital is genuinely nicknamed the "Temple
                     City" for good reason — over 700 temples once stood
@@ -725,8 +752,8 @@ export default function OdishaGuidePage() {
                   <h2>Chilika Lake: Dolphins & Birds</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/blogs/odisha/odisha/konark-sun-temple-wheel-odisha.webp"
-                      alt="The intricately carved stone wheel of the Konark Sun Temple, one of Odisha's most iconic sights"
+                      src="/images/blogs/odisha/odisha/chilika-lake-tourist-boat-satapada.webp"
+                      alt="A tourist boat carrying passengers across the brackish waters of Chilika Lake near Satapada"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -763,6 +790,15 @@ export default function OdishaGuidePage() {
                 {/* ── Tribal Odisha ─────────────────────────────────────── */}
                 <section id="tribal-odisha">
                   <h2>Tribal Odisha</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/odisha/odisha/pattachitra-paintings-raghurajpur-village.webp"
+                      alt="Traditional Pattachitra scroll paintings displayed on a thatched-roof house in Raghurajpur village"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Odisha's interior — particularly the Koraput and
                     Similipal regions — is home to some of India's most

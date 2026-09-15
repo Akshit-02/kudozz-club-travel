@@ -629,8 +629,8 @@ export default function AssamGuidePage() {
                   <h2>Kaziranga National Park: Rhino Country</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/blogs/assam/assam/one-horned-rhinoceros-kaziranga-assam.webp"
-                      alt="A one-horned Indian rhinoceros grazing on grassland in Kaziranga National Park, Assam"
+                      src="/images/blogs/assam/assam/elephant-safari-rhino-kaziranga.webp"
+                      alt="Visitors on an elephant-back safari approaching a rhino in Kaziranga National Park's grasslands"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -679,8 +679,8 @@ export default function AssamGuidePage() {
                   <h2>Guwahati & Kamakhya Temple</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/blogs/assam/assam/one-horned-rhinoceros-kaziranga-assam.webp"
-                      alt="A one-horned Indian rhinoceros grazing on grassland in Kaziranga National Park, Assam"
+                      src="/images/blogs/assam/assam/kamakhya-temple-shikhara-guwahati.webp"
+                      alt="The distinctive red beehive-shaped shikhara of Kamakhya Temple in Guwahati"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -716,6 +716,15 @@ export default function AssamGuidePage() {
                 {/* ── Majuli ────────────────────────────────────────────── */}
                 <section id="majuli">
                   <h2>Majuli: The River Island</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/assam/assam/uttar-kamalabari-satra-majuli.webp"
+                      alt="Sri Sri Uttar Kamalabari Satra, a Vaishnavite monastery on Majuli island"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     <strong>Majuli</strong> holds the record as the world's
                     largest river island, reachable by ferry from{" "}
@@ -756,6 +765,15 @@ export default function AssamGuidePage() {
                 {/* ── Other Sights ──────────────────────────────────────── */}
                 <section id="other-sights">
                   <h2>Tea Gardens, Manas & Sivasagar</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/assam/assam/tea-garden-pluckers-assam.webp"
+                      alt="Workers plucking tea leaves in a lush green tea garden in Assam"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <ul>
                     <li>
                       <strong>Tea Gardens (Jorhat):</strong> Known as

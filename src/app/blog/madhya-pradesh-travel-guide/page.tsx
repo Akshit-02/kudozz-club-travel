@@ -626,6 +626,15 @@ export default function MadhyaPradeshGuidePage() {
                 {/* ── Khajuraho ─────────────────────────────────────────── */}
                 <section id="khajuraho">
                   <h2>Khajuraho: The Carved Temples</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/madhya-pradesh/madhya-pradesh/kandariya-mahadeva-temple-khajuraho-sunset.webp"
+                      alt="The Kandariya Mahadeva Temple at Khajuraho's Western Group, its sandstone spire silhouetted at sunset"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     A UNESCO World Heritage Site, <strong>Khajuraho's</strong>{" "}
                     temple complex was built between the 10th and 12th
@@ -667,8 +676,8 @@ export default function MadhyaPradeshGuidePage() {
                   <h2>Bandhavgarh & Kanha: Tiger Country</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/blogs/madhya-pradesh/madhya-pradesh/khajuraho-devi-jagadambi-temple-madhya-pradesh.webp"
-                      alt="Dense green forest landscape, evoking the tiger reserves of Bandhavgarh and Kanha in Madhya Pradesh"
+                      src="/images/blogs/madhya-pradesh/madhya-pradesh/bengal-tiger-bandhavgarh-national-park.webp"
+                      alt="A Bengal tiger walking through the dry forest undergrowth of Bandhavgarh National Park, Madhya Pradesh"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -717,8 +726,8 @@ export default function MadhyaPradeshGuidePage() {
                   <h2>Gwalior Fort & Sanchi Stupa</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/blogs/madhya-pradesh/madhya-pradesh/khajuraho-devi-jagadambi-temple-madhya-pradesh.webp"
-                      alt="A large hilltop fort with sandstone walls, evoking Gwalior Fort in Madhya Pradesh"
+                      src="/images/blogs/madhya-pradesh/madhya-pradesh/gwalior-fort-hilltop-fortress-madhya-pradesh.webp"
+                      alt="Gwalior Fort's massive sandstone ramparts and turrets along the hilltop, Madhya Pradesh"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -749,11 +758,29 @@ export default function MadhyaPradeshGuidePage() {
                       interiors.
                     </li>
                   </ul>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/madhya-pradesh/madhya-pradesh/great-stupa-sanchi-buddhist-monument.webp"
+                      alt="The Great Stupa at Sanchi, its dome and carved gateway (torana) dating to the 3rd century BCE"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                 </section>
 
                 {/* ── Other Sights ──────────────────────────────────────── */}
                 <section id="other-sights">
                   <h2>Pachmarhi, Bhopal & Ujjain</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/madhya-pradesh/madhya-pradesh/mahakaleshwar-jyotirlinga-temple-ujjain.webp"
+                      alt="The illuminated spire of the Mahakaleshwar Jyotirlinga Temple in Ujjain, lit up at night"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <ul>
                     <li>
                       <strong>Pachmarhi:</strong> Madhya Pradesh's only

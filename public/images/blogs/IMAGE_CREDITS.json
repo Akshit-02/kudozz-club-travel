@@ -676,7 +676,8 @@
     {
       "path": "blogs/ladakh/pangong-lake/pangong-tso-turquoise-water-mountains.webp",
       "usedIn": [
-        "pangong-lake-travel-guide (hero — replaces a generic shared leh-ladakh.jpg photo)"
+        "pangong-lake-travel-guide (hero — replaces a generic shared leh-ladakh.jpg photo)",
+        "leh-ladakh-road-trip-travel-guide"
       ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Pangong_Lake,_Ladakh,_India_05.jpg",
@@ -712,7 +713,8 @@
     {
       "path": "blogs/ladakh/nubra-valley/hunder-dunes-bactrian-camels-nubra-valley.webp",
       "usedIn": [
-        "nubra-valley-travel-guide (hero — replaces a generic shared leh-ladakh.jpg photo)"
+        "nubra-valley-travel-guide (hero — replaces a generic shared leh-ladakh.jpg photo)",
+        "leh-ladakh-road-trip-travel-guide"
       ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Nubra_Valley_double_hump_camel_ride.jpg",
@@ -748,7 +750,8 @@
     {
       "path": "blogs/ladakh/tso-moriri/tso-moriri-lake-korzok-village.webp",
       "usedIn": [
-        "tso-moriri-travel-guide (hero — replaces a generic shared leh-ladakh.jpg photo)"
+        "tso-moriri-travel-guide (hero — replaces a generic shared leh-ladakh.jpg photo)",
+        "leh-ladakh-road-trip-travel-guide"
       ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Tso_Moriri,_Ladakh_(34855616204).jpg",
@@ -928,7 +931,8 @@
     {
       "path": "blogs/ladakh/zanskar-valley/phugtal-monastery-cliff-zanskar.webp",
       "usedIn": [
-        "zanskar-valley-travel-guide (hero + Phugtal Monastery section — replaces a generic shared leh-ladakh.jpg photo)"
+        "zanskar-valley-travel-guide (hero + Phugtal Monastery section — replaces a generic shared leh-ladakh.jpg photo)",
+        "leh-ladakh-road-trip-travel-guide"
       ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Cave_Buildings_Wide_Phuktal_Gompa_Oct22_A7C_04519.jpg",
@@ -1036,7 +1040,8 @@
     {
       "path": "blogs/ladakh/thiksey/thiksey-monastery-hilltop-view.webp",
       "usedIn": [
-        "thiksey-travel-guide (hero + inline — replaces a generic shared leh-ladakh.jpg photo)"
+        "thiksey-travel-guide (hero + inline — replaces a generic shared leh-ladakh.jpg photo)",
+        "leh-ladakh-road-trip-travel-guide"
       ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Thiksey_Monastery_Complex,_Ladakh_02.jpg",
@@ -1048,7 +1053,8 @@
     {
       "path": "blogs/ladakh/khardung-la/khardung-la-winding-pass-road.webp",
       "usedIn": [
-        "khardung-la-travel-guide (hero — replaces a generic shared leh-ladakh.jpg photo)"
+        "khardung-la-travel-guide (hero — replaces a generic shared leh-ladakh.jpg photo)",
+        "leh-ladakh-road-trip-travel-guide"
       ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Khardung_La,_Ladakh_Range,_North_India.jpg",
@@ -2728,7 +2734,8 @@
     {
       "path": "/images/blogs/telangana/yadadri/yadadri-narasimha-swamy-temple-gopuram.webp",
       "usedIn": [
-        "yadadri-travel-guide"
+        "yadadri-travel-guide",
+        "telangana-travel-guide"
       ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Sri_Lakshminarasimha_Swamy_Temple_Yadagirigutta_Yadadri_Telangana_07.jpg",
@@ -2812,7 +2819,8 @@
     {
       "path": "/images/blogs/telangana/hyderabad/hussain-sagar-buddha-statue-night-hyderabad.webp",
       "usedIn": [
-        "hyderabad-travel-guide"
+        "hyderabad-travel-guide",
+        "telangana-travel-guide"
       ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Hussain_Sagar_Buddha_Statue.JPG",
@@ -2908,7 +2916,8 @@
     {
       "path": "/images/blogs/telangana/laknavaram/laknavaram-lake-forested-islands-mulugu.webp",
       "usedIn": [
-        "laknavaram-travel-guide"
+        "laknavaram-travel-guide",
+        "telangana-travel-guide"
       ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Laknavaram_Lake_4.jpg",
@@ -3473,6 +3482,331 @@
       "license": "Public Domain",
       "author": "SyeN",
       "attribution": "SyeN, Public Domain, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/maharashtra/maharashtra/lonavala-valley-misty-hills-sahyadri.webp",
+      "usedIn": [
+        "maharashtra-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Lonavala_Valley_(51430499813).jpg",
+      "originalFile": "Lonavala Valley (51430499813).jpg",
+      "license": "CC BY-SA 2.0",
+      "author": "Dinesh Valke",
+      "attribution": "Dinesh Valke, CC BY-SA 2.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/maharashtra/maharashtra/mahabaleshwar-needle-hole-point-rock-formation.webp",
+      "usedIn": [
+        "maharashtra-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Mahabaleshwar_-_Needle-hole_Point_(5769812159).jpg",
+      "originalFile": "Mahabaleshwar - Needle-hole Point (5769812159).jpg",
+      "license": "CC BY-SA 2.0",
+      "author": "B Balaji",
+      "attribution": "B Balaji, CC BY-SA 2.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/maharashtra/maharashtra/sindhudurg-fort-island-malvan-coast.webp",
+      "usedIn": [
+        "maharashtra-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:View_of_the_Sindhudurg_From_Malvan.jpg",
+      "originalFile": "View of the Sindhudurg From Malvan.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Debazoti1985",
+      "attribution": "Debazoti1985, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/odisha/odisha/jagannath-temple-shikhara-puri.webp",
+      "usedIn": [
+        "odisha-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Jagannath_Temple,_Puri_04.jpg",
+      "originalFile": "Jagannath Temple, Puri 04.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Bernard Gagnon",
+      "attribution": "Bernard Gagnon, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/odisha/odisha/konark-sun-temple-facade-scaffolding-visitors.webp",
+      "usedIn": [
+        "odisha-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:KONARK_SUN1.jpg",
+      "originalFile": "KONARK SUN1.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Pankajp04010",
+      "attribution": "Pankajp04010, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/odisha/odisha/lingaraj-temple-complex-bhubaneswar.webp",
+      "usedIn": [
+        "odisha-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Lingaraja_Temple_01.jpg",
+      "originalFile": "Lingaraja Temple 01.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Bernard Gagnon",
+      "attribution": "Bernard Gagnon, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/odisha/odisha/chilika-lake-tourist-boat-satapada.webp",
+      "usedIn": [
+        "odisha-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Satapada_5.jpg",
+      "originalFile": "Satapada 5.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Rangan Datta Wiki",
+      "attribution": "Rangan Datta Wiki, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/odisha/odisha/pattachitra-paintings-raghurajpur-village.webp",
+      "usedIn": [
+        "odisha-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Painting_on_a_wall_at_Raghurajpur.JPG",
+      "originalFile": "Painting on a wall at Raghurajpur.JPG",
+      "license": "CC BY-SA 4.0",
+      "author": "Sitikantha K",
+      "attribution": "Sitikantha K, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/maharashtra/mumbai/gateway-of-india-evening-mumbai.webp",
+      "usedIn": [
+        "mumbai-travel-guide",
+        "maharashtra-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Gateway_of_India_in_the_evening,_Mumbai,_India.jpg",
+      "originalFile": "Gateway of India in the evening, Mumbai, India.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "SriSriChinmaya",
+      "attribution": "SriSriChinmaya, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/madhya-pradesh/madhya-pradesh/kandariya-mahadeva-temple-khajuraho-sunset.webp",
+      "usedIn": [
+        "madhya-pradesh-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:The_Kandariya_Mahadeva_Temple,_Khajuraho,_Madhya_Pradesh.jpg",
+      "originalFile": "The Kandariya Mahadeva Temple, Khajuraho, Madhya Pradesh.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Taru23",
+      "attribution": "Taru23, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/madhya-pradesh/madhya-pradesh/bengal-tiger-bandhavgarh-national-park.webp",
+      "usedIn": [
+        "madhya-pradesh-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Bengal_tiger_in_Bandhavgarh_National_Park_02.jpg",
+      "originalFile": "Bengal tiger in Bandhavgarh National Park 02.jpg",
+      "license": "CC BY 4.0",
+      "author": "Bernard Gagnon",
+      "attribution": "Bernard Gagnon, CC BY 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/madhya-pradesh/madhya-pradesh/gwalior-fort-hilltop-fortress-madhya-pradesh.webp",
+      "usedIn": [
+        "madhya-pradesh-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Gwalior_Fort_-_Morning_View.jpg",
+      "originalFile": "Gwalior Fort - Morning View.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Abhishek Dwivedi",
+      "attribution": "Abhishek Dwivedi, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/madhya-pradesh/madhya-pradesh/great-stupa-sanchi-buddhist-monument.webp",
+      "usedIn": [
+        "madhya-pradesh-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Stupa_1,_Sanchi_02.jpg",
+      "originalFile": "Stupa 1, Sanchi 02.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Bernard Gagnon",
+      "attribution": "Bernard Gagnon, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/madhya-pradesh/madhya-pradesh/mahakaleshwar-jyotirlinga-temple-ujjain.webp",
+      "usedIn": [
+        "madhya-pradesh-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Mahakaleshwar_Temple,_Ujjain.jpg",
+      "originalFile": "Mahakaleshwar Temple, Ujjain.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Ashverse",
+      "attribution": "Ashverse, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/sikkim/sikkim/mg-marg-pedestrian-street-gangtok-sikkim.webp",
+      "usedIn": [
+        "sikkim-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:M.G._Marg_popularly_known_as_Gangtok_mall_in_Sikkim_22.jpg",
+      "originalFile": "M.G. Marg popularly known as Gangtok mall in Sikkim 22.jpg",
+      "license": "CC BY 4.0",
+      "author": "Pinakpani",
+      "attribution": "Pinakpani, CC BY 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/sikkim/sikkim/tsomgo-changu-lake-east-sikkim.webp",
+      "usedIn": [
+        "sikkim-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Tsomgo_Lake_alias_Tsongmo_Lake_or_Changgu_Lake_in_East_Sikkim_02.jpg",
+      "originalFile": "Tsomgo Lake alias Tsongmo Lake or Changgu Lake in East Sikkim 02.jpg",
+      "license": "CC BY 4.0",
+      "author": "Amitabha Gupta",
+      "attribution": "Amitabha Gupta, CC BY 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/sikkim/sikkim/yumthang-valley-alpine-landscape-sikkim.webp",
+      "usedIn": [
+        "sikkim-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Yumthang_Valley_at_North_Sikkim,_India_08.jpg",
+      "originalFile": "Yumthang Valley at North Sikkim, India 08.jpg",
+      "license": "CC BY 4.0",
+      "author": "Amitabha Gupta",
+      "attribution": "Amitabha Gupta, CC BY 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/sikkim/sikkim/kanchenjunga-peak-view-from-pelling-sikkim.webp",
+      "usedIn": [
+        "sikkim-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kanchenjunga_Peak_as_viewed_from_Pelling,_Sikkim.jpg",
+      "originalFile": "Kanchenjunga Peak as viewed from Pelling, Sikkim.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Santhosh.hugar",
+      "attribution": "Santhosh.hugar, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/himachal-pradesh/himachal-pradesh/christ-church-mall-road-shimla.webp",
+      "usedIn": [
+        "himachal-pradesh-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Clock_Tower_-_Christ_Church_-_Mall_Road_-_Shimla_2014-05-07_1259.JPG",
+      "originalFile": "Clock Tower - Christ Church - Mall Road - Shimla 2014-05-07 1259.JPG",
+      "license": "CC BY 3.0",
+      "author": "Biswarup Ganguly",
+      "attribution": "Biswarup Ganguly, CC BY 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/himachal-pradesh/himachal-pradesh/mcleod-ganj-hillside-tibetan-flag.webp",
+      "usedIn": [
+        "himachal-pradesh-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:View_over_McLeod_Ganj_-_Himachal_Pradesh_-_India_(26538939370).jpg",
+      "originalFile": "View over McLeod Ganj - Himachal Pradesh - India (26538939370).jpg",
+      "license": "CC BY-SA 2.0",
+      "author": "Adam Jones",
+      "attribution": "Adam Jones, CC BY-SA 2.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/karnataka/karnataka/bangalore-palace-tudor-facade.webp",
+      "usedIn": [
+        "karnataka-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:BANGALORE_PALACE.jpg",
+      "originalFile": "BANGALORE PALACE.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Basavaraj M",
+      "attribution": "Basavaraj M, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/karnataka/karnataka/mysore-palace-arches-view.webp",
+      "usedIn": [
+        "karnataka-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Mysore_Palace_WLM_2022_India_18.jpg",
+      "originalFile": "Mysore Palace WLM 2022 India 18.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Pavanaja",
+      "attribution": "Pavanaja, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/karnataka/karnataka/hoysaleswara-temple-halebidu.webp",
+      "usedIn": [
+        "karnataka-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Hoysaleswara_Temple_at_Halebidu.jpg",
+      "originalFile": "Hoysaleswara Temple at Halebidu.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Rohit Sharma",
+      "attribution": "Rohit Sharma, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/assam/assam/elephant-safari-rhino-kaziranga.webp",
+      "usedIn": [
+        "assam-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Elephant_Safari_in_Kaziranga_National_Park.jpg",
+      "originalFile": "Elephant Safari in Kaziranga National Park.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Debiprasad",
+      "attribution": "Debiprasad, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/assam/assam/kamakhya-temple-shikhara-guwahati.webp",
+      "usedIn": [
+        "assam-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:The_Kamakhya_Temple,_Guwahati,_Assam.jpg",
+      "originalFile": "The Kamakhya Temple, Guwahati, Assam.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "JyotiPN",
+      "attribution": "JyotiPN, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/assam/assam/uttar-kamalabari-satra-majuli.webp",
+      "usedIn": [
+        "assam-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Sri_Sri_Uttar_Kamalabari_Satra,Majuli.jpg",
+      "originalFile": "Sri Sri Uttar Kamalabari Satra,Majuli.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Rumi Borah~aswiki",
+      "attribution": "Rumi Borah~aswiki, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/assam/assam/tea-garden-pluckers-assam.webp",
+      "usedIn": [
+        "assam-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Tea_Garden_(%E0%A6%9A%E0%A6%BE%E0%A6%B9_%E0%A6%AC%E0%A6%BE%E0%A6%97%E0%A6%BE%E0%A6%A8)_in_Assam.jpg",
+      "originalFile": "Tea Garden (চাহ বাগান) in Assam.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Wikimedia Commons contributor (Assamese-script username, see source page)",
+      "attribution": "See source page for attribution, CC BY-SA 4.0, via Wikimedia Commons"
     }
   ]
 }

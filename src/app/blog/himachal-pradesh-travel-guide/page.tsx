@@ -636,6 +636,15 @@ export default function HimachalPradeshGuidePage() {
                 {/* ── Shimla ────────────────────────────────────────────── */}
                 <section id="shimla">
                   <h2>Shimla: The Colonial Capital</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/himachal-pradesh/himachal-pradesh/christ-church-mall-road-shimla.webp"
+                      alt="The neo-Gothic clock tower of Christ Church rising above Shimla's Mall Road"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Once the summer capital of British India, <strong>
                     Shimla</strong> retains a distinct colonial character —
@@ -722,6 +731,15 @@ export default function HimachalPradeshGuidePage() {
                 {/* ── Dharamshala ───────────────────────────────────────── */}
                 <section id="dharamshala">
                   <h2>Dharamshala & McLeod Ganj</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/himachal-pradesh/himachal-pradesh/mcleod-ganj-hillside-tibetan-flag.webp"
+                      alt="Prayer flags fluttering over the hillside town of McLeod Ganj near Dharamshala"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     <strong>Dharamshala</strong>, and particularly its upper
                     neighborhood <strong>McLeod Ganj</strong>, has been home
@@ -770,6 +788,15 @@ export default function HimachalPradeshGuidePage() {
                 {/* ── Other Sights ──────────────────────────────────────── */}
                 <section id="other-sights">
                   <h2>Spiti, Kasauli & Dalhousie</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/destinations/spiti-valley/spiti-valley.jpg"
+                      alt="Dhankar's cliffside village and monastery perched above the Spiti Valley, Himachal Pradesh"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <ul>
                     <li>
                       <strong>Spiti Valley:</strong> A high-altitude cold
