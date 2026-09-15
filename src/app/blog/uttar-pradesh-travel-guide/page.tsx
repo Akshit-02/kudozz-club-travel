@@ -670,6 +670,15 @@ export default function UttarPradeshGuidePage() {
                 {/* ── Varanasi ──────────────────────────────────────────── */}
                 <section id="varanasi">
                   <h2>Varanasi: The Ghats & Ganga Aarti</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/uttar-pradesh/uttar-pradesh/ganga-aarti-dashashwamedh-ghat-varanasi.webp"
+                      alt="Priests performing the nightly Ganga Aarti fire ceremony before crowds at Dashashwamedh Ghat, Varanasi"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     One of the world's oldest continuously inhabited cities,
                     Varanasi (also called Kashi or Benares) sits on the banks
@@ -716,6 +725,15 @@ export default function UttarPradeshGuidePage() {
                 {/* ── Lucknow ───────────────────────────────────────────── */}
                 <section id="lucknow">
                   <h2>Lucknow: Nawabi Elegance</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/uttar-pradesh/uttar-pradesh/bara-imambara-lucknow.webp"
+                      alt="The grand sandstone facade of the Bara Imambara, Lucknow, seen across its formal garden approach"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Once the seat of the Nawabs of Awadh, Lucknow retains a
                     distinctive courtly culture — famous for its architecture,
@@ -753,6 +771,15 @@ export default function UttarPradeshGuidePage() {
                 {/* ── Other Cities ──────────────────────────────────────── */}
                 <section id="other-cities">
                   <h2>Ayodhya, Mathura & Vrindavan</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/uttar-pradesh/uttar-pradesh/ram-mandir-temple-ayodhya.webp"
+                      alt="The ornate sandstone entrance archway of the Ram Mandir temple complex in Ayodhya"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <ul>
                     <li>
                       <strong>Ayodhya:</strong> The birthplace of Lord Rama

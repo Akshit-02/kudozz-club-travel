@@ -2956,7 +2956,8 @@
     {
       "path": "/images/blogs/tamil-nadu/chennai/marina-beach-shoreline-waves-chennai.webp",
       "usedIn": [
-        "chennai-travel-guide"
+        "chennai-travel-guide",
+        "tamil-nadu-travel-guide"
       ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Cloudy_Marina_beach.jpg",
@@ -2980,7 +2981,8 @@
     {
       "path": "/images/blogs/tamil-nadu/mahabalipuram/shore-temple-pyramidal-tower-mahabalipuram.webp",
       "usedIn": [
-        "mahabalipuram-travel-guide"
+        "mahabalipuram-travel-guide",
+        "tamil-nadu-travel-guide"
       ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Shore_Temple,_Mahabalipuram_1.jpg",
@@ -3076,7 +3078,8 @@
     {
       "path": "/images/blogs/tamil-nadu/rameswaram/ramanathaswamy-temple-gopuram-rameswaram.webp",
       "usedIn": [
-        "rameswaram-travel-guide"
+        "rameswaram-travel-guide",
+        "tamil-nadu-travel-guide"
       ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Rameswaram_Temple_Tower.jpg",
@@ -3101,7 +3104,8 @@
       "path": "/images/blogs/rajasthan/ranthambore-first-time-visitors/ranthambore-fort-from-forest-below.webp",
       "usedIn": [
         "ranthambore-first-time-visitors-travel-guide",
-        "site-wide default OG image (public/og-default.jpg)"
+        "site-wide default OG image (public/og-default.jpg)",
+        "rajasthan-travel-guide"
       ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Fort_of_Ranthambore_as_visible_from_Ranthambore_National_Park.jpg",
@@ -3109,6 +3113,366 @@
       "license": "CC BY-SA 4.0",
       "author": "RahulDogra264",
       "attribution": "RahulDogra264, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/rajasthan/rajasthan/pushkar-lake-ghats-rajasthan.webp",
+      "usedIn": [
+        "rajasthan-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:20191214_Ghaty_nad_Jeziorem_Puszkar_1447_8505.jpg",
+      "originalFile": "20191214 Ghaty nad Jeziorem Puszkar 1447 8505.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Jakub Hałun",
+      "attribution": "Jakub Hałun, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/rajasthan/rajasthan/jaisalmer-fort-sunrise-golden-city.webp",
+      "usedIn": [
+        "rajasthan-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Jaisalmer_Fort_(Sonar_Qila_or_Golden_Fort)_Viewed_from_the_North_at_Sunrise.jpg",
+      "originalFile": "Jaisalmer Fort (Sonar Qila or Golden Fort) Viewed from the North at Sunrise.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Sensorbliss",
+      "attribution": "Sensorbliss, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/rajasthan/rajasthan/vijay-stambh-victory-tower-chittorgarh-fort.webp",
+      "usedIn": [
+        "rajasthan-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Chittor_Fort_-_Chittorgarh_-_Rajasthan_-_002.jpg",
+      "originalFile": "Chittor Fort - Chittorgarh - Rajasthan - 002.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Rupeshsarkar",
+      "attribution": "Rupeshsarkar, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/tamil-nadu/thanjavur/brihadeeswarar-temple-vimana-thanjavur.webp",
+      "usedIn": [
+        "tamil-nadu-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Brihadisvara_Temple_during_Maha_Shivaratri-WUS03611_(edit).jpg",
+      "originalFile": "Brihadisvara Temple during Maha Shivaratri-WUS03611 (edit).jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Rainer Halama",
+      "attribution": "Rainer Halama, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/tamil-nadu/ooty/tea-plantation-nilgiri-hills-ooty.webp",
+      "usedIn": [
+        "tamil-nadu-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Tea_Monarch_Aramby_Ooty_Nilgiris_Mar21_A7C_00293.jpg",
+      "originalFile": "Tea Monarch Aramby Ooty Nilgiris Mar21 A7C 00293.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Timothy A. Gonsalves",
+      "attribution": "Timothy A. Gonsalves, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/tamil-nadu/kanyakumari/vivekananda-rock-memorial-kanyakumari.webp",
+      "usedIn": [
+        "tamil-nadu-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Vivekananda_rock_Memorial_and_Thiruvalluvar_Statue.jpg",
+      "originalFile": "Vivekananda rock Memorial and Thiruvalluvar Statue.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Jdmn",
+      "attribution": "Jdmn, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/chandigarh/chandigarh/sukhna-lake-boating-promenade-chandigarh.webp",
+      "usedIn": [
+        "chandigarh-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Sukhna_Lake_Chandigarh_Evening.jpg",
+      "originalFile": "Sukhna Lake Chandigarh Evening.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Navneet Sharma",
+      "attribution": "Navneet Sharma, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/chandigarh/chandigarh/capitol-complex-high-court-le-corbusier-chandigarh.webp",
+      "usedIn": [
+        "chandigarh-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Punjab_and_Haryana_High_court_Chandigarh.jpg",
+      "originalFile": "Punjab and Haryana High court Chandigarh.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Ishitacaptures",
+      "attribution": "Ishitacaptures, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/chandigarh/chandigarh/zakir-hussain-rose-garden-chandigarh.webp",
+      "usedIn": [
+        "chandigarh-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Rose_Garden_,Chandigarh,India.jpg",
+      "originalFile": "Rose Garden ,Chandigarh,India.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Harvinder Chandigarh",
+      "attribution": "Harvinder Chandigarh, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/chandigarh/chandigarh/kasauli-hill-town-pine-forest-shivalik.webp",
+      "usedIn": [
+        "chandigarh-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Lower_Himalays,_Kasauli,_Himachal_Pradesh,_India.jpg",
+      "originalFile": "Lower Himalays, Kasauli, Himachal Pradesh, India.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Pankajchib2507",
+      "attribution": "Pankajchib2507, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu/ins-khukri-memorial-model-zampa-beach.webp",
+      "usedIn": [
+        "dadra-nagar-haveli-daman-diu-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Model_of_INS_Khukri_at_memorial_of_the_ship,_2012.jpg",
+      "originalFile": "Model of INS Khukri at memorial of the ship, 2012.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Archan dave",
+      "attribution": "Archan dave, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/destinations/andaman/corbyns-cove-beach-port-blair.webp",
+      "usedIn": [
+        "andaman-islands-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Corbyns_cove_beach-5-port_blair-andaman-India.jpg",
+      "originalFile": "Corbyns cove beach-5-port blair-andaman-India.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Yercaud-elango",
+      "attribution": "Yercaud-elango, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/destinations/andaman/natural-bridge-bharatpur-neil-island.webp",
+      "usedIn": [
+        "andaman-islands-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Natural_bridge,_Neill_Island.jpg",
+      "originalFile": "Natural bridge, Neill Island.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Mandira Bhoumik",
+      "attribution": "Mandira Bhoumik, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/destinations/andaman/ross-island-ruins-banyan-roots.webp",
+      "usedIn": [
+        "andaman-islands-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Ruins_of_British_colonial_building_overgrown_with_roots,_Netaji_Subhash_Chandra_Bose_Island_aka_Ross_Island,_Andaman_vrvbaan042k24_(64).jpg",
+      "originalFile": "Ruins of British colonial building overgrown with roots, Netaji Subhash Chandra Bose Island aka Ross Island, Andaman vrvbaan042k24 (64).jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Vinayaraj",
+      "attribution": "Vinayaraj, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/destinations/andaman/north-bay-island-coral-reef.webp",
+      "usedIn": [
+        "andaman-islands-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Corals-3-north_bay_island-andaman-India.jpg",
+      "originalFile": "Corals-3-north bay island-andaman-India.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Yercaud-elango",
+      "attribution": "Yercaud-elango, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/destinations/andaman/baratang-limestone-caves-interior.webp",
+      "usedIn": [
+        "andaman-islands-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Limestone_Caves,_Baratang,_Andaman_01.jpg",
+      "originalFile": "Limestone Caves, Baratang, Andaman 01.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Pratiti090",
+      "attribution": "Pratiti090, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/destinations/andaman/cellular-jail-radiating-wings-port-blair.webp",
+      "usedIn": [
+        "andaman-islands-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Cellular_Jail,_Andaman,_Port_Blair,_India.jpg",
+      "originalFile": "Cellular Jail, Andaman, Port Blair, India.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Harvinder Chandigarh",
+      "attribution": "Harvinder Chandigarh, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/uttar-pradesh/uttar-pradesh/ganga-aarti-dashashwamedh-ghat-varanasi.webp",
+      "usedIn": [
+        "uttar-pradesh-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Ganga_Aarti_at_Dashashwamedh_Ghat_Varanasi_24.jpg",
+      "originalFile": "Ganga Aarti at Dashashwamedh Ghat Varanasi 24.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Goutam1962",
+      "attribution": "Goutam1962, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/uttar-pradesh/uttar-pradesh/bara-imambara-lucknow.webp",
+      "usedIn": [
+        "uttar-pradesh-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Imambara_of_Asaf-ud-daula,_LUCKNOW.JPG",
+      "originalFile": "Imambara of Asaf-ud-daula, LUCKNOW.JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "Ankitkumarsaxena",
+      "attribution": "Ankitkumarsaxena, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/uttar-pradesh/uttar-pradesh/ram-mandir-temple-ayodhya.webp",
+      "usedIn": [
+        "uttar-pradesh-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Ram_Mandir_temple_(40934).jpg",
+      "originalFile": "Ram Mandir temple (40934).jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Aliva Sahoo",
+      "attribution": "Aliva Sahoo, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/west-bengal/west-bengal/darjeeling-himalayan-railway-toy-train.webp",
+      "usedIn": [
+        "west-bengal-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Darjeeling_Himalayan_Railway,toy_train_(1).jpg",
+      "originalFile": "Darjeeling Himalayan Railway,toy train (1).jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Syed Sajidul Islam",
+      "attribution": "Syed Sajidul Islam, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/west-bengal/west-bengal/tourist-boat-sundarbans-mangrove-creek.webp",
+      "usedIn": [
+        "west-bengal-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Tourist_Boat_in_Sundarbans,_West_Bengal,_India_03.jpg",
+      "originalFile": "Tourist Boat in Sundarbans, West Bengal, India 03.jpg",
+      "license": "CC BY 4.0",
+      "author": "Kingshuk Mondal",
+      "attribution": "Kingshuk Mondal, CC BY 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/west-bengal/west-bengal/zang-dhok-palri-monastery-kalimpong.webp",
+      "usedIn": [
+        "west-bengal-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Zang_Dhok_Palri_Phodang_01.jpg",
+      "originalFile": "Zang Dhok Palri Phodang 01.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Bernard Gagnon",
+      "attribution": "Bernard Gagnon, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/delhi/delhi/humayuns-tomb-garden-delhi.webp",
+      "usedIn": [
+        "delhi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:20191205_Grobowiec_Humajuna_w_Delhi_1055_6794.jpg",
+      "originalFile": "20191205 Grobowiec Humajuna w Delhi 1055 6794.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Jakub Hałun",
+      "attribution": "Jakub Hałun, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/delhi/delhi/qutub-minar-tower-delhi.webp",
+      "usedIn": [
+        "delhi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:The_Qutb_Minar_in_morning.jpg",
+      "originalFile": "The Qutb Minar in morning.jpg",
+      "license": "CC0",
+      "author": "Raghith",
+      "attribution": "Raghith, CC0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/delhi/delhi/jama-masjid-courtyard-old-delhi.webp",
+      "usedIn": [
+        "delhi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:20191203_Jama_Masjid,_Delhi_0707_6468_DxO.jpg",
+      "originalFile": "20191203 Jama Masjid, Delhi 0707 6468 DxO.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Jakub Hałun",
+      "attribution": "Jakub Hałun, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/delhi/delhi/chandni-chowk-street-market-old-delhi.webp",
+      "usedIn": [
+        "delhi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Chandni_Chowk,_2008_(01).JPG",
+      "originalFile": "Chandni Chowk, 2008 (01).JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "Bahnfrend",
+      "attribution": "Bahnfrend, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/moti-daman/bom-jesus-church-interior-altar.webp",
+      "usedIn": [
+        "dadra-nagar-haveli-daman-diu-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Church_of_Bom_Jesus,_Daman,_Dadra_and_Nagar_Haveli_and_Daman_and_Diu,_India_(2015).jpg",
+      "originalFile": "Church of Bom Jesus, Daman, Dadra and Nagar Haveli and Daman and Diu, India (2015).jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Miteshnathani",
+      "attribution": "Miteshnathani, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/silvassa/damanganga-riverside-near-silvassa.webp",
+      "usedIn": [
+        "dadra-nagar-haveli-daman-diu-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Dadra_and_Nagar_Haveli_Silvassa.jpg",
+      "originalFile": "Dadra and Nagar Haveli Silvassa.jpg",
+      "license": "CC BY 2.0",
+      "author": "Sharada Prasad CS",
+      "attribution": "Sharada Prasad CS, CC BY 2.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu/nagoa-beach-i-love-diu-hand-sculpture.webp",
+      "usedIn": [
+        "dadra-nagar-haveli-daman-diu-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Nagoa_Beach,_Diu.jpg",
+      "originalFile": "Nagoa Beach, Diu.jpg",
+      "license": "Public Domain",
+      "author": "SyeN",
+      "attribution": "SyeN, Public Domain, via Wikimedia Commons"
     }
   ]
 }

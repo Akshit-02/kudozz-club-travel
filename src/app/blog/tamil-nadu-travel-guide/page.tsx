@@ -616,6 +616,15 @@ export default function TamilNaduGuidePage() {
                     of the state, but it's worth at least a day for its own
                     sights.
                   </p>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/tamil-nadu/chennai/marina-beach-shoreline-waves-chennai.webp"
+                      alt="Waves breaking on the sand at Marina Beach, one of the world's longest urban beaches, Chennai"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <ul>
                     <li>
                       <strong>Marina Beach:</strong> One of the world's
@@ -691,6 +700,24 @@ export default function TamilNaduGuidePage() {
                     Two of Tamil Nadu's three UNESCO World Heritage temple
                     sites, each with a completely different character.
                   </p>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/tamil-nadu/mahabalipuram/shore-temple-pyramidal-tower-mahabalipuram.webp"
+                      alt="The 7th-century Shore Temple's pyramidal tower standing on the Bay of Bengal at Mahabalipuram"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/tamil-nadu/thanjavur/brihadeeswarar-temple-vimana-thanjavur.webp"
+                      alt="The towering vimana of the Chola-era Brihadeeswarar Temple in Thanjavur at dusk"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <ul>
                     <li>
                       <strong>Shore Temple, Mahabalipuram:</strong> A
@@ -722,8 +749,8 @@ export default function TamilNaduGuidePage() {
                   <h2>Ooty & the Nilgiri Hills</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/blogs/tamil-nadu/tamil-nadu/meenakshi-temple-gopuram-madurai.webp"
-                      alt="The painted gopuram towers of the Meenakshi Amman Temple, one of Tamil Nadu's defining sights"
+                      src="/images/blogs/tamil-nadu/ooty/tea-plantation-nilgiri-hills-ooty.webp"
+                      alt="Rolling tea plantations across the green hills of Ooty in the Nilgiris"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -766,6 +793,24 @@ export default function TamilNaduGuidePage() {
                 {/* ── South Coast ───────────────────────────────────────── */}
                 <section id="south-coast">
                   <h2>Rameswaram & Kanyakumari</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/tamil-nadu/rameswaram/ramanathaswamy-temple-gopuram-rameswaram.webp"
+                      alt="The towering white gopuram of the Ramanathaswamy Temple in Rameswaram"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/tamil-nadu/kanyakumari/vivekananda-rock-memorial-kanyakumari.webp"
+                      alt="The Vivekananda Rock Memorial and Thiruvalluvar Statue off the coast of Kanyakumari, where three seas meet"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <ul>
                     <li>
                       <strong>Rameswaram:</strong> One of the Char Dham

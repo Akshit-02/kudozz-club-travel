@@ -669,16 +669,49 @@ export default function DelhiGuidePage() {
                       Mughal gardens — often less crowded and just as
                       impressive.
                     </li>
+                  </ul>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/delhi/humayuns-tomb-garden-delhi.webp"
+                      alt="Humayun's Tomb, a red sandstone and white marble Mughal mausoleum, seen across its char-bagh garden and reflecting pool"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
+                  <ul>
                     <li>
                       <strong>Qutub Minar:</strong> A 73-metre Sultanate-era
                       minaret, the tallest brick minaret in the world, set
                       within an atmospheric complex of ruins.
                     </li>
+                  </ul>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/delhi/qutub-minar-tower-delhi.webp"
+                      alt="The tapering red sandstone and marble tower of Qutub Minar rising against a clear blue sky"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
+                  <ul>
                     <li>
                       <strong>Jama Masjid:</strong> India's largest mosque,
                       with sweeping views over Old Delhi from its minaret
                       (small extra fee for the climb).
                     </li>
+                  </ul>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/delhi/jama-masjid-courtyard-old-delhi.webp"
+                      alt="The red sandstone gateway and wide courtyard of Jama Masjid, India's largest mosque, in Old Delhi"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
+                  <ul>
                     <li>
                       <strong>India Gate:</strong> A war memorial and
                       popular evening gathering spot along Rajpath, especially
@@ -701,6 +734,15 @@ export default function DelhiGuidePage() {
                       food section below for specific stops.
                     </li>
                   </ul>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/delhi/chandni-chowk-street-market-old-delhi.webp"
+                      alt="A crowded lane of Chandni Chowk in Old Delhi lined with street vendors and shoppers"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                 </section>
 
                 {/* ── Neighbourhoods ────────────────────────────────────── */}

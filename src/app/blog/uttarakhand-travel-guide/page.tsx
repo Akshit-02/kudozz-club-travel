@@ -676,6 +676,15 @@ export default function UttarakhandGuidePage() {
                     older pilgrimage town, Rishikesh the adventure-and-yoga
                     capital.
                   </p>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/uttarakhand/haridwar/evening-ganga-aarti-har-ki-pauri.webp"
+                      alt="The evening Ganga Aarti ceremony with floating oil lamps at Har Ki Pauri, Haridwar"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <ul>
                     <li>
                       <strong>Ganga Aarti at Har Ki Pauri (Haridwar):</strong>{" "}
@@ -710,6 +719,33 @@ export default function UttarakhandGuidePage() {
                 {/* ── Hill Stations ─────────────────────────────────────── */}
                 <section id="hill-stations">
                   <h2>Nainital, Mussoorie & Auli</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/uttarakhand/nainital/colorful-boats-naini-lake-nainital.webp"
+                      alt="Colourful rowboats moored on the pear-shaped Naini Lake in Nainital"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/uttarakhand/mussoorie/mussoorie-ridge-town-himalayan-view.webp"
+                      alt="Mussoorie's ridge-top town spread across the hillside with Himalayan views beyond"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/uttarakhand/auli/auli-snow-slopes-mountain-view.webp"
+                      alt="Snow-covered ski slopes at Auli with sweeping Himalayan mountain views"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <ul>
                     <li>
                       <strong>Nainital:</strong> Built around the pear-shaped
@@ -750,6 +786,15 @@ export default function UttarakhandGuidePage() {
                     oldest national park (established 1936), remains one of
                     the country's best chances to spot a wild Bengal Tiger.
                   </p>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/uttarakhand/jim-corbett/bengal-tiger-roaring-jim-corbett-reserve.webp"
+                      alt="A wild Bengal tiger in Jim Corbett National Park, India's oldest national park"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <ul>
                     <li>
                       <strong>Jeep safaris:</strong> Multiple zones (Dhikala,

@@ -671,6 +671,15 @@ export default function WestBengalGuidePage() {
                 {/* ── Darjeeling ────────────────────────────────────────── */}
                 <section id="darjeeling">
                   <h2>Darjeeling: Tea & the Toy Train</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/west-bengal/west-bengal/darjeeling-himalayan-railway-toy-train.webp"
+                      alt="Blue steam locomotives of the Darjeeling Himalayan Railway toy train lined up with engine steam rising"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     A former British hill station at over 2,000 metres,
                     Darjeeling remains one of India's most atmospheric
@@ -718,6 +727,15 @@ export default function WestBengalGuidePage() {
                 {/* ── Sundarbans ────────────────────────────────────────── */}
                 <section id="sundarbans">
                   <h2>Sundarbans: Mangroves & Tigers</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/west-bengal/west-bengal/tourist-boat-sundarbans-mangrove-creek.webp"
+                      alt="A tourist boat cruising a wide tidal creek lined with mangrove forest in the Sundarbans"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     The world's largest mangrove forest and a UNESCO World
                     Heritage Site, the Sundarbans straddles the
@@ -762,6 +780,15 @@ export default function WestBengalGuidePage() {
                 {/* ── Other Regions ─────────────────────────────────────── */}
                 <section id="other-regions">
                   <h2>Kalimpong, Dooars & Digha</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/west-bengal/west-bengal/zang-dhok-palri-monastery-kalimpong.webp"
+                      alt="The colourful Tibetan Buddhist Zang Dhok Palri Phodang monastery in Kalimpong"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <ul>
                     <li>
                       <strong>Kalimpong:</strong> A quieter hill town near

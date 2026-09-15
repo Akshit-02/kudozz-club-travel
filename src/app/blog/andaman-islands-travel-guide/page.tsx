@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/related/rishikesh.jpg",
+        url: "/images/destinations/andaman/hero.jpg",
         width: 1200,
         height: 630,
         alt: "Andaman Islands — turquoise waters and white sand beach",
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     title: "Andaman Islands Travel Guide",
     description:
       "Radhanagar Beach, scuba diving, Cellular Jail and island-hopping — the complete Andaman guide.",
-    images: ["/images/related/rishikesh.jpg"],
+    images: ["/images/destinations/andaman/hero.jpg"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/andaman-islands-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           headline:
             "Andaman Islands Travel Guide: Beaches, Diving, Permits & Tips",
           description: "The complete Andaman & Nicobar Islands travel guide.",
-          image: "https://club.kudozz.in/images/related/rishikesh.jpg",
+          image: "https://club.kudozz.in/images/destinations/andaman/hero.jpg",
           datePublished: "2026-06-28",
           dateModified: "2026-07-12",
           publisher: {
@@ -764,6 +764,15 @@ export default function AndamanIslandsPage() {
                       <strong> Aberdeen Bazaar</strong> market is excellent for
                       buying smoked fish, local spices, and black pepper.
                     </p>
+                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/destinations/andaman/corbyns-cove-beach-port-blair.webp"
+                        alt="Calm waves rolling onto the dark sand of Corbyn's Cove Beach near Port Blair"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                   </section>
 
                   <section id="havelock">
@@ -832,6 +841,15 @@ export default function AndamanIslandsPage() {
                       most photographed sight. Laxmanpur Beach has a spectacular
                       sunset rock formation. Sitapur Beach is best at sunrise.
                     </p>
+                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/destinations/andaman/natural-bridge-bharatpur-neil-island.webp"
+                        alt="The Natural Bridge rock arch off Bharatpur Beach, Neil Island"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <ul>
                       <li>
                         <strong>Stay:</strong> 1–2 nights as part of a longer
@@ -863,6 +881,15 @@ export default function AndamanIslandsPage() {
                       ruins freely. A 30-minute ferry from Port Blair jetty
                       (₹750 return including entry fee).
                     </p>
+                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/destinations/andaman/ross-island-ruins-banyan-roots.webp"
+                        alt="Banyan tree roots engulfing the brick ruins of a British-era colonial building on Ross Island"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <p>
                       <strong>North Bay Island</strong>, visible from Port Blair
                       harbour, is the primary destination for glass-bottom boat
@@ -872,6 +899,15 @@ export default function AndamanIslandsPage() {
                       crowded. Combine both on a single day trip from Port
                       Blair.
                     </p>
+                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/destinations/andaman/north-bay-island-coral-reef.webp"
+                        alt="A large brain coral colony exposed on the shore at North Bay Island, Andaman"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                   </section>
 
                   <section id="baratang">
@@ -888,6 +924,15 @@ export default function AndamanIslandsPage() {
                       channel (itself spectacular) followed by a 1-km walk
                       through rainforest.
                     </p>
+                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/destinations/andaman/baratang-limestone-caves-interior.webp"
+                        alt="Dripstone formations inside the limestone caves at Baratang, Andaman"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <p>
                       The journey passes through the{" "}
                       <strong>Jarawa Tribal Reserve</strong> — a designated
@@ -1311,6 +1356,15 @@ export default function AndamanIslandsPage() {
                     <strong> Cellular Jail</strong>. It will change the tone of
                     your trip in the best possible way.
                   </p>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/destinations/andaman/cellular-jail-radiating-wings-port-blair.webp"
+                      alt="The radiating brick wings of Cellular Jail in Port Blair, seen from the central courtyard"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Built by the British between 1896 and 1906, Cellular Jail
                     (called <em>Kala Pani</em> — "black water" — by inmates who

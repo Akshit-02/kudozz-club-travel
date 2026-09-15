@@ -666,6 +666,17 @@ export default function DadraNagarHaveliDamanDiuGuidePage() {
                       spot on the island and the closest thing Diu has to a
                       "main" beach.
                     </li>
+                  </ul>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu/nagoa-beach-i-love-diu-hand-sculpture.webp"
+                      alt="The palm-fringed crescent of Nagoa Beach, Diu, with its landmark hand-shaped sculpture"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
+                  <ul>
                     <li>
                       <strong>Gangeshwar Temple:</strong> A cluster of
                       Shivlings sitting directly on the rocks where waves
@@ -676,6 +687,17 @@ export default function DadraNagarHaveliDamanDiuGuidePage() {
                       submarine-shaped monument on Zampa Beach honouring the
                       warship sunk in the 1971 war.
                     </li>
+                  </ul>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu/ins-khukri-memorial-model-zampa-beach.webp"
+                      alt="Scale model of INS Khukri displayed at the ship's memorial on Zampa Beach, Diu"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
+                  <ul>
                     <li>
                       <strong>Naida Caves:</strong> Sun-dappled sandstone
                       caves near the fort, a favourite quick photo stop.
@@ -692,6 +714,15 @@ export default function DadraNagarHaveliDamanDiuGuidePage() {
                     is a far more low-key stop than Diu, popular mostly as a
                     weekend escape for travellers from Mumbai and Gujarat.
                   </p>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/moti-daman/bom-jesus-church-interior-altar.webp"
+                      alt="The gilded altar inside Bom Jesus Church, a colonial-era church within Moti Daman Fort"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <ul>
                     <li>
                       <strong>Jampore Beach:</strong> A long, quiet,
@@ -731,6 +762,15 @@ export default function DadraNagarHaveliDamanDiuGuidePage() {
                     Warli population and a very different character from the
                     coastal towns.
                   </p>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/silvassa/damanganga-riverside-near-silvassa.webp"
+                      alt="The Damanganga river and forested, rocky landscape near Silvassa, Dadra & Nagar Haveli"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <ul>
                     <li>
                       <strong>Vasona Lion Safari Park:</strong> A small

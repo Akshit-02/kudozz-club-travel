@@ -628,6 +628,17 @@ export default function ChandigarhGuidePage() {
                       of the Shivalik hills, with a popular promenade for
                       walking, boating, and watching the sunset.
                     </li>
+                  </ul>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/chandigarh/chandigarh/sukhna-lake-boating-promenade-chandigarh.webp"
+                      alt="Pedal boats moored along the promenade at Sukhna Lake, Chandigarh, at dusk"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
+                  <ul>
                     <li>
                       <strong>Capitol Complex:</strong> Le Corbusier's brutalist
                       government buildings — the High Court, Secretariat and
@@ -635,11 +646,33 @@ export default function ChandigarhGuidePage() {
                       Visits require advance permission via the Chandigarh
                       Tourism office.
                     </li>
+                  </ul>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/chandigarh/chandigarh/capitol-complex-high-court-le-corbusier-chandigarh.webp"
+                      alt="Le Corbusier's brutalist Punjab and Haryana High Court building at the Capitol Complex, Chandigarh, with its colourful concrete pylons"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
+                  <ul>
                     <li>
                       <strong>Rose Garden (Zakir Hussain Rose Garden):</strong>{" "}
                       Asia's largest rose garden, best visited in February–March
                       during the annual Rose Festival.
                     </li>
+                  </ul>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/chandigarh/chandigarh/zakir-hussain-rose-garden-chandigarh.webp"
+                      alt="Rose beds in bloom at the Zakir Hussain Rose Garden, Chandigarh"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
+                  <ul>
                     <li>
                       <strong>Sector 17 Plaza:</strong> The city's central
                       shopping and café district — pedestrian-friendly, with a
@@ -671,6 +704,17 @@ export default function ChandigarhGuidePage() {
                       colonial-era hill town with pine-lined walks and easy
                       day-trip logistics.
                     </li>
+                  </ul>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/chandigarh/chandigarh/kasauli-hill-town-pine-forest-shivalik.webp"
+                      alt="Pine-forested Shivalik hillside near the colonial-era hill town of Kasauli"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
+                  <ul>
                     <li>
                       <strong>Morni Hills (~45 km, ~1.5 hrs):</strong> The only
                       hill station in Haryana, with two small lakes and a much

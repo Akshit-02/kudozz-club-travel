@@ -696,6 +696,15 @@ export default function RajasthanGuidePage() {
                 {/* ── Pushkar ───────────────────────────────────────────── */}
                 <section id="pushkar">
                   <h2>Pushkar: Sacred Lake & Camel Fair</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/rajasthan/rajasthan/pushkar-lake-ghats-rajasthan.webp"
+                      alt="Whitewashed ghats and temples ringing the sacred waters of Pushkar Lake, Rajasthan"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     A small, holy town built around Pushkar Lake, believed
                     to have been created by a lotus flower dropped by Lord
@@ -737,6 +746,24 @@ export default function RajasthanGuidePage() {
                     circuit — each has enough depth for a dedicated guide,
                     linked below.
                   </p>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/rajasthan/udaipur/udaipur-city-palace-lake-pichola.webp"
+                      alt="Udaipur's City Palace rising above the still waters of Lake Pichola"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/rajasthan/rajasthan/jaisalmer-fort-sunrise-golden-city.webp"
+                      alt="Jaisalmer Fort's golden sandstone ramparts glowing above the old city at sunrise"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <ul>
                     <li>
                       <strong>Udaipur — the City of Lakes:</strong> Palaces
@@ -763,6 +790,24 @@ export default function RajasthanGuidePage() {
                 {/* ── Other Stops ───────────────────────────────────────── */}
                 <section id="other-stops">
                   <h2>Ranthambore & Chittorgarh</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/rajasthan/ranthambore-first-time-visitors/ranthambore-fort-from-forest-below.webp"
+                      alt="Ranthambore Fort seen rising above the forest of Ranthambore National Park"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/rajasthan/rajasthan/vijay-stambh-victory-tower-chittorgarh-fort.webp"
+                      alt="The intricately carved Vijay Stambh (Victory Tower) inside Chittorgarh Fort"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <ul>
                     <li>
                       <strong>Ranthambore National Park:</strong> One of
