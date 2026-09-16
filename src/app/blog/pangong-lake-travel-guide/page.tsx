@@ -574,6 +574,15 @@ export default function PangongLakePage() {
 
                   <section id="via-nubra-shyok">
                     <h3>Via Nubra–Shyok Route — the scenic long way</h3>
+                    <div className="relative w-full rounded-xl my-6 h-64 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/blogs/ladakh/pangong-lake/shyok-river-valley-nubra.webp"
+                        alt="The braided Shyok River winding through its valley on the route from Nubra to Pangong"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <p>
                       If you're already in Nubra Valley, there's a
                       spectacular alternative: follow the{" "}
@@ -791,6 +800,15 @@ export default function PangongLakePage() {
                 {/* ── Camping ───────────────────────────────────────────── */}
                 <section id="camping">
                   <h2>Camping Overnight on the Shore</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/ladakh/pangong-lake/pangong-lake-tent-camps-shore.webp"
+                      alt="Rows of tent camps pitched directly on the shore of Pangong Tso, with the lake and mountains beyond"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Doing Pangong as a same-day trip from Leh is common — and
                     a mistake. You'll spend nearly 10 hours driving to get
@@ -850,6 +868,15 @@ export default function PangongLakePage() {
                 {/* ── South vs North Shore ──────────────────────────────── */}
                 <section id="south-vs-north">
                   <h2>South Shore vs North Shore</h2>
+                  <div className="relative w-full rounded-xl my-6 h-64 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/ladakh/pangong-lake/pangong-lake-south-shore-spangmik.webp"
+                      alt="The quieter south shore of Pangong Tso near Spangmik, with rocky shoreline and mountains across the water"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Almost every tourist convoy from Leh via Chang La lands
                     at the same stretch of the <strong>north shore</strong>{" "}

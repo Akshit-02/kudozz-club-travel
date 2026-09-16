@@ -738,6 +738,15 @@ export default function RajasthanDesertGuidePage() {
 
                   <section id="patwon-haveli">
                     <h3>Patwon ki Haveli</h3>
+                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/destinations/jaisalmer/patwon-ki-haveli-carved-facade.webp"
+                        alt="Intricately carved sandstone facade and jharokha balconies of Patwon ki Haveli, Jaisalmer"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <p>
                       <strong>Patwon ki Haveli</strong> is actually a cluster of
                       five havelis built between 1800–1860 by Guman Chand Patwa,
@@ -773,6 +782,15 @@ export default function RajasthanDesertGuidePage() {
 
                   <section id="nathmal-salim">
                     <h3>Nathmal ki Haveli & Salim Singh ki Haveli</h3>
+                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/destinations/jaisalmer/nathmal-ki-haveli-carved-facade.webp"
+                        alt="Nathmal ki Haveli's ornately carved sandstone facade in Jaisalmer's old city"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <p>
                       <strong>Nathmal ki Haveli</strong>, built in 1885 as the
                       residence of the prime minister of Jaisalmer, is notable
@@ -802,6 +820,15 @@ export default function RajasthanDesertGuidePage() {
 
                   <section id="gadisar">
                     <h3>Gadisar Lake</h3>
+                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/destinations/jaisalmer/gadisar-lake-jaisalmer.webp"
+                        alt="Gadisar Lake in Jaisalmer, ringed by temples and chhatris beside the water"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <p>
                       <strong>Gadisar Lake</strong> was built in 1156 CE, the
                       same year as the fort, as Jaisalmer's primary water
@@ -869,6 +896,15 @@ export default function RajasthanDesertGuidePage() {
 
                   <section id="sam-dunes">
                     <h3>Sam Sand Dunes</h3>
+                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/destinations/jaisalmer/sam-sand-dunes-camel-safari.webp"
+                        alt="Camel safari riders crossing the rolling Sam Sand Dunes near Jaisalmer"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <p>
                       About 42 km west of Jaisalmer,{" "}
                       <strong>Sam Sand Dunes</strong> is the most visited and
@@ -890,6 +926,15 @@ export default function RajasthanDesertGuidePage() {
 
                   <section id="khuri-dunes">
                     <h3>Khuri Dunes</h3>
+                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/destinations/jaisalmer/khuri-village-mud-thatch-house.webp"
+                        alt="Traditional mud-and-thatch house in Khuri village on the edge of the Thar Desert dunes"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <p>
                       About 40 km southwest of Jaisalmer,{" "}
                       <strong>Khuri Dunes</strong> offers a quieter, more
@@ -1093,6 +1138,15 @@ export default function RajasthanDesertGuidePage() {
                 {/* ── Kuldhara ──────────────────────────────────────────── */}
                 <section id="kuldhara">
                   <h2>Kuldhara — The Ghost Village</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/destinations/jaisalmer/kuldhara-abandoned-village-ruins.webp"
+                      alt="Stone ruins of the abandoned village of Kuldhara near Jaisalmer"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     About 18 km west of Jaisalmer, <strong>Kuldhara</strong>
                     is a 13th-century village that — according to local legend —

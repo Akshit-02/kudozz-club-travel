@@ -701,8 +701,8 @@ export default function KasolKheergangaPage() {
                     <h3>Tosh Village</h3>
                     <div className="relative w-full rounded-xl my-6 h-64 overflow-hidden shadow-md">
                       <Image
-                        src="/images/destinations/kasol/kasol.jpg"
-                        alt="Tosh village perched high above Parvati Valley"
+                        src="/images/destinations/kasol/tosh-village-parvati-valley-real.webp"
+                        alt="Tosh village's tin-roofed houses clinging to a ridge with snow-capped peaks behind"
                         fill
                         sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                         className="object-cover"
@@ -746,6 +746,15 @@ export default function KasolKheergangaPage() {
 
                   <section id="malana">
                     <h3>Malana Village</h3>
+                    <div className="relative w-full rounded-xl my-6 h-64 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/destinations/kasol/malana-village-himachal.webp"
+                        alt="Malana village terraced into a steep sealed valley in Himachal Pradesh"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <p>
                       <strong>Malana</strong> is one of India's most remarkable
                       and most written-about villages — an ancient settlement in
@@ -781,6 +790,15 @@ export default function KasolKheergangaPage() {
 
                   <section id="manikaran">
                     <h3>Manikaran Sahib</h3>
+                    <div className="relative w-full rounded-xl my-6 h-64 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/destinations/kasol/manikaran-sahib-hot-spring-temple.webp"
+                        alt="Manikaran's silver-domed temple wreathed in steam from the natural hot springs"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <p>
                       Just 5 km from Kasol on the main road,
                       <strong> Manikaran</strong> is one of the holiest sites in
@@ -1031,6 +1049,15 @@ export default function KasolKheergangaPage() {
 
                   <section id="hot-springs">
                     <h3>The Kheerganga Hot Springs</h3>
+                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/destinations/kasol/kheerganga-hot-spring-pool.webp"
+                        alt="The natural hot spring pool at Kheerganga meadow, ringed by Himalayan peaks"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <p>
                       At the top of the meadow, fed by geothermal activity deep
                       beneath the Himalayan rock, the

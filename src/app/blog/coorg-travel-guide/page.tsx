@@ -598,6 +598,15 @@ export default function CoorgPage() {
 
                   <section id="raja-seat">
                     <h3>Raja's Seat — The King's Viewpoint</h3>
+                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/destinations/coorg/rajas-seat-viewpoint-madikeri.webp"
+                        alt="Raja's Seat garden viewpoint overlooking the misty Coorg valleys in Madikeri"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <p>
                       <strong>Raja's Seat</strong> (King's Seat) in Madikeri is
                       the most famous viewpoint in Coorg — a terraced garden
@@ -627,6 +636,15 @@ export default function CoorgPage() {
 
                   <section id="madikeri-fort">
                     <h3>Madikeri Fort & Omkareshwara Temple</h3>
+                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/destinations/coorg/madikeri-fort-elephant-statues.webp"
+                        alt="Life-size elephant statues at the main gate of Madikeri Fort"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <p>
                       The <strong>Madikeri Fort</strong> at the centre of town
                       was built by Mudduraja in the 17th century and later
@@ -649,6 +667,15 @@ export default function CoorgPage() {
 
                   <section id="nagarhole">
                     <h3>Nagarhole National Park (Rajiv Gandhi NP)</h3>
+                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/destinations/coorg/nagarhole-kabini-reservoir.webp"
+                        alt="Forested banks of the Kabini reservoir inside Nagarhole National Park"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <p>
                       Part of the Nilgiri Biosphere Reserve and directly
                       adjacent to Coorg,{" "}
@@ -705,6 +732,15 @@ export default function CoorgPage() {
 
                   <section id="talakaveri">
                     <h3>Talakaveri & Brahmagiri Peak</h3>
+                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/destinations/coorg/talakaveri-temple-kaveri-source.webp"
+                        alt="Talakaveri temple complex marking the sacred source of the Kaveri River"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <p>
                       <strong>Talakaveri</strong>, at 1,276 metres in the
                       Brahmagiri Hills near Bhagamandala, is the sacred source
@@ -740,6 +776,15 @@ export default function CoorgPage() {
 
                   <section id="dubare">
                     <h3>Dubare Elephant Camp</h3>
+                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/destinations/coorg/dubare-elephant-camp-kaveri-river.webp"
+                        alt="Dubare Elephant Camp on the banks of the Kaveri River near Kushalnagar"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <p>
                       On the banks of the Kaveri River near Kushalnagar,
                       <strong> Dubare Elephant Camp</strong> is where the
@@ -778,6 +823,15 @@ export default function CoorgPage() {
 
                   <section id="iruppu-falls">
                     <h3>Iruppu Falls (Lakshmana Tirtha)</h3>
+                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/destinations/coorg/iruppu-falls-waterfall.webp"
+                        alt="Iruppu Falls dropping through the rainforest of Brahmagiri Wildlife Sanctuary"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <p>
                       Near the Kerala border in the Brahmagiri Wildlife
                       Sanctuary,

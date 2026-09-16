@@ -984,6 +984,15 @@ export default function ValleyOfFlowersPage() {
 
                   <section id="ghangaria-vof">
                     <h3>Stage 2: Ghangaria to Valley of Flowers</h3>
+                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/blogs/uttarakhand/valley-of-flowers/valley-floor-meadow-flowers-trail.webp"
+                        alt="The Valley of Flowers valley floor, a wildflower meadow walking trail flanked by steep Himalayan slopes"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <p>
                       From Ghangaria, the Valley of Flowers trail branches left
                       (east) — the right fork leads to Hemkund Sahib. The walk
@@ -1069,6 +1078,15 @@ export default function ValleyOfFlowersPage() {
                 {/* ── Hemkund Sahib ─────────────────────────────────────── */}
                 <section id="hemkund-sahib">
                   <h2>Hemkund Sahib</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/uttarakhand/valley-of-flowers/hemkund-sahib-gurudwara-lake.webp"
+                      alt="The white marble Hemkund Sahib Gurudwara reflected in the glacial lake, ringed by snow-capped peaks"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     The second great trek from Ghangaria climbs 6 km (one way)
                     to <strong>Hemkund Sahib</strong> at 4,329 metres — one of
@@ -1346,6 +1364,15 @@ export default function ValleyOfFlowersPage() {
                 {/* ── Ghangaria ─────────────────────────────────────────── */}
                 <section id="ghangaria-base">
                   <h2>Ghangaria — Your Base Camp</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/uttarakhand/valley-of-flowers/ghangaria-base-camp-settlement.webp"
+                      alt="Ghangaria settlement at dusk, tented shops and guesthouses lining the path with mountains behind"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     <strong>Ghangaria</strong> (3,048 m) is the sole settlement
                     between Govindghat and both trek destinations — a small

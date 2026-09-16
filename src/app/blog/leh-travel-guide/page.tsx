@@ -684,8 +684,8 @@ export default function LehTravelGuidePage() {
                     <h3>Leh Palace</h3>
                     <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                       <Image
-                        src="/images/destinations/leh-ladakh/leh-ladakh.jpg"
-                        alt="Leh Palace rising above the old town, modelled on the Potala Palace"
+                        src="/images/destinations/leh-ladakh/leh-palace-facade-old-town.webp"
+                        alt="Leh Palace's tiered whitewashed facade rising above the old town, modelled on the Potala Palace"
                         fill
                         sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                         className="object-cover"
@@ -744,6 +744,15 @@ export default function LehTravelGuidePage() {
 
                   <section id="leh-market">
                     <h3>Leh Market & Old Town</h3>
+                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/destinations/leh-ladakh/leh-market-main-bazaar.webp"
+                        alt="Pedestrianised main bazaar of Leh Market lined with shops and strung with lights"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <p>
                       <strong>Leh Market</strong> (Main Bazaar) has been a
                       trading post since the town's days as a Silk Road stop
@@ -787,6 +796,15 @@ export default function LehTravelGuidePage() {
 
                   <section id="shanti-stupa">
                     <h3>Shanti Stupa</h3>
+                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/destinations/leh-ladakh/shanti-stupa-leh.webp"
+                        alt="The gleaming white-domed Shanti Stupa on its hilltop above Leh, with the Himalayas behind"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <p>
                       Perched on a hilltop above Changspa,{" "}
                       <strong>Shanti Stupa</strong> is a gleaming white-domed
@@ -834,6 +852,15 @@ export default function LehTravelGuidePage() {
 
                   <section id="namgyal-tsemo">
                     <h3>Namgyal Tsemo Fort & Gompa</h3>
+                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/destinations/leh-ladakh/namgyal-tsemo-fort-gompa.webp"
+                        alt="Namgyal Tsemo Fort and Gompa perched on the crown of the hill above Leh"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <p>
                       Higher still above Leh Palace, on the very crown of the
                       hill, sits <strong>Namgyal Tsemo</strong> — a 16th
@@ -871,6 +898,15 @@ export default function LehTravelGuidePage() {
 
                   <section id="hall-of-fame">
                     <h3>Hall of Fame</h3>
+                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/destinations/leh-ladakh/hall-of-fame-museum-leh.webp"
+                        alt="Entrance of the Hall of Fame war memorial museum in Leh, with an artillery gun on display"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <p>
                       Run by the Indian Army, the <strong>Hall of Fame</strong>{" "}
                       is a war memorial and museum a short drive from central
@@ -905,6 +941,15 @@ export default function LehTravelGuidePage() {
 
                   <section id="sankar-gompa">
                     <h3>Sankar Gompa</h3>
+                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/destinations/leh-ladakh/sankar-gompa-monastery-leh.webp"
+                        alt="Sankar Gompa's small white monastery complex on a hillside above Leh town"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <p>
                       A small, active <strong>Gelugpa</strong> (Yellow Hat)
                       monastery about 3 km north of the main bazaar, affiliated

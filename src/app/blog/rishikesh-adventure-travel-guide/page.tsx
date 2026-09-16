@@ -579,8 +579,8 @@ export default function RishikeshPage() {
                     <h3>White-Water Rafting</h3>
                     <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                       <Image
-                        src="/images/destinations/rishikesh/rishikesh.jpg"
-                        alt="White-water rafting on the Ganges in Rishikesh"
+                        src="/images/destinations/rishikesh/rishikesh-white-water-rafting-ganga.webp"
+                        alt="Rafters floating the Ganges near Rishikesh with life jackets and paddles, mountains in the background"
                         fill
                         sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                         className="object-cover"
@@ -803,6 +803,15 @@ export default function RishikeshPage() {
 
                   <section id="trekking">
                     <h3>Trekking & Hiking Around Rishikesh</h3>
+                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/destinations/rishikesh/rishikesh-neer-garh-waterfall.webp"
+                        alt="Neer Garh Waterfall cascading over rocks near Laxman Jhula, Rishikesh"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <p>
                       Rishikesh sits at the gateway to some of Uttarakhand's
                       most celebrated trekking terrain. Several excellent day
@@ -949,6 +958,15 @@ export default function RishikeshPage() {
 
                   <section id="laxman-jhula">
                     <h3>Laxman Jhula</h3>
+                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/destinations/rishikesh/rishikesh-laxman-jhula-suspension-bridge.webp"
+                        alt="Laxman Jhula suspension bridge over the Ganga in Rishikesh, with temple towers and a resting cow on the walkway"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <p>
                       The iconic <strong>Laxman Jhula</strong> suspension bridge
                       — 450 feet long, swaying gently over the jade-green Ganga
@@ -968,6 +986,15 @@ export default function RishikeshPage() {
 
                   <section id="ram-jhula">
                     <h3>Ram Jhula</h3>
+                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/destinations/rishikesh/rishikesh-ram-jhula-bridge-ganga.webp"
+                        alt="Aerial view of Ram Jhula suspension bridge spanning the Ganga in Rishikesh"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <p>
                       <strong>Ram Jhula</strong> (also called Shivananda Jhula)
                       is a larger suspension bridge 3 km south of Laxman Jhula,
@@ -982,6 +1009,15 @@ export default function RishikeshPage() {
 
                   <section id="ganga-aarti">
                     <h3>Ganga Aarti at Parmarth Niketan</h3>
+                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/destinations/rishikesh/rishikesh-parmarth-niketan-ganga-aarti.webp"
+                        alt="Priests preparing brass aarti lamps on the ghat at Parmarth Niketan before the evening Ganga Aarti in Rishikesh"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <p>
                       Every evening at sunset, the ghats at Parmarth Niketan
                       erupt into one of India's most spectacular religious
@@ -1010,6 +1046,15 @@ export default function RishikeshPage() {
 
                   <section id="beatles-ashram">
                     <h3>The Beatles Ashram (Chaurasi Kutia)</h3>
+                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/destinations/rishikesh/rishikesh-beatles-ashram-eggman-dome.webp"
+                        alt="Psychedelic mural-covered meditation dome at the Beatles Ashram (Chaurasi Kutia) in Rishikesh"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <p>
                       The abandoned ashram where John, Paul, George, and Ringo
                       lived and composed in early 1968 is now a forest-covered

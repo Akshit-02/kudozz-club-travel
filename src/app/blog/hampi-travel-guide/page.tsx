@@ -836,6 +836,15 @@ export default function HampiPage() {
 
                   <section id="hampi-bazaar">
                     <h3>Hampi Bazaar</h3>
+                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/blogs/karnataka/hampi/hampi-bazaar-stone-stalls-colonnade.webp"
+                        alt="The surviving stone colonnade of the ancient Hampi Bazaar market street, boulders rising behind"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <p>
                       Running east from Virupaksha Temple for 800 metres is the{" "}
                       <strong>Hampi Bazaar</strong> — once the largest market
@@ -859,6 +868,15 @@ export default function HampiPage() {
 
                   <section id="hemakuta">
                     <h3>Hemakuta Hill — The Best Sunrise in Hampi</h3>
+                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/blogs/karnataka/hampi/hemakuta-hill-temple-cluster-panorama-hampi.webp"
+                        alt="Panoramic view from Hemakuta Hill over Hampi's pre-Vijayanagara temple cluster toward the Virupaksha gopuram"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <p>
                       Directly behind (south of) Virupaksha Temple, the
                       <strong> Hemakuta Hill</strong> is covered in pre-
@@ -1091,6 +1109,15 @@ export default function HampiPage() {
 
                   <section id="matanga-hill">
                     <h3>Matanga Hill — Sunrise Viewpoint</h3>
+                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/blogs/karnataka/hampi/matanga-hill-sunrise-panorama-hampi.webp"
+                        alt="Sunrise over Hampi's boulder landscape seen from the summit of Matanga Hill"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <p>
                       The highest point in the Hampi landscape,
                       <strong> Matanga Hill</strong> (1,673 m above sea level
@@ -1126,6 +1153,15 @@ export default function HampiPage() {
                 {/* ── Anegundi ──────────────────────────────────────────── */}
                 <section id="anegundi">
                   <h2>Anegundi — Across the River</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/karnataka/hampi/anegundi-anjaneya-hanuman-hill.webp"
+                      alt="Anjaneya (Anjanadri) Hill rising above Anegundi village, believed to be Hanuman's birthplace"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Cross the Tungabhadra by coracle from Virupaksha Ghat and
                     you arrive in <strong>Anegundi</strong> — a village that
