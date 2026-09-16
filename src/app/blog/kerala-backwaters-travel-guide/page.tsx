@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/related/spiti-valley.jpg",
+        url: "/images/destinations/kerala/hero.jpg",
         width: 1200,
         height: 630,
         alt: "Kerala backwaters — traditional houseboat on Vembanad Lake at sunset",
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Kerala Backwaters Guide",
     description:
       "Houseboats, coconut palms, and village life on the water — the complete Kerala backwaters guide.",
-    images: ["/images/related/spiti-valley.jpg"],
+    images: ["/images/destinations/kerala/hero.jpg"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/kerala-backwaters-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline:
             "Kerala Backwaters Guide: Houseboats, Routes, Villages & Tips",
           description: "The complete Kerala Backwaters travel guide.",
-          image: "https://club.kudozz.in/images/related/spiti-valley.jpg",
+          image: "https://club.kudozz.in/images/destinations/kerala/hero.jpg",
           datePublished: "2026-06-30",
           dateModified: "2026-07-12",
           publisher: {
@@ -742,6 +742,15 @@ export default function KeralaBackwatersPage() {
 
                   <section id="kumarakom">
                     <h3>Kumarakom</h3>
+                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/blogs/kerala/kerala/kumarakom-vembanad-lake-houseboats.webp"
+                        alt="Traditional kettuvallam houseboats moored along a palm-lined stretch of Vembanad Lake at Kumarakom"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <p>
                       On the eastern shore of Vembanad Lake, 16 km from
                       Kottayam, <strong>Kumarakom</strong> offers a more
@@ -778,6 +787,15 @@ export default function KeralaBackwatersPage() {
 
                   <section id="kollam">
                     <h3>Kollam</h3>
+                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/blogs/kerala/kerala/ashtamudi-lake-boats-kollam.webp"
+                        alt="Local boats moored along the palm-fringed shore of Ashtamudi Lake near Kollam"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <p>
                       The southern gateway to the backwaters,{" "}
                       <strong>Kollam</strong>
@@ -809,6 +827,15 @@ export default function KeralaBackwatersPage() {
 
                   <section id="munroe">
                     <h3>Munroe Island</h3>
+                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/blogs/kerala/kerala/munroe-island-village-canal.webp"
+                        alt="A house beside a narrow palm-lined canal on Munroe Island, reflected in the still water"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <p>
                       A cluster of small islands at the confluence of the
                       Ashtamudi Lake and Kallada River, near Kollam,
@@ -1055,6 +1082,15 @@ export default function KeralaBackwatersPage() {
                 {/* ── Kuttanad ──────────────────────────────────────────── */}
                 <section id="kuttanad">
                   <h2>Kuttanad — Farming Below Sea Level</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/kerala/kerala/kuttanad-paddy-fields-below-sea-level.webp"
+                      alt="Vivid green Kuttanad paddy fields stretching below sea level, bordered by palm trees"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     <strong>Kuttanad</strong>, the "rice bowl of Kerala," is one
                     of the very few places on earth where farming happens below

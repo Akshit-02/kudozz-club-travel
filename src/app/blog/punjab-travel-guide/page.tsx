@@ -613,6 +613,15 @@ export default function PunjabGuidePage() {
                 {/* ── Amritsar ──────────────────────────────────────────── */}
                 <section id="amritsar">
                   <h2>Amritsar: The Golden Temple</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/punjab/punjab/golden-temple-amritsar-punjab.webp"
+                      alt="The gold-plated Golden Temple (Sri Harmandir Sahib) reflected in the Amrit Sarovar at sunset, Amritsar"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Sikhism's holiest site, the <strong>Golden Temple
                     (Sri Harmandir Sahib)</strong>, sits at the centre of a
@@ -659,8 +668,8 @@ export default function PunjabGuidePage() {
                   <h2>The Wagah Border Ceremony</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/blogs/punjab/punjab/golden-temple-amritsar-punjab.webp"
-                      alt="The gold-plated Golden Temple reflected in the Amrit Sarovar, Amritsar's most iconic sight"
+                      src="/images/blogs/punjab/punjab/wagah-border-ceremony-crowds-amritsar.webp"
+                      alt="Crowds packing the grandstands at the Wagah Border for the nightly flag-lowering ceremony, near Amritsar"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -697,6 +706,15 @@ export default function PunjabGuidePage() {
                 {/* ── Other Cities ──────────────────────────────────────── */}
                 <section id="other-cities">
                   <h2>Patiala & Anandpur Sahib</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/punjab/punjab/qila-mubarak-fort-patiala.webp"
+                      alt="The ornate gateway of Qila Mubarak, the princely-era fort complex in Patiala"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <ul>
                     <li>
                       <strong>Patiala:</strong> Once a princely state, known
@@ -712,6 +730,15 @@ export default function PunjabGuidePage() {
                       Sikh history through immersive exhibits.
                     </li>
                   </ul>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/punjab/punjab/takht-keshgarh-sahib-anandpur-sahib.webp"
+                      alt="Takht Sri Keshgarh Sahib, the sacred gurdwara marking the birthplace of the Khalsa in Anandpur Sahib"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                 </section>
 
                 {/* ── Rural Punjab ──────────────────────────────────────── */}

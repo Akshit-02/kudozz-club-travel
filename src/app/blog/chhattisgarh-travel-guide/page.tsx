@@ -674,6 +674,15 @@ export default function ChhattisgarhGuidePage() {
                 {/* ── Bastar ────────────────────────────────────────────── */}
                 <section id="bastar">
                   <h2>Bastar: Tribal Heartland</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/chhattisgarh/chhattisgarh/bastar-dussehra-festival-jagdalpur.webp"
+                      alt="Illuminated ratha chariot and crowds during the Bastar Dussehra festival procession in Jagdalpur"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     The Bastar region, centred on <strong>Jagdalpur</strong>,
                     is home to some of India's most intact tribal culture,
@@ -723,6 +732,17 @@ export default function ChhattisgarhGuidePage() {
                       several waterfalls and a wide range of Central Indian
                       flora and fauna.
                     </li>
+                  </ul>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/chhattisgarh/chhattisgarh/kanger-valley-national-park-cliffs.webp"
+                      alt="Red laterite rock cliffs rising through dense forest canopy in Kanger Valley National Park"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
+                  <ul>
                     <li>
                       <strong>Sirpur:</strong> An ancient archaeological site
                       with excavated Buddhist monastery ruins dating back
@@ -730,6 +750,17 @@ export default function ChhattisgarhGuidePage() {
                       side of Chhattisgarh's history from its tribal
                       heritage.
                     </li>
+                  </ul>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/chhattisgarh/chhattisgarh/sirpur-buddhist-stupa-ruins.webp"
+                      alt="Ancient excavated brick Buddhist stupa at the Sirpur archaeological site"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
+                  <ul>
                     <li>
                       <strong>Raipur:</strong> The state capital, worth a day
                       for the Mahant Ghasidas Memorial Museum, which holds a

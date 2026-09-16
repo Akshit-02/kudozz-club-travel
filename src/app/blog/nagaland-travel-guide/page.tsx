@@ -626,8 +626,8 @@ export default function NagalandGuidePage() {
                   <h2>Hornbill Festival</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/blogs/nagaland/nagaland/dzukou-valley-nagaland.webp"
-                      alt="The rolling green meadows of Dzukou Valley, one of Nagaland's most iconic landscapes"
+                      src="/images/blogs/nagaland/nagaland/hornbill-festival-kisama-heritage-village-nagaland.webp"
+                      alt="Aerial view of the crowded main arena and morungs at Kisama Heritage Village during the Hornbill Festival"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -673,6 +673,15 @@ export default function NagalandGuidePage() {
                 {/* ── Kohima ────────────────────────────────────────────── */}
                 <section id="kohima">
                   <h2>Kohima: War Cemetery & City Sights</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/nagaland/nagaland/kohima-war-cemetery-memorial-wall-nagaland.webp"
+                      alt="The 1939-1945 memorial wall at the Kohima War Cemetery, inscribed with the names of Allied soldiers"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Nagaland's capital sits at over 1,400m, wrapped around
                     terraced hillsides — most visitors base themselves here
@@ -702,6 +711,15 @@ export default function NagalandGuidePage() {
                 {/* ── Dzukou Valley ─────────────────────────────────────── */}
                 <section id="dzukou-valley">
                   <h2>Dzukou Valley Trek</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/nagaland/nagaland/dzukou-valley-rolling-green-hills-nagaland.webp"
+                      alt="Rolling green hills carpeted in meadow grass across Dzukou Valley on the Nagaland-Manipur border"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Roughly 30 km from Kohima on the Nagaland–Manipur border,{" "}
                     <strong>Dzukou Valley</strong> is often called the
@@ -741,6 +759,15 @@ export default function NagalandGuidePage() {
                 {/* ── Other Sights ──────────────────────────────────────── */}
                 <section id="other-sights">
                   <h2>Khonoma, Mon & Tribal Villages</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/nagaland/nagaland/khonoma-green-village-nagaland.webp"
+                      alt="Khonoma village's terraced houses spread across a forested hillside, India's first green village"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <ul>
                     <li>
                       <strong>Khonoma Green Village:</strong> Roughly 20 km

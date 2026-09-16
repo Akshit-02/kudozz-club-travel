@@ -620,6 +620,15 @@ export default function JharkhandGuidePage() {
                 {/* ── Ranchi ────────────────────────────────────────────── */}
                 <section id="ranchi">
                   <h2>Ranchi: City of Waterfalls</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/jharkhand/jharkhand/dassam-falls-near-ranchi-jharkhand.webp"
+                      alt="Dassam Falls cascading over a wide rocky ledge near Ranchi, Jharkhand"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Jharkhand's capital sits on the Chotanagpur plateau and
                     earns its nickname honestly — a cluster of genuinely
@@ -668,8 +677,8 @@ export default function JharkhandGuidePage() {
                   <h2>Netarhat: Queen of Chotanagpur</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/blogs/jharkhand/jharkhand/hundru-falls-ranchi-jharkhand.webp"
-                      alt="Clear flowing water over rock, evoking the streams and forested valleys around Jharkhand's Netarhat plateau"
+                      src="/images/blogs/jharkhand/jharkhand/netarhat-sunset-hills-jharkhand.webp"
+                      alt="Layered hills and forest at sunset seen from the Netarhat plateau, Jharkhand"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -720,6 +729,15 @@ export default function JharkhandGuidePage() {
                 {/* ── Betla ─────────────────────────────────────────────── */}
                 <section id="betla">
                   <h2>Betla National Park</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/jharkhand/jharkhand/betla-national-park-entrance-gate-jharkhand.webp"
+                      alt="The wildlife-themed entrance gate of Betla National Park, part of the Palamu Tiger Reserve"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Part of the Palamu Tiger Reserve, <strong>Betla National
                     Park</strong> is one of India's earliest designated tiger
@@ -762,6 +780,15 @@ export default function JharkhandGuidePage() {
                 {/* ── Other Sights ──────────────────────────────────────── */}
                 <section id="other-sights">
                   <h2>Deoghar, Patratu Valley & Jamshedpur</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/jharkhand/jharkhand/baidyanath-temple-deoghar-jharkhand.webp"
+                      alt="Pilgrims gathered at the white pyramidal shikhara of the Baidyanath Jyotirlinga temple, Deoghar"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <ul>
                     <li>
                       <strong>Deoghar:</strong> Home to the Baidyanath

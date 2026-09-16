@@ -637,7 +637,7 @@ export default function GujaratGuidePage() {
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
                       src="/images/blogs/gujarat/gujarat/rann-of-kutch-white-desert-gujarat.webp"
-                      alt="A large hilltop desert fort with sandstone walls, evoking the arid Kutch region that borders the Rann's white salt desert"
+                      alt="The vast white salt flats of the Great Rann of Kutch stretching to the horizon under a clear sky"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -687,8 +687,8 @@ export default function GujaratGuidePage() {
                   <h2>Somnath & Dwarka: Temple Towns</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/blogs/gujarat/gujarat/rann-of-kutch-white-desert-gujarat.webp"
-                      alt="Ornately carved temple gopuram architecture, evoking the coastal temple towns of Somnath and Dwarka in Gujarat"
+                      src="/images/blogs/gujarat/gujarat/somnath-temple-arabian-sea-coast.webp"
+                      alt="Somnath Temple, the first of the twelve Jyotirlingas, standing on the Arabian Sea coast in Gujarat"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -721,6 +721,15 @@ export default function GujaratGuidePage() {
                       those visiting Dwarka.
                     </li>
                   </ul>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/gujarat/gujarat/dwarkadhish-temple-dwarka-gomti-ghat.webp"
+                      alt="Dwarkadhish Temple's flag-topped spire rising above Dwarka, reflected in the Gomti ghat at sunset"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <div
                     className="bg-forest-50 border-l-4 border-forest-500 p-4 rounded-r-xl my-4 text-sm"
                     style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -737,8 +746,8 @@ export default function GujaratGuidePage() {
                   <h2>Gir National Park: Asiatic Lions</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/blogs/gujarat/gujarat/rann-of-kutch-white-desert-gujarat.webp"
-                      alt="Dense green forest landscape, evoking the dry deciduous forest habitat of Gir National Park in Gujarat"
+                      src="/images/blogs/gujarat/gujarat/asiatic-lion-gir-national-park.webp"
+                      alt="A wild Asiatic lion walking through Gir National Park, Gujarat — the last refuge of the species outside Africa"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -784,6 +793,15 @@ export default function GujaratGuidePage() {
                 {/* ── Other Sights ──────────────────────────────────────── */}
                 <section id="other-sights">
                   <h2>Ahmedabad, Statue of Unity & Diu</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/gujarat/gujarat/statue-of-unity-narmada-kevadia.webp"
+                      alt="The Statue of Unity, the world's tallest statue, rising above the Narmada river reservoir near Kevadia"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <ul>
                     <li>
                       <strong>Ahmedabad:</strong> India's first UNESCO World

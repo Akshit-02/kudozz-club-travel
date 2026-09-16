@@ -208,7 +208,8 @@
     {
       "path": "blogs/andhra-pradesh/tirupati/tirumala-venkateswara-temple-gopuram-tirupati.webp",
       "usedIn": [
-        "tirupati-travel-guide (hero — replaces a Jaisalmer photo used in error)"
+        "tirupati-travel-guide (hero — replaces a Jaisalmer photo used in error)",
+        "andhra-pradesh-travel-guide"
       ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Tirumala_090615.jpg",
@@ -280,7 +281,8 @@
     {
       "path": "blogs/punjab/punjab/golden-temple-amritsar-punjab.webp",
       "usedIn": [
-        "punjab-travel-guide (hero + Wagah Border section — replaces an Udaipur photo used in error)"
+        "punjab-travel-guide (hero + Wagah Border section — replaces an Udaipur photo used in error)",
+        "punjab-travel-guide"
       ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Golden_Temple,_Amritsar_02.jpg",
@@ -3807,6 +3809,402 @@
       "license": "CC BY-SA 4.0",
       "author": "Wikimedia Commons contributor (Assamese-script username, see source page)",
       "attribution": "See source page for attribution, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/punjab/punjab/wagah-border-ceremony-crowds-amritsar.webp",
+      "usedIn": [
+        "punjab-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Attari%E2%80%93Wagah_border,_ceremony_and_crowds_Indian_side_vrtmrgmpksk_(164).jpg",
+      "originalFile": "Attari–Wagah border, ceremony and crowds Indian side vrtmrgmpksk (164).jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Vinayaraj",
+      "attribution": "Vinayaraj, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/punjab/punjab/qila-mubarak-fort-patiala.webp",
+      "usedIn": [
+        "punjab-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Qila_Mubarak,_Patiala.jpg",
+      "originalFile": "Qila Mubarak, Patiala.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Journojp",
+      "attribution": "Journojp, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/punjab/punjab/takht-keshgarh-sahib-anandpur-sahib.webp",
+      "usedIn": [
+        "punjab-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Keshgarh.jpg",
+      "originalFile": "Keshgarh.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Journojp",
+      "attribution": "Journojp, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/gujarat/gujarat/somnath-temple-arabian-sea-coast.webp",
+      "usedIn": [
+        "gujarat-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:%22_Somnath_Temple,_Gujarat_%22.jpg",
+      "originalFile": "\" Somnath Temple, Gujarat \".jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Bibhas87",
+      "attribution": "Bibhas87, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/gujarat/gujarat/dwarkadhish-temple-dwarka-gomti-ghat.webp",
+      "usedIn": [
+        "gujarat-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Dwarkadhish_Temple_20.jpg",
+      "originalFile": "Dwarkadhish Temple 20.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Kridha20",
+      "attribution": "Kridha20, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/gujarat/gujarat/asiatic-lion-gir-national-park.webp",
+      "usedIn": [
+        "gujarat-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Asiatic_Lion_Royal_Walk_at_Gir_National_Park,_Gujrat,_India.jpg",
+      "originalFile": "Asiatic Lion Royal Walk at Gir National Park, Gujrat, India.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Rohit Sharma",
+      "attribution": "Rohit Sharma, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/gujarat/gujarat/statue-of-unity-narmada-kevadia.webp",
+      "usedIn": [
+        "gujarat-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Statue_of_Unity_2.jpg",
+      "originalFile": "Statue of Unity 2.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Basavaraj M",
+      "attribution": "Basavaraj M, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/haryana/haryana/surajkund-crafts-mela-faridabad.webp",
+      "usedIn": [
+        "haryana-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Surajkund_International_Craft_fair.jpg",
+      "originalFile": "Surajkund International Craft fair.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Charvimathur",
+      "attribution": "Charvimathur, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/haryana/haryana/pinjore-gardens-yadavindra-panchkula.webp",
+      "usedIn": [
+        "haryana-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Pinjore_Gardens.JPG",
+      "originalFile": "Pinjore Gardens.JPG",
+      "license": "CC BY-SA 4.0",
+      "author": "Esben Agersnap",
+      "attribution": "Esben Agersnap, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/haryana/haryana/sultanpur-national-park-wetland-gurugram.webp",
+      "usedIn": [
+        "haryana-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:View_of_Sultanpur_National_Park_wetland_from_one_of_the_watch_towers.jpg",
+      "originalFile": "View of Sultanpur National Park wetland from one of the watch towers.jpg",
+      "license": "CC BY 4.0",
+      "author": "DesiBoy101",
+      "attribution": "DesiBoy101, CC BY 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/chhattisgarh/chhattisgarh/bastar-dussehra-festival-jagdalpur.webp",
+      "usedIn": [
+        "chhattisgarh-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Bastar_Dusshera_Unexplored_Bastar.jpg",
+      "originalFile": "Bastar Dusshera Unexplored Bastar.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Sushil.skk",
+      "attribution": "Sushil.skk, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/chhattisgarh/chhattisgarh/kanger-valley-national-park-cliffs.webp",
+      "usedIn": [
+        "chhattisgarh-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Rock_Hills_ofKanger_valley_National_park.jpg",
+      "originalFile": "Rock Hills ofKanger valley National park.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Harminderkurala",
+      "attribution": "Harminderkurala, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/chhattisgarh/chhattisgarh/sirpur-buddhist-stupa-ruins.webp",
+      "usedIn": [
+        "chhattisgarh-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Ancient_stupa,_Sirpur_Buddhist_monuments_Chhattisgarh_1.jpg",
+      "originalFile": "Ancient stupa, Sirpur Buddhist monuments Chhattisgarh 1.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Ms Sarah Welch",
+      "attribution": "Ms Sarah Welch, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/goa/goa/anjuna-beach-curlies-goa.webp",
+      "usedIn": [
+        "goa-beaches-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Anjuna_Beach,_Goa,_India,_Legendary_Curlies_beach_shack.jpg",
+      "originalFile": "Anjuna Beach, Goa, India, Legendary Curlies beach shack.jpg",
+      "license": "CC BY 4.0",
+      "author": "Vyacheslav Argenberg",
+      "attribution": "Vyacheslav Argenberg, CC BY 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/goa/goa/chapora-fort-vagator-goa.webp",
+      "usedIn": [
+        "goa-beaches-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Chapora_Fort_-_Bardez_(barracks).jpg",
+      "originalFile": "Chapora Fort - Bardez (barracks).jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Savikagomes",
+      "attribution": "Savikagomes, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/goa/goa/palolem-beach-south-goa.webp",
+      "usedIn": [
+        "goa-beaches-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Palolem_Beach,_South_Goa.jpg",
+      "originalFile": "Palolem Beach, South Goa.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "iMahesh",
+      "attribution": "iMahesh, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/goa/goa/agonda-beach-huts-goa.webp",
+      "usedIn": [
+        "goa-beaches-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Agonda_beach_huts.JPG",
+      "originalFile": "Agonda beach huts.JPG",
+      "license": "Public Domain",
+      "author": "Sobarwiki",
+      "attribution": "Sobarwiki, Public Domain, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/goa/goa/basilica-of-bom-jesus-old-goa.webp",
+      "usedIn": [
+        "goa-beaches-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Front_Elevation_of_Basilica_of_Bom_Jesus.jpg",
+      "originalFile": "Front Elevation of Basilica of Bom Jesus.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "iMahesh",
+      "attribution": "iMahesh, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/goa/goa/dudhsagar-falls-goa-karnataka-border.webp",
+      "usedIn": [
+        "goa-beaches-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Dudhsagar_Waterfall.JPG",
+      "originalFile": "Dudhsagar Waterfall.JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "Shah ankitb",
+      "attribution": "Shah ankitb, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/kerala/kerala/kumarakom-vembanad-lake-houseboats.webp",
+      "usedIn": [
+        "kerala-backwaters-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:House_Boats(Kettuvallams)_at_Vembanattu_Lake,Kumarakom,Alleppy,Kerala,India_-_panoramio.jpg",
+      "originalFile": "House Boats(Kettuvallams) at Vembanattu Lake,Kumarakom,Alleppy,Kerala,India - panoramio.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Geyo John",
+      "attribution": "Geyo John, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/kerala/kerala/ashtamudi-lake-boats-kollam.webp",
+      "usedIn": [
+        "kerala-backwaters-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Boats_Moored_Ashtamudi_Lake_Kerala_Mar22_A7C_01428.jpg",
+      "originalFile": "Boats Moored Ashtamudi Lake Kerala Mar22 A7C 01428.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Timothy A. Gonsalves",
+      "attribution": "Timothy A. Gonsalves, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/kerala/kerala/munroe-island-village-canal.webp",
+      "usedIn": [
+        "kerala-backwaters-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:House_Canal_Munroe_Island_Kerala_Mar22_A7C_01448.jpg",
+      "originalFile": "House Canal Munroe Island Kerala Mar22 A7C 01448.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Timothy A. Gonsalves",
+      "attribution": "Timothy A. Gonsalves, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/kerala/kerala/kuttanad-paddy-fields-below-sea-level.webp",
+      "usedIn": [
+        "kerala-backwaters-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kuttanad_pady_fields_II_-_panoramio.jpg",
+      "originalFile": "Kuttanad pady fields II - panoramio.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Anil R.V",
+      "attribution": "Anil R.V, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/jharkhand/jharkhand/dassam-falls-near-ranchi-jharkhand.webp",
+      "usedIn": [
+        "jharkhand-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Dassam_Falls,_Jharkhand,_India_02.jpg",
+      "originalFile": "Dassam Falls, Jharkhand, India 02.jpg",
+      "license": "CC BY 4.0",
+      "author": "Kingshuk Mondal",
+      "attribution": "Kingshuk Mondal, CC BY 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/jharkhand/jharkhand/netarhat-sunset-hills-jharkhand.webp",
+      "usedIn": [
+        "jharkhand-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Sunset_in_netarhatt,_jharkhand.jpg",
+      "originalFile": "Sunset in netarhatt, jharkhand.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Ujjawalagrawal2",
+      "attribution": "Ujjawalagrawal2, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/jharkhand/jharkhand/betla-national-park-entrance-gate-jharkhand.webp",
+      "usedIn": [
+        "jharkhand-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Entrance_of_Betla_national_park.jpg",
+      "originalFile": "Entrance of Betla national park.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Marian kispotta",
+      "attribution": "Marian kispotta, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/jharkhand/jharkhand/baidyanath-temple-deoghar-jharkhand.webp",
+      "usedIn": [
+        "jharkhand-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Baidyanath_temple_and_temple_complex,_Deoghar_03.jpg",
+      "originalFile": "Baidyanath temple and temple complex, Deoghar 03.jpg",
+      "license": "CC BY 4.0",
+      "author": "Pinakpani",
+      "attribution": "Pinakpani, CC BY 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/andhra-pradesh/andhra-pradesh/shiva-parvati-statues-kailasagiri-visakhapatnam.webp",
+      "usedIn": [
+        "andhra-pradesh-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Shiva_and_Parvati_statues,_Kailsagiri_park,_Visakhapatnam_01.jpg",
+      "originalFile": "Shiva and Parvati statues, Kailsagiri park, Visakhapatnam 01.jpg",
+      "license": "CC BY 4.0",
+      "author": "Pinakpani",
+      "attribution": "Pinakpani, CC BY 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/andhra-pradesh/andhra-pradesh/veerabhadra-temple-pillars-lepakshi-andhra-pradesh.webp",
+      "usedIn": [
+        "andhra-pradesh-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Pillars_at_the_Veerabhadra_Temple,_Lepakshi,_Andhra_Pradesh,_India_(2010).jpg",
+      "originalFile": "Pillars at the Veerabhadra Temple, Lepakshi, Andhra Pradesh, India (2010).jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Lucky1841999",
+      "attribution": "Lucky1841999, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/nagaland/nagaland/hornbill-festival-kisama-heritage-village-nagaland.webp",
+      "usedIn": [
+        "nagaland-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kisama_main_arena_Hornbill_Festival_2019.jpg",
+      "originalFile": "Kisama main arena Hornbill Festival 2019.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Aravind Manickam",
+      "attribution": "Aravind Manickam, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/nagaland/nagaland/kohima-war-cemetery-memorial-wall-nagaland.webp",
+      "usedIn": [
+        "nagaland-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kohima_war_cemetery_34.jpg",
+      "originalFile": "Kohima war cemetery 34.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Shyamal",
+      "attribution": "Shyamal, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/nagaland/nagaland/dzukou-valley-rolling-green-hills-nagaland.webp",
+      "usedIn": [
+        "nagaland-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Breathtaking_beauty_of_Dzukou_Valley_in_Manipur-Nagaland_border_(edit).jpg",
+      "originalFile": "Breathtaking beauty of Dzukou Valley in Manipur-Nagaland border (edit).jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Samudra bikash hazarika",
+      "attribution": "Samudra bikash hazarika, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/nagaland/nagaland/khonoma-green-village-nagaland.webp",
+      "usedIn": [
+        "nagaland-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Khonoma_village,_Nagaland,_India.jpg",
+      "originalFile": "Khonoma village, Nagaland, India.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Joli Rumi",
+      "attribution": "Joli Rumi, CC BY-SA 4.0, via Wikimedia Commons"
     }
   ]
 }

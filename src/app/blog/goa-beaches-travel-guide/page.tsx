@@ -717,6 +717,17 @@ export default function GoaBeachesGuidePage() {
                         clifftop trance parties, particularly around Curlies and
                         the historic Anjuna beach clubs.
                       </li>
+                    </ul>
+                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/blogs/goa/goa/anjuna-beach-curlies-goa.webp"
+                        alt="Anjuna beach with the legendary Curlies beach shack and palm trees along the sand"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
+                    <ul>
                       <li>
                         <strong>Vagator & Chapora:</strong> Dramatic red
                         laterite cliffs, quieter than Baga/Calangute, and home
@@ -724,6 +735,17 @@ export default function GoaBeachesGuidePage() {
                         <em>Dil Chahta Hai</em>, with the best sunset view in
                         North Goa.
                       </li>
+                    </ul>
+                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/blogs/goa/goa/chapora-fort-vagator-goa.webp"
+                        alt="Weathered laterite stone arches and ramparts of Chapora Fort overlooking Vagator"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
+                    <ul>
                       <li>
                         <strong>Morjim & Ashwem:</strong> Quieter, more upscale
                         North Goa beaches popular with Russian and European
@@ -742,12 +764,34 @@ export default function GoaBeachesGuidePage() {
                         low-key shacks, widely considered Goa's most classically
                         beautiful beach.
                       </li>
+                    </ul>
+                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/blogs/goa/goa/palolem-beach-south-goa.webp"
+                        alt="Palolem's curved bay lined with palm trees and bamboo beach huts in South Goa"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
+                    <ul>
                       <li>
                         <strong>Agonda:</strong> Quieter still than Palolem,
                         with a strict no-nightlife policy and a protected
                         turtle-nesting stretch — the pick for travellers who
                         want genuine calm.
                       </li>
+                    </ul>
+                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/blogs/goa/goa/agonda-beach-huts-goa.webp"
+                        alt="Colourful beach huts lined up beneath tall palm trees on Agonda beach"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
+                    <ul>
                       <li>
                         <strong>Colva & Benaulim:</strong> Wide, long beaches
                         with a more local, less backpacker-oriented feel — good
@@ -773,6 +817,15 @@ export default function GoaBeachesGuidePage() {
                     most significant colonial-era churches in Asia — a stark
                     contrast to the beach scene, and worth at least half a day.
                   </p>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/goa/goa/basilica-of-bom-jesus-old-goa.webp"
+                      alt="Baroque façade of the Basilica of Bom Jesus in Old Goa, resting place of St. Francis Xavier"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <ul>
                     <li>
                       <strong>Basilica of Bom Jesus:</strong> Built in 1605,
@@ -859,6 +912,15 @@ export default function GoaBeachesGuidePage() {
                     permitted on the final stretch), making it a genuine
                     adventure rather than a simple photo stop.
                   </p>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/goa/goa/dudhsagar-falls-goa-karnataka-border.webp"
+                      alt="Dudhsagar Falls cascading down a rock face with the old railway bridge visible above"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <ul>
                     <li>
                       <strong>Distance:</strong> ~60 km from Panjim, ~2 hrs

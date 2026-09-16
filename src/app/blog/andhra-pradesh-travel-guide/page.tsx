@@ -632,8 +632,8 @@ export default function AndhraPradeshGuidePage() {
                   <h2>Tirupati & Tirumala: The Temple of Lord Venkateswara</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/blogs/andhra-pradesh/andhra-pradesh/sunrise-tenneti-beach-visakhapatnam-andhra-pradesh.webp"
-                      alt="Ornate South Indian temple gopuram architecture, evoking the Sri Venkateswara Temple at Tirumala"
+                      src="/images/blogs/andhra-pradesh/tirupati/tirumala-venkateswara-temple-gopuram-tirupati.webp"
+                      alt="The white gopuram tower of the Sri Venkateswara Temple at Tirumala, rising against the forested hills"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -692,8 +692,8 @@ export default function AndhraPradeshGuidePage() {
                   <h2>Visakhapatnam (Vizag): Beaches & the Eastern Coast</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/blogs/andhra-pradesh/andhra-pradesh/sunrise-tenneti-beach-visakhapatnam-andhra-pradesh.webp"
-                      alt="A wide sandy beach meeting the sea, evoking Visakhapatnam's coastline along the Bay of Bengal"
+                      src="/images/blogs/andhra-pradesh/andhra-pradesh/shiva-parvati-statues-kailasagiri-visakhapatnam.webp"
+                      alt="The large white Shiva and Parvati statues at Kailasagiri hilltop park, overlooking Visakhapatnam"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -746,6 +746,15 @@ export default function AndhraPradeshGuidePage() {
                 {/* ── Other Sights ──────────────────────────────────────── */}
                 <section id="other-sights">
                   <h2>Amaravati, Lepakshi & Srisailam</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/andhra-pradesh/andhra-pradesh/veerabhadra-temple-pillars-lepakshi-andhra-pradesh.webp"
+                      alt="Intricately carved stone pillars of the Vijayanagara-era Veerabhadra Temple at Lepakshi"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <ul>
                     <li>
                       <strong>Amaravati:</strong> An ancient Buddhist site

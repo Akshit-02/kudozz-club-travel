@@ -633,7 +633,7 @@ export default function HaryanaGuidePage() {
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
                       src="/images/blogs/haryana/haryana/krishna-arjun-chariot-statue-kurukshetra-haryana.webp"
-                      alt="Ancient carved stone temple architecture with pillared halls, evoking the temple sites around Kurukshetra"
+                      alt="The bronze Krishna-Arjuna chariot statue at Jyotisar, marking the spot where the Bhagavad Gita was delivered, Kurukshetra"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -686,8 +686,8 @@ export default function HaryanaGuidePage() {
                   <h2>Surajkund & Faridabad</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/blogs/haryana/haryana/krishna-arjun-chariot-statue-kurukshetra-haryana.webp"
-                      alt="Sandstone fort ramparts and bastions, evoking the historic stone architecture around Surajkund's ancient reservoir"
+                      src="/images/blogs/haryana/haryana/surajkund-crafts-mela-faridabad.webp"
+                      alt="Colourful handicraft decorations and umbrellas at the International Surajkund Crafts Mela in Faridabad, Haryana"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -733,6 +733,15 @@ export default function HaryanaGuidePage() {
                 {/* ── Other Sights ──────────────────────────────────────── */}
                 <section id="other-sights">
                   <h2>Pinjore, Sultanpur & Morni Hills</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/haryana/haryana/pinjore-gardens-yadavindra-panchkula.webp"
+                      alt="Yadavindra Gardens at Pinjore lit up at dusk, with its terraced fountains and Mughal-era pavilion"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <ul>
                     <li>
                       <strong>Pinjore Gardens:</strong> A Mughal-era
@@ -755,6 +764,15 @@ export default function HaryanaGuidePage() {
                       with a small lake and pine-covered slopes.
                     </li>
                   </ul>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/haryana/haryana/sultanpur-national-park-wetland-gurugram.webp"
+                      alt="The wetland at Sultanpur National Park near Gurugram, seen from a watchtower over the reeds and water"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                 </section>
 
                 {/* ── Where to Stay ─────────────────────────────────────── */}
