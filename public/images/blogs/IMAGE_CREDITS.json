@@ -390,7 +390,8 @@
     {
       "path": "blogs/manipur/imphal/kangla-fort-gate-imphal.webp",
       "usedIn": [
-        "imphal-travel-guide (hero + Things to Do section — replaces a Meghalaya photo used in error)"
+        "imphal-travel-guide (hero + Things to Do section — replaces a Meghalaya photo used in error)",
+        "manipur-travel-guide"
       ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Kangla_Sanathong_(Kangla_Grand_Gate_or_Kangla_Royal_Gate)_-_Classical_Meitei_architecture_-_in_the_western_side_of_the_Kangla_Fort_(Kangla_Palace)_in_Imphal_West_district_of_Manipur_state_(Kangleipak)_01.jpg",
@@ -426,7 +427,8 @@
     {
       "path": "blogs/manipur/moirang/ina-memorial-complex-moirang-manipur.webp",
       "usedIn": [
-        "moirang-travel-guide (hero + inline — replaces a Jammu & Kashmir photo used in error)"
+        "moirang-travel-guide (hero + inline — replaces a Jammu & Kashmir photo used in error)",
+        "manipur-travel-guide"
       ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:INA_Memorial,_Moirang,_Manipur_(16).jpeg",
@@ -813,7 +815,8 @@
     {
       "path": "blogs/lakshadweep/kavaratti-island/kavaratti-lagoon-fishing-boats.webp",
       "usedIn": [
-        "kavaratti-island-travel-guide (hero + inline — replaces a generic shared Lakshadweep photo, previously identical to Agatti's)"
+        "kavaratti-island-travel-guide (hero + inline — replaces a generic shared Lakshadweep photo, previously identical to Agatti's)",
+        "lakshadweep-island-travel-guide"
       ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Kavaratti_Lagoon_(5799663383).jpg",
@@ -825,7 +828,8 @@
     {
       "path": "blogs/lakshadweep/agatti-island/agatti-island-lagoon-beach.webp",
       "usedIn": [
-        "agatti-island-travel-guide (hero + inline — replaces a generic shared Lakshadweep photo, previously identical to Kavaratti's)"
+        "agatti-island-travel-guide (hero + inline — replaces a generic shared Lakshadweep photo, previously identical to Kavaratti's)",
+        "lakshadweep-island-travel-guide"
       ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:View_from_Agatti_Island_in_Lakshadweep_-_IMG_5602.jpg",
@@ -837,7 +841,8 @@
     {
       "path": "blogs/arunachal-pradesh/ziro-valley-arunachal/apatani-rice-paddies-ziro-valley.webp",
       "usedIn": [
-        "ziro-valley-arunachal-travel-guide (hero + inline — replaces a Meghalaya photo in metadata and a mislabeled Alps-style photo in the body)"
+        "ziro-valley-arunachal-travel-guide (hero + inline — replaces a Meghalaya photo in metadata and a mislabeled Alps-style photo in the body)",
+        "arunachal-pradesh-travel-guide"
       ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Apatani_Rice_Paddies.jpg",
@@ -1092,7 +1097,8 @@
     {
       "path": "blogs/jammu-and-kashmir/sonamarg/thajiwas-glacier-valley-sonamarg.webp",
       "usedIn": [
-        "sonamarg-travel-guide (hero + inline — replaces a generic shared jammu-kashmir/hero.jpg photo)"
+        "sonamarg-travel-guide (hero + inline — replaces a generic shared jammu-kashmir/hero.jpg photo)",
+        "jammu-kashmir-travel-guide"
       ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Thajiwas_Glacier,_Sonamarg,_Kashmir_-_Picture_1_(8707802225).jpg",
@@ -1104,7 +1110,8 @@
     {
       "path": "blogs/jammu-and-kashmir/katra/vaishno-devi-shrine-mountain-valley.webp",
       "usedIn": [
-        "katra-travel-guide (hero — replaces a generic shared jammu-kashmir/hero.jpg photo)"
+        "katra-travel-guide (hero — replaces a generic shared jammu-kashmir/hero.jpg photo)",
+        "jammu-kashmir-travel-guide"
       ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Shri_Mata_Vaishno_Devi_Shrine,_Katra,_Jammu_and_Kashmir,_India.jpg",
@@ -2352,7 +2359,8 @@
     {
       "path": "blogs/tripura/ujjayanta-palace/ujjayanta-palace-facade.webp",
       "usedIn": [
-        "ujjayanta-palace-travel-guide (hero + inline — replaces an Udaipur/Rajasthan photo used in error)"
+        "ujjayanta-palace-travel-guide (hero + inline — replaces an Udaipur/Rajasthan photo used in error)",
+        "tripura-travel-guide"
       ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Right_Facade_of_Ujjayanta_Palace,_Agartala,_Tripura_03.JPG",
@@ -2376,7 +2384,8 @@
     {
       "path": "blogs/tripura/tripura-sundari-temple/tripura-sundari-temple-facade.webp",
       "usedIn": [
-        "tripura-sundari-temple-travel-guide (hero + inline — replaces a Manali/Hadimba temple photo used in error)"
+        "tripura-sundari-temple-travel-guide (hero + inline — replaces a Manali/Hadimba temple photo used in error)",
+        "tripura-travel-guide"
       ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Tripura_Sundari_Temple_in_Udaipur,_Tripura_2018-03-25_-1.jpg",
@@ -2388,7 +2397,8 @@
     {
       "path": "blogs/tripura/unakoti/rock-cut-carvings-unakoti.webp",
       "usedIn": [
-        "unakoti-travel-guide (hero + inline — replaces a Meghalaya photo used in error)"
+        "unakoti-travel-guide (hero + inline — replaces a Meghalaya photo used in error)",
+        "tripura-travel-guide"
       ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:A_View_of_Unakoti,_Tripura.jpg",
@@ -2688,7 +2698,8 @@
     {
       "path": "/images/blogs/tripura/sepahijala/spotted-deer-sepahijala-wildlife-sanctuary.webp",
       "usedIn": [
-        "sepahijala-travel-guide"
+        "sepahijala-travel-guide",
+        "tripura-travel-guide"
       ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Deer,_Sepahijala_WLS.jpg",
@@ -4205,6 +4216,234 @@
       "license": "CC BY-SA 4.0",
       "author": "Joli Rumi",
       "attribution": "Joli Rumi, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/mizoram/mizoram/aizawl-city-street-mizoram.webp",
+      "usedIn": [
+        "mizoram-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Aizawl_City_in_2023.jpg",
+      "originalFile": "Aizawl City in 2023.jpg",
+      "license": "CC0",
+      "author": "Robjersey",
+      "attribution": "Robjersey, CC0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/mizoram/mizoram/reiek-heritage-village-mizoram.webp",
+      "usedIn": [
+        "mizoram-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Reiek,_Mizoram.jpg",
+      "originalFile": "Reiek, Mizoram.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Bodhisattwa",
+      "attribution": "Bodhisattwa, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/mizoram/mizoram/tam-dil-lake-mizoram.webp",
+      "usedIn": [
+        "mizoram-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Tam_Dil_Lake_in_Saitual.jpg",
+      "originalFile": "Tam Dil Lake in Saitual.jpg",
+      "license": "CC0",
+      "author": "Georgeluvpotato",
+      "attribution": "Georgeluvpotato, CC0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/bihar/bihar/nalanda-mahavihara-ruins-sariputta-stupa.webp",
+      "usedIn": [
+        "bihar-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Temple_3_-_Sariputta_Stupa_-_Nalanda_Mahavihara_(10).jpg",
+      "originalFile": "Temple 3 - Sariputta Stupa - Nalanda Mahavihara (10).jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Sumitsurai",
+      "attribution": "Sumitsurai, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/bihar/bihar/golghar-granary-patna.webp",
+      "usedIn": [
+        "bihar-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Golghar_6.jpg",
+      "originalFile": "Golghar 6.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "कवि कलाकार हिमांशु मान्ने",
+      "attribution": "कवि कलाकार हिमांशु मान्ने, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/bihar/bihar/sher-shah-suri-tomb-sasaram.webp",
+      "usedIn": [
+        "bihar-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Sher_Shah_Suri_Tomb.jpg",
+      "originalFile": "Sher Shah Suri Tomb.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Nandanupadhyay",
+      "attribution": "Nandanupadhyay, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/arunachal-pradesh/arunachal-pradesh/bomdila-monastery-arunachal-pradesh.webp",
+      "usedIn": [
+        "arunachal-pradesh-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Bomdila_monastery.jpg",
+      "originalFile": "Bomdila monastery.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Rohit Sharma",
+      "attribution": "Rohit Sharma, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/arunachal-pradesh/arunachal-pradesh/dirang-valley-apple-orchards-arunachal-pradesh.webp",
+      "usedIn": [
+        "arunachal-pradesh-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Dirang_Valley.jpg",
+      "originalFile": "Dirang Valley.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Itrajib",
+      "attribution": "Itrajib, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/arunachal-pradesh/arunachal-pradesh/namdapha-national-park-forest-landscape.webp",
+      "usedIn": [
+        "arunachal-pradesh-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Landscape_Namdapha_Forest_IMG_2591_01.jpg",
+      "originalFile": "Landscape Namdapha Forest IMG 2591 01.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Rohit Naniwadekar",
+      "attribution": "Rohit Naniwadekar, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/meghalaya/meghalaya/single-decker-root-bridge-riwai.webp",
+      "usedIn": [
+        "meghalaya-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Single_Decker_Living_Root_Bridge_at_Riwai.jpg",
+      "originalFile": "Single Decker Living Root Bridge at Riwai.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Arindambasu2",
+      "attribution": "Arindambasu2, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/meghalaya/meghalaya/nohkalikai-falls-cherrapunji.webp",
+      "usedIn": [
+        "meghalaya-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Nohkalikai_Falls_near_Cherrapunji,_India.jpg",
+      "originalFile": "Nohkalikai Falls near Cherrapunji, India.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Sujan Bandyopadhyay",
+      "attribution": "Sujan Bandyopadhyay, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/meghalaya/meghalaya/mawlynnong-cleanest-village-meghalaya.webp",
+      "usedIn": [
+        "meghalaya-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Mawlynnong_-_Cleanest_village_of_Asia_in_Meghalaya.jpg",
+      "originalFile": "Mawlynnong - Cleanest village of Asia in Meghalaya.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Madhumitaworld",
+      "attribution": "Madhumitaworld, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/meghalaya/meghalaya/wards-lake-shillong.webp",
+      "usedIn": [
+        "meghalaya-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Ward's_Lake,_Shillong.jpg",
+      "originalFile": "Ward's Lake, Shillong.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "ANKAN",
+      "attribution": "ANKAN, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/jammu-and-kashmir/gulmarg/gulmarg-gondola-snow-covered-station.webp",
+      "usedIn": [
+        "jammu-kashmir-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Gulmarg_Gondola,_Cable_Car.JPG",
+      "originalFile": "Gulmarg Gondola, Cable Car.JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "Skywayman9",
+      "attribution": "Skywayman9, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/jammu-and-kashmir/pahalgam/pahalgam-valley-lidder-river-forest.webp",
+      "usedIn": [
+        "jammu-kashmir-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Pahalgam_Valley.jpg",
+      "originalFile": "Pahalgam Valley.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "KennyOMG",
+      "attribution": "KennyOMG, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/puducherry/puducherry/auroville-matrimandir-golden-dome.webp",
+      "usedIn": [
+        "puducherry-district-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:The_Matrimandir_in_Auroville,_Tamil_Nadu,_India.jpg",
+      "originalFile": "The Matrimandir in Auroville, Tamil Nadu, India.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Matthew T Rader",
+      "attribution": "Matthew T Rader, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/puducherry/puducherry/villianur-temple-gopuram-tank.webp",
+      "usedIn": [
+        "puducherry-district-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Villianur_pano.jpg",
+      "originalFile": "Villianur pano.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Ssriram mt",
+      "attribution": "Ssriram mt, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/puducherry/puducherry/arikamedu-archaeological-site-ruins.webp",
+      "usedIn": [
+        "puducherry-district-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Arikamedu,_Early_Historic_Site_01.jpg",
+      "originalFile": "Arikamedu, Early Historic Site 01.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Jayaseerlourdhuraj",
+      "attribution": "Jayaseerlourdhuraj, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/puducherry/puducherry/bahour-lake-irrigation-tank.webp",
+      "usedIn": [
+        "puducherry-district-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Bahour-Lake.jpg",
+      "originalFile": "Bahour-Lake.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Pselvaganapathy",
+      "attribution": "Pselvaganapathy, CC BY-SA 3.0, via Wikimedia Commons"
     }
   ]
 }

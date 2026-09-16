@@ -588,8 +588,8 @@ export default function MeghalayaPage() {
                     <h3>Living Root Bridges</h3>
                     <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                       <Image
-                        src="/images/destinations/meghalaya/hero.jpg"
-                        alt="Double-decker living root bridge near Nongriat village, Meghalaya"
+                        src="/images/blogs/meghalaya/meghalaya/single-decker-root-bridge-riwai.webp"
+                        alt="Visitors crossing the single-decker living root bridge at Riwai, near Mawlynnong, Meghalaya"
                         fill
                         sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                         className="object-cover"
@@ -628,6 +628,15 @@ export default function MeghalayaPage() {
 
                   <section id="cherrapunji">
                     <h3>Cherrapunji & Its Waterfalls</h3>
+                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/blogs/meghalaya/meghalaya/nohkalikai-falls-cherrapunji.webp"
+                        alt="Nohkalikai Falls plunging from a sheer cliff near Cherrapunji, Meghalaya"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <p>
                       <strong>Cherrapunji (Sohra)</strong> once held the world
                       record for the highest annual rainfall on Earth (a title
@@ -692,6 +701,15 @@ export default function MeghalayaPage() {
 
                   <section id="mawlynnong">
                     <h3>Mawlynnong, Asia's Cleanest Village</h3>
+                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/blogs/meghalaya/meghalaya/mawlynnong-cleanest-village-meghalaya.webp"
+                        alt="Tidy bamboo houses and swept lanes in Mawlynnong village, Meghalaya, at dusk"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <p>
                       <strong>Mawlynnong</strong> has been repeatedly named
                       Asia's cleanest village — a title the community maintains
@@ -707,6 +725,15 @@ export default function MeghalayaPage() {
 
                   <section id="shillong">
                     <h3>Shillong</h3>
+                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/blogs/meghalaya/meghalaya/wards-lake-shillong.webp"
+                        alt="Ward's Lake in Shillong, with its colonial-era footbridge and garden paths"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <p>
                       Meghalaya's capital, still nicknamed "the Scotland of the
                       East" from British colonial times, is worth a day or two

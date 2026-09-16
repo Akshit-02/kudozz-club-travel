@@ -703,6 +703,15 @@ export default function ArunachalPradeshGuidePage() {
                 {/* ── Ziro Valley (kept high-level) ─────────────────────── */}
                 <section id="ziro-valley">
                   <h2>Ziro Valley</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/arunachal-pradesh/ziro-valley-arunachal/apatani-rice-paddies-ziro-valley.webp"
+                      alt="Apatani rice-fish paddies and traditional bamboo houses across Ziro Valley, Arunachal Pradesh"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     <strong>Ziro Valley</strong>, home to the{" "}
                     <strong>Apatani tribe</strong>, is Arunachal's most
@@ -735,6 +744,35 @@ export default function ArunachalPradeshGuidePage() {
                 {/* ── Other Sights ──────────────────────────────────────── */}
                 <section id="other-sights">
                   <h2>Bomdila, Dirang, Namdapha & Pasighat</h2>
+                  <div className="grid sm:grid-cols-3 gap-4 my-6">
+                    <div className="relative w-full rounded-xl h-56 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/blogs/arunachal-pradesh/arunachal-pradesh/bomdila-monastery-arunachal-pradesh.webp"
+                        alt="Bomdila Monastery's colorful facade with prayer flags, Arunachal Pradesh"
+                        fill
+                        sizes="(min-width: 1280px) 256px, (min-width: 1024px) 213px, 33vw"
+                        className="object-cover"
+                      />
+                    </div>
+                    <div className="relative w-full rounded-xl h-56 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/blogs/arunachal-pradesh/arunachal-pradesh/dirang-valley-apple-orchards-arunachal-pradesh.webp"
+                        alt="Terraced fields and the river running through Dirang Valley, Arunachal Pradesh"
+                        fill
+                        sizes="(min-width: 1280px) 256px, (min-width: 1024px) 213px, 33vw"
+                        className="object-cover"
+                      />
+                    </div>
+                    <div className="relative w-full rounded-xl h-56 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/blogs/arunachal-pradesh/arunachal-pradesh/namdapha-national-park-forest-landscape.webp"
+                        alt="Forested hills and snow-capped peaks within Namdapha National Park, Arunachal Pradesh"
+                        fill
+                        sizes="(min-width: 1280px) 256px, (min-width: 1024px) 213px, 33vw"
+                        className="object-cover"
+                      />
+                    </div>
+                  </div>
                   <ul>
                     <li>
                       <strong>Bomdila:</strong> A monastery town and the

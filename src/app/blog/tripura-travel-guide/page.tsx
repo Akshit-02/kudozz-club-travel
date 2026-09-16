@@ -612,6 +612,15 @@ export default function TripuraGuidePage() {
                 {/* ── Agartala ──────────────────────────────────────────── */}
                 <section id="agartala">
                   <h2>Agartala: Palaces & City Sights</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/tripura/ujjayanta-palace/ujjayanta-palace-facade.webp"
+                      alt="Ujjayanta Palace's white colonial-era facade in Agartala, Tripura"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Tripura's capital blends royal heritage with a relaxed,
                     unhurried city pace — most visitors base themselves here
@@ -679,6 +688,15 @@ export default function TripuraGuidePage() {
                 {/* ── Unakoti ───────────────────────────────────────────── */}
                 <section id="unakoti">
                   <h2>Unakoti: Ancient Rock Carvings</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/tripura/unakoti/rock-cut-carvings-unakoti.webp"
+                      alt="Giant rock-cut carvings of Shiva and other deities at the Unakoti archaeological site, Tripura"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     One of Northeast India's most significant archaeological
                     sites, <strong>Unakoti</strong> (roughly 178 km from
@@ -718,6 +736,26 @@ export default function TripuraGuidePage() {
                 {/* ── Other Sights ──────────────────────────────────────── */}
                 <section id="other-sights">
                   <h2>Matabari, Sepahijala & Tribal Villages</h2>
+                  <div className="grid sm:grid-cols-2 gap-4 my-6">
+                    <div className="relative w-full rounded-xl h-56 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/blogs/tripura/tripura-sundari-temple/tripura-sundari-temple-facade.webp"
+                        alt="The red, beehive-shaped Tripura Sundari Temple at Matabari, one of the 51 Shakti Peethas"
+                        fill
+                        sizes="(min-width: 1280px) 384px, (min-width: 1024px) 320px, 50vw"
+                        className="object-cover"
+                      />
+                    </div>
+                    <div className="relative w-full rounded-xl h-56 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/blogs/tripura/sepahijala/spotted-deer-sepahijala-wildlife-sanctuary.webp"
+                        alt="Spotted deer grazing within Sepahijala Wildlife Sanctuary, Tripura"
+                        fill
+                        sizes="(min-width: 1280px) 384px, (min-width: 1024px) 320px, 50vw"
+                        className="object-cover"
+                      />
+                    </div>
+                  </div>
                   <ul>
                     <li>
                       <strong>Tripura Sundari Temple (Matabari):</strong> One

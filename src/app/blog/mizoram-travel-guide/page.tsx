@@ -609,6 +609,15 @@ export default function MizoramGuidePage() {
                 {/* ── Aizawl ────────────────────────────────────────────── */}
                 <section id="aizawl">
                   <h2>Aizawl: Markets & City Sights</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/mizoram/mizoram/aizawl-city-street-mizoram.webp"
+                      alt="A hillside street in Aizawl lined with shops and buildings built along the ridge"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Built entirely along a ridge at over 1,100m, Mizoram's
                     capital has a genuinely unusual layout — most visitors
@@ -638,8 +647,8 @@ export default function MizoramGuidePage() {
                   <h2>Reiek: Viewpoint & Heritage Village</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/blogs/mizoram/mizoram/vantawng-falls-mizoram.webp"
-                      alt="Vantawng Falls plunging through Mizoram's forested hills, one of the state's most iconic sights"
+                      src="/images/blogs/mizoram/mizoram/reiek-heritage-village-mizoram.webp"
+                      alt="A hillside path through Reiek village with traditional houses and hills stretching into the distance"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -674,6 +683,15 @@ export default function MizoramGuidePage() {
                 {/* ── Vantawng Falls ────────────────────────────────────── */}
                 <section id="vantawng-falls">
                   <h2>Vantawng Falls</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/mizoram/mizoram/vantawng-falls-mizoram.webp"
+                      alt="Vantawng Falls, Mizoram's highest waterfall, dropping through a forested gorge near Thenzawl"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Mizoram's highest waterfall, <strong>Vantawng
                     Falls</strong> drops roughly 750 feet through a
@@ -710,6 +728,15 @@ export default function MizoramGuidePage() {
                 {/* ── Other Sights ──────────────────────────────────────── */}
                 <section id="other-sights">
                   <h2>Champhai, Murlen & Tam Dil Lake</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/mizoram/mizoram/tam-dil-lake-mizoram.webp"
+                      alt="Tam Dil Lake reflecting the forested hills around it near Saitual, Mizoram"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <ul>
                     <li>
                       <strong>Champhai:</strong> Known as Mizoram's "rice

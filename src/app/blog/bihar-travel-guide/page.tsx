@@ -692,6 +692,15 @@ export default function BiharGuidePage() {
                 {/* ── Nalanda & Rajgir ──────────────────────────────────── */}
                 <section id="nalanda-rajgir">
                   <h2>Nalanda & Rajgir</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/bihar/bihar/nalanda-mahavihara-ruins-sariputta-stupa.webp"
+                      alt="The excavated brick ruins of the Sariputta Stupa at Nalanda Mahavihara, Bihar"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     A short drive from Bodh Gaya, <strong>Nalanda</strong>{" "}
                     and <strong>Rajgir</strong> pack in some of Bihar's
@@ -743,8 +752,8 @@ export default function BiharGuidePage() {
                   <h2>Patna: The Ancient Capital</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/blogs/bihar/bihar/mahabodhi-temple-bodh-gaya-bihar.webp"
-                      alt="The tall stepped spire of the Mahabodhi Temple rising above its garden complex, Bodh Gaya, Bihar"
+                      src="/images/blogs/bihar/bihar/golghar-granary-patna.webp"
+                      alt="Golghar, the beehive-shaped British-era granary with its spiral exterior staircase, Patna"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -785,6 +794,15 @@ export default function BiharGuidePage() {
                 {/* ── Other Sights ──────────────────────────────────────── */}
                 <section id="other-sights">
                   <h2>Vaishali & Sasaram</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/bihar/bihar/sher-shah-suri-tomb-sasaram.webp"
+                      alt="Sher Shah Suri's tomb rising from an artificial lake in Sasaram, Bihar"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <ul>
                     <li>
                       <strong>Vaishali:</strong> Considered one of the

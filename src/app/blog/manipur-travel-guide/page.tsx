@@ -621,6 +621,15 @@ export default function ManipurGuidePage() {
                 {/* ── Imphal ────────────────────────────────────────────── */}
                 <section id="imphal">
                   <h2>Imphal: Kangla Fort & War Cemeteries</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/manipur/imphal/kangla-fort-gate-imphal.webp"
+                      alt="The wooden Kangla Sanathong (Grand Gate) at Kangla Fort, the former royal seat of the Meitei kings in Imphal"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Manipur's capital sits in the middle of a fertile
                     valley — most visitors base themselves here for the
@@ -701,6 +710,15 @@ export default function ManipurGuidePage() {
                 {/* ── Other Sights ──────────────────────────────────────── */}
                 <section id="other-sights">
                   <h2>Moirang, Andro & Nearby Villages</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/manipur/moirang/ina-memorial-complex-moirang-manipur.webp"
+                      alt="The INA War Memorial monument at the INA Memorial Complex in Moirang, Manipur"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <ul>
                     <li>
                       <strong>Moirang:</strong> A historic town on Loktak

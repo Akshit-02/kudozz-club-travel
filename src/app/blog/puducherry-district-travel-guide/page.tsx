@@ -702,6 +702,15 @@ export default function PuducherryDistrictGuidePage() {
                 {/* ── Auroville ─────────────────────────────────────────── */}
                 <section id="auroville">
                   <h2>Auroville</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/puducherry/puducherry/auroville-matrimandir-golden-dome.webp"
+                      alt="The golden geodesic Matrimandir sphere rising above Auroville's lawns"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Founded in 1968 as an experimental "universal town,"{" "}
                     <strong>Auroville</strong> sits about 10 km north of
@@ -757,6 +766,15 @@ export default function PuducherryDistrictGuidePage() {
                 {/* ── Villianur ─────────────────────────────────────────── */}
                 <section id="villianur">
                   <h2>Villianur</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/puducherry/puducherry/villianur-temple-gopuram-tank.webp"
+                      alt="Villianur Temple's gopurams reflected in the temple tank"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     A short drive west of Puducherry town, <strong>
                       Villianur
@@ -796,8 +814,8 @@ export default function PuducherryDistrictGuidePage() {
                   <h2>Ariyankuppam</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/kerala/alleppey.jpg"
-                      alt="Boat on calm backwater, evoking the boat rides from Chunnambar in Ariyankuppam"
+                      src="/images/blogs/puducherry/puducherry/arikamedu-archaeological-site-ruins.webp"
+                      alt="Excavated brick ruins of the ancient Indo-Roman trading port at Arikamedu"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -848,6 +866,15 @@ export default function PuducherryDistrictGuidePage() {
                 {/* ── Bahour ────────────────────────────────────────────── */}
                 <section id="bahour">
                   <h2>Bahour</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/puducherry/puducherry/bahour-lake-irrigation-tank.webp"
+                      alt="Bahour Lake's still waters with a stone sluice structure and distant palm-lined shore"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     <strong>Bahour</strong> is the district's lake town,
                     centred on one of the region's largest irrigation tanks

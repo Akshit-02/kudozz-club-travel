@@ -692,6 +692,33 @@ export default function JammuKashmirGuidePage() {
                     a distinct character — most visitors cover all three across
                     separate days.
                   </p>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/jammu-and-kashmir/gulmarg/gulmarg-gondola-snow-covered-station.webp"
+                      alt="Gulmarg Gondola cable car tower rising above snow-covered huts near Apharwat Peak"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/jammu-and-kashmir/pahalgam/pahalgam-valley-lidder-river-forest.webp"
+                      alt="Green pine-forested valley with the Lidder River winding through Pahalgam"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/jammu-and-kashmir/sonamarg/thajiwas-glacier-valley-sonamarg.webp"
+                      alt="Thajiwas Glacier and snow-dusted peaks in the valley near Sonamarg"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <ul>
                     <li>
                       <strong>Gulmarg:</strong> Home to the{" "}
@@ -728,6 +755,15 @@ export default function JammuKashmirGuidePage() {
                 {/* ── Vaishno Devi ──────────────────────────────────────── */}
                 <section id="vaishno-devi">
                   <h2>Vaishno Devi (Jammu)</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/jammu-and-kashmir/katra/vaishno-devi-shrine-mountain-valley.webp"
+                      alt="Vaishno Devi shrine complex nestled in the Trikuta Mountains above Katra"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     One of India's most-visited pilgrimage sites,{" "}
                     <strong>Vaishno Devi</strong> sits in the Trikuta Mountains

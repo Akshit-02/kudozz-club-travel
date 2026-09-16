@@ -666,8 +666,17 @@ export default function LakshadweepGuidePage() {
                   <h2>Which Island to Choose</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/lakshadweep/hero.jpg"
-                      alt="Aerial view of a coral atoll and lagoon in Lakshadweep"
+                      src="/images/blogs/lakshadweep/agatti-island/agatti-island-lagoon-beach.webp"
+                      alt="Turquoise lagoon and palm-fringed white sand beach on Agatti Island"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/lakshadweep/kavaratti-island/kavaratti-lagoon-fishing-boats.webp"
+                      alt="Fishing boats anchored in Kavaratti's turquoise lagoon"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
