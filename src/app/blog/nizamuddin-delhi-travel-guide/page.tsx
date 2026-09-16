@@ -558,6 +558,15 @@ export default function NizamuddinGuidePage() {
                 {/* ── Dargah ────────────────────────────────────────────── */}
                 <section id="dargah">
                   <h2>Hazrat Nizamuddin Dargah</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/nizamuddin/nizamuddin-dargah-courtyard-shops-delhi.webp"
+                      alt="Flower and chadar shops lining the edge of the Nizamuddin Dargah courtyard in Delhi"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     <strong>Nizamuddin Auliya</strong> (1238–1325) was one of
                     the most important saints of the <strong>Chishti
@@ -633,8 +642,8 @@ export default function NizamuddinGuidePage() {
                   <h2>The Thursday Evening Qawwali</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/blogs/delhi/nizamuddin/nizamuddin-dargah-marble-dome-delhi.webp"
-                      alt="The white marble dome and red sandstone facade of Hazrat Nizamuddin Dargah, the Sufi shrine in Delhi"
+                      src="/images/blogs/delhi/nizamuddin/qawwali-performance-nizamuddin-dargah-delhi.webp"
+                      alt="Qawwals performing devotional qawwali music in the courtyard of Hazrat Nizamuddin Dargah, Delhi"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -729,6 +738,15 @@ export default function NizamuddinGuidePage() {
                 {/* ── Humayun's Tomb ────────────────────────────────────── */}
                 <section id="humayuns-tomb">
                   <h2>Humayun's Tomb</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/nizamuddin/humayuns-tomb-mughal-garden-delhi.webp"
+                      alt="Humayun's Tomb, the Mughal garden-tomb of red sandstone and white marble near Nizamuddin, Delhi"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     A short walk from the dargah, across Mathura Road, stands{" "}
                     <strong>Humayun's Tomb</strong> — the resting place of
@@ -778,6 +796,15 @@ export default function NizamuddinGuidePage() {
                 {/* ── Ghalib Tomb ───────────────────────────────────────── */}
                 <section id="ghalib-tomb">
                   <h2>Ghalib's Tomb & Other Basti Graves</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/nizamuddin/mirza-ghalib-tomb-complex-delhi.webp"
+                      alt="The marble-latticed tomb complex of the Urdu poet Mirza Ghalib in Nizamuddin Basti, Delhi"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Tucked within the lanes of Nizamuddin Basti, a short walk
                     from the dargah, is the tomb of{" "}
@@ -805,6 +832,15 @@ export default function NizamuddinGuidePage() {
                 {/* ── Sunder Nursery ────────────────────────────────────── */}
                 <section id="sunder-nursery">
                   <h2>Sunder Nursery</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/nizamuddin/sunder-nursery-heritage-park-delhi.webp"
+                      alt="Landscaped lawns and restored Mughal-era monuments within Sunder Nursery heritage park, Delhi"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Sitting almost exactly between the dargah and Humayun's
                     Tomb is <strong>Sunder Nursery</strong> — a roughly
@@ -838,6 +874,15 @@ export default function NizamuddinGuidePage() {
                 {/* ── Heritage Walk ─────────────────────────────────────── */}
                 <section id="heritage-walk">
                   <h2>The Nizamuddin Basti Heritage Walk</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/nizamuddin/nizamuddin-basti-lane-entrance-delhi.webp"
+                      alt="The narrow lane entrance leading into Nizamuddin Basti toward the dargah, Delhi"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Beyond the dargah itself, <strong>Nizamuddin
                     Basti</strong> is a genuinely fascinating place to walk

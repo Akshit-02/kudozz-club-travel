@@ -617,6 +617,16 @@ export default function ChandniChowkGuidePage() {
                     ))}
                   </div>
 
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/old-delhi/kinari-bazaar-lane-old-delhi.webp"
+                      alt="Narrow shop-lined lane of Kinari Bazaar in Chandni Chowk, hung with wedding trims and decorations"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
+
                   <p>
                     Beyond these four, smaller specialised pockets dot the
                     area too — a stretch given over to spectacles and
@@ -634,6 +644,15 @@ export default function ChandniChowkGuidePage() {
                     you arrive, make it one of the most memorable stretches
                     in all of Old Delhi.
                   </blockquote>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/chandni-chowk/khari-baoli-spice-market-stalls-old-delhi.webp"
+                      alt="Metal trays piled with spices, dried fruit, and nuts at a wholesale stall in Khari Baoli spice market"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                 </section>
 
                 {/* ── Food Walk ─────────────────────────────────────────── */}
@@ -648,6 +667,15 @@ export default function ChandniChowkGuidePage() {
                     families who started them.
                   </p>
 
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/chandni-chowk/paranthe-wali-gali-shopfront-chandni-chowk.webp"
+                      alt="Illuminated shopfront sign reading 'Welcome to Paratha' at a century-old paratha shop in Paranthe Wali Gali"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <ul>
                     <li>
                       <strong>Paranthe Wali Gali:</strong> A narrow lane
@@ -731,6 +759,17 @@ export default function ChandniChowkGuidePage() {
                       and stay for a meal at the community kitchen (langar)
                       if you have time; it's open to visitors of all faiths.
                     </li>
+                  </ul>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/old-delhi/gurudwara-sis-ganj-sahib-entrance-old-delhi.webp"
+                      alt="Golden-domed entrance of Gurudwara Sis Ganj Sahib on the main Chandni Chowk street"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
+                  <ul>
                     <li>
                       <strong>Fatehpuri Masjid:</strong> Standing at the
                       western end of Chandni Chowk, right by Khari Baoli,
@@ -741,6 +780,15 @@ export default function ChandniChowkGuidePage() {
                       street.
                     </li>
                   </ul>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/old-delhi/fatehpuri-masjid-facade-old-delhi.webp"
+                      alt="Red sandstone facade of Fatehpuri Masjid at the western end of Chandni Chowk"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Together, the two sites sit at nearly opposite ends of
                     Chandni Chowk's main stretch — Gurudwara Sis Ganj Sahib
@@ -753,6 +801,15 @@ export default function ChandniChowkGuidePage() {
                 {/* ── Rickshaw ──────────────────────────────────────────── */}
                 <section id="rickshaw">
                   <h2>Cycle-Rickshaw Rides Through the Lanes</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/chandni-chowk/cycle-rickshaw-chandni-chowk-road.webp"
+                      alt="A cycle-rickshaw carrying passengers along a busy road near Chandni Chowk, Old Delhi"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     A cycle-rickshaw ride through Chandni Chowk's interior
                     lanes is, for many first-time visitors, the single most

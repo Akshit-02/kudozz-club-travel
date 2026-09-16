@@ -565,6 +565,15 @@ export default function SouthDelhiGuidePage() {
                 {/* ── Hauz Khas ─────────────────────────────────────────── */}
                 <section id="hauz-khas">
                   <h2>Hauz Khas Village & Deer Park</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/hauz-khas/hauz-khas-fort-madrasa-ruins.webp"
+                      alt="Stone ruins of the Hauz Khas madrasa and fort overlooking the reservoir, South Delhi"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Built around a 13th-century reservoir and the ruins of a
                     madrasa founded by Sultan Firoz Shah Tughlaq, Hauz Khas is
@@ -597,6 +606,15 @@ export default function SouthDelhiGuidePage() {
                 {/* ── Greater Kailash ───────────────────────────────────── */}
                 <section id="greater-kailash">
                   <h2>Greater Kailash (GK-I & GK-II)</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/south-delhi/greater-kailash-1-main-road-south-delhi.webp"
+                      alt="Tree-lined main road through the residential colony of Greater Kailash-1, South Delhi"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Greater Kailash, usually split into <strong>GK-I</strong>{" "}
                     and <strong>GK-II</strong>, is one of South Delhi's most
@@ -621,6 +639,15 @@ export default function SouthDelhiGuidePage() {
                 {/* ── Saket ─────────────────────────────────────────────── */}
                 <section id="saket">
                   <h2>Saket</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/south-delhi/select-citywalk-mall-saket-south-delhi.webp"
+                      alt="The glass-domed exterior of Select Citywalk mall in Saket, South Delhi"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Saket is South Delhi's mall-and-multiplex hub, anchored by{" "}
                     <strong>Select Citywalk</strong> — one of Delhi's most
@@ -645,6 +672,15 @@ export default function SouthDelhiGuidePage() {
                 {/* ── Vasant Kunj ───────────────────────────────────────── */}
                 <section id="vasant-kunj">
                   <h2>Vasant Kunj</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/vasant-kunj/vasant-kunj-aerial-ongc-ambience-complex.webp"
+                      alt="Aerial view of the Vasant Kunj residential and mall complex, South Delhi"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Vasant Kunj sits toward South Delhi's southwestern edge,
                     closer to the airport, and combines a large residential
@@ -673,8 +709,8 @@ export default function SouthDelhiGuidePage() {
                   <h2>Mehrauli & Qutub Minar</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/blogs/delhi/south-delhi/lotus-temple-kalkaji-south-delhi.webp"
-                      alt="Visitors approaching the marble-clad petals of the Lotus Temple, South Delhi"
+                      src="/images/blogs/delhi/mehrauli/qutub-minar-tower-ruins-mehrauli.webp"
+                      alt="The fluted red sandstone tower of Qutub Minar rising above Mehrauli, South Delhi"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -712,6 +748,15 @@ export default function SouthDelhiGuidePage() {
                 {/* ── Lodhi Garden ──────────────────────────────────────── */}
                 <section id="lodhi-garden">
                   <h2>Lodhi Garden & Khan Market</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/lodhi-garden/lodhi-garden-tomb-of-sikandar-lodi.webp"
+                      alt="The domed 15th-century Tomb of Sikandar Lodi set among the lawns of Lodhi Garden, South Delhi"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     <strong>Lodhi Garden</strong> sits at South Delhi's
                     northern edge, a sprawling, immaculately maintained park
@@ -743,6 +788,15 @@ export default function SouthDelhiGuidePage() {
                 {/* ── Chhatarpur ────────────────────────────────────────── */}
                 <section id="chhatarpur">
                   <h2>Chhatarpur Temple</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/south-delhi/chhatarpur-temple-shikhara-south-delhi.webp"
+                      alt="The towering carved shikhara of the Chhatarpur Temple complex, South Delhi"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     The <strong>Chhatarpur Temple</strong> complex (formally
                     Sri Adya Katyayani Shakti Peeth) is one of India's largest

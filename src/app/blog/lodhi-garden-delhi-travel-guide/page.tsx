@@ -572,6 +572,15 @@ export default function LodhiGardenGuidePage() {
                   </div>
 
                   <h3>Mohammed Shah's Tomb</h3>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/lodhi-garden/mohammed-shah-tomb-lodhi-garden-delhi.webp"
+                      alt="The octagonal Tomb of Mohammed Shah, the earliest of Lodhi Garden's monuments, ringed by domed chhatris"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Built around 1444, this is the <strong>earliest</strong>{" "}
                     of the garden's tombs — raised for Mohammed Shah, the
@@ -583,6 +592,15 @@ export default function LodhiGardenGuidePage() {
                   </p>
 
                   <h3>Bara Gumbad</h3>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/lodhi-garden/bara-gumbad-lodhi-garden-delhi.webp"
+                      alt="The large square domed structure of Bara Gumbad with its attached mosque in Lodhi Garden, Delhi"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     "Bara Gumbad" translates to "Big Dome" — a large,
                     square domed structure built in 1494, standing alongside
@@ -594,6 +612,15 @@ export default function LodhiGardenGuidePage() {
                   </p>
 
                   <h3>Sheesh Gumbad</h3>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/lodhi-garden/sheesh-gumbad-lodhi-garden-delhi.webp"
+                      alt="Sheesh Gumbad's domed facade in Lodhi Garden, still showing traces of its original blue and turquoise glazed tilework"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     "Sheesh Gumbad" means "Glass Dome," named for the
                     glazed blue and turquoise tilework that once covered
@@ -647,6 +674,15 @@ export default function LodhiGardenGuidePage() {
                 {/* ── Athpula ────────────────────────────────────────────── */}
                 <section id="athpula">
                   <h2>The Athpula Bridge</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/lodhi-garden/athpula-bridge-lodhi-garden-delhi.webp"
+                      alt="The stone-arched Athpula bridge spanning the dry streambed in Lodhi Garden's northern end"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Near Sikandar Lodi's Tomb, spanning a stream that once
                     fed the garden, stands the <strong>Athpula</strong>{" "}

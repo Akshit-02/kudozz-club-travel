@@ -536,6 +536,17 @@ export default function PaharganjGuidePage() {
                       an Airport Express stop) is a short walk from the
                       station-side entrance.
                     </li>
+                  </ul>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/paharganj/new-delhi-railway-station-ajmeri-gate-paharganj.webp"
+                      alt="The Ajmeri Gate entrance of New Delhi Railway Station, the exit closest to Paharganj's Main Bazaar"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
+                  <ul>
                     <li>
                       <strong>From the Airport:</strong> The Airport Express
                       Metro Line runs from IGI Airport to New Delhi Railway
@@ -605,6 +616,17 @@ export default function PaharganjGuidePage() {
                       fraction of retail price elsewhere — handy if your bag
                       gave out mid-trip.
                     </li>
+                  </ul>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/paharganj/paharganj-main-bazaar-luggage-shop.webp"
+                      alt="A bags and luggage shop stall on Paharganj's Main Bazaar, stacked with backpacks and duffel bags"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
+                  <ul>
                     <li>
                       <strong>Spices, incense & Ayurvedic goods:</strong>{" "}
                       Small shops selling loose spices, incense sticks, and
@@ -623,6 +645,15 @@ export default function PaharganjGuidePage() {
                 {/* ── Where to Stay ─────────────────────────────────────── */}
                 <section id="where-to-stay">
                   <h2>The Accommodation Scene</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/paharganj/paharganj-guesthouse-lane-old-buildings.webp"
+                      alt="A narrow Paharganj lane lined with old multi-storey buildings housing budget guesthouses and shops"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Paharganj has one of the highest densities of budget
                     accommodation anywhere in India — hundreds of

@@ -573,8 +573,8 @@ export default function AkshardhamGuidePage() {
                   <h2>The Mandir Architecture</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/blogs/delhi/akshardham/akshardham-temple-domes-delhi.webp"
-                      alt="The carved sandstone and marble domes and shikharas of Akshardham Temple, Delhi"
+                      src="/images/blogs/delhi/akshardham/akshardham-complex-dusk-view-delhi.webp"
+                      alt="Wide dusk view of the Akshardham Temple complex in Delhi, showing the full mandir and its grounds"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -621,6 +621,15 @@ export default function AkshardhamGuidePage() {
                   </p>
 
                   <h3>Sahaj Anand Water Show</h3>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/akshardham/akshardham-sahaj-anand-musical-fountain-water-show.webp"
+                      alt="The musical fountain of the Sahaj Anand Water Show at Akshardham, Delhi"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     The evening <strong>musical fountain and light show</strong>{" "}
                     is staged at the Yagnapurush Kund after dark, combining
@@ -662,6 +671,15 @@ export default function AkshardhamGuidePage() {
                     indoor, seated, and a good option for resting mid-visit
                     while still taking something in.
                   </p>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/akshardham/akshardham-bharat-upvan-gardens-delhi.webp"
+                      alt="Landscaped lawns and pathways of the Bharat Upvan gardens at Akshardham, Delhi"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Around all of this sit the <strong>Bharat Upvan gardens</strong>{" "}
                     — landscaped lawns with bronze sculptures of children,

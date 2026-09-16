@@ -599,6 +599,15 @@ export default function TughlaqabadGuidePage() {
                 {/* ── The Curse ─────────────────────────────────────────── */}
                 <section id="the-curse">
                   <h2>The Legend of the Curse</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/tughlaqabad/tughlaqabad-fort-gate-entrance.webp"
+                      alt="One of Tughlaqabad Fort's surviving stone gates, framing a view through to the ruins beyond"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     No account of Tughlaqabad is complete without its most
                     famous story — a piece of local folklore that's been
@@ -650,6 +659,15 @@ export default function TughlaqabadGuidePage() {
                 {/* ── Tomb ──────────────────────────────────────────────── */}
                 <section id="tomb">
                   <h2>Ghiyasuddin Tughlaq's Tomb</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/tughlaqabad/ghiyasuddin-tughlaq-tomb-tughlaqabad.webp"
+                      alt="The sand-coloured fortified mausoleum of Ghiyasuddin Tughlaq with its sloping walls, across the road from Tughlaqabad Fort"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Directly across the road from the main fort complex
                     stands the <strong>fortified mausoleum of Ghiyasuddin
@@ -682,6 +700,15 @@ export default function TughlaqabadGuidePage() {
                 {/* ── What's Inside ─────────────────────────────────────── */}
                 <section id="whats-inside">
                   <h2>What's Inside the Ruins Today</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/tughlaqabad/tughlaqabad-fort-citadel-ruins.webp"
+                      alt="Ruined citadel walls and collapsed stone structures inside Tughlaqabad Fort's inner complex"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Beyond the outer ramparts and gates, the interior of
                     Tughlaqabad is a genuine maze of ruined structures worth

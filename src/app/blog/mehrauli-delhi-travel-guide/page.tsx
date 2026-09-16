@@ -661,6 +661,15 @@ export default function MehrauliGuidePage() {
                 {/* ── Archaeological Park ───────────────────────────────── */}
                 <section id="archaeological-park">
                   <h2>Mehrauli Archaeological Park</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/mehrauli/jamali-kamali-mosque-tomb-mehrauli-archaeological-park.webp"
+                      alt="Red sandstone and marble facade of the 16th-century Jamali Kamali Mosque and Tomb inside Mehrauli Archaeological Park"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Directly adjacent to the Qutub Minar complex — and free
                     to enter, unlike it — is <strong>Mehrauli Archaeological
@@ -689,6 +698,17 @@ export default function MehrauliGuidePage() {
                       water — among the best-preserved baolis in Delhi and a
                       genuinely striking piece of functional architecture.
                     </li>
+                  </ul>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/mehrauli/rajon-ki-baoli-stepwell-mehrauli.webp"
+                      alt="Stone steps descending into the four-storey Rajon ki Baoli stepwell in Mehrauli Archaeological Park"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
+                  <ul>
                     <li>
                       <strong>Balban's Tomb:</strong> The burial place of
                       Ghiyasuddin Balban, a powerful 13th-century Delhi
@@ -745,6 +765,15 @@ export default function MehrauliGuidePage() {
                 {/* ── Village & Dargah ──────────────────────────────────── */}
                 <section id="village-dargah">
                   <h2>Mehrauli Village & Dargah Qutub Sahib</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/mehrauli/dargah-qutub-sahib-mehrauli-village.webp"
+                      alt="The white marble domed shrine of Dargah Qutub Sahib with devotees gathered inside, Mehrauli village"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Step outside the monument complex and Mehrauli is also,
                     simply, an ordinary Delhi urban village — narrow lanes,

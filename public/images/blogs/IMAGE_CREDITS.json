@@ -1159,7 +1159,8 @@
     {
       "path": "blogs/delhi/hauz-khas/hauz-khas-fort-madrasa-ruins.webp",
       "usedIn": [
-        "hauz-khas-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"
+        "hauz-khas-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)",
+        "south-delhi-travel-guide"
       ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Hauz_Khas_Fort_1.jpg",
@@ -1291,7 +1292,8 @@
     {
       "path": "blogs/delhi/mehrauli/qutub-minar-tower-ruins-mehrauli.webp",
       "usedIn": [
-        "mehrauli-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"
+        "mehrauli-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)",
+        "south-delhi-travel-guide"
       ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Qutub_Minar,_Delhi_04.jpg",
@@ -1375,7 +1377,8 @@
     {
       "path": "blogs/delhi/lodhi-garden/lodhi-garden-tomb-of-sikandar-lodi.webp",
       "usedIn": [
-        "lodhi-garden-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"
+        "lodhi-garden-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)",
+        "south-delhi-travel-guide"
       ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Tomb_of_Sikandar_Lodhi,_Lodhi_Gardens_Delhi_3.jpg",
@@ -1387,7 +1390,8 @@
     {
       "path": "blogs/delhi/vasant-kunj/vasant-kunj-aerial-ongc-ambience-complex.webp",
       "usedIn": [
-        "vasant-kunj-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"
+        "vasant-kunj-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)",
+        "south-delhi-travel-guide"
       ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:ONGC_Rajiv_Gandhi_Urja_Bhavan_and_other_Commercial_Buildings_-_Aerial_View_-_Vasant_Kunj_-_New_Delhi_2016-08-04_5810.JPG",
@@ -2542,7 +2546,8 @@
     {
       "path": "blogs/uttar-pradesh/sarnath/dhamek-stupa-sarnath.webp",
       "usedIn": [
-        "sarnath-travel-guide (hero + inline — replaces a Spiti Valley photo used in error)"
+        "sarnath-travel-guide (hero + inline — replaces a Spiti Valley photo used in error)",
+        "varanasi-travel-guide"
       ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:14._Dhamek_Stupa,_Sarnath.jpg",
@@ -5242,7 +5247,8 @@
     {
       "path": "/images/blogs/delhi/old-delhi/fatehpuri-masjid-facade-old-delhi.webp",
       "usedIn": [
-        "old-delhi-travel-guide"
+        "old-delhi-travel-guide",
+        "chandni-chowk-delhi-travel-guide"
       ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Fatehpuri_Masjid_in_Delhi_19.jpg",
@@ -5254,7 +5260,8 @@
     {
       "path": "/images/blogs/delhi/old-delhi/gurudwara-sis-ganj-sahib-entrance-old-delhi.webp",
       "usedIn": [
-        "old-delhi-travel-guide"
+        "old-delhi-travel-guide",
+        "chandni-chowk-delhi-travel-guide"
       ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:SisGanj_Sahib_Gurudwara,_Delhi.jpg",
@@ -5278,7 +5285,8 @@
     {
       "path": "/images/blogs/delhi/old-delhi/kinari-bazaar-lane-old-delhi.webp",
       "usedIn": [
-        "old-delhi-travel-guide"
+        "old-delhi-travel-guide",
+        "chandni-chowk-delhi-travel-guide"
       ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Old_Delhi-Kinari_Bazar-1-20131006.jpg",
@@ -5346,6 +5354,426 @@
       "license": "CC BY-SA 3.0",
       "author": "Miya.m",
       "attribution": "Miya.m, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/uttar-pradesh/varanasi/dashashwamedh-ghat-daytime-crowd-varanasi.webp",
+      "usedIn": [
+        "varanasi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:DASHASHWAMEDH_GHAT,_VARANASI.jpg",
+      "originalFile": "DASHASHWAMEDH_GHAT,_VARANASI.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Suzerainty13",
+      "attribution": "Photo by Suzerainty13, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/uttar-pradesh/varanasi/assi-ghat-varanasi-steps-river.webp",
+      "usedIn": [
+        "varanasi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Assi_Ghat_Varanasi_(2).jpg",
+      "originalFile": "Assi_Ghat_Varanasi_(2).jpg",
+      "license": "CC BY 3.0 PL",
+      "author": "Radosław Botev",
+      "attribution": "Photo by Radosław Botev, CC BY 3.0 PL, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/uttar-pradesh/varanasi/sunrise-boat-ride-ganga-varanasi-ghats.webp",
+      "usedIn": [
+        "varanasi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:India_-_Varanasi_-_005_-_sunset_rowboat_tour_(2146259565).jpg",
+      "originalFile": "India_-_Varanasi_-_005_-_sunset_rowboat_tour_(2146259565).jpg",
+      "license": "CC BY 2.0",
+      "author": "McKay Savage",
+      "attribution": "Photo by McKay Savage, CC BY 2.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/uttar-pradesh/varanasi/kashi-vishwanath-corridor-gateway-varanasi.webp",
+      "usedIn": [
+        "varanasi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Ganga_Dwar,_Gateway_of_Corridor_of_Kashi_Vishwanath_Temple,_Varanasi.webp",
+      "originalFile": "Ganga_Dwar,_Gateway_of_Corridor_of_Kashi_Vishwanath_Temple,_Varanasi.webp",
+      "license": "CC BY-SA 4.0",
+      "author": "Ashvin Kaitabhya",
+      "attribution": "Photo by Ashvin Kaitabhya, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/uttar-pradesh/varanasi/manikarnika-ghat-view-from-boat-varanasi.webp",
+      "usedIn": [
+        "varanasi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Manikarnika_Cremation_Ghat,_Varanasi_from_boat.jpg",
+      "originalFile": "Manikarnika_Cremation_Ghat,_Varanasi_from_boat.jpg",
+      "license": "CC0",
+      "author": "Dudva",
+      "attribution": "Photo by Dudva, CC0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/uttar-pradesh/varanasi/narrow-lane-gali-old-city-varanasi.webp",
+      "usedIn": [
+        "varanasi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Old_City_Street_Scene_-_Varanasi_-_Uttar_Pradesh_-_India_(12480589254).jpg",
+      "originalFile": "Old_City_Street_Scene_-_Varanasi_-_Uttar_Pradesh_-_India_(12480589254).jpg",
+      "license": "CC BY-SA 2.0",
+      "author": "Adam Jones",
+      "attribution": "Photo by Adam Jones, CC BY-SA 2.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/uttar-pradesh/varanasi/banarasi-silk-saree-handloom-weaving-varanasi.webp",
+      "usedIn": [
+        "varanasi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Silk_Looms,_Varanasi.jpg",
+      "originalFile": "Silk_Looms,_Varanasi.jpg",
+      "license": "CC BY 2.0",
+      "author": "Dan Ruth",
+      "attribution": "Photo by Dan Ruth, CC BY 2.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/akshardham/akshardham-complex-dusk-view-delhi.webp",
+      "usedIn": [
+        "akshardham-delhi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:DUSK_AKSHARDHAM_DELHI_-_panoramio.jpg",
+      "originalFile": "DUSK_AKSHARDHAM_DELHI_-_panoramio.jpg",
+      "license": "CC BY 3.0",
+      "author": "Unknown (panoramio import)",
+      "attribution": "CC BY 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/akshardham/akshardham-sahaj-anand-musical-fountain-water-show.webp",
+      "usedIn": [
+        "akshardham-delhi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Akshardham_fountain.jpg",
+      "originalFile": "Akshardham_fountain.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Juthani1",
+      "attribution": "Photo by Juthani1, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/akshardham/akshardham-bharat-upvan-gardens-delhi.webp",
+      "usedIn": [
+        "akshardham-delhi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Akshardham_temple_gardens,delhi_-_panoramio.jpg",
+      "originalFile": "Akshardham_temple_gardens,delhi_-_panoramio.jpg",
+      "license": "CC BY 3.0",
+      "author": "Unknown (panoramio import)",
+      "attribution": "CC BY 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/nizamuddin/nizamuddin-dargah-courtyard-shops-delhi.webp",
+      "usedIn": [
+        "nizamuddin-delhi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Shops_on_edge_of_Nizamuddin_dargah_courtyard_(3545020991).jpg",
+      "originalFile": "Shops_on_edge_of_Nizamuddin_dargah_courtyard_(3545020991).jpg",
+      "license": "CC BY 2.0",
+      "author": "Varun Shiv Kapur",
+      "attribution": "Photo by Varun Shiv Kapur, CC BY 2.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/nizamuddin/qawwali-performance-nizamuddin-dargah-delhi.webp",
+      "usedIn": [
+        "nizamuddin-delhi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Qawwali_hazrat_nizamuddin_delhi.jpg",
+      "originalFile": "Qawwali_hazrat_nizamuddin_delhi.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Kumarvimal",
+      "attribution": "Photo by Kumarvimal, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/nizamuddin/humayuns-tomb-mughal-garden-delhi.webp",
+      "usedIn": [
+        "nizamuddin-delhi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Humayun%27s_Tomb,_Delhi_1.jpg",
+      "originalFile": "Humayun's_Tomb,_Delhi_1.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Naveen R Gowda",
+      "attribution": "Photo by Naveen R Gowda, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/nizamuddin/mirza-ghalib-tomb-complex-delhi.webp",
+      "usedIn": [
+        "nizamuddin-delhi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Mirza_Ghalib%27s_tomb_complex_in_Delhi_04.jpg",
+      "originalFile": "Mirza_Ghalib's_tomb_complex_in_Delhi_04.jpg",
+      "license": "CC BY 4.0",
+      "author": "Pinakpani",
+      "attribution": "Photo by Pinakpani, CC BY 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/nizamuddin/sunder-nursery-heritage-park-delhi.webp",
+      "usedIn": [
+        "nizamuddin-delhi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Sunder_Nursery_(Garden).jpg",
+      "originalFile": "Sunder_Nursery_(Garden).jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Danish971",
+      "attribution": "Photo by Danish971, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/nizamuddin/nizamuddin-basti-lane-entrance-delhi.webp",
+      "usedIn": [
+        "nizamuddin-delhi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Nizamuddin_Dagarh_1_(43190288525).jpg",
+      "originalFile": "Nizamuddin_Dagarh_1_(43190288525).jpg",
+      "license": "CC BY-SA 2.0",
+      "author": "juggadery",
+      "attribution": "Photo by juggadery, CC BY-SA 2.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/mehrauli/jamali-kamali-mosque-tomb-mehrauli-archaeological-park.webp",
+      "usedIn": [
+        "mehrauli-delhi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Jamali-Kamali_Mosque,_Mehrauli,_Delhi.jpg",
+      "originalFile": "Jamali-Kamali_Mosque,_Mehrauli,_Delhi.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Hitesh.Tiwari5",
+      "attribution": "Photo by Hitesh.Tiwari5, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/mehrauli/rajon-ki-baoli-stepwell-mehrauli.webp",
+      "usedIn": [
+        "mehrauli-delhi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Rajon_ki_Baoli,_Mehrauli_Archaeological_Park,_Delhi.jpg",
+      "originalFile": "Rajon_ki_Baoli,_Mehrauli_Archaeological_Park,_Delhi.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Slyronit",
+      "attribution": "Photo by Slyronit, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/mehrauli/dargah-qutub-sahib-mehrauli-village.webp",
+      "usedIn": [
+        "mehrauli-delhi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Tomb_of_Sufi_saint,_Qutbuddin_Bakhtiyar_Kaki_in_Mehrauli,_Delhi.jpg",
+      "originalFile": "Tomb_of_Sufi_saint,_Qutbuddin_Bakhtiyar_Kaki_in_Mehrauli,_Delhi.jpg",
+      "license": "CC BY 2.0",
+      "author": "Varun Shiv Kapur",
+      "attribution": "Photo by Varun Shiv Kapur, CC BY 2.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/chandni-chowk/paranthe-wali-gali-shopfront-chandni-chowk.webp",
+      "usedIn": [
+        "chandni-chowk-delhi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:A_shop_at_Paranthe_Wali_Gali,_Delhi,_India.jpg",
+      "originalFile": "A_shop_at_Paranthe_Wali_Gali,_Delhi,_India.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Ravi Dwivedi",
+      "attribution": "Photo by Ravi Dwivedi, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/chandni-chowk/khari-baoli-spice-market-stalls-old-delhi.webp",
+      "usedIn": [
+        "chandni-chowk-delhi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Shop_selling_spices,_at_Khari_Baoli,_Old_Delhi.jpg",
+      "originalFile": "Shop_selling_spices,_at_Khari_Baoli,_Old_Delhi.jpg",
+      "license": "CC BY-SA 2.0",
+      "author": "Michael Vito",
+      "attribution": "Photo by Michael Vito, CC BY-SA 2.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/chandni-chowk/cycle-rickshaw-chandni-chowk-road.webp",
+      "usedIn": [
+        "chandni-chowk-delhi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Cycle_Rickshaw_-_Chandni_Chowk_Road_-_Delhi_2014-05-13_3517.JPG",
+      "originalFile": "Cycle_Rickshaw_-_Chandni_Chowk_Road_-_Delhi_2014-05-13_3517.JPG",
+      "license": "CC BY 3.0",
+      "author": "Biswarup Ganguly",
+      "attribution": "Photo by Biswarup Ganguly, CC BY 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/south-delhi/greater-kailash-1-main-road-south-delhi.webp",
+      "usedIn": [
+        "south-delhi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:GK-1,_New_Delhi.jpg",
+      "originalFile": "GK-1,_New_Delhi.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Nikhilb239",
+      "attribution": "Photo by Nikhilb239, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/south-delhi/select-citywalk-mall-saket-south-delhi.webp",
+      "usedIn": [
+        "south-delhi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Select_Citywalk,_Saket,_New_Delhi..jpg",
+      "originalFile": "Select_Citywalk,_Saket,_New_Delhi..jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "KuwarOnline",
+      "attribution": "Photo by KuwarOnline, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/south-delhi/chhatarpur-temple-shikhara-south-delhi.webp",
+      "usedIn": [
+        "south-delhi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Chhatarpur_Temple,_Delhi,_India.jpg",
+      "originalFile": "Chhatarpur_Temple,_Delhi,_India.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "ShadesofIndia",
+      "attribution": "Photo by ShadesofIndia, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/tughlaqabad/ghiyasuddin-tughlaq-tomb-tughlaqabad.webp",
+      "usedIn": [
+        "tughlaqabad-delhi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Tomb_of_Ghiyasuddin_Tughlaq,_the_founder_of_Tughluq_dynasty_07.jpg",
+      "originalFile": "Tomb_of_Ghiyasuddin_Tughlaq,_the_founder_of_Tughluq_dynasty_07.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Pinakpani",
+      "attribution": "Photo by Pinakpani, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/tughlaqabad/tughlaqabad-fort-citadel-ruins.webp",
+      "usedIn": [
+        "tughlaqabad-delhi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Citadels_of_Tughlaqabad_fort_268.jpg",
+      "originalFile": "Citadels_of_Tughlaqabad_fort_268.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Anupamg",
+      "attribution": "Photo by Anupamg, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/tughlaqabad/tughlaqabad-fort-gate-entrance.webp",
+      "usedIn": [
+        "tughlaqabad-delhi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Tughlaqabad_Fort_entrance.JPG",
+      "originalFile": "Tughlaqabad_Fort_entrance.JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "Shivamshivamshivam",
+      "attribution": "Photo by Shivamshivamshivam, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/lodhi-garden/mohammed-shah-tomb-lodhi-garden-delhi.webp",
+      "usedIn": [
+        "lodhi-garden-delhi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Mohammed_Shah%27s_Tomb,_Lodi_Garden,_Delhi.jpg",
+      "originalFile": "Mohammed_Shah's_Tomb,_Lodi_Garden,_Delhi.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Kguharaja",
+      "attribution": "Photo by Kguharaja, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/lodhi-garden/bara-gumbad-lodhi-garden-delhi.webp",
+      "usedIn": [
+        "lodhi-garden-delhi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Bara_Gumbad_mosque_in_Lodi_garden_02.jpg",
+      "originalFile": "Bara_Gumbad_mosque_in_Lodi_garden_02.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Unknown (Commons contributor)",
+      "attribution": "CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/lodhi-garden/sheesh-gumbad-lodhi-garden-delhi.webp",
+      "usedIn": [
+        "lodhi-garden-delhi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Sheesh_Gumbad_at_Lodhi_Gardens.jpg",
+      "originalFile": "Sheesh_Gumbad_at_Lodhi_Gardens.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Sachi.caesar",
+      "attribution": "Photo by Sachi.caesar, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/lodhi-garden/athpula-bridge-lodhi-garden-delhi.webp",
+      "usedIn": [
+        "lodhi-garden-delhi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Athpula_(eight_piered)_Bridge_in_Lodi_gardens.JPG",
+      "originalFile": "Athpula_(eight_piered)_Bridge_in_Lodi_gardens.JPG",
+      "license": "CC BY-SA 4.0",
+      "author": "AKS.9955",
+      "attribution": "Photo by AKS.9955, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/paharganj/new-delhi-railway-station-ajmeri-gate-paharganj.webp",
+      "usedIn": [
+        "paharganj-delhi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:New_Delhi_railway_station_ajmeri_gate_entrance.jpg",
+      "originalFile": "New_Delhi_railway_station_ajmeri_gate_entrance.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "KhubsuratInsaan",
+      "attribution": "Photo by KhubsuratInsaan, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/paharganj/paharganj-main-bazaar-luggage-shop.webp",
+      "usedIn": [
+        "paharganj-delhi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Paharganj_Market_Bags_Shop.jpg",
+      "originalFile": "Paharganj_Market_Bags_Shop.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Pallav.journo",
+      "attribution": "Photo by Pallav.journo, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/paharganj/paharganj-guesthouse-lane-old-buildings.webp",
+      "usedIn": [
+        "paharganj-delhi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Paharganj_Market_Old_House.jpg",
+      "originalFile": "Paharganj_Market_Old_House.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Pallav.journo",
+      "attribution": "Photo by Pallav.journo, CC BY-SA 4.0, via Wikimedia Commons"
     }
   ]
 }

@@ -557,8 +557,8 @@ export default function VaranasiGuidePage() {
                   <h2>The Ghats & Ganga Aarti</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/blogs/uttar-pradesh/varanasi/ganga-aarti-fire-ritual-varanasi-ghat.webp"
-                      alt="Pilgrims and boats along the Ganga ghats in Varanasi at dusk"
+                      src="/images/blogs/uttar-pradesh/varanasi/dashashwamedh-ghat-daytime-crowd-varanasi.webp"
+                      alt="Pilgrims and boats crowding the stone steps of Dashashwamedh Ghat in Varanasi by day"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -589,6 +589,15 @@ export default function VaranasiGuidePage() {
                     together, without the crowd crush.
                   </p>
                   <h3>Assi Ghat</h3>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/uttar-pradesh/varanasi/assi-ghat-varanasi-steps-river.webp"
+                      alt="Stone steps of Assi Ghat leading down to the Ganga at the southern end of Varanasi's ghats"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     At the southern end of the ghat stretch, Assi Ghat has a
                     younger, more relaxed energy — it's popular at sunrise
@@ -598,6 +607,15 @@ export default function VaranasiGuidePage() {
                     cluster, making it a common base for longer stays.
                   </p>
                   <h3>Sunrise Boat Ride</h3>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/uttar-pradesh/varanasi/sunrise-boat-ride-ganga-varanasi-ghats.webp"
+                      alt="A boatman rowing a wooden rowboat past the ghats on the Ganga in Varanasi"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     A rowboat ride along the ghats at first light, roughly
                     5:30-6:30 AM depending on the season, is arguably the
@@ -615,6 +633,15 @@ export default function VaranasiGuidePage() {
                 {/* ── Kashi Vishwanath ────────────────────────────────────── */}
                 <section id="kashi-vishwanath">
                   <h2>Kashi Vishwanath Temple</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/uttar-pradesh/varanasi/kashi-vishwanath-corridor-gateway-varanasi.webp"
+                      alt="Ganga Dwar, the ceremonial gateway of the Kashi Vishwanath Corridor connecting the temple to the Ganga in Varanasi"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     <strong>Kashi Vishwanath Temple</strong>, dedicated to
                     Shiva in his form as Vishwanath ("Lord of the
@@ -652,6 +679,15 @@ export default function VaranasiGuidePage() {
                 {/* ── Manikarnika ─────────────────────────────────────────── */}
                 <section id="manikarnika">
                   <h2>Manikarnika Ghat</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/uttar-pradesh/varanasi/manikarnika-ghat-view-from-boat-varanasi.webp"
+                      alt="Manikarnika Ghat's riverfront buildings and cremation platforms seen at a respectful distance from a boat on the Ganga"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     <strong>Manikarnika Ghat</strong> is one of Varanasi's
                     two primary cremation ghats (the other being Harishchandra
@@ -696,6 +732,15 @@ export default function VaranasiGuidePage() {
                 <section id="old-city">
                   <h2>The Old City & Its Crafts</h2>
                   <h3>The Galis (Lanes) of Varanasi</h3>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/uttar-pradesh/varanasi/narrow-lane-gali-old-city-varanasi.webp"
+                      alt="A narrow, centuries-old gali lane in Varanasi's old city lined with shopfronts"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Behind the ghats lies a dense web of narrow lanes —
                     locally called <em>galis</em> — barely wide enough for
@@ -707,6 +752,15 @@ export default function VaranasiGuidePage() {
                     somewhere along the river.
                   </p>
                   <h3>Banarasi Silk</h3>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/uttar-pradesh/varanasi/banarasi-silk-saree-handloom-weaving-varanasi.webp"
+                      alt="A weaver working a traditional handloom to produce a Banarasi silk saree in Varanasi"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Varanasi has been synonymous with fine silk weaving for
                     centuries. <strong>Banarasi sarees</strong> — known for
@@ -744,6 +798,15 @@ export default function VaranasiGuidePage() {
                 {/* ── Sarnath Day Trip ─────────────────────────────────────── */}
                 <section id="sarnath-day-trip">
                   <h2>Day Trip to Sarnath</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/uttar-pradesh/sarnath/dhamek-stupa-sarnath.webp"
+                      alt="The Dhamek Stupa at Sarnath, marking where the Buddha delivered his first sermon, near Varanasi"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     About 10 km from central Varanasi sits{" "}
                     <Link href="/blog/sarnath-travel-guide">Sarnath</Link>,
