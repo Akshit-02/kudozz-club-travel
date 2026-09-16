@@ -352,6 +352,15 @@ export default function KatraGuidePage() {
                 {/* ── Introduction ──────────────────────────────────────── */}
                 <section id="introduction">
                   <h2>Katra: Gateway to the Vaishno Devi Yatra</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/jammu-and-kashmir/katra/katra-town-aerial-view-jammu-kashmir.webp"
+                      alt="Aerial view of Katra town spread across the valley floor beneath the forested Trikuta Hills"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     <strong>Katra</strong> is a small town in the Reasi
                     district of{" "}
@@ -610,6 +619,15 @@ export default function KatraGuidePage() {
                   </p>
 
                   <h3>The Route: Banganga to Bhawan</h3>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/jammu-and-kashmir/katra/banganga-checkpoint-holy-stream-katra.webp"
+                      alt="The Banganga checkpoint gate at the start of the Vaishno Devi trek, where yatris' registration slips are scanned"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     The trek begins at <strong>Banganga</strong>, a holy
                     stream about a kilometre from central Katra, where the
@@ -634,6 +652,16 @@ export default function KatraGuidePage() {
                       services become especially useful.
                     </li>
                   </ul>
+
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/jammu-and-kashmir/katra/ardhkuwari-cave-shrine-vaishno-devi-trek.webp"
+                      alt="The Ardhkuwari cave shrine complex, the halfway rest stop on the Vaishno Devi trek route"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
 
                   <h3>Trek Options: Walk, Pony, Palki, or Battery Car</h3>
                   <ul>
@@ -723,6 +751,15 @@ export default function KatraGuidePage() {
                 {/* ── Bhairon Temple ────────────────────────────────────── */}
                 <section id="bhairon-temple">
                   <h2>Bhairon Temple</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/jammu-and-kashmir/katra/bhairon-temple-katra-vaishno-devi.webp"
+                      alt="Bhairon Temple, the shrine traditionally visited to complete the Vaishno Devi darshan, about 2.5 km beyond Bhawan"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Traditionally, a visit to <strong>Bhairon Temple</strong>{" "}
                     is considered to complete the Vaishno Devi darshan — many

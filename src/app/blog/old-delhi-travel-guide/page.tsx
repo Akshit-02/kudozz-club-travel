@@ -664,8 +664,8 @@ export default function OldDelhiGuidePage() {
                   <h2>Red Fort (Lal Qila)</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/blogs/delhi/old-delhi/jama-masjid-courtyard-old-delhi.webp"
-                      alt="Worshippers and visitors crossing the sandstone courtyard of Jama Masjid, Old Delhi"
+                      src="/images/blogs/delhi/delhi/red-fort-lahori-gate-delhi.webp"
+                      alt="Red Fort's massive red sandstone Lahori Gate and ramparts in Old Delhi"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -742,6 +742,15 @@ export default function OldDelhiGuidePage() {
                   </p>
 
                   <h3>Climbing the Minaret</h3>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/old-delhi/jama-masjid-minaret-view-rooftops-old-delhi.webp"
+                      alt="View from Jama Masjid's minaret over the marble domes and the dense rooftops of Old Delhi"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     For a small extra fee, you can climb the narrow spiral
                     staircase of the mosque's southern minaret for a
@@ -774,6 +783,15 @@ export default function OldDelhiGuidePage() {
                 {/* ── Chandni Chowk ─────────────────────────────────────── */}
                 <section id="chandni-chowk">
                   <h2>Chandni Chowk Food Walk</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/chandni-chowk/chandni-chowk-bazaar-street-scene.webp"
+                      alt="Crowded street stalls and shopfronts along Chandni Chowk in Old Delhi"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     No visit to Old Delhi is complete without at least a
                     taste of the <strong>Chandni Chowk food walk</strong> —
@@ -815,6 +833,15 @@ export default function OldDelhiGuidePage() {
                 {/* ── Bazaars ───────────────────────────────────────────── */}
                 <section id="bazaars">
                   <h2>Haveli Lanes & Bazaars</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/old-delhi/kinari-bazaar-lane-old-delhi.webp"
+                      alt="Narrow shopfront-lined lane of Kinari Bazaar in Old Delhi"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Step off Chandni Chowk's main road and Old Delhi shifts
                     completely — narrower, quieter in traffic if not in
@@ -848,6 +875,15 @@ export default function OldDelhiGuidePage() {
                 {/* ── Fatehpuri Masjid ──────────────────────────────────── */}
                 <section id="fatehpuri-masjid">
                   <h2>Fatehpuri Masjid</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/old-delhi/fatehpuri-masjid-facade-old-delhi.webp"
+                      alt="The red sandstone prayer hall facade of Fatehpuri Masjid at the western end of Chandni Chowk"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Marking the western end of Chandni Chowk,{" "}
                     <strong>Fatehpuri Masjid</strong> was built in 1650 by
@@ -863,6 +899,15 @@ export default function OldDelhiGuidePage() {
                 {/* ── Gurudwara ─────────────────────────────────────────── */}
                 <section id="gurudwara">
                   <h2>Gurudwara Sis Ganj Sahib</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/old-delhi/gurudwara-sis-ganj-sahib-entrance-old-delhi.webp"
+                      alt="The golden-domed entrance gate of Gurudwara Sis Ganj Sahib on the Chandni Chowk road"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Right on the main Chandni Chowk road stands{" "}
                     <strong>Gurudwara Sis Ganj Sahib</strong>, one of Sikhism's

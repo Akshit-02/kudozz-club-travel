@@ -592,8 +592,8 @@ export default function GulmargGuidePage() {
                   <h2>The Gulmarg Gondola</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/jammu-kashmir/hero.jpg"
-                      alt="Gulmarg cable car towers rising through snow-covered pine forest toward Kongdoori"
+                      src="/images/blogs/jammu-and-kashmir/gulmarg/gulmarg-gondola-snow-covered-station.webp"
+                      alt="Gulmarg Gondola cable towers rising above snow-covered station huts and pine forest"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -656,6 +656,15 @@ export default function GulmargGuidePage() {
                 {/* ── Skiing ────────────────────────────────────────────── */}
                 <section id="skiing">
                   <h2>Skiing & Snowboarding in Gulmarg</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/destinations/jammu-kashmir/apharwat-peak-gulmarg-snow-slopes.webp"
+                      alt="Snow-covered ridges and off-piste slopes of Apharwat Peak above Gulmarg"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Gulmarg is India's most serious ski destination — the
                     combination of reliable snowfall, genuine vertical drop,
@@ -706,6 +715,15 @@ export default function GulmargGuidePage() {
                 {/* ── Summer Activities ─────────────────────────────────── */}
                 <section id="summer-activities">
                   <h2>Summer Activities in Gulmarg</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/destinations/jammu-kashmir/gulmarg-golf-course-meadow.webp"
+                      alt="Gulmarg's green summer meadow, home to the world's highest golf course, with snow-capped Pir Panjal peaks behind"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Gulmarg's identity shifts completely between April and
                     June, when the snow retreats and the meadow that gives

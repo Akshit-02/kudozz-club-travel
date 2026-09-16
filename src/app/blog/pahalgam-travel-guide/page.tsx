@@ -597,8 +597,8 @@ export default function PahalgamGuidePage() {
                   <h2>Betaab Valley</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/jammu-kashmir/hero.jpg"
-                      alt="Betaab Valley in Pahalgam with pine forests and the Lidder River"
+                      src="/images/blogs/jammu-and-kashmir/pahalgam/pahalgam-valley-lidder-river-forest.webp"
+                      alt="Betaab Valley's pine-forested slopes along the Lidder River in Pahalgam"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -643,6 +643,15 @@ export default function PahalgamGuidePage() {
                 {/* ── Aru Valley ────────────────────────────────────────── */}
                 <section id="aru-valley">
                   <h2>Aru Valley</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/destinations/jammu-kashmir/aru-valley-pahalgam.webp"
+                      alt="Aru Valley village with wooden-roofed houses set against pine-forested slopes near Pahalgam"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     About 12 km from Pahalgam, <strong>Aru Valley</strong> is a
                     small village and meadow set against a wall of pine forest
@@ -681,6 +690,15 @@ export default function PahalgamGuidePage() {
                 {/* ── Chandanwari ───────────────────────────────────────── */}
                 <section id="chandanwari">
                   <h2>Chandanwari</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/destinations/jammu-kashmir/chandanwari-snow-bridge-lidder-river.webp"
+                      alt="The snow bridge over the Lidder River at Chandanwari, Pahalgam"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Roughly 16 km from Pahalgam and at about 2,900 m,{" "}
                     <strong>Chandanwari</strong> is the highest of the three
@@ -726,6 +744,15 @@ export default function PahalgamGuidePage() {
                     Beyond the "big three," a handful of smaller sights round
                     out a Pahalgam visit.
                   </p>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/destinations/jammu-kashmir/baisaran-meadow-pahalgam.webp"
+                      alt="Baisaran Meadow's open pine-ringed grassland with snow-capped peaks above Pahalgam"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <ul>
                     <li>
                       <strong>Baisaran Meadow:</strong> A forested plateau

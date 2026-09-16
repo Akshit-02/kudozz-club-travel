@@ -629,6 +629,15 @@ export default function KolkataGuidePage() {
                     when it's floodlit against the darkening sky.
                   </p>
                   <h3>Howrah Bridge</h3>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/west-bengal/kolkata/mullick-ghat-flower-market-howrah-bridge-kolkata.webp"
+                      alt="Vendors and stalls at Mullick Ghat flower market spread beneath Howrah Bridge, Kolkata"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     A cantilever bridge spanning the Hooghly River between
                     Kolkata and Howrah, this is one of the busiest bridges
@@ -641,6 +650,15 @@ export default function KolkataGuidePage() {
                     swing beneath it, is one of the city's iconic sights.
                   </p>
                   <h3>Indian Museum & Marble Palace</h3>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/west-bengal/kolkata/indian-museum-entrance-facade-kolkata.webp"
+                      alt="The colonnaded entrance facade of the Indian Museum in Kolkata, founded in 1814"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Founded in 1814, the <strong>Indian Museum</strong> is
                     the oldest and largest museum in India, holding an
@@ -656,6 +674,15 @@ export default function KolkataGuidePage() {
                     West Bengal Tourism office.
                   </p>
                   <h3>Dakshineswar Kali Temple & Belur Math</h3>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/west-bengal/kolkata/dakshineswar-kali-temple-hooghly-river-kolkata.webp"
+                      alt="The nine spires of Dakshineswar Kali Temple rising above the trees on the bank of the Hooghly River"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     On the northern edge of the city, the{" "}
                     <strong>Dakshineswar Kali Temple</strong> is one of
@@ -676,6 +703,15 @@ export default function KolkataGuidePage() {
                 <section id="culture-quarter">
                   <h2>Literary & Cultural Kolkata</h2>
                   <h3>College Street & Indian Coffee House</h3>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/west-bengal/kolkata/college-street-book-market-kolkata.webp"
+                      alt="Rows of second-hand book stalls lining College Street, Kolkata, with browsing customers"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Asia's largest second-hand book market spills along{" "}
                     <strong>College Street</strong> for nearly a kilometre,
@@ -689,6 +725,15 @@ export default function KolkataGuidePage() {
                     café rather than a museum piece.
                   </p>
                   <h3>Kumartuli, the Idol-Makers' Quarter</h3>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/west-bengal/kolkata/kumartuli-idol-makers-workshop-kolkata.webp"
+                      alt="An artisan shaping a straw-and-bamboo idol frame inside a Kumartuli workshop in Kolkata"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     A warren of narrow lanes near the Hooghly where
                     generations of <em>kumars</em> (potters) have shaped clay
@@ -701,6 +746,15 @@ export default function KolkataGuidePage() {
                     the city's most atmospheric places to walk through.
                   </p>
                   <h3>Trams, Park Street & the Maidan</h3>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/west-bengal/kolkata/kolkata-heritage-tram-street.webp"
+                      alt="A green heritage tram running on a Kolkata street, part of India's last operating tram network"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Kolkata operates the last functioning tram network in
                     India, a slow, creaking system dating to 1873 that

@@ -737,6 +737,15 @@ export default function NewDelhiGuidePage() {
                 {/* ── Kartavya Path ─────────────────────────────────────── */}
                 <section id="kartavya-path">
                   <h2>Kartavya Path (formerly Rajpath)</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/new-delhi/kartavya-path-rajpath-boulevard-new-delhi.webp"
+                      alt="The wide ceremonial boulevard of Kartavya Path (formerly Rajpath) leading toward Rashtrapati Bhavan, New Delhi"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     The ceremonial boulevard running roughly 3 km from
                     Rashtrapati Bhavan, past Parliament House and India Gate,
@@ -778,6 +787,15 @@ export default function NewDelhiGuidePage() {
                 {/* ── Rashtrapati Bhavan ────────────────────────────────── */}
                 <section id="rashtrapati-bhavan">
                   <h2>Rashtrapati Bhavan & Amrit Udyan</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/new-delhi/rashtrapati-bhavan-facade-new-delhi.webp"
+                      alt="The sandstone facade and central dome of Rashtrapati Bhavan, the President of India's official residence, New Delhi"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Sitting at the western end of Kartavya Path on Raisina
                     Hill, <strong>Rashtrapati Bhavan</strong> is the official
@@ -829,6 +847,15 @@ export default function NewDelhiGuidePage() {
                 {/* ── Parliament House ──────────────────────────────────── */}
                 <section id="parliament-house">
                   <h2>Parliament House (Sansad Bhavan)</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/new-delhi/sansad-bhavan-parliament-house-new-delhi.webp"
+                      alt="The circular colonnaded facade of the old Parliament House (Sansad Bhavan), New Delhi"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     The original <strong>Parliament House</strong>, designed
                     by Herbert Baker and completed in 1927, is instantly
@@ -858,6 +885,15 @@ export default function NewDelhiGuidePage() {
                 {/* ── Jantar Mantar ─────────────────────────────────────── */}
                 <section id="jantar-mantar">
                   <h2>Jantar Mantar</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/new-delhi/jantar-mantar-samrat-yantra-new-delhi.webp"
+                      alt="The towering stone staircase of the Samrat Yantra sundial at Jantar Mantar, New Delhi"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     A short walk from Connaught Place and Parliament Street,{" "}
                     <strong>Jantar Mantar</strong> is an 18th-century
@@ -897,6 +933,15 @@ export default function NewDelhiGuidePage() {
                 {/* ── National Museum ───────────────────────────────────── */}
                 <section id="national-museum">
                   <h2>National Museum</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/new-delhi/national-museum-facade-new-delhi.webp"
+                      alt="The domed entrance facade of the National Museum on Janpath, New Delhi"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     On Janpath, close to India Gate, the{" "}
                     <strong>National Museum</strong> holds one of India's

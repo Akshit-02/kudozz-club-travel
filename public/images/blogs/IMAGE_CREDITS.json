@@ -4376,7 +4376,8 @@
     {
       "path": "/images/blogs/jammu-and-kashmir/gulmarg/gulmarg-gondola-snow-covered-station.webp",
       "usedIn": [
-        "jammu-kashmir-travel-guide"
+        "jammu-kashmir-travel-guide",
+        "gulmarg-travel-guide"
       ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Gulmarg_Gondola,_Cable_Car.JPG",
@@ -4388,7 +4389,8 @@
     {
       "path": "/images/blogs/jammu-and-kashmir/pahalgam/pahalgam-valley-lidder-river-forest.webp",
       "usedIn": [
-        "jammu-kashmir-travel-guide"
+        "jammu-kashmir-travel-guide",
+        "pahalgam-travel-guide"
       ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Pahalgam_Valley.jpg",
@@ -4900,6 +4902,450 @@
       "license": "CC BY-SA 4.0",
       "author": "ClickAR89",
       "attribution": "ClickAR89, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/destinations/jammu-kashmir/aru-valley-pahalgam.webp",
+      "usedIn": [
+        "pahalgam-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Aru_Valley,_Jammu_%26_Kashmir.jpg",
+      "originalFile": "Aru Valley, Jammu & Kashmir.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Nandanupadhyay",
+      "attribution": "Nandanupadhyay, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/destinations/jammu-kashmir/chandanwari-snow-bridge-lidder-river.webp",
+      "usedIn": [
+        "pahalgam-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Snow_Bridge_in_Chandanwari.jpg",
+      "originalFile": "Snow Bridge in Chandanwari.jpg",
+      "license": "CC BY 3.0",
+      "author": "Akshey25",
+      "attribution": "Akshey25, CC BY 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/destinations/jammu-kashmir/baisaran-meadow-pahalgam.webp",
+      "usedIn": [
+        "pahalgam-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Baisaran_Valley_Kashmir24102023.jpg",
+      "originalFile": "Baisaran Valley Kashmir24102023.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Hellohappy",
+      "attribution": "Hellohappy, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/destinations/jammu-kashmir/apharwat-peak-gulmarg-snow-slopes.webp",
+      "usedIn": [
+        "gulmarg-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Apharwat_Peak_Gulmarg_Kashmir.jpg",
+      "originalFile": "Apharwat Peak Gulmarg Kashmir.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Malikjavid",
+      "attribution": "Malikjavid, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/destinations/jammu-kashmir/gulmarg-golf-course-meadow.webp",
+      "usedIn": [
+        "gulmarg-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Green_meadows_of_Gulmarg.jpg",
+      "originalFile": "Green meadows of Gulmarg.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Aishparth",
+      "attribution": "Aishparth, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/destinations/jammu-kashmir/dal-lake-houseboat-srinagar.webp",
+      "usedIn": [
+        "srinagar-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:House_Boats_on_Dal_Lake,_Srinagar_6.jpg",
+      "originalFile": "House Boats on Dal Lake, Srinagar 6.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Slyronit",
+      "attribution": "Slyronit, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/destinations/jammu-kashmir/nishat-bagh-mughal-garden-srinagar.webp",
+      "usedIn": [
+        "srinagar-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Nishat_Bagh_Srinagar_01.jpg",
+      "originalFile": "Nishat Bagh Srinagar 01.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Deepank Ranka",
+      "attribution": "Deepank Ranka, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/destinations/jammu-kashmir/jama-masjid-old-city-srinagar.webp",
+      "usedIn": [
+        "srinagar-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Jamia_Masjid_Srinagar_03.jpg",
+      "originalFile": "Jamia Masjid Srinagar 03.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Indrajit Das",
+      "attribution": "Indrajit Das, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/jammu-and-kashmir/katra/katra-town-aerial-view-jammu-kashmir.webp",
+      "usedIn": [
+        "katra-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:KATRA_TOWN_,J%26K.jpg",
+      "originalFile": "KATRA TOWN ,J&K.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "BIPROJYOTI",
+      "attribution": "BIPROJYOTI, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/jammu-and-kashmir/katra/banganga-checkpoint-holy-stream-katra.webp",
+      "usedIn": [
+        "katra-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Banganga_(Shri_Mata_Vaishno_Devi).jpg",
+      "originalFile": "Banganga (Shri Mata Vaishno Devi).jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Thenipunanand",
+      "attribution": "Thenipunanand, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/jammu-and-kashmir/katra/ardhkuwari-cave-shrine-vaishno-devi-trek.webp",
+      "usedIn": [
+        "katra-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Vishno-Devi-12-Adhkuwari.jpg",
+      "originalFile": "Vishno-Devi-12-Adhkuwari.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Nikhilchandra81",
+      "attribution": "Nikhilchandra81, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/jammu-and-kashmir/katra/bhairon-temple-katra-vaishno-devi.webp",
+      "usedIn": [
+        "katra-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Bhairav_Mandir.jpg",
+      "originalFile": "Bhairav Mandir.jpg",
+      "license": "Public Domain",
+      "author": "Abhishek Chandra",
+      "attribution": "Abhishek Chandra, Public Domain, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/ladakh/tso-moriri/chumathang-hot-springs-ladakh.webp",
+      "usedIn": [
+        "tso-moriri-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Changthang_-_Hot_Water_Spring_(9371315164).jpg",
+      "originalFile": "Changthang - Hot Water Spring (9371315164).jpg",
+      "license": "CC BY-SA 2.0",
+      "author": "Elroy Serrao",
+      "attribution": "Elroy Serrao, CC BY-SA 2.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/ladakh/tso-moriri/korzok-village-monastery-tso-moriri.webp",
+      "usedIn": [
+        "tso-moriri-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Korzok_Monastery_%26_Village_01.jpg",
+      "originalFile": "Korzok Monastery & Village 01.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Deepank Ranka",
+      "attribution": "Deepank Ranka, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/ladakh/tso-moriri/kiang-tibetan-wild-ass-changthang-plateau.webp",
+      "usedIn": [
+        "tso-moriri-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kiang_-_Ladakh_2022-08-25.jpg",
+      "originalFile": "Kiang - Ladakh 2022-08-25.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Asif N Khan",
+      "attribution": "Asif N Khan, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/ladakh/tso-moriri/tso-kar-salt-lake-rupshu-plateau.webp",
+      "usedIn": [
+        "tso-moriri-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:India_-_Ladakh_-_Trekking_-_007_-_lovely_Tso_Kar_(3892723646).jpg",
+      "originalFile": "India - Ladakh - Trekking - 007 - lovely Tso Kar (3892723646).jpg",
+      "license": "CC BY 2.0",
+      "author": "McKay Savage",
+      "attribution": "McKay Savage, CC BY 2.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/west-bengal/kolkata/mullick-ghat-flower-market-howrah-bridge-kolkata.webp",
+      "usedIn": [
+        "kolkata-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:KolkataFlowerMarket.JPG",
+      "originalFile": "KolkataFlowerMarket.JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "Arne Hückelheim",
+      "attribution": "Arne Hückelheim, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/west-bengal/kolkata/indian-museum-entrance-facade-kolkata.webp",
+      "usedIn": [
+        "kolkata-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Building_of_Calcutta_Museum_04.jpg",
+      "originalFile": "Building of Calcutta Museum 04.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Pinakpani",
+      "attribution": "Pinakpani, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/west-bengal/kolkata/dakshineswar-kali-temple-hooghly-river-kolkata.webp",
+      "usedIn": [
+        "kolkata-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Dakshineswar_Kali_Temple,_Dakshineswar,_North_24_Parganas_district,_India.jpg",
+      "originalFile": "Dakshineswar Kali Temple, Dakshineswar, North 24 Parganas district, India.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Ravi Dwivedi",
+      "attribution": "Ravi Dwivedi, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/west-bengal/kolkata/college-street-book-market-kolkata.webp",
+      "usedIn": [
+        "kolkata-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:College_Street_Book_Bazar_on_26_January,_2022_in_Kolkata_02.jpg",
+      "originalFile": "College Street Book Bazar on 26 January, 2022 in Kolkata 02.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Pinakpani",
+      "attribution": "Pinakpani, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/west-bengal/kolkata/kumartuli-idol-makers-workshop-kolkata.webp",
+      "usedIn": [
+        "kolkata-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Crafting_the_Divine.jpg",
+      "originalFile": "Crafting the Divine.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Pritviswa",
+      "attribution": "Pritviswa, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/west-bengal/kolkata/kolkata-heritage-tram-street.webp",
+      "usedIn": [
+        "kolkata-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Single_coach_tram_in_Kolkata_01.jpg",
+      "originalFile": "Single coach tram in Kolkata 01.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Indrajit Das",
+      "attribution": "Indrajit Das, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/destinations/spiti-valley/chandratal-lake-turquoise-mountains-spiti.webp",
+      "usedIn": [
+        "spiti-valley-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Chandra_Taal_(Lake),_HP,_India,_D35_7326_nx01_02.jpg",
+      "originalFile": "Chandra Taal (Lake), HP, India, D35 7326 nx01 02.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Adarsh Patel",
+      "attribution": "Adarsh Patel, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/destinations/spiti-valley/dhankar-monastery-cliff-spiti.webp",
+      "usedIn": [
+        "spiti-valley-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:View_of_Dhankar_Gompa_and_Fort.jpg",
+      "originalFile": "View of Dhankar Gompa and Fort.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Akhila Srikanta Rao",
+      "attribution": "Akhila Srikanta Rao, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/destinations/spiti-valley/key-monastery-tiered-whitewash-spiti.webp",
+      "usedIn": [
+        "spiti-valley-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Key_Gompa_monastery,_Spiti_Valley,_Himachal_Pradesh,_India_01.jpg",
+      "originalFile": "Key Gompa monastery, Spiti Valley, Himachal Pradesh, India 01.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Mike Shaw",
+      "attribution": "Mike Shaw, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/destinations/spiti-valley/kibber-village-whitewashed-houses-spiti.webp",
+      "usedIn": [
+        "spiti-valley-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kibber_-_a_villege_in_spiti.jpg",
+      "originalFile": "Kibber - a villege in spiti.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Sanky cse",
+      "attribution": "Sanky cse, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/destinations/spiti-valley/langza-buddha-statue-fossil-village-spiti.webp",
+      "usedIn": [
+        "spiti-valley-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Buddha_Statue_at_Langza_village_Spiti_valley.jpg",
+      "originalFile": "Buddha Statue at Langza village Spiti valley.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Sumita Roy Dutta",
+      "attribution": "Sumita Roy Dutta, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/destinations/spiti-valley/sakya-tangyud-monastery-kaza-spiti.webp",
+      "usedIn": [
+        "spiti-valley-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Sakya_Tangyud_Monastery_(Kaza).jpg",
+      "originalFile": "Sakya Tangyud Monastery (Kaza).jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Nrr1729",
+      "attribution": "Nrr1729, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/delhi/old-delhi/fatehpuri-masjid-facade-old-delhi.webp",
+      "usedIn": [
+        "old-delhi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Fatehpuri_Masjid_in_Delhi_19.jpg",
+      "originalFile": "Fatehpuri Masjid in Delhi 19.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Indrajit Das",
+      "attribution": "Indrajit Das, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/delhi/old-delhi/gurudwara-sis-ganj-sahib-entrance-old-delhi.webp",
+      "usedIn": [
+        "old-delhi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:SisGanj_Sahib_Gurudwara,_Delhi.jpg",
+      "originalFile": "SisGanj Sahib Gurudwara, Delhi.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Ravi Dwivedi",
+      "attribution": "Ravi Dwivedi, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/delhi/old-delhi/jama-masjid-minaret-view-rooftops-old-delhi.webp",
+      "usedIn": [
+        "old-delhi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:20191203_Kopu%C5%82y_i_wie%C5%BCe_Wielkiego_Meczetu_w_Delhi_0715_6478_DxO.jpg",
+      "originalFile": "20191203 Kopuły i wieże Wielkiego Meczetu w Delhi 0715 6478 DxO.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Jakub Hałun",
+      "attribution": "Jakub Hałun, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/delhi/old-delhi/kinari-bazaar-lane-old-delhi.webp",
+      "usedIn": [
+        "old-delhi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Old_Delhi-Kinari_Bazar-1-20131006.jpg",
+      "originalFile": "Old Delhi-Kinari Bazar-1-20131006.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Daniel VILLAFRUELA",
+      "attribution": "Daniel VILLAFRUELA, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/delhi/new-delhi/kartavya-path-rajpath-boulevard-new-delhi.webp",
+      "usedIn": [
+        "new-delhi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Rajpath_by_Christian_Haugen.jpg",
+      "originalFile": "Rajpath by Christian Haugen.jpg",
+      "license": "CC BY 2.0",
+      "author": "Christian Haugen",
+      "attribution": "Christian Haugen, CC BY 2.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/delhi/new-delhi/rashtrapati-bhavan-facade-new-delhi.webp",
+      "usedIn": [
+        "new-delhi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Rashtrapati_Bhavan_Wide_New_Delhi_India.jpg",
+      "originalFile": "Rashtrapati Bhavan Wide New Delhi India.jpg",
+      "license": "CC BY-SA 2.0",
+      "author": "Scott Dexter",
+      "attribution": "Scott Dexter, CC BY-SA 2.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/delhi/new-delhi/sansad-bhavan-parliament-house-new-delhi.webp",
+      "usedIn": [
+        "new-delhi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Sansad_Bhavan,_New_Delhi.jpg",
+      "originalFile": "Sansad Bhavan, New Delhi.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Nikhilb239",
+      "attribution": "Nikhilb239, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/delhi/new-delhi/jantar-mantar-samrat-yantra-new-delhi.webp",
+      "usedIn": [
+        "new-delhi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Jantar_Mantar_Samrat_Yantra_and_CP_Skyline.jpg",
+      "originalFile": "Jantar Mantar Samrat Yantra and CP Skyline.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Pallav.journo",
+      "attribution": "Pallav.journo, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "/images/blogs/delhi/new-delhi/national-museum-facade-new-delhi.webp",
+      "usedIn": [
+        "new-delhi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:India_national_museum_01.jpg",
+      "originalFile": "India national museum 01.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Miya.m",
+      "attribution": "Miya.m, CC BY-SA 3.0, via Wikimedia Commons"
     }
   ]
 }

@@ -564,8 +564,8 @@ export default function SpitiValleyPage() {
                     <h3>Kaza — The Heart of Spiti</h3>
                     <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                       <Image
-                        src="/images/destinations/spiti-valley/spiti-valley.jpg"
-                        alt="Kaza town in Spiti Valley"
+                        src="/images/destinations/spiti-valley/sakya-tangyud-monastery-kaza-spiti.webp"
+                        alt="Sakya Tangyud Monastery's colourful facade in Old Kaza, Spiti Valley"
                         fill
                         sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                         className="object-cover"
@@ -596,6 +596,15 @@ export default function SpitiValleyPage() {
 
                   <section id="key-monastery">
                     <h3>Key Monastery — Spiti's Most Iconic Sight</h3>
+                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/destinations/spiti-valley/key-monastery-tiered-whitewash-spiti.webp"
+                        alt="Key Monastery's tiered whitewashed buildings clinging to a hilltop above the Spiti River"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <p>
                       Perched on a hilltop 14 km from Kaza at 4,166 metres,{" "}
                       <strong>Key Monastery</strong> (Ki Gompa) is the largest
@@ -625,6 +634,15 @@ export default function SpitiValleyPage() {
 
                   <section id="chandratal">
                     <h3>Chandratal Lake — The Moon Lake</h3>
+                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/destinations/spiti-valley/chandratal-lake-turquoise-mountains-spiti.webp"
+                        alt="Chandratal's crescent-shaped turquoise water surrounded by barren Himalayan peaks"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <p>
                       At 4,300 metres, <strong>Chandratal</strong> (Moon Lake)
                       is one of the most beautiful high-altitude lakes in the
@@ -663,6 +681,15 @@ export default function SpitiValleyPage() {
 
                   <section id="kibber">
                     <h3>Kibber Village</h3>
+                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/destinations/spiti-valley/kibber-village-whitewashed-houses-spiti.webp"
+                        alt="Whitewashed flat-roofed houses of Kibber village clustered on a cliff above the Spiti River"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <p>
                       At 4,270 metres, <strong>Kibber</strong> claims to be one
                       of the highest motorable villages in the world — though
@@ -685,6 +712,15 @@ export default function SpitiValleyPage() {
 
                   <section id="langza">
                     <h3>Langza & The Fossil Village</h3>
+                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/destinations/spiti-valley/langza-buddha-statue-fossil-village-spiti.webp"
+                        alt="The giant golden Buddha statue overlooking Langza village and the Spiti mountains"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <p>
                       <strong>Langza</strong> sits at 4,400 metres with a single
                       dirt road, a handful of homestays, a giant Buddha statue
@@ -728,6 +764,15 @@ export default function SpitiValleyPage() {
 
                   <section id="dhankar">
                     <h3>Dhankar Monastery & Lake</h3>
+                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/destinations/spiti-valley/dhankar-monastery-cliff-spiti.webp"
+                        alt="Dhankar Monastery's ancient complex perched on a vertical cliff at the Pin-Spiti confluence"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <p>
                       If Key is Spiti's most famous monastery,{" "}
                       <strong>Dhankar</strong> is its most dramatic. The ancient

@@ -587,8 +587,8 @@ export default function SrinagarGuidePage() {
                   <h2>Dal Lake & Houseboat Stays</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/jammu-kashmir/dal.jpg"
-                      alt="Shikara boats crossing calm water on Dal Lake at sunrise near the floating market, Srinagar"
+                      src="/images/destinations/jammu-kashmir/dal-lake-houseboat-srinagar.webp"
+                      alt="A traditional carved-wood houseboat moored on Dal Lake at golden hour, Srinagar"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -646,6 +646,15 @@ export default function SrinagarGuidePage() {
                 {/* ── Mughal Gardens ──────────────────────────────────────── */}
                 <section id="mughal-gardens">
                   <h2>Srinagar's Mughal Gardens</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/destinations/jammu-kashmir/nishat-bagh-mughal-garden-srinagar.webp"
+                      alt="Terraced lawns, fountains and a water channel at Nishat Bagh with the Zabarwan hills behind, Srinagar"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Srinagar's terraced <strong>Mughal Gardens</strong> date
                     back to the reigns of Emperor Jahangir and Shah Jahan in
@@ -691,6 +700,15 @@ export default function SrinagarGuidePage() {
                 {/* ── Old City ──────────────────────────────────────────── */}
                 <section id="old-city">
                   <h2>Exploring Srinagar's Old City</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/destinations/jammu-kashmir/jama-masjid-old-city-srinagar.webp"
+                      alt="Jama Masjid's wooden pagoda-style minaret and courtyard in Srinagar's Old City"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Away from the lake, Srinagar's <strong>Old City</strong>{" "}
                     is dense, working, and largely untouched by the tourist

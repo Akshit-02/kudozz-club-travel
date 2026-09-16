@@ -515,6 +515,15 @@ export default function TsoMoririPage() {
 
                   <section id="chumathang-route">
                     <h3>Via Chumathang & the Rupshu Plateau</h3>
+                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/blogs/ladakh/tso-moriri/chumathang-hot-springs-ladakh.webp"
+                        alt="Steaming natural hot spring water bubbling up among riverbank rocks at Chumathang, en route to Tso Moriri"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <p>
                       The standard route out of Leh runs south along the
                       Indus Valley through <strong>Upshi</strong> and{" "}
@@ -690,6 +699,15 @@ export default function TsoMoririPage() {
                 {/* ── Korzok ────────────────────────────────────────────── */}
                 <section id="korzok">
                   <h2>Korzok Village & Monastery</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/ladakh/tso-moriri/korzok-village-monastery-tso-moriri.webp"
+                      alt="Korzok village and its Drukpa Kagyu monastery set against the bare Rupshu mountains on Tso Moriri's shore"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     <strong>Korzok</strong> is the only settlement on Tso
                     Moriri's shore — a scatter of stone-and-mud homes, a
@@ -732,6 +750,16 @@ export default function TsoMoririPage() {
                     high-altitude species, and even a short visit usually
                     delivers a genuine wildlife encounter.
                   </p>
+
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/ladakh/tso-moriri/kiang-tibetan-wild-ass-changthang-plateau.webp"
+                      alt="A kiang (Tibetan wild ass) standing on the open Rupshu plateau grassland near Tso Moriri"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
 
                   <div className="space-y-4 my-4">
                     {[
@@ -816,6 +844,15 @@ export default function TsoMoririPage() {
                 {/* ── Tso Kar ───────────────────────────────────────────── */}
                 <section id="tso-kar">
                   <h2>Tso Kar — The Other Lake</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/ladakh/tso-moriri/tso-kar-salt-lake-rupshu-plateau.webp"
+                      alt="Tso Kar's pale, salt-rimmed shoreline with the Rupshu plateau mountains behind it"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     About 75 km northwest of Tso Moriri, over the Polokongka
                     La pass (4,918 m), sits <strong>Tso Kar</strong> — a
