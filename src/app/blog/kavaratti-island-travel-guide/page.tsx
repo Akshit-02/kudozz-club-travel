@@ -429,6 +429,15 @@ export default function KavarattiIslandGuidePage() {
                 {/* ── Introduction ──────────────────────────────────────── */}
                 <section id="introduction">
                   <h2>Why Kavaratti?</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/lakshadweep/kavaratti-island/kavaratti-beach-view-from-lighthouse.webp"
+                      alt="Aerial view of Kavaratti's shoreline and open sea from the island's lighthouse"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     As the capital and administrative headquarters of the
                     Lakshadweep Union Territory, <strong>Kavaratti</strong>{" "}
@@ -669,8 +678,8 @@ export default function KavarattiIslandGuidePage() {
                   <h2>Kavaratti Beach & Lagoon</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/blogs/lakshadweep/kavaratti-island/kavaratti-lagoon-fishing-boats.webp"
-                      alt="Turquoise Kavaratti lagoon fringed with white sand and coconut palms"
+                      src="/images/blogs/lakshadweep/kavaratti-island/kavaratti-lagoon-beach-sailboat.webp"
+                      alt="A traditional sailboat pulled onto the white sand of Kavaratti beach with the turquoise lagoon behind"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -714,6 +723,15 @@ export default function KavarattiIslandGuidePage() {
                 {/* ── Aquarium & Mosques ────────────────────────────────── */}
                 <section id="aquarium-mosques">
                   <h2>Aquarium & Mosques</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/lakshadweep/kavaratti-island/kavaratti-aquarium-reef-fish.webp"
+                      alt="A powder blue surgeonfish over coral rock at Kavaratti's Marine Aquarium"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Kavaratti's cultural and educational sights are
                     concentrated in the island's small town centre, an easy
@@ -754,6 +772,15 @@ export default function KavarattiIslandGuidePage() {
                 {/* ── Water Sports ──────────────────────────────────────── */}
                 <section id="water-sports">
                   <h2>Diving & Water Sports</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/lakshadweep/kavaratti-island/kavaratti-fishing-boat-open-water.webp"
+                      alt="A traditional wooden boat anchored in open water off Kavaratti, used for dive and snorkel trips"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Kavaratti's water sports infrastructure is among the
                     best-developed in Lakshadweep, run largely through

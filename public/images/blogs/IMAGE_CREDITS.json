@@ -1428,7 +1428,8 @@
     {
       "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/madhuban-dam/madhuban-dam-reservoir-view-silvassa.webp",
       "usedIn": [
-        "madhuban-dam-travel-guide (hero + inline — replaces a Goa photo used in error)"
+        "madhuban-dam-travel-guide (hero + inline — replaces a Goa photo used in error)",
+        "silvassa-travel-guide (Madhuban Dam section)"
       ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:A_Beautiful_Nature_of_Silvassa.jpg",
@@ -3229,7 +3230,8 @@
     {
       "path": "/images/blogs/chandigarh/chandigarh/capitol-complex-high-court-le-corbusier-chandigarh.webp",
       "usedIn": [
-        "chandigarh-travel-guide"
+        "chandigarh-travel-guide",
+        "capitol-complex-chandigarh-travel-guide"
       ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Punjab_and_Haryana_High_court_Chandigarh.jpg",
@@ -5991,6 +5993,270 @@
       "license": "CC BY-SA 3.0",
       "author": "Shakti",
       "attribution": "Photo by Shakti, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/lakshadweep/kavaratti-island/kavaratti-lagoon-beach-sailboat.webp",
+      "usedIn": [
+        "kavaratti-island-travel-guide (Kavaratti Beach & Lagoon section — replaces a duplicate of the hero image)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kavaratti_Lagoon_(5799691167).jpg",
+      "originalFile": "Kavaratti_Lagoon_(5799691167).jpg",
+      "license": "CC BY 2.0",
+      "author": "Mike Prince",
+      "attribution": "Photo by Mike Prince, CC BY 2.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/lakshadweep/kavaratti-island/kavaratti-aquarium-reef-fish.webp",
+      "usedIn": [
+        "kavaratti-island-travel-guide (Aquarium & Mosques section)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Fish_at_Kavaratti_Aquarium_(5800220514).jpg",
+      "originalFile": "Fish_at_Kavaratti_Aquarium_(5800220514).jpg",
+      "license": "CC BY 2.0",
+      "author": "Mike Prince",
+      "attribution": "Photo by Mike Prince, CC BY 2.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/lakshadweep/kavaratti-island/kavaratti-fishing-boat-open-water.webp",
+      "usedIn": [
+        "kavaratti-island-travel-guide (Diving & Water Sports section)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Boat_at_Kavaratti_(5800227258).jpg",
+      "originalFile": "Boat_at_Kavaratti_(5800227258).jpg",
+      "license": "CC BY 2.0",
+      "author": "Mike Prince",
+      "attribution": "Photo by Mike Prince, CC BY 2.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/lakshadweep/kavaratti-island/kavaratti-beach-view-from-lighthouse.webp",
+      "usedIn": [
+        "kavaratti-island-travel-guide (Why Kavaratti? introduction section)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:View_from_Kavaratti_Lighthouse_(5800222798).jpg",
+      "originalFile": "View_from_Kavaratti_Lighthouse_(5800222798).jpg",
+      "license": "CC BY 2.0",
+      "author": "Mike Prince",
+      "attribution": "Photo by Mike Prince, CC BY 2.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/silvassa/chital-spotted-deer-forest.webp",
+      "usedIn": [
+        "silvassa-travel-guide (Satmaliya Deer Sanctuary section — representative chital/spotted deer species, not photographed on-site)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Indian_spotted_deer_(chital)_male.jpg",
+      "originalFile": "Indian_spotted_deer_(chital)_male.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "AAVRUTI PORLIKAR1996",
+      "attribution": "Photo by AAVRUTI PORLIKAR1996, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/silvassa/vanganga-garden-silvassa-evening-path.webp",
+      "usedIn": [
+        "silvassa-travel-guide (Vasona Lion Safari Park section)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Vanganga_Garden,_Silvassa_(32345632184).jpg",
+      "originalFile": "Vanganga_Garden,_Silvassa_(32345632184).jpg",
+      "license": "CC BY 2.0",
+      "author": "Ashish Gupta",
+      "attribution": "Photo by Ashish Gupta, CC BY 2.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/silvassa/warli-tribal-painting-mud-wall.webp",
+      "usedIn": [
+        "silvassa-travel-guide (Warli Tribal Art & Culture section)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Warli_painting.jpg",
+      "originalFile": "Warli_painting.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Omrmankar",
+      "attribution": "Photo by Omrmankar, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/jammu-and-kashmir/sonamarg/thajiwas-snowfield-pine-forest-trail.webp",
+      "usedIn": [
+        "sonamarg-travel-guide (Thajiwas Glacier section — replaces a duplicate of the hero image)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Thajiwas_Park,_Sonamarg,_Jammu_and_Kashmir,_India.jpg",
+      "originalFile": "Thajiwas_Park,_Sonamarg,_Jammu_and_Kashmir,_India.jpg",
+      "license": "CC BY 4.0",
+      "author": "Ganesh Mohan T (derivative work: UnpetitproleX)",
+      "attribution": "Photo by Ganesh Mohan T, CC BY 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/jammu-and-kashmir/sonamarg/sindh-river-winter-flow-sonamarg.webp",
+      "usedIn": [
+        "sonamarg-travel-guide (Other Sights Around Sonamarg — Sindh River)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Sindh_River,_Sonmarg_-_Kashmir_(45126478305).jpg",
+      "originalFile": "Sindh_River,_Sonmarg_-_Kashmir_(45126478305).jpg",
+      "license": "CC BY 2.0",
+      "author": "Rajarshi MITRA",
+      "attribution": "Photo by Rajarshi MITRA, CC BY 2.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/jammu-and-kashmir/sonamarg/zoji-la-pass-valley-view.webp",
+      "usedIn": [
+        "sonamarg-travel-guide (Other Sights Around Sonamarg — Zoji La viewpoint)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Zoji_La_Pass_view.jpg",
+      "originalFile": "Zoji_La_Pass_view.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Imakanksha",
+      "attribution": "Photo by Imakanksha, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/jammu-and-kashmir/sonamarg/baltal-last-village-kashmir-valley.webp",
+      "usedIn": [
+        "sonamarg-travel-guide (Other Sights Around Sonamarg — Baltal)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Last_Village_of_Kashmir_Valley_Near_Baltal.jpg",
+      "originalFile": "Last_Village_of_Kashmir_Valley_Near_Baltal.jpg",
+      "license": "CC BY 4.0",
+      "author": "Vikrantdhiman189381",
+      "attribution": "Photo by Vikrantdhiman189381, CC BY 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/jammu-and-kashmir/sonamarg/krishansar-lake-great-lakes-trek.webp",
+      "usedIn": [
+        "sonamarg-travel-guide (Adventure Activities — Kashmir Great Lakes Trek)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Krishansar_Lake,_Sonmarg,_Kashmir_valley,_India_01.jpg",
+      "originalFile": "Krishansar_Lake,_Sonmarg,_Kashmir_valley,_India_01.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Rohit Sharma",
+      "attribution": "Photo by Rohit Sharma, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/ladakh/turtuk/balti-stone-timber-house-tyakshi.webp",
+      "usedIn": [
+        "turtuk-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Traditional_Balti_House_at_Tyakshi_Grong.jpg",
+      "originalFile": "Traditional_Balti_House_at_Tyakshi_Grong.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Dr Ghulam Mehdi",
+      "attribution": "Photo by Dr Ghulam Mehdi, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/ladakh/turtuk/apricot-kernels-turtuk-child.webp",
+      "usedIn": [
+        "turtuk-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Playing_with_apricot_seeds_in_Turtuk_-_Nubra_Valley_(10020014404).jpg",
+      "originalFile": "Playing_with_apricot_seeds_in_Turtuk_-_Nubra_Valley_(10020014404).jpg",
+      "license": "CC BY-SA 2.0",
+      "author": "Fulvio Spada",
+      "attribution": "Photo by Fulvio Spada, CC BY-SA 2.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/karnataka/gokarna/half-moon-beach-gokarna.webp",
+      "usedIn": [
+        "gokarna-beaches-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:PXL_20260103_091848995.MP_Half_Moon_Beach_Gokarna_Karnatak_01.jpg",
+      "originalFile": "PXL_20260103_091848995.MP_Half_Moon_Beach_Gokarna_Karnatak_01.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Sourabh.biswas003",
+      "attribution": "Photo by Sourabh.biswas003, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/karnataka/gokarna/paradise-beach-gokarna.webp",
+      "usedIn": [
+        "gokarna-beaches-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:PXL_20260103_054657562.MP_Paradise_beach_gokarna_Paradise_Beach_Trail,_Gokarna,_Karnataka_581326_15.jpg",
+      "originalFile": "PXL_20260103_054657562.MP_Paradise_beach_gokarna_Paradise_Beach_Trail,_Gokarna,_Karnataka_581326_15.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Sourabh.biswas003",
+      "attribution": "Photo by Sourabh.biswas003, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/karnataka/gokarna/mahabaleshwar-temple-gokarna.webp",
+      "usedIn": [
+        "gokarna-beaches-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Main_entry_to_the_Mahabaleshwar_Temple_at_Gokaran.jpg",
+      "originalFile": "Main_entry_to_the_Mahabaleshwar_Temple_at_Gokaran.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Nvvchar",
+      "attribution": "Photo by Nvvchar, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/chandigarh/capitol-complex/capitol-complex-skyline-secretariat-high-court.webp",
+      "usedIn": [
+        "capitol-complex-chandigarh-travel-guide (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:A_far_view_of_Chandigarh's_Capitol_Complex_building_(43554625714).jpg",
+      "originalFile": "A_far_view_of_Chandigarh's_Capitol_Complex_building_(43554625714).jpg",
+      "license": "CC BY 2.0",
+      "author": "shankar s.",
+      "attribution": "Photo by shankar s., CC BY 2.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/chandigarh/capitol-complex/secretariat-building-facade-chandigarh.webp",
+      "usedIn": [
+        "capitol-complex-chandigarh-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Chandigarh_Secretariat.jpg",
+      "originalFile": "Chandigarh_Secretariat.jpg",
+      "license": "CC BY 2.0",
+      "author": "Lian Chang",
+      "attribution": "Photo by Lian Chang, CC BY 2.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/chandigarh/capitol-complex/vidhan-sabha-legislative-assembly-reflection-pool.webp",
+      "usedIn": [
+        "capitol-complex-chandigarh-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Palace_of_Assembly_Chandigarh_2006.jpg",
+      "originalFile": "Palace_of_Assembly_Chandigarh_2006.jpg",
+      "license": "CC BY-SA 2.0",
+      "author": "duncid",
+      "attribution": "Photo by duncid, CC BY-SA 2.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/chandigarh/capitol-complex/open-hand-monument-chandigarh.webp",
+      "usedIn": [
+        "capitol-complex-chandigarh-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Open_Hand_monument,_Chandigarh.jpg",
+      "originalFile": "Open_Hand_monument,_Chandigarh.jpg",
+      "license": "CC BY-SA 2.0",
+      "author": "Raakesh Blokhra",
+      "attribution": "Photo by Raakesh Blokhra, CC BY-SA 2.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/chandigarh/capitol-complex/geometric-hill-capitol-complex.webp",
+      "usedIn": [
+        "capitol-complex-chandigarh-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:The_Geometric_Hill,_Capitol_Complex,_Chandigarh.jpg",
+      "originalFile": "The_Geometric_Hill,_Capitol_Complex,_Chandigarh.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Lillottama",
+      "attribution": "Photo by Lillottama, CC BY-SA 4.0, via Wikimedia Commons"
     }
   ]
 }

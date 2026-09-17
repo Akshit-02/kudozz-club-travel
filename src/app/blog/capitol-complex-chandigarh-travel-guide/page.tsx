@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/chandigarh/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "The vast open plaza and raw-concrete brutalist facades of Le Corbusier's Capitol Complex in Chandigarh, home to the Punjab and Haryana High Court, Secretariat and Vidhan Sabha",
+        url: "/images/blogs/chandigarh/capitol-complex/capitol-complex-skyline-secretariat-high-court.webp",
+        width: 1600,
+        height: 1067,
+        alt: "The raw-concrete Secretariat slab and High Court's curved canopy roof rising above the trees at Le Corbusier's Capitol Complex in Chandigarh",
       },
     ],
   },
@@ -39,7 +39,9 @@ export const metadata: Metadata = {
     title: "Capitol Complex Chandigarh: UNESCO Site Visit Guide",
     description:
       "Le Corbusier's raw-concrete civic heart of Chandigarh — the High Court, Secretariat, Vidhan Sabha and the Open Hand Monument, all inscribed as a UNESCO World Heritage Site.",
-    images: ["/images/destinations/chandigarh/hero.jpg"],
+    images: [
+      "/images/blogs/chandigarh/capitol-complex/capitol-complex-skyline-secretariat-high-court.webp",
+    ],
   },
   alternates: {
     canonical:
@@ -59,7 +61,8 @@ function ArticleSchema() {
           headline: "Capitol Complex Chandigarh: UNESCO Site Visit Guide",
           description:
             "Complete guide to Le Corbusier's Capitol Complex in Chandigarh — the UNESCO World Heritage High Court, Secretariat and Vidhan Sabha, the Open Hand Monument, permission process, timings and visit tips.",
-          image: "https://club.kudozz.in/images/destinations/chandigarh/hero.jpg",
+          image:
+            "https://club.kudozz.in/images/blogs/chandigarh/capitol-complex/capitol-complex-skyline-secretariat-high-court.webp",
           datePublished: "2026-08-31",
           dateModified: "2026-08-31",
           publisher: {
@@ -209,8 +212,8 @@ export default function CapitolComplexGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/chandigarh/hero.jpg"
-              alt="The vast open plaza and raw-concrete brutalist facades of Le Corbusier's Capitol Complex in Chandigarh, home to the Punjab and Haryana High Court, Secretariat and Vidhan Sabha"
+              src="/images/blogs/chandigarh/capitol-complex/capitol-complex-skyline-secretariat-high-court.webp"
+              alt="The raw-concrete Secretariat slab and High Court's curved canopy roof rising above the trees at Le Corbusier's Capitol Complex in Chandigarh"
               fill
               priority
               sizes="100vw"
@@ -648,16 +651,6 @@ export default function CapitolComplexGuidePage() {
                     experience rather than a formality.
                   </p>
 
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/chandigarh/hero.jpg"
-                      alt="Raw concrete brise-soleil sun-breakers on one of the government buildings at Capitol Complex, Le Corbusier's signature technique for managing harsh plains sunlight"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
-
                   <h3>Punjab and Haryana High Court</h3>
                   <p>
                     The High Court is arguably the most photographed of the
@@ -670,6 +663,15 @@ export default function CapitolComplexGuidePage() {
                     Le Corbusier's brise-soleil approach anywhere in his body
                     of work.
                   </p>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/chandigarh/chandigarh/capitol-complex-high-court-le-corbusier-chandigarh.webp"
+                      alt="Le Corbusier's brutalist Punjab and Haryana High Court building at the Capitol Complex, Chandigarh, with its colourful concrete pylons"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
 
                   <h3>The Secretariat</h3>
                   <p>
@@ -681,6 +683,15 @@ export default function CapitolComplexGuidePage() {
                     rhythm when viewed from across the plaza, and it anchors
                     one end of the complex's overall composition.
                   </p>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/chandigarh/capitol-complex/secretariat-building-facade-chandigarh.webp"
+                      alt="The Secretariat's long, repeating raw-concrete facade of sun-breaker grids at Capitol Complex, Chandigarh"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
 
                   <h3>Vidhan Sabha (Legislative Assembly)</h3>
                   <p>
@@ -692,6 +703,15 @@ export default function CapitolComplexGuidePage() {
                     symbolic weight in the complex, given its role as the
                     seat of the legislature.
                   </p>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/chandigarh/capitol-complex/vidhan-sabha-legislative-assembly-reflection-pool.webp"
+                      alt="The Vidhan Sabha (Legislative Assembly) building at Capitol Complex, Chandigarh, reflected in its foreground water pool"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
 
                   <div
                     className="bg-forest-50 border-l-4 border-forest-500 p-4 rounded-r-xl my-4 text-sm"
@@ -729,6 +749,15 @@ export default function CapitolComplexGuidePage() {
                     isolation from the surrounding buildings, giving it a
                     weight disproportionate to its size.
                   </p>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/chandigarh/capitol-complex/open-hand-monument-chandigarh.webp"
+                      alt="The Open Hand Monument's rotating metal sculpture silhouetted against the Shivalik foothills at Capitol Complex, Chandigarh"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                 </section>
 
                 {/* ── Other Monuments ────────────────────────────────────── */}
@@ -764,6 +793,15 @@ export default function CapitolComplexGuidePage() {
                       grand civic architecture.
                     </li>
                   </ul>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/chandigarh/capitol-complex/geometric-hill-capitol-complex.webp"
+                      alt="The Geometric Hill's sloped, tiled earthwork mound with its curved inlaid pathway at Capitol Complex, Chandigarh"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                 </section>
 
                 {/* ── Photography ────────────────────────────────────────── */}

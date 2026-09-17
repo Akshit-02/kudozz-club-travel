@@ -696,6 +696,15 @@ export default function NubraValleyPage() {
                   {/* Hunder Sand Dunes */}
                   <section id="hunder-dunes">
                     <h3>Hunder Sand Dunes & Bactrian Camels</h3>
+                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/blogs/ladakh/hunder/hunder-sand-dunes-aerial-view.webp"
+                        alt="Aerial view of the pale cold-desert sand dunes at Hunder in Nubra Valley, Ladakh"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <p>
                       A short drive past Diskit, <strong>Hunder</strong> is
                       the postcard image of Nubra Valley — pale, cold-desert
@@ -736,6 +745,15 @@ export default function NubraValleyPage() {
                   {/* Sumur & Panamik */}
                   <section id="sumur-panamik">
                     <h3>Sumur Village & Panamik Hot Springs</h3>
+                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/blogs/ladakh/nubra-valley/samstanling-monastery-sumur-nubra-valley.webp"
+                        alt="Samstanling Monastery set among poplar groves above Sumur village, Nubra Valley"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <p>
                       On the northern bank of the Nubra River, roughly 15 km
                       from Diskit, <strong>Sumur</strong> is a quieter, greener
@@ -762,6 +780,15 @@ export default function NubraValleyPage() {
                   {/* Ensa Gompa */}
                   <section id="ensa-gompa">
                     <h3>Ensa Gompa</h3>
+                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/blogs/ladakh/nubra-valley/ensa-gompa-wall-murals-nubra-valley.webp"
+                        alt="Faded wall murals depicting wrathful deities inside Ensa Gompa, Nubra Valley"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <p>
                       Across the river from Sumur, tucked into a hillside and
                       reachable via a small bridge and a short uphill walk,{" "}
@@ -786,6 +813,15 @@ export default function NubraValleyPage() {
                   {/* Turtuk */}
                   <section id="turtuk">
                     <h3>Turtuk (A Worthwhile Detour)</h3>
+                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/blogs/ladakh/turtuk/turtuk-village-shyok-valley.webp"
+                        alt="Turtuk village's green terraced fields along the Shyok River valley near Nubra"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <p>
                       For travellers with an extra day and the right permit,{" "}
                       <strong>Turtuk</strong> is the furthest and most

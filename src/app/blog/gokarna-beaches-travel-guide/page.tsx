@@ -721,6 +721,27 @@ export default function GokarnaBeachesGuidePage() {
                       anyone craving true solitude.
                     </li>
                   </ul>
+
+                  <div className="grid sm:grid-cols-2 gap-4 my-6">
+                    <div className="relative w-full rounded-xl h-56 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/blogs/karnataka/gokarna/half-moon-beach-gokarna.webp"
+                        alt="Sandy crescent cove and rocky headland at Half Moon Beach, Gokarna"
+                        fill
+                        sizes="(min-width: 1024px) 384px, 50vw"
+                        className="object-cover"
+                      />
+                    </div>
+                    <div className="relative w-full rounded-xl h-56 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/blogs/karnataka/gokarna/paradise-beach-gokarna.webp"
+                        alt="A boat anchored off Paradise Beach's secluded cove near Gokarna, framed by forested headlands"
+                        fill
+                        sizes="(min-width: 1024px) 384px, 50vw"
+                        className="object-cover"
+                      />
+                    </div>
+                  </div>
                 </section>
 
                 {/* ── Beach Trek ─────────────────────────────────────────── */}
@@ -802,6 +823,15 @@ export default function GokarnaBeachesGuidePage() {
                       Kudle or Om Beach.
                     </li>
                   </ul>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/karnataka/gokarna/mahabaleshwar-temple-gokarna.webp"
+                      alt="Pilgrims at the entrance gateway of the Mahabaleshwar Temple in Gokarna, with the temple's carved stone tower rising behind"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                 </section>
 
                 {/* ── Where to Stay ─────────────────────────────────────── */}

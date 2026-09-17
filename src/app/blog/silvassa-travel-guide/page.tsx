@@ -631,6 +631,15 @@ export default function SilvassaGuidePage() {
                 {/* ── Satmaliya ─────────────────────────────────────────── */}
                 <section id="satmaliya">
                   <h2>Satmaliya Deer Sanctuary</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/silvassa/chital-spotted-deer-forest.webp"
+                      alt="A chital (spotted deer) buck in dry deciduous forest — the species found at Satmaliya Deer Sanctuary near Khanvel"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     <strong>Satmaliya Deer Sanctuary</strong> is a protected
                     forest area near Khanvel where spotted deer roam in a
@@ -651,6 +660,15 @@ export default function SilvassaGuidePage() {
                 {/* ── Madhuban Dam ──────────────────────────────────────── */}
                 <section id="madhuban-dam">
                   <h2>Madhuban Dam</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/madhuban-dam/madhuban-dam-reservoir-view-silvassa.webp"
+                      alt="The wide Madhuban Dam reservoir on the Damanganga river near Silvassa, framed by forested hills"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     <strong>Madhuban Dam</strong>, built on the Damanganga
                     river, is the district's other major reservoir and a
@@ -672,6 +690,15 @@ export default function SilvassaGuidePage() {
                 {/* ── Vasona ────────────────────────────────────────────── */}
                 <section id="vasona">
                   <h2>Vasona Lion Safari Park</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/silvassa/vanganga-garden-silvassa-evening-path.webp"
+                      alt="A lit garden path and lawn at Vanganga Garden in Silvassa, near Vasona Lion Safari Park"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Right within Silvassa town, <strong>Vasona Lion Safari
                     Park</strong> is a small zoological and wildlife park
@@ -694,6 +721,15 @@ export default function SilvassaGuidePage() {
                 {/* ── Warli Culture ─────────────────────────────────────── */}
                 <section id="warli-culture">
                   <h2>Warli Tribal Art & Culture</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/silvassa/warli-tribal-painting-mud-wall.webp"
+                      alt="A circular Warli tribal painting of dancing figures in white pigment on a mud wall"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Beyond its lakes and gardens, what makes Dadra & Nagar
                     Haveli genuinely distinctive is its significant{" "}

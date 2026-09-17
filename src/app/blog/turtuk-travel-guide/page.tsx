@@ -735,6 +735,15 @@ export default function TurtukPage() {
                 {/* ── Balti Culture ─────────────────────────────────────── */}
                 <section id="balti-culture">
                   <h2>Balti Culture, Language & Architecture</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/ladakh/turtuk/balti-stone-timber-house-tyakshi.webp"
+                      alt="Traditional Balti stone-and-timber house with carved wooden window frames in Tyakshi Grong, near Turtuk"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Everything about Turtuk signals that you have crossed into
                     a different cultural world from the rest of Ladakh. The
@@ -824,6 +833,15 @@ export default function TurtukPage() {
                     directly from homes at a fraction of what you'd pay in a
                     Leh souvenir shop.
                   </p>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/ladakh/turtuk/apricot-kernels-turtuk-child.webp"
+                      alt="A young girl sorting cracked apricot kernels on a doorstep in Turtuk village"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <div
                     className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-xl my-4 text-sm"
                     style={{ fontFamily: "var(--font-dm-sans)" }}

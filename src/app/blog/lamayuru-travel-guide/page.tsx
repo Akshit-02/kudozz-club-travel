@@ -628,6 +628,15 @@ export default function LamayuruPage() {
                 {/* ── Monastery ─────────────────────────────────────────── */}
                 <section id="monastery">
                   <h2>Lamayuru Monastery</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/ladakh/lamayuru/lamayuru-monastery-entrance-prayer-flags.webp"
+                      alt="The entrance courtyard of Lamayuru Monastery strung with prayer flags, Ladakh"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     <strong>Lamayuru Monastery</strong> (Yuru Gompa) traces
                     its roots to the 11th century, when the Kashmiri
@@ -800,6 +809,15 @@ export default function LamayuruPage() {
                 {/* ── Wanla ─────────────────────────────────────────────── */}
                 <section id="wanla">
                   <h2>Wanla Village & Monastery</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/ladakh/lamayuru/wanla-gompa-monastery-ridge.webp"
+                      alt="Wanla Gompa's three-storey Avalokiteshvara temple perched on a rocky ridge above Wanla village"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     About 8 km back toward Leh, just off the highway, the
                     small village of <strong>Wanla</strong> is an easy

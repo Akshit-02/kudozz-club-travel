@@ -669,8 +669,8 @@ export default function AgattiIslandGuidePage() {
                   <h2>Agatti Beach & Lagoon</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/blogs/lakshadweep/agatti-island/agatti-island-lagoon-beach.webp"
-                      alt="Turquoise Agatti lagoon fringed with white sand and coconut palms"
+                      src="/images/blogs/lakshadweep/agatti-island/agatti-anthan-beach-lagoon-kayaks.webp"
+                      alt="Anthan Beach in Agatti — white sand, kayaks, and a fishing boat anchored in the shallow turquoise lagoon"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -709,6 +709,15 @@ export default function AgattiIslandGuidePage() {
                 {/* ── Diving & Snorkelling ──────────────────────────────── */}
                 <section id="diving-snorkeling">
                   <h2>Reefs, Diving & Snorkelling</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/lakshadweep/agatti-island/agatti-coral-reef-fish.webp"
+                      alt="A reef fish swimming over coral at Agatti's reef, Lakshadweep"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Agatti's coral reef is among the healthiest and most
                     accessible in Lakshadweep, making it one of the
@@ -749,6 +758,15 @@ export default function AgattiIslandGuidePage() {
                 {/* ── Lagoon Cruises & Sunset Views ─────────────────────── */}
                 <section id="cruises-sunsets">
                   <h2>Lagoon Cruises & Sunset Views</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/lakshadweep/agatti-island/agatti-lagoon-fishing-boat.webp"
+                      alt="A traditional wooden boat crossing Agatti's lagoon with the island's coastline behind"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Beyond diving and snorkelling, Agatti's lagoon is simply
                     a beautiful place to be out on the water in the late

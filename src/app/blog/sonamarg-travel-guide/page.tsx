@@ -598,8 +598,8 @@ export default function SonamargGuidePage() {
                   <h2>Thajiwas Glacier</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/blogs/jammu-and-kashmir/sonamarg/thajiwas-glacier-valley-sonamarg.webp"
-                      alt="Snow patches and a glacial stream in the Thajiwas Glacier valley above Sonamarg, Kashmir"
+                      src="/images/blogs/jammu-and-kashmir/sonamarg/thajiwas-snowfield-pine-forest-trail.webp"
+                      alt="Visitors on the snowfield at Thajiwas Glacier, framed by pine forest and the surrounding peaks above Sonamarg"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -657,6 +657,15 @@ export default function SonamargGuidePage() {
                     appeal is the valley around it — a genuine crossroads
                     between Kashmir's meadows and Ladakh's high desert.
                   </p>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/jammu-and-kashmir/sonamarg/sindh-river-winter-flow-sonamarg.webp"
+                      alt="The Sindh River rushing over snow-covered rocks through pine forest near Sonamarg"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <ul>
                     <li>
                       <strong>Sindh River:</strong> The river that gives the
@@ -693,11 +702,38 @@ export default function SonamargGuidePage() {
                       longer trek.
                     </li>
                   </ul>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/jammu-and-kashmir/sonamarg/zoji-la-pass-valley-view.webp"
+                      alt="The Sindh valley and switchback road seen from the climb toward Zoji La pass, with snow-capped peaks behind"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/jammu-and-kashmir/sonamarg/baltal-last-village-kashmir-valley.webp"
+                      alt="A small settlement amid pine forest and a mountain stream near Baltal, the last village of the Kashmir Valley"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                 </section>
 
                 {/* ── Adventure Activities ────────────────────────────────── */}
                 <section id="adventure">
                   <h2>Adventure Activities in Sonamarg</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/jammu-and-kashmir/sonamarg/krishansar-lake-great-lakes-trek.webp"
+                      alt="Krishansar Lake surrounded by rocky Himalayan peaks, an early stop on the multi-day Kashmir Great Lakes Trek from Sonamarg"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <ul>
                     <li>
                       <strong>Rafting on the Sindh River:</strong> Short,
