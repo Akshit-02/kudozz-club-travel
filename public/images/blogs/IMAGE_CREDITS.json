@@ -1669,7 +1669,8 @@
     {
       "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/daman/devka-beach-sunset-tidal-flats.webp",
       "usedIn": [
-        "daman-travel-guide (Devka Beach section)"
+        "daman-travel-guide (Devka Beach section)",
+        "devka-beach-travel-guide"
       ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Devka_beach_sunset_in_daman.jpg",
@@ -1801,7 +1802,8 @@
     {
       "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/moti-daman/bom-jesus-church-interior-altar.webp",
       "usedIn": [
-        "moti-daman-travel-guide (hero — replaces a Goa photo used in error)"
+        "moti-daman-travel-guide (hero — replaces a Goa photo used in error)",
+        "moti-daman-fort-travel-guide"
       ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Church_of_Bom_Jesus,_Daman,_Dadra_and_Nagar_Haveli_and_Daman_and_Diu,_India_(2015).jpg",
@@ -1813,7 +1815,8 @@
     {
       "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/moti-daman/moti-daman-fort-gate-arch.webp",
       "usedIn": [
-        "moti-daman-travel-guide (Fort of St. Jerome section)"
+        "moti-daman-travel-guide (Fort of St. Jerome section)",
+        "moti-daman-fort-travel-guide"
       ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Daman_MotiDaman_Fort.JPG",
@@ -3218,7 +3221,8 @@
     {
       "path": "/images/blogs/chandigarh/chandigarh/sukhna-lake-boating-promenade-chandigarh.webp",
       "usedIn": [
-        "chandigarh-travel-guide"
+        "chandigarh-travel-guide",
+        "rock-garden-chandigarh-travel-guide"
       ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Sukhna_Lake_Chandigarh_Evening.jpg",
@@ -4410,7 +4414,8 @@
     {
       "path": "/images/blogs/puducherry/puducherry/auroville-matrimandir-golden-dome.webp",
       "usedIn": [
-        "puducherry-district-travel-guide"
+        "puducherry-district-travel-guide",
+        "puducherry-french-quarter-travel-guide"
       ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:The_Matrimandir_in_Auroville,_Tamil_Nadu,_India.jpg",
@@ -6257,6 +6262,259 @@
       "license": "CC BY-SA 4.0",
       "author": "Lillottama",
       "attribution": "Photo by Lillottama, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "destinations/puducherry/paradise-beach-chunnambar.webp",
+      "usedIn": [
+        "puducherry-french-quarter-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Paradise_beach_in_pondicherry.jpg",
+      "originalFile": "Paradise_beach_in_pondicherry.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Ehteshaamk",
+      "attribution": "Photo by Ehteshaamk, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/jammu-and-kashmir/doodhpathri/shaliganga-stream-boulders-pine-forest.webp",
+      "usedIn": [
+        "doodhpathri-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:River_stream_near_Doodhpathri_southwest_Jammu_Kashmir_India.jpg",
+      "originalFile": "River_stream_near_Doodhpathri_southwest_Jammu_Kashmir_India.jpg",
+      "license": "CC BY-SA 2.0",
+      "author": "Ankur P",
+      "attribution": "Photo by Ankur P, CC BY-SA 2.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/jammu-and-kashmir/doodhpathri/pony-riders-doodhpathri-meadow.webp",
+      "usedIn": [
+        "doodhpathri-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Doodhpathri_-_pony_riding_across_the_meadows_southwest_Jammu_Kashmir_India.jpg",
+      "originalFile": "Doodhpathri_-_pony_riding_across_the_meadows_southwest_Jammu_Kashmir_India.jpg",
+      "license": "CC BY-SA 2.0",
+      "author": "Ankur P",
+      "attribution": "Photo by Ankur P, CC BY-SA 2.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/jammu-and-kashmir/doodhpathri/doodhpathri-pine-forest-snow-mountains.webp",
+      "usedIn": [
+        "doodhpathri-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Forests_of_Doodhpathri,Jammu_%26_Kashmir.jpg",
+      "originalFile": "Forests_of_Doodhpathri,Jammu_%26_Kashmir.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "R-yn (Cheeku aryan)",
+      "attribution": "Photo by R-yn, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/puducherry/mahe-district/mahe-walkway-riverfront-promenade-lampposts.webp",
+      "usedIn": [
+        "mahe-district-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Mah%C3%A9_Walk.jpg",
+      "originalFile": "Mah%C3%A9_Walk.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Kondephy",
+      "attribution": "Photo by Kondephy, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/puducherry/mahe-district/st-teresas-shrine-entrance-mahe.webp",
+      "usedIn": [
+        "mahe-district-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Mahe_church_door.jpg",
+      "originalFile": "Mahe_church_door.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Prof tpms",
+      "attribution": "Photo by Prof tpms, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/puducherry/mahe-district/mahe-beach-fishing-boats-shoreline.webp",
+      "usedIn": [
+        "mahe-district-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Mah%C3%A9_(India)_Main_Beach.jpg",
+      "originalFile": "Mah%C3%A9_(India)_Main_Beach.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Kondephy",
+      "attribution": "Photo by Kondephy, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/chandigarh/rock-garden/rock-garden-narrow-passage-walkway-chandigarh.webp",
+      "usedIn": [
+        "rock-garden-chandigarh-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Scene_at_Nek_Chand_Fantasy_Rock_Garden_-_Chandigarh_U.T._-_India_-_02_(25901815083).jpg",
+      "originalFile": "Scene_at_Nek_Chand_Fantasy_Rock_Garden_-_Chandigarh_U.T._-_India_-_02_(25901815083).jpg",
+      "license": "CC BY-SA 2.0",
+      "author": "Adam Jones",
+      "attribution": "Photo by Adam Jones, CC BY-SA 2.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/chandigarh/rock-garden/rock-garden-ceramic-mosaic-wall-detail-chandigarh.webp",
+      "usedIn": [
+        "rock-garden-chandigarh-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Detail_of_Wall_Embedded_with_Electrical_Fixtures_-_Nek_Chand_Fantasy_Rock_Garden_-_Chandigarh_U.T._-_India_(26412220982).jpg",
+      "originalFile": "Detail_of_Wall_Embedded_with_Electrical_Fixtures_-_Nek_Chand_Fantasy_Rock_Garden_-_Chandigarh_U.T._-_India_(26412220982).jpg",
+      "license": "CC BY-SA 2.0",
+      "author": "Adam Jones",
+      "attribution": "Photo by Adam Jones, CC BY-SA 2.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/jammu-and-kashmir/bhaderwah/jai-valley-bhaderwah-meadow-stream-camping.webp",
+      "usedIn": [
+        "bhaderwah-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Jai_Valley_Bhaderwah_1.jpg",
+      "originalFile": "Jai_Valley_Bhaderwah_1.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Vikramaditya Singh Sumbria",
+      "attribution": "Photo by Vikramaditya Singh Sumbria, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/jammu-and-kashmir/bhaderwah/kailash-kund-glacial-lake-bhaderwah.webp",
+      "usedIn": [
+        "bhaderwah-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:KAILASH_KUND_BHADERWAH.jpg",
+      "originalFile": "KAILASH_KUND_BHADERWAH.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "ShubamSR",
+      "attribution": "Photo by ShubamSR, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/jammu-and-kashmir/bhaderwah/bhaderwah-valley-village-pine-forest-doda.webp",
+      "usedIn": [
+        "bhaderwah-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Bhaderwah_Valley_1.jpg",
+      "originalFile": "Bhaderwah_Valley_1.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Vikramaditya Singh Sumbria",
+      "attribution": "Photo by Vikramaditya Singh Sumbria, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/jammu-and-kashmir/aharbal/aharbal-falls-wide-angle-gorge-kashmir.webp",
+      "usedIn": [
+        "aharbal-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Aharbal_Waterfall,_Kashmir.jpg",
+      "originalFile": "Aharbal_Waterfall,_Kashmir.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "TheAutumnal",
+      "attribution": "Photo by TheAutumnal, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/jammu-and-kashmir/aharbal/aharbal-falls-rocks-visitors-close-view.webp",
+      "usedIn": [
+        "aharbal-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Aharbal_falls,_a_closer_view.jpg",
+      "originalFile": "Aharbal_falls,_a_closer_view.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "ThePoeticFrame",
+      "attribution": "Photo by ThePoeticFrame, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/jammu-and-kashmir/aharbal/veshaw-river-footbridge-kongwattan-trail.webp",
+      "usedIn": [
+        "aharbal-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Sangam_wooden_Bridge_over_River_Aherbal_3_kms_from_Aherbal_waterfall_foot_road_approaching_Kongwattan.jpg",
+      "originalFile": "Sangam_wooden_Bridge_over_River_Aherbal_3_kms_from_Aherbal_waterfall_foot_road_approaching_Kongwattan.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Shahid Mushtaq Itoo",
+      "attribution": "Photo by Shahid Mushtaq Itoo, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/puducherry/karaikal-district/nala-theertham-tank-dawn-tirunallar.webp",
+      "usedIn": [
+        "karaikal-district-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:The_Nala_Theertham_at_dawn..jpg",
+      "originalFile": "The_Nala_Theertham_at_dawn..jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Aravind Sivaraj (Yes.aravind)",
+      "attribution": "Photo by Aravind Sivaraj, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/puducherry/karaikal-district/karaikal-ammaiyar-temple-facade-relief.webp",
+      "usedIn": [
+        "karaikal-district-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Karaikal_Ammaiyar_temple_karaikkal_JEG2488_.jpg",
+      "originalFile": "Karaikal_Ammaiyar_temple_karaikkal_JEG2488_.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "P Jeganathan",
+      "attribution": "Photo by P Jeganathan, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/puducherry/karaikal-district/karaikal-lighthouse-beach-view.webp",
+      "usedIn": [
+        "karaikal-district-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Karaikal_light_house.jpg",
+      "originalFile": "Karaikal_light_house.jpg",
+      "license": "CC BY 2.0",
+      "author": "RameshSharma1",
+      "attribution": "Photo by RameshSharma1, CC BY 2.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/puducherry/karaikal-district/swayambunathaswamy-temple-nedungadu-village.webp",
+      "usedIn": [
+        "karaikal-district-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Swayambunathaswamy_Temple,_Nedungadu.jpg",
+      "originalFile": "Swayambunathaswamy_Temple,_Nedungadu.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Rosesindecember",
+      "attribution": "Photo by Rosesindecember, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/moti-daman-fort/moti-daman-fort-rampart-stairway-archway.webp",
+      "usedIn": [
+        "moti-daman-fort-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Upstairs_to_Moti_Daman_Fort_By_Portuguese_in_15th_century.jpg",
+      "originalFile": "Upstairs_to_Moti_Daman_Fort_By_Portuguese_in_15th_century.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Sethi kc",
+      "attribution": "Photo by Sethi kc, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/chandigarh/chandigarh/rock-garden-mosaic-sculptures-chandigarh.webp",
+      "usedIn": [
+        "chandigarh-travel-guide (hero)",
+        "rock-garden-chandigarh-travel-guide (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Bizzare_human_figurines_and_peacocks,_done_typically_Nek_Chand_style_(30405095878).jpg",
+      "originalFile": "Bizzare_human_figurines_and_peacocks,_done_typically_Nek_Chand_style_(30405095878).jpg",
+      "license": "CC BY 2.0",
+      "author": "shankar s.",
+      "attribution": "Photo by shankar s., CC BY 2.0, via Wikimedia Commons"
     }
   ]
 }

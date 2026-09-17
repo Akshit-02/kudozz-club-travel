@@ -30,7 +30,7 @@ export const metadata: Metadata = {
         url: "/images/blogs/chandigarh/chandigarh/rock-garden-mosaic-sculptures-chandigarh.webp",
         width: 1500,
         height: 1125,
-        alt: "Mosaic animal sculptures made from broken ceramics and bangles at the Rock Garden, Chandigarh",
+        alt: "Rows of bangle-and-ceramic mosaic human figures and peacock sculptures on a terraced red-stone wall at the Rock Garden, Chandigarh",
       },
     ],
   },
@@ -278,7 +278,7 @@ export default function ChandigarhGuidePage() {
           <div className="absolute inset-0">
             <Image
               src="/images/blogs/chandigarh/chandigarh/rock-garden-mosaic-sculptures-chandigarh.webp"
-              alt="Mosaic animal sculptures made from broken ceramics and bangles at the Rock Garden, Chandigarh"
+              alt="Rows of bangle-and-ceramic mosaic human figures and peacock sculptures on a terraced red-stone wall at the Rock Garden, Chandigarh"
               fill
               priority
               sizes="100vw"
@@ -610,7 +610,7 @@ export default function ChandigarhGuidePage() {
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
                       src="/images/blogs/chandigarh/chandigarh/rock-garden-mosaic-sculptures-chandigarh.webp"
-                      alt="Mosaic animal sculptures made from broken ceramics and bangles at the Rock Garden, Chandigarh"
+                      alt="Rows of bangle-and-ceramic mosaic human figures and peacock sculptures on a terraced red-stone wall at the Rock Garden, Chandigarh"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

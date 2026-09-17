@@ -581,6 +581,15 @@ export default function MotiDamanFortGuidePage() {
                 {/* ── Ramparts & Bastions ───────────────────────────────── */}
                 <section id="ramparts-bastions">
                   <h2>The Ramparts and Ten Bastions</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/moti-daman-fort/moti-daman-fort-rampart-stairway-archway.webp"
+                      alt="Worn stone steps rising through a vaulted archway inside Moti Daman Fort's ramparts"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     The fort's defining feature is its sheer scale of
                     fortification. A continuous run of thick laterite and
@@ -623,6 +632,15 @@ export default function MotiDamanFortGuidePage() {
                 {/* ── Bom Jesus Church ──────────────────────────────────── */}
                 <section id="bom-jesus-church">
                   <h2>Bom Jesus Church Inside the Fort Walls</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/moti-daman/bom-jesus-church-interior-altar.webp"
+                      alt="The gilded, ornately carved baroque altar and nave of Bom Jesus Church inside Moti Daman Fort"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Tucked inside the fort's perimeter is{" "}
                     <strong>Bom Jesus Church</strong>, one of the genuine
@@ -664,6 +682,15 @@ export default function MotiDamanFortGuidePage() {
                 {/* ── Administrative Quarter ────────────────────────────── */}
                 <section id="administrative-quarter">
                   <h2>The Collectorate & Old Administrative Buildings</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/moti-daman/moti-daman-fort-gate-arch.webp"
+                      alt="The weathered stone archway gate of Moti Daman Fort with its carved Portuguese royal crest, leading to the administrative quarter"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Beyond the church, a walk through Moti Daman Fort passes
                     a cluster of old Portuguese-era{" "}

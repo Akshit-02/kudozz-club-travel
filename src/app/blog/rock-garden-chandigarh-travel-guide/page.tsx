@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/chandigarh/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "A calm lake ringed by the Shivalik hills in Chandigarh's Sector 1 — the same leisure valley that is home to Nek Chand's Rock Garden",
+        url: "/images/blogs/chandigarh/chandigarh/rock-garden-mosaic-sculptures-chandigarh.webp",
+        width: 1500,
+        height: 1125,
+        alt: "Rows of bangle-and-ceramic mosaic human figures and peacock sculptures on a terraced red-stone wall at the Rock Garden, Chandigarh",
       },
     ],
   },
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     title: "Rock Garden Chandigarh: Nek Chand's Travel Guide & Tips",
     description:
       "A 40-acre maze of courtyards, waterfalls, and thousands of mosaic sculptures — all built in secret from broken ceramics and industrial waste.",
-    images: ["/images/destinations/chandigarh/hero.jpg"],
+    images: ["/images/blogs/chandigarh/chandigarh/rock-garden-mosaic-sculptures-chandigarh.webp"],
   },
   robots: {
     index: true,
@@ -59,7 +59,7 @@ function ArticleSchema() {
           description:
             "Complete guide to the Rock Garden, Chandigarh — Nek Chand's 40-acre sculpture garden built secretly from industrial waste. History, timings, entry fee, the courtyards, and visit tips.",
           image:
-            "https://club.kudozz.in/images/destinations/chandigarh/hero.jpg",
+            "https://club.kudozz.in/images/blogs/chandigarh/chandigarh/rock-garden-mosaic-sculptures-chandigarh.webp",
           datePublished: "2026-08-31",
           dateModified: "2026-08-31",
           publisher: {
@@ -207,8 +207,8 @@ export default function RockGardenGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/chandigarh/hero.jpg"
-              alt="A calm lake ringed by the Shivalik hills in Chandigarh's Sector 1 — the same leisure valley that is home to Nek Chand's Rock Garden"
+              src="/images/blogs/chandigarh/chandigarh/rock-garden-mosaic-sculptures-chandigarh.webp"
+              alt="Rows of bangle-and-ceramic mosaic human figures and peacock sculptures on a terraced red-stone wall at the Rock Garden, Chandigarh"
               fill
               priority
               sizes="100vw"
@@ -626,8 +626,8 @@ export default function RockGardenGuidePage() {
 
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/chandigarh/hero.jpg"
-                      alt="The wooded, water-fed landscape of Chandigarh's Sector 1, where Nek Chand salvaged streambed stones and waste materials to build the Rock Garden's courtyards and waterfalls"
+                      src="/images/blogs/chandigarh/rock-garden/rock-garden-narrow-passage-walkway-chandigarh.webp"
+                      alt="Visitors walking through a narrow, rugged rock-walled passageway between courtyards at the Rock Garden, Chandigarh"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -671,6 +671,15 @@ export default function RockGardenGuidePage() {
                 {/* ── Materials & Craft ─────────────────────────────────── */}
                 <section id="materials-and-craft">
                   <h2>Materials & Craft</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/chandigarh/rock-garden/rock-garden-ceramic-mosaic-wall-detail-chandigarh.webp"
+                      alt="Close-up of a Rock Garden wall densely studded with discarded ceramic electrical fittings, showing the salvaged-material technique behind the sculptures"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     What sets the Rock Garden apart from most sculpture
                     parks is that essentially nothing in it was purpose-made
@@ -850,6 +859,15 @@ export default function RockGardenGuidePage() {
                     making this corner of the city a natural half- or full-day
                     cluster rather than a single-stop visit.
                   </p>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/chandigarh/chandigarh/sukhna-lake-boating-promenade-chandigarh.webp"
+                      alt="Pedal boats moored along the promenade at Sukhna Lake, right next to the Rock Garden in Chandigarh's Sector 1"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <ul>
                     <li>
                       <strong>

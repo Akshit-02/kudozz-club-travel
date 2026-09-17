@@ -666,6 +666,15 @@ export default function DevkaBeachGuidePage() {
                 {/* ── Sunset ────────────────────────────────────────────── */}
                 <section id="sunset">
                   <h2>Sunset at Devka Beach</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/daman/devka-beach-sunset-tidal-flats.webp"
+                      alt="Sunset over the tidal flats at Devka Beach, sun dipping toward the Arabian Sea, Daman"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Sunset is genuinely the best time to be here. The
                     promenade and garden lights come on as the crowd builds,

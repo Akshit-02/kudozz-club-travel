@@ -685,6 +685,15 @@ export default function PuducherryGuidePage() {
                 {/* ── Auroville ──────────────────────────────────────────── */}
                 <section id="auroville">
                   <h2>Auroville & the Matrimandir</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/puducherry/puducherry/auroville-matrimandir-golden-dome.webp"
+                      alt="The golden geodesic Matrimandir sphere rising above Auroville's lawns"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Founded in 1968 as an experimental "universal town,"{" "}
                     <strong>Auroville</strong> sits about 10 km north of
@@ -731,6 +740,15 @@ export default function PuducherryGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Things to Do in Puducherry</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/destinations/puducherry/paradise-beach-chunnambar.webp"
+                      alt="Visitors walking the quiet sandy shore of Paradise Beach near Chunnambar, Puducherry"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <ul>
                     <li>
                       <strong>Cycle the French Quarter at sunrise:</strong>

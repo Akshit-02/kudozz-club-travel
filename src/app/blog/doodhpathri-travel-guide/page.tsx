@@ -577,8 +577,8 @@ export default function DoodhpathriGuidePage() {
                   <h2>Things to Do in Doodhpathri</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/blogs/jammu-and-kashmir/doodhpathri/doodhpathri-meadow-pine-forest.webp"
-                      alt="The rolling green meadow of Doodhpathri ringed by dense pine forest, Kashmir"
+                      src="/images/blogs/jammu-and-kashmir/doodhpathri/doodhpathri-pine-forest-snow-mountains.webp"
+                      alt="Dense pine forest in Doodhpathri opening onto a meadow, with snow-capped Pir Panjal peaks in the distance"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -597,6 +597,17 @@ export default function DoodhpathriGuidePage() {
                       watching the water froth white over the stones that
                       give the valley its "milk" name.
                     </li>
+                  </ul>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/jammu-and-kashmir/doodhpathri/shaliganga-stream-boulders-pine-forest.webp"
+                      alt="The Shaliganga stream churning white over boulders near Doodhpathri, framed by pine forest"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
+                  <ul>
                     <li>
                       <strong>Meadow walks:</strong> The open grassland
                       rolls gently for a couple of kilometres, framed by
@@ -609,6 +620,17 @@ export default function DoodhpathriGuidePage() {
                       surrounding ridgelines, similar in spirit to
                       Gulmarg but far less commercialised and cheaper.
                     </li>
+                  </ul>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/jammu-and-kashmir/doodhpathri/pony-riders-doodhpathri-meadow.webp"
+                      alt="Pony riders crossing the wide green meadow at Doodhpathri, Kashmir"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
+                  <ul>
                     <li>
                       <strong>Photography:</strong> Wide-open meadow,
                       grazing horses, pine treelines, and the stream all

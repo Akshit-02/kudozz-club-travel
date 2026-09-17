@@ -626,8 +626,8 @@ export default function MaheDistrictGuidePage() {
                   <h2>Mahe Town</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/blogs/puducherry/mahe-district/mahe-river-boathouse-mahe-district.webp"
-                      alt="Mahe town riverfront with the bridge over the Mahe River"
+                      src="/images/blogs/puducherry/mahe-district/mahe-walkway-riverfront-promenade-lampposts.webp"
+                      alt="The Mahe Walkway riverfront promenade lined with lamp posts along the Mahe River"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -656,6 +656,17 @@ export default function MaheDistrictGuidePage() {
                       Catholic church and one of Mahe's most significant
                       landmarks, especially lively during its annual feast.
                     </li>
+                  </ul>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/puducherry/mahe-district/st-teresas-shrine-entrance-mahe.webp"
+                      alt="Decorated entrance of St. Teresa's Shrine in Mahe, with the church's name board visible"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
+                  <ul>
                     <li>
                       <strong>Tagore Park:</strong> A small, well-kept public
                       park in the town centre, named for Rabindranath Tagore
@@ -672,6 +683,15 @@ export default function MaheDistrictGuidePage() {
                       marking the coast, worth the short walk for sea views.
                     </li>
                   </ul>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/puducherry/mahe-district/mahe-beach-fishing-boats-shoreline.webp"
+                      alt="Mahe Beach with colourful fishing boats lined along the shore near the river mouth"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <div
                     className="bg-forest-50 border-l-4 border-forest-500 p-4 rounded-r-xl my-4 text-sm"
                     style={{ fontFamily: "var(--font-dm-sans)" }}

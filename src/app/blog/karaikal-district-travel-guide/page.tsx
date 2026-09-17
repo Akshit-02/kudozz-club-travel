@@ -632,6 +632,15 @@ export default function KaraikalDistrictGuidePage() {
                     lighthouse, and a historic church — alongside a
                     significant Hindu pilgrimage site of its own.
                   </p>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/puducherry/karaikal-district/karaikal-ammaiyar-temple-facade-relief.webp"
+                      alt="Carved stone relief and signboard at the entrance of Karaikal Ammaiyar Temple in Karaikal town"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <ul>
                     <li>
                       <strong>Karaikal Beach:</strong> A working coastal
@@ -663,6 +672,15 @@ export default function KaraikalDistrictGuidePage() {
                       that this coastline still works for a living.
                     </li>
                   </ul>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/puducherry/karaikal-district/karaikal-lighthouse-beach-view.webp"
+                      alt="Karaikal Lighthouse rising above the beach and coastline at the edge of town"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <div
                     className="bg-forest-50 border-l-4 border-forest-500 p-4 rounded-r-xl my-4 text-sm"
                     style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -679,8 +697,8 @@ export default function KaraikalDistrictGuidePage() {
                   <h2>Tirunallar: The Saneeswaran Temple</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/blogs/puducherry/karaikal-district/thirunallar-temple-tank-karaikal.webp"
-                      alt="Sri Dharbaranyeswarar Temple tank at Tirunallar with the temple gopuram behind it"
+                      src="/images/blogs/puducherry/karaikal-district/nala-theertham-tank-dawn-tirunallar.webp"
+                      alt="Pilgrims bathing in the Nala Theertham tank at dawn beside Tirunallar's Saneeswaran Temple"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -728,6 +746,15 @@ export default function KaraikalDistrictGuidePage() {
                 {/* ── Neravy, Kottucherry & Nedungadu ───────────────────── */}
                 <section id="neravy-kottucherry-nedungadu">
                   <h2>Neravy, Kottucherry & Nedungadu</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/puducherry/karaikal-district/swayambunathaswamy-temple-nedungadu-village.webp"
+                      alt="The Swayambunathaswamy Temple gopuram behind a green gate in the village of Nedungadu"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     The district's remaining three areas are its quietest —
                     coastal and rural stretches of the Cauvery delta that see

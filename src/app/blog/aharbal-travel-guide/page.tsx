@@ -578,8 +578,8 @@ export default function AharbalGuidePage() {
                   <h2>The Falls Experience</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/blogs/jammu-and-kashmir/aharbal/aharbal-falls-viewing-deck-kashmir.webp"
-                      alt="Viewing deck overlooking the roaring cascade of Aharbal Falls, Kulgam district, Kashmir"
+                      src="/images/blogs/jammu-and-kashmir/aharbal/aharbal-falls-wide-angle-gorge-kashmir.webp"
+                      alt="Wide-angle view of Aharbal Falls crashing through a rocky gorge from the main viewpoint, with safety railings in the foreground"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -621,6 +621,15 @@ export default function AharbalGuidePage() {
                       worth asking a guide about.
                     </li>
                   </ul>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/jammu-and-kashmir/aharbal/aharbal-falls-rocks-visitors-close-view.webp"
+                      alt="Visitors seated on wet rocks right at the edge of Aharbal Falls, illustrating how close and slippery the unrailed sections can be"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     The rocks closest to the water are perpetually wet and
                     genuinely slippery — this is the one place at Aharbal
@@ -641,6 +650,15 @@ export default function AharbalGuidePage() {
                     <strong>3,500 metres</strong>, cupped by bare rock peaks
                     of the Pir Panjal range.
                   </p>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/jammu-and-kashmir/aharbal/veshaw-river-footbridge-kongwattan-trail.webp"
+                      alt="Trekkers crossing a wooden footbridge over the Veshaw River on the trail toward Kongwattan meadow, en route to Kounsarnag Lake"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     This is not a casual extension of a day trip to the
                     falls. The route to Kounsarnag typically takes{" "}

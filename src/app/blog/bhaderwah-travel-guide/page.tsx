@@ -363,6 +363,15 @@ export default function BhaderwahGuidePage() {
                     snow-fed streams that could pass for the Kashmir Valley
                     proper, minus the crowds.
                   </p>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/jammu-and-kashmir/bhaderwah/kailash-kund-glacial-lake-bhaderwah.webp"
+                      alt="Kailash Kund, a glacial lake ringed by bare scree slopes high in the Bhaderwah Kailash range above the town"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Bhaderwah sits south of the Pir Panjal range, which makes
                     it geographically and administratively distinct from
@@ -580,8 +589,8 @@ export default function BhaderwahGuidePage() {
                     <h3>Jai Valley</h3>
                     <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                       <Image
-                        src="/images/blogs/jammu-and-kashmir/bhaderwah/jai-valley-bhaderwah-meadow-doda.webp"
-                        alt="Deodar pine trees bordering a grassy meadow and stream at Jai Valley, Bhaderwah"
+                        src="/images/blogs/jammu-and-kashmir/bhaderwah/jai-valley-bhaderwah-meadow-stream-camping.webp"
+                        alt="Grazing cattle and camping tents beside the stream running through the open meadow of Jai Valley, Bhaderwah"
                         fill
                         sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                         className="object-cover"
@@ -702,6 +711,15 @@ export default function BhaderwahGuidePage() {
                     performed at festivals and around the Vasuki Nag Mela, is
                     one of the more visible expressions of it.
                   </p>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/jammu-and-kashmir/bhaderwah/bhaderwah-valley-village-pine-forest-doda.webp"
+                      alt="A farming village of tin-roofed houses set among terraced fields and pine-forested slopes near Bhaderwah, Doda district"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     The valley's high meadows, including Jai Valley, Chinta
                     Valley, and Seoj Dhar, are seasonal grazing ground for{" "}
