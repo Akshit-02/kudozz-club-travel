@@ -651,6 +651,17 @@ export default function YanamDistrictGuidePage() {
                       the town's geography and its French colonial history as
                       a trading post.
                     </li>
+                  </ul>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/puducherry/yanam-district/yanam-bridge-godavari-river-night.webp"
+                      alt="A long bridge crossing the Godavari River at Yanam, lit up at dusk with its reflection on the water"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
+                  <ul>
                     <li>
                       <strong>Yanam Tower:</strong> A local landmark
                       structure in town, worth a stop as part of a short
@@ -661,6 +672,17 @@ export default function YanamDistrictGuidePage() {
                       stretch near the town, considerably quieter than the
                       major Andhra Pradesh coastal beaches nearby.
                     </li>
+                  </ul>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/puducherry/yanam-district/yanam-tower-eiffel-replica.webp"
+                      alt="Yanam Tower, a distinctive Eiffel Tower-style observation structure rising above the town's paddy fields"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
+                  <ul>
                     <li>
                       <strong>French colonial heritage:</strong> Yanam's
                       streets and older public buildings still carry visible
@@ -668,6 +690,24 @@ export default function YanamDistrictGuidePage() {
                       town's French Quarter.
                     </li>
                   </ul>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/puducherry/yanam-district/historic-french-colonial-street-yanaon.webp"
+                      alt="Historic black-and-white photograph of a palm-lined street in French colonial-era Yanaon (Yanam), early 20th century"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
+                  <p
+                    className="text-sm text-stone-500"
+                    style={{ fontFamily: "var(--font-dm-sans)" }}
+                  >
+                    * A street in Yanaon (Yanam) during the French colonial
+                    era — the palm-lined avenues and colonial-style gates in
+                    this historical photograph still echo through parts of
+                    the town today.
+                  </p>
                   <div
                     className="bg-forest-50 border-l-4 border-forest-500 p-4 rounded-r-xl my-4 text-sm"
                     style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -682,6 +722,15 @@ export default function YanamDistrictGuidePage() {
                 {/* ── Delta Villages ────────────────────────────────────── */}
                 <section id="delta-villages">
                   <h2>Mettakur, Kolanka & Kanakalapeta</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/puducherry/yanam-district/gowthami-river-godavari-delta-boat.webp"
+                      alt="A boat on the Gowthami distributary of the Godavari River near Yanam, with the delta's waterways at sunset"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Beyond Yanam town, the district settles into genuine
                     Godavari delta countryside — three quiet villages worth a

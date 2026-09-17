@@ -571,8 +571,8 @@ export default function ConnaughtPlaceGuidePage() {
                   <h2>The Layout Explained: Inner, Middle & Outer Circle</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/blogs/delhi/connaught-place/connaught-place-colonnade-facade.webp"
-                      alt="Connaught Place's colonnaded Inner Circle facade with shops beneath the arcade, Delhi"
+                      src="/images/blogs/delhi/connaught-place/radial-road-inner-circle-connaught-place.webp"
+                      alt="A radial road leading into Connaught Place's colonnaded Inner Circle, illustrating the spoke-and-ring layout"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -629,6 +629,15 @@ export default function ConnaughtPlaceGuidePage() {
                 {/* ── Central Park ──────────────────────────────────────── */}
                 <section id="central-park">
                   <h2>Central Park: The Green Heart of CP</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/connaught-place/national-flag-central-park-connaught-place.webp"
+                      alt="The large Indian National Flag flying above Central Park at Connaught Place, one of the tallest flagpoles in the country"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     At the very centre of the circle sits{" "}
                     <strong>Central Park</strong>, a large open lawn that
@@ -670,6 +679,15 @@ export default function ConnaughtPlaceGuidePage() {
                 {/* ── Shopping ──────────────────────────────────────────── */}
                 <section id="shopping">
                   <h2>Shopping in Connaught Place</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/connaught-place/palika-bazar-underground-market-entrance.webp"
+                      alt="Entrance to Palika Bazar, the underground market beneath Connaught Place's Inner Circle, New Delhi"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     CP has arguably the widest range of shopping styles in
                     any single Delhi neighbourhood — from fixed-price
@@ -718,6 +736,15 @@ export default function ConnaughtPlaceGuidePage() {
                 {/* ── Food & Nightlife ──────────────────────────────────── */}
                 <section id="food-nightlife">
                   <h2>Food & Nightlife: Old-School Institutions Meet Modern Bars</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/connaught-place/connaught-place-colonnade-shops-night.webp"
+                      alt="Connaught Place's colonnaded shopfronts lit up after dark, with branded stores beneath the arcade"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Few places in Delhi mix eras of food culture as directly
                     as CP — decades-old restaurants that have barely changed

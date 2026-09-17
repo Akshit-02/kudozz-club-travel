@@ -591,6 +591,15 @@ export default function KhanvelGuidePage() {
                 {/* ── Satmaliya ─────────────────────────────────────────── */}
                 <section id="satmaliya">
                   <h2>Satmaliya Deer Sanctuary</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/satmaliya-deer-sanctuary/spotted-deer-fawn-satmaliya-deer-park.webp"
+                      alt="Spotted deer fawn at Satmaliya Deer Sanctuary, a short drive from Khanvel"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     A short distance from Khanvel is the{" "}
                     <Link href="/blog/satmaliya-deer-sanctuary-travel-guide">
@@ -615,6 +624,15 @@ export default function KhanvelGuidePage() {
                 {/* ── Madhuban Dam ──────────────────────────────────────── */}
                 <section id="madhuban-dam">
                   <h2>Madhuban Dam</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/madhuban-dam/madhuban-dam-reservoir-view-silvassa.webp"
+                      alt="Quiet waterside view of the Madhuban Dam reservoir on the Damanganga river, near Khanvel"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Also near Khanvel is{" "}
                     <Link href="/blog/madhuban-dam-travel-guide">

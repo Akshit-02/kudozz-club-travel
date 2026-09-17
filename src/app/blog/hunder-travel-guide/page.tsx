@@ -638,6 +638,15 @@ export default function HunderPage() {
                 {/* ── Sand Dunes ──────────────────────────────────────────── */}
                 <section id="sand-dunes">
                   <h2>Sand Dunes at Sunset</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/ladakh/nubra-valley/hunder-dunes-bactrian-camels-nubra-valley.webp"
+                      alt="Ground-level view of Hunder's pale sand dunes with Bactrian camels crossing and snow peaks in the distance"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Beyond the camel rides, simply walking barefoot across
                     Hunder's dunes at sunset is worth the trip on its own.
@@ -660,6 +669,15 @@ export default function HunderPage() {
                   {/* Diskit Monastery */}
                   <section id="diskit-monastery">
                     <h3>Diskit Monastery</h3>
+                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/blogs/ladakh/nubra-valley/diskit-monastery-maitreya-buddha-statue.webp"
+                        alt="The 32-metre gilded Maitreya Buddha statue at Diskit Monastery overlooking the Nubra Valley"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <p>
                       Just 7 km from Hunder, perched dramatically on a cliff
                       overlooking the valley, sits{" "}

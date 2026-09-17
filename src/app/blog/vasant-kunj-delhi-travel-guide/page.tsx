@@ -565,8 +565,8 @@ export default function VasantKunjGuidePage() {
                   <h2>The Mall District</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/blogs/delhi/vasant-kunj/vasant-kunj-aerial-ongc-ambience-complex.webp"
-                      alt="Aerial view of Vasant Kunj's mall and commercial complex, Delhi"
+                      src="/images/blogs/delhi/vasant-kunj/dlf-promenade-mall-exterior-vasant-kunj.webp"
+                      alt="Exterior view of DLF Promenade mall on Nelson Mandela Road in Vasant Kunj, Delhi"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -612,6 +612,15 @@ export default function VasantKunjGuidePage() {
                 {/* ── Asola Bhatti ──────────────────────────────────────── */}
                 <section id="asola-bhatti">
                   <h2>Asola Bhatti Wildlife Sanctuary</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/vasant-kunj/rhesus-macaque-asola-bhatti-wildlife-sanctuary.webp"
+                      alt="Rhesus macaque mother with infant in the Aravalli scrub forest of Asola Bhatti Wildlife Sanctuary, next to Vasant Kunj"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     This is the genuinely surprising part of a Vasant Kunj
                     visit, and the part most tourists never learn about.

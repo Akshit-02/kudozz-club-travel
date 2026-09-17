@@ -551,6 +551,15 @@ export default function ThikseyPage() {
                 {/* ── Morning Prayers ─────────────────────────────────────── */}
                 <section id="morning-prayers">
                   <h2>The 6 AM Morning Prayers</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/ladakh/thiksey/thiksey-monks-playing-ceremonial-horns-rooftop.webp"
+                      alt="Thiksey monks in ceremonial hats playing long horns on the monastery rooftop overlooking the Indus valley"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     If you do only one thing at Thiksey, make it this. Every
                     morning without fail, the monastery's monks gather in
@@ -632,8 +641,8 @@ export default function ThikseyPage() {
                   <h2>The Maitreya Buddha Statue</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/blogs/ladakh/thiksey/thiksey-monastery-hilltop-view.webp"
-                      alt="Thiksey Monastery's tiered, Potala-like complex crowning its hilltop above the Indus valley, Ladakh"
+                      src="/images/blogs/ladakh/thiksey/thiksey-maitreya-buddha-golden-face-closeup.webp"
+                      alt="Close-up of the gilded, serene face of the 15-metre seated Maitreya Buddha statue inside Thiksey Monastery"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -669,6 +678,15 @@ export default function ThikseyPage() {
                 {/* ── Architecture & Museum ───────────────────────────────── */}
                 <section id="architecture-museum">
                   <h2>Architecture & Museum</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/ladakh/thiksey/thiksey-monastery-young-monks-courtyard.webp"
+                      alt="Two young monks in maroon robes walking through a sunlit courtyard at Thiksey Monastery, Ladakh"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Thiksey's twelve-storey silhouette is no accident — the
                     complex was deliberately built to echo the Potala
@@ -702,6 +720,15 @@ export default function ThikseyPage() {
                 {/* ── Rooftop Views ────────────────────────────────────────── */}
                 <section id="rooftop-views">
                   <h2>Rooftop Views of the Indus Valley</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/ladakh/thiksey/thiksey-monastery-rooftop-chorten-indus-valley-view.webp"
+                      alt="View from Thiksey Monastery's rooftop terrace over brass chorten finials down to the Indus valley and Leh below"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Climb to the uppermost terraces of the monastery and the
                     reward is one of the finest panoramas in central Ladakh:
@@ -740,6 +767,15 @@ export default function ThikseyPage() {
                       >
                         Shey Palace
                       </h4>
+                      <div className="relative w-full rounded-lg mb-3 h-56 overflow-hidden shadow-sm">
+                        <Image
+                          src="/images/blogs/ladakh/thiksey/shey-palace-prayer-flags-stupas-mountains.webp"
+                          alt="Shey Palace's whitewashed eaves strung with prayer flags, with whitewashed stupas and snow-capped mountains behind"
+                          fill
+                          sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                          className="object-cover"
+                        />
+                      </div>
                       <p className="text-sm text-stone-600 m-0">
                         About 7 km back toward Leh, Shey was once the
                         summer capital of the Namgyal dynasty, the royal
@@ -757,6 +793,15 @@ export default function ThikseyPage() {
                       >
                         Stakna Monastery
                       </h4>
+                      <div className="relative w-full rounded-lg mb-3 h-56 overflow-hidden shadow-sm">
+                        <Image
+                          src="/images/blogs/ladakh/hemis/stakna-monastery-indus-river.webp"
+                          alt="Stakna Monastery perched on its tiger-nose-shaped hilltop above the Indus River, Ladakh"
+                          fill
+                          sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                          className="object-cover"
+                        />
+                      </div>
                       <p className="text-sm text-stone-600 m-0">
                         A short drive further along the Indus, Stakna sits
                         on a small hilltop shaped, according to local lore,

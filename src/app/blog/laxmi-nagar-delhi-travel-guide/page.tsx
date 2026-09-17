@@ -528,6 +528,15 @@ export default function LaxmiNagarGuidePage() {
                 {/* ── How to Reach ──────────────────────────────────────── */}
                 <section id="how-to-reach">
                   <h2>How to Reach Laxmi Nagar</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/laxmi-nagar/nirman-vihar-metro-station-signboard.webp"
+                      alt="Nirman Vihar Metro Station signboard on the Blue Line, overlooking the dense market below"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Laxmi Nagar's biggest practical advantage — and a large
                     part of why it grew into a coaching hub in the first
@@ -580,8 +589,8 @@ export default function LaxmiNagarGuidePage() {
                   <h2>The Laxmi Nagar Market</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/blogs/delhi/laxmi-nagar/laxmi-nagar-market-road-view.webp"
-                      alt="Traffic and shopfronts along Laxmi Nagar's main market road in East Delhi"
+                      src="/images/blogs/delhi/laxmi-nagar/laxmi-nagar-street-shop-signboards.webp"
+                      alt="A busy Laxmi Nagar street lined with dense clothing shop and institute signboards stacked above street level"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -707,6 +716,15 @@ export default function LaxmiNagarGuidePage() {
                 {/* ── Food ──────────────────────────────────────────────── */}
                 <section id="food-guide">
                   <h2>The Street Food Scene</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/laxmi-nagar/golgappa-chaat-street-food.webp"
+                      alt="Golgappe frying in hot oil at a street-side chaat stall, a staple of Laxmi Nagar's evening food scene"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Feeding a dense, budget-conscious, round-the-clock
                     student population has turned Laxmi Nagar into a

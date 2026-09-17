@@ -561,8 +561,8 @@ export default function LucknowGuidePage() {
                   <h2>Things to Do in Lucknow</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/blogs/uttar-pradesh/lucknow/bara-imambara-lucknow.webp"
-                      alt="The Bara Imambara's grand central gateway and manicured lawns in Lucknow"
+                      src="/images/blogs/uttar-pradesh/lucknow/bhul-bhulaiya-labyrinth-interior-bara-imambara.webp"
+                      alt="Inside view of the beamless central hall of Bara Imambara, with the Bhul Bhulaiya labyrinth passages above"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -587,6 +587,15 @@ export default function LucknowGuidePage() {
                   </p>
 
                   <h3>Chota Imambara</h3>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/uttar-pradesh/lucknow/chota-imambara-lucknow.webp"
+                      alt="Chota Imambara's white domed facade and golden dome, Lucknow"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Built roughly half a century after its larger namesake
                     by Nawab Muhammad Ali Shah, Chota Imambara is smaller but
@@ -599,6 +608,15 @@ export default function LucknowGuidePage() {
                   </p>
 
                   <h3>Rumi Darwaza</h3>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/uttar-pradesh/lucknow/rumi-darwaza-gateway-lucknow.webp"
+                      alt="Rumi Darwaza, Lucknow's soaring 60-foot Awadhi gateway styled after a gate in Istanbul"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     A soaring 60-foot gateway built in the same construction
                     programme as Bara Imambara, Rumi Darwaza is styled after
@@ -611,6 +629,15 @@ export default function LucknowGuidePage() {
                   </p>
 
                   <h3>The Residency</h3>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/uttar-pradesh/lucknow/lucknow-residency-ruins-1857-revolt.webp"
+                      alt="Bullet-scarred ruins of the British Residency in Lucknow, besieged during the 1857 Revolt"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     A markedly different historical register from the
                     Nawabi monuments: the Residency was the fortified
@@ -641,6 +668,15 @@ export default function LucknowGuidePage() {
                 {/* ── Shopping ───────────────────────────────────────────── */}
                 <section id="shopping">
                   <h2>Chikankari & Shopping</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/uttar-pradesh/lucknow/chikankari-embroidery-lucknow.webp"
+                      alt="Close-up of delicate white-thread Chikankari shadow embroidery on fabric, Lucknow's signature craft"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     <strong>Chikankari</strong> is Lucknow's most famous
                     craft export — a delicate white-thread shadow embroidery
@@ -845,6 +881,15 @@ export default function LucknowGuidePage() {
                 {/* ── Food ──────────────────────────────────────────────── */}
                 <section id="food-guide">
                   <h2>Where to Eat in Lucknow</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/uttar-pradesh/lucknow/galouti-kebab-tunday-kababi-lucknow.webp"
+                      alt="Galouti kebabs served with roomali roti at Tunday Kababi, Lucknow's legendary Awadhi kebab shop"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Awadhi cuisine is arguably Lucknow's single biggest
                     draw for many visitors — a tradition of slow, dum-style

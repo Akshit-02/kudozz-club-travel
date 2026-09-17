@@ -718,7 +718,8 @@
       "path": "blogs/ladakh/nubra-valley/hunder-dunes-bactrian-camels-nubra-valley.webp",
       "usedIn": [
         "nubra-valley-travel-guide (hero — replaces a generic shared leh-ladakh.jpg photo)",
-        "leh-ladakh-road-trip-travel-guide"
+        "leh-ladakh-road-trip-travel-guide",
+        "hunder-travel-guide"
       ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Nubra_Valley_double_hump_camel_ride.jpg",
@@ -730,7 +731,8 @@
     {
       "path": "blogs/ladakh/nubra-valley/diskit-monastery-maitreya-buddha-statue.webp",
       "usedIn": [
-        "nubra-valley-travel-guide (inline section)"
+        "nubra-valley-travel-guide (inline section)",
+        "hunder-travel-guide"
       ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Statue_of_Maitreya_Buddha,_Diskit_Monastery,_Nubra_Valley,_Ladakh.jpg",
@@ -1440,7 +1442,8 @@
     {
       "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/satmaliya-deer-sanctuary/spotted-deer-fawn-satmaliya-deer-park.webp",
       "usedIn": [
-        "satmaliya-deer-sanctuary-travel-guide (hero + inline — replaces a Goa photo used in error)"
+        "satmaliya-deer-sanctuary-travel-guide (hero + inline — replaces a Goa photo used in error)",
+        "khanvel-travel-guide"
       ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Baby_Cheetal_Deer.jpg",
@@ -1465,7 +1468,8 @@
       "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/madhuban-dam/madhuban-dam-reservoir-view-silvassa.webp",
       "usedIn": [
         "madhuban-dam-travel-guide (hero + inline — replaces a Goa photo used in error)",
-        "silvassa-travel-guide (Madhuban Dam section)"
+        "silvassa-travel-guide (Madhuban Dam section)",
+        "khanvel-travel-guide"
       ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:A_Beautiful_Nature_of_Silvassa.jpg",
@@ -6976,7 +6980,8 @@
     {
       "path": "blogs/ladakh/hemis/stakna-monastery-indus-river.webp",
       "usedIn": [
-        "hemis-travel-guide"
+        "hemis-travel-guide",
+        "thiksey-travel-guide"
       ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Stakna_Monastery,_Ladakh_03.jpg",
@@ -7106,6 +7111,330 @@
       "license": "CC BY 3.0",
       "author": "nooruddin",
       "attribution": "Photo by nooruddin, CC BY 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/connaught-place/national-flag-central-park-connaught-place.webp",
+      "usedIn": [
+        "connaught-place-delhi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:National_flag_at_Central_Park,_Connaught_Place.jpg",
+      "originalFile": "National_flag_at_Central_Park,_Connaught_Place.jpg",
+      "license": "CC0",
+      "author": "harivyasi",
+      "attribution": "Photo by harivyasi, CC0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/connaught-place/palika-bazar-underground-market-entrance.webp",
+      "usedIn": [
+        "connaught-place-delhi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Palika_Bazar_entrance.jpg",
+      "originalFile": "Palika_Bazar_entrance.jpg",
+      "license": "CC BY 2.0",
+      "author": "Johannes Bader",
+      "attribution": "Photo by Johannes Bader, CC BY 2.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/connaught-place/connaught-place-colonnade-shops-night.webp",
+      "usedIn": [
+        "connaught-place-delhi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Connaught_Place_at_night.jpg",
+      "originalFile": "Connaught_Place_at_night.jpg",
+      "license": "Public Domain",
+      "author": "Rameshng",
+      "attribution": "Photo by Rameshng, Public Domain, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/connaught-place/radial-road-inner-circle-connaught-place.webp",
+      "usedIn": [
+        "connaught-place-delhi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Connaught_Place_Inner_Circle.jpg",
+      "originalFile": "Connaught_Place_Inner_Circle.jpg",
+      "license": "CC0",
+      "author": "Dgp4004",
+      "attribution": "Photo by Dgp4004, CC0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/laxmi-nagar/nirman-vihar-metro-station-signboard.webp",
+      "usedIn": [
+        "laxmi-nagar-delhi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Nirman_Vihar_Metro_Station.jpg",
+      "originalFile": "Nirman_Vihar_Metro_Station.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Superfast1111",
+      "attribution": "Photo by Superfast1111, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/laxmi-nagar/laxmi-nagar-street-shop-signboards.webp",
+      "usedIn": [
+        "laxmi-nagar-delhi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Laxmi_Nagar_street.jpg",
+      "originalFile": "Laxmi_Nagar_street.jpg",
+      "license": "CC BY 4.0",
+      "author": "Immanuelle",
+      "attribution": "Photo by Immanuelle, CC BY 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/laxmi-nagar/golgappa-chaat-street-food.webp",
+      "usedIn": [
+        "laxmi-nagar-delhi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Golgappa_chaat.jpg",
+      "originalFile": "Golgappa_chaat.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Rajesh9992000",
+      "attribution": "Photo by Rajesh9992000, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/puducherry/yanam-district/yanam-bridge-godavari-river-night.webp",
+      "usedIn": [
+        "yanam-district-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Yanam_bridge_at_night.jpg",
+      "originalFile": "Yanam_bridge_at_night.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Klsateeshvarma",
+      "attribution": "Photo by Klsateeshvarma, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/puducherry/yanam-district/yanam-tower-eiffel-replica.webp",
+      "usedIn": [
+        "yanam-district-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Yanam_Tower.jpg",
+      "originalFile": "Yanam_Tower.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Phanisaladi",
+      "attribution": "Photo by Phanisaladi, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/puducherry/yanam-district/historic-french-colonial-street-yanaon.webp",
+      "usedIn": [
+        "yanam-district-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Historic_French_colonial_street,_Yanaon.jpg",
+      "originalFile": "Historic_French_colonial_street,_Yanaon.jpg",
+      "license": "Public Domain",
+      "author": "Unknown (early-1900s BnF/Gallica archival photo)",
+      "attribution": "Public Domain (early-1900s archival photo), via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/puducherry/yanam-district/gowthami-river-godavari-delta-boat.webp",
+      "usedIn": [
+        "yanam-district-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Gowthami_river_Godavari_delta.jpg",
+      "originalFile": "Gowthami_river_Godavari_delta.jpg",
+      "license": "CC BY 4.0",
+      "author": "Anand Deepak Racharla",
+      "attribution": "Photo by Anand Deepak Racharla, CC BY 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/vasant-kunj/dlf-promenade-mall-exterior-vasant-kunj.webp",
+      "usedIn": [
+        "vasant-kunj-delhi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:DLF_Promenade_Mall.jpg",
+      "originalFile": "DLF_Promenade_Mall.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Siddhartha",
+      "attribution": "Photo by Siddhartha, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/vasant-kunj/rhesus-macaque-asola-bhatti-wildlife-sanctuary.webp",
+      "usedIn": [
+        "vasant-kunj-delhi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Rhesus_macaque_Asola_Bhatti_Wildlife_Sanctuary.jpg",
+      "originalFile": "Rhesus_macaque_Asola_Bhatti_Wildlife_Sanctuary.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Gannu03",
+      "attribution": "Photo by Gannu03, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/uttar-pradesh/lucknow/bhul-bhulaiya-labyrinth-interior-bara-imambara.webp",
+      "usedIn": [
+        "lucknow-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Bhul_Bhulaiya,_Bara_Imambara.jpg",
+      "originalFile": "Bhul_Bhulaiya,_Bara_Imambara.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Unknown Commons contributor",
+      "attribution": "CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/uttar-pradesh/lucknow/chota-imambara-lucknow.webp",
+      "usedIn": [
+        "lucknow-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Chota_Imambara,_Lucknow.jpg",
+      "originalFile": "Chota_Imambara,_Lucknow.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Unknown Commons contributor",
+      "attribution": "CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/uttar-pradesh/lucknow/rumi-darwaza-gateway-lucknow.webp",
+      "usedIn": [
+        "lucknow-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Rumi_Darwaza,_Lucknow.jpg",
+      "originalFile": "Rumi_Darwaza,_Lucknow.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Unknown Commons contributor",
+      "attribution": "CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/uttar-pradesh/lucknow/lucknow-residency-ruins-1857-revolt.webp",
+      "usedIn": [
+        "lucknow-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Lucknow_Residency_ruins.jpg",
+      "originalFile": "Lucknow_Residency_ruins.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Unknown Commons contributor",
+      "attribution": "CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/uttar-pradesh/lucknow/chikankari-embroidery-lucknow.webp",
+      "usedIn": [
+        "lucknow-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Chikankari_embroidery.jpg",
+      "originalFile": "Chikankari_embroidery.jpg",
+      "license": "CC BY 2.0",
+      "author": "Unknown Commons contributor",
+      "attribution": "CC BY 2.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/uttar-pradesh/lucknow/galouti-kebab-tunday-kababi-lucknow.webp",
+      "usedIn": [
+        "lucknow-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Galouti_kebab,_Tunday_Kababi.jpg",
+      "originalFile": "Galouti_kebab,_Tunday_Kababi.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Unknown Commons contributor",
+      "attribution": "CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/ladakh/thiksey/thiksey-maitreya-buddha-golden-face-closeup.webp",
+      "usedIn": [
+        "thiksey-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Close_up_of_Maitreya_Buddha_at_Thiksey_Monastery_DSCN6617_1.jpg",
+      "originalFile": "Close_up_of_Maitreya_Buddha_at_Thiksey_Monastery_DSCN6617_1.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Sumita Roy Dutta",
+      "attribution": "Photo by Sumita Roy Dutta, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/ladakh/thiksey/thiksey-monks-playing-ceremonial-horns-rooftop.webp",
+      "usedIn": [
+        "thiksey-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Thiksey_Monastery_-_monks.jpg",
+      "originalFile": "Thiksey_Monastery_-_monks.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Darshancg",
+      "attribution": "Photo by Darshancg, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/ladakh/thiksey/thiksey-monastery-rooftop-chorten-indus-valley-view.webp",
+      "usedIn": [
+        "thiksey-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Thikse_Gompa_-_View_from_rooftop.jpg",
+      "originalFile": "Thikse_Gompa_-_View_from_rooftop.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Ingo Mehling",
+      "attribution": "Photo by Ingo Mehling, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/ladakh/thiksey/shey-palace-prayer-flags-stupas-mountains.webp",
+      "usedIn": [
+        "thiksey-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Shey_Palace,_Ladakh_04.jpg",
+      "originalFile": "Shey_Palace,_Ladakh_04.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Bernard Gagnon",
+      "attribution": "Photo by Bernard Gagnon, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/ladakh/thiksey/thiksey-monastery-young-monks-courtyard.webp",
+      "usedIn": [
+        "thiksey-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Thiksey_Monastery,_Buddhist_monks,_Buddhism,_Ladakh,_North_India.jpg",
+      "originalFile": "Thiksey_Monastery,_Buddhist_monks,_Buddhism,_Ladakh,_North_India.jpg",
+      "license": "CC BY 4.0",
+      "author": "Vyacheslav Argenberg",
+      "attribution": "Photo by Vyacheslav Argenberg, CC BY 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/ladakh/khardung-la/khardung-la-summit-signboard-snow.webp",
+      "usedIn": [
+        "khardung-la-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:KHARDUNG-LA_PASS.jpg",
+      "originalFile": "KHARDUNG-LA_PASS.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Tanmay vasujain",
+      "attribution": "Photo by Tanmay vasujain, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/ladakh/khardung-la/khardung-la-indus-valley-view-from-summit.webp",
+      "usedIn": [
+        "khardung-la-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Khardung_La_(pass),_Mountains,_Indus_River_Valley,_Ladakh,_North_India,_Himalayas.jpg",
+      "originalFile": "Khardung_La_(pass),_Mountains,_Indus_River_Valley,_Ladakh,_North_India,_Himalayas.jpg",
+      "license": "CC BY 4.0",
+      "author": "Vyacheslav Argenberg",
+      "attribution": "Photo by Vyacheslav Argenberg, CC BY 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/ladakh/khardung-la/khardung-la-army-checkpost-prayer-flags.webp",
+      "usedIn": [
+        "khardung-la-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Khardung_La_(pass),_Checkpoint,_Army,_Ladakh,_North_India.jpg",
+      "originalFile": "Khardung_La_(pass),_Checkpoint,_Army,_Ladakh,_North_India.jpg",
+      "license": "CC BY 4.0",
+      "author": "Vyacheslav Argenberg",
+      "attribution": "Photo by Vyacheslav Argenberg, CC BY 4.0, via Wikimedia Commons"
     }
   ]
 }

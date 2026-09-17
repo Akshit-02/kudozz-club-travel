@@ -616,6 +616,15 @@ export default function KhardungLaPage() {
                 {/* ── Top of Pass ───────────────────────────────────────── */}
                 <section id="top-of-pass">
                   <h2>What's at the Top</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/ladakh/khardung-la/khardung-la-summit-signboard-snow.webp"
+                      alt="The yellow Khardung La summit marker signboard listing distances, surrounded by snow at the top of the pass"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Despite sitting above 5,300 m, the summit of Khardung La
                     is surprisingly well set up for the steady stream of
@@ -657,6 +666,15 @@ export default function KhardungLaPage() {
                       panoramas accessible by road anywhere in India.
                     </li>
                   </ul>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/ladakh/khardung-la/khardung-la-indus-valley-view-from-summit.webp"
+                      alt="Rocky outcrop near the Khardung La summit overlooking the Indus valley and Leh town, with snow-capped peaks beyond"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                 </section>
 
                 {/* ── Riding vs Driving ─────────────────────────────────── */}
@@ -727,6 +745,15 @@ export default function KhardungLaPage() {
                 {/* ── Checkposts ────────────────────────────────────────── */}
                 <section id="checkposts">
                   <h2>South Pullu & North Pullu Checkposts</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/ladakh/khardung-la/khardung-la-army-checkpost-prayer-flags.webp"
+                      alt="Army checkpost near Khardung La with prayer flags strung overhead, a parked jeep, and a soldier on duty"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Two checkposts bookend the Khardung La crossing, and
                     every vehicle headed toward Nubra Valley must stop at
