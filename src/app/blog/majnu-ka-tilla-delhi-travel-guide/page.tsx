@@ -563,8 +563,8 @@ export default function MajnuKaTillaGuidePage() {
                   <h2>The Market & Shopping</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/blogs/delhi/majnu-ka-tilla/majnu-ka-tilla-tibetan-colony-lane.webp"
-                      alt="Shop stalls and signage along a market lane in Majnu Ka Tilla's Tibetan colony, Delhi"
+                      src="/images/blogs/delhi/majnu-ka-tilla/majnu-ka-tilla-narrow-market-lane-shops.webp"
+                      alt="A narrow covered lane in Majnu Ka Tilla lined with small shops, tarpaulin awnings, and restaurant signage including the Himalaya restaurant"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -676,6 +676,16 @@ export default function MajnuKaTillaGuidePage() {
                     newest-looking storefront — longevity is generally the
                     best signal of quality in Majnu Ka Tilla's food scene.
                   </div>
+
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/majnu-ka-tilla/steamed-momos-chilli-chutney.webp"
+                      alt="A plate of steamed momos served with a bowl of spicy red chilli chutney, the neighbourhood's signature dish"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                 </section>
 
                 {/* ── Monastery ─────────────────────────────────────────── */}
@@ -690,6 +700,17 @@ export default function MajnuKaTillaGuidePage() {
                     respectful visitors interested in a few quiet minutes
                     away from the crowds.
                   </p>
+
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/majnu-ka-tilla/tibetan-monastery-entrance-prayer-wheels.webp"
+                      alt="The painted entrance of a Tibetan Buddhist monastery in Majnu Ka Tilla, with a Buddha mural, prayer wheels, and Tibetan script banners"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
+
                   <p>
                     Beyond the monastery, Majnu Ka Tilla functions as a real,
                     living residential community — multi-storey buildings

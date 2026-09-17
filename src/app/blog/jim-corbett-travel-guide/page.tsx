@@ -536,14 +536,23 @@ export default function JimCorbettGuidePage() {
                   <h2>Safari Zones</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/blogs/uttarakhand/jim-corbett/bengal-tiger-roaring-jim-corbett-reserve.webp"
-                      alt="Bengal tiger on a jeep safari trail through the sal forest of Jim Corbett National Park"
+                      src="/images/blogs/uttarakhand/jim-corbett/forest-safari-track-sal-trees-jim-corbett.webp"
+                      alt="A jeep safari vehicle on a dirt track through sal forest inside Jim Corbett National Park"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
                     />
                   </div>
                   <h3>Dhikala Zone</h3>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/uttarakhand/jim-corbett/elephant-herd-dhikala-grassland-jim-corbett.webp"
+                      alt="A herd of wild elephants grazing in the open chaur grassland of Dhikala zone, with the Himalayan foothills behind"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Corbett's most sought-after and scenic zone, set on the
                     banks of the Ramganga reservoir. Its open chaur grasslands
@@ -637,6 +646,26 @@ export default function JimCorbettGuidePage() {
                       lined with resorts overlooking the riverbed.
                     </li>
                   </ul>
+                  <div className="grid sm:grid-cols-2 gap-4 my-6">
+                    <div className="relative w-full rounded-xl h-56 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/blogs/uttarakhand/jim-corbett/garjiya-devi-temple-kosi-river-ramnagar.webp"
+                        alt="Garjiya Devi Temple perched on a rock outcrop in the Kosi River near Ramnagar, Jim Corbett"
+                        fill
+                        sizes="(min-width: 1280px) 384px, (min-width: 1024px) 320px, 50vw"
+                        className="object-cover"
+                      />
+                    </div>
+                    <div className="relative w-full rounded-xl h-56 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/blogs/uttarakhand/jim-corbett/kosi-river-resort-belt-ramnagar.webp"
+                        alt="The rocky bed of the Kosi River near Ramnagar, backed by forested hills, along the stretch lined with resorts"
+                        fill
+                        sizes="(min-width: 1280px) 384px, (min-width: 1024px) 320px, 50vw"
+                        className="object-cover"
+                      />
+                    </div>
+                  </div>
                 </section>
 
                 {/* ── Where to Stay ─────────────────────────────────────── */}

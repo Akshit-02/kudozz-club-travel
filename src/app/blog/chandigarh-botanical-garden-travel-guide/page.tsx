@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/chandigarh/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "A wide, tree-covered green landscape near Chandigarh, evoking the naturalistic, forest-like feel of the Chandigarh Botanical Garden near Sarangpur",
+        url: "/images/blogs/chandigarh/botanical-garden/chandigarh-forest-tree-canopy.webp",
+        width: 960,
+        height: 1280,
+        alt: "Dense tree canopy in a Chandigarh forest area, evoking the naturalistic, forest-like feel of the Chandigarh Botanical Garden near Sarangpur",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Chandigarh Botanical Garden Travel Guide: Timings & Tips",
     description:
       "A sprawling, naturalistic plant-conservation space on Chandigarh's outskirts near Sarangpur — the complete guide to the city's quietest, greenest outdoor stop.",
-    images: ["/images/destinations/chandigarh/hero.jpg"],
+    images: ["/images/blogs/chandigarh/botanical-garden/chandigarh-forest-tree-canopy.webp"],
   },
   alternates: {
     canonical:
@@ -61,7 +61,7 @@ function ArticleSchema() {
           description:
             "Complete Chandigarh Botanical Garden guide — the city's largest, most naturalistic green space near Sarangpur. Plant diversity, how it differs from the Rose Garden and Rock Garden, getting there, and visit tips.",
           image:
-            "https://club.kudozz.in/images/destinations/chandigarh/hero.jpg",
+            "https://club.kudozz.in/images/blogs/chandigarh/botanical-garden/chandigarh-forest-tree-canopy.webp",
           datePublished: "2026-08-31",
           dateModified: "2026-08-31",
           publisher: {
@@ -203,8 +203,8 @@ export default function ChandigarhBotanicalGardenGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/chandigarh/hero.jpg"
-              alt="A wide, tree-covered green landscape near Chandigarh, evoking the naturalistic, forest-like feel of the Chandigarh Botanical Garden near Sarangpur"
+              src="/images/blogs/chandigarh/botanical-garden/chandigarh-forest-tree-canopy.webp"
+              alt="Dense tree canopy in a Chandigarh forest area, evoking the naturalistic, forest-like feel of the Chandigarh Botanical Garden near Sarangpur"
               fill
               priority
               sizes="100vw"
@@ -581,16 +581,6 @@ export default function ChandigarhBotanicalGardenGuidePage() {
                     than exact.
                   </p>
 
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/chandigarh/hero.jpg"
-                      alt="A dense, naturalistic tree canopy on the outskirts of Chandigarh, evoking the plant-diversity focus of the Chandigarh Botanical Garden near Sarangpur"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
-
                   <p>
                     Part of what makes the garden distinct is its dual
                     function. It isn't purely a recreational space — it also
@@ -621,6 +611,16 @@ export default function ChandigarhBotanicalGardenGuidePage() {
                     you have them — the garden's larger tree cover and
                     quieter footfall make it noticeably better for casual
                     birdwatching than Chandigarh's smaller, busier gardens.
+                  </div>
+
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/chandigarh/botanical-garden/birdwatching-chandigarh-forest-trail.webp"
+                      alt="A visitor birdwatching with a spotting scope along a tree-lined dirt path in Chandigarh's forest cover, the kind of quiet walking trail found in the Botanical Garden"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
                   </div>
                 </section>
 

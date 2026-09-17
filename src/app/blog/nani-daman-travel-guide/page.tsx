@@ -571,6 +571,15 @@ export default function NaniDamanGuidePage() {
                 {/* ── Fort ──────────────────────────────────────────────── */}
                 <section id="fort">
                   <h2>Fort of St. Francis Xavier</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/nani-daman/nani-daman-fort-archway-stairway.webp"
+                      alt="A weathered stone archway and stairway inside Nani Daman Fort, part of its surviving Portuguese-era walls"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Nani Daman's own Portuguese-era fort, built to guard the
                     north bank of the river mouth alongside Moti Daman
@@ -661,6 +670,15 @@ export default function NaniDamanGuidePage() {
                 {/* ── Lighthouse ────────────────────────────────────────── */}
                 <section id="lighthouse">
                   <h2>Daman Lighthouse</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/nani-daman/daman-lighthouse-old-and-new-towers.webp"
+                      alt="The old and new Daman lighthouse towers standing side by side near the river mouth"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Standing near the river mouth on the Nani Daman side,
                     the <strong>lighthouse</strong> has quietly done the job

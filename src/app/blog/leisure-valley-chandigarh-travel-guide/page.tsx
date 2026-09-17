@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/chandigarh/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "A wide green landscape with a calm lake, evoking the long connected green corridor of Chandigarh's Leisure Valley",
+        url: "/images/blogs/chandigarh/leisure-valley/leisure-valley-open-lawn-parkland-chandigarh.webp",
+        width: 1600,
+        height: 1200,
+        alt: "Open lawns and mature shade trees along a stretch of Chandigarh's Leisure Valley linear park",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Leisure Valley Chandigarh: The Complete Greenbelt Guide",
     description:
       "A continuous green corridor threading through Chandigarh's sectors, linking the Rose Garden, Bougainvillea Garden, Garden of Fragrance, and Terraced Garden into one walkable route.",
-    images: ["/images/destinations/chandigarh/hero.jpg"],
+    images: ["/images/blogs/chandigarh/leisure-valley/leisure-valley-open-lawn-parkland-chandigarh.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/leisure-valley-chandigarh-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Leisure Valley Chandigarh: The Complete Greenbelt Guide",
           description:
             "Complete guide to Chandigarh's Leisure Valley — the continuous green corridor linking the Rose Garden, Bougainvillea Garden, Garden of Fragrance and Terraced Garden. How to walk or cycle it, best time, and a route plan.",
-          image: "https://club.kudozz.in/images/destinations/chandigarh/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/chandigarh/leisure-valley/leisure-valley-open-lawn-parkland-chandigarh.webp",
           datePublished: "2026-08-31",
           dateModified: "2026-08-31",
           publisher: {
@@ -200,8 +200,8 @@ export default function LeisureValleyGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/chandigarh/hero.jpg"
-              alt="A wide green landscape with a calm lake, evoking the long connected green corridor of Chandigarh's Leisure Valley"
+              src="/images/blogs/chandigarh/leisure-valley/leisure-valley-open-lawn-parkland-chandigarh.webp"
+              alt="Open lawns and mature shade trees along a stretch of Chandigarh's Leisure Valley linear park"
               fill
               priority
               sizes="100vw"
@@ -571,8 +571,8 @@ export default function LeisureValleyGuidePage() {
 
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/chandigarh/hero.jpg"
-                      alt="A long stretch of open green parkland beside water, evoking the continuous corridor of Chandigarh's Leisure Valley threading between sectors"
+                      src="/images/blogs/chandigarh/leisure-valley/leisure-valley-tree-lined-walking-trail.webp"
+                      alt="A shaded, tree-lined walking trail through Chandigarh's Leisure Valley, connecting one garden to the next"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -614,6 +614,15 @@ export default function LeisureValleyGuidePage() {
                     outing. Here's what sits along or branches off the
                     corridor:
                   </p>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/chandigarh/rose-garden/close-up-rose-bloom-zakir-hussain-rose-garden.webp"
+                      alt="Close-up of a rose in bloom at the Zakir Hussain Rose Garden, one of the anchor gardens along the Leisure Valley corridor"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <ul>
                     <li>
                       <strong>

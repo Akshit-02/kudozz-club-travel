@@ -1721,7 +1721,8 @@
     {
       "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu/nagoa-beach-i-love-diu-hand-sculpture.webp",
       "usedIn": [
-        "diu-travel-guide (beaches section)"
+        "diu-travel-guide (beaches section)",
+        "nagoa-beach-travel-guide"
       ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Nagoa_Beach,_Diu.jpg",
@@ -3335,7 +3336,8 @@
       "path": "/images/blogs/chandigarh/chandigarh/sukhna-lake-boating-promenade-chandigarh.webp",
       "usedIn": [
         "chandigarh-travel-guide",
-        "rock-garden-chandigarh-travel-guide"
+        "rock-garden-chandigarh-travel-guide",
+        "sukhna-lake-chandigarh-travel-guide (hero)"
       ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Sukhna_Lake_Chandigarh_Evening.jpg",
@@ -7718,7 +7720,8 @@
     {
       "path": "blogs/chandigarh/rose-garden/close-up-rose-bloom-zakir-hussain-rose-garden.webp",
       "usedIn": [
-        "rose-garden-chandigarh-travel-guide"
+        "rose-garden-chandigarh-travel-guide",
+        "leisure-valley-chandigarh-travel-guide"
       ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Colors_and_varieties_of_roses_in_Zakir_Hussain_Rose_Garden,_Chandigarh_07.jpg",
@@ -7726,6 +7729,306 @@
       "license": "CC BY-SA 4.0",
       "author": "Harvinder Chandigarh",
       "attribution": "Photo by Harvinder Chandigarh, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/nagoa-beach/nagoa-beach-horseshoe-bay-diu.webp",
+      "usedIn": [
+        "nagoa-beach-travel-guide (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Nagoa_Beach_-_panoramio_(1).jpg",
+      "originalFile": "Nagoa_Beach_-_panoramio_(1).jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "JediPro",
+      "attribution": "Photo by JediPro, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/nagoa-beach/nagoa-beach-watersports-equipment-shoreline.webp",
+      "usedIn": [
+        "nagoa-beach-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Nagoa_Beach_-_panoramio.jpg",
+      "originalFile": "Nagoa_Beach_-_panoramio.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "JediPro",
+      "attribution": "Photo by JediPro, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/nagoa-beach/nagoa-beach-sunset-diu.webp",
+      "usedIn": [
+        "nagoa-beach-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Nagoa_Beach_2_DIU.jpg",
+      "originalFile": "Nagoa_Beach_2_DIU.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Sudhakar Kumawat",
+      "attribution": "Photo by Sudhakar Kumawat, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/nani-daman/nani-daman-fort-archway-stairway.webp",
+      "usedIn": [
+        "nani-daman-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Daman_NaniDaman_Fort_2.JPG",
+      "originalFile": "Daman_NaniDaman_Fort_2.JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "Pradeep717",
+      "attribution": "Photo by Pradeep717, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/nani-daman/daman-lighthouse-old-and-new-towers.webp",
+      "usedIn": [
+        "nani-daman-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:OLD_AND_NEW_LIGHT_HOUSES_IN_DAMAN,_INDIA.jpg",
+      "originalFile": "OLD_AND_NEW_LIGHT_HOUSES_IN_DAMAN,_INDIA.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Sethi kc",
+      "attribution": "Photo by Sethi kc, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/chandigarh/leisure-valley/leisure-valley-open-lawn-parkland-chandigarh.webp",
+      "usedIn": [
+        "leisure-valley-chandigarh-travel-guide (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Leisurevalleymarch2026.jpg",
+      "originalFile": "Leisurevalleymarch2026.jpg",
+      "license": "CC0",
+      "author": "RIDH-1",
+      "attribution": "Photo by RIDH-1, CC0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/chandigarh/leisure-valley/leisure-valley-tree-lined-walking-trail.webp",
+      "usedIn": [
+        "leisure-valley-chandigarh-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Leisure_valley,_Chandigarh.jpg",
+      "originalFile": "Leisure_valley,_Chandigarh.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "RIDHVAN SHARMA",
+      "attribution": "Photo by RIDHVAN SHARMA, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/chandigarh/botanical-garden/chandigarh-forest-tree-canopy.webp",
+      "usedIn": [
+        "chandigarh-botanical-garden-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Eucalyptus_Forest_-_panoramio.jpg",
+      "originalFile": "Eucalyptus_Forest_-_panoramio.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "ソキ",
+      "attribution": "CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/chandigarh/botanical-garden/birdwatching-chandigarh-forest-trail.webp",
+      "usedIn": [
+        "chandigarh-botanical-garden-travel-guide (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Forest_safari.jpg",
+      "originalFile": "Forest_safari.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Rahulchhabra-17",
+      "attribution": "Photo by Rahulchhabra-17, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/lajpat-nagar/lajpat-nagar-crowded-market-lane.webp",
+      "usedIn": [
+        "lajpat-nagar-delhi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Lajpat_Nagar_marketplace_in_2006.jpg",
+      "originalFile": "Lajpat_Nagar_marketplace_in_2006.jpg",
+      "license": "CC BY 2.0",
+      "author": "Ville Miettinen",
+      "attribution": "Photo by Ville Miettinen, CC BY 2.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/lajpat-nagar/golgappe-street-food-stall.webp",
+      "usedIn": [
+        "lajpat-nagar-delhi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Golgappe-StreetFood-DelhiNCR08.jpg",
+      "originalFile": "Golgappe-StreetFood-DelhiNCR08.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Jashjashjash",
+      "attribution": "Photo by Jashjashjash, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/majnu-ka-tilla/majnu-ka-tilla-narrow-market-lane-shops.webp",
+      "usedIn": [
+        "majnu-ka-tilla-delhi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Rick_Bradley,_Street_in_Majnu-ka-tilla.jpg",
+      "originalFile": "Rick_Bradley,_Street_in_Majnu-ka-tilla.jpg",
+      "license": "CC BY 2.0",
+      "author": "Rick Bradley",
+      "attribution": "Photo by Rick Bradley, CC BY 2.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/majnu-ka-tilla/tibetan-monastery-entrance-prayer-wheels.webp",
+      "usedIn": [
+        "majnu-ka-tilla-delhi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Majnu_ka_tilla_monastery.jpg",
+      "originalFile": "Majnu_ka_tilla_monastery.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Ashudas563",
+      "attribution": "Photo by Ashudas563, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/majnu-ka-tilla/steamed-momos-chilli-chutney.webp",
+      "usedIn": [
+        "majnu-ka-tilla-delhi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Momos,_New_Delhi.jpg",
+      "originalFile": "Momos,_New_Delhi.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Kxnyshk",
+      "attribution": "Photo by Kxnyshk, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/chandigarh/sukhna-lake/shikara-boat-sukhna-lake-chandigarh.webp",
+      "usedIn": [
+        "sukhna-lake-chandigarh-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:On_Sukhna_Lake_08.jpg",
+      "originalFile": "On_Sukhna_Lake_08.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Kritzolina",
+      "attribution": "Photo by Kritzolina, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/chandigarh/sukhna-lake/pedal-boats-shivalik-hills-sukhna-lake.webp",
+      "usedIn": [
+        "sukhna-lake-chandigarh-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Pedalos_-_Sukhna_Lake_-_Chandigarh_2016-08-07_9003.JPG",
+      "originalFile": "Pedalos_-_Sukhna_Lake_-_Chandigarh_2016-08-07_9003.JPG",
+      "license": "CC BY 3.0",
+      "author": "Biswarup Ganguly",
+      "attribution": "Photo by Biswarup Ganguly, CC BY 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/chandigarh/sukhna-lake/garden-of-silence-terraced-walkway-sukhna-lake.webp",
+      "usedIn": [
+        "sukhna-lake-chandigarh-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Garden_of_Silence,_Sukhna_Lake's_Walking_Way.jpg",
+      "originalFile": "Garden_of_Silence,_Sukhna_Lake's_Walking_Way.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Ahoun Xinjitsu",
+      "attribution": "Photo by Ahoun Xinjitsu, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/uttar-pradesh/agra/agra-fort-red-sandstone-ramparts-yamuna.webp",
+      "usedIn": [
+        "agra-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Agra_Fort_walls.jpg",
+      "originalFile": "Agra_Fort_walls.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Diego Delso",
+      "attribution": "Photo by Diego Delso, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/uttar-pradesh/agra/itmad-ud-daulah-baby-taj-marble-tomb.webp",
+      "usedIn": [
+        "agra-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Agra-Itmad_ud_Daulah_mausoleum-South_facade-20131019.jpg",
+      "originalFile": "Agra-Itmad_ud_Daulah_mausoleum-South_facade-20131019.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Daniel Villafruela",
+      "attribution": "Photo by Daniel Villafruela, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/uttar-pradesh/agra/mehtab-bagh-garden-taj-mahal-view.webp",
+      "usedIn": [
+        "agra-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Mehtab_Bagh_on_the_river_bank,_facing_the_Taj-Agra-Uttar_Pradesh-_DSC_0002.jpg",
+      "originalFile": "Mehtab_Bagh_on_the_river_bank,_facing_the_Taj-Agra-Uttar_Pradesh-_DSC_0002.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Prabhat_xlr8",
+      "attribution": "Photo by Prabhat_xlr8, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/uttar-pradesh/agra/pietra-dura-marble-inlay-detail.webp",
+      "usedIn": [
+        "agra-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Itmad_ud_Daulah_12.jpg",
+      "originalFile": "Itmad_ud_Daulah_12.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Rangan Datta",
+      "attribution": "Photo by Rangan Datta, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/uttarakhand/jim-corbett/forest-safari-track-sal-trees-jim-corbett.webp",
+      "usedIn": [
+        "jim-corbett-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Road_to_Dhikala.jpg",
+      "originalFile": "Road_to_Dhikala.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Rito1987",
+      "attribution": "Photo by Rito1987, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/uttarakhand/jim-corbett/elephant-herd-dhikala-grassland-jim-corbett.webp",
+      "usedIn": [
+        "jim-corbett-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Elephants_Grass_Sal_Dhikala_Corbett_Reserve_Dec2019_R16_02266.jpg",
+      "originalFile": "Elephants_Grass_Sal_Dhikala_Corbett_Reserve_Dec2019_R16_02266.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Timothy A. Gonsalves",
+      "attribution": "Photo by Timothy A. Gonsalves, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/uttarakhand/jim-corbett/garjiya-devi-temple-kosi-river-ramnagar.webp",
+      "usedIn": [
+        "jim-corbett-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Garjiya_Devi_Temple_Ramnagar.jpg",
+      "originalFile": "Garjiya_Devi_Temple_Ramnagar.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Anni_in",
+      "attribution": "Photo by Anni_in, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/uttarakhand/jim-corbett/kosi-river-resort-belt-ramnagar.webp",
+      "usedIn": [
+        "jim-corbett-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kosi_River_by_the_Sides_of_Jim_Corbett.jpg",
+      "originalFile": "Kosi_River_by_the_Sides_of_Jim_Corbett.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Himanshu.engin",
+      "attribution": "Photo by Himanshu.engin, CC BY-SA 4.0, via Wikimedia Commons"
     }
   ]
 }

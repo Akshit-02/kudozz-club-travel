@@ -23,9 +23,9 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/chandigarh/hero.jpg",
-        width: 1200,
-        height: 630,
+        url: "/images/blogs/chandigarh/chandigarh/sukhna-lake-boating-promenade-chandigarh.webp",
+        width: 1400,
+        height: 932,
         alt: "Sukhna Lake, the man-made lake at the foot of the Shivalik hills in Chandigarh's Sector 1, ringed by the city's most popular promenade",
       },
     ],
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     title: "Sukhna Lake Chandigarh: Travel Guide, Boating & Tips",
     description:
       "A man-made lake at the edge of the Shivalik foothills, ringed by a 3 km promenade and known for boating, birdwatching, and Chandigarh's best sunsets.",
-    images: ["/images/destinations/chandigarh/hero.jpg"],
+    images: ["/images/blogs/chandigarh/chandigarh/sukhna-lake-boating-promenade-chandigarh.webp"],
   },
   robots: {
     index: true,
@@ -59,7 +59,7 @@ function ArticleSchema() {
           description:
             "Complete Sukhna Lake guide — Chandigarh's man-made lake at the foot of the Shivalik hills. The 3 km promenade, boating, birdwatching, timings, and visit tips.",
           image:
-            "https://club.kudozz.in/images/destinations/chandigarh/hero.jpg",
+            "https://club.kudozz.in/images/blogs/chandigarh/chandigarh/sukhna-lake-boating-promenade-chandigarh.webp",
           datePublished: "2026-08-31",
           dateModified: "2026-08-31",
           publisher: {
@@ -207,7 +207,7 @@ export default function SukhnaLakeGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/chandigarh/hero.jpg"
+              src="/images/blogs/chandigarh/chandigarh/sukhna-lake-boating-promenade-chandigarh.webp"
               alt="Sukhna Lake, the man-made lake at the foot of the Shivalik hills in Chandigarh's Sector 1, ringed by the city's most popular promenade"
               fill
               priority
@@ -555,8 +555,8 @@ export default function SukhnaLakeGuidePage() {
 
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/chandigarh/hero.jpg"
-                      alt="The Sukhna Lake promenade against the Shivalik foothills backdrop, popular with walkers, joggers, and cyclists especially at sunrise and sunset"
+                      src="/images/blogs/chandigarh/sukhna-lake/shikara-boat-sukhna-lake-chandigarh.webp"
+                      alt="A canopied shikara boat crossing the still water of Sukhna Lake with the tree-lined far shore behind it"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -588,6 +588,15 @@ export default function SukhnaLakeGuidePage() {
                 {/* ── Boating ────────────────────────────────────────────── */}
                 <section id="boating">
                   <h2>Boating at Sukhna Lake</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/chandigarh/sukhna-lake/pedal-boats-shivalik-hills-sukhna-lake.webp"
+                      alt="Colourful swan and pedal boats scattered across Sukhna Lake with the Shivalik hills rising behind the water"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     A boat club on the lake offers <strong>rowboats and
                     pedal boats</strong> for a modest per-person or per-boat
@@ -665,6 +674,17 @@ export default function SukhnaLakeGuidePage() {
                       good for a slower pace away from the busiest stretch
                       near the boat club.
                     </li>
+                  </ul>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/chandigarh/sukhna-lake/garden-of-silence-terraced-walkway-sukhna-lake.webp"
+                      alt="The stone-terraced walkway and steps of the Garden of Silence area near the Sukhna Choe dam, a quieter detour off the main promenade"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
+                  <ul>
                     <li>
                       <strong>
                         <Link href="/blog/capitol-complex-chandigarh-travel-guide">

@@ -553,15 +553,6 @@ export default function AgraGuidePage() {
                 {/* ── Attractions ────────────────────────────────────────── */}
                 <section id="attractions">
                   <h2>Top Attractions in Agra</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/uttar-pradesh/agra/taj-mahal-reflection-river-yamuna-agra.webp"
-                      alt="The Taj Mahal's central dome and reflecting pool, Agra"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>The Taj Mahal</h3>
                   <p>
                     Built by Emperor Shah Jahan as a mausoleum for his wife
@@ -588,6 +579,15 @@ export default function AgraGuidePage() {
                     crowds inside the complex.
                   </p>
                   <h3>Agra Fort</h3>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/uttar-pradesh/agra/agra-fort-red-sandstone-ramparts-yamuna.webp"
+                      alt="Red-sandstone domed tower and battlements of Agra Fort, with the fort's inner walls stretching toward the city skyline"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     A massive red-sandstone fortress-palace on the banks of
                     the Yamuna, Agra Fort was the primary residence of
@@ -600,6 +600,15 @@ export default function AgraGuidePage() {
                     river.
                   </p>
                   <h3>Itmad-ud-Daulah ("Baby Taj")</h3>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/uttar-pradesh/agra/itmad-ud-daulah-baby-taj-marble-tomb.webp"
+                      alt="The white marble facade and four corner minarets of Itmad-ud-Daulah's tomb, the 'Baby Taj', Agra"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Built earlier than the Taj Mahal, this smaller marble
                     tomb for a Mughal nobleman is widely considered a design
@@ -610,6 +619,15 @@ export default function AgraGuidePage() {
                     craftsmanship without the queues.
                   </p>
                   <h3>Mehtab Bagh</h3>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/uttar-pradesh/agra/mehtab-bagh-garden-taj-mahal-view.webp"
+                      alt="The Taj Mahal seen across the Yamuna from the greenery of Mehtab Bagh garden, Agra"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     A restored Mughal garden directly across the river from
                     the Taj Mahal, laid out on a north-south axis so the
@@ -618,6 +636,15 @@ export default function AgraGuidePage() {
                     taken from here.
                   </p>
                   <h3>Marble-Inlay Shopping & Avoiding Scams</h3>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/uttar-pradesh/agra/pietra-dura-marble-inlay-detail.webp"
+                      alt="Close-up of geometric pietra dura marble-inlay stonework, the technique Agra's artisans still practice today"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Agra's artisans still practice pietra dura, the same
                     marble-inlay technique used on the Taj itself, and

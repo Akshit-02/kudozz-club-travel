@@ -561,8 +561,8 @@ export default function LajpatNagarGuidePage() {
                   <h2>Central Market: Delhi's Ethnic-Wear Hub</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/blogs/delhi/lajpat-nagar/lajpat-nagar-central-market-street-scene.webp"
-                      alt="Crowded market lanes lined with clothing stalls at Lajpat Nagar Central Market, Delhi"
+                      src="/images/blogs/delhi/lajpat-nagar/lajpat-nagar-crowded-market-lane.webp"
+                      alt="Dense crowds of shoppers moving through Lajpat Nagar Central Market's main lane, lined with clothing stalls and shop signage"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -692,6 +692,17 @@ export default function LajpatNagarGuidePage() {
                     long-running local eateries and street stalls — is more
                     than up to the task.
                   </p>
+
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/lajpat-nagar/golgappe-street-food-stall.webp"
+                      alt="Freshly fried golgappe shells at a Delhi street food stall, the classic chaat snack found around Lajpat Nagar's Central Market"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
+
                   <ul>
                     <li>
                       <strong>Street chaat stalls:</strong> Golgappe, aloo

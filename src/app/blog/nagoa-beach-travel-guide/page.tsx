@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/goa/beach.jpg",
-        width: 1200,
-        height: 630,
-        alt: "A crescent-shaped, palm-lined beach cove with calm turquoise water, evocative of Nagoa Beach's horseshoe bay in Diu",
+        url: "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/nagoa-beach/nagoa-beach-horseshoe-bay-diu.webp",
+        width: 1600,
+        height: 1200,
+        alt: "The wide, curving sandy horseshoe bay of Nagoa Beach in Diu with calm water and people wading at the shoreline",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Nagoa Beach Diu: Water Sports, Timings & Tips",
     description:
       "The horseshoe-shaped bay that's Diu's calmest, most swimmer-friendly beach — water sports, safety notes, food shacks, and how to plan a half-day here.",
-    images: ["/images/destinations/goa/beach.jpg"],
+    images: ["/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/nagoa-beach/nagoa-beach-horseshoe-bay-diu.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/nagoa-beach-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Nagoa Beach Diu: Water Sports, Timings & Tips",
           description:
             "Guide to Nagoa Beach, Diu's most popular horseshoe-shaped bay — water sports, timings, how to reach, swimming safety, food shacks, and a half-day plan.",
-          image: "https://club.kudozz.in/images/destinations/goa/beach.jpg",
+          image: "https://club.kudozz.in/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/nagoa-beach/nagoa-beach-horseshoe-bay-diu.webp",
           datePublished: "2026-08-30",
           dateModified: "2026-08-30",
           publisher: {
@@ -206,8 +206,8 @@ export default function NagoaBeachGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/goa/beach.jpg"
-              alt="A crescent-shaped, palm-lined beach cove with calm turquoise water, evocative of Nagoa Beach's horseshoe bay in Diu"
+              src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/nagoa-beach/nagoa-beach-horseshoe-bay-diu.webp"
+              alt="The wide, curving sandy horseshoe bay of Nagoa Beach in Diu with calm water and people wading at the shoreline"
               fill
               priority
               sizes="100vw"
@@ -550,8 +550,8 @@ export default function NagoaBeachGuidePage() {
                   <h2>Water Sports at Nagoa Beach</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/goa/hero.jpg"
-                      alt="A calm coastal bay with clear water, evocative of the sheltered conditions that make Nagoa Beach suitable for water sports"
+                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/nagoa-beach/nagoa-beach-watersports-equipment-shoreline.webp"
+                      alt="Colourful inflatable water sports equipment and beachgoers along the sandy shoreline at Nagoa Beach, Diu"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -599,6 +599,15 @@ export default function NagoaBeachGuidePage() {
                 {/* ── Promenade ─────────────────────────────────────────── */}
                 <section id="promenade">
                   <h2>The Palm-Fringed Promenade & Camel Rides</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu/nagoa-beach-i-love-diu-hand-sculpture.webp"
+                      alt="The 'I Love Diu' hand-shaped sculpture landmark among palm trees on the promenade at Nagoa Beach"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Running along the back of the beach is a walkway lined
                     with coconut and casuarina trees — genuinely one of the
@@ -710,6 +719,15 @@ export default function NagoaBeachGuidePage() {
                 {/* ── Sunset ────────────────────────────────────────────── */}
                 <section id="sunset">
                   <h2>Sunset at Nagoa Beach</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/nagoa-beach/nagoa-beach-sunset-diu.webp"
+                      alt="The sun setting over the waves at Nagoa Beach, Diu, with silhouetted palm trees along the shoreline"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Nagoa's west-facing curve makes it one of the better
                     sunset spots on the island — the horseshoe bay catches
