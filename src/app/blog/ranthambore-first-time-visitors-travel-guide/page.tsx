@@ -79,7 +79,8 @@ function ArticleSchema() {
           },
           mainEntityOfPage: {
             "@type": "WebPage",
-            "@id": "https://club.kudozz.in/blog/ranthambore-first-time-visitors-travel-guide",
+            "@id":
+              "https://club.kudozz.in/blog/ranthambore-first-time-visitors-travel-guide",
           },
           keywords:
             "Ranthambore, first-time visitor, tiger safari, Ranthambore Fort, Padam Talao, Rajasthan",
@@ -216,17 +217,20 @@ export default function RanthamboreFirstTimeVisitorsPage() {
 
           <div className="relative z-10 max-w-5xl mx-auto px-6 sm:px-10 pb-16 pt-36 w-full">
             <div className="flex flex-wrap gap-2 mb-6">
-              {["Ranthambore", "Tiger Safari", "Rajasthan", "Ranthambore Fort"].map(
-                (tag) => (
-                  <span
-                    key={tag}
-                    className="px-3 py-1 text-[11px] font-semibold uppercase tracking-wider bg-white/10 backdrop-blur-sm text-white rounded-full border border-white/20"
-                    style={{ fontFamily: "var(--font-dm-sans)" }}
-                  >
-                    {tag}
-                  </span>
-                ),
-              )}
+              {[
+                "Ranthambore",
+                "Tiger Safari",
+                "Rajasthan",
+                "Ranthambore Fort",
+              ].map((tag) => (
+                <span
+                  key={tag}
+                  className="px-3 py-1 text-[11px] font-semibold uppercase tracking-wider bg-white/10 backdrop-blur-sm text-white rounded-full border border-white/20"
+                  style={{ fontFamily: "var(--font-dm-sans)" }}
+                >
+                  {tag}
+                </span>
+              ))}
             </div>
 
             <h1
@@ -273,7 +277,11 @@ export default function RanthamboreFirstTimeVisitorsPage() {
                     stroke="currentColor"
                     strokeWidth={2}
                   >
-                    <path strokeLinecap="round" strokeLinejoin="round" d={m.d} />
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d={m.d}
+                    />
                   </svg>
                   {m.text}
                 </span>
@@ -297,30 +305,27 @@ export default function RanthamboreFirstTimeVisitorsPage() {
               <div className="prose-travel">
                 {/* ── Introduction (no heading in the original piece) ────── */}
                 <p>
-                  I still remember the drive in. Dusty roads, dhok trees on
-                  both sides, and this odd quiet that settled in the moment
-                  the city noise faded behind us. I had visited{" "}
-                  <Link href="/blog/ranthambore-travel-guide">
-                    Ranthambore
-                  </Link>{" "}
-                  for the first time last winter, mostly because a friend
-                  would not stop talking about her tiger sighting from the
-                  year before. I went in expecting just safaris and not much
-                  else. I came back with a list of things to do in
-                  Ranthambore that had nothing to do with tigers at all, and
-                  that surprised me the most.
+                  I still remember the drive in. Dusty roads, dhok trees on both
+                  sides, and this odd quiet that settled in the moment the city
+                  noise faded behind us. I had visited{" "}
+                  <Link href="/blog/ranthambore-travel-guide">Ranthambore</Link>{" "}
+                  for the first time last winter, mostly because a friend would
+                  not stop talking about her tiger sighting from the year
+                  before. I went in expecting just safaris and not much else. I
+                  came back with a list of things to do in Ranthambore that had
+                  nothing to do with tigers at all, and that surprised me the
+                  most.
                 </p>
                 <p>
-                  We stayed at Ranthambore Tiger Machan, and I will admit,
-                  the resort itself became part of the story. It is the kind
-                  of{" "}
-                  <a
+                  We stayed at Ranthambore Tiger Machan, and I will admit, the
+                  resort itself became part of the story. It is the kind of{" "}
+                  {/* <a
                     href="https://www.ranthamboretigermachan.com/"
                     target="_blank"
                     rel="noopener noreferrer"
-                  >
-                    <strong>resort in Ranthambore</strong>
-                  </a>{" "}
+                  > */}
+                  <strong>resort in Ranthambore</strong>
+                  {/* </a>{" "} */}
                   that doesn&apos;t try too hard to impress you with fancy
                   words; it just quietly gets the basics right. Comfortable
                   tents, good food, and staff who actually seemed to enjoy
@@ -338,26 +343,26 @@ export default function RanthamboreFirstTimeVisitorsPage() {
                     into the jeep with blankets wrapped around us.
                   </p>
                   <p>
-                    We didn&apos;t see a tiger on that first drive. I
-                    remember feeling a bit disheartened, watching the clock
-                    tick toward the end of our three hours with nothing but a
-                    few deer and a lot of dust to show for it. But our
-                    naturalist, a calm guy named Rajesh, kept pointing out
-                    things I would&apos;ve completely missed.
+                    We didn&apos;t see a tiger on that first drive. I remember
+                    feeling a bit disheartened, watching the clock tick toward
+                    the end of our three hours with nothing but a few deer and a
+                    lot of dust to show for it. But our naturalist, a calm guy
+                    named Rajesh, kept pointing out things I would&apos;ve
+                    completely missed.
                   </p>
                   <p>
-                    Fresh pugmarks near a water hole. A langur going oddly
-                    quiet in the trees above us. He explained that sometimes
-                    that silence tells you more than an actual sighting
-                    would, and by the end of the drive I believed him.
+                    Fresh pugmarks near a water hole. A langur going oddly quiet
+                    in the trees above us. He explained that sometimes that
+                    silence tells you more than an actual sighting would, and by
+                    the end of the drive I believed him.
                   </p>
                   <p>
                     On our third drive, we finally saw her. A tigress, just
-                    resting near Padam Talao, completely unbothered by six
-                    jeeps clicking away with their cameras. I won&apos;t lie,
-                    I got a little emotional. There&apos;s something about
-                    seeing an animal that big, that calm, in its own space,
-                    that just sits with you for a while after.
+                    resting near Padam Talao, completely unbothered by six jeeps
+                    clicking away with their cameras. I won&apos;t lie, I got a
+                    little emotional. There&apos;s something about seeing an
+                    animal that big, that calm, in its own space, that just sits
+                    with you for a while after.
                   </p>
                 </section>
 
@@ -365,16 +370,16 @@ export default function RanthamboreFirstTimeVisitorsPage() {
                 <section id="padam-talao">
                   <h2>Padam Talao, Even Without the Tiger</h2>
                   <p>
-                    Speaking of Padam Talao, this lake deserves its own
-                    mention beyond just being where we got lucky. It&apos;s
-                    the largest lake in the park, and even on drives when we
-                    didn&apos;t spot anything major, sitting near its edge
-                    watching birds skim the water felt like enough.
+                    Speaking of Padam Talao, this lake deserves its own mention
+                    beyond just being where we got lucky. It&apos;s the largest
+                    lake in the park, and even on drives when we didn&apos;t
+                    spot anything major, sitting near its edge watching birds
+                    skim the water felt like enough.
                   </p>
                   <p>
                     Jogi Mahal sits right on its bank too, this old, slightly
-                    collapsing structure that adds a strange look to the
-                    whole scene.
+                    collapsing structure that adds a strange look to the whole
+                    scene.
                   </p>
                   <p>
                     I would tell any first-time visitor not to treat this as
@@ -398,28 +403,27 @@ export default function RanthamboreFirstTimeVisitorsPage() {
                   </div>
                   <p>
                     On our second day, we had a gap between the morning and
-                    evening safari, and someone at the resort suggested we
-                    visit Ranthambore Fort. I will be honest, I almost said
-                    no. I was tired, and forts weren&apos;t really on my
-                    radar for a wildlife trip.
+                    evening safari, and someone at the resort suggested we visit
+                    Ranthambore Fort. I will be honest, I almost said no. I was
+                    tired, and forts weren&apos;t really on my radar for a
+                    wildlife trip.
                   </p>
                   <p>
                     I am glad I did not skip it. The fort is right inside the
-                    park boundary, and the climb up gives you this big view
-                    over the forest that genuinely puts the whole park into
-                    perspective. You can actually trace the shape of the
-                    lakes from up there, and see just how much forest
-                    stretches out beyond what a jeep covers in one drive.
-                    Inside, there&apos;s Trinetra Ganesh Temple, an old
-                    temple that gets a steady stream of local visitors, not
-                    just tourists.
+                    park boundary, and the climb up gives you this big view over
+                    the forest that genuinely puts the whole park into
+                    perspective. You can actually trace the shape of the lakes
+                    from up there, and see just how much forest stretches out
+                    beyond what a jeep covers in one drive. Inside, there&apos;s
+                    Trinetra Ganesh Temple, an old temple that gets a steady
+                    stream of local visitors, not just tourists.
                   </p>
                   <p>
-                    There is something about seeing locals come here for
-                    their own reasons. We ended up chatting with an elderly
-                    man selling <em>prasad</em> outside the temple, and he
-                    told us his family had been coming here for generations,
-                    long before any of these was a tourist stop.
+                    There is something about seeing locals come here for their
+                    own reasons. We ended up chatting with an elderly man
+                    selling <em>prasad</em> outside the temple, and he told us
+                    his family had been coming here for generations, long before
+                    any of these was a tourist stop.
                   </p>
                 </section>
 
@@ -427,22 +431,21 @@ export default function RanthamboreFirstTimeVisitorsPage() {
                 <section id="local-market-chai">
                   <h2>The Local Market and a Cup of Chai</h2>
                   <p>
-                    One evening, we skipped dinner at the resort and walked
-                    into Sawai Madhopur town instead. There was no real plan
-                    behind it, just a stroll through the local market, past
-                    small shops selling everything from handwoven textiles to
-                    steel utensils, the kind of shops that seem to sell a bit
-                    of everything at once. We stopped at a roadside stall for
-                    chai, the overly sweet kind that somehow tastes exactly
-                    right after a long day outdoors.
+                    One evening, we skipped dinner at the resort and walked into
+                    Sawai Madhopur town instead. There was no real plan behind
+                    it, just a stroll through the local market, past small shops
+                    selling everything from handwoven textiles to steel
+                    utensils, the kind of shops that seem to sell a bit of
+                    everything at once. We stopped at a roadside stall for chai,
+                    the overly sweet kind that somehow tastes exactly right
+                    after a long day outdoors.
                   </p>
                   <p>
-                    It won&apos;t make anyone&apos;s list of must-do things
-                    the way a safari does. But if you want to feel the town
-                    itself, not just the forest around it, it&apos;s worth
-                    keeping aside an hour for. It&apos;s a small addition to
-                    the trip, and yet it&apos;s stayed with me longer than I
-                    expected.
+                    It won&apos;t make anyone&apos;s list of must-do things the
+                    way a safari does. But if you want to feel the town itself,
+                    not just the forest around it, it&apos;s worth keeping aside
+                    an hour for. It&apos;s a small addition to the trip, and yet
+                    it&apos;s stayed with me longer than I expected.
                   </p>
                 </section>
 
@@ -453,21 +456,21 @@ export default function RanthamboreFirstTimeVisitorsPage() {
                     We had a spare day, so the resort put together a trip to
                     Chambal Gharial Sanctuary, about an hour and a half from
                     where we were staying. I&apos;d never even heard the word
-                    gharial before this trip. They&apos;re crocodiles that
-                    look like something pulled straight out of an old nature
+                    gharial before this trip. They&apos;re crocodiles that look
+                    like something pulled straight out of an old nature
                     documentary.
                   </p>
                   <p>
-                    We took a boat out on the Chambal River and spotted
-                    several of them basking along the banks, along with more
-                    birds than we could keep track of, most of which we had
-                    no idea how to name.
+                    We took a boat out on the Chambal River and spotted several
+                    of them basking along the banks, along with more birds than
+                    we could keep track of, most of which we had no idea how to
+                    name.
                   </p>
                   <p>
-                    If your schedule allows it, this is a genuinely nice
-                    change of pace from the safari routine. It&apos;s slower,
-                    quieter, and shows you a different side of the
-                    region&apos;s wildlife altogether.
+                    If your schedule allows it, this is a genuinely nice change
+                    of pace from the safari routine. It&apos;s slower, quieter,
+                    and shows you a different side of the region&apos;s wildlife
+                    altogether.
                   </p>
                 </section>
 
@@ -477,11 +480,10 @@ export default function RanthamboreFirstTimeVisitorsPage() {
                   <p>
                     On our last morning, we stopped by a small local craft
                     centre called Dastkar, which supports village artisans in
-                    the area. I ended up buying a hand-block-printed scarf
-                    that I still use, and, knowing it actually supported
-                    someone locally, made it feel like a better reminder than
-                    the usual keychain-and-magnet combo you grab at an
-                    airport.
+                    the area. I ended up buying a hand-block-printed scarf that
+                    I still use, and, knowing it actually supported someone
+                    locally, made it feel like a better reminder than the usual
+                    keychain-and-magnet combo you grab at an airport.
                   </p>
                 </section>
 
@@ -489,43 +491,44 @@ export default function RanthamboreFirstTimeVisitorsPage() {
                 <section id="first-timer-tips">
                   <h2>What I Would Tell a First-Timer</h2>
                   <p>
-                    If this is your first trip here, don&apos;t spend all
-                    your time planning safaris. Ranthambore needs a bit of
-                    wandering. Sit by the lake even if no tiger appears. Make
-                    the climb up to the fort even when you&apos;re tired.
-                    Skip a resort dinner occasionally and go find chai in
-                    town instead.
+                    If this is your first trip here, don&apos;t spend all your
+                    time planning safaris. Ranthambore needs a bit of wandering.
+                    Sit by the lake even if no tiger appears. Make the climb up
+                    to the fort even when you&apos;re tired. Skip a resort
+                    dinner occasionally and go find chai in town instead.
                   </p>
                   <p>
                     And pick your stay carefully. Ours was not fancy, but it
-                    made a real impact, not least because the team knew the
-                    area for real and helped us craft our trip around what we
-                    wanted to do versus what looked good in a brochure.
+                    made a real impact, not least because the team knew the area
+                    for real and helped us craft our trip around what we wanted
+                    to do versus what looked good in a brochure.
                   </p>
                   <p>
                     I went in thinking this was a trip full of tigers. I left
-                    with a thought: bigger than this is a forest, an old
-                    fort, a calm lake, and a market that smelled like fresh
-                    spices — the boat ride I did not even know I needed. And
-                    that, more than the actual tiger sighting, makes me want
-                    to return.
+                    with a thought: bigger than this is a forest, an old fort, a
+                    calm lake, and a market that smelled like fresh spices — the
+                    boat ride I did not even know I needed. And that, more than
+                    the actual tiger sighting, makes me want to return.
                   </p>
                 </section>
               </div>
 
               {/* Tags */}
               <div className="mt-10 flex flex-wrap gap-2">
-                {["Ranthambore", "Tiger Safari", "Rajasthan", "Ranthambore Fort"].map(
-                  (tag) => (
-                    <Link
-                      key={tag}
-                      href={`/blog?tag=${tag.toLowerCase().replace(/ /g, "-")}`}
-                      className="tag-pill"
-                    >
-                      #{tag}
-                    </Link>
-                  ),
-                )}
+                {[
+                  "Ranthambore",
+                  "Tiger Safari",
+                  "Rajasthan",
+                  "Ranthambore Fort",
+                ].map((tag) => (
+                  <Link
+                    key={tag}
+                    href={`/blog?tag=${tag.toLowerCase().replace(/ /g, "-")}`}
+                    className="tag-pill"
+                  >
+                    #{tag}
+                  </Link>
+                ))}
               </div>
 
               <RelatedPostsGrid currentSlug="ranthambore-first-time-visitors-travel-guide" />
