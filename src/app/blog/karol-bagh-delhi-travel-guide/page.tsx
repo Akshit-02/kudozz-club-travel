@@ -535,8 +535,8 @@ export default function KarolBaghGuidePage() {
                   <h2>Ajmal Khan Road: The Main Shopping Stretch</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/blogs/delhi/karol-bagh/karol-bagh-gaffar-market-ajmal-khan-road.webp"
-                      alt="The Gaffar Market gateway on Ajmal Khan Road, the crowded shopping stretch at the heart of Karol Bagh, Delhi"
+                      src="/images/blogs/delhi/karol-bagh/ajmal-khan-road-clothing-shops-karol-bagh.webp"
+                      alt="Clothing, footwear and jewellery storefronts lining a pedestrian stretch of Ajmal Khan Road, Karol Bagh"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -597,6 +597,17 @@ export default function KarolBaghGuidePage() {
                     It's a genuinely useful spot for accessories, cables,
                     speakers, and small gadgets.
                   </p>
+
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/karol-bagh/gaffar-market-electronics-lane-karol-bagh.webp"
+                      alt="A narrow pedestrian lane inside Gaffar Market lined with mobile repair and electronics stalls, Karol Bagh"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
+
                   <p>
                     It's also honestly worth knowing that Gaffar Market has
                     a long-standing reputation for grey-market goods —

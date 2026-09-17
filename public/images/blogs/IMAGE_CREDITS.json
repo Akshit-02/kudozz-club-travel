@@ -1247,11 +1247,35 @@
     {
       "path": "blogs/delhi/karol-bagh/karol-bagh-gaffar-market-ajmal-khan-road.webp",
       "usedIn": [
-        "karol-bagh-delhi-travel-guide (hero + inline — replaces a Jaisalmer photo used in error)"
+        "karol-bagh-delhi-travel-guide (hero — replaces a Jaisalmer photo used in error)"
       ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Karol_Bagh,_2008_(6).JPG",
       "originalFile": "Karol Bagh, 2008 (6).JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "Bahnfrend",
+      "attribution": "Photo by Bahnfrend, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/karol-bagh/ajmal-khan-road-clothing-shops-karol-bagh.webp",
+      "usedIn": [
+        "karol-bagh-delhi-travel-guide (Ajmal Khan Road section — replaces a duplicate of the hero image)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Karol_Bagh,_2008_(7).JPG",
+      "originalFile": "Karol Bagh, 2008 (7).JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "Bahnfrend",
+      "attribution": "Photo by Bahnfrend, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/karol-bagh/gaffar-market-electronics-lane-karol-bagh.webp",
+      "usedIn": [
+        "karol-bagh-delhi-travel-guide (Gaffar Market section)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Karol_Bagh,_2008_(8).JPG",
+      "originalFile": "Karol Bagh, 2008 (8).JPG",
       "license": "CC BY-SA 3.0",
       "author": "Bahnfrend",
       "attribution": "Photo by Bahnfrend, CC BY-SA 3.0, via Wikimedia Commons"
@@ -1481,7 +1505,7 @@
     {
       "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/gangeshwar-temple/gangeshwar-temple-shivlings-rock-shrine-diu.webp",
       "usedIn": [
-        "gangeshwar-temple-travel-guide (hero + inline — replaces a Goa photo used in error)"
+        "gangeshwar-temple-travel-guide (hero — replaces a Goa photo used in error)"
       ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Gangeshwar_Temple.jpg",
@@ -1489,6 +1513,18 @@
       "license": "CC BY-SA 3.0",
       "author": "Shakti",
       "attribution": "Photo by Shakti, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/gangeshwar-temple/gangeshwar-temple-entrance-gate-footwear-diu.webp",
+      "usedIn": [
+        "gangeshwar-temple-travel-guide (setting & atmosphere — replaces a duplicate of the hero image)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Gangeshwar_Temple,Diu.jpg",
+      "originalFile": "Gangeshwar Temple,Diu.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Prateekmalviya20",
+      "attribution": "Photo by Prateekmalviya20, CC BY-SA 3.0, via Wikimedia Commons"
     },
     {
       "path": "blogs/west-bengal/kolkata/howrah-bridge-cantilever-hooghly-river-kolkata.webp",
@@ -1916,7 +1952,8 @@
     {
       "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/naida-caves/naida-caves-sunlit-rock-formations.webp",
       "usedIn": [
-        "naida-caves-travel-guide (inline section)"
+        "naida-caves-travel-guide (inline section)",
+        "gangeshwar-temple-travel-guide (nearby sights)"
       ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Naida_Caves.jpg",
@@ -3323,7 +3360,8 @@
     {
       "path": "/images/blogs/chandigarh/chandigarh/zakir-hussain-rose-garden-chandigarh.webp",
       "usedIn": [
-        "chandigarh-travel-guide"
+        "chandigarh-travel-guide",
+        "rose-garden-chandigarh-travel-guide (hero)"
       ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Rose_Garden_,Chandigarh,India.jpg",
@@ -6436,6 +6474,54 @@
       "attribution": "Photo by Adam Jones, CC BY-SA 2.0, via Wikimedia Commons"
     },
     {
+      "path": "blogs/chandigarh/sector-17/sector-17-plaza-rooster-fountain-chandigarh.webp",
+      "usedIn": [
+        "sector-17-chandigarh-travel-guide (hero + JSON-LD/OG/Twitter — replaces the generic destinations/chandigarh/hero.jpg placeholder used in error)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Rooster_Fountain,_Sector_17_Chandigarh.jpg",
+      "originalFile": "Rooster Fountain, Sector 17 Chandigarh.jpg",
+      "license": "CC BY 3.0",
+      "author": "Medhavigandhi",
+      "attribution": "Photo by Medhavigandhi, CC BY 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/chandigarh/sector-17/sector-17-plaza-water-cascade-sculpture-chandigarh.webp",
+      "usedIn": [
+        "sector-17-chandigarh-travel-guide (The Plaza section — replaces the generic destinations/chandigarh/hero.jpg placeholder used in error)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Water_Sculpture,_City_Centre,_Chandigarh.jpg",
+      "originalFile": "Water Sculpture, City Centre, Chandigarh.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Sarbjit Bahga",
+      "attribution": "Photo by Sarbjit Bahga, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/chandigarh/sector-17/neelam-theatre-facade-sector-17-chandigarh.webp",
+      "usedIn": [
+        "sector-17-chandigarh-travel-guide (Neelam Cinema section)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Neelam_theater_Sector_17,_Chandigarh.jpg",
+      "originalFile": "Neelam theater Sector 17, Chandigarh.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Rhythm Kataria",
+      "attribution": "Photo by Rhythm Kataria, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/chandigarh/sector-17/sector-17-bus-stand-isbt-chandigarh.webp",
+      "usedIn": [
+        "sector-17-chandigarh-travel-guide (How to Reach section)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Inter_State_Bus_Terminal_Sector_17.jpg",
+      "originalFile": "Inter State Bus Terminal Sector 17.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "ArmouredCyborg",
+      "attribution": "Photo by ArmouredCyborg, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
       "path": "blogs/chandigarh/rock-garden/rock-garden-ceramic-mosaic-wall-detail-chandigarh.webp",
       "usedIn": [
         "rock-garden-chandigarh-travel-guide"
@@ -7089,7 +7175,8 @@
     {
       "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu-fort/diu-fort-lighthouse-bastion-view.webp",
       "usedIn": [
-        "diu-fort-travel-guide"
+        "diu-fort-travel-guide",
+        "gangeshwar-temple-travel-guide (nearby sights)"
       ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Diu_fort_lighthouse.JPG",
@@ -7435,6 +7522,210 @@
       "license": "CC BY 4.0",
       "author": "Vyacheslav Argenberg",
       "attribution": "Photo by Vyacheslav Argenberg, CC BY 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/rohini/japanese-park-monkey-sculpture-lawns-rohini.webp",
+      "usedIn": [
+        "rohini-delhi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Japnese_park_rohini,Delhi.jpg",
+      "originalFile": "Japnese_park_rohini,Delhi.jpg",
+      "license": "CC0",
+      "author": "Krishnav25",
+      "attribution": "Photo by Krishnav25, CC0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/rohini/adventure-island-entrance-metro-walk-rohini.webp",
+      "usedIn": [
+        "rohini-delhi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Adventure_Island_Entrance...near_Rithala_Metro_Station.png",
+      "originalFile": "Adventure_Island_Entrance...near_Rithala_Metro_Station.png",
+      "license": "CC BY-SA 4.0",
+      "author": "Nimit Bajaj",
+      "attribution": "Photo by Nimit Bajaj, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/rohini/delhi-metro-red-line-train.webp",
+      "usedIn": [
+        "rohini-delhi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Delhi_Metro_train_red_line_at_Shaheed_Sthal_metro_station.jpg",
+      "originalFile": "Delhi_Metro_train_red_line_at_Shaheed_Sthal_metro_station.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Ravi Dwivedi",
+      "attribution": "Photo by Ravi Dwivedi, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/kashmere-gate/kashmere-gate-sandstone-facade-traffic-island.webp",
+      "usedIn": [
+        "kashmere-gate-delhi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kashmiri_Gate,_Delhi_-_1.jpg",
+      "originalFile": "Kashmiri_Gate,_Delhi_-_1.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Satpal Dandiwal",
+      "attribution": "Photo by Satpal Dandiwal, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/kashmere-gate/st-james-church-cream-dome-exterior.webp",
+      "usedIn": [
+        "kashmere-gate-delhi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:St._James_church_in_Delhi_02.jpg",
+      "originalFile": "St._James_church_in_Delhi_02.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Indrajit Das",
+      "attribution": "Photo by Indrajit Das, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/kashmere-gate/nicholson-cemetery-gravestones-old-delhi.webp",
+      "usedIn": [
+        "kashmere-gate-delhi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Nicholson_Cemetery_in_Old_Delhi_04.jpg",
+      "originalFile": "Nicholson_Cemetery_in_Old_Delhi_04.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Pinakpani",
+      "attribution": "Photo by Pinakpani, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/kashmere-gate/kashmere-gate-isbt-bus-terminal.webp",
+      "usedIn": [
+        "kashmere-gate-delhi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kashmere_Gate_ISBT,_Delhi_4.jpg",
+      "originalFile": "Kashmere_Gate_ISBT,_Delhi_4.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Ravi Dwivedi",
+      "attribution": "Photo by Ravi Dwivedi, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/jampore-beach/jampore-beach-casuarina-grove-beach-shacks.webp",
+      "usedIn": [
+        "jampore-beach-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Jampore_beach,_daman.JPG",
+      "originalFile": "Jampore_beach,_daman.JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "Suneethkrishna",
+      "attribution": "Photo by Suneethkrishna, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/jampore-beach/jampore-beach-sunset-silhouette.webp",
+      "usedIn": [
+        "jampore-beach-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Beauty_of_sunset,_jampore_beach_in_damam.jpg",
+      "originalFile": "Beauty_of_sunset,_jampore_beach_in_damam.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Dublinsantosh",
+      "attribution": "Photo by Dublinsantosh, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/sarojini-nagar/earrings-accessory-stall-sarojini-nagar-market.webp",
+      "usedIn": [
+        "sarojini-nagar-delhi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Earrings_Stall_at_Sarojini_Nagar_Market,_Delhi.jpg",
+      "originalFile": "Earrings_Stall_at_Sarojini_Nagar_Market,_Delhi.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Dev Jadiya",
+      "attribution": "Photo by Dev Jadiya, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/sarojini-nagar/clothing-sale-stall-shoppers-sarojini-nagar.webp",
+      "usedIn": [
+        "sarojini-nagar-delhi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Cloth_Stall_at_Sarojini_Nagar_Market,_Delhi.jpg",
+      "originalFile": "Cloth_Stall_at_Sarojini_Nagar_Market,_Delhi.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Dev Jadiya",
+      "attribution": "Photo by Dev Jadiya, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/sarojini-nagar/haldiram-restaurant-near-sarojini-nagar-market.webp",
+      "usedIn": [
+        "sarojini-nagar-delhi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Haldiram_Restaurant,_at_Sarojini_Nagar_Market,_Delhi.jpg",
+      "originalFile": "Haldiram_Restaurant,_at_Sarojini_Nagar_Market,_Delhi.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Dev Jadiya",
+      "attribution": "Photo by Dev Jadiya, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/dwarka/dwarka-sector-13-metro-station.webp",
+      "usedIn": [
+        "dwarka-delhi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Dwarka_Sector_13_Metro_Station.jpg",
+      "originalFile": "Dwarka_Sector_13_Metro_Station.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "ArmouredCyborg",
+      "attribution": "Photo by ArmouredCyborg, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/dwarka/dwarka-sector-12-metro-station.webp",
+      "usedIn": [
+        "dwarka-delhi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Dwarka_Sector_12_Metro_Station.jpg",
+      "originalFile": "Dwarka_Sector_12_Metro_Station.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "ArmouredCyborg",
+      "attribution": "Photo by ArmouredCyborg, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/chandigarh/rose-garden/rose-garden-chandigarh-tourism-entrance-signage.webp",
+      "usedIn": [
+        "rose-garden-chandigarh-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Signage_for_Chandigarh's_Zakir_Hussain_Rose_Garden_(30404689928).jpg",
+      "originalFile": "Signage_for_Chandigarh's_Zakir_Hussain_Rose_Garden_(30404689928).jpg",
+      "license": "CC BY 2.0",
+      "author": "shankar s.",
+      "attribution": "Photo by shankar s., CC BY 2.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/chandigarh/rose-garden/chandigarh-rose-festival-entrance-decoration.webp",
+      "usedIn": [
+        "rose-garden-chandigarh-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:ROSE_FESTIVAL_2017.jpg",
+      "originalFile": "ROSE_FESTIVAL_2017.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Taran m.r.",
+      "attribution": "Photo by Taran m.r., CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/chandigarh/rose-garden/close-up-rose-bloom-zakir-hussain-rose-garden.webp",
+      "usedIn": [
+        "rose-garden-chandigarh-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Colors_and_varieties_of_roses_in_Zakir_Hussain_Rose_Garden,_Chandigarh_07.jpg",
+      "originalFile": "Colors_and_varieties_of_roses_in_Zakir_Hussain_Rose_Garden,_Chandigarh_07.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Harvinder Chandigarh",
+      "attribution": "Photo by Harvinder Chandigarh, CC BY-SA 4.0, via Wikimedia Commons"
     }
   ]
 }

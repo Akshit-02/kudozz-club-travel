@@ -551,6 +551,15 @@ export default function RohiniGuidePage() {
                       add significant time during peak hours.
                     </li>
                   </ul>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/rohini/delhi-metro-red-line-train.webp"
+                      alt="A Delhi Metro Red Line train at a platform, the line that serves Rohini West, Rohini East and Rithala stations"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <div
                     className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-xl my-4 text-sm"
                     style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -568,8 +577,8 @@ export default function RohiniGuidePage() {
                   <h2>Japanese Park</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/blogs/delhi/rohini/japanese-park-carved-tree-sculpture-rohini.webp"
-                      alt="A large carved wooden animal sculpture set into the greenery of Japanese Park, Rohini"
+                      src="/images/blogs/delhi/rohini/japanese-park-monkey-sculpture-lawns-rohini.webp"
+                      alt="A carved wooden monkey sculpture set into a tree trunk on the open lawns of Japanese Park, Rohini"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -615,6 +624,15 @@ export default function RohiniGuidePage() {
                 {/* ── Adventure Island ──────────────────────────────────── */}
                 <section id="adventure-island">
                   <h2>Adventure Island</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/rohini/adventure-island-entrance-metro-walk-rohini.webp"
+                      alt="The Adventure Island entrance sign at Metro Walk mall, Sector 10, Rohini"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     <strong>Adventure Island</strong> is an amusement park
                     located inside the Metro Walk mall complex in Sector 10,

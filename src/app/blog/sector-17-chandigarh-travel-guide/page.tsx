@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/chandigarh/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Wide open plaza with hills in the distance, evoking Sector 17's car-free civic centre in Chandigarh",
+        url: "/images/blogs/chandigarh/sector-17/sector-17-plaza-rooster-fountain-chandigarh.webp",
+        width: 1400,
+        height: 1050,
+        alt: "The Rooster Fountain water sculpture in Sector 17 Plaza, Chandigarh's car-free pedestrian shopping precinct",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Sector 17 Chandigarh Travel Guide: Plaza, Shops & Cafés",
     description:
       "A car-free plaza of shops, fountains and cafés at the heart of Le Corbusier's Chandigarh — the complete guide to Sector 17.",
-    images: ["/images/destinations/chandigarh/hero.jpg"],
+    images: ["/images/blogs/chandigarh/sector-17/sector-17-plaza-rooster-fountain-chandigarh.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/sector-17-chandigarh-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Sector 17 Chandigarh Travel Guide: Plaza, Shops & Cafés",
           description:
             "Complete guide to Sector 17, Chandigarh's Le Corbusier-designed city-centre plaza — the pedestrian shopping precinct, Neelam Cinema, evening fountains, cafés, and how to plan your visit.",
-          image: "https://club.kudozz.in/images/destinations/chandigarh/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/chandigarh/sector-17/sector-17-plaza-rooster-fountain-chandigarh.webp",
           datePublished: "2026-08-31",
           dateModified: "2026-08-31",
           publisher: {
@@ -202,8 +202,8 @@ export default function Sector17ChandigarhGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/chandigarh/hero.jpg"
-              alt="Wide open plaza with hills in the distance, evoking Sector 17's car-free civic centre in Chandigarh"
+              src="/images/blogs/chandigarh/sector-17/sector-17-plaza-rooster-fountain-chandigarh.webp"
+              alt="The Rooster Fountain water sculpture in Sector 17 Plaza, Chandigarh's car-free pedestrian shopping precinct"
               fill
               priority
               sizes="100vw"
@@ -549,6 +549,16 @@ export default function Sector17ChandigarhGuidePage() {
                       sectors easy to combine in one outing.
                     </li>
                   </ul>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/chandigarh/sector-17/sector-17-bus-stand-isbt-chandigarh.webp"
+                      alt="The older Inter State Bus Terminal (ISBT) building at Sector 17, Chandigarh, at dusk"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
+
                   <div
                     className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-xl my-4 text-sm"
                     style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -579,8 +589,8 @@ export default function Sector17ChandigarhGuidePage() {
 
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/chandigarh/hero.jpg"
-                      alt="Open pedestrian plaza with fountains and surrounding shopfronts, evoking Sector 17 Plaza's car-free courtyards in Chandigarh"
+                      src="/images/blogs/chandigarh/sector-17/sector-17-plaza-water-cascade-sculpture-chandigarh.webp"
+                      alt="A stepped water-cascade sculpture and sunken pool in Sector 17 Plaza's pedestrian courtyard, Chandigarh"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -694,6 +704,15 @@ export default function Sector17ChandigarhGuidePage() {
                 {/* ── Neelam Cinema ──────────────────────────────────────── */}
                 <section id="neelam-cinema">
                   <h2>Neelam Cinema</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/chandigarh/sector-17/neelam-theatre-facade-sector-17-chandigarh.webp"
+                      alt="The brick and concrete facade of Neelam Theatre, Chandigarh's well-known old single-screen cinema in Sector 17"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Tucked within Sector 17 is <strong>Neelam Cinema</strong>,
                     one of Chandigarh's well-known old single-screen theatres.

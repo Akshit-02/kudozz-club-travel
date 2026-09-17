@@ -572,8 +572,8 @@ export default function GangeshwarTempleGuidePage() {
                   <h2>The Setting & Atmosphere</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/gangeshwar-temple/gangeshwar-temple-shivlings-rock-shrine-diu.webp"
-                      alt="The five natural rock Shiva lingams tucked into the boulder crevice at Gangeshwar Temple, Diu"
+                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/gangeshwar-temple/gangeshwar-temple-entrance-gate-footwear-diu.webp"
+                      alt="The Gangeshwar Temple entrance gate near Fudam, Diu, strung with saffron prayer flags, with visitors' footwear left at the threshold"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -855,6 +855,27 @@ export default function GangeshwarTempleGuidePage() {
                       Gangeshwar's rougher, rockier coastline.
                     </li>
                   </ul>
+
+                  <div className="grid sm:grid-cols-2 gap-4 my-6">
+                    <div className="relative w-full rounded-xl h-56 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/naida-caves/naida-caves-sunlit-rock-formations.webp"
+                        alt="Sunlit sandstone rock formations inside Naida Caves, a short drive from Gangeshwar Temple in Diu"
+                        fill
+                        sizes="(min-width: 1280px) 384px, (min-width: 1024px) 320px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
+                    <div className="relative w-full rounded-xl h-56 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu-fort/diu-fort-lighthouse-bastion-view.webp"
+                        alt="The lighthouse and sea-facing bastion of the 16th-century Diu Fort, a short drive from Gangeshwar Temple"
+                        fill
+                        sizes="(min-width: 1280px) 384px, (min-width: 1024px) 320px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
+                  </div>
                   <div
                     className="bg-forest-50 border-l-4 border-forest-500 p-4 rounded-r-xl my-4 text-sm"
                     style={{ fontFamily: "var(--font-dm-sans)" }}

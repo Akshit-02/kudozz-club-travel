@@ -699,6 +699,15 @@ export default function JamporeBeachGuidePage() {
                 {/* ── Food ──────────────────────────────────────────────── */}
                 <section id="food-guide">
                   <h2>Food Shacks & What to Eat</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/jampore-beach/jampore-beach-casuarina-grove-beach-shacks.webp"
+                      alt="Beach shacks lined up under the casuarina tree line at Jampore Beach, Daman"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Jampore's food scene is informal — a set of beach shacks
                     rather than full restaurants — which suits the beach's
@@ -733,6 +742,15 @@ export default function JamporeBeachGuidePage() {
                 {/* ── Evening Plan ──────────────────────────────────────── */}
                 <section id="evening-plan">
                   <h2>A Suggested Evening Visit</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/jampore-beach/jampore-beach-sunset-silhouette.webp"
+                      alt="A visitor silhouetted against the setting sun on the wet, low-tide sand at Jampore Beach, Daman"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Jampore works best as a focused evening trip rather than
                     a full-day plan — here's a simple timeline that covers

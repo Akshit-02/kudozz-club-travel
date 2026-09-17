@@ -559,8 +559,8 @@ export default function SarojiniNagarGuidePage() {
                   <h2>How the Market Works</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/blogs/delhi/sarojini-nagar/cloth-stall-sarojini-nagar-market.webp"
-                      alt="Rows of export-surplus clothing hanging at a Sarojini Nagar Market stall in Delhi"
+                      src="/images/blogs/delhi/sarojini-nagar/earrings-accessory-stall-sarojini-nagar-market.webp"
+                      alt="A tiered accessory stall hung with earrings, bracelets, and costume jewellery at Sarojini Nagar Market"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -622,6 +622,15 @@ export default function SarojiniNagarGuidePage() {
                 {/* ── Bargaining ────────────────────────────────────────── */}
                 <section id="bargaining">
                   <h2>Bargaining Strategy at Sarojini Nagar</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/sarojini-nagar/clothing-sale-stall-shoppers-sarojini-nagar.webp"
+                      alt="Shoppers examining discounted plazo sets and kurtis hung at a sale stall in Sarojini Nagar Market"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Bargaining isn't optional at Sarojini — it's the default
                     mechanism by which prices are set, and vendors expect it.
@@ -710,6 +719,15 @@ export default function SarojiniNagarGuidePage() {
                 {/* ── Food ──────────────────────────────────────────────── */}
                 <section id="food-guide">
                   <h2>Food Stalls at Sarojini</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/sarojini-nagar/haldiram-restaurant-near-sarojini-nagar-market.webp"
+                      alt="Haldiram's restaurant outlet lit up at night near Sarojini Nagar Market, a popular sit-down food option after shopping"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Shopping at Sarojini is genuinely tiring — hours of
                     walking, negotiating, and weaving through crowds — and

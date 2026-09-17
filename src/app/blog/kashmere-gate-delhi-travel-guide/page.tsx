@@ -566,8 +566,8 @@ export default function KashmereGateGuidePage() {
                   <h2>The Historic Gate Structure</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/blogs/delhi/kashmere-gate/kashmere-gate-brick-arches-ruins.webp"
-                      alt="Visitors walking through the arched brick passageways of Kashmere Gate, Old Delhi"
+                      src="/images/blogs/delhi/kashmere-gate/kashmere-gate-sandstone-facade-traffic-island.webp"
+                      alt="The twin-arched sandstone and brick facade of Kashmere Gate, rebuilt around 1835, seen from the traffic island"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -624,6 +624,15 @@ export default function KashmereGateGuidePage() {
                     Delhi.
                   </p>
                   <h3>St. James' Church</h3>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/kashmere-gate/st-james-church-cream-dome-exterior.webp"
+                      alt="The cream-coloured domed exterior and colonnaded portico of St. James' Church near Kashmere Gate, Delhi's oldest surviving church"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     A short walk from the gate stands <strong>St. James'
                     Church</strong>, widely regarded as <strong>Delhi's
@@ -649,6 +658,15 @@ export default function KashmereGateGuidePage() {
                     stretch between the Ridge and the walled city.
                   </p>
                   <h3>Nicholson Cemetery</h3>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/kashmere-gate/nicholson-cemetery-gravestones-old-delhi.webp"
+                      alt="Rows of weathered gravestones under palm and neem trees at Nicholson Cemetery, near Kashmere Gate"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     A little further north sits <strong>Nicholson
                     Cemetery</strong>, named for British officer{" "}
@@ -675,6 +693,15 @@ export default function KashmereGateGuidePage() {
                 {/* ── ISBT Hub ──────────────────────────────────────────── */}
                 <section id="isbt-hub">
                   <h2>The ISBT: A Practical Travel Hub</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/kashmere-gate/kashmere-gate-isbt-bus-terminal.webp"
+                      alt="The waiting hall inside Kashmere Gate ISBT, Delhi's largest interstate bus terminal, with travellers and their luggage"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     For most people passing through today, Kashmere Gate
                     means one thing: the <strong>Inter-State Bus

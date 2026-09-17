@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/chandigarh/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Wide green lawns and tree-lined paths typical of Chandigarh's landscaped gardens, evoking the Zakir Hussain Rose Garden in Sector 16",
+        url: "/images/blogs/chandigarh/chandigarh/zakir-hussain-rose-garden-chandigarh.webp",
+        width: 1400,
+        height: 1050,
+        alt: "Visitors walking among blooming rose beds beneath flowering trees at the Zakir Hussain Rose Garden, Sector 16, Chandigarh",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Zakir Hussain Rose Garden Chandigarh: Complete Travel Guide",
     description:
       "Roughly 30 acres, close to 1,600 rose varieties, and a February-March bloom that turns Sector 16 into Asia's largest rose garden in full flower.",
-    images: ["/images/destinations/chandigarh/hero.jpg"],
+    images: ["/images/blogs/chandigarh/chandigarh/zakir-hussain-rose-garden-chandigarh.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/rose-garden-chandigarh-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           description:
             "Complete guide to the Zakir Hussain Rose Garden, Sector 16 — Asia's largest rose garden with roughly 1,600+ rose varieties. Best time, the Rose Festival, entry timings, and visit tips.",
           image:
-            "https://club.kudozz.in/images/destinations/chandigarh/hero.jpg",
+            "https://club.kudozz.in/images/blogs/chandigarh/chandigarh/zakir-hussain-rose-garden-chandigarh.webp",
           datePublished: "2026-08-31",
           dateModified: "2026-08-31",
           publisher: {
@@ -203,8 +203,8 @@ export default function RoseGardenGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/chandigarh/hero.jpg"
-              alt="Wide green lawns and tree-lined paths typical of Chandigarh's landscaped gardens, evoking the Zakir Hussain Rose Garden in Sector 16"
+              src="/images/blogs/chandigarh/chandigarh/zakir-hussain-rose-garden-chandigarh.webp"
+              alt="Visitors walking among blooming rose beds beneath flowering trees at the Zakir Hussain Rose Garden, Sector 16, Chandigarh"
               fill
               priority
               sizes="100vw"
@@ -565,8 +565,8 @@ export default function RoseGardenGuidePage() {
 
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/chandigarh/hero.jpg"
-                      alt="Manicured lawns and pathways characteristic of the Zakir Hussain Rose Garden's roughly 30-acre layout in Sector 16, Chandigarh"
+                      src="/images/blogs/chandigarh/rose-garden/rose-garden-chandigarh-tourism-entrance-signage.webp"
+                      alt="Chandigarh Tourism entrance signage at the Zakir Hussain Rose Garden, noting its 1967 founding under Dr. M.S. Randhawa and its status as Asia's largest rose garden"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -604,6 +604,15 @@ export default function RoseGardenGuidePage() {
                 {/* ── Rose Festival ─────────────────────────────────────── */}
                 <section id="rose-festival">
                   <h2>The Chandigarh Rose Festival</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/chandigarh/rose-garden/chandigarh-rose-festival-entrance-decoration.webp"
+                      alt="Flower-decorated entrance arch reading 'Rose Festival' at the Chandigarh Rose Festival held inside the Zakir Hussain Rose Garden"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Every year, typically in February or March, the garden
                     hosts the <strong>Chandigarh Rose Festival</strong> — a
@@ -665,6 +674,15 @@ export default function RoseGardenGuidePage() {
                 {/* ── Photography ────────────────────────────────────────── */}
                 <section id="photography">
                   <h2>Photography Tips</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/chandigarh/rose-garden/close-up-rose-bloom-zakir-hussain-rose-garden.webp"
+                      alt="Close-up macro shot of a single peach-coloured rose in full bloom at the Zakir Hussain Rose Garden"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <ul>
                     <li>
                       <strong>Shoot in the first hour after opening:</strong>{" "}
