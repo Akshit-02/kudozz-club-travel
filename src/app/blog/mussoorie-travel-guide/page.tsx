@@ -532,16 +532,16 @@ export default function MussoorieGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Things to Do in Mussoorie</h2>
+                  <h3>Mall Road & Camel's Back Road</h3>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/blogs/uttarakhand/mussoorie/mussoorie-ridge-town-himalayan-view.webp"
-                      alt="Mussoorie's buildings clustered along the ridge with snow-capped Himalayan peaks in the distance"
+                      src="/images/blogs/uttarakhand/mussoorie/mussoorie-mall-road-street-view.webp"
+                      alt="Mussoorie's Mall Road promenade lined with shops and iron railings on a sunny afternoon"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
                     />
                   </div>
-                  <h3>Mall Road & Camel's Back Road</h3>
                   <p>
                     Mall Road is Mussoorie's spine — a pedestrian-friendly
                     promenade lined with shops, cafés, and viewpoints,
@@ -555,6 +555,15 @@ export default function MussoorieGuidePage() {
                     energetic, a sunrise walk.
                   </p>
                   <h3>Gun Hill</h3>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/uttarakhand/mussoorie/gun-hill-ropeway-cable-car-station.webp"
+                      alt="The red cable car and upper ropeway station perched on the rocky summit of Gun Hill, Mussoorie"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Mussoorie's second-highest point, reached by a cable car
                     from Mall Road (or a steeper walking trail for those who
@@ -565,6 +574,15 @@ export default function MussoorieGuidePage() {
                     popular time to go.
                   </p>
                   <h3>Kempty Falls</h3>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/uttarakhand/mussoorie/kempty-falls-waterfall-pools-mussoorie.webp"
+                      alt="Crowds wading in the pools beneath the multi-tiered Kempty Falls near Mussoorie"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     A multi-tiered waterfall about 15 km from central
                     Mussoorie, reached by road or, for a scenic option, a
@@ -573,6 +591,15 @@ export default function MussoorieGuidePage() {
                     families — expect crowds in peak season and on weekends.
                   </p>
                   <h3>Lal Tibba & Company Garden</h3>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/uttarakhand/mussoorie/company-garden-flower-path-mussoorie.webp"
+                      alt="Flower-lined pathway leading to the small Ferris wheel at Company Garden, Mussoorie"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Lal Tibba, in the Landour area, is Mussoorie's highest
                     point, with a paid telescope viewpoint offering one of
@@ -596,6 +623,15 @@ export default function MussoorieGuidePage() {
                     unhurried character that draws visitors wanting
                     Mussoorie without the Mall Road crowds.
                   </p>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/uttarakhand/mussoorie/george-everest-house-ruins-landour.webp"
+                      alt="The whitewashed ruins of Sir George Everest's house and laboratory near Landour, Mussoorie"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     A slow walk through Landour's Sisters' Bazaar and Char
                     Dukan area, a stop at one of its old bakeries, and the

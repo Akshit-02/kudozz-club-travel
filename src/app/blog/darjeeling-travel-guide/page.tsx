@@ -579,6 +579,15 @@ export default function DarjeelingGuidePage() {
                   </p>
 
                   <h3>Tea Garden Tours</h3>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/west-bengal/darjeeling/darjeeling-tea-garden-misty-hills.webp"
+                      alt="Terraced tea bushes rolling down a mist-covered slope at a Darjeeling tea garden"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Darjeeling's tea gardens — some over 150 years old — are
                     open for walking tours and tastings, with several close
@@ -589,6 +598,15 @@ export default function DarjeelingGuidePage() {
                   </p>
 
                   <h3>Batasia Loop & Peace Pagoda</h3>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/west-bengal/darjeeling/batasia-loop-war-memorial-darjeeling.webp"
+                      alt="The Gorkha war memorial obelisk and soldier statue at the centre of the Batasia Loop, Darjeeling"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     The Batasia Loop is a spiral railway track built to ease
                     the Toy Train's descent, with a war memorial and
@@ -598,6 +616,15 @@ export default function DarjeelingGuidePage() {
                   </p>
 
                   <h3>Observatory Hill, Mall Road & Ghoom Monastery</h3>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/west-bengal/darjeeling/ghoom-yiga-choeling-monastery-gate.webp"
+                      alt="The colourful traditional gateway and prayer flags at Yiga Choeling Monastery near Ghoom, Darjeeling"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Mall Road is Darjeeling's pedestrian heart, lined with
                     colonial buildings, cafés, and handicraft shops, leading
@@ -609,6 +636,15 @@ export default function DarjeelingGuidePage() {
                   </p>
 
                   <h3>Darjeeling Zoo & Himalayan Mountaineering Institute</h3>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/west-bengal/darjeeling/red-panda-darjeeling-zoo.webp"
+                      alt="A red panda walking along a branch in its high-altitude enclosure at Padmaja Naidu Himalayan Zoological Park, Darjeeling"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     The Padmaja Naidu Himalayan Zoological Park is one of the
                     few places in the world to see the red panda and snow

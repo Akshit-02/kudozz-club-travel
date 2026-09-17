@@ -541,8 +541,8 @@ export default function MunsiyariGuidePage() {
                   <h2>Things to Do & See in Munsiyari</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/blogs/uttarakhand/munsiyari/panchachuli-peak-golden-light-munsiyari.webp"
-                      alt="View of the Panchachuli massif from Betuli Dhar viewpoint near Munsiyari"
+                      src="/images/blogs/uttarakhand/munsiyari/betuli-dhar-viewpoint-sunrise-munsiyari.webp"
+                      alt="Silhouetted Panchachuli peaks lit by golden sunrise clouds, as seen from Betuli Dhar viewpoint above Munsiyari"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -557,6 +557,15 @@ export default function MunsiyariGuidePage() {
                     without a single cloud.
                   </p>
                   <h3>Panchachuli Peaks & the Pandava Legend</h3>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/uttarakhand/munsiyari/panchachuli-range-clear-daytime-view-munsiyari.webp"
+                      alt="Clear daytime view of the snow-capped Panchachuli range rising above pine-forested ridges near Munsiyari"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     The name Panchachuli — roughly "five hearths" — comes
                     from local legend holding that the five Pandava brothers
@@ -567,6 +576,15 @@ export default function MunsiyariGuidePage() {
                     great sights.
                   </p>
                   <h3>Thamri Kund</h3>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/uttarakhand/munsiyari/thamri-kund-forest-trek-panchachuli-view.webp"
+                      alt="Panchachuli peaks framed by dense oak and rhododendron forest on the trek to Thamri Kund near Munsiyari"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     A small forest lake a short trek from town, framed by
                     dense rhododendron and oak, and considered sacred by
@@ -582,6 +600,15 @@ export default function MunsiyariGuidePage() {
                     border before it closed in 1962.
                   </p>
                   <h3>Nanda Devi Temple</h3>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/uttarakhand/munsiyari/nanda-devi-temple-munsiyari-town.webp"
+                      alt="The small white Nanda Devi Temple in Munsiyari town with the snow-capped Panchachuli range behind it"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     A small local temple in Munsiyari town dedicated to
                     Nanda Devi as a goddess — distinct from the actual Nanda

@@ -626,6 +626,15 @@ export default function DudhniGuidePage() {
                 {/* ── Picnic / Birdwatching ─────────────────────────────── */}
                 <section id="picnic-birdwatching">
                   <h2>Scenic Picnic Spots & Birdwatching</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/dudhni/dudhni-lake-palm-tree-reservoir-edge.webp"
+                      alt="A lone palm tree on a narrow sandbar in the Dudhni reservoir, with wooded hills reflected in the still water"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Beyond the boat rides, Dudhni has a modest garden and
                     open lawn area near the jetty that works well for a
@@ -673,6 +682,15 @@ export default function DudhniGuidePage() {
                     , the two make an obvious pair for a single half-day trip
                     out from Silvassa.
                   </p>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/madhuban-dam/madhuban-dam-reservoir-view-silvassa.webp"
+                      alt="Wide view of the Madhuban Dam reservoir near Silvassa, the same backwaters that feed Dudhni Lake"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
 
                   <div className="space-y-4 my-8">
                     {[

@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/chandigarh/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "A calm, tree-lined green space in Chandigarh, evoking the quiet trellised walkways of the Bougainvillea Garden",
+        url: "/images/blogs/chandigarh/bougainvillea-garden/bougainvillea-blooms-magenta-pink-trellis.webp",
+        width: 1400,
+        height: 2100,
+        alt: "Vivid magenta and pink bougainvillea blooms in full flower, the signature plant of Chandigarh's Bougainvillea Garden",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Bougainvillea Garden Chandigarh: Timings, Tips & Visit Guide",
     description:
       "A quiet, trellised garden of magenta, pink and white bougainvillea in Sector 3 — the complete visit guide for Chandigarh's least-crowded flower garden.",
-    images: ["/images/destinations/chandigarh/hero.jpg"],
+    images: ["/images/blogs/chandigarh/bougainvillea-garden/bougainvillea-blooms-magenta-pink-trellis.webp"],
   },
   alternates: {
     canonical:
@@ -61,7 +61,7 @@ function ArticleSchema() {
           description:
             "Complete Bougainvillea Garden Chandigarh guide — a quiet themed garden of trellised bougainvillea creepers in Sector 3. Best time to visit, how to reach, and what to expect beyond the Rose Garden crowds.",
           image:
-            "https://club.kudozz.in/images/destinations/chandigarh/hero.jpg",
+            "https://club.kudozz.in/images/blogs/chandigarh/bougainvillea-garden/bougainvillea-blooms-magenta-pink-trellis.webp",
           datePublished: "2026-08-31",
           dateModified: "2026-08-31",
           publisher: {
@@ -202,8 +202,8 @@ export default function BougainvilleaGardenGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/chandigarh/hero.jpg"
-              alt="A calm, tree-lined green space in Chandigarh, evoking the quiet trellised walkways of the Bougainvillea Garden"
+              src="/images/blogs/chandigarh/bougainvillea-garden/bougainvillea-blooms-magenta-pink-trellis.webp"
+              alt="Vivid magenta and pink bougainvillea blooms in full flower, the signature plant of Chandigarh's Bougainvillea Garden"
               fill
               priority
               sizes="100vw"
@@ -559,8 +559,8 @@ export default function BougainvilleaGardenGuidePage() {
 
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/chandigarh/hero.jpg"
-                      alt="A quiet garden pathway in Chandigarh, evoking the trellised arches and creeper-covered walkways of the Bougainvillea Garden in Sector 3"
+                      src="/images/blogs/chandigarh/bougainvillea-garden/bougainvillea-glabra-yellow-orange-bracts.webp"
+                      alt="Close-up of a bougainvillea cultivar with yellow-orange bracts, showing the range of colours found across the garden's trellised creepers"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

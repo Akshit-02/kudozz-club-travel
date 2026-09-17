@@ -1493,7 +1493,8 @@
       "usedIn": [
         "madhuban-dam-travel-guide (hero + inline — replaces a Goa photo used in error)",
         "silvassa-travel-guide (Madhuban Dam section)",
-        "khanvel-travel-guide"
+        "khanvel-travel-guide",
+        "dudhni-travel-guide"
       ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:A_Beautiful_Nature_of_Silvassa.jpg",
@@ -2122,7 +2123,8 @@
     {
       "path": "blogs/west-bengal/gorumara/jeep-safari-trail-gorumara-national-park.webp",
       "usedIn": [
-        "gorumara-travel-guide (hero — replaces a Ziro photo used in error)"
+        "gorumara-travel-guide (hero — replaces a Ziro photo used in error)",
+        "dooars-travel-guide"
       ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:There_goes_the_trail.jpg",
@@ -8029,6 +8031,354 @@
       "license": "CC BY-SA 4.0",
       "author": "Himanshu.engin",
       "attribution": "Photo by Himanshu.engin, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/west-bengal/bishnupur/rasmancha-laterite-pyramidal-temple-bishnupur.webp",
+      "usedIn": [
+        "bishnupur-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Rasmancha_Bishnupur_Bankura_1.jpg",
+      "originalFile": "Rasmancha_Bishnupur_Bankura_1.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Kinjal bose 78",
+      "attribution": "Photo by Kinjal bose 78, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/west-bengal/bishnupur/shyam-rai-pancharatna-temple-bishnupur.webp",
+      "usedIn": [
+        "bishnupur-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Shyam_Rai_Temple_in_Bishnupur,_West_Bengal,_India.jpg",
+      "originalFile": "Shyam_Rai_Temple_in_Bishnupur,_West_Bengal,_India.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Dutt joydip",
+      "attribution": "Photo by Dutt joydip, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/west-bengal/bishnupur/madan-mohan-temple-active-worship-bishnupur.webp",
+      "usedIn": [
+        "bishnupur-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Madan_Mohan_temple_of_Bishnupur_(04).jpg",
+      "originalFile": "Madan_Mohan_temple_of_Bishnupur_(04).jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "SuvadipSanyal",
+      "attribution": "Photo by SuvadipSanyal, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/west-bengal/bishnupur/baluchari-saree-handloom-weaving-bishnupur.webp",
+      "usedIn": [
+        "bishnupur-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Baluchari_Saree_making.jpg",
+      "originalFile": "Baluchari_Saree_making.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "PRITAMDUTTA20",
+      "attribution": "Photo by PRITAMDUTTA20, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/west-bengal/bishnupur/dalmadal-cannon-iron-relic-bishnupur.webp",
+      "usedIn": [
+        "bishnupur-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Dalmadal_Cannon,_Bishnupur.JPG",
+      "originalFile": "Dalmadal_Cannon,_Bishnupur.JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "Amartyabag",
+      "attribution": "Photo by Amartyabag, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/uttarakhand/munsiyari/betuli-dhar-viewpoint-sunrise-munsiyari.webp",
+      "usedIn": [
+        "munsiyari-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Sunrise_at_Munsiyari_-_I_(14547053363).jpg",
+      "originalFile": "Sunrise_at_Munsiyari_-_I_(14547053363).jpg",
+      "license": "CC BY 2.0",
+      "author": "Abhijit Kar Gupta",
+      "attribution": "Photo by Abhijit Kar Gupta, CC BY 2.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/uttarakhand/munsiyari/panchachuli-range-clear-daytime-view-munsiyari.webp",
+      "usedIn": [
+        "munsiyari-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Panchachuli_Peaks.jpg",
+      "originalFile": "Panchachuli_Peaks.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Mukul.pandey07",
+      "attribution": "Photo by Mukul.pandey07, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/uttarakhand/munsiyari/thamri-kund-forest-trek-panchachuli-view.webp",
+      "usedIn": [
+        "munsiyari-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Panchachuli_peaks_view_from_%22Thamri_Kund%22.JPG",
+      "originalFile": "Panchachuli_peaks_view_from_%22Thamri_Kund%22.JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "Pranavspn",
+      "attribution": "Photo by Pranavspn, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/uttarakhand/munsiyari/nanda-devi-temple-munsiyari-town.webp",
+      "usedIn": [
+        "munsiyari-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:NANDA_DEVI_TEMPLE.jpg",
+      "originalFile": "NANDA_DEVI_TEMPLE.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Jaiambey",
+      "attribution": "Photo by Jaiambey, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/west-bengal/dooars/flat-plains-tea-garden-dooars.webp",
+      "usedIn": [
+        "dooars-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Tea_Garden_at_Dooars.JPG",
+      "originalFile": "Tea_Garden_at_Dooars.JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "Rajibnandi",
+      "attribution": "Photo by Rajibnandi, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/west-bengal/dooars/murti-river-rocky-bed-lataguri-dooars.webp",
+      "usedIn": [
+        "dooars-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Murti_River,_West_Bengal,_India.jpg",
+      "originalFile": "Murti_River,_West_Bengal,_India.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Joydeep",
+      "attribution": "Photo by Joydeep, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/west-bengal/dooars/bindu-border-village-jaldhaka-valley-dooars.webp",
+      "usedIn": [
+        "dooars-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Himalayan_foothills_at_Bindu_Indo-Bhutan_border.jpg",
+      "originalFile": "Himalayan_foothills_at_Bindu_Indo-Bhutan_border.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Diwaskar Dahal",
+      "attribution": "Photo by Diwaskar Dahal, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/west-bengal/dooars/wild-elephant-forest-jaldapara-dooars.webp",
+      "usedIn": [
+        "dooars-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:THE_CAMOUFLAGED-_A_male_Elephant_at_Jaldapara_Wildlife_Sanctuary,_West_Bengal.jpg",
+      "originalFile": "THE_CAMOUFLAGED-_A_male_Elephant_at_Jaldapara_Wildlife_Sanctuary,_West_Bengal.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Rjdutta007",
+      "attribution": "Photo by Rjdutta007, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/west-bengal/darjeeling/darjeeling-tea-garden-misty-hills.webp",
+      "usedIn": [
+        "darjeeling-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:PXL_20240323_065728783_Cloud_and_Tea_Garden_at_Namring_Tea_Garden_Darjeeling_West_Bengal_734226_04.jpg",
+      "originalFile": "PXL_20240323_065728783_Cloud_and_Tea_Garden_at_Namring_Tea_Garden_Darjeeling_West_Bengal_734226_04.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Sourabh.biswas003",
+      "attribution": "Photo by Sourabh.biswas003, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/west-bengal/darjeeling/batasia-loop-war-memorial-darjeeling.webp",
+      "usedIn": [
+        "darjeeling-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Batasia_Loop_War_Memorial_of_Darjeeling.jpg",
+      "originalFile": "Batasia_Loop_War_Memorial_of_Darjeeling.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "ANKAN",
+      "attribution": "Photo by ANKAN, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/west-bengal/darjeeling/ghoom-yiga-choeling-monastery-gate.webp",
+      "usedIn": [
+        "darjeeling-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Yiga_Choeling_Monastery,_Ghum_01.jpg",
+      "originalFile": "Yiga_Choeling_Monastery,_Ghum_01.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Bernard Gagnon",
+      "attribution": "Photo by Bernard Gagnon, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/west-bengal/darjeeling/red-panda-darjeeling-zoo.webp",
+      "usedIn": [
+        "darjeeling-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:The_Red_Pandas_in_Padmaja_Naidu_Himalayan_Zoological_Park_(Darjeeling_Zoo)_16.jpg",
+      "originalFile": "The_Red_Pandas_in_Padmaja_Naidu_Himalayan_Zoological_Park_(Darjeeling_Zoo)_16.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Pinakpani",
+      "attribution": "Photo by Pinakpani, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/uttarakhand/mussoorie/mussoorie-mall-road-street-view.webp",
+      "usedIn": [
+        "mussoorie-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Mall_Road,_Mussoorie_03.JPG",
+      "originalFile": "Mall_Road,_Mussoorie_03.JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "Harshanh",
+      "attribution": "Photo by Harshanh, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/uttarakhand/mussoorie/gun-hill-ropeway-cable-car-station.webp",
+      "usedIn": [
+        "mussoorie-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Gun_hill,_Mussoorie_01.JPG",
+      "originalFile": "Gun_hill,_Mussoorie_01.JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "Harshanh",
+      "attribution": "Photo by Harshanh, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/uttarakhand/mussoorie/kempty-falls-waterfall-pools-mussoorie.webp",
+      "usedIn": [
+        "mussoorie-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kempty_Falls,_May_2024.jpg",
+      "originalFile": "Kempty_Falls,_May_2024.jpg",
+      "license": "CC0",
+      "author": "BestMan20",
+      "attribution": "Photo by BestMan20, CC0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/uttarakhand/mussoorie/company-garden-flower-path-mussoorie.webp",
+      "usedIn": [
+        "mussoorie-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Company_Garden,_Mussoorie_,_Uttrakhand.jpg",
+      "originalFile": "Company_Garden,_Mussoorie_,_Uttrakhand.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Nargiskhn4",
+      "attribution": "Photo by Nargiskhn4, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/uttarakhand/mussoorie/george-everest-house-ruins-landour.webp",
+      "usedIn": [
+        "mussoorie-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Sir_George_Everest_Bungalow.jpg",
+      "originalFile": "Sir_George_Everest_Bungalow.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Singh.abhinav 021",
+      "attribution": "Photo by Singh.abhinav 021, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/dudhni/dudhni-lake-palm-tree-reservoir-edge.webp",
+      "usedIn": [
+        "dudhni-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Romantic_memorable_picture.jpg",
+      "originalFile": "Romantic_memorable_picture.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Vta patel",
+      "attribution": "Photo by Vta patel, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/chandigarh/bougainvillea-garden/bougainvillea-blooms-magenta-pink-trellis.webp",
+      "usedIn": [
+        "bougainvillea-garden-chandigarh-travel-guide (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Pink_Bougainvillea_flowers_in_bloom.jpg",
+      "originalFile": "Pink_Bougainvillea_flowers_in_bloom.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Ide8sion",
+      "attribution": "Photo by Ide8sion, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/chandigarh/bougainvillea-garden/bougainvillea-glabra-yellow-orange-bracts.webp",
+      "usedIn": [
+        "bougainvillea-garden-chandigarh-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Bougainvillea_glabra_at_Kadavoor.jpg",
+      "originalFile": "Bougainvillea_glabra_at_Kadavoor.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Jeevan Jose, Kerala, India",
+      "attribution": "Photo by Jeevan Jose, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/chandigarh/garden-of-fragrance/garden-of-fragrance-lawn-flowerbeds-sector-36.webp",
+      "usedIn": [
+        "garden-of-fragrance-chandigarh-travel-guide (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Garden_Of_Fragrance_-_panoramio.jpg",
+      "originalFile": "Garden_Of_Fragrance_-_panoramio.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "skiddalgi",
+      "attribution": "Photo by skiddalgi, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/chandigarh/garden-of-fragrance/jasminum-sambac-fragrant-white-flower.webp",
+      "usedIn": [
+        "garden-of-fragrance-chandigarh-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Jasminum_sambac_Flower.jpg",
+      "originalFile": "Jasminum_sambac_Flower.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "PapiPijuan",
+      "attribution": "Photo by PapiPijuan, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/chandigarh/terraced-garden/leisure-valley-open-lawn-chandigarh.webp",
+      "usedIn": [
+        "terraced-garden-chandigarh-travel-guide (hero — no dedicated Sector 33 Terraced Garden photo exists on Commons; uses a GPS-confirmed Leisure Valley photo instead, honestly captioned)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Leisurevalleymarch2026.jpg",
+      "originalFile": "Leisurevalleymarch2026.jpg",
+      "license": "CC0",
+      "author": "RIDH-1",
+      "attribution": "Photo by RIDH-1, CC0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/chandigarh/terraced-garden/leisure-valley-tree-arched-pathway-chandigarh.webp",
+      "usedIn": [
+        "terraced-garden-chandigarh-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Leisure_valley,_Chandigarh.jpg",
+      "originalFile": "Leisure_valley,_Chandigarh.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "RIDHVAN SHARMA",
+      "attribution": "Photo by RIDHVAN SHARMA, CC BY-SA 4.0, via Wikimedia Commons"
     }
   ]
 }

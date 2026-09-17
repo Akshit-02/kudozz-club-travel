@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/chandigarh/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "A quiet landscaped garden path in Chandigarh, evoking the calm, scent-themed Garden of Fragrance in Sector 36",
+        url: "/images/blogs/chandigarh/garden-of-fragrance/garden-of-fragrance-lawn-flowerbeds-sector-36.webp",
+        width: 1400,
+        height: 937,
+        alt: "Red salvia flowerbeds bordering an open lawn at the Garden of Fragrance in Sector 36, Chandigarh",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Garden of Fragrance Chandigarh: Sector 36 Visit Guide",
     description:
       "Chandigarh's quietest themed garden — built around scent, not spectacle, with accessible design for visually impaired visitors.",
-    images: ["/images/destinations/chandigarh/hero.jpg"],
+    images: ["/images/blogs/chandigarh/garden-of-fragrance/garden-of-fragrance-lawn-flowerbeds-sector-36.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/garden-of-fragrance-chandigarh-travel-guide",
@@ -58,7 +58,7 @@ function ArticleSchema() {
           headline: "Garden of Fragrance Chandigarh: Sector 36 Visit Guide",
           description:
             "Garden of Fragrance guide — Chandigarh's Sector 36 scent-themed garden with plantings and signage designed for visually impaired visitors. Timings, tips, and what makes it different from the Rose Garden.",
-          image: "https://club.kudozz.in/images/destinations/chandigarh/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/chandigarh/garden-of-fragrance/garden-of-fragrance-lawn-flowerbeds-sector-36.webp",
           datePublished: "2026-08-31",
           dateModified: "2026-08-31",
           publisher: {
@@ -200,8 +200,8 @@ export default function GardenOfFragranceGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/chandigarh/hero.jpg"
-              alt="A quiet landscaped garden path in Chandigarh, evoking the calm, scent-themed Garden of Fragrance in Sector 36"
+              src="/images/blogs/chandigarh/garden-of-fragrance/garden-of-fragrance-lawn-flowerbeds-sector-36.webp"
+              alt="Red salvia flowerbeds bordering an open lawn at the Garden of Fragrance in Sector 36, Chandigarh"
               fill
               priority
               sizes="100vw"
@@ -422,8 +422,8 @@ export default function GardenOfFragranceGuidePage() {
                   <h2>What's Inside</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/chandigarh/hero.jpg"
-                      alt="Aromatic flowering plants along a garden path, evoking the Garden of Fragrance's scent-led design in Chandigarh"
+                      src="/images/blogs/chandigarh/garden-of-fragrance/jasminum-sambac-fragrant-white-flower.webp"
+                      alt="A single white Jasminum sambac (mogra) bloom, one of the fragrant flowering plants typical of scent-themed gardens like this one"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

@@ -543,8 +543,8 @@ export default function DooarsGuidePage() {
                   <h2>Things to Do in the Dooars</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/blogs/west-bengal/dooars/one-horned-rhino-jaldapara-national-park-dooars.webp"
-                      alt="A greater one-horned rhinoceros in the grasslands of Jaldapara National Park, a highlight safari sighting in the Dooars"
+                      src="/images/blogs/west-bengal/gorumara/jeep-safari-trail-gorumara-national-park.webp"
+                      alt="A jeep safari trail cutting through the dense sal forest of Gorumara National Park in the Dooars"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -565,8 +565,26 @@ export default function DooarsGuidePage() {
                     corridors each deserve their own separate safari day
                     rather than being squeezed into one park visit.
                   </p>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/west-bengal/dooars/wild-elephant-forest-jaldapara-dooars.webp"
+                      alt="A wild tusker elephant partly hidden among dense forest trees in Jaldapara, a typical Dooars safari sighting"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
 
                   <h3>Tea Garden Visits</h3>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/west-bengal/dooars/flat-plains-tea-garden-dooars.webp"
+                      alt="A flat-plains Dooars tea garden shaded by tall trees, a different growing style from Darjeeling's terraced hill gardens"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Unlike the terraced hill gardens of Darjeeling, Dooars
                     tea estates spread across flat plains, many open for
@@ -575,6 +593,15 @@ export default function DooarsGuidePage() {
                   </p>
 
                   <h3>Rivers: Teesta, Jaldhaka & Murti</h3>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/west-bengal/dooars/murti-river-rocky-bed-lataguri-dooars.webp"
+                      alt="The rocky, boulder-strewn bed of the Murti river near Lataguri, a popular riverside picnic spot in the Dooars"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     The rivers rolling down from the hills define much of
                     the region's landscape and recreation. The Murti river
@@ -584,6 +611,15 @@ export default function DooarsGuidePage() {
                   </p>
 
                   <h3>Bindu & Jhalong Border Villages</h3>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/west-bengal/dooars/bindu-border-village-jaldhaka-valley-dooars.webp"
+                      alt="The misty Jaldhaka river valley near the Bindu border village on the Dooars' edge with Bhutan"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Tucked right against the Bhutan border, these small
                     villages along the Jaldhaka river offer a slower,

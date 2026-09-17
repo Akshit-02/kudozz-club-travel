@@ -538,8 +538,8 @@ export default function BishnupurGuidePage() {
                   <h2>The Terracotta Temples</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/blogs/west-bengal/bishnupur/jor-bangla-temple-terracotta-facade-bishnupur.webp"
-                      alt="Terracotta relief carvings on the Jor Bangla temple facade, Bishnupur, built by the Malla dynasty"
+                      src="/images/blogs/west-bengal/bishnupur/rasmancha-laterite-pyramidal-temple-bishnupur.webp"
+                      alt="Rasmancha, Bishnupur's pyramidal laterite pavilion with rows of arched galleries, built by King Bir Hambir around 1600"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -567,6 +567,15 @@ export default function BishnupurGuidePage() {
                     terracotta work in the town.
                   </p>
                   <h3>Madan Mohan Temple</h3>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/west-bengal/bishnupur/madan-mohan-temple-active-worship-bishnupur.webp"
+                      alt="The domed Madan Mohan Temple in Bishnupur, built in 1694 and still an active place of Krishna worship"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     A later addition, built in 1694, dedicated to Krishna
                     and still an active place of worship today, distinguishing
@@ -575,6 +584,15 @@ export default function BishnupurGuidePage() {
                     heavily on scenes from Krishna's life.
                   </p>
                   <h3>Shyam Rai & Keshta Rai Temples</h3>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/west-bengal/bishnupur/shyam-rai-pancharatna-temple-bishnupur.webp"
+                      alt="Shyam Rai Temple in Bishnupur, showing its distinctive five-spired pancharatna architecture, built in 1643"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Shyam Rai, built in 1643, is notable for its distinctive
                     pancharatna ("five-spired") architecture, a style that
@@ -593,6 +611,15 @@ export default function BishnupurGuidePage() {
                     temples, into two living traditions still practiced in
                     the town today.
                   </p>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/west-bengal/bishnupur/baluchari-saree-handloom-weaving-bishnupur.webp"
+                      alt="A weaver working a traditional jacquard handloom to produce a Baluchari silk saree in Bishnupur"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <ul>
                     <li>
                       <strong>Bishnupur Gharana:</strong> A distinct
@@ -618,6 +645,15 @@ export default function BishnupurGuidePage() {
                       the temple cluster.
                     </li>
                   </ul>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/west-bengal/bishnupur/dalmadal-cannon-iron-relic-bishnupur.webp"
+                      alt="The massive 17th-century iron Dalmadal Cannon on display near the temple cluster in Bishnupur"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <div
                     className="bg-forest-50 border-l-4 border-forest-500 p-4 rounded-r-xl my-4 text-sm"
                     style={{ fontFamily: "var(--font-dm-sans)" }}

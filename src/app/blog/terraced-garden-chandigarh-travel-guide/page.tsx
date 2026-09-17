@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/chandigarh/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "A calm lake ringed by hills in Chandigarh, evoking the layered green spaces of the city's Leisure Valley corridor including the Terraced Garden",
+        url: "/images/blogs/chandigarh/terraced-garden/leisure-valley-open-lawn-chandigarh.webp",
+        width: 1216,
+        height: 913,
+        alt: "Open lawns and mature trees along Chandigarh's Leisure Valley greenbelt, the connected green corridor that the Terraced Garden forms part of",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Terraced Garden Chandigarh: Timings, Layout & Visit Guide",
     description:
       "A garden laid out across multiple levels connected by stone steps — seasonal flowers, quiet lawns, and a calmer alternative to the Rose Garden.",
-    images: ["/images/destinations/chandigarh/hero.jpg"],
+    images: ["/images/blogs/chandigarh/terraced-garden/leisure-valley-open-lawn-chandigarh.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/terraced-garden-chandigarh-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           description:
             "Complete guide to the Terraced Garden, Chandigarh — a multi-level garden in Sector 33 with seasonal flowers and quiet lawns, part of the Leisure Valley corridor. Timings, entry, and photography tips.",
           image:
-            "https://club.kudozz.in/images/destinations/chandigarh/hero.jpg",
+            "https://club.kudozz.in/images/blogs/chandigarh/terraced-garden/leisure-valley-open-lawn-chandigarh.webp",
           datePublished: "2026-08-31",
           dateModified: "2026-08-31",
           publisher: {
@@ -202,8 +202,8 @@ export default function TerracedGardenGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/chandigarh/hero.jpg"
-              alt="A calm lake ringed by hills in Chandigarh, evoking the layered green spaces of the city's Leisure Valley corridor including the Terraced Garden"
+              src="/images/blogs/chandigarh/terraced-garden/leisure-valley-open-lawn-chandigarh.webp"
+              alt="Open lawns and mature trees along Chandigarh's Leisure Valley greenbelt, the connected green corridor that the Terraced Garden forms part of"
               fill
               priority
               sizes="100vw"
@@ -563,8 +563,8 @@ export default function TerracedGardenGuidePage() {
 
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/chandigarh/hero.jpg"
-                      alt="Chandigarh green spaces, evoking the layered lawns and stone pathways of the Terraced Garden"
+                      src="/images/blogs/chandigarh/terraced-garden/leisure-valley-tree-arched-pathway-chandigarh.webp"
+                      alt="A tree-arched walking path in Chandigarh's Leisure Valley, the green corridor connecting Sector 33's Terraced Garden to the city's other gardens"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
