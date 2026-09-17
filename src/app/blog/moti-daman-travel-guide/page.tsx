@@ -645,6 +645,15 @@ export default function MotiDamanGuidePage() {
                 {/* ── Other Churches ────────────────────────────────────── */}
                 <section id="other-churches">
                   <h2>Other Colonial Churches & Chapels</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/moti-daman/dominican-monastery-ruins-moti-daman.webp"
+                      alt="The roofless stone arcade and moss-covered ruins of the Dominican Monastery in Moti Daman's old town"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Bom Jesus isn't the only trace of Moti Daman's religious
                     architecture. Scattered through the old town and along
@@ -680,6 +689,15 @@ export default function MotiDamanGuidePage() {
                 {/* ── Government Buildings ──────────────────────────────── */}
                 <section id="government-buildings">
                   <h2>Old Portuguese Government Buildings</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/moti-daman/freedom-memorial-liberation-monument-moti-daman.webp"
+                      alt="The white Freedom Memorial inside Moti Daman Fort, marking the 1961 liberation that ended 450 years of Portuguese rule"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Moti Daman wasn't just a fortified church town — for
                     centuries it was the administrative heart of Portuguese
@@ -723,6 +741,15 @@ export default function MotiDamanGuidePage() {
                 {/* ── Streets & Architecture ─────────────────────────────── */}
                 <section id="streets-architecture">
                   <h2>Streets & Architecture of the Walled Town</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/moti-daman/moti-daman-fort-inner-gate-ruins.webp"
+                      alt="A moss-covered inner archway and old cannon emplacement along Moti Daman Fort's ramparts"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Beyond the named landmarks, Moti Daman's real charm is in
                     simply walking its streets. Behind the fort walls, narrow

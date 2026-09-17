@@ -1148,7 +1148,7 @@
     {
       "path": "blogs/jammu-and-kashmir/yusmarg/yusmarg-meadow-pine-forest.webp",
       "usedIn": [
-        "yusmarg-travel-guide (hero + inline — replaces a generic shared jammu-kashmir/hero.jpg photo)"
+        "yusmarg-travel-guide (hero — replaces a generic shared jammu-kashmir/hero.jpg photo)"
       ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Yousmarg.jpg",
@@ -1156,6 +1156,42 @@
       "license": "CC BY-SA 4.0",
       "author": "Suhail Skindar Sofi",
       "attribution": "Photo by Suhail Skindar Sofi, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/jammu-and-kashmir/yusmarg/yusmarg-meadow-grazing-sheep-pines.webp",
+      "usedIn": [
+        "yusmarg-travel-guide (The Yusmarg Meadow section — bug fix: previously duplicated the hero image verbatim in the body, replaced with a distinct photo)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Yusmarg,_beautiful_valley_in_Kashmir.jpg",
+      "originalFile": "Yusmarg, beautiful valley in Kashmir.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Debashritaiitmandi",
+      "attribution": "Photo by Debashritaiitmandi, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/jammu-and-kashmir/yusmarg/nilnag-lake-pine-forest-reflection.webp",
+      "usedIn": [
+        "yusmarg-travel-guide (Nilnag Lake section)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Nilnag_Lake.jpg",
+      "originalFile": "Nilnag Lake.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Suhail Skindar Sofi",
+      "attribution": "Photo by Suhail Skindar Sofi, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/jammu-and-kashmir/yusmarg/charar-e-sharief-shrine-minaret.webp",
+      "usedIn": [
+        "yusmarg-travel-guide (How to Reach section — Charar-e-Sharief pro tip)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Charar-e-Sharief_mosque.jpg",
+      "originalFile": "Charar-e-Sharief mosque.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "TheBirdsShedTears",
+      "attribution": "Photo by TheBirdsShedTears, CC BY-SA 4.0, via Wikimedia Commons"
     },
     {
       "path": "blogs/delhi/hauz-khas/hauz-khas-fort-madrasa-ruins.webp",
@@ -1824,6 +1860,42 @@
       "license": "CC BY-SA 3.0",
       "author": "Pradeep717",
       "attribution": "Photo by Pradeep717, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/moti-daman/dominican-monastery-ruins-moti-daman.webp",
+      "usedIn": [
+        "moti-daman-travel-guide (Other Colonial Churches & Chapels section)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Dominican_Monastery_Daman_1.jpg",
+      "originalFile": "Dominican Monastery Daman 1.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Bhavesh Kamaliya",
+      "attribution": "Photo by Bhavesh Kamaliya, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/moti-daman/freedom-memorial-liberation-monument-moti-daman.webp",
+      "usedIn": [
+        "moti-daman-travel-guide (Old Portuguese Government Buildings section)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Daman_Freedom_Memorial.JPG",
+      "originalFile": "Daman Freedom Memorial.JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "Pradeep717",
+      "attribution": "Photo by Pradeep717, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/moti-daman/moti-daman-fort-inner-gate-ruins.webp",
+      "usedIn": [
+        "moti-daman-travel-guide (Streets & Architecture section)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Fort_Entrance_Interiors.jpg",
+      "originalFile": "Fort Entrance Interiors.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Viraat2000",
+      "attribution": "Photo by Viraat2000, CC BY-SA 3.0, via Wikimedia Commons"
     },
     {
       "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/naida-caves/naida-caves-sandstone-chamber-roots.webp",
@@ -6515,6 +6587,525 @@
       "license": "CC BY 2.0",
       "author": "shankar s.",
       "attribution": "Photo by shankar s., CC BY 2.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/uttarakhand/haridwar/sunrise-bathing-ghat-har-ki-pauri.webp",
+      "usedIn": [
+        "haridwar-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Sunrise_view_of_the_main_bathing_ghat_at_Har-ki-pauri,_Haridwar.jpg",
+      "originalFile": "Sunrise_view_of_the_main_bathing_ghat_at_Har-ki-pauri,_Haridwar.jpg",
+      "license": "CC BY 2.0",
+      "author": "Wolfgang Maehr",
+      "attribution": "Photo by Wolfgang Maehr, CC BY 2.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/uttarakhand/haridwar/mansa-devi-temple-hilltop-bilwa-parvat.webp",
+      "usedIn": [
+        "haridwar-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Mansa_Devi_Temple,_Haridwar_06.jpg",
+      "originalFile": "Mansa_Devi_Temple,_Haridwar_06.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Antoine Taveneaux",
+      "attribution": "Photo by Antoine Taveneaux, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/uttarakhand/haridwar/chandi-devi-temple-neel-parvat-hilltop.webp",
+      "usedIn": [
+        "haridwar-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Chandidevi_temple2.JPG",
+      "originalFile": "Chandidevi_temple2.JPG",
+      "license": "CC BY-SA 4.0",
+      "author": "Ssriram mt",
+      "attribution": "Photo by Ssriram mt, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/uttarakhand/haridwar/spotted-deer-rajaji-national-park.webp",
+      "usedIn": [
+        "haridwar-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Spotted_Deer_at_Rajaji_National_Park_%26_Tiger_Reserve,_Uttarakhand.jpg",
+      "originalFile": "Spotted_Deer_at_Rajaji_National_Park_%26_Tiger_Reserve,_Uttarakhand.jpg",
+      "license": "CC BY 4.0",
+      "author": "Kingshuk Mondal",
+      "attribution": "Photo by Kingshuk Mondal, CC BY 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/hauz-khas/reservoir-lake-evening-hauz-khas.webp",
+      "usedIn": [
+        "hauz-khas-delhi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Evening_Scene_Hauz_Khas_Village_lake.jpg",
+      "originalFile": "Evening_Scene_Hauz_Khas_Village_lake.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "SanjayPandey",
+      "attribution": "Photo by SanjayPandey, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/hauz-khas/spotted-deer-hauz-khas-deer-park.webp",
+      "usedIn": [
+        "hauz-khas-delhi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Deer_Park_Deer_Eating.jpg",
+      "originalFile": "Deer_Park_Deer_Eating.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Pallav.journo",
+      "attribution": "Photo by Pallav.journo, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/delhi/hauz-khas/restaurant-cafe-hauz-khas-village-lanes.webp",
+      "usedIn": [
+        "hauz-khas-delhi-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:%22A%22_restaurant_in_Hauz_Khas_Village,_New_Delhi_India_2013.jpg",
+      "originalFile": "%22A%22_restaurant_in_Hauz_Khas_Village,_New_Delhi_India_2013.jpg",
+      "license": "CC BY-SA 2.0",
+      "author": "tara hunt",
+      "attribution": "Photo by tara hunt, CC BY-SA 2.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/ladakh/hanle/hanle-monastery-gompa-hillside.webp",
+      "usedIn": [
+        "hanle-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Hanle_Monastery_04.jpg",
+      "originalFile": "Hanle_Monastery_04.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Deepank Ranka",
+      "attribution": "Photo by Deepank Ranka, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/ladakh/hanle/hanle-village-stone-house-mountains.webp",
+      "usedIn": [
+        "hanle-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Whitewashed_House_Against_Snow-Capped_Mountains_in_Hanle,_Ladakh.jpg",
+      "originalFile": "Whitewashed_House_Against_Snow-Capped_Mountains_in_Hanle,_Ladakh.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "DiluteOxygen",
+      "attribution": "Photo by DiluteOxygen, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/ladakh/padum/stongdey-monastery-hillside-zanskar.webp",
+      "usedIn": [
+        "padum-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:SW_View_Stongdey_Zanskar_Jun24_A7CR_00958.jpg",
+      "originalFile": "SW_View_Stongdey_Zanskar_Jun24_A7CR_00958.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Timothy A. Gonsalves",
+      "attribution": "Photo by Timothy A. Gonsalves, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/ladakh/padum/zangla-fort-palace-ruins-zanskar.webp",
+      "usedIn": [
+        "padum-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:NE_Zangla_Khar_Zanskar_Jun24_A7CR_00992.jpg",
+      "originalFile": "NE_Zangla_Khar_Zanskar_Jun24_A7CR_00992.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Timothy A. Gonsalves",
+      "attribution": "Photo by Timothy A. Gonsalves, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/ladakh/padum/padum-fort-pipiting-ruins-town-view.webp",
+      "usedIn": [
+        "padum-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Pibiting_Gompa_Padum_Zanskar_Jun24_A7CR_00955.jpg",
+      "originalFile": "Pibiting_Gompa_Padum_Zanskar_Jun24_A7CR_00955.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Timothy A. Gonsalves",
+      "attribution": "Photo by Timothy A. Gonsalves, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/ladakh/padum/kanika-chaitya-stupa-sani-monastery.webp",
+      "usedIn": [
+        "padum-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kanika_Chorten_Sani_Zanskar_Ladakh_Jun24_A7CR_00773.jpg",
+      "originalFile": "Kanika_Chorten_Sani_Zanskar_Ladakh_Jun24_A7CR_00773.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Timothy A. Gonsalves",
+      "attribution": "Photo by Timothy A. Gonsalves, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/ladakh/dha-hanu/dah-nala-village-landscape-aryan-valley.webp",
+      "usedIn": [
+        "dha-hanu-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Dah_Nala_is_a_beautiful_rivulet_in_Ladakh_in_the_Aryan_Valley..jpg",
+      "originalFile": "Dah_Nala_is_a_beautiful_rivulet_in_Ladakh_in_the_Aryan_Valley..jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Lt.harsh3",
+      "attribution": "Photo by Lt.harsh3, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/ladakh/dha-hanu/apricots-dah-village-aryan-valley.webp",
+      "usedIn": [
+        "dha-hanu-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Apricots_of_Dah_in_Ladakh.jpg",
+      "originalFile": "Apricots_of_Dah_in_Ladakh.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Lt.harsh3",
+      "attribution": "Photo by Lt.harsh3, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/ladakh/dha-hanu/batalik-sector-village-terraced-fields.webp",
+      "usedIn": [
+        "dha-hanu-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Lachung_Village,Batalik.jpg",
+      "originalFile": "Lachung_Village,Batalik.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Narender9",
+      "attribution": "Photo by Narender9, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/ladakh/dha-hanu/darchik-village-house-millet-fields.webp",
+      "usedIn": [
+        "dha-hanu-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Darchik_Monastery.jpg",
+      "originalFile": "Darchik_Monastery.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Deepank Ranka",
+      "attribution": "Photo by Deepank Ranka, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/ladakh/zanskar-valley/phugtal-monastery-vertical-cliff-view.webp",
+      "usedIn": [
+        "zanskar-valley-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Phuktal_Gompa_Tall_View_Zanskar_Oct22_A7C_04461.jpg",
+      "originalFile": "Phuktal_Gompa_Tall_View_Zanskar_Oct22_A7C_04461.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Timothy A. Gonsalves",
+      "attribution": "Photo by Timothy A. Gonsalves, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/ladakh/zanskar-valley/chadar-trek-trekkers-frozen-river-ice.webp",
+      "usedIn": [
+        "zanskar-valley-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Chadar_trek_image_2.jpg",
+      "originalFile": "Chadar_trek_image_2.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Goutam1962",
+      "attribution": "Photo by Goutam1962, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/ladakh/zanskar-valley/karsha-monastery-cascading-hillside-view.webp",
+      "usedIn": [
+        "zanskar-valley-travel-guide",
+        "padum-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Karsha_Gompa_Full_View_Zanskar_Ladakh_Oct22_A7C_04024.jpg",
+      "originalFile": "Karsha_Gompa_Full_View_Zanskar_Ladakh_Oct22_A7C_04024.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Timothy A. Gonsalves",
+      "attribution": "Photo by Timothy A. Gonsalves, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/ladakh/zanskar-valley/sani-monastery-kanika-chorten-stupa.webp",
+      "usedIn": [
+        "zanskar-valley-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kanika_Chorten_Sani_Zanskar_Ladakh_Jun24_A7CR_00773.jpg",
+      "originalFile": "Kanika_Chorten_Sani_Zanskar_Ladakh_Jun24_A7CR_00773.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Timothy A. Gonsalves",
+      "attribution": "Photo by Timothy A. Gonsalves, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/ladakh/zanskar-valley/rangdum-monastery-plain-mountains.webp",
+      "usedIn": [
+        "zanskar-valley-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Rangdum_Monastery_Zanskar_India.jpg",
+      "originalFile": "Rangdum_Monastery_Zanskar_India.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Prof Ranga Sai",
+      "attribution": "Photo by Prof Ranga Sai, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/jammu-and-kashmir/gurez-valley/dawar-village-footbridge-wooden-houses.webp",
+      "usedIn": [
+        "gurez-valley-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Dawar_Bridge.jpg",
+      "originalFile": "Dawar_Bridge.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Afreen Banday",
+      "attribution": "Photo by Afreen Banday, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/jammu-and-kashmir/gurez-valley/habba-khatoon-peak-close-view-river.webp",
+      "usedIn": [
+        "gurez-valley-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Habba_Khatoon_Pyramid_Mountain.jpg",
+      "originalFile": "Habba_Khatoon_Pyramid_Mountain.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Aniketchoudhary87",
+      "attribution": "Photo by Aniketchoudhary87, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/jammu-and-kashmir/gurez-valley/kishanganga-river-rapids-valley.webp",
+      "usedIn": [
+        "gurez-valley-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Gurez_Valley_04.jpg",
+      "originalFile": "Gurez_Valley_04.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Journo Mohsin",
+      "attribution": "Photo by Journo Mohsin, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/jammu-and-kashmir/gurez-valley/tulail-valley-river-bridge-fields.webp",
+      "usedIn": [
+        "gurez-valley-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:A_river_sight_from_Gurez-Tulail_Valley.jpg",
+      "originalFile": "A_river_sight_from_Gurez-Tulail_Valley.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Abhirup Paul",
+      "attribution": "Photo by Abhirup Paul, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/jammu-and-kashmir/gurez-valley/shina-cultural-centre-gate-dawar.webp",
+      "usedIn": [
+        "gurez-valley-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Shina_Cultural_centre,_Dawar.jpg",
+      "originalFile": "Shina_Cultural_centre,_Dawar.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Afreen Banday",
+      "attribution": "Photo by Afreen Banday, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/ladakh/hemis/hemis-monastery-courtyard-pillars.webp",
+      "usedIn": [
+        "hemis-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Hemis_Monastery_courtyard.jpg",
+      "originalFile": "Hemis_Monastery_courtyard.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Prof Ranga Sai",
+      "attribution": "Photo by Prof Ranga Sai, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/ladakh/hemis/hemis-festival-cham-masked-dancer.webp",
+      "usedIn": [
+        "hemis-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Hemis_Monastery_Festival_1.jpg",
+      "originalFile": "Hemis_Monastery_Festival_1.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "MaryOfPrag",
+      "attribution": "Photo by MaryOfPrag, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/ladakh/hemis/hemis-national-park-snowy-valley.webp",
+      "usedIn": [
+        "hemis-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Landscape_Hemis_National_Park.jpg",
+      "originalFile": "Landscape_Hemis_National_Park.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Prithwiraj Dhang",
+      "attribution": "Photo by Prithwiraj Dhang, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/ladakh/hemis/snow-leopard-camouflaged-rocks-hemis.webp",
+      "usedIn": [
+        "hemis-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:A_snow_leopard_wild_Ladakh_DSCN4780_02.jpg",
+      "originalFile": "A_snow_leopard_wild_Ladakh_DSCN4780_02.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "T. R. Shankar Raman",
+      "attribution": "Photo by T. R. Shankar Raman, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/ladakh/hemis/bharal-blue-sheep-hemis-national-park.webp",
+      "usedIn": [
+        "hemis-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:20170227_0510_HemisNP_Bharal.jpg",
+      "originalFile": "20170227_0510_HemisNP_Bharal.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Fabrice Stoger",
+      "attribution": "Photo by Fabrice Stoger, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/ladakh/hemis/stakna-monastery-indus-river.webp",
+      "usedIn": [
+        "hemis-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Stakna_Monastery,_Ladakh_03.jpg",
+      "originalFile": "Stakna_Monastery,_Ladakh_03.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Deepank Ranka",
+      "attribution": "Photo by Deepank Ranka, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/ladakh/hemis/rumbak-village-homestay.webp",
+      "usedIn": [
+        "hemis-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Adam_Greig_tsogskor_homestay,_Rumbak.jpg",
+      "originalFile": "Adam_Greig_tsogskor_homestay,_Rumbak.jpg",
+      "license": "CC BY-SA 2.0",
+      "author": "Adam Greig",
+      "attribution": "Photo by Adam Greig, CC BY-SA 2.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/lakshadweep/agatti-island/agatti-anthan-beach-lagoon-kayaks.webp",
+      "usedIn": [
+        "agatti-island-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Anthan_Beach_in_Agatti.jpg",
+      "originalFile": "Anthan_Beach_in_Agatti.jpg",
+      "license": "CC BY 4.0",
+      "author": "Rudolph.A.furtado",
+      "attribution": "Photo by Rudolph.A.furtado, CC BY 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/lakshadweep/agatti-island/agatti-coral-reef-fish.webp",
+      "usedIn": [
+        "agatti-island-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Indian_Dascyllus,_Agatti,_Lakshadweep,_India_imported_from_iNaturalist_photo_260307790.png",
+      "originalFile": "Indian_Dascyllus,_Agatti,_Lakshadweep,_India_imported_from_iNaturalist_photo_260307790.png",
+      "license": "CC BY 4.0",
+      "author": "Rohan Arthur",
+      "attribution": "Photo by Rohan Arthur, CC BY 4.0, via Wikimedia Commons/iNaturalist"
+    },
+    {
+      "path": "blogs/lakshadweep/agatti-island/agatti-lagoon-fishing-boat.webp",
+      "usedIn": [
+        "agatti-island-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Boat_at_Agatti_(5800257582).jpg",
+      "originalFile": "Boat_at_Agatti_(5800257582).jpg",
+      "license": "CC BY 2.0",
+      "author": "Mike Prince",
+      "attribution": "Photo by Mike Prince, CC BY 2.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/ladakh/nubra-valley/samstanling-monastery-sumur-nubra-valley.webp",
+      "usedIn": [
+        "nubra-valley-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Samtanling_Gompa.jpg",
+      "originalFile": "Samtanling_Gompa.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Prof Ranga Sai",
+      "attribution": "Photo by Prof Ranga Sai, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/ladakh/nubra-valley/ensa-gompa-wall-murals-nubra-valley.webp",
+      "usedIn": [
+        "nubra-valley-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Manfred_U._Murals_in_Ensa_Monastery.jpg",
+      "originalFile": "Manfred_U._Murals_in_Ensa_Monastery.jpg",
+      "license": "CC BY-SA 2.0",
+      "author": "Manfred U.",
+      "attribution": "Photo by Manfred U., CC BY-SA 2.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/ladakh/lamayuru/lamayuru-monastery-entrance-prayer-flags.webp",
+      "usedIn": [
+        "lamayuru-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Lamayuru_Monastery_03.jpg",
+      "originalFile": "Lamayuru_Monastery_03.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Bernard Gagnon",
+      "attribution": "Photo by Bernard Gagnon, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/ladakh/lamayuru/wanla-gompa-monastery-ridge.webp",
+      "usedIn": [
+        "lamayuru-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Wanla_Gompa_01.jpg",
+      "originalFile": "Wanla_Gompa_01.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Deepank Ranka",
+      "attribution": "Photo by Deepank Ranka, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu-fort/diu-fort-lighthouse-bastion-view.webp",
+      "usedIn": [
+        "diu-fort-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Diu_fort_lighthouse.JPG",
+      "originalFile": "Diu_fort_lighthouse.JPG",
+      "license": "CC BY-SA 4.0",
+      "author": "Aditya Mahar",
+      "attribution": "Photo by Aditya Mahar, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu/diu-fort-gateway.webp",
+      "usedIn": [
+        "diu-travel-guide",
+        "dadra-nagar-haveli-daman-diu-travel-guide",
+        "diu-fort-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Diu_Fort_Entrance_-_panoramio.jpg",
+      "originalFile": "Diu_Fort_Entrance_-_panoramio.jpg",
+      "license": "CC BY 3.0",
+      "author": "nooruddin",
+      "attribution": "Photo by nooruddin, CC BY 3.0, via Wikimedia Commons"
     }
   ]
 }

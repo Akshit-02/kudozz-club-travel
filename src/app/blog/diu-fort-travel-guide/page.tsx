@@ -602,6 +602,15 @@ export default function DiuFortGuidePage() {
                       which is part of its raw, atmospheric appeal.
                     </li>
                   </ul>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu/diu-fort-gateway.webp"
+                      alt="The weathered brick archway and turrets of the Portuguese-built Diu Fort gateway"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                 </section>
 
                 {/* ── Ramparts & Views ──────────────────────────────────── */}
@@ -670,6 +679,15 @@ export default function DiuFortGuidePage() {
                 {/* ── Photography Tips ──────────────────────────────────── */}
                 <section id="photography-tips">
                   <h2>Photography Tips</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu-fort/diu-fort-lighthouse-bastion-view.webp"
+                      alt="The black-and-white striped lighthouse rising above Diu Fort's bastions and sea-facing walls"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <ul>
                     <li>
                       <strong>Golden hour on the ramparts:</strong> The last

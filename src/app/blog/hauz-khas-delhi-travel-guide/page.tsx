@@ -567,8 +567,8 @@ export default function HauzKhasGuidePage() {
                   <h2>Hauz Khas Complex & Deer Park</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/blogs/delhi/hauz-khas/hauz-khas-fort-madrasa-ruins.webp"
-                      alt="The weathered stone ruins of Hauz Khas Fort and madrasa rising beside the historic reservoir, Delhi"
+                      src="/images/blogs/delhi/hauz-khas/reservoir-lake-evening-hauz-khas.webp"
+                      alt="Evening light over the historic Hauz Khas reservoir lake beside the ASI-protected monument complex, Delhi"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -617,6 +617,15 @@ export default function HauzKhasGuidePage() {
                       morning and evening.
                     </li>
                   </ul>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/hauz-khas/spotted-deer-hauz-khas-deer-park.webp"
+                      alt="Spotted deer grazing inside the fenced enclosure at Hauz Khas Deer Park, Delhi"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Entry to the entire complex — ruins and park — is{" "}
                     <strong>free</strong>, with no ticket counter, and it's
@@ -640,6 +649,15 @@ export default function HauzKhasGuidePage() {
                 {/* ── Hauz Khas Village ──────────────────────────────────── */}
                 <section id="hauz-khas-village">
                   <h2>Hauz Khas Village: Boutiques, Galleries & Nightlife</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/hauz-khas/restaurant-cafe-hauz-khas-village-lanes.webp"
+                      alt="A restaurant terrace in the narrow lanes of Hauz Khas Village, Delhi's boutique and café neighbourhood"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Step out of the park gate and the mood flips completely.{" "}
                     <strong>Hauz Khas Village</strong> is a maze of narrow

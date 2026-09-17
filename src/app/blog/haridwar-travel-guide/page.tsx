@@ -551,8 +551,8 @@ export default function HaridwarGuidePage() {
                   <h2>Har Ki Pauri & the Ganga Aarti</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/blogs/uttarakhand/haridwar/evening-ganga-aarti-har-ki-pauri.webp"
-                      alt="Priests and pilgrims performing the evening Ganga Aarti with fire lamps at Har Ki Pauri, Haridwar"
+                      src="/images/blogs/uttarakhand/haridwar/sunrise-bathing-ghat-har-ki-pauri.webp"
+                      alt="Sunrise view over the main bathing ghat steps at Har Ki Pauri, Haridwar, with pilgrims along the Ganga"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -604,6 +604,15 @@ export default function HaridwarGuidePage() {
                 <section id="temples">
                   <h2>Temples & Hilltop Shrines</h2>
                   <h3>Mansa Devi Temple</h3>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/uttarakhand/haridwar/mansa-devi-temple-hilltop-bilwa-parvat.webp"
+                      alt="Mansa Devi Temple complex atop Bilwa Parvat hill overlooking Haridwar, with the cable car ropeway visible"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Perched atop Bilwa Parvat, Mansa Devi Temple is dedicated
                     to a form of the goddess Shakti believed to fulfil the
@@ -615,6 +624,15 @@ export default function HaridwarGuidePage() {
                     an hour on foot.
                   </p>
                   <h3>Chandi Devi Temple</h3>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/uttarakhand/haridwar/chandi-devi-temple-neel-parvat-hilltop.webp"
+                      alt="Chandi Devi Temple shrine building atop Neel Parvat hill across the Ganga from Haridwar"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     On the opposite bank, atop Neel Parvat, Chandi Devi Temple
                     honours the goddess Chandi, said to have been established
@@ -632,6 +650,15 @@ export default function HaridwarGuidePage() {
                     centre, easily combined with a visit to Har Ki Pauri.
                   </p>
                   <h3>Rajaji National Park</h3>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/uttarakhand/haridwar/spotted-deer-rajaji-national-park.webp"
+                      alt="Spotted deer in the forest of Rajaji National Park and Tiger Reserve near Haridwar, Uttarakhand"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     A short drive from the city, Rajaji National Park spans
                     dense forest along the Shivalik foothills and is home to

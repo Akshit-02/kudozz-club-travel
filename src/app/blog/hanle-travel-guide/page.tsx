@@ -873,6 +873,15 @@ export default function HanlePage() {
                 {/* ── Monastery ─────────────────────────────────────────── */}
                 <section id="monastery">
                   <h2>Hanle Monastery</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/ladakh/hanle/hanle-monastery-gompa-hillside.webp"
+                      alt="Hanle Monastery on its hillock above the green marshland of the Hanle valley, Changthang plateau"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Above the village, on a rocky outcrop that has clearly
                     been chosen for its view as much as its defensibility,
@@ -944,6 +953,15 @@ export default function HanlePage() {
                     rooms, telescopes, and dedicated night-viewing decks.
                     Book ahead; capacity is genuinely limited.
                   </p>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/ladakh/hanle/hanle-village-stone-house-mountains.webp"
+                      alt="A homestay building in Hanle village at dusk, snow-capped Changthang peaks behind"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <div className="grid sm:grid-cols-2 gap-4 my-6">
                     {[
                       {

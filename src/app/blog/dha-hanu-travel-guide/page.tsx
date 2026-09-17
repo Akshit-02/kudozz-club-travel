@@ -701,8 +701,8 @@ export default function DhaHanuPage() {
                     <h3>Dha & Hanu</h3>
                     <div className="relative w-full rounded-xl my-6 h-64 overflow-hidden shadow-md">
                       <Image
-                        src="/images/blogs/ladakh/dha-hanu/brokpa-women-traditional-headdress-dha-hanu.webp"
-                        alt="Brokpa women in traditional flower headdresses and silver jewellery at a village ceremony in Dha-Hanu, Ladakh"
+                        src="/images/blogs/ladakh/dha-hanu/dah-nala-village-landscape-aryan-valley.webp"
+                        alt="Dah Nala, the rushing stream that runs through Dah village in Ladakh's Aryan Valley"
                         fill
                         sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                         className="object-cover"
@@ -732,6 +732,15 @@ export default function DhaHanuPage() {
 
                   <section id="garkone-darchik">
                     <h3>Garkone & Darchik</h3>
+                    <div className="relative w-full rounded-xl my-6 h-64 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/blogs/ladakh/dha-hanu/darchik-village-house-millet-fields.webp"
+                        alt="A traditional stone-and-timber house set among green millet fields near Darchik, in Ladakh's Batalik sector"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <p>
                       A short distance further along the Indus,{" "}
                       <strong>Garkone</strong> and <strong>Darchik</strong>{" "}
@@ -904,6 +913,15 @@ export default function DhaHanuPage() {
                 {/* ── Apricot Orchards ──────────────────────────────────── */}
                 <section id="apricot-orchards">
                   <h2>Apricot Orchards</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/ladakh/dha-hanu/apricots-dah-village-aryan-valley.webp"
+                      alt="Ripe apricots hanging heavy on the branches of an orchard tree in Dah village, Ladakh"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Ladakh's apricots are famous across the region, and
                     Dha-Hanu grows some of the best of them. The valley's
@@ -929,6 +947,15 @@ export default function DhaHanuPage() {
                 {/* ── Batalik War Memorial ──────────────────────────────── */}
                 <section id="batalik-memorial">
                   <h2>Batalik War Memorial</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/ladakh/dha-hanu/batalik-sector-village-terraced-fields.webp"
+                      alt="A terraced village tucked among green fields in the mountainous Batalik sector near the Line of Control, Ladakh"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     If you approach Dha-Hanu from the Kargil side, or make a
                     detour that way, the road passes near the{" "}

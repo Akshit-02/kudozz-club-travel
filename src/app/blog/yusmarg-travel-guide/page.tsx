@@ -562,6 +562,15 @@ export default function YusmargGuidePage() {
                       the final stretch into the hills.
                     </li>
                   </ul>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/jammu-and-kashmir/yusmarg/charar-e-sharief-shrine-minaret.webp"
+                      alt="The tall white minaret of the Charar-e-Sharief shrine rising above the town, en route to Yusmarg"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <div
                     className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-xl my-4 text-sm"
                     style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -580,8 +589,8 @@ export default function YusmargGuidePage() {
                   <h2>The Yusmarg Meadow</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/blogs/jammu-and-kashmir/yusmarg/yusmarg-meadow-pine-forest.webp"
-                      alt="The wide grassy meadow of Yusmarg ringed by pine forest and distant snow peaks, Budgam district, Kashmir"
+                      src="/images/blogs/jammu-and-kashmir/yusmarg/yusmarg-meadow-grazing-sheep-pines.webp"
+                      alt="A flock of sheep grazing on Yusmarg's open meadow with pine forest lining the edge"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -628,6 +637,15 @@ export default function YusmargGuidePage() {
                 {/* ── Nilnag Lake ───────────────────────────────────────── */}
                 <section id="nilnag-lake">
                   <h2>Nilnag Lake</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/jammu-and-kashmir/yusmarg/nilnag-lake-pine-forest-reflection.webp"
+                      alt="The still green waters of Nilnag Lake reflecting the surrounding pine forest near Yusmarg"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     A short distance beyond the meadow, through pine forest,
                     lies <strong>Nilnag Lake</strong> — a small glacial lake

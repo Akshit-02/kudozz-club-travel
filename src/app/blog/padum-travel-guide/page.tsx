@@ -635,6 +635,15 @@ export default function PadumPage() {
                 {/* ── In Padum Town ─────────────────────────────────────── */}
                 <section id="padum-town">
                   <h2>In Padum Town Itself</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/ladakh/padum/padum-fort-pipiting-ruins-town-view.webp"
+                      alt="Padum town spread across the valley floor with the ruined Pipiting fort and gompa on its hillock, Zanskar mountains behind"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Padum rewards a slow half-day of wandering more than a
                     checklist of sights. It's a working town, not a museum
@@ -705,8 +714,8 @@ export default function PadumPage() {
                     <h3>Karsha Monastery</h3>
                     <div className="relative w-full rounded-xl my-6 h-64 overflow-hidden shadow-md">
                       <Image
-                        src="/images/blogs/ladakh/padum/padum-zanskar-valley-view-from-karsha.webp"
-                        alt="The braided Stod and Tsarap rivers threading through the wide Zanskar valley near Padum, seen from Karsha"
+                        src="/images/blogs/ladakh/zanskar-valley/karsha-monastery-cascading-hillside-view.webp"
+                        alt="Karsha Monastery's cascading whitewashed buildings climbing the hillside above Karsha village, Zanskar"
                         fill
                         sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                         className="object-cover"
@@ -761,10 +770,28 @@ export default function PadumPage() {
                         held annually
                       </li>
                     </ul>
+                    <div className="relative w-full rounded-xl my-6 h-64 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/blogs/ladakh/padum/kanika-chaitya-stupa-sani-monastery.webp"
+                        alt="The whitewashed Kanika Chaitya stupa at Sani Monastery, Zanskar, attributed locally to the Kushan-era king Kanishka"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                   </section>
 
                   <section id="stongdey-monastery">
                     <h3>Stongdey Monastery</h3>
+                    <div className="relative w-full rounded-xl my-6 h-64 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/blogs/ladakh/padum/stongdey-monastery-hillside-zanskar.webp"
+                        alt="Stongdey Monastery's buildings stacked on a high spur above the Zanskar valley, seen from across the valley floor"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <p>
                       Zanskar's second-largest monastery, <strong>
                         Stongdey
@@ -782,6 +809,15 @@ export default function PadumPage() {
 
                   <section id="zangla">
                     <h3>Zangla — Royal Palace & Nunnery</h3>
+                    <div className="relative w-full rounded-xl my-6 h-64 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/blogs/ladakh/padum/zangla-fort-palace-ruins-zanskar.webp"
+                        alt="The mud-brick ruins of Zangla's royal palace (Zangla Khar) against a blue Zanskar sky, hung with prayer flags"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <p>
                       Roughly 35 km down-valley from Padum, <strong>
                         Zangla
