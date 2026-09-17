@@ -951,7 +951,8 @@
     {
       "path": "blogs/ladakh/zanskar-valley/drang-drung-glacier-pensi-la.webp",
       "usedIn": [
-        "zanskar-valley-travel-guide (Kargil-Padum road via Pensi La section)"
+        "zanskar-valley-travel-guide (Kargil-Padum road via Pensi La section)",
+        "kargil-travel-guide"
       ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Drang_Drung_glacier_seen_from_Pensi_La_pass.jpg",
@@ -5774,6 +5775,222 @@
       "license": "CC BY-SA 4.0",
       "author": "Pallav.journo",
       "attribution": "Photo by Pallav.journo, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "destinations/jammu-kashmir/bahu-fort-jammu-sunset.webp",
+      "usedIn": [
+        "jammu-travel-guide (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Bahu_Fort,_Jammu.jpg",
+      "originalFile": "Bahu_Fort,_Jammu.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Vedant Sharma",
+      "attribution": "Photo by Vedant Sharma, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "destinations/jammu-kashmir/mubarak-mandi-palace-facade.webp",
+      "usedIn": [
+        "jammu-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Mubarak_Mandi_Palace_Jammu_01.jpg",
+      "originalFile": "Mubarak_Mandi_Palace_Jammu_01.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "J P Dutt",
+      "attribution": "Photo by J P Dutt, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "destinations/jammu-kashmir/raghunath-temple-shikhara-jammu.webp",
+      "usedIn": [
+        "jammu-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Raghunath_Temple_Jammu.JPG",
+      "originalFile": "Raghunath_Temple_Jammu.JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "Bhadani",
+      "attribution": "Photo by Bhadani, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "destinations/jammu-kashmir/tawi-river-valley-jammu.webp",
+      "usedIn": [
+        "jammu-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Tawi_River_from_Amar_Mahal_Palace.jpg",
+      "originalFile": "Tawi_River_from_Amar_Mahal_Palace.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Vinayaraj",
+      "attribution": "Photo by Vinayaraj, CC BY-SA 3.0, via Wikimedia Commons (cropped from original panorama)"
+    },
+    {
+      "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu/panikotha-fortim-do-mar-sea-fort.webp",
+      "usedIn": [
+        "diu-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Pani_Kotha.JPG",
+      "originalFile": "Pani_Kotha.JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "Vijay Bhadani",
+      "attribution": "Photo by Vijay Bhadani, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu/st-pauls-church-facade-diu.webp",
+      "usedIn": [
+        "diu-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:St._Paul%27s_Church_Daman_%26_Diu,_Diu_Dsc-0003.jpg",
+      "originalFile": "St._Paul's_Church_Daman_&_Diu,_Diu_Dsc-0003.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Sarasrewa",
+      "attribution": "Photo by Sarasrewa, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/ladakh/kargil/mulbekh-chamba-buddha-rock-cut-statue.webp",
+      "usedIn": [
+        "kargil-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Rock-Cut_Statue_of_Maitreya_Buddha_at_Mulbekh_Monastery,_Ladakh,1.jpg",
+      "originalFile": "Rock-Cut_Statue_of_Maitreya_Buddha_at_Mulbekh_Monastery,_Ladakh,1.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Rajani Gairshail",
+      "attribution": "Photo by Rajani Gairshail, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/ladakh/kargil/kargil-town-bazaar-street-market.webp",
+      "usedIn": [
+        "kargil-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kargil_bazaar.jpg",
+      "originalFile": "Kargil_bazaar.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Kondephy",
+      "attribution": "Photo by Kondephy, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/ladakh/kargil/nun-kun-massif-suru-valley-panikhar.webp",
+      "usedIn": [
+        "kargil-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:View_of_Mt_Nun_Mt_Kun_and_Mt_Pinnacle_peak_from_Panikhar.jpg",
+      "originalFile": "View_of_Mt_Nun_Mt_Kun_and_Mt_Pinnacle_peak_from_Panikhar.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Dr.arun.nayak",
+      "attribution": "Photo by Dr.arun.nayak, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/jammu-and-kashmir/patnitop/paragliding-launch-sanasar-meadow.webp",
+      "usedIn": [
+        "patnitop-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Paragliding_at_Sanasar.jpg",
+      "originalFile": "Paragliding_at_Sanasar.jpg",
+      "license": "Public Domain",
+      "author": "Dr Thakur Naveen Kotwal (via Extremehimalayan)",
+      "attribution": "Public Domain, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/jammu-and-kashmir/patnitop/sanasar-lake-meadow-forest.webp",
+      "usedIn": [
+        "patnitop-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Sanasar.jpg",
+      "originalFile": "Sanasar.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Shoaib tantray111",
+      "attribution": "Photo by Shoaib tantray111, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/jammu-and-kashmir/patnitop/nathatop-viewpoint-snow-covered.webp",
+      "usedIn": [
+        "patnitop-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:View_of_Nathatop_covered_in_snow.jpg",
+      "originalFile": "View_of_Nathatop_covered_in_snow.jpg",
+      "license": "CC0",
+      "author": "Annihyung",
+      "attribution": "Photo by Annihyung, CC0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/arunachal-pradesh/ziro-valley-arunachal/apatani-traditional-bamboo-house.webp",
+      "usedIn": [
+        "ziro-valley-arunachal-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:APATANI_House.jpg",
+      "originalFile": "APATANI_House.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Anand Explore",
+      "attribution": "Photo by Anand Explore, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/arunachal-pradesh/ziro-valley-arunachal/ziro-terraced-paddy-fields-walk.webp",
+      "usedIn": [
+        "ziro-valley-arunachal-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Paddy_fields_at_Ziro,_Arunachal_Pradesh.jpg",
+      "originalFile": "Paddy_fields_at_Ziro,_Arunachal_Pradesh.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Hadez248",
+      "attribution": "Photo by Hadez248, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/arunachal-pradesh/ziro-valley-arunachal/ziro-music-festival-day-stage.webp",
+      "usedIn": [
+        "ziro-valley-arunachal-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Ziro_Festival_of_Music_-_2019_(Arunachal_Pradesh)_(48868969142).jpg",
+      "originalFile": "Ziro_Festival_of_Music_-_2019_(Arunachal_Pradesh)_(48868969142).jpg",
+      "license": "CC BY-SA 2.0",
+      "author": "Arun Katiyar",
+      "attribution": "Photo by Arun Katiyar, CC BY-SA 2.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu/ghoghla-beach-waves-sand-diu.webp",
+      "usedIn": [
+        "diu-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Clean_coast_between_Ghoghla_and_Khodighar_Beach,_Diu-20-_29.06.2021.jpg",
+      "originalFile": "Clean_coast_between_Ghoghla_and_Khodighar_Beach,_Diu-20-_29.06.2021.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "SMarndi",
+      "attribution": "Photo by SMarndi, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu/naida-caves-sandstone-chamber-roots.webp",
+      "usedIn": [
+        "diu-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Naida_Caves2.jpg",
+      "originalFile": "Naida_Caves2.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Vipulvaibhav5",
+      "attribution": "Photo by Vipulvaibhav5, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu/gangeshwar-temple-shivlings-rock-shrine-diu.webp",
+      "usedIn": [
+        "diu-travel-guide"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Gangeshwar_Temple.jpg",
+      "originalFile": "Gangeshwar_Temple.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Shakti",
+      "attribution": "Photo by Shakti, CC BY-SA 3.0, via Wikimedia Commons"
     }
   ]
 }

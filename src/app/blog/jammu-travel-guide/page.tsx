@@ -26,10 +26,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jammu-kashmir/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Bahu Fort overlooking the Tawi River in Jammu city",
+        url: "/images/destinations/jammu-kashmir/bahu-fort-jammu-sunset.webp",
+        width: 1280,
+        height: 854,
+        alt: "Bahu Fort's ramparts glowing at sunset above the wooded hillside in Jammu",
       },
     ],
   },
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     title: "Jammu Travel Guide: Temples, Forts & Winter Capital",
     description:
       "Golden temple spires, a riverside fort, and Dogra hospitality — the complete guide to Jammu, the City of Temples.",
-    images: ["/images/destinations/jammu-kashmir/hero.jpg"],
+    images: ["/images/destinations/jammu-kashmir/bahu-fort-jammu-sunset.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/jammu-travel-guide",
@@ -62,7 +62,7 @@ function ArticleSchema() {
           description:
             "The complete Jammu travel guide — temples, forts, Dogra cuisine, and practical tips for the City of Temples and winter capital of Jammu & Kashmir.",
           image:
-            "https://club.kudozz.in/images/destinations/jammu-kashmir/hero.jpg",
+            "https://club.kudozz.in/images/destinations/jammu-kashmir/bahu-fort-jammu-sunset.webp",
           datePublished: "2026-08-30",
           dateModified: "2026-08-30",
           publisher: {
@@ -225,8 +225,8 @@ export default function JammuGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jammu-kashmir/hero.jpg"
-              alt="Bahu Fort overlooking the Tawi River in Jammu city"
+              src="/images/destinations/jammu-kashmir/bahu-fort-jammu-sunset.webp"
+              alt="Bahu Fort's ramparts glowing at sunset above the wooded hillside in Jammu"
               fill
               priority
               sizes="100vw"
@@ -585,8 +585,8 @@ export default function JammuGuidePage() {
                   <h2>Top Temples & Heritage Sites in Jammu</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/jammu-kashmir/hero.jpg"
-                      alt="Golden temple spires of the Raghunath Temple complex in Jammu"
+                      src="/images/destinations/jammu-kashmir/raghunath-temple-shikhara-jammu.webp"
+                      alt="Stone shikhara tower and entrance gate of the Raghunath Temple complex in Jammu"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -655,6 +655,15 @@ export default function JammuGuidePage() {
                 {/* ── Mubarak Mandi ──────────────────────────────────────── */}
                 <section id="mubarak-mandi">
                   <h2>Mubarak Mandi Palace Complex</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/destinations/jammu-kashmir/mubarak-mandi-palace-facade.webp"
+                      alt="Restored white facade of Mubarak Mandi Palace with ornate arched windows and a gilded doorway in Jammu's old city"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Once the seat of the Dogra dynasty and the administrative
                     heart of the princely state of Jammu & Kashmir,{" "}
@@ -681,6 +690,15 @@ export default function JammuGuidePage() {
                 {/* ── Tawi River ──────────────────────────────────────────── */}
                 <section id="tawi-river">
                   <h2>Tawi River & Gummat Area</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/destinations/jammu-kashmir/tawi-river-valley-jammu.webp"
+                      alt="The Tawi River winding through its wide floodplain below Jammu city, seen from Amar Mahal Palace"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     The <strong>Tawi River</strong> is Jammu's defining
                     geography — the old city sits on its northern bank, with

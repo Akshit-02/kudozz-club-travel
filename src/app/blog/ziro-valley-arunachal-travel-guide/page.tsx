@@ -675,8 +675,8 @@ export default function ZiroValleyGuidePage() {
                   <h2>The Apatani Tribe & Villages</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/blogs/arunachal-pradesh/ziro-valley-arunachal/apatani-rice-paddies-ziro-valley.webp"
-                      alt="Apatani village houses beside terraced rice-fish fields in Ziro Valley"
+                      src="/images/blogs/arunachal-pradesh/ziro-valley-arunachal/apatani-traditional-bamboo-house.webp"
+                      alt="Traditional Apatani bamboo house surrounded by greenery in a Ziro Valley village"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -723,6 +723,15 @@ export default function ZiroValleyGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Things to Do in Ziro Valley</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/arunachal-pradesh/ziro-valley-arunachal/ziro-terraced-paddy-fields-walk.webp"
+                      alt="Narrow bunds winding through terraced rice-fish paddies in Ziro Valley, Arunachal Pradesh"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <ul>
                     <li>
                       <strong>Walk the rice-fish fields:</strong> The core Ziro
@@ -765,6 +774,15 @@ export default function ZiroValleyGuidePage() {
                     unusual sight in a valley this remote, and the one time of
                     year Ziro sees a real influx of visitors.
                   </p>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/arunachal-pradesh/ziro-valley-arunachal/ziro-music-festival-day-stage.webp"
+                      alt="Crowd gathered at the day stage of the Ziro Music Festival held on open paddy fields"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <ul>
                     <li>
                       <strong>Setting:</strong> Held on open paddy fields on the

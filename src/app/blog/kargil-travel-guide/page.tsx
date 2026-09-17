@@ -686,6 +686,15 @@ export default function KargilPage() {
                 {/* ── Mulbekh & Shargol ─────────────────────────────────── */}
                 <section id="heritage-enroute">
                   <h2>Mulbekh & Shargol Monastery</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/ladakh/kargil/mulbekh-chamba-buddha-rock-cut-statue.webp"
+                      alt="The roughly 9-metre rock-cut Chamba (Maitreya Buddha) statue carved into the cliff face at Mulbekh, near Kargil"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Roughly 45 km east of Kargil, on the road towards Leh,
                     the highway passes through <strong>Mulbekh</strong> — a
@@ -742,6 +751,15 @@ export default function KargilPage() {
                     postcard appeal, but spend an evening walking it and a
                     different Ladakh reveals itself.
                   </p>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/ladakh/kargil/kargil-town-bazaar-street-market.webp"
+                      alt="Kargil's main bazaar street lined with traditional wooden-balconied shopfronts and mountains behind"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     The <strong>main bazaar</strong> is where Kargil's mixed
                     identity is most visible: bakeries selling fresh
@@ -790,6 +808,15 @@ export default function KargilPage() {
                 {/* ── Suru Valley ───────────────────────────────────────── */}
                 <section id="suru-valley">
                   <h2>Suru Valley</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/ladakh/kargil/nun-kun-massif-suru-valley-panikhar.webp"
+                      alt="The snow-capped twin peaks of the Nun Kun massif rising above the green Suru Valley near Panikhar"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     South of Kargil town, the road follows the{" "}
                     <strong>Suru River</strong> upstream into one of
@@ -837,6 +864,15 @@ export default function KargilPage() {
                 {/* ── Gateway to Zanskar ────────────────────────────────── */}
                 <section id="gateway-zanskar">
                   <h2>Gateway to Zanskar Valley</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/ladakh/zanskar-valley/drang-drung-glacier-pensi-la.webp"
+                      alt="The Drang-Drung Glacier seen from Pensi La pass on the Kargil–Padum road into Zanskar"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Continue past the Suru Valley's upper reaches and the
                     road climbs to the <strong>Pensi La</strong> (4,400 m),

@@ -578,6 +578,15 @@ export default function DiuTravelGuidePage() {
                 {/* ── Diu Fort ──────────────────────────────────────────── */}
                 <section id="diu-fort">
                   <h2>Diu Fort</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu/diu-fort-gateway.webp"
+                      alt="The weathered brick archway and turrets of the Portuguese-built Diu Fort gateway"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     No visit to Diu is complete without the fort, and it's
                     genuinely the island's single unmissable sight — a
@@ -648,6 +657,15 @@ export default function DiuTravelGuidePage() {
                       spot among locals in the evening.
                     </li>
                   </ul>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu/ghoghla-beach-waves-sand-diu.webp"
+                      alt="Waves breaking on the wide, empty sandy shore of Ghoghla Beach, Diu"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                 </section>
 
                 {/* ── Old Town & Churches ───────────────────────────────── */}
@@ -660,6 +678,15 @@ export default function DiuTravelGuidePage() {
                     square that wouldn't look out of place in Fontainhas,
                     Goa, minus the crowds.
                   </p>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu/st-pauls-church-facade-diu.webp"
+                      alt="The ornately carved Baroque facade and wide entrance steps of St. Paul's Church in Diu's old town"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <ul>
                     <li>
                       <strong>St. Paul's Church:</strong> A striking, still
@@ -703,11 +730,29 @@ export default function DiuTravelGuidePage() {
                     naturally with a visit to nearby Naida Caves — both sit
                     close to the fort on the island's eastern edge.
                   </p>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu/ins-khukri-memorial-model-zampa-beach.webp"
+                      alt="Scale model of INS Khukri displayed at the ship's memorial on Zampa Beach, Diu"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                 </section>
 
                 {/* ── Naida Caves ───────────────────────────────────────── */}
                 <section id="naida-caves">
                   <h2>Naida Caves</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu/naida-caves-sandstone-chamber-roots.webp"
+                      alt="Eroded sandstone chamber of Naida Caves with exposed tree roots hanging from the rock ceiling, Diu"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     A short walk from Diu Fort, the{" "}
                     <strong>Naida Caves</strong> are sun-dappled sandstone
@@ -727,6 +772,15 @@ export default function DiuTravelGuidePage() {
                 {/* ── Gangeshwar Temple ─────────────────────────────────── */}
                 <section id="gangeshwar-temple">
                   <h2>Gangeshwar Temple</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu/gangeshwar-temple-shivlings-rock-shrine-diu.webp"
+                      alt="The five natural rock Shiva lingams tucked into the boulder crevice at Gangeshwar Temple, Diu"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     A short drive from Diu town, <strong>Gangeshwar Temple</strong>{" "}
                     is one of the island's more unusual sights — a cluster of
@@ -745,6 +799,15 @@ export default function DiuTravelGuidePage() {
                 {/* ── Panikotha ─────────────────────────────────────────── */}
                 <section id="panikotha">
                   <h2>Panikotha (Fortim-do-Mar) Sea Fort</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu/panikotha-fortim-do-mar-sea-fort.webp"
+                      alt="Panikotha (Fortim-do-Mar), the disused Portuguese sea fort with its lighthouse, sitting on an islet off Diu"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Visible from Diu Fort's ramparts, <strong>Panikotha</strong>,
                     also known as <strong>Fortim-do-Mar</strong>, is a small

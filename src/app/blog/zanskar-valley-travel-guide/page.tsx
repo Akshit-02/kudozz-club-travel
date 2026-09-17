@@ -644,6 +644,15 @@ export default function ZanskarValleyPage() {
 
                   <section id="padum">
                     <h3>Padum — Zanskar's Capital</h3>
+                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/blogs/ladakh/padum/padum-zanskar-valley-view-from-karsha.webp"
+                        alt="Padum town and the surrounding Zanskar Valley seen from the hillside above Karsha"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <p>
                       <strong>Padum</strong>, at roughly 3,650 metres, is the
                       only town of any real size in Zanskar and the natural
@@ -677,8 +686,8 @@ export default function ZanskarValleyPage() {
                     <h3>Phugtal Monastery — The Cave Monastery of Zanskar</h3>
                     <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                       <Image
-                        src="/images/blogs/ladakh/zanskar-valley/phugtal-monastery-cliff-zanskar.webp"
-                        alt="Phugtal Monastery built into a sheer cliff face above the Tsarap River, Zanskar Valley"
+                        src="/images/blogs/ladakh/zanskar-valley/phugtal-monastery-vertical-cliff-view.webp"
+                        alt="A vertical view of Phugtal Monastery's whitewashed cave dwellings stacked into the cliff, with a chorten below"
                         fill
                         sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                         className="object-cover"
@@ -744,6 +753,15 @@ export default function ZanskarValleyPage() {
 
                   <section id="chadar-trek">
                     <h3>The Chadar Trek — Walking on Ice</h3>
+                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/blogs/ladakh/zanskar-valley/chadar-trek-trekkers-frozen-river-ice.webp"
+                        alt="Trekkers with backpacks walking along the frozen ice sheet of the Zanskar River during the Chadar Trek"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <p>
                       For generations, when winter sealed every road out of
                       Zanskar, the frozen Zanskar River became the only route
@@ -807,6 +825,15 @@ export default function ZanskarValleyPage() {
 
                   <section id="karsha-sani">
                     <h3>Karsha & Sani Monasteries</h3>
+                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/blogs/ladakh/zanskar-valley/karsha-monastery-cascading-hillside-view.webp"
+                        alt="Karsha Monastery's cascading whitewashed buildings climbing the hillside above Karsha village, Zanskar"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <p>
                       <strong>Karsha Monastery</strong>, roughly 10 km from
                       Padum on the opposite bank of the Stod River, is the
@@ -820,6 +847,15 @@ export default function ZanskarValleyPage() {
                       Zanskari calendar and, when the dates align with your
                       visit, an unmissable spectacle.
                     </p>
+                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/blogs/ladakh/zanskar-valley/sani-monastery-kanika-chorten-stupa.webp"
+                        alt="The whitewashed Kanika Chorten at Sani Monastery, believed to date to the Kushan-era king Kanishka"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <p>
                       <strong>Sani Monastery</strong>, about 6 km north of
                       Padum, is unusual among Zanskar's monasteries for
@@ -836,6 +872,15 @@ export default function ZanskarValleyPage() {
 
                   <section id="rangdum">
                     <h3>Rangdum — The Gateway Village</h3>
+                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/blogs/ladakh/zanskar-valley/rangdum-monastery-plain-mountains.webp"
+                        alt="Rangdum's Gelugpa monastery on a rocky hillock overlooking the broad, treeless plain and glaciated peaks"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <p>
                       Roughly halfway along the Kargil–Padum road, at close to
                       4,000 metres, <strong>Rangdum</strong> sits on a broad,

@@ -609,8 +609,8 @@ export default function GurezValleyGuidePage() {
                   <h2>Dawar — The Valley's Base</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/blogs/jammu-and-kashmir/gurez-valley/habba-khatoon-peak-kishanganga-river.webp"
-                      alt="Habba Khatoon Peak's pyramid summit rising above the Kishanganga river in Gurez Valley, Kashmir"
+                      src="/images/blogs/jammu-and-kashmir/gurez-valley/dawar-village-footbridge-wooden-houses.webp"
+                      alt="Footbridge leading into Dawar village, Gurez Valley, with traditional wooden and tin-roofed houses beyond"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -652,6 +652,15 @@ export default function GurezValleyGuidePage() {
                 {/* ── Habba Khatoon Peak ──────────────────────────────────── */}
                 <section id="habba-khatoon">
                   <h2>Habba Khatoon Peak</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/jammu-and-kashmir/gurez-valley/habba-khatoon-peak-close-view-river.webp"
+                      alt="A close, cloudy-sky view of the snow-streaked Habba Khatoon Peak rising above the Kishanganga River"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     The single most recognisable feature of Gurez Valley is{" "}
                     <strong>Habba Khatoon Peak</strong>, a striking,
@@ -689,6 +698,15 @@ export default function GurezValleyGuidePage() {
                 {/* ── Kishanganga River ────────────────────────────────────── */}
                 <section id="kishanganga-river">
                   <h2>Kishanganga River & Trout Fishing</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/jammu-and-kashmir/gurez-valley/kishanganga-river-rapids-valley.webp"
+                      alt="The fast-flowing, glacier-fed Kishanganga River rushing through the green Gurez Valley"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     The <strong>Kishanganga River</strong> — known as the
                     Neelum once it crosses into Pakistan-administered Kashmir
@@ -725,6 +743,15 @@ export default function GurezValleyGuidePage() {
                 {/* ── Tulail Valley ─────────────────────────────────────── */}
                 <section id="tulail-valley">
                   <h2>Tulail Valley</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/jammu-and-kashmir/gurez-valley/tulail-valley-river-bridge-fields.webp"
+                      alt="A bridge over the Kishanganga River amid farm fields and a small settlement in the remote Tulail Valley beyond Dawar"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     If Gurez itself feels remote, <strong>Tulail Valley</strong>{" "}
                     — a further offshoot beyond Dawar, following the
@@ -761,6 +788,15 @@ export default function GurezValleyGuidePage() {
                 {/* ── Culture ───────────────────────────────────────────── */}
                 <section id="culture">
                   <h2>Dard-Shin Culture & People</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/jammu-and-kashmir/gurez-valley/shina-cultural-centre-gate-dawar.webp"
+                      alt="The gated entrance to the Shina Cultural Centre in Dawar, dedicated to Gurez Valley's Dard-Shin community"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Gurez is home to the <strong>Dard-Shin</strong> community,
                     an ethnic and linguistic group distinct from the

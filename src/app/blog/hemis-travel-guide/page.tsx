@@ -586,6 +586,15 @@ export default function HemisPage() {
 
                   <section id="architecture">
                     <h3>Architecture & Treasures</h3>
+                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/blogs/ladakh/hemis/hemis-monastery-courtyard-pillars.webp"
+                        alt="The colonnaded courtyard of Hemis Monastery with painted red pillars and thangka-lined walls"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <p>
                       The monastery complex spreads across a hillside courtyard
                       framed by residential quarters for over 500 monks at its
@@ -639,6 +648,15 @@ export default function HemisPage() {
                 {/* ── Hemis Festival ────────────────────────────────────── */}
                 <section id="hemis-festival">
                   <h2>The Hemis Festival</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/ladakh/hemis/hemis-festival-cham-masked-dancer.webp"
+                      alt="A monk in an elaborate red wrathful-deity mask and brocade robes performing the cham dance at the Hemis Festival"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Held annually over two days in June or July (the precise
                     dates follow the Tibetan lunar calendar), the{" "}
@@ -705,6 +723,15 @@ export default function HemisPage() {
                 {/* ── National Park ─────────────────────────────────────── */}
                 <section id="national-park">
                   <h2>Hemis National Park</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/ladakh/hemis/hemis-national-park-snowy-valley.webp"
+                      alt="Snow-covered peaks and a frozen stream in a high-altitude valley inside Hemis National Park, Ladakh"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Stretching from the monastery's back valley deep into the
                     high Himalaya, <strong>Hemis National Park</strong> covers
@@ -727,6 +754,15 @@ export default function HemisPage() {
 
                   <section id="snow-leopards">
                     <h3>Snow Leopard Trekking & Spotting</h3>
+                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/blogs/ladakh/hemis/snow-leopard-camouflaged-rocks-hemis.webp"
+                        alt="A wild snow leopard resting among boulders, its spotted coat blending into the rock, in Hemis National Park"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <p>
                       Seeing a snow leopard in the wild is one of the most
                       coveted wildlife experiences on the planet — these are
@@ -796,6 +832,15 @@ export default function HemisPage() {
 
                   <section id="other-wildlife">
                     <h3>Other Wildlife of Hemis National Park</h3>
+                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/blogs/ladakh/hemis/bharal-blue-sheep-hemis-national-park.webp"
+                        alt="A bharal (blue sheep) with curved horns on a rocky slope in Hemis National Park, the snow leopard's primary prey"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <p>
                       The snow leopard gets the headlines, but the park
                       supports a rich high-altitude ecosystem worth watching
@@ -836,6 +881,15 @@ export default function HemisPage() {
                 {/* ── Stakna ────────────────────────────────────────────── */}
                 <section id="stakna">
                   <h2>Nearby: Stakna Monastery</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/ladakh/hemis/stakna-monastery-indus-river.webp"
+                      alt="Stakna Monastery perched on a rocky outcrop above the Indus River, framed by poplar trees and distant Himalayan peaks"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     If you have half a day to spare on the way to or from
                     Hemis, detour to <strong>Stakna Monastery</strong>, perched
@@ -858,6 +912,15 @@ export default function HemisPage() {
                 {/* ── Where to Stay ─────────────────────────────────────── */}
                 <section id="where-to-stay">
                   <h2>Where to Stay</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/ladakh/hemis/rumbak-village-homestay.webp"
+                      alt="Whitewashed traditional homes strung with prayer flags in Rumbak village, a base for Hemis National Park homestays"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Hemis itself has no real accommodation infrastructure —
                     almost everyone bases in Leh and visits as a day trip.

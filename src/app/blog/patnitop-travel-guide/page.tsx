@@ -599,8 +599,8 @@ export default function PatnitopGuidePage() {
                   <h2>Adventure Activities in Patnitop</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/blogs/jammu-and-kashmir/patnitop/patnitop-pine-forest-meadow-jk.webp"
-                      alt="Cottages and camps set in a pine-forested meadow at Patnitop hill station, Jammu and Kashmir"
+                      src="/images/blogs/jammu-and-kashmir/patnitop/paragliding-launch-sanasar-meadow.webp"
+                      alt="Paraglider launching over the open meadow at Sanasar near Patnitop, Jammu and Kashmir"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -661,6 +661,15 @@ export default function PatnitopGuidePage() {
                 {/* ── Sanasar ─────────────────────────────────────────────── */}
                 <section id="sanasar">
                   <h2>Sanasar Meadow & Nathatop</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/jammu-and-kashmir/patnitop/sanasar-lake-meadow-forest.webp"
+                      alt="Sanasar lake ringed by forest and meadow near Patnitop, Jammu and Kashmir"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     <strong>Sanasar</strong> is a wide, saucer-shaped meadow
                     about 19 km from Patnitop, reached by a scenic 45-minute
@@ -695,6 +704,15 @@ export default function PatnitopGuidePage() {
                       more built-up stretch.
                     </li>
                   </ul>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/jammu-and-kashmir/patnitop/nathatop-viewpoint-snow-covered.webp"
+                      alt="Snow-covered slopes at the Nathatop viewpoint above Sanasar, near Patnitop"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <blockquote>
                     Most visitors treat Sanasar as a half-day trip from
                     Patnitop, but if snow, meadow photography, or a quieter

@@ -593,8 +593,8 @@ export default function DamanGuidePage() {
                   <h2>Moti Daman: The Historic Walled Quarter</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/daman/fort-of-st-jerome-gate-daman.webp"
-                      alt="The ornate carved stone entrance gate of the Fort of St. Jerome, Daman"
+                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/moti-daman-fort/moti-daman-fort-lighthouse-estuary-view.webp"
+                      alt="View along Moti Daman Fort's sea wall toward the Daman lighthouse and the Daman Ganga river mouth"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -639,6 +639,15 @@ export default function DamanGuidePage() {
                 {/* ── Nani Daman ────────────────────────────────────────── */}
                 <section id="nani-daman">
                   <h2>Nani Daman: Markets, Harbour & Everyday Life</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/nani-daman/nani-daman-fort-entrance-gate.webp"
+                      alt="The weathered stone entrance gate of the Fort of St. Francis Xavier in Nani Daman, carved with a cross and lion reliefs"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Across the river on the north bank, <strong>Nani Daman</strong>{" "}
                     is where most of the town's day-to-day life actually
@@ -716,6 +725,15 @@ export default function DamanGuidePage() {
                 {/* ── Vanganga ──────────────────────────────────────────── */}
                 <section id="vanganga">
                   <h2>Vanganga Lake Garden</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/vanganga-lake-garden/vanganga-lake-garden-lakeside-view-silvassa.webp"
+                      alt="The palm-fringed lake at Vanganga Lake Garden in Daman, with the walking path and lawns along the shore"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     A landscaped garden built around a large artificial lake,{" "}
                     <strong>Vanganga Lake Garden</strong> is Daman's most
@@ -777,6 +795,15 @@ export default function DamanGuidePage() {
                 {/* ── Local Culture ─────────────────────────────────────── */}
                 <section id="local-culture">
                   <h2>Fishing-Community Culture & Seafood</h2>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/nani-daman/nani-daman-fishing-boats-harbour.webp"
+                      alt="Brightly painted fishing boats moored at the Nani Daman harbour, Daman's working fishing quarter"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Beneath the weekend-trip reputation, Daman is still, at
                     its core, a working fishing town. Nani Daman's harbour is
