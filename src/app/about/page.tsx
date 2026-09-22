@@ -8,7 +8,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 export const metadata: Metadata = {
   title: "About Us — Our Story",
   description:
-    "Kudozz Club (also searched as Kudoz Club or Kudos Club) is a travel community built by explorers, for explorers. Learn about our story, our mission, and the people behind the guides.",
+    "Kudozz Club (also searched as Kudoz Club or Kudos Club) is an India-focused travel platform: independent destination guides plus an in-house trip-planning team. Learn our story and how the two fit together.",
   keywords: [
     "Kudozz Club",
     "Kudoz Club",
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     "about Kudozz",
     "who is behind Kudozz Club",
     "independent India travel publication",
-    "first-hand travel guides India",
+    "India travel agency",
     "Kudozz Club editorial team",
   ],
   alternates: { canonical: "https://club.kudozz.in/about" },
@@ -107,30 +107,6 @@ const values = [
   },
 ];
 
-const team = [
-  {
-    name: "Arjun Mehta",
-    role: "Founder & Lead Writer",
-    bio: "Former software engineer turned full-time traveller. Has visited 28 Indian states and counts Spiti Valley as his spiritual home.",
-    avatar: "/images/destinations/spiti-valley/spiti-valley.jpg",
-    trips: "28 states",
-  },
-  {
-    name: "Sneha Iyer",
-    role: "Destination Editor",
-    bio: "South India specialist and wildlife photographer. If it involves a forest, a temple, or a backwater, she's probably been twice.",
-    avatar: "/images/destinations/rishikesh/rishikesh.jpg",
-    trips: "South & East India",
-  },
-  {
-    name: "Kabir Nair",
-    role: "Adventure & Trekking",
-    bio: "Certified mountaineer and trekking guide. Has completed 40+ Himalayan treks and writes our most detailed high-altitude guides.",
-    avatar: "/images/destinations/leh-ladakh/leh-ladakh.jpg",
-    trips: "40+ Himalayan treks",
-  },
-];
-
 const brandFaqs = [
   {
     q: "Is it Kudozz Club, Kudoz Club, or Kudos Club?",
@@ -142,30 +118,27 @@ const brandFaqs = [
   },
   {
     q: "Is Kudozz Club affiliated with any other 'Kudos' or 'Kudoz' travel brand?",
-    a: "No. We're an independent, India-based travel guide publisher. If you're looking for us, the only official site is club.kudozz.in.",
+    a: "No. We're an independent, India-based travel platform. If you're looking for us, the only official site is club.kudozz.in.",
+  },
+  {
+    q: "Does Kudozz Club also plan trips, or just write guides?",
+    a: "Both. The guides stay independent — we don't accept paid placements in editorial content. Separately, our in-house team also plans custom India trips for anyone who'd rather not build the itinerary themselves. See the Plan Your Trip page for details.",
   },
 ];
 
 const milestones = [
   {
     year: "Nov, 2025",
-    event: "Kudozz Club launched as a personal travel journal",
+    event: "Kudozz Club launched as an India travel guide project",
   },
   {
-    year: "Dec, 2025",
-    event: "First 1,000 newsletter subscribers — purely word of mouth",
+    year: "2026",
+    event:
+      "Expanded to destination guides covering every Indian state and union territory",
   },
   {
-    year: "Feb, 2026",
-    event: "Expanded to full destination guides & itineraries section",
-  },
-  {
-    year: "Apr, 2026",
-    event: "Reached 10,000 monthly readers, launched club.kudozz.in",
-  },
-  {
-    year: "Jun, 2026",
-    event: "12,000+ club members and 350+ published travel guides",
+    year: "Sep, 2026",
+    event: "Launched an in-house trip-planning service alongside the guides",
   },
 ];
 
@@ -245,10 +218,10 @@ export default function AboutPage() {
           <div className="max-w-7xl mx-auto px-6 sm:px-10">
             <div className="grid grid-cols-2 md:grid-cols-4 divide-x divide-stone-800">
               {[
-                { value: "120+", label: "Destinations covered" },
-                { value: "350+", label: "Guides published" },
-                { value: "15K+", label: "Club members" },
-                { value: "4", label: "Years on the road" },
+                { value: "580+", label: "Guides published" },
+                { value: "36", label: "States & UTs covered" },
+                { value: "6", label: "Regions of India" },
+                { value: "In-house", label: "Trip planning team" },
               ].map((stat) => (
                 <div key={stat.label} className="py-10 px-6 text-center">
                   <div
@@ -317,17 +290,17 @@ export default function AboutPage() {
           </div>
         </section>
 
-        {/* ── Team ── */}
-        {/* <section className="bg-white py-24">
-          <div className="max-w-5xl mx-auto px-6 sm:px-10">
-            <div className="text-center mb-14">
+        {/* ── Trip Planning ── */}
+        <section className="bg-white py-24">
+          <div className="max-w-4xl mx-auto px-6 sm:px-10">
+            <div className="text-center mb-10">
               <div className="flex items-center justify-center gap-3 mb-3">
                 <div className="h-px w-8 bg-forest-500" />
                 <span
                   className="text-forest-600 text-xs font-bold uppercase tracking-[0.2em]"
                   style={{ fontFamily: "var(--font-dm-sans)" }}
                 >
-                  The humans
+                  Also new
                 </span>
                 <div className="h-px w-8 bg-forest-500" />
               </div>
@@ -335,51 +308,38 @@ export default function AboutPage() {
                 className="text-3xl font-bold text-stone-900"
                 style={{ fontFamily: "var(--font-playfair)" }}
               >
-                Meet the Team
+                We Now Plan Trips Too
               </h2>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              {team.map((member) => (
-                <div key={member.name} className="group text-center">
-                  <div className="relative w-28 h-28 mx-auto mb-5 rounded-2xl overflow-hidden shadow-lg">
-                    <Image
-                      src={member.avatar}
-                      alt={member.name}
-                      fill
-                      sizes="112px"
-                      className="object-cover group-hover:scale-105 transition-transform duration-500"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-forest-900/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
-                  </div>
-                  <h3
-                    className="font-bold text-stone-900 mb-0.5"
-                    style={{ fontFamily: "var(--font-playfair)" }}
-                  >
-                    {member.name}
-                  </h3>
-                  <div
-                    className="text-forest-600 text-xs font-semibold uppercase tracking-wide mb-3"
-                    style={{ fontFamily: "var(--font-dm-sans)" }}
-                  >
-                    {member.role}
-                  </div>
-                  <p
-                    className="text-sm text-stone-500 leading-relaxed mb-3"
-                    style={{ fontFamily: "var(--font-dm-sans)" }}
-                  >
-                    {member.bio}
-                  </p>
-                  <span
-                    className="inline-block px-3 py-1 text-xs bg-forest-50 text-forest-700 rounded-full border border-forest-200"
-                    style={{ fontFamily: "var(--font-dm-sans)" }}
-                  >
-                    🗺️ {member.trips}
-                  </span>
-                </div>
-              ))}
+            <div className="bg-stone-50 border border-stone-200 rounded-3xl p-8 sm:p-10">
+              <p
+                className="text-stone-600 leading-relaxed mb-4"
+                style={{ fontFamily: "var(--font-dm-sans)" }}
+              >
+                Kudozz Club started as destination guides, and that editorial
+                work hasn't changed — we still don't accept paid placements
+                in guide content, and a guide's recommendations aren't
+                influenced by anything we sell.
+              </p>
+              <p
+                className="text-stone-600 leading-relaxed mb-6"
+                style={{ fontFamily: "var(--font-dm-sans)" }}
+              >
+                Separately, our in-house team now also plans custom India
+                trips end to end — you tell us where you want to go, we build
+                the itinerary and coordinate it with you by email. It's a
+                distinct service, not a sponsor of the guides.
+              </p>
+              <Link
+                href="/plan-your-trip"
+                className="inline-flex items-center gap-2 px-6 py-3 gradient-forest text-white font-semibold rounded-full text-sm hover:opacity-90 transition-opacity"
+                style={{ fontFamily: "var(--font-dm-sans)" }}
+              >
+                Plan My Trip →
+              </Link>
             </div>
           </div>
-        </section> */}
+        </section>
 
         {/* ── Timeline ── */}
         <section className="bg-stone-950 py-24">
@@ -481,16 +441,16 @@ export default function AboutPage() {
               className="text-stone-500 mb-8 text-sm leading-relaxed"
               style={{ fontFamily: "var(--font-dm-sans)" }}
             >
-              Whether you join the newsletter, read a guide, or reach out to say
-              hello — we're glad you're here.
+              Whether you want us to plan your trip, join the newsletter, or
+              just say hello — we're glad you're here.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Link
-                href="/newsletter"
+                href="/plan-your-trip"
                 className="px-7 py-3.5 gradient-forest text-white font-semibold rounded-full text-sm hover:opacity-90 transition-opacity shadow-md"
                 style={{ fontFamily: "var(--font-dm-sans)" }}
               >
-                Join the Club Free →
+                Plan My Trip →
               </Link>
               <Link
                 href="/contact"

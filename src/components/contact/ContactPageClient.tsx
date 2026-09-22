@@ -6,6 +6,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import { faqs } from "@/lib/contact-faqs";
 
 const reasons = [
+  { value: "trip-planning", label: "Trip Planning Enquiry" },
   { value: "guide-feedback", label: "Guide Feedback" },
   { value: "write-for-us", label: "Write for Us" },
   { value: "collaboration", label: "Collaboration / Partnership" },
@@ -95,6 +96,44 @@ export default function ContactPageClient() {
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
               {/* Left — Info cards */}
               <div className="space-y-5">
+                {/* Plan a trip */}
+                <Link
+                  href="/plan-your-trip"
+                  className="flex items-start gap-4 p-5 bg-gradient-to-br from-forest-900/50 to-stone-900 border border-forest-700/40 rounded-2xl hover:border-forest-500/60 transition-all duration-200 group"
+                >
+                  <div className="w-10 h-10 rounded-xl gradient-forest flex items-center justify-center flex-shrink-0 shadow-md">
+                    <svg
+                      className="w-5 h-5 text-white"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      strokeWidth={2}
+                    >
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
+                    </svg>
+                  </div>
+                  <div>
+                    <div
+                      className="text-xs text-forest-400 uppercase tracking-widest font-semibold mb-1"
+                      style={{ fontFamily: "var(--font-dm-sans)" }}
+                    >
+                      Planning a trip?
+                    </div>
+                    <div
+                      className="text-white font-medium group-hover:text-forest-300 transition-colors"
+                      style={{ fontFamily: "var(--font-dm-sans)" }}
+                    >
+                      Use our trip planning form →
+                    </div>
+                    <div
+                      className="text-stone-500 text-xs mt-0.5"
+                      style={{ fontFamily: "var(--font-dm-sans)" }}
+                    >
+                      Faster than the general contact form below
+                    </div>
+                  </div>
+                </Link>
+
                 {/* Email */}
                 <a
                   href="mailto:connect@kudozz.in"
@@ -162,7 +201,7 @@ export default function ContactPageClient() {
                       className="text-stone-600 text-xs mt-0.5"
                       style={{ fontFamily: "var(--font-dm-sans)" }}
                     >
-                      12,000+ explorers subscribed
+                      Weekly guide drops, free forever
                     </div>
                   </div>
                 </Link>

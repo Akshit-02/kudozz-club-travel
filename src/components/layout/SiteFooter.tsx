@@ -9,11 +9,14 @@ const footerLinks = {
     { label: "Rishikesh", href: "/blog/rishikesh-adventure-travel-guide" },
     { label: "Coorg", href: "/blog/coorg-travel-guide" },
   ],
+  "Tour Packages": [
+    { label: "All Packages", href: "/packages" },
+    { label: "Rajasthan Packages", href: "/packages/rajasthan" },
+    { label: "Plan Your Trip", href: "/plan-your-trip" },
+  ],
   Resources: [
-    { label: "Travel Tips", href: "/blog" },
-    { label: "Packing Lists", href: "/blog" },
-    { label: "Budget Travel", href: "/blog" },
-    { label: "Visa Guides", href: "/blog" },
+    { label: "Travel Guides", href: "/blog" },
+    { label: "All Destinations", href: "/destinations" },
   ],
   Company: [
     { label: "About Us", href: "/about" },
@@ -65,7 +68,7 @@ export default function SiteFooter() {
 
       {/* ── Main Footer ─────────────────────────────────────────────────── */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10 pt-16 pb-10">
-        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-10">
+        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-10">
           {/* Brand column — spans 2 on large */}
           <div className="col-span-2 md:col-span-4 lg:col-span-2">
             {/* Logo */}

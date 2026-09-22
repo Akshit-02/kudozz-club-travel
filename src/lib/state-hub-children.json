@@ -1,0 +1,2258 @@
+{
+  "andaman-islands-travel-guide": [
+    {
+      "slug": "baratang-andaman-travel-guide",
+      "title": "Baratang Island Travel Guide: Caves, Mud Volcano & Convoy Tips"
+    },
+    {
+      "slug": "cellular-jail-andaman-travel-guide",
+      "title": "Cellular Jail Travel Guide: History, Timings & Light Show"
+    },
+    {
+      "slug": "chidiya-tapu-andaman-travel-guide",
+      "title": "Chidiya Tapu Travel Guide: Sunset Point, Birds & Tips"
+    },
+    {
+      "slug": "diglipur-andaman-travel-guide",
+      "title": "Diglipur Travel Guide: Saddle Peak, Kalipur & North Andaman"
+    },
+    {
+      "slug": "jolly-buoy-island-andaman-travel-guide",
+      "title": "Jolly Buoy Island Andaman: Marine Park Visit Guide"
+    },
+    {
+      "slug": "kalipur-andaman-travel-guide",
+      "title": "Kalipur Beach Travel Guide: Turtles, Saddle Peak & Tips"
+    },
+    {
+      "slug": "little-andaman-travel-guide",
+      "title": "Little Andaman Travel Guide: Butler Bay, Surfing & Tips"
+    },
+    {
+      "slug": "long-island-andaman-travel-guide",
+      "title": "Long Island Andaman: Lalaji Bay Beach Travel Guide"
+    },
+    {
+      "slug": "mayabunder-andaman-travel-guide",
+      "title": "Mayabunder Travel Guide: Interview Island & Karmatang Beach"
+    },
+    {
+      "slug": "mount-manipur-andaman-travel-guide",
+      "title": "Mount Manipur (Mount Harriet) Travel Guide: Trek & Views"
+    },
+    {
+      "slug": "north-bay-island-andaman-travel-guide",
+      "title": "North Bay Island Andaman: Coral, Sea Walking & Visit Guide"
+    },
+    {
+      "slug": "radhanagar-beach-andaman-travel-guide",
+      "title": "Radhanagar Beach Travel Guide: Timings, Sunset & Tips"
+    },
+    {
+      "slug": "rangat-andaman-travel-guide",
+      "title": "Rangat Andaman Travel Guide: Cuthbert Bay & Long Island"
+    },
+    {
+      "slug": "ross-and-smith-islands-andaman-travel-guide",
+      "title": "Ross & Smith Islands Travel Guide: Sandbar, Permits & Tips"
+    },
+    {
+      "slug": "ross-island-andaman-travel-guide",
+      "title": "Ross Island Travel Guide: Ruins, History & How to Visit"
+    },
+    {
+      "slug": "neil-island-andaman-travel-guide",
+      "title": "Shaheed Dweep (Neil Island) Travel Guide: Beaches & Tips"
+    },
+    {
+      "slug": "port-blair-andaman-travel-guide",
+      "title": "Sri Vijaya Puram (Port Blair) Travel Guide: Sights & Tips"
+    },
+    {
+      "slug": "havelock-island-andaman-travel-guide",
+      "title": "Swaraj Dweep (Havelock Island) Travel Guide: Beaches & Diving"
+    }
+  ],
+  "andhra-pradesh-travel-guide": [
+    {
+      "slug": "ahobilam-travel-guide",
+      "title": "Ahobilam Travel Guide: The Nine Forms of Lord Narasimha"
+    },
+    {
+      "slug": "amaravati-travel-guide",
+      "title": "Amaravati Travel Guide: Ancient Buddhist Stupa & New Capital"
+    },
+    {
+      "slug": "araku-valley-travel-guide",
+      "title": "Araku Valley Travel Guide: Coffee Hills & the Train Journey Through 58 Tunnels"
+    },
+    {
+      "slug": "belum-caves-travel-guide",
+      "title": "Belum Caves Travel Guide: India&apos;s Second-Longest Cave System"
+    },
+    {
+      "slug": "borra-caves-travel-guide",
+      "title": "Borra Caves Travel Guide: Million-Year-Old Limestone Caverns"
+    },
+    {
+      "slug": "gandikota-travel-guide",
+      "title": "Gandikota Travel Guide: India&apos;s Grand Canyon"
+    },
+    {
+      "slug": "horsley-hills-travel-guide",
+      "title": "Horsley Hills Travel Guide: A Quiet Hill Station in Rayalaseema"
+    },
+    {
+      "slug": "lambasingi-travel-guide",
+      "title": "Lambasingi Travel Guide: The Kashmir of Andhra Pradesh"
+    },
+    {
+      "slug": "maredumilli-travel-guide",
+      "title": "Maredumilli Travel Guide: Rainforest Eco-Tourism in the Eastern Ghats"
+    },
+    {
+      "slug": "papi-hills-travel-guide",
+      "title": "Papi Hills Travel Guide: Godavari Gorge Boat Cruise"
+    },
+    {
+      "slug": "rajahmundry-travel-guide",
+      "title": "Rajahmundry Travel Guide: Godavari Bridges & Papi Hills Gateway"
+    },
+    {
+      "slug": "tirupati-travel-guide",
+      "title": "Tirupati Travel Guide: Tirumala Temple, Darshan & How to Reach"
+    },
+    {
+      "slug": "vijayawada-travel-guide",
+      "title": "Vijayawada Travel Guide: Kanaka Durga Temple & Krishna River"
+    },
+    {
+      "slug": "visakhapatnam-travel-guide",
+      "title": "Visakhapatnam Travel Guide: Beaches, Submarine Museum & Vizag City Guide"
+    }
+  ],
+  "arunachal-pradesh-travel-guide": [
+    {
+      "slug": "anini-travel-guide",
+      "title": "Anini Travel Guide: India&apos;s Least Explored Valley"
+    },
+    {
+      "slug": "bomdila-travel-guide",
+      "title": "Bomdila Travel Guide: Monastery Town & Gateway to Tawang"
+    },
+    {
+      "slug": "dirang-travel-guide",
+      "title": "Dirang Travel Guide: Hot Springs, Apple Orchards & Dirang Dzong"
+    },
+    {
+      "slug": "itanagar-travel-guide",
+      "title": "Itanagar Travel Guide: Arunachal Pradesh&apos;s Capital City"
+    },
+    {
+      "slug": "mechuka-travel-guide",
+      "title": "Mechuka Travel Guide: A Hidden Valley on the Tibet Border"
+    },
+    {
+      "slug": "namdapha-travel-guide",
+      "title": "Namdapha National Park Travel Guide: India&apos;s Most Biodiverse Park"
+    },
+    {
+      "slug": "namsai-travel-guide",
+      "title": "Namsai Travel Guide: The Golden Pagoda of Arunachal"
+    },
+    {
+      "slug": "pakke-travel-guide",
+      "title": "Pakke Tiger Reserve Travel Guide: Hornbills & Foothill Forest"
+    },
+    {
+      "slug": "pasighat-travel-guide",
+      "title": "Pasighat Travel Guide: Arunachal&apos;s Oldest Town on the Siang River"
+    },
+    {
+      "slug": "roing-travel-guide",
+      "title": "Roing Travel Guide: Mehao Lake & Bhismaknagar Ruins"
+    },
+    {
+      "slug": "sela-pass-travel-guide",
+      "title": "Sela Pass Travel Guide: One of India&apos;s Highest Motorable Passes"
+    },
+    {
+      "slug": "tawang-travel-guide",
+      "title": "Tawang Travel Guide: Monastery, War Memorial & Best Time to Visit"
+    },
+    {
+      "slug": "walong-travel-guide",
+      "title": "Walong Travel Guide: The Easternmost Battlefield of the 1962 War"
+    },
+    {
+      "slug": "ziro-valley-arunachal-travel-guide",
+      "title": "Ziro Valley Travel Guide: Apatani Villages, Rice Fields & Festival"
+    }
+  ],
+  "assam-travel-guide": [
+    {
+      "slug": "charaideo-travel-guide",
+      "title": "Charaideo Travel Guide: The Pyramids of Assam"
+    },
+    {
+      "slug": "dibrugarh-travel-guide",
+      "title": "Dibrugarh Travel Guide: The Tea Capital of Assam"
+    },
+    {
+      "slug": "guwahati-travel-guide",
+      "title": "Guwahati Travel Guide: Brahmaputra Sunset Cruises & City Guide"
+    },
+    {
+      "slug": "haflong-travel-guide",
+      "title": "Haflong Travel Guide: Assam&apos;s Only Hill Station"
+    },
+    {
+      "slug": "hajo-travel-guide",
+      "title": "Hajo Travel Guide: A Temple Town Sacred to Four Religions"
+    },
+    {
+      "slug": "jorhat-travel-guide",
+      "title": "Jorhat Travel Guide: Tea Estates & Gateway to Majuli"
+    },
+    {
+      "slug": "kamakhya-travel-guide",
+      "title": "Kamakhya Temple Travel Guide: Shakti Peetha & Ambubachi Mela"
+    },
+    {
+      "slug": "kaziranga-travel-guide",
+      "title": "Kaziranga National Park Travel Guide: One-Horned Rhino Safari"
+    },
+    {
+      "slug": "majuli-travel-guide",
+      "title": "Majuli Travel Guide: The World&apos;s Largest River Island"
+    },
+    {
+      "slug": "manas-travel-guide",
+      "title": "Manas National Park Travel Guide: Tiger Reserve & UNESCO Site"
+    },
+    {
+      "slug": "nameri-travel-guide",
+      "title": "Nameri National Park Travel Guide: Rafting & Birdwatching"
+    },
+    {
+      "slug": "pobitora-travel-guide",
+      "title": "Pobitora Wildlife Sanctuary Travel Guide: Highest Rhino Density on Earth"
+    },
+    {
+      "slug": "silchar-travel-guide",
+      "title": "Silchar Travel Guide: Gateway to the Barak Valley"
+    },
+    {
+      "slug": "sivasagar-travel-guide",
+      "title": "Sivasagar Travel Guide: Ahom Dynasty Capital & Ancient Tanks"
+    },
+    {
+      "slug": "tezpur-travel-guide",
+      "title": "Tezpur Travel Guide: The City of Eternal Romance"
+    }
+  ],
+  "bihar-travel-guide": [
+    {
+      "slug": "barabar-caves-travel-guide",
+      "title": "Barabar Caves Travel Guide: India&apos;s Oldest Rock-Cut Caves"
+    },
+    {
+      "slug": "bodh-gaya-travel-guide",
+      "title": "Bodh Gaya Travel Guide: Mahabodhi Temple & Buddha&apos;s Enlightenment Site"
+    },
+    {
+      "slug": "gaya-travel-guide",
+      "title": "Gaya Travel Guide: Vishnupad Temple & Pitru Paksha Pilgrimage"
+    },
+    {
+      "slug": "madhubani-travel-guide",
+      "title": "Madhubani Travel Guide: The Town Behind India&apos;s Famous Folk Art"
+    },
+    {
+      "slug": "nalanda-travel-guide",
+      "title": "Nalanda Travel Guide: Ruins of the World&apos;s Oldest University"
+    },
+    {
+      "slug": "patna-travel-guide",
+      "title": "Patna Travel Guide: Golghar, Patna Sahib & Bihar&apos;s Capital"
+    },
+    {
+      "slug": "pawapuri-travel-guide",
+      "title": "Pawapuri Travel Guide: Where Mahavira Attained Nirvana"
+    },
+    {
+      "slug": "rajgir-travel-guide",
+      "title": "Rajgir Travel Guide: Hot Springs, Ropeway & Buddhist Heritage"
+    },
+    {
+      "slug": "sasaram-travel-guide",
+      "title": "Sasaram Travel Guide: Sher Shah Suri&apos;s Tomb & Grand Trunk Road History"
+    },
+    {
+      "slug": "vaishali-travel-guide",
+      "title": "Vaishali Travel Guide: The World&apos;s First Republic & Buddha&apos;s Last Sermon"
+    },
+    {
+      "slug": "valmiki-nagar-travel-guide",
+      "title": "Valmiki Nagar Travel Guide: Tiger Reserve & Himalayan Foothills"
+    },
+    {
+      "slug": "vikramshila-travel-guide",
+      "title": "Vikramshila Travel Guide: The Other Great Ancient Buddhist University"
+    }
+  ],
+  "chandigarh-travel-guide": [
+    {
+      "slug": "bougainvillea-garden-chandigarh-travel-guide",
+      "title": "Bougainvillea Garden Chandigarh: Blooms & Best Time"
+    },
+    {
+      "slug": "capitol-complex-chandigarh-travel-guide",
+      "title": "Capitol Complex Chandigarh: Le Corbusier&apos;s UNESCO Site Guide"
+    },
+    {
+      "slug": "chandigarh-botanical-garden-travel-guide",
+      "title": "Chandigarh Botanical Garden: Sarangpur Visit Guide"
+    },
+    {
+      "slug": "garden-of-fragrance-chandigarh-travel-guide",
+      "title": "Garden of Fragrance Chandigarh: Scented Plants & Braille Trail"
+    },
+    {
+      "slug": "government-museum-chandigarh-travel-guide",
+      "title": "Government Museum Chandigarh: Gandhara Art & Miniatures"
+    },
+    {
+      "slug": "international-dolls-museum-chandigarh-travel-guide",
+      "title": "International Dolls Museum Chandigarh: Visit Guide"
+    },
+    {
+      "slug": "japanese-garden-chandigarh-travel-guide",
+      "title": "Japanese Garden Chandigarh: Pagodas, Ponds & Best Time"
+    },
+    {
+      "slug": "le-corbusier-centre-chandigarh-travel-guide",
+      "title": "Le Corbusier Centre Chandigarh: Museum Visit Guide"
+    },
+    {
+      "slug": "leisure-valley-chandigarh-travel-guide",
+      "title": "Leisure Valley Chandigarh: The City&apos;s Green Corridor Guide"
+    },
+    {
+      "slug": "rock-garden-chandigarh-travel-guide",
+      "title": "Rock Garden Chandigarh: Nek Chand&apos;s Sculpture Garden Guide"
+    },
+    {
+      "slug": "sector-17-chandigarh-travel-guide",
+      "title": "Sector 17 Chandigarh: Plaza, Shopping & Nightlife Guide"
+    },
+    {
+      "slug": "sector-22-chandigarh-travel-guide",
+      "title": "Sector 22 Chandigarh: Market, Stays & Local Life Guide"
+    },
+    {
+      "slug": "sector-26-chandigarh-travel-guide",
+      "title": "Sector 26 Chandigarh: Grain Market Food Street Guide"
+    },
+    {
+      "slug": "sector-35-chandigarh-travel-guide",
+      "title": "Sector 35 Chandigarh: Market, Cafés & Student Vibe Guide"
+    },
+    {
+      "slug": "shanti-kunj-chandigarh-travel-guide",
+      "title": "Shanti Kunj Chandigarh: A Quiet Garden Near Rose Garden"
+    },
+    {
+      "slug": "sukhna-lake-chandigarh-travel-guide",
+      "title": "Sukhna Lake Chandigarh: Promenade, Boating & Best Time"
+    },
+    {
+      "slug": "terraced-garden-chandigarh-travel-guide",
+      "title": "Terraced Garden Chandigarh: Sector 33 Visit Guide"
+    },
+    {
+      "slug": "rose-garden-chandigarh-travel-guide",
+      "title": "Zakir Hussain Rose Garden: Chandigarh&apos;s Rose Festival Guide"
+    }
+  ],
+  "chhattisgarh-travel-guide": [
+    {
+      "slug": "achanakmar-travel-guide",
+      "title": "Achanakmar Tiger Reserve Travel Guide: Safari & Best Time"
+    },
+    {
+      "slug": "barnawapara-travel-guide",
+      "title": "Barnawapara Wildlife Sanctuary Travel Guide: Safari Near Raipur"
+    },
+    {
+      "slug": "bastar-travel-guide",
+      "title": "Bastar Travel Guide: Tribal Culture, Bastar Dussehra & Dandami Art"
+    },
+    {
+      "slug": "bhoramdeo-travel-guide",
+      "title": "Bhoramdeo Temple Travel Guide: Chhattisgarh&apos;s Khajuraho"
+    },
+    {
+      "slug": "chitrakote-travel-guide",
+      "title": "Chitrakote Falls Travel Guide: India&apos;s Widest Waterfall"
+    },
+    {
+      "slug": "danteshwari-temple-travel-guide",
+      "title": "Danteshwari Temple Travel Guide: Bastar&apos;s Shakti Peetha"
+    },
+    {
+      "slug": "dongargarh-travel-guide",
+      "title": "Dongargarh Travel Guide: Bamleshwari Temple & Ropeway"
+    },
+    {
+      "slug": "jagdalpur-travel-guide",
+      "title": "Jagdalpur Travel Guide: Gateway to Bastar&apos;s Waterfalls & Tribal Culture"
+    },
+    {
+      "slug": "kanger-valley-travel-guide",
+      "title": "Kanger Valley National Park Travel Guide: Caves, Falls & Wildlife"
+    },
+    {
+      "slug": "kanker-travel-guide",
+      "title": "Kanker Travel Guide: Palace Stays & Gateway to Interior Bastar"
+    },
+    {
+      "slug": "kawardha-travel-guide",
+      "title": "Kawardha Travel Guide: Palace Town & Bhoramdeo Gateway"
+    },
+    {
+      "slug": "mainpat-travel-guide",
+      "title": "Mainpat Travel Guide: Chhattisgarh&apos;s Tibetan Plateau Retreat"
+    },
+    {
+      "slug": "sirpur-travel-guide",
+      "title": "Sirpur Travel Guide: Ancient Buddhist Ruins on the Mahanadi"
+    },
+    {
+      "slug": "tatapani-travel-guide",
+      "title": "Tatapani Travel Guide: Chhattisgarh&apos;s Natural Hot Springs"
+    },
+    {
+      "slug": "tirathgarh-travel-guide",
+      "title": "Tirathgarh Falls Travel Guide: Multi-Tiered Cascade in Kanger Valley"
+    }
+  ],
+  "dadra-nagar-haveli-daman-diu-travel-guide": [
+    {
+      "slug": "daman-travel-guide",
+      "title": "Daman Travel Guide: Forts, Beaches & Weekend Trip"
+    },
+    {
+      "slug": "devka-beach-travel-guide",
+      "title": "Devka Beach Daman: Promenade, Rides & Activities"
+    },
+    {
+      "slug": "diu-fort-travel-guide",
+      "title": "Diu Fort Travel Guide: History, Timings & Tips"
+    },
+    {
+      "slug": "diu-travel-guide",
+      "title": "Diu Travel Guide: Beaches, Fort & Weekend Trip"
+    },
+    {
+      "slug": "dudhni-travel-guide",
+      "title": "Dudhni Lake Travel Guide: Boating Near Silvassa"
+    },
+    {
+      "slug": "gangeshwar-temple-travel-guide",
+      "title": "Gangeshwar Temple, Diu: A Shiva Shrine Washed by the Sea"
+    },
+    {
+      "slug": "ghoghla-beach-travel-guide",
+      "title": "Ghoghla Beach Diu: Water Sports & Camping Guide"
+    },
+    {
+      "slug": "jampore-beach-travel-guide",
+      "title": "Jampore Beach Daman: Camel Rides, Timings & Tips"
+    },
+    {
+      "slug": "khanvel-travel-guide",
+      "title": "Khanvel Travel Guide: Gardens & Nature Escape"
+    },
+    {
+      "slug": "madhuban-dam-travel-guide",
+      "title": "Madhuban Dam Travel Guide: Reservoir, Viewpoint & Picnic Spot"
+    },
+    {
+      "slug": "moti-daman-fort-travel-guide",
+      "title": "Moti Daman Fort: The Fort of St. Jerome, Bastion by Bastion"
+    },
+    {
+      "slug": "moti-daman-travel-guide",
+      "title": "Moti Daman Travel Guide: Old Town, Churches & Fort"
+    },
+    {
+      "slug": "nagoa-beach-travel-guide",
+      "title": "Nagoa Beach Diu: Water Sports, Timings & Tips"
+    },
+    {
+      "slug": "naida-caves-travel-guide",
+      "title": "Naida Caves Diu: Photography Spot & Visit Guide"
+    },
+    {
+      "slug": "nani-daman-travel-guide",
+      "title": "Nani Daman Travel Guide: Fort, Harbour & Lighthouse"
+    },
+    {
+      "slug": "satmaliya-deer-sanctuary-travel-guide",
+      "title": "Satmaliya Deer Sanctuary: Visit Guide & Tips"
+    },
+    {
+      "slug": "silvassa-travel-guide",
+      "title": "Silvassa Travel Guide: Lakes, Forests & Tribal Culture"
+    },
+    {
+      "slug": "vanganga-lake-garden-travel-guide",
+      "title": "Vanganga Lake Garden, Daman: Complete Visit Guide"
+    }
+  ],
+  "delhi-travel-guide": [
+    {
+      "slug": "akshardham-delhi-travel-guide",
+      "title": "Akshardham Temple Delhi: Timings, Tickets & Guide"
+    },
+    {
+      "slug": "chanakyapuri-delhi-travel-guide",
+      "title": "Chanakyapuri Guide: Delhi&apos;s Diplomatic Enclave"
+    },
+    {
+      "slug": "chandni-chowk-delhi-travel-guide",
+      "title": "Chandni Chowk: Delhi&apos;s Legendary Food Walk & Bazaar Guide"
+    },
+    {
+      "slug": "connaught-place-delhi-travel-guide",
+      "title": "Connaught Place Guide: Shopping, Food & Nightlife"
+    },
+    {
+      "slug": "dwarka-travel-guide",
+      "title": "Dwarka Travel Guide: Krishna&apos;s Ancient Kingdom & Char Dham Site"
+    },
+    {
+      "slug": "dwarka-delhi-travel-guide",
+      "title": "Dwarka, Delhi Travel Guide: Sub-City & ISKCON Temple"
+    },
+    {
+      "slug": "hauz-khas-delhi-travel-guide",
+      "title": "Hauz Khas Travel Guide: Village, Deer Park & Fort Ruins"
+    },
+    {
+      "slug": "janakpuri-delhi-travel-guide",
+      "title": "Janakpuri Delhi Guide: Parks, Markets & Transport"
+    },
+    {
+      "slug": "karol-bagh-delhi-travel-guide",
+      "title": "Karol Bagh Travel Guide: Shopping, Markets & Budget Hotels"
+    },
+    {
+      "slug": "kashmere-gate-delhi-travel-guide",
+      "title": "Kashmere Gate Travel Guide: History, 1857 Sites & the ISBT Hub"
+    },
+    {
+      "slug": "lajpat-nagar-delhi-travel-guide",
+      "title": "Lajpat Nagar Travel Guide: Central Market & More"
+    },
+    {
+      "slug": "laxmi-nagar-delhi-travel-guide",
+      "title": "Laxmi Nagar, Delhi: Market, Coaching Hub & Local Food Guide"
+    },
+    {
+      "slug": "lodhi-garden-delhi-travel-guide",
+      "title": "Lodhi Garden: Delhi&apos;s Tombs, Timings & Complete Visit Guide"
+    },
+    {
+      "slug": "majnu-ka-tilla-delhi-travel-guide",
+      "title": "Majnu Ka Tilla Guide: Delhi&apos;s Tibetan Colony"
+    },
+    {
+      "slug": "mehrauli-delhi-travel-guide",
+      "title": "Mehrauli Travel Guide: Qutub Minar & Ancient Delhi"
+    },
+    {
+      "slug": "najafgarh-delhi-travel-guide",
+      "title": "Najafgarh Delhi Guide: History, Jheel & Sehwag"
+    },
+    {
+      "slug": "new-delhi-travel-guide",
+      "title": "New Delhi Travel Guide: India Gate, Rajpath & More"
+    },
+    {
+      "slug": "nizamuddin-delhi-travel-guide",
+      "title": "Nizamuddin Travel Guide: Dargah, Qawwali & Humayun&apos;s Tomb"
+    },
+    {
+      "slug": "old-delhi-travel-guide",
+      "title": "Old Delhi Travel Guide: Red Fort, Jama Masjid & Food"
+    },
+    {
+      "slug": "paharganj-delhi-travel-guide",
+      "title": "Paharganj Travel Guide: Main Bazaar & Budget Stays"
+    },
+    {
+      "slug": "rohini-delhi-travel-guide",
+      "title": "Rohini Delhi Guide: Japanese Park & Family Outings"
+    },
+    {
+      "slug": "sarojini-nagar-delhi-travel-guide",
+      "title": "Sarojini Nagar Market Guide: Shopping & Bargaining Tips"
+    },
+    {
+      "slug": "south-delhi-travel-guide",
+      "title": "South Delhi Travel Guide: Best Areas & Things to Do"
+    },
+    {
+      "slug": "tughlaqabad-delhi-travel-guide",
+      "title": "Tughlaqabad Fort Travel Guide: Delhi&apos;s Cursed City"
+    },
+    {
+      "slug": "vasant-kunj-delhi-travel-guide",
+      "title": "Vasant Kunj Guide: Malls, Shopping & Nature Nearby"
+    }
+  ],
+  "goa-beaches-travel-guide": [
+    {
+      "slug": "agonda-travel-guide",
+      "title": "Agonda Beach Travel Guide: Turtle Nesting & South Goa&apos;s Quiet Side"
+    },
+    {
+      "slug": "anjuna-travel-guide",
+      "title": "Anjuna Travel Guide: Flea Market, Cliffs & Trance Party Legacy"
+    },
+    {
+      "slug": "baga-travel-guide",
+      "title": "Baga Beach Travel Guide: Nightlife, Water Sports & Tito&apos;s Lane"
+    },
+    {
+      "slug": "calangute-travel-guide",
+      "title": "Calangute Beach Travel Guide: Goa&apos;s Busiest Beach & Nightlife"
+    },
+    {
+      "slug": "canacona-travel-guide",
+      "title": "Canacona Travel Guide: South Goa&apos;s Quiet Taluka & Beach Cluster"
+    },
+    {
+      "slug": "candolim-travel-guide",
+      "title": "Candolim Beach Travel Guide: Quiet Sands Near the Nightlife"
+    },
+    {
+      "slug": "dudhsagar-falls-travel-guide",
+      "title": "Dudhsagar Falls Travel Guide: Jeep Safari & Best Time to Visit"
+    },
+    {
+      "slug": "mandrem-travel-guide",
+      "title": "Mandrem Beach Travel Guide: Yoga Retreats & River-Meets-Sea Views"
+    },
+    {
+      "slug": "mollem-travel-guide",
+      "title": "Mollem National Park Travel Guide: Wildlife & Waterfalls Near Dudhsagar"
+    },
+    {
+      "slug": "morjim-travel-guide",
+      "title": "Morjim Beach Travel Guide: Turtle Nesting & Quiet North Goa"
+    },
+    {
+      "slug": "old-goa-travel-guide",
+      "title": "Old Goa Travel Guide: Basilica of Bom Jesus & UNESCO Churches"
+    },
+    {
+      "slug": "palolem-travel-guide",
+      "title": "Palolem Beach Travel Guide: South Goa&apos;s Postcard Crescent"
+    },
+    {
+      "slug": "panjim-travel-guide",
+      "title": "Panjim Travel Guide: Fontainhas, Latin Quarter & Goa&apos;s Capital"
+    },
+    {
+      "slug": "ponda-travel-guide",
+      "title": "Ponda Travel Guide: Hindu Temples & Spice Plantation Tours"
+    },
+    {
+      "slug": "vagator-travel-guide",
+      "title": "Vagator Beach Travel Guide: Red Cliffs & Chapora Fort"
+    }
+  ],
+  "gujarat-travel-guide": [
+    {
+      "slug": "ahmedabad-travel-guide",
+      "title": "Ahmedabad Travel Guide: Heritage Walk, Sabarmati Ashram & Food"
+    },
+    {
+      "slug": "dholavira-travel-guide",
+      "title": "Dholavira Travel Guide: Harappan City & UNESCO World Heritage Site"
+    },
+    {
+      "slug": "gir-national-park-travel-guide",
+      "title": "Gir National Park Travel Guide: Asiatic Lion Safari & Best Time"
+    },
+    {
+      "slug": "junagadh-girnar-travel-guide",
+      "title": "Junagadh & Girnar Travel Guide: 10,000 Steps to Jain & Hindu Shrines"
+    },
+    {
+      "slug": "mandvi-travel-guide",
+      "title": "Mandvi Travel Guide: Beach, Shipbuilding Yards & Vijay Vilas Palace"
+    },
+    {
+      "slug": "palitana-travel-guide",
+      "title": "Palitana Travel Guide: 3,500 Steps to the World&apos;s Largest Jain Temple Complex"
+    },
+    {
+      "slug": "patan-travel-guide",
+      "title": "Patan Travel Guide: Rani ki Vav Stepwell & Patola Sarees"
+    },
+    {
+      "slug": "polo-forest-travel-guide",
+      "title": "Polo Forest Travel Guide: Ruined Temples in the Aravalli Jungle"
+    },
+    {
+      "slug": "rann-of-kutch-travel-guide",
+      "title": "Rann of Kutch Travel Guide: White Desert & Rann Utsav"
+    },
+    {
+      "slug": "saputara-travel-guide",
+      "title": "Saputara Travel Guide: Gujarat&apos;s Only Hill Station"
+    },
+    {
+      "slug": "somnath-travel-guide",
+      "title": "Somnath Temple Travel Guide: History, Timings & Light Show"
+    },
+    {
+      "slug": "statue-of-unity-travel-guide",
+      "title": "Statue of Unity Travel Guide: World&apos;s Tallest Statue, Timings & Tips"
+    },
+    {
+      "slug": "surat-travel-guide",
+      "title": "Surat Travel Guide: Diamond City, Riverfront & Street Food"
+    },
+    {
+      "slug": "vadodara-travel-guide",
+      "title": "Vadodara Travel Guide: Laxmi Vilas Palace & Baroda&apos;s Heritage"
+    }
+  ],
+  "haryana-travel-guide": [
+    {
+      "slug": "agroha-travel-guide",
+      "title": "Agroha Travel Guide: Ancient Mound & Agroha Dham"
+    },
+    {
+      "slug": "bhindawas-travel-guide",
+      "title": "Bhindawas Wildlife Sanctuary Travel Guide: Haryana&apos;s Largest Wetland"
+    },
+    {
+      "slug": "damdama-lake-travel-guide",
+      "title": "Damdama Lake Travel Guide: Haryana&apos;s Largest Natural Lake"
+    },
+    {
+      "slug": "gurugram-travel-guide",
+      "title": "Gurugram Travel Guide: Cyber City, Kingdom of Dreams & Malls"
+    },
+    {
+      "slug": "hisar-travel-guide",
+      "title": "Hisar Travel Guide: Firoz Shah Palace & Blackbuck Country"
+    },
+    {
+      "slug": "kurukshetra-travel-guide",
+      "title": "Kurukshetra Travel Guide: Bhagavad Gita&apos;s Battlefield & Brahma Sarovar"
+    },
+    {
+      "slug": "morni-hills-travel-guide",
+      "title": "Morni Hills Travel Guide: Haryana&apos;s Only Hill Station"
+    },
+    {
+      "slug": "murthal-travel-guide",
+      "title": "Murthal Travel Guide: The Parathas That Built a Highway Legend"
+    },
+    {
+      "slug": "narnaul-travel-guide",
+      "title": "Narnaul Travel Guide: Mughal Tombs & Sher Shah Suri Connections"
+    },
+    {
+      "slug": "panipat-travel-guide",
+      "title": "Panipat Travel Guide: The Battlefield That Shaped Indian History"
+    },
+    {
+      "slug": "pinjore-travel-guide",
+      "title": "Pinjore Gardens Travel Guide: Mughal Terraces Near Chandigarh"
+    },
+    {
+      "slug": "rewari-travel-guide",
+      "title": "Rewari Travel Guide: Brass Town & 1857 Rebellion History"
+    },
+    {
+      "slug": "sultanpur-national-park-travel-guide",
+      "title": "Sultanpur National Park Travel Guide: Birdwatching Near Delhi"
+    },
+    {
+      "slug": "surajkund-travel-guide",
+      "title": "Surajkund Travel Guide: Crafts Mela & Ancient Sun Reservoir"
+    }
+  ],
+  "himachal-pradesh-travel-guide": [
+    {
+      "slug": "bir-billing-travel-guide",
+      "title": "Bir Billing Travel Guide: Paragliding Capital of India"
+    },
+    {
+      "slug": "chitkul-travel-guide",
+      "title": "Chitkul Travel Guide: The Last Indian Village Before Tibet"
+    },
+    {
+      "slug": "dalhousie-travel-guide",
+      "title": "Dalhousie Travel Guide: Colonial Charm & Khajjiar Gateway"
+    },
+    {
+      "slug": "dharamshala-travel-guide",
+      "title": "Dharamshala Travel Guide: McLeod Ganj, Triund Trek & Tibetan Culture"
+    },
+    {
+      "slug": "jibhi-travel-guide",
+      "title": "Jibhi Travel Guide: Waterfalls, Cafes & Himachal&apos;s Quiet Village"
+    },
+    {
+      "slug": "kasauli-travel-guide",
+      "title": "Kasauli Travel Guide: Quiet Cantonment Hill Town Near Chandigarh"
+    },
+    {
+      "slug": "kasol-kheerganga-trek-travel-guide",
+      "title": "Kasol & Kheerganga: The Backpacker&apos;s Himalayan Trail"
+    },
+    {
+      "slug": "khajjiar-travel-guide",
+      "title": "Khajjiar Travel Guide: Mini Switzerland of India"
+    },
+    {
+      "slug": "kinnaur-travel-guide",
+      "title": "Kinnaur Travel Guide: Apple Orchards, Kinner Kailash & Sangla Valley"
+    },
+    {
+      "slug": "kullu-travel-guide",
+      "title": "Kullu Travel Guide: Valley of Gods & International Dussehra"
+    },
+    {
+      "slug": "manali-travel-guide",
+      "title": "Manali Travel Guide: Top Places, Itinerary & Insider Tips"
+    },
+    {
+      "slug": "prashar-lake-travel-guide",
+      "title": "Prashar Lake Trek Guide: Floating Island & Best Time to Visit"
+    },
+    {
+      "slug": "shimla-travel-guide",
+      "title": "Shimla Travel Guide: Mall Road, Toy Train & Best Time to Visit"
+    },
+    {
+      "slug": "spiti-valley-travel-guide",
+      "title": "Spiti Valley: The Complete Travel Guide"
+    },
+    {
+      "slug": "tirthan-valley-travel-guide",
+      "title": "Tirthan Valley Travel Guide: Trout Fishing & GHNP Gateway"
+    }
+  ],
+  "jammu-kashmir-travel-guide": [
+    {
+      "slug": "aharbal-travel-guide",
+      "title": "Aharbal Waterfall Travel Guide: Kashmir&apos;s Niagara"
+    },
+    {
+      "slug": "bhaderwah-travel-guide",
+      "title": "Bhaderwah Travel Guide: J&K&apos;s Mini Kashmir"
+    },
+    {
+      "slug": "doodhpathri-travel-guide",
+      "title": "Doodhpathri Travel Guide: Kashmir&apos;s Valley of Milk"
+    },
+    {
+      "slug": "gulmarg-travel-guide",
+      "title": "Gulmarg Travel Guide: Gondola, Skiing & Meadows"
+    },
+    {
+      "slug": "gurez-valley-travel-guide",
+      "title": "Gurez Valley Travel Guide: Kashmir&apos;s Hidden Border Valley"
+    },
+    {
+      "slug": "jammu-travel-guide",
+      "title": "Jammu Travel Guide: Temples, Forts & Winter Capital"
+    },
+    {
+      "slug": "katra-travel-guide",
+      "title": "Katra & Vaishno Devi Yatra Guide: Route, Tips & Stay"
+    },
+    {
+      "slug": "pahalgam-travel-guide",
+      "title": "Pahalgam Travel Guide: Betaab Valley, Aru & Chandanwari"
+    },
+    {
+      "slug": "patnitop-travel-guide",
+      "title": "Patnitop Travel Guide: Paragliding, Pines & Best Time"
+    },
+    {
+      "slug": "sonamarg-travel-guide",
+      "title": "Sonamarg Travel Guide: Thajiwas Glacier & How to Visit"
+    },
+    {
+      "slug": "srinagar-travel-guide",
+      "title": "Srinagar Travel Guide: Dal Lake, Houseboats & Mughal Gardens"
+    },
+    {
+      "slug": "yusmarg-travel-guide",
+      "title": "Yusmarg Travel Guide: Meadow of Jesus & Nilnag Lake"
+    }
+  ],
+  "jharkhand-travel-guide": [
+    {
+      "slug": "betla-travel-guide",
+      "title": "Betla National Park Travel Guide: Tiger Safari & Palamu Forts"
+    },
+    {
+      "slug": "chandil-travel-guide",
+      "title": "Chandil Dam Travel Guide: Reservoir, Boating & Day Trip Guide"
+    },
+    {
+      "slug": "deoghar-travel-guide",
+      "title": "Deoghar Travel Guide: Baidyanath Temple & Jyotirlinga Pilgrimage"
+    },
+    {
+      "slug": "ghatshila-travel-guide",
+      "title": "Ghatshila Travel Guide: Subarnarekha River & Dalma Hills"
+    },
+    {
+      "slug": "hazaribagh-travel-guide",
+      "title": "Hazaribagh Travel Guide: Wildlife Sanctuary & Hazaribagh Lake"
+    },
+    {
+      "slug": "jamshedpur-travel-guide",
+      "title": "Jamshedpur Travel Guide: Jubilee Park, Dimna Lake & Steel City"
+    },
+    {
+      "slug": "massanjore-travel-guide",
+      "title": "Massanjore Dam Travel Guide: Mayurakshi Reservoir & Day Trip Guide"
+    },
+    {
+      "slug": "netarhat-travel-guide",
+      "title": "Netarhat Travel Guide: Sunrise Point & Chotanagpur&apos;s Hill Queen"
+    },
+    {
+      "slug": "parasnath-travel-guide",
+      "title": "Parasnath Hill Travel Guide: Jain Temples & Jharkhand&apos;s Highest Peak"
+    },
+    {
+      "slug": "patratu-travel-guide",
+      "title": "Patratu Valley Travel Guide: Dam, Ghati Road & Best Time to Visit"
+    },
+    {
+      "slug": "rajrappa-travel-guide",
+      "title": "Rajrappa Travel Guide: Chhinnamasta Temple & River Confluence"
+    },
+    {
+      "slug": "ranchi-travel-guide",
+      "title": "Ranchi Travel Guide: Waterfalls, Lakes & Jharkhand&apos;s Capital"
+    },
+    {
+      "slug": "saranda-forest-travel-guide",
+      "title": "Saranda Forest Travel Guide: Asia&apos;s Largest Sal Forest"
+    },
+    {
+      "slug": "trikut-travel-guide",
+      "title": "Trikut Hills Travel Guide: Ropeway, Trekking & Deoghar Day Trip"
+    }
+  ],
+  "karnataka-travel-guide": [
+    {
+      "slug": "badami-aihole-pattadakal-travel-guide",
+      "title": "Badami, Aihole & Pattadakal Travel Guide: Chalukya Cave Temples"
+    },
+    {
+      "slug": "bandipur-travel-guide",
+      "title": "Bandipur National Park: Tiger Safari Guide, Zones & Best Time"
+    },
+    {
+      "slug": "bengaluru-travel-guide",
+      "title": "Bengaluru Travel Guide: Gardens, Palaces & India&apos;s Tech Capital"
+    },
+    {
+      "slug": "chikmagalur-travel-guide",
+      "title": "Chikmagalur Travel Guide: Coffee Estates, Peaks & Waterfalls"
+    },
+    {
+      "slug": "coorg-travel-guide",
+      "title": "Coorg Travel Guide: Coffee, Waterfalls, Trekking & More"
+    },
+    {
+      "slug": "dandeli-travel-guide",
+      "title": "Dandeli Travel Guide: White-Water Rafting & Wildlife Sanctuary"
+    },
+    {
+      "slug": "gokarna-beaches-travel-guide",
+      "title": "Gokarna Travel Guide: Best Beaches, Temples & Itinerary"
+    },
+    {
+      "slug": "hampi-travel-guide",
+      "title": "Hampi Travel Guide: Ruins, Boulders, Temples & Tips"
+    },
+    {
+      "slug": "jog-falls-travel-guide",
+      "title": "Jog Falls Travel Guide: India&apos;s Tallest Plunge Waterfall"
+    },
+    {
+      "slug": "kabini-travel-guide",
+      "title": "Kabini Travel Guide: Wildlife Safari & Backwater Boat Rides"
+    },
+    {
+      "slug": "mangaluru-travel-guide",
+      "title": "Mangaluru Travel Guide: Beaches, Temples & Coastal Cuisine"
+    },
+    {
+      "slug": "mysuru-travel-guide",
+      "title": "Mysuru Travel Guide: Mysore Palace, Dasara & City Guide"
+    },
+    {
+      "slug": "nandi-hills-travel-guide",
+      "title": "Nandi Hills Travel Guide: Sunrise Point Near Bengaluru"
+    },
+    {
+      "slug": "sakleshpur-travel-guide",
+      "title": "Sakleshpur Travel Guide: Coffee Trails, Railway Trek & Waterfalls"
+    },
+    {
+      "slug": "udupi-travel-guide",
+      "title": "Udupi Travel Guide: Krishna Temple, Beaches & Udupi Cuisine"
+    }
+  ],
+  "kerala-backwaters-travel-guide": [
+    {
+      "slug": "alappuzha-travel-guide",
+      "title": "Alappuzha (Alleppey) Travel Guide: Houseboats & Backwaters"
+    },
+    {
+      "slug": "athirappilly-travel-guide",
+      "title": "Athirappilly Falls Travel Guide: Kerala&apos;s Niagara & Best Time to Visit"
+    },
+    {
+      "slug": "bekal-travel-guide",
+      "title": "Bekal Travel Guide: Fort, Beach & North Kerala&apos;s Quiet Coast"
+    },
+    {
+      "slug": "gavi-travel-guide",
+      "title": "Gavi Travel Guide: Eco-Tourism, Forest Trails & Permits"
+    },
+    {
+      "slug": "guruvayur-travel-guide",
+      "title": "Guruvayur Temple Travel Guide: Darshan, Timings & How to Reach"
+    },
+    {
+      "slug": "kannur-travel-guide",
+      "title": "Kannur Travel Guide: Theyyam, Beaches & Handloom Heritage"
+    },
+    {
+      "slug": "kochi-travel-guide",
+      "title": "Kochi Travel Guide: Fort Kochi, Chinese Nets & 3-Day Itinerary"
+    },
+    {
+      "slug": "kovalam-travel-guide",
+      "title": "Kovalam Travel Guide: Lighthouse Beach, Ayurveda & Itinerary"
+    },
+    {
+      "slug": "kumarakom-travel-guide",
+      "title": "Kumarakom Travel Guide: Vembanad Lake, Bird Sanctuary & Houseboats"
+    },
+    {
+      "slug": "munnar-travel-guide",
+      "title": "Munnar Travel Guide: Tea Gardens, Viewpoints & Best Time to Visit"
+    },
+    {
+      "slug": "munroe-island-travel-guide",
+      "title": "Munroe Island Travel Guide: Backwater Canoeing & Village Life"
+    },
+    {
+      "slug": "thekkady-travel-guide",
+      "title": "Thekkady Travel Guide: Periyar Wildlife Sanctuary & Spice Plantations"
+    },
+    {
+      "slug": "vagamon-travel-guide",
+      "title": "Vagamon Travel Guide: Meadows, Pine Forests & Paragliding"
+    },
+    {
+      "slug": "varkala-travel-guide",
+      "title": "Varkala Travel Guide: Cliff Beach, Yoga & Best Time to Visit"
+    },
+    {
+      "slug": "wayanad-travel-guide",
+      "title": "Wayanad Travel Guide: Waterfalls, Wildlife & Western Ghats"
+    }
+  ],
+  "lakshadweep-island-travel-guide": [
+    {
+      "slug": "agatti-island-travel-guide",
+      "title": "Agatti Island Travel Guide: Lagoon, Reefs & Diving Spots"
+    },
+    {
+      "slug": "kavaratti-island-travel-guide",
+      "title": "Kavaratti Island Travel Guide: Lagoon, Diving & Ujra Mosque"
+    }
+  ],
+  "leh-ladakh-road-trip-travel-guide": [
+    {
+      "slug": "dha-hanu-travel-guide",
+      "title": "Dha-Hanu Travel Guide: Ladakh&apos;s Aryan Valley & the Brokpa People"
+    },
+    {
+      "slug": "drass-travel-guide",
+      "title": "Drass Travel Guide: Kargil War Memorial & the Gateway to Ladakh"
+    },
+    {
+      "slug": "hanle-travel-guide",
+      "title": "Hanle Travel Guide: Dark Sky Reserve, Observatory & Stargazing"
+    },
+    {
+      "slug": "hemis-travel-guide",
+      "title": "Hemis Travel Guide: Monastery, Festival & Snow Leopard Country"
+    },
+    {
+      "slug": "hunder-travel-guide",
+      "title": "Hunder Travel Guide: Nubra Valley&apos;s Sand Dunes & Camel Safari"
+    },
+    {
+      "slug": "kargil-travel-guide",
+      "title": "Kargil Travel Guide: Gateway to Zanskar & the Srinagar-Leh Highway"
+    },
+    {
+      "slug": "khardung-la-travel-guide",
+      "title": "Khardung La Travel Guide: Height, Route, Permits & Tips"
+    },
+    {
+      "slug": "lamayuru-travel-guide",
+      "title": "Lamayuru Travel Guide: Moonland, Monastery & How to Visit"
+    },
+    {
+      "slug": "leh-travel-guide",
+      "title": "Leh Travel Guide: Leh Palace, Market, Shanti Stupa & Tips"
+    },
+    {
+      "slug": "nubra-valley-travel-guide",
+      "title": "Nubra Valley Travel Guide: Sand Dunes, Camels & Cold Desert"
+    },
+    {
+      "slug": "padum-travel-guide",
+      "title": "Padum Travel Guide: Zanskar Valley&apos;s Historic Capital Town"
+    },
+    {
+      "slug": "pangong-lake-travel-guide",
+      "title": "Pangong Lake Travel Guide: Routes, Permits, Camping & Tips"
+    },
+    {
+      "slug": "thiksey-travel-guide",
+      "title": "Thiksey Travel Guide: Monastery, Morning Prayers & Maitreya Buddha"
+    },
+    {
+      "slug": "tso-moriri-travel-guide",
+      "title": "Tso Moriri Travel Guide: Ladakh&apos;s Most Pristine High-Altitude Lake"
+    },
+    {
+      "slug": "turtuk-travel-guide",
+      "title": "Turtuk Travel Guide: Ladakh&apos;s Last Balti Village Before the LOC"
+    },
+    {
+      "slug": "zanskar-valley-travel-guide",
+      "title": "Zanskar Valley Travel Guide: Chadar Trek, Phugtal Monastery & Padum"
+    }
+  ],
+  "madhya-pradesh-travel-guide": [
+    {
+      "slug": "amarkantak-travel-guide",
+      "title": "Amarkantak Travel Guide: Source of the Narmada & Son Rivers"
+    },
+    {
+      "slug": "bandhavgarh-travel-guide",
+      "title": "Bandhavgarh National Park: Tiger Safari Guide, Zones & Best Time"
+    },
+    {
+      "slug": "bhimbetka-travel-guide",
+      "title": "Bhimbetka Rock Shelters: Prehistoric Cave Art Travel Guide"
+    },
+    {
+      "slug": "bhopal-travel-guide",
+      "title": "Bhopal Travel Guide: Lakes, Old City & Bhimbetka Gateway"
+    },
+    {
+      "slug": "gwalior-travel-guide",
+      "title": "Gwalior Fort Travel Guide: History, Timings & City Guide"
+    },
+    {
+      "slug": "indore-travel-guide",
+      "title": "Indore Travel Guide: Sarafa Bazaar, Rajwada & Street Food Capital"
+    },
+    {
+      "slug": "jabalpur-travel-guide",
+      "title": "Jabalpur Travel Guide: Marble Rocks, Dhuandhar Falls & Bhedaghat"
+    },
+    {
+      "slug": "kanha-travel-guide",
+      "title": "Kanha National Park: Tiger Safari Guide, Zones & Best Time"
+    },
+    {
+      "slug": "khajuraho-travel-guide",
+      "title": "Khajuraho Temples Travel Guide: History, Timings & Best Time to Visit"
+    },
+    {
+      "slug": "kuno-travel-guide",
+      "title": "Kuno National Park Travel Guide: Cheetahs, Safaris & Best Time"
+    },
+    {
+      "slug": "mandu-travel-guide",
+      "title": "Mandu Travel Guide: Jahaz Mahal, Monsoon Palaces & Afghan Ruins"
+    },
+    {
+      "slug": "omkareshwar-travel-guide",
+      "title": "Omkareshwar Travel Guide: Jyotirlinga Island Temple & Narmada Ghats"
+    },
+    {
+      "slug": "orchha-travel-guide",
+      "title": "Orchha Travel Guide: Cenotaphs, Palaces & Betwa River"
+    },
+    {
+      "slug": "pachmarhi-travel-guide",
+      "title": "Pachmarhi Travel Guide: Waterfalls, Caves & Satpura&apos;s Only Hill Station"
+    },
+    {
+      "slug": "panna-travel-guide",
+      "title": "Panna National Park Travel Guide: Tiger Safari & Ken River Gorge"
+    },
+    {
+      "slug": "sanchi-travel-guide",
+      "title": "Sanchi Stupa Travel Guide: Buddhist Monuments & History"
+    },
+    {
+      "slug": "ujjain-travel-guide",
+      "title": "Ujjain Travel Guide: Mahakaleshwar Temple, Simhastha & Kumbh"
+    }
+  ],
+  "maharashtra-travel-guide": [
+    {
+      "slug": "ajanta-ellora-travel-guide",
+      "title": "Ajanta & Ellora Caves Travel Guide: History, Timings & Tips"
+    },
+    {
+      "slug": "alibaug-travel-guide",
+      "title": "Alibaug Travel Guide: Beaches, Forts & Weekend Getaway"
+    },
+    {
+      "slug": "bhandardara-travel-guide",
+      "title": "Bhandardara Travel Guide: Arthur Lake, Waterfalls & Camping"
+    },
+    {
+      "slug": "chhatrapati-sambhajinagar-travel-guide",
+      "title": "Chhatrapati Sambhajinagar Travel Guide: Bibi Ka Maqbara & Forts"
+    },
+    {
+      "slug": "ganpatipule-travel-guide",
+      "title": "Ganpatipule Travel Guide: Beach, Temple & Konkan Coast"
+    },
+    {
+      "slug": "kaas-plateau-travel-guide",
+      "title": "Kaas Plateau Travel Guide: The Valley of Flowers of Maharashtra"
+    },
+    {
+      "slug": "kolhapur-travel-guide",
+      "title": "Kolhapur Travel Guide: Mahalaxmi Temple, Palace & Kolhapuri Food"
+    },
+    {
+      "slug": "lonavala-travel-guide",
+      "title": "Lonavala Travel Guide: Waterfalls, Caves & Monsoon Getaway"
+    },
+    {
+      "slug": "mahabaleshwar-travel-guide",
+      "title": "Mahabaleshwar Travel Guide: Viewpoints, Strawberries & Itinerary"
+    },
+    {
+      "slug": "matheran-travel-guide",
+      "title": "Matheran Travel Guide: India&apos;s Only Vehicle-Free Hill Station"
+    },
+    {
+      "slug": "mumbai-travel-guide",
+      "title": "Mumbai Travel Guide: Gateway of India, Marine Drive & Bollywood"
+    },
+    {
+      "slug": "nashik-travel-guide",
+      "title": "Nashik Travel Guide: Vineyards, Temples & Godavari Ghats"
+    },
+    {
+      "slug": "pune-travel-guide",
+      "title": "Pune Travel Guide: Shaniwar Wada, Sinhagad & City Guide"
+    },
+    {
+      "slug": "shirdi-travel-guide",
+      "title": "Shirdi Travel Guide: Sai Baba Temple, Timings & How to Reach"
+    },
+    {
+      "slug": "tadoba-travel-guide",
+      "title": "Tadoba Andhari Tiger Reserve: Safari Guide, Zones & Best Time"
+    },
+    {
+      "slug": "tarkarli-travel-guide",
+      "title": "Tarkarli Travel Guide: Scuba Diving, Beaches & Malvan"
+    }
+  ],
+  "manipur-travel-guide": [
+    {
+      "slug": "andro-travel-guide",
+      "title": "Andro Village Travel Guide: Pottery, Heritage & Temples"
+    },
+    {
+      "slug": "imphal-travel-guide",
+      "title": "Imphal Travel Guide: Kangla Fort & Ima Keithel Market"
+    },
+    {
+      "slug": "kangpokpi-travel-guide",
+      "title": "Kangpokpi Travel Guide: Pineapple Hills Near Imphal"
+    },
+    {
+      "slug": "keibul-lamjao-travel-guide",
+      "title": "Keibul Lamjao National Park Guide: Floating Park & Sangai Deer"
+    },
+    {
+      "slug": "loktak-lake-travel-guide",
+      "title": "Loktak Lake Travel Guide: Phumdis, Sendra & Boating"
+    },
+    {
+      "slug": "moirang-travel-guide",
+      "title": "Moirang Travel Guide: INA Memorial & Loktak Lake Gateway"
+    },
+    {
+      "slug": "moreh-travel-guide",
+      "title": "Moreh Travel Guide: India&apos;s Border Town to Myanmar"
+    },
+    {
+      "slug": "senapati-travel-guide",
+      "title": "Senapati Travel Guide: Mao Gate, King Chilli & Naga Hills"
+    },
+    {
+      "slug": "shirui-hills-travel-guide",
+      "title": "Shirui Hills Trek Guide: Shirui Lily & Best Time to Visit"
+    },
+    {
+      "slug": "tamenglong-travel-guide",
+      "title": "Tamenglong Travel Guide: Orange Hills of Zeliangrong Country"
+    },
+    {
+      "slug": "tharon-cave-travel-guide",
+      "title": "Tharon Cave Guide: Manipur&apos;s Longest Limestone Cave"
+    },
+    {
+      "slug": "ukhrul-travel-guide",
+      "title": "Ukhrul Travel Guide: Tangkhul Naga Hills & Shirui Lily Gateway"
+    },
+    {
+      "slug": "zeilad-lake-travel-guide",
+      "title": "Zeilad Lake Travel Guide: Tamenglong&apos;s Sacred Lake"
+    }
+  ],
+  "meghalaya-travel-guide": [
+    {
+      "slug": "balpakram-travel-guide",
+      "title": "Balpakram National Park: Myths & Wildlife"
+    },
+    {
+      "slug": "cherrapunji-travel-guide",
+      "title": "Cherrapunji Travel Guide: Waterfalls & Rainfall"
+    },
+    {
+      "slug": "dawki-travel-guide",
+      "title": "Dawki Travel Guide: Crystal Clear River & Tips"
+    },
+    {
+      "slug": "jowai-travel-guide",
+      "title": "Jowai Travel Guide: Jaintia Hills & Tips"
+    },
+    {
+      "slug": "krang-suri-falls-travel-guide",
+      "title": "Krang Suri Falls Guide: Best Time & Tips"
+    },
+    {
+      "slug": "laitlum-canyons-travel-guide",
+      "title": "Laitlum Canyons Guide: Meghalaya&apos;s Grand Canyon"
+    },
+    {
+      "slug": "mawlynnong-travel-guide",
+      "title": "Mawlynnong Guide: India&apos;s Cleanest Village"
+    },
+    {
+      "slug": "mawphanlur-travel-guide",
+      "title": "Mawphanlur Guide: Grasslands & Camping"
+    },
+    {
+      "slug": "nongriat-travel-guide",
+      "title": "Nongriat Trek Guide: Living Root Bridge"
+    },
+    {
+      "slug": "shillong-travel-guide",
+      "title": "Shillong Travel Guide: Sightseeing & Tips"
+    },
+    {
+      "slug": "shnongpdeng-travel-guide",
+      "title": "Shnongpdeng Guide: Camping & River Adventure"
+    },
+    {
+      "slug": "siju-travel-guide",
+      "title": "Siju Cave Guide: Caving & Best Time"
+    },
+    {
+      "slug": "tura-travel-guide",
+      "title": "Tura Travel Guide: Gateway to Garo Hills"
+    },
+    {
+      "slug": "umiam-lake-travel-guide",
+      "title": "Umiam Lake Guide: Boating & Best Time"
+    }
+  ],
+  "mizoram-travel-guide": [
+    {
+      "slug": "aizawl-travel-guide",
+      "title": "Aizawl Travel Guide: Sightseeing & Tips"
+    },
+    {
+      "slug": "champhai-travel-guide",
+      "title": "Champhai Travel Guide: Rice Bowl of Mizoram"
+    },
+    {
+      "slug": "dampa-tiger-reserve-travel-guide",
+      "title": "Dampa Tiger Reserve: Safari Guide & Tips"
+    },
+    {
+      "slug": "hmuifang-travel-guide",
+      "title": "Hmuifang Guide: Paragliding & Views"
+    },
+    {
+      "slug": "murlen-travel-guide",
+      "title": "Murlen National Park: Biodiversity & Tips"
+    },
+    {
+      "slug": "palak-dil-travel-guide",
+      "title": "Palak Dil Guide: Mizoram&apos;s Largest Lake"
+    },
+    {
+      "slug": "phawngpui-travel-guide",
+      "title": "Phawngpui Trek Guide: The Blue Mountain"
+    },
+    {
+      "slug": "reiek-travel-guide",
+      "title": "Reiek Travel Guide: Heritage Village & Views"
+    },
+    {
+      "slug": "serchhip-travel-guide",
+      "title": "Serchhip Travel Guide: Gateway & Tips"
+    },
+    {
+      "slug": "tamdil-lake-travel-guide",
+      "title": "Tamdil Lake Guide: Legend, Boating & Tips"
+    },
+    {
+      "slug": "thenzawl-travel-guide",
+      "title": "Thenzawl Travel Guide: Handloom & Tips"
+    },
+    {
+      "slug": "vantawng-falls-travel-guide",
+      "title": "Vantawng Falls Guide: Mizoram&apos;s Tallest Falls"
+    }
+  ],
+  "nagaland-travel-guide": [
+    {
+      "slug": "benreu-travel-guide",
+      "title": "Benreu Village Guide: Zeliang Naga Heritage"
+    },
+    {
+      "slug": "dimapur-travel-guide",
+      "title": "Dimapur Travel Guide: Gateway to Nagaland"
+    },
+    {
+      "slug": "doyang-travel-guide",
+      "title": "Doyang Guide: Amur Falcon Capital of the World"
+    },
+    {
+      "slug": "dzukou-valley-travel-guide",
+      "title": "Dzukou Valley Trek Guide: Route & Best Time"
+    },
+    {
+      "slug": "khonoma-travel-guide",
+      "title": "Khonoma Guide: India&apos;s First Green Village"
+    },
+    {
+      "slug": "kisama-travel-guide",
+      "title": "Kisama Guide: Hornbill Festival Heritage Village"
+    },
+    {
+      "slug": "kohima-travel-guide",
+      "title": "Kohima Travel Guide: War Cemetery & History"
+    },
+    {
+      "slug": "longwa-travel-guide",
+      "title": "Longwa Village Guide: India-Myanmar Border"
+    },
+    {
+      "slug": "mokokchung-travel-guide",
+      "title": "Mokokchung Guide: Ao Naga Heartland"
+    },
+    {
+      "slug": "mon-travel-guide",
+      "title": "Mon Travel Guide: Konyak Naga Heritage"
+    },
+    {
+      "slug": "mount-saramati-travel-guide",
+      "title": "Mount Saramati Trek: Nagaland&apos;s Highest Peak"
+    },
+    {
+      "slug": "peren-travel-guide",
+      "title": "Peren Travel Guide: Intanki National Park & Tips"
+    },
+    {
+      "slug": "phek-travel-guide",
+      "title": "Phek Travel Guide: Terraced Fields & Tips"
+    },
+    {
+      "slug": "shilloi-lake-travel-guide",
+      "title": "Shilloi Lake Guide: Nagaland&apos;s Largest Lake"
+    }
+  ],
+  "odisha-travel-guide": [
+    {
+      "slug": "bhitarkanika-travel-guide",
+      "title": "Bhitarkanika Guide: Mangroves & Crocodiles"
+    },
+    {
+      "slug": "bhubaneswar-travel-guide",
+      "title": "Bhubaneswar Travel Guide: Temple City of India"
+    },
+    {
+      "slug": "chandipur-travel-guide",
+      "title": "Chandipur Beach Guide: The Vanishing Sea"
+    },
+    {
+      "slug": "chilika-lake-travel-guide",
+      "title": "Chilika Lake Guide: Dolphins, Birds & Boating"
+    },
+    {
+      "slug": "cuttack-travel-guide",
+      "title": "Cuttack Travel Guide: Silver City & Barabati Fort"
+    },
+    {
+      "slug": "daringbadi-travel-guide",
+      "title": "Daringbadi Guide: The Kashmir of Odisha"
+    },
+    {
+      "slug": "deomali-travel-guide",
+      "title": "Deomali Trek Guide: Odisha&apos;s Highest Peak"
+    },
+    {
+      "slug": "jeypore-travel-guide",
+      "title": "Jeypore Travel Guide: Tribal Heritage & Tips"
+    },
+    {
+      "slug": "konark-travel-guide",
+      "title": "Konark Sun Temple Guide: History & Tips"
+    },
+    {
+      "slug": "koraput-travel-guide",
+      "title": "Koraput Travel Guide: Tribal Culture & Coffee"
+    },
+    {
+      "slug": "puri-travel-guide",
+      "title": "Puri Travel Guide: Jagannath Temple & Beach"
+    },
+    {
+      "slug": "rourkela-travel-guide",
+      "title": "Rourkela Travel Guide: Steel City & Waterfalls"
+    },
+    {
+      "slug": "sambalpur-travel-guide",
+      "title": "Sambalpur Guide: Hirakud Dam & Sarees"
+    },
+    {
+      "slug": "satkosia-travel-guide",
+      "title": "Satkosia Gorge Guide: Tiger Reserve & Safari"
+    },
+    {
+      "slug": "similipal-travel-guide",
+      "title": "Similipal Tiger Reserve: Safari Guide & Tips"
+    }
+  ],
+  "puducherry-district-travel-guide": [
+    {
+      "slug": "karaikal-district-travel-guide",
+      "title": "Karaikal District Travel Guide: Temples, Beach & Cauvery Delta"
+    },
+    {
+      "slug": "mahe-district-travel-guide",
+      "title": "Mahe District Travel Guide: Riverfront, Church & Malabar Coast"
+    },
+    {
+      "slug": "puducherry-french-quarter-travel-guide",
+      "title": "Puducherry Travel Guide: French Quarter, Auroville & Beaches"
+    },
+    {
+      "slug": "yanam-district-travel-guide",
+      "title": "Yanam District Travel Guide: Godavari Delta & French Heritage"
+    }
+  ],
+  "punjab-travel-guide": [
+    {
+      "slug": "abohar-travel-guide",
+      "title": "Abohar Travel Guide: Blackbuck Sanctuary & Tips"
+    },
+    {
+      "slug": "amritsar-travel-guide",
+      "title": "Amritsar Travel Guide: Golden Temple & Food"
+    },
+    {
+      "slug": "anandpur-sahib-travel-guide",
+      "title": "Anandpur Sahib Guide: Birthplace of the Khalsa"
+    },
+    {
+      "slug": "bathinda-travel-guide",
+      "title": "Bathinda Travel Guide: Qila Mubarak & History"
+    },
+    {
+      "slug": "fatehgarh-sahib-travel-guide",
+      "title": "Fatehgarh Sahib Guide: History & Tips"
+    },
+    {
+      "slug": "ferozepur-travel-guide",
+      "title": "Ferozepur Travel Guide: Hussainiwala & Tips"
+    },
+    {
+      "slug": "golden-temple-travel-guide",
+      "title": "Golden Temple Guide: Timings, Langar & Tips"
+    },
+    {
+      "slug": "kapurthala-travel-guide",
+      "title": "Kapurthala Travel Guide: The Paris of Punjab"
+    },
+    {
+      "slug": "mohali-travel-guide",
+      "title": "Mohali Travel Guide: Cricket, Stay & Tips"
+    },
+    {
+      "slug": "patiala-travel-guide",
+      "title": "Patiala Travel Guide: Qila Mubarak & Tips"
+    },
+    {
+      "slug": "ranjit-sagar-dam-travel-guide",
+      "title": "Ranjit Sagar Dam Guide: Best Time & Tips"
+    },
+    {
+      "slug": "sultanpur-lodhi-travel-guide",
+      "title": "Sultanpur Lodhi Guide: Guru Nanak&apos;s Sacred Town"
+    },
+    {
+      "slug": "tarn-taran-travel-guide",
+      "title": "Tarn Taran Sahib Guide: The Largest Sarovar"
+    },
+    {
+      "slug": "wagah-border-travel-guide",
+      "title": "Wagah Border Guide: Beating Retreat Ceremony"
+    }
+  ],
+  "rajasthan-travel-guide": [
+    {
+      "slug": "abhaneri-travel-guide",
+      "title": "Abhaneri Guide: Chand Baori Stepwell & Tips"
+    },
+    {
+      "slug": "ajmer-travel-guide",
+      "title": "Ajmer Travel Guide: Dargah Sharif & Ana Sagar"
+    },
+    {
+      "slug": "bharatpur-travel-guide",
+      "title": "Bharatpur Guide: Keoladeo Bird Sanctuary & Tips"
+    },
+    {
+      "slug": "bikaner-travel-guide",
+      "title": "Bikaner Travel Guide: Junagarh Fort & Desert"
+    },
+    {
+      "slug": "bundi-travel-guide",
+      "title": "Bundi Travel Guide: Stepwells, Palace & Murals"
+    },
+    {
+      "slug": "chittorgarh-travel-guide",
+      "title": "Chittorgarh Fort Guide: History & Tips"
+    },
+    {
+      "slug": "jaipur-travel-guide",
+      "title": "Jaipur Travel Guide: Amber Fort, Hawa Mahal & Tips"
+    },
+    {
+      "slug": "rajasthan-desert-travel-guide",
+      "title": "Jaisalmer & Thar Desert Travel Guide: Fort, Camel Safari & Tips"
+    },
+    {
+      "slug": "jawai-travel-guide",
+      "title": "Jawai Travel Guide: Leopard Hills & Rabari Villages"
+    },
+    {
+      "slug": "jodhpur-travel-guide",
+      "title": "Jodhpur Travel Guide: Mehrangarh Fort & Blue City"
+    },
+    {
+      "slug": "khatu-shyam-ji-travel-guide",
+      "title": "Khatu Shyam Ji Guide: Temple & Best Time"
+    },
+    {
+      "slug": "kumbhalgarh-travel-guide",
+      "title": "Kumbhalgarh Fort Guide: The Great Wall of India"
+    },
+    {
+      "slug": "mandawa-travel-guide",
+      "title": "Mandawa Travel Guide: Shekhawati Havelis & Tips"
+    },
+    {
+      "slug": "mount-abu-travel-guide",
+      "title": "Mount Abu Travel Guide: Dilwara Temples & Tips"
+    },
+    {
+      "slug": "osian-travel-guide",
+      "title": "Osian Travel Guide: Desert Temples & Tips"
+    },
+    {
+      "slug": "pushkar-travel-guide",
+      "title": "Pushkar Travel Guide: Lake, Temple & Camel Fair"
+    },
+    {
+      "slug": "ranthambore-travel-guide",
+      "title": "Ranthambore Safari Guide: Tigers & Fort"
+    },
+    {
+      "slug": "ranthambore-first-time-visitors-travel-guide",
+      "title": "Things to Do in Ranthambore for First-Time Visitors"
+    },
+    {
+      "slug": "udaipur-city-of-lakes-travel-guide",
+      "title": "Udaipur Travel Guide: City Palace, Lake Pichola & Itinerary"
+    }
+  ],
+  "sikkim-travel-guide": [
+    {
+      "slug": "aritar-travel-guide",
+      "title": "Aritar Travel Guide: Lake, Views & Tips"
+    },
+    {
+      "slug": "dzongu-travel-guide",
+      "title": "Dzongu Travel Guide: Permits & Lepcha Culture"
+    },
+    {
+      "slug": "gangtok-travel-guide",
+      "title": "Gangtok Travel Guide: Sightseeing, Food & Tips"
+    },
+    {
+      "slug": "gurudongmar-lake-travel-guide",
+      "title": "Gurudongmar Lake Guide: Permits & Altitude"
+    },
+    {
+      "slug": "khecheopalri-lake-travel-guide",
+      "title": "Khecheopalri Lake Guide: The Wishing Lake"
+    },
+    {
+      "slug": "lachen-travel-guide",
+      "title": "Lachen Travel Guide: Gateway to Gurudongmar"
+    },
+    {
+      "slug": "lachung-travel-guide",
+      "title": "Lachung Travel Guide: Gateway to Yumthang"
+    },
+    {
+      "slug": "namchi-travel-guide",
+      "title": "Namchi Travel Guide: Char Dham & Samdruptse"
+    },
+    {
+      "slug": "nathula-pass-travel-guide",
+      "title": "Nathula Pass Guide: Permits, Height & Tips"
+    },
+    {
+      "slug": "pelling-travel-guide",
+      "title": "Pelling Travel Guide: Kanchenjunga Views & Tips"
+    },
+    {
+      "slug": "ravangla-travel-guide",
+      "title": "Ravangla Travel Guide: Buddha Park & Views"
+    },
+    {
+      "slug": "temi-tea-garden-travel-guide",
+      "title": "Temi Tea Garden Guide: Sikkim&apos;s Only Estate"
+    },
+    {
+      "slug": "tsomgo-lake-travel-guide",
+      "title": "Tsomgo Lake Guide: Permits & Best Time"
+    },
+    {
+      "slug": "yuksom-travel-guide",
+      "title": "Yuksom Travel Guide: Sikkim&apos;s First Capital"
+    },
+    {
+      "slug": "yumthang-valley-travel-guide",
+      "title": "Yumthang Valley Guide: Flowers & Best Time"
+    },
+    {
+      "slug": "zuluk-travel-guide",
+      "title": "Zuluk Travel Guide: Old Silk Route & Tips"
+    }
+  ],
+  "tamil-nadu-travel-guide": [
+    {
+      "slug": "chennai-travel-guide",
+      "title": "Chennai Travel Guide: Beaches, Temples & Food"
+    },
+    {
+      "slug": "chettinad-travel-guide",
+      "title": "Chettinad Travel Guide: Mansions & Cuisine"
+    },
+    {
+      "slug": "chidambaram-travel-guide",
+      "title": "Chidambaram Guide: Nataraja Temple & Tips"
+    },
+    {
+      "slug": "coimbatore-travel-guide",
+      "title": "Coimbatore Travel Guide: Gateway to the Nilgiris"
+    },
+    {
+      "slug": "courtallam-travel-guide",
+      "title": "Courtallam Falls Guide: Best Time & How to Reach"
+    },
+    {
+      "slug": "hogenakkal-travel-guide",
+      "title": "Hogenakkal Falls Guide: Boating & Best Time"
+    },
+    {
+      "slug": "kanchipuram-travel-guide",
+      "title": "Kanchipuram Travel Guide: Temples & Silk Sarees"
+    },
+    {
+      "slug": "kanyakumari-travel-guide",
+      "title": "Kanyakumari Travel Guide: Sunrise, Sunset & Tips"
+    },
+    {
+      "slug": "kodaikanal-travel-guide",
+      "title": "Kodaikanal Travel Guide: Lake, Views & Tips"
+    },
+    {
+      "slug": "kolli-hills-travel-guide",
+      "title": "Kolli Hills Travel Guide: 70 Hairpin Bends & Tips"
+    },
+    {
+      "slug": "madurai-travel-guide",
+      "title": "Madurai Travel Guide: Meenakshi Temple & Tips"
+    },
+    {
+      "slug": "mahabalipuram-travel-guide",
+      "title": "Mahabalipuram Travel Guide: Shore Temples & Tips"
+    },
+    {
+      "slug": "meghamalai-travel-guide",
+      "title": "Meghamalai Guide: High Wavy Mountains & Tips"
+    },
+    {
+      "slug": "ooty-travel-guide",
+      "title": "Ooty Travel Guide: Nilgiris, Lakes & Best Time"
+    },
+    {
+      "slug": "rameswaram-travel-guide",
+      "title": "Rameswaram Travel Guide: Temple & Dhanushkodi"
+    },
+    {
+      "slug": "thanjavur-travel-guide",
+      "title": "Thanjavur Travel Guide: Brihadeeswarar Temple"
+    },
+    {
+      "slug": "tiruvannamalai-travel-guide",
+      "title": "Tiruvannamalai Guide: Arunachala & Girivalam"
+    },
+    {
+      "slug": "valparai-travel-guide",
+      "title": "Valparai Travel Guide: Tea Estates & Wildlife"
+    },
+    {
+      "slug": "yelagiri-travel-guide",
+      "title": "Yelagiri Travel Guide: Lake, Hills & Best Time"
+    },
+    {
+      "slug": "yercaud-travel-guide",
+      "title": "Yercaud Travel Guide: Coffee Hills & Best Time"
+    }
+  ],
+  "telangana-travel-guide": [
+    {
+      "slug": "alampur-travel-guide",
+      "title": "Alampur Travel Guide: Navabrahma Temples & Tips"
+    },
+    {
+      "slug": "ananthagiri-hills-travel-guide",
+      "title": "Ananthagiri Hills Guide: Coffee & Weekend Trip"
+    },
+    {
+      "slug": "bhadrachalam-travel-guide",
+      "title": "Bhadrachalam Travel Guide: Temple & Godavari"
+    },
+    {
+      "slug": "bogatha-waterfall-travel-guide",
+      "title": "Bogatha Waterfall Guide: Best Time & How to Reach"
+    },
+    {
+      "slug": "charminar-travel-guide",
+      "title": "Charminar Guide: History, Timings & Tips"
+    },
+    {
+      "slug": "golconda-fort-travel-guide",
+      "title": "Golconda Fort Guide: History, Sound Show & Tips"
+    },
+    {
+      "slug": "hyderabad-travel-guide",
+      "title": "Hyderabad Travel Guide: Charminar, Golconda & Food"
+    },
+    {
+      "slug": "kawal-tiger-reserve-travel-guide",
+      "title": "Kawal Tiger Reserve: Safari Guide & Tips"
+    },
+    {
+      "slug": "kuntala-waterfall-travel-guide",
+      "title": "Kuntala Waterfall Guide: Telangana&apos;s Tallest Falls"
+    },
+    {
+      "slug": "laknavaram-travel-guide",
+      "title": "Laknavaram Lake Guide: Bridge, Boating & Tips"
+    },
+    {
+      "slug": "medaram-travel-guide",
+      "title": "Medaram Jatara Guide: Sammakka Saralamma Festival"
+    },
+    {
+      "slug": "nagarjuna-sagar-travel-guide",
+      "title": "Nagarjuna Sagar Guide: Dam, Island & Tips"
+    },
+    {
+      "slug": "srisailam-travel-guide",
+      "title": "Srisailam Travel Guide: Jyotirlinga & Nallamala"
+    },
+    {
+      "slug": "vemulawada-travel-guide",
+      "title": "Vemulawada Temple Guide: Darshan & Tips"
+    },
+    {
+      "slug": "warangal-travel-guide",
+      "title": "Warangal Travel Guide: Kakatiya Heritage & Tips"
+    },
+    {
+      "slug": "yadadri-travel-guide",
+      "title": "Yadadri Temple Guide: Darshan, Timings & Tips"
+    }
+  ],
+  "tripura-travel-guide": [
+    {
+      "slug": "agartala-travel-guide",
+      "title": "Agartala Travel Guide: Palaces, Sightseeing & Tips"
+    },
+    {
+      "slug": "betlingchhip-travel-guide",
+      "title": "Betlingchhip Trek Guide: Tripura&apos;s Highest Peak"
+    },
+    {
+      "slug": "chabimura-travel-guide",
+      "title": "Chabimura Travel Guide: Rock Carvings & Boat Ride"
+    },
+    {
+      "slug": "dumboor-lake-travel-guide",
+      "title": "Dumboor Lake Travel Guide: Islands, Boating & Tips"
+    },
+    {
+      "slug": "jampui-hills-travel-guide",
+      "title": "Jampui Hills Travel Guide: Orange Orchards & Tips"
+    },
+    {
+      "slug": "longtharai-valley-travel-guide",
+      "title": "Longtharai Valley Travel Guide: Tips & How to Reach"
+    },
+    {
+      "slug": "sabroom-travel-guide",
+      "title": "Sabroom Travel Guide: Maitri Setu Bridge & Tips"
+    },
+    {
+      "slug": "sepahijala-travel-guide",
+      "title": "Sepahijala Wildlife Sanctuary: Safari & Tips"
+    },
+    {
+      "slug": "tripura-sundari-temple-travel-guide",
+      "title": "Tripura Sundari Temple Guide: Matabari Shakti Peeth"
+    },
+    {
+      "slug": "trishna-wildlife-sanctuary-travel-guide",
+      "title": "Trishna Wildlife Sanctuary: Safari Guide & Tips"
+    },
+    {
+      "slug": "udaipur-tripura-travel-guide",
+      "title": "Udaipur Tripura Travel Guide: Lakes & Old Capital"
+    },
+    {
+      "slug": "ujjayanta-palace-travel-guide",
+      "title": "Ujjayanta Palace Guide: History, Timings & Tips"
+    },
+    {
+      "slug": "unakoti-travel-guide",
+      "title": "Unakoti Travel Guide: Rock Carvings & How to Reach"
+    }
+  ],
+  "uttar-pradesh-travel-guide": [
+    {
+      "slug": "agra-travel-guide",
+      "title": "Agra Travel Guide: Taj Mahal, Fort & Fatehpur Sikri"
+    },
+    {
+      "slug": "ayodhya-travel-guide",
+      "title": "Ayodhya Travel Guide: Ram Mandir & Saryu Ghats"
+    },
+    {
+      "slug": "chandauli-travel-guide",
+      "title": "Chandauli Travel Guide: Waterfalls Near Varanasi"
+    },
+    {
+      "slug": "chitrakoot-travel-guide",
+      "title": "Chitrakoot Travel Guide: Ram&apos;s Forest Exile Site"
+    },
+    {
+      "slug": "dudhwa-travel-guide",
+      "title": "Dudhwa National Park: Tiger & Rhino Safari Guide"
+    },
+    {
+      "slug": "fatehpur-sikri-travel-guide",
+      "title": "Fatehpur Sikri Travel Guide: Akbar&apos;s Ghost City"
+    },
+    {
+      "slug": "govardhan-travel-guide",
+      "title": "Govardhan Travel Guide: Hill, Parikrama & Temples"
+    },
+    {
+      "slug": "jhansi-travel-guide",
+      "title": "Jhansi Travel Guide: Rani Lakshmibai&apos;s Fort"
+    },
+    {
+      "slug": "kannauj-travel-guide",
+      "title": "Kannauj Travel Guide: India&apos;s Perfume Capital"
+    },
+    {
+      "slug": "kushinagar-travel-guide",
+      "title": "Kushinagar Travel Guide: Buddha&apos;s Final Resting Place"
+    },
+    {
+      "slug": "lucknow-travel-guide",
+      "title": "Lucknow Travel Guide: Nawabi Heritage & Food"
+    },
+    {
+      "slug": "mathura-travel-guide",
+      "title": "Mathura Travel Guide: Krishna Janmabhoomi & Temples"
+    },
+    {
+      "slug": "mirzapur-travel-guide",
+      "title": "Mirzapur Travel Guide: Temples, Fort & Waterfalls"
+    },
+    {
+      "slug": "naimisharanya-travel-guide",
+      "title": "Naimisharanya Travel Guide: Sacred Forest & Temples"
+    },
+    {
+      "slug": "pilibhit-travel-guide",
+      "title": "Pilibhit Tiger Reserve: Safari & Visit Guide"
+    },
+    {
+      "slug": "prayagraj-travel-guide",
+      "title": "Prayagraj Travel Guide: Triveni Sangam & Kumbh Mela"
+    },
+    {
+      "slug": "sarnath-travel-guide",
+      "title": "Sarnath Travel Guide: Buddha&apos;s First Sermon Site"
+    },
+    {
+      "slug": "shravasti-travel-guide",
+      "title": "Shravasti Travel Guide: Jetavana Monastery Ruins"
+    },
+    {
+      "slug": "varanasi-travel-guide",
+      "title": "Varanasi Travel Guide: Ganga Ghats & Ganga Aarti"
+    },
+    {
+      "slug": "vrindavan-travel-guide",
+      "title": "Vrindavan Travel Guide: Temples & Krishna Lore"
+    }
+  ],
+  "uttarakhand-travel-guide": [
+    {
+      "slug": "adi-kailash-travel-guide",
+      "title": "Adi Kailash Travel Guide: Trek, Permits & Best Time"
+    },
+    {
+      "slug": "auli-travel-guide",
+      "title": "Auli Travel Guide: Skiing, Cable Car & Best Time"
+    },
+    {
+      "slug": "badrinath-travel-guide",
+      "title": "Badrinath Travel Guide: Temple, Timings & How to Reach"
+    },
+    {
+      "slug": "chopta-travel-guide",
+      "title": "Chopta Travel Guide: Tungnath Trek & Best Time"
+    },
+    {
+      "slug": "dayara-bugyal-travel-guide",
+      "title": "Dayara Bugyal Trek: Route, Season & a Complete Guide"
+    },
+    {
+      "slug": "dhanaulti-travel-guide",
+      "title": "Dhanaulti: Pine Forests, Quiet Views & a Complete Guide"
+    },
+    {
+      "slug": "gangotri-travel-guide",
+      "title": "Gangotri Travel Guide: Temple, Gaumukh Trek & Tips"
+    },
+    {
+      "slug": "haridwar-travel-guide",
+      "title": "Haridwar Travel Guide: Ganga Aarti, Ghats & Temples"
+    },
+    {
+      "slug": "jageshwar-travel-guide",
+      "title": "Jageshwar Temple Travel Guide: History & Visit Tips"
+    },
+    {
+      "slug": "jim-corbett-travel-guide",
+      "title": "Jim Corbett National Park: Safari, Zones & Tips"
+    },
+    {
+      "slug": "kausani-travel-guide",
+      "title": "Kausani Travel Guide: Himalayan Views & Tea Gardens"
+    },
+    {
+      "slug": "kedarnath-travel-guide",
+      "title": "Kedarnath Travel Guide: Trek, Yatra & Helicopter Tips"
+    },
+    {
+      "slug": "lansdowne-travel-guide",
+      "title": "Lansdowne: Quiet Hills, Bhulla Lake & a Complete Visit Guide"
+    },
+    {
+      "slug": "mukteshwar-travel-guide",
+      "title": "Mukteshwar Travel Guide: Views, Orchards & Adventure"
+    },
+    {
+      "slug": "munsiyari-travel-guide",
+      "title": "Munsiyari Travel Guide: Panchachuli Views & Treks"
+    },
+    {
+      "slug": "mussoorie-travel-guide",
+      "title": "Mussoorie Travel Guide: Mall Road, Views & Tips"
+    },
+    {
+      "slug": "nainital-travel-guide",
+      "title": "Nainital Travel Guide: Naini Lake, Views & Tips"
+    },
+    {
+      "slug": "ranikhet-travel-guide",
+      "title": "Ranikhet Travel Guide: Cantonment Views & Golf"
+    },
+    {
+      "slug": "rishikesh-adventure-travel-guide",
+      "title": "Rishikesh Travel Guide: Adventure, Yoga, Rafting & More"
+    },
+    {
+      "slug": "tehri-lake-travel-guide",
+      "title": "Tehri Lake: Water Sports, Houseboats & a Complete Visit Guide"
+    },
+    {
+      "slug": "valley-of-flowers-travel-guide",
+      "title": "Valley of Flowers Trek Guide: Permits, Routes, Best Time & Tips"
+    },
+    {
+      "slug": "yamunotri-travel-guide",
+      "title": "Yamunotri Travel Guide: Trek, Hot Springs & Tips"
+    }
+  ],
+  "west-bengal-travel-guide": [
+    {
+      "slug": "ajodhya-hills-travel-guide",
+      "title": "Ajodhya Hills Travel Guide: Trekking & Tribal Culture"
+    },
+    {
+      "slug": "bishnupur-travel-guide",
+      "title": "Bishnupur Travel Guide: Terracotta Temples & Baluchari"
+    },
+    {
+      "slug": "buxa-travel-guide",
+      "title": "Buxa Tiger Reserve Travel Guide: Trek & Safari"
+    },
+    {
+      "slug": "cooch-behar-travel-guide",
+      "title": "Cooch Behar Travel Guide: Palace & Royal Heritage"
+    },
+    {
+      "slug": "darjeeling-travel-guide",
+      "title": "Darjeeling Travel Guide: Tea Gardens, Toy Train & Tiger Hill"
+    },
+    {
+      "slug": "digha-travel-guide",
+      "title": "Digha Travel Guide: Beaches, Marine Aquarium & Tips"
+    },
+    {
+      "slug": "dooars-travel-guide",
+      "title": "Dooars Travel Guide: Wildlife, Tea Gardens & Rivers"
+    },
+    {
+      "slug": "gangasagar-travel-guide",
+      "title": "Gangasagar Travel Guide: Mela, Temple & How to Reach"
+    },
+    {
+      "slug": "gorumara-travel-guide",
+      "title": "Gorumara National Park: Safari, Timings & Tips"
+    },
+    {
+      "slug": "jhargram-travel-guide",
+      "title": "Jhargram Travel Guide: Forests, Palace & Deer Park"
+    },
+    {
+      "slug": "kalimpong-travel-guide",
+      "title": "Kalimpong Travel Guide: Monasteries, Flowers & Views"
+    },
+    {
+      "slug": "kolkata-travel-guide",
+      "title": "Kolkata Travel Guide: Heritage, Food & Culture"
+    },
+    {
+      "slug": "mandarmani-travel-guide",
+      "title": "Mandarmani Travel Guide: Beach Drive & Resorts"
+    },
+    {
+      "slug": "mayapur-travel-guide",
+      "title": "Mayapur Travel Guide: ISKCON Temple & Visit Tips"
+    },
+    {
+      "slug": "mukutmanipur-travel-guide",
+      "title": "Mukutmanipur Travel Guide: Dam, Boating & Tips"
+    },
+    {
+      "slug": "murshidabad-travel-guide",
+      "title": "Murshidabad Travel Guide: Hazarduari & Nawabi History"
+    },
+    {
+      "slug": "sandakphu-travel-guide",
+      "title": "Sandakphu Trek Guide: Route, Permits & Best Time"
+    },
+    {
+      "slug": "santiniketan-travel-guide",
+      "title": "Santiniketan Travel Guide: Tagore&apos;s University Town"
+    },
+    {
+      "slug": "sundarbans-travel-guide",
+      "title": "Sundarbans Travel Guide: Tiger Safari, Permits & Tips"
+    },
+    {
+      "slug": "tarapith-travel-guide",
+      "title": "Tarapith Travel Guide: Shakti Peeth Temple & Tips"
+    }
+  ]
+}

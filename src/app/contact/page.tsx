@@ -5,10 +5,11 @@ import { faqs } from "@/lib/contact-faqs";
 export const metadata: Metadata = {
   title: "Contact Us — Get in Touch",
   description:
-    "Reach the Kudozz Club team for guide feedback, collaborations, corrections, or general enquiries. We reply within 48 hours.",
+    "Reach the Kudozz Club team for trip planning, guide feedback, collaborations, corrections, or general enquiries. We reply within 48 hours.",
   keywords: [
     "contact Kudozz Club",
     "Kudozz Club email",
+    "plan a trip Kudozz Club",
     "travel guide feedback",
     "collaborate with Kudozz Club",
     "report an error travel guide",

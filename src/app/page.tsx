@@ -5,12 +5,14 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import HomeHero from "@/components/home/HomeHero";
 import AnimatedSection from "@/components/home/AnimatedSection";
+import { allStatePackages } from "@/lib/all-states-data";
+import { travelStylesData } from "@/lib/travel-styles-data";
 
 // ── Per-page SEO metadata ────────────────────────────────────────────────────
 export const metadata: Metadata = {
-  title: "Kudozz Club — India Travel Blog, Guides & Itineraries",
+  title: "Kudozz Club — India Travel Guides & Trip Planning",
   description:
-    "Kudozz Club is an independent India travel blog with hand-crafted guides for Manali, Spiti Valley, Leh Ladakh, Rishikesh, Coorg, Kerala, Rajasthan & more. Real itineraries, honest budgets, and insider tips — no fluff.",
+    "Kudozz Club is an India-focused travel platform: hand-crafted guides for Manali, Spiti Valley, Leh Ladakh, Rishikesh, Coorg, Kerala, Rajasthan & more, plus an in-house team that plans your trip — customized itineraries, real budgets, no fluff.",
   keywords: [
     "travel blog",
     "travel website",
@@ -31,17 +33,17 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "https://club.kudozz.in" },
   openGraph: {
-    title: "Kudozz Club — India Travel Blog, Guides & Itineraries",
+    title: "Kudozz Club — India Travel Guides & Trip Planning",
     description:
-      "An independent India travel blog with hand-crafted guides for Manali, Spiti Valley, Leh Ladakh, Rishikesh, Coorg, Kerala, Rajasthan & more. Real itineraries, honest budgets, and insider tips.",
+      "Hand-crafted India travel guides for Manali, Spiti Valley, Leh Ladakh, Rishikesh, Coorg, Kerala, Rajasthan & more — plus an in-house team that plans your trip.",
     url: "https://club.kudozz.in",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Kudozz Club — India Travel Blog, Guides & Itineraries",
+    title: "Kudozz Club — India Travel Guides & Trip Planning",
     description:
-      "An independent India travel blog with hand-crafted guides, itineraries and hidden gems for explorers who want more than a tourist map.",
+      "Hand-crafted India travel guides, itineraries and hidden gems — plus an in-house team that plans your trip.",
   },
 };
 
@@ -131,10 +133,10 @@ const recentPosts = [
 ];
 
 const stats = [
-  { value: "120+", label: "Destinations" },
-  { value: "350+", label: "Travel Guides" },
-  { value: "15K+", label: "Club Members" },
-  { value: "4.9★", label: "Avg. Rating" },
+  { value: "580+", label: "Travel Guides" },
+  { value: "36", label: "States & UTs Covered" },
+  { value: "6", label: "Regions of India" },
+  { value: "In-house", label: "Trip Planning" },
 ];
 
 // ── JSON-LD: ItemList of featured destination guides (rich results + AEO/GEO) ──
@@ -499,6 +501,98 @@ export default function HomePage() {
         </section>
 
         {/* ══════════════════════════════════════════════════════════════════
+            TOUR PACKAGES / TRAVEL STYLES
+        ══════════════════════════════════════════════════════════════════ */}
+        <section className="bg-white py-24 border-t border-stone-100">
+          <div className="max-w-7xl mx-auto px-6 sm:px-10">
+            <AnimatedSection className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-14">
+              <div>
+                <div className="flex items-center gap-3 mb-3">
+                  <div className="h-px w-8 bg-forest-500" />
+                  <span
+                    className="text-forest-600 text-xs font-bold uppercase tracking-[0.2em]"
+                    style={{ fontFamily: "var(--font-dm-sans)" }}
+                  >
+                    Planned in-house
+                  </span>
+                </div>
+                <h2
+                  className="text-3xl md:text-4xl font-bold text-stone-900"
+                  style={{ fontFamily: "var(--font-playfair)" }}
+                >
+                  Tour Packages & Travel Styles
+                </h2>
+              </div>
+              <Link
+                href="/packages"
+                className="flex items-center gap-1.5 text-sm font-medium text-forest-600 hover:text-forest-800 transition-colors group"
+                style={{ fontFamily: "var(--font-dm-sans)" }}
+              >
+                All packages
+                <svg
+                  className="w-4 h-4 group-hover:translate-x-0.5 transition-transform"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  strokeWidth={2}
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+                </svg>
+              </Link>
+            </AnimatedSection>
+
+            {/* Destination package cards */}
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-5 mb-10">
+              {allStatePackages.slice(0, 4).map((s, i) => (
+                <AnimatedSection key={s.slug} delay={i * 90}>
+                  <Link
+                    href={`/packages/${s.slug}`}
+                    className="group relative flex flex-col justify-end overflow-hidden rounded-2xl h-56 bg-stone-800 shadow-sm hover:shadow-lg transition-all duration-500"
+                  >
+                    <Image
+                      src={s.image}
+                      alt={`${s.name} tour packages`}
+                      fill
+                      sizes="(min-width: 768px) 25vw, 50vw"
+                      className="object-cover group-hover:scale-105 transition-transform duration-700"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
+                    <div className="relative z-10 p-4">
+                      <h3
+                        className="text-white font-bold text-base"
+                        style={{ fontFamily: "var(--font-playfair)" }}
+                      >
+                        {s.name}
+                      </h3>
+                      <span
+                        className="text-white/60 text-xs"
+                        style={{ fontFamily: "var(--font-dm-sans)" }}
+                      >
+                        View package →
+                      </span>
+                    </div>
+                  </Link>
+                </AnimatedSection>
+              ))}
+            </div>
+
+            {/* Travel style chips */}
+            <div className="flex flex-wrap gap-3">
+              {travelStylesData.map((t) => (
+                <Link
+                  key={t.slug}
+                  href={`/packages/${t.slug}`}
+                  className="px-4 py-2.5 bg-stone-50 border border-stone-200 rounded-full text-sm text-stone-700 font-medium hover:border-forest-300 hover:text-forest-700 transition-colors"
+                  style={{ fontFamily: "var(--font-dm-sans)" }}
+                >
+                  {t.name}
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* ══════════════════════════════════════════════════════════════════
             FULL-WIDTH CTA BANNER
         ══════════════════════════════════════════════════════════════════ */}
         <section className="relative overflow-hidden py-28">
@@ -525,7 +619,7 @@ export default function HomePage() {
                   className="text-forest-300 text-xs font-bold uppercase tracking-[0.2em]"
                   style={{ fontFamily: "var(--font-dm-sans)" }}
                 >
-                  Join the Club
+                  Plan Your Trip
                 </span>
               </div>
               <h2
@@ -540,29 +634,17 @@ export default function HomePage() {
                 className="text-white/65 text-lg mb-10 leading-relaxed max-w-lg"
                 style={{ fontFamily: "var(--font-source-serif)" }}
               >
-                12,000+ explorers get our weekly travel guide drops, exclusive
-                itineraries, and hidden gems — all free.
+                Tell us where you want to go and we'll plan the trip
+                in-house — or join the newsletter for weekly guide drops and
+                hidden gems.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link
-                  href="/newsletter"
+                  href="/plan-your-trip"
                   className="flex items-center justify-center gap-2 px-7 py-4 gradient-forest text-white font-semibold rounded-full hover:opacity-90 active:scale-95 transition-all shadow-xl shadow-forest-900/40 text-sm"
                   style={{ fontFamily: "var(--font-dm-sans)" }}
                 >
-                  <svg
-                    className="w-4 h-4"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    strokeWidth={2}
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-                    />
-                  </svg>
-                  Join Free — No Spam
+                  Plan My Trip →
                 </Link>
                 <Link
                   href="/blog"

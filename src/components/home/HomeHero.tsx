@@ -109,7 +109,7 @@ export default function HomeHero() {
               className="text-forest-300 text-xs font-bold uppercase tracking-[0.25em]"
               style={{ fontFamily: "var(--font-dm-sans)" }}
             >
-              Kudozz Club · India Travel Blog
+              Kudozz Club · India Travel Guides &amp; Trip Planning
             </span>
           </div>
 
@@ -136,21 +136,29 @@ export default function HomeHero() {
               transitionDelay: "400ms",
             }}
           >
-            Hand-crafted travel guides, honest itineraries, and hidden gems —
-            for explorers who want more than a tourist map.
+            Hand-crafted travel guides for every Indian state, plus an
+            in-house team that plans the trip itself — tell us where, and
+            we'll build the itinerary.
           </p>
 
           {/* CTA */}
           <div
-            className={`transition-all duration-700 ${heroLoaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
+            className={`flex flex-col sm:flex-row gap-3 transition-all duration-700 ${heroLoaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
             style={{ transitionDelay: "500ms" }}
           >
             <Link
-              href="/destinations"
-              className="inline-flex items-center gap-2 px-6 py-3.5 gradient-forest text-white text-sm font-semibold rounded-full hover:opacity-90 transition-opacity"
+              href="/plan-your-trip"
+              className="inline-flex items-center justify-center gap-2 px-6 py-3.5 gradient-forest text-white text-sm font-semibold rounded-full hover:opacity-90 transition-opacity"
               style={{ fontFamily: "var(--font-dm-sans)" }}
             >
-              Explore Destinations →
+              Plan My Trip →
+            </Link>
+            <Link
+              href="/destinations"
+              className="inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-white/10 backdrop-blur-sm border border-white/25 text-white text-sm font-semibold rounded-full hover:bg-white/15 transition-all"
+              style={{ fontFamily: "var(--font-dm-sans)" }}
+            >
+              Explore India
             </Link>
           </div>
         </div>

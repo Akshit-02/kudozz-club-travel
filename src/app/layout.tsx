@@ -147,13 +147,14 @@ export default function RootLayout({
                 "Kudos",
               ],
               description:
-                "Kudozz Club is an independent India travel blog and travel website publishing hand-crafted destination guides, itineraries, and budget breakdowns.",
+                "Kudozz Club is an India-focused travel platform publishing hand-crafted destination guides, itineraries, and budget breakdowns, with an in-house team that also plans custom India trips.",
               url: "https://club.kudozz.in",
               logo: "https://club.kudozz.in/favicon.ico",
+              email: "connect@kudozz.in",
               knowsAbout: [
-                "Travel Blog",
                 "India Travel",
                 "Travel Itineraries",
+                "India Trip Planning",
                 "Adventure Travel",
                 "Budget Travel",
                 "Trekking",

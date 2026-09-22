@@ -4,8 +4,8 @@ import Link from "next/link";
 
 const navLinks = [
   { label: "Destinations", href: "/destinations" },
-  // { label: "Itineraries", href: "/itineraries" },
-  { label: "Blog", href: "/blog" },
+  { label: "Tour Packages", href: "/packages" },
+  { label: "Travel Guides", href: "/blog" },
   { label: "About", href: "/about" },
 ];
 
@@ -148,7 +148,7 @@ export default function SiteHeader() {
 
               {/* CTA */}
               <Link
-                href="/newsletter"
+                href="/plan-your-trip"
                 className="flex items-center gap-1.5 px-4 py-2 text-xs font-semibold text-white gradient-forest rounded-full hover:opacity-90 active:scale-95 transition-all duration-200 shadow-md shadow-forest-900/20 uppercase tracking-wider"
                 style={{ fontFamily: "var(--font-dm-sans)" }}
               >
@@ -162,10 +162,10 @@ export default function SiteHeader() {
                   <path
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                    d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"
                   />
                 </svg>
-                Join Club
+                Plan My Trip
               </Link>
             </div>
 
@@ -303,7 +303,7 @@ export default function SiteHeader() {
         {/* Drawer footer CTA */}
         <div className="px-5 py-5 border-t border-stone-100 space-y-3">
           <Link
-            href="/newsletter"
+            href="/plan-your-trip"
             onClick={() => setMobileOpen(false)}
             className="flex items-center justify-center gap-2 w-full py-3 text-sm font-semibold text-white gradient-forest rounded-xl hover:opacity-90 transition-opacity"
             style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -318,17 +318,19 @@ export default function SiteHeader() {
               <path
                 strokeLinecap="round"
                 strokeLinejoin="round"
-                d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"
               />
             </svg>
-            Join the Club — It's Free
+            Plan My Trip
           </Link>
-          <p
-            className="text-center text-xs text-stone-400"
+          <Link
+            href="/newsletter"
+            onClick={() => setMobileOpen(false)}
+            className="flex items-center justify-center gap-2 w-full py-2.5 text-sm font-medium text-stone-600 border border-stone-200 rounded-xl hover:border-stone-300 transition-colors"
             style={{ fontFamily: "var(--font-dm-sans)" }}
           >
-            12,000+ explorers already joined
-          </p>
+            Join the Newsletter — It's Free
+          </Link>
         </div>
       </div>
     </>

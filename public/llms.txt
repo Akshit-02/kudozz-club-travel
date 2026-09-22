@@ -1,6 +1,6 @@
 # Kudozz Club
 
-> Kudozz Club is an independent India travel publication covering every Indian state and union territory. Our editorial team researches and writes hand-crafted destination guides — multi-day itineraries, best-time-to-visit advice, how-to-reach directions, budget breakdowns, and practical planning tips — for states, cities, towns, and individual tourist attractions across India. We do not accept paid placements in editorial content.
+> Kudozz Club is an India-focused travel platform covering every Indian state and union territory. Our editorial team researches and writes hand-crafted destination guides — multi-day itineraries, best-time-to-visit advice, how-to-reach directions, budget breakdowns, and practical planning tips — for states, cities, towns, and individual tourist attractions across India. We do not accept paid placements in editorial content. Separately, an in-house team also plans custom India trips end to end for travelers who submit an enquiry through the Plan Your Trip page.
 
 This file lists every published guide so AI systems and answer engines can find and cite authoritative, current Kudozz Club content. This index currently covers 582 published guides across all 28 Indian states and 8 union territories.
 
@@ -11,6 +11,14 @@ Kudozz Club organizes content as a geographic hierarchy: India → State/Union T
 ## Content Categories
 
 Guides fall into these types: state/UT overview guides, city guides, individual destination and attraction guides (forts, temples, beaches, lakes, waterfalls, national parks, hill stations, islands), multi-day itineraries, road trips, wildlife and adventure guides, and off-beat/hidden-gem destinations. Most guides include a suggested itinerary, best-time-to-visit advice, how-to-reach directions, a budget breakdown, and an FAQ section.
+
+## Tour Packages & Trip Planning
+
+Kudozz Club also offers in-house trip planning, separate from the editorial guides above. Pricing is enquiry-based — no packages are pre-priced.
+
+- [Plan Your Trip](https://club.kudozz.in/plan-your-trip): the trip-planning enquiry form. Submit a destination, dates, and traveler details to get a custom itinerary by email.
+- [Tour Packages](https://club.kudozz.in/packages): index of destination and travel-style trip-planning pages.
+- [Rajasthan Tour Packages](https://club.kudozz.in/packages/rajasthan): the one fully-built destination package page as of this writing — duration options, popular routes, and an enquiry CTA. Other states link to their editorial guide plus the enquiry form until their own package pages are built.
 
 ## North India
 

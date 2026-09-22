@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { posts, featuredPost } from "@/lib/blog-posts";
+import { getPackageLinkForSlug } from "@/lib/blog-package-link";
 
 type Post = {
   slug: string;
@@ -54,9 +55,36 @@ function getRelatedPosts(currentSlug: string, count: number): Post[] {
 export function RelatedSidebar({ currentSlug }: { currentSlug: string }) {
   const related = getRelatedPosts(currentSlug, 3);
   const current = ALL_POSTS.find((p) => p.slug === currentSlug);
+  const packageLink = getPackageLinkForSlug(currentSlug);
 
   return (
     <aside className="w-full space-y-6">
+      {/* Plan a Trip CTA */}
+      {packageLink && (
+        <div className="bg-gradient-to-br from-forest-900 to-stone-900 border border-forest-700/40 rounded-2xl p-5">
+          <h3
+            className="font-bold text-white text-base mb-1.5"
+            style={{ fontFamily: "var(--font-playfair)" }}
+          >
+            Planning a trip here?
+          </h3>
+          <p
+            className="text-stone-300 text-xs leading-relaxed mb-4"
+            style={{ fontFamily: "var(--font-dm-sans)" }}
+          >
+            Let Kudozz Club help you build a custom {packageLink.stateName}{" "}
+            itinerary — planned in-house, pricing on request.
+          </p>
+          <Link
+            href={`/packages/${packageLink.packageSlug}`}
+            className="block w-full py-2.5 text-center text-sm font-semibold gradient-forest text-white rounded-xl hover:opacity-90 transition-opacity"
+            style={{ fontFamily: "var(--font-dm-sans)" }}
+          >
+            Plan a {packageLink.stateName} Trip →
+          </Link>
+        </div>
+      )}
+
       {/* Related Posts */}
       <div className="bg-white rounded-2xl border border-stone-200 shadow-sm overflow-hidden">
         <div className="px-5 py-4 border-b border-stone-100 bg-amber-50">
@@ -189,9 +217,37 @@ export function RelatedSidebar({ currentSlug }: { currentSlug: string }) {
 // ── Bottom Related Grid ───────────────────────────────────────────────────────
 export function RelatedPostsGrid({ currentSlug }: { currentSlug: string }) {
   const related = getRelatedPosts(currentSlug, 4);
+  const packageLink = getPackageLinkForSlug(currentSlug);
 
   return (
     <section className="mt-16 pt-12 border-t border-stone-200">
+      {/* Plan a Trip CTA — visible on mobile, where the sticky sidebar CTA is hidden */}
+      {packageLink && (
+        <div className="mb-12 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 bg-gradient-to-br from-forest-900 to-stone-900 rounded-2xl p-6">
+          <div>
+            <h3
+              className="font-bold text-white text-lg mb-1"
+              style={{ fontFamily: "var(--font-playfair)" }}
+            >
+              Planning a trip to {packageLink.stateName}?
+            </h3>
+            <p
+              className="text-stone-300 text-sm"
+              style={{ fontFamily: "var(--font-dm-sans)" }}
+            >
+              Let Kudozz Club help you build the itinerary — planned in-house, pricing on request.
+            </p>
+          </div>
+          <Link
+            href={`/packages/${packageLink.packageSlug}`}
+            className="flex-shrink-0 px-6 py-3 text-center text-sm font-semibold gradient-forest text-white rounded-xl hover:opacity-90 transition-opacity whitespace-nowrap"
+            style={{ fontFamily: "var(--font-dm-sans)" }}
+          >
+            Plan a {packageLink.stateName} Trip →
+          </Link>
+        </div>
+      )}
+
       <div className="flex items-center justify-between mb-8">
         <h2
           className="text-2xl md:text-3xl font-bold text-stone-900"
