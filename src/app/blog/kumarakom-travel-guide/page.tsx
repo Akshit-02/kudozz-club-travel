@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -109,10 +110,10 @@ const KUMARAKOM_GEAR: GearSection[] = [
     subtitle: "Gear for birdwatching and backwater resort stays",
     emoji: "🦩",
     items: [
-      { name: "Binoculars", description: "Essential for the Kumarakom Bird Sanctuary, especially during the winter migratory season.", price: "₹1,999", rating: 4.5, reviews: "6.5k", image: "🔭", affiliateUrl: amazonSearchUrl("binoculars+birdwatching"), tag: "Sanctuary essential", tagColor: "bg-amber-100 text-amber-700", why: "Many bird species stay well back from the boardwalks — binoculars are the difference between a blur and a real sighting." },
-      { name: "Camera with Zoom Lens", description: "For capturing birdlife at the sanctuary and the lake scenery from a resort or houseboat.", price: "₹8,999+", rating: 4.4, reviews: "2.1k", image: "📷", affiliateUrl: amazonSearchUrl("camera+zoom+lens+wildlife"), tag: "Photography essential", tagColor: "bg-purple-100 text-purple-700", why: "A zoom lens turns distant wetland birds into a usable photo." },
-      { name: "Insect Repellent", description: "Wetland and lake-edge settings mean mosquitoes are a real presence, especially at dusk.", price: "₹199", rating: 4.3, reviews: "4.2k", image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Lake essential", tagColor: "bg-forest-100 text-forest-700", why: "Vembanad Lake's wetlands are prime mosquito territory in the evenings." },
-      { name: "Light, Breathable Clothing", description: "Kerala's coastal humidity is high year-round — loose cotton clothing is far more comfortable on a houseboat or resort deck.", price: "₹799", rating: 4.4, reviews: "3.5k", image: "👕", affiliateUrl: amazonSearchUrl("breathable+cotton+travel+clothing"), tag: "Comfort essential", tagColor: "bg-sky-100 text-sky-700", why: "Humidity around the lake can be intense, especially in the afternoon." },
+      { name: "Binoculars", description: "Essential for the Kumarakom Bird Sanctuary, especially during the winter migratory season.", price: "₹1,999",  image: "🔭", affiliateUrl: amazonSearchUrl("binoculars+birdwatching"), tag: "Sanctuary essential", tagColor: "bg-amber-100 text-amber-700", why: "Many bird species stay well back from the boardwalks — binoculars are the difference between a blur and a real sighting." },
+      { name: "Camera with Zoom Lens", description: "For capturing birdlife at the sanctuary and the lake scenery from a resort or houseboat.", price: "₹8,999+",  image: "📷", affiliateUrl: amazonSearchUrl("camera+zoom+lens+wildlife"), tag: "Photography essential", tagColor: "bg-purple-100 text-purple-700", why: "A zoom lens turns distant wetland birds into a usable photo." },
+      { name: "Insect Repellent", description: "Wetland and lake-edge settings mean mosquitoes are a real presence, especially at dusk.", price: "₹199",  image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Lake essential", tagColor: "bg-forest-100 text-forest-700", why: "Vembanad Lake's wetlands are prime mosquito territory in the evenings." },
+      { name: "Light, Breathable Clothing", description: "Kerala's coastal humidity is high year-round — loose cotton clothing is far more comfortable on a houseboat or resort deck.", price: "₹799",  image: "👕", affiliateUrl: amazonSearchUrl("breathable+cotton+travel+clothing"), tag: "Comfort essential", tagColor: "bg-sky-100 text-sky-700", why: "Humidity around the lake can be intense, especially in the afternoon." },
     ],
   },
 ];
@@ -199,6 +200,8 @@ export default function KumarakomGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="kumarakom-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Kumarakom</h2>

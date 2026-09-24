@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -109,10 +110,10 @@ const TIRTHAN_GEAR: GearSection[] = [
     subtitle: "Gear for riverside stays and GHNP-edge walks",
     emoji: "🎣",
     items: [
-      { name: "Trekking Shoes", description: "Riverside trails and the walk to Chhoie Waterfall cross uneven, sometimes wet terrain.", price: "₹3,299", rating: 4.5, reviews: "6.8k", image: "🥾", affiliateUrl: amazonSearchUrl("trekking+shoes+men+women"), tag: "Trek essential", tagColor: "bg-amber-100 text-amber-700", why: "Wet rocks along the Tirthan River are a common source of slips for underprepared visitors." },
-      { name: "Insect Repellent", description: "Riverside forest terrain brings a real mosquito presence, especially at dusk.", price: "₹199", rating: 4.3, reviews: "4.2k", image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Forest essential", tagColor: "bg-forest-100 text-forest-700", why: "Homestay evenings by the river are prime mosquito hours." },
-      { name: "Rain Jacket", description: "Weather shifts quickly in this valley, even outside peak monsoon.", price: "₹899", rating: 4.4, reviews: "5.1k", image: "🧥", affiliateUrl: amazonSearchUrl("packable+rain+jacket+trekking"), tag: "Weather essential", tagColor: "bg-sky-100 text-sky-700", why: "Sudden showers are common given the valley's elevation and forest cover." },
-      { name: "Binoculars", description: "Useful for birdwatching along the GHNP buffer zone, where sightings are more reliable than rare-mammal spotting.", price: "₹1,999", rating: 4.5, reviews: "6.5k", image: "🔭", affiliateUrl: amazonSearchUrl("binoculars+wildlife+birdwatching"), tag: "Wildlife essential", tagColor: "bg-purple-100 text-purple-700", why: "Birdlife is genuinely rich here even when larger mammals stay hidden." },
+      { name: "Trekking Shoes", description: "Riverside trails and the walk to Chhoie Waterfall cross uneven, sometimes wet terrain.", price: "₹3,299",  image: "🥾", affiliateUrl: amazonSearchUrl("trekking+shoes+men+women"), tag: "Trek essential", tagColor: "bg-amber-100 text-amber-700", why: "Wet rocks along the Tirthan River are a common source of slips for underprepared visitors." },
+      { name: "Insect Repellent", description: "Riverside forest terrain brings a real mosquito presence, especially at dusk.", price: "₹199",  image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Forest essential", tagColor: "bg-forest-100 text-forest-700", why: "Homestay evenings by the river are prime mosquito hours." },
+      { name: "Rain Jacket", description: "Weather shifts quickly in this valley, even outside peak monsoon.", price: "₹899",  image: "🧥", affiliateUrl: amazonSearchUrl("packable+rain+jacket+trekking"), tag: "Weather essential", tagColor: "bg-sky-100 text-sky-700", why: "Sudden showers are common given the valley's elevation and forest cover." },
+      { name: "Binoculars", description: "Useful for birdwatching along the GHNP buffer zone, where sightings are more reliable than rare-mammal spotting.", price: "₹1,999",  image: "🔭", affiliateUrl: amazonSearchUrl("binoculars+wildlife+birdwatching"), tag: "Wildlife essential", tagColor: "bg-purple-100 text-purple-700", why: "Birdlife is genuinely rich here even when larger mammals stay hidden." },
     ],
   },
 ];
@@ -199,6 +200,8 @@ export default function TirthanValleyGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="tirthan-valley-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Tirthan Valley</h2>

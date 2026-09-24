@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -199,8 +200,6 @@ const MIZORAM_GEAR: GearSection[] = [
         description:
           "Aizawl's steep streets and the trail to Vantawng Falls' viewpoint both involve a lot of uphill and downhill walking.",
         price: "₹1,499",
-        rating: 4.4,
-        reviews: "8.2k",
         image: "👟",
         affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
         tag: "Sightseeing essential",
@@ -212,8 +211,6 @@ const MIZORAM_GEAR: GearSection[] = [
         description:
           "Mizoram receives some of the heaviest rainfall in Northeast India, with showers possible in almost any month.",
         price: "₹599",
-        rating: 4.3,
-        reviews: "4.6k",
         image: "🌂",
         affiliateUrl: amazonSearchUrl("rain+jacket+poncho+travel"),
         tag: "Weather essential",
@@ -225,8 +222,6 @@ const MIZORAM_GEAR: GearSection[] = [
         description:
           "Useful for forested sites like Murlen National Park and the trail around Vantawng Falls.",
         price: "₹199",
-        rating: 4.3,
-        reviews: "12k",
         image: "🦟",
         affiliateUrl: amazonSearchUrl("mosquito+repellent+travel"),
         tag: "Forest essential",
@@ -238,8 +233,6 @@ const MIZORAM_GEAR: GearSection[] = [
         description:
           "Useful for day trips to Champhai, Reiek, and Vantawng Falls, where charging infrastructure is sparse.",
         price: "₹1,299",
-        rating: 4.5,
-        reviews: "9.7k",
         image: "🔋",
         affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
         tag: "Day-trip essential",
@@ -251,8 +244,6 @@ const MIZORAM_GEAR: GearSection[] = [
         description:
           "Handy across long days visiting Aizawl's markets, Reiek, and the drive out to Champhai.",
         price: "₹699",
-        rating: 4.5,
-        reviews: "9.3k",
         image: "🍶",
         affiliateUrl: amazonSearchUrl("insulated+water+bottle+steel"),
         tag: "Everyday essential",
@@ -264,8 +255,6 @@ const MIZORAM_GEAR: GearSection[] = [
         description:
           "Worth having given the state's modest medical infrastructure outside Aizawl.",
         price: "₹599",
-        rating: 4.4,
-        reviews: "3.9k",
         image: "🩹",
         affiliateUrl: amazonSearchUrl("travel+first+aid+kit"),
         tag: "Small-town essential",
@@ -500,6 +489,8 @@ export default function MizoramGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="mizoram-travel-guide" />
 
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">

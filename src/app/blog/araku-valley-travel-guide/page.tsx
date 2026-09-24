@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -81,10 +82,10 @@ const tableOfContents = [
 const ARAKU_GEAR: GearSection[] = [{
   title: "Things Worth Carrying", subtitle: "Gear for the train journey and hill exploring", emoji: "☕",
   items: [
-    { name: "Light Warm Layer", description: "Araku's hill elevation means cooler mornings than the coastal plains below.", price: "₹1,499", rating: 4.4, reviews: "3.8k", image: "🧥", affiliateUrl: amazonSearchUrl("light+warm+layer+travel"), tag: "Hill essential", tagColor: "bg-sky-100 text-sky-700", why: "Temperature drops noticeably as the train climbs into the Eastern Ghats." },
-    { name: "Camera", description: "The train journey through 58 tunnels and bridges is genuinely one of India's most photogenic rail routes.", price: "₹—", rating: 4.5, reviews: "—", image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Train-ride essential", tagColor: "bg-amber-100 text-amber-700", why: "This is a trip people specifically plan around the scenery — don't miss capturing it." },
-    { name: "Comfortable Walking Shoes", description: "For exploring the coffee museum, tribal markets, and Padmapuram Gardens.", price: "₹1,999", rating: 4.4, reviews: "5.3k", image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-forest-100 text-forest-700", why: "Araku's sights are spread across the valley, best covered on foot in stretches." },
-    { name: "Insect Repellent", description: "Useful for the forested hill terrain around Araku and nearby waterfalls.", price: "₹199", rating: 4.3, reviews: "4.2k", image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Forest essential", tagColor: "bg-purple-100 text-purple-700", why: "The valley's forest cover and waterfall spray zones support a real mosquito presence." },
+    { name: "Light Warm Layer", description: "Araku's hill elevation means cooler mornings than the coastal plains below.", price: "₹1,499",  image: "🧥", affiliateUrl: amazonSearchUrl("light+warm+layer+travel"), tag: "Hill essential", tagColor: "bg-sky-100 text-sky-700", why: "Temperature drops noticeably as the train climbs into the Eastern Ghats." },
+    { name: "Camera", description: "The train journey through 58 tunnels and bridges is genuinely one of India's most photogenic rail routes.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Train-ride essential", tagColor: "bg-amber-100 text-amber-700", why: "This is a trip people specifically plan around the scenery — don't miss capturing it." },
+    { name: "Comfortable Walking Shoes", description: "For exploring the coffee museum, tribal markets, and Padmapuram Gardens.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-forest-100 text-forest-700", why: "Araku's sights are spread across the valley, best covered on foot in stretches." },
+    { name: "Insect Repellent", description: "Useful for the forested hill terrain around Araku and nearby waterfalls.", price: "₹199",  image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Forest essential", tagColor: "bg-purple-100 text-purple-700", why: "The valley's forest cover and waterfall spray zones support a real mosquito presence." },
   ],
 }];
 
@@ -164,6 +165,8 @@ export default function ArakuValleyGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="araku-valley-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Araku Valley</h2>

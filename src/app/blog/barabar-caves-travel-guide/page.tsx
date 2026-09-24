@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -107,10 +108,10 @@ const BARABAR_GEAR: GearSection[] = [
     subtitle: "Gear for cave exploration and rural site access",
     emoji: "🕳️",
     items: [
-      { name: "Torch/Flashlight", description: "Cave interiors are dark and lack electric lighting — essential for seeing the polished walls and any inscriptions clearly.", price: "₹399", rating: 4.4, reviews: "4.1k", image: "🔦", affiliateUrl: amazonSearchUrl("led+torch+flashlight+travel"), tag: "Cave essential", tagColor: "bg-amber-100 text-amber-700", why: "Without a light source, the caves' famous polished interior finish is hard to appreciate fully." },
-      { name: "Comfortable Walking Shoes", description: "For navigating the rocky, uneven approach to the caves.", price: "₹1,999", rating: 4.4, reviews: "5.3k", image: "🥾", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Site essential", tagColor: "bg-forest-100 text-forest-700", why: "The terrain around the granite outcrops is uneven and rocky." },
-      { name: "Sun Hat", description: "The site is exposed with little shade around the granite hills.", price: "₹399", rating: 4.3, reviews: "3.5k", image: "🧢", affiliateUrl: amazonSearchUrl("sun+hat+travel+outdoor"), tag: "Sun-protection essential", tagColor: "bg-sky-100 text-sky-700", why: "Little natural shade exists around the exposed granite outcrops." },
-      { name: "Reusable Water Bottle", description: "Facilities are minimal at this rural site — carry enough water for the visit.", price: "₹449", rating: 4.5, reviews: "6.2k", image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "Rural-site essential", tagColor: "bg-purple-100 text-purple-700", why: "There are few shops or facilities directly at this remote heritage site." },
+      { name: "Torch/Flashlight", description: "Cave interiors are dark and lack electric lighting — essential for seeing the polished walls and any inscriptions clearly.", price: "₹399",  image: "🔦", affiliateUrl: amazonSearchUrl("led+torch+flashlight+travel"), tag: "Cave essential", tagColor: "bg-amber-100 text-amber-700", why: "Without a light source, the caves' famous polished interior finish is hard to appreciate fully." },
+      { name: "Comfortable Walking Shoes", description: "For navigating the rocky, uneven approach to the caves.", price: "₹1,999",  image: "🥾", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Site essential", tagColor: "bg-forest-100 text-forest-700", why: "The terrain around the granite outcrops is uneven and rocky." },
+      { name: "Sun Hat", description: "The site is exposed with little shade around the granite hills.", price: "₹399",  image: "🧢", affiliateUrl: amazonSearchUrl("sun+hat+travel+outdoor"), tag: "Sun-protection essential", tagColor: "bg-sky-100 text-sky-700", why: "Little natural shade exists around the exposed granite outcrops." },
+      { name: "Reusable Water Bottle", description: "Facilities are minimal at this rural site — carry enough water for the visit.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "Rural-site essential", tagColor: "bg-purple-100 text-purple-700", why: "There are few shops or facilities directly at this remote heritage site." },
     ],
   },
 ];
@@ -197,6 +198,8 @@ export default function BarabarCavesGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="barabar-caves-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Barabar Caves</h2>

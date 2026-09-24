@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -155,8 +156,6 @@ const HISAR_GEAR: GearSection[] = [
         name: "Comfortable Walking Shoes",
         description: "For exploring the uneven ground and open courtyards of the Firoz Shah Palace Complex.",
         price: "₹1,999",
-        rating: 4.4,
-        reviews: "5.2k",
         image: "👟",
         affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
         tag: "Essential",
@@ -167,8 +166,6 @@ const HISAR_GEAR: GearSection[] = [
         name: "Sun Hat & Sunscreen",
         description: "Hisar sits on open plains with little natural shade around the heritage sites.",
         price: "₹599",
-        rating: 4.4,
-        reviews: "6.0k",
         image: "🧴",
         affiliateUrl: amazonSearchUrl("sun+hat+sunscreen+travel"),
         tag: "Essential",
@@ -179,8 +176,6 @@ const HISAR_GEAR: GearSection[] = [
         name: "Binoculars",
         description: "Useful if you're extending the trip toward blackbuck-viewing areas nearby.",
         price: "₹2,499",
-        rating: 4.5,
-        reviews: "6.1k",
         image: "🔭",
         affiliateUrl: amazonSearchUrl("binoculars+wildlife+viewing"),
         tag: "Optional",
@@ -191,8 +186,6 @@ const HISAR_GEAR: GearSection[] = [
         name: "Camera",
         description: "For the Tughlaq-era architecture and open plains landscapes around the city.",
         price: "—",
-        rating: 4.5,
-        reviews: "—",
         image: "📷",
         affiliateUrl: amazonSearchUrl("compact+camera+travel"),
         tag: "Recommended",
@@ -352,6 +345,8 @@ export default function HisarGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="hisar-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Hisar</h2>

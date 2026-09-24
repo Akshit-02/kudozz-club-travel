@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -109,10 +110,10 @@ const BEKAL_GEAR: GearSection[] = [
     subtitle: "Gear for fort ramparts and quiet North Kerala beaches",
     emoji: "🏰",
     items: [
-      { name: "Comfortable Walking Shoes", description: "Bekal Fort's ramparts and pathways involve a fair amount of walking on uneven laterite stone.", price: "₹1,999", rating: 4.4, reviews: "5.3k", image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Fort essential", tagColor: "bg-amber-100 text-amber-700", why: "The fort's stone paths and ramparts reward sturdy, comfortable footwear." },
-      { name: "Reef-Safe Sunscreen (SPF 50)", description: "Bekal's beach and fort ramparts both offer long stretches with little shade.", price: "₹599", rating: 4.5, reviews: "7.4k", image: "🧴", affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+SPF+50"), tag: "Sun essential", tagColor: "bg-sky-100 text-sky-700", why: "Fort visits often run through the hottest part of the day with minimal shade." },
-      { name: "Sun Hat", description: "Useful for both the open fort ramparts and beach time.", price: "₹399", rating: 4.4, reviews: "4.5k", image: "🧢", affiliateUrl: amazonSearchUrl("sun+hat+travel+outdoor"), tag: "All-day essential", tagColor: "bg-purple-100 text-purple-700", why: "Shade is limited across most of Bekal's main sights." },
-      { name: "Swimwear & Quick-Dry Towel", description: "For Bekal Beach and Kappil Beach, both good for a relaxed swim outside monsoon season.", price: "₹699", rating: 4.4, reviews: "3.9k", image: "🏖️", affiliateUrl: amazonSearchUrl("quick+dry+travel+towel"), tag: "Beach essential", tagColor: "bg-forest-100 text-forest-700", why: "Bekal's beaches are genuinely swimmable outside the monsoon months." },
+      { name: "Comfortable Walking Shoes", description: "Bekal Fort's ramparts and pathways involve a fair amount of walking on uneven laterite stone.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Fort essential", tagColor: "bg-amber-100 text-amber-700", why: "The fort's stone paths and ramparts reward sturdy, comfortable footwear." },
+      { name: "Reef-Safe Sunscreen (SPF 50)", description: "Bekal's beach and fort ramparts both offer long stretches with little shade.", price: "₹599",  image: "🧴", affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+SPF+50"), tag: "Sun essential", tagColor: "bg-sky-100 text-sky-700", why: "Fort visits often run through the hottest part of the day with minimal shade." },
+      { name: "Sun Hat", description: "Useful for both the open fort ramparts and beach time.", price: "₹399",  image: "🧢", affiliateUrl: amazonSearchUrl("sun+hat+travel+outdoor"), tag: "All-day essential", tagColor: "bg-purple-100 text-purple-700", why: "Shade is limited across most of Bekal's main sights." },
+      { name: "Swimwear & Quick-Dry Towel", description: "For Bekal Beach and Kappil Beach, both good for a relaxed swim outside monsoon season.", price: "₹699",  image: "🏖️", affiliateUrl: amazonSearchUrl("quick+dry+travel+towel"), tag: "Beach essential", tagColor: "bg-forest-100 text-forest-700", why: "Bekal's beaches are genuinely swimmable outside the monsoon months." },
     ],
   },
 ];
@@ -199,6 +200,8 @@ export default function BekalGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="bekal-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Bekal</h2>

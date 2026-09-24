@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -177,8 +178,6 @@ const MUNNAR_GEAR: GearSection[] = [
         description:
           "Mornings and evenings at 1,600m+ get genuinely cool for a tropical state — a packable fleece or windbreaker earns its space for sunrise viewpoints and jeep rides.",
         price: "₹1,299",
-        rating: 4.5,
-        reviews: "6.2k",
         image: "🧥",
         affiliateUrl: amazonSearchUrl("light+fleece+jacket+travel"),
         tag: "Cool-mornings essential",
@@ -190,8 +189,6 @@ const MUNNAR_GEAR: GearSection[] = [
         description:
           "Tea-estate paths, Eravikulam's shuttle-to-viewpoint walk, and uneven ground at Top Station all call for grippy, comfortable footwear over sandals.",
         price: "₹1,799",
-        rating: 4.4,
-        reviews: "8.9k",
         image: "👟",
         affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+hiking"),
         tag: "Everyday essential",
@@ -203,8 +200,6 @@ const MUNNAR_GEAR: GearSection[] = [
         description:
           "Munnar's weather shifts fast — even outside peak monsoon, a sudden shower on a viewpoint or plantation walk is common.",
         price: "₹999",
-        rating: 4.3,
-        reviews: "5.4k",
         image: "🌧️",
         affiliateUrl: amazonSearchUrl("packable+rain+jacket+travel"),
         tag: "Shoulder-season essential",
@@ -216,8 +211,6 @@ const MUNNAR_GEAR: GearSection[] = [
         description:
           "Useful for spotting the endangered Nilgiri Tahr at Eravikulam and for scanning the Western Ghats ridgelines from Top Station.",
         price: "₹1,499",
-        rating: 4.4,
-        reviews: "3.1k",
         image: "🔭",
         affiliateUrl: amazonSearchUrl("compact+binoculars+travel"),
         tag: "Wildlife-spotting pick",
@@ -229,8 +222,6 @@ const MUNNAR_GEAR: GearSection[] = [
         description:
           "Long days moving between tea estates, dams, and viewpoints add up — a proper bottle beats buying plastic at every stop.",
         price: "₹449",
-        rating: 4.5,
-        reviews: "7.0k",
         image: "💧",
         affiliateUrl: amazonSearchUrl("insulated+reusable+water+bottle"),
         tag: "Everyday essential",
@@ -242,8 +233,6 @@ const MUNNAR_GEAR: GearSection[] = [
         description:
           "Hilly terrain means longer drives between stops — a power bank keeps navigation and cameras running through a full sightseeing day.",
         price: "₹899",
-        rating: 4.3,
-        reviews: "9.5k",
         image: "🔋",
         affiliateUrl: amazonSearchUrl("power+bank+10000mah"),
         tag: "Road-trip essential",
@@ -406,6 +395,8 @@ export default function MunnarGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="munnar-travel-guide" />
 
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">

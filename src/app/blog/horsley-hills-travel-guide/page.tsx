@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -82,10 +83,10 @@ const tableOfContents = [
 const HORSLEY_GEAR: GearSection[] = [{
   title: "Things Worth Carrying", subtitle: "Gear for a relaxed hill-station break", emoji: "⛰️",
   items: [
-    { name: "Light Warm Layers", description: "Evenings at this elevation are noticeably cooler than the surrounding plains.", price: "₹1,499", rating: 4.4, reviews: "3.8k", image: "🧥", affiliateUrl: amazonSearchUrl("light+warm+jacket+travel"), tag: "Evening essential", tagColor: "bg-sky-100 text-sky-700", why: "The temperature drop after sunset surprises many first-time visitors." },
-    { name: "Comfortable Walking Shoes", description: "For the short walks to Gali Banda viewpoint and around Kalyani Dam.", price: "₹1,999", rating: 4.4, reviews: "5.3k", image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Sightseeing essential", tagColor: "bg-amber-100 text-amber-700", why: "The viewpoint paths are gentle but uneven in places." },
-    { name: "Camera", description: "For the panoramic Gali Banda viewpoint and Kalyani Dam scenery.", price: "₹—", rating: 4.5, reviews: "—", image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-forest-100 text-forest-700", why: "The viewpoints here are genuinely photogenic for a lesser-known hill station." },
-    { name: "Reusable Water Bottle", description: "Useful for the walking sections between sights.", price: "₹449", rating: 4.5, reviews: "6.2k", image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "All-day essential", tagColor: "bg-purple-100 text-purple-700", why: "Facilities are modest given the hill station's small scale." },
+    { name: "Light Warm Layers", description: "Evenings at this elevation are noticeably cooler than the surrounding plains.", price: "₹1,499",  image: "🧥", affiliateUrl: amazonSearchUrl("light+warm+jacket+travel"), tag: "Evening essential", tagColor: "bg-sky-100 text-sky-700", why: "The temperature drop after sunset surprises many first-time visitors." },
+    { name: "Comfortable Walking Shoes", description: "For the short walks to Gali Banda viewpoint and around Kalyani Dam.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Sightseeing essential", tagColor: "bg-amber-100 text-amber-700", why: "The viewpoint paths are gentle but uneven in places." },
+    { name: "Camera", description: "For the panoramic Gali Banda viewpoint and Kalyani Dam scenery.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-forest-100 text-forest-700", why: "The viewpoints here are genuinely photogenic for a lesser-known hill station." },
+    { name: "Reusable Water Bottle", description: "Useful for the walking sections between sights.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "All-day essential", tagColor: "bg-purple-100 text-purple-700", why: "Facilities are modest given the hill station's small scale." },
   ],
 }];
 
@@ -165,6 +166,8 @@ export default function HorsleyHillsGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="horsley-hills-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Horsley Hills</h2>

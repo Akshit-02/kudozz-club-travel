@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -82,10 +83,10 @@ const tableOfContents = [
 const DIRANG_GEAR: GearSection[] = [{
   title: "Things Worth Carrying", subtitle: "Gear for hot springs and valley walks", emoji: "♨️",
   items: [
-    { name: "Warm Layers", description: "Dirang's valley setting is cooler than the plains but milder than Tawang — light-to-mid warm layers work well.", price: "₹1,999", rating: 4.4, reviews: "4.7k", image: "🧥", affiliateUrl: amazonSearchUrl("warm+jacket+hill+travel"), tag: "Trip essential", tagColor: "bg-sky-100 text-sky-700", why: "Evenings in the valley are noticeably cool year-round." },
-    { name: "Swimwear", description: "For a soak at Dirang's natural hot springs.", price: "₹599", rating: 4.4, reviews: "3.1k", image: "🩱", affiliateUrl: amazonSearchUrl("swimwear+travel"), tag: "Hot-spring essential", tagColor: "bg-amber-100 text-amber-700", why: "The hot springs are a genuine local highlight worth planning for." },
-    { name: "Comfortable Walking Shoes", description: "For exploring Dirang Dzong and the surrounding orchards and valley paths.", price: "₹1,999", rating: 4.4, reviews: "5.3k", image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-forest-100 text-forest-700", why: "Terrain around the dzong and orchards is uneven in places." },
-    { name: "Binoculars", description: "Useful if visiting Sangti Valley during crane-wintering season.", price: "₹1,999", rating: 4.5, reviews: "6.5k", image: "🔭", affiliateUrl: amazonSearchUrl("binoculars+birdwatching+travel"), tag: "Optional", tagColor: "bg-purple-100 text-purple-700", why: "Worth bringing if birdwatching interests you, though sightings aren't guaranteed." },
+    { name: "Warm Layers", description: "Dirang's valley setting is cooler than the plains but milder than Tawang — light-to-mid warm layers work well.", price: "₹1,999",  image: "🧥", affiliateUrl: amazonSearchUrl("warm+jacket+hill+travel"), tag: "Trip essential", tagColor: "bg-sky-100 text-sky-700", why: "Evenings in the valley are noticeably cool year-round." },
+    { name: "Swimwear", description: "For a soak at Dirang's natural hot springs.", price: "₹599",  image: "🩱", affiliateUrl: amazonSearchUrl("swimwear+travel"), tag: "Hot-spring essential", tagColor: "bg-amber-100 text-amber-700", why: "The hot springs are a genuine local highlight worth planning for." },
+    { name: "Comfortable Walking Shoes", description: "For exploring Dirang Dzong and the surrounding orchards and valley paths.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-forest-100 text-forest-700", why: "Terrain around the dzong and orchards is uneven in places." },
+    { name: "Binoculars", description: "Useful if visiting Sangti Valley during crane-wintering season.", price: "₹1,999",  image: "🔭", affiliateUrl: amazonSearchUrl("binoculars+birdwatching+travel"), tag: "Optional", tagColor: "bg-purple-100 text-purple-700", why: "Worth bringing if birdwatching interests you, though sightings aren't guaranteed." },
   ],
 }];
 
@@ -165,6 +166,8 @@ export default function DirangGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="dirang-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Dirang</h2>

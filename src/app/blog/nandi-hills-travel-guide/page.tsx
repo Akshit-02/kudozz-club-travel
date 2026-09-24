@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -164,8 +165,6 @@ const NANDI_HILLS_GEAR: GearSection[] = [
         name: "Light Warm Layer / Jacket",
         description: "The summit is noticeably cool before sunrise, even though Bengaluru itself rarely feels cold.",
         price: "₹1,299",
-        rating: 4.4,
-        reviews: "4.6k",
         image: "🧥",
         affiliateUrl: amazonSearchUrl("light+jacket+travel+outdoor"),
         tag: "Pre-dawn essential",
@@ -176,8 +175,6 @@ const NANDI_HILLS_GEAR: GearSection[] = [
         name: "Comfortable Walking Shoes",
         description: "For the short walk from the parking area to the summit viewpoints, including some uneven fort terrain.",
         price: "₹1,999",
-        rating: 4.4,
-        reviews: "5.3k",
         image: "👟",
         affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
         tag: "Comfort essential",
@@ -188,8 +185,6 @@ const NANDI_HILLS_GEAR: GearSection[] = [
         name: "Insulated Flask",
         description: "For carrying hot coffee or tea on the pre-dawn drive and while waiting for sunrise at the top.",
         price: "₹699",
-        rating: 4.5,
-        reviews: "3.9k",
         image: "☕",
         affiliateUrl: amazonSearchUrl("insulated+flask+travel"),
         tag: "Pre-dawn essential",
@@ -200,8 +195,6 @@ const NANDI_HILLS_GEAR: GearSection[] = [
         name: "Power Bank",
         description: "For the drive and for photography at the summit — a dead phone battery is a common pre-dawn regret.",
         price: "₹899",
-        rating: 4.4,
-        reviews: "6.1k",
         image: "🔋",
         affiliateUrl: amazonSearchUrl("power+bank+travel"),
         tag: "Travel essential",
@@ -334,6 +327,8 @@ export default function NandiHillsGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="nandi-hills-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Nandi Hills</h2>

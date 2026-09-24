@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -82,10 +83,10 @@ const tableOfContents = [
 const POLO_FOREST_GEAR: GearSection[] = [{
   title: "Things Worth Carrying", subtitle: "Gear for forest walks and camping among the ruins", emoji: "🌲",
   items: [
-    { name: "Sturdy Walking Shoes", description: "For navigating forest paths and uneven terrain around the scattered temple ruins.", price: "₹2,499", rating: 4.4, reviews: "5.6k", image: "🥾", affiliateUrl: amazonSearchUrl("sturdy+trekking+shoes+forest"), tag: "Trip essential", tagColor: "bg-amber-100 text-amber-700", why: "Paths through the forest and around the ruins are uneven and often overgrown." },
-    { name: "Insect Repellent", description: "Dense forest and riverside settings make mosquitoes and insects a real presence, especially at dusk.", price: "₹199", rating: 4.3, reviews: "4.2k", image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Forest essential", tagColor: "bg-forest-100 text-forest-700", why: "This is genuinely dense forest terrain, unusual for Gujarat, and insects are more of a factor here than at most of the state's other destinations." },
-    { name: "Camping Tent & Sleeping Bag", description: "For an overnight stay given the area's limited formal accommodation.", price: "₹3,499", rating: 4.4, reviews: "2.8k", image: "⛺", affiliateUrl: amazonSearchUrl("camping+tent+sleeping+bag+set"), tag: "Overnight essential", tagColor: "bg-sky-100 text-sky-700", why: "Camping is genuinely one of the best ways to experience Polo Forest given the minimal nearby lodging." },
-    { name: "Reusable Water Bottle & Supplies", description: "Facilities are minimal — carry sufficient water and food for the duration of your visit.", price: "₹449", rating: 4.5, reviews: "6.2k", image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "Non-negotiable", tagColor: "bg-purple-100 text-purple-700", why: "This is a genuinely remote, low-infrastructure destination — self-sufficiency matters." },
+    { name: "Sturdy Walking Shoes", description: "For navigating forest paths and uneven terrain around the scattered temple ruins.", price: "₹2,499",  image: "🥾", affiliateUrl: amazonSearchUrl("sturdy+trekking+shoes+forest"), tag: "Trip essential", tagColor: "bg-amber-100 text-amber-700", why: "Paths through the forest and around the ruins are uneven and often overgrown." },
+    { name: "Insect Repellent", description: "Dense forest and riverside settings make mosquitoes and insects a real presence, especially at dusk.", price: "₹199",  image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Forest essential", tagColor: "bg-forest-100 text-forest-700", why: "This is genuinely dense forest terrain, unusual for Gujarat, and insects are more of a factor here than at most of the state's other destinations." },
+    { name: "Camping Tent & Sleeping Bag", description: "For an overnight stay given the area's limited formal accommodation.", price: "₹3,499",  image: "⛺", affiliateUrl: amazonSearchUrl("camping+tent+sleeping+bag+set"), tag: "Overnight essential", tagColor: "bg-sky-100 text-sky-700", why: "Camping is genuinely one of the best ways to experience Polo Forest given the minimal nearby lodging." },
+    { name: "Reusable Water Bottle & Supplies", description: "Facilities are minimal — carry sufficient water and food for the duration of your visit.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "Non-negotiable", tagColor: "bg-purple-100 text-purple-700", why: "This is a genuinely remote, low-infrastructure destination — self-sufficiency matters." },
   ],
 }];
 
@@ -165,6 +166,8 @@ export default function PoloForestGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="polo-forest-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Polo Forest</h2>

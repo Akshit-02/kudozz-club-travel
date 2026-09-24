@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -107,10 +108,10 @@ const AHMEDABAD_GEAR: GearSection[] = [
     subtitle: "Gear for the old city walk and Gujarati food trail",
     emoji: "🏛️",
     items: [
-      { name: "Comfortable Walking Shoes", description: "The old city's pols are best explored on foot, with narrow lanes and uneven stone paths.", price: "₹1,999", rating: 4.4, reviews: "5.6k", image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Heritage-walk essential", tagColor: "bg-amber-100 text-amber-700", why: "Ahmedabad's old city is best experienced slowly, on foot, through its dense lanes." },
-      { name: "Modest Clothing", description: "For visiting mosques, temples, and Sabarmati Ashram respectfully.", price: "₹599", rating: 4.4, reviews: "3.9k", image: "👕", affiliateUrl: amazonSearchUrl("modest+travel+clothing"), tag: "Religious-site essential", tagColor: "bg-purple-100 text-purple-700", why: "Several of Ahmedabad's key sights are active religious or memorial spaces." },
-      { name: "Reusable Water Bottle", description: "Ahmedabad's dry heat, especially outside winter, makes hydration a real priority.", price: "₹449", rating: 4.5, reviews: "6.2k", image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "Heat essential", tagColor: "bg-sky-100 text-sky-700", why: "Long walking days in the old city add up fast in Gujarat's climate." },
-      { name: "Sun Hat", description: "For daytime sightseeing, especially outside the cooler winter months.", price: "₹399", rating: 4.4, reviews: "4.0k", image: "🧢", affiliateUrl: amazonSearchUrl("sun+hat+travel"), tag: "Sun essential", tagColor: "bg-forest-100 text-forest-700", why: "Ahmedabad's sun is intense for much of the year outside Oct-Mar." },
+      { name: "Comfortable Walking Shoes", description: "The old city's pols are best explored on foot, with narrow lanes and uneven stone paths.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Heritage-walk essential", tagColor: "bg-amber-100 text-amber-700", why: "Ahmedabad's old city is best experienced slowly, on foot, through its dense lanes." },
+      { name: "Modest Clothing", description: "For visiting mosques, temples, and Sabarmati Ashram respectfully.", price: "₹599",  image: "👕", affiliateUrl: amazonSearchUrl("modest+travel+clothing"), tag: "Religious-site essential", tagColor: "bg-purple-100 text-purple-700", why: "Several of Ahmedabad's key sights are active religious or memorial spaces." },
+      { name: "Reusable Water Bottle", description: "Ahmedabad's dry heat, especially outside winter, makes hydration a real priority.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "Heat essential", tagColor: "bg-sky-100 text-sky-700", why: "Long walking days in the old city add up fast in Gujarat's climate." },
+      { name: "Sun Hat", description: "For daytime sightseeing, especially outside the cooler winter months.", price: "₹399",  image: "🧢", affiliateUrl: amazonSearchUrl("sun+hat+travel"), tag: "Sun essential", tagColor: "bg-forest-100 text-forest-700", why: "Ahmedabad's sun is intense for much of the year outside Oct-Mar." },
     ],
   },
 ];
@@ -197,6 +198,8 @@ export default function AhmedabadGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="ahmedabad-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Ahmedabad</h2>

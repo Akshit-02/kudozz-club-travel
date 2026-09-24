@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -82,10 +83,10 @@ const tableOfContents = [
 const PAKKE_GEAR: GearSection[] = [{
   title: "Things Worth Carrying", subtitle: "Gear focused on birding and foothill forest safaris", emoji: "🦤",
   items: [
-    { name: "Binoculars", description: "Pakke's real strength is its hornbill and general bird diversity — binoculars matter more here than at most tiger-focused reserves.", price: "₹1,999", rating: 4.5, reviews: "6.5k", image: "🔭", affiliateUrl: amazonSearchUrl("binoculars+birdwatching+wildlife"), tag: "Non-negotiable", tagColor: "bg-red-100 text-red-700", why: "Hornbill spotting is Pakke's headline activity — binoculars are essential, not optional." },
-    { name: "Telephoto Camera / Lens", description: "For photographing hornbills and other birdlife at a respectful distance.", price: "₹8,999+", rating: 4.4, reviews: "2.1k", image: "📷", affiliateUrl: amazonSearchUrl("telephoto+lens+wildlife+photography"), tag: "Photography essential", tagColor: "bg-purple-100 text-purple-700", why: "A longer lens makes a real difference for bird photography in dense forest." },
-    { name: "Neutral/Khaki Clothing", description: "Standard safari practice, less disruptive to wildlife in the foothill forest terrain.", price: "₹1,299", rating: 4.4, reviews: "3.8k", image: "🧥", affiliateUrl: amazonSearchUrl("khaki+safari+clothing"), tag: "Safari essential", tagColor: "bg-amber-100 text-amber-700", why: "Bright colors are more noticeable to wildlife in dense forest cover." },
-    { name: "Insect Repellent", description: "Pakke's foothill forest is genuinely humid and insect-heavy.", price: "₹199", rating: 4.3, reviews: "4.2k", image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+forest"), tag: "Forest essential", tagColor: "bg-forest-100 text-forest-700", why: "Dense, humid forest terrain makes this genuinely necessary." },
+    { name: "Binoculars", description: "Pakke's real strength is its hornbill and general bird diversity — binoculars matter more here than at most tiger-focused reserves.", price: "₹1,999",  image: "🔭", affiliateUrl: amazonSearchUrl("binoculars+birdwatching+wildlife"), tag: "Non-negotiable", tagColor: "bg-red-100 text-red-700", why: "Hornbill spotting is Pakke's headline activity — binoculars are essential, not optional." },
+    { name: "Telephoto Camera / Lens", description: "For photographing hornbills and other birdlife at a respectful distance.", price: "₹8,999+",  image: "📷", affiliateUrl: amazonSearchUrl("telephoto+lens+wildlife+photography"), tag: "Photography essential", tagColor: "bg-purple-100 text-purple-700", why: "A longer lens makes a real difference for bird photography in dense forest." },
+    { name: "Neutral/Khaki Clothing", description: "Standard safari practice, less disruptive to wildlife in the foothill forest terrain.", price: "₹1,299",  image: "🧥", affiliateUrl: amazonSearchUrl("khaki+safari+clothing"), tag: "Safari essential", tagColor: "bg-amber-100 text-amber-700", why: "Bright colors are more noticeable to wildlife in dense forest cover." },
+    { name: "Insect Repellent", description: "Pakke's foothill forest is genuinely humid and insect-heavy.", price: "₹199",  image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+forest"), tag: "Forest essential", tagColor: "bg-forest-100 text-forest-700", why: "Dense, humid forest terrain makes this genuinely necessary." },
   ],
 }];
 
@@ -165,6 +166,8 @@ export default function PakkeGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="pakke-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Pakke</h2>

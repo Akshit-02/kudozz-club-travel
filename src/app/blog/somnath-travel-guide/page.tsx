@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -107,10 +108,10 @@ const SOMNATH_GEAR: GearSection[] = [
     subtitle: "Gear for temple visits and the seafront evening show",
     emoji: "🛕",
     items: [
-      { name: "Modest Cotton Clothing", description: "Somnath is an active pilgrimage site expecting covered shoulders and legs throughout the temple complex.", price: "₹599", rating: 4.4, reviews: "3.9k", image: "👕", affiliateUrl: amazonSearchUrl("modest+travel+clothing+cotton"), tag: "Temple essential", tagColor: "bg-purple-100 text-purple-700", why: "Somnath is a genuinely active worship site, not a sightseeing-only monument." },
-      { name: "Comfortable Walking Shoes", description: "For the temple grounds, museum, and a walk along the seafront promenade.", price: "₹1,999", rating: 4.4, reviews: "5.3k", image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-amber-100 text-amber-700", why: "Stone temple grounds and the seafront walk add up over a full day." },
-      { name: "Light Shawl / Stole", description: "Useful as an extra layer of modesty inside the temple and for cooler evening sea breezes during the light show.", price: "₹399", rating: 4.4, reviews: "3.2k", image: "🧣", affiliateUrl: amazonSearchUrl("light+shawl+travel+stole"), tag: "Temple essential", tagColor: "bg-sky-100 text-sky-700", why: "Sea breeze in the evening can be cooler than the daytime heat suggests." },
-      { name: "Reusable Water Bottle", description: "For a full day covering the temple, museum, Triveni Sangam, and Bhalka Tirth.", price: "₹449", rating: 4.5, reviews: "6.2k", image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "Day-trip essential", tagColor: "bg-forest-100 text-forest-700", why: "Coastal Gujarat heat makes hydration important even in cooler months." },
+      { name: "Modest Cotton Clothing", description: "Somnath is an active pilgrimage site expecting covered shoulders and legs throughout the temple complex.", price: "₹599",  image: "👕", affiliateUrl: amazonSearchUrl("modest+travel+clothing+cotton"), tag: "Temple essential", tagColor: "bg-purple-100 text-purple-700", why: "Somnath is a genuinely active worship site, not a sightseeing-only monument." },
+      { name: "Comfortable Walking Shoes", description: "For the temple grounds, museum, and a walk along the seafront promenade.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-amber-100 text-amber-700", why: "Stone temple grounds and the seafront walk add up over a full day." },
+      { name: "Light Shawl / Stole", description: "Useful as an extra layer of modesty inside the temple and for cooler evening sea breezes during the light show.", price: "₹399",  image: "🧣", affiliateUrl: amazonSearchUrl("light+shawl+travel+stole"), tag: "Temple essential", tagColor: "bg-sky-100 text-sky-700", why: "Sea breeze in the evening can be cooler than the daytime heat suggests." },
+      { name: "Reusable Water Bottle", description: "For a full day covering the temple, museum, Triveni Sangam, and Bhalka Tirth.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "Day-trip essential", tagColor: "bg-forest-100 text-forest-700", why: "Coastal Gujarat heat makes hydration important even in cooler months." },
     ],
   },
 ];
@@ -197,6 +198,8 @@ export default function SomnathGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="somnath-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Somnath</h2>

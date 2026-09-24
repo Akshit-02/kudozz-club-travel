@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -213,8 +214,6 @@ const OLD_DELHI_GEAR: GearSection[] = [
         description:
           "Red Fort, Jama Masjid, and the haveli lanes around Chandni Chowk all involve extended walking on uneven stone, packed crowds, and the occasional puddle or paan stain.",
         price: "₹1,499",
-        rating: 4.4,
-        reviews: "8.2k",
         image: "👟",
         affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
         tag: "Old Delhi essential",
@@ -226,8 +225,6 @@ const OLD_DELHI_GEAR: GearSection[] = [
         description:
           "A zipped bag worn across the body, kept in front in dense crowds, is the simplest way to protect your phone and wallet in Old Delhi's busiest lanes.",
         price: "₹999",
-        rating: 4.4,
-        reviews: "5.1k",
         image: "🎒",
         affiliateUrl: amazonSearchUrl("anti+theft+crossbody+travel+bag"),
         tag: "Crowd-safety essential",
@@ -239,8 +236,6 @@ const OLD_DELHI_GEAR: GearSection[] = [
         description:
           "Old Delhi's lanes are shaded but crowded, and there's no shortage of chai and lassi stalls — a bottle still saves money and plastic across a long walking day.",
         price: "₹699",
-        rating: 4.5,
-        reviews: "9.3k",
         image: "🍶",
         affiliateUrl: amazonSearchUrl("insulated+water+bottle+steel"),
         tag: "Everyday essential",
@@ -252,8 +247,6 @@ const OLD_DELHI_GEAR: GearSection[] = [
         description:
           "The Chandni Chowk food walk is one of Old Delhi's biggest draws — worth carrying basic digestive medication if you're trying street food extensively for the first time.",
         price: "₹399",
-        rating: 4.3,
-        reviews: "4.8k",
         image: "💊",
         affiliateUrl: amazonSearchUrl("travel+digestive+medicine+kit"),
         tag: "Street-food essential",
@@ -265,8 +258,6 @@ const OLD_DELHI_GEAR: GearSection[] = [
         description:
           "Useful for a long day of navigation, photos, and metro tickets between Old Delhi's monuments, markets, and the connecting metro stations.",
         price: "₹1,299",
-        rating: 4.5,
-        reviews: "9.7k",
         image: "🔋",
         affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
         tag: "City-day essential",
@@ -278,8 +269,6 @@ const OLD_DELHI_GEAR: GearSection[] = [
         description:
           "Doubles as a headscarf for Jama Masjid and a light shoulder cover for Gurudwara Sis Ganj Sahib — useful to have on hand rather than borrowing one at the entrance.",
         price: "₹349",
-        rating: 4.2,
-        reviews: "3.6k",
         image: "🧣",
         affiliateUrl: amazonSearchUrl("cotton+scarf+stole+travel"),
         tag: "Religious-site essential",
@@ -526,6 +515,8 @@ export default function OldDelhiGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="old-delhi-travel-guide" />
 
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">

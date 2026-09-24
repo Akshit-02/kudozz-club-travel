@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -201,8 +202,6 @@ const SIKKIM_GEAR: GearSection[] = [
         description:
           "Tsomgo Lake (3,753m) and Nathula Pass (4,310m) get bitterly cold year-round, and Yumthang Valley isn't far behind — far colder than Gangtok itself.",
         price: "₹2,999",
-        rating: 4.5,
-        reviews: "8.1k",
         image: "🧥",
         affiliateUrl: amazonSearchUrl("heavy+winter+jacket+himalayan+trekking"),
         tag: "High-altitude essential",
@@ -214,8 +213,6 @@ const SIKKIM_GEAR: GearSection[] = [
         description:
           "Snow, ice, and uneven terrain are common at Tsomgo Lake, Nathula, and Yumthang Valley, even outside the harshest winter months.",
         price: "₹2,999",
-        rating: 4.5,
-        reviews: "9.1k",
         image: "🥾",
         affiliateUrl: amazonSearchUrl("trekking+shoes+waterproof+himalayan"),
         tag: "Terrain essential",
@@ -227,8 +224,6 @@ const SIKKIM_GEAR: GearSection[] = [
         description:
           "Essential for the exposed viewpoints at Nathula Pass and Gurudongmar Lake, where wind chill makes the cold feel far more severe.",
         price: "₹599",
-        rating: 4.4,
-        reviews: "6.2k",
         image: "🧤",
         affiliateUrl: amazonSearchUrl("winter+gloves+woollen+cap+set"),
         tag: "High-pass essential",
@@ -240,8 +235,6 @@ const SIKKIM_GEAR: GearSection[] = [
         description:
           "Nathula Pass and Gurudongmar Lake both sit above 4,000m — mild altitude symptoms are common, especially without acclimatisation.",
         price: "₹399",
-        rating: 4.3,
-        reviews: "5.2k",
         image: "💊",
         affiliateUrl: amazonSearchUrl("altitude+sickness+medicine+diamox"),
         tag: "High-altitude essential",
@@ -253,8 +246,6 @@ const SIKKIM_GEAR: GearSection[] = [
         description:
           "Useful for long mountain drives to North Sikkim, where charging points are sparse beyond Lachung and Lachen.",
         price: "₹1,299",
-        rating: 4.5,
-        reviews: "9.7k",
         image: "🔋",
         affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
         tag: "Mountain essential",
@@ -266,8 +257,6 @@ const SIKKIM_GEAR: GearSection[] = [
         description:
           "Required in physical form for the Protected/Restricted Area Permits needed for Nathula, Tsomgo, and North Sikkim.",
         price: "N/A",
-        rating: 4.5,
-        reviews: "N/A",
         image: "🪪",
         affiliateUrl: amazonSearchUrl("passport+photo+printer+travel"),
         tag: "Permit essential",
@@ -503,6 +492,8 @@ export default function SikkimGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="sikkim-travel-guide" />
 
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">

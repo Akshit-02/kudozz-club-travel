@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -161,8 +162,6 @@ const WAYANAD_GEAR: GearSection[] = [
         description:
           "Essential for the Chembra Peak climb and the steps up to Edakkal Caves — both involve uneven, sometimes slippery terrain.",
         price: "₹3,299",
-        rating: 4.5,
-        reviews: "6.8k",
         image: "🥾",
         affiliateUrl: amazonSearchUrl("trekking+shoes+men+women"),
         tag: "Trek essential",
@@ -174,8 +173,6 @@ const WAYANAD_GEAR: GearSection[] = [
         description:
           "Wayanad's forested hills see sudden showers well outside peak monsoon — a packable rain layer keeps plans on track.",
         price: "₹899",
-        rating: 4.4,
-        reviews: "5.1k",
         image: "🧥",
         affiliateUrl: amazonSearchUrl("packable+rain+jacket+trekking"),
         tag: "Weather essential",
@@ -187,8 +184,6 @@ const WAYANAD_GEAR: GearSection[] = [
         description:
           "For wildlife safaris in Wayanad Wildlife Sanctuary and birdwatching around Pookode Lake and the plantation estates.",
         price: "₹1,999",
-        rating: 4.5,
-        reviews: "6.5k",
         image: "🔭",
         affiliateUrl: amazonSearchUrl("binoculars+wildlife+safari"),
         tag: "Safari essential",
@@ -200,8 +195,6 @@ const WAYANAD_GEAR: GearSection[] = [
         description:
           "Forest trails, waterfall spray zones, and plantation walks all bring you close to mosquito habitat, especially at dusk.",
         price: "₹199",
-        rating: 4.3,
-        reviews: "4.2k",
         image: "🦟",
         affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"),
         tag: "Forest essential",
@@ -213,8 +206,6 @@ const WAYANAD_GEAR: GearSection[] = [
         description:
           "Evenings and early mornings can get genuinely cool at Wayanad's elevation, especially December through February.",
         price: "₹1,299",
-        rating: 4.4,
-        reviews: "3.9k",
         image: "🧶",
         affiliateUrl: amazonSearchUrl("light+fleece+jacket+travel"),
         tag: "Comfort essential",
@@ -351,6 +342,8 @@ export default function WayanadGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="wayanad-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Wayanad</h2>

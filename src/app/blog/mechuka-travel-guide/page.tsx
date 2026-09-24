@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -175,8 +176,6 @@ const MECHUKA_GEAR: GearSection[] = [
         description:
           "Mechuka sits at altitude in a valley that stays cold outside peak summer — evenings and early mornings drop sharply regardless of season.",
         price: "₹2,999",
-        rating: 4.5,
-        reviews: "6.1k",
         image: "🧥",
         affiliateUrl: amazonSearchUrl("insulated+winter+jacket+trekking"),
         tag: "Non-negotiable",
@@ -188,8 +187,6 @@ const MECHUKA_GEAR: GearSection[] = [
         description:
           "Unpaved village paths and the approach to the old suspension bridge cross uneven, sometimes muddy terrain.",
         price: "₹2,499",
-        rating: 4.5,
-        reviews: "5.4k",
         image: "🥾",
         affiliateUrl: amazonSearchUrl("trekking+shoes+mountain"),
         tag: "Trek essential",
@@ -201,8 +198,6 @@ const MECHUKA_GEAR: GearSection[] = [
         description:
           "Electricity supply is inconsistent in this remote valley, and network coverage is patchy to nonexistent in stretches.",
         price: "₹1,799",
-        rating: 4.5,
-        reviews: "8.2k",
         image: "🔋",
         affiliateUrl: amazonSearchUrl("power+bank+20000mah+travel"),
         tag: "Off-grid essential",
@@ -214,8 +209,6 @@ const MECHUKA_GEAR: GearSection[] = [
         description:
           "Checkpoints along the route to Mechuka verify Inner Line Permits and identification physically — don't rely on a phone screen.",
         price: "₹—",
-        rating: 4.6,
-        reviews: "—",
         image: "📄",
         affiliateUrl: amazonSearchUrl("document+organizer+travel+pouch"),
         tag: "Border-zone essential",
@@ -227,8 +220,6 @@ const MECHUKA_GEAR: GearSection[] = [
         description:
           "The nearest well-equipped hospital is far from Mechuka — a compact kit for cuts, altitude headaches, and stomach upsets is sensible.",
         price: "₹599",
-        rating: 4.4,
-        reviews: "3.9k",
         image: "🩹",
         affiliateUrl: amazonSearchUrl("travel+first+aid+kit"),
         tag: "Remote-travel essential",
@@ -410,6 +401,8 @@ export default function MechukaGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="mechuka-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Mechuka</h2>

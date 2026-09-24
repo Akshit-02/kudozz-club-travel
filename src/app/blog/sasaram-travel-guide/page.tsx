@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -152,8 +153,6 @@ const SASARAM_GEAR: GearSection[] = [
         name: "Comfortable Walking Shoes",
         description: "The tomb's causeway and surrounding grounds involve a fair amount of walking.",
         price: "₹1,499",
-        rating: 4.4,
-        reviews: "8.2k",
         image: "👟",
         affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
         tag: "Sightseeing essential",
@@ -164,8 +163,6 @@ const SASARAM_GEAR: GearSection[] = [
         name: "Sunscreen (SPF 50)",
         description: "Little shade around the open lake and tomb grounds.",
         price: "₹399",
-        rating: 4.5,
-        reviews: "10k",
         image: "🧴",
         affiliateUrl: amazonSearchUrl("sunscreen+spf+50+travel"),
         tag: "Everyday essential",
@@ -176,8 +173,6 @@ const SASARAM_GEAR: GearSection[] = [
         name: "Camera",
         description: "The tomb's scale and lake setting are genuinely photogenic, especially from across the water.",
         price: "₹—",
-        rating: 4.5,
-        reviews: "—",
         image: "📷",
         affiliateUrl: amazonSearchUrl("compact+camera+travel"),
         tag: "Sightseeing essential",
@@ -188,8 +183,6 @@ const SASARAM_GEAR: GearSection[] = [
         name: "Reusable Water Bottle",
         description: "Facilities are limited around the tomb grounds — carry your own water.",
         price: "₹699",
-        rating: 4.5,
-        reviews: "9.3k",
         image: "🍶",
         affiliateUrl: amazonSearchUrl("insulated+water+bottle+steel"),
         tag: "Everyday essential",
@@ -347,6 +340,8 @@ export default function SasaramGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="sasaram-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Sasaram</h2>

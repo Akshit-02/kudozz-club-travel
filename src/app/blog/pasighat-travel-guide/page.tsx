@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -82,10 +83,10 @@ const tableOfContents = [
 const PASIGHAT_GEAR: GearSection[] = [{
   title: "Things Worth Carrying", subtitle: "Gear for riverside exploring and rafting", emoji: "🌊",
   items: [
-    { name: "Quick-Dry Clothing", description: "Useful for river-based activities and Pasighat's generally humid climate.", price: "₹899", rating: 4.4, reviews: "3.8k", image: "👕", affiliateUrl: amazonSearchUrl("quick+dry+travel+clothing"), tag: "River-activity essential", tagColor: "bg-sky-100 text-sky-700", why: "If rafting or spending time near the Siang River, quick-dry fabric is far more comfortable." },
-    { name: "Insect Repellent", description: "Riverside and forest areas around Pasighat are genuinely mosquito-prone.", price: "₹199", rating: 4.3, reviews: "4.2k", image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Essential", tagColor: "bg-forest-100 text-forest-700", why: "Humid riverside terrain makes this a genuine necessity, not just a nice-to-have." },
-    { name: "Comfortable Walking Shoes", description: "For exploring the town and Daying Ering Wildlife Sanctuary.", price: "₹1,999", rating: 4.4, reviews: "5.3k", image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-amber-100 text-amber-700", why: "Useful for both town walks and the wildlife sanctuary's nature trails." },
-    { name: "Waterproof Phone Pouch", description: "Sensible if planning any river rafting or boat activities on the Siang.", price: "₹299", rating: 4.3, reviews: "9.1k", image: "📱", affiliateUrl: amazonSearchUrl("waterproof+phone+pouch+travel"), tag: "River essential", tagColor: "bg-purple-100 text-purple-700", why: "Protects your phone during any water-based activity on the Siang River." },
+    { name: "Quick-Dry Clothing", description: "Useful for river-based activities and Pasighat's generally humid climate.", price: "₹899",  image: "👕", affiliateUrl: amazonSearchUrl("quick+dry+travel+clothing"), tag: "River-activity essential", tagColor: "bg-sky-100 text-sky-700", why: "If rafting or spending time near the Siang River, quick-dry fabric is far more comfortable." },
+    { name: "Insect Repellent", description: "Riverside and forest areas around Pasighat are genuinely mosquito-prone.", price: "₹199",  image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Essential", tagColor: "bg-forest-100 text-forest-700", why: "Humid riverside terrain makes this a genuine necessity, not just a nice-to-have." },
+    { name: "Comfortable Walking Shoes", description: "For exploring the town and Daying Ering Wildlife Sanctuary.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-amber-100 text-amber-700", why: "Useful for both town walks and the wildlife sanctuary's nature trails." },
+    { name: "Waterproof Phone Pouch", description: "Sensible if planning any river rafting or boat activities on the Siang.", price: "₹299",  image: "📱", affiliateUrl: amazonSearchUrl("waterproof+phone+pouch+travel"), tag: "River essential", tagColor: "bg-purple-100 text-purple-700", why: "Protects your phone during any water-based activity on the Siang River." },
   ],
 }];
 
@@ -165,6 +166,8 @@ export default function PasighatGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="pasighat-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Pasighat</h2>

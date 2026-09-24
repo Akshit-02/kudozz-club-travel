@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -200,8 +201,6 @@ const UTTARAKHAND_GEAR: GearSection[] = [
         description:
           "The Char Dham temples sit above 3,000m and stay cold even in peak season — a proper layering system matters far more here than at Nainital or Rishikesh's lower elevation.",
         price: "₹2,499",
-        rating: 4.5,
-        reviews: "7.8k",
         image: "🧥",
         affiliateUrl: amazonSearchUrl("trekking+jacket+layered+himalayan"),
         tag: "Char Dham essential",
@@ -213,8 +212,6 @@ const UTTARAKHAND_GEAR: GearSection[] = [
         description:
           "Both the Char Dham temple approaches and Valley of Flowers/Auli trails involve rocky, uneven terrain that regular shoes handle poorly.",
         price: "₹2,999",
-        rating: 4.5,
-        reviews: "9.1k",
         image: "🥾",
         affiliateUrl: amazonSearchUrl("trekking+shoes+waterproof+himalayan"),
         tag: "Trail essential",
@@ -226,8 +223,6 @@ const UTTARAKHAND_GEAR: GearSection[] = [
         description:
           "Useful across the whole trip, from Rishikesh's ashrams to long Char Dham trekking days where refill points are limited.",
         price: "₹699",
-        rating: 4.5,
-        reviews: "9.3k",
         image: "🍶",
         affiliateUrl: amazonSearchUrl("insulated+water+bottle+steel"),
         tag: "Everyday essential",
@@ -239,8 +234,6 @@ const UTTARAKHAND_GEAR: GearSection[] = [
         description:
           "Badrinath (3,133m) and Kedarnath (3,583m) sit high enough that mild altitude symptoms are common, especially without acclimatisation time.",
         price: "₹399",
-        rating: 4.3,
-        reviews: "5.2k",
         image: "💊",
         affiliateUrl: amazonSearchUrl("altitude+sickness+medicine+diamox"),
         tag: "Char Dham essential",
@@ -252,8 +245,6 @@ const UTTARAKHAND_GEAR: GearSection[] = [
         description:
           "Uttarakhand's hill regions see sudden showers even outside monsoon — useful across Nainital, Mussoorie, and the Char Dham routes alike.",
         price: "₹599",
-        rating: 4.3,
-        reviews: "4.6k",
         image: "🌂",
         affiliateUrl: amazonSearchUrl("rain+jacket+poncho+travel"),
         tag: "Weather essential",
@@ -265,8 +256,6 @@ const UTTARAKHAND_GEAR: GearSection[] = [
         description:
           "Charging points are sparse along the Char Dham routes and at higher-altitude stops like Auli — worth carrying a backup.",
         price: "₹1,299",
-        rating: 4.5,
-        reviews: "9.7k",
         image: "🔋",
         affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
         tag: "Mountain essential",
@@ -506,6 +495,8 @@ export default function UttarakhandGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="uttarakhand-travel-guide" />
 
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">

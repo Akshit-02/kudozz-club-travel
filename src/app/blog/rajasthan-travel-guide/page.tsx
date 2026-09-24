@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -200,8 +201,6 @@ const RAJASTHAN_GEAR: GearSection[] = [
         description:
           "Amber Fort, Mehrangarh Fort and Jaisalmer Fort all involve extended walking on uneven stone ramps and courtyards — good shoes matter across the whole circuit.",
         price: "₹1,499",
-        rating: 4.4,
-        reviews: "8.2k",
         image: "👟",
         affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
         tag: "Fort essential",
@@ -213,8 +212,6 @@ const RAJASTHAN_GEAR: GearSection[] = [
         description:
           "Rajasthan's desert climate makes hydration a genuine priority, especially at exposed fort complexes with little shade.",
         price: "₹699",
-        rating: 4.5,
-        reviews: "9.3k",
         image: "🍶",
         affiliateUrl: amazonSearchUrl("insulated+water+bottle+steel"),
         tag: "Everyday essential",
@@ -226,8 +223,6 @@ const RAJASTHAN_GEAR: GearSection[] = [
         description:
           "Useful across every fort and desert stop on the circuit, particularly a Sam Sand Dunes camel safari near Jaisalmer.",
         price: "₹399",
-        rating: 4.3,
-        reviews: "5.6k",
         image: "👒",
         affiliateUrl: amazonSearchUrl("wide+brim+sun+hat+travel"),
         tag: "Sun essential",
@@ -239,8 +234,6 @@ const RAJASTHAN_GEAR: GearSection[] = [
         description:
           "Breathable, modest clothing works better in Rajasthan's dry heat than synthetic fabrics, and covers most temple and palace dress expectations.",
         price: "₹799",
-        rating: 4.3,
-        reviews: "4.4k",
         image: "👗",
         affiliateUrl: amazonSearchUrl("lightweight+cotton+travel+clothing"),
         tag: "Desert essential",
@@ -252,8 +245,6 @@ const RAJASTHAN_GEAR: GearSection[] = [
         description:
           "Useful for long inter-city road journeys between Jaipur, Jodhpur, Jaisalmer and Udaipur, which can each run 5-6 hours.",
         price: "₹1,299",
-        rating: 4.5,
-        reviews: "9.7k",
         image: "🔋",
         affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
         tag: "Road-trip essential",
@@ -265,8 +256,6 @@ const RAJASTHAN_GEAR: GearSection[] = [
         description:
           "Handy for desert safaris and dusty fort courtyards, especially during a camel safari near Jaisalmer.",
         price: "₹299",
-        rating: 4.2,
-        reviews: "3.8k",
         image: "🧣",
         affiliateUrl: amazonSearchUrl("bandana+dust+scarf+travel"),
         tag: "Desert essential",
@@ -501,6 +490,8 @@ export default function RajasthanGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="rajasthan-travel-guide" />
 
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">

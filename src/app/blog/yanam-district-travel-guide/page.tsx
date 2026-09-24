@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -202,8 +203,6 @@ const YANAM_GEAR: GearSection[] = [
         description:
           "Ideal for the Yanam Ferry Road promenade and short strolls around St. Ann's Church and Yanam Tower.",
         price: "₹1,299",
-        rating: 4.4,
-        reviews: "8.2k",
         image: "👡",
         affiliateUrl: amazonSearchUrl("comfortable+walking+sandals+travel"),
         tag: "All-day essential",
@@ -215,8 +214,6 @@ const YANAM_GEAR: GearSection[] = [
         description:
           "Covered shoulders for St. Ann's Church, one of the town's most significant landmarks.",
         price: "₹899",
-        rating: 4.3,
-        reviews: "3.1k",
         image: "🧣",
         affiliateUrl: amazonSearchUrl("travel+modest+clothing+scarf"),
         tag: "Church essential",
@@ -228,8 +225,6 @@ const YANAM_GEAR: GearSection[] = [
         description:
           "For open stretches at Rajiv Gandhi Beach and the shadeless walk along the Ferry Road beside the Godavari River.",
         price: "₹549",
-        rating: 4.5,
-        reviews: "11k",
         image: "🧴",
         affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+spf+50"),
         tag: "Riverfront essential",
@@ -241,8 +236,6 @@ const YANAM_GEAR: GearSection[] = [
         description:
           "Useful for the drive out to Mettakur, Kolanka, and Kanakalapeta, where shops are far sparser than in Yanam town.",
         price: "₹699",
-        rating: 4.5,
-        reviews: "9.3k",
         image: "🍶",
         affiliateUrl: amazonSearchUrl("insulated+water+bottle+steel"),
         tag: "Everyday essential",
@@ -254,8 +247,6 @@ const YANAM_GEAR: GearSection[] = [
         description:
           "Worth having near the Godavari's waterways and the delta landscapes around Kolanka and Kanakalapeta.",
         price: "₹199",
-        rating: 4.3,
-        reviews: "12k",
         image: "🦟",
         affiliateUrl: amazonSearchUrl("mosquito+repellent+travel"),
         tag: "Delta essential",
@@ -267,8 +258,6 @@ const YANAM_GEAR: GearSection[] = [
         description:
           "Useful for a day covering Mettakur, Kolanka, and Kanakalapeta, where charging points are limited outside Yanam town.",
         price: "₹1,299",
-        rating: 4.5,
-        reviews: "9.7k",
         image: "🔋",
         affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
         tag: "Day-trip essential",
@@ -510,6 +499,8 @@ export default function YanamDistrictGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="yanam-district-travel-guide" />
 
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">

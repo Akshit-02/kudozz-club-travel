@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -160,8 +161,6 @@ const VARKALA_GEAR: GearSection[] = [
         description:
           "The cliff-edge path between cafes gets uneven and occasionally slippery near stairs down to the beach — proper grip sandals are safer than flip-flops.",
         price: "₹799",
-        rating: 4.4,
-        reviews: "4.3k",
         image: "🩴",
         affiliateUrl: amazonSearchUrl("grip+sandals+outdoor+travel"),
         tag: "Cliff-walk essential",
@@ -173,8 +172,6 @@ const VARKALA_GEAR: GearSection[] = [
         description:
           "Little shade along the open cliff stretch, especially at midday — reef-safe formulas protect the coastline as well as your skin.",
         price: "₹599",
-        rating: 4.5,
-        reviews: "7.4k",
         image: "🧴",
         affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+SPF+50"),
         tag: "Beach essential",
@@ -186,8 +183,6 @@ const VARKALA_GEAR: GearSection[] = [
         description:
           "Useful if you're joining drop-in yoga classes, many of which don't include mats, or practicing independently on your guesthouse balcony.",
         price: "₹899",
-        rating: 4.4,
-        reviews: "3.1k",
         image: "🧘",
         affiliateUrl: amazonSearchUrl("travel+yoga+mat+lightweight"),
         tag: "Yoga essential",
@@ -199,8 +194,6 @@ const VARKALA_GEAR: GearSection[] = [
         description:
           "Handy for the beach and for the boat/backwater side-trip many travelers add on from Kappil Lake nearby.",
         price: "₹299",
-        rating: 4.3,
-        reviews: "9.1k",
         image: "📱",
         affiliateUrl: amazonSearchUrl("waterproof+phone+pouch+beach"),
         tag: "Beach essential",
@@ -212,8 +205,6 @@ const VARKALA_GEAR: GearSection[] = [
         description:
           "The area around Janardanaswamy Temple and Papanasham's ritual zone expects more modest dress than the open beach further along the cliff.",
         price: "₹399",
-        rating: 4.4,
-        reviews: "4.0k",
         image: "🧣",
         affiliateUrl: amazonSearchUrl("cotton+wrap+travel+modest"),
         tag: "Temple-area essential",
@@ -225,8 +216,6 @@ const VARKALA_GEAR: GearSection[] = [
         description:
           "Between long cliff walks and yoga sessions in the heat, staying hydrated matters more here than it first seems.",
         price: "₹449",
-        rating: 4.5,
-        reviews: "6.2k",
         image: "💧",
         affiliateUrl: amazonSearchUrl("2l+hydration+water+bottle+travel"),
         tag: "Everyday essential",
@@ -378,6 +367,8 @@ export default function VarkalaGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="varkala-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Varkala</h2>

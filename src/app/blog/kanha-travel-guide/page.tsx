@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -167,8 +168,6 @@ const KANHA_GEAR: GearSection[] = [
         description:
           "Khaki, olive, or muted brown clothing blends into the forest and doesn't startle wildlife — bright colours and white are best avoided on safari.",
         price: "₹1,299",
-        rating: 4.4,
-        reviews: "3.2k",
         image: "🥾",
         affiliateUrl: amazonSearchUrl("safari+clothing+khaki+set"),
         tag: "Safari essential",
@@ -180,8 +179,6 @@ const KANHA_GEAR: GearSection[] = [
         description:
           "Essential for spotting the barasingha herds and distant wildlife across Kanha's open meadows, and for confirming a sighting before the gypsy gets closer.",
         price: "₹2,499",
-        rating: 4.5,
-        reviews: "4.6k",
         image: "🔭",
         affiliateUrl: amazonSearchUrl("8x42+binoculars+wildlife"),
         tag: "Non-negotiable",
@@ -193,8 +190,6 @@ const KANHA_GEAR: GearSection[] = [
         description:
           "A 300mm+ reach makes the difference between a usable tiger photo and a green smudge — even a decent bridge camera outperforms a phone here.",
         price: "₹8,999+",
-        rating: 4.3,
-        reviews: "1.8k",
         image: "📷",
         affiliateUrl: amazonSearchUrl("bridge+camera+superzoom"),
         tag: "Photography",
@@ -206,8 +201,6 @@ const KANHA_GEAR: GearSection[] = [
         description:
           "Winter morning safaris (Dec-Feb) start before sunrise in an open vehicle — genuinely cold until the sun clears the sal canopy.",
         price: "₹899",
-        rating: 4.4,
-        reviews: "5.1k",
         image: "🧥",
         affiliateUrl: amazonSearchUrl("fleece+jacket+travel"),
         tag: "Winter safari essential",
@@ -219,8 +212,6 @@ const KANHA_GEAR: GearSection[] = [
         description:
           "Forest trails and meadow stops bring mosquitoes, especially at dawn and dusk — a DEET-based repellent is worth applying before every safari.",
         price: "₹199",
-        rating: 4.2,
-        reviews: "8.4k",
         image: "🧴",
         affiliateUrl: amazonSearchUrl("insect+repellent+spray"),
         tag: "Comfort essential",
@@ -232,8 +223,6 @@ const KANHA_GEAR: GearSection[] = [
         description:
           "No charging points on safari, and telephoto cameras and phones both drain fast shooting continuous bursts — carry backup power.",
         price: "₹1,099",
-        rating: 4.4,
-        reviews: "6.7k",
         image: "🔋",
         affiliateUrl: amazonSearchUrl("power+bank+20000mah"),
         tag: "Travel essential",
@@ -393,6 +382,8 @@ export default function KanhaGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="kanha-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Kanha</h2>

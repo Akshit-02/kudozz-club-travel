@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -156,8 +157,6 @@ const GAYA_GEAR: GearSection[] = [
         name: "Modest, Breathable Clothing",
         description: "Vishnupad Temple is an active place of worship — covered shoulders and knees are expected.",
         price: "₹899",
-        rating: 4.3,
-        reviews: "3.6k",
         image: "🧣",
         affiliateUrl: amazonSearchUrl("modest+travel+clothing+cotton"),
         tag: "Respectful travel",
@@ -168,8 +167,6 @@ const GAYA_GEAR: GearSection[] = [
         name: "Comfortable Walking Shoes",
         description: "Easy slip-on footwear helps for Brahmayoni Hill's steps and temple courtyard walking.",
         price: "₹1,499",
-        rating: 4.4,
-        reviews: "8.2k",
         image: "👟",
         affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
         tag: "Sightseeing essential",
@@ -180,8 +177,6 @@ const GAYA_GEAR: GearSection[] = [
         name: "Reusable Water Bottle",
         description: "Useful across a full day of temple visits and the Brahmayoni Hill steps in Bihar's dry heat.",
         price: "₹699",
-        rating: 4.5,
-        reviews: "9.3k",
         image: "🍶",
         affiliateUrl: amazonSearchUrl("insulated+water+bottle+steel"),
         tag: "Everyday essential",
@@ -192,8 +187,6 @@ const GAYA_GEAR: GearSection[] = [
         name: "Small Bag for Shoes/Valuables",
         description: "A compact bag to carry shoes and valuables while inside temple grounds.",
         price: "₹299",
-        rating: 4.3,
-        reviews: "2.9k",
         image: "👝",
         affiliateUrl: amazonSearchUrl("small+travel+pouch+bag"),
         tag: "Temple essential",
@@ -350,6 +343,8 @@ export default function GayaGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="gaya-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Gaya</h2>

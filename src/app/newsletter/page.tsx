@@ -8,7 +8,7 @@ import NewsletterSignupForm from "@/components/newsletter/NewsletterSignupForm";
 export const metadata: Metadata = {
   title: "Join the Club — Free Travel Newsletter",
   description:
-    "Get weekly travel guides, hidden gems, and curated itineraries delivered to your inbox. Join 12,000+ explorers in the Kudozz Club newsletter.",
+    "Get weekly travel guides, hidden gems, and curated itineraries delivered to your inbox. Join the Kudozz Club newsletter.",
   keywords: [
     "India travel newsletter",
     "free travel newsletter",
@@ -53,23 +53,6 @@ const perks = [
   },
 ];
 
-const testimonials = [
-  {
-    name: "Aditya R.",
-    location: "Mumbai",
-    text: "Honestly the best travel newsletter I've subscribed to. Every edition has something genuinely useful.",
-  },
-  {
-    name: "Priya S.",
-    location: "Bangalore",
-    text: "Planned my entire Spiti trip using their guides. Saved so much time and the trip was perfect.",
-  },
-  {
-    name: "Rahul M.",
-    location: "Delhi",
-    text: "The itineraries are so detailed. Feels like a friend who's already been there is walking you through it.",
-  },
-];
 
 export default function NewsletterPage() {
   return (
@@ -115,8 +98,8 @@ export default function NewsletterPage() {
               className="text-white/65 text-lg leading-relaxed"
               style={{ fontFamily: "var(--font-source-serif)" }}
             >
-              Join 12,000+ explorers who get our weekly travel guides, curated
-              itineraries, and hidden gems — straight to their inbox.
+              Get our latest travel guides, curated
+              itineraries, and hidden gems, straight to your inbox.
             </p>
           </div>
         </section>
@@ -139,20 +122,6 @@ export default function NewsletterPage() {
               </p>
 
               <NewsletterSignupForm />
-
-              <p
-                className="text-center text-xs text-stone-600 mt-4"
-                style={{ fontFamily: "var(--font-dm-sans)" }}
-              >
-                By subscribing you agree to our{" "}
-                <a
-                  href="/privacy"
-                  className="text-stone-500 hover:text-stone-300 underline"
-                >
-                  Privacy Policy
-                </a>
-                .
-              </p>
             </div>
           </div>
         </section>
@@ -205,60 +174,6 @@ export default function NewsletterPage() {
           </div>
         </section>
 
-        {/* ── Testimonials ── */}
-        <section className="bg-white py-24">
-          <div className="max-w-5xl mx-auto px-6 sm:px-10">
-            <div className="text-center mb-14">
-              <h2
-                className="text-3xl font-bold text-stone-900"
-                style={{ fontFamily: "var(--font-playfair)" }}
-              >
-                What our readers say
-              </h2>
-            </div>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              {testimonials.map((t) => (
-                <div
-                  key={t.name}
-                  className="bg-stone-50 border border-stone-200 rounded-2xl p-6"
-                >
-                  <div className="flex gap-0.5 mb-4">
-                    {[...Array(5)].map((_, i) => (
-                      <svg
-                        key={i}
-                        className="w-4 h-4 text-amber-400"
-                        fill="currentColor"
-                        viewBox="0 0 20 20"
-                      >
-                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                      </svg>
-                    ))}
-                  </div>
-                  <p
-                    className="text-stone-600 text-sm leading-relaxed mb-5 italic"
-                    style={{ fontFamily: "var(--font-source-serif)" }}
-                  >
-                    "{t.text}"
-                  </p>
-                  <div>
-                    <div
-                      className="font-semibold text-stone-800 text-sm"
-                      style={{ fontFamily: "var(--font-dm-sans)" }}
-                    >
-                      {t.name}
-                    </div>
-                    <div
-                      className="text-stone-400 text-xs"
-                      style={{ fontFamily: "var(--font-dm-sans)" }}
-                    >
-                      {t.location}
-                    </div>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
       </main>
       <SiteFooter />
     </>

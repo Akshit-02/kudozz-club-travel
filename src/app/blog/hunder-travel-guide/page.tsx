@@ -8,6 +8,7 @@ import TrekGearRecommendations, {
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 
 // ── Per-page SEO metadata ─────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -422,6 +423,8 @@ export default function HunderPage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="hunder-travel-guide" />
 
                 {/* ── Best Time ───────────────────────────────────────────── */}
                 <section id="best-time">

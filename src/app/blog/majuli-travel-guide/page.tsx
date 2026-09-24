@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -81,10 +82,10 @@ const tableOfContents = [
 const MAJULI_GEAR: GearSection[] = [{
   title: "Things Worth Carrying", subtitle: "Gear for island cycling and satra visits", emoji: "🛶",
   items: [
-    { name: "Comfortable Cycling Shoes", description: "Many visitors explore Majuli by bicycle — comfortable footwear makes a real difference over a full day.", price: "₹1,499", rating: 4.4, reviews: "3.6k", image: "🚲", affiliateUrl: amazonSearchUrl("comfortable+cycling+shoes"), tag: "Island-exploring essential", tagColor: "bg-amber-100 text-amber-700", why: "Majuli's flat, rural roads are ideal for cycling, and the right footwear matters over a full day." },
-    { name: "Insect Repellent", description: "The island's wetland and rice-paddy environment brings a real mosquito presence.", price: "₹199", rating: 4.3, reviews: "4.2k", image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Essential", tagColor: "bg-forest-100 text-forest-700", why: "Majuli's wetlands and paddies make it prime mosquito territory, especially at dusk." },
-    { name: "Modest Clothing", description: "For visiting satras respectfully, particularly during active prayer or practice sessions.", price: "₹599", rating: 4.4, reviews: "3.9k", image: "👕", affiliateUrl: amazonSearchUrl("modest+travel+clothing"), tag: "Satra-visit essential", tagColor: "bg-purple-100 text-purple-700", why: "Satras are active monastic institutions, not museums — modest, respectful dress matters." },
-    { name: "Waterproof Phone Pouch", description: "Useful for the ferry crossing to and from the island.", price: "₹299", rating: 4.3, reviews: "9.1k", image: "📱", affiliateUrl: amazonSearchUrl("waterproof+phone+pouch+travel"), tag: "Ferry essential", tagColor: "bg-sky-100 text-sky-700", why: "The Brahmaputra ferry crossing carries a real risk of a soaked phone without one." },
+    { name: "Comfortable Cycling Shoes", description: "Many visitors explore Majuli by bicycle — comfortable footwear makes a real difference over a full day.", price: "₹1,499",  image: "🚲", affiliateUrl: amazonSearchUrl("comfortable+cycling+shoes"), tag: "Island-exploring essential", tagColor: "bg-amber-100 text-amber-700", why: "Majuli's flat, rural roads are ideal for cycling, and the right footwear matters over a full day." },
+    { name: "Insect Repellent", description: "The island's wetland and rice-paddy environment brings a real mosquito presence.", price: "₹199",  image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Essential", tagColor: "bg-forest-100 text-forest-700", why: "Majuli's wetlands and paddies make it prime mosquito territory, especially at dusk." },
+    { name: "Modest Clothing", description: "For visiting satras respectfully, particularly during active prayer or practice sessions.", price: "₹599",  image: "👕", affiliateUrl: amazonSearchUrl("modest+travel+clothing"), tag: "Satra-visit essential", tagColor: "bg-purple-100 text-purple-700", why: "Satras are active monastic institutions, not museums — modest, respectful dress matters." },
+    { name: "Waterproof Phone Pouch", description: "Useful for the ferry crossing to and from the island.", price: "₹299",  image: "📱", affiliateUrl: amazonSearchUrl("waterproof+phone+pouch+travel"), tag: "Ferry essential", tagColor: "bg-sky-100 text-sky-700", why: "The Brahmaputra ferry crossing carries a real risk of a soaked phone without one." },
   ],
 }];
 
@@ -164,6 +165,8 @@ export default function MajuliGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="majuli-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Majuli</h2>

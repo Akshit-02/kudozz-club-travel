@@ -4,9 +4,9 @@
 // - `children` come from src/lib/state-hub-children.json, which was extracted
 //   directly from each hub page's own "Places to Explore" section (built in
 //   the internal-linking session) — no invented cities or routes.
-// See docs/human-input-required.md and docs/new-information-architecture.md
-// §6 for why only Rajasthan gets curated multi-city "routes" (src/lib/rajasthan-routes.ts)
-// while the other 35 states show their real destination list instead.
+// Curated routes, best time, cost and other answer-first content for the
+// priority destinations live in destination-profiles.ts; states without a
+// profile show their real destination list and link to their hub guide.
 import stateHubChildren from "./state-hub-children.json";
 
 export interface StateChild {
@@ -332,4 +332,20 @@ export const allStatePackages: StatePackage[] = [
 
 export function getStatePackage(slug: string) {
   return allStatePackages.find((s) => s.slug === slug);
+}
+
+// The 8 union territories; everything else in allStatePackages is a state.
+export const UNION_TERRITORY_SLUGS = new Set([
+  "andaman-nicobar",
+  "chandigarh",
+  "dadra-nagar-haveli-daman-diu",
+  "delhi",
+  "kashmir", // Jammu & Kashmir
+  "leh-ladakh",
+  "lakshadweep",
+  "puducherry",
+]);
+
+export function adminLabel(slug: string) {
+  return UNION_TERRITORY_SLUGS.has(slug) ? "Union Territory" : "State";
 }

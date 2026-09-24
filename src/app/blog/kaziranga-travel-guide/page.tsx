@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -81,10 +82,10 @@ const tableOfContents = [
 const KAZIRANGA_GEAR: GearSection[] = [{
   title: "Things Worth Carrying", subtitle: "Gear for jeep and elephant-back safaris", emoji: "🦏",
   items: [
-    { name: "Binoculars", description: "For spotting wildlife across Kaziranga's open grassland at distance.", price: "₹1,999", rating: 4.5, reviews: "6.5k", image: "🔭", affiliateUrl: amazonSearchUrl("binoculars+wildlife+safari"), tag: "Safari essential", tagColor: "bg-amber-100 text-amber-700", why: "Kaziranga's terrain is wide-open grassland — binoculars turn a distant shape into a genuine sighting." },
-    { name: "Telephoto Camera/Lens", description: "For photographing rhinos, elephants, and birdlife at a safe, respectful distance.", price: "₹8,999+", rating: 4.4, reviews: "2.1k", image: "📷", affiliateUrl: amazonSearchUrl("telephoto+lens+wildlife+photography"), tag: "Photography essential", tagColor: "bg-purple-100 text-purple-700", why: "Kaziranga's rhinos are often visible at a distance that rewards a longer lens." },
-    { name: "Neutral/Khaki Clothing", description: "Standard safari practice for both jeep and elephant-back rides.", price: "₹1,299", rating: 4.4, reviews: "3.8k", image: "🧥", affiliateUrl: amazonSearchUrl("khaki+safari+clothing+set"), tag: "Safari essential", tagColor: "bg-forest-100 text-forest-700", why: "Bright colors stand out against the park's grassland terrain." },
-    { name: "Warm Layer", description: "Early-morning winter safaris in an open jeep or on elephant-back get genuinely cold.", price: "₹1,999", rating: 4.5, reviews: "4.7k", image: "🧣", affiliateUrl: amazonSearchUrl("warm+jacket+early+morning+safari"), tag: "Winter-safari essential", tagColor: "bg-sky-100 text-sky-700", why: "Dawn safaris in Dec-Jan are far colder than the daytime temperature suggests." },
+    { name: "Binoculars", description: "For spotting wildlife across Kaziranga's open grassland at distance.", price: "₹1,999",  image: "🔭", affiliateUrl: amazonSearchUrl("binoculars+wildlife+safari"), tag: "Safari essential", tagColor: "bg-amber-100 text-amber-700", why: "Kaziranga's terrain is wide-open grassland — binoculars turn a distant shape into a genuine sighting." },
+    { name: "Telephoto Camera/Lens", description: "For photographing rhinos, elephants, and birdlife at a safe, respectful distance.", price: "₹8,999+",  image: "📷", affiliateUrl: amazonSearchUrl("telephoto+lens+wildlife+photography"), tag: "Photography essential", tagColor: "bg-purple-100 text-purple-700", why: "Kaziranga's rhinos are often visible at a distance that rewards a longer lens." },
+    { name: "Neutral/Khaki Clothing", description: "Standard safari practice for both jeep and elephant-back rides.", price: "₹1,299",  image: "🧥", affiliateUrl: amazonSearchUrl("khaki+safari+clothing+set"), tag: "Safari essential", tagColor: "bg-forest-100 text-forest-700", why: "Bright colors stand out against the park's grassland terrain." },
+    { name: "Warm Layer", description: "Early-morning winter safaris in an open jeep or on elephant-back get genuinely cold.", price: "₹1,999",  image: "🧣", affiliateUrl: amazonSearchUrl("warm+jacket+early+morning+safari"), tag: "Winter-safari essential", tagColor: "bg-sky-100 text-sky-700", why: "Dawn safaris in Dec-Jan are far colder than the daytime temperature suggests." },
   ],
 }];
 
@@ -164,6 +165,8 @@ export default function KazirangaGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="kaziranga-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Kaziranga</h2>

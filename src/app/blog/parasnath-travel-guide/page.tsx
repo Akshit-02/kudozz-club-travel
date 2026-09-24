@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -154,8 +155,6 @@ const PARASNATH_GEAR: GearSection[] = [
         name: "Sturdy Trekking Shoes",
         description: "The 9km ascent with significant elevation gain calls for real trekking footwear, not casual sandals.",
         price: "₹3,299",
-        rating: 4.5,
-        reviews: "6.8k",
         image: "🥾",
         affiliateUrl: amazonSearchUrl("trekking+shoes+long+distance"),
         tag: "Non-negotiable",
@@ -166,8 +165,6 @@ const PARASNATH_GEAR: GearSection[] = [
         name: "Headlamp / Torch",
         description: "Many pilgrims begin the climb before dawn, and the descent can easily run past sunset.",
         price: "₹599",
-        rating: 4.4,
-        reviews: "4.5k",
         image: "🔦",
         affiliateUrl: amazonSearchUrl("headlamp+torch+trekking"),
         tag: "Pre-dawn essential",
@@ -178,8 +175,6 @@ const PARASNATH_GEAR: GearSection[] = [
         name: "Trekking Poles",
         description: "The long descent is genuinely tough on the knees after hours of climbing — poles make a real difference.",
         price: "₹1,299",
-        rating: 4.4,
-        reviews: "3.2k",
         image: "🥢",
         affiliateUrl: amazonSearchUrl("trekking+poles+pair"),
         tag: "Comfort essential",
@@ -190,8 +185,6 @@ const PARASNATH_GEAR: GearSection[] = [
         name: "Energy Snacks & Water",
         description: "Facilities along the ridge are limited — carrying enough food and water for a full-day climb is essential.",
         price: "₹299",
-        rating: 4.5,
-        reviews: "5.1k",
         image: "🍫",
         affiliateUrl: amazonSearchUrl("energy+bars+trekking+snacks"),
         tag: "Trek essential",
@@ -202,8 +195,6 @@ const PARASNATH_GEAR: GearSection[] = [
         name: "Layered Clothing",
         description: "Temperature swings meaningfully between the base, the ridge, and the exposed summit stretch through the day.",
         price: "₹1,499",
-        rating: 4.3,
-        reviews: "2.9k",
         image: "🧥",
         affiliateUrl: amazonSearchUrl("layered+trekking+clothing"),
         tag: "Comfort essential",
@@ -353,6 +344,8 @@ export default function ParasnathGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="parasnath-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Parasnath</h2>

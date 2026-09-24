@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -133,11 +134,11 @@ const UJJAIN_GEAR: GearSection[] = [
     subtitle: "Gear for temple queues, early mornings, and riverside ghats",
     emoji: "🕉️",
     items: [
-      { name: "Modest Temple Wear", description: "Covered shoulders and knees are expected at Mahakaleshwar Temple, Kal Bhairav Temple, and around Ram Ghat.", price: "₹599", rating: 4.4, reviews: "3.4k", image: "🧣", affiliateUrl: amazonSearchUrl("modest+travel+clothing+cotton"), tag: "Temple essential", tagColor: "bg-purple-100 text-purple-700", why: "Ujjain's temples are among the most actively revered in India — dress expectations are strictly observed." },
-      { name: "Light Shawl / Stole", description: "Useful both as a head covering inside temples and for warmth during the pre-dawn Bhasma Aarti, which can be cold outside summer.", price: "₹399", rating: 4.4, reviews: "3.9k", image: "🧕", affiliateUrl: amazonSearchUrl("cotton+shawl+stole+travel"), tag: "Aarti essential", tagColor: "bg-amber-100 text-amber-700", why: "Pre-dawn queues for the Bhasma Aarti can mean a long, chilly wait, especially in winter." },
-      { name: "Small Bag for Shoes & Valuables", description: "Footwear must come off before entering most temples, and a dedicated small bag makes managing shoes and valuables in crowds much easier.", price: "₹299", rating: 4.3, reviews: "3.1k", image: "👝", affiliateUrl: amazonSearchUrl("travel+shoe+bag+pouch"), tag: "Temple essential", tagColor: "bg-forest-100 text-forest-700", why: "Shoe-drop counters at busy temples can have long queues of their own — carrying your own bag is often faster." },
-      { name: "Comfortable Walking Shoes", description: "For the walk between Mahakaleshwar Temple, Ram Ghat, and Kal Bhairav Temple across the old city.", price: "₹1,199", rating: 4.4, reviews: "4.1k", image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+outdoor"), tag: "City-day essential", tagColor: "bg-sky-100 text-sky-700", why: "Ujjain's main sites are close together but best covered on foot through narrow old-city lanes." },
-      { name: "Reusable Water Bottle", description: "Useful for a day of temple queues and ghat walking, particularly outside the cooler winter months.", price: "₹349", rating: 4.5, reviews: "6.0k", image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "Travel essential", tagColor: "bg-red-100 text-red-700", why: "Temple queues can run long, especially around major festival dates." },
+      { name: "Modest Temple Wear", description: "Covered shoulders and knees are expected at Mahakaleshwar Temple, Kal Bhairav Temple, and around Ram Ghat.", price: "₹599",  image: "🧣", affiliateUrl: amazonSearchUrl("modest+travel+clothing+cotton"), tag: "Temple essential", tagColor: "bg-purple-100 text-purple-700", why: "Ujjain's temples are among the most actively revered in India — dress expectations are strictly observed." },
+      { name: "Light Shawl / Stole", description: "Useful both as a head covering inside temples and for warmth during the pre-dawn Bhasma Aarti, which can be cold outside summer.", price: "₹399",  image: "🧕", affiliateUrl: amazonSearchUrl("cotton+shawl+stole+travel"), tag: "Aarti essential", tagColor: "bg-amber-100 text-amber-700", why: "Pre-dawn queues for the Bhasma Aarti can mean a long, chilly wait, especially in winter." },
+      { name: "Small Bag for Shoes & Valuables", description: "Footwear must come off before entering most temples, and a dedicated small bag makes managing shoes and valuables in crowds much easier.", price: "₹299",  image: "👝", affiliateUrl: amazonSearchUrl("travel+shoe+bag+pouch"), tag: "Temple essential", tagColor: "bg-forest-100 text-forest-700", why: "Shoe-drop counters at busy temples can have long queues of their own — carrying your own bag is often faster." },
+      { name: "Comfortable Walking Shoes", description: "For the walk between Mahakaleshwar Temple, Ram Ghat, and Kal Bhairav Temple across the old city.", price: "₹1,199",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+outdoor"), tag: "City-day essential", tagColor: "bg-sky-100 text-sky-700", why: "Ujjain's main sites are close together but best covered on foot through narrow old-city lanes." },
+      { name: "Reusable Water Bottle", description: "Useful for a day of temple queues and ghat walking, particularly outside the cooler winter months.", price: "₹349",  image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "Travel essential", tagColor: "bg-red-100 text-red-700", why: "Temple queues can run long, especially around major festival dates." },
     ],
   },
 ];
@@ -246,6 +247,8 @@ export default function UjjainGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="ujjain-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Ujjain</h2>

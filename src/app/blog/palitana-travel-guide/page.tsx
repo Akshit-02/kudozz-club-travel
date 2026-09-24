@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -82,10 +83,10 @@ const tableOfContents = [
 const PALITANA_GEAR: GearSection[] = [{
   title: "Things Worth Carrying", subtitle: "Gear for the 3,500-step pilgrimage climb", emoji: "🛕",
   items: [
-    { name: "Sturdy Trekking Shoes", description: "Essential for over 3,500 stone steps — proper footwear makes a real difference on both the climb and the long descent.", price: "₹2,999", rating: 4.5, reviews: "6.2k", image: "🥾", affiliateUrl: amazonSearchUrl("trekking+shoes+long+distance"), tag: "Non-negotiable", tagColor: "bg-red-100 text-red-700", why: "This is a genuinely long, sustained climb — worn-out sandals or unsuitable shoes make it far harder than it needs to be." },
-    { name: "Trekking Poles", description: "Useful for reducing strain on the knees during the long descent from the hilltop.", price: "₹1,299", rating: 4.4, reviews: "3.1k", image: "🥢", affiliateUrl: amazonSearchUrl("trekking+poles+pair"), tag: "Descent essential", tagColor: "bg-amber-100 text-amber-700", why: "Many climbers find the descent harder on the knees than the ascent — poles genuinely help." },
-    { name: "Reusable Water Bottle (1L+)", description: "Facilities are limited along the climb — carrying enough water is essential.", price: "₹449", rating: 4.5, reviews: "7.9k", image: "💧", affiliateUrl: amazonSearchUrl("1l+reusable+water+bottle+steel"), tag: "Climb essential", tagColor: "bg-sky-100 text-sky-700", why: "There are limited water points on the long climb, especially before dawn." },
-    { name: "Sun Hat", description: "The upper stretches of the climb offer little shade once the sun is up.", price: "₹499", rating: 4.4, reviews: "5.0k", image: "🧢", affiliateUrl: amazonSearchUrl("sun+hat+travel+outdoor"), tag: "Climb essential", tagColor: "bg-purple-100 text-purple-700", why: "Starting before dawn helps, but the climb often extends into direct sun by the later stretches." },
+    { name: "Sturdy Trekking Shoes", description: "Essential for over 3,500 stone steps — proper footwear makes a real difference on both the climb and the long descent.", price: "₹2,999",  image: "🥾", affiliateUrl: amazonSearchUrl("trekking+shoes+long+distance"), tag: "Non-negotiable", tagColor: "bg-red-100 text-red-700", why: "This is a genuinely long, sustained climb — worn-out sandals or unsuitable shoes make it far harder than it needs to be." },
+    { name: "Trekking Poles", description: "Useful for reducing strain on the knees during the long descent from the hilltop.", price: "₹1,299",  image: "🥢", affiliateUrl: amazonSearchUrl("trekking+poles+pair"), tag: "Descent essential", tagColor: "bg-amber-100 text-amber-700", why: "Many climbers find the descent harder on the knees than the ascent — poles genuinely help." },
+    { name: "Reusable Water Bottle (1L+)", description: "Facilities are limited along the climb — carrying enough water is essential.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("1l+reusable+water+bottle+steel"), tag: "Climb essential", tagColor: "bg-sky-100 text-sky-700", why: "There are limited water points on the long climb, especially before dawn." },
+    { name: "Sun Hat", description: "The upper stretches of the climb offer little shade once the sun is up.", price: "₹499",  image: "🧢", affiliateUrl: amazonSearchUrl("sun+hat+travel+outdoor"), tag: "Climb essential", tagColor: "bg-purple-100 text-purple-700", why: "Starting before dawn helps, but the climb often extends into direct sun by the later stretches." },
   ],
 }];
 
@@ -165,6 +166,8 @@ export default function PalitanaGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="palitana-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Palitana</h2>

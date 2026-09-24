@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -132,8 +133,6 @@ const MORNI_GEAR: GearSection[] = [
         name: "Comfortable Walking Shoes",
         description: "For the short walk up to Morni Fort's ruins and general exploring around Tikkar Taal.",
         price: "₹1,999",
-        rating: 4.4,
-        reviews: "5.3k",
         image: "👟",
         affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
         tag: "Sightseeing essential",
@@ -143,8 +142,6 @@ const MORNI_GEAR: GearSection[] = [
         name: "Light Layers",
         description: "Mornings and evenings at this modest elevation are cooler than nearby Chandigarh.",
         price: "₹1,499",
-        rating: 4.4,
-        reviews: "4.1k",
         image: "🧥",
         affiliateUrl: amazonSearchUrl("light+jacket+travel"),
         tag: "Comfort essential",
@@ -155,8 +152,6 @@ const MORNI_GEAR: GearSection[] = [
         name: "Reusable Water Bottle",
         description: "For a day spent between Tikkar Taal and Morni Fort with limited facilities in between.",
         price: "₹449",
-        rating: 4.5,
-        reviews: "6.2k",
         image: "💧",
         affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"),
         tag: "All-day essential",
@@ -166,8 +161,6 @@ const MORNI_GEAR: GearSection[] = [
         name: "Camera",
         description: "For the lake views and valley panoramas from Morni Fort.",
         price: "₹—",
-        rating: 4.5,
-        reviews: "—",
         image: "📷",
         affiliateUrl: amazonSearchUrl("compact+camera+travel"),
         tag: "Sightseeing essential",
@@ -297,6 +290,8 @@ export default function MorniHillsGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="morni-hills-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Morni Hills</h2>

@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -204,8 +205,6 @@ const JK_GEAR: GearSection[] = [
         description:
           "Temperatures at Gulmarg and Sonamarg drop well below what Srinagar sees, especially outside the peak summer window — a proper down jacket beats layering with regular sweaters.",
         price: "₹3,499",
-        rating: 4.6,
-        reviews: "9.4k",
         image: "🧥",
         affiliateUrl: amazonSearchUrl("down+jacket+heavy+winter"),
         tag: "High-altitude essential",
@@ -217,8 +216,6 @@ const JK_GEAR: GearSection[] = [
         description:
           "Gulmarg's slopes and Sonamarg's glacier viewpoints involve walking on packed snow and slush — regular sneakers soak through within minutes.",
         price: "₹2,299",
-        rating: 4.5,
-        reviews: "6.1k",
         image: "🥾",
         affiliateUrl: amazonSearchUrl("waterproof+snow+boots"),
         tag: "Snow essential",
@@ -230,8 +227,6 @@ const JK_GEAR: GearSection[] = [
         description:
           "A wicking thermal layer under regular clothing makes the difference on early-morning houseboat starts and gondola rides, where wind chill adds noticeably to the cold.",
         price: "₹899",
-        rating: 4.4,
-        reviews: "7.8k",
         image: "🧣",
         affiliateUrl: amazonSearchUrl("thermal+base+layer+set"),
         tag: "Layering essential",
@@ -243,8 +238,6 @@ const JK_GEAR: GearSection[] = [
         description:
           "Snow glare at Gulmarg and Sonamarg is intense enough to cause genuine eye strain within an hour without proper UV and glare protection.",
         price: "₹799",
-        rating: 4.4,
-        reviews: "5.6k",
         image: "🕶️",
         affiliateUrl: amazonSearchUrl("polarized+sunglasses+snow"),
         tag: "Snow essential",
@@ -256,8 +249,6 @@ const JK_GEAR: GearSection[] = [
         description:
           "Cold weather drains phone batteries noticeably faster, and Gulmarg's gondola queues and Dal Lake shikara rides both eat into battery for photos and navigation.",
         price: "₹1,299",
-        rating: 4.5,
-        reviews: "9.7k",
         image: "🔋",
         affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
         tag: "Cold-weather essential",
@@ -269,8 +260,6 @@ const JK_GEAR: GearSection[] = [
         description:
           "Gulmarg's gondola reaches over 3,900m at the upper station — mild altitude symptoms are common for visitors coming straight from sea level.",
         price: "₹599",
-        rating: 4.4,
-        reviews: "3.9k",
         image: "🩹",
         affiliateUrl: amazonSearchUrl("travel+first+aid+kit+altitude"),
         tag: "High-altitude essential",
@@ -522,6 +511,8 @@ export default function JammuKashmirGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="jammu-kashmir-travel-guide" />
 
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">

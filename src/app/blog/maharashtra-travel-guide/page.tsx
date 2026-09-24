@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -199,8 +200,6 @@ const MAHARASHTRA_GEAR: GearSection[] = [
         description:
           "Ajanta and Ellora both involve extensive walking across uneven stone floors and staircases inside the cave complexes.",
         price: "₹1,499",
-        rating: 4.4,
-        reviews: "8.2k",
         image: "👟",
         affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
         tag: "Sightseeing essential",
@@ -212,8 +211,6 @@ const MAHARASHTRA_GEAR: GearSection[] = [
         description:
           "Lonavala, Mahabaleshwar, and the Konkan coast all see heavy rainfall through the monsoon months.",
         price: "₹599",
-        rating: 4.3,
-        reviews: "4.6k",
         image: "🌂",
         affiliateUrl: amazonSearchUrl("rain+jacket+poncho+travel"),
         tag: "Monsoon essential",
@@ -225,8 +222,6 @@ const MAHARASHTRA_GEAR: GearSection[] = [
         description:
           "Essential for the Konkan coast's beaches and long walks through Ajanta and Ellora's open courtyards.",
         price: "₹399",
-        rating: 4.5,
-        reviews: "10k",
         image: "🧴",
         affiliateUrl: amazonSearchUrl("sunscreen+spf+50+travel"),
         tag: "Coastal essential",
@@ -238,8 +233,6 @@ const MAHARASHTRA_GEAR: GearSection[] = [
         description:
           "Useful for day trips beyond Mumbai and Pune, where charging infrastructure thins out on the road.",
         price: "₹1,299",
-        rating: 4.5,
-        reviews: "9.7k",
         image: "🔋",
         affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
         tag: "Day-trip essential",
@@ -251,8 +244,6 @@ const MAHARASHTRA_GEAR: GearSection[] = [
         description:
           "Handy across long days at Ajanta, Ellora, and Mumbai's extensive city sightseeing.",
         price: "₹699",
-        rating: 4.5,
-        reviews: "9.3k",
         image: "🍶",
         affiliateUrl: amazonSearchUrl("insulated+water+bottle+steel"),
         tag: "Everyday essential",
@@ -264,8 +255,6 @@ const MAHARASHTRA_GEAR: GearSection[] = [
         description:
           "A practical backup for Mumbai's unpredictable weather and sudden hill-station showers.",
         price: "₹349",
-        rating: 4.3,
-        reviews: "6.8k",
         image: "☔",
         affiliateUrl: amazonSearchUrl("compact+travel+umbrella"),
         tag: "City essential",
@@ -504,6 +493,8 @@ export default function MaharashtraGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="maharashtra-travel-guide" />
 
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">

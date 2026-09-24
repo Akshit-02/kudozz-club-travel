@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -200,8 +201,6 @@ const PUNJAB_GEAR: GearSection[] = [
         description:
           "Covering your head is mandatory inside the Golden Temple complex — carrying your own scarf is more comfortable than relying on the ones provided at the entrance.",
         price: "₹299",
-        rating: 4.4,
-        reviews: "6.8k",
         image: "🧣",
         affiliateUrl: amazonSearchUrl("lightweight+head+scarf+travel"),
         tag: "Golden Temple essential",
@@ -213,8 +212,6 @@ const PUNJAB_GEAR: GearSection[] = [
         description:
           "Footwear must be removed before entering the Golden Temple complex, and the marble parikrama path around the sarovar is walked barefoot — slip-on shoes make this far easier.",
         price: "₹899",
-        rating: 4.4,
-        reviews: "7.6k",
         image: "🩴",
         affiliateUrl: amazonSearchUrl("slip+on+sandals+travel"),
         tag: "Temple essential",
@@ -226,8 +223,6 @@ const PUNJAB_GEAR: GearSection[] = [
         description:
           "Amritsar and Punjab's plains get very hot for much of the year, and the Golden Temple complex has long uncovered marble stretches.",
         price: "₹699",
-        rating: 4.5,
-        reviews: "9.3k",
         image: "🍶",
         affiliateUrl: amazonSearchUrl("insulated+water+bottle+steel"),
         tag: "Everyday essential",
@@ -239,8 +234,6 @@ const PUNJAB_GEAR: GearSection[] = [
         description:
           "Covered shoulders and legs are expected at the Golden Temple and other gurdwaras — a simple, respectful outfit avoids any last-minute scrambling.",
         price: "₹799",
-        rating: 4.3,
-        reviews: "4.4k",
         image: "👗",
         affiliateUrl: amazonSearchUrl("modest+travel+clothing+lightweight"),
         tag: "Temple essential",
@@ -252,8 +245,6 @@ const PUNJAB_GEAR: GearSection[] = [
         description:
           "Useful for the Wagah Border evening trip and long sightseeing days combining Amritsar's key sights.",
         price: "₹1,299",
-        rating: 4.5,
-        reviews: "9.7k",
         image: "🔋",
         affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
         tag: "Sightseeing essential",
@@ -265,8 +256,6 @@ const PUNJAB_GEAR: GearSection[] = [
         description:
           "Useful across Amritsar's open sights and the Wagah Border grandstand area, both largely uncovered.",
         price: "₹399",
-        rating: 4.3,
-        reviews: "5.6k",
         image: "👒",
         affiliateUrl: amazonSearchUrl("wide+brim+sun+hat+travel"),
         tag: "Sun essential",
@@ -500,6 +489,8 @@ export default function PunjabGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="punjab-travel-guide" />
 
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">

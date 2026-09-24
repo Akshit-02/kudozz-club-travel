@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 
 const HERO_IMAGE =
   "/images/blogs/rajasthan/ranthambore-first-time-visitors/ranthambore-fort-from-forest-below.webp";
@@ -365,6 +366,8 @@ export default function RanthamboreFirstTimeVisitorsPage() {
                     with you for a while after.
                   </p>
                 </section>
+
+                <GuideTripCTA slug="ranthambore-first-time-visitors-travel-guide" />
 
                 {/* ── Padam Talao ──────────────────────────────────────── */}
                 <section id="padam-talao">

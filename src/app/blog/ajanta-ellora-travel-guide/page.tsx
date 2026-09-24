@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -175,8 +176,6 @@ const AJANTA_ELLORA_GEAR: GearSection[] = [
         description:
           "Both sites involve long stretches of uneven stone paths and stairs cut straight into rock — flip-flops and sandals get uncomfortable fast over a 3-4 hour visit.",
         price: "₹1,499",
-        rating: 4.4,
-        reviews: "6.8k",
         image: "👟",
         affiliateUrl: amazonSearchUrl("comfortable+walking+hiking+shoes"),
         tag: "Cave-visit essential",
@@ -188,8 +187,6 @@ const AJANTA_ELLORA_GEAR: GearSection[] = [
         description:
           "Much of the walk between caves and the shuttle bus queue at Ajanta is in open sun — a hat matters more than sunscreen alone in the Deccan heat.",
         price: "₹399",
-        rating: 4.3,
-        reviews: "3.9k",
         image: "👒",
         affiliateUrl: amazonSearchUrl("wide+brim+sun+hat+travel"),
         tag: "Sun essential",
@@ -201,8 +198,6 @@ const AJANTA_ELLORA_GEAR: GearSection[] = [
         description:
           "A full day covering either site, especially in the warmer months, means several hours outdoors with limited shaded rest points.",
         price: "₹449",
-        rating: 4.5,
-        reviews: "6.2k",
         image: "💧",
         affiliateUrl: amazonSearchUrl("2l+hydration+water+bottle+travel"),
         tag: "Trek essential",
@@ -214,8 +209,6 @@ const AJANTA_ELLORA_GEAR: GearSection[] = [
         description:
           "Several of the smaller caves and interior chambers at both sites are dimly lit — a small torch (phone flash aside) helps pick out carving detail flash photography isn't allowed to capture.",
         price: "₹349",
-        rating: 4.2,
-        reviews: "2.4k",
         image: "🔦",
         affiliateUrl: amazonSearchUrl("compact+led+torch+travel"),
         tag: "Cave essential",
@@ -227,8 +220,6 @@ const AJANTA_ELLORA_GEAR: GearSection[] = [
         description:
           "For water, sunscreen, a snack, and the ASI ticket/ID you'll need to keep handy across both a long walking day and the Ajanta shuttle bus ride.",
         price: "₹899",
-        rating: 4.4,
-        reviews: "4.6k",
         image: "🎒",
         affiliateUrl: amazonSearchUrl("lightweight+daypack+travel"),
         tag: "All-day essential",
@@ -240,8 +231,6 @@ const AJANTA_ELLORA_GEAR: GearSection[] = [
         description:
           "Exposed stone courtyards and the open plateau above the Ajanta caves offer little shade during the hottest hours of the day.",
         price: "₹599",
-        rating: 4.5,
-        reviews: "7.4k",
         image: "🧴",
         affiliateUrl: amazonSearchUrl("sunscreen+SPF+50+travel"),
         tag: "Sun essential",
@@ -410,6 +399,8 @@ export default function AjantaElloraGuidePage() {
                     </p>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="ajanta-ellora-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit</h2>

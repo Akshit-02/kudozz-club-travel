@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -104,10 +105,10 @@ const GWALIOR_GEAR: GearSection[] = [
     subtitle: "Gear for the fort's stairways, ramparts, and city heritage walks",
     emoji: "🏰",
     items: [
-      { name: "Comfortable Walking Shoes", description: "Gwalior Fort involves long stretches of stone ramps, uneven stairways, and open ramparts — closed, grippy shoes make a real difference over a half-day visit.", price: "₹1,699", rating: 4.5, reviews: "6.1k", image: "🥾", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+heritage"), tag: "Fort essential", tagColor: "bg-red-100 text-red-700", why: "The fort's stone stairways and sloped ramps are worn smooth in places and genuinely tiring in regular sandals." },
-      { name: "Wide-Brim Sun Hat", description: "Most of the fort complex and its temples sit fully exposed on the hilltop with almost no shade.", price: "₹549", rating: 4.3, reviews: "3.8k", image: "👒", affiliateUrl: amazonSearchUrl("wide+brim+sun+hat+travel"), tag: "Sun protection", tagColor: "bg-amber-100 text-amber-700", why: "The open hilltop plateau around Man Singh Palace and the Sas-Bahu Temples has essentially no tree cover." },
-      { name: "2L Hydration Bottle", description: "Water points thin out once you're inside the fort walls, especially on the longer walk to Teli ka Mandir.", price: "₹449", rating: 4.5, reviews: "6.2k", image: "💧", affiliateUrl: amazonSearchUrl("2l+hydration+water+bottle+travel"), tag: "Everyday essential", tagColor: "bg-sky-100 text-sky-700", why: "A half-day fort visit in Gwalior's dry heat adds up fast without a large bottle on hand." },
-      { name: "Compact Binoculars", description: "Useful for picking out detail on the Sas-Bahu Temples' carvings and for the light and sound show's wide-angle views over the city.", price: "₹1,299", rating: 4.2, reviews: "2.4k", image: "🔭", affiliateUrl: amazonSearchUrl("compact+binoculars+travel"), tag: "Sightseeing essential", tagColor: "bg-purple-100 text-purple-700", why: "The fort ramparts offer sweeping views of the old city that are much better appreciated with a bit of zoom." },
+      { name: "Comfortable Walking Shoes", description: "Gwalior Fort involves long stretches of stone ramps, uneven stairways, and open ramparts — closed, grippy shoes make a real difference over a half-day visit.", price: "₹1,699",  image: "🥾", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+heritage"), tag: "Fort essential", tagColor: "bg-red-100 text-red-700", why: "The fort's stone stairways and sloped ramps are worn smooth in places and genuinely tiring in regular sandals." },
+      { name: "Wide-Brim Sun Hat", description: "Most of the fort complex and its temples sit fully exposed on the hilltop with almost no shade.", price: "₹549",  image: "👒", affiliateUrl: amazonSearchUrl("wide+brim+sun+hat+travel"), tag: "Sun protection", tagColor: "bg-amber-100 text-amber-700", why: "The open hilltop plateau around Man Singh Palace and the Sas-Bahu Temples has essentially no tree cover." },
+      { name: "2L Hydration Bottle", description: "Water points thin out once you're inside the fort walls, especially on the longer walk to Teli ka Mandir.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("2l+hydration+water+bottle+travel"), tag: "Everyday essential", tagColor: "bg-sky-100 text-sky-700", why: "A half-day fort visit in Gwalior's dry heat adds up fast without a large bottle on hand." },
+      { name: "Compact Binoculars", description: "Useful for picking out detail on the Sas-Bahu Temples' carvings and for the light and sound show's wide-angle views over the city.", price: "₹1,299",  image: "🔭", affiliateUrl: amazonSearchUrl("compact+binoculars+travel"), tag: "Sightseeing essential", tagColor: "bg-purple-100 text-purple-700", why: "The fort ramparts offer sweeping views of the old city that are much better appreciated with a bit of zoom." },
     ],
   },
 ];
@@ -195,6 +196,8 @@ export default function GwaliorGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="gwalior-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Gwalior</h2>

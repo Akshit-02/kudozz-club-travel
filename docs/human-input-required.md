@@ -1,54 +1,70 @@
-# Kudozz Club — Human Input Required (Travel Agency Pivot)
+# Human Input Required
 
-**Date:** 2026-09-21
-**Purpose:** Everything below is needed from the Kudozz Club team before the corresponding page/feature can be built without fabricating information. Nothing in this list has been invented or guessed at elsewhere in the docs written this session.
+**Updated:** 2026-09-24 (travel-agency rebrand pass)
+**Rule followed:** nothing on this list was guessed or filled with placeholder data. Where a claim couldn't be verified it was removed or softened, and it is listed here so the Kudozz team can confirm it and, if true, restore it.
 
-## Confirmed so far (do not re-ask)
+Items are ordered by urgency.
 
-- Pivot to a real trip-planning business: **confirmed**.
-- Fulfillment model: **in-house** — the Kudozz Club team personally plans and coordinates trips. No partner/DMC network.
-- Enquiry channel: **email only**, `connect@kudozz.in` (already live in the codebase).
+---
 
-## Blocked — needed before Phase 2 can build these
+## 1. Urgent: security
 
-1. **Phone / WhatsApp number** — if none exists, `/plan-your-trip` and all CTAs should stay email-only rather than implying a channel that doesn't exist.
-2. **Business registration status** — trade name, GST registration (if any), any tour-operator recognition (IATA/TAAI/state tourism registration). Needed before writing Terms & Conditions or any "registered travel agency" style claim. If none of this exists yet, the honest approach is to launch as a trip-planning service without agency-specific legal claims until registration is complete — flag this explicitly rather than implying credentials that don't exist.
-3. **Physical address / office presence** — if none, no `LocalBusiness` schema with an address should be added (a bare `Organization` + `Service` schema is the correct fallback with no address).
-4. **Pricing model** — is pricing always enquiry-based, or are there real from-prices for common routes? Spec explicitly forbids publishing fake package prices; if no real pricing exists yet, every `/packages/*` page should say "on request" / "custom quote," not a number.
-5. **Refund / cancellation policy terms** — the actual terms the business will honor (advance payment %, refund windows, force-majeure handling). Cannot be drafted without real terms — a generic template would misrepresent the actual business practice.
-6. **Privacy policy specifics** — what data is actually collected (the enquiry form fields), how long it's retained, whether any third-party analytics/email tooling is used beyond what's already in the codebase.
-7. **Social media handles** — if Kudozz Club has real Instagram/Facebook/etc. profiles, provide links for the footer; do not invent any if none exist.
-8. **Testimonials / past traveler feedback** — only usable if real and attributable; none exist yet per spec §10/§42, so none will be added.
-9. **Brand assets** — logo file, favicon, any existing brand color/typography decisions beyond what's in `tailwind.config.ts` today, if the rebrand should introduce new visual identity rather than extend the current one.
-10. **Legal review** — Terms, Privacy, and Cancellation pages should get a human/legal read before publishing, even once drafted from real inputs above — these are the site's actual contract terms with customers.
+| # | Item | Why | Where |
+|---|---|---|---|
+| 1.1 | **Rotate the Gmail app password and move it to an environment variable.** | A Gmail address and app password are hardcoded in source and exist in git history. Anyone with repo access can send mail as that account. `.env` already defines `GMAIL_USER` / `GMAIL_APP_PASSWORD`, so the code can read them once production env is confirmed. I didn't change `mailer.ts`, because I can't see how production is configured. | `src/lib/mailer.ts` |
+| 1.2 | **Decide where enquiries should land.** | Trip enquiries are emailed to a personal Gmail inbox, not `connect@kudozz.in`. For an agency, enquiries should go to a shared business inbox (or a CRM). | `src/lib/mailer.ts` (`NOTIFY_EMAIL_TO`) |
+| 1.3 | **Send one real test enquiry.** | I tested validation, the honeypot and error handling, but did **not** send a real enquiry (it would email your inbox). Submit `/plan-your-trip` once in production and confirm the email arrives with every new field (departure city, adults, children, budget, accommodation, special requirements, source page). | `/plan-your-trip`, `src/app/api/plan-trip/route.ts` |
 
-## Not blocked — can proceed once Phase 2 is approved
+## 2. Claims removed because they couldn't be verified
 
-- Nav, `/plan-your-trip` form (using existing `/api/contact` + `connect@kudozz.in`), `/packages` page tree, homepage restructure, About/Contact copy — none of these require anything on this list.
+Restore any of these **only if true**, with evidence you'd be comfortable showing a customer.
 
-## Found during Phase 2 build (2026-09-21) — needs a human decision, not fabrication
+| # | Claim (as it was) | Where it was | Status |
+|---|---|---|---|
+| 2.1 | Three 5-star reader testimonials ("Aditya R., Mumbai", "Priya S., Bangalore", "Rahul M., Delhi") | `/newsletter` | **Removed.** They arrived in the initial project-setup commit with template-style names. If they're real, restore them with the person's consent; otherwise collect real ones. |
+| 2.2 | "Join 12,000+ explorers" / "12,000+ subscribers" / "Share your story with 12,000 explorers" | `/newsletter`, `/write-for-us` | **Removed.** Two pages also contradicted each other (12,000 vs 15K). Supply the real subscriber count from the email tool. |
+| 2.3 | "15K+ Newsletter readers", "15K+ Members", "4.9★ Rating", "350+ Guides", "120+ Destinations" | `/write-for-us`, `/blog` sidebar | **Replaced** with verified numbers (580+ guides, 36 states & UTs, 6 regions). "350+" and "120+" were simply out of date; "4.9★" had no source. |
+| 2.4 | "Under 48hrs" / "We reply within 48 hours" / "48hr pitch response time" | `/contact`, `/write-for-us` metadata | **Removed.** Confirm a response time you can reliably meet, and it can go back as a trust signal. |
+| 2.5 | "Written by people who've actually been there" | `/destinations`, `/blog` hero | **Removed.** Only restore if guides are genuinely first-hand. |
+| 2.6 | "Built from real trips, local conversations" / "Our readers shape what we write next" | old About page values | **Removed** in the About rewrite. |
+| 2.7 | "The most complete Leh Ladakh guide you'll find, written after 14 days on the ground" | Ladakh featured excerpt (`blog-posts.ts`) | **Reworded** to describe the guide's 14-day itinerary without the superlative or first-hand claim. |
+| 2.8 | "Gear we've tested" and fabricated product star ratings / review counts (e.g. "4.6 stars, 15.4k reviews") on 282 guides | `TrekGearRecommendations` + 246 guide files | **Removed.** Items link to Amazon *search results*, so no rating could belong to a real product. Ratings weren't rendered, but the data was one line away from being shown. |
+| 2.9 | "Every new guide goes to subscribers 48 hours before it's public" | `/blog` sidebar | **Removed.** Also removed a dead email input there that wasn't connected to anything. |
+| 2.10 | Newsletter consent line linking to `/privacy` | `/newsletter` | **Removed**: `/privacy` doesn't exist (404). See 3.3. |
 
-11. **`sameAs` social links already in the codebase** — `src/app/layout.tsx`'s site-wide `Organization` schema lists `https://twitter.com/kudozz.in` and `https://instagram.com/kudozz.in`. These pre-date this session; I did not add or verify them. Please confirm these accounts are real and active — if not, they should be removed rather than left as an unverified claim in structured data.
-12. **Hardcoded email credentials in source** — `src/lib/mailer.ts` has a Gmail address and app password committed directly in the file (not an environment variable), and notifications currently route to a personal Gmail inbox rather than `connect@kudozz.in`. This predates this session and wasn't part of the requested scope, but it's a real credential-hygiene issue (the password is sitting in git history) worth rotating and moving to an env var when convenient.
+## 3. Business facts needed before more can be built
 
-## Phase 2 — what shipped (2026-09-21)
+| # | Needed | Unlocks |
+|---|---|---|
+| 3.1 | **Phone / WhatsApp number** for enquiries (if one exists) | Click-to-call and WhatsApp CTAs, especially the mobile sticky bar. Indian travel buyers expect WhatsApp; it's likely the biggest remaining conversion lever. |
+| 3.2 | **Business registration**: legal entity name, GST, any tour-operator registration (Ministry of Tourism, state tourism, IATO/TAAI/IATA) | A registration line in the footer, and `TravelAgency` schema. |
+| 3.3 | **Privacy policy, terms, cancellation and refund policy** (real terms, legally reviewed) | Required before taking payments; also needed as a link on every form. |
+| 3.4 | **Office address** (if any) | `LocalBusiness`/`TravelAgency` schema with address, a Google Business Profile, and local SEO. Without an address, the site correctly uses `Organization` + `Service` only. |
+| 3.5 | **What "travel arrangements supported by Kudozz Club" means in practice**: do you book hotels, transport, flights? Take payment? Provide an on-trip contact? | The homepage and About step 4 deliberately say only "go ahead with the travel arrangements Kudozz Club supports". Once confirmed, this becomes a specific and much stronger promise. |
+| 3.6 | **Is trip planning free, or is there a planning fee?** | An explicit pricing-model statement on `/plan-your-trip`. Copy currently avoids implying either. |
+| 3.7 | **Typical price ranges** for common routes (e.g. "5-day Kashmir, 3-star, per person"), if you're willing to publish "from" prices that you actually honour | Price anchoring on package pages. Until then every page says pricing is quoted per enquiry, and cost answers cite only the *guides'* published budget estimates. |
+| 3.8 | **Real testimonials / trip stories** from past clients, with permission | A testimonials section and, later, review schema (never before real reviews exist). |
+| 3.9 | **Team**: names, photos and roles of the people who plan trips | E-E-A-T and trust. An agency with a named team converts better than an anonymous one. |
 
-Built without needing anything on the blocked list: `/plan-your-trip` (form + `/api/plan-trip` → existing mailer), `/packages` index, `/packages/rajasthan` flagship page, nav + footer updates (Tour Packages, Plan My Trip), homepage hero/CTA/stats updates, About page rewrite (resolved the editorial-vs-commercial tension in a new section, removed fabricated team bios and fabricated stats/milestones, replaced with verifiable numbers), Contact page trip-planning pathway, `llms.txt` and sitemap additions, and a `Service` schema on `/plan-your-trip`. Verified with a clean `tsc --noEmit`, a clean production build, and manual route checks (all 200s).
+## 4. Please confirm (currently live)
 
-## Phase 3 — full package architecture, research docs, and QA (2026-09-21, same day, later pass)
+| # | Item | Where |
+|---|---|---|
+| 4.1 | Social profiles `twitter.com/kudozz.in` and `instagram.com/kudozz.in` exist and are active | Organization schema `sameAs` in `src/app/layout.tsx`. Remove if not. |
+| 4.2 | Timeline: launched Nov 2025; all states covered in 2026; trip planning launched Sep 2026 | `/about` |
+| 4.3 | "Our in-house team plans your itinerary" and "your enquiry isn't passed to a marketplace of unknown agents" | Homepage, `/plan-your-trip`, `/about`. Based on the confirmed in-house model from the previous pass. |
+| 4.4 | "We don't accept paid placements in our guides" and "No brand pays to be included" (gear lists) | `/about`, homepage trust section, gear widget. The gear lists use Amazon affiliate links (disclosed), which is compatible with this statement but worth a conscious sign-off. |
+| 4.5 | Newsletter frequency "Once a week, every Sunday morning" | `src/lib/contact-faqs.ts` (pre-existing) |
+| 4.6 | "Plain email, no pressure" and "No fake prices" promises in the homepage trust block | Homepage section 11 |
 
-At the user's request, phases 2 (Research), 4 (SEO Mapping), 7 (Rebrand), and 9 (Technical QA) were taken from partial to fully complete:
+## 5. Image licensing
 
-- **All 36 state package pages built** (`/packages/<state>`), not just Rajasthan. Each one's "places covered" content was extracted programmatically from the real "Places to Explore" links already published on that state's hub blog page (`src/lib/state-hub-children.json`) — zero invented cities or routes. Rajasthan alone keeps its hand-curated multi-city routes (`src/lib/rajasthan-routes.ts`); the other 35 show their real destination list instead, honestly, since curated routes for 35 more states would require geographic trip-planning judgment this session didn't verify state-by-state.
-- **All 9 travel-style pages built** (`/packages/<style>`), each linking to 4 real, well-established state fits (e.g. honeymoon → Kerala/Goa/Kashmir/Andaman), not fabricated associations.
-- **`docs/travel-agency-keyword-research.md`** and **`docs/competitor-serp-analysis.md`** written as standalone Phase 2 deliverables (previously only folded into other docs).
-- **`docs/keyword-map-commercial.md`** expanded to all 36 states with state-specific (not templated/stuffed) secondary keywords, plus the 9 style pages.
-- **Technical QA**: this repo had no ESLint config at all before this session (pre-existing gap) — added `.eslintrc.json`. The 583 pre-existing blog pages have thousands of pre-existing `react/no-unescaped-entities` errors (raw apostrophes in JSX text) that are not part of this session's scope to bulk-fix; the rule was disabled to match the codebase's own established convention rather than leaving new pages inconsistent with 583 existing ones. Every file touched this session lints clean, type-checks clean, and the full production build succeeds (646 static pages, including all 45 new package pages). A full internal-link audit script cross-checked every slug referenced in the new data files (`state-hub-children.json`, `rajasthan-routes.ts`, `all-states-data.ts`, `travel-styles-data.ts`) against the real set of 582 published blog slugs — zero broken references found.
+- **693 images** under `public/images/blogs/` have full source and licence records (`IMAGE_CREDITS.json`) and are now credited publicly at **`/image-credits`** (linked in the footer). CC BY and CC BY-SA require visible attribution, which the site previously didn't provide.
+- **259 of the 729 image paths referenced in source have no provenance record.** This includes most of `/images/destinations/*.jpg`: the **Kashmir homepage hero** (`destinations/jammu-kashmir/hero.jpg`), the **Udaipur final-CTA image**, and the Kerala, Andaman, Manali, Goa, Meghalaya and Ladakh heroes. Please confirm their source and licence (e.g. Unsplash/Pexels licence, or purchased) and add them to the credits file. Where a credited alternative of similar quality existed, I used it on the new commercial surfaces (e.g. the Jim Corbett tiger and the Munnar tea estate on the homepage).
+- The Jaipur guide's Open Graph image is a Jaisalmer photo (pre-existing), so social shares of the Jaipur guide show the wrong city. Replace it when a credited Jaipur image is chosen.
 
-Still not built: per-route/per-city package pages, and anything on the blocked list above (policies, phone/WhatsApp CTAs, `LocalBusiness`/registration-dependent schema).
+## 6. Nice to have
 
-## Phase 4 — Phases 5 & 6 completed (2026-09-21, same day, third pass)
-
-- **Phase 6 (internal linking, guide → package direction)**: closed via one shared-component edit rather than 582 file edits — `src/components/ui/RelatedPosts.tsx` (imported by 582 of 583 blog pages) now shows a "Plan a `<State>` Trip" CTA, driven by a new lookup (`src/lib/blog-package-link.ts`) built from real Phase 7 data. Verified 100% coverage: all 582 blog slugs resolve to a real package page. Two placements (sidebar + in-article banner) because the sidebar is desktop-only (`hidden xl:block`) — the in-article banner covers mobile. Full writeup in `docs/internal-linking-audit.md`.
-- **Phase 5 (commercial content-gap analysis)**: `docs/content-gap-analysis.md` written. One real, research-backed gap identified and *not yet built*: dedicated combo pages for "Golden Triangle" (Delhi–Agra–Jaipur) and "Char Dham Yatra" — both are established named commercial search terms already partially referenced in existing site content but without their own package page. Recommended as the next commercial page addition, not built this pass.
-- Re-verified after these changes: clean `tsc --noEmit`, clean full-repo ESLint, clean production build (646 pages).
+- A logo file (the site uses an SVG globe icon plus text), and a proper favicon and `apple-touch-icon` (currently `favicon.ico` for everything, which is also used as the schema logo; Google prefers a ≥112px raster logo).
+- A dedicated OG image for the agency positioning (1200×630) to replace `/og-default.jpg`.
+- Google Search Console access, to check indexing of the 48 package pages and CTR on the new homepage title.

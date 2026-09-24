@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -82,10 +83,10 @@ const tableOfContents = [
 const NAMDAPHA_GEAR: GearSection[] = [{
   title: "Things Worth Carrying", subtitle: "Gear for a remote, multi-day forest trek", emoji: "🐆",
   items: [
-    { name: "Sturdy Trekking Boots", description: "Namdapha's terrain spans lowland tropical forest to high-altitude sections — proper boots matter across the elevation range.", price: "₹3,499", rating: 4.5, reviews: "6.2k", image: "🥾", affiliateUrl: amazonSearchUrl("sturdy+trekking+boots+forest"), tag: "Non-negotiable", tagColor: "bg-red-100 text-red-700", why: "Terrain here is genuinely varied and often muddy or uneven across the park's altitude range." },
-    { name: "Binoculars", description: "Given how rare cat sightings genuinely are, binoculars matter for the park's exceptional bird and general wildlife diversity instead.", price: "₹1,999", rating: 4.5, reviews: "6.5k", image: "🔭", affiliateUrl: amazonSearchUrl("binoculars+wildlife+birdwatching"), tag: "Biodiversity essential", tagColor: "bg-amber-100 text-amber-700", why: "Namdapha's real draw is its exceptional plant and bird diversity, not guaranteed cat sightings." },
-    { name: "Insect Repellent", description: "Dense, humid forest terrain makes this essential across most of the park.", price: "₹199", rating: 4.3, reviews: "4.2k", image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+trekking"), tag: "Forest essential", tagColor: "bg-forest-100 text-forest-700", why: "Namdapha's lowland forest sections are genuinely humid and insect-heavy." },
-    { name: "Rain Layer", description: "Weather can shift quickly across the park's varied terrain, even outside peak monsoon.", price: "₹899", rating: 4.4, reviews: "5.1k", image: "🌂", affiliateUrl: amazonSearchUrl("packable+rain+jacket+trekking"), tag: "Weather essential", tagColor: "bg-sky-100 text-sky-700", why: "Namdapha's altitude range means genuinely unpredictable weather in different park sections." },
+    { name: "Sturdy Trekking Boots", description: "Namdapha's terrain spans lowland tropical forest to high-altitude sections — proper boots matter across the elevation range.", price: "₹3,499",  image: "🥾", affiliateUrl: amazonSearchUrl("sturdy+trekking+boots+forest"), tag: "Non-negotiable", tagColor: "bg-red-100 text-red-700", why: "Terrain here is genuinely varied and often muddy or uneven across the park's altitude range." },
+    { name: "Binoculars", description: "Given how rare cat sightings genuinely are, binoculars matter for the park's exceptional bird and general wildlife diversity instead.", price: "₹1,999",  image: "🔭", affiliateUrl: amazonSearchUrl("binoculars+wildlife+birdwatching"), tag: "Biodiversity essential", tagColor: "bg-amber-100 text-amber-700", why: "Namdapha's real draw is its exceptional plant and bird diversity, not guaranteed cat sightings." },
+    { name: "Insect Repellent", description: "Dense, humid forest terrain makes this essential across most of the park.", price: "₹199",  image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+trekking"), tag: "Forest essential", tagColor: "bg-forest-100 text-forest-700", why: "Namdapha's lowland forest sections are genuinely humid and insect-heavy." },
+    { name: "Rain Layer", description: "Weather can shift quickly across the park's varied terrain, even outside peak monsoon.", price: "₹899",  image: "🌂", affiliateUrl: amazonSearchUrl("packable+rain+jacket+trekking"), tag: "Weather essential", tagColor: "bg-sky-100 text-sky-700", why: "Namdapha's altitude range means genuinely unpredictable weather in different park sections." },
   ],
 }];
 
@@ -165,6 +166,8 @@ export default function NamdaphaGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="namdapha-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Namdapha</h2>

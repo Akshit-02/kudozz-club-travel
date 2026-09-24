@@ -3,6 +3,7 @@ import { posts, featuredPost } from "@/lib/blog-posts";
 import blogLastmod from "@/lib/blog-lastmod.json";
 import { allStatePackages } from "@/lib/all-states-data";
 import { travelStylesData } from "@/lib/travel-styles-data";
+import { comboPackages } from "@/lib/combo-packages";
 
 const BASE_URL = "https://club.kudozz.in";
 
@@ -60,11 +61,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly",
       priority: 0.8,
     },
-    { url: `${BASE_URL}/packages`, changeFrequency: "weekly", priority: 0.8 },
+    { url: `${BASE_URL}/packages`, changeFrequency: "weekly", priority: 0.9 },
     {
       url: `${BASE_URL}/plan-your-trip`,
       changeFrequency: "monthly",
-      priority: 0.7,
+      priority: 0.9,
     },
     { url: `${BASE_URL}/about`, changeFrequency: "monthly", priority: 0.5 },
     { url: `${BASE_URL}/contact`, changeFrequency: "monthly", priority: 0.4 },
@@ -96,13 +97,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }),
   );
 
-  const statePackageRoutes: MetadataRoute.Sitemap = allStatePackages.map(
-    (s) => ({
-      url: `${BASE_URL}/packages/${s.slug}`,
-      changeFrequency: "weekly",
-      priority: 0.7,
-    }),
-  );
+  const statePackageRoutes: MetadataRoute.Sitemap = [
+    ...allStatePackages,
+    ...comboPackages,
+  ].map((s) => ({
+    url: `${BASE_URL}/packages/${s.slug}`,
+    changeFrequency: "weekly",
+    priority: 0.8,
+  }));
 
   const stylePackageRoutes: MetadataRoute.Sitemap = travelStylesData.map(
     (s) => ({

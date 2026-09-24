@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -163,8 +164,6 @@ const KHAJURAHO_GEAR: GearSection[] = [
         description:
           "The Western Group alone covers a wide, paved but sun-exposed complex — comfortable closed shoes make a multi-hour visit far easier than sandals.",
         price: "₹1,499",
-        rating: 4.4,
-        reviews: "6.8k",
         image: "👟",
         affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
         tag: "Temple-visit essential",
@@ -176,8 +175,6 @@ const KHAJURAHO_GEAR: GearSection[] = [
         description:
           "Khajuraho's temple complexes have minimal shade, and a full circuit of the Western Group easily runs past two hours in open sun.",
         price: "₹399",
-        rating: 4.3,
-        reviews: "3.9k",
         image: "👒",
         affiliateUrl: amazonSearchUrl("wide+brim+sun+hat+travel"),
         tag: "Sun essential",
@@ -189,8 +186,6 @@ const KHAJURAHO_GEAR: GearSection[] = [
         description:
           "Much of Khajuraho's finest detail carving sits high on the temple shikharas (spires) — binoculars bring the upper panels into view.",
         price: "₹899",
-        rating: 4.3,
-        reviews: "2.7k",
         image: "🔭",
         affiliateUrl: amazonSearchUrl("compact+binoculars+travel"),
         tag: "Detail essential",
@@ -202,8 +197,6 @@ const KHAJURAHO_GEAR: GearSection[] = [
         description:
           "A day covering all three temple groups means several hours outdoors with limited shaded rest points between sites.",
         price: "₹449",
-        rating: 4.5,
-        reviews: "6.2k",
         image: "💧",
         affiliateUrl: amazonSearchUrl("2l+hydration+water+bottle+travel"),
         tag: "All-day essential",
@@ -215,8 +208,6 @@ const KHAJURAHO_GEAR: GearSection[] = [
         description:
           "For capturing the temple carving detail from ground level without needing to climb onto restricted platforms.",
         price: "₹—",
-        rating: 4.4,
-        reviews: "3.1k",
         image: "📷",
         affiliateUrl: amazonSearchUrl("mirrorless+camera+zoom+lens+travel"),
         tag: "Photography essential",
@@ -227,8 +218,6 @@ const KHAJURAHO_GEAR: GearSection[] = [
         name: "Reef-Safe Sunscreen (SPF 50)",
         description: "Open stone courtyards at all three temple groups offer little shade during peak daylight hours.",
         price: "₹599",
-        rating: 4.5,
-        reviews: "7.4k",
         image: "🧴",
         affiliateUrl: amazonSearchUrl("sunscreen+SPF+50+travel"),
         tag: "Sun essential",
@@ -387,6 +376,8 @@ export default function KhajurahoGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="khajuraho-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Khajuraho</h2>

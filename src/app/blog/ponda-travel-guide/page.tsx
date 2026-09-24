@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -107,10 +108,10 @@ const PONDA_GEAR: GearSection[] = [
     subtitle: "Gear for temple visits and plantation walks",
     emoji: "🌶️",
     items: [
-      { name: "Modest Cotton Clothing", description: "Ponda's temples are active Hindu worship sites — covered shoulders and knees are expected.", price: "₹599", rating: 4.4, reviews: "3.9k", image: "👕", affiliateUrl: amazonSearchUrl("modest+travel+clothing"), tag: "Temple essential", tagColor: "bg-purple-100 text-purple-700", why: "These are working temples with real devotees, not tourist reconstructions — modest dress matters here." },
-      { name: "Comfortable Walking Shoes", description: "For plantation tours that involve walking uneven, sometimes muddy paths through working farmland.", price: "₹1,999", rating: 4.4, reviews: "5.3k", image: "🥾", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Plantation essential", tagColor: "bg-forest-100 text-forest-700", why: "Spice plantation grounds are working farms, not paved paths." },
-      { name: "Insect Repellent", description: "Plantation walks through dense, shaded vegetation bring a real mosquito presence.", price: "₹199", rating: 4.3, reviews: "4.2k", image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Plantation essential", tagColor: "bg-amber-100 text-amber-700", why: "The same shade and moisture that spices need also suits mosquitoes well." },
-      { name: "Camera", description: "For the temples' distinctive Indo-Portuguese architecture and the plantation's greenery.", price: "₹—", rating: 4.5, reviews: "—", image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-sky-100 text-sky-700", why: "Ponda's temple architecture is genuinely distinctive and worth capturing." },
+      { name: "Modest Cotton Clothing", description: "Ponda's temples are active Hindu worship sites — covered shoulders and knees are expected.", price: "₹599",  image: "👕", affiliateUrl: amazonSearchUrl("modest+travel+clothing"), tag: "Temple essential", tagColor: "bg-purple-100 text-purple-700", why: "These are working temples with real devotees, not tourist reconstructions — modest dress matters here." },
+      { name: "Comfortable Walking Shoes", description: "For plantation tours that involve walking uneven, sometimes muddy paths through working farmland.", price: "₹1,999",  image: "🥾", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Plantation essential", tagColor: "bg-forest-100 text-forest-700", why: "Spice plantation grounds are working farms, not paved paths." },
+      { name: "Insect Repellent", description: "Plantation walks through dense, shaded vegetation bring a real mosquito presence.", price: "₹199",  image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Plantation essential", tagColor: "bg-amber-100 text-amber-700", why: "The same shade and moisture that spices need also suits mosquitoes well." },
+      { name: "Camera", description: "For the temples' distinctive Indo-Portuguese architecture and the plantation's greenery.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-sky-100 text-sky-700", why: "Ponda's temple architecture is genuinely distinctive and worth capturing." },
     ],
   },
 ];
@@ -197,6 +198,8 @@ export default function PondaGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="ponda-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Ponda</h2>

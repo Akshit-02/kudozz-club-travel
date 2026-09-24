@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -201,8 +202,6 @@ const BIHAR_GEAR: GearSection[] = [
         description:
           "Nalanda's ruins and the Mahabodhi Temple complex both involve significant walking on stone and gravel paths, often barefoot at the shrine itself.",
         price: "₹1,499",
-        rating: 4.4,
-        reviews: "8.2k",
         image: "👟",
         affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
         tag: "Sightseeing essential",
@@ -214,8 +213,6 @@ const BIHAR_GEAR: GearSection[] = [
         description:
           "Bihar's Gangetic plain gets brutally hot outside the winter months, with long hours of direct sun at open ruin sites like Nalanda.",
         price: "₹399",
-        rating: 4.5,
-        reviews: "10k",
         image: "🧴",
         affiliateUrl: amazonSearchUrl("sunscreen+spf+50+travel"),
         tag: "Everyday essential",
@@ -227,8 +224,6 @@ const BIHAR_GEAR: GearSection[] = [
         description:
           "Useful across long days moving between Bodh Gaya, Nalanda, Rajgir, and Patna in Bihar's dry heat.",
         price: "₹699",
-        rating: 4.5,
-        reviews: "9.3k",
         image: "🍶",
         affiliateUrl: amazonSearchUrl("insulated+water+bottle+steel"),
         tag: "Everyday essential",
@@ -240,8 +235,6 @@ const BIHAR_GEAR: GearSection[] = [
         description:
           "Handy for long road transfers between Bodh Gaya, Nalanda/Rajgir, and Patna, where charging stops can be infrequent.",
         price: "₹1,299",
-        rating: 4.5,
-        reviews: "9.7k",
         image: "🔋",
         affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
         tag: "Day-trip essential",
@@ -253,8 +246,6 @@ const BIHAR_GEAR: GearSection[] = [
         description:
           "A compact kit with essentials for stomach upset, cuts, and headaches — useful outside Bodh Gaya and Patna where clinics thin out.",
         price: "₹499",
-        rating: 4.3,
-        reviews: "4.1k",
         image: "🩹",
         affiliateUrl: amazonSearchUrl("travel+first+aid+kit"),
         tag: "Peace of mind",
@@ -266,8 +257,6 @@ const BIHAR_GEAR: GearSection[] = [
         description:
           "Loose, covering clothing that's respectful at the Mahabodhi Temple, Patna Sahib Gurdwara, and other active religious sites.",
         price: "₹899",
-        rating: 4.3,
-        reviews: "3.6k",
         image: "🧣",
         affiliateUrl: amazonSearchUrl("modest+travel+clothing+cotton"),
         tag: "Respectful travel",
@@ -524,6 +513,8 @@ export default function BiharGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="bihar-travel-guide" />
 
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">

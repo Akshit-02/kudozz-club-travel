@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -107,10 +108,10 @@ const DHOLAVIRA_GEAR: GearSection[] = [
     subtitle: "Gear for an exposed archaeological site in remote Kutch",
     emoji: "🏺",
     items: [
-      { name: "Wide-Brim Sun Hat", description: "Dholavira's excavated site offers essentially no shade — real sun protection matters here.", price: "₹399", rating: 4.4, reviews: "4.1k", image: "👒", affiliateUrl: amazonSearchUrl("wide+brim+sun+hat+travel"), tag: "Site essential", tagColor: "bg-amber-100 text-amber-700", why: "This is one of the most exposed heritage sites on the site's Gujarat coverage — shade is essentially nonexistent." },
-      { name: "High-SPF Sunscreen", description: "Extended walking across the exposed excavated grounds under direct Kutch sun.", price: "₹599", rating: 4.5, reviews: "7.4k", image: "🧴", affiliateUrl: amazonSearchUrl("high+spf+sunscreen+travel"), tag: "Non-negotiable", tagColor: "bg-red-100 text-red-700", why: "Sunburn is a real, common regret for visitors who underestimate this site's exposure." },
-      { name: "2L Hydration Bottle", description: "Facilities near the remote site are minimal — carrying enough water is essential.", price: "₹449", rating: 4.5, reviews: "6.2k", image: "💧", affiliateUrl: amazonSearchUrl("2l+hydration+water+bottle+travel"), tag: "Remote-site essential", tagColor: "bg-sky-100 text-sky-700", why: "Given the distance from any town, running out of water here is a genuine problem, not just an inconvenience." },
-      { name: "Comfortable Walking Shoes", description: "For navigating the uneven excavated terrain of the citadel, middle town, and lower town.", price: "₹1,999", rating: 4.4, reviews: "5.3k", image: "🥾", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+outdoor"), tag: "Site essential", tagColor: "bg-forest-100 text-forest-700", why: "The excavated grounds are uneven stone and packed earth, not paved paths." },
+      { name: "Wide-Brim Sun Hat", description: "Dholavira's excavated site offers essentially no shade — real sun protection matters here.", price: "₹399",  image: "👒", affiliateUrl: amazonSearchUrl("wide+brim+sun+hat+travel"), tag: "Site essential", tagColor: "bg-amber-100 text-amber-700", why: "This is one of the most exposed heritage sites on the site's Gujarat coverage — shade is essentially nonexistent." },
+      { name: "High-SPF Sunscreen", description: "Extended walking across the exposed excavated grounds under direct Kutch sun.", price: "₹599",  image: "🧴", affiliateUrl: amazonSearchUrl("high+spf+sunscreen+travel"), tag: "Non-negotiable", tagColor: "bg-red-100 text-red-700", why: "Sunburn is a real, common regret for visitors who underestimate this site's exposure." },
+      { name: "2L Hydration Bottle", description: "Facilities near the remote site are minimal — carrying enough water is essential.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("2l+hydration+water+bottle+travel"), tag: "Remote-site essential", tagColor: "bg-sky-100 text-sky-700", why: "Given the distance from any town, running out of water here is a genuine problem, not just an inconvenience." },
+      { name: "Comfortable Walking Shoes", description: "For navigating the uneven excavated terrain of the citadel, middle town, and lower town.", price: "₹1,999",  image: "🥾", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+outdoor"), tag: "Site essential", tagColor: "bg-forest-100 text-forest-700", why: "The excavated grounds are uneven stone and packed earth, not paved paths." },
     ],
   },
 ];
@@ -197,6 +198,8 @@ export default function DholaviraGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="dholavira-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Dholavira</h2>

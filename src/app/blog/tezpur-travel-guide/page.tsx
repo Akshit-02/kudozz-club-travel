@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -81,10 +82,10 @@ const tableOfContents = [
 const TEZPUR_GEAR: GearSection[] = [{
   title: "Things Worth Carrying", subtitle: "Gear for riverside walks and heritage-ruin stops", emoji: "🏞️",
   items: [
-    { name: "Comfortable Walking Shoes", description: "For exploring Agnigarh Hill, Cole Park, and the scattered ruins around town.", price: "₹1,999", rating: 4.4, reviews: "5.3k", image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-amber-100 text-amber-700", why: "Tezpur's sights are spread across town, with genuine walking between several of them." },
-    { name: "Camera", description: "For the Brahmaputra sunset views from Agnigarh Hill and the ancient carved ruins at Da Parbatia.", price: "₹—", rating: 4.5, reviews: "—", image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-sky-100 text-sky-700", why: "Agnigarh's river views and Da Parbatia's carvings are genuinely photogenic." },
-    { name: "Sun Hat", description: "Several of Tezpur's sights involve time outdoors in direct sun.", price: "₹399", rating: 4.3, reviews: "4.0k", image: "🧢", affiliateUrl: amazonSearchUrl("sun+hat+travel+outdoor"), tag: "Comfort essential", tagColor: "bg-forest-100 text-forest-700", why: "Hilltop and riverside viewpoints offer little shade." },
-    { name: "Reusable Water Bottle", description: "For a full day of sightseeing between spread-out sites.", price: "₹449", rating: 4.5, reviews: "6.2k", image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "All-day essential", tagColor: "bg-purple-100 text-purple-700", why: "Facilities thin out between Tezpur's more scattered heritage sites." },
+    { name: "Comfortable Walking Shoes", description: "For exploring Agnigarh Hill, Cole Park, and the scattered ruins around town.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-amber-100 text-amber-700", why: "Tezpur's sights are spread across town, with genuine walking between several of them." },
+    { name: "Camera", description: "For the Brahmaputra sunset views from Agnigarh Hill and the ancient carved ruins at Da Parbatia.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-sky-100 text-sky-700", why: "Agnigarh's river views and Da Parbatia's carvings are genuinely photogenic." },
+    { name: "Sun Hat", description: "Several of Tezpur's sights involve time outdoors in direct sun.", price: "₹399",  image: "🧢", affiliateUrl: amazonSearchUrl("sun+hat+travel+outdoor"), tag: "Comfort essential", tagColor: "bg-forest-100 text-forest-700", why: "Hilltop and riverside viewpoints offer little shade." },
+    { name: "Reusable Water Bottle", description: "For a full day of sightseeing between spread-out sites.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "All-day essential", tagColor: "bg-purple-100 text-purple-700", why: "Facilities thin out between Tezpur's more scattered heritage sites." },
   ],
 }];
 
@@ -164,6 +165,8 @@ export default function TezpurGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="tezpur-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Tezpur</h2>

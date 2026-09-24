@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -107,10 +108,10 @@ const MORJIM_GEAR: GearSection[] = [
     subtitle: "Gear for a quiet North Goa beach stay",
     emoji: "🐢",
     items: [
-      { name: "Reef-Safe Sunscreen (SPF 50)", description: "Morjim's long, open beach means extended sun exposure for anyone settling in for the day.", price: "₹599", rating: 4.5, reviews: "7.4k", image: "🧴", affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+SPF+50"), tag: "Beach essential", tagColor: "bg-amber-100 text-amber-700", why: "A full beach day here means hours of direct sun without much shade." },
-      { name: "Binoculars", description: "Useful for birdwatching near the Chapora river mouth, a genuinely good spot for waterbirds.", price: "₹1,999", rating: 4.5, reviews: "6.5k", image: "🔭", affiliateUrl: amazonSearchUrl("binoculars+wildlife+birdwatching"), tag: "Nature essential", tagColor: "bg-forest-100 text-forest-700", why: "The river-mouth area near Morjim draws a decent range of waterbirds worth spotting." },
-      { name: "Waterproof Phone Pouch", description: "For river-mouth boat trips and swimming without worrying about a dropped phone.", price: "₹299", rating: 4.3, reviews: "9.1k", image: "📱", affiliateUrl: amazonSearchUrl("waterproof+phone+pouch+beach"), tag: "Boat-trip essential", tagColor: "bg-sky-100 text-sky-700", why: "River crossings and boat trips carry real risk for an unprotected phone." },
-      { name: "Comfortable Sandals", description: "For walking between the beach, the river mouth, and nearby Ashwem or Mandrem.", price: "₹899", rating: 4.4, reviews: "4.8k", image: "👡", affiliateUrl: amazonSearchUrl("comfortable+sandals+travel"), tag: "All-day essential", tagColor: "bg-purple-100 text-purple-700", why: "Morjim's beach and river-adjacent paths are sandy and uneven." },
+      { name: "Reef-Safe Sunscreen (SPF 50)", description: "Morjim's long, open beach means extended sun exposure for anyone settling in for the day.", price: "₹599",  image: "🧴", affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+SPF+50"), tag: "Beach essential", tagColor: "bg-amber-100 text-amber-700", why: "A full beach day here means hours of direct sun without much shade." },
+      { name: "Binoculars", description: "Useful for birdwatching near the Chapora river mouth, a genuinely good spot for waterbirds.", price: "₹1,999",  image: "🔭", affiliateUrl: amazonSearchUrl("binoculars+wildlife+birdwatching"), tag: "Nature essential", tagColor: "bg-forest-100 text-forest-700", why: "The river-mouth area near Morjim draws a decent range of waterbirds worth spotting." },
+      { name: "Waterproof Phone Pouch", description: "For river-mouth boat trips and swimming without worrying about a dropped phone.", price: "₹299",  image: "📱", affiliateUrl: amazonSearchUrl("waterproof+phone+pouch+beach"), tag: "Boat-trip essential", tagColor: "bg-sky-100 text-sky-700", why: "River crossings and boat trips carry real risk for an unprotected phone." },
+      { name: "Comfortable Sandals", description: "For walking between the beach, the river mouth, and nearby Ashwem or Mandrem.", price: "₹899",  image: "👡", affiliateUrl: amazonSearchUrl("comfortable+sandals+travel"), tag: "All-day essential", tagColor: "bg-purple-100 text-purple-700", why: "Morjim's beach and river-adjacent paths are sandy and uneven." },
     ],
   },
 ];
@@ -197,6 +198,8 @@ export default function MorjimGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="morjim-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Morjim</h2>

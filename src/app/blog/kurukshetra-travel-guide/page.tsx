@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -132,8 +133,6 @@ const KURUKSHETRA_GEAR: GearSection[] = [
         name: "Modest Cotton Clothing",
         description: "Kurukshetra is an active pilgrimage town — modest dress is expected at Brahma Sarovar and the surrounding temples.",
         price: "₹599",
-        rating: 4.4,
-        reviews: "3.9k",
         image: "👕",
         affiliateUrl: amazonSearchUrl("modest+cotton+travel+clothing"),
         tag: "Temple essential",
@@ -144,8 +143,6 @@ const KURUKSHETRA_GEAR: GearSection[] = [
         name: "Comfortable Walking Shoes",
         description: "For covering ground between Jyotisar, Brahma Sarovar, and the Panorama Science Centre, which are spread across the town.",
         price: "₹1,999",
-        rating: 4.4,
-        reviews: "5.3k",
         image: "👟",
         affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
         tag: "Sightseeing essential",
@@ -156,8 +153,6 @@ const KURUKSHETRA_GEAR: GearSection[] = [
         name: "Small Bag for Shoes/Valuables",
         description: "Useful at Brahma Sarovar and other ghat-side temple areas where footwear needs to come off.",
         price: "₹299",
-        rating: 4.3,
-        reviews: "2.8k",
         image: "🎒",
         affiliateUrl: amazonSearchUrl("small+travel+pouch+bag"),
         tag: "Ghat essential",
@@ -168,8 +163,6 @@ const KURUKSHETRA_GEAR: GearSection[] = [
         name: "Reusable Water Bottle",
         description: "For a full day of walking between the town's spread-out religious and historical sites.",
         price: "₹449",
-        rating: 4.5,
-        reviews: "6.2k",
         image: "💧",
         affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"),
         tag: "All-day essential",
@@ -300,6 +293,8 @@ export default function KurukshetraGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="kurukshetra-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Kurukshetra</h2>

@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -81,10 +82,10 @@ const tableOfContents = [
 const NARNAUL_GEAR: GearSection[] = [{
   title: "Things Worth Carrying", subtitle: "Gear for a monument-hopping heritage day", emoji: "🕌",
   items: [
-    { name: "Comfortable Walking Shoes", description: "For covering the town's monument cluster on foot across a full day.", price: "₹1,999", rating: 4.4, reviews: "5.3k", image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Sightseeing essential", tagColor: "bg-amber-100 text-amber-700", why: "Narnaul's monuments are spread across town, requiring a fair amount of walking." },
-    { name: "Sun Hat", description: "For a comfortable day outdoors at open-air tomb and garden sites.", price: "₹499", rating: 4.4, reviews: "5.0k", image: "🧢", affiliateUrl: amazonSearchUrl("sun+hat+travel+outdoor"), tag: "Comfort essential", tagColor: "bg-sky-100 text-sky-700", why: "Most sites offer limited shade around the monument grounds." },
-    { name: "Camera", description: "The tombs' architectural detail rewards close photography.", price: "₹—", rating: 4.5, reviews: "—", image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Photography essential", tagColor: "bg-forest-100 text-forest-700", why: "Narnaul's Mughal-era architecture is genuinely underrated and photogenic." },
-    { name: "Background Reading / Offline Guide", description: "On-site interpretation can be limited — a bit of pre-trip reading adds real context.", price: "₹—", rating: 4.5, reviews: "—", image: "📖", affiliateUrl: amazonSearchUrl("north+india+heritage+travel+guide+book"), tag: "Context essential", tagColor: "bg-purple-100 text-purple-700", why: "Without context, the monuments' historical significance can be easy to miss." },
+    { name: "Comfortable Walking Shoes", description: "For covering the town's monument cluster on foot across a full day.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Sightseeing essential", tagColor: "bg-amber-100 text-amber-700", why: "Narnaul's monuments are spread across town, requiring a fair amount of walking." },
+    { name: "Sun Hat", description: "For a comfortable day outdoors at open-air tomb and garden sites.", price: "₹499",  image: "🧢", affiliateUrl: amazonSearchUrl("sun+hat+travel+outdoor"), tag: "Comfort essential", tagColor: "bg-sky-100 text-sky-700", why: "Most sites offer limited shade around the monument grounds." },
+    { name: "Camera", description: "The tombs' architectural detail rewards close photography.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Photography essential", tagColor: "bg-forest-100 text-forest-700", why: "Narnaul's Mughal-era architecture is genuinely underrated and photogenic." },
+    { name: "Background Reading / Offline Guide", description: "On-site interpretation can be limited — a bit of pre-trip reading adds real context.", price: "₹—",  image: "📖", affiliateUrl: amazonSearchUrl("north+india+heritage+travel+guide+book"), tag: "Context essential", tagColor: "bg-purple-100 text-purple-700", why: "Without context, the monuments' historical significance can be easy to miss." },
   ],
 }];
 
@@ -164,6 +165,8 @@ export default function NarnaulGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="narnaul-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Narnaul</h2>

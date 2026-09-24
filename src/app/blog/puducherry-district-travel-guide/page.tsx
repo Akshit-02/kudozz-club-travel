@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -201,8 +202,6 @@ const PUDUCHERRY_DISTRICT_GEAR: GearSection[] = [
         description:
           "Useful across White Town's cobbled lanes, Villianur's temple courtyards, and the walk down to Chunnambar's boat point.",
         price: "₹1,299",
-        rating: 4.4,
-        reviews: "8.2k",
         image: "👡",
         affiliateUrl: amazonSearchUrl("comfortable+walking+sandals+travel"),
         tag: "All-day essential",
@@ -214,8 +213,6 @@ const PUDUCHERRY_DISTRICT_GEAR: GearSection[] = [
         description:
           "Covered shoulders and knees for visits to the Villianur Temple, Bahour's Sri Moolanathaswamy Temple, and Puducherry's Manakula Vinayagar Temple.",
         price: "₹899",
-        rating: 4.3,
-        reviews: "3.1k",
         image: "🧣",
         affiliateUrl: amazonSearchUrl("travel+modest+clothing+scarf"),
         tag: "Temple essential",
@@ -227,8 +224,6 @@ const PUDUCHERRY_DISTRICT_GEAR: GearSection[] = [
         description:
           "For open stretches at Promenade Beach, Auroville Beach, Bahour Lake, and the boat ride out to Paradise Beach from Chunnambar.",
         price: "₹549",
-        rating: 4.5,
-        reviews: "11k",
         image: "🧴",
         affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+spf+50"),
         tag: "Daily essential",
@@ -240,8 +235,6 @@ const PUDUCHERRY_DISTRICT_GEAR: GearSection[] = [
         description:
           "Worth having at Bahour Lake and the wetlands around it, and along the Chunnambar backwaters near Ariyankuppam.",
         price: "₹1,499",
-        rating: 4.3,
-        reviews: "2.8k",
         image: "🔭",
         affiliateUrl: amazonSearchUrl("compact+binoculars+birdwatching"),
         tag: "Wetland essential",
@@ -253,8 +246,6 @@ const PUDUCHERRY_DISTRICT_GEAR: GearSection[] = [
         description:
           "Handy for the rural stretches around Nettapakkam and Bahour, and Auroville's forested paths near dusk.",
         price: "₹199",
-        rating: 4.3,
-        reviews: "12k",
         image: "🦟",
         affiliateUrl: amazonSearchUrl("mosquito+repellent+travel"),
         tag: "Rural essential",
@@ -266,8 +257,6 @@ const PUDUCHERRY_DISTRICT_GEAR: GearSection[] = [
         description:
           "Useful across a multi-town day covering Villianur, Bahour, and Ariyankuppam, where charging points are far more limited than in Puducherry town.",
         price: "₹1,299",
-        rating: 4.5,
-        reviews: "9.7k",
         image: "🔋",
         affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
         tag: "Day-trip essential",
@@ -514,6 +503,8 @@ export default function PuducherryDistrictGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="puducherry-district-travel-guide" />
 
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">

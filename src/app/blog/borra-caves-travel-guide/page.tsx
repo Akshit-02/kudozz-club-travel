@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -152,8 +153,6 @@ const BORRA_GEAR: GearSection[] = [
         name: "Grippy Closed-Toe Shoes",
         description: "The cave interior is naturally damp and can be slippery in sections.",
         price: "₹1,999",
-        rating: 4.4,
-        reviews: "5.3k",
         image: "🥾",
         affiliateUrl: amazonSearchUrl("grippy+outdoor+shoes+travel"),
         tag: "Cave essential",
@@ -164,8 +163,6 @@ const BORRA_GEAR: GearSection[] = [
         name: "Light Jacket",
         description: "Caves maintain a naturally cool interior temperature regardless of the weather outside.",
         price: "₹999",
-        rating: 4.4,
-        reviews: "3.9k",
         image: "🧥",
         affiliateUrl: amazonSearchUrl("light+jacket+travel"),
         tag: "Comfort essential",
@@ -176,8 +173,6 @@ const BORRA_GEAR: GearSection[] = [
         name: "Small Torch",
         description: "Useful as backup lighting beyond the developed, lit walking path.",
         price: "₹299",
-        rating: 4.3,
-        reviews: "4.6k",
         image: "🔦",
         affiliateUrl: amazonSearchUrl("small+led+torch+travel"),
         tag: "Backup essential",
@@ -188,8 +183,6 @@ const BORRA_GEAR: GearSection[] = [
         name: "Camera",
         description: "For the stalactite/stalagmite formations, genuinely one of the visual highlights of the site.",
         price: "₹—",
-        rating: 4.5,
-        reviews: "—",
         image: "📷",
         affiliateUrl: amazonSearchUrl("compact+camera+low+light"),
         tag: "Sightseeing essential",
@@ -351,6 +344,8 @@ export default function BorraCavesGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="borra-caves-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Borra Caves</h2>

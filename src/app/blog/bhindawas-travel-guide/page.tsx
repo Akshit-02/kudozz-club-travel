@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -159,8 +160,6 @@ const BHINDAWAS_GEAR: GearSection[] = [
         description:
           "Non-negotiable here — most of the birdlife sits well out over open water, and you won't get a real look without them.",
         price: "₹2,499",
-        rating: 4.5,
-        reviews: "6.1k",
         image: "🔭",
         affiliateUrl: amazonSearchUrl("binoculars+8x42+birdwatching"),
         tag: "Essential",
@@ -172,8 +171,6 @@ const BHINDAWAS_GEAR: GearSection[] = [
         description:
           "For anyone wanting usable bird photographs rather than just a good look through binoculars.",
         price: "₹8,999",
-        rating: 4.4,
-        reviews: "2.3k",
         image: "📷",
         affiliateUrl: amazonSearchUrl("telephoto+zoom+camera+birdwatching"),
         tag: "Recommended",
@@ -184,8 +181,6 @@ const BHINDAWAS_GEAR: GearSection[] = [
         name: "Neutral-Toned Clothing",
         description: "Muted greens, browns, and greys keep you less conspicuous near the water's edge.",
         price: "₹899",
-        rating: 4.3,
-        reviews: "3.4k",
         image: "🧥",
         affiliateUrl: amazonSearchUrl("neutral+outdoor+birdwatching+clothing"),
         tag: "Good Practice",
@@ -196,8 +191,6 @@ const BHINDAWAS_GEAR: GearSection[] = [
         name: "Water and Snacks",
         description: "There are essentially no shops or stalls inside the sanctuary — come prepared.",
         price: "—",
-        rating: 4.5,
-        reviews: "—",
         image: "🥤",
         affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"),
         tag: "Essential",
@@ -356,6 +349,8 @@ export default function BhindawasGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="bhindawas-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Bhindawas</h2>

@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -107,10 +108,10 @@ const DONGARGARH_GEAR: GearSection[] = [
     subtitle: "Gear for the temple climb and pilgrimage crowds",
     emoji: "🛕",
     items: [
-      { name: "Comfortable Walking/Climbing Shoes", description: "For the roughly 1,000-step climb to Bade Bamleshwari Temple, should you choose the stairs over the ropeway.", price: "₹1,999", rating: 4.4, reviews: "5.3k", image: "🥾", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Climb essential", tagColor: "bg-amber-100 text-amber-700", why: "Close to a thousand stone steps is a genuine workout — proper footwear matters." },
-      { name: "Modest Clothing", description: "Standard temple-visit etiquette applies at this active pilgrimage site.", price: "₹599", rating: 4.4, reviews: "3.9k", image: "👕", affiliateUrl: amazonSearchUrl("modest+travel+clothing"), tag: "Temple essential", tagColor: "bg-purple-100 text-purple-700", why: "Dongargarh is a genuine, active pilgrimage destination, not a tourist reconstruction." },
-      { name: "Reusable Water Bottle", description: "The climb and hilltop visit take real time, especially during crowded festival periods.", price: "₹449", rating: 4.5, reviews: "6.2k", image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "Climb essential", tagColor: "bg-sky-100 text-sky-700", why: "Facilities can be limited during peak Navratri crowds." },
-      { name: "Small Daypack", description: "For carrying water, shoes-for-the-return, and any offerings across the visit.", price: "₹699", rating: 4.4, reviews: "4.1k", image: "🎒", affiliateUrl: amazonSearchUrl("small+daypack+travel"), tag: "All-day essential", tagColor: "bg-forest-100 text-forest-700", why: "Keeps your hands free during the climb and temple visit." },
+      { name: "Comfortable Walking/Climbing Shoes", description: "For the roughly 1,000-step climb to Bade Bamleshwari Temple, should you choose the stairs over the ropeway.", price: "₹1,999",  image: "🥾", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Climb essential", tagColor: "bg-amber-100 text-amber-700", why: "Close to a thousand stone steps is a genuine workout — proper footwear matters." },
+      { name: "Modest Clothing", description: "Standard temple-visit etiquette applies at this active pilgrimage site.", price: "₹599",  image: "👕", affiliateUrl: amazonSearchUrl("modest+travel+clothing"), tag: "Temple essential", tagColor: "bg-purple-100 text-purple-700", why: "Dongargarh is a genuine, active pilgrimage destination, not a tourist reconstruction." },
+      { name: "Reusable Water Bottle", description: "The climb and hilltop visit take real time, especially during crowded festival periods.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "Climb essential", tagColor: "bg-sky-100 text-sky-700", why: "Facilities can be limited during peak Navratri crowds." },
+      { name: "Small Daypack", description: "For carrying water, shoes-for-the-return, and any offerings across the visit.", price: "₹699",  image: "🎒", affiliateUrl: amazonSearchUrl("small+daypack+travel"), tag: "All-day essential", tagColor: "bg-forest-100 text-forest-700", why: "Keeps your hands free during the climb and temple visit." },
     ],
   },
 ];
@@ -197,6 +198,8 @@ export default function DongargarhGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="dongargarh-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Dongargarh</h2>

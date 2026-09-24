@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -199,8 +200,6 @@ const AGATTI_GEAR: GearSection[] = [
         description:
           "Agatti's lagoon and beaches offer almost no shade, and reflection off the shallow water intensifies UV exposure well beyond normal beach conditions.",
         price: "₹549",
-        rating: 4.5,
-        reviews: "11k",
         image: "🧴",
         affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+spf+50"),
         tag: "Lagoon essential",
@@ -212,8 +211,6 @@ const AGATTI_GEAR: GearSection[] = [
         description:
           "Full sun coverage for snorkelling, kayaking, and long stretches in the lagoon without reapplying sunscreen every hour.",
         price: "₹899",
-        rating: 4.4,
-        reviews: "6.1k",
         image: "🏊",
         affiliateUrl: amazonSearchUrl("rash+guard+full+sleeve+swim"),
         tag: "Water-sports essential",
@@ -225,8 +222,6 @@ const AGATTI_GEAR: GearSection[] = [
         description:
           "A simple waterproof pouch for photographing Agatti's coral reefs and fish during snorkelling or glass-bottom boat rides.",
         price: "₹399",
-        rating: 4.2,
-        reviews: "8.4k",
         image: "📱",
         affiliateUrl: amazonSearchUrl("waterproof+phone+pouch+diving"),
         tag: "Photo essential",
@@ -238,8 +233,6 @@ const AGATTI_GEAR: GearSection[] = [
         description:
           "Protects against sharp coral and rocky patches while wading into the lagoon or approaching the reef flat at low tide.",
         price: "₹699",
-        rating: 4.3,
-        reviews: "5.2k",
         image: "🩴",
         affiliateUrl: amazonSearchUrl("reef+swim+shoes+water"),
         tag: "Reef essential",
@@ -251,8 +244,6 @@ const AGATTI_GEAR: GearSection[] = [
         description:
           "Cuts glare off the lagoon's flat, mirror-bright water — useful for both comfort and for spotting reef features from a boat.",
         price: "₹799",
-        rating: 4.4,
-        reviews: "7.3k",
         image: "🕶️",
         affiliateUrl: amazonSearchUrl("polarized+sunglasses+travel"),
         tag: "Boat-trip essential",
@@ -264,8 +255,6 @@ const AGATTI_GEAR: GearSection[] = [
         description:
           "Keeps phones, permits, and cash dry during boat transfers between the jetty and dive, snorkel, or lagoon cruise points.",
         price: "₹799",
-        rating: 4.4,
-        reviews: "4.7k",
         image: "🎒",
         affiliateUrl: amazonSearchUrl("waterproof+dry+bag+10l"),
         tag: "Boat-trip essential",
@@ -506,6 +495,8 @@ export default function AgattiIslandGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="agatti-island-travel-guide" />
 
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">

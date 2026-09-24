@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -82,10 +83,10 @@ const tableOfContents = [
 const JAGDALPUR_GEAR: GearSection[] = [{
   title: "Things Worth Carrying", subtitle: "Gear for waterfall day trips and tribal-village visits", emoji: "🌊",
   items: [
-    { name: "Comfortable Walking Shoes", description: "For the Anthropological Museum grounds, tribal haats, and general day-trip walking around Bastar's waterfalls and forest sites.", price: "₹1,999", rating: 4.4, reviews: "5.3k", image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-amber-100 text-amber-700", why: "Between museum grounds, haats, and waterfall viewpoints, a full day covers real ground." },
-    { name: "Modest Respectful Clothing", description: "For tribal village and haat visits — dressing modestly and respectfully matters here more than at typical tourist stops.", price: "₹799", rating: 4.4, reviews: "3.5k", image: "👕", affiliateUrl: amazonSearchUrl("modest+travel+clothing"), tag: "Cultural-visit essential", tagColor: "bg-purple-100 text-purple-700", why: "These are living communities, not staged attractions — respectful dress reflects that." },
-    { name: "Insect Repellent", description: "Forest and lakeside areas around Jagdalpur bring a real mosquito presence, especially at dusk.", price: "₹199", rating: 4.3, reviews: "4.2k", image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Forest essential", tagColor: "bg-forest-100 text-forest-700", why: "Dalpat Sagar and the forested day-trip routes are prime mosquito habitat." },
-    { name: "Camera", description: "For the waterfalls, museum exhibits, and haat scenes — Bastar's landscapes and culture are genuinely photogenic.", price: "₹—", rating: 4.5, reviews: "—", image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-sky-100 text-sky-700", why: "This region offers some of Chhattisgarh's most distinctive photography opportunities." },
+    { name: "Comfortable Walking Shoes", description: "For the Anthropological Museum grounds, tribal haats, and general day-trip walking around Bastar's waterfalls and forest sites.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-amber-100 text-amber-700", why: "Between museum grounds, haats, and waterfall viewpoints, a full day covers real ground." },
+    { name: "Modest Respectful Clothing", description: "For tribal village and haat visits — dressing modestly and respectfully matters here more than at typical tourist stops.", price: "₹799",  image: "👕", affiliateUrl: amazonSearchUrl("modest+travel+clothing"), tag: "Cultural-visit essential", tagColor: "bg-purple-100 text-purple-700", why: "These are living communities, not staged attractions — respectful dress reflects that." },
+    { name: "Insect Repellent", description: "Forest and lakeside areas around Jagdalpur bring a real mosquito presence, especially at dusk.", price: "₹199",  image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Forest essential", tagColor: "bg-forest-100 text-forest-700", why: "Dalpat Sagar and the forested day-trip routes are prime mosquito habitat." },
+    { name: "Camera", description: "For the waterfalls, museum exhibits, and haat scenes — Bastar's landscapes and culture are genuinely photogenic.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-sky-100 text-sky-700", why: "This region offers some of Chhattisgarh's most distinctive photography opportunities." },
   ],
 }];
 
@@ -165,6 +166,8 @@ export default function JagdalpurGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="jagdalpur-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Jagdalpur</h2>

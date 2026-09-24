@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -82,10 +83,10 @@ const tableOfContents = [
 const GUWAHATI_GEAR: GearSection[] = [{
   title: "Things Worth Carrying", subtitle: "Gear for river cruises and city exploring", emoji: "🌅",
   items: [
-    { name: "Light Rain Layer", description: "Assam sees significantly higher rainfall than most of India — useful across most months, not just peak monsoon.", price: "₹899", rating: 4.4, reviews: "5.1k", image: "🌂", affiliateUrl: amazonSearchUrl("packable+rain+jacket+travel"), tag: "Weather essential", tagColor: "bg-sky-100 text-sky-700", why: "Guwahati's rainfall is genuinely higher and less predictable than most Indian cities." },
-    { name: "Comfortable Walking Shoes", description: "For exploring markets, the museum, and temple hill climbs.", price: "₹1,999", rating: 4.4, reviews: "5.3k", image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-amber-100 text-amber-700", why: "A day covering Umananda Temple, the museum, and markets adds up in distance." },
-    { name: "Modest Clothing", description: "For temple visits including Kamakhya and Umananda, both active places of worship.", price: "₹599", rating: 4.4, reviews: "3.9k", image: "👕", affiliateUrl: amazonSearchUrl("modest+travel+clothing"), tag: "Temple essential", tagColor: "bg-purple-100 text-purple-700", why: "Guwahati's major temples are active pilgrimage sites, not just monuments." },
-    { name: "Insect Repellent", description: "Riverside evenings and the humid climate bring mosquitoes.", price: "₹199", rating: 4.3, reviews: "4.2k", image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Evening essential", tagColor: "bg-forest-100 text-forest-700", why: "Brahmaputus riverside evenings, especially during a sunset cruise, are prime mosquito hours." },
+    { name: "Light Rain Layer", description: "Assam sees significantly higher rainfall than most of India — useful across most months, not just peak monsoon.", price: "₹899",  image: "🌂", affiliateUrl: amazonSearchUrl("packable+rain+jacket+travel"), tag: "Weather essential", tagColor: "bg-sky-100 text-sky-700", why: "Guwahati's rainfall is genuinely higher and less predictable than most Indian cities." },
+    { name: "Comfortable Walking Shoes", description: "For exploring markets, the museum, and temple hill climbs.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-amber-100 text-amber-700", why: "A day covering Umananda Temple, the museum, and markets adds up in distance." },
+    { name: "Modest Clothing", description: "For temple visits including Kamakhya and Umananda, both active places of worship.", price: "₹599",  image: "👕", affiliateUrl: amazonSearchUrl("modest+travel+clothing"), tag: "Temple essential", tagColor: "bg-purple-100 text-purple-700", why: "Guwahati's major temples are active pilgrimage sites, not just monuments." },
+    { name: "Insect Repellent", description: "Riverside evenings and the humid climate bring mosquitoes.", price: "₹199",  image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Evening essential", tagColor: "bg-forest-100 text-forest-700", why: "Brahmaputus riverside evenings, especially during a sunset cruise, are prime mosquito hours." },
   ],
 }];
 
@@ -165,6 +166,8 @@ export default function GuwahatiGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="guwahati-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Guwahati</h2>

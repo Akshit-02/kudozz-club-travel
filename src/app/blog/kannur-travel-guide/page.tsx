@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -109,10 +110,10 @@ const KANNUR_GEAR: GearSection[] = [
     subtitle: "Gear for Theyyam viewing, forts, and drive-in beaches",
     emoji: "🥁",
     items: [
-      { name: "Modest, Respectful Clothing", description: "Theyyam performances are active religious rituals — modest dress shows appropriate respect as a visiting observer.", price: "₹799", rating: 4.4, reviews: "3.5k", image: "👕", affiliateUrl: amazonSearchUrl("modest+travel+clothing+cotton"), tag: "Cultural essential", tagColor: "bg-purple-100 text-purple-700", why: "Theyyam is a living devotional tradition, not a tourist performance — dress accordingly." },
-      { name: "Comfortable Walking Shoes", description: "For exploring St. Angelo Fort and Kannur's handloom weaving villages.", price: "₹1,999", rating: 4.4, reviews: "5.3k", image: "🥾", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Sightseeing essential", tagColor: "bg-amber-100 text-amber-700", why: "Fort grounds and village walks both reward sturdy, comfortable footwear." },
-      { name: "Swimwear & Beach Sandals", description: "For Payyambalam Beach and Muzhappilangad Drive-in Beach.", price: "₹699", rating: 4.4, reviews: "4.0k", image: "🏖️", affiliateUrl: amazonSearchUrl("beach+sandals+travel"), tag: "Beach essential", tagColor: "bg-sky-100 text-sky-700", why: "Kannur's beaches are genuinely swimmable and quiet outside monsoon season." },
-      { name: "Camera", description: "For Theyyam's striking costumes and makeup (where photography is permitted) and the fort's coastal views.", price: "₹8,999+", rating: 4.4, reviews: "2.1k", image: "📷", affiliateUrl: amazonSearchUrl("travel+camera+photography"), tag: "Cultural essential", tagColor: "bg-forest-100 text-forest-700", why: "Theyyam's visual intensity is genuinely one-of-a-kind, worth capturing respectfully." },
+      { name: "Modest, Respectful Clothing", description: "Theyyam performances are active religious rituals — modest dress shows appropriate respect as a visiting observer.", price: "₹799",  image: "👕", affiliateUrl: amazonSearchUrl("modest+travel+clothing+cotton"), tag: "Cultural essential", tagColor: "bg-purple-100 text-purple-700", why: "Theyyam is a living devotional tradition, not a tourist performance — dress accordingly." },
+      { name: "Comfortable Walking Shoes", description: "For exploring St. Angelo Fort and Kannur's handloom weaving villages.", price: "₹1,999",  image: "🥾", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Sightseeing essential", tagColor: "bg-amber-100 text-amber-700", why: "Fort grounds and village walks both reward sturdy, comfortable footwear." },
+      { name: "Swimwear & Beach Sandals", description: "For Payyambalam Beach and Muzhappilangad Drive-in Beach.", price: "₹699",  image: "🏖️", affiliateUrl: amazonSearchUrl("beach+sandals+travel"), tag: "Beach essential", tagColor: "bg-sky-100 text-sky-700", why: "Kannur's beaches are genuinely swimmable and quiet outside monsoon season." },
+      { name: "Camera", description: "For Theyyam's striking costumes and makeup (where photography is permitted) and the fort's coastal views.", price: "₹8,999+",  image: "📷", affiliateUrl: amazonSearchUrl("travel+camera+photography"), tag: "Cultural essential", tagColor: "bg-forest-100 text-forest-700", why: "Theyyam's visual intensity is genuinely one-of-a-kind, worth capturing respectfully." },
     ],
   },
 ];
@@ -199,6 +200,8 @@ export default function KannurGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="kannur-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Kannur</h2>

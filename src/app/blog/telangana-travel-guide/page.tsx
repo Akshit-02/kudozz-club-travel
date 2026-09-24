@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -200,8 +201,6 @@ const TELANGANA_GEAR: GearSection[] = [
         description:
           "Golconda Fort's climb and Hyderabad's Old City lanes both involve extended walking on uneven stone.",
         price: "₹1,499",
-        rating: 4.4,
-        reviews: "8.2k",
         image: "👟",
         affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
         tag: "Sightseeing essential",
@@ -213,8 +212,6 @@ const TELANGANA_GEAR: GearSection[] = [
         description:
           "Telangana's Deccan sun is intense for much of the year, especially on open fort ramparts and temple courtyards.",
         price: "₹399",
-        rating: 4.5,
-        reviews: "11k",
         image: "🧴",
         affiliateUrl: amazonSearchUrl("sunscreen+spf+50+travel"),
         tag: "Deccan heat essential",
@@ -226,8 +223,6 @@ const TELANGANA_GEAR: GearSection[] = [
         description:
           "Handy across long days at Golconda, the temple circuit, and Warangal's heritage sites.",
         price: "₹699",
-        rating: 4.5,
-        reviews: "9.3k",
         image: "🍶",
         affiliateUrl: amazonSearchUrl("insulated+water+bottle+steel"),
         tag: "Everyday essential",
@@ -239,8 +234,6 @@ const TELANGANA_GEAR: GearSection[] = [
         description:
           "Breathable, modest clothing suited to both the Deccan heat and temple/mosque dress codes.",
         price: "₹899",
-        rating: 4.3,
-        reviews: "5.4k",
         image: "👕",
         affiliateUrl: amazonSearchUrl("light+cotton+travel+clothing"),
         tag: "Climate essential",
@@ -252,8 +245,6 @@ const TELANGANA_GEAR: GearSection[] = [
         description:
           "Useful for day trips to Warangal, Srisailam, or Nagarjuna Sagar, where charging points thin out.",
         price: "₹1,299",
-        rating: 4.5,
-        reviews: "9.7k",
         image: "🔋",
         affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
         tag: "Day-trip essential",
@@ -265,8 +256,6 @@ const TELANGANA_GEAR: GearSection[] = [
         description:
           "Worth carrying if timing a visit around the monsoon to catch the Bogatha or Kuntala waterfalls at their fullest.",
         price: "₹599",
-        rating: 4.3,
-        reviews: "4.6k",
         image: "🌂",
         affiliateUrl: amazonSearchUrl("rain+jacket+poncho+travel"),
         tag: "Monsoon essential",
@@ -508,6 +497,8 @@ export default function TelanganaGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="telangana-travel-guide" />
 
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">

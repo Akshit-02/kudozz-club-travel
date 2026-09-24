@@ -7,6 +7,7 @@ const navLinks = [
   { label: "Tour Packages", href: "/packages" },
   { label: "Travel Guides", href: "/blog" },
   { label: "About", href: "/about" },
+  { label: "Contact", href: "/contact" },
 ];
 
 export default function SiteHeader() {
@@ -86,13 +87,13 @@ export default function SiteHeader() {
                   }`}
                   style={{ fontFamily: "var(--font-dm-sans)" }}
                 >
-                  club.kudozz.in
+                  India Travel Agency
                 </span>
               </div>
             </Link>
 
             {/* ── Desktop Nav ───────────────────────────────── */}
-            <nav className="hidden md:flex items-center gap-1">
+            <nav className="hidden lg:flex items-center gap-1">
               {navLinks.map((link) => (
                 <Link
                   key={link.href}
@@ -116,7 +117,7 @@ export default function SiteHeader() {
             </nav>
 
             {/* ── Right Actions ─────────────────────────────── */}
-            <div className="hidden md:flex items-center gap-3">
+            <div className="hidden lg:flex items-center gap-3">
               {/* Search */}
               {/* <button
                 aria-label="Search"
@@ -147,31 +148,14 @@ export default function SiteHeader() {
               /> */}
 
               {/* CTA */}
-              <Link
-                href="/plan-your-trip"
-                className="flex items-center gap-1.5 px-4 py-2 text-xs font-semibold text-white gradient-forest rounded-full hover:opacity-90 active:scale-95 transition-all duration-200 shadow-md shadow-forest-900/20 uppercase tracking-wider"
-                style={{ fontFamily: "var(--font-dm-sans)" }}
-              >
-                <svg
-                  className="w-3.5 h-3.5"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  strokeWidth={2.2}
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"
-                  />
-                </svg>
+              <Link href="/plan-your-trip" className="btn-primary px-5 py-2.5">
                 Plan My Trip
               </Link>
             </div>
 
             {/* ── Mobile Hamburger ──────────────────────────── */}
             <button
-              className={`md:hidden p-2 rounded-lg transition-all duration-200 ${
+              className={`lg:hidden p-2 rounded-lg transition-all duration-200 ${
                 scrolled
                   ? "text-stone-700 hover:bg-stone-100"
                   : "text-white hover:bg-white/10"
@@ -209,7 +193,7 @@ export default function SiteHeader() {
       {/* ── Mobile Menu Overlay ───────────────────────────── */}
       {/* Backdrop */}
       <div
-        className={`fixed inset-0 z-40 bg-black/40 backdrop-blur-sm md:hidden transition-opacity duration-300 ${
+        className={`fixed inset-0 z-40 bg-black/40 backdrop-blur-sm lg:hidden transition-opacity duration-300 ${
           mobileOpen
             ? "opacity-100 pointer-events-auto"
             : "opacity-0 pointer-events-none"
@@ -219,7 +203,7 @@ export default function SiteHeader() {
 
       {/* Slide-in drawer */}
       <div
-        className={`fixed top-0 right-0 bottom-0 z-50 w-72 bg-white shadow-2xl md:hidden flex flex-col transition-transform duration-300 ease-in-out ${
+        className={`fixed top-0 right-0 bottom-0 z-50 w-72 bg-white shadow-2xl lg:hidden flex flex-col transition-transform duration-300 ease-in-out ${
           mobileOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
@@ -305,32 +289,16 @@ export default function SiteHeader() {
           <Link
             href="/plan-your-trip"
             onClick={() => setMobileOpen(false)}
-            className="flex items-center justify-center gap-2 w-full py-3 text-sm font-semibold text-white gradient-forest rounded-xl hover:opacity-90 transition-opacity"
-            style={{ fontFamily: "var(--font-dm-sans)" }}
+            className="btn-primary w-full py-3.5"
           >
-            <svg
-              className="w-4 h-4"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              strokeWidth={2}
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"
-              />
-            </svg>
-            Plan My Trip
+            Plan My Trip →
           </Link>
-          <Link
-            href="/newsletter"
-            onClick={() => setMobileOpen(false)}
-            className="flex items-center justify-center gap-2 w-full py-2.5 text-sm font-medium text-stone-600 border border-stone-200 rounded-xl hover:border-stone-300 transition-colors"
-            style={{ fontFamily: "var(--font-dm-sans)" }}
+          <a
+            href="mailto:connect@kudozz.in"
+            className="block text-center font-sans text-sm text-stone-600 hover:text-stone-900"
           >
-            Join the Newsletter — It's Free
-          </Link>
+            or email connect@kudozz.in
+          </a>
         </div>
       </div>
     </>

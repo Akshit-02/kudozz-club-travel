@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 
 export const metadata: Metadata = {
   title: "Longwa Village Guide: India-Myanmar Border",
@@ -275,6 +276,8 @@ export default function LongwaGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="longwa-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Longwa</h2>

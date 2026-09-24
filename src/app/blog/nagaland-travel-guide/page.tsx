@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -199,8 +200,6 @@ const NAGALAND_GEAR: GearSection[] = [
         description:
           "The Dzukou Valley trek involves steep, sometimes muddy ascents through forest and bamboo groves before opening into the valley.",
         price: "₹2,499",
-        rating: 4.5,
-        reviews: "11k",
         image: "🥾",
         affiliateUrl: amazonSearchUrl("trekking+shoes+waterproof"),
         tag: "Trek essential",
@@ -212,8 +211,6 @@ const NAGALAND_GEAR: GearSection[] = [
         description:
           "Kohima and the Hornbill Festival grounds at Kisama get genuinely cold in the evenings, especially through December.",
         price: "₹1,999",
-        rating: 4.4,
-        reviews: "9.4k",
         image: "🧥",
         affiliateUrl: amazonSearchUrl("insulated+jacket+travel"),
         tag: "Evening essential",
@@ -225,8 +222,6 @@ const NAGALAND_GEAR: GearSection[] = [
         description:
           "Nagaland's hill weather is changeable — showers can appear with little warning even outside monsoon.",
         price: "₹599",
-        rating: 4.3,
-        reviews: "4.6k",
         image: "🌂",
         affiliateUrl: amazonSearchUrl("rain+jacket+poncho+travel"),
         tag: "Weather essential",
@@ -238,8 +233,6 @@ const NAGALAND_GEAR: GearSection[] = [
         description:
           "Useful for day trips beyond Kohima and Dimapur, where charging points thin out fast.",
         price: "₹1,299",
-        rating: 4.5,
-        reviews: "9.7k",
         image: "🔋",
         affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
         tag: "Day-trip essential",
@@ -251,8 +244,6 @@ const NAGALAND_GEAR: GearSection[] = [
         description:
           "Handy across long trekking days in Dzukou Valley and extended sightseeing around Kohima.",
         price: "₹699",
-        rating: 4.5,
-        reviews: "9.3k",
         image: "🍶",
         affiliateUrl: amazonSearchUrl("insulated+water+bottle+steel"),
         tag: "Everyday essential",
@@ -264,8 +255,6 @@ const NAGALAND_GEAR: GearSection[] = [
         description:
           "Worth having given the trekking involved and the modest medical infrastructure outside Kohima and Dimapur.",
         price: "₹599",
-        rating: 4.4,
-        reviews: "3.9k",
         image: "🩹",
         affiliateUrl: amazonSearchUrl("travel+first+aid+kit"),
         tag: "Trek essential",
@@ -502,6 +491,8 @@ export default function NagalandGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="nagaland-travel-guide" />
 
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">

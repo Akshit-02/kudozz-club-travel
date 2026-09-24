@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -109,10 +110,10 @@ const MUNROE_ISLAND_GEAR: GearSection[] = [
     subtitle: "Gear for canoe tours and village walks",
     emoji: "🛶",
     items: [
-      { name: "Insect Repellent", description: "Narrow canal-side canoeing brings a steady mosquito presence, especially in the early morning and evening.", price: "₹199", rating: 4.3, reviews: "4.2k", image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Canoe essential", tagColor: "bg-forest-100 text-forest-700", why: "The canal-village setting is prime mosquito habitat." },
-      { name: "Sun Hat", description: "Little shade on the open canoe stretches — a hat makes a real difference on a longer tour.", price: "₹399", rating: 4.4, reviews: "4.5k", image: "🧢", affiliateUrl: amazonSearchUrl("sun+hat+travel+outdoor"), tag: "Day-tour essential", tagColor: "bg-amber-100 text-amber-700", why: "Canoe tours run for hours with direct sun exposure on the water." },
-      { name: "Waterproof Phone Pouch", description: "Narrow canoes carry a real risk of a dropped phone — worth protecting for photos of the canal-village scenery.", price: "₹299", rating: 4.3, reviews: "9.1k", image: "📱", affiliateUrl: amazonSearchUrl("waterproof+phone+pouch+travel"), tag: "Canoe essential", tagColor: "bg-sky-100 text-sky-700", why: "Munroe Island's biggest draw is photogenic — protecting your phone matters." },
-      { name: "Comfortable Sandals", description: "For village walks and easy on-and-off during canoe embarkation.", price: "₹599", rating: 4.4, reviews: "4.0k", image: "👡", affiliateUrl: amazonSearchUrl("comfortable+sandals+travel"), tag: "Village-walk essential", tagColor: "bg-purple-100 text-purple-700", why: "Getting in and out of a canoe repeatedly is easier with simple, secure footwear." },
+      { name: "Insect Repellent", description: "Narrow canal-side canoeing brings a steady mosquito presence, especially in the early morning and evening.", price: "₹199",  image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Canoe essential", tagColor: "bg-forest-100 text-forest-700", why: "The canal-village setting is prime mosquito habitat." },
+      { name: "Sun Hat", description: "Little shade on the open canoe stretches — a hat makes a real difference on a longer tour.", price: "₹399",  image: "🧢", affiliateUrl: amazonSearchUrl("sun+hat+travel+outdoor"), tag: "Day-tour essential", tagColor: "bg-amber-100 text-amber-700", why: "Canoe tours run for hours with direct sun exposure on the water." },
+      { name: "Waterproof Phone Pouch", description: "Narrow canoes carry a real risk of a dropped phone — worth protecting for photos of the canal-village scenery.", price: "₹299",  image: "📱", affiliateUrl: amazonSearchUrl("waterproof+phone+pouch+travel"), tag: "Canoe essential", tagColor: "bg-sky-100 text-sky-700", why: "Munroe Island's biggest draw is photogenic — protecting your phone matters." },
+      { name: "Comfortable Sandals", description: "For village walks and easy on-and-off during canoe embarkation.", price: "₹599",  image: "👡", affiliateUrl: amazonSearchUrl("comfortable+sandals+travel"), tag: "Village-walk essential", tagColor: "bg-purple-100 text-purple-700", why: "Getting in and out of a canoe repeatedly is easier with simple, secure footwear." },
     ],
   },
 ];
@@ -199,6 +200,8 @@ export default function MunroeIslandGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="munroe-island-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Munroe Island</h2>

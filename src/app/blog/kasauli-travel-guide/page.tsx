@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -81,10 +82,10 @@ const tableOfContents = [
 const KASAULI_GEAR: GearSection[] = [{
   title: "Things Worth Carrying", subtitle: "Gear for gentle walks and quiet mornings", emoji: "🌲",
   items: [
-    { name: "Comfortable Walking Shoes", description: "For the walk to Monkey Point/Gilbert Trail and the town's gently sloped lanes.", price: "₹1,999", rating: 4.4, reviews: "5.3k", image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Sightseeing essential", tagColor: "bg-amber-100 text-amber-700", why: "Kasauli's viewpoints are reached by short walks on sloped paths." },
-    { name: "Light Warm Layer", description: "Evenings are cool given Kasauli's elevation, even outside winter.", price: "₹1,499", rating: 4.4, reviews: "3.8k", image: "🧥", affiliateUrl: amazonSearchUrl("light+warm+jacket+travel"), tag: "Evening essential", tagColor: "bg-sky-100 text-sky-700", why: "Temperature drops noticeably after sunset here." },
-    { name: "Rain Layer", description: "Useful for sudden showers and monsoon fog if visiting Jul–Aug.", price: "₹899", rating: 4.4, reviews: "5.1k", image: "🌂", affiliateUrl: amazonSearchUrl("packable+rain+jacket+travel"), tag: "Weather essential", tagColor: "bg-purple-100 text-purple-700", why: "Kasauli's monsoon months bring persistent fog and rain." },
-    { name: "Camera", description: "For colonial-era architecture and the views from Monkey Point and Sunset Point.", price: "₹—", rating: 4.5, reviews: "—", image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-forest-100 text-forest-700", why: "On clear days, distant Himalayan peaks are visible from Monkey Point." },
+    { name: "Comfortable Walking Shoes", description: "For the walk to Monkey Point/Gilbert Trail and the town's gently sloped lanes.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Sightseeing essential", tagColor: "bg-amber-100 text-amber-700", why: "Kasauli's viewpoints are reached by short walks on sloped paths." },
+    { name: "Light Warm Layer", description: "Evenings are cool given Kasauli's elevation, even outside winter.", price: "₹1,499",  image: "🧥", affiliateUrl: amazonSearchUrl("light+warm+jacket+travel"), tag: "Evening essential", tagColor: "bg-sky-100 text-sky-700", why: "Temperature drops noticeably after sunset here." },
+    { name: "Rain Layer", description: "Useful for sudden showers and monsoon fog if visiting Jul–Aug.", price: "₹899",  image: "🌂", affiliateUrl: amazonSearchUrl("packable+rain+jacket+travel"), tag: "Weather essential", tagColor: "bg-purple-100 text-purple-700", why: "Kasauli's monsoon months bring persistent fog and rain." },
+    { name: "Camera", description: "For colonial-era architecture and the views from Monkey Point and Sunset Point.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-forest-100 text-forest-700", why: "On clear days, distant Himalayan peaks are visible from Monkey Point." },
   ],
 }];
 
@@ -164,6 +165,8 @@ export default function KasauliGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="kasauli-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Kasauli</h2>

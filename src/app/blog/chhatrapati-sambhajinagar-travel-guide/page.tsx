@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -109,12 +110,12 @@ const SAMBHAJINAGAR_GEAR: GearSection[] = [
     subtitle: "Gear for fort-climbing and long heritage days",
     emoji: "🏰",
     items: [
-      { name: "Comfortable Walking/Trekking Shoes", description: "Daulatabad Fort's climb involves several hundred uneven steps and a dark tunnel section — proper footwear matters here.", price: "₹1,499", rating: 4.4, reviews: "6.2k", image: "👟", affiliateUrl: amazonSearchUrl("comfortable+trekking+shoes+fort+climbing"), tag: "Fort-climb essential", tagColor: "bg-amber-100 text-amber-700", why: "Loose sandals are a real hazard on Daulatabad's steep, uneven fort steps and dark tunnel passage." },
-      { name: "Small LED Torch/Flashlight", description: "Useful for the unlit defensive tunnel inside Daulatabad Fort, and for dim interior sections at Ellora's larger caves.", price: "₹399", rating: 4.3, reviews: "5.1k", image: "🔦", affiliateUrl: amazonSearchUrl("small+led+torch+flashlight"), tag: "Fort essential", tagColor: "bg-stone-100 text-stone-700", why: "Daulatabad Fort's tunnel section is genuinely dark — many visitors are caught off guard without their own light." },
-      { name: "Wide-Brim Sun Hat", description: "Most sites here (Bibi Ka Maqbara grounds, Daulatabad's open climb) offer little shade — a hat makes a real difference.", price: "₹399", rating: 4.3, reviews: "3.4k", image: "👒", affiliateUrl: amazonSearchUrl("wide+brim+sun+hat+travel"), tag: "Heat essential", tagColor: "bg-red-100 text-red-700", why: "This region gets genuinely hot outside winter, and most heritage sites have limited shade." },
-      { name: "2L Hydration Bottle", description: "A full day covering Bibi Ka Maqbara, Panchakki, and Daulatabad needs steady hydration, especially outside winter months.", price: "₹449", rating: 4.5, reviews: "6.2k", image: "💧", affiliateUrl: amazonSearchUrl("2l+hydration+water+bottle+travel"), tag: "Trip essential", tagColor: "bg-sky-100 text-sky-700", why: "Water availability is limited inside the fort complex itself — carrying enough avoids cutting the visit short." },
-      { name: "Daypack (20L)", description: "For carrying water, snacks, and a torch across a day that moves between the city, Daulatabad, and (if timed together) Ellora Caves.", price: "₹899", rating: 4.4, reviews: "4.6k", image: "🎒", affiliateUrl: amazonSearchUrl("20L+daypack+travel"), tag: "Day-trip essential", tagColor: "bg-forest-100 text-forest-700", why: "A combined Daulatabad-Ellora day is long enough that a proper daypack beats carrying loose items by hand." },
-      { name: "Modest Cotton Layer", description: "Useful for visiting Panchakki (a working Sufi shrine) and other religious sites in the city respectfully.", price: "₹399", rating: 4.4, reviews: "4.0k", image: "🧣", affiliateUrl: amazonSearchUrl("cotton+scarf+travel+modest"), tag: "Heritage-site essential", tagColor: "bg-purple-100 text-purple-700", why: "Panchakki and other shrine sites expect modest dress, unlike the more tourist-oriented fort and mausoleum stops." },
+      { name: "Comfortable Walking/Trekking Shoes", description: "Daulatabad Fort's climb involves several hundred uneven steps and a dark tunnel section — proper footwear matters here.", price: "₹1,499",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+trekking+shoes+fort+climbing"), tag: "Fort-climb essential", tagColor: "bg-amber-100 text-amber-700", why: "Loose sandals are a real hazard on Daulatabad's steep, uneven fort steps and dark tunnel passage." },
+      { name: "Small LED Torch/Flashlight", description: "Useful for the unlit defensive tunnel inside Daulatabad Fort, and for dim interior sections at Ellora's larger caves.", price: "₹399",  image: "🔦", affiliateUrl: amazonSearchUrl("small+led+torch+flashlight"), tag: "Fort essential", tagColor: "bg-stone-100 text-stone-700", why: "Daulatabad Fort's tunnel section is genuinely dark — many visitors are caught off guard without their own light." },
+      { name: "Wide-Brim Sun Hat", description: "Most sites here (Bibi Ka Maqbara grounds, Daulatabad's open climb) offer little shade — a hat makes a real difference.", price: "₹399",  image: "👒", affiliateUrl: amazonSearchUrl("wide+brim+sun+hat+travel"), tag: "Heat essential", tagColor: "bg-red-100 text-red-700", why: "This region gets genuinely hot outside winter, and most heritage sites have limited shade." },
+      { name: "2L Hydration Bottle", description: "A full day covering Bibi Ka Maqbara, Panchakki, and Daulatabad needs steady hydration, especially outside winter months.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("2l+hydration+water+bottle+travel"), tag: "Trip essential", tagColor: "bg-sky-100 text-sky-700", why: "Water availability is limited inside the fort complex itself — carrying enough avoids cutting the visit short." },
+      { name: "Daypack (20L)", description: "For carrying water, snacks, and a torch across a day that moves between the city, Daulatabad, and (if timed together) Ellora Caves.", price: "₹899",  image: "🎒", affiliateUrl: amazonSearchUrl("20L+daypack+travel"), tag: "Day-trip essential", tagColor: "bg-forest-100 text-forest-700", why: "A combined Daulatabad-Ellora day is long enough that a proper daypack beats carrying loose items by hand." },
+      { name: "Modest Cotton Layer", description: "Useful for visiting Panchakki (a working Sufi shrine) and other religious sites in the city respectfully.", price: "₹399",  image: "🧣", affiliateUrl: amazonSearchUrl("cotton+scarf+travel+modest"), tag: "Heritage-site essential", tagColor: "bg-purple-100 text-purple-700", why: "Panchakki and other shrine sites expect modest dress, unlike the more tourist-oriented fort and mausoleum stops." },
     ],
   },
 ];
@@ -219,6 +220,8 @@ export default function SambhajinagarGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="chhatrapati-sambhajinagar-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit</h2>

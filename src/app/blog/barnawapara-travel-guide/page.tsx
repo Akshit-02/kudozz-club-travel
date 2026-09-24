@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -107,10 +108,10 @@ const BARNAWAPARA_GEAR: GearSection[] = [
     subtitle: "Gear for a quieter, lower-key safari destination",
     emoji: "🐆",
     items: [
-      { name: "Binoculars", description: "For spotting leopards, deer, and birdlife across Barnawapara's forest terrain.", price: "₹1,999", rating: 4.5, reviews: "6.5k", image: "🔭", affiliateUrl: amazonSearchUrl("binoculars+wildlife+safari"), tag: "Safari essential", tagColor: "bg-amber-100 text-amber-700", why: "A quieter sanctuary rewards patient, close observation more than a crowded reserve does." },
-      { name: "Neutral/Khaki Clothing", description: "Standard safari practice — less disruptive to wildlife and appropriate for open-jeep safaris.", price: "₹1,299", rating: 4.4, reviews: "3.8k", image: "🧥", affiliateUrl: amazonSearchUrl("khaki+safari+clothing+set"), tag: "Safari essential", tagColor: "bg-forest-100 text-forest-700", why: "Bright colors are more disruptive to wildlife sightings and stand out in the forest." },
-      { name: "Telephoto Camera / Lens", description: "For photographing wildlife at a safe, respectful distance across the sanctuary's forest terrain.", price: "₹8,999+", rating: 4.4, reviews: "2.1k", image: "📷", affiliateUrl: amazonSearchUrl("telephoto+lens+wildlife+photography"), tag: "Photography essential", tagColor: "bg-purple-100 text-purple-700", why: "A longer lens makes a real difference on any wildlife safari, especially a quieter one like this." },
-      { name: "Sun Protection & Insect Repellent", description: "Open-jeep safaris mean direct sun and insect exposure across the visit.", price: "₹599", rating: 4.4, reviews: "5.0k", image: "🧴", affiliateUrl: amazonSearchUrl("sunscreen+insect+repellent+combo"), tag: "Safari essential", tagColor: "bg-sky-100 text-sky-700", why: "Morning and afternoon safaris both involve extended time exposed to sun and insects." },
+      { name: "Binoculars", description: "For spotting leopards, deer, and birdlife across Barnawapara's forest terrain.", price: "₹1,999",  image: "🔭", affiliateUrl: amazonSearchUrl("binoculars+wildlife+safari"), tag: "Safari essential", tagColor: "bg-amber-100 text-amber-700", why: "A quieter sanctuary rewards patient, close observation more than a crowded reserve does." },
+      { name: "Neutral/Khaki Clothing", description: "Standard safari practice — less disruptive to wildlife and appropriate for open-jeep safaris.", price: "₹1,299",  image: "🧥", affiliateUrl: amazonSearchUrl("khaki+safari+clothing+set"), tag: "Safari essential", tagColor: "bg-forest-100 text-forest-700", why: "Bright colors are more disruptive to wildlife sightings and stand out in the forest." },
+      { name: "Telephoto Camera / Lens", description: "For photographing wildlife at a safe, respectful distance across the sanctuary's forest terrain.", price: "₹8,999+",  image: "📷", affiliateUrl: amazonSearchUrl("telephoto+lens+wildlife+photography"), tag: "Photography essential", tagColor: "bg-purple-100 text-purple-700", why: "A longer lens makes a real difference on any wildlife safari, especially a quieter one like this." },
+      { name: "Sun Protection & Insect Repellent", description: "Open-jeep safaris mean direct sun and insect exposure across the visit.", price: "₹599",  image: "🧴", affiliateUrl: amazonSearchUrl("sunscreen+insect+repellent+combo"), tag: "Safari essential", tagColor: "bg-sky-100 text-sky-700", why: "Morning and afternoon safaris both involve extended time exposed to sun and insects." },
     ],
   },
 ];
@@ -197,6 +198,8 @@ export default function BarnawaparaGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="barnawapara-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Barnawapara</h2>

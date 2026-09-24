@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -109,10 +110,10 @@ const KUNO_GEAR: GearSection[] = [
     subtitle: "Gear for a still-developing, more basic safari destination",
     emoji: "🐆",
     items: [
-      { name: "Neutral/Khaki Clothing", description: "Standard safari practice — neutral tones are less disruptive to wildlife and less visually jarring in open grassland.", price: "₹1,299", rating: 4.4, reviews: "3.8k", image: "🧥", affiliateUrl: amazonSearchUrl("khaki+safari+clothing+set"), tag: "Safari essential", tagColor: "bg-amber-100 text-amber-700", why: "Bright colors stand out sharply against Kuno's open dry-deciduous terrain." },
-      { name: "Binoculars", description: "Given the still-developing sighting odds here, binoculars matter even more than at busier reserves — you'll want to make the most of distant views.", price: "₹1,999", rating: 4.5, reviews: "6.5k", image: "🔭", affiliateUrl: amazonSearchUrl("binoculars+wildlife+safari"), tag: "Non-negotiable", tagColor: "bg-red-100 text-red-700", why: "Kuno's cheetahs and other wildlife range across wide, open terrain — binoculars turn a distant blur into an actual sighting." },
-      { name: "Telephoto Camera / Lens", description: "For photographing wildlife at a safe, respectful distance across Kuno's open grassland and forest edges.", price: "₹8,999+", rating: 4.4, reviews: "2.1k", image: "📷", affiliateUrl: amazonSearchUrl("telephoto+lens+wildlife+photography"), tag: "Photography essential", tagColor: "bg-purple-100 text-purple-700", why: "A longer lens is the difference between a usable photo and a speck on the horizon here." },
-      { name: "Sturdy Footwear", description: "Facilities at Kuno are more basic than at MP's bigger reserves — sturdy, comfortable shoes help for any walking around the gate/lodge area.", price: "₹1,999", rating: 4.4, reviews: "4.0k", image: "🥾", affiliateUrl: amazonSearchUrl("sturdy+outdoor+shoes+travel"), tag: "Comfort essential", tagColor: "bg-forest-100 text-forest-700", why: "This is a more remote, less-developed destination than Kanha or Bandhavgarh — comfortable footwear helps everywhere." },
+      { name: "Neutral/Khaki Clothing", description: "Standard safari practice — neutral tones are less disruptive to wildlife and less visually jarring in open grassland.", price: "₹1,299",  image: "🧥", affiliateUrl: amazonSearchUrl("khaki+safari+clothing+set"), tag: "Safari essential", tagColor: "bg-amber-100 text-amber-700", why: "Bright colors stand out sharply against Kuno's open dry-deciduous terrain." },
+      { name: "Binoculars", description: "Given the still-developing sighting odds here, binoculars matter even more than at busier reserves — you'll want to make the most of distant views.", price: "₹1,999",  image: "🔭", affiliateUrl: amazonSearchUrl("binoculars+wildlife+safari"), tag: "Non-negotiable", tagColor: "bg-red-100 text-red-700", why: "Kuno's cheetahs and other wildlife range across wide, open terrain — binoculars turn a distant blur into an actual sighting." },
+      { name: "Telephoto Camera / Lens", description: "For photographing wildlife at a safe, respectful distance across Kuno's open grassland and forest edges.", price: "₹8,999+",  image: "📷", affiliateUrl: amazonSearchUrl("telephoto+lens+wildlife+photography"), tag: "Photography essential", tagColor: "bg-purple-100 text-purple-700", why: "A longer lens is the difference between a usable photo and a speck on the horizon here." },
+      { name: "Sturdy Footwear", description: "Facilities at Kuno are more basic than at MP's bigger reserves — sturdy, comfortable shoes help for any walking around the gate/lodge area.", price: "₹1,999",  image: "🥾", affiliateUrl: amazonSearchUrl("sturdy+outdoor+shoes+travel"), tag: "Comfort essential", tagColor: "bg-forest-100 text-forest-700", why: "This is a more remote, less-developed destination than Kanha or Bandhavgarh — comfortable footwear helps everywhere." },
     ],
   },
 ];
@@ -199,6 +200,8 @@ export default function KunoGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="kuno-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Kuno</h2>

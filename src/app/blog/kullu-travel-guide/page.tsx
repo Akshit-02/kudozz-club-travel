@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -81,10 +82,10 @@ const tableOfContents = [
 const KULLU_GEAR: GearSection[] = [{
   title: "Things Worth Carrying", subtitle: "Gear for temple visits and the Bijli Mahadev walk", emoji: "🛕",
   items: [
-    { name: "Comfortable Walking/Trekking Shoes", description: "For the walk/climb to Bijli Mahadev Temple and general valley exploring.", price: "₹2,499", rating: 4.4, reviews: "5.6k", image: "🥾", affiliateUrl: amazonSearchUrl("trekking+shoes+moderate+hike"), tag: "Trek essential", tagColor: "bg-amber-100 text-amber-700", why: "The Bijli Mahadev approach involves genuine elevation gain on uneven paths." },
-    { name: "Warm Layers", description: "Evenings in the valley cool down quickly, especially outside peak summer.", price: "₹1,999", rating: 4.4, reviews: "4.8k", image: "🧥", affiliateUrl: amazonSearchUrl("warm+jacket+hill+station"), tag: "Evening essential", tagColor: "bg-sky-100 text-sky-700", why: "Kullu Valley's elevation means noticeably cooler nights than the plains." },
-    { name: "Modest Clothing", description: "For Raghunath Temple and other active religious sites in and around Kullu.", price: "₹599", rating: 4.4, reviews: "3.9k", image: "👕", affiliateUrl: amazonSearchUrl("modest+travel+clothing"), tag: "Temple essential", tagColor: "bg-purple-100 text-purple-700", why: "Kullu's temples are active worship sites, not just tourist stops." },
-    { name: "Daypack", description: "For carrying water and layers across a day of temple-hopping and the Bijli Mahadev walk.", price: "₹899", rating: 4.4, reviews: "4.6k", image: "🎒", affiliateUrl: amazonSearchUrl("daypack+travel+trekking"), tag: "All-day essential", tagColor: "bg-forest-100 text-forest-700", why: "Useful for a full day covering temples plus the Bijli Mahadev trek." },
+    { name: "Comfortable Walking/Trekking Shoes", description: "For the walk/climb to Bijli Mahadev Temple and general valley exploring.", price: "₹2,499",  image: "🥾", affiliateUrl: amazonSearchUrl("trekking+shoes+moderate+hike"), tag: "Trek essential", tagColor: "bg-amber-100 text-amber-700", why: "The Bijli Mahadev approach involves genuine elevation gain on uneven paths." },
+    { name: "Warm Layers", description: "Evenings in the valley cool down quickly, especially outside peak summer.", price: "₹1,999",  image: "🧥", affiliateUrl: amazonSearchUrl("warm+jacket+hill+station"), tag: "Evening essential", tagColor: "bg-sky-100 text-sky-700", why: "Kullu Valley's elevation means noticeably cooler nights than the plains." },
+    { name: "Modest Clothing", description: "For Raghunath Temple and other active religious sites in and around Kullu.", price: "₹599",  image: "👕", affiliateUrl: amazonSearchUrl("modest+travel+clothing"), tag: "Temple essential", tagColor: "bg-purple-100 text-purple-700", why: "Kullu's temples are active worship sites, not just tourist stops." },
+    { name: "Daypack", description: "For carrying water and layers across a day of temple-hopping and the Bijli Mahadev walk.", price: "₹899",  image: "🎒", affiliateUrl: amazonSearchUrl("daypack+travel+trekking"), tag: "All-day essential", tagColor: "bg-forest-100 text-forest-700", why: "Useful for a full day covering temples plus the Bijli Mahadev trek." },
   ],
 }];
 
@@ -164,6 +165,8 @@ export default function KulluGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="kullu-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Kullu</h2>

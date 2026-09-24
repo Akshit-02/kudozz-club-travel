@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -194,8 +195,6 @@ const CHITKUL_GEAR: GearSection[] = [
         description:
           "Genuinely cold even in summer at roughly 3,450m — pack proper insulation regardless of season.",
         price: "₹2,499",
-        rating: 4.5,
-        reviews: "4.7k",
         image: "🧥",
         affiliateUrl: amazonSearchUrl("warm+trekking+jacket+layers"),
         tag: "Non-negotiable",
@@ -207,8 +206,6 @@ const CHITKUL_GEAR: GearSection[] = [
         description:
           "For walking around the village and along the Baspa River.",
         price: "₹1,999",
-        rating: 4.4,
-        reviews: "5.3k",
         image: "👟",
         affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
         tag: "All-day essential",
@@ -220,8 +217,6 @@ const CHITKUL_GEAR: GearSection[] = [
         description:
           "High-altitude sun exposure is significantly more intense than at sea level.",
         price: "₹599",
-        rating: 4.5,
-        reviews: "7.4k",
         image: "🧴",
         affiliateUrl: amazonSearchUrl("high+spf+sunscreen+travel"),
         tag: "Altitude essential",
@@ -233,8 +228,6 @@ const CHITKUL_GEAR: GearSection[] = [
         description:
           "Given the border-proximate location and remote setting, carry proper identification and basic medical supplies.",
         price: "₹499",
-        rating: 4.4,
-        reviews: "3.9k",
         image: "🩹",
         affiliateUrl: amazonSearchUrl("travel+first+aid+kit"),
         tag: "Remote-travel essential",
@@ -453,6 +446,8 @@ export default function ChitkulGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="chitkul-travel-guide" />
 
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">

@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -109,10 +110,10 @@ const NETARHAT_GEAR: GearSection[] = [
     subtitle: "Gear for pre-dawn viewpoints and Jharkhand's coolest plateau",
     emoji: "🌄",
     items: [
-      { name: "Warm Layer / Light Jacket", description: "Mornings at Koel View Point are genuinely cold — a real contrast to Jharkhand's usual warm climate.", price: "₹1,499", rating: 4.4, reviews: "4.6k", image: "🧥", affiliateUrl: amazonSearchUrl("light+jacket+travel+warm"), tag: "Sunrise essential", tagColor: "bg-amber-100 text-amber-700", why: "Netarhat's elevation and forest cover make pre-dawn viewpoint visits noticeably colder than the rest of Jharkhand." },
-      { name: "Flashlight / Headlamp", description: "Useful for the pre-dawn walk to Koel View Point before sunrise.", price: "₹499", rating: 4.4, reviews: "4.0k", image: "🔦", affiliateUrl: amazonSearchUrl("led+headlamp+travel"), tag: "Sunrise essential", tagColor: "bg-purple-100 text-purple-700", why: "Paths to the viewpoints are dark before sunrise with limited street lighting." },
-      { name: "Comfortable Walking Shoes", description: "For the walk to the viewpoints and any exploring around Upper/Lower Ghaghri Falls.", price: "₹1,999", rating: 4.4, reviews: "5.3k", image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-sky-100 text-sky-700", why: "Viewpoint paths and the falls involve genuine walking on uneven ground." },
-      { name: "Camera / Phone Tripod", description: "For capturing the sunrise and sunset views without a shaky hand in low light.", price: "₹699", rating: 4.3, reviews: "3.5k", image: "📷", affiliateUrl: amazonSearchUrl("mini+tripod+phone+camera"), tag: "Photography essential", tagColor: "bg-forest-100 text-forest-700", why: "The whole point of a Netarhat trip is the sunrise/sunset views — a tripod makes a real difference in low light." },
+      { name: "Warm Layer / Light Jacket", description: "Mornings at Koel View Point are genuinely cold — a real contrast to Jharkhand's usual warm climate.", price: "₹1,499",  image: "🧥", affiliateUrl: amazonSearchUrl("light+jacket+travel+warm"), tag: "Sunrise essential", tagColor: "bg-amber-100 text-amber-700", why: "Netarhat's elevation and forest cover make pre-dawn viewpoint visits noticeably colder than the rest of Jharkhand." },
+      { name: "Flashlight / Headlamp", description: "Useful for the pre-dawn walk to Koel View Point before sunrise.", price: "₹499",  image: "🔦", affiliateUrl: amazonSearchUrl("led+headlamp+travel"), tag: "Sunrise essential", tagColor: "bg-purple-100 text-purple-700", why: "Paths to the viewpoints are dark before sunrise with limited street lighting." },
+      { name: "Comfortable Walking Shoes", description: "For the walk to the viewpoints and any exploring around Upper/Lower Ghaghri Falls.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-sky-100 text-sky-700", why: "Viewpoint paths and the falls involve genuine walking on uneven ground." },
+      { name: "Camera / Phone Tripod", description: "For capturing the sunrise and sunset views without a shaky hand in low light.", price: "₹699",  image: "📷", affiliateUrl: amazonSearchUrl("mini+tripod+phone+camera"), tag: "Photography essential", tagColor: "bg-forest-100 text-forest-700", why: "The whole point of a Netarhat trip is the sunrise/sunset views — a tripod makes a real difference in low light." },
     ],
   },
 ];
@@ -199,6 +200,8 @@ export default function NetarhatGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="netarhat-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Netarhat</h2>

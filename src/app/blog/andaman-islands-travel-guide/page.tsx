@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   BEACH_GEAR,
   GearSection,
@@ -209,8 +210,6 @@ const ANDAMAN_GEAR: GearSection[] = [
         description:
           "Waterproof to 10m without a case. The underwater world at Elephant Beach and Havelock's dive sites is the reason most people visit Andaman — you need a camera that goes underwater with you.",
         price: "₹34,999",
-        rating: 4.7,
-        reviews: "8.2k",
         image: "📷",
         affiliateUrl: amazonSearchUrl("gopro+hero+waterproof+action+camera"),
         tag: "Underwater essential",
@@ -222,8 +221,6 @@ const ANDAMAN_GEAR: GearSection[] = [
         description:
           "Chemical sunscreens (oxybenzone, octinoxate) bleach coral. The Andaman reefs are already under severe stress — reef-safe mineral SPF 50+ is the only responsible choice here.",
         price: "₹699",
-        rating: 4.4,
-        reviews: "3.1k",
         image: "🧴",
         affiliateUrl: amazonSearchUrl("reef+safe+mineral+sunscreen+SPF50"),
         tag: "Reef-safe",
@@ -235,8 +232,6 @@ const ANDAMAN_GEAR: GearSection[] = [
         description:
           "Ferry transfers between islands involve open boats and occasional sea spray. A dry bag keeps your phone, passport, cash, and camera completely safe during inter-island crossings.",
         price: "₹1,899",
-        rating: 4.6,
-        reviews: "4.2k",
         image: "🎒",
         affiliateUrl: amazonSearchUrl("dry+bag+waterproof+10L+20L+set"),
         tag: "Ferry essential",
@@ -248,8 +243,6 @@ const ANDAMAN_GEAR: GearSection[] = [
         description:
           "Proper-fitting mask and fins make the difference between a frustrating snorkelling experience and an extraordinary one. Rental masks at Elephant Beach often leak — bring your own.",
         price: "₹3,499",
-        rating: 4.5,
-        reviews: "2.1k",
         image: "🤿",
         affiliateUrl: amazonSearchUrl("cressi+snorkel+set+mask+fins"),
         tag: "Snorkelling upgrade",
@@ -261,8 +254,6 @@ const ANDAMAN_GEAR: GearSection[] = [
         description:
           "For above-water use — lightweight, non-greasy, and effective at the equatorial UV levels the Andamans receive. Apply before leaving the room, reapply every 2 hours.",
         price: "₹449",
-        rating: 4.3,
-        reviews: "12.4k",
         image: "☀️",
         affiliateUrl: amazonSearchUrl("neutrogena+ultra+sheer+SPF55+sunscreen"),
         tag: "UV index 12",
@@ -274,8 +265,6 @@ const ANDAMAN_GEAR: GearSection[] = [
         description:
           "Acupressure wristbands that reduce motion sickness without drowsiness. The 2-hour ferry crossing from Port Blair to Havelock is rough for roughly 30% of passengers.",
         price: "₹649",
-        rating: 4.2,
-        reviews: "5.8k",
         image: "⚓",
         affiliateUrl: amazonSearchUrl("sea+band+anti+nausea+wristband"),
         tag: "Ferry crossings",
@@ -523,6 +512,8 @@ export default function AndamanIslandsPage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="andaman-islands-travel-guide" />
 
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">

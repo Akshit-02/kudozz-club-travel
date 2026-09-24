@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -81,10 +82,10 @@ const tableOfContents = [
 const DIBRUGARH_GEAR: GearSection[] = [{
   title: "Things Worth Carrying", subtitle: "Gear for tea garden tours and riverside walks", emoji: "🍃",
   items: [
-    { name: "Comfortable Walking Shoes", description: "For walking through working tea gardens and along the Brahmaputra riverfront.", price: "₹1,999", rating: 4.4, reviews: "5.3k", image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-amber-100 text-amber-700", why: "Tea garden paths and riverfront walks add up over a full day of exploring." },
-    { name: "Light Rain Layer", description: "Upper Assam sees frequent showers even outside peak monsoon.", price: "₹899", rating: 4.4, reviews: "5.1k", image: "🌂", affiliateUrl: amazonSearchUrl("packable+rain+jacket+travel"), tag: "Weather essential", tagColor: "bg-sky-100 text-sky-700", why: "Tea country's humid climate means rain is a regular possibility." },
-    { name: "Insect Repellent", description: "Tea gardens and riverside areas bring a real mosquito presence, especially at dusk.", price: "₹199", rating: 4.3, reviews: "4.2k", image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Comfort essential", tagColor: "bg-forest-100 text-forest-700", why: "Humid tea-garden terrain is prime mosquito habitat." },
-    { name: "Camera", description: "For the tea garden landscapes and Brahmaputra riverfront views.", price: "₹—", rating: 4.5, reviews: "—", image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-purple-100 text-purple-700", why: "The rolling green tea estates are genuinely photogenic, especially at sunrise." },
+    { name: "Comfortable Walking Shoes", description: "For walking through working tea gardens and along the Brahmaputra riverfront.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-amber-100 text-amber-700", why: "Tea garden paths and riverfront walks add up over a full day of exploring." },
+    { name: "Light Rain Layer", description: "Upper Assam sees frequent showers even outside peak monsoon.", price: "₹899",  image: "🌂", affiliateUrl: amazonSearchUrl("packable+rain+jacket+travel"), tag: "Weather essential", tagColor: "bg-sky-100 text-sky-700", why: "Tea country's humid climate means rain is a regular possibility." },
+    { name: "Insect Repellent", description: "Tea gardens and riverside areas bring a real mosquito presence, especially at dusk.", price: "₹199",  image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Comfort essential", tagColor: "bg-forest-100 text-forest-700", why: "Humid tea-garden terrain is prime mosquito habitat." },
+    { name: "Camera", description: "For the tea garden landscapes and Brahmaputra riverfront views.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-purple-100 text-purple-700", why: "The rolling green tea estates are genuinely photogenic, especially at sunrise." },
   ],
 }];
 
@@ -164,6 +165,8 @@ export default function DibrugarhGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="dibrugarh-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Dibrugarh</h2>

@@ -1,5 +1,74 @@
 # Kudozz Club — Keyword Map
 
+**Updated:** 2026-09-24 (agency rebrand). Part A is new; Part B is the original editorial map (2026-09-14), unchanged. `keyword-map-commercial.md` holds the per-state secondary keywords for all 36 package pages and is still current.
+
+No search-volume figures are claimed anywhere. None were sourced from a keyword tool.
+
+---
+
+# Part A — Agency & commercial keyword map (2026-09-24)
+
+## Research notes (live SERP checks, Sep 2026)
+
+- **"best travel agency in India"**: page one is held by large established brands (Veena World, SOTC, Thomas Cook, Kesari, Swan Tours, Enchanting Travels). Their titles lead with the phrase itself ("… Best Tours and Travel Agency in India"). A new domain will not outrank them on the head term soon. The phrase is used in Kudozz's H1 and title as requested, but realistic early traffic will come from the long tail (destination + "tour packages", customized/family/honeymoon modifiers) and from the guides.
+- **Destination package SERPs** (e.g. "Kashmir tour packages") are dominated by OTAs and aggregators (MakeMyTrip, TravelTriangle, Thrillophilia, Holidify). They are structured as "N Nights / N+1 Days", lead with a "starting from ₹" price, and describe the classic route (Srinagar–Gulmarg–Pahalgam). Kudozz can't honestly compete on price anchoring, so its package pages compete on **answer depth** (best time, days, cost ranges from the guides, permits, suitability) and **real routes linked to real guides**, which the aggregators lack.
+- **Differentiator in snippets:** "customized", "planned around you" and "in-house", not "cheap" or "starting from".
+
+Sources: Google results for "best travel agency in India customized tour packages" and "Kashmir tour packages customized itinerary 5 nights" (Veena World, SOTC, Thomas Cook, Kesari, Swan Tours, Enchanting Travels, MakeMyTrip, TravelTriangle, Thrillophilia, Holidify, Flamingo Travels).
+
+## Page → keyword assignment
+
+One primary keyword per URL; no two URLs share a primary.
+
+| URL | Primary | Secondary | Intent |
+|---|---|---|---|
+| `/` | best travel agency in India | travel agency in India, India travel agency, customized tour packages India, India holiday packages | Commercial / navigational |
+| `/packages` | India tour packages | customized India tours, India holiday packages, domestic tour packages India | Commercial |
+| `/plan-your-trip` | India trip planner | India travel planner, customized India tour, plan India trip | Transactional |
+| `/packages/family-holidays` | family tour packages India | family holiday packages India, kid-friendly India trips | Commercial |
+| `/packages/honeymoon` | honeymoon packages India | honeymoon destinations India, romantic India trips | Commercial |
+| `/packages/luxury-holidays` | luxury India tours | luxury holiday packages India, heritage hotel trips | Commercial |
+| `/packages/budget-holidays` | budget India tour packages | cheap India holiday packages (content avoids "cheap") | Commercial |
+| `/packages/weekend-getaways` | weekend getaway packages India | short trips from Delhi/Bengaluru, 2–3 day trips | Commercial |
+| `/packages/adventure-tours` | adventure tour packages India | trekking, rafting, road trip packages | Commercial |
+| `/packages/wildlife-tours` | wildlife tour packages India | tiger safari packages, national park tours | Commercial |
+| `/packages/spiritual-tours` | pilgrimage tour packages India | spiritual tours India, temple tour packages | Commercial |
+| `/packages/group-tours` | group tour packages India | friends trip packages, family reunion trips | Commercial |
+| `/packages/rajasthan` | Rajasthan tour packages | Rajasthan holiday packages, Jaipur Jodhpur Udaipur tour | Commercial |
+| `/packages/kerala` | Kerala tour packages | Kerala honeymoon packages, Kerala backwater packages | Commercial |
+| `/packages/goa` | Goa tour packages | Goa holiday packages, Goa honeymoon packages | Commercial |
+| `/packages/kashmir` | Kashmir tour packages | Srinagar Gulmarg Pahalgam package, Kashmir honeymoon packages | Commercial |
+| `/packages/himachal-pradesh` | Himachal tour packages | Shimla Manali package, Himachal honeymoon packages | Commercial |
+| `/packages/uttarakhand` | Uttarakhand tour packages | Rishikesh Mussoorie trip, Nainital Corbett package | Commercial |
+| `/packages/leh-ladakh` | Ladakh tour packages | Leh Ladakh trip package, Ladakh road trip package | Commercial |
+| `/packages/northeast-india` | Northeast India tour packages | Meghalaya Assam tour, Northeast trip plan | Commercial |
+| `/packages/golden-triangle` | Golden Triangle tour packages | Delhi Agra Jaipur tour, Golden Triangle itinerary | Commercial |
+| `/packages/char-dham-yatra` | Char Dham Yatra package | Char Dham tour, Kedarnath Badrinath package | Commercial |
+| `/packages/<other states>` | `<State> tour packages` | see `keyword-map-commercial.md` | Commercial |
+| `/destinations` | India travel destinations | places to visit in India by state | Informational hub |
+| `/blog` | India travel guides | India itineraries, best time to visit India | Informational hub |
+| `/blog/<state hub>` | `<State> travel guide` | places to visit in `<State>`, `<State>` itinerary, best time to visit | Informational (TOFU/MOFU) |
+| `/blog/<place>` | `<Place> travel guide` | things to do, how to reach, how many days | Informational (TOFU) |
+| `/about` | Kudozz Club | Kudoz Club, Kudos Club (misspellings), India travel agency | Navigational / brand |
+
+## Cannibalisation guardrails
+
+- **Guide vs package:** each state has two URLs sharing an entity but not an intent. The guide targets "travel guide / places to visit / itinerary" (informational); the package targets "tour packages" (commercial). They link to each other with those exact descriptive anchors, which reinforces the split.
+- **Kashmir:** the package page uses "Kashmir" while the guide uses "Jammu & Kashmir", matching how each query is actually searched.
+- **Circuits:** `/packages/golden-triangle` owns "Golden Triangle", so Rajasthan/Delhi/UP package pages mention it only as a route and link to the circuit page. Likewise `/packages/char-dham-yatra` vs `/packages/uttarakhand` and `/packages/spiritual-tours`.
+- **No keyword stuffing:** the target phrase appears once in the homepage H1 and once in the title; body copy uses natural variants ("travel agency", "India trips").
+
+## Informational queries answered on commercial pages (AEO)
+
+For the 13 priority destinations, package pages answer the questions below directly, reusing figures from the guides. See `aeo-geo-audit.md`.
+
+What is X known for? · How many days are enough? · Best time to visit · How to reach · How much does it cost? · Is it good for families? · Is it good for a honeymoon? · Do you need a permit? · Things to do · Best places to visit
+
+---
+
+# Part B — Editorial keyword map (2026-09-14, unchanged)
+
+
 **Date:** 2026-09-14
 **Scope:** Priority-A pages (the 36 state/UT hub guides — the highest-leverage nodes in the site's link graph) mapped in full below, plus the methodology and validated pattern that already governs the remaining 546 Priority-B/C destination pages.
 

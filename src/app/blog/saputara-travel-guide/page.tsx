@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -154,8 +155,6 @@ const SAPUTARA_GEAR: GearSection[] = [
         name: "Rain Jacket / Poncho",
         description: "Saputara's best season is monsoon and post-monsoon — a packable rain layer is essential, not optional, if visiting Jun-Oct.",
         price: "₹899",
-        rating: 4.4,
-        reviews: "5.1k",
         image: "🧥",
         affiliateUrl: amazonSearchUrl("packable+rain+jacket+trekking"),
         tag: "Monsoon essential",
@@ -166,8 +165,6 @@ const SAPUTARA_GEAR: GearSection[] = [
         name: "Grip Sandals / Trekking Shoes",
         description: "Viewpoint paths and the walk to Gira Falls can get slippery in wet conditions.",
         price: "₹899",
-        rating: 4.4,
-        reviews: "5.1k",
         image: "🥾",
         affiliateUrl: amazonSearchUrl("trekking+sandals+grip+outdoor"),
         tag: "Trail essential",
@@ -178,8 +175,6 @@ const SAPUTARA_GEAR: GearSection[] = [
         name: "Light Warm Layer",
         description: "Evenings at Saputara's elevation are noticeably cooler than the Gujarat plains, even in the warmer months.",
         price: "₹1,499",
-        rating: 4.4,
-        reviews: "3.8k",
         image: "🧥",
         affiliateUrl: amazonSearchUrl("light+warm+jacket+travel"),
         tag: "Evening essential",
@@ -190,8 +185,6 @@ const SAPUTARA_GEAR: GearSection[] = [
         name: "Waterproof Phone Pouch",
         description: "Useful for boating on Saputara Lake and any monsoon-season sightseeing.",
         price: "₹299",
-        rating: 4.3,
-        reviews: "9.1k",
         image: "📱",
         affiliateUrl: amazonSearchUrl("waterproof+phone+pouch+travel"),
         tag: "Boating essential",
@@ -339,6 +332,8 @@ export default function SaputaraGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="saputara-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Saputara</h2>

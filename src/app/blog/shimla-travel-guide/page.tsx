@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -109,10 +110,10 @@ const SHIMLA_GEAR: GearSection[] = [
     subtitle: "Gear for Mall Road walks, the toy train, and Kufri day trips",
     emoji: "🚂",
     items: [
-      { name: "Warm Layer / Light Jacket", description: "Even summer evenings on The Ridge drop into single digits — a packable warm layer earns its place year-round.", price: "₹1,999", rating: 4.4, reviews: "6.4k", image: "🧥", affiliateUrl: amazonSearchUrl("light+jacket+travel+hill+station"), tag: "Evening essential", tagColor: "bg-sky-100 text-sky-700", why: "Shimla's evening chill surprises first-time visitors who packed only for a warm Indian summer." },
-      { name: "Comfortable Walking Shoes", description: "Mall Road and The Ridge are pedestrian-only, and the town's sloped lanes add up over a full day of sightseeing.", price: "₹1,999", rating: 4.4, reviews: "5.3k", image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-forest-100 text-forest-700", why: "Shimla's core is built on a steep ridge — flat, grippy shoes matter more here than in most Indian towns." },
-      { name: "Rain Layer / Umbrella", description: "Monsoon showers and sudden mountain weather shifts are common, even outside the main monsoon months.", price: "₹899", rating: 4.4, reviews: "5.1k", image: "🧥", affiliateUrl: amazonSearchUrl("packable+rain+jacket+travel"), tag: "Weather essential", tagColor: "bg-purple-100 text-purple-700", why: "Weather on The Ridge can turn from clear to drizzly within the hour." },
-      { name: "Power Bank", description: "Useful for the long toy train ride and a full day out at Kufri with limited charging points.", price: "₹1,299", rating: 4.5, reviews: "9.7k", image: "🔋", affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"), tag: "Day-trip essential", tagColor: "bg-amber-100 text-amber-700", why: "The Kalka-Shimla toy train ride alone runs around five hours — worth having backup charge for photos." },
+      { name: "Warm Layer / Light Jacket", description: "Even summer evenings on The Ridge drop into single digits — a packable warm layer earns its place year-round.", price: "₹1,999",  image: "🧥", affiliateUrl: amazonSearchUrl("light+jacket+travel+hill+station"), tag: "Evening essential", tagColor: "bg-sky-100 text-sky-700", why: "Shimla's evening chill surprises first-time visitors who packed only for a warm Indian summer." },
+      { name: "Comfortable Walking Shoes", description: "Mall Road and The Ridge are pedestrian-only, and the town's sloped lanes add up over a full day of sightseeing.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-forest-100 text-forest-700", why: "Shimla's core is built on a steep ridge — flat, grippy shoes matter more here than in most Indian towns." },
+      { name: "Rain Layer / Umbrella", description: "Monsoon showers and sudden mountain weather shifts are common, even outside the main monsoon months.", price: "₹899",  image: "🧥", affiliateUrl: amazonSearchUrl("packable+rain+jacket+travel"), tag: "Weather essential", tagColor: "bg-purple-100 text-purple-700", why: "Weather on The Ridge can turn from clear to drizzly within the hour." },
+      { name: "Power Bank", description: "Useful for the long toy train ride and a full day out at Kufri with limited charging points.", price: "₹1,299",  image: "🔋", affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"), tag: "Day-trip essential", tagColor: "bg-amber-100 text-amber-700", why: "The Kalka-Shimla toy train ride alone runs around five hours — worth having backup charge for photos." },
     ],
   },
 ];
@@ -199,6 +200,8 @@ export default function ShimlaGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="shimla-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Shimla</h2>

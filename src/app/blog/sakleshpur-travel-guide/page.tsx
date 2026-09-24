@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -164,8 +165,6 @@ const SAKLESHPUR_GEAR: GearSection[] = [
         name: "Sturdy Trekking Shoes",
         description: "Essential for the railway trek's uneven ballast track and any coffee-estate trail walking.",
         price: "₹3,299",
-        rating: 4.5,
-        reviews: "6.8k",
         image: "🥾",
         affiliateUrl: amazonSearchUrl("trekking+shoes+men+women"),
         tag: "Trek essential",
@@ -176,8 +175,6 @@ const SAKLESHPUR_GEAR: GearSection[] = [
         name: "Headlamp / Torch",
         description: "For the tunnel sections of the railway trek, where accessible — some stretches run genuinely dark inside.",
         price: "₹599",
-        rating: 4.4,
-        reviews: "4.1k",
         image: "🔦",
         affiliateUrl: amazonSearchUrl("headlamp+torch+trekking"),
         tag: "Tunnel essential",
@@ -188,8 +185,6 @@ const SAKLESHPUR_GEAR: GearSection[] = [
         name: "Rain Jacket / Poncho",
         description: "Sakleshpur's Western Ghats location means sudden showers are common even outside peak monsoon.",
         price: "₹899",
-        rating: 4.4,
-        reviews: "5.1k",
         image: "🧥",
         affiliateUrl: amazonSearchUrl("packable+rain+jacket+trekking"),
         tag: "Weather essential",
@@ -200,8 +195,6 @@ const SAKLESHPUR_GEAR: GearSection[] = [
         name: "Light Warm Layer",
         description: "Mornings and evenings in the estate country get noticeably cool, even though this is South India.",
         price: "₹1,299",
-        rating: 4.3,
-        reviews: "3.2k",
         image: "🧣",
         affiliateUrl: amazonSearchUrl("light+fleece+jacket+travel"),
         tag: "Comfort essential",
@@ -334,6 +327,8 @@ export default function SakleshpurGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="sakleshpur-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Sakleshpur</h2>

@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -109,10 +110,10 @@ const MANGALURU_GEAR: GearSection[] = [
     subtitle: "Gear for beach days, temple visits, and coastal humidity",
     emoji: "🌊",
     items: [
-      { name: "Light, Breathable Clothing", description: "Coastal Karnataka's humidity is intense year-round — loose cotton clothing beats synthetics by a wide margin.", price: "₹799", rating: 4.4, reviews: "3.5k", image: "👕", affiliateUrl: amazonSearchUrl("breathable+cotton+travel+clothing"), tag: "Comfort essential", tagColor: "bg-sky-100 text-sky-700", why: "Mangaluru's coastal humidity makes lightweight, breathable fabric a genuine comfort upgrade." },
-      { name: "Reef-Safe Sunscreen", description: "For beach time at Panambur and Tannirbhavi.", price: "₹599", rating: 4.5, reviews: "7.4k", image: "🧴", affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+SPF+50"), tag: "Beach essential", tagColor: "bg-amber-100 text-amber-700", why: "Coastal sun exposure adds up quickly across a full beach day." },
-      { name: "Modest Clothing for Temples", description: "Kadri Manjunath and Mangaladevi temples expect covered shoulders and knees.", price: "₹599", rating: 4.4, reviews: "3.9k", image: "🙏", affiliateUrl: amazonSearchUrl("modest+travel+clothing"), tag: "Temple essential", tagColor: "bg-purple-100 text-purple-700", why: "Several of the city's key sights are active places of worship with expected dress standards." },
-      { name: "Comfortable Walking Shoes", description: "For exploring the temple district, St. Aloysius Chapel, and the beachfront promenades.", price: "₹1,999", rating: 4.4, reviews: "5.3k", image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-forest-100 text-forest-700", why: "A day covering temples, beaches, and the old town adds up to a fair amount of walking." },
+      { name: "Light, Breathable Clothing", description: "Coastal Karnataka's humidity is intense year-round — loose cotton clothing beats synthetics by a wide margin.", price: "₹799",  image: "👕", affiliateUrl: amazonSearchUrl("breathable+cotton+travel+clothing"), tag: "Comfort essential", tagColor: "bg-sky-100 text-sky-700", why: "Mangaluru's coastal humidity makes lightweight, breathable fabric a genuine comfort upgrade." },
+      { name: "Reef-Safe Sunscreen", description: "For beach time at Panambur and Tannirbhavi.", price: "₹599",  image: "🧴", affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+SPF+50"), tag: "Beach essential", tagColor: "bg-amber-100 text-amber-700", why: "Coastal sun exposure adds up quickly across a full beach day." },
+      { name: "Modest Clothing for Temples", description: "Kadri Manjunath and Mangaladevi temples expect covered shoulders and knees.", price: "₹599",  image: "🙏", affiliateUrl: amazonSearchUrl("modest+travel+clothing"), tag: "Temple essential", tagColor: "bg-purple-100 text-purple-700", why: "Several of the city's key sights are active places of worship with expected dress standards." },
+      { name: "Comfortable Walking Shoes", description: "For exploring the temple district, St. Aloysius Chapel, and the beachfront promenades.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-forest-100 text-forest-700", why: "A day covering temples, beaches, and the old town adds up to a fair amount of walking." },
     ],
   },
 ];
@@ -199,6 +200,8 @@ export default function MangaluruGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="mangaluru-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Mangaluru</h2>

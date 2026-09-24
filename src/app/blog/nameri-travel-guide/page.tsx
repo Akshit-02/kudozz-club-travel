@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -82,10 +83,10 @@ const tableOfContents = [
 const NAMERI_GEAR: GearSection[] = [{
   title: "Things Worth Carrying", subtitle: "Gear for rafting and birdwatching on the Jia Bhoroli", emoji: "🚣",
   items: [
-    { name: "Quick-Dry Clothing", description: "For the rafting trip — synthetic quick-dry fabrics handle the river spray far better than cotton.", price: "₹899", rating: 4.4, reviews: "4.1k", image: "👕", affiliateUrl: amazonSearchUrl("quick+dry+clothing+rafting"), tag: "Rafting essential", tagColor: "bg-sky-100 text-sky-700", why: "Cotton stays wet for hours after a rafting trip — quick-dry fabric dries in minutes." },
-    { name: "Binoculars", description: "Essential for Nameri's genuine birding significance, especially spotting the rare white-winged wood duck.", price: "₹1,999", rating: 4.5, reviews: "6.5k", image: "🔭", affiliateUrl: amazonSearchUrl("binoculars+birdwatching"), tag: "Birding essential", tagColor: "bg-amber-100 text-amber-700", why: "Nameri's forest canopy means birds are often spotted at a distance or partially obscured — binoculars make the difference." },
-    { name: "Water Shoes / Grip Sandals", description: "For wading in and out of the raft at put-in and take-out points along rocky riverbanks.", price: "₹699", rating: 4.3, reviews: "3.8k", image: "👟", affiliateUrl: amazonSearchUrl("water+shoes+river+rafting"), tag: "Rafting essential", tagColor: "bg-forest-100 text-forest-700", why: "Riverbank rocks can be slippery and sharp — proper water shoes prevent cuts and slips." },
-    { name: "Dry Bag", description: "Keeps your phone, camera, and valuables safe and dry throughout the rafting trip.", price: "₹599", rating: 4.4, reviews: "5.2k", image: "🎒", affiliateUrl: amazonSearchUrl("waterproof+dry+bag+rafting"), tag: "Non-negotiable", tagColor: "bg-red-100 text-red-700", why: "A dry bag is the only reliable way to keep electronics safe on a rafting trip." },
+    { name: "Quick-Dry Clothing", description: "For the rafting trip — synthetic quick-dry fabrics handle the river spray far better than cotton.", price: "₹899",  image: "👕", affiliateUrl: amazonSearchUrl("quick+dry+clothing+rafting"), tag: "Rafting essential", tagColor: "bg-sky-100 text-sky-700", why: "Cotton stays wet for hours after a rafting trip — quick-dry fabric dries in minutes." },
+    { name: "Binoculars", description: "Essential for Nameri's genuine birding significance, especially spotting the rare white-winged wood duck.", price: "₹1,999",  image: "🔭", affiliateUrl: amazonSearchUrl("binoculars+birdwatching"), tag: "Birding essential", tagColor: "bg-amber-100 text-amber-700", why: "Nameri's forest canopy means birds are often spotted at a distance or partially obscured — binoculars make the difference." },
+    { name: "Water Shoes / Grip Sandals", description: "For wading in and out of the raft at put-in and take-out points along rocky riverbanks.", price: "₹699",  image: "👟", affiliateUrl: amazonSearchUrl("water+shoes+river+rafting"), tag: "Rafting essential", tagColor: "bg-forest-100 text-forest-700", why: "Riverbank rocks can be slippery and sharp — proper water shoes prevent cuts and slips." },
+    { name: "Dry Bag", description: "Keeps your phone, camera, and valuables safe and dry throughout the rafting trip.", price: "₹599",  image: "🎒", affiliateUrl: amazonSearchUrl("waterproof+dry+bag+rafting"), tag: "Non-negotiable", tagColor: "bg-red-100 text-red-700", why: "A dry bag is the only reliable way to keep electronics safe on a rafting trip." },
   ],
 }];
 
@@ -165,6 +166,8 @@ export default function NameriGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="nameri-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Nameri</h2>

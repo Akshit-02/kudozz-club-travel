@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -159,8 +160,6 @@ const MANDU_GEAR: GearSection[] = [
         description:
           "Mandu's monuments are spread across a wide plateau with uneven stone paths between them — proper footwear matters more here than at a single-complex site.",
         price: "₹1,499",
-        rating: 4.4,
-        reviews: "6.8k",
         image: "👟",
         affiliateUrl: amazonSearchUrl("comfortable+trekking+walking+shoes"),
         tag: "Ruin-city essential",
@@ -172,8 +171,6 @@ const MANDU_GEAR: GearSection[] = [
         description:
           "Locally rented two-wheelers are the practical way to cover Mandu's spread-out ruins efficiently — most travellers rent one for the day rather than walking between every cluster.",
         price: "₹—",
-        rating: 4.2,
-        reviews: "1.9k",
         image: "🛵",
         affiliateUrl: amazonSearchUrl("compact+rain+poncho+travel"),
         tag: "Local essential",
@@ -185,8 +182,6 @@ const MANDU_GEAR: GearSection[] = [
         description:
           "If you're visiting in monsoon season for Mandu's famous green look, a packable poncho keeps you dry between palace stops without weighing down a daypack.",
         price: "₹299",
-        rating: 4.2,
-        reviews: "3.4k",
         image: "🌂",
         affiliateUrl: amazonSearchUrl("compact+rain+poncho+travel"),
         tag: "Monsoon essential",
@@ -198,8 +193,6 @@ const MANDU_GEAR: GearSection[] = [
         description:
           "Facilities are sparse between Mandu's monument clusters, especially outside the main Jahaz Mahal area.",
         price: "₹449",
-        rating: 4.5,
-        reviews: "6.2k",
         image: "💧",
         affiliateUrl: amazonSearchUrl("2l+hydration+water+bottle+travel"),
         tag: "All-day essential",
@@ -210,8 +203,6 @@ const MANDU_GEAR: GearSection[] = [
         name: "Wide-Brim Sun Hat",
         description: "Outside monsoon season, Mandu's open plateau offers minimal shade across a full day of ruin-hopping.",
         price: "₹399",
-        rating: 4.3,
-        reviews: "3.9k",
         image: "👒",
         affiliateUrl: amazonSearchUrl("wide+brim+sun+hat+travel"),
         tag: "Sun essential",
@@ -222,8 +213,6 @@ const MANDU_GEAR: GearSection[] = [
         name: "Camera for Landscape Shots",
         description: "The Narmada valley views from Rani Roopmati's Pavilion and Baz Bahadur's Palace are Mandu's signature photo opportunities.",
         price: "₹—",
-        rating: 4.4,
-        reviews: "3.1k",
         image: "📷",
         affiliateUrl: amazonSearchUrl("mirrorless+camera+travel"),
         tag: "Photography essential",
@@ -378,6 +367,8 @@ export default function ManduGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="mandu-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Mandu</h2>

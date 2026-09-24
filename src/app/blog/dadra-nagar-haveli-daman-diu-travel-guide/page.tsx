@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -206,8 +207,6 @@ const DNHDD_GEAR: GearSection[] = [
         description:
           "Diu Fort's ramparts, bastions and the old town's cobbled lanes involve a lot of uneven walking in direct sun — proper shoes matter more here than sandals.",
         price: "₹1,499",
-        rating: 4.4,
-        reviews: "8.2k",
         image: "👟",
         affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
         tag: "Fort-walk essential",
@@ -219,8 +218,6 @@ const DNHDD_GEAR: GearSection[] = [
         description:
           "Coastal sun on the Diu and Daman beaches is intense with little natural shade, and reef-safe formulas are better for the shallow shoreline ecosystems.",
         price: "₹549",
-        rating: 4.5,
-        reviews: "11k",
         image: "🧴",
         affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+spf+50"),
         tag: "Beach essential",
@@ -232,8 +229,6 @@ const DNHDD_GEAR: GearSection[] = [
         description:
           "Useful for both the exposed fort ramparts in Diu and long, flat beach walks at Nagoa and Jampore.",
         price: "₹399",
-        rating: 4.3,
-        reviews: "5.6k",
         image: "👒",
         affiliateUrl: amazonSearchUrl("wide+brim+sun+hat+travel"),
         tag: "Sun essential",
@@ -245,8 +240,6 @@ const DNHDD_GEAR: GearSection[] = [
         description:
           "Standalone eateries and water points are sparse between Diu's fort area, old town, and the beaches — carrying your own water is the practical choice.",
         price: "₹699",
-        rating: 4.5,
-        reviews: "9.3k",
         image: "🍶",
         affiliateUrl: amazonSearchUrl("insulated+water+bottle+steel"),
         tag: "Everyday essential",
@@ -258,8 +251,6 @@ const DNHDD_GEAR: GearSection[] = [
         description:
           "Useful for the drive between Silvassa, Daman and Diu, which involves stretches with limited charging stops.",
         price: "₹1,299",
-        rating: 4.5,
-        reviews: "9.7k",
         image: "🔋",
         affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
         tag: "Road-trip essential",
@@ -271,8 +262,6 @@ const DNHDD_GEAR: GearSection[] = [
         description:
           "Handy for small-town travel where pharmacies and clinics are limited outside the main markets.",
         price: "₹599",
-        rating: 4.4,
-        reviews: "3.9k",
         image: "🩹",
         affiliateUrl: amazonSearchUrl("travel+first+aid+kit"),
         tag: "Small-town essential",
@@ -517,6 +506,8 @@ export default function DadraNagarHaveliDamanDiuGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="dadra-nagar-haveli-daman-diu-travel-guide" />
 
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">

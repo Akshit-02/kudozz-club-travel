@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -153,8 +154,6 @@ const PATRATU_GEAR: GearSection[] = [
         name: "Motion Sickness Tablets",
         description: "The Patratu Ghati's continuous hairpin bends can be tough on passengers prone to car sickness.",
         price: "₹99",
-        rating: 4.2,
-        reviews: "2.8k",
         image: "💊",
         affiliateUrl: amazonSearchUrl("motion+sickness+tablets+travel"),
         tag: "Road-trip essential",
@@ -165,8 +164,6 @@ const PATRATU_GEAR: GearSection[] = [
         name: "Camera / Phone Mount",
         description: "Useful for capturing the valley's sweeping switchback views from designated viewpoint stops.",
         price: "₹399",
-        rating: 4.3,
-        reviews: "3.5k",
         image: "📷",
         affiliateUrl: amazonSearchUrl("phone+mount+car+travel"),
         tag: "Photography essential",
@@ -177,8 +174,6 @@ const PATRATU_GEAR: GearSection[] = [
         name: "Reusable Water Bottle",
         description: "Facilities are limited to a handful of small roadside stops along the route.",
         price: "₹449",
-        rating: 4.5,
-        reviews: "6.2k",
         image: "💧",
         affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"),
         tag: "Day-trip essential",
@@ -325,6 +320,8 @@ export default function PatratuGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="patratu-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Patratu Valley</h2>

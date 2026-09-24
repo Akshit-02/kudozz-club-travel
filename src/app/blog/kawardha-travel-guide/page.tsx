@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -81,10 +82,10 @@ const tableOfContents = [
 const KAWARDHA_GEAR: GearSection[] = [{
   title: "Things Worth Carrying", subtitle: "Gear for a palace-and-temple day", emoji: "🏰",
   items: [
-    { name: "Comfortable Walking Shoes", description: "For exploring Kawardha town and the Bhoramdeo Temple grounds on a combined day trip.", price: "₹1,499", rating: 4.4, reviews: "5.3k", image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-amber-100 text-amber-700", why: "A combined Kawardha-Bhoramdeo day involves real walking across two sites." },
-    { name: "Sun Hat & Sunscreen", description: "For a full day outdoors between the palace town and the temple complex.", price: "₹599", rating: 4.4, reviews: "5.0k", image: "🧴", affiliateUrl: amazonSearchUrl("sun+hat+sunscreen+travel"), tag: "Sun essential", tagColor: "bg-orange-100 text-orange-700", why: "Both stops involve open, sun-exposed ground." },
-    { name: "Reusable Water Bottle", description: "For the drive and walking between Kawardha and Bhoramdeo.", price: "₹449", rating: 4.5, reviews: "6.2k", image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "All-day essential", tagColor: "bg-sky-100 text-sky-700", why: "Facilities thin out between the two towns." },
-    { name: "Camera", description: "For Kawardha Palace's architecture and the Bhoramdeo carvings.", price: "₹—", rating: 4.4, reviews: "3.1k", image: "📷", affiliateUrl: amazonSearchUrl("camera+travel"), tag: "Sightseeing essential", tagColor: "bg-forest-100 text-forest-700", why: "Both the palace and temple offer genuinely photogenic subjects." },
+    { name: "Comfortable Walking Shoes", description: "For exploring Kawardha town and the Bhoramdeo Temple grounds on a combined day trip.", price: "₹1,499",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-amber-100 text-amber-700", why: "A combined Kawardha-Bhoramdeo day involves real walking across two sites." },
+    { name: "Sun Hat & Sunscreen", description: "For a full day outdoors between the palace town and the temple complex.", price: "₹599",  image: "🧴", affiliateUrl: amazonSearchUrl("sun+hat+sunscreen+travel"), tag: "Sun essential", tagColor: "bg-orange-100 text-orange-700", why: "Both stops involve open, sun-exposed ground." },
+    { name: "Reusable Water Bottle", description: "For the drive and walking between Kawardha and Bhoramdeo.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "All-day essential", tagColor: "bg-sky-100 text-sky-700", why: "Facilities thin out between the two towns." },
+    { name: "Camera", description: "For Kawardha Palace's architecture and the Bhoramdeo carvings.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("camera+travel"), tag: "Sightseeing essential", tagColor: "bg-forest-100 text-forest-700", why: "Both the palace and temple offer genuinely photogenic subjects." },
   ],
 }];
 
@@ -164,6 +165,8 @@ export default function KawardhaGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="kawardha-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Kawardha</h2>

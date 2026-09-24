@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -152,7 +153,7 @@ const KAAS_GEAR: GearSection[] = [
       {
         name: "Comfortable Walking Shoes",
         description: "The plateau's wooden walkways and surrounding paths are best covered in closed, comfortable shoes rather than sandals.",
-        price: "₹1,199", rating: 4.4, reviews: "4.8k", image: "👟",
+        price: "₹1,199",  image: "👟",
         affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+outdoor"),
         tag: "Trek essential", tagColor: "bg-amber-100 text-amber-700",
         why: "You'll be on your feet for 1.5-2 hours on uneven walkway boards — proper shoes make the whole visit more comfortable.",
@@ -160,7 +161,7 @@ const KAAS_GEAR: GearSection[] = [
       {
         name: "Macro Lens / Phone Clip-On Macro",
         description: "Kaas's flowers are often tiny — a macro attachment turns ordinary phone photos into genuinely striking close-ups.",
-        price: "₹599", rating: 4.2, reviews: "3.1k", image: "🔍",
+        price: "₹599",  image: "🔍",
         affiliateUrl: amazonSearchUrl("phone+macro+lens+clip"),
         tag: "Photography", tagColor: "bg-purple-100 text-purple-700",
         why: "Standard phone cameras flatten small wildflowers into a blur — a clip-on macro lens is a cheap fix that changes your photos completely.",
@@ -168,7 +169,7 @@ const KAAS_GEAR: GearSection[] = [
       {
         name: "Wide-Brim Sun Hat",
         description: "The plateau has almost no shade — direct exposure for the full walk, even under overcast late-monsoon skies.",
-        price: "₹399", rating: 4.3, reviews: "2.6k", image: "👒",
+        price: "₹399",  image: "👒",
         affiliateUrl: amazonSearchUrl("wide+brim+sun+hat+travel"),
         tag: "Comfort essential", tagColor: "bg-sky-100 text-sky-700",
         why: "There's no tree cover on the open plateau — a hat matters even on a cloudy day.",
@@ -176,7 +177,7 @@ const KAAS_GEAR: GearSection[] = [
       {
         name: "Light Rain Jacket",
         description: "Late-monsoon weather at Kaas is unpredictable — a sudden shower is common during peak bloom season.",
-        price: "₹799", rating: 4.4, reviews: "3.9k", image: "🧥",
+        price: "₹799",  image: "🧥",
         affiliateUrl: amazonSearchUrl("packable+rain+jacket"),
         tag: "Season essential", tagColor: "bg-forest-100 text-forest-700",
         why: "Bloom season overlaps with the monsoon's tail end — a packable rain layer avoids cutting your visit short.",
@@ -184,7 +185,7 @@ const KAAS_GEAR: GearSection[] = [
       {
         name: "Reusable Water Bottle",
         description: "No shade and a fair bit of walking between the plateau, Kaas Lake, and Thoseghar make hydration worth planning for.",
-        price: "₹349", rating: 4.5, reviews: "6.2k", image: "💧",
+        price: "₹349",  image: "💧",
         affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"),
         tag: "Day-trip essential", tagColor: "bg-stone-100 text-stone-700",
         why: "There are limited shops right at the plateau entrance — carrying your own water avoids a mid-visit scramble.",
@@ -310,6 +311,8 @@ export default function KaasPlateauGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="kaas-plateau-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit (Bloom Season)</h2>

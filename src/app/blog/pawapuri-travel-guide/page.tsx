@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -152,8 +153,6 @@ const PAWAPURI_GEAR: GearSection[] = [
         name: "Modest, Breathable Clothing",
         description: "Pawapuri is a deeply devotional Jain pilgrimage site — modest, covering clothing is expected.",
         price: "₹899",
-        rating: 4.3,
-        reviews: "3.6k",
         image: "🧣",
         affiliateUrl: amazonSearchUrl("modest+travel+clothing+cotton"),
         tag: "Respectful travel",
@@ -164,8 +163,6 @@ const PAWAPURI_GEAR: GearSection[] = [
         name: "Comfortable Sandals",
         description: "Easy to remove for temple entry, and comfortable for walking the causeway to Jal Mandir.",
         price: "₹899",
-        rating: 4.4,
-        reviews: "4.8k",
         image: "👡",
         affiliateUrl: amazonSearchUrl("comfortable+sandals+travel"),
         tag: "Temple essential",
@@ -176,8 +173,6 @@ const PAWAPURI_GEAR: GearSection[] = [
         name: "Reusable Water Bottle",
         description: "Useful for the day given limited facilities directly around the tank.",
         price: "₹699",
-        rating: 4.5,
-        reviews: "9.3k",
         image: "🍶",
         affiliateUrl: amazonSearchUrl("insulated+water+bottle+steel"),
         tag: "Everyday essential",
@@ -188,8 +183,6 @@ const PAWAPURI_GEAR: GearSection[] = [
         name: "Camera",
         description: "The Jal Mandir's lotus-tank setting is genuinely photogenic, especially in morning light.",
         price: "₹—",
-        rating: 4.5,
-        reviews: "—",
         image: "📷",
         affiliateUrl: amazonSearchUrl("compact+camera+travel"),
         tag: "Sightseeing essential",
@@ -345,6 +338,8 @@ export default function PawapuriGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="pawapuri-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Pawapuri</h2>

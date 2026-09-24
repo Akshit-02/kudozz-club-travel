@@ -5,11 +5,12 @@ import Image from "next/image";
 import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import { posts as blogPosts } from "@/lib/blog-posts";
+import { regionCount } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Destinations — Explore India & Beyond",
+  title: "India Travel Destinations by State",
   description:
-    "Browse all travel destinations on Kudozz Club — from Himalayan peaks to tropical beaches, ancient heritage sites to off-beat hidden gems. Hand-crafted guides for every kind of explorer.",
+    "Hill stations, beaches, heritage cities, national parks and off-beat places across all 36 Indian states and UTs, with guides and trip planning from Kudozz Club.",
   keywords: [
     "India travel destinations",
     "best places to visit in India",
@@ -38,7 +39,7 @@ function DestinationsSchema({
         __html: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "CollectionPage",
-          name: "Destinations — Explore India & Beyond",
+          name: "India Travel Destinations",
           url: "https://club.kudozz.in/destinations",
           breadcrumb: {
             "@type": "BreadcrumbList",
@@ -1133,7 +1134,7 @@ const stats = [
   },
   { value: String(combinedDestinations.length), label: "Destinations" },
   { value: String(combinedDestinations.length), label: "Guides published" },
-  { value: "7", label: "Regions" },
+  { value: String(regionCount), label: "Regions of India" },
 ];
 
 // ── Page ─────────────────────────────────────────────────────────────────────
@@ -1174,16 +1175,17 @@ export default function DestinationsPage() {
                 className="text-5xl sm:text-6xl font-bold text-white mb-5 leading-tight"
                 style={{ fontFamily: "var(--font-playfair)" }}
               >
-                Every destination.
+                India Travel Destinations
                 <br />
-                <span className="text-forest-300">One trusted guide.</span>
+                <span className="text-forest-300">Explore, then plan.</span>
               </h1>
               <p
                 className="text-white/70 text-lg leading-relaxed"
                 style={{ fontFamily: "var(--font-source-serif)" }}
               >
-                From Himalayan passes to tropical backwaters — hand-crafted
-                travel guides written by people who've actually been there.
+                From Himalayan passes to tropical backwaters: detailed guides
+                to every Indian state and union territory. Found somewhere you
+                like? We can plan the trip for you.
               </p>
             </div>
           </div>
@@ -1582,36 +1584,29 @@ export default function DestinationsPage() {
 
         {/* ── CTA ───────────────────────────────────────────────────────── */}
         <section className="bg-stone-950 py-20">
-          <div className="max-w-2xl mx-auto px-6 text-center">
-            <h2
-              className="text-3xl font-bold text-white mb-4"
-              style={{ fontFamily: "var(--font-playfair)" }}
-            >
-              Can't find your destination?
+          <div className="container-site max-w-2xl text-center">
+            <h2 className="font-display text-3xl font-bold text-white sm:text-4xl">
+              Found your destination?
             </h2>
-            <p
-              className="text-stone-400 text-sm mb-8 leading-relaxed"
-              style={{ fontFamily: "var(--font-dm-sans)" }}
-            >
-              We're adding new guides every week. Join the newsletter to get
-              notified when we publish your next destination.
+            <p className="mt-4 font-sans text-base leading-relaxed text-stone-300">
+              Tell us where, when and who&rsquo;s travelling. Kudozz Club will
+              plan a customized itinerary around it.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link
-                href="/newsletter"
-                className="px-7 py-3.5 gradient-forest text-white font-semibold rounded-full text-sm hover:opacity-90 transition-opacity"
-                style={{ fontFamily: "var(--font-dm-sans)" }}
-              >
-                Get New Guides First →
+            <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
+              <Link href="/plan-your-trip?from=/destinations" className="btn-primary px-8">
+                Plan My Trip →
               </Link>
-              <Link
-                href="/write-for-us"
-                className="px-7 py-3.5 border border-stone-700 text-stone-400 hover:text-white hover:border-stone-500 font-semibold rounded-full text-sm transition-all"
-                style={{ fontFamily: "var(--font-dm-sans)" }}
-              >
-                Write for Us
+              <Link href="/packages" className="btn-outline-light px-8">
+                Explore Tour Packages
               </Link>
             </div>
+            <p className="mt-6 font-sans text-sm text-stone-500">
+              Not ready yet?{" "}
+              <Link href="/newsletter" className="text-stone-300 underline underline-offset-4 hover:text-white">
+                Get new guides by email
+              </Link>
+              .
+            </p>
           </div>
         </section>
       </main>

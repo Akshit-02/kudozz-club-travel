@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -202,8 +203,6 @@ const UP_GEAR: GearSection[] = [
         description:
           "The Taj Mahal complex, Agra Fort, Varanasi's ghats and narrow lanes, and Lucknow's Bara Imambara all involve extended walking on stone and uneven surfaces.",
         price: "₹1,499",
-        rating: 4.4,
-        reviews: "8.2k",
         image: "👟",
         affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
         tag: "Monument essential",
@@ -215,8 +214,6 @@ const UP_GEAR: GearSection[] = [
         description:
           "Agra and Lucknow get extremely hot for much of the year, and monument complexes like the Taj Mahal have long uncovered stretches.",
         price: "₹699",
-        rating: 4.5,
-        reviews: "9.3k",
         image: "🍶",
         affiliateUrl: amazonSearchUrl("insulated+water+bottle+steel"),
         tag: "Everyday essential",
@@ -228,8 +225,6 @@ const UP_GEAR: GearSection[] = [
         description:
           "Useful across the entire Taj Mahal complex, which has almost no shade over its main approach and gardens.",
         price: "₹399",
-        rating: 4.3,
-        reviews: "5.6k",
         image: "👒",
         affiliateUrl: amazonSearchUrl("wide+brim+sun+hat+travel"),
         tag: "Sun essential",
@@ -241,8 +236,6 @@ const UP_GEAR: GearSection[] = [
         description:
           "Useful for covering shoulders at religious sites in Varanasi, Ayodhya, and Mathura-Vrindavan, and doubles as sun protection.",
         price: "₹499",
-        rating: 4.4,
-        reviews: "4.1k",
         image: "🧣",
         affiliateUrl: amazonSearchUrl("travel+scarf+stole+lightweight"),
         tag: "Temple essential",
@@ -254,8 +247,6 @@ const UP_GEAR: GearSection[] = [
         description:
           "Useful for long inter-city travel between Agra, Varanasi and Lucknow, and for pre-dawn boat rides on the Ganga.",
         price: "₹1,299",
-        rating: 4.5,
-        reviews: "9.7k",
         image: "🔋",
         affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
         tag: "Travel-day essential",
@@ -267,8 +258,6 @@ const UP_GEAR: GearSection[] = [
         description:
           "Street food in Lucknow and Varanasi is a highlight of the trip — worth carrying basic medication for first-time visitors trying it extensively.",
         price: "₹399",
-        rating: 4.3,
-        reviews: "4.8k",
         image: "💊",
         affiliateUrl: amazonSearchUrl("travel+digestive+medicine+kit"),
         tag: "Street-food essential",
@@ -507,6 +496,8 @@ export default function UttarPradeshGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="uttar-pradesh-travel-guide" />
 
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">

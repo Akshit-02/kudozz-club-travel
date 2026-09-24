@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -81,10 +82,10 @@ const tableOfContents = [
 const KANGER_GEAR: GearSection[] = [{
   title: "Things Worth Carrying", subtitle: "Gear for caves, forest trails, and waterfall visits", emoji: "🦇",
   items: [
-    { name: "Headlamp / Torch", description: "Essential for Kutumsar and Kailash Cave interiors, which are genuinely dark beyond the entrance.", price: "₹599", rating: 4.5, reviews: "6.4k", image: "🔦", affiliateUrl: amazonSearchUrl("led+headlamp+caving"), tag: "Cave essential", tagColor: "bg-red-100 text-red-700", why: "Cave interiors have limited or no ambient lighting beyond the entrance area." },
-    { name: "Sturdy Trekking Shoes", description: "For cave approach paths, forest trails, and Tirathgarh's wet rock sections.", price: "₹2,999", rating: 4.5, reviews: "6.2k", image: "🥾", affiliateUrl: amazonSearchUrl("trekking+shoes+mountain"), tag: "All-terrain essential", tagColor: "bg-amber-100 text-amber-700", why: "The park mixes cave, forest, and wet waterfall terrain in a single visit." },
-    { name: "Insect Repellent", description: "Dense sal forest throughout the park means a real, consistent mosquito presence.", price: "₹199", rating: 4.3, reviews: "4.2k", image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Forest essential", tagColor: "bg-forest-100 text-forest-700", why: "This is genuinely dense forest cover, not open grassland." },
-    { name: "Binoculars", description: "For any wildlife spotting opportunities — leopards and deer species are present, though sightings aren't guaranteed.", price: "₹1,999", rating: 4.5, reviews: "6.5k", image: "🔭", affiliateUrl: amazonSearchUrl("binoculars+wildlife+forest"), tag: "Wildlife essential", tagColor: "bg-sky-100 text-sky-700", why: "Given how rare direct sightings are, binoculars make the most of any distant glimpse." },
+    { name: "Headlamp / Torch", description: "Essential for Kutumsar and Kailash Cave interiors, which are genuinely dark beyond the entrance.", price: "₹599",  image: "🔦", affiliateUrl: amazonSearchUrl("led+headlamp+caving"), tag: "Cave essential", tagColor: "bg-red-100 text-red-700", why: "Cave interiors have limited or no ambient lighting beyond the entrance area." },
+    { name: "Sturdy Trekking Shoes", description: "For cave approach paths, forest trails, and Tirathgarh's wet rock sections.", price: "₹2,999",  image: "🥾", affiliateUrl: amazonSearchUrl("trekking+shoes+mountain"), tag: "All-terrain essential", tagColor: "bg-amber-100 text-amber-700", why: "The park mixes cave, forest, and wet waterfall terrain in a single visit." },
+    { name: "Insect Repellent", description: "Dense sal forest throughout the park means a real, consistent mosquito presence.", price: "₹199",  image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Forest essential", tagColor: "bg-forest-100 text-forest-700", why: "This is genuinely dense forest cover, not open grassland." },
+    { name: "Binoculars", description: "For any wildlife spotting opportunities — leopards and deer species are present, though sightings aren't guaranteed.", price: "₹1,999",  image: "🔭", affiliateUrl: amazonSearchUrl("binoculars+wildlife+forest"), tag: "Wildlife essential", tagColor: "bg-sky-100 text-sky-700", why: "Given how rare direct sightings are, binoculars make the most of any distant glimpse." },
   ],
 }];
 
@@ -164,6 +165,8 @@ export default function KangerValleyGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="kanger-valley-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Kanger Valley</h2>

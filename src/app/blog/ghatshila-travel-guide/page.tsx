@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -109,10 +110,10 @@ const GHATSHILA_GEAR: GearSection[] = [
     subtitle: "Gear for riverside walks and a Dalma sanctuary side trip",
     emoji: "🏞️",
     items: [
-      { name: "Comfortable Walking Shoes", description: "For walking Phuldungri Hill and the riverfront paths around town.", price: "₹1,999", rating: 4.4, reviews: "5.3k", image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Trek essential", tagColor: "bg-amber-100 text-amber-700", why: "Phuldungri Hill and the riverbank paths are uneven in stretches." },
-      { name: "Insect Repellent", description: "Riverside evenings and any Dalma sanctuary side trip bring a real mosquito presence.", price: "₹199", rating: 4.3, reviews: "4.2k", image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Forest essential", tagColor: "bg-forest-100 text-forest-700", why: "The Subarnarekha riverbank and Dalma forest edge are both mosquito-prone at dusk." },
-      { name: "Reusable Water Bottle", description: "Facilities are minimal outside the main town area — carry water for riverside and hill walks.", price: "₹449", rating: 4.5, reviews: "6.2k", image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "All-day essential", tagColor: "bg-sky-100 text-sky-700", why: "This is a small town with limited shops away from the centre." },
-      { name: "Camera / Zoom Lens", description: "For the riverfront views from Phuldungri Hill and any wildlife spotted near Dalma.", price: "₹8,999+", rating: 4.4, reviews: "2.1k", image: "📷", affiliateUrl: amazonSearchUrl("travel+camera+zoom+lens"), tag: "Photography essential", tagColor: "bg-purple-100 text-purple-700", why: "The river and hill views are Ghatshila's main visual draw." },
+      { name: "Comfortable Walking Shoes", description: "For walking Phuldungri Hill and the riverfront paths around town.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Trek essential", tagColor: "bg-amber-100 text-amber-700", why: "Phuldungri Hill and the riverbank paths are uneven in stretches." },
+      { name: "Insect Repellent", description: "Riverside evenings and any Dalma sanctuary side trip bring a real mosquito presence.", price: "₹199",  image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Forest essential", tagColor: "bg-forest-100 text-forest-700", why: "The Subarnarekha riverbank and Dalma forest edge are both mosquito-prone at dusk." },
+      { name: "Reusable Water Bottle", description: "Facilities are minimal outside the main town area — carry water for riverside and hill walks.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "All-day essential", tagColor: "bg-sky-100 text-sky-700", why: "This is a small town with limited shops away from the centre." },
+      { name: "Camera / Zoom Lens", description: "For the riverfront views from Phuldungri Hill and any wildlife spotted near Dalma.", price: "₹8,999+",  image: "📷", affiliateUrl: amazonSearchUrl("travel+camera+zoom+lens"), tag: "Photography essential", tagColor: "bg-purple-100 text-purple-700", why: "The river and hill views are Ghatshila's main visual draw." },
     ],
   },
 ];
@@ -199,6 +200,8 @@ export default function GhatshilaGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="ghatshila-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Ghatshila</h2>

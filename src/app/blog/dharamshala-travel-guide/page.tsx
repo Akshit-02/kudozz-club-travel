@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -109,10 +110,10 @@ const DHARAMSHALA_GEAR: GearSection[] = [
     subtitle: "Gear for McLeod Ganj and the Triund trek",
     emoji: "🏔️",
     items: [
-      { name: "Trekking Shoes", description: "Essential for the Triund trail, which climbs steadily over rocky, sometimes loose terrain to nearly 2,850m.", price: "₹3,299", rating: 4.5, reviews: "6.8k", image: "🥾", affiliateUrl: amazonSearchUrl("trekking+shoes+men+women"), tag: "Trek essential", tagColor: "bg-amber-100 text-amber-700", why: "Triund's terrain shifts from forest path to open rocky ridge — solid ankle support matters." },
-      { name: "Warm Layers", description: "Temperatures drop sharply at Triund's altitude even when McLeod Ganj feels mild — essential for an overnight camp.", price: "₹2,499", rating: 4.5, reviews: "4.7k", image: "🧥", affiliateUrl: amazonSearchUrl("warm+trekking+jacket+layers"), tag: "Non-negotiable", tagColor: "bg-red-100 text-red-700", why: "Many trekkers underestimate how cold Triund gets after sunset, even in summer months." },
-      { name: "Rain Layer", description: "Dharamshala is one of India's wetter hill regions — a packable rain jacket is useful across most seasons.", price: "₹899", rating: 4.4, reviews: "5.1k", image: "🌂", affiliateUrl: amazonSearchUrl("packable+rain+jacket+trekking"), tag: "Weather essential", tagColor: "bg-sky-100 text-sky-700", why: "Sudden showers are common here, not just during peak monsoon." },
-      { name: "Sleeping Bag", description: "For an overnight camp at Triund — most trekking operators rent these, but bringing your own guarantees fit and warmth.", price: "₹2,999", rating: 4.4, reviews: "2.9k", image: "🎒", affiliateUrl: amazonSearchUrl("sleeping+bag+trekking+camping"), tag: "Overnight-trek essential", tagColor: "bg-purple-100 text-purple-700", why: "Rental sleeping bags at the campsite can be inconsistent quality — your own is a safer bet for a cold night." },
+      { name: "Trekking Shoes", description: "Essential for the Triund trail, which climbs steadily over rocky, sometimes loose terrain to nearly 2,850m.", price: "₹3,299",  image: "🥾", affiliateUrl: amazonSearchUrl("trekking+shoes+men+women"), tag: "Trek essential", tagColor: "bg-amber-100 text-amber-700", why: "Triund's terrain shifts from forest path to open rocky ridge — solid ankle support matters." },
+      { name: "Warm Layers", description: "Temperatures drop sharply at Triund's altitude even when McLeod Ganj feels mild — essential for an overnight camp.", price: "₹2,499",  image: "🧥", affiliateUrl: amazonSearchUrl("warm+trekking+jacket+layers"), tag: "Non-negotiable", tagColor: "bg-red-100 text-red-700", why: "Many trekkers underestimate how cold Triund gets after sunset, even in summer months." },
+      { name: "Rain Layer", description: "Dharamshala is one of India's wetter hill regions — a packable rain jacket is useful across most seasons.", price: "₹899",  image: "🌂", affiliateUrl: amazonSearchUrl("packable+rain+jacket+trekking"), tag: "Weather essential", tagColor: "bg-sky-100 text-sky-700", why: "Sudden showers are common here, not just during peak monsoon." },
+      { name: "Sleeping Bag", description: "For an overnight camp at Triund — most trekking operators rent these, but bringing your own guarantees fit and warmth.", price: "₹2,999",  image: "🎒", affiliateUrl: amazonSearchUrl("sleeping+bag+trekking+camping"), tag: "Overnight-trek essential", tagColor: "bg-purple-100 text-purple-700", why: "Rental sleeping bags at the campsite can be inconsistent quality — your own is a safer bet for a cold night." },
     ],
   },
 ];
@@ -199,6 +200,8 @@ export default function DharamshalaGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="dharamshala-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Dharamshala</h2>

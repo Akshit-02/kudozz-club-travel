@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -109,10 +110,10 @@ const BENGALURU_GEAR: GearSection[] = [
     subtitle: "Gear for garden walks, palace visits, and city-hopping",
     emoji: "🌳",
     items: [
-      { name: "Comfortable Walking Shoes", description: "Cubbon Park, Lalbagh, and the palace complexes all involve significant walking on foot.", price: "₹1,999", rating: 4.4, reviews: "5.3k", image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "City-walk essential", tagColor: "bg-forest-100 text-forest-700", why: "Bengaluru's best sights reward walking rather than hopping between cabs for every stop." },
-      { name: "Light Layers / Jacket", description: "Evenings can turn cool even in the warmer months, a rarity for an Indian metro at this latitude.", price: "₹1,299", rating: 4.4, reviews: "3.8k", image: "🧥", affiliateUrl: amazonSearchUrl("light+jacket+travel+layer"), tag: "Weather essential", tagColor: "bg-sky-100 text-sky-700", why: "Bengaluru's elevation gives it noticeably cooler evenings than most Indian cities." },
-      { name: "Reusable Water Bottle", description: "For garden walks and a day of city sightseeing between attractions.", price: "₹449", rating: 4.5, reviews: "6.2k", image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "All-day essential", tagColor: "bg-amber-100 text-amber-700", why: "A full day covering multiple parks and palaces adds up in walking distance." },
-      { name: "Daypack (20L)", description: "For carrying essentials across a day that mixes gardens, museums, and shopping streets.", price: "₹899", rating: 4.4, reviews: "4.6k", image: "🎒", affiliateUrl: amazonSearchUrl("20l+daypack+travel"), tag: "City essential", tagColor: "bg-purple-100 text-purple-700", why: "Keeps hands free for photos and shopping across a packed city itinerary." },
+      { name: "Comfortable Walking Shoes", description: "Cubbon Park, Lalbagh, and the palace complexes all involve significant walking on foot.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "City-walk essential", tagColor: "bg-forest-100 text-forest-700", why: "Bengaluru's best sights reward walking rather than hopping between cabs for every stop." },
+      { name: "Light Layers / Jacket", description: "Evenings can turn cool even in the warmer months, a rarity for an Indian metro at this latitude.", price: "₹1,299",  image: "🧥", affiliateUrl: amazonSearchUrl("light+jacket+travel+layer"), tag: "Weather essential", tagColor: "bg-sky-100 text-sky-700", why: "Bengaluru's elevation gives it noticeably cooler evenings than most Indian cities." },
+      { name: "Reusable Water Bottle", description: "For garden walks and a day of city sightseeing between attractions.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "All-day essential", tagColor: "bg-amber-100 text-amber-700", why: "A full day covering multiple parks and palaces adds up in walking distance." },
+      { name: "Daypack (20L)", description: "For carrying essentials across a day that mixes gardens, museums, and shopping streets.", price: "₹899",  image: "🎒", affiliateUrl: amazonSearchUrl("20l+daypack+travel"), tag: "City essential", tagColor: "bg-purple-100 text-purple-700", why: "Keeps hands free for photos and shopping across a packed city itinerary." },
     ],
   },
 ];
@@ -199,6 +200,8 @@ export default function BengaluruGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="bengaluru-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Bengaluru</h2>

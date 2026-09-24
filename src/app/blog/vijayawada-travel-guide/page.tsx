@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -81,10 +82,10 @@ const tableOfContents = [
 const VIJAYAWADA_GEAR: GearSection[] = [{
   title: "Things Worth Carrying", subtitle: "Gear for temple visits and riverside walks", emoji: "🛕",
   items: [
-    { name: "Modest Clothing", description: "Expected at Kanaka Durga Temple and other active religious sites around the city.", price: "₹599", rating: 4.4, reviews: "3.9k", image: "👕", affiliateUrl: amazonSearchUrl("modest+travel+clothing"), tag: "Temple essential", tagColor: "bg-purple-100 text-purple-700", why: "This is a working pilgrimage site, not just a tourist stop." },
-    { name: "Comfortable Walking Shoes", description: "For the hill climb to Kanaka Durga Temple and walks along Prakasam Barrage.", price: "₹1,999", rating: 4.4, reviews: "5.3k", image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-amber-100 text-amber-700", why: "The temple hill and barrage walkway both involve real walking distance." },
-    { name: "Sun Hat & Sunscreen", description: "Vijayawada gets genuinely hot, especially outside the winter months.", price: "₹599", rating: 4.5, reviews: "7.4k", image: "🧴", affiliateUrl: amazonSearchUrl("sunscreen+spf+50+travel"), tag: "Weather essential", tagColor: "bg-sky-100 text-sky-700", why: "Sun exposure is significant on the open hill and riverside walks." },
-    { name: "Camera", description: "For the temple views over the Krishna River and the Undavalli Caves sculpture.", price: "₹—", rating: 4.5, reviews: "—", image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-forest-100 text-forest-700", why: "The Indrakeeladri Hill viewpoint over the river is genuinely photogenic." },
+    { name: "Modest Clothing", description: "Expected at Kanaka Durga Temple and other active religious sites around the city.", price: "₹599",  image: "👕", affiliateUrl: amazonSearchUrl("modest+travel+clothing"), tag: "Temple essential", tagColor: "bg-purple-100 text-purple-700", why: "This is a working pilgrimage site, not just a tourist stop." },
+    { name: "Comfortable Walking Shoes", description: "For the hill climb to Kanaka Durga Temple and walks along Prakasam Barrage.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-amber-100 text-amber-700", why: "The temple hill and barrage walkway both involve real walking distance." },
+    { name: "Sun Hat & Sunscreen", description: "Vijayawada gets genuinely hot, especially outside the winter months.", price: "₹599",  image: "🧴", affiliateUrl: amazonSearchUrl("sunscreen+spf+50+travel"), tag: "Weather essential", tagColor: "bg-sky-100 text-sky-700", why: "Sun exposure is significant on the open hill and riverside walks." },
+    { name: "Camera", description: "For the temple views over the Krishna River and the Undavalli Caves sculpture.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-forest-100 text-forest-700", why: "The Indrakeeladri Hill viewpoint over the river is genuinely photogenic." },
   ],
 }];
 
@@ -164,6 +165,8 @@ export default function VijayawadaGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="vijayawada-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Vijayawada</h2>

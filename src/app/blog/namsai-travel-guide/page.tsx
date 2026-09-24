@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -82,10 +83,10 @@ const tableOfContents = [
 const NAMSAI_GEAR: GearSection[] = [{
   title: "Things Worth Carrying", subtitle: "Gear for a comfortable day trip", emoji: "🛕",
   items: [
-    { name: "Comfortable Walking Shoes", description: "For exploring the pagoda grounds and the surrounding Tai Khamti villages.", price: "₹1,999", rating: 4.4, reviews: "5.3k", image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-amber-100 text-amber-700", why: "The pagoda complex and nearby village areas involve a fair amount of walking." },
-    { name: "Modest Clothing", description: "Namsai's Golden Pagoda is an active place of worship — modest, respectful dress is expected.", price: "₹599", rating: 4.4, reviews: "3.9k", image: "👕", affiliateUrl: amazonSearchUrl("modest+travel+clothing"), tag: "Temple essential", tagColor: "bg-purple-100 text-purple-700", why: "This is a working Buddhist pagoda, not a tourist backdrop — respectful dress matters." },
-    { name: "Sun Hat", description: "Namsai's plains terrain means more direct sun exposure than Arunachal's shaded mountain destinations.", price: "₹399", rating: 4.3, reviews: "4.1k", image: "🧢", affiliateUrl: amazonSearchUrl("sun+hat+travel+outdoor"), tag: "Weather essential", tagColor: "bg-sky-100 text-sky-700", why: "The open plains setting offers less natural shade than the state's hillier regions." },
-    { name: "Camera", description: "The Golden Pagoda's architecture and the surrounding orange orchards are genuinely photogenic.", price: "₹—", rating: 4.5, reviews: "—", image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-forest-100 text-forest-700", why: "Namsai's Burmese-style architecture is visually distinct from anything else in the state." },
+    { name: "Comfortable Walking Shoes", description: "For exploring the pagoda grounds and the surrounding Tai Khamti villages.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-amber-100 text-amber-700", why: "The pagoda complex and nearby village areas involve a fair amount of walking." },
+    { name: "Modest Clothing", description: "Namsai's Golden Pagoda is an active place of worship — modest, respectful dress is expected.", price: "₹599",  image: "👕", affiliateUrl: amazonSearchUrl("modest+travel+clothing"), tag: "Temple essential", tagColor: "bg-purple-100 text-purple-700", why: "This is a working Buddhist pagoda, not a tourist backdrop — respectful dress matters." },
+    { name: "Sun Hat", description: "Namsai's plains terrain means more direct sun exposure than Arunachal's shaded mountain destinations.", price: "₹399",  image: "🧢", affiliateUrl: amazonSearchUrl("sun+hat+travel+outdoor"), tag: "Weather essential", tagColor: "bg-sky-100 text-sky-700", why: "The open plains setting offers less natural shade than the state's hillier regions." },
+    { name: "Camera", description: "The Golden Pagoda's architecture and the surrounding orange orchards are genuinely photogenic.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-forest-100 text-forest-700", why: "Namsai's Burmese-style architecture is visually distinct from anything else in the state." },
   ],
 }];
 
@@ -165,6 +166,8 @@ export default function NamsaiGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="namsai-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Namsai</h2>

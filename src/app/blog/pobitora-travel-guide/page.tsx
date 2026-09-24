@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -81,10 +82,10 @@ const tableOfContents = [
 const POBITORA_GEAR: GearSection[] = [{
   title: "Things Worth Carrying", subtitle: "Gear for a quick rhino safari from Guwahati", emoji: "🦏",
   items: [
-    { name: "Neutral/Khaki Clothing", description: "Standard safari practice — neutral tones are less disruptive to wildlife on the open grassland.", price: "₹1,299", rating: 4.4, reviews: "3.8k", image: "🧥", affiliateUrl: amazonSearchUrl("khaki+safari+clothing+set"), tag: "Safari essential", tagColor: "bg-amber-100 text-amber-700", why: "Bright colors stand out sharply against Pobitora's open marsh-grassland terrain." },
-    { name: "Binoculars", description: "For a closer look at rhinos and birdlife across the sanctuary's marshy grassland (beel) terrain.", price: "₹1,999", rating: 4.5, reviews: "6.5k", image: "🔭", affiliateUrl: amazonSearchUrl("binoculars+wildlife+safari"), tag: "Safari essential", tagColor: "bg-forest-100 text-forest-700", why: "Even with high rhino density, a closer look rewards proper optics." },
-    { name: "Telephoto Camera / Lens", description: "For photographing rhinos and birdlife at a safe, respectful distance.", price: "₹8,999+", rating: 4.4, reviews: "2.1k", image: "📷", affiliateUrl: amazonSearchUrl("telephoto+lens+wildlife+photography"), tag: "Photography essential", tagColor: "bg-purple-100 text-purple-700", why: "A longer lens gets you usable rhino shots without disturbing the animals." },
-    { name: "Sun Hat & Sunscreen", description: "Jeep and elephant safaris both mean extended sun exposure across open grassland.", price: "₹599", rating: 4.4, reviews: "5.0k", image: "🧴", affiliateUrl: amazonSearchUrl("sun+hat+sunscreen+travel"), tag: "Safari essential", tagColor: "bg-sky-100 text-sky-700", why: "There's minimal shade across most of the sanctuary's open terrain." },
+    { name: "Neutral/Khaki Clothing", description: "Standard safari practice — neutral tones are less disruptive to wildlife on the open grassland.", price: "₹1,299",  image: "🧥", affiliateUrl: amazonSearchUrl("khaki+safari+clothing+set"), tag: "Safari essential", tagColor: "bg-amber-100 text-amber-700", why: "Bright colors stand out sharply against Pobitora's open marsh-grassland terrain." },
+    { name: "Binoculars", description: "For a closer look at rhinos and birdlife across the sanctuary's marshy grassland (beel) terrain.", price: "₹1,999",  image: "🔭", affiliateUrl: amazonSearchUrl("binoculars+wildlife+safari"), tag: "Safari essential", tagColor: "bg-forest-100 text-forest-700", why: "Even with high rhino density, a closer look rewards proper optics." },
+    { name: "Telephoto Camera / Lens", description: "For photographing rhinos and birdlife at a safe, respectful distance.", price: "₹8,999+",  image: "📷", affiliateUrl: amazonSearchUrl("telephoto+lens+wildlife+photography"), tag: "Photography essential", tagColor: "bg-purple-100 text-purple-700", why: "A longer lens gets you usable rhino shots without disturbing the animals." },
+    { name: "Sun Hat & Sunscreen", description: "Jeep and elephant safaris both mean extended sun exposure across open grassland.", price: "₹599",  image: "🧴", affiliateUrl: amazonSearchUrl("sun+hat+sunscreen+travel"), tag: "Safari essential", tagColor: "bg-sky-100 text-sky-700", why: "There's minimal shade across most of the sanctuary's open terrain." },
   ],
 }];
 
@@ -164,6 +165,8 @@ export default function PobitoraGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="pobitora-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Pobitora</h2>

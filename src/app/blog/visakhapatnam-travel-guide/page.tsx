@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -81,10 +82,10 @@ const tableOfContents = [
 const VIZAG_GEAR: GearSection[] = [{
   title: "Things Worth Carrying", subtitle: "Gear for beaches and city sightseeing", emoji: "⚓",
   items: [
-    { name: "Reef-Safe Sunscreen", description: "For extended beach time at RK Beach and Rushikonda.", price: "₹599", rating: 4.5, reviews: "7.4k", image: "🧴", affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+SPF+50"), tag: "Beach essential", tagColor: "bg-amber-100 text-amber-700", why: "Coastal Andhra sun is intense, especially outside winter months." },
-    { name: "Comfortable Walking Shoes", description: "For the Submarine Museum, Kailasagiri, and general city exploring.", price: "₹1,999", rating: 4.4, reviews: "5.3k", image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "City essential", tagColor: "bg-sky-100 text-sky-700", why: "Vizag's attractions are spread across a genuinely walkable but sizable coastal city." },
-    { name: "Swimwear", description: "For Rushikonda Beach and any water sports activities.", price: "₹—", rating: 4.4, reviews: "—", image: "🏊", affiliateUrl: amazonSearchUrl("swimwear+travel+beach"), tag: "Beach essential", tagColor: "bg-forest-100 text-forest-700", why: "Rushikonda in particular is set up well for swimming and water sports." },
-    { name: "Camera", description: "For the Submarine Museum, Kailasagiri viewpoints, and coastal scenery.", price: "₹—", rating: 4.5, reviews: "—", image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-purple-100 text-purple-700", why: "Vizag's mix of naval history and coastline photographs unusually well." },
+    { name: "Reef-Safe Sunscreen", description: "For extended beach time at RK Beach and Rushikonda.", price: "₹599",  image: "🧴", affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+SPF+50"), tag: "Beach essential", tagColor: "bg-amber-100 text-amber-700", why: "Coastal Andhra sun is intense, especially outside winter months." },
+    { name: "Comfortable Walking Shoes", description: "For the Submarine Museum, Kailasagiri, and general city exploring.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "City essential", tagColor: "bg-sky-100 text-sky-700", why: "Vizag's attractions are spread across a genuinely walkable but sizable coastal city." },
+    { name: "Swimwear", description: "For Rushikonda Beach and any water sports activities.", price: "₹—",  image: "🏊", affiliateUrl: amazonSearchUrl("swimwear+travel+beach"), tag: "Beach essential", tagColor: "bg-forest-100 text-forest-700", why: "Rushikonda in particular is set up well for swimming and water sports." },
+    { name: "Camera", description: "For the Submarine Museum, Kailasagiri viewpoints, and coastal scenery.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-purple-100 text-purple-700", why: "Vizag's mix of naval history and coastline photographs unusually well." },
   ],
 }];
 
@@ -164,6 +165,8 @@ export default function VisakhapatnamGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="visakhapatnam-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Visakhapatnam</h2>

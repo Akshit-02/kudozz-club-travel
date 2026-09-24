@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -81,10 +82,10 @@ const tableOfContents = [
 const MANAS_GEAR: GearSection[] = [{
   title: "Things Worth Carrying", subtitle: "Gear for safaris across Manas's forest and grassland zones", emoji: "🐅",
   items: [
-    { name: "Binoculars", description: "Essential for spotting golden langurs in the canopy and wildlife across open grassland stretches.", price: "₹1,999", rating: 4.5, reviews: "6.5k", image: "🔭", affiliateUrl: amazonSearchUrl("binoculars+wildlife+safari"), tag: "Safari essential", tagColor: "bg-amber-100 text-amber-700", why: "Manas's mixed forest-grassland terrain rewards good optics more than open-plains parks." },
-    { name: "Telephoto Camera / Lens", description: "For photographing wildlife at a respectful distance across the park's varied terrain.", price: "₹8,999+", rating: 4.4, reviews: "2.1k", image: "📷", affiliateUrl: amazonSearchUrl("telephoto+lens+wildlife+photography"), tag: "Photography essential", tagColor: "bg-purple-100 text-purple-700", why: "A longer lens matters especially for golden langurs, which stay high in the canopy." },
-    { name: "Neutral/Khaki Clothing", description: "Standard safari practice — neutral tones are less disruptive to wildlife.", price: "₹1,299", rating: 4.4, reviews: "3.8k", image: "🧥", affiliateUrl: amazonSearchUrl("khaki+safari+clothing+set"), tag: "Safari essential", tagColor: "bg-forest-100 text-forest-700", why: "Bright colors stand out against Manas's green forest-and-grassland mix." },
-    { name: "Insect Repellent", description: "River-valley terrain and forest cover make for a genuine mosquito presence, especially at dusk.", price: "₹199", rating: 4.3, reviews: "4.2k", image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Forest essential", tagColor: "bg-sky-100 text-sky-700", why: "The Manas River valley's humidity keeps mosquito activity high near dusk." },
+    { name: "Binoculars", description: "Essential for spotting golden langurs in the canopy and wildlife across open grassland stretches.", price: "₹1,999",  image: "🔭", affiliateUrl: amazonSearchUrl("binoculars+wildlife+safari"), tag: "Safari essential", tagColor: "bg-amber-100 text-amber-700", why: "Manas's mixed forest-grassland terrain rewards good optics more than open-plains parks." },
+    { name: "Telephoto Camera / Lens", description: "For photographing wildlife at a respectful distance across the park's varied terrain.", price: "₹8,999+",  image: "📷", affiliateUrl: amazonSearchUrl("telephoto+lens+wildlife+photography"), tag: "Photography essential", tagColor: "bg-purple-100 text-purple-700", why: "A longer lens matters especially for golden langurs, which stay high in the canopy." },
+    { name: "Neutral/Khaki Clothing", description: "Standard safari practice — neutral tones are less disruptive to wildlife.", price: "₹1,299",  image: "🧥", affiliateUrl: amazonSearchUrl("khaki+safari+clothing+set"), tag: "Safari essential", tagColor: "bg-forest-100 text-forest-700", why: "Bright colors stand out against Manas's green forest-and-grassland mix." },
+    { name: "Insect Repellent", description: "River-valley terrain and forest cover make for a genuine mosquito presence, especially at dusk.", price: "₹199",  image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Forest essential", tagColor: "bg-sky-100 text-sky-700", why: "The Manas River valley's humidity keeps mosquito activity high near dusk." },
   ],
 }];
 
@@ -164,6 +165,8 @@ export default function ManasGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="manas-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Manas</h2>

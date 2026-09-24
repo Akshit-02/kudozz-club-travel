@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -107,10 +108,10 @@ const VALMIKI_GEAR: GearSection[] = [
     subtitle: "Gear for safaris in a remote Himalayan-foothill reserve",
     emoji: "🐅",
     items: [
-      { name: "Neutral/Khaki Clothing", description: "Standard safari practice — neutral tones are less disruptive to wildlife across the reserve's grassland and forest zones.", price: "₹1,299", rating: 4.4, reviews: "3.8k", image: "🧥", affiliateUrl: amazonSearchUrl("khaki+safari+clothing+set"), tag: "Safari essential", tagColor: "bg-amber-100 text-amber-700", why: "Bright colors stand out against the terai grassland and forest edges here." },
-      { name: "Binoculars", description: "Given the reserve's more modest tiger-sighting odds, binoculars help you make the most of the broader wildlife and birdlife present.", price: "₹1,999", rating: 4.5, reviews: "6.5k", image: "🔭", affiliateUrl: amazonSearchUrl("binoculars+wildlife+safari"), tag: "Non-negotiable", tagColor: "bg-red-100 text-red-700", why: "A genuinely useful investment given this reserve's less frequent big-cat sightings." },
-      { name: "Telephoto Camera", description: "For photographing wildlife at a respectful distance across open terai terrain.", price: "₹8,999+", rating: 4.4, reviews: "2.1k", image: "📷", affiliateUrl: amazonSearchUrl("telephoto+lens+wildlife+photography"), tag: "Photography essential", tagColor: "bg-purple-100 text-purple-700", why: "Open grassland sightings are often distant — a longer lens makes the difference." },
-      { name: "Insect Repellent", description: "Terai/foothill terrain near the Gandak River is genuinely mosquito-prone, especially at dawn and dusk safari times.", price: "₹199", rating: 4.3, reviews: "4.2k", image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Forest essential", tagColor: "bg-forest-100 text-forest-700", why: "River-adjacent terai terrain sees more mosquito activity than drier Central Indian reserves." },
+      { name: "Neutral/Khaki Clothing", description: "Standard safari practice — neutral tones are less disruptive to wildlife across the reserve's grassland and forest zones.", price: "₹1,299",  image: "🧥", affiliateUrl: amazonSearchUrl("khaki+safari+clothing+set"), tag: "Safari essential", tagColor: "bg-amber-100 text-amber-700", why: "Bright colors stand out against the terai grassland and forest edges here." },
+      { name: "Binoculars", description: "Given the reserve's more modest tiger-sighting odds, binoculars help you make the most of the broader wildlife and birdlife present.", price: "₹1,999",  image: "🔭", affiliateUrl: amazonSearchUrl("binoculars+wildlife+safari"), tag: "Non-negotiable", tagColor: "bg-red-100 text-red-700", why: "A genuinely useful investment given this reserve's less frequent big-cat sightings." },
+      { name: "Telephoto Camera", description: "For photographing wildlife at a respectful distance across open terai terrain.", price: "₹8,999+",  image: "📷", affiliateUrl: amazonSearchUrl("telephoto+lens+wildlife+photography"), tag: "Photography essential", tagColor: "bg-purple-100 text-purple-700", why: "Open grassland sightings are often distant — a longer lens makes the difference." },
+      { name: "Insect Repellent", description: "Terai/foothill terrain near the Gandak River is genuinely mosquito-prone, especially at dawn and dusk safari times.", price: "₹199",  image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Forest essential", tagColor: "bg-forest-100 text-forest-700", why: "River-adjacent terai terrain sees more mosquito activity than drier Central Indian reserves." },
     ],
   },
 ];
@@ -197,6 +198,8 @@ export default function ValmikiNagarGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="valmiki-nagar-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Valmiki Nagar</h2>

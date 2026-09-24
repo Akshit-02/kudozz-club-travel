@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -129,11 +130,11 @@ const BHOPAL_GEAR: GearSection[] = [
     subtitle: "Gear for lakeside walks, the old city, and day trips out of town",
     emoji: "🏞️",
     items: [
-      { name: "Comfortable Walking Shoes", description: "The old city's narrow bazaar lanes and the Upper Lake promenade both call for shoes you can walk in for hours.", price: "₹1,199", rating: 4.4, reviews: "4.1k", image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+outdoor"), tag: "City-day essential", tagColor: "bg-amber-100 text-amber-700", why: "A day covering the old city and the lakefront easily adds up to several kilometres of walking." },
-      { name: "Modest Clothing", description: "Covered shoulders and knees are appropriate near Taj-ul-Masajid and other active places of worship in the old city.", price: "₹599", rating: 4.4, reviews: "3.4k", image: "🧣", affiliateUrl: amazonSearchUrl("modest+travel+clothing+cotton"), tag: "Old-city essential", tagColor: "bg-purple-100 text-purple-700", why: "Taj-ul-Masajid is an active mosque, not just a monument, and dress expectations are taken seriously." },
-      { name: "Sun Hat / Cap", description: "Useful for the Bhimbetka and Sanchi day trip, both of which involve walking exposed hillside and monument paths.", price: "₹349", rating: 4.3, reviews: "4.7k", image: "🧢", affiliateUrl: amazonSearchUrl("travel+sun+hat+cap"), tag: "Day-trip essential", tagColor: "bg-orange-100 text-orange-700", why: "Both Bhimbetka's rock shelters and Sanchi's stupa complex offer little shade across a fair amount of walking." },
-      { name: "Reusable Water Bottle", description: "Handy for both city sightseeing and the Bhimbetka/Sanchi day trip, especially outside the cooler months.", price: "₹349", rating: 4.5, reviews: "6.0k", image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "Travel essential", tagColor: "bg-sky-100 text-sky-700", why: "Neither Bhimbetka nor Sanchi has extensive shopping for water once you're on site." },
-      { name: "Compact Daypack", description: "For carrying water, a camera, and layers across a day that mixes city sightseeing with an out-of-town excursion.", price: "₹899", rating: 4.4, reviews: "3.6k", image: "🎒", affiliateUrl: amazonSearchUrl("daypack+travel+lightweight"), tag: "Day-trip essential", tagColor: "bg-forest-100 text-forest-700", why: "A single day trip covering Bhimbetka or Sanchi plus city sights is easier with everything in one light bag." },
+      { name: "Comfortable Walking Shoes", description: "The old city's narrow bazaar lanes and the Upper Lake promenade both call for shoes you can walk in for hours.", price: "₹1,199",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+outdoor"), tag: "City-day essential", tagColor: "bg-amber-100 text-amber-700", why: "A day covering the old city and the lakefront easily adds up to several kilometres of walking." },
+      { name: "Modest Clothing", description: "Covered shoulders and knees are appropriate near Taj-ul-Masajid and other active places of worship in the old city.", price: "₹599",  image: "🧣", affiliateUrl: amazonSearchUrl("modest+travel+clothing+cotton"), tag: "Old-city essential", tagColor: "bg-purple-100 text-purple-700", why: "Taj-ul-Masajid is an active mosque, not just a monument, and dress expectations are taken seriously." },
+      { name: "Sun Hat / Cap", description: "Useful for the Bhimbetka and Sanchi day trip, both of which involve walking exposed hillside and monument paths.", price: "₹349",  image: "🧢", affiliateUrl: amazonSearchUrl("travel+sun+hat+cap"), tag: "Day-trip essential", tagColor: "bg-orange-100 text-orange-700", why: "Both Bhimbetka's rock shelters and Sanchi's stupa complex offer little shade across a fair amount of walking." },
+      { name: "Reusable Water Bottle", description: "Handy for both city sightseeing and the Bhimbetka/Sanchi day trip, especially outside the cooler months.", price: "₹349",  image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "Travel essential", tagColor: "bg-sky-100 text-sky-700", why: "Neither Bhimbetka nor Sanchi has extensive shopping for water once you're on site." },
+      { name: "Compact Daypack", description: "For carrying water, a camera, and layers across a day that mixes city sightseeing with an out-of-town excursion.", price: "₹899",  image: "🎒", affiliateUrl: amazonSearchUrl("daypack+travel+lightweight"), tag: "Day-trip essential", tagColor: "bg-forest-100 text-forest-700", why: "A single day trip covering Bhimbetka or Sanchi plus city sights is easier with everything in one light bag." },
     ],
   },
 ];
@@ -244,6 +245,8 @@ export default function BhopalGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="bhopal-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Bhopal</h2>

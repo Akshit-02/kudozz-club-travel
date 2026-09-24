@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -197,8 +198,6 @@ const GOKARNA_GEAR: GearSection[] = [
         description:
           "The Om Beach–Half Moon–Paradise trail crosses rocky, sometimes slippery headland sections — proper grip sandals handle both the trek and the beach far better than flip-flops.",
         price: "₹899",
-        rating: 4.4,
-        reviews: "5.1k",
         image: "🥾",
         affiliateUrl: amazonSearchUrl("trekking+sandals+grip+outdoor"),
         tag: "Beach-trek essential",
@@ -210,8 +209,6 @@ const GOKARNA_GEAR: GearSection[] = [
         description:
           "The trek between beaches offers almost no shade for stretches of an hour or more — reef-safe formulas also protect the coral patches near Om Beach.",
         price: "₹599",
-        rating: 4.5,
-        reviews: "7.4k",
         image: "🧴",
         affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+SPF+50"),
         tag: "Trek essential",
@@ -223,8 +220,6 @@ const GOKARNA_GEAR: GearSection[] = [
         description:
           "A light daypack for carrying water, a change of clothes, and valuables across the trek and between beach shacks — canvas totes soak through and add weight.",
         price: "₹899",
-        rating: 4.4,
-        reviews: "4.6k",
         image: "🎒",
         affiliateUrl: amazonSearchUrl("20L+quick+dry+daypack"),
         tag: "Beach-trek essential",
@@ -236,8 +231,6 @@ const GOKARNA_GEAR: GearSection[] = [
         description:
           "Useful for the coracle-style boat rides to Paradise Beach and swimming at Kudle and Om Beach without worrying about a dropped phone.",
         price: "₹299",
-        rating: 4.3,
-        reviews: "9.1k",
         image: "📱",
         affiliateUrl: amazonSearchUrl("waterproof+phone+pouch+beach"),
         tag: "Boat-ride essential",
@@ -249,8 +242,6 @@ const GOKARNA_GEAR: GearSection[] = [
         description:
           "The beach trek runs 2–3 hours in full sun with limited water stops — carrying enough water is non-negotiable, especially outside the cooler months.",
         price: "₹449",
-        rating: 4.5,
-        reviews: "6.2k",
         image: "💧",
         affiliateUrl: amazonSearchUrl("2l+hydration+water+bottle+travel"),
         tag: "Trek essential",
@@ -262,8 +253,6 @@ const GOKARNA_GEAR: GearSection[] = [
         description:
           "Gokarna is an active pilgrimage town — the Mahabaleshwar Temple and old town streets expect covered shoulders and knees, unlike the beaches themselves.",
         price: "₹399",
-        rating: 4.4,
-        reviews: "4.0k",
         image: "🧣",
         affiliateUrl: amazonSearchUrl("cotton+wrap+travel+modest"),
         tag: "Temple-town essential",
@@ -504,6 +493,8 @@ export default function GokarnaBeachesGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="gokarna-beaches-travel-guide" />
 
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">

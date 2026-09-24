@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -107,10 +108,10 @@ const DANTESHWARI_GEAR: GearSection[] = [
     subtitle: "Gear for a respectful, well-prepared temple visit",
     emoji: "🛕",
     items: [
-      { name: "Modest Clothing", description: "Standard expectation at this active, historically significant temple.", price: "₹599", rating: 4.4, reviews: "3.9k", image: "👕", affiliateUrl: amazonSearchUrl("modest+travel+clothing"), tag: "Temple essential", tagColor: "bg-purple-100 text-purple-700", why: "This is a working pilgrimage site with genuine religious significance, not a tourist stop." },
-      { name: "Comfortable Walking Shoes", description: "For the temple grounds and any riverside walking near the confluence.", price: "₹1,999", rating: 4.4, reviews: "5.3k", image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-amber-100 text-amber-700", why: "Practical footwear for temple grounds and riverside areas." },
-      { name: "Offline Maps / Local SIM", description: "Useful given the region's remoteness — having reliable navigation and connectivity matters more here than in more developed tourist areas.", price: "₹—", rating: 4.3, reviews: "—", image: "📱", affiliateUrl: amazonSearchUrl("portable+power+bank+travel"), tag: "Remote-travel essential", tagColor: "bg-sky-100 text-sky-700", why: "Connectivity and navigation support matter more in this less-developed region." },
-      { name: "Reusable Water Bottle", description: "Sensible for a day trip into a region with fewer roadside amenities than more touristed parts of Chhattisgarh.", price: "₹449", rating: 4.5, reviews: "6.2k", image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "Trip essential", tagColor: "bg-forest-100 text-forest-700", why: "Facilities thin out the further you go from Jagdalpur." },
+      { name: "Modest Clothing", description: "Standard expectation at this active, historically significant temple.", price: "₹599",  image: "👕", affiliateUrl: amazonSearchUrl("modest+travel+clothing"), tag: "Temple essential", tagColor: "bg-purple-100 text-purple-700", why: "This is a working pilgrimage site with genuine religious significance, not a tourist stop." },
+      { name: "Comfortable Walking Shoes", description: "For the temple grounds and any riverside walking near the confluence.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-amber-100 text-amber-700", why: "Practical footwear for temple grounds and riverside areas." },
+      { name: "Offline Maps / Local SIM", description: "Useful given the region's remoteness — having reliable navigation and connectivity matters more here than in more developed tourist areas.", price: "₹—",  image: "📱", affiliateUrl: amazonSearchUrl("portable+power+bank+travel"), tag: "Remote-travel essential", tagColor: "bg-sky-100 text-sky-700", why: "Connectivity and navigation support matter more in this less-developed region." },
+      { name: "Reusable Water Bottle", description: "Sensible for a day trip into a region with fewer roadside amenities than more touristed parts of Chhattisgarh.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "Trip essential", tagColor: "bg-forest-100 text-forest-700", why: "Facilities thin out the further you go from Jagdalpur." },
     ],
   },
 ];
@@ -200,6 +201,8 @@ export default function DanteshwariTempleGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="danteshwari-temple-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit</h2>

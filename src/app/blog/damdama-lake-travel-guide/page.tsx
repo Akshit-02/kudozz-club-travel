@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -144,8 +145,6 @@ const DAMDAMA_GEAR: GearSection[] = [
         name: "Comfortable Walking Shoes",
         description: "For the walking trails around the lake edge and into the surrounding Aravalli scrubland.",
         price: "₹1,999",
-        rating: 4.4,
-        reviews: "5.3k",
         image: "👟",
         affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
         tag: "Trail essential",
@@ -156,8 +155,6 @@ const DAMDAMA_GEAR: GearSection[] = [
         name: "Sun Hat",
         description: "The exposed, low-elevation terrain around the lake offers little shade.",
         price: "₹399",
-        rating: 4.3,
-        reviews: "3.8k",
         image: "🧢",
         affiliateUrl: amazonSearchUrl("sun+hat+travel+outdoor"),
         tag: "Weather essential",
@@ -168,8 +165,6 @@ const DAMDAMA_GEAR: GearSection[] = [
         name: "Packed Food & Water",
         description: "Facilities are minimal at Damdama — bring your own supplies rather than relying on nearby options.",
         price: "₹—",
-        rating: 4.5,
-        reviews: "—",
         image: "🥪",
         affiliateUrl: amazonSearchUrl("insulated+picnic+bag"),
         tag: "Essential",
@@ -180,8 +175,6 @@ const DAMDAMA_GEAR: GearSection[] = [
         name: "Insect Repellent",
         description: "Useful for time spent near the water's edge, especially in warmer months.",
         price: "₹199",
-        rating: 4.3,
-        reviews: "4.2k",
         image: "🦟",
         affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"),
         tag: "Lakeside essential",
@@ -338,6 +331,8 @@ export default function DamdamaLakeGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="damdama-lake-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Damdama Lake</h2>

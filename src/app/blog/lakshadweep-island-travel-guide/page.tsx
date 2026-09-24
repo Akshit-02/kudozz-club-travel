@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -199,8 +200,6 @@ const LAKSHADWEEP_GEAR: GearSection[] = [
         description:
           "Lakshadweep's lagoons and reef systems are ecologically fragile — most resorts and dive operators require reef-safe, oxybenzone-free sunscreen, and the sun here is intense with almost no shade over water.",
         price: "₹549",
-        rating: 4.5,
-        reviews: "11k",
         image: "🧴",
         affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+spf+50"),
         tag: "Reef essential",
@@ -212,8 +211,6 @@ const LAKSHADWEEP_GEAR: GearSection[] = [
         description:
           "Lakshadweep's lagoons offer some of India's clearest, calmest snorkeling water — carrying a well-fitted mask beats relying on shared rental gear at every stop.",
         price: "₹1,799",
-        rating: 4.4,
-        reviews: "6.9k",
         image: "🤿",
         affiliateUrl: amazonSearchUrl("snorkeling+mask+fins+set"),
         tag: "Lagoon essential",
@@ -225,8 +222,6 @@ const LAKSHADWEEP_GEAR: GearSection[] = [
         description:
           "Long hours in shallow lagoon water and strong tropical sun make a UV-protective rash guard more practical than reapplying sunscreen every hour.",
         price: "₹899",
-        rating: 4.4,
-        reviews: "4.2k",
         image: "🩱",
         affiliateUrl: amazonSearchUrl("rash+guard+uv+protection"),
         tag: "Sun essential",
@@ -238,8 +233,6 @@ const LAKSHADWEEP_GEAR: GearSection[] = [
         description:
           "Inter-island transfers happen by boat, and spray or the occasional splash is routine — a dry bag keeps phones, permits, and cash protected.",
         price: "₹699",
-        rating: 4.5,
-        reviews: "5.1k",
         image: "🎒",
         affiliateUrl: amazonSearchUrl("waterproof+dry+bag+10l"),
         tag: "Boat-transfer essential",
@@ -251,8 +244,6 @@ const LAKSHADWEEP_GEAR: GearSection[] = [
         description:
           "Islands are remote with minimal medical infrastructure, and ferry crossings between atolls can get choppy — a compact kit with motion sickness tablets is worth packing.",
         price: "₹599",
-        rating: 4.4,
-        reviews: "3.9k",
         image: "🩹",
         affiliateUrl: amazonSearchUrl("travel+first+aid+kit+seasickness"),
         tag: "Remote-travel essential",
@@ -264,8 +255,6 @@ const LAKSHADWEEP_GEAR: GearSection[] = [
         description:
           "Electricity and mobile network are limited and inconsistent across the smaller islands, especially away from Agatti and Kavaratti.",
         price: "₹1,299",
-        rating: 4.5,
-        reviews: "9.7k",
         image: "🔋",
         affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
         tag: "Off-grid essential",
@@ -505,6 +494,8 @@ export default function LakshadweepGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="lakshadweep-island-travel-guide" />
 
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">

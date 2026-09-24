@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -82,10 +83,10 @@ const tableOfContents = [
 const BASTAR_GEAR: GearSection[] = [{
   title: "Things Worth Carrying", subtitle: "Gear for a respectful regional cultural trip", emoji: "🎭",
   items: [
-    { name: "Comfortable Walking Shoes", description: "For village visits, haats, and short walks between Bastar's waterfall and forest sites.", price: "₹1,999", rating: 4.4, reviews: "5.3k", image: "🥾", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-amber-100 text-amber-700", why: "A multi-day Bastar itinerary covers a lot of varied, sometimes uneven terrain." },
-    { name: "Insect Repellent", description: "Dense forest terrain and village visits both call for reliable insect protection.", price: "₹199", rating: 4.3, reviews: "4.2k", image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Forest essential", tagColor: "bg-forest-100 text-forest-700", why: "Bastar's forest and river terrain make insects a genuine, ongoing presence." },
-    { name: "Modest, Respectful Clothing", description: "Appropriate for temple visits, village stops, and cultural sites throughout the region.", price: "₹599", rating: 4.4, reviews: "3.9k", image: "👕", affiliateUrl: amazonSearchUrl("modest+travel+clothing"), tag: "Cultural essential", tagColor: "bg-purple-100 text-purple-700", why: "Respectful dress matters more here than at a typical tourist stop, given how much of the trip involves local communities." },
-    { name: "Camera with a Discreet Zoom", description: "For photographing landscapes and craft at a respectful distance — always ask before photographing people directly.", price: "₹—", rating: 4.4, reviews: "—", image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+zoom+travel"), tag: "Photography essential", tagColor: "bg-sky-100 text-sky-700", why: "A zoom lens lets you capture scenes without needing to intrude on people's space." },
+    { name: "Comfortable Walking Shoes", description: "For village visits, haats, and short walks between Bastar's waterfall and forest sites.", price: "₹1,999",  image: "🥾", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-amber-100 text-amber-700", why: "A multi-day Bastar itinerary covers a lot of varied, sometimes uneven terrain." },
+    { name: "Insect Repellent", description: "Dense forest terrain and village visits both call for reliable insect protection.", price: "₹199",  image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Forest essential", tagColor: "bg-forest-100 text-forest-700", why: "Bastar's forest and river terrain make insects a genuine, ongoing presence." },
+    { name: "Modest, Respectful Clothing", description: "Appropriate for temple visits, village stops, and cultural sites throughout the region.", price: "₹599",  image: "👕", affiliateUrl: amazonSearchUrl("modest+travel+clothing"), tag: "Cultural essential", tagColor: "bg-purple-100 text-purple-700", why: "Respectful dress matters more here than at a typical tourist stop, given how much of the trip involves local communities." },
+    { name: "Camera with a Discreet Zoom", description: "For photographing landscapes and craft at a respectful distance — always ask before photographing people directly.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+zoom+travel"), tag: "Photography essential", tagColor: "bg-sky-100 text-sky-700", why: "A zoom lens lets you capture scenes without needing to intrude on people's space." },
   ],
 }];
 
@@ -165,6 +166,8 @@ export default function BastarGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="bastar-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Bastar</h2>

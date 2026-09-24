@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -81,10 +82,10 @@ const tableOfContents = [
 const RAJAHMUNDRY_GEAR: GearSection[] = [{
   title: "Things Worth Carrying", subtitle: "Gear for river cruises and city sightseeing", emoji: "🌊",
   items: [
-    { name: "Sun Hat & Sunglasses", description: "For the exposed deck time on any Godavari boat trip.", price: "₹599", rating: 4.4, reviews: "5.0k", image: "🧢", affiliateUrl: amazonSearchUrl("sun+hat+travel+outdoor"), tag: "Boat-trip essential", tagColor: "bg-amber-100 text-amber-700", why: "Direct sun on the open river deck adds up over several hours." },
-    { name: "Light Rain Layer", description: "Useful year-round given the river's humid climate, especially in shoulder monsoon months.", price: "₹899", rating: 4.4, reviews: "5.1k", image: "🌂", affiliateUrl: amazonSearchUrl("packable+rain+jacket+travel"), tag: "Weather essential", tagColor: "bg-sky-100 text-sky-700", why: "Riverside weather can shift quickly in this region." },
-    { name: "Comfortable Walking Shoes", description: "For exploring the bridges and riverside areas of the city.", price: "₹1,999", rating: 4.4, reviews: "5.3k", image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "City-walk essential", tagColor: "bg-forest-100 text-forest-700", why: "The bridge and riverside walk cover real distance." },
-    { name: "Camera", description: "For the Godavari Arch Bridge and river scenery.", price: "₹—", rating: 4.5, reviews: "—", image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-purple-100 text-purple-700", why: "The bridge and riverfront views are genuinely photogenic." },
+    { name: "Sun Hat & Sunglasses", description: "For the exposed deck time on any Godavari boat trip.", price: "₹599",  image: "🧢", affiliateUrl: amazonSearchUrl("sun+hat+travel+outdoor"), tag: "Boat-trip essential", tagColor: "bg-amber-100 text-amber-700", why: "Direct sun on the open river deck adds up over several hours." },
+    { name: "Light Rain Layer", description: "Useful year-round given the river's humid climate, especially in shoulder monsoon months.", price: "₹899",  image: "🌂", affiliateUrl: amazonSearchUrl("packable+rain+jacket+travel"), tag: "Weather essential", tagColor: "bg-sky-100 text-sky-700", why: "Riverside weather can shift quickly in this region." },
+    { name: "Comfortable Walking Shoes", description: "For exploring the bridges and riverside areas of the city.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "City-walk essential", tagColor: "bg-forest-100 text-forest-700", why: "The bridge and riverside walk cover real distance." },
+    { name: "Camera", description: "For the Godavari Arch Bridge and river scenery.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-purple-100 text-purple-700", why: "The bridge and riverfront views are genuinely photogenic." },
   ],
 }];
 
@@ -164,6 +165,8 @@ export default function RajahmundryGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="rajahmundry-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Rajahmundry</h2>

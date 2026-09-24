@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -107,10 +108,10 @@ const VIKRAMSHILA_GEAR: GearSection[] = [
     subtitle: "Gear for exploring the ruins and riverside site",
     emoji: "🏛️",
     items: [
-      { name: "Comfortable Walking Shoes", description: "For exploring the spread-out excavated stupa and monastic cell complex.", price: "₹1,999", rating: 4.4, reviews: "5.3k", image: "🥾", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Site essential", tagColor: "bg-amber-100 text-amber-700", why: "The ruins cover a fair amount of ground on uneven excavated terrain." },
-      { name: "Sun Hat", description: "The excavated site is largely open with little shade.", price: "₹399", rating: 4.3, reviews: "3.5k", image: "🧢", affiliateUrl: amazonSearchUrl("sun+hat+travel+outdoor"), tag: "Sun-protection essential", tagColor: "bg-sky-100 text-sky-700", why: "Limited shade across the open excavated ruins." },
-      { name: "Reusable Water Bottle", description: "Facilities are limited at this remote site — carry sufficient water.", price: "₹449", rating: 4.5, reviews: "6.2k", image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "Remote-site essential", tagColor: "bg-forest-100 text-forest-700", why: "Few shops or facilities exist directly at the ruins." },
-      { name: "Camera", description: "For the cruciform stupa layout and the monastic cell ruins.", price: "₹—", rating: 4.5, reviews: "—", image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Heritage-visit essential", tagColor: "bg-purple-100 text-purple-700", why: "The site's distinctive architectural layout is worth documenting." },
+      { name: "Comfortable Walking Shoes", description: "For exploring the spread-out excavated stupa and monastic cell complex.", price: "₹1,999",  image: "🥾", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Site essential", tagColor: "bg-amber-100 text-amber-700", why: "The ruins cover a fair amount of ground on uneven excavated terrain." },
+      { name: "Sun Hat", description: "The excavated site is largely open with little shade.", price: "₹399",  image: "🧢", affiliateUrl: amazonSearchUrl("sun+hat+travel+outdoor"), tag: "Sun-protection essential", tagColor: "bg-sky-100 text-sky-700", why: "Limited shade across the open excavated ruins." },
+      { name: "Reusable Water Bottle", description: "Facilities are limited at this remote site — carry sufficient water.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "Remote-site essential", tagColor: "bg-forest-100 text-forest-700", why: "Few shops or facilities exist directly at the ruins." },
+      { name: "Camera", description: "For the cruciform stupa layout and the monastic cell ruins.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Heritage-visit essential", tagColor: "bg-purple-100 text-purple-700", why: "The site's distinctive architectural layout is worth documenting." },
     ],
   },
 ];
@@ -197,6 +198,8 @@ export default function VikramshilaGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="vikramshila-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Vikramshila</h2>

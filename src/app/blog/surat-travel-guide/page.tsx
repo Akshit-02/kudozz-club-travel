@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -155,8 +156,6 @@ const SURAT_GEAR: GearSection[] = [
         name: "Comfortable Walking Shoes",
         description: "The Tapi Riverfront promenade and old-city food streets both call for real walking over a full day.",
         price: "₹1,999",
-        rating: 4.4,
-        reviews: "5.3k",
         image: "👟",
         affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
         tag: "All-day essential",
@@ -167,8 +166,6 @@ const SURAT_GEAR: GearSection[] = [
         name: "Light Breathable Clothing",
         description: "Surat's coastal humidity is real for most of the year — loose cotton fabrics are far more comfortable than synthetics.",
         price: "₹799",
-        rating: 4.4,
-        reviews: "3.9k",
         image: "👕",
         affiliateUrl: amazonSearchUrl("breathable+cotton+travel+clothing"),
         tag: "Comfort essential",
@@ -179,8 +176,6 @@ const SURAT_GEAR: GearSection[] = [
         name: "Reusable Water Bottle",
         description: "Useful for a long riverfront walk and a full afternoon of street food exploring.",
         price: "₹449",
-        rating: 4.5,
-        reviews: "6.2k",
         image: "💧",
         affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"),
         tag: "All-day essential",
@@ -191,8 +186,6 @@ const SURAT_GEAR: GearSection[] = [
         name: "Camera",
         description: "For the Tapi Riverfront's evening lighting, Surat Castle, and the old-city heritage lanes.",
         price: "₹—",
-        rating: 4.5,
-        reviews: "—",
         image: "📷",
         affiliateUrl: amazonSearchUrl("compact+camera+travel"),
         tag: "Sightseeing essential",
@@ -341,6 +334,8 @@ export default function SuratGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="surat-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Surat</h2>

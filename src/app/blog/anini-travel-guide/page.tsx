@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -171,8 +172,6 @@ const ANINI_GEAR: GearSection[] = [
         description:
           "Dibang Valley's elevation and forest cover keep temperatures cool year-round, with genuinely cold nights.",
         price: "₹2,499",
-        rating: 4.5,
-        reviews: "6.1k",
         image: "🧥",
         affiliateUrl: amazonSearchUrl("warm+trekking+jacket+layers"),
         tag: "Non-negotiable",
@@ -184,8 +183,6 @@ const ANINI_GEAR: GearSection[] = [
         description:
           "Roads and paths around Anini are unpaved and uneven in stretches, especially after rain.",
         price: "₹2,499",
-        rating: 4.5,
-        reviews: "5.2k",
         image: "🥾",
         affiliateUrl: amazonSearchUrl("trekking+shoes+mountain"),
         tag: "Trek essential",
@@ -197,8 +194,6 @@ const ANINI_GEAR: GearSection[] = [
         description:
           "Facilities along the Roing-Anini road are sparse — carrying your own supplies is a sensible precaution, not overkill.",
         price: "₹—",
-        rating: 4.5,
-        reviews: "—",
         image: "🎒",
         affiliateUrl: amazonSearchUrl("dry+food+travel+snacks"),
         tag: "Remote-route essential",
@@ -210,8 +205,6 @@ const ANINI_GEAR: GearSection[] = [
         description:
           "The nearest well-equipped hospital is many hours away — a proper kit for cuts, stomach upsets, and minor injuries matters here more than almost anywhere else on this site.",
         price: "₹799",
-        rating: 4.5,
-        reviews: "4.0k",
         image: "🩹",
         affiliateUrl: amazonSearchUrl("comprehensive+first+aid+kit+travel"),
         tag: "Essential",
@@ -223,8 +216,6 @@ const ANINI_GEAR: GearSection[] = [
         description:
           "Electricity and network coverage are both inconsistent this far into Dibang Valley.",
         price: "₹1,799",
-        rating: 4.5,
-        reviews: "8.2k",
         image: "🔋",
         affiliateUrl: amazonSearchUrl("power+bank+20000mah+travel"),
         tag: "Off-grid essential",
@@ -389,6 +380,8 @@ export default function AniniGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="anini-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Anini</h2>

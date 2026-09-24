@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -103,10 +104,10 @@ const ALIBAUG_GEAR: GearSection[] = [
     subtitle: "Gear for the ferry crossing, beaches, and the low-tide fort walk",
     emoji: "⛴️",
     items: [
-      { name: "Waterproof Phone Pouch", description: "Useful on the Mandwa ferry crossing and at the beaches — sea spray and sudden waves are common on the RoRo and speed boat routes.", price: "₹299", rating: 4.3, reviews: "8.9k", image: "📱", affiliateUrl: amazonSearchUrl("waterproof+phone+pouch"), tag: "Ferry essential", tagColor: "bg-sky-100 text-sky-700", why: "Sea spray on the ferry crossing and waves at the beaches both put phones at risk." },
-      { name: "Water Shoes / Flip-Flops", description: "The walk out to Kolaba Fort at low tide crosses wet sand and exposed rock — proper footwear helps more than bare feet or regular sandals.", price: "₹499", rating: 4.3, reviews: "3.6k", image: "🩴", affiliateUrl: amazonSearchUrl("water+shoes+beach"), tag: "Fort-walk essential", tagColor: "bg-forest-100 text-forest-700", why: "The Kolaba Fort sea-bed crossing has patches of rock and shell debris that are uncomfortable barefoot." },
-      { name: "Reef-Safe Sunscreen", description: "The open beach stretches at Alibaug and Kashid offer little shade — reef-safe formulas protect skin without harming coastal ecosystems.", price: "₹599", rating: 4.5, reviews: "7.4k", image: "🧴", affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+SPF+50"), tag: "Beach essential", tagColor: "bg-amber-100 text-amber-700", why: "Alibaug's beaches offer little natural shade for a full day out." },
-      { name: "Quick-Dry Beach Towel", description: "Compact and fast-drying — useful across the beach hopping, ferry ride, and day trip to Murud-Janjira.", price: "₹499", rating: 4.4, reviews: "4.0k", image: "🏖️", affiliateUrl: amazonSearchUrl("quick+dry+beach+towel"), tag: "Beach essential", tagColor: "bg-purple-100 text-purple-700", why: "A regular towel stays damp for the rest of a multi-stop beach day — a quick-dry one doesn't." },
+      { name: "Waterproof Phone Pouch", description: "Useful on the Mandwa ferry crossing and at the beaches — sea spray and sudden waves are common on the RoRo and speed boat routes.", price: "₹299",  image: "📱", affiliateUrl: amazonSearchUrl("waterproof+phone+pouch"), tag: "Ferry essential", tagColor: "bg-sky-100 text-sky-700", why: "Sea spray on the ferry crossing and waves at the beaches both put phones at risk." },
+      { name: "Water Shoes / Flip-Flops", description: "The walk out to Kolaba Fort at low tide crosses wet sand and exposed rock — proper footwear helps more than bare feet or regular sandals.", price: "₹499",  image: "🩴", affiliateUrl: amazonSearchUrl("water+shoes+beach"), tag: "Fort-walk essential", tagColor: "bg-forest-100 text-forest-700", why: "The Kolaba Fort sea-bed crossing has patches of rock and shell debris that are uncomfortable barefoot." },
+      { name: "Reef-Safe Sunscreen", description: "The open beach stretches at Alibaug and Kashid offer little shade — reef-safe formulas protect skin without harming coastal ecosystems.", price: "₹599",  image: "🧴", affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+SPF+50"), tag: "Beach essential", tagColor: "bg-amber-100 text-amber-700", why: "Alibaug's beaches offer little natural shade for a full day out." },
+      { name: "Quick-Dry Beach Towel", description: "Compact and fast-drying — useful across the beach hopping, ferry ride, and day trip to Murud-Janjira.", price: "₹499",  image: "🏖️", affiliateUrl: amazonSearchUrl("quick+dry+beach+towel"), tag: "Beach essential", tagColor: "bg-purple-100 text-purple-700", why: "A regular towel stays damp for the rest of a multi-stop beach day — a quick-dry one doesn't." },
     ],
   },
 ];
@@ -193,6 +194,8 @@ export default function AlibaugGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="alibaug-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Alibaug</h2>

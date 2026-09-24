@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -81,10 +82,10 @@ const tableOfContents = [
 const OLDGOA_GEAR: GearSection[] = [{
   title: "Things Worth Carrying", subtitle: "Gear for a heritage church walk", emoji: "⛪",
   items: [
-    { name: "Modest Cotton Clothing", description: "Covered shoulders and knees are expected across Old Goa's active churches.", price: "₹799", rating: 4.4, reviews: "3.5k", image: "👕", affiliateUrl: amazonSearchUrl("modest+travel+clothing+cotton"), tag: "Church essential", tagColor: "bg-purple-100 text-purple-700", why: "These are living places of worship, not museum pieces — dress accordingly." },
-    { name: "Comfortable Walking Shoes", description: "For walking between the churches spread across the Old Goa complex.", price: "₹1,999", rating: 4.4, reviews: "5.3k", image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Sightseeing essential", tagColor: "bg-amber-100 text-amber-700", why: "The site covers a fair walking distance between its main churches." },
-    { name: "Sun Hat", description: "Old Goa is an outdoor, exposed heritage site with limited shade between buildings.", price: "₹399", rating: 4.3, reviews: "4.0k", image: "👒", affiliateUrl: amazonSearchUrl("sun+hat+travel+outdoor"), tag: "Weather essential", tagColor: "bg-sky-100 text-sky-700", why: "There's real sun exposure walking the grounds between churches." },
-    { name: "Camera", description: "For the churches' facades and interiors, and the surrounding historic grounds.", price: "₹—", rating: 4.5, reviews: "—", image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Heritage essential", tagColor: "bg-forest-100 text-forest-700", why: "The architecture here is genuinely significant and photogenic." },
+    { name: "Modest Cotton Clothing", description: "Covered shoulders and knees are expected across Old Goa's active churches.", price: "₹799",  image: "👕", affiliateUrl: amazonSearchUrl("modest+travel+clothing+cotton"), tag: "Church essential", tagColor: "bg-purple-100 text-purple-700", why: "These are living places of worship, not museum pieces — dress accordingly." },
+    { name: "Comfortable Walking Shoes", description: "For walking between the churches spread across the Old Goa complex.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Sightseeing essential", tagColor: "bg-amber-100 text-amber-700", why: "The site covers a fair walking distance between its main churches." },
+    { name: "Sun Hat", description: "Old Goa is an outdoor, exposed heritage site with limited shade between buildings.", price: "₹399",  image: "👒", affiliateUrl: amazonSearchUrl("sun+hat+travel+outdoor"), tag: "Weather essential", tagColor: "bg-sky-100 text-sky-700", why: "There's real sun exposure walking the grounds between churches." },
+    { name: "Camera", description: "For the churches' facades and interiors, and the surrounding historic grounds.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Heritage essential", tagColor: "bg-forest-100 text-forest-700", why: "The architecture here is genuinely significant and photogenic." },
   ],
 }];
 
@@ -170,6 +171,8 @@ export default function OldGoaGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="old-goa-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Old Goa</h2>

@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -82,10 +83,10 @@ const tableOfContents = [
 const BOMDILA_GEAR: GearSection[] = [{
   title: "Things Worth Carrying", subtitle: "Gear for the first leg of the Tawang circuit", emoji: "🏯",
   items: [
-    { name: "Warm Layers", description: "Bomdila's ridge-top elevation makes for cool mornings and evenings even outside winter.", price: "₹1,999", rating: 4.4, reviews: "4.7k", image: "🧥", affiliateUrl: amazonSearchUrl("warm+jacket+hill+travel"), tag: "Trip essential", tagColor: "bg-sky-100 text-sky-700", why: "This is your first stop at meaningful elevation on the route to Tawang." },
-    { name: "Comfortable Walking Shoes", description: "For exploring the monastery grounds and ridge-top viewpoints.", price: "₹1,999", rating: 4.4, reviews: "5.3k", image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-amber-100 text-amber-700", why: "Bomdila's viewpoints and monastery grounds involve some walking on uneven terrain." },
-    { name: "Camera", description: "For the genuinely panoramic Himalayan foothill views from Bomdila's ridge.", price: "₹—", rating: 4.5, reviews: "—", image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-forest-100 text-forest-700", why: "Bomdila's ridge-top position gives some of the best early views on the Tawang route." },
-    { name: "Modest Clothing", description: "For visiting Bomdila Monastery respectfully.", price: "₹599", rating: 4.4, reviews: "3.9k", image: "👕", affiliateUrl: amazonSearchUrl("modest+travel+clothing"), tag: "Temple essential", tagColor: "bg-purple-100 text-purple-700", why: "This is an active monastery, not just a photo stop." },
+    { name: "Warm Layers", description: "Bomdila's ridge-top elevation makes for cool mornings and evenings even outside winter.", price: "₹1,999",  image: "🧥", affiliateUrl: amazonSearchUrl("warm+jacket+hill+travel"), tag: "Trip essential", tagColor: "bg-sky-100 text-sky-700", why: "This is your first stop at meaningful elevation on the route to Tawang." },
+    { name: "Comfortable Walking Shoes", description: "For exploring the monastery grounds and ridge-top viewpoints.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-amber-100 text-amber-700", why: "Bomdila's viewpoints and monastery grounds involve some walking on uneven terrain." },
+    { name: "Camera", description: "For the genuinely panoramic Himalayan foothill views from Bomdila's ridge.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-forest-100 text-forest-700", why: "Bomdila's ridge-top position gives some of the best early views on the Tawang route." },
+    { name: "Modest Clothing", description: "For visiting Bomdila Monastery respectfully.", price: "₹599",  image: "👕", affiliateUrl: amazonSearchUrl("modest+travel+clothing"), tag: "Temple essential", tagColor: "bg-purple-100 text-purple-700", why: "This is an active monastery, not just a photo stop." },
   ],
 }];
 
@@ -165,6 +166,8 @@ export default function BomdilaGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="bomdila-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Bomdila</h2>

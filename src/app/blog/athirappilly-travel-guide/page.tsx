@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -109,10 +110,10 @@ const ATHIRAPPILLY_GEAR: GearSection[] = [
     subtitle: "Gear for a wet, slippery waterfall day trip",
     emoji: "💦",
     items: [
-      { name: "Grip Sandals / Water Shoes", description: "The steps and viewing areas near the falls get consistently wet and slippery, especially in monsoon.", price: "₹899", rating: 4.4, reviews: "5.1k", image: "🥾", affiliateUrl: amazonSearchUrl("grip+sandals+water+shoes"), tag: "Waterfall essential", tagColor: "bg-amber-100 text-amber-700", why: "Wet stone steps near the falls are the top cause of minor injuries at Athirappilly." },
-      { name: "Rain Poncho", description: "Useful for a monsoon-season visit when spray and rain are both a given near the falls.", price: "₹399", rating: 4.3, reviews: "4.0k", image: "🌂", affiliateUrl: amazonSearchUrl("rain+poncho+travel"), tag: "Monsoon essential", tagColor: "bg-sky-100 text-sky-700", why: "Spray from the falls alone is enough to soak a visitor even without active rain." },
-      { name: "Waterproof Phone Pouch", description: "Protects your phone from spray while photographing the falls up close.", price: "₹299", rating: 4.3, reviews: "9.1k", image: "📱", affiliateUrl: amazonSearchUrl("waterproof+phone+pouch+travel"), tag: "Photography essential", tagColor: "bg-purple-100 text-purple-700", why: "Waterfall spray reaches further than most visitors expect near the viewing platforms." },
-      { name: "Reusable Water Bottle", description: "For the short walking sections between Athirappilly and Vazhachal Falls.", price: "₹449", rating: 4.5, reviews: "6.2k", image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "Day-trip essential", tagColor: "bg-forest-100 text-forest-700", why: "Facilities are limited right at the falls area itself." },
+      { name: "Grip Sandals / Water Shoes", description: "The steps and viewing areas near the falls get consistently wet and slippery, especially in monsoon.", price: "₹899",  image: "🥾", affiliateUrl: amazonSearchUrl("grip+sandals+water+shoes"), tag: "Waterfall essential", tagColor: "bg-amber-100 text-amber-700", why: "Wet stone steps near the falls are the top cause of minor injuries at Athirappilly." },
+      { name: "Rain Poncho", description: "Useful for a monsoon-season visit when spray and rain are both a given near the falls.", price: "₹399",  image: "🌂", affiliateUrl: amazonSearchUrl("rain+poncho+travel"), tag: "Monsoon essential", tagColor: "bg-sky-100 text-sky-700", why: "Spray from the falls alone is enough to soak a visitor even without active rain." },
+      { name: "Waterproof Phone Pouch", description: "Protects your phone from spray while photographing the falls up close.", price: "₹299",  image: "📱", affiliateUrl: amazonSearchUrl("waterproof+phone+pouch+travel"), tag: "Photography essential", tagColor: "bg-purple-100 text-purple-700", why: "Waterfall spray reaches further than most visitors expect near the viewing platforms." },
+      { name: "Reusable Water Bottle", description: "For the short walking sections between Athirappilly and Vazhachal Falls.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "Day-trip essential", tagColor: "bg-forest-100 text-forest-700", why: "Facilities are limited right at the falls area itself." },
     ],
   },
 ];
@@ -199,6 +200,8 @@ export default function AthirappillyGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="athirappilly-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Athirappilly</h2>

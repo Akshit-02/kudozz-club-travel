@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -81,10 +82,10 @@ const tableOfContents = [
 const AMARAVATI_GEAR: GearSection[] = [{
   title: "Things Worth Carrying", subtitle: "Gear for the open stupa site and museum visit", emoji: "🏛️",
   items: [
-    { name: "Sun Hat & Sunscreen", description: "The stupa grounds are open and exposed with little shade.", price: "₹599", rating: 4.5, reviews: "7.4k", image: "🧴", affiliateUrl: amazonSearchUrl("sunscreen+spf+50+travel"), tag: "Site essential", tagColor: "bg-amber-100 text-amber-700", why: "There's genuinely little shade across the open excavation site." },
-    { name: "Comfortable Walking Shoes", description: "For walking the stupa grounds and the Archaeological Museum galleries.", price: "₹1,999", rating: 4.4, reviews: "5.3k", image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Sightseeing essential", tagColor: "bg-sky-100 text-sky-700", why: "Covers a fair amount of ground between the stupa and the museum." },
-    { name: "Reusable Water Bottle", description: "Facilities are limited across the open archaeological site.", price: "₹449", rating: 4.5, reviews: "6.2k", image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "Day-trip essential", tagColor: "bg-forest-100 text-forest-700", why: "This is a low-infrastructure day-trip stop — bring your own water." },
-    { name: "Camera", description: "For the surviving carvings at the museum and the stupa site itself.", price: "₹—", rating: 4.5, reviews: "—", image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Heritage essential", tagColor: "bg-purple-100 text-purple-700", why: "The Archaeological Museum's surviving Amaravati-school carvings are genuinely worth documenting." },
+    { name: "Sun Hat & Sunscreen", description: "The stupa grounds are open and exposed with little shade.", price: "₹599",  image: "🧴", affiliateUrl: amazonSearchUrl("sunscreen+spf+50+travel"), tag: "Site essential", tagColor: "bg-amber-100 text-amber-700", why: "There's genuinely little shade across the open excavation site." },
+    { name: "Comfortable Walking Shoes", description: "For walking the stupa grounds and the Archaeological Museum galleries.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Sightseeing essential", tagColor: "bg-sky-100 text-sky-700", why: "Covers a fair amount of ground between the stupa and the museum." },
+    { name: "Reusable Water Bottle", description: "Facilities are limited across the open archaeological site.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "Day-trip essential", tagColor: "bg-forest-100 text-forest-700", why: "This is a low-infrastructure day-trip stop — bring your own water." },
+    { name: "Camera", description: "For the surviving carvings at the museum and the stupa site itself.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Heritage essential", tagColor: "bg-purple-100 text-purple-700", why: "The Archaeological Museum's surviving Amaravati-school carvings are genuinely worth documenting." },
   ],
 }];
 
@@ -164,6 +165,8 @@ export default function AmaravatiGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="amaravati-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Amaravati</h2>

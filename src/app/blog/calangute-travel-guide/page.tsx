@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -81,10 +82,10 @@ const tableOfContents = [
 const CALANGUTE_GEAR: GearSection[] = [{
   title: "Things Worth Carrying", subtitle: "Gear for beach days and water sports", emoji: "🏖️",
   items: [
-    { name: "Reef-Safe Sunscreen (SPF 50)", description: "Extended beach time calls for strong, reef-safe sun protection.", price: "₹599", rating: 4.5, reviews: "7.4k", image: "🧴", affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+SPF+50"), tag: "Beach essential", tagColor: "bg-amber-100 text-amber-700", why: "Sunburn is the top regret among travelers who underestimate a full beach day here." },
-    { name: "Waterproof Phone Pouch", description: "Useful for parasailing, jet-skiing, and banana boat rides.", price: "₹299", rating: 4.3, reviews: "9.1k", image: "📱", affiliateUrl: amazonSearchUrl("waterproof+phone+pouch+beach"), tag: "Water-sports essential", tagColor: "bg-sky-100 text-sky-700", why: "Water sports at Calangute carry a real risk of a dropped, soaked phone." },
-    { name: "Comfortable Sandals", description: "For walking the busy beachfront and shack-lined promenade.", price: "₹899", rating: 4.4, reviews: "4.8k", image: "👡", affiliateUrl: amazonSearchUrl("comfortable+sandals+travel"), tag: "All-day essential", tagColor: "bg-forest-100 text-forest-700", why: "Calangute's crowded beachfront means a lot of walking between shacks and vendors." },
-    { name: "Dry Bag", description: "For keeping valuables safe during water sports activities.", price: "₹599", rating: 4.4, reviews: "3.6k", image: "🎒", affiliateUrl: amazonSearchUrl("dry+bag+water+sports"), tag: "Water-sports essential", tagColor: "bg-purple-100 text-purple-700", why: "A busy, crowded beach is not the place to leave valuables unattended." },
+    { name: "Reef-Safe Sunscreen (SPF 50)", description: "Extended beach time calls for strong, reef-safe sun protection.", price: "₹599",  image: "🧴", affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+SPF+50"), tag: "Beach essential", tagColor: "bg-amber-100 text-amber-700", why: "Sunburn is the top regret among travelers who underestimate a full beach day here." },
+    { name: "Waterproof Phone Pouch", description: "Useful for parasailing, jet-skiing, and banana boat rides.", price: "₹299",  image: "📱", affiliateUrl: amazonSearchUrl("waterproof+phone+pouch+beach"), tag: "Water-sports essential", tagColor: "bg-sky-100 text-sky-700", why: "Water sports at Calangute carry a real risk of a dropped, soaked phone." },
+    { name: "Comfortable Sandals", description: "For walking the busy beachfront and shack-lined promenade.", price: "₹899",  image: "👡", affiliateUrl: amazonSearchUrl("comfortable+sandals+travel"), tag: "All-day essential", tagColor: "bg-forest-100 text-forest-700", why: "Calangute's crowded beachfront means a lot of walking between shacks and vendors." },
+    { name: "Dry Bag", description: "For keeping valuables safe during water sports activities.", price: "₹599",  image: "🎒", affiliateUrl: amazonSearchUrl("dry+bag+water+sports"), tag: "Water-sports essential", tagColor: "bg-purple-100 text-purple-700", why: "A busy, crowded beach is not the place to leave valuables unattended." },
   ],
 }];
 
@@ -164,6 +165,8 @@ export default function CalanguteGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="calangute-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Calangute</h2>

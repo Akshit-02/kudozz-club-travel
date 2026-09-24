@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -88,10 +89,10 @@ const tableOfContents = [
 const NALANDA_GEAR: GearSection[] = [{
   title: "Things Worth Carrying", subtitle: "Gear for a day walking the excavated ruins", emoji: "📜",
   items: [
-    { name: "Comfortable Walking Shoes", description: "The excavated site spans a large open area with uneven ancient brick paths.", price: "₹1,999", rating: 4.4, reviews: "5.3k", image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Ruins essential", tagColor: "bg-amber-100 text-amber-700", why: "Ancient brick walkways and open ground make sturdy, comfortable footwear worthwhile." },
-    { name: "Sun Hat", description: "Little shade across the open excavated grounds, especially in the middle of the day.", price: "₹399", rating: 4.4, reviews: "5.0k", image: "🧢", affiliateUrl: amazonSearchUrl("sun+hat+travel+outdoor"), tag: "Sun essential", tagColor: "bg-sky-100 text-sky-700", why: "The ruins offer minimal shade across most of the site." },
-    { name: "Reusable Water Bottle", description: "A full circuit of the ruins plus the museum takes a few hours with limited shops nearby.", price: "₹449", rating: 4.5, reviews: "6.2k", image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "All-day essential", tagColor: "bg-forest-100 text-forest-700", why: "Facilities are limited right at the site itself." },
-    { name: "Camera", description: "For the excavated monastery cells, stupas, and lecture halls — genuinely photogenic ancient architecture.", price: "₹—", rating: 4.5, reviews: "—", image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-purple-100 text-purple-700", why: "The scale and detail of the ruins reward good photography." },
+    { name: "Comfortable Walking Shoes", description: "The excavated site spans a large open area with uneven ancient brick paths.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Ruins essential", tagColor: "bg-amber-100 text-amber-700", why: "Ancient brick walkways and open ground make sturdy, comfortable footwear worthwhile." },
+    { name: "Sun Hat", description: "Little shade across the open excavated grounds, especially in the middle of the day.", price: "₹399",  image: "🧢", affiliateUrl: amazonSearchUrl("sun+hat+travel+outdoor"), tag: "Sun essential", tagColor: "bg-sky-100 text-sky-700", why: "The ruins offer minimal shade across most of the site." },
+    { name: "Reusable Water Bottle", description: "A full circuit of the ruins plus the museum takes a few hours with limited shops nearby.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "All-day essential", tagColor: "bg-forest-100 text-forest-700", why: "Facilities are limited right at the site itself." },
+    { name: "Camera", description: "For the excavated monastery cells, stupas, and lecture halls — genuinely photogenic ancient architecture.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-purple-100 text-purple-700", why: "The scale and detail of the ruins reward good photography." },
   ],
 }];
 
@@ -171,6 +172,8 @@ export default function NalandaGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="nalanda-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Nalanda</h2>

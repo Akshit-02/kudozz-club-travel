@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -81,10 +82,10 @@ const tableOfContents = [
 const KAMAKHYA_GEAR: GearSection[] = [{
   title: "Things Worth Carrying", subtitle: "Gear for a temple visit on Nilachal Hill", emoji: "🛕",
   items: [
-    { name: "Modest Cotton Clothing", description: "Standard, respectful attire for visiting an active, deeply significant Hindu temple.", price: "₹599", rating: 4.4, reviews: "3.9k", image: "👕", affiliateUrl: amazonSearchUrl("modest+travel+clothing"), tag: "Temple essential", tagColor: "bg-purple-100 text-purple-700", why: "Kamakhya is a major active pilgrimage site — modest dress is expected of every visitor." },
-    { name: "Comfortable Walking Shoes", description: "For the hill climb/steps and walking between Kamakhya and its subsidiary shrines.", price: "₹1,999", rating: 4.4, reviews: "5.3k", image: "🥾", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Hill-climb essential", tagColor: "bg-amber-100 text-amber-700", why: "Nilachal Hill involves genuine elevation gain between the temple complex's various shrines." },
-    { name: "Small Bag for Shoes/Valuables", description: "Shoes are removed before entering the temple — a small bag keeps them secure while you're inside.", price: "₹299", rating: 4.3, reviews: "2.8k", image: "🎒", affiliateUrl: amazonSearchUrl("small+travel+pouch+bag"), tag: "Temple essential", tagColor: "bg-sky-100 text-sky-700", why: "Shoe storage at busy temples can be inconsistent — carrying your own bag is a simple, reliable workaround." },
-    { name: "Reusable Water Bottle", description: "Useful for the queue and hill walk, especially in warmer months.", price: "₹449", rating: 4.5, reviews: "6.2k", image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "Queue essential", tagColor: "bg-forest-100 text-forest-700", why: "Weekend and festival queues can run long — staying hydrated matters." },
+    { name: "Modest Cotton Clothing", description: "Standard, respectful attire for visiting an active, deeply significant Hindu temple.", price: "₹599",  image: "👕", affiliateUrl: amazonSearchUrl("modest+travel+clothing"), tag: "Temple essential", tagColor: "bg-purple-100 text-purple-700", why: "Kamakhya is a major active pilgrimage site — modest dress is expected of every visitor." },
+    { name: "Comfortable Walking Shoes", description: "For the hill climb/steps and walking between Kamakhya and its subsidiary shrines.", price: "₹1,999",  image: "🥾", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Hill-climb essential", tagColor: "bg-amber-100 text-amber-700", why: "Nilachal Hill involves genuine elevation gain between the temple complex's various shrines." },
+    { name: "Small Bag for Shoes/Valuables", description: "Shoes are removed before entering the temple — a small bag keeps them secure while you're inside.", price: "₹299",  image: "🎒", affiliateUrl: amazonSearchUrl("small+travel+pouch+bag"), tag: "Temple essential", tagColor: "bg-sky-100 text-sky-700", why: "Shoe storage at busy temples can be inconsistent — carrying your own bag is a simple, reliable workaround." },
+    { name: "Reusable Water Bottle", description: "Useful for the queue and hill walk, especially in warmer months.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "Queue essential", tagColor: "bg-forest-100 text-forest-700", why: "Weekend and festival queues can run long — staying hydrated matters." },
   ],
 }];
 
@@ -164,6 +165,8 @@ export default function KamakhyaGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="kamakhya-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Kamakhya</h2>

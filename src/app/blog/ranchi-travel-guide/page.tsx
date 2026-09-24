@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -109,10 +110,10 @@ const RANCHI_GEAR: GearSection[] = [
     subtitle: "Gear for waterfall trails and a spread-out day-trip circuit",
     emoji: "💦",
     items: [
-      { name: "Grip Sandals / Trekking Shoes", description: "The rocky, often wet approach paths to Hundru, Dassam, and Jonha Falls involve real uneven walking — proper grip matters far more than flip-flops.", price: "₹899", rating: 4.4, reviews: "5.1k", image: "🥾", affiliateUrl: amazonSearchUrl("trekking+sandals+grip+outdoor"), tag: "Waterfall essential", tagColor: "bg-amber-100 text-amber-700", why: "Slippery rocks near the falls are the most common cause of minor injuries reported by visitors." },
-      { name: "Rain Jacket / Poncho", description: "If visiting just after monsoon for the fullest waterfalls, a packable rain layer is genuinely useful.", price: "₹899", rating: 4.4, reviews: "5.1k", image: "🧥", affiliateUrl: amazonSearchUrl("packable+rain+jacket+travel"), tag: "Weather essential", tagColor: "bg-sky-100 text-sky-700", why: "Waterfall spray plus Jharkhand's genuinely wet monsoon make staying dry a real, recurring concern." },
-      { name: "Reusable Water Bottle", description: "The waterfall circuit involves a full day of driving and walking between spread-out sites with limited shops along the way.", price: "₹449", rating: 4.5, reviews: "6.2k", image: "💧", affiliateUrl: amazonSearchUrl("1l+reusable+water+bottle+steel"), tag: "All-day essential", tagColor: "bg-forest-100 text-forest-700", why: "Facilities thin out quickly once you're outside the city core." },
-      { name: "Power Bank", description: "Useful for day trips beyond the city, where charging points thin out well before you reach the falls.", price: "₹899", rating: 4.4, reviews: "6.8k", image: "🔋", affiliateUrl: amazonSearchUrl("power+bank+10000mah+travel"), tag: "Travel essential", tagColor: "bg-purple-100 text-purple-700", why: "Charging infrastructure drops off fast outside Ranchi's city centre." },
+      { name: "Grip Sandals / Trekking Shoes", description: "The rocky, often wet approach paths to Hundru, Dassam, and Jonha Falls involve real uneven walking — proper grip matters far more than flip-flops.", price: "₹899",  image: "🥾", affiliateUrl: amazonSearchUrl("trekking+sandals+grip+outdoor"), tag: "Waterfall essential", tagColor: "bg-amber-100 text-amber-700", why: "Slippery rocks near the falls are the most common cause of minor injuries reported by visitors." },
+      { name: "Rain Jacket / Poncho", description: "If visiting just after monsoon for the fullest waterfalls, a packable rain layer is genuinely useful.", price: "₹899",  image: "🧥", affiliateUrl: amazonSearchUrl("packable+rain+jacket+travel"), tag: "Weather essential", tagColor: "bg-sky-100 text-sky-700", why: "Waterfall spray plus Jharkhand's genuinely wet monsoon make staying dry a real, recurring concern." },
+      { name: "Reusable Water Bottle", description: "The waterfall circuit involves a full day of driving and walking between spread-out sites with limited shops along the way.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("1l+reusable+water+bottle+steel"), tag: "All-day essential", tagColor: "bg-forest-100 text-forest-700", why: "Facilities thin out quickly once you're outside the city core." },
+      { name: "Power Bank", description: "Useful for day trips beyond the city, where charging points thin out well before you reach the falls.", price: "₹899",  image: "🔋", affiliateUrl: amazonSearchUrl("power+bank+10000mah+travel"), tag: "Travel essential", tagColor: "bg-purple-100 text-purple-700", why: "Charging infrastructure drops off fast outside Ranchi's city centre." },
     ],
   },
 ];
@@ -199,6 +200,8 @@ export default function RanchiGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="ranchi-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Ranchi</h2>

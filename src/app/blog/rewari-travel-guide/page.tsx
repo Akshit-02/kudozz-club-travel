@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -81,10 +82,10 @@ const tableOfContents = [
 const REWARI_GEAR: GearSection[] = [{
   title: "Things Worth Carrying", subtitle: "Gear for a market walk and heritage stop", emoji: "🔔",
   items: [
-    { name: "Comfortable Walking Shoes", description: "For navigating the brass market's narrow lanes and any heritage-site walking.", price: "₹1,999", rating: 4.4, reviews: "5.3k", image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Market essential", tagColor: "bg-amber-100 text-amber-700", why: "The brass market's lanes are busy and best explored on foot." },
-    { name: "Cash Pouch", description: "Many market vendors and small shops in Rewari's brass district prefer cash.", price: "₹299", rating: 4.3, reviews: "2.1k", image: "👛", affiliateUrl: amazonSearchUrl("travel+cash+pouch"), tag: "Shopping essential", tagColor: "bg-sky-100 text-sky-700", why: "Card acceptance is inconsistent at smaller brass workshops and stalls." },
-    { name: "Camera", description: "For the brass workshops, market scenes, and any railway heritage sights.", price: "₹—", rating: 4.5, reviews: "—", image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-forest-100 text-forest-700", why: "The brass-making process and market activity make for genuinely interesting photography." },
-    { name: "Sun Hat", description: "For a comfortable day walking outdoor market areas and heritage sites.", price: "₹499", rating: 4.4, reviews: "5.0k", image: "🧢", affiliateUrl: amazonSearchUrl("sun+hat+travel+outdoor"), tag: "Comfort essential", tagColor: "bg-purple-100 text-purple-700", why: "Much of the day involves outdoor walking with limited shade." },
+    { name: "Comfortable Walking Shoes", description: "For navigating the brass market's narrow lanes and any heritage-site walking.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Market essential", tagColor: "bg-amber-100 text-amber-700", why: "The brass market's lanes are busy and best explored on foot." },
+    { name: "Cash Pouch", description: "Many market vendors and small shops in Rewari's brass district prefer cash.", price: "₹299",  image: "👛", affiliateUrl: amazonSearchUrl("travel+cash+pouch"), tag: "Shopping essential", tagColor: "bg-sky-100 text-sky-700", why: "Card acceptance is inconsistent at smaller brass workshops and stalls." },
+    { name: "Camera", description: "For the brass workshops, market scenes, and any railway heritage sights.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-forest-100 text-forest-700", why: "The brass-making process and market activity make for genuinely interesting photography." },
+    { name: "Sun Hat", description: "For a comfortable day walking outdoor market areas and heritage sites.", price: "₹499",  image: "🧢", affiliateUrl: amazonSearchUrl("sun+hat+travel+outdoor"), tag: "Comfort essential", tagColor: "bg-purple-100 text-purple-700", why: "Much of the day involves outdoor walking with limited shade." },
   ],
 }];
 
@@ -164,6 +165,8 @@ export default function RewariGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="rewari-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Rewari</h2>

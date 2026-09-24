@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -159,8 +160,6 @@ const LAMBASINGI_GEAR: GearSection[] = [
         description:
           "Genuinely necessary here — this is the one part of coastal Andhra Pradesh where near-freezing mornings are real.",
         price: "₹1,999",
-        rating: 4.5,
-        reviews: "4.8k",
         image: "🧥",
         affiliateUrl: amazonSearchUrl("warm+winter+jacket+travel"),
         tag: "Frost-morning essential",
@@ -172,8 +171,6 @@ const LAMBASINGI_GEAR: GearSection[] = [
         description:
           "For navigating the pre-dawn arrival and short walks around viewpoints before daylight.",
         price: "₹399",
-        rating: 4.4,
-        reviews: "5.2k",
         image: "🔦",
         affiliateUrl: amazonSearchUrl("led+headlamp+torch+travel"),
         tag: "Pre-dawn essential",
@@ -184,8 +181,6 @@ const LAMBASINGI_GEAR: GearSection[] = [
         name: "Comfortable Walking Shoes",
         description: "For frost-covered grass and uneven hillside paths around the village.",
         price: "₹1,999",
-        rating: 4.4,
-        reviews: "5.3k",
         image: "🥾",
         affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
         tag: "Trip essential",
@@ -196,8 +191,6 @@ const LAMBASINGI_GEAR: GearSection[] = [
         name: "Hot Flask",
         description: "For carrying hot tea or coffee to the viewpoint on a genuinely cold morning wait.",
         price: "₹699",
-        rating: 4.4,
-        reviews: "3.1k",
         image: "🍵",
         affiliateUrl: amazonSearchUrl("insulated+flask+hot+drinks"),
         tag: "Comfort essential",
@@ -361,6 +354,8 @@ export default function LambasingiGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="lambasingi-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Lambasingi</h2>

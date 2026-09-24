@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -200,8 +201,6 @@ const CHANDIGARH_GEAR: GearSection[] = [
         description:
           "The Rock Garden's winding pathways, the Capitol Complex plaza, and Sector 17's open market all involve extended walking on hard, sun-exposed surfaces.",
         price: "₹1,499",
-        rating: 4.4,
-        reviews: "8.2k",
         image: "👟",
         affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
         tag: "City-walk essential",
@@ -213,8 +212,6 @@ const CHANDIGARH_GEAR: GearSection[] = [
         description:
           "Sukhna Lake's promenade and the Rock Garden have long uncovered stretches with limited shaded rest points.",
         price: "₹699",
-        rating: 4.5,
-        reviews: "9.3k",
         image: "🍶",
         affiliateUrl: amazonSearchUrl("insulated+water+bottle+steel"),
         tag: "Everyday essential",
@@ -226,8 +223,6 @@ const CHANDIGARH_GEAR: GearSection[] = [
         description:
           "Useful for both intense summer sun and Chandigarh's occasional sharp monsoon showers.",
         price: "₹399",
-        rating: 4.3,
-        reviews: "5.6k",
         image: "☂️",
         affiliateUrl: amazonSearchUrl("compact+travel+umbrella"),
         tag: "Weather essential",
@@ -239,8 +234,6 @@ const CHANDIGARH_GEAR: GearSection[] = [
         description:
           "Handy for carrying camera gear, water and layers across a full day covering the Rock Garden, Sukhna Lake, and Sector 17.",
         price: "₹1,199",
-        rating: 4.4,
-        reviews: "6.1k",
         image: "🎒",
         affiliateUrl: amazonSearchUrl("travel+daypack+backpack"),
         tag: "Sightseeing essential",
@@ -252,8 +245,6 @@ const CHANDIGARH_GEAR: GearSection[] = [
         description:
           "Useful for day trips to Kasauli or Morni Hills, where charging points are sparser than in the city.",
         price: "₹1,299",
-        rating: 4.5,
-        reviews: "9.7k",
         image: "🔋",
         affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
         tag: "Day-trip essential",
@@ -493,6 +484,8 @@ export default function ChandigarhGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="chandigarh-travel-guide" />
 
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">

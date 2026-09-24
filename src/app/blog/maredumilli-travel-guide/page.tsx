@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -81,10 +82,10 @@ const tableOfContents = [
 const MAREDUMILLI_GEAR: GearSection[] = [{
   title: "Things Worth Carrying", subtitle: "Gear for forest trekking and waterfall/hot spring visits", emoji: "🌳",
   items: [
-    { name: "Sturdy Trekking Shoes", description: "For the Forest Department's marked trails through bamboo and teak forest.", price: "₹2,999", rating: 4.5, reviews: "6.2k", image: "🥾", affiliateUrl: amazonSearchUrl("trekking+shoes+forest+trail"), tag: "Trek essential", tagColor: "bg-amber-100 text-amber-700", why: "Forest trails here are genuinely uneven and can be slippery near water features." },
-    { name: "Insect Repellent", description: "Dense forest cover means a real mosquito and insect presence, especially near water.", price: "₹199", rating: 4.3, reviews: "4.2k", image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Forest essential", tagColor: "bg-forest-100 text-forest-700", why: "This is genuinely dense rainforest terrain, not a manicured park." },
-    { name: "Rain Layer", description: "Useful across most of the year given the area's forest microclimate, especially in monsoon.", price: "₹899", rating: 4.4, reviews: "5.1k", image: "🌂", affiliateUrl: amazonSearchUrl("packable+rain+jacket+trekking"), tag: "Weather essential", tagColor: "bg-sky-100 text-sky-700", why: "Waterfalls are fullest exactly when rain is most likely." },
-    { name: "Swimwear", description: "For the natural pools at the base of waterfalls and the hot springs.", price: "₹—", rating: 4.4, reviews: "—", image: "🩱", affiliateUrl: amazonSearchUrl("quick+dry+swimwear+travel"), tag: "Water-feature essential", tagColor: "bg-purple-100 text-purple-700", why: "Both the waterfalls and hot springs are genuine swim/soak spots." },
+    { name: "Sturdy Trekking Shoes", description: "For the Forest Department's marked trails through bamboo and teak forest.", price: "₹2,999",  image: "🥾", affiliateUrl: amazonSearchUrl("trekking+shoes+forest+trail"), tag: "Trek essential", tagColor: "bg-amber-100 text-amber-700", why: "Forest trails here are genuinely uneven and can be slippery near water features." },
+    { name: "Insect Repellent", description: "Dense forest cover means a real mosquito and insect presence, especially near water.", price: "₹199",  image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Forest essential", tagColor: "bg-forest-100 text-forest-700", why: "This is genuinely dense rainforest terrain, not a manicured park." },
+    { name: "Rain Layer", description: "Useful across most of the year given the area's forest microclimate, especially in monsoon.", price: "₹899",  image: "🌂", affiliateUrl: amazonSearchUrl("packable+rain+jacket+trekking"), tag: "Weather essential", tagColor: "bg-sky-100 text-sky-700", why: "Waterfalls are fullest exactly when rain is most likely." },
+    { name: "Swimwear", description: "For the natural pools at the base of waterfalls and the hot springs.", price: "₹—",  image: "🩱", affiliateUrl: amazonSearchUrl("quick+dry+swimwear+travel"), tag: "Water-feature essential", tagColor: "bg-purple-100 text-purple-700", why: "Both the waterfalls and hot springs are genuine swim/soak spots." },
   ],
 }];
 
@@ -164,6 +165,8 @@ export default function MaredumilliGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="maredumilli-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Maredumilli</h2>

@@ -4,24 +4,78 @@ import Link from "next/link";
 import Image from "next/image";
 import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
+import { allStatePackages } from "@/lib/all-states-data";
+import { travelStylesData } from "@/lib/travel-styles-data";
+import { SITE_URL, guideCountLabel, stateCount, trustStats } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "About Us — Our Story",
+  title: { absolute: "About Kudozz Club | India Travel Agency" },
   description:
-    "Kudozz Club (also searched as Kudoz Club or Kudos Club) is an India-focused travel platform: independent destination guides plus an in-house trip-planning team. Learn our story and how the two fit together.",
+    "Kudozz Club is an India-focused travel agency. Our library of India travel guides now powers a customized trip-planning service.",
   keywords: [
     "Kudozz Club",
     "Kudoz Club",
     "Kudos Club",
-    "Kudoss Club",
-    "about Kudozz",
-    "who is behind Kudozz Club",
-    "independent India travel publication",
+    "about Kudozz Club",
     "India travel agency",
-    "Kudozz Club editorial team",
+    "India-focused travel agency",
+    "custom India trip planning",
   ],
-  alternates: { canonical: "https://club.kudozz.in/about" },
+  alternates: { canonical: `${SITE_URL}/about` },
+  openGraph: {
+    title: "About Kudozz Club | India Travel Agency",
+    description:
+      "We know India. Now let us plan your trip. How Kudozz Club went from travel guides to trip planning.",
+    url: `${SITE_URL}/about`,
+    type: "website",
+  },
 };
+
+const brandFaqs = [
+  {
+    q: "What is Kudozz Club?",
+    a: `Kudozz Club is an India-focused travel agency that plans customized trips across India. It also publishes ${guideCountLabel} free travel guides covering all ${stateCount} Indian states and union territories.`,
+  },
+  {
+    q: "Is it Kudozz Club, Kudoz Club, or Kudos Club?",
+    a: "Kudozz, spelled with two Zs. We know people also search for Kudoz Club, Kudos Club and Kudoss Club, so if that's how you found us, you're in the right place. club.kudozz.in is our only official website.",
+  },
+  {
+    q: "Is Kudozz Club affiliated with any other 'Kudos' or 'Kudoz' travel brand?",
+    a: "No. Kudozz Club is independent. The only official site is club.kudozz.in.",
+  },
+  {
+    q: "Are the travel guides influenced by the trips you sell?",
+    a: "No. We don't accept paid placements in our guides, and a guide's recommendations aren't changed to favour a trip we plan. The guides exist to help anyone plan, whether or not they book with us.",
+  },
+];
+
+const milestones = [
+  { year: "Nov 2025", event: "Kudozz Club launched as an India travel guide project" },
+  { year: "2026", event: "Guides expanded to cover every Indian state and union territory" },
+  { year: "Sep 2026", event: "Launched in-house trip planning, powered by the guide library" },
+];
+
+const philosophy = [
+  {
+    title: "Start with the traveller",
+    desc: "Your dates, budget, pace and interests come first. The route follows from them, not the other way round.",
+  },
+  {
+    title: "Fewer places, better days",
+    desc: "We would rather plan three places well than seven in a rush. Realistic travel times are part of every plan.",
+  },
+  {
+    title: "Honest over impressive",
+    desc: "If a season is wrong, a road is closed or a place isn't worth the detour, we say so.",
+  },
+  {
+    title: "Travel that respects places",
+    desc: "We favour slower travel, local stays where they make sense, and visiting fragile places thoughtfully.",
+  },
+];
+
+const regions = Array.from(new Set(allStatePackages.map((s) => s.region)));
 
 function AboutSchema() {
   return (
@@ -30,398 +84,245 @@ function AboutSchema() {
       dangerouslySetInnerHTML={{
         __html: JSON.stringify({
           "@context": "https://schema.org",
-          "@type": "AboutPage",
-          name: "About Kudozz Club",
-          url: "https://club.kudozz.in/about",
-          mainEntity: {
-            "@type": "Organization",
-            name: "Kudozz Club",
-            url: "https://club.kudozz.in",
-            logo: "https://club.kudozz.in/favicon.ico",
-          },
-          breadcrumb: {
-            "@type": "BreadcrumbList",
-            itemListElement: [
-              {
-                "@type": "ListItem",
-                position: 1,
-                name: "Home",
-                item: "https://club.kudozz.in",
+          "@graph": [
+            {
+              "@type": "AboutPage",
+              name: "About Kudozz Club",
+              url: `${SITE_URL}/about`,
+              mainEntity: { "@id": `${SITE_URL}/#organization` },
+              breadcrumb: {
+                "@type": "BreadcrumbList",
+                itemListElement: [
+                  { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
+                  { "@type": "ListItem", position: 2, name: "About", item: `${SITE_URL}/about` },
+                ],
               },
-              {
-                "@type": "ListItem",
-                position: 2,
-                name: "About",
-                item: "https://club.kudozz.in/about",
-              },
-            ],
-          },
-        }),
-      }}
-    />
-  );
-}
-
-function BrandFAQSchema() {
-  return (
-    <script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{
-        __html: JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "FAQPage",
-          mainEntity: brandFaqs.map((f) => ({
-            "@type": "Question",
-            name: f.q,
-            acceptedAnswer: {
-              "@type": "Answer",
-              text: f.a,
             },
-          })),
+            {
+              "@type": "FAQPage",
+              mainEntity: brandFaqs.map((f) => ({
+                "@type": "Question",
+                name: f.q,
+                acceptedAnswer: { "@type": "Answer", text: f.a },
+              })),
+            },
+          ],
         }),
       }}
     />
   );
 }
-
-const values = [
-  {
-    icon: "🧭",
-    title: "Always Honest",
-    desc: "We never take paid placements in our guides. Every recommendation is something we'd genuinely tell a friend.",
-  },
-  {
-    icon: "🔍",
-    title: "Deeply Researched",
-    desc: "Our guides are built from real trips, local conversations, and obsessive attention to detail — not recycled blog content.",
-  },
-  {
-    icon: "🌱",
-    title: "Responsible Travel",
-    desc: "We champion slow travel, local economies, and destinations that benefit from thoughtful visitors.",
-  },
-  {
-    icon: "🤝",
-    title: "Community First",
-    desc: "Kudozz Club is a community, not a media company. Our readers shape what we write next.",
-  },
-];
-
-const brandFaqs = [
-  {
-    q: "Is it Kudozz Club, Kudoz Club, or Kudos Club?",
-    a: "Kudozz — spelled with two Z's. We know people also search for Kudoz Club, Kudos Club, and Kudoss Club, so if that's how you found us: you're in the right place.",
-  },
-  {
-    q: "Why the double Z?",
-    a: "It's a small, deliberate quirk — a nod to giving 'kudos' to great trips and hidden gems, spelled our own way. club.kudozz.in is our only official web address.",
-  },
-  {
-    q: "Is Kudozz Club affiliated with any other 'Kudos' or 'Kudoz' travel brand?",
-    a: "No. We're an independent, India-based travel platform. If you're looking for us, the only official site is club.kudozz.in.",
-  },
-  {
-    q: "Does Kudozz Club also plan trips, or just write guides?",
-    a: "Both. The guides stay independent — we don't accept paid placements in editorial content. Separately, our in-house team also plans custom India trips for anyone who'd rather not build the itinerary themselves. See the Plan Your Trip page for details.",
-  },
-];
-
-const milestones = [
-  {
-    year: "Nov, 2025",
-    event: "Kudozz Club launched as an India travel guide project",
-  },
-  {
-    year: "2026",
-    event:
-      "Expanded to destination guides covering every Indian state and union territory",
-  },
-  {
-    year: "Sep, 2026",
-    event: "Launched an in-house trip-planning service alongside the guides",
-  },
-];
 
 export default function AboutPage() {
   return (
     <>
       <AboutSchema />
-      <BrandFAQSchema />
       <SiteHeader />
       <main>
         {/* ── Hero ── */}
-        <section className="relative min-h-[60vh] flex items-end overflow-hidden">
-          <div className="absolute inset-0">
-            <Image
-              src="/images/destinations/leh-ladakh/leh-ladakh.jpg"
-              alt="About Kudozz Club"
-              fill
-              sizes="100vw"
-              className="object-cover"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/60 to-stone-800/20" />
-          </div>
-          <div className="relative z-10 max-w-7xl mx-auto px-6 sm:px-10 pb-16 pt-36 w-full">
-            <div className="max-w-2xl">
-              <div className="flex items-center gap-3 mb-4">
-                <div className="h-px w-8 bg-forest-400" />
-                <span
-                  className="text-forest-300 text-xs font-bold uppercase tracking-[0.2em]"
-                  style={{ fontFamily: "var(--font-dm-sans)" }}
-                >
-                  Our Story
-                </span>
-              </div>
-              <h1
-                className="text-5xl sm:text-6xl font-bold text-white mb-5 leading-tight"
-                style={{ fontFamily: "var(--font-playfair)" }}
-              >
-                Built by explorers,
-                <br />
-                <span className="text-forest-300">for explorers.</span>
-              </h1>
-              <p
-                className="text-white/70 text-lg leading-relaxed"
-                style={{ fontFamily: "var(--font-source-serif)" }}
-              >
-                Kudozz Club started as a simple question: why is honest,
-                practical travel information so hard to find? We decided to
-                build the answer.
-              </p>
-            </div>
-          </div>
-        </section>
-
-        {/* ── Mission ── */}
-        <section className="bg-stone-950 py-20">
-          <div className="max-w-4xl mx-auto px-6 sm:px-10 text-center">
-            <p
-              className="text-2xl md:text-3xl text-stone-300 leading-relaxed font-light"
-              style={{ fontFamily: "var(--font-source-serif)" }}
-            >
-              "We believe the best travel experiences come from{" "}
-              <span className="text-white font-semibold italic">
-                real information
-              </span>
-              , not polished sponsored content. Every guide we publish is
-              something{" "}
-              <span className="text-forest-300 font-semibold italic">
-                we'd trust ourselves.
-              </span>
-              "
+        <section className="relative isolate flex min-h-[70vh] items-end bg-stone-950">
+          <Image
+            src="/images/blogs/rajasthan/rajasthan/mehrangarh-fort-blue-city-jodhpur.webp"
+            alt="Mehrangarh Fort above the blue houses of Jodhpur, Rajasthan"
+            fill
+            priority
+            sizes="100vw"
+            className="-z-10 object-cover"
+          />
+          <div className="absolute inset-0 -z-10 bg-gradient-to-t from-stone-950 via-stone-950/60 to-stone-950/20" />
+          <div className="container-site w-full pb-16 pt-36">
+            <p className="eyebrow eyebrow-light">About Kudozz Club</p>
+            <h1 className="mt-5 max-w-3xl font-display text-4xl font-bold leading-[1.08] text-white sm:text-6xl">
+              We Know India. Now Let Us Plan Your Trip.
+            </h1>
+            <p className="mt-6 max-w-2xl font-sans text-base leading-relaxed text-stone-200 sm:text-lg">
+              Kudozz Club is an India-focused travel agency helping travellers turn
+              destination ideas into thoughtfully planned trips.
             </p>
           </div>
         </section>
 
-        {/* ── Stats ── */}
-        <section className="bg-stone-900 border-y border-stone-800">
-          <div className="max-w-7xl mx-auto px-6 sm:px-10">
-            <div className="grid grid-cols-2 md:grid-cols-4 divide-x divide-stone-800">
-              {[
-                { value: "580+", label: "Guides published" },
-                { value: "36", label: "States & UTs covered" },
-                { value: "6", label: "Regions of India" },
-                { value: "In-house", label: "Trip planning team" },
-              ].map((stat) => (
-                <div key={stat.label} className="py-10 px-6 text-center">
-                  <div
-                    className="text-4xl font-bold text-white mb-2"
-                    style={{ fontFamily: "var(--font-playfair)" }}
-                  >
-                    {stat.value}
-                  </div>
-                  <div
-                    className="text-stone-500 text-xs uppercase tracking-widest"
-                    style={{ fontFamily: "var(--font-dm-sans)" }}
-                  >
-                    {stat.label}
-                  </div>
-                </div>
-              ))}
+        {/* ── Story ── */}
+        <section className="bg-white py-20 md:py-28">
+          <div className="container-site grid gap-12 lg:grid-cols-[0.8fr_1.2fr] lg:gap-20">
+            <div>
+              <p className="eyebrow">Our story</p>
+              <h2 className="heading-lg mt-4">From travel guides to trip planning</h2>
+            </div>
+            <div className="space-y-5 font-sans text-base leading-relaxed text-stone-700 sm:text-lg">
+              <p>
+                Kudozz Club began with a simple idea: travel planning should start
+                with better information.
+              </p>
+              <p>
+                So we built it. A growing library of India travel guides covering
+                destinations, cities, attractions and routes across the country,
+                each written to answer the questions people actually have before
+                a trip: when to go, how to get there, how many days it needs,
+                where to stay and what it costs.
+              </p>
+              <p>
+                Today, that destination knowledge powers our trip-planning service.
+                The research behind the guides goes into every itinerary our
+                in-house team plans.
+              </p>
+              <div className="flex flex-col gap-3 pt-4 sm:flex-row">
+                <Link href="/plan-your-trip?from=/about" className="btn-primary px-7">Plan My Trip →</Link>
+                <Link href="/blog" className="btn-outline px-7">Read our travel guides</Link>
+              </div>
             </div>
           </div>
         </section>
 
-        {/* ── Values ── */}
-        <section className="bg-stone-50 py-24">
-          <div className="max-w-5xl mx-auto px-6 sm:px-10">
-            <div className="text-center mb-14">
-              <div className="flex items-center justify-center gap-3 mb-3">
-                <div className="h-px w-8 bg-forest-500" />
-                <span
-                  className="text-forest-600 text-xs font-bold uppercase tracking-[0.2em]"
-                  style={{ fontFamily: "var(--font-dm-sans)" }}
-                >
-                  What we stand for
-                </span>
-                <div className="h-px w-8 bg-forest-500" />
+        {/* ── What we are ── */}
+        <section className="bg-stone-50 py-20 md:py-28">
+          <div className="container-site">
+            <p className="eyebrow">What Kudozz Club is</p>
+            <h2 className="heading-lg mt-4 max-w-2xl">One team, two things we do</h2>
+            <div className="mt-10 grid gap-6 md:grid-cols-2">
+              <div className="answer-card">
+                <h3 className="font-display text-2xl font-bold text-stone-950">A travel agency for India</h3>
+                <p className="mt-3 font-sans text-[15px] leading-relaxed text-stone-600">
+                  We plan customized trips anywhere in India: family holidays,
+                  honeymoons, pilgrimages, wildlife and adventure trips, weekend
+                  breaks and long circuits. You tell us what you want, we plan it
+                  in-house, and we refine it with you. Pricing is quoted for your
+                  trip, never a fixed package price.
+                </p>
+                <Link href="/packages" className="text-link mt-4 inline-block text-sm">Explore India tour packages</Link>
               </div>
-              <h2
-                className="text-3xl font-bold text-stone-900"
-                style={{ fontFamily: "var(--font-playfair)" }}
-              >
-                Our Values
-              </h2>
-            </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-              {values.map((v) => (
-                <div
-                  key={v.title}
-                  className="flex gap-5 bg-white rounded-2xl p-6 border border-stone-200 hover:border-forest-200 hover:shadow-md transition-all duration-300"
-                >
-                  <span className="text-3xl flex-shrink-0 mt-1">{v.icon}</span>
-                  <div>
-                    <h3
-                      className="font-bold text-stone-900 mb-1.5"
-                      style={{ fontFamily: "var(--font-playfair)" }}
-                    >
-                      {v.title}
-                    </h3>
-                    <p
-                      className="text-sm text-stone-500 leading-relaxed"
-                      style={{ fontFamily: "var(--font-dm-sans)" }}
-                    >
-                      {v.desc}
-                    </p>
-                  </div>
-                </div>
-              ))}
+              <div className="answer-card">
+                <h3 className="font-display text-2xl font-bold text-stone-950">A library of India travel guides</h3>
+                <p className="mt-3 font-sans text-[15px] leading-relaxed text-stone-600">
+                  {guideCountLabel} free guides across all {stateCount} states and
+                  union territories, organised from state to city to attraction.
+                  They&rsquo;re open to everyone, whether or not you plan with us,
+                  and they&rsquo;re the research behind every itinerary we build.
+                </p>
+                <Link href="/destinations" className="text-link mt-4 inline-block text-sm">Browse destinations</Link>
+              </div>
             </div>
           </div>
         </section>
 
-        {/* ── Trip Planning ── */}
-        <section className="bg-white py-24">
-          <div className="max-w-4xl mx-auto px-6 sm:px-10">
-            <div className="text-center mb-10">
-              <div className="flex items-center justify-center gap-3 mb-3">
-                <div className="h-px w-8 bg-forest-500" />
-                <span
-                  className="text-forest-600 text-xs font-bold uppercase tracking-[0.2em]"
-                  style={{ fontFamily: "var(--font-dm-sans)" }}
-                >
-                  Also new
-                </span>
-                <div className="h-px w-8 bg-forest-500" />
-              </div>
-              <h2
-                className="text-3xl font-bold text-stone-900"
-                style={{ fontFamily: "var(--font-playfair)" }}
-              >
-                We Now Plan Trips Too
-              </h2>
+        {/* ── Destination expertise ── */}
+        <section className="bg-stone-950 py-20 md:py-24">
+          <div className="container-site">
+            <p className="eyebrow eyebrow-light">Destination expertise</p>
+            <h2 className="mt-4 max-w-2xl font-display text-3xl font-bold text-white sm:text-4xl">
+              Coverage across the whole country
+            </h2>
+            <dl className="mt-10 grid grid-cols-2 gap-px overflow-hidden rounded-2xl bg-stone-800 md:grid-cols-4">
+              {trustStats.map((s) => (
+                <div key={s.label} className="flex flex-col-reverse gap-1 bg-stone-950 px-6 py-8">
+                  <dt className="font-sans text-xs uppercase tracking-[0.16em] text-stone-400">{s.label}</dt>
+                  <dd className="font-display text-4xl font-bold text-white">{s.value}</dd>
+                </div>
+              ))}
+            </dl>
+            <p className="mt-8 max-w-3xl font-sans text-sm leading-relaxed text-stone-400">
+              Our guides and trip planning cover {regions.join(", ")}: from the
+              Himalayan states and the Northeast to the southern coast and the
+              Andaman and Lakshadweep islands.
+            </p>
+          </div>
+        </section>
+
+        {/* ── Philosophy ── */}
+        <section className="bg-white py-20 md:py-28">
+          <div className="container-site">
+            <p className="eyebrow">Travel philosophy</p>
+            <h2 className="heading-lg mt-4 max-w-2xl">How we think about a good trip</h2>
+            <ul className="mt-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
+              {philosophy.map((v) => (
+                <li key={v.title} className="border-t-2 border-forest-700 pt-5">
+                  <h3 className="font-display text-lg font-bold text-stone-950">{v.title}</h3>
+                  <p className="mt-2 font-sans text-sm leading-relaxed text-stone-600">{v.desc}</p>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </section>
+
+        {/* ── Process + trip types ── */}
+        <section className="bg-stone-50 py-20 md:py-28">
+          <div className="container-site grid gap-14 lg:grid-cols-2">
+            <div>
+              <p className="eyebrow">Trip planning process</p>
+              <h2 className="heading-lg mt-4">How planning with us works</h2>
+              <ol className="mt-8 space-y-6">
+                {[
+                  ["Tell us what you want", "Destination (or ask us to suggest one), dates, who's travelling and a budget range."],
+                  ["We build the route", "Our team plans a practical day-by-day itinerary around your priorities."],
+                  ["Refine the plan", "Change places, pace and stays until it fits."],
+                  ["Get ready to travel", "Once the plan works for you, go ahead with the arrangements Kudozz Club supports."],
+                ].map(([t, d], i) => (
+                  <li key={t} className="flex gap-5">
+                    <span className="font-display text-2xl font-bold text-saffron-500">0{i + 1}</span>
+                    <span className="font-sans text-[15px] leading-relaxed text-stone-600">
+                      <strong className="block font-semibold text-stone-950">{t}</strong>
+                      {d}
+                    </span>
+                  </li>
+                ))}
+              </ol>
             </div>
-            <div className="bg-stone-50 border border-stone-200 rounded-3xl p-8 sm:p-10">
-              <p
-                className="text-stone-600 leading-relaxed mb-4"
-                style={{ fontFamily: "var(--font-dm-sans)" }}
-              >
-                Kudozz Club started as destination guides, and that editorial
-                work hasn't changed — we still don't accept paid placements
-                in guide content, and a guide's recommendations aren't
-                influenced by anything we sell.
-              </p>
-              <p
-                className="text-stone-600 leading-relaxed mb-6"
-                style={{ fontFamily: "var(--font-dm-sans)" }}
-              >
-                Separately, our in-house team now also plans custom India
-                trips end to end — you tell us where you want to go, we build
-                the itinerary and coordinate it with you by email. It's a
-                distinct service, not a sponsor of the guides.
-              </p>
-              <Link
-                href="/plan-your-trip"
-                className="inline-flex items-center gap-2 px-6 py-3 gradient-forest text-white font-semibold rounded-full text-sm hover:opacity-90 transition-opacity"
-                style={{ fontFamily: "var(--font-dm-sans)" }}
-              >
-                Plan My Trip →
-              </Link>
+            <div>
+              <p className="eyebrow">Types of trips</p>
+              <h2 className="heading-lg mt-4">Trips we plan</h2>
+              <ul className="mt-8 grid gap-3 sm:grid-cols-2">
+                {travelStylesData.map((s) => (
+                  <li key={s.slug}>
+                    <Link href={`/packages/${s.slug}`} className="block rounded-xl bg-white px-4 py-3.5 ring-1 ring-stone-200 transition hover:ring-forest-400">
+                      <span className="block font-display font-bold text-stone-950">{s.name}</span>
+                      <span className="block font-sans text-xs text-stone-500">{s.desc}</span>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
             </div>
+          </div>
+        </section>
+
+        {/* ── Editorial independence ── */}
+        <section className="bg-white py-20">
+          <div className="container-site max-w-3xl">
+            <p className="eyebrow">Editorial independence</p>
+            <h2 className="heading-lg mt-4">Why our guides stay independent</h2>
+            <p className="mt-6 font-sans text-base leading-relaxed text-stone-700">
+              We don&rsquo;t accept paid placements from hotels, operators or
+              brands in our travel guides. Our trip-planning service is a separate
+              part of the business: guides link to it where it&rsquo;s useful, but
+              what a guide recommends isn&rsquo;t changed to sell a trip. If you
+              only want the guides, they&rsquo;re free to read.
+            </p>
           </div>
         </section>
 
         {/* ── Timeline ── */}
-        <section className="bg-stone-950 py-24">
-          <div className="max-w-3xl mx-auto px-6 sm:px-10">
-            <div className="text-center mb-14">
-              <h2
-                className="text-3xl font-bold text-white"
-                style={{ fontFamily: "var(--font-playfair)" }}
-              >
-                Our Journey
-              </h2>
-            </div>
-            <div className="relative">
-              <div className="absolute left-[88px] top-0 bottom-0 w-px bg-stone-800" />
-              <div className="space-y-8">
-                {milestones.map((m, i) => (
-                  <div key={m.year} className="flex items-start gap-8">
-                    <div className="w-16 text-right flex-shrink-0">
-                      <span
-                        className="text-forest-400 font-bold text-sm"
-                        style={{ fontFamily: "var(--font-dm-sans)" }}
-                      >
-                        {m.year}
-                      </span>
-                    </div>
-                    <div className="relative flex-shrink-0 mt-1">
-                      <div
-                        className={`w-4 h-4 rounded-full border-2 ${i === milestones.length - 1 ? "bg-forest-500 border-forest-400 shadow-lg shadow-forest-900/50" : "bg-stone-800 border-stone-700"}`}
-                      />
-                    </div>
-                    <p
-                      className="text-stone-400 text-sm leading-relaxed pt-0.5"
-                      style={{ fontFamily: "var(--font-dm-sans)" }}
-                    >
-                      {m.event}
-                    </p>
-                  </div>
-                ))}
-              </div>
-            </div>
+        <section className="bg-stone-950 py-20">
+          <div className="container-site max-w-3xl">
+            <h2 className="font-display text-3xl font-bold text-white">Our journey so far</h2>
+            <ol className="mt-10 space-y-6 border-l border-stone-800 pl-6">
+              {milestones.map((m) => (
+                <li key={m.year}>
+                  <span className="font-sans text-sm font-semibold text-saffron-400">{m.year}</span>
+                  <p className="mt-1 font-sans text-stone-300">{m.event}</p>
+                </li>
+              ))}
+            </ol>
           </div>
         </section>
 
-        {/* ── Brand FAQ ── */}
-        <section className="bg-white py-24">
-          <div className="max-w-3xl mx-auto px-6 sm:px-10">
-            <div className="text-center mb-12">
-              <div className="flex items-center justify-center gap-3 mb-3">
-                <div className="h-px w-8 bg-forest-500" />
-                <span
-                  className="text-forest-600 text-xs font-bold uppercase tracking-[0.2em]"
-                  style={{ fontFamily: "var(--font-dm-sans)" }}
-                >
-                  Good to know
-                </span>
-                <div className="h-px w-8 bg-forest-500" />
-              </div>
-              <h2
-                className="text-3xl font-bold text-stone-900"
-                style={{ fontFamily: "var(--font-playfair)" }}
-              >
-                About the Name
-              </h2>
-            </div>
-            <div className="space-y-6">
+        {/* ── FAQ ── */}
+        <section className="bg-white py-20">
+          <div className="container-site max-w-3xl">
+            <h2 className="heading-lg">About the name, and other questions</h2>
+            <div className="mt-8 divide-y divide-stone-200 border-y border-stone-200">
               {brandFaqs.map((f) => (
-                <div
-                  key={f.q}
-                  className="bg-stone-50 border border-stone-200 rounded-2xl p-6"
-                >
-                  <h3
-                    className="font-bold text-stone-900 mb-2"
-                    style={{ fontFamily: "var(--font-playfair)" }}
-                  >
-                    {f.q}
-                  </h3>
-                  <p
-                    className="text-sm text-stone-500 leading-relaxed"
-                    style={{ fontFamily: "var(--font-dm-sans)" }}
-                  >
-                    {f.a}
-                  </p>
+                <div key={f.q} className="py-5">
+                  <h3 className="font-display text-lg font-semibold text-stone-950">{f.q}</h3>
+                  <p className="mt-2 font-sans text-[15px] leading-relaxed text-stone-600">{f.a}</p>
                 </div>
               ))}
             </div>
@@ -430,35 +331,12 @@ export default function AboutPage() {
 
         {/* ── CTA ── */}
         <section className="bg-stone-50 py-20">
-          <div className="max-w-2xl mx-auto px-6 text-center">
-            <h2
-              className="text-3xl font-bold text-stone-900 mb-4"
-              style={{ fontFamily: "var(--font-playfair)" }}
-            >
-              Come explore with us.
-            </h2>
-            <p
-              className="text-stone-500 mb-8 text-sm leading-relaxed"
-              style={{ fontFamily: "var(--font-dm-sans)" }}
-            >
-              Whether you want us to plan your trip, join the newsletter, or
-              just say hello — we're glad you're here.
-            </p>
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-              <Link
-                href="/plan-your-trip"
-                className="px-7 py-3.5 gradient-forest text-white font-semibold rounded-full text-sm hover:opacity-90 transition-opacity shadow-md"
-                style={{ fontFamily: "var(--font-dm-sans)" }}
-              >
-                Plan My Trip →
-              </Link>
-              <Link
-                href="/contact"
-                className="px-7 py-3.5 border border-stone-300 text-stone-700 font-semibold rounded-full text-sm hover:border-forest-400 hover:text-forest-700 transition-colors"
-                style={{ fontFamily: "var(--font-dm-sans)" }}
-              >
-                Get in Touch
-              </Link>
+          <div className="container-site max-w-2xl text-center">
+            <h2 className="heading-lg">Let&rsquo;s plan your next India trip.</h2>
+            <p className="lede mt-4">Tell us where you want to go. We&rsquo;ll take it from there.</p>
+            <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
+              <Link href="/plan-your-trip?from=/about" className="btn-primary px-8">Plan My Trip →</Link>
+              <Link href="/contact" className="btn-outline px-8">Contact us</Link>
             </div>
           </div>
         </section>

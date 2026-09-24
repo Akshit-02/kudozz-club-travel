@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -88,10 +89,10 @@ const tableOfContents = [
 const PATNA_GEAR: GearSection[] = [{
   title: "Things Worth Carrying", subtitle: "Gear for city sightseeing and the gurdwara visit", emoji: "🏙️",
   items: [
-    { name: "Modest Clothing", description: "Expected at Patna Sahib Gurdwara — covered head (a scarf/cloth) is typically required inside.", price: "₹399", rating: 4.4, reviews: "4.0k", image: "🧣", affiliateUrl: amazonSearchUrl("cotton+scarf+travel"), tag: "Gurdwara essential", tagColor: "bg-purple-100 text-purple-700", why: "Sikh gurdwaras require head covering — carry your own scarf rather than relying on one being provided." },
-    { name: "Comfortable Walking Shoes", description: "For Golghar's spiral staircase and general city sightseeing.", price: "₹1,999", rating: 4.4, reviews: "5.3k", image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "City essential", tagColor: "bg-amber-100 text-amber-700", why: "Golghar's viewing platform is reached via a full spiral climb." },
-    { name: "Camera", description: "For the Ganges riverfront views from Golghar and the city's colonial-era architecture.", price: "₹—", rating: 4.5, reviews: "—", image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-sky-100 text-sky-700", why: "Golghar's rooftop view over the Ganges is one of Patna's best photo opportunities." },
-    { name: "Reusable Water Bottle", description: "For a full day moving between Golghar, Patna Sahib, the museum, and Kumhrar.", price: "₹449", rating: 4.5, reviews: "6.2k", image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "All-day essential", tagColor: "bg-forest-100 text-forest-700", why: "Patna's main sights are spread across the city, adding up to real walking distance." },
+    { name: "Modest Clothing", description: "Expected at Patna Sahib Gurdwara — covered head (a scarf/cloth) is typically required inside.", price: "₹399",  image: "🧣", affiliateUrl: amazonSearchUrl("cotton+scarf+travel"), tag: "Gurdwara essential", tagColor: "bg-purple-100 text-purple-700", why: "Sikh gurdwaras require head covering — carry your own scarf rather than relying on one being provided." },
+    { name: "Comfortable Walking Shoes", description: "For Golghar's spiral staircase and general city sightseeing.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "City essential", tagColor: "bg-amber-100 text-amber-700", why: "Golghar's viewing platform is reached via a full spiral climb." },
+    { name: "Camera", description: "For the Ganges riverfront views from Golghar and the city's colonial-era architecture.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-sky-100 text-sky-700", why: "Golghar's rooftop view over the Ganges is one of Patna's best photo opportunities." },
+    { name: "Reusable Water Bottle", description: "For a full day moving between Golghar, Patna Sahib, the museum, and Kumhrar.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "All-day essential", tagColor: "bg-forest-100 text-forest-700", why: "Patna's main sights are spread across the city, adding up to real walking distance." },
   ],
 }];
 
@@ -171,6 +172,8 @@ export default function PatnaGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="patna-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Patna</h2>

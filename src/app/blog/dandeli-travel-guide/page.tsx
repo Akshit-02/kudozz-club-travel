@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -109,10 +110,10 @@ const DANDELI_GEAR: GearSection[] = [
     subtitle: "Gear for rafting, kayaking, and forest wildlife walks",
     emoji: "🚣",
     items: [
-      { name: "Quick-Dry Clothing", description: "Rafting and kayaking mean you'll be wet for extended stretches — quick-dry fabrics are far more comfortable than cotton.", price: "₹799", rating: 4.4, reviews: "4.5k", image: "👕", affiliateUrl: amazonSearchUrl("quick+dry+clothing+outdoor"), tag: "Rafting essential", tagColor: "bg-sky-100 text-sky-700", why: "Staying in wet cotton for hours is a common, avoidable discomfort on rafting trips." },
-      { name: "Water Shoes / Grip Sandals", description: "For getting in and out of rafts and kayaks over slippery riverbank rocks.", price: "₹899", rating: 4.4, reviews: "5.1k", image: "🥾", affiliateUrl: amazonSearchUrl("water+shoes+grip+outdoor"), tag: "Rafting essential", tagColor: "bg-amber-100 text-amber-700", why: "Riverbank entry and exit points are often rocky and slick." },
-      { name: "Waterproof Dry Bag", description: "For keeping phones, wallets, and dry clothes safe during rafting and kayaking sessions.", price: "₹599", rating: 4.4, reviews: "3.8k", image: "🎒", affiliateUrl: amazonSearchUrl("waterproof+dry+bag+rafting"), tag: "Non-negotiable", tagColor: "bg-red-100 text-red-700", why: "A soaked phone or wallet is the most common regret from a rafting day without one." },
-      { name: "Reef-Safe Sunscreen", description: "Extended time on the open river brings real sun exposure, especially reflected off the water.", price: "₹599", rating: 4.5, reviews: "7.4k", image: "🧴", affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+SPF+50"), tag: "River essential", tagColor: "bg-forest-100 text-forest-700", why: "Sun reflected off moving water burns faster than most travelers expect." },
+      { name: "Quick-Dry Clothing", description: "Rafting and kayaking mean you'll be wet for extended stretches — quick-dry fabrics are far more comfortable than cotton.", price: "₹799",  image: "👕", affiliateUrl: amazonSearchUrl("quick+dry+clothing+outdoor"), tag: "Rafting essential", tagColor: "bg-sky-100 text-sky-700", why: "Staying in wet cotton for hours is a common, avoidable discomfort on rafting trips." },
+      { name: "Water Shoes / Grip Sandals", description: "For getting in and out of rafts and kayaks over slippery riverbank rocks.", price: "₹899",  image: "🥾", affiliateUrl: amazonSearchUrl("water+shoes+grip+outdoor"), tag: "Rafting essential", tagColor: "bg-amber-100 text-amber-700", why: "Riverbank entry and exit points are often rocky and slick." },
+      { name: "Waterproof Dry Bag", description: "For keeping phones, wallets, and dry clothes safe during rafting and kayaking sessions.", price: "₹599",  image: "🎒", affiliateUrl: amazonSearchUrl("waterproof+dry+bag+rafting"), tag: "Non-negotiable", tagColor: "bg-red-100 text-red-700", why: "A soaked phone or wallet is the most common regret from a rafting day without one." },
+      { name: "Reef-Safe Sunscreen", description: "Extended time on the open river brings real sun exposure, especially reflected off the water.", price: "₹599",  image: "🧴", affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+SPF+50"), tag: "River essential", tagColor: "bg-forest-100 text-forest-700", why: "Sun reflected off moving water burns faster than most travelers expect." },
     ],
   },
 ];
@@ -199,6 +200,8 @@ export default function DandeliGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="dandeli-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Dandeli</h2>

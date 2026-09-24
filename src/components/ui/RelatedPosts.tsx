@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { posts, featuredPost } from "@/lib/blog-posts";
-import { getPackageLinkForSlug } from "@/lib/blog-package-link";
+import { getGuideContext } from "@/lib/guide-context";
 
 type Post = {
   slug: string;
@@ -55,32 +55,28 @@ function getRelatedPosts(currentSlug: string, count: number): Post[] {
 export function RelatedSidebar({ currentSlug }: { currentSlug: string }) {
   const related = getRelatedPosts(currentSlug, 3);
   const current = ALL_POSTS.find((p) => p.slug === currentSlug);
-  const packageLink = getPackageLinkForSlug(currentSlug);
+  const ctx = getGuideContext(currentSlug);
 
   return (
     <aside className="w-full space-y-6">
       {/* Plan a Trip CTA */}
-      {packageLink && (
-        <div className="bg-gradient-to-br from-forest-900 to-stone-900 border border-forest-700/40 rounded-2xl p-5">
-          <h3
-            className="font-bold text-white text-base mb-1.5"
-            style={{ fontFamily: "var(--font-playfair)" }}
-          >
-            Planning a trip here?
-          </h3>
-          <p
-            className="text-stone-300 text-xs leading-relaxed mb-4"
-            style={{ fontFamily: "var(--font-dm-sans)" }}
-          >
-            Let Kudozz Club help you build a custom {packageLink.stateName}{" "}
-            itinerary — planned in-house, pricing on request.
+      {ctx && (
+        <div className="rounded-2xl bg-stone-950 p-5">
+          <p className="font-display text-lg font-bold text-white">
+            Planning a trip to {ctx.place}?
           </p>
+          <p className="mt-1.5 mb-4 font-sans text-xs leading-relaxed text-stone-300">
+            Kudozz Club plans customized {ctx.stateName} trips in-house, around
+            your dates and budget.
+          </p>
+          <Link href={ctx.planHref} className="btn-primary w-full">
+            Plan My Trip →
+          </Link>
           <Link
-            href={`/packages/${packageLink.packageSlug}`}
-            className="block w-full py-2.5 text-center text-sm font-semibold gradient-forest text-white rounded-xl hover:opacity-90 transition-opacity"
-            style={{ fontFamily: "var(--font-dm-sans)" }}
+            href={`/packages/${ctx.packageSlug}`}
+            className="mt-3 block text-center font-sans text-xs font-semibold text-stone-300 hover:text-white"
           >
-            Plan a {packageLink.stateName} Trip →
+            See {ctx.stateName} tour packages
           </Link>
         </div>
       )}
@@ -217,35 +213,66 @@ export function RelatedSidebar({ currentSlug }: { currentSlug: string }) {
 // ── Bottom Related Grid ───────────────────────────────────────────────────────
 export function RelatedPostsGrid({ currentSlug }: { currentSlug: string }) {
   const related = getRelatedPosts(currentSlug, 4);
-  const packageLink = getPackageLinkForSlug(currentSlug);
+  const ctx = getGuideContext(currentSlug);
 
   return (
     <section className="mt-16 pt-12 border-t border-stone-200">
-      {/* Plan a Trip CTA — visible on mobile, where the sticky sidebar CTA is hidden */}
-      {packageLink && (
-        <div className="mb-12 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 bg-gradient-to-br from-forest-900 to-stone-900 rounded-2xl p-6">
-          <div>
-            <h3
-              className="font-bold text-white text-lg mb-1"
-              style={{ fontFamily: "var(--font-playfair)" }}
+      {/* End-of-guide CTA: visible at every breakpoint (the sidebar is desktop-only). */}
+      {ctx && (
+        <div className="mb-14 rounded-3xl bg-stone-950 p-7 sm:p-9">
+          <h2 className="font-display text-2xl font-bold text-white sm:text-3xl">
+            Want us to plan this trip for you?
+          </h2>
+          <p className="mt-3 max-w-xl font-sans text-sm leading-relaxed text-stone-300 sm:text-base">
+            Tell Kudozz Club where you want to go and what kind of trip
+            you&rsquo;re looking for. We&rsquo;ll build a{" "}
+            {ctx.place === ctx.stateName ? ctx.place : `${ctx.place} and ${ctx.stateName}`}{" "}
+            itinerary around your dates and budget.
+          </p>
+          <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:items-center">
+            <Link href={ctx.planHref} className="btn-primary px-7">
+              Get a Custom Itinerary →
+            </Link>
+            <Link
+              href={`/packages/${ctx.packageSlug}`}
+              className="font-sans text-sm font-semibold text-stone-200 underline decoration-stone-500 underline-offset-4 hover:text-white"
             >
-              Planning a trip to {packageLink.stateName}?
-            </h3>
-            <p
-              className="text-stone-300 text-sm"
-              style={{ fontFamily: "var(--font-dm-sans)" }}
-            >
-              Let Kudozz Club help you build the itinerary — planned in-house, pricing on request.
-            </p>
+              Explore {ctx.stateName} tour packages
+            </Link>
           </div>
-          <Link
-            href={`/packages/${packageLink.packageSlug}`}
-            className="flex-shrink-0 px-6 py-3 text-center text-sm font-semibold gradient-forest text-white rounded-xl hover:opacity-90 transition-opacity whitespace-nowrap"
-            style={{ fontFamily: "var(--font-dm-sans)" }}
-          >
-            Plan a {packageLink.stateName} Trip →
-          </Link>
         </div>
+      )}
+
+      {/* Geographic links: up to the state hub, across to sibling guides. */}
+      {ctx && (ctx.hubSlug || ctx.siblings.length > 0) && (
+        <nav aria-label={`More ${ctx.stateName} guides`} className="mb-12 rounded-2xl border border-stone-200 bg-white p-6">
+          <h2 className="font-display text-xl font-bold text-stone-950">
+            More places in {ctx.stateName}
+          </h2>
+          {ctx.hubSlug && (
+            <p className="mt-2 font-sans text-sm text-stone-600">
+              Planning the wider trip? See our{" "}
+              <Link href={`/blog/${ctx.hubSlug}`} className="font-semibold text-forest-700 underline underline-offset-4">
+                complete {ctx.stateName} travel guide
+              </Link>
+              .
+            </p>
+          )}
+          {ctx.siblings.length > 0 && (
+            <ul className="mt-4 flex flex-wrap gap-2 font-sans text-sm">
+              {ctx.siblings.map((s) => (
+                <li key={s.slug}>
+                  <Link
+                    href={`/blog/${s.slug}`}
+                    className="inline-block rounded-full bg-stone-50 px-3.5 py-1.5 text-stone-700 ring-1 ring-stone-200 hover:text-forest-700 hover:ring-forest-300"
+                  >
+                    {s.place} travel guide
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          )}
+        </nav>
       )}
 
       <div className="flex items-center justify-between mb-8">

@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -107,10 +108,10 @@ const DUDHSAGAR_GEAR: GearSection[] = [
     subtitle: "Gear for the jeep safari and waterfall base pools",
     emoji: "💦",
     items: [
-      { name: "Quick-Dry Clothing", description: "The jeep safari and any swimming at the base pools will get you wet — quick-dry fabrics are far more comfortable than cotton.", price: "₹799", rating: 4.4, reviews: "4.6k", image: "👕", affiliateUrl: amazonSearchUrl("quick+dry+travel+clothing"), tag: "Waterfall essential", tagColor: "bg-sky-100 text-sky-700", why: "A soaked cotton outfit for the bumpy jeep ride back is a common regret among first-time visitors." },
-      { name: "Water Shoes / Grip Sandals", description: "For the wet, rocky terrain around the base pools and the jeep-safari embarkation point.", price: "₹899", rating: 4.4, reviews: "5.1k", image: "🥾", affiliateUrl: amazonSearchUrl("water+shoes+grip+sandals"), tag: "Non-negotiable", tagColor: "bg-red-100 text-red-700", why: "Slippery rocks near the falls are where most minor injuries happen at Dudhsagar." },
-      { name: "Dry Bag", description: "For keeping phones, wallets, and other valuables safe during the jeep ride and any time near the water.", price: "₹599", rating: 4.4, reviews: "3.5k", image: "🎒", affiliateUrl: amazonSearchUrl("waterproof+dry+bag+small"), tag: "Waterfall essential", tagColor: "bg-purple-100 text-purple-700", why: "The jeep safari route crosses water and the base pools carry a real risk of a dropped, soaked phone." },
-      { name: "Rain Layer", description: "Useful if visiting during monsoon, when the falls are at their most dramatic but the weather is genuinely wet.", price: "₹899", rating: 4.4, reviews: "5.1k", image: "🌂", affiliateUrl: amazonSearchUrl("packable+rain+jacket+travel"), tag: "Monsoon essential", tagColor: "bg-forest-100 text-forest-700", why: "Monsoon is when Dudhsagar looks its best — and when you're most likely to need a rain layer." },
+      { name: "Quick-Dry Clothing", description: "The jeep safari and any swimming at the base pools will get you wet — quick-dry fabrics are far more comfortable than cotton.", price: "₹799",  image: "👕", affiliateUrl: amazonSearchUrl("quick+dry+travel+clothing"), tag: "Waterfall essential", tagColor: "bg-sky-100 text-sky-700", why: "A soaked cotton outfit for the bumpy jeep ride back is a common regret among first-time visitors." },
+      { name: "Water Shoes / Grip Sandals", description: "For the wet, rocky terrain around the base pools and the jeep-safari embarkation point.", price: "₹899",  image: "🥾", affiliateUrl: amazonSearchUrl("water+shoes+grip+sandals"), tag: "Non-negotiable", tagColor: "bg-red-100 text-red-700", why: "Slippery rocks near the falls are where most minor injuries happen at Dudhsagar." },
+      { name: "Dry Bag", description: "For keeping phones, wallets, and other valuables safe during the jeep ride and any time near the water.", price: "₹599",  image: "🎒", affiliateUrl: amazonSearchUrl("waterproof+dry+bag+small"), tag: "Waterfall essential", tagColor: "bg-purple-100 text-purple-700", why: "The jeep safari route crosses water and the base pools carry a real risk of a dropped, soaked phone." },
+      { name: "Rain Layer", description: "Useful if visiting during monsoon, when the falls are at their most dramatic but the weather is genuinely wet.", price: "₹899",  image: "🌂", affiliateUrl: amazonSearchUrl("packable+rain+jacket+travel"), tag: "Monsoon essential", tagColor: "bg-forest-100 text-forest-700", why: "Monsoon is when Dudhsagar looks its best — and when you're most likely to need a rain layer." },
     ],
   },
 ];
@@ -197,6 +198,8 @@ export default function DudhsagarFallsGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="dudhsagar-falls-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Dudhsagar Falls</h2>

@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -81,10 +82,10 @@ const tableOfContents = [
 const MAINPAT_GEAR: GearSection[] = [{
   title: "Things Worth Carrying", subtitle: "Gear for a cool plateau with basic infrastructure", emoji: "🏔️",
   items: [
-    { name: "Light Warm Layers", description: "Mainpat's elevated plateau setting keeps it noticeably cooler than the Chhattisgarh plains, especially mornings and evenings.", price: "₹1,499", rating: 4.4, reviews: "3.8k", image: "🧥", affiliateUrl: amazonSearchUrl("light+warm+jacket+travel"), tag: "Climate essential", tagColor: "bg-sky-100 text-sky-700", why: "First-time visitors often underestimate how much cooler Mainpat feels than the rest of the state." },
-    { name: "Comfortable Walking Shoes", description: "For exploring Tiger Point, Machali Point, and the settlement's village paths.", price: "₹1,999", rating: 4.4, reviews: "5.3k", image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-amber-100 text-amber-700", why: "Plateau viewpoints and village paths involve real walking on uneven ground." },
-    { name: "Modest Respectful Clothing", description: "For visiting the Tibetan monastery and settlement respectfully as a real community.", price: "₹599", rating: 4.4, reviews: "3.2k", image: "👕", affiliateUrl: amazonSearchUrl("modest+travel+clothing"), tag: "Monastery essential", tagColor: "bg-purple-100 text-purple-700", why: "This is a living settlement, not a staged attraction — respectful dress matters." },
-    { name: "Camera", description: "For the plateau viewpoints and the settlement's distinctive character.", price: "₹—", rating: 4.4, reviews: "—", image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-forest-100 text-forest-700", why: "Mainpat's plateau views and cultural sites are genuinely photogenic." },
+    { name: "Light Warm Layers", description: "Mainpat's elevated plateau setting keeps it noticeably cooler than the Chhattisgarh plains, especially mornings and evenings.", price: "₹1,499",  image: "🧥", affiliateUrl: amazonSearchUrl("light+warm+jacket+travel"), tag: "Climate essential", tagColor: "bg-sky-100 text-sky-700", why: "First-time visitors often underestimate how much cooler Mainpat feels than the rest of the state." },
+    { name: "Comfortable Walking Shoes", description: "For exploring Tiger Point, Machali Point, and the settlement's village paths.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-amber-100 text-amber-700", why: "Plateau viewpoints and village paths involve real walking on uneven ground." },
+    { name: "Modest Respectful Clothing", description: "For visiting the Tibetan monastery and settlement respectfully as a real community.", price: "₹599",  image: "👕", affiliateUrl: amazonSearchUrl("modest+travel+clothing"), tag: "Monastery essential", tagColor: "bg-purple-100 text-purple-700", why: "This is a living settlement, not a staged attraction — respectful dress matters." },
+    { name: "Camera", description: "For the plateau viewpoints and the settlement's distinctive character.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-forest-100 text-forest-700", why: "Mainpat's plateau views and cultural sites are genuinely photogenic." },
   ],
 }];
 
@@ -164,6 +165,8 @@ export default function MainpatGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="mainpat-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Mainpat</h2>

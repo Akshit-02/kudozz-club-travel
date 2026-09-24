@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -161,8 +162,6 @@ const KOCHI_GEAR: GearSection[] = [
         description:
           "Fort Kochi's cobbled and paved lanes reward walking over taxis — good shoes make a full day of sightseeing far more comfortable.",
         price: "₹1,999",
-        rating: 4.4,
-        reviews: "5.8k",
         image: "👟",
         affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
         tag: "City-walk essential",
@@ -174,8 +173,6 @@ const KOCHI_GEAR: GearSection[] = [
         description:
           "Kochi's coastal humidity makes breathable fabrics far more comfortable than synthetic blends, especially outside the cooler winter months.",
         price: "₹799",
-        rating: 4.3,
-        reviews: "4.1k",
         image: "👕",
         affiliateUrl: amazonSearchUrl("breathable+cotton+travel+clothing"),
         tag: "Comfort essential",
@@ -187,8 +184,6 @@ const KOCHI_GEAR: GearSection[] = [
         description:
           "Useful across seasons — for sudden showers in shoulder months and for shade during the hotter parts of the day.",
         price: "₹399",
-        rating: 4.4,
-        reviews: "6.3k",
         image: "☂️",
         affiliateUrl: amazonSearchUrl("compact+travel+umbrella"),
         tag: "Weather essential",
@@ -200,8 +195,6 @@ const KOCHI_GEAR: GearSection[] = [
         description:
           "A light scarf or shawl comes in handy for the Paradesi Synagogue and St. Francis Church, both of which expect modest dress.",
         price: "₹399",
-        rating: 4.4,
-        reviews: "3.5k",
         image: "🧣",
         affiliateUrl: amazonSearchUrl("cotton+scarf+travel+modest"),
         tag: "Heritage-site essential",
@@ -338,6 +331,8 @@ export default function KochiGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="kochi-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Kochi</h2>

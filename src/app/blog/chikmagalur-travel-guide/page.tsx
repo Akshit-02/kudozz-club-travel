@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -109,10 +110,10 @@ const CHIKMAGALUR_GEAR: GearSection[] = [
     subtitle: "Gear for coffee-estate walks, peak drives, and waterfall trails",
     emoji: "☕",
     items: [
-      { name: "Trekking Shoes", description: "Mullayanagiri's short trek and Hebbe Falls' approach both cross uneven, sometimes slippery terrain.", price: "₹3,299", rating: 4.5, reviews: "6.8k", image: "🥾", affiliateUrl: amazonSearchUrl("trekking+shoes+men+women"), tag: "Trek essential", tagColor: "bg-amber-100 text-amber-700", why: "Both signature sights require real walking on natural terrain, not paved paths." },
-      { name: "Rain Jacket / Poncho", description: "Chikmagalur's elevation brings frequent showers even outside peak monsoon.", price: "₹899", rating: 4.4, reviews: "5.1k", image: "🧥", affiliateUrl: amazonSearchUrl("packable+rain+jacket+trekking"), tag: "Weather essential", tagColor: "bg-sky-100 text-sky-700", why: "Weather shifts fast in the Western Ghats, and Hebbe Falls is at its best exactly when rain is likely." },
-      { name: "Light Warm Layer", description: "Mornings and evenings at elevation can be genuinely cool, even in a warm-climate state.", price: "₹1,299", rating: 4.4, reviews: "3.8k", image: "🧣", affiliateUrl: amazonSearchUrl("light+fleece+jacket+travel"), tag: "Comfort essential", tagColor: "bg-forest-100 text-forest-700", why: "Coffee estate mornings can be noticeably chillier than expected for South India." },
-      { name: "Reusable Water Bottle", description: "For the Mullayanagiri walk and a full day of estate touring.", price: "₹449", rating: 4.5, reviews: "6.2k", image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "All-day essential", tagColor: "bg-purple-100 text-purple-700", why: "Facilities thin out quickly once you're away from the main town." },
+      { name: "Trekking Shoes", description: "Mullayanagiri's short trek and Hebbe Falls' approach both cross uneven, sometimes slippery terrain.", price: "₹3,299",  image: "🥾", affiliateUrl: amazonSearchUrl("trekking+shoes+men+women"), tag: "Trek essential", tagColor: "bg-amber-100 text-amber-700", why: "Both signature sights require real walking on natural terrain, not paved paths." },
+      { name: "Rain Jacket / Poncho", description: "Chikmagalur's elevation brings frequent showers even outside peak monsoon.", price: "₹899",  image: "🧥", affiliateUrl: amazonSearchUrl("packable+rain+jacket+trekking"), tag: "Weather essential", tagColor: "bg-sky-100 text-sky-700", why: "Weather shifts fast in the Western Ghats, and Hebbe Falls is at its best exactly when rain is likely." },
+      { name: "Light Warm Layer", description: "Mornings and evenings at elevation can be genuinely cool, even in a warm-climate state.", price: "₹1,299",  image: "🧣", affiliateUrl: amazonSearchUrl("light+fleece+jacket+travel"), tag: "Comfort essential", tagColor: "bg-forest-100 text-forest-700", why: "Coffee estate mornings can be noticeably chillier than expected for South India." },
+      { name: "Reusable Water Bottle", description: "For the Mullayanagiri walk and a full day of estate touring.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "All-day essential", tagColor: "bg-purple-100 text-purple-700", why: "Facilities thin out quickly once you're away from the main town." },
     ],
   },
 ];
@@ -199,6 +200,8 @@ export default function ChikmagalurGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="chikmagalur-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Chikmagalur</h2>

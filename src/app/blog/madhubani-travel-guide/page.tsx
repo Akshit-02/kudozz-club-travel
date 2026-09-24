@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -107,10 +108,10 @@ const MADHUBANI_GEAR: GearSection[] = [
     subtitle: "Gear for artist-village visits and craft shopping",
     emoji: "🎨",
     items: [
-      { name: "Comfortable Walking Shoes", description: "For moving between village lanes and artist workshops on foot.", price: "₹1,999", rating: 4.4, reviews: "5.3k", image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Village-visit essential", tagColor: "bg-amber-100 text-amber-700", why: "Artist villages are best explored slowly on foot, often on unpaved lanes." },
-      { name: "Camera", description: "For documenting the intricate art and the process of watching it being made — with respectful consent from artists.", price: "₹—", rating: 4.5, reviews: "—", image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Craft-visit essential", tagColor: "bg-purple-100 text-purple-700", why: "Madhubani art's fine detail is genuinely worth capturing up close." },
-      { name: "Padded Art Carry Tube/Folder", description: "For safely transporting any paintings purchased directly from artists back home.", price: "₹599", rating: 4.3, reviews: "1.8k", image: "🖼️", affiliateUrl: amazonSearchUrl("art+carry+tube+poster"), tag: "Purchase essential", tagColor: "bg-sky-100 text-sky-700", why: "Paper-based Madhubani paintings can crease or tear without proper protection in transit." },
-      { name: "Cash Pouch", description: "Most artist-village transactions are cash-based, especially for direct purchases from individual artists.", price: "₹299", rating: 4.3, reviews: "2.4k", image: "👝", affiliateUrl: amazonSearchUrl("travel+cash+pouch"), tag: "Shopping essential", tagColor: "bg-forest-100 text-forest-700", why: "Card acceptance is limited in rural artist villages." },
+      { name: "Comfortable Walking Shoes", description: "For moving between village lanes and artist workshops on foot.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Village-visit essential", tagColor: "bg-amber-100 text-amber-700", why: "Artist villages are best explored slowly on foot, often on unpaved lanes." },
+      { name: "Camera", description: "For documenting the intricate art and the process of watching it being made — with respectful consent from artists.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Craft-visit essential", tagColor: "bg-purple-100 text-purple-700", why: "Madhubani art's fine detail is genuinely worth capturing up close." },
+      { name: "Padded Art Carry Tube/Folder", description: "For safely transporting any paintings purchased directly from artists back home.", price: "₹599",  image: "🖼️", affiliateUrl: amazonSearchUrl("art+carry+tube+poster"), tag: "Purchase essential", tagColor: "bg-sky-100 text-sky-700", why: "Paper-based Madhubani paintings can crease or tear without proper protection in transit." },
+      { name: "Cash Pouch", description: "Most artist-village transactions are cash-based, especially for direct purchases from individual artists.", price: "₹299",  image: "👝", affiliateUrl: amazonSearchUrl("travel+cash+pouch"), tag: "Shopping essential", tagColor: "bg-forest-100 text-forest-700", why: "Card acceptance is limited in rural artist villages." },
     ],
   },
 ];
@@ -197,6 +198,8 @@ export default function MadhubaniGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="madhubani-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Madhubani</h2>

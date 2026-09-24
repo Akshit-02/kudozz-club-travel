@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -144,8 +145,6 @@ const SURAJKUND_GEAR: GearSection[] = [
         name: "Comfortable Walking Shoes",
         description: "Essential if visiting during the Mela — the crafts fair grounds are extensive.",
         price: "₹1,999",
-        rating: 4.4,
-        reviews: "5.3k",
         image: "👟",
         affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
         tag: "Mela essential",
@@ -156,8 +155,6 @@ const SURAJKUND_GEAR: GearSection[] = [
         name: "Cash / Payment Card",
         description: "For craft purchases at the Mela — many smaller stalls prefer cash.",
         price: "₹—",
-        rating: 4.5,
-        reviews: "—",
         image: "💳",
         affiliateUrl: amazonSearchUrl("travel+wallet+organizer"),
         tag: "Shopping essential",
@@ -168,8 +165,6 @@ const SURAJKUND_GEAR: GearSection[] = [
         name: "Sun Hat",
         description: "Useful for a day spent largely outdoors around the reservoir and Mela grounds.",
         price: "₹399",
-        rating: 4.3,
-        reviews: "3.8k",
         image: "🧢",
         affiliateUrl: amazonSearchUrl("sun+hat+travel+outdoor"),
         tag: "Weather essential",
@@ -325,6 +320,8 @@ export default function SurajkundGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="surajkund-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Surajkund</h2>

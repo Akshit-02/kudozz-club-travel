@@ -15,7 +15,7 @@ export const featuredPost = {
   slug: "leh-ladakh-road-trip-travel-guide",
   title: "Leh Ladakh Road Trip Guide: Routes, Permits, Passes & Tips",
   excerpt:
-    "Moonscapes, Buddhist monasteries, and the world's highest motorable passes — the most complete Leh Ladakh road trip guide you'll find, written after 14 days on the ground.",
+    "Moonscapes, Buddhist monasteries, and the world's highest motorable passes — a complete 14-day Leh Ladakh road trip guide covering routes, permits, passes and acclimatisation.",
   image: "/images/destinations/leh-ladakh/leh-ladakh.jpg",
   category: "Road Trip",
   categoryColor: "bg-stone-100 text-stone-700",

@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -129,11 +130,11 @@ const OMKARESHWAR_GEAR: GearSection[] = [
     subtitle: "Gear for the island temple, ghats, and riverside walks",
     emoji: "🕉️",
     items: [
-      { name: "Modest Temple Wear", description: "Covered shoulders and knees are expected at both Omkareshwar and Mamleshwar temples.", price: "₹599", rating: 4.4, reviews: "3.4k", image: "🧣", affiliateUrl: amazonSearchUrl("modest+travel+clothing+cotton"), tag: "Temple essential", tagColor: "bg-purple-100 text-purple-700", why: "Omkareshwar is an active, revered Jyotirlinga site, not a heritage-only monument." },
-      { name: "Comfortable Sandals", description: "The walk across the bridge to Mandhata island and around the ghats involves steps and stone paths best done in secure footwear.", price: "₹799", rating: 4.4, reviews: "3.7k", image: "👡", affiliateUrl: amazonSearchUrl("comfortable+sandals+travel"), tag: "Ghat essential", tagColor: "bg-amber-100 text-amber-700", why: "You'll remove footwear frequently near temples, so easy-on, easy-off sandals beat laced shoes here." },
-      { name: "Sun Protection (Hat + Sunscreen)", description: "The island and riverside paths offer little shade across a fair amount of walking.", price: "₹699", rating: 4.4, reviews: "4.2k", image: "🧴", affiliateUrl: amazonSearchUrl("travel+sunscreen+hat+combo"), tag: "Riverside essential", tagColor: "bg-orange-100 text-orange-700", why: "Much of an Omkareshwar visit happens outdoors along open riverbank and island paths." },
-      { name: "Small Bag for Shoes & Valuables", description: "Footwear comes off before entering the temple, and a dedicated bag makes crowded queues easier to manage.", price: "₹299", rating: 4.3, reviews: "3.1k", image: "👝", affiliateUrl: amazonSearchUrl("travel+shoe+bag+pouch"), tag: "Temple essential", tagColor: "bg-forest-100 text-forest-700", why: "Shoe-drop areas near the temple entrance can get crowded, especially on weekends." },
-      { name: "Reusable Water Bottle", description: "Useful for the island walk and ghat-side time, particularly outside the cooler months.", price: "₹349", rating: 4.5, reviews: "6.0k", image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "Travel essential", tagColor: "bg-sky-100 text-sky-700", why: "Shops thin out once you're across the bridge onto the island itself." },
+      { name: "Modest Temple Wear", description: "Covered shoulders and knees are expected at both Omkareshwar and Mamleshwar temples.", price: "₹599",  image: "🧣", affiliateUrl: amazonSearchUrl("modest+travel+clothing+cotton"), tag: "Temple essential", tagColor: "bg-purple-100 text-purple-700", why: "Omkareshwar is an active, revered Jyotirlinga site, not a heritage-only monument." },
+      { name: "Comfortable Sandals", description: "The walk across the bridge to Mandhata island and around the ghats involves steps and stone paths best done in secure footwear.", price: "₹799",  image: "👡", affiliateUrl: amazonSearchUrl("comfortable+sandals+travel"), tag: "Ghat essential", tagColor: "bg-amber-100 text-amber-700", why: "You'll remove footwear frequently near temples, so easy-on, easy-off sandals beat laced shoes here." },
+      { name: "Sun Protection (Hat + Sunscreen)", description: "The island and riverside paths offer little shade across a fair amount of walking.", price: "₹699",  image: "🧴", affiliateUrl: amazonSearchUrl("travel+sunscreen+hat+combo"), tag: "Riverside essential", tagColor: "bg-orange-100 text-orange-700", why: "Much of an Omkareshwar visit happens outdoors along open riverbank and island paths." },
+      { name: "Small Bag for Shoes & Valuables", description: "Footwear comes off before entering the temple, and a dedicated bag makes crowded queues easier to manage.", price: "₹299",  image: "👝", affiliateUrl: amazonSearchUrl("travel+shoe+bag+pouch"), tag: "Temple essential", tagColor: "bg-forest-100 text-forest-700", why: "Shoe-drop areas near the temple entrance can get crowded, especially on weekends." },
+      { name: "Reusable Water Bottle", description: "Useful for the island walk and ghat-side time, particularly outside the cooler months.", price: "₹349",  image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "Travel essential", tagColor: "bg-sky-100 text-sky-700", why: "Shops thin out once you're across the bridge onto the island itself." },
     ],
   },
 ];
@@ -243,6 +244,8 @@ export default function OmkareshwarGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="omkareshwar-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Omkareshwar</h2>

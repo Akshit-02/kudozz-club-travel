@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -82,10 +83,10 @@ const tableOfContents = [
 const TIRUPATI_GEAR: GearSection[] = [{
   title: "Things Worth Carrying", subtitle: "Gear for temple queues and darshan day", emoji: "🛕",
   items: [
-    { name: "Comfortable Loose Clothing", description: "Following the temple's traditional dress code while staying comfortable through long queue waits.", price: "₹799", rating: 4.4, reviews: "3.8k", image: "👕", affiliateUrl: amazonSearchUrl("modest+traditional+travel+clothing"), tag: "Temple essential", tagColor: "bg-purple-100 text-purple-700", why: "Dress code compliance is enforced at entry — loose, modest clothing avoids any last-minute issues." },
-    { name: "Comfortable Walking Shoes", description: "Darshan queues can mean hours of standing and walking through the temple complex.", price: "₹1,999", rating: 4.4, reviews: "5.3k", image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Queue essential", tagColor: "bg-amber-100 text-amber-700", why: "Long queue waits are the defining feature of a Tirumala visit — footwear comfort matters more here than almost anywhere else." },
-    { name: "Small Cross-Body Bag", description: "Many items are restricted inside the temple — a minimal bag for essentials only avoids repeated security checks.", price: "₹599", rating: 4.3, reviews: "3.1k", image: "🎒", affiliateUrl: amazonSearchUrl("small+crossbody+travel+bag"), tag: "Security-friendly", tagColor: "bg-sky-100 text-sky-700", why: "Simplifying what you carry speeds up security screening at temple checkpoints." },
-    { name: "Reusable Water Bottle", description: "Essential for the long queue waits, especially outside the cooler winter months.", price: "₹449", rating: 4.5, reviews: "6.2k", image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "Queue essential", tagColor: "bg-forest-100 text-forest-700", why: "Dehydration during multi-hour queue waits is a genuine, common complaint among pilgrims." },
+    { name: "Comfortable Loose Clothing", description: "Following the temple's traditional dress code while staying comfortable through long queue waits.", price: "₹799",  image: "👕", affiliateUrl: amazonSearchUrl("modest+traditional+travel+clothing"), tag: "Temple essential", tagColor: "bg-purple-100 text-purple-700", why: "Dress code compliance is enforced at entry — loose, modest clothing avoids any last-minute issues." },
+    { name: "Comfortable Walking Shoes", description: "Darshan queues can mean hours of standing and walking through the temple complex.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Queue essential", tagColor: "bg-amber-100 text-amber-700", why: "Long queue waits are the defining feature of a Tirumala visit — footwear comfort matters more here than almost anywhere else." },
+    { name: "Small Cross-Body Bag", description: "Many items are restricted inside the temple — a minimal bag for essentials only avoids repeated security checks.", price: "₹599",  image: "🎒", affiliateUrl: amazonSearchUrl("small+crossbody+travel+bag"), tag: "Security-friendly", tagColor: "bg-sky-100 text-sky-700", why: "Simplifying what you carry speeds up security screening at temple checkpoints." },
+    { name: "Reusable Water Bottle", description: "Essential for the long queue waits, especially outside the cooler winter months.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "Queue essential", tagColor: "bg-forest-100 text-forest-700", why: "Dehydration during multi-hour queue waits is a genuine, common complaint among pilgrims." },
   ],
 }];
 
@@ -165,6 +166,8 @@ export default function TirupatiGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="tirupati-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Tirupati</h2>

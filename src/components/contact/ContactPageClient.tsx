@@ -1,12 +1,9 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
-import SiteHeader from "@/components/layout/SiteHeader";
-import SiteFooter from "@/components/layout/SiteFooter";
 import { faqs } from "@/lib/contact-faqs";
 
 const reasons = [
-  { value: "trip-planning", label: "Trip Planning Enquiry" },
   { value: "guide-feedback", label: "Guide Feedback" },
   { value: "write-for-us", label: "Write for Us" },
   { value: "collaboration", label: "Collaboration / Partnership" },
@@ -56,39 +53,44 @@ export default function ContactPageClient() {
 
   return (
     <>
-      <SiteHeader />
       <main>
-        {/* ── Hero ── */}
-        <section className="relative bg-stone-950 pt-32 pb-20 overflow-hidden">
-          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_rgba(61,134,64,0.12)_0%,_transparent_60%)]" />
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[700px] rounded-full border border-white/[0.03] pointer-events-none" />
-
-          <div className="relative z-10 max-w-3xl mx-auto px-6 text-center">
-            <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-forest-500/15 border border-forest-500/25 rounded-full mb-6">
-              <span
-                className="text-forest-300 text-xs font-semibold uppercase tracking-widest"
-                style={{ fontFamily: "var(--font-dm-sans)" }}
-              >
-                Say Hello
-              </span>
-            </div>
-            <h1
-              className="text-5xl font-bold text-white mb-5 leading-tight"
-              style={{ fontFamily: "var(--font-playfair)" }}
-            >
-              We'd love to
-              <br />
-              <span className="text-forest-300">hear from you.</span>
+        {/* ── Hero: trip enquiries first ── */}
+        <section className="bg-stone-950 pb-16 pt-32 sm:pt-36">
+          <div className="container-site max-w-4xl">
+            <p className="eyebrow eyebrow-light">Contact Kudozz Club</p>
+            <h1 className="mt-5 font-display text-4xl font-bold leading-[1.08] text-white sm:text-6xl">
+              Let&rsquo;s Plan Your Next Trip
             </h1>
-            <p
-              className="text-white/60 text-lg leading-relaxed"
-              style={{ fontFamily: "var(--font-source-serif)" }}
-            >
-              Whether it's feedback on a guide, a collaboration idea, or just a
-              travel story you want to share — our inbox is always open.
+            <p className="mt-6 max-w-2xl font-sans text-base leading-relaxed text-stone-300 sm:text-lg">
+              Have a destination in mind? Already know your dates? Or simply know
+              that you need a break? Tell us what you&rsquo;re looking for and
+              we&rsquo;ll take it from there.
             </p>
+            <div className="mt-8 flex flex-col gap-3 sm:flex-row">
+              <Link href="/plan-your-trip?from=/contact" className="btn-primary px-8">
+                Plan My Trip →
+              </Link>
+              <a href="mailto:connect@kudozz.in" className="btn-outline-light px-8">
+                Email connect@kudozz.in
+              </a>
+            </div>
           </div>
         </section>
+
+        {/* ── Other enquiries ── */}
+        <div className="bg-stone-950 pb-6">
+          <div className="container-site max-w-6xl border-t border-stone-800 pt-12">
+            <h2 className="font-display text-2xl font-bold text-white">Not about a trip?</h2>
+            <p className="mt-2 max-w-2xl font-sans text-sm text-stone-400">
+              Use the form below for guide feedback, corrections, collaborations
+              or writing for us. Trip requests are faster through the{" "}
+              <Link href="/plan-your-trip" className="font-semibold text-saffron-300 underline underline-offset-4">
+                Plan My Trip form
+              </Link>
+              .
+            </p>
+          </div>
+        </div>
 
         {/* ── Contact Grid ── */}
         <section className="bg-stone-950 pb-24">
@@ -171,7 +173,7 @@ export default function ContactPageClient() {
                       className="text-stone-600 text-xs mt-0.5"
                       style={{ fontFamily: "var(--font-dm-sans)" }}
                     >
-                      We reply within 48 hours
+                      For anything, trip or otherwise
                     </div>
                   </div>
                 </a>
@@ -205,33 +207,6 @@ export default function ContactPageClient() {
                     </div>
                   </div>
                 </Link>
-
-                {/* Response time */}
-                <div className="p-5 bg-stone-900 border border-stone-800 rounded-2xl">
-                  <div className="flex items-center gap-2 mb-3">
-                    <span className="w-2 h-2 rounded-full bg-forest-400 animate-pulse" />
-                    <span
-                      className="text-xs text-stone-400 uppercase tracking-widest font-semibold"
-                      style={{ fontFamily: "var(--font-dm-sans)" }}
-                    >
-                      Typical response
-                    </span>
-                  </div>
-                  <div
-                    className="text-2xl font-bold text-white mb-1"
-                    style={{ fontFamily: "var(--font-playfair)" }}
-                  >
-                    Under 48hrs
-                  </div>
-                  <p
-                    className="text-stone-500 text-xs leading-relaxed"
-                    style={{ fontFamily: "var(--font-dm-sans)" }}
-                  >
-                    We're a small team, but we read every message.
-                    Collaborations & write-for-us enquiries may take a bit
-                    longer.
-                  </p>
-                </div>
 
                 {/* Write for us */}
                 <div className="p-5 bg-gradient-to-br from-forest-900/40 to-stone-900 border border-forest-800/40 rounded-2xl">
@@ -286,8 +261,7 @@ export default function ContactPageClient() {
                       className="text-stone-400 text-sm max-w-xs leading-relaxed mb-8"
                       style={{ fontFamily: "var(--font-dm-sans)" }}
                     >
-                      Thanks for reaching out. We'll get back to you within 48
-                      hours at connect@kudozz.in.
+                      Thanks for reaching out. We&rsquo;ll reply by email.
                     </p>
                     <button
                       onClick={() => setSubmitted(false)}
@@ -307,7 +281,7 @@ export default function ContactPageClient() {
                         className="text-xl font-bold text-white mb-1"
                         style={{ fontFamily: "var(--font-playfair)" }}
                       >
-                        Send us a message
+                        Other enquiries
                       </h2>
                       <p
                         className="text-stone-500 text-sm"
@@ -495,7 +469,6 @@ export default function ContactPageClient() {
           </div>
         </section>
       </main>
-      <SiteFooter />
     </>
   );
 }

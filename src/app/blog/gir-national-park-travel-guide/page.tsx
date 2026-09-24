@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -107,10 +108,10 @@ const GIR_GEAR: GearSection[] = [
     subtitle: "Gear for a serious jeep safari through lion country",
     emoji: "🦁",
     items: [
-      { name: "Neutral/Khaki Clothing", description: "Standard safari practice at Gir, reducing visual disruption in the dry deciduous forest terrain.", price: "₹1,299", rating: 4.4, reviews: "3.8k", image: "🧥", affiliateUrl: amazonSearchUrl("khaki+safari+clothing+set"), tag: "Safari essential", tagColor: "bg-amber-100 text-amber-700", why: "Bright colors stand out sharply against Gir's dry scrub and forest terrain." },
-      { name: "Binoculars", description: "For spotting lions at a distance and appreciating Gir's rich birdlife between big-cat sightings.", price: "₹1,999", rating: 4.5, reviews: "6.5k", image: "🔭", affiliateUrl: amazonSearchUrl("binoculars+wildlife+safari"), tag: "Non-negotiable", tagColor: "bg-red-100 text-red-700", why: "Gir's varied terrain means not every sighting is close-range — binoculars extend what you can actually see." },
-      { name: "Telephoto Camera / Lens", description: "For photographing lions and other wildlife at a safe, respectful distance.", price: "₹8,999+", rating: 4.4, reviews: "2.1k", image: "📷", affiliateUrl: amazonSearchUrl("telephoto+lens+wildlife+photography"), tag: "Photography essential", tagColor: "bg-purple-100 text-purple-700", why: "A proper zoom turns a distant lion sighting into a genuinely usable photo." },
-      { name: "Sun Protection", description: "Open gypsy vehicles offer little shade across a multi-hour safari.", price: "₹599", rating: 4.5, reviews: "7.4k", image: "🧴", affiliateUrl: amazonSearchUrl("sunscreen+travel+outdoor"), tag: "Safari essential", tagColor: "bg-sky-100 text-sky-700", why: "Sun exposure on an open safari vehicle is more intense than most first-timers expect." },
+      { name: "Neutral/Khaki Clothing", description: "Standard safari practice at Gir, reducing visual disruption in the dry deciduous forest terrain.", price: "₹1,299",  image: "🧥", affiliateUrl: amazonSearchUrl("khaki+safari+clothing+set"), tag: "Safari essential", tagColor: "bg-amber-100 text-amber-700", why: "Bright colors stand out sharply against Gir's dry scrub and forest terrain." },
+      { name: "Binoculars", description: "For spotting lions at a distance and appreciating Gir's rich birdlife between big-cat sightings.", price: "₹1,999",  image: "🔭", affiliateUrl: amazonSearchUrl("binoculars+wildlife+safari"), tag: "Non-negotiable", tagColor: "bg-red-100 text-red-700", why: "Gir's varied terrain means not every sighting is close-range — binoculars extend what you can actually see." },
+      { name: "Telephoto Camera / Lens", description: "For photographing lions and other wildlife at a safe, respectful distance.", price: "₹8,999+",  image: "📷", affiliateUrl: amazonSearchUrl("telephoto+lens+wildlife+photography"), tag: "Photography essential", tagColor: "bg-purple-100 text-purple-700", why: "A proper zoom turns a distant lion sighting into a genuinely usable photo." },
+      { name: "Sun Protection", description: "Open gypsy vehicles offer little shade across a multi-hour safari.", price: "₹599",  image: "🧴", affiliateUrl: amazonSearchUrl("sunscreen+travel+outdoor"), tag: "Safari essential", tagColor: "bg-sky-100 text-sky-700", why: "Sun exposure on an open safari vehicle is more intense than most first-timers expect." },
     ],
   },
 ];
@@ -197,6 +198,8 @@ export default function GirGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="gir-national-park-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Gir</h2>

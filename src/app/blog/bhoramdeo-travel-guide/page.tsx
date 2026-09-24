@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -81,10 +82,10 @@ const tableOfContents = [
 const BHORAMDEO_GEAR: GearSection[] = [{
   title: "Things Worth Carrying", subtitle: "Gear for a temple-complex visit", emoji: "🛕",
   items: [
-    { name: "Comfortable Walking Shoes", description: "For exploring the temple grounds and any nearby structures like Madwa Mahal.", price: "₹1,499", rating: 4.4, reviews: "6.8k", image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Temple-visit essential", tagColor: "bg-amber-100 text-amber-700", why: "Temple platforms and grounds involve some uneven stone surfaces." },
-    { name: "Sun Hat", description: "The temple complex has limited shade across its open courtyards.", price: "₹399", rating: 4.3, reviews: "3.9k", image: "👒", affiliateUrl: amazonSearchUrl("sun+hat+travel"), tag: "Sun essential", tagColor: "bg-orange-100 text-orange-700", why: "Midday sun across the open temple grounds can be intense." },
-    { name: "Compact Binoculars", description: "For appreciating the finer carving detail higher on the temple structure.", price: "₹899", rating: 4.3, reviews: "2.7k", image: "🔭", affiliateUrl: amazonSearchUrl("compact+binoculars+travel"), tag: "Detail essential", tagColor: "bg-purple-100 text-purple-700", why: "Much of the finest carving sits above easy eye-level viewing." },
-    { name: "Camera", description: "For capturing the temple's sculptural detail and overall architecture.", price: "₹—", rating: 4.4, reviews: "3.1k", image: "📷", affiliateUrl: amazonSearchUrl("camera+travel"), tag: "Photography essential", tagColor: "bg-forest-100 text-forest-700", why: "A quiet site with genuinely photogenic carving worth capturing." },
+    { name: "Comfortable Walking Shoes", description: "For exploring the temple grounds and any nearby structures like Madwa Mahal.", price: "₹1,499",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Temple-visit essential", tagColor: "bg-amber-100 text-amber-700", why: "Temple platforms and grounds involve some uneven stone surfaces." },
+    { name: "Sun Hat", description: "The temple complex has limited shade across its open courtyards.", price: "₹399",  image: "👒", affiliateUrl: amazonSearchUrl("sun+hat+travel"), tag: "Sun essential", tagColor: "bg-orange-100 text-orange-700", why: "Midday sun across the open temple grounds can be intense." },
+    { name: "Compact Binoculars", description: "For appreciating the finer carving detail higher on the temple structure.", price: "₹899",  image: "🔭", affiliateUrl: amazonSearchUrl("compact+binoculars+travel"), tag: "Detail essential", tagColor: "bg-purple-100 text-purple-700", why: "Much of the finest carving sits above easy eye-level viewing." },
+    { name: "Camera", description: "For capturing the temple's sculptural detail and overall architecture.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("camera+travel"), tag: "Photography essential", tagColor: "bg-forest-100 text-forest-700", why: "A quiet site with genuinely photogenic carving worth capturing." },
   ],
 }];
 
@@ -164,6 +165,8 @@ export default function BhoramdeoGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="bhoramdeo-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Bhoramdeo</h2>

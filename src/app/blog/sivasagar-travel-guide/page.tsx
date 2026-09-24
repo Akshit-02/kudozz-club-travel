@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -81,10 +82,10 @@ const tableOfContents = [
 const SIVASAGAR_GEAR: GearSection[] = [{
   title: "Things Worth Carrying", subtitle: "Gear for a day of Ahom-heritage exploring", emoji: "🏛️",
   items: [
-    { name: "Comfortable Walking Shoes", description: "For covering the Sivasagar Tank temples, Rang Ghar, and Talatal Ghar across a single day.", price: "₹1,999", rating: 4.4, reviews: "5.3k", image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-amber-100 text-amber-700", why: "The main sites are spread across town, adding up to real distance over a day." },
-    { name: "Sun Hat", description: "Many of the historical sites are outdoors with limited shade.", price: "₹399", rating: 4.3, reviews: "4.1k", image: "🧢", affiliateUrl: amazonSearchUrl("sun+hat+travel+outdoor"), tag: "Comfort essential", tagColor: "bg-sky-100 text-sky-700", why: "The tank and amphitheatre sites offer little shade during midday visits." },
-    { name: "Camera", description: "For the tank's temple reflections and Rang Ghar's genuinely unique architecture.", price: "₹—", rating: 4.5, reviews: "—", image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-forest-100 text-forest-700", why: "Sivasagar's Ahom-era architecture is genuinely photogenic and distinctive." },
-    { name: "Reusable Water Bottle", description: "For a full day of walking between spread-out heritage sites.", price: "₹449", rating: 4.5, reviews: "6.2k", image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "All-day essential", tagColor: "bg-purple-100 text-purple-700", why: "Facilities thin out between the main sites." },
+    { name: "Comfortable Walking Shoes", description: "For covering the Sivasagar Tank temples, Rang Ghar, and Talatal Ghar across a single day.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-amber-100 text-amber-700", why: "The main sites are spread across town, adding up to real distance over a day." },
+    { name: "Sun Hat", description: "Many of the historical sites are outdoors with limited shade.", price: "₹399",  image: "🧢", affiliateUrl: amazonSearchUrl("sun+hat+travel+outdoor"), tag: "Comfort essential", tagColor: "bg-sky-100 text-sky-700", why: "The tank and amphitheatre sites offer little shade during midday visits." },
+    { name: "Camera", description: "For the tank's temple reflections and Rang Ghar's genuinely unique architecture.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-forest-100 text-forest-700", why: "Sivasagar's Ahom-era architecture is genuinely photogenic and distinctive." },
+    { name: "Reusable Water Bottle", description: "For a full day of walking between spread-out heritage sites.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "All-day essential", tagColor: "bg-purple-100 text-purple-700", why: "Facilities thin out between the main sites." },
   ],
 }];
 
@@ -164,6 +165,8 @@ export default function SivasagarGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="sivasagar-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Sivasagar</h2>

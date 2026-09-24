@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -129,11 +130,11 @@ const KOLHAPUR_GEAR: GearSection[] = [
     subtitle: "Gear for temple visits, fort walks, and fiery food",
     emoji: "🛕",
     items: [
-      { name: "Modest Temple Wear", description: "Covered shoulders and knees are expected at Mahalaxmi Temple and other shrines around Kolhapur.", price: "₹599", rating: 4.4, reviews: "3.4k", image: "🧣", affiliateUrl: amazonSearchUrl("modest+travel+clothing+cotton"), tag: "Temple essential", tagColor: "bg-purple-100 text-purple-700", why: "Mahalaxmi Temple is an active, revered shrine, not a monument — dress expectations are taken seriously." },
-      { name: "Comfortable Walking Shoes", description: "Panhala Fort involves a fair bit of walking over uneven stone paths — proper shoes make the climb easier.", price: "₹1,199", rating: 4.4, reviews: "4.1k", image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+outdoor"), tag: "Fort-trip essential", tagColor: "bg-amber-100 text-amber-700", why: "Panhala's ramparts and bastions are best explored on foot over old stone — flip-flops aren't ideal here." },
-      { name: "Basic Antacid / Digestive Aid", description: "A light-hearted but genuinely useful item if you're not used to Kolhapuri spice levels, particularly tambda rassa.", price: "₹99", rating: 4.3, reviews: "5.2k", image: "💊", affiliateUrl: amazonSearchUrl("antacid+travel+pack"), tag: "Food-trip essential", tagColor: "bg-red-100 text-red-700", why: "Kolhapuri cuisine's reputation for heat is well earned — worth having something on hand if you're not used to it." },
-      { name: "Daypack", description: "Useful for carrying water, chappal purchases, and camera gear between the temple, palace, and market areas.", price: "₹899", rating: 4.4, reviews: "3.6k", image: "🎒", affiliateUrl: amazonSearchUrl("daypack+travel+lightweight"), tag: "City-day essential", tagColor: "bg-sky-100 text-sky-700", why: "A day of temple-palace-market walking is easier with a light bag than juggling shopping bags by hand." },
-      { name: "Reusable Water Bottle", description: "Kolhapur can get warm outside the winter months — useful for both the city sightseeing and the Panhala Fort day trip.", price: "₹349", rating: 4.5, reviews: "6.0k", image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "Travel essential", tagColor: "bg-forest-100 text-forest-700", why: "Fort visits and temple queues both involve standing/walking in the sun for stretches at a time." },
+      { name: "Modest Temple Wear", description: "Covered shoulders and knees are expected at Mahalaxmi Temple and other shrines around Kolhapur.", price: "₹599",  image: "🧣", affiliateUrl: amazonSearchUrl("modest+travel+clothing+cotton"), tag: "Temple essential", tagColor: "bg-purple-100 text-purple-700", why: "Mahalaxmi Temple is an active, revered shrine, not a monument — dress expectations are taken seriously." },
+      { name: "Comfortable Walking Shoes", description: "Panhala Fort involves a fair bit of walking over uneven stone paths — proper shoes make the climb easier.", price: "₹1,199",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+outdoor"), tag: "Fort-trip essential", tagColor: "bg-amber-100 text-amber-700", why: "Panhala's ramparts and bastions are best explored on foot over old stone — flip-flops aren't ideal here." },
+      { name: "Basic Antacid / Digestive Aid", description: "A light-hearted but genuinely useful item if you're not used to Kolhapuri spice levels, particularly tambda rassa.", price: "₹99",  image: "💊", affiliateUrl: amazonSearchUrl("antacid+travel+pack"), tag: "Food-trip essential", tagColor: "bg-red-100 text-red-700", why: "Kolhapuri cuisine's reputation for heat is well earned — worth having something on hand if you're not used to it." },
+      { name: "Daypack", description: "Useful for carrying water, chappal purchases, and camera gear between the temple, palace, and market areas.", price: "₹899",  image: "🎒", affiliateUrl: amazonSearchUrl("daypack+travel+lightweight"), tag: "City-day essential", tagColor: "bg-sky-100 text-sky-700", why: "A day of temple-palace-market walking is easier with a light bag than juggling shopping bags by hand." },
+      { name: "Reusable Water Bottle", description: "Kolhapur can get warm outside the winter months — useful for both the city sightseeing and the Panhala Fort day trip.", price: "₹349",  image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "Travel essential", tagColor: "bg-forest-100 text-forest-700", why: "Fort visits and temple queues both involve standing/walking in the sun for stretches at a time." },
     ],
   },
 ];
@@ -239,6 +240,8 @@ export default function KolhapurGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="kolhapur-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Kolhapur</h2>

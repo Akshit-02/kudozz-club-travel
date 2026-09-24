@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -201,8 +202,6 @@ const TAMIL_NADU_GEAR: GearSection[] = [
         description:
           "Temples across Tamil Nadu require removing footwear at the entrance, often for long stretches over hot stone — slip-on sandals are far more practical than laced shoes.",
         price: "₹899",
-        rating: 4.4,
-        reviews: "7.6k",
         image: "🩴",
         affiliateUrl: amazonSearchUrl("slip+on+sandals+travel"),
         tag: "Temple essential",
@@ -214,8 +213,6 @@ const TAMIL_NADU_GEAR: GearSection[] = [
         description:
           "Chennai, Madurai, and the coastal towns get genuinely hot most of the year, with long uncovered temple courtyards.",
         price: "₹699",
-        rating: 4.5,
-        reviews: "9.3k",
         image: "🍶",
         affiliateUrl: amazonSearchUrl("insulated+water+bottle+steel"),
         tag: "Everyday essential",
@@ -227,8 +224,6 @@ const TAMIL_NADU_GEAR: GearSection[] = [
         description:
           "Covered shoulders and knees are expected at Tamil Nadu's major temples — a lightweight, modest outfit works better than negotiating rental cloths at the entrance.",
         price: "₹799",
-        rating: 4.3,
-        reviews: "4.4k",
         image: "👗",
         affiliateUrl: amazonSearchUrl("modest+travel+clothing+lightweight"),
         tag: "Temple essential",
@@ -240,8 +235,6 @@ const TAMIL_NADU_GEAR: GearSection[] = [
         description:
           "The Nilgiri hills get genuinely cold, especially mornings and evenings — a sharp contrast to the plains' heat.",
         price: "₹1,899",
-        rating: 4.5,
-        reviews: "7.4k",
         image: "🧥",
         affiliateUrl: amazonSearchUrl("fleece+jacket+travel+trekking"),
         tag: "Hill essential",
@@ -253,8 +246,6 @@ const TAMIL_NADU_GEAR: GearSection[] = [
         description:
           "Useful for long inter-city drives and the Nilgiri Mountain Railway journey up to Ooty.",
         price: "₹1,299",
-        rating: 4.5,
-        reviews: "9.7k",
         image: "🔋",
         affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
         tag: "Travel-day essential",
@@ -266,8 +257,6 @@ const TAMIL_NADU_GEAR: GearSection[] = [
         description:
           "Useful for both temple courtyards and coastal sightseeing at Mahabalipuram and Kanyakumari.",
         price: "₹399",
-        rating: 4.3,
-        reviews: "5.6k",
         image: "👒",
         affiliateUrl: amazonSearchUrl("wide+brim+sun+hat+travel"),
         tag: "Sun essential",
@@ -501,6 +490,8 @@ export default function TamilNaduGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="tamil-nadu-travel-guide" />
 
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">

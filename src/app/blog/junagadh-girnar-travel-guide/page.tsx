@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -154,8 +155,6 @@ const GIRNAR_GEAR: GearSection[] = [
         name: "Sturdy Trekking Shoes",
         description: "Nearly 10,000 steps demand real trekking footwear, not casual sandals.",
         price: "₹3,299",
-        rating: 4.5,
-        reviews: "6.8k",
         image: "🥾",
         affiliateUrl: amazonSearchUrl("trekking+shoes+long+distance"),
         tag: "Non-negotiable",
@@ -166,8 +165,6 @@ const GIRNAR_GEAR: GearSection[] = [
         name: "Headlamp / Torch",
         description: "Many pilgrims begin the climb before dawn, and the descent can run past sunset.",
         price: "₹599",
-        rating: 4.4,
-        reviews: "4.5k",
         image: "🔦",
         affiliateUrl: amazonSearchUrl("headlamp+torch+trekking"),
         tag: "Pre-dawn essential",
@@ -178,8 +175,6 @@ const GIRNAR_GEAR: GearSection[] = [
         name: "Trekking Poles",
         description: "The long descent after nearly 10,000 steps is genuinely tough on the knees.",
         price: "₹1,299",
-        rating: 4.4,
-        reviews: "3.2k",
         image: "🥢",
         affiliateUrl: amazonSearchUrl("trekking+poles+pair"),
         tag: "Comfort essential",
@@ -190,8 +185,6 @@ const GIRNAR_GEAR: GearSection[] = [
         name: "Energy Snacks & Water",
         description: "Facilities along the climb are limited — carry enough for a full-day ascent and descent.",
         price: "₹299",
-        rating: 4.5,
-        reviews: "5.1k",
         image: "🍫",
         affiliateUrl: amazonSearchUrl("energy+bars+trekking+snacks"),
         tag: "Trek essential",
@@ -202,8 +195,6 @@ const GIRNAR_GEAR: GearSection[] = [
         name: "Layered Clothing",
         description: "Temperature and conditions shift meaningfully between the base, the ridge, and the exposed summit stretch.",
         price: "₹1,499",
-        rating: 4.3,
-        reviews: "2.9k",
         image: "🧥",
         affiliateUrl: amazonSearchUrl("layered+trekking+clothing"),
         tag: "Comfort essential",
@@ -353,6 +344,8 @@ export default function JunagadhGirnarGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="junagadh-girnar-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Girnar</h2>

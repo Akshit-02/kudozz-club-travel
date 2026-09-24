@@ -6,8 +6,6 @@ export interface GearItem {
   name: string;
   description: string;
   price: string;
-  rating: number;
-  reviews: string;
   image: string;
   affiliateUrl: string;
   tag: string;
@@ -34,8 +32,6 @@ export const HIMALAYAN_GEAR: GearSection[] = [
         description:
           "Waterproof, windproof, and breathable — exactly what you need when afternoon rain hits at 3,500m. Used by thousands of Indian trekkers every season.",
         price: "₹4,999",
-        rating: 4.6,
-        reviews: "2.1k",
         image: "🧥",
         affiliateUrl: amazonSearchUrl("waterproof+trekking+jacket"),
         tag: "Non-negotiable",
@@ -47,8 +43,6 @@ export const HIMALAYAN_GEAR: GearSection[] = [
         description:
           "Ankle support, waterproof membrane, grippy Contagrip sole. These handle everything from rocky trail sections to muddy monsoon paths without complaint.",
         price: "₹3,499",
-        rating: 4.5,
-        reviews: "4.8k",
         image: "👟",
         affiliateUrl: amazonSearchUrl("waterproof+trekking+shoes"),
         tag: "Most important",
@@ -60,8 +54,6 @@ export const HIMALAYAN_GEAR: GearSection[] = [
         description:
           "Collapsible, shock-absorbing, cork grip. The descent from Kheerganga or Rohtang on tired legs without poles is significantly harder than with them.",
         price: "₹2,799",
-        rating: 4.4,
-        reviews: "1.3k",
         image: "🏔️",
         affiliateUrl: amazonSearchUrl("trekking+poles+collapsible"),
         tag: "Knees will thank you",
@@ -73,8 +65,6 @@ export const HIMALAYAN_GEAR: GearSection[] = [
         description:
           "Filter directly from Himalayan streams. Removes 99.9999% of bacteria and protozoa. Lighter than carrying extra water, cheaper than buying bottles.",
         price: "₹1,299",
-        rating: 4.7,
-        reviews: "6.2k",
         image: "💧",
         affiliateUrl: amazonSearchUrl("lifestraw+water+filter"),
         tag: "Eco + practical",
@@ -86,8 +76,6 @@ export const HIMALAYAN_GEAR: GearSection[] = [
         description:
           "Compact, 150 lumens, 50-hour battery life at 10 lumens. Essential for pre-dawn starts, camp navigation, and the occasional unplanned dark finish.",
         price: "₹1,599",
-        rating: 4.5,
-        reviews: "890",
         image: "🔦",
         affiliateUrl: amazonSearchUrl("petzl+head+torch+trekking"),
         tag: "Pre-dawn starts",
@@ -99,8 +87,6 @@ export const HIMALAYAN_GEAR: GearSection[] = [
         description:
           "Measures blood oxygen saturation — the critical number for detecting altitude sickness before symptoms become serious. Small, cheap, potentially life-saving.",
         price: "₹799",
-        rating: 4.3,
-        reviews: "15.4k",
         image: "🩺",
         affiliateUrl: amazonSearchUrl("pulse+oximeter+trekking"),
         tag: "Safety essential",
@@ -123,8 +109,6 @@ export const BEACH_GEAR: GearSection[] = [
         description:
           "Waterproof dry bags in three sizes — keep phones, cameras, and documents dry on boat transfers, water sports, and unexpected monsoon showers.",
         price: "₹1,299",
-        rating: 4.5,
-        reviews: "3.2k",
         image: "🎒",
         affiliateUrl: amazonSearchUrl("waterproof+dry+bag+travel"),
         tag: "Waterproof essentials",
@@ -136,8 +120,6 @@ export const BEACH_GEAR: GearSection[] = [
         description:
           "Reef-safe, water-resistant for 80 minutes, broad spectrum UVA/UVB. At tropical latitudes the UV index regularly hits 11 — SPF 50 is the minimum.",
         price: "₹549",
-        rating: 4.4,
-        reviews: "8.7k",
         image: "🧴",
         affiliateUrl: amazonSearchUrl("SPF+50+sunscreen+water+resistant"),
         tag: "UV index 11",
@@ -161,8 +143,6 @@ export const FOREST_GEAR: GearSection[] = [
         description:
           "Phase-coated optics, waterproof, fog-proof. The difference between seeing a distant elephant-shaped blob and actually watching an elephant is 8x magnification.",
         price: "₹8,999",
-        rating: 4.6,
-        reviews: "1.8k",
         image: "🔭",
         affiliateUrl: amazonSearchUrl("binoculars+8x42+wildlife+safari"),
         tag: "Wildlife essential",
@@ -174,8 +154,6 @@ export const FOREST_GEAR: GearSection[] = [
         description:
           "Zip-off legs convert trousers to shorts. Omni-Shield moisture wicking. UPF 50+ sun protection. The perfect single item for forest walks, temple visits, and restaurant dinners.",
         price: "₹3,499",
-        rating: 4.4,
-        reviews: "2.1k",
         image: "👖",
         affiliateUrl: amazonSearchUrl("convertible+trekking+trousers+UPF"),
         tag: "Versatile",
@@ -187,8 +165,6 @@ export const FOREST_GEAR: GearSection[] = [
         description:
           "Treats clothing and gear — binds to fabric and remains effective for 6 weeks or 6 washings. Odourless when dry. The most effective tick and leech deterrent available.",
         price: "₹1,899",
-        rating: 4.5,
-        reviews: "920",
         image: "🦟",
         affiliateUrl: amazonSearchUrl("permethrin+clothing+insect+repellent"),
         tag: "Leeches + ticks",
@@ -212,8 +188,6 @@ export const SPIRITUAL_GEAR: GearSection[] = [
         description:
           "Slim, RFID-blocking card holder that fits in a kurta pocket. Temple towns and crowded ghats are prime pickpocket environments — don't carry your main wallet.",
         price: "₹699",
-        rating: 4.3,
-        reviews: "5.4k",
         image: "👛",
         affiliateUrl: amazonSearchUrl("RFID+travel+wallet+slim"),
         tag: "Smart precaution",
@@ -225,8 +199,6 @@ export const SPIRITUAL_GEAR: GearSection[] = [
         description:
           "Lightweight, quick-dry, multi-purpose — head covering at Gurudwaras, shoulder covering at temples, picnic blanket, and improvised bag. One item, ten uses.",
         price: "₹399",
-        rating: 4.4,
-        reviews: "3.1k",
         image: "🧣",
         affiliateUrl: amazonSearchUrl("cotton+stole+travel+multipurpose"),
         tag: "Temple dress code",
@@ -241,30 +213,6 @@ export const SPIRITUAL_GEAR: GearSection[] = [
 interface TrekGearProps {
   sections?: GearSection[];
   destination?: string;
-}
-
-// ── Star Rating component ─────────────────────────────────────────────────────
-function StarRating({ rating }: { rating: number }) {
-  return (
-    <div className="flex items-center gap-0.5">
-      {[1, 2, 3, 4, 5].map((star) => (
-        <svg
-          key={star}
-          className={`w-3 h-3 ${
-            star <= Math.floor(rating)
-              ? "text-amber-400"
-              : star - 0.5 <= rating
-                ? "text-amber-300"
-                : "text-stone-200"
-          }`}
-          fill="currentColor"
-          viewBox="0 0 20 20"
-        >
-          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-        </svg>
-      ))}
-    </div>
-  );
 }
 
 // ── Main Component ────────────────────────────────────────────────────────────
@@ -295,9 +243,8 @@ export default function TrekGearRecommendations({
           className="text-stone-500 text-sm max-w-xl leading-relaxed"
           style={{ fontFamily: "var(--font-dm-sans)" }}
         >
-          Gear we've tested or rely on recommendations from people who have.
-          Nothing here is sponsored — these are genuine picks based on what
-          actually works on the trail.
+          Practical gear for the conditions described in this guide. No
+          brand pays to be included here.
         </p>
 
         {/* Affiliate disclosure — subtle but present */}
@@ -347,7 +294,7 @@ export default function TrekGearRecommendations({
 
                 {/* Card body */}
                 <div className="px-5 pb-5 flex flex-col flex-1">
-                  {/* Name + rating */}
+                  {/* Name */}
                   <div className="mb-2">
                     <h3
                       className="font-bold text-stone-900 text-sm leading-snug mb-1.5 group-hover:text-forest-700 transition-colors"

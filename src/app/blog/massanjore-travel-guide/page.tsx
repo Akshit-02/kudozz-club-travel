@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -155,8 +156,6 @@ const MASSANJORE_GEAR: GearSection[] = [
         name: "Comfortable Footwear",
         description: "For walking around the dam area and reservoir edge, which isn't always paved.",
         price: "₹1,299",
-        rating: 4.4,
-        reviews: "4.0k",
         image: "👟",
         affiliateUrl: amazonSearchUrl("comfortable+outdoor+shoes+travel"),
         tag: "Comfort essential",
@@ -167,8 +166,6 @@ const MASSANJORE_GEAR: GearSection[] = [
         name: "Sun Hat",
         description: "Open reservoir views mean little shade during the middle of the day.",
         price: "₹399",
-        rating: 4.3,
-        reviews: "3.8k",
         image: "🧢",
         affiliateUrl: amazonSearchUrl("sun+hat+travel"),
         tag: "Comfort essential",
@@ -179,8 +176,6 @@ const MASSANJORE_GEAR: GearSection[] = [
         name: "Insect Repellent",
         description: "The sal forest and reservoir edge bring a real mosquito presence, especially at dusk.",
         price: "₹199",
-        rating: 4.3,
-        reviews: "4.2k",
         image: "🦟",
         affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"),
         tag: "Forest essential",
@@ -191,8 +186,6 @@ const MASSANJORE_GEAR: GearSection[] = [
         name: "Reusable Water Bottle",
         description: "Facilities around the dam are basic — carrying your own water is sensible.",
         price: "₹449",
-        rating: 4.5,
-        reviews: "6.2k",
         image: "💧",
         affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"),
         tag: "All-day essential",
@@ -341,6 +334,8 @@ export default function MassanjoreGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="massanjore-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Massanjore</h2>

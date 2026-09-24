@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -195,8 +196,6 @@ const CANACONA_GEAR: GearSection[] = [
         description:
           "For moving between beaches (Palolem to Patnem is an easy walk) and the forest trails at Cotigao Wildlife Sanctuary.",
         price: "₹899",
-        rating: 4.4,
-        reviews: "4.8k",
         image: "👡",
         affiliateUrl: amazonSearchUrl("walking+sandals+travel+outdoor"),
         tag: "Beach-hop essential",
@@ -208,8 +207,6 @@ const CANACONA_GEAR: GearSection[] = [
         description:
           "Useful for Cotigao Wildlife Sanctuary and the more forested, undeveloped stretches like Galgibaga.",
         price: "₹199",
-        rating: 4.3,
-        reviews: "4.2k",
         image: "🦟",
         affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"),
         tag: "Forest essential",
@@ -221,8 +218,6 @@ const CANACONA_GEAR: GearSection[] = [
         description:
           "Essential for a multi-beach day with long stretches in direct sun and minimal shade.",
         price: "₹599",
-        rating: 4.5,
-        reviews: "7.4k",
         image: "🧴",
         affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+SPF+50"),
         tag: "Beach essential",
@@ -234,8 +229,6 @@ const CANACONA_GEAR: GearSection[] = [
         description:
           "Useful for keeping valuables safe during beach transitions and any water activity.",
         price: "₹399",
-        rating: 4.3,
-        reviews: "3.6k",
         image: "🎒",
         affiliateUrl: amazonSearchUrl("waterproof+dry+bag+small"),
         tag: "Beach-hop essential",
@@ -461,6 +454,8 @@ export default function CanaconaGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="canacona-travel-guide" />
 
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">

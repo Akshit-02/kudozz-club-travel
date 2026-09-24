@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -198,8 +199,6 @@ const HARYANA_GEAR: GearSection[] = [
         description:
           "Haryana's plains get genuinely hot for most of the year — sun protection matters at Brahma Sarovar, Surajkund, and anywhere else you're outdoors.",
         price: "₹399",
-        rating: 4.5,
-        reviews: "10k",
         image: "🧴",
         affiliateUrl: amazonSearchUrl("sunscreen+spf+50+travel"),
         tag: "Everyday essential",
@@ -211,8 +210,6 @@ const HARYANA_GEAR: GearSection[] = [
         description:
           "Kurukshetra's temple circuits and the Surajkund Mela grounds both involve a fair amount of walking on stone and packed earth.",
         price: "₹1,499",
-        rating: 4.4,
-        reviews: "8.2k",
         image: "👟",
         affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
         tag: "Sightseeing essential",
@@ -224,8 +221,6 @@ const HARYANA_GEAR: GearSection[] = [
         description:
           "Useful across long highway drives and while walking the open grounds at Kurukshetra and Surajkund.",
         price: "₹699",
-        rating: 4.5,
-        reviews: "9.3k",
         image: "🍶",
         affiliateUrl: amazonSearchUrl("insulated+water+bottle+steel"),
         tag: "Everyday essential",
@@ -237,8 +232,6 @@ const HARYANA_GEAR: GearSection[] = [
         description:
           "Handy for highway road trips along NH-44 and days spent moving between Kurukshetra, Panchkula, and Faridabad.",
         price: "₹1,299",
-        rating: 4.5,
-        reviews: "9.7k",
         image: "🔋",
         affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
         tag: "Road-trip essential",
@@ -250,8 +243,6 @@ const HARYANA_GEAR: GearSection[] = [
         description:
           "Sensible for any road trip through smaller towns and highway stretches where the nearest pharmacy may be a while away.",
         price: "₹499",
-        rating: 4.3,
-        reviews: "6.1k",
         image: "🩹",
         affiliateUrl: amazonSearchUrl("compact+first+aid+kit+travel"),
         tag: "Road-trip essential",
@@ -263,8 +254,6 @@ const HARYANA_GEAR: GearSection[] = [
         description:
           "Loose, breathable cotton copes far better with Haryana's dry plains heat than synthetic fabrics, especially March through September.",
         price: "₹899",
-        rating: 4.3,
-        reviews: "5.5k",
         image: "👕",
         affiliateUrl: amazonSearchUrl("light+cotton+travel+clothing"),
         tag: "Everyday essential",
@@ -515,6 +504,8 @@ export default function HaryanaGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="haryana-travel-guide" />
 
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">

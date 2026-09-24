@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -103,10 +104,10 @@ const PUNE_GEAR: GearSection[] = [
     subtitle: "Gear for fort visits, heritage walks, and Pune's food streets",
     emoji: "🏯",
     items: [
-      { name: "Trekking Shoes", description: "The Sinhagad Fort climb involves uneven stone steps and loose gravel — proper grip matters even on the shorter, more popular routes.", price: "₹1,799", rating: 4.5, reviews: "5.9k", image: "🥾", affiliateUrl: amazonSearchUrl("trekking+shoes+fort+climb"), tag: "Fort-trek essential", tagColor: "bg-red-100 text-red-700", why: "Sinhagad's stone steps and loose gravel sections are easy to slip on in regular sneakers." },
-      { name: "Sun Cap & Sunglasses", description: "Both the heritage walk through Shaniwar Wada and the fort climb at Sinhagad offer little shade for stretches at a time.", price: "₹599", rating: 4.3, reviews: "4.2k", image: "🧢", affiliateUrl: amazonSearchUrl("sun+cap+sunglasses+travel"), tag: "Sun protection", tagColor: "bg-amber-100 text-amber-700", why: "Both the fort trail and the old-city heritage walk are largely exposed with little tree cover." },
-      { name: "Reusable Water Bottle", description: "Essential for the Sinhagad climb and long city walking days between heritage sites.", price: "₹449", rating: 4.5, reviews: "6.2k", image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "Everyday essential", tagColor: "bg-sky-100 text-sky-700", why: "Stalls thin out on the upper stretch of the Sinhagad trail — carrying your own water avoids relying on them." },
-      { name: "Compact Crossbody Bag", description: "Handy for navigating crowded areas like Dagdusheth Ganpati Temple and FC Road's busy shopping stretch.", price: "₹799", rating: 4.3, reviews: "5.1k", image: "🎒", affiliateUrl: amazonSearchUrl("compact+crossbody+travel+bag"), tag: "City essential", tagColor: "bg-purple-100 text-purple-700", why: "Pune's busiest markets and temple areas get crowded enough that a secure, close bag is worth it." },
+      { name: "Trekking Shoes", description: "The Sinhagad Fort climb involves uneven stone steps and loose gravel — proper grip matters even on the shorter, more popular routes.", price: "₹1,799",  image: "🥾", affiliateUrl: amazonSearchUrl("trekking+shoes+fort+climb"), tag: "Fort-trek essential", tagColor: "bg-red-100 text-red-700", why: "Sinhagad's stone steps and loose gravel sections are easy to slip on in regular sneakers." },
+      { name: "Sun Cap & Sunglasses", description: "Both the heritage walk through Shaniwar Wada and the fort climb at Sinhagad offer little shade for stretches at a time.", price: "₹599",  image: "🧢", affiliateUrl: amazonSearchUrl("sun+cap+sunglasses+travel"), tag: "Sun protection", tagColor: "bg-amber-100 text-amber-700", why: "Both the fort trail and the old-city heritage walk are largely exposed with little tree cover." },
+      { name: "Reusable Water Bottle", description: "Essential for the Sinhagad climb and long city walking days between heritage sites.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "Everyday essential", tagColor: "bg-sky-100 text-sky-700", why: "Stalls thin out on the upper stretch of the Sinhagad trail — carrying your own water avoids relying on them." },
+      { name: "Compact Crossbody Bag", description: "Handy for navigating crowded areas like Dagdusheth Ganpati Temple and FC Road's busy shopping stretch.", price: "₹799",  image: "🎒", affiliateUrl: amazonSearchUrl("compact+crossbody+travel+bag"), tag: "City essential", tagColor: "bg-purple-100 text-purple-700", why: "Pune's busiest markets and temple areas get crowded enough that a secure, close bag is worth it." },
     ],
   },
 ];
@@ -193,6 +194,8 @@ export default function PuneGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="pune-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Pune</h2>

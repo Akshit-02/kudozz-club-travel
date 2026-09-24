@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -107,10 +108,10 @@ const SILCHAR_GEAR: GearSection[] = [
     subtitle: "Gear for a transit-hub city and onward Northeast travel",
     emoji: "🧳",
     items: [
-      { name: "Comfortable Travel Backpack", description: "Silchar is primarily a transit point for onward Northeast India travel, so a practical, easy-to-carry bag matters.", price: "₹1,999", rating: 4.4, reviews: "5.8k", image: "🎒", affiliateUrl: amazonSearchUrl("travel+backpack+40l"), tag: "Transit essential", tagColor: "bg-amber-100 text-amber-700", why: "Given Silchar's role as a gateway city, most visitors are moving on quickly to Mizoram, Tripura, or Manipur." },
-      { name: "Power Bank", description: "Useful for long onward road journeys to neighbouring states where charging points can be sparse.", price: "₹999", rating: 4.4, reviews: "6.5k", image: "🔋", affiliateUrl: amazonSearchUrl("power+bank+10000mah+travel"), tag: "Travel essential", tagColor: "bg-sky-100 text-sky-700", why: "Onward road trips from Silchar into hill states can run long with limited charging stops." },
-      { name: "Comfortable Walking Shoes", description: "For exploring Bhuban Hill and the Kachari ruins if you have time before continuing onward.", price: "₹1,999", rating: 4.4, reviews: "5.3k", image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Sightseeing essential", tagColor: "bg-forest-100 text-forest-700", why: "Bhuban Hill involves some walking/climbing to reach the temple area." },
-      { name: "Travel Documents Pouch", description: "Given Silchar's role as a gateway to states with occasional permit or ID-check requirements.", price: "₹399", rating: 4.3, reviews: "3.2k", image: "📄", affiliateUrl: amazonSearchUrl("travel+document+organizer+pouch"), tag: "Transit essential", tagColor: "bg-purple-100 text-purple-700", why: "Keeping documents organized helps at road checkpoints common on Northeast India routes." },
+      { name: "Comfortable Travel Backpack", description: "Silchar is primarily a transit point for onward Northeast India travel, so a practical, easy-to-carry bag matters.", price: "₹1,999",  image: "🎒", affiliateUrl: amazonSearchUrl("travel+backpack+40l"), tag: "Transit essential", tagColor: "bg-amber-100 text-amber-700", why: "Given Silchar's role as a gateway city, most visitors are moving on quickly to Mizoram, Tripura, or Manipur." },
+      { name: "Power Bank", description: "Useful for long onward road journeys to neighbouring states where charging points can be sparse.", price: "₹999",  image: "🔋", affiliateUrl: amazonSearchUrl("power+bank+10000mah+travel"), tag: "Travel essential", tagColor: "bg-sky-100 text-sky-700", why: "Onward road trips from Silchar into hill states can run long with limited charging stops." },
+      { name: "Comfortable Walking Shoes", description: "For exploring Bhuban Hill and the Kachari ruins if you have time before continuing onward.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Sightseeing essential", tagColor: "bg-forest-100 text-forest-700", why: "Bhuban Hill involves some walking/climbing to reach the temple area." },
+      { name: "Travel Documents Pouch", description: "Given Silchar's role as a gateway to states with occasional permit or ID-check requirements.", price: "₹399",  image: "📄", affiliateUrl: amazonSearchUrl("travel+document+organizer+pouch"), tag: "Transit essential", tagColor: "bg-purple-100 text-purple-700", why: "Keeping documents organized helps at road checkpoints common on Northeast India routes." },
     ],
   },
 ];
@@ -197,6 +198,8 @@ export default function SilcharGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="silchar-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Silchar</h2>

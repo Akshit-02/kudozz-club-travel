@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -154,7 +155,7 @@ const NASHIK_GEAR: GearSection[] = [
       {
         name: "Comfortable Walking Shoes",
         description: "For the Godavari ghats, Panchavati's temple lanes, and walking between winery tasting rooms and vine rows.",
-        price: "₹1,499", rating: 4.4, reviews: "6.8k", image: "👟",
+        price: "₹1,499",  image: "👟",
         affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
         tag: "All-day essential", tagColor: "bg-amber-100 text-amber-700",
         why: "A full day covering both temples and vineyards involves more walking than it looks like on paper.",
@@ -162,7 +163,7 @@ const NASHIK_GEAR: GearSection[] = [
       {
         name: "Sunglasses (UV Protection)",
         description: "Vineyard tours are largely outdoors under open sky with little shade between rows.",
-        price: "₹599", rating: 4.3, reviews: "4.1k", image: "🕶️",
+        price: "₹599",  image: "🕶️",
         affiliateUrl: amazonSearchUrl("UV+protection+sunglasses"),
         tag: "Vineyard essential", tagColor: "bg-sky-100 text-sky-700",
         why: "Winery visits run through the brightest part of the day, especially in the Oct–Feb high season.",
@@ -170,7 +171,7 @@ const NASHIK_GEAR: GearSection[] = [
       {
         name: "Light Layered Jacket",
         description: "Nashik mornings, especially near the vineyards, can be noticeably cooler than the afternoon — useful for early starts to Trimbakeshwar or Sula.",
-        price: "₹1,299", rating: 4.4, reviews: "3.2k", image: "🧥",
+        price: "₹1,299",  image: "🧥",
         affiliateUrl: amazonSearchUrl("light+layered+jacket+travel"),
         tag: "Morning essential", tagColor: "bg-stone-100 text-stone-700",
         why: "Winter mornings in Nashik's vineyard belt can dip into single digits, a surprise for visitors expecting Maharashtra heat.",
@@ -178,7 +179,7 @@ const NASHIK_GEAR: GearSection[] = [
       {
         name: "Modest Cotton Wrap",
         description: "Trimbakeshwar and the Panchavati temples expect covered shoulders and knees.",
-        price: "₹399", rating: 4.4, reviews: "4.0k", image: "🧣",
+        price: "₹399",  image: "🧣",
         affiliateUrl: amazonSearchUrl("cotton+wrap+travel+modest"),
         tag: "Temple essential", tagColor: "bg-purple-100 text-purple-700",
         why: "Both are active pilgrimage sites with real dress-code expectations, unlike the vineyard side of a Nashik trip.",
@@ -186,7 +187,7 @@ const NASHIK_GEAR: GearSection[] = [
       {
         name: "Reusable Water Bottle",
         description: "For the ghats, the Panchavati walk, and long vineyard tour afternoons.",
-        price: "₹449", rating: 4.5, reviews: "6.2k", image: "💧",
+        price: "₹449",  image: "💧",
         affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"),
         tag: "All-day essential", tagColor: "bg-forest-100 text-forest-700",
         why: "Wine tastings pair better with steady hydration through the day, and temple-town food stalls don't always sell chilled water.",
@@ -324,6 +325,8 @@ export default function NashikGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="nashik-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Nashik</h2>

@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -109,10 +110,10 @@ const BETLA_GEAR: GearSection[] = [
     subtitle: "Gear for jeep safaris and the fort ruins within the forest",
     emoji: "🐘",
     items: [
-      { name: "Neutral/Khaki Clothing", description: "Standard safari practice — neutral tones are less disruptive to wildlife on the jeep safari.", price: "₹1,299", rating: 4.4, reviews: "3.8k", image: "🧥", affiliateUrl: amazonSearchUrl("khaki+safari+clothing+set"), tag: "Safari essential", tagColor: "bg-amber-100 text-amber-700", why: "Bright colors are more visible to wildlife and stand out against Betla's forest terrain." },
-      { name: "Binoculars", description: "For spotting elephants, deer, and birdlife across the park's dense sal forest.", price: "₹1,999", rating: 4.5, reviews: "6.5k", image: "🔭", affiliateUrl: amazonSearchUrl("binoculars+wildlife+safari"), tag: "Non-negotiable", tagColor: "bg-red-100 text-red-700", why: "Sal forest terrain means wildlife is often glimpsed at a distance through gaps in the trees." },
-      { name: "Comfortable Walking Shoes", description: "For exploring the Old and New Palamu Forts, which involve real walking on uneven ruined stonework.", price: "₹1,999", rating: 4.4, reviews: "5.3k", image: "🥾", affiliateUrl: amazonSearchUrl("comfortable+trekking+shoes"), tag: "Fort essential", tagColor: "bg-sky-100 text-sky-700", why: "The fort ruins have uneven, sometimes overgrown stone paths." },
-      { name: "Insect Repellent", description: "Dense sal forest brings a real mosquito presence, especially at dawn and dusk safari times.", price: "₹199", rating: 4.3, reviews: "4.2k", image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Forest essential", tagColor: "bg-forest-100 text-forest-700", why: "Jharkhand's dense sal forests and the wooded fringes of the park make mosquito presence significant." },
+      { name: "Neutral/Khaki Clothing", description: "Standard safari practice — neutral tones are less disruptive to wildlife on the jeep safari.", price: "₹1,299",  image: "🧥", affiliateUrl: amazonSearchUrl("khaki+safari+clothing+set"), tag: "Safari essential", tagColor: "bg-amber-100 text-amber-700", why: "Bright colors are more visible to wildlife and stand out against Betla's forest terrain." },
+      { name: "Binoculars", description: "For spotting elephants, deer, and birdlife across the park's dense sal forest.", price: "₹1,999",  image: "🔭", affiliateUrl: amazonSearchUrl("binoculars+wildlife+safari"), tag: "Non-negotiable", tagColor: "bg-red-100 text-red-700", why: "Sal forest terrain means wildlife is often glimpsed at a distance through gaps in the trees." },
+      { name: "Comfortable Walking Shoes", description: "For exploring the Old and New Palamu Forts, which involve real walking on uneven ruined stonework.", price: "₹1,999",  image: "🥾", affiliateUrl: amazonSearchUrl("comfortable+trekking+shoes"), tag: "Fort essential", tagColor: "bg-sky-100 text-sky-700", why: "The fort ruins have uneven, sometimes overgrown stone paths." },
+      { name: "Insect Repellent", description: "Dense sal forest brings a real mosquito presence, especially at dawn and dusk safari times.", price: "₹199",  image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Forest essential", tagColor: "bg-forest-100 text-forest-700", why: "Jharkhand's dense sal forests and the wooded fringes of the park make mosquito presence significant." },
     ],
   },
 ];
@@ -199,6 +200,8 @@ export default function BetlaGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="betla-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Betla</h2>

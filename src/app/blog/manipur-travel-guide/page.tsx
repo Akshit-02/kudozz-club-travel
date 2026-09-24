@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -198,8 +199,6 @@ const MANIPUR_GEAR: GearSection[] = [
         description:
           "Boat rides across Loktak Lake and visits to the floating phumdis mean a real chance of getting splashed or damp.",
         price: "₹899",
-        rating: 4.3,
-        reviews: "6.1k",
         image: "👕",
         affiliateUrl: amazonSearchUrl("quick+dry+travel+clothing"),
         tag: "Lake essential",
@@ -211,8 +210,6 @@ const MANIPUR_GEAR: GearSection[] = [
         description:
           "Kangla Fort's grounds and the walk around the floating islands both involve uneven, sometimes muddy terrain.",
         price: "₹1,499",
-        rating: 4.4,
-        reviews: "8.2k",
         image: "👟",
         affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
         tag: "Sightseeing essential",
@@ -224,8 +221,6 @@ const MANIPUR_GEAR: GearSection[] = [
         description:
           "Manipur's wetlands around Loktak Lake and Keibul Lamjao make mosquito presence significant, especially at dawn and dusk.",
         price: "₹199",
-        rating: 4.3,
-        reviews: "12k",
         image: "🦟",
         affiliateUrl: amazonSearchUrl("mosquito+repellent+travel"),
         tag: "Wetland essential",
@@ -237,8 +232,6 @@ const MANIPUR_GEAR: GearSection[] = [
         description:
           "Useful for day trips to Moirang and around Loktak Lake, where charging infrastructure thins out quickly.",
         price: "₹1,299",
-        rating: 4.5,
-        reviews: "9.7k",
         image: "🔋",
         affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
         tag: "Day-trip essential",
@@ -250,8 +243,6 @@ const MANIPUR_GEAR: GearSection[] = [
         description:
           "Handy across long days visiting Imphal's sights, Loktak Lake, and Moirang's war memorial.",
         price: "₹699",
-        rating: 4.5,
-        reviews: "9.3k",
         image: "🍶",
         affiliateUrl: amazonSearchUrl("insulated+water+bottle+steel"),
         tag: "Everyday essential",
@@ -263,8 +254,6 @@ const MANIPUR_GEAR: GearSection[] = [
         description:
           "Worth having given the state's modest medical infrastructure outside Imphal.",
         price: "₹599",
-        rating: 4.4,
-        reviews: "3.9k",
         image: "🩹",
         affiliateUrl: amazonSearchUrl("travel+first+aid+kit"),
         tag: "Small-town essential",
@@ -501,6 +490,8 @@ export default function ManipurGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="manipur-travel-guide" />
 
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">

@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -160,8 +161,6 @@ const ANJUNA_GEAR: GearSection[] = [
         description:
           "Anjuna's rockier coastal stretches call for footwear with better grip than flat flip-flops.",
         price: "₹699",
-        rating: 4.4,
-        reviews: "4.1k",
         image: "🩴",
         affiliateUrl: amazonSearchUrl("grip+sandals+beach+outdoor"),
         tag: "Beach essential",
@@ -172,8 +171,6 @@ const ANJUNA_GEAR: GearSection[] = [
         name: "Reef-Safe Sunscreen (SPF 50)",
         description: "Cliff-top walking and beach time both call for strong sun protection.",
         price: "₹599",
-        rating: 4.5,
-        reviews: "7.4k",
         image: "🧴",
         affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+SPF+50"),
         tag: "Beach essential",
@@ -184,8 +181,6 @@ const ANJUNA_GEAR: GearSection[] = [
         name: "Cross-Body Bag",
         description: "For carrying cash and valuables securely while browsing the flea market crowds.",
         price: "₹899",
-        rating: 4.4,
-        reviews: "3.2k",
         image: "👜",
         affiliateUrl: amazonSearchUrl("cross+body+travel+bag"),
         tag: "Market essential",
@@ -196,8 +191,6 @@ const ANJUNA_GEAR: GearSection[] = [
         name: "Waterproof Phone Pouch",
         description: "For swimming and boat trips without worrying about a dropped phone.",
         price: "₹299",
-        rating: 4.3,
-        reviews: "9.1k",
         image: "📱",
         affiliateUrl: amazonSearchUrl("waterproof+phone+pouch+beach"),
         tag: "Beach essential",
@@ -356,6 +349,8 @@ export default function AnjunaGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="anjuna-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Anjuna</h2>

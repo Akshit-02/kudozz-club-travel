@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -144,8 +145,6 @@ const PANIPAT_GEAR: GearSection[] = [
         name: "Comfortable Walking Shoes",
         description: "For covering the war memorial, Kabuli Bagh Mosque, and the old town's textile market in a single day.",
         price: "₹1,999",
-        rating: 4.4,
-        reviews: "5.3k",
         image: "👟",
         affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
         tag: "Day-trip essential",
@@ -156,8 +155,6 @@ const PANIPAT_GEAR: GearSection[] = [
         name: "Sun Hat",
         description: "North Indian plains sun is intense, especially outside the winter months.",
         price: "₹399",
-        rating: 4.3,
-        reviews: "3.8k",
         image: "🧢",
         affiliateUrl: amazonSearchUrl("sun+hat+travel+outdoor"),
         tag: "Weather essential",
@@ -168,8 +165,6 @@ const PANIPAT_GEAR: GearSection[] = [
         name: "Reusable Water Bottle",
         description: "Useful for a full day of walking between historic sites in warm weather.",
         price: "₹449",
-        rating: 4.5,
-        reviews: "6.2k",
         image: "💧",
         affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"),
         tag: "Day-trip essential",
@@ -180,8 +175,6 @@ const PANIPAT_GEAR: GearSection[] = [
         name: "Small Daypack",
         description: "For carrying water, camera, and any textile purchases from the local market.",
         price: "₹799",
-        rating: 4.4,
-        reviews: "4.1k",
         image: "🎒",
         affiliateUrl: amazonSearchUrl("small+daypack+travel"),
         tag: "Shopping essential",
@@ -341,6 +334,8 @@ export default function PanipatGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="panipat-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Panipat</h2>

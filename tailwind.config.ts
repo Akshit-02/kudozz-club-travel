@@ -27,6 +27,17 @@ const config: Config = {
           900: "#1b391d",
           950: "#0d1f0f",
         },
+        // Primary CTA colour. Used only for conversion actions (Plan My Trip,
+        // enquiry submit) so the next step is always the most visible thing.
+        saffron: {
+          50: "#fdf6ea",
+          100: "#fae9c8",
+          300: "#f4c66f",
+          400: "#f0b24a",
+          500: "#e39a24",
+          600: "#c47f12",
+          700: "#9c630f",
+        },
         amber: {
           50: "#fffbeb",
           100: "#fef3c7",

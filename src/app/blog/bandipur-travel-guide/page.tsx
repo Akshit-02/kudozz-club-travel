@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -164,8 +165,6 @@ const BANDIPUR_GEAR: GearSection[] = [
         name: "Neutral/Khaki Clothing",
         description: "Standard safari etiquette for Bandipur's jeep and canter safaris through open, dry forest.",
         price: "₹1,299",
-        rating: 4.4,
-        reviews: "3.8k",
         image: "🧥",
         affiliateUrl: amazonSearchUrl("khaki+safari+clothing+set"),
         tag: "Safari essential",
@@ -176,8 +175,6 @@ const BANDIPUR_GEAR: GearSection[] = [
         name: "Binoculars",
         description: "For spotting elephants, gaur, and deer across Bandipur's more open stretches of forest.",
         price: "₹1,999",
-        rating: 4.5,
-        reviews: "6.5k",
         image: "🔭",
         affiliateUrl: amazonSearchUrl("binoculars+wildlife+safari"),
         tag: "Non-negotiable",
@@ -188,8 +185,6 @@ const BANDIPUR_GEAR: GearSection[] = [
         name: "Dust Mask / Bandana",
         description: "Bandipur's dry-season roads can get dusty on an open jeep or canter safari.",
         price: "₹199",
-        rating: 4.2,
-        reviews: "2.9k",
         image: "🧣",
         affiliateUrl: amazonSearchUrl("bandana+dust+mask+outdoor"),
         tag: "Dry-season essential",
@@ -200,8 +195,6 @@ const BANDIPUR_GEAR: GearSection[] = [
         name: "Sun Protection (Hat & Sunscreen)",
         description: "Bandipur's open canopy sections offer little shade during daytime safaris.",
         price: "₹599",
-        rating: 4.4,
-        reviews: "5.0k",
         image: "🧴",
         affiliateUrl: amazonSearchUrl("sunscreen+SPF+50+outdoor"),
         tag: "Trek essential",
@@ -334,6 +327,8 @@ export default function BandipurGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="bandipur-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Bandipur</h2>

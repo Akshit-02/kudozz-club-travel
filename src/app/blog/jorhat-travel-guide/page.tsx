@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -81,10 +82,10 @@ const tableOfContents = [
 const JORHAT_GEAR: GearSection[] = [{
   title: "Things Worth Carrying", subtitle: "Gear for tea estates and the Majuli ferry crossing", emoji: "⛴️",
   items: [
-    { name: "Comfortable Walking Shoes", description: "For tea estate walks and general city exploring before your ferry crossing.", price: "₹1,999", rating: 4.4, reviews: "5.3k", image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-amber-100 text-amber-700", why: "Tea estate visits and a day exploring Jorhat add up in walking distance." },
-    { name: "Dry Bag / Waterproof Pouch", description: "Useful for the Nimati Ghat ferry crossing to protect valuables from river spray.", price: "₹499", rating: 4.4, reviews: "3.2k", image: "🎒", affiliateUrl: amazonSearchUrl("waterproof+dry+bag+travel"), tag: "Ferry essential", tagColor: "bg-sky-100 text-sky-700", why: "River crossings carry a real risk of splash and spray reaching your bag." },
-    { name: "Light Rain Layer", description: "Upper Assam sees frequent showers, especially in shoulder-monsoon months.", price: "₹899", rating: 4.4, reviews: "5.1k", image: "🌂", affiliateUrl: amazonSearchUrl("packable+rain+jacket+travel"), tag: "Weather essential", tagColor: "bg-forest-100 text-forest-700", why: "The humid tea-country climate means rain is a regular possibility." },
-    { name: "Cash Pouch", description: "Card acceptance drops off quickly outside city centres in this part of Assam.", price: "₹299", rating: 4.3, reviews: "2.8k", image: "💰", affiliateUrl: amazonSearchUrl("travel+money+pouch"), tag: "Practical essential", tagColor: "bg-purple-100 text-purple-700", why: "Ferry tickets and rural vendors around Nimati Ghat are typically cash-only." },
+    { name: "Comfortable Walking Shoes", description: "For tea estate walks and general city exploring before your ferry crossing.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-amber-100 text-amber-700", why: "Tea estate visits and a day exploring Jorhat add up in walking distance." },
+    { name: "Dry Bag / Waterproof Pouch", description: "Useful for the Nimati Ghat ferry crossing to protect valuables from river spray.", price: "₹499",  image: "🎒", affiliateUrl: amazonSearchUrl("waterproof+dry+bag+travel"), tag: "Ferry essential", tagColor: "bg-sky-100 text-sky-700", why: "River crossings carry a real risk of splash and spray reaching your bag." },
+    { name: "Light Rain Layer", description: "Upper Assam sees frequent showers, especially in shoulder-monsoon months.", price: "₹899",  image: "🌂", affiliateUrl: amazonSearchUrl("packable+rain+jacket+travel"), tag: "Weather essential", tagColor: "bg-forest-100 text-forest-700", why: "The humid tea-country climate means rain is a regular possibility." },
+    { name: "Cash Pouch", description: "Card acceptance drops off quickly outside city centres in this part of Assam.", price: "₹299",  image: "💰", affiliateUrl: amazonSearchUrl("travel+money+pouch"), tag: "Practical essential", tagColor: "bg-purple-100 text-purple-700", why: "Ferry tickets and rural vendors around Nimati Ghat are typically cash-only." },
   ],
 }];
 
@@ -164,6 +165,8 @@ export default function JorhatGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="jorhat-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Jorhat</h2>

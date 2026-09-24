@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   HIMALAYAN_GEAR,
 } from "@/components/ui/TrekGearRecommendations";
@@ -461,6 +462,8 @@ export default function PatnitopGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="patnitop-travel-guide" />
 
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">

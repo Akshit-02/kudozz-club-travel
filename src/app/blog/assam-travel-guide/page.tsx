@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -201,8 +202,6 @@ const ASSAM_GEAR: GearSection[] = [
         description:
           "Essential for spotting rhinos, wild elephants, and birdlife across Kaziranga's open grasslands and wetlands.",
         price: "₹1,899",
-        rating: 4.4,
-        reviews: "5.4k",
         image: "🔭",
         affiliateUrl: amazonSearchUrl("binoculars+wildlife+safari"),
         tag: "Safari essential",
@@ -214,8 +213,6 @@ const ASSAM_GEAR: GearSection[] = [
         description:
           "Assam's wetlands, tea gardens, and river islands make mosquito protection a genuine necessity, especially outside the dry winter months.",
         price: "₹249",
-        rating: 4.3,
-        reviews: "7.1k",
         image: "🦟",
         affiliateUrl: amazonSearchUrl("mosquito+repellent+travel"),
         tag: "Everyday essential",
@@ -227,8 +224,6 @@ const ASSAM_GEAR: GearSection[] = [
         description:
           "Assam sees rain outside the core monsoon months too, and river crossings to Majuli can turn damp fast.",
         price: "₹1,199",
-        rating: 4.4,
-        reviews: "6.6k",
         image: "🧥",
         affiliateUrl: amazonSearchUrl("lightweight+rain+jacket+travel"),
         tag: "Weather essential",
@@ -240,8 +235,6 @@ const ASSAM_GEAR: GearSection[] = [
         description:
           "Useful for long safari mornings, ferry crossings to Majuli, and travel between Guwahati, Kaziranga, and Jorhat.",
         price: "₹1,299",
-        rating: 4.5,
-        reviews: "9.7k",
         image: "🔋",
         affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
         tag: "Day-trip essential",
@@ -253,8 +246,6 @@ const ASSAM_GEAR: GearSection[] = [
         description:
           "Handy across long safari drives, river cruises, and Majuli's satra circuit.",
         price: "₹699",
-        rating: 4.5,
-        reviews: "9.3k",
         image: "🍶",
         affiliateUrl: amazonSearchUrl("insulated+water+bottle+steel"),
         tag: "Everyday essential",
@@ -266,8 +257,6 @@ const ASSAM_GEAR: GearSection[] = [
         description:
           "A compact kit for cuts, motion sickness on ferry crossings, and general travel mishaps in more remote areas like Majuli.",
         price: "₹499",
-        rating: 4.3,
-        reviews: "4.8k",
         image: "🩹",
         affiliateUrl: amazonSearchUrl("travel+first+aid+kit"),
         tag: "Safety essential",
@@ -513,6 +502,8 @@ export default function AssamGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="assam-travel-guide" />
 
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">

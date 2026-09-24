@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -133,11 +134,11 @@ const INDORE_GEAR: GearSection[] = [
     subtitle: "Gear for a market-hopping, food-first city trip",
     emoji: "🍛",
     items: [
-      { name: "Comfortable Walking Shoes", description: "A night at Sarafa Bazaar and a day at Chappan Dukan both mean hours on your feet weaving through stalls.", price: "₹1,199", rating: 4.4, reviews: "4.1k", image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+outdoor"), tag: "Market-day essential", tagColor: "bg-amber-100 text-amber-700", why: "Both of Indore's famous food streets are best explored slowly, on foot, over several hours." },
-      { name: "Basic Antacid / Digestive Aid", description: "A genuinely useful, light-hearted item for anyone sampling their way through Indore's street food scene in one sitting.", price: "₹99", rating: 4.3, reviews: "5.2k", image: "💊", affiliateUrl: amazonSearchUrl("antacid+travel+pack"), tag: "Food-trip essential", tagColor: "bg-red-100 text-red-700", why: "Sarafa Bazaar and Chappan Dukan both reward serious quantity — pace yourself or carry backup." },
-      { name: "Small Cash Pouch", description: "Most stalls at Sarafa Bazaar and Chappan Dukan are cash-only, and keeping small notes handy speeds up ordering.", price: "₹299", rating: 4.3, reviews: "3.8k", image: "👛", affiliateUrl: amazonSearchUrl("travel+cash+pouch+wallet"), tag: "Street-food essential", tagColor: "bg-forest-100 text-forest-700", why: "Card acceptance is patchy at street stalls even in a well-developed city like Indore." },
-      { name: "Reusable Water Bottle", description: "Useful across a day of palace-and-market walking, especially outside the cooler winter months.", price: "₹349", rating: 4.5, reviews: "6.0k", image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "Travel essential", tagColor: "bg-sky-100 text-sky-700", why: "Indore's markets involve a lot of standing and slow walking in close, warm crowds." },
-      { name: "Compact Daypack", description: "For carrying a jacket for the night market, camera gear, and any small shopping picked up along the way.", price: "₹899", rating: 4.4, reviews: "3.6k", image: "🎒", affiliateUrl: amazonSearchUrl("daypack+travel+lightweight"), tag: "City-day essential", tagColor: "bg-purple-100 text-purple-700", why: "Sarafa Bazaar runs late into the night and can get cool — a daypack keeps a layer handy without carrying it by hand." },
+      { name: "Comfortable Walking Shoes", description: "A night at Sarafa Bazaar and a day at Chappan Dukan both mean hours on your feet weaving through stalls.", price: "₹1,199",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+outdoor"), tag: "Market-day essential", tagColor: "bg-amber-100 text-amber-700", why: "Both of Indore's famous food streets are best explored slowly, on foot, over several hours." },
+      { name: "Basic Antacid / Digestive Aid", description: "A genuinely useful, light-hearted item for anyone sampling their way through Indore's street food scene in one sitting.", price: "₹99",  image: "💊", affiliateUrl: amazonSearchUrl("antacid+travel+pack"), tag: "Food-trip essential", tagColor: "bg-red-100 text-red-700", why: "Sarafa Bazaar and Chappan Dukan both reward serious quantity — pace yourself or carry backup." },
+      { name: "Small Cash Pouch", description: "Most stalls at Sarafa Bazaar and Chappan Dukan are cash-only, and keeping small notes handy speeds up ordering.", price: "₹299",  image: "👛", affiliateUrl: amazonSearchUrl("travel+cash+pouch+wallet"), tag: "Street-food essential", tagColor: "bg-forest-100 text-forest-700", why: "Card acceptance is patchy at street stalls even in a well-developed city like Indore." },
+      { name: "Reusable Water Bottle", description: "Useful across a day of palace-and-market walking, especially outside the cooler winter months.", price: "₹349",  image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "Travel essential", tagColor: "bg-sky-100 text-sky-700", why: "Indore's markets involve a lot of standing and slow walking in close, warm crowds." },
+      { name: "Compact Daypack", description: "For carrying a jacket for the night market, camera gear, and any small shopping picked up along the way.", price: "₹899",  image: "🎒", affiliateUrl: amazonSearchUrl("daypack+travel+lightweight"), tag: "City-day essential", tagColor: "bg-purple-100 text-purple-700", why: "Sarafa Bazaar runs late into the night and can get cool — a daypack keeps a layer handy without carrying it by hand." },
     ],
   },
 ];
@@ -247,6 +248,8 @@ export default function IndoreGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="indore-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Indore</h2>

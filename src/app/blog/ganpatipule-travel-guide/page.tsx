@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -127,11 +128,11 @@ const GANPATIPULE_GEAR: GearSection[] = [
     subtitle: "Gear for the temple, the beach, and the Konkan coast drive",
     emoji: "🏖️",
     items: [
-      { name: "Modest Temple Wear", description: "Covered shoulders and knees are expected at Ganpatipule Temple, even though the adjoining beach is casual.", price: "₹599", rating: 4.4, reviews: "3.2k", image: "🧣", affiliateUrl: amazonSearchUrl("modest+travel+clothing+cotton"), tag: "Temple essential", tagColor: "bg-purple-100 text-purple-700", why: "The temple sits right beside the beach, so pack a cover-up rather than relying only on beachwear." },
-      { name: "Reef-Safe Sunscreen", description: "Long stretches of open beach and coastal walking with limited shade.", price: "₹599", rating: 4.5, reviews: "6.8k", image: "🧴", affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+SPF+50"), tag: "Beach essential", tagColor: "bg-amber-100 text-amber-700", why: "The Konkan sun is strong even on overcast-looking days near the coast." },
-      { name: "Water Shoes / Flip-Flops", description: "For the beach and the short walk around the temple's circumambulation path over the adjoining hill.", price: "₹399", rating: 4.3, reviews: "4.1k", image: "🩴", affiliateUrl: amazonSearchUrl("water+shoes+beach"), tag: "Beach essential", tagColor: "bg-sky-100 text-sky-700", why: "The sand and the rocky sections around the hillside path are both easier in proper water shoes." },
-      { name: "Dry Bag", description: "Keeps phones and valuables safe during beach time and the coastal drive to Ratnagiri or Jaigad Fort.", price: "₹499", rating: 4.4, reviews: "3.0k", image: "🎒", affiliateUrl: amazonSearchUrl("waterproof+dry+bag+small"), tag: "Travel essential", tagColor: "bg-forest-100 text-forest-700", why: "A splash from an unexpected wave is common on Konkan beaches — a dry bag is cheap insurance." },
-      { name: "Reusable Water Bottle", description: "Useful for both the temple visit and the day trips to Ratnagiri and Jaigad Fort.", price: "₹349", rating: 4.5, reviews: "5.7k", image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "Travel essential", tagColor: "bg-stone-100 text-stone-700", why: "Shops thin out quickly outside the main temple-beach stretch, especially on the Jaigad drive." },
+      { name: "Modest Temple Wear", description: "Covered shoulders and knees are expected at Ganpatipule Temple, even though the adjoining beach is casual.", price: "₹599",  image: "🧣", affiliateUrl: amazonSearchUrl("modest+travel+clothing+cotton"), tag: "Temple essential", tagColor: "bg-purple-100 text-purple-700", why: "The temple sits right beside the beach, so pack a cover-up rather than relying only on beachwear." },
+      { name: "Reef-Safe Sunscreen", description: "Long stretches of open beach and coastal walking with limited shade.", price: "₹599",  image: "🧴", affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+SPF+50"), tag: "Beach essential", tagColor: "bg-amber-100 text-amber-700", why: "The Konkan sun is strong even on overcast-looking days near the coast." },
+      { name: "Water Shoes / Flip-Flops", description: "For the beach and the short walk around the temple's circumambulation path over the adjoining hill.", price: "₹399",  image: "🩴", affiliateUrl: amazonSearchUrl("water+shoes+beach"), tag: "Beach essential", tagColor: "bg-sky-100 text-sky-700", why: "The sand and the rocky sections around the hillside path are both easier in proper water shoes." },
+      { name: "Dry Bag", description: "Keeps phones and valuables safe during beach time and the coastal drive to Ratnagiri or Jaigad Fort.", price: "₹499",  image: "🎒", affiliateUrl: amazonSearchUrl("waterproof+dry+bag+small"), tag: "Travel essential", tagColor: "bg-forest-100 text-forest-700", why: "A splash from an unexpected wave is common on Konkan beaches — a dry bag is cheap insurance." },
+      { name: "Reusable Water Bottle", description: "Useful for both the temple visit and the day trips to Ratnagiri and Jaigad Fort.", price: "₹349",  image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "Travel essential", tagColor: "bg-stone-100 text-stone-700", why: "Shops thin out quickly outside the main temple-beach stretch, especially on the Jaigad drive." },
     ],
   },
 ];
@@ -234,6 +235,8 @@ export default function GanpatipuleGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="ganpatipule-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Ganpatipule</h2>

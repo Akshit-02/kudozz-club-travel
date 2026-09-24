@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -109,10 +110,10 @@ const ALAPPUZHA_GEAR: GearSection[] = [
     subtitle: "Gear for houseboat stays and canal-side exploring",
     emoji: "🛶",
     items: [
-      { name: "Insect Repellent", description: "Backwater evenings bring mosquitoes — essential for a comfortable night aboard a houseboat.", price: "₹199", rating: 4.3, reviews: "4.2k", image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Houseboat essential", tagColor: "bg-forest-100 text-forest-700", why: "Still water and paddy fields make the backwaters a mosquito-friendly environment, especially at dusk." },
-      { name: "Light, Breathable Clothing", description: "Kerala's coastal humidity is high year-round — loose cotton clothing is far more comfortable than synthetic fabrics on a houseboat.", price: "₹799", rating: 4.4, reviews: "3.5k", image: "👕", affiliateUrl: amazonSearchUrl("breathable+cotton+travel+clothing"), tag: "Comfort essential", tagColor: "bg-sky-100 text-sky-700", why: "Humidity on the backwaters can be intense, especially in the afternoon." },
-      { name: "Sun Hat & Sunglasses", description: "Houseboat decks offer little shade for hours at a stretch — sun protection matters on a slow cruise.", price: "₹499", rating: 4.4, reviews: "5.0k", image: "🧢", affiliateUrl: amazonSearchUrl("sun+hat+travel+outdoor"), tag: "Day-cruise essential", tagColor: "bg-amber-100 text-amber-700", why: "Most of a houseboat day is spent on an open deck with direct sun exposure." },
-      { name: "Waterproof Phone Pouch", description: "Useful for canal canoe tours and any boat transfers where a dropped phone is a real risk.", price: "₹299", rating: 4.3, reviews: "9.1k", image: "📱", affiliateUrl: amazonSearchUrl("waterproof+phone+pouch+travel"), tag: "Boat-ride essential", tagColor: "bg-purple-100 text-purple-700", why: "Narrow canoe tours in particular carry a real risk of a phone ending up in the water." },
+      { name: "Insect Repellent", description: "Backwater evenings bring mosquitoes — essential for a comfortable night aboard a houseboat.", price: "₹199",  image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Houseboat essential", tagColor: "bg-forest-100 text-forest-700", why: "Still water and paddy fields make the backwaters a mosquito-friendly environment, especially at dusk." },
+      { name: "Light, Breathable Clothing", description: "Kerala's coastal humidity is high year-round — loose cotton clothing is far more comfortable than synthetic fabrics on a houseboat.", price: "₹799",  image: "👕", affiliateUrl: amazonSearchUrl("breathable+cotton+travel+clothing"), tag: "Comfort essential", tagColor: "bg-sky-100 text-sky-700", why: "Humidity on the backwaters can be intense, especially in the afternoon." },
+      { name: "Sun Hat & Sunglasses", description: "Houseboat decks offer little shade for hours at a stretch — sun protection matters on a slow cruise.", price: "₹499",  image: "🧢", affiliateUrl: amazonSearchUrl("sun+hat+travel+outdoor"), tag: "Day-cruise essential", tagColor: "bg-amber-100 text-amber-700", why: "Most of a houseboat day is spent on an open deck with direct sun exposure." },
+      { name: "Waterproof Phone Pouch", description: "Useful for canal canoe tours and any boat transfers where a dropped phone is a real risk.", price: "₹299",  image: "📱", affiliateUrl: amazonSearchUrl("waterproof+phone+pouch+travel"), tag: "Boat-ride essential", tagColor: "bg-purple-100 text-purple-700", why: "Narrow canoe tours in particular carry a real risk of a phone ending up in the water." },
     ],
   },
 ];
@@ -199,6 +200,8 @@ export default function AlappuzhaGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="alappuzha-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Alappuzha</h2>

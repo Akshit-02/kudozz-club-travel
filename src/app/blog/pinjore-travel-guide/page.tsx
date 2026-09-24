@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -81,10 +82,10 @@ const tableOfContents = [
 const PINJORE_GEAR: GearSection[] = [{
   title: "Things Worth Carrying", subtitle: "Gear for a garden walk and photography stop", emoji: "⛲",
   items: [
-    { name: "Comfortable Walking Shoes", description: "The seven-terrace layout involves steady walking and shallow steps between levels.", price: "₹1,999", rating: 4.4, reviews: "5.3k", image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Sightseeing essential", tagColor: "bg-amber-100 text-amber-700", why: "The terraced layout means continuous walking across the full visit." },
-    { name: "Sun Hat", description: "Much of the garden is open with limited shade, especially in the middle terraces.", price: "₹499", rating: 4.4, reviews: "5.0k", image: "🧢", affiliateUrl: amazonSearchUrl("sun+hat+travel+outdoor"), tag: "Comfort essential", tagColor: "bg-sky-100 text-sky-700", why: "Summer visits especially benefit from sun protection." },
-    { name: "Camera", description: "The fountains, pavilions, and terraced symmetry are genuinely photogenic, especially in morning light.", price: "₹—", rating: 4.5, reviews: "—", image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Photography essential", tagColor: "bg-forest-100 text-forest-700", why: "This is one of the more photogenic Mughal garden layouts in North India." },
-    { name: "Reusable Water Bottle", description: "Useful for a comfortable walk through the full garden on a warm day.", price: "₹449", rating: 4.5, reviews: "6.2k", image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "Day-trip essential", tagColor: "bg-purple-100 text-purple-700", why: "There's limited shade across the open terraces." },
+    { name: "Comfortable Walking Shoes", description: "The seven-terrace layout involves steady walking and shallow steps between levels.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Sightseeing essential", tagColor: "bg-amber-100 text-amber-700", why: "The terraced layout means continuous walking across the full visit." },
+    { name: "Sun Hat", description: "Much of the garden is open with limited shade, especially in the middle terraces.", price: "₹499",  image: "🧢", affiliateUrl: amazonSearchUrl("sun+hat+travel+outdoor"), tag: "Comfort essential", tagColor: "bg-sky-100 text-sky-700", why: "Summer visits especially benefit from sun protection." },
+    { name: "Camera", description: "The fountains, pavilions, and terraced symmetry are genuinely photogenic, especially in morning light.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Photography essential", tagColor: "bg-forest-100 text-forest-700", why: "This is one of the more photogenic Mughal garden layouts in North India." },
+    { name: "Reusable Water Bottle", description: "Useful for a comfortable walk through the full garden on a warm day.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "Day-trip essential", tagColor: "bg-purple-100 text-purple-700", why: "There's limited shade across the open terraces." },
   ],
 }];
 
@@ -164,6 +165,8 @@ export default function PinjoreGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="pinjore-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Pinjore</h2>

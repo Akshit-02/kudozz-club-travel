@@ -1,66 +1,56 @@
 import Link from "next/link";
 import NewsletterFooterForm from "./NewsletterFooterForm";
+import { guideCountLabel, stateCount } from "@/lib/site";
 
 const footerLinks = {
-  Destinations: [
-    { label: "Manali", href: "/blog/manali-travel-guide" },
-    { label: "Spiti Valley", href: "/blog/spiti-valley-travel-guide" },
-    { label: "Leh Ladakh", href: "/blog/leh-ladakh-road-trip-travel-guide" },
-    { label: "Rishikesh", href: "/blog/rishikesh-adventure-travel-guide" },
-    { label: "Coorg", href: "/blog/coorg-travel-guide" },
-  ],
   "Tour Packages": [
-    { label: "All Packages", href: "/packages" },
+    { label: "All Tour Packages", href: "/packages" },
+    { label: "Kashmir Packages", href: "/packages/kashmir" },
     { label: "Rajasthan Packages", href: "/packages/rajasthan" },
-    { label: "Plan Your Trip", href: "/plan-your-trip" },
+    { label: "Kerala Packages", href: "/packages/kerala" },
+    { label: "Goa Packages", href: "/packages/goa" },
+    { label: "Himachal Packages", href: "/packages/himachal-pradesh" },
+    { label: "Golden Triangle", href: "/packages/golden-triangle" },
   ],
-  Resources: [
-    { label: "Travel Guides", href: "/blog" },
+  "Travel Styles": [
+    { label: "Family Holidays", href: "/packages/family-holidays" },
+    { label: "Honeymoon", href: "/packages/honeymoon" },
+    { label: "Luxury Holidays", href: "/packages/luxury-holidays" },
+    { label: "Weekend Getaways", href: "/packages/weekend-getaways" },
+    { label: "Char Dham Yatra", href: "/packages/char-dham-yatra" },
+  ],
+  Explore: [
     { label: "All Destinations", href: "/destinations" },
+    { label: "Travel Guides", href: "/blog" },
+    { label: "Rajasthan Travel Guide", href: "/blog/rajasthan-travel-guide" },
+    { label: "Kashmir Travel Guide", href: "/blog/jammu-kashmir-travel-guide" },
+    { label: "Ladakh Road Trip Guide", href: "/blog/leh-ladakh-road-trip-travel-guide" },
   ],
   Company: [
+    { label: "Plan Your Trip", href: "/plan-your-trip" },
     { label: "About Us", href: "/about" },
     { label: "Contact", href: "/contact" },
+    { label: "Newsletter", href: "/newsletter" },
     { label: "Write for Us", href: "/write-for-us" },
-    // { label: "Privacy Policy", href: "/privacy" },
+    { label: "Image Credits", href: "/image-credits" },
   ],
 };
 
 export default function SiteFooter() {
   return (
     <footer className="bg-stone-950 text-stone-400">
-      {/* ── Newsletter Banner ───────────────────────────────────────────── */}
-      <div className="relative overflow-hidden">
-        {/* Background */}
-        <div className="absolute inset-0 gradient-forest opacity-90" />
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_rgba(255,255,255,0.08)_0%,_transparent_60%)]" />
-
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-10 py-14">
-          <div className="flex flex-col lg:flex-row items-center justify-between gap-8">
-            {/* Left copy */}
-            <div className="text-center lg:text-left">
-              <span
-                className="inline-block text-white/60 text-xs font-semibold uppercase tracking-[0.2em] mb-3"
-                style={{ fontFamily: "var(--font-dm-sans)" }}
-              >
-                Kudozz Club Newsletter
-              </span>
-              <h2
-                className="text-2xl md:text-3xl font-bold text-white mb-2 leading-tight"
-                style={{ fontFamily: "var(--font-playfair)" }}
-              >
-                Never miss a travel story.
+      {/* ── Newsletter: secondary conversion for visitors not ready to enquire ── */}
+      <div className="border-b border-stone-800">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10 py-10">
+          <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-6">
+            <div>
+              <h2 className="font-display text-xl font-bold text-white">
+                Not ready to plan yet?
               </h2>
-              <p
-                className="text-white/70 text-sm max-w-sm"
-                style={{ fontFamily: "var(--font-dm-sans)" }}
-              >
-                Weekly guides, hidden gems & itineraries — straight to your
-                inbox. Free forever.
+              <p className="mt-1 font-sans text-sm text-stone-400 max-w-md">
+                Get new India travel guides and seasonal trip ideas by email.
               </p>
             </div>
-
-            {/* Right form */}
             <NewsletterFooterForm />
           </div>
         </div>
@@ -68,7 +58,7 @@ export default function SiteFooter() {
 
       {/* ── Main Footer ─────────────────────────────────────────────────── */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10 pt-16 pb-10">
-        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-10">
+        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-x-8 gap-y-10">
           {/* Brand column — spans 2 on large */}
           <div className="col-span-2 md:col-span-4 lg:col-span-2">
             {/* Logo */}
@@ -99,20 +89,21 @@ export default function SiteFooter() {
                   Kudozz Club
                 </span>
                 <span
-                  className="text-forest-500 text-[9px] uppercase tracking-[0.18em] font-semibold"
+                  className="text-forest-300 text-[9px] uppercase tracking-[0.18em] font-semibold"
                   style={{ fontFamily: "var(--font-dm-sans)" }}
                 >
-                  club.kudozz.in
+                  India Travel Agency
                 </span>
               </div>
             </Link>
 
             <p
-              className="text-stone-500 text-sm leading-relaxed mb-7 max-w-xs"
+              className="text-stone-400 text-sm leading-relaxed mb-7 max-w-xs"
               style={{ fontFamily: "var(--font-dm-sans)" }}
             >
-              Honest travel guides, curated itineraries, and stories from the
-              road — for curious explorers everywhere.
+              An India-focused travel agency planning customized trips across
+              all {stateCount} states and union territories, backed by{" "}
+              {guideCountLabel} in-depth destination guides.
             </p>
 
             {/* Email contact */}
@@ -137,7 +128,7 @@ export default function SiteFooter() {
               </div>
               <div className="flex flex-col leading-none">
                 <span
-                  className="text-[9px] text-stone-600 uppercase tracking-widest font-medium mb-0.5"
+                  className="text-[9px] text-stone-400 uppercase tracking-widest font-medium mb-0.5"
                   style={{ fontFamily: "var(--font-dm-sans)" }}
                 >
                   Get in touch
@@ -166,7 +157,7 @@ export default function SiteFooter() {
                   <li key={link.href}>
                     <Link
                       href={link.href}
-                      className="text-stone-500 hover:text-stone-200 text-sm transition-colors duration-150 hover:translate-x-0.5 inline-block"
+                      className="text-stone-400 hover:text-stone-100 text-sm transition-colors duration-150 hover:translate-x-0.5 inline-block"
                       style={{ fontFamily: "var(--font-dm-sans)" }}
                     >
                       {link.label}
@@ -188,18 +179,19 @@ export default function SiteFooter() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10 py-6">
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
           <p
-            className="text-stone-600 text-xs"
+            className="text-stone-400 text-xs"
             style={{ fontFamily: "var(--font-dm-sans)" }}
           >
             © {new Date().getFullYear()} Kudozz Club · club.kudozz.in · All
             rights reserved.
           </p>
-          <p
-            className="text-stone-500 text-sm"
+          <Link
+            href="/plan-your-trip"
+            className="text-saffron-300 hover:text-saffron-100 text-sm font-semibold"
             style={{ fontFamily: "var(--font-dm-sans)" }}
           >
-            Made with ♥ for travellers everywhere
-          </p>
+            Plan your India trip →
+          </Link>
         </div>
       </div>
     </footer>

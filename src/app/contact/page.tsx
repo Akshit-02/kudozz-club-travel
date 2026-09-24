@@ -1,11 +1,13 @@
 import type { Metadata } from "next";
+import SiteHeader from "@/components/layout/SiteHeader";
+import SiteFooter from "@/components/layout/SiteFooter";
 import ContactPageClient from "@/components/contact/ContactPageClient";
 import { faqs } from "@/lib/contact-faqs";
 
 export const metadata: Metadata = {
-  title: "Contact Us — Get in Touch",
+  title: { absolute: "Contact Kudozz Club | Plan Your Next Trip" },
   description:
-    "Reach the Kudozz Club team for trip planning, guide feedback, collaborations, corrections, or general enquiries. We reply within 48 hours.",
+    "Planning an India trip? Tell Kudozz Club where you want to go and we'll take it from there. Or email connect@kudozz.in about guides and collaborations.",
   keywords: [
     "contact Kudozz Club",
     "Kudozz Club email",
@@ -43,7 +45,9 @@ export default function ContactPage() {
   return (
     <>
       <FaqSchema />
+      <SiteHeader />
       <ContactPageClient />
+      <SiteFooter />
     </>
   );
 }

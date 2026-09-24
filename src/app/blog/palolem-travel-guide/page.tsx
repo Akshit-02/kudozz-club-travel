@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -81,10 +82,10 @@ const tableOfContents = [
 const PALOLEM_GEAR: GearSection[] = [{
   title: "Things Worth Carrying", subtitle: "Gear for the beach and boat trips", emoji: "🏖️",
   items: [
-    { name: "Reef-Safe Sunscreen (SPF 50)", description: "Extended beach time and boat trips both call for strong sun protection.", price: "₹599", rating: 4.5, reviews: "7.4k", image: "🧴", affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+SPF+50"), tag: "Beach essential", tagColor: "bg-amber-100 text-amber-700", why: "Boat trips to Butterfly Beach mean extended sun exposure with reflected glare off the water." },
-    { name: "Waterproof Phone Pouch", description: "For boat trips to Butterfly and Honeymoon Beach without risking a dropped phone.", price: "₹299", rating: 4.3, reviews: "9.1k", image: "📱", affiliateUrl: amazonSearchUrl("waterproof+phone+pouch+beach"), tag: "Boat-trip essential", tagColor: "bg-sky-100 text-sky-700", why: "Small boats and choppy water make this a real risk without protection." },
-    { name: "Quick-Dry Beach Towel", description: "For a long day moving between the main beach and boat-trip coves.", price: "₹499", rating: 4.4, reviews: "3.6k", image: "🧺", affiliateUrl: amazonSearchUrl("quick+dry+beach+towel"), tag: "Beach essential", tagColor: "bg-forest-100 text-forest-700", why: "A compact quick-dry towel is far more practical than a bulky cotton one for a full beach-hopping day." },
-    { name: "Binoculars", description: "Useful for dolphin-spotting trips and general coastal wildlife viewing.", price: "₹1,499", rating: 4.4, reviews: "3.1k", image: "🔭", affiliateUrl: amazonSearchUrl("compact+binoculars+travel"), tag: "Wildlife essential", tagColor: "bg-purple-100 text-purple-700", why: "Dolphin sightings are often at a distance — binoculars make a real difference." },
+    { name: "Reef-Safe Sunscreen (SPF 50)", description: "Extended beach time and boat trips both call for strong sun protection.", price: "₹599",  image: "🧴", affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+SPF+50"), tag: "Beach essential", tagColor: "bg-amber-100 text-amber-700", why: "Boat trips to Butterfly Beach mean extended sun exposure with reflected glare off the water." },
+    { name: "Waterproof Phone Pouch", description: "For boat trips to Butterfly and Honeymoon Beach without risking a dropped phone.", price: "₹299",  image: "📱", affiliateUrl: amazonSearchUrl("waterproof+phone+pouch+beach"), tag: "Boat-trip essential", tagColor: "bg-sky-100 text-sky-700", why: "Small boats and choppy water make this a real risk without protection." },
+    { name: "Quick-Dry Beach Towel", description: "For a long day moving between the main beach and boat-trip coves.", price: "₹499",  image: "🧺", affiliateUrl: amazonSearchUrl("quick+dry+beach+towel"), tag: "Beach essential", tagColor: "bg-forest-100 text-forest-700", why: "A compact quick-dry towel is far more practical than a bulky cotton one for a full beach-hopping day." },
+    { name: "Binoculars", description: "Useful for dolphin-spotting trips and general coastal wildlife viewing.", price: "₹1,499",  image: "🔭", affiliateUrl: amazonSearchUrl("compact+binoculars+travel"), tag: "Wildlife essential", tagColor: "bg-purple-100 text-purple-700", why: "Dolphin sightings are often at a distance — binoculars make a real difference." },
   ],
 }];
 
@@ -170,6 +171,8 @@ export default function PalolemGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="palolem-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Palolem</h2>

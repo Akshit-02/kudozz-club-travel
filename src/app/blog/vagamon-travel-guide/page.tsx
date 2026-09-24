@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -109,10 +110,10 @@ const VAGAMON_GEAR: GearSection[] = [
     subtitle: "Gear for meadow walks and paragliding sessions",
     emoji: "🪂",
     items: [
-      { name: "Light Warm Jacket", description: "Vagamon's open meadows get genuinely cool in the mornings and evenings, even in a tropical state.", price: "₹1,499", rating: 4.4, reviews: "3.9k", image: "🧥", affiliateUrl: amazonSearchUrl("light+warm+jacket+travel"), tag: "Comfort essential", tagColor: "bg-sky-100 text-sky-700", why: "The elevation and open terrain make Vagamon noticeably cooler than coastal Kerala." },
-      { name: "Comfortable Walking Shoes", description: "For walking the open meadows and Pine Forest paths.", price: "₹1,999", rating: 4.4, reviews: "5.3k", image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Trek essential", tagColor: "bg-amber-100 text-amber-700", why: "The meadow terrain is uneven in places and benefits from proper footwear." },
-      { name: "Sunscreen", description: "The open meadows offer little shade — sun exposure is more intense here than in Vagamon's forested surroundings might suggest.", price: "₹599", rating: 4.5, reviews: "7.4k", image: "🧴", affiliateUrl: amazonSearchUrl("sunscreen+SPF+50+travel"), tag: "Meadow essential", tagColor: "bg-forest-100 text-forest-700", why: "Open grassland at altitude means stronger sun exposure than expected." },
-      { name: "GoPro / Action Camera", description: "A natural fit for capturing a paragliding flight over the meadows.", price: "₹4,999+", rating: 4.4, reviews: "2.6k", image: "📷", affiliateUrl: amazonSearchUrl("action+camera+paragliding"), tag: "Paragliding essential", tagColor: "bg-purple-100 text-purple-700", why: "Most paragliding operators can mount an action camera for footage of the flight." },
+      { name: "Light Warm Jacket", description: "Vagamon's open meadows get genuinely cool in the mornings and evenings, even in a tropical state.", price: "₹1,499",  image: "🧥", affiliateUrl: amazonSearchUrl("light+warm+jacket+travel"), tag: "Comfort essential", tagColor: "bg-sky-100 text-sky-700", why: "The elevation and open terrain make Vagamon noticeably cooler than coastal Kerala." },
+      { name: "Comfortable Walking Shoes", description: "For walking the open meadows and Pine Forest paths.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Trek essential", tagColor: "bg-amber-100 text-amber-700", why: "The meadow terrain is uneven in places and benefits from proper footwear." },
+      { name: "Sunscreen", description: "The open meadows offer little shade — sun exposure is more intense here than in Vagamon's forested surroundings might suggest.", price: "₹599",  image: "🧴", affiliateUrl: amazonSearchUrl("sunscreen+SPF+50+travel"), tag: "Meadow essential", tagColor: "bg-forest-100 text-forest-700", why: "Open grassland at altitude means stronger sun exposure than expected." },
+      { name: "GoPro / Action Camera", description: "A natural fit for capturing a paragliding flight over the meadows.", price: "₹4,999+",  image: "📷", affiliateUrl: amazonSearchUrl("action+camera+paragliding"), tag: "Paragliding essential", tagColor: "bg-purple-100 text-purple-700", why: "Most paragliding operators can mount an action camera for footage of the flight." },
     ],
   },
 ];
@@ -199,6 +200,8 @@ export default function VagamonGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="vagamon-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Vagamon</h2>

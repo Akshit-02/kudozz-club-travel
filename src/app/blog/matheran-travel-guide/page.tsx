@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -103,10 +104,10 @@ const MATHERAN_GEAR: GearSection[] = [
     subtitle: "Gear for red mud trails and a car-free hill town",
     emoji: "🐎",
     items: [
-      { name: "Sturdy Walking Shoes", description: "Matheran's red laterite trails are soft, dusty, and can turn slick — Matheran is best explored entirely on foot, so grip and comfort both matter.", price: "₹1,499", rating: 4.5, reviews: "6.7k", image: "👟", affiliateUrl: amazonSearchUrl("sturdy+walking+shoes+trail"), tag: "Essential", tagColor: "bg-red-100 text-red-700", why: "With no vehicles allowed, every attraction in Matheran is reached on foot — the wrong shoes make the whole trip harder." },
-      { name: "Wide-Brim Sun Hat", description: "The open viewpoints along Matheran's ridge offer little shade during midday walks.", price: "₹349", rating: 4.3, reviews: "3.8k", image: "👒", affiliateUrl: amazonSearchUrl("wide+brim+sun+hat+travel"), tag: "Sun protection", tagColor: "bg-amber-100 text-amber-700", why: "Panorama Point and the other ridge viewpoints are fully exposed with no shade cover." },
-      { name: "Reusable Water Bottle", description: "With no vehicles to hop into for a break, staying hydrated across a day of walking between viewpoints matters more here.", price: "₹449", rating: 4.5, reviews: "6.2k", image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "Everyday essential", tagColor: "bg-sky-100 text-sky-700", why: "Matheran's viewpoint circuit covers several kilometres with no vehicle option if you underestimate water needs." },
-      { name: "Small Daypack", description: "Useful for carrying snacks, water, and cash on the walk from Dasturi car park, since porters and horses are optional extras rather than default.", price: "₹899", rating: 4.4, reviews: "4.6k", image: "🎒", affiliateUrl: amazonSearchUrl("small+daypack+travel"), tag: "Everyday essential", tagColor: "bg-forest-100 text-forest-700", why: "The 2.5 km walk from Dasturi into town is easier with essentials in a light, hands-free bag." },
+      { name: "Sturdy Walking Shoes", description: "Matheran's red laterite trails are soft, dusty, and can turn slick — Matheran is best explored entirely on foot, so grip and comfort both matter.", price: "₹1,499",  image: "👟", affiliateUrl: amazonSearchUrl("sturdy+walking+shoes+trail"), tag: "Essential", tagColor: "bg-red-100 text-red-700", why: "With no vehicles allowed, every attraction in Matheran is reached on foot — the wrong shoes make the whole trip harder." },
+      { name: "Wide-Brim Sun Hat", description: "The open viewpoints along Matheran's ridge offer little shade during midday walks.", price: "₹349",  image: "👒", affiliateUrl: amazonSearchUrl("wide+brim+sun+hat+travel"), tag: "Sun protection", tagColor: "bg-amber-100 text-amber-700", why: "Panorama Point and the other ridge viewpoints are fully exposed with no shade cover." },
+      { name: "Reusable Water Bottle", description: "With no vehicles to hop into for a break, staying hydrated across a day of walking between viewpoints matters more here.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "Everyday essential", tagColor: "bg-sky-100 text-sky-700", why: "Matheran's viewpoint circuit covers several kilometres with no vehicle option if you underestimate water needs." },
+      { name: "Small Daypack", description: "Useful for carrying snacks, water, and cash on the walk from Dasturi car park, since porters and horses are optional extras rather than default.", price: "₹899",  image: "🎒", affiliateUrl: amazonSearchUrl("small+daypack+travel"), tag: "Everyday essential", tagColor: "bg-forest-100 text-forest-700", why: "The 2.5 km walk from Dasturi into town is easier with essentials in a light, hands-free bag." },
     ],
   },
 ];
@@ -196,6 +197,8 @@ export default function MatheranGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="matheran-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Matheran</h2>

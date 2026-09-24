@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -152,8 +153,6 @@ const BELUM_GEAR: GearSection[] = [
         name: "Grippy Closed-Toe Shoes",
         description: "Some passages are tight and low, and the cave floor can be uneven or damp.",
         price: "₹1,999",
-        rating: 4.4,
-        reviews: "5.3k",
         image: "🥾",
         affiliateUrl: amazonSearchUrl("grippy+closed+toe+shoes+travel"),
         tag: "Cave essential",
@@ -164,8 +163,6 @@ const BELUM_GEAR: GearSection[] = [
         name: "Small Torch",
         description: "Useful backup lighting for sections beyond the main lit pathway.",
         price: "₹299",
-        rating: 4.3,
-        reviews: "4.6k",
         image: "🔦",
         affiliateUrl: amazonSearchUrl("small+led+torch+travel"),
         tag: "Backup essential",
@@ -176,8 +173,6 @@ const BELUM_GEAR: GearSection[] = [
         name: "Light, Breathable Clothing",
         description: "For the tight, low passages where you may need to duck or crouch through sections.",
         price: "₹799",
-        rating: 4.4,
-        reviews: "3.5k",
         image: "👕",
         affiliateUrl: amazonSearchUrl("breathable+travel+clothing"),
         tag: "Comfort essential",
@@ -188,8 +183,6 @@ const BELUM_GEAR: GearSection[] = [
         name: "Reusable Water Bottle",
         description: "For the overall day trip, especially if combining with Gandikota or other Rayalaseema stops.",
         price: "₹449",
-        rating: 4.5,
-        reviews: "6.2k",
         image: "💧",
         affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"),
         tag: "Trip essential",
@@ -347,6 +340,8 @@ export default function BelumCavesGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="belum-caves-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Belum Caves</h2>

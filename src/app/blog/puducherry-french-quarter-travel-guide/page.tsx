@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -199,8 +200,6 @@ const PUDUCHERRY_GEAR: GearSection[] = [
         description:
           "The French Quarter is best explored slowly on foot over cobbled and uneven streets — cushioned, breathable sandals hold up far better than sneakers in the coastal humidity.",
         price: "₹1,299",
-        rating: 4.4,
-        reviews: "8.2k",
         image: "👡",
         affiliateUrl: amazonSearchUrl("comfortable+walking+sandals+travel"),
         tag: "Quarter-walk essential",
@@ -212,8 +211,6 @@ const PUDUCHERRY_GEAR: GearSection[] = [
         description:
           "Puducherry's sun is strong and near-constant year-round, whether you're cycling the Promenade or wandering Auroville's open pathways.",
         price: "₹549",
-        rating: 4.5,
-        reviews: "11k",
         image: "🧴",
         affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+spf+50"),
         tag: "Daily essential",
@@ -225,8 +222,6 @@ const PUDUCHERRY_GEAR: GearSection[] = [
         description:
           "A packable, breathable hat that earns its keep on café-hopping mornings and the shadeless stretch of Goubert Avenue along the coast.",
         price: "₹399",
-        rating: 4.3,
-        reviews: "5.4k",
         image: "👒",
         affiliateUrl: amazonSearchUrl("wide+brim+sun+hat+travel"),
         tag: "Beach essential",
@@ -238,8 +233,6 @@ const PUDUCHERRY_GEAR: GearSection[] = [
         description:
           "Cycling is the classic way to see the French Quarter, and rentals are everywhere — carrying your own compact lock means you're never stuck deciding where's 'safe enough' to leave it.",
         price: "₹499",
-        rating: 4.2,
-        reviews: "2.6k",
         image: "🔒",
         affiliateUrl: amazonSearchUrl("portable+bicycle+lock"),
         tag: "Cycling essential",
@@ -251,8 +244,6 @@ const PUDUCHERRY_GEAR: GearSection[] = [
         description:
           "The coastal humidity makes hydration more important than the temperature alone suggests — an insulated bottle keeps water cool through a long day of walking or cycling.",
         price: "₹699",
-        rating: 4.6,
-        reviews: "9.8k",
         image: "💧",
         affiliateUrl: amazonSearchUrl("insulated+water+bottle+steel"),
         tag: "All-day essential",
@@ -264,8 +255,6 @@ const PUDUCHERRY_GEAR: GearSection[] = [
         description:
           "Between navigating quiet, similarly-named French Quarter lanes and the sprawling Auroville township, phone battery drains fast on maps and photos alike.",
         price: "₹1,299",
-        rating: 4.5,
-        reviews: "9.7k",
         image: "🔋",
         affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
         tag: "Navigation essential",
@@ -510,6 +499,8 @@ export default function PuducherryGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="puducherry-french-quarter-travel-guide" />
 
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">

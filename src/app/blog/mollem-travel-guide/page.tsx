@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -196,8 +197,6 @@ const MOLLEM_GEAR: GearSection[] = [
         description:
           "For the short forest trails around Mollem and the sometimes-slippery approach to Dudhsagar Falls.",
         price: "₹899",
-        rating: 4.4,
-        reviews: "5.1k",
         image: "🥾",
         affiliateUrl: amazonSearchUrl("trekking+sandals+grip+outdoor"),
         tag: "Forest essential",
@@ -209,8 +208,6 @@ const MOLLEM_GEAR: GearSection[] = [
         description:
           "Genuinely necessary for time spent in Mollem's forest, especially around Tambdi Surla Temple and any walking trails.",
         price: "₹199",
-        rating: 4.3,
-        reviews: "4.2k",
         image: "🦟",
         affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"),
         tag: "Forest essential",
@@ -222,8 +219,6 @@ const MOLLEM_GEAR: GearSection[] = [
         description:
           "Facilities inside the sanctuary and around the jeep safari route are limited — carry enough water for the day.",
         price: "₹449",
-        rating: 4.5,
-        reviews: "6.2k",
         image: "💧",
         affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"),
         tag: "Day-trip essential",
@@ -235,8 +230,6 @@ const MOLLEM_GEAR: GearSection[] = [
         description:
           "Useful if visiting in shoulder-monsoon months when Dudhsagar is at its fullest but showers are common.",
         price: "₹899",
-        rating: 4.4,
-        reviews: "5.1k",
         image: "🧥",
         affiliateUrl: amazonSearchUrl("packable+rain+jacket+trekking"),
         tag: "Weather essential",
@@ -462,6 +455,8 @@ export default function MollemGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="mollem-travel-guide" />
 
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">

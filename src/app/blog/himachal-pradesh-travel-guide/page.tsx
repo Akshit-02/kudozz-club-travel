@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -198,8 +199,6 @@ const HIMACHAL_GEAR: GearSection[] = [
         description:
           "Temperatures swing sharply between Shimla's evenings, Manali's higher altitude, and any Spiti or Rohtang side trip.",
         price: "₹2,499",
-        rating: 4.4,
-        reviews: "6.1k",
         image: "🧥",
         affiliateUrl: amazonSearchUrl("insulated+jacket+trekking"),
         tag: "Mountain essential",
@@ -211,8 +210,6 @@ const HIMACHAL_GEAR: GearSection[] = [
         description:
           "Useful for the Triund trek near Dharamshala, walks around Old Manali, and uneven paths at Kasauli and Kufri.",
         price: "₹2,999",
-        rating: 4.5,
-        reviews: "7.3k",
         image: "🥾",
         affiliateUrl: amazonSearchUrl("waterproof+trekking+shoes"),
         tag: "Trekking essential",
@@ -224,8 +221,6 @@ const HIMACHAL_GEAR: GearSection[] = [
         description:
           "Monsoon showers and sudden mountain weather changes are common across Shimla, Manali, and Dharamshala.",
         price: "₹1,599",
-        rating: 4.3,
-        reviews: "4.8k",
         image: "🧥",
         affiliateUrl: amazonSearchUrl("packable+rain+jacket+windcheater"),
         tag: "Weather essential",
@@ -237,8 +232,6 @@ const HIMACHAL_GEAR: GearSection[] = [
         description:
           "Handy on long winding drives between Shimla, Manali, and Dharamshala, and on full-day treks like Triund.",
         price: "₹1,299",
-        rating: 4.5,
-        reviews: "9.7k",
         image: "🔋",
         affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
         tag: "Day-trip essential",
@@ -250,8 +243,6 @@ const HIMACHAL_GEAR: GearSection[] = [
         description:
           "Covers minor cuts, altitude-related headaches, and motion sickness on Himachal's winding hill roads.",
         price: "₹499",
-        rating: 4.4,
-        reviews: "5.5k",
         image: "🩹",
         affiliateUrl: amazonSearchUrl("basic+first+aid+kit+travel"),
         tag: "Safety essential",
@@ -263,8 +254,6 @@ const HIMACHAL_GEAR: GearSection[] = [
         description:
           "UV exposure increases significantly at altitude — essential for Rohtang, Kufri, and any Spiti extension.",
         price: "₹399",
-        rating: 4.5,
-        reviews: "10k",
         image: "🧴",
         affiliateUrl: amazonSearchUrl("sunscreen+spf+50+high+altitude"),
         tag: "Everyday essential",
@@ -516,6 +505,8 @@ export default function HimachalPradeshGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="himachal-pradesh-travel-guide" />
 
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">

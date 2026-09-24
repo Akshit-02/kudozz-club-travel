@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -201,8 +202,6 @@ const CHHATTISGARH_GEAR: GearSection[] = [
         description:
           "Kanger Valley's Kotumsar Cave and the trails around Chitrakote Falls involve uneven, sometimes damp, rocky terrain.",
         price: "₹1,799",
-        rating: 4.4,
-        reviews: "7.6k",
         image: "🥾",
         affiliateUrl: amazonSearchUrl("trekking+shoes+waterproof+travel"),
         tag: "Trail essential",
@@ -214,8 +213,6 @@ const CHHATTISGARH_GEAR: GearSection[] = [
         description:
           "Chhattisgarh's dense forest cover, close to 44% of the state, means mosquito presence is a genuine everyday factor around Kanger Valley and Bastar's villages.",
         price: "₹199",
-        rating: 4.3,
-        reviews: "12k",
         image: "🦟",
         affiliateUrl: amazonSearchUrl("mosquito+repellent+travel"),
         tag: "Forest essential",
@@ -227,8 +224,6 @@ const CHHATTISGARH_GEAR: GearSection[] = [
         description:
           "Useful year-round given Chitrakote Falls' spray zone, and essential if visiting in the post-monsoon window when the falls are at their most dramatic.",
         price: "₹599",
-        rating: 4.3,
-        reviews: "4.6k",
         image: "🌂",
         affiliateUrl: amazonSearchUrl("rain+jacket+poncho+travel"),
         tag: "Weather essential",
@@ -240,8 +235,6 @@ const CHHATTISGARH_GEAR: GearSection[] = [
         description:
           "Worth carrying for day trips around Jagdalpur, Chitrakote, and Kanger Valley, where charging points thin out quickly outside town centres.",
         price: "₹1,299",
-        rating: 4.5,
-        reviews: "9.7k",
         image: "🔋",
         affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
         tag: "Day-trip essential",
@@ -253,8 +246,6 @@ const CHHATTISGARH_GEAR: GearSection[] = [
         description:
           "Handy across long days visiting Bastar's markets, Chitrakote Falls, and the forested Kanger Valley trails.",
         price: "₹699",
-        rating: 4.5,
-        reviews: "9.3k",
         image: "🍶",
         affiliateUrl: amazonSearchUrl("insulated+water+bottle+steel"),
         tag: "Everyday essential",
@@ -266,8 +257,6 @@ const CHHATTISGARH_GEAR: GearSection[] = [
         description:
           "Worth having given the state's modest medical infrastructure outside Raipur and Jagdalpur.",
         price: "₹599",
-        rating: 4.4,
-        reviews: "3.9k",
         image: "🩹",
         affiliateUrl: amazonSearchUrl("travel+first+aid+kit"),
         tag: "Small-town essential",
@@ -510,6 +499,8 @@ export default function ChhattisgarhGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="chhattisgarh-travel-guide" />
 
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">

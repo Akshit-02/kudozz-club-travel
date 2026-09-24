@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -82,10 +83,10 @@ const tableOfContents = [
 const ACHANAKMAR_GEAR: GearSection[] = [{
   title: "Things Worth Carrying", subtitle: "Gear for a quieter Central Indian safari", emoji: "🐅",
   items: [
-    { name: "Neutral/Khaki Clothing", description: "Standard safari practice — neutral tones are less disruptive to wildlife in open forest.", price: "₹1,299", rating: 4.4, reviews: "3.8k", image: "🧥", affiliateUrl: amazonSearchUrl("khaki+safari+clothing+set"), tag: "Safari essential", tagColor: "bg-amber-100 text-amber-700", why: "Bright colors stand out sharply against Achanakmar's dense sal and bamboo forest." },
-    { name: "Binoculars", description: "Given the more modest sighting odds here, binoculars help you make the most of distant views.", price: "₹1,999", rating: 4.5, reviews: "6.5k", image: "🔭", affiliateUrl: amazonSearchUrl("binoculars+wildlife+safari"), tag: "Non-negotiable", tagColor: "bg-red-100 text-red-700", why: "Achanakmar's dense cover means wildlife is often glimpsed rather than seen up close." },
-    { name: "Telephoto Camera / Lens", description: "For photographing wildlife at a respectful distance across the reserve's forest terrain.", price: "₹8,999+", rating: 4.4, reviews: "2.1k", image: "📷", affiliateUrl: amazonSearchUrl("telephoto+lens+wildlife+photography"), tag: "Photography essential", tagColor: "bg-purple-100 text-purple-700", why: "A longer lens turns a distant glimpse into a usable photo." },
-    { name: "Insect Repellent", description: "Dense forest and river-adjacent terrain make insects a real presence on safaris.", price: "₹199", rating: 4.3, reviews: "4.2k", image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Forest essential", tagColor: "bg-forest-100 text-forest-700", why: "Sal and bamboo forest cover holds humidity and insects longer than open grassland." },
+    { name: "Neutral/Khaki Clothing", description: "Standard safari practice — neutral tones are less disruptive to wildlife in open forest.", price: "₹1,299",  image: "🧥", affiliateUrl: amazonSearchUrl("khaki+safari+clothing+set"), tag: "Safari essential", tagColor: "bg-amber-100 text-amber-700", why: "Bright colors stand out sharply against Achanakmar's dense sal and bamboo forest." },
+    { name: "Binoculars", description: "Given the more modest sighting odds here, binoculars help you make the most of distant views.", price: "₹1,999",  image: "🔭", affiliateUrl: amazonSearchUrl("binoculars+wildlife+safari"), tag: "Non-negotiable", tagColor: "bg-red-100 text-red-700", why: "Achanakmar's dense cover means wildlife is often glimpsed rather than seen up close." },
+    { name: "Telephoto Camera / Lens", description: "For photographing wildlife at a respectful distance across the reserve's forest terrain.", price: "₹8,999+",  image: "📷", affiliateUrl: amazonSearchUrl("telephoto+lens+wildlife+photography"), tag: "Photography essential", tagColor: "bg-purple-100 text-purple-700", why: "A longer lens turns a distant glimpse into a usable photo." },
+    { name: "Insect Repellent", description: "Dense forest and river-adjacent terrain make insects a real presence on safaris.", price: "₹199",  image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Forest essential", tagColor: "bg-forest-100 text-forest-700", why: "Sal and bamboo forest cover holds humidity and insects longer than open grassland." },
   ],
 }];
 
@@ -165,6 +166,8 @@ export default function AchanakmarGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="achanakmar-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Achanakmar</h2>

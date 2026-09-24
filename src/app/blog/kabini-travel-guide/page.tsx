@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -176,8 +177,6 @@ const KABINI_GEAR: GearSection[] = [
         description:
           "Leopard and elephant sightings at Kabini often happen across open reservoir-edge terrain — binoculars turn a distant shape into an actual sighting.",
         price: "₹1,999",
-        rating: 4.5,
-        reviews: "6.5k",
         image: "🔭",
         affiliateUrl: amazonSearchUrl("binoculars+wildlife+safari"),
         tag: "Non-negotiable",
@@ -189,8 +188,6 @@ const KABINI_GEAR: GearSection[] = [
         description:
           "Kabini's reputation for leopard photography draws serious wildlife photographers — a longer lens makes the difference on both jeep and boat safaris.",
         price: "₹8,999+",
-        rating: 4.4,
-        reviews: "2.1k",
         image: "📷",
         affiliateUrl: amazonSearchUrl("telephoto+lens+wildlife+photography"),
         tag: "Photography essential",
@@ -202,8 +199,6 @@ const KABINI_GEAR: GearSection[] = [
         description:
           "Standard safari practice on both jeep and boat safaris — neutral tones are less disruptive to wildlife.",
         price: "₹1,299",
-        rating: 4.4,
-        reviews: "3.8k",
         image: "🧥",
         affiliateUrl: amazonSearchUrl("khaki+safari+clothing+set"),
         tag: "Safari essential",
@@ -215,8 +210,6 @@ const KABINI_GEAR: GearSection[] = [
         description:
           "The reservoir edge and surrounding forest are prime mosquito habitat, especially at dawn and dusk safari times.",
         price: "₹199",
-        rating: 4.3,
-        reviews: "4.2k",
         image: "🦟",
         affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"),
         tag: "Safari essential",
@@ -228,8 +221,6 @@ const KABINI_GEAR: GearSection[] = [
         description:
           "Boat safaris in particular offer no shade for the length of the cruise.",
         price: "₹399",
-        rating: 4.3,
-        reviews: "3.5k",
         image: "👒",
         affiliateUrl: amazonSearchUrl("wide+brim+sun+hat+outdoor"),
         tag: "Boat-safari essential",
@@ -370,6 +361,8 @@ export default function KabiniGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="kabini-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Kabini</h2>

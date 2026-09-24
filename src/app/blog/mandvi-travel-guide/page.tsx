@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -82,10 +83,10 @@ const tableOfContents = [
 const MANDVI_GEAR: GearSection[] = [{
   title: "Things Worth Carrying", subtitle: "Gear for the beach, palace, and shipyards", emoji: "⛵",
   items: [
-    { name: "Sun Hat & Sunglasses", description: "Coastal Kutch sun is intense, especially around the exposed beach and shipyard areas.", price: "₹499", rating: 4.4, reviews: "5.0k", image: "🧢", affiliateUrl: amazonSearchUrl("sun+hat+travel+outdoor"), tag: "Beach essential", tagColor: "bg-amber-100 text-amber-700", why: "There's little shade around the shipyards and beach, and afternoons get intense." },
-    { name: "Reef-Safe Sunscreen", description: "Strong sun protection for beach time and outdoor sightseeing.", price: "₹599", rating: 4.5, reviews: "7.4k", image: "🧴", affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+SPF+50"), tag: "Beach essential", tagColor: "bg-sky-100 text-sky-700", why: "Sunburn is a common regret for travelers underestimating Kutch coastal sun." },
-    { name: "Comfortable Walking Shoes", description: "For exploring the shipyards, palace grounds, and beach walks.", price: "₹1,999", rating: 4.4, reviews: "5.3k", image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-forest-100 text-forest-700", why: "A full day covering the shipyards and palace grounds adds up in walking distance." },
-    { name: "Camera", description: "The shipbuilding yards and Vijay Vilas Palace are both genuinely photogenic.", price: "₹—", rating: 4.5, reviews: "—", image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-purple-100 text-purple-700", why: "Few places in India let you photograph a working traditional shipyard up close." },
+    { name: "Sun Hat & Sunglasses", description: "Coastal Kutch sun is intense, especially around the exposed beach and shipyard areas.", price: "₹499",  image: "🧢", affiliateUrl: amazonSearchUrl("sun+hat+travel+outdoor"), tag: "Beach essential", tagColor: "bg-amber-100 text-amber-700", why: "There's little shade around the shipyards and beach, and afternoons get intense." },
+    { name: "Reef-Safe Sunscreen", description: "Strong sun protection for beach time and outdoor sightseeing.", price: "₹599",  image: "🧴", affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+SPF+50"), tag: "Beach essential", tagColor: "bg-sky-100 text-sky-700", why: "Sunburn is a common regret for travelers underestimating Kutch coastal sun." },
+    { name: "Comfortable Walking Shoes", description: "For exploring the shipyards, palace grounds, and beach walks.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-forest-100 text-forest-700", why: "A full day covering the shipyards and palace grounds adds up in walking distance." },
+    { name: "Camera", description: "The shipbuilding yards and Vijay Vilas Palace are both genuinely photogenic.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-purple-100 text-purple-700", why: "Few places in India let you photograph a working traditional shipyard up close." },
   ],
 }];
 
@@ -165,6 +166,8 @@ export default function MandviGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="mandvi-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Mandvi</h2>

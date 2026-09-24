@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -201,8 +202,6 @@ const ANDHRA_PRADESH_GEAR: GearSection[] = [
         description:
           "The Tirumala darshan queue and the walk around Sri Venkateswara Temple's compound can mean hours on your feet — supportive, slip-on-friendly shoes help.",
         price: "₹1,499",
-        rating: 4.4,
-        reviews: "8.2k",
         image: "👟",
         affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
         tag: "Pilgrimage essential",
@@ -214,8 +213,6 @@ const ANDHRA_PRADESH_GEAR: GearSection[] = [
         description:
           "Coastal humidity and direct sun along Vizag's beaches and RK Beach promenade make sun protection essential.",
         price: "₹399",
-        rating: 4.5,
-        reviews: "10k",
         image: "🧴",
         affiliateUrl: amazonSearchUrl("sunscreen+spf+50+travel"),
         tag: "Everyday essential",
@@ -227,8 +224,6 @@ const ANDHRA_PRADESH_GEAR: GearSection[] = [
         description:
           "Handy for long Tirumala queue waits and the winding drive up to Araku Valley through the Eastern Ghats.",
         price: "₹699",
-        rating: 4.5,
-        reviews: "9.3k",
         image: "🍶",
         affiliateUrl: amazonSearchUrl("insulated+water+bottle+steel"),
         tag: "Everyday essential",
@@ -240,8 +235,6 @@ const ANDHRA_PRADESH_GEAR: GearSection[] = [
         description:
           "Useful for the long train journey through the Eastern Ghats to Araku Valley and full pilgrimage days at Tirumala.",
         price: "₹1,299",
-        rating: 4.5,
-        reviews: "9.7k",
         image: "🔋",
         affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
         tag: "Day-trip essential",
@@ -253,8 +246,6 @@ const ANDHRA_PRADESH_GEAR: GearSection[] = [
         description:
           "The Bay of Bengal coast around Visakhapatnam sees sudden showers, especially in the shoulder months around the monsoon and cyclone season.",
         price: "₹1,199",
-        rating: 4.3,
-        reviews: "4.1k",
         image: "🧥",
         affiliateUrl: amazonSearchUrl("lightweight+rain+jacket+travel"),
         tag: "Coastal essential",
@@ -266,8 +257,6 @@ const ANDHRA_PRADESH_GEAR: GearSection[] = [
         description:
           "A compact kit for the long travel days between Tirupati, Vizag, and Araku Valley, and for genuinely spicy Andhra food.",
         price: "₹549",
-        rating: 4.4,
-        reviews: "6.5k",
         image: "🩹",
         affiliateUrl: amazonSearchUrl("compact+travel+first+aid+kit"),
         tag: "Travel essential",
@@ -515,6 +504,8 @@ export default function AndhraPradeshGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="andhra-pradesh-travel-guide" />
 
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">

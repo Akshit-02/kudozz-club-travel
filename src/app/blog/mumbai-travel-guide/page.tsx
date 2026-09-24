@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -109,12 +110,12 @@ const MUMBAI_GEAR: GearSection[] = [
     subtitle: "Gear for local trains, long sightseeing days, and monsoon detours",
     emoji: "🌆",
     items: [
-      { name: "Comfortable Walking Shoes", description: "South Mumbai's heritage core and Bandra's Bandstand promenade both mean a lot of walking on pavement — proper shoes beat sandals over a long day.", price: "₹1,499", rating: 4.4, reviews: "6.2k", image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+city+travel"), tag: "City essential", tagColor: "bg-sky-100 text-sky-700", why: "A single Mumbai sightseeing day often covers 8-10 km of walking between heritage sites and transit points." },
-      { name: "Compact Packable Rain Jacket", description: "Even outside peak monsoon, Mumbai gets sudden showers — a packable jacket beats getting drenched between train stations and sights.", price: "₹799", rating: 4.3, reviews: "3.9k", image: "🧥", affiliateUrl: amazonSearchUrl("packable+rain+jacket+travel"), tag: "Monsoon essential", tagColor: "bg-sky-100 text-sky-700", why: "Mumbai's rain arrives fast and heavy with little warning, especially June through September." },
-      { name: "Power Bank (10,000mAh)", description: "Long days navigating local trains, maps, and photo-taking across a spread-out city drain a phone fast.", price: "₹999", rating: 4.4, reviews: "9.4k", image: "🔋", affiliateUrl: amazonSearchUrl("10000mah+power+bank+travel"), tag: "City essential", tagColor: "bg-purple-100 text-purple-700", why: "Between navigation and photos, a full sightseeing day easily drains a phone before evening." },
-      { name: "Anti-Theft Crossbody Bag", description: "Useful for crowded local trains and markets like Colaba Causeway and Crawford Market, where pickpocketing risk is higher than average.", price: "₹1,199", rating: 4.3, reviews: "4.5k", image: "🎒", affiliateUrl: amazonSearchUrl("anti+theft+crossbody+travel+bag"), tag: "Local-train essential", tagColor: "bg-red-100 text-red-700", why: "Crowded rush-hour trains and busy markets are the two spots where petty theft risk is genuinely elevated in Mumbai." },
-      { name: "Reusable Water Bottle (1L)", description: "Mumbai's humidity makes steady hydration important even on cooler-weather days.", price: "₹399", rating: 4.5, reviews: "8.1k", image: "💧", affiliateUrl: amazonSearchUrl("1l+reusable+water+bottle+travel"), tag: "City essential", tagColor: "bg-forest-100 text-forest-700", why: "Humidity here makes dehydration sneak up faster than the temperature alone suggests." },
-      { name: "Waterproof Phone Pouch", description: "Handy for the Elephanta Caves ferry ride and any monsoon-season sightseeing near the sea-facing promenades.", price: "₹299", rating: 4.3, reviews: "9.1k", image: "📱", affiliateUrl: amazonSearchUrl("waterproof+phone+pouch+beach"), tag: "Ferry essential", tagColor: "bg-purple-100 text-purple-700", why: "Sea spray on the Elephanta ferry and sudden rain on Marine Drive both put an unprotected phone at risk." },
+      { name: "Comfortable Walking Shoes", description: "South Mumbai's heritage core and Bandra's Bandstand promenade both mean a lot of walking on pavement — proper shoes beat sandals over a long day.", price: "₹1,499",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+city+travel"), tag: "City essential", tagColor: "bg-sky-100 text-sky-700", why: "A single Mumbai sightseeing day often covers 8-10 km of walking between heritage sites and transit points." },
+      { name: "Compact Packable Rain Jacket", description: "Even outside peak monsoon, Mumbai gets sudden showers — a packable jacket beats getting drenched between train stations and sights.", price: "₹799",  image: "🧥", affiliateUrl: amazonSearchUrl("packable+rain+jacket+travel"), tag: "Monsoon essential", tagColor: "bg-sky-100 text-sky-700", why: "Mumbai's rain arrives fast and heavy with little warning, especially June through September." },
+      { name: "Power Bank (10,000mAh)", description: "Long days navigating local trains, maps, and photo-taking across a spread-out city drain a phone fast.", price: "₹999",  image: "🔋", affiliateUrl: amazonSearchUrl("10000mah+power+bank+travel"), tag: "City essential", tagColor: "bg-purple-100 text-purple-700", why: "Between navigation and photos, a full sightseeing day easily drains a phone before evening." },
+      { name: "Anti-Theft Crossbody Bag", description: "Useful for crowded local trains and markets like Colaba Causeway and Crawford Market, where pickpocketing risk is higher than average.", price: "₹1,199",  image: "🎒", affiliateUrl: amazonSearchUrl("anti+theft+crossbody+travel+bag"), tag: "Local-train essential", tagColor: "bg-red-100 text-red-700", why: "Crowded rush-hour trains and busy markets are the two spots where petty theft risk is genuinely elevated in Mumbai." },
+      { name: "Reusable Water Bottle (1L)", description: "Mumbai's humidity makes steady hydration important even on cooler-weather days.", price: "₹399",  image: "💧", affiliateUrl: amazonSearchUrl("1l+reusable+water+bottle+travel"), tag: "City essential", tagColor: "bg-forest-100 text-forest-700", why: "Humidity here makes dehydration sneak up faster than the temperature alone suggests." },
+      { name: "Waterproof Phone Pouch", description: "Handy for the Elephanta Caves ferry ride and any monsoon-season sightseeing near the sea-facing promenades.", price: "₹299",  image: "📱", affiliateUrl: amazonSearchUrl("waterproof+phone+pouch+beach"), tag: "Ferry essential", tagColor: "bg-purple-100 text-purple-700", why: "Sea spray on the Elephanta ferry and sudden rain on Marine Drive both put an unprotected phone at risk." },
     ],
   },
 ];
@@ -216,6 +217,8 @@ export default function MumbaiGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="mumbai-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Mumbai</h2>

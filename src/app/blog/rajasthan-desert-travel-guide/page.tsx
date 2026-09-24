@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -210,8 +211,6 @@ const DESERT_GEAR: GearSection[] = [
         description:
           "Essential for the dunes — wraps around your head and face to block blowing sand during camel rides and protects your neck from the desert sun. Also doubles as a fort-temple head covering.",
         price: "₹399",
-        rating: 4.5,
-        reviews: "4.1k",
         image: "🧣",
         affiliateUrl: amazonSearchUrl("cotton+scarf+stole+desert+travel"),
         tag: "Desert essential",
@@ -223,8 +222,6 @@ const DESERT_GEAR: GearSection[] = [
         description:
           "Desert days swing from 38°C+ to near-freezing nights — an insulated bottle keeps water cool during the camel safari and hot tea warm at the desert camp in the evening.",
         price: "₹699",
-        rating: 4.5,
-        reviews: "11.3k",
         image: "💧",
         affiliateUrl: amazonSearchUrl("insulated+water+bottle+1L+travel"),
         tag: "Extreme temperature swing",
@@ -236,8 +233,6 @@ const DESERT_GEAR: GearSection[] = [
         description:
           "Desert nights, even in winter peak season, drop to 5–10°C — and a sudden chill after a hot day catches most visitors off guard at the camp. A packable down jacket weighs almost nothing.",
         price: "₹2,999",
-        rating: 4.6,
-        reviews: "5.8k",
         image: "🧥",
         affiliateUrl: amazonSearchUrl(
           "packable+down+jacket+lightweight+travel",
@@ -251,8 +246,6 @@ const DESERT_GEAR: GearSection[] = [
         description:
           "Sand and sun glare off the dunes is intense — wraparound style sunglasses block peripheral light and sand far better than standard frames during the camel ride and dune walks.",
         price: "₹899",
-        rating: 4.3,
-        reviews: "3.4k",
         image: "🕶️",
         affiliateUrl: amazonSearchUrl("wraparound+sunglasses+UV+protection"),
         tag: "Sand + sun glare",
@@ -264,8 +257,6 @@ const DESERT_GEAR: GearSection[] = [
         description:
           "Desert air is extraordinarily dry — combined with sun and wind exposure on a camel safari, lips crack within hours without protection. A small, cheap, easily forgotten essential.",
         price: "₹199",
-        rating: 4.4,
-        reviews: "8.9k",
         image: "💄",
         affiliateUrl: amazonSearchUrl("lip+balm+SPF+travel"),
         tag: "Easy to forget",
@@ -277,8 +268,6 @@ const DESERT_GEAR: GearSection[] = [
         description:
           "Desert camps run on generators with limited charging windows, and phone batteries drain faster in heat. A reliable power bank means your phone, camera, and torch stay charged through the overnight camp.",
         price: "₹1,299",
-        rating: 4.5,
-        reviews: "9.7k",
         image: "🔋",
         affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
         tag: "Camp essential",
@@ -519,6 +508,8 @@ export default function RajasthanDesertGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="rajasthan-desert-travel-guide" />
 
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">

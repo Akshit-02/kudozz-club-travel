@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -88,10 +89,10 @@ const tableOfContents = [
 const BODHGAYA_GEAR: GearSection[] = [{
   title: "Things Worth Carrying", subtitle: "Gear for temple visits and walking between monasteries", emoji: "🙏",
   items: [
-    { name: "Modest Cotton Clothing", description: "Covered shoulders and knees are expected throughout the Mahabodhi Temple complex and every monastery you'll visit.", price: "₹599", rating: 4.4, reviews: "3.9k", image: "👕", affiliateUrl: amazonSearchUrl("modest+cotton+travel+clothing"), tag: "Temple essential", tagColor: "bg-purple-100 text-purple-700", why: "This is an active, deeply significant pilgrimage site — modest dress is a baseline expectation, not optional." },
-    { name: "Comfortable Walking Shoes", description: "The international monastery ring spans a wide area — expect a full day of walking between them.", price: "₹1,999", rating: 4.4, reviews: "5.3k", image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-amber-100 text-amber-700", why: "Seeing more than just the main temple means real walking distance across town." },
-    { name: "Light Shawl", description: "Useful both for extra modesty coverage at religious sites and for cool winter mornings during peak season.", price: "₹399", rating: 4.4, reviews: "4.0k", image: "🧣", affiliateUrl: amazonSearchUrl("cotton+shawl+travel"), tag: "Versatile essential", tagColor: "bg-sky-100 text-sky-700", why: "Doubles as modest covering and a layer against cool winter mornings, Bodh Gaya's peak season." },
-    { name: "Reusable Water Bottle", description: "A full day moving between the temple complex and monasteries adds up — stay hydrated.", price: "₹449", rating: 4.5, reviews: "6.2k", image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "All-day essential", tagColor: "bg-forest-100 text-forest-700", why: "Extensive walking with limited shade between some sites makes hydration matter." },
+    { name: "Modest Cotton Clothing", description: "Covered shoulders and knees are expected throughout the Mahabodhi Temple complex and every monastery you'll visit.", price: "₹599",  image: "👕", affiliateUrl: amazonSearchUrl("modest+cotton+travel+clothing"), tag: "Temple essential", tagColor: "bg-purple-100 text-purple-700", why: "This is an active, deeply significant pilgrimage site — modest dress is a baseline expectation, not optional." },
+    { name: "Comfortable Walking Shoes", description: "The international monastery ring spans a wide area — expect a full day of walking between them.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-amber-100 text-amber-700", why: "Seeing more than just the main temple means real walking distance across town." },
+    { name: "Light Shawl", description: "Useful both for extra modesty coverage at religious sites and for cool winter mornings during peak season.", price: "₹399",  image: "🧣", affiliateUrl: amazonSearchUrl("cotton+shawl+travel"), tag: "Versatile essential", tagColor: "bg-sky-100 text-sky-700", why: "Doubles as modest covering and a layer against cool winter mornings, Bodh Gaya's peak season." },
+    { name: "Reusable Water Bottle", description: "A full day moving between the temple complex and monasteries adds up — stay hydrated.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "All-day essential", tagColor: "bg-forest-100 text-forest-700", why: "Extensive walking with limited shade between some sites makes hydration matter." },
   ],
 }];
 
@@ -171,6 +172,8 @@ export default function BodhGayaGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="bodh-gaya-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Bodh Gaya</h2>

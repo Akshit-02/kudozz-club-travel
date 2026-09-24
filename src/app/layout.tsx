@@ -1,20 +1,49 @@
 import type { Metadata } from "next";
+import { Playfair_Display, Source_Serif_4, DM_Sans } from "next/font/google";
 import "./globals.css";
 import Script from "next/script";
+import MobileStickyCTA from "@/components/layout/MobileStickyCTA";
+
+// Self-hosted via next/font: no render-blocking Google Fonts request, and
+// size-adjusted fallbacks keep CLS near zero while the web fonts load.
+const playfair = Playfair_Display({
+  subsets: ["latin"],
+  variable: "--font-playfair",
+  display: "swap",
+});
+// Body serif for guide text. Not preloaded: it isn't used above the fold on
+// the commercial pages, so preloading it only delays the headline font.
+const sourceSerif = Source_Serif_4({
+  subsets: ["latin"],
+  style: ["normal", "italic"],
+  variable: "--font-source-serif",
+  display: "swap",
+  preload: false,
+});
+const dmSans = DM_Sans({
+  subsets: ["latin"],
+  variable: "--font-dm-sans",
+  display: "swap",
+});
+
+const DEFAULT_DESCRIPTION =
+  "Kudozz Club is an India-focused travel agency that plans customized trips across all 36 states and union territories, backed by 580+ in-depth destination guides. Tell us where you want to go and we'll build the trip around you.";
 
 // ── Site-wide default metadata ──────────────────────────────────────────────
 export const metadata: Metadata = {
   metadataBase: new URL("https://club.kudozz.in"),
 
   title: {
-    default: "Kudozz Club — Travel Guides & Itineraries",
+    default: "Kudozz Club | India Travel Agency & Custom Trip Planning",
     template: "%s | Kudozz Club",
   },
-  description:
-    "Discover the world's most breathtaking destinations with hand-crafted travel guides, hidden gems, detailed itineraries, and insider tips from seasoned explorers.",
+  description: DEFAULT_DESCRIPTION,
 
   keywords: [
-    "travel blog",
+    "travel agency in India",
+    "India tour packages",
+    "customized India trips",
+    "India trip planner",
     "travel guide",
     "travel itinerary",
     "best places to visit in India",
@@ -45,9 +74,8 @@ export const metadata: Metadata = {
 
   // Open Graph
   openGraph: {
-    title: "Kudozz Club — Travel Guides & Itineraries",
-    description:
-      "Discover the world's most breathtaking destinations with hand-crafted travel guides, hidden gems, detailed itineraries, and insider tips from seasoned explorers.",
+    title: "Kudozz Club | India Travel Agency & Custom Trip Planning",
+    description: DEFAULT_DESCRIPTION,
     type: "website",
     locale: "en_IN",
     url: "https://club.kudozz.in",
@@ -57,7 +85,7 @@ export const metadata: Metadata = {
         url: "/og-default.jpg",
         width: 1200,
         height: 630,
-        alt: "Kudozz Club — Travel Blog",
+        alt: "Kudozz Club, India travel agency",
       },
     ],
   },
@@ -67,9 +95,8 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@kudozz.in",
     creator: "@kudozz.in",
-    title: "Kudozz Club — Travel Guides & Itineraries",
-    description:
-      "Discover the world's most breathtaking destinations with hand-crafted travel guides, hidden gems, detailed itineraries, and insider tips from seasoned explorers.",
+    title: "Kudozz Club | India Travel Agency & Custom Trip Planning",
+    description: DEFAULT_DESCRIPTION,
   },
 
   // Robots
@@ -95,13 +122,9 @@ export const metadata: Metadata = {
   // // Manifest for PWA
   // manifest: "/site.webmanifest",
 
-  // Canonical URL handled per-page via generateMetadata
-  alternates: {
-    canonical: "https://club.kudozz.in",
-    languages: {
-      "en-IN": "https://club.kudozz.in",
-    },
-  },
+  // Canonical URLs are set per page. There is deliberately no site-wide
+  // default here: a root-level canonical is inherited by any page that
+  // forgets its own (and by the 404 page), pointing them all at "/".
 
   authors: [
     {
@@ -117,15 +140,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html
+      lang="en-IN"
+      className={`${playfair.variable} ${sourceSerif.variable} ${dmSans.variable}`}
+    >
       <head>
-        {/* Preconnect to Google Fonts for faster load */}
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link
-          rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossOrigin="anonymous"
-        />
 
         <meta
           name="google-site-verification"
@@ -138,6 +157,7 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Organization",
+              "@id": "https://club.kudozz.in/#organization",
               name: "Kudozz Club",
               alternateName: [
                 "Kudoz Club",
@@ -147,18 +167,20 @@ export default function RootLayout({
                 "Kudos",
               ],
               description:
-                "Kudozz Club is an India-focused travel platform publishing hand-crafted destination guides, itineraries, and budget breakdowns, with an in-house team that also plans custom India trips.",
+                "Kudozz Club is an India-focused travel agency that plans customized trips across India in-house, backed by a library of 580+ destination guides covering every Indian state and union territory.",
               url: "https://club.kudozz.in",
               logo: "https://club.kudozz.in/favicon.ico",
               email: "connect@kudozz.in",
+              areaServed: { "@type": "Country", name: "India" },
               knowsAbout: [
                 "India Travel",
-                "Travel Itineraries",
+                "Customized India Tours",
                 "India Trip Planning",
-                "Adventure Travel",
-                "Budget Travel",
-                "Trekking",
-                "Solo Travel",
+                "Travel Itineraries",
+                "Family Holidays in India",
+                "Honeymoon Destinations in India",
+                "Pilgrimage Travel in India",
+                "Wildlife Travel in India",
               ],
               sameAs: [
                 "https://twitter.com/kudozz.in",
@@ -173,7 +195,9 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "WebSite",
+              "@id": "https://club.kudozz.in/#website",
               name: "Kudozz Club",
+              publisher: { "@id": "https://club.kudozz.in/#organization" },
               alternateName: ["Kudoz Club", "Kudos Club", "Kudoss Club"],
               url: "https://club.kudozz.in",
             }),
@@ -194,7 +218,10 @@ export default function RootLayout({
           `}
         </Script>
       </head>
-      <body className="min-h-screen bg-stone-50 antialiased">{children}</body>
+      <body className="min-h-screen bg-stone-50 antialiased">
+        {children}
+        <MobileStickyCTA />
+      </body>
     </html>
   );
 }

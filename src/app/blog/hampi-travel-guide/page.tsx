@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -201,8 +202,6 @@ const HAMPI_GEAR: GearSection[] = [
         description:
           "Hampi's boulder landscape offers zero shade and temperatures regularly hit 38–42°C from March to June. A hands-free hydration pack means you drink constantly without stopping — critical when climbing boulders.",
         price: "₹1,299",
-        rating: 4.5,
-        reviews: "3.8k",
         image: "🎒",
         affiliateUrl: amazonSearchUrl("hydration+backpack+2L+trekking"),
         tag: "Heat essential",
@@ -214,8 +213,6 @@ const HAMPI_GEAR: GearSection[] = [
         description:
           "A full-brim hat — not a cap — protects your neck and ears while you're craning upward to photograph carvings. The Decathlon Trek 500 hat or similar is perfect for Hampi's exposed terrain.",
         price: "₹799",
-        rating: 4.4,
-        reviews: "5.2k",
         image: "👒",
         affiliateUrl: amazonSearchUrl("wide+brim+sun+hat+UPF50+trekking"),
         tag: "Shade for your neck",
@@ -227,8 +224,6 @@ const HAMPI_GEAR: GearSection[] = [
         description:
           "Hampi's carvings demand a camera with decent zoom for architectural details and a wide angle for the boulder landscape panoramas. A clip-on wide-angle + macro lens kit transforms smartphone photography here.",
         price: "₹999",
-        rating: 4.2,
-        reviews: "2.1k",
         image: "📷",
         affiliateUrl: amazonSearchUrl("smartphone+clip+on+lens+kit+wide+macro"),
         tag: "Photography upgrade",
@@ -240,8 +235,6 @@ const HAMPI_GEAR: GearSection[] = [
         description:
           "Walking 15–20 km across sun-baked granite in 40°C heat depletes electrolytes faster than water alone replaces them. Carry ORS sachets or electrolyte powder — add to your water bottle every morning.",
         price: "₹299",
-        rating: 4.6,
-        reviews: "8.9k",
         image: "⚡",
         affiliateUrl: amazonSearchUrl("ORS+electrolyte+powder+sachets+travel"),
         tag: "Heat exhaustion prevention",
@@ -253,8 +246,6 @@ const HAMPI_GEAR: GearSection[] = [
         description:
           "Boulder hopping and climbing the smooth granite at Hampi requires shoes with actual grip. Rubber-soled trail runners or minimalist shoes are ideal — thin enough to feel the rock, grippy enough to trust.",
         price: "₹2,499",
-        rating: 4.5,
-        reviews: "4.1k",
         image: "👟",
         affiliateUrl: amazonSearchUrl("minimalist+trail+running+shoes+grip"),
         tag: "For boulder hopping",
@@ -266,8 +257,6 @@ const HAMPI_GEAR: GearSection[] = [
         description:
           "Small, USB-rechargeable, clips to a bag strap. When you're standing in line at Vittala Temple in October with 500 other tourists and zero breeze, this is the most appreciated item in your bag.",
         price: "₹499",
-        rating: 4.1,
-        reviews: "6.7k",
         image: "🌀",
         affiliateUrl: amazonSearchUrl("rechargeable+pocket+fan+mini+USB"),
         tag: "Queue survival",
@@ -519,6 +508,8 @@ export default function HampiPage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="hampi-travel-guide" />
 
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">

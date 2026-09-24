@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -109,10 +110,10 @@ const THEKKADY_GEAR: GearSection[] = [
     subtitle: "Gear for boat safaris, forest walks, and plantation tours",
     emoji: "🐘",
     items: [
-      { name: "Binoculars", description: "For spotting elephant herds and birdlife across Periyar Lake from the boat safari.", price: "₹1,999", rating: 4.5, reviews: "6.5k", image: "🔭", affiliateUrl: amazonSearchUrl("binoculars+wildlife+safari"), tag: "Safari essential", tagColor: "bg-amber-100 text-amber-700", why: "Wildlife on the boat safari is often visible only from a distance across the lake." },
-      { name: "Insect Repellent", description: "Forest walks and border hikes through Thekkady's dense terrain bring a real mosquito and insect presence.", price: "₹199", rating: 4.3, reviews: "4.2k", image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Forest essential", tagColor: "bg-forest-100 text-forest-700", why: "Thekkady's forest terrain and lake edges are prime mosquito habitat." },
-      { name: "Comfortable Walking Shoes", description: "For jungle patrol walks, bamboo rafting embarkation points, and spice plantation tours.", price: "₹1,999", rating: 4.4, reviews: "5.3k", image: "🥾", affiliateUrl: amazonSearchUrl("comfortable+trekking+shoes"), tag: "Trek essential", tagColor: "bg-sky-100 text-sky-700", why: "Several Forest Department activities involve real walking on uneven forest paths." },
-      { name: "Light Rain Layer", description: "Thekkady's elevation and forest cover mean showers are common even outside peak monsoon.", price: "₹899", rating: 4.4, reviews: "5.1k", image: "🧥", affiliateUrl: amazonSearchUrl("packable+rain+jacket+travel"), tag: "Weather essential", tagColor: "bg-purple-100 text-purple-700", why: "Weather can shift quickly on the boat safari and forest walks." },
+      { name: "Binoculars", description: "For spotting elephant herds and birdlife across Periyar Lake from the boat safari.", price: "₹1,999",  image: "🔭", affiliateUrl: amazonSearchUrl("binoculars+wildlife+safari"), tag: "Safari essential", tagColor: "bg-amber-100 text-amber-700", why: "Wildlife on the boat safari is often visible only from a distance across the lake." },
+      { name: "Insect Repellent", description: "Forest walks and border hikes through Thekkady's dense terrain bring a real mosquito and insect presence.", price: "₹199",  image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Forest essential", tagColor: "bg-forest-100 text-forest-700", why: "Thekkady's forest terrain and lake edges are prime mosquito habitat." },
+      { name: "Comfortable Walking Shoes", description: "For jungle patrol walks, bamboo rafting embarkation points, and spice plantation tours.", price: "₹1,999",  image: "🥾", affiliateUrl: amazonSearchUrl("comfortable+trekking+shoes"), tag: "Trek essential", tagColor: "bg-sky-100 text-sky-700", why: "Several Forest Department activities involve real walking on uneven forest paths." },
+      { name: "Light Rain Layer", description: "Thekkady's elevation and forest cover mean showers are common even outside peak monsoon.", price: "₹899",  image: "🧥", affiliateUrl: amazonSearchUrl("packable+rain+jacket+travel"), tag: "Weather essential", tagColor: "bg-purple-100 text-purple-700", why: "Weather can shift quickly on the boat safari and forest walks." },
     ],
   },
 ];
@@ -199,6 +200,8 @@ export default function ThekkadyGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="thekkady-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Thekkady</h2>

@@ -2,8 +2,6 @@
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import SiteHeader from "@/components/layout/SiteHeader";
-import SiteFooter from "@/components/layout/SiteFooter";
 
 const guidelines = [
   {
@@ -108,7 +106,7 @@ const perks = [
   {
     icon: "📬",
     title: "Newsletter Feature",
-    desc: "Your guide gets featured in our weekly newsletter to 12,000+ subscribers.",
+    desc: "Strong guides may also be featured in our newsletter.",
   },
   {
     icon: "📣",
@@ -171,7 +169,6 @@ export default function WriteForUsPageClient() {
 
   return (
     <>
-      <SiteHeader />
       <main>
         {/* ══════════════════════════════════════════════════════════════
             HERO
@@ -222,7 +219,7 @@ export default function WriteForUsPageClient() {
               >
                 Share your story
                 <br />
-                <span className="text-forest-300">with 12,000 explorers.</span>
+                <span className="text-forest-300">with India travellers.</span>
               </h1>
               <p
                 className="text-white/70 text-lg leading-relaxed max-w-xl"
@@ -236,8 +233,7 @@ export default function WriteForUsPageClient() {
               {/* Quick stats */}
               <div className="flex flex-wrap gap-6 mt-8">
                 {[
-                  { value: "15K+", label: "Newsletter readers" },
-                  { value: "48hr", label: "Pitch response time" },
+                  { value: "580+", label: "Guides published" },
                   { value: "Free", label: "No fees to submit" },
                 ].map((s) => (
                   <div key={s.label}>
@@ -837,7 +833,6 @@ export default function WriteForUsPageClient() {
           </div>
         </section>
       </main>
-      <SiteFooter />
     </>
   );
 }

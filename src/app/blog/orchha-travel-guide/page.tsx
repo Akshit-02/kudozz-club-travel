@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -104,10 +105,10 @@ const ORCHHA_GEAR: GearSection[] = [
     subtitle: "Gear for the fort complex, riverside walks, and temple visits",
     emoji: "🕌",
     items: [
-      { name: "Comfortable Walking Shoes", description: "Jahangir Mahal and the surrounding fort complex involve plenty of stairs and uneven sandstone surfaces.", price: "₹1,699", rating: 4.5, reviews: "6.1k", image: "🥾", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+heritage"), tag: "Heritage-walk essential", tagColor: "bg-red-100 text-red-700", why: "Worn sandstone steps throughout the palace complex are easy to underestimate in flimsy footwear." },
-      { name: "Modest Cotton Wrap", description: "Ram Raja Temple, an active place of worship, expects modest dress — a light cotton stole or wrap covers shoulders easily.", price: "₹399", rating: 4.4, reviews: "4.0k", image: "🧣", affiliateUrl: amazonSearchUrl("cotton+wrap+travel+modest"), tag: "Temple essential", tagColor: "bg-stone-100 text-stone-700", why: "Unlike the fort ruins, Ram Raja Temple is a living shrine with daily rituals and a real dress expectation." },
-      { name: "Sun Hat & Sunglasses", description: "The Chhatris riverbank and the open fort courtyards offer very little shade through the middle of the day.", price: "₹599", rating: 4.3, reviews: "4.2k", image: "🧢", affiliateUrl: amazonSearchUrl("sun+hat+sunglasses+travel"), tag: "Sun protection", tagColor: "bg-amber-100 text-amber-700", why: "Both the palace terraces and the cenotaph riverbank are fully exposed." },
-      { name: "Compact Camera / Zoom Lens", description: "The riverside Chhatris at sunset are Orchha's signature photo — a decent zoom lens or a good phone camera goes a long way here.", price: "₹1,499", rating: 4.3, reviews: "3.1k", image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sunset essential", tagColor: "bg-purple-100 text-purple-700", why: "The Chhatris reflected in the Betwa River at golden hour are the single most photographed scene in Orchha." },
+      { name: "Comfortable Walking Shoes", description: "Jahangir Mahal and the surrounding fort complex involve plenty of stairs and uneven sandstone surfaces.", price: "₹1,699",  image: "🥾", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+heritage"), tag: "Heritage-walk essential", tagColor: "bg-red-100 text-red-700", why: "Worn sandstone steps throughout the palace complex are easy to underestimate in flimsy footwear." },
+      { name: "Modest Cotton Wrap", description: "Ram Raja Temple, an active place of worship, expects modest dress — a light cotton stole or wrap covers shoulders easily.", price: "₹399",  image: "🧣", affiliateUrl: amazonSearchUrl("cotton+wrap+travel+modest"), tag: "Temple essential", tagColor: "bg-stone-100 text-stone-700", why: "Unlike the fort ruins, Ram Raja Temple is a living shrine with daily rituals and a real dress expectation." },
+      { name: "Sun Hat & Sunglasses", description: "The Chhatris riverbank and the open fort courtyards offer very little shade through the middle of the day.", price: "₹599",  image: "🧢", affiliateUrl: amazonSearchUrl("sun+hat+sunglasses+travel"), tag: "Sun protection", tagColor: "bg-amber-100 text-amber-700", why: "Both the palace terraces and the cenotaph riverbank are fully exposed." },
+      { name: "Compact Camera / Zoom Lens", description: "The riverside Chhatris at sunset are Orchha's signature photo — a decent zoom lens or a good phone camera goes a long way here.", price: "₹1,499",  image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sunset essential", tagColor: "bg-purple-100 text-purple-700", why: "The Chhatris reflected in the Betwa River at golden hour are the single most photographed scene in Orchha." },
     ],
   },
 ];
@@ -195,6 +196,8 @@ export default function OrchhaGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="orchha-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Orchha</h2>

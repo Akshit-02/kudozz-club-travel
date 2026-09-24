@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -88,10 +89,10 @@ const tableOfContents = [
 const RAJGIR_GEAR: GearSection[] = [{
   title: "Things Worth Carrying", subtitle: "Gear for hill viewpoints and the hot springs", emoji: "🚡",
   items: [
-    { name: "Comfortable Walking/Climbing Shoes", description: "For Griddhakuta Hill's trail and general walking between sites around town.", price: "₹1,999", rating: 4.4, reviews: "5.3k", image: "🥾", affiliateUrl: amazonSearchUrl("comfortable+trekking+shoes"), tag: "Hill essential", tagColor: "bg-amber-100 text-amber-700", why: "The walking trail up Griddhakuta Hill has real elevation gain." },
-    { name: "Swimwear", description: "If you plan to bathe at the natural hot springs.", price: "₹—", rating: 4.4, reviews: "—", image: "🩱", affiliateUrl: amazonSearchUrl("swimwear+travel"), tag: "Hot springs essential", tagColor: "bg-sky-100 text-sky-700", why: "The sulphur springs are a genuine local draw worth being prepared for." },
-    { name: "Sun Hat", description: "For hilltop viewpoints and the open ropeway ride with direct sun exposure.", price: "₹399", rating: 4.4, reviews: "5.0k", image: "🧢", affiliateUrl: amazonSearchUrl("sun+hat+travel+outdoor"), tag: "Sun essential", tagColor: "bg-forest-100 text-forest-700", why: "Hilltop sites and the ropeway offer little shade." },
-    { name: "Camera", description: "For panoramic views from Vishwa Shanti Stupa and the ropeway ride itself.", price: "₹—", rating: 4.5, reviews: "—", image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-purple-100 text-purple-700", why: "The hilltop panorama is one of Rajgir's best photo opportunities." },
+    { name: "Comfortable Walking/Climbing Shoes", description: "For Griddhakuta Hill's trail and general walking between sites around town.", price: "₹1,999",  image: "🥾", affiliateUrl: amazonSearchUrl("comfortable+trekking+shoes"), tag: "Hill essential", tagColor: "bg-amber-100 text-amber-700", why: "The walking trail up Griddhakuta Hill has real elevation gain." },
+    { name: "Swimwear", description: "If you plan to bathe at the natural hot springs.", price: "₹—",  image: "🩱", affiliateUrl: amazonSearchUrl("swimwear+travel"), tag: "Hot springs essential", tagColor: "bg-sky-100 text-sky-700", why: "The sulphur springs are a genuine local draw worth being prepared for." },
+    { name: "Sun Hat", description: "For hilltop viewpoints and the open ropeway ride with direct sun exposure.", price: "₹399",  image: "🧢", affiliateUrl: amazonSearchUrl("sun+hat+travel+outdoor"), tag: "Sun essential", tagColor: "bg-forest-100 text-forest-700", why: "Hilltop sites and the ropeway offer little shade." },
+    { name: "Camera", description: "For panoramic views from Vishwa Shanti Stupa and the ropeway ride itself.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-purple-100 text-purple-700", why: "The hilltop panorama is one of Rajgir's best photo opportunities." },
   ],
 }];
 
@@ -171,6 +172,8 @@ export default function RajgirGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="rajgir-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Rajgir</h2>

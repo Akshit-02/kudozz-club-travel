@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -199,8 +200,6 @@ const ODISHA_GEAR: GearSection[] = [
         description:
           "Both the Jagannath Temple in Puri and the Konark Sun Temple involve barefoot walking on stone that gets very hot by midday.",
         price: "₹899",
-        rating: 4.4,
-        reviews: "7.6k",
         image: "🩴",
         affiliateUrl: amazonSearchUrl("slip+on+sandals+travel"),
         tag: "Temple essential",
@@ -212,8 +211,6 @@ const ODISHA_GEAR: GearSection[] = [
         description:
           "Odisha's coastal plains stay hot and humid for most of the year, with long uncovered stretches at Konark and around Puri Beach.",
         price: "₹699",
-        rating: 4.5,
-        reviews: "9.3k",
         image: "🍶",
         affiliateUrl: amazonSearchUrl("insulated+water+bottle+steel"),
         tag: "Everyday essential",
@@ -225,8 +222,6 @@ const ODISHA_GEAR: GearSection[] = [
         description:
           "Useful for spotting Irrawaddy dolphins and the wide range of migratory birds at Chilika Lake, especially from a distance on a boat.",
         price: "₹1,299",
-        rating: 4.4,
-        reviews: "5.3k",
         image: "🔭",
         affiliateUrl: amazonSearchUrl("compact+binoculars+travel"),
         tag: "Chilika essential",
@@ -238,8 +233,6 @@ const ODISHA_GEAR: GearSection[] = [
         description:
           "Useful across Konark's exposed stone courtyard and a Chilika Lake boat trip, both largely without shade.",
         price: "₹399",
-        rating: 4.3,
-        reviews: "5.6k",
         image: "👒",
         affiliateUrl: amazonSearchUrl("wide+brim+sun+hat+travel"),
         tag: "Sun essential",
@@ -251,8 +244,6 @@ const ODISHA_GEAR: GearSection[] = [
         description:
           "Covered shoulders and knees are expected at the Jagannath Temple and other active temples in Bhubaneswar.",
         price: "₹799",
-        rating: 4.3,
-        reviews: "4.4k",
         image: "👗",
         affiliateUrl: amazonSearchUrl("modest+travel+clothing+lightweight"),
         tag: "Temple essential",
@@ -264,8 +255,6 @@ const ODISHA_GEAR: GearSection[] = [
         description:
           "Useful for long sightseeing days covering Puri, Konark, and Bhubaneswar's temple circuit.",
         price: "₹1,299",
-        rating: 4.5,
-        reviews: "9.7k",
         image: "🔋",
         affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
         tag: "Travel-day essential",
@@ -499,6 +488,8 @@ export default function OdishaGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="odisha-travel-guide" />
 
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">

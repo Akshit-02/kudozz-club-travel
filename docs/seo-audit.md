@@ -1,4 +1,77 @@
-# Kudozz Club — SEO / AEO / GEO Audit
+# Kudozz Club — SEO Audit
+
+**Updated:** 2026-09-24. Part A covers the travel-agency rebrand pass (technical fixes, metadata, schema, performance). Part B is the original 2026-09-14 audit, kept for history. Its fixes (dynamic sitemap, 72 breadcrumb repairs, etc.) are still in place.
+
+---
+
+# Part A — 2026-09-24 rebrand pass
+
+## A1. Technical fixes
+
+| Issue | Fix | File(s) |
+|---|---|---|
+| Root layout set `alternates.canonical` to the homepage. Every page without its own canonical, including the 404 page, inherited `canonical: /`. | Removed the site-wide default. Every indexable page sets its own; verified on 14 key routes. | `src/app/layout.tsx` |
+| Google Fonts loaded by a render-blocking CSS `@import` (3 families, 13 weights). | Switched to `next/font` (self-hosted, size-adjusted fallbacks, no third-party request). Dropped unused Playfair italics; body serif no longer preloaded. | `layout.tsx`, `globals.css` |
+| Homepage hero was a 3-slide client-side carousel whose H1 changed every 5 s. | Single static server-rendered hero, image with `priority`. | `src/app/page.tsx` |
+| 31 source JPEGs of 2–10 MB (up to 14,183px wide). The first request after a deploy stalled while Next's image optimiser resized them. | Resized in place to ≤2560px, EXIF kept, same filenames (no URL changes): **113.8 MB → 22.1 MB**. | `public/images/destinations/**` |
+| Client components (`/contact`, `/plan-your-trip`, `/write-for-us`, `/blog`) rendered the header/footer inside the client boundary, shipping the full post list to the browser. | Header/footer now render from the server page. `/contact` first-load JS **183 → 99 kB**; `/plan-your-trip` **184 → 101 kB**. | 4 page/client pairs |
+| 3 broken internal links (`/blog/goa-travel-guide`, `/blog/kerala-travel-guide`, `/privacy`) | Fixed/removed. New `npm run check:links` verifies every blog slug, package slug, image path and route in `src/` (13,000+ references) and fails on any break. | `scripts/check-links.mjs` |
+| `llms.txt` said only Rajasthan had a package page; described the site as a publication. | Rewritten header: agency positioning, key pages, site structure/funnel, 3 circuits, 9 styles, all 36 state package URLs, then the full 582-guide index. | `public/llms.txt` |
+| No attribution for 693 CC BY / CC BY-SA images (a licence requirement). | New `/image-credits` page generated from `IMAGE_CREDITS.json` (noindex, follow; linked in footer). | `src/app/image-credits/page.tsx` |
+| Sitemap lacked the new circuit pages; commercial pages had lower priority than guides. | Added 3 circuits; `/packages` and `/plan-your-trip` at 0.9, package pages at 0.8. | `src/app/sitemap.ts` |
+| `dynamicParams` on `/packages/[slug]` | Set to `false`, so unknown slugs return a real 404 (verified). | `packages/[slug]/page.tsx` |
+
+**Checked and fine:** `robots.txt` (allows all, disallows `/api/`, `/admin/`, points to sitemap); no `noindex` on indexable pages; trailing-slash redirect for `/blog/`; every indexable page has exactly one H1 and a self-canonical; all 650 pages statically prerendered (no client-side rendering of content).
+
+## A2. Metadata
+
+Titles use the `%s | Kudozz Club` template unless noted. Measured lengths:
+
+| URL | Title | H1 |
+|---|---|---|
+| `/` | Best Travel Agency in India \| Customized Trips \| Kudozz Club (60, absolute) | Best Travel Agency in India for Trips Made Around You |
+| `/about` | About Kudozz Club \| India Travel Agency (absolute) | We Know India. Now Let Us Plan Your Trip. |
+| `/contact` | Contact Kudozz Club \| Plan Your Next Trip (absolute) | Let's Plan Your Next Trip |
+| `/plan-your-trip` | Plan Your Trip \| Custom India Itinerary | Plan Your Trip With Kudozz Club |
+| `/packages` | India Tour Packages: Customized Holidays | India Tour Packages |
+| `/packages/<state>` | `<Name> Tour Packages: Customized Itineraries` (shortened for long names) | `<Name> Tour Packages` |
+| `/packages/<circuit>` | `<Circuit> Tour Packages` | same |
+| `/packages/<style>` | `<Style> Packages in India` | same |
+| `/destinations` | India Travel Destinations by State | India Travel Destinations |
+| `/blog` | India Travel Guides: Itineraries, Best Time & Budgets | India Travel Guides |
+
+Descriptions were rewritten to ≤ ~160 characters on the main commercial pages. Every package page has unique OG and Twitter metadata with a destination-specific image.
+
+## A3. Structured data
+
+| Page | Types |
+|---|---|
+| Site-wide | `Organization` (with `@id`, `areaServed: India`, agency description), `WebSite` (publisher → Organization) |
+| `/` | `WebPage`, `Service` (customized India trip planning), `ItemList` (popular packages), `FAQPage` |
+| `/packages/<state>` | `WebPage` + `BreadcrumbList`, `TouristDestination` (with `containedInPlace` region → India, `includesAttraction` → up to 12 guides, `subjectOf` → state guide), `Service`, `FAQPage` |
+| `/packages/<circuit>` | `WebPage` + `BreadcrumbList`, `TouristTrip` (itinerary `ItemList` of stops), `FAQPage` |
+| `/packages/<style>` | `WebPage` + `BreadcrumbList`, `ItemList` of destinations, `FAQPage` |
+| `/plan-your-trip` | `WebPage` + `BreadcrumbList`, `Service` (provider → Organization `@id`) |
+| `/about` | `AboutPage` + `BreadcrumbList`, `FAQPage` |
+| Guides (unchanged) | `BlogPosting` with `about: Place`, `BreadcrumbList`, `FAQPage` |
+
+**Deliberately not added:** `AggregateRating`/`Review` (no real reviews exist), `Offer`/prices (none are published), `TravelAgency`/`LocalBusiness` (no confirmed address or registration). All JSON-LD blocks were parsed successfully on every checked page.
+
+## A4. Performance (Lighthouse 12, mobile, simulated slow 4G, local production build)
+
+| Page | Before fixes (cold) | After (cold) |
+|---|---|---|
+| `/` Performance | 70 (LCP 7.6 s; paint held by image-optimiser CPU on cold cache) | **92** (LCP 3.3 s, FCP 1.5 s, CLS 0, TBT 10 ms) |
+| `/about` | — | 90 |
+| `/image-credits` | — | 88 |
+| `/` SEO / Best practices / Accessibility | 100 / 100 / 97 | 100 / 100 / contrast and label issues fixed afterwards |
+
+Not measured: real-user INP/LCP (needs field data from Search Console or CrUX after deploy). Remaining opportunities: GA4's gtag (172 kB) could be deferred further or loaded via Partytown; `/blog` ships its 70 kB post index for client-side search.
+
+---
+
+# Part B — Original audit (2026-09-14)
+
 
 **Date:** 2026-09-14
 **Scope:** Full codebase inspection + programmatic inventory of all 582 published blog posts, 7 static pages, and site infrastructure (sitemap, robots.txt, llms.txt, structured data).

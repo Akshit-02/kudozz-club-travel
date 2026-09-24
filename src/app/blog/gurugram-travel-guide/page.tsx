@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -132,8 +133,6 @@ const GURUGRAM_GEAR: GearSection[] = [
         name: "Comfortable Walking Shoes",
         description: "Malls and Cyber Hub involve a surprising amount of walking across large complexes — comfort matters over a full day.",
         price: "₹1,999",
-        rating: 4.4,
-        reviews: "5.3k",
         image: "👟",
         affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
         tag: "All-day essential",
@@ -144,8 +143,6 @@ const GURUGRAM_GEAR: GearSection[] = [
         name: "Smart-Casual Outfit",
         description: "Cyber Hub's restaurants and Kingdom of Dreams lean toward a smart-casual dress code in the evenings.",
         price: "₹—",
-        rating: 4.5,
-        reviews: "—",
         image: "👔",
         affiliateUrl: amazonSearchUrl("smart+casual+outfit+travel"),
         tag: "Evening essential",
@@ -156,8 +153,6 @@ const GURUGRAM_GEAR: GearSection[] = [
         name: "Portable Power Bank",
         description: "Useful for a full day of navigation, photos, and metro/cab app usage across a spread-out city.",
         price: "₹899",
-        rating: 4.4,
-        reviews: "6.8k",
         image: "🔋",
         affiliateUrl: amazonSearchUrl("portable+power+bank+travel"),
         tag: "City-travel essential",
@@ -168,8 +163,6 @@ const GURUGRAM_GEAR: GearSection[] = [
         name: "Light Jacket",
         description: "Winter evenings (the best time to visit) get genuinely chilly, especially outdoors at Kingdom of Dreams or Cyber Hub.",
         price: "₹1,499",
-        rating: 4.4,
-        reviews: "4.1k",
         image: "🧥",
         affiliateUrl: amazonSearchUrl("light+jacket+winter+travel"),
         tag: "Winter essential",
@@ -308,6 +301,8 @@ export default function GurugramGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="gurugram-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Gurugram</h2>

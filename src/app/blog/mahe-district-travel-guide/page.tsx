@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -206,8 +207,6 @@ const MAHE_GEAR: GearSection[] = [
         description:
           "Ideal for the Mahe Walkway along the riverfront and the short strolls through Tagore Park and around St. Teresa's Shrine.",
         price: "₹1,299",
-        rating: 4.4,
-        reviews: "8.2k",
         image: "👡",
         affiliateUrl: amazonSearchUrl("comfortable+walking+sandals+travel"),
         tag: "All-day essential",
@@ -219,8 +218,6 @@ const MAHE_GEAR: GearSection[] = [
         description:
           "Covered shoulders for St. Teresa's Shrine and the smaller village churches around Palloor and Pandakkal.",
         price: "₹899",
-        rating: 4.3,
-        reviews: "3.1k",
         image: "🧣",
         affiliateUrl: amazonSearchUrl("travel+modest+clothing+scarf"),
         tag: "Church essential",
@@ -232,8 +229,6 @@ const MAHE_GEAR: GearSection[] = [
         description:
           "For open stretches at Mahe Beach, the lighthouse walk, and boat trips along the Mahe and Chalakkara rivers.",
         price: "₹549",
-        rating: 4.5,
-        reviews: "11k",
         image: "🧴",
         affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+spf+50"),
         tag: "Coastal essential",
@@ -245,8 +240,6 @@ const MAHE_GEAR: GearSection[] = [
         description:
           "Useful for the drive out to Chalakkara and Parakkal, where shops are sparser than in Mahe town itself.",
         price: "₹699",
-        rating: 4.5,
-        reviews: "9.3k",
         image: "🍶",
         affiliateUrl: amazonSearchUrl("insulated+water+bottle+steel"),
         tag: "Everyday essential",
@@ -258,8 +251,6 @@ const MAHE_GEAR: GearSection[] = [
         description:
           "Worth having near the Mahe and Chalakkara river surroundings, especially at dawn and dusk.",
         price: "₹199",
-        rating: 4.3,
-        reviews: "12k",
         image: "🦟",
         affiliateUrl: amazonSearchUrl("mosquito+repellent+travel"),
         tag: "Riverside essential",
@@ -271,8 +262,6 @@ const MAHE_GEAR: GearSection[] = [
         description:
           "Useful for a day covering Palloor, Pandakkal, Chalakkara, and Parakkal, where charging points are limited outside Mahe town.",
         price: "₹1,299",
-        rating: 4.5,
-        reviews: "9.7k",
         image: "🔋",
         affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
         tag: "Day-trip essential",
@@ -514,6 +503,8 @@ export default function MaheDistrictGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="mahe-district-travel-guide" />
 
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">

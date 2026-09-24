@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -82,10 +83,10 @@ const tableOfContents = [
 const TATAPANI_GEAR: GearSection[] = [{
   title: "Things Worth Carrying", subtitle: "Gear for a quiet, minimal-facility hot springs visit", emoji: "♨️",
   items: [
-    { name: "Swimwear", description: "For entering the springs, if you plan to bathe.", price: "₹499", rating: 4.3, reviews: "3.1k", image: "🩱", affiliateUrl: amazonSearchUrl("swimwear+travel"), tag: "Springs essential", tagColor: "bg-sky-100 text-sky-700", why: "There are no changing facilities to speak of — plan accordingly." },
-    { name: "Quick-Dry Towel", description: "Compact and practical for a site with minimal facilities.", price: "₹399", rating: 4.4, reviews: "4.0k", image: "🧻", affiliateUrl: amazonSearchUrl("quick+dry+travel+towel"), tag: "Practical essential", tagColor: "bg-amber-100 text-amber-700", why: "A regular towel takes too long to dry and pack again at an undeveloped site." },
-    { name: "Sandals", description: "Comfortable, easy-to-remove footwear for the springs and surrounding area.", price: "₹499", rating: 4.3, reviews: "5.2k", image: "👡", affiliateUrl: amazonSearchUrl("comfortable+sandals+travel"), tag: "All-day essential", tagColor: "bg-forest-100 text-forest-700", why: "Easy on and off matters at a site built around bathing." },
-    { name: "Reusable Water Bottle", description: "Facilities near the springs are minimal — carry your own water.", price: "₹449", rating: 4.5, reviews: "6.2k", image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "Remote-site essential", tagColor: "bg-purple-100 text-purple-700", why: "This is a genuinely undeveloped site — don't count on nearby shops." },
+    { name: "Swimwear", description: "For entering the springs, if you plan to bathe.", price: "₹499",  image: "🩱", affiliateUrl: amazonSearchUrl("swimwear+travel"), tag: "Springs essential", tagColor: "bg-sky-100 text-sky-700", why: "There are no changing facilities to speak of — plan accordingly." },
+    { name: "Quick-Dry Towel", description: "Compact and practical for a site with minimal facilities.", price: "₹399",  image: "🧻", affiliateUrl: amazonSearchUrl("quick+dry+travel+towel"), tag: "Practical essential", tagColor: "bg-amber-100 text-amber-700", why: "A regular towel takes too long to dry and pack again at an undeveloped site." },
+    { name: "Sandals", description: "Comfortable, easy-to-remove footwear for the springs and surrounding area.", price: "₹499",  image: "👡", affiliateUrl: amazonSearchUrl("comfortable+sandals+travel"), tag: "All-day essential", tagColor: "bg-forest-100 text-forest-700", why: "Easy on and off matters at a site built around bathing." },
+    { name: "Reusable Water Bottle", description: "Facilities near the springs are minimal — carry your own water.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "Remote-site essential", tagColor: "bg-purple-100 text-purple-700", why: "This is a genuinely undeveloped site — don't count on nearby shops." },
   ],
 }];
 
@@ -165,6 +166,8 @@ export default function TatapaniGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="tatapani-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Tatapani</h2>

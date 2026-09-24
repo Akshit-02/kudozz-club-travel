@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -307,6 +308,8 @@ export default function HmuifangGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="hmuifang-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Hmuifang</h2>

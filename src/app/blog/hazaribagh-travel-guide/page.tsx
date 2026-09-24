@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -109,10 +110,10 @@ const HAZARIBAGH_GEAR: GearSection[] = [
     subtitle: "Gear for a cool plateau town and a sanctuary safari drive",
     emoji: "🌲",
     items: [
-      { name: "Light Warm Layer", description: "Hazaribagh's elevation keeps mornings and evenings noticeably cooler than much of Jharkhand.", price: "₹1,299", rating: 4.4, reviews: "4.5k", image: "🧥", affiliateUrl: amazonSearchUrl("light+fleece+jacket+travel"), tag: "Comfort essential", tagColor: "bg-sky-100 text-sky-700", why: "Cool mornings are a genuine feature of this plateau town, especially in winter." },
-      { name: "Binoculars", description: "Given the sanctuary's modest sighting odds, binoculars help make the most of any distant wildlife spotted on a safari drive.", price: "₹1,999", rating: 4.5, reviews: "6.5k", image: "🔭", affiliateUrl: amazonSearchUrl("binoculars+wildlife+safari"), tag: "Safari essential", tagColor: "bg-amber-100 text-amber-700", why: "Sightings at Hazaribagh Wildlife Sanctuary tend to be more distant than at bigger reserves." },
-      { name: "Comfortable Walking Shoes", description: "For walking up to Canary Hill's viewpoint and around Hazaribagh Lake.", price: "₹1,999", rating: 4.4, reviews: "5.3k", image: "🥾", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Trek essential", tagColor: "bg-forest-100 text-forest-700", why: "Canary Hill's watchtower involves a short but genuine climb." },
-      { name: "Camera / Zoom Lens", description: "For the Damodar valley views from the plateau edge and any wildlife spotted on safari.", price: "₹8,999+", rating: 4.4, reviews: "2.1k", image: "📷", affiliateUrl: amazonSearchUrl("travel+camera+zoom+lens"), tag: "Photography essential", tagColor: "bg-purple-100 text-purple-700", why: "The plateau viewpoints are Hazaribagh's most rewarding photo spots." },
+      { name: "Light Warm Layer", description: "Hazaribagh's elevation keeps mornings and evenings noticeably cooler than much of Jharkhand.", price: "₹1,299",  image: "🧥", affiliateUrl: amazonSearchUrl("light+fleece+jacket+travel"), tag: "Comfort essential", tagColor: "bg-sky-100 text-sky-700", why: "Cool mornings are a genuine feature of this plateau town, especially in winter." },
+      { name: "Binoculars", description: "Given the sanctuary's modest sighting odds, binoculars help make the most of any distant wildlife spotted on a safari drive.", price: "₹1,999",  image: "🔭", affiliateUrl: amazonSearchUrl("binoculars+wildlife+safari"), tag: "Safari essential", tagColor: "bg-amber-100 text-amber-700", why: "Sightings at Hazaribagh Wildlife Sanctuary tend to be more distant than at bigger reserves." },
+      { name: "Comfortable Walking Shoes", description: "For walking up to Canary Hill's viewpoint and around Hazaribagh Lake.", price: "₹1,999",  image: "🥾", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Trek essential", tagColor: "bg-forest-100 text-forest-700", why: "Canary Hill's watchtower involves a short but genuine climb." },
+      { name: "Camera / Zoom Lens", description: "For the Damodar valley views from the plateau edge and any wildlife spotted on safari.", price: "₹8,999+",  image: "📷", affiliateUrl: amazonSearchUrl("travel+camera+zoom+lens"), tag: "Photography essential", tagColor: "bg-purple-100 text-purple-700", why: "The plateau viewpoints are Hazaribagh's most rewarding photo spots." },
     ],
   },
 ];
@@ -199,6 +200,8 @@ export default function HazaribaghGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="hazaribagh-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Hazaribagh</h2>

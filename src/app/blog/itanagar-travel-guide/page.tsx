@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -82,10 +83,10 @@ const tableOfContents = [
 const ITANAGAR_GEAR: GearSection[] = [{
   title: "Things Worth Carrying", subtitle: "Gear for the capital and onward Arunachal travel", emoji: "🏛️",
   items: [
-    { name: "Comfortable Walking Shoes", description: "For Ita Fort's grounds, the State Museum, and general city exploring.", price: "₹1,999", rating: 4.4, reviews: "5.3k", image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-amber-100 text-amber-700", why: "Itanagar's hillside layout means genuine uphill and downhill walking between sights." },
-    { name: "Document Organizer", description: "For keeping your Inner Line Permit and identification secure and accessible as you head onward.", price: "₹—", rating: 4.5, reviews: "—", image: "📄", affiliateUrl: amazonSearchUrl("document+organizer+travel+folder"), tag: "Permit essential", tagColor: "bg-purple-100 text-purple-700", why: "You'll need your permit at checkpoints throughout Arunachal Pradesh." },
-    { name: "Light Rain Layer", description: "Itanagar's forested hill setting sees regular rain outside the driest months.", price: "₹899", rating: 4.4, reviews: "5.1k", image: "🌂", affiliateUrl: amazonSearchUrl("packable+rain+jacket+travel"), tag: "Weather essential", tagColor: "bg-sky-100 text-sky-700", why: "The hillside terrain and forest cover mean unpredictable showers are common." },
-    { name: "Daypack", description: "For carrying essentials as you explore Ita Fort, the museum, and Ganga Lake across a full day.", price: "₹899", rating: 4.4, reviews: "4.6k", image: "🎒", affiliateUrl: amazonSearchUrl("daypack+travel+trekking"), tag: "All-day essential", tagColor: "bg-forest-100 text-forest-700", why: "Itanagar's sights are spread across the hilly town, not walkable in a tight loop." },
+    { name: "Comfortable Walking Shoes", description: "For Ita Fort's grounds, the State Museum, and general city exploring.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-amber-100 text-amber-700", why: "Itanagar's hillside layout means genuine uphill and downhill walking between sights." },
+    { name: "Document Organizer", description: "For keeping your Inner Line Permit and identification secure and accessible as you head onward.", price: "₹—",  image: "📄", affiliateUrl: amazonSearchUrl("document+organizer+travel+folder"), tag: "Permit essential", tagColor: "bg-purple-100 text-purple-700", why: "You'll need your permit at checkpoints throughout Arunachal Pradesh." },
+    { name: "Light Rain Layer", description: "Itanagar's forested hill setting sees regular rain outside the driest months.", price: "₹899",  image: "🌂", affiliateUrl: amazonSearchUrl("packable+rain+jacket+travel"), tag: "Weather essential", tagColor: "bg-sky-100 text-sky-700", why: "The hillside terrain and forest cover mean unpredictable showers are common." },
+    { name: "Daypack", description: "For carrying essentials as you explore Ita Fort, the museum, and Ganga Lake across a full day.", price: "₹899",  image: "🎒", affiliateUrl: amazonSearchUrl("daypack+travel+trekking"), tag: "All-day essential", tagColor: "bg-forest-100 text-forest-700", why: "Itanagar's sights are spread across the hilly town, not walkable in a tight loop." },
   ],
 }];
 
@@ -165,6 +166,8 @@ export default function ItanagarGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="itanagar-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Itanagar</h2>

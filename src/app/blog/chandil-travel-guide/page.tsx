@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -109,10 +110,10 @@ const CHANDIL_GEAR: GearSection[] = [
     subtitle: "Gear for a low-key reservoir day trip",
     emoji: "🚣",
     items: [
-      { name: "Sun Hat & Sunglasses", description: "The reservoir offers little shade — sun protection matters for a few hours by the water.", price: "₹499", rating: 4.4, reviews: "5.0k", image: "🧢", affiliateUrl: amazonSearchUrl("sun+hat+travel+outdoor"), tag: "Day-trip essential", tagColor: "bg-amber-100 text-amber-700", why: "Open reservoir edges offer minimal shade for most of the day." },
-      { name: "Reusable Water Bottle", description: "Facilities at Chandil are minimal by design — carry your own water.", price: "₹449", rating: 4.5, reviews: "6.2k", image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "All-day essential", tagColor: "bg-sky-100 text-sky-700", why: "This is an undeveloped reservoir stop with few shops nearby." },
-      { name: "Comfortable Footwear", description: "For walking along the dam and reservoir edge.", price: "₹999", rating: 4.4, reviews: "3.8k", image: "👟", affiliateUrl: amazonSearchUrl("comfortable+outdoor+footwear"), tag: "Comfort essential", tagColor: "bg-forest-100 text-forest-700", why: "The dam and reservoir banks involve some uneven, sometimes muddy ground." },
-      { name: "Waterproof Phone Pouch", description: "Useful if you plan to go boating on the reservoir.", price: "₹299", rating: 4.3, reviews: "9.1k", image: "📱", affiliateUrl: amazonSearchUrl("waterproof+phone+pouch+travel"), tag: "Boating essential", tagColor: "bg-purple-100 text-purple-700", why: "A dropped phone is a real risk on informal boat rides." },
+      { name: "Sun Hat & Sunglasses", description: "The reservoir offers little shade — sun protection matters for a few hours by the water.", price: "₹499",  image: "🧢", affiliateUrl: amazonSearchUrl("sun+hat+travel+outdoor"), tag: "Day-trip essential", tagColor: "bg-amber-100 text-amber-700", why: "Open reservoir edges offer minimal shade for most of the day." },
+      { name: "Reusable Water Bottle", description: "Facilities at Chandil are minimal by design — carry your own water.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "All-day essential", tagColor: "bg-sky-100 text-sky-700", why: "This is an undeveloped reservoir stop with few shops nearby." },
+      { name: "Comfortable Footwear", description: "For walking along the dam and reservoir edge.", price: "₹999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+outdoor+footwear"), tag: "Comfort essential", tagColor: "bg-forest-100 text-forest-700", why: "The dam and reservoir banks involve some uneven, sometimes muddy ground." },
+      { name: "Waterproof Phone Pouch", description: "Useful if you plan to go boating on the reservoir.", price: "₹299",  image: "📱", affiliateUrl: amazonSearchUrl("waterproof+phone+pouch+travel"), tag: "Boating essential", tagColor: "bg-purple-100 text-purple-700", why: "A dropped phone is a real risk on informal boat rides." },
     ],
   },
 ];
@@ -199,6 +200,8 @@ export default function ChandilGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="chandil-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Chandil</h2>

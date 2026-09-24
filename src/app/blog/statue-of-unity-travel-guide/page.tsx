@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -107,10 +108,10 @@ const SOU_GEAR: GearSection[] = [
     subtitle: "Gear for a full day at the statue complex",
     emoji: "🗽",
     items: [
-      { name: "Comfortable Walking Shoes", description: "The complex spans a large area — the statue, viewing gallery, memorial garden, and valley of flowers all involve walking.", price: "₹1,999", rating: 4.4, reviews: "5.6k", image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-amber-100 text-amber-700", why: "The Statue of Unity complex is genuinely large — expect a full day of walking between attractions." },
-      { name: "Sun Hat & Sunscreen", description: "Much of the complex is outdoors with limited shade.", price: "₹599", rating: 4.4, reviews: "5.2k", image: "🧴", affiliateUrl: amazonSearchUrl("sun+hat+sunscreen+travel"), tag: "Sun essential", tagColor: "bg-sky-100 text-sky-700", why: "Gujarat's sun is intense outside the winter months, and the complex has few shaded rest points." },
-      { name: "Reusable Water Bottle", description: "For a full day of walking around the site.", price: "₹449", rating: 4.5, reviews: "6.2k", image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "Day-trip essential", tagColor: "bg-forest-100 text-forest-700", why: "A large, spread-out complex means real walking distance over the day." },
-      { name: "Camera", description: "For the viewing gallery panorama and the statue itself.", price: "₹—", rating: 4.5, reviews: "—", image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-purple-100 text-purple-700", why: "The viewing gallery offers one of Gujarat's most striking panoramic views." },
+      { name: "Comfortable Walking Shoes", description: "The complex spans a large area — the statue, viewing gallery, memorial garden, and valley of flowers all involve walking.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-amber-100 text-amber-700", why: "The Statue of Unity complex is genuinely large — expect a full day of walking between attractions." },
+      { name: "Sun Hat & Sunscreen", description: "Much of the complex is outdoors with limited shade.", price: "₹599",  image: "🧴", affiliateUrl: amazonSearchUrl("sun+hat+sunscreen+travel"), tag: "Sun essential", tagColor: "bg-sky-100 text-sky-700", why: "Gujarat's sun is intense outside the winter months, and the complex has few shaded rest points." },
+      { name: "Reusable Water Bottle", description: "For a full day of walking around the site.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "Day-trip essential", tagColor: "bg-forest-100 text-forest-700", why: "A large, spread-out complex means real walking distance over the day." },
+      { name: "Camera", description: "For the viewing gallery panorama and the statue itself.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-purple-100 text-purple-700", why: "The viewing gallery offers one of Gujarat's most striking panoramic views." },
     ],
   },
 ];
@@ -197,6 +198,8 @@ export default function StatueOfUnityGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="statue-of-unity-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit the Statue of Unity</h2>

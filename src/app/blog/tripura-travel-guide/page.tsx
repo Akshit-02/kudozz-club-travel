@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -199,8 +200,6 @@ const TRIPURA_GEAR: GearSection[] = [
         description:
           "Unakoti's hillside rock carvings and Ujjayanta Palace's grounds both involve uneven walking on stone and forested paths.",
         price: "₹1,499",
-        rating: 4.4,
-        reviews: "8.2k",
         image: "👟",
         affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
         tag: "Sightseeing essential",
@@ -212,8 +211,6 @@ const TRIPURA_GEAR: GearSection[] = [
         description:
           "Tripura's humid, forested terrain around Sepahijala and Unakoti makes mosquito presence significant, especially at dawn and dusk.",
         price: "₹199",
-        rating: 4.3,
-        reviews: "12k",
         image: "🦟",
         affiliateUrl: amazonSearchUrl("mosquito+repellent+travel"),
         tag: "Forest essential",
@@ -225,8 +222,6 @@ const TRIPURA_GEAR: GearSection[] = [
         description:
           "Tripura receives substantial rainfall for a large part of the year, and showers can start with little warning.",
         price: "₹599",
-        rating: 4.3,
-        reviews: "4.6k",
         image: "🌂",
         affiliateUrl: amazonSearchUrl("rain+jacket+poncho+travel"),
         tag: "Weather essential",
@@ -238,8 +233,6 @@ const TRIPURA_GEAR: GearSection[] = [
         description:
           "Useful for day trips to Unakoti and other sites outside Agartala, where charging infrastructure thins out quickly.",
         price: "₹1,299",
-        rating: 4.5,
-        reviews: "9.7k",
         image: "🔋",
         affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
         tag: "Day-trip essential",
@@ -251,8 +244,6 @@ const TRIPURA_GEAR: GearSection[] = [
         description:
           "Handy across long days visiting Agartala's palaces, Neermahal, and the forested Unakoti site.",
         price: "₹699",
-        rating: 4.5,
-        reviews: "9.3k",
         image: "🍶",
         affiliateUrl: amazonSearchUrl("insulated+water+bottle+steel"),
         tag: "Everyday essential",
@@ -264,8 +255,6 @@ const TRIPURA_GEAR: GearSection[] = [
         description:
           "Worth having given the state's modest medical infrastructure outside Agartala.",
         price: "₹599",
-        rating: 4.4,
-        reviews: "3.9k",
         image: "🩹",
         affiliateUrl: amazonSearchUrl("travel+first+aid+kit"),
         tag: "Small-town essential",
@@ -503,6 +492,8 @@ export default function TripuraGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="tripura-travel-guide" />
 
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">

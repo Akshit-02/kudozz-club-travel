@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -109,10 +110,10 @@ const DEOGHAR_GEAR: GearSection[] = [
     subtitle: "Gear for temple queues and pilgrimage-town practicalities",
     emoji: "🛕",
     items: [
-      { name: "Comfortable Walking Shoes", description: "Long queue standing at Baidyanath Temple, especially outside Shravan month, calls for genuinely comfortable footwear you can slip off easily at entry.", price: "₹1,999", rating: 4.4, reviews: "5.3k", image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Temple essential", tagColor: "bg-amber-100 text-amber-700", why: "Queue times can run long even on an ordinary day, let alone during festival season." },
-      { name: "Modest Cotton Clothing", description: "Deoghar is an active pilgrimage town — modest dress is expected throughout, not just inside the temple itself.", price: "₹599", rating: 4.4, reviews: "3.9k", image: "👕", affiliateUrl: amazonSearchUrl("modest+cotton+travel+clothing"), tag: "Temple essential", tagColor: "bg-purple-100 text-purple-700", why: "This is one of India's most significant Shiva pilgrimage sites — respectful dress matters here more than at a leisure destination." },
-      { name: "Small Bag for Shoes/Valuables", description: "Useful for the queue and temple entry process, where shoes are left outside and phones/valuables need somewhere secure.", price: "₹299", rating: 4.3, reviews: "3.1k", image: "🎒", affiliateUrl: amazonSearchUrl("small+crossbody+travel+bag"), tag: "Practical essential", tagColor: "bg-sky-100 text-sky-700", why: "Keeping shoes and valuables secure in a crowded temple queue is a genuine practical concern." },
-      { name: "Light Shawl / Stole", description: "Doubles as a head covering where expected and as a light layer for early-morning temple visits.", price: "₹399", rating: 4.4, reviews: "4.0k", image: "🧣", affiliateUrl: amazonSearchUrl("cotton+shawl+travel"), tag: "Temple essential", tagColor: "bg-forest-100 text-forest-700", why: "A simple shawl covers several practical needs at once during temple visits." },
+      { name: "Comfortable Walking Shoes", description: "Long queue standing at Baidyanath Temple, especially outside Shravan month, calls for genuinely comfortable footwear you can slip off easily at entry.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Temple essential", tagColor: "bg-amber-100 text-amber-700", why: "Queue times can run long even on an ordinary day, let alone during festival season." },
+      { name: "Modest Cotton Clothing", description: "Deoghar is an active pilgrimage town — modest dress is expected throughout, not just inside the temple itself.", price: "₹599",  image: "👕", affiliateUrl: amazonSearchUrl("modest+cotton+travel+clothing"), tag: "Temple essential", tagColor: "bg-purple-100 text-purple-700", why: "This is one of India's most significant Shiva pilgrimage sites — respectful dress matters here more than at a leisure destination." },
+      { name: "Small Bag for Shoes/Valuables", description: "Useful for the queue and temple entry process, where shoes are left outside and phones/valuables need somewhere secure.", price: "₹299",  image: "🎒", affiliateUrl: amazonSearchUrl("small+crossbody+travel+bag"), tag: "Practical essential", tagColor: "bg-sky-100 text-sky-700", why: "Keeping shoes and valuables secure in a crowded temple queue is a genuine practical concern." },
+      { name: "Light Shawl / Stole", description: "Doubles as a head covering where expected and as a light layer for early-morning temple visits.", price: "₹399",  image: "🧣", affiliateUrl: amazonSearchUrl("cotton+shawl+travel"), tag: "Temple essential", tagColor: "bg-forest-100 text-forest-700", why: "A simple shawl covers several practical needs at once during temple visits." },
     ],
   },
 ];
@@ -199,6 +200,8 @@ export default function DeogharGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="deoghar-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Deoghar</h2>

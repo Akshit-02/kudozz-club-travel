@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -199,8 +200,6 @@ const KAVARATTI_GEAR: GearSection[] = [
         description:
           "Kavaratti's lagoon and beaches offer almost no shade, and reflection off the water intensifies UV exposure well beyond normal beach conditions.",
         price: "₹549",
-        rating: 4.5,
-        reviews: "11k",
         image: "🧴",
         affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+spf+50"),
         tag: "Lagoon essential",
@@ -212,8 +211,6 @@ const KAVARATTI_GEAR: GearSection[] = [
         description:
           "Full sun coverage for snorkelling, kayaking, and long stretches in the lagoon without reapplying sunscreen every hour.",
         price: "₹899",
-        rating: 4.4,
-        reviews: "6.1k",
         image: "🏊",
         affiliateUrl: amazonSearchUrl("rash+guard+full+sleeve+swim"),
         tag: "Water-sports essential",
@@ -225,8 +222,6 @@ const KAVARATTI_GEAR: GearSection[] = [
         description:
           "A simple waterproof pouch for photographing the lagoon's coral and fish during snorkelling or glass-bottom boat rides.",
         price: "₹399",
-        rating: 4.2,
-        reviews: "8.4k",
         image: "📱",
         affiliateUrl: amazonSearchUrl("waterproof+phone+pouch+diving"),
         tag: "Photo essential",
@@ -238,8 +233,6 @@ const KAVARATTI_GEAR: GearSection[] = [
         description:
           "Protects against sharp coral and rocky patches while wading out into the lagoon or walking the reef flat at low tide.",
         price: "₹699",
-        rating: 4.3,
-        reviews: "5.2k",
         image: "🩴",
         affiliateUrl: amazonSearchUrl("reef+swim+shoes+water"),
         tag: "Reef essential",
@@ -251,8 +244,6 @@ const KAVARATTI_GEAR: GearSection[] = [
         description:
           "Covered shoulders and knees, and a headscarf for women, when visiting the Ujra Mosque or other working mosques on the island.",
         price: "₹899",
-        rating: 4.3,
-        reviews: "3.1k",
         image: "🧣",
         affiliateUrl: amazonSearchUrl("travel+modest+clothing+scarf"),
         tag: "Cultural essential",
@@ -264,8 +255,6 @@ const KAVARATTI_GEAR: GearSection[] = [
         description:
           "Keeps phones, permits, and cash dry during kayaking, canoeing, and boat transfers between the jetty and dive or snorkel points.",
         price: "₹799",
-        rating: 4.4,
-        reviews: "4.7k",
         image: "🎒",
         affiliateUrl: amazonSearchUrl("waterproof+dry+bag+10l"),
         tag: "Boat-trip essential",
@@ -515,6 +504,8 @@ export default function KavarattiIslandGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="kavaratti-island-travel-guide" />
 
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">

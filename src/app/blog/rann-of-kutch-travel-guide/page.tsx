@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -107,10 +108,10 @@ const KUTCH_GEAR: GearSection[] = [
     subtitle: "Gear for salt-desert days and cold desert nights",
     emoji: "🏜️",
     items: [
-      { name: "Warm Layers", description: "Desert nights drop sharply in temperature, even though days can be warm — essential for evening/night Rann visits.", price: "₹2,499", rating: 4.5, reviews: "4.7k", image: "🧥", affiliateUrl: amazonSearchUrl("warm+jacket+desert+travel"), tag: "Non-negotiable", tagColor: "bg-red-100 text-red-700", why: "Full-moon night visits to the White Rann are genuinely cold once the sun sets." },
-      { name: "Sun Protection (Hat + High-SPF Sunscreen)", description: "The salt flat's white surface reflects intense sunlight during the day.", price: "₹899", rating: 4.4, reviews: "5.2k", image: "🧴", affiliateUrl: amazonSearchUrl("high+spf+sunscreen+desert"), tag: "Daytime essential", tagColor: "bg-amber-100 text-amber-700", why: "Reflected sunlight off white salt is more intense than typical desert sun exposure." },
-      { name: "Comfortable Walking Shoes", description: "For walking on the uneven salt-crust terrain at the Rann and craft village visits.", price: "₹1,999", rating: 4.4, reviews: "5.6k", image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Terrain essential", tagColor: "bg-sky-100 text-sky-700", why: "The salt surface can be uneven and occasionally sharp-edged in places." },
-      { name: "Camera with Wide-Angle Lens", description: "For capturing the sheer scale and flatness of the White Rann.", price: "₹—", rating: 4.5, reviews: "—", image: "📷", affiliateUrl: amazonSearchUrl("wide+angle+lens+camera+travel"), tag: "Photography essential", tagColor: "bg-purple-100 text-purple-700", why: "The Rann's landscape is defined by scale — a wide-angle lens captures it far better than a standard one." },
+      { name: "Warm Layers", description: "Desert nights drop sharply in temperature, even though days can be warm — essential for evening/night Rann visits.", price: "₹2,499",  image: "🧥", affiliateUrl: amazonSearchUrl("warm+jacket+desert+travel"), tag: "Non-negotiable", tagColor: "bg-red-100 text-red-700", why: "Full-moon night visits to the White Rann are genuinely cold once the sun sets." },
+      { name: "Sun Protection (Hat + High-SPF Sunscreen)", description: "The salt flat's white surface reflects intense sunlight during the day.", price: "₹899",  image: "🧴", affiliateUrl: amazonSearchUrl("high+spf+sunscreen+desert"), tag: "Daytime essential", tagColor: "bg-amber-100 text-amber-700", why: "Reflected sunlight off white salt is more intense than typical desert sun exposure." },
+      { name: "Comfortable Walking Shoes", description: "For walking on the uneven salt-crust terrain at the Rann and craft village visits.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Terrain essential", tagColor: "bg-sky-100 text-sky-700", why: "The salt surface can be uneven and occasionally sharp-edged in places." },
+      { name: "Camera with Wide-Angle Lens", description: "For capturing the sheer scale and flatness of the White Rann.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("wide+angle+lens+camera+travel"), tag: "Photography essential", tagColor: "bg-purple-100 text-purple-700", why: "The Rann's landscape is defined by scale — a wide-angle lens captures it far better than a standard one." },
     ],
   },
 ];
@@ -197,6 +198,8 @@ export default function RannOfKutchGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="rann-of-kutch-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit the Rann of Kutch</h2>

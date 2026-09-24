@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -107,10 +108,10 @@ const CHARAIDEO_GEAR: GearSection[] = [
     subtitle: "Gear for walking the open Maidam grounds",
     emoji: "🏛️",
     items: [
-      { name: "Comfortable Walking Shoes", description: "The Maidam site involves walking across open, grassy mound terrain with little shade.", price: "₹1,999", rating: 4.4, reviews: "5.3k", image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Site essential", tagColor: "bg-amber-100 text-amber-700", why: "The mounds are spread across open ground, and comfortable footwear makes exploring them at a relaxed pace easier." },
-      { name: "Sun Hat", description: "Little natural shade across the open Maidam grounds means direct sun exposure for most of the visit.", price: "₹399", rating: 4.4, reviews: "4.0k", image: "🧢", affiliateUrl: amazonSearchUrl("sun+hat+travel+outdoor"), tag: "Weather essential", tagColor: "bg-sky-100 text-sky-700", why: "The site has minimal shade cover, so sun protection matters even on a short half-day visit." },
-      { name: "Reusable Water Bottle", description: "Facilities are minimal at this quiet, recently-recognized heritage site.", price: "₹449", rating: 4.5, reviews: "6.2k", image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "Site essential", tagColor: "bg-forest-100 text-forest-700", why: "Shops and stalls near the site are limited, so carrying your own water is sensible." },
-      { name: "Camera", description: "For the mounds themselves and the surrounding rural Upper Assam landscape.", price: "₹—", rating: 4.5, reviews: "—", image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-purple-100 text-purple-700", why: "The mound site and its quiet rural setting make for genuinely good, uncrowded photography." },
+      { name: "Comfortable Walking Shoes", description: "The Maidam site involves walking across open, grassy mound terrain with little shade.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Site essential", tagColor: "bg-amber-100 text-amber-700", why: "The mounds are spread across open ground, and comfortable footwear makes exploring them at a relaxed pace easier." },
+      { name: "Sun Hat", description: "Little natural shade across the open Maidam grounds means direct sun exposure for most of the visit.", price: "₹399",  image: "🧢", affiliateUrl: amazonSearchUrl("sun+hat+travel+outdoor"), tag: "Weather essential", tagColor: "bg-sky-100 text-sky-700", why: "The site has minimal shade cover, so sun protection matters even on a short half-day visit." },
+      { name: "Reusable Water Bottle", description: "Facilities are minimal at this quiet, recently-recognized heritage site.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "Site essential", tagColor: "bg-forest-100 text-forest-700", why: "Shops and stalls near the site are limited, so carrying your own water is sensible." },
+      { name: "Camera", description: "For the mounds themselves and the surrounding rural Upper Assam landscape.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-purple-100 text-purple-700", why: "The mound site and its quiet rural setting make for genuinely good, uncrowded photography." },
     ],
   },
 ];
@@ -200,6 +201,8 @@ export default function CharaideoGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="charaideo-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Charaideo</h2>

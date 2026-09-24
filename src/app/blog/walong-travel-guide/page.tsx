@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -82,10 +83,10 @@ const tableOfContents = [
 const WALONG_GEAR: GearSection[] = [{
   title: "Things Worth Carrying", subtitle: "Gear for a demanding frontier journey", emoji: "🏔️",
   items: [
-    { name: "Warm Layers", description: "Walong's altitude and far-northern position mean genuinely cold conditions, especially outside summer.", price: "₹2,499", rating: 4.5, reviews: "4.7k", image: "🧥", affiliateUrl: amazonSearchUrl("warm+trekking+jacket+layers"), tag: "Non-negotiable", tagColor: "bg-red-100 text-red-700", why: "This is one of the coldest, most exposed destinations in this guide series." },
-    { name: "Sturdy Footwear", description: "For uneven terrain around the war memorial and valley viewpoints.", price: "₹2,999", rating: 4.5, reviews: "6.2k", image: "🥾", affiliateUrl: amazonSearchUrl("trekking+shoes+mountain"), tag: "Trip essential", tagColor: "bg-amber-100 text-amber-700", why: "Terrain in the Lohit Valley is rugged and undeveloped in most areas." },
-    { name: "Complete Permit Documentation", description: "Physical copies of your Inner Line Permit and any Protected Area Permit, plus identification.", price: "₹—", rating: 5.0, reviews: "—", image: "📄", affiliateUrl: amazonSearchUrl("document+organizer+travel+folder"), tag: "Absolutely required", tagColor: "bg-purple-100 text-purple-700", why: "Checkpoints in this border-sensitive region will require documentation at multiple points." },
-    { name: "Basic First-Aid Kit", description: "Given the extreme remoteness and distance from medical facilities.", price: "₹499", rating: 4.4, reviews: "3.9k", image: "🩹", affiliateUrl: amazonSearchUrl("travel+first+aid+kit"), tag: "Remote-travel essential", tagColor: "bg-sky-100 text-sky-700", why: "Medical facilities are sparse to nonexistent for much of this journey." },
+    { name: "Warm Layers", description: "Walong's altitude and far-northern position mean genuinely cold conditions, especially outside summer.", price: "₹2,499",  image: "🧥", affiliateUrl: amazonSearchUrl("warm+trekking+jacket+layers"), tag: "Non-negotiable", tagColor: "bg-red-100 text-red-700", why: "This is one of the coldest, most exposed destinations in this guide series." },
+    { name: "Sturdy Footwear", description: "For uneven terrain around the war memorial and valley viewpoints.", price: "₹2,999",  image: "🥾", affiliateUrl: amazonSearchUrl("trekking+shoes+mountain"), tag: "Trip essential", tagColor: "bg-amber-100 text-amber-700", why: "Terrain in the Lohit Valley is rugged and undeveloped in most areas." },
+    { name: "Complete Permit Documentation", description: "Physical copies of your Inner Line Permit and any Protected Area Permit, plus identification.", price: "₹—",  image: "📄", affiliateUrl: amazonSearchUrl("document+organizer+travel+folder"), tag: "Absolutely required", tagColor: "bg-purple-100 text-purple-700", why: "Checkpoints in this border-sensitive region will require documentation at multiple points." },
+    { name: "Basic First-Aid Kit", description: "Given the extreme remoteness and distance from medical facilities.", price: "₹499",  image: "🩹", affiliateUrl: amazonSearchUrl("travel+first+aid+kit"), tag: "Remote-travel essential", tagColor: "bg-sky-100 text-sky-700", why: "Medical facilities are sparse to nonexistent for much of this journey." },
   ],
 }];
 
@@ -165,6 +166,8 @@ export default function WalongGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="walong-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Walong</h2>

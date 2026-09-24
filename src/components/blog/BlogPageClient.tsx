@@ -2,8 +2,6 @@
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import SiteHeader from "@/components/layout/SiteHeader";
-import SiteFooter from "@/components/layout/SiteFooter";
 import {
   categories,
   featuredPost,
@@ -172,7 +170,6 @@ export default function BlogPageClient() {
 
   return (
     <>
-      <SiteHeader />
       <main>
         {/* ── Hero ──────────────────────────────────────────────────────── */}
         <section className="relative bg-stone-950 pt-32 pb-16 overflow-hidden">
@@ -194,17 +191,21 @@ export default function BlogPageClient() {
                 className="text-5xl sm:text-6xl font-bold text-white mb-5 leading-tight"
                 style={{ fontFamily: "var(--font-playfair)" }}
               >
-                Stories from
+                India Travel Guides
                 <br />
-                <span className="text-forest-300">the road.</span>
+                <span className="text-forest-300">for planning real trips.</span>
               </h1>
               <p
                 className="text-white/65 text-lg leading-relaxed"
                 style={{ fontFamily: "var(--font-source-serif)" }}
               >
-                Honest destination guides, practical itineraries, and travel
-                stories written by people who've actually been there — not
-                aggregated from the internet.
+                Destination guides, itineraries, best times to visit and budget
+                breakdowns for every Indian state and union territory. Ready to
+                go?{" "}
+                <Link href="/plan-your-trip?from=/blog" className="text-saffron-300 underline underline-offset-4 hover:text-saffron-100">
+                  Let us plan the trip
+                </Link>
+                .
               </p>
             </div>
 
@@ -625,31 +626,24 @@ export default function BlogPageClient() {
                     className="text-stone-400 text-xs leading-relaxed mb-4"
                     style={{ fontFamily: "var(--font-dm-sans)" }}
                   >
-                    Every new guide goes to our newsletter subscribers 48 hours
-                    before it's public.
+                    New India travel guides and seasonal trip ideas, by email.
                   </p>
-                  <input
-                    type="email"
-                    placeholder="your@email.com"
-                    className="w-full px-3.5 py-2.5 bg-white/8 border border-white/15 rounded-xl text-white text-sm placeholder:text-stone-600 focus:outline-none focus:border-forest-500 transition-all mb-2.5"
-                    style={{ fontFamily: "var(--font-dm-sans)" }}
-                  />
                   <Link
                     href="/newsletter"
                     className="block w-full py-2.5 text-center text-sm font-semibold gradient-forest text-white rounded-xl hover:opacity-90 transition-opacity"
                     style={{ fontFamily: "var(--font-dm-sans)" }}
                   >
-                    Join Free →
+                    Subscribe →
                   </Link>
                 </div>
 
                 {/* Stats */}
                 <div className="grid grid-cols-2 gap-3">
                   {[
-                    { value: "350+", label: "Guides" },
-                    { value: "15K+", label: "Members" },
-                    { value: "120+", label: "Destinations" },
-                    { value: "4.9★", label: "Rating" },
+                    { value: "580+", label: "Guides" },
+                    { value: "36", label: "States & UTs" },
+                    { value: "6", label: "Regions" },
+                    { value: "In-house", label: "Trip planning" },
                   ].map((stat) => (
                     <div
                       key={stat.label}
@@ -674,8 +668,24 @@ export default function BlogPageClient() {
             </div>
           </div>
         </section>
+
+        <section className="bg-stone-950 py-16">
+          <div className="container-site flex max-w-5xl flex-col items-start justify-between gap-6 md:flex-row md:items-center">
+            <div>
+              <h2 className="font-display text-2xl font-bold text-white sm:text-3xl">
+                Found a place you want to go?
+              </h2>
+              <p className="mt-2 font-sans text-sm text-stone-300">
+                Kudozz Club plans customized India trips around your dates, budget and travel style.
+              </p>
+            </div>
+            <div className="flex flex-col gap-3 sm:flex-row">
+              <Link href="/plan-your-trip?from=/blog" className="btn-primary px-7">Plan My Trip →</Link>
+              <Link href="/packages" className="btn-outline-light px-7">Tour Packages</Link>
+            </div>
+          </div>
+        </section>
       </main>
-      <SiteFooter />
     </>
   );
 }

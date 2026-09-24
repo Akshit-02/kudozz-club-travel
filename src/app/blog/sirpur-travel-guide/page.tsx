@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -81,10 +82,10 @@ const tableOfContents = [
 const SIRPUR_GEAR: GearSection[] = [{
   title: "Things Worth Carrying", subtitle: "Gear for a day walking an open archaeological site", emoji: "🏛️",
   items: [
-    { name: "Comfortable Walking Shoes", description: "The excavated site spans several separate complexes with uneven, sun-exposed ground between them.", price: "₹1,999", rating: 4.4, reviews: "5.3k", image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Site-visit essential", tagColor: "bg-amber-100 text-amber-700", why: "Ancient brick and stone remains sit on uneven excavated ground across a wide area." },
-    { name: "Sun Hat & Sunscreen", description: "Sirpur's excavated ruins offer little shade across a multi-hour visit.", price: "₹599", rating: 4.4, reviews: "5.0k", image: "🧴", affiliateUrl: amazonSearchUrl("sun+hat+sunscreen+travel"), tag: "Sun essential", tagColor: "bg-orange-100 text-orange-700", why: "The open excavated grounds have minimal tree cover." },
-    { name: "Reusable Water Bottle", description: "Facilities are limited around the archaeological site itself.", price: "₹449", rating: 4.5, reviews: "6.2k", image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "All-day essential", tagColor: "bg-sky-100 text-sky-700", why: "There's little in the way of shops or refreshment stands directly at the site." },
-    { name: "Camera with Zoom Lens", description: "For capturing the brick temple detail and excavated monastery layouts.", price: "₹—", rating: 4.4, reviews: "3.1k", image: "📷", affiliateUrl: amazonSearchUrl("camera+zoom+lens+travel"), tag: "Photography essential", tagColor: "bg-forest-100 text-forest-700", why: "Lakshmana Temple's brickwork detail rewards a closer look than a phone camera usually captures." },
+    { name: "Comfortable Walking Shoes", description: "The excavated site spans several separate complexes with uneven, sun-exposed ground between them.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Site-visit essential", tagColor: "bg-amber-100 text-amber-700", why: "Ancient brick and stone remains sit on uneven excavated ground across a wide area." },
+    { name: "Sun Hat & Sunscreen", description: "Sirpur's excavated ruins offer little shade across a multi-hour visit.", price: "₹599",  image: "🧴", affiliateUrl: amazonSearchUrl("sun+hat+sunscreen+travel"), tag: "Sun essential", tagColor: "bg-orange-100 text-orange-700", why: "The open excavated grounds have minimal tree cover." },
+    { name: "Reusable Water Bottle", description: "Facilities are limited around the archaeological site itself.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "All-day essential", tagColor: "bg-sky-100 text-sky-700", why: "There's little in the way of shops or refreshment stands directly at the site." },
+    { name: "Camera with Zoom Lens", description: "For capturing the brick temple detail and excavated monastery layouts.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("camera+zoom+lens+travel"), tag: "Photography essential", tagColor: "bg-forest-100 text-forest-700", why: "Lakshmana Temple's brickwork detail rewards a closer look than a phone camera usually captures." },
   ],
 }];
 
@@ -164,6 +165,8 @@ export default function SirpurGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="sirpur-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Sirpur</h2>

@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -82,10 +83,10 @@ const tableOfContents = [
 const DALHOUSIE_GEAR: GearSection[] = [{
   title: "Things Worth Carrying", subtitle: "Gear for hill walks and cool evenings", emoji: "⛪",
   items: [
-    { name: "Warm Layers", description: "Even summer evenings in Dalhousie are cool given its elevation — pack accordingly.", price: "₹1,999", rating: 4.4, reviews: "4.8k", image: "🧥", affiliateUrl: amazonSearchUrl("warm+jacket+hill+station+travel"), tag: "Evening essential", tagColor: "bg-sky-100 text-sky-700", why: "Temperature drops noticeably after sunset year-round here." },
-    { name: "Comfortable Walking Shoes", description: "Dalhousie's five-hills layout means genuine uphill and downhill walking between sights.", price: "₹1,999", rating: 4.4, reviews: "5.3k", image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-amber-100 text-amber-700", why: "The town's hilly street layout adds up over a day of sightseeing." },
-    { name: "Light Rain Layer", description: "Useful for sudden showers, especially in shoulder-monsoon months.", price: "₹899", rating: 4.4, reviews: "5.1k", image: "🌂", affiliateUrl: amazonSearchUrl("packable+rain+jacket+travel"), tag: "Weather essential", tagColor: "bg-purple-100 text-purple-700", why: "Weather can shift quickly in this hill region." },
-    { name: "Camera", description: "For the colonial architecture, church interiors, and Dainkund Peak's panoramic views.", price: "₹—", rating: 4.5, reviews: "—", image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-forest-100 text-forest-700", why: "Dalhousie's colonial-era buildings and viewpoints are genuinely photogenic." },
+    { name: "Warm Layers", description: "Even summer evenings in Dalhousie are cool given its elevation — pack accordingly.", price: "₹1,999",  image: "🧥", affiliateUrl: amazonSearchUrl("warm+jacket+hill+station+travel"), tag: "Evening essential", tagColor: "bg-sky-100 text-sky-700", why: "Temperature drops noticeably after sunset year-round here." },
+    { name: "Comfortable Walking Shoes", description: "Dalhousie's five-hills layout means genuine uphill and downhill walking between sights.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-amber-100 text-amber-700", why: "The town's hilly street layout adds up over a day of sightseeing." },
+    { name: "Light Rain Layer", description: "Useful for sudden showers, especially in shoulder-monsoon months.", price: "₹899",  image: "🌂", affiliateUrl: amazonSearchUrl("packable+rain+jacket+travel"), tag: "Weather essential", tagColor: "bg-purple-100 text-purple-700", why: "Weather can shift quickly in this hill region." },
+    { name: "Camera", description: "For the colonial architecture, church interiors, and Dainkund Peak's panoramic views.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-forest-100 text-forest-700", why: "Dalhousie's colonial-era buildings and viewpoints are genuinely photogenic." },
   ],
 }];
 
@@ -165,6 +166,8 @@ export default function DalhousieGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="dalhousie-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Dalhousie</h2>

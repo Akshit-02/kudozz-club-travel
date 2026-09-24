@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -199,8 +200,6 @@ const ZIRO_GEAR: GearSection[] = [
         description:
           "The bunds between Ziro's terraced rice-fish fields turn muddy and slick after rain, which falls unpredictably even outside monsoon — proper grip and waterproofing matter more here than in most valleys.",
         price: "₹1,999",
-        rating: 4.5,
-        reviews: "6.3k",
         image: "🥾",
         affiliateUrl: amazonSearchUrl("waterproof+trekking+shoes"),
         tag: "Rice-field essential",
@@ -212,8 +211,6 @@ const ZIRO_GEAR: GearSection[] = [
         description:
           "Ziro sees sudden showers through most of the year, even in the drier winter months — a packable rain shell is more useful here than a bulky umbrella.",
         price: "₹1,299",
-        rating: 4.4,
-        reviews: "5.8k",
         image: "🧥",
         affiliateUrl: amazonSearchUrl("packable+rain+jacket+travel"),
         tag: "All-season essential",
@@ -225,8 +222,6 @@ const ZIRO_GEAR: GearSection[] = [
         description:
           "At ~1,700m elevation, Ziro's evenings drop sharply even in summer, and winter nights can approach freezing — a mid-weight fleece covers most of the year.",
         price: "₹1,499",
-        rating: 4.5,
-        reviews: "7.1k",
         image: "🧣",
         affiliateUrl: amazonSearchUrl("fleece+jacket+travel+warm"),
         tag: "Evening essential",
@@ -238,8 +233,6 @@ const ZIRO_GEAR: GearSection[] = [
         description:
           "Electricity in outlying Apatani villages can be inconsistent, and network coverage is patchy across the valley — a charged power bank keeps your phone alive for photos and navigation.",
         price: "₹1,299",
-        rating: 4.5,
-        reviews: "9.7k",
         image: "🔋",
         affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
         tag: "Off-grid essential",
@@ -251,8 +244,6 @@ const ZIRO_GEAR: GearSection[] = [
         description:
           "The paddy fields and surrounding forest attract mosquitoes and biting insects, especially around dusk near the wetter Apatani villages.",
         price: "₹199",
-        rating: 4.3,
-        reviews: "6.8k",
         image: "🦟",
         affiliateUrl: amazonSearchUrl("mosquito+repellent+travel"),
         tag: "Evening essential",
@@ -264,8 +255,6 @@ const ZIRO_GEAR: GearSection[] = [
         description:
           "The nearest well-equipped hospital is in Itanagar, several hours away — a compact kit for cuts, blisters, and altitude-related headaches is sensible for such a remote valley.",
         price: "₹599",
-        rating: 4.4,
-        reviews: "3.9k",
         image: "🩹",
         affiliateUrl: amazonSearchUrl("travel+first+aid+kit"),
         tag: "Remote-travel essential",
@@ -510,6 +499,8 @@ export default function ZiroValleyGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="ziro-valley-arunachal-travel-guide" />
 
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">

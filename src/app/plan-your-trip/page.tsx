@@ -1,11 +1,16 @@
 import type { Metadata } from "next";
+import SiteHeader from "@/components/layout/SiteHeader";
+import SiteFooter from "@/components/layout/SiteFooter";
 import PlanTripPageClient from "@/components/plan-trip/PlanTripPageClient";
 
 export const metadata: Metadata = {
-  title: "Plan Your Trip — Custom India Itinerary",
+  title: "Plan Your Trip | Custom India Itinerary",
   description:
-    "Tell Kudozz Club where you want to go in India and we'll plan the trip in-house — family holidays, honeymoons, weekend getaways, and more. Get a custom itinerary by email.",
+    "Tell Kudozz Club where you want to go, when, and your budget. Our team plans a customized India itinerary around you: family holidays, honeymoons, pilgrimages and more.",
   keywords: [
+    "India trip planner",
+    "India travel planner",
+    "customized India tour",
     "plan India trip",
     "custom India itinerary",
     "India trip planner",
@@ -14,9 +19,9 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "https://club.kudozz.in/plan-your-trip" },
   openGraph: {
-    title: "Plan Your Trip — Custom India Itinerary | Kudozz Club",
+    title: "Plan Your Trip | Custom India Itinerary | Kudozz Club",
     description:
-      "Tell us where you want to go in India and our in-house team will plan the trip — family holidays, honeymoons, weekend getaways, and more.",
+      "Tell us where you want to go in India and our in-house team will plan the trip around your dates, budget and travel style.",
     url: "https://club.kudozz.in/plan-your-trip",
     type: "website",
   },
@@ -30,7 +35,7 @@ function PlanTripSchema() {
         __html: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "WebPage",
-          name: "Plan Your Trip — Kudozz Club",
+          name: "Plan Your Trip With Kudozz Club",
           url: "https://club.kudozz.in/plan-your-trip",
           breadcrumb: {
             "@type": "BreadcrumbList",
@@ -53,12 +58,7 @@ function PlanTripSchema() {
             "@type": "Service",
             name: "India Trip Planning",
             serviceType: "Custom travel itinerary planning",
-            provider: {
-              "@type": "Organization",
-              name: "Kudozz Club",
-              url: "https://club.kudozz.in",
-              email: "connect@kudozz.in",
-            },
+            provider: { "@id": "https://club.kudozz.in/#organization" },
             areaServed: {
               "@type": "Country",
               name: "India",
@@ -76,7 +76,9 @@ export default function PlanYourTripPage() {
   return (
     <>
       <PlanTripSchema />
+      <SiteHeader />
       <PlanTripPageClient />
+      <SiteFooter />
     </>
   );
 }

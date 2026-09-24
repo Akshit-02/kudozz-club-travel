@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -107,10 +108,10 @@ const AGONDA_GEAR: GearSection[] = [
     subtitle: "Gear for a slow, quiet South Goa beach stay",
     emoji: "🐢",
     items: [
-      { name: "Reef-Safe Sunscreen (SPF 50)", description: "Agonda's long, shade-light stretch of sand calls for strong sun protection over a full beach day.", price: "₹599", rating: 4.5, reviews: "7.4k", image: "🧴", affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+SPF+50"), tag: "Beach essential", tagColor: "bg-amber-100 text-amber-700", why: "Sunburn is the most common regret among travellers who underestimate a full day on Agonda's exposed sand." },
-      { name: "Yoga Mat", description: "Useful if you plan to join one of Agonda's many yoga sessions or practice independently on the beach at sunrise.", price: "₹999", rating: 4.4, reviews: "3.1k", image: "🧘", affiliateUrl: amazonSearchUrl("travel+yoga+mat+lightweight"), tag: "Wellness essential", tagColor: "bg-purple-100 text-purple-700", why: "Agonda's calm reputation has drawn a strong yoga and wellness scene — a personal mat beats renting one." },
-      { name: "Comfortable Sandals", description: "For the walk between the beach, village, and any spice-plantation or Palolem day trip.", price: "₹899", rating: 4.4, reviews: "4.8k", image: "👡", affiliateUrl: amazonSearchUrl("comfortable+sandals+travel"), tag: "All-day essential", tagColor: "bg-sky-100 text-sky-700", why: "Agonda's village and beach paths are sandy and uneven — proper sandals hold up better than flip-flops." },
-      { name: "Insect Repellent", description: "Evenings near the palm groves behind the beach bring a real mosquito presence.", price: "₹199", rating: 4.3, reviews: "4.2k", image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Evening essential", tagColor: "bg-forest-100 text-forest-700", why: "The palm-backed setting that makes Agonda beautiful also makes it mosquito-friendly after dark." },
+      { name: "Reef-Safe Sunscreen (SPF 50)", description: "Agonda's long, shade-light stretch of sand calls for strong sun protection over a full beach day.", price: "₹599",  image: "🧴", affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+SPF+50"), tag: "Beach essential", tagColor: "bg-amber-100 text-amber-700", why: "Sunburn is the most common regret among travellers who underestimate a full day on Agonda's exposed sand." },
+      { name: "Yoga Mat", description: "Useful if you plan to join one of Agonda's many yoga sessions or practice independently on the beach at sunrise.", price: "₹999",  image: "🧘", affiliateUrl: amazonSearchUrl("travel+yoga+mat+lightweight"), tag: "Wellness essential", tagColor: "bg-purple-100 text-purple-700", why: "Agonda's calm reputation has drawn a strong yoga and wellness scene — a personal mat beats renting one." },
+      { name: "Comfortable Sandals", description: "For the walk between the beach, village, and any spice-plantation or Palolem day trip.", price: "₹899",  image: "👡", affiliateUrl: amazonSearchUrl("comfortable+sandals+travel"), tag: "All-day essential", tagColor: "bg-sky-100 text-sky-700", why: "Agonda's village and beach paths are sandy and uneven — proper sandals hold up better than flip-flops." },
+      { name: "Insect Repellent", description: "Evenings near the palm groves behind the beach bring a real mosquito presence.", price: "₹199",  image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Evening essential", tagColor: "bg-forest-100 text-forest-700", why: "The palm-backed setting that makes Agonda beautiful also makes it mosquito-friendly after dark." },
     ],
   },
 ];
@@ -197,6 +198,8 @@ export default function AgondaGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="agonda-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Agonda</h2>

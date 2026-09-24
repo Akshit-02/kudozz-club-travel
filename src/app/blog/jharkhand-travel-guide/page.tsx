@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -199,8 +200,6 @@ const JHARKHAND_GEAR: GearSection[] = [
         description:
           "The rocky, sometimes slippery approach paths to Hundru, Dassam, and Jonha Falls, plus Netarhat's viewpoints, involve real uneven walking.",
         price: "₹1,599",
-        rating: 4.4,
-        reviews: "9.1k",
         image: "👟",
         affiliateUrl: amazonSearchUrl("trekking+shoes+waterproof+travel"),
         tag: "Sightseeing essential",
@@ -212,8 +211,6 @@ const JHARKHAND_GEAR: GearSection[] = [
         description:
           "Jharkhand's dense sal forests and the wooded fringes of Betla National Park make mosquito presence significant, especially at dawn and dusk.",
         price: "₹199",
-        rating: 4.3,
-        reviews: "12k",
         image: "🦟",
         affiliateUrl: amazonSearchUrl("mosquito+repellent+travel"),
         tag: "Forest essential",
@@ -225,8 +222,6 @@ const JHARKHAND_GEAR: GearSection[] = [
         description:
           "Waterfalls are at their best just after the monsoon, but spray, humidity, and lingering showers stick around well into October.",
         price: "₹599",
-        rating: 4.3,
-        reviews: "4.6k",
         image: "🌂",
         affiliateUrl: amazonSearchUrl("rain+jacket+poncho+travel"),
         tag: "Weather essential",
@@ -238,8 +233,6 @@ const JHARKHAND_GEAR: GearSection[] = [
         description:
           "Useful for day trips to Netarhat and Betla, where charging points thin out well before you reach the destination.",
         price: "₹1,299",
-        rating: 4.5,
-        reviews: "9.7k",
         image: "🔋",
         affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
         tag: "Day-trip essential",
@@ -251,8 +244,6 @@ const JHARKHAND_GEAR: GearSection[] = [
         description:
           "Handy across long days visiting waterfalls, the Netarhat plateau, and Betla's safari routes.",
         price: "₹699",
-        rating: 4.5,
-        reviews: "9.3k",
         image: "🍶",
         affiliateUrl: amazonSearchUrl("insulated+water+bottle+steel"),
         tag: "Everyday essential",
@@ -264,8 +255,6 @@ const JHARKHAND_GEAR: GearSection[] = [
         description:
           "Worth having given the state's modest medical infrastructure outside Ranchi and Jamshedpur.",
         price: "₹599",
-        rating: 4.4,
-        reviews: "3.9k",
         image: "🩹",
         affiliateUrl: amazonSearchUrl("travel+first+aid+kit"),
         tag: "Small-town essential",
@@ -505,6 +494,8 @@ export default function JharkhandGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="jharkhand-travel-guide" />
 
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">

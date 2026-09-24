@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -202,8 +203,6 @@ const WEST_BENGAL_GEAR: GearSection[] = [
         description:
           "Darjeeling and Kalimpong sit at altitude and get genuinely cold, especially at sunrise viewpoints like Tiger Hill — a stark contrast to muggy Kolkata.",
         price: "₹1,899",
-        rating: 4.5,
-        reviews: "7.4k",
         image: "🧥",
         affiliateUrl: amazonSearchUrl("fleece+jacket+travel+trekking"),
         tag: "Hill essential",
@@ -215,8 +214,6 @@ const WEST_BENGAL_GEAR: GearSection[] = [
         description:
           "Kolkata's colonial architecture, College Street, and the Darjeeling Mall Road all reward walking — good shoes matter across both legs of the trip.",
         price: "₹1,499",
-        rating: 4.4,
-        reviews: "8.2k",
         image: "👟",
         affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
         tag: "City & hill essential",
@@ -228,8 +225,6 @@ const WEST_BENGAL_GEAR: GearSection[] = [
         description:
           "Essential for both Kolkata's humid evenings and especially a Sundarbans mangrove trip, where mosquito presence is significant.",
         price: "₹199",
-        rating: 4.3,
-        reviews: "12k",
         image: "🦟",
         affiliateUrl: amazonSearchUrl("mosquito+repellent+travel"),
         tag: "Sundarbans essential",
@@ -241,8 +236,6 @@ const WEST_BENGAL_GEAR: GearSection[] = [
         description:
           "For Sundarbans tiger and bird spotting from the boat, and for wide Kanchenjunga views from Darjeeling's viewpoints.",
         price: "₹1,299",
-        rating: 4.4,
-        reviews: "5.3k",
         image: "🔭",
         affiliateUrl: amazonSearchUrl("compact+binoculars+travel"),
         tag: "Wildlife essential",
@@ -254,8 +247,6 @@ const WEST_BENGAL_GEAR: GearSection[] = [
         description:
           "Useful for the long train or road transfers between Kolkata, NJP/Siliguri, and Darjeeling.",
         price: "₹1,299",
-        rating: 4.5,
-        reviews: "9.7k",
         image: "🔋",
         affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
         tag: "Travel-day essential",
@@ -267,8 +258,6 @@ const WEST_BENGAL_GEAR: GearSection[] = [
         description:
           "North Bengal's hill regions see sudden showers even outside peak monsoon, and Kolkata's monsoon downpours are intense and frequent.",
         price: "₹599",
-        rating: 4.3,
-        reviews: "4.6k",
         image: "🌂",
         affiliateUrl: amazonSearchUrl("rain+jacket+poncho+travel"),
         tag: "Weather essential",
@@ -506,6 +495,8 @@ export default function WestBengalGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="west-bengal-travel-guide" />
 
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">

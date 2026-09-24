@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -199,8 +200,6 @@ const DELHI_GEAR: GearSection[] = [
         description:
           "Red Fort, Humayun's Tomb, Qutub Minar and Chandni Chowk all involve extended walking on stone, uneven lanes, and long monument complexes.",
         price: "₹1,499",
-        rating: 4.4,
-        reviews: "8.2k",
         image: "👟",
         affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
         tag: "Monument essential",
@@ -212,8 +211,6 @@ const DELHI_GEAR: GearSection[] = [
         description:
           "Delhi's monument complexes are large and mostly uncovered — Red Fort and Qutub Minar have long stretches with no shade.",
         price: "₹699",
-        rating: 4.5,
-        reviews: "9.3k",
         image: "🍶",
         affiliateUrl: amazonSearchUrl("insulated+water+bottle+steel"),
         tag: "Everyday essential",
@@ -225,8 +222,6 @@ const DELHI_GEAR: GearSection[] = [
         description:
           "Delhi's air quality drops sharply in winter, particularly November–January — a well-fitted mask is worth packing for that window.",
         price: "₹399",
-        rating: 4.3,
-        reviews: "6.4k",
         image: "😷",
         affiliateUrl: amazonSearchUrl("n95+pollution+mask"),
         tag: "Winter essential",
@@ -238,8 +233,6 @@ const DELHI_GEAR: GearSection[] = [
         description:
           "Handy for camera gear, water, and layers across long monument-and-market days that span both Old and New Delhi.",
         price: "₹1,199",
-        rating: 4.4,
-        reviews: "6.1k",
         image: "🎒",
         affiliateUrl: amazonSearchUrl("travel+daypack+backpack"),
         tag: "Sightseeing essential",
@@ -251,8 +244,6 @@ const DELHI_GEAR: GearSection[] = [
         description:
           "Useful for long days out using the metro and navigation apps between Old Delhi, Central Delhi, and South Delhi neighbourhoods.",
         price: "₹1,299",
-        rating: 4.5,
-        reviews: "9.7k",
         image: "🔋",
         affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
         tag: "City-day essential",
@@ -264,8 +255,6 @@ const DELHI_GEAR: GearSection[] = [
         description:
           "Street food is one of Delhi's biggest draws, but it's worth carrying basic digestive medication for first-time visitors trying it extensively.",
         price: "₹399",
-        rating: 4.3,
-        reviews: "4.8k",
         image: "💊",
         affiliateUrl: amazonSearchUrl("travel+digestive+medicine+kit"),
         tag: "Street-food essential",
@@ -504,6 +493,8 @@ export default function DelhiGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="delhi-travel-guide" />
 
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">

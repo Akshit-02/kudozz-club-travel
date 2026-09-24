@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -213,8 +214,6 @@ const NEW_DELHI_GEAR: GearSection[] = [
         description:
           "Kartavya Path alone is over 2 km of exposed walking between India Gate and the Vijay Chowk end near Rashtrapati Bhavan, with little shade along the way.",
         price: "₹1,499",
-        rating: 4.4,
-        reviews: "8.2k",
         image: "👟",
         affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
         tag: "Sightseeing essential",
@@ -226,8 +225,6 @@ const NEW_DELHI_GEAR: GearSection[] = [
         description:
           "The lawns and avenues around India Gate and Kartavya Path are almost entirely open sky — there's very little tree cover directly on the boulevard.",
         price: "₹399",
-        rating: 4.3,
-        reviews: "5.1k",
         image: "🧢",
         affiliateUrl: amazonSearchUrl("travel+sun+hat+cap"),
         tag: "Sun protection",
@@ -239,8 +236,6 @@ const NEW_DELHI_GEAR: GearSection[] = [
         description:
           "Vendors and cafés thin out considerably around the government core compared to markets elsewhere in the city — carrying your own water is genuinely useful.",
         price: "₹699",
-        rating: 4.5,
-        reviews: "9.3k",
         image: "🍶",
         affiliateUrl: amazonSearchUrl("insulated+water+bottle+steel"),
         tag: "Everyday essential",
@@ -252,8 +247,6 @@ const NEW_DELHI_GEAR: GearSection[] = [
         description:
           "Security checks are routine and strict near India Gate, Kartavya Path, Rashtrapati Bhavan, and especially Parliament House — a smaller, simple bag clears faster.",
         price: "₹899",
-        rating: 4.2,
-        reviews: "3.4k",
         image: "🎒",
         affiliateUrl: amazonSearchUrl("small+travel+daypack+clear"),
         tag: "Security-friendly",
@@ -265,8 +258,6 @@ const NEW_DELHI_GEAR: GearSection[] = [
         description:
           "Useful for long stretches walking between Metro stations, monument gates, and booking counters where you'll rely heavily on your phone.",
         price: "₹1,299",
-        rating: 4.5,
-        reviews: "9.7k",
         image: "🔋",
         affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
         tag: "City-day essential",
@@ -278,8 +269,6 @@ const NEW_DELHI_GEAR: GearSection[] = [
         description:
           "Worth carrying if visiting during the monsoon months, since much of the government core sits well away from covered shopping arcades.",
         price: "₹499",
-        rating: 4.3,
-        reviews: "4.2k",
         image: "☂️",
         affiliateUrl: amazonSearchUrl("compact+travel+umbrella"),
         tag: "Monsoon essential",
@@ -550,6 +539,8 @@ export default function NewDelhiGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="new-delhi-travel-guide" />
 
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">

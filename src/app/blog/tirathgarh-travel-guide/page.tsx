@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -81,10 +82,10 @@ const tableOfContents = [
 const TIRATHGARH_GEAR: GearSection[] = [{
   title: "Things Worth Carrying", subtitle: "Gear for wet rocks and forest paths", emoji: "🌿",
   items: [
-    { name: "Sturdy Sandals with Grip", description: "For wet rock sections near the base and multi-tiered pools.", price: "₹899", rating: 4.4, reviews: "5.1k", image: "🥾", affiliateUrl: amazonSearchUrl("grip+sandals+outdoor+wet"), tag: "Base essential", tagColor: "bg-amber-100 text-amber-700", why: "The staggered tiers mean more wet-rock walking than a single-drop waterfall." },
-    { name: "Swimwear", description: "For the lower pools when conditions allow — check locally before swimming.", price: "₹—", rating: 4.4, reviews: "—", image: "🩱", affiliateUrl: amazonSearchUrl("quick+dry+swimwear"), tag: "Optional", tagColor: "bg-sky-100 text-sky-700", why: "Some lower pools are swimmable in drier months, weather permitting." },
-    { name: "Insect Repellent", description: "The surrounding sal forest is genuinely dense — mosquitoes and other insects are a real presence.", price: "₹199", rating: 4.3, reviews: "4.2k", image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Forest essential", tagColor: "bg-forest-100 text-forest-700", why: "Dense forest cover keeps the area cool but also mosquito-friendly." },
-    { name: "Camera", description: "The multi-tiered structure is genuinely distinctive and photogenic from several angles.", price: "₹—", rating: 4.5, reviews: "—", image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-purple-100 text-purple-700", why: "The staggered tiers photograph very differently than a standard single-drop falls." },
+    { name: "Sturdy Sandals with Grip", description: "For wet rock sections near the base and multi-tiered pools.", price: "₹899",  image: "🥾", affiliateUrl: amazonSearchUrl("grip+sandals+outdoor+wet"), tag: "Base essential", tagColor: "bg-amber-100 text-amber-700", why: "The staggered tiers mean more wet-rock walking than a single-drop waterfall." },
+    { name: "Swimwear", description: "For the lower pools when conditions allow — check locally before swimming.", price: "₹—",  image: "🩱", affiliateUrl: amazonSearchUrl("quick+dry+swimwear"), tag: "Optional", tagColor: "bg-sky-100 text-sky-700", why: "Some lower pools are swimmable in drier months, weather permitting." },
+    { name: "Insect Repellent", description: "The surrounding sal forest is genuinely dense — mosquitoes and other insects are a real presence.", price: "₹199",  image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Forest essential", tagColor: "bg-forest-100 text-forest-700", why: "Dense forest cover keeps the area cool but also mosquito-friendly." },
+    { name: "Camera", description: "The multi-tiered structure is genuinely distinctive and photogenic from several angles.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-purple-100 text-purple-700", why: "The staggered tiers photograph very differently than a standard single-drop falls." },
   ],
 }];
 
@@ -164,6 +165,8 @@ export default function TirathgarhGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="tirathgarh-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Tirathgarh</h2>

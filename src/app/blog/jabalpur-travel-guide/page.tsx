@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -104,10 +105,10 @@ const JABALPUR_GEAR: GearSection[] = [
     subtitle: "Gear for boat rides, the ropeway, and temple visits",
     emoji: "🚤",
     items: [
-      { name: "Light Jacket / Windbreaker", description: "Evening and moonlight boat rides through the marble gorge get noticeably cool, especially in winter months.", price: "₹1,299", rating: 4.4, reviews: "4.6k", image: "🧥", affiliateUrl: amazonSearchUrl("light+jacket+windbreaker+travel"), tag: "Boat-ride essential", tagColor: "bg-sky-100 text-sky-700", why: "The Narmada gorge stays breezy after dark, and moonlight boat rides run well into the evening." },
-      { name: "Waterproof Phone Pouch", description: "Handy for the Bhedaghat boat rides and the misty viewing points near Dhuandhar Falls.", price: "₹299", rating: 4.3, reviews: "9.1k", image: "📱", affiliateUrl: amazonSearchUrl("waterproof+phone+pouch+travel"), tag: "Boat-ride essential", tagColor: "bg-purple-100 text-purple-700", why: "Spray from Dhuandhar Falls reaches the nearby viewpoints, and boats can splash a little in the gorge." },
-      { name: "Comfortable Walking Shoes", description: "Chausath Yogini Temple sits atop a hill reached by a flight of stairs, and Madan Mahal Fort involves some uneven rocky terrain.", price: "₹1,699", rating: 4.5, reviews: "6.1k", image: "🥾", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Sightseeing essential", tagColor: "bg-red-100 text-red-700", why: "Both hilltop sites in Jabalpur require a reasonable amount of stair-climbing on uneven surfaces." },
-      { name: "Binoculars", description: "Useful for the Dhuandhar Falls ropeway and for taking in the marble cliffs from the boat at a distance.", price: "₹1,299", rating: 4.2, reviews: "2.4k", image: "🔭", affiliateUrl: amazonSearchUrl("compact+binoculars+travel"), tag: "Sightseeing essential", tagColor: "bg-amber-100 text-amber-700", why: "The full scale of the marble gorge is best appreciated from a bit of distance, which binoculars help with." },
+      { name: "Light Jacket / Windbreaker", description: "Evening and moonlight boat rides through the marble gorge get noticeably cool, especially in winter months.", price: "₹1,299",  image: "🧥", affiliateUrl: amazonSearchUrl("light+jacket+windbreaker+travel"), tag: "Boat-ride essential", tagColor: "bg-sky-100 text-sky-700", why: "The Narmada gorge stays breezy after dark, and moonlight boat rides run well into the evening." },
+      { name: "Waterproof Phone Pouch", description: "Handy for the Bhedaghat boat rides and the misty viewing points near Dhuandhar Falls.", price: "₹299",  image: "📱", affiliateUrl: amazonSearchUrl("waterproof+phone+pouch+travel"), tag: "Boat-ride essential", tagColor: "bg-purple-100 text-purple-700", why: "Spray from Dhuandhar Falls reaches the nearby viewpoints, and boats can splash a little in the gorge." },
+      { name: "Comfortable Walking Shoes", description: "Chausath Yogini Temple sits atop a hill reached by a flight of stairs, and Madan Mahal Fort involves some uneven rocky terrain.", price: "₹1,699",  image: "🥾", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Sightseeing essential", tagColor: "bg-red-100 text-red-700", why: "Both hilltop sites in Jabalpur require a reasonable amount of stair-climbing on uneven surfaces." },
+      { name: "Binoculars", description: "Useful for the Dhuandhar Falls ropeway and for taking in the marble cliffs from the boat at a distance.", price: "₹1,299",  image: "🔭", affiliateUrl: amazonSearchUrl("compact+binoculars+travel"), tag: "Sightseeing essential", tagColor: "bg-amber-100 text-amber-700", why: "The full scale of the marble gorge is best appreciated from a bit of distance, which binoculars help with." },
     ],
   },
 ];
@@ -191,6 +192,8 @@ export default function JabalpurGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="jabalpur-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Jabalpur</h2>

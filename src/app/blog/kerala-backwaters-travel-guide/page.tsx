@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -206,8 +207,6 @@ const BACKWATERS_GEAR: GearSection[] = [
         description:
           "The backwaters host over 140 bird species — kingfishers, herons, darters, and migratory waders. A compact pair fits in any day bag and transforms the canoe village tours from pleasant to genuinely thrilling.",
         price: "₹1,899",
-        rating: 4.4,
-        reviews: "2.4k",
         image: "🔭",
         affiliateUrl: amazonSearchUrl("compact+binoculars+8x21+travel"),
         tag: "Birdwatching essential",
@@ -219,8 +218,6 @@ const BACKWATERS_GEAR: GearSection[] = [
         description:
           "The backwaters are humid wetland — mosquitoes are a genuine evening presence, especially at dusk near Kumarakom and the smaller canals. A DEET-based repellent is non-negotiable for evening deck time.",
         price: "₹249",
-        rating: 4.3,
-        reviews: "9.1k",
         image: "🦟",
         affiliateUrl: amazonSearchUrl("mosquito+repellent+spray+DEET+travel"),
         tag: "Evening essential",
@@ -232,8 +229,6 @@ const BACKWATERS_GEAR: GearSection[] = [
         description:
           "Houseboat bathrooms are functional but basic, and humidity means regular towels never fully dry between uses. A microfiber quick-dry towel is compact, hygienic, and dries in under an hour.",
         price: "₹599",
-        rating: 4.5,
-        reviews: "5.6k",
         image: "🧖",
         affiliateUrl: amazonSearchUrl("quick+dry+microfiber+travel+towel"),
         tag: "Humidity solution",
@@ -245,8 +240,6 @@ const BACKWATERS_GEAR: GearSection[] = [
         description:
           "Canoe tours into the narrow village canals involve low bridges, splashing paddles, and occasional unexpected dips. A dry bag protects phones, cameras, and documents during these excursions.",
         price: "₹899",
-        rating: 4.5,
-        reviews: "3.8k",
         image: "🎒",
         affiliateUrl: amazonSearchUrl("waterproof+dry+bag+10L"),
         tag: "Canoe tour essential",
@@ -258,8 +251,6 @@ const BACKWATERS_GEAR: GearSection[] = [
         description:
           "Polarised lenses cut the glare off the water dramatically — essential for comfortable hours on deck and for actually seeing fish and bird activity beneath the surface glare.",
         price: "₹799",
-        rating: 4.4,
-        reviews: "6.2k",
         image: "🕶️",
         affiliateUrl: amazonSearchUrl("polarised+sunglasses+travel"),
         tag: "Glare reduction",
@@ -271,8 +262,6 @@ const BACKWATERS_GEAR: GearSection[] = [
         description:
           "Kerala's coastal heat and humidity mean steady hydration matters, and most houseboats don't stock enough bottled water for a full day. An insulated bottle keeps water cold through the afternoon heat.",
         price: "₹699",
-        rating: 4.5,
-        reviews: "11.3k",
         image: "💧",
         affiliateUrl: amazonSearchUrl("insulated+water+bottle+1L+travel"),
         tag: "Coastal heat",
@@ -319,7 +308,6 @@ export default function KeralaBackwatersPage() {
               {[
                 { label: "Home", href: "/" },
                 { label: "Blog", href: "/blog" },
-                { label: "Kerala", href: "/blog/kerala-travel-guide" },
                 { label: "Backwaters", href: null },
               ].map((crumb, i, arr) => (
                 <li key={i} className="flex items-center gap-2">
@@ -523,6 +511,8 @@ export default function KeralaBackwatersPage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="kerala-backwaters-travel-guide" />
 
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">

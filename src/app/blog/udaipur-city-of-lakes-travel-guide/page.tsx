@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -205,8 +206,6 @@ const UDAIPUR_GEAR: GearSection[] = [
         description:
           "Udaipur is best explored on foot — cobblestone lanes in the old city, palace courtyards, and ghats all reward comfortable, grippy footwear over anything stiff or new.",
         price: "₹1,299",
-        rating: 4.4,
-        reviews: "6.2k",
         image: "👟",
         affiliateUrl: amazonSearchUrl("comfortable+walking+sandals+travel"),
         tag: "Old-city essential",
@@ -218,8 +217,6 @@ const UDAIPUR_GEAR: GearSection[] = [
         description:
           "Udaipur's sun is direct and largely shade-free around the lakes and palace terraces — a hat makes the boat ride and rooftop viewpoints far more comfortable.",
         price: "₹449",
-        rating: 4.3,
-        reviews: "3.8k",
         image: "👒",
         affiliateUrl: amazonSearchUrl("wide+brim+travel+hat+cotton"),
         tag: "Lake glare",
@@ -231,8 +228,6 @@ const UDAIPUR_GEAR: GearSection[] = [
         description:
           "If you're visiting in the monsoon shoulder season, Udaipur's lakes are at their fullest and most photogenic, but short, sudden showers are common.",
         price: "₹899",
-        rating: 4.4,
-        reviews: "4.5k",
         image: "🌂",
         affiliateUrl: amazonSearchUrl("compact+rain+jacket+travel"),
         tag: "Monsoon shoulder season",
@@ -244,8 +239,6 @@ const UDAIPUR_GEAR: GearSection[] = [
         description:
           "Between City Palace's sprawling galleries, the sunset boat ride, and evening rooftop dinners, phone batteries drain fast on camera use alone.",
         price: "₹1,299",
-        rating: 4.5,
-        reviews: "9.7k",
         image: "🔋",
         affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
         tag: "All-day essential",
@@ -257,8 +250,6 @@ const UDAIPUR_GEAR: GearSection[] = [
         description:
           "Useful as a light shoulder cover for temple visits (Jagdish Temple requires modest dress), sun protection on the boat, and a light layer for cooler winter evenings.",
         price: "₹399",
-        rating: 4.5,
-        reviews: "4.1k",
         image: "🧣",
         affiliateUrl: amazonSearchUrl("cotton+scarf+stole+travel"),
         tag: "Temple + sun cover",
@@ -270,8 +261,6 @@ const UDAIPUR_GEAR: GearSection[] = [
         description:
           "Udaipur's winter days are mild but summer (Apr–Jun) gets genuinely hot — an insulated bottle keeps water cool through long palace and market walks.",
         price: "₹699",
-        rating: 4.5,
-        reviews: "11.3k",
         image: "💧",
         affiliateUrl: amazonSearchUrl("insulated+water+bottle+1L+travel"),
         tag: "Stay hydrated",
@@ -518,6 +507,8 @@ export default function UdaipurCityOfLakesPage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="udaipur-city-of-lakes-travel-guide" />
 
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">

@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -109,12 +110,12 @@ const TARKARLI_GEAR: GearSection[] = [
     subtitle: "Gear for diving, snorkelling, and the beaches",
     emoji: "🤿",
     items: [
-      { name: "Rash Guard / Swim Shirt", description: "Protects against sun and reef contact during snorkelling and diving sessions off Malvan — most operators recommend one.", price: "₹899", rating: 4.4, reviews: "4.8k", image: "🏊", affiliateUrl: amazonSearchUrl("rash+guard+swim+shirt"), tag: "Diving essential", tagColor: "bg-sky-100 text-sky-700", why: "Long boat rides and time in the water add up to serious sun exposure that a rash guard prevents far better than sunscreen alone." },
-      { name: "Waterproof Phone Pouch", description: "Useful for the boat rides to Sindhudurg Fort and Devbagh Sangam without risking a dropped or splashed phone.", price: "₹299", rating: 4.3, reviews: "9.1k", image: "📱", affiliateUrl: amazonSearchUrl("waterproof+phone+pouch+beach"), tag: "Boat-ride essential", tagColor: "bg-purple-100 text-purple-700", why: "Open boat rides to the fort and backwater sangam both carry real risk of a soaked phone without one." },
-      { name: "Reef-Safe Sunscreen (SPF 50)", description: "Protects skin and the coral patches near Tarkarli's dive sites — regular sunscreen chemicals can harm reef ecosystems.", price: "₹599", rating: 4.5, reviews: "7.4k", image: "🧴", affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+SPF+50"), tag: "Diving essential", tagColor: "bg-amber-100 text-amber-700", why: "Tarkarli's live coral patches are part of what makes the diving here worthwhile — reef-safe sunscreen helps keep it that way." },
-      { name: "Quick-Dry Beach Towel", description: "Compact and fast-drying for multiple water sessions across a diving-focused trip.", price: "₹499", rating: 4.4, reviews: "4.2k", image: "🩴", affiliateUrl: amazonSearchUrl("quick+dry+beach+towel"), tag: "Beach essential", tagColor: "bg-forest-100 text-forest-700", why: "Between diving, snorkelling, and beach time, a slow-drying towel becomes a genuine hassle by day two." },
-      { name: "Waterproof Action Camera", description: "For capturing the underwater scuba experience — most dive operators can also provide GoPro footage for a fee, but your own gives more control.", price: "₹3,499", rating: 4.3, reviews: "5.6k", image: "🎥", affiliateUrl: amazonSearchUrl("waterproof+action+camera"), tag: "Diving essential", tagColor: "bg-red-100 text-red-700", why: "This is one of India's few true scuba destinations outside the islands — worth capturing properly rather than relying only on the operator's photos." },
-      { name: "Dry Bag Backpack (20L)", description: "Keeps a change of clothes and electronics dry across boat rides, beach visits, and the diving day.", price: "₹899", rating: 4.4, reviews: "3.9k", image: "🎒", affiliateUrl: amazonSearchUrl("waterproof+dry+bag+backpack+20L"), tag: "Trip essential", tagColor: "bg-sky-100 text-sky-700", why: "A day that moves between boats, beaches, and diving centres needs one dry bag that handles all of it." },
+      { name: "Rash Guard / Swim Shirt", description: "Protects against sun and reef contact during snorkelling and diving sessions off Malvan — most operators recommend one.", price: "₹899",  image: "🏊", affiliateUrl: amazonSearchUrl("rash+guard+swim+shirt"), tag: "Diving essential", tagColor: "bg-sky-100 text-sky-700", why: "Long boat rides and time in the water add up to serious sun exposure that a rash guard prevents far better than sunscreen alone." },
+      { name: "Waterproof Phone Pouch", description: "Useful for the boat rides to Sindhudurg Fort and Devbagh Sangam without risking a dropped or splashed phone.", price: "₹299",  image: "📱", affiliateUrl: amazonSearchUrl("waterproof+phone+pouch+beach"), tag: "Boat-ride essential", tagColor: "bg-purple-100 text-purple-700", why: "Open boat rides to the fort and backwater sangam both carry real risk of a soaked phone without one." },
+      { name: "Reef-Safe Sunscreen (SPF 50)", description: "Protects skin and the coral patches near Tarkarli's dive sites — regular sunscreen chemicals can harm reef ecosystems.", price: "₹599",  image: "🧴", affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+SPF+50"), tag: "Diving essential", tagColor: "bg-amber-100 text-amber-700", why: "Tarkarli's live coral patches are part of what makes the diving here worthwhile — reef-safe sunscreen helps keep it that way." },
+      { name: "Quick-Dry Beach Towel", description: "Compact and fast-drying for multiple water sessions across a diving-focused trip.", price: "₹499",  image: "🩴", affiliateUrl: amazonSearchUrl("quick+dry+beach+towel"), tag: "Beach essential", tagColor: "bg-forest-100 text-forest-700", why: "Between diving, snorkelling, and beach time, a slow-drying towel becomes a genuine hassle by day two." },
+      { name: "Waterproof Action Camera", description: "For capturing the underwater scuba experience — most dive operators can also provide GoPro footage for a fee, but your own gives more control.", price: "₹3,499",  image: "🎥", affiliateUrl: amazonSearchUrl("waterproof+action+camera"), tag: "Diving essential", tagColor: "bg-red-100 text-red-700", why: "This is one of India's few true scuba destinations outside the islands — worth capturing properly rather than relying only on the operator's photos." },
+      { name: "Dry Bag Backpack (20L)", description: "Keeps a change of clothes and electronics dry across boat rides, beach visits, and the diving day.", price: "₹899",  image: "🎒", affiliateUrl: amazonSearchUrl("waterproof+dry+bag+backpack+20L"), tag: "Trip essential", tagColor: "bg-sky-100 text-sky-700", why: "A day that moves between boats, beaches, and diving centres needs one dry bag that handles all of it." },
     ],
   },
 ];
@@ -213,6 +214,8 @@ export default function TarkarliGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="tarkarli-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Tarkarli</h2>

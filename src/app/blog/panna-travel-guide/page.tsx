@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -163,8 +164,6 @@ const PANNA_GEAR: GearSection[] = [
         description:
           "Khaki, olive, or muted brown clothing blends into the forest and doesn't startle wildlife on jeep safaris.",
         price: "₹1,299",
-        rating: 4.4,
-        reviews: "3.2k",
         image: "🥾",
         affiliateUrl: amazonSearchUrl("safari+clothing+khaki+set"),
         tag: "Safari essential",
@@ -176,8 +175,6 @@ const PANNA_GEAR: GearSection[] = [
         description:
           "Useful for both jeep safaris and the Ken River boat ride, where gharials and waterbirds are often spotted well before the boat gets close.",
         price: "₹2,499",
-        rating: 4.5,
-        reviews: "4.6k",
         image: "🔭",
         affiliateUrl: amazonSearchUrl("8x42+binoculars+wildlife"),
         tag: "Non-negotiable",
@@ -189,8 +186,6 @@ const PANNA_GEAR: GearSection[] = [
         description:
           "A 300mm+ reach helps with both tiger photography on jeep safaris and river wildlife on the boat safari.",
         price: "₹8,999+",
-        rating: 4.3,
-        reviews: "1.8k",
         image: "📷",
         affiliateUrl: amazonSearchUrl("bridge+camera+superzoom"),
         tag: "Photography",
@@ -202,8 +197,6 @@ const PANNA_GEAR: GearSection[] = [
         description:
           "Little shade on the Ken River boat safari and during midday jeep stretches — sun protection matters more here than on forest-canopy-heavy reserves.",
         price: "₹499",
-        rating: 4.3,
-        reviews: "5.9k",
         image: "🧢",
         affiliateUrl: amazonSearchUrl("wide+brim+sun+hat+travel"),
         tag: "Comfort essential",
@@ -215,8 +208,6 @@ const PANNA_GEAR: GearSection[] = [
         description:
           "Riverside and forest-edge stops bring mosquitoes, especially at dawn and dusk.",
         price: "₹199",
-        rating: 4.2,
-        reviews: "8.4k",
         image: "🧴",
         affiliateUrl: amazonSearchUrl("insect+repellent+spray"),
         tag: "Comfort essential",
@@ -228,8 +219,6 @@ const PANNA_GEAR: GearSection[] = [
         description:
           "No charging points on safari or the boat ride, and cameras drain fast shooting continuous bursts.",
         price: "₹1,099",
-        rating: 4.4,
-        reviews: "6.7k",
         image: "🔋",
         affiliateUrl: amazonSearchUrl("power+bank+20000mah"),
         tag: "Travel essential",
@@ -392,6 +381,8 @@ export default function PannaGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="panna-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Panna</h2>

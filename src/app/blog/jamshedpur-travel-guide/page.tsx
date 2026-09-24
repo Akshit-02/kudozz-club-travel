@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -159,8 +160,6 @@ const JAMSHEDPUR_GEAR: GearSection[] = [
         description:
           "Jubilee Park alone is large enough to cover several kilometres on foot — comfortable shoes make a real difference over a full day.",
         price: "₹1,999",
-        rating: 4.4,
-        reviews: "5.3k",
         image: "👟",
         affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
         tag: "City-walk essential",
@@ -172,8 +171,6 @@ const JAMSHEDPUR_GEAR: GearSection[] = [
         description:
           "Useful for both a full day at Jubilee Park and a picnic afternoon at Dimna Lake.",
         price: "₹449",
-        rating: 4.5,
-        reviews: "6.2k",
         image: "💧",
         affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"),
         tag: "All-day essential",
@@ -185,8 +182,6 @@ const JAMSHEDPUR_GEAR: GearSection[] = [
         description:
           "Dimna Lake's grassy banks are a popular picnic spot — a light mat makes the visit far more comfortable.",
         price: "₹599",
-        rating: 4.3,
-        reviews: "3.1k",
         image: "🧺",
         affiliateUrl: amazonSearchUrl("picnic+mat+outdoor"),
         tag: "Lake-day essential",
@@ -197,8 +192,6 @@ const JAMSHEDPUR_GEAR: GearSection[] = [
         name: "Sun Hat & Sunscreen",
         description: "For extended time outdoors at both the park and the lake, especially outside winter months.",
         price: "₹499",
-        rating: 4.4,
-        reviews: "5.0k",
         image: "🧢",
         affiliateUrl: amazonSearchUrl("sun+hat+sunscreen+travel"),
         tag: "Comfort essential",
@@ -353,6 +346,8 @@ export default function JamshedpurGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="jamshedpur-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Jamshedpur</h2>

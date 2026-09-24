@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -109,10 +110,10 @@ const AMARKANTAK_GEAR: GearSection[] = [
     subtitle: "Gear for temple walks and forest waterfall trails",
     emoji: "🌊",
     items: [
-      { name: "Comfortable Walking Shoes", description: "Narmada Kund, Sonmuda, and Kapil Dhara Falls all involve walking on uneven, sometimes wet stone paths.", price: "₹1,999", rating: 4.4, reviews: "5.3k", image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Trek essential", tagColor: "bg-amber-100 text-amber-700", why: "Stone paths near the river sources and waterfall can be slippery, especially after rain." },
-      { name: "Modest Cotton Clothing", description: "Amarkantak is a genuine pilgrimage town — modest dress is expected at Narmada Kund and the surrounding temples.", price: "₹599", rating: 4.4, reviews: "3.9k", image: "👕", affiliateUrl: amazonSearchUrl("modest+cotton+travel+clothing"), tag: "Temple essential", tagColor: "bg-purple-100 text-purple-700", why: "This is a spiritually significant site for many pilgrims — respectful dress matters more here than at a typical tourist stop." },
-      { name: "Rain Layer", description: "A packable rain jacket or poncho is useful in shoulder-monsoon months when Kapil Dhara Falls is at its fullest.", price: "₹899", rating: 4.4, reviews: "5.1k", image: "🧥", affiliateUrl: amazonSearchUrl("packable+rain+jacket+travel"), tag: "Weather essential", tagColor: "bg-sky-100 text-sky-700", why: "The falls are most dramatic exactly when rain is most likely." },
-      { name: "Reusable Water Bottle", description: "Facilities are sparse between the main sites, so carrying water is sensible for a full day of walking.", price: "₹449", rating: 4.5, reviews: "6.2k", image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "All-day essential", tagColor: "bg-forest-100 text-forest-700", why: "This is a quiet, spread-out town with fewer shops than bigger MP destinations." },
+      { name: "Comfortable Walking Shoes", description: "Narmada Kund, Sonmuda, and Kapil Dhara Falls all involve walking on uneven, sometimes wet stone paths.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Trek essential", tagColor: "bg-amber-100 text-amber-700", why: "Stone paths near the river sources and waterfall can be slippery, especially after rain." },
+      { name: "Modest Cotton Clothing", description: "Amarkantak is a genuine pilgrimage town — modest dress is expected at Narmada Kund and the surrounding temples.", price: "₹599",  image: "👕", affiliateUrl: amazonSearchUrl("modest+cotton+travel+clothing"), tag: "Temple essential", tagColor: "bg-purple-100 text-purple-700", why: "This is a spiritually significant site for many pilgrims — respectful dress matters more here than at a typical tourist stop." },
+      { name: "Rain Layer", description: "A packable rain jacket or poncho is useful in shoulder-monsoon months when Kapil Dhara Falls is at its fullest.", price: "₹899",  image: "🧥", affiliateUrl: amazonSearchUrl("packable+rain+jacket+travel"), tag: "Weather essential", tagColor: "bg-sky-100 text-sky-700", why: "The falls are most dramatic exactly when rain is most likely." },
+      { name: "Reusable Water Bottle", description: "Facilities are sparse between the main sites, so carrying water is sensible for a full day of walking.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "All-day essential", tagColor: "bg-forest-100 text-forest-700", why: "This is a quiet, spread-out town with fewer shops than bigger MP destinations." },
     ],
   },
 ];
@@ -199,6 +200,8 @@ export default function AmarkantakGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="amarkantak-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Amarkantak</h2>

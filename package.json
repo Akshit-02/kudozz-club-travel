@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "send:campaign": "node scripts/send-campaign.js"
+    "send:campaign": "node scripts/send-campaign.js",
+    "check:links": "node scripts/check-links.mjs",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",

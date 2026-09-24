@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -157,8 +158,6 @@ const BHIMBETKA_GEAR: GearSection[] = [
         description:
           "The developed trail winds over natural rock surfaces and uneven stone steps between shelters — this is not a paved museum walkway.",
         price: "₹1,499",
-        rating: 4.4,
-        reviews: "6.8k",
         image: "🥾",
         affiliateUrl: amazonSearchUrl("sturdy+trekking+walking+shoes"),
         tag: "Trail essential",
@@ -169,8 +168,6 @@ const BHIMBETKA_GEAR: GearSection[] = [
         name: "Wide-Brim Sun Hat",
         description: "Large stretches of the trail between rock shelters are exposed to direct sun with little tree cover.",
         price: "₹399",
-        rating: 4.3,
-        reviews: "3.9k",
         image: "👒",
         affiliateUrl: amazonSearchUrl("wide+brim+sun+hat+travel"),
         tag: "Sun essential",
@@ -181,8 +178,6 @@ const BHIMBETKA_GEAR: GearSection[] = [
         name: "Camera with Good Zoom",
         description: "The paintings sit at varying heights inside shelter overhangs — a zoom lens captures detail without needing to get too close.",
         price: "₹—",
-        rating: 4.4,
-        reviews: "3.1k",
         image: "📷",
         affiliateUrl: amazonSearchUrl("mirrorless+camera+zoom+lens+travel"),
         tag: "Photography essential",
@@ -193,8 +188,6 @@ const BHIMBETKA_GEAR: GearSection[] = [
         name: "1L Water Bottle",
         description: "There are no shops or refreshment stalls along the walking trail itself.",
         price: "₹349",
-        rating: 4.4,
-        reviews: "5.1k",
         image: "💧",
         affiliateUrl: amazonSearchUrl("1l+water+bottle+travel"),
         tag: "Trail essential",
@@ -205,8 +198,6 @@ const BHIMBETKA_GEAR: GearSection[] = [
         name: "Trekking Pole (optional)",
         description: "Useful for anyone less confident on uneven rock surfaces, particularly on the steeper connecting sections of trail.",
         price: "₹699",
-        rating: 4.2,
-        reviews: "1.8k",
         image: "🦯",
         affiliateUrl: amazonSearchUrl("trekking+pole+lightweight"),
         tag: "Comfort essential",
@@ -364,6 +355,8 @@ export default function BhimbetkaGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="bhimbetka-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Bhimbetka</h2>

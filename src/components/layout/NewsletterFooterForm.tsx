@@ -45,7 +45,7 @@ export default function NewsletterFooterForm() {
 
   if (submitted) {
     return (
-      <div className="w-full lg:w-auto lg:min-w-[420px] flex items-center justify-center gap-2 px-5 py-3.5 rounded-full bg-white/15 border border-white/25 text-white text-sm">
+      <div className="w-full lg:w-auto lg:min-w-[420px] flex items-center justify-center gap-2 px-5 py-3.5 rounded-full bg-stone-900 border border-stone-700 text-stone-200 text-sm">
         ✓ You're on the list — check your inbox soon.
       </div>
     );
@@ -61,17 +61,18 @@ export default function NewsletterFooterForm() {
           type="email"
           name="email"
           placeholder="your@email.com"
+          aria-label="Email address for the newsletter"
           required
-          className="flex-1 px-5 py-3.5 rounded-full bg-white/15 backdrop-blur-sm border border-white/25 text-white placeholder:text-white/50 text-sm focus:outline-none focus:ring-2 focus:ring-white/40 focus:bg-white/20 transition-all"
+          className="flex-1 px-5 py-3 rounded-full bg-stone-900 border border-stone-700 text-white placeholder:text-stone-500 text-sm focus:outline-none focus:border-stone-400 transition-all"
           style={{ fontFamily: "var(--font-dm-sans)" }}
         />
         <button
           type="submit"
           disabled={loading}
-          className="px-6 py-3.5 bg-white text-forest-700 font-semibold rounded-full text-sm hover:bg-stone-100 active:scale-95 transition-all whitespace-nowrap shadow-lg disabled:opacity-60"
+          className="px-6 py-3 border border-stone-600 text-stone-200 font-semibold rounded-full text-sm hover:border-stone-300 hover:text-white transition-colors whitespace-nowrap disabled:opacity-60"
           style={{ fontFamily: "var(--font-dm-sans)" }}
         >
-          {loading ? "Joining..." : "Join Free →"}
+          {loading ? "Subscribing..." : "Subscribe"}
         </button>
       </div>
       {error && (

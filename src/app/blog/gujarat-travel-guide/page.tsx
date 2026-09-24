@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -200,8 +201,6 @@ const GUJARAT_GEAR: GearSection[] = [
         description:
           "The white salt desert of the Rann of Kutch reflects sunlight relentlessly — sun protection here isn't optional.",
         price: "₹399",
-        rating: 4.5,
-        reviews: "10k",
         image: "🧴",
         affiliateUrl: amazonSearchUrl("sunscreen+spf+50+travel"),
         tag: "Desert essential",
@@ -213,8 +212,6 @@ const GUJARAT_GEAR: GearSection[] = [
         description:
           "Ahmedabad's old city, Somnath's temple grounds, and the walk out to the white desert all call for sturdy, broken-in footwear.",
         price: "₹1,499",
-        rating: 4.4,
-        reviews: "8.2k",
         image: "👟",
         affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
         tag: "Sightseeing essential",
@@ -226,8 +223,6 @@ const GUJARAT_GEAR: GearSection[] = [
         description:
           "Loose, breathable cotton copes far better with Gujarat's dry heat than synthetic fabrics, especially in Kutch and Gir.",
         price: "₹1,299",
-        rating: 4.3,
-        reviews: "4.6k",
         image: "👕",
         affiliateUrl: amazonSearchUrl("light+cotton+travel+clothing"),
         tag: "Everyday essential",
@@ -239,8 +234,6 @@ const GUJARAT_GEAR: GearSection[] = [
         description:
           "Essential across long desert drives, temple visits, and jeep safaris where bottled water isn't always close at hand.",
         price: "₹699",
-        rating: 4.5,
-        reviews: "9.3k",
         image: "🍶",
         affiliateUrl: amazonSearchUrl("insulated+water+bottle+steel"),
         tag: "Everyday essential",
@@ -252,8 +245,6 @@ const GUJARAT_GEAR: GearSection[] = [
         description:
           "Useful for long road transfers between Ahmedabad, Kutch, Gir, and the temple towns, plus full-day safari outings.",
         price: "₹1,299",
-        rating: 4.5,
-        reviews: "9.7k",
         image: "🔋",
         affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
         tag: "Day-trip essential",
@@ -265,8 +256,6 @@ const GUJARAT_GEAR: GearSection[] = [
         description:
           "A compact kit covering dehydration, minor cuts, and motion sickness is worth having on remote Kutch and Gir routes.",
         price: "₹599",
-        rating: 4.4,
-        reviews: "3.1k",
         image: "🩹",
         affiliateUrl: amazonSearchUrl("compact+first+aid+kit+travel"),
         tag: "Safety essential",
@@ -519,6 +508,8 @@ export default function GujaratGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="gujarat-travel-guide" />
 
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">

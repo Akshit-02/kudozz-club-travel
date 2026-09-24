@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -109,10 +110,10 @@ const GURUVAYUR_GEAR: GearSection[] = [
     subtitle: "Gear for temple queues and traditional dress requirements",
     emoji: "🛕",
     items: [
-      { name: "Traditional Dhoti/Mundu Set", description: "The temple's dress code is strictly enforced — a proper mundu for men is non-negotiable for entry.", price: "₹499", rating: 4.4, reviews: "2.8k", image: "🥻", affiliateUrl: amazonSearchUrl("mens+mundu+dhoti+cotton"), tag: "Temple essential", tagColor: "bg-purple-100 text-purple-700", why: "There are generally no exceptions to the dress code at Guruvayur — arriving prepared avoids a last-minute scramble." },
-      { name: "Comfortable Slip-On Footwear", description: "Long queue standing and frequent footwear removal make slip-ons far more practical than laced shoes.", price: "₹599", rating: 4.3, reviews: "3.5k", image: "🩴", affiliateUrl: amazonSearchUrl("slip+on+sandals+travel"), tag: "Queue essential", tagColor: "bg-amber-100 text-amber-700", why: "Darshan queues at busy times can run long, and footwear comes off well before the sanctum." },
-      { name: "Small Cross-Body Bag", description: "For keeping shoes, phone, and valuables secure while moving through crowded temple queues.", price: "₹399", rating: 4.3, reviews: "2.1k", image: "👝", affiliateUrl: amazonSearchUrl("small+crossbody+travel+bag"), tag: "Queue essential", tagColor: "bg-forest-100 text-forest-700", why: "Guruvayur can be genuinely crowded on weekends and festival days." },
-      { name: "Light Cotton Shawl", description: "Useful as an extra modesty layer and for early-morning darshan queues before sunrise.", price: "₹299", rating: 4.3, reviews: "1.9k", image: "🧣", affiliateUrl: amazonSearchUrl("cotton+shawl+travel"), tag: "Comfort essential", tagColor: "bg-sky-100 text-sky-700", why: "Pre-dawn queue waits can be cool, and a shawl doubles as extra coverage." },
+      { name: "Traditional Dhoti/Mundu Set", description: "The temple's dress code is strictly enforced — a proper mundu for men is non-negotiable for entry.", price: "₹499",  image: "🥻", affiliateUrl: amazonSearchUrl("mens+mundu+dhoti+cotton"), tag: "Temple essential", tagColor: "bg-purple-100 text-purple-700", why: "There are generally no exceptions to the dress code at Guruvayur — arriving prepared avoids a last-minute scramble." },
+      { name: "Comfortable Slip-On Footwear", description: "Long queue standing and frequent footwear removal make slip-ons far more practical than laced shoes.", price: "₹599",  image: "🩴", affiliateUrl: amazonSearchUrl("slip+on+sandals+travel"), tag: "Queue essential", tagColor: "bg-amber-100 text-amber-700", why: "Darshan queues at busy times can run long, and footwear comes off well before the sanctum." },
+      { name: "Small Cross-Body Bag", description: "For keeping shoes, phone, and valuables secure while moving through crowded temple queues.", price: "₹399",  image: "👝", affiliateUrl: amazonSearchUrl("small+crossbody+travel+bag"), tag: "Queue essential", tagColor: "bg-forest-100 text-forest-700", why: "Guruvayur can be genuinely crowded on weekends and festival days." },
+      { name: "Light Cotton Shawl", description: "Useful as an extra modesty layer and for early-morning darshan queues before sunrise.", price: "₹299",  image: "🧣", affiliateUrl: amazonSearchUrl("cotton+shawl+travel"), tag: "Comfort essential", tagColor: "bg-sky-100 text-sky-700", why: "Pre-dawn queue waits can be cool, and a shawl doubles as extra coverage." },
     ],
   },
 ];
@@ -199,6 +200,8 @@ export default function GuruvayurGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="guruvayur-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Guruvayur</h2>

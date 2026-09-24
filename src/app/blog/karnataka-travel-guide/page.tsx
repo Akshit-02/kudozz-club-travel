@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -198,8 +199,6 @@ const KARNATAKA_GEAR: GearSection[] = [
         description:
           "Hampi's boulder-strewn ruins and Mysore Palace's sprawling grounds both involve hours of walking on uneven stone.",
         price: "₹1,499",
-        rating: 4.4,
-        reviews: "8.2k",
         image: "👟",
         affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
         tag: "Sightseeing essential",
@@ -211,8 +210,6 @@ const KARNATAKA_GEAR: GearSection[] = [
         description:
           "Coorg and the Western Ghats stay lush and rainy well beyond the main monsoon months — worth carrying even outside peak monsoon.",
         price: "₹1,299",
-        rating: 4.3,
-        reviews: "4.6k",
         image: "🧥",
         affiliateUrl: amazonSearchUrl("lightweight+rain+jacket+travel"),
         tag: "Western Ghats essential",
@@ -224,8 +221,6 @@ const KARNATAKA_GEAR: GearSection[] = [
         description:
           "Hampi's open, shade-less terrain and coastal Karnataka's beaches both call for serious sun protection.",
         price: "₹399",
-        rating: 4.5,
-        reviews: "10k",
         image: "🧴",
         affiliateUrl: amazonSearchUrl("sunscreen+spf+50+travel"),
         tag: "Everyday essential",
@@ -237,8 +232,6 @@ const KARNATAKA_GEAR: GearSection[] = [
         description:
           "Useful for long inter-city travel days between Bangalore, Mysore, Hampi, and the coast.",
         price: "₹1,299",
-        rating: 4.5,
-        reviews: "9.7k",
         image: "🔋",
         affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
         tag: "Travel-day essential",
@@ -250,8 +243,6 @@ const KARNATAKA_GEAR: GearSection[] = [
         description:
           "Handy across Hampi's hot, dry ruins and Bangalore's cafe-hopping alike.",
         price: "₹699",
-        rating: 4.5,
-        reviews: "9.3k",
         image: "🍶",
         affiliateUrl: amazonSearchUrl("insulated+water+bottle+steel"),
         tag: "Everyday essential",
@@ -263,8 +254,6 @@ const KARNATAKA_GEAR: GearSection[] = [
         description:
           "A basic kit is worth having for trekking near Chikmagalur, boulder-hopping in Hampi, and general road-trip contingencies.",
         price: "₹499",
-        rating: 4.4,
-        reviews: "3.1k",
         image: "🩹",
         affiliateUrl: amazonSearchUrl("compact+travel+first+aid+kit"),
         tag: "Safety essential",
@@ -513,6 +502,8 @@ export default function KarnatakaGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="karnataka-travel-guide" />
 
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">

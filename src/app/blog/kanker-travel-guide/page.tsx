@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -107,10 +108,10 @@ const KANKER_GEAR: GearSection[] = [
     subtitle: "Gear for palace stays and tribal-village visits",
     emoji: "🏰",
     items: [
-      { name: "Comfortable Walking Shoes", description: "For palace grounds and any village or forest walking around Kanker.", price: "₹1,999", rating: 4.4, reviews: "5.3k", image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-amber-100 text-amber-700", why: "Useful across both palace grounds and any rural excursions." },
-      { name: "Modest, Respectful Clothing", description: "For visiting tribal villages respectfully as a guest.", price: "₹799", rating: 4.4, reviews: "3.5k", image: "👕", affiliateUrl: amazonSearchUrl("modest+travel+clothing"), tag: "Cultural-visit essential", tagColor: "bg-purple-100 text-purple-700", why: "Village visits are a genuine cultural exchange, not a photo stop — dress and behave accordingly." },
-      { name: "Insect Repellent", description: "For forested areas and rural surroundings around Kanker.", price: "₹199", rating: 4.3, reviews: "4.2k", image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Forest essential", tagColor: "bg-forest-100 text-forest-700", why: "Kanker's forested terrain brings a real insect presence, especially at dusk." },
-      { name: "Camera", description: "For the palace architecture and rural landscapes, used respectfully and with permission in villages.", price: "₹—", rating: 4.5, reviews: "—", image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-sky-100 text-sky-700", why: "Always ask before photographing people in tribal villages." },
+      { name: "Comfortable Walking Shoes", description: "For palace grounds and any village or forest walking around Kanker.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-amber-100 text-amber-700", why: "Useful across both palace grounds and any rural excursions." },
+      { name: "Modest, Respectful Clothing", description: "For visiting tribal villages respectfully as a guest.", price: "₹799",  image: "👕", affiliateUrl: amazonSearchUrl("modest+travel+clothing"), tag: "Cultural-visit essential", tagColor: "bg-purple-100 text-purple-700", why: "Village visits are a genuine cultural exchange, not a photo stop — dress and behave accordingly." },
+      { name: "Insect Repellent", description: "For forested areas and rural surroundings around Kanker.", price: "₹199",  image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Forest essential", tagColor: "bg-forest-100 text-forest-700", why: "Kanker's forested terrain brings a real insect presence, especially at dusk." },
+      { name: "Camera", description: "For the palace architecture and rural landscapes, used respectfully and with permission in villages.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-sky-100 text-sky-700", why: "Always ask before photographing people in tribal villages." },
     ],
   },
 ];
@@ -197,6 +198,8 @@ export default function KankerGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="kanker-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Kanker</h2>

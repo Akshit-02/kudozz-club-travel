@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -153,8 +154,6 @@ const RAJRAPPA_GEAR: GearSection[] = [
         name: "Modest Cotton Clothing",
         description: "Rajrappa is an active pilgrimage site — modest, covered clothing is expected at the temple.",
         price: "₹599",
-        rating: 4.4,
-        reviews: "3.9k",
         image: "👕",
         affiliateUrl: amazonSearchUrl("modest+cotton+travel+clothing"),
         tag: "Temple essential",
@@ -165,8 +164,6 @@ const RAJRAPPA_GEAR: GearSection[] = [
         name: "Comfortable Sandals",
         description: "For walking the riverside paths and temple grounds comfortably.",
         price: "₹899",
-        rating: 4.4,
-        reviews: "4.8k",
         image: "👡",
         affiliateUrl: amazonSearchUrl("comfortable+sandals+travel"),
         tag: "Riverside essential",
@@ -177,8 +174,6 @@ const RAJRAPPA_GEAR: GearSection[] = [
         name: "Small Bag for Valuables",
         description: "Useful for keeping shoes and belongings secure while at the temple and confluence.",
         price: "₹399",
-        rating: 4.3,
-        reviews: "2.9k",
         image: "🎒",
         affiliateUrl: amazonSearchUrl("small+travel+bag+valuables"),
         tag: "Temple essential",
@@ -327,6 +322,8 @@ export default function RajrappaGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="rajrappa-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Rajrappa</h2>

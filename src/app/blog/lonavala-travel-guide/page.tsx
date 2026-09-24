@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -103,10 +104,10 @@ const LONAVALA_GEAR: GearSection[] = [
     subtitle: "Gear for waterfalls, caves, and monsoon trails",
     emoji: "🌧️",
     items: [
-      { name: "Grip Trekking Sandals", description: "Bhushi Dam's rock steps and the caves' uneven stone floors get slippery in monsoon — proper grip footwear matters more here than almost anywhere else in Maharashtra.", price: "₹899", rating: 4.4, reviews: "5.4k", image: "🥾", affiliateUrl: amazonSearchUrl("trekking+sandals+grip+monsoon"), tag: "Monsoon essential", tagColor: "bg-sky-100 text-sky-700", why: "Slips on wet rock at Bhushi Dam are the single most common minor injury reported by visitors." },
-      { name: "Waterproof Poncho", description: "Lonavala's monsoon showers arrive fast and heavy — a poncho covers both you and a daypack, unlike an umbrella on windy viewpoints.", price: "₹399", rating: 4.3, reviews: "4.1k", image: "🧥", affiliateUrl: amazonSearchUrl("waterproof+poncho+rain"), tag: "Monsoon essential", tagColor: "bg-forest-100 text-forest-700", why: "Umbrellas are nearly useless at the exposed, windy viewpoints Lonavala is known for." },
-      { name: "Waterproof Phone Pouch", description: "Useful at Bhushi Dam and the monsoon waterfalls, where a soaked phone is one of the most common regrets travellers report.", price: "₹299", rating: 4.3, reviews: "8.9k", image: "📱", affiliateUrl: amazonSearchUrl("waterproof+phone+pouch"), tag: "Waterfall essential", tagColor: "bg-purple-100 text-purple-700", why: "Bhushi Dam's cascading steps are a magnet for phone drops and water damage every monsoon." },
-      { name: "Quick-Dry Daypack", description: "A light bag for carrying snacks, a change of clothes, and valuables between the caves and the dam without soaking through.", price: "₹899", rating: 4.4, reviews: "4.6k", image: "🎒", affiliateUrl: amazonSearchUrl("quick+dry+daypack+20l"), tag: "Everyday essential", tagColor: "bg-amber-100 text-amber-700", why: "Canvas or leather bags soak through fast in monsoon rain — quick-dry synthetic packs hold up far better." },
+      { name: "Grip Trekking Sandals", description: "Bhushi Dam's rock steps and the caves' uneven stone floors get slippery in monsoon — proper grip footwear matters more here than almost anywhere else in Maharashtra.", price: "₹899",  image: "🥾", affiliateUrl: amazonSearchUrl("trekking+sandals+grip+monsoon"), tag: "Monsoon essential", tagColor: "bg-sky-100 text-sky-700", why: "Slips on wet rock at Bhushi Dam are the single most common minor injury reported by visitors." },
+      { name: "Waterproof Poncho", description: "Lonavala's monsoon showers arrive fast and heavy — a poncho covers both you and a daypack, unlike an umbrella on windy viewpoints.", price: "₹399",  image: "🧥", affiliateUrl: amazonSearchUrl("waterproof+poncho+rain"), tag: "Monsoon essential", tagColor: "bg-forest-100 text-forest-700", why: "Umbrellas are nearly useless at the exposed, windy viewpoints Lonavala is known for." },
+      { name: "Waterproof Phone Pouch", description: "Useful at Bhushi Dam and the monsoon waterfalls, where a soaked phone is one of the most common regrets travellers report.", price: "₹299",  image: "📱", affiliateUrl: amazonSearchUrl("waterproof+phone+pouch"), tag: "Waterfall essential", tagColor: "bg-purple-100 text-purple-700", why: "Bhushi Dam's cascading steps are a magnet for phone drops and water damage every monsoon." },
+      { name: "Quick-Dry Daypack", description: "A light bag for carrying snacks, a change of clothes, and valuables between the caves and the dam without soaking through.", price: "₹899",  image: "🎒", affiliateUrl: amazonSearchUrl("quick+dry+daypack+20l"), tag: "Everyday essential", tagColor: "bg-amber-100 text-amber-700", why: "Canvas or leather bags soak through fast in monsoon rain — quick-dry synthetic packs hold up far better." },
     ],
   },
 ];
@@ -200,6 +201,8 @@ export default function LonavalaGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="lonavala-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Lonavala</h2>

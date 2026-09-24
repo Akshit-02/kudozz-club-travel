@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -204,8 +205,6 @@ const GOA_GEAR: GearSection[] = [
         description:
           "Goa's sun is intense year-round, and reef-safe formulas avoid contributing to coral and marine damage around watersport zones like Grande Island.",
         price: "₹599",
-        rating: 4.5,
-        reviews: "7.4k",
         image: "🧴",
         affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+SPF+50"),
         tag: "Beach essential",
@@ -217,8 +216,6 @@ const GOA_GEAR: GearSection[] = [
         description:
           "A compact microfiber towel dries in a fraction of the time of cotton — useful when you're hopping between beaches, pools, and shacks across the day.",
         price: "₹499",
-        rating: 4.4,
-        reviews: "5.9k",
         image: "🏖️",
         affiliateUrl: amazonSearchUrl("quick+dry+microfiber+beach+towel"),
         tag: "Multi-beach days",
@@ -230,8 +227,6 @@ const GOA_GEAR: GearSection[] = [
         description:
           "Essential for watersports, boat rides to Grande Island, and simply not worrying about your phone near the surf — clear pouches still let you shoot photos.",
         price: "₹299",
-        rating: 4.3,
-        reviews: "9.1k",
         image: "📱",
         affiliateUrl: amazonSearchUrl("waterproof+phone+pouch+beach"),
         tag: "Watersports essential",
@@ -243,8 +238,6 @@ const GOA_GEAR: GearSection[] = [
         description:
           "Useful as beach-to-shack coverage, sun protection for the shoulders, and modest dress for the churches and temples inland.",
         price: "₹399",
-        rating: 4.4,
-        reviews: "4.2k",
         image: "🧣",
         affiliateUrl: amazonSearchUrl("beach+sarong+cover+up"),
         tag: "Beach-to-town essential",
@@ -256,8 +249,6 @@ const GOA_GEAR: GearSection[] = [
         description:
           "Mosquito activity picks up noticeably around dusk near Goa's beach shacks and backwaters, especially in the shoulder monsoon months.",
         price: "₹199",
-        rating: 4.3,
-        reviews: "6.8k",
         image: "🦟",
         affiliateUrl: amazonSearchUrl("mosquito+repellent+travel"),
         tag: "Evening essential",
@@ -269,8 +260,6 @@ const GOA_GEAR: GearSection[] = [
         description:
           "Long beach days, boat trips, and night markets all drain a phone fast — a reliable power bank keeps you shooting and navigating all day.",
         price: "₹1,299",
-        rating: 4.5,
-        reviews: "9.7k",
         image: "🔋",
         affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
         tag: "All-day essential",
@@ -317,7 +306,6 @@ export default function GoaBeachesGuidePage() {
               {[
                 { label: "Home", href: "/" },
                 { label: "Blog", href: "/blog" },
-                { label: "Goa", href: "/blog/goa-travel-guide" },
                 { label: "Beaches Guide", href: null },
               ].map((crumb, i, arr) => (
                 <li key={i} className="flex items-center gap-2">
@@ -514,6 +502,8 @@ export default function GoaBeachesGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="goa-beaches-travel-guide" />
 
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">

@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -109,11 +110,11 @@ const PACHMARHI_GEAR: GearSection[] = [
     subtitle: "Gear for waterfalls, cave trails, and the Chauragarh climb",
     emoji: "⛰️",
     items: [
-      { name: "Trekking Shoes", description: "Grippy soles matter on the steep, sometimes wet stone steps to Chauragarh and the paths around Bee Falls and Jata Shankar.", price: "₹3,299", rating: 4.5, reviews: "6.8k", image: "🥾", affiliateUrl: amazonSearchUrl("trekking+shoes+men+women"), tag: "Trek essential", tagColor: "bg-amber-100 text-amber-700", why: "Slippery rock steps around the waterfalls and the long Chauragarh climb are where most minor injuries happen." },
-      { name: "Rain Jacket / Poncho", description: "Even outside peak monsoon, Satpura's forested hills see sudden showers — a packable rain layer keeps a day trip from turning into a soggy retreat.", price: "₹899", rating: 4.4, reviews: "5.1k", image: "🧥", affiliateUrl: amazonSearchUrl("packable+rain+jacket+trekking"), tag: "Weather essential", tagColor: "bg-sky-100 text-sky-700", why: "Pachmarhi's elevation and forest cover mean weather can shift fast, especially in shoulder season." },
-      { name: "Reusable Water Bottle (1L)", description: "Several attractions, especially Chauragarh, have long stretches without shops — carrying enough water is non-negotiable on the climb.", price: "₹449", rating: 4.5, reviews: "7.9k", image: "💧", affiliateUrl: amazonSearchUrl("1l+reusable+water+bottle+steel"), tag: "Trek essential", tagColor: "bg-forest-100 text-forest-700", why: "Facilities thin out fast once you're past the main viewpoints into forested sections." },
-      { name: "Insect Repellent", description: "Dense forest and waterfall spray zones mean mosquitoes and other insects are a real presence, especially at dusk.", price: "₹199", rating: 4.3, reviews: "4.2k", image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Forest essential", tagColor: "bg-purple-100 text-purple-700", why: "Evenings around forested viewpoints and caves see a noticeable uptick in mosquito activity." },
-      { name: "Daypack (20L)", description: "For carrying water, snacks, a rain layer, and a camera across a full day of viewpoint-hopping and the Chauragarh trek.", price: "₹899", rating: 4.4, reviews: "4.6k", image: "🎒", affiliateUrl: amazonSearchUrl("20l+daypack+trekking"), tag: "All-day essential", tagColor: "bg-stone-100 text-stone-700", why: "A comfortable daypack makes the difference on the longer Chauragarh climb, where every extra weight matters." },
+      { name: "Trekking Shoes", description: "Grippy soles matter on the steep, sometimes wet stone steps to Chauragarh and the paths around Bee Falls and Jata Shankar.", price: "₹3,299",  image: "🥾", affiliateUrl: amazonSearchUrl("trekking+shoes+men+women"), tag: "Trek essential", tagColor: "bg-amber-100 text-amber-700", why: "Slippery rock steps around the waterfalls and the long Chauragarh climb are where most minor injuries happen." },
+      { name: "Rain Jacket / Poncho", description: "Even outside peak monsoon, Satpura's forested hills see sudden showers — a packable rain layer keeps a day trip from turning into a soggy retreat.", price: "₹899",  image: "🧥", affiliateUrl: amazonSearchUrl("packable+rain+jacket+trekking"), tag: "Weather essential", tagColor: "bg-sky-100 text-sky-700", why: "Pachmarhi's elevation and forest cover mean weather can shift fast, especially in shoulder season." },
+      { name: "Reusable Water Bottle (1L)", description: "Several attractions, especially Chauragarh, have long stretches without shops — carrying enough water is non-negotiable on the climb.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("1l+reusable+water+bottle+steel"), tag: "Trek essential", tagColor: "bg-forest-100 text-forest-700", why: "Facilities thin out fast once you're past the main viewpoints into forested sections." },
+      { name: "Insect Repellent", description: "Dense forest and waterfall spray zones mean mosquitoes and other insects are a real presence, especially at dusk.", price: "₹199",  image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Forest essential", tagColor: "bg-purple-100 text-purple-700", why: "Evenings around forested viewpoints and caves see a noticeable uptick in mosquito activity." },
+      { name: "Daypack (20L)", description: "For carrying water, snacks, a rain layer, and a camera across a full day of viewpoint-hopping and the Chauragarh trek.", price: "₹899",  image: "🎒", affiliateUrl: amazonSearchUrl("20l+daypack+trekking"), tag: "All-day essential", tagColor: "bg-stone-100 text-stone-700", why: "A comfortable daypack makes the difference on the longer Chauragarh climb, where every extra weight matters." },
     ],
   },
 ];
@@ -200,6 +201,8 @@ export default function PachmarhiGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="pachmarhi-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Pachmarhi</h2>

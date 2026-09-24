@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -125,8 +126,6 @@ const SULTANPUR_GEAR: GearSection[] = [
         name: "Binoculars",
         description: "Essential for spotting birds across the wetland, especially species further from the watchtowers.",
         price: "₹1,999",
-        rating: 4.5,
-        reviews: "6.5k",
         image: "🔭",
         affiliateUrl: amazonSearchUrl("binoculars+birdwatching"),
         tag: "Non-negotiable",
@@ -136,8 +135,6 @@ const SULTANPUR_GEAR: GearSection[] = [
         name: "Telephoto Camera Lens",
         description: "For photographing birds at a respectful distance without disturbing them.",
         price: "₹8,999+",
-        rating: 4.4,
-        reviews: "2.1k",
         image: "📷",
         affiliateUrl: amazonSearchUrl("telephoto+lens+bird+photography"),
         tag: "Photography essential",
@@ -147,8 +144,6 @@ const SULTANPUR_GEAR: GearSection[] = [
         name: "Neutral-Toned Clothing",
         description: "Muted colors are less disruptive to wildlife and improve your viewing experience near the watchtowers.",
         price: "₹1,299",
-        rating: 4.4,
-        reviews: "3.8k",
         image: "🧥",
         affiliateUrl: amazonSearchUrl("neutral+outdoor+clothing"),
         tag: "Birding essential",
@@ -158,8 +153,6 @@ const SULTANPUR_GEAR: GearSection[] = [
         name: "Sun Hat",
         description: "Watchtowers and open wetland viewpoints offer little shade during a winter-morning visit.",
         price: "₹499",
-        rating: 4.4,
-        reviews: "5.0k",
         image: "🧢",
         affiliateUrl: amazonSearchUrl("sun+hat+outdoor+travel"),
         tag: "Comfort essential",
@@ -288,6 +281,8 @@ export default function SultanpurGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="sultanpur-national-park-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Sultanpur National Park</h2>

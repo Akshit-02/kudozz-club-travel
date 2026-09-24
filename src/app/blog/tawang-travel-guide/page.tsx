@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -82,10 +83,10 @@ const tableOfContents = [
 const TAWANG_GEAR: GearSection[] = [{
   title: "Things Worth Carrying", subtitle: "Gear for high-altitude cold and the multi-day approach road", emoji: "🏔️",
   items: [
-    { name: "Heavy Down Jacket", description: "Tawang and the passes on the way there are genuinely cold year-round, not just in winter — a proper down jacket is non-negotiable.", price: "₹4,999", rating: 4.6, reviews: "3.4k", image: "🧥", affiliateUrl: amazonSearchUrl("heavy+down+jacket+high+altitude"), tag: "Non-negotiable", tagColor: "bg-red-100 text-red-700", why: "Temperatures near Sela Pass and Bum La drop sharply even outside peak winter — underdressing here is a real risk, not just discomfort." },
-    { name: "Sturdy Trekking Shoes", description: "For monastery courtyards, uneven mountain-town streets, and any short walks near the passes.", price: "₹3,499", rating: 4.5, reviews: "5.1k", image: "🥾", affiliateUrl: amazonSearchUrl("trekking+shoes+high+altitude"), tag: "Trip essential", tagColor: "bg-amber-100 text-amber-700", why: "Terrain here is uneven and often wet or icy in shoulder season." },
-    { name: "High-SPF Sunscreen", description: "High-altitude sun exposure during the drive and at the passes is significantly more intense than it feels.", price: "₹599", rating: 4.5, reviews: "7.4k", image: "🧴", affiliateUrl: amazonSearchUrl("high+spf+sunscreen+travel"), tag: "Altitude essential", tagColor: "bg-sky-100 text-sky-700", why: "Sunburn at 4,000m+ altitude happens faster than most travelers expect, even in cold weather." },
-    { name: "Basic First-Aid & Altitude Kit", description: "Given the genuine altitude gain on this route, carrying basic medication and knowing symptoms of altitude sickness is sensible.", price: "₹499", rating: 4.4, reviews: "3.9k", image: "🩹", affiliateUrl: amazonSearchUrl("travel+first+aid+kit"), tag: "Remote-travel essential", tagColor: "bg-purple-100 text-purple-700", why: "Medical facilities are sparse along this route — basic preparedness matters." },
+    { name: "Heavy Down Jacket", description: "Tawang and the passes on the way there are genuinely cold year-round, not just in winter — a proper down jacket is non-negotiable.", price: "₹4,999",  image: "🧥", affiliateUrl: amazonSearchUrl("heavy+down+jacket+high+altitude"), tag: "Non-negotiable", tagColor: "bg-red-100 text-red-700", why: "Temperatures near Sela Pass and Bum La drop sharply even outside peak winter — underdressing here is a real risk, not just discomfort." },
+    { name: "Sturdy Trekking Shoes", description: "For monastery courtyards, uneven mountain-town streets, and any short walks near the passes.", price: "₹3,499",  image: "🥾", affiliateUrl: amazonSearchUrl("trekking+shoes+high+altitude"), tag: "Trip essential", tagColor: "bg-amber-100 text-amber-700", why: "Terrain here is uneven and often wet or icy in shoulder season." },
+    { name: "High-SPF Sunscreen", description: "High-altitude sun exposure during the drive and at the passes is significantly more intense than it feels.", price: "₹599",  image: "🧴", affiliateUrl: amazonSearchUrl("high+spf+sunscreen+travel"), tag: "Altitude essential", tagColor: "bg-sky-100 text-sky-700", why: "Sunburn at 4,000m+ altitude happens faster than most travelers expect, even in cold weather." },
+    { name: "Basic First-Aid & Altitude Kit", description: "Given the genuine altitude gain on this route, carrying basic medication and knowing symptoms of altitude sickness is sensible.", price: "₹499",  image: "🩹", affiliateUrl: amazonSearchUrl("travel+first+aid+kit"), tag: "Remote-travel essential", tagColor: "bg-purple-100 text-purple-700", why: "Medical facilities are sparse along this route — basic preparedness matters." },
   ],
 }];
 
@@ -165,6 +166,8 @@ export default function TawangGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="tawang-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Tawang</h2>

@@ -1,4 +1,50 @@
-# Kudozz Club — Content Gap Analysis (Commercial Funnel)
+# Kudozz Club — Content Gap Analysis
+
+**Updated:** 2026-09-24. Part A is this pass; Part B is the 2026-09-21 analysis (the gaps it flagged are closed below). Editorial gaps in the guides themselves are in `content-gaps.md`.
+
+---
+
+# Part A — 2026-09-24
+
+## A1. Gaps closed in this pass
+
+| Gap (from Part B or this audit) | Status |
+|---|---|
+| No "Golden Triangle tour package" page | **Built**: `/packages/golden-triangle` (3 routes incl. Ranthambore and Udaipur extensions) |
+| No "Char Dham Yatra package" page | **Built**: `/packages/char-dham-yatra` (full yatra + Do Dham) |
+| No "Northeast India tour packages" page (a named query in the brief) | **Built**: `/packages/northeast-india` (links all 8 NE states) |
+| Package pages capped at 15 places | **Removed**: all real child guides shown, curated popular places first |
+| Package pages had no answers to best time, days, cost, how to reach, suitability | **Added** for 13 priority destinations (see `aeo-geo-audit.md`) |
+| Only Rajasthan had routes | **13 destinations + 3 circuits** now have suggested itineraries linked to guides |
+| Guides had no planning prompt near the top | **Added** after the introduction on all 582 guides |
+
+## A2. Highest-value content still missing (recommended order)
+
+| # | Content | Target intent | Notes |
+|---|---|---|---|
+| 1 | **Profiles for 7 more states** (Tamil Nadu, Punjab, Uttar Pradesh, Odisha, West Bengal, Assam, Maharashtra) | `<state> tour packages` | Data only, taken from existing hub FAQs. No new pages. |
+| 2 | **Destination × style pages** for the strongest pairs only: Kerala honeymoon, Kashmir honeymoon, Goa honeymoon, Andaman honeymoon, Rajasthan family, Himachal family | "Kerala honeymoon packages" etc. | These are distinct, high-intent queries in `keyword-map-commercial.md`. Build only with genuinely different content (stays, pacing, routes); otherwise they'd be thin near-duplicates. |
+| 3 | **"Weekend getaways from <city>"** for Delhi, Mumbai, Bengaluru | Departure-city intent | Uses existing guides (Rishikesh, Lonavala, Coorg, Nandi Hills…). The enquiry form already captures departure city. |
+| 4 | **Itinerary-length pages for top routes** ("5-day Kashmir itinerary", "7-day Rajasthan itinerary") | "N days in X" | Could be guide content (informational) that funnels to the package page. Decide on guide vs package placement to avoid cannibalising `/packages/<state>`. |
+| 5 | **Quick-answer boxes on the 36 hub guides** | AEO | See `aeo-geo-audit.md` §4. |
+| 6 | **Comparison guides** ("Kashmir vs Himachal in winter", "Kerala vs Goa for a honeymoon") | Decision-stage queries | Natural commercial bridge; high AI-overview citation potential. |
+| 7 | **Seasonal pages** ("Ladakh in September", "Kashmir in winter", "Rann Utsav") | Time-bound intent | Lower priority; tie to real departure planning. |
+
+## A3. Trust content blocked on the Kudozz team
+
+These are the biggest remaining conversion gaps, and none can be written without facts from the team (`human-input-required.md` §3):
+
+- Real client testimonials and trip stories
+- A named team page with photos
+- Privacy policy, terms, cancellation and refund policy
+- What exactly is booked or handled after the itinerary is agreed
+- Phone/WhatsApp contact
+- Business registration details
+
+---
+
+# Part B — 2026-09-21 analysis
+
 
 **Date:** 2026-09-21
 **Scope:** Gaps in the *commercial* page layer (`/packages/*`) built in Phase 7, now that all 36 states and 9 travel styles have real pages and are linked bidirectionally with the 582 editorial guides (`internal-linking-audit.md`). This is distinct from the pre-existing `content-gaps.md`, which covers editorial/blog content gaps and is unchanged.

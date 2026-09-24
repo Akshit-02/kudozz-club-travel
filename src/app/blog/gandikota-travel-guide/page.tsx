@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -81,10 +82,10 @@ const tableOfContents = [
 const GANDIKOTA_GEAR: GearSection[] = [{
   title: "Things Worth Carrying", subtitle: "Gear for gorge viewpoints and camping", emoji: "🏜️",
   items: [
-    { name: "Sturdy Walking Shoes", description: "For navigating the fort ruins and uneven gorge-edge terrain safely.", price: "₹1,999", rating: 4.4, reviews: "5.3k", image: "🥾", affiliateUrl: amazonSearchUrl("sturdy+trekking+shoes+outdoor"), tag: "Safety essential", tagColor: "bg-red-100 text-red-700", why: "Solid footing matters given the largely unfenced gorge edges." },
-    { name: "Sun Hat & Sunscreen", description: "Gandikota's Rayalaseema location means genuinely intense sun with little shade at the fort/gorge.", price: "₹599", rating: 4.5, reviews: "7.4k", image: "🧴", affiliateUrl: amazonSearchUrl("sun+hat+sunscreen+travel"), tag: "Heat essential", tagColor: "bg-amber-100 text-amber-700", why: "Exposed rock terrain offers essentially no shade cover during the day." },
-    { name: "Camping Gear (if staying overnight)", description: "A tent and sleeping bag if you're not booking through a full-service camping operator.", price: "₹3,999+", rating: 4.4, reviews: "2.1k", image: "⛺", affiliateUrl: amazonSearchUrl("camping+tent+sleeping+bag+set"), tag: "Overnight essential", tagColor: "bg-forest-100 text-forest-700", why: "Camping is genuinely the best way to catch both sunset and sunrise over the gorge." },
-    { name: "Reusable Water Bottle (2L)", description: "Facilities are minimal at the site — carry more water than you think you'll need.", price: "₹449", rating: 4.5, reviews: "6.2k", image: "💧", affiliateUrl: amazonSearchUrl("2l+reusable+water+bottle"), tag: "Essential", tagColor: "bg-sky-100 text-sky-700", why: "This is a genuinely remote, low-facility site in a hot region." },
+    { name: "Sturdy Walking Shoes", description: "For navigating the fort ruins and uneven gorge-edge terrain safely.", price: "₹1,999",  image: "🥾", affiliateUrl: amazonSearchUrl("sturdy+trekking+shoes+outdoor"), tag: "Safety essential", tagColor: "bg-red-100 text-red-700", why: "Solid footing matters given the largely unfenced gorge edges." },
+    { name: "Sun Hat & Sunscreen", description: "Gandikota's Rayalaseema location means genuinely intense sun with little shade at the fort/gorge.", price: "₹599",  image: "🧴", affiliateUrl: amazonSearchUrl("sun+hat+sunscreen+travel"), tag: "Heat essential", tagColor: "bg-amber-100 text-amber-700", why: "Exposed rock terrain offers essentially no shade cover during the day." },
+    { name: "Camping Gear (if staying overnight)", description: "A tent and sleeping bag if you're not booking through a full-service camping operator.", price: "₹3,999+",  image: "⛺", affiliateUrl: amazonSearchUrl("camping+tent+sleeping+bag+set"), tag: "Overnight essential", tagColor: "bg-forest-100 text-forest-700", why: "Camping is genuinely the best way to catch both sunset and sunrise over the gorge." },
+    { name: "Reusable Water Bottle (2L)", description: "Facilities are minimal at the site — carry more water than you think you'll need.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("2l+reusable+water+bottle"), tag: "Essential", tagColor: "bg-sky-100 text-sky-700", why: "This is a genuinely remote, low-facility site in a hot region." },
   ],
 }];
 
@@ -164,6 +165,8 @@ export default function GandikotaGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="gandikota-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Gandikota</h2>

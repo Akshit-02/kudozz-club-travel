@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -109,10 +110,10 @@ const BADAMI_GEAR: GearSection[] = [
     subtitle: "Gear for a full day of temple-hopping and cave steps",
     emoji: "🛕",
     items: [
-      { name: "Comfortable Walking/Climbing Shoes", description: "Extensive stairs at the Badami cave temples and fort, plus uneven ground across Aihole and Pattadakal's temple clusters.", price: "₹1,999", rating: 4.4, reviews: "5.3k", image: "🥾", affiliateUrl: amazonSearchUrl("comfortable+trekking+shoes"), tag: "All-day essential", tagColor: "bg-amber-100 text-amber-700", why: "This circuit involves more stairs and uneven stone ground than most single-site heritage visits." },
-      { name: "Sun Hat & Sunglasses", description: "All three sites are largely open-air with minimal shade between temple clusters.", price: "₹499", rating: 4.4, reviews: "5.0k", image: "🧢", affiliateUrl: amazonSearchUrl("sun+hat+travel+outdoor"), tag: "Sun essential", tagColor: "bg-orange-100 text-orange-700", why: "A full day moving between exposed temple sites means real cumulative sun exposure." },
-      { name: "Reusable Water Bottle (1L)", description: "Facilities are limited at Aihole and Pattadakal in particular — carry enough water for a full circuit day.", price: "₹449", rating: 4.5, reviews: "7.9k", image: "💧", affiliateUrl: amazonSearchUrl("1l+reusable+water+bottle+steel"), tag: "Non-negotiable", tagColor: "bg-forest-100 text-forest-700", why: "Between sites, shops and water points thin out fast." },
-      { name: "Small Torch / Flashlight", description: "Useful for the darker interiors of the Badami cave temples.", price: "₹399", rating: 4.3, reviews: "3.1k", image: "🔦", affiliateUrl: amazonSearchUrl("small+led+flashlight+travel"), tag: "Cave essential", tagColor: "bg-purple-100 text-purple-700", why: "Cave interiors are naturally dim, and a light helps pick out carved detail." },
+      { name: "Comfortable Walking/Climbing Shoes", description: "Extensive stairs at the Badami cave temples and fort, plus uneven ground across Aihole and Pattadakal's temple clusters.", price: "₹1,999",  image: "🥾", affiliateUrl: amazonSearchUrl("comfortable+trekking+shoes"), tag: "All-day essential", tagColor: "bg-amber-100 text-amber-700", why: "This circuit involves more stairs and uneven stone ground than most single-site heritage visits." },
+      { name: "Sun Hat & Sunglasses", description: "All three sites are largely open-air with minimal shade between temple clusters.", price: "₹499",  image: "🧢", affiliateUrl: amazonSearchUrl("sun+hat+travel+outdoor"), tag: "Sun essential", tagColor: "bg-orange-100 text-orange-700", why: "A full day moving between exposed temple sites means real cumulative sun exposure." },
+      { name: "Reusable Water Bottle (1L)", description: "Facilities are limited at Aihole and Pattadakal in particular — carry enough water for a full circuit day.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("1l+reusable+water+bottle+steel"), tag: "Non-negotiable", tagColor: "bg-forest-100 text-forest-700", why: "Between sites, shops and water points thin out fast." },
+      { name: "Small Torch / Flashlight", description: "Useful for the darker interiors of the Badami cave temples.", price: "₹399",  image: "🔦", affiliateUrl: amazonSearchUrl("small+led+flashlight+travel"), tag: "Cave essential", tagColor: "bg-purple-100 text-purple-700", why: "Cave interiors are naturally dim, and a light helps pick out carved detail." },
     ],
   },
 ];
@@ -199,6 +200,8 @@ export default function BadamiGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="badami-aihole-pattadakal-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit</h2>

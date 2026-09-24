@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -81,10 +82,10 @@ const tableOfContents = [
 const HAFLONG_GEAR: GearSection[] = [{
   title: "Things Worth Carrying", subtitle: "Gear for a remote, forested hill-station trip", emoji: "🏔️",
   items: [
-    { name: "Comfortable Walking Shoes", description: "For exploring the hilly terrain around Haflong Lake and any nearby trekking trails.", price: "₹1,999", rating: 4.4, reviews: "5.3k", image: "🥾", affiliateUrl: amazonSearchUrl("comfortable+trekking+shoes"), tag: "Trip essential", tagColor: "bg-amber-100 text-amber-700", why: "Haflong's terrain is genuinely hilly — proper footwear matters throughout a visit." },
-    { name: "Light Warm Layers", description: "The hill climate here is noticeably cooler than the Assam plains, especially in the mornings and evenings.", price: "₹1,499", rating: 4.4, reviews: "3.8k", image: "🧥", affiliateUrl: amazonSearchUrl("light+warm+jacket+travel"), tag: "Climate essential", tagColor: "bg-sky-100 text-sky-700", why: "Haflong's elevation gives it a genuinely cooler microclimate than surrounding lowland Assam." },
-    { name: "Insect Repellent", description: "Essential for the forested hill terrain, especially around the lake and any evening outings.", price: "₹199", rating: 4.3, reviews: "4.2k", image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Forest essential", tagColor: "bg-forest-100 text-forest-700", why: "Dense forest cover around Haflong makes insect protection a practical necessity." },
-    { name: "Power Bank", description: "Given the area's remoteness, a fully charged backup power source is a sensible precaution.", price: "₹1,299", rating: 4.4, reviews: "6.8k", image: "🔋", affiliateUrl: amazonSearchUrl("power+bank+travel"), tag: "Remote-travel essential", tagColor: "bg-purple-100 text-purple-700", why: "Limited infrastructure means charging opportunities can be less reliable than in bigger towns." },
+    { name: "Comfortable Walking Shoes", description: "For exploring the hilly terrain around Haflong Lake and any nearby trekking trails.", price: "₹1,999",  image: "🥾", affiliateUrl: amazonSearchUrl("comfortable+trekking+shoes"), tag: "Trip essential", tagColor: "bg-amber-100 text-amber-700", why: "Haflong's terrain is genuinely hilly — proper footwear matters throughout a visit." },
+    { name: "Light Warm Layers", description: "The hill climate here is noticeably cooler than the Assam plains, especially in the mornings and evenings.", price: "₹1,499",  image: "🧥", affiliateUrl: amazonSearchUrl("light+warm+jacket+travel"), tag: "Climate essential", tagColor: "bg-sky-100 text-sky-700", why: "Haflong's elevation gives it a genuinely cooler microclimate than surrounding lowland Assam." },
+    { name: "Insect Repellent", description: "Essential for the forested hill terrain, especially around the lake and any evening outings.", price: "₹199",  image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Forest essential", tagColor: "bg-forest-100 text-forest-700", why: "Dense forest cover around Haflong makes insect protection a practical necessity." },
+    { name: "Power Bank", description: "Given the area's remoteness, a fully charged backup power source is a sensible precaution.", price: "₹1,299",  image: "🔋", affiliateUrl: amazonSearchUrl("power+bank+travel"), tag: "Remote-travel essential", tagColor: "bg-purple-100 text-purple-700", why: "Limited infrastructure means charging opportunities can be less reliable than in bigger towns." },
   ],
 }];
 
@@ -164,6 +165,8 @@ export default function HaflongGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="haflong-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Haflong</h2>

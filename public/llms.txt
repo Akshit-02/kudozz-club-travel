@@ -1,24 +1,86 @@
 # Kudozz Club
 
-> Kudozz Club is an India-focused travel platform covering every Indian state and union territory. Our editorial team researches and writes hand-crafted destination guides — multi-day itineraries, best-time-to-visit advice, how-to-reach directions, budget breakdowns, and practical planning tips — for states, cities, towns, and individual tourist attractions across India. We do not accept paid placements in editorial content. Separately, an in-house team also plans custom India trips end to end for travelers who submit an enquiry through the Plan Your Trip page.
+> Kudozz Club is an India-focused travel agency that plans customized trips across India. Travellers share where they want to go, their dates, budget and travel style through the Plan My Trip form, and the Kudozz Club team plans the itinerary in-house and refines it with them by email. Pricing is quoted per enquiry; no package prices are published. The agency is backed by a library of 582 free destination guides covering all 28 Indian states and 8 union territories, which supplies the destination knowledge behind every itinerary.
 
-This file lists every published guide so AI systems and answer engines can find and cite authoritative, current Kudozz Club content. This index currently covers 582 published guides across all 28 Indian states and 8 union territories.
+Official website: https://club.kudozz.in (also searched as "Kudoz Club", "Kudos Club"). Contact: connect@kudozz.in.
 
-## Geographic Coverage
+## Key pages
 
-Kudozz Club organizes content as a geographic hierarchy: India → State/Union Territory → City/Region → Destination → Tourist Attraction. Each state or union territory has one flagship guide (marked 🗺️ below) that links out to its cities, towns, and individual attraction guides; each of those child pages links back to its parent state guide via breadcrumb navigation.
+- [Home](https://club.kudozz.in/): Kudozz Club, India travel agency for customized trips.
+- [Plan My Trip](https://club.kudozz.in/plan-your-trip): trip enquiry form (destination, dates, travellers, trip type, budget, accommodation, contact details). The main way to start planning.
+- [India Tour Packages](https://club.kudozz.in/packages): index of every destination, circuit and travel-style package page.
+- [Destinations](https://club.kudozz.in/destinations): every destination guide, organised by state.
+- [Travel Guides](https://club.kudozz.in/blog): the full guide library.
+- [About](https://club.kudozz.in/about): who Kudozz Club is, how trip planning works, editorial independence.
+- [Contact](https://club.kudozz.in/contact): trip enquiries and other contact.
 
-## Content Categories
+## How the site is organised
 
-Guides fall into these types: state/UT overview guides, city guides, individual destination and attraction guides (forts, temples, beaches, lakes, waterfalls, national parks, hill stations, islands), multi-day itineraries, road trips, wildlife and adventure guides, and off-beat/hidden-gem destinations. Most guides include a suggested itinerary, best-time-to-visit advice, how-to-reach directions, a budget breakdown, and an FAQ section.
+Content follows a geographic hierarchy and a planning funnel:
 
-## Tour Packages & Trip Planning
+India → Region → State/Union Territory → City/Area → Attraction
+Travel guide (informational) → Destination/state guide → Tour package page (commercial) → Plan My Trip (enquiry)
 
-Kudozz Club also offers in-house trip planning, separate from the editorial guides above. Pricing is enquiry-based — no packages are pre-priced.
+Each state/UT has one hub guide (marked 🗺️ below) linking to its city and attraction guides, and one tour package page at /packages/<state> linking back to those guides. Every guide links forward to its state's package page and to Plan My Trip. The guides stay independent: Kudozz Club does not accept paid placements in guide content.
 
-- [Plan Your Trip](https://club.kudozz.in/plan-your-trip): the trip-planning enquiry form. Submit a destination, dates, and traveler details to get a custom itinerary by email.
-- [Tour Packages](https://club.kudozz.in/packages): index of destination and travel-style trip-planning pages.
-- [Rajasthan Tour Packages](https://club.kudozz.in/packages/rajasthan): the one fully-built destination package page as of this writing — duration options, popular routes, and an enquiry CTA. Other states link to their editorial guide plus the enquiry form until their own package pages are built.
+## Popular circuits
+
+- [Golden Triangle Tour Packages](https://club.kudozz.in/packages/golden-triangle): Delhi, Agra and Jaipur; 5–6 days typical.
+- [Char Dham Yatra Packages](https://club.kudozz.in/packages/char-dham-yatra): Yamunotri, Gangotri, Kedarnath and Badrinath in Uttarakhand; 10–12 days by road.
+- [Northeast India Tour Packages](https://club.kudozz.in/packages/northeast-india): Meghalaya, Assam, Sikkim, Arunachal Pradesh and the other northeastern states.
+
+## Travel styles
+
+- [Family Holidays](https://club.kudozz.in/packages/family-holidays): Kid-friendly pacing and stays.
+- [Honeymoon](https://club.kudozz.in/packages/honeymoon): Romantic routes, privacy-first stays.
+- [Weekend Getaways](https://club.kudozz.in/packages/weekend-getaways): Short trips, minimal planning.
+- [Group Tours](https://club.kudozz.in/packages/group-tours): Friends, family reunions, larger groups.
+- [Adventure Trips](https://club.kudozz.in/packages/adventure-tours): Trekking, rafting, road trips.
+- [Wildlife Trips](https://club.kudozz.in/packages/wildlife-tours): National parks and safaris.
+- [Spiritual & Pilgrimage](https://club.kudozz.in/packages/spiritual-tours): Char Dham, temple circuits.
+- [Luxury Holidays](https://club.kudozz.in/packages/luxury-holidays): Premium stays, private transport.
+- [Budget Holidays](https://club.kudozz.in/packages/budget-holidays): Value-conscious, still well-planned.
+
+## Tour packages by state and union territory
+
+- [Rajasthan Tour Packages](https://club.kudozz.in/packages/rajasthan): customized Rajasthan trips (includes suggested routes, best time, days needed, cost guidance, family/honeymoon suitability and FAQs).
+- [Kerala Tour Packages](https://club.kudozz.in/packages/kerala): customized Kerala trips (includes suggested routes, best time, days needed, cost guidance, family/honeymoon suitability and FAQs).
+- [Goa Tour Packages](https://club.kudozz.in/packages/goa): customized Goa trips (includes suggested routes, best time, days needed, cost guidance, family/honeymoon suitability and FAQs).
+- [Jammu & Kashmir Tour Packages](https://club.kudozz.in/packages/kashmir): customized Jammu & Kashmir trips (includes suggested routes, best time, days needed, cost guidance, family/honeymoon suitability and FAQs).
+- [Himachal Pradesh Tour Packages](https://club.kudozz.in/packages/himachal-pradesh): customized Himachal Pradesh trips (includes suggested routes, best time, days needed, cost guidance, family/honeymoon suitability and FAQs).
+- [Uttarakhand Tour Packages](https://club.kudozz.in/packages/uttarakhand): customized Uttarakhand trips (includes suggested routes, best time, days needed, cost guidance, family/honeymoon suitability and FAQs).
+- [Ladakh Tour Packages](https://club.kudozz.in/packages/leh-ladakh): customized Ladakh trips (includes suggested routes, best time, days needed, cost guidance, family/honeymoon suitability and FAQs).
+- [Meghalaya Tour Packages](https://club.kudozz.in/packages/meghalaya): customized Meghalaya trips (includes suggested routes, best time, days needed, cost guidance, family/honeymoon suitability and FAQs).
+- [Andaman & Nicobar Islands Tour Packages](https://club.kudozz.in/packages/andaman-nicobar): customized Andaman & Nicobar Islands trips (includes suggested routes, best time, days needed, cost guidance, family/honeymoon suitability and FAQs).
+- [Andhra Pradesh Tour Packages](https://club.kudozz.in/packages/andhra-pradesh): customized Andhra Pradesh trips.
+- [Arunachal Pradesh Tour Packages](https://club.kudozz.in/packages/arunachal-pradesh): customized Arunachal Pradesh trips.
+- [Assam Tour Packages](https://club.kudozz.in/packages/assam): customized Assam trips.
+- [Bihar Tour Packages](https://club.kudozz.in/packages/bihar): customized Bihar trips.
+- [Chandigarh Tour Packages](https://club.kudozz.in/packages/chandigarh): customized Chandigarh trips.
+- [Chhattisgarh Tour Packages](https://club.kudozz.in/packages/chhattisgarh): customized Chhattisgarh trips.
+- [Dadra and Nagar Haveli and Daman and Diu Tour Packages](https://club.kudozz.in/packages/dadra-nagar-haveli-daman-diu): customized Dadra and Nagar Haveli and Daman and Diu trips.
+- [Delhi Tour Packages](https://club.kudozz.in/packages/delhi): customized Delhi trips.
+- [Gujarat Tour Packages](https://club.kudozz.in/packages/gujarat): customized Gujarat trips (includes suggested routes, best time, days needed, cost guidance, family/honeymoon suitability and FAQs).
+- [Haryana Tour Packages](https://club.kudozz.in/packages/haryana): customized Haryana trips.
+- [Jharkhand Tour Packages](https://club.kudozz.in/packages/jharkhand): customized Jharkhand trips.
+- [Karnataka Tour Packages](https://club.kudozz.in/packages/karnataka): customized Karnataka trips (includes suggested routes, best time, days needed, cost guidance, family/honeymoon suitability and FAQs).
+- [Lakshadweep Tour Packages](https://club.kudozz.in/packages/lakshadweep): customized Lakshadweep trips.
+- [Madhya Pradesh Tour Packages](https://club.kudozz.in/packages/madhya-pradesh): customized Madhya Pradesh trips (includes suggested routes, best time, days needed, cost guidance, family/honeymoon suitability and FAQs).
+- [Maharashtra Tour Packages](https://club.kudozz.in/packages/maharashtra): customized Maharashtra trips.
+- [Manipur Tour Packages](https://club.kudozz.in/packages/manipur): customized Manipur trips.
+- [Mizoram Tour Packages](https://club.kudozz.in/packages/mizoram): customized Mizoram trips.
+- [Nagaland Tour Packages](https://club.kudozz.in/packages/nagaland): customized Nagaland trips.
+- [Odisha Tour Packages](https://club.kudozz.in/packages/odisha): customized Odisha trips.
+- [Puducherry Tour Packages](https://club.kudozz.in/packages/puducherry): customized Puducherry trips.
+- [Punjab Tour Packages](https://club.kudozz.in/packages/punjab): customized Punjab trips.
+- [Sikkim Tour Packages](https://club.kudozz.in/packages/sikkim): customized Sikkim trips (includes suggested routes, best time, days needed, cost guidance, family/honeymoon suitability and FAQs).
+- [Tamil Nadu Tour Packages](https://club.kudozz.in/packages/tamil-nadu): customized Tamil Nadu trips.
+- [Telangana Tour Packages](https://club.kudozz.in/packages/telangana): customized Telangana trips.
+- [Tripura Tour Packages](https://club.kudozz.in/packages/tripura): customized Tripura trips.
+- [Uttar Pradesh Tour Packages](https://club.kudozz.in/packages/uttar-pradesh): customized Uttar Pradesh trips.
+- [West Bengal Tour Packages](https://club.kudozz.in/packages/west-bengal): customized West Bengal trips.
+
+## Destination guides
 
 ## North India
 

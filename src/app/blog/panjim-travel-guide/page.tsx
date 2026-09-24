@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -81,10 +82,10 @@ const tableOfContents = [
 const PANJIM_GEAR: GearSection[] = [{
   title: "Things Worth Carrying", subtitle: "Gear for heritage walks and riverfront evenings", emoji: "🏛️",
   items: [
-    { name: "Comfortable Walking Shoes", description: "Fontainhas rewards slow wandering through narrow, sometimes uneven lanes.", price: "₹1,999", rating: 4.4, reviews: "5.3k", image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Heritage-walk essential", tagColor: "bg-amber-100 text-amber-700", why: "Fontainhas's charm is in the details — comfortable footwear lets you actually slow down and look." },
-    { name: "Light Breathable Clothing", description: "Goa's coastal humidity is high year-round — loose cotton is far more comfortable than synthetics.", price: "₹799", rating: 4.4, reviews: "3.5k", image: "👕", affiliateUrl: amazonSearchUrl("breathable+cotton+travel+clothing"), tag: "Comfort essential", tagColor: "bg-sky-100 text-sky-700", why: "Panjim's streets offer little shade at midday." },
-    { name: "Camera", description: "Fontainhas's pastel townhouses and wrought-iron balconies are genuinely photogenic.", price: "₹—", rating: 4.5, reviews: "—", image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Heritage-walk essential", tagColor: "bg-purple-100 text-purple-700", why: "This is one of Goa's most photogenic heritage precincts." },
-    { name: "Sun Hat", description: "For daytime walks around the riverfront and old town.", price: "₹399", rating: 4.4, reviews: "4.2k", image: "🧢", affiliateUrl: amazonSearchUrl("sun+hat+travel+outdoor"), tag: "Daytime essential", tagColor: "bg-forest-100 text-forest-700", why: "Panjim's streets have limited shade during peak midday sun." },
+    { name: "Comfortable Walking Shoes", description: "Fontainhas rewards slow wandering through narrow, sometimes uneven lanes.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Heritage-walk essential", tagColor: "bg-amber-100 text-amber-700", why: "Fontainhas's charm is in the details — comfortable footwear lets you actually slow down and look." },
+    { name: "Light Breathable Clothing", description: "Goa's coastal humidity is high year-round — loose cotton is far more comfortable than synthetics.", price: "₹799",  image: "👕", affiliateUrl: amazonSearchUrl("breathable+cotton+travel+clothing"), tag: "Comfort essential", tagColor: "bg-sky-100 text-sky-700", why: "Panjim's streets offer little shade at midday." },
+    { name: "Camera", description: "Fontainhas's pastel townhouses and wrought-iron balconies are genuinely photogenic.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Heritage-walk essential", tagColor: "bg-purple-100 text-purple-700", why: "This is one of Goa's most photogenic heritage precincts." },
+    { name: "Sun Hat", description: "For daytime walks around the riverfront and old town.", price: "₹399",  image: "🧢", affiliateUrl: amazonSearchUrl("sun+hat+travel+outdoor"), tag: "Daytime essential", tagColor: "bg-forest-100 text-forest-700", why: "Panjim's streets have limited shade during peak midday sun." },
   ],
 }];
 
@@ -164,6 +165,8 @@ export default function PanjimGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="panjim-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Panjim</h2>

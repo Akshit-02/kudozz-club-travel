@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -107,10 +108,10 @@ const HAJO_GEAR: GearSection[] = [
     subtitle: "Gear for a multi-site pilgrimage day trip",
     emoji: "🛕",
     items: [
-      { name: "Modest Cotton Clothing", description: "Essential for visiting all of Hajo's religious sites respectfully, regardless of tradition.", price: "₹599", rating: 4.4, reviews: "3.9k", image: "👕", affiliateUrl: amazonSearchUrl("modest+travel+clothing"), tag: "Site essential", tagColor: "bg-purple-100 text-purple-700", why: "Modest dress is expected at every one of Hajo's sacred sites, Hindu, Buddhist-associated, or Muslim." },
-      { name: "Comfortable Walking Shoes", description: "For the hilltop approach to Hayagriva Madhava Temple and Poa Mecca.", price: "₹1,999", rating: 4.4, reviews: "5.3k", image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Trek essential", tagColor: "bg-amber-100 text-amber-700", why: "Both major temple/mosque sites involve some uphill walking." },
-      { name: "Easy-to-Remove Sandals", description: "Most temple and mosque entries require removing footwear.", price: "₹399", rating: 4.3, reviews: "4.5k", image: "👡", affiliateUrl: amazonSearchUrl("slip+on+sandals+travel"), tag: "Temple essential", tagColor: "bg-sky-100 text-sky-700", why: "Slip-on footwear makes the multiple shoe removals across sites far more convenient." },
-      { name: "Reusable Water Bottle", description: "For a day of walking between hilltop sites in Assam's warm, humid climate.", price: "₹449", rating: 4.5, reviews: "6.2k", image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "Day-trip essential", tagColor: "bg-forest-100 text-forest-700", why: "Facilities can be limited around the smaller shrine complexes." },
+      { name: "Modest Cotton Clothing", description: "Essential for visiting all of Hajo's religious sites respectfully, regardless of tradition.", price: "₹599",  image: "👕", affiliateUrl: amazonSearchUrl("modest+travel+clothing"), tag: "Site essential", tagColor: "bg-purple-100 text-purple-700", why: "Modest dress is expected at every one of Hajo's sacred sites, Hindu, Buddhist-associated, or Muslim." },
+      { name: "Comfortable Walking Shoes", description: "For the hilltop approach to Hayagriva Madhava Temple and Poa Mecca.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Trek essential", tagColor: "bg-amber-100 text-amber-700", why: "Both major temple/mosque sites involve some uphill walking." },
+      { name: "Easy-to-Remove Sandals", description: "Most temple and mosque entries require removing footwear.", price: "₹399",  image: "👡", affiliateUrl: amazonSearchUrl("slip+on+sandals+travel"), tag: "Temple essential", tagColor: "bg-sky-100 text-sky-700", why: "Slip-on footwear makes the multiple shoe removals across sites far more convenient." },
+      { name: "Reusable Water Bottle", description: "For a day of walking between hilltop sites in Assam's warm, humid climate.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "Day-trip essential", tagColor: "bg-forest-100 text-forest-700", why: "Facilities can be limited around the smaller shrine complexes." },
     ],
   },
 ];
@@ -197,6 +198,8 @@ export default function HajoGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="hajo-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Hajo</h2>

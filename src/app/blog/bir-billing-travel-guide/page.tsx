@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -88,10 +89,10 @@ const tableOfContents = [
 const BIR_GEAR: GearSection[] = [{
   title: "Things Worth Carrying", subtitle: "Gear for paragliding and Bir's cafe-and-monastery pace", emoji: "🪂",
   items: [
-    { name: "Closed-Toe Sports Shoes", description: "Required for paragliding — most operators won't fly you in sandals or flip-flops.", price: "₹1,999", rating: 4.4, reviews: "5.3k", image: "👟", affiliateUrl: amazonSearchUrl("closed+toe+sports+shoes"), tag: "Paragliding essential", tagColor: "bg-red-100 text-red-700", why: "This is a hard requirement at every certified paragliding operator, not just a suggestion." },
-    { name: "Light Warm Layer", description: "Billing's takeoff altitude (~2,400m) is genuinely cold even when Bir village below feels mild.", price: "₹1,499", rating: 4.4, reviews: "3.8k", image: "🧥", affiliateUrl: amazonSearchUrl("light+warm+jacket+travel"), tag: "Altitude essential", tagColor: "bg-sky-100 text-sky-700", why: "Many first-timers are surprised by the temperature difference between Bir and Billing." },
-    { name: "Action Camera / GoPro Mount", description: "If you want your own flight footage rather than relying on the operator's paid photo package.", price: "₹4,999+", rating: 4.5, reviews: "2.4k", image: "📷", affiliateUrl: amazonSearchUrl("action+camera+mount"), tag: "Optional", tagColor: "bg-purple-100 text-purple-700", why: "Operator photo/video packages add up — bringing your own can be cheaper over a full trip." },
-    { name: "Sunglasses", description: "Direct sun exposure at altitude during the flight and on the takeoff site.", price: "₹599", rating: 4.4, reviews: "6.1k", image: "🕶️", affiliateUrl: amazonSearchUrl("sunglasses+travel+outdoor"), tag: "Flight essential", tagColor: "bg-amber-100 text-amber-700", why: "Wind and sun exposure during the flight is more intense than it looks from the ground." },
+    { name: "Closed-Toe Sports Shoes", description: "Required for paragliding — most operators won't fly you in sandals or flip-flops.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("closed+toe+sports+shoes"), tag: "Paragliding essential", tagColor: "bg-red-100 text-red-700", why: "This is a hard requirement at every certified paragliding operator, not just a suggestion." },
+    { name: "Light Warm Layer", description: "Billing's takeoff altitude (~2,400m) is genuinely cold even when Bir village below feels mild.", price: "₹1,499",  image: "🧥", affiliateUrl: amazonSearchUrl("light+warm+jacket+travel"), tag: "Altitude essential", tagColor: "bg-sky-100 text-sky-700", why: "Many first-timers are surprised by the temperature difference between Bir and Billing." },
+    { name: "Action Camera / GoPro Mount", description: "If you want your own flight footage rather than relying on the operator's paid photo package.", price: "₹4,999+",  image: "📷", affiliateUrl: amazonSearchUrl("action+camera+mount"), tag: "Optional", tagColor: "bg-purple-100 text-purple-700", why: "Operator photo/video packages add up — bringing your own can be cheaper over a full trip." },
+    { name: "Sunglasses", description: "Direct sun exposure at altitude during the flight and on the takeoff site.", price: "₹599",  image: "🕶️", affiliateUrl: amazonSearchUrl("sunglasses+travel+outdoor"), tag: "Flight essential", tagColor: "bg-amber-100 text-amber-700", why: "Wind and sun exposure during the flight is more intense than it looks from the ground." },
   ],
 }];
 
@@ -171,6 +172,8 @@ export default function BirBillingGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="bir-billing-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Bir Billing</h2>

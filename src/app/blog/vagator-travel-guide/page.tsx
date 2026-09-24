@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -81,10 +82,10 @@ const tableOfContents = [
 const VAGATOR_GEAR: GearSection[] = [{
   title: "Things Worth Carrying", subtitle: "Gear for the cliffs, the fort, and the beach", emoji: "🏰",
   items: [
-    { name: "Comfortable Walking Shoes", description: "For the climb up to Chapora Fort and walking between Big and Little Vagator.", price: "₹1,999", rating: 4.4, reviews: "5.3k", image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Sightseeing essential", tagColor: "bg-amber-100 text-amber-700", why: "The fort approach and cliff paths are uneven, unlike flat beach sand." },
-    { name: "Sun Hat & Sunglasses", description: "For the exposed fort viewpoint and beach time, both with little shade.", price: "₹499", rating: 4.4, reviews: "5.0k", image: "🧢", affiliateUrl: amazonSearchUrl("sun+hat+travel+outdoor"), tag: "Beach essential", tagColor: "bg-sky-100 text-sky-700", why: "Chapora Fort's hilltop has minimal shade during the day." },
-    { name: "Camera", description: "For Chapora Fort's sunset views over the coastline — genuinely one of North Goa's best photo spots.", price: "₹—", rating: 4.5, reviews: "—", image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sunset essential", tagColor: "bg-purple-100 text-purple-700", why: "This is one of the most photographed viewpoints in Goa for good reason." },
-    { name: "Waterproof Phone Pouch", description: "For swimming at Big or Little Vagator without worrying about a dropped phone.", price: "₹299", rating: 4.3, reviews: "9.1k", image: "📱", affiliateUrl: amazonSearchUrl("waterproof+phone+pouch+beach"), tag: "Beach essential", tagColor: "bg-forest-100 text-forest-700", why: "A cheap pouch beats an expensive phone repair." },
+    { name: "Comfortable Walking Shoes", description: "For the climb up to Chapora Fort and walking between Big and Little Vagator.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Sightseeing essential", tagColor: "bg-amber-100 text-amber-700", why: "The fort approach and cliff paths are uneven, unlike flat beach sand." },
+    { name: "Sun Hat & Sunglasses", description: "For the exposed fort viewpoint and beach time, both with little shade.", price: "₹499",  image: "🧢", affiliateUrl: amazonSearchUrl("sun+hat+travel+outdoor"), tag: "Beach essential", tagColor: "bg-sky-100 text-sky-700", why: "Chapora Fort's hilltop has minimal shade during the day." },
+    { name: "Camera", description: "For Chapora Fort's sunset views over the coastline — genuinely one of North Goa's best photo spots.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sunset essential", tagColor: "bg-purple-100 text-purple-700", why: "This is one of the most photographed viewpoints in Goa for good reason." },
+    { name: "Waterproof Phone Pouch", description: "For swimming at Big or Little Vagator without worrying about a dropped phone.", price: "₹299",  image: "📱", affiliateUrl: amazonSearchUrl("waterproof+phone+pouch+beach"), tag: "Beach essential", tagColor: "bg-forest-100 text-forest-700", why: "A cheap pouch beats an expensive phone repair." },
   ],
 }];
 
@@ -169,6 +170,8 @@ export default function VagatorGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="vagator-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Vagator</h2>

@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -203,8 +204,6 @@ const KARAIKAL_GEAR: GearSection[] = [
         description:
           "Covered shoulders and knees for the Sri Dharbaranyeswarar (Saneeswaran) Temple at Tirunallar and the Karaikal Ammaiyar Temple in town.",
         price: "₹899",
-        rating: 4.3,
-        reviews: "3.1k",
         image: "🧣",
         affiliateUrl: amazonSearchUrl("travel+modest+clothing+scarf"),
         tag: "Temple essential",
@@ -216,8 +215,6 @@ const KARAIKAL_GEAR: GearSection[] = [
         description:
           "Easy to slip off at temple entrances in Tirunallar and Karaikal town, and practical for walks along Karaikal Beach and the lighthouse promenade.",
         price: "₹1,299",
-        rating: 4.4,
-        reviews: "8.2k",
         image: "👡",
         affiliateUrl: amazonSearchUrl("comfortable+walking+sandals+travel"),
         tag: "All-day essential",
@@ -229,8 +226,6 @@ const KARAIKAL_GEAR: GearSection[] = [
         description:
           "For open stretches at Karaikal Beach and the shadeless walk out to the lighthouse and port viewpoints.",
         price: "₹549",
-        rating: 4.5,
-        reviews: "11k",
         image: "🧴",
         affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+spf+50"),
         tag: "Coastal essential",
@@ -242,8 +237,6 @@ const KARAIKAL_GEAR: GearSection[] = [
         description:
           "Handy for the drive out to Tirunallar and the rural stretches around Neravy, Kottucherry, and Nedungadu, where shops thin out between villages.",
         price: "₹699",
-        rating: 4.5,
-        reviews: "9.3k",
         image: "🍶",
         affiliateUrl: amazonSearchUrl("insulated+water+bottle+steel"),
         tag: "Everyday essential",
@@ -255,8 +248,6 @@ const KARAIKAL_GEAR: GearSection[] = [
         description:
           "Worth carrying for the Cauvery delta's paddy fields and coastal village stretches around Neravy and Kottucherry.",
         price: "₹199",
-        rating: 4.3,
-        reviews: "12k",
         image: "🦟",
         affiliateUrl: amazonSearchUrl("mosquito+repellent+travel"),
         tag: "Rural essential",
@@ -268,8 +259,6 @@ const KARAIKAL_GEAR: GearSection[] = [
         description:
           "Useful for a day covering Tirunallar and the outlying villages, where charging points are limited outside Karaikal town.",
         price: "₹1,299",
-        rating: 4.5,
-        reviews: "9.7k",
         image: "🔋",
         affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
         tag: "Day-trip essential",
@@ -513,6 +502,8 @@ export default function KaraikalDistrictGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="karaikal-district-travel-guide" />
 
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">

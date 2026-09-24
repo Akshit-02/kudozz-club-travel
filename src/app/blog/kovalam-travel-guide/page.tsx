@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -109,10 +110,10 @@ const KOVALAM_GEAR: GearSection[] = [
     subtitle: "Gear for beach days and Ayurvedic wellness stays",
     emoji: "🏖️",
     items: [
-      { name: "Reef-Safe Sunscreen (SPF 50)", description: "Extended beach time at Kovalam's three coves calls for strong, reef-safe sun protection.", price: "₹599", rating: 4.5, reviews: "7.4k", image: "🧴", affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+SPF+50"), tag: "Beach essential", tagColor: "bg-amber-100 text-amber-700", why: "Sunburn is the most common regret among travelers who underestimate a full beach day here." },
-      { name: "Light Cotton Robe/Wrap", description: "Useful both for the beach and for comfort before and after Ayurvedic treatments.", price: "₹599", rating: 4.4, reviews: "3.2k", image: "🧣", affiliateUrl: amazonSearchUrl("cotton+wrap+beach+spa"), tag: "Spa essential", tagColor: "bg-purple-100 text-purple-700", why: "A simple cotton wrap covers both beach modesty and comfort around Ayurveda centres." },
-      { name: "Waterproof Phone Pouch", description: "For swimming at any of the three beaches without worrying about a dropped phone.", price: "₹299", rating: 4.3, reviews: "9.1k", image: "📱", affiliateUrl: amazonSearchUrl("waterproof+phone+pouch+beach"), tag: "Beach essential", tagColor: "bg-sky-100 text-sky-700", why: "Kovalam's beaches get busy enough that keeping valuables secure while swimming matters." },
-      { name: "Comfortable Sandals", description: "For walking the beachfront promenade, the lighthouse climb, and Trivandrum sightseeing day trips.", price: "₹899", rating: 4.4, reviews: "4.8k", image: "👡", affiliateUrl: amazonSearchUrl("comfortable+sandals+travel"), tag: "All-day essential", tagColor: "bg-forest-100 text-forest-700", why: "Between the beach, lighthouse, and any Trivandrum add-on, comfortable footwear pays off." },
+      { name: "Reef-Safe Sunscreen (SPF 50)", description: "Extended beach time at Kovalam's three coves calls for strong, reef-safe sun protection.", price: "₹599",  image: "🧴", affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+SPF+50"), tag: "Beach essential", tagColor: "bg-amber-100 text-amber-700", why: "Sunburn is the most common regret among travelers who underestimate a full beach day here." },
+      { name: "Light Cotton Robe/Wrap", description: "Useful both for the beach and for comfort before and after Ayurvedic treatments.", price: "₹599",  image: "🧣", affiliateUrl: amazonSearchUrl("cotton+wrap+beach+spa"), tag: "Spa essential", tagColor: "bg-purple-100 text-purple-700", why: "A simple cotton wrap covers both beach modesty and comfort around Ayurveda centres." },
+      { name: "Waterproof Phone Pouch", description: "For swimming at any of the three beaches without worrying about a dropped phone.", price: "₹299",  image: "📱", affiliateUrl: amazonSearchUrl("waterproof+phone+pouch+beach"), tag: "Beach essential", tagColor: "bg-sky-100 text-sky-700", why: "Kovalam's beaches get busy enough that keeping valuables secure while swimming matters." },
+      { name: "Comfortable Sandals", description: "For walking the beachfront promenade, the lighthouse climb, and Trivandrum sightseeing day trips.", price: "₹899",  image: "👡", affiliateUrl: amazonSearchUrl("comfortable+sandals+travel"), tag: "All-day essential", tagColor: "bg-forest-100 text-forest-700", why: "Between the beach, lighthouse, and any Trivandrum add-on, comfortable footwear pays off." },
     ],
   },
 ];
@@ -199,6 +200,8 @@ export default function KovalamGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="kovalam-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Kovalam</h2>

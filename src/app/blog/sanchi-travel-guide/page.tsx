@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -157,8 +158,6 @@ const SANCHI_GEAR: GearSection[] = [
         description:
           "The Great Stupa's raised platform and surrounding paths involve stone steps and uneven ground — comfortable shoes make the visit far more pleasant.",
         price: "₹1,499",
-        rating: 4.4,
-        reviews: "6.8k",
         image: "👟",
         affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
         tag: "Site-visit essential",
@@ -169,8 +168,6 @@ const SANCHI_GEAR: GearSection[] = [
         name: "Wide-Brim Sun Hat",
         description: "Sanchi's hilltop setting has minimal shade across the open stupa grounds.",
         price: "₹399",
-        rating: 4.3,
-        reviews: "3.9k",
         image: "👒",
         affiliateUrl: amazonSearchUrl("wide+brim+sun+hat+travel"),
         tag: "Sun essential",
@@ -181,8 +178,6 @@ const SANCHI_GEAR: GearSection[] = [
         name: "Camera with Zoom Lens",
         description: "The carved toranas (gateways) hold fine relief detail worth capturing up close without climbing on the structures.",
         price: "₹—",
-        rating: 4.4,
-        reviews: "3.1k",
         image: "📷",
         affiliateUrl: amazonSearchUrl("mirrorless+camera+zoom+lens+travel"),
         tag: "Photography essential",
@@ -193,8 +188,6 @@ const SANCHI_GEAR: GearSection[] = [
         name: "1L Water Bottle",
         description: "A half-day visit in open sun still calls for hydration, especially outside the cooler winter months.",
         price: "₹349",
-        rating: 4.4,
-        reviews: "5.1k",
         image: "💧",
         affiliateUrl: amazonSearchUrl("1l+water+bottle+travel"),
         tag: "Site essential",
@@ -205,8 +198,6 @@ const SANCHI_GEAR: GearSection[] = [
         name: "Lightweight Daypack",
         description: "For water, camera gear, and any museum brochures picked up at the Sanchi Archaeological Museum.",
         price: "₹899",
-        rating: 4.4,
-        reviews: "4.6k",
         image: "🎒",
         affiliateUrl: amazonSearchUrl("lightweight+daypack+travel"),
         tag: "Day-trip essential",
@@ -366,6 +357,8 @@ export default function SanchiGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="sanchi-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Sanchi</h2>

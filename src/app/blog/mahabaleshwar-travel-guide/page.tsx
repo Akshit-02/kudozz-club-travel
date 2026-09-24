@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -103,10 +104,10 @@ const MAHABALESHWAR_GEAR: GearSection[] = [
     subtitle: "Gear for viewpoints, fort visits, and cool hill-station evenings",
     emoji: "🍓",
     items: [
-      { name: "Light Woollen Jacket", description: "Mahabaleshwar's elevation (over 1,350m) keeps evenings cool year-round, even in summer when the plains are sweltering.", price: "₹1,299", rating: 4.5, reviews: "6.1k", image: "🧥", affiliateUrl: amazonSearchUrl("light+woolen+jacket+travel"), tag: "Evening essential", tagColor: "bg-sky-100 text-sky-700", why: "Temperatures can drop noticeably after sunset even outside winter, catching travellers packed for the plains off guard." },
-      { name: "Comfortable Walking Shoes", description: "The viewpoint circuit and Pratapgad Fort both involve extended walking on uneven ground — proper shoes make the day easier.", price: "₹1,499", rating: 4.5, reviews: "8.2k", image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Sightseeing essential", tagColor: "bg-amber-100 text-amber-700", why: "Pratapgad Fort's climb and the string of viewpoints both add up to several kilometres of walking." },
-      { name: "Compact Binoculars", description: "Useful at Arthur's Seat and Kate's Point for spotting the valley and river views that make these viewpoints famous.", price: "₹1,199", rating: 4.3, reviews: "3.4k", image: "🔭", affiliateUrl: amazonSearchUrl("compact+binoculars+travel"), tag: "Viewpoint essential", tagColor: "bg-forest-100 text-forest-700", why: "The panoramic Western Ghats views from Arthur's Seat are dramatically better with even basic binoculars." },
-      { name: "Reusable Cotton Tote", description: "Handy for carrying home fresh strawberries, jams, and Mapro Garden purchases without extra plastic.", price: "₹249", rating: 4.4, reviews: "2.9k", image: "🛍️", affiliateUrl: amazonSearchUrl("reusable+cotton+tote+bag"), tag: "Shopping essential", tagColor: "bg-red-100 text-red-700", why: "Strawberry and jam shopping is a core part of the Mahabaleshwar experience — a sturdy tote avoids leaks and spills on the drive home." },
+      { name: "Light Woollen Jacket", description: "Mahabaleshwar's elevation (over 1,350m) keeps evenings cool year-round, even in summer when the plains are sweltering.", price: "₹1,299",  image: "🧥", affiliateUrl: amazonSearchUrl("light+woolen+jacket+travel"), tag: "Evening essential", tagColor: "bg-sky-100 text-sky-700", why: "Temperatures can drop noticeably after sunset even outside winter, catching travellers packed for the plains off guard." },
+      { name: "Comfortable Walking Shoes", description: "The viewpoint circuit and Pratapgad Fort both involve extended walking on uneven ground — proper shoes make the day easier.", price: "₹1,499",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Sightseeing essential", tagColor: "bg-amber-100 text-amber-700", why: "Pratapgad Fort's climb and the string of viewpoints both add up to several kilometres of walking." },
+      { name: "Compact Binoculars", description: "Useful at Arthur's Seat and Kate's Point for spotting the valley and river views that make these viewpoints famous.", price: "₹1,199",  image: "🔭", affiliateUrl: amazonSearchUrl("compact+binoculars+travel"), tag: "Viewpoint essential", tagColor: "bg-forest-100 text-forest-700", why: "The panoramic Western Ghats views from Arthur's Seat are dramatically better with even basic binoculars." },
+      { name: "Reusable Cotton Tote", description: "Handy for carrying home fresh strawberries, jams, and Mapro Garden purchases without extra plastic.", price: "₹249",  image: "🛍️", affiliateUrl: amazonSearchUrl("reusable+cotton+tote+bag"), tag: "Shopping essential", tagColor: "bg-red-100 text-red-700", why: "Strawberry and jam shopping is a core part of the Mahabaleshwar experience — a sturdy tote avoids leaks and spills on the drive home." },
     ],
   },
 ];
@@ -198,6 +199,8 @@ export default function MahabaleshwarGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="mahabaleshwar-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Mahabaleshwar</h2>

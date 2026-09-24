@@ -1,12 +1,14 @@
 // src/app/blog/page.tsx
 import type { Metadata } from "next";
+import SiteHeader from "@/components/layout/SiteHeader";
+import SiteFooter from "@/components/layout/SiteFooter";
 import BlogPageClient from "@/components/blog/BlogPageClient";
 import { featuredPost, posts } from "@/lib/blog-posts";
 
 export const metadata: Metadata = {
-  title: "Travel Blog — Guides, Stories & Itineraries",
+  title: "India Travel Guides: Itineraries, Best Time & Budgets",
   description:
-    "Browse all travel guides on Kudozz Club — destination deep-dives, honest itineraries, budget breakdowns and insider tips written by real travellers.",
+    "580+ India travel guides from Kudozz Club: destination deep-dives, itineraries, best time to visit, how to reach and budget breakdowns for every state.",
   keywords: [
     "India travel blog",
     "travel guides India",
@@ -78,7 +80,9 @@ export default function BlogPage() {
   return (
     <>
       <BlogSchema entries={[featuredPost, ...posts]} />
+      <SiteHeader />
       <BlogPageClient />
+      <SiteFooter />
     </>
   );
 }

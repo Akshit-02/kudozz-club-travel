@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -143,8 +144,6 @@ const MURTHAL_GEAR: GearSection[] = [
         name: "Hand Sanitizer",
         description: "Useful for a roadside dhaba stop where handwashing facilities can be basic.",
         price: "₹99",
-        rating: 4.3,
-        reviews: "8.2k",
         image: "🧴",
         affiliateUrl: amazonSearchUrl("hand+sanitizer+travel+pack"),
         tag: "Practical essential",
@@ -155,8 +154,6 @@ const MURTHAL_GEAR: GearSection[] = [
         name: "Wet Wipes",
         description: "Handy for a butter-and-paratha meal eaten with your hands, dhaba-style.",
         price: "₹149",
-        rating: 4.4,
-        reviews: "6.5k",
         image: "🧻",
         affiliateUrl: amazonSearchUrl("wet+wipes+travel+pack"),
         tag: "Practical essential",
@@ -167,8 +164,6 @@ const MURTHAL_GEAR: GearSection[] = [
         name: "Comfortable Travel Clothing",
         description: "Nothing special required — just casual, comfortable clothes for a roadside meal break.",
         price: "₹—",
-        rating: 4.4,
-        reviews: "—",
         image: "👕",
         affiliateUrl: amazonSearchUrl("comfortable+travel+clothing"),
         tag: "Comfort",
@@ -325,6 +320,8 @@ export default function MurthalGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="murthal-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Stop at Murthal</h2>

@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -109,10 +110,10 @@ const JOG_FALLS_GEAR: GearSection[] = [
     subtitle: "Gear for viewpoint walks and any base-access steps",
     emoji: "💦",
     items: [
-      { name: "Grip Trekking Sandals", description: "Viewpoint paths and any open base-access steps can get slick, especially in and after monsoon.", price: "₹899", rating: 4.4, reviews: "5.1k", image: "🥾", affiliateUrl: amazonSearchUrl("trekking+sandals+grip+outdoor"), tag: "Trail essential", tagColor: "bg-amber-100 text-amber-700", why: "Wet rock and steep steps near the falls are where slips most commonly happen." },
-      { name: "Rain Jacket / Poncho", description: "Essential if visiting during the peak Aug-Nov flow window, when rain is likely alongside the falls' best flow.", price: "₹899", rating: 4.4, reviews: "5.1k", image: "🧥", affiliateUrl: amazonSearchUrl("packable+rain+jacket+trekking"), tag: "Monsoon essential", tagColor: "bg-sky-100 text-sky-700", why: "The best-flow season and the wettest weather overlap almost exactly here." },
-      { name: "Reusable Water Bottle", description: "For the walk between viewpoints and any base-access trail.", price: "₹449", rating: 4.5, reviews: "6.2k", image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "All-day essential", tagColor: "bg-forest-100 text-forest-700", why: "Facilities are limited around the falls themselves." },
-      { name: "Camera / Phone Dry Bag", description: "Waterfall spray at close viewpoints can be significant, especially at peak flow.", price: "₹399", rating: 4.3, reviews: "4.5k", image: "📷", affiliateUrl: amazonSearchUrl("waterproof+camera+dry+bag"), tag: "Photography essential", tagColor: "bg-purple-100 text-purple-700", why: "Close-up viewpoints at peak season get a genuine amount of mist and spray." },
+      { name: "Grip Trekking Sandals", description: "Viewpoint paths and any open base-access steps can get slick, especially in and after monsoon.", price: "₹899",  image: "🥾", affiliateUrl: amazonSearchUrl("trekking+sandals+grip+outdoor"), tag: "Trail essential", tagColor: "bg-amber-100 text-amber-700", why: "Wet rock and steep steps near the falls are where slips most commonly happen." },
+      { name: "Rain Jacket / Poncho", description: "Essential if visiting during the peak Aug-Nov flow window, when rain is likely alongside the falls' best flow.", price: "₹899",  image: "🧥", affiliateUrl: amazonSearchUrl("packable+rain+jacket+trekking"), tag: "Monsoon essential", tagColor: "bg-sky-100 text-sky-700", why: "The best-flow season and the wettest weather overlap almost exactly here." },
+      { name: "Reusable Water Bottle", description: "For the walk between viewpoints and any base-access trail.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "All-day essential", tagColor: "bg-forest-100 text-forest-700", why: "Facilities are limited around the falls themselves." },
+      { name: "Camera / Phone Dry Bag", description: "Waterfall spray at close viewpoints can be significant, especially at peak flow.", price: "₹399",  image: "📷", affiliateUrl: amazonSearchUrl("waterproof+camera+dry+bag"), tag: "Photography essential", tagColor: "bg-purple-100 text-purple-700", why: "Close-up viewpoints at peak season get a genuine amount of mist and spray." },
     ],
   },
 ];
@@ -199,6 +200,8 @@ export default function JogFallsGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="jog-falls-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Jog Falls</h2>

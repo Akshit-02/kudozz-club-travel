@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -88,10 +89,10 @@ const tableOfContents = [
 const AHOBILAM_GEAR: GearSection[] = [{
   title: "Things Worth Carrying", subtitle: "Gear for the Upper Ahobilam forest trek and temple visits", emoji: "🛕",
   items: [
-    { name: "Sturdy Trekking Shoes", description: "Essential if attempting the Upper Ahobilam trail, which crosses uneven forest terrain to reach the remaining shrines.", price: "₹2,999", rating: 4.5, reviews: "6.2k", image: "🥾", affiliateUrl: amazonSearchUrl("trekking+shoes+forest+trail"), tag: "Trek essential", tagColor: "bg-amber-100 text-amber-700", why: "The Upper Ahobilam path is genuinely uneven forest terrain, not a paved pilgrim route." },
-    { name: "Modest Cotton Clothing", description: "Required for temple entry at both Lower and Upper Ahobilam's active shrines.", price: "₹599", rating: 4.4, reviews: "3.9k", image: "👕", affiliateUrl: amazonSearchUrl("modest+travel+clothing"), tag: "Temple essential", tagColor: "bg-purple-100 text-purple-700", why: "These are active, living pilgrimage sites, not tourist monuments." },
-    { name: "2L Hydration Bottle", description: "Facilities thin out fast past Lower Ahobilam — carrying enough water matters for the forest trek.", price: "₹449", rating: 4.5, reviews: "6.2k", image: "💧", affiliateUrl: amazonSearchUrl("2l+hydration+water+bottle+travel"), tag: "Trek essential", tagColor: "bg-sky-100 text-sky-700", why: "There are few reliable water sources between the lower and upper shrine clusters." },
-    { name: "Insect Repellent", description: "The dense Nallamala forest setting brings a real mosquito and insect presence, especially near dusk.", price: "₹199", rating: 4.3, reviews: "4.2k", image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Forest essential", tagColor: "bg-forest-100 text-forest-700", why: "Ahobilam sits within genuine forest cover, unlike most temple towns." },
+    { name: "Sturdy Trekking Shoes", description: "Essential if attempting the Upper Ahobilam trail, which crosses uneven forest terrain to reach the remaining shrines.", price: "₹2,999",  image: "🥾", affiliateUrl: amazonSearchUrl("trekking+shoes+forest+trail"), tag: "Trek essential", tagColor: "bg-amber-100 text-amber-700", why: "The Upper Ahobilam path is genuinely uneven forest terrain, not a paved pilgrim route." },
+    { name: "Modest Cotton Clothing", description: "Required for temple entry at both Lower and Upper Ahobilam's active shrines.", price: "₹599",  image: "👕", affiliateUrl: amazonSearchUrl("modest+travel+clothing"), tag: "Temple essential", tagColor: "bg-purple-100 text-purple-700", why: "These are active, living pilgrimage sites, not tourist monuments." },
+    { name: "2L Hydration Bottle", description: "Facilities thin out fast past Lower Ahobilam — carrying enough water matters for the forest trek.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("2l+hydration+water+bottle+travel"), tag: "Trek essential", tagColor: "bg-sky-100 text-sky-700", why: "There are few reliable water sources between the lower and upper shrine clusters." },
+    { name: "Insect Repellent", description: "The dense Nallamala forest setting brings a real mosquito and insect presence, especially near dusk.", price: "₹199",  image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Forest essential", tagColor: "bg-forest-100 text-forest-700", why: "Ahobilam sits within genuine forest cover, unlike most temple towns." },
   ],
 }];
 
@@ -171,6 +172,8 @@ export default function AhobilamGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="ahobilam-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Ahobilam</h2>

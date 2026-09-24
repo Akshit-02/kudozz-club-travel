@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -81,10 +82,10 @@ const tableOfContents = [
 const KHAJJIAR_GEAR: GearSection[] = [{
   title: "Things Worth Carrying", subtitle: "Gear for a day on the meadow", emoji: "🌾",
   items: [
-    { name: "Comfortable Walking Shoes", description: "For walking the meadow perimeter and the short Kalatop Wildlife Sanctuary nature trail.", price: "₹1,999", rating: 4.4, reviews: "5.3k", image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Day-trip essential", tagColor: "bg-amber-100 text-amber-700", why: "Grass can be damp underfoot, especially in the morning." },
-    { name: "Light Warm Layer", description: "Khajjiar's elevation keeps mornings cool even in summer months.", price: "₹1,499", rating: 4.4, reviews: "3.8k", image: "🧥", affiliateUrl: amazonSearchUrl("light+warm+jacket+travel"), tag: "Morning essential", tagColor: "bg-sky-100 text-sky-700", why: "An early visit for fewer crowds means cooler temperatures too." },
-    { name: "Camera", description: "For the meadow's signature saucer-shaped landscape and deodar forest ring.", price: "₹—", rating: 4.5, reviews: "—", image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-purple-100 text-purple-700", why: "This is Khajjiar's single most photographed view." },
-    { name: "Sunscreen", description: "Open meadow exposure with little shade across most of the site.", price: "₹599", rating: 4.5, reviews: "7.4k", image: "🧴", affiliateUrl: amazonSearchUrl("sunscreen+travel+outdoor"), tag: "Day-trip essential", tagColor: "bg-forest-100 text-forest-700", why: "The open meadow offers little shade during midday hours." },
+    { name: "Comfortable Walking Shoes", description: "For walking the meadow perimeter and the short Kalatop Wildlife Sanctuary nature trail.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Day-trip essential", tagColor: "bg-amber-100 text-amber-700", why: "Grass can be damp underfoot, especially in the morning." },
+    { name: "Light Warm Layer", description: "Khajjiar's elevation keeps mornings cool even in summer months.", price: "₹1,499",  image: "🧥", affiliateUrl: amazonSearchUrl("light+warm+jacket+travel"), tag: "Morning essential", tagColor: "bg-sky-100 text-sky-700", why: "An early visit for fewer crowds means cooler temperatures too." },
+    { name: "Camera", description: "For the meadow's signature saucer-shaped landscape and deodar forest ring.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-purple-100 text-purple-700", why: "This is Khajjiar's single most photographed view." },
+    { name: "Sunscreen", description: "Open meadow exposure with little shade across most of the site.", price: "₹599",  image: "🧴", affiliateUrl: amazonSearchUrl("sunscreen+travel+outdoor"), tag: "Day-trip essential", tagColor: "bg-forest-100 text-forest-700", why: "The open meadow offers little shade during midday hours." },
   ],
 }];
 
@@ -164,6 +165,8 @@ export default function KhajjiarGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="khajjiar-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Khajjiar</h2>

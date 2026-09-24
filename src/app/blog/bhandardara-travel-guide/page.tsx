@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -154,7 +155,7 @@ const BHANDARDARA_GEAR: GearSection[] = [
       {
         name: "Trekking Shoes",
         description: "The Kalsubai Peak trek includes rocky, sometimes slippery sections and iron ladder climbs near the summit — proper grip matters.",
-        price: "₹3,499", rating: 4.5, reviews: "5.4k", image: "🥾",
+        price: "₹3,499",  image: "🥾",
         affiliateUrl: amazonSearchUrl("trekking+shoes+ankle+support"),
         tag: "Trek essential", tagColor: "bg-amber-100 text-amber-700",
         why: "Loose gravel and wet rock near the summit ladders are where most minor injuries on this trek happen.",
@@ -162,7 +163,7 @@ const BHANDARDARA_GEAR: GearSection[] = [
       {
         name: "Warm Jacket / Fleece Layer",
         description: "Nights at Bhandardara's campsites, especially post-monsoon and winter, get genuinely cold once the sun sets.",
-        price: "₹1,799", rating: 4.5, reviews: "4.2k", image: "🧥",
+        price: "₹1,799",  image: "🧥",
         affiliateUrl: amazonSearchUrl("warm+fleece+jacket+camping"),
         tag: "Camping essential", tagColor: "bg-stone-100 text-stone-700",
         why: "The temperature drop after dark near the lake surprises most first-time campers here.",
@@ -170,7 +171,7 @@ const BHANDARDARA_GEAR: GearSection[] = [
       {
         name: "Headlamp / LED Torch",
         description: "Essential for the early-morning Kalsubai summit push and for navigating a campsite after dark.",
-        price: "₹599", rating: 4.4, reviews: "3.8k", image: "🔦",
+        price: "₹599",  image: "🔦",
         affiliateUrl: amazonSearchUrl("led+headlamp+trekking"),
         tag: "Trek essential", tagColor: "bg-purple-100 text-purple-700",
         why: "Most Kalsubai treks start pre-dawn to catch the sunrise from the summit temple.",
@@ -178,7 +179,7 @@ const BHANDARDARA_GEAR: GearSection[] = [
       {
         name: "Sleeping Bag (if camping)",
         description: "For lakeside or hillside camping — some operators provide these, but carrying your own guarantees warmth and hygiene.",
-        price: "₹1,499", rating: 4.3, reviews: "2.6k", image: "🛌",
+        price: "₹1,499",  image: "🛌",
         affiliateUrl: amazonSearchUrl("compact+sleeping+bag+camping"),
         tag: "Camping essential", tagColor: "bg-forest-100 text-forest-700",
         why: "Rental sleeping bags at unorganised campsites vary widely in warmth and cleanliness.",
@@ -186,7 +187,7 @@ const BHANDARDARA_GEAR: GearSection[] = [
       {
         name: "Insect Repellent",
         description: "The lake-adjacent camping areas and forested trek trails see plenty of mosquito activity, especially post-monsoon.",
-        price: "₹199", rating: 4.2, reviews: "5.9k", image: "🦟",
+        price: "₹199",  image: "🦟",
         affiliateUrl: amazonSearchUrl("insect+repellent+camping+travel"),
         tag: "Camping essential", tagColor: "bg-sky-100 text-sky-700",
         why: "Standing water near the dam and lake makes for a noticeably higher mosquito presence than drier trek destinations.",
@@ -325,6 +326,8 @@ export default function BhandardaraGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="bhandardara-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Bhandardara</h2>

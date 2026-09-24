@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -155,8 +156,6 @@ const AGROHA_GEAR: GearSection[] = [
         name: "Comfortable Walking Shoes",
         description: "For walking the open, uneven ground of the archaeological mound site.",
         price: "₹1,999",
-        rating: 4.4,
-        reviews: "5.2k",
         image: "👟",
         affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
         tag: "Essential",
@@ -167,8 +166,6 @@ const AGROHA_GEAR: GearSection[] = [
         name: "Modest Clothing",
         description: "For visiting Agroha Dham, an active temple and pilgrimage site.",
         price: "₹599",
-        rating: 4.4,
-        reviews: "3.9k",
         image: "👕",
         affiliateUrl: amazonSearchUrl("modest+travel+clothing"),
         tag: "Temple essential",
@@ -179,8 +176,6 @@ const AGROHA_GEAR: GearSection[] = [
         name: "Sun Hat & Sunscreen",
         description: "Little shade at the open mound site, especially outside winter.",
         price: "₹599",
-        rating: 4.4,
-        reviews: "6.0k",
         image: "🧴",
         affiliateUrl: amazonSearchUrl("sun+hat+sunscreen+travel"),
         tag: "Essential",
@@ -191,8 +186,6 @@ const AGROHA_GEAR: GearSection[] = [
         name: "Camera",
         description: "For the excavated site and the temple complex's architecture.",
         price: "—",
-        rating: 4.5,
-        reviews: "—",
         image: "📷",
         affiliateUrl: amazonSearchUrl("compact+camera+travel"),
         tag: "Recommended",
@@ -352,6 +345,8 @@ export default function AgrohaGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="agroha-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Agroha</h2>

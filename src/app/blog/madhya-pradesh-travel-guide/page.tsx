@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -201,8 +202,6 @@ const MADHYA_PRADESH_GEAR: GearSection[] = [
         description:
           "Essential for spotting tigers and other wildlife at a distance during jeep safaris in Bandhavgarh and Kanha.",
         price: "₹1,899",
-        rating: 4.4,
-        reviews: "5.4k",
         image: "🔭",
         affiliateUrl: amazonSearchUrl("binoculars+wildlife+safari"),
         tag: "Safari essential",
@@ -214,8 +213,6 @@ const MADHYA_PRADESH_GEAR: GearSection[] = [
         description:
           "Bright colors are discouraged on jeep safaris in Bandhavgarh and Kanha, where muted tones blend better with the forest.",
         price: "₹899",
-        rating: 4.3,
-        reviews: "3.9k",
         image: "🧥",
         affiliateUrl: amazonSearchUrl("neutral+color+safari+clothing"),
         tag: "Safari essential",
@@ -227,8 +224,6 @@ const MADHYA_PRADESH_GEAR: GearSection[] = [
         description:
           "Khajuraho's temple complexes and Gwalior Fort both involve significant walking across stone courtyards and stairways.",
         price: "₹1,499",
-        rating: 4.4,
-        reviews: "8.2k",
         image: "👟",
         affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
         tag: "Sightseeing essential",
@@ -240,8 +235,6 @@ const MADHYA_PRADESH_GEAR: GearSection[] = [
         description:
           "Central India's dry heat makes sun protection essential, especially on open-air safaris and temple visits.",
         price: "₹399",
-        rating: 4.5,
-        reviews: "10k",
         image: "🧴",
         affiliateUrl: amazonSearchUrl("sunscreen+spf+50+travel"),
         tag: "Everyday essential",
@@ -253,8 +246,6 @@ const MADHYA_PRADESH_GEAR: GearSection[] = [
         description:
           "Useful for long safari days and travel between Khajuraho, the tiger reserves, and Gwalior.",
         price: "₹1,299",
-        rating: 4.5,
-        reviews: "9.7k",
         image: "🔋",
         affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
         tag: "Day-trip essential",
@@ -266,8 +257,6 @@ const MADHYA_PRADESH_GEAR: GearSection[] = [
         description:
           "Handy across long safari drives and temple sightseeing in Khajuraho's heat.",
         price: "₹699",
-        rating: 4.5,
-        reviews: "9.3k",
         image: "🍶",
         affiliateUrl: amazonSearchUrl("insulated+water+bottle+steel"),
         tag: "Everyday essential",
@@ -514,6 +503,8 @@ export default function MadhyaPradeshGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="madhya-pradesh-travel-guide" />
 
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">

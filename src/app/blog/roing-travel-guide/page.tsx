@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -170,8 +171,6 @@ const ROING_GEAR: GearSection[] = [
         description:
           "Both Mehao Lake's shoreline paths and the Bhismaknagar ruins involve walking on uneven forest ground.",
         price: "₹1,999",
-        rating: 4.4,
-        reviews: "5.6k",
         image: "👟",
         affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
         tag: "Trip essential",
@@ -183,8 +182,6 @@ const ROING_GEAR: GearSection[] = [
         description:
           "Mehao Lake's forested surroundings and the Bhismaknagar jungle site both carry a real mosquito presence.",
         price: "₹199",
-        rating: 4.3,
-        reviews: "6.8k",
         image: "🦟",
         affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"),
         tag: "Forest essential",
@@ -196,8 +193,6 @@ const ROING_GEAR: GearSection[] = [
         description:
           "Useful if continuing on to Mayudia Pass, which can be genuinely cold even when Roing town feels mild.",
         price: "₹1,499",
-        rating: 4.4,
-        reviews: "4.7k",
         image: "🧥",
         affiliateUrl: amazonSearchUrl("warm+jacket+travel"),
         tag: "Pass-trip essential",
@@ -209,8 +204,6 @@ const ROING_GEAR: GearSection[] = [
         description:
           "For the lake, the ruins, and the scenic drive toward Mayudia Pass.",
         price: "₹—",
-        rating: 4.5,
-        reviews: "—",
         image: "📷",
         affiliateUrl: amazonSearchUrl("compact+camera+travel"),
         tag: "Sightseeing essential",
@@ -367,6 +360,8 @@ export default function RoingGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="roing-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Roing</h2>

@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -201,8 +202,6 @@ const ARUNACHAL_PRADESH_GEAR: GearSection[] = [
         description:
           "Sela Pass and Tawang sit above 10,000–13,000 feet and stay cold year-round, even outside the deep winter months.",
         price: "₹2,999",
-        rating: 4.4,
-        reviews: "6.1k",
         image: "🧥",
         affiliateUrl: amazonSearchUrl("insulated+jacket+high+altitude"),
         tag: "Cold-weather essential",
@@ -214,8 +213,6 @@ const ARUNACHAL_PRADESH_GEAR: GearSection[] = [
         description:
           "Useful for monastery courtyards, rice-field trails around Ziro, and uneven terrain around Namdapha.",
         price: "₹2,499",
-        rating: 4.3,
-        reviews: "7.8k",
         image: "🥾",
         affiliateUrl: amazonSearchUrl("waterproof+trekking+shoes"),
         tag: "All-terrain essential",
@@ -227,8 +224,6 @@ const ARUNACHAL_PRADESH_GEAR: GearSection[] = [
         description:
           "Electricity can be unreliable in smaller towns, and mountain drives between hubs often run 6–10 hours without charging points.",
         price: "₹1,799",
-        rating: 4.5,
-        reviews: "8.9k",
         image: "🔋",
         affiliateUrl: amazonSearchUrl("power+bank+20000mAh+travel"),
         tag: "Remote-travel essential",
@@ -240,8 +235,6 @@ const ARUNACHAL_PRADESH_GEAR: GearSection[] = [
         description:
           "Even outside the monsoon, sudden mountain showers are common in the hills around Bomdila, Dirang, and Ziro.",
         price: "₹899",
-        rating: 4.3,
-        reviews: "5.2k",
         image: "🌧️",
         affiliateUrl: amazonSearchUrl("rain+jacket+trekking"),
         tag: "Weather essential",
@@ -253,8 +246,6 @@ const ARUNACHAL_PRADESH_GEAR: GearSection[] = [
         description:
           "Includes paracetamol, ORS, and altitude-sickness medication for the Sela Pass crossing and Tawang's elevation.",
         price: "₹599",
-        rating: 4.4,
-        reviews: "4.1k",
         image: "💊",
         affiliateUrl: amazonSearchUrl("travel+first+aid+altitude+kit"),
         tag: "Health essential",
@@ -266,8 +257,6 @@ const ARUNACHAL_PRADESH_GEAR: GearSection[] = [
         description:
           "Handy across long mountain drives and monastery visits, and reduces reliance on plastic in a genuinely remote region.",
         price: "₹699",
-        rating: 4.5,
-        reviews: "9.3k",
         image: "🍶",
         affiliateUrl: amazonSearchUrl("insulated+water+bottle+steel"),
         tag: "Everyday essential",
@@ -513,6 +502,8 @@ export default function ArunachalPradeshGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="arunachal-pradesh-travel-guide" />
 
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">

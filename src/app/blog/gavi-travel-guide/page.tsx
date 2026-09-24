@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -109,10 +110,10 @@ const GAVI_GEAR: GearSection[] = [
     subtitle: "Gear for a remote, permit-only eco-tourism forest",
     emoji: "🌲",
     items: [
-      { name: "Trekking Shoes", description: "Forest trails at Gavi are genuinely undeveloped compared to more commercial destinations.", price: "₹3,299", rating: 4.5, reviews: "6.8k", image: "🥾", affiliateUrl: amazonSearchUrl("trekking+shoes+outdoor"), tag: "Trek essential", tagColor: "bg-amber-100 text-amber-700", why: "Uneven forest terrain and minimal infrastructure make proper footwear more important here than at developed parks." },
-      { name: "Insect Repellent", description: "Dense evergreen forest and a reservoir within the property make Gavi genuinely mosquito-heavy.", price: "₹199", rating: 4.3, reviews: "4.2k", image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Forest essential", tagColor: "bg-forest-100 text-forest-700", why: "This is dense, humid forest with standing water nearby." },
-      { name: "Binoculars", description: "For the birdwatching program and general wildlife viewing across the reserve.", price: "₹1,999", rating: 4.5, reviews: "6.5k", image: "🔭", affiliateUrl: amazonSearchUrl("binoculars+wildlife+birdwatching"), tag: "Wildlife essential", tagColor: "bg-sky-100 text-sky-700", why: "Gavi's bird diversity is a major draw, and binoculars make the difference for a genuine sighting." },
-      { name: "Basic First-Aid Kit", description: "Given limited facilities and patchy network coverage, a small personal first-aid kit is sensible.", price: "₹399", rating: 4.4, reviews: "3.1k", image: "🩹", affiliateUrl: amazonSearchUrl("basic+first+aid+kit+travel"), tag: "Remote-area essential", tagColor: "bg-purple-100 text-purple-700", why: "Gavi's remote, low-infrastructure setting makes basic self-sufficiency worthwhile." },
+      { name: "Trekking Shoes", description: "Forest trails at Gavi are genuinely undeveloped compared to more commercial destinations.", price: "₹3,299",  image: "🥾", affiliateUrl: amazonSearchUrl("trekking+shoes+outdoor"), tag: "Trek essential", tagColor: "bg-amber-100 text-amber-700", why: "Uneven forest terrain and minimal infrastructure make proper footwear more important here than at developed parks." },
+      { name: "Insect Repellent", description: "Dense evergreen forest and a reservoir within the property make Gavi genuinely mosquito-heavy.", price: "₹199",  image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Forest essential", tagColor: "bg-forest-100 text-forest-700", why: "This is dense, humid forest with standing water nearby." },
+      { name: "Binoculars", description: "For the birdwatching program and general wildlife viewing across the reserve.", price: "₹1,999",  image: "🔭", affiliateUrl: amazonSearchUrl("binoculars+wildlife+birdwatching"), tag: "Wildlife essential", tagColor: "bg-sky-100 text-sky-700", why: "Gavi's bird diversity is a major draw, and binoculars make the difference for a genuine sighting." },
+      { name: "Basic First-Aid Kit", description: "Given limited facilities and patchy network coverage, a small personal first-aid kit is sensible.", price: "₹399",  image: "🩹", affiliateUrl: amazonSearchUrl("basic+first+aid+kit+travel"), tag: "Remote-area essential", tagColor: "bg-purple-100 text-purple-700", why: "Gavi's remote, low-infrastructure setting makes basic self-sufficiency worthwhile." },
     ],
   },
 ];
@@ -199,6 +200,8 @@ export default function GaviGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="gavi-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Gavi</h2>

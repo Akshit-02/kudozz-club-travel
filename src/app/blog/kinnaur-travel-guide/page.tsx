@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -81,10 +82,10 @@ const tableOfContents = [
 const KINNAUR_GEAR: GearSection[] = [{
   title: "Things Worth Carrying", subtitle: "Gear for a long high-altitude road trip", emoji: "🏔️",
   items: [
-    { name: "Warm Layers", description: "Essential even in summer — Kinnaur's higher villages get genuinely cold, especially at night.", price: "₹2,499", rating: 4.5, reviews: "4.7k", image: "🧥", affiliateUrl: amazonSearchUrl("warm+trekking+jacket+layers"), tag: "Non-negotiable", tagColor: "bg-red-100 text-red-700", why: "Temperature swings between valley floor and higher villages can be dramatic." },
-    { name: "Sturdy Footwear", description: "For walking around villages, viewpoints, and any short treks toward Kinner Kailash views.", price: "₹2,999", rating: 4.5, reviews: "6.2k", image: "🥾", affiliateUrl: amazonSearchUrl("trekking+shoes+mountain"), tag: "Trip essential", tagColor: "bg-amber-100 text-amber-700", why: "Terrain around Kalpa and Sangla is uneven and hilly." },
-    { name: "Sunscreen (High SPF)", description: "High-altitude sun exposure is significantly more intense than at sea level.", price: "₹599", rating: 4.5, reviews: "7.4k", image: "🧴", affiliateUrl: amazonSearchUrl("high+spf+sunscreen+travel"), tag: "Altitude essential", tagColor: "bg-sky-100 text-sky-700", why: "Sunburn at altitude happens faster than most travelers expect." },
-    { name: "Basic First-Aid Kit", description: "Sensible for the long, remote stretches of road between towns in Kinnaur.", price: "₹499", rating: 4.4, reviews: "3.9k", image: "🩹", affiliateUrl: amazonSearchUrl("travel+first+aid+kit"), tag: "Remote-travel essential", tagColor: "bg-purple-100 text-purple-700", why: "Medical facilities are sparse between the district's main towns." },
+    { name: "Warm Layers", description: "Essential even in summer — Kinnaur's higher villages get genuinely cold, especially at night.", price: "₹2,499",  image: "🧥", affiliateUrl: amazonSearchUrl("warm+trekking+jacket+layers"), tag: "Non-negotiable", tagColor: "bg-red-100 text-red-700", why: "Temperature swings between valley floor and higher villages can be dramatic." },
+    { name: "Sturdy Footwear", description: "For walking around villages, viewpoints, and any short treks toward Kinner Kailash views.", price: "₹2,999",  image: "🥾", affiliateUrl: amazonSearchUrl("trekking+shoes+mountain"), tag: "Trip essential", tagColor: "bg-amber-100 text-amber-700", why: "Terrain around Kalpa and Sangla is uneven and hilly." },
+    { name: "Sunscreen (High SPF)", description: "High-altitude sun exposure is significantly more intense than at sea level.", price: "₹599",  image: "🧴", affiliateUrl: amazonSearchUrl("high+spf+sunscreen+travel"), tag: "Altitude essential", tagColor: "bg-sky-100 text-sky-700", why: "Sunburn at altitude happens faster than most travelers expect." },
+    { name: "Basic First-Aid Kit", description: "Sensible for the long, remote stretches of road between towns in Kinnaur.", price: "₹499",  image: "🩹", affiliateUrl: amazonSearchUrl("travel+first+aid+kit"), tag: "Remote-travel essential", tagColor: "bg-purple-100 text-purple-700", why: "Medical facilities are sparse between the district's main towns." },
   ],
 }];
 
@@ -164,6 +165,8 @@ export default function KinnaurGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="kinnaur-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Kinnaur</h2>

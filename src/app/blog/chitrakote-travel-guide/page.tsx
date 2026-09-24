@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -81,10 +82,10 @@ const tableOfContents = [
 const CHITRAKOTE_GEAR: GearSection[] = [{
   title: "Things Worth Carrying", subtitle: "Gear for wet viewpoints and monsoon visits", emoji: "💦",
   items: [
-    { name: "Grippy Sandals", description: "Viewpoint areas near the falls get wet and slippery, especially close to the edge.", price: "₹899", rating: 4.4, reviews: "5.1k", image: "🥾", affiliateUrl: amazonSearchUrl("grip+sandals+outdoor+wet"), tag: "Viewpoint essential", tagColor: "bg-amber-100 text-amber-700", why: "Wet rock near waterfall viewpoints is where most minor slips happen." },
-    { name: "Rain Layer", description: "Essential if visiting during peak monsoon when the falls are at their most dramatic.", price: "₹899", rating: 4.4, reviews: "5.1k", image: "🌂", affiliateUrl: amazonSearchUrl("packable+rain+jacket+travel"), tag: "Monsoon essential", tagColor: "bg-sky-100 text-sky-700", why: "The best flow season is also the wettest — plan accordingly." },
-    { name: "Waterproof Phone Pouch", description: "Useful for boat rides near the base and general spray exposure near the falls.", price: "₹299", rating: 4.3, reviews: "9.1k", image: "📱", affiliateUrl: amazonSearchUrl("waterproof+phone+pouch+travel"), tag: "Boat-ride essential", tagColor: "bg-purple-100 text-purple-700", why: "Spray from the falls and any boat ride both carry a real risk of a soaked phone." },
-    { name: "Camera", description: "For capturing the horseshoe-shaped crest from the various bank viewpoints.", price: "₹—", rating: 4.5, reviews: "—", image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-forest-100 text-forest-700", why: "Chitrakote's width is best appreciated across multiple vantage points." },
+    { name: "Grippy Sandals", description: "Viewpoint areas near the falls get wet and slippery, especially close to the edge.", price: "₹899",  image: "🥾", affiliateUrl: amazonSearchUrl("grip+sandals+outdoor+wet"), tag: "Viewpoint essential", tagColor: "bg-amber-100 text-amber-700", why: "Wet rock near waterfall viewpoints is where most minor slips happen." },
+    { name: "Rain Layer", description: "Essential if visiting during peak monsoon when the falls are at their most dramatic.", price: "₹899",  image: "🌂", affiliateUrl: amazonSearchUrl("packable+rain+jacket+travel"), tag: "Monsoon essential", tagColor: "bg-sky-100 text-sky-700", why: "The best flow season is also the wettest — plan accordingly." },
+    { name: "Waterproof Phone Pouch", description: "Useful for boat rides near the base and general spray exposure near the falls.", price: "₹299",  image: "📱", affiliateUrl: amazonSearchUrl("waterproof+phone+pouch+travel"), tag: "Boat-ride essential", tagColor: "bg-purple-100 text-purple-700", why: "Spray from the falls and any boat ride both carry a real risk of a soaked phone." },
+    { name: "Camera", description: "For capturing the horseshoe-shaped crest from the various bank viewpoints.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-forest-100 text-forest-700", why: "Chitrakote's width is best appreciated across multiple vantage points." },
   ],
 }];
 
@@ -164,6 +165,8 @@ export default function ChitrakoteGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="chitrakote-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Chitrakote</h2>

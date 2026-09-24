@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -155,8 +156,6 @@ const TRIKUT_GEAR: GearSection[] = [
         name: "Comfortable Walking Shoes",
         description: "Useful for the trekking alternative to the ropeway and for walking around the hilltop viewpoints.",
         price: "₹1,999",
-        rating: 4.4,
-        reviews: "5.3k",
         image: "👟",
         affiliateUrl: amazonSearchUrl("comfortable+trekking+shoes"),
         tag: "Trek essential",
@@ -167,8 +166,6 @@ const TRIKUT_GEAR: GearSection[] = [
         name: "Sun Hat",
         description: "Hilltop viewpoints offer little shade — useful for the wait at ropeway boarding points and the walk between viewpoints.",
         price: "₹399",
-        rating: 4.3,
-        reviews: "3.8k",
         image: "🧢",
         affiliateUrl: amazonSearchUrl("sun+hat+travel"),
         tag: "Comfort essential",
@@ -179,8 +176,6 @@ const TRIKUT_GEAR: GearSection[] = [
         name: "Reusable Water Bottle",
         description: "Facilities thin out once you're away from the ropeway base station.",
         price: "₹449",
-        rating: 4.5,
-        reviews: "6.2k",
         image: "💧",
         affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"),
         tag: "All-day essential",
@@ -191,8 +186,6 @@ const TRIKUT_GEAR: GearSection[] = [
         name: "Camera",
         description: "The ropeway ride and hilltop viewpoints offer genuinely good forest and valley photography.",
         price: "₹—",
-        rating: 4.5,
-        reviews: "—",
         image: "📷",
         affiliateUrl: amazonSearchUrl("compact+camera+travel"),
         tag: "Photography essential",
@@ -342,6 +335,8 @@ export default function TrikutGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="trikut-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Trikut Hills</h2>

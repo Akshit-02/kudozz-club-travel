@@ -10,6 +10,7 @@ import TrekGearRecommendations, {
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -446,6 +447,8 @@ export default function RishikeshPage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="rishikesh-adventure-travel-guide" />
 
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">

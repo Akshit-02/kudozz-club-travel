@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -161,8 +162,6 @@ const SARANDA_GEAR: GearSection[] = [
         description:
           "Interior forest tracks are uneven and largely unmaintained — proper footwear matters more here than at any developed Jharkhand site.",
         price: "₹2,999",
-        rating: 4.5,
-        reviews: "5.8k",
         image: "🥾",
         affiliateUrl: amazonSearchUrl("sturdy+trekking+shoes+forest"),
         tag: "Non-negotiable",
@@ -174,8 +173,6 @@ const SARANDA_GEAR: GearSection[] = [
         description:
           "Dense sal canopy and minimal development mean a strong, sustained mosquito and insect presence throughout the forest.",
         price: "₹199",
-        rating: 4.3,
-        reviews: "4.2k",
         image: "🦟",
         affiliateUrl: amazonSearchUrl("insect+repellent+spray+forest"),
         tag: "Forest essential",
@@ -187,8 +184,6 @@ const SARANDA_GEAR: GearSection[] = [
         description:
           "Shops and facilities are minimal to nonexistent once you're inside the forest tract — carry more than you think you'll need.",
         price: "₹449",
-        rating: 4.5,
-        reviews: "6.2k",
         image: "💧",
         affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"),
         tag: "Non-negotiable",
@@ -200,8 +195,6 @@ const SARANDA_GEAR: GearSection[] = [
         description:
           "Mobile network is patchy to absent in much of the interior — a charged power bank helps if you need to reach your guide or driver.",
         price: "₹1,299",
-        rating: 4.4,
-        reviews: "3.9k",
         image: "🔋",
         affiliateUrl: amazonSearchUrl("power+bank+travel"),
         tag: "Remote-travel essential",
@@ -353,6 +346,8 @@ export default function SarandaForestGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="saranda-forest-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Saranda Forest</h2>

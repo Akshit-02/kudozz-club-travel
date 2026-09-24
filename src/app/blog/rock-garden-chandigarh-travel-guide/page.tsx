@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -433,6 +434,8 @@ export default function RockGardenGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="rock-garden-chandigarh-travel-guide" />
 
                 {/* ── Origin Story ──────────────────────────────────────── */}
                 <section id="origin-story">

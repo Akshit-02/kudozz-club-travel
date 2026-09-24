@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -81,10 +82,10 @@ const tableOfContents = [
 const BAGA_GEAR: GearSection[] = [{
   title: "Things Worth Carrying", subtitle: "Gear for beach days and nights out on Tito's Lane", emoji: "🎉",
   items: [
-    { name: "Reef-Safe Sunscreen (SPF 50)", description: "Extended beach time before the nightlife starts calls for strong sun protection.", price: "₹599", rating: 4.5, reviews: "7.4k", image: "🧴", affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+SPF+50"), tag: "Beach essential", tagColor: "bg-amber-100 text-amber-700", why: "A day at Baga beach precedes most nightlife plans — sunburn undermines the evening." },
-    { name: "Comfortable Going-Out Footwear", description: "For a night navigating Tito's Lane's clubs, bars, and crowded lanes.", price: "₹1,299", rating: 4.4, reviews: "4.1k", image: "👞", affiliateUrl: amazonSearchUrl("comfortable+going+out+shoes"), tag: "Nightlife essential", tagColor: "bg-purple-100 text-purple-700", why: "Tito's Lane involves a lot of standing and walking between venues." },
-    { name: "Waterproof Phone Pouch", description: "For the beach, water sports, and dolphin-watching boat trips.", price: "₹299", rating: 4.3, reviews: "9.1k", image: "📱", affiliateUrl: amazonSearchUrl("waterproof+phone+pouch+beach"), tag: "Water essential", tagColor: "bg-sky-100 text-sky-700", why: "Between water sports and boat trips, protecting your phone matters at Baga." },
-    { name: "Small Cross-Body Bag", description: "For keeping essentials secure through crowded nightlife venues.", price: "₹799", rating: 4.4, reviews: "3.2k", image: "🎒", affiliateUrl: amazonSearchUrl("cross+body+travel+bag"), tag: "Nightlife essential", tagColor: "bg-forest-100 text-forest-700", why: "Crowded clubs and bars are where pickpocketing risk is highest." },
+    { name: "Reef-Safe Sunscreen (SPF 50)", description: "Extended beach time before the nightlife starts calls for strong sun protection.", price: "₹599",  image: "🧴", affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+SPF+50"), tag: "Beach essential", tagColor: "bg-amber-100 text-amber-700", why: "A day at Baga beach precedes most nightlife plans — sunburn undermines the evening." },
+    { name: "Comfortable Going-Out Footwear", description: "For a night navigating Tito's Lane's clubs, bars, and crowded lanes.", price: "₹1,299",  image: "👞", affiliateUrl: amazonSearchUrl("comfortable+going+out+shoes"), tag: "Nightlife essential", tagColor: "bg-purple-100 text-purple-700", why: "Tito's Lane involves a lot of standing and walking between venues." },
+    { name: "Waterproof Phone Pouch", description: "For the beach, water sports, and dolphin-watching boat trips.", price: "₹299",  image: "📱", affiliateUrl: amazonSearchUrl("waterproof+phone+pouch+beach"), tag: "Water essential", tagColor: "bg-sky-100 text-sky-700", why: "Between water sports and boat trips, protecting your phone matters at Baga." },
+    { name: "Small Cross-Body Bag", description: "For keeping essentials secure through crowded nightlife venues.", price: "₹799",  image: "🎒", affiliateUrl: amazonSearchUrl("cross+body+travel+bag"), tag: "Nightlife essential", tagColor: "bg-forest-100 text-forest-700", why: "Crowded clubs and bars are where pickpocketing risk is highest." },
   ],
 }];
 
@@ -164,6 +165,8 @@ export default function BagaGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="baga-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Baga</h2>

@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -82,10 +83,10 @@ const tableOfContents = [
 const PAPI_GEAR: GearSection[] = [{
   title: "Things Worth Carrying", subtitle: "Gear for a day on the Godavari boat cruise", emoji: "🚤",
   items: [
-    { name: "Reef-Safe Sunscreen (SPF 50)", description: "Much of the cruise offers direct sun exposure with little shade on deck.", price: "₹599", rating: 4.5, reviews: "7.4k", image: "🧴", affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+SPF+50"), tag: "Cruise essential", tagColor: "bg-amber-100 text-amber-700", why: "Sunburn is the top regret among travelers who underestimate a full day on an open boat deck." },
-    { name: "Sun Hat", description: "Extended sun exposure on the boat makes a wide-brim hat genuinely useful.", price: "₹399", rating: 4.4, reviews: "4.5k", image: "🧢", affiliateUrl: amazonSearchUrl("wide+brim+sun+hat+travel"), tag: "Cruise essential", tagColor: "bg-sky-100 text-sky-700", why: "Cabin/covered seating is limited on most cruise boats." },
-    { name: "Light Jacket", description: "Morning and evening portions of the cruise can be noticeably cooler on the water.", price: "₹1,499", rating: 4.4, reviews: "3.8k", image: "🧥", affiliateUrl: amazonSearchUrl("light+jacket+travel"), tag: "Comfort essential", tagColor: "bg-forest-100 text-forest-700", why: "River breeze makes early departures and late returns cooler than expected." },
-    { name: "Camera", description: "For the forested gorge scenery and the Perantalapalli waterfall stop.", price: "₹—", rating: 4.5, reviews: "—", image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-purple-100 text-purple-700", why: "The gorge scenery is genuinely one of the trip's main draws." },
+    { name: "Reef-Safe Sunscreen (SPF 50)", description: "Much of the cruise offers direct sun exposure with little shade on deck.", price: "₹599",  image: "🧴", affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+SPF+50"), tag: "Cruise essential", tagColor: "bg-amber-100 text-amber-700", why: "Sunburn is the top regret among travelers who underestimate a full day on an open boat deck." },
+    { name: "Sun Hat", description: "Extended sun exposure on the boat makes a wide-brim hat genuinely useful.", price: "₹399",  image: "🧢", affiliateUrl: amazonSearchUrl("wide+brim+sun+hat+travel"), tag: "Cruise essential", tagColor: "bg-sky-100 text-sky-700", why: "Cabin/covered seating is limited on most cruise boats." },
+    { name: "Light Jacket", description: "Morning and evening portions of the cruise can be noticeably cooler on the water.", price: "₹1,499",  image: "🧥", affiliateUrl: amazonSearchUrl("light+jacket+travel"), tag: "Comfort essential", tagColor: "bg-forest-100 text-forest-700", why: "River breeze makes early departures and late returns cooler than expected." },
+    { name: "Camera", description: "For the forested gorge scenery and the Perantalapalli waterfall stop.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-purple-100 text-purple-700", why: "The gorge scenery is genuinely one of the trip's main draws." },
   ],
 }];
 
@@ -165,6 +166,8 @@ export default function PapiHillsGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="papi-hills-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Papi Hills</h2>

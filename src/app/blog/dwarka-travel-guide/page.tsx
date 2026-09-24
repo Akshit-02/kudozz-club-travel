@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -107,10 +108,10 @@ const DWARKA_GEAR: GearSection[] = [
     subtitle: "Gear for temple visits and the Bet Dwarka boat trip",
     emoji: "🛕",
     items: [
-      { name: "Modest Clothing", description: "Required for Dwarkadhish Temple and other active pilgrimage sites in and around Dwarka.", price: "₹599", rating: 4.4, reviews: "3.9k", image: "👕", affiliateUrl: amazonSearchUrl("modest+travel+clothing"), tag: "Temple essential", tagColor: "bg-purple-100 text-purple-700", why: "Dwarka is an active, high-devotion pilgrimage town, not a leisure destination." },
-      { name: "Comfortable Walking Shoes", description: "For temple-hopping and the walk to/from the Bet Dwarka boat jetty.", price: "₹1,999", rating: 4.4, reviews: "5.3k", image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-amber-100 text-amber-700", why: "Between Dwarkadhish, Bet Dwarka, and Nageshwar, there's real walking involved." },
-      { name: "Small Bag for Shoes/Valuables", description: "Footwear must be removed before entering the temple complex.", price: "₹299", rating: 4.3, reviews: "3.1k", image: "🎒", affiliateUrl: amazonSearchUrl("small+travel+pouch+bag"), tag: "Temple essential", tagColor: "bg-sky-100 text-sky-700", why: "A dedicated bag makes managing shoes and valuables at the temple entrance much simpler." },
-      { name: "Sun Hat", description: "For the coastal sun during the Bet Dwarka boat ride and outdoor temple areas.", price: "₹399", rating: 4.4, reviews: "4.0k", image: "🧢", affiliateUrl: amazonSearchUrl("sun+hat+travel"), tag: "Sun essential", tagColor: "bg-forest-100 text-forest-700", why: "Coastal Gujarat sun is intense, especially on the open boat crossing to Bet Dwarka." },
+      { name: "Modest Clothing", description: "Required for Dwarkadhish Temple and other active pilgrimage sites in and around Dwarka.", price: "₹599",  image: "👕", affiliateUrl: amazonSearchUrl("modest+travel+clothing"), tag: "Temple essential", tagColor: "bg-purple-100 text-purple-700", why: "Dwarka is an active, high-devotion pilgrimage town, not a leisure destination." },
+      { name: "Comfortable Walking Shoes", description: "For temple-hopping and the walk to/from the Bet Dwarka boat jetty.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-amber-100 text-amber-700", why: "Between Dwarkadhish, Bet Dwarka, and Nageshwar, there's real walking involved." },
+      { name: "Small Bag for Shoes/Valuables", description: "Footwear must be removed before entering the temple complex.", price: "₹299",  image: "🎒", affiliateUrl: amazonSearchUrl("small+travel+pouch+bag"), tag: "Temple essential", tagColor: "bg-sky-100 text-sky-700", why: "A dedicated bag makes managing shoes and valuables at the temple entrance much simpler." },
+      { name: "Sun Hat", description: "For the coastal sun during the Bet Dwarka boat ride and outdoor temple areas.", price: "₹399",  image: "🧢", affiliateUrl: amazonSearchUrl("sun+hat+travel"), tag: "Sun essential", tagColor: "bg-forest-100 text-forest-700", why: "Coastal Gujarat sun is intense, especially on the open boat crossing to Bet Dwarka." },
     ],
   },
 ];
@@ -197,6 +198,8 @@ export default function DwarkaGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="dwarka-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Dwarka</h2>

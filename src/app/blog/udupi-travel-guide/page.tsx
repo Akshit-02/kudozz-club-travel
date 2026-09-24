@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -109,10 +110,10 @@ const UDUPI_GEAR: GearSection[] = [
     subtitle: "Gear for temple visits, the beach, and St. Mary's Island",
     emoji: "🛕",
     items: [
-      { name: "Modest Temple Clothing", description: "Sri Krishna Matha expects modest, covered dress from visitors.", price: "₹599", rating: 4.4, reviews: "3.9k", image: "🙏", affiliateUrl: amazonSearchUrl("modest+travel+clothing"), tag: "Temple essential", tagColor: "bg-purple-100 text-purple-700", why: "This is an active, significant place of worship, not a monument-style tourist site." },
-      { name: "Comfortable Sandals", description: "St. Mary's Island's basalt rock terrain and the temple's stone floors both call for practical, easily removable footwear.", price: "₹899", rating: 4.4, reviews: "4.8k", image: "👡", affiliateUrl: amazonSearchUrl("comfortable+sandals+travel"), tag: "All-day essential", tagColor: "bg-forest-100 text-forest-700", why: "Between rocky island terrain and shoes-off temple visits, easy sandals are the practical choice." },
-      { name: "Waterproof Phone Pouch", description: "For the boat crossing to St. Mary's Island.", price: "₹299", rating: 4.3, reviews: "9.1k", image: "📱", affiliateUrl: amazonSearchUrl("waterproof+phone+pouch+travel"), tag: "Boat-ride essential", tagColor: "bg-sky-100 text-sky-700", why: "A short open-water crossing carries some spray risk for electronics." },
-      { name: "Reef-Safe Sunscreen", description: "Malpe Beach and the exposed rocky terrain of St. Mary's Island both mean real sun exposure.", price: "₹599", rating: 4.5, reviews: "7.4k", image: "🧴", affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+SPF+50"), tag: "Beach essential", tagColor: "bg-amber-100 text-amber-700", why: "St. Mary's Island in particular has very little natural shade." },
+      { name: "Modest Temple Clothing", description: "Sri Krishna Matha expects modest, covered dress from visitors.", price: "₹599",  image: "🙏", affiliateUrl: amazonSearchUrl("modest+travel+clothing"), tag: "Temple essential", tagColor: "bg-purple-100 text-purple-700", why: "This is an active, significant place of worship, not a monument-style tourist site." },
+      { name: "Comfortable Sandals", description: "St. Mary's Island's basalt rock terrain and the temple's stone floors both call for practical, easily removable footwear.", price: "₹899",  image: "👡", affiliateUrl: amazonSearchUrl("comfortable+sandals+travel"), tag: "All-day essential", tagColor: "bg-forest-100 text-forest-700", why: "Between rocky island terrain and shoes-off temple visits, easy sandals are the practical choice." },
+      { name: "Waterproof Phone Pouch", description: "For the boat crossing to St. Mary's Island.", price: "₹299",  image: "📱", affiliateUrl: amazonSearchUrl("waterproof+phone+pouch+travel"), tag: "Boat-ride essential", tagColor: "bg-sky-100 text-sky-700", why: "A short open-water crossing carries some spray risk for electronics." },
+      { name: "Reef-Safe Sunscreen", description: "Malpe Beach and the exposed rocky terrain of St. Mary's Island both mean real sun exposure.", price: "₹599",  image: "🧴", affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+SPF+50"), tag: "Beach essential", tagColor: "bg-amber-100 text-amber-700", why: "St. Mary's Island in particular has very little natural shade." },
     ],
   },
 ];
@@ -199,6 +200,8 @@ export default function UdupiGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="udupi-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Udupi</h2>

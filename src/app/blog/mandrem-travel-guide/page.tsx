@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -194,8 +195,6 @@ const MANDREM_GEAR: GearSection[] = [
         description:
           "A lightweight, foldable mat is genuinely useful if you're joining drop-in sessions at Mandrem's retreat centres rather than relying on rentals.",
         price: "₹1,299",
-        rating: 4.4,
-        reviews: "3.8k",
         image: "🧘",
         affiliateUrl: amazonSearchUrl("travel+yoga+mat+foldable"),
         tag: "Retreat essential",
@@ -207,8 +206,6 @@ const MANDREM_GEAR: GearSection[] = [
         description:
           "Long beach walks between Mandrem and Ashwem offer very little shade — reef-safe formulas protect both your skin and the shallow coastal waters.",
         price: "₹599",
-        rating: 4.5,
-        reviews: "7.4k",
         image: "🧴",
         affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+SPF+50"),
         tag: "Beach essential",
@@ -220,8 +217,6 @@ const MANDREM_GEAR: GearSection[] = [
         description:
           "Useful for the river-mouth walk and any time spent outside during the midday sun, which is intense even outside peak summer.",
         price: "₹399",
-        rating: 4.3,
-        reviews: "4.1k",
         image: "👒",
         affiliateUrl: amazonSearchUrl("wide+brim+sun+hat+travel"),
         tag: "Comfort essential",
@@ -233,8 +228,6 @@ const MANDREM_GEAR: GearSection[] = [
         description:
           "Practical for beach cover-up, yoga sessions, and the occasional cooler evening breeze.",
         price: "₹449",
-        rating: 4.4,
-        reviews: "5.0k",
         image: "🧣",
         affiliateUrl: amazonSearchUrl("cotton+sarong+beach+wrap"),
         tag: "Versatile essential",
@@ -246,8 +239,6 @@ const MANDREM_GEAR: GearSection[] = [
         description:
           "Refillable water matters here — Mandrem's shack and cafe density is lower than Baga or Calangute, so you can't always count on a nearby stop.",
         price: "₹599",
-        rating: 4.5,
-        reviews: "6.3k",
         image: "💧",
         affiliateUrl: amazonSearchUrl("insulated+water+bottle+steel"),
         tag: "All-day essential",
@@ -477,6 +468,8 @@ export default function MandremGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="mandrem-travel-guide" />
 
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">

@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -195,8 +196,6 @@ const PRASHAR_GEAR: GearSection[] = [
         description:
           "For the climb from Baggi village to the lake over forest and open mountain trail.",
         price: "₹2,999",
-        rating: 4.5,
-        reviews: "6.2k",
         image: "🥾",
         affiliateUrl: amazonSearchUrl("trekking+shoes+mountain"),
         tag: "Trek essential",
@@ -208,8 +207,6 @@ const PRASHAR_GEAR: GearSection[] = [
         description:
           "For an overnight camp at the lake — nights get genuinely cold at this altitude even in summer.",
         price: "₹2,999",
-        rating: 4.4,
-        reviews: "2.9k",
         image: "🎒",
         affiliateUrl: amazonSearchUrl("sleeping+bag+trekking+camping"),
         tag: "Overnight essential",
@@ -221,8 +218,6 @@ const PRASHAR_GEAR: GearSection[] = [
         description:
           "Essential for moving around camp after dark and for an early-morning start if doing the trek in a single day.",
         price: "₹599",
-        rating: 4.4,
-        reviews: "4.5k",
         image: "🔦",
         affiliateUrl: amazonSearchUrl("headlamp+trekking+camping"),
         tag: "Camping essential",
@@ -234,8 +229,6 @@ const PRASHAR_GEAR: GearSection[] = [
         description:
           "The trail has limited water sources — carrying enough is essential for the full ascent.",
         price: "₹449",
-        rating: 4.5,
-        reviews: "6.2k",
         image: "💧",
         affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"),
         tag: "Trek essential",
@@ -453,6 +446,8 @@ export default function PrasharLakeGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="prashar-lake-travel-guide" />
 
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">

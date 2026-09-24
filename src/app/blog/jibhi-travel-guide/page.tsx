@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -195,8 +196,6 @@ const JIBHI_GEAR: GearSection[] = [
         description:
           "For the walk to Jibhi Waterfall and any Jalori Pass / Serolsar Lake trekking, both over uneven forest terrain.",
         price: "₹2,499",
-        rating: 4.4,
-        reviews: "5.3k",
         image: "🥾",
         affiliateUrl: amazonSearchUrl("trekking+shoes+moderate+hike"),
         tag: "Trek essential",
@@ -208,8 +207,6 @@ const JIBHI_GEAR: GearSection[] = [
         description:
           "Sudden showers are common in this forested valley, especially in shoulder-monsoon months.",
         price: "₹899",
-        rating: 4.4,
-        reviews: "5.1k",
         image: "🌂",
         affiliateUrl: amazonSearchUrl("packable+rain+jacket+travel"),
         tag: "Weather essential",
@@ -221,8 +218,6 @@ const JIBHI_GEAR: GearSection[] = [
         description:
           "Evenings cool sharply in the village, and Jalori Pass altitude is noticeably colder still.",
         price: "₹1,999",
-        rating: 4.4,
-        reviews: "4.7k",
         image: "🧥",
         affiliateUrl: amazonSearchUrl("warm+jacket+hill+station+travel"),
         tag: "Evening essential",
@@ -234,8 +229,6 @@ const JIBHI_GEAR: GearSection[] = [
         description:
           "For the wooden Himachali houses, terraced fields, and forest scenery that define Jibhi's photogenic character.",
         price: "₹—",
-        rating: 4.5,
-        reviews: "—",
         image: "📷",
         affiliateUrl: amazonSearchUrl("compact+camera+travel"),
         tag: "Sightseeing essential",
@@ -456,6 +449,8 @@ export default function JibhiGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="jibhi-travel-guide" />
 
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">

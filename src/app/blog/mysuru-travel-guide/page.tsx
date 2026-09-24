@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, {
   GearSection,
 } from "@/components/ui/TrekGearRecommendations";
@@ -109,10 +110,10 @@ const MYSURU_GEAR: GearSection[] = [
     subtitle: "Gear for palace visits, hilltop temples, and festival crowds",
     emoji: "🏰",
     items: [
-      { name: "Comfortable Walking Shoes", description: "Mysore Palace's grounds and Chamundi Hill's steps both call for sturdy, comfortable footwear.", price: "₹1,999", rating: 4.4, reviews: "5.3k", image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "City essential", tagColor: "bg-amber-100 text-amber-700", why: "Chamundi Hill's steps and the palace's large grounds add up over a full day." },
-      { name: "Modest Temple-Appropriate Clothing", description: "Chamundi Hill Temple and other religious sites expect modest, covered clothing.", price: "₹599", rating: 4.4, reviews: "3.9k", image: "👕", affiliateUrl: amazonSearchUrl("modest+travel+clothing"), tag: "Temple essential", tagColor: "bg-purple-100 text-purple-700", why: "Mysuru's key sites include active temples with expected dress standards." },
-      { name: "Camera", description: "Between the illuminated palace, hilltop views, and Brindavan Gardens, this is a genuinely photogenic city.", price: "—", rating: 4.5, reviews: "—", image: "📷", affiliateUrl: amazonSearchUrl("compact+travel+camera"), tag: "Photography essential", tagColor: "bg-sky-100 text-sky-700", why: "The Sunday evening palace illumination alone is worth capturing well." },
-      { name: "Reusable Water Bottle", description: "For a full day of walking between the palace, market, and hilltop temple.", price: "₹449", rating: 4.5, reviews: "6.2k", image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "All-day essential", tagColor: "bg-forest-100 text-forest-700", why: "Mysuru's sightseeing spans a genuinely large area on foot." },
+      { name: "Comfortable Walking Shoes", description: "Mysore Palace's grounds and Chamundi Hill's steps both call for sturdy, comfortable footwear.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "City essential", tagColor: "bg-amber-100 text-amber-700", why: "Chamundi Hill's steps and the palace's large grounds add up over a full day." },
+      { name: "Modest Temple-Appropriate Clothing", description: "Chamundi Hill Temple and other religious sites expect modest, covered clothing.", price: "₹599",  image: "👕", affiliateUrl: amazonSearchUrl("modest+travel+clothing"), tag: "Temple essential", tagColor: "bg-purple-100 text-purple-700", why: "Mysuru's key sites include active temples with expected dress standards." },
+      { name: "Camera", description: "Between the illuminated palace, hilltop views, and Brindavan Gardens, this is a genuinely photogenic city.", price: "—",  image: "📷", affiliateUrl: amazonSearchUrl("compact+travel+camera"), tag: "Photography essential", tagColor: "bg-sky-100 text-sky-700", why: "The Sunday evening palace illumination alone is worth capturing well." },
+      { name: "Reusable Water Bottle", description: "For a full day of walking between the palace, market, and hilltop temple.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "All-day essential", tagColor: "bg-forest-100 text-forest-700", why: "Mysuru's sightseeing spans a genuinely large area on foot." },
     ],
   },
 ];
@@ -199,6 +200,8 @@ export default function MysuruGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="mysuru-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Mysuru</h2>

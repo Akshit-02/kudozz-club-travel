@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -82,10 +83,10 @@ const tableOfContents = [
 const SELA_GEAR: GearSection[] = [{
   title: "Things Worth Carrying", subtitle: "Gear for a high-altitude pass crossing", emoji: "⛰️",
   items: [
-    { name: "Heavy Warm Layers", description: "Sela Pass is genuinely cold year-round, not just in winter — proper insulation is essential even for a brief stop.", price: "₹3,999", rating: 4.5, reviews: "3.8k", image: "🧥", affiliateUrl: amazonSearchUrl("heavy+winter+jacket+high+altitude"), tag: "Non-negotiable", tagColor: "bg-red-100 text-red-700", why: "Even a short stop at the pass exposes you to genuinely harsh wind chill at this altitude." },
-    { name: "Sturdy Footwear", description: "For walking around Sela Lake and the pass area, which can be icy or slushy depending on season.", price: "₹2,999", rating: 4.4, reviews: "4.6k", image: "🥾", affiliateUrl: amazonSearchUrl("sturdy+winter+boots+trekking"), tag: "Trip essential", tagColor: "bg-amber-100 text-amber-700", why: "The ground around the pass and lake is often uneven, icy, or wet." },
-    { name: "High-SPF Sunscreen", description: "High-altitude sun at Sela Pass is deceptively intense even in cold, cloudy weather.", price: "₹599", rating: 4.5, reviews: "7.4k", image: "🧴", affiliateUrl: amazonSearchUrl("high+spf+sunscreen+travel"), tag: "Altitude essential", tagColor: "bg-sky-100 text-sky-700", why: "Sunburn at this altitude happens fast, even when the air feels cold." },
-    { name: "Motion Sickness Medication", description: "The winding mountain roads leading to and from the pass can be genuinely nausea-inducing for some travelers.", price: "₹99", rating: 4.3, reviews: "5.2k", image: "💊", affiliateUrl: amazonSearchUrl("motion+sickness+tablets+travel"), tag: "Road-trip essential", tagColor: "bg-purple-100 text-purple-700", why: "The approach roads have many tight switchbacks — worth being prepared if you're prone to motion sickness." },
+    { name: "Heavy Warm Layers", description: "Sela Pass is genuinely cold year-round, not just in winter — proper insulation is essential even for a brief stop.", price: "₹3,999",  image: "🧥", affiliateUrl: amazonSearchUrl("heavy+winter+jacket+high+altitude"), tag: "Non-negotiable", tagColor: "bg-red-100 text-red-700", why: "Even a short stop at the pass exposes you to genuinely harsh wind chill at this altitude." },
+    { name: "Sturdy Footwear", description: "For walking around Sela Lake and the pass area, which can be icy or slushy depending on season.", price: "₹2,999",  image: "🥾", affiliateUrl: amazonSearchUrl("sturdy+winter+boots+trekking"), tag: "Trip essential", tagColor: "bg-amber-100 text-amber-700", why: "The ground around the pass and lake is often uneven, icy, or wet." },
+    { name: "High-SPF Sunscreen", description: "High-altitude sun at Sela Pass is deceptively intense even in cold, cloudy weather.", price: "₹599",  image: "🧴", affiliateUrl: amazonSearchUrl("high+spf+sunscreen+travel"), tag: "Altitude essential", tagColor: "bg-sky-100 text-sky-700", why: "Sunburn at this altitude happens fast, even when the air feels cold." },
+    { name: "Motion Sickness Medication", description: "The winding mountain roads leading to and from the pass can be genuinely nausea-inducing for some travelers.", price: "₹99",  image: "💊", affiliateUrl: amazonSearchUrl("motion+sickness+tablets+travel"), tag: "Road-trip essential", tagColor: "bg-purple-100 text-purple-700", why: "The approach roads have many tight switchbacks — worth being prepared if you're prone to motion sickness." },
   ],
 }];
 
@@ -165,6 +166,8 @@ export default function SelaPassGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="sela-pass-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Sela Pass</h2>

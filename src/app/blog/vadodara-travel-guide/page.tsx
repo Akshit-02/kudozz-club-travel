@@ -6,6 +6,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
+import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
 import { amazonSearchUrl } from "@/lib/common";
 
@@ -107,10 +108,10 @@ const VADODARA_GEAR: GearSection[] = [
     subtitle: "Gear for palace grounds and city park walks",
     emoji: "🏰",
     items: [
-      { name: "Comfortable Walking Shoes", description: "For the extensive Laxmi Vilas Palace grounds and Sayaji Baug's large park area.", price: "₹1,999", rating: 4.4, reviews: "5.3k", image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-amber-100 text-amber-700", why: "Both major sights involve significant ground to cover on foot." },
-      { name: "Camera", description: "For the palace's Indo-Saracenic architecture and the Baroda Museum's eclectic collection.", price: "₹—", rating: 4.5, reviews: "—", image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-purple-100 text-purple-700", why: "Vadodara's heritage architecture is genuinely photogenic, inside and out where permitted." },
-      { name: "Light Layers", description: "Comfortable for both indoor museum visits and outdoor park walking across a full day.", price: "₹799", rating: 4.4, reviews: "3.5k", image: "👕", affiliateUrl: amazonSearchUrl("light+layers+travel+clothing"), tag: "Comfort essential", tagColor: "bg-sky-100 text-sky-700", why: "Air-conditioned museum interiors contrast with warm outdoor palace grounds." },
-      { name: "Sun Hat", description: "Sayaji Baug's open lawns and the Champaner-Pavagadh hilltop offer limited shade at midday.", price: "₹399", rating: 4.4, reviews: "4.1k", image: "👒", affiliateUrl: amazonSearchUrl("sun+hat+travel"), tag: "Day-trip essential", tagColor: "bg-forest-100 text-forest-700", why: "Useful for both the city park and any Champaner-Pavagadh day trip." },
+      { name: "Comfortable Walking Shoes", description: "For the extensive Laxmi Vilas Palace grounds and Sayaji Baug's large park area.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-amber-100 text-amber-700", why: "Both major sights involve significant ground to cover on foot." },
+      { name: "Camera", description: "For the palace's Indo-Saracenic architecture and the Baroda Museum's eclectic collection.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-purple-100 text-purple-700", why: "Vadodara's heritage architecture is genuinely photogenic, inside and out where permitted." },
+      { name: "Light Layers", description: "Comfortable for both indoor museum visits and outdoor park walking across a full day.", price: "₹799",  image: "👕", affiliateUrl: amazonSearchUrl("light+layers+travel+clothing"), tag: "Comfort essential", tagColor: "bg-sky-100 text-sky-700", why: "Air-conditioned museum interiors contrast with warm outdoor palace grounds." },
+      { name: "Sun Hat", description: "Sayaji Baug's open lawns and the Champaner-Pavagadh hilltop offer limited shade at midday.", price: "₹399",  image: "👒", affiliateUrl: amazonSearchUrl("sun+hat+travel"), tag: "Day-trip essential", tagColor: "bg-forest-100 text-forest-700", why: "Useful for both the city park and any Champaner-Pavagadh day trip." },
     ],
   },
 ];
@@ -197,6 +198,8 @@ export default function VadodaraGuidePage() {
                     </div>
                   </div>
                 </section>
+
+                <GuideTripCTA slug="vadodara-travel-guide" />
 
                 <section id="best-time">
                   <h2>Best Time to Visit Vadodara</h2>
