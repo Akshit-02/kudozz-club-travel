@@ -7,10 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuidePhotoRow } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -28,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/hampi/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "The ancient Vijayanagara ruins of Hampi, Karnataka, scattered across a boulder-strewn landscape",
+        url: "/images/blogs/karnataka/karnataka/karnataka-2.webp",
+        width: 1600,
+        height: 1200,
+        alt: "View of Karnataka",
       },
     ],
   },
@@ -40,7 +37,7 @@ export const metadata: Metadata = {
     title: "Karnataka Travel Guide: Bangalore, Mysore & Hampi",
     description:
       "Tech capital, royal palaces, ancient ruins, coffee hills and beaches — the complete guide to Karnataka.",
-    images: ["/images/destinations/hampi/hero.jpg"],
+    images: ["/images/blogs/karnataka/karnataka/karnataka-2.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/karnataka-travel-guide",
@@ -58,7 +55,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Karnataka Travel Guide: Bangalore, Mysore & Hampi",
           description: "The complete Karnataka travel guide.",
-          image: "https://club.kudozz.in/images/destinations/hampi/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/karnataka/karnataka/karnataka-2.webp",
           datePublished: "2026-07-22",
           dateModified: "2026-07-22",
           publisher: {
@@ -186,84 +183,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-// ── Karnataka-specific gear ─────────────────────────────────────────────────
-const KARNATAKA_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle:
-      "Gear for Hampi's ruins, Bangalore's cafes, and the Western Ghats' unpredictable weather",
-    emoji: "🛺",
-    items: [
-      {
-        name: "Comfortable Walking Shoes",
-        description:
-          "Hampi's boulder-strewn ruins and Mysore Palace's sprawling grounds both involve hours of walking on uneven stone.",
-        price: "₹1,499",
-        image: "👟",
-        affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
-        tag: "Sightseeing essential",
-        tagColor: "bg-stone-100 text-stone-700",
-        why: "Hampi's ruins are spread across a huge boulder landscape — proper shoes make a real difference over a full day of exploring.",
-      },
-      {
-        name: "Lightweight Rain Jacket",
-        description:
-          "Coorg and the Western Ghats stay lush and rainy well beyond the main monsoon months — worth carrying even outside peak monsoon.",
-        price: "₹1,299",
-        image: "🧥",
-        affiliateUrl: amazonSearchUrl("lightweight+rain+jacket+travel"),
-        tag: "Western Ghats essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Coorg and Chikmagalur see sudden showers even outside monsoon proper — a packable rain jacket earns its space.",
-      },
-      {
-        name: "Sunscreen (SPF 50)",
-        description:
-          "Hampi's open, shade-less terrain and coastal Karnataka's beaches both call for serious sun protection.",
-        price: "₹399",
-        image: "🧴",
-        affiliateUrl: amazonSearchUrl("sunscreen+spf+50+travel"),
-        tag: "Everyday essential",
-        tagColor: "bg-red-100 text-red-700",
-        why: "Hampi has almost no shade across its ruins, and Gokarna's beaches mean plenty of direct sun — this is non-negotiable.",
-      },
-      {
-        name: "Power Bank (10,000 mAh)",
-        description:
-          "Useful for long inter-city travel days between Bangalore, Mysore, Hampi, and the coast.",
-        price: "₹1,299",
-        image: "🔋",
-        affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
-        tag: "Travel-day essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "Karnataka's distances are large — long train and road journeys between regions drain phones faster than a typical day out.",
-      },
-      {
-        name: "Reusable Water Bottle",
-        description:
-          "Handy across Hampi's hot, dry ruins and Bangalore's cafe-hopping alike.",
-        price: "₹699",
-        image: "🍶",
-        affiliateUrl: amazonSearchUrl("insulated+water+bottle+steel"),
-        tag: "Everyday essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Hampi's Deccan heat and long sightseeing days both mean staying hydrated is worth planning for, not an afterthought.",
-      },
-      {
-        name: "Compact First-Aid Kit",
-        description:
-          "A basic kit is worth having for trekking near Chikmagalur, boulder-hopping in Hampi, and general road-trip contingencies.",
-        price: "₹499",
-        image: "🩹",
-        affiliateUrl: amazonSearchUrl("compact+travel+first+aid+kit"),
-        tag: "Safety essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "Multi-region road trips through hills, ruins, and coastline benefit from carrying basic supplies rather than hunting for a pharmacy.",
-      },
-    ],
-  },
-];
-
 // ── Page ─────────────────────────────────────────────────────────────────────
 export default function KarnatakaGuidePage() {
   return (
@@ -277,8 +196,8 @@ export default function KarnatakaGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/hampi/hero.jpg"
-              alt="The ancient Vijayanagara ruins of Hampi, Karnataka, scattered across a boulder-strewn landscape"
+              src="/images/blogs/karnataka/karnataka/karnataka-2.webp"
+              alt="View of Karnataka"
               fill
               priority
               sizes="100vw"
@@ -723,8 +642,8 @@ export default function KarnatakaGuidePage() {
                   <h2>Hampi, Coorg & Gokarna</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/coorg/coorg.jpg"
-                      alt="Misty coffee plantation in the Western Ghats hills of Coorg, Karnataka"
+                      src="/images/blogs/karnataka/karnataka/hampi-karnataka.webp"
+                      alt="Hampi, Karnataka"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -802,6 +721,12 @@ export default function KarnatakaGuidePage() {
                       examples of medieval temple architecture.
                     </li>
                   </ul>
+                  <GuidePhotoRow
+                    images={[
+                      { src: "/images/blogs/karnataka/karnataka/chikmagalur-karnataka.webp", alt: "Chikmagalur, Karnataka", caption: "Chikmagalur, Karnataka" },
+                      { src: "/images/blogs/karnataka/karnataka/belur-and-halebidu-karnataka.webp", alt: "Belur & Halebidu, Karnataka", caption: "Belur & Halebidu, Karnataka" },
+                    ]}
+                  />
                 </section>
 
                 {/* ── Where to Stay ─────────────────────────────────────── */}
@@ -1370,12 +1295,6 @@ export default function KarnatakaGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              {/* ── Gear Recommendations ──────────────────────────────── */}
-              <TrekGearRecommendations
-                sections={KARNATAKA_GEAR}
-                destination="Karnataka"
-              />
 
               <RelatedPostsGrid currentSlug="karnataka-travel-guide" />
             </article>

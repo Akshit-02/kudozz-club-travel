@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -536,17 +537,9 @@ export default function KalimpongGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Things to Do in Kalimpong</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/west-bengal/kalimpong/zang-dhok-palri-phodang-monastery-kalimpong.webp"
-                      alt="Zang Dhok Palri Phodang monastery, one of Kalimpong's best-known Tibetan Buddhist landmarks"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
 
                   <h3>Durpin Monastery (Zang Dhok Palri Fo-Brang)</h3>
+                  <GuideFigure src="/images/blogs/west-bengal/kalimpong/durpin-monastery-kalimpong.webp" alt="Durpin Monastery, Kalimpong" />
                   <p>
                     Perched on Durpin Hill, Kalimpong's highest point, this
                     Tibetan Buddhist monastery was consecrated by the Dalai

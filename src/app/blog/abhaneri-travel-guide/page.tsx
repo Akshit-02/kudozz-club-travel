@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/leh-ladakh/leh-ladakh.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Dramatic geometric stone architecture, evoking the zigzagging steps of Abhaneri's Chand Baori stepwell in Rajasthan",
+        url: "/images/blogs/rajasthan/abhaneri/chand-baori-abhaneri.webp",
+        width: 1600,
+        height: 1067,
+        alt: "Chand Baori, Abhaneri",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Abhaneri Guide: Chand Baori Stepwell & Tips",
     description:
       "One of the world's largest and deepest stepwells, a geometric marvel from the 8th-9th century — the complete Abhaneri guide.",
-    images: ["/images/destinations/leh-ladakh/leh-ladakh.jpg"],
+    images: ["/images/blogs/rajasthan/abhaneri/chand-baori-abhaneri.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/abhaneri-travel-guide",
@@ -59,7 +60,7 @@ function ArticleSchema() {
           headline: "Abhaneri Guide: Chand Baori Stepwell & Tips",
           description:
             "Complete Abhaneri guide — Chand Baori, one of the world's largest and deepest stepwells, Harshat Mata Temple, how to reach from Jaipur, and how to fit it into a wider Rajasthan route.",
-          image: "https://club.kudozz.in/images/destinations/leh-ladakh/leh-ladakh.jpg",
+          image: "https://club.kudozz.in/images/blogs/rajasthan/abhaneri/chand-baori-abhaneri.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -200,8 +201,8 @@ export default function AbhaneriGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/leh-ladakh/leh-ladakh.jpg"
-              alt="Dramatic geometric stone architecture, evoking the zigzagging steps of Abhaneri's Chand Baori stepwell in Rajasthan"
+              src="/images/blogs/rajasthan/abhaneri/chand-baori-abhaneri.webp"
+              alt="Chand Baori, Abhaneri"
               fill
               priority
               sizes="100vw"
@@ -519,16 +520,8 @@ export default function AbhaneriGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Chand Baori & Harshat Mata Temple</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/leh-ladakh/leh-ladakh.jpg"
-                      alt="Geometric stepped architecture evoking Abhaneri's Chand Baori stepwell"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Chand Baori</h3>
+                  <GuideFigure src="/images/blogs/rajasthan/abhaneri/chand-baori-abhaneri-2.webp" alt="Chand Baori, Abhaneri" />
                   <p>
                     The stepwell was originally built for practical
                     purposes — water storage and a cool community gathering
@@ -538,6 +531,7 @@ export default function AbhaneriGuidePage() {
                     shifts noticeably as the sun moves.
                   </p>
                   <h3>Harshat Mata Temple</h3>
+                  <GuideFigure src="/images/blogs/rajasthan/abhaneri/harshat-mata-temple-abhaneri.webp" alt="Harshat Mata Temple, Abhaneri" />
                   <p>
                     Set directly beside the stepwell, this temple adds a
                     quieter, devotional counterpoint to Chand Baori's

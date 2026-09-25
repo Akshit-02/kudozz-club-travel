@@ -2,9 +2,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import SiteHeader from "@/components/layout/SiteHeader";
 import { RelatedPostsGrid, RelatedSidebar } from "@/components/ui/RelatedPosts";
 import TableOfContents from "@/components/ui/TableOfContents";
-import TrekGearRecommendations, {
-  HIMALAYAN_GEAR,
-} from "@/components/ui/TrekGearRecommendations";
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
@@ -701,8 +698,8 @@ export default function NubraValleyPage() {
                     <h3>Hunder Sand Dunes & Bactrian Camels</h3>
                     <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                       <Image
-                        src="/images/blogs/ladakh/hunder/hunder-sand-dunes-aerial-view.webp"
-                        alt="Aerial view of the pale cold-desert sand dunes at Hunder in Nubra Valley, Ladakh"
+                        src="/images/blogs/ladakh/nubra-valley/hunder-sand-dunes-and-bactrian-camels-nubra-valley.webp"
+                        alt="Hunder Sand Dunes & Bactrian Camels, Nubra Valley"
                         fill
                         sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                         className="object-cover"
@@ -818,8 +815,8 @@ export default function NubraValleyPage() {
                     <h3>Turtuk (A Worthwhile Detour)</h3>
                     <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                       <Image
-                        src="/images/blogs/ladakh/turtuk/turtuk-village-shyok-valley.webp"
-                        alt="Turtuk village's green terraced fields along the Shyok River valley near Nubra"
+                        src="/images/blogs/ladakh/nubra-valley/turtuk-nubra-valley.webp"
+                        alt="Turtuk, Nubra Valley"
                         fill
                         sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                         className="object-cover"
@@ -1230,10 +1227,6 @@ export default function NubraValleyPage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations
-                sections={HIMALAYAN_GEAR}
-                destination="Nubra Valley"
-              />
               {/* Related Posts Grid at bottom */}
               <RelatedPostsGrid currentSlug="nubra-valley-travel-guide" />
             </article>

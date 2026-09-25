@@ -25,8 +25,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/destinations/coorg/abbey-falls.jpg",
-        width: 1200,
-        height: 630,
+        width: 2560,
+        height: 1920,
         alt: "Forested waterfall landscape, evoking Peren district's green, undeveloped character and Intanki National Park",
       },
     ],
@@ -519,15 +519,6 @@ export default function PerenGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Intanki Park, Barail Range & Benreu</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/coorg/abbey-falls.jpg"
-                      alt="Forested waterfall scenery evoking Intanki National Park in Peren district, Nagaland"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Intanki National Park</h3>
                   <p>
                     The district&apos;s main wildlife draw, known especially

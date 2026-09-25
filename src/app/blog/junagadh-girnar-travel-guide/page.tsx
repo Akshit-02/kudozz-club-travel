@@ -7,10 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
   title: "Junagadh & Girnar Travel Guide: 10,000 Steps to Jain & Hindu Shrines",
@@ -27,10 +24,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/manali/rohtang-pass.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Mountain ridge scenery representative of Girnar Hill, Gujarat",
+        url: "/images/blogs/gujarat/junagadh-girnar/junagadh-and-girnar.webp",
+        width: 1600,
+        height: 1200,
+        alt: "View of Junagadh & Girnar, Gujarat",
       },
     ],
   },
@@ -38,7 +35,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Junagadh & Girnar Travel Guide: 10,000 Steps to Jain & Hindu Shrines",
     description: "The Girnar Hill climb, Jain temples, and Junagadh's ancient Uparkot Fort — the complete guide.",
-    images: ["/images/destinations/manali/rohtang-pass.jpg"],
+    images: ["/images/blogs/gujarat/junagadh-girnar/junagadh-and-girnar.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/junagadh-girnar-travel-guide" },
 };
@@ -53,7 +50,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Junagadh & Girnar Travel Guide: 10,000 Steps to Jain & Hindu Shrines",
           description: "The complete Junagadh & Girnar travel guide.",
-          image: "https://club.kudozz.in/images/destinations/manali/rohtang-pass.jpg",
+          image: "https://club.kudozz.in/images/blogs/gujarat/junagadh-girnar/junagadh-and-girnar.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: {
@@ -145,66 +142,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const GIRNAR_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for one of India's longest pilgrimage climbs",
-    emoji: "⛰️",
-    items: [
-      {
-        name: "Sturdy Trekking Shoes",
-        description: "Nearly 10,000 steps demand real trekking footwear, not casual sandals.",
-        price: "₹3,299",
-        image: "🥾",
-        affiliateUrl: amazonSearchUrl("trekking+shoes+long+distance"),
-        tag: "Non-negotiable",
-        tagColor: "bg-red-100 text-red-700",
-        why: "This is one of India's longest single-day stone-step climbs — proper footwear matters enormously.",
-      },
-      {
-        name: "Headlamp / Torch",
-        description: "Many pilgrims begin the climb before dawn, and the descent can run past sunset.",
-        price: "₹599",
-        image: "🔦",
-        affiliateUrl: amazonSearchUrl("headlamp+torch+trekking"),
-        tag: "Pre-dawn essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "A full climb-and-descent day often means both ends happen in low light or darkness.",
-      },
-      {
-        name: "Trekking Poles",
-        description: "The long descent after nearly 10,000 steps is genuinely tough on the knees.",
-        price: "₹1,299",
-        image: "🥢",
-        affiliateUrl: amazonSearchUrl("trekking+poles+pair"),
-        tag: "Comfort essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Many climbers report the descent as harder on the body than the ascent itself." ,
-      },
-      {
-        name: "Energy Snacks & Water",
-        description: "Facilities along the climb are limited — carry enough for a full-day ascent and descent.",
-        price: "₹299",
-        image: "🍫",
-        affiliateUrl: amazonSearchUrl("energy+bars+trekking+snacks"),
-        tag: "Trek essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "A climb of this length burns significant energy with sparse resupply points along the way.",
-      },
-      {
-        name: "Layered Clothing",
-        description: "Temperature and conditions shift meaningfully between the base, the ridge, and the exposed summit stretch.",
-        price: "₹1,499",
-        image: "🧥",
-        affiliateUrl: amazonSearchUrl("layered+trekking+clothing"),
-        tag: "Comfort essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "A pre-dawn start, hot midday climb, and cool evening descent covers a wide temperature range.",
-      },
-    ],
-  },
-];
-
 export default function JunagadhGirnarGuidePage() {
   return (
     <>
@@ -216,8 +153,8 @@ export default function JunagadhGirnarGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/manali/rohtang-pass.jpg"
-              alt="Mountain ridge scenery representative of Girnar Hill, Gujarat"
+              src="/images/blogs/gujarat/junagadh-girnar/junagadh-and-girnar.webp"
+              alt="View of Junagadh & Girnar, Gujarat"
               fill
               priority
               sizes="100vw"
@@ -349,6 +286,7 @@ export default function JunagadhGirnarGuidePage() {
 
                 <section id="best-time">
                   <h2>Best Time to Visit Girnar</h2>
+                  <GuideFigure src="/images/blogs/gujarat/junagadh-girnar/junagadh-and-girnar-view.webp" alt="Junagadh & Girnar, Gujarat" />
                   <div className="grid sm:grid-cols-2 gap-4 my-6">
                     {[
                       {
@@ -415,15 +353,6 @@ export default function JunagadhGirnarGuidePage() {
 
                 <section id="the-climb">
                   <h2>The Girnar Climb & Uparkot Fort</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/manali/rohtang-pass.jpg"
-                      alt="Ridge and mountain scenery representative of the Girnar climb"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <ul>
                     <li>
                       <strong>The ascent:</strong> Roughly 9,999 stone steps, typically taking several hours
@@ -615,7 +544,6 @@ export default function JunagadhGirnarGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={GIRNAR_GEAR} destination="Junagadh & Girnar" />
               <RelatedPostsGrid currentSlug="junagadh-girnar-travel-guide" />
             </article>
 

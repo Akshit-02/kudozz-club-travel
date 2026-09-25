@@ -535,15 +535,6 @@ export default function VangangaLakeGardenGuidePage() {
                 {/* ── What to See ───────────────────────────────────────── */}
                 <section id="what-to-see">
                   <h2>What to See</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/vanganga-lake-garden/vanganga-lake-garden-lakeside-view-silvassa.webp"
-                      alt="Palm-fringed lake at Vanganga Garden, with the walking path and lawns visible along the shore"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <ul>
                     <li>
                       <strong>The lake itself:</strong> The garden's central

@@ -25,8 +25,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/destinations/kasol/kasol.jpg",
-        width: 1200,
-        height: 630,
+        width: 2560,
+        height: 1707,
         alt: "Green hill town landscape, evoking Thenzawl's setting in central Mizoram",
       },
     ],
@@ -459,15 +459,6 @@ export default function ThenzawlGuidePage() {
 
                 <section id="things-to-do">
                   <h2>Weaving, Golf & the Gateway Role</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/kasol/kasol.jpg"
-                      alt="Hill town setting evoking Thenzawl, Mizoram"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Puan Weaving Cooperatives</h3>
                   <p>
                     Watching a weaver work a traditional loom is Thenzawl&apos;s

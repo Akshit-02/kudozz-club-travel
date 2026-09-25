@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/kasol/kasol.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Green mountain valley town, evoking Mount Abu's character as Rajasthan's only hill station",
+        url: "/images/blogs/rajasthan/mount-abu/nakki-lake-mount-abu.webp",
+        width: 1600,
+        height: 1067,
+        alt: "Nakki Lake, Mount Abu",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Mount Abu Travel Guide: Dilwara Temples & Tips",
     description:
       "Rajasthan's only hill station, home to the extraordinary marble-carved Dilwara Jain Temples — the complete guide to Mount Abu.",
-    images: ["/images/destinations/kasol/kasol.jpg"],
+    images: ["/images/blogs/rajasthan/mount-abu/nakki-lake-mount-abu.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/mount-abu-travel-guide",
@@ -59,7 +60,7 @@ function ArticleSchema() {
           headline: "Mount Abu Travel Guide: Dilwara Temples & Tips",
           description:
             "Complete Mount Abu guide — Rajasthan's only hill station, the intricately carved Dilwara Jain Temples, Nakki Lake, Guru Shikhar, how to reach from Udaipur, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/kasol/kasol.jpg",
+          image: "https://club.kudozz.in/images/blogs/rajasthan/mount-abu/nakki-lake-mount-abu.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -200,8 +201,8 @@ export default function MountAbuGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/kasol/kasol.jpg"
-              alt="Green mountain valley town, evoking Mount Abu's character as Rajasthan's only hill station"
+              src="/images/blogs/rajasthan/mount-abu/nakki-lake-mount-abu.webp"
+              alt="Nakki Lake, Mount Abu"
               fill
               priority
               sizes="100vw"
@@ -513,15 +514,6 @@ export default function MountAbuGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Dilwara Temples & More</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/kasol/kasol.jpg"
-                      alt="Hill town scenery around Mount Abu, Rajasthan"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Dilwara Jain Temples</h3>
                   <p>
                     Dating from the 11th-13th centuries, these are considered
@@ -532,6 +524,7 @@ export default function MountAbuGuidePage() {
                     knowing before you go.
                   </p>
                   <h3>Nakki Lake</h3>
+                  <GuideFigure src="/images/blogs/rajasthan/mount-abu/nakki-lake-mount-abu-2.webp" alt="Nakki Lake, Mount Abu" />
                   <p>
                     At the town&apos;s centre, popular for boating, and tied
                     to a local legend that it was dug out by gods using their
@@ -545,6 +538,7 @@ export default function MountAbuGuidePage() {
                     gathering spot for the same reason.
                   </p>
                   <h3>Mount Abu Wildlife Sanctuary</h3>
+                  <GuideFigure src="/images/blogs/rajasthan/mount-abu/mount-abu-wildlife-sanctuary.webp" alt="Mount Abu Wildlife Sanctuary, Rajasthan" />
                   <p>
                     Surrounding much of the town, the sanctuary adds a
                     forested, cooler character — good for a quiet walk away

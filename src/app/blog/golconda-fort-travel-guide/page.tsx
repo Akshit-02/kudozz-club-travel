@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -530,6 +531,7 @@ export default function GolcondaFortGuidePage() {
                     uneven stone underfoot.
                   </p>
                   <h3>Sound-and-Light Show</h3>
+                  <GuideFigure src="/images/blogs/telangana/golconda-fort/sound-and-light-show-golconda-fort.webp" alt="Sound-and-Light Show, Golconda Fort" />
                   <p>
                     Held in the evenings, the show narrates Golconda's
                     history against the illuminated ramparts — one of the
@@ -537,6 +539,7 @@ export default function GolcondaFortGuidePage() {
                     timing your visit around.
                   </p>
                   <h3>Qutb Shahi Tombs</h3>
+                  <GuideFigure src="/images/blogs/telangana/golconda-fort/qutb-shahi-tombs-golconda-fort.webp" alt="Qutb Shahi Tombs, Golconda Fort" />
                   <p>
                     A short distance from the fort, these are the mausoleums
                     of the Qutb Shahi rulers — a fitting, quieter complement

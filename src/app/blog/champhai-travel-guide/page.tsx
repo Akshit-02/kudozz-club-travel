@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/coorg/coorg.jpg",
+        url: "/images/blogs/mizoram/champhai/champhai-view.webp",
         width: 1200,
-        height: 630,
-        alt: "Terraced green hills, evoking Champhai's fertile paddy valleys in Mizoram",
+        height: 900,
+        alt: "Champhai, Mizoram",
       },
     ],
   },
@@ -36,7 +37,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Champhai Travel Guide: Rice Bowl of Mizoram",
     description: "Terraced paddy valleys and a border trade town on the edge of Myanmar — the complete Champhai guide.",
-    images: ["/images/destinations/coorg/coorg.jpg"],
+    images: ["/images/blogs/mizoram/champhai/champhai-view.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/champhai-travel-guide" },
 };
@@ -53,7 +54,7 @@ function ArticleSchema() {
           headline: "Champhai Travel Guide: Rice Bowl of Mizoram",
           description:
             "Complete Champhai guide — Mizoram's fertile paddy valleys, the Rih Dil lake legend, the India-Myanmar border trade town, Murlen National Park, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/coorg/coorg.jpg",
+          image: "https://club.kudozz.in/images/blogs/mizoram/champhai/champhai-view.webp",
           datePublished: "2026-09-04",
           dateModified: "2026-09-04",
           publisher: {
@@ -153,8 +154,8 @@ export default function ChamphaiGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/coorg/coorg.jpg"
-              alt="Terraced green hills, evoking Champhai's fertile paddy valleys in Mizoram"
+              src="/images/blogs/mizoram/champhai/champhai-view.webp"
+              alt="Champhai, Mizoram"
               fill
               priority
               sizes="100vw"
@@ -292,9 +293,6 @@ export default function ChamphaiGuidePage() {
 
                 <section id="things-to-do">
                   <h2>Paddy Fields, Rih Dil & More</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/coorg/coorg.jpg" alt="Terraced fields near Champhai, Mizoram" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <h3>Terraced Paddy Fields</h3>
                   <p>Best appreciated from elevated viewpoints around town, the terraces are Champhai's signature landscape and worth a slow, dedicated look.</p>
                   <h3>Rih Dil</h3>

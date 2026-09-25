@@ -525,15 +525,6 @@ export default function ChabimuraGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>The Boat Ride & the Carvings</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/tripura/chabimura/rock-carvings-gomati-river-chabimura.webp"
-                      alt="Forested river gorge near the Chabimura rock carvings, South Tripura"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Viewing the Carvings from the Water</h3>
                   <p>
                     The main experience is the boat ride itself, drifting

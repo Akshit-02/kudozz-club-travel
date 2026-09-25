@@ -7,10 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -28,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/meghalaya/dawki-river.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Dense sal forest and grassy meadows at Kanha National Park, Madhya Pradesh",
+        url: "/images/blogs/madhya-pradesh/kanha/kanha-national-park.webp",
+        width: 1600,
+        height: 1067,
+        alt: "Kanha National Park, Madhya Pradesh",
       },
     ],
   },
@@ -40,7 +37,7 @@ export const metadata: Metadata = {
     title: "Kanha National Park: Tiger Safari Guide, Zones & Best Time",
     description:
       "Zones, gates, permits, and a 2-day itinerary for one of India's best-managed tiger reserves.",
-    images: ["/images/destinations/meghalaya/dawki-river.jpg"],
+    images: ["/images/blogs/madhya-pradesh/kanha/kanha-national-park.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/kanha-travel-guide",
@@ -57,7 +54,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Kanha National Park: Tiger Safari Guide, Zones & Best Time",
           description: "The complete Kanha safari travel guide.",
-          image: "https://club.kudozz.in/images/destinations/meghalaya/dawki-river.jpg",
+          image: "https://club.kudozz.in/images/blogs/madhya-pradesh/kanha/kanha-national-park.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: {
@@ -157,82 +154,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const KANHA_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for open-gypsy safaris and pre-dawn starts",
-    emoji: "🐅",
-    items: [
-      {
-        name: "Neutral-Tone Safari Clothing",
-        description:
-          "Khaki, olive, or muted brown clothing blends into the forest and doesn't startle wildlife — bright colours and white are best avoided on safari.",
-        price: "₹1,299",
-        image: "🥾",
-        affiliateUrl: amazonSearchUrl("safari+clothing+khaki+set"),
-        tag: "Safari essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "Guides regularly ask visitors in bright colours to cover up — neutral tones from the start save you the scramble.",
-      },
-      {
-        name: "8x42 Binoculars",
-        description:
-          "Essential for spotting the barasingha herds and distant wildlife across Kanha's open meadows, and for confirming a sighting before the gypsy gets closer.",
-        price: "₹2,499",
-        image: "🔭",
-        affiliateUrl: amazonSearchUrl("8x42+binoculars+wildlife"),
-        tag: "Non-negotiable",
-        tagColor: "bg-red-100 text-red-700",
-        why: "Most of what you see on safari is at a distance — binoculars turn a blur in the trees into an actual sighting.",
-      },
-      {
-        name: "Telephoto Zoom Lens / Bridge Camera",
-        description:
-          "A 300mm+ reach makes the difference between a usable tiger photo and a green smudge — even a decent bridge camera outperforms a phone here.",
-        price: "₹8,999+",
-        image: "📷",
-        affiliateUrl: amazonSearchUrl("bridge+camera+superzoom"),
-        tag: "Photography",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "Gypsies can't always get close for safety and forest-rule reasons — zoom reach matters more than megapixels here.",
-      },
-      {
-        name: "Warm Layer / Fleece",
-        description:
-          "Winter morning safaris (Dec-Feb) start before sunrise in an open vehicle — genuinely cold until the sun clears the sal canopy.",
-        price: "₹899",
-        image: "🧥",
-        affiliateUrl: amazonSearchUrl("fleece+jacket+travel"),
-        tag: "Winter safari essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "An open gypsy at 6 AM in December is colder than most first-timers expect — layers you can shed later work best.",
-      },
-      {
-        name: "Insect Repellent",
-        description:
-          "Forest trails and meadow stops bring mosquitoes, especially at dawn and dusk — a DEET-based repellent is worth applying before every safari.",
-        price: "₹199",
-        image: "🧴",
-        affiliateUrl: amazonSearchUrl("insect+repellent+spray"),
-        tag: "Comfort essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "Two safaris a day means two dawn-and-dusk mosquito windows — repellent is a small thing that saves a lot of discomfort.",
-      },
-      {
-        name: "Power Bank",
-        description:
-          "No charging points on safari, and telephoto cameras and phones both drain fast shooting continuous bursts — carry backup power.",
-        price: "₹1,099",
-        image: "🔋",
-        affiliateUrl: amazonSearchUrl("power+bank+20000mah"),
-        tag: "Travel essential",
-        tagColor: "bg-stone-100 text-stone-700",
-        why: "A dead camera battery mid-sighting is the one regret every wildlife photographer eventually has — carry spares.",
-      },
-    ],
-  },
-];
-
 export default function KanhaGuidePage() {
   return (
     <>
@@ -244,8 +165,8 @@ export default function KanhaGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/meghalaya/dawki-river.jpg"
-              alt="Dense sal forest and grassy meadows at Kanha National Park, Madhya Pradesh"
+              src="/images/blogs/madhya-pradesh/kanha/kanha-national-park.webp"
+              alt="Kanha National Park, Madhya Pradesh"
               fill
               priority
               sizes="100vw"
@@ -387,6 +308,7 @@ export default function KanhaGuidePage() {
 
                 <section id="best-time">
                   <h2>Best Time to Visit Kanha</h2>
+                  <GuideFigure src="/images/blogs/madhya-pradesh/kanha/kanha-national-park-view.webp" alt="Kanha National Park, Madhya Pradesh" />
                   <p>
                     Kanha's core zone is typically closed to tourism during
                     the monsoon for breeding and forest regeneration, roughly
@@ -478,15 +400,6 @@ export default function KanhaGuidePage() {
                     (surrounding forest, more accessible, easier to book,
                     still genuine sighting chances).
                   </p>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/meghalaya/dawki-river.jpg"
-                      alt="Forest trail and open meadow inside Kanha National Park"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <ul>
                     <li>
                       <strong>Kisli Gate (core):</strong> The most established
@@ -711,8 +624,6 @@ export default function KanhaGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              <TrekGearRecommendations sections={KANHA_GEAR} destination="Kanha" />
 
               <RelatedPostsGrid currentSlug="kanha-travel-guide" />
             </article>

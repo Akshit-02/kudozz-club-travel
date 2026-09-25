@@ -529,15 +529,6 @@ export default function ZeiladLakeGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>The Lake & Its Forest</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/manipur/zeilad-lake/forest-fringed-lake-northeast-india.webp"
-                      alt="Calm forest-fringed hill lake, evoking the tranquil, remote setting of Zeilad Lake"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>The Sacred Lake</h3>
                   <p>
                     Zeilad Lake's significance in Zeliangrong tradition runs

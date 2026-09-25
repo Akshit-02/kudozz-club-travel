@@ -523,15 +523,6 @@ export default function SabroomGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Maitri Setu, Baikhora & Rabindra Kanan</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/tripura/sabroom/sabroom-railway-station-platform-sunset.webp"
-                      alt="Sabroom railway station platform, South Tripura"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Maitri Setu Bridge</h3>
                   <p>
                     The Maitri Setu is Sabroom's headline landmark — a bridge

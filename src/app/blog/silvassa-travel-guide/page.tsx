@@ -581,8 +581,8 @@ export default function SilvassaGuidePage() {
                   <h2>Dudhni: Lake & Tribal Museum</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/silvassa/damanganga-riverside-near-silvassa.webp"
-                      alt="The Damanganga River near Silvassa, the water body feeding the region's Dudhni reservoir and lake"
+                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/silvassa/silvassa.webp"
+                      alt="Silvassa, Dadra and Nagar Haveli and Daman and Diu"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -693,15 +693,6 @@ export default function SilvassaGuidePage() {
                 {/* ── Vasona ────────────────────────────────────────────── */}
                 <section id="vasona">
                   <h2>Vasona Lion Safari Park</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/silvassa/vanganga-garden-silvassa-evening-path.webp"
-                      alt="A lit garden path and lawn at Vanganga Garden in Silvassa, near Vasona Lion Safari Park"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <p>
                     Right within Silvassa town, <strong>Vasona Lion Safari
                     Park</strong> is a small zoological and wildlife park

@@ -7,10 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Gavi Travel Guide: Eco-Tourism, Forest Trails & Permits",
@@ -24,13 +20,13 @@ export const metadata: Metadata = {
     url: "https://club.kudozz.in/blog/gavi-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/meghalaya/hero.jpg", width: 1200, height: 630, alt: "Dense forest landscape representative of Gavi, Kerala" }],
+    images: [{ url: "/images/blogs/kerala/gavi/gavi.webp", width: 1200, height: 800, alt: "Gavi, Kerala" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Gavi Travel Guide: Eco-Tourism, Forest Trails & Permits",
     description: "A permit-only eco-tourism forest with almost no crowds — the complete guide to Gavi.",
-    images: ["/images/destinations/meghalaya/hero.jpg"],
+    images: ["/images/blogs/kerala/gavi/gavi.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/gavi-travel-guide" },
 };
@@ -45,7 +41,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Gavi Travel Guide: Eco-Tourism, Forest Trails & Permits",
           description: "The complete Gavi travel guide.",
-          image: "https://club.kudozz.in/images/destinations/meghalaya/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/kerala/gavi/gavi.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
@@ -104,20 +100,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const GAVI_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for a remote, permit-only eco-tourism forest",
-    emoji: "🌲",
-    items: [
-      { name: "Trekking Shoes", description: "Forest trails at Gavi are genuinely undeveloped compared to more commercial destinations.", price: "₹3,299",  image: "🥾", affiliateUrl: amazonSearchUrl("trekking+shoes+outdoor"), tag: "Trek essential", tagColor: "bg-amber-100 text-amber-700", why: "Uneven forest terrain and minimal infrastructure make proper footwear more important here than at developed parks." },
-      { name: "Insect Repellent", description: "Dense evergreen forest and a reservoir within the property make Gavi genuinely mosquito-heavy.", price: "₹199",  image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Forest essential", tagColor: "bg-forest-100 text-forest-700", why: "This is dense, humid forest with standing water nearby." },
-      { name: "Binoculars", description: "For the birdwatching program and general wildlife viewing across the reserve.", price: "₹1,999",  image: "🔭", affiliateUrl: amazonSearchUrl("binoculars+wildlife+birdwatching"), tag: "Wildlife essential", tagColor: "bg-sky-100 text-sky-700", why: "Gavi's bird diversity is a major draw, and binoculars make the difference for a genuine sighting." },
-      { name: "Basic First-Aid Kit", description: "Given limited facilities and patchy network coverage, a small personal first-aid kit is sensible.", price: "₹399",  image: "🩹", affiliateUrl: amazonSearchUrl("basic+first+aid+kit+travel"), tag: "Remote-area essential", tagColor: "bg-purple-100 text-purple-700", why: "Gavi's remote, low-infrastructure setting makes basic self-sufficiency worthwhile." },
-    ],
-  },
-];
-
 export default function GaviGuidePage() {
   return (
     <>
@@ -127,7 +109,9 @@ export default function GaviGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/meghalaya/hero.jpg" alt="Dense forest landscape representative of Gavi, Kerala" fill priority sizes="100vw" className="object-cover" />
+            <Image
+              src="/images/blogs/kerala/gavi/gavi.webp"
+              alt="Gavi, Kerala" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -233,9 +217,6 @@ export default function GaviGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Activities & Programs</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/meghalaya/hero.jpg" alt="Forest and reservoir scenery around Gavi" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>Guided nature walks:</strong> Forest Department-led walks through the reserve's evergreen forest and grasslands.</li>
                     <li><strong>Boating:</strong> A quiet boat ride on Gavi's scenic reservoir, part of the standard day program.</li>
@@ -354,7 +335,6 @@ export default function GaviGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={GAVI_GEAR} destination="Gavi" />
               <RelatedPostsGrid currentSlug="gavi-travel-guide" />
             </article>
 

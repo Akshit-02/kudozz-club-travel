@@ -7,9 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  HIMALAYAN_GEAR,
-} from "@/components/ui/TrekGearRecommendations";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -28,10 +26,10 @@ export const metadata: Metadata = {
     authors: ["Kudozz Club"],
     images: [
       {
-        url: "/images/destinations/leh-ladakh/leh-ladakh.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Leh Ladakh moonscape landscape with Himalayan peaks",
+        url: "/images/blogs/ladakh/leh-ladakh-road-trip/leh-ladakh.webp",
+        width: 1600,
+        height: 725,
+        alt: "View of Leh Ladakh",
       },
     ],
   },
@@ -44,7 +42,7 @@ export const metadata: Metadata = {
     title: "Leh Ladakh Road Trip Guide",
     description:
       "Pangong Lake, Nubra Valley, Khardung La — the complete road trip guide to Ladakh.",
-    images: ["/images/destinations/leh-ladakh/leh-ladakh.jpg"],
+    images: ["/images/blogs/ladakh/leh-ladakh-road-trip/leh-ladakh.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/leh-ladakh-road-trip-travel-guide",
@@ -65,7 +63,7 @@ function ArticleSchema() {
           description:
             "The ultimate Leh Ladakh road trip guide — routes, permits, passes, itinerary, and insider tips.",
           image:
-            "https://club.kudozz.in/images/destinations/leh-ladakh/leh-ladakh.jpg",
+            "https://club.kudozz.in/images/blogs/ladakh/leh-ladakh-road-trip/leh-ladakh.webp",
           datePublished: "2026-05-19",
           dateModified: "2026-07-12",
           publisher: {
@@ -215,8 +213,8 @@ export default function LehLadakhPage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/leh-ladakh/leh-ladakh.jpg"
-              alt="Leh Ladakh — moonscape valleys and snow-capped Himalayan peaks"
+              src="/images/blogs/ladakh/leh-ladakh-road-trip/leh-ladakh.webp"
+              alt="View of Leh Ladakh"
               fill
               priority
               sizes="100vw"
@@ -527,8 +525,8 @@ export default function LehLadakhPage() {
                     <h3>Manali–Leh Highway (NH3)</h3>
                     <div className="relative w-full rounded-xl my-6 h-64 overflow-hidden shadow-md">
                       <Image
-                        src="/images/destinations/manali/rohtang-pass.jpg"
-                        alt="Manali Leh highway through mountain passes"
+                        src="/images/blogs/ladakh/leh-ladakh-road-trip/manali-leh-highway-leh-ladakh.webp"
+                        alt="Manali–Leh Highway, Leh Ladakh"
                         fill
                         sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                         className="object-cover"
@@ -581,6 +579,7 @@ export default function LehLadakhPage() {
 
                   <section id="srinagar-leh">
                     <h3>Srinagar–Leh Highway (NH1)</h3>
+                    <GuideFigure src="/images/blogs/ladakh/leh-ladakh-road-trip/srinagar-leh-highway-leh-ladakh.webp" alt="Srinagar–Leh Highway, Leh Ladakh" />
                     <p>
                       At 434 km, the <strong>Srinagar–Leh highway</strong> via
                       Zoji La Pass (3,528 m), Kargil, and the Indus Valley is
@@ -1915,11 +1914,6 @@ export default function LehLadakhPage() {
                   </Link>
                 ))}
               </div>
-
-              <TrekGearRecommendations
-                sections={HIMALAYAN_GEAR}
-                destination="Leh Ladakh"
-              />
 
               <RelatedPostsGrid currentSlug="leh-ladakh-road-trip-travel-guide" />
             </article>

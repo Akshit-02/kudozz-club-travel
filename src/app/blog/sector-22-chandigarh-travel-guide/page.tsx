@@ -25,8 +25,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/destinations/chandigarh/hero.jpg",
-        width: 1200,
-        height: 630,
+        width: 2560,
+        height: 1920,
         alt: "Tree-lined street with hills in the distance, evoking the everyday residential-cum-commercial character of Sector 22, Chandigarh",
       },
     ],
@@ -545,15 +545,6 @@ export default function Sector22ChandigarhGuidePage() {
                     experience built with visitors in mind.
                   </p>
 
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/chandigarh/hero.jpg"
-                      alt="Busy local market street with shopfronts, evoking the everyday shopping strip of Sector 22, Chandigarh"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
 
                   <p>
                     That's exactly the appeal for some travellers — Sector 22

@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -532,15 +533,6 @@ export default function WarangalGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Temples, Fort & the Ramappa Extension</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/telangana/warangal/warangal-fort-kakatiya-kala-thoranam-gateway.webp"
-                      alt="Close view of the carved Kakatiya Kala Thoranam gateway arch at Warangal Fort"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Thousand Pillar Temple</h3>
                   <p>
                     Also known as the Rudreshwara Swamy Temple, this
@@ -558,12 +550,14 @@ export default function WarangalGuidePage() {
                     letterheads across the state today.
                   </p>
                   <h3>Bhadrakali Temple</h3>
+                  <GuideFigure src="/images/blogs/telangana/warangal/bhadrakali-temple-warangal.webp" alt="Bhadrakali Temple, Warangal" />
                   <p>
                     An ancient shrine set on a hillock overlooking Bhadrakali
                     Lake, offering both a religious stop and a good vantage
                     point over the town.
                   </p>
                   <h3>Ramappa Temple (Palampet, ~65 km)</h3>
+                  <GuideFigure src="/images/blogs/telangana/warangal/ramappa-temple-warangal.webp" alt="Ramappa Temple, Warangal" />
                   <p>
                     Inscribed as a UNESCO World Heritage Site in 2021, Ramappa
                     Temple is famous for its "floating bricks" — unusually

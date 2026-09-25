@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -551,15 +552,6 @@ export default function AyodhyaGuidePage() {
                 {/* ── Attractions ────────────────────────────────────────── */}
                 <section id="attractions">
                   <h2>Temples & Ghats in Ayodhya</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/uttar-pradesh/ayodhya/ram-mandir-illuminated-gateway-ayodhya.webp"
-                      alt="Carved sandstone towers of the Ram Mandir gateway lit up in the evening at Ayodhya"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Ram Mandir</h3>
                   <p>
                     The centrepiece of modern Ayodhya, built at the site
@@ -573,6 +565,7 @@ export default function AyodhyaGuidePage() {
                     on weekends and during festivals.
                   </p>
                   <h3>Hanuman Garhi</h3>
+                  <GuideFigure src="/images/blogs/uttar-pradesh/ayodhya/hanuman-garhi-ayodhya-2.webp" alt="Hanuman Garhi, Ayodhya" />
                   <p>
                     A hilltop fort-temple dedicated to Hanuman, reached by
                     a flight of steps and considered one of Ayodhya's most

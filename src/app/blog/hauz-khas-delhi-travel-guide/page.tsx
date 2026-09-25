@@ -553,6 +553,15 @@ export default function HauzKhasGuidePage() {
                       10–15 minute walk of each other.
                     </li>
                   </ul>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/hauz-khas/spotted-deer-hauz-khas-deer-park.webp"
+                      alt="Spotted deer grazing inside the fenced enclosure at Hauz Khas Deer Park, Delhi"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <div
                     className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-xl my-4 text-sm"
                     style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -568,15 +577,6 @@ export default function HauzKhasGuidePage() {
                 {/* ── Hauz Khas Complex & Deer Park ─────────────────────── */}
                 <section id="hauz-khas-complex">
                   <h2>Hauz Khas Complex & Deer Park</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/delhi/hauz-khas/reservoir-lake-evening-hauz-khas.webp"
-                      alt="Evening light over the historic Hauz Khas reservoir lake beside the ASI-protected monument complex, Delhi"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <p>
                     The historical heart of the neighbourhood is the{" "}
                     <strong>Hauz Khas Complex</strong>, an ASI-protected site
@@ -620,15 +620,6 @@ export default function HauzKhasGuidePage() {
                       morning and evening.
                     </li>
                   </ul>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/delhi/hauz-khas/spotted-deer-hauz-khas-deer-park.webp"
-                      alt="Spotted deer grazing inside the fenced enclosure at Hauz Khas Deer Park, Delhi"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <p>
                     Entry to the entire complex — ruins and park — is{" "}
                     <strong>free</strong>, with no ticket counter, and it's

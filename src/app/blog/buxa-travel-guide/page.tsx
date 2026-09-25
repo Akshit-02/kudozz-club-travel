@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -26,7 +27,7 @@ export const metadata: Metadata = {
       {
         url: "/images/blogs/west-bengal/buxa/buxa-fort-ruins-tiger-reserve.webp",
         width: 1200,
-        height: 630,
+        height: 900,
         alt: "Ruins of Buxa Fort with prayer flags amid forested hills, Buxa Tiger Reserve, West Bengal",
       },
     ],
@@ -539,16 +540,8 @@ export default function BuxaGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Fort Trek, Jayanti & Wildlife</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/west-bengal/buxa/buxa-fort-ruins-tiger-reserve.webp"
-                      alt="Buxa Fort's stone ruins surrounded by dense forest, Buxa Tiger Reserve, North Bengal"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>The Trek to Buxa Fort</h3>
+                  <GuideFigure src="/images/blogs/west-bengal/buxa/the-trek-to-buxa-fort-buxa-tiger-reserve.webp" alt="The Trek to Buxa Fort, Buxa Tiger Reserve" />
                   <p>
                     The signature Buxa experience is the trek up to{" "}
                     <strong>Buxa Fort</strong>, usually starting from{" "}
@@ -562,6 +555,7 @@ export default function BuxaGuidePage() {
                     Dooars plains.
                   </p>
                   <h3>Jayanti River & Village</h3>
+                  <GuideFigure src="/images/blogs/west-bengal/buxa/jayanti-river-and-village-buxa-tiger-reserve.webp" alt="Jayanti River & Village, Buxa Tiger Reserve" />
                   <p>
                     Jayanti sits beside a seasonal riverbed inside the
                     reserve, framed by forested hills that made it a

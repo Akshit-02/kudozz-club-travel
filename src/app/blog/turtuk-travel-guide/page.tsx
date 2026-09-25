@@ -7,9 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  HIMALAYAN_GEAR,
-} from "@/components/ui/TrekGearRecommendations";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -691,8 +688,8 @@ export default function TurtukPage() {
                   <h2>Farol & Chutang — The Two Halves of Turtuk</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/blogs/ladakh/turtuk/balti-women-turtuk-harvest.webp"
-                      alt="Balti women winnowing buckwheat in Turtuk village, Nubra Valley"
+                      src="/images/blogs/ladakh/turtuk/turtuk.webp"
+                      alt="View of Turtuk, Ladakh"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -836,15 +833,6 @@ export default function TurtukPage() {
                     directly from homes at a fraction of what you'd pay in a
                     Leh souvenir shop.
                   </p>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/ladakh/turtuk/apricot-kernels-turtuk-child.webp"
-                      alt="A young girl sorting cracked apricot kernels on a doorstep in Turtuk village"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <div
                     className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-xl my-4 text-sm"
                     style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -1243,11 +1231,6 @@ export default function TurtukPage() {
                   </Link>
                 ))}
               </div>
-
-              <TrekGearRecommendations
-                sections={HIMALAYAN_GEAR}
-                destination="Turtuk"
-              />
 
               <RelatedPostsGrid currentSlug="turtuk-travel-guide" />
             </article>

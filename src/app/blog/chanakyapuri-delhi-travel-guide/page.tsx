@@ -25,8 +25,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/blogs/delhi/chanakyapuri/gandhi-charkha-statue-gandhi-smriti.webp",
-        width: 1600,
-        height: 1067,
+        width: 1400,
+        height: 924,
         alt: "The bronze statue of Mahatma Gandhi seated at a spinning wheel (charkha) at Gandhi Smriti, Chanakyapuri, Delhi",
       },
     ],
@@ -523,15 +523,6 @@ export default function ChanakyapuriGuidePage() {
                 {/* ── What to See ───────────────────────────────────────── */}
                 <section id="what-to-see">
                   <h2>What's Actually Worth Seeing</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/delhi/chanakyapuri/gandhi-charkha-statue-gandhi-smriti.webp"
-                      alt="The bronze statue of Mahatma Gandhi seated at a spinning wheel (charkha) at Gandhi Smriti, Chanakyapuri, Delhi"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <ul>
                     <li>
                       <strong>Nehru Park:</strong> A large, well-kept green

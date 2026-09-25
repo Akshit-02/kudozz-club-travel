@@ -24,10 +24,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/meghalaya/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Dense green forested hills, evoking Dzongu's protected Lepcha reserve landscape in North Sikkim",
+        url: "/images/blogs/sikkim/dzongu/dzongu.webp",
+        width: 1600,
+        height: 1066,
+        alt: "View of Dzongu, Sikkim",
       },
     ],
   },
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     title: "Dzongu Travel Guide: Permits & Lepcha Culture",
     description:
       "Sikkim's restricted Lepcha reserve, opening slowly to respectful, community-based tourism — the complete Dzongu guide.",
-    images: ["/images/destinations/meghalaya/hero.jpg"],
+    images: ["/images/blogs/sikkim/dzongu/dzongu.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/dzongu-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           headline: "Dzongu Travel Guide: Permits & Lepcha Culture",
           description:
             "Complete Dzongu guide — Sikkim's restricted Lepcha reserve, permit requirements, community homestays, forests and hot springs, how to reach from Gangtok, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/meghalaya/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/sikkim/dzongu/dzongu.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -195,8 +195,8 @@ export default function DzonguGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/meghalaya/hero.jpg"
-              alt="Dense green forested hills, evoking Dzongu's protected Lepcha reserve landscape in North Sikkim"
+              src="/images/blogs/sikkim/dzongu/dzongu.webp"
+              alt="View of Dzongu, Sikkim"
               fill
               priority
               sizes="100vw"
@@ -515,15 +515,6 @@ export default function DzonguGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Homestays, Forest & Hot Springs</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/meghalaya/hero.jpg"
-                      alt="Forested landscape of Dzongu, North Sikkim"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Community Homestays</h3>
                   <p>
                     The heart of a Dzongu visit — staying with a Lepcha

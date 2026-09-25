@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/udaipur/saheliyon.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Ornate stone palace courtyard and stepwell architecture, evoking Bundi Palace and its famous baoris",
+        url: "/images/blogs/rajasthan/bundi/bundi.webp",
+        width: 1600,
+        height: 1200,
+        alt: "View of Bundi, Rajasthan",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Bundi Travel Guide: Stepwells, Palace & Murals",
     description:
       "A quieter Blue City with a palace Kipling called finer than a dream, and more stepwells than anywhere else in Rajasthan.",
-    images: ["/images/destinations/udaipur/saheliyon.jpg"],
+    images: ["/images/blogs/rajasthan/bundi/bundi.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/bundi-travel-guide",
@@ -59,7 +60,7 @@ function ArticleSchema() {
           headline: "Bundi Travel Guide: Stepwells, Palace & Murals",
           description:
             "Complete Bundi guide — Bundi Palace's miniature murals, Taragarh Fort, Raniji ki Baori and the town's famous stepwells, the 84-Pillared Cenotaph, how to reach, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/udaipur/saheliyon.jpg",
+          image: "https://club.kudozz.in/images/blogs/rajasthan/bundi/bundi.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -196,8 +197,8 @@ export default function BundiGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/udaipur/saheliyon.jpg"
-              alt="Ornate stone palace courtyard and stepwell architecture, evoking Bundi Palace and its famous baoris"
+              src="/images/blogs/rajasthan/bundi/bundi.webp"
+              alt="View of Bundi, Rajasthan"
               fill
               priority
               sizes="100vw"
@@ -514,16 +515,8 @@ export default function BundiGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Bundi Palace, Taragarh Fort & the Stepwells</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/udaipur/saheliyon.jpg"
-                      alt="Palace courtyard architecture at Bundi, Rajasthan"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Bundi Palace (Garh Palace)</h3>
+                  <GuideFigure src="/images/blogs/rajasthan/bundi/bundi-palace.webp" alt="Bundi Palace, Rajasthan" />
                   <p>
                     Renowned for its miniature paintings and murals,
                     covering walls and ceilings across multiple chambers —
@@ -532,6 +525,7 @@ export default function BundiGuidePage() {
                     of a dream.
                   </p>
                   <h3>Taragarh Fort</h3>
+                  <GuideFigure src="/images/blogs/rajasthan/bundi/taragarh-fort-bundi.webp" alt="Taragarh Fort, Bundi" />
                   <p>
                     Perched above the palace, Taragarh Fort offers
                     commanding views over Bundi and the surrounding
@@ -548,6 +542,7 @@ export default function BundiGuidePage() {
                     how many the town holds.
                   </p>
                   <h3>84-Pillared Cenotaph</h3>
+                  <GuideFigure src="/images/blogs/rajasthan/bundi/84-pillared-cenotaph-bundi.webp" alt="84-Pillared Cenotaph, Bundi" />
                   <p>
                     A notable heritage structure in its own right, worth a
                     stop while exploring Bundi's wider old-town heritage.

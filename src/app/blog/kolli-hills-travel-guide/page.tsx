@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/spiti-valley/spiti-valley.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Winding mountain road through hill terrain, evoking the hairpin-bend ghat road climbing into Kolli Hills",
+        url: "/images/blogs/tamil-nadu/kolli-hills/kolli-hills.webp",
+        width: 1600,
+        height: 1158,
+        alt: "Kolli Hills, Tamil Nadu",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Kolli Hills Travel Guide: 70 Hairpin Bends & Tips",
     description:
       "70 hairpin bends, a quiet waterfall, and a genuinely offbeat hill escape — the complete Kolli Hills guide.",
-    images: ["/images/destinations/spiti-valley/spiti-valley.jpg"],
+    images: ["/images/blogs/tamil-nadu/kolli-hills/kolli-hills.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/kolli-hills-travel-guide",
@@ -59,7 +60,7 @@ function ArticleSchema() {
           headline: "Kolli Hills Travel Guide: 70 Hairpin Bends & Tips",
           description:
             "Complete Kolli Hills guide — the famous 70-hairpin-bend ghat road, Agaya Gangai waterfall, Arapaleeswarar Temple, local millet culture, how to reach from Namakkal, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/spiti-valley/spiti-valley.jpg",
+          image: "https://club.kudozz.in/images/blogs/tamil-nadu/kolli-hills/kolli-hills.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -196,8 +197,8 @@ export default function KolliHillsGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/spiti-valley/spiti-valley.jpg"
-              alt="Winding mountain road through hill terrain, evoking the hairpin-bend ghat road climbing into Kolli Hills"
+              src="/images/blogs/tamil-nadu/kolli-hills/kolli-hills.webp"
+              alt="Kolli Hills, Tamil Nadu"
               fill
               priority
               sizes="100vw"
@@ -517,15 +518,6 @@ export default function KolliHillsGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>The Ghat Road, Waterfall & Temple</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/spiti-valley/spiti-valley.jpg"
-                      alt="Hill terrain and winding road, evoking Kolli Hills, Tamil Nadu"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>The 70-Hairpin-Bend Drive</h3>
                   <p>
                     The climb itself is a genuine highlight — a slow,
@@ -533,12 +525,14 @@ export default function KolliHillsGuidePage() {
                     expanding views over the plains below at each turn.
                   </p>
                   <h3>Agaya Gangai Waterfall</h3>
+                  <GuideFigure src="/images/blogs/tamil-nadu/kolli-hills/agaya-gangai-waterfall-kolli-hills.webp" alt="Agaya Gangai Waterfall, Kolli Hills" />
                   <p>
                     A multi-tiered waterfall reached via a flight of steps
                     down into a forested gorge — one of the hills' main
                     sightseeing draws and a good spot for a quiet break.
                   </p>
                   <h3>Arapaleeswarar Temple</h3>
+                  <GuideFigure src="/images/blogs/tamil-nadu/kolli-hills/arapaleeswarar-temple-kolli-hills.webp" alt="Arapaleeswarar Temple, Kolli Hills" />
                   <p>
                     A notable local Shiva shrine, worth a stop for its
                     setting within the hills as much as its religious

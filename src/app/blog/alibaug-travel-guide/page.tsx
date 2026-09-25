@@ -7,10 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Alibaug Travel Guide: Beaches, Forts & Weekend Getaway",
@@ -25,13 +21,13 @@ export const metadata: Metadata = {
     url: "https://club.kudozz.in/blog/alibaug-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/goa/beach.jpg", width: 1200, height: 630, alt: "Coastal beach scene representing Alibaug, Maharashtra" }],
+    images: [{ url: "/images/blogs/maharashtra/alibaug/alibaug-2.webp", width: 1600, height: 1200, alt: "Alibaug, Maharashtra" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Alibaug Travel Guide: Beaches, Forts & Weekend Getaway",
     description: "Kolaba Fort, Alibaug Beach, and the Mandwa ferry from Mumbai — the complete guide.",
-    images: ["/images/destinations/goa/beach.jpg"],
+    images: ["/images/blogs/maharashtra/alibaug/alibaug-2.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/alibaug-travel-guide" },
 };
@@ -46,7 +42,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Alibaug Travel Guide: Beaches, Forts & Weekend Getaway",
           description: "The complete Alibaug travel guide.",
-          image: "https://club.kudozz.in/images/destinations/goa/beach.jpg",
+          image: "https://club.kudozz.in/images/blogs/maharashtra/alibaug/alibaug-2.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
@@ -98,20 +94,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const ALIBAUG_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for the ferry crossing, beaches, and the low-tide fort walk",
-    emoji: "⛴️",
-    items: [
-      { name: "Waterproof Phone Pouch", description: "Useful on the Mandwa ferry crossing and at the beaches — sea spray and sudden waves are common on the RoRo and speed boat routes.", price: "₹299",  image: "📱", affiliateUrl: amazonSearchUrl("waterproof+phone+pouch"), tag: "Ferry essential", tagColor: "bg-sky-100 text-sky-700", why: "Sea spray on the ferry crossing and waves at the beaches both put phones at risk." },
-      { name: "Water Shoes / Flip-Flops", description: "The walk out to Kolaba Fort at low tide crosses wet sand and exposed rock — proper footwear helps more than bare feet or regular sandals.", price: "₹499",  image: "🩴", affiliateUrl: amazonSearchUrl("water+shoes+beach"), tag: "Fort-walk essential", tagColor: "bg-forest-100 text-forest-700", why: "The Kolaba Fort sea-bed crossing has patches of rock and shell debris that are uncomfortable barefoot." },
-      { name: "Reef-Safe Sunscreen", description: "The open beach stretches at Alibaug and Kashid offer little shade — reef-safe formulas protect skin without harming coastal ecosystems.", price: "₹599",  image: "🧴", affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+SPF+50"), tag: "Beach essential", tagColor: "bg-amber-100 text-amber-700", why: "Alibaug's beaches offer little natural shade for a full day out." },
-      { name: "Quick-Dry Beach Towel", description: "Compact and fast-drying — useful across the beach hopping, ferry ride, and day trip to Murud-Janjira.", price: "₹499",  image: "🏖️", affiliateUrl: amazonSearchUrl("quick+dry+beach+towel"), tag: "Beach essential", tagColor: "bg-purple-100 text-purple-700", why: "A regular towel stays damp for the rest of a multi-stop beach day — a quick-dry one doesn't." },
-    ],
-  },
-];
-
 export default function AlibaugGuidePage() {
   return (
     <>
@@ -121,7 +103,7 @@ export default function AlibaugGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/goa/beach.jpg" alt="Coastal beach scene representing Alibaug, Maharashtra" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/maharashtra/alibaug/alibaug-2.webp" alt="Alibaug, Maharashtra" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -230,7 +212,7 @@ export default function AlibaugGuidePage() {
                 <section id="top-attractions">
                   <h2>Top Attractions in Alibaug</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/goa/beach.jpg" alt="Coastal beach and fishing boats near Alibaug" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
+                    <Image src="/images/blogs/maharashtra/alibaug/kashid-beach-alibaug-2.webp" alt="Kashid Beach, Alibaug" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
                   </div>
                   <ul>
                     <li><strong>Kolaba Fort:</strong> A roughly 300-year-old sea fort built by Maratha admiral Kanhoji Angre, walkable across the exposed sea bed only at low tide.</li>
@@ -348,7 +330,6 @@ export default function AlibaugGuidePage() {
                 {["Alibaug", "Maharashtra", "Beaches", "Konkan Coast", "Murud-Janjira", "India"].map((tag) => <Link key={tag} href={`/blog?tag=${tag.toLowerCase().replace(/ /g, "-")}`} className="tag-pill">#{tag}</Link>)}
               </div>
 
-              <TrekGearRecommendations sections={ALIBAUG_GEAR} destination="Alibaug" />
               <RelatedPostsGrid currentSlug="alibaug-travel-guide" />
             </article>
 

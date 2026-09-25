@@ -7,10 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuidePhotoRow } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -28,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/blogs/uttar-pradesh/uttar-pradesh/taj-mahal-agra-uttar-pradesh.webp",
+        url: "/images/blogs/uttar-pradesh/uttar-pradesh/uttar-pradesh.webp",
         width: 1600,
-        height: 1052,
-        alt: "The white marble Taj Mahal and its four minarets reflected in the long garden pool, Agra, Uttar Pradesh",
+        height: 765,
+        alt: "View of Uttar Pradesh",
       },
     ],
   },
@@ -62,7 +59,7 @@ function ArticleSchema() {
             "Uttar Pradesh Travel Guide: Taj Mahal, Varanasi & Lucknow",
           description: "The complete Uttar Pradesh travel guide.",
           image:
-            "https://club.kudozz.in/images/blogs/uttar-pradesh/uttar-pradesh/taj-mahal-agra-uttar-pradesh.webp",
+            "https://club.kudozz.in/images/blogs/uttar-pradesh/uttar-pradesh/uttar-pradesh.webp",
           datePublished: "2026-07-19",
           dateModified: "2026-07-19",
           publisher: {
@@ -190,84 +187,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-// ── Uttar Pradesh-specific gear ─────────────────────────────────────────────
-const UP_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle:
-      "Gear for monument queues, riverside pre-dawn starts, and a state with intense seasonal heat",
-    emoji: "🕌",
-    items: [
-      {
-        name: "Comfortable Walking Shoes",
-        description:
-          "The Taj Mahal complex, Agra Fort, Varanasi's ghats and narrow lanes, and Lucknow's Bara Imambara all involve extended walking on stone and uneven surfaces.",
-        price: "₹1,499",
-        image: "👟",
-        affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
-        tag: "Monument essential",
-        tagColor: "bg-stone-100 text-stone-700",
-        why: "Varanasi's ghats alone stretch several kilometres along the river — comfortable, closed footwear beats sandals for a full day of walking there.",
-      },
-      {
-        name: "Reusable Water Bottle",
-        description:
-          "Agra and Lucknow get extremely hot for much of the year, and monument complexes like the Taj Mahal have long uncovered stretches.",
-        price: "₹699",
-        image: "🍶",
-        affiliateUrl: amazonSearchUrl("insulated+water+bottle+steel"),
-        tag: "Everyday essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Summer in the Gangetic plains regularly crosses 42°C — hydration matters more here than in almost any other Indian travel circuit.",
-      },
-      {
-        name: "Wide-Brim Sun Hat",
-        description:
-          "Useful across the entire Taj Mahal complex, which has almost no shade over its main approach and gardens.",
-        price: "₹399",
-        image: "👒",
-        affiliateUrl: amazonSearchUrl("wide+brim+sun+hat+travel"),
-        tag: "Sun essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "Most Taj Mahal visits happen at sunrise for the light, but the complex stays fully exposed to the sun through the rest of the day.",
-      },
-      {
-        name: "Modest Travel Scarf / Stole",
-        description:
-          "Useful for covering shoulders at religious sites in Varanasi, Ayodhya, and Mathura-Vrindavan, and doubles as sun protection.",
-        price: "₹499",
-        image: "🧣",
-        affiliateUrl: amazonSearchUrl("travel+scarf+stole+lightweight"),
-        tag: "Temple essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "Several of UP's major sites are active religious complexes with modest dress expectations — a lightweight scarf covers most situations.",
-      },
-      {
-        name: "Power Bank (10,000 mAh)",
-        description:
-          "Useful for long inter-city travel between Agra, Varanasi and Lucknow, and for pre-dawn boat rides on the Ganga.",
-        price: "₹1,299",
-        image: "🔋",
-        affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
-        tag: "Travel-day essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "Early starts for Ganga Aarti and Taj Mahal sunrise visits mean your phone works hard before you've had a chance to charge it.",
-      },
-      {
-        name: "Basic Digestive Care Kit",
-        description:
-          "Street food in Lucknow and Varanasi is a highlight of the trip — worth carrying basic medication for first-time visitors trying it extensively.",
-        price: "₹399",
-        image: "💊",
-        affiliateUrl: amazonSearchUrl("travel+digestive+medicine+kit"),
-        tag: "Street-food essential",
-        tagColor: "bg-red-100 text-red-700",
-        why: "Lucknow's kebabs and Varanasi's chaat are genuinely worth the trip — a basic kit means a stomach upset doesn't derail your itinerary.",
-      },
-    ],
-  },
-];
-
 // ── Page ─────────────────────────────────────────────────────────────────────
 export default function UttarPradeshGuidePage() {
   return (
@@ -281,8 +200,8 @@ export default function UttarPradeshGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/blogs/uttar-pradesh/uttar-pradesh/taj-mahal-agra-uttar-pradesh.webp"
-              alt="The white marble Taj Mahal and its four minarets reflected in the long garden pool, Agra, Uttar Pradesh"
+              src="/images/blogs/uttar-pradesh/uttar-pradesh/uttar-pradesh.webp"
+              alt="View of Uttar Pradesh"
               fill
               priority
               sizes="100vw"
@@ -616,8 +535,8 @@ export default function UttarPradeshGuidePage() {
                   <h2>Agra: Taj Mahal & Beyond</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/blogs/uttar-pradesh/uttar-pradesh/taj-mahal-agra-uttar-pradesh.webp"
-                      alt="The white marble Taj Mahal and its four minarets reflected in the long garden pool, Agra, Uttar Pradesh"
+                      src="/images/blogs/uttar-pradesh/uttar-pradesh/agra-uttar-pradesh.webp"
+                      alt="Agra, Uttar Pradesh"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -711,6 +630,12 @@ export default function UttarPradeshGuidePage() {
                       a calm counterpoint to the city's intensity.
                     </li>
                   </ul>
+                  <GuidePhotoRow
+                    images={[
+                      { src: "/images/blogs/uttar-pradesh/uttar-pradesh/manikarnika-ghat-uttar-pradesh.webp", alt: "Manikarnika Ghat, Uttar Pradesh", caption: "Manikarnika Ghat, Uttar Pradesh" },
+                      { src: "/images/blogs/uttar-pradesh/uttar-pradesh/sarnath-uttar-pradesh-2.webp", alt: "Sarnath, Uttar Pradesh", caption: "Sarnath, Uttar Pradesh" },
+                    ]}
+                  />
                 </section>
 
                 {/* ── Lucknow ───────────────────────────────────────────── */}
@@ -1356,12 +1281,6 @@ export default function UttarPradeshGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              {/* ── Gear Recommendations ──────────────────────────────── */}
-              <TrekGearRecommendations
-                sections={UP_GEAR}
-                destination="Uttar Pradesh"
-              />
 
               <RelatedPostsGrid currentSlug="uttar-pradesh-travel-guide" />
             </article>

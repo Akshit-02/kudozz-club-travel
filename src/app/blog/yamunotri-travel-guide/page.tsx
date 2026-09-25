@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
   title: "Yamunotri Travel Guide: Trek, Hot Springs & Tips",
@@ -430,6 +431,7 @@ export default function YamunotriGuidePage() {
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">
                   <h2>Best Time to Visit Yamunotri</h2>
+                  <GuideFigure src="/images/blogs/uttarakhand/yamunotri/yamunotri-view.webp" alt="Yamunotri, Uttarakhand" />
                   <p>
                     The temple itself is only open roughly six to seven
                     months a year, which narrows the practical window
@@ -544,15 +546,6 @@ export default function YamunotriGuidePage() {
                 {/* ── Attractions ────────────────────────────────────────── */}
                 <section id="attractions">
                   <h2>The Trek & Key Sites</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/uttarakhand/yamunotri/yamunotri-temple-gorge-shrine.webp"
-                      alt="Yamunotri Temple's colorful shrine roof and flags amid the Yamuna river gorge"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>The Janki Chatti Trek</h3>
                   <p>
                     The pilgrim path from Janki Chatti to the Yamunotri

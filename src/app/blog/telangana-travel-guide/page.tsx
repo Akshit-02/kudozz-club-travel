@@ -7,10 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuidePhotoRow } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -186,84 +183,6 @@ const tableOfContents = [
   { id: "tips", title: "Essential Travel Tips", level: 2 },
   { id: "places-to-explore", title: "Places to Explore in Telangana", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
-];
-
-// ── Telangana-specific gear ─────────────────────────────────────────────────
-const TELANGANA_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle:
-      "Gear for Deccan heat, fort climbs, temple queues, and monsoon waterfall trips",
-    emoji: "🕌",
-    items: [
-      {
-        name: "Comfortable Walking Shoes",
-        description:
-          "Golconda Fort's climb and Hyderabad's Old City lanes both involve extended walking on uneven stone.",
-        price: "₹1,499",
-        image: "👟",
-        affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
-        tag: "Sightseeing essential",
-        tagColor: "bg-stone-100 text-stone-700",
-        why: "The climb to Golconda's Bala Hissar pavilion and the uneven paths around temple complexes both reward proper footwear.",
-      },
-      {
-        name: "Sunscreen (SPF 50)",
-        description:
-          "Telangana's Deccan sun is intense for much of the year, especially on open fort ramparts and temple courtyards.",
-        price: "₹399",
-        image: "🧴",
-        affiliateUrl: amazonSearchUrl("sunscreen+spf+50+travel"),
-        tag: "Deccan heat essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "Fort and temple sightseeing here means long stretches in direct sun with little shade — sunscreen is not optional.",
-      },
-      {
-        name: "Reusable Water Bottle",
-        description:
-          "Handy across long days at Golconda, the temple circuit, and Warangal's heritage sites.",
-        price: "₹699",
-        image: "🍶",
-        affiliateUrl: amazonSearchUrl("insulated+water+bottle+steel"),
-        tag: "Everyday essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Telangana's heat makes staying hydrated a real priority, and shops thin out around temple and fort complexes.",
-      },
-      {
-        name: "Light Cotton Clothing",
-        description:
-          "Breathable, modest clothing suited to both the Deccan heat and temple/mosque dress codes.",
-        price: "₹899",
-        image: "👕",
-        affiliateUrl: amazonSearchUrl("light+cotton+travel+clothing"),
-        tag: "Climate essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "Most of Telangana's major sights are temples and mosques with modest-dress expectations, in a genuinely hot climate.",
-      },
-      {
-        name: "Power Bank (10,000 mAh)",
-        description:
-          "Useful for day trips to Warangal, Srisailam, or Nagarjuna Sagar, where charging points thin out.",
-        price: "₹1,299",
-        image: "🔋",
-        affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
-        tag: "Day-trip essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "Long day trips outside Hyderabad mean fewer charging opportunities than the city offers.",
-      },
-      {
-        name: "Compact Rain Jacket",
-        description:
-          "Worth carrying if timing a visit around the monsoon to catch the Bogatha or Kuntala waterfalls at their fullest.",
-        price: "₹599",
-        image: "🌂",
-        affiliateUrl: amazonSearchUrl("rain+jacket+poncho+travel"),
-        tag: "Monsoon essential",
-        tagColor: "bg-stone-100 text-stone-700",
-        why: "The waterfalls are at their most dramatic exactly when Telangana's monsoon rain is heaviest.",
-      },
-    ],
-  },
 ];
 
 // ── Page ─────────────────────────────────────────────────────────────────────
@@ -699,6 +618,12 @@ export default function TelanganaGuidePage() {
                       the main city sights.
                     </li>
                   </ul>
+                  <GuidePhotoRow
+                    images={[
+                      { src: "/images/blogs/telangana/telangana/warangal-fort-telangana.webp", alt: "Warangal Fort, Telangana", caption: "Warangal Fort, Telangana" },
+                      { src: "/images/blogs/telangana/telangana/ramappa-temple-telangana.webp", alt: "Ramappa Temple, Telangana", caption: "Ramappa Temple, Telangana" },
+                    ]}
+                  />
                 </section>
 
                 {/* ── Temple Circuit ────────────────────────────────────── */}
@@ -1378,12 +1303,6 @@ export default function TelanganaGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              {/* ── Gear Recommendations ──────────────────────────────── */}
-              <TrekGearRecommendations
-                sections={TELANGANA_GEAR}
-                destination="Telangana"
-              />
 
               <RelatedPostsGrid currentSlug="telangana-travel-guide" />
             </article>

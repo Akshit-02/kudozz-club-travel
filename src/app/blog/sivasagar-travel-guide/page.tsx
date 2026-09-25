@@ -7,8 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuidePhotoRow } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
   title: "Sivasagar Travel Guide: Ahom Dynasty Capital & Ancient Tanks",
@@ -20,9 +19,9 @@ export const metadata: Metadata = {
     title: "Sivasagar Travel Guide: Ahom Dynasty Capital & Ancient Tanks",
     description: "The former capital of the 600-year Ahom dynasty, ringed by a massive man-made tank and three of Assam's grandest surviving temples — the complete guide to Sivasagar.",
     url: "https://club.kudozz.in/blog/sivasagar-travel-guide", type: "article", siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/hampi/hero.jpg", width: 1200, height: 630, alt: "Heritage architecture representative of Sivasagar, Assam" }],
+    images: [{ url: "/images/blogs/assam/sivasagar/sivasagar.webp", width: 1600, height: 900, alt: "View of Sivasagar, Assam" }],
   },
-  twitter: { card: "summary_large_image", title: "Sivasagar Travel Guide: Ahom Dynasty Capital & Ancient Tanks", description: "The former capital of the 600-year Ahom dynasty — the complete guide to Sivasagar.", images: ["/images/destinations/hampi/hero.jpg"] },
+  twitter: { card: "summary_large_image", title: "Sivasagar Travel Guide: Ahom Dynasty Capital & Ancient Tanks", description: "The former capital of the 600-year Ahom dynasty — the complete guide to Sivasagar.", images: ["/images/blogs/assam/sivasagar/sivasagar.webp"] },
   alternates: { canonical: "https://club.kudozz.in/blog/sivasagar-travel-guide" },
 };
 
@@ -32,7 +31,7 @@ function ArticleSchema() {
       "@context": "https://schema.org", "@type": "BlogPosting",
       headline: "Sivasagar Travel Guide: Ahom Dynasty Capital & Ancient Tanks",
       description: "The complete Sivasagar travel guide.",
-      image: "https://club.kudozz.in/images/destinations/hampi/hero.jpg",
+      image: "https://club.kudozz.in/images/blogs/assam/sivasagar/sivasagar.webp",
       datePublished: "2026-09-08", dateModified: "2026-09-08",
       publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
       author: { "@type": "Organization", name: "Kudozz Club" },
@@ -79,16 +78,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const SIVASAGAR_GEAR: GearSection[] = [{
-  title: "Things Worth Carrying", subtitle: "Gear for a day of Ahom-heritage exploring", emoji: "🏛️",
-  items: [
-    { name: "Comfortable Walking Shoes", description: "For covering the Sivasagar Tank temples, Rang Ghar, and Talatal Ghar across a single day.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-amber-100 text-amber-700", why: "The main sites are spread across town, adding up to real distance over a day." },
-    { name: "Sun Hat", description: "Many of the historical sites are outdoors with limited shade.", price: "₹399",  image: "🧢", affiliateUrl: amazonSearchUrl("sun+hat+travel+outdoor"), tag: "Comfort essential", tagColor: "bg-sky-100 text-sky-700", why: "The tank and amphitheatre sites offer little shade during midday visits." },
-    { name: "Camera", description: "For the tank's temple reflections and Rang Ghar's genuinely unique architecture.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-forest-100 text-forest-700", why: "Sivasagar's Ahom-era architecture is genuinely photogenic and distinctive." },
-    { name: "Reusable Water Bottle", description: "For a full day of walking between spread-out heritage sites.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "All-day essential", tagColor: "bg-purple-100 text-purple-700", why: "Facilities thin out between the main sites." },
-  ],
-}];
-
 export default function SivasagarGuidePage() {
   return (
     <>
@@ -96,7 +85,7 @@ export default function SivasagarGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/hampi/hero.jpg" alt="Heritage architecture representative of Sivasagar, Assam" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/assam/sivasagar/sivasagar.webp" alt="View of Sivasagar, Assam" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -200,7 +189,7 @@ export default function SivasagarGuidePage() {
                 <section id="top-attractions">
                   <h2>Top Things to Do in Sivasagar</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/hampi/hero.jpg" alt="Ahom-era heritage architecture in Sivasagar" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
+                    <Image src="/images/blogs/assam/sivasagar/rang-ghar-sivasagar-2.webp" alt="Rang Ghar, Sivasagar" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
                   </div>
                   <ul>
                     <li><strong>Sivasagar Tank:</strong> A large Ahom-era man-made tank ringed by three major temples.</li>
@@ -209,6 +198,13 @@ export default function SivasagarGuidePage() {
                     <li><strong>Rang Ghar:</strong> A distinctive oval amphitheatre/pavilion, believed among the oldest surviving structures of its kind in Asia, once used for royal entertainment.</li>
                     <li><strong>Talatal Ghar:</strong> An Ahom-era structure with reported underground levels, worth a stop for its architectural history.</li>
                   </ul>
+                  <GuidePhotoRow
+                    images={[
+                      { src: "/images/blogs/assam/sivasagar/sivasagar-tank.webp", alt: "Sivasagar Tank, Assam", caption: "Sivasagar Tank, Assam" },
+                      { src: "/images/blogs/assam/sivasagar/shiva-dol-sivasagar.webp", alt: "Shiva Dol, Sivasagar", caption: "Shiva Dol, Sivasagar" },
+                      { src: "/images/blogs/assam/sivasagar/vishnu-dol-and-devi-dol-sivasagar.webp", alt: "Vishnu Dol and Devi Dol, Sivasagar", caption: "Vishnu Dol and Devi Dol, Sivasagar" },
+                    ]}
+                  />
                 </section>
 
                 <section id="where-to-stay">
@@ -322,7 +318,6 @@ export default function SivasagarGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={SIVASAGAR_GEAR} destination="Sivasagar" />
               <RelatedPostsGrid currentSlug="sivasagar-travel-guide" />
             </article>
             <div className="hidden xl:block w-64 2xl:w-72 flex-shrink-0"><div className="sticky top-24"><RelatedSidebar currentSlug="sivasagar-travel-guide" /></div></div>

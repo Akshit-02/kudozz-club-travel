@@ -7,10 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuidePhotoRow } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -28,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/blogs/delhi/delhi/red-fort-lahori-gate-delhi.webp",
+        url: "/images/blogs/delhi/delhi/delhi.webp",
         width: 1600,
-        height: 902,
-        alt: "The red sandstone Lahori Gate entrance of the Red Fort with its twin domed towers and the Indian flag, Delhi",
+        height: 1067,
+        alt: "View of Delhi",
       },
     ],
   },
@@ -40,7 +37,7 @@ export const metadata: Metadata = {
     title: "Delhi Travel Guide: Red Fort, Qutub Minar & 3-Day Itinerary",
     description:
       "Mughal monuments, colonial avenues, and legendary street food — the complete guide to Delhi.",
-    images: ["/images/blogs/delhi/delhi/red-fort-lahori-gate-delhi.webp"],
+    images: ["/images/blogs/delhi/delhi/delhi.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/delhi-travel-guide",
@@ -59,7 +56,7 @@ function ArticleSchema() {
           headline: "Delhi Travel Guide: Red Fort, Qutub Minar & 3-Day Itinerary",
           description: "The complete Delhi travel guide.",
           image:
-            "https://club.kudozz.in/images/blogs/delhi/delhi/red-fort-lahori-gate-delhi.webp",
+            "https://club.kudozz.in/images/blogs/delhi/delhi/delhi.webp",
           datePublished: "2026-07-19",
           dateModified: "2026-07-19",
           publisher: {
@@ -187,84 +184,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-// ── Delhi-specific gear ──────────────────────────────────────────────────────
-const DELHI_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle:
-      "Gear for monument-hopping, dense crowds, and a city where weather swings between extremes",
-    emoji: "🕌",
-    items: [
-      {
-        name: "Comfortable Walking Shoes",
-        description:
-          "Red Fort, Humayun's Tomb, Qutub Minar and Chandni Chowk all involve extended walking on stone, uneven lanes, and long monument complexes.",
-        price: "₹1,499",
-        image: "👟",
-        affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
-        tag: "Monument essential",
-        tagColor: "bg-stone-100 text-stone-700",
-        why: "A single day covering Old Delhi's monuments and lanes easily crosses 10,000 steps on hard, uneven surfaces.",
-      },
-      {
-        name: "Reusable Water Bottle",
-        description:
-          "Delhi's monument complexes are large and mostly uncovered — Red Fort and Qutub Minar have long stretches with no shade.",
-        price: "₹699",
-        image: "🍶",
-        affiliateUrl: amazonSearchUrl("insulated+water+bottle+steel"),
-        tag: "Everyday essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Summer temperatures regularly cross 40°C, and hydration is the single biggest factor in enjoying a full sightseeing day.",
-      },
-      {
-        name: "N95 / Anti-Pollution Mask",
-        description:
-          "Delhi's air quality drops sharply in winter, particularly November–January — a well-fitted mask is worth packing for that window.",
-        price: "₹399",
-        image: "😷",
-        affiliateUrl: amazonSearchUrl("n95+pollution+mask"),
-        tag: "Winter essential",
-        tagColor: "bg-red-100 text-red-700",
-        why: "Delhi regularly records some of the world's worst AQI readings in winter — this isn't optional if you're visiting Nov–Jan and sensitive to air quality.",
-      },
-      {
-        name: "Compact Daypack",
-        description:
-          "Handy for camera gear, water, and layers across long monument-and-market days that span both Old and New Delhi.",
-        price: "₹1,199",
-        image: "🎒",
-        affiliateUrl: amazonSearchUrl("travel+daypack+backpack"),
-        tag: "Sightseeing essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "Security checks are routine at Delhi's major monuments — a smaller, simple daypack clears faster than a large bag.",
-      },
-      {
-        name: "Power Bank (10,000 mAh)",
-        description:
-          "Useful for long days out using the metro and navigation apps between Old Delhi, Central Delhi, and South Delhi neighbourhoods.",
-        price: "₹1,299",
-        image: "🔋",
-        affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
-        tag: "City-day essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "Delhi's sights are spread across a genuinely large city — expect to rely heavily on your phone for maps and metro routes.",
-      },
-      {
-        name: "Basic Stomach Care Kit",
-        description:
-          "Street food is one of Delhi's biggest draws, but it's worth carrying basic digestive medication for first-time visitors trying it extensively.",
-        price: "₹399",
-        image: "💊",
-        affiliateUrl: amazonSearchUrl("travel+digestive+medicine+kit"),
-        tag: "Street-food essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "Chandni Chowk's food trail is a highlight for most visitors — a basic kit means it doesn't derail the rest of your trip.",
-      },
-    ],
-  },
-];
-
 // ── Page ─────────────────────────────────────────────────────────────────────
 export default function DelhiGuidePage() {
   return (
@@ -278,8 +197,8 @@ export default function DelhiGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/blogs/delhi/delhi/red-fort-lahori-gate-delhi.webp"
-              alt="The red sandstone Lahori Gate entrance of the Red Fort with its twin domed towers and the Indian flag, Delhi"
+              src="/images/blogs/delhi/delhi/delhi.webp"
+              alt="View of Delhi"
               fill
               priority
               sizes="100vw"
@@ -596,6 +515,42 @@ export default function DelhiGuidePage() {
                       popular for road trips.
                     </li>
                   </ul>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/delhi/chandni-chowk-street-market-old-delhi.webp"
+                      alt="A crowded lane of Chandni Chowk in Old Delhi lined with street vendors and shoppers"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/delhi/jama-masjid-courtyard-old-delhi.webp"
+                      alt="The red sandstone gateway and wide courtyard of Jama Masjid, India's largest mosque, in Old Delhi"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/delhi/qutub-minar-tower-delhi.webp"
+                      alt="The tapering red sandstone and marble tower of Qutub Minar rising against a clear blue sky"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/delhi/humayuns-tomb-garden-delhi.webp"
+                      alt="Humayun's Tomb, a red sandstone and white marble Mughal mausoleum, seen across its char-bagh garden and reflecting pool"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <div
                     className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-xl my-4 text-sm"
                     style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -640,8 +595,8 @@ export default function DelhiGuidePage() {
                   <h2>Things to Do in Delhi</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/blogs/delhi/delhi/red-fort-lahori-gate-delhi.webp"
-                      alt="The red sandstone Lahori Gate entrance of the Red Fort with its twin domed towers and the Indian flag, Delhi"
+                      src="/images/blogs/delhi/delhi/akshardham-temple-delhi-2.webp"
+                      alt="Akshardham Temple Delhi"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -661,15 +616,12 @@ export default function DelhiGuidePage() {
                       impressive.
                     </li>
                   </ul>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/delhi/delhi/humayuns-tomb-garden-delhi.webp"
-                      alt="Humayun's Tomb, a red sandstone and white marble Mughal mausoleum, seen across its char-bagh garden and reflecting pool"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
+                  <GuidePhotoRow
+                    images={[
+                      { src: "/images/blogs/delhi/delhi/red-fort-delhi.webp", alt: "Red Fort, Delhi", caption: "Red Fort, Delhi" },
+                      { src: "/images/blogs/delhi/delhi/humayun-s-tomb-delhi.webp", alt: "Humayun's Tomb, Delhi", caption: "Humayun's Tomb, Delhi" },
+                    ]}
+                  />
                   <ul>
                     <li>
                       <strong>Qutub Minar:</strong> A 73-metre Sultanate-era
@@ -677,15 +629,6 @@ export default function DelhiGuidePage() {
                       within an atmospheric complex of ruins.
                     </li>
                   </ul>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/delhi/delhi/qutub-minar-tower-delhi.webp"
-                      alt="The tapering red sandstone and marble tower of Qutub Minar rising against a clear blue sky"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <ul>
                     <li>
                       <strong>Jama Masjid:</strong> India's largest mosque,
@@ -693,15 +636,6 @@ export default function DelhiGuidePage() {
                       (small extra fee for the climb).
                     </li>
                   </ul>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/delhi/delhi/jama-masjid-courtyard-old-delhi.webp"
-                      alt="The red sandstone gateway and wide courtyard of Jama Masjid, India's largest mosque, in Old Delhi"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <ul>
                     <li>
                       <strong>India Gate:</strong> A war memorial and
@@ -725,15 +659,6 @@ export default function DelhiGuidePage() {
                       food section below for specific stops.
                     </li>
                   </ul>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/delhi/delhi/chandni-chowk-street-market-old-delhi.webp"
-                      alt="A crowded lane of Chandni Chowk in Old Delhi lined with street vendors and shoppers"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                 </section>
 
                 {/* ── Neighbourhoods ────────────────────────────────────── */}
@@ -766,6 +691,13 @@ export default function DelhiGuidePage() {
                       wander for photography.
                     </li>
                   </ul>
+                  <GuidePhotoRow
+                    images={[
+                      { src: "/images/blogs/delhi/delhi/connaught-place-delhi.webp", alt: "Connaught Place, Delhi", caption: "Connaught Place, Delhi" },
+                      { src: "/images/blogs/delhi/delhi/hauz-khas-village-delhi-2.webp", alt: "Hauz Khas Village, Delhi", caption: "Hauz Khas Village, Delhi" },
+                      { src: "/images/blogs/delhi/delhi/khan-market-delhi.webp", alt: "Khan Market, Delhi", caption: "Khan Market, Delhi" },
+                    ]}
+                  />
                 </section>
 
                 {/* ── Day Trips ─────────────────────────────────────────── */}
@@ -1203,12 +1135,6 @@ export default function DelhiGuidePage() {
                         Connaught Place Guide: Shopping, Food & Nightlife
                       </Link>
                       <Link
-                        href="/blog/dwarka-travel-guide"
-                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
-                      >
-                        Dwarka Travel Guide: Krishna&apos;s Ancient Kingdom & Char Dham Site
-                      </Link>
-                      <Link
                         href="/blog/dwarka-delhi-travel-guide"
                         className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
                       >
@@ -1378,12 +1304,6 @@ export default function DelhiGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              {/* ── Gear Recommendations ──────────────────────────────── */}
-              <TrekGearRecommendations
-                sections={DELHI_GEAR}
-                destination="Delhi"
-              />
 
               <RelatedPostsGrid currentSlug="delhi-travel-guide" />
             </article>

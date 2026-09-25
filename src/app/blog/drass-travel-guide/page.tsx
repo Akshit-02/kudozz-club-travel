@@ -7,9 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  HIMALAYAN_GEAR,
-} from "@/components/ui/TrekGearRecommendations";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -549,15 +546,6 @@ export default function DrassPage() {
                 {/* ── War Memorial ────────────────────────────────────────── */}
                 <section id="war-memorial">
                   <h2>The Kargil War Memorial</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/ladakh/drass/kargil-war-memorial-howitzer-display.webp"
-                      alt="A 75/24 Pack Howitzer on display at the Kargil War Memorial, Drass"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <p>
                     In the summer of 1999, Pakistani forces and armed
                     infiltrators occupied a chain of high-altitude posts on
@@ -1004,10 +992,6 @@ export default function DrassPage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations
-                sections={HIMALAYAN_GEAR}
-                destination="Drass"
-              />
               {/* Related Posts Grid at bottom */}
               <RelatedPostsGrid currentSlug="drass-travel-guide" />
             </article>

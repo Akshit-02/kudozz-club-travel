@@ -7,8 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Belum Caves Travel Guide: India's Second-Longest Cave System",
@@ -25,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/udaipur/saheliyon.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Rugged Rayalaseema terrain representative of Belum Caves, Andhra Pradesh",
+        url: "/images/blogs/andhra-pradesh/belum-caves/belum-caves.webp",
+        width: 1600,
+        height: 1062,
+        alt: "Belum Caves, Andhra Pradesh",
       },
     ],
   },
@@ -36,7 +34,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Belum Caves Travel Guide: India's Second-Longest Cave System",
     description: "India's second-longest cave system — the complete guide to Belum Caves.",
-    images: ["/images/destinations/udaipur/saheliyon.jpg"],
+    images: ["/images/blogs/andhra-pradesh/belum-caves/belum-caves.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/belum-caves-travel-guide" },
 };
@@ -51,7 +49,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Belum Caves Travel Guide: India's Second-Longest Cave System",
           description: "The complete Belum Caves travel guide.",
-          image: "https://club.kudozz.in/images/destinations/udaipur/saheliyon.jpg",
+          image: "https://club.kudozz.in/images/blogs/andhra-pradesh/belum-caves/belum-caves.webp",
           datePublished: "2026-09-08",
           dateModified: "2026-09-08",
           publisher: {
@@ -143,56 +141,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const BELUM_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for an extensive underground cave walk",
-    emoji: "🕳️",
-    items: [
-      {
-        name: "Grippy Closed-Toe Shoes",
-        description: "Some passages are tight and low, and the cave floor can be uneven or damp.",
-        price: "₹1,999",
-        image: "🥾",
-        affiliateUrl: amazonSearchUrl("grippy+closed+toe+shoes+travel"),
-        tag: "Cave essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "Belum's longer, more extensive passages make sturdy footwear more important than at smaller cave sites.",
-      },
-      {
-        name: "Small Torch",
-        description: "Useful backup lighting for sections beyond the main lit pathway.",
-        price: "₹299",
-        image: "🔦",
-        affiliateUrl: amazonSearchUrl("small+led+torch+travel"),
-        tag: "Backup essential",
-        tagColor: "bg-stone-100 text-stone-700",
-        why: "A personal torch is a sensible backup given how extensive the cave system is.",
-      },
-      {
-        name: "Light, Breathable Clothing",
-        description: "For the tight, low passages where you may need to duck or crouch through sections.",
-        price: "₹799",
-        image: "👕",
-        affiliateUrl: amazonSearchUrl("breathable+travel+clothing"),
-        tag: "Comfort essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Some of Belum's chambers require crouching or squeezing through narrower gaps than typical show caves.",
-      },
-      {
-        name: "Reusable Water Bottle",
-        description: "For the overall day trip, especially if combining with Gandikota or other Rayalaseema stops.",
-        price: "₹449",
-        image: "💧",
-        affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"),
-        tag: "Trip essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "This is a remote region with limited amenities between stops.",
-      },
-    ],
-  },
-];
-
 export default function BelumCavesGuidePage() {
   return (
     <>
@@ -204,8 +152,8 @@ export default function BelumCavesGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/udaipur/saheliyon.jpg"
-              alt="Rugged Rayalaseema terrain representative of Belum Caves, Andhra Pradesh"
+              src="/images/blogs/andhra-pradesh/belum-caves/belum-caves.webp"
+              alt="Belum Caves, Andhra Pradesh"
               fill
               priority
               sizes="100vw"
@@ -419,15 +367,6 @@ export default function BelumCavesGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to See at Belum Caves</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/udaipur/saheliyon.jpg"
-                      alt="Rayalaseema landscape near Belum Caves"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <ul>
                     <li>
                       <strong>The developed cave gallery:</strong> A lit walking path through the system's most
@@ -663,8 +602,6 @@ export default function BelumCavesGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              <TrekGearRecommendations sections={BELUM_GEAR} destination="Belum Caves" />
 
               <RelatedPostsGrid currentSlug="belum-caves-travel-guide" />
             </article>

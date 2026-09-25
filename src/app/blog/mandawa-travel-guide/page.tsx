@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/chandigarh/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Ornately painted heritage architecture, evoking the frescoed havelis of Mandawa in Rajasthan's Shekhawati region",
+        url: "/images/blogs/rajasthan/mandawa/mandawa-fort-2.webp",
+        width: 1600,
+        height: 1067,
+        alt: "Mandawa Fort, Rajasthan",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Mandawa Travel Guide: Shekhawati Havelis & Tips",
     description:
       "Frescoed merchant mansions, a fort turned heritage hotel, and the open-air art gallery of Rajasthan — the complete Mandawa guide.",
-    images: ["/images/destinations/chandigarh/hero.jpg"],
+    images: ["/images/blogs/rajasthan/mandawa/mandawa-fort-2.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/mandawa-travel-guide",
@@ -59,7 +60,7 @@ function ArticleSchema() {
           headline: "Mandawa Travel Guide: Shekhawati Havelis & Tips",
           description:
             "Complete Mandawa guide — the frescoed havelis of Shekhawati, Mandawa Fort, the Marwari merchant history behind the murals, how to reach from Jaipur, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/chandigarh/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/rajasthan/mandawa/mandawa-fort-2.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -200,8 +201,8 @@ export default function MandawaGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/chandigarh/hero.jpg"
-              alt="Ornately painted heritage architecture, evoking the frescoed havelis of Mandawa in Rajasthan's Shekhawati region"
+              src="/images/blogs/rajasthan/mandawa/mandawa-fort-2.webp"
+              alt="Mandawa Fort, Rajasthan"
               fill
               priority
               sizes="100vw"
@@ -518,15 +519,6 @@ export default function MandawaGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Havelis, Fort & the Shekhawati Region</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/chandigarh/hero.jpg"
-                      alt="Ornately painted heritage building facade in Mandawa, Shekhawati region, Rajasthan"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Mandawa Fort</h3>
                   <p>
                     Built by the town's founding Thakur family, Mandawa Fort

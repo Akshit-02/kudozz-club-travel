@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jammu-kashmir/dal.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Calm reservoir surrounded by hills, evoking Doyang's river dam setting in Wokha district, Nagaland",
+        url: "/images/blogs/nagaland/doyang/doyang.webp",
+        width: 1600,
+        height: 1200,
+        alt: "View of Doyang, Nagaland",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Doyang Guide: Amur Falcon Capital of the World",
     description:
       "One of the largest gatherings of migratory raptors on Earth, and a genuine community conservation success story — the complete Doyang guide.",
-    images: ["/images/destinations/jammu-kashmir/dal.jpg"],
+    images: ["/images/blogs/nagaland/doyang/doyang.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/doyang-travel-guide",
@@ -59,7 +60,7 @@ function ArticleSchema() {
           headline: "Doyang Guide: Amur Falcon Capital of the World",
           description:
             "Complete Doyang guide — the annual Amur falcon migration, the Wokha community conservation story, when millions of raptors gather at the reservoir, how to reach, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/jammu-kashmir/dal.jpg",
+          image: "https://club.kudozz.in/images/blogs/nagaland/doyang/doyang.webp",
           datePublished: "2026-09-04",
           dateModified: "2026-09-04",
           publisher: {
@@ -196,8 +197,8 @@ export default function DoyangGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jammu-kashmir/dal.jpg"
-              alt="Calm reservoir surrounded by hills, evoking Doyang's river dam setting in Wokha district, Nagaland"
+              src="/images/blogs/nagaland/doyang/doyang.webp"
+              alt="View of Doyang, Nagaland"
               fill
               priority
               sizes="100vw"
@@ -524,15 +525,6 @@ export default function DoyangGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>The Migration & Conservation Story</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/jammu-kashmir/dal.jpg"
-                      alt="Reservoir landscape evoking Doyang's roosting grounds for migratory Amur falcons"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>The Amur Falcon Migration</h3>
                   <p>
                     Amur falcons breed across Siberia and Mongolia and
@@ -558,6 +550,7 @@ export default function DoyangGuidePage() {
                     alone convey.
                   </p>
                   <h3>The Doyang Reservoir</h3>
+                  <GuideFigure src="/images/blogs/nagaland/doyang/the-doyang-reservoir.webp" alt="The Doyang Reservoir, Nagaland" />
                   <p>
                     Beyond the falcons, the reservoir itself sits in a
                     peaceful setting of forested Wokha hills, worth a slow

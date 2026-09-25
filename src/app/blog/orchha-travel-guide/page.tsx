@@ -7,10 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuidePhotoRow } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
   title: "Orchha Travel Guide: Cenotaphs, Palaces & Betwa River",
@@ -25,13 +22,13 @@ export const metadata: Metadata = {
     url: "https://club.kudozz.in/blog/orchha-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/udaipur/saheliyon.jpg", width: 1200, height: 630, alt: "Sandstone palace architecture representative of Orchha, Madhya Pradesh" }],
+    images: [{ url: "/images/blogs/madhya-pradesh/orchha/orchha.webp", width: 1280, height: 854, alt: "View of Orchha, Madhya Pradesh" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Orchha Travel Guide: Cenotaphs, Palaces & Betwa River",
     description: "Jahangir Mahal, Ram Raja Temple, and riverside cenotaphs — the complete guide to Orchha.",
-    images: ["/images/destinations/udaipur/saheliyon.jpg"],
+    images: ["/images/blogs/madhya-pradesh/orchha/orchha.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/orchha-travel-guide" },
 };
@@ -46,7 +43,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Orchha Travel Guide: Cenotaphs, Palaces & Betwa River",
           description: "The complete Orchha travel guide.",
-          image: "https://club.kudozz.in/images/destinations/udaipur/saheliyon.jpg",
+          image: "https://club.kudozz.in/images/blogs/madhya-pradesh/orchha/orchha.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
@@ -99,20 +96,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const ORCHHA_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for the fort complex, riverside walks, and temple visits",
-    emoji: "🕌",
-    items: [
-      { name: "Comfortable Walking Shoes", description: "Jahangir Mahal and the surrounding fort complex involve plenty of stairs and uneven sandstone surfaces.", price: "₹1,699",  image: "🥾", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+heritage"), tag: "Heritage-walk essential", tagColor: "bg-red-100 text-red-700", why: "Worn sandstone steps throughout the palace complex are easy to underestimate in flimsy footwear." },
-      { name: "Modest Cotton Wrap", description: "Ram Raja Temple, an active place of worship, expects modest dress — a light cotton stole or wrap covers shoulders easily.", price: "₹399",  image: "🧣", affiliateUrl: amazonSearchUrl("cotton+wrap+travel+modest"), tag: "Temple essential", tagColor: "bg-stone-100 text-stone-700", why: "Unlike the fort ruins, Ram Raja Temple is a living shrine with daily rituals and a real dress expectation." },
-      { name: "Sun Hat & Sunglasses", description: "The Chhatris riverbank and the open fort courtyards offer very little shade through the middle of the day.", price: "₹599",  image: "🧢", affiliateUrl: amazonSearchUrl("sun+hat+sunglasses+travel"), tag: "Sun protection", tagColor: "bg-amber-100 text-amber-700", why: "Both the palace terraces and the cenotaph riverbank are fully exposed." },
-      { name: "Compact Camera / Zoom Lens", description: "The riverside Chhatris at sunset are Orchha's signature photo — a decent zoom lens or a good phone camera goes a long way here.", price: "₹1,499",  image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sunset essential", tagColor: "bg-purple-100 text-purple-700", why: "The Chhatris reflected in the Betwa River at golden hour are the single most photographed scene in Orchha." },
-    ],
-  },
-];
-
 export default function OrchhaGuidePage() {
   return (
     <>
@@ -122,7 +105,7 @@ export default function OrchhaGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/udaipur/saheliyon.jpg" alt="Sandstone palace architecture representative of Orchha, Madhya Pradesh" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/madhya-pradesh/orchha/orchha.webp" alt="View of Orchha, Madhya Pradesh" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -232,7 +215,7 @@ export default function OrchhaGuidePage() {
                 <section id="top-attractions">
                   <h2>Top Attractions in Orchha</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/udaipur/saheliyon.jpg" alt="Palace and riverside architecture in Orchha" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
+                    <Image src="/images/blogs/madhya-pradesh/orchha/the-chhatris-orchha.webp" alt="The Chhatris, Orchha" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
                   </div>
                   <ul>
                     <li><strong>Jahangir Mahal:</strong> A palace built to host Mughal emperor Jahangir for a single royal visit, elaborately domed and turreted, and the fort complex's architectural highlight.</li>
@@ -242,6 +225,13 @@ export default function OrchhaGuidePage() {
                     <li><strong>Laxmi Narayan Temple:</strong> Notable for mural and fresco work that blends temple and fort architectural styles, a short walk from the main complex.</li>
                     <li><strong>Betwa River activities:</strong> Riverside walks and seasonal rafting give an easy, unhurried way to spend an afternoon between the main sights.</li>
                   </ul>
+                  <GuidePhotoRow
+                    images={[
+                      { src: "/images/blogs/madhya-pradesh/orchha/jahangir-mahal-orchha-2.webp", alt: "Jahangir Mahal, Orchha", caption: "Jahangir Mahal, Orchha" },
+                      { src: "/images/blogs/madhya-pradesh/orchha/raja-mahal-orchha.webp", alt: "Raja Mahal, Orchha", caption: "Raja Mahal, Orchha" },
+                      { src: "/images/blogs/madhya-pradesh/orchha/ram-raja-temple-orchha.webp", alt: "Ram Raja Temple, Orchha", caption: "Ram Raja Temple, Orchha" },
+                    ]}
+                  />
                 </section>
 
                 <section id="where-to-stay">
@@ -350,7 +340,6 @@ export default function OrchhaGuidePage() {
                 {["Orchha", "Madhya Pradesh", "Jahangir Mahal", "Ram Raja Temple", "Heritage", "India"].map((tag) => <Link key={tag} href={`/blog?tag=${tag.toLowerCase().replace(/ /g, "-")}`} className="tag-pill">#{tag}</Link>)}
               </div>
 
-              <TrekGearRecommendations sections={ORCHHA_GEAR} destination="Orchha" />
               <RelatedPostsGrid currentSlug="orchha-travel-guide" />
             </article>
 

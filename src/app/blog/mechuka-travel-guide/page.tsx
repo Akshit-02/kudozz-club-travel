@@ -7,10 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -28,10 +24,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/spiti-valley/spiti-valley.jpg",
+        url: "/images/blogs/arunachal-pradesh/mechuka/mechuka.webp",
         width: 1200,
-        height: 630,
-        alt: "Remote Himalayan valley representative of Mechuka, Arunachal Pradesh",
+        height: 800,
+        alt: "Mechuka, Arunachal Pradesh",
       },
     ],
   },
@@ -40,7 +36,7 @@ export const metadata: Metadata = {
     title: "Mechuka Travel Guide: A Hidden Valley on the Tibet Border",
     description:
       "A wooden monastery, a century-old suspension bridge, and one of the most remote valleys in Arunachal Pradesh — the complete guide to Mechuka.",
-    images: ["/images/destinations/spiti-valley/spiti-valley.jpg"],
+    images: ["/images/blogs/arunachal-pradesh/mechuka/mechuka.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/mechuka-travel-guide",
@@ -59,7 +55,7 @@ function ArticleSchema() {
           headline: "Mechuka Travel Guide: A Hidden Valley on the Tibet Border",
           description: "The complete Mechuka travel guide.",
           image:
-            "https://club.kudozz.in/images/destinations/spiti-valley/spiti-valley.jpg",
+            "https://club.kudozz.in/images/blogs/arunachal-pradesh/mechuka/mechuka.webp",
           datePublished: "2026-09-08",
           dateModified: "2026-09-08",
           publisher: {
@@ -164,72 +160,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-// ── Gear ────────────────────────────────────────────────────────────────────
-const MECHUKA_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for a remote, off-grid border valley",
-    emoji: "🏔️",
-    items: [
-      {
-        name: "Warm Insulated Jacket",
-        description:
-          "Mechuka sits at altitude in a valley that stays cold outside peak summer — evenings and early mornings drop sharply regardless of season.",
-        price: "₹2,999",
-        image: "🧥",
-        affiliateUrl: amazonSearchUrl("insulated+winter+jacket+trekking"),
-        tag: "Non-negotiable",
-        tagColor: "bg-red-100 text-red-700",
-        why: "Homestays rarely have reliable heating — a proper layer is the difference between a comfortable night and a miserable one.",
-      },
-      {
-        name: "Sturdy Trekking Shoes",
-        description:
-          "Unpaved village paths and the approach to the old suspension bridge cross uneven, sometimes muddy terrain.",
-        price: "₹2,499",
-        image: "🥾",
-        affiliateUrl: amazonSearchUrl("trekking+shoes+mountain"),
-        tag: "Trek essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "Roads and paths in Mechuka aren't paved to city standards — ankle support and grip genuinely matter here.",
-      },
-      {
-        name: "Power Bank (20,000 mAh)",
-        description:
-          "Electricity supply is inconsistent in this remote valley, and network coverage is patchy to nonexistent in stretches.",
-        price: "₹1,799",
-        image: "🔋",
-        affiliateUrl: amazonSearchUrl("power+bank+20000mah+travel"),
-        tag: "Off-grid essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "A larger power bank matters more here than almost anywhere else on this site's list — charging opportunities are genuinely scarce.",
-      },
-      {
-        name: "Printed Permit Copies & ID",
-        description:
-          "Checkpoints along the route to Mechuka verify Inner Line Permits and identification physically — don't rely on a phone screen.",
-        price: "₹—",
-        image: "📄",
-        affiliateUrl: amazonSearchUrl("document+organizer+travel+pouch"),
-        tag: "Border-zone essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "This is a border-proximate restricted area — permit paperwork isn't optional and connectivity to show a digital copy isn't guaranteed.",
-      },
-      {
-        name: "Basic First Aid Kit",
-        description:
-          "The nearest well-equipped hospital is far from Mechuka — a compact kit for cuts, altitude headaches, and stomach upsets is sensible.",
-        price: "₹599",
-        image: "🩹",
-        affiliateUrl: amazonSearchUrl("travel+first+aid+kit"),
-        tag: "Remote-travel essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Self-sufficiency matters far more here than on a typical hill-station trip.",
-      },
-    ],
-  },
-];
-
 // ── Page ─────────────────────────────────────────────────────────────────────
 export default function MechukaGuidePage() {
   return (
@@ -243,8 +173,8 @@ export default function MechukaGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/spiti-valley/spiti-valley.jpg"
-              alt="Remote Himalayan valley representative of Mechuka, Arunachal Pradesh"
+              src="/images/blogs/arunachal-pradesh/mechuka/mechuka.webp"
+              alt="Mechuka, Arunachal Pradesh"
               fill
               priority
               sizes="100vw"
@@ -534,15 +464,6 @@ export default function MechukaGuidePage() {
 
                 <section id="things-to-do">
                   <h2>Things to Do in Mechuka</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/spiti-valley/spiti-valley.jpg"
-                      alt="Mountain valley scenery around Mechuka"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <ul>
                     <li>
                       <strong>Samten Yongcha Monastery:</strong> A wooden
@@ -817,8 +738,6 @@ export default function MechukaGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              <TrekGearRecommendations sections={MECHUKA_GEAR} destination="Mechuka" />
 
               <RelatedPostsGrid currentSlug="mechuka-travel-guide" />
             </article>

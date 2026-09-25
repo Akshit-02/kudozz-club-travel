@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/hampi/hero.jpg",
+        url: "/images/blogs/nagaland/dimapur/the-kachari-ruins-dimapur-2.webp",
         width: 1200,
-        height: 630,
-        alt: "Ancient stone ruins landscape, evoking Dimapur's Kachari ruins and monoliths",
+        height: 800,
+        alt: "The Kachari Ruins, Dimapur",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Dimapur Travel Guide: Gateway to Nagaland",
     description:
       "Nagaland's plains gateway city, and an easy-to-miss ancient ruin worth an hour — the complete Dimapur guide.",
-    images: ["/images/destinations/hampi/hero.jpg"],
+    images: ["/images/blogs/nagaland/dimapur/the-kachari-ruins-dimapur-2.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/dimapur-travel-guide",
@@ -59,7 +60,7 @@ function ArticleSchema() {
           headline: "Dimapur Travel Guide: Gateway to Nagaland",
           description:
             "Complete Dimapur guide — the Kachari ruins and their distinctive stone monoliths, Nagaland's only airport/rail hub, and how to reach Kohima onward.",
-          image: "https://club.kudozz.in/images/destinations/hampi/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/nagaland/dimapur/the-kachari-ruins-dimapur-2.webp",
           datePublished: "2026-09-04",
           dateModified: "2026-09-04",
           publisher: {
@@ -195,8 +196,8 @@ export default function DimapurGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/hampi/hero.jpg"
-              alt="Ancient stone ruins landscape, evoking Dimapur's Kachari ruins and monoliths"
+              src="/images/blogs/nagaland/dimapur/the-kachari-ruins-dimapur-2.webp"
+              alt="The Kachari Ruins, Dimapur"
               fill
               priority
               sizes="100vw"
@@ -514,15 +515,6 @@ export default function DimapurGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Kachari Ruins & City Sights</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/hampi/hero.jpg"
-                      alt="Ancient stone ruins, evoking Dimapur's Kachari monoliths"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>The Kachari Ruins</h3>
                   <p>
                     The remains of the ancient Kachari kingdom's capital,

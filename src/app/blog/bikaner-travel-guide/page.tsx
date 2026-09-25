@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/udaipur/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Ornate desert-city palace architecture, evoking Bikaner's Junagarh Fort and old-city havelis",
+        url: "/images/blogs/rajasthan/bikaner/junagarh-fort-bikaner-2.webp",
+        width: 1600,
+        height: 1200,
+        alt: "Junagarh Fort, Bikaner",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Bikaner Travel Guide: Junagarh Fort & Desert",
     description:
       "An unconquered fort, a temple full of sacred rats, and camel culture running through everything — the complete Bikaner guide.",
-    images: ["/images/destinations/udaipur/hero.jpg"],
+    images: ["/images/blogs/rajasthan/bikaner/junagarh-fort-bikaner-2.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/bikaner-travel-guide",
@@ -59,7 +60,7 @@ function ArticleSchema() {
           headline: "Bikaner Travel Guide: Junagarh Fort & Desert",
           description:
             "Complete Bikaner guide — Junagarh Fort, the Karni Mata rat temple at Deshnoke, camel safaris, old-city havelis, bhujia and local food, how to reach, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/udaipur/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/rajasthan/bikaner/junagarh-fort-bikaner-2.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -196,8 +197,8 @@ export default function BikanerGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/udaipur/hero.jpg"
-              alt="Ornate desert-city palace architecture, evoking Bikaner's Junagarh Fort and old-city havelis"
+              src="/images/blogs/rajasthan/bikaner/junagarh-fort-bikaner-2.webp"
+              alt="Junagarh Fort, Bikaner"
               fill
               priority
               sizes="100vw"
@@ -520,16 +521,8 @@ export default function BikanerGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Junagarh Fort, Karni Mata Temple & Camels</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/udaipur/hero.jpg"
-                      alt="Desert palace and fort architecture at Bikaner, Rajasthan"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Junagarh Fort</h3>
+                  <GuideFigure src="/images/blogs/rajasthan/bikaner/junagarh-fort-bikaner.webp" alt="Junagarh Fort, Bikaner" />
                   <p>
                     Built in the late 16th century, Junagarh Fort is
                     notable for reportedly never having been conquered. Its
@@ -538,6 +531,7 @@ export default function BikanerGuidePage() {
                     Rajasthan.
                   </p>
                   <h3>Karni Mata Temple (Deshnoke)</h3>
+                  <GuideFigure src="/images/blogs/rajasthan/bikaner/karni-mata-temple-bikaner.webp" alt="Karni Mata Temple, Bikaner" />
                   <p>
                     Roughly 30 km from Bikaner, this temple is famously
                     known as the "rat temple" — thousands of rats living

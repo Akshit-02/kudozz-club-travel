@@ -7,10 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -28,10 +24,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/manali/rohtang-pass.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Himalayan mountain road representative of Jibhi, Himachal Pradesh",
+        url: "/images/blogs/himachal-pradesh/jibhi/jalori-pass-jibhi.webp",
+        width: 1600,
+        height: 902,
+        alt: "Jalori Pass, Jibhi",
       },
     ],
   },
@@ -40,7 +36,7 @@ export const metadata: Metadata = {
     title: "Jibhi Travel Guide: Waterfalls, Cafes & Himachal's Quiet Village",
     description:
       "Wooden Himachali houses, a short waterfall walk, and Jalori Pass above — the complete guide to Jibhi.",
-    images: ["/images/destinations/manali/rohtang-pass.jpg"],
+    images: ["/images/blogs/himachal-pradesh/jibhi/jalori-pass-jibhi.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/jibhi-travel-guide",
@@ -60,7 +56,7 @@ function ArticleSchema() {
             "Jibhi Travel Guide: Waterfalls, Cafes & Himachal's Quiet Village",
           description: "The complete Jibhi travel guide.",
           image:
-            "https://club.kudozz.in/images/destinations/manali/rohtang-pass.jpg",
+            "https://club.kudozz.in/images/blogs/himachal-pradesh/jibhi/jalori-pass-jibhi.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: {
@@ -184,61 +180,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-// ── Jibhi-specific gear ───────────────────────────────────────────────────────
-const JIBHI_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for waterfall walks and the Jalori Pass side trip",
-    emoji: "🌲",
-    items: [
-      {
-        name: "Comfortable Trekking Shoes",
-        description:
-          "For the walk to Jibhi Waterfall and any Jalori Pass / Serolsar Lake trekking, both over uneven forest terrain.",
-        price: "₹2,499",
-        image: "🥾",
-        affiliateUrl: amazonSearchUrl("trekking+shoes+moderate+hike"),
-        tag: "Trek essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "Forest paths around Jibhi and the Serolsar Lake trail are uneven and can be slippery after rain.",
-      },
-      {
-        name: "Light Rain Layer",
-        description:
-          "Sudden showers are common in this forested valley, especially in shoulder-monsoon months.",
-        price: "₹899",
-        image: "🌂",
-        affiliateUrl: amazonSearchUrl("packable+rain+jacket+travel"),
-        tag: "Weather essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Jibhi's forested microclimate brings rain more often than the open valley floor nearby.",
-      },
-      {
-        name: "Warm Layers",
-        description:
-          "Evenings cool sharply in the village, and Jalori Pass altitude is noticeably colder still.",
-        price: "₹1,999",
-        image: "🧥",
-        affiliateUrl: amazonSearchUrl("warm+jacket+hill+station+travel"),
-        tag: "Evening essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "The temperature swing between daytime and evening here is genuinely sharp given the elevation.",
-      },
-      {
-        name: "Camera",
-        description:
-          "For the wooden Himachali houses, terraced fields, and forest scenery that define Jibhi's photogenic character.",
-        price: "₹—",
-        image: "📷",
-        affiliateUrl: amazonSearchUrl("compact+camera+travel"),
-        tag: "Sightseeing essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "Jibhi's traditional architecture and forest setting are a major part of its appeal.",
-      },
-    ],
-  },
-];
-
 // ── Page ─────────────────────────────────────────────────────────────────────
 export default function JibhiGuidePage() {
   return (
@@ -252,8 +193,8 @@ export default function JibhiGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/manali/rohtang-pass.jpg"
-              alt="Himalayan mountain road representative of Jibhi, Himachal Pradesh"
+              src="/images/blogs/himachal-pradesh/jibhi/jalori-pass-jibhi.webp"
+              alt="Jalori Pass, Jibhi"
               fill
               priority
               sizes="100vw"
@@ -553,15 +494,6 @@ export default function JibhiGuidePage() {
                 {/* ── Top Attractions ──────────────────────────────────── */}
                 <section id="top-attractions">
                   <h2>Top Things to Do in Jibhi</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/manali/rohtang-pass.jpg"
-                      alt="Mountain road and forest scenery around Jibhi"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
 
                   <ul>
                     <li>
@@ -940,12 +872,6 @@ export default function JibhiGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              {/* ── Gear Recommendations ──────────────────────────────── */}
-              <TrekGearRecommendations
-                sections={JIBHI_GEAR}
-                destination="Jibhi"
-              />
 
               <RelatedPostsGrid currentSlug="jibhi-travel-guide" />
             </article>

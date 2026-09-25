@@ -562,15 +562,6 @@ export default function KhanvelGuidePage() {
                 {/* ── Khanvel Garden ────────────────────────────────────── */}
                 <section id="khanvel-garden">
                   <h2>Khanvel Garden</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/khanvel/forest-owlet-dadra-nagar-haveli.webp"
-                      alt="A Forest Owlet perched on a branch, a bird species native to the forests around Khanvel in Dadra and Nagar Haveli"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <p>
                     The centrepiece of the town is a landscaped, family
                     garden with lawns, walking paths and shaded seating —

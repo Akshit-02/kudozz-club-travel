@@ -7,10 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuidePhotoRow } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
   title: "Mumbai Travel Guide: Gateway of India, Marine Drive & Bollywood",
@@ -102,22 +99,6 @@ const tableOfContents = [
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
-];
-
-const MUMBAI_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for local trains, long sightseeing days, and monsoon detours",
-    emoji: "🌆",
-    items: [
-      { name: "Comfortable Walking Shoes", description: "South Mumbai's heritage core and Bandra's Bandstand promenade both mean a lot of walking on pavement — proper shoes beat sandals over a long day.", price: "₹1,499",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+city+travel"), tag: "City essential", tagColor: "bg-sky-100 text-sky-700", why: "A single Mumbai sightseeing day often covers 8-10 km of walking between heritage sites and transit points." },
-      { name: "Compact Packable Rain Jacket", description: "Even outside peak monsoon, Mumbai gets sudden showers — a packable jacket beats getting drenched between train stations and sights.", price: "₹799",  image: "🧥", affiliateUrl: amazonSearchUrl("packable+rain+jacket+travel"), tag: "Monsoon essential", tagColor: "bg-sky-100 text-sky-700", why: "Mumbai's rain arrives fast and heavy with little warning, especially June through September." },
-      { name: "Power Bank (10,000mAh)", description: "Long days navigating local trains, maps, and photo-taking across a spread-out city drain a phone fast.", price: "₹999",  image: "🔋", affiliateUrl: amazonSearchUrl("10000mah+power+bank+travel"), tag: "City essential", tagColor: "bg-purple-100 text-purple-700", why: "Between navigation and photos, a full sightseeing day easily drains a phone before evening." },
-      { name: "Anti-Theft Crossbody Bag", description: "Useful for crowded local trains and markets like Colaba Causeway and Crawford Market, where pickpocketing risk is higher than average.", price: "₹1,199",  image: "🎒", affiliateUrl: amazonSearchUrl("anti+theft+crossbody+travel+bag"), tag: "Local-train essential", tagColor: "bg-red-100 text-red-700", why: "Crowded rush-hour trains and busy markets are the two spots where petty theft risk is genuinely elevated in Mumbai." },
-      { name: "Reusable Water Bottle (1L)", description: "Mumbai's humidity makes steady hydration important even on cooler-weather days.", price: "₹399",  image: "💧", affiliateUrl: amazonSearchUrl("1l+reusable+water+bottle+travel"), tag: "City essential", tagColor: "bg-forest-100 text-forest-700", why: "Humidity here makes dehydration sneak up faster than the temperature alone suggests." },
-      { name: "Waterproof Phone Pouch", description: "Handy for the Elephanta Caves ferry ride and any monsoon-season sightseeing near the sea-facing promenades.", price: "₹299",  image: "📱", affiliateUrl: amazonSearchUrl("waterproof+phone+pouch+beach"), tag: "Ferry essential", tagColor: "bg-purple-100 text-purple-700", why: "Sea spray on the Elephanta ferry and sudden rain on Marine Drive both put an unprotected phone at risk." },
-    ],
-  },
 ];
 
 export default function MumbaiGuidePage() {
@@ -256,8 +237,8 @@ export default function MumbaiGuidePage() {
                   <div className="grid sm:grid-cols-2 gap-4 my-6">
                     <div className="relative w-full rounded-xl h-56 overflow-hidden shadow-md">
                       <Image
-                        src="/images/blogs/maharashtra/mumbai/marine-drive-night-mumbai.webp"
-                        alt="Marine Drive's curved seafront skyline lit up at night, Mumbai's 'Queen's Necklace'"
+                        src="/images/blogs/maharashtra/mumbai/gateway-of-india-mumbai.webp"
+                        alt="Gateway of India, Mumbai"
                         fill
                         sizes="(min-width: 1024px) 384px, 50vw"
                         className="object-cover"
@@ -283,6 +264,13 @@ export default function MumbaiGuidePage() {
                     <li><strong>Colaba Causeway & Kala Ghoda:</strong> Mumbai's classic shopping strip and its art-and-heritage precinct, both walkable from the Gateway of India.</li>
                     <li><strong>Film City / Bollywood studio tours:</strong> Various operators run tours through Mumbai's film production hub for a look at how Bollywood movies get made.</li>
                   </ul>
+                  <GuidePhotoRow
+                    images={[
+                      { src: "/images/blogs/maharashtra/mumbai/chhatrapati-shivaji-maharaj-terminus-mumbai.webp", alt: "Chhatrapati Shivaji Maharaj Terminus, Mumbai", caption: "Chhatrapati Shivaji Maharaj Terminus, Mumbai" },
+                      { src: "/images/blogs/maharashtra/mumbai/elephanta-caves-mumbai.webp", alt: "Elephanta Caves, Mumbai", caption: "Elephanta Caves, Mumbai" },
+                      { src: "/images/blogs/maharashtra/mumbai/bandra-mumbai.webp", alt: "Bandra, Mumbai", caption: "Bandra, Mumbai" },
+                    ]}
+                  />
                 </section>
 
                 <section id="where-to-stay">
@@ -406,7 +394,6 @@ export default function MumbaiGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={MUMBAI_GEAR} destination="Mumbai" />
               <RelatedPostsGrid currentSlug="mumbai-travel-guide" />
             </article>
 

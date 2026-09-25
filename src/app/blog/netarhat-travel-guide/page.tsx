@@ -7,10 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Netarhat Travel Guide: Sunrise Point & Chotanagpur's Hill Queen",
@@ -24,13 +20,13 @@ export const metadata: Metadata = {
     url: "https://club.kudozz.in/blog/netarhat-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/manali/solang-valley.jpg", width: 1200, height: 630, alt: "Forested plateau hill landscape representative of Netarhat, Jharkhand" }],
+    images: [{ url: "/images/blogs/jharkhand/netarhat/netarhat.webp", width: 1600, height: 1120, alt: "View of Netarhat, Jharkhand" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Netarhat Travel Guide: Sunrise Point & Chotanagpur's Hill Queen",
     description: "A pine-forested plateau hill station famous for sunrise and sunset points — the complete guide to Netarhat.",
-    images: ["/images/destinations/manali/solang-valley.jpg"],
+    images: ["/images/blogs/jharkhand/netarhat/netarhat.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/netarhat-travel-guide" },
 };
@@ -45,7 +41,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Netarhat Travel Guide: Sunrise Point & Chotanagpur's Hill Queen",
           description: "The complete Netarhat travel guide.",
-          image: "https://club.kudozz.in/images/destinations/manali/solang-valley.jpg",
+          image: "https://club.kudozz.in/images/blogs/jharkhand/netarhat/netarhat.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
@@ -104,20 +100,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const NETARHAT_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for pre-dawn viewpoints and Jharkhand's coolest plateau",
-    emoji: "🌄",
-    items: [
-      { name: "Warm Layer / Light Jacket", description: "Mornings at Koel View Point are genuinely cold — a real contrast to Jharkhand's usual warm climate.", price: "₹1,499",  image: "🧥", affiliateUrl: amazonSearchUrl("light+jacket+travel+warm"), tag: "Sunrise essential", tagColor: "bg-amber-100 text-amber-700", why: "Netarhat's elevation and forest cover make pre-dawn viewpoint visits noticeably colder than the rest of Jharkhand." },
-      { name: "Flashlight / Headlamp", description: "Useful for the pre-dawn walk to Koel View Point before sunrise.", price: "₹499",  image: "🔦", affiliateUrl: amazonSearchUrl("led+headlamp+travel"), tag: "Sunrise essential", tagColor: "bg-purple-100 text-purple-700", why: "Paths to the viewpoints are dark before sunrise with limited street lighting." },
-      { name: "Comfortable Walking Shoes", description: "For the walk to the viewpoints and any exploring around Upper/Lower Ghaghri Falls.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-sky-100 text-sky-700", why: "Viewpoint paths and the falls involve genuine walking on uneven ground." },
-      { name: "Camera / Phone Tripod", description: "For capturing the sunrise and sunset views without a shaky hand in low light.", price: "₹699",  image: "📷", affiliateUrl: amazonSearchUrl("mini+tripod+phone+camera"), tag: "Photography essential", tagColor: "bg-forest-100 text-forest-700", why: "The whole point of a Netarhat trip is the sunrise/sunset views — a tripod makes a real difference in low light." },
-    ],
-  },
-];
-
 export default function NetarhatGuidePage() {
   return (
     <>
@@ -127,7 +109,7 @@ export default function NetarhatGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/manali/solang-valley.jpg" alt="Forested plateau hill landscape representative of Netarhat, Jharkhand" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/jharkhand/netarhat/netarhat.webp" alt="View of Netarhat, Jharkhand" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -235,9 +217,6 @@ export default function NetarhatGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do in Netarhat</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/manali/solang-valley.jpg" alt="Plateau viewpoint scenery around Netarhat" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>Koel View Point:</strong> Netarhat's sunrise viewpoint, the reason most visitors set an early alarm here.</li>
                     <li><strong>Magnolia Sunset Point:</strong> The evening counterpart, best visited the day you arrive.</li>
@@ -358,7 +337,6 @@ export default function NetarhatGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={NETARHAT_GEAR} destination="Netarhat" />
               <RelatedPostsGrid currentSlug="netarhat-travel-guide" />
             </article>
 

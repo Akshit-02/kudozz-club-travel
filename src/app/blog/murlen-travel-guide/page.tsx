@@ -25,8 +25,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/destinations/jammu-kashmir/hero.jpg",
-        width: 1200,
-        height: 630,
+        width: 2560,
+        height: 1707,
         alt: "Forested mountain landscape, evoking Murlen National Park's biodiversity-rich terrain near Champhai, Mizoram",
       },
     ],
@@ -397,15 +397,6 @@ export default function MurlenGuidePage() {
 
                 <section id="things-to-do">
                   <h2>Trekking & Wildlife</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/jammu-kashmir/hero.jpg"
-                      alt="Dense forested hills, evoking Murlen National Park's trekking terrain"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Forest Trekking</h3>
                   <p>
                     Trekking is the main way to experience Murlen&apos;s

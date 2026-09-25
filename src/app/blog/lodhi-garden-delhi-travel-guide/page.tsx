@@ -564,15 +564,6 @@ export default function LodhiGardenGuidePage() {
                     into the grander garden-tombs of the Mughal era.
                   </p>
 
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/delhi/lodhi-garden/lodhi-garden-tomb-of-sikandar-lodi.webp"
-                      alt="The 15th-century domed Tomb of Sikandar Lodi surrounded by lawns in Lodhi Garden, Delhi"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
 
                   <h3>Mohammed Shah's Tomb</h3>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">

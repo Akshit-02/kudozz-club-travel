@@ -7,8 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuidePhotoRow } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
   title: "Ponda Travel Guide: Hindu Temples & Spice Plantation Tours",
@@ -22,13 +21,13 @@ export const metadata: Metadata = {
     url: "https://club.kudozz.in/blog/ponda-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/coorg/coorg.jpg", width: 1200, height: 630, alt: "Spice plantation greenery representative of Ponda, Goa" }],
+    images: [{ url: "/images/blogs/goa/ponda/ponda.webp", width: 1600, height: 1200, alt: "View of Ponda, Goa" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Ponda Travel Guide: Hindu Temples & Spice Plantation Tours",
     description: "Goa's temple town and its spice plantation tours — the complete guide to Ponda.",
-    images: ["/images/destinations/coorg/coorg.jpg"],
+    images: ["/images/blogs/goa/ponda/ponda.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/ponda-travel-guide" },
 };
@@ -43,7 +42,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Ponda Travel Guide: Hindu Temples & Spice Plantation Tours",
           description: "The complete Ponda travel guide.",
-          image: "https://club.kudozz.in/images/destinations/coorg/coorg.jpg",
+          image: "https://club.kudozz.in/images/blogs/goa/ponda/ponda.webp",
           datePublished: "2026-09-08",
           dateModified: "2026-09-08",
           publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
@@ -102,20 +101,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const PONDA_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for temple visits and plantation walks",
-    emoji: "🌶️",
-    items: [
-      { name: "Modest Cotton Clothing", description: "Ponda's temples are active Hindu worship sites — covered shoulders and knees are expected.", price: "₹599",  image: "👕", affiliateUrl: amazonSearchUrl("modest+travel+clothing"), tag: "Temple essential", tagColor: "bg-purple-100 text-purple-700", why: "These are working temples with real devotees, not tourist reconstructions — modest dress matters here." },
-      { name: "Comfortable Walking Shoes", description: "For plantation tours that involve walking uneven, sometimes muddy paths through working farmland.", price: "₹1,999",  image: "🥾", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Plantation essential", tagColor: "bg-forest-100 text-forest-700", why: "Spice plantation grounds are working farms, not paved paths." },
-      { name: "Insect Repellent", description: "Plantation walks through dense, shaded vegetation bring a real mosquito presence.", price: "₹199",  image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Plantation essential", tagColor: "bg-amber-100 text-amber-700", why: "The same shade and moisture that spices need also suits mosquitoes well." },
-      { name: "Camera", description: "For the temples' distinctive Indo-Portuguese architecture and the plantation's greenery.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-sky-100 text-sky-700", why: "Ponda's temple architecture is genuinely distinctive and worth capturing." },
-    ],
-  },
-];
-
 export default function PondaGuidePage() {
   return (
     <>
@@ -125,7 +110,7 @@ export default function PondaGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/coorg/coorg.jpg" alt="Spice plantation greenery representative of Ponda, Goa" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/goa/ponda/ponda.webp" alt="View of Ponda, Goa" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -232,15 +217,18 @@ export default function PondaGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do in Ponda</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/coorg/coorg.jpg" alt="Spice plantation and temple-town scenery around Ponda" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>Shri Mangeshi Temple:</strong> One of Goa's most-visited Hindu temples, dedicated to a form of Shiva, notable for its distinctive Indo-Portuguese architectural blend.</li>
                     <li><strong>Shri Mahalsa Temple:</strong> Dedicated to a form of Vishnu, similarly significant to the region's temple heritage.</li>
                     <li><strong>Spice plantation tours:</strong> Guided walks through working farms growing pepper, cardamom, and cinnamon, typically including a traditional Goan lunch.</li>
                     <li><strong>Bondla Wildlife Sanctuary:</strong> A small forested sanctuary nearby, worth a stop for nature-focused visitors.</li>
                   </ul>
+                  <GuidePhotoRow
+                    images={[
+                      { src: "/images/blogs/goa/ponda/shri-mangeshi-temple-ponda.webp", alt: "Shri Mangeshi Temple, Ponda", caption: "Shri Mangeshi Temple, Ponda" },
+                      { src: "/images/blogs/goa/ponda/bondla-wildlife-sanctuary-ponda.webp", alt: "Bondla Wildlife Sanctuary, Ponda", caption: "Bondla Wildlife Sanctuary, Ponda" },
+                    ]}
+                  />
                 </section>
 
                 <section id="where-to-stay">
@@ -356,7 +344,6 @@ export default function PondaGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={PONDA_GEAR} destination="Ponda" />
               <RelatedPostsGrid currentSlug="ponda-travel-guide" />
             </article>
 

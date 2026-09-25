@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -526,15 +527,6 @@ export default function TrishnaWildlifeSanctuaryGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Safari, Boating & the Python Centre</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/tripura/trishna-wildlife-sanctuary/indian-gaur-bison-trishna-wildlife-sanctuary.webp"
-                      alt="Indian gaur (Indian bison) at Trishna Wildlife Sanctuary, South Tripura"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Watchtower Wildlife Viewing</h3>
                   <p>
                     Watchtowers positioned across the sanctuary give visitors
@@ -558,6 +550,7 @@ export default function TrishnaWildlifeSanctuaryGuidePage() {
                     reasonable chance of birdlife along the banks.
                   </p>
                   <h3>Rowa Wildlife Sanctuary (Nearby)</h3>
+                  <GuideFigure src="/images/blogs/tripura/trishna-wildlife-sanctuary/rowa-wildlife-sanctuary-trishna-wildlife-sanctuary.webp" alt="Rowa Wildlife Sanctuary, Trishna Wildlife Sanctuary" />
                   <p>
                     Roughly 18 km away, Rowa is a separate, much smaller
                     sanctuary known specifically for the golden langur — a

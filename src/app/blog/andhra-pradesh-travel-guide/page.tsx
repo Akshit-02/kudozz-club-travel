@@ -7,10 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuidePhotoRow } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -187,84 +184,6 @@ const tableOfContents = [
   { id: "tips", title: "Essential Travel Tips", level: 2 },
   { id: "places-to-explore", title: "Places to Explore in Andhra Pradesh", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
-];
-
-// ── Andhra Pradesh-specific gear ───────────────────────────────────────────
-const ANDHRA_PRADESH_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle:
-      "Gear for temple queues, coastal humidity, and hill journeys through the Eastern Ghats",
-    emoji: "🛕",
-    items: [
-      {
-        name: "Comfortable Walking Shoes",
-        description:
-          "The Tirumala darshan queue and the walk around Sri Venkateswara Temple's compound can mean hours on your feet — supportive, slip-on-friendly shoes help.",
-        price: "₹1,499",
-        image: "👟",
-        affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
-        tag: "Pilgrimage essential",
-        tagColor: "bg-stone-100 text-stone-700",
-        why: "Long darshan queues at Tirumala and temple courtyards at Lepakshi both involve extended standing and walking.",
-      },
-      {
-        name: "Sunscreen (SPF 50)",
-        description:
-          "Coastal humidity and direct sun along Vizag's beaches and RK Beach promenade make sun protection essential.",
-        price: "₹399",
-        image: "🧴",
-        affiliateUrl: amazonSearchUrl("sunscreen+spf+50+travel"),
-        tag: "Everyday essential",
-        tagColor: "bg-red-100 text-red-700",
-        why: "Andhra's coastal sun is intense and humid for much of the year — sunscreen is non-negotiable for beach and temple days alike.",
-      },
-      {
-        name: "Reusable Water Bottle",
-        description:
-          "Handy for long Tirumala queue waits and the winding drive up to Araku Valley through the Eastern Ghats.",
-        price: "₹699",
-        image: "🍶",
-        affiliateUrl: amazonSearchUrl("insulated+water+bottle+steel"),
-        tag: "Everyday essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Hydration matters on the hours-long darshan queue and on the humid coastal stretch around Visakhapatnam.",
-      },
-      {
-        name: "Power Bank (10,000 mAh)",
-        description:
-          "Useful for the long train journey through the Eastern Ghats to Araku Valley and full pilgrimage days at Tirumala.",
-        price: "₹1,299",
-        image: "🔋",
-        affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
-        tag: "Day-trip essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "The Araku train ride and multi-hour temple queues both drain phones faster than usual — worth the backup charge.",
-      },
-      {
-        name: "Lightweight Rain Jacket",
-        description:
-          "The Bay of Bengal coast around Visakhapatnam sees sudden showers, especially in the shoulder months around the monsoon and cyclone season.",
-        price: "₹1,199",
-        image: "🧥",
-        affiliateUrl: amazonSearchUrl("lightweight+rain+jacket+travel"),
-        tag: "Coastal essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "Coastal weather can turn quickly, and a packable rain layer is far more useful than an umbrella on windy beach days.",
-      },
-      {
-        name: "Basic First Aid Kit",
-        description:
-          "A compact kit for the long travel days between Tirupati, Vizag, and Araku Valley, and for genuinely spicy Andhra food.",
-        price: "₹549",
-        image: "🩹",
-        affiliateUrl: amazonSearchUrl("compact+travel+first+aid+kit"),
-        tag: "Travel essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "Andhra cuisine is famously fiery, and long transit days are common — a basic kit covers both minor mishaps.",
-      },
-    ],
-  },
 ];
 
 // ── Page ─────────────────────────────────────────────────────────────────────
@@ -722,6 +641,12 @@ export default function AndhraPradeshGuidePage() {
                       stalactite and stalagmite formations lit for visitors.
                     </li>
                   </ul>
+                  <GuidePhotoRow
+                    images={[
+                      { src: "/images/blogs/andhra-pradesh/andhra-pradesh/rk-beach-andhra-pradesh-2.webp", alt: "RK Beach, Andhra Pradesh", caption: "RK Beach, Andhra Pradesh" },
+                      { src: "/images/blogs/andhra-pradesh/andhra-pradesh/borra-caves-andhra-pradesh-2.webp", alt: "Borra Caves, Andhra Pradesh", caption: "Borra Caves, Andhra Pradesh" },
+                    ]}
+                  />
                   <div
                     className="bg-forest-50 border-l-4 border-forest-500 p-4 rounded-r-xl my-4 text-sm"
                     style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -1325,12 +1250,6 @@ export default function AndhraPradeshGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              {/* ── Gear Recommendations ──────────────────────────────── */}
-              <TrekGearRecommendations
-                sections={ANDHRA_PRADESH_GEAR}
-                destination="Andhra Pradesh"
-              />
 
               <RelatedPostsGrid currentSlug="andhra-pradesh-travel-guide" />
             </article>

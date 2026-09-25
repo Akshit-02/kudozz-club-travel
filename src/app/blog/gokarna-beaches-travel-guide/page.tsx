@@ -7,10 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -28,10 +24,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/gokarna/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Quiet palm-backed beach cove near Gokarna, Karnataka",
+        url: "/images/blogs/karnataka/gokarna-beaches/gokarna-beach.webp",
+        width: 1600,
+        height: 1200,
+        alt: "Gokarna Beach, Karnataka",
       },
     ],
   },
@@ -40,7 +36,7 @@ export const metadata: Metadata = {
     title: "Gokarna Travel Guide: Best Beaches, Temples & Complete Itinerary",
     description:
       "Om Beach, Half Moon, and Paradise — the complete guide to Gokarna's beaches, temples, and the coastal trek that connects them.",
-    images: ["/images/destinations/gokarna/hero.jpg"],
+    images: ["/images/blogs/karnataka/gokarna-beaches/gokarna-beach.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/gokarna-beaches-travel-guide",
@@ -59,7 +55,7 @@ function ArticleSchema() {
           headline:
             "Gokarna Travel Guide: Best Beaches, Temples & Complete Itinerary",
           description: "The complete Gokarna travel guide.",
-          image: "https://club.kudozz.in/images/destinations/gokarna/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/karnataka/gokarna-beaches/gokarna-beach.webp",
           datePublished: "2026-07-13",
           dateModified: "2026-07-13",
           publisher: {
@@ -186,83 +182,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-// ── Gokarna-specific gear ───────────────────────────────────────────────────────
-const GOKARNA_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for the beaches, the trek, and the temple town",
-    emoji: "🏖️",
-    items: [
-      {
-        name: "Trekking Sandals / Grip Sandals",
-        description:
-          "The Om Beach–Half Moon–Paradise trail crosses rocky, sometimes slippery headland sections — proper grip sandals handle both the trek and the beach far better than flip-flops.",
-        price: "₹899",
-        image: "🥾",
-        affiliateUrl: amazonSearchUrl("trekking+sandals+grip+outdoor"),
-        tag: "Beach-trek essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "Twisted ankles on the rocky headland stretches are the most common minor injury travellers report on the Gokarna beach trek.",
-      },
-      {
-        name: "Reef-Safe Sunscreen (SPF 50)",
-        description:
-          "The trek between beaches offers almost no shade for stretches of an hour or more — reef-safe formulas also protect the coral patches near Om Beach.",
-        price: "₹599",
-        image: "🧴",
-        affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+SPF+50"),
-        tag: "Trek essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Sunburn from the exposed cliff trail is easily the top regret among travellers doing the full beach-hopping route.",
-      },
-      {
-        name: "Quick-Dry Backpack (20L)",
-        description:
-          "A light daypack for carrying water, a change of clothes, and valuables across the trek and between beach shacks — canvas totes soak through and add weight.",
-        price: "₹899",
-        image: "🎒",
-        affiliateUrl: amazonSearchUrl("20L+quick+dry+daypack"),
-        tag: "Beach-trek essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "Between beaches there are long stretches with no shops — a daypack with water and snacks keeps you from having to turn back.",
-      },
-      {
-        name: "Waterproof Phone Pouch",
-        description:
-          "Useful for the coracle-style boat rides to Paradise Beach and swimming at Kudle and Om Beach without worrying about a dropped phone.",
-        price: "₹299",
-        image: "📱",
-        affiliateUrl: amazonSearchUrl("waterproof+phone+pouch+beach"),
-        tag: "Boat-ride essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "The boat to Paradise Beach and the swim breaks at Om Beach both carry real risk of a soaked phone without one.",
-      },
-      {
-        name: "2L Hydration Bottle",
-        description:
-          "The beach trek runs 2–3 hours in full sun with limited water stops — carrying enough water is non-negotiable, especially outside the cooler months.",
-        price: "₹449",
-        image: "💧",
-        affiliateUrl: amazonSearchUrl("2l+hydration+water+bottle+travel"),
-        tag: "Trek essential",
-        tagColor: "bg-red-100 text-red-700",
-        why: "Dehydration mid-trek is the single most common reason travellers cut the Om-to-Paradise walk short.",
-      },
-      {
-        name: "Modest Cotton Wrap",
-        description:
-          "Gokarna is an active pilgrimage town — the Mahabaleshwar Temple and old town streets expect covered shoulders and knees, unlike the beaches themselves.",
-        price: "₹399",
-        image: "🧣",
-        affiliateUrl: amazonSearchUrl("cotton+wrap+travel+modest"),
-        tag: "Temple-town essential",
-        tagColor: "bg-stone-100 text-stone-700",
-        why: "Unlike Goa, Gokarna's town centre is a living pilgrimage site — beachwear worn into the temple lanes draws real disapproval locally.",
-      },
-    ],
-  },
-];
-
 // ── Page ─────────────────────────────────────────────────────────────────────
 export default function GokarnaBeachesGuidePage() {
   return (
@@ -276,8 +195,8 @@ export default function GokarnaBeachesGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/gokarna/hero.jpg"
-              alt="Quiet palm-backed beach cove near Gokarna, Karnataka"
+              src="/images/blogs/karnataka/gokarna-beaches/gokarna-beach.webp"
+              alt="Gokarna Beach, Karnataka"
               fill
               priority
               sizes="100vw"
@@ -506,6 +425,24 @@ export default function GokarnaBeachesGuidePage() {
                   </p>
 
                   <div className="grid sm:grid-cols-2 gap-4 my-6">
+                    <div className="relative w-full rounded-xl h-56 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/blogs/karnataka/gokarna/half-moon-beach-gokarna.webp"
+                        alt="Sandy crescent cove and rocky headland at Half Moon Beach, Gokarna"
+                        fill
+                        sizes="(min-width: 1024px) 384px, 50vw"
+                        className="object-cover"
+                      />
+                    </div>
+                    <div className="relative w-full rounded-xl h-56 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/blogs/karnataka/gokarna/paradise-beach-gokarna.webp"
+                        alt="A boat anchored off Paradise Beach's secluded cove near Gokarna, framed by forested headlands"
+                        fill
+                        sizes="(min-width: 1024px) 384px, 50vw"
+                        className="object-cover"
+                      />
+                    </div>
                     {[
                       {
                         season: "Oct – Feb",
@@ -599,6 +536,15 @@ export default function GokarnaBeachesGuidePage() {
                       right.
                     </li>
                   </ul>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/karnataka/gokarna/mahabaleshwar-temple-gokarna.webp"
+                      alt="Pilgrims at the entrance gateway of the Mahabaleshwar Temple in Gokarna, with the temple's carved stone tower rising behind"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <div
                     className="bg-forest-50 border-l-4 border-forest-500 p-4 rounded-r-xl my-4 text-sm"
                     style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -714,24 +660,6 @@ export default function GokarnaBeachesGuidePage() {
                   </ul>
 
                   <div className="grid sm:grid-cols-2 gap-4 my-6">
-                    <div className="relative w-full rounded-xl h-56 overflow-hidden shadow-md">
-                      <Image
-                        src="/images/blogs/karnataka/gokarna/half-moon-beach-gokarna.webp"
-                        alt="Sandy crescent cove and rocky headland at Half Moon Beach, Gokarna"
-                        fill
-                        sizes="(min-width: 1024px) 384px, 50vw"
-                        className="object-cover"
-                      />
-                    </div>
-                    <div className="relative w-full rounded-xl h-56 overflow-hidden shadow-md">
-                      <Image
-                        src="/images/blogs/karnataka/gokarna/paradise-beach-gokarna.webp"
-                        alt="A boat anchored off Paradise Beach's secluded cove near Gokarna, framed by forested headlands"
-                        fill
-                        sizes="(min-width: 1024px) 384px, 50vw"
-                        className="object-cover"
-                      />
-                    </div>
                   </div>
                 </section>
 
@@ -814,15 +742,6 @@ export default function GokarnaBeachesGuidePage() {
                       Kudle or Om Beach.
                     </li>
                   </ul>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/karnataka/gokarna/mahabaleshwar-temple-gokarna.webp"
-                      alt="Pilgrims at the entrance gateway of the Mahabaleshwar Temple in Gokarna, with the temple's carved stone tower rising behind"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                 </section>
 
                 {/* ── Where to Stay ─────────────────────────────────────── */}
@@ -1231,12 +1150,6 @@ export default function GokarnaBeachesGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              {/* ── Gear Recommendations ──────────────────────────────── */}
-              <TrekGearRecommendations
-                sections={GOKARNA_GEAR}
-                destination="Gokarna"
-              />
 
               <RelatedPostsGrid currentSlug="gokarna-beaches-travel-guide" />
             </article>

@@ -7,11 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  BEACH_GEAR,
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -29,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/andaman/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Andaman Islands — turquoise waters and white sand beach",
+        url: "/images/blogs/andaman-and-nicobar/andaman-islands/andaman-islands-2.webp",
+        width: 1600,
+        height: 1067,
+        alt: "View of Andaman Islands, Andaman & Nicobar Islands",
       },
     ],
   },
@@ -41,7 +37,7 @@ export const metadata: Metadata = {
     title: "Andaman Islands Travel Guide",
     description:
       "Radhanagar Beach, scuba diving, Cellular Jail and island-hopping — the complete Andaman guide.",
-    images: ["/images/destinations/andaman/hero.jpg"],
+    images: ["/images/blogs/andaman-and-nicobar/andaman-islands/andaman-islands-2.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/andaman-islands-travel-guide",
@@ -60,7 +56,7 @@ function ArticleSchema() {
           headline:
             "Andaman Islands Travel Guide: Beaches, Diving, Permits & Tips",
           description: "The complete Andaman & Nicobar Islands travel guide.",
-          image: "https://club.kudozz.in/images/destinations/andaman/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/andaman-and-nicobar/andaman-islands/andaman-islands-2.webp",
           datePublished: "2026-06-28",
           dateModified: "2026-07-12",
           publisher: {
@@ -198,87 +194,8 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-// ── Andaman-specific gear ─────────────────────────────────────────────────────
-const ANDAMAN_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear that makes island travel genuinely better",
-    emoji: "🏝️",
-    items: [
-      {
-        name: "GoPro Hero 12 (or similar action camera)",
-        description:
-          "Waterproof to 10m without a case. The underwater world at Elephant Beach and Havelock's dive sites is the reason most people visit Andaman — you need a camera that goes underwater with you.",
-        price: "₹34,999",
-        image: "📷",
-        affiliateUrl: amazonSearchUrl("gopro+hero+waterproof+action+camera"),
-        tag: "Underwater essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "The coral reefs at Elephant Beach and North Bay are extraordinary. A waterproof action camera is the single item most Andaman travellers wish they'd brought.",
-      },
-      {
-        name: "Reef-Safe Mineral Sunscreen SPF 50+",
-        description:
-          "Chemical sunscreens (oxybenzone, octinoxate) bleach coral. The Andaman reefs are already under severe stress — reef-safe mineral SPF 50+ is the only responsible choice here.",
-        price: "₹699",
-        image: "🧴",
-        affiliateUrl: amazonSearchUrl("reef+safe+mineral+sunscreen+SPF50"),
-        tag: "Reef-safe",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "Chemical sunscreens are banned at many Andaman dive sites for good reason — they bleach coral. Reef-safe mineral SPF is non-negotiable here.",
-      },
-      {
-        name: "Sea to Summit Dry Bag (10L + 20L set)",
-        description:
-          "Ferry transfers between islands involve open boats and occasional sea spray. A dry bag keeps your phone, passport, cash, and camera completely safe during inter-island crossings.",
-        price: "₹1,899",
-        image: "🎒",
-        affiliateUrl: amazonSearchUrl("dry+bag+waterproof+10L+20L+set"),
-        tag: "Ferry essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "Open boat transfers get wet. Spray comes over the sides. Your passport and phone in an unprotected bag is a ₹50,000 risk for a ₹1,900 solution.",
-      },
-      {
-        name: "Cressi Snorkelling Set (mask, fins, snorkel)",
-        description:
-          "Proper-fitting mask and fins make the difference between a frustrating snorkelling experience and an extraordinary one. Rental masks at Elephant Beach often leak — bring your own.",
-        price: "₹3,499",
-        image: "🤿",
-        affiliateUrl: amazonSearchUrl("cressi+snorkel+set+mask+fins"),
-        tag: "Snorkelling upgrade",
-        tagColor: "bg-blue-100 text-blue-700",
-        why: "Rental masks at beach vendors often leak or fog. A proper-fitting mask with anti-fog coating transforms snorkelling from tolerable to genuinely magical.",
-      },
-      {
-        name: "Neutrogena Ultra Sheer Dry-Touch SPF 55",
-        description:
-          "For above-water use — lightweight, non-greasy, and effective at the equatorial UV levels the Andamans receive. Apply before leaving the room, reapply every 2 hours.",
-        price: "₹449",
-        image: "☀️",
-        affiliateUrl: amazonSearchUrl("neutrogena+ultra+sheer+SPF55+sunscreen"),
-        tag: "UV index 12",
-        tagColor: "bg-red-100 text-red-700",
-        why: "The Andamans sit near the equator. UV index regularly hits 12 — the maximum classification. Sunburn here happens in under 20 minutes without protection.",
-      },
-      {
-        name: "Sea-Band Anti-Nausea Wristbands",
-        description:
-          "Acupressure wristbands that reduce motion sickness without drowsiness. The 2-hour ferry crossing from Port Blair to Havelock is rough for roughly 30% of passengers.",
-        price: "₹649",
-        image: "⚓",
-        affiliateUrl: amazonSearchUrl("sea+band+anti+nausea+wristband"),
-        tag: "Ferry crossings",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "The Havelock crossing can be rough, especially October–December. Sea-bands work without drowsiness — unlike Avomine, which knocks you out for hours.",
-      },
-    ],
-  },
-];
-
 // ── Page ─────────────────────────────────────────────────────────────────────
 export default function AndamanIslandsPage() {
-  const allGearSections = [...ANDAMAN_GEAR, ...BEACH_GEAR];
-
   return (
     <>
       <ArticleSchema />
@@ -290,8 +207,8 @@ export default function AndamanIslandsPage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/andaman/hero.jpg"
-              alt="Andaman Islands — turquoise lagoon and white sand beach with palm trees"
+              src="/images/blogs/andaman-and-nicobar/andaman-islands/andaman-islands-2.webp"
+              alt="View of Andaman Islands, Andaman & Nicobar Islands"
               fill
               priority
               sizes="100vw"
@@ -768,10 +685,11 @@ export default function AndamanIslandsPage() {
 
                   <section id="havelock">
                     <h3>Havelock Island (Swaraj Dweep)</h3>
+                    <GuideFigure src="/images/blogs/andaman-and-nicobar/andaman-islands/havelock-island-andaman-islands-2.webp" alt="Havelock Island, Andaman Islands" />
                     <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                       <Image
-                        src="/images/destinations/andaman/havelock.jpg"
-                        alt="Havelock Island — Radhanagar Beach turquoise water"
+                        src="/images/blogs/andaman-and-nicobar/andaman-islands/radhanagar-beach-andaman-islands.webp"
+                        alt="Radhanagar Beach, Andaman Islands"
                         fill
                         sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                         className="object-cover"
@@ -1073,6 +991,7 @@ export default function AndamanIslandsPage() {
 
                   <section id="scuba">
                     <h3>Scuba Diving</h3>
+                    <GuideFigure src="/images/blogs/andaman-and-nicobar/andaman-islands/scuba-diving-andaman-islands-2.webp" alt="Scuba Diving, Andaman Islands" />
                     <p>
                       The Andaman Islands are one of the finest scuba diving
                       destinations in Asia — the Indian Ocean biodiversity here
@@ -2239,12 +2158,6 @@ export default function AndamanIslandsPage() {
                   </Link>
                 ))}
               </div>
-
-              {/* ── Gear Recommendations ──────────────────────────────── */}
-              <TrekGearRecommendations
-                sections={allGearSections}
-                destination="the Andaman Islands"
-              />
 
               <RelatedPostsGrid currentSlug="andaman-islands-travel-guide" />
             </article>

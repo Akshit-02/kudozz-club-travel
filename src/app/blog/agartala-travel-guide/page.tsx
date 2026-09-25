@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -527,16 +528,8 @@ export default function AgartalaGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Palaces & City Sights</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/tripura/agartala/agartala-town-hall.webp"
-                      alt="Facade of Agartala Town Hall in the city centre"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Ujjayanta Palace</h3>
+                  <GuideFigure src="/images/blogs/tripura/agartala/ujjayanta-palace-agartala.webp" alt="Ujjayanta Palace, Agartala" />
                   <p>
                     The former royal residence, now the Tripura State
                     Museum, set in Mughal-style gardens with two ornamental
@@ -548,6 +541,7 @@ export default function AgartalaGuidePage() {
                     for timings and visit tips.
                   </p>
                   <h3>Heritage Park</h3>
+                  <GuideFigure src="/images/blogs/tripura/agartala/heritage-park-agartala.webp" alt="Heritage Park, Agartala" />
                   <p>
                     A well-kept public park near the palace, good for an
                     evening walk and a breather between sightseeing stops.

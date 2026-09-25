@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -428,6 +429,7 @@ export default function DayaraBugyalGuidePage() {
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">
                   <h2>Best Time to Visit Dayara Bugyal</h2>
+                  <GuideFigure src="/images/blogs/uttarakhand/dayara-bugyal/dayara-bugyal-view.webp" alt="Dayara Bugyal, Uttarakhand" />
                   <p>
                     Dayara Bugyal is genuinely trek-worthy across three quite
                     different seasons, each giving the meadow its own
@@ -539,15 +541,6 @@ export default function DayaraBugyalGuidePage() {
                 {/* ── Trek Route ──────────────────────────────────────────── */}
                 <section id="trek-route">
                   <h2>The Trek Route</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/uttarakhand/dayara-bugyal/alpine-meadow-himalayan-view-dayara-bugyal.webp"
-                      alt="Trekking trail leading toward the Dayara Bugyal meadow, Garhwal Himalaya"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Raithal Route</h3>
                   <p>
                     The more commonly used trailhead, Raithal is a small

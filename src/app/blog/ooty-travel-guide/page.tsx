@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/manali/solang-valley.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Green hill valley landscape, evoking Ooty's Nilgiri hills and tea garden scenery",
+        url: "/images/blogs/tamil-nadu/ooty/ooty.webp",
+        width: 1600,
+        height: 1067,
+        alt: "View of Ooty, Tamil Nadu",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Ooty Travel Guide: Nilgiris, Lakes & Best Time",
     description:
       "A colonial hill station, a UNESCO toy train, and rolling Nilgiri tea gardens — the complete Ooty guide.",
-    images: ["/images/destinations/manali/solang-valley.jpg"],
+    images: ["/images/blogs/tamil-nadu/ooty/ooty.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/ooty-travel-guide",
@@ -59,7 +60,7 @@ function ArticleSchema() {
           headline: "Ooty Travel Guide: Nilgiris, Lakes & Best Time",
           description:
             "Complete Ooty guide — the Nilgiri Mountain Railway toy train, Ooty Lake, Doddabetta Peak, tea gardens, best time to visit, how to reach, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/manali/solang-valley.jpg",
+          image: "https://club.kudozz.in/images/blogs/tamil-nadu/ooty/ooty.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -196,8 +197,8 @@ export default function OotyGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/manali/solang-valley.jpg"
-              alt="Green hill valley landscape, evoking Ooty's Nilgiri hills and tea garden scenery"
+              src="/images/blogs/tamil-nadu/ooty/ooty.webp"
+              alt="View of Ooty, Tamil Nadu"
               fill
               priority
               sizes="100vw"
@@ -493,21 +494,14 @@ export default function OotyGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Lake, Toy Train & Viewpoints</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/manali/solang-valley.jpg"
-                      alt="Rolling green hills, evoking Ooty's tea gardens and Nilgiri scenery"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Ooty Lake</h3>
+                  <GuideFigure src="/images/blogs/tamil-nadu/ooty/ooty-lake.webp" alt="Ooty Lake, Tamil Nadu" />
                   <p>
                     An artificial lake at the heart of town, popular for
                     boating and an easy evening stroll along the shore.
                   </p>
                   <h3>Nilgiri Mountain Railway</h3>
+                  <GuideFigure src="/images/blogs/tamil-nadu/ooty/nilgiri-mountain-railway-ooty.webp" alt="Nilgiri Mountain Railway, Ooty" />
                   <p>
                     The narrow-gauge "toy train" climbing from Mettupalayam
                     through Coonoor to Ooty is a UNESCO World Heritage Site
@@ -523,12 +517,14 @@ export default function OotyGuidePage() {
                     stops.
                   </p>
                   <h3>Doddabetta Peak</h3>
+                  <GuideFigure src="/images/blogs/tamil-nadu/ooty/doddabetta-peak-ooty-2.webp" alt="Doddabetta Peak, Ooty" />
                   <p>
                     The highest point in the Nilgiris, with a viewpoint and
                     a small telescope house offering panoramic views across
                     the range on clear days.
                   </p>
                   <h3>Tea Gardens</h3>
+                  <GuideFigure src="/images/blogs/tamil-nadu/ooty/tea-gardens-ooty.webp" alt="Tea Gardens, Ooty" />
                   <p>
                     Estates around Ooty and further toward Coonoor offer
                     walks among the tea bushes and tastings — a defining

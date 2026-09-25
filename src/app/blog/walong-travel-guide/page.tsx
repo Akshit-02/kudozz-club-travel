@@ -7,8 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Walong Travel Guide: The Easternmost Battlefield of the 1962 War",
@@ -21,7 +19,7 @@ export const metadata: Metadata = {
     description: "One of India's easternmost inhabited towns, site of a fierce 1962 war battle, deep in the Lohit Valley near the China border — the complete guide to Walong.",
     url: "https://club.kudozz.in/blog/walong-travel-guide",
     type: "article", siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/leh-ladakh/leh-ladakh.jpg", width: 1200, height: 630, alt: "Remote high-altitude valley representative of Walong, Arunachal Pradesh" }],
+    images: [{ url: "/images/destinations/leh-ladakh/leh-ladakh.jpg", width: 2560, height: 1714, alt: "Remote high-altitude valley representative of Walong, Arunachal Pradesh" }],
   },
   twitter: { card: "summary_large_image", title: "Walong Travel Guide: The Easternmost Battlefield of the 1962 War", description: "A remote frontier town in the Lohit Valley, site of the 1962 Battle of Walong — the complete guide.", images: ["/images/destinations/leh-ladakh/leh-ladakh.jpg"] },
   alternates: { canonical: "https://club.kudozz.in/blog/walong-travel-guide" },
@@ -79,16 +77,6 @@ const tableOfContents = [
   { id: "tips", title: "Essential Travel Tips", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
-
-const WALONG_GEAR: GearSection[] = [{
-  title: "Things Worth Carrying", subtitle: "Gear for a demanding frontier journey", emoji: "🏔️",
-  items: [
-    { name: "Warm Layers", description: "Walong's altitude and far-northern position mean genuinely cold conditions, especially outside summer.", price: "₹2,499",  image: "🧥", affiliateUrl: amazonSearchUrl("warm+trekking+jacket+layers"), tag: "Non-negotiable", tagColor: "bg-red-100 text-red-700", why: "This is one of the coldest, most exposed destinations in this guide series." },
-    { name: "Sturdy Footwear", description: "For uneven terrain around the war memorial and valley viewpoints.", price: "₹2,999",  image: "🥾", affiliateUrl: amazonSearchUrl("trekking+shoes+mountain"), tag: "Trip essential", tagColor: "bg-amber-100 text-amber-700", why: "Terrain in the Lohit Valley is rugged and undeveloped in most areas." },
-    { name: "Complete Permit Documentation", description: "Physical copies of your Inner Line Permit and any Protected Area Permit, plus identification.", price: "₹—",  image: "📄", affiliateUrl: amazonSearchUrl("document+organizer+travel+folder"), tag: "Absolutely required", tagColor: "bg-purple-100 text-purple-700", why: "Checkpoints in this border-sensitive region will require documentation at multiple points." },
-    { name: "Basic First-Aid Kit", description: "Given the extreme remoteness and distance from medical facilities.", price: "₹499",  image: "🩹", affiliateUrl: amazonSearchUrl("travel+first+aid+kit"), tag: "Remote-travel essential", tagColor: "bg-sky-100 text-sky-700", why: "Medical facilities are sparse to nonexistent for much of this journey." },
-  ],
-}];
 
 export default function WalongGuidePage() {
   return (
@@ -202,9 +190,6 @@ export default function WalongGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do in Walong</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/leh-ladakh/leh-ladakh.jpg" alt="Lohit Valley landscape around Walong" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>Battle of Walong War Memorial:</strong> A memorial commemorating the 1962 battle fought here — visit with genuine respect for its history.</li>
                     <li><strong>Lohit Valley scenery:</strong> Dramatic river-valley terrain, among the most remote landscapes accessible in India.</li>
@@ -303,7 +288,6 @@ export default function WalongGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={WALONG_GEAR} destination="Walong" />
               <RelatedPostsGrid currentSlug="walong-travel-guide" />
             </article>
             <div className="hidden xl:block w-64 2xl:w-72 flex-shrink-0"><div className="sticky top-24"><RelatedSidebar currentSlug="walong-travel-guide" /></div></div>

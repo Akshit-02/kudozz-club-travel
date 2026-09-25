@@ -24,10 +24,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/leh-ladakh/leh-ladakh.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Stark high plateau and canyon terrain, evoking Balpakram National Park's dramatic landscape in Meghalaya's South Garo Hills",
+        url: "/images/blogs/meghalaya/balpakram/balpakram-national-park-2.webp",
+        width: 1600,
+        height: 1200,
+        alt: "Balpakram National Park, Meghalaya",
       },
     ],
   },
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     title: "Balpakram National Park: Myths & Wildlife",
     description:
       "The 'Land of Perpetual Winds' — a canyon plateau sacred to Garo belief, and one of Meghalaya's wildest, least-visited parks.",
-    images: ["/images/destinations/leh-ladakh/leh-ladakh.jpg"],
+    images: ["/images/blogs/meghalaya/balpakram/balpakram-national-park-2.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/balpakram-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           headline: "Balpakram National Park: Myths & Wildlife",
           description:
             "Complete Balpakram guide — the 'Land of Perpetual Winds' plateau, Garo mythology and the mande burung legend, red panda reports, how to reach from Tura, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/leh-ladakh/leh-ladakh.jpg",
+          image: "https://club.kudozz.in/images/blogs/meghalaya/balpakram/balpakram-national-park-2.webp",
           datePublished: "2026-09-05",
           dateModified: "2026-09-05",
           publisher: {
@@ -195,8 +195,8 @@ export default function BalpakramGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/leh-ladakh/leh-ladakh.jpg"
-              alt="Stark high plateau and canyon terrain, evoking Balpakram National Park's dramatic landscape in Meghalaya's South Garo Hills"
+              src="/images/blogs/meghalaya/balpakram/balpakram-national-park-2.webp"
+              alt="Balpakram National Park, Meghalaya"
               fill
               priority
               sizes="100vw"
@@ -513,15 +513,6 @@ export default function BalpakramGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Plateau, Mythology & Wildlife</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/leh-ladakh/leh-ladakh.jpg"
-                      alt="High plateau and canyon terrain at Balpakram National Park, Meghalaya"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>The Plateau & Canyon Terrain</h3>
                   <p>
                     Balpakram's defining feature is its landscape — a high

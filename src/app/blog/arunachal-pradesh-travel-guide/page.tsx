@@ -7,10 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuidePhotoRow } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -187,84 +184,6 @@ const tableOfContents = [
   { id: "tips", title: "Essential Travel Tips", level: 2 },
   { id: "places-to-explore", title: "Places to Explore in Arunachal Pradesh", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
-];
-
-// ── Arunachal Pradesh-specific gear ────────────────────────────────────────
-const ARUNACHAL_PRADESH_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle:
-      "Gear for high-altitude cold, long mountain drives, and Arunachal's remoteness",
-    emoji: "🏔️",
-    items: [
-      {
-        name: "Insulated Jacket",
-        description:
-          "Sela Pass and Tawang sit above 10,000–13,000 feet and stay cold year-round, even outside the deep winter months.",
-        price: "₹2,999",
-        image: "🧥",
-        affiliateUrl: amazonSearchUrl("insulated+jacket+high+altitude"),
-        tag: "Cold-weather essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Temperatures near Sela Pass and Bum La can drop sharply even in October and April — layering matters more than the calendar suggests.",
-      },
-      {
-        name: "Waterproof Trekking Shoes",
-        description:
-          "Useful for monastery courtyards, rice-field trails around Ziro, and uneven terrain around Namdapha.",
-        price: "₹2,499",
-        image: "🥾",
-        affiliateUrl: amazonSearchUrl("waterproof+trekking+shoes"),
-        tag: "All-terrain essential",
-        tagColor: "bg-stone-100 text-stone-700",
-        why: "Roads and paths across the state range from broken mountain tarmac to muddy village trails — grip and water resistance both matter.",
-      },
-      {
-        name: "Power Bank (20,000 mAh)",
-        description:
-          "Electricity can be unreliable in smaller towns, and mountain drives between hubs often run 6–10 hours without charging points.",
-        price: "₹1,799",
-        image: "🔋",
-        affiliateUrl: amazonSearchUrl("power+bank+20000mAh+travel"),
-        tag: "Remote-travel essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "With long, winding drives between Bomdila, Tawang, and Ziro, and patchy power in remoter guesthouses, a larger bank is worth the extra weight.",
-      },
-      {
-        name: "Rain Jacket / Poncho",
-        description:
-          "Even outside the monsoon, sudden mountain showers are common in the hills around Bomdila, Dirang, and Ziro.",
-        price: "₹899",
-        image: "🌧️",
-        affiliateUrl: amazonSearchUrl("rain+jacket+trekking"),
-        tag: "Weather essential",
-        tagColor: "bg-blue-100 text-blue-700",
-        why: "Weather changes fast at altitude — a packable rain layer earns its space even on a clear-looking morning.",
-      },
-      {
-        name: "Basic First Aid & Altitude Kit",
-        description:
-          "Includes paracetamol, ORS, and altitude-sickness medication for the Sela Pass crossing and Tawang's elevation.",
-        price: "₹599",
-        image: "💊",
-        affiliateUrl: amazonSearchUrl("travel+first+aid+altitude+kit"),
-        tag: "Health essential",
-        tagColor: "bg-red-100 text-red-700",
-        why: "Medical facilities thin out fast outside Itanagar and Tawang town — a basic kit and altitude awareness go a long way.",
-      },
-      {
-        name: "Reusable Water Bottle",
-        description:
-          "Handy across long mountain drives and monastery visits, and reduces reliance on plastic in a genuinely remote region.",
-        price: "₹699",
-        image: "🍶",
-        affiliateUrl: amazonSearchUrl("insulated+water+bottle+steel"),
-        tag: "Everyday essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "An insulated bottle also keeps drinking water from freezing on cold high-altitude mornings near Sela Pass.",
-      },
-    ],
-  },
 ];
 
 // ── Page ─────────────────────────────────────────────────────────────────────
@@ -639,15 +558,6 @@ export default function ArunachalPradeshGuidePage() {
                 {/* ── Tawang ────────────────────────────────────────────── */}
                 <section id="tawang">
                   <h2>Tawang: Monasteries & the Himalayan Frontier</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/arunachal-pradesh/arunachal-pradesh/tawang-monastery-arunachal-pradesh.webp"
-                      alt="Tawang Monastery's whitewashed buildings covering a hillside at sunset, with mountains behind, Arunachal Pradesh"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <p>
                     Perched above 10,000 feet near the Bhutan and Tibet
                     borders, <strong>Tawang</strong> is Arunachal's
@@ -680,6 +590,13 @@ export default function ArunachalPradeshGuidePage() {
                       evening light and sound show recounting the conflict.
                     </li>
                   </ul>
+                  <GuidePhotoRow
+                    images={[
+                      { src: "/images/blogs/arunachal-pradesh/arunachal-pradesh/tawang-monastery-arunachal-pradesh-4.webp", alt: "Tawang Monastery, Arunachal Pradesh", caption: "Tawang Monastery, Arunachal Pradesh" },
+                      { src: "/images/blogs/arunachal-pradesh/arunachal-pradesh/sela-pass-arunachal-pradesh-3.webp", alt: "Sela Pass, Arunachal Pradesh", caption: "Sela Pass, Arunachal Pradesh" },
+                      { src: "/images/blogs/arunachal-pradesh/arunachal-pradesh/bum-la-pass-arunachal-pradesh-3.webp", alt: "Bum La Pass, Arunachal Pradesh", caption: "Bum La Pass, Arunachal Pradesh" },
+                    ]}
+                  />
                   <div
                     className="bg-sky-50 border-l-4 border-sky-400 p-4 rounded-r-xl my-4 text-sm"
                     style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -747,8 +664,8 @@ export default function ArunachalPradeshGuidePage() {
                     </div>
                     <div className="relative w-full rounded-xl h-56 overflow-hidden shadow-md">
                       <Image
-                        src="/images/blogs/arunachal-pradesh/arunachal-pradesh/dirang-valley-apple-orchards-arunachal-pradesh.webp"
-                        alt="Terraced fields and the river running through Dirang Valley, Arunachal Pradesh"
+                        src="/images/blogs/arunachal-pradesh/arunachal-pradesh/namdapha-national-park-forest-landscape.webp"
+                        alt="Forested hills and snow-capped peaks within Namdapha National Park, Arunachal Pradesh"
                         fill
                         sizes="(min-width: 1280px) 256px, (min-width: 1024px) 213px, 33vw"
                         className="object-cover"
@@ -756,8 +673,8 @@ export default function ArunachalPradeshGuidePage() {
                     </div>
                     <div className="relative w-full rounded-xl h-56 overflow-hidden shadow-md">
                       <Image
-                        src="/images/blogs/arunachal-pradesh/arunachal-pradesh/namdapha-national-park-forest-landscape.webp"
-                        alt="Forested hills and snow-capped peaks within Namdapha National Park, Arunachal Pradesh"
+                        src="/images/blogs/arunachal-pradesh/arunachal-pradesh/dirang-valley-apple-orchards-arunachal-pradesh.webp"
+                        alt="Terraced fields and the river running through Dirang Valley, Arunachal Pradesh"
                         fill
                         sizes="(min-width: 1280px) 256px, (min-width: 1024px) 213px, 33vw"
                         className="object-cover"
@@ -1379,12 +1296,6 @@ export default function ArunachalPradeshGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              {/* ── Gear Recommendations ──────────────────────────────── */}
-              <TrekGearRecommendations
-                sections={ARUNACHAL_PRADESH_GEAR}
-                destination="Arunachal Pradesh"
-              />
 
               <RelatedPostsGrid currentSlug="arunachal-pradesh-travel-guide" />
             </article>

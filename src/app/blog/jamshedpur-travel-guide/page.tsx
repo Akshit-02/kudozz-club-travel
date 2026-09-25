@@ -7,10 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Jamshedpur Travel Guide: Jubilee Park, Dimna Lake & Steel City",
@@ -27,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/chandigarh/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Planned green cityscape representative of Jamshedpur, Jharkhand",
+        url: "/images/blogs/jharkhand/jamshedpur/dimna-lake-jamshedpur.webp",
+        width: 1600,
+        height: 1065,
+        alt: "Dimna Lake, Jamshedpur",
       },
     ],
   },
@@ -39,7 +35,7 @@ export const metadata: Metadata = {
     title: "Jamshedpur Travel Guide: Jubilee Park, Dimna Lake & Steel City",
     description:
       "India's first planned industrial city, built around the Tata Steel works — the complete guide to Jamshedpur.",
-    images: ["/images/destinations/chandigarh/hero.jpg"],
+    images: ["/images/blogs/jharkhand/jamshedpur/dimna-lake-jamshedpur.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/jamshedpur-travel-guide" },
 };
@@ -54,7 +50,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Jamshedpur Travel Guide: Jubilee Park, Dimna Lake & Steel City",
           description: "The complete Jamshedpur travel guide.",
-          image: "https://club.kudozz.in/images/destinations/chandigarh/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/jharkhand/jamshedpur/dimna-lake-jamshedpur.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: {
@@ -149,59 +145,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const JAMSHEDPUR_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for park walks, lake picnics, and city exploring",
-    emoji: "🏙️",
-    items: [
-      {
-        name: "Comfortable Walking Shoes",
-        description:
-          "Jubilee Park alone is large enough to cover several kilometres on foot — comfortable shoes make a real difference over a full day.",
-        price: "₹1,999",
-        image: "👟",
-        affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
-        tag: "City-walk essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Jamshedpur rewards walking more than most Indian cities given its planned, pedestrian-friendly layout.",
-      },
-      {
-        name: "Reusable Water Bottle",
-        description:
-          "Useful for both a full day at Jubilee Park and a picnic afternoon at Dimna Lake.",
-        price: "₹449",
-        image: "💧",
-        affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"),
-        tag: "All-day essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "Both Jubilee Park and Dimna Lake involve extended time outdoors with limited shade in stretches.",
-      },
-      {
-        name: "Picnic Mat / Light Blanket",
-        description:
-          "Dimna Lake's grassy banks are a popular picnic spot — a light mat makes the visit far more comfortable.",
-        price: "₹599",
-        image: "🧺",
-        affiliateUrl: amazonSearchUrl("picnic+mat+outdoor"),
-        tag: "Lake-day essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "A picnic at Dimna Lake is one of the more popular half-day plans among visitors and locals alike.",
-      },
-      {
-        name: "Sun Hat & Sunscreen",
-        description: "For extended time outdoors at both the park and the lake, especially outside winter months.",
-        price: "₹499",
-        image: "🧢",
-        affiliateUrl: amazonSearchUrl("sun+hat+sunscreen+travel"),
-        tag: "Comfort essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "Jubilee Park and Dimna Lake both offer significant open, sun-exposed areas.",
-      },
-    ],
-  },
-];
-
 export default function JamshedpurGuidePage() {
   return (
     <>
@@ -212,8 +155,8 @@ export default function JamshedpurGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/chandigarh/hero.jpg"
-              alt="Planned green cityscape representative of Jamshedpur, Jharkhand"
+              src="/images/blogs/jharkhand/jamshedpur/dimna-lake-jamshedpur.webp"
+              alt="Dimna Lake, Jamshedpur"
               fill
               priority
               sizes="100vw"
@@ -422,15 +365,6 @@ export default function JamshedpurGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do in Jamshedpur</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/chandigarh/hero.jpg"
-                      alt="Green landscaped park scenery representative of Jamshedpur"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <ul>
                     <li>
                       <strong>Jubilee Park:</strong> A large landscaped park built by Tata Steel, with
@@ -618,7 +552,6 @@ export default function JamshedpurGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={JAMSHEDPUR_GEAR} destination="Jamshedpur" />
               <RelatedPostsGrid currentSlug="jamshedpur-travel-guide" />
             </article>
 

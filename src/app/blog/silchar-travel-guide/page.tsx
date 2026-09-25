@@ -7,8 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Silchar Travel Guide: Gateway to the Barak Valley",
@@ -22,7 +20,7 @@ export const metadata: Metadata = {
     url: "https://club.kudozz.in/blog/silchar-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/udaipur/hero.jpg", width: 1200, height: 630, alt: "City and river scenery representative of Silchar, Assam" }],
+    images: [{ url: "/images/destinations/udaipur/hero.jpg", width: 2560, height: 1707, alt: "City and river scenery representative of Silchar, Assam" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -100,20 +98,6 @@ const tableOfContents = [
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
-];
-
-const SILCHAR_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for a transit-hub city and onward Northeast travel",
-    emoji: "🧳",
-    items: [
-      { name: "Comfortable Travel Backpack", description: "Silchar is primarily a transit point for onward Northeast India travel, so a practical, easy-to-carry bag matters.", price: "₹1,999",  image: "🎒", affiliateUrl: amazonSearchUrl("travel+backpack+40l"), tag: "Transit essential", tagColor: "bg-amber-100 text-amber-700", why: "Given Silchar's role as a gateway city, most visitors are moving on quickly to Mizoram, Tripura, or Manipur." },
-      { name: "Power Bank", description: "Useful for long onward road journeys to neighbouring states where charging points can be sparse.", price: "₹999",  image: "🔋", affiliateUrl: amazonSearchUrl("power+bank+10000mah+travel"), tag: "Travel essential", tagColor: "bg-sky-100 text-sky-700", why: "Onward road trips from Silchar into hill states can run long with limited charging stops." },
-      { name: "Comfortable Walking Shoes", description: "For exploring Bhuban Hill and the Kachari ruins if you have time before continuing onward.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Sightseeing essential", tagColor: "bg-forest-100 text-forest-700", why: "Bhuban Hill involves some walking/climbing to reach the temple area." },
-      { name: "Travel Documents Pouch", description: "Given Silchar's role as a gateway to states with occasional permit or ID-check requirements.", price: "₹399",  image: "📄", affiliateUrl: amazonSearchUrl("travel+document+organizer+pouch"), tag: "Transit essential", tagColor: "bg-purple-100 text-purple-700", why: "Keeping documents organized helps at road checkpoints common on Northeast India routes." },
-    ],
-  },
 ];
 
 export default function SilcharGuidePage() {
@@ -233,9 +217,6 @@ export default function SilcharGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do in Silchar</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/udaipur/hero.jpg" alt="Cityscape and river scenery around Silchar" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>Kachari Ruins:</strong> Remains associated with the Dimasa Kachari kingdom, an earlier regional power in the Barak Valley area.</li>
                     <li><strong>Bhuban Hill:</strong> A hill with an associated Shiva temple, a popular short pilgrimage/nature outing from the city.</li>
@@ -355,7 +336,6 @@ export default function SilcharGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={SILCHAR_GEAR} destination="Silchar" />
               <RelatedPostsGrid currentSlug="silchar-travel-guide" />
             </article>
 

@@ -7,8 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Barnawapara Wildlife Sanctuary Travel Guide: Safari Near Raipur",
@@ -22,7 +20,7 @@ export const metadata: Metadata = {
     url: "https://club.kudozz.in/blog/barnawapara-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/meghalaya/hero.jpg", width: 1200, height: 630, alt: "Forest landscape representative of Barnawapara Wildlife Sanctuary, Chhattisgarh" }],
+    images: [{ url: "/images/destinations/meghalaya/hero.jpg", width: 2560, height: 1920, alt: "Forest landscape representative of Barnawapara Wildlife Sanctuary, Chhattisgarh" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -100,20 +98,6 @@ const tableOfContents = [
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
-];
-
-const BARNAWAPARA_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for a quieter, lower-key safari destination",
-    emoji: "🐆",
-    items: [
-      { name: "Binoculars", description: "For spotting leopards, deer, and birdlife across Barnawapara's forest terrain.", price: "₹1,999",  image: "🔭", affiliateUrl: amazonSearchUrl("binoculars+wildlife+safari"), tag: "Safari essential", tagColor: "bg-amber-100 text-amber-700", why: "A quieter sanctuary rewards patient, close observation more than a crowded reserve does." },
-      { name: "Neutral/Khaki Clothing", description: "Standard safari practice — less disruptive to wildlife and appropriate for open-jeep safaris.", price: "₹1,299",  image: "🧥", affiliateUrl: amazonSearchUrl("khaki+safari+clothing+set"), tag: "Safari essential", tagColor: "bg-forest-100 text-forest-700", why: "Bright colors are more disruptive to wildlife sightings and stand out in the forest." },
-      { name: "Telephoto Camera / Lens", description: "For photographing wildlife at a safe, respectful distance across the sanctuary's forest terrain.", price: "₹8,999+",  image: "📷", affiliateUrl: amazonSearchUrl("telephoto+lens+wildlife+photography"), tag: "Photography essential", tagColor: "bg-purple-100 text-purple-700", why: "A longer lens makes a real difference on any wildlife safari, especially a quieter one like this." },
-      { name: "Sun Protection & Insect Repellent", description: "Open-jeep safaris mean direct sun and insect exposure across the visit.", price: "₹599",  image: "🧴", affiliateUrl: amazonSearchUrl("sunscreen+insect+repellent+combo"), tag: "Safari essential", tagColor: "bg-sky-100 text-sky-700", why: "Morning and afternoon safaris both involve extended time exposed to sun and insects." },
-    ],
-  },
 ];
 
 export default function BarnawaparaGuidePage() {
@@ -232,9 +216,6 @@ export default function BarnawaparaGuidePage() {
 
                 <section id="safari-zones">
                   <h2>Safaris & Wildlife</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/meghalaya/hero.jpg" alt="Forest safari terrain at Barnawapara" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>Leopards:</strong> The sanctuary's headline predator species — sightings are possible but not guaranteed on any single safari.</li>
                     <li><strong>Sloth bears:</strong> Present alongside leopards, adding to the wildlife interest.</li>
@@ -356,7 +337,6 @@ export default function BarnawaparaGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={BARNAWAPARA_GEAR} destination="Barnawapara" />
               <RelatedPostsGrid currentSlug="barnawapara-travel-guide" />
             </article>
 

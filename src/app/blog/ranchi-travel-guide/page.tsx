@@ -7,10 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuidePhotoRow } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
   title: "Ranchi Travel Guide: Waterfalls, Lakes & Jharkhand's Capital",
@@ -24,13 +21,13 @@ export const metadata: Metadata = {
     url: "https://club.kudozz.in/blog/ranchi-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/meghalaya/dawki-river.jpg", width: 1200, height: 630, alt: "Forest waterfall and river landscape representative of Ranchi, Jharkhand" }],
+    images: [{ url: "/images/blogs/jharkhand/ranchi/hundru-falls-ranchi-2.webp", width: 1600, height: 1200, alt: "Hundru Falls, Ranchi" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Ranchi Travel Guide: Waterfalls, Lakes & Jharkhand's Capital",
     description: "Hundru, Jonha, and Dassam Falls, plus Jharkhand's capital city — the complete guide to Ranchi.",
-    images: ["/images/destinations/meghalaya/dawki-river.jpg"],
+    images: ["/images/blogs/jharkhand/ranchi/hundru-falls-ranchi-2.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/ranchi-travel-guide" },
 };
@@ -45,7 +42,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Ranchi Travel Guide: Waterfalls, Lakes & Jharkhand's Capital",
           description: "The complete Ranchi travel guide.",
-          image: "https://club.kudozz.in/images/destinations/meghalaya/dawki-river.jpg",
+          image: "https://club.kudozz.in/images/blogs/jharkhand/ranchi/hundru-falls-ranchi-2.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
@@ -104,20 +101,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const RANCHI_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for waterfall trails and a spread-out day-trip circuit",
-    emoji: "💦",
-    items: [
-      { name: "Grip Sandals / Trekking Shoes", description: "The rocky, often wet approach paths to Hundru, Dassam, and Jonha Falls involve real uneven walking — proper grip matters far more than flip-flops.", price: "₹899",  image: "🥾", affiliateUrl: amazonSearchUrl("trekking+sandals+grip+outdoor"), tag: "Waterfall essential", tagColor: "bg-amber-100 text-amber-700", why: "Slippery rocks near the falls are the most common cause of minor injuries reported by visitors." },
-      { name: "Rain Jacket / Poncho", description: "If visiting just after monsoon for the fullest waterfalls, a packable rain layer is genuinely useful.", price: "₹899",  image: "🧥", affiliateUrl: amazonSearchUrl("packable+rain+jacket+travel"), tag: "Weather essential", tagColor: "bg-sky-100 text-sky-700", why: "Waterfall spray plus Jharkhand's genuinely wet monsoon make staying dry a real, recurring concern." },
-      { name: "Reusable Water Bottle", description: "The waterfall circuit involves a full day of driving and walking between spread-out sites with limited shops along the way.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("1l+reusable+water+bottle+steel"), tag: "All-day essential", tagColor: "bg-forest-100 text-forest-700", why: "Facilities thin out quickly once you're outside the city core." },
-      { name: "Power Bank", description: "Useful for day trips beyond the city, where charging points thin out well before you reach the falls.", price: "₹899",  image: "🔋", affiliateUrl: amazonSearchUrl("power+bank+10000mah+travel"), tag: "Travel essential", tagColor: "bg-purple-100 text-purple-700", why: "Charging infrastructure drops off fast outside Ranchi's city centre." },
-    ],
-  },
-];
-
 export default function RanchiGuidePage() {
   return (
     <>
@@ -127,7 +110,7 @@ export default function RanchiGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/meghalaya/dawki-river.jpg" alt="Forest waterfall and river landscape representative of Ranchi, Jharkhand" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/jharkhand/ranchi/hundru-falls-ranchi-2.webp" alt="Hundru Falls, Ranchi" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -237,7 +220,7 @@ export default function RanchiGuidePage() {
                 <section id="top-attractions">
                   <h2>Top Things to Do in Ranchi</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/meghalaya/dawki-river.jpg" alt="Waterfall scenery near Ranchi" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
+                    <Image src="/images/blogs/jharkhand/ranchi/tagore-hill-ranchi.webp" alt="Tagore Hill, Ranchi" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
                   </div>
                   <ul>
                     <li><strong>Hundru Falls:</strong> One of the tallest and most popular falls near Ranchi, on the Subarnarekha River.</li>
@@ -247,6 +230,13 @@ export default function RanchiGuidePage() {
                     <li><strong>Ranchi Lake and Kanke Dam:</strong> In-city lake spots for a relaxed evening.</li>
                     <li><strong>Rock Garden and Jagannath Temple Ranchi:</strong> A landscaped garden and a smaller-scale replica of the Puri Jagannath Temple.</li>
                   </ul>
+                  <GuidePhotoRow
+                    images={[
+                      { src: "/images/blogs/jharkhand/ranchi/hundru-falls-ranchi.webp", alt: "Hundru Falls, Ranchi", caption: "Hundru Falls, Ranchi" },
+                      { src: "/images/blogs/jharkhand/ranchi/jonha-falls-ranchi.webp", alt: "Jonha Falls, Ranchi", caption: "Jonha Falls, Ranchi" },
+                      { src: "/images/blogs/jharkhand/ranchi/dassam-falls-ranchi.webp", alt: "Dassam Falls, Ranchi", caption: "Dassam Falls, Ranchi" },
+                    ]}
+                  />
                 </section>
 
                 <section id="where-to-stay">
@@ -364,7 +354,6 @@ export default function RanchiGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={RANCHI_GEAR} destination="Ranchi" />
               <RelatedPostsGrid currentSlug="ranchi-travel-guide" />
             </article>
 

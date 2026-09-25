@@ -7,10 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuidePhotoRow } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
   title: "Mahabaleshwar Travel Guide: Viewpoints, Strawberries & Itinerary",
@@ -25,13 +22,13 @@ export const metadata: Metadata = {
     url: "https://club.kudozz.in/blog/mahabaleshwar-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/coorg/abbey-falls.jpg", width: 1200, height: 630, alt: "Waterfall in the misty hills near Mahabaleshwar" }],
+    images: [{ url: "/images/blogs/maharashtra/mahabaleshwar/mahabaleshwar-2.webp", width: 1600, height: 702, alt: "View of Mahabaleshwar, Maharashtra" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Mahabaleshwar Travel Guide: Viewpoints, Strawberries & Itinerary",
     description: "Venna Lake, Arthur's Seat, Pratapgad Fort, and strawberry farms — the complete guide to Mahabaleshwar.",
-    images: ["/images/destinations/coorg/abbey-falls.jpg"],
+    images: ["/images/blogs/maharashtra/mahabaleshwar/mahabaleshwar-2.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/mahabaleshwar-travel-guide" },
 };
@@ -46,7 +43,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Mahabaleshwar Travel Guide: Viewpoints, Strawberries & Itinerary",
           description: "The complete Mahabaleshwar travel guide.",
-          image: "https://club.kudozz.in/images/destinations/coorg/abbey-falls.jpg",
+          image: "https://club.kudozz.in/images/blogs/maharashtra/mahabaleshwar/mahabaleshwar-2.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
@@ -98,20 +95,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const MAHABALESHWAR_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for viewpoints, fort visits, and cool hill-station evenings",
-    emoji: "🍓",
-    items: [
-      { name: "Light Woollen Jacket", description: "Mahabaleshwar's elevation (over 1,350m) keeps evenings cool year-round, even in summer when the plains are sweltering.", price: "₹1,299",  image: "🧥", affiliateUrl: amazonSearchUrl("light+woolen+jacket+travel"), tag: "Evening essential", tagColor: "bg-sky-100 text-sky-700", why: "Temperatures can drop noticeably after sunset even outside winter, catching travellers packed for the plains off guard." },
-      { name: "Comfortable Walking Shoes", description: "The viewpoint circuit and Pratapgad Fort both involve extended walking on uneven ground — proper shoes make the day easier.", price: "₹1,499",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Sightseeing essential", tagColor: "bg-amber-100 text-amber-700", why: "Pratapgad Fort's climb and the string of viewpoints both add up to several kilometres of walking." },
-      { name: "Compact Binoculars", description: "Useful at Arthur's Seat and Kate's Point for spotting the valley and river views that make these viewpoints famous.", price: "₹1,199",  image: "🔭", affiliateUrl: amazonSearchUrl("compact+binoculars+travel"), tag: "Viewpoint essential", tagColor: "bg-forest-100 text-forest-700", why: "The panoramic Western Ghats views from Arthur's Seat are dramatically better with even basic binoculars." },
-      { name: "Reusable Cotton Tote", description: "Handy for carrying home fresh strawberries, jams, and Mapro Garden purchases without extra plastic.", price: "₹249",  image: "🛍️", affiliateUrl: amazonSearchUrl("reusable+cotton+tote+bag"), tag: "Shopping essential", tagColor: "bg-red-100 text-red-700", why: "Strawberry and jam shopping is a core part of the Mahabaleshwar experience — a sturdy tote avoids leaks and spills on the drive home." },
-    ],
-  },
-];
-
 export default function MahabaleshwarGuidePage() {
   return (
     <>
@@ -121,7 +104,7 @@ export default function MahabaleshwarGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/coorg/abbey-falls.jpg" alt="Waterfall in the misty hills near Mahabaleshwar" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/maharashtra/mahabaleshwar/mahabaleshwar-2.webp" alt="View of Mahabaleshwar, Maharashtra" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -235,7 +218,7 @@ export default function MahabaleshwarGuidePage() {
                 <section id="top-attractions">
                   <h2>Top Attractions</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/coorg/abbey-falls.jpg" alt="Western Ghats viewpoint near Mahabaleshwar" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
+                    <Image src="/images/blogs/maharashtra/mahabaleshwar/mahabaleshwar-temple.webp" alt="Mahabaleshwar Temple, Maharashtra" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
                   </div>
                   <ul>
                     <li><strong>Venna Lake:</strong> A boating lake in the town centre, popular for a relaxed hour of paddle-boating and lakeside snacking.</li>
@@ -246,6 +229,12 @@ export default function MahabaleshwarGuidePage() {
                     <li><strong>Mapro Garden:</strong> A strawberry-and-cream institution on the road to Panchgani, with a farm shop, café, and jam/squash factory outlet.</li>
                     <li><strong>Panchgani's Table Land:</strong> A vast, flat volcanic plateau roughly 19 km away — one of the largest of its kind in Asia — popular for horse rides and paragliding.</li>
                   </ul>
+                  <GuidePhotoRow
+                    images={[
+                      { src: "/images/blogs/maharashtra/mahabaleshwar/venna-lake-mahabaleshwar-2.webp", alt: "Venna Lake, Mahabaleshwar", caption: "Venna Lake, Mahabaleshwar" },
+                      { src: "/images/blogs/maharashtra/mahabaleshwar/arthur-s-seat-mahabaleshwar-2.webp", alt: "Arthur's Seat, Mahabaleshwar", caption: "Arthur's Seat, Mahabaleshwar" },
+                    ]}
+                  />
                 </section>
 
                 <section id="where-to-stay">
@@ -355,7 +344,6 @@ export default function MahabaleshwarGuidePage() {
                 {["Mahabaleshwar", "Maharashtra", "Panchgani", "Western Ghats", "Strawberries", "India"].map((tag) => <Link key={tag} href={`/blog?tag=${tag.toLowerCase().replace(/ /g, "-")}`} className="tag-pill">#{tag}</Link>)}
               </div>
 
-              <TrekGearRecommendations sections={MAHABALESHWAR_GEAR} destination="Mahabaleshwar" />
               <RelatedPostsGrid currentSlug="mahabaleshwar-travel-guide" />
             </article>
 

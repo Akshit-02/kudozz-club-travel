@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -25,8 +26,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/blogs/uttarakhand/haridwar/evening-ganga-aarti-har-ki-pauri.webp",
-        width: 1200,
-        height: 630,
+        width: 1600,
+        height: 731,
         alt: "Ganga Aarti fire ceremony with flaming lamps held aloft at Har Ki Pauri ghat, Haridwar, Uttarakhand",
       },
     ],
@@ -646,6 +647,7 @@ export default function HaridwarGuidePage() {
                     glimpses of the Himalayan foothills.
                   </p>
                   <h3>Maya Devi Temple</h3>
+                  <GuideFigure src="/images/blogs/uttarakhand/haridwar/maya-devi-temple-haridwar.webp" alt="Maya Devi Temple, Haridwar" />
                   <p>
                     One of Haridwar's oldest temples and considered a Shakti
                     Peeth — a site associated with the goddess Sati in Hindu

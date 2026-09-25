@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -548,16 +549,8 @@ export default function VrindavanGuidePage() {
                 {/* ── Attractions ────────────────────────────────────────── */}
                 <section id="attractions">
                   <h2>Temples & Sacred Sites in Vrindavan</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/uttar-pradesh/vrindavan/prem-mandir-illuminated-night-vrindavan.webp"
-                      alt="Prem Mandir in Vrindavan lit up pink and turquoise in the evening"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Banke Bihari Temple</h3>
+                  <GuideFigure src="/images/blogs/uttar-pradesh/vrindavan/banke-bihari-temple-vrindavan.webp" alt="Banke Bihari Temple, Vrindavan" />
                   <p>
                     Vrindavan's most-visited temple, dedicated to Krishna
                     in his "Banke Bihari" form. Unlike almost any other

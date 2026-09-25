@@ -542,6 +542,15 @@ export default function PaharganjGuidePage() {
                   </ul>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
+                      src="/images/blogs/delhi/paharganj/paharganj-main-bazaar-luggage-shop.webp"
+                      alt="A bags and luggage shop stall on Paharganj's Main Bazaar, stacked with backpacks and duffel bags"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
                       src="/images/blogs/delhi/paharganj/new-delhi-railway-station-ajmeri-gate-paharganj.webp"
                       alt="The Ajmeri Gate entrance of New Delhi Railway Station, the exit closest to Paharganj's Main Bazaar"
                       fill
@@ -578,15 +587,6 @@ export default function PaharganjGuidePage() {
                 {/* ── Main Bazaar ───────────────────────────────────────── */}
                 <section id="main-bazaar">
                   <h2>Main Bazaar</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/delhi/paharganj/main-bazaar-paharganj-street-scene.webp"
-                      alt="Pedestrians walking through Paharganj's Main Bazaar past shopfronts and a parked scooter"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <p>
                     <strong>Main Bazaar</strong> is Paharganj's central
                     pedestrianised strip and the reason most people come here
@@ -620,15 +620,6 @@ export default function PaharganjGuidePage() {
                       gave out mid-trip.
                     </li>
                   </ul>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/delhi/paharganj/paharganj-main-bazaar-luggage-shop.webp"
-                      alt="A bags and luggage shop stall on Paharganj's Main Bazaar, stacked with backpacks and duffel bags"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <ul>
                     <li>
                       <strong>Spices, incense & Ayurvedic goods:</strong>{" "}

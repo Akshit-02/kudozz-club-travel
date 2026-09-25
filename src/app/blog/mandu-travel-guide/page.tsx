@@ -7,10 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuidePhotoRow } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -28,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jaisalmer/fort.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Fortified sandstone architecture, representative of Mandu, Madhya Pradesh",
+        url: "/images/blogs/madhya-pradesh/mandu/jahaz-mahal-mandu.webp",
+        width: 1600,
+        height: 1067,
+        alt: "Jahaz Mahal, Mandu",
       },
     ],
   },
@@ -40,7 +37,7 @@ export const metadata: Metadata = {
     title: "Mandu Travel Guide: Jahaz Mahal, Monsoon Palaces & Afghan Ruins",
     description:
       "A monsoon capital of ship-shaped palaces and romantic ruins on a Malwa Plateau ridge — the complete guide to Mandu.",
-    images: ["/images/destinations/jaisalmer/fort.jpg"],
+    images: ["/images/blogs/madhya-pradesh/mandu/jahaz-mahal-mandu.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/mandu-travel-guide" },
 };
@@ -57,7 +54,7 @@ function ArticleSchema() {
           headline: "Mandu Travel Guide: Jahaz Mahal, Monsoon Palaces & Afghan Ruins",
           description:
             "The complete guide to Mandu, the ridge-top Malwa Sultanate city of monsoon palaces in Madhya Pradesh.",
-          image: "https://club.kudozz.in/images/destinations/jaisalmer/fort.jpg",
+          image: "https://club.kudozz.in/images/blogs/madhya-pradesh/mandu/jahaz-mahal-mandu.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: {
@@ -149,80 +146,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const MANDU_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for a spread-out ridge-top ruin city",
-    emoji: "🏰",
-    items: [
-      {
-        name: "Comfortable Walking/Trekking Shoes",
-        description:
-          "Mandu's monuments are spread across a wide plateau with uneven stone paths between them — proper footwear matters more here than at a single-complex site.",
-        price: "₹1,499",
-        image: "👟",
-        affiliateUrl: amazonSearchUrl("comfortable+trekking+walking+shoes"),
-        tag: "Ruin-city essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "The distances between Mandu's monument clusters are longer than a typical single-site temple visit — sore feet cut trips short.",
-      },
-      {
-        name: "Rented Scooter / Bike Access",
-        description:
-          "Locally rented two-wheelers are the practical way to cover Mandu's spread-out ruins efficiently — most travellers rent one for the day rather than walking between every cluster.",
-        price: "₹—",
-        image: "🛵",
-        affiliateUrl: amazonSearchUrl("compact+rain+poncho+travel"),
-        tag: "Local essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "Walking between every monument cluster at Mandu can eat up most of a day — a rented scooter turns it into an efficient half-day loop.",
-      },
-      {
-        name: "Compact Rain Poncho",
-        description:
-          "If you're visiting in monsoon season for Mandu's famous green look, a packable poncho keeps you dry between palace stops without weighing down a daypack.",
-        price: "₹299",
-        image: "🌂",
-        affiliateUrl: amazonSearchUrl("compact+rain+poncho+travel"),
-        tag: "Monsoon essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Mandu's monsoon visit season means genuine rain risk — a poncho beats an umbrella for two-wheeler travel between ruins.",
-      },
-      {
-        name: "2L Hydration Bottle",
-        description:
-          "Facilities are sparse between Mandu's monument clusters, especially outside the main Jahaz Mahal area.",
-        price: "₹449",
-        image: "💧",
-        affiliateUrl: amazonSearchUrl("2l+hydration+water+bottle+travel"),
-        tag: "All-day essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "There are long stretches between clusters like Rani Roopmati's Pavilion with no shops in sight.",
-      },
-      {
-        name: "Wide-Brim Sun Hat",
-        description: "Outside monsoon season, Mandu's open plateau offers minimal shade across a full day of ruin-hopping.",
-        price: "₹399",
-        image: "👒",
-        affiliateUrl: amazonSearchUrl("wide+brim+sun+hat+travel"),
-        tag: "Sun essential",
-        tagColor: "bg-orange-100 text-orange-700",
-        why: "Between Oct and May, Mandu's exposed ridge-top setting gets intense midday sun with few shaded rest points.",
-      },
-      {
-        name: "Camera for Landscape Shots",
-        description: "The Narmada valley views from Rani Roopmati's Pavilion and Baz Bahadur's Palace are Mandu's signature photo opportunities.",
-        price: "₹—",
-        image: "📷",
-        affiliateUrl: amazonSearchUrl("mirrorless+camera+travel"),
-        tag: "Photography essential",
-        tagColor: "bg-stone-100 text-stone-700",
-        why: "Mandu's ridge-top vantage points offer some of Madhya Pradesh's best sunset views over the Narmada valley.",
-      },
-    ],
-  },
-];
-
 // ── Page ─────────────────────────────────────────────────────────────────────
 export default function ManduGuidePage() {
   return (
@@ -236,8 +159,8 @@ export default function ManduGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jaisalmer/fort.jpg"
-              alt="Fortified sandstone architecture, representative of Mandu, Madhya Pradesh"
+              src="/images/blogs/madhya-pradesh/mandu/jahaz-mahal-mandu.webp"
+              alt="Jahaz Mahal, Mandu"
               fill
               priority
               sizes="100vw"
@@ -430,8 +353,8 @@ export default function ManduGuidePage() {
                   <h2>Top Things to See in Mandu</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/jaisalmer/fort.jpg"
-                      alt="Sandstone fort ruins representative of Mandu"
+                      src="/images/blogs/madhya-pradesh/mandu/mandu.webp"
+                      alt="Mandu, Madhya Pradesh"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -464,6 +387,12 @@ export default function ManduGuidePage() {
                       courtyard and simple, monumental scale.
                     </li>
                   </ul>
+                  <GuidePhotoRow
+                    images={[
+                      { src: "/images/blogs/madhya-pradesh/mandu/hoshang-shah-s-tomb-mandu.webp", alt: "Hoshang Shah's Tomb, Mandu", caption: "Hoshang Shah's Tomb, Mandu" },
+                      { src: "/images/blogs/madhya-pradesh/mandu/jami-masjid-mandu.webp", alt: "Jami Masjid, Mandu", caption: "Jami Masjid, Mandu" },
+                    ]}
+                  />
                 </section>
 
                 <section id="where-to-stay">
@@ -637,8 +566,6 @@ export default function ManduGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              <TrekGearRecommendations sections={MANDU_GEAR} destination="Mandu" />
 
               <RelatedPostsGrid currentSlug="mandu-travel-guide" />
             </article>

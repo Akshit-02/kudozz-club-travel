@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/coorg/coorg.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Lush green hillside village setting, evoking Mawlynnong's forested East Khasi Hills landscape",
+        url: "/images/blogs/meghalaya/mawlynnong/mawlynnong.webp",
+        width: 1600,
+        height: 1067,
+        alt: "View of Mawlynnong, Meghalaya",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Mawlynnong Guide: India's Cleanest Village",
     description:
       "Community-driven cleanliness, a living root bridge, and a bamboo tower with views toward Bangladesh — the complete Mawlynnong guide.",
-    images: ["/images/destinations/coorg/coorg.jpg"],
+    images: ["/images/blogs/meghalaya/mawlynnong/mawlynnong.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/mawlynnong-travel-guide",
@@ -59,7 +60,7 @@ function ArticleSchema() {
           headline: "Mawlynnong Guide: India's Cleanest Village",
           description:
             "Complete Mawlynnong guide — Asia's Cleanest Village, its community-driven cleanliness culture, a living root bridge, the Sky View bamboo tower, how to reach from Shillong, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/coorg/coorg.jpg",
+          image: "https://club.kudozz.in/images/blogs/meghalaya/mawlynnong/mawlynnong.webp",
           datePublished: "2026-09-05",
           dateModified: "2026-09-05",
           publisher: {
@@ -200,8 +201,8 @@ export default function MawlynnongGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/coorg/coorg.jpg"
-              alt="Lush green hillside village setting, evoking Mawlynnong's forested East Khasi Hills landscape"
+              src="/images/blogs/meghalaya/mawlynnong/mawlynnong.webp"
+              alt="View of Mawlynnong, Meghalaya"
               fill
               priority
               sizes="100vw"
@@ -527,15 +528,6 @@ export default function MawlynnongGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Cleanliness Culture, Root Bridge & Sky View</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/coorg/coorg.jpg"
-                      alt="Green hillside village lanes, evoking Mawlynnong's spotless walking paths"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>The Cleanliness Culture</h3>
                   <p>
                     Walk the village and the cleanliness is immediately
@@ -545,6 +537,7 @@ export default function MawlynnongGuidePage() {
                     the community treats its shared spaces.
                   </p>
                   <h3>The Living Root Bridge</h3>
+                  <GuideFigure src="/images/blogs/meghalaya/mawlynnong/the-living-root-bridge-mawlynnong.webp" alt="The Living Root Bridge, Mawlynnong" />
                   <p>
                     Mawlynnong has its own living root bridge, formed by
                     training the aerial roots of rubber fig trees across a

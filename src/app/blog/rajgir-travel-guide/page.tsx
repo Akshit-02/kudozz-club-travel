@@ -7,8 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuidePhotoRow } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
   title: "Rajgir Travel Guide: Hot Springs, Ropeway & Buddhist Heritage",
@@ -22,13 +21,13 @@ export const metadata: Metadata = {
     url: "https://club.kudozz.in/blog/rajgir-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/coorg/coorg.jpg", width: 1200, height: 630, alt: "Misty hill scenery representative of Rajgir, Bihar" }],
+    images: [{ url: "/images/blogs/bihar/rajgir/rajgir.webp", width: 1600, height: 1200, alt: "View of Rajgir, Bihar" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Rajgir Travel Guide: Hot Springs, Ropeway & Buddhist Heritage",
     description: "Hot springs, an ancient ropeway, and Buddhist heritage — the complete guide to Rajgir.",
-    images: ["/images/destinations/coorg/coorg.jpg"],
+    images: ["/images/blogs/bihar/rajgir/rajgir.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/rajgir-travel-guide" },
 };
@@ -39,7 +38,7 @@ function ArticleSchema() {
       "@context": "https://schema.org", "@type": "BlogPosting",
       headline: "Rajgir Travel Guide: Hot Springs, Ropeway & Buddhist Heritage",
       description: "The complete Rajgir travel guide.",
-      image: "https://club.kudozz.in/images/destinations/coorg/coorg.jpg",
+      image: "https://club.kudozz.in/images/blogs/bihar/rajgir/rajgir.webp",
       datePublished: "2026-09-08", dateModified: "2026-09-08",
       publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
       author: { "@type": "Organization", name: "Kudozz Club" },
@@ -86,16 +85,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const RAJGIR_GEAR: GearSection[] = [{
-  title: "Things Worth Carrying", subtitle: "Gear for hill viewpoints and the hot springs", emoji: "🚡",
-  items: [
-    { name: "Comfortable Walking/Climbing Shoes", description: "For Griddhakuta Hill's trail and general walking between sites around town.", price: "₹1,999",  image: "🥾", affiliateUrl: amazonSearchUrl("comfortable+trekking+shoes"), tag: "Hill essential", tagColor: "bg-amber-100 text-amber-700", why: "The walking trail up Griddhakuta Hill has real elevation gain." },
-    { name: "Swimwear", description: "If you plan to bathe at the natural hot springs.", price: "₹—",  image: "🩱", affiliateUrl: amazonSearchUrl("swimwear+travel"), tag: "Hot springs essential", tagColor: "bg-sky-100 text-sky-700", why: "The sulphur springs are a genuine local draw worth being prepared for." },
-    { name: "Sun Hat", description: "For hilltop viewpoints and the open ropeway ride with direct sun exposure.", price: "₹399",  image: "🧢", affiliateUrl: amazonSearchUrl("sun+hat+travel+outdoor"), tag: "Sun essential", tagColor: "bg-forest-100 text-forest-700", why: "Hilltop sites and the ropeway offer little shade." },
-    { name: "Camera", description: "For panoramic views from Vishwa Shanti Stupa and the ropeway ride itself.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-purple-100 text-purple-700", why: "The hilltop panorama is one of Rajgir's best photo opportunities." },
-  ],
-}];
-
 export default function RajgirGuidePage() {
   return (
     <>
@@ -103,7 +92,7 @@ export default function RajgirGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/coorg/coorg.jpg" alt="Misty hill scenery representative of Rajgir, Bihar" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/bihar/rajgir/rajgir.webp" alt="View of Rajgir, Bihar" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -207,9 +196,6 @@ export default function RajgirGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do in Rajgir</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/coorg/coorg.jpg" alt="Hill scenery around Rajgir" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>Griddhakuta Hill (Vulture's Peak):</strong> A site where Buddha spent significant time teaching, reachable by ropeway or walking trail.</li>
                     <li><strong>Rajgir Ropeway:</strong> One of India's earliest aerial cableways, connecting to hilltop viewpoints and the Vishwa Shanti Stupa.</li>
@@ -217,6 +203,12 @@ export default function RajgirGuidePage() {
                     <li><strong>Natural hot springs:</strong> Sulphur springs at the base of Vaibhav hill, considered sacred by many visitors.</li>
                     <li><strong>Bimbisara's Jail and Ajatashatru's Fort:</strong> Ruins associated with ancient Magadha royal history, among India's oldest identified jail sites.</li>
                   </ul>
+                  <GuidePhotoRow
+                    images={[
+                      { src: "/images/blogs/bihar/rajgir/griddhakuta-hill-rajgir.webp", alt: "Griddhakuta Hill, Rajgir", caption: "Griddhakuta Hill, Rajgir" },
+                      { src: "/images/blogs/bihar/rajgir/vishwa-shanti-stupa-rajgir.webp", alt: "Vishwa Shanti Stupa, Rajgir", caption: "Vishwa Shanti Stupa, Rajgir" },
+                    ]}
+                  />
                 </section>
 
                 <section id="where-to-stay">
@@ -333,7 +325,6 @@ export default function RajgirGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={RAJGIR_GEAR} destination="Rajgir" />
               <RelatedPostsGrid currentSlug="rajgir-travel-guide" />
             </article>
             <div className="hidden xl:block w-64 2xl:w-72 flex-shrink-0"><div className="sticky top-24"><RelatedSidebar currentSlug="rajgir-travel-guide" /></div></div>

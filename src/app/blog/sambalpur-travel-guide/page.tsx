@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/kerala/alleppey.jpg",
+        url: "/images/blogs/odisha/sambalpur/samaleswari-temple-sambalpur.webp",
         width: 1200,
-        height: 630,
-        alt: "Large reservoir with calm water, evoking Sambalpur's Hirakud Dam and its vast Mahanadi reservoir",
+        height: 900,
+        alt: "Samaleswari Temple, Sambalpur",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Sambalpur Guide: Hirakud Dam & Sarees",
     description:
       "One of the world's longest earthen dams, and the home of Sambalpuri ikat weaving — the complete Sambalpur guide.",
-    images: ["/images/destinations/kerala/alleppey.jpg"],
+    images: ["/images/blogs/odisha/sambalpur/samaleswari-temple-sambalpur.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/sambalpur-travel-guide",
@@ -59,7 +60,7 @@ function ArticleSchema() {
           headline: "Sambalpur Guide: Hirakud Dam & Sarees",
           description:
             "Complete Sambalpur guide — the Hirakud Dam reservoir, Sambalpuri ikat sarees and where to buy them, Samaleswari Temple, Debrigarh Wildlife Sanctuary, how to reach from Bhubaneswar, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/kerala/alleppey.jpg",
+          image: "https://club.kudozz.in/images/blogs/odisha/sambalpur/samaleswari-temple-sambalpur.webp",
           datePublished: "2026-09-04",
           dateModified: "2026-09-04",
           publisher: {
@@ -196,8 +197,8 @@ export default function SambalpurGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/kerala/alleppey.jpg"
-              alt="Large reservoir with calm water, evoking Sambalpur's Hirakud Dam and its vast Mahanadi reservoir"
+              src="/images/blogs/odisha/sambalpur/samaleswari-temple-sambalpur.webp"
+              alt="Samaleswari Temple, Sambalpur"
               fill
               priority
               sizes="100vw"
@@ -519,15 +520,6 @@ export default function SambalpurGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Hirakud Dam, Sarees & Temples</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/kerala/alleppey.jpg"
-                      alt="Reservoir and calm water near Sambalpur, Odisha"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Hirakud Dam & Reservoir</h3>
                   <p>
                     Built across the Mahanadi, Hirakud is one of the
@@ -538,6 +530,7 @@ export default function SambalpurGuidePage() {
                     water.
                   </p>
                   <h3>Sambalpuri Ikat Weaving</h3>
+                  <GuideFigure src="/images/blogs/odisha/sambalpur/sambalpuri-ikat-weaving.webp" alt="Sambalpuri Ikat Weaving, Odisha" />
                   <p>
                     Sambalpur's handloom clusters and weaver cooperatives
                     are where the region's famous ikat sarees are actually
@@ -556,6 +549,7 @@ export default function SambalpurGuidePage() {
                     the looms.
                   </p>
                   <h3>Debrigarh Wildlife Sanctuary</h3>
+                  <GuideFigure src="/images/blogs/odisha/sambalpur/debrigarh-wildlife-sanctuary-sambalpur.webp" alt="Debrigarh Wildlife Sanctuary, Sambalpur" />
                   <p>
                     A forested sanctuary along the reservoir's edge,
                     worth a visit for anyone with an extra day and an

@@ -7,8 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Tirathgarh Falls Travel Guide: Multi-Tiered Cascade in Kanger Valley",
@@ -20,7 +18,7 @@ export const metadata: Metadata = {
     title: "Tirathgarh Falls Travel Guide: Multi-Tiered Cascade in Kanger Valley",
     description: "A waterfall that splits into multiple staggered tiers as it drops through dense sal forest inside Kanger Valley National Park — the complete guide to Tirathgarh.",
     url: "https://club.kudozz.in/blog/tirathgarh-travel-guide", type: "article", siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/coorg/coorg.jpg", width: 1200, height: 630, alt: "Forested multi-tiered waterfall representative of Tirathgarh Falls, Chhattisgarh" }],
+    images: [{ url: "/images/destinations/coorg/coorg.jpg", width: 2560, height: 1707, alt: "Forested multi-tiered waterfall representative of Tirathgarh Falls, Chhattisgarh" }],
   },
   twitter: { card: "summary_large_image", title: "Tirathgarh Falls Travel Guide: Multi-Tiered Cascade in Kanger Valley", description: "A multi-tiered cascade through sal forest inside Kanger Valley National Park — the complete guide to Tirathgarh.", images: ["/images/destinations/coorg/coorg.jpg"] },
   alternates: { canonical: "https://club.kudozz.in/blog/tirathgarh-travel-guide" },
@@ -78,16 +76,6 @@ const tableOfContents = [
   { id: "tips", title: "Essential Travel Tips", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
-
-const TIRATHGARH_GEAR: GearSection[] = [{
-  title: "Things Worth Carrying", subtitle: "Gear for wet rocks and forest paths", emoji: "🌿",
-  items: [
-    { name: "Sturdy Sandals with Grip", description: "For wet rock sections near the base and multi-tiered pools.", price: "₹899",  image: "🥾", affiliateUrl: amazonSearchUrl("grip+sandals+outdoor+wet"), tag: "Base essential", tagColor: "bg-amber-100 text-amber-700", why: "The staggered tiers mean more wet-rock walking than a single-drop waterfall." },
-    { name: "Swimwear", description: "For the lower pools when conditions allow — check locally before swimming.", price: "₹—",  image: "🩱", affiliateUrl: amazonSearchUrl("quick+dry+swimwear"), tag: "Optional", tagColor: "bg-sky-100 text-sky-700", why: "Some lower pools are swimmable in drier months, weather permitting." },
-    { name: "Insect Repellent", description: "The surrounding sal forest is genuinely dense — mosquitoes and other insects are a real presence.", price: "₹199",  image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Forest essential", tagColor: "bg-forest-100 text-forest-700", why: "Dense forest cover keeps the area cool but also mosquito-friendly." },
-    { name: "Camera", description: "The multi-tiered structure is genuinely distinctive and photogenic from several angles.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-purple-100 text-purple-700", why: "The staggered tiers photograph very differently than a standard single-drop falls." },
-  ],
-}];
 
 export default function TirathgarhGuidePage() {
   return (
@@ -199,9 +187,6 @@ export default function TirathgarhGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do at Tirathgarh</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/coorg/coorg.jpg" alt="Multi-tiered forest waterfall scenery at Tirathgarh" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>Multi-tiered viewpoints:</strong> Different levels offer distinct views of the staggered cascade.</li>
                     <li><strong>Shiva shrine:</strong> A small shrine near the base, a modest local pilgrimage element.</li>
@@ -320,7 +305,6 @@ export default function TirathgarhGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={TIRATHGARH_GEAR} destination="Tirathgarh Falls" />
               <RelatedPostsGrid currentSlug="tirathgarh-travel-guide" />
             </article>
             <div className="hidden xl:block w-64 2xl:w-72 flex-shrink-0"><div className="sticky top-24"><RelatedSidebar currentSlug="tirathgarh-travel-guide" /></div></div>

@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -544,16 +545,8 @@ export default function ChoptaGuidePage() {
                 {/* ── Attractions ────────────────────────────────────────── */}
                 <section id="attractions">
                   <h2>The Trek & Key Sites</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/uttarakhand/chopta/chopta-meadow-camping-himalayan-view.webp"
-                      alt="Camp tents on the grassy bugyal meadow near Chopta, on the trail toward Tungnath and Chandrashila"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Tungnath Temple</h3>
+                  <GuideFigure src="/images/blogs/uttarakhand/chopta/tungnath-temple-chopta.webp" alt="Tungnath Temple, Chopta" />
                   <p>
                     Roughly 3.5-4 km up a well-paved, moderately steep trail
                     from Chopta, Tungnath is widely regarded as the highest
@@ -564,6 +557,7 @@ export default function ChoptaGuidePage() {
                     opening into alpine meadow near the top.
                   </p>
                   <h3>Chandrashila Summit</h3>
+                  <GuideFigure src="/images/blogs/uttarakhand/chopta/chandrashila-summit-chopta.webp" alt="Chandrashila Summit, Chopta" />
                   <p>
                     A further, steeper 1.5 km push beyond Tungnath reaches
                     Chandrashila summit at roughly 4,000 metres — a genuine

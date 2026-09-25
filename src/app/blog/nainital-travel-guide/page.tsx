@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -25,8 +26,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/blogs/uttarakhand/nainital/colorful-boats-naini-lake-nainital.webp",
-        width: 1200,
-        height: 630,
+        width: 1400,
+        height: 1888,
         alt: "Colourful rowboats moored on Naini Lake with Nainital town and forested hills beyond, Kumaon",
       },
     ],
@@ -539,16 +540,8 @@ export default function NainitalGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Things to Do in Nainital</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/uttarakhand/nainital/colorful-boats-naini-lake-nainital.webp"
-                      alt="Rowboats on Naini Lake with Nainital's hillside town along the shore, Uttarakhand"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Naini Lake & Naina Devi Temple</h3>
+                  <GuideFigure src="/images/blogs/uttarakhand/nainital/naini-lake-and-naina-devi-temple-nainital.webp" alt="Naini Lake & Naina Devi Temple, Nainital" />
                   <p>
                     The lake is Nainital's centrepiece — paddle boats and
                     larger rowed boats run from ghats at both the Mallital
@@ -560,6 +553,7 @@ export default function NainitalGuidePage() {
                     sites, and usually busy with both pilgrims and visitors.
                   </p>
                   <h3>Mall Road</h3>
+                  <GuideFigure src="/images/blogs/uttarakhand/nainital/mall-road-nainital.webp" alt="Mall Road, Nainital" />
                   <p>
                     Running along the lake's eastern edge between Mallital
                     and Tallital, Mall Road is Nainital's main promenade —

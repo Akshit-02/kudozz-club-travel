@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -544,15 +545,7 @@ export default function TarapithGuidePage() {
                 {/* ── Attractions ────────────────────────────────────────── */}
                 <section id="attractions">
                   <h2>Temple & Attractions</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/west-bengal/tarapith/maa-tara-temple-dome-tarapith.webp"
-                      alt="Close view of the Maa Tara Temple's ornate domed structure at Tarapith, Birbhum district"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
+                  <GuideFigure src="/images/blogs/west-bengal/tarapith/tarapith-view.webp" alt="Tarapith, West Bengal" />
                   <h3>Tarapith Temple (Maa Tara Temple)</h3>
                   <p>
                     The heart of the pilgrimage — a temple dedicated to Maa

@@ -7,10 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Vaishali Travel Guide: The World's First Republic & Buddha's Last Sermon",
@@ -27,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/meghalaya/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Ancient stupa and green plains landscape evoking Vaishali, Bihar",
+        url: "/images/blogs/bihar/vaishali/vaishali.webp",
+        width: 1280,
+        height: 960,
+        alt: "Vaishali, Bihar",
       },
     ],
   },
@@ -39,7 +35,7 @@ export const metadata: Metadata = {
     title: "Vaishali Travel Guide: The World's First Republic & Buddha's Last Sermon",
     description:
       "The ancient Licchavi republic and the site of Buddha's final sermon — the complete guide to Vaishali.",
-    images: ["/images/destinations/meghalaya/hero.jpg"],
+    images: ["/images/blogs/bihar/vaishali/vaishali.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/vaishali-travel-guide",
@@ -57,7 +53,7 @@ function ArticleSchema() {
           headline:
             "Vaishali Travel Guide: The World's First Republic & Buddha's Last Sermon",
           description: "The complete Vaishali travel guide.",
-          image: "https://club.kudozz.in/images/destinations/meghalaya/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/bihar/vaishali/vaishali.webp",
           datePublished: "2026-09-08",
           dateModified: "2026-09-08",
           publisher: {
@@ -159,58 +155,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const VAISHALI_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for a day of open-site heritage walking",
-    emoji: "🏛️",
-    items: [
-      {
-        name: "Comfortable Walking Shoes",
-        description:
-          "The Kolhua site and stupa grounds involve walking on gravel and open ground with little shade.",
-        price: "₹1,499",
-        image: "👟",
-        affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
-        tag: "Sightseeing essential",
-        tagColor: "bg-stone-100 text-stone-700",
-        why: "Vaishali's excavated sites are spread across open ground with uneven gravel paths.",
-      },
-      {
-        name: "Sunscreen (SPF 50)",
-        description:
-          "Little shade across the archaeological grounds, and Bihar's Gangetic plain sun is intense outside winter.",
-        price: "₹399",
-        image: "🧴",
-        affiliateUrl: amazonSearchUrl("sunscreen+spf+50+travel"),
-        tag: "Everyday essential",
-        tagColor: "bg-red-100 text-red-700",
-        why: "The Kolhua pillar and stupa sites offer virtually no shade for extended periods.",
-      },
-      {
-        name: "Reusable Water Bottle",
-        description: "Facilities are minimal around the excavation sites — carry your own water.",
-        price: "₹699",
-        image: "🍶",
-        affiliateUrl: amazonSearchUrl("insulated+water+bottle+steel"),
-        tag: "Everyday essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "This is a day-trip destination with thin local infrastructure.",
-      },
-      {
-        name: "Sun Hat",
-        description: "For extended time in the open at Kolhua and the museum grounds.",
-        price: "₹449",
-        image: "🧢",
-        affiliateUrl: amazonSearchUrl("sun+hat+travel+outdoor"),
-        tag: "Everyday essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "Direct sun exposure adds up quickly on a full day of open-site sightseeing.",
-      },
-    ],
-  },
-];
-
 export default function VaishaliGuidePage() {
   return (
     <>
@@ -222,8 +166,8 @@ export default function VaishaliGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/meghalaya/hero.jpg"
-              alt="Ancient stupa and green plains landscape evoking Vaishali, Bihar"
+              src="/images/blogs/bihar/vaishali/vaishali.webp"
+              alt="Vaishali, Bihar"
               fill
               priority
               sizes="100vw"
@@ -437,15 +381,6 @@ export default function VaishaliGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do in Vaishali</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/meghalaya/hero.jpg"
-                      alt="Ancient stupa and archaeological grounds at Vaishali"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <ul>
                     <li>
                       <strong>Ashokan Pillar at Kolhua:</strong> A well-preserved lion-capital pillar
@@ -714,8 +649,6 @@ export default function VaishaliGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              <TrekGearRecommendations sections={VAISHALI_GEAR} destination="Vaishali" />
 
               <RelatedPostsGrid currentSlug="vaishali-travel-guide" />
             </article>

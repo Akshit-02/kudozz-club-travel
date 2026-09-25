@@ -380,6 +380,15 @@ export default function MajnuKaTillaGuidePage() {
                     dominate most Delhi itineraries.
                   </p>
 
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/majnu-ka-tilla/tibetan-monastery-entrance-prayer-wheels.webp"
+                      alt="The painted entrance of a Tibetan Buddhist monastery in Majnu Ka Tilla, with a Buddha mural, prayer wheels, and Tibetan script banners"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   {/* At a Glance */}
                   <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 my-8">
                     <h4
@@ -506,6 +515,15 @@ export default function MajnuKaTillaGuidePage() {
                     ))}
                   </div>
 
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/majnu-ka-tilla/steamed-momos-chilli-chutney.webp"
+                      alt="A plate of steamed momos served with a bowl of spicy red chilli chutney, the neighbourhood's signature dish"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <blockquote>
                     <strong>Our pick:</strong> a weekday evening between
                     October and March — cool enough for a relaxed walk, and
@@ -680,15 +698,6 @@ export default function MajnuKaTillaGuidePage() {
                     best signal of quality in Majnu Ka Tilla's food scene.
                   </div>
 
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/delhi/majnu-ka-tilla/steamed-momos-chilli-chutney.webp"
-                      alt="A plate of steamed momos served with a bowl of spicy red chilli chutney, the neighbourhood's signature dish"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                 </section>
 
                 {/* ── Monastery ─────────────────────────────────────────── */}
@@ -704,15 +713,6 @@ export default function MajnuKaTillaGuidePage() {
                     away from the crowds.
                   </p>
 
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/delhi/majnu-ka-tilla/tibetan-monastery-entrance-prayer-wheels.webp"
-                      alt="The painted entrance of a Tibetan Buddhist monastery in Majnu Ka Tilla, with a Buddha mural, prayer wheels, and Tibetan script banners"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
 
                   <p>
                     Beyond the monastery, Majnu Ka Tilla functions as a real,

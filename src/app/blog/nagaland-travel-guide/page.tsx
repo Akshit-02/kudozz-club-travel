@@ -7,10 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -186,84 +182,6 @@ function FAQSchema() {
     />
   );
 }
-
-// ── Nagaland-specific gear ─────────────────────────────────────────────────
-const NAGALAND_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle:
-      "Gear for the Dzukou Valley trek, chilly Hornbill Festival nights, and hilly tribal terrain",
-    emoji: "🪶",
-    items: [
-      {
-        name: "Trekking Shoes",
-        description:
-          "The Dzukou Valley trek involves steep, sometimes muddy ascents through forest and bamboo groves before opening into the valley.",
-        price: "₹2,499",
-        image: "🥾",
-        affiliateUrl: amazonSearchUrl("trekking+shoes+waterproof"),
-        tag: "Trek essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "The climb to Dzukou is steep and can be slippery after rain — proper grip matters far more than casual sneakers.",
-      },
-      {
-        name: "Insulated Jacket",
-        description:
-          "Kohima and the Hornbill Festival grounds at Kisama get genuinely cold in the evenings, especially through December.",
-        price: "₹1,999",
-        image: "🧥",
-        affiliateUrl: amazonSearchUrl("insulated+jacket+travel"),
-        tag: "Evening essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "December temperatures in Kohima and Kisama can drop close to freezing at night, especially during the Hornbill Festival.",
-      },
-      {
-        name: "Rain Jacket / Poncho",
-        description:
-          "Nagaland's hill weather is changeable — showers can appear with little warning even outside monsoon.",
-        price: "₹599",
-        image: "🌂",
-        affiliateUrl: amazonSearchUrl("rain+jacket+poncho+travel"),
-        tag: "Weather essential",
-        tagColor: "bg-stone-100 text-stone-700",
-        why: "Cloud and mist roll into the hills quickly, particularly around Dzukou and Khonoma — worth having even on clear-looking days.",
-      },
-      {
-        name: "Power Bank (10,000 mAh)",
-        description:
-          "Useful for day trips beyond Kohima and Dimapur, where charging points thin out fast.",
-        price: "₹1,299",
-        image: "🔋",
-        affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
-        tag: "Day-trip essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "Villages like Khonoma and Mon have limited charging infrastructure compared to Kohima or Dimapur.",
-      },
-      {
-        name: "Reusable Water Bottle",
-        description:
-          "Handy across long trekking days in Dzukou Valley and extended sightseeing around Kohima.",
-        price: "₹699",
-        image: "🍶",
-        affiliateUrl: amazonSearchUrl("insulated+water+bottle+steel"),
-        tag: "Everyday essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "There are few reliable shops along the Dzukou trail — carrying enough water is essential, not optional.",
-      },
-      {
-        name: "Basic First Aid Kit",
-        description:
-          "Worth having given the trekking involved and the modest medical infrastructure outside Kohima and Dimapur.",
-        price: "₹599",
-        image: "🩹",
-        affiliateUrl: amazonSearchUrl("travel+first+aid+kit"),
-        tag: "Trek essential",
-        tagColor: "bg-red-100 text-red-700",
-        why: "Medical facilities are concentrated in Kohima and Dimapur — basic self-sufficiency matters on the Dzukou trek and rural village visits.",
-      },
-    ],
-  },
-];
 
 // ── Page ─────────────────────────────────────────────────────────────────────
 export default function NagalandGuidePage() {
@@ -1306,12 +1224,6 @@ export default function NagalandGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              {/* ── Gear Recommendations ──────────────────────────────── */}
-              <TrekGearRecommendations
-                sections={NAGALAND_GEAR}
-                destination="Nagaland"
-              />
 
               <RelatedPostsGrid currentSlug="nagaland-travel-guide" />
             </article>

@@ -7,8 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Sultanpur National Park Travel Guide: Birdwatching Near Delhi",
@@ -22,13 +20,13 @@ export const metadata: Metadata = {
     url: "https://club.kudozz.in/blog/sultanpur-national-park-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/kerala/alleppey.jpg", width: 1200, height: 630, alt: "Wetland habitat representative of Sultanpur National Park, Haryana" }],
+    images: [{ url: "/images/blogs/haryana/sultanpur-national-park/sultanpur-national-park.webp", width: 1600, height: 1200, alt: "View of Sultanpur National Park, Haryana" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Sultanpur National Park Travel Guide: Birdwatching Near Delhi",
     description: "A migratory bird spectacle every winter, barely an hour from Delhi — the complete guide to Sultanpur National Park.",
-    images: ["/images/destinations/kerala/alleppey.jpg"],
+    images: ["/images/blogs/haryana/sultanpur-national-park/sultanpur-national-park.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/sultanpur-national-park-travel-guide" },
 };
@@ -43,7 +41,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Sultanpur National Park Travel Guide: Birdwatching Near Delhi",
           description: "The complete Sultanpur National Park travel guide.",
-          image: "https://club.kudozz.in/images/destinations/kerala/alleppey.jpg",
+          image: "https://club.kudozz.in/images/blogs/haryana/sultanpur-national-park/sultanpur-national-park.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
@@ -116,52 +114,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const SULTANPUR_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for a focused half-day of birdwatching",
-    emoji: "🦩",
-    items: [
-      {
-        name: "Binoculars",
-        description: "Essential for spotting birds across the wetland, especially species further from the watchtowers.",
-        price: "₹1,999",
-        image: "🔭",
-        affiliateUrl: amazonSearchUrl("binoculars+birdwatching"),
-        tag: "Non-negotiable",
-        tagColor: "bg-red-100 text-red-700",
-        why: "This is a wetland/bird-focused destination — without binoculars, most of the appeal is lost." },
-      {
-        name: "Telephoto Camera Lens",
-        description: "For photographing birds at a respectful distance without disturbing them.",
-        price: "₹8,999+",
-        image: "📷",
-        affiliateUrl: amazonSearchUrl("telephoto+lens+bird+photography"),
-        tag: "Photography essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "A longer lens is the difference between a documentary shot and an unusable speck in the frame." },
-      {
-        name: "Neutral-Toned Clothing",
-        description: "Muted colors are less disruptive to wildlife and improve your viewing experience near the watchtowers.",
-        price: "₹1,299",
-        image: "🧥",
-        affiliateUrl: amazonSearchUrl("neutral+outdoor+clothing"),
-        tag: "Birding essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "Bright colors are more likely to startle birds before you get a good look." },
-      {
-        name: "Sun Hat",
-        description: "Watchtowers and open wetland viewpoints offer little shade during a winter-morning visit.",
-        price: "₹499",
-        image: "🧢",
-        affiliateUrl: amazonSearchUrl("sun+hat+outdoor+travel"),
-        tag: "Comfort essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Even in winter, extended time in the open wetland means real sun exposure." },
-    ],
-  },
-];
-
 export default function SultanpurGuidePage() {
   return (
     <>
@@ -173,8 +125,8 @@ export default function SultanpurGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/kerala/alleppey.jpg"
-              alt="Wetland habitat representative of Sultanpur National Park, Haryana"
+              src="/images/blogs/haryana/sultanpur-national-park/sultanpur-national-park.webp"
+              alt="View of Sultanpur National Park, Haryana"
               fill
               priority
               sizes="100vw"
@@ -321,15 +273,6 @@ export default function SultanpurGuidePage() {
 
                 <section id="top-attractions">
                   <h2>What to Do & See</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/kerala/alleppey.jpg"
-                      alt="Wetland scenery representative of Sultanpur National Park"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <ul>
                     <li><strong>Watchtowers:</strong> Positioned around the wetland for unobtrusive bird viewing without disturbing the habitat.</li>
                     <li><strong>Migratory waterbirds:</strong> Commonly cited species include various ducks, painted storks, and other waders, with flamingos reported in some years — treat sightings as variable rather than guaranteed.</li>
@@ -478,8 +421,6 @@ export default function SultanpurGuidePage() {
                   <Link key={tag} href={`/blog?tag=${tag.toLowerCase().replace(/ /g, "-")}`} className="tag-pill">#{tag}</Link>
                 ))}
               </div>
-
-              <TrekGearRecommendations sections={SULTANPUR_GEAR} destination="Sultanpur National Park" />
 
               <RelatedPostsGrid currentSlug="sultanpur-national-park-travel-guide" />
             </article>

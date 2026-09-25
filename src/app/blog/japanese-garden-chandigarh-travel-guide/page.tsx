@@ -24,10 +24,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/chandigarh/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "A calm lake reflecting the hills beyond, evoking the still central pond and quiet waterside paths of the Japanese Garden in Chandigarh",
+        url: "/images/blogs/chandigarh/japanese-garden-chandigarh/japanese-garden-chandigarh.webp",
+        width: 1600,
+        height: 1200,
+        alt: "Japanese Garden Chandigarh",
       },
     ],
   },
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     title: "Japanese Garden Chandigarh: Travel Guide, Timings & Tips",
     description:
       "A calm pond, arched bridges, and pagoda-style pavilions — the complete guide to Chandigarh's quietest themed garden.",
-    images: ["/images/destinations/chandigarh/hero.jpg"],
+    images: ["/images/blogs/chandigarh/japanese-garden-chandigarh/japanese-garden-chandigarh.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/japanese-garden-chandigarh-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           headline: "Japanese Garden Chandigarh: Travel Guide, Timings & Tips",
           description:
             "Complete guide to the Japanese Garden in Chandigarh — a quiet, pond-and-pagoda landscaped garden. Best time to visit, how to reach, what to expect, and nearby gardens to combine it with.",
-          image: "https://club.kudozz.in/images/destinations/chandigarh/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/chandigarh/japanese-garden-chandigarh/japanese-garden-chandigarh.webp",
           datePublished: "2026-08-31",
           dateModified: "2026-08-31",
           publisher: {
@@ -201,8 +201,8 @@ export default function JapaneseGardenGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/chandigarh/hero.jpg"
-              alt="A calm lake reflecting the hills beyond, evoking the still central pond and quiet waterside paths of the Japanese Garden in Chandigarh"
+              src="/images/blogs/chandigarh/japanese-garden-chandigarh/japanese-garden-chandigarh.webp"
+              alt="Japanese Garden Chandigarh"
               fill
               priority
               sizes="100vw"
@@ -567,15 +567,6 @@ export default function JapaneseGardenGuidePage() {
                     from Japanese landscaping traditions.
                   </p>
 
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/chandigarh/hero.jpg"
-                      alt="A calm, tree-lined body of water, evoking the central pond crossed by arched bridges at the Japanese Garden in Chandigarh"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
 
                   <h3>Design & Layout</h3>
                   <p>

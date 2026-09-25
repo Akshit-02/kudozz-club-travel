@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/spiti-valley/spiti-valley.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Rugged hill and valley terrain, evoking Jawai's granite hills and leopard habitat in Rajasthan",
+        url: "/images/blogs/rajasthan/jawai/jawai-dam-3.webp",
+        width: 1600,
+        height: 1200,
+        alt: "Jawai Dam, Rajasthan",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Jawai Travel Guide: Leopard Hills & Rabari Villages",
     description:
       "Leopards living among granite hills beside Rabari shepherd villages — the complete guide to Jawai, Rajasthan.",
-    images: ["/images/destinations/spiti-valley/spiti-valley.jpg"],
+    images: ["/images/blogs/rajasthan/jawai/jawai-dam-3.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/jawai-travel-guide",
@@ -60,7 +61,7 @@ function ArticleSchema() {
           description:
             "Complete Jawai guide — leopards living among granite hills alongside Rabari shepherd villages, the Jawai Dam, safari logistics, how to reach from Udaipur or Jodhpur, and a full visit plan.",
           image:
-            "https://club.kudozz.in/images/destinations/spiti-valley/spiti-valley.jpg",
+            "https://club.kudozz.in/images/blogs/rajasthan/jawai/jawai-dam-3.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -197,8 +198,8 @@ export default function JawaiGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/spiti-valley/spiti-valley.jpg"
-              alt="Rugged hill and valley terrain, evoking Jawai's granite hills and leopard habitat in Rajasthan"
+              src="/images/blogs/rajasthan/jawai/jawai-dam-3.webp"
+              alt="Jawai Dam, Rajasthan"
               fill
               priority
               sizes="100vw"
@@ -517,15 +518,6 @@ export default function JawaiGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Leopard Safaris & Rabari Villages</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/spiti-valley/spiti-valley.jpg"
-                      alt="Granite hill terrain around Jawai, Rajasthan"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Leopard Safaris</h3>
                   <p>
                     Run on private and community land rather than within a
@@ -535,6 +527,7 @@ export default function JawaiGuidePage() {
                     tiger reserve.
                   </p>
                   <h3>Jawai Dam</h3>
+                  <GuideFigure src="/images/blogs/rajasthan/jawai/jawai-dam-2.webp" alt="Jawai Dam, Rajasthan" />
                   <p>
                     The dam and its reservoir support notable birdlife and
                     crocodiles, and offer a scenic counterpoint to the

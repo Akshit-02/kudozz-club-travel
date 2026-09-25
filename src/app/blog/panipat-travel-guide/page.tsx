@@ -7,8 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
   title: "Panipat Travel Guide: The Battlefield That Shaped Indian History",
@@ -22,13 +21,13 @@ export const metadata: Metadata = {
     url: "https://club.kudozz.in/blog/panipat-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/hampi/hero.jpg", width: 1200, height: 630, alt: "Historic architecture representative of Panipat, Haryana" }],
+    images: [{ url: "/images/blogs/haryana/panipat/kabuli-bagh-mosque-panipat-2.webp", width: 1600, height: 1067, alt: "Kabuli Bagh Mosque, Panipat" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Panipat Travel Guide: The Battlefield That Shaped Indian History",
     description: "Three decisive battles and a living weaving tradition — the complete guide to Panipat.",
-    images: ["/images/destinations/hampi/hero.jpg"],
+    images: ["/images/blogs/haryana/panipat/kabuli-bagh-mosque-panipat-2.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/panipat-travel-guide" },
 };
@@ -43,7 +42,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Panipat Travel Guide: The Battlefield That Shaped Indian History",
           description: "The complete Panipat travel guide.",
-          image: "https://club.kudozz.in/images/destinations/hampi/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/haryana/panipat/kabuli-bagh-mosque-panipat-2.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: {
@@ -135,56 +134,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const PANIPAT_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for a focused history-and-heritage day trip",
-    emoji: "⚔️",
-    items: [
-      {
-        name: "Comfortable Walking Shoes",
-        description: "For covering the war memorial, Kabuli Bagh Mosque, and the old town's textile market in a single day.",
-        price: "₹1,999",
-        image: "👟",
-        affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
-        tag: "Day-trip essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "Panipat's key sites are spread across the old town, requiring a fair amount of walking.",
-      },
-      {
-        name: "Sun Hat",
-        description: "North Indian plains sun is intense, especially outside the winter months.",
-        price: "₹399",
-        image: "🧢",
-        affiliateUrl: amazonSearchUrl("sun+hat+travel+outdoor"),
-        tag: "Weather essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Little shade is available around the open memorial grounds.",
-      },
-      {
-        name: "Reusable Water Bottle",
-        description: "Useful for a full day of walking between historic sites in warm weather.",
-        price: "₹449",
-        image: "💧",
-        affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"),
-        tag: "Day-trip essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "Staying hydrated matters on a warm-weather walking day.",
-      },
-      {
-        name: "Small Daypack",
-        description: "For carrying water, camera, and any textile purchases from the local market.",
-        price: "₹799",
-        image: "🎒",
-        affiliateUrl: amazonSearchUrl("small+daypack+travel"),
-        tag: "Shopping essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "Panipat's textile market is a genuine shopping draw worth having room for.",
-      },
-    ],
-  },
-];
-
 export default function PanipatGuidePage() {
   return (
     <>
@@ -196,8 +145,8 @@ export default function PanipatGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/hampi/hero.jpg"
-              alt="Historic architecture representative of Panipat, Haryana"
+              src="/images/blogs/haryana/panipat/kabuli-bagh-mosque-panipat-2.webp"
+              alt="Kabuli Bagh Mosque, Panipat"
               fill
               priority
               sizes="100vw"
@@ -411,15 +360,7 @@ export default function PanipatGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do in Panipat</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/hampi/hero.jpg"
-                      alt="Historic monuments in Panipat"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
+                  <GuideFigure src="/images/blogs/haryana/panipat/panipat-view.webp" alt="Panipat, Haryana" />
                   <ul>
                     <li>
                       <strong>Panipat War Memorial &amp; Museum:</strong> Commemorates the three
@@ -669,8 +610,6 @@ export default function PanipatGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              <TrekGearRecommendations sections={PANIPAT_GEAR} destination="Panipat" />
 
               <RelatedPostsGrid currentSlug="panipat-travel-guide" />
             </article>

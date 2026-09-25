@@ -25,8 +25,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/destinations/andaman/hero.jpg",
-        width: 1200,
-        height: 630,
+        width: 2560,
+        height: 1707,
         alt: "Quiet North Andaman coastline, evoking Mayabunder's Karmatang Beach and Interview Island",
       },
     ],
@@ -548,15 +548,6 @@ export default function MayabunderGuidePage() {
                 {/* ── Interview Island ──────────────────────────────────── */}
                 <section id="interview-island">
                   <h2>Interview Island & Its Elephants</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/andaman/hero.jpg"
-                      alt="Dense forested coastline, evoking Interview Island's protected wilderness near Mayabunder"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <p>
                     <strong>Interview Island Wildlife Sanctuary</strong> is a
                     protected, uninhabited island off Mayabunder, notable

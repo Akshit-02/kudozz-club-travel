@@ -7,10 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Surat Travel Guide: Diamond City, Riverfront & Street Food",
@@ -28,8 +24,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/destinations/jammu-kashmir/dal.jpg",
-        width: 1200,
-        height: 630,
+        width: 2560,
+        height: 1707,
         alt: "Riverfront promenade scenery representative of Surat, Gujarat",
       },
     ],
@@ -144,56 +140,6 @@ const tableOfContents = [
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
-];
-
-const SURAT_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for riverfront walks and a proper street food crawl",
-    emoji: "💎",
-    items: [
-      {
-        name: "Comfortable Walking Shoes",
-        description: "The Tapi Riverfront promenade and old-city food streets both call for real walking over a full day.",
-        price: "₹1,999",
-        image: "👟",
-        affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
-        tag: "All-day essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "Between the riverfront and the old-city food lanes, a full day here adds up to serious mileage on foot.",
-      },
-      {
-        name: "Light Breathable Clothing",
-        description: "Surat's coastal humidity is real for most of the year — loose cotton fabrics are far more comfortable than synthetics.",
-        price: "₹799",
-        image: "👕",
-        affiliateUrl: amazonSearchUrl("breathable+cotton+travel+clothing"),
-        tag: "Comfort essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Humidity here is more consistent and noticeable than in drier parts of Gujarat.",
-      },
-      {
-        name: "Reusable Water Bottle",
-        description: "Useful for a long riverfront walk and a full afternoon of street food exploring.",
-        price: "₹449",
-        image: "💧",
-        affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"),
-        tag: "All-day essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "Surat's humidity means you'll want water on hand more often than you'd expect.",
-      },
-      {
-        name: "Camera",
-        description: "For the Tapi Riverfront's evening lighting, Surat Castle, and the old-city heritage lanes.",
-        price: "₹—",
-        image: "📷",
-        affiliateUrl: amazonSearchUrl("compact+camera+travel"),
-        tag: "Sightseeing essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "The riverfront is particularly photogenic around sunset when the evening crowds gather.",
-      },
-    ],
-  },
 ];
 
 export default function SuratGuidePage() {
@@ -407,15 +353,6 @@ export default function SuratGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do in Surat</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/jammu-kashmir/dal.jpg"
-                      alt="Riverfront scenery around Surat"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <ul>
                     <li>
                       <strong>Tapi Riverfront:</strong> A large-scale redeveloped promenade along the Tapi
@@ -613,7 +550,6 @@ export default function SuratGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={SURAT_GEAR} destination="Surat" />
               <RelatedPostsGrid currentSlug="surat-travel-guide" />
             </article>
 

@@ -7,9 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  HIMALAYAN_GEAR,
-} from "@/components/ui/TrekGearRecommendations";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -28,10 +25,10 @@ export const metadata: Metadata = {
     authors: ["Kudozz Club"],
     images: [
       {
-        url: "/images/destinations/kasol/kasol.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Kasol riverside and Parvati Valley pine forest",
+        url: "/images/blogs/himachal-pradesh/kasol-kheerganga-trek/kasol-and-kheerganga.webp",
+        width: 1600,
+        height: 1200,
+        alt: "View of Kasol & Kheerganga, Himachal Pradesh",
       },
     ],
   },
@@ -44,7 +41,7 @@ export const metadata: Metadata = {
     title: "Kasol & Kheerganga Trek Guide",
     description:
       "Parvati Valley cafes, forest trails and Himalayan hot springs — everything you need for Kasol and Kheerganga.",
-    images: ["/images/destinations/kasol/kasol.jpg"],
+    images: ["/images/blogs/himachal-pradesh/kasol-kheerganga-trek/kasol-and-kheerganga.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/kasol-kheerganga-trek-travel-guide",
@@ -64,7 +61,7 @@ function ArticleSchema() {
           headline:
             "Kasol & Kheerganga Trek Guide: The Complete Parvati Valley Trail",
           description: "The complete guide to Kasol and the Kheerganga trek.",
-          image: "https://club.kudozz.in/images/destinations/kasol/kasol.jpg",
+          image: "https://club.kudozz.in/images/blogs/himachal-pradesh/kasol-kheerganga-trek/kasol-and-kheerganga.webp",
           datePublished: "2026-05-22",
           dateModified: "2026-07-12",
           publisher: {
@@ -212,8 +209,8 @@ export default function KasolKheergangaPage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/kasol/kasol.jpg"
-              alt="Kasol — pine forests along the Parvati River in Himachal Pradesh"
+              src="/images/blogs/himachal-pradesh/kasol-kheerganga-trek/kasol-and-kheerganga.webp"
+              alt="View of Kasol & Kheerganga, Himachal Pradesh"
               fill
               sizes="100vw"
               className="object-cover"
@@ -1631,11 +1628,6 @@ export default function KasolKheergangaPage() {
                   </Link>
                 ))}
               </div>
-
-              <TrekGearRecommendations
-                sections={HIMALAYAN_GEAR}
-                destination="Leh Ladakh"
-              />
 
               <RelatedPostsGrid currentSlug="kasol-kheerganga-trek-travel-guide" />
             </article>

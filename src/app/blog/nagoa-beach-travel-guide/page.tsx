@@ -25,8 +25,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/nagoa-beach/nagoa-beach-horseshoe-bay-diu.webp",
-        width: 1600,
-        height: 1200,
+        width: 1400,
+        height: 1050,
         alt: "The wide, curving sandy horseshoe bay of Nagoa Beach in Diu with calm water and people wading at the shoreline",
       },
     ],
@@ -604,8 +604,8 @@ export default function NagoaBeachGuidePage() {
                   <h2>The Palm-Fringed Promenade & Camel Rides</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu/nagoa-beach-i-love-diu-hand-sculpture.webp"
-                      alt="The 'I Love Diu' hand-shaped sculpture landmark among palm trees on the promenade at Nagoa Beach"
+                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/nagoa-beach/nagoa-beach-diu.webp"
+                      alt="Nagoa Beach Diu, Dadra and Nagar Haveli and Daman and Diu"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

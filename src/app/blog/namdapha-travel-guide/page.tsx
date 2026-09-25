@@ -7,8 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
   title: "Namdapha National Park Travel Guide: India's Most Biodiverse Park",
@@ -21,9 +20,9 @@ export const metadata: Metadata = {
     description: "The only park in the world confirmed to hold four big cat species — tiger, leopard, snow leopard, and clouded leopard — the complete guide to Namdapha.",
     url: "https://club.kudozz.in/blog/namdapha-travel-guide",
     type: "article", siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/meghalaya/dawki-river.jpg", width: 1200, height: 630, alt: "Dense forest and river landscape representative of Namdapha, Arunachal Pradesh" }],
+    images: [{ url: "/images/blogs/arunachal-pradesh/namdapha/namdapha-national-park.webp", width: 1600, height: 1200, alt: "Namdapha National Park, Arunachal Pradesh" }],
   },
-  twitter: { card: "summary_large_image", title: "Namdapha National Park Travel Guide: India's Most Biodiverse Park", description: "Exceptional biodiversity in one of India's most remote national parks — the complete guide to Namdapha.", images: ["/images/destinations/meghalaya/dawki-river.jpg"] },
+  twitter: { card: "summary_large_image", title: "Namdapha National Park Travel Guide: India's Most Biodiverse Park", description: "Exceptional biodiversity in one of India's most remote national parks — the complete guide to Namdapha.", images: ["/images/blogs/arunachal-pradesh/namdapha/namdapha-national-park.webp"] },
   alternates: { canonical: "https://club.kudozz.in/blog/namdapha-travel-guide" },
 };
 
@@ -33,7 +32,7 @@ function ArticleSchema() {
       "@context": "https://schema.org", "@type": "BlogPosting",
       headline: "Namdapha National Park Travel Guide: India's Most Biodiverse Park",
       description: "The complete Namdapha travel guide.",
-      image: "https://club.kudozz.in/images/destinations/meghalaya/dawki-river.jpg",
+      image: "https://club.kudozz.in/images/blogs/arunachal-pradesh/namdapha/namdapha-national-park.webp",
       datePublished: "2026-09-08", dateModified: "2026-09-08",
       publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
       author: { "@type": "Organization", name: "Kudozz Club" },
@@ -80,16 +79,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const NAMDAPHA_GEAR: GearSection[] = [{
-  title: "Things Worth Carrying", subtitle: "Gear for a remote, multi-day forest trek", emoji: "🐆",
-  items: [
-    { name: "Sturdy Trekking Boots", description: "Namdapha's terrain spans lowland tropical forest to high-altitude sections — proper boots matter across the elevation range.", price: "₹3,499",  image: "🥾", affiliateUrl: amazonSearchUrl("sturdy+trekking+boots+forest"), tag: "Non-negotiable", tagColor: "bg-red-100 text-red-700", why: "Terrain here is genuinely varied and often muddy or uneven across the park's altitude range." },
-    { name: "Binoculars", description: "Given how rare cat sightings genuinely are, binoculars matter for the park's exceptional bird and general wildlife diversity instead.", price: "₹1,999",  image: "🔭", affiliateUrl: amazonSearchUrl("binoculars+wildlife+birdwatching"), tag: "Biodiversity essential", tagColor: "bg-amber-100 text-amber-700", why: "Namdapha's real draw is its exceptional plant and bird diversity, not guaranteed cat sightings." },
-    { name: "Insect Repellent", description: "Dense, humid forest terrain makes this essential across most of the park.", price: "₹199",  image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+trekking"), tag: "Forest essential", tagColor: "bg-forest-100 text-forest-700", why: "Namdapha's lowland forest sections are genuinely humid and insect-heavy." },
-    { name: "Rain Layer", description: "Weather can shift quickly across the park's varied terrain, even outside peak monsoon.", price: "₹899",  image: "🌂", affiliateUrl: amazonSearchUrl("packable+rain+jacket+trekking"), tag: "Weather essential", tagColor: "bg-sky-100 text-sky-700", why: "Namdapha's altitude range means genuinely unpredictable weather in different park sections." },
-  ],
-}];
-
 export default function NamdaphaGuidePage() {
   return (
     <>
@@ -97,7 +86,7 @@ export default function NamdaphaGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/meghalaya/dawki-river.jpg" alt="Dense forest and river landscape representative of Namdapha, Arunachal Pradesh" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/arunachal-pradesh/namdapha/namdapha-national-park.webp" alt="Namdapha National Park, Arunachal Pradesh" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -171,6 +160,7 @@ export default function NamdaphaGuidePage() {
 
                 <section id="best-time">
                   <h2>Best Time to Visit Namdapha</h2>
+                  <GuideFigure src="/images/blogs/arunachal-pradesh/namdapha/namdapha-national-park-view.webp" alt="Namdapha National Park, Arunachal Pradesh" />
                   <div className="grid sm:grid-cols-2 gap-4 my-6">
                     {[
                       { season: "Nov – Apr", emoji: "☀️", color: "bg-amber-50 border-amber-200", mood: "Dry season — the only realistic window", text: "Roads and trails are accessible, and this is the park's genuine visiting season." },
@@ -200,9 +190,6 @@ export default function NamdaphaGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Wildlife & Biodiversity</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/meghalaya/dawki-river.jpg" alt="Forest landscape within Namdapha National Park" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>Four big cat species:</strong> Tiger, leopard, snow leopard, and clouded leopard are all documented in the park — though actual sightings of any are genuinely rare.</li>
                     <li><strong>Exceptional plant diversity:</strong> The park's altitude range supports an unusually wide variety of flora, a major draw for botanists and serious naturalists.</li>
@@ -324,7 +311,6 @@ export default function NamdaphaGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={NAMDAPHA_GEAR} destination="Namdapha" />
               <RelatedPostsGrid currentSlug="namdapha-travel-guide" />
             </article>
             <div className="hidden xl:block w-64 2xl:w-72 flex-shrink-0"><div className="sticky top-24"><RelatedSidebar currentSlug="namdapha-travel-guide" /></div></div>

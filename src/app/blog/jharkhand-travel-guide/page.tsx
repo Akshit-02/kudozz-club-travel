@@ -7,10 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -185,84 +181,6 @@ const tableOfContents = [
   { id: "tips", title: "Essential Travel Tips", level: 2 },
   { id: "places-to-explore", title: "Places to Explore in Jharkhand", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
-];
-
-// ── Jharkhand-specific gear ────────────────────────────────────────────────
-const JHARKHAND_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle:
-      "Gear for waterfall trails, forest safaris, and a state with limited tourist infrastructure outside Ranchi and Jamshedpur",
-    emoji: "🌲",
-    items: [
-      {
-        name: "Comfortable Trekking Shoes",
-        description:
-          "The rocky, sometimes slippery approach paths to Hundru, Dassam, and Jonha Falls, plus Netarhat's viewpoints, involve real uneven walking.",
-        price: "₹1,599",
-        image: "👟",
-        affiliateUrl: amazonSearchUrl("trekking+shoes+waterproof+travel"),
-        tag: "Sightseeing essential",
-        tagColor: "bg-stone-100 text-stone-700",
-        why: "Waterfall rocks stay damp and slick year-round — grippy, closed footwear genuinely reduces the risk of a slip near the edge.",
-      },
-      {
-        name: "Mosquito Repellent",
-        description:
-          "Jharkhand's dense sal forests and the wooded fringes of Betla National Park make mosquito presence significant, especially at dawn and dusk.",
-        price: "₹199",
-        image: "🦟",
-        affiliateUrl: amazonSearchUrl("mosquito+repellent+travel"),
-        tag: "Forest essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "Much of Jharkhand's sightseeing happens inside or at the edge of forest cover, where mosquitoes are a daily reality.",
-      },
-      {
-        name: "Rain Jacket / Poncho",
-        description:
-          "Waterfalls are at their best just after the monsoon, but spray, humidity, and lingering showers stick around well into October.",
-        price: "₹599",
-        image: "🌂",
-        affiliateUrl: amazonSearchUrl("rain+jacket+poncho+travel"),
-        tag: "Weather essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Between waterfall spray and Jharkhand's genuinely wet monsoon, staying dry is a real and recurring concern, not a remote one.",
-      },
-      {
-        name: "Power Bank (10,000 mAh)",
-        description:
-          "Useful for day trips to Netarhat and Betla, where charging points thin out well before you reach the destination.",
-        price: "₹1,299",
-        image: "🔋",
-        affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
-        tag: "Day-trip essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "Charging infrastructure drops off fast outside Ranchi and Jamshedpur — a backup battery avoids being stranded mid-safari or mid-drive.",
-      },
-      {
-        name: "Reusable Water Bottle",
-        description:
-          "Handy across long days visiting waterfalls, the Netarhat plateau, and Betla's safari routes.",
-        price: "₹699",
-        image: "🍶",
-        affiliateUrl: amazonSearchUrl("insulated+water+bottle+steel"),
-        tag: "Everyday essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "Standalone shops and water points are limited between major sites — carrying your own water is the practical choice.",
-      },
-      {
-        name: "Basic First Aid Kit",
-        description:
-          "Worth having given the state's modest medical infrastructure outside Ranchi and Jamshedpur.",
-        price: "₹599",
-        image: "🩹",
-        affiliateUrl: amazonSearchUrl("travel+first+aid+kit"),
-        tag: "Small-town essential",
-        tagColor: "bg-red-100 text-red-700",
-        why: "Medical facilities are concentrated in the bigger cities — basic self-sufficiency is worth having near Betla or Netarhat.",
-      },
-    ],
-  },
 ];
 
 // ── Page ─────────────────────────────────────────────────────────────────────
@@ -1340,12 +1258,6 @@ export default function JharkhandGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              {/* ── Gear Recommendations ──────────────────────────────── */}
-              <TrekGearRecommendations
-                sections={JHARKHAND_GEAR}
-                destination="Jharkhand"
-              />
 
               <RelatedPostsGrid currentSlug="jharkhand-travel-guide" />
             </article>

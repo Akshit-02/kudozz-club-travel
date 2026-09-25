@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jammu-kashmir/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Misty green hills, evoking Shillong's 'Scotland of the East' landscape in Meghalaya",
+        url: "/images/blogs/meghalaya/shillong/shillong.webp",
+        width: 1600,
+        height: 1200,
+        alt: "View of Shillong, Meghalaya",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Shillong Travel Guide: Sightseeing & Tips",
     description:
       "Rolling misty hills and Northeast India's self-styled Rock Capital — the complete guide to Shillong.",
-    images: ["/images/destinations/jammu-kashmir/hero.jpg"],
+    images: ["/images/blogs/meghalaya/shillong/shillong.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/shillong-travel-guide",
@@ -59,7 +60,7 @@ function ArticleSchema() {
           headline: "Shillong Travel Guide: Sightseeing & Tips",
           description:
             "Complete Shillong guide — Ward's Lake, Shillong Peak, Elephant Falls, the Don Bosco Museum, Police Bazar, the Rock Capital of India music scene, how to reach from Guwahati, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/jammu-kashmir/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/meghalaya/shillong/shillong.webp",
           datePublished: "2026-09-05",
           dateModified: "2026-09-05",
           publisher: {
@@ -196,8 +197,8 @@ export default function ShillongGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jammu-kashmir/hero.jpg"
-              alt="Misty green hills, evoking Shillong's 'Scotland of the East' landscape in Meghalaya"
+              src="/images/blogs/meghalaya/shillong/shillong.webp"
+              alt="View of Shillong, Meghalaya"
               fill
               priority
               sizes="100vw"
@@ -503,16 +504,8 @@ export default function ShillongGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Sightseeing & the Music Scene</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/jammu-kashmir/hero.jpg"
-                      alt="Misty hills around Shillong, Meghalaya"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Ward's Lake</h3>
+                  <GuideFigure src="/images/blogs/meghalaya/shillong/ward-s-lake-shillong.webp" alt="Ward's Lake, Shillong" />
                   <p>
                     A colonial-era garden lake right in the city centre,
                     popular for boating and unhurried walks along its
@@ -525,6 +518,7 @@ export default function ShillongGuidePage() {
                     clear morning.
                   </p>
                   <h3>Elephant Falls</h3>
+                  <GuideFigure src="/images/blogs/meghalaya/shillong/elephant-falls-shillong.webp" alt="Elephant Falls, Shillong" />
                   <p>
                     A multi-tiered waterfall a short drive from the city,
                     one of the most accessible falls in the region and an

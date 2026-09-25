@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/meghalaya/dawki-river.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Clear river water framed by forested hills, evoking Ranjit Sagar Dam's reservoir setting against the Shivalik foothills",
+        url: "/images/blogs/punjab/ranjit-sagar-dam/ranjit-sagar-dam.webp",
+        width: 1600,
+        height: 1200,
+        alt: "Ranjit Sagar Dam, Punjab",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Ranjit Sagar Dam Guide: Best Time & Tips",
     description:
       "A hill-backed reservoir on the Ravi river near the Punjab-J&K border — the complete Ranjit Sagar Dam guide.",
-    images: ["/images/destinations/meghalaya/dawki-river.jpg"],
+    images: ["/images/blogs/punjab/ranjit-sagar-dam/ranjit-sagar-dam.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/ranjit-sagar-dam-travel-guide",
@@ -60,7 +61,7 @@ function ArticleSchema() {
           description:
             "Complete Ranjit Sagar Dam (Thein Dam) guide — a Ravi river reservoir set against the Shivalik foothills, boating, how to reach from Pathankot, and a full visit plan.",
           image:
-            "https://club.kudozz.in/images/destinations/meghalaya/dawki-river.jpg",
+            "https://club.kudozz.in/images/blogs/punjab/ranjit-sagar-dam/ranjit-sagar-dam.webp",
           datePublished: "2026-09-04",
           dateModified: "2026-09-04",
           publisher: {
@@ -197,8 +198,8 @@ export default function RanjitSagarDamGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/meghalaya/dawki-river.jpg"
-              alt="Clear river water framed by forested hills, evoking Ranjit Sagar Dam's reservoir setting against the Shivalik foothills"
+              src="/images/blogs/punjab/ranjit-sagar-dam/ranjit-sagar-dam.webp"
+              alt="Ranjit Sagar Dam, Punjab"
               fill
               priority
               sizes="100vw"
@@ -407,6 +408,7 @@ export default function RanjitSagarDamGuidePage() {
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">
                   <h2>Best Time to Visit Ranjit Sagar Dam</h2>
+                  <GuideFigure src="/images/blogs/punjab/ranjit-sagar-dam/ranjit-sagar-dam-view.webp" alt="Ranjit Sagar Dam, Punjab" />
                   <p>
                     Weather clarity and reservoir levels both shape when a
                     visit is at its best.
@@ -505,15 +507,6 @@ export default function RanjitSagarDamGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Dam, Boating & Foothills</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/meghalaya/dawki-river.jpg"
-                      alt="Reservoir and forested hills at Ranjit Sagar Dam, Punjab"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>The Dam & Reservoir</h3>
                   <p>
                     The dam itself is an engineering highlight, holding back

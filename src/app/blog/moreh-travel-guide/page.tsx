@@ -540,15 +540,6 @@ export default function MorehGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Things to Do in Moreh</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/manipur/moreh/indo-myanmar-friendship-gate-moreh.webp"
-                      alt="The Indo-Myanmar Friendship Gate marking the India-Myanmar border crossing at Moreh, Manipur"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>The Border Market</h3>
                   <p>
                     Moreh's market atmosphere reflects its identity as a

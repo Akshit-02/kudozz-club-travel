@@ -423,15 +423,6 @@ export default function GardenOfFragranceGuidePage() {
 
                 <section id="what-to-see">
                   <h2>What's Inside</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/chandigarh/garden-of-fragrance/jasminum-sambac-fragrant-white-flower.webp"
-                      alt="A single white Jasminum sambac (mogra) bloom, one of the fragrant flowering plants typical of scent-themed gardens like this one"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <p>
                     The garden is organised into small plots of aromatic
                     and fragrant plant varieties, laid out along short

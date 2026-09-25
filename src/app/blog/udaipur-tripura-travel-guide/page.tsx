@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/blogs/tripura/udaipur/udaipur-railway-station.webp",
+        url: "/images/blogs/tripura/udaipur-tripura/tripura-sundari-temple-udaipur-tripura-2.webp",
         width: 1600,
         height: 1200,
-        alt: "Temple-style domed architecture of Udaipur railway station in Tripura",
+        alt: "Tripura Sundari Temple, Udaipur Tripura",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Udaipur Tripura Travel Guide: Lakes & Old Capital",
     description:
       "Tripura's own Udaipur — the old Manikya capital, ringed by sacred lakes and home to a major Shakti Peetha.",
-    images: ["/images/blogs/tripura/udaipur/udaipur-railway-station.webp"],
+    images: ["/images/blogs/tripura/udaipur-tripura/tripura-sundari-temple-udaipur-tripura-2.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/udaipur-tripura-travel-guide",
@@ -59,7 +60,7 @@ function ArticleSchema() {
           headline: "Udaipur Tripura Travel Guide: Lakes & Old Capital",
           description:
             "Complete guide to Udaipur, Tripura — the old Manikya capital of Rangamati, its sacred lakes, the Tripura Sundari Temple, Bhuvaneswari Temple, Pilak ruins, how to reach from Agartala, and tips.",
-          image: "https://club.kudozz.in/images/blogs/tripura/udaipur/udaipur-railway-station.webp",
+          image: "https://club.kudozz.in/images/blogs/tripura/udaipur-tripura/tripura-sundari-temple-udaipur-tripura-2.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -196,8 +197,8 @@ export default function UdaipurTripuraGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/blogs/tripura/udaipur/udaipur-railway-station.webp"
-              alt="Temple-style domed architecture of Udaipur railway station in Tripura"
+              src="/images/blogs/tripura/udaipur-tripura/tripura-sundari-temple-udaipur-tripura-2.webp"
+              alt="Tripura Sundari Temple, Udaipur Tripura"
               fill
               priority
               sizes="100vw"
@@ -515,15 +516,6 @@ export default function UdaipurTripuraGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Lakes, Temples & Pilak</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/tripura/udaipur/udaipur-railway-station.webp"
-                      alt="Domed, temple-style facade of Udaipur railway station, Tripura"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Kalyan Sagar & the Town's Lakes</h3>
                   <p>
                     Kalyan Sagar, beside the Tripura Sundari Temple, is
@@ -533,6 +525,7 @@ export default function UdaipurTripuraGuidePage() {
                     Sagar add further quiet, photogenic stops around town.
                   </p>
                   <h3>Tripura Sundari Temple</h3>
+                  <GuideFigure src="/images/blogs/tripura/udaipur-tripura/tripura-sundari-temple-udaipur-tripura.webp" alt="Tripura Sundari Temple, Udaipur Tripura" />
                   <p>
                     One of the 51 Shakti Peethas of Hindu mythology, this is
                     Udaipur's defining landmark. See our dedicated{" "}

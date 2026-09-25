@@ -7,9 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  HIMALAYAN_GEAR,
-} from "@/components/ui/TrekGearRecommendations";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -647,10 +645,11 @@ export default function ZanskarValleyPage() {
 
                   <section id="padum">
                     <h3>Padum — Zanskar's Capital</h3>
+                    <GuideFigure src="/images/blogs/ladakh/zanskar-valley/padum-zanskar-valley.webp" alt="Padum, Zanskar Valley" />
                     <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                       <Image
-                        src="/images/blogs/ladakh/padum/padum-zanskar-valley-view-from-karsha.webp"
-                        alt="Padum town and the surrounding Zanskar Valley seen from the hillside above Karsha"
+                        src="/images/blogs/ladakh/zanskar-valley/the-chadar-trek-zanskar-valley.webp"
+                        alt="The Chadar Trek, Zanskar Valley"
                         fill
                         sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                         className="object-cover"
@@ -1294,11 +1293,6 @@ export default function ZanskarValleyPage() {
                   </Link>
                 ))}
               </div>
-
-              <TrekGearRecommendations
-                sections={HIMALAYAN_GEAR}
-                destination="Zanskar Valley"
-              />
 
               <RelatedPostsGrid currentSlug="zanskar-valley-travel-guide" />
             </article>

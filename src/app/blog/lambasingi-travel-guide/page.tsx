@@ -7,8 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Lambasingi Travel Guide: The Kashmir of Andhra Pradesh",
@@ -26,8 +24,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/destinations/manali/solang-valley.jpg",
-        width: 1200,
-        height: 630,
+        width: 2560,
+        height: 1707,
         alt: "Misty highland hills representative of Lambasingi, Andhra Pradesh",
       },
     ],
@@ -147,58 +145,6 @@ const tableOfContents = [
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
-];
-
-const LAMBASINGI_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for a pre-dawn frost trip into the Eastern Ghats",
-    emoji: "❄️",
-    items: [
-      {
-        name: "Warm Layered Jacket",
-        description:
-          "Genuinely necessary here — this is the one part of coastal Andhra Pradesh where near-freezing mornings are real.",
-        price: "₹1,999",
-        image: "🧥",
-        affiliateUrl: amazonSearchUrl("warm+winter+jacket+travel"),
-        tag: "Frost-morning essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Most visitors arrive from the coast underestimating how cold Lambasingi gets right before sunrise.",
-      },
-      {
-        name: "Torch / Headlamp",
-        description:
-          "For navigating the pre-dawn arrival and short walks around viewpoints before daylight.",
-        price: "₹399",
-        image: "🔦",
-        affiliateUrl: amazonSearchUrl("led+headlamp+torch+travel"),
-        tag: "Pre-dawn essential",
-        tagColor: "bg-stone-100 text-stone-700",
-        why: "Catching the frost means arriving before sunrise, when the area is genuinely dark and unlit.",
-      },
-      {
-        name: "Comfortable Walking Shoes",
-        description: "For frost-covered grass and uneven hillside paths around the village.",
-        price: "₹1,999",
-        image: "🥾",
-        affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
-        tag: "Trip essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "Frosted ground can be slippery, and paths around the village are unpaved in places.",
-      },
-      {
-        name: "Hot Flask",
-        description: "For carrying hot tea or coffee to the viewpoint on a genuinely cold morning wait.",
-        price: "₹699",
-        image: "🍵",
-        affiliateUrl: amazonSearchUrl("insulated+flask+hot+drinks"),
-        tag: "Comfort essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "Facilities are minimal here — bringing your own hot drink makes the pre-dawn wait far more bearable.",
-      },
-    ],
-  },
 ];
 
 export default function LambasingiGuidePage() {
@@ -442,15 +388,6 @@ export default function LambasingiGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do in Lambasingi</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/manali/solang-valley.jpg"
-                      alt="Highland viewpoint scenery near Lambasingi"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <ul>
                     <li>
                       <strong>Frost-watching at dawn:</strong> The core Lambasingi experience — arrive before
@@ -741,8 +678,6 @@ export default function LambasingiGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              <TrekGearRecommendations sections={LAMBASINGI_GEAR} destination="Lambasingi" />
 
               <RelatedPostsGrid currentSlug="lambasingi-travel-guide" />
             </article>

@@ -7,8 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
   title: "Manas National Park Travel Guide: Tiger Reserve & UNESCO Site",
@@ -20,9 +19,9 @@ export const metadata: Metadata = {
     title: "Manas National Park Travel Guide: Tiger Reserve & UNESCO Site",
     description: "A UNESCO World Heritage tiger reserve on the Bhutan border, rebuilt from near-collapse into one of India's genuine conservation comeback stories — the complete guide to Manas.",
     url: "https://club.kudozz.in/blog/manas-travel-guide", type: "article", siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/meghalaya/hero.jpg", width: 1200, height: 630, alt: "Forest and grassland landscape representative of Manas National Park, Assam" }],
+    images: [{ url: "/images/blogs/assam/manas/manas-national-park.webp", width: 1600, height: 1289, alt: "Manas National Park, Assam" }],
   },
-  twitter: { card: "summary_large_image", title: "Manas National Park Travel Guide: Tiger Reserve & UNESCO Site", description: "A UNESCO World Heritage tiger reserve on the Bhutan border — the complete guide to Manas.", images: ["/images/destinations/meghalaya/hero.jpg"] },
+  twitter: { card: "summary_large_image", title: "Manas National Park Travel Guide: Tiger Reserve & UNESCO Site", description: "A UNESCO World Heritage tiger reserve on the Bhutan border — the complete guide to Manas.", images: ["/images/blogs/assam/manas/manas-national-park.webp"] },
   alternates: { canonical: "https://club.kudozz.in/blog/manas-travel-guide" },
 };
 
@@ -32,7 +31,7 @@ function ArticleSchema() {
       "@context": "https://schema.org", "@type": "BlogPosting",
       headline: "Manas National Park Travel Guide: Tiger Reserve & UNESCO Site",
       description: "The complete Manas National Park travel guide.",
-      image: "https://club.kudozz.in/images/destinations/meghalaya/hero.jpg",
+      image: "https://club.kudozz.in/images/blogs/assam/manas/manas-national-park.webp",
       datePublished: "2026-09-08", dateModified: "2026-09-08",
       publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
       author: { "@type": "Organization", name: "Kudozz Club" },
@@ -79,16 +78,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const MANAS_GEAR: GearSection[] = [{
-  title: "Things Worth Carrying", subtitle: "Gear for safaris across Manas's forest and grassland zones", emoji: "🐅",
-  items: [
-    { name: "Binoculars", description: "Essential for spotting golden langurs in the canopy and wildlife across open grassland stretches.", price: "₹1,999",  image: "🔭", affiliateUrl: amazonSearchUrl("binoculars+wildlife+safari"), tag: "Safari essential", tagColor: "bg-amber-100 text-amber-700", why: "Manas's mixed forest-grassland terrain rewards good optics more than open-plains parks." },
-    { name: "Telephoto Camera / Lens", description: "For photographing wildlife at a respectful distance across the park's varied terrain.", price: "₹8,999+",  image: "📷", affiliateUrl: amazonSearchUrl("telephoto+lens+wildlife+photography"), tag: "Photography essential", tagColor: "bg-purple-100 text-purple-700", why: "A longer lens matters especially for golden langurs, which stay high in the canopy." },
-    { name: "Neutral/Khaki Clothing", description: "Standard safari practice — neutral tones are less disruptive to wildlife.", price: "₹1,299",  image: "🧥", affiliateUrl: amazonSearchUrl("khaki+safari+clothing+set"), tag: "Safari essential", tagColor: "bg-forest-100 text-forest-700", why: "Bright colors stand out against Manas's green forest-and-grassland mix." },
-    { name: "Insect Repellent", description: "River-valley terrain and forest cover make for a genuine mosquito presence, especially at dusk.", price: "₹199",  image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Forest essential", tagColor: "bg-sky-100 text-sky-700", why: "The Manas River valley's humidity keeps mosquito activity high near dusk." },
-  ],
-}];
-
 export default function ManasGuidePage() {
   return (
     <>
@@ -96,7 +85,7 @@ export default function ManasGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/meghalaya/hero.jpg" alt="Forest and grassland landscape representative of Manas National Park, Assam" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/assam/manas/manas-national-park.webp" alt="Manas National Park, Assam" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -170,6 +159,7 @@ export default function ManasGuidePage() {
 
                 <section id="best-time">
                   <h2>Best Time to Visit Manas</h2>
+                  <GuideFigure src="/images/blogs/assam/manas/manas-national-park-view.webp" alt="Manas National Park, Assam" />
                   <div className="grid sm:grid-cols-2 gap-4 my-6">
                     {[
                       { season: "Nov – Feb", emoji: "☀️", color: "bg-amber-50 border-amber-200", mood: "Best overall — our pick", text: "Cool, dry weather with the most comfortable safari conditions." },
@@ -200,9 +190,6 @@ export default function ManasGuidePage() {
 
                 <section id="safari-zones">
                   <h2>Safaris & Wildlife</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/meghalaya/hero.jpg" alt="Manas National Park forest and grassland" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>Tigers:</strong> Present in the park as part of Project Tiger, though sightings aren't guaranteed on any single visit.</li>
                     <li><strong>One-horned rhinos:</strong> Reintroduced as part of the park's post-crisis conservation recovery.</li>
@@ -326,7 +313,6 @@ export default function ManasGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={MANAS_GEAR} destination="Manas National Park" />
               <RelatedPostsGrid currentSlug="manas-travel-guide" />
             </article>
             <div className="hidden xl:block w-64 2xl:w-72 flex-shrink-0"><div className="sticky top-24"><RelatedSidebar currentSlug="manas-travel-guide" /></div></div>

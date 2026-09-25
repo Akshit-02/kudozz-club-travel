@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jammu-kashmir/dal.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Calm lake water ringed by ghats, evoking Pushkar's sacred lake and its 52 bathing ghats",
+        url: "/images/blogs/rajasthan/pushkar/pushkar-lake-and-the-ghats-2.webp",
+        width: 1600,
+        height: 720,
+        alt: "Pushkar Lake & the Ghats, Rajasthan",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Pushkar Travel Guide: Lake, Temple & Camel Fair",
     description:
       "A sacred lake ringed by 52 ghats, one of the world's only Brahma temples, and a legendary camel fair — the complete Pushkar guide.",
-    images: ["/images/destinations/jammu-kashmir/dal.jpg"],
+    images: ["/images/blogs/rajasthan/pushkar/pushkar-lake-and-the-ghats-2.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/pushkar-travel-guide",
@@ -59,7 +60,7 @@ function ArticleSchema() {
           headline: "Pushkar Travel Guide: Lake, Temple & Camel Fair",
           description:
             "Complete Pushkar guide — Pushkar Lake and its 52 ghats, the rare Brahma Temple, the Pushkar Camel Fair, how to reach from Ajmer or Jaipur, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/jammu-kashmir/dal.jpg",
+          image: "https://club.kudozz.in/images/blogs/rajasthan/pushkar/pushkar-lake-and-the-ghats-2.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -200,8 +201,8 @@ export default function PushkarGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jammu-kashmir/dal.jpg"
-              alt="Calm lake water ringed by ghats, evoking Pushkar's sacred lake and its 52 bathing ghats"
+              src="/images/blogs/rajasthan/pushkar/pushkar-lake-and-the-ghats-2.webp"
+              alt="Pushkar Lake & the Ghats, Rajasthan"
               fill
               priority
               sizes="100vw"
@@ -520,16 +521,8 @@ export default function PushkarGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Lake, Temple & Camel Fair</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/jammu-kashmir/dal.jpg"
-                      alt="Lake with surrounding ghats, evoking Pushkar Lake"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Pushkar Lake & the Ghats</h3>
+                  <GuideFigure src="/images/blogs/rajasthan/pushkar/pushkar-lake-and-the-ghats.webp" alt="Pushkar Lake & the Ghats, Rajasthan" />
                   <p>
                     The 52 ghats ringing the lake are where pilgrims come to
                     bathe, especially at sunrise — walking the perimeter path
@@ -538,6 +531,7 @@ export default function PushkarGuidePage() {
                     coming alive.
                   </p>
                   <h3>Brahma Temple</h3>
+                  <GuideFigure src="/images/blogs/rajasthan/pushkar/brahma-temple-pushkar.webp" alt="Brahma Temple, Pushkar" />
                   <p>
                     A short walk from the lake, this rare temple dedicated to
                     Brahma the creator draws pilgrims from across India — a
@@ -545,6 +539,7 @@ export default function PushkarGuidePage() {
                     Hindu world.
                   </p>
                   <h3>Pushkar Camel Fair</h3>
+                  <GuideFigure src="/images/blogs/rajasthan/pushkar/pushkar-camel-fair.webp" alt="Pushkar Camel Fair, Rajasthan" />
                   <p>
                     Held annually, typically in October or November, the fair
                     combines serious camel and livestock trading with a huge

@@ -7,8 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Agroha Travel Guide: Ancient Mound & Agroha Dham",
@@ -25,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/hampi/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Ancient ruins representative of the archaeological mound at Agroha, Haryana",
+        url: "/images/blogs/haryana/agroha/agroha.webp",
+        width: 1600,
+        height: 1200,
+        alt: "Agroha, Haryana",
       },
     ],
   },
@@ -37,7 +35,7 @@ export const metadata: Metadata = {
     title: "Agroha Travel Guide: Ancient Mound & Agroha Dham",
     description:
       "An ancient archaeological mound and a modern pilgrimage complex tied to the Agarwal community's heritage — the complete guide to Agroha.",
-    images: ["/images/destinations/hampi/hero.jpg"],
+    images: ["/images/blogs/haryana/agroha/agroha.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/agroha-travel-guide",
@@ -54,7 +52,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Agroha Travel Guide: Ancient Mound & Agroha Dham",
           description: "The complete Agroha travel guide.",
-          image: "https://club.kudozz.in/images/destinations/hampi/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/haryana/agroha/agroha.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: {
@@ -146,56 +144,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const AGROHA_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for the mound site and temple complex",
-    emoji: "🏛️",
-    items: [
-      {
-        name: "Comfortable Walking Shoes",
-        description: "For walking the open, uneven ground of the archaeological mound site.",
-        price: "₹1,999",
-        image: "👟",
-        affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
-        tag: "Essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "The mound area is an open excavation site, not a paved tourist path.",
-      },
-      {
-        name: "Modest Clothing",
-        description: "For visiting Agroha Dham, an active temple and pilgrimage site.",
-        price: "₹599",
-        image: "👕",
-        affiliateUrl: amazonSearchUrl("modest+travel+clothing"),
-        tag: "Temple essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "Agroha Dham draws genuine devotees connected to the Agarwal community heritage — modest dress is respectful.",
-      },
-      {
-        name: "Sun Hat & Sunscreen",
-        description: "Little shade at the open mound site, especially outside winter.",
-        price: "₹599",
-        image: "🧴",
-        affiliateUrl: amazonSearchUrl("sun+hat+sunscreen+travel"),
-        tag: "Essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Haryana's plains sun is intense across most of the year outside winter.",
-      },
-      {
-        name: "Camera",
-        description: "For the excavated site and the temple complex's architecture.",
-        price: "—",
-        image: "📷",
-        affiliateUrl: amazonSearchUrl("compact+camera+travel"),
-        tag: "Recommended",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "Both the archaeological mound and temple complex offer distinct, worthwhile photo opportunities.",
-      },
-    ],
-  },
-];
-
 export default function AgrohaGuidePage() {
   return (
     <>
@@ -207,8 +155,8 @@ export default function AgrohaGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/hampi/hero.jpg"
-              alt="Ancient ruins representative of the archaeological mound at Agroha, Haryana"
+              src="/images/blogs/haryana/agroha/agroha.webp"
+              alt="Agroha, Haryana"
               fill
               priority
               sizes="100vw"
@@ -416,15 +364,6 @@ export default function AgrohaGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to See in Agroha</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/hampi/hero.jpg"
-                      alt="Ancient mound and ruins at Agroha"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <ul>
                     <li>
                       <strong>Agroha Tila (the archaeological mound):</strong> The excavation site itself, where
@@ -689,8 +628,6 @@ export default function AgrohaGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              <TrekGearRecommendations sections={AGROHA_GEAR} destination="Agroha" />
 
               <RelatedPostsGrid currentSlug="agroha-travel-guide" />
             </article>

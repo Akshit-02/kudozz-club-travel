@@ -542,15 +542,6 @@ export default function MunsiyariGuidePage() {
                 {/* ── Attractions ────────────────────────────────────────── */}
                 <section id="attractions">
                   <h2>Things to Do & See in Munsiyari</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/uttarakhand/munsiyari/betuli-dhar-viewpoint-sunrise-munsiyari.webp"
-                      alt="Silhouetted Panchachuli peaks lit by golden sunrise clouds, as seen from Betuli Dhar viewpoint above Munsiyari"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Betuli Dhar Viewpoint</h3>
                   <p>
                     A short walk or drive above town, Betuli Dhar is

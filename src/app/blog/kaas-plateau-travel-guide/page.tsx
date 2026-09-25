@@ -7,10 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuidePhotoRow } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
   title: "Kaas Plateau Travel Guide: The Valley of Flowers of Maharashtra",
@@ -27,10 +24,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/meghalaya/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Green volcanic plateau landscape resembling Kaas Plateau, Maharashtra",
+        url: "/images/blogs/maharashtra/kaas-plateau/kaas-plateau-2.webp",
+        width: 800,
+        height: 533,
+        alt: "Kaas Plateau, Maharashtra",
       },
     ],
   },
@@ -39,7 +36,7 @@ export const metadata: Metadata = {
     title: "Kaas Plateau Travel Guide: The Valley of Flowers of Maharashtra",
     description:
       "Bloom timing, tickets, and the complete guide to Maharashtra's UNESCO wildflower plateau.",
-    images: ["/images/destinations/meghalaya/hero.jpg"],
+    images: ["/images/blogs/maharashtra/kaas-plateau/kaas-plateau-2.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/kaas-plateau-travel-guide",
@@ -56,7 +53,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Kaas Plateau Travel Guide: The Valley of Flowers of Maharashtra",
           description: "The complete Kaas Plateau travel guide.",
-          image: "https://club.kudozz.in/images/destinations/meghalaya/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/maharashtra/kaas-plateau/kaas-plateau-2.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: {
@@ -144,56 +141,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const KAAS_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for a plateau walk and macro flower photography",
-    emoji: "🌸",
-    items: [
-      {
-        name: "Comfortable Walking Shoes",
-        description: "The plateau's wooden walkways and surrounding paths are best covered in closed, comfortable shoes rather than sandals.",
-        price: "₹1,199",  image: "👟",
-        affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+outdoor"),
-        tag: "Trek essential", tagColor: "bg-amber-100 text-amber-700",
-        why: "You'll be on your feet for 1.5-2 hours on uneven walkway boards — proper shoes make the whole visit more comfortable.",
-      },
-      {
-        name: "Macro Lens / Phone Clip-On Macro",
-        description: "Kaas's flowers are often tiny — a macro attachment turns ordinary phone photos into genuinely striking close-ups.",
-        price: "₹599",  image: "🔍",
-        affiliateUrl: amazonSearchUrl("phone+macro+lens+clip"),
-        tag: "Photography", tagColor: "bg-purple-100 text-purple-700",
-        why: "Standard phone cameras flatten small wildflowers into a blur — a clip-on macro lens is a cheap fix that changes your photos completely.",
-      },
-      {
-        name: "Wide-Brim Sun Hat",
-        description: "The plateau has almost no shade — direct exposure for the full walk, even under overcast late-monsoon skies.",
-        price: "₹399",  image: "👒",
-        affiliateUrl: amazonSearchUrl("wide+brim+sun+hat+travel"),
-        tag: "Comfort essential", tagColor: "bg-sky-100 text-sky-700",
-        why: "There's no tree cover on the open plateau — a hat matters even on a cloudy day.",
-      },
-      {
-        name: "Light Rain Jacket",
-        description: "Late-monsoon weather at Kaas is unpredictable — a sudden shower is common during peak bloom season.",
-        price: "₹799",  image: "🧥",
-        affiliateUrl: amazonSearchUrl("packable+rain+jacket"),
-        tag: "Season essential", tagColor: "bg-forest-100 text-forest-700",
-        why: "Bloom season overlaps with the monsoon's tail end — a packable rain layer avoids cutting your visit short.",
-      },
-      {
-        name: "Reusable Water Bottle",
-        description: "No shade and a fair bit of walking between the plateau, Kaas Lake, and Thoseghar make hydration worth planning for.",
-        price: "₹349",  image: "💧",
-        affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"),
-        tag: "Day-trip essential", tagColor: "bg-stone-100 text-stone-700",
-        why: "There are limited shops right at the plateau entrance — carrying your own water avoids a mid-visit scramble.",
-      },
-    ],
-  },
-];
-
 export default function KaasPlateauGuidePage() {
   return (
     <>
@@ -204,8 +151,8 @@ export default function KaasPlateauGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/meghalaya/hero.jpg"
-              alt="Green volcanic plateau landscape resembling Kaas Plateau, Maharashtra"
+              src="/images/blogs/maharashtra/kaas-plateau/kaas-plateau-2.webp"
+              alt="Kaas Plateau, Maharashtra"
               fill priority sizes="100vw" className="object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
@@ -361,9 +308,6 @@ export default function KaasPlateauGuidePage() {
 
                 <section id="attractions">
                   <h2>Kaas Plateau & Nearby Attractions</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/meghalaya/hero.jpg" alt="Rolling green plateau and hills near Kaas, Maharashtra" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>Kaas Plateau:</strong> The main attraction — marked wooden walkways loop through the flowering fields; entry is ticketed and capped daily.</li>
                     <li><strong>Kaas Lake:</strong> A scenic lake just before the plateau entrance that supplies water to Satara town — a quiet stop for photos.</li>
@@ -371,6 +315,11 @@ export default function KaasPlateauGuidePage() {
                     <li><strong>Bamnoli:</strong> A short drive from Kaas, offering boat rides on the Shivsagar (Koyna) backwaters.</li>
                     <li><strong>Sajjangad Fort:</strong> About 30 km away, home to the samadhi of the saint Samarth Ramdas — a good half-day add-on with fort views.</li>
                   </ul>
+                  <GuidePhotoRow
+                    images={[
+                      { src: "/images/blogs/maharashtra/kaas-plateau/thoseghar-waterfalls-kaas-plateau.webp", alt: "Thoseghar Waterfalls, Kaas Plateau", caption: "Thoseghar Waterfalls, Kaas Plateau" },
+                    ]}
+                  />
                 </section>
 
                 <section id="where-to-stay">
@@ -495,7 +444,6 @@ export default function KaasPlateauGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={KAAS_GEAR} destination="Kaas Plateau" />
               <RelatedPostsGrid currentSlug="kaas-plateau-travel-guide" />
             </article>
 

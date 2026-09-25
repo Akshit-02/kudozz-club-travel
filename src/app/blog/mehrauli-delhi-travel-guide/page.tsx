@@ -26,7 +26,7 @@ export const metadata: Metadata = {
       {
         url: "/images/blogs/delhi/mehrauli/qutub-minar-tower-ruins-mehrauli.webp",
         width: 1600,
-        height: 974,
+        height: 1067,
         alt: "The Qutub Minar tower rising above the lawns of Mehrauli Archaeological Park, Delhi",
       },
     ],
@@ -548,6 +548,15 @@ export default function MehrauliGuidePage() {
                       Delhi's bus routes.
                     </li>
                   </ul>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/mehrauli/rajon-ki-baoli-stepwell-mehrauli.webp"
+                      alt="Stone steps descending into the four-storey Rajon ki Baoli stepwell in Mehrauli Archaeological Park"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <div
                     className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-xl my-4 text-sm"
                     style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -563,15 +572,6 @@ export default function MehrauliGuidePage() {
                 {/* ── Qutub Minar ───────────────────────────────────────── */}
                 <section id="qutub-minar">
                   <h2>Qutub Minar & Complex</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/delhi/mehrauli/qutub-minar-tower-ruins-mehrauli.webp"
-                      alt="The fluted red sandstone tower of Qutub Minar seen through the trees of Mehrauli park"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <p>
                     The <strong>Qutub Minar</strong> is the reason most
                     people first hear of Mehrauli, and it earns the
@@ -702,15 +702,6 @@ export default function MehrauliGuidePage() {
                       genuinely striking piece of functional architecture.
                     </li>
                   </ul>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/delhi/mehrauli/rajon-ki-baoli-stepwell-mehrauli.webp"
-                      alt="Stone steps descending into the four-storey Rajon ki Baoli stepwell in Mehrauli Archaeological Park"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <ul>
                     <li>
                       <strong>Balban's Tomb:</strong> The burial place of

@@ -7,10 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -29,8 +25,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/destinations/goa/beach.jpg",
-        width: 1200,
-        height: 630,
+        width: 2560,
+        height: 1920,
         alt: "Rocky cliff-lined coastline at Anjuna Beach, Goa",
       },
     ],
@@ -148,57 +144,6 @@ const tableOfContents = [
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
-];
-
-const ANJUNA_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for the cliffs, the market, and the beach",
-    emoji: "🏖️",
-    items: [
-      {
-        name: "Grip Sandals",
-        description:
-          "Anjuna's rockier coastal stretches call for footwear with better grip than flat flip-flops.",
-        price: "₹699",
-        image: "🩴",
-        affiliateUrl: amazonSearchUrl("grip+sandals+beach+outdoor"),
-        tag: "Beach essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "Anjuna's cliff-edge and rocky sections are more slippery than the flat sand elsewhere in Goa.",
-      },
-      {
-        name: "Reef-Safe Sunscreen (SPF 50)",
-        description: "Cliff-top walking and beach time both call for strong sun protection.",
-        price: "₹599",
-        image: "🧴",
-        affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+SPF+50"),
-        tag: "Beach essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Reflected sun off rock and sand adds up fast on an Anjuna afternoon.",
-      },
-      {
-        name: "Cross-Body Bag",
-        description: "For carrying cash and valuables securely while browsing the flea market crowds.",
-        price: "₹899",
-        image: "👜",
-        affiliateUrl: amazonSearchUrl("cross+body+travel+bag"),
-        tag: "Market essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "Flea market crowds are exactly the environment where a secure bag matters most.",
-      },
-      {
-        name: "Waterproof Phone Pouch",
-        description: "For swimming and boat trips without worrying about a dropped phone.",
-        price: "₹299",
-        image: "📱",
-        affiliateUrl: amazonSearchUrl("waterproof+phone+pouch+beach"),
-        tag: "Beach essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "A cheap pouch is far better than an expensive repair after a beach mishap.",
-      },
-    ],
-  },
 ];
 
 export default function AnjunaGuidePage() {
@@ -441,15 +386,6 @@ export default function AnjunaGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do in Anjuna</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/goa/beach.jpg"
-                      alt="Anjuna's cliff-lined coastline in North Goa"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <ul>
                     <li>
                       <strong>Anjuna Flea Market:</strong> A long-running weekly (traditionally
@@ -724,8 +660,6 @@ export default function AnjunaGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              <TrekGearRecommendations sections={ANJUNA_GEAR} destination="Anjuna" />
 
               <RelatedPostsGrid currentSlug="anjuna-travel-guide" />
             </article>

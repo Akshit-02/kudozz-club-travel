@@ -7,10 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -29,8 +25,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/destinations/meghalaya/hero.jpg",
-        width: 1200,
-        height: 630,
+        width: 2560,
+        height: 1920,
         alt: "Forested lake and hills representative of Roing, Arunachal Pradesh",
       },
     ],
@@ -157,61 +153,6 @@ const tableOfContents = [
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
-];
-
-// ── Gear ────────────────────────────────────────────────────────────────────
-const ROING_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for lake walks, forest ruins, and mountain-pass side trips",
-    emoji: "🏞️",
-    items: [
-      {
-        name: "Comfortable Walking Shoes",
-        description:
-          "Both Mehao Lake's shoreline paths and the Bhismaknagar ruins involve walking on uneven forest ground.",
-        price: "₹1,999",
-        image: "👟",
-        affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
-        tag: "Trip essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "The lake and ruins are both best explored on foot at an unhurried pace.",
-      },
-      {
-        name: "Insect Repellent",
-        description:
-          "Mehao Lake's forested surroundings and the Bhismaknagar jungle site both carry a real mosquito presence.",
-        price: "₹199",
-        image: "🦟",
-        affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"),
-        tag: "Forest essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "Both key attractions sit within dense forest cover." ,
-      },
-      {
-        name: "Warm Layer",
-        description:
-          "Useful if continuing on to Mayudia Pass, which can be genuinely cold even when Roing town feels mild.",
-        price: "₹1,499",
-        image: "🧥",
-        affiliateUrl: amazonSearchUrl("warm+jacket+travel"),
-        tag: "Pass-trip essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "The elevation gain to Mayudia Pass brings a real temperature drop.",
-      },
-      {
-        name: "Camera",
-        description:
-          "For the lake, the ruins, and the scenic drive toward Mayudia Pass.",
-        price: "₹—",
-        image: "📷",
-        affiliateUrl: amazonSearchUrl("compact+camera+travel"),
-        tag: "Sightseeing essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "Roing's lake-and-forest scenery is genuinely photogenic.",
-      },
-    ],
-  },
 ];
 
 // ── Page ─────────────────────────────────────────────────────────────────────
@@ -425,15 +366,6 @@ export default function RoingGuidePage() {
 
                 <section id="things-to-do">
                   <h2>Things to Do in Roing</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/meghalaya/hero.jpg"
-                      alt="Lake and forest scenery around Roing"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <ul>
                     <li>
                       <strong>Mehao Lake:</strong> A scenic forested lake
@@ -679,8 +611,6 @@ export default function RoingGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              <TrekGearRecommendations sections={ROING_GEAR} destination="Roing" />
 
               <RelatedPostsGrid currentSlug="roing-travel-guide" />
             </article>

@@ -24,10 +24,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/andaman/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Turquoise Andaman coastline at golden hour, evoking the sunset views Chidiya Tapu is known for",
+        url: "/images/blogs/andaman-and-nicobar/chidiya-tapu-andaman/chidiya-tapu-2.webp",
+        width: 1600,
+        height: 1200,
+        alt: "Chidiya Tapu, Andaman & Nicobar Islands",
       },
     ],
   },
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     title: "Chidiya Tapu Travel Guide: Sunset Point, Birds & Tips",
     description:
       "South Andaman's Bird Island — mangroves, a biological park, and the best sunset in the archipelago.",
-    images: ["/images/destinations/andaman/hero.jpg"],
+    images: ["/images/blogs/andaman-and-nicobar/chidiya-tapu-andaman/chidiya-tapu-2.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/chidiya-tapu-andaman-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           headline: "Chidiya Tapu Travel Guide: Sunset Point, Birds & Tips",
           description:
             "Complete Chidiya Tapu guide — South Andaman's Bird Island and best sunset viewpoint. Munda Pahad Beach, the Biological Park, birdwatching trails, timings, and how to plan a half-day trip from Port Blair.",
-          image: "https://club.kudozz.in/images/destinations/andaman/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/andaman-and-nicobar/chidiya-tapu-andaman/chidiya-tapu-2.webp",
           datePublished: "2026-09-01",
           dateModified: "2026-09-01",
           publisher: {
@@ -201,8 +201,8 @@ export default function ChidiyaTapuGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/andaman/hero.jpg"
-              alt="Turquoise Andaman coastline at golden hour, evoking the sunset views Chidiya Tapu is known for"
+              src="/images/blogs/andaman-and-nicobar/chidiya-tapu-andaman/chidiya-tapu-2.webp"
+              alt="Chidiya Tapu, Andaman & Nicobar Islands"
               fill
               priority
               sizes="100vw"
@@ -544,15 +544,6 @@ export default function ChidiyaTapuGuidePage() {
                 {/* ── Sunset Point ─────────────────────────────────────── */}
                 <section id="sunset-point">
                   <h2>The Sunset at Munda Pahad</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/andaman/hero.jpg"
-                      alt="Golden-hour light over turquoise Andaman water, evoking the sunset seen from Munda Pahad Beach at Chidiya Tapu"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <p>
                     <strong>Munda Pahad Beach</strong> is where the sunset
                     unfolds — an open, west-facing stretch of coast without

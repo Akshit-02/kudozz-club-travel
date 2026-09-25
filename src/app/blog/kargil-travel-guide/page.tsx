@@ -7,9 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  HIMALAYAN_GEAR,
-} from "@/components/ui/TrekGearRecommendations";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -642,15 +639,6 @@ export default function KargilPage() {
                 {/* ── War Memorial ──────────────────────────────────────── */}
                 <section id="war-memorial">
                   <h2>Kargil War Memorial, Dras</h2>
-                  <div className="relative w-full rounded-xl my-6 h-64 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/ladakh/kargil/kargil-war-memorial-drass.webp"
-                      alt="Visitors at the Kargil War Memorial in Drass, honouring the 1999 Kargil War"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <p>
                     About 60 km before Kargil, on the Srinagar side, the road
                     passes through <strong>Dras</strong> — often cited as the
@@ -1284,11 +1272,6 @@ export default function KargilPage() {
                   </Link>
                 ))}
               </div>
-
-              <TrekGearRecommendations
-                sections={HIMALAYAN_GEAR}
-                destination="Kargil"
-              />
 
               <RelatedPostsGrid currentSlug="kargil-travel-guide" />
             </article>

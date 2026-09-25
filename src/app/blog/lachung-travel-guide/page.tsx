@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/manali/solang-valley.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Green mountain valley landscape, evoking Lachung's river-confluence setting in North Sikkim",
+        url: "/images/blogs/sikkim/lachung/lachung.webp",
+        width: 1600,
+        height: 1067,
+        alt: "Lachung, Sikkim",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Lachung Travel Guide: Gateway to Yumthang",
     description:
       "A river-confluence village in North Sikkim, apple orchards, and the essential overnight base before Yumthang Valley.",
-    images: ["/images/destinations/manali/solang-valley.jpg"],
+    images: ["/images/blogs/sikkim/lachung/lachung.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/lachung-travel-guide",
@@ -59,7 +60,7 @@ function ArticleSchema() {
           headline: "Lachung Travel Guide: Gateway to Yumthang",
           description:
             "Complete Lachung guide — the North Sikkim river-confluence village, apple orchards, Lachung Monastery, permits, how to reach from Gangtok, and using it as your base for Yumthang Valley.",
-          image: "https://club.kudozz.in/images/destinations/manali/solang-valley.jpg",
+          image: "https://club.kudozz.in/images/blogs/sikkim/lachung/lachung.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -195,8 +196,8 @@ export default function LachungGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/manali/solang-valley.jpg"
-              alt="Green mountain valley landscape, evoking Lachung's river-confluence setting in North Sikkim"
+              src="/images/blogs/sikkim/lachung/lachung.webp"
+              alt="Lachung, Sikkim"
               fill
               priority
               sizes="100vw"
@@ -521,16 +522,8 @@ export default function LachungGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Monastery, Orchards & the Yumthang Base</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/manali/solang-valley.jpg"
-                      alt="Mountain valley scenery around Lachung village, North Sikkim"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Lachung Monastery</h3>
+                  <GuideFigure src="/images/blogs/sikkim/lachung/lachung-monastery.webp" alt="Lachung Monastery, Sikkim" />
                   <p>
                     A Nyingma-sect Buddhist gompa set on a rise above the
                     village, worth a short visit for its quiet setting and

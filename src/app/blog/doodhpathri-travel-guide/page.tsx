@@ -7,9 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  HIMALAYAN_GEAR,
-} from "@/components/ui/TrekGearRecommendations";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -563,6 +560,24 @@ export default function DoodhpathriGuidePage() {
                       year to year with road maintenance.
                     </li>
                   </ul>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/jammu-and-kashmir/doodhpathri/pony-riders-doodhpathri-meadow.webp"
+                      alt="Pony riders crossing the wide green meadow at Doodhpathri, Kashmir"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/jammu-and-kashmir/doodhpathri/shaliganga-stream-boulders-pine-forest.webp"
+                      alt="The Shaliganga stream churning white over boulders near Doodhpathri, framed by pine forest"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <div
                     className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-xl my-4 text-sm"
                     style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -601,15 +616,6 @@ export default function DoodhpathriGuidePage() {
                       give the valley its "milk" name.
                     </li>
                   </ul>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/jammu-and-kashmir/doodhpathri/shaliganga-stream-boulders-pine-forest.webp"
-                      alt="The Shaliganga stream churning white over boulders near Doodhpathri, framed by pine forest"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <ul>
                     <li>
                       <strong>Meadow walks:</strong> The open grassland
@@ -624,15 +630,6 @@ export default function DoodhpathriGuidePage() {
                       Gulmarg but far less commercialised and cheaper.
                     </li>
                   </ul>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/jammu-and-kashmir/doodhpathri/pony-riders-doodhpathri-meadow.webp"
-                      alt="Pony riders crossing the wide green meadow at Doodhpathri, Kashmir"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <ul>
                     <li>
                       <strong>Photography:</strong> Wide-open meadow,
@@ -1169,12 +1166,6 @@ export default function DoodhpathriGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              {/* ── Gear Recommendations ──────────────────────────────── */}
-              <TrekGearRecommendations
-                sections={HIMALAYAN_GEAR}
-                destination="Doodhpathri"
-              />
 
               <RelatedPostsGrid currentSlug="doodhpathri-travel-guide" />
             </article>

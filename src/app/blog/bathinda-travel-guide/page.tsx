@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/hampi/virupaksha.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Ancient stone fort architecture, evoking Bathinda's historic Qila Mubarak fort",
+        url: "/images/blogs/punjab/bathinda/bathinda.webp",
+        width: 1600,
+        height: 1067,
+        alt: "View of Bathinda, Punjab",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Bathinda Travel Guide: Qila Mubarak & History",
     description:
       "An ancient fort city in Punjab with a genuine Razia Sultana connection, alongside a modern industrial character.",
-    images: ["/images/destinations/hampi/virupaksha.jpg"],
+    images: ["/images/blogs/punjab/bathinda/bathinda.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/bathinda-travel-guide",
@@ -59,7 +60,7 @@ function ArticleSchema() {
           headline: "Bathinda Travel Guide: Qila Mubarak & History",
           description:
             "Complete Bathinda guide — the ancient Qila Mubarak fort linked to Razia Sultana, Rose Garden, Bir Talab, how to reach from Patiala, and an honest visit plan.",
-          image: "https://club.kudozz.in/images/destinations/hampi/virupaksha.jpg",
+          image: "https://club.kudozz.in/images/blogs/punjab/bathinda/bathinda.webp",
           datePublished: "2026-09-04",
           dateModified: "2026-09-04",
           publisher: {
@@ -195,8 +196,8 @@ export default function BathindaGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/hampi/virupaksha.jpg"
-              alt="Ancient stone fort architecture, evoking Bathinda's historic Qila Mubarak fort"
+              src="/images/blogs/punjab/bathinda/bathinda.webp"
+              alt="View of Bathinda, Punjab"
               fill
               priority
               sizes="100vw"
@@ -506,16 +507,8 @@ export default function BathindaGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Qila Mubarak & City Sights</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/hampi/virupaksha.jpg"
-                      alt="Ancient fortified stone walls, evoking Bathinda's Qila Mubarak"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Qila Mubarak (Bathinda Fort)</h3>
+                  <GuideFigure src="/images/blogs/punjab/bathinda/qila-mubarak-bathinda.webp" alt="Qila Mubarak, Bathinda" />
                   <p>
                     One of the oldest surviving forts in the region,
                     historically linked to Razia Sultana's imprisonment — a

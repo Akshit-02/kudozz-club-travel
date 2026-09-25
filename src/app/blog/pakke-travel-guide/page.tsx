@@ -7,8 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Pakke Tiger Reserve Travel Guide: Hornbills & Foothill Forest",
@@ -21,9 +19,9 @@ export const metadata: Metadata = {
     description: "A foothill tiger reserve known less for tigers than for a community-led hornbill conservation program that's become a genuine conservation model — the complete guide to Pakke.",
     url: "https://club.kudozz.in/blog/pakke-travel-guide",
     type: "article", siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/coorg/abbey-falls.jpg", width: 1200, height: 630, alt: "Forest and waterfall landscape representative of Pakke Tiger Reserve, Arunachal Pradesh" }],
+    images: [{ url: "/images/blogs/arunachal-pradesh/pakke/pakke-tiger-reserve.webp", width: 1600, height: 1200, alt: "Pakke Tiger Reserve, Arunachal Pradesh" }],
   },
-  twitter: { card: "summary_large_image", title: "Pakke Tiger Reserve Travel Guide: Hornbills & Foothill Forest", description: "A community-led hornbill conservation model in Arunachal's foothill forest — the complete guide to Pakke.", images: ["/images/destinations/coorg/abbey-falls.jpg"] },
+  twitter: { card: "summary_large_image", title: "Pakke Tiger Reserve Travel Guide: Hornbills & Foothill Forest", description: "A community-led hornbill conservation model in Arunachal's foothill forest — the complete guide to Pakke.", images: ["/images/blogs/arunachal-pradesh/pakke/pakke-tiger-reserve.webp"] },
   alternates: { canonical: "https://club.kudozz.in/blog/pakke-travel-guide" },
 };
 
@@ -33,7 +31,7 @@ function ArticleSchema() {
       "@context": "https://schema.org", "@type": "BlogPosting",
       headline: "Pakke Tiger Reserve Travel Guide: Hornbills & Foothill Forest",
       description: "The complete Pakke Tiger Reserve travel guide.",
-      image: "https://club.kudozz.in/images/destinations/coorg/abbey-falls.jpg",
+      image: "https://club.kudozz.in/images/blogs/arunachal-pradesh/pakke/pakke-tiger-reserve.webp",
       datePublished: "2026-09-08", dateModified: "2026-09-08",
       publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
       author: { "@type": "Organization", name: "Kudozz Club" },
@@ -80,16 +78,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const PAKKE_GEAR: GearSection[] = [{
-  title: "Things Worth Carrying", subtitle: "Gear focused on birding and foothill forest safaris", emoji: "🦤",
-  items: [
-    { name: "Binoculars", description: "Pakke's real strength is its hornbill and general bird diversity — binoculars matter more here than at most tiger-focused reserves.", price: "₹1,999",  image: "🔭", affiliateUrl: amazonSearchUrl("binoculars+birdwatching+wildlife"), tag: "Non-negotiable", tagColor: "bg-red-100 text-red-700", why: "Hornbill spotting is Pakke's headline activity — binoculars are essential, not optional." },
-    { name: "Telephoto Camera / Lens", description: "For photographing hornbills and other birdlife at a respectful distance.", price: "₹8,999+",  image: "📷", affiliateUrl: amazonSearchUrl("telephoto+lens+wildlife+photography"), tag: "Photography essential", tagColor: "bg-purple-100 text-purple-700", why: "A longer lens makes a real difference for bird photography in dense forest." },
-    { name: "Neutral/Khaki Clothing", description: "Standard safari practice, less disruptive to wildlife in the foothill forest terrain.", price: "₹1,299",  image: "🧥", affiliateUrl: amazonSearchUrl("khaki+safari+clothing"), tag: "Safari essential", tagColor: "bg-amber-100 text-amber-700", why: "Bright colors are more noticeable to wildlife in dense forest cover." },
-    { name: "Insect Repellent", description: "Pakke's foothill forest is genuinely humid and insect-heavy.", price: "₹199",  image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+forest"), tag: "Forest essential", tagColor: "bg-forest-100 text-forest-700", why: "Dense, humid forest terrain makes this genuinely necessary." },
-  ],
-}];
-
 export default function PakkeGuidePage() {
   return (
     <>
@@ -97,7 +85,7 @@ export default function PakkeGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/coorg/abbey-falls.jpg" alt="Forest and waterfall landscape representative of Pakke Tiger Reserve, Arunachal Pradesh" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/arunachal-pradesh/pakke/pakke-tiger-reserve.webp" alt="Pakke Tiger Reserve, Arunachal Pradesh" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -200,9 +188,6 @@ export default function PakkeGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Wildlife & the Hornbill Program</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/coorg/abbey-falls.jpg" alt="Forest scenery within Pakke Tiger Reserve" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>Hornbill Nest Adoption Program:</strong> A genuine, celebrated Nyishi-led conservation initiative protecting hornbill nesting sites — learn about it respectfully during your visit.</li>
                     <li><strong>Hornbill diversity:</strong> Multiple hornbill species present, the park's real draw for birders.</li>
@@ -323,7 +308,6 @@ export default function PakkeGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={PAKKE_GEAR} destination="Pakke" />
               <RelatedPostsGrid currentSlug="pakke-travel-guide" />
             </article>
             <div className="hidden xl:block w-64 2xl:w-72 flex-shrink-0"><div className="sticky top-24"><RelatedSidebar currentSlug="pakke-travel-guide" /></div></div>

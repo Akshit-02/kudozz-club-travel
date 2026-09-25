@@ -7,10 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
   title: "Jog Falls Travel Guide: India's Tallest Plunge Waterfall",
@@ -24,13 +21,13 @@ export const metadata: Metadata = {
     url: "https://club.kudozz.in/blog/jog-falls-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/coorg/abbey-falls.jpg", width: 1200, height: 630, alt: "Waterfall in forested gorge representative of Jog Falls, Karnataka" }],
+    images: [{ url: "/images/blogs/karnataka/jog-falls/jog-falls.webp", width: 1600, height: 1200, alt: "Jog Falls, Karnataka" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Jog Falls Travel Guide: India's Tallest Plunge Waterfall",
     description: "A four-pronged waterfall dropping nearly 830 feet on the Sharavathi River — the complete guide to Jog Falls.",
-    images: ["/images/destinations/coorg/abbey-falls.jpg"],
+    images: ["/images/blogs/karnataka/jog-falls/jog-falls.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/jog-falls-travel-guide" },
 };
@@ -45,7 +42,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Jog Falls Travel Guide: India's Tallest Plunge Waterfall",
           description: "The complete Jog Falls travel guide.",
-          image: "https://club.kudozz.in/images/destinations/coorg/abbey-falls.jpg",
+          image: "https://club.kudozz.in/images/blogs/karnataka/jog-falls/jog-falls.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
@@ -104,20 +101,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const JOG_FALLS_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for viewpoint walks and any base-access steps",
-    emoji: "💦",
-    items: [
-      { name: "Grip Trekking Sandals", description: "Viewpoint paths and any open base-access steps can get slick, especially in and after monsoon.", price: "₹899",  image: "🥾", affiliateUrl: amazonSearchUrl("trekking+sandals+grip+outdoor"), tag: "Trail essential", tagColor: "bg-amber-100 text-amber-700", why: "Wet rock and steep steps near the falls are where slips most commonly happen." },
-      { name: "Rain Jacket / Poncho", description: "Essential if visiting during the peak Aug-Nov flow window, when rain is likely alongside the falls' best flow.", price: "₹899",  image: "🧥", affiliateUrl: amazonSearchUrl("packable+rain+jacket+trekking"), tag: "Monsoon essential", tagColor: "bg-sky-100 text-sky-700", why: "The best-flow season and the wettest weather overlap almost exactly here." },
-      { name: "Reusable Water Bottle", description: "For the walk between viewpoints and any base-access trail.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "All-day essential", tagColor: "bg-forest-100 text-forest-700", why: "Facilities are limited around the falls themselves." },
-      { name: "Camera / Phone Dry Bag", description: "Waterfall spray at close viewpoints can be significant, especially at peak flow.", price: "₹399",  image: "📷", affiliateUrl: amazonSearchUrl("waterproof+camera+dry+bag"), tag: "Photography essential", tagColor: "bg-purple-100 text-purple-700", why: "Close-up viewpoints at peak season get a genuine amount of mist and spray." },
-    ],
-  },
-];
-
 export default function JogFallsGuidePage() {
   return (
     <>
@@ -127,7 +110,7 @@ export default function JogFallsGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/coorg/abbey-falls.jpg" alt="Waterfall in forested gorge representative of Jog Falls, Karnataka" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/karnataka/jog-falls/jog-falls.webp" alt="Jog Falls, Karnataka" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -235,9 +218,7 @@ export default function JogFallsGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Viewpoints & Things to Do</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/coorg/abbey-falls.jpg" alt="Waterfall gorge scenery near Jog Falls" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
+                  <GuideFigure src="/images/blogs/karnataka/jog-falls/jog-falls-view.webp" alt="Jog Falls, Karnataka" />
                   <ul>
                     <li><strong>Main viewpoint:</strong> The primary viewing platform with the classic wide view of all four streams.</li>
                     <li><strong>Opposite-bank viewpoints:</strong> Alternate vantage points across the gorge offering a different angle on the falls.</li>
@@ -358,7 +339,6 @@ export default function JogFallsGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={JOG_FALLS_GEAR} destination="Jog Falls" />
               <RelatedPostsGrid currentSlug="jog-falls-travel-guide" />
             </article>
 

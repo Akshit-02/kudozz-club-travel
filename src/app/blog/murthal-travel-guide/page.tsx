@@ -7,8 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Murthal Travel Guide: The Parathas That Built a Highway Legend",
@@ -22,7 +20,7 @@ export const metadata: Metadata = {
     url: "https://club.kudozz.in/blog/murthal-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/udaipur/hero.jpg", width: 1200, height: 630, alt: "Highway dhaba scene representative of Murthal, Haryana" }],
+    images: [{ url: "/images/destinations/udaipur/hero.jpg", width: 2560, height: 1707, alt: "Highway dhaba scene representative of Murthal, Haryana" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -132,46 +130,6 @@ const tableOfContents = [
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
-];
-
-const MURTHAL_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "The bare essentials for a highway dhaba stop",
-    emoji: "🫓",
-    items: [
-      {
-        name: "Hand Sanitizer",
-        description: "Useful for a roadside dhaba stop where handwashing facilities can be basic.",
-        price: "₹99",
-        image: "🧴",
-        affiliateUrl: amazonSearchUrl("hand+sanitizer+travel+pack"),
-        tag: "Practical essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "A small, sensible precaution for any highway food stop." ,
-      },
-      {
-        name: "Wet Wipes",
-        description: "Handy for a butter-and-paratha meal eaten with your hands, dhaba-style.",
-        price: "₹149",
-        image: "🧻",
-        affiliateUrl: amazonSearchUrl("wet+wipes+travel+pack"),
-        tag: "Practical essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Butter-laden parathas are a genuinely hands-on eating experience.",
-      },
-      {
-        name: "Comfortable Travel Clothing",
-        description: "Nothing special required — just casual, comfortable clothes for a roadside meal break.",
-        price: "₹—",
-        image: "👕",
-        affiliateUrl: amazonSearchUrl("comfortable+travel+clothing"),
-        tag: "Comfort",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "This is a casual roadside food stop, not a formal sightseeing destination.",
-      },
-    ],
-  },
 ];
 
 export default function MurthalGuidePage() {
@@ -594,8 +552,6 @@ export default function MurthalGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              <TrekGearRecommendations sections={MURTHAL_GEAR} destination="Murthal" />
 
               <RelatedPostsGrid currentSlug="murthal-travel-guide" />
             </article>

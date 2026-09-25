@@ -596,8 +596,8 @@ export default function DamanGuidePage() {
                   <h2>Moti Daman: The Historic Walled Quarter</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/moti-daman-fort/moti-daman-fort-lighthouse-estuary-view.webp"
-                      alt="View along Moti Daman Fort's sea wall toward the Daman lighthouse and the Daman Ganga river mouth"
+                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/daman/devka-beach-daman-3.webp"
+                      alt="Devka Beach, Daman"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -644,8 +644,8 @@ export default function DamanGuidePage() {
                   <h2>Nani Daman: Markets, Harbour & Everyday Life</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/nani-daman/nani-daman-fort-entrance-gate.webp"
-                      alt="The weathered stone entrance gate of the Fort of St. Francis Xavier in Nani Daman, carved with a cross and lion reliefs"
+                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/daman/nani-daman-2.webp"
+                      alt="Nani Daman, Dadra and Nagar Haveli and Daman and Diu"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -730,8 +730,8 @@ export default function DamanGuidePage() {
                   <h2>Vanganga Lake Garden</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/vanganga-lake-garden/vanganga-lake-garden-lakeside-view-silvassa.webp"
-                      alt="The palm-fringed lake at Vanganga Lake Garden in Daman, with the walking path and lawns along the shore"
+                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/daman/vanganga-lake-garden-daman.webp"
+                      alt="Vanganga Lake Garden, Daman"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -800,8 +800,8 @@ export default function DamanGuidePage() {
                   <h2>Fishing-Community Culture & Seafood</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/nani-daman/nani-daman-fishing-boats-harbour.webp"
-                      alt="Brightly painted fishing boats moored at the Nani Daman harbour, Daman's working fishing quarter"
+                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/daman/daman.webp"
+                      alt="Daman, Dadra and Nagar Haveli and Daman and Diu"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

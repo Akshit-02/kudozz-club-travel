@@ -379,6 +379,15 @@ export default function KarolBaghGuidePage() {
                     to stay.
                   </p>
 
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/karol-bagh/gaffar-market-electronics-lane-karol-bagh.webp"
+                      alt="A narrow pedestrian lane inside Gaffar Market lined with mobile repair and electronics stalls, Karol Bagh"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   {/* At a Glance */}
                   <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 my-8">
                     <h4
@@ -601,15 +610,6 @@ export default function KarolBaghGuidePage() {
                     speakers, and small gadgets.
                   </p>
 
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/delhi/karol-bagh/gaffar-market-electronics-lane-karol-bagh.webp"
-                      alt="A narrow pedestrian lane inside Gaffar Market lined with mobile repair and electronics stalls, Karol Bagh"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
 
                   <p>
                     It's also honestly worth knowing that Gaffar Market has

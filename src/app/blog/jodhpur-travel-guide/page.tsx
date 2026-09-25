@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jaisalmer/fort.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Massive sandstone fort ramparts, evoking Jodhpur's Mehrangarh Fort above the Blue City",
+        url: "/images/blogs/rajasthan/jodhpur/jodhpur-2.webp",
+        width: 1600,
+        height: 1067,
+        alt: "View of Jodhpur, Rajasthan",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Jodhpur Travel Guide: Mehrangarh Fort & Blue City",
     description:
       "One of India's largest, best-preserved forts towering over a sea of indigo-blue houses — the complete guide to Jodhpur.",
-    images: ["/images/destinations/jaisalmer/fort.jpg"],
+    images: ["/images/blogs/rajasthan/jodhpur/jodhpur-2.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/jodhpur-travel-guide",
@@ -59,7 +60,7 @@ function ArticleSchema() {
           headline: "Jodhpur Travel Guide: Mehrangarh Fort & Blue City",
           description:
             "Complete Jodhpur guide — Mehrangarh Fort, Jaswant Thada, Umaid Bhawan Palace, the Blue City's old town, how to reach, and a full 2-day visit plan.",
-          image: "https://club.kudozz.in/images/destinations/jaisalmer/fort.jpg",
+          image: "https://club.kudozz.in/images/blogs/rajasthan/jodhpur/jodhpur-2.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -200,8 +201,8 @@ export default function JodhpurGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jaisalmer/fort.jpg"
-              alt="Massive sandstone fort ramparts, evoking Jodhpur's Mehrangarh Fort above the Blue City"
+              src="/images/blogs/rajasthan/jodhpur/jodhpur-2.webp"
+              alt="View of Jodhpur, Rajasthan"
               fill
               priority
               sizes="100vw"
@@ -515,16 +516,8 @@ export default function JodhpurGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Mehrangarh Fort & Old Town</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/jaisalmer/fort.jpg"
-                      alt="Sandstone fort walls, evoking Jodhpur's Mehrangarh Fort"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Mehrangarh Fort</h3>
+                  <GuideFigure src="/images/blogs/rajasthan/jodhpur/mehrangarh-fort-jodhpur.webp" alt="Mehrangarh Fort, Jodhpur" />
                   <p>
                     One of India's largest and best-preserved forts, its
                     museum inside covers Rajput royal history, weaponry, and
@@ -533,12 +526,14 @@ export default function JodhpurGuidePage() {
                     City's rooftops.
                   </p>
                   <h3>Jaswant Thada</h3>
+                  <GuideFigure src="/images/blogs/rajasthan/jodhpur/jaswant-thada-jodhpur.webp" alt="Jaswant Thada, Jodhpur" />
                   <p>
                     A beautiful white marble cenotaph near the fort,
                     sometimes called the "Taj Mahal of Marwar" for its
                     intricately carved facade and serene setting.
                   </p>
                   <h3>Umaid Bhawan Palace</h3>
+                  <GuideFigure src="/images/blogs/rajasthan/jodhpur/umaid-bhawan-palace-jodhpur.webp" alt="Umaid Bhawan Palace, Jodhpur" />
                   <p>
                     One of the largest private residences in the world, part
                     heritage hotel, part royal residence, and part museum —
@@ -546,6 +541,7 @@ export default function JodhpurGuidePage() {
                     architecture.
                   </p>
                   <h3>Clock Tower & Sardar Market</h3>
+                  <GuideFigure src="/images/blogs/rajasthan/jodhpur/clock-tower-and-sardar-market-jodhpur.webp" alt="Clock Tower & Sardar Market, Jodhpur" />
                   <p>
                     The bustling heart of the old city, packed with spice
                     stalls, textile shops, and handicraft vendors around the

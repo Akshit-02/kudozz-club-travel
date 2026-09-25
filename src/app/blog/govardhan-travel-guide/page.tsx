@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -555,15 +556,6 @@ export default function GovardhanGuidePage() {
                 {/* ── Attractions ────────────────────────────────────────── */}
                 <section id="attractions">
                   <h2>The Parikrama & Sacred Sites</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/uttar-pradesh/govardhan/govardhan-hill-sandstone-outcrop-braj.webp"
-                      alt="A gently rising sacred hill landscape representative of Govardhan Hill and its surrounding countryside"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Govardhan Hill & the Parikrama</h3>
                   <p>
                     The hill itself is long and low rather than dramatic —
@@ -577,6 +569,7 @@ export default function GovardhanGuidePage() {
                     route, can take several days.
                   </p>
                   <h3>Radha Kund & Shyam Kund</h3>
+                  <GuideFigure src="/images/blogs/uttar-pradesh/govardhan/radha-kund-and-shyam-kund-govardhan.webp" alt="Radha Kund & Shyam Kund, Govardhan" />
                   <p>
                     These twin ponds, separated by a narrow strip of land,
                     are among the holiest bathing sites in the Braj region

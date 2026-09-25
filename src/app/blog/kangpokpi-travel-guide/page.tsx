@@ -522,15 +522,6 @@ export default function KangpokpiGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Things to Do in Kangpokpi</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/manipur/kangpokpi/pineapple-terraces-kangpokpi-manipur.webp"
-                      alt="Sunlit pineapple terraces climbing a hillside near Kangpokpi, Manipur"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Pineapple Orchards</h3>
                   <p>
                     Pineapple cultivation is a recognizable local

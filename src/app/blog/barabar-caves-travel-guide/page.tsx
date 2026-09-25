@@ -7,8 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuidePhotoRow } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
   title: "Barabar Caves Travel Guide: India's Oldest Rock-Cut Caves",
@@ -22,13 +21,13 @@ export const metadata: Metadata = {
     url: "https://club.kudozz.in/blog/barabar-caves-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/spiti-valley/spiti-valley.jpg", width: 1200, height: 630, alt: "Rocky arid landscape representative of the Barabar Caves, Bihar" }],
+    images: [{ url: "/images/blogs/bihar/barabar-caves/barabar-caves-2.webp", width: 1600, height: 1200, alt: "Barabar Caves, Bihar" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Barabar Caves Travel Guide: India's Oldest Rock-Cut Caves",
     description: "Ashokan-era granite caves near Gaya — the complete guide to Barabar Caves.",
-    images: ["/images/destinations/spiti-valley/spiti-valley.jpg"],
+    images: ["/images/blogs/bihar/barabar-caves/barabar-caves-2.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/barabar-caves-travel-guide" },
 };
@@ -43,7 +42,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Barabar Caves Travel Guide: India's Oldest Rock-Cut Caves",
           description: "The complete Barabar Caves travel guide.",
-          image: "https://club.kudozz.in/images/destinations/spiti-valley/spiti-valley.jpg",
+          image: "https://club.kudozz.in/images/blogs/bihar/barabar-caves/barabar-caves-2.webp",
           datePublished: "2026-09-08",
           dateModified: "2026-09-08",
           publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
@@ -102,20 +101,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const BARABAR_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for cave exploration and rural site access",
-    emoji: "🕳️",
-    items: [
-      { name: "Torch/Flashlight", description: "Cave interiors are dark and lack electric lighting — essential for seeing the polished walls and any inscriptions clearly.", price: "₹399",  image: "🔦", affiliateUrl: amazonSearchUrl("led+torch+flashlight+travel"), tag: "Cave essential", tagColor: "bg-amber-100 text-amber-700", why: "Without a light source, the caves' famous polished interior finish is hard to appreciate fully." },
-      { name: "Comfortable Walking Shoes", description: "For navigating the rocky, uneven approach to the caves.", price: "₹1,999",  image: "🥾", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Site essential", tagColor: "bg-forest-100 text-forest-700", why: "The terrain around the granite outcrops is uneven and rocky." },
-      { name: "Sun Hat", description: "The site is exposed with little shade around the granite hills.", price: "₹399",  image: "🧢", affiliateUrl: amazonSearchUrl("sun+hat+travel+outdoor"), tag: "Sun-protection essential", tagColor: "bg-sky-100 text-sky-700", why: "Little natural shade exists around the exposed granite outcrops." },
-      { name: "Reusable Water Bottle", description: "Facilities are minimal at this rural site — carry enough water for the visit.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "Rural-site essential", tagColor: "bg-purple-100 text-purple-700", why: "There are few shops or facilities directly at this remote heritage site." },
-    ],
-  },
-];
-
 export default function BarabarCavesGuidePage() {
   return (
     <>
@@ -125,7 +110,7 @@ export default function BarabarCavesGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/spiti-valley/spiti-valley.jpg" alt="Rocky arid landscape representative of the Barabar Caves, Bihar" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/bihar/barabar-caves/barabar-caves-2.webp" alt="Barabar Caves, Bihar" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -232,15 +217,18 @@ export default function BarabarCavesGuidePage() {
 
                 <section id="top-attractions">
                   <h2>The Caves & Their History</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/spiti-valley/spiti-valley.jpg" alt="Granite hill terrain around the Barabar Caves" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>Lomas Rishi Cave:</strong> Famous for its distinctive carved facade featuring an elephant frieze and an architectural style echoing wooden construction translated into stone.</li>
                     <li><strong>Sudama Cave:</strong> Notable for its remarkably polished granite interior, an impressive ancient stone-working achievement.</li>
                     <li><strong>Ashokan inscriptions:</strong> Several caves bear inscriptions from Emperor Ashoka's reign dedicating them to the Ajivika sect.</li>
                     <li><strong>A Passage to India connection:</strong> The caves are widely believed to have inspired the fictional Marabar Caves in E.M. Forster's novel — a notable literary footnote for readers of the book.</li>
                   </ul>
+                  <GuidePhotoRow
+                    images={[
+                      { src: "/images/blogs/bihar/barabar-caves/lomas-rishi-cave-barabar-caves-2.webp", alt: "Lomas Rishi Cave, Barabar Caves", caption: "Lomas Rishi Cave, Barabar Caves" },
+                      { src: "/images/blogs/bihar/barabar-caves/sudama-cave-barabar-caves-2.webp", alt: "Sudama Cave, Barabar Caves", caption: "Sudama Cave, Barabar Caves" },
+                    ]}
+                  />
                 </section>
 
                 <section id="where-to-stay">
@@ -355,7 +343,6 @@ export default function BarabarCavesGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={BARABAR_GEAR} destination="Barabar Caves" />
               <RelatedPostsGrid currentSlug="barabar-caves-travel-guide" />
             </article>
 

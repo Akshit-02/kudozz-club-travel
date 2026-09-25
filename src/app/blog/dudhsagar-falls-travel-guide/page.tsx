@@ -7,8 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
   title: "Dudhsagar Falls Travel Guide: Jeep Safari & Best Time to Visit",
@@ -22,13 +21,13 @@ export const metadata: Metadata = {
     url: "https://club.kudozz.in/blog/dudhsagar-falls-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/coorg/abbey-falls.jpg", width: 1200, height: 630, alt: "Multi-tiered waterfall in dense forest representative of Dudhsagar Falls, Goa" }],
+    images: [{ url: "/images/blogs/goa/dudhsagar-falls/dudhsagar-falls-2.webp", width: 1600, height: 1200, alt: "Dudhsagar Falls, Goa" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Dudhsagar Falls Travel Guide: Jeep Safari & Best Time to Visit",
     description: "A four-tiered waterfall reached by jeep safari through the Western Ghats — the complete guide to Dudhsagar Falls.",
-    images: ["/images/destinations/coorg/abbey-falls.jpg"],
+    images: ["/images/blogs/goa/dudhsagar-falls/dudhsagar-falls-2.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/dudhsagar-falls-travel-guide" },
 };
@@ -43,7 +42,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Dudhsagar Falls Travel Guide: Jeep Safari & Best Time to Visit",
           description: "The complete Dudhsagar Falls travel guide.",
-          image: "https://club.kudozz.in/images/destinations/coorg/abbey-falls.jpg",
+          image: "https://club.kudozz.in/images/blogs/goa/dudhsagar-falls/dudhsagar-falls-2.webp",
           datePublished: "2026-09-08",
           dateModified: "2026-09-08",
           publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
@@ -102,20 +101,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const DUDHSAGAR_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for the jeep safari and waterfall base pools",
-    emoji: "💦",
-    items: [
-      { name: "Quick-Dry Clothing", description: "The jeep safari and any swimming at the base pools will get you wet — quick-dry fabrics are far more comfortable than cotton.", price: "₹799",  image: "👕", affiliateUrl: amazonSearchUrl("quick+dry+travel+clothing"), tag: "Waterfall essential", tagColor: "bg-sky-100 text-sky-700", why: "A soaked cotton outfit for the bumpy jeep ride back is a common regret among first-time visitors." },
-      { name: "Water Shoes / Grip Sandals", description: "For the wet, rocky terrain around the base pools and the jeep-safari embarkation point.", price: "₹899",  image: "🥾", affiliateUrl: amazonSearchUrl("water+shoes+grip+sandals"), tag: "Non-negotiable", tagColor: "bg-red-100 text-red-700", why: "Slippery rocks near the falls are where most minor injuries happen at Dudhsagar." },
-      { name: "Dry Bag", description: "For keeping phones, wallets, and other valuables safe during the jeep ride and any time near the water.", price: "₹599",  image: "🎒", affiliateUrl: amazonSearchUrl("waterproof+dry+bag+small"), tag: "Waterfall essential", tagColor: "bg-purple-100 text-purple-700", why: "The jeep safari route crosses water and the base pools carry a real risk of a dropped, soaked phone." },
-      { name: "Rain Layer", description: "Useful if visiting during monsoon, when the falls are at their most dramatic but the weather is genuinely wet.", price: "₹899",  image: "🌂", affiliateUrl: amazonSearchUrl("packable+rain+jacket+travel"), tag: "Monsoon essential", tagColor: "bg-forest-100 text-forest-700", why: "Monsoon is when Dudhsagar looks its best — and when you're most likely to need a rain layer." },
-    ],
-  },
-];
-
 export default function DudhsagarFallsGuidePage() {
   return (
     <>
@@ -125,7 +110,7 @@ export default function DudhsagarFallsGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/coorg/abbey-falls.jpg" alt="Multi-tiered waterfall in dense forest representative of Dudhsagar Falls, Goa" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/goa/dudhsagar-falls/dudhsagar-falls-2.webp" alt="Dudhsagar Falls, Goa" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -233,9 +218,7 @@ export default function DudhsagarFallsGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do at Dudhsagar Falls</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/coorg/abbey-falls.jpg" alt="Waterfall and forest scenery at Dudhsagar Falls" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
+                  <GuideFigure src="/images/blogs/goa/dudhsagar-falls/dudhsagar-falls-view.webp" alt="Dudhsagar Falls, Goa" />
                   <ul>
                     <li><strong>Jeep safari to the falls:</strong> The core experience — a bumpy, scenic forest drive ending at the base of the falls.</li>
                     <li><strong>Base pool swimming (conditions permitting):</strong> Check current safety conditions locally before entering the water.</li>
@@ -357,7 +340,6 @@ export default function DudhsagarFallsGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={DUDHSAGAR_GEAR} destination="Dudhsagar Falls" />
               <RelatedPostsGrid currentSlug="dudhsagar-falls-travel-guide" />
             </article>
 

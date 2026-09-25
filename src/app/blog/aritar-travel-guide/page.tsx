@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/kerala/alleppey.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Calm lake water fringed by greenery, evoking Aritar Lake (Lampokhari) in East Sikkim",
+        url: "/images/blogs/sikkim/aritar/aritar-2.webp",
+        width: 1600,
+        height: 1067,
+        alt: "View of Aritar, Sikkim",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Aritar Travel Guide: Lake, Views & Tips",
     description:
       "A quiet East Sikkim village built around a horseshoe-shaped lake — the complete Aritar guide.",
-    images: ["/images/destinations/kerala/alleppey.jpg"],
+    images: ["/images/blogs/sikkim/aritar/aritar-2.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/aritar-travel-guide",
@@ -59,7 +60,7 @@ function ArticleSchema() {
           headline: "Aritar Travel Guide: Lake, Views & Tips",
           description:
             "Complete Aritar guide — Aritar Lake (Lampokhari), orange orchards, Aritar Gumpa, pairing with Zuluk on the Old Silk Route, how to reach from Gangtok, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/kerala/alleppey.jpg",
+          image: "https://club.kudozz.in/images/blogs/sikkim/aritar/aritar-2.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -195,8 +196,8 @@ export default function AritarGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/kerala/alleppey.jpg"
-              alt="Calm lake water fringed by greenery, evoking Aritar Lake (Lampokhari) in East Sikkim"
+              src="/images/blogs/sikkim/aritar/aritar-2.webp"
+              alt="View of Aritar, Sikkim"
               fill
               priority
               sizes="100vw"
@@ -502,16 +503,8 @@ export default function AritarGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Aritar Lake, Orchards & the Gumpa</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/kerala/alleppey.jpg"
-                      alt="Lampokhari Lake at Aritar, East Sikkim"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Aritar Lake (Lampokhari)</h3>
+                  <GuideFigure src="/images/blogs/sikkim/aritar/aritar-lake-2.webp" alt="Aritar Lake, Sikkim" />
                   <p>
                     A horseshoe-shaped lake at the centre of the village,
                     offering quiet boating away from Sikkim's busier
@@ -526,6 +519,7 @@ export default function AritarGuidePage() {
                     season.
                   </p>
                   <h3>Aritar Gumpa</h3>
+                  <GuideFigure src="/images/blogs/sikkim/aritar/aritar-gumpa-2.webp" alt="Aritar Gumpa, Sikkim" />
                   <p>
                     A notable local monastery, easily combined with a lake
                     visit for a fuller half-day of sightseeing.

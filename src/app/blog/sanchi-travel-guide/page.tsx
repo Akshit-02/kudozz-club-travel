@@ -7,10 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuidePhotoRow } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -28,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/hampi/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Ancient stone stupa architecture, representative of Sanchi, Madhya Pradesh",
+        url: "/images/blogs/madhya-pradesh/sanchi/sanchi-stupa.webp",
+        width: 1600,
+        height: 988,
+        alt: "Sanchi Stupa, Madhya Pradesh",
       },
     ],
   },
@@ -40,7 +37,7 @@ export const metadata: Metadata = {
     title: "Sanchi Stupa Travel Guide: Buddhist Monuments & History",
     description:
       "Emperor Ashoka's Great Stupa and its intricately carved gateways — the complete guide to Sanchi.",
-    images: ["/images/destinations/hampi/hero.jpg"],
+    images: ["/images/blogs/madhya-pradesh/sanchi/sanchi-stupa.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/sanchi-travel-guide" },
 };
@@ -57,7 +54,7 @@ function ArticleSchema() {
           headline: "Sanchi Stupa Travel Guide: Buddhist Monuments & History",
           description:
             "The complete guide to the Sanchi Stupa complex, a UNESCO World Heritage Site of Ashokan-era Buddhist monuments in Madhya Pradesh.",
-          image: "https://club.kudozz.in/images/destinations/hampi/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/madhya-pradesh/sanchi/sanchi-stupa.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: {
@@ -147,67 +144,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const SANCHI_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for a half-day at an open archaeological site",
-    emoji: "☸️",
-    items: [
-      {
-        name: "Comfortable Walking Shoes",
-        description:
-          "The Great Stupa's raised platform and surrounding paths involve stone steps and uneven ground — comfortable shoes make the visit far more pleasant.",
-        price: "₹1,499",
-        image: "👟",
-        affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
-        tag: "Site-visit essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "The circumambulation path around the Great Stupa is stone-paved and uneven in places.",
-      },
-      {
-        name: "Wide-Brim Sun Hat",
-        description: "Sanchi's hilltop setting has minimal shade across the open stupa grounds.",
-        price: "₹399",
-        image: "👒",
-        affiliateUrl: amazonSearchUrl("wide+brim+sun+hat+travel"),
-        tag: "Sun essential",
-        tagColor: "bg-orange-100 text-orange-700",
-        why: "The stupa complex sits on an open hilltop with very little natural shade even in cooler months.",
-      },
-      {
-        name: "Camera with Zoom Lens",
-        description: "The carved toranas (gateways) hold fine relief detail worth capturing up close without climbing on the structures.",
-        price: "₹—",
-        image: "📷",
-        affiliateUrl: amazonSearchUrl("mirrorless+camera+zoom+lens+travel"),
-        tag: "Photography essential",
-        tagColor: "bg-stone-100 text-stone-700",
-        why: "The torana carvings sit at height and reward a zoom lens more than a phone camera.",
-      },
-      {
-        name: "1L Water Bottle",
-        description: "A half-day visit in open sun still calls for hydration, especially outside the cooler winter months.",
-        price: "₹349",
-        image: "💧",
-        affiliateUrl: amazonSearchUrl("1l+water+bottle+travel"),
-        tag: "Site essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "There's limited shade and few refreshment points directly at the stupa grounds.",
-      },
-      {
-        name: "Lightweight Daypack",
-        description: "For water, camera gear, and any museum brochures picked up at the Sanchi Archaeological Museum.",
-        price: "₹899",
-        image: "🎒",
-        affiliateUrl: amazonSearchUrl("lightweight+daypack+travel"),
-        tag: "Day-trip essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "Useful for the combined Sanchi–Bhimbetka day loop many travellers do from Bhopal.",
-      },
-    ],
-  },
-];
-
 // ── Page ─────────────────────────────────────────────────────────────────────
 export default function SanchiGuidePage() {
   return (
@@ -221,8 +157,8 @@ export default function SanchiGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/hampi/hero.jpg"
-              alt="Ancient stone stupa architecture, representative of Sanchi, Madhya Pradesh"
+              src="/images/blogs/madhya-pradesh/sanchi/sanchi-stupa.webp"
+              alt="Sanchi Stupa, Madhya Pradesh"
               fill
               priority
               sizes="100vw"
@@ -417,8 +353,8 @@ export default function SanchiGuidePage() {
                   <h2>The Monuments at Sanchi</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/hampi/hero.jpg"
-                      alt="Ancient stupa architecture at Sanchi"
+                      src="/images/blogs/madhya-pradesh/sanchi/the-monuments-at-sanchi-sanchi-stupa.webp"
+                      alt="The Monuments at Sanchi, Sanchi Stupa"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -451,6 +387,13 @@ export default function SanchiGuidePage() {
                       after the stupa complex.
                     </li>
                   </ul>
+                  <GuidePhotoRow
+                    images={[
+                      { src: "/images/blogs/madhya-pradesh/sanchi/great-stupa-sanchi-stupa.webp", alt: "Great Stupa, Sanchi Stupa", caption: "Great Stupa, Sanchi Stupa" },
+                      { src: "/images/blogs/madhya-pradesh/sanchi/stupa-no-2-and-no-3-sanchi-stupa.webp", alt: "Stupa No. 2 & No. 3, Sanchi Stupa", caption: "Stupa No. 2 & No. 3, Sanchi Stupa" },
+                      { src: "/images/blogs/madhya-pradesh/sanchi/ashoka-pillar-sanchi-stupa.webp", alt: "Ashoka Pillar, Sanchi Stupa", caption: "Ashoka Pillar, Sanchi Stupa" },
+                    ]}
+                  />
                 </section>
 
                 <section id="itinerary">
@@ -590,8 +533,6 @@ export default function SanchiGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              <TrekGearRecommendations sections={SANCHI_GEAR} destination="Sanchi" />
 
               <RelatedPostsGrid currentSlug="sanchi-travel-guide" />
             </article>

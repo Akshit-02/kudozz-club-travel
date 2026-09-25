@@ -7,10 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuidePhotoRow } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
   title: "Chhatrapati Sambhajinagar Travel Guide: Bibi Ka Maqbara & Forts",
@@ -24,13 +21,13 @@ export const metadata: Metadata = {
     url: "https://club.kudozz.in/blog/chhatrapati-sambhajinagar-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/hampi/virupaksha.jpg", width: 1200, height: 630, alt: "Heritage stone carving representative of Chhatrapati Sambhajinagar, Maharashtra" }],
+    images: [{ url: "/images/blogs/maharashtra/chhatrapati-sambhajinagar/aurangabad-caves-chhatrapati-sambhajinagar.webp", width: 1200, height: 800, alt: "Aurangabad Caves, Chhatrapati Sambhajinagar" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Chhatrapati Sambhajinagar Travel Guide: Bibi Ka Maqbara & Forts",
     description: "Bibi Ka Maqbara, Daulatabad Fort, and the gateway to Ajanta-Ellora — the complete guide.",
-    images: ["/images/destinations/hampi/virupaksha.jpg"],
+    images: ["/images/blogs/maharashtra/chhatrapati-sambhajinagar/aurangabad-caves-chhatrapati-sambhajinagar.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/chhatrapati-sambhajinagar-travel-guide" },
 };
@@ -45,7 +42,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Chhatrapati Sambhajinagar Travel Guide: Bibi Ka Maqbara & Forts",
           description: "The complete Chhatrapati Sambhajinagar (Aurangabad) travel guide.",
-          image: "https://club.kudozz.in/images/destinations/hampi/virupaksha.jpg",
+          image: "https://club.kudozz.in/images/blogs/maharashtra/chhatrapati-sambhajinagar/aurangabad-caves-chhatrapati-sambhajinagar.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
@@ -104,22 +101,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const SAMBHAJINAGAR_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for fort-climbing and long heritage days",
-    emoji: "🏰",
-    items: [
-      { name: "Comfortable Walking/Trekking Shoes", description: "Daulatabad Fort's climb involves several hundred uneven steps and a dark tunnel section — proper footwear matters here.", price: "₹1,499",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+trekking+shoes+fort+climbing"), tag: "Fort-climb essential", tagColor: "bg-amber-100 text-amber-700", why: "Loose sandals are a real hazard on Daulatabad's steep, uneven fort steps and dark tunnel passage." },
-      { name: "Small LED Torch/Flashlight", description: "Useful for the unlit defensive tunnel inside Daulatabad Fort, and for dim interior sections at Ellora's larger caves.", price: "₹399",  image: "🔦", affiliateUrl: amazonSearchUrl("small+led+torch+flashlight"), tag: "Fort essential", tagColor: "bg-stone-100 text-stone-700", why: "Daulatabad Fort's tunnel section is genuinely dark — many visitors are caught off guard without their own light." },
-      { name: "Wide-Brim Sun Hat", description: "Most sites here (Bibi Ka Maqbara grounds, Daulatabad's open climb) offer little shade — a hat makes a real difference.", price: "₹399",  image: "👒", affiliateUrl: amazonSearchUrl("wide+brim+sun+hat+travel"), tag: "Heat essential", tagColor: "bg-red-100 text-red-700", why: "This region gets genuinely hot outside winter, and most heritage sites have limited shade." },
-      { name: "2L Hydration Bottle", description: "A full day covering Bibi Ka Maqbara, Panchakki, and Daulatabad needs steady hydration, especially outside winter months.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("2l+hydration+water+bottle+travel"), tag: "Trip essential", tagColor: "bg-sky-100 text-sky-700", why: "Water availability is limited inside the fort complex itself — carrying enough avoids cutting the visit short." },
-      { name: "Daypack (20L)", description: "For carrying water, snacks, and a torch across a day that moves between the city, Daulatabad, and (if timed together) Ellora Caves.", price: "₹899",  image: "🎒", affiliateUrl: amazonSearchUrl("20L+daypack+travel"), tag: "Day-trip essential", tagColor: "bg-forest-100 text-forest-700", why: "A combined Daulatabad-Ellora day is long enough that a proper daypack beats carrying loose items by hand." },
-      { name: "Modest Cotton Layer", description: "Useful for visiting Panchakki (a working Sufi shrine) and other religious sites in the city respectfully.", price: "₹399",  image: "🧣", affiliateUrl: amazonSearchUrl("cotton+scarf+travel+modest"), tag: "Heritage-site essential", tagColor: "bg-purple-100 text-purple-700", why: "Panchakki and other shrine sites expect modest dress, unlike the more tourist-oriented fort and mausoleum stops." },
-    ],
-  },
-];
-
 export default function SambhajinagarGuidePage() {
   return (
     <>
@@ -129,7 +110,9 @@ export default function SambhajinagarGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/hampi/virupaksha.jpg" alt="Heritage stone carving representative of Chhatrapati Sambhajinagar, Maharashtra" fill priority sizes="100vw" className="object-cover" />
+            <Image
+              src="/images/blogs/maharashtra/chhatrapati-sambhajinagar/aurangabad-caves-chhatrapati-sambhajinagar.webp"
+              alt="Aurangabad Caves, Chhatrapati Sambhajinagar" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -255,9 +238,6 @@ export default function SambhajinagarGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/hampi/virupaksha.jpg" alt="Heritage carved stonework near Chhatrapati Sambhajinagar" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>Bibi Ka Maqbara:</strong> Built in the 1660s by Aurangzeb's son Azam Shah as a mausoleum for his mother, this structure closely echoes the Taj Mahal's design on a smaller scale — nicknamed the "Mini Taj" or "Deccan Taj".</li>
                     <li><strong>Daulatabad Fort (Devagiri Fort):</strong> A formidable 14th-century hill fort roughly 15 km from the city, famous for its defensive spiral tunnel designed to disorient attackers — a genuinely impressive feat of medieval military engineering.</li>
@@ -266,6 +246,13 @@ export default function SambhajinagarGuidePage() {
                     <li><strong>Day trip to Ellora Caves:</strong> Just ~30 km away, home to the extraordinary Kailasa Temple carved downward from a single rock — see our dedicated Ajanta & Ellora guide for the full details.</li>
                     <li><strong>Day trip to Ajanta Caves:</strong> Roughly 100 km away, with Buddhist murals dating back over 2,000 years — worth its own full day rather than a rushed add-on.</li>
                   </ul>
+                  <GuidePhotoRow
+                    images={[
+                      { src: "/images/blogs/maharashtra/chhatrapati-sambhajinagar/bibi-ka-maqbara-chhatrapati-sambhajinagar.webp", alt: "Bibi Ka Maqbara, Chhatrapati Sambhajinagar", caption: "Bibi Ka Maqbara, Chhatrapati Sambhajinagar" },
+                      { src: "/images/blogs/maharashtra/chhatrapati-sambhajinagar/daulatabad-fort-chhatrapati-sambhajinagar.webp", alt: "Daulatabad Fort, Chhatrapati Sambhajinagar", caption: "Daulatabad Fort, Chhatrapati Sambhajinagar" },
+                      { src: "/images/blogs/maharashtra/chhatrapati-sambhajinagar/panchakki-chhatrapati-sambhajinagar.webp", alt: "Panchakki, Chhatrapati Sambhajinagar", caption: "Panchakki, Chhatrapati Sambhajinagar" },
+                    ]}
+                  />
                 </section>
 
                 <section id="where-to-stay">
@@ -386,7 +373,6 @@ export default function SambhajinagarGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={SAMBHAJINAGAR_GEAR} destination="Chhatrapati Sambhajinagar" />
               <RelatedPostsGrid currentSlug="chhatrapati-sambhajinagar-travel-guide" />
             </article>
 

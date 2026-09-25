@@ -25,8 +25,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/blogs/uttarakhand/jim-corbett/bengal-tiger-roaring-jim-corbett-reserve.webp",
-        width: 1200,
-        height: 630,
+        width: 1600,
+        height: 1060,
         alt: "A Bengal tiger walking down a forest track in Jim Corbett National Park, Uttarakhand",
       },
     ],

@@ -388,6 +388,15 @@ export default function Sector17ChandigarhGuidePage() {
                     commercial sectors.
                   </p>
 
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/chandigarh/sector-17/sector-17-plaza-water-cascade-sculpture-chandigarh.webp"
+                      alt="A stepped water-cascade sculpture and sunken pool in Sector 17 Plaza's pedestrian courtyard, Chandigarh"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   {/* At a Glance */}
                   <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 my-8">
                     <h4
@@ -590,15 +599,6 @@ export default function Sector17ChandigarhGuidePage() {
                     market street.
                   </p>
 
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/chandigarh/sector-17/sector-17-plaza-water-cascade-sculpture-chandigarh.webp"
-                      alt="A stepped water-cascade sculpture and sunken pool in Sector 17 Plaza's pedestrian courtyard, Chandigarh"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
 
                   <p>
                     The plaza also houses several of the city's municipal and

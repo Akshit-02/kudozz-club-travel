@@ -7,8 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Gir National Park Travel Guide: Asiatic Lion Safari & Best Time",
@@ -22,13 +20,13 @@ export const metadata: Metadata = {
     url: "https://club.kudozz.in/blog/gir-national-park-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/ziro/hero.jpg", width: 1200, height: 630, alt: "Dry deciduous forest landscape representative of Gir National Park, Gujarat" }],
+    images: [{ url: "/images/blogs/gujarat/gir-national-park/gir-national-park-2.webp", width: 1600, height: 1074, alt: "Gir National Park, Gujarat" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Gir National Park Travel Guide: Asiatic Lion Safari & Best Time",
     description: "The last wild home of the Asiatic lion — the complete safari guide to Gir National Park.",
-    images: ["/images/destinations/ziro/hero.jpg"],
+    images: ["/images/blogs/gujarat/gir-national-park/gir-national-park-2.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/gir-national-park-travel-guide" },
 };
@@ -43,7 +41,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Gir National Park Travel Guide: Asiatic Lion Safari & Best Time",
           description: "The complete Gir National Park travel guide.",
-          image: "https://club.kudozz.in/images/destinations/ziro/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/gujarat/gir-national-park/gir-national-park-2.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
@@ -102,20 +100,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const GIR_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for a serious jeep safari through lion country",
-    emoji: "🦁",
-    items: [
-      { name: "Neutral/Khaki Clothing", description: "Standard safari practice at Gir, reducing visual disruption in the dry deciduous forest terrain.", price: "₹1,299",  image: "🧥", affiliateUrl: amazonSearchUrl("khaki+safari+clothing+set"), tag: "Safari essential", tagColor: "bg-amber-100 text-amber-700", why: "Bright colors stand out sharply against Gir's dry scrub and forest terrain." },
-      { name: "Binoculars", description: "For spotting lions at a distance and appreciating Gir's rich birdlife between big-cat sightings.", price: "₹1,999",  image: "🔭", affiliateUrl: amazonSearchUrl("binoculars+wildlife+safari"), tag: "Non-negotiable", tagColor: "bg-red-100 text-red-700", why: "Gir's varied terrain means not every sighting is close-range — binoculars extend what you can actually see." },
-      { name: "Telephoto Camera / Lens", description: "For photographing lions and other wildlife at a safe, respectful distance.", price: "₹8,999+",  image: "📷", affiliateUrl: amazonSearchUrl("telephoto+lens+wildlife+photography"), tag: "Photography essential", tagColor: "bg-purple-100 text-purple-700", why: "A proper zoom turns a distant lion sighting into a genuinely usable photo." },
-      { name: "Sun Protection", description: "Open gypsy vehicles offer little shade across a multi-hour safari.", price: "₹599",  image: "🧴", affiliateUrl: amazonSearchUrl("sunscreen+travel+outdoor"), tag: "Safari essential", tagColor: "bg-sky-100 text-sky-700", why: "Sun exposure on an open safari vehicle is more intense than most first-timers expect." },
-    ],
-  },
-];
-
 export default function GirGuidePage() {
   return (
     <>
@@ -125,7 +109,7 @@ export default function GirGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/ziro/hero.jpg" alt="Dry deciduous forest landscape representative of Gir National Park, Gujarat" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/gujarat/gir-national-park/gir-national-park-2.webp" alt="Gir National Park, Gujarat" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -233,9 +217,6 @@ export default function GirGuidePage() {
 
                 <section id="safari-zones">
                   <h2>Safaris & Wildlife</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/ziro/hero.jpg" alt="Forest landscape around Gir National Park" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>Jeep safaris:</strong> Run across multiple designated zones with a Forest Department permit system — book online in advance, especially for peak season.</li>
                     <li><strong>Devalia Safari Park:</strong> A fenced interpretation zone offering a higher-probability lion-viewing option if core-zone permits are unavailable.</li>
@@ -358,7 +339,6 @@ export default function GirGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={GIR_GEAR} destination="Gir National Park" />
               <RelatedPostsGrid currentSlug="gir-national-park-travel-guide" />
             </article>
 

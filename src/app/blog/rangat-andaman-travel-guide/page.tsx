@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -25,8 +26,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/destinations/andaman/hero.jpg",
-        width: 1200,
-        height: 630,
+        width: 2560,
+        height: 1707,
         alt: "Andaman coastline and mangrove-lined creek, evoking Rangat's Cuthbert Bay and the Dhaninallah Mangrove Walkway",
       },
     ],
@@ -434,6 +435,7 @@ export default function RangatGuidePage() {
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">
                   <h2>Best Time to Visit Rangat</h2>
+                  <GuideFigure src="/images/blogs/andaman-and-nicobar/rangat-andaman/rangat-andaman-view.webp" alt="Rangat Andaman, Andaman & Nicobar Islands" />
                   <p>
                     Rangat follows the same seasonal pattern as the rest of
                     the Andamans — the dry season between the two monsoons
@@ -552,15 +554,6 @@ export default function RangatGuidePage() {
                 {/* ── Cuthbert Bay ──────────────────────────────────────── */}
                 <section id="cuthbert-bay">
                   <h2>Cuthbert Bay</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/andaman/hero.jpg"
-                      alt="Quiet Andaman beach at dusk, evoking Rangat's Cuthbert Bay turtle-nesting shoreline"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <p>
                     <strong>Cuthbert Bay</strong> is Rangat's main natural
                     attraction — a turtle-nesting beach in much the same

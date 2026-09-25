@@ -7,8 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Horsley Hills Travel Guide: A Quiet Hill Station in Rayalaseema",
@@ -21,9 +19,9 @@ export const metadata: Metadata = {
     description: "A cool, forested hill station between Tirupati and Bangalore that's stayed genuinely low-key despite its convenient location — the complete guide to Horsley Hills.",
     url: "https://club.kudozz.in/blog/horsley-hills-travel-guide",
     type: "article", siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/manali/hero.jpg", width: 1200, height: 630, alt: "Forested hill station scenery representative of Horsley Hills, Andhra Pradesh" }],
+    images: [{ url: "/images/blogs/andhra-pradesh/horsley-hills/horsley-hills.webp", width: 1600, height: 1060, alt: "Horsley Hills, Andhra Pradesh" }],
   },
-  twitter: { card: "summary_large_image", title: "Horsley Hills Travel Guide: A Quiet Hill Station in Rayalaseema", description: "A cool, forested hill station between Tirupati and Bangalore — the complete guide to Horsley Hills.", images: ["/images/destinations/manali/hero.jpg"] },
+  twitter: { card: "summary_large_image", title: "Horsley Hills Travel Guide: A Quiet Hill Station in Rayalaseema", description: "A cool, forested hill station between Tirupati and Bangalore — the complete guide to Horsley Hills.", images: ["/images/blogs/andhra-pradesh/horsley-hills/horsley-hills.webp"] },
   alternates: { canonical: "https://club.kudozz.in/blog/horsley-hills-travel-guide" },
 };
 
@@ -33,7 +31,7 @@ function ArticleSchema() {
       "@context": "https://schema.org", "@type": "BlogPosting",
       headline: "Horsley Hills Travel Guide: A Quiet Hill Station in Rayalaseema",
       description: "The complete Horsley Hills travel guide.",
-      image: "https://club.kudozz.in/images/destinations/manali/hero.jpg",
+      image: "https://club.kudozz.in/images/blogs/andhra-pradesh/horsley-hills/horsley-hills.webp",
       datePublished: "2026-09-08", dateModified: "2026-09-08",
       publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
       author: { "@type": "Organization", name: "Kudozz Club" },
@@ -80,16 +78,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const HORSLEY_GEAR: GearSection[] = [{
-  title: "Things Worth Carrying", subtitle: "Gear for a relaxed hill-station break", emoji: "⛰️",
-  items: [
-    { name: "Light Warm Layers", description: "Evenings at this elevation are noticeably cooler than the surrounding plains.", price: "₹1,499",  image: "🧥", affiliateUrl: amazonSearchUrl("light+warm+jacket+travel"), tag: "Evening essential", tagColor: "bg-sky-100 text-sky-700", why: "The temperature drop after sunset surprises many first-time visitors." },
-    { name: "Comfortable Walking Shoes", description: "For the short walks to Gali Banda viewpoint and around Kalyani Dam.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Sightseeing essential", tagColor: "bg-amber-100 text-amber-700", why: "The viewpoint paths are gentle but uneven in places." },
-    { name: "Camera", description: "For the panoramic Gali Banda viewpoint and Kalyani Dam scenery.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-forest-100 text-forest-700", why: "The viewpoints here are genuinely photogenic for a lesser-known hill station." },
-    { name: "Reusable Water Bottle", description: "Useful for the walking sections between sights.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "All-day essential", tagColor: "bg-purple-100 text-purple-700", why: "Facilities are modest given the hill station's small scale." },
-  ],
-}];
-
 export default function HorsleyHillsGuidePage() {
   return (
     <>
@@ -97,7 +85,7 @@ export default function HorsleyHillsGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/manali/hero.jpg" alt="Forested hill station scenery representative of Horsley Hills, Andhra Pradesh" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/andhra-pradesh/horsley-hills/horsley-hills.webp" alt="Horsley Hills, Andhra Pradesh" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -201,9 +189,6 @@ export default function HorsleyHillsGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do in Horsley Hills</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/manali/hero.jpg" alt="Hill station scenery around Horsley Hills" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>Kalyani Dam:</strong> A small reservoir with scenic surroundings, good for a relaxed walk.</li>
                     <li><strong>Gali Banda Viewpoint:</strong> A rock formation offering panoramic views over the surrounding plains.</li>
@@ -324,7 +309,6 @@ export default function HorsleyHillsGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={HORSLEY_GEAR} destination="Horsley Hills" />
               <RelatedPostsGrid currentSlug="horsley-hills-travel-guide" />
             </article>
             <div className="hidden xl:block w-64 2xl:w-72 flex-shrink-0"><div className="sticky top-24"><RelatedSidebar currentSlug="horsley-hills-travel-guide" /></div></div>

@@ -7,10 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
   title: "Thekkady Travel Guide: Periyar Wildlife Sanctuary & Spice Plantations",
@@ -24,13 +21,13 @@ export const metadata: Metadata = {
     url: "https://club.kudozz.in/blog/thekkady-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/meghalaya/dawki-river.jpg", width: 1200, height: 630, alt: "Forest and reservoir landscape representative of Thekkady, Kerala" }],
+    images: [{ url: "/images/blogs/kerala/thekkady/thekkady-view.webp", width: 1200, height: 900, alt: "Thekkady, Kerala" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Thekkady Travel Guide: Periyar Wildlife Sanctuary & Spice Plantations",
     description: "Boat safaris and spice plantations at Periyar Wildlife Sanctuary — the complete guide to Thekkady.",
-    images: ["/images/destinations/meghalaya/dawki-river.jpg"],
+    images: ["/images/blogs/kerala/thekkady/thekkady-view.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/thekkady-travel-guide" },
 };
@@ -45,7 +42,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Thekkady Travel Guide: Periyar Wildlife Sanctuary & Spice Plantations",
           description: "The complete Thekkady travel guide.",
-          image: "https://club.kudozz.in/images/destinations/meghalaya/dawki-river.jpg",
+          image: "https://club.kudozz.in/images/blogs/kerala/thekkady/thekkady-view.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
@@ -104,20 +101,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const THEKKADY_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for boat safaris, forest walks, and plantation tours",
-    emoji: "🐘",
-    items: [
-      { name: "Binoculars", description: "For spotting elephant herds and birdlife across Periyar Lake from the boat safari.", price: "₹1,999",  image: "🔭", affiliateUrl: amazonSearchUrl("binoculars+wildlife+safari"), tag: "Safari essential", tagColor: "bg-amber-100 text-amber-700", why: "Wildlife on the boat safari is often visible only from a distance across the lake." },
-      { name: "Insect Repellent", description: "Forest walks and border hikes through Thekkady's dense terrain bring a real mosquito and insect presence.", price: "₹199",  image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Forest essential", tagColor: "bg-forest-100 text-forest-700", why: "Thekkady's forest terrain and lake edges are prime mosquito habitat." },
-      { name: "Comfortable Walking Shoes", description: "For jungle patrol walks, bamboo rafting embarkation points, and spice plantation tours.", price: "₹1,999",  image: "🥾", affiliateUrl: amazonSearchUrl("comfortable+trekking+shoes"), tag: "Trek essential", tagColor: "bg-sky-100 text-sky-700", why: "Several Forest Department activities involve real walking on uneven forest paths." },
-      { name: "Light Rain Layer", description: "Thekkady's elevation and forest cover mean showers are common even outside peak monsoon.", price: "₹899",  image: "🧥", affiliateUrl: amazonSearchUrl("packable+rain+jacket+travel"), tag: "Weather essential", tagColor: "bg-purple-100 text-purple-700", why: "Weather can shift quickly on the boat safari and forest walks." },
-    ],
-  },
-];
-
 export default function ThekkadyGuidePage() {
   return (
     <>
@@ -127,7 +110,9 @@ export default function ThekkadyGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/meghalaya/dawki-river.jpg" alt="Forest and reservoir landscape representative of Thekkady, Kerala" fill priority sizes="100vw" className="object-cover" />
+            <Image
+              src="/images/blogs/kerala/thekkady/thekkady-view.webp"
+              alt="Thekkady, Kerala" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -235,9 +220,6 @@ export default function ThekkadyGuidePage() {
 
                 <section id="safari-activities">
                   <h2>Safaris & Activities</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/meghalaya/dawki-river.jpg" alt="Periyar Lake and forest scenery around Thekkady" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>Periyar Lake boat safari:</strong> The core Thekkady experience — a slow boat ride where wildlife often approaches the water's edge, run by the Kerala Forest Department.</li>
                     <li><strong>Bamboo rafting:</strong> A day-long rafting experience deeper into the sanctuary's core, typically requiring advance booking.</li>
@@ -361,7 +343,6 @@ export default function ThekkadyGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={THEKKADY_GEAR} destination="Thekkady" />
               <RelatedPostsGrid currentSlug="thekkady-travel-guide" />
             </article>
 

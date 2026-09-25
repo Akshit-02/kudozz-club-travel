@@ -25,8 +25,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/destinations/andaman/hero.jpg",
-        width: 1200,
-        height: 630,
+        width: 2560,
+        height: 1707,
         alt: "Turquoise water and white sand typical of Ross & Smith Islands near Diglipur, North Andaman",
       },
     ],
@@ -545,15 +545,6 @@ export default function RossAndSmithIslandsGuidePage() {
                 {/* ── The Sandbar ────────────────────────────────────────── */}
                 <section id="the-sandbar">
                   <h2>Walking the Sandbar</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/andaman/hero.jpg"
-                      alt="A narrow sand strip between turquoise waters, similar to the walkable sandbar connecting Ross and Smith Islands"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <p>
                     The sandbar is the whole point of the trip. As the tide
                     drops, a pale ribbon of sand emerges between Ross Island

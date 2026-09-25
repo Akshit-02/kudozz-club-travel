@@ -529,10 +529,6 @@
       "title": "Connaught Place Guide: Shopping, Food & Nightlife"
     },
     {
-      "slug": "dwarka-travel-guide",
-      "title": "Dwarka Travel Guide: Krishna&apos;s Ancient Kingdom & Char Dham Site"
-    },
-    {
       "slug": "dwarka-delhi-travel-guide",
       "title": "Dwarka, Delhi Travel Guide: Sub-City & ISKCON Temple"
     },
@@ -683,6 +679,10 @@
     {
       "slug": "dholavira-travel-guide",
       "title": "Dholavira Travel Guide: Harappan City & UNESCO World Heritage Site"
+    },
+    {
+      "slug": "dwarka-travel-guide",
+      "title": "Dwarka Travel Guide: Krishna&apos;s Ancient Kingdom & Char Dham Site"
     },
     {
       "slug": "gir-national-park-travel-guide",

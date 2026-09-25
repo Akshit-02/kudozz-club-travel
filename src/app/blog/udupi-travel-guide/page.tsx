@@ -7,10 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuidePhotoRow } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
   title: "Udupi Travel Guide: Krishna Temple, Beaches & Udupi Cuisine",
@@ -24,13 +21,13 @@ export const metadata: Metadata = {
     url: "https://club.kudozz.in/blog/udupi-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/kerala/hero.jpg", width: 1200, height: 630, alt: "Coastal temple town scenery representative of Udupi, Karnataka" }],
+    images: [{ url: "/images/blogs/karnataka/udupi/udupi.webp", width: 1200, height: 675, alt: "Udupi, Karnataka" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Udupi Travel Guide: Krishna Temple, Beaches & Udupi Cuisine",
     description: "Sri Krishna Matha, Malpe Beach, and St. Mary's Island — the complete guide to Udupi.",
-    images: ["/images/destinations/kerala/hero.jpg"],
+    images: ["/images/blogs/karnataka/udupi/udupi.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/udupi-travel-guide" },
 };
@@ -45,7 +42,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Udupi Travel Guide: Krishna Temple, Beaches & Udupi Cuisine",
           description: "The complete Udupi travel guide.",
-          image: "https://club.kudozz.in/images/destinations/kerala/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/karnataka/udupi/udupi.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
@@ -104,20 +101,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const UDUPI_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for temple visits, the beach, and St. Mary's Island",
-    emoji: "🛕",
-    items: [
-      { name: "Modest Temple Clothing", description: "Sri Krishna Matha expects modest, covered dress from visitors.", price: "₹599",  image: "🙏", affiliateUrl: amazonSearchUrl("modest+travel+clothing"), tag: "Temple essential", tagColor: "bg-purple-100 text-purple-700", why: "This is an active, significant place of worship, not a monument-style tourist site." },
-      { name: "Comfortable Sandals", description: "St. Mary's Island's basalt rock terrain and the temple's stone floors both call for practical, easily removable footwear.", price: "₹899",  image: "👡", affiliateUrl: amazonSearchUrl("comfortable+sandals+travel"), tag: "All-day essential", tagColor: "bg-forest-100 text-forest-700", why: "Between rocky island terrain and shoes-off temple visits, easy sandals are the practical choice." },
-      { name: "Waterproof Phone Pouch", description: "For the boat crossing to St. Mary's Island.", price: "₹299",  image: "📱", affiliateUrl: amazonSearchUrl("waterproof+phone+pouch+travel"), tag: "Boat-ride essential", tagColor: "bg-sky-100 text-sky-700", why: "A short open-water crossing carries some spray risk for electronics." },
-      { name: "Reef-Safe Sunscreen", description: "Malpe Beach and the exposed rocky terrain of St. Mary's Island both mean real sun exposure.", price: "₹599",  image: "🧴", affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+SPF+50"), tag: "Beach essential", tagColor: "bg-amber-100 text-amber-700", why: "St. Mary's Island in particular has very little natural shade." },
-    ],
-  },
-];
-
 export default function UdupiGuidePage() {
   return (
     <>
@@ -127,7 +110,9 @@ export default function UdupiGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/kerala/hero.jpg" alt="Coastal temple town scenery representative of Udupi, Karnataka" fill priority sizes="100vw" className="object-cover" />
+            <Image
+              src="/images/blogs/karnataka/udupi/udupi.webp"
+              alt="Udupi, Karnataka" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -235,15 +220,19 @@ export default function UdupiGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do in Udupi</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/kerala/hero.jpg" alt="Temple town and coastal scenery around Udupi" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>Sri Krishna Matha:</strong> Udupi's central temple, famous for its unique Kanakana Kindi window darshan tradition.</li>
                     <li><strong>Malpe Beach:</strong> The town's main beach and the departure point for St. Mary's Island boats.</li>
                     <li><strong>St. Mary's Island:</strong> A small island known for distinctive hexagonal basalt rock formations, reached by a short boat ride.</li>
                     <li><strong>Old town temple district:</strong> A cluster of smaller shrines and traditional buildings around the main matha.</li>
                   </ul>
+                  <GuidePhotoRow
+                    images={[
+                      { src: "/images/blogs/karnataka/udupi/sri-krishna-matha-udupi.webp", alt: "Sri Krishna Matha, Udupi", caption: "Sri Krishna Matha, Udupi" },
+                      { src: "/images/blogs/karnataka/udupi/malpe-beach-udupi.webp", alt: "Malpe Beach, Udupi", caption: "Malpe Beach, Udupi" },
+                      { src: "/images/blogs/karnataka/udupi/st-mary-s-island-udupi.webp", alt: "St. Mary's Island, Udupi", caption: "St. Mary's Island, Udupi" },
+                    ]}
+                  />
                 </section>
 
                 <section id="where-to-stay">
@@ -359,7 +348,6 @@ export default function UdupiGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={UDUPI_GEAR} destination="Udupi" />
               <RelatedPostsGrid currentSlug="udupi-travel-guide" />
             </article>
 

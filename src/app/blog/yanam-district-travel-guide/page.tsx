@@ -7,10 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -188,84 +184,6 @@ const tableOfContents = [
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
-];
-
-// ── Yanam District gear ──────────────────────────────────────────────────────
-const YANAM_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle:
-      "Gear for riverfront walks along the Ferry Road, church visits, and the quiet Godavari delta villages around Mettakur, Kolanka, and Kanakalapeta",
-    emoji: "🌊",
-    items: [
-      {
-        name: "Comfortable Walking Sandals",
-        description:
-          "Ideal for the Yanam Ferry Road promenade and short strolls around St. Ann's Church and Yanam Tower.",
-        price: "₹1,299",
-        image: "👡",
-        affiliateUrl: amazonSearchUrl("comfortable+walking+sandals+travel"),
-        tag: "All-day essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Yanam's town centre is compact and best covered slowly on foot along the riverfront rather than by vehicle.",
-      },
-      {
-        name: "Modest Clothing for Church Visits",
-        description:
-          "Covered shoulders for St. Ann's Church, one of the town's most significant landmarks.",
-        price: "₹899",
-        image: "🧣",
-        affiliateUrl: amazonSearchUrl("travel+modest+clothing+scarf"),
-        tag: "Church essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "St. Ann's is an active place of worship, not just a colonial-era monument — modest dress is expected.",
-      },
-      {
-        name: "Reef-Safe Sunscreen (SPF 50)",
-        description:
-          "For open stretches at Rajiv Gandhi Beach and the shadeless walk along the Ferry Road beside the Godavari River.",
-        price: "₹549",
-        image: "🧴",
-        affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+spf+50"),
-        tag: "Riverfront essential",
-        tagColor: "bg-orange-100 text-orange-700",
-        why: "The Godavari delta sun is strong and near-constant, with little shade along the open riverfront stretches.",
-      },
-      {
-        name: "Reusable Water Bottle",
-        description:
-          "Useful for the drive out to Mettakur, Kolanka, and Kanakalapeta, where shops are far sparser than in Yanam town.",
-        price: "₹699",
-        image: "🍶",
-        affiliateUrl: amazonSearchUrl("insulated+water+bottle+steel"),
-        tag: "Everyday essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "Once you're past Yanam town's limits, reliable shops and water points thin out quickly across the delta villages.",
-      },
-      {
-        name: "Mosquito Repellent",
-        description:
-          "Worth having near the Godavari's waterways and the delta landscapes around Kolanka and Kanakalapeta.",
-        price: "₹199",
-        image: "🦟",
-        affiliateUrl: amazonSearchUrl("mosquito+repellent+travel"),
-        tag: "Delta essential",
-        tagColor: "bg-red-100 text-red-700",
-        why: "The Godavari delta's waterlogged, river-fed terrain makes mosquitoes a genuine factor, especially at dawn and dusk.",
-      },
-      {
-        name: "Power Bank (10,000 mAh)",
-        description:
-          "Useful for a day covering Mettakur, Kolanka, and Kanakalapeta, where charging points are limited outside Yanam town.",
-        price: "₹1,299",
-        image: "🔋",
-        affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
-        tag: "Day-trip essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "Yanam is a compact district, but reliable charging infrastructure is concentrated almost entirely in the town centre.",
-      },
-    ],
-  },
 ];
 
 // ── Page ─────────────────────────────────────────────────────────────────────
@@ -598,6 +516,15 @@ export default function YanamDistrictGuidePage() {
                       delta or East Godavari coast.
                     </li>
                   </ul>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/puducherry/yanam-district/yanam-tower-eiffel-replica.webp"
+                      alt="Yanam Tower, a distinctive Eiffel Tower-style observation structure rising above the town's paddy fields"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <div
                     className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-xl my-4 text-sm"
                     style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -645,8 +572,8 @@ export default function YanamDistrictGuidePage() {
                   </ul>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/blogs/puducherry/yanam-district/yanam-bridge-godavari-river-night.webp"
-                      alt="A long bridge crossing the Godavari River at Yanam, lit up at dusk with its reflection on the water"
+                      src="/images/blogs/puducherry/yanam-district/yanam-town-yanam-district.webp"
+                      alt="Yanam Town, Yanam District"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -664,15 +591,6 @@ export default function YanamDistrictGuidePage() {
                       major Andhra Pradesh coastal beaches nearby.
                     </li>
                   </ul>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/puducherry/yanam-district/yanam-tower-eiffel-replica.webp"
-                      alt="Yanam Tower, a distinctive Eiffel Tower-style observation structure rising above the town's paddy fields"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <ul>
                     <li>
                       <strong>French colonial heritage:</strong> Yanam's
@@ -681,15 +599,6 @@ export default function YanamDistrictGuidePage() {
                       town's French Quarter.
                     </li>
                   </ul>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/puducherry/yanam-district/historic-french-colonial-street-yanaon.webp"
-                      alt="Historic black-and-white photograph of a palm-lined street in French colonial-era Yanaon (Yanam), early 20th century"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <p
                     className="text-sm text-stone-500"
                     style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -713,15 +622,6 @@ export default function YanamDistrictGuidePage() {
                 {/* ── Delta Villages ────────────────────────────────────── */}
                 <section id="delta-villages">
                   <h2>Mettakur, Kolanka & Kanakalapeta</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/puducherry/yanam-district/gowthami-river-godavari-delta-boat.webp"
-                      alt="A boat on the Gowthami distributary of the Godavari River near Yanam, with the delta's waterways at sunset"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <p>
                     Beyond Yanam town, the district settles into genuine
                     Godavari delta countryside — three quiet villages worth a
@@ -1157,12 +1057,6 @@ export default function YanamDistrictGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              {/* ── Gear Recommendations ──────────────────────────────── */}
-              <TrekGearRecommendations
-                sections={YANAM_GEAR}
-                destination="Yanam District"
-              />
 
               <RelatedPostsGrid currentSlug="yanam-district-travel-guide" />
             </article>

@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -535,6 +536,7 @@ export default function MahabalipuramGuidePage() {
                     Pallava stone-carving skill.
                   </p>
                   <h3>Arjuna's Penance</h3>
+                  <GuideFigure src="/images/blogs/tamil-nadu/mahabalipuram/arjuna-s-penance-mahabalipuram.webp" alt="Arjuna's Penance, Mahabalipuram" />
                   <p>
                     A massive open-air bas-relief carved into a rock face,
                     depicting a scene from the Mahabharata (or, by another

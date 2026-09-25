@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/leh-ladakh/leh-ladakh.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Stark high-altitude mountain and lake landscape, evoking Gurudongmar Lake in North Sikkim",
+        url: "/images/blogs/sikkim/gurudongmar-lake/gurudongmar-lake.webp",
+        width: 1600,
+        height: 861,
+        alt: "Gurudongmar Lake, Sikkim",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Gurudongmar Lake Guide: Permits & Altitude",
     description:
       "One of the highest accessible lakes on earth, sacred to both Buddhists and Sikhs, at roughly 5,183 metres in North Sikkim.",
-    images: ["/images/destinations/leh-ladakh/leh-ladakh.jpg"],
+    images: ["/images/blogs/sikkim/gurudongmar-lake/gurudongmar-lake.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/gurudongmar-lake-travel-guide",
@@ -59,7 +60,7 @@ function ArticleSchema() {
           headline: "Gurudongmar Lake Guide: Permits & Altitude",
           description:
             "Complete Gurudongmar Lake guide — one of the world's highest accessible lakes, its Buddhist and Sikh significance, altitude-sickness risk, permits, and how to reach it from Lachen.",
-          image: "https://club.kudozz.in/images/destinations/leh-ladakh/leh-ladakh.jpg",
+          image: "https://club.kudozz.in/images/blogs/sikkim/gurudongmar-lake/gurudongmar-lake.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -196,8 +197,8 @@ export default function GurudongmarLakeGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/leh-ladakh/leh-ladakh.jpg"
-              alt="Stark high-altitude mountain and lake landscape, evoking Gurudongmar Lake in North Sikkim"
+              src="/images/blogs/sikkim/gurudongmar-lake/gurudongmar-lake.webp"
+              alt="Gurudongmar Lake, Sikkim"
               fill
               priority
               sizes="100vw"
@@ -329,6 +330,7 @@ export default function GurudongmarLakeGuidePage() {
                 {/* ── Introduction ──────────────────────────────────────── */}
                 <section id="introduction">
                   <h2>One of the World's Highest Lakes</h2>
+                  <GuideFigure src="/images/blogs/sikkim/gurudongmar-lake/gurudongmar-lake-view.webp" alt="Gurudongmar Lake, Sikkim" />
                   <p>
                     <strong>Gurudongmar Lake</strong>, at roughly 5,183 m
                     (~17,100 ft), is one of the highest lakes in the world
@@ -519,15 +521,6 @@ export default function GurudongmarLakeGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>The Lake, Its Significance & Altitude Risk</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/leh-ladakh/leh-ladakh.jpg"
-                      alt="High-altitude stark mountain lake landscape near Gurudongmar, North Sikkim"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>A Sacred Lake for Two Faiths</h3>
                   <p>
                     Named for Guru Padmasambhava and revered by Buddhists,

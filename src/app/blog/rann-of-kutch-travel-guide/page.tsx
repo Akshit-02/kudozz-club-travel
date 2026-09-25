@@ -7,8 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuidePhotoRow } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
   title: "Rann of Kutch Travel Guide: White Desert & Rann Utsav",
@@ -22,13 +21,13 @@ export const metadata: Metadata = {
     url: "https://club.kudozz.in/blog/rann-of-kutch-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/jaisalmer/hero.jpg", width: 1200, height: 630, alt: "White salt desert representative of the Rann of Kutch, Gujarat" }],
+    images: [{ url: "/images/blogs/gujarat/rann-of-kutch/the-white-rann-rann-of-kutch.webp", width: 800, height: 600, alt: "The White Rann, Rann of Kutch" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Rann of Kutch Travel Guide: White Desert & Rann Utsav",
     description: "The White Rann salt desert and Rann Utsav tent city — the complete guide to the Rann of Kutch.",
-    images: ["/images/destinations/jaisalmer/hero.jpg"],
+    images: ["/images/blogs/gujarat/rann-of-kutch/the-white-rann-rann-of-kutch.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/rann-of-kutch-travel-guide" },
 };
@@ -43,7 +42,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Rann of Kutch Travel Guide: White Desert & Rann Utsav",
           description: "The complete Rann of Kutch travel guide.",
-          image: "https://club.kudozz.in/images/destinations/jaisalmer/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/gujarat/rann-of-kutch/the-white-rann-rann-of-kutch.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
@@ -102,20 +101,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const KUTCH_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for salt-desert days and cold desert nights",
-    emoji: "🏜️",
-    items: [
-      { name: "Warm Layers", description: "Desert nights drop sharply in temperature, even though days can be warm — essential for evening/night Rann visits.", price: "₹2,499",  image: "🧥", affiliateUrl: amazonSearchUrl("warm+jacket+desert+travel"), tag: "Non-negotiable", tagColor: "bg-red-100 text-red-700", why: "Full-moon night visits to the White Rann are genuinely cold once the sun sets." },
-      { name: "Sun Protection (Hat + High-SPF Sunscreen)", description: "The salt flat's white surface reflects intense sunlight during the day.", price: "₹899",  image: "🧴", affiliateUrl: amazonSearchUrl("high+spf+sunscreen+desert"), tag: "Daytime essential", tagColor: "bg-amber-100 text-amber-700", why: "Reflected sunlight off white salt is more intense than typical desert sun exposure." },
-      { name: "Comfortable Walking Shoes", description: "For walking on the uneven salt-crust terrain at the Rann and craft village visits.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Terrain essential", tagColor: "bg-sky-100 text-sky-700", why: "The salt surface can be uneven and occasionally sharp-edged in places." },
-      { name: "Camera with Wide-Angle Lens", description: "For capturing the sheer scale and flatness of the White Rann.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("wide+angle+lens+camera+travel"), tag: "Photography essential", tagColor: "bg-purple-100 text-purple-700", why: "The Rann's landscape is defined by scale — a wide-angle lens captures it far better than a standard one." },
-    ],
-  },
-];
-
 export default function RannOfKutchGuidePage() {
   return (
     <>
@@ -125,7 +110,9 @@ export default function RannOfKutchGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/jaisalmer/hero.jpg" alt="White salt desert representative of the Rann of Kutch, Gujarat" fill priority sizes="100vw" className="object-cover" />
+            <Image
+              src="/images/blogs/gujarat/rann-of-kutch/the-white-rann-rann-of-kutch.webp"
+              alt="The White Rann, Rann of Kutch" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -233,15 +220,17 @@ export default function RannOfKutchGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do at the Rann of Kutch</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/jaisalmer/hero.jpg" alt="Salt flat landscape near the Rann of Kutch" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>The White Rann:</strong> The salt flat itself — best experienced at sunset or under a full moon.</li>
                     <li><strong>Rann Utsav tent city:</strong> Cultural performances, handicraft stalls, and desert safaris at the government-organized festival — verify current dates and booking process.</li>
                     <li><strong>Kalo Dungar (Black Hill):</strong> The highest point in Kutch, offering panoramic views over the Rann.</li>
                     <li><strong>Kutchi craft villages:</strong> Nearby settlements known for embroidery, block printing, and leatherwork — a genuinely significant artisan tradition.</li>
                   </ul>
+                  <GuidePhotoRow
+                    images={[
+                      { src: "/images/blogs/gujarat/rann-of-kutch/kalo-dungar-rann-of-kutch.webp", alt: "Kalo Dungar, Rann of Kutch", caption: "Kalo Dungar, Rann of Kutch" },
+                    ]}
+                  />
                 </section>
 
                 <section id="where-to-stay">
@@ -360,7 +349,6 @@ export default function RannOfKutchGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={KUTCH_GEAR} destination="Rann of Kutch" />
               <RelatedPostsGrid currentSlug="rann-of-kutch-travel-guide" />
             </article>
 

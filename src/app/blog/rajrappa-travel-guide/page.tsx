@@ -7,10 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Rajrappa Travel Guide: Chhinnamasta Temple & River Confluence",
@@ -27,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jammu-kashmir/dal.jpg",
+        url: "/images/blogs/jharkhand/rajrappa/rajrappa.webp",
         width: 1200,
-        height: 630,
-        alt: "River confluence landscape representative of Rajrappa, Jharkhand",
+        height: 900,
+        alt: "Rajrappa, Jharkhand",
       },
     ],
   },
@@ -38,7 +34,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Rajrappa Travel Guide: Chhinnamasta Temple & River Confluence",
     description: "A Tantric Shakti Peeth temple at the confluence of two rivers — the complete guide to Rajrappa.",
-    images: ["/images/destinations/jammu-kashmir/dal.jpg"],
+    images: ["/images/blogs/jharkhand/rajrappa/rajrappa.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/rajrappa-travel-guide" },
 };
@@ -53,7 +49,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Rajrappa Travel Guide: Chhinnamasta Temple & River Confluence",
           description: "The complete Rajrappa travel guide.",
-          image: "https://club.kudozz.in/images/destinations/jammu-kashmir/dal.jpg",
+          image: "https://club.kudozz.in/images/blogs/jharkhand/rajrappa/rajrappa.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: {
@@ -144,46 +140,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const RAJRAPPA_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for a temple and riverside day trip",
-    emoji: "🛕",
-    items: [
-      {
-        name: "Modest Cotton Clothing",
-        description: "Rajrappa is an active pilgrimage site — modest, covered clothing is expected at the temple.",
-        price: "₹599",
-        image: "👕",
-        affiliateUrl: amazonSearchUrl("modest+cotton+travel+clothing"),
-        tag: "Temple essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "This is a functioning place of worship, not a tourist monument — dress accordingly.",
-      },
-      {
-        name: "Comfortable Sandals",
-        description: "For walking the riverside paths and temple grounds comfortably.",
-        price: "₹899",
-        image: "👡",
-        affiliateUrl: amazonSearchUrl("comfortable+sandals+travel"),
-        tag: "Riverside essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "The rocky riverbed and temple grounds are best navigated in comfortable, secure footwear.",
-      },
-      {
-        name: "Small Bag for Valuables",
-        description: "Useful for keeping shoes and belongings secure while at the temple and confluence.",
-        price: "₹399",
-        image: "🎒",
-        affiliateUrl: amazonSearchUrl("small+travel+bag+valuables"),
-        tag: "Temple essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "Footwear typically comes off before entering the temple area, so a bag for shoes and valuables helps." ,
-      },
-    ],
-  },
-];
-
 export default function RajrappaGuidePage() {
   return (
     <>
@@ -194,8 +150,8 @@ export default function RajrappaGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jammu-kashmir/dal.jpg"
-              alt="River confluence landscape representative of Rajrappa, Jharkhand"
+              src="/images/blogs/jharkhand/rajrappa/rajrappa.webp"
+              alt="Rajrappa, Jharkhand"
               fill
               priority
               sizes="100vw"
@@ -393,15 +349,6 @@ export default function RajrappaGuidePage() {
 
                 <section id="top-attractions">
                   <h2>What to See at Rajrappa</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/jammu-kashmir/dal.jpg"
-                      alt="River confluence and temple setting at Rajrappa"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <ul>
                     <li>
                       <strong>Chhinnamasta Temple:</strong> A significant Tantric Shakti temple dedicated to
@@ -553,7 +500,6 @@ export default function RajrappaGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={RAJRAPPA_GEAR} destination="Rajrappa" />
               <RelatedPostsGrid currentSlug="rajrappa-travel-guide" />
             </article>
 

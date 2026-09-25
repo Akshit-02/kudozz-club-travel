@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/kasol/kasol.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Misty forested hill valley, evoking Kodaikanal's Palani Hills scenery",
+        url: "/images/blogs/tamil-nadu/kodaikanal/kodaikanal.webp",
+        width: 1600,
+        height: 1067,
+        alt: "View of Kodaikanal, Tamil Nadu",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Kodaikanal Travel Guide: Lake, Views & Tips",
     description:
       "A star-shaped lake, ridge-top walks, and the rare Kurinji flower — the complete Kodaikanal guide.",
-    images: ["/images/destinations/kasol/kasol.jpg"],
+    images: ["/images/blogs/tamil-nadu/kodaikanal/kodaikanal.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/kodaikanal-travel-guide",
@@ -59,7 +60,7 @@ function ArticleSchema() {
           headline: "Kodaikanal Travel Guide: Lake, Views & Tips",
           description:
             "Complete Kodaikanal guide — Kodaikanal Lake, Coaker's Walk, Pillar Rocks, the rare Kurinji flower, best time to visit, how to reach, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/kasol/kasol.jpg",
+          image: "https://club.kudozz.in/images/blogs/tamil-nadu/kodaikanal/kodaikanal.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -196,8 +197,8 @@ export default function KodaikanalGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/kasol/kasol.jpg"
-              alt="Misty forested hill valley, evoking Kodaikanal's Palani Hills scenery"
+              src="/images/blogs/tamil-nadu/kodaikanal/kodaikanal.webp"
+              alt="View of Kodaikanal, Tamil Nadu"
               fill
               priority
               sizes="100vw"
@@ -489,16 +490,8 @@ export default function KodaikanalGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Lake, Walks & Viewpoints</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/kasol/kasol.jpg"
-                      alt="Forested hill valley, evoking the Palani Hills around Kodaikanal"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Kodaikanal Lake</h3>
+                  <GuideFigure src="/images/blogs/tamil-nadu/kodaikanal/kodaikanal-lake.webp" alt="Kodaikanal Lake, Tamil Nadu" />
                   <p>
                     A star-shaped artificial lake at the town's centre, with
                     a perimeter path popular for cycling, walking, and
@@ -511,17 +504,20 @@ export default function KodaikanalGuidePage() {
                     visibility.
                   </p>
                   <h3>Bryant Park</h3>
+                  <GuideFigure src="/images/blogs/tamil-nadu/kodaikanal/bryant-park-kodaikanal.webp" alt="Bryant Park, Kodaikanal" />
                   <p>
                     A well-maintained garden near the lake, a relaxed
                     half-hour stop for families.
                   </p>
                   <h3>Pillar Rocks</h3>
+                  <GuideFigure src="/images/blogs/tamil-nadu/kodaikanal/pillar-rocks-kodaikanal.webp" alt="Pillar Rocks, Kodaikanal" />
                   <p>
                     Three massive vertical rock formations rising from the
                     forest — one of the area's most photographed
                     viewpoints.
                   </p>
                   <h3>Silver Cascade Falls</h3>
+                  <GuideFigure src="/images/blogs/tamil-nadu/kodaikanal/silver-cascade-falls-kodaikanal.webp" alt="Silver Cascade Falls, Kodaikanal" />
                   <p>
                     A roadside waterfall on the way into town from the
                     plains, an easy first stop for arriving visitors.

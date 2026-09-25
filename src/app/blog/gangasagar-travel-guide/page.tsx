@@ -25,8 +25,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/blogs/west-bengal/gangasagar/kapil-muni-temple-gangasagar-sagar-island.webp",
-        width: 1200,
-        height: 630,
+        width: 1600,
+        height: 1200,
         alt: "Kapil Muni Temple's colourful triple-spired towers with pilgrims at Gangasagar, Sagar Island, West Bengal",
       },
     ],
@@ -551,15 +551,6 @@ export default function GangasagarGuidePage() {
                 {/* ── Attractions ────────────────────────────────────────── */}
                 <section id="attractions">
                   <h2>Temple, Mela & Island</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/west-bengal/gangasagar/kapil-muni-temple-gangasagar-sagar-island.webp"
-                      alt="Pilgrims gathered outside Kapil Muni Temple at Gangasagar, Sagar Island, West Bengal"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Kapil Muni Temple</h3>
                   <p>
                     The spiritual centre of Gangasagar, dedicated to the

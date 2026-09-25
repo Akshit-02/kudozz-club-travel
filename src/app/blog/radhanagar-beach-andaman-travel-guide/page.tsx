@@ -24,10 +24,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/andaman/havelock.jpg",
-        width: 1200,
-        height: 630,
-        alt: "White sand and turquoise water at Radhanagar Beach, Havelock Island, Andaman",
+        url: "/images/blogs/andaman-and-nicobar/radhanagar-beach-andaman/radhanagar-beach.webp",
+        width: 1600,
+        height: 1200,
+        alt: "Radhanagar Beach, Andaman & Nicobar Islands",
       },
     ],
   },
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     title: "Radhanagar Beach Travel Guide: Timings, Sunset & Tips",
     description:
       "Havelock Island's famous white-sand beach — once named one of Asia's best. The complete visit guide.",
-    images: ["/images/destinations/andaman/havelock.jpg"],
+    images: ["/images/blogs/andaman-and-nicobar/radhanagar-beach-andaman/radhanagar-beach.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/radhanagar-beach-andaman-travel-guide",
@@ -60,7 +60,7 @@ function ArticleSchema() {
           description:
             "Complete Radhanagar Beach (Beach No. 7) guide — Havelock Island's famous white-sand beach once named one of Asia's best. Timings, sunset tips, rules, and how to reach it.",
           image:
-            "https://club.kudozz.in/images/destinations/andaman/havelock.jpg",
+            "https://club.kudozz.in/images/blogs/andaman-and-nicobar/radhanagar-beach-andaman/radhanagar-beach.webp",
           datePublished: "2026-09-01",
           dateModified: "2026-09-01",
           publisher: {
@@ -202,8 +202,8 @@ export default function RadhanagarBeachGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/andaman/havelock.jpg"
-              alt="White sand and turquoise water at Radhanagar Beach, Havelock Island, Andaman"
+              src="/images/blogs/andaman-and-nicobar/radhanagar-beach-andaman/radhanagar-beach.webp"
+              alt="Radhanagar Beach, Andaman & Nicobar Islands"
               fill
               priority
               sizes="100vw"
@@ -520,15 +520,6 @@ export default function RadhanagarBeachGuidePage() {
                 {/* ── The Beach ──────────────────────────────────────────── */}
                 <section id="the-beach">
                   <h2>What Makes Radhanagar Special</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/andaman/havelock.jpg"
-                      alt="Radhanagar Beach shoreline, Havelock Island"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <p>
                     Radhanagar's reputation rests on a combination rather
                     than any single feature: fine, powder-white sand that

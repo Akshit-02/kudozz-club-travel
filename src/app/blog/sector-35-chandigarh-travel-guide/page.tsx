@@ -25,8 +25,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/destinations/chandigarh/hero.jpg",
-        width: 1200,
-        height: 630,
+        width: 2560,
+        height: 1920,
         alt: "A clean, orderly Chandigarh commercial street, evoking Sector 35's modern SCO market and café strip",
       },
     ],
@@ -535,15 +535,6 @@ export default function Sector35GuidePage() {
                 {/* ── Market ────────────────────────────────────────────── */}
                 <section id="market">
                   <h2>The Sector 35 Market</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/chandigarh/hero.jpg"
-                      alt="A modern, orderly commercial strip, evoking Sector 35's SCO shopfronts in Chandigarh"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <p>
                     Sector 35's market runs along a comparatively modern,
                     well-organized commercial strip of SCO (Shop-Cum-Office)

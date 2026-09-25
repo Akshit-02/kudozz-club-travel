@@ -7,9 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  HIMALAYAN_GEAR,
-} from "@/components/ui/TrekGearRecommendations";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -28,10 +26,10 @@ export const metadata: Metadata = {
     authors: ["Kudozz Club"],
     images: [
       {
-        url: "/images/destinations/leh-ladakh/leh-ladakh.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Leh town with whitewashed houses below the Namgyal Tsemo hilltop fort",
+        url: "/images/blogs/ladakh/leh/leh.webp",
+        width: 1600,
+        height: 725,
+        alt: "View of Leh, Ladakh",
       },
     ],
   },
@@ -44,7 +42,7 @@ export const metadata: Metadata = {
     title: "Leh Travel Guide: Leh Palace, Market, Shanti Stupa & Tips",
     description:
       "Leh Palace, the old bazaar, Shanti Stupa, and everything you need to explore Leh town itself.",
-    images: ["/images/destinations/leh-ladakh/leh-ladakh.jpg"],
+    images: ["/images/blogs/ladakh/leh/leh.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/leh-travel-guide",
@@ -64,7 +62,7 @@ function ArticleSchema() {
           description:
             "A complete travel guide to Leh town — Leh Palace, Leh Market, Shanti Stupa, Namgyal Tsemo Fort, acclimatisation advice, cafés, and day trips.",
           image:
-            "https://club.kudozz.in/images/destinations/leh-ladakh/leh-ladakh.jpg",
+            "https://club.kudozz.in/images/blogs/ladakh/leh/leh.webp",
           datePublished: "2026-07-20",
           dateModified: "2026-08-30",
           publisher: {
@@ -210,8 +208,8 @@ export default function LehTravelGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/leh-ladakh/leh-ladakh.jpg"
-              alt="Leh town beneath the hilltop Namgyal Tsemo Fort, Ladakh"
+              src="/images/blogs/ladakh/leh/leh.webp"
+              alt="View of Leh, Ladakh"
               fill
               priority
               sizes="100vw"
@@ -979,6 +977,7 @@ export default function LehTravelGuidePage() {
 
                   <section id="leh-mosque">
                     <h3>Leh Jama Masjid</h3>
+                    <GuideFigure src="/images/blogs/ladakh/leh/leh-jama-masjid.webp" alt="Leh Jama Masjid, Ladakh" />
                     <p>
                       Standing right at the entrance to the main bazaar, the{" "}
                       <strong>Jama Masjid</strong> of Leh is a reminder that
@@ -1457,11 +1456,6 @@ export default function LehTravelGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              <TrekGearRecommendations
-                sections={HIMALAYAN_GEAR}
-                destination="Leh"
-              />
 
               <RelatedPostsGrid currentSlug="leh-travel-guide" />
             </article>

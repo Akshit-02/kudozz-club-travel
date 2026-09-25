@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/ziro/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Green grassland landscape, evoking the Abohar Wildlife Sanctuary's blackbuck habitat in Punjab",
+        url: "/images/blogs/punjab/abohar/abohar-wildlife-sanctuary.webp",
+        width: 1600,
+        height: 1068,
+        alt: "Abohar Wildlife Sanctuary, Punjab",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Abohar Travel Guide: Blackbuck Sanctuary & Tips",
     description:
       "One of India's highest blackbuck population densities, and a citrus-growing belt most visitors never see — the complete Abohar guide.",
-    images: ["/images/destinations/ziro/hero.jpg"],
+    images: ["/images/blogs/punjab/abohar/abohar-wildlife-sanctuary.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/abohar-travel-guide",
@@ -59,7 +60,7 @@ function ArticleSchema() {
           headline: "Abohar Travel Guide: Blackbuck Sanctuary & Tips",
           description:
             "Complete Abohar guide — one of India's highest blackbuck population densities outside a dedicated deer park, the region's kinnow orchards, how to reach, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/ziro/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/punjab/abohar/abohar-wildlife-sanctuary.webp",
           datePublished: "2026-09-04",
           dateModified: "2026-09-04",
           publisher: {
@@ -196,8 +197,8 @@ export default function AboharGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/ziro/hero.jpg"
-              alt="Green grassland landscape, evoking the Abohar Wildlife Sanctuary's blackbuck habitat in Punjab"
+              src="/images/blogs/punjab/abohar/abohar-wildlife-sanctuary.webp"
+              alt="Abohar Wildlife Sanctuary, Punjab"
               fill
               priority
               sizes="100vw"
@@ -519,15 +520,6 @@ export default function AboharGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Sanctuary & Kinnow Orchards</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/ziro/hero.jpg"
-                      alt="Grassland landscape at Abohar Wildlife Sanctuary, Punjab"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Abohar Wildlife Sanctuary</h3>
                   <p>
                     The sanctuary&apos;s claim to fame is its blackbuck
@@ -537,6 +529,7 @@ export default function AboharGuidePage() {
                     across the open grassland before the day heats up.
                   </p>
                   <h3>Kinnow Orchards</h3>
+                  <GuideFigure src="/images/blogs/punjab/abohar/kinnow-orchards-abohar.webp" alt="Kinnow Orchards, Abohar" />
                   <p>
                     Fazilka district is one of India&apos;s leading
                     kinnow-growing regions. Visiting an orchard during

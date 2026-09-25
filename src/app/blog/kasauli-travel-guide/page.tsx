@@ -7,8 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuidePhotoRow } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
   title: "Kasauli Travel Guide: Quiet Cantonment Hill Town Near Chandigarh",
@@ -20,9 +19,9 @@ export const metadata: Metadata = {
     title: "Kasauli Travel Guide: Quiet Cantonment Hill Town Near Chandigarh",
     description: "A small colonial cantonment hill town that's stayed genuinely quiet, an easy two-hour drive from Chandigarh — the complete guide to Kasauli.",
     url: "https://club.kudozz.in/blog/kasauli-travel-guide", type: "article", siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/chandigarh/hero.jpg", width: 1200, height: 630, alt: "Quiet hill-town scenery representative of Kasauli, Himachal Pradesh" }],
+    images: [{ url: "/images/blogs/himachal-pradesh/kasauli/kasauli-2.webp", width: 1600, height: 900, alt: "Kasauli, Himachal Pradesh" }],
   },
-  twitter: { card: "summary_large_image", title: "Kasauli Travel Guide: Quiet Cantonment Hill Town Near Chandigarh", description: "A small, quiet colonial cantonment town — the complete guide to Kasauli.", images: ["/images/destinations/chandigarh/hero.jpg"] },
+  twitter: { card: "summary_large_image", title: "Kasauli Travel Guide: Quiet Cantonment Hill Town Near Chandigarh", description: "A small, quiet colonial cantonment town — the complete guide to Kasauli.", images: ["/images/blogs/himachal-pradesh/kasauli/kasauli-2.webp"] },
   alternates: { canonical: "https://club.kudozz.in/blog/kasauli-travel-guide" },
 };
 
@@ -32,7 +31,7 @@ function ArticleSchema() {
       "@context": "https://schema.org", "@type": "BlogPosting",
       headline: "Kasauli Travel Guide: Quiet Cantonment Hill Town Near Chandigarh",
       description: "The complete Kasauli travel guide.",
-      image: "https://club.kudozz.in/images/destinations/chandigarh/hero.jpg",
+      image: "https://club.kudozz.in/images/blogs/himachal-pradesh/kasauli/kasauli-2.webp",
       datePublished: "2026-09-07", dateModified: "2026-09-07",
       publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
       author: { "@type": "Organization", name: "Kudozz Club" },
@@ -79,16 +78,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const KASAULI_GEAR: GearSection[] = [{
-  title: "Things Worth Carrying", subtitle: "Gear for gentle walks and quiet mornings", emoji: "🌲",
-  items: [
-    { name: "Comfortable Walking Shoes", description: "For the walk to Monkey Point/Gilbert Trail and the town's gently sloped lanes.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Sightseeing essential", tagColor: "bg-amber-100 text-amber-700", why: "Kasauli's viewpoints are reached by short walks on sloped paths." },
-    { name: "Light Warm Layer", description: "Evenings are cool given Kasauli's elevation, even outside winter.", price: "₹1,499",  image: "🧥", affiliateUrl: amazonSearchUrl("light+warm+jacket+travel"), tag: "Evening essential", tagColor: "bg-sky-100 text-sky-700", why: "Temperature drops noticeably after sunset here." },
-    { name: "Rain Layer", description: "Useful for sudden showers and monsoon fog if visiting Jul–Aug.", price: "₹899",  image: "🌂", affiliateUrl: amazonSearchUrl("packable+rain+jacket+travel"), tag: "Weather essential", tagColor: "bg-purple-100 text-purple-700", why: "Kasauli's monsoon months bring persistent fog and rain." },
-    { name: "Camera", description: "For colonial-era architecture and the views from Monkey Point and Sunset Point.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-forest-100 text-forest-700", why: "On clear days, distant Himalayan peaks are visible from Monkey Point." },
-  ],
-}];
-
 export default function KasauliGuidePage() {
   return (
     <>
@@ -96,7 +85,7 @@ export default function KasauliGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/chandigarh/hero.jpg" alt="Quiet hill-town scenery representative of Kasauli, Himachal Pradesh" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/himachal-pradesh/kasauli/kasauli-2.webp" alt="Kasauli, Himachal Pradesh" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -201,9 +190,6 @@ export default function KasauliGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do in Kasauli</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/chandigarh/hero.jpg" alt="Hill-town scenery around Kasauli" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>Monkey Point / Gilbert Trail:</strong> A short walk offering views toward the plains and, on clear days, distant Himalayan peaks.</li>
                     <li><strong>Christ Church:</strong> A colonial-era church, one of Kasauli's oldest surviving structures.</li>
@@ -211,6 +197,12 @@ export default function KasauliGuidePage() {
                     <li><strong>Sanawar:</strong> A nearby area home to The Lawrence School, a historic institution worth a passing look.</li>
                     <li><strong>Kasauli Brewery:</strong> One of India's oldest breweries — a point of historical interest, though not typically open for public tours (verify current access).</li>
                   </ul>
+                  <GuidePhotoRow
+                    images={[
+                      { src: "/images/blogs/himachal-pradesh/kasauli/christ-church-kasauli.webp", alt: "Christ Church, Kasauli", caption: "Christ Church, Kasauli" },
+                      { src: "/images/blogs/himachal-pradesh/kasauli/sanawar-kasauli.webp", alt: "Sanawar, Kasauli", caption: "Sanawar, Kasauli" },
+                    ]}
+                  />
                 </section>
 
                 <section id="where-to-stay">
@@ -327,7 +319,6 @@ export default function KasauliGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={KASAULI_GEAR} destination="Kasauli" />
               <RelatedPostsGrid currentSlug="kasauli-travel-guide" />
             </article>
             <div className="hidden xl:block w-64 2xl:w-72 flex-shrink-0"><div className="sticky top-24"><RelatedSidebar currentSlug="kasauli-travel-guide" /></div></div>

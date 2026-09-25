@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -527,15 +528,7 @@ export default function SenapatiGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Things to Do in Senapati</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/manipur/senapati/dzukou-valley-rolling-naga-hills-senapati.webp"
-                      alt="Rolling green Naga hills of the Dzukou Valley in Senapati district, Manipur"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
+                  <GuideFigure src="/images/blogs/manipur/senapati/senapati-view.webp" alt="Senapati, Manipur" />
                   <h3>Mao Gate</h3>
                   <p>
                     A well-known landmark on NH2 at the Manipur-Nagaland

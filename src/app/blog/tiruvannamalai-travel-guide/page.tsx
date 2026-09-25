@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/manali/hadimba-temple.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Temple architecture set against a hillside, evoking Tiruvannamalai's Arunachaleswarar Temple at the base of Arunachala hill",
+        url: "/images/blogs/tamil-nadu/tiruvannamalai/tiruvannamalai.webp",
+        width: 1600,
+        height: 1200,
+        alt: "View of Tiruvannamalai, Tamil Nadu",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Tiruvannamalai Guide: Arunachala & Girivalam",
     description:
       "A fire-element Shiva temple, a sacred hill, and the 14 km Girivalam walk — the complete guide to Tiruvannamalai.",
-    images: ["/images/destinations/manali/hadimba-temple.jpg"],
+    images: ["/images/blogs/tamil-nadu/tiruvannamalai/tiruvannamalai.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/tiruvannamalai-travel-guide",
@@ -59,7 +60,7 @@ function ArticleSchema() {
           headline: "Tiruvannamalai Guide: Arunachala & Girivalam",
           description:
             "Complete Tiruvannamalai guide — the Arunachaleswarar Temple, the 14 km barefoot Girivalam walk around Arunachala hill, Sri Ramanasramam, Karthigai Deepam, how to reach from Chennai, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/manali/hadimba-temple.jpg",
+          image: "https://club.kudozz.in/images/blogs/tamil-nadu/tiruvannamalai/tiruvannamalai.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -200,8 +201,8 @@ export default function TiruvannamalaiGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/manali/hadimba-temple.jpg"
-              alt="Temple architecture set against a hillside, evoking Tiruvannamalai's Arunachaleswarar Temple at the base of Arunachala hill"
+              src="/images/blogs/tamil-nadu/tiruvannamalai/tiruvannamalai.webp"
+              alt="View of Tiruvannamalai, Tamil Nadu"
               fill
               priority
               sizes="100vw"
@@ -531,15 +532,6 @@ export default function TiruvannamalaiGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Temple, Girivalam & Ashram</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/manali/hadimba-temple.jpg"
-                      alt="Temple architecture near Tiruvannamalai, Tamil Nadu"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Arunachaleswarar Temple</h3>
                   <p>
                     One of India's largest temple complexes, with towering
@@ -557,6 +549,7 @@ export default function TiruvannamalaiGuidePage() {
                     experience as much as a physical one.
                   </p>
                   <h3>Sri Ramanasramam</h3>
+                  <GuideFigure src="/images/blogs/tamil-nadu/tiruvannamalai/sri-ramanasramam-tiruvannamalai.webp" alt="Sri Ramanasramam, Tiruvannamalai" />
                   <p>
                     The ashram of sage Ramana Maharshi, still an active
                     centre for meditation and spiritual study. Visitors are
@@ -565,6 +558,7 @@ export default function TiruvannamalaiGuidePage() {
                     bustle.
                   </p>
                   <h3>Karthigai Deepam</h3>
+                  <GuideFigure src="/images/blogs/tamil-nadu/tiruvannamalai/karthigai-deepam-tiruvannamalai.webp" alt="Karthigai Deepam, Tiruvannamalai" />
                   <p>
                     Usually held in November-December, this festival lights
                     a massive bonfire atop Arunachala hill, visible for miles

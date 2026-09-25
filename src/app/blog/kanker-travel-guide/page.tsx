@@ -7,8 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Kanker Travel Guide: Palace Stays & Gateway to Interior Bastar",
@@ -22,7 +20,7 @@ export const metadata: Metadata = {
     url: "https://club.kudozz.in/blog/kanker-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/udaipur/saheliyon.jpg", width: 1200, height: 630, alt: "Heritage palace grounds representative of Kanker, Chhattisgarh" }],
+    images: [{ url: "/images/destinations/udaipur/saheliyon.jpg", width: 2560, height: 1927, alt: "Heritage palace grounds representative of Kanker, Chhattisgarh" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -100,20 +98,6 @@ const tableOfContents = [
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
-];
-
-const KANKER_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for palace stays and tribal-village visits",
-    emoji: "🏰",
-    items: [
-      { name: "Comfortable Walking Shoes", description: "For palace grounds and any village or forest walking around Kanker.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-amber-100 text-amber-700", why: "Useful across both palace grounds and any rural excursions." },
-      { name: "Modest, Respectful Clothing", description: "For visiting tribal villages respectfully as a guest.", price: "₹799",  image: "👕", affiliateUrl: amazonSearchUrl("modest+travel+clothing"), tag: "Cultural-visit essential", tagColor: "bg-purple-100 text-purple-700", why: "Village visits are a genuine cultural exchange, not a photo stop — dress and behave accordingly." },
-      { name: "Insect Repellent", description: "For forested areas and rural surroundings around Kanker.", price: "₹199",  image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Forest essential", tagColor: "bg-forest-100 text-forest-700", why: "Kanker's forested terrain brings a real insect presence, especially at dusk." },
-      { name: "Camera", description: "For the palace architecture and rural landscapes, used respectfully and with permission in villages.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-sky-100 text-sky-700", why: "Always ask before photographing people in tribal villages." },
-    ],
-  },
 ];
 
 export default function KankerGuidePage() {
@@ -232,9 +216,6 @@ export default function KankerGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do in Kanker</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/udaipur/saheliyon.jpg" alt="Palace and rural surroundings near Kanker" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>Kanker Palace:</strong> The district's main landmark — a former royal residence with genuine heritage character.</li>
                     <li><strong>Tribal village visits:</strong> Kanker's rural surroundings offer a lower-key, less-touristed way to experience Bastar's indigenous communities.</li>
@@ -353,7 +334,6 @@ export default function KankerGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={KANKER_GEAR} destination="Kanker" />
               <RelatedPostsGrid currentSlug="kanker-travel-guide" />
             </article>
 

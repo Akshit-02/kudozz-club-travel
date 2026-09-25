@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/andaman/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Clear turquoise water and coral reef at Jolly Buoy Island, Mahatma Gandhi Marine National Park, Andaman",
+        url: "/images/blogs/andaman-and-nicobar/jolly-buoy-island-andaman/jolly-buoy-island-andaman-2.webp",
+        width: 1600,
+        height: 696,
+        alt: "Jolly Buoy Island Andaman, Andaman & Nicobar Islands",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Jolly Buoy Island Andaman: Marine Park Visit Guide",
     description:
       "The Andamans' best-preserved reef, protected inside a marine national park with strict visitor limits and a seasonal closure.",
-    images: ["/images/destinations/andaman/hero.jpg"],
+    images: ["/images/blogs/andaman-and-nicobar/jolly-buoy-island-andaman/jolly-buoy-island-andaman-2.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/jolly-buoy-island-andaman-travel-guide",
@@ -59,7 +60,7 @@ function ArticleSchema() {
           headline: "Jolly Buoy Island Andaman: Marine Park Visit Guide",
           description:
             "Complete Jolly Buoy Island guide — the Andamans' best-preserved coral reef inside Mahatma Gandhi Marine National Park. Timings, monsoon closure dates, rules, and how to book.",
-          image: "https://club.kudozz.in/images/destinations/andaman/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/andaman-and-nicobar/jolly-buoy-island-andaman/jolly-buoy-island-andaman-2.webp",
           datePublished: "2026-09-01",
           dateModified: "2026-09-01",
           publisher: {
@@ -200,8 +201,8 @@ export default function JollyBuoyIslandGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/andaman/hero.jpg"
-              alt="Clear turquoise water and coral reef at Jolly Buoy Island, Mahatma Gandhi Marine National Park, Andaman"
+              src="/images/blogs/andaman-and-nicobar/jolly-buoy-island-andaman/jolly-buoy-island-andaman-2.webp"
+              alt="Jolly Buoy Island Andaman, Andaman & Nicobar Islands"
               fill
               priority
               sizes="100vw"
@@ -432,6 +433,7 @@ export default function JollyBuoyIslandGuidePage() {
                 {/* ── Best Time / Closure ───────────────────────────────── */}
                 <section id="best-time">
                   <h2>Best Time to Visit & the Monsoon Closure</h2>
+                  <GuideFigure src="/images/blogs/andaman-and-nicobar/jolly-buoy-island-andaman/jolly-buoy-island-andaman-view.webp" alt="Jolly Buoy Island Andaman, Andaman & Nicobar Islands" />
                   <p>
                     Jolly Buoy's opening dates are tied directly to the
                     monsoon, unlike most Andaman attractions which merely get
@@ -576,15 +578,6 @@ export default function JollyBuoyIslandGuidePage() {
                 <section id="snorkelling">
                   <h2>Snorkelling & What You'll See</h2>
 
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/andaman/hero.jpg"
-                      alt="Snorkeller over healthy coral reef at Jolly Buoy Island inside Mahatma Gandhi Marine National Park"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <p>
                     Snorkelling here is often the highlight of an entire
                     Andaman trip, precisely because the reef is better

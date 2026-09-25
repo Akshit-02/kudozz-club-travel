@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -25,8 +26,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/blogs/west-bengal/jhargram/chilkigarh-raj-palace-facade-jhargram.webp",
-        width: 1200,
-        height: 630,
+        width: 1600,
+        height: 1064,
         alt: "Facade and garden of the heritage Jhargram Raj Palace, West Bengal",
       },
     ],
@@ -537,15 +538,6 @@ export default function JhargramGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Palace, Park & Temples</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/west-bengal/jhargram/chilkigarh-raj-palace-facade-jhargram.webp"
-                      alt="The heritage Jhargram Raj Palace and its landscaped grounds"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Jhargram Raj Palace</h3>
                   <p>
                     A grand early-20th-century building that once served as
@@ -557,6 +549,7 @@ export default function JhargramGuidePage() {
                     genuinely historic setting.
                   </p>
                   <h3>Jhargram Deer Park (Chidiya More)</h3>
+                  <GuideFigure src="/images/blogs/west-bengal/jhargram/jhargram-deer-park.webp" alt="Jhargram Deer Park, West Bengal" />
                   <p>
                     A forested enclosure near the town centre where spotted
                     deer roam in a setting close to their natural sal-forest
@@ -565,6 +558,7 @@ export default function JhargramGuidePage() {
                     region's wildlife without a long safari commitment.
                   </p>
                   <h3>Kanak Durga Temple & Chilkigarh</h3>
+                  <GuideFigure src="/images/blogs/west-bengal/jhargram/kanak-durga-temple-and-chilkigarh-jhargram.webp" alt="Kanak Durga Temple & Chilkigarh, Jhargram" />
                   <p>
                     The Kanak Durga Temple sits on the banks of the Dulung
                     river at Chilkigarh, a peaceful riverside spot a short

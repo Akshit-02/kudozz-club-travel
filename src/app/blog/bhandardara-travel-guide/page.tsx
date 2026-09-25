@@ -7,10 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuidePhotoRow } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -28,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/manali/solang-valley.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Lake ringed by hills, representative of Bhandardara's Arthur Lake, Maharashtra",
+        url: "/images/blogs/maharashtra/bhandardara/bhandardara-2.webp",
+        width: 1600,
+        height: 899,
+        alt: "Bhandardara, Maharashtra",
       },
     ],
   },
@@ -40,7 +37,7 @@ export const metadata: Metadata = {
     title: "Bhandardara Travel Guide: Arthur Lake, Waterfalls & Camping",
     description:
       "Arthur Lake, Randha Falls, and the Kalsubai Peak trek — the complete guide to Bhandardara.",
-    images: ["/images/destinations/manali/solang-valley.jpg"],
+    images: ["/images/blogs/maharashtra/bhandardara/bhandardara-2.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/bhandardara-travel-guide",
@@ -58,7 +55,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Bhandardara Travel Guide: Arthur Lake, Waterfalls & Camping",
           description: "The complete Bhandardara travel guide.",
-          image: "https://club.kudozz.in/images/destinations/manali/solang-valley.jpg",
+          image: "https://club.kudozz.in/images/blogs/maharashtra/bhandardara/bhandardara-2.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: {
@@ -146,56 +143,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const BHANDARDARA_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for the Kalsubai trek and lakeside camping nights",
-    emoji: "⛺",
-    items: [
-      {
-        name: "Trekking Shoes",
-        description: "The Kalsubai Peak trek includes rocky, sometimes slippery sections and iron ladder climbs near the summit — proper grip matters.",
-        price: "₹3,499",  image: "🥾",
-        affiliateUrl: amazonSearchUrl("trekking+shoes+ankle+support"),
-        tag: "Trek essential", tagColor: "bg-amber-100 text-amber-700",
-        why: "Loose gravel and wet rock near the summit ladders are where most minor injuries on this trek happen.",
-      },
-      {
-        name: "Warm Jacket / Fleece Layer",
-        description: "Nights at Bhandardara's campsites, especially post-monsoon and winter, get genuinely cold once the sun sets.",
-        price: "₹1,799",  image: "🧥",
-        affiliateUrl: amazonSearchUrl("warm+fleece+jacket+camping"),
-        tag: "Camping essential", tagColor: "bg-stone-100 text-stone-700",
-        why: "The temperature drop after dark near the lake surprises most first-time campers here.",
-      },
-      {
-        name: "Headlamp / LED Torch",
-        description: "Essential for the early-morning Kalsubai summit push and for navigating a campsite after dark.",
-        price: "₹599",  image: "🔦",
-        affiliateUrl: amazonSearchUrl("led+headlamp+trekking"),
-        tag: "Trek essential", tagColor: "bg-purple-100 text-purple-700",
-        why: "Most Kalsubai treks start pre-dawn to catch the sunrise from the summit temple.",
-      },
-      {
-        name: "Sleeping Bag (if camping)",
-        description: "For lakeside or hillside camping — some operators provide these, but carrying your own guarantees warmth and hygiene.",
-        price: "₹1,499",  image: "🛌",
-        affiliateUrl: amazonSearchUrl("compact+sleeping+bag+camping"),
-        tag: "Camping essential", tagColor: "bg-forest-100 text-forest-700",
-        why: "Rental sleeping bags at unorganised campsites vary widely in warmth and cleanliness.",
-      },
-      {
-        name: "Insect Repellent",
-        description: "The lake-adjacent camping areas and forested trek trails see plenty of mosquito activity, especially post-monsoon.",
-        price: "₹199",  image: "🦟",
-        affiliateUrl: amazonSearchUrl("insect+repellent+camping+travel"),
-        tag: "Camping essential", tagColor: "bg-sky-100 text-sky-700",
-        why: "Standing water near the dam and lake makes for a noticeably higher mosquito presence than drier trek destinations.",
-      },
-    ],
-  },
-];
-
 export default function BhandardaraGuidePage() {
   return (
     <>
@@ -207,8 +154,8 @@ export default function BhandardaraGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/manali/solang-valley.jpg"
-              alt="Lake ringed by hills, representative of Bhandardara's Arthur Lake, Maharashtra"
+              src="/images/blogs/maharashtra/bhandardara/bhandardara-2.webp"
+              alt="Bhandardara, Maharashtra"
               fill
               priority
               sizes="100vw"
@@ -368,9 +315,6 @@ export default function BhandardaraGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/manali/solang-valley.jpg" alt="Hills and water at Bhandardara" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>Arthur Lake & Wilson Dam:</strong> The centrepiece — a placid reservoir formed by one of India's oldest dams, with boat rides available and a scenic backdrop of surrounding hills.</li>
                     <li><strong>Randha Falls:</strong> A dramatic waterfall best seen in monsoon and immediately post-monsoon, when the flow is at its strongest.</li>
@@ -379,6 +323,12 @@ export default function BhandardaraGuidePage() {
                     <li><strong>Ratangad Fort Trek:</strong> A less crowded alternative trek in the same hill range, with historical fort ruins at the top.</li>
                     <li><strong>Stargazing & Camping:</strong> Bhandardara's low light pollution makes it one of Maharashtra's better-known spots for night-sky camping and amateur astronomy.</li>
                   </ul>
+                  <GuidePhotoRow
+                    images={[
+                      { src: "/images/blogs/maharashtra/bhandardara/arthur-lake-and-wilson-dam-bhandardara-2.webp", alt: "Arthur Lake & Wilson Dam, Bhandardara", caption: "Arthur Lake & Wilson Dam, Bhandardara" },
+                      { src: "/images/blogs/maharashtra/bhandardara/umbrella-falls-bhandardara.webp", alt: "Umbrella Falls, Bhandardara", caption: "Umbrella Falls, Bhandardara" },
+                    ]}
+                  />
                 </section>
 
                 <section id="where-to-stay">
@@ -539,8 +489,6 @@ export default function BhandardaraGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              <TrekGearRecommendations sections={BHANDARDARA_GEAR} destination="Bhandardara" />
 
               <RelatedPostsGrid currentSlug="bhandardara-travel-guide" />
             </article>

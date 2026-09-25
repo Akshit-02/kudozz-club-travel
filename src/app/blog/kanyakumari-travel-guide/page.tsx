@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/gokarna/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Coastal rocks and open sea at sunset, evoking Kanyakumari's location at the southern tip of India",
+        url: "/images/blogs/tamil-nadu/kanyakumari/kanyakumari.webp",
+        width: 1600,
+        height: 1200,
+        alt: "View of Kanyakumari, Tamil Nadu",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Kanyakumari Travel Guide: Sunrise, Sunset & Tips",
     description:
       "Three seas meeting at India's southern tip — the complete Kanyakumari guide to the Rock Memorial, the statue, and the best views.",
-    images: ["/images/destinations/gokarna/hero.jpg"],
+    images: ["/images/blogs/tamil-nadu/kanyakumari/kanyakumari.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/kanyakumari-travel-guide",
@@ -59,7 +60,7 @@ function ArticleSchema() {
           headline: "Kanyakumari Travel Guide: Sunrise, Sunset & Tips",
           description:
             "Complete Kanyakumari guide — the Vivekananda Rock Memorial, the Thiruvalluvar Statue, sunrise and sunset viewing, how to reach, and a full visit plan for India's southernmost tip.",
-          image: "https://club.kudozz.in/images/destinations/gokarna/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/tamil-nadu/kanyakumari/kanyakumari.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -196,8 +197,8 @@ export default function KanyakumariGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/gokarna/hero.jpg"
-              alt="Coastal rocks and open sea at sunset, evoking Kanyakumari's location at the southern tip of India"
+              src="/images/blogs/tamil-nadu/kanyakumari/kanyakumari.webp"
+              alt="View of Kanyakumari, Tamil Nadu"
               fill
               priority
               sizes="100vw"
@@ -512,16 +513,8 @@ export default function KanyakumariGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Rock Memorial, Statue & Temple</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/gokarna/hero.jpg"
-                      alt="Rocky coastline at sunset, evoking Kanyakumari's shoreline near the Vivekananda Rock Memorial"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Vivekananda Rock Memorial</h3>
+                  <GuideFigure src="/images/blogs/tamil-nadu/kanyakumari/vivekananda-rock-memorial-kanyakumari-2.webp" alt="Vivekananda Rock Memorial, Kanyakumari" />
                   <p>
                     Built on a rocky islet where Swami Vivekananda is said to
                     have meditated, reached by a short ferry from the
@@ -536,6 +529,7 @@ export default function KanyakumariGuidePage() {
                     combined with the same ferry trip.
                   </p>
                   <h3>Kanyakumari Amman Temple</h3>
+                  <GuideFigure src="/images/blogs/tamil-nadu/kanyakumari/kanyakumari-amman-temple.webp" alt="Kanyakumari Amman Temple, Tamil Nadu" />
                   <p>
                     An important Shakti temple right in the town centre,
                     dedicated to the goddess Kanyakumari — a quieter,
@@ -543,6 +537,7 @@ export default function KanyakumariGuidePage() {
                     landmarks.
                   </p>
                   <h3>Gandhi Memorial Mandapam</h3>
+                  <GuideFigure src="/images/blogs/tamil-nadu/kanyakumari/gandhi-memorial-mandapam-kanyakumari.webp" alt="Gandhi Memorial Mandapam, Kanyakumari" />
                   <p>
                     Commemorates the site where Mahatma Gandhi's ashes were
                     kept before immersion — a simple, contemplative stop

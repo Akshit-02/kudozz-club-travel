@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/manali/hadimba-temple.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Wooden temple architecture in a forested hill setting, evoking Ravangla's Buddha Park and monastery heritage",
+        url: "/images/blogs/sikkim/ravangla/ravangla-2.webp",
+        width: 1600,
+        height: 1067,
+        alt: "Ravangla, Sikkim",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Ravangla Travel Guide: Buddha Park & Views",
     description:
       "A giant Buddha statue with Kanchenjunga views, and a quiet South Sikkim base away from the bigger crowds.",
-    images: ["/images/destinations/manali/hadimba-temple.jpg"],
+    images: ["/images/blogs/sikkim/ravangla/ravangla-2.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/ravangla-travel-guide",
@@ -59,7 +60,7 @@ function ArticleSchema() {
           headline: "Ravangla Travel Guide: Buddha Park & Views",
           description:
             "Complete Ravangla guide — Buddha Park (Tathagata Tsal), Ralang Monastery, the Bon Monastery, Tendong Hill, how to reach from Gangtok, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/manali/hadimba-temple.jpg",
+          image: "https://club.kudozz.in/images/blogs/sikkim/ravangla/ravangla-2.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -200,8 +201,8 @@ export default function RavanglaGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/manali/hadimba-temple.jpg"
-              alt="Wooden temple architecture in a forested hill setting, evoking Ravangla's Buddha Park and monastery heritage"
+              src="/images/blogs/sikkim/ravangla/ravangla-2.webp"
+              alt="Ravangla, Sikkim"
               fill
               priority
               sizes="100vw"
@@ -512,16 +513,8 @@ export default function RavanglaGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Monasteries & Tendong Hill</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/manali/hadimba-temple.jpg"
-                      alt="Traditional wooden temple structure surrounded by forest, evoking Ravangla's monastery heritage"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Buddha Park (Tathagata Tsal)</h3>
+                  <GuideFigure src="/images/blogs/sikkim/ravangla/buddha-park-ravangla.webp" alt="Buddha Park, Ravangla" />
                   <p>
                     Ravangla's centrepiece — a large seated Buddha statue set
                     in landscaped grounds, as much a place for quiet
@@ -529,18 +522,21 @@ export default function RavanglaGuidePage() {
                     clear days.
                   </p>
                   <h3>Ralang Monastery</h3>
+                  <GuideFigure src="/images/blogs/sikkim/ravangla/ralang-monastery-ravangla.webp" alt="Ralang Monastery, Ravangla" />
                   <p>
                     A significant Kagyu-sect monastery a short distance from
                     town, worth visiting for its architecture and active
                     monastic life.
                   </p>
                   <h3>Bon Monastery</h3>
+                  <GuideFigure src="/images/blogs/sikkim/ravangla/bon-monastery-ravangla.webp" alt="Bon Monastery, Ravangla" />
                   <p>
                     A smaller monastery representing Tibet's pre-Buddhist
                     Bon tradition — an interesting contrast for visitors
                     curious about the region's religious diversity.
                   </p>
                   <h3>Tendong Hill</h3>
+                  <GuideFigure src="/images/blogs/sikkim/ravangla/tendong-hill-ravangla.webp" alt="Tendong Hill, Ravangla" />
                   <p>
                     A moderate hike/viewpoint tied to local legend as a
                     place of refuge during a mythic flood, rewarding the

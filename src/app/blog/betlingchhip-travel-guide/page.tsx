@@ -532,15 +532,6 @@ export default function BetlingchhipGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>The Trek & Terrain</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/tripura/betlingchhip/thaidawr-tlang-betlingchhip-peak.webp"
-                      alt="Forested mountain terrain near the summit of Betlingchhip, Tripura's highest peak"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>The Approach</h3>
                   <p>
                     The trek begins from a nearby forest-fringe village,

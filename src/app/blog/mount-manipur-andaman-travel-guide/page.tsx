@@ -25,8 +25,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/destinations/andaman/hero.jpg",
-        width: 1200,
-        height: 630,
+        width: 2560,
+        height: 1707,
         alt: "Forested hillside overlooking turquoise Andaman waters, evoking the summit views from Mount Manipur",
       },
     ],
@@ -546,15 +546,6 @@ export default function MountManipurGuidePage() {
                 {/* ── Trek & Summit ──────────────────────────────────────── */}
                 <section id="trek-summit">
                   <h2>The Trek & the Summit Viewpoint</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/andaman/hero.jpg"
-                      alt="Dense tropical forest canopy over turquoise Andaman coastline, evoking the trekking trails and summit views at Mount Manipur"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <p>
                     The hill is protected within what has long been known as
                     Mount Harriet National Park (the park's own signage and

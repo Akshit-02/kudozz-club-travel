@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/hampi/virupaksha.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Ancient stone and rock formations, evoking the limestone cave system of Siju in Meghalaya's South Garo Hills",
+        url: "/images/blogs/meghalaya/siju/siju-cave.webp",
+        width: 1600,
+        height: 1067,
+        alt: "Siju Cave, Meghalaya",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Siju Cave Guide: Caving & Best Time",
     description:
       "One of India's longest cave systems, riverside in Meghalaya's South Garo Hills — genuine, undeveloped caving adventure.",
-    images: ["/images/destinations/hampi/virupaksha.jpg"],
+    images: ["/images/blogs/meghalaya/siju/siju-cave.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/siju-travel-guide",
@@ -59,7 +60,7 @@ function ArticleSchema() {
           headline: "Siju Cave Guide: Caving & Best Time",
           description:
             "Complete Siju Cave guide — one of India's longest cave systems, bat colonies and limestone formations on the Simsang River, how to reach from Tura, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/hampi/virupaksha.jpg",
+          image: "https://club.kudozz.in/images/blogs/meghalaya/siju/siju-cave.webp",
           datePublished: "2026-09-05",
           dateModified: "2026-09-05",
           publisher: {
@@ -195,8 +196,8 @@ export default function SijuGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/hampi/virupaksha.jpg"
-              alt="Ancient stone and rock formations, evoking the limestone cave system of Siju in Meghalaya's South Garo Hills"
+              src="/images/blogs/meghalaya/siju/siju-cave.webp"
+              alt="Siju Cave, Meghalaya"
               fill
               priority
               sizes="100vw"
@@ -325,6 +326,7 @@ export default function SijuGuidePage() {
                 {/* ── Introduction ──────────────────────────────────────── */}
                 <section id="introduction">
                   <h2>One of India's Longest Caves</h2>
+                  <GuideFigure src="/images/blogs/meghalaya/siju/siju-cave-view.webp" alt="Siju Cave, Meghalaya" />
                   <p>
                     <strong>Siju</strong>, also called "Dobakkol," is home
                     to one of the longest cave systems in India — a
@@ -510,15 +512,6 @@ export default function SijuGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>The Cave System & Simsang River</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/hampi/virupaksha.jpg"
-                      alt="Limestone rock formations near Siju Cave, South Garo Hills, Meghalaya"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Inside the Cave System</h3>
                   <p>
                     Siju Cave's passages feature notable limestone

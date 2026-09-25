@@ -7,8 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Candolim Beach Travel Guide: Quiet Sands Near the Nightlife",
@@ -20,9 +18,9 @@ export const metadata: Metadata = {
     title: "Candolim Beach Travel Guide: Quiet Sands Near the Nightlife",
     description: "A calmer, more upscale stretch of North Goa beach next door to Calangute and Baga's crowds — the complete guide to Candolim.",
     url: "https://club.kudozz.in/blog/candolim-travel-guide", type: "article", siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/andaman/havelock.jpg", width: 1200, height: 630, alt: "Calm beach scenery representative of Candolim, Goa" }],
+    images: [{ url: "/images/blogs/goa/candolim/candolim-beach.webp", width: 1600, height: 1200, alt: "Candolim Beach, Goa" }],
   },
-  twitter: { card: "summary_large_image", title: "Candolim Beach Travel Guide: Quiet Sands Near the Nightlife", description: "A calmer North Goa beach next to Fort Aguada — the complete guide to Candolim.", images: ["/images/destinations/andaman/havelock.jpg"] },
+  twitter: { card: "summary_large_image", title: "Candolim Beach Travel Guide: Quiet Sands Near the Nightlife", description: "A calmer North Goa beach next to Fort Aguada — the complete guide to Candolim.", images: ["/images/blogs/goa/candolim/candolim-beach.webp"] },
   alternates: { canonical: "https://club.kudozz.in/blog/candolim-travel-guide" },
 };
 
@@ -32,7 +30,7 @@ function ArticleSchema() {
       "@context": "https://schema.org", "@type": "BlogPosting",
       headline: "Candolim Beach Travel Guide: Quiet Sands Near the Nightlife",
       description: "The complete Candolim travel guide.",
-      image: "https://club.kudozz.in/images/destinations/andaman/havelock.jpg",
+      image: "https://club.kudozz.in/images/blogs/goa/candolim/candolim-beach.webp",
       datePublished: "2026-09-08", dateModified: "2026-09-08",
       publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
       author: { "@type": "Organization", name: "Kudozz Club" },
@@ -79,16 +77,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const CANDOLIM_GEAR: GearSection[] = [{
-  title: "Things Worth Carrying", subtitle: "Gear for the beach and a Fort Aguada visit", emoji: "🏰",
-  items: [
-    { name: "Reef-Safe Sunscreen (SPF 50)", description: "For beach days and the exposed climb around Fort Aguada.", price: "₹599",  image: "🧴", affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+SPF+50"), tag: "Beach essential", tagColor: "bg-amber-100 text-amber-700", why: "Fort Aguada's ramparts offer little shade during the day." },
-    { name: "Comfortable Walking Shoes", description: "For exploring Fort Aguada's ramparts and lighthouse grounds.", price: "₹1,999",  image: "🥾", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Fort-visit essential", tagColor: "bg-forest-100 text-forest-700", why: "The fort grounds involve uneven stone surfaces and some walking." },
-    { name: "Camera", description: "Fort Aguada's coastal views and the calmer beach are genuinely photogenic.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-purple-100 text-purple-700", why: "Sunset from Fort Aguada is one of North Goa's best viewpoints." },
-    { name: "Swimwear & Sandals", description: "For Candolim's calmer, wider beach.", price: "₹899",  image: "👙", affiliateUrl: amazonSearchUrl("swimwear+beach+travel"), tag: "Beach essential", tagColor: "bg-sky-100 text-sky-700", why: "Standard beach essentials for a relaxed Candolim day." },
-  ],
-}];
-
 export default function CandolimGuidePage() {
   return (
     <>
@@ -96,7 +84,7 @@ export default function CandolimGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/andaman/havelock.jpg" alt="Calm beach scenery representative of Candolim, Goa" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/goa/candolim/candolim-beach.webp" alt="Candolim Beach, Goa" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -199,9 +187,6 @@ export default function CandolimGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do in Candolim</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/andaman/havelock.jpg" alt="Beach and coastal scenery at Candolim" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>Fort Aguada:</strong> A well-preserved 17th-century Portuguese fort with a lighthouse, offering sweeping coastal views.</li>
                     <li><strong>Candolim Beach:</strong> A wide, relatively calm stretch of sand with a lower-key shack scene than neighboring beaches.</li>
@@ -324,7 +309,6 @@ export default function CandolimGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={CANDOLIM_GEAR} destination="Candolim" />
               <RelatedPostsGrid currentSlug="candolim-travel-guide" />
             </article>
             <div className="hidden xl:block w-64 2xl:w-72 flex-shrink-0"><div className="sticky top-24"><RelatedSidebar currentSlug="candolim-travel-guide" /></div></div>

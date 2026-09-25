@@ -7,8 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Majuli Travel Guide: The World's Largest River Island",
@@ -20,9 +18,9 @@ export const metadata: Metadata = {
     title: "Majuli Travel Guide: The World's Largest River Island",
     description: "A shifting, slowly-shrinking river island that's home to centuries-old Neo-Vaishnavite monasteries and mask-making villages — the complete guide to Majuli.",
     url: "https://club.kudozz.in/blog/majuli-travel-guide", type: "article", siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/kerala/alleppey.jpg", width: 1200, height: 630, alt: "River island scenery representative of Majuli, Assam" }],
+    images: [{ url: "/images/blogs/assam/majuli/majuli.webp", width: 1600, height: 900, alt: "View of Majuli, Assam" }],
   },
-  twitter: { card: "summary_large_image", title: "Majuli Travel Guide: The World's Largest River Island", description: "Centuries-old monasteries and mask-making villages on a shifting Brahmaputra island — the complete guide to Majuli.", images: ["/images/destinations/kerala/alleppey.jpg"] },
+  twitter: { card: "summary_large_image", title: "Majuli Travel Guide: The World's Largest River Island", description: "Centuries-old monasteries and mask-making villages on a shifting Brahmaputra island — the complete guide to Majuli.", images: ["/images/blogs/assam/majuli/majuli.webp"] },
   alternates: { canonical: "https://club.kudozz.in/blog/majuli-travel-guide" },
 };
 
@@ -32,7 +30,7 @@ function ArticleSchema() {
       "@context": "https://schema.org", "@type": "BlogPosting",
       headline: "Majuli Travel Guide: The World's Largest River Island",
       description: "The complete Majuli travel guide.",
-      image: "https://club.kudozz.in/images/destinations/kerala/alleppey.jpg",
+      image: "https://club.kudozz.in/images/blogs/assam/majuli/majuli.webp",
       datePublished: "2026-09-08", dateModified: "2026-09-08",
       publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
       author: { "@type": "Organization", name: "Kudozz Club" },
@@ -79,16 +77,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const MAJULI_GEAR: GearSection[] = [{
-  title: "Things Worth Carrying", subtitle: "Gear for island cycling and satra visits", emoji: "🛶",
-  items: [
-    { name: "Comfortable Cycling Shoes", description: "Many visitors explore Majuli by bicycle — comfortable footwear makes a real difference over a full day.", price: "₹1,499",  image: "🚲", affiliateUrl: amazonSearchUrl("comfortable+cycling+shoes"), tag: "Island-exploring essential", tagColor: "bg-amber-100 text-amber-700", why: "Majuli's flat, rural roads are ideal for cycling, and the right footwear matters over a full day." },
-    { name: "Insect Repellent", description: "The island's wetland and rice-paddy environment brings a real mosquito presence.", price: "₹199",  image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Essential", tagColor: "bg-forest-100 text-forest-700", why: "Majuli's wetlands and paddies make it prime mosquito territory, especially at dusk." },
-    { name: "Modest Clothing", description: "For visiting satras respectfully, particularly during active prayer or practice sessions.", price: "₹599",  image: "👕", affiliateUrl: amazonSearchUrl("modest+travel+clothing"), tag: "Satra-visit essential", tagColor: "bg-purple-100 text-purple-700", why: "Satras are active monastic institutions, not museums — modest, respectful dress matters." },
-    { name: "Waterproof Phone Pouch", description: "Useful for the ferry crossing to and from the island.", price: "₹299",  image: "📱", affiliateUrl: amazonSearchUrl("waterproof+phone+pouch+travel"), tag: "Ferry essential", tagColor: "bg-sky-100 text-sky-700", why: "The Brahmaputra ferry crossing carries a real risk of a soaked phone without one." },
-  ],
-}];
-
 export default function MajuliGuidePage() {
   return (
     <>
@@ -96,7 +84,7 @@ export default function MajuliGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/kerala/alleppey.jpg" alt="River island scenery representative of Majuli, Assam" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/assam/majuli/majuli.webp" alt="View of Majuli, Assam" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -199,9 +187,6 @@ export default function MajuliGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do in Majuli</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/kerala/alleppey.jpg" alt="Rural river-island scenery around Majuli" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>Visit a satra:</strong> Explore one of Majuli's Neo-Vaishnavite monasteries, ideally during an active prayer or practice session for genuine cultural insight.</li>
                     <li><strong>Samaguri Satra:</strong> Known specifically for its traditional mask-making craft, worth seeing the process firsthand.</li>
@@ -325,7 +310,6 @@ export default function MajuliGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={MAJULI_GEAR} destination="Majuli" />
               <RelatedPostsGrid currentSlug="majuli-travel-guide" />
             </article>
             <div className="hidden xl:block w-64 2xl:w-72 flex-shrink-0"><div className="sticky top-24"><RelatedSidebar currentSlug="majuli-travel-guide" /></div></div>

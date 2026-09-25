@@ -7,8 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Morni Hills Travel Guide: Haryana's Only Hill Station",
@@ -22,13 +20,13 @@ export const metadata: Metadata = {
     url: "https://club.kudozz.in/blog/morni-hills-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/coorg/coorg.jpg", width: 1200, height: 630, alt: "Misty forested hills representative of Morni Hills, Haryana" }],
+    images: [{ url: "/images/blogs/haryana/morni-hills/morni-hills.webp", width: 1600, height: 1187, alt: "Morni Hills, Haryana" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Morni Hills Travel Guide: Haryana's Only Hill Station",
     description: "Tikkar Taal, Morni Fort, and Haryana's only hill station — the complete guide to Morni Hills.",
-    images: ["/images/destinations/coorg/coorg.jpg"],
+    images: ["/images/blogs/haryana/morni-hills/morni-hills.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/morni-hills-travel-guide" },
 };
@@ -43,7 +41,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Morni Hills Travel Guide: Haryana's Only Hill Station",
           description: "The complete Morni Hills travel guide.",
-          image: "https://club.kudozz.in/images/destinations/coorg/coorg.jpg",
+          image: "https://club.kudozz.in/images/blogs/haryana/morni-hills/morni-hills.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
@@ -123,53 +121,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const MORNI_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for lake boating and a short fort walk",
-    emoji: "🏞️",
-    items: [
-      {
-        name: "Comfortable Walking Shoes",
-        description: "For the short walk up to Morni Fort's ruins and general exploring around Tikkar Taal.",
-        price: "₹1,999",
-        image: "👟",
-        affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
-        tag: "Sightseeing essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "The fort ruins involve some uneven ground and a modest climb." },
-      {
-        name: "Light Layers",
-        description: "Mornings and evenings at this modest elevation are cooler than nearby Chandigarh.",
-        price: "₹1,499",
-        image: "🧥",
-        affiliateUrl: amazonSearchUrl("light+jacket+travel"),
-        tag: "Comfort essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Temperature dips more than expected once the sun sets over the hills."
-      },
-      {
-        name: "Reusable Water Bottle",
-        description: "For a day spent between Tikkar Taal and Morni Fort with limited facilities in between.",
-        price: "₹449",
-        image: "💧",
-        affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"),
-        tag: "All-day essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "This is a modest, low-infrastructure destination — carry your own water." },
-      {
-        name: "Camera",
-        description: "For the lake views and valley panoramas from Morni Fort.",
-        price: "₹—",
-        image: "📷",
-        affiliateUrl: amazonSearchUrl("compact+camera+travel"),
-        tag: "Sightseeing essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "Tikkar Taal's twin lakes and the fort's valley views are genuinely photogenic." },
-    ],
-  },
-];
-
 export default function MorniHillsGuidePage() {
   return (
     <>
@@ -181,8 +132,8 @@ export default function MorniHillsGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/coorg/coorg.jpg"
-              alt="Misty forested hills representative of Morni Hills, Haryana"
+              src="/images/blogs/haryana/morni-hills/morni-hills.webp"
+              alt="Morni Hills, Haryana"
               fill
               priority
               sizes="100vw"
@@ -330,15 +281,6 @@ export default function MorniHillsGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do in Morni Hills</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/coorg/coorg.jpg"
-                      alt="Forested hills near Morni, Haryana"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <ul>
                     <li><strong>Tikkar Taal:</strong> Twin natural lakes offering boating, the area's main highlight.</li>
                     <li><strong>Morni Fort:</strong> A ruined hilltop fort with panoramic valley views over the surrounding forest.</li>
@@ -480,8 +422,6 @@ export default function MorniHillsGuidePage() {
                   <Link key={tag} href={`/blog?tag=${tag.toLowerCase().replace(/ /g, "-")}`} className="tag-pill">#{tag}</Link>
                 ))}
               </div>
-
-              <TrekGearRecommendations sections={MORNI_GEAR} destination="Morni Hills" />
 
               <RelatedPostsGrid currentSlug="morni-hills-travel-guide" />
             </article>

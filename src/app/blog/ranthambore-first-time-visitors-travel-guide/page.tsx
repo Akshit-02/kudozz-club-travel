@@ -397,8 +397,8 @@ export default function RanthamboreFirstTimeVisitorsPage() {
                   <h2>Ranthambore Fort, Which I Almost Skipped</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src={HERO_IMAGE}
-                      alt="Ranthambore Fort's ramparts rising above the forest of Ranthambore National Park, Rajasthan"
+                      src="/images/blogs/rajasthan/ranthambore-first-time-visitors/ranthambore.webp"
+                      alt="Ranthambore, Rajasthan"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

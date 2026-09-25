@@ -7,8 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Dalhousie Travel Guide: Colonial Charm & Khajjiar Gateway",
@@ -21,9 +19,9 @@ export const metadata: Metadata = {
     description: "A quiet colonial-era hill town spread across five hills, and the gateway to a meadow nicknamed 'Mini Switzerland' — the complete guide to Dalhousie.",
     url: "https://club.kudozz.in/blog/dalhousie-travel-guide",
     type: "article", siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/coorg/coorg.jpg", width: 1200, height: 630, alt: "Misty hill-station scenery representative of Dalhousie, Himachal Pradesh" }],
+    images: [{ url: "/images/blogs/himachal-pradesh/dalhousie/dalhousie.webp", width: 1600, height: 1128, alt: "View of Dalhousie, Himachal Pradesh" }],
   },
-  twitter: { card: "summary_large_image", title: "Dalhousie Travel Guide: Colonial Charm & Khajjiar Gateway", description: "A quiet colonial-era hill town and the gateway to Khajjiar — the complete guide to Dalhousie.", images: ["/images/destinations/coorg/coorg.jpg"] },
+  twitter: { card: "summary_large_image", title: "Dalhousie Travel Guide: Colonial Charm & Khajjiar Gateway", description: "A quiet colonial-era hill town and the gateway to Khajjiar — the complete guide to Dalhousie.", images: ["/images/blogs/himachal-pradesh/dalhousie/dalhousie.webp"] },
   alternates: { canonical: "https://club.kudozz.in/blog/dalhousie-travel-guide" },
 };
 
@@ -33,7 +31,7 @@ function ArticleSchema() {
       "@context": "https://schema.org", "@type": "BlogPosting",
       headline: "Dalhousie Travel Guide: Colonial Charm & Khajjiar Gateway",
       description: "The complete Dalhousie travel guide.",
-      image: "https://club.kudozz.in/images/destinations/coorg/coorg.jpg",
+      image: "https://club.kudozz.in/images/blogs/himachal-pradesh/dalhousie/dalhousie.webp",
       datePublished: "2026-09-07", dateModified: "2026-09-07",
       publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
       author: { "@type": "Organization", name: "Kudozz Club" },
@@ -80,16 +78,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const DALHOUSIE_GEAR: GearSection[] = [{
-  title: "Things Worth Carrying", subtitle: "Gear for hill walks and cool evenings", emoji: "⛪",
-  items: [
-    { name: "Warm Layers", description: "Even summer evenings in Dalhousie are cool given its elevation — pack accordingly.", price: "₹1,999",  image: "🧥", affiliateUrl: amazonSearchUrl("warm+jacket+hill+station+travel"), tag: "Evening essential", tagColor: "bg-sky-100 text-sky-700", why: "Temperature drops noticeably after sunset year-round here." },
-    { name: "Comfortable Walking Shoes", description: "Dalhousie's five-hills layout means genuine uphill and downhill walking between sights.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-amber-100 text-amber-700", why: "The town's hilly street layout adds up over a day of sightseeing." },
-    { name: "Light Rain Layer", description: "Useful for sudden showers, especially in shoulder-monsoon months.", price: "₹899",  image: "🌂", affiliateUrl: amazonSearchUrl("packable+rain+jacket+travel"), tag: "Weather essential", tagColor: "bg-purple-100 text-purple-700", why: "Weather can shift quickly in this hill region." },
-    { name: "Camera", description: "For the colonial architecture, church interiors, and Dainkund Peak's panoramic views.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-forest-100 text-forest-700", why: "Dalhousie's colonial-era buildings and viewpoints are genuinely photogenic." },
-  ],
-}];
-
 export default function DalhousieGuidePage() {
   return (
     <>
@@ -97,7 +85,7 @@ export default function DalhousieGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/coorg/coorg.jpg" alt="Misty hill-station scenery representative of Dalhousie, Himachal Pradesh" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/himachal-pradesh/dalhousie/dalhousie.webp" alt="View of Dalhousie, Himachal Pradesh" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -202,9 +190,6 @@ export default function DalhousieGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do in Dalhousie</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/coorg/coorg.jpg" alt="Hill-station scenery around Dalhousie" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>Subhash Baoli:</strong> A spring/viewpoint associated with Subhas Chandra Bose's convalescent stay here.</li>
                     <li><strong>St. John's and St. Francis Churches:</strong> Colonial-era churches and notable local landmarks.</li>
@@ -328,7 +313,6 @@ export default function DalhousieGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={DALHOUSIE_GEAR} destination="Dalhousie" />
               <RelatedPostsGrid currentSlug="dalhousie-travel-guide" />
             </article>
             <div className="hidden xl:block w-64 2xl:w-72 flex-shrink-0"><div className="sticky top-24"><RelatedSidebar currentSlug="dalhousie-travel-guide" /></div></div>

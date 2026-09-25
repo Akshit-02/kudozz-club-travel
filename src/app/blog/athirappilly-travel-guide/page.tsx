@@ -7,10 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
   title: "Athirappilly Falls Travel Guide: Kerala's Niagara & Best Time to Visit",
@@ -24,13 +21,13 @@ export const metadata: Metadata = {
     url: "https://club.kudozz.in/blog/athirappilly-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/coorg/abbey-falls.jpg", width: 1200, height: 630, alt: "Waterfall through rainforest representative of Athirappilly, Kerala" }],
+    images: [{ url: "/images/blogs/kerala/athirappilly/athirappilly-falls-2.webp", width: 1600, height: 953, alt: "View of Athirappilly Falls, Kerala" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Athirappilly Falls Travel Guide: Kerala's Niagara & Best Time to Visit",
     description: "Kerala's biggest waterfall, thundering through rainforest — the complete guide to Athirappilly.",
-    images: ["/images/destinations/coorg/abbey-falls.jpg"],
+    images: ["/images/blogs/kerala/athirappilly/athirappilly-falls-2.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/athirappilly-travel-guide" },
 };
@@ -45,7 +42,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Athirappilly Falls Travel Guide: Kerala's Niagara & Best Time to Visit",
           description: "The complete Athirappilly Falls travel guide.",
-          image: "https://club.kudozz.in/images/destinations/coorg/abbey-falls.jpg",
+          image: "https://club.kudozz.in/images/blogs/kerala/athirappilly/athirappilly-falls-2.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
@@ -104,20 +101,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const ATHIRAPPILLY_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for a wet, slippery waterfall day trip",
-    emoji: "💦",
-    items: [
-      { name: "Grip Sandals / Water Shoes", description: "The steps and viewing areas near the falls get consistently wet and slippery, especially in monsoon.", price: "₹899",  image: "🥾", affiliateUrl: amazonSearchUrl("grip+sandals+water+shoes"), tag: "Waterfall essential", tagColor: "bg-amber-100 text-amber-700", why: "Wet stone steps near the falls are the top cause of minor injuries at Athirappilly." },
-      { name: "Rain Poncho", description: "Useful for a monsoon-season visit when spray and rain are both a given near the falls.", price: "₹399",  image: "🌂", affiliateUrl: amazonSearchUrl("rain+poncho+travel"), tag: "Monsoon essential", tagColor: "bg-sky-100 text-sky-700", why: "Spray from the falls alone is enough to soak a visitor even without active rain." },
-      { name: "Waterproof Phone Pouch", description: "Protects your phone from spray while photographing the falls up close.", price: "₹299",  image: "📱", affiliateUrl: amazonSearchUrl("waterproof+phone+pouch+travel"), tag: "Photography essential", tagColor: "bg-purple-100 text-purple-700", why: "Waterfall spray reaches further than most visitors expect near the viewing platforms." },
-      { name: "Reusable Water Bottle", description: "For the short walking sections between Athirappilly and Vazhachal Falls.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "Day-trip essential", tagColor: "bg-forest-100 text-forest-700", why: "Facilities are limited right at the falls area itself." },
-    ],
-  },
-];
-
 export default function AthirappillyGuidePage() {
   return (
     <>
@@ -127,7 +110,7 @@ export default function AthirappillyGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/coorg/abbey-falls.jpg" alt="Waterfall through rainforest representative of Athirappilly, Kerala" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/kerala/athirappilly/athirappilly-falls-2.webp" alt="View of Athirappilly Falls, Kerala" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -235,9 +218,7 @@ export default function AthirappillyGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do at Athirappilly</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/coorg/abbey-falls.jpg" alt="Waterfall viewing platform near Athirappilly" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
+                  <GuideFigure src="/images/blogs/kerala/athirappilly/athirappilly-falls-view.webp" alt="Athirappilly Falls, Kerala" />
                   <ul>
                     <li><strong>Athirappilly Falls viewing platforms:</strong> Multiple vantage points along a short walk offer views of the main falls.</li>
                     <li><strong>Vazhachal Falls:</strong> A gentler, wider cascade a short distance upstream, worth combining with the same visit.</li>
@@ -357,7 +338,6 @@ export default function AthirappillyGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={ATHIRAPPILLY_GEAR} destination="Athirappilly" />
               <RelatedPostsGrid currentSlug="athirappilly-travel-guide" />
             </article>
 

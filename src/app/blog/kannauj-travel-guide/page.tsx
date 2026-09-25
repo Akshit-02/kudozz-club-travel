@@ -530,15 +530,6 @@ export default function KannaujGuidePage() {
                 {/* ── Attar & History ────────────────────────────────────── */}
                 <section id="attar-history">
                   <h2>Attar Craft & Ancient History</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/uttar-pradesh/kannauj/camel-skin-attar-perfume-bottles.webp"
-                      alt="Camel-skin attar storage bottles used in Kannauj's traditional perfume trade"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>The Deg-Bhapka Distillation Method</h3>
                   <p>
                     Kannauj's attar is made using an ancient technique

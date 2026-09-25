@@ -370,6 +370,15 @@ export default function SukhnaLakeGuidePage() {
                     city.
                   </p>
 
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/chandigarh/sukhna-lake/shikara-boat-sukhna-lake-chandigarh.webp"
+                      alt="A canopied shikara boat crossing the still water of Sukhna Lake with the tree-lined far shore behind it"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   {/* At a Glance */}
                   <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 my-8">
                     <h4
@@ -531,6 +540,15 @@ export default function SukhnaLakeGuidePage() {
                       outing.
                     </li>
                   </ul>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/chandigarh/sukhna-lake/garden-of-silence-terraced-walkway-sukhna-lake.webp"
+                      alt="The stone-terraced walkway and steps of the Garden of Silence area near the Sukhna Choe dam, a quieter detour off the main promenade"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <div
                     className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-xl my-4 text-sm"
                     style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -556,15 +574,6 @@ export default function SukhnaLakeGuidePage() {
                     light softens over the water.
                   </p>
 
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/chandigarh/sukhna-lake/shikara-boat-sukhna-lake-chandigarh.webp"
-                      alt="A canopied shikara boat crossing the still water of Sukhna Lake with the tree-lined far shore behind it"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
 
                   <p>
                     What sets the setting apart from a typical city lake is
@@ -678,15 +687,6 @@ export default function SukhnaLakeGuidePage() {
                       near the boat club.
                     </li>
                   </ul>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/chandigarh/sukhna-lake/garden-of-silence-terraced-walkway-sukhna-lake.webp"
-                      alt="The stone-terraced walkway and steps of the Garden of Silence area near the Sukhna Choe dam, a quieter detour off the main promenade"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <ul>
                     <li>
                       <strong>

@@ -514,6 +514,15 @@ export default function ChandigarhBotanicalGardenGuidePage() {
                     ))}
                   </div>
 
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/chandigarh/botanical-garden/birdwatching-chandigarh-forest-trail.webp"
+                      alt="A visitor birdwatching with a spotting scope along a tree-lined dirt path in Chandigarh's forest cover, the kind of quiet walking trail found in the Botanical Garden"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <blockquote>
                     <strong>Our pick:</strong> a cool-season weekday morning
                     between October and March — comfortable temperatures,
@@ -616,15 +625,6 @@ export default function ChandigarhBotanicalGardenGuidePage() {
                     birdwatching than Chandigarh's smaller, busier gardens.
                   </div>
 
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/chandigarh/botanical-garden/birdwatching-chandigarh-forest-trail.webp"
-                      alt="A visitor birdwatching with a spotting scope along a tree-lined dirt path in Chandigarh's forest cover, the kind of quiet walking trail found in the Botanical Garden"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                 </section>
 
                 {/* ── How It's Different ────────────────────────────────── */}

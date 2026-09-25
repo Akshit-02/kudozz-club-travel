@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/manali/hadimba-temple.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Intricately carved temple architecture, evoking the Konark Sun Temple's stone chariot design",
+        url: "/images/blogs/odisha/konark/konark-sun-temple.webp",
+        width: 1600,
+        height: 1232,
+        alt: "Konark Sun Temple, Odisha",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Konark Sun Temple Guide: History & Tips",
     description:
       "24 carved stone wheels, seven horses, and a temple built as a chariot for the sun — the complete Konark guide.",
-    images: ["/images/destinations/manali/hadimba-temple.jpg"],
+    images: ["/images/blogs/odisha/konark/konark-sun-temple.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/konark-travel-guide",
@@ -60,7 +61,7 @@ function ArticleSchema() {
           description:
             "Complete Konark guide — the UNESCO-listed Sun Temple's chariot design, 24 carved wheels, Chandrabhaga Beach, the Konark Dance Festival, how to reach, and a full visit plan.",
           image:
-            "https://club.kudozz.in/images/destinations/manali/hadimba-temple.jpg",
+            "https://club.kudozz.in/images/blogs/odisha/konark/konark-sun-temple.webp",
           datePublished: "2026-09-04",
           dateModified: "2026-09-04",
           publisher: {
@@ -197,8 +198,8 @@ export default function KonarkGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/manali/hadimba-temple.jpg"
-              alt="Intricately carved temple architecture, evoking the Konark Sun Temple's stone chariot design"
+              src="/images/blogs/odisha/konark/konark-sun-temple.webp"
+              alt="Konark Sun Temple, Odisha"
               fill
               priority
               sizes="100vw"
@@ -510,16 +511,8 @@ export default function KonarkGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>The Sun Temple & Chandrabhaga Beach</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/manali/hadimba-temple.jpg"
-                      alt="Detailed stone temple carvings evoking Konark's chariot design"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>The Wheels & Horses</h3>
+                  <GuideFigure src="/images/blogs/odisha/konark/the-wheels-and-horses-konark-sun-temple.webp" alt="The Wheels & Horses, Konark Sun Temple" />
                   <p>
                     The temple's 24 stone wheels are each a masterwork in
                     their own right — some function as sundials, and every

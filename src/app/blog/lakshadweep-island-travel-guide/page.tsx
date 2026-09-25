@@ -7,10 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -28,10 +24,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/lakshadweep/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Turquoise lagoon and white sand beach fringed with coconut palms in Lakshadweep",
+        url: "/images/blogs/lakshadweep/lakshadweep-island/lakshadweep.webp",
+        width: 1600,
+        height: 1200,
+        alt: "View of Lakshadweep",
       },
     ],
   },
@@ -40,7 +36,7 @@ export const metadata: Metadata = {
     title: "Lakshadweep Travel Guide: Permits, Islands & Best Time to Visit",
     description:
       "Coral lagoons, permit-only islands, and some of India's clearest water — the complete guide to Lakshadweep.",
-    images: ["/images/destinations/lakshadweep/hero.jpg"],
+    images: ["/images/blogs/lakshadweep/lakshadweep-island/lakshadweep.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/lakshadweep-island-travel-guide",
@@ -60,7 +56,7 @@ function ArticleSchema() {
             "Lakshadweep Travel Guide: Permits, Islands & Best Time to Visit",
           description: "The complete Lakshadweep travel guide.",
           image:
-            "https://club.kudozz.in/images/destinations/lakshadweep/hero.jpg",
+            "https://club.kudozz.in/images/blogs/lakshadweep/lakshadweep-island/lakshadweep.webp",
           datePublished: "2026-07-16",
           dateModified: "2026-07-16",
           publisher: {
@@ -187,84 +183,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-// ── Lakshadweep-specific gear ───────────────────────────────────────────────────
-const LAKSHADWEEP_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle:
-      "Gear for lagoon swims, reef walks, and island-hopping with no pharmacies nearby",
-    emoji: "🏝️",
-    items: [
-      {
-        name: "Reef-Safe Sunscreen (SPF 50)",
-        description:
-          "Lakshadweep's lagoons and reef systems are ecologically fragile — most resorts and dive operators require reef-safe, oxybenzone-free sunscreen, and the sun here is intense with almost no shade over water.",
-        price: "₹549",
-        image: "🧴",
-        affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+spf+50"),
-        tag: "Reef essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Regular sunscreen can bleach coral over time — several resorts now check for reef-safe formulas before letting you into the water.",
-      },
-      {
-        name: "Snorkeling Mask & Fins Set",
-        description:
-          "Lakshadweep's lagoons offer some of India's clearest, calmest snorkeling water — carrying a well-fitted mask beats relying on shared rental gear at every stop.",
-        price: "₹1,799",
-        image: "🤿",
-        affiliateUrl: amazonSearchUrl("snorkeling+mask+fins+set"),
-        tag: "Lagoon essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "Nearly every island activity here happens in or over water — a properly fitted mask makes the difference between a great reef view and a foggy, leaking one.",
-      },
-      {
-        name: "Quick-Dry Rash Guard",
-        description:
-          "Long hours in shallow lagoon water and strong tropical sun make a UV-protective rash guard more practical than reapplying sunscreen every hour.",
-        price: "₹899",
-        image: "🩱",
-        affiliateUrl: amazonSearchUrl("rash+guard+uv+protection"),
-        tag: "Sun essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "Sunburn on the back and shoulders is the most common complaint from snorkeling trips here, given how long visitors linger in the water.",
-      },
-      {
-        name: "Dry Bag (10L)",
-        description:
-          "Inter-island transfers happen by boat, and spray or the occasional splash is routine — a dry bag keeps phones, permits, and cash protected.",
-        price: "₹699",
-        image: "🎒",
-        affiliateUrl: amazonSearchUrl("waterproof+dry+bag+10l"),
-        tag: "Boat-transfer essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "You'll be carrying your entry permit and ID on every inter-island ferry — keeping it dry isn't optional here, it's required for boarding.",
-      },
-      {
-        name: "Basic First Aid & Motion Sickness Kit",
-        description:
-          "Islands are remote with minimal medical infrastructure, and ferry crossings between atolls can get choppy — a compact kit with motion sickness tablets is worth packing.",
-        price: "₹599",
-        image: "🩹",
-        affiliateUrl: amazonSearchUrl("travel+first+aid+kit+seasickness"),
-        tag: "Remote-travel essential",
-        tagColor: "bg-red-100 text-red-700",
-        why: "The nearest full-service hospital for most islands is back on the mainland — basic self-sufficiency matters more here than on a typical beach trip.",
-      },
-      {
-        name: "Power Bank (10,000 mAh)",
-        description:
-          "Electricity and mobile network are limited and inconsistent across the smaller islands, especially away from Agatti and Kavaratti.",
-        price: "₹1,299",
-        image: "🔋",
-        affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
-        tag: "Off-grid essential",
-        tagColor: "bg-stone-100 text-stone-700",
-        why: "Some island resorts run limited-hour generators — a charged power bank is the difference between working and dead devices by evening.",
-      },
-    ],
-  },
-];
-
 // ── Page ─────────────────────────────────────────────────────────────────────
 export default function LakshadweepGuidePage() {
   return (
@@ -278,8 +196,8 @@ export default function LakshadweepGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/lakshadweep/hero.jpg"
-              alt="Turquoise lagoon and white sand beach fringed with coconut palms in Lakshadweep"
+              src="/images/blogs/lakshadweep/lakshadweep-island/lakshadweep.webp"
+              alt="View of Lakshadweep"
               fill
               priority
               sizes="100vw"
@@ -1214,12 +1132,6 @@ export default function LakshadweepGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              {/* ── Gear Recommendations ──────────────────────────────── */}
-              <TrekGearRecommendations
-                sections={LAKSHADWEEP_GEAR}
-                destination="Lakshadweep"
-              />
 
               <RelatedPostsGrid currentSlug="lakshadweep-island-travel-guide" />
             </article>

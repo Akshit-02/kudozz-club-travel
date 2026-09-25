@@ -7,10 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -185,84 +181,6 @@ const tableOfContents = [
   { id: "tips", title: "Essential Travel Tips", level: 2 },
   { id: "places-to-explore", title: "Places to Explore in Tripura", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
-];
-
-// ── Tripura-specific gear ─────────────────────────────────────────────────
-const TRIPURA_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle:
-      "Gear for humid forest sites, lake crossings, and a state with limited tourist infrastructure",
-    emoji: "🛕",
-    items: [
-      {
-        name: "Comfortable Walking Shoes",
-        description:
-          "Unakoti's hillside rock carvings and Ujjayanta Palace's grounds both involve uneven walking on stone and forested paths.",
-        price: "₹1,499",
-        image: "👟",
-        affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
-        tag: "Sightseeing essential",
-        tagColor: "bg-stone-100 text-stone-700",
-        why: "The climb up to Unakoti's main rock carvings is uneven and partly forested — proper footwear makes a real difference.",
-      },
-      {
-        name: "Mosquito Repellent",
-        description:
-          "Tripura's humid, forested terrain around Sepahijala and Unakoti makes mosquito presence significant, especially at dawn and dusk.",
-        price: "₹199",
-        image: "🦟",
-        affiliateUrl: amazonSearchUrl("mosquito+repellent+travel"),
-        tag: "Forest essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "Much of Tripura's sightseeing happens in forested or lakeside settings where mosquito presence is a genuine everyday factor.",
-      },
-      {
-        name: "Rain Jacket / Poncho",
-        description:
-          "Tripura receives substantial rainfall for a large part of the year, and showers can start with little warning.",
-        price: "₹599",
-        image: "🌂",
-        affiliateUrl: amazonSearchUrl("rain+jacket+poncho+travel"),
-        tag: "Weather essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Even outside peak monsoon, Tripura's climate stays humid with a real chance of sudden rain on any given day.",
-      },
-      {
-        name: "Power Bank (10,000 mAh)",
-        description:
-          "Useful for day trips to Unakoti and other sites outside Agartala, where charging infrastructure thins out quickly.",
-        price: "₹1,299",
-        image: "🔋",
-        affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
-        tag: "Day-trip essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "Tripura's smaller towns and rural sites have far sparser charging options than Agartala — a backup battery avoids being stranded.",
-      },
-      {
-        name: "Reusable Water Bottle",
-        description:
-          "Handy across long days visiting Agartala's palaces, Neermahal, and the forested Unakoti site.",
-        price: "₹699",
-        image: "🍶",
-        affiliateUrl: amazonSearchUrl("insulated+water+bottle+steel"),
-        tag: "Everyday essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "Standalone shops and water points are limited between major sites — carrying your own water is the practical choice.",
-      },
-      {
-        name: "Basic First Aid Kit",
-        description:
-          "Worth having given the state's modest medical infrastructure outside Agartala.",
-        price: "₹599",
-        image: "🩹",
-        affiliateUrl: amazonSearchUrl("travel+first+aid+kit"),
-        tag: "Small-town essential",
-        tagColor: "bg-red-100 text-red-700",
-        why: "Medical facilities are concentrated in Agartala — basic self-sufficiency is worth having if travelling to Unakoti or rural tribal areas.",
-      },
-    ],
-  },
 ];
 
 // ── Page ─────────────────────────────────────────────────────────────────────
@@ -640,15 +558,6 @@ export default function TripuraGuidePage() {
                 {/* ── Neermahal ─────────────────────────────────────────── */}
                 <section id="neermahal">
                   <h2>Neermahal: The Lake Palace</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/tripura/tripura/neermahal-lake-palace-tripura.webp"
-                      alt="Neermahal palace reflected in Rudrasagar Lake, Tripura's most iconic landmark"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <p>
                     Built in 1930 by Maharaja Bir Bikram Kishore Manikya as a
                     summer retreat, <strong>Neermahal</strong> sits in the
@@ -1276,12 +1185,6 @@ export default function TripuraGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              {/* ── Gear Recommendations ──────────────────────────────── */}
-              <TrekGearRecommendations
-                sections={TRIPURA_GEAR}
-                destination="Tripura"
-              />
 
               <RelatedPostsGrid currentSlug="tripura-travel-guide" />
             </article>

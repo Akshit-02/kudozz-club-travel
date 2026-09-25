@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -26,7 +27,7 @@ export const metadata: Metadata = {
       {
         url: "/images/blogs/uttarakhand/ranikhet/sunset-point-himalayan-hills-ranikhet.webp",
         width: 1600,
-        height: 1067,
+        height: 1060,
         alt: "Snow-capped Himalayan range seen over pine-forested ridges from a Ranikhet viewpoint",
       },
     ],
@@ -535,15 +536,6 @@ export default function RanikhetGuidePage() {
                 {/* ── Attractions ────────────────────────────────────────── */}
                 <section id="attractions">
                   <h2>Things to Do in Ranikhet</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/uttarakhand/ranikhet/sunset-point-himalayan-hills-ranikhet.webp"
-                      alt="Panoramic Himalayan skyline visible from a Ranikhet cantonment viewpoint"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Upat Golf Course</h3>
                   <p>
                     Run by the Army and set among pine trees, this is
@@ -553,6 +545,7 @@ export default function RanikhetGuidePage() {
                     non-golfers often stop by for the forested setting alone.
                   </p>
                   <h3>Jhula Devi Temple</h3>
+                  <GuideFigure src="/images/blogs/uttarakhand/ranikhet/jhula-devi-temple-ranikhet.webp" alt="Jhula Devi Temple, Ranikhet" />
                   <p>
                     Roughly 8 km from town, this small temple set inside a
                     quiet oak forest is known for the thousands of bells

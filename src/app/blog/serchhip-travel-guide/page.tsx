@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/chandigarh/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Scenic hill town landscape, evoking Serchhip's setting in central Mizoram",
+        url: "/images/blogs/mizoram/serchhip/vantawng-falls-serchhip.webp",
+        width: 1600,
+        height: 900,
+        alt: "Vantawng Falls, Serchhip",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Serchhip Travel Guide: Gateway & Tips",
     description:
       "A district headquarters town and the practical gateway to central Mizoram's biggest natural attractions.",
-    images: ["/images/destinations/chandigarh/hero.jpg"],
+    images: ["/images/blogs/mizoram/serchhip/vantawng-falls-serchhip.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/serchhip-travel-guide",
@@ -59,7 +60,7 @@ function ArticleSchema() {
           headline: "Serchhip Travel Guide: Gateway & Tips",
           description:
             "Complete Serchhip guide — the practical base town for Vantawng Falls, Thenzawl, and Tamdil Lake, how to reach from Aizawl, and a full visit plan for central Mizoram.",
-          image: "https://club.kudozz.in/images/destinations/chandigarh/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/mizoram/serchhip/vantawng-falls-serchhip.webp",
           datePublished: "2026-09-04",
           dateModified: "2026-09-04",
           publisher: {
@@ -177,8 +178,8 @@ export default function SerchhipGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/chandigarh/hero.jpg"
-              alt="Scenic hill town landscape, evoking Serchhip's setting in central Mizoram"
+              src="/images/blogs/mizoram/serchhip/vantawng-falls-serchhip.webp"
+              alt="Vantawng Falls, Serchhip"
               fill
               priority
               sizes="100vw"
@@ -399,15 +400,6 @@ export default function SerchhipGuidePage() {
 
                 <section id="things-to-do">
                   <h2>The Town & the Wider Circuit</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/chandigarh/hero.jpg"
-                      alt="Hill town setting evoking Serchhip, Mizoram"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>The Town Itself</h3>
                   <p>
                     Serchhip&apos;s hill setting is pleasant for a short
@@ -417,6 +409,7 @@ export default function SerchhipGuidePage() {
                     countryside, not the town itself.
                   </p>
                   <h3>Vantawng Falls</h3>
+                  <GuideFigure src="/images/blogs/mizoram/serchhip/vantawng-falls-serchhip-2.webp" alt="Vantawng Falls, Serchhip" />
                   <p>
                     Mizoram&apos;s highest waterfall sits within Serchhip
                     district, a short drive from town — see our full{" "}

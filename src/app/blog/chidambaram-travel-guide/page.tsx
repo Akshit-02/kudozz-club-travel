@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -525,6 +526,7 @@ export default function ChidambaramGuidePage() {
                     />
                   </div>
                   <h3>Temple Architecture</h3>
+                  <GuideFigure src="/images/blogs/tamil-nadu/chidambaram/temple-architecture-chidambaram.webp" alt="Temple Architecture, Chidambaram" />
                   <p>
                     The sprawling temple complex includes multiple
                     gopurams, halls, and shrines, reflecting centuries of

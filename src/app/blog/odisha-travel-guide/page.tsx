@@ -7,10 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -186,84 +182,6 @@ function FAQSchema() {
     />
   );
 }
-
-// ── Odisha-specific gear ─────────────────────────────────────────────────
-const ODISHA_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle:
-      "Gear for temple complexes, coastal heat, and a lagoon boat trip",
-    emoji: "🛕",
-    items: [
-      {
-        name: "Comfortable, Easy-Off Sandals",
-        description:
-          "Both the Jagannath Temple in Puri and the Konark Sun Temple involve barefoot walking on stone that gets very hot by midday.",
-        price: "₹899",
-        image: "🩴",
-        affiliateUrl: amazonSearchUrl("slip+on+sandals+travel"),
-        tag: "Temple essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "Konark's stone courtyard and Puri's temple approach both require removing footwear — slip-ons make repeated removal far easier.",
-      },
-      {
-        name: "Reusable Water Bottle",
-        description:
-          "Odisha's coastal plains stay hot and humid for most of the year, with long uncovered stretches at Konark and around Puri Beach.",
-        price: "₹699",
-        image: "🍶",
-        affiliateUrl: amazonSearchUrl("insulated+water+bottle+steel"),
-        tag: "Everyday essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Humidity along the Odisha coast makes hydration matter more than the temperature alone suggests.",
-      },
-      {
-        name: "Binoculars",
-        description:
-          "Useful for spotting Irrawaddy dolphins and the wide range of migratory birds at Chilika Lake, especially from a distance on a boat.",
-        price: "₹1,299",
-        image: "🔭",
-        affiliateUrl: amazonSearchUrl("compact+binoculars+travel"),
-        tag: "Chilika essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "Dolphin and bird sightings at Chilika often happen at a distance from the boat — binoculars significantly improve the experience.",
-      },
-      {
-        name: "Wide-Brim Sun Hat",
-        description:
-          "Useful across Konark's exposed stone courtyard and a Chilika Lake boat trip, both largely without shade.",
-        price: "₹399",
-        image: "👒",
-        affiliateUrl: amazonSearchUrl("wide+brim+sun+hat+travel"),
-        tag: "Sun essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "A Chilika boat safari runs several hours under direct sun with no cover — sun protection matters more here than it first seems.",
-      },
-      {
-        name: "Modest Travel Clothing",
-        description:
-          "Covered shoulders and knees are expected at the Jagannath Temple and other active temples in Bhubaneswar.",
-        price: "₹799",
-        image: "👗",
-        affiliateUrl: amazonSearchUrl("modest+travel+clothing+lightweight"),
-        tag: "Temple essential",
-        tagColor: "bg-red-100 text-red-700",
-        why: "The Jagannath Temple in particular enforces a strict dress code, and non-Hindus are not permitted inside the sanctum at all.",
-      },
-      {
-        name: "Power Bank (10,000 mAh)",
-        description:
-          "Useful for long sightseeing days covering Puri, Konark, and Bhubaneswar's temple circuit.",
-        price: "₹1,299",
-        image: "🔋",
-        affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
-        tag: "Travel-day essential",
-        tagColor: "bg-stone-100 text-stone-700",
-        why: "The Golden Triangle circuit covers a lot of ground in a single day — your phone works hard for navigation and photos throughout.",
-      },
-    ],
-  },
-];
 
 // ── Page ─────────────────────────────────────────────────────────────────────
 export default function OdishaGuidePage() {
@@ -1350,12 +1268,6 @@ export default function OdishaGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              {/* ── Gear Recommendations ──────────────────────────────── */}
-              <TrekGearRecommendations
-                sections={ODISHA_GEAR}
-                destination="Odisha"
-              />
 
               <RelatedPostsGrid currentSlug="odisha-travel-guide" />
             </article>

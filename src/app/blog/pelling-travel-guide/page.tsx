@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/spiti-valley/spiti-valley.jpg",
-        width: 1200,
-        height: 630,
-        alt: "High Himalayan valley and peaks, evoking Pelling's sweeping Kanchenjunga range views in West Sikkim",
+        url: "/images/blogs/sikkim/pelling/pelling.webp",
+        width: 1600,
+        height: 900,
+        alt: "Pelling, Sikkim",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Pelling Travel Guide: Kanchenjunga Views & Tips",
     description:
       "Sunrise over Kanchenjunga, an ancient monastery, and the ruins of Sikkim's second capital — the complete guide to Pelling.",
-    images: ["/images/destinations/spiti-valley/spiti-valley.jpg"],
+    images: ["/images/blogs/sikkim/pelling/pelling.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/pelling-travel-guide",
@@ -59,7 +60,7 @@ function ArticleSchema() {
           headline: "Pelling Travel Guide: Kanchenjunga Views & Tips",
           description:
             "Complete Pelling guide — sunrise views of Kanchenjunga, Pemayangtse Monastery, Rabdentse Ruins, the Skywalk, how to reach from Gangtok, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/spiti-valley/spiti-valley.jpg",
+          image: "https://club.kudozz.in/images/blogs/sikkim/pelling/pelling.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -200,8 +201,8 @@ export default function PellingGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/spiti-valley/spiti-valley.jpg"
-              alt="High Himalayan valley and peaks, evoking Pelling's sweeping Kanchenjunga range views in West Sikkim"
+              src="/images/blogs/sikkim/pelling/pelling.webp"
+              alt="Pelling, Sikkim"
               fill
               priority
               sizes="100vw"
@@ -522,16 +523,8 @@ export default function PellingGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Monastery, Ruins & Skywalk</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/spiti-valley/spiti-valley.jpg"
-                      alt="Himalayan mountain range at golden hour, evoking Pelling's Kanchenjunga viewpoint"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>The Kanchenjunga Viewpoint</h3>
+                  <GuideFigure src="/images/blogs/sikkim/pelling/the-kanchenjunga-viewpoint-pelling.webp" alt="The Kanchenjunga Viewpoint, Pelling" />
                   <p>
                     The Pelling Helipad area is the town's best-known spot
                     for an open, largely unobstructed view of the
@@ -539,6 +532,7 @@ export default function PellingGuidePage() {
                     typically build up later in the morning.
                   </p>
                   <h3>Pemayangtse Monastery</h3>
+                  <GuideFigure src="/images/blogs/sikkim/pelling/pemayangtse-monastery-pelling.webp" alt="Pemayangtse Monastery, Pelling" />
                   <p>
                     One of the oldest and most important monasteries in
                     Sikkim, belonging to the Nyingma sect, with a striking
@@ -547,6 +541,7 @@ export default function PellingGuidePage() {
                     in Sikkimese Buddhist heritage.
                   </p>
                   <h3>Rabdentse Ruins</h3>
+                  <GuideFigure src="/images/blogs/sikkim/pelling/rabdentse-ruins-pelling.webp" alt="Rabdentse Ruins, Pelling" />
                   <p>
                     A short walk from town, these are the remains of Sikkim's
                     former second capital — mostly foundations and low walls
@@ -554,6 +549,7 @@ export default function PellingGuidePage() {
                     the valley.
                   </p>
                   <h3>Sanga Choeling Skywalk</h3>
+                  <GuideFigure src="/images/blogs/sikkim/pelling/sanga-choeling-skywalk-pelling.webp" alt="Sanga Choeling Skywalk, Pelling" />
                   <p>
                     A newer attraction featuring a glass-floor skywalk and a
                     large Chenrezig (Avalokiteshvara) statue — a popular,

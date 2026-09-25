@@ -514,15 +514,6 @@ export default function AndroGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Pottery, Temples & Culture</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/manipur/andro/cultural-heritage-complex-wood-carvings-andro.webp"
-                      alt="Traditional carved wooden relief panel at the Andro Cultural Heritage Complex, Manipur"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Andro's Hand-Built Black Pottery</h3>
                   <p>
                     Andro's women potters shape unglazed black pottery using

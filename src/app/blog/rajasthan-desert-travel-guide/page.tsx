@@ -7,10 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -28,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jaisalmer/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Jaisalmer Fort rising from the golden Thar Desert at sunset",
+        url: "/images/blogs/rajasthan/rajasthan-desert/jaisalmer-and-thar-desert.webp",
+        width: 1600,
+        height: 1067,
+        alt: "View of Jaisalmer & Thar Desert, Rajasthan",
       },
     ],
   },
@@ -40,7 +37,7 @@ export const metadata: Metadata = {
     title: "Jaisalmer & Thar Desert Travel Guide",
     description:
       "The golden city, camel safaris, and the Thar Desert — the complete guide to Jaisalmer.",
-    images: ["/images/destinations/jaisalmer/hero.jpg"],
+    images: ["/images/blogs/rajasthan/rajasthan-desert/jaisalmer-and-thar-desert.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/rajasthan-desert-travel-guide",
@@ -59,7 +56,7 @@ function ArticleSchema() {
           headline:
             "Jaisalmer & Thar Desert Travel Guide: Fort, Camel Safari & Tips",
           description: "The complete Jaisalmer travel guide.",
-          image: "https://club.kudozz.in/images/destinations/jaisalmer/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/rajasthan/rajasthan-desert/jaisalmer-and-thar-desert.webp",
           datePublished: "2026-06-30",
           dateModified: "2026-07-12",
           publisher: {
@@ -199,85 +196,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-// ── Desert-specific gear ───────────────────────────────────────────────────────
-const DESERT_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for the fort, the dunes, and the desert nights",
-    emoji: "🐪",
-    items: [
-      {
-        name: "Lightweight Cotton Scarf / Stole (Bandhani Print)",
-        description:
-          "Essential for the dunes — wraps around your head and face to block blowing sand during camel rides and protects your neck from the desert sun. Also doubles as a fort-temple head covering.",
-        price: "₹399",
-        image: "🧣",
-        affiliateUrl: amazonSearchUrl("cotton+scarf+stole+desert+travel"),
-        tag: "Desert essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "Sand blows constantly on the dunes — wrapped properly, a scarf keeps it out of your eyes, nose, and mouth during the camel ride. Locals wear them for exactly this reason.",
-      },
-      {
-        name: "Insulated Water Bottle (1L)",
-        description:
-          "Desert days swing from 38°C+ to near-freezing nights — an insulated bottle keeps water cool during the camel safari and hot tea warm at the desert camp in the evening.",
-        price: "₹699",
-        image: "💧",
-        affiliateUrl: amazonSearchUrl("insulated+water+bottle+1L+travel"),
-        tag: "Extreme temperature swing",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "The Thar's day-night temperature swing is one of the most extreme in India. One bottle that keeps water cold at noon and your chai hot at midnight is genuinely useful.",
-      },
-      {
-        name: "Warm Layer / Lightweight Down Jacket",
-        description:
-          "Desert nights, even in winter peak season, drop to 5–10°C — and a sudden chill after a hot day catches most visitors off guard at the camp. A packable down jacket weighs almost nothing.",
-        price: "₹2,999",
-        image: "🧥",
-        affiliateUrl: amazonSearchUrl(
-          "packable+down+jacket+lightweight+travel",
-        ),
-        tag: "Desert night chill",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "Visitors arrive prepared for desert heat and are blindsided by how cold the dunes get after sunset. A packable down jacket takes no space and solves this completely.",
-      },
-      {
-        name: "UV Protection Sunglasses (Wraparound)",
-        description:
-          "Sand and sun glare off the dunes is intense — wraparound style sunglasses block peripheral light and sand far better than standard frames during the camel ride and dune walks.",
-        price: "₹899",
-        image: "🕶️",
-        affiliateUrl: amazonSearchUrl("wraparound+sunglasses+UV+protection"),
-        tag: "Sand + sun glare",
-        tagColor: "bg-stone-100 text-stone-700",
-        why: "Standard sunglasses let sand and side-glare in around the edges. Wraparound frames are what desert guides actually wear, and there's a reason.",
-      },
-      {
-        name: "Lip Balm with SPF",
-        description:
-          "Desert air is extraordinarily dry — combined with sun and wind exposure on a camel safari, lips crack within hours without protection. A small, cheap, easily forgotten essential.",
-        price: "₹199",
-        image: "💄",
-        affiliateUrl: amazonSearchUrl("lip+balm+SPF+travel"),
-        tag: "Easy to forget",
-        tagColor: "bg-red-100 text-red-700",
-        why: "The combination of dry desert wind and direct sun cracks lips faster than almost anywhere else in India. At ₹200, there's no excuse to skip this.",
-      },
-      {
-        name: "Power Bank (10,000 mAh)",
-        description:
-          "Desert camps run on generators with limited charging windows, and phone batteries drain faster in heat. A reliable power bank means your phone, camera, and torch stay charged through the overnight camp.",
-        price: "₹1,299",
-        image: "🔋",
-        affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
-        tag: "Camp essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "Most desert camps have generator power for only a few hours each evening. A power bank ensures you're not stuck with a dead phone for your sunrise photos.",
-      },
-    ],
-  },
-];
-
 // ── Page ─────────────────────────────────────────────────────────────────────
 export default function RajasthanDesertGuidePage() {
   return (
@@ -291,8 +209,8 @@ export default function RajasthanDesertGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jaisalmer/hero.jpg"
-              alt="Jaisalmer Fort glowing golden above the Thar Desert at sunset"
+              src="/images/blogs/rajasthan/rajasthan-desert/jaisalmer-and-thar-desert.webp"
+              alt="View of Jaisalmer & Thar Desert, Rajasthan"
               fill
               priority
               sizes="100vw"
@@ -647,8 +565,8 @@ export default function RajasthanDesertGuidePage() {
                   <h2>Jaisalmer Fort — The Golden Fort</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/jaisalmer/fort.jpg"
-                      alt="Jaisalmer Fort honey-coloured sandstone walls and bastions"
+                      src="/images/blogs/rajasthan/rajasthan-desert/jaisalmer-fort-jaisalmer-and-thar-desert.webp"
+                      alt="Jaisalmer Fort, Jaisalmer & Thar Desert"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -845,6 +763,7 @@ export default function RajasthanDesertGuidePage() {
 
                   <section id="jain-temples">
                     <h3>Jain Temples</h3>
+                    <GuideFigure src="/images/blogs/rajasthan/rajasthan-desert/jain-temples-jaisalmer-and-thar-desert.webp" alt="Jain Temples, Jaisalmer & Thar Desert" />
                     <p>
                       Beyond the seven temples inside the fort, Jaisalmer's old
                       city has additional significant Jain temples that reflect
@@ -1670,12 +1589,6 @@ export default function RajasthanDesertGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              {/* ── Gear Recommendations ──────────────────────────────── */}
-              <TrekGearRecommendations
-                sections={DESERT_GEAR}
-                destination="Jaisalmer & the Thar Desert"
-              />
 
               <RelatedPostsGrid currentSlug="rajasthan-desert-travel-guide" />
             </article>

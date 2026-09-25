@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/manali/rohtang-pass.jpg",
-        width: 1200,
-        height: 630,
-        alt: "High-altitude mountain pass scenery, evoking Yumthang Valley and Zero Point in North Sikkim",
+        url: "/images/blogs/sikkim/yumthang-valley/yumthang-valley.webp",
+        width: 1600,
+        height: 1067,
+        alt: "Yumthang Valley, Sikkim",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Yumthang Valley Guide: Flowers & Best Time",
     description:
       "Sikkim's Valley of Flowers — a rhododendron sanctuary in bloom against snow peaks, plus a high-altitude Zero Point extension.",
-    images: ["/images/destinations/manali/rohtang-pass.jpg"],
+    images: ["/images/blogs/sikkim/yumthang-valley/yumthang-valley.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/yumthang-valley-travel-guide",
@@ -59,7 +60,7 @@ function ArticleSchema() {
           headline: "Yumthang Valley Guide: Flowers & Best Time",
           description:
             "Complete Yumthang Valley guide — the Shingba Rhododendron Sanctuary bloom, Zero Point, hot springs, how to reach from Lachung, and the best time to see Sikkim's Valley of Flowers.",
-          image: "https://club.kudozz.in/images/destinations/manali/rohtang-pass.jpg",
+          image: "https://club.kudozz.in/images/blogs/sikkim/yumthang-valley/yumthang-valley.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -196,8 +197,8 @@ export default function YumthangValleyGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/manali/rohtang-pass.jpg"
-              alt="High-altitude mountain pass scenery, evoking Yumthang Valley and Zero Point in North Sikkim"
+              src="/images/blogs/sikkim/yumthang-valley/yumthang-valley.webp"
+              alt="Yumthang Valley, Sikkim"
               fill
               priority
               sizes="100vw"
@@ -521,15 +522,6 @@ export default function YumthangValleyGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Rhododendrons, Zero Point & Hot Springs</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/manali/rohtang-pass.jpg"
-                      alt="Snow-dusted high-altitude landscape near Yumthang Valley and Zero Point, North Sikkim"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>The Shingba Rhododendron Sanctuary</h3>
                   <p>
                     More than two dozen rhododendron species carpet the
@@ -539,6 +531,7 @@ export default function YumthangValleyGuidePage() {
                     just viewing from the road.
                   </p>
                   <h3>Zero Point</h3>
+                  <GuideFigure src="/images/blogs/sikkim/yumthang-valley/zero-point-yumthang-valley.webp" alt="Zero Point, Yumthang Valley" />
                   <p>
                     At around 4,600 m, Zero Point is a dramatic snow-covered
                     extension near the limit of civilian access — reachable
@@ -546,6 +539,7 @@ export default function YumthangValleyGuidePage() {
                     it as a bonus rather than a guaranteed part of the trip.
                   </p>
                   <h3>Hot Springs</h3>
+                  <GuideFigure src="/images/blogs/sikkim/yumthang-valley/hot-springs-yumthang-valley.webp" alt="Hot Springs, Yumthang Valley" />
                   <p>
                     A notable stop within the valley, these natural hot
                     springs are believed locally to have medicinal

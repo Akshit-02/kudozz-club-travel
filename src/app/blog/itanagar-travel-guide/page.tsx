@@ -7,8 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuidePhotoRow } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
   title: "Itanagar Travel Guide: Arunachal Pradesh's Capital City",
@@ -21,9 +20,9 @@ export const metadata: Metadata = {
     description: "A hillside capital built around a 14th-century fort, and the practical starting point for almost every trip into Arunachal Pradesh — the complete guide to Itanagar.",
     url: "https://club.kudozz.in/blog/itanagar-travel-guide",
     type: "article", siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/coorg/coorg.jpg", width: 1200, height: 630, alt: "Forested hillside city representative of Itanagar, Arunachal Pradesh" }],
+    images: [{ url: "/images/blogs/arunachal-pradesh/itanagar/itanagar.webp", width: 1600, height: 1205, alt: "View of Itanagar, Arunachal Pradesh" }],
   },
-  twitter: { card: "summary_large_image", title: "Itanagar Travel Guide: Arunachal Pradesh's Capital City", description: "Ita Fort, the State Museum, and the practical starting point for Arunachal Pradesh — the complete guide to Itanagar.", images: ["/images/destinations/coorg/coorg.jpg"] },
+  twitter: { card: "summary_large_image", title: "Itanagar Travel Guide: Arunachal Pradesh's Capital City", description: "Ita Fort, the State Museum, and the practical starting point for Arunachal Pradesh — the complete guide to Itanagar.", images: ["/images/blogs/arunachal-pradesh/itanagar/itanagar.webp"] },
   alternates: { canonical: "https://club.kudozz.in/blog/itanagar-travel-guide" },
 };
 
@@ -33,7 +32,7 @@ function ArticleSchema() {
       "@context": "https://schema.org", "@type": "BlogPosting",
       headline: "Itanagar Travel Guide: Arunachal Pradesh's Capital City",
       description: "The complete Itanagar travel guide.",
-      image: "https://club.kudozz.in/images/destinations/coorg/coorg.jpg",
+      image: "https://club.kudozz.in/images/blogs/arunachal-pradesh/itanagar/itanagar.webp",
       datePublished: "2026-09-08", dateModified: "2026-09-08",
       publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
       author: { "@type": "Organization", name: "Kudozz Club" },
@@ -80,16 +79,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const ITANAGAR_GEAR: GearSection[] = [{
-  title: "Things Worth Carrying", subtitle: "Gear for the capital and onward Arunachal travel", emoji: "🏛️",
-  items: [
-    { name: "Comfortable Walking Shoes", description: "For Ita Fort's grounds, the State Museum, and general city exploring.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-amber-100 text-amber-700", why: "Itanagar's hillside layout means genuine uphill and downhill walking between sights." },
-    { name: "Document Organizer", description: "For keeping your Inner Line Permit and identification secure and accessible as you head onward.", price: "₹—",  image: "📄", affiliateUrl: amazonSearchUrl("document+organizer+travel+folder"), tag: "Permit essential", tagColor: "bg-purple-100 text-purple-700", why: "You'll need your permit at checkpoints throughout Arunachal Pradesh." },
-    { name: "Light Rain Layer", description: "Itanagar's forested hill setting sees regular rain outside the driest months.", price: "₹899",  image: "🌂", affiliateUrl: amazonSearchUrl("packable+rain+jacket+travel"), tag: "Weather essential", tagColor: "bg-sky-100 text-sky-700", why: "The hillside terrain and forest cover mean unpredictable showers are common." },
-    { name: "Daypack", description: "For carrying essentials as you explore Ita Fort, the museum, and Ganga Lake across a full day.", price: "₹899",  image: "🎒", affiliateUrl: amazonSearchUrl("daypack+travel+trekking"), tag: "All-day essential", tagColor: "bg-forest-100 text-forest-700", why: "Itanagar's sights are spread across the hilly town, not walkable in a tight loop." },
-  ],
-}];
-
 export default function ItanagarGuidePage() {
   return (
     <>
@@ -97,7 +86,7 @@ export default function ItanagarGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/coorg/coorg.jpg" alt="Forested hillside city representative of Itanagar, Arunachal Pradesh" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/arunachal-pradesh/itanagar/itanagar.webp" alt="View of Itanagar, Arunachal Pradesh" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -201,15 +190,18 @@ export default function ItanagarGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do in Itanagar</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/coorg/coorg.jpg" alt="Hillside scenery around Itanagar" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>Ita Fort:</strong> The 14th-15th century brick fort that gives the city its name — significant, though its precise origins remain debated among historians.</li>
                     <li><strong>Jawaharlal Nehru State Museum:</strong> A substantial collection of tribal artifacts and textiles representing Arunachal Pradesh's many distinct ethnic communities — valuable context before heading into more remote regions.</li>
                     <li><strong>Ganga Lake (Gyaker Sinyi):</strong> A scenic lake near the city, popular for a relaxed outing.</li>
                     <li><strong>Buddha Vihar:</strong> A hilltop Buddhist temple with panoramic city views.</li>
                   </ul>
+                  <GuidePhotoRow
+                    images={[
+                      { src: "/images/blogs/arunachal-pradesh/itanagar/ita-fort-itanagar.webp", alt: "Ita Fort, Itanagar", caption: "Ita Fort, Itanagar" },
+                      { src: "/images/blogs/arunachal-pradesh/itanagar/ganga-lake-itanagar.webp", alt: "Ganga Lake, Itanagar", caption: "Ganga Lake, Itanagar" },
+                    ]}
+                  />
                 </section>
 
                 <section id="where-to-stay">
@@ -325,7 +317,6 @@ export default function ItanagarGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={ITANAGAR_GEAR} destination="Itanagar" />
               <RelatedPostsGrid currentSlug="itanagar-travel-guide" />
             </article>
             <div className="hidden xl:block w-64 2xl:w-72 flex-shrink-0"><div className="sticky top-24"><RelatedSidebar currentSlug="itanagar-travel-guide" /></div></div>

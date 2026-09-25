@@ -7,10 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
   title: "Patratu Valley Travel Guide: Dam, Ghati Road & Best Time to Visit",
@@ -27,10 +24,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/manali/rohtang-pass.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Winding mountain valley road representative of Patratu Valley, Jharkhand",
+        url: "/images/blogs/jharkhand/patratu/patratu-valley.webp",
+        width: 1600,
+        height: 1200,
+        alt: "Patratu Valley, Jharkhand",
       },
     ],
   },
@@ -38,7 +35,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Patratu Valley Travel Guide: Dam, Ghati Road & Best Time to Visit",
     description: "A hairpin-bend valley road above a reservoir — the complete guide to Patratu Valley.",
-    images: ["/images/destinations/manali/rohtang-pass.jpg"],
+    images: ["/images/blogs/jharkhand/patratu/patratu-valley.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/patratu-travel-guide" },
 };
@@ -53,7 +50,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Patratu Valley Travel Guide: Dam, Ghati Road & Best Time to Visit",
           description: "The complete Patratu Valley travel guide.",
-          image: "https://club.kudozz.in/images/destinations/manali/rohtang-pass.jpg",
+          image: "https://club.kudozz.in/images/blogs/jharkhand/patratu/patratu-valley.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: {
@@ -144,46 +141,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const PATRATU_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for a scenic valley drive and viewpoint stops",
-    emoji: "🛣️",
-    items: [
-      {
-        name: "Motion Sickness Tablets",
-        description: "The Patratu Ghati's continuous hairpin bends can be tough on passengers prone to car sickness.",
-        price: "₹99",
-        image: "💊",
-        affiliateUrl: amazonSearchUrl("motion+sickness+tablets+travel"),
-        tag: "Road-trip essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "The switchback road is the whole point of the trip, but it's genuinely nauseating for some passengers without preparation.",
-      },
-      {
-        name: "Camera / Phone Mount",
-        description: "Useful for capturing the valley's sweeping switchback views from designated viewpoint stops.",
-        price: "₹399",
-        image: "📷",
-        affiliateUrl: amazonSearchUrl("phone+mount+car+travel"),
-        tag: "Photography essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "The ghati road is the main photographic draw of the whole trip.",
-      },
-      {
-        name: "Reusable Water Bottle",
-        description: "Facilities are limited to a handful of small roadside stops along the route.",
-        price: "₹449",
-        image: "💧",
-        affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"),
-        tag: "Day-trip essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "This is a road-trip destination with sparse facilities beyond a few roadside stalls.",
-      },
-    ],
-  },
-];
-
 export default function PatratuGuidePage() {
   return (
     <>
@@ -194,8 +151,8 @@ export default function PatratuGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/manali/rohtang-pass.jpg"
-              alt="Winding mountain valley road representative of Patratu Valley, Jharkhand"
+              src="/images/blogs/jharkhand/patratu/patratu-valley.webp"
+              alt="Patratu Valley, Jharkhand"
               fill
               priority
               sizes="100vw"
@@ -389,15 +346,7 @@ export default function PatratuGuidePage() {
 
                 <section id="top-attractions">
                   <h2>What to See at Patratu Valley</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/manali/rohtang-pass.jpg"
-                      alt="Hairpin valley road and reservoir view at Patratu"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
+                  <GuideFigure src="/images/blogs/jharkhand/patratu/patratu-valley-view.webp" alt="Patratu Valley, Jharkhand" />
                   <ul>
                     <li>
                       <strong>The Patratu Ghati road:</strong> A series of winding hairpin bends descending
@@ -555,7 +504,6 @@ export default function PatratuGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={PATRATU_GEAR} destination="Patratu Valley" />
               <RelatedPostsGrid currentSlug="patratu-travel-guide" />
             </article>
 

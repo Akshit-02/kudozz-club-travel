@@ -7,10 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -28,10 +24,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jammu-kashmir/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Houseboats on Dal Lake with snow-capped mountains in the background, Srinagar",
+        url: "/images/blogs/jammu-and-kashmir/jammu-kashmir/gulmarg-jammu-and-kashmir.webp",
+        width: 1600,
+        height: 1200,
+        alt: "Gulmarg, Jammu & Kashmir",
       },
     ],
   },
@@ -40,7 +36,7 @@ export const metadata: Metadata = {
     title: "Jammu & Kashmir Travel Guide: Srinagar, Gulmarg & Pahalgam",
     description:
       "Dal Lake houseboats, Gulmarg's gondola, and valleys that earned Kashmir the name 'Paradise on Earth' — the complete guide.",
-    images: ["/images/destinations/jammu-kashmir/hero.jpg"],
+    images: ["/images/blogs/jammu-and-kashmir/jammu-kashmir/gulmarg-jammu-and-kashmir.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/jammu-kashmir-travel-guide",
@@ -60,7 +56,7 @@ function ArticleSchema() {
             "Jammu & Kashmir Travel Guide: Srinagar, Gulmarg & Pahalgam",
           description: "The complete Jammu & Kashmir travel guide.",
           image:
-            "https://club.kudozz.in/images/destinations/jammu-kashmir/hero.jpg",
+            "https://club.kudozz.in/images/blogs/jammu-and-kashmir/jammu-kashmir/gulmarg-jammu-and-kashmir.webp",
           datePublished: "2026-07-16",
           dateModified: "2026-07-16",
           publisher: {
@@ -192,84 +188,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-// ── J&K-specific gear ───────────────────────────────────────────────────
-const JK_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle:
-      "Gear for houseboat mornings, high-altitude cold, and snow at Gulmarg and Sonamarg",
-    emoji: "🏔️",
-    items: [
-      {
-        name: "Heavy-Duty Down Jacket",
-        description:
-          "Temperatures at Gulmarg and Sonamarg drop well below what Srinagar sees, especially outside the peak summer window — a proper down jacket beats layering with regular sweaters.",
-        price: "₹3,499",
-        image: "🧥",
-        affiliateUrl: amazonSearchUrl("down+jacket+heavy+winter"),
-        tag: "High-altitude essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Even in April and October, Gulmarg's gondola takes you well above the snow line — visitors without proper insulation cut their trip up the mountain short.",
-      },
-      {
-        name: "Waterproof Snow Boots",
-        description:
-          "Gulmarg's slopes and Sonamarg's glacier viewpoints involve walking on packed snow and slush — regular sneakers soak through within minutes.",
-        price: "₹2,299",
-        image: "🥾",
-        affiliateUrl: amazonSearchUrl("waterproof+snow+boots"),
-        tag: "Snow essential",
-        tagColor: "bg-stone-100 text-stone-700",
-        why: "Rental gumboots are available at Gulmarg, but they're often ill-fitting and cold by midday — your own pair is worth carrying for a multi-day trip.",
-      },
-      {
-        name: "Thermal Base Layer Set",
-        description:
-          "A wicking thermal layer under regular clothing makes the difference on early-morning houseboat starts and gondola rides, where wind chill adds noticeably to the cold.",
-        price: "₹899",
-        image: "🧣",
-        affiliateUrl: amazonSearchUrl("thermal+base+layer+set"),
-        tag: "Layering essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "Kashmir's weather shifts quickly between valley floor and higher altitude — thermals let you regulate without carrying multiple heavy jackets.",
-      },
-      {
-        name: "Polarized Sunglasses",
-        description:
-          "Snow glare at Gulmarg and Sonamarg is intense enough to cause genuine eye strain within an hour without proper UV and glare protection.",
-        price: "₹799",
-        image: "🕶️",
-        affiliateUrl: amazonSearchUrl("polarized+sunglasses+snow"),
-        tag: "Snow essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "Reflected sunlight off snow is far more intense than regular daylight — this is the one item visitors most often forget and most regret forgetting.",
-      },
-      {
-        name: "Power Bank (10,000 mAh)",
-        description:
-          "Cold weather drains phone batteries noticeably faster, and Gulmarg's gondola queues and Dal Lake shikara rides both eat into battery for photos and navigation.",
-        price: "₹1,299",
-        image: "🔋",
-        affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
-        tag: "Cold-weather essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "Batteries lose charge faster in cold conditions — a power bank is more necessary here than in warmer destinations.",
-      },
-      {
-        name: "Basic First Aid & Altitude Kit",
-        description:
-          "Gulmarg's gondola reaches over 3,900m at the upper station — mild altitude symptoms are common for visitors coming straight from sea level.",
-        price: "₹599",
-        image: "🩹",
-        affiliateUrl: amazonSearchUrl("travel+first+aid+kit+altitude"),
-        tag: "High-altitude essential",
-        tagColor: "bg-red-100 text-red-700",
-        why: "The Gulmarg gondola's second phase gains altitude fast — carrying basic altitude relief (and staying hydrated) helps first-time high-altitude travellers.",
-      },
-    ],
-  },
-];
-
 // ── Page ─────────────────────────────────────────────────────────────────────
 export default function JammuKashmirGuidePage() {
   return (
@@ -283,8 +201,8 @@ export default function JammuKashmirGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jammu-kashmir/hero.jpg"
-              alt="Houseboats on Dal Lake with snow-capped mountains in the background, Srinagar"
+              src="/images/blogs/jammu-and-kashmir/jammu-kashmir/gulmarg-jammu-and-kashmir.webp"
+              alt="Gulmarg, Jammu & Kashmir"
               fill
               priority
               sizes="100vw"
@@ -632,8 +550,26 @@ export default function JammuKashmirGuidePage() {
                   <h2>Srinagar & Dal Lake</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/jammu-kashmir/dal.jpg"
-                      alt="Shikara boat on Dal Lake at sunrise, Srinagar"
+                      src="/images/blogs/jammu-and-kashmir/jammu-kashmir/srinagar-and-dal-lake-jammu-and-kashmir.webp"
+                      alt="Srinagar & Dal Lake, Jammu & Kashmir"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/jammu-and-kashmir/sonamarg/thajiwas-glacier-valley-sonamarg.webp"
+                      alt="Thajiwas Glacier and snow-dusted peaks in the valley near Sonamarg"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/jammu-and-kashmir/pahalgam/pahalgam-valley-lidder-river-forest.webp"
+                      alt="Green pine-forested valley with the Lidder River winding through Pahalgam"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -687,24 +623,6 @@ export default function JammuKashmirGuidePage() {
                     <Image
                       src="/images/blogs/jammu-and-kashmir/gulmarg/gulmarg-gondola-snow-covered-station.webp"
                       alt="Gulmarg Gondola cable car tower rising above snow-covered huts near Apharwat Peak"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/jammu-and-kashmir/pahalgam/pahalgam-valley-lidder-river-forest.webp"
-                      alt="Green pine-forested valley with the Lidder River winding through Pahalgam"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/jammu-and-kashmir/sonamarg/thajiwas-glacier-valley-sonamarg.webp"
-                      alt="Thajiwas Glacier and snow-dusted peaks in the valley near Sonamarg"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -1363,12 +1281,6 @@ export default function JammuKashmirGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              {/* ── Gear Recommendations ──────────────────────────────── */}
-              <TrekGearRecommendations
-                sections={JK_GEAR}
-                destination="Jammu & Kashmir"
-              />
 
               <RelatedPostsGrid currentSlug="jammu-kashmir-travel-guide" />
             </article>

@@ -24,8 +24,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/destinations/kasol/kasol.jpg",
-        width: 1200,
-        height: 630,
+        width: 2560,
+        height: 1707,
         alt: "Remote mountain village landscape, evoking Longwa's border-straddling hills in eastern Nagaland",
       },
     ],
@@ -345,15 +345,6 @@ export default function LongwaGuidePage() {
 
                 <section id="things-to-do">
                   <h2>The Angh&apos;s House & Village Life</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/kasol/kasol.jpg"
-                      alt="Remote hill village landscape near the India-Myanmar border in Nagaland"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>The Border-Straddling Angh&apos;s House</h3>
                   <p>
                     The Angh&apos;s house is Longwa&apos;s defining landmark

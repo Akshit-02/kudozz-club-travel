@@ -24,10 +24,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/andaman/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Mangrove creek waters near Baratang Island, Andaman",
+        url: "/images/blogs/andaman-and-nicobar/baratang-andaman/baratang-island-2.webp",
+        width: 1600,
+        height: 1200,
+        alt: "Baratang Island, Andaman & Nicobar Islands",
       },
     ],
   },
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     title: "Baratang Island Travel Guide: Caves, Mud Volcano & Convoy Tips",
     description:
       "Limestone caves, a mud volcano, and a convoy drive through a tribal reserve — the complete guide to Baratang Island.",
-    images: ["/images/destinations/andaman/hero.jpg"],
+    images: ["/images/blogs/andaman-and-nicobar/baratang-andaman/baratang-island-2.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/baratang-andaman-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           headline: "Baratang Island Travel Guide: Caves, Mud Volcano & Convoy Tips",
           description:
             "Complete Baratang Island guide — the Andaman Trunk Road convoy through the Jarawa Tribal Reserve, the Limestone Caves mangrove boat ride, the Mud Volcano, and Parrot Island.",
-          image: "https://club.kudozz.in/images/destinations/andaman/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/andaman-and-nicobar/baratang-andaman/baratang-island-2.webp",
           datePublished: "2026-09-01",
           dateModified: "2026-09-01",
           publisher: {
@@ -202,8 +202,8 @@ export default function BaratangGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/andaman/hero.jpg"
-              alt="Mangrove creek waters near Baratang Island, Andaman"
+              src="/images/blogs/andaman-and-nicobar/baratang-andaman/baratang-island-2.webp"
+              alt="Baratang Island, Andaman & Nicobar Islands"
               fill
               priority
               sizes="100vw"
@@ -548,15 +548,6 @@ export default function BaratangGuidePage() {
                 {/* ── Convoy ─────────────────────────────────────────────── */}
                 <section id="convoy">
                   <h2>The Convoy & Jarawa Reserve</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/andaman/hero.jpg"
-                      alt="Forest road through the Andaman Trunk Road near the Jarawa Tribal Reserve"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <p>
                     The road to Baratang cuts directly through the{" "}
                     <strong>Jarawa Tribal Reserve</strong>, home to the

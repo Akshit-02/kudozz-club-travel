@@ -7,10 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuidePhotoRow } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
   title: "Pachmarhi Travel Guide: Waterfalls, Caves & Satpura's Only Hill Station",
@@ -24,13 +21,13 @@ export const metadata: Metadata = {
     url: "https://club.kudozz.in/blog/pachmarhi-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/coorg/coorg.jpg", width: 1200, height: 630, alt: "Misty forested hills representative of Pachmarhi, Madhya Pradesh" }],
+    images: [{ url: "/images/blogs/madhya-pradesh/pachmarhi/dhoopgarh-pachmarhi.webp", width: 800, height: 360, alt: "Dhoopgarh, Pachmarhi" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Pachmarhi Travel Guide: Waterfalls, Caves & Satpura's Only Hill Station",
     description: "Cave temples, sandstone gorge waterfalls, and Madhya Pradesh's highest peak — the complete guide to Pachmarhi.",
-    images: ["/images/destinations/coorg/coorg.jpg"],
+    images: ["/images/blogs/madhya-pradesh/pachmarhi/dhoopgarh-pachmarhi.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/pachmarhi-travel-guide" },
 };
@@ -45,7 +42,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Pachmarhi Travel Guide: Waterfalls, Caves & Satpura's Only Hill Station",
           description: "The complete Pachmarhi travel guide.",
-          image: "https://club.kudozz.in/images/destinations/coorg/coorg.jpg",
+          image: "https://club.kudozz.in/images/blogs/madhya-pradesh/pachmarhi/dhoopgarh-pachmarhi.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
@@ -104,21 +101,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const PACHMARHI_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for waterfalls, cave trails, and the Chauragarh climb",
-    emoji: "⛰️",
-    items: [
-      { name: "Trekking Shoes", description: "Grippy soles matter on the steep, sometimes wet stone steps to Chauragarh and the paths around Bee Falls and Jata Shankar.", price: "₹3,299",  image: "🥾", affiliateUrl: amazonSearchUrl("trekking+shoes+men+women"), tag: "Trek essential", tagColor: "bg-amber-100 text-amber-700", why: "Slippery rock steps around the waterfalls and the long Chauragarh climb are where most minor injuries happen." },
-      { name: "Rain Jacket / Poncho", description: "Even outside peak monsoon, Satpura's forested hills see sudden showers — a packable rain layer keeps a day trip from turning into a soggy retreat.", price: "₹899",  image: "🧥", affiliateUrl: amazonSearchUrl("packable+rain+jacket+trekking"), tag: "Weather essential", tagColor: "bg-sky-100 text-sky-700", why: "Pachmarhi's elevation and forest cover mean weather can shift fast, especially in shoulder season." },
-      { name: "Reusable Water Bottle (1L)", description: "Several attractions, especially Chauragarh, have long stretches without shops — carrying enough water is non-negotiable on the climb.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("1l+reusable+water+bottle+steel"), tag: "Trek essential", tagColor: "bg-forest-100 text-forest-700", why: "Facilities thin out fast once you're past the main viewpoints into forested sections." },
-      { name: "Insect Repellent", description: "Dense forest and waterfall spray zones mean mosquitoes and other insects are a real presence, especially at dusk.", price: "₹199",  image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Forest essential", tagColor: "bg-purple-100 text-purple-700", why: "Evenings around forested viewpoints and caves see a noticeable uptick in mosquito activity." },
-      { name: "Daypack (20L)", description: "For carrying water, snacks, a rain layer, and a camera across a full day of viewpoint-hopping and the Chauragarh trek.", price: "₹899",  image: "🎒", affiliateUrl: amazonSearchUrl("20l+daypack+trekking"), tag: "All-day essential", tagColor: "bg-stone-100 text-stone-700", why: "A comfortable daypack makes the difference on the longer Chauragarh climb, where every extra weight matters." },
-    ],
-  },
-];
-
 export default function PachmarhiGuidePage() {
   return (
     <>
@@ -128,7 +110,9 @@ export default function PachmarhiGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/coorg/coorg.jpg" alt="Misty forested hills representative of Pachmarhi, Madhya Pradesh" fill priority sizes="100vw" className="object-cover" />
+            <Image
+              src="/images/blogs/madhya-pradesh/pachmarhi/dhoopgarh-pachmarhi.webp"
+              alt="Dhoopgarh, Pachmarhi" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -237,9 +221,6 @@ export default function PachmarhiGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do in Pachmarhi</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/coorg/coorg.jpg" alt="Forested hills and viewpoints around Pachmarhi" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>Dhoopgarh:</strong> Madhya Pradesh's highest point at roughly 1,350m, popular for sunset views across the Satpura range.</li>
                     <li><strong>Bee Falls (Jamuna Prapat):</strong> A popular waterfall close to town, good for swimming when flow and safety conditions allow.</li>
@@ -248,6 +229,12 @@ export default function PachmarhiGuidePage() {
                     <li><strong>Chauragarh:</strong> A hilltop Shiva temple reached via a steep pilgrim trail lined with trishuls, one of the more physically demanding sights here.</li>
                     <li><strong>Satpura National Park:</strong> Jeep, walking, and boat safaris — a rarer combination among Indian parks — with lower crowds than Kanha or Bandhavgarh.</li>
                   </ul>
+                  <GuidePhotoRow
+                    images={[
+                      { src: "/images/blogs/madhya-pradesh/pachmarhi/bee-falls-pachmarhi.webp", alt: "Bee Falls, Pachmarhi", caption: "Bee Falls, Pachmarhi" },
+                      { src: "/images/blogs/madhya-pradesh/pachmarhi/pandav-caves-pachmarhi.webp", alt: "Pandav Caves, Pachmarhi", caption: "Pandav Caves, Pachmarhi" },
+                    ]}
+                  />
                 </section>
 
                 <section id="where-to-stay">
@@ -367,7 +354,6 @@ export default function PachmarhiGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={PACHMARHI_GEAR} destination="Pachmarhi" />
               <RelatedPostsGrid currentSlug="pachmarhi-travel-guide" />
             </article>
 

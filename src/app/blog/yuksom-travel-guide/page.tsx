@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/ziro/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Green forested hills, evoking Yuksom's setting as the historic gateway village into Kanchenjunga National Park",
+        url: "/images/blogs/sikkim/yuksom/yuksom.webp",
+        width: 1600,
+        height: 1067,
+        alt: "Yuksom, Sikkim",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Yuksom Travel Guide: Sikkim's First Capital",
     description:
       "Sikkim's historic first capital and the trailhead into Kanchenjunga National Park — the complete Yuksom guide.",
-    images: ["/images/destinations/ziro/hero.jpg"],
+    images: ["/images/blogs/sikkim/yuksom/yuksom.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/yuksom-travel-guide",
@@ -59,7 +60,7 @@ function ArticleSchema() {
           headline: "Yuksom Travel Guide: Sikkim's First Capital",
           description:
             "Complete Yuksom guide — the Norbugang coronation site, Dubdi Monastery, the Dzongri-Goecha La trek gateway into Kanchenjunga National Park, how to reach from Gangtok, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/ziro/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/sikkim/yuksom/yuksom.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -200,8 +201,8 @@ export default function YuksomGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/ziro/hero.jpg"
-              alt="Green forested hills, evoking Yuksom's setting as the historic gateway village into Kanchenjunga National Park"
+              src="/images/blogs/sikkim/yuksom/yuksom.webp"
+              alt="Yuksom, Sikkim"
               fill
               priority
               sizes="100vw"
@@ -523,15 +524,6 @@ export default function YuksomGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Norbugang, Dubdi & the Trek Gateway</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/ziro/hero.jpg"
-                      alt="Forested hills around Yuksom, West Sikkim"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Norbugang Coronation Site</h3>
                   <p>
                     A stone throne and chorten mark the spot where Sikkim's
@@ -540,6 +532,7 @@ export default function YuksomGuidePage() {
                     stop for anyone visiting Yuksom.
                   </p>
                   <h3>Dubdi Monastery</h3>
+                  <GuideFigure src="/images/blogs/sikkim/yuksom/dubdi-monastery-yuksom.webp" alt="Dubdi Monastery, Yuksom" />
                   <p>
                     Considered Sikkim's oldest monastery, reached via a
                     short uphill hike above the village. The climb itself,
@@ -547,6 +540,7 @@ export default function YuksomGuidePage() {
                     the monastery.
                   </p>
                   <h3>Kathok Lake</h3>
+                  <GuideFigure src="/images/blogs/sikkim/yuksom/kathok-lake-yuksom.webp" alt="Kathok Lake, Yuksom" />
                   <p>
                     A small, sacred lake near the village, a quieter stop
                     that pairs well with Norbugang and Dubdi Monastery in a

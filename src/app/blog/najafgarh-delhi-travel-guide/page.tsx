@@ -525,15 +525,6 @@ export default function NajafgarhGuidePage() {
                 {/* ── History ───────────────────────────────────────────── */}
                 <section id="history">
                   <h2>The History of Najafgarh</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/delhi/najafgarh/najafgarh-drain-aerial-view.webp"
-                      alt="The Najafgarh Drain winding through fields and settlements near Najafgarh, South West Delhi"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <p>
                     Najafgarh takes its name from{" "}
                     <strong>Mirza Najaf Khan</strong>, a genuine 18th-century

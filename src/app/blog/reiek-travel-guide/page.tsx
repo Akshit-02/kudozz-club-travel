@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/manali/solang-valley.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Green valley and hills, evoking Reiek's panoramic viewpoint in Mizoram",
+        url: "/images/blogs/mizoram/reiek/reiek.webp",
+        width: 1600,
+        height: 1064,
+        alt: "View of Reiek, Mizoram",
       },
     ],
   },
@@ -37,7 +38,7 @@ export const metadata: Metadata = {
     title: "Reiek Travel Guide: Heritage Village & Views",
     description:
       "A peak with sweeping views and a heritage village of traditional Mizo huts — the complete Reiek guide.",
-    images: ["/images/destinations/manali/solang-valley.jpg"],
+    images: ["/images/blogs/mizoram/reiek/reiek.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/reiek-travel-guide" },
 };
@@ -54,7 +55,7 @@ function ArticleSchema() {
           headline: "Reiek Travel Guide: Heritage Village & Views",
           description:
             "Complete Reiek guide — the Reiek Tlang viewpoint, the traditional Mizo heritage village, light trekking, how to reach from Aizawl, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/manali/solang-valley.jpg",
+          image: "https://club.kudozz.in/images/blogs/mizoram/reiek/reiek.webp",
           datePublished: "2026-09-04",
           dateModified: "2026-09-04",
           publisher: {
@@ -154,8 +155,8 @@ export default function ReiekGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/manali/solang-valley.jpg"
-              alt="Green valley and hills, evoking Reiek's panoramic viewpoint in Mizoram"
+              src="/images/blogs/mizoram/reiek/reiek.webp"
+              alt="View of Reiek, Mizoram"
               fill
               priority
               sizes="100vw"
@@ -308,18 +309,10 @@ export default function ReiekGuidePage() {
 
                 <section id="things-to-do">
                   <h2>The Peak & Heritage Village</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/manali/solang-valley.jpg"
-                      alt="Green hills near Reiek, Mizoram"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Reiek Tlang Viewpoint</h3>
                   <p>The peak itself is the main draw — sweeping views over the surrounding hills, with distant visibility toward Bangladesh and Myanmar on the clearest days.</p>
                   <h3>Heritage Village</h3>
+                  <GuideFigure src="/images/blogs/mizoram/reiek/heritage-village-reiek.webp" alt="Heritage Village, Reiek" />
                   <p>Traditional Mizo huts recreated at the base of the peak, representing different communities' architectural styles — a slow walk-through here is genuinely worthwhile rather than a rushed pass.</p>
                   <h3>Light Trekking</h3>
                   <p>Short, manageable trails around the peak area suit casual walkers as well as more energetic visitors looking to explore further.</p>

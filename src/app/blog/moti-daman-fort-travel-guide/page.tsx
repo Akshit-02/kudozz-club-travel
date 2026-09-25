@@ -635,15 +635,6 @@ export default function MotiDamanFortGuidePage() {
                 {/* ── Bom Jesus Church ──────────────────────────────────── */}
                 <section id="bom-jesus-church">
                   <h2>Bom Jesus Church Inside the Fort Walls</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/moti-daman/bom-jesus-church-interior-altar.webp"
-                      alt="The gilded, ornately carved baroque altar and nave of Bom Jesus Church inside Moti Daman Fort"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <p>
                     Tucked inside the fort's perimeter is{" "}
                     <strong>Bom Jesus Church</strong>, one of the genuine

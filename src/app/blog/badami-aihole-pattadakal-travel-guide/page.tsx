@@ -7,10 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Badami, Aihole & Pattadakal Travel Guide: Chalukya Cave Temples",
@@ -24,13 +20,13 @@ export const metadata: Metadata = {
     url: "https://club.kudozz.in/blog/badami-aihole-pattadakal-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/hampi/hero.jpg", width: 1200, height: 630, alt: "Rock-cut heritage architecture representative of Badami, Karnataka" }],
+    images: [{ url: "/images/blogs/karnataka/badami-aihole-pattadakal/badami-aihole-and-pattadakal-2.webp", width: 1200, height: 771, alt: "Badami, Aihole & Pattadakal, Karnataka" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Badami, Aihole & Pattadakal Travel Guide: Chalukya Cave Temples",
     description: "The Chalukyan heart of early Indian temple architecture — the complete guide to Badami, Aihole & Pattadakal.",
-    images: ["/images/destinations/hampi/hero.jpg"],
+    images: ["/images/blogs/karnataka/badami-aihole-pattadakal/badami-aihole-and-pattadakal-2.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/badami-aihole-pattadakal-travel-guide" },
 };
@@ -45,7 +41,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Badami, Aihole & Pattadakal Travel Guide: Chalukya Cave Temples",
           description: "The complete Badami-Aihole-Pattadakal travel guide.",
-          image: "https://club.kudozz.in/images/destinations/hampi/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/karnataka/badami-aihole-pattadakal/badami-aihole-and-pattadakal-2.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
@@ -104,20 +100,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const BADAMI_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for a full day of temple-hopping and cave steps",
-    emoji: "🛕",
-    items: [
-      { name: "Comfortable Walking/Climbing Shoes", description: "Extensive stairs at the Badami cave temples and fort, plus uneven ground across Aihole and Pattadakal's temple clusters.", price: "₹1,999",  image: "🥾", affiliateUrl: amazonSearchUrl("comfortable+trekking+shoes"), tag: "All-day essential", tagColor: "bg-amber-100 text-amber-700", why: "This circuit involves more stairs and uneven stone ground than most single-site heritage visits." },
-      { name: "Sun Hat & Sunglasses", description: "All three sites are largely open-air with minimal shade between temple clusters.", price: "₹499",  image: "🧢", affiliateUrl: amazonSearchUrl("sun+hat+travel+outdoor"), tag: "Sun essential", tagColor: "bg-orange-100 text-orange-700", why: "A full day moving between exposed temple sites means real cumulative sun exposure." },
-      { name: "Reusable Water Bottle (1L)", description: "Facilities are limited at Aihole and Pattadakal in particular — carry enough water for a full circuit day.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("1l+reusable+water+bottle+steel"), tag: "Non-negotiable", tagColor: "bg-forest-100 text-forest-700", why: "Between sites, shops and water points thin out fast." },
-      { name: "Small Torch / Flashlight", description: "Useful for the darker interiors of the Badami cave temples.", price: "₹399",  image: "🔦", affiliateUrl: amazonSearchUrl("small+led+flashlight+travel"), tag: "Cave essential", tagColor: "bg-purple-100 text-purple-700", why: "Cave interiors are naturally dim, and a light helps pick out carved detail." },
-    ],
-  },
-];
-
 export default function BadamiGuidePage() {
   return (
     <>
@@ -127,7 +109,9 @@ export default function BadamiGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/hampi/hero.jpg" alt="Rock-cut heritage architecture representative of Badami, Karnataka" fill priority sizes="100vw" className="object-cover" />
+            <Image
+              src="/images/blogs/karnataka/badami-aihole-pattadakal/badami-aihole-and-pattadakal-2.webp"
+              alt="Badami, Aihole & Pattadakal, Karnataka" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -235,9 +219,6 @@ export default function BadamiGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Badami, Aihole & Pattadakal</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/hampi/hero.jpg" alt="Rock-cut cave temple architecture representative of the region" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>Badami Cave Temples:</strong> Four rock-cut cave temples carved into a red sandstone cliff overlooking Agastya Lake, with Hindu and Jain dedications and finely detailed relief carvings.</li>
                     <li><strong>Badami Fort:</strong> Hilltop fortifications above the caves offering panoramic views.</li>
@@ -361,7 +342,6 @@ export default function BadamiGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={BADAMI_GEAR} destination="Badami" />
               <RelatedPostsGrid currentSlug="badami-aihole-pattadakal-travel-guide" />
             </article>
 

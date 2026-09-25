@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jammu-kashmir/dal.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Calm reservoir surrounded by forested hills, evoking Umiam Lake near Shillong",
+        url: "/images/blogs/meghalaya/umiam-lake/umiam-lake.webp",
+        width: 1600,
+        height: 1067,
+        alt: "Umiam Lake, Meghalaya",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Umiam Lake Guide: Boating & Best Time",
     description:
       "A large reservoir ringed by forested hills, minutes from Shillong — the complete guide to Umiam Lake.",
-    images: ["/images/destinations/jammu-kashmir/dal.jpg"],
+    images: ["/images/blogs/meghalaya/umiam-lake/umiam-lake.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/umiam-lake-travel-guide",
@@ -59,7 +60,7 @@ function ArticleSchema() {
           headline: "Umiam Lake Guide: Boating & Best Time",
           description:
             "Complete Umiam Lake (Barapani) guide — boating and water sports near Shillong, best time to visit, how to reach, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/jammu-kashmir/dal.jpg",
+          image: "https://club.kudozz.in/images/blogs/meghalaya/umiam-lake/umiam-lake.webp",
           datePublished: "2026-09-05",
           dateModified: "2026-09-05",
           publisher: {
@@ -168,8 +169,8 @@ export default function UmiamLakeGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jammu-kashmir/dal.jpg"
-              alt="Calm reservoir surrounded by forested hills, evoking Umiam Lake near Shillong"
+              src="/images/blogs/meghalaya/umiam-lake/umiam-lake.webp"
+              alt="Umiam Lake, Meghalaya"
               fill
               priority
               sizes="100vw"
@@ -313,6 +314,7 @@ export default function UmiamLakeGuidePage() {
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">
                   <h2>Best Time to Visit Umiam Lake</h2>
+                  <GuideFigure src="/images/blogs/meghalaya/umiam-lake/umiam-lake-view.webp" alt="Umiam Lake, Meghalaya" />
                   <p>
                     As with most of Meghalaya, the dry season offers the
                     clearest skies and most comfortable conditions for
@@ -405,15 +407,6 @@ export default function UmiamLakeGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Boating & Water Sports</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/jammu-kashmir/dal.jpg"
-                      alt="Reservoir and forested hills at Umiam Lake, Meghalaya"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Boating</h3>
                   <p>
                     Local operators run boat rides on the lake, ranging from

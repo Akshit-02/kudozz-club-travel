@@ -7,10 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -28,10 +24,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/blogs/bihar/bihar/mahabodhi-temple-bodh-gaya-bihar.webp",
+        url: "/images/blogs/bihar/bihar/bihar-2.webp",
         width: 1600,
-        height: 1067,
-        alt: "The tall stepped spire of the Mahabodhi Temple rising above its garden complex, Bodh Gaya, Bihar",
+        height: 756,
+        alt: "View of Bihar",
       },
     ],
   },
@@ -61,7 +57,7 @@ function ArticleSchema() {
           headline: "Bihar Travel Guide: Bodh Gaya, Nalanda & Patna",
           description: "The complete Bihar travel guide.",
           image:
-            "https://club.kudozz.in/images/blogs/bihar/bihar/mahabodhi-temple-bodh-gaya-bihar.webp",
+            "https://club.kudozz.in/images/blogs/bihar/bihar/bihar-2.webp",
           datePublished: "2026-07-22",
           dateModified: "2026-07-22",
           publisher: {
@@ -189,84 +185,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-// ── Bihar-specific gear ─────────────────────────────────────────────────────
-const BIHAR_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle:
-      "Gear for temple and ruin sightseeing, and Bihar's hot Gangetic plain climate",
-    emoji: "🪷",
-    items: [
-      {
-        name: "Comfortable Walking Shoes",
-        description:
-          "Nalanda's ruins and the Mahabodhi Temple complex both involve significant walking on stone and gravel paths, often barefoot at the shrine itself.",
-        price: "₹1,499",
-        image: "👟",
-        affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
-        tag: "Sightseeing essential",
-        tagColor: "bg-stone-100 text-stone-700",
-        why: "Easy slip-on footwear helps at Bodh Gaya, where shoes come off before entering most temple and monastery grounds.",
-      },
-      {
-        name: "Sunscreen (SPF 50)",
-        description:
-          "Bihar's Gangetic plain gets brutally hot outside the winter months, with long hours of direct sun at open ruin sites like Nalanda.",
-        price: "₹399",
-        image: "🧴",
-        affiliateUrl: amazonSearchUrl("sunscreen+spf+50+travel"),
-        tag: "Everyday essential",
-        tagColor: "bg-red-100 text-red-700",
-        why: "There's little shade across the Nalanda ruins or Rajgir's open sites — sun protection matters even in the cooler months.",
-      },
-      {
-        name: "Reusable Water Bottle",
-        description:
-          "Useful across long days moving between Bodh Gaya, Nalanda, Rajgir, and Patna in Bihar's dry heat.",
-        price: "₹699",
-        image: "🍶",
-        affiliateUrl: amazonSearchUrl("insulated+water+bottle+steel"),
-        tag: "Everyday essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Bottled water is easy to find in Bodh Gaya and Patna but thinner elsewhere — carrying your own is a simple safeguard.",
-      },
-      {
-        name: "Power Bank (10,000 mAh)",
-        description:
-          "Handy for long road transfers between Bodh Gaya, Nalanda/Rajgir, and Patna, where charging stops can be infrequent.",
-        price: "₹1,299",
-        image: "🔋",
-        affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
-        tag: "Day-trip essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "Day trips between towns often run 3-4 hours by road — a charged power bank avoids running low mid-transfer.",
-      },
-      {
-        name: "Basic First Aid Kit",
-        description:
-          "A compact kit with essentials for stomach upset, cuts, and headaches — useful outside Bodh Gaya and Patna where clinics thin out.",
-        price: "₹499",
-        image: "🩹",
-        affiliateUrl: amazonSearchUrl("travel+first+aid+kit"),
-        tag: "Peace of mind",
-        tagColor: "bg-emerald-100 text-emerald-700",
-        why: "Medical infrastructure outside Bodh Gaya and Patna is limited — a basic kit covers the small, common issues.",
-      },
-      {
-        name: "Modest, Breathable Clothing",
-        description:
-          "Loose, covering clothing that's respectful at the Mahabodhi Temple, Patna Sahib Gurdwara, and other active religious sites.",
-        price: "₹899",
-        image: "🧣",
-        affiliateUrl: amazonSearchUrl("modest+travel+clothing+cotton"),
-        tag: "Respectful travel",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "Bodh Gaya and Patna Sahib are living places of worship, not just monuments — covered shoulders and knees go a long way.",
-      },
-    ],
-  },
-];
-
 // ── Page ─────────────────────────────────────────────────────────────────────
 export default function BiharGuidePage() {
   return (
@@ -280,8 +198,8 @@ export default function BiharGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/blogs/bihar/bihar/mahabodhi-temple-bodh-gaya-bihar.webp"
-              alt="The tall stepped spire of the Mahabodhi Temple rising above its garden complex, Bodh Gaya, Bihar"
+              src="/images/blogs/bihar/bihar/bihar-2.webp"
+              alt="View of Bihar"
               fill
               priority
               sizes="100vw"
@@ -632,8 +550,8 @@ export default function BiharGuidePage() {
                   <h2>Bodh Gaya: Where Buddhism Began</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/blogs/bihar/bihar/mahabodhi-temple-bodh-gaya-bihar.webp"
-                      alt="The tall stepped spire of the Mahabodhi Temple rising above its garden complex, Bodh Gaya, Bihar"
+                      src="/images/blogs/bihar/bihar/barabar-caves-bihar-2.webp"
+                      alt="Barabar Caves, Bihar"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -1356,12 +1274,6 @@ export default function BiharGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              {/* ── Gear Recommendations ──────────────────────────────── */}
-              <TrekGearRecommendations
-                sections={BIHAR_GEAR}
-                destination="Bihar"
-              />
 
               <RelatedPostsGrid currentSlug="bihar-travel-guide" />
             </article>

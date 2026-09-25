@@ -7,8 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Pasighat Travel Guide: Arunachal's Oldest Town on the Siang River",
@@ -21,9 +19,9 @@ export const metadata: Metadata = {
     description: "The state's oldest permanent settlement, sitting on the banks of the Siang River as it rushes out of the Himalayas onto the Assam plains — the complete guide to Pasighat.",
     url: "https://club.kudozz.in/blog/pasighat-travel-guide",
     type: "article", siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/kerala/alleppey.jpg", width: 1200, height: 630, alt: "River landscape representative of Pasighat, Arunachal Pradesh" }],
+    images: [{ url: "/images/blogs/arunachal-pradesh/pasighat/siang-river-pasighat.webp", width: 1600, height: 720, alt: "Siang River, Pasighat" }],
   },
-  twitter: { card: "summary_large_image", title: "Pasighat Travel Guide: Arunachal's Oldest Town on the Siang River", description: "The Siang River and Adi tribal culture — the complete guide to Pasighat.", images: ["/images/destinations/kerala/alleppey.jpg"] },
+  twitter: { card: "summary_large_image", title: "Pasighat Travel Guide: Arunachal's Oldest Town on the Siang River", description: "The Siang River and Adi tribal culture — the complete guide to Pasighat.", images: ["/images/blogs/arunachal-pradesh/pasighat/siang-river-pasighat.webp"] },
   alternates: { canonical: "https://club.kudozz.in/blog/pasighat-travel-guide" },
 };
 
@@ -33,7 +31,7 @@ function ArticleSchema() {
       "@context": "https://schema.org", "@type": "BlogPosting",
       headline: "Pasighat Travel Guide: Arunachal's Oldest Town on the Siang River",
       description: "The complete Pasighat travel guide.",
-      image: "https://club.kudozz.in/images/destinations/kerala/alleppey.jpg",
+      image: "https://club.kudozz.in/images/blogs/arunachal-pradesh/pasighat/siang-river-pasighat.webp",
       datePublished: "2026-09-08", dateModified: "2026-09-08",
       publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
       author: { "@type": "Organization", name: "Kudozz Club" },
@@ -80,16 +78,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const PASIGHAT_GEAR: GearSection[] = [{
-  title: "Things Worth Carrying", subtitle: "Gear for riverside exploring and rafting", emoji: "🌊",
-  items: [
-    { name: "Quick-Dry Clothing", description: "Useful for river-based activities and Pasighat's generally humid climate.", price: "₹899",  image: "👕", affiliateUrl: amazonSearchUrl("quick+dry+travel+clothing"), tag: "River-activity essential", tagColor: "bg-sky-100 text-sky-700", why: "If rafting or spending time near the Siang River, quick-dry fabric is far more comfortable." },
-    { name: "Insect Repellent", description: "Riverside and forest areas around Pasighat are genuinely mosquito-prone.", price: "₹199",  image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Essential", tagColor: "bg-forest-100 text-forest-700", why: "Humid riverside terrain makes this a genuine necessity, not just a nice-to-have." },
-    { name: "Comfortable Walking Shoes", description: "For exploring the town and Daying Ering Wildlife Sanctuary.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-amber-100 text-amber-700", why: "Useful for both town walks and the wildlife sanctuary's nature trails." },
-    { name: "Waterproof Phone Pouch", description: "Sensible if planning any river rafting or boat activities on the Siang.", price: "₹299",  image: "📱", affiliateUrl: amazonSearchUrl("waterproof+phone+pouch+travel"), tag: "River essential", tagColor: "bg-purple-100 text-purple-700", why: "Protects your phone during any water-based activity on the Siang River." },
-  ],
-}];
-
 export default function PasighatGuidePage() {
   return (
     <>
@@ -97,7 +85,7 @@ export default function PasighatGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/kerala/alleppey.jpg" alt="River landscape representative of Pasighat, Arunachal Pradesh" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/arunachal-pradesh/pasighat/siang-river-pasighat.webp" alt="Siang River, Pasighat" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -201,7 +189,7 @@ export default function PasighatGuidePage() {
                 <section id="top-attractions">
                   <h2>Top Things to Do in Pasighat</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/kerala/alleppey.jpg" alt="Riverside scenery around Pasighat" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
+                    <Image src="/images/blogs/arunachal-pradesh/pasighat/pasighat.webp" alt="Pasighat, Arunachal Pradesh" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
                   </div>
                   <ul>
                     <li><strong>Siang River:</strong> A genuinely scenic riverfront where the Himalayan river transitions to plains — walks and views along the bank are a highlight in themselves.</li>
@@ -324,7 +312,6 @@ export default function PasighatGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={PASIGHAT_GEAR} destination="Pasighat" />
               <RelatedPostsGrid currentSlug="pasighat-travel-guide" />
             </article>
             <div className="hidden xl:block w-64 2xl:w-72 flex-shrink-0"><div className="sticky top-24"><RelatedSidebar currentSlug="pasighat-travel-guide" /></div></div>

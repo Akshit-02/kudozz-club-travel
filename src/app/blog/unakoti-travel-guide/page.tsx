@@ -534,15 +534,6 @@ export default function UnakotiGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>The Carvings & the Trail</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/tripura/unakoti/rock-cut-carvings-unakoti.webp"
-                      alt="Moss-covered rock-cut carvings and a waterfall at the Unakoti archaeological site"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Unakotishwara Kal Bhairava</h3>
                   <p>
                     The site's single most striking image — a giant carved

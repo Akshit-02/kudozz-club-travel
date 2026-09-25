@@ -7,10 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Sasaram Travel Guide: Sher Shah Suri's Tomb & Grand Trunk Road History",
@@ -27,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jammu-kashmir/dal.jpg",
-        width: 1200,
-        height: 630,
-        alt: "A monumental domed tomb rising from a lake, evoking Sher Shah Suri's Tomb in Sasaram, Bihar",
+        url: "/images/blogs/bihar/sasaram/sher-shah-suri-s-tomb-sasaram-2.webp",
+        width: 1600,
+        height: 900,
+        alt: "Sher Shah Suri's Tomb, Sasaram",
       },
     ],
   },
@@ -38,7 +34,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Sasaram Travel Guide: Sher Shah Suri's Tomb & Grand Trunk Road History",
     description: "A monumental lake tomb and the roots of the Grand Trunk Road — the complete guide to Sasaram.",
-    images: ["/images/destinations/jammu-kashmir/dal.jpg"],
+    images: ["/images/blogs/bihar/sasaram/sher-shah-suri-s-tomb-sasaram-2.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/sasaram-travel-guide",
@@ -55,7 +51,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Sasaram Travel Guide: Sher Shah Suri's Tomb & Grand Trunk Road History",
           description: "The complete Sasaram travel guide.",
-          image: "https://club.kudozz.in/images/destinations/jammu-kashmir/dal.jpg",
+          image: "https://club.kudozz.in/images/blogs/bihar/sasaram/sher-shah-suri-s-tomb-sasaram-2.webp",
           datePublished: "2026-09-08",
           dateModified: "2026-09-08",
           publisher: {
@@ -143,56 +139,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const SASARAM_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for exploring the lakeside tomb grounds",
-    emoji: "🏛️",
-    items: [
-      {
-        name: "Comfortable Walking Shoes",
-        description: "The tomb's causeway and surrounding grounds involve a fair amount of walking.",
-        price: "₹1,499",
-        image: "👟",
-        affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
-        tag: "Sightseeing essential",
-        tagColor: "bg-stone-100 text-stone-700",
-        why: "The lakeside path and causeway to the tomb reward comfortable footwear.",
-      },
-      {
-        name: "Sunscreen (SPF 50)",
-        description: "Little shade around the open lake and tomb grounds.",
-        price: "₹399",
-        image: "🧴",
-        affiliateUrl: amazonSearchUrl("sunscreen+spf+50+travel"),
-        tag: "Everyday essential",
-        tagColor: "bg-red-100 text-red-700",
-        why: "The open lakeside setting offers minimal shade for extended sightseeing.",
-      },
-      {
-        name: "Camera",
-        description: "The tomb's scale and lake setting are genuinely photogenic, especially from across the water.",
-        price: "₹—",
-        image: "📷",
-        affiliateUrl: amazonSearchUrl("compact+camera+travel"),
-        tag: "Sightseeing essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "Sher Shah Suri's Tomb is one of the more visually striking monuments in the region.",
-      },
-      {
-        name: "Reusable Water Bottle",
-        description: "Facilities are limited around the tomb grounds — carry your own water.",
-        price: "₹699",
-        image: "🍶",
-        affiliateUrl: amazonSearchUrl("insulated+water+bottle+steel"),
-        tag: "Everyday essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "This is a smaller heritage town with thinner amenities than Bihar's bigger hubs.",
-      },
-    ],
-  },
-];
-
 export default function SasaramGuidePage() {
   return (
     <>
@@ -204,8 +150,8 @@ export default function SasaramGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jammu-kashmir/dal.jpg"
-              alt="A monumental domed tomb rising from a lake, evoking Sher Shah Suri's Tomb in Sasaram, Bihar"
+              src="/images/blogs/bihar/sasaram/sher-shah-suri-s-tomb-sasaram-2.webp"
+              alt="Sher Shah Suri's Tomb, Sasaram"
               fill
               priority
               sizes="100vw"
@@ -420,8 +366,8 @@ export default function SasaramGuidePage() {
                   <h2>Top Things to Do in Sasaram</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/jammu-kashmir/dal.jpg"
-                      alt="Lakeside tomb architecture evoking Sher Shah Suri's Tomb"
+                      src="/images/blogs/bihar/sasaram/sasaram.webp"
+                      alt="Sasaram, Bihar"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -685,8 +631,6 @@ export default function SasaramGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              <TrekGearRecommendations sections={SASARAM_GEAR} destination="Sasaram" />
 
               <RelatedPostsGrid currentSlug="sasaram-travel-guide" />
             </article>

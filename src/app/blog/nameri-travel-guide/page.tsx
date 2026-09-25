@@ -7,8 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
   title: "Nameri National Park Travel Guide: Rafting & Birdwatching",
@@ -21,9 +20,9 @@ export const metadata: Metadata = {
     description: "A forest park on the Jia Bhoroli River known for river rafting and some of Northeast India's best birdwatching — the complete guide to Nameri.",
     url: "https://club.kudozz.in/blog/nameri-travel-guide",
     type: "article", siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/meghalaya/dawki-river.jpg", width: 1200, height: 630, alt: "River and forest landscape representative of Nameri National Park, Assam" }],
+    images: [{ url: "/images/blogs/assam/nameri/nameri-national-park.webp", width: 1600, height: 1200, alt: "View of Nameri National Park, Assam" }],
   },
-  twitter: { card: "summary_large_image", title: "Nameri National Park Travel Guide: Rafting & Birdwatching", description: "River rafting and premier birdwatching on the Jia Bhoroli — the complete guide to Nameri.", images: ["/images/destinations/meghalaya/dawki-river.jpg"] },
+  twitter: { card: "summary_large_image", title: "Nameri National Park Travel Guide: Rafting & Birdwatching", description: "River rafting and premier birdwatching on the Jia Bhoroli — the complete guide to Nameri.", images: ["/images/blogs/assam/nameri/nameri-national-park.webp"] },
   alternates: { canonical: "https://club.kudozz.in/blog/nameri-travel-guide" },
 };
 
@@ -33,7 +32,7 @@ function ArticleSchema() {
       "@context": "https://schema.org", "@type": "BlogPosting",
       headline: "Nameri National Park Travel Guide: Rafting & Birdwatching",
       description: "The complete Nameri National Park travel guide.",
-      image: "https://club.kudozz.in/images/destinations/meghalaya/dawki-river.jpg",
+      image: "https://club.kudozz.in/images/blogs/assam/nameri/nameri-national-park.webp",
       datePublished: "2026-09-08", dateModified: "2026-09-08",
       publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
       author: { "@type": "Organization", name: "Kudozz Club" },
@@ -80,16 +79,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const NAMERI_GEAR: GearSection[] = [{
-  title: "Things Worth Carrying", subtitle: "Gear for rafting and birdwatching on the Jia Bhoroli", emoji: "🚣",
-  items: [
-    { name: "Quick-Dry Clothing", description: "For the rafting trip — synthetic quick-dry fabrics handle the river spray far better than cotton.", price: "₹899",  image: "👕", affiliateUrl: amazonSearchUrl("quick+dry+clothing+rafting"), tag: "Rafting essential", tagColor: "bg-sky-100 text-sky-700", why: "Cotton stays wet for hours after a rafting trip — quick-dry fabric dries in minutes." },
-    { name: "Binoculars", description: "Essential for Nameri's genuine birding significance, especially spotting the rare white-winged wood duck.", price: "₹1,999",  image: "🔭", affiliateUrl: amazonSearchUrl("binoculars+birdwatching"), tag: "Birding essential", tagColor: "bg-amber-100 text-amber-700", why: "Nameri's forest canopy means birds are often spotted at a distance or partially obscured — binoculars make the difference." },
-    { name: "Water Shoes / Grip Sandals", description: "For wading in and out of the raft at put-in and take-out points along rocky riverbanks.", price: "₹699",  image: "👟", affiliateUrl: amazonSearchUrl("water+shoes+river+rafting"), tag: "Rafting essential", tagColor: "bg-forest-100 text-forest-700", why: "Riverbank rocks can be slippery and sharp — proper water shoes prevent cuts and slips." },
-    { name: "Dry Bag", description: "Keeps your phone, camera, and valuables safe and dry throughout the rafting trip.", price: "₹599",  image: "🎒", affiliateUrl: amazonSearchUrl("waterproof+dry+bag+rafting"), tag: "Non-negotiable", tagColor: "bg-red-100 text-red-700", why: "A dry bag is the only reliable way to keep electronics safe on a rafting trip." },
-  ],
-}];
-
 export default function NameriGuidePage() {
   return (
     <>
@@ -97,7 +86,7 @@ export default function NameriGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/meghalaya/dawki-river.jpg" alt="River and forest landscape representative of Nameri National Park, Assam" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/assam/nameri/nameri-national-park.webp" alt="View of Nameri National Park, Assam" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -201,9 +190,7 @@ export default function NameriGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do in Nameri</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/meghalaya/dawki-river.jpg" alt="Jia Bhoroli river scenery at Nameri" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
+                  <GuideFigure src="/images/blogs/assam/nameri/nameri-national-park-view.webp" alt="Nameri National Park, Assam" />
                   <ul>
                     <li><strong>Jia Bhoroli river rafting:</strong> Gentle, family-friendly rapids in most sections, run through eco-camps near the park.</li>
                     <li><strong>Birdwatching:</strong> A genuinely significant birding destination, notably for the rare white-winged wood duck.</li>
@@ -325,7 +312,6 @@ export default function NameriGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={NAMERI_GEAR} destination="Nameri" />
               <RelatedPostsGrid currentSlug="nameri-travel-guide" />
             </article>
             <div className="hidden xl:block w-64 2xl:w-72 flex-shrink-0"><div className="sticky top-24"><RelatedSidebar currentSlug="nameri-travel-guide" /></div></div>

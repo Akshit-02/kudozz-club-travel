@@ -7,10 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuidePhotoRow } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -29,10 +26,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/ziro/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Dense forest landscape representative of Mollem National Park, Goa",
+        url: "/images/blogs/goa/mollem/mollem-national-park-2.webp",
+        width: 1152,
+        height: 864,
+        alt: "Mollem National Park, Goa",
       },
     ],
   },
@@ -42,7 +39,7 @@ export const metadata: Metadata = {
       "Mollem National Park Travel Guide: Wildlife & Waterfalls Near Dudhsagar",
     description:
       "Goa's largest protected forest, home to the Bhagwan Mahavir Wildlife Sanctuary — the complete guide to Mollem.",
-    images: ["/images/destinations/ziro/hero.jpg"],
+    images: ["/images/blogs/goa/mollem/mollem-national-park-2.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/mollem-travel-guide",
@@ -61,7 +58,7 @@ function ArticleSchema() {
           headline:
             "Mollem National Park Travel Guide: Wildlife & Waterfalls Near Dudhsagar",
           description: "The complete Mollem travel guide.",
-          image: "https://club.kudozz.in/images/destinations/ziro/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/goa/mollem/mollem-national-park-2.webp",
           datePublished: "2026-09-08",
           dateModified: "2026-09-08",
           publisher: {
@@ -185,61 +182,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-// ── Mollem-specific gear ───────────────────────────────────────────────────────
-const MOLLEM_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for the forest, temple, and waterfall trip",
-    emoji: "🌲",
-    items: [
-      {
-        name: "Trekking Sandals / Grip Shoes",
-        description:
-          "For the short forest trails around Mollem and the sometimes-slippery approach to Dudhsagar Falls.",
-        price: "₹899",
-        image: "🥾",
-        affiliateUrl: amazonSearchUrl("trekking+sandals+grip+outdoor"),
-        tag: "Forest essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "Jeep-safari drop-off points and the waterfall approach both involve uneven, occasionally wet terrain.",
-      },
-      {
-        name: "Insect Repellent",
-        description:
-          "Genuinely necessary for time spent in Mollem's forest, especially around Tambdi Surla Temple and any walking trails.",
-        price: "₹199",
-        image: "🦟",
-        affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"),
-        tag: "Forest essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "Dense forest cover means a real mosquito presence, particularly during and after monsoon.",
-      },
-      {
-        name: "Reusable Water Bottle",
-        description:
-          "Facilities inside the sanctuary and around the jeep safari route are limited — carry enough water for the day.",
-        price: "₹449",
-        image: "💧",
-        affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"),
-        tag: "Day-trip essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "There are long stretches within the park with no shops or refill points.",
-      },
-      {
-        name: "Rain Jacket / Poncho",
-        description:
-          "Useful if visiting in shoulder-monsoon months when Dudhsagar is at its fullest but showers are common.",
-        price: "₹899",
-        image: "🧥",
-        affiliateUrl: amazonSearchUrl("packable+rain+jacket+trekking"),
-        tag: "Weather essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "The waterfall is most dramatic exactly when rain is most likely.",
-      },
-    ],
-  },
-];
-
 // ── Page ─────────────────────────────────────────────────────────────────────
 export default function MollemGuidePage() {
   return (
@@ -253,8 +195,8 @@ export default function MollemGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/ziro/hero.jpg"
-              alt="Dense forest landscape representative of Mollem National Park, Goa"
+              src="/images/blogs/goa/mollem/mollem-national-park-2.webp"
+              alt="Mollem National Park, Goa"
               fill
               priority
               sizes="100vw"
@@ -552,15 +494,6 @@ export default function MollemGuidePage() {
                 {/* ── Top Attractions ──────────────────────────────────── */}
                 <section id="top-attractions">
                   <h2>Top Things to Do in Mollem</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/ziro/hero.jpg"
-                      alt="Forest and hill scenery around Mollem National Park"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
 
                   <ul>
                     <li>
@@ -589,6 +522,12 @@ export default function MollemGuidePage() {
                       Dudhsagar.
                     </li>
                   </ul>
+                  <GuidePhotoRow
+                    images={[
+                      { src: "/images/blogs/goa/mollem/dudhsagar-falls-mollem-national-park.webp", alt: "Dudhsagar Falls, Mollem National Park", caption: "Dudhsagar Falls, Mollem National Park" },
+                      { src: "/images/blogs/goa/mollem/tambdi-surla-temple-mollem-national-park.webp", alt: "Tambdi Surla Temple, Mollem National Park", caption: "Tambdi Surla Temple, Mollem National Park" },
+                    ]}
+                  />
                 </section>
 
                 {/* ── Where to Stay ─────────────────────────────────────── */}
@@ -930,12 +869,6 @@ export default function MollemGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              {/* ── Gear Recommendations ──────────────────────────────── */}
-              <TrekGearRecommendations
-                sections={MOLLEM_GEAR}
-                destination="Mollem"
-              />
 
               <RelatedPostsGrid currentSlug="mollem-travel-guide" />
             </article>

@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -576,6 +577,7 @@ export default function VaranasiGuidePage() {
                     way to understand the city.
                   </p>
                   <h3>Dashashwamedh Ghat & the Evening Ganga Aarti</h3>
+                  <GuideFigure src="/images/blogs/uttar-pradesh/varanasi/dashashwamedh-ghat-and-the-evening-ganga-aarti-varanasi.webp" alt="Dashashwamedh Ghat & the Evening Ganga Aarti, Varanasi" />
                   <p>
                     The busiest and most central of the ghats, Dashashwamedh
                     is where the nightly <strong>Ganga Aarti</strong> is

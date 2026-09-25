@@ -7,10 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -186,84 +182,6 @@ const tableOfContents = [
   { id: "tips", title: "Essential Travel Tips", level: 2 },
   { id: "places-to-explore", title: "Places to Explore in Punjab", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
-];
-
-// ── Punjab-specific gear ─────────────────────────────────────────────────
-const PUNJAB_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle:
-      "Gear for temple etiquette, long queue times, and Punjab's sharp seasonal extremes",
-    emoji: "🛕",
-    items: [
-      {
-        name: "Lightweight Head Scarf",
-        description:
-          "Covering your head is mandatory inside the Golden Temple complex — carrying your own scarf is more comfortable than relying on the ones provided at the entrance.",
-        price: "₹299",
-        image: "🧣",
-        affiliateUrl: amazonSearchUrl("lightweight+head+scarf+travel"),
-        tag: "Golden Temple essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "Head covering is strictly required for all visitors, regardless of religion — bringing your own avoids queuing for a shared one at busy times.",
-      },
-      {
-        name: "Comfortable Walking Shoes (Easy-Off)",
-        description:
-          "Footwear must be removed before entering the Golden Temple complex, and the marble parikrama path around the sarovar is walked barefoot — slip-on shoes make this far easier.",
-        price: "₹899",
-        image: "🩴",
-        affiliateUrl: amazonSearchUrl("slip+on+sandals+travel"),
-        tag: "Temple essential",
-        tagColor: "bg-stone-100 text-stone-700",
-        why: "You'll be removing and re-collecting your shoes multiple times across a Golden Temple visit — slip-ons save real time and hassle.",
-      },
-      {
-        name: "Reusable Water Bottle",
-        description:
-          "Amritsar and Punjab's plains get very hot for much of the year, and the Golden Temple complex has long uncovered marble stretches.",
-        price: "₹699",
-        image: "🍶",
-        affiliateUrl: amazonSearchUrl("insulated+water+bottle+steel"),
-        tag: "Everyday essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "The marble parikrama around the sarovar gets scorching hot underfoot in summer — hydration and timing both matter here.",
-      },
-      {
-        name: "Modest Travel Clothing",
-        description:
-          "Covered shoulders and legs are expected at the Golden Temple and other gurdwaras — a simple, respectful outfit avoids any last-minute scrambling.",
-        price: "₹799",
-        image: "👗",
-        affiliateUrl: amazonSearchUrl("modest+travel+clothing+lightweight"),
-        tag: "Temple essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "Gurdwara etiquette expects modest dress from all visitors — planning for this ahead of time is simpler than adjusting on arrival.",
-      },
-      {
-        name: "Power Bank (10,000 mAh)",
-        description:
-          "Useful for the Wagah Border evening trip and long sightseeing days combining Amritsar's key sights.",
-        price: "₹1,299",
-        image: "🔋",
-        affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
-        tag: "Sightseeing essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "A full day covering the Golden Temple, Jallianwala Bagh, and an evening Wagah Border trip runs long — your phone works hard throughout.",
-      },
-      {
-        name: "Sun Hat",
-        description:
-          "Useful across Amritsar's open sights and the Wagah Border grandstand area, both largely uncovered.",
-        price: "₹399",
-        image: "👒",
-        affiliateUrl: amazonSearchUrl("wide+brim+sun+hat+travel"),
-        tag: "Sun essential",
-        tagColor: "bg-red-100 text-red-700",
-        why: "The Wagah Border ceremony involves significant waiting time in an open grandstand under direct sun before the evening show begins.",
-      },
-    ],
-  },
 ];
 
 // ── Page ─────────────────────────────────────────────────────────────────────
@@ -587,6 +505,15 @@ export default function PunjabGuidePage() {
                       Chandigarh — a common add-on to a North India trip.
                     </li>
                   </ul>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/punjab/punjab/takht-keshgarh-sahib-anandpur-sahib.webp"
+                      alt="Takht Sri Keshgarh Sahib, the sacred gurdwara marking the birthplace of the Khalsa in Anandpur Sahib"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <div
                     className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-xl my-4 text-sm"
                     style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -604,15 +531,6 @@ export default function PunjabGuidePage() {
                 {/* ── Amritsar ──────────────────────────────────────────── */}
                 <section id="amritsar">
                   <h2>Amritsar: The Golden Temple</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/punjab/punjab/golden-temple-amritsar-punjab.webp"
-                      alt="The gold-plated Golden Temple (Sri Harmandir Sahib) reflected in the Amrit Sarovar at sunset, Amritsar"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <p>
                     Sikhism's holiest site, the <strong>Golden Temple
                     (Sri Harmandir Sahib)</strong>, sits at the centre of a
@@ -721,15 +639,6 @@ export default function PunjabGuidePage() {
                       Sikh history through immersive exhibits.
                     </li>
                   </ul>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/punjab/punjab/takht-keshgarh-sahib-anandpur-sahib.webp"
-                      alt="Takht Sri Keshgarh Sahib, the sacred gurdwara marking the birthplace of the Khalsa in Anandpur Sahib"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                 </section>
 
                 {/* ── Rural Punjab ──────────────────────────────────────── */}
@@ -1276,12 +1185,6 @@ export default function PunjabGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              {/* ── Gear Recommendations ──────────────────────────────── */}
-              <TrekGearRecommendations
-                sections={PUNJAB_GEAR}
-                destination="Punjab"
-              />
 
               <RelatedPostsGrid currentSlug="punjab-travel-guide" />
             </article>

@@ -7,8 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Statue of Unity Travel Guide: World's Tallest Statue, Timings & Tips",
@@ -22,13 +20,13 @@ export const metadata: Metadata = {
     url: "https://club.kudozz.in/blog/statue-of-unity-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/hampi/hero.jpg", width: 1200, height: 630, alt: "Monumental heritage landmark representative of the Statue of Unity, Gujarat" }],
+    images: [{ url: "/images/blogs/gujarat/statue-of-unity/sardar-sarovar-dam-statue-of-unity.webp", width: 1600, height: 1200, alt: "Sardar Sarovar Dam, Statue of Unity" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Statue of Unity Travel Guide: World's Tallest Statue, Timings & Tips",
     description: "The viewing gallery, Sardar Sarovar Dam, and the light show — the complete guide to the Statue of Unity.",
-    images: ["/images/destinations/hampi/hero.jpg"],
+    images: ["/images/blogs/gujarat/statue-of-unity/sardar-sarovar-dam-statue-of-unity.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/statue-of-unity-travel-guide" },
 };
@@ -43,7 +41,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Statue of Unity Travel Guide: World's Tallest Statue, Timings & Tips",
           description: "The complete Statue of Unity travel guide.",
-          image: "https://club.kudozz.in/images/destinations/hampi/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/gujarat/statue-of-unity/sardar-sarovar-dam-statue-of-unity.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
@@ -102,20 +100,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const SOU_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for a full day at the statue complex",
-    emoji: "🗽",
-    items: [
-      { name: "Comfortable Walking Shoes", description: "The complex spans a large area — the statue, viewing gallery, memorial garden, and valley of flowers all involve walking.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-amber-100 text-amber-700", why: "The Statue of Unity complex is genuinely large — expect a full day of walking between attractions." },
-      { name: "Sun Hat & Sunscreen", description: "Much of the complex is outdoors with limited shade.", price: "₹599",  image: "🧴", affiliateUrl: amazonSearchUrl("sun+hat+sunscreen+travel"), tag: "Sun essential", tagColor: "bg-sky-100 text-sky-700", why: "Gujarat's sun is intense outside the winter months, and the complex has few shaded rest points." },
-      { name: "Reusable Water Bottle", description: "For a full day of walking around the site.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "Day-trip essential", tagColor: "bg-forest-100 text-forest-700", why: "A large, spread-out complex means real walking distance over the day." },
-      { name: "Camera", description: "For the viewing gallery panorama and the statue itself.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-purple-100 text-purple-700", why: "The viewing gallery offers one of Gujarat's most striking panoramic views." },
-    ],
-  },
-];
-
 export default function StatueOfUnityGuidePage() {
   return (
     <>
@@ -125,7 +109,7 @@ export default function StatueOfUnityGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/hampi/hero.jpg" alt="Monumental heritage landmark representative of the Statue of Unity, Gujarat" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/gujarat/statue-of-unity/sardar-sarovar-dam-statue-of-unity.webp" alt="Sardar Sarovar Dam, Statue of Unity" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -233,9 +217,6 @@ export default function StatueOfUnityGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do at the Statue of Unity</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/hampi/hero.jpg" alt="Monumental landmark scenery near the Statue of Unity" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>Viewing gallery:</strong> A panoramic viewpoint inside the statue, reached by high-speed elevators, overlooking the dam and hill ranges.</li>
                     <li><strong>Sardar Sarovar Dam:</strong> The dam the statue faces, worth a dedicated viewpoint stop.</li>
@@ -358,7 +339,6 @@ export default function StatueOfUnityGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={SOU_GEAR} destination="Statue of Unity" />
               <RelatedPostsGrid currentSlug="statue-of-unity-travel-guide" />
             </article>
 

@@ -7,10 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Munroe Island Travel Guide: Backwater Canoeing & Village Life",
@@ -24,13 +20,13 @@ export const metadata: Metadata = {
     url: "https://club.kudozz.in/blog/munroe-island-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/andaman/havelock.jpg", width: 1200, height: 630, alt: "Quiet backwater canal representative of Munroe Island, Kerala" }],
+    images: [{ url: "/images/blogs/kerala/munroe-island/munroe-island.webp", width: 1600, height: 1067, alt: "Munroe Island, Kerala" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Munroe Island Travel Guide: Backwater Canoeing & Village Life",
     description: "A quiet cluster of islands explored by narrow canoe through coir-village canals — the complete guide to Munroe Island.",
-    images: ["/images/destinations/andaman/havelock.jpg"],
+    images: ["/images/blogs/kerala/munroe-island/munroe-island.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/munroe-island-travel-guide" },
 };
@@ -45,7 +41,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Munroe Island Travel Guide: Backwater Canoeing & Village Life",
           description: "The complete Munroe Island travel guide.",
-          image: "https://club.kudozz.in/images/destinations/andaman/havelock.jpg",
+          image: "https://club.kudozz.in/images/blogs/kerala/munroe-island/munroe-island.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
@@ -104,20 +100,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const MUNROE_ISLAND_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for canoe tours and village walks",
-    emoji: "🛶",
-    items: [
-      { name: "Insect Repellent", description: "Narrow canal-side canoeing brings a steady mosquito presence, especially in the early morning and evening.", price: "₹199",  image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Canoe essential", tagColor: "bg-forest-100 text-forest-700", why: "The canal-village setting is prime mosquito habitat." },
-      { name: "Sun Hat", description: "Little shade on the open canoe stretches — a hat makes a real difference on a longer tour.", price: "₹399",  image: "🧢", affiliateUrl: amazonSearchUrl("sun+hat+travel+outdoor"), tag: "Day-tour essential", tagColor: "bg-amber-100 text-amber-700", why: "Canoe tours run for hours with direct sun exposure on the water." },
-      { name: "Waterproof Phone Pouch", description: "Narrow canoes carry a real risk of a dropped phone — worth protecting for photos of the canal-village scenery.", price: "₹299",  image: "📱", affiliateUrl: amazonSearchUrl("waterproof+phone+pouch+travel"), tag: "Canoe essential", tagColor: "bg-sky-100 text-sky-700", why: "Munroe Island's biggest draw is photogenic — protecting your phone matters." },
-      { name: "Comfortable Sandals", description: "For village walks and easy on-and-off during canoe embarkation.", price: "₹599",  image: "👡", affiliateUrl: amazonSearchUrl("comfortable+sandals+travel"), tag: "Village-walk essential", tagColor: "bg-purple-100 text-purple-700", why: "Getting in and out of a canoe repeatedly is easier with simple, secure footwear." },
-    ],
-  },
-];
-
 export default function MunroeIslandGuidePage() {
   return (
     <>
@@ -127,7 +109,7 @@ export default function MunroeIslandGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/andaman/havelock.jpg" alt="Quiet backwater canal representative of Munroe Island, Kerala" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/kerala/munroe-island/munroe-island.webp" alt="Munroe Island, Kerala" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -235,9 +217,6 @@ export default function MunroeIslandGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do at Munroe Island</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/andaman/havelock.jpg" alt="Narrow canal and village scenery around Munroe Island" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>Narrow canoe canal tours:</strong> The core Munroe Island experience, gliding through tight village canals in a country canoe.</li>
                     <li><strong>Coir-making demonstrations:</strong> Genuine, ongoing local cottage industry visible right from the water.</li>
@@ -354,7 +333,6 @@ export default function MunroeIslandGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={MUNROE_ISLAND_GEAR} destination="Munroe Island" />
               <RelatedPostsGrid currentSlug="munroe-island-travel-guide" />
             </article>
 

@@ -7,8 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
   title: "Namsai Travel Guide: The Golden Pagoda of Arunachal",
@@ -21,9 +20,9 @@ export const metadata: Metadata = {
     description: "A gleaming Buddhist pagoda modeled on Myanmar's temple architecture, at the heart of a district shaped by Tai Khamti culture — the complete guide to Namsai.",
     url: "https://club.kudozz.in/blog/namsai-travel-guide",
     type: "article", siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/jaisalmer/hero.jpg", width: 1200, height: 630, alt: "Golden pagoda architecture representative of Namsai, Arunachal Pradesh" }],
+    images: [{ url: "/images/blogs/arunachal-pradesh/namsai/namsai.webp", width: 1600, height: 900, alt: "Namsai, Arunachal Pradesh" }],
   },
-  twitter: { card: "summary_large_image", title: "Namsai Travel Guide: The Golden Pagoda of Arunachal", description: "The Golden Pagoda and Tai Khamti culture — the complete guide to Namsai.", images: ["/images/destinations/jaisalmer/hero.jpg"] },
+  twitter: { card: "summary_large_image", title: "Namsai Travel Guide: The Golden Pagoda of Arunachal", description: "The Golden Pagoda and Tai Khamti culture — the complete guide to Namsai.", images: ["/images/blogs/arunachal-pradesh/namsai/namsai.webp"] },
   alternates: { canonical: "https://club.kudozz.in/blog/namsai-travel-guide" },
 };
 
@@ -33,7 +32,7 @@ function ArticleSchema() {
       "@context": "https://schema.org", "@type": "BlogPosting",
       headline: "Namsai Travel Guide: The Golden Pagoda of Arunachal",
       description: "The complete Namsai travel guide.",
-      image: "https://club.kudozz.in/images/destinations/jaisalmer/hero.jpg",
+      image: "https://club.kudozz.in/images/blogs/arunachal-pradesh/namsai/namsai.webp",
       datePublished: "2026-09-08", dateModified: "2026-09-08",
       publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
       author: { "@type": "Organization", name: "Kudozz Club" },
@@ -80,16 +79,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const NAMSAI_GEAR: GearSection[] = [{
-  title: "Things Worth Carrying", subtitle: "Gear for a comfortable day trip", emoji: "🛕",
-  items: [
-    { name: "Comfortable Walking Shoes", description: "For exploring the pagoda grounds and the surrounding Tai Khamti villages.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-amber-100 text-amber-700", why: "The pagoda complex and nearby village areas involve a fair amount of walking." },
-    { name: "Modest Clothing", description: "Namsai's Golden Pagoda is an active place of worship — modest, respectful dress is expected.", price: "₹599",  image: "👕", affiliateUrl: amazonSearchUrl("modest+travel+clothing"), tag: "Temple essential", tagColor: "bg-purple-100 text-purple-700", why: "This is a working Buddhist pagoda, not a tourist backdrop — respectful dress matters." },
-    { name: "Sun Hat", description: "Namsai's plains terrain means more direct sun exposure than Arunachal's shaded mountain destinations.", price: "₹399",  image: "🧢", affiliateUrl: amazonSearchUrl("sun+hat+travel+outdoor"), tag: "Weather essential", tagColor: "bg-sky-100 text-sky-700", why: "The open plains setting offers less natural shade than the state's hillier regions." },
-    { name: "Camera", description: "The Golden Pagoda's architecture and the surrounding orange orchards are genuinely photogenic.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-forest-100 text-forest-700", why: "Namsai's Burmese-style architecture is visually distinct from anything else in the state." },
-  ],
-}];
-
 export default function NamsaiGuidePage() {
   return (
     <>
@@ -97,7 +86,7 @@ export default function NamsaiGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/jaisalmer/hero.jpg" alt="Golden pagoda architecture representative of Namsai, Arunachal Pradesh" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/arunachal-pradesh/namsai/namsai.webp" alt="Namsai, Arunachal Pradesh" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -201,9 +190,7 @@ export default function NamsaiGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do in Namsai</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/jaisalmer/hero.jpg" alt="Pagoda architecture around Namsai" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
+                  <GuideFigure src="/images/blogs/arunachal-pradesh/namsai/namsai-view.webp" alt="Namsai, Arunachal Pradesh" />
                   <ul>
                     <li><strong>Golden Pagoda (Kongmu Kham):</strong> A striking Burmese-style Buddhist pagoda, the district's signature landmark and an active place of worship.</li>
                     <li><strong>Tai Khamti villages:</strong> A chance to see a genuinely distinct regional culture, with architecture and Buddhist practice tracing back to Thailand and Myanmar.</li>
@@ -320,7 +307,6 @@ export default function NamsaiGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={NAMSAI_GEAR} destination="Namsai" />
               <RelatedPostsGrid currentSlug="namsai-travel-guide" />
             </article>
             <div className="hidden xl:block w-64 2xl:w-72 flex-shrink-0"><div className="sticky top-24"><RelatedSidebar currentSlug="namsai-travel-guide" /></div></div>

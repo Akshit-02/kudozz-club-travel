@@ -7,8 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Araku Valley Travel Guide: Coffee Hills & the Train Journey Through 58 Tunnels",
@@ -20,9 +18,9 @@ export const metadata: Metadata = {
     title: "Araku Valley Travel Guide: Coffee Hills & the Train Journey Through 58 Tunnels",
     description: "A coffee-growing tribal valley in the Eastern Ghats, reached by a train ride through 58 tunnels and dozens of bridges — the complete guide to Araku Valley.",
     url: "https://club.kudozz.in/blog/araku-valley-travel-guide", type: "article", siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/coorg/coorg.jpg", width: 1200, height: 630, alt: "Misty coffee hills representative of Araku Valley, Andhra Pradesh" }],
+    images: [{ url: "/images/blogs/andhra-pradesh/araku-valley/borra-caves-araku-valley-2.webp", width: 1200, height: 540, alt: "Borra Caves, Araku Valley" }],
   },
-  twitter: { card: "summary_large_image", title: "Araku Valley Travel Guide: Coffee Hills & the Train Journey Through 58 Tunnels", description: "A famous scenic train ride and coffee-growing tribal hills — the complete guide to Araku Valley.", images: ["/images/destinations/coorg/coorg.jpg"] },
+  twitter: { card: "summary_large_image", title: "Araku Valley Travel Guide: Coffee Hills & the Train Journey Through 58 Tunnels", description: "A famous scenic train ride and coffee-growing tribal hills — the complete guide to Araku Valley.", images: ["/images/blogs/andhra-pradesh/araku-valley/borra-caves-araku-valley-2.webp"] },
   alternates: { canonical: "https://club.kudozz.in/blog/araku-valley-travel-guide" },
 };
 
@@ -32,7 +30,7 @@ function ArticleSchema() {
       "@context": "https://schema.org", "@type": "BlogPosting",
       headline: "Araku Valley Travel Guide: Coffee Hills & the Train Journey Through 58 Tunnels",
       description: "The complete Araku Valley travel guide.",
-      image: "https://club.kudozz.in/images/destinations/coorg/coorg.jpg",
+      image: "https://club.kudozz.in/images/blogs/andhra-pradesh/araku-valley/borra-caves-araku-valley-2.webp",
       datePublished: "2026-09-08", dateModified: "2026-09-08",
       publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
       author: { "@type": "Organization", name: "Kudozz Club" },
@@ -79,16 +77,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const ARAKU_GEAR: GearSection[] = [{
-  title: "Things Worth Carrying", subtitle: "Gear for the train journey and hill exploring", emoji: "☕",
-  items: [
-    { name: "Light Warm Layer", description: "Araku's hill elevation means cooler mornings than the coastal plains below.", price: "₹1,499",  image: "🧥", affiliateUrl: amazonSearchUrl("light+warm+layer+travel"), tag: "Hill essential", tagColor: "bg-sky-100 text-sky-700", why: "Temperature drops noticeably as the train climbs into the Eastern Ghats." },
-    { name: "Camera", description: "The train journey through 58 tunnels and bridges is genuinely one of India's most photogenic rail routes.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Train-ride essential", tagColor: "bg-amber-100 text-amber-700", why: "This is a trip people specifically plan around the scenery — don't miss capturing it." },
-    { name: "Comfortable Walking Shoes", description: "For exploring the coffee museum, tribal markets, and Padmapuram Gardens.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-forest-100 text-forest-700", why: "Araku's sights are spread across the valley, best covered on foot in stretches." },
-    { name: "Insect Repellent", description: "Useful for the forested hill terrain around Araku and nearby waterfalls.", price: "₹199",  image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Forest essential", tagColor: "bg-purple-100 text-purple-700", why: "The valley's forest cover and waterfall spray zones support a real mosquito presence." },
-  ],
-}];
-
 export default function ArakuValleyGuidePage() {
   return (
     <>
@@ -96,7 +84,9 @@ export default function ArakuValleyGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/coorg/coorg.jpg" alt="Misty coffee hills representative of Araku Valley, Andhra Pradesh" fill priority sizes="100vw" className="object-cover" />
+            <Image
+              src="/images/blogs/andhra-pradesh/araku-valley/borra-caves-araku-valley-2.webp"
+              alt="Borra Caves, Araku Valley" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -198,9 +188,6 @@ export default function ArakuValleyGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do in Araku Valley</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/coorg/coorg.jpg" alt="Coffee estate hills around Araku Valley" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>The Vizag-Araku train journey:</strong> The signature experience — roughly 58 tunnels and numerous bridges through the Eastern Ghats.</li>
                     <li><strong>Araku Coffee Museum:</strong> A dedicated centre offering insight into local coffee cultivation and processing.</li>
@@ -324,7 +311,6 @@ export default function ArakuValleyGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={ARAKU_GEAR} destination="Araku Valley" />
               <RelatedPostsGrid currentSlug="araku-valley-travel-guide" />
             </article>
             <div className="hidden xl:block w-64 2xl:w-72 flex-shrink-0"><div className="sticky top-24"><RelatedSidebar currentSlug="araku-valley-travel-guide" /></div></div>

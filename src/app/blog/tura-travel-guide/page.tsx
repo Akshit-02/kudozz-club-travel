@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jaisalmer/hero.jpg",
+        url: "/images/blogs/meghalaya/tura/wangala-festival-tura.webp",
         width: 1200,
-        height: 630,
-        alt: "Hill town skyline at dusk, evoking Tura's setting as the main town of Meghalaya's Garo Hills",
+        height: 842,
+        alt: "Wangala Festival, Tura",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Tura Travel Guide: Gateway to Garo Hills",
     description:
       "Meghalaya's Garo Hills gateway town — Nokrek National Park, matrilineal Garo culture, and the base for Balpakram and Siju.",
-    images: ["/images/destinations/jaisalmer/hero.jpg"],
+    images: ["/images/blogs/meghalaya/tura/wangala-festival-tura.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/tura-travel-guide",
@@ -59,7 +60,7 @@ function ArticleSchema() {
           headline: "Tura Travel Guide: Gateway to Garo Hills",
           description:
             "Complete Tura guide — Garo Hills' main town, Nokrek National Park's citrus germplasm sanctuary, matrilineal Garo culture, the Wangala festival, how to reach, and how to use Tura as a base for Balpakram and Siju.",
-          image: "https://club.kudozz.in/images/destinations/jaisalmer/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/meghalaya/tura/wangala-festival-tura.webp",
           datePublished: "2026-09-05",
           dateModified: "2026-09-05",
           publisher: {
@@ -195,8 +196,8 @@ export default function TuraGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jaisalmer/hero.jpg"
-              alt="Hill town skyline at dusk, evoking Tura's setting as the main town of Meghalaya's Garo Hills"
+              src="/images/blogs/meghalaya/tura/wangala-festival-tura.webp"
+              alt="Wangala Festival, Tura"
               fill
               priority
               sizes="100vw"
@@ -512,15 +513,6 @@ export default function TuraGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Nokrek, Culture & Wangala</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/jaisalmer/hero.jpg"
-                      alt="Hill town at dusk near Tura, Garo Hills, Meghalaya"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Nokrek National Park</h3>
                   <p>
                     Just outside Tura, Nokrek National Park sits on the

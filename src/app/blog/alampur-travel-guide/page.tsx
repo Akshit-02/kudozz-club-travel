@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -533,15 +534,6 @@ export default function AlampurGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Navabrahma Temples & Jogulamba</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/telangana/alampur/navabrahma-temples-cluster-alampur.webp"
-                      alt="Cluster of Chalukyan-era Navabrahma temple towers within the Alampur temple courtyard"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>The Navabrahma Temples</h3>
                   <p>
                     A cluster of nine sandstone Shiva temples built during the
@@ -552,6 +544,7 @@ export default function AlampurGuidePage() {
                     outside Karnataka — a style rarely seen this far east.
                   </p>
                   <h3>Jogulamba Temple</h3>
+                  <GuideFigure src="/images/blogs/telangana/alampur/jogulamba-temple-alampur-2.webp" alt="Jogulamba Temple, Alampur" />
                   <p>
                     Dedicated to Jogulamba Devi, one of the 18 Shakti
                     Peethas, this temple was restored in relatively recent

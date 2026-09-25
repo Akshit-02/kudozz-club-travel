@@ -7,8 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Ahobilam Travel Guide: The Nine Forms of Lord Narasimha",
@@ -22,13 +20,13 @@ export const metadata: Metadata = {
     url: "https://club.kudozz.in/blog/ahobilam-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/hampi/virupaksha.jpg", width: 1200, height: 630, alt: "Temple stone carving representative of Ahobilam, Andhra Pradesh" }],
+    images: [{ url: "/images/blogs/andhra-pradesh/ahobilam/ahobilam-2.webp", width: 1600, height: 1292, alt: "View of Ahobilam, Andhra Pradesh" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Ahobilam Travel Guide: The Nine Forms of Lord Narasimha",
     description: "Nine forest temples, each dedicated to a different form of Lord Narasimha — the complete guide to Ahobilam.",
-    images: ["/images/destinations/hampi/virupaksha.jpg"],
+    images: ["/images/blogs/andhra-pradesh/ahobilam/ahobilam-2.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/ahobilam-travel-guide" },
 };
@@ -39,7 +37,7 @@ function ArticleSchema() {
       "@context": "https://schema.org", "@type": "BlogPosting",
       headline: "Ahobilam Travel Guide: The Nine Forms of Lord Narasimha",
       description: "The complete Ahobilam travel guide.",
-      image: "https://club.kudozz.in/images/destinations/hampi/virupaksha.jpg",
+      image: "https://club.kudozz.in/images/blogs/andhra-pradesh/ahobilam/ahobilam-2.webp",
       datePublished: "2026-09-08", dateModified: "2026-09-08",
       publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
       author: { "@type": "Organization", name: "Kudozz Club" },
@@ -86,16 +84,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const AHOBILAM_GEAR: GearSection[] = [{
-  title: "Things Worth Carrying", subtitle: "Gear for the Upper Ahobilam forest trek and temple visits", emoji: "🛕",
-  items: [
-    { name: "Sturdy Trekking Shoes", description: "Essential if attempting the Upper Ahobilam trail, which crosses uneven forest terrain to reach the remaining shrines.", price: "₹2,999",  image: "🥾", affiliateUrl: amazonSearchUrl("trekking+shoes+forest+trail"), tag: "Trek essential", tagColor: "bg-amber-100 text-amber-700", why: "The Upper Ahobilam path is genuinely uneven forest terrain, not a paved pilgrim route." },
-    { name: "Modest Cotton Clothing", description: "Required for temple entry at both Lower and Upper Ahobilam's active shrines.", price: "₹599",  image: "👕", affiliateUrl: amazonSearchUrl("modest+travel+clothing"), tag: "Temple essential", tagColor: "bg-purple-100 text-purple-700", why: "These are active, living pilgrimage sites, not tourist monuments." },
-    { name: "2L Hydration Bottle", description: "Facilities thin out fast past Lower Ahobilam — carrying enough water matters for the forest trek.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("2l+hydration+water+bottle+travel"), tag: "Trek essential", tagColor: "bg-sky-100 text-sky-700", why: "There are few reliable water sources between the lower and upper shrine clusters." },
-    { name: "Insect Repellent", description: "The dense Nallamala forest setting brings a real mosquito and insect presence, especially near dusk.", price: "₹199",  image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Forest essential", tagColor: "bg-forest-100 text-forest-700", why: "Ahobilam sits within genuine forest cover, unlike most temple towns." },
-  ],
-}];
-
 export default function AhobilamGuidePage() {
   return (
     <>
@@ -103,7 +91,7 @@ export default function AhobilamGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/hampi/virupaksha.jpg" alt="Temple stone carving representative of Ahobilam, Andhra Pradesh" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/andhra-pradesh/ahobilam/ahobilam-2.webp" alt="View of Ahobilam, Andhra Pradesh" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -207,9 +195,6 @@ export default function AhobilamGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do in Ahobilam</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/hampi/virupaksha.jpg" alt="Temple architecture around Ahobilam" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>Prahladavarada Temple (Lower Ahobilam):</strong> The main, most accessible shrine and the focus of most visitors' trips.</li>
                     <li><strong>Upper Ahobilam shrines:</strong> The remaining Nava Narasimha temples, reached via a demanding forest trail — only for well-prepared, dedicated pilgrims.</li>
@@ -329,7 +314,6 @@ export default function AhobilamGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={AHOBILAM_GEAR} destination="Ahobilam" />
               <RelatedPostsGrid currentSlug="ahobilam-travel-guide" />
             </article>
             <div className="hidden xl:block w-64 2xl:w-72 flex-shrink-0"><div className="sticky top-24"><RelatedSidebar currentSlug="ahobilam-travel-guide" /></div></div>

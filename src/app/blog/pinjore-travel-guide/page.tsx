@@ -7,8 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Pinjore Gardens Travel Guide: Mughal Terraces Near Chandigarh",
@@ -20,9 +18,9 @@ export const metadata: Metadata = {
     title: "Pinjore Gardens Travel Guide: Mughal Terraces Near Chandigarh",
     description: "A seven-tiered Mughal garden complex with cascading fountains, built as a royal retreat on the road to Shimla — the complete guide to Pinjore.",
     url: "https://club.kudozz.in/blog/pinjore-travel-guide", type: "article", siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/jaisalmer/fort.jpg", width: 1200, height: 630, alt: "Mughal-era garden and pavilion architecture representative of Pinjore, Haryana" }],
+    images: [{ url: "/images/blogs/haryana/pinjore/pinjore-gardens.webp", width: 1200, height: 900, alt: "Pinjore Gardens, Haryana" }],
   },
-  twitter: { card: "summary_large_image", title: "Pinjore Gardens Travel Guide: Mughal Terraces Near Chandigarh", description: "A seven-tiered Mughal garden with fountains and pavilions — the complete guide to Pinjore.", images: ["/images/destinations/jaisalmer/fort.jpg"] },
+  twitter: { card: "summary_large_image", title: "Pinjore Gardens Travel Guide: Mughal Terraces Near Chandigarh", description: "A seven-tiered Mughal garden with fountains and pavilions — the complete guide to Pinjore.", images: ["/images/blogs/haryana/pinjore/pinjore-gardens.webp"] },
   alternates: { canonical: "https://club.kudozz.in/blog/pinjore-travel-guide" },
 };
 
@@ -32,7 +30,7 @@ function ArticleSchema() {
       "@context": "https://schema.org", "@type": "BlogPosting",
       headline: "Pinjore Gardens Travel Guide: Mughal Terraces Near Chandigarh",
       description: "The complete Pinjore travel guide.",
-      image: "https://club.kudozz.in/images/destinations/jaisalmer/fort.jpg",
+      image: "https://club.kudozz.in/images/blogs/haryana/pinjore/pinjore-gardens.webp",
       datePublished: "2026-09-07", dateModified: "2026-09-07",
       publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
       author: { "@type": "Organization", name: "Kudozz Club" },
@@ -79,16 +77,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const PINJORE_GEAR: GearSection[] = [{
-  title: "Things Worth Carrying", subtitle: "Gear for a garden walk and photography stop", emoji: "⛲",
-  items: [
-    { name: "Comfortable Walking Shoes", description: "The seven-terrace layout involves steady walking and shallow steps between levels.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Sightseeing essential", tagColor: "bg-amber-100 text-amber-700", why: "The terraced layout means continuous walking across the full visit." },
-    { name: "Sun Hat", description: "Much of the garden is open with limited shade, especially in the middle terraces.", price: "₹499",  image: "🧢", affiliateUrl: amazonSearchUrl("sun+hat+travel+outdoor"), tag: "Comfort essential", tagColor: "bg-sky-100 text-sky-700", why: "Summer visits especially benefit from sun protection." },
-    { name: "Camera", description: "The fountains, pavilions, and terraced symmetry are genuinely photogenic, especially in morning light.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Photography essential", tagColor: "bg-forest-100 text-forest-700", why: "This is one of the more photogenic Mughal garden layouts in North India." },
-    { name: "Reusable Water Bottle", description: "Useful for a comfortable walk through the full garden on a warm day.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "Day-trip essential", tagColor: "bg-purple-100 text-purple-700", why: "There's limited shade across the open terraces." },
-  ],
-}];
-
 export default function PinjoreGuidePage() {
   return (
     <>
@@ -96,7 +84,9 @@ export default function PinjoreGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/jaisalmer/fort.jpg" alt="Mughal-era garden and pavilion architecture representative of Pinjore, Haryana" fill priority sizes="100vw" className="object-cover" />
+            <Image
+              src="/images/blogs/haryana/pinjore/pinjore-gardens.webp"
+              alt="Pinjore Gardens, Haryana" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -199,9 +189,6 @@ export default function PinjoreGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do in Pinjore</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/jaisalmer/fort.jpg" alt="Mughal garden architecture at Pinjore" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>Seven-terrace garden walk:</strong> Fountains, water channels, and pavilions laid out across the full charbagh terraces.</li>
                     <li><strong>Shish Mahal and Rang Mahal:</strong> Historic pavilions within the garden complex, worth pausing at for their architectural detail.</li>
@@ -320,7 +307,6 @@ export default function PinjoreGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={PINJORE_GEAR} destination="Pinjore" />
               <RelatedPostsGrid currentSlug="pinjore-travel-guide" />
             </article>
             <div className="hidden xl:block w-64 2xl:w-72 flex-shrink-0"><div className="sticky top-24"><RelatedSidebar currentSlug="pinjore-travel-guide" /></div></div>

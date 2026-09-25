@@ -7,8 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuidePhotoRow } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
   title: "Patna Travel Guide: Golghar, Patna Sahib & Bihar's Capital",
@@ -22,13 +21,13 @@ export const metadata: Metadata = {
     url: "https://club.kudozz.in/blog/patna-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/jaisalmer/hero.jpg", width: 1200, height: 630, alt: "Riverside city architecture representative of Patna, Bihar" }],
+    images: [{ url: "/images/blogs/bihar/patna/patna.webp", width: 1600, height: 1200, alt: "View of Patna, Bihar" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Patna Travel Guide: Golghar, Patna Sahib & Bihar's Capital",
     description: "Golghar's colonial-era granary and Patna Sahib's Sikh heritage — the complete guide to Patna.",
-    images: ["/images/destinations/jaisalmer/hero.jpg"],
+    images: ["/images/blogs/bihar/patna/patna.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/patna-travel-guide" },
 };
@@ -39,7 +38,7 @@ function ArticleSchema() {
       "@context": "https://schema.org", "@type": "BlogPosting",
       headline: "Patna Travel Guide: Golghar, Patna Sahib & Bihar's Capital",
       description: "The complete Patna travel guide.",
-      image: "https://club.kudozz.in/images/destinations/jaisalmer/hero.jpg",
+      image: "https://club.kudozz.in/images/blogs/bihar/patna/patna.webp",
       datePublished: "2026-09-08", dateModified: "2026-09-08",
       publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
       author: { "@type": "Organization", name: "Kudozz Club" },
@@ -86,16 +85,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const PATNA_GEAR: GearSection[] = [{
-  title: "Things Worth Carrying", subtitle: "Gear for city sightseeing and the gurdwara visit", emoji: "🏙️",
-  items: [
-    { name: "Modest Clothing", description: "Expected at Patna Sahib Gurdwara — covered head (a scarf/cloth) is typically required inside.", price: "₹399",  image: "🧣", affiliateUrl: amazonSearchUrl("cotton+scarf+travel"), tag: "Gurdwara essential", tagColor: "bg-purple-100 text-purple-700", why: "Sikh gurdwaras require head covering — carry your own scarf rather than relying on one being provided." },
-    { name: "Comfortable Walking Shoes", description: "For Golghar's spiral staircase and general city sightseeing.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "City essential", tagColor: "bg-amber-100 text-amber-700", why: "Golghar's viewing platform is reached via a full spiral climb." },
-    { name: "Camera", description: "For the Ganges riverfront views from Golghar and the city's colonial-era architecture.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-sky-100 text-sky-700", why: "Golghar's rooftop view over the Ganges is one of Patna's best photo opportunities." },
-    { name: "Reusable Water Bottle", description: "For a full day moving between Golghar, Patna Sahib, the museum, and Kumhrar.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "All-day essential", tagColor: "bg-forest-100 text-forest-700", why: "Patna's main sights are spread across the city, adding up to real walking distance." },
-  ],
-}];
-
 export default function PatnaGuidePage() {
   return (
     <>
@@ -103,7 +92,7 @@ export default function PatnaGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/jaisalmer/hero.jpg" alt="Riverside city architecture representative of Patna, Bihar" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/bihar/patna/patna.webp" alt="View of Patna, Bihar" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -208,7 +197,7 @@ export default function PatnaGuidePage() {
                 <section id="top-attractions">
                   <h2>Top Things to Do in Patna</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/jaisalmer/hero.jpg" alt="City architecture and riverfront in Patna" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
+                    <Image src="/images/blogs/bihar/patna/kumhrar-patna.webp" alt="Kumhrar, Patna" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
                   </div>
                   <ul>
                     <li><strong>Golghar:</strong> A beehive-shaped colonial-era granary with a spiral staircase leading to a viewing platform over the Ganges and the city.</li>
@@ -217,6 +206,12 @@ export default function PatnaGuidePage() {
                     <li><strong>Kumhrar:</strong> Archaeological remains linked to ancient Pataliputra, the historic Mauryan capital under Ashoka.</li>
                     <li><strong>Ganges riverfront and ghats:</strong> A pleasant evening walk along the river.</li>
                   </ul>
+                  <GuidePhotoRow
+                    images={[
+                      { src: "/images/blogs/bihar/patna/golghar-patna-2.webp", alt: "Golghar, Patna", caption: "Golghar, Patna" },
+                      { src: "/images/blogs/bihar/patna/takht-sri-patna-sahib-2.webp", alt: "Takht Sri Patna Sahib, Bihar", caption: "Takht Sri Patna Sahib, Bihar" },
+                    ]}
+                  />
                 </section>
 
                 <section id="where-to-stay">
@@ -333,7 +328,6 @@ export default function PatnaGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={PATNA_GEAR} destination="Patna" />
               <RelatedPostsGrid currentSlug="patna-travel-guide" />
             </article>
             <div className="hidden xl:block w-64 2xl:w-72 flex-shrink-0"><div className="sticky top-24"><RelatedSidebar currentSlug="patna-travel-guide" /></div></div>

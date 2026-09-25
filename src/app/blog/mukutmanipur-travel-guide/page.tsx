@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -25,8 +26,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/blogs/west-bengal/mukutmanipur/mukutmanipur-dam-reservoir-bankura.webp",
-        width: 1200,
-        height: 630,
+        width: 1600,
+        height: 900,
         alt: "Mukutmanipur Dam and reservoir at dusk, ringed by hills in Bankura district, West Bengal",
       },
     ],
@@ -530,15 +531,7 @@ export default function MukutmanipurGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Dam, Boating & Nearby Sights</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/west-bengal/mukutmanipur/mukutmanipur-dam-reservoir-bankura.webp"
-                      alt="Reservoir and hills at Mukutmanipur, Bankura district"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
+                  <GuideFigure src="/images/blogs/west-bengal/mukutmanipur/mukutmanipur-view.webp" alt="Mukutmanipur, West Bengal" />
                   <h3>The Dam Viewpoint</h3>
                   <p>
                     The earthen dam itself is the centrepiece — a massive

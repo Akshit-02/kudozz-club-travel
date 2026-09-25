@@ -25,8 +25,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/destinations/jammu-kashmir/hero.jpg",
-        width: 1200,
-        height: 630,
+        width: 2560,
+        height: 1707,
         alt: "Open border landscape at dusk, evoking the daily Beating Retreat ceremony at Wagah",
       },
     ],
@@ -507,15 +507,6 @@ export default function WagahBorderGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>What Happens at the Ceremony</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/jammu-kashmir/hero.jpg"
-                      alt="Open border landscape evoking the Wagah ceremony grounds"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Pre-Ceremony Crowd Warm-Up</h3>
                   <p>
                     Before the formal ceremony begins, patriotic music plays

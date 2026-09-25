@@ -7,10 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuidePhotoRow } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
   title: "Indore Travel Guide: Sarafa Bazaar, Rajwada & Street Food Capital",
@@ -26,14 +23,14 @@ export const metadata: Metadata = {
     type: "article",
     siteName: "Kudozz Club",
     images: [
-      { url: "/images/destinations/udaipur/hero.jpg", width: 1200, height: 630, alt: "Palace architecture representative of Indore's Holkar-era heritage" },
+      { url: "/images/blogs/madhya-pradesh/indore/rajwada-palace-indore-2.webp", width: 1600, height: 900, alt: "Rajwada Palace, Indore" },
     ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Indore Travel Guide: Sarafa Bazaar, Rajwada & Street Food Capital",
     description: "A night market that comes alive after 9pm and an 18th-century Holkar palace — the complete guide to Indore.",
-    images: ["/images/destinations/udaipur/hero.jpg"],
+    images: ["/images/blogs/madhya-pradesh/indore/rajwada-palace-indore-2.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/indore-travel-guide" },
 };
@@ -48,7 +45,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Indore Travel Guide: Sarafa Bazaar, Rajwada & Street Food Capital",
           description: "The complete Indore travel guide.",
-          image: "https://club.kudozz.in/images/destinations/udaipur/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/madhya-pradesh/indore/rajwada-palace-indore-2.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
@@ -128,21 +125,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const INDORE_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for a market-hopping, food-first city trip",
-    emoji: "🍛",
-    items: [
-      { name: "Comfortable Walking Shoes", description: "A night at Sarafa Bazaar and a day at Chappan Dukan both mean hours on your feet weaving through stalls.", price: "₹1,199",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+outdoor"), tag: "Market-day essential", tagColor: "bg-amber-100 text-amber-700", why: "Both of Indore's famous food streets are best explored slowly, on foot, over several hours." },
-      { name: "Basic Antacid / Digestive Aid", description: "A genuinely useful, light-hearted item for anyone sampling their way through Indore's street food scene in one sitting.", price: "₹99",  image: "💊", affiliateUrl: amazonSearchUrl("antacid+travel+pack"), tag: "Food-trip essential", tagColor: "bg-red-100 text-red-700", why: "Sarafa Bazaar and Chappan Dukan both reward serious quantity — pace yourself or carry backup." },
-      { name: "Small Cash Pouch", description: "Most stalls at Sarafa Bazaar and Chappan Dukan are cash-only, and keeping small notes handy speeds up ordering.", price: "₹299",  image: "👛", affiliateUrl: amazonSearchUrl("travel+cash+pouch+wallet"), tag: "Street-food essential", tagColor: "bg-forest-100 text-forest-700", why: "Card acceptance is patchy at street stalls even in a well-developed city like Indore." },
-      { name: "Reusable Water Bottle", description: "Useful across a day of palace-and-market walking, especially outside the cooler winter months.", price: "₹349",  image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "Travel essential", tagColor: "bg-sky-100 text-sky-700", why: "Indore's markets involve a lot of standing and slow walking in close, warm crowds." },
-      { name: "Compact Daypack", description: "For carrying a jacket for the night market, camera gear, and any small shopping picked up along the way.", price: "₹899",  image: "🎒", affiliateUrl: amazonSearchUrl("daypack+travel+lightweight"), tag: "City-day essential", tagColor: "bg-purple-100 text-purple-700", why: "Sarafa Bazaar runs late into the night and can get cool — a daypack keeps a layer handy without carrying it by hand." },
-    ],
-  },
-];
-
 export default function IndoreGuidePage() {
   return (
     <>
@@ -152,7 +134,7 @@ export default function IndoreGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/udaipur/hero.jpg" alt="Palace architecture representative of Indore's Holkar-era heritage" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/madhya-pradesh/indore/rajwada-palace-indore-2.webp" alt="Rajwada Palace, Indore" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -283,9 +265,6 @@ export default function IndoreGuidePage() {
 
                 <section id="attractions">
                   <h2>Top Attractions</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/udaipur/hero.jpg" alt="Holkar-era palace architecture in Indore" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>Rajwada Palace:</strong> A seven-storey 18th-century Holkar dynasty palace facing the city's main square — Indore's most recognisable landmark.</li>
                     <li><strong>Lal Bagh Palace:</strong> A grand, European-influenced Holkar palace on the city's edge, now a museum showcasing royal furniture and décor.</li>
@@ -293,6 +272,12 @@ export default function IndoreGuidePage() {
                     <li><strong>Sarafa Bazaar:</strong> A jewellery market by day that becomes MP's most famous night food market after dark — the single best reason to visit Indore.</li>
                     <li><strong>Chappan Dukan:</strong> A dedicated all-day food street ("56 shops"), a good daytime alternative or companion to Sarafa Bazaar's night scene.</li>
                   </ul>
+                  <GuidePhotoRow
+                    images={[
+                      { src: "/images/blogs/madhya-pradesh/indore/rajwada-palace-indore.webp", alt: "Rajwada Palace, Indore", caption: "Rajwada Palace, Indore" },
+                      { src: "/images/blogs/madhya-pradesh/indore/lal-bagh-palace-indore.webp", alt: "Lal Bagh Palace, Indore", caption: "Lal Bagh Palace, Indore" },
+                    ]}
+                  />
                 </section>
 
                 <section id="where-to-stay">
@@ -411,7 +396,6 @@ export default function IndoreGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={INDORE_GEAR} destination="Indore" />
               <RelatedPostsGrid currentSlug="indore-travel-guide" />
             </article>
 

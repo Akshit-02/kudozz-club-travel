@@ -7,8 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuidePhotoRow } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
   title: "Gurugram Travel Guide: Cyber City, Kingdom of Dreams & Malls",
@@ -22,13 +21,13 @@ export const metadata: Metadata = {
     url: "https://club.kudozz.in/blog/gurugram-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/chandigarh/hero.jpg", width: 1200, height: 630, alt: "Modern skyline representative of Gurugram, Haryana" }],
+    images: [{ url: "/images/blogs/haryana/gurugram/kingdom-of-dreams-gurugram.webp", width: 1600, height: 1082, alt: "Kingdom of Dreams, Gurugram" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Gurugram Travel Guide: Cyber City, Kingdom of Dreams & Malls",
     description: "Cyber Hub, Kingdom of Dreams, and India's corporate capital — the complete guide to Gurugram.",
-    images: ["/images/destinations/chandigarh/hero.jpg"],
+    images: ["/images/blogs/haryana/gurugram/kingdom-of-dreams-gurugram.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/gurugram-travel-guide" },
 };
@@ -43,7 +42,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Gurugram Travel Guide: Cyber City, Kingdom of Dreams & Malls",
           description: "The complete Gurugram travel guide.",
-          image: "https://club.kudozz.in/images/destinations/chandigarh/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/haryana/gurugram/kingdom-of-dreams-gurugram.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
@@ -123,56 +122,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const GURUGRAM_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for mall-hopping and Cyber Hub's evening scene",
-    emoji: "🏙️",
-    items: [
-      {
-        name: "Comfortable Walking Shoes",
-        description: "Malls and Cyber Hub involve a surprising amount of walking across large complexes — comfort matters over a full day.",
-        price: "₹1,999",
-        image: "👟",
-        affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
-        tag: "All-day essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "Cyber Hub and the larger malls (Ambience, MGF Metropolitan) cover significant ground on foot.",
-      },
-      {
-        name: "Smart-Casual Outfit",
-        description: "Cyber Hub's restaurants and Kingdom of Dreams lean toward a smart-casual dress code in the evenings.",
-        price: "₹—",
-        image: "👔",
-        affiliateUrl: amazonSearchUrl("smart+casual+outfit+travel"),
-        tag: "Evening essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "Gurugram's dining and entertainment venues have a noticeably more upscale dress norm than a typical Indian tourist town.",
-      },
-      {
-        name: "Portable Power Bank",
-        description: "Useful for a full day of navigation, photos, and metro/cab app usage across a spread-out city.",
-        price: "₹899",
-        image: "🔋",
-        affiliateUrl: amazonSearchUrl("portable+power+bank+travel"),
-        tag: "City-travel essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "You'll likely rely heavily on maps and ride-hailing apps getting between Gurugram's spread-out sectors.",
-      },
-      {
-        name: "Light Jacket",
-        description: "Winter evenings (the best time to visit) get genuinely chilly, especially outdoors at Kingdom of Dreams or Cyber Hub.",
-        price: "₹1,499",
-        image: "🧥",
-        affiliateUrl: amazonSearchUrl("light+jacket+winter+travel"),
-        tag: "Winter essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "Delhi-NCR winter nights drop enough to need a proper layer, even indoors in some venues.",
-      },
-    ],
-  },
-];
-
 export default function GurugramGuidePage() {
   return (
     <>
@@ -184,8 +133,8 @@ export default function GurugramGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/chandigarh/hero.jpg"
-              alt="Modern skyline representative of Gurugram, Haryana"
+              src="/images/blogs/haryana/gurugram/kingdom-of-dreams-gurugram.webp"
+              alt="Kingdom of Dreams, Gurugram"
               fill
               priority
               sizes="100vw"
@@ -343,15 +292,6 @@ export default function GurugramGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do in Gurugram</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/chandigarh/hero.jpg"
-                      alt="Modern architecture in Gurugram"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <ul>
                     <li><strong>Kingdom of Dreams:</strong> A Bollywood-themed live entertainment venue combining theatre performances, cultural shows, and a food-and-shopping zone called Culture Gully — genuinely distinctive, not a typical mall attraction.</li>
                     <li><strong>Cyber Hub:</strong> Gurugram's major open-air dining and nightlife cluster, popular with the corporate crowd for evenings out.</li>
@@ -359,6 +299,12 @@ export default function GurugramGuidePage() {
                     <li><strong>Aravalli Biodiversity Park:</strong> An urban green space and a rare pocket of nature within the built-up city.</li>
                     <li><strong>Sheetla Mata Mandir:</strong> An older temple that predates Gurugram's corporate skyline, offering a contrast to the modern city around it.</li>
                   </ul>
+                  <GuidePhotoRow
+                    images={[
+                      { src: "/images/blogs/haryana/gurugram/kingdom-of-dreams-gurugram.webp", alt: "Kingdom of Dreams, Gurugram", caption: "Kingdom of Dreams, Gurugram" },
+                      { src: "/images/blogs/haryana/gurugram/cyber-hub-gurugram.webp", alt: "Cyber Hub, Gurugram", caption: "Cyber Hub, Gurugram" },
+                    ]}
+                  />
                 </section>
 
                 <section id="where-to-stay">
@@ -503,8 +449,6 @@ export default function GurugramGuidePage() {
                   <Link key={tag} href={`/blog?tag=${tag.toLowerCase().replace(/ /g, "-")}`} className="tag-pill">#{tag}</Link>
                 ))}
               </div>
-
-              <TrekGearRecommendations sections={GURUGRAM_GEAR} destination="Gurugram" />
 
               <RelatedPostsGrid currentSlug="gurugram-travel-guide" />
             </article>

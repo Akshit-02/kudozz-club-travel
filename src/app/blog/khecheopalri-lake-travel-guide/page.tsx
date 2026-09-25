@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/meghalaya/dawki-river.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Clear forest-fringed water, evoking the sacred, still setting of Khecheopalri Lake in West Sikkim",
+        url: "/images/blogs/sikkim/khecheopalri-lake/khecheopalri-lake.webp",
+        width: 1600,
+        height: 901,
+        alt: "View of Khecheopalri Lake, Sikkim",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Khecheopalri Lake Guide: The Wishing Lake",
     description:
       "Sikkim's sacred wish-fulfilling lake, revered by Buddhists and Hindus alike — the complete Khecheopalri Lake guide.",
-    images: ["/images/destinations/meghalaya/dawki-river.jpg"],
+    images: ["/images/blogs/sikkim/khecheopalri-lake/khecheopalri-lake.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/khecheopalri-lake-travel-guide",
@@ -60,7 +61,7 @@ function ArticleSchema() {
           description:
             "Complete Khecheopalri Lake guide — Sikkim's sacred wish-fulfilling lake, the bird legend, Khecheopalri Monastery, the Maghe Purnima fair, how to reach from Pelling, and a full visit plan.",
           image:
-            "https://club.kudozz.in/images/destinations/meghalaya/dawki-river.jpg",
+            "https://club.kudozz.in/images/blogs/sikkim/khecheopalri-lake/khecheopalri-lake.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -197,8 +198,8 @@ export default function KhecheopalriLakeGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/meghalaya/dawki-river.jpg"
-              alt="Clear forest-fringed water, evoking the sacred, still setting of Khecheopalri Lake in West Sikkim"
+              src="/images/blogs/sikkim/khecheopalri-lake/khecheopalri-lake.webp"
+              alt="View of Khecheopalri Lake, Sikkim"
               fill
               priority
               sizes="100vw"
@@ -510,15 +511,6 @@ export default function KhecheopalriLakeGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>The Lake, the Legend & the Monastery</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/meghalaya/dawki-river.jpg"
-                      alt="Still forest-fringed water at Khecheopalri Lake, West Sikkim"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>The Lake & Forest Walk</h3>
                   <p>
                     A short, easy walk through forest brings you to the
@@ -535,6 +527,7 @@ export default function KhecheopalriLakeGuidePage() {
                     do.
                   </p>
                   <h3>Khecheopalri Monastery</h3>
+                  <GuideFigure src="/images/blogs/sikkim/khecheopalri-lake/khecheopalri-monastery-khecheopalri-lake.webp" alt="Khecheopalri Monastery, Khecheopalri Lake" />
                   <p>
                     A short distance from the lake, this monastery adds a
                     further layer to the area's spiritual significance and

@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -542,6 +543,7 @@ export default function ChennaiGuidePage() {
                     history.
                   </p>
                   <h3>Mylapore & Kapaleeshwarar Temple</h3>
+                  <GuideFigure src="/images/blogs/tamil-nadu/chennai/mylapore-and-kapaleeshwarar-temple-chennai.webp" alt="Mylapore & Kapaleeshwarar Temple, Chennai" />
                   <p>
                     Mylapore is one of Chennai's oldest neighbourhoods,
                     centred on the Kapaleeshwarar Temple, a major
@@ -550,6 +552,7 @@ export default function ChennaiGuidePage() {
                     old Chennai.
                   </p>
                   <h3>San Thome Basilica</h3>
+                  <GuideFigure src="/images/blogs/tamil-nadu/chennai/san-thome-basilica-chennai.webp" alt="San Thome Basilica, Chennai" />
                   <p>
                     A striking church built over the tomb of St. Thomas the
                     Apostle, one of only three churches in the world built

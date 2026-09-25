@@ -559,15 +559,6 @@ export default function TughlaqabadGuidePage() {
                 {/* ── Ramparts & Gates ──────────────────────────────────── */}
                 <section id="ramparts-gates">
                   <h2>The Massive Ramparts & 13 Gates</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/delhi/tughlaqabad/tughlaqabad-fort-sloping-ramparts.webp"
-                      alt="Weathered sloping stone ramparts and battlements at Tughlaqabad Fort, Delhi"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <p>
                     What makes Tughlaqabad genuinely striking isn't any
                     single structure — it's the sheer scale of the fortification.

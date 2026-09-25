@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -421,6 +422,7 @@ export default function KuntalaWaterfallGuidePage() {
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">
                   <h2>Best Time to Visit Kuntala Waterfall</h2>
+                  <GuideFigure src="/images/blogs/telangana/kuntala-waterfall/kuntala-waterfall-view.webp" alt="Kuntala Waterfall, Telangana" />
                   <p>
                     Given how monsoon-dependent the Kadam river's flow is,
                     the season you choose has a big effect on what you'll
@@ -530,15 +532,6 @@ export default function KuntalaWaterfallGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>The Waterfall & the Walk Down</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/telangana/kuntala-waterfall/kuntala-waterfall-valley-view-adilabad.webp"
-                      alt="Wide view of Kuntala Waterfall's valley and rock pool, Adilabad district, Telangana"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>The Main Viewpoint</h3>
                   <p>
                     A viewpoint above the falls gives a first, wide look at

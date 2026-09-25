@@ -7,8 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Morjim Beach Travel Guide: Turtle Nesting & Quiet North Goa",
@@ -22,7 +20,7 @@ export const metadata: Metadata = {
     url: "https://club.kudozz.in/blog/morjim-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/meghalaya/hero.jpg", width: 1200, height: 630, alt: "Quiet coastal beach scenery representative of Morjim, Goa" }],
+    images: [{ url: "/images/destinations/meghalaya/hero.jpg", width: 2560, height: 1920, alt: "Quiet coastal beach scenery representative of Morjim, Goa" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -100,20 +98,6 @@ const tableOfContents = [
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
-];
-
-const MORJIM_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for a quiet North Goa beach stay",
-    emoji: "🐢",
-    items: [
-      { name: "Reef-Safe Sunscreen (SPF 50)", description: "Morjim's long, open beach means extended sun exposure for anyone settling in for the day.", price: "₹599",  image: "🧴", affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+SPF+50"), tag: "Beach essential", tagColor: "bg-amber-100 text-amber-700", why: "A full beach day here means hours of direct sun without much shade." },
-      { name: "Binoculars", description: "Useful for birdwatching near the Chapora river mouth, a genuinely good spot for waterbirds.", price: "₹1,999",  image: "🔭", affiliateUrl: amazonSearchUrl("binoculars+wildlife+birdwatching"), tag: "Nature essential", tagColor: "bg-forest-100 text-forest-700", why: "The river-mouth area near Morjim draws a decent range of waterbirds worth spotting." },
-      { name: "Waterproof Phone Pouch", description: "For river-mouth boat trips and swimming without worrying about a dropped phone.", price: "₹299",  image: "📱", affiliateUrl: amazonSearchUrl("waterproof+phone+pouch+beach"), tag: "Boat-trip essential", tagColor: "bg-sky-100 text-sky-700", why: "River crossings and boat trips carry real risk for an unprotected phone." },
-      { name: "Comfortable Sandals", description: "For walking between the beach, the river mouth, and nearby Ashwem or Mandrem.", price: "₹899",  image: "👡", affiliateUrl: amazonSearchUrl("comfortable+sandals+travel"), tag: "All-day essential", tagColor: "bg-purple-100 text-purple-700", why: "Morjim's beach and river-adjacent paths are sandy and uneven." },
-    ],
-  },
 ];
 
 export default function MorjimGuidePage() {
@@ -233,9 +217,6 @@ export default function MorjimGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do in Morjim</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/meghalaya/hero.jpg" alt="Beach and river-mouth scenery around Morjim" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>Morjim Beach:</strong> A long, relatively quiet stretch of sand with a lower-key shack scene than the busier North Goa strip.</li>
                     <li><strong>Turtle nesting zones:</strong> Marked, monitored areas active during the season — respect posted access limits.</li>
@@ -358,7 +339,6 @@ export default function MorjimGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={MORJIM_GEAR} destination="Morjim" />
               <RelatedPostsGrid currentSlug="morjim-travel-guide" />
             </article>
 

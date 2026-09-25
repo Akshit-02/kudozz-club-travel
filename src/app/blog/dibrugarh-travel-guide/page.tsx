@@ -7,8 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Dibrugarh Travel Guide: The Tea Capital of Assam",
@@ -20,9 +18,9 @@ export const metadata: Metadata = {
     title: "Dibrugarh Travel Guide: The Tea Capital of Assam",
     description: "A city surrounded by more tea gardens than anywhere else on Earth, and the practical gateway to Assam's easternmost wilderness — the complete guide to Dibrugarh.",
     url: "https://club.kudozz.in/blog/dibrugarh-travel-guide", type: "article", siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/coorg/coorg.jpg", width: 1200, height: 630, alt: "Misty tea garden landscape representative of Dibrugarh, Assam" }],
+    images: [{ url: "/images/blogs/assam/dibrugarh/dibrugarh.webp", width: 1600, height: 1200, alt: "View of Dibrugarh, Assam" }],
   },
-  twitter: { card: "summary_large_image", title: "Dibrugarh Travel Guide: The Tea Capital of Assam", description: "Tea gardens and the gateway to Assam's easternmost wilderness — the complete guide to Dibrugarh.", images: ["/images/destinations/coorg/coorg.jpg"] },
+  twitter: { card: "summary_large_image", title: "Dibrugarh Travel Guide: The Tea Capital of Assam", description: "Tea gardens and the gateway to Assam's easternmost wilderness — the complete guide to Dibrugarh.", images: ["/images/blogs/assam/dibrugarh/dibrugarh.webp"] },
   alternates: { canonical: "https://club.kudozz.in/blog/dibrugarh-travel-guide" },
 };
 
@@ -32,7 +30,7 @@ function ArticleSchema() {
       "@context": "https://schema.org", "@type": "BlogPosting",
       headline: "Dibrugarh Travel Guide: The Tea Capital of Assam",
       description: "The complete Dibrugarh travel guide.",
-      image: "https://club.kudozz.in/images/destinations/coorg/coorg.jpg",
+      image: "https://club.kudozz.in/images/blogs/assam/dibrugarh/dibrugarh.webp",
       datePublished: "2026-09-08", dateModified: "2026-09-08",
       publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
       author: { "@type": "Organization", name: "Kudozz Club" },
@@ -79,16 +77,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const DIBRUGARH_GEAR: GearSection[] = [{
-  title: "Things Worth Carrying", subtitle: "Gear for tea garden tours and riverside walks", emoji: "🍃",
-  items: [
-    { name: "Comfortable Walking Shoes", description: "For walking through working tea gardens and along the Brahmaputra riverfront.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-amber-100 text-amber-700", why: "Tea garden paths and riverfront walks add up over a full day of exploring." },
-    { name: "Light Rain Layer", description: "Upper Assam sees frequent showers even outside peak monsoon.", price: "₹899",  image: "🌂", affiliateUrl: amazonSearchUrl("packable+rain+jacket+travel"), tag: "Weather essential", tagColor: "bg-sky-100 text-sky-700", why: "Tea country's humid climate means rain is a regular possibility." },
-    { name: "Insect Repellent", description: "Tea gardens and riverside areas bring a real mosquito presence, especially at dusk.", price: "₹199",  image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Comfort essential", tagColor: "bg-forest-100 text-forest-700", why: "Humid tea-garden terrain is prime mosquito habitat." },
-    { name: "Camera", description: "For the tea garden landscapes and Brahmaputra riverfront views.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-purple-100 text-purple-700", why: "The rolling green tea estates are genuinely photogenic, especially at sunrise." },
-  ],
-}];
-
 export default function DibrugarhGuidePage() {
   return (
     <>
@@ -96,7 +84,7 @@ export default function DibrugarhGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/coorg/coorg.jpg" alt="Misty tea garden landscape representative of Dibrugarh, Assam" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/assam/dibrugarh/dibrugarh.webp" alt="View of Dibrugarh, Assam" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -200,9 +188,6 @@ export default function DibrugarhGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do in Dibrugarh</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/coorg/coorg.jpg" alt="Tea garden landscape around Dibrugarh" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>Tea garden tours and stays:</strong> A hands-on way to see tea production from plucking to processing at working estates.</li>
                     <li><strong>Brahmaputra riverfront:</strong> Walks and ferry connections along the river.</li>
@@ -325,7 +310,6 @@ export default function DibrugarhGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={DIBRUGARH_GEAR} destination="Dibrugarh" />
               <RelatedPostsGrid currentSlug="dibrugarh-travel-guide" />
             </article>
             <div className="hidden xl:block w-64 2xl:w-72 flex-shrink-0"><div className="sticky top-24"><RelatedSidebar currentSlug="dibrugarh-travel-guide" /></div></div>

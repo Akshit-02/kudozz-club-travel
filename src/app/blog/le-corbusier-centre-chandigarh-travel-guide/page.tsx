@@ -25,8 +25,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/destinations/chandigarh/hero.jpg",
-        width: 1200,
-        height: 630,
+        width: 2560,
+        height: 1920,
         alt: "The building housing the Le Corbusier Centre in Sector 19-B, Chandigarh, which displays original drawings and models of the city's master plan",
       },
     ],
@@ -563,8 +563,8 @@ export default function LeCorbusierCentreGuidePage() {
 
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/chandigarh/hero.jpg"
-                      alt="Original architectural sketches and planning drawings on display inside the Le Corbusier Centre, documenting the design of Chandigarh's sector grid"
+                      src="/images/blogs/chandigarh/le-corbusier-centre-chandigarh/le-corbusier-centre-chandigarh.webp"
+                      alt="Le Corbusier Centre Chandigarh"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

@@ -7,10 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -28,10 +24,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/hampi/virupaksha.jpg",
+        url: "/images/blogs/madhya-pradesh/khajuraho/khajuraho-temples.webp",
         width: 1200,
-        height: 630,
-        alt: "Intricately carved sandstone temple architecture, representative of Khajuraho, Madhya Pradesh",
+        height: 853,
+        alt: "Khajuraho Temples, Madhya Pradesh",
       },
     ],
   },
@@ -40,7 +36,7 @@ export const metadata: Metadata = {
     title: "Khajuraho Temples Travel Guide: History, Timings & Best Time to Visit",
     description:
       "A thousand years of Chandela-era stone carving, split across three temple groups — the complete guide to Khajuraho.",
-    images: ["/images/destinations/hampi/virupaksha.jpg"],
+    images: ["/images/blogs/madhya-pradesh/khajuraho/khajuraho-temples.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/khajuraho-travel-guide" },
 };
@@ -57,7 +53,7 @@ function ArticleSchema() {
           headline: "Khajuraho Temples Travel Guide: History, Timings & Best Time to Visit",
           description:
             "The complete guide to the Khajuraho Group of Monuments, a UNESCO World Heritage Site of Chandela-era carved temples in Madhya Pradesh.",
-          image: "https://club.kudozz.in/images/destinations/hampi/virupaksha.jpg",
+          image: "https://club.kudozz.in/images/blogs/madhya-pradesh/khajuraho/khajuraho-temples.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: {
@@ -153,81 +149,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const KHAJURAHO_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for a full day moving between temple complexes",
-    emoji: "🛕",
-    items: [
-      {
-        name: "Comfortable Walking Shoes",
-        description:
-          "The Western Group alone covers a wide, paved but sun-exposed complex — comfortable closed shoes make a multi-hour visit far easier than sandals.",
-        price: "₹1,499",
-        image: "👟",
-        affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
-        tag: "Temple-visit essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "Temple grounds involve stone platforms and stepped plinths that get uncomfortable fast in flip-flops.",
-      },
-      {
-        name: "Wide-Brim Sun Hat",
-        description:
-          "Khajuraho's temple complexes have minimal shade, and a full circuit of the Western Group easily runs past two hours in open sun.",
-        price: "₹399",
-        image: "👒",
-        affiliateUrl: amazonSearchUrl("wide+brim+sun+hat+travel"),
-        tag: "Sun essential",
-        tagColor: "bg-orange-100 text-orange-700",
-        why: "Even in the cooler Nov–Feb window, midday sun across the open temple courtyards is intense.",
-      },
-      {
-        name: "Compact Binoculars",
-        description:
-          "Much of Khajuraho's finest detail carving sits high on the temple shikharas (spires) — binoculars bring the upper panels into view.",
-        price: "₹899",
-        image: "🔭",
-        affiliateUrl: amazonSearchUrl("compact+binoculars+travel"),
-        tag: "Detail essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "The most intricate carving bands are often several metres up the temple exterior — hard to appreciate with the naked eye alone.",
-      },
-      {
-        name: "2L Hydration Bottle",
-        description:
-          "A day covering all three temple groups means several hours outdoors with limited shaded rest points between sites.",
-        price: "₹449",
-        image: "💧",
-        affiliateUrl: amazonSearchUrl("2l+hydration+water+bottle+travel"),
-        tag: "All-day essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Facilities thin out fast once you leave the Western Group for the quieter Eastern and Southern clusters.",
-      },
-      {
-        name: "Camera with Zoom Lens",
-        description:
-          "For capturing the temple carving detail from ground level without needing to climb onto restricted platforms.",
-        price: "₹—",
-        image: "📷",
-        affiliateUrl: amazonSearchUrl("mirrorless+camera+zoom+lens+travel"),
-        tag: "Photography essential",
-        tagColor: "bg-stone-100 text-stone-700",
-        why: "A zoom captures upper-tier carving detail that a phone camera generally can't resolve from ground level.",
-      },
-      {
-        name: "Reef-Safe Sunscreen (SPF 50)",
-        description: "Open stone courtyards at all three temple groups offer little shade during peak daylight hours.",
-        price: "₹599",
-        image: "🧴",
-        affiliateUrl: amazonSearchUrl("sunscreen+SPF+50+travel"),
-        tag: "Sun essential",
-        tagColor: "bg-red-100 text-red-700",
-        why: "Multi-hour temple visits in direct sun are the top cause of sunburn regret among Khajuraho travellers.",
-      },
-    ],
-  },
-];
-
 // ── Page ─────────────────────────────────────────────────────────────────────
 export default function KhajurahoGuidePage() {
   return (
@@ -241,8 +162,8 @@ export default function KhajurahoGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/hampi/virupaksha.jpg"
-              alt="Intricately carved sandstone temple architecture, representative of Khajuraho, Madhya Pradesh"
+              src="/images/blogs/madhya-pradesh/khajuraho/khajuraho-temples.webp"
+              alt="Khajuraho Temples, Madhya Pradesh"
               fill
               priority
               sizes="100vw"
@@ -433,15 +354,6 @@ export default function KhajurahoGuidePage() {
 
                 <section id="temple-groups">
                   <h2>The Three Temple Groups</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/hampi/virupaksha.jpg"
-                      alt="Carved sandstone temple architecture at Khajuraho"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <ul>
                     <li>
                       <strong>Western Group:</strong> The most famous and
@@ -663,8 +575,6 @@ export default function KhajurahoGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              <TrekGearRecommendations sections={KHAJURAHO_GEAR} destination="Khajuraho" />
 
               <RelatedPostsGrid currentSlug="khajuraho-travel-guide" />
             </article>

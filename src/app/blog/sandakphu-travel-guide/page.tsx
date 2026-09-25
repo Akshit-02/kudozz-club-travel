@@ -538,15 +538,6 @@ export default function SandakphuGuidePage() {
                 {/* ── Route & Permits ────────────────────────────────────── */}
                 <section id="route-and-permits">
                   <h2>Route, Permits & Trek Style</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/west-bengal/sandakphu/kanchenjunga-range-view-sandakphu-singalila.webp"
-                      alt="Kumbhakarna, Kangchenjunga and Pandim peaks seen along the Singalila ridge near Sandakphu"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
 
                   <h3>The Classic Sandakphu-Phalut Route</h3>
                   <p>

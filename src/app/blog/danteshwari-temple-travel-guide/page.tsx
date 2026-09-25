@@ -7,8 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Danteshwari Temple Travel Guide: Bastar's Shakti Peetha",
@@ -22,7 +20,7 @@ export const metadata: Metadata = {
     url: "https://club.kudozz.in/blog/danteshwari-temple-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/jaisalmer/fort.jpg", width: 1200, height: 630, alt: "Temple architecture representative of Danteshwari Temple, Dantewada, Chhattisgarh" }],
+    images: [{ url: "/images/destinations/jaisalmer/fort.jpg", width: 3000, height: 1687, alt: "Temple architecture representative of Danteshwari Temple, Dantewada, Chhattisgarh" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -100,20 +98,6 @@ const tableOfContents = [
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
-];
-
-const DANTESHWARI_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for a respectful, well-prepared temple visit",
-    emoji: "🛕",
-    items: [
-      { name: "Modest Clothing", description: "Standard expectation at this active, historically significant temple.", price: "₹599",  image: "👕", affiliateUrl: amazonSearchUrl("modest+travel+clothing"), tag: "Temple essential", tagColor: "bg-purple-100 text-purple-700", why: "This is a working pilgrimage site with genuine religious significance, not a tourist stop." },
-      { name: "Comfortable Walking Shoes", description: "For the temple grounds and any riverside walking near the confluence.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-amber-100 text-amber-700", why: "Practical footwear for temple grounds and riverside areas." },
-      { name: "Offline Maps / Local SIM", description: "Useful given the region's remoteness — having reliable navigation and connectivity matters more here than in more developed tourist areas.", price: "₹—",  image: "📱", affiliateUrl: amazonSearchUrl("portable+power+bank+travel"), tag: "Remote-travel essential", tagColor: "bg-sky-100 text-sky-700", why: "Connectivity and navigation support matter more in this less-developed region." },
-      { name: "Reusable Water Bottle", description: "Sensible for a day trip into a region with fewer roadside amenities than more touristed parts of Chhattisgarh.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "Trip essential", tagColor: "bg-forest-100 text-forest-700", why: "Facilities thin out the further you go from Jagdalpur." },
-    ],
-  },
 ];
 
 export default function DanteshwariTempleGuidePage() {
@@ -234,9 +218,6 @@ export default function DanteshwariTempleGuidePage() {
 
                 <section id="top-attractions">
                   <h2>What to See at Danteshwari Temple</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/jaisalmer/fort.jpg" alt="Temple complex near the Shankhini-Dankini confluence" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>The main shrine:</strong> The Danteshwari Temple itself, the historic presiding deity of the Bastar kingdom.</li>
                     <li><strong>Shankhini-Dankini confluence:</strong> The riverside setting adjacent to the temple, significant to the site's religious identity.</li>
@@ -355,7 +336,6 @@ export default function DanteshwariTempleGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={DANTESHWARI_GEAR} destination="Danteshwari Temple" />
               <RelatedPostsGrid currentSlug="danteshwari-temple-travel-guide" />
             </article>
 

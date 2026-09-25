@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -547,6 +548,7 @@ export default function HyderabadGuidePage() {
                     museum day.
                   </p>
                   <h3>Hussain Sagar & Necklace Road</h3>
+                  <GuideFigure src="/images/blogs/telangana/hyderabad/hussain-sagar-and-necklace-road-hyderabad.webp" alt="Hussain Sagar & Necklace Road, Hyderabad" />
                   <p>
                     A large lake at the heart of the city, with a monolithic
                     Buddha statue standing on Gibraltar rock at its centre.
@@ -554,6 +556,7 @@ export default function HyderabadGuidePage() {
                     evening walking and boating spot.
                   </p>
                   <h3>Ramoji Film City</h3>
+                  <GuideFigure src="/images/blogs/telangana/hyderabad/ramoji-film-city-hyderabad.webp" alt="Ramoji Film City, Hyderabad" />
                   <p>
                     One of the world's largest film studio complexes on the
                     city's edge, developed into a full-day theme-park-style

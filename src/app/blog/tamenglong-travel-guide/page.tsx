@@ -531,15 +531,6 @@ export default function TamenglongGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Things to Do in Tamenglong</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/manipur/tamenglong/kianthok-hills-valley-tamenglong.webp"
-                      alt="Misty forested hills near Kianthok in Tamenglong district, Manipur"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Tamenglong Orange Orchards</h3>
                   <p>
                     The Tamenglong orange is the town's best-known export —

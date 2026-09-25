@@ -7,8 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Polo Forest Travel Guide: Ruined Temples in the Aravalli Jungle",
@@ -21,9 +19,9 @@ export const metadata: Metadata = {
     description: "15th-century temple ruins swallowed by dense Aravalli forest, one of Gujarat's most genuinely off-the-radar destinations — the complete guide to Polo Forest.",
     url: "https://club.kudozz.in/blog/polo-forest-travel-guide",
     type: "article", siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/meghalaya/dawki-river.jpg", width: 1200, height: 630, alt: "Dense forest and river scenery representative of Polo Forest, Gujarat" }],
+    images: [{ url: "/images/blogs/gujarat/polo-forest/polo-forest.webp", width: 1600, height: 1200, alt: "Polo Forest, Gujarat" }],
   },
-  twitter: { card: "summary_large_image", title: "Polo Forest Travel Guide: Ruined Temples in the Aravalli Jungle", description: "15th-century ruins swallowed by dense forest — the complete guide to Polo Forest.", images: ["/images/destinations/meghalaya/dawki-river.jpg"] },
+  twitter: { card: "summary_large_image", title: "Polo Forest Travel Guide: Ruined Temples in the Aravalli Jungle", description: "15th-century ruins swallowed by dense forest — the complete guide to Polo Forest.", images: ["/images/blogs/gujarat/polo-forest/polo-forest.webp"] },
   alternates: { canonical: "https://club.kudozz.in/blog/polo-forest-travel-guide" },
 };
 
@@ -33,7 +31,7 @@ function ArticleSchema() {
       "@context": "https://schema.org", "@type": "BlogPosting",
       headline: "Polo Forest Travel Guide: Ruined Temples in the Aravalli Jungle",
       description: "The complete Polo Forest travel guide.",
-      image: "https://club.kudozz.in/images/destinations/meghalaya/dawki-river.jpg",
+      image: "https://club.kudozz.in/images/blogs/gujarat/polo-forest/polo-forest.webp",
       datePublished: "2026-09-07", dateModified: "2026-09-07",
       publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
       author: { "@type": "Organization", name: "Kudozz Club" },
@@ -80,16 +78,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const POLO_FOREST_GEAR: GearSection[] = [{
-  title: "Things Worth Carrying", subtitle: "Gear for forest walks and camping among the ruins", emoji: "🌲",
-  items: [
-    { name: "Sturdy Walking Shoes", description: "For navigating forest paths and uneven terrain around the scattered temple ruins.", price: "₹2,499",  image: "🥾", affiliateUrl: amazonSearchUrl("sturdy+trekking+shoes+forest"), tag: "Trip essential", tagColor: "bg-amber-100 text-amber-700", why: "Paths through the forest and around the ruins are uneven and often overgrown." },
-    { name: "Insect Repellent", description: "Dense forest and riverside settings make mosquitoes and insects a real presence, especially at dusk.", price: "₹199",  image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Forest essential", tagColor: "bg-forest-100 text-forest-700", why: "This is genuinely dense forest terrain, unusual for Gujarat, and insects are more of a factor here than at most of the state's other destinations." },
-    { name: "Camping Tent & Sleeping Bag", description: "For an overnight stay given the area's limited formal accommodation.", price: "₹3,499",  image: "⛺", affiliateUrl: amazonSearchUrl("camping+tent+sleeping+bag+set"), tag: "Overnight essential", tagColor: "bg-sky-100 text-sky-700", why: "Camping is genuinely one of the best ways to experience Polo Forest given the minimal nearby lodging." },
-    { name: "Reusable Water Bottle & Supplies", description: "Facilities are minimal — carry sufficient water and food for the duration of your visit.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "Non-negotiable", tagColor: "bg-purple-100 text-purple-700", why: "This is a genuinely remote, low-infrastructure destination — self-sufficiency matters." },
-  ],
-}];
-
 export default function PoloForestGuidePage() {
   return (
     <>
@@ -97,7 +85,7 @@ export default function PoloForestGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/meghalaya/dawki-river.jpg" alt="Dense forest and river scenery representative of Polo Forest, Gujarat" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/gujarat/polo-forest/polo-forest.webp" alt="Polo Forest, Gujarat" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -201,9 +189,6 @@ export default function PoloForestGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do at Polo Forest</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/meghalaya/dawki-river.jpg" alt="Forest and river scenery around Polo Forest" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>15th-century temple ruins:</strong> Hindu and Jain shrines scattered through the forest, half-swallowed by vegetation.</li>
                     <li><strong>Harnav Dam and River:</strong> Running through the forest, adding to its greenery and a good spot for a quiet walk.</li>
@@ -325,7 +310,6 @@ export default function PoloForestGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={POLO_FOREST_GEAR} destination="Polo Forest" />
               <RelatedPostsGrid currentSlug="polo-forest-travel-guide" />
             </article>
             <div className="hidden xl:block w-64 2xl:w-72 flex-shrink-0"><div className="sticky top-24"><RelatedSidebar currentSlug="polo-forest-travel-guide" /></div></div>

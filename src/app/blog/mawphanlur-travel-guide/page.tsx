@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/manali/rohtang-pass.jpg",
+        url: "/images/blogs/meghalaya/mawphanlur/mawphanlur-view.webp",
         width: 1200,
-        height: 630,
-        alt: "Open grassland and rolling hill landscape, evoking Mawphanlur's grassland and small-lake scenery",
+        height: 675,
+        alt: "Mawphanlur, Meghalaya",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Mawphanlur Guide: Grasslands & Camping",
     description:
       "Rolling grasslands, small lakes, and open sky camping — a genuinely offbeat corner of Meghalaya.",
-    images: ["/images/destinations/manali/rohtang-pass.jpg"],
+    images: ["/images/blogs/meghalaya/mawphanlur/mawphanlur-view.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/mawphanlur-travel-guide",
@@ -59,7 +60,7 @@ function ArticleSchema() {
           headline: "Mawphanlur Guide: Grasslands & Camping",
           description:
             "Complete Mawphanlur guide — Meghalaya's rolling grasslands and small lakes, camping, how to reach, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/manali/rohtang-pass.jpg",
+          image: "https://club.kudozz.in/images/blogs/meghalaya/mawphanlur/mawphanlur-view.webp",
           datePublished: "2026-09-05",
           dateModified: "2026-09-05",
           publisher: {
@@ -168,8 +169,8 @@ export default function MawphanlurGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/manali/rohtang-pass.jpg"
-              alt="Open grassland and rolling hill landscape, evoking Mawphanlur's grassland and small-lake scenery"
+              src="/images/blogs/meghalaya/mawphanlur/mawphanlur-view.webp"
+              alt="Mawphanlur, Meghalaya"
               fill
               priority
               sizes="100vw"
@@ -418,15 +419,6 @@ export default function MawphanlurGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Grasslands, Lakes & Camping</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/manali/rohtang-pass.jpg"
-                      alt="Rolling open hillside landscape, evoking Mawphanlur's grassland scenery"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>The Rolling Grasslands</h3>
                   <p>
                     The defining feature here is simply the open landscape —

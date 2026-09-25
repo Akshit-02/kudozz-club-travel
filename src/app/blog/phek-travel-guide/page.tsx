@@ -24,10 +24,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/kerala/alleppey.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Green terraced landscape, evoking Phek district's hillside rice terraces in Nagaland",
+        url: "/images/blogs/nagaland/phek/shilloi-lake-phek.webp",
+        width: 1600,
+        height: 900,
+        alt: "Shilloi Lake, Phek",
       },
     ],
   },
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     title: "Phek Travel Guide: Terraced Fields & Tips",
     description:
       "Some of Nagaland's most striking rice terraces, Chakhesang Naga villages, and a quiet detour off the standard tourist circuit.",
-    images: ["/images/destinations/kerala/alleppey.jpg"],
+    images: ["/images/blogs/nagaland/phek/shilloi-lake-phek.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/phek-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           headline: "Phek Travel Guide: Terraced Fields & Tips",
           description:
             "Complete Phek guide — the striking terraced rice fields of Khezhakeno and Chizami, Chakhesang Naga culture, Shilloi Lake, how to reach from Kohima, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/kerala/alleppey.jpg",
+          image: "https://club.kudozz.in/images/blogs/nagaland/phek/shilloi-lake-phek.webp",
           datePublished: "2026-09-04",
           dateModified: "2026-09-04",
           publisher: {
@@ -195,8 +195,8 @@ export default function PhekGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/kerala/alleppey.jpg"
-              alt="Green terraced landscape, evoking Phek district's hillside rice terraces in Nagaland"
+              src="/images/blogs/nagaland/phek/shilloi-lake-phek.webp"
+              alt="Shilloi Lake, Phek"
               fill
               priority
               sizes="100vw"
@@ -509,15 +509,6 @@ export default function PhekGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Terraced Fields & Shilloi Lake</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/kerala/alleppey.jpg"
-                      alt="Terraced hillside fields evoking the Khezhakeno and Chizami rice terraces near Phek"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Khezhakeno & Chizami Terraces</h3>
                   <p>
                     The terraced rice fields around these two villages are

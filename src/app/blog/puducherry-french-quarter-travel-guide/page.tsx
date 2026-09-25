@@ -7,10 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -28,10 +24,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/puducherry/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Mustard-yellow colonial buildings on a tree-lined street in Puducherry's French Quarter",
+        url: "/images/blogs/puducherry/puducherry-french-quarter/puducherry.webp",
+        width: 1600,
+        height: 900,
+        alt: "View of Puducherry",
       },
     ],
   },
@@ -40,7 +36,7 @@ export const metadata: Metadata = {
     title: "Puducherry Travel Guide: French Quarter, Auroville & Beaches",
     description:
       "French Quarter villas, the Matrimandir at Auroville, and a seafront promenade with no traffic — the complete guide to Puducherry.",
-    images: ["/images/destinations/puducherry/hero.jpg"],
+    images: ["/images/blogs/puducherry/puducherry-french-quarter/puducherry.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/puducherry-french-quarter-travel-guide",
@@ -60,7 +56,7 @@ function ArticleSchema() {
             "Puducherry Travel Guide: French Quarter, Auroville & Beaches",
           description: "The complete Puducherry travel guide.",
           image:
-            "https://club.kudozz.in/images/destinations/puducherry/hero.jpg",
+            "https://club.kudozz.in/images/blogs/puducherry/puducherry-french-quarter/puducherry.webp",
           datePublished: "2026-07-16",
           dateModified: "2026-07-16",
           publisher: {
@@ -187,84 +183,6 @@ function FAQSchema() {
   );
 }
 
-// ── Puducherry-specific gear ───────────────────────────────────────────────────
-const PUDUCHERRY_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle:
-      "Gear for cycling the French Quarter, beach evenings, and Auroville's red-earth paths",
-    emoji: "🚲",
-    items: [
-      {
-        name: "Comfortable Walking Sandals",
-        description:
-          "The French Quarter is best explored slowly on foot over cobbled and uneven streets — cushioned, breathable sandals hold up far better than sneakers in the coastal humidity.",
-        price: "₹1,299",
-        image: "👡",
-        affiliateUrl: amazonSearchUrl("comfortable+walking+sandals+travel"),
-        tag: "Quarter-walk essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Most of the French Quarter's charm is in the details — door knockers, bougainvillea, faded signage — that you only notice walking slowly, which means hours on your feet.",
-      },
-      {
-        name: "Reef-Safe Sunscreen (SPF 50)",
-        description:
-          "Puducherry's sun is strong and near-constant year-round, whether you're cycling the Promenade or wandering Auroville's open pathways.",
-        price: "₹549",
-        image: "🧴",
-        affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+spf+50"),
-        tag: "Daily essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "There's very little shade along the seafront Promenade or around the Matrimandir gardens — sunburn is the most common complaint from first-time visitors.",
-      },
-      {
-        name: "Wide-Brim Sun Hat",
-        description:
-          "A packable, breathable hat that earns its keep on café-hopping mornings and the shadeless stretch of Goubert Avenue along the coast.",
-        price: "₹399",
-        image: "👒",
-        affiliateUrl: amazonSearchUrl("wide+brim+sun+hat+travel"),
-        tag: "Beach essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "Puducherry's charm is best enjoyed at a slow pace outdoors — a good hat means you can linger without cutting the day short.",
-      },
-      {
-        name: "Rented Bicycle Lock (Bring Your Own)",
-        description:
-          "Cycling is the classic way to see the French Quarter, and rentals are everywhere — carrying your own compact lock means you're never stuck deciding where's 'safe enough' to leave it.",
-        price: "₹499",
-        image: "🔒",
-        affiliateUrl: amazonSearchUrl("portable+bicycle+lock"),
-        tag: "Cycling essential",
-        tagColor: "bg-stone-100 text-stone-700",
-        why: "Bicycles are the best way to cover both the French and Tamil Quarters in a single unhurried morning without the parking hassles of a scooter.",
-      },
-      {
-        name: "Insulated Water Bottle",
-        description:
-          "The coastal humidity makes hydration more important than the temperature alone suggests — an insulated bottle keeps water cool through a long day of walking or cycling.",
-        price: "₹699",
-        image: "💧",
-        affiliateUrl: amazonSearchUrl("insulated+water+bottle+steel"),
-        tag: "All-day essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Cafés in the French Quarter are plentiful, but the stretches between them along the Promenade and out to Auroville are not — carry your own water.",
-      },
-      {
-        name: "Power Bank (10,000 mAh)",
-        description:
-          "Between navigating quiet, similarly-named French Quarter lanes and the sprawling Auroville township, phone battery drains fast on maps and photos alike.",
-        price: "₹1,299",
-        image: "🔋",
-        affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
-        tag: "Navigation essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "Auroville in particular is spread over a large, forested area with patchy signage — a dead phone there is a genuinely inconvenient problem.",
-      },
-    ],
-  },
-];
-
 // ── Page ─────────────────────────────────────────────────────────────────────
 export default function PuducherryGuidePage() {
   return (
@@ -278,8 +196,8 @@ export default function PuducherryGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/puducherry/hero.jpg"
-              alt="Mustard-yellow colonial buildings on a tree-lined street in Puducherry's French Quarter"
+              src="/images/blogs/puducherry/puducherry-french-quarter/puducherry.webp"
+              alt="View of Puducherry"
               fill
               priority
               sizes="100vw"
@@ -617,15 +535,6 @@ export default function PuducherryGuidePage() {
                 {/* ── French Quarter ────────────────────────────────────── */}
                 <section id="french-quarter">
                   <h2>The French Quarter</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/puducherry/french.jpg"
-                      alt="Colonial villa with bougainvillea in Puducherry's French Quarter"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <p>
                     Known locally as <strong>"White Town,"</strong> the French
                     Quarter is a grid of quiet, tree-lined streets between the
@@ -1191,12 +1100,6 @@ export default function PuducherryGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              {/* ── Gear Recommendations ──────────────────────────────── */}
-              <TrekGearRecommendations
-                sections={PUDUCHERRY_GEAR}
-                destination="Puducherry"
-              />
 
               <RelatedPostsGrid currentSlug="puducherry-french-quarter-travel-guide" />
             </article>

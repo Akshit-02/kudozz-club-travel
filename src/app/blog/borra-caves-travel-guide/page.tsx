@@ -7,8 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
   title: "Borra Caves Travel Guide: Million-Year-Old Limestone Caverns",
@@ -25,10 +24,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/coorg/abbey-falls.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Forested hill terrain representative of the Ananthagiri Hills near Borra Caves",
+        url: "/images/blogs/andhra-pradesh/borra-caves/borra-caves.webp",
+        width: 1600,
+        height: 720,
+        alt: "Borra Caves, Andhra Pradesh",
       },
     ],
   },
@@ -36,7 +35,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Borra Caves Travel Guide: Million-Year-Old Limestone Caverns",
     description: "One of India's largest limestone cave systems — the complete guide to Borra Caves.",
-    images: ["/images/destinations/coorg/abbey-falls.jpg"],
+    images: ["/images/blogs/andhra-pradesh/borra-caves/borra-caves.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/borra-caves-travel-guide" },
 };
@@ -51,7 +50,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Borra Caves Travel Guide: Million-Year-Old Limestone Caverns",
           description: "The complete Borra Caves travel guide.",
-          image: "https://club.kudozz.in/images/destinations/coorg/abbey-falls.jpg",
+          image: "https://club.kudozz.in/images/blogs/andhra-pradesh/borra-caves/borra-caves.webp",
           datePublished: "2026-09-08",
           dateModified: "2026-09-08",
           publisher: {
@@ -143,56 +142,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const BORRA_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for a damp, cool underground cave visit",
-    emoji: "🕳️",
-    items: [
-      {
-        name: "Grippy Closed-Toe Shoes",
-        description: "The cave interior is naturally damp and can be slippery in sections.",
-        price: "₹1,999",
-        image: "🥾",
-        affiliateUrl: amazonSearchUrl("grippy+outdoor+shoes+travel"),
-        tag: "Cave essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "Wet cave floors and uneven steps are the main hazard for casual visitors here.",
-      },
-      {
-        name: "Light Jacket",
-        description: "Caves maintain a naturally cool interior temperature regardless of the weather outside.",
-        price: "₹999",
-        image: "🧥",
-        affiliateUrl: amazonSearchUrl("light+jacket+travel"),
-        tag: "Comfort essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "The temperature contrast between the outside hills and the cave interior is genuinely noticeable.",
-      },
-      {
-        name: "Small Torch",
-        description: "Useful as backup lighting beyond the developed, lit walking path.",
-        price: "₹299",
-        image: "🔦",
-        affiliateUrl: amazonSearchUrl("small+led+torch+travel"),
-        tag: "Backup essential",
-        tagColor: "bg-stone-100 text-stone-700",
-        why: "Lighting is generally good but a personal torch is a sensible backup in a cave environment." ,
-      },
-      {
-        name: "Camera",
-        description: "For the stalactite/stalagmite formations, genuinely one of the visual highlights of the site.",
-        price: "₹—",
-        image: "📷",
-        affiliateUrl: amazonSearchUrl("compact+camera+low+light"),
-        tag: "Sightseeing essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "A camera with decent low-light performance captures the formations better than a phone alone.",
-      },
-    ],
-  },
-];
-
 export default function BorraCavesGuidePage() {
   return (
     <>
@@ -204,8 +153,8 @@ export default function BorraCavesGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/coorg/abbey-falls.jpg"
-              alt="Forested hill terrain representative of the Ananthagiri Hills near Borra Caves"
+              src="/images/blogs/andhra-pradesh/borra-caves/borra-caves.webp"
+              alt="Borra Caves, Andhra Pradesh"
               fill
               priority
               sizes="100vw"
@@ -299,6 +248,7 @@ export default function BorraCavesGuidePage() {
               <div className="prose-travel">
                 <section id="introduction">
                   <h2>Why Borra Caves?</h2>
+                  <GuideFigure src="/images/blogs/andhra-pradesh/borra-caves/borra-caves-view.webp" alt="Borra Caves, Andhra Pradesh" />
                   <p>
                     <strong>Borra Caves</strong>, set in the Ananthagiri Hills of the Eastern Ghats, are
                     genuinely significant limestone caves widely cited among India's largest cave systems.
@@ -423,15 +373,6 @@ export default function BorraCavesGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to See at Borra Caves</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/coorg/abbey-falls.jpg"
-                      alt="Forested Eastern Ghats terrain near Borra Caves"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <ul>
                     <li>
                       <strong>Stalactite and stalagmite formations:</strong> The genuine highlight — mineral
@@ -670,8 +611,6 @@ export default function BorraCavesGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              <TrekGearRecommendations sections={BORRA_GEAR} destination="Borra Caves" />
 
               <RelatedPostsGrid currentSlug="borra-caves-travel-guide" />
             </article>

@@ -7,9 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  HIMALAYAN_GEAR,
-} from "@/components/ui/TrekGearRecommendations";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -583,6 +580,15 @@ export default function PatnitopGuidePage() {
                       up to Patnitop.
                     </li>
                   </ul>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/jammu-and-kashmir/patnitop/nathatop-viewpoint-snow-covered.webp"
+                      alt="Snow-covered slopes at the Nathatop viewpoint above Sanasar, near Patnitop"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <div
                     className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-xl my-4 text-sm"
                     style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -707,15 +713,6 @@ export default function PatnitopGuidePage() {
                       more built-up stretch.
                     </li>
                   </ul>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/jammu-and-kashmir/patnitop/nathatop-viewpoint-snow-covered.webp"
-                      alt="Snow-covered slopes at the Nathatop viewpoint above Sanasar, near Patnitop"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <blockquote>
                     Most visitors treat Sanasar as a half-day trip from
                     Patnitop, but if snow, meadow photography, or a quieter
@@ -1258,12 +1255,6 @@ export default function PatnitopGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              {/* ── Gear Recommendations ──────────────────────────────── */}
-              <TrekGearRecommendations
-                sections={HIMALAYAN_GEAR}
-                destination="Patnitop"
-              />
 
               <RelatedPostsGrid currentSlug="patnitop-travel-guide" />
             </article>

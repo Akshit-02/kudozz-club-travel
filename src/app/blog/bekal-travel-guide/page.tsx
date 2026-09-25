@@ -7,10 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuidePhotoRow } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
   title: "Bekal Travel Guide: Fort, Beach & North Kerala's Quiet Coast",
@@ -24,13 +21,13 @@ export const metadata: Metadata = {
     url: "https://club.kudozz.in/blog/bekal-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/jaisalmer/fort.jpg", width: 1200, height: 630, alt: "Coastal fort representative of Bekal, Kerala" }],
+    images: [{ url: "/images/blogs/kerala/bekal/bekal.webp", width: 1600, height: 1060, alt: "View of Bekal, Kerala" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Bekal Travel Guide: Fort, Beach & North Kerala's Quiet Coast",
     description: "Kerala's largest fort rising straight out of the Arabian Sea — the complete guide to Bekal.",
-    images: ["/images/destinations/jaisalmer/fort.jpg"],
+    images: ["/images/blogs/kerala/bekal/bekal.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/bekal-travel-guide" },
 };
@@ -45,7 +42,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Bekal Travel Guide: Fort, Beach & North Kerala's Quiet Coast",
           description: "The complete Bekal travel guide.",
-          image: "https://club.kudozz.in/images/destinations/jaisalmer/fort.jpg",
+          image: "https://club.kudozz.in/images/blogs/kerala/bekal/bekal.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
@@ -104,20 +101,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const BEKAL_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for fort ramparts and quiet North Kerala beaches",
-    emoji: "🏰",
-    items: [
-      { name: "Comfortable Walking Shoes", description: "Bekal Fort's ramparts and pathways involve a fair amount of walking on uneven laterite stone.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Fort essential", tagColor: "bg-amber-100 text-amber-700", why: "The fort's stone paths and ramparts reward sturdy, comfortable footwear." },
-      { name: "Reef-Safe Sunscreen (SPF 50)", description: "Bekal's beach and fort ramparts both offer long stretches with little shade.", price: "₹599",  image: "🧴", affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+SPF+50"), tag: "Sun essential", tagColor: "bg-sky-100 text-sky-700", why: "Fort visits often run through the hottest part of the day with minimal shade." },
-      { name: "Sun Hat", description: "Useful for both the open fort ramparts and beach time.", price: "₹399",  image: "🧢", affiliateUrl: amazonSearchUrl("sun+hat+travel+outdoor"), tag: "All-day essential", tagColor: "bg-purple-100 text-purple-700", why: "Shade is limited across most of Bekal's main sights." },
-      { name: "Swimwear & Quick-Dry Towel", description: "For Bekal Beach and Kappil Beach, both good for a relaxed swim outside monsoon season.", price: "₹699",  image: "🏖️", affiliateUrl: amazonSearchUrl("quick+dry+travel+towel"), tag: "Beach essential", tagColor: "bg-forest-100 text-forest-700", why: "Bekal's beaches are genuinely swimmable outside the monsoon months." },
-    ],
-  },
-];
-
 export default function BekalGuidePage() {
   return (
     <>
@@ -127,7 +110,7 @@ export default function BekalGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/jaisalmer/fort.jpg" alt="Coastal fort representative of Bekal, Kerala" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/kerala/bekal/bekal.webp" alt="View of Bekal, Kerala" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -235,9 +218,6 @@ export default function BekalGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do in Bekal</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/jaisalmer/fort.jpg" alt="Fort ramparts and coastline near Bekal" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>Bekal Fort:</strong> Kerala's largest fort, a circular 17th-century laterite structure with sweeping sea views from the ramparts.</li>
                     <li><strong>Bekal Beach:</strong> The crescent beach right beneath the fort, quieter and less developed than South Kerala's beaches.</li>
@@ -245,6 +225,12 @@ export default function BekalGuidePage() {
                     <li><strong>Pallikere Beach:</strong> Another nearby stretch worth a visit for those wanting to beach-hop.</li>
                     <li><strong>Bekal Hole Aqua Park:</strong> A family-friendly water park nearby, a lighter add-on for those traveling with kids.</li>
                   </ul>
+                  <GuidePhotoRow
+                    images={[
+                      { src: "/images/blogs/kerala/bekal/bekal-fort.webp", alt: "Bekal Fort, Kerala", caption: "Bekal Fort, Kerala" },
+                      { src: "/images/blogs/kerala/bekal/kappil-beach-bekal.webp", alt: "Kappil Beach, Bekal", caption: "Kappil Beach, Bekal" },
+                    ]}
+                  />
                 </section>
 
                 <section id="where-to-stay">
@@ -361,7 +347,6 @@ export default function BekalGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={BEKAL_GEAR} destination="Bekal" />
               <RelatedPostsGrid currentSlug="bekal-travel-guide" />
             </article>
 

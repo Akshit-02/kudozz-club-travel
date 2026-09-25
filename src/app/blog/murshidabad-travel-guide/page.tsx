@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -528,15 +529,6 @@ export default function MurshidabadGuidePage() {
                 {/* ── Landmarks ─────────────────────────────────────────── */}
                 <section id="landmarks">
                   <h2>Hazarduari & the Palace Complex</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/west-bengal/murshidabad/hazarduari-palace-front-lawn-murshidabad.webp"
-                      alt="Hazarduari Palace's colonnaded Italianate facade and front lawn, Murshidabad"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Hazarduari Palace</h3>
                   <p>
                     Built in the 1830s in an Italianate neoclassical style by
@@ -552,6 +544,7 @@ export default function MurshidabadGuidePage() {
                     colonial periods.
                   </p>
                   <h3>Katra Mosque</h3>
+                  <GuideFigure src="/images/blogs/west-bengal/murshidabad/katra-mosque-murshidabad.webp" alt="Katra Mosque, Murshidabad" />
                   <p>
                     Built in the 1720s by Murshid Quli Khan, the founder of
                     Nawabi Murshidabad, this large mosque was designed with a
@@ -562,6 +555,7 @@ export default function MurshidabadGuidePage() {
                     would walk over his grave.
                   </p>
                   <h3>Nizamat Imambara</h3>
+                  <GuideFigure src="/images/blogs/west-bengal/murshidabad/nizamat-imambara-murshidabad.webp" alt="Nizamat Imambara, Murshidabad" />
                   <p>
                     Facing Hazarduari Palace, the Nizamat Imambara is
                     reputed to be the largest imambara (a hall used for Shia

@@ -7,8 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Dongargarh Travel Guide: Bamleshwari Temple & Ropeway",
@@ -22,13 +20,13 @@ export const metadata: Metadata = {
     url: "https://club.kudozz.in/blog/dongargarh-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/jaisalmer/hero.jpg", width: 1200, height: 630, alt: "Hilltop temple scenery representative of Dongargarh, Chhattisgarh" }],
+    images: [{ url: "/images/blogs/chhattisgarh/dongargarh/dongargarh.webp", width: 1600, height: 1200, alt: "Dongargarh, Chhattisgarh" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Dongargarh Travel Guide: Bamleshwari Temple & Ropeway",
     description: "A hilltop Shakti temple and one of Chhattisgarh's most-visited pilgrimage sites — the complete guide to Dongargarh.",
-    images: ["/images/destinations/jaisalmer/hero.jpg"],
+    images: ["/images/blogs/chhattisgarh/dongargarh/dongargarh.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/dongargarh-travel-guide" },
 };
@@ -43,7 +41,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Dongargarh Travel Guide: Bamleshwari Temple & Ropeway",
           description: "The complete Dongargarh travel guide.",
-          image: "https://club.kudozz.in/images/destinations/jaisalmer/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/chhattisgarh/dongargarh/dongargarh.webp",
           datePublished: "2026-09-08",
           dateModified: "2026-09-08",
           publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
@@ -102,20 +100,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const DONGARGARH_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for the temple climb and pilgrimage crowds",
-    emoji: "🛕",
-    items: [
-      { name: "Comfortable Walking/Climbing Shoes", description: "For the roughly 1,000-step climb to Bade Bamleshwari Temple, should you choose the stairs over the ropeway.", price: "₹1,999",  image: "🥾", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Climb essential", tagColor: "bg-amber-100 text-amber-700", why: "Close to a thousand stone steps is a genuine workout — proper footwear matters." },
-      { name: "Modest Clothing", description: "Standard temple-visit etiquette applies at this active pilgrimage site.", price: "₹599",  image: "👕", affiliateUrl: amazonSearchUrl("modest+travel+clothing"), tag: "Temple essential", tagColor: "bg-purple-100 text-purple-700", why: "Dongargarh is a genuine, active pilgrimage destination, not a tourist reconstruction." },
-      { name: "Reusable Water Bottle", description: "The climb and hilltop visit take real time, especially during crowded festival periods.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "Climb essential", tagColor: "bg-sky-100 text-sky-700", why: "Facilities can be limited during peak Navratri crowds." },
-      { name: "Small Daypack", description: "For carrying water, shoes-for-the-return, and any offerings across the visit.", price: "₹699",  image: "🎒", affiliateUrl: amazonSearchUrl("small+daypack+travel"), tag: "All-day essential", tagColor: "bg-forest-100 text-forest-700", why: "Keeps your hands free during the climb and temple visit." },
-    ],
-  },
-];
-
 export default function DongargarhGuidePage() {
   return (
     <>
@@ -125,7 +109,7 @@ export default function DongargarhGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/jaisalmer/hero.jpg" alt="Hilltop temple scenery representative of Dongargarh, Chhattisgarh" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/chhattisgarh/dongargarh/dongargarh.webp" alt="Dongargarh, Chhattisgarh" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -233,9 +217,6 @@ export default function DongargarhGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do in Dongargarh</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/jaisalmer/hero.jpg" alt="Hilltop temple complex near Dongargarh" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>Bade Bamleshwari Temple:</strong> The main hilltop shrine, reached by roughly 1,000 steps or the ropeway — the centrepiece of a Dongargarh visit.</li>
                     <li><strong>Chhote Bamleshwari Temple:</strong> A smaller companion shrine nearby, part of the same pilgrimage complex.</li>
@@ -355,7 +336,6 @@ export default function DongargarhGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={DONGARGARH_GEAR} destination="Dongargarh" />
               <RelatedPostsGrid currentSlug="dongargarh-travel-guide" />
             </article>
 

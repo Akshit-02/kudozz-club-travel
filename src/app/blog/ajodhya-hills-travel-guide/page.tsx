@@ -25,8 +25,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/blogs/west-bengal/ajodhya-hills/ajodhya-hills-forested-plateau-baghmundi.webp",
-        width: 1200,
-        height: 630,
+        width: 1600,
+        height: 960,
         alt: "Forested plateau and hills, evoking the landscape of Ajodhya Hills, Purulia",
       },
     ],
@@ -537,15 +537,6 @@ export default function AjodhyaHillsGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Waterfalls, Treks & Culture</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/west-bengal/ajodhya-hills/ajodhya-hills-forested-plateau-baghmundi.webp"
-                      alt="Sal forest and hill terrain typical of the Ajodhya Hills plateau"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Bamni Falls & Turga Falls</h3>
                   <p>
                     The two best-known cascades in the hills, both reached by

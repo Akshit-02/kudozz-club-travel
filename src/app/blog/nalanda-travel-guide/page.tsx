@@ -7,8 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Nalanda Travel Guide: Ruins of the World's Oldest University",
@@ -22,13 +20,13 @@ export const metadata: Metadata = {
     url: "https://club.kudozz.in/blog/nalanda-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/hampi/virupaksha.jpg", width: 1200, height: 630, alt: "Ancient carved stone ruins representative of Nalanda Mahavihara, Bihar" }],
+    images: [{ url: "/images/blogs/bihar/nalanda/nalanda.webp", width: 1600, height: 1200, alt: "View of Nalanda, Bihar" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Nalanda Travel Guide: Ruins of the World's Oldest University",
     description: "The ruins of one of the world's earliest universities — the complete guide to Nalanda.",
-    images: ["/images/destinations/hampi/virupaksha.jpg"],
+    images: ["/images/blogs/bihar/nalanda/nalanda.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/nalanda-travel-guide" },
 };
@@ -39,7 +37,7 @@ function ArticleSchema() {
       "@context": "https://schema.org", "@type": "BlogPosting",
       headline: "Nalanda Travel Guide: Ruins of the World's Oldest University",
       description: "The complete Nalanda travel guide.",
-      image: "https://club.kudozz.in/images/destinations/hampi/virupaksha.jpg",
+      image: "https://club.kudozz.in/images/blogs/bihar/nalanda/nalanda.webp",
       datePublished: "2026-09-08", dateModified: "2026-09-08",
       publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
       author: { "@type": "Organization", name: "Kudozz Club" },
@@ -86,16 +84,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const NALANDA_GEAR: GearSection[] = [{
-  title: "Things Worth Carrying", subtitle: "Gear for a day walking the excavated ruins", emoji: "📜",
-  items: [
-    { name: "Comfortable Walking Shoes", description: "The excavated site spans a large open area with uneven ancient brick paths.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Ruins essential", tagColor: "bg-amber-100 text-amber-700", why: "Ancient brick walkways and open ground make sturdy, comfortable footwear worthwhile." },
-    { name: "Sun Hat", description: "Little shade across the open excavated grounds, especially in the middle of the day.", price: "₹399",  image: "🧢", affiliateUrl: amazonSearchUrl("sun+hat+travel+outdoor"), tag: "Sun essential", tagColor: "bg-sky-100 text-sky-700", why: "The ruins offer minimal shade across most of the site." },
-    { name: "Reusable Water Bottle", description: "A full circuit of the ruins plus the museum takes a few hours with limited shops nearby.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "All-day essential", tagColor: "bg-forest-100 text-forest-700", why: "Facilities are limited right at the site itself." },
-    { name: "Camera", description: "For the excavated monastery cells, stupas, and lecture halls — genuinely photogenic ancient architecture.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-purple-100 text-purple-700", why: "The scale and detail of the ruins reward good photography." },
-  ],
-}];
-
 export default function NalandaGuidePage() {
   return (
     <>
@@ -103,7 +91,7 @@ export default function NalandaGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/hampi/virupaksha.jpg" alt="Ancient carved stone ruins representative of Nalanda Mahavihara, Bihar" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/bihar/nalanda/nalanda.webp" alt="View of Nalanda, Bihar" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -207,9 +195,6 @@ export default function NalandaGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do in Nalanda</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/hampi/virupaksha.jpg" alt="Excavated monastery ruins at Nalanda" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>Nalanda Mahavihara ruins:</strong> The extensively excavated monastery and lecture-hall complex forming the core of the site.</li>
                     <li><strong>Nalanda Archaeological Museum:</strong> Excavated sculptures, seals, and artifacts from the site, on-site.</li>
@@ -330,7 +315,6 @@ export default function NalandaGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={NALANDA_GEAR} destination="Nalanda" />
               <RelatedPostsGrid currentSlug="nalanda-travel-guide" />
             </article>
             <div className="hidden xl:block w-64 2xl:w-72 flex-shrink-0"><div className="sticky top-24"><RelatedSidebar currentSlug="nalanda-travel-guide" /></div></div>

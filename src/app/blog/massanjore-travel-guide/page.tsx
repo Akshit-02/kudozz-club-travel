@@ -7,10 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Massanjore Dam Travel Guide: Mayurakshi Reservoir & Day Trip Guide",
@@ -27,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/kerala/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Reservoir and forested hills representative of Massanjore Dam, Jharkhand",
+        url: "/images/blogs/jharkhand/massanjore/massanjore-dam.webp",
+        width: 1600,
+        height: 1200,
+        alt: "Massanjore Dam, Jharkhand",
       },
     ],
   },
@@ -38,7 +34,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Massanjore Dam Travel Guide: Mayurakshi Reservoir & Day Trip Guide",
     description: "A quiet reservoir escape at the Jharkhand-West Bengal border — the complete guide to Massanjore.",
-    images: ["/images/destinations/kerala/hero.jpg"],
+    images: ["/images/blogs/jharkhand/massanjore/massanjore-dam.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/massanjore-travel-guide",
@@ -55,7 +51,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Massanjore Dam Travel Guide: Mayurakshi Reservoir & Day Trip Guide",
           description: "The complete Massanjore Dam travel guide.",
-          image: "https://club.kudozz.in/images/destinations/kerala/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/jharkhand/massanjore/massanjore-dam.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: {
@@ -146,56 +142,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const MASSANJORE_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for a quiet reservoir day trip",
-    emoji: "🚤",
-    items: [
-      {
-        name: "Comfortable Footwear",
-        description: "For walking around the dam area and reservoir edge, which isn't always paved.",
-        price: "₹1,299",
-        image: "👟",
-        affiliateUrl: amazonSearchUrl("comfortable+outdoor+shoes+travel"),
-        tag: "Comfort essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "The reservoir walking areas are informal, not a paved promenade." ,
-      },
-      {
-        name: "Sun Hat",
-        description: "Open reservoir views mean little shade during the middle of the day.",
-        price: "₹399",
-        image: "🧢",
-        affiliateUrl: amazonSearchUrl("sun+hat+travel"),
-        tag: "Comfort essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "A day around the open reservoir means real sun exposure." ,
-      },
-      {
-        name: "Insect Repellent",
-        description: "The sal forest and reservoir edge bring a real mosquito presence, especially at dusk.",
-        price: "₹199",
-        image: "🦟",
-        affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"),
-        tag: "Forest essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "Forest and water together are a reliable mosquito combination.",
-      },
-      {
-        name: "Reusable Water Bottle",
-        description: "Facilities around the dam are basic — carrying your own water is sensible.",
-        price: "₹449",
-        image: "💧",
-        affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"),
-        tag: "All-day essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "This is a low-infrastructure destination without many shops nearby.",
-      },
-    ],
-  },
-];
-
 export default function MassanjoreGuidePage() {
   return (
     <>
@@ -207,8 +153,8 @@ export default function MassanjoreGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/kerala/hero.jpg"
-              alt="Reservoir and forested hills representative of Massanjore Dam, Jharkhand"
+              src="/images/blogs/jharkhand/massanjore/massanjore-dam.webp"
+              alt="Massanjore Dam, Jharkhand"
               fill
               priority
               sizes="100vw"
@@ -403,15 +349,6 @@ export default function MassanjoreGuidePage() {
 
                 <section id="top-attractions">
                   <h2>What to See & Do at Massanjore</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/kerala/hero.jpg"
-                      alt="Reservoir and forest scenery at Massanjore Dam"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <ul>
                     <li>
                       <strong>The dam and reservoir:</strong> The central feature — a large body of water
@@ -644,8 +581,6 @@ export default function MassanjoreGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              <TrekGearRecommendations sections={MASSANJORE_GEAR} destination="Massanjore" />
 
               <RelatedPostsGrid currentSlug="massanjore-travel-guide" />
             </article>

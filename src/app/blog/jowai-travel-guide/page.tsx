@@ -24,10 +24,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/manali/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Green hill town landscape, evoking Jowai's Jaintia Hills setting",
+        url: "/images/blogs/meghalaya/jowai/jowai.webp",
+        width: 1600,
+        height: 1067,
+        alt: "Jowai, Meghalaya",
       },
     ],
   },
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     title: "Jowai Travel Guide: Jaintia Hills & Tips",
     description:
       "Ancient monoliths, a legend-steeped lake, and a distinct tribal culture — the complete guide to Jowai and the Jaintia Hills.",
-    images: ["/images/destinations/manali/hero.jpg"],
+    images: ["/images/blogs/meghalaya/jowai/jowai.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/jowai-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           headline: "Jowai Travel Guide: Jaintia Hills & Tips",
           description:
             "Complete Jowai guide — Jaintia (Pnar) culture, Thadlaskein Lake, the Nartiang Monoliths, Krang Suri Falls, how to reach from Shillong, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/manali/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/meghalaya/jowai/jowai.webp",
           datePublished: "2026-09-05",
           dateModified: "2026-09-05",
           publisher: {
@@ -195,8 +195,8 @@ export default function JowaiGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/manali/hero.jpg"
-              alt="Green hill town landscape, evoking Jowai's Jaintia Hills setting"
+              src="/images/blogs/meghalaya/jowai/jowai.webp"
+              alt="Jowai, Meghalaya"
               fill
               priority
               sizes="100vw"
@@ -514,15 +514,6 @@ export default function JowaiGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Nartiang Monoliths, Thadlaskein Lake & More</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/manali/hero.jpg"
-                      alt="Green hill landscape, evoking the Jaintia Hills around Jowai and Nartiang"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Nartiang Monoliths</h3>
                   <p>
                     A remarkable field of ancient standing stones erected by

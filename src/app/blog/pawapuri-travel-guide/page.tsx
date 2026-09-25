@@ -7,10 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Pawapuri Travel Guide: Where Mahavira Attained Nirvana",
@@ -27,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/kerala/alleppey.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Lotus-filled water tank and temple, evoking Jal Mandir at Pawapuri, Bihar",
+        url: "/images/blogs/bihar/pawapuri/jal-mandir-pawapuri.webp",
+        width: 1600,
+        height: 1200,
+        alt: "Jal Mandir, Pawapuri",
       },
     ],
   },
@@ -38,7 +34,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Pawapuri Travel Guide: Where Mahavira Attained Nirvana",
     description: "Jal Mandir's lotus-filled tank marking Mahavira's nirvana site — the complete guide to Pawapuri.",
-    images: ["/images/destinations/kerala/alleppey.jpg"],
+    images: ["/images/blogs/bihar/pawapuri/jal-mandir-pawapuri.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/pawapuri-travel-guide",
@@ -55,7 +51,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Pawapuri Travel Guide: Where Mahavira Attained Nirvana",
           description: "The complete Pawapuri travel guide.",
-          image: "https://club.kudozz.in/images/destinations/kerala/alleppey.jpg",
+          image: "https://club.kudozz.in/images/blogs/bihar/pawapuri/jal-mandir-pawapuri.webp",
           datePublished: "2026-09-08",
           dateModified: "2026-09-08",
           publisher: {
@@ -143,56 +139,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const PAWAPURI_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for temple-tank walking and respectful pilgrimage visits",
-    emoji: "🪷",
-    items: [
-      {
-        name: "Modest, Breathable Clothing",
-        description: "Pawapuri is a deeply devotional Jain pilgrimage site — modest, covering clothing is expected.",
-        price: "₹899",
-        image: "🧣",
-        affiliateUrl: amazonSearchUrl("modest+travel+clothing+cotton"),
-        tag: "Respectful travel",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "Jainism's ascetic values are reflected in the site's atmosphere — dress respectfully.",
-      },
-      {
-        name: "Comfortable Sandals",
-        description: "Easy to remove for temple entry, and comfortable for walking the causeway to Jal Mandir.",
-        price: "₹899",
-        image: "👡",
-        affiliateUrl: amazonSearchUrl("comfortable+sandals+travel"),
-        tag: "Temple essential",
-        tagColor: "bg-stone-100 text-stone-700",
-        why: "Shoes are removed before crossing to Jal Mandir — slip-on sandals make this easy.",
-      },
-      {
-        name: "Reusable Water Bottle",
-        description: "Useful for the day given limited facilities directly around the tank.",
-        price: "₹699",
-        image: "🍶",
-        affiliateUrl: amazonSearchUrl("insulated+water+bottle+steel"),
-        tag: "Everyday essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "This is a small pilgrimage town with limited facilities beyond the temple complex itself.",
-      },
-      {
-        name: "Camera",
-        description: "The Jal Mandir's lotus-tank setting is genuinely photogenic, especially in morning light.",
-        price: "₹—",
-        image: "📷",
-        affiliateUrl: amazonSearchUrl("compact+camera+travel"),
-        tag: "Sightseeing essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "The marble temple reflected in the lotus tank is one of the more visually distinctive sights in the region.",
-      },
-    ],
-  },
-];
-
 export default function PawapuriGuidePage() {
   return (
     <>
@@ -204,8 +150,8 @@ export default function PawapuriGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/kerala/alleppey.jpg"
-              alt="Lotus-filled water tank and temple, evoking Jal Mandir at Pawapuri, Bihar"
+              src="/images/blogs/bihar/pawapuri/jal-mandir-pawapuri.webp"
+              alt="Jal Mandir, Pawapuri"
               fill
               priority
               sizes="100vw"
@@ -416,8 +362,8 @@ export default function PawapuriGuidePage() {
                   <h2>Top Things to Do in Pawapuri</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/kerala/alleppey.jpg"
-                      alt="Temple tank landscape evoking Pawapuri's Jal Mandir"
+                      src="/images/blogs/bihar/pawapuri/pawapuri.webp"
+                      alt="Pawapuri, Bihar"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -682,8 +628,6 @@ export default function PawapuriGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              <TrekGearRecommendations sections={PAWAPURI_GEAR} destination="Pawapuri" />
 
               <RelatedPostsGrid currentSlug="pawapuri-travel-guide" />
             </article>

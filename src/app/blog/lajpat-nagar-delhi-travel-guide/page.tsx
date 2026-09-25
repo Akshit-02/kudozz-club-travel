@@ -386,6 +386,15 @@ export default function LajpatNagarGuidePage() {
                     neighbourhood circuit.
                   </p>
 
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/delhi/lajpat-nagar/golgappe-street-food-stall.webp"
+                      alt="Freshly fried golgappe shells at a Delhi street food stall, the classic chaat snack found around Lajpat Nagar's Central Market"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   {/* At a Glance */}
                   <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 my-8">
                     <h4
@@ -696,15 +705,6 @@ export default function LajpatNagarGuidePage() {
                     than up to the task.
                   </p>
 
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/delhi/lajpat-nagar/golgappe-street-food-stall.webp"
-                      alt="Freshly fried golgappe shells at a Delhi street food stall, the classic chaat snack found around Lajpat Nagar's Central Market"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
 
                   <ul>
                     <li>

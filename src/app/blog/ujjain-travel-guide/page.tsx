@@ -7,10 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Ujjain Travel Guide: Mahakaleshwar Temple, Simhastha & Kumbh",
@@ -26,14 +22,14 @@ export const metadata: Metadata = {
     type: "article",
     siteName: "Kudozz Club",
     images: [
-      { url: "/images/destinations/jaisalmer/hero.jpg", width: 1200, height: 630, alt: "A golden-hued temple town representative of Ujjain's sacred old city" },
+      { url: "/images/blogs/madhya-pradesh/ujjain/ram-ghat-ujjain.webp", width: 1600, height: 1088, alt: "Ram Ghat, Ujjain" },
     ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Ujjain Travel Guide: Mahakaleshwar Temple, Simhastha & Kumbh",
     description: "A Jyotirlinga where the daily Bhasma Aarti draws pilgrims before dawn — the complete guide to Ujjain.",
-    images: ["/images/destinations/jaisalmer/hero.jpg"],
+    images: ["/images/blogs/madhya-pradesh/ujjain/ram-ghat-ujjain.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/ujjain-travel-guide" },
 };
@@ -48,7 +44,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Ujjain Travel Guide: Mahakaleshwar Temple, Simhastha & Kumbh",
           description: "The complete Ujjain travel guide.",
-          image: "https://club.kudozz.in/images/destinations/jaisalmer/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/madhya-pradesh/ujjain/ram-ghat-ujjain.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
@@ -128,21 +124,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const UJJAIN_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for temple queues, early mornings, and riverside ghats",
-    emoji: "🕉️",
-    items: [
-      { name: "Modest Temple Wear", description: "Covered shoulders and knees are expected at Mahakaleshwar Temple, Kal Bhairav Temple, and around Ram Ghat.", price: "₹599",  image: "🧣", affiliateUrl: amazonSearchUrl("modest+travel+clothing+cotton"), tag: "Temple essential", tagColor: "bg-purple-100 text-purple-700", why: "Ujjain's temples are among the most actively revered in India — dress expectations are strictly observed." },
-      { name: "Light Shawl / Stole", description: "Useful both as a head covering inside temples and for warmth during the pre-dawn Bhasma Aarti, which can be cold outside summer.", price: "₹399",  image: "🧕", affiliateUrl: amazonSearchUrl("cotton+shawl+stole+travel"), tag: "Aarti essential", tagColor: "bg-amber-100 text-amber-700", why: "Pre-dawn queues for the Bhasma Aarti can mean a long, chilly wait, especially in winter." },
-      { name: "Small Bag for Shoes & Valuables", description: "Footwear must come off before entering most temples, and a dedicated small bag makes managing shoes and valuables in crowds much easier.", price: "₹299",  image: "👝", affiliateUrl: amazonSearchUrl("travel+shoe+bag+pouch"), tag: "Temple essential", tagColor: "bg-forest-100 text-forest-700", why: "Shoe-drop counters at busy temples can have long queues of their own — carrying your own bag is often faster." },
-      { name: "Comfortable Walking Shoes", description: "For the walk between Mahakaleshwar Temple, Ram Ghat, and Kal Bhairav Temple across the old city.", price: "₹1,199",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+outdoor"), tag: "City-day essential", tagColor: "bg-sky-100 text-sky-700", why: "Ujjain's main sites are close together but best covered on foot through narrow old-city lanes." },
-      { name: "Reusable Water Bottle", description: "Useful for a day of temple queues and ghat walking, particularly outside the cooler winter months.", price: "₹349",  image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "Travel essential", tagColor: "bg-red-100 text-red-700", why: "Temple queues can run long, especially around major festival dates." },
-    ],
-  },
-];
-
 export default function UjjainGuidePage() {
   return (
     <>
@@ -152,7 +133,7 @@ export default function UjjainGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/jaisalmer/hero.jpg" alt="A golden-hued temple town representative of Ujjain's sacred old city" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/madhya-pradesh/ujjain/ram-ghat-ujjain.webp" alt="Ram Ghat, Ujjain" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -283,7 +264,7 @@ export default function UjjainGuidePage() {
                 <section id="attractions">
                   <h2>Top Attractions</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/jaisalmer/hero.jpg" alt="Golden-hued architecture representative of Ujjain's temple town" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
+                    <Image src="/images/blogs/madhya-pradesh/ujjain/vedh-shala-ujjain.webp" alt="Vedh Shala, Ujjain" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
                   </div>
                   <ul>
                     <li><strong>Mahakaleshwar Jyotirlinga Temple:</strong> One of the 12 Jyotirlingas of Shiva and Ujjain's spiritual heart, famous for the pre-dawn Bhasma Aarti — verify current timings and any booking process before you go.</li>
@@ -410,7 +391,6 @@ export default function UjjainGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={UJJAIN_GEAR} destination="Ujjain" />
               <RelatedPostsGrid currentSlug="ujjain-travel-guide" />
             </article>
 

@@ -25,8 +25,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/destinations/kerala/alleppey.jpg",
-        width: 1200,
-        height: 630,
+        width: 2560,
+        height: 1709,
         alt: "Calm forested lake, evoking Palak Dil, Mizoram's largest natural lake in remote Saiha district",
       },
     ],
@@ -425,15 +425,6 @@ export default function PalakDilGuidePage() {
 
                 <section id="things-to-do">
                   <h2>The Lake, Forest & Legend</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/kerala/alleppey.jpg"
-                      alt="Forested lake shoreline, evoking Palak Dil in southern Mizoram"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>The Lake Itself</h3>
                   <p>
                     As Mizoram&apos;s largest natural lake, Palak Dil has a

@@ -7,10 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuidePhotoRow } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
   title: "Bengaluru Travel Guide: Gardens, Palaces & India's Tech Capital",
@@ -24,13 +21,13 @@ export const metadata: Metadata = {
     url: "https://club.kudozz.in/blog/bengaluru-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/udaipur/saheliyon.jpg", width: 1200, height: 630, alt: "Green garden landscape representative of Bengaluru, Karnataka" }],
+    images: [{ url: "/images/blogs/karnataka/bengaluru/lalbagh-botanical-garden-bengaluru-2.webp", width: 1600, height: 1200, alt: "Lalbagh Botanical Garden, Bengaluru" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Bengaluru Travel Guide: Gardens, Palaces & India's Tech Capital",
     description: "Cubbon Park's green spread, a Tipu Sultan summer palace, and India's best-known startup scene — the complete guide to Bengaluru.",
-    images: ["/images/destinations/udaipur/saheliyon.jpg"],
+    images: ["/images/blogs/karnataka/bengaluru/lalbagh-botanical-garden-bengaluru-2.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/bengaluru-travel-guide" },
 };
@@ -45,7 +42,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Bengaluru Travel Guide: Gardens, Palaces & India's Tech Capital",
           description: "The complete Bengaluru travel guide.",
-          image: "https://club.kudozz.in/images/destinations/udaipur/saheliyon.jpg",
+          image: "https://club.kudozz.in/images/blogs/karnataka/bengaluru/lalbagh-botanical-garden-bengaluru-2.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
@@ -104,20 +101,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const BENGALURU_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for garden walks, palace visits, and city-hopping",
-    emoji: "🌳",
-    items: [
-      { name: "Comfortable Walking Shoes", description: "Cubbon Park, Lalbagh, and the palace complexes all involve significant walking on foot.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "City-walk essential", tagColor: "bg-forest-100 text-forest-700", why: "Bengaluru's best sights reward walking rather than hopping between cabs for every stop." },
-      { name: "Light Layers / Jacket", description: "Evenings can turn cool even in the warmer months, a rarity for an Indian metro at this latitude.", price: "₹1,299",  image: "🧥", affiliateUrl: amazonSearchUrl("light+jacket+travel+layer"), tag: "Weather essential", tagColor: "bg-sky-100 text-sky-700", why: "Bengaluru's elevation gives it noticeably cooler evenings than most Indian cities." },
-      { name: "Reusable Water Bottle", description: "For garden walks and a day of city sightseeing between attractions.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "All-day essential", tagColor: "bg-amber-100 text-amber-700", why: "A full day covering multiple parks and palaces adds up in walking distance." },
-      { name: "Daypack (20L)", description: "For carrying essentials across a day that mixes gardens, museums, and shopping streets.", price: "₹899",  image: "🎒", affiliateUrl: amazonSearchUrl("20l+daypack+travel"), tag: "City essential", tagColor: "bg-purple-100 text-purple-700", why: "Keeps hands free for photos and shopping across a packed city itinerary." },
-    ],
-  },
-];
-
 export default function BengaluruGuidePage() {
   return (
     <>
@@ -127,7 +110,7 @@ export default function BengaluruGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/udaipur/saheliyon.jpg" alt="Green garden landscape representative of Bengaluru, Karnataka" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/karnataka/bengaluru/lalbagh-botanical-garden-bengaluru-2.webp" alt="Lalbagh Botanical Garden, Bengaluru" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -236,7 +219,7 @@ export default function BengaluruGuidePage() {
                 <section id="top-attractions">
                   <h2>Top Things to Do in Bengaluru</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/udaipur/saheliyon.jpg" alt="Garden landscape in Bengaluru" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
+                    <Image src="/images/blogs/karnataka/bengaluru/tipu-sultan-s-summer-palace-bengaluru-2.webp" alt="Tipu Sultan's Summer Palace, Bengaluru" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
                   </div>
                   <ul>
                     <li><strong>Cubbon Park:</strong> A large green space in the city core, popular for morning walks and a quiet break from the surrounding traffic.</li>
@@ -246,6 +229,13 @@ export default function BengaluruGuidePage() {
                     <li><strong>ISKCON Temple Bangalore:</strong> A large, active Krishna temple complex popular with both devotees and visitors.</li>
                     <li><strong>MG Road, Brigade Road & Commercial Street:</strong> The city's classic shopping and nightlife strips, including its well-known craft beer and microbrewery scene.</li>
                   </ul>
+                  <GuidePhotoRow
+                    images={[
+                      { src: "/images/blogs/karnataka/bengaluru/cubbon-park-bengaluru.webp", alt: "Cubbon Park, Bengaluru", caption: "Cubbon Park, Bengaluru" },
+                      { src: "/images/blogs/karnataka/bengaluru/lalbagh-botanical-garden-bengaluru.webp", alt: "Lalbagh Botanical Garden, Bengaluru", caption: "Lalbagh Botanical Garden, Bengaluru" },
+                      { src: "/images/blogs/karnataka/bengaluru/bangalore-palace-bengaluru.webp", alt: "Bangalore Palace, Bengaluru", caption: "Bangalore Palace, Bengaluru" },
+                    ]}
+                  />
                 </section>
 
                 <section id="where-to-stay">
@@ -363,7 +353,6 @@ export default function BengaluruGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={BENGALURU_GEAR} destination="Bengaluru" />
               <RelatedPostsGrid currentSlug="bengaluru-travel-guide" />
             </article>
 

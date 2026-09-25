@@ -7,8 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Mainpat Travel Guide: Chhattisgarh's Tibetan Plateau Retreat",
@@ -20,7 +18,7 @@ export const metadata: Metadata = {
     title: "Mainpat Travel Guide: Chhattisgarh's Tibetan Plateau Retreat",
     description: "A cool plateau nicknamed the 'Shimla of Chhattisgarh', home to a Tibetan refugee settlement and monastery since the 1960s — the complete guide to Mainpat.",
     url: "https://club.kudozz.in/blog/mainpat-travel-guide", type: "article", siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/manali/solang-valley.jpg", width: 1200, height: 630, alt: "Cool plateau landscape representative of Mainpat, Chhattisgarh" }],
+    images: [{ url: "/images/destinations/manali/solang-valley.jpg", width: 2560, height: 1707, alt: "Cool plateau landscape representative of Mainpat, Chhattisgarh" }],
   },
   twitter: { card: "summary_large_image", title: "Mainpat Travel Guide: Chhattisgarh's Tibetan Plateau Retreat", description: "A cool plateau retreat with a Tibetan settlement — the complete guide to Mainpat.", images: ["/images/destinations/manali/solang-valley.jpg"] },
   alternates: { canonical: "https://club.kudozz.in/blog/mainpat-travel-guide" },
@@ -78,16 +76,6 @@ const tableOfContents = [
   { id: "tips", title: "Essential Travel Tips", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
-
-const MAINPAT_GEAR: GearSection[] = [{
-  title: "Things Worth Carrying", subtitle: "Gear for a cool plateau with basic infrastructure", emoji: "🏔️",
-  items: [
-    { name: "Light Warm Layers", description: "Mainpat's elevated plateau setting keeps it noticeably cooler than the Chhattisgarh plains, especially mornings and evenings.", price: "₹1,499",  image: "🧥", affiliateUrl: amazonSearchUrl("light+warm+jacket+travel"), tag: "Climate essential", tagColor: "bg-sky-100 text-sky-700", why: "First-time visitors often underestimate how much cooler Mainpat feels than the rest of the state." },
-    { name: "Comfortable Walking Shoes", description: "For exploring Tiger Point, Machali Point, and the settlement's village paths.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-amber-100 text-amber-700", why: "Plateau viewpoints and village paths involve real walking on uneven ground." },
-    { name: "Modest Respectful Clothing", description: "For visiting the Tibetan monastery and settlement respectfully as a real community.", price: "₹599",  image: "👕", affiliateUrl: amazonSearchUrl("modest+travel+clothing"), tag: "Monastery essential", tagColor: "bg-purple-100 text-purple-700", why: "This is a living settlement, not a staged attraction — respectful dress matters." },
-    { name: "Camera", description: "For the plateau viewpoints and the settlement's distinctive character.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-forest-100 text-forest-700", why: "Mainpat's plateau views and cultural sites are genuinely photogenic." },
-  ],
-}];
 
 export default function MainpatGuidePage() {
   return (
@@ -199,9 +187,6 @@ export default function MainpatGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do in Mainpat</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/manali/solang-valley.jpg" alt="Plateau scenery around Mainpat" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>Tibetan Settlement & Monastery:</strong> A genuine, living Tibetan refugee community established here since the 1960s — visit respectfully as you would any real settlement.</li>
                     <li><strong>Tiger Point:</strong> A local viewpoint/waterfall area (the name is local rather than indicating actual tigers in the area).</li>
@@ -323,7 +308,6 @@ export default function MainpatGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={MAINPAT_GEAR} destination="Mainpat" />
               <RelatedPostsGrid currentSlug="mainpat-travel-guide" />
             </article>
             <div className="hidden xl:block w-64 2xl:w-72 flex-shrink-0"><div className="sticky top-24"><RelatedSidebar currentSlug="mainpat-travel-guide" /></div></div>

@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuidePhotoRow } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -566,15 +567,6 @@ export default function RoseGardenGuidePage() {
                     than needing a guide.
                   </p>
 
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/chandigarh/rose-garden/rose-garden-chandigarh-tourism-entrance-signage.webp"
-                      alt="Chandigarh Tourism entrance signage at the Zakir Hussain Rose Garden, noting its 1967 founding under Dr. M.S. Randhawa and its status as Asia's largest rose garden"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
 
                   <p>
                     Scale is really the garden's defining feature. With a
@@ -761,6 +753,12 @@ export default function RoseGardenGuidePage() {
                       if you want to turn this into a multi-garden morning.
                     </li>
                   </ul>
+                  <GuidePhotoRow
+                    images={[
+                      { src: "/images/blogs/chandigarh/rose-garden-chandigarh/sector-17-zakir-hussain-rose-garden-chandigarh.webp", alt: "Sector 17, Zakir Hussain Rose Garden Chandigarh", caption: "Sector 17, Zakir Hussain Rose Garden Chandigarh" },
+                      { src: "/images/blogs/chandigarh/rose-garden-chandigarh/garden-of-fragrance-zakir-hussain-rose-garden-chandigarh.webp", alt: "Garden of Fragrance, Zakir Hussain Rose Garden Chandigarh", caption: "Garden of Fragrance, Zakir Hussain Rose Garden Chandigarh" },
+                    ]}
+                  />
                 </section>
 
                 {/* ── Visit Plan ─────────────────────────────────────────── */}

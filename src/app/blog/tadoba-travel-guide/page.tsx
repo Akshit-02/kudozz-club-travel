@@ -7,10 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -28,10 +24,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/meghalaya/dawki-river.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Dense forest and river at Tadoba Andhari Tiger Reserve, Maharashtra",
+        url: "/images/blogs/maharashtra/tadoba/tadoba-andhari-tiger-reserve.webp",
+        width: 1600,
+        height: 1067,
+        alt: "Tadoba Andhari Tiger Reserve, Maharashtra",
       },
     ],
   },
@@ -40,7 +36,7 @@ export const metadata: Metadata = {
     title: "Tadoba Andhari Tiger Reserve: Safari Guide, Zones & Best Time",
     description:
       "Zones, gates, permits, and a 2-day itinerary for Maharashtra's best tiger reserve.",
-    images: ["/images/destinations/meghalaya/dawki-river.jpg"],
+    images: ["/images/blogs/maharashtra/tadoba/tadoba-andhari-tiger-reserve.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/tadoba-travel-guide",
@@ -57,7 +53,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Tadoba Andhari Tiger Reserve: Safari Guide, Zones & Best Time",
           description: "The complete Tadoba safari travel guide.",
-          image: "https://club.kudozz.in/images/destinations/meghalaya/dawki-river.jpg",
+          image: "https://club.kudozz.in/images/blogs/maharashtra/tadoba/tadoba-andhari-tiger-reserve.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: {
@@ -160,82 +156,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const TADOBA_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for open-gypsy safaris and pre-dawn starts",
-    emoji: "🐅",
-    items: [
-      {
-        name: "Neutral-Tone Safari Clothing",
-        description:
-          "Khaki, olive, or muted brown clothing blends into the forest and doesn't startle wildlife — bright colours and white are best avoided on safari.",
-        price: "₹1,299",
-        image: "🥾",
-        affiliateUrl: amazonSearchUrl("safari+clothing+khaki+set"),
-        tag: "Safari essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "Guides regularly ask visitors in bright colours to cover up — neutral tones from the start save you the scramble.",
-      },
-      {
-        name: "8x42 Binoculars",
-        description:
-          "Essential for spotting birds and distant wildlife across the reserve's open grasslands, and for confirming a sighting before the gypsy gets closer.",
-        price: "₹2,499",
-        image: "🔭",
-        affiliateUrl: amazonSearchUrl("8x42+binoculars+wildlife"),
-        tag: "Non-negotiable",
-        tagColor: "bg-red-100 text-red-700",
-        why: "Most of what you see on safari is at a distance — binoculars turn a blur in the trees into an actual sighting.",
-      },
-      {
-        name: "Telephoto Zoom Lens / Bridge Camera",
-        description:
-          "A 300mm+ reach makes the difference between a usable tiger photo and a green smudge — even a decent bridge camera outperforms a phone here.",
-        price: "₹8,999+",
-        image: "📷",
-        affiliateUrl: amazonSearchUrl("bridge+camera+superzoom"),
-        tag: "Photography",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "Gypsies can't always get close for safety and forest-rule reasons — zoom reach matters more than megapixels here.",
-      },
-      {
-        name: "Warm Layer / Fleece",
-        description:
-          "Winter morning safaris (Dec-Feb) start before sunrise in an open vehicle — genuinely cold until the sun clears the tree line.",
-        price: "₹899",
-        image: "🧥",
-        affiliateUrl: amazonSearchUrl("fleece+jacket+travel"),
-        tag: "Winter safari essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "An open gypsy at 6 AM in December is colder than most first-timers expect — layers you can shed later work best.",
-      },
-      {
-        name: "Insect Repellent",
-        description:
-          "Forest trails and waterhole stops bring mosquitoes, especially at dawn and dusk — a DEET-based repellent is worth applying before every safari.",
-        price: "₹199",
-        image: "🧴",
-        affiliateUrl: amazonSearchUrl("insect+repellent+spray"),
-        tag: "Comfort essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "Two safaris a day means two dawn-and-dusk mosquito windows — repellent is a small thing that saves a lot of discomfort.",
-      },
-      {
-        name: "Power Bank",
-        description:
-          "No charging points on safari, and telephoto cameras and phones both drain fast shooting continuous bursts — carry backup power.",
-        price: "₹1,099",
-        image: "🔋",
-        affiliateUrl: amazonSearchUrl("power+bank+20000mah"),
-        tag: "Travel essential",
-        tagColor: "bg-stone-100 text-stone-700",
-        why: "A dead camera battery mid-sighting is the one regret every wildlife photographer eventually has — carry spares.",
-      },
-    ],
-  },
-];
-
 export default function TadobaGuidePage() {
   return (
     <>
@@ -247,8 +167,8 @@ export default function TadobaGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/meghalaya/dawki-river.jpg"
-              alt="Dense forest and river at Tadoba Andhari Tiger Reserve, Maharashtra"
+              src="/images/blogs/maharashtra/tadoba/tadoba-andhari-tiger-reserve.webp"
+              alt="Tadoba Andhari Tiger Reserve, Maharashtra"
               fill
               priority
               sizes="100vw"
@@ -479,15 +399,6 @@ export default function TadobaGuidePage() {
                     forest, more accessible, easier to book, still genuine
                     sighting chances).
                   </p>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/meghalaya/dawki-river.jpg"
-                      alt="Forest trail and waterhole inside Tadoba Andhari Tiger Reserve"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <ul>
                     <li>
                       <strong>Moharli Gate (core):</strong> The most popular
@@ -706,8 +617,6 @@ export default function TadobaGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              <TrekGearRecommendations sections={TADOBA_GEAR} destination="Tadoba" />
 
               <RelatedPostsGrid currentSlug="tadoba-travel-guide" />
             </article>

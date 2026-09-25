@@ -7,10 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -28,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/ziro/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Dry deciduous forest landscape representative of Bandipur, Karnataka",
+        url: "/images/blogs/karnataka/bandipur/bandipur-national-park.webp",
+        width: 1600,
+        height: 1044,
+        alt: "Bandipur National Park, Karnataka",
       },
     ],
   },
@@ -39,7 +36,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Bandipur National Park: Tiger Safari Guide, Zones & Best Time",
     description: "One of India's original Project Tiger reserves — the complete safari guide to Bandipur.",
-    images: ["/images/destinations/ziro/hero.jpg"],
+    images: ["/images/blogs/karnataka/bandipur/bandipur-national-park.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/bandipur-travel-guide",
@@ -57,7 +54,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Bandipur National Park: Tiger Safari Guide, Zones & Best Time",
           description: "The complete Bandipur travel guide.",
-          image: "https://club.kudozz.in/images/destinations/ziro/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/karnataka/bandipur/bandipur-national-park.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: {
@@ -154,57 +151,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-// ── Gear ──────────────────────────────────────────────────────────────────────
-const BANDIPUR_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for jeep and canter safaris through dry deciduous forest",
-    emoji: "🐅",
-    items: [
-      {
-        name: "Neutral/Khaki Clothing",
-        description: "Standard safari etiquette for Bandipur's jeep and canter safaris through open, dry forest.",
-        price: "₹1,299",
-        image: "🧥",
-        affiliateUrl: amazonSearchUrl("khaki+safari+clothing+set"),
-        tag: "Safari essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "Bright colors stand out sharply against Bandipur's dry deciduous terrain.",
-      },
-      {
-        name: "Binoculars",
-        description: "For spotting elephants, gaur, and deer across Bandipur's more open stretches of forest.",
-        price: "₹1,999",
-        image: "🔭",
-        affiliateUrl: amazonSearchUrl("binoculars+wildlife+safari"),
-        tag: "Non-negotiable",
-        tagColor: "bg-red-100 text-red-700",
-        why: "A good pair of binoculars often makes the difference between missing and confirming a sighting.",
-      },
-      {
-        name: "Dust Mask / Bandana",
-        description: "Bandipur's dry-season roads can get dusty on an open jeep or canter safari.",
-        price: "₹199",
-        image: "🧣",
-        affiliateUrl: amazonSearchUrl("bandana+dust+mask+outdoor"),
-        tag: "Dry-season essential",
-        tagColor: "bg-stone-100 text-stone-700",
-        why: "Open-vehicle safaris on dry forest tracks kick up a fair amount of dust, especially Mar–May.",
-      },
-      {
-        name: "Sun Protection (Hat & Sunscreen)",
-        description: "Bandipur's open canopy sections offer little shade during daytime safaris.",
-        price: "₹599",
-        image: "🧴",
-        affiliateUrl: amazonSearchUrl("sunscreen+SPF+50+outdoor"),
-        tag: "Trek essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "The dry, open terrain that makes Bandipur good for sightings also means more sun exposure than denser forests." ,
-      },
-    ],
-  },
-];
-
 // ── Page ─────────────────────────────────────────────────────────────────────
 export default function BandipurGuidePage() {
   return (
@@ -217,8 +163,8 @@ export default function BandipurGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/ziro/hero.jpg"
-              alt="Dry deciduous forest landscape representative of Bandipur, Karnataka"
+              src="/images/blogs/karnataka/bandipur/bandipur-national-park.webp"
+              alt="Bandipur National Park, Karnataka"
               fill
               priority
               sizes="100vw"
@@ -332,6 +278,7 @@ export default function BandipurGuidePage() {
 
                 <section id="best-time">
                   <h2>Best Time to Visit Bandipur</h2>
+                  <GuideFigure src="/images/blogs/karnataka/bandipur/bandipur-national-park-view.webp" alt="Bandipur National Park, Karnataka" />
                   <div className="grid sm:grid-cols-2 gap-4 my-6">
                     {[
                       { season: "Oct – Feb", emoji: "☀️", color: "bg-amber-50 border-amber-200", mood: "Most comfortable", text: "Cool, dry weather good for extended safaris, with solid general wildlife activity." },
@@ -365,15 +312,6 @@ export default function BandipurGuidePage() {
 
                 <section id="safaris">
                   <h2>Safaris & Wildlife</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/ziro/hero.jpg"
-                      alt="Forest safari terrain at Bandipur National Park"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <ul>
                     <li><strong>Jeep safaris:</strong> Standard open-gypsy safaris in morning and afternoon slots, run by the Karnataka Forest Department.</li>
                     <li><strong>Canter safaris:</strong> Larger shared-vehicle safaris, a budget-friendly alternative to a private jeep.</li>
@@ -516,8 +454,6 @@ export default function BandipurGuidePage() {
                   <Link key={tag} href={`/blog?tag=${tag.toLowerCase().replace(/ /g, "-")}`} className="tag-pill">#{tag}</Link>
                 ))}
               </div>
-
-              <TrekGearRecommendations sections={BANDIPUR_GEAR} destination="Bandipur" />
 
               <RelatedPostsGrid currentSlug="bandipur-travel-guide" />
             </article>

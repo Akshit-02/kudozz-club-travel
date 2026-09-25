@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -25,8 +26,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/blogs/uttarakhand/auli/auli-snow-slopes-mountain-view.webp",
-        width: 1200,
-        height: 630,
+        width: 1500,
+        height: 1125,
         alt: "Snow-covered ski slopes at Auli with panoramic views of the Garhwal Himalaya",
       },
     ],
@@ -540,15 +541,6 @@ export default function AuliGuidePage() {
                 {/* ── Attractions ────────────────────────────────────────── */}
                 <section id="attractions">
                   <h2>Things to Do & See in Auli</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/uttarakhand/auli/auli-snow-slopes-mountain-view.webp"
-                      alt="Skiers on the open snow slopes of Auli, Uttarakhand"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Skiing on Auli's Slopes</h3>
                   <p>
                     Auli's main run stretches roughly 3 km down open,
@@ -570,6 +562,7 @@ export default function AuliGuidePage() {
                     experience Auli without a road trip.
                   </p>
                   <h3>Auli Lake</h3>
+                  <GuideFigure src="/images/blogs/uttarakhand/auli/auli-lake-2.webp" alt="Auli Lake, Uttarakhand" />
                   <p>
                     A man-made reservoir built to supply Auli's
                     snow-making machines, Auli Lake sits within easy walking

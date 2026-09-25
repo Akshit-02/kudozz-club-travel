@@ -7,10 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -28,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/meghalaya/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Forest and reservoir landscape representative of Kabini, Karnataka",
+        url: "/images/blogs/karnataka/kabini/kabini.webp",
+        width: 1600,
+        height: 735,
+        alt: "View of Kabini, Karnataka",
       },
     ],
   },
@@ -40,7 +37,7 @@ export const metadata: Metadata = {
     title: "Kabini Travel Guide: Wildlife Safari & Backwater Boat Rides",
     description:
       "Leopard country and reservoir boat safaris — the complete guide to Kabini, Karnataka.",
-    images: ["/images/destinations/meghalaya/hero.jpg"],
+    images: ["/images/blogs/karnataka/kabini/kabini.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/kabini-travel-guide",
@@ -58,7 +55,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Kabini Travel Guide: Wildlife Safari & Backwater Boat Rides",
           description: "The complete Kabini travel guide.",
-          image: "https://club.kudozz.in/images/destinations/meghalaya/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/karnataka/kabini/kabini.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: {
@@ -165,72 +162,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-// ── Gear ──────────────────────────────────────────────────────────────────────
-const KABINI_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for jeep and boat safaris on the Kabini reservoir",
-    emoji: "🐆",
-    items: [
-      {
-        name: "Binoculars",
-        description:
-          "Leopard and elephant sightings at Kabini often happen across open reservoir-edge terrain — binoculars turn a distant shape into an actual sighting.",
-        price: "₹1,999",
-        image: "🔭",
-        affiliateUrl: amazonSearchUrl("binoculars+wildlife+safari"),
-        tag: "Non-negotiable",
-        tagColor: "bg-red-100 text-red-700",
-        why: "Kabini's open water-edge terrain rewards binoculars more than denser forest reserves do.",
-      },
-      {
-        name: "Telephoto Camera / Lens",
-        description:
-          "Kabini's reputation for leopard photography draws serious wildlife photographers — a longer lens makes the difference on both jeep and boat safaris.",
-        price: "₹8,999+",
-        image: "📷",
-        affiliateUrl: amazonSearchUrl("telephoto+lens+wildlife+photography"),
-        tag: "Photography essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "This is one of India's most photographed wildlife destinations for exactly this reason.",
-      },
-      {
-        name: "Neutral/Khaki Clothing",
-        description:
-          "Standard safari practice on both jeep and boat safaris — neutral tones are less disruptive to wildlife.",
-        price: "₹1,299",
-        image: "🧥",
-        affiliateUrl: amazonSearchUrl("khaki+safari+clothing+set"),
-        tag: "Safari essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "Bright colors carry across open water and grassland more than they do in dense forest.",
-      },
-      {
-        name: "Insect Repellent",
-        description:
-          "The reservoir edge and surrounding forest are prime mosquito habitat, especially at dawn and dusk safari times.",
-        price: "₹199",
-        image: "🦟",
-        affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"),
-        tag: "Safari essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "Both the boat and jeep safaris run at the buggiest hours of the day.",
-      },
-      {
-        name: "Wide-Brim Sun Hat",
-        description:
-          "Boat safaris in particular offer no shade for the length of the cruise.",
-        price: "₹399",
-        image: "👒",
-        affiliateUrl: amazonSearchUrl("wide+brim+sun+hat+outdoor"),
-        tag: "Boat-safari essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "There's no cover on an open safari boat crossing the reservoir.",
-      },
-    ],
-  },
-];
-
 // ── Page ─────────────────────────────────────────────────────────────────────
 export default function KabiniGuidePage() {
   return (
@@ -243,8 +174,8 @@ export default function KabiniGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/meghalaya/hero.jpg"
-              alt="Forest and reservoir landscape representative of Kabini, Karnataka"
+              src="/images/blogs/karnataka/kabini/kabini.webp"
+              alt="View of Kabini, Karnataka"
               fill
               priority
               sizes="100vw"
@@ -366,6 +297,7 @@ export default function KabiniGuidePage() {
 
                 <section id="best-time">
                   <h2>Best Time to Visit Kabini</h2>
+                  <GuideFigure src="/images/blogs/karnataka/kabini/kabini-view.webp" alt="Kabini, Karnataka" />
                   <div className="grid sm:grid-cols-2 gap-4 my-6">
                     {[
                       { season: "Mar – May", emoji: "🥵", color: "bg-amber-50 border-amber-200", mood: "Best sightings — our pick", text: "Water levels drop, and wildlife — especially elephants — concentrates visibly around the reservoir despite the heat." },
@@ -401,15 +333,6 @@ export default function KabiniGuidePage() {
 
                 <section id="safaris">
                   <h2>Safaris & Wildlife</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/meghalaya/hero.jpg"
-                      alt="Reservoir and forest edge at Kabini"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <ul>
                     <li><strong>Jeep safaris:</strong> Standard open-gypsy safaris through Nagarhole's forest, run in morning and afternoon slots.</li>
                     <li><strong>Boat safaris:</strong> A slower cruise along the Kabini reservoir, where leopards, elephant herds, and birdlife are often visible from the water — a genuinely different experience from a jeep drive.</li>
@@ -554,8 +477,6 @@ export default function KabiniGuidePage() {
                   <Link key={tag} href={`/blog?tag=${tag.toLowerCase().replace(/ /g, "-")}`} className="tag-pill">#{tag}</Link>
                 ))}
               </div>
-
-              <TrekGearRecommendations sections={KABINI_GEAR} destination="Kabini" />
 
               <RelatedPostsGrid currentSlug="kabini-travel-guide" />
             </article>

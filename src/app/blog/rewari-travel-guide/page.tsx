@@ -7,8 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Rewari Travel Guide: Brass Town & 1857 Rebellion History",
@@ -20,9 +18,9 @@ export const metadata: Metadata = {
     title: "Rewari Travel Guide: Brass Town & 1857 Rebellion History",
     description: "A centuries-old brassware manufacturing hub that also played a role in the 1857 rebellion, on the historic route between Delhi and Rajasthan — the complete guide to Rewari.",
     url: "https://club.kudozz.in/blog/rewari-travel-guide", type: "article", siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/hampi/virupaksha.jpg", width: 1200, height: 630, alt: "Historic town architecture representative of Rewari, Haryana" }],
+    images: [{ url: "/images/blogs/haryana/rewari/rewari.webp", width: 1200, height: 803, alt: "Rewari, Haryana" }],
   },
-  twitter: { card: "summary_large_image", title: "Rewari Travel Guide: Brass Town & 1857 Rebellion History", description: "A brassware hub with 1857 rebellion history — the complete guide to Rewari.", images: ["/images/destinations/hampi/virupaksha.jpg"] },
+  twitter: { card: "summary_large_image", title: "Rewari Travel Guide: Brass Town & 1857 Rebellion History", description: "A brassware hub with 1857 rebellion history — the complete guide to Rewari.", images: ["/images/blogs/haryana/rewari/rewari.webp"] },
   alternates: { canonical: "https://club.kudozz.in/blog/rewari-travel-guide" },
 };
 
@@ -32,7 +30,7 @@ function ArticleSchema() {
       "@context": "https://schema.org", "@type": "BlogPosting",
       headline: "Rewari Travel Guide: Brass Town & 1857 Rebellion History",
       description: "The complete Rewari travel guide.",
-      image: "https://club.kudozz.in/images/destinations/hampi/virupaksha.jpg",
+      image: "https://club.kudozz.in/images/blogs/haryana/rewari/rewari.webp",
       datePublished: "2026-09-07", dateModified: "2026-09-07",
       publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
       author: { "@type": "Organization", name: "Kudozz Club" },
@@ -79,16 +77,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const REWARI_GEAR: GearSection[] = [{
-  title: "Things Worth Carrying", subtitle: "Gear for a market walk and heritage stop", emoji: "🔔",
-  items: [
-    { name: "Comfortable Walking Shoes", description: "For navigating the brass market's narrow lanes and any heritage-site walking.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Market essential", tagColor: "bg-amber-100 text-amber-700", why: "The brass market's lanes are busy and best explored on foot." },
-    { name: "Cash Pouch", description: "Many market vendors and small shops in Rewari's brass district prefer cash.", price: "₹299",  image: "👛", affiliateUrl: amazonSearchUrl("travel+cash+pouch"), tag: "Shopping essential", tagColor: "bg-sky-100 text-sky-700", why: "Card acceptance is inconsistent at smaller brass workshops and stalls." },
-    { name: "Camera", description: "For the brass workshops, market scenes, and any railway heritage sights.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-forest-100 text-forest-700", why: "The brass-making process and market activity make for genuinely interesting photography." },
-    { name: "Sun Hat", description: "For a comfortable day walking outdoor market areas and heritage sites.", price: "₹499",  image: "🧢", affiliateUrl: amazonSearchUrl("sun+hat+travel+outdoor"), tag: "Comfort essential", tagColor: "bg-purple-100 text-purple-700", why: "Much of the day involves outdoor walking with limited shade." },
-  ],
-}];
-
 export default function RewariGuidePage() {
   return (
     <>
@@ -96,7 +84,9 @@ export default function RewariGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/hampi/virupaksha.jpg" alt="Historic town architecture representative of Rewari, Haryana" fill priority sizes="100vw" className="object-cover" />
+            <Image
+              src="/images/blogs/haryana/rewari/rewari.webp"
+              alt="Rewari, Haryana" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -200,9 +190,6 @@ export default function RewariGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do in Rewari</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/hampi/virupaksha.jpg" alt="Historic architecture around Rewari" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>Brass market:</strong> Workshops and shops producing utensils, decorative items, and industrial brass components — a genuine local craft tradition worth browsing.</li>
                     <li><strong>Rewari Railway Heritage Museum/Steam Locomotive Shed:</strong> A notable railway heritage site — check current opening status before a dedicated visit.</li>
@@ -319,7 +306,6 @@ export default function RewariGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={REWARI_GEAR} destination="Rewari" />
               <RelatedPostsGrid currentSlug="rewari-travel-guide" />
             </article>
             <div className="hidden xl:block w-64 2xl:w-72 flex-shrink-0"><div className="sticky top-24"><RelatedSidebar currentSlug="rewari-travel-guide" /></div></div>

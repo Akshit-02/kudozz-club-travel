@@ -537,15 +537,6 @@ export default function MedaramGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>The Jatara & The Forest Shrine</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/telangana/medaram/sammakka-gadde-shrine-jatara-crowd-medaram.webp"
-                      alt="Pilgrims gathered around the decorated Sammakka gadde shrine platform during the Medaram jatara, Mulugu district, Telangana"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>During the Jatara</h3>
                   <p>
                     Four days of rituals, processions, and an extraordinary

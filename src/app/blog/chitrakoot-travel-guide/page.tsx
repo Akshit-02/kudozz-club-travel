@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -533,15 +534,6 @@ export default function ChitrakootGuidePage() {
                 {/* ── Sacred Sites ───────────────────────────────────────── */}
                 <section id="sacred-sites">
                   <h2>Sacred Sites of the Ramayana Circuit</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/uttar-pradesh/chitrakoot/ramghat-mandakini-river.webp"
-                      alt="Pilgrims and boats along Ramghat on the Mandakini River, Chitrakoot"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Kamadgiri</h3>
                   <p>
                     Kamadgiri is Chitrakoot's most sacred site — a hill that
@@ -562,6 +554,7 @@ export default function ChitrakootGuidePage() {
                     ghats and temples.
                   </p>
                   <h3>Hanuman Dhara</h3>
+                  <GuideFigure src="/images/blogs/uttar-pradesh/chitrakoot/hanuman-dhara-chitrakoot.webp" alt="Hanuman Dhara, Chitrakoot" />
                   <p>
                     A spring set into a hillside, Hanuman Dhara is
                     mythologically linked to the story of Hanuman cooling

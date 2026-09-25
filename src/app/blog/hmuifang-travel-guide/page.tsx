@@ -25,8 +25,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/destinations/spiti-valley/spiti-valley.jpg",
-        width: 1200,
-        height: 630,
+        width: 2560,
+        height: 1920,
         alt: "Scenic hill valley landscape, evoking Hmuifang's paragliding viewpoints south of Aizawl, Mizoram",
       },
     ],
@@ -395,15 +395,6 @@ export default function HmuifangGuidePage() {
 
                 <section id="things-to-do">
                   <h2>Paragliding, Views & Village Heritage</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/spiti-valley/spiti-valley.jpg"
-                      alt="Rolling hills landscape, evoking Hmuifang's viewpoint scenery in Mizoram"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Paragliding</h3>
                   <p>
                     Hmuifang&apos;s paragliding site is a genuine draw for

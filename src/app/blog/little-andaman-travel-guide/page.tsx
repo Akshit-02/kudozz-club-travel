@@ -25,8 +25,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/destinations/andaman/hero.jpg",
-        width: 1200,
-        height: 630,
+        width: 2560,
+        height: 1707,
         alt: "Turquoise water and white sand along Little Andaman's coastline, near Butler Bay",
       },
     ],
@@ -545,15 +545,6 @@ export default function LittleAndamanGuidePage() {
                 {/* ── Butler Bay ─────────────────────────────────────────── */}
                 <section id="butler-bay">
                   <h2>Butler Bay & Surfing</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/andaman/hero.jpg"
-                      alt="Waves breaking along the coastline near Butler Bay, Little Andaman"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <p>
                     <strong>Butler Bay Beach</strong> is the reason most
                     visitors make the long crossing at all — it's widely

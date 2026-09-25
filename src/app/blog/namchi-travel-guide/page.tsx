@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/hampi/virupaksha.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Grand stone temple architecture, evoking Namchi's large-scale Char Dham and Samdruptse religious monuments",
+        url: "/images/blogs/sikkim/namchi/namchi.webp",
+        width: 1600,
+        height: 1200,
+        alt: "View of Namchi, Sikkim",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Namchi Travel Guide: Char Dham & Samdruptse",
     description:
       "A symbolic Char Dham pilgrimage and one of the tallest Guru Padmasambhava statues anywhere — the complete guide to Namchi.",
-    images: ["/images/destinations/hampi/virupaksha.jpg"],
+    images: ["/images/blogs/sikkim/namchi/namchi.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/namchi-travel-guide",
@@ -59,7 +60,7 @@ function ArticleSchema() {
           headline: "Namchi Travel Guide: Char Dham & Samdruptse",
           description:
             "Complete Namchi guide — the Char Dham replica pilgrimage complex, the giant Samdruptse Guru Padmasambhava statue, the Rock Garden, how to reach from Gangtok, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/hampi/virupaksha.jpg",
+          image: "https://club.kudozz.in/images/blogs/sikkim/namchi/namchi.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -200,8 +201,8 @@ export default function NamchiGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/hampi/virupaksha.jpg"
-              alt="Grand stone temple architecture, evoking Namchi's large-scale Char Dham and Samdruptse religious monuments"
+              src="/images/blogs/sikkim/namchi/namchi.webp"
+              alt="View of Namchi, Sikkim"
               fill
               priority
               sizes="100vw"
@@ -520,16 +521,8 @@ export default function NamchiGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Char Dham, Samdruptse & Rock Garden</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/hampi/virupaksha.jpg"
-                      alt="Large stone temple towers, evoking Namchi's Char Dham complex"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Char Dham (Siddhesvara Dham)</h3>
+                  <GuideFigure src="/images/blogs/sikkim/namchi/char-dham-namchi.webp" alt="Char Dham, Namchi" />
                   <p>
                     Replicas of the four major Hindu pilgrimage shrines,
                     arranged around a roughly 108-foot Shiva statue — a

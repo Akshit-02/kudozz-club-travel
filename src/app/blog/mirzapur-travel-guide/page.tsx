@@ -532,15 +532,6 @@ export default function MirzapurGuidePage() {
                 {/* ── Attractions ────────────────────────────────────────── */}
                 <section id="attractions">
                   <h2>Temples, Fort & Waterfalls</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/uttar-pradesh/mirzapur/chunar-fort-mirzapur.webp"
-                      alt="Carved sandstone archways inside the historic Chunar Fort near Mirzapur"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Vindhyachal Temple & the Tridevi Circuit</h3>
                   <p>
                     The Vindhyachal Temple, on the banks of the Ganga, is

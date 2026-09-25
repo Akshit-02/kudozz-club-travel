@@ -7,8 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Hisar Travel Guide: Firoz Shah Palace & Blackbuck Country",
@@ -25,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/ziro/hero.jpg",
+        url: "/images/blogs/haryana/hisar/hisar.webp",
         width: 1200,
-        height: 630,
-        alt: "Open plains landscape representative of Hisar, Haryana",
+        height: 600,
+        alt: "Hisar, Haryana",
       },
     ],
   },
@@ -37,7 +35,7 @@ export const metadata: Metadata = {
     title: "Hisar Travel Guide: Firoz Shah Palace & Blackbuck Country",
     description:
       "Tughlaq-era heritage and blackbuck plains — the complete practical guide to Hisar.",
-    images: ["/images/destinations/ziro/hero.jpg"],
+    images: ["/images/blogs/haryana/hisar/hisar.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/hisar-travel-guide",
@@ -54,7 +52,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Hisar Travel Guide: Firoz Shah Palace & Blackbuck Country",
           description: "The complete Hisar travel guide.",
-          image: "https://club.kudozz.in/images/destinations/ziro/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/haryana/hisar/hisar.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: {
@@ -146,56 +144,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const HISAR_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for a day of heritage sites and open plains",
-    emoji: "🏰",
-    items: [
-      {
-        name: "Comfortable Walking Shoes",
-        description: "For exploring the uneven ground and open courtyards of the Firoz Shah Palace Complex.",
-        price: "₹1,999",
-        image: "👟",
-        affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
-        tag: "Essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "The palace grounds involve real walking over rough, historic stonework.",
-      },
-      {
-        name: "Sun Hat & Sunscreen",
-        description: "Hisar sits on open plains with little natural shade around the heritage sites.",
-        price: "₹599",
-        image: "🧴",
-        affiliateUrl: amazonSearchUrl("sun+hat+sunscreen+travel"),
-        tag: "Essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Sun exposure on Haryana's plains is significant, especially outside winter.",
-      },
-      {
-        name: "Binoculars",
-        description: "Useful if you're extending the trip toward blackbuck-viewing areas nearby.",
-        price: "₹2,499",
-        image: "🔭",
-        affiliateUrl: amazonSearchUrl("binoculars+wildlife+viewing"),
-        tag: "Optional",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "Blackbuck typically keep their distance across open grassland.",
-      },
-      {
-        name: "Camera",
-        description: "For the Tughlaq-era architecture and open plains landscapes around the city.",
-        price: "—",
-        image: "📷",
-        affiliateUrl: amazonSearchUrl("compact+camera+travel"),
-        tag: "Recommended",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "The palace complex's weathered stonework photographs well, especially in soft morning light.",
-      },
-    ],
-  },
-];
-
 export default function HisarGuidePage() {
   return (
     <>
@@ -207,8 +155,8 @@ export default function HisarGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/ziro/hero.jpg"
-              alt="Open plains landscape representative of Hisar, Haryana"
+              src="/images/blogs/haryana/hisar/hisar.webp"
+              alt="Hisar, Haryana"
               fill
               priority
               sizes="100vw"
@@ -427,15 +375,6 @@ export default function HisarGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do in Hisar</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/ziro/hero.jpg"
-                      alt="Open plains near Hisar, Haryana"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <ul>
                     <li>
                       <strong>Firoz Shah Palace Complex (Gujari Mahal):</strong> The clear highlight — surviving
@@ -720,8 +659,6 @@ export default function HisarGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              <TrekGearRecommendations sections={HISAR_GEAR} destination="Hisar" />
 
               <RelatedPostsGrid currentSlug="hisar-travel-guide" />
             </article>

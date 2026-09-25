@@ -590,15 +590,6 @@ export default function LaxmiNagarGuidePage() {
                 {/* ── Market ────────────────────────────────────────────── */}
                 <section id="market">
                   <h2>The Laxmi Nagar Market</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/delhi/laxmi-nagar/laxmi-nagar-street-shop-signboards.webp"
-                      alt="A busy Laxmi Nagar street lined with dense clothing shop and institute signboards stacked above street level"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <p>
                     Long before the coaching boom, Laxmi Nagar was already a
                     genuine East Delhi commercial hub, and that side of the

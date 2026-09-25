@@ -7,10 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuidePhotoRow } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
   title: "Omkareshwar Travel Guide: Jyotirlinga Island Temple & Narmada Ghats",
@@ -26,14 +23,14 @@ export const metadata: Metadata = {
     type: "article",
     siteName: "Kudozz Club",
     images: [
-      { url: "/images/destinations/kerala/alleppey.jpg", width: 1200, height: 630, alt: "A river landscape representative of the Narmada at Omkareshwar" },
+      { url: "/images/blogs/madhya-pradesh/omkareshwar/omkareshwar.webp", width: 1600, height: 1067, alt: "Omkareshwar, Madhya Pradesh" },
     ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Omkareshwar Travel Guide: Jyotirlinga Island Temple & Narmada Ghats",
     description: "A Shiva temple on an Om-shaped island, ringed by the Narmada River — the complete guide to Omkareshwar.",
-    images: ["/images/destinations/kerala/alleppey.jpg"],
+    images: ["/images/blogs/madhya-pradesh/omkareshwar/omkareshwar.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/omkareshwar-travel-guide" },
 };
@@ -48,7 +45,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Omkareshwar Travel Guide: Jyotirlinga Island Temple & Narmada Ghats",
           description: "The complete Omkareshwar travel guide.",
-          image: "https://club.kudozz.in/images/destinations/kerala/alleppey.jpg",
+          image: "https://club.kudozz.in/images/blogs/madhya-pradesh/omkareshwar/omkareshwar.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
@@ -124,21 +121,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const OMKARESHWAR_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for the island temple, ghats, and riverside walks",
-    emoji: "🕉️",
-    items: [
-      { name: "Modest Temple Wear", description: "Covered shoulders and knees are expected at both Omkareshwar and Mamleshwar temples.", price: "₹599",  image: "🧣", affiliateUrl: amazonSearchUrl("modest+travel+clothing+cotton"), tag: "Temple essential", tagColor: "bg-purple-100 text-purple-700", why: "Omkareshwar is an active, revered Jyotirlinga site, not a heritage-only monument." },
-      { name: "Comfortable Sandals", description: "The walk across the bridge to Mandhata island and around the ghats involves steps and stone paths best done in secure footwear.", price: "₹799",  image: "👡", affiliateUrl: amazonSearchUrl("comfortable+sandals+travel"), tag: "Ghat essential", tagColor: "bg-amber-100 text-amber-700", why: "You'll remove footwear frequently near temples, so easy-on, easy-off sandals beat laced shoes here." },
-      { name: "Sun Protection (Hat + Sunscreen)", description: "The island and riverside paths offer little shade across a fair amount of walking.", price: "₹699",  image: "🧴", affiliateUrl: amazonSearchUrl("travel+sunscreen+hat+combo"), tag: "Riverside essential", tagColor: "bg-orange-100 text-orange-700", why: "Much of an Omkareshwar visit happens outdoors along open riverbank and island paths." },
-      { name: "Small Bag for Shoes & Valuables", description: "Footwear comes off before entering the temple, and a dedicated bag makes crowded queues easier to manage.", price: "₹299",  image: "👝", affiliateUrl: amazonSearchUrl("travel+shoe+bag+pouch"), tag: "Temple essential", tagColor: "bg-forest-100 text-forest-700", why: "Shoe-drop areas near the temple entrance can get crowded, especially on weekends." },
-      { name: "Reusable Water Bottle", description: "Useful for the island walk and ghat-side time, particularly outside the cooler months.", price: "₹349",  image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "Travel essential", tagColor: "bg-sky-100 text-sky-700", why: "Shops thin out once you're across the bridge onto the island itself." },
-    ],
-  },
-];
-
 export default function OmkareshwarGuidePage() {
   return (
     <>
@@ -148,7 +130,7 @@ export default function OmkareshwarGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/kerala/alleppey.jpg" alt="A river landscape representative of the Narmada at Omkareshwar" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/madhya-pradesh/omkareshwar/omkareshwar.webp" alt="Omkareshwar, Madhya Pradesh" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -280,7 +262,7 @@ export default function OmkareshwarGuidePage() {
                 <section id="attractions">
                   <h2>Top Attractions</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/kerala/alleppey.jpg" alt="Riverside scenery representative of the Narmada at Omkareshwar" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
+                    <Image src="/images/blogs/madhya-pradesh/omkareshwar/omkareshwar-dam.webp" alt="Omkareshwar Dam, Madhya Pradesh" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
                   </div>
                   <ul>
                     <li><strong>Omkareshwar Jyotirlinga Temple:</strong> One of the 12 Jyotirlingas of Shiva, located on Mandhata island — the reason most travellers come.</li>
@@ -290,6 +272,12 @@ export default function OmkareshwarGuidePage() {
                     <li><strong>Kajal Rani Cave:</strong> A smaller, quieter site worth a stop for those with extra time.</li>
                     <li><strong>Omkareshwar Dam:</strong> A large hydro project on the Narmada nearby, a reminder of the river's modern significance alongside its sacred one.</li>
                   </ul>
+                  <GuidePhotoRow
+                    images={[
+                      { src: "/images/blogs/madhya-pradesh/omkareshwar/omkareshwar-jyotirlinga-temple-2.webp", alt: "Omkareshwar Jyotirlinga Temple, Madhya Pradesh", caption: "Omkareshwar Jyotirlinga Temple, Madhya Pradesh" },
+                      { src: "/images/blogs/madhya-pradesh/omkareshwar/mamleshwar-temple-omkareshwar.webp", alt: "Mamleshwar Temple, Omkareshwar", caption: "Mamleshwar Temple, Omkareshwar" },
+                    ]}
+                  />
                 </section>
 
                 <section id="where-to-stay">
@@ -406,7 +394,6 @@ export default function OmkareshwarGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={OMKARESHWAR_GEAR} destination="Omkareshwar" />
               <RelatedPostsGrid currentSlug="omkareshwar-travel-guide" />
             </article>
 

@@ -7,8 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
   title: "Baga Beach Travel Guide: Nightlife, Water Sports & Tito's Lane",
@@ -20,9 +19,9 @@ export const metadata: Metadata = {
     title: "Baga Beach Travel Guide: Nightlife, Water Sports & Tito's Lane",
     description: "Goa's most concentrated nightlife strip, packed with beach shacks, clubs, and every water sport on the coast — the complete guide to Baga.",
     url: "https://club.kudozz.in/blog/baga-travel-guide", type: "article", siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/andaman/hero.jpg", width: 1200, height: 630, alt: "Coastal beach scenery representative of Baga, Goa" }],
+    images: [{ url: "/images/blogs/goa/baga/baga-beach-2.webp", width: 1600, height: 770, alt: "Baga Beach, Goa" }],
   },
-  twitter: { card: "summary_large_image", title: "Baga Beach Travel Guide: Nightlife, Water Sports & Tito's Lane", description: "Goa's most concentrated nightlife strip — the complete guide to Baga.", images: ["/images/destinations/andaman/hero.jpg"] },
+  twitter: { card: "summary_large_image", title: "Baga Beach Travel Guide: Nightlife, Water Sports & Tito's Lane", description: "Goa's most concentrated nightlife strip — the complete guide to Baga.", images: ["/images/blogs/goa/baga/baga-beach-2.webp"] },
   alternates: { canonical: "https://club.kudozz.in/blog/baga-travel-guide" },
 };
 
@@ -32,7 +31,7 @@ function ArticleSchema() {
       "@context": "https://schema.org", "@type": "BlogPosting",
       headline: "Baga Beach Travel Guide: Nightlife, Water Sports & Tito's Lane",
       description: "The complete Baga travel guide.",
-      image: "https://club.kudozz.in/images/destinations/andaman/hero.jpg",
+      image: "https://club.kudozz.in/images/blogs/goa/baga/baga-beach-2.webp",
       datePublished: "2026-09-08", dateModified: "2026-09-08",
       publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
       author: { "@type": "Organization", name: "Kudozz Club" },
@@ -79,16 +78,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const BAGA_GEAR: GearSection[] = [{
-  title: "Things Worth Carrying", subtitle: "Gear for beach days and nights out on Tito's Lane", emoji: "🎉",
-  items: [
-    { name: "Reef-Safe Sunscreen (SPF 50)", description: "Extended beach time before the nightlife starts calls for strong sun protection.", price: "₹599",  image: "🧴", affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+SPF+50"), tag: "Beach essential", tagColor: "bg-amber-100 text-amber-700", why: "A day at Baga beach precedes most nightlife plans — sunburn undermines the evening." },
-    { name: "Comfortable Going-Out Footwear", description: "For a night navigating Tito's Lane's clubs, bars, and crowded lanes.", price: "₹1,299",  image: "👞", affiliateUrl: amazonSearchUrl("comfortable+going+out+shoes"), tag: "Nightlife essential", tagColor: "bg-purple-100 text-purple-700", why: "Tito's Lane involves a lot of standing and walking between venues." },
-    { name: "Waterproof Phone Pouch", description: "For the beach, water sports, and dolphin-watching boat trips.", price: "₹299",  image: "📱", affiliateUrl: amazonSearchUrl("waterproof+phone+pouch+beach"), tag: "Water essential", tagColor: "bg-sky-100 text-sky-700", why: "Between water sports and boat trips, protecting your phone matters at Baga." },
-    { name: "Small Cross-Body Bag", description: "For keeping essentials secure through crowded nightlife venues.", price: "₹799",  image: "🎒", affiliateUrl: amazonSearchUrl("cross+body+travel+bag"), tag: "Nightlife essential", tagColor: "bg-forest-100 text-forest-700", why: "Crowded clubs and bars are where pickpocketing risk is highest." },
-  ],
-}];
-
 export default function BagaGuidePage() {
   return (
     <>
@@ -96,7 +85,7 @@ export default function BagaGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/andaman/hero.jpg" alt="Coastal beach scenery representative of Baga, Goa" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/goa/baga/baga-beach-2.webp" alt="Baga Beach, Goa" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -199,9 +188,7 @@ export default function BagaGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do in Baga</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/andaman/hero.jpg" alt="Beach and coastal scenery at Baga" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
+                  <GuideFigure src="/images/blogs/goa/baga/baga-beach-view.webp" alt="Baga Beach, Goa" />
                   <ul>
                     <li><strong>Tito's Lane:</strong> Goa's most iconic nightlife strip — long-running clubs and bars.</li>
                     <li><strong>Water sports:</strong> Parasailing, jet-skiing, and banana boat rides along the beach.</li>
@@ -324,7 +311,6 @@ export default function BagaGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={BAGA_GEAR} destination="Baga" />
               <RelatedPostsGrid currentSlug="baga-travel-guide" />
             </article>
             <div className="hidden xl:block w-64 2xl:w-72 flex-shrink-0"><div className="sticky top-24"><RelatedSidebar currentSlug="baga-travel-guide" /></div></div>

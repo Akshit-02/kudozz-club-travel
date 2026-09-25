@@ -7,10 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuidePhotoRow } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -30,8 +27,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/destinations/goa/hero.jpg",
-        width: 1200,
-        height: 630,
+        width: 2560,
+        height: 1707,
         alt: "Palm-lined Goa beach at sunset with fishing boats",
       },
     ],
@@ -191,83 +188,6 @@ const tableOfContents = [
   { id: "tips", title: "Essential Travel Tips", level: 2 },
   { id: "places-to-explore", title: "Places to Explore in Goa", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
-];
-
-// ── Goa-specific gear ───────────────────────────────────────────────────────────
-const GOA_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for the beaches, the sun, and the shack-hopping",
-    emoji: "🏖️",
-    items: [
-      {
-        name: "Reef-Safe Sunscreen (SPF 50)",
-        description:
-          "Goa's sun is intense year-round, and reef-safe formulas avoid contributing to coral and marine damage around watersport zones like Grande Island.",
-        price: "₹599",
-        image: "🧴",
-        affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+SPF+50"),
-        tag: "Beach essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "Full days on the sand without reapplying sunscreen is the single most common regret travellers report after a Goa trip.",
-      },
-      {
-        name: "Quick-Dry Beach Towel",
-        description:
-          "A compact microfiber towel dries in a fraction of the time of cotton — useful when you're hopping between beaches, pools, and shacks across the day.",
-        price: "₹499",
-        image: "🏖️",
-        affiliateUrl: amazonSearchUrl("quick+dry+microfiber+beach+towel"),
-        tag: "Multi-beach days",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Standard hotel towels stay damp for hours in Goa's humidity — a quick-dry towel packs down small and doesn't smell by evening.",
-      },
-      {
-        name: "Waterproof Phone Pouch",
-        description:
-          "Essential for watersports, boat rides to Grande Island, and simply not worrying about your phone near the surf — clear pouches still let you shoot photos.",
-        price: "₹299",
-        image: "📱",
-        affiliateUrl: amazonSearchUrl("waterproof+phone+pouch+beach"),
-        tag: "Watersports essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "Parasailing, jet-skiing, and dolphin-watching boat trips all carry real risk of a dropped or soaked phone without one.",
-      },
-      {
-        name: "Lightweight Cover-Up / Sarong",
-        description:
-          "Useful as beach-to-shack coverage, sun protection for the shoulders, and modest dress for the churches and temples inland.",
-        price: "₹399",
-        image: "🧣",
-        affiliateUrl: amazonSearchUrl("beach+sarong+cover+up"),
-        tag: "Beach-to-town essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "Old Goa's churches expect covered shoulders — a sarong solves this instantly without needing a separate outfit change.",
-      },
-      {
-        name: "Insect Repellent",
-        description:
-          "Mosquito activity picks up noticeably around dusk near Goa's beach shacks and backwaters, especially in the shoulder monsoon months.",
-        price: "₹199",
-        image: "🦟",
-        affiliateUrl: amazonSearchUrl("mosquito+repellent+travel"),
-        tag: "Evening essential",
-        tagColor: "bg-red-100 text-red-700",
-        why: "Beach shack dinners run late into the evening — repellent makes those hours noticeably more comfortable.",
-      },
-      {
-        name: "Power Bank (10,000 mAh)",
-        description:
-          "Long beach days, boat trips, and night markets all drain a phone fast — a reliable power bank keeps you shooting and navigating all day.",
-        price: "₹1,299",
-        image: "🔋",
-        affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
-        tag: "All-day essential",
-        tagColor: "bg-stone-100 text-stone-700",
-        why: "Outlets are scarce at beach shacks — a power bank means you're never stuck choosing between photos and navigation.",
-      },
-    ],
-  },
 ];
 
 // ── Page ─────────────────────────────────────────────────────────────────────
@@ -681,15 +601,6 @@ export default function GoaBeachesGuidePage() {
                 {/* ── Best Beaches ──────────────────────────────────────── */}
                 <section id="best-beaches">
                   <h2>The Best Beaches</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/goa/beach.jpg"
-                      alt="Turquoise water and a quiet palm-lined beach in Goa"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
 
                   <section id="north-beaches">
                     <h3>North Goa Beaches</h3>
@@ -710,6 +621,33 @@ export default function GoaBeachesGuidePage() {
                     </ul>
                     <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                       <Image
+                        src="/images/blogs/goa/goa/agonda-beach-huts-goa.webp"
+                        alt="Colourful beach huts lined up beneath tall palm trees on Agonda beach"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
+                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/blogs/goa/goa/palolem-beach-south-goa.webp"
+                        alt="Palolem's curved bay lined with palm trees and bamboo beach huts in South Goa"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
+                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/blogs/goa/goa/chapora-fort-vagator-goa.webp"
+                        alt="Weathered laterite stone arches and ramparts of Chapora Fort overlooking Vagator"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
+                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                      <Image
                         src="/images/blogs/goa/goa/anjuna-beach-curlies-goa.webp"
                         alt="Anjuna beach with the legendary Curlies beach shack and palm trees along the sand"
                         fill
@@ -726,15 +664,6 @@ export default function GoaBeachesGuidePage() {
                         North Goa.
                       </li>
                     </ul>
-                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                      <Image
-                        src="/images/blogs/goa/goa/chapora-fort-vagator-goa.webp"
-                        alt="Weathered laterite stone arches and ramparts of Chapora Fort overlooking Vagator"
-                        fill
-                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                        className="object-cover"
-                      />
-                    </div>
                     <ul>
                       <li>
                         <strong>Morjim & Ashwem:</strong> Quieter, more upscale
@@ -755,15 +684,6 @@ export default function GoaBeachesGuidePage() {
                         beautiful beach.
                       </li>
                     </ul>
-                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                      <Image
-                        src="/images/blogs/goa/goa/palolem-beach-south-goa.webp"
-                        alt="Palolem's curved bay lined with palm trees and bamboo beach huts in South Goa"
-                        fill
-                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                        className="object-cover"
-                      />
-                    </div>
                     <ul>
                       <li>
                         <strong>Agonda:</strong> Quieter still than Palolem,
@@ -772,15 +692,6 @@ export default function GoaBeachesGuidePage() {
                         want genuine calm.
                       </li>
                     </ul>
-                    <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                      <Image
-                        src="/images/blogs/goa/goa/agonda-beach-huts-goa.webp"
-                        alt="Colourful beach huts lined up beneath tall palm trees on Agonda beach"
-                        fill
-                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                        className="object-cover"
-                      />
-                    </div>
                     <ul>
                       <li>
                         <strong>Colva & Benaulim:</strong> Wide, long beaches
@@ -843,6 +754,12 @@ export default function GoaBeachesGuidePage() {
                       <strong>Timings:</strong> 9 AM – 6:30 PM daily
                     </li>
                   </ul>
+                  <GuidePhotoRow
+                    images={[
+                      { src: "/images/blogs/goa/goa-beaches/s-cathedral-goa.webp", alt: "Sé Cathedral, Goa", caption: "Sé Cathedral, Goa" },
+                      { src: "/images/blogs/goa/goa-beaches/church-of-st-francis-of-assisi-goa.webp", alt: "Church of St. Francis of Assisi, Goa", caption: "Church of St. Francis of Assisi, Goa" },
+                    ]}
+                  />
                   <div
                     className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-xl my-4 text-sm"
                     style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -1575,9 +1492,6 @@ export default function GoaBeachesGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              {/* ── Gear Recommendations ──────────────────────────────── */}
-              <TrekGearRecommendations sections={GOA_GEAR} destination="Goa" />
 
               <RelatedPostsGrid currentSlug="goa-beaches-travel-guide" />
             </article>

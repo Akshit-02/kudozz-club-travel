@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -538,15 +539,7 @@ export default function JageshwarGuidePage() {
                 {/* ── Attractions ────────────────────────────────────────── */}
                 <section id="attractions">
                   <h2>The Temples & Complex</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/uttarakhand/jageshwar/ancient-stone-temple-cluster-jageshwar.webp"
-                      alt="Stone temple spires at Jageshwar surrounded by deodar trees"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
+                  <GuideFigure src="/images/blogs/uttarakhand/jageshwar/jageshwar-temple-view.webp" alt="Jageshwar Temple, Uttarakhand" />
                   <h3>The Main Jageshwar Shrine</h3>
                   <p>
                     The central and most revered temple in the complex,

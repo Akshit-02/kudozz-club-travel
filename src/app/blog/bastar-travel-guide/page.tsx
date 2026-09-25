@@ -7,8 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Bastar Travel Guide: Tribal Culture, Bastar Dussehra & Dandami Art",
@@ -21,9 +19,9 @@ export const metadata: Metadata = {
     description: "A 75-day tribal Dussehra festival unlike any other in India, and a district that's home to some of the country's most distinct indigenous cultures — the complete guide to Bastar.",
     url: "https://club.kudozz.in/blog/bastar-travel-guide",
     type: "article", siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/ziro/hero.jpg", width: 1200, height: 630, alt: "Forested tribal landscape representative of Bastar, Chhattisgarh" }],
+    images: [{ url: "/images/blogs/chhattisgarh/bastar/bastar.webp", width: 1200, height: 675, alt: "Bastar, Chhattisgarh" }],
   },
-  twitter: { card: "summary_large_image", title: "Bastar Travel Guide: Tribal Culture, Bastar Dussehra & Dandami Art", description: "Tribal culture, the 75-day Bastar Dussehra, and Dhokra art — the complete guide to Bastar.", images: ["/images/destinations/ziro/hero.jpg"] },
+  twitter: { card: "summary_large_image", title: "Bastar Travel Guide: Tribal Culture, Bastar Dussehra & Dandami Art", description: "Tribal culture, the 75-day Bastar Dussehra, and Dhokra art — the complete guide to Bastar.", images: ["/images/blogs/chhattisgarh/bastar/bastar.webp"] },
   alternates: { canonical: "https://club.kudozz.in/blog/bastar-travel-guide" },
 };
 
@@ -33,7 +31,7 @@ function ArticleSchema() {
       "@context": "https://schema.org", "@type": "BlogPosting",
       headline: "Bastar Travel Guide: Tribal Culture, Bastar Dussehra & Dandami Art",
       description: "The complete Bastar travel guide.",
-      image: "https://club.kudozz.in/images/destinations/ziro/hero.jpg",
+      image: "https://club.kudozz.in/images/blogs/chhattisgarh/bastar/bastar.webp",
       datePublished: "2026-09-08", dateModified: "2026-09-08",
       publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
       author: { "@type": "Organization", name: "Kudozz Club" },
@@ -80,16 +78,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const BASTAR_GEAR: GearSection[] = [{
-  title: "Things Worth Carrying", subtitle: "Gear for a respectful regional cultural trip", emoji: "🎭",
-  items: [
-    { name: "Comfortable Walking Shoes", description: "For village visits, haats, and short walks between Bastar's waterfall and forest sites.", price: "₹1,999",  image: "🥾", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-amber-100 text-amber-700", why: "A multi-day Bastar itinerary covers a lot of varied, sometimes uneven terrain." },
-    { name: "Insect Repellent", description: "Dense forest terrain and village visits both call for reliable insect protection.", price: "₹199",  image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Forest essential", tagColor: "bg-forest-100 text-forest-700", why: "Bastar's forest and river terrain make insects a genuine, ongoing presence." },
-    { name: "Modest, Respectful Clothing", description: "Appropriate for temple visits, village stops, and cultural sites throughout the region.", price: "₹599",  image: "👕", affiliateUrl: amazonSearchUrl("modest+travel+clothing"), tag: "Cultural essential", tagColor: "bg-purple-100 text-purple-700", why: "Respectful dress matters more here than at a typical tourist stop, given how much of the trip involves local communities." },
-    { name: "Camera with a Discreet Zoom", description: "For photographing landscapes and craft at a respectful distance — always ask before photographing people directly.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+zoom+travel"), tag: "Photography essential", tagColor: "bg-sky-100 text-sky-700", why: "A zoom lens lets you capture scenes without needing to intrude on people's space." },
-  ],
-}];
-
 export default function BastarGuidePage() {
   return (
     <>
@@ -97,7 +85,9 @@ export default function BastarGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/ziro/hero.jpg" alt="Forested tribal landscape representative of Bastar, Chhattisgarh" fill priority sizes="100vw" className="object-cover" />
+            <Image
+              src="/images/blogs/chhattisgarh/bastar/bastar.webp"
+              alt="Bastar, Chhattisgarh" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -202,9 +192,6 @@ export default function BastarGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Culture, Craft & Landscape</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/ziro/hero.jpg" alt="Forest and village landscape around Bastar" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>Bastar Dussehra:</strong> A 75-day festival cycle centered on the goddess Danteshwari, culminating in a large chariot procession that blends tribal and Hindu religious traditions found nowhere else in India.</li>
                     <li><strong>Dhokra/Dandami metal casting:</strong> A lost-wax bronze technique producing distinctive figurines and decorative pieces, practiced by artisan communities across the region — seek genuine work through cooperatives.</li>
@@ -329,7 +316,6 @@ export default function BastarGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={BASTAR_GEAR} destination="Bastar" />
               <RelatedPostsGrid currentSlug="bastar-travel-guide" />
             </article>
             <div className="hidden xl:block w-64 2xl:w-72 flex-shrink-0"><div className="sticky top-24"><RelatedSidebar currentSlug="bastar-travel-guide" /></div></div>

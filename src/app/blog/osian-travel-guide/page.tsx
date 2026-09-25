@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/manali/hadimba-temple.jpg",
+        url: "/images/blogs/rajasthan/osian/osian-view.webp",
         width: 1200,
-        height: 630,
-        alt: "Ancient carved temple architecture, evoking Osian's cluster of 8th-12th century desert temples near Jodhpur",
+        height: 900,
+        alt: "Osian, Rajasthan",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Osian Travel Guide: Desert Temples & Tips",
     description:
       "Ancient temples and quiet sand dunes near Jodhpur — the complete guide to Osian, the 'Khajuraho of Rajasthan'.",
-    images: ["/images/destinations/manali/hadimba-temple.jpg"],
+    images: ["/images/blogs/rajasthan/osian/osian-view.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/osian-travel-guide",
@@ -59,7 +60,7 @@ function ArticleSchema() {
           headline: "Osian Travel Guide: Desert Temples & Tips",
           description:
             "Complete Osian guide — the 8th-12th century temple cluster known as the 'Khajuraho of Rajasthan', Sachiya Mata Temple, Jain temples, desert dunes and camel safaris, how to reach from Jodhpur, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/manali/hadimba-temple.jpg",
+          image: "https://club.kudozz.in/images/blogs/rajasthan/osian/osian-view.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -196,8 +197,8 @@ export default function OsianGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/manali/hadimba-temple.jpg"
-              alt="Ancient carved temple architecture, evoking Osian's cluster of 8th-12th century desert temples near Jodhpur"
+              src="/images/blogs/rajasthan/osian/osian-view.webp"
+              alt="Osian, Rajasthan"
               fill
               priority
               sizes="100vw"
@@ -516,15 +517,6 @@ export default function OsianGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Temples & Sand Dunes</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/manali/hadimba-temple.jpg"
-                      alt="Ancient carved temple architecture at Osian, Rajasthan"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Sachiya Mata Temple</h3>
                   <p>
                     The most significant of Osian's Hindu temples, with

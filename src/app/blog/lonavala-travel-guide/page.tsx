@@ -7,10 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuidePhotoRow } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
   title: "Lonavala Travel Guide: Waterfalls, Caves & Monsoon Getaway",
@@ -25,13 +22,13 @@ export const metadata: Metadata = {
     url: "https://club.kudozz.in/blog/lonavala-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/coorg/coorg.jpg", width: 1200, height: 630, alt: "Misty green hills of the Western Ghats near Lonavala" }],
+    images: [{ url: "/images/blogs/maharashtra/lonavala/bhaja-caves-lonavala-2.webp", width: 1200, height: 674, alt: "Bhaja Caves, Lonavala" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Lonavala Travel Guide: Waterfalls, Caves & Monsoon Getaway",
     description: "Bhushi Dam, Karla & Bhaja Caves, and waterfalls at their peak — the complete guide to Lonavala.",
-    images: ["/images/destinations/coorg/coorg.jpg"],
+    images: ["/images/blogs/maharashtra/lonavala/bhaja-caves-lonavala-2.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/lonavala-travel-guide" },
 };
@@ -46,7 +43,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Lonavala Travel Guide: Waterfalls, Caves & Monsoon Getaway",
           description: "The complete Lonavala travel guide.",
-          image: "https://club.kudozz.in/images/destinations/coorg/coorg.jpg",
+          image: "https://club.kudozz.in/images/blogs/maharashtra/lonavala/bhaja-caves-lonavala-2.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
@@ -98,20 +95,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const LONAVALA_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for waterfalls, caves, and monsoon trails",
-    emoji: "🌧️",
-    items: [
-      { name: "Grip Trekking Sandals", description: "Bhushi Dam's rock steps and the caves' uneven stone floors get slippery in monsoon — proper grip footwear matters more here than almost anywhere else in Maharashtra.", price: "₹899",  image: "🥾", affiliateUrl: amazonSearchUrl("trekking+sandals+grip+monsoon"), tag: "Monsoon essential", tagColor: "bg-sky-100 text-sky-700", why: "Slips on wet rock at Bhushi Dam are the single most common minor injury reported by visitors." },
-      { name: "Waterproof Poncho", description: "Lonavala's monsoon showers arrive fast and heavy — a poncho covers both you and a daypack, unlike an umbrella on windy viewpoints.", price: "₹399",  image: "🧥", affiliateUrl: amazonSearchUrl("waterproof+poncho+rain"), tag: "Monsoon essential", tagColor: "bg-forest-100 text-forest-700", why: "Umbrellas are nearly useless at the exposed, windy viewpoints Lonavala is known for." },
-      { name: "Waterproof Phone Pouch", description: "Useful at Bhushi Dam and the monsoon waterfalls, where a soaked phone is one of the most common regrets travellers report.", price: "₹299",  image: "📱", affiliateUrl: amazonSearchUrl("waterproof+phone+pouch"), tag: "Waterfall essential", tagColor: "bg-purple-100 text-purple-700", why: "Bhushi Dam's cascading steps are a magnet for phone drops and water damage every monsoon." },
-      { name: "Quick-Dry Daypack", description: "A light bag for carrying snacks, a change of clothes, and valuables between the caves and the dam without soaking through.", price: "₹899",  image: "🎒", affiliateUrl: amazonSearchUrl("quick+dry+daypack+20l"), tag: "Everyday essential", tagColor: "bg-amber-100 text-amber-700", why: "Canvas or leather bags soak through fast in monsoon rain — quick-dry synthetic packs hold up far better." },
-    ],
-  },
-];
-
 export default function LonavalaGuidePage() {
   return (
     <>
@@ -121,7 +104,9 @@ export default function LonavalaGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/coorg/coorg.jpg" alt="Misty green hills of the Western Ghats near Lonavala" fill priority sizes="100vw" className="object-cover" />
+            <Image
+              src="/images/blogs/maharashtra/lonavala/bhaja-caves-lonavala-2.webp"
+              alt="Bhaja Caves, Lonavala" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -236,9 +221,6 @@ export default function LonavalaGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Attractions in Lonavala</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/coorg/coorg.jpg" alt="Green Sahyadri hills near Lonavala in monsoon" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>Bhushi Dam:</strong> Lonavala's most popular monsoon spot, where overflow water cascades down stepped rocks — hugely crowded on weekends but the defining Lonavala experience.</li>
                     <li><strong>Tiger's Leap & Lion's Point:</strong> Cliffside viewpoints overlooking the valley, best visited near sunrise or sunset for clear views and cooler temperatures.</li>
@@ -248,6 +230,12 @@ export default function LonavalaGuidePage() {
                     <li><strong>Della Adventure Park:</strong> A commercial adventure park with zip-lining, go-karting, and other activities — a good option for families and thrill-seekers.</li>
                     <li><strong>Lonavala Chikki shopping:</strong> The town's main street is lined with shops selling the local jaggery-and-nut brittle — a classic souvenir to carry home.</li>
                   </ul>
+                  <GuidePhotoRow
+                    images={[
+                      { src: "/images/blogs/maharashtra/lonavala/bhushi-dam-lonavala.webp", alt: "Bhushi Dam, Lonavala", caption: "Bhushi Dam, Lonavala" },
+                      { src: "/images/blogs/maharashtra/lonavala/karla-caves-lonavala.webp", alt: "Karla Caves, Lonavala", caption: "Karla Caves, Lonavala" },
+                    ]}
+                  />
                 </section>
 
                 <section id="where-to-stay">
@@ -356,7 +344,6 @@ export default function LonavalaGuidePage() {
                 {["Lonavala", "Maharashtra", "Waterfalls", "Karla Caves", "Monsoon", "India"].map((tag) => <Link key={tag} href={`/blog?tag=${tag.toLowerCase().replace(/ /g, "-")}`} className="tag-pill">#{tag}</Link>)}
               </div>
 
-              <TrekGearRecommendations sections={LONAVALA_GEAR} destination="Lonavala" />
               <RelatedPostsGrid currentSlug="lonavala-travel-guide" />
             </article>
 

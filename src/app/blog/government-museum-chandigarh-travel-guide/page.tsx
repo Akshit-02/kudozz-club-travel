@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -25,8 +26,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/destinations/chandigarh/hero.jpg",
-        width: 1200,
-        height: 630,
+        width: 2560,
+        height: 1920,
         alt: "The Government Museum and Art Gallery building in Sector 10, Chandigarh, home to a Gandhara sculpture and miniature painting collection",
       },
     ],
@@ -553,17 +554,9 @@ export default function GovernmentMuseumGuidePage() {
                     recent Indian art.
                   </p>
 
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/chandigarh/hero.jpg"
-                      alt="Ancient Gandhara-style stone sculpture on display in a gallery at the Government Museum and Art Gallery, Chandigarh"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
 
                   <h3>Gandhara Sculpture</h3>
+                  <GuideFigure src="/images/blogs/chandigarh/government-museum-chandigarh/gandhara-sculpture-government-museum-chandigarh.webp" alt="Gandhara Sculpture, Government Museum Chandigarh" />
                   <p>
                     The museum's best-known holding is its collection of{" "}
                     <strong>Gandhara sculpture</strong> — Buddhist-era stone

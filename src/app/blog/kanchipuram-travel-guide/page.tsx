@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -534,12 +535,14 @@ export default function KanchipuramGuidePage() {
                     other major temples, giving it a distinct atmosphere.
                   </p>
                   <h3>Kamakshi Amman Temple</h3>
+                  <GuideFigure src="/images/blogs/tamil-nadu/kanchipuram/kamakshi-amman-temple-kanchipuram.webp" alt="Kamakshi Amman Temple, Kanchipuram" />
                   <p>
                     Dedicated to the goddess Kamakshi, one of the important
                     Shakti temples of South India — a significant pilgrimage
                     site in its own right.
                   </p>
                   <h3>Silk Weaving</h3>
+                  <GuideFigure src="/images/blogs/tamil-nadu/kanchipuram/silk-weaving-kanchipuram.webp" alt="Silk Weaving, Kanchipuram" />
                   <p>
                     Visiting a weaving showroom or workshop is a highlight
                     for many travelers — seeing the intricate zari work up

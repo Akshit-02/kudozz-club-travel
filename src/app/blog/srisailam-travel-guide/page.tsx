@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -527,16 +528,8 @@ export default function SrisailamGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Temple, Patala Ganga & the Krishna Gorge</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/telangana/srisailam/mallikarjuna-bhramaramba-temple-gopuram-srisailam.webp"
-                      alt="West Gopuram of the Sri Bhramaramba Mallikarjuna Swamy Temple complex, Srisailam"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Mallikarjuna Swamy Temple</h3>
+                  <GuideFigure src="/images/blogs/telangana/srisailam/mallikarjuna-swamy-temple-srisailam-2.webp" alt="Mallikarjuna Swamy Temple, Srisailam" />
                   <p>
                     The main temple complex, honouring both Mallikarjuna
                     (Shiva, as a Jyotirlinga) and Bhramaramba Devi (as a

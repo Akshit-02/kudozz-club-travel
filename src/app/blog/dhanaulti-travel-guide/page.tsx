@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -25,8 +26,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/blogs/uttarakhand/dhanaulti/dhanaulti-eco-park-pine-forest.webp",
-        width: 1200,
-        height: 630,
+        width: 1600,
+        height: 901,
         alt: "Quiet pine and deodar forest hillside at Dhanaulti, Uttarakhand",
       },
     ],
@@ -531,15 +532,7 @@ export default function DhanaultiGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Things to Do in Dhanaulti</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/uttarakhand/dhanaulti/dhanaulti-eco-park-pine-forest.webp"
-                      alt="Deodar forest trail in Dhanaulti's Eco Park, Uttarakhand"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
+                  <GuideFigure src="/images/blogs/uttarakhand/dhanaulti/dhanaulti-view.webp" alt="Dhanaulti, Uttarakhand" />
                   <h3>Eco Park</h3>
                   <p>
                     A managed forest area with marked walking trails,

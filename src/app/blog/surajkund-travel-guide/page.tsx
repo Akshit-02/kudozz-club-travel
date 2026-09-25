@@ -7,8 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Surajkund Travel Guide: Crafts Mela & Ancient Sun Reservoir",
@@ -22,7 +20,7 @@ export const metadata: Metadata = {
     url: "https://club.kudozz.in/blog/surajkund-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/udaipur/saheliyon.jpg", width: 1200, height: 630, alt: "Historic garden and reservoir scenery representative of Surajkund, Haryana" }],
+    images: [{ url: "/images/destinations/udaipur/saheliyon.jpg", width: 2560, height: 1927, alt: "Historic garden and reservoir scenery representative of Surajkund, Haryana" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -133,46 +131,6 @@ const tableOfContents = [
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
-];
-
-const SURAJKUND_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for the Mela grounds and reservoir site",
-    emoji: "🏺",
-    items: [
-      {
-        name: "Comfortable Walking Shoes",
-        description: "Essential if visiting during the Mela — the crafts fair grounds are extensive.",
-        price: "₹1,999",
-        image: "👟",
-        affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
-        tag: "Mela essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "The Mela grounds cover a large area with plenty of walking between stalls.",
-      },
-      {
-        name: "Cash / Payment Card",
-        description: "For craft purchases at the Mela — many smaller stalls prefer cash.",
-        price: "₹—",
-        image: "💳",
-        affiliateUrl: amazonSearchUrl("travel+wallet+organizer"),
-        tag: "Shopping essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "A genuine shopping destination during Mela dates — come prepared to browse and buy.",
-      },
-      {
-        name: "Sun Hat",
-        description: "Useful for a day spent largely outdoors around the reservoir and Mela grounds.",
-        price: "₹399",
-        image: "🧢",
-        affiliateUrl: amazonSearchUrl("sun+hat+travel+outdoor"),
-        tag: "Weather essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Limited shade across much of the open reservoir and fairground area.",
-      },
-    ],
-  },
 ];
 
 export default function SurajkundGuidePage() {
@@ -393,15 +351,6 @@ export default function SurajkundGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do in Surajkund</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/udaipur/saheliyon.jpg"
-                      alt="Ancient garden and water structure at Surajkund"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <ul>
                     <li>
                       <strong>The ancient reservoir:</strong> A 10th-century amphitheatre-shaped
@@ -641,8 +590,6 @@ export default function SurajkundGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              <TrekGearRecommendations sections={SURAJKUND_GEAR} destination="Surajkund" />
 
               <RelatedPostsGrid currentSlug="surajkund-travel-guide" />
             </article>

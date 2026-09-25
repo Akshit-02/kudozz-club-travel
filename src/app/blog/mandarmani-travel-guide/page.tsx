@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -536,15 +537,6 @@ export default function MandarmaniGuidePage() {
                 {/* ── Attractions ────────────────────────────────────────── */}
                 <section id="attractions">
                   <h2>Beach, Drive & Nearby Tajpur</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/west-bengal/mandarmani/mandarmani-beach-fishing-boats-stormy-sky.webp"
-                      alt="Fishing boats on Mandarmani's sandy beach, near the stretch used as a motorable beach drive"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>The Motorable Beach Drive</h3>
                   <p>
                     Mandarmani's headline experience — a wide, hard-packed
@@ -563,6 +555,7 @@ export default function MandarmaniGuidePage() {
                     rather than a bustling town centre.
                   </p>
                   <h3>Tajpur</h3>
+                  <GuideFigure src="/images/blogs/west-bengal/mandarmani/tajpur-mandarmani.webp" alt="Tajpur, Mandarmani" />
                   <p>
                     A short drive from Mandarmani, Tajpur is smaller and
                     quieter still, sitting near the mouth of the Shaula

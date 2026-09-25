@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -430,6 +431,7 @@ export default function KushinagarGuidePage() {
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">
                   <h2>Best Time to Visit Kushinagar</h2>
+                  <GuideFigure src="/images/blogs/uttar-pradesh/kushinagar/kushinagar-view.webp" alt="Kushinagar, Uttar Pradesh" />
                   <p>
                     Kushinagar sits in the Gangetic plains, where summers run
                     brutally hot and the monsoon brings heavy, disruptive
@@ -552,15 +554,6 @@ export default function KushinagarGuidePage() {
                 {/* ── Sacred Sites ──────────────────────────────────────── */}
                 <section id="sacred-sites">
                   <h2>The Sacred Sites</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/uttar-pradesh/kushinagar/ramabhar-stupa-kushinagar.webp"
-                      alt="Ruins of ancient brick shrines around the base of the Ramabhar Stupa in Kushinagar"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Mahaparinirvana Temple</h3>
                   <p>
                     The heart of Kushinagar, this temple houses a 6.1-metre

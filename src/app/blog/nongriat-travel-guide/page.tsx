@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/ziro/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Dense green forest landscape, evoking the forested valley trek down to Nongriat's living root bridge",
+        url: "/images/blogs/meghalaya/nongriat/nongriat.webp",
+        width: 1600,
+        height: 1200,
+        alt: "View of Nongriat, Meghalaya",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Nongriat Trek Guide: Living Root Bridge",
     description:
       "A bridge grown from living roots, and a demanding forest descent to reach it — the complete Nongriat trek guide.",
-    images: ["/images/destinations/ziro/hero.jpg"],
+    images: ["/images/blogs/meghalaya/nongriat/nongriat.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/nongriat-travel-guide",
@@ -59,7 +60,7 @@ function ArticleSchema() {
           headline: "Nongriat Trek Guide: Living Root Bridge",
           description:
             "Complete Nongriat guide — the Umshiang Double-Decker Living Root Bridge, the demanding 3,500+ step trek, Rainbow Falls, how to reach via Cherrapunji, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/ziro/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/meghalaya/nongriat/nongriat.webp",
           datePublished: "2026-09-05",
           dateModified: "2026-09-05",
           publisher: {
@@ -196,8 +197,8 @@ export default function NongriatGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/ziro/hero.jpg"
-              alt="Dense green forest landscape, evoking the forested valley trek down to Nongriat's living root bridge"
+              src="/images/blogs/meghalaya/nongriat/nongriat.webp"
+              alt="View of Nongriat, Meghalaya"
               fill
               priority
               sizes="100vw"
@@ -502,16 +503,8 @@ export default function NongriatGuidePage() {
 
                 <section id="things-to-do">
                   <h2>The Root Bridge & Rainbow Falls</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/ziro/hero.jpg"
-                      alt="Forested valley near Nongriat, Meghalaya"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>The Umshiang Double-Decker Root Bridge</h3>
+                  <GuideFigure src="/images/blogs/meghalaya/nongriat/the-umshiang-double-decker-root-bridge-nongriat.webp" alt="The Umshiang Double-Decker Root Bridge, Nongriat" />
                   <p>
                     Two tiers of living root bridge stacked one above the
                     other — a structure grown, tended, and reinforced by
@@ -525,6 +518,7 @@ export default function NongriatGuidePage() {
                     your own pace and rest as needed.
                   </p>
                   <h3>Rainbow Falls</h3>
+                  <GuideFigure src="/images/blogs/meghalaya/nongriat/rainbow-falls-nongriat.webp" alt="Rainbow Falls, Nongriat" />
                   <p>
                     A beautiful waterfall a further walk beyond the
                     village, often combined with the root bridge visit for

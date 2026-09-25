@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jammu-kashmir/dal.jpg",
-        width: 1200,
-        height: 630,
-        alt: "High-altitude lake surrounded by mountains, evoking Tsomgo Lake in Sikkim",
+        url: "/images/blogs/sikkim/tsomgo-lake/tsomgo-lake.webp",
+        width: 1600,
+        height: 1067,
+        alt: "Tsomgo Lake, Sikkim",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Tsomgo Lake Guide: Permits & Best Time",
     description:
       "A glacial lake at 3,753 metres that shifts character with every season — the complete Tsomgo Lake guide.",
-    images: ["/images/destinations/jammu-kashmir/dal.jpg"],
+    images: ["/images/blogs/sikkim/tsomgo-lake/tsomgo-lake.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/tsomgo-lake-travel-guide",
@@ -59,7 +60,7 @@ function ArticleSchema() {
           headline: "Tsomgo Lake Guide: Permits & Best Time",
           description:
             "Complete Tsomgo Lake (Changu Lake) guide — permits, yak rides, seasonal changes, best time to visit, and how to combine it with Nathula Pass on a day trip from Gangtok.",
-          image: "https://club.kudozz.in/images/destinations/jammu-kashmir/dal.jpg",
+          image: "https://club.kudozz.in/images/blogs/sikkim/tsomgo-lake/tsomgo-lake.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -199,8 +200,8 @@ export default function TsomgoLakeGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jammu-kashmir/dal.jpg"
-              alt="High-altitude lake surrounded by mountains, evoking Tsomgo Lake in Sikkim"
+              src="/images/blogs/sikkim/tsomgo-lake/tsomgo-lake.webp"
+              alt="Tsomgo Lake, Sikkim"
               fill
               priority
               sizes="100vw"
@@ -408,6 +409,7 @@ export default function TsomgoLakeGuidePage() {
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">
                   <h2>Best Time to Visit Tsomgo Lake</h2>
+                  <GuideFigure src="/images/blogs/sikkim/tsomgo-lake/tsomgo-lake-view.webp" alt="Tsomgo Lake, Sikkim" />
                   <p>
                     The lake looks genuinely different depending on the
                     season, so it's worth timing your visit to the mood you
@@ -515,15 +517,6 @@ export default function TsomgoLakeGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>The Lake & Yak Rides</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/jammu-kashmir/dal.jpg"
-                      alt="Mountain lake with snow-capped peaks, evoking Tsomgo Lake"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Lakeside Walk & Photography</h3>
                   <p>
                     A short paved path runs along part of the shoreline,

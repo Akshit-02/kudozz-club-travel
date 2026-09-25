@@ -7,10 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -28,10 +24,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/kerala/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Kerala backwaters — traditional houseboat on Vembanad Lake at sunset",
+        url: "/images/blogs/kerala/kerala-backwaters/kerala-backwaters.webp",
+        width: 1600,
+        height: 1200,
+        alt: "View of Kerala Backwaters",
       },
     ],
   },
@@ -40,7 +36,7 @@ export const metadata: Metadata = {
     title: "Kerala Backwaters Guide",
     description:
       "Houseboats, coconut palms, and village life on the water — the complete Kerala backwaters guide.",
-    images: ["/images/destinations/kerala/hero.jpg"],
+    images: ["/images/blogs/kerala/kerala-backwaters/kerala-backwaters.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/kerala-backwaters-travel-guide",
@@ -59,7 +55,7 @@ function ArticleSchema() {
           headline:
             "Kerala Backwaters Guide: Houseboats, Routes, Villages & Tips",
           description: "The complete Kerala Backwaters travel guide.",
-          image: "https://club.kudozz.in/images/destinations/kerala/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/kerala/kerala-backwaters/kerala-backwaters.webp",
           datePublished: "2026-06-30",
           dateModified: "2026-07-12",
           publisher: {
@@ -195,83 +191,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-// ── Backwaters-specific gear ───────────────────────────────────────────────────
-const BACKWATERS_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear that makes a houseboat trip genuinely better",
-    emoji: "🛶",
-    items: [
-      {
-        name: "Lightweight Binoculars (Compact 8x21)",
-        description:
-          "The backwaters host over 140 bird species — kingfishers, herons, darters, and migratory waders. A compact pair fits in any day bag and transforms the canoe village tours from pleasant to genuinely thrilling.",
-        price: "₹1,899",
-        image: "🔭",
-        affiliateUrl: amazonSearchUrl("compact+binoculars+8x21+travel"),
-        tag: "Birdwatching essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "The slow pace of a houseboat is perfect for birdwatching, but the birds are often distant on the water. Compact binoculars cost little and change the whole texture of the cruise.",
-      },
-      {
-        name: "Reef-Safe Mosquito Repellent Spray",
-        description:
-          "The backwaters are humid wetland — mosquitoes are a genuine evening presence, especially at dusk near Kumarakom and the smaller canals. A DEET-based repellent is non-negotiable for evening deck time.",
-        price: "₹249",
-        image: "🦟",
-        affiliateUrl: amazonSearchUrl("mosquito+repellent+spray+DEET+travel"),
-        tag: "Evening essential",
-        tagColor: "bg-red-100 text-red-700",
-        why: "Houseboats moor for the night near villages and paddy fields — exactly where mosquitoes are most active at dusk. Apply before sunset, not after the first bite.",
-      },
-      {
-        name: "Quick-Dry Travel Towel",
-        description:
-          "Houseboat bathrooms are functional but basic, and humidity means regular towels never fully dry between uses. A microfiber quick-dry towel is compact, hygienic, and dries in under an hour.",
-        price: "₹599",
-        image: "🧖",
-        affiliateUrl: amazonSearchUrl("quick+dry+microfiber+travel+towel"),
-        tag: "Humidity solution",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Kerala's coastal humidity means cotton towels stay damp for days on a multi-day houseboat trip. Microfiber dries fast and packs to the size of a water bottle.",
-      },
-      {
-        name: "Dry Bag (10L, Waterproof)",
-        description:
-          "Canoe tours into the narrow village canals involve low bridges, splashing paddles, and occasional unexpected dips. A dry bag protects phones, cameras, and documents during these excursions.",
-        price: "₹899",
-        image: "🎒",
-        affiliateUrl: amazonSearchUrl("waterproof+dry+bag+10L"),
-        tag: "Canoe tour essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "The narrow canal canoe tours are the highlight of any backwaters trip — and the most likely place for your phone to get wet from a splash or sudden tilt.",
-      },
-      {
-        name: "Polarised Sunglasses",
-        description:
-          "Polarised lenses cut the glare off the water dramatically — essential for comfortable hours on deck and for actually seeing fish and bird activity beneath the surface glare.",
-        price: "₹799",
-        image: "🕶️",
-        affiliateUrl: amazonSearchUrl("polarised+sunglasses+travel"),
-        tag: "Glare reduction",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "Hours of houseboat deck time with sun reflecting off flat water causes eye strain fast. Polarised lenses cut that glare and make the whole experience more comfortable.",
-      },
-      {
-        name: "Reusable Water Bottle (1L Insulated)",
-        description:
-          "Kerala's coastal heat and humidity mean steady hydration matters, and most houseboats don't stock enough bottled water for a full day. An insulated bottle keeps water cold through the afternoon heat.",
-        price: "₹699",
-        image: "💧",
-        affiliateUrl: amazonSearchUrl("insulated+water+bottle+1L+travel"),
-        tag: "Coastal heat",
-        tagColor: "bg-stone-100 text-stone-700",
-        why: "Houseboat itineraries rarely stop at shops. Bring your own bottle and refill from the boat's filtered water rather than relying on single-use plastic bottles sold onboard.",
-      },
-    ],
-  },
-];
-
 // ── Page ─────────────────────────────────────────────────────────────────────
 export default function KeralaBackwatersPage() {
   return (
@@ -285,8 +204,8 @@ export default function KeralaBackwatersPage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/kerala/hero.jpg"
-              alt="Kerala backwaters — traditional houseboat gliding through palm-lined canals"
+              src="/images/blogs/kerala/kerala-backwaters/kerala-backwaters.webp"
+              alt="View of Kerala Backwaters"
               fill
               priority
               sizes="100vw"
@@ -686,8 +605,8 @@ export default function KeralaBackwatersPage() {
                     <h3>Alleppey (Alappuzha)</h3>
                     <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                       <Image
-                        src="/images/destinations/kerala/alleppey.jpg"
-                        alt="Alleppey backwaters with houseboats and palm trees"
+                        src="/images/blogs/kerala/kerala-backwaters/alleppey-kerala-backwaters.webp"
+                        alt="Alleppey, Kerala Backwaters"
                         fill
                         sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                         className="object-cover"
@@ -1806,12 +1725,6 @@ export default function KeralaBackwatersPage() {
                   </Link>
                 ))}
               </div>
-
-              {/* ── Gear Recommendations ──────────────────────────────── */}
-              <TrekGearRecommendations
-                sections={BACKWATERS_GEAR}
-                destination="the Kerala Backwaters"
-              />
 
               <RelatedPostsGrid currentSlug="kerala-backwaters-travel-guide" />
             </article>

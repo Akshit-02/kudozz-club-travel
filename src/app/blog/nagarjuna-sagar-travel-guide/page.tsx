@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -523,15 +524,6 @@ export default function NagarjunaSagarGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Dam, Island & Waterfall</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/telangana/nagarjuna-sagar/nagarjuna-sagar-masonry-dam-crest-gates.webp"
-                      alt="The Nagarjuna Sagar masonry dam with its crest gates, viewed across the reservoir"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Nagarjuna Sagar Dam</h3>
                   <p>
                     One of the world's largest masonry dams, an impressive
@@ -540,6 +532,7 @@ export default function NagarjunaSagarGuidePage() {
                     reservoir it holds back.
                   </p>
                   <h3>Nagarjunakonda Island & Museum</h3>
+                  <GuideFigure src="/images/blogs/telangana/nagarjuna-sagar/nagarjunakonda-island-and-museum-nagarjuna-sagar.webp" alt="Nagarjunakonda Island & Museum, Nagarjuna Sagar" />
                   <p>
                     A scheduled boat ride from the jetty near the dam takes
                     visitors to Nagarjunakonda, where a museum houses relics
@@ -548,6 +541,7 @@ export default function NagarjunaSagarGuidePage() {
                     heritage sites given its island-only access.
                   </p>
                   <h3>Ethipothala Waterfall</h3>
+                  <GuideFigure src="/images/blogs/telangana/nagarjuna-sagar/ethipothala-waterfall-nagarjuna-sagar.webp" alt="Ethipothala Waterfall, Nagarjuna Sagar" />
                   <p>
                     A scenic multi-tiered waterfall on a tributary of the
                     Krishna, a short drive from the dam — a natural add-on

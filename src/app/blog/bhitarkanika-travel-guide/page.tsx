@@ -25,8 +25,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/destinations/meghalaya/dawki-river.jpg",
-        width: 1200,
-        height: 630,
+        width: 2560,
+        height: 1921,
         alt: "Clear river winding through green forest, evoking Bhitarkanika's mangrove creeks and tidal waterways in Kendrapara, Odisha",
       },
     ],
@@ -520,15 +520,6 @@ export default function BhitarkanikaGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Boat Safaris, Crocodiles & Turtles</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/meghalaya/dawki-river.jpg"
-                      alt="Mangrove creek waterway inside Bhitarkanika National Park, Kendrapara"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>The Mangrove Boat Safari</h3>
                   <p>
                     Gliding through the tidal creeks by boat is the core

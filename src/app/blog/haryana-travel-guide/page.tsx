@@ -7,10 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -184,84 +180,6 @@ const tableOfContents = [
   { id: "tips", title: "Essential Travel Tips", level: 2 },
   { id: "places-to-explore", title: "Places to Explore in Haryana", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
-];
-
-// ── Haryana-specific gear ───────────────────────────────────────────
-const HARYANA_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle:
-      "Practical gear for temple visits, highway drives, and the plains heat of Haryana",
-    emoji: "🛕",
-    items: [
-      {
-        name: "Sunscreen (SPF 50)",
-        description:
-          "Haryana's plains get genuinely hot for most of the year — sun protection matters at Brahma Sarovar, Surajkund, and anywhere else you're outdoors.",
-        price: "₹399",
-        image: "🧴",
-        affiliateUrl: amazonSearchUrl("sunscreen+spf+50+travel"),
-        tag: "Everyday essential",
-        tagColor: "bg-red-100 text-red-700",
-        why: "Open sacred tanks and craft-fair grounds offer little shade — a good SPF makes midday sightseeing far more comfortable.",
-      },
-      {
-        name: "Comfortable Walking Shoes",
-        description:
-          "Kurukshetra's temple circuits and the Surajkund Mela grounds both involve a fair amount of walking on stone and packed earth.",
-        price: "₹1,499",
-        image: "👟",
-        affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
-        tag: "Sightseeing essential",
-        tagColor: "bg-stone-100 text-stone-700",
-        why: "Between the Kurukshetra Panorama Centre, Brahma Sarovar's ghats, and the sprawling Mela grounds, this is a walking trip more than it looks.",
-      },
-      {
-        name: "Reusable Water Bottle",
-        description:
-          "Useful across long highway drives and while walking the open grounds at Kurukshetra and Surajkund.",
-        price: "₹699",
-        image: "🍶",
-        affiliateUrl: amazonSearchUrl("insulated+water+bottle+steel"),
-        tag: "Everyday essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Haryana's plains climate means dehydration risk is real, especially April through June — refill instead of relying on bottled water at every stop.",
-      },
-      {
-        name: "Power Bank (10,000 mAh)",
-        description:
-          "Handy for highway road trips along NH-44 and days spent moving between Kurukshetra, Panchkula, and Faridabad.",
-        price: "₹1,299",
-        image: "🔋",
-        affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
-        tag: "Road-trip essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "Most of a Haryana trip happens in a car or cab between towns — a power bank keeps navigation and photos running through long drives.",
-      },
-      {
-        name: "Basic First Aid Kit",
-        description:
-          "Sensible for any road trip through smaller towns and highway stretches where the nearest pharmacy may be a while away.",
-        price: "₹499",
-        image: "🩹",
-        affiliateUrl: amazonSearchUrl("compact+first+aid+kit+travel"),
-        tag: "Road-trip essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "A short but road-heavy trip through Haryana benefits from basic first aid on hand, especially with kids or elderly travelers along.",
-      },
-      {
-        name: "Light Cotton Clothing",
-        description:
-          "Loose, breathable cotton copes far better with Haryana's dry plains heat than synthetic fabrics, especially March through September.",
-        price: "₹899",
-        image: "👕",
-        affiliateUrl: amazonSearchUrl("light+cotton+travel+clothing"),
-        tag: "Everyday essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "Outside the brief winter window, Haryana's climate is hot and dry — cotton is simply more comfortable for a day of sightseeing.",
-      },
-    ],
-  },
 ];
 
 // ── Page ─────────────────────────────────────────────────────────────────────
@@ -606,6 +524,15 @@ export default function HaryanaGuidePage() {
                       car or bus.
                     </li>
                   </ul>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/haryana/haryana/sultanpur-national-park-wetland-gurugram.webp"
+                      alt="The wetland at Sultanpur National Park near Gurugram, seen from a watchtower over the reeds and water"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <div
                     className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-xl my-4 text-sm"
                     style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -621,15 +548,6 @@ export default function HaryanaGuidePage() {
                 {/* ── Kurukshetra ─────────────────────────────────────────── */}
                 <section id="kurukshetra">
                   <h2>Kurukshetra: Mahabharata's Battlefield</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/haryana/haryana/krishna-arjun-chariot-statue-kurukshetra-haryana.webp"
-                      alt="The bronze Krishna-Arjuna chariot statue at Jyotisar, marking the spot where the Bhagavad Gita was delivered, Kurukshetra"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <p>
                     <strong>Kurukshetra</strong> is traditionally identified
                     as the site of the great Mahabharata war, and — more
@@ -755,15 +673,6 @@ export default function HaryanaGuidePage() {
                       with a small lake and pine-covered slopes.
                     </li>
                   </ul>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/haryana/haryana/sultanpur-national-park-wetland-gurugram.webp"
-                      alt="The wetland at Sultanpur National Park near Gurugram, seen from a watchtower over the reeds and water"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                 </section>
 
                 {/* ── Where to Stay ─────────────────────────────────────── */}
@@ -1301,12 +1210,6 @@ export default function HaryanaGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              {/* ── Gear Recommendations ──────────────────────────────── */}
-              <TrekGearRecommendations
-                sections={HARYANA_GEAR}
-                destination="Haryana"
-              />
 
               <RelatedPostsGrid currentSlug="haryana-travel-guide" />
             </article>

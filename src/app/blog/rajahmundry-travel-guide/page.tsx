@@ -7,8 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuidePhotoRow } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
   title: "Rajahmundry Travel Guide: Godavari Bridges & Papi Hills Gateway",
@@ -20,9 +19,9 @@ export const metadata: Metadata = {
     title: "Rajahmundry Travel Guide: Godavari Bridges & Papi Hills Gateway",
     description: "A Godavari riverside city with one of Asia's longest road-cum-rail bridges, and the departure point for boat cruises into the Papi Hills gorge — the complete guide to Rajahmundry.",
     url: "https://club.kudozz.in/blog/rajahmundry-travel-guide", type: "article", siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/kerala/alleppey.jpg", width: 1200, height: 630, alt: "Riverside scenery representative of Rajahmundry, Andhra Pradesh" }],
+    images: [{ url: "/images/blogs/andhra-pradesh/rajahmundry/rajahmundry.webp", width: 1600, height: 1075, alt: "View of Rajahmundry, Andhra Pradesh" }],
   },
-  twitter: { card: "summary_large_image", title: "Rajahmundry Travel Guide: Godavari Bridges & Papi Hills Gateway", description: "Godavari bridges and the Papi Hills boat cruise gateway — the complete guide to Rajahmundry.", images: ["/images/destinations/kerala/alleppey.jpg"] },
+  twitter: { card: "summary_large_image", title: "Rajahmundry Travel Guide: Godavari Bridges & Papi Hills Gateway", description: "Godavari bridges and the Papi Hills boat cruise gateway — the complete guide to Rajahmundry.", images: ["/images/blogs/andhra-pradesh/rajahmundry/rajahmundry.webp"] },
   alternates: { canonical: "https://club.kudozz.in/blog/rajahmundry-travel-guide" },
 };
 
@@ -32,7 +31,7 @@ function ArticleSchema() {
       "@context": "https://schema.org", "@type": "BlogPosting",
       headline: "Rajahmundry Travel Guide: Godavari Bridges & Papi Hills Gateway",
       description: "The complete Rajahmundry travel guide.",
-      image: "https://club.kudozz.in/images/destinations/kerala/alleppey.jpg",
+      image: "https://club.kudozz.in/images/blogs/andhra-pradesh/rajahmundry/rajahmundry.webp",
       datePublished: "2026-09-08", dateModified: "2026-09-08",
       publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
       author: { "@type": "Organization", name: "Kudozz Club" },
@@ -79,16 +78,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const RAJAHMUNDRY_GEAR: GearSection[] = [{
-  title: "Things Worth Carrying", subtitle: "Gear for river cruises and city sightseeing", emoji: "🌊",
-  items: [
-    { name: "Sun Hat & Sunglasses", description: "For the exposed deck time on any Godavari boat trip.", price: "₹599",  image: "🧢", affiliateUrl: amazonSearchUrl("sun+hat+travel+outdoor"), tag: "Boat-trip essential", tagColor: "bg-amber-100 text-amber-700", why: "Direct sun on the open river deck adds up over several hours." },
-    { name: "Light Rain Layer", description: "Useful year-round given the river's humid climate, especially in shoulder monsoon months.", price: "₹899",  image: "🌂", affiliateUrl: amazonSearchUrl("packable+rain+jacket+travel"), tag: "Weather essential", tagColor: "bg-sky-100 text-sky-700", why: "Riverside weather can shift quickly in this region." },
-    { name: "Comfortable Walking Shoes", description: "For exploring the bridges and riverside areas of the city.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "City-walk essential", tagColor: "bg-forest-100 text-forest-700", why: "The bridge and riverside walk cover real distance." },
-    { name: "Camera", description: "For the Godavari Arch Bridge and river scenery.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-purple-100 text-purple-700", why: "The bridge and riverfront views are genuinely photogenic." },
-  ],
-}];
-
 export default function RajahmundryGuidePage() {
   return (
     <>
@@ -96,7 +85,7 @@ export default function RajahmundryGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/kerala/alleppey.jpg" alt="Riverside scenery representative of Rajahmundry, Andhra Pradesh" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/andhra-pradesh/rajahmundry/rajahmundry.webp" alt="View of Rajahmundry, Andhra Pradesh" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -200,15 +189,18 @@ export default function RajahmundryGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do in Rajahmundry</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/kerala/alleppey.jpg" alt="Godavari riverscape around Rajahmundry" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>Godavari Arch Bridge:</strong> A landmark bridge spanning the Godavari River, widely cited among Asia's longer road-cum-rail structures.</li>
                     <li><strong>Papi Hills boat cruise:</strong> Departs from Rajahmundry, one of the region's major attractions.</li>
                     <li><strong>Kotilingeswara Swamy Temple:</strong> A riverside temple worth a visit.</li>
                     <li><strong>Godavari Pushkaralu (if timing coincides):</strong> A major river festival held once every 12 years — verify current applicability.</li>
                   </ul>
+                  <GuidePhotoRow
+                    images={[
+                      { src: "/images/blogs/andhra-pradesh/rajahmundry/godavari-arch-bridge-rajahmundry.webp", alt: "Godavari Arch Bridge, Rajahmundry", caption: "Godavari Arch Bridge, Rajahmundry" },
+                      { src: "/images/blogs/andhra-pradesh/rajahmundry/kotilingeswara-swamy-temple-rajahmundry.webp", alt: "Kotilingeswara Swamy Temple, Rajahmundry", caption: "Kotilingeswara Swamy Temple, Rajahmundry" },
+                    ]}
+                  />
                 </section>
 
                 <section id="where-to-stay">
@@ -324,7 +316,6 @@ export default function RajahmundryGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={RAJAHMUNDRY_GEAR} destination="Rajahmundry" />
               <RelatedPostsGrid currentSlug="rajahmundry-travel-guide" />
             </article>
             <div className="hidden xl:block w-64 2xl:w-72 flex-shrink-0"><div className="sticky top-24"><RelatedSidebar currentSlug="rajahmundry-travel-guide" /></div></div>

@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jaisalmer/fort.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Grand sandstone fort architecture, evoking Patiala's Qila Mubarak royal fort complex",
+        url: "/images/blogs/punjab/patiala/patiala.webp",
+        width: 1600,
+        height: 795,
+        alt: "Patiala, Punjab",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Patiala Travel Guide: Qila Mubarak & Tips",
     description:
       "The former Patiala royal capital — Qila Mubarak, the Sheesh Mahal, and the legacy behind two of India's best-known cultural exports.",
-    images: ["/images/destinations/jaisalmer/fort.jpg"],
+    images: ["/images/blogs/punjab/patiala/patiala.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/patiala-travel-guide",
@@ -59,7 +60,7 @@ function ArticleSchema() {
           headline: "Patiala Travel Guide: Qila Mubarak & Tips",
           description:
             "Complete Patiala guide — the massive Qila Mubarak fort complex, the mirrored Sheesh Mahal, the royal legacy behind the Patiala peg and Patiala salwar, how to reach from Chandigarh, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/jaisalmer/fort.jpg",
+          image: "https://club.kudozz.in/images/blogs/punjab/patiala/patiala.webp",
           datePublished: "2026-09-04",
           dateModified: "2026-09-04",
           publisher: {
@@ -196,8 +197,8 @@ export default function PatialaGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jaisalmer/fort.jpg"
-              alt="Grand sandstone fort architecture, evoking Patiala's Qila Mubarak royal fort complex"
+              src="/images/blogs/punjab/patiala/patiala.webp"
+              alt="Patiala, Punjab"
               fill
               priority
               sizes="100vw"
@@ -510,15 +511,6 @@ export default function PatialaGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Qila Mubarak & Royal Heritage</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/jaisalmer/fort.jpg"
-                      alt="Fort ramparts and courtyards, evoking Patiala's Qila Mubarak complex"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Qila Mubarak & Sheesh Mahal</h3>
                   <p>
                     The fort complex was the seat of the Phulkian dynasty,
@@ -529,6 +521,7 @@ export default function PatialaGuidePage() {
                     Punjab.
                   </p>
                   <h3>Moti Bagh Palace</h3>
+                  <GuideFigure src="/images/blogs/punjab/patiala/moti-bagh-palace-patiala.webp" alt="Moti Bagh Palace, Patiala" />
                   <p>
                     A further royal residence, today partly repurposed for
                     institutional use, with grounds that still hint at its

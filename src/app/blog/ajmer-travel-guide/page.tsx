@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/rishikesh/rishikesh.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Riverside ghats and pilgrimage-town atmosphere, evoking Ajmer's Dargah Sharif and Ana Sagar Lake",
+        url: "/images/blogs/rajasthan/ajmer/ajmer-sharif-dargah-2.webp",
+        width: 1600,
+        height: 720,
+        alt: "Ajmer Sharif Dargah, Rajasthan",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Ajmer Travel Guide: Dargah Sharif & Ana Sagar",
     description:
       "One of India's most important Sufi shrines and a 12th-century lake ringed by Mughal gardens — the complete Ajmer guide.",
-    images: ["/images/destinations/rishikesh/rishikesh.jpg"],
+    images: ["/images/blogs/rajasthan/ajmer/ajmer-sharif-dargah-2.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/ajmer-travel-guide",
@@ -59,7 +60,7 @@ function ArticleSchema() {
           headline: "Ajmer Travel Guide: Dargah Sharif & Ana Sagar",
           description:
             "Complete Ajmer guide — the Ajmer Sharif Dargah, Ana Sagar Lake, Adhai Din Ka Jhonpra, the Urs festival, how to reach, and a full visit plan combined with Pushkar.",
-          image: "https://club.kudozz.in/images/destinations/rishikesh/rishikesh.jpg",
+          image: "https://club.kudozz.in/images/blogs/rajasthan/ajmer/ajmer-sharif-dargah-2.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -200,8 +201,8 @@ export default function AjmerGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/rishikesh/rishikesh.jpg"
-              alt="Riverside ghats and pilgrimage-town atmosphere, evoking Ajmer's Dargah Sharif and Ana Sagar Lake"
+              src="/images/blogs/rajasthan/ajmer/ajmer-sharif-dargah-2.webp"
+              alt="Ajmer Sharif Dargah, Rajasthan"
               fill
               priority
               sizes="100vw"
@@ -514,16 +515,8 @@ export default function AjmerGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Dargah, Lake & Mosque</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/rishikesh/rishikesh.jpg"
-                      alt="Riverside ghats, evoking Ajmer's pilgrimage-town character"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Ajmer Sharif Dargah</h3>
+                  <GuideFigure src="/images/blogs/rajasthan/ajmer/ajmer-sharif-dargah-4.webp" alt="Ajmer Sharif Dargah, Rajasthan" />
                   <p>
                     The shrine of Khwaja Moinuddin Chishti, one of the most
                     significant Sufi pilgrimage sites in the world, drawing
@@ -532,6 +525,7 @@ export default function AjmerGuidePage() {
                     devotion.
                   </p>
                   <h3>Ana Sagar Lake & Daulat Bagh</h3>
+                  <GuideFigure src="/images/blogs/rajasthan/ajmer/ana-sagar-lake-and-daulat-bagh-ajmer-2.webp" alt="Ana Sagar Lake & Daulat Bagh, Ajmer" />
                   <p>
                     An artificial lake built in the 12th century by Anaji
                     Chauhan, flanked by the Mughal-era Daulat Bagh gardens —
@@ -539,6 +533,7 @@ export default function AjmerGuidePage() {
                     the Dargah's crowds.
                   </p>
                   <h3>Adhai Din Ka Jhonpra</h3>
+                  <GuideFigure src="/images/blogs/rajasthan/ajmer/adhai-din-ka-jhonpra-ajmer-2.webp" alt="Adhai Din Ka Jhonpra, Ajmer" />
                   <p>
                     A striking and historically significant early
                     Indo-Islamic mosque, notable for having been built using

@@ -24,10 +24,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/kasol/kasol.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Hill town landscape, evoking Jeypore's setting in the Eastern Ghats of southern Odisha",
+        url: "/images/blogs/odisha/jeypore/duduma-falls-jeypore.webp",
+        width: 1600,
+        height: 1200,
+        alt: "Duduma Falls, Jeypore",
       },
     ],
   },
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     title: "Jeypore Travel Guide: Tribal Heritage & Tips",
     description:
       "A former princely seat and the gateway to southern Odisha's tribal region — the complete Jeypore guide.",
-    images: ["/images/destinations/kasol/kasol.jpg"],
+    images: ["/images/blogs/odisha/jeypore/duduma-falls-jeypore.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/jeypore-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           headline: "Jeypore Travel Guide: Tribal Heritage & Tips",
           description:
             "Complete Jeypore guide — the former Jeypore princely seat, Duduma Falls, tribal-region gateway, how to reach from Koraput, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/kasol/kasol.jpg",
+          image: "https://club.kudozz.in/images/blogs/odisha/jeypore/duduma-falls-jeypore.webp",
           datePublished: "2026-09-04",
           dateModified: "2026-09-04",
           publisher: {
@@ -196,8 +196,8 @@ export default function JeyporeGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/kasol/kasol.jpg"
-              alt="Hill town landscape, evoking Jeypore's setting in the Eastern Ghats of southern Odisha"
+              src="/images/blogs/odisha/jeypore/duduma-falls-jeypore.webp"
+              alt="Duduma Falls, Jeypore"
               fill
               priority
               sizes="100vw"
@@ -522,15 +522,6 @@ export default function JeyporeGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Palace, Falls & Tribal Markets</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/kasol/kasol.jpg"
-                      alt="Eastern Ghats hill landscape near Jeypore, Koraput district, Odisha"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Jeypore Palace (Rajbari)</h3>
                   <p>
                     The former seat of the Jeypore princely family, worth a

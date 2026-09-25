@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/kerala/alleppey.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Clear calm water with a boat, evoking Dawki's famous crystal-clear Umngot River",
+        url: "/images/blogs/meghalaya/dawki/dawki.webp",
+        width: 1600,
+        height: 1200,
+        alt: "View of Dawki, Meghalaya",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Dawki Travel Guide: Crystal Clear River & Tips",
     description:
       "Water so clear that boats appear to float in mid-air — the complete guide to Dawki and the Umngot River.",
-    images: ["/images/destinations/kerala/alleppey.jpg"],
+    images: ["/images/blogs/meghalaya/dawki/dawki.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/dawki-travel-guide",
@@ -59,7 +60,7 @@ function ArticleSchema() {
           headline: "Dawki Travel Guide: Crystal Clear River & Tips",
           description:
             "Complete Dawki guide — the crystal-clear Umngot River, the famous 'floating boat' photos, the colonial suspension bridge, border-trade context, how to reach from Shillong, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/kerala/alleppey.jpg",
+          image: "https://club.kudozz.in/images/blogs/meghalaya/dawki/dawki.webp",
           datePublished: "2026-09-05",
           dateModified: "2026-09-05",
           publisher: {
@@ -195,8 +196,8 @@ export default function DawkiGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/kerala/alleppey.jpg"
-              alt="Clear calm water with a boat, evoking Dawki's famous crystal-clear Umngot River"
+              src="/images/blogs/meghalaya/dawki/dawki.webp"
+              alt="View of Dawki, Meghalaya"
               fill
               priority
               sizes="100vw"
@@ -501,15 +502,6 @@ export default function DawkiGuidePage() {
 
                 <section id="things-to-do">
                   <h2>The River, the Bridge & the Border</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/kerala/alleppey.jpg"
-                      alt="Calm clear river water near Dawki, Meghalaya"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Boat Rides on the Umngot</h3>
                   <p>
                     The core Dawki experience — a slow boat ride over
@@ -517,11 +509,13 @@ export default function DawkiGuidePage() {
                     metres below the surface.
                   </p>
                   <h3>The Suspension Bridge</h3>
+                  <GuideFigure src="/images/blogs/meghalaya/dawki/the-suspension-bridge-dawki.webp" alt="The Suspension Bridge, Dawki" />
                   <p>
                     A colonial-era structure crossing the river, offering
                     good vantage points for photos of the water below.
                   </p>
                   <h3>The Bangladesh Border</h3>
+                  <GuideFigure src="/images/blogs/meghalaya/dawki/the-bangladesh-border-dawki.webp" alt="The Bangladesh Border, Dawki" />
                   <p>
                     Dawki functions as a genuine trade point with
                     Bangladesh — an interesting, low-key reminder of the

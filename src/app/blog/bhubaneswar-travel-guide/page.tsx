@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/hampi/virupaksha.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Ancient stone temple architecture, evoking Bhubaneswar's dense concentration of historic temples",
+        url: "/images/blogs/odisha/bhubaneswar/lingaraj-temple-bhubaneswar.webp",
+        width: 1600,
+        height: 1200,
+        alt: "Lingaraj Temple, Bhubaneswar",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Bhubaneswar Travel Guide: Temple City of India",
     description:
       "Odisha's capital, home to centuries of temple architecture and the state's practical Golden Triangle gateway.",
-    images: ["/images/destinations/hampi/virupaksha.jpg"],
+    images: ["/images/blogs/odisha/bhubaneswar/lingaraj-temple-bhubaneswar.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/bhubaneswar-travel-guide",
@@ -60,7 +61,7 @@ function ArticleSchema() {
           description:
             "Complete Bhubaneswar guide — Lingaraj Temple, Mukteshwar Temple, Udayagiri and Khandagiri Caves, Nandankanan Zoo, Dhauli, how to reach, and a full visit plan for Odisha's capital.",
           image:
-            "https://club.kudozz.in/images/destinations/hampi/virupaksha.jpg",
+            "https://club.kudozz.in/images/blogs/odisha/bhubaneswar/lingaraj-temple-bhubaneswar.webp",
           datePublished: "2026-09-04",
           dateModified: "2026-09-04",
           publisher: {
@@ -197,8 +198,8 @@ export default function BhubaneswarGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/hampi/virupaksha.jpg"
-              alt="Ancient stone temple architecture, evoking Bhubaneswar's dense concentration of historic temples"
+              src="/images/blogs/odisha/bhubaneswar/lingaraj-temple-bhubaneswar.webp"
+              alt="Lingaraj Temple, Bhubaneswar"
               fill
               priority
               sizes="100vw"
@@ -510,16 +511,8 @@ export default function BhubaneswarGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Temples, Caves & Dhauli</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/hampi/virupaksha.jpg"
-                      alt="Ancient carved temple architecture evoking Bhubaneswar's historic shrines"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Lingaraj Temple</h3>
+                  <GuideFigure src="/images/blogs/odisha/bhubaneswar/lingaraj-temple-bhubaneswar-2.webp" alt="Lingaraj Temple, Bhubaneswar" />
                   <p>
                     Dating to the 11th century, Lingaraj Temple is one of
                     the oldest and largest temples in the city, dedicated to
@@ -527,18 +520,21 @@ export default function BhubaneswarGuidePage() {
                     Bhubaneswar itself is derived.
                   </p>
                   <h3>Mukteshwar Temple</h3>
+                  <GuideFigure src="/images/blogs/odisha/bhubaneswar/mukteshwar-temple-bhubaneswar.webp" alt="Mukteshwar Temple, Bhubaneswar" />
                   <p>
                     A smaller but exceptionally refined temple, renowned for
                     its ornate arched gateway (torana), often called a "gem
                     of Odishan architecture" for its intricate carving.
                   </p>
                   <h3>Rajarani Temple</h3>
+                  <GuideFigure src="/images/blogs/odisha/bhubaneswar/rajarani-temple-bhubaneswar.webp" alt="Rajarani Temple, Bhubaneswar" />
                   <p>
                     Built from distinctive reddish sandstone, notable for
                     its sculptural work and a form that influenced later
                     temple architecture across the region.
                   </p>
                   <h3>Udayagiri & Khandagiri Caves</h3>
+                  <GuideFigure src="/images/blogs/odisha/bhubaneswar/udayagiri-and-khandagiri-caves-bhubaneswar.webp" alt="Udayagiri & Khandagiri Caves, Bhubaneswar" />
                   <p>
                     Ancient Jain rock-cut caves dating to around the 2nd
                     century BCE, carved with inscriptions and reliefs — an

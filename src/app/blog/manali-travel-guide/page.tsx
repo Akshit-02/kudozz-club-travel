@@ -2,13 +2,11 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import SiteHeader from "@/components/layout/SiteHeader";
 import { RelatedPostsGrid, RelatedSidebar } from "@/components/ui/RelatedPosts";
 import TableOfContents from "@/components/ui/TableOfContents";
-import TrekGearRecommendations, {
-  HIMALAYAN_GEAR,
-} from "@/components/ui/TrekGearRecommendations";
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── Per-page SEO metadata ─────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -49,8 +47,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/destinations/manali/hero.jpg",
-        width: 1600,
-        height: 900,
+        width: 2560,
+        height: 1373,
         alt: "Snow-capped Himalayan mountains above Manali valley",
       },
     ],
@@ -534,8 +532,8 @@ export default function ManaliPage() {
                     <h3>Rohtang Pass</h3>
                     <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                       <Image
-                        src="/images/destinations/manali/rohtang-pass.jpg"
-                        alt="Snow-covered Rohtang Pass with vehicles and tourists"
+                        src="/images/blogs/himachal-pradesh/manali/rohtang-pass-manali.webp"
+                        alt="Rohtang Pass, Manali"
                         fill
                         sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                         className="object-cover"
@@ -572,8 +570,8 @@ export default function ManaliPage() {
                     <h3>Solang Valley</h3>
                     <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                       <Image
-                        src="/images/destinations/manali/solang-valley.jpg"
-                        alt="Solang Valley with cable cars and snow mountains"
+                        src="/images/blogs/himachal-pradesh/manali/solang-valley-manali.webp"
+                        alt="Solang Valley, Manali"
                         fill
                         sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                         className="object-cover"
@@ -600,8 +598,8 @@ export default function ManaliPage() {
                     <h3>Hadimba Devi Temple</h3>
                     <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                       <Image
-                        src="/images/destinations/manali/hadimba-temple.jpg"
-                        alt="Pagoda-style Hadimba Devi Temple in cedar forest"
+                        src="/images/blogs/himachal-pradesh/manali/hadimba-devi-temple-manali.webp"
+                        alt="Hadimba Devi Temple, Manali"
                         fill
                         sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                         className="object-cover"
@@ -627,6 +625,7 @@ export default function ManaliPage() {
                   {/* Old Manali */}
                   <section id="old-manali">
                     <h3>Old Manali</h3>
+                    <GuideFigure src="/images/blogs/himachal-pradesh/manali/old-manali.webp" alt="Old Manali, Himachal Pradesh" />
                     <p>
                       Cross the Manalsu River on a rickety bridge and you enter
                       a different world. <strong>Old Manali</strong> is the
@@ -1019,10 +1018,6 @@ export default function ManaliPage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations
-                sections={HIMALAYAN_GEAR}
-                destination="Manali"
-              />
               {/* Related Posts Grid at bottom */}
               <RelatedPostsGrid currentSlug="manali-travel-guide" />
             </article>

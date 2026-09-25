@@ -537,15 +537,6 @@ export default function PilibhitGuidePage() {
                 {/* ── Wildlife & Safaris ────────────────────────────────── */}
                 <section id="wildlife-safaris">
                   <h2>Wildlife & Safari Zones</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/uttar-pradesh/pilibhit/chuka-spot-forest-pilibhit-tiger-reserve.webp"
-                      alt="Dense sal forest at the Chuka watchtower spot inside Pilibhit Tiger Reserve"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Tigers in Unusually High Density</h3>
                   <p>
                     Pilibhit's headline claim is density, not just numbers —

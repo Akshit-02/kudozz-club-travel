@@ -7,10 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuidePhotoRow } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
   title: "Alappuzha (Alleppey) Travel Guide: Houseboats & Backwaters",
@@ -24,13 +21,13 @@ export const metadata: Metadata = {
     url: "https://club.kudozz.in/blog/alappuzha-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/kerala/alleppey.jpg", width: 1200, height: 630, alt: "Kerala backwater canal lined with palms near Alappuzha" }],
+    images: [{ url: "/images/blogs/kerala/alappuzha/kuttanad-alappuzha-alleppey-2.webp", width: 1600, height: 1200, alt: "Kuttanad, Alappuzha (Alleppey)" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Alappuzha (Alleppey) Travel Guide: Houseboats & Backwaters",
     description: "A maze of palm-lined backwater canals best explored overnight on a converted rice barge — the complete guide to Alappuzha.",
-    images: ["/images/destinations/kerala/alleppey.jpg"],
+    images: ["/images/blogs/kerala/alappuzha/kuttanad-alappuzha-alleppey-2.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/alappuzha-travel-guide" },
 };
@@ -45,7 +42,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Alappuzha (Alleppey) Travel Guide: Houseboats & Backwaters",
           description: "The complete Alappuzha travel guide.",
-          image: "https://club.kudozz.in/images/destinations/kerala/alleppey.jpg",
+          image: "https://club.kudozz.in/images/blogs/kerala/alappuzha/kuttanad-alappuzha-alleppey-2.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
@@ -104,20 +101,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const ALAPPUZHA_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for houseboat stays and canal-side exploring",
-    emoji: "🛶",
-    items: [
-      { name: "Insect Repellent", description: "Backwater evenings bring mosquitoes — essential for a comfortable night aboard a houseboat.", price: "₹199",  image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Houseboat essential", tagColor: "bg-forest-100 text-forest-700", why: "Still water and paddy fields make the backwaters a mosquito-friendly environment, especially at dusk." },
-      { name: "Light, Breathable Clothing", description: "Kerala's coastal humidity is high year-round — loose cotton clothing is far more comfortable than synthetic fabrics on a houseboat.", price: "₹799",  image: "👕", affiliateUrl: amazonSearchUrl("breathable+cotton+travel+clothing"), tag: "Comfort essential", tagColor: "bg-sky-100 text-sky-700", why: "Humidity on the backwaters can be intense, especially in the afternoon." },
-      { name: "Sun Hat & Sunglasses", description: "Houseboat decks offer little shade for hours at a stretch — sun protection matters on a slow cruise.", price: "₹499",  image: "🧢", affiliateUrl: amazonSearchUrl("sun+hat+travel+outdoor"), tag: "Day-cruise essential", tagColor: "bg-amber-100 text-amber-700", why: "Most of a houseboat day is spent on an open deck with direct sun exposure." },
-      { name: "Waterproof Phone Pouch", description: "Useful for canal canoe tours and any boat transfers where a dropped phone is a real risk.", price: "₹299",  image: "📱", affiliateUrl: amazonSearchUrl("waterproof+phone+pouch+travel"), tag: "Boat-ride essential", tagColor: "bg-purple-100 text-purple-700", why: "Narrow canoe tours in particular carry a real risk of a phone ending up in the water." },
-    ],
-  },
-];
-
 export default function AlappuzhaGuidePage() {
   return (
     <>
@@ -127,7 +110,7 @@ export default function AlappuzhaGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/kerala/alleppey.jpg" alt="Kerala backwater canal lined with palms near Alappuzha" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/kerala/alappuzha/kuttanad-alappuzha-alleppey-2.webp" alt="Kuttanad, Alappuzha (Alleppey)" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -237,7 +220,7 @@ export default function AlappuzhaGuidePage() {
                 <section id="top-attractions">
                   <h2>Top Things to Do in Alappuzha</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/kerala/alleppey.jpg" alt="Houseboat cruising the Alappuzha backwaters" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
+                    <Image src="/images/blogs/kerala/alappuzha/alappuzha-alappuzha-alleppey-2.webp" alt="Alappuzha, Alappuzha (Alleppey)" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
                   </div>
                   <ul>
                     <li><strong>Houseboat cruise:</strong> The signature Alappuzha experience — an overnight stay on a converted kettuvallam rice barge, with meals cooked aboard by a private crew.</li>
@@ -246,6 +229,12 @@ export default function AlappuzhaGuidePage() {
                     <li><strong>Punnamada Lake:</strong> Host to the Nehru Trophy Snake Boat Race, a major annual event typically held around August.</li>
                     <li><strong>Village canal canoe tours:</strong> A quieter, more intimate alternative to a big houseboat, passing directly through backwater villages.</li>
                   </ul>
+                  <GuidePhotoRow
+                    images={[
+                      { src: "/images/blogs/kerala/alappuzha/alappuzha-beach-alappuzha-alleppey-2.webp", alt: "Alappuzha Beach, Alappuzha (Alleppey)", caption: "Alappuzha Beach, Alappuzha (Alleppey)" },
+                      { src: "/images/blogs/kerala/alappuzha/punnamada-lake-alappuzha-alleppey-2.webp", alt: "Punnamada Lake, Alappuzha (Alleppey)", caption: "Punnamada Lake, Alappuzha (Alleppey)" },
+                    ]}
+                  />
                 </section>
 
                 <section id="where-to-stay">
@@ -362,7 +351,6 @@ export default function AlappuzhaGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={ALAPPUZHA_GEAR} destination="Alappuzha" />
               <RelatedPostsGrid currentSlug="alappuzha-travel-guide" />
             </article>
 

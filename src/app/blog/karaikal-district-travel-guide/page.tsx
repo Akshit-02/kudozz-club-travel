@@ -7,10 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -189,84 +185,6 @@ const tableOfContents = [
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
-];
-
-// ── Karaikal District gear ───────────────────────────────────────────────────
-const KARAIKAL_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle:
-      "Gear for temple visits at Tirunallar and Karaikal, beach time near the lighthouse, and the quiet coastal villages beyond town",
-    emoji: "🛕",
-    items: [
-      {
-        name: "Modest Temple-Appropriate Clothing",
-        description:
-          "Covered shoulders and knees for the Sri Dharbaranyeswarar (Saneeswaran) Temple at Tirunallar and the Karaikal Ammaiyar Temple in town.",
-        price: "₹899",
-        image: "🧣",
-        affiliateUrl: amazonSearchUrl("travel+modest+clothing+scarf"),
-        tag: "Temple essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "Tirunallar is one of South India's busiest pilgrimage temples on Saturdays — dress code is enforced, not optional, especially near the sanctum.",
-      },
-      {
-        name: "Comfortable Walking Sandals",
-        description:
-          "Easy to slip off at temple entrances in Tirunallar and Karaikal town, and practical for walks along Karaikal Beach and the lighthouse promenade.",
-        price: "₹1,299",
-        image: "👡",
-        affiliateUrl: amazonSearchUrl("comfortable+walking+sandals+travel"),
-        tag: "All-day essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Between temple courtyards and sandy beach stretches, footwear you can remove and re-wear quickly saves real time.",
-      },
-      {
-        name: "Reef-Safe Sunscreen (SPF 50)",
-        description:
-          "For open stretches at Karaikal Beach and the shadeless walk out to the lighthouse and port viewpoints.",
-        price: "₹549",
-        image: "🧴",
-        affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+spf+50"),
-        tag: "Coastal essential",
-        tagColor: "bg-orange-100 text-orange-700",
-        why: "Karaikal's coastline has little natural shade, and the sun here is as strong as anywhere else on the Tamil Nadu coast.",
-      },
-      {
-        name: "Reusable Water Bottle",
-        description:
-          "Handy for the drive out to Tirunallar and the rural stretches around Neravy, Kottucherry, and Nedungadu, where shops thin out between villages.",
-        price: "₹699",
-        image: "🍶",
-        affiliateUrl: amazonSearchUrl("insulated+water+bottle+steel"),
-        tag: "Everyday essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "Once you're outside Karaikal town, reliable shops and water points are limited across the delta villages.",
-      },
-      {
-        name: "Mosquito Repellent",
-        description:
-          "Worth carrying for the Cauvery delta's paddy fields and coastal village stretches around Neravy and Kottucherry.",
-        price: "₹199",
-        image: "🦟",
-        affiliateUrl: amazonSearchUrl("mosquito+repellent+travel"),
-        tag: "Rural essential",
-        tagColor: "bg-red-100 text-red-700",
-        why: "The district's agricultural, waterlogged delta terrain makes mosquitoes a genuine factor at dawn and dusk.",
-      },
-      {
-        name: "Power Bank (10,000 mAh)",
-        description:
-          "Useful for a day covering Tirunallar and the outlying villages, where charging points are limited outside Karaikal town.",
-        price: "₹1,299",
-        image: "🔋",
-        affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
-        tag: "Day-trip essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "Karaikal town aside, this is a quiet delta district — don't count on charging infrastructure once you're in the villages.",
-      },
-    ],
-  },
 ];
 
 // ── Page ─────────────────────────────────────────────────────────────────────
@@ -603,6 +521,15 @@ export default function KaraikalDistrictGuidePage() {
                       trip.
                     </li>
                   </ul>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/puducherry/karaikal-district/karaikal-lighthouse-beach-view.webp"
+                      alt="Karaikal Lighthouse rising above the beach and coastline at the edge of town"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <div
                     className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-xl my-4 text-sm"
                     style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -663,15 +590,6 @@ export default function KaraikalDistrictGuidePage() {
                       that this coastline still works for a living.
                     </li>
                   </ul>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/puducherry/karaikal-district/karaikal-lighthouse-beach-view.webp"
-                      alt="Karaikal Lighthouse rising above the beach and coastline at the edge of town"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <div
                     className="bg-forest-50 border-l-4 border-forest-500 p-4 rounded-r-xl my-4 text-sm"
                     style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -1195,12 +1113,6 @@ export default function KaraikalDistrictGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              {/* ── Gear Recommendations ──────────────────────────────── */}
-              <TrekGearRecommendations
-                sections={KARAIKAL_GEAR}
-                destination="Karaikal District"
-              />
 
               <RelatedPostsGrid currentSlug="karaikal-district-travel-guide" />
             </article>

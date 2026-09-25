@@ -7,10 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -28,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jammu-kashmir/dal.jpg",
-        width: 1200,
-        height: 630,
-        alt: "High-altitude lake representative of Prashar Lake, Himachal Pradesh",
+        url: "/images/blogs/himachal-pradesh/prashar-lake/prashar-lake.webp",
+        width: 1600,
+        height: 1200,
+        alt: "Prashar Lake, Himachal Pradesh",
       },
     ],
   },
@@ -40,7 +37,7 @@ export const metadata: Metadata = {
     title: "Prashar Lake Trek Guide: Floating Island & Best Time to Visit",
     description:
       "A floating island, a pagoda-style temple, and one of Himachal's easiest high-altitude treks — the complete guide to Prashar Lake.",
-    images: ["/images/destinations/jammu-kashmir/dal.jpg"],
+    images: ["/images/blogs/himachal-pradesh/prashar-lake/prashar-lake.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/prashar-lake-travel-guide",
@@ -60,7 +57,7 @@ function ArticleSchema() {
             "Prashar Lake Trek Guide: Floating Island & Best Time to Visit",
           description: "The complete Prashar Lake trek guide.",
           image:
-            "https://club.kudozz.in/images/destinations/jammu-kashmir/dal.jpg",
+            "https://club.kudozz.in/images/blogs/himachal-pradesh/prashar-lake/prashar-lake.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: {
@@ -184,61 +181,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-// ── Prashar Lake-specific gear ─────────────────────────────────────────────
-const PRASHAR_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for the trek and an overnight camp at altitude",
-    emoji: "🏕️",
-    items: [
-      {
-        name: "Trekking Shoes",
-        description:
-          "For the climb from Baggi village to the lake over forest and open mountain trail.",
-        price: "₹2,999",
-        image: "🥾",
-        affiliateUrl: amazonSearchUrl("trekking+shoes+mountain"),
-        tag: "Trek essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "The trail gains real elevation over uneven terrain — proper footwear matters.",
-      },
-      {
-        name: "Sleeping Bag",
-        description:
-          "For an overnight camp at the lake — nights get genuinely cold at this altitude even in summer.",
-        price: "₹2,999",
-        image: "🎒",
-        affiliateUrl: amazonSearchUrl("sleeping+bag+trekking+camping"),
-        tag: "Overnight essential",
-        tagColor: "bg-red-100 text-red-700",
-        why: "Rental gear from operators can vary in quality — your own sleeping bag guarantees warmth.",
-      },
-      {
-        name: "Headlamp / Torch",
-        description:
-          "Essential for moving around camp after dark and for an early-morning start if doing the trek in a single day.",
-        price: "₹599",
-        image: "🔦",
-        affiliateUrl: amazonSearchUrl("headlamp+trekking+camping"),
-        tag: "Camping essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "There's no lighting infrastructure at the lake — a headlamp is non-negotiable after sunset.",
-      },
-      {
-        name: "Reusable Water Bottle",
-        description:
-          "The trail has limited water sources — carrying enough is essential for the full ascent.",
-        price: "₹449",
-        image: "💧",
-        affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"),
-        tag: "Trek essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Facilities thin out quickly once you're past Baggi village and onto the trail proper.",
-      },
-    ],
-  },
-];
-
 // ── Page ─────────────────────────────────────────────────────────────────────
 export default function PrasharLakeGuidePage() {
   return (
@@ -252,8 +194,8 @@ export default function PrasharLakeGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jammu-kashmir/dal.jpg"
-              alt="High-altitude lake representative of Prashar Lake, Himachal Pradesh"
+              src="/images/blogs/himachal-pradesh/prashar-lake/prashar-lake.webp"
+              alt="Prashar Lake, Himachal Pradesh"
               fill
               priority
               sizes="100vw"
@@ -548,15 +490,7 @@ export default function PrasharLakeGuidePage() {
                 {/* ── Trek & Attractions ──────────────────────────────── */}
                 <section id="top-attractions">
                   <h2>The Trek & What to See</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/jammu-kashmir/dal.jpg"
-                      alt="High-altitude lake scenery near Prashar Lake"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
+                  <GuideFigure src="/images/blogs/himachal-pradesh/prashar-lake/prashar-lake-view.webp" alt="Prashar Lake, Himachal Pradesh" />
 
                   <ul>
                     <li>
@@ -936,12 +870,6 @@ export default function PrasharLakeGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              {/* ── Gear Recommendations ──────────────────────────────── */}
-              <TrekGearRecommendations
-                sections={PRASHAR_GEAR}
-                destination="Prashar Lake"
-              />
 
               <RelatedPostsGrid currentSlug="prashar-lake-travel-guide" />
             </article>

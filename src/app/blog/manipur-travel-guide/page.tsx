@@ -7,10 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -184,84 +180,6 @@ const tableOfContents = [
   { id: "tips", title: "Essential Travel Tips", level: 2 },
   { id: "places-to-explore", title: "Places to Explore in Manipur", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
-];
-
-// ── Manipur-specific gear ─────────────────────────────────────────────────
-const MANIPUR_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle:
-      "Gear for boat rides on Loktak Lake, humid lowland terrain, and long day trips around Imphal",
-    emoji: "🛶",
-    items: [
-      {
-        name: "Quick-Dry Clothing",
-        description:
-          "Boat rides across Loktak Lake and visits to the floating phumdis mean a real chance of getting splashed or damp.",
-        price: "₹899",
-        image: "👕",
-        affiliateUrl: amazonSearchUrl("quick+dry+travel+clothing"),
-        tag: "Lake essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Between the boat crossing and humid lake air, quick-dry fabric stays far more comfortable than cotton.",
-      },
-      {
-        name: "Comfortable Walking Shoes",
-        description:
-          "Kangla Fort's grounds and the walk around the floating islands both involve uneven, sometimes muddy terrain.",
-        price: "₹1,499",
-        image: "👟",
-        affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
-        tag: "Sightseeing essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "The phumdis at Loktak Lake are soft, floating vegetation mats — sturdy footwear with grip matters here.",
-      },
-      {
-        name: "Mosquito Repellent",
-        description:
-          "Manipur's wetlands around Loktak Lake and Keibul Lamjao make mosquito presence significant, especially at dawn and dusk.",
-        price: "₹199",
-        image: "🦟",
-        affiliateUrl: amazonSearchUrl("mosquito+repellent+travel"),
-        tag: "Wetland essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "Much of Manipur's sightseeing happens around lakeside and wetland settings where mosquitoes are a genuine everyday factor.",
-      },
-      {
-        name: "Power Bank (10,000 mAh)",
-        description:
-          "Useful for day trips to Moirang and around Loktak Lake, where charging infrastructure thins out quickly.",
-        price: "₹1,299",
-        image: "🔋",
-        affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
-        tag: "Day-trip essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "Outside Imphal, charging points thin out quickly — a backup battery avoids being stranded on longer excursions.",
-      },
-      {
-        name: "Reusable Water Bottle",
-        description:
-          "Handy across long days visiting Imphal's sights, Loktak Lake, and Moirang's war memorial.",
-        price: "₹699",
-        image: "🍶",
-        affiliateUrl: amazonSearchUrl("insulated+water+bottle+steel"),
-        tag: "Everyday essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "Standalone shops thin out between major sites — carrying your own water is the practical choice.",
-      },
-      {
-        name: "Basic First Aid Kit",
-        description:
-          "Worth having given the state's modest medical infrastructure outside Imphal.",
-        price: "₹599",
-        image: "🩹",
-        affiliateUrl: amazonSearchUrl("travel+first+aid+kit"),
-        tag: "Small-town essential",
-        tagColor: "bg-red-100 text-red-700",
-        why: "Medical facilities are concentrated in Imphal — basic self-sufficiency is worth having if traveling to Moirang or rural lake villages.",
-      },
-    ],
-  },
 ];
 
 // ── Page ─────────────────────────────────────────────────────────────────────
@@ -651,15 +569,6 @@ export default function ManipurGuidePage() {
                 {/* ── Loktak Lake ───────────────────────────────────────── */}
                 <section id="loktak-lake">
                   <h2>Loktak Lake & Floating Islands</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/manipur/manipur/loktak-lake-floating-islands-manipur.webp"
-                      alt="The floating phumdi islands of Loktak Lake, Northeast India's largest freshwater lake"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <p>
                     Roughly 48 km from Imphal, <strong>Loktak Lake</strong>{" "}
                     is Northeast India's largest freshwater lake, famous for
@@ -1247,12 +1156,6 @@ export default function ManipurGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              {/* ── Gear Recommendations ──────────────────────────────── */}
-              <TrekGearRecommendations
-                sections={MANIPUR_GEAR}
-                destination="Manipur"
-              />
 
               <RelatedPostsGrid currentSlug="manipur-travel-guide" />
             </article>

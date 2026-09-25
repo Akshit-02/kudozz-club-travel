@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -554,15 +555,6 @@ export default function PrayagrajGuidePage() {
                 {/* ── Attractions ────────────────────────────────────────── */}
                 <section id="attractions">
                   <h2>Sangam & Landmarks</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/uttar-pradesh/prayagraj/triveni-sangam-boats-prayagraj.webp"
-                      alt="Rowboats carrying pilgrims across the Triveni Sangam confluence in Prayagraj"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Triveni Sangam</h3>
                   <p>
                     The heart of any Prayagraj visit. Rowboats from the
@@ -587,6 +579,7 @@ export default function PrayagrajGuidePage() {
                     alive on a more manageable scale.
                   </p>
                   <h3>Allahabad Fort</h3>
+                  <GuideFigure src="/images/blogs/uttar-pradesh/prayagraj/allahabad-fort-prayagraj.webp" alt="Allahabad Fort, Prayagraj" />
                   <p>
                     Built by the Mughal emperor Akbar in 1583 on the
                     riverbank near the Sangam, this fort remains largely

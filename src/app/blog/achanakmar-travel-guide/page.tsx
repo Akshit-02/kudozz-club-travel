@@ -7,8 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Achanakmar Tiger Reserve Travel Guide: Safari & Best Time",
@@ -21,7 +19,7 @@ export const metadata: Metadata = {
     description: "A tiger reserve inside the Achanakmar-Amarkantak Biosphere Reserve, bordering Madhya Pradesh's forested plateau country — the complete guide to Achanakmar.",
     url: "https://club.kudozz.in/blog/achanakmar-travel-guide",
     type: "article", siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/meghalaya/dawki-river.jpg", width: 1200, height: 630, alt: "Dense forest and river landscape representative of Achanakmar, Chhattisgarh" }],
+    images: [{ url: "/images/destinations/meghalaya/dawki-river.jpg", width: 2560, height: 1921, alt: "Dense forest and river landscape representative of Achanakmar, Chhattisgarh" }],
   },
   twitter: { card: "summary_large_image", title: "Achanakmar Tiger Reserve Travel Guide: Safari & Best Time", description: "A quieter tiger reserve on the Chhattisgarh-Madhya Pradesh border — the complete guide to Achanakmar.", images: ["/images/destinations/meghalaya/dawki-river.jpg"] },
   alternates: { canonical: "https://club.kudozz.in/blog/achanakmar-travel-guide" },
@@ -79,16 +77,6 @@ const tableOfContents = [
   { id: "tips", title: "Essential Travel Tips", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
-
-const ACHANAKMAR_GEAR: GearSection[] = [{
-  title: "Things Worth Carrying", subtitle: "Gear for a quieter Central Indian safari", emoji: "🐅",
-  items: [
-    { name: "Neutral/Khaki Clothing", description: "Standard safari practice — neutral tones are less disruptive to wildlife in open forest.", price: "₹1,299",  image: "🧥", affiliateUrl: amazonSearchUrl("khaki+safari+clothing+set"), tag: "Safari essential", tagColor: "bg-amber-100 text-amber-700", why: "Bright colors stand out sharply against Achanakmar's dense sal and bamboo forest." },
-    { name: "Binoculars", description: "Given the more modest sighting odds here, binoculars help you make the most of distant views.", price: "₹1,999",  image: "🔭", affiliateUrl: amazonSearchUrl("binoculars+wildlife+safari"), tag: "Non-negotiable", tagColor: "bg-red-100 text-red-700", why: "Achanakmar's dense cover means wildlife is often glimpsed rather than seen up close." },
-    { name: "Telephoto Camera / Lens", description: "For photographing wildlife at a respectful distance across the reserve's forest terrain.", price: "₹8,999+",  image: "📷", affiliateUrl: amazonSearchUrl("telephoto+lens+wildlife+photography"), tag: "Photography essential", tagColor: "bg-purple-100 text-purple-700", why: "A longer lens turns a distant glimpse into a usable photo." },
-    { name: "Insect Repellent", description: "Dense forest and river-adjacent terrain make insects a real presence on safaris.", price: "₹199",  image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Forest essential", tagColor: "bg-forest-100 text-forest-700", why: "Sal and bamboo forest cover holds humidity and insects longer than open grassland." },
-  ],
-}];
 
 export default function AchanakmarGuidePage() {
   return (
@@ -201,9 +189,6 @@ export default function AchanakmarGuidePage() {
 
                 <section id="safari-zones">
                   <h2>Safaris & Wildlife</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/meghalaya/dawki-river.jpg" alt="Forest terrain around Achanakmar Tiger Reserve" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>Jeep safaris:</strong> Run through designated zones managed by the Chhattisgarh Forest Department, across dense sal and bamboo forest.</li>
                     <li><strong>Tigers:</strong> Present, but sighting odds are more modest than at Kanha or Bandhavgarh — set realistic expectations.</li>
@@ -324,7 +309,6 @@ export default function AchanakmarGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={ACHANAKMAR_GEAR} destination="Achanakmar" />
               <RelatedPostsGrid currentSlug="achanakmar-travel-guide" />
             </article>
             <div className="hidden xl:block w-64 2xl:w-72 flex-shrink-0"><div className="sticky top-24"><RelatedSidebar currentSlug="achanakmar-travel-guide" /></div></div>

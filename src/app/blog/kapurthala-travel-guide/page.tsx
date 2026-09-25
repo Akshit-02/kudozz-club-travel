@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/udaipur/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Ornate palace architecture set in landscaped grounds, evoking Kapurthala's European-influenced Jagatjit Palace",
+        url: "/images/blogs/punjab/kapurthala/jagatjit-palace-kapurthala.webp",
+        width: 1600,
+        height: 1200,
+        alt: "Jagatjit Palace, Kapurthala",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Kapurthala Travel Guide: The Paris of Punjab",
     description:
       "A Versailles-inspired palace and a Moorish mosque, deep in rural Punjab — the complete Kapurthala guide.",
-    images: ["/images/destinations/udaipur/hero.jpg"],
+    images: ["/images/blogs/punjab/kapurthala/jagatjit-palace-kapurthala.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/kapurthala-travel-guide",
@@ -59,7 +60,7 @@ function ArticleSchema() {
           headline: "Kapurthala Travel Guide: The Paris of Punjab",
           description:
             "Complete Kapurthala guide — Jagatjit Palace modeled on Versailles, the Moorish Mosque, Elysee Palace, and why this small Punjab town is nicknamed the Paris of Punjab.",
-          image: "https://club.kudozz.in/images/destinations/udaipur/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/punjab/kapurthala/jagatjit-palace-kapurthala.webp",
           datePublished: "2026-09-04",
           dateModified: "2026-09-04",
           publisher: {
@@ -196,8 +197,8 @@ export default function KapurthalaGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/udaipur/hero.jpg"
-              alt="Ornate palace architecture set in landscaped grounds, evoking Kapurthala's European-influenced Jagatjit Palace"
+              src="/images/blogs/punjab/kapurthala/jagatjit-palace-kapurthala.webp"
+              alt="Jagatjit Palace, Kapurthala"
               fill
               priority
               sizes="100vw"
@@ -508,15 +509,6 @@ export default function KapurthalaGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Jagatjit Palace & Moorish Mosque</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/udaipur/hero.jpg"
-                      alt="Palace facade and gardens, evoking Kapurthala's Jagatjit Palace"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Jagatjit Palace</h3>
                   <p>
                     Partly modeled on the Palace of Versailles, this remains
@@ -525,6 +517,7 @@ export default function KapurthalaGuidePage() {
                     grounds are still the highlight for most visitors.
                   </p>
                   <h3>Moorish Mosque</h3>
+                  <GuideFigure src="/images/blogs/punjab/kapurthala/moorish-mosque-kapurthala-2.webp" alt="Moorish Mosque, Kapurthala" />
                   <p>
                     Built in a striking North African/Moorish style rarely
                     seen elsewhere in Punjab, reflecting the maharaja's

@@ -7,9 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  FOREST_GEAR,
-} from "@/components/ui/TrekGearRecommendations";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -28,10 +25,10 @@ export const metadata: Metadata = {
     authors: ["Kudozz Club"],
     images: [
       {
-        url: "/images/destinations/coorg/coorg.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Coorg coffee plantation with misty Western Ghats hills",
+        url: "/images/blogs/karnataka/coorg/coorg.webp",
+        width: 1580,
+        height: 709,
+        alt: "Coorg, Karnataka",
       },
     ],
   },
@@ -44,7 +41,7 @@ export const metadata: Metadata = {
     title: "Coorg Travel Guide",
     description:
       "Coffee, waterfalls, wildlife and warm Kodava hospitality — everything you need to plan your Coorg trip.",
-    images: ["/images/destinations/coorg/coorg.jpg"],
+    images: ["/images/blogs/karnataka/coorg/coorg.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/coorg-travel-guide",
@@ -62,7 +59,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Coorg Travel Guide: Coffee, Waterfalls, Trekking & More",
           description: "The complete Coorg (Kodagu) travel guide.",
-          image: "https://club.kudozz.in/images/destinations/coorg/coorg.jpg",
+          image: "https://club.kudozz.in/images/blogs/karnataka/coorg/coorg.webp",
           datePublished: "2026-05-19",
           dateModified: "2026-07-12",
           publisher: {
@@ -205,8 +202,8 @@ export default function CoorgPage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/coorg/coorg.jpg"
-              alt="Coorg — misty coffee plantation hills in the Western Ghats"
+              src="/images/blogs/karnataka/coorg/coorg.webp"
+              alt="Coorg, Karnataka"
               fill
               sizes="100vw"
               className="object-cover"
@@ -558,8 +555,8 @@ export default function CoorgPage() {
                     <h3>Abbey Falls</h3>
                     <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                       <Image
-                        src="/images/destinations/coorg/abbey-falls.jpg"
-                        alt="Abbey Falls cascading through coffee and spice plantation"
+                        src="/images/blogs/karnataka/coorg/abbey-falls-coorg.webp"
+                        alt="Abbey Falls, Coorg"
                         fill
                         sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                         className="object-cover"
@@ -1656,11 +1653,6 @@ export default function CoorgPage() {
                   </Link>
                 ))}
               </div>
-
-              <TrekGearRecommendations
-                sections={FOREST_GEAR}
-                destination="Coorg"
-              />
 
               <RelatedPostsGrid currentSlug="coorg-travel-guide" />
             </article>

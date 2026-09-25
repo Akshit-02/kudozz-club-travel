@@ -7,8 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuidePhotoRow } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
   title: "Vijayawada Travel Guide: Kanaka Durga Temple & Krishna River",
@@ -20,9 +19,9 @@ export const metadata: Metadata = {
     title: "Vijayawada Travel Guide: Kanaka Durga Temple & Krishna River",
     description: "A hilltop Durga temple overlooking the Krishna River, and a business city that's become one of Andhra Pradesh's most important transit hubs — the complete guide to Vijayawada.",
     url: "https://club.kudozz.in/blog/vijayawada-travel-guide", type: "article", siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/jaisalmer/fort.jpg", width: 1200, height: 630, alt: "Hilltop temple and riverside city representative of Vijayawada, Andhra Pradesh" }],
+    images: [{ url: "/images/blogs/andhra-pradesh/vijayawada/prakasam-barrage-vijayawada-2.webp", width: 1600, height: 1200, alt: "Prakasam Barrage, Vijayawada" }],
   },
-  twitter: { card: "summary_large_image", title: "Vijayawada Travel Guide: Kanaka Durga Temple & Krishna River", description: "Kanaka Durga Temple and the Krishna River — the complete guide to Vijayawada.", images: ["/images/destinations/jaisalmer/fort.jpg"] },
+  twitter: { card: "summary_large_image", title: "Vijayawada Travel Guide: Kanaka Durga Temple & Krishna River", description: "Kanaka Durga Temple and the Krishna River — the complete guide to Vijayawada.", images: ["/images/blogs/andhra-pradesh/vijayawada/prakasam-barrage-vijayawada-2.webp"] },
   alternates: { canonical: "https://club.kudozz.in/blog/vijayawada-travel-guide" },
 };
 
@@ -32,7 +31,7 @@ function ArticleSchema() {
       "@context": "https://schema.org", "@type": "BlogPosting",
       headline: "Vijayawada Travel Guide: Kanaka Durga Temple & Krishna River",
       description: "The complete Vijayawada travel guide.",
-      image: "https://club.kudozz.in/images/destinations/jaisalmer/fort.jpg",
+      image: "https://club.kudozz.in/images/blogs/andhra-pradesh/vijayawada/prakasam-barrage-vijayawada-2.webp",
       datePublished: "2026-09-08", dateModified: "2026-09-08",
       publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
       author: { "@type": "Organization", name: "Kudozz Club" },
@@ -79,16 +78,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const VIJAYAWADA_GEAR: GearSection[] = [{
-  title: "Things Worth Carrying", subtitle: "Gear for temple visits and riverside walks", emoji: "🛕",
-  items: [
-    { name: "Modest Clothing", description: "Expected at Kanaka Durga Temple and other active religious sites around the city.", price: "₹599",  image: "👕", affiliateUrl: amazonSearchUrl("modest+travel+clothing"), tag: "Temple essential", tagColor: "bg-purple-100 text-purple-700", why: "This is a working pilgrimage site, not just a tourist stop." },
-    { name: "Comfortable Walking Shoes", description: "For the hill climb to Kanaka Durga Temple and walks along Prakasam Barrage.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-amber-100 text-amber-700", why: "The temple hill and barrage walkway both involve real walking distance." },
-    { name: "Sun Hat & Sunscreen", description: "Vijayawada gets genuinely hot, especially outside the winter months.", price: "₹599",  image: "🧴", affiliateUrl: amazonSearchUrl("sunscreen+spf+50+travel"), tag: "Weather essential", tagColor: "bg-sky-100 text-sky-700", why: "Sun exposure is significant on the open hill and riverside walks." },
-    { name: "Camera", description: "For the temple views over the Krishna River and the Undavalli Caves sculpture.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-forest-100 text-forest-700", why: "The Indrakeeladri Hill viewpoint over the river is genuinely photogenic." },
-  ],
-}];
-
 export default function VijayawadaGuidePage() {
   return (
     <>
@@ -96,7 +85,7 @@ export default function VijayawadaGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/jaisalmer/fort.jpg" alt="Hilltop temple and riverside city representative of Vijayawada, Andhra Pradesh" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/andhra-pradesh/vijayawada/prakasam-barrage-vijayawada-2.webp" alt="Prakasam Barrage, Vijayawada" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -202,7 +191,7 @@ export default function VijayawadaGuidePage() {
                 <section id="top-attractions">
                   <h2>Top Things to Do in Vijayawada</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/jaisalmer/fort.jpg" alt="Hilltop temple scenery around Vijayawada" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
+                    <Image src="/images/blogs/andhra-pradesh/vijayawada/bhavani-island-vijayawada.webp" alt="Bhavani Island, Vijayawada" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
                   </div>
                   <ul>
                     <li><strong>Kanaka Durga Temple:</strong> A major Durga temple on Indrakeeladri Hill overlooking the Krishna River, one of Andhra Pradesh's most significant Shakti temples.</li>
@@ -211,6 +200,12 @@ export default function VijayawadaGuidePage() {
                     <li><strong>Bhavani Island:</strong> A river island with recreational facilities, reached by boat.</li>
                     <li><strong>Victoria Museum:</strong> A regional museum with historical and archaeological artifacts.</li>
                   </ul>
+                  <GuidePhotoRow
+                    images={[
+                      { src: "/images/blogs/andhra-pradesh/vijayawada/prakasam-barrage-vijayawada.webp", alt: "Prakasam Barrage, Vijayawada", caption: "Prakasam Barrage, Vijayawada" },
+                      { src: "/images/blogs/andhra-pradesh/vijayawada/undavalli-caves-vijayawada.webp", alt: "Undavalli Caves, Vijayawada", caption: "Undavalli Caves, Vijayawada" },
+                    ]}
+                  />
                 </section>
 
                 <section id="where-to-stay">
@@ -327,7 +322,6 @@ export default function VijayawadaGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={VIJAYAWADA_GEAR} destination="Vijayawada" />
               <RelatedPostsGrid currentSlug="vijayawada-travel-guide" />
             </article>
             <div className="hidden xl:block w-64 2xl:w-72 flex-shrink-0"><div className="sticky top-24"><RelatedSidebar currentSlug="vijayawada-travel-guide" /></div></div>

@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -325,6 +326,7 @@ export default function MoirangGuidePage() {
                 {/* ── Introduction ──────────────────────────────────────── */}
                 <section id="introduction">
                   <h2>Manipur's Historic Lakeside Town</h2>
+                  <GuideFigure src="/images/blogs/manipur/moirang/moirang-view.webp" alt="Moirang, Manipur" />
                   <p>
                     <strong>Moirang</strong> is a historic town on the shores
                     of{" "}
@@ -512,15 +514,6 @@ export default function MoirangGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Things to Do in Moirang</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/manipur/moirang/ina-memorial-complex-moirang-manipur.webp"
-                      alt="The INA War Memorial monument at the INA Memorial Complex in Moirang, Manipur"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>INA Memorial Complex (Moirang War Museum)</h3>
                   <p>
                     The town's central landmark, marking the site where the

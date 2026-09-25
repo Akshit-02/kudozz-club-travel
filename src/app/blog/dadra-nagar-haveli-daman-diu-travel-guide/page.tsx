@@ -7,10 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -31,8 +27,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu/diu-fort-gateway.webp",
-        width: 1600,
-        height: 1200,
+        width: 1400,
+        height: 1050,
         alt: "The weathered brick archway and turrets of the Portuguese-built Diu Fort gateway",
       },
     ],
@@ -192,84 +188,6 @@ const tableOfContents = [
   { id: "tips", title: "Essential Travel Tips", level: 2 },
   { id: "places-to-explore", title: "Places to Explore in Dadra & Nagar Haveli and Daman & Diu", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
-];
-
-// ── DNH & DD-specific gear ──────────────────────────────────────────────────
-const DNHDD_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle:
-      "Gear for fort walks, quiet beaches, and a Union Territory with barely any tourist infrastructure",
-    emoji: "🏰",
-    items: [
-      {
-        name: "Comfortable Walking Shoes",
-        description:
-          "Diu Fort's ramparts, bastions and the old town's cobbled lanes involve a lot of uneven walking in direct sun — proper shoes matter more here than sandals.",
-        price: "₹1,499",
-        image: "👟",
-        affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
-        tag: "Fort-walk essential",
-        tagColor: "bg-stone-100 text-stone-700",
-        why: "The fort has no shade and uneven stone surfaces throughout — flip-flops make the walk uncomfortable within minutes.",
-      },
-      {
-        name: "Reef-Safe Sunscreen (SPF 50)",
-        description:
-          "Coastal sun on the Diu and Daman beaches is intense with little natural shade, and reef-safe formulas are better for the shallow shoreline ecosystems.",
-        price: "₹549",
-        image: "🧴",
-        affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+spf+50"),
-        tag: "Beach essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Nagoa and Jampore beaches offer almost no shade cover — sunburn is the most common complaint from day-trippers here.",
-      },
-      {
-        name: "Wide-Brim Sun Hat",
-        description:
-          "Useful for both the exposed fort ramparts in Diu and long, flat beach walks at Nagoa and Jampore.",
-        price: "₹399",
-        image: "👒",
-        affiliateUrl: amazonSearchUrl("wide+brim+sun+hat+travel"),
-        tag: "Sun essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "Both Diu Fort and the beaches are fully exposed — a hat makes a real difference across a full day of sightseeing.",
-      },
-      {
-        name: "Insulated Water Bottle",
-        description:
-          "Standalone eateries and water points are sparse between Diu's fort area, old town, and the beaches — carrying your own water is the practical choice.",
-        price: "₹699",
-        image: "🍶",
-        affiliateUrl: amazonSearchUrl("insulated+water+bottle+steel"),
-        tag: "Everyday essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "Diu's small-town layout means you can walk 20–30 minutes between the fort, old town, and nearest shop without seeing a vendor.",
-      },
-      {
-        name: "Power Bank (10,000 mAh)",
-        description:
-          "Useful for the drive between Silvassa, Daman and Diu, which involves stretches with limited charging stops.",
-        price: "₹1,299",
-        image: "🔋",
-        affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
-        tag: "Road-trip essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "If you're combining Silvassa and Daman with Diu, you're looking at long drives with sparse charging infrastructure along the way.",
-      },
-      {
-        name: "Basic First Aid Kit",
-        description:
-          "Handy for small-town travel where pharmacies and clinics are limited outside the main markets.",
-        price: "₹599",
-        image: "🩹",
-        affiliateUrl: amazonSearchUrl("travel+first+aid+kit"),
-        tag: "Small-town essential",
-        tagColor: "bg-red-100 text-red-700",
-        why: "Medical infrastructure across the territory is modest — basic self-sufficiency is worth having, especially with kids or on a road trip.",
-      },
-    ],
-  },
 ];
 
 // ── Page ─────────────────────────────────────────────────────────────────────
@@ -610,6 +528,24 @@ export default function DadraNagarHaveliDamanDiuGuidePage() {
                       Vapi railway station (~18 km).
                     </li>
                   </ul>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu/ins-khukri-memorial-model-zampa-beach.webp"
+                      alt="Scale model of INS Khukri displayed at the ship's memorial on Zampa Beach, Diu"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu/nagoa-beach-i-love-diu-hand-sculpture.webp"
+                      alt="The palm-fringed crescent of Nagoa Beach, Diu, with its landmark hand-shaped sculpture"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <div
                     className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-xl my-4 text-sm"
                     style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -624,15 +560,6 @@ export default function DadraNagarHaveliDamanDiuGuidePage() {
                 {/* ── Diu ───────────────────────────────────────────────── */}
                 <section id="diu">
                   <h2>Diu: Forts & Beaches</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu/diu-fort-gateway.webp"
-                      alt="The weathered brick archway and turrets of the Portuguese-built Diu Fort gateway"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <p>
                     A small island connected to the mainland by two bridges,
                     Diu is the undisputed highlight of the territory — quiet,
@@ -658,15 +585,6 @@ export default function DadraNagarHaveliDamanDiuGuidePage() {
                       "main" beach.
                     </li>
                   </ul>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu/nagoa-beach-i-love-diu-hand-sculpture.webp"
-                      alt="The palm-fringed crescent of Nagoa Beach, Diu, with its landmark hand-shaped sculpture"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <ul>
                     <li>
                       <strong>Gangeshwar Temple:</strong> A cluster of
@@ -679,15 +597,6 @@ export default function DadraNagarHaveliDamanDiuGuidePage() {
                       warship sunk in the 1971 war.
                     </li>
                   </ul>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu/ins-khukri-memorial-model-zampa-beach.webp"
-                      alt="Scale model of INS Khukri displayed at the ship's memorial on Zampa Beach, Diu"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <ul>
                     <li>
                       <strong>Naida Caves:</strong> Sun-dappled sandstone
@@ -1376,12 +1285,6 @@ export default function DadraNagarHaveliDamanDiuGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              {/* ── Gear Recommendations ──────────────────────────────── */}
-              <TrekGearRecommendations
-                sections={DNHDD_GEAR}
-                destination="Dadra & Nagar Haveli and Daman & Diu"
-              />
 
               <RelatedPostsGrid currentSlug="dadra-nagar-haveli-daman-diu-travel-guide" />
             </article>

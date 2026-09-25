@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jaisalmer/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Ornate heritage architecture, evoking the grand merchant mansions of the Chettinad region",
+        url: "/images/blogs/tamil-nadu/chettinad/chettinad.webp",
+        width: 1600,
+        height: 1200,
+        alt: "Chettinad, Tamil Nadu",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Chettinad Travel Guide: Mansions & Cuisine",
     description:
       "Grand Nattukottai Chettiar mansions, hand-made Athangudi tiles, and one of India's boldest regional cuisines — the complete Chettinad guide.",
-    images: ["/images/destinations/jaisalmer/hero.jpg"],
+    images: ["/images/blogs/tamil-nadu/chettinad/chettinad.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/chettinad-travel-guide",
@@ -59,7 +60,7 @@ function ArticleSchema() {
           headline: "Chettinad Travel Guide: Mansions & Cuisine",
           description:
             "Complete Chettinad guide — the grand Nattukottai Chettiar mansions, Chettinad cuisine, Athangudi tile villages, how to reach Karaikudi, heritage-hotel stays, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/jaisalmer/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/tamil-nadu/chettinad/chettinad.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -196,8 +197,8 @@ export default function ChettinadGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jaisalmer/hero.jpg"
-              alt="Ornate heritage architecture, evoking the grand merchant mansions of the Chettinad region"
+              src="/images/blogs/tamil-nadu/chettinad/chettinad.webp"
+              alt="Chettinad, Tamil Nadu"
               fill
               priority
               sizes="100vw"
@@ -523,16 +524,8 @@ export default function ChettinadGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Mansions, Cuisine & Craft Villages</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/jaisalmer/hero.jpg"
-                      alt="Ornate heritage mansion architecture in the Chettinad region"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>The Chettinad Mansions</h3>
+                  <GuideFigure src="/images/blogs/tamil-nadu/chettinad/the-chettinad-mansions.webp" alt="The Chettinad Mansions, Tamil Nadu" />
                   <p>
                     Grand ancestral homes scattered across Karaikudi and
                     surrounding villages like Kanadukathan, built with

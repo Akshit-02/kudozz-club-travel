@@ -7,10 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuidePhotoRow } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
   title: "Tirthan Valley Travel Guide: Trout Fishing & GHNP Gateway",
@@ -24,13 +21,13 @@ export const metadata: Metadata = {
     url: "https://club.kudozz.in/blog/tirthan-valley-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/kasol/kasol.jpg", width: 1200, height: 630, alt: "River valley and pine forest representative of Tirthan Valley, Himachal Pradesh" }],
+    images: [{ url: "/images/blogs/himachal-pradesh/tirthan-valley/tirthan-valley.webp", width: 1600, height: 898, alt: "Tirthan Valley, Himachal Pradesh" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Tirthan Valley Travel Guide: Trout Fishing & GHNP Gateway",
     description: "The main gateway to the Great Himalayan National Park — the complete guide to Tirthan Valley.",
-    images: ["/images/destinations/kasol/kasol.jpg"],
+    images: ["/images/blogs/himachal-pradesh/tirthan-valley/tirthan-valley.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/tirthan-valley-travel-guide" },
 };
@@ -45,7 +42,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Tirthan Valley Travel Guide: Trout Fishing & GHNP Gateway",
           description: "The complete Tirthan Valley travel guide.",
-          image: "https://club.kudozz.in/images/destinations/kasol/kasol.jpg",
+          image: "https://club.kudozz.in/images/blogs/himachal-pradesh/tirthan-valley/tirthan-valley.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
@@ -104,20 +101,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const TIRTHAN_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for riverside stays and GHNP-edge walks",
-    emoji: "🎣",
-    items: [
-      { name: "Trekking Shoes", description: "Riverside trails and the walk to Chhoie Waterfall cross uneven, sometimes wet terrain.", price: "₹3,299",  image: "🥾", affiliateUrl: amazonSearchUrl("trekking+shoes+men+women"), tag: "Trek essential", tagColor: "bg-amber-100 text-amber-700", why: "Wet rocks along the Tirthan River are a common source of slips for underprepared visitors." },
-      { name: "Insect Repellent", description: "Riverside forest terrain brings a real mosquito presence, especially at dusk.", price: "₹199",  image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Forest essential", tagColor: "bg-forest-100 text-forest-700", why: "Homestay evenings by the river are prime mosquito hours." },
-      { name: "Rain Jacket", description: "Weather shifts quickly in this valley, even outside peak monsoon.", price: "₹899",  image: "🧥", affiliateUrl: amazonSearchUrl("packable+rain+jacket+trekking"), tag: "Weather essential", tagColor: "bg-sky-100 text-sky-700", why: "Sudden showers are common given the valley's elevation and forest cover." },
-      { name: "Binoculars", description: "Useful for birdwatching along the GHNP buffer zone, where sightings are more reliable than rare-mammal spotting.", price: "₹1,999",  image: "🔭", affiliateUrl: amazonSearchUrl("binoculars+wildlife+birdwatching"), tag: "Wildlife essential", tagColor: "bg-purple-100 text-purple-700", why: "Birdlife is genuinely rich here even when larger mammals stay hidden." },
-    ],
-  },
-];
-
 export default function TirthanValleyGuidePage() {
   return (
     <>
@@ -127,7 +110,7 @@ export default function TirthanValleyGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/kasol/kasol.jpg" alt="River valley and pine forest representative of Tirthan Valley, Himachal Pradesh" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/himachal-pradesh/tirthan-valley/tirthan-valley.webp" alt="Tirthan Valley, Himachal Pradesh" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -236,9 +219,6 @@ export default function TirthanValleyGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do in Tirthan Valley</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/kasol/kasol.jpg" alt="Tirthan River valley scenery" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>Great Himalayan National Park:</strong> A UNESCO World Heritage Site and the valley's main draw — treks into the core zone require advance permits.</li>
                     <li><strong>Trout fishing:</strong> Licensed angling on the Tirthan River, typically arranged through local operators or your homestay.</li>
@@ -246,6 +226,12 @@ export default function TirthanValleyGuidePage() {
                     <li><strong>Jalori Pass:</strong> A mountain pass nearby connecting to the Jibhi/Shoja side of the valley.</li>
                     <li><strong>Riverside walks:</strong> Simple, unstructured walking along the Tirthan River is one of the valley's quiet pleasures.</li>
                   </ul>
+                  <GuidePhotoRow
+                    images={[
+                      { src: "/images/blogs/himachal-pradesh/tirthan-valley/great-himalayan-national-park-tirthan-valley.webp", alt: "Great Himalayan National Park, Tirthan Valley", caption: "Great Himalayan National Park, Tirthan Valley" },
+                      { src: "/images/blogs/himachal-pradesh/tirthan-valley/jalori-pass-tirthan-valley.webp", alt: "Jalori Pass, Tirthan Valley", caption: "Jalori Pass, Tirthan Valley" },
+                    ]}
+                  />
                 </section>
 
                 <section id="where-to-stay">
@@ -362,7 +348,6 @@ export default function TirthanValleyGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={TIRTHAN_GEAR} destination="Tirthan Valley" />
               <RelatedPostsGrid currentSlug="tirthan-valley-travel-guide" />
             </article>
 

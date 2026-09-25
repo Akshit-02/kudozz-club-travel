@@ -7,8 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
   title: "Khajjiar Travel Guide: Mini Switzerland of India",
@@ -20,9 +19,9 @@ export const metadata: Metadata = {
     title: "Khajjiar Travel Guide: Mini Switzerland of India",
     description: "A saucer-shaped meadow ringed by deodar forest that earned the nickname 'Mini Switzerland of India' — the complete guide to Khajjiar.",
     url: "https://club.kudozz.in/blog/khajjiar-travel-guide", type: "article", siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/ziro/hero.jpg", width: 1200, height: 630, alt: "Green meadow ringed by forest, representative of Khajjiar, Himachal Pradesh" }],
+    images: [{ url: "/images/blogs/himachal-pradesh/khajjiar/khajjiar.webp", width: 1600, height: 1200, alt: "View of Khajjiar, Himachal Pradesh" }],
   },
-  twitter: { card: "summary_large_image", title: "Khajjiar Travel Guide: Mini Switzerland of India", description: "A saucer-shaped meadow ringed by deodar forest — the complete guide to Khajjiar.", images: ["/images/destinations/ziro/hero.jpg"] },
+  twitter: { card: "summary_large_image", title: "Khajjiar Travel Guide: Mini Switzerland of India", description: "A saucer-shaped meadow ringed by deodar forest — the complete guide to Khajjiar.", images: ["/images/blogs/himachal-pradesh/khajjiar/khajjiar.webp"] },
   alternates: { canonical: "https://club.kudozz.in/blog/khajjiar-travel-guide" },
 };
 
@@ -32,7 +31,7 @@ function ArticleSchema() {
       "@context": "https://schema.org", "@type": "BlogPosting",
       headline: "Khajjiar Travel Guide: Mini Switzerland of India",
       description: "The complete Khajjiar travel guide.",
-      image: "https://club.kudozz.in/images/destinations/ziro/hero.jpg",
+      image: "https://club.kudozz.in/images/blogs/himachal-pradesh/khajjiar/khajjiar.webp",
       datePublished: "2026-09-07", dateModified: "2026-09-07",
       publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
       author: { "@type": "Organization", name: "Kudozz Club" },
@@ -79,16 +78,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const KHAJJIAR_GEAR: GearSection[] = [{
-  title: "Things Worth Carrying", subtitle: "Gear for a day on the meadow", emoji: "🌾",
-  items: [
-    { name: "Comfortable Walking Shoes", description: "For walking the meadow perimeter and the short Kalatop Wildlife Sanctuary nature trail.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Day-trip essential", tagColor: "bg-amber-100 text-amber-700", why: "Grass can be damp underfoot, especially in the morning." },
-    { name: "Light Warm Layer", description: "Khajjiar's elevation keeps mornings cool even in summer months.", price: "₹1,499",  image: "🧥", affiliateUrl: amazonSearchUrl("light+warm+jacket+travel"), tag: "Morning essential", tagColor: "bg-sky-100 text-sky-700", why: "An early visit for fewer crowds means cooler temperatures too." },
-    { name: "Camera", description: "For the meadow's signature saucer-shaped landscape and deodar forest ring.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-purple-100 text-purple-700", why: "This is Khajjiar's single most photographed view." },
-    { name: "Sunscreen", description: "Open meadow exposure with little shade across most of the site.", price: "₹599",  image: "🧴", affiliateUrl: amazonSearchUrl("sunscreen+travel+outdoor"), tag: "Day-trip essential", tagColor: "bg-forest-100 text-forest-700", why: "The open meadow offers little shade during midday hours." },
-  ],
-}];
-
 export default function KhajjiarGuidePage() {
   return (
     <>
@@ -96,7 +85,7 @@ export default function KhajjiarGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/ziro/hero.jpg" alt="Green meadow ringed by forest, representative of Khajjiar, Himachal Pradesh" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/himachal-pradesh/khajjiar/khajjiar.webp" alt="View of Khajjiar, Himachal Pradesh" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -199,9 +188,7 @@ export default function KhajjiarGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do in Khajjiar</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/ziro/hero.jpg" alt="Meadow and forest scenery at Khajjiar" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
+                  <GuideFigure src="/images/blogs/himachal-pradesh/khajjiar/khajjiar-view.webp" alt="Khajjiar, Himachal Pradesh" />
                   <ul>
                     <li><strong>The meadow and lake:</strong> Khajjiar's signature saucer-shaped grassland with a small central lake, ringed by deodar forest.</li>
                     <li><strong>Khajji Nag Temple:</strong> An old wooden temple by the meadow, dedicated to a local serpent deity.</li>
@@ -323,7 +310,6 @@ export default function KhajjiarGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={KHAJJIAR_GEAR} destination="Khajjiar" />
               <RelatedPostsGrid currentSlug="khajjiar-travel-guide" />
             </article>
             <div className="hidden xl:block w-64 2xl:w-72 flex-shrink-0"><div className="sticky top-24"><RelatedSidebar currentSlug="khajjiar-travel-guide" /></div></div>

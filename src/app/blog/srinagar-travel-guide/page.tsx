@@ -7,9 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  HIMALAYAN_GEAR,
-} from "@/components/ui/TrekGearRecommendations";
+import { GuidePhotoRow } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -27,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jammu-kashmir/dal.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Traditional houseboats on Dal Lake with the Zabarwan mountains behind, Srinagar, Kashmir",
+        url: "/images/blogs/jammu-and-kashmir/srinagar/nishat-bagh-srinagar.webp",
+        width: 1600,
+        height: 1218,
+        alt: "Nishat Bagh, Srinagar",
       },
     ],
   },
@@ -43,7 +41,7 @@ export const metadata: Metadata = {
     title: "Srinagar Travel Guide: Dal Lake, Houseboats & Mughal Gardens",
     description:
       "Houseboats on Dal Lake, sunrise shikara rides, and Mughal-era gardens beneath the Zabarwan hills — the complete Srinagar travel guide.",
-    images: ["/images/destinations/jammu-kashmir/dal.jpg"],
+    images: ["/images/blogs/jammu-and-kashmir/srinagar/nishat-bagh-srinagar.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/srinagar-travel-guide",
@@ -63,7 +61,7 @@ function ArticleSchema() {
           description:
             "Plan your Srinagar trip with our complete guide to Dal Lake houseboats, shikara rides, Mughal gardens, the Old City, best time to visit, and a 3-day itinerary.",
           image:
-            "https://club.kudozz.in/images/destinations/jammu-kashmir/dal.jpg",
+            "https://club.kudozz.in/images/blogs/jammu-and-kashmir/srinagar/nishat-bagh-srinagar.webp",
           datePublished: "2026-07-16",
           dateModified: "2026-07-16",
           publisher: {
@@ -227,8 +225,8 @@ export default function SrinagarGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jammu-kashmir/dal.jpg"
-              alt="Traditional houseboats on Dal Lake with the Zabarwan mountains behind, Srinagar, Kashmir"
+              src="/images/blogs/jammu-and-kashmir/srinagar/nishat-bagh-srinagar.webp"
+              alt="Nishat Bagh, Srinagar"
               fill
               priority
               sizes="100vw"
@@ -692,6 +690,13 @@ export default function SrinagarGuidePage() {
                       mid-April.
                     </li>
                   </ul>
+                  <GuidePhotoRow
+                    images={[
+                      { src: "/images/blogs/jammu-and-kashmir/srinagar/shalimar-bagh-srinagar.webp", alt: "Shalimar Bagh, Srinagar", caption: "Shalimar Bagh, Srinagar" },
+                      { src: "/images/blogs/jammu-and-kashmir/srinagar/chashme-shahi-srinagar.webp", alt: "Chashme Shahi, Srinagar", caption: "Chashme Shahi, Srinagar" },
+                      { src: "/images/blogs/jammu-and-kashmir/srinagar/indira-gandhi-memorial-tulip-garden-srinagar.webp", alt: "Indira Gandhi Memorial Tulip Garden, Srinagar", caption: "Indira Gandhi Memorial Tulip Garden, Srinagar" },
+                    ]}
+                  />
                   <blockquote>
                     Visit Nishat Bagh in the late afternoon — the terraces
                     face the lake, and the light on the water as the sun
@@ -1281,12 +1286,6 @@ export default function SrinagarGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              {/* ── Gear Recommendations ──────────────────────────────── */}
-              <TrekGearRecommendations
-                sections={HIMALAYAN_GEAR}
-                destination="Srinagar"
-              />
 
               <RelatedPostsGrid currentSlug="srinagar-travel-guide" />
             </article>

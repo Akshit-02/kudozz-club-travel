@@ -7,9 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  HIMALAYAN_GEAR,
-} from "@/components/ui/TrekGearRecommendations";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -27,10 +24,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jammu-kashmir/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Pine-forested valley and mountains around Pahalgam in Jammu and Kashmir",
+        url: "/images/blogs/jammu-and-kashmir/pahalgam/pahalgam.webp",
+        width: 1600,
+        height: 892,
+        alt: "Pahalgam, Jammu & Kashmir",
       },
     ],
   },
@@ -43,7 +40,7 @@ export const metadata: Metadata = {
     title: "Pahalgam Travel Guide: Betaab Valley, Aru & Chandanwari",
     description:
       "Pine forests, the Lidder River, and the valleys that made Pahalgam Bollywood's favourite backdrop and an Amarnath Yatra base — the complete guide.",
-    images: ["/images/destinations/jammu-kashmir/hero.jpg"],
+    images: ["/images/blogs/jammu-and-kashmir/pahalgam/pahalgam.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/pahalgam-travel-guide",
@@ -63,7 +60,7 @@ function ArticleSchema() {
           description:
             "Complete Pahalgam travel guide: Betaab Valley, Aru Valley, Chandanwari, the Lidder River, Amarnath Yatra base, best time to visit, and a full itinerary.",
           image:
-            "https://club.kudozz.in/images/destinations/jammu-kashmir/hero.jpg",
+            "https://club.kudozz.in/images/blogs/jammu-and-kashmir/pahalgam/pahalgam.webp",
           datePublished: "2026-08-30",
           dateModified: "2026-08-30",
           publisher: {
@@ -228,8 +225,8 @@ export default function PahalgamGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jammu-kashmir/hero.jpg"
-              alt="Pine-forested valley and snow-capped mountains around Pahalgam, Jammu and Kashmir"
+              src="/images/blogs/jammu-and-kashmir/pahalgam/pahalgam.webp"
+              alt="Pahalgam, Jammu & Kashmir"
               fill
               priority
               sizes="100vw"
@@ -1313,12 +1310,6 @@ export default function PahalgamGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              {/* ── Gear Recommendations ──────────────────────────────── */}
-              <TrekGearRecommendations
-                sections={HIMALAYAN_GEAR}
-                destination="Pahalgam"
-              />
 
               <RelatedPostsGrid currentSlug="pahalgam-travel-guide" />
             </article>

@@ -576,8 +576,8 @@ export default function DwarkaDelhiGuidePage() {
                   <h2>ISKCON Temple Dwarka (Sri Sri Radha Parthasarathi Mandir)</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/blogs/delhi/dwarka/dwarka-sector-13-metro-station.webp"
-                      alt="Dwarka Sector 13 metro station on the Delhi Metro Blue Line, the nearest station to the ISKCON Temple (Sri Sri Radha Parthasarathi Mandir)"
+                      src="/images/blogs/delhi/dwarka-delhi/dwarka-delhi.webp"
+                      alt="View of Dwarka Delhi"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

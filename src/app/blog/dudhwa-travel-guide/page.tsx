@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -419,6 +420,7 @@ export default function DudhwaGuidePage() {
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">
                   <h2>Best Time to Visit Dudhwa</h2>
+                  <GuideFigure src="/images/blogs/uttar-pradesh/dudhwa/dudhwa-national-park-view.webp" alt="Dudhwa National Park, Uttar Pradesh" />
                   <p>
                     Dudhwa's visiting calendar is dictated entirely by the
                     monsoon and the terai's floodplain terrain.
@@ -535,15 +537,6 @@ export default function DudhwaGuidePage() {
                 {/* ── Wildlife & Safaris ────────────────────────────────── */}
                 <section id="wildlife-safaris">
                   <h2>Wildlife & Safari Zones</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/uttar-pradesh/dudhwa/swamp-deer-dudhwa-national-park.webp"
-                      alt="Close-up of a barasingha deer's head amid a herd in Dudhwa National Park"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>The One-Horned Rhino Reintroduction</h3>
                   <p>
                     The greater one-horned rhinoceros had vanished from this

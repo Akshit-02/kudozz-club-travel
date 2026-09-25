@@ -7,8 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Maredumilli Travel Guide: Rainforest Eco-Tourism in the Eastern Ghats",
@@ -20,9 +18,9 @@ export const metadata: Metadata = {
     title: "Maredumilli Travel Guide: Rainforest Eco-Tourism in the Eastern Ghats",
     description: "A genuinely dense rainforest pocket of the Eastern Ghats, with waterfalls, hot springs, and tribal eco-tourism camps largely undiscovered by mainstream travelers — the complete guide to Maredumilli.",
     url: "https://club.kudozz.in/blog/maredumilli-travel-guide", type: "article", siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/meghalaya/dawki-river.jpg", width: 1200, height: 630, alt: "Dense rainforest and river scenery representative of Maredumilli, Andhra Pradesh" }],
+    images: [{ url: "/images/blogs/andhra-pradesh/maredumilli/maredumilli.webp", width: 1200, height: 505, alt: "Maredumilli, Andhra Pradesh" }],
   },
-  twitter: { card: "summary_large_image", title: "Maredumilli Travel Guide: Rainforest Eco-Tourism in the Eastern Ghats", description: "Forest eco-tourism, waterfalls, and hot springs — the complete guide to Maredumilli.", images: ["/images/destinations/meghalaya/dawki-river.jpg"] },
+  twitter: { card: "summary_large_image", title: "Maredumilli Travel Guide: Rainforest Eco-Tourism in the Eastern Ghats", description: "Forest eco-tourism, waterfalls, and hot springs — the complete guide to Maredumilli.", images: ["/images/blogs/andhra-pradesh/maredumilli/maredumilli.webp"] },
   alternates: { canonical: "https://club.kudozz.in/blog/maredumilli-travel-guide" },
 };
 
@@ -32,7 +30,7 @@ function ArticleSchema() {
       "@context": "https://schema.org", "@type": "BlogPosting",
       headline: "Maredumilli Travel Guide: Rainforest Eco-Tourism in the Eastern Ghats",
       description: "The complete Maredumilli travel guide.",
-      image: "https://club.kudozz.in/images/destinations/meghalaya/dawki-river.jpg",
+      image: "https://club.kudozz.in/images/blogs/andhra-pradesh/maredumilli/maredumilli.webp",
       datePublished: "2026-09-08", dateModified: "2026-09-08",
       publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
       author: { "@type": "Organization", name: "Kudozz Club" },
@@ -79,16 +77,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const MAREDUMILLI_GEAR: GearSection[] = [{
-  title: "Things Worth Carrying", subtitle: "Gear for forest trekking and waterfall/hot spring visits", emoji: "🌳",
-  items: [
-    { name: "Sturdy Trekking Shoes", description: "For the Forest Department's marked trails through bamboo and teak forest.", price: "₹2,999",  image: "🥾", affiliateUrl: amazonSearchUrl("trekking+shoes+forest+trail"), tag: "Trek essential", tagColor: "bg-amber-100 text-amber-700", why: "Forest trails here are genuinely uneven and can be slippery near water features." },
-    { name: "Insect Repellent", description: "Dense forest cover means a real mosquito and insect presence, especially near water.", price: "₹199",  image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Forest essential", tagColor: "bg-forest-100 text-forest-700", why: "This is genuinely dense rainforest terrain, not a manicured park." },
-    { name: "Rain Layer", description: "Useful across most of the year given the area's forest microclimate, especially in monsoon.", price: "₹899",  image: "🌂", affiliateUrl: amazonSearchUrl("packable+rain+jacket+trekking"), tag: "Weather essential", tagColor: "bg-sky-100 text-sky-700", why: "Waterfalls are fullest exactly when rain is most likely." },
-    { name: "Swimwear", description: "For the natural pools at the base of waterfalls and the hot springs.", price: "₹—",  image: "🩱", affiliateUrl: amazonSearchUrl("quick+dry+swimwear+travel"), tag: "Water-feature essential", tagColor: "bg-purple-100 text-purple-700", why: "Both the waterfalls and hot springs are genuine swim/soak spots." },
-  ],
-}];
-
 export default function MaredumilliGuidePage() {
   return (
     <>
@@ -96,7 +84,9 @@ export default function MaredumilliGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/meghalaya/dawki-river.jpg" alt="Dense rainforest and river scenery representative of Maredumilli, Andhra Pradesh" fill priority sizes="100vw" className="object-cover" />
+            <Image
+              src="/images/blogs/andhra-pradesh/maredumilli/maredumilli.webp"
+              alt="Maredumilli, Andhra Pradesh" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -199,9 +189,6 @@ export default function MaredumilliGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do in Maredumilli</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/meghalaya/dawki-river.jpg" alt="Forest and waterfall scenery around Maredumilli" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>Jalatarangini and Kottapalli Jalapatham:</strong> Smaller, less crowded waterfalls than Andhra's headline falls, but genuinely scenic.</li>
                     <li><strong>Natural hot springs:</strong> Locally believed to have therapeutic properties, a genuine local tradition.</li>
@@ -322,7 +309,6 @@ export default function MaredumilliGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={MAREDUMILLI_GEAR} destination="Maredumilli" />
               <RelatedPostsGrid currentSlug="maredumilli-travel-guide" />
             </article>
             <div className="hidden xl:block w-64 2xl:w-72 flex-shrink-0"><div className="sticky top-24"><RelatedSidebar currentSlug="maredumilli-travel-guide" /></div></div>

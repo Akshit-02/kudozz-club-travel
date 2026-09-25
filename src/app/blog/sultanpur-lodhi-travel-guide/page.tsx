@@ -25,8 +25,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/destinations/kerala/alleppey.jpg",
-        width: 1200,
-        height: 630,
+        width: 2560,
+        height: 1709,
         alt: "Calm waterway lined with greenery, evoking the restored Kali Bein rivulet at Sultanpur Lodhi",
       },
     ],
@@ -515,15 +515,6 @@ export default function SultanpurLodhiGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Gurdwara Ber Sahib & the Kali Bein</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/kerala/alleppey.jpg"
-                      alt="Waterway lined with trees, evoking the Kali Bein rivulet at Sultanpur Lodhi"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Gurdwara Ber Sahib</h3>
                   <p>
                     Built near an ancient ber (jujube) tree associated with

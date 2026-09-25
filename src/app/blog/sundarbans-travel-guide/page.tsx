@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -429,6 +430,7 @@ export default function SundarbansGuidePage() {
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">
                   <h2>Best Time to Visit the Sundarbans</h2>
+                  <GuideFigure src="/images/blogs/west-bengal/sundarbans/sundarbans-view.webp" alt="Sundarbans, West Bengal" />
                   <p>
                     The delta's tides and weather both shape when a visit is
                     comfortable and when core zones are even open.
@@ -543,15 +545,6 @@ export default function SundarbansGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Wildlife, Safaris & Culture</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/west-bengal/sundarbans/tourist-boat-mangrove-forest-sundarbans-national-park.webp"
-                      alt="Tourist launch boat used for wildlife safaris through the mangrove-lined creeks of Sundarbans National Park"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Boat Safaris Through the Creeks</h3>
                   <p>
                     The core Sundarbans experience is a slow boat safari

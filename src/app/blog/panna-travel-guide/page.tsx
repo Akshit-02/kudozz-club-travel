@@ -7,10 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -28,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/meghalaya/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "River gorge and forest at Panna National Park, Madhya Pradesh",
+        url: "/images/blogs/madhya-pradesh/panna/panna-national-park.webp",
+        width: 1600,
+        height: 1078,
+        alt: "Panna National Park, Madhya Pradesh",
       },
     ],
   },
@@ -40,7 +37,7 @@ export const metadata: Metadata = {
     title: "Panna National Park Travel Guide: Tiger Safari & Ken River Gorge",
     description:
       "Jeep and boat safaris, a poaching-to-recovery story, and an easy add-on to a Khajuraho trip.",
-    images: ["/images/destinations/meghalaya/hero.jpg"],
+    images: ["/images/blogs/madhya-pradesh/panna/panna-national-park.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/panna-travel-guide",
@@ -57,7 +54,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Panna National Park Travel Guide: Tiger Safari & Ken River Gorge",
           description: "The complete Panna safari travel guide.",
-          image: "https://club.kudozz.in/images/destinations/meghalaya/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/madhya-pradesh/panna/panna-national-park.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: {
@@ -153,82 +150,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const PANNA_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for jeep safaris and Ken River boat rides",
-    emoji: "🐅",
-    items: [
-      {
-        name: "Neutral-Tone Safari Clothing",
-        description:
-          "Khaki, olive, or muted brown clothing blends into the forest and doesn't startle wildlife on jeep safaris.",
-        price: "₹1,299",
-        image: "🥾",
-        affiliateUrl: amazonSearchUrl("safari+clothing+khaki+set"),
-        tag: "Safari essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "Neutral tones from the start save the awkward mid-safari cover-up guides sometimes ask visitors for.",
-      },
-      {
-        name: "8x42 Binoculars",
-        description:
-          "Useful for both jeep safaris and the Ken River boat ride, where gharials and waterbirds are often spotted well before the boat gets close.",
-        price: "₹2,499",
-        image: "🔭",
-        affiliateUrl: amazonSearchUrl("8x42+binoculars+wildlife"),
-        tag: "Non-negotiable",
-        tagColor: "bg-red-100 text-red-700",
-        why: "The Ken River's gharials and crocodiles often sit motionless on distant banks — binoculars turn them from a shape into a sighting.",
-      },
-      {
-        name: "Telephoto Zoom Lens / Bridge Camera",
-        description:
-          "A 300mm+ reach helps with both tiger photography on jeep safaris and river wildlife on the boat safari.",
-        price: "₹8,999+",
-        image: "📷",
-        affiliateUrl: amazonSearchUrl("bridge+camera+superzoom"),
-        tag: "Photography",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "Zoom reach matters more than megapixels for both game drives and the river safari here.",
-      },
-      {
-        name: "Sun Hat & Sunscreen",
-        description:
-          "Little shade on the Ken River boat safari and during midday jeep stretches — sun protection matters more here than on forest-canopy-heavy reserves.",
-        price: "₹499",
-        image: "🧢",
-        affiliateUrl: amazonSearchUrl("wide+brim+sun+hat+travel"),
-        tag: "Comfort essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "The open gorge stretches of the Ken River safari offer almost no shade for the duration of the ride.",
-      },
-      {
-        name: "Insect Repellent",
-        description:
-          "Riverside and forest-edge stops bring mosquitoes, especially at dawn and dusk.",
-        price: "₹199",
-        image: "🧴",
-        affiliateUrl: amazonSearchUrl("insect+repellent+spray"),
-        tag: "Comfort essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "Both the jeep safari and the riverside boat ride have their own dawn-and-dusk mosquito windows.",
-      },
-      {
-        name: "Power Bank",
-        description:
-          "No charging points on safari or the boat ride, and cameras drain fast shooting continuous bursts.",
-        price: "₹1,099",
-        image: "🔋",
-        affiliateUrl: amazonSearchUrl("power+bank+20000mah"),
-        tag: "Travel essential",
-        tagColor: "bg-stone-100 text-stone-700",
-        why: "A dead camera battery mid-sighting is the one regret every wildlife photographer eventually has — carry spares.",
-      },
-    ],
-  },
-];
-
 export default function PannaGuidePage() {
   return (
     <>
@@ -240,8 +161,8 @@ export default function PannaGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/meghalaya/hero.jpg"
-              alt="River gorge and forest at Panna National Park, Madhya Pradesh"
+              src="/images/blogs/madhya-pradesh/panna/panna-national-park.webp"
+              alt="Panna National Park, Madhya Pradesh"
               fill
               priority
               sizes="100vw"
@@ -386,6 +307,7 @@ export default function PannaGuidePage() {
 
                 <section id="best-time">
                   <h2>Best Time to Visit Panna</h2>
+                  <GuideFigure src="/images/blogs/madhya-pradesh/panna/panna-national-park-view.webp" alt="Panna National Park, Madhya Pradesh" />
                   <p>
                     The core zone is typically closed to tourism during the
                     monsoon for breeding and forest regeneration, roughly
@@ -468,15 +390,6 @@ export default function PannaGuidePage() {
                     grassland zones, and a Ken River boat safari focused on
                     the gorge's aquatic wildlife.
                   </p>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/meghalaya/hero.jpg"
-                      alt="Forest and river gorge landscape at Panna National Park"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <ul>
                     <li>
                       <strong>Jeep safari (core/buffer zones):</strong> The
@@ -682,8 +595,6 @@ export default function PannaGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              <TrekGearRecommendations sections={PANNA_GEAR} destination="Panna" />
 
               <RelatedPostsGrid currentSlug="panna-travel-guide" />
             </article>

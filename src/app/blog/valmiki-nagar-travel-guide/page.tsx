@@ -7,8 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Valmiki Nagar Travel Guide: Tiger Reserve & Himalayan Foothills",
@@ -22,7 +20,7 @@ export const metadata: Metadata = {
     url: "https://club.kudozz.in/blog/valmiki-nagar-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/ziro/hero.jpg", width: 1200, height: 630, alt: "Forested foothill landscape representative of Valmiki Nagar, Bihar" }],
+    images: [{ url: "/images/destinations/ziro/hero.jpg", width: 2560, height: 1440, alt: "Forested foothill landscape representative of Valmiki Nagar, Bihar" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -100,20 +98,6 @@ const tableOfContents = [
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
-];
-
-const VALMIKI_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for safaris in a remote Himalayan-foothill reserve",
-    emoji: "🐅",
-    items: [
-      { name: "Neutral/Khaki Clothing", description: "Standard safari practice — neutral tones are less disruptive to wildlife across the reserve's grassland and forest zones.", price: "₹1,299",  image: "🧥", affiliateUrl: amazonSearchUrl("khaki+safari+clothing+set"), tag: "Safari essential", tagColor: "bg-amber-100 text-amber-700", why: "Bright colors stand out against the terai grassland and forest edges here." },
-      { name: "Binoculars", description: "Given the reserve's more modest tiger-sighting odds, binoculars help you make the most of the broader wildlife and birdlife present.", price: "₹1,999",  image: "🔭", affiliateUrl: amazonSearchUrl("binoculars+wildlife+safari"), tag: "Non-negotiable", tagColor: "bg-red-100 text-red-700", why: "A genuinely useful investment given this reserve's less frequent big-cat sightings." },
-      { name: "Telephoto Camera", description: "For photographing wildlife at a respectful distance across open terai terrain.", price: "₹8,999+",  image: "📷", affiliateUrl: amazonSearchUrl("telephoto+lens+wildlife+photography"), tag: "Photography essential", tagColor: "bg-purple-100 text-purple-700", why: "Open grassland sightings are often distant — a longer lens makes the difference." },
-      { name: "Insect Repellent", description: "Terai/foothill terrain near the Gandak River is genuinely mosquito-prone, especially at dawn and dusk safari times.", price: "₹199",  image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Forest essential", tagColor: "bg-forest-100 text-forest-700", why: "River-adjacent terai terrain sees more mosquito activity than drier Central Indian reserves." },
-    ],
-  },
 ];
 
 export default function ValmikiNagarGuidePage() {
@@ -233,9 +217,6 @@ export default function ValmikiNagarGuidePage() {
 
                 <section id="safari-zones">
                   <h2>Safaris & Wildlife</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/ziro/hero.jpg" alt="Foothill forest scenery around Valmiki Tiger Reserve" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>Jeep safaris:</strong> Run through the Bihar Forest Department across designated zones — book in advance, especially for weekends.</li>
                     <li><strong>Tigers:</strong> Present in the reserve, but sighting odds are genuinely more modest than at Central India's bigger-name reserves.</li>
@@ -358,7 +339,6 @@ export default function ValmikiNagarGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={VALMIKI_GEAR} destination="Valmiki Nagar" />
               <RelatedPostsGrid currentSlug="valmiki-nagar-travel-guide" />
             </article>
 

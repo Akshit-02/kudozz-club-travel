@@ -7,8 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuidePhotoRow } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
   title: "Sirpur Travel Guide: Ancient Buddhist Ruins on the Mahanadi",
@@ -20,9 +19,9 @@ export const metadata: Metadata = {
     title: "Sirpur Travel Guide: Ancient Buddhist Ruins on the Mahanadi",
     description: "A 1,500-year-old riverside city with excavated monasteries, temples, and one of India's most significant ongoing archaeological digs — the complete guide to Sirpur.",
     url: "https://club.kudozz.in/blog/sirpur-travel-guide", type: "article", siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/hampi/hero.jpg", width: 1200, height: 630, alt: "Ancient stone ruins representative of Sirpur, Chhattisgarh" }],
+    images: [{ url: "/images/blogs/chhattisgarh/sirpur/sirpur.webp", width: 1600, height: 1200, alt: "View of Sirpur, Chhattisgarh" }],
   },
-  twitter: { card: "summary_large_image", title: "Sirpur Travel Guide: Ancient Buddhist Ruins on the Mahanadi", description: "1,500-year-old excavated monasteries and temples on the Mahanadi — the complete guide to Sirpur.", images: ["/images/destinations/hampi/hero.jpg"] },
+  twitter: { card: "summary_large_image", title: "Sirpur Travel Guide: Ancient Buddhist Ruins on the Mahanadi", description: "1,500-year-old excavated monasteries and temples on the Mahanadi — the complete guide to Sirpur.", images: ["/images/blogs/chhattisgarh/sirpur/sirpur.webp"] },
   alternates: { canonical: "https://club.kudozz.in/blog/sirpur-travel-guide" },
 };
 
@@ -32,7 +31,7 @@ function ArticleSchema() {
       "@context": "https://schema.org", "@type": "BlogPosting",
       headline: "Sirpur Travel Guide: Ancient Buddhist Ruins on the Mahanadi",
       description: "The complete Sirpur travel guide.",
-      image: "https://club.kudozz.in/images/destinations/hampi/hero.jpg",
+      image: "https://club.kudozz.in/images/blogs/chhattisgarh/sirpur/sirpur.webp",
       datePublished: "2026-09-08", dateModified: "2026-09-08",
       publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
       author: { "@type": "Organization", name: "Kudozz Club" },
@@ -79,16 +78,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const SIRPUR_GEAR: GearSection[] = [{
-  title: "Things Worth Carrying", subtitle: "Gear for a day walking an open archaeological site", emoji: "🏛️",
-  items: [
-    { name: "Comfortable Walking Shoes", description: "The excavated site spans several separate complexes with uneven, sun-exposed ground between them.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Site-visit essential", tagColor: "bg-amber-100 text-amber-700", why: "Ancient brick and stone remains sit on uneven excavated ground across a wide area." },
-    { name: "Sun Hat & Sunscreen", description: "Sirpur's excavated ruins offer little shade across a multi-hour visit.", price: "₹599",  image: "🧴", affiliateUrl: amazonSearchUrl("sun+hat+sunscreen+travel"), tag: "Sun essential", tagColor: "bg-orange-100 text-orange-700", why: "The open excavated grounds have minimal tree cover." },
-    { name: "Reusable Water Bottle", description: "Facilities are limited around the archaeological site itself.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "All-day essential", tagColor: "bg-sky-100 text-sky-700", why: "There's little in the way of shops or refreshment stands directly at the site." },
-    { name: "Camera with Zoom Lens", description: "For capturing the brick temple detail and excavated monastery layouts.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("camera+zoom+lens+travel"), tag: "Photography essential", tagColor: "bg-forest-100 text-forest-700", why: "Lakshmana Temple's brickwork detail rewards a closer look than a phone camera usually captures." },
-  ],
-}];
-
 export default function SirpurGuidePage() {
   return (
     <>
@@ -96,7 +85,7 @@ export default function SirpurGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/hampi/hero.jpg" alt="Ancient stone ruins representative of Sirpur, Chhattisgarh" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/chhattisgarh/sirpur/sirpur.webp" alt="View of Sirpur, Chhattisgarh" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -200,15 +189,18 @@ export default function SirpurGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to See in Sirpur</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/hampi/hero.jpg" alt="Excavated ancient ruins at Sirpur" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>Lakshmana Temple:</strong> A well-preserved 7th-century brick temple, notable as one of India's finest surviving examples of ancient brick temple architecture.</li>
                     <li><strong>Buddha Vihara complex:</strong> Excavated monastery remains including a large Buddha statue, part of Sirpur's substantial Buddhist heritage.</li>
                     <li><strong>Gandheshwar Temple:</strong> A riverbank temple with a Shiva lingam, beside the Mahanadi.</li>
                     <li><strong>Ongoing excavation areas:</strong> The site continues to be actively excavated, so new finds and areas may be visible depending on when you visit.</li>
                   </ul>
+                  <GuidePhotoRow
+                    images={[
+                      { src: "/images/blogs/chhattisgarh/sirpur/lakshmana-temple-sirpur.webp", alt: "Lakshmana Temple, Sirpur", caption: "Lakshmana Temple, Sirpur" },
+                      { src: "/images/blogs/chhattisgarh/sirpur/gandheshwar-temple-sirpur.webp", alt: "Gandheshwar Temple, Sirpur", caption: "Gandheshwar Temple, Sirpur" },
+                    ]}
+                  />
                 </section>
 
                 <section id="where-to-stay">
@@ -323,7 +315,6 @@ export default function SirpurGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={SIRPUR_GEAR} destination="Sirpur" />
               <RelatedPostsGrid currentSlug="sirpur-travel-guide" />
             </article>
             <div className="hidden xl:block w-64 2xl:w-72 flex-shrink-0"><div className="sticky top-24"><RelatedSidebar currentSlug="sirpur-travel-guide" /></div></div>

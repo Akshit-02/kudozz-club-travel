@@ -7,9 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  HIMALAYAN_GEAR,
-} from "@/components/ui/TrekGearRecommendations";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -389,6 +386,15 @@ export default function TsoMoririPage() {
                     stretch.
                   </p>
 
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/ladakh/tso-moriri/kiang-tibetan-wild-ass-changthang-plateau.webp"
+                      alt="A kiang (Tibetan wild ass) standing on the open Rupshu plateau grassland near Tso Moriri"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   {/* At a Glance */}
                   <div className="bg-forest-50 border border-forest-200 rounded-xl p-6 my-8">
                     <h4
@@ -754,15 +760,6 @@ export default function TsoMoririPage() {
                     delivers a genuine wildlife encounter.
                   </p>
 
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/ladakh/tso-moriri/kiang-tibetan-wild-ass-changthang-plateau.webp"
-                      alt="A kiang (Tibetan wild ass) standing on the open Rupshu plateau grassland near Tso Moriri"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
 
                   <div className="space-y-4 my-4">
                     {[
@@ -1308,11 +1305,6 @@ export default function TsoMoririPage() {
                   </Link>
                 ))}
               </div>
-
-              <TrekGearRecommendations
-                sections={HIMALAYAN_GEAR}
-                destination="Tso Moriri"
-              />
 
               <RelatedPostsGrid currentSlug="tso-moriri-travel-guide" />
             </article>

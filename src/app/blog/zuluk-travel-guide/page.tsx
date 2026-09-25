@@ -24,10 +24,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/chandigarh/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Winding mountain road landscape, evoking Zuluk's famous zigzag route on the Old Silk Route in Sikkim",
+        url: "/images/blogs/sikkim/zuluk/zuluk.webp",
+        width: 1600,
+        height: 1064,
+        alt: "Zuluk, Sikkim",
       },
     ],
   },
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     title: "Zuluk Travel Guide: Old Silk Route & Tips",
     description:
       "A tiny Old Silk Route hamlet famous for a 32-hairpin-bend mountain road and quiet homestay life — the complete Zuluk guide.",
-    images: ["/images/destinations/chandigarh/hero.jpg"],
+    images: ["/images/blogs/sikkim/zuluk/zuluk.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/zuluk-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           headline: "Zuluk Travel Guide: Old Silk Route & Tips",
           description:
             "Complete Zuluk guide — the 32-hairpin-bend zigzag road, Thambi View Point, homestays on the Old Silk Route, permits, best time, and how to reach from Gangtok.",
-          image: "https://club.kudozz.in/images/destinations/chandigarh/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/sikkim/zuluk/zuluk.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -199,8 +199,8 @@ export default function ZulukGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/chandigarh/hero.jpg"
-              alt="Winding mountain road landscape, evoking Zuluk's famous zigzag route on the Old Silk Route in Sikkim"
+              src="/images/blogs/sikkim/zuluk/zuluk.webp"
+              alt="Zuluk, Sikkim"
               fill
               priority
               sizes="100vw"
@@ -513,15 +513,6 @@ export default function ZulukGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>The Zigzag Road & Thambi View Point</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/chandigarh/hero.jpg"
-                      alt="Mountain switchback road, evoking Zuluk's zigzag route"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>The 32-Hairpin-Bend Road</h3>
                   <p>
                     The switchback road below Zuluk is the region's

@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -539,16 +540,8 @@ export default function SantiniketanGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Things to Do in Santiniketan</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/west-bengal/santiniketan/udayan-tagore-house-santiniketan.webp"
-                      alt="Udayan, Tagore's house in the Uttarayan complex, part of the Vishwa-Bharati campus at Santiniketan"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Uttarayan Complex</h3>
+                  <GuideFigure src="/images/blogs/west-bengal/santiniketan/uttarayan-complex-santiniketan.webp" alt="Uttarayan Complex, Santiniketan" />
                   <p>
                     Tagore's residence for much of his life, Uttarayan is a
                     cluster of five distinct houses — including Udayan,
@@ -560,6 +553,7 @@ export default function SantiniketanGuidePage() {
                     to do so).
                   </p>
                   <h3>Kala Bhavana</h3>
+                  <GuideFigure src="/images/blogs/west-bengal/santiniketan/kala-bhavana-santiniketan.webp" alt="Kala Bhavana, Santiniketan" />
                   <p>
                     Vishwa-Bharati's celebrated art school, whose alumni
                     include some of modern India's most significant artists.
@@ -578,6 +572,7 @@ export default function SantiniketanGuidePage() {
                     surprises first-time visitors.
                   </p>
                   <h3>Sonajhuri Haat (Khoai Mela)</h3>
+                  <GuideFigure src="/images/blogs/west-bengal/santiniketan/sonajhuri-haat-santiniketan.webp" alt="Sonajhuri Haat, Santiniketan" />
                   <p>
                     Every Saturday afternoon, a rural market springs up
                     beneath the Sonajhuri forest on the edge of town, where

@@ -7,9 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  HIMALAYAN_GEAR,
-} from "@/components/ui/TrekGearRecommendations";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -36,10 +33,10 @@ export const metadata: Metadata = {
     ],
     images: [
       {
-        url: "/images/destinations/jammu-kashmir/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Snow-covered meadows and pine forest of Gulmarg with the Pir Panjal range in the background",
+        url: "/images/blogs/jammu-and-kashmir/gulmarg/gulmarg.webp",
+        width: 1600,
+        height: 1200,
+        alt: "View of Gulmarg, Jammu & Kashmir",
       },
     ],
   },
@@ -52,7 +49,7 @@ export const metadata: Metadata = {
     title: "Gulmarg Travel Guide: Gondola, Skiing & Meadows",
     description:
       "The Gulmarg Gondola to Apharwat Peak, India's premier ski season, and the world's highest green golf course in summer — the complete guide.",
-    images: ["/images/destinations/jammu-kashmir/hero.jpg"],
+    images: ["/images/blogs/jammu-and-kashmir/gulmarg/gulmarg.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/gulmarg-travel-guide",
@@ -72,7 +69,7 @@ function ArticleSchema() {
           description:
             "Plan your Gulmarg trip with this complete guide to the gondola cable car, ski season, summer meadows, golf course, costs, and the best time to visit.",
           image:
-            "https://club.kudozz.in/images/destinations/jammu-kashmir/hero.jpg",
+            "https://club.kudozz.in/images/blogs/jammu-and-kashmir/gulmarg/gulmarg.webp",
           datePublished: "2026-07-24",
           dateModified: "2026-07-24",
           publisher: {
@@ -236,8 +233,8 @@ export default function GulmargGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jammu-kashmir/hero.jpg"
-              alt="Gulmarg Gondola cable car ascending towards snow-covered Apharwat Peak"
+              src="/images/blogs/jammu-and-kashmir/gulmarg/gulmarg.webp"
+              alt="View of Gulmarg, Jammu & Kashmir"
               fill
               priority
               sizes="100vw"
@@ -1274,12 +1271,6 @@ export default function GulmargGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              {/* ── Gear Recommendations ──────────────────────────────── */}
-              <TrekGearRecommendations
-                sections={HIMALAYAN_GEAR}
-                destination="Gulmarg"
-              />
 
               <RelatedPostsGrid currentSlug="gulmarg-travel-guide" />
             </article>

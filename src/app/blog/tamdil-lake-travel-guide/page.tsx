@@ -25,8 +25,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/destinations/jammu-kashmir/dal.jpg",
-        width: 1200,
-        height: 630,
+        width: 2560,
+        height: 1707,
         alt: "Calm lake surrounded by hills, evoking Tamdil Lake in central Mizoram",
       },
     ],
@@ -394,15 +394,6 @@ export default function TamdilLakeGuidePage() {
 
                 <section id="things-to-do">
                   <h2>Boating & the Legend</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/jammu-kashmir/dal.jpg"
-                      alt="Lake surrounded by hills, evoking Tamdil Lake"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Boating on the Lake</h3>
                   <p>
                     Boat rides across Tamdil Lake are the main activity here,

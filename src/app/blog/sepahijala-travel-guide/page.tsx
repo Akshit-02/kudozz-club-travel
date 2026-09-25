@@ -539,15 +539,6 @@ export default function SepahijalaGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Wildlife, Lake & Botanical Garden</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/tripura/sepahijala/spotted-deer-sepahijala-wildlife-sanctuary.webp"
-                      alt="Forest habitat at Sepahijala Wildlife Sanctuary, Tripura"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Spotting the Spectacled Langur</h3>
                   <p>
                     The sanctuary's signature draw — a rare, distinctively

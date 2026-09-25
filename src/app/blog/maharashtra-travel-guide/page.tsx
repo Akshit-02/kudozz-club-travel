@@ -7,10 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuidePhotoRow } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -185,84 +182,6 @@ const tableOfContents = [
   { id: "tips", title: "Essential Travel Tips", level: 2 },
   { id: "places-to-explore", title: "Places to Explore in Maharashtra", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
-];
-
-// ── Maharashtra-specific gear ─────────────────────────────────────────────
-const MAHARASHTRA_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle:
-      "Gear for humid coastal towns, cave-temple sightseeing, and hill-station monsoon weather",
-    emoji: "🏛️",
-    items: [
-      {
-        name: "Comfortable Walking Shoes",
-        description:
-          "Ajanta and Ellora both involve extensive walking across uneven stone floors and staircases inside the cave complexes.",
-        price: "₹1,499",
-        image: "👟",
-        affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
-        tag: "Sightseeing essential",
-        tagColor: "bg-stone-100 text-stone-700",
-        why: "Cave floors at Ajanta and Ellora are uneven stone, often slightly damp — supportive footwear makes a real difference over a full day.",
-      },
-      {
-        name: "Rain Jacket / Poncho",
-        description:
-          "Lonavala, Mahabaleshwar, and the Konkan coast all see heavy rainfall through the monsoon months.",
-        price: "₹599",
-        image: "🌂",
-        affiliateUrl: amazonSearchUrl("rain+jacket+poncho+travel"),
-        tag: "Monsoon essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Maharashtra's hill stations and coast are genuinely popular monsoon destinations — a rain jacket lets you enjoy it rather than dodge it.",
-      },
-      {
-        name: "Sunscreen (SPF 50)",
-        description:
-          "Essential for the Konkan coast's beaches and long walks through Ajanta and Ellora's open courtyards.",
-        price: "₹399",
-        image: "🧴",
-        affiliateUrl: amazonSearchUrl("sunscreen+spf+50+travel"),
-        tag: "Coastal essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "Between beach days on the Konkan coast and open-air cave sightseeing, sun exposure adds up quickly.",
-      },
-      {
-        name: "Power Bank (10,000 mAh)",
-        description:
-          "Useful for day trips beyond Mumbai and Pune, where charging infrastructure thins out on the road.",
-        price: "₹1,299",
-        image: "🔋",
-        affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
-        tag: "Day-trip essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "Long drives to Ajanta-Ellora or along the Konkan coast benefit from a backup battery for navigation and photos.",
-      },
-      {
-        name: "Reusable Water Bottle",
-        description:
-          "Handy across long days at Ajanta, Ellora, and Mumbai's extensive city sightseeing.",
-        price: "₹699",
-        image: "🍶",
-        affiliateUrl: amazonSearchUrl("insulated+water+bottle+steel"),
-        tag: "Everyday essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "Maharashtra's summers are hot and dry inland — carrying your own water is worthwhile even on short outings.",
-      },
-      {
-        name: "Compact Umbrella",
-        description:
-          "A practical backup for Mumbai's unpredictable weather and sudden hill-station showers.",
-        price: "₹349",
-        image: "☔",
-        affiliateUrl: amazonSearchUrl("compact+travel+umbrella"),
-        tag: "City essential",
-        tagColor: "bg-red-100 text-red-700",
-        why: "Mumbai's showers can be intense and sudden — a compact umbrella is easier to carry through crowded streets than a poncho.",
-      },
-    ],
-  },
 ];
 
 // ── Page ─────────────────────────────────────────────────────────────────────
@@ -592,6 +511,15 @@ export default function MaharashtraGuidePage() {
                       coast, and neighboring states.
                     </li>
                   </ul>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/maharashtra/maharashtra/mahabaleshwar-needle-hole-point-rock-formation.webp"
+                      alt="The wind-carved rock arch at Needle Hole Point, one of Mahabaleshwar's well-known viewpoints"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <div
                     className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-xl my-4 text-sm"
                     style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -650,15 +578,6 @@ export default function MaharashtraGuidePage() {
                 {/* ── Ajanta & Ellora ───────────────────────────────────── */}
                 <section id="ajanta-ellora">
                   <h2>Ajanta & Ellora Caves</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/maharashtra/maharashtra/ajanta-caves-rock-cut-facade-maharashtra.webp"
-                      alt="Ancient carved temple architecture, evoking the rock-cut caves of Ajanta and Ellora"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <p>
                     Near Aurangabad, <strong>Ajanta</strong> and{" "}
                     <strong>Ellora</strong> are two of the most significant
@@ -687,6 +606,12 @@ export default function MaharashtraGuidePage() {
                       defenses.
                     </li>
                   </ul>
+                  <GuidePhotoRow
+                    images={[
+                      { src: "/images/blogs/maharashtra/maharashtra/ellora-caves-maharashtra.webp", alt: "Ellora Caves, Maharashtra", caption: "Ellora Caves, Maharashtra" },
+                      { src: "/images/blogs/maharashtra/maharashtra/daulatabad-fort-maharashtra.webp", alt: "Daulatabad Fort, Maharashtra", caption: "Daulatabad Fort, Maharashtra" },
+                    ]}
+                  />
                   <div
                     className="bg-forest-50 border-l-4 border-forest-500 p-4 rounded-r-xl my-4 text-sm"
                     style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -733,15 +658,6 @@ export default function MaharashtraGuidePage() {
                       — genuinely quiet and pollution-free.
                     </li>
                   </ul>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/maharashtra/maharashtra/mahabaleshwar-needle-hole-point-rock-formation.webp"
-                      alt="The wind-carved rock arch at Needle Hole Point, one of Mahabaleshwar's well-known viewpoints"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                 </section>
 
                 {/* ── Konkan Coast ──────────────────────────────────────── */}
@@ -1309,12 +1225,6 @@ export default function MaharashtraGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              {/* ── Gear Recommendations ──────────────────────────────── */}
-              <TrekGearRecommendations
-                sections={MAHARASHTRA_GEAR}
-                destination="Maharashtra"
-              />
 
               <RelatedPostsGrid currentSlug="maharashtra-travel-guide" />
             </article>

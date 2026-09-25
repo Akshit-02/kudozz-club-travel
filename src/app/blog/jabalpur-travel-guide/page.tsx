@@ -7,10 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuidePhotoRow } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
   title: "Jabalpur Travel Guide: Marble Rocks, Dhuandhar Falls & Bhedaghat",
@@ -25,13 +22,13 @@ export const metadata: Metadata = {
     url: "https://club.kudozz.in/blog/jabalpur-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/andaman/hero.jpg", width: 1200, height: 630, alt: "River gorge landscape representative of Bhedaghat, Jabalpur" }],
+    images: [{ url: "/images/blogs/madhya-pradesh/jabalpur/dhuandhar-falls-jabalpur-2.webp", width: 1600, height: 1200, alt: "Dhuandhar Falls, Jabalpur" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Jabalpur Travel Guide: Marble Rocks, Dhuandhar Falls & Bhedaghat",
     description: "Bhedaghat's marble gorges and moonlight boating — the complete guide to Jabalpur.",
-    images: ["/images/destinations/andaman/hero.jpg"],
+    images: ["/images/blogs/madhya-pradesh/jabalpur/dhuandhar-falls-jabalpur-2.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/jabalpur-travel-guide" },
 };
@@ -46,7 +43,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Jabalpur Travel Guide: Marble Rocks, Dhuandhar Falls & Bhedaghat",
           description: "The complete Jabalpur travel guide.",
-          image: "https://club.kudozz.in/images/destinations/andaman/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/madhya-pradesh/jabalpur/dhuandhar-falls-jabalpur-2.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
@@ -99,20 +96,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const JABALPUR_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for boat rides, the ropeway, and temple visits",
-    emoji: "🚤",
-    items: [
-      { name: "Light Jacket / Windbreaker", description: "Evening and moonlight boat rides through the marble gorge get noticeably cool, especially in winter months.", price: "₹1,299",  image: "🧥", affiliateUrl: amazonSearchUrl("light+jacket+windbreaker+travel"), tag: "Boat-ride essential", tagColor: "bg-sky-100 text-sky-700", why: "The Narmada gorge stays breezy after dark, and moonlight boat rides run well into the evening." },
-      { name: "Waterproof Phone Pouch", description: "Handy for the Bhedaghat boat rides and the misty viewing points near Dhuandhar Falls.", price: "₹299",  image: "📱", affiliateUrl: amazonSearchUrl("waterproof+phone+pouch+travel"), tag: "Boat-ride essential", tagColor: "bg-purple-100 text-purple-700", why: "Spray from Dhuandhar Falls reaches the nearby viewpoints, and boats can splash a little in the gorge." },
-      { name: "Comfortable Walking Shoes", description: "Chausath Yogini Temple sits atop a hill reached by a flight of stairs, and Madan Mahal Fort involves some uneven rocky terrain.", price: "₹1,699",  image: "🥾", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Sightseeing essential", tagColor: "bg-red-100 text-red-700", why: "Both hilltop sites in Jabalpur require a reasonable amount of stair-climbing on uneven surfaces." },
-      { name: "Binoculars", description: "Useful for the Dhuandhar Falls ropeway and for taking in the marble cliffs from the boat at a distance.", price: "₹1,299",  image: "🔭", affiliateUrl: amazonSearchUrl("compact+binoculars+travel"), tag: "Sightseeing essential", tagColor: "bg-amber-100 text-amber-700", why: "The full scale of the marble gorge is best appreciated from a bit of distance, which binoculars help with." },
-    ],
-  },
-];
-
 export default function JabalpurGuidePage() {
   return (
     <>
@@ -122,7 +105,7 @@ export default function JabalpurGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/andaman/hero.jpg" alt="River gorge landscape representative of Bhedaghat, Jabalpur" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/madhya-pradesh/jabalpur/dhuandhar-falls-jabalpur-2.webp" alt="Dhuandhar Falls, Jabalpur" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -228,7 +211,7 @@ export default function JabalpurGuidePage() {
                 <section id="top-attractions">
                   <h2>Top Attractions in Jabalpur</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/andaman/hero.jpg" alt="Marble gorge and river landscape near Jabalpur" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
+                    <Image src="/images/blogs/madhya-pradesh/jabalpur/chausath-yogini-temple-jabalpur.webp" alt="Chausath Yogini Temple, Jabalpur" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
                   </div>
                   <ul>
                     <li><strong>Bhedaghat Marble Rocks:</strong> Dramatic pale limestone cliffs rising up to around 100 feet on either side of the Narmada, best seen from a boat gliding through the narrow gorge.</li>
@@ -237,6 +220,12 @@ export default function JabalpurGuidePage() {
                     <li><strong>Chausath Yogini Temple:</strong> A 10th-century circular hilltop temple originally housing shrines to 64 yoginis, with sweeping views over the city.</li>
                     <li><strong>Madan Mahal Fort:</strong> A hilltop fort built by the Gond dynasty, offering a quieter historical stop away from the river attractions.</li>
                   </ul>
+                  <GuidePhotoRow
+                    images={[
+                      { src: "/images/blogs/madhya-pradesh/jabalpur/bhedaghat-marble-rocks-jabalpur.webp", alt: "Bhedaghat Marble Rocks, Jabalpur", caption: "Bhedaghat Marble Rocks, Jabalpur" },
+                      { src: "/images/blogs/madhya-pradesh/jabalpur/dhuandhar-falls-jabalpur.webp", alt: "Dhuandhar Falls, Jabalpur", caption: "Dhuandhar Falls, Jabalpur" },
+                    ]}
+                  />
                 </section>
 
                 <section id="where-to-stay">
@@ -345,7 +334,6 @@ export default function JabalpurGuidePage() {
                 {["Jabalpur", "Madhya Pradesh", "Bhedaghat", "Marble Rocks", "Dhuandhar Falls", "India"].map((tag) => <Link key={tag} href={`/blog?tag=${tag.toLowerCase().replace(/ /g, "-")}`} className="tag-pill">#{tag}</Link>)}
               </div>
 
-              <TrekGearRecommendations sections={JABALPUR_GEAR} destination="Jabalpur" />
               <RelatedPostsGrid currentSlug="jabalpur-travel-guide" />
             </article>
 

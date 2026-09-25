@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jammu-kashmir/hero.jpg",
+        url: "/images/blogs/tamil-nadu/yercaud/kiliyur-falls-yercaud.webp",
         width: 1200,
-        height: 630,
-        alt: "Green mountain landscape, evoking Yercaud's Shevaroy Hills scenery",
+        height: 900,
+        alt: "Kiliyur Falls, Yercaud",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Yercaud Travel Guide: Coffee Hills & Best Time",
     description:
       "A quieter hill escape ringed by coffee plantations in the Shevaroy Hills — the complete Yercaud guide.",
-    images: ["/images/destinations/jammu-kashmir/hero.jpg"],
+    images: ["/images/blogs/tamil-nadu/yercaud/kiliyur-falls-yercaud.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/yercaud-travel-guide",
@@ -59,7 +60,7 @@ function ArticleSchema() {
           headline: "Yercaud Travel Guide: Coffee Hills & Best Time",
           description:
             "Complete Yercaud guide — Yercaud Lake, Lady's Seat, Kiliyur Falls, coffee plantation visits, best time to visit, how to reach from Salem, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/jammu-kashmir/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/tamil-nadu/yercaud/kiliyur-falls-yercaud.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -195,8 +196,8 @@ export default function YercaudGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jammu-kashmir/hero.jpg"
-              alt="Green mountain landscape, evoking Yercaud's Shevaroy Hills scenery"
+              src="/images/blogs/tamil-nadu/yercaud/kiliyur-falls-yercaud.webp"
+              alt="Kiliyur Falls, Yercaud"
               fill
               priority
               sizes="100vw"
@@ -487,15 +488,6 @@ export default function YercaudGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Lake, Viewpoints & Coffee Estates</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/jammu-kashmir/hero.jpg"
-                      alt="Green hill landscape, evoking Yercaud's Shevaroy Hills and coffee plantations"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Yercaud Lake</h3>
                   <p>
                     The centre of town, with boating available and a calm,

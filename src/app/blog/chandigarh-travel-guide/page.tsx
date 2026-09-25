@@ -7,10 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -29,8 +25,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/blogs/chandigarh/chandigarh/rock-garden-mosaic-sculptures-chandigarh.webp",
-        width: 1500,
-        height: 1125,
+        width: 1400,
+        height: 933,
         alt: "Rows of bangle-and-ceramic mosaic human figures and peacock sculptures on a terraced red-stone wall at the Rock Garden, Chandigarh",
       },
     ],
@@ -186,73 +182,6 @@ const tableOfContents = [
   { id: "tips", title: "Essential Travel Tips", level: 2 },
   { id: "places-to-explore", title: "Places to Explore in Chandigarh", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
-];
-
-// ── Chandigarh-specific gear ─────────────────────────────────────────────────
-const CHANDIGARH_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle:
-      "Gear for a walkable, sector-planned city with a lot of open-air sightseeing",
-    emoji: "🏙️",
-    items: [
-      {
-        name: "Comfortable Walking Shoes",
-        description:
-          "The Rock Garden's winding pathways, the Capitol Complex plaza, and Sector 17's open market all involve extended walking on hard, sun-exposed surfaces.",
-        price: "₹1,499",
-        image: "👟",
-        affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
-        tag: "City-walk essential",
-        tagColor: "bg-stone-100 text-stone-700",
-        why: "Chandigarh's sights are spread across a large, sector-grid city — good shoes matter more here than in most compact old towns.",
-      },
-      {
-        name: "Reusable Water Bottle",
-        description:
-          "Sukhna Lake's promenade and the Rock Garden have long uncovered stretches with limited shaded rest points.",
-        price: "₹699",
-        image: "🍶",
-        affiliateUrl: amazonSearchUrl("insulated+water+bottle+steel"),
-        tag: "Everyday essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Summers in Chandigarh get genuinely hot, and open attractions like Sukhna Lake and the Rose Garden offer little shade at midday.",
-      },
-      {
-        name: "Compact Umbrella / Cap",
-        description:
-          "Useful for both intense summer sun and Chandigarh's occasional sharp monsoon showers.",
-        price: "₹399",
-        image: "☂️",
-        affiliateUrl: amazonSearchUrl("compact+travel+umbrella"),
-        tag: "Weather essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "Chandigarh's weather swings from sharp summer heat to sudden monsoon downpours — one item covers both.",
-      },
-      {
-        name: "Daypack",
-        description:
-          "Handy for carrying camera gear, water and layers across a full day covering the Rock Garden, Sukhna Lake, and Sector 17.",
-        price: "₹1,199",
-        image: "🎒",
-        affiliateUrl: amazonSearchUrl("travel+daypack+backpack"),
-        tag: "Sightseeing essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "A day covering Chandigarh's major sights easily runs 5–6 hours on foot or by auto — a light daypack beats carrying loose items.",
-      },
-      {
-        name: "Power Bank (10,000 mAh)",
-        description:
-          "Useful for day trips to Kasauli or Morni Hills, where charging points are sparser than in the city.",
-        price: "₹1,299",
-        image: "🔋",
-        affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
-        tag: "Day-trip essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "If you're combining Chandigarh with a hill day trip, charging infrastructure thins out quickly once you leave the city.",
-      },
-    ],
-  },
 ];
 
 // ── Page ─────────────────────────────────────────────────────────────────────
@@ -586,6 +515,42 @@ export default function ChandigarhGuidePage() {
                       destination.
                     </li>
                   </ul>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/chandigarh/chandigarh/kasauli-hill-town-pine-forest-shivalik.webp"
+                      alt="Pine-forested Shivalik hillside near the colonial-era hill town of Kasauli"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/chandigarh/chandigarh/zakir-hussain-rose-garden-chandigarh.webp"
+                      alt="Rose beds in bloom at the Zakir Hussain Rose Garden, Chandigarh"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/chandigarh/chandigarh/capitol-complex-high-court-le-corbusier-chandigarh.webp"
+                      alt="Le Corbusier's brutalist Punjab and Haryana High Court building at the Capitol Complex, Chandigarh, with its colourful concrete pylons"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/chandigarh/chandigarh/sukhna-lake-boating-promenade-chandigarh.webp"
+                      alt="Pedal boats moored along the promenade at Sukhna Lake, Chandigarh, at dusk"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <div
                     className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-xl my-4 text-sm"
                     style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -600,15 +565,6 @@ export default function ChandigarhGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Things to Do in Chandigarh</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/chandigarh/chandigarh/rock-garden-mosaic-sculptures-chandigarh.webp"
-                      alt="Rows of bangle-and-ceramic mosaic human figures and peacock sculptures on a terraced red-stone wall at the Rock Garden, Chandigarh"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <ul>
                     <li>
                       <strong>Rock Garden:</strong> Nek Chand's sprawling
@@ -622,15 +578,6 @@ export default function ChandigarhGuidePage() {
                       walking, boating, and watching the sunset.
                     </li>
                   </ul>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/chandigarh/chandigarh/sukhna-lake-boating-promenade-chandigarh.webp"
-                      alt="Pedal boats moored along the promenade at Sukhna Lake, Chandigarh, at dusk"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <ul>
                     <li>
                       <strong>Capitol Complex:</strong> Le Corbusier's brutalist
@@ -640,15 +587,6 @@ export default function ChandigarhGuidePage() {
                       Tourism office.
                     </li>
                   </ul>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/chandigarh/chandigarh/capitol-complex-high-court-le-corbusier-chandigarh.webp"
-                      alt="Le Corbusier's brutalist Punjab and Haryana High Court building at the Capitol Complex, Chandigarh, with its colourful concrete pylons"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <ul>
                     <li>
                       <strong>Rose Garden (Zakir Hussain Rose Garden):</strong>{" "}
@@ -656,15 +594,6 @@ export default function ChandigarhGuidePage() {
                       during the annual Rose Festival.
                     </li>
                   </ul>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/chandigarh/chandigarh/zakir-hussain-rose-garden-chandigarh.webp"
-                      alt="Rose beds in bloom at the Zakir Hussain Rose Garden, Chandigarh"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <ul>
                     <li>
                       <strong>Sector 17 Plaza:</strong> The city's central
@@ -698,15 +627,6 @@ export default function ChandigarhGuidePage() {
                       day-trip logistics.
                     </li>
                   </ul>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/chandigarh/chandigarh/kasauli-hill-town-pine-forest-shivalik.webp"
-                      alt="Pine-forested Shivalik hillside near the colonial-era hill town of Kasauli"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <ul>
                     <li>
                       <strong>Morni Hills (~45 km, ~1.5 hrs):</strong> The only
@@ -1236,12 +1156,6 @@ export default function ChandigarhGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              {/* ── Gear Recommendations ──────────────────────────────── */}
-              <TrekGearRecommendations
-                sections={CHANDIGARH_GEAR}
-                destination="Chandigarh"
-              />
 
               <RelatedPostsGrid currentSlug="chandigarh-travel-guide" />
             </article>

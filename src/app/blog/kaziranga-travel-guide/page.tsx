@@ -7,8 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
   title: "Kaziranga National Park Travel Guide: One-Horned Rhino Safari",
@@ -20,9 +19,9 @@ export const metadata: Metadata = {
     title: "Kaziranga National Park Travel Guide: One-Horned Rhino Safari",
     description: "Home to two-thirds of the world's remaining one-horned rhinos, and one of India's most successful wildlife conservation stories — the complete guide to Kaziranga.",
     url: "https://club.kudozz.in/blog/kaziranga-travel-guide", type: "article", siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/ziro/hero.jpg", width: 1200, height: 630, alt: "Grassland and forest landscape representative of Kaziranga National Park, Assam" }],
+    images: [{ url: "/images/blogs/assam/kaziranga/kaziranga-national-park-2.webp", width: 1600, height: 1067, alt: "Kaziranga National Park, Assam" }],
   },
-  twitter: { card: "summary_large_image", title: "Kaziranga National Park Travel Guide: One-Horned Rhino Safari", description: "Two-thirds of the world's one-horned rhinos live here — the complete safari guide to Kaziranga.", images: ["/images/destinations/ziro/hero.jpg"] },
+  twitter: { card: "summary_large_image", title: "Kaziranga National Park Travel Guide: One-Horned Rhino Safari", description: "Two-thirds of the world's one-horned rhinos live here — the complete safari guide to Kaziranga.", images: ["/images/blogs/assam/kaziranga/kaziranga-national-park-2.webp"] },
   alternates: { canonical: "https://club.kudozz.in/blog/kaziranga-travel-guide" },
 };
 
@@ -32,7 +31,7 @@ function ArticleSchema() {
       "@context": "https://schema.org", "@type": "BlogPosting",
       headline: "Kaziranga National Park Travel Guide: One-Horned Rhino Safari",
       description: "The complete Kaziranga travel guide.",
-      image: "https://club.kudozz.in/images/destinations/ziro/hero.jpg",
+      image: "https://club.kudozz.in/images/blogs/assam/kaziranga/kaziranga-national-park-2.webp",
       datePublished: "2026-09-08", dateModified: "2026-09-08",
       publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
       author: { "@type": "Organization", name: "Kudozz Club" },
@@ -79,16 +78,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const KAZIRANGA_GEAR: GearSection[] = [{
-  title: "Things Worth Carrying", subtitle: "Gear for jeep and elephant-back safaris", emoji: "🦏",
-  items: [
-    { name: "Binoculars", description: "For spotting wildlife across Kaziranga's open grassland at distance.", price: "₹1,999",  image: "🔭", affiliateUrl: amazonSearchUrl("binoculars+wildlife+safari"), tag: "Safari essential", tagColor: "bg-amber-100 text-amber-700", why: "Kaziranga's terrain is wide-open grassland — binoculars turn a distant shape into a genuine sighting." },
-    { name: "Telephoto Camera/Lens", description: "For photographing rhinos, elephants, and birdlife at a safe, respectful distance.", price: "₹8,999+",  image: "📷", affiliateUrl: amazonSearchUrl("telephoto+lens+wildlife+photography"), tag: "Photography essential", tagColor: "bg-purple-100 text-purple-700", why: "Kaziranga's rhinos are often visible at a distance that rewards a longer lens." },
-    { name: "Neutral/Khaki Clothing", description: "Standard safari practice for both jeep and elephant-back rides.", price: "₹1,299",  image: "🧥", affiliateUrl: amazonSearchUrl("khaki+safari+clothing+set"), tag: "Safari essential", tagColor: "bg-forest-100 text-forest-700", why: "Bright colors stand out against the park's grassland terrain." },
-    { name: "Warm Layer", description: "Early-morning winter safaris in an open jeep or on elephant-back get genuinely cold.", price: "₹1,999",  image: "🧣", affiliateUrl: amazonSearchUrl("warm+jacket+early+morning+safari"), tag: "Winter-safari essential", tagColor: "bg-sky-100 text-sky-700", why: "Dawn safaris in Dec-Jan are far colder than the daytime temperature suggests." },
-  ],
-}];
-
 export default function KazirangaGuidePage() {
   return (
     <>
@@ -96,7 +85,7 @@ export default function KazirangaGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/ziro/hero.jpg" alt="Grassland and forest landscape representative of Kaziranga National Park, Assam" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/assam/kaziranga/kaziranga-national-park-2.webp" alt="Kaziranga National Park, Assam" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -170,6 +159,7 @@ export default function KazirangaGuidePage() {
 
                 <section id="best-time">
                   <h2>Best Time to Visit Kaziranga</h2>
+                  <GuideFigure src="/images/blogs/assam/kaziranga/kaziranga-national-park-view.webp" alt="Kaziranga National Park, Assam" />
                   <div className="grid sm:grid-cols-2 gap-4 my-6">
                     {[
                       { season: "Nov – Feb", emoji: "☀️", color: "bg-amber-50 border-amber-200", mood: "Best overall — our pick", text: "Cool, dry weather and strong sighting odds across all zones." },
@@ -200,9 +190,6 @@ export default function KazirangaGuidePage() {
 
                 <section id="safari-zones">
                   <h2>Safari Zones & Wildlife</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/ziro/hero.jpg" alt="Grassland safari terrain at Kaziranga" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>Central/Kohora Range:</strong> The most popular and accessible zone, strong rhino sighting odds.</li>
                     <li><strong>Western/Bagori Range:</strong> Another consistently strong zone for rhino and elephant sightings.</li>
@@ -326,7 +313,6 @@ export default function KazirangaGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={KAZIRANGA_GEAR} destination="Kaziranga" />
               <RelatedPostsGrid currentSlug="kaziranga-travel-guide" />
             </article>
             <div className="hidden xl:block w-64 2xl:w-72 flex-shrink-0"><div className="sticky top-24"><RelatedSidebar currentSlug="kaziranga-travel-guide" /></div></div>

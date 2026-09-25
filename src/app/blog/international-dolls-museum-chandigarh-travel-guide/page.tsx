@@ -25,8 +25,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/destinations/chandigarh/hero.jpg",
-        width: 1200,
-        height: 630,
+        width: 2560,
+        height: 1920,
         alt: "A calm lake ringed by hills in Chandigarh, evoking the city's family-friendly attractions including the International Dolls Museum",
       },
     ],
@@ -568,15 +568,6 @@ export default function DollsMuseumGuidePage() {
                     around the world and closer to home.
                   </p>
 
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/chandigarh/hero.jpg"
-                      alt="Chandigarh cityscape, evoking the compact, easy-to-browse displays inside the International Dolls Museum's Bal Bhavan setting"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
 
                   <p>
                     Don't come expecting the scale or curatorial polish of a

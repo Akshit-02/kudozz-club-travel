@@ -25,8 +25,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/destinations/andaman/hero.jpg",
-        width: 1200,
-        height: 630,
+        width: 2560,
+        height: 1707,
         alt: "Calm turquoise water along Long Island's coastline near Lalaji Bay",
       },
     ],
@@ -538,15 +538,6 @@ export default function LongIslandGuidePage() {
                 {/* ── Lalaji Bay ─────────────────────────────────────────── */}
                 <section id="lalaji-bay">
                   <h2>Lalaji Bay Beach</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/andaman/hero.jpg"
-                      alt="Pristine, quiet coastline resembling Lalaji Bay Beach on Long Island"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <p>
                     <strong>Lalaji Bay Beach</strong> is Long Island's main
                     draw — a genuinely pristine, little-visited stretch of

@@ -25,8 +25,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/destinations/spiti-valley/spiti-valley.jpg",
-        width: 1200,
-        height: 630,
+        width: 2560,
+        height: 1920,
         alt: "Dramatic canyon and valley landscape, evoking Laitlum Canyons' sweeping gorge views near Shillong",
       },
     ],
@@ -431,15 +431,6 @@ export default function LaitlumCanyonsGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>The Viewpoint & Sunset</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/spiti-valley/spiti-valley.jpg"
-                      alt="Deep valley and canyon terrain, evoking the view from Laitlum Canyons"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>The Canyon Viewpoint</h3>
                   <p>
                     The main draw at Laitlum is simply the view itself — a

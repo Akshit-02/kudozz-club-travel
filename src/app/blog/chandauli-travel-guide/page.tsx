@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -534,15 +535,6 @@ export default function ChandauliGuidePage() {
                 {/* ── Attractions ────────────────────────────────────────── */}
                 <section id="attractions">
                   <h2>Waterfalls & the Sanctuary</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/uttar-pradesh/chandauli/rajdari-waterfall-chandauli.webp"
-                      alt="Water tumbling down the terraced rock steps of Rajdari Waterfall near Chandauli"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Rajdari Waterfall</h3>
                   <p>
                     The larger and better-known of the two waterfalls,
@@ -553,6 +545,7 @@ export default function ChandauliGuidePage() {
                     good viewing spot.
                   </p>
                   <h3>Devdari Waterfall</h3>
+                  <GuideFigure src="/images/blogs/uttar-pradesh/chandauli/devdari-waterfall-chandauli.webp" alt="Devdari Waterfall, Chandauli" />
                   <p>
                     A short distance from Rajdari, Devdari is quieter and
                     slightly less accessed, making it a good add-on for

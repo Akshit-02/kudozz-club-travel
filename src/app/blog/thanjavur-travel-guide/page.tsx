@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/udaipur/saheliyon.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Ancient stone architecture within a landscaped courtyard, evoking Thanjavur's Brihadeeswarar Temple complex",
+        url: "/images/blogs/tamil-nadu/thanjavur/brihadeeswarar-temple-thanjavur-3.webp",
+        width: 1600,
+        height: 1200,
+        alt: "Brihadeeswarar Temple, Thanjavur",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Thanjavur Travel Guide: Brihadeeswarar Temple",
     description:
       "A UNESCO World Heritage temple, a Maratha-era palace, and a living tradition of gold-leaf painting — the complete Thanjavur guide.",
-    images: ["/images/destinations/udaipur/saheliyon.jpg"],
+    images: ["/images/blogs/tamil-nadu/thanjavur/brihadeeswarar-temple-thanjavur-3.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/thanjavur-travel-guide",
@@ -59,7 +60,7 @@ function ArticleSchema() {
           headline: "Thanjavur Travel Guide: Brihadeeswarar Temple",
           description:
             "Complete Thanjavur guide — the UNESCO-listed Brihadeeswarar Temple, the Maratha Palace, Thanjavur paintings and bronzes, how to reach, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/udaipur/saheliyon.jpg",
+          image: "https://club.kudozz.in/images/blogs/tamil-nadu/thanjavur/brihadeeswarar-temple-thanjavur-3.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -196,8 +197,8 @@ export default function ThanjavurGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/udaipur/saheliyon.jpg"
-              alt="Ancient stone architecture within a landscaped courtyard, evoking Thanjavur's Brihadeeswarar Temple complex"
+              src="/images/blogs/tamil-nadu/thanjavur/brihadeeswarar-temple-thanjavur-3.webp"
+              alt="Brihadeeswarar Temple, Thanjavur"
               fill
               priority
               sizes="100vw"
@@ -513,16 +514,8 @@ export default function ThanjavurGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Temple, Palace & Living Art</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/hampi/virupaksha.jpg"
-                      alt="Carved South Indian temple tower, evoking Thanjavur's Brihadeeswarar Temple vimana"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Brihadeeswarar Temple</h3>
+                  <GuideFigure src="/images/blogs/tamil-nadu/thanjavur/brihadeeswarar-temple-thanjavur-2.webp" alt="Brihadeeswarar Temple, Thanjavur" />
                   <p>
                     The reason to come — a UNESCO World Heritage temple whose
                     scale and precision still impress over a thousand years
@@ -536,6 +529,7 @@ export default function ThanjavurGuidePage() {
                     architectural style to the earlier Chola temple.
                   </p>
                   <h3>Saraswathi Mahal Library</h3>
+                  <GuideFigure src="/images/blogs/tamil-nadu/thanjavur/saraswathi-mahal-library-thanjavur.webp" alt="Saraswathi Mahal Library, Thanjavur" />
                   <p>
                     Housed within the palace complex, home to a significant
                     collection of ancient palm-leaf manuscripts — a quieter,

@@ -25,8 +25,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/destinations/manali/solang-valley.jpg",
-        width: 1200,
-        height: 630,
+        width: 2560,
+        height: 1707,
         alt: "Green pine-forested valley, evoking Daringbadi's cool hill-station landscape in Odisha",
       },
     ],
@@ -523,15 +523,6 @@ export default function DaringbadiGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Pine Forests, Waterfalls & Tribal Life</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/manali/solang-valley.jpg"
-                      alt="Pine forest hillside in Daringbadi, Kandhamal district, Odisha"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Pine Forests & Coffee Plantations</h3>
                   <p>
                     The pine-covered hillsides are the visual heart of

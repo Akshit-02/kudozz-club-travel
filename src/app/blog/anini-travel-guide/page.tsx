@@ -7,10 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -28,10 +24,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/ziro/hero.jpg",
+        url: "/images/blogs/arunachal-pradesh/anini/anini-3.webp",
         width: 1200,
-        height: 630,
-        alt: "Remote forested valley representative of Anini and Dibang Valley, Arunachal Pradesh",
+        height: 812,
+        alt: "Anini, Arunachal Pradesh",
       },
     ],
   },
@@ -40,7 +36,7 @@ export const metadata: Metadata = {
     title: "Anini Travel Guide: India's Least Explored Valley",
     description:
       "One of India's least populated, least visited districts, deep in Arunachal Pradesh's Dibang Valley — the complete guide to Anini.",
-    images: ["/images/destinations/ziro/hero.jpg"],
+    images: ["/images/blogs/arunachal-pradesh/anini/anini-3.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/anini-travel-guide",
@@ -58,7 +54,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Anini Travel Guide: India's Least Explored Valley",
           description: "The complete Anini travel guide.",
-          image: "https://club.kudozz.in/images/destinations/ziro/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/arunachal-pradesh/anini/anini-3.webp",
           datePublished: "2026-09-08",
           dateModified: "2026-09-08",
           publisher: {
@@ -160,72 +156,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-// ── Gear ────────────────────────────────────────────────────────────────────
-const ANINI_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for one of India's most remote, self-sufficient trips",
-    emoji: "🌲",
-    items: [
-      {
-        name: "Warm Layers",
-        description:
-          "Dibang Valley's elevation and forest cover keep temperatures cool year-round, with genuinely cold nights.",
-        price: "₹2,499",
-        image: "🧥",
-        affiliateUrl: amazonSearchUrl("warm+trekking+jacket+layers"),
-        tag: "Non-negotiable",
-        tagColor: "bg-red-100 text-red-700",
-        why: "There is minimal heating infrastructure this deep into the valley — your own layers are the reliable option.",
-      },
-      {
-        name: "Sturdy Footwear",
-        description:
-          "Roads and paths around Anini are unpaved and uneven in stretches, especially after rain.",
-        price: "₹2,499",
-        image: "🥾",
-        affiliateUrl: amazonSearchUrl("trekking+shoes+mountain"),
-        tag: "Trek essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "This is genuinely rugged terrain, not a paved-road destination.",
-      },
-      {
-        name: "Backup Food & Water Supplies",
-        description:
-          "Facilities along the Roing-Anini road are sparse — carrying your own supplies is a sensible precaution, not overkill.",
-        price: "₹—",
-        image: "🎒",
-        affiliateUrl: amazonSearchUrl("dry+food+travel+snacks"),
-        tag: "Remote-route essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "Given the road's unpredictability, a self-sufficient buffer is genuinely important, not optional.",
-      },
-      {
-        name: "Well-Stocked First Aid Kit",
-        description:
-          "The nearest well-equipped hospital is many hours away — a proper kit for cuts, stomach upsets, and minor injuries matters here more than almost anywhere else on this site.",
-        price: "₹799",
-        image: "🩹",
-        affiliateUrl: amazonSearchUrl("comprehensive+first+aid+kit+travel"),
-        tag: "Essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "This is one of the most genuinely remote, self-reliant trips on this entire site.",
-      },
-      {
-        name: "Power Bank (20,000 mAh)",
-        description:
-          "Electricity and network coverage are both inconsistent this far into Dibang Valley.",
-        price: "₹1,799",
-        image: "🔋",
-        affiliateUrl: amazonSearchUrl("power+bank+20000mah+travel"),
-        tag: "Off-grid essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Anini's isolation means charging opportunities are genuinely scarce along the way.",
-      },
-    ],
-  },
-];
-
 // ── Page ─────────────────────────────────────────────────────────────────────
 export default function AniniGuidePage() {
   return (
@@ -239,8 +169,8 @@ export default function AniniGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/ziro/hero.jpg"
-              alt="Remote forested valley representative of Anini and Dibang Valley, Arunachal Pradesh"
+              src="/images/blogs/arunachal-pradesh/anini/anini-3.webp"
+              alt="Anini, Arunachal Pradesh"
               fill
               priority
               sizes="100vw"
@@ -484,15 +414,6 @@ export default function AniniGuidePage() {
 
                 <section id="things-to-do">
                   <h2>Things to Do in Anini</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/ziro/hero.jpg"
-                      alt="Forest and valley scenery around Anini and Dibang Valley"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <ul>
                     <li>
                       <strong>Idu Mishmi villages:</strong> Genuine, unhurried
@@ -750,8 +671,6 @@ export default function AniniGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              <TrekGearRecommendations sections={ANINI_GEAR} destination="Anini" />
 
               <RelatedPostsGrid currentSlug="anini-travel-guide" />
             </article>

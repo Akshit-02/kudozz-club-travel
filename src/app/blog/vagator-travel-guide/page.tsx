@@ -7,8 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuidePhotoRow } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
   title: "Vagator Beach Travel Guide: Red Cliffs & Chapora Fort",
@@ -20,9 +19,9 @@ export const metadata: Metadata = {
     title: "Vagator Beach Travel Guide: Red Cliffs & Chapora Fort",
     description: "Red laterite cliffs dropping into the Arabian Sea, beside the fort that made a cameo in every Goa road-trip photo since Dil Chahta Hai — the complete guide to Vagator.",
     url: "https://club.kudozz.in/blog/vagator-travel-guide", type: "article", siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/jaisalmer/fort.jpg", width: 1200, height: 630, alt: "Hilltop fort and coastal cliffs representative of Vagator, Goa" }],
+    images: [{ url: "/images/blogs/goa/vagator/vagator-beach.webp", width: 1600, height: 1067, alt: "Vagator Beach, Goa" }],
   },
-  twitter: { card: "summary_large_image", title: "Vagator Beach Travel Guide: Red Cliffs & Chapora Fort", description: "Red cliffs and Chapora Fort's famous sunset views — the complete guide to Vagator.", images: ["/images/destinations/jaisalmer/fort.jpg"] },
+  twitter: { card: "summary_large_image", title: "Vagator Beach Travel Guide: Red Cliffs & Chapora Fort", description: "Red cliffs and Chapora Fort's famous sunset views — the complete guide to Vagator.", images: ["/images/blogs/goa/vagator/vagator-beach.webp"] },
   alternates: { canonical: "https://club.kudozz.in/blog/vagator-travel-guide" },
 };
 
@@ -32,7 +31,7 @@ function ArticleSchema() {
       "@context": "https://schema.org", "@type": "BlogPosting",
       headline: "Vagator Beach Travel Guide: Red Cliffs & Chapora Fort",
       description: "The complete Vagator travel guide.",
-      image: "https://club.kudozz.in/images/destinations/jaisalmer/fort.jpg",
+      image: "https://club.kudozz.in/images/blogs/goa/vagator/vagator-beach.webp",
       datePublished: "2026-09-08", dateModified: "2026-09-08",
       publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
       author: { "@type": "Organization", name: "Kudozz Club" },
@@ -79,16 +78,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const VAGATOR_GEAR: GearSection[] = [{
-  title: "Things Worth Carrying", subtitle: "Gear for the cliffs, the fort, and the beach", emoji: "🏰",
-  items: [
-    { name: "Comfortable Walking Shoes", description: "For the climb up to Chapora Fort and walking between Big and Little Vagator.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Sightseeing essential", tagColor: "bg-amber-100 text-amber-700", why: "The fort approach and cliff paths are uneven, unlike flat beach sand." },
-    { name: "Sun Hat & Sunglasses", description: "For the exposed fort viewpoint and beach time, both with little shade.", price: "₹499",  image: "🧢", affiliateUrl: amazonSearchUrl("sun+hat+travel+outdoor"), tag: "Beach essential", tagColor: "bg-sky-100 text-sky-700", why: "Chapora Fort's hilltop has minimal shade during the day." },
-    { name: "Camera", description: "For Chapora Fort's sunset views over the coastline — genuinely one of North Goa's best photo spots.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sunset essential", tagColor: "bg-purple-100 text-purple-700", why: "This is one of the most photographed viewpoints in Goa for good reason." },
-    { name: "Waterproof Phone Pouch", description: "For swimming at Big or Little Vagator without worrying about a dropped phone.", price: "₹299",  image: "📱", affiliateUrl: amazonSearchUrl("waterproof+phone+pouch+beach"), tag: "Beach essential", tagColor: "bg-forest-100 text-forest-700", why: "A cheap pouch beats an expensive phone repair." },
-  ],
-}];
-
 export default function VagatorGuidePage() {
   return (
     <>
@@ -96,7 +85,7 @@ export default function VagatorGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/jaisalmer/fort.jpg" alt="Hilltop fort and coastal cliffs representative of Vagator, Goa" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/goa/vagator/vagator-beach.webp" alt="Vagator Beach, Goa" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -205,15 +194,18 @@ export default function VagatorGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do in Vagator</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/jaisalmer/fort.jpg" alt="Chapora Fort and coastal views at Vagator" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>Chapora Fort:</strong> A Portuguese-era hilltop fort, made famous by Dil Chahta Hai, and one of North Goa's best sunset viewpoints.</li>
                     <li><strong>Big Vagator Beach:</strong> The main beach, with shacks and beach activity beneath the red cliffs.</li>
                     <li><strong>Little Vagator (Ozran) Beach:</strong> A smaller, calmer cove reached via a short walk.</li>
                     <li><strong>Vagator's party scene:</strong> An active, if calmer than Baga's, nightlife thread tied to the area's psy-trance heritage.</li>
                   </ul>
+                  <GuidePhotoRow
+                    images={[
+                      { src: "/images/blogs/goa/vagator/chapora-fort-vagator-beach.webp", alt: "Chapora Fort, Vagator Beach", caption: "Chapora Fort, Vagator Beach" },
+                      { src: "/images/blogs/goa/vagator/little-vagator-beach.webp", alt: "Little Vagator Beach, Goa", caption: "Little Vagator Beach, Goa" },
+                    ]}
+                  />
                 </section>
 
                 <section id="where-to-stay">
@@ -327,7 +319,6 @@ export default function VagatorGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={VAGATOR_GEAR} destination="Vagator" />
               <RelatedPostsGrid currentSlug="vagator-travel-guide" />
             </article>
             <div className="hidden xl:block w-64 2xl:w-72 flex-shrink-0"><div className="sticky top-24"><RelatedSidebar currentSlug="vagator-travel-guide" /></div></div>

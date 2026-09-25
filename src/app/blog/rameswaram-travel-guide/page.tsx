@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -543,6 +544,7 @@ export default function RameswaramGuidePage() {
                     water.
                   </p>
                   <h3>Dhanushkodi</h3>
+                  <GuideFigure src="/images/blogs/tamil-nadu/rameswaram/dhanushkodi-rameswaram.webp" alt="Dhanushkodi, Rameswaram" />
                   <p>
                     A ghost town near the island's tip, largely destroyed by
                     a 1964 cyclone and never fully rebuilt. Today it's a

@@ -7,10 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -29,8 +25,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/destinations/spiti-valley/spiti-valley.jpg",
-        width: 1200,
-        height: 630,
+        width: 2560,
+        height: 1920,
         alt: "Sandstone rock outcrops, representative of the Bhimbetka Rock Shelters, Madhya Pradesh",
       },
     ],
@@ -145,67 +141,6 @@ const tableOfContents = [
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
-];
-
-const BHIMBETKA_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for a rocky, uneven prehistoric-art trail",
-    emoji: "🎨",
-    items: [
-      {
-        name: "Sturdy Trekking/Walking Shoes",
-        description:
-          "The developed trail winds over natural rock surfaces and uneven stone steps between shelters — this is not a paved museum walkway.",
-        price: "₹1,499",
-        image: "🥾",
-        affiliateUrl: amazonSearchUrl("sturdy+trekking+walking+shoes"),
-        tag: "Trail essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "Loose gravel and natural rock surfaces on the trail make good grip genuinely important, unlike a typical paved heritage site.",
-      },
-      {
-        name: "Wide-Brim Sun Hat",
-        description: "Large stretches of the trail between rock shelters are exposed to direct sun with little tree cover.",
-        price: "₹399",
-        image: "👒",
-        affiliateUrl: amazonSearchUrl("wide+brim+sun+hat+travel"),
-        tag: "Sun essential",
-        tagColor: "bg-orange-100 text-orange-700",
-        why: "The rocky outcrop terrain offers patchy shade at best across the walking trail.",
-      },
-      {
-        name: "Camera with Good Zoom",
-        description: "The paintings sit at varying heights inside shelter overhangs — a zoom lens captures detail without needing to get too close.",
-        price: "₹—",
-        image: "📷",
-        affiliateUrl: amazonSearchUrl("mirrorless+camera+zoom+lens+travel"),
-        tag: "Photography essential",
-        tagColor: "bg-stone-100 text-stone-700",
-        why: "Fine painting detail is easy to miss at a distance without a zoom, and flash may be restricted near the art.",
-      },
-      {
-        name: "1L Water Bottle",
-        description: "There are no shops or refreshment stalls along the walking trail itself.",
-        price: "₹349",
-        image: "💧",
-        affiliateUrl: amazonSearchUrl("1l+water+bottle+travel"),
-        tag: "Trail essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Once you're on the rock-shelter trail, there's no way to buy water until you're back at the entrance.",
-      },
-      {
-        name: "Trekking Pole (optional)",
-        description: "Useful for anyone less confident on uneven rock surfaces, particularly on the steeper connecting sections of trail.",
-        price: "₹699",
-        image: "🦯",
-        affiliateUrl: amazonSearchUrl("trekking+pole+lightweight"),
-        tag: "Comfort essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "Some sections of the trail have a genuine incline over irregular rock — a pole adds stability for less confident walkers.",
-      },
-    ],
-  },
 ];
 
 // ── Page ─────────────────────────────────────────────────────────────────────
@@ -407,15 +342,6 @@ export default function BhimbetkaGuidePage() {
 
                 <section id="attractions">
                   <h2>What You'll See at Bhimbetka</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/spiti-valley/spiti-valley.jpg"
-                      alt="Rocky sandstone terrain representative of the Bhimbetka trail"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <ul>
                     <li>
                       <strong>The developed walking trail:</strong> A marked
@@ -583,8 +509,6 @@ export default function BhimbetkaGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              <TrekGearRecommendations sections={BHIMBETKA_GEAR} destination="Bhimbetka" />
 
               <RelatedPostsGrid currentSlug="bhimbetka-travel-guide" />
             </article>

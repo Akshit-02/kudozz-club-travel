@@ -3,9 +3,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import SiteHeader from "@/components/layout/SiteHeader";
 import { RelatedPostsGrid, RelatedSidebar } from "@/components/ui/RelatedPosts";
 import TableOfContents from "@/components/ui/TableOfContents";
-import TrekGearRecommendations, {
-  FOREST_GEAR,
-} from "@/components/ui/TrekGearRecommendations";
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
@@ -28,10 +25,10 @@ export const metadata: Metadata = {
     authors: ["Kudozz Club"],
     images: [
       {
-        url: "/images/destinations/meghalaya/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Double-decker living root bridge in Meghalaya's rainforest",
+        url: "/images/blogs/meghalaya/meghalaya/meghalaya.webp",
+        width: 1600,
+        height: 1200,
+        alt: "View of Meghalaya",
       },
     ],
   },
@@ -44,7 +41,7 @@ export const metadata: Metadata = {
     title: "Meghalaya Travel Guide",
     description:
       "Living root bridges, Cherrapunji waterfalls, and the cleanest river in Asia — everything you need to plan your Meghalaya trip.",
-    images: ["/images/destinations/meghalaya/hero.jpg"],
+    images: ["/images/blogs/meghalaya/meghalaya/meghalaya.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/meghalaya-travel-guide",
@@ -65,7 +62,7 @@ function ArticleSchema() {
           description:
             "The complete Meghalaya travel guide — living root bridges, Cherrapunji waterfalls, Dawki river, Shillong cafes, itinerary and insider tips.",
           image:
-            "https://club.kudozz.in/images/destinations/meghalaya/hero.jpg",
+            "https://club.kudozz.in/images/blogs/meghalaya/meghalaya/meghalaya.webp",
           datePublished: "2026-07-12",
           dateModified: "2026-07-12",
           publisher: {
@@ -212,8 +209,8 @@ export default function MeghalayaPage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/meghalaya/hero.jpg"
-              alt="Double-decker living root bridge over a river in Meghalaya's rainforest"
+              src="/images/blogs/meghalaya/meghalaya/meghalaya.webp"
+              alt="View of Meghalaya"
               fill
               priority
               sizes="100vw"
@@ -678,8 +675,8 @@ export default function MeghalayaPage() {
                     <h3>Dawki & the Umngot River</h3>
                     <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                       <Image
-                        src="/images/destinations/meghalaya/dawki-river.jpg"
-                        alt="Boat floating on the crystal-clear Umngot River at Dawki, Meghalaya"
+                        src="/images/blogs/meghalaya/meghalaya/dawki-and-the-umngot-river-meghalaya.webp"
+                        alt="Dawki & the Umngot River, Meghalaya"
                         fill
                         sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                         className="object-cover"
@@ -1290,17 +1287,6 @@ export default function MeghalayaPage() {
                   </Link>
                 ))}
               </div>
-
-              <TrekGearRecommendations
-                sections={[
-                  {
-                    ...FOREST_GEAR[0],
-                    subtitle:
-                      "Gear for the root bridge trek, riverside camping, and Meghalaya's unpredictable rain",
-                  },
-                ]}
-                destination="Meghalaya"
-              />
 
               {/* Related Posts Grid */}
               <RelatedPostsGrid currentSlug="meghalaya-travel-guide" />

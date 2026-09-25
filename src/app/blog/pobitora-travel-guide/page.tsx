@@ -7,8 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Pobitora Wildlife Sanctuary Travel Guide: Highest Rhino Density on Earth",
@@ -20,9 +18,9 @@ export const metadata: Metadata = {
     title: "Pobitora Wildlife Sanctuary Travel Guide: Highest Rhino Density on Earth",
     description: "A small sanctuary packing the highest density of one-horned rhinos found anywhere in the world, close enough to Guwahati for a day safari — the complete guide to Pobitora.",
     url: "https://club.kudozz.in/blog/pobitora-travel-guide", type: "article", siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/kerala/hero.jpg", width: 1200, height: 630, alt: "Grassland and marsh landscape representative of Pobitora Wildlife Sanctuary, Assam" }],
+    images: [{ url: "/images/blogs/assam/pobitora/pobitora-wildlife-sanctuary.webp", width: 1600, height: 1056, alt: "Pobitora Wildlife Sanctuary, Assam" }],
   },
-  twitter: { card: "summary_large_image", title: "Pobitora Wildlife Sanctuary Travel Guide: Highest Rhino Density on Earth", description: "The world's highest one-horned rhino density, a short drive from Guwahati — the complete guide to Pobitora.", images: ["/images/destinations/kerala/hero.jpg"] },
+  twitter: { card: "summary_large_image", title: "Pobitora Wildlife Sanctuary Travel Guide: Highest Rhino Density on Earth", description: "The world's highest one-horned rhino density, a short drive from Guwahati — the complete guide to Pobitora.", images: ["/images/blogs/assam/pobitora/pobitora-wildlife-sanctuary.webp"] },
   alternates: { canonical: "https://club.kudozz.in/blog/pobitora-travel-guide" },
 };
 
@@ -32,7 +30,7 @@ function ArticleSchema() {
       "@context": "https://schema.org", "@type": "BlogPosting",
       headline: "Pobitora Wildlife Sanctuary Travel Guide: Highest Rhino Density on Earth",
       description: "The complete Pobitora Wildlife Sanctuary travel guide.",
-      image: "https://club.kudozz.in/images/destinations/kerala/hero.jpg",
+      image: "https://club.kudozz.in/images/blogs/assam/pobitora/pobitora-wildlife-sanctuary.webp",
       datePublished: "2026-09-08", dateModified: "2026-09-08",
       publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
       author: { "@type": "Organization", name: "Kudozz Club" },
@@ -79,16 +77,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const POBITORA_GEAR: GearSection[] = [{
-  title: "Things Worth Carrying", subtitle: "Gear for a quick rhino safari from Guwahati", emoji: "🦏",
-  items: [
-    { name: "Neutral/Khaki Clothing", description: "Standard safari practice — neutral tones are less disruptive to wildlife on the open grassland.", price: "₹1,299",  image: "🧥", affiliateUrl: amazonSearchUrl("khaki+safari+clothing+set"), tag: "Safari essential", tagColor: "bg-amber-100 text-amber-700", why: "Bright colors stand out sharply against Pobitora's open marsh-grassland terrain." },
-    { name: "Binoculars", description: "For a closer look at rhinos and birdlife across the sanctuary's marshy grassland (beel) terrain.", price: "₹1,999",  image: "🔭", affiliateUrl: amazonSearchUrl("binoculars+wildlife+safari"), tag: "Safari essential", tagColor: "bg-forest-100 text-forest-700", why: "Even with high rhino density, a closer look rewards proper optics." },
-    { name: "Telephoto Camera / Lens", description: "For photographing rhinos and birdlife at a safe, respectful distance.", price: "₹8,999+",  image: "📷", affiliateUrl: amazonSearchUrl("telephoto+lens+wildlife+photography"), tag: "Photography essential", tagColor: "bg-purple-100 text-purple-700", why: "A longer lens gets you usable rhino shots without disturbing the animals." },
-    { name: "Sun Hat & Sunscreen", description: "Jeep and elephant safaris both mean extended sun exposure across open grassland.", price: "₹599",  image: "🧴", affiliateUrl: amazonSearchUrl("sun+hat+sunscreen+travel"), tag: "Safari essential", tagColor: "bg-sky-100 text-sky-700", why: "There's minimal shade across most of the sanctuary's open terrain." },
-  ],
-}];
-
 export default function PobitoraGuidePage() {
   return (
     <>
@@ -96,7 +84,7 @@ export default function PobitoraGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/kerala/hero.jpg" alt="Grassland and marsh landscape representative of Pobitora Wildlife Sanctuary, Assam" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/assam/pobitora/pobitora-wildlife-sanctuary.webp" alt="Pobitora Wildlife Sanctuary, Assam" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -199,9 +187,6 @@ export default function PobitoraGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Safaris & Wildlife</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/kerala/hero.jpg" alt="Marsh grassland scenery at Pobitora Wildlife Sanctuary" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>One-horned rhinos:</strong> The sanctuary's headline draw, with genuinely excellent sighting odds given the high density.</li>
                     <li><strong>Jeep safaris:</strong> The standard way to explore the sanctuary's marshy grassland terrain.</li>
@@ -321,7 +306,6 @@ export default function PobitoraGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={POBITORA_GEAR} destination="Pobitora" />
               <RelatedPostsGrid currentSlug="pobitora-travel-guide" />
             </article>
             <div className="hidden xl:block w-64 2xl:w-72 flex-shrink-0"><div className="sticky top-24"><RelatedSidebar currentSlug="pobitora-travel-guide" /></div></div>

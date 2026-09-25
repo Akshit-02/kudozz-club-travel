@@ -7,8 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
   title: "Sela Pass Travel Guide: One of India's Highest Motorable Passes",
@@ -21,9 +20,9 @@ export const metadata: Metadata = {
     description: "A high-altitude pass ringed by a sacred lake and hundreds of smaller frozen ponds, on the only road connecting Tawang to the rest of India — the complete guide to Sela Pass.",
     url: "https://club.kudozz.in/blog/sela-pass-travel-guide",
     type: "article", siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/leh-ladakh/leh-ladakh.jpg", width: 1200, height: 630, alt: "High-altitude mountain pass and lake representative of Sela Pass, Arunachal Pradesh" }],
+    images: [{ url: "/images/blogs/arunachal-pradesh/sela-pass/sela-pass-view.webp", width: 1200, height: 675, alt: "Sela Pass, Arunachal Pradesh" }],
   },
-  twitter: { card: "summary_large_image", title: "Sela Pass Travel Guide: One of India's Highest Motorable Passes", description: "A sacred high-altitude pass on the road to Tawang — the complete guide to Sela Pass.", images: ["/images/destinations/leh-ladakh/leh-ladakh.jpg"] },
+  twitter: { card: "summary_large_image", title: "Sela Pass Travel Guide: One of India's Highest Motorable Passes", description: "A sacred high-altitude pass on the road to Tawang — the complete guide to Sela Pass.", images: ["/images/blogs/arunachal-pradesh/sela-pass/sela-pass-view.webp"] },
   alternates: { canonical: "https://club.kudozz.in/blog/sela-pass-travel-guide" },
 };
 
@@ -33,7 +32,7 @@ function ArticleSchema() {
       "@context": "https://schema.org", "@type": "BlogPosting",
       headline: "Sela Pass Travel Guide: One of India's Highest Motorable Passes",
       description: "The complete Sela Pass travel guide.",
-      image: "https://club.kudozz.in/images/destinations/leh-ladakh/leh-ladakh.jpg",
+      image: "https://club.kudozz.in/images/blogs/arunachal-pradesh/sela-pass/sela-pass-view.webp",
       datePublished: "2026-09-08", dateModified: "2026-09-08",
       publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
       author: { "@type": "Organization", name: "Kudozz Club" },
@@ -80,16 +79,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const SELA_GEAR: GearSection[] = [{
-  title: "Things Worth Carrying", subtitle: "Gear for a high-altitude pass crossing", emoji: "⛰️",
-  items: [
-    { name: "Heavy Warm Layers", description: "Sela Pass is genuinely cold year-round, not just in winter — proper insulation is essential even for a brief stop.", price: "₹3,999",  image: "🧥", affiliateUrl: amazonSearchUrl("heavy+winter+jacket+high+altitude"), tag: "Non-negotiable", tagColor: "bg-red-100 text-red-700", why: "Even a short stop at the pass exposes you to genuinely harsh wind chill at this altitude." },
-    { name: "Sturdy Footwear", description: "For walking around Sela Lake and the pass area, which can be icy or slushy depending on season.", price: "₹2,999",  image: "🥾", affiliateUrl: amazonSearchUrl("sturdy+winter+boots+trekking"), tag: "Trip essential", tagColor: "bg-amber-100 text-amber-700", why: "The ground around the pass and lake is often uneven, icy, or wet." },
-    { name: "High-SPF Sunscreen", description: "High-altitude sun at Sela Pass is deceptively intense even in cold, cloudy weather.", price: "₹599",  image: "🧴", affiliateUrl: amazonSearchUrl("high+spf+sunscreen+travel"), tag: "Altitude essential", tagColor: "bg-sky-100 text-sky-700", why: "Sunburn at this altitude happens fast, even when the air feels cold." },
-    { name: "Motion Sickness Medication", description: "The winding mountain roads leading to and from the pass can be genuinely nausea-inducing for some travelers.", price: "₹99",  image: "💊", affiliateUrl: amazonSearchUrl("motion+sickness+tablets+travel"), tag: "Road-trip essential", tagColor: "bg-purple-100 text-purple-700", why: "The approach roads have many tight switchbacks — worth being prepared if you're prone to motion sickness." },
-  ],
-}];
-
 export default function SelaPassGuidePage() {
   return (
     <>
@@ -97,7 +86,9 @@ export default function SelaPassGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/leh-ladakh/leh-ladakh.jpg" alt="High-altitude mountain pass and lake representative of Sela Pass, Arunachal Pradesh" fill priority sizes="100vw" className="object-cover" />
+            <Image
+              src="/images/blogs/arunachal-pradesh/sela-pass/sela-pass-view.webp"
+              alt="Sela Pass, Arunachal Pradesh" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -202,9 +193,6 @@ export default function SelaPassGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to See at Sela Pass</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/leh-ladakh/leh-ladakh.jpg" alt="Mountain lake scenery near Sela Pass" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>Sela Lake:</strong> A sacred lake right at the pass, tied to local legend, and a genuinely photogenic centrepiece of the crossing.</li>
                     <li><strong>Smaller surrounding lakes:</strong> Dozens of smaller ponds dot the high-altitude landscape around the pass.</li>
@@ -292,7 +280,6 @@ export default function SelaPassGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={SELA_GEAR} destination="Sela Pass" />
               <RelatedPostsGrid currentSlug="sela-pass-travel-guide" />
             </article>
             <div className="hidden xl:block w-64 2xl:w-72 flex-shrink-0"><div className="sticky top-24"><RelatedSidebar currentSlug="sela-pass-travel-guide" /></div></div>

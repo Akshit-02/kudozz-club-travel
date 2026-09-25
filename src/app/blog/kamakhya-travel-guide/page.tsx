@@ -7,8 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
   title: "Kamakhya Temple Travel Guide: Shakti Peetha & Ambubachi Mela",
@@ -20,9 +19,9 @@ export const metadata: Metadata = {
     title: "Kamakhya Temple Travel Guide: Shakti Peetha & Ambubachi Mela",
     description: "One of the most powerful Shakti Peethas in Hindu tradition, hosting an annual fertility festival unlike any other temple gathering in India — the complete guide to Kamakhya Temple.",
     url: "https://club.kudozz.in/blog/kamakhya-travel-guide", type: "article", siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/jaisalmer/hero.jpg", width: 1200, height: 630, alt: "Hilltop temple architecture representative of Kamakhya Temple, Guwahati" }],
+    images: [{ url: "/images/blogs/assam/kamakhya/kamakhya-temple.webp", width: 1600, height: 900, alt: "Kamakhya Temple, Assam" }],
   },
-  twitter: { card: "summary_large_image", title: "Kamakhya Temple Travel Guide: Shakti Peetha & Ambubachi Mela", description: "A major Shakti Peetha and centre of Tantric worship on Nilachal Hill — the complete guide to Kamakhya Temple.", images: ["/images/destinations/jaisalmer/hero.jpg"] },
+  twitter: { card: "summary_large_image", title: "Kamakhya Temple Travel Guide: Shakti Peetha & Ambubachi Mela", description: "A major Shakti Peetha and centre of Tantric worship on Nilachal Hill — the complete guide to Kamakhya Temple.", images: ["/images/blogs/assam/kamakhya/kamakhya-temple.webp"] },
   alternates: { canonical: "https://club.kudozz.in/blog/kamakhya-travel-guide" },
 };
 
@@ -32,7 +31,7 @@ function ArticleSchema() {
       "@context": "https://schema.org", "@type": "BlogPosting",
       headline: "Kamakhya Temple Travel Guide: Shakti Peetha & Ambubachi Mela",
       description: "The complete Kamakhya Temple travel guide.",
-      image: "https://club.kudozz.in/images/destinations/jaisalmer/hero.jpg",
+      image: "https://club.kudozz.in/images/blogs/assam/kamakhya/kamakhya-temple.webp",
       datePublished: "2026-09-08", dateModified: "2026-09-08",
       publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
       author: { "@type": "Organization", name: "Kudozz Club" },
@@ -79,16 +78,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const KAMAKHYA_GEAR: GearSection[] = [{
-  title: "Things Worth Carrying", subtitle: "Gear for a temple visit on Nilachal Hill", emoji: "🛕",
-  items: [
-    { name: "Modest Cotton Clothing", description: "Standard, respectful attire for visiting an active, deeply significant Hindu temple.", price: "₹599",  image: "👕", affiliateUrl: amazonSearchUrl("modest+travel+clothing"), tag: "Temple essential", tagColor: "bg-purple-100 text-purple-700", why: "Kamakhya is a major active pilgrimage site — modest dress is expected of every visitor." },
-    { name: "Comfortable Walking Shoes", description: "For the hill climb/steps and walking between Kamakhya and its subsidiary shrines.", price: "₹1,999",  image: "🥾", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Hill-climb essential", tagColor: "bg-amber-100 text-amber-700", why: "Nilachal Hill involves genuine elevation gain between the temple complex's various shrines." },
-    { name: "Small Bag for Shoes/Valuables", description: "Shoes are removed before entering the temple — a small bag keeps them secure while you're inside.", price: "₹299",  image: "🎒", affiliateUrl: amazonSearchUrl("small+travel+pouch+bag"), tag: "Temple essential", tagColor: "bg-sky-100 text-sky-700", why: "Shoe storage at busy temples can be inconsistent — carrying your own bag is a simple, reliable workaround." },
-    { name: "Reusable Water Bottle", description: "Useful for the queue and hill walk, especially in warmer months.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "Queue essential", tagColor: "bg-forest-100 text-forest-700", why: "Weekend and festival queues can run long — staying hydrated matters." },
-  ],
-}];
-
 export default function KamakhyaGuidePage() {
   return (
     <>
@@ -96,7 +85,7 @@ export default function KamakhyaGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/jaisalmer/hero.jpg" alt="Hilltop temple architecture representative of Kamakhya Temple, Guwahati" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/assam/kamakhya/kamakhya-temple.webp" alt="Kamakhya Temple, Assam" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -199,9 +188,7 @@ export default function KamakhyaGuidePage() {
 
                 <section id="top-attractions">
                   <h2>What to See at Kamakhya</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/jaisalmer/hero.jpg" alt="Temple architecture representative of Kamakhya Temple" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
+                  <GuideFigure src="/images/blogs/assam/kamakhya/kamakhya-temple-view.webp" alt="Kamakhya Temple, Assam" />
                   <ul>
                     <li><strong>The main temple complex:</strong> Notable for its beehive-shaped shikhara, a style associated with Assamese/Nilachal temple architecture.</li>
                     <li><strong>The inner sanctum:</strong> Centres on a natural rock formation rather than a conventional idol — a genuinely distinctive worship tradition.</li>
@@ -322,7 +309,6 @@ export default function KamakhyaGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={KAMAKHYA_GEAR} destination="Kamakhya Temple" />
               <RelatedPostsGrid currentSlug="kamakhya-travel-guide" />
             </article>
             <div className="hidden xl:block w-64 2xl:w-72 flex-shrink-0"><div className="sticky top-24"><RelatedSidebar currentSlug="kamakhya-travel-guide" /></div></div>

@@ -7,8 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuidePhotoRow } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
   title: "Mandvi Travel Guide: Beach, Shipbuilding Yards & Vijay Vilas Palace",
@@ -21,9 +20,9 @@ export const metadata: Metadata = {
     description: "A Kutch coastal town where wooden cargo ships are still built by hand on the beach, beside a Rajasthani-style seaside palace — the complete guide to Mandvi.",
     url: "https://club.kudozz.in/blog/mandvi-travel-guide",
     type: "article", siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/goa/beach.jpg", width: 1200, height: 630, alt: "Coastal beach scenery representative of Mandvi, Gujarat" }],
+    images: [{ url: "/images/blogs/gujarat/mandvi/mandvi.webp", width: 1600, height: 1071, alt: "View of Mandvi, Gujarat" }],
   },
-  twitter: { card: "summary_large_image", title: "Mandvi Travel Guide: Beach, Shipbuilding Yards & Vijay Vilas Palace", description: "Wooden shipbuilding yards and a seaside Rajasthani palace — the complete guide to Mandvi.", images: ["/images/destinations/goa/beach.jpg"] },
+  twitter: { card: "summary_large_image", title: "Mandvi Travel Guide: Beach, Shipbuilding Yards & Vijay Vilas Palace", description: "Wooden shipbuilding yards and a seaside Rajasthani palace — the complete guide to Mandvi.", images: ["/images/blogs/gujarat/mandvi/mandvi.webp"] },
   alternates: { canonical: "https://club.kudozz.in/blog/mandvi-travel-guide" },
 };
 
@@ -33,7 +32,7 @@ function ArticleSchema() {
       "@context": "https://schema.org", "@type": "BlogPosting",
       headline: "Mandvi Travel Guide: Beach, Shipbuilding Yards & Vijay Vilas Palace",
       description: "The complete Mandvi travel guide.",
-      image: "https://club.kudozz.in/images/destinations/goa/beach.jpg",
+      image: "https://club.kudozz.in/images/blogs/gujarat/mandvi/mandvi.webp",
       datePublished: "2026-09-07", dateModified: "2026-09-07",
       publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
       author: { "@type": "Organization", name: "Kudozz Club" },
@@ -80,16 +79,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const MANDVI_GEAR: GearSection[] = [{
-  title: "Things Worth Carrying", subtitle: "Gear for the beach, palace, and shipyards", emoji: "⛵",
-  items: [
-    { name: "Sun Hat & Sunglasses", description: "Coastal Kutch sun is intense, especially around the exposed beach and shipyard areas.", price: "₹499",  image: "🧢", affiliateUrl: amazonSearchUrl("sun+hat+travel+outdoor"), tag: "Beach essential", tagColor: "bg-amber-100 text-amber-700", why: "There's little shade around the shipyards and beach, and afternoons get intense." },
-    { name: "Reef-Safe Sunscreen", description: "Strong sun protection for beach time and outdoor sightseeing.", price: "₹599",  image: "🧴", affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+SPF+50"), tag: "Beach essential", tagColor: "bg-sky-100 text-sky-700", why: "Sunburn is a common regret for travelers underestimating Kutch coastal sun." },
-    { name: "Comfortable Walking Shoes", description: "For exploring the shipyards, palace grounds, and beach walks.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-forest-100 text-forest-700", why: "A full day covering the shipyards and palace grounds adds up in walking distance." },
-    { name: "Camera", description: "The shipbuilding yards and Vijay Vilas Palace are both genuinely photogenic.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-purple-100 text-purple-700", why: "Few places in India let you photograph a working traditional shipyard up close." },
-  ],
-}];
-
 export default function MandviGuidePage() {
   return (
     <>
@@ -97,7 +86,7 @@ export default function MandviGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/goa/beach.jpg" alt="Coastal beach scenery representative of Mandvi, Gujarat" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/gujarat/mandvi/mandvi.webp" alt="View of Mandvi, Gujarat" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -201,15 +190,18 @@ export default function MandviGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do in Mandvi</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/goa/beach.jpg" alt="Coastal scenery around Mandvi" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>Shipbuilding yards:</strong> Watch traditional wooden cargo ships being built by hand — a genuinely rare, living craft tradition, best seen in the morning when work is most active.</li>
                     <li><strong>Mandvi Beach:</strong> A relatively clean, uncrowded stretch of Kutch coastline, good for a relaxed visit.</li>
                     <li><strong>Vijay Vilas Palace:</strong> A Rajasthani-style seaside palace with notable architecture, used as a filming location for several Bollywood productions.</li>
                     <li><strong>Old port town walks:</strong> Mandvi's historic role in maritime trade with East Africa and the Arabian Gulf is still visible in its old town layout.</li>
                   </ul>
+                  <GuidePhotoRow
+                    images={[
+                      { src: "/images/blogs/gujarat/mandvi/mandvi-beach-2.webp", alt: "Mandvi Beach, Gujarat", caption: "Mandvi Beach, Gujarat" },
+                      { src: "/images/blogs/gujarat/mandvi/vijay-vilas-palace-mandvi.webp", alt: "Vijay Vilas Palace, Mandvi", caption: "Vijay Vilas Palace, Mandvi" },
+                    ]}
+                  />
                 </section>
 
                 <section id="where-to-stay">
@@ -326,7 +318,6 @@ export default function MandviGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={MANDVI_GEAR} destination="Mandvi" />
               <RelatedPostsGrid currentSlug="mandvi-travel-guide" />
             </article>
             <div className="hidden xl:block w-64 2xl:w-72 flex-shrink-0"><div className="sticky top-24"><RelatedSidebar currentSlug="mandvi-travel-guide" /></div></div>

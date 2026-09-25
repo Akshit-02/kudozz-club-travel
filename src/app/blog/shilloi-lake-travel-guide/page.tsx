@@ -24,10 +24,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/meghalaya/dawki-river.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Clear water surrounded by forested hills, evoking the remote setting of Shilloi Lake in Nagaland",
+        url: "/images/blogs/nagaland/shilloi-lake/shilloi-lake.webp",
+        width: 1600,
+        height: 900,
+        alt: "Shilloi Lake, Nagaland",
       },
     ],
   },
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     title: "Shilloi Lake Guide: Nagaland's Largest Lake",
     description:
       "Nagaland's largest natural lake, hidden in forested hills near the Myanmar border — the complete Shilloi Lake guide.",
-    images: ["/images/destinations/meghalaya/dawki-river.jpg"],
+    images: ["/images/blogs/nagaland/shilloi-lake/shilloi-lake.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/shilloi-lake-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           headline: "Shilloi Lake Guide: Nagaland's Largest Lake",
           description:
             "Complete Shilloi Lake guide — Nagaland's largest natural lake near the Myanmar border, local Chakhesang legends, how to reach via Phek district, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/meghalaya/dawki-river.jpg",
+          image: "https://club.kudozz.in/images/blogs/nagaland/shilloi-lake/shilloi-lake.webp",
           datePublished: "2026-09-04",
           dateModified: "2026-09-04",
           publisher: {
@@ -195,8 +195,8 @@ export default function ShilloiLakeGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/meghalaya/dawki-river.jpg"
-              alt="Clear water surrounded by forested hills, evoking the remote setting of Shilloi Lake in Nagaland"
+              src="/images/blogs/nagaland/shilloi-lake/shilloi-lake.webp"
+              alt="Shilloi Lake, Nagaland"
               fill
               priority
               sizes="100vw"
@@ -510,15 +510,6 @@ export default function ShilloiLakeGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>The Lake & Its Legends</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/meghalaya/dawki-river.jpg"
-                      alt="Forested hills around clear water, evoking Shilloi Lake's remote high-altitude setting"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>The Lake Itself</h3>
                   <p>
                     Shilloi Lake's scale and setting — Nagaland's largest

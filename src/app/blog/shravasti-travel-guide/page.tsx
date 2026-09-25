@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -551,15 +552,6 @@ export default function ShravastiGuidePage() {
                 {/* ── Sacred Sites ──────────────────────────────────────── */}
                 <section id="sacred-sites">
                   <h2>The Sacred Sites</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/uttar-pradesh/shravasti/anathapindikas-stupa-jetavana-shravasti.webp"
-                      alt="Visitors atop the weathered brick mound of Anathapindika's Stupa at Jetavana, Shravasti"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Jetavana Monastery Ruins</h3>
                   <p>
                     The centrepiece of Shravasti. According to tradition, the
@@ -577,6 +569,7 @@ export default function ShravastiGuidePage() {
                     across a shaded, well-maintained archaeological site.
                   </p>
                   <h3>The Anandabodhi Tree</h3>
+                  <GuideFigure src="/images/blogs/uttar-pradesh/shravasti/the-anandabodhi-tree-shravasti.webp" alt="The Anandabodhi Tree, Shravasti" />
                   <p>
                     A living Bodhi tree within the Jetavana grounds, said to
                     have been grown from a sapling of the original Bodhi Tree
@@ -587,6 +580,7 @@ export default function ShravastiGuidePage() {
                     visited spots within the site.
                   </p>
                   <h3>Angulimala Stupa</h3>
+                  <GuideFigure src="/images/blogs/uttar-pradesh/shravasti/angulimala-stupa-shravasti.webp" alt="Angulimala Stupa, Shravasti" />
                   <p>
                     A stupa associated with Angulimala, a figure from
                     Buddhist tradition who, after a violent past, became a

@@ -7,10 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -29,8 +25,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/destinations/meghalaya/dawki-river.jpg",
-        width: 1200,
-        height: 630,
+        width: 2560,
+        height: 1921,
         alt: "Forested river landscape representative of Canacona, South Goa",
       },
     ],
@@ -182,61 +178,6 @@ const tableOfContents = [
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
-];
-
-// ── Canacona-specific gear ───────────────────────────────────────────────────────
-const CANACONA_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for beach-hopping across South Goa's quiet taluka",
-    emoji: "🏖️",
-    items: [
-      {
-        name: "Comfortable Walking Sandals",
-        description:
-          "For moving between beaches (Palolem to Patnem is an easy walk) and the forest trails at Cotigao Wildlife Sanctuary.",
-        price: "₹899",
-        image: "👡",
-        affiliateUrl: amazonSearchUrl("walking+sandals+travel+outdoor"),
-        tag: "Beach-hop essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "Canacona's appeal is in moving between several beaches — comfortable footwear makes that genuinely enjoyable rather than a chore.",
-      },
-      {
-        name: "Insect Repellent",
-        description:
-          "Useful for Cotigao Wildlife Sanctuary and the more forested, undeveloped stretches like Galgibaga.",
-        price: "₹199",
-        image: "🦟",
-        affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"),
-        tag: "Forest essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "The less-developed beaches and forest sanctuary areas have a real mosquito presence, especially at dusk.",
-      },
-      {
-        name: "Reef-Safe Sunscreen (SPF 50)",
-        description:
-          "Essential for a multi-beach day with long stretches in direct sun and minimal shade.",
-        price: "₹599",
-        image: "🧴",
-        affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+SPF+50"),
-        tag: "Beach essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Turtle-nesting beaches like Galgibaga are kept deliberately undeveloped, meaning very little shade infrastructure.",
-      },
-      {
-        name: "Dry Bag / Waterproof Pouch",
-        description:
-          "Useful for keeping valuables safe during beach transitions and any water activity.",
-        price: "₹399",
-        image: "🎒",
-        affiliateUrl: amazonSearchUrl("waterproof+dry+bag+small"),
-        tag: "Beach-hop essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "Moving between multiple beaches in a day means more transit time with valuables exposed to sand and spray.",
-      },
-    ],
-  },
 ];
 
 // ── Page ─────────────────────────────────────────────────────────────────────
@@ -561,15 +502,6 @@ export default function CanaconaGuidePage() {
                 {/* ── Top Attractions ──────────────────────────────────── */}
                 <section id="top-attractions">
                   <h2>The Beach Cluster & Attractions</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/meghalaya/dawki-river.jpg"
-                      alt="Forest and river scenery representative of Canacona's inland taluka"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
 
                   <ul>
                     <li>
@@ -963,12 +895,6 @@ export default function CanaconaGuidePage() {
                   ),
                 )}
               </div>
-
-              {/* ── Gear Recommendations ──────────────────────────────── */}
-              <TrekGearRecommendations
-                sections={CANACONA_GEAR}
-                destination="Canacona"
-              />
 
               <RelatedPostsGrid currentSlug="canacona-travel-guide" />
             </article>

@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/manali/rohtang-pass.jpg",
+        url: "/images/blogs/mizoram/phawngpui/phawngpui-view.webp",
         width: 1200,
-        height: 630,
-        alt: "High mountain terrain, evoking Phawngpui, Mizoram's highest peak",
+        height: 900,
+        alt: "Phawngpui, Mizoram",
       },
     ],
   },
@@ -36,7 +37,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Phawngpui Trek Guide: The Blue Mountain",
     description: "Mizoram's highest peak, rarely attempted and genuinely remote — the complete Phawngpui guide.",
-    images: ["/images/destinations/manali/rohtang-pass.jpg"],
+    images: ["/images/blogs/mizoram/phawngpui/phawngpui-view.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/phawngpui-travel-guide" },
 };
@@ -53,7 +54,7 @@ function ArticleSchema() {
           headline: "Phawngpui Trek Guide: The Blue Mountain",
           description:
             "Complete Phawngpui guide — Mizoram's highest peak, the Blue Mountain's rare orchids and rhododendrons, trek difficulty, permits, and how to reach Lawngtlai district.",
-          image: "https://club.kudozz.in/images/destinations/manali/rohtang-pass.jpg",
+          image: "https://club.kudozz.in/images/blogs/mizoram/phawngpui/phawngpui-view.webp",
           datePublished: "2026-09-04",
           dateModified: "2026-09-04",
           publisher: {
@@ -153,8 +154,8 @@ export default function PhawngpuiGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/manali/rohtang-pass.jpg"
-              alt="High mountain terrain, evoking Phawngpui, Mizoram's highest peak"
+              src="/images/blogs/mizoram/phawngpui/phawngpui-view.webp"
+              alt="Phawngpui, Mizoram"
               fill
               priority
               sizes="100vw"
@@ -291,9 +292,6 @@ export default function PhawngpuiGuidePage() {
 
                 <section id="things-to-do">
                   <h2>The Trek & the National Park</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/manali/rohtang-pass.jpg" alt="Mountain terrain near Phawngpui, Mizoram" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <h3>The Summit Trek</h3>
                   <p>A genuinely demanding multi-day trek through forested, remote terrain — expect steep sections and limited infrastructure throughout.</p>
                   <h3>Rare Flora</h3>

@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/meghalaya/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Green forested hills, evoking Aizawl's ridge-top setting in Mizoram",
+        url: "/images/blogs/mizoram/aizawl/aizawl-2.webp",
+        width: 1600,
+        height: 668,
+        alt: "View of Aizawl, Mizoram",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Aizawl Travel Guide: Sightseeing & Tips",
     description:
       "A hill capital built across a ridge, and the practical base for exploring central Mizoram — the complete Aizawl guide.",
-    images: ["/images/destinations/meghalaya/hero.jpg"],
+    images: ["/images/blogs/mizoram/aizawl/aizawl-2.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/aizawl-travel-guide",
@@ -59,7 +60,7 @@ function ArticleSchema() {
           headline: "Aizawl Travel Guide: Sightseeing & Tips",
           description:
             "Complete Aizawl guide — Solomon's Temple, Durtlang Hills, Bara Bazar, Chapchar Kut festival, how to reach Mizoram's ridge-top capital, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/meghalaya/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/mizoram/aizawl/aizawl-2.webp",
           datePublished: "2026-09-04",
           dateModified: "2026-09-04",
           publisher: {
@@ -178,8 +179,8 @@ export default function AizawlGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/meghalaya/hero.jpg"
-              alt="Green forested hills, evoking Aizawl's ridge-top setting in Mizoram"
+              src="/images/blogs/mizoram/aizawl/aizawl-2.webp"
+              alt="View of Aizawl, Mizoram"
               fill
               priority
               sizes="100vw"
@@ -349,20 +350,12 @@ export default function AizawlGuidePage() {
 
                 <section id="things-to-do">
                   <h2>Sights & Things to Do</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/meghalaya/hero.jpg"
-                      alt="Green hills around Aizawl, Mizoram"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Solomon's Temple</h3>
                   <p>A large, striking modern prayer hall and church structure, one of Aizawl's most notable contemporary landmarks.</p>
                   <h3>Durtlang Hills</h3>
                   <p>Panoramic viewpoints over the city and the surrounding ridge-and-valley landscape — a good spot for a sunset stop.</p>
                   <h3>Mizoram State Museum</h3>
+                  <GuideFigure src="/images/blogs/mizoram/aizawl/mizoram-state-museum-aizawl-2.webp" alt="Mizoram State Museum, Aizawl" />
                   <p>A compact but informative introduction to Mizo tribal history, traditional dress, and material culture.</p>
                   <h3>Bara Bazar</h3>
                   <p>The city's main market — a lively, layered hub of textiles, local produce, and street food, and one of the best places to see everyday Mizo life up close.</p>

@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/andaman/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Andaman coastline near Sri Vijaya Puram (Port Blair), home to the Cellular Jail National Memorial",
+        url: "/images/blogs/andaman-and-nicobar/cellular-jail-andaman/cellular-jail.webp",
+        width: 1600,
+        height: 1200,
+        alt: "View of Cellular Jail, Andaman & Nicobar Islands",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Cellular Jail Travel Guide: History, Timings & Light Show",
     description:
       "The prison that became known as Kaala Pani — history, museum galleries, and the evening Light and Sound Show.",
-    images: ["/images/destinations/andaman/hero.jpg"],
+    images: ["/images/blogs/andaman-and-nicobar/cellular-jail-andaman/cellular-jail.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/cellular-jail-andaman-travel-guide",
@@ -59,7 +60,7 @@ function ArticleSchema() {
           headline: "Cellular Jail Travel Guide: History, Timings & Light Show",
           description:
             "Complete Cellular Jail guide — the British-era prison in Sri Vijaya Puram (Port Blair) that held India's freedom fighters. History, museum galleries, the evening Light and Sound Show, timings and tips.",
-          image: "https://club.kudozz.in/images/destinations/andaman/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/andaman-and-nicobar/cellular-jail-andaman/cellular-jail.webp",
           datePublished: "2026-09-01",
           dateModified: "2026-09-01",
           publisher: {
@@ -201,8 +202,8 @@ export default function CellularJailGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/andaman/hero.jpg"
-              alt="Andaman coastline near Sri Vijaya Puram (Port Blair), home to the Cellular Jail National Memorial"
+              src="/images/blogs/andaman-and-nicobar/cellular-jail-andaman/cellular-jail.webp"
+              alt="View of Cellular Jail, Andaman & Nicobar Islands"
               fill
               priority
               sizes="100vw"
@@ -434,6 +435,7 @@ export default function CellularJailGuidePage() {
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">
                   <h2>Best Time to Visit</h2>
+                  <GuideFigure src="/images/blogs/andaman-and-nicobar/cellular-jail-andaman/cellular-jail-view.webp" alt="Cellular Jail, Andaman & Nicobar Islands" />
                   <p>
                     Cellular Jail is a year-round indoor-outdoor visit, but
                     timing your day around the evening show matters more
@@ -526,15 +528,6 @@ export default function CellularJailGuidePage() {
                 {/* ── History ────────────────────────────────────────────── */}
                 <section id="history">
                   <h2>History of Cellular Jail</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/andaman/hero.jpg"
-                      alt="Andaman coastline near Sri Vijaya Puram, close to where Cellular Jail stands"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <p>
                     Construction began in 1896 and finished a decade later
                     in 1906, built by the British colonial administration

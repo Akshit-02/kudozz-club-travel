@@ -25,8 +25,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/blogs/uttarakhand/tehri-lake/tehri-lake-reservoir-aerial-view.webp",
-        width: 1200,
-        height: 630,
+        width: 1600,
+        height: 1186,
         alt: "Tehri Lake reservoir surrounded by forested Garhwal hills, Uttarakhand",
       },
     ],
@@ -539,15 +539,6 @@ export default function TehriLakeGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Water Sports & Things to Do</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/uttarakhand/tehri-lake/tehri-lake-reservoir-aerial-view.webp"
-                      alt="Water sports activity on Tehri Lake, Uttarakhand"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Jet Skiing, Kayaking & Banana Boat Rides</h3>
                   <p>
                     Multiple operators along the Chamba-side ghats and near

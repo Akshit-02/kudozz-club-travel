@@ -7,8 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Haflong Travel Guide: Assam's Only Hill Station",
@@ -20,7 +18,7 @@ export const metadata: Metadata = {
     title: "Haflong Travel Guide: Assam's Only Hill Station",
     description: "A lake-centred hill town in the North Cachar Hills, home to a genuinely diverse mix of hill tribes rarely visited by outside travelers — the complete guide to Haflong.",
     url: "https://club.kudozz.in/blog/haflong-travel-guide", type: "article", siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/manali/solang-valley.jpg", width: 1200, height: 630, alt: "Hill and lake scenery representative of Haflong, Assam" }],
+    images: [{ url: "/images/destinations/manali/solang-valley.jpg", width: 2560, height: 1707, alt: "Hill and lake scenery representative of Haflong, Assam" }],
   },
   twitter: { card: "summary_large_image", title: "Haflong Travel Guide: Assam's Only Hill Station", description: "Assam's only hill station, in the diverse North Cachar Hills — the complete guide to Haflong.", images: ["/images/destinations/manali/solang-valley.jpg"] },
   alternates: { canonical: "https://club.kudozz.in/blog/haflong-travel-guide" },
@@ -78,16 +76,6 @@ const tableOfContents = [
   { id: "tips", title: "Essential Travel Tips", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
-
-const HAFLONG_GEAR: GearSection[] = [{
-  title: "Things Worth Carrying", subtitle: "Gear for a remote, forested hill-station trip", emoji: "🏔️",
-  items: [
-    { name: "Comfortable Walking Shoes", description: "For exploring the hilly terrain around Haflong Lake and any nearby trekking trails.", price: "₹1,999",  image: "🥾", affiliateUrl: amazonSearchUrl("comfortable+trekking+shoes"), tag: "Trip essential", tagColor: "bg-amber-100 text-amber-700", why: "Haflong's terrain is genuinely hilly — proper footwear matters throughout a visit." },
-    { name: "Light Warm Layers", description: "The hill climate here is noticeably cooler than the Assam plains, especially in the mornings and evenings.", price: "₹1,499",  image: "🧥", affiliateUrl: amazonSearchUrl("light+warm+jacket+travel"), tag: "Climate essential", tagColor: "bg-sky-100 text-sky-700", why: "Haflong's elevation gives it a genuinely cooler microclimate than surrounding lowland Assam." },
-    { name: "Insect Repellent", description: "Essential for the forested hill terrain, especially around the lake and any evening outings.", price: "₹199",  image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Forest essential", tagColor: "bg-forest-100 text-forest-700", why: "Dense forest cover around Haflong makes insect protection a practical necessity." },
-    { name: "Power Bank", description: "Given the area's remoteness, a fully charged backup power source is a sensible precaution.", price: "₹1,299",  image: "🔋", affiliateUrl: amazonSearchUrl("power+bank+travel"), tag: "Remote-travel essential", tagColor: "bg-purple-100 text-purple-700", why: "Limited infrastructure means charging opportunities can be less reliable than in bigger towns." },
-  ],
-}];
 
 export default function HaflongGuidePage() {
   return (
@@ -201,9 +189,6 @@ export default function HaflongGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do in Haflong</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/manali/solang-valley.jpg" alt="Hill scenery around Haflong" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>Haflong Lake:</strong> A natural lake at the centre of town, the area's main scenic focal point, with boating available.</li>
                     <li><strong>Jatinga village:</strong> Site of the internationally documented bird phenomenon — visit with current, responsible information rather than treating it as a guaranteed show.</li>
@@ -325,7 +310,6 @@ export default function HaflongGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={HAFLONG_GEAR} destination="Haflong" />
               <RelatedPostsGrid currentSlug="haflong-travel-guide" />
             </article>
             <div className="hidden xl:block w-64 2xl:w-72 flex-shrink-0"><div className="sticky top-24"><RelatedSidebar currentSlug="haflong-travel-guide" /></div></div>

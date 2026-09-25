@@ -7,9 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  HIMALAYAN_GEAR,
-} from "@/components/ui/TrekGearRecommendations";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -568,6 +565,15 @@ export default function PadumPage() {
                         closures after rain
                       </li>
                     </ul>
+                    <div className="relative w-full rounded-xl my-6 h-64 overflow-hidden shadow-md">
+                      <Image
+                        src="/images/blogs/ladakh/padum/kanika-chaitya-stupa-sani-monastery.webp"
+                        alt="The whitewashed Kanika Chaitya stupa at Sani Monastery, Zanskar, attributed locally to the Kushan-era king Kanishka"
+                        fill
+                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
                     <div
                       className="bg-forest-50 border-l-4 border-forest-500 p-4 rounded-r-xl my-4 text-sm"
                       style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -773,15 +779,6 @@ export default function PadumPage() {
                         held annually
                       </li>
                     </ul>
-                    <div className="relative w-full rounded-xl my-6 h-64 overflow-hidden shadow-md">
-                      <Image
-                        src="/images/blogs/ladakh/padum/kanika-chaitya-stupa-sani-monastery.webp"
-                        alt="The whitewashed Kanika Chaitya stupa at Sani Monastery, Zanskar, attributed locally to the Kushan-era king Kanishka"
-                        fill
-                        sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                        className="object-cover"
-                      />
-                    </div>
                   </section>
 
                   <section id="stongdey-monastery">
@@ -1307,11 +1304,6 @@ export default function PadumPage() {
                   </Link>
                 ))}
               </div>
-
-              <TrekGearRecommendations
-                sections={HIMALAYAN_GEAR}
-                destination="Padum"
-              />
 
               <RelatedPostsGrid currentSlug="padum-travel-guide" />
             </article>

@@ -7,10 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -199,84 +196,6 @@ const tableOfContents = [
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Tips", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
-];
-
-// ── Old Delhi-specific gear ────────────────────────────────────────────────────
-const OLD_DELHI_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle:
-      "Gear for narrow lanes, dense crowds, and a street food trail you'll want to do properly",
-    emoji: "🛺",
-    items: [
-      {
-        name: "Comfortable Walking Shoes",
-        description:
-          "Red Fort, Jama Masjid, and the haveli lanes around Chandni Chowk all involve extended walking on uneven stone, packed crowds, and the occasional puddle or paan stain.",
-        price: "₹1,499",
-        image: "👟",
-        affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
-        tag: "Old Delhi essential",
-        tagColor: "bg-stone-100 text-stone-700",
-        why: "A single half-day loop through the walled city easily crosses 8,000–10,000 steps on hard, uneven, and often crowded ground.",
-      },
-      {
-        name: "Cross-Body Anti-Theft Bag",
-        description:
-          "A zipped bag worn across the body, kept in front in dense crowds, is the simplest way to protect your phone and wallet in Old Delhi's busiest lanes.",
-        price: "₹999",
-        image: "🎒",
-        affiliateUrl: amazonSearchUrl("anti+theft+crossbody+travel+bag"),
-        tag: "Crowd-safety essential",
-        tagColor: "bg-red-100 text-red-700",
-        why: "Chandni Chowk and Kinari Bazaar get genuinely packed by midday — a bag you can keep zipped and visible removes most of the risk.",
-      },
-      {
-        name: "Reusable Water Bottle",
-        description:
-          "Old Delhi's lanes are shaded but crowded, and there's no shortage of chai and lassi stalls — a bottle still saves money and plastic across a long walking day.",
-        price: "₹699",
-        image: "🍶",
-        affiliateUrl: amazonSearchUrl("insulated+water+bottle+steel"),
-        tag: "Everyday essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Between monument entries and market walking, hydration is easy to forget until you're already tired and overheated.",
-      },
-      {
-        name: "Basic Stomach Care Kit",
-        description:
-          "The Chandni Chowk food walk is one of Old Delhi's biggest draws — worth carrying basic digestive medication if you're trying street food extensively for the first time.",
-        price: "₹399",
-        image: "💊",
-        affiliateUrl: amazonSearchUrl("travel+digestive+medicine+kit"),
-        tag: "Street-food essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "Parathas, chaat, and kebabs in one sitting is a lot for an unaccustomed stomach — a basic kit means it doesn't derail your trip.",
-      },
-      {
-        name: "Power Bank (10,000 mAh)",
-        description:
-          "Useful for a long day of navigation, photos, and metro tickets between Old Delhi's monuments, markets, and the connecting metro stations.",
-        price: "₹1,299",
-        image: "🔋",
-        affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
-        tag: "City-day essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "GPS struggles in the dense lanes, so expect to lean on your phone more than usual to retrace your route back out.",
-      },
-      {
-        name: "Lightweight Scarf / Stole",
-        description:
-          "Doubles as a headscarf for Jama Masjid and a light shoulder cover for Gurudwara Sis Ganj Sahib — useful to have on hand rather than borrowing one at the entrance.",
-        price: "₹349",
-        image: "🧣",
-        affiliateUrl: amazonSearchUrl("cotton+scarf+stole+travel"),
-        tag: "Religious-site essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "Old Delhi's most-visited sights are active places of worship — a scarf on hand saves a queue at the entrance counter.",
-      },
-    ],
-  },
 ];
 
 // ── Page ─────────────────────────────────────────────────────────────────────
@@ -653,15 +572,6 @@ export default function OldDelhiGuidePage() {
                 {/* ── Red Fort ──────────────────────────────────────────── */}
                 <section id="red-fort">
                   <h2>Red Fort (Lal Qila)</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/delhi/delhi/red-fort-lahori-gate-delhi.webp"
-                      alt="Red Fort's massive red sandstone Lahori Gate and ramparts in Old Delhi"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <p>
                     <strong>Red Fort</strong>, or Lal Qila, was built between{" "}
                     <strong>1638 and 1648</strong> as the fortified palace
@@ -677,6 +587,7 @@ export default function OldDelhiGuidePage() {
                   </p>
 
                   <h3>Independence Day at Red Fort</h3>
+                  <GuideFigure src="/images/blogs/delhi/old-delhi/independence-day-at-red-fort-old-delhi.webp" alt="Independence Day at Red Fort, Old Delhi" />
                   <p>
                     Red Fort holds a unique place in modern Indian history
                     too — India's Prime Minister hoists the national flag
@@ -774,15 +685,6 @@ export default function OldDelhiGuidePage() {
                 {/* ── Chandni Chowk ─────────────────────────────────────── */}
                 <section id="chandni-chowk">
                   <h2>Chandni Chowk Food Walk</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/delhi/chandni-chowk/chandni-chowk-bazaar-street-scene.webp"
-                      alt="Crowded street stalls and shopfronts along Chandni Chowk in Old Delhi"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <p>
                     No visit to Old Delhi is complete without at least a
                     taste of the <strong>Chandni Chowk food walk</strong> —
@@ -1322,12 +1224,6 @@ export default function OldDelhiGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              {/* ── Gear Recommendations ──────────────────────────────── */}
-              <TrekGearRecommendations
-                sections={OLD_DELHI_GEAR}
-                destination="Old Delhi"
-              />
 
               <RelatedPostsGrid currentSlug="old-delhi-travel-guide" />
             </article>

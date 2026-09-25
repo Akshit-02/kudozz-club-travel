@@ -7,10 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -28,10 +24,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/goa/beach.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Cliffside beach scene representative of Varkala, Kerala",
+        url: "/images/blogs/kerala/varkala/janardanaswamy-temple-varkala.webp",
+        width: 1600,
+        height: 1067,
+        alt: "Janardanaswamy Temple, Varkala",
       },
     ],
   },
@@ -40,7 +36,7 @@ export const metadata: Metadata = {
     title: "Varkala Travel Guide: Cliff Beach, Yoga & Best Time to Visit",
     description:
       "Varkala Cliff, Papanasham Beach, yoga stays, and everything you need to plan a trip to Kerala's cliffside beach town.",
-    images: ["/images/destinations/goa/beach.jpg"],
+    images: ["/images/blogs/kerala/varkala/janardanaswamy-temple-varkala.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/varkala-travel-guide" },
 };
@@ -55,7 +51,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Varkala Travel Guide: Cliff Beach, Yoga & Best Time to Visit",
           description: "The complete Varkala travel guide.",
-          image: "https://club.kudozz.in/images/destinations/goa/beach.jpg",
+          image: "https://club.kudozz.in/images/blogs/kerala/varkala/janardanaswamy-temple-varkala.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: {
@@ -150,82 +146,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const VARKALA_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for the cliff walk, the beach, and yoga sessions",
-    emoji: "🏖️",
-    items: [
-      {
-        name: "Grip Sandals for the Cliff Path",
-        description:
-          "The cliff-edge path between cafes gets uneven and occasionally slippery near stairs down to the beach — proper grip sandals are safer than flip-flops.",
-        price: "₹799",
-        image: "🩴",
-        affiliateUrl: amazonSearchUrl("grip+sandals+outdoor+travel"),
-        tag: "Cliff-walk essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "Several of the stairways down to Papanasham Beach are steep and can be slick after rain — good grip matters here.",
-      },
-      {
-        name: "Reef-Safe Sunscreen (SPF 50)",
-        description:
-          "Little shade along the open cliff stretch, especially at midday — reef-safe formulas protect the coastline as well as your skin.",
-        price: "₹599",
-        image: "🧴",
-        affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+SPF+50"),
-        tag: "Beach essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Cliff-top cafes have almost no natural shade — sunburn is the most common regret among first-time visitors.",
-      },
-      {
-        name: "Lightweight Yoga Mat",
-        description:
-          "Useful if you're joining drop-in yoga classes, many of which don't include mats, or practicing independently on your guesthouse balcony.",
-        price: "₹899",
-        image: "🧘",
-        affiliateUrl: amazonSearchUrl("travel+yoga+mat+lightweight"),
-        tag: "Yoga essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "Varkala's yoga scene is casual and drop-in friendly, but not every studio provides a mat for single sessions.",
-      },
-      {
-        name: "Waterproof Phone Pouch",
-        description:
-          "Handy for the beach and for the boat/backwater side-trip many travelers add on from Kappil Lake nearby.",
-        price: "₹299",
-        image: "📱",
-        affiliateUrl: amazonSearchUrl("waterproof+phone+pouch+beach"),
-        tag: "Beach essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "Swimming at Papanasham or a Kappil Lake boat trip both carry a real risk of a dropped, soaked phone without one.",
-      },
-      {
-        name: "Modest Cotton Wrap",
-        description:
-          "The area around Janardanaswamy Temple and Papanasham's ritual zone expects more modest dress than the open beach further along the cliff.",
-        price: "₹399",
-        image: "🧣",
-        affiliateUrl: amazonSearchUrl("cotton+wrap+travel+modest"),
-        tag: "Temple-area essential",
-        tagColor: "bg-stone-100 text-stone-700",
-        why: "Papanasham is an active pilgrimage site as well as a beach — a light wrap covers you for both without extra luggage.",
-      },
-      {
-        name: "2L Hydration Bottle",
-        description:
-          "Between long cliff walks and yoga sessions in the heat, staying hydrated matters more here than it first seems.",
-        price: "₹449",
-        image: "💧",
-        affiliateUrl: amazonSearchUrl("2l+hydration+water+bottle+travel"),
-        tag: "Everyday essential",
-        tagColor: "bg-red-100 text-red-700",
-        why: "Kerala's coastal humidity makes dehydration easy to miss until it hits — carrying enough water is a simple fix.",
-      },
-    ],
-  },
-];
-
 // ── Page ─────────────────────────────────────────────────────────────────────
 export default function VarkalaGuidePage() {
   return (
@@ -238,8 +158,8 @@ export default function VarkalaGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/goa/beach.jpg"
-              alt="Cliffside beach scene representative of Varkala, Kerala"
+              src="/images/blogs/kerala/varkala/janardanaswamy-temple-varkala.webp"
+              alt="Janardanaswamy Temple, Varkala"
               fill
               priority
               sizes="100vw"
@@ -451,15 +371,6 @@ export default function VarkalaGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Things to Do in Varkala</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/goa/beach.jpg"
-                      alt="Beach and cliff scenery representative of Varkala"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <ul>
                     <li>
                       <strong>Varkala Cliff:</strong> The main draw — a
@@ -741,8 +652,6 @@ export default function VarkalaGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              <TrekGearRecommendations sections={VARKALA_GEAR} destination="Varkala" />
 
               <RelatedPostsGrid currentSlug="varkala-travel-guide" />
             </article>

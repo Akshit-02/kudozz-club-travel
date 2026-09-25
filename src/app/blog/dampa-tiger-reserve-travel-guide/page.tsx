@@ -25,8 +25,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/destinations/ziro/hero.jpg",
-        width: 1200,
-        height: 630,
+        width: 2560,
+        height: 1440,
         alt: "Green forest landscape, evoking Dampa Tiger Reserve's bamboo forest ecosystem in Mamit district, Mizoram",
       },
     ],
@@ -407,15 +407,6 @@ export default function DampaTigerReserveGuidePage() {
 
                 <section id="things-to-do">
                   <h2>Safaris, Gibbons & Birdlife</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/ziro/hero.jpg"
-                      alt="Dense forest canopy, evoking Dampa Tiger Reserve's bamboo forest ecosystem"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>The Bamboo Forest Ecosystem</h3>
                   <p>
                     Dampa&apos;s defining feature is its bamboo-dominated

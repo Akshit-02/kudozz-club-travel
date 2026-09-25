@@ -7,10 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuidePhotoRow } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
   title: "Kolhapur Travel Guide: Mahalaxmi Temple, Palace & Kolhapuri Food",
@@ -26,14 +23,14 @@ export const metadata: Metadata = {
     type: "article",
     siteName: "Kudozz Club",
     images: [
-      { url: "/images/destinations/udaipur/hero.jpg", width: 1200, height: 630, alt: "Ornate temple and palace architecture representative of Kolhapur, Maharashtra" },
+      { url: "/images/blogs/maharashtra/kolhapur/kolhapur.webp", width: 1600, height: 1077, alt: "Kolhapur, Maharashtra" },
     ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Kolhapur Travel Guide: Mahalaxmi Temple, Palace & Kolhapuri Food",
     description: "Temple, palace, fort, and the fieriest thali in Maharashtra — the complete guide to Kolhapur.",
-    images: ["/images/destinations/udaipur/hero.jpg"],
+    images: ["/images/blogs/maharashtra/kolhapur/kolhapur.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/kolhapur-travel-guide" },
 };
@@ -48,7 +45,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Kolhapur Travel Guide: Mahalaxmi Temple, Palace & Kolhapuri Food",
           description: "The complete Kolhapur travel guide.",
-          image: "https://club.kudozz.in/images/destinations/udaipur/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/maharashtra/kolhapur/kolhapur.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
@@ -124,21 +121,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const KOLHAPUR_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for temple visits, fort walks, and fiery food",
-    emoji: "🛕",
-    items: [
-      { name: "Modest Temple Wear", description: "Covered shoulders and knees are expected at Mahalaxmi Temple and other shrines around Kolhapur.", price: "₹599",  image: "🧣", affiliateUrl: amazonSearchUrl("modest+travel+clothing+cotton"), tag: "Temple essential", tagColor: "bg-purple-100 text-purple-700", why: "Mahalaxmi Temple is an active, revered shrine, not a monument — dress expectations are taken seriously." },
-      { name: "Comfortable Walking Shoes", description: "Panhala Fort involves a fair bit of walking over uneven stone paths — proper shoes make the climb easier.", price: "₹1,199",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+outdoor"), tag: "Fort-trip essential", tagColor: "bg-amber-100 text-amber-700", why: "Panhala's ramparts and bastions are best explored on foot over old stone — flip-flops aren't ideal here." },
-      { name: "Basic Antacid / Digestive Aid", description: "A light-hearted but genuinely useful item if you're not used to Kolhapuri spice levels, particularly tambda rassa.", price: "₹99",  image: "💊", affiliateUrl: amazonSearchUrl("antacid+travel+pack"), tag: "Food-trip essential", tagColor: "bg-red-100 text-red-700", why: "Kolhapuri cuisine's reputation for heat is well earned — worth having something on hand if you're not used to it." },
-      { name: "Daypack", description: "Useful for carrying water, chappal purchases, and camera gear between the temple, palace, and market areas.", price: "₹899",  image: "🎒", affiliateUrl: amazonSearchUrl("daypack+travel+lightweight"), tag: "City-day essential", tagColor: "bg-sky-100 text-sky-700", why: "A day of temple-palace-market walking is easier with a light bag than juggling shopping bags by hand." },
-      { name: "Reusable Water Bottle", description: "Kolhapur can get warm outside the winter months — useful for both the city sightseeing and the Panhala Fort day trip.", price: "₹349",  image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "Travel essential", tagColor: "bg-forest-100 text-forest-700", why: "Fort visits and temple queues both involve standing/walking in the sun for stretches at a time." },
-    ],
-  },
-];
-
 export default function KolhapurGuidePage() {
   return (
     <>
@@ -148,7 +130,7 @@ export default function KolhapurGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/udaipur/hero.jpg" alt="Ornate temple and palace architecture representative of Kolhapur, Maharashtra" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/maharashtra/kolhapur/kolhapur.webp" alt="Kolhapur, Maharashtra" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -276,7 +258,7 @@ export default function KolhapurGuidePage() {
                 <section id="attractions">
                   <h2>Top Attractions</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/udaipur/hero.jpg" alt="Palace architecture representative of Kolhapur's royal heritage" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
+                    <Image src="/images/blogs/maharashtra/kolhapur/rankala-lake-kolhapur-2.webp" alt="Rankala Lake, Kolhapur" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
                   </div>
                   <ul>
                     <li><strong>Mahalaxmi (Ambabai) Temple:</strong> The city's spiritual centre, one of the Shakti Peethas of Hindu mythology, over a thousand years old and still very much a living, active shrine.</li>
@@ -286,6 +268,13 @@ export default function KolhapurGuidePage() {
                     <li><strong>Rankala Lake:</strong> A pleasant lakeside promenade in the city, good for an evening walk or boat ride.</li>
                     <li><strong>Jyotiba Temple:</strong> About 17 km away, another significant regional pilgrimage site, often combined with a Panhala visit.</li>
                   </ul>
+                  <GuidePhotoRow
+                    images={[
+                      { src: "/images/blogs/maharashtra/kolhapur/mahalaxmi-temple-kolhapur.webp", alt: "Mahalaxmi Temple, Kolhapur", caption: "Mahalaxmi Temple, Kolhapur" },
+                      { src: "/images/blogs/maharashtra/kolhapur/new-palace-kolhapur-2.webp", alt: "New Palace, Kolhapur", caption: "New Palace, Kolhapur" },
+                      { src: "/images/blogs/maharashtra/kolhapur/panhala-fort-kolhapur.webp", alt: "Panhala Fort, Kolhapur", caption: "Panhala Fort, Kolhapur" },
+                    ]}
+                  />
                 </section>
 
                 <section id="where-to-stay">
@@ -404,7 +393,6 @@ export default function KolhapurGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={KOLHAPUR_GEAR} destination="Kolhapur" />
               <RelatedPostsGrid currentSlug="kolhapur-travel-guide" />
             </article>
 

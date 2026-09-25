@@ -7,10 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -187,84 +183,6 @@ const tableOfContents = [
   { id: "tips", title: "Essential Travel Tips", level: 2 },
   { id: "places-to-explore", title: "Places to Explore in Chhattisgarh", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
-];
-
-// ── Chhattisgarh-specific gear ─────────────────────────────────────────────
-const CHHATTISGARH_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle:
-      "Gear for cave trails, waterfall spray, dense forest, and a state with limited tourist infrastructure outside Raipur",
-    emoji: "🌲",
-    items: [
-      {
-        name: "Comfortable Trekking Shoes",
-        description:
-          "Kanger Valley's Kotumsar Cave and the trails around Chitrakote Falls involve uneven, sometimes damp, rocky terrain.",
-        price: "₹1,799",
-        image: "🥾",
-        affiliateUrl: amazonSearchUrl("trekking+shoes+waterproof+travel"),
-        tag: "Trail essential",
-        tagColor: "bg-stone-100 text-stone-700",
-        why: "The path down to Kotumsar Cave and the viewpoints around Chitrakote get slippery near spray and monsoon runoff — grip matters.",
-      },
-      {
-        name: "Mosquito Repellent",
-        description:
-          "Chhattisgarh's dense forest cover, close to 44% of the state, means mosquito presence is a genuine everyday factor around Kanger Valley and Bastar's villages.",
-        price: "₹199",
-        image: "🦟",
-        affiliateUrl: amazonSearchUrl("mosquito+repellent+travel"),
-        tag: "Forest essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "Much of a Chhattisgarh trip happens in or near forest — a good repellent is non-negotiable, especially at dawn and dusk.",
-      },
-      {
-        name: "Rain Jacket / Poncho",
-        description:
-          "Useful year-round given Chitrakote Falls' spray zone, and essential if visiting in the post-monsoon window when the falls are at their most dramatic.",
-        price: "₹599",
-        image: "🌂",
-        affiliateUrl: amazonSearchUrl("rain+jacket+poncho+travel"),
-        tag: "Weather essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Standing anywhere near Chitrakote's viewpoints when the falls are running full means a fair amount of spray, even on a dry day.",
-      },
-      {
-        name: "Power Bank (10,000 mAh)",
-        description:
-          "Worth carrying for day trips around Jagdalpur, Chitrakote, and Kanger Valley, where charging points thin out quickly outside town centres.",
-        price: "₹1,299",
-        image: "🔋",
-        affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
-        tag: "Day-trip essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "Outside Raipur and Jagdalpur, reliable charging infrastructure is limited — a backup battery avoids being stranded mid-trip.",
-      },
-      {
-        name: "Reusable Water Bottle",
-        description:
-          "Handy across long days visiting Bastar's markets, Chitrakote Falls, and the forested Kanger Valley trails.",
-        price: "₹699",
-        image: "🍶",
-        affiliateUrl: amazonSearchUrl("insulated+water+bottle+steel"),
-        tag: "Everyday essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "Reliable shops and water points are limited between major sites in the Bastar region — carrying your own water is the practical choice.",
-      },
-      {
-        name: "Basic First Aid Kit",
-        description:
-          "Worth having given the state's modest medical infrastructure outside Raipur and Jagdalpur.",
-        price: "₹599",
-        image: "🩹",
-        affiliateUrl: amazonSearchUrl("travel+first+aid+kit"),
-        tag: "Small-town essential",
-        tagColor: "bg-red-100 text-red-700",
-        why: "Medical facilities are concentrated in the state capital and Jagdalpur — basic self-sufficiency is worth having if travelling to interior Bastar villages.",
-      },
-    ],
-  },
 ];
 
 // ── Page ─────────────────────────────────────────────────────────────────────
@@ -599,6 +517,24 @@ export default function ChhattisgarhGuidePage() {
                       still takes several hours by road.
                     </li>
                   </ul>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/chhattisgarh/chhattisgarh/sirpur-buddhist-stupa-ruins.webp"
+                      alt="Ancient excavated brick Buddhist stupa at the Sirpur archaeological site"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/chhattisgarh/chhattisgarh/kanger-valley-national-park-cliffs.webp"
+                      alt="Red laterite rock cliffs rising through dense forest canopy in Kanger Valley National Park"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <div
                     className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-xl my-4 text-sm"
                     style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -616,8 +552,8 @@ export default function ChhattisgarhGuidePage() {
                   <h2>Chitrakote Falls: The Niagara of India</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/blogs/chhattisgarh/chhattisgarh/chitrakote-falls-chhattisgarh.webp"
-                      alt="Chitrakote Falls cascading in multiple horseshoe-shaped tiers over a wide rock face on the Indravati river, Chhattisgarh"
+                      src="/images/blogs/chhattisgarh/chhattisgarh/chitrakote-falls-chhattisgarh-2.webp"
+                      alt="Chitrakote Falls, Chhattisgarh"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -724,15 +660,6 @@ export default function ChhattisgarhGuidePage() {
                       flora and fauna.
                     </li>
                   </ul>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/chhattisgarh/chhattisgarh/kanger-valley-national-park-cliffs.webp"
-                      alt="Red laterite rock cliffs rising through dense forest canopy in Kanger Valley National Park"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <ul>
                     <li>
                       <strong>Sirpur:</strong> An ancient archaeological site
@@ -742,15 +669,6 @@ export default function ChhattisgarhGuidePage() {
                       heritage.
                     </li>
                   </ul>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/chhattisgarh/chhattisgarh/sirpur-buddhist-stupa-ruins.webp"
-                      alt="Ancient excavated brick Buddhist stupa at the Sirpur archaeological site"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <ul>
                     <li>
                       <strong>Raipur:</strong> The state capital, worth a day
@@ -1301,12 +1219,6 @@ export default function ChhattisgarhGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              {/* ── Gear Recommendations ──────────────────────────────── */}
-              <TrekGearRecommendations
-                sections={CHHATTISGARH_GEAR}
-                destination="Chhattisgarh"
-              />
 
               <RelatedPostsGrid currentSlug="chhattisgarh-travel-guide" />
             </article>

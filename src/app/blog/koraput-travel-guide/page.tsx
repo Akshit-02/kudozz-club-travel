@@ -25,8 +25,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/destinations/coorg/coorg.jpg",
-        width: 1200,
-        height: 630,
+        width: 2560,
+        height: 1707,
         alt: "Coffee plantation hillside, evoking Koraput's Eastern Ghats coffee-growing landscape in southern Odisha",
       },
     ],
@@ -524,15 +524,6 @@ export default function KoraputGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Coffee, Tribal Markets & Scenery</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/coorg/coorg.jpg"
-                      alt="Coffee plantation rows in the Eastern Ghats near Koraput, Odisha"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Coffee Plantations</h3>
                   <p>
                     A genuinely unusual sight for Odisha — rows of coffee

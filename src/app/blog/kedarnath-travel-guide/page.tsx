@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -553,16 +554,8 @@ export default function KedarnathGuidePage() {
                 {/* ── Trek & Attractions ─────────────────────────────────── */}
                 <section id="trek-attractions">
                   <h2>The Trek, Temple & Beyond</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/uttarakhand/kedarnath/kedarnath-temple-hillside-mountain-view.webp"
-                      alt="Kedarnath Temple's stone tower framed against a snow-streaked Himalayan ridge above Kedarnath valley"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>The Gaurikund–Kedarnath Trek</h3>
+                  <GuideFigure src="/images/blogs/uttarakhand/kedarnath/the-gaurikund-kedarnath-trek.webp" alt="The Gaurikund–Kedarnath Trek, Uttarakhand" />
                   <p>
                     The 16-18km paved trail climbs steadily through pine
                     forest and open valley, gaining around 1,500m. Rest

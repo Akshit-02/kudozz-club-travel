@@ -7,9 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  HIMALAYAN_GEAR,
-} from "@/components/ui/TrekGearRecommendations";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -565,15 +562,6 @@ export default function HemisPage() {
                 {/* ── The Monastery ─────────────────────────────────────── */}
                 <section id="the-monastery">
                   <h2>Hemis Monastery</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/ladakh/hemis/hemis-monastery-facade-courtyard.webp"
-                      alt="The whitewashed, multi-storey facade of Hemis Monastery with its stone entrance staircase, Ladakh"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <p>
                     Founded in 1630 under the patronage of King Sengge Namgyal
                     and re-established by the Tibetan lama Stagsang Raspa,{" "}
@@ -1302,11 +1290,6 @@ export default function HemisPage() {
                   </Link>
                 ))}
               </div>
-
-              <TrekGearRecommendations
-                sections={HIMALAYAN_GEAR}
-                destination="Hemis"
-              />
 
               <RelatedPostsGrid currentSlug="hemis-travel-guide" />
             </article>

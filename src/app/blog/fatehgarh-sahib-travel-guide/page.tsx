@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/hampi/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Historic stone architecture under an open sky, evoking the solemn heritage of Fatehgarh Sahib",
+        url: "/images/blogs/punjab/fatehgarh-sahib/fatehgarh-sahib-2.webp",
+        width: 1600,
+        height: 1065,
+        alt: "Fatehgarh Sahib, Punjab",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Fatehgarh Sahib Guide: History & Tips",
     description:
       "One of the most profoundly significant sites in Sikh history — the complete guide to Fatehgarh Sahib.",
-    images: ["/images/destinations/hampi/hero.jpg"],
+    images: ["/images/blogs/punjab/fatehgarh-sahib/fatehgarh-sahib-2.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/fatehgarh-sahib-travel-guide",
@@ -59,7 +60,7 @@ function ArticleSchema() {
           headline: "Fatehgarh Sahib Guide: History & Tips",
           description:
             "Complete Fatehgarh Sahib guide — Gurdwara Fatehgarh Sahib, the martyrdom of Guru Gobind Singh's younger sons, the Shaheedi Jor Mela, nearby Sirhind, and how to visit respectfully.",
-          image: "https://club.kudozz.in/images/destinations/hampi/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/punjab/fatehgarh-sahib/fatehgarh-sahib-2.webp",
           datePublished: "2026-09-04",
           dateModified: "2026-09-04",
           publisher: {
@@ -196,8 +197,8 @@ export default function FatehgarhSahibGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/hampi/hero.jpg"
-              alt="Historic stone architecture under an open sky, evoking the solemn heritage of Fatehgarh Sahib"
+              src="/images/blogs/punjab/fatehgarh-sahib/fatehgarh-sahib-2.webp"
+              alt="Fatehgarh Sahib, Punjab"
               fill
               priority
               sizes="100vw"
@@ -514,16 +515,8 @@ export default function FatehgarhSahibGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>The Gurdwara & Sirhind</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/hampi/hero.jpg"
-                      alt="Historic architecture evoking the heritage of Fatehgarh Sahib and Sirhind, Punjab"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Gurdwara Fatehgarh Sahib</h3>
+                  <GuideFigure src="/images/blogs/punjab/fatehgarh-sahib/gurdwara-fatehgarh-sahib.webp" alt="Gurdwara Fatehgarh Sahib, Punjab" />
                   <p>
                     The gurdwara complex marks the site of the martyrdom, and
                     includes memorials to the Sahibzadas and Mata Gujri —
@@ -537,6 +530,7 @@ export default function FatehgarhSahibGuidePage() {
                     devotional atmosphere.
                   </p>
                   <h3>Sirhind</h3>
+                  <GuideFigure src="/images/blogs/punjab/fatehgarh-sahib/sirhind-fatehgarh-sahib.webp" alt="Sirhind, Fatehgarh Sahib" />
                   <p>
                     The nearby historic town of Sirhind carries its own
                     layered Mughal and Sikh-era history, worth exploring for

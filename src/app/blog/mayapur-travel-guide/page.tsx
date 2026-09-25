@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -548,15 +549,6 @@ export default function MayapurGuidePage() {
                 {/* ── Attractions ────────────────────────────────────────── */}
                 <section id="attractions">
                   <h2>Temples & Attractions</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/west-bengal/mayapur/iskcon-sri-krishna-temple-mayapur.webp"
-                      alt="The ISKCON Mayapur temple complex with its spired towers, part of the wider Sri Mayapur Dham campus"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Temple of the Vedic Planetarium (TOVP)</h3>
                   <p>
                     Mayapur's landmark project — a vast domed temple under
@@ -570,6 +562,7 @@ export default function MayapurGuidePage() {
                     worth the detour for the sheer scale of the project.
                   </p>
                   <h3>Chandrodaya Mandir</h3>
+                  <GuideFigure src="/images/blogs/west-bengal/mayapur/chandrodaya-mandir-mayapur.webp" alt="Chandrodaya Mandir, Mayapur" />
                   <p>
                     The existing main temple complex at the heart of the
                     ISKCON campus, home to the deities worshipped daily by

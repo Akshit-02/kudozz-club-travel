@@ -553,15 +553,6 @@ export default function SatmaliyaDeerSanctuaryGuidePage() {
                 {/* ── What to Expect ──────────────────────────────────────── */}
                 <section id="what-to-expect">
                   <h2>What to Expect</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/satmaliya-deer-sanctuary/spotted-deer-fawn-satmaliya-deer-park.webp"
-                      alt="Close-up of a spotted chital deer fawn browsing in the forest at the Deer Park, Dadra & Nagar Haveli"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <p>
                     Expect a modest, walkable setup rather than an elaborate
                     safari experience — think walking trails and viewing

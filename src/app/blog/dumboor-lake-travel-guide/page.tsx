@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -329,6 +330,7 @@ export default function DumboorLakeGuidePage() {
                 {/* ── Introduction ──────────────────────────────────────── */}
                 <section id="introduction">
                   <h2>A Reservoir of Scattered Islands</h2>
+                  <GuideFigure src="/images/blogs/tripura/dumboor-lake/dumboor-lake-view.webp" alt="Dumboor Lake, Tripura" />
                   <p>
                     <strong>Dumboor Lake</strong> is a large man-made
                     reservoir in the Gandacherra subdivision of Dhalai
@@ -538,15 +540,6 @@ export default function DumboorLakeGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Boating, Tirthamukh & Nearby Sights</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/tripura/dumboor-lake/small-island-dumboor-lake-tripura.webp"
-                      alt="Reservoir dotted with small islands at Dumboor Lake, Dhalai district"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Boating Among the Islands</h3>
                   <p>
                     Boating is the defining Dumboor Lake experience —

@@ -25,8 +25,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/blogs/chandigarh/chandigarh/rock-garden-mosaic-sculptures-chandigarh.webp",
-        width: 1500,
-        height: 1125,
+        width: 1400,
+        height: 933,
         alt: "Rows of bangle-and-ceramic mosaic human figures and peacock sculptures on a terraced red-stone wall at the Rock Garden, Chandigarh",
       },
     ],
@@ -378,6 +378,15 @@ export default function RockGardenGuidePage() {
                     comes to this corner of the city.
                   </p>
 
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/chandigarh/rock-garden/rock-garden-narrow-passage-walkway-chandigarh.webp"
+                      alt="Visitors walking through a narrow, rugged rock-walled passageway between courtyards at the Rock Garden, Chandigarh"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   {/* At a Glance */}
                   <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 my-8">
                     <h4
@@ -627,15 +636,6 @@ export default function RockGardenGuidePage() {
                     purely for reveal and surprise.
                   </p>
 
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/chandigarh/rock-garden/rock-garden-narrow-passage-walkway-chandigarh.webp"
-                      alt="Visitors walking through a narrow, rugged rock-walled passageway between courtyards at the Rock Garden, Chandigarh"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
 
                   <p>
                     Each courtyard tends to have its own loose theme or

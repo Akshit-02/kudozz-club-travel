@@ -7,10 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -28,10 +24,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/manali/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Snow-capped Himalayan peaks above a green valley in Himachal Pradesh",
+        url: "/images/blogs/himachal-pradesh/himachal-pradesh/spiti-valley-himachal-pradesh.webp",
+        width: 1600,
+        height: 1067,
+        alt: "Spiti Valley, Himachal Pradesh",
       },
     ],
   },
@@ -40,7 +36,7 @@ export const metadata: Metadata = {
     title: "Himachal Pradesh Travel Guide: Shimla, Manali & Dharamshala",
     description:
       "Colonial hill stations, high-altitude cold desert, and the seat of the Dalai Lama — the complete guide to Himachal Pradesh.",
-    images: ["/images/destinations/manali/hero.jpg"],
+    images: ["/images/blogs/himachal-pradesh/himachal-pradesh/spiti-valley-himachal-pradesh.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/himachal-pradesh-travel-guide",
@@ -58,7 +54,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Himachal Pradesh Travel Guide: Shimla, Manali & Dharamshala",
           description: "The complete Himachal Pradesh travel guide.",
-          image: "https://club.kudozz.in/images/destinations/manali/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/himachal-pradesh/himachal-pradesh/spiti-valley-himachal-pradesh.webp",
           datePublished: "2026-07-22",
           dateModified: "2026-07-22",
           publisher: {
@@ -186,84 +182,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-// ── Himachal Pradesh-specific gear ──────────────────────────────────────────
-const HIMACHAL_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle:
-      "Gear for hill-station sightseeing, high-altitude side trips, and Himachal's fast-changing mountain weather",
-    emoji: "🏔️",
-    items: [
-      {
-        name: "Insulated Jacket",
-        description:
-          "Temperatures swing sharply between Shimla's evenings, Manali's higher altitude, and any Spiti or Rohtang side trip.",
-        price: "₹2,499",
-        image: "🧥",
-        affiliateUrl: amazonSearchUrl("insulated+jacket+trekking"),
-        tag: "Mountain essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Even in summer, evenings across Himachal's hill towns drop into single digits — a proper insulated layer is non-negotiable.",
-      },
-      {
-        name: "Trekking Shoes",
-        description:
-          "Useful for the Triund trek near Dharamshala, walks around Old Manali, and uneven paths at Kasauli and Kufri.",
-        price: "₹2,999",
-        image: "🥾",
-        affiliateUrl: amazonSearchUrl("waterproof+trekking+shoes"),
-        tag: "Trekking essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "Grip and ankle support matter on Himachal's forest trails and cobbled hill-station lanes alike.",
-      },
-      {
-        name: "Rain Jacket / Windcheater",
-        description:
-          "Monsoon showers and sudden mountain weather changes are common across Shimla, Manali, and Dharamshala.",
-        price: "₹1,599",
-        image: "🧥",
-        affiliateUrl: amazonSearchUrl("packable+rain+jacket+windcheater"),
-        tag: "Weather essential",
-        tagColor: "bg-stone-100 text-stone-700",
-        why: "Himachal's weather can shift from clear to drizzly within an hour, especially in the hills around Dharamshala.",
-      },
-      {
-        name: "Power Bank (10,000 mAh)",
-        description:
-          "Handy on long winding drives between Shimla, Manali, and Dharamshala, and on full-day treks like Triund.",
-        price: "₹1,299",
-        image: "🔋",
-        affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
-        tag: "Day-trip essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "Cold temperatures drain batteries faster, and hill-road transit days are long — a backup power source is worth it.",
-      },
-      {
-        name: "Basic First Aid Kit",
-        description:
-          "Covers minor cuts, altitude-related headaches, and motion sickness on Himachal's winding hill roads.",
-        price: "₹499",
-        image: "🩹",
-        affiliateUrl: amazonSearchUrl("basic+first+aid+kit+travel"),
-        tag: "Safety essential",
-        tagColor: "bg-red-100 text-red-700",
-        why: "Between hairpin bends and higher altitudes near Rohtang or Spiti, minor travel ailments are common — better to be prepared.",
-      },
-      {
-        name: "Sunscreen (SPF 50)",
-        description:
-          "UV exposure increases significantly at altitude — essential for Rohtang, Kufri, and any Spiti extension.",
-        price: "₹399",
-        image: "🧴",
-        affiliateUrl: amazonSearchUrl("sunscreen+spf+50+high+altitude"),
-        tag: "Everyday essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "Thinner air at higher altitudes means much faster sunburn than the SPF number alone suggests — reapply often.",
-      },
-    ],
-  },
-];
-
 // ── Page ─────────────────────────────────────────────────────────────────────
 export default function HimachalPradeshGuidePage() {
   return (
@@ -277,8 +195,8 @@ export default function HimachalPradeshGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/manali/hero.jpg"
-              alt="Snow-capped Himalayan peaks above a green valley in Himachal Pradesh"
+              src="/images/blogs/himachal-pradesh/himachal-pradesh/spiti-valley-himachal-pradesh.webp"
+              alt="Spiti Valley, Himachal Pradesh"
               fill
               priority
               sizes="100vw"
@@ -683,8 +601,8 @@ export default function HimachalPradeshGuidePage() {
                   <h2>Manali & Kullu Valley</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/manali/hadimba-temple.jpg"
-                      alt="The pagoda-style Hadimba Devi Temple set in a cedar forest near Manali"
+                      src="/images/blogs/himachal-pradesh/himachal-pradesh/manali-and-kullu-valley-himachal-pradesh.webp"
+                      alt="Manali & Kullu Valley, Himachal Pradesh"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -781,8 +699,8 @@ export default function HimachalPradeshGuidePage() {
                   <h2>Spiti, Kasauli & Dalhousie</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/spiti-valley/spiti-valley.jpg"
-                      alt="Dhankar's cliffside village and monastery perched above the Spiti Valley, Himachal Pradesh"
+                      src="/images/blogs/himachal-pradesh/himachal-pradesh/shimla-himachal-pradesh.webp"
+                      alt="Shimla, Himachal Pradesh"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -1376,12 +1294,6 @@ export default function HimachalPradeshGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              {/* ── Gear Recommendations ──────────────────────────────── */}
-              <TrekGearRecommendations
-                sections={HIMACHAL_GEAR}
-                destination="Himachal Pradesh"
-              />
 
               <RelatedPostsGrid currentSlug="himachal-pradesh-travel-guide" />
             </article>

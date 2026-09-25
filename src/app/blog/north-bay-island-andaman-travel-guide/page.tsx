@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/andaman/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Turquoise coral-reef water off North Bay Island near Port Blair, Andaman",
+        url: "/images/blogs/andaman-and-nicobar/north-bay-island-andaman/north-bay-island-andaman.webp",
+        width: 1600,
+        height: 1200,
+        alt: "North Bay Island Andaman, Andaman & Nicobar Islands",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "North Bay Island Andaman: Coral, Sea Walking & Visit Guide",
     description:
       "Glass-bottom boats, sea walking, and snorkelling over coral — the complete North Bay Island guide.",
-    images: ["/images/destinations/andaman/hero.jpg"],
+    images: ["/images/blogs/andaman-and-nicobar/north-bay-island-andaman/north-bay-island-andaman.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/north-bay-island-andaman-travel-guide",
@@ -59,7 +60,7 @@ function ArticleSchema() {
           headline: "North Bay Island Andaman: Coral, Sea Walking & Visit Guide",
           description:
             "Complete North Bay Island guide — glass-bottom boats, snorkelling, sea walking, and scuba diving a short boat ride from Port Blair. Timings, budget, and how to pair it with Ross Island.",
-          image: "https://club.kudozz.in/images/destinations/andaman/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/andaman-and-nicobar/north-bay-island-andaman/north-bay-island-andaman.webp",
           datePublished: "2026-09-01",
           dateModified: "2026-09-01",
           publisher: {
@@ -200,8 +201,8 @@ export default function NorthBayIslandGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/andaman/hero.jpg"
-              alt="Turquoise coral-reef water off North Bay Island near Port Blair, Andaman"
+              src="/images/blogs/andaman-and-nicobar/north-bay-island-andaman/north-bay-island-andaman.webp"
+              alt="North Bay Island Andaman, Andaman & Nicobar Islands"
               fill
               priority
               sizes="100vw"
@@ -543,15 +544,6 @@ export default function NorthBayIslandGuidePage() {
                 <section id="activities">
                   <h2>Things to Do at North Bay Island</h2>
 
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/andaman/hero.jpg"
-                      alt="Snorkellers and a glass-bottom boat over the coral reef at North Bay Island, Andaman"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
 
                   <h3>Sea Walking</h3>
                   <p>
@@ -593,6 +585,7 @@ export default function NorthBayIslandGuidePage() {
                   </p>
 
                   <h3>The Lighthouse</h3>
+                  <GuideFigure src="/images/blogs/andaman-and-nicobar/north-bay-island-andaman/the-lighthouse-north-bay-island-andaman.webp" alt="The Lighthouse, North Bay Island Andaman" />
                   <p>
                     A working lighthouse on the island can be climbed for
                     views back toward Port Blair's harbour and the

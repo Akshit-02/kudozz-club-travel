@@ -7,10 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Trikut Hills Travel Guide: Ropeway, Trekking & Deoghar Day Trip",
@@ -27,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/manali/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Forested hill peaks representative of Trikut Hills, Jharkhand",
+        url: "/images/blogs/jharkhand/trikut/trikut-hills.webp",
+        width: 1280,
+        height: 768,
+        alt: "Trikut Hills, Jharkhand",
       },
     ],
   },
@@ -38,7 +34,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Trikut Hills Travel Guide: Ropeway, Trekking & Deoghar Day Trip",
     description: "A ropeway and forest trek up three volcanic peaks near Deoghar — the complete guide to Trikut Hills.",
-    images: ["/images/destinations/manali/hero.jpg"],
+    images: ["/images/blogs/jharkhand/trikut/trikut-hills.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/trikut-travel-guide",
@@ -55,7 +51,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Trikut Hills Travel Guide: Ropeway, Trekking & Deoghar Day Trip",
           description: "The complete Trikut Hills travel guide.",
-          image: "https://club.kudozz.in/images/destinations/manali/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/jharkhand/trikut/trikut-hills.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: {
@@ -146,56 +142,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const TRIKUT_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for a ropeway ride and a short forest trek",
-    emoji: "🚡",
-    items: [
-      {
-        name: "Comfortable Walking Shoes",
-        description: "Useful for the trekking alternative to the ropeway and for walking around the hilltop viewpoints.",
-        price: "₹1,999",
-        image: "👟",
-        affiliateUrl: amazonSearchUrl("comfortable+trekking+shoes"),
-        tag: "Trek essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "The trekking route up Trikut is a real forest trail, not a paved path.",
-      },
-      {
-        name: "Sun Hat",
-        description: "Hilltop viewpoints offer little shade — useful for the wait at ropeway boarding points and the walk between viewpoints.",
-        price: "₹399",
-        image: "🧢",
-        affiliateUrl: amazonSearchUrl("sun+hat+travel"),
-        tag: "Comfort essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "A half-day out in the open hilltop sun adds up quickly without sun protection.",
-      },
-      {
-        name: "Reusable Water Bottle",
-        description: "Facilities thin out once you're away from the ropeway base station.",
-        price: "₹449",
-        image: "💧",
-        affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"),
-        tag: "All-day essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "This is a smaller, less commercial destination than Deoghar itself — carry your own water.",
-      },
-      {
-        name: "Camera",
-        description: "The ropeway ride and hilltop viewpoints offer genuinely good forest and valley photography.",
-        price: "₹—",
-        image: "📷",
-        affiliateUrl: amazonSearchUrl("compact+camera+travel"),
-        tag: "Photography essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "The ropeway climb offers some of the best casual scenery on a Deoghar-area trip.",
-      },
-    ],
-  },
-];
-
 export default function TrikutGuidePage() {
   return (
     <>
@@ -207,8 +153,8 @@ export default function TrikutGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/manali/hero.jpg"
-              alt="Forested hill peaks representative of Trikut Hills, Jharkhand"
+              src="/images/blogs/jharkhand/trikut/trikut-hills.webp"
+              alt="Trikut Hills, Jharkhand"
               fill
               priority
               sizes="100vw"
@@ -400,15 +346,6 @@ export default function TrikutGuidePage() {
 
                 <section id="top-attractions">
                   <h2>What to See & Do at Trikut Hills</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/manali/hero.jpg"
-                      alt="Hilltop viewpoint scenery at Trikut Hills"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <ul>
                     <li>
                       <strong>The ropeway:</strong> A cable car ride climbing above the forest canopy to
@@ -615,8 +552,6 @@ export default function TrikutGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              <TrekGearRecommendations sections={TRIKUT_GEAR} destination="Trikut Hills" />
 
               <RelatedPostsGrid currentSlug="trikut-travel-guide" />
             </article>

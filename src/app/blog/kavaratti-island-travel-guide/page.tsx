@@ -7,10 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -185,84 +181,6 @@ const tableOfContents = [
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
-];
-
-// ── Kavaratti-specific gear ───────────────────────────────────────────────────
-const KAVARATTI_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle:
-      "Gear for lagoon swimming, glass-bottom boat rides, diving, and Kavaratti's strong tropical sun",
-    emoji: "🤿",
-    items: [
-      {
-        name: "Reef-Safe Sunscreen (SPF 50)",
-        description:
-          "Kavaratti's lagoon and beaches offer almost no shade, and reflection off the water intensifies UV exposure well beyond normal beach conditions.",
-        price: "₹549",
-        image: "🧴",
-        affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+spf+50"),
-        tag: "Lagoon essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Reef-safe formulas matter here specifically — Kavaratti's living coral lagoon is the whole point of the trip, and regular sunscreen chemicals damage it.",
-      },
-      {
-        name: "Quick-Dry Rash Guard",
-        description:
-          "Full sun coverage for snorkelling, kayaking, and long stretches in the lagoon without reapplying sunscreen every hour.",
-        price: "₹899",
-        image: "🏊",
-        affiliateUrl: amazonSearchUrl("rash+guard+full+sleeve+swim"),
-        tag: "Water-sports essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "Between glass-bottom boat rides, snorkelling, and kayaking, most of a Kavaratti day is spent in or on the water — a rash guard beats reapplying sunscreen constantly.",
-      },
-      {
-        name: "Underwater Phone Pouch",
-        description:
-          "A simple waterproof pouch for photographing the lagoon's coral and fish during snorkelling or glass-bottom boat rides.",
-        price: "₹399",
-        image: "📱",
-        affiliateUrl: amazonSearchUrl("waterproof+phone+pouch+diving"),
-        tag: "Photo essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "Kavaratti's lagoon is genuinely photogenic just below the surface — a cheap pouch is enough to capture it without a dedicated underwater camera.",
-      },
-      {
-        name: "Reef-Friendly Swim Shoes",
-        description:
-          "Protects against sharp coral and rocky patches while wading out into the lagoon or walking the reef flat at low tide.",
-        price: "₹699",
-        image: "🩴",
-        affiliateUrl: amazonSearchUrl("reef+swim+shoes+water"),
-        tag: "Reef essential",
-        tagColor: "bg-orange-100 text-orange-700",
-        why: "Coral and rock underfoot are common in the shallower parts of Kavaratti's lagoon — swim shoes prevent cuts and protect the reef itself.",
-      },
-      {
-        name: "Modest Clothing for Mosque Visits",
-        description:
-          "Covered shoulders and knees, and a headscarf for women, when visiting the Ujra Mosque or other working mosques on the island.",
-        price: "₹899",
-        image: "🧣",
-        affiliateUrl: amazonSearchUrl("travel+modest+clothing+scarf"),
-        tag: "Cultural essential",
-        tagColor: "bg-stone-100 text-stone-700",
-        why: "Kavaratti's mosques are active places of worship for the island's predominantly Muslim population — modest dress is expected, not optional.",
-      },
-      {
-        name: "Dry Bag (10L)",
-        description:
-          "Keeps phones, permits, and cash dry during kayaking, canoeing, and boat transfers between the jetty and dive or snorkel points.",
-        price: "₹799",
-        image: "🎒",
-        affiliateUrl: amazonSearchUrl("waterproof+dry+bag+10l"),
-        tag: "Boat-trip essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "You'll be carrying your entry permit and ID on the island — a dry bag means it survives every boat and water-sports transfer intact.",
-      },
-    ],
-  },
 ];
 
 // ── Page ─────────────────────────────────────────────────────────────────────
@@ -1226,12 +1144,6 @@ export default function KavarattiIslandGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              {/* ── Gear Recommendations ──────────────────────────────── */}
-              <TrekGearRecommendations
-                sections={KAVARATTI_GEAR}
-                destination="Kavaratti"
-              />
 
               <RelatedPostsGrid currentSlug="kavaratti-island-travel-guide" />
             </article>

@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -539,15 +540,6 @@ export default function FatehpurSikriGuidePage() {
                 {/* ── Attractions ────────────────────────────────────────── */}
                 <section id="attractions">
                   <h2>Top Attractions in Fatehpur Sikri</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/uttar-pradesh/fatehpur-sikri/buland-darwaza-gateway-fatehpur-sikri.webp"
-                      alt="Buland Darwaza gateway at Fatehpur Sikri, Uttar Pradesh"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Buland Darwaza</h3>
                   <p>
                     Standing among the tallest gateways in the world, the
@@ -561,6 +553,7 @@ export default function FatehpurSikriGuidePage() {
                     the experience.
                   </p>
                   <h3>Dargah of Salim Chishti</h3>
+                  <GuideFigure src="/images/blogs/uttar-pradesh/fatehpur-sikri/dargah-of-salim-chishti-fatehpur-sikri-2.webp" alt="Dargah of Salim Chishti, Fatehpur Sikri" />
                   <p>
                     Within the Jama Masjid courtyard sits the white marble
                     tomb of the Sufi saint Salim Chishti, whose blessing
@@ -575,6 +568,7 @@ export default function FatehpurSikriGuidePage() {
                     the courtyard.
                   </p>
                   <h3>Panch Mahal</h3>
+                  <GuideFigure src="/images/blogs/uttar-pradesh/fatehpur-sikri/panch-mahal-fatehpur-sikri-3.webp" alt="Panch Mahal, Fatehpur Sikri" />
                   <p>
                     A five-storey pavilion with each level smaller than the
                     one below, tapering to a single kiosk at the top — built

@@ -7,10 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Patan Travel Guide: Rani ki Vav Stepwell & Patola Sarees",
@@ -27,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/hampi/virupaksha.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Intricately carved stone architecture representative of Rani ki Vav, Patan",
+        url: "/images/blogs/gujarat/patan/rani-ki-vav-patan.webp",
+        width: 1600,
+        height: 1067,
+        alt: "Rani ki Vav, Patan",
       },
     ],
   },
@@ -38,7 +34,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Patan Travel Guide: Rani ki Vav Stepwell & Patola Sarees",
     description: "Rani ki Vav's underground carved temple-stepwell and Patan's famed Patola weaving tradition — the complete guide.",
-    images: ["/images/destinations/hampi/virupaksha.jpg"],
+    images: ["/images/blogs/gujarat/patan/rani-ki-vav-patan.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/patan-travel-guide" },
 };
@@ -53,7 +49,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Patan Travel Guide: Rani ki Vav Stepwell & Patola Sarees",
           description: "The complete Patan travel guide.",
-          image: "https://club.kudozz.in/images/destinations/hampi/virupaksha.jpg",
+          image: "https://club.kudozz.in/images/blogs/gujarat/patan/rani-ki-vav-patan.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: {
@@ -145,56 +141,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const PATAN_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for the stepwell's stairs and a day of heritage walking",
-    emoji: "🏛️",
-    items: [
-      {
-        name: "Comfortable Walking/Climbing Shoes",
-        description: "Rani ki Vav's seven underground levels involve a genuine amount of stair-climbing.",
-        price: "₹1,999",
-        image: "👟",
-        affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
-        tag: "Stepwell essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "The descent through Rani ki Vav's many levels is more physical than it looks from photos.",
-      },
-      {
-        name: "Sun Hat",
-        description: "For the walk between sites in Patan's open, exposed terrain.",
-        price: "₹399",
-        image: "🧢",
-        affiliateUrl: amazonSearchUrl("sun+hat+travel+outdoor"),
-        tag: "Day-trip essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "North Gujarat's sun is intense with little shade between heritage sites." ,
-      },
-      {
-        name: "Camera",
-        description: "Rani ki Vav's carved panels are genuinely some of the finest stone sculpture in India — worth documenting properly.",
-        price: "₹—",
-        image: "📷",
-        affiliateUrl: amazonSearchUrl("compact+camera+travel"),
-        tag: "Sightseeing essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "The intricacy of the carvings rewards close, careful photography.",
-      },
-      {
-        name: "Reusable Water Bottle",
-        description: "For a full day covering the stepwell, Sahastralinga Talav, and any workshop visits.",
-        price: "₹449",
-        image: "💧",
-        affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"),
-        tag: "All-day essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "Facilities are limited between Patan's spread-out heritage sites." ,
-      },
-    ],
-  },
-];
-
 export default function PatanGuidePage() {
   return (
     <>
@@ -206,8 +152,8 @@ export default function PatanGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/hampi/virupaksha.jpg"
-              alt="Intricately carved stone architecture representative of Rani ki Vav, Patan"
+              src="/images/blogs/gujarat/patan/rani-ki-vav-patan.webp"
+              alt="Rani ki Vav, Patan"
               fill
               priority
               sizes="100vw"
@@ -406,8 +352,8 @@ export default function PatanGuidePage() {
                   <h2>Top Things to Do in Patan</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/hampi/virupaksha.jpg"
-                      alt="Carved stone heritage architecture in Patan"
+                      src="/images/blogs/gujarat/patan/patan.webp"
+                      alt="Patan, Gujarat"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -590,7 +536,6 @@ export default function PatanGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={PATAN_GEAR} destination="Patan" />
               <RelatedPostsGrid currentSlug="patan-travel-guide" />
             </article>
 

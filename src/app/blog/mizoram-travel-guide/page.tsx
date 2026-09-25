@@ -7,10 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -185,84 +181,6 @@ const tableOfContents = [
   { id: "tips", title: "Essential Travel Tips", level: 2 },
   { id: "places-to-explore", title: "Places to Explore in Mizoram", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
-];
-
-// ── Mizoram-specific gear ─────────────────────────────────────────────────
-const MIZORAM_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle:
-      "Gear for hillside walking, waterfall viewpoints, and rainy forested terrain",
-    emoji: "🌿",
-    items: [
-      {
-        name: "Comfortable Walking Shoes",
-        description:
-          "Aizawl's steep streets and the trail to Vantawng Falls' viewpoint both involve a lot of uphill and downhill walking.",
-        price: "₹1,499",
-        image: "👟",
-        affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
-        tag: "Sightseeing essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "Aizawl is built entirely on ridges and slopes — good grip and support make city walking far more comfortable.",
-      },
-      {
-        name: "Rain Jacket / Poncho",
-        description:
-          "Mizoram receives some of the heaviest rainfall in Northeast India, with showers possible in almost any month.",
-        price: "₹599",
-        image: "🌂",
-        affiliateUrl: amazonSearchUrl("rain+jacket+poncho+travel"),
-        tag: "Weather essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Sudden downpours are common, especially around Reiek and Vantawng Falls — worth carrying even outside peak monsoon.",
-      },
-      {
-        name: "Mosquito Repellent",
-        description:
-          "Useful for forested sites like Murlen National Park and the trail around Vantawng Falls.",
-        price: "₹199",
-        image: "🦟",
-        affiliateUrl: amazonSearchUrl("mosquito+repellent+travel"),
-        tag: "Forest essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "Mizoram's dense forest cover means mosquito presence is a genuine factor at dawn and dusk outside Aizawl.",
-      },
-      {
-        name: "Power Bank (10,000 mAh)",
-        description:
-          "Useful for day trips to Champhai, Reiek, and Vantawng Falls, where charging infrastructure is sparse.",
-        price: "₹1,299",
-        image: "🔋",
-        affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
-        tag: "Day-trip essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "Outside Aizawl, charging points thin out quickly — a backup battery avoids being stranded on longer day trips.",
-      },
-      {
-        name: "Reusable Water Bottle",
-        description:
-          "Handy across long days visiting Aizawl's markets, Reiek, and the drive out to Champhai.",
-        price: "₹699",
-        image: "🍶",
-        affiliateUrl: amazonSearchUrl("insulated+water+bottle+steel"),
-        tag: "Everyday essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "Standalone shops thin out on the longer drives between towns — carrying your own water is the practical choice.",
-      },
-      {
-        name: "Basic First Aid Kit",
-        description:
-          "Worth having given the state's modest medical infrastructure outside Aizawl.",
-        price: "₹599",
-        image: "🩹",
-        affiliateUrl: amazonSearchUrl("travel+first+aid+kit"),
-        tag: "Small-town essential",
-        tagColor: "bg-red-100 text-red-700",
-        why: "Medical facilities are concentrated in Aizawl — basic self-sufficiency is worth having if traveling to Champhai or Murlen.",
-      },
-    ],
-  },
 ];
 
 // ── Page ─────────────────────────────────────────────────────────────────────
@@ -674,15 +592,6 @@ export default function MizoramGuidePage() {
                 {/* ── Vantawng Falls ────────────────────────────────────── */}
                 <section id="vantawng-falls">
                   <h2>Vantawng Falls</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/mizoram/mizoram/vantawng-falls-mizoram.webp"
-                      alt="Vantawng Falls, Mizoram's highest waterfall, dropping through a forested gorge near Thenzawl"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <p>
                     Mizoram's highest waterfall, <strong>Vantawng
                     Falls</strong> drops roughly 750 feet through a
@@ -1263,12 +1172,6 @@ export default function MizoramGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              {/* ── Gear Recommendations ──────────────────────────────── */}
-              <TrekGearRecommendations
-                sections={MIZORAM_GEAR}
-                destination="Mizoram"
-              />
 
               <RelatedPostsGrid currentSlug="mizoram-travel-guide" />
             </article>

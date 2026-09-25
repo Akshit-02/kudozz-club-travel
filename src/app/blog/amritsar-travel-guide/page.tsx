@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jaisalmer/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Golden-hour cityscape evoking Amritsar's old city and its layered Sikh and Partition-era history",
+        url: "/images/blogs/punjab/amritsar/amritsar-2.webp",
+        width: 1600,
+        height: 900,
+        alt: "View of Amritsar, Punjab",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Amritsar Travel Guide: Golden Temple & Food",
     description:
       "Sikhism's holiest shrine, a profound Partition history, and a food scene built on kulcha and lassi — the complete Amritsar guide.",
-    images: ["/images/destinations/jaisalmer/hero.jpg"],
+    images: ["/images/blogs/punjab/amritsar/amritsar-2.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/amritsar-travel-guide",
@@ -59,7 +60,7 @@ function ArticleSchema() {
           headline: "Amritsar Travel Guide: Golden Temple & Food",
           description:
             "Complete Amritsar guide — the Golden Temple, Jallianwala Bagh, the Partition Museum, Wagah Border, Amritsari kulcha and lassi, how to reach, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/jaisalmer/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/punjab/amritsar/amritsar-2.webp",
           datePublished: "2026-09-04",
           dateModified: "2026-09-04",
           publisher: {
@@ -200,8 +201,8 @@ export default function AmritsarGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jaisalmer/hero.jpg"
-              alt="Golden-hour cityscape evoking Amritsar's old city and its layered Sikh and Partition-era history"
+              src="/images/blogs/punjab/amritsar/amritsar-2.webp"
+              alt="View of Amritsar, Punjab"
               fill
               priority
               sizes="100vw"
@@ -525,16 +526,8 @@ export default function AmritsarGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Golden Temple, Jallianwala Bagh & More</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/jaisalmer/hero.jpg"
-                      alt="Old city architecture evoking Amritsar's historic core"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Golden Temple</h3>
+                  <GuideFigure src="/images/blogs/punjab/amritsar/golden-temple-amritsar-2.webp" alt="Golden Temple, Amritsar" />
                   <p>
                     The city's spiritual and geographic centre — see our full{" "}
                     <Link href="/blog/golden-temple-travel-guide">
@@ -543,12 +536,14 @@ export default function AmritsarGuidePage() {
                     for timings, etiquette, and the langar experience.
                   </p>
                   <h3>Jallianwala Bagh</h3>
+                  <GuideFigure src="/images/blogs/punjab/amritsar/jallianwala-bagh-amritsar-2.webp" alt="Jallianwala Bagh, Amritsar" />
                   <p>
                     A short walk from the Golden Temple, this memorial garden
                     marks the site of the 1919 massacre — a quiet, sobering
                     stop that adds essential historical context to a visit.
                   </p>
                   <h3>Partition Museum</h3>
+                  <GuideFigure src="/images/blogs/punjab/amritsar/partition-museum-amritsar-2.webp" alt="Partition Museum, Amritsar" />
                   <p>
                     One of very few museums anywhere dedicated specifically
                     to the human history of the 1947 Partition, told through
@@ -562,6 +557,7 @@ export default function AmritsarGuidePage() {
                     gardens make a pleasant, unhurried stop.
                   </p>
                   <h3>Wagah Border</h3>
+                  <GuideFigure src="/images/blogs/punjab/amritsar/wagah-border-amritsar-2.webp" alt="Wagah Border, Amritsar" />
                   <p>
                     Roughly 30 km from the city, the daily Beating Retreat
                     ceremony is a spirited, theatrical must-see — see our

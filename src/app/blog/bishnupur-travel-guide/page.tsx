@@ -525,6 +525,15 @@ export default function BishnupurGuidePage() {
                       villages.
                     </li>
                   </ul>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/west-bengal/bishnupur/dalmadal-cannon-iron-relic-bishnupur.webp"
+                      alt="The massive 17th-century iron Dalmadal Cannon on display near the temple cluster in Bishnupur"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <div
                     className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-xl my-4 text-sm"
                     style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -648,15 +657,6 @@ export default function BishnupurGuidePage() {
                       the temple cluster.
                     </li>
                   </ul>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/west-bengal/bishnupur/dalmadal-cannon-iron-relic-bishnupur.webp"
-                      alt="The massive 17th-century iron Dalmadal Cannon on display near the temple cluster in Bishnupur"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <div
                     className="bg-forest-50 border-l-4 border-forest-500 p-4 rounded-r-xl my-4 text-sm"
                     style={{ fontFamily: "var(--font-dm-sans)" }}

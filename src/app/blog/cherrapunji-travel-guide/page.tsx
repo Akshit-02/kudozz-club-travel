@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/coorg/abbey-falls.jpg",
-        width: 1200,
-        height: 630,
-        alt: "A dramatic waterfall cascading through forest, evoking Cherrapunji's famous falls and rainfall",
+        url: "/images/blogs/meghalaya/cherrapunji/cherrapunji-2.webp",
+        width: 1600,
+        height: 1200,
+        alt: "View of Cherrapunji, Meghalaya",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Cherrapunji Travel Guide: Waterfalls & Rainfall",
     description:
       "One of the wettest places on Earth, and a landscape of dramatic gorges and thundering waterfalls — the complete Cherrapunji guide.",
-    images: ["/images/destinations/coorg/abbey-falls.jpg"],
+    images: ["/images/blogs/meghalaya/cherrapunji/cherrapunji-2.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/cherrapunji-travel-guide",
@@ -59,7 +60,7 @@ function ArticleSchema() {
           headline: "Cherrapunji Travel Guide: Waterfalls & Rainfall",
           description:
             "Complete Cherrapunji (Sohra) guide — Nohkalikai Falls, Mawsmai Cave, Seven Sisters Falls, Thangkharang Park, the world-famous rainfall records, how to reach from Shillong, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/coorg/abbey-falls.jpg",
+          image: "https://club.kudozz.in/images/blogs/meghalaya/cherrapunji/cherrapunji-2.webp",
           datePublished: "2026-09-05",
           dateModified: "2026-09-05",
           publisher: {
@@ -196,8 +197,8 @@ export default function CherrapunjiGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/coorg/abbey-falls.jpg"
-              alt="A dramatic waterfall cascading through forest, evoking Cherrapunji's famous falls and rainfall"
+              src="/images/blogs/meghalaya/cherrapunji/cherrapunji-2.webp"
+              alt="View of Cherrapunji, Meghalaya"
               fill
               priority
               sizes="100vw"
@@ -500,27 +501,21 @@ export default function CherrapunjiGuidePage() {
 
                 <section id="things-to-do">
                   <h2>Waterfalls, Caves & Viewpoints</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/coorg/abbey-falls.jpg"
-                      alt="Waterfall in the Cherrapunji region, Meghalaya"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Nohkalikai Falls</h3>
+                  <GuideFigure src="/images/blogs/meghalaya/cherrapunji/nohkalikai-falls-cherrapunji-2.webp" alt="Nohkalikai Falls, Cherrapunji" />
                   <p>
                     Plunging roughly 340 metres, Nohkalikai is India's
                     tallest plunge waterfall — a genuine showstopper, with
                     a poignant local legend attached to its name.
                   </p>
                   <h3>Mawsmai Cave</h3>
+                  <GuideFigure src="/images/blogs/meghalaya/cherrapunji/mawsmai-cave-cherrapunji-2.webp" alt="Mawsmai Cave, Cherrapunji" />
                   <p>
                     An accessible, lit limestone cave — a good, low-effort
                     introduction to the region's dramatic karst landscape.
                   </p>
                   <h3>Seven Sisters Falls</h3>
+                  <GuideFigure src="/images/blogs/meghalaya/cherrapunji/seven-sisters-falls-cherrapunji-2.webp" alt="Seven Sisters Falls, Cherrapunji" />
                   <p>
                     Also called Nohsngithiang Falls, a dramatic
                     multi-segment cascade especially spectacular during

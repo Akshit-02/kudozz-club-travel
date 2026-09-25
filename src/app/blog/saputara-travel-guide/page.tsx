@@ -7,10 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Saputara Travel Guide: Gujarat's Only Hill Station",
@@ -27,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/coorg/coorg.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Misty green hill-station scenery representative of Saputara, Gujarat",
+        url: "/images/blogs/gujarat/saputara/saputara-lake.webp",
+        width: 1403,
+        height: 789,
+        alt: "Saputara Lake, Gujarat",
       },
     ],
   },
@@ -38,7 +34,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Saputara Travel Guide: Gujarat's Only Hill Station",
     description: "Saputara Lake, Gira Falls, and Gujarat's only real hill-station escape — the complete guide.",
-    images: ["/images/destinations/coorg/coorg.jpg"],
+    images: ["/images/blogs/gujarat/saputara/saputara-lake.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/saputara-travel-guide" },
 };
@@ -53,7 +49,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Saputara Travel Guide: Gujarat's Only Hill Station",
           description: "The complete Saputara travel guide.",
-          image: "https://club.kudozz.in/images/destinations/coorg/coorg.jpg",
+          image: "https://club.kudozz.in/images/blogs/gujarat/saputara/saputara-lake.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: {
@@ -145,56 +141,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const SAPUTARA_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for monsoon-season hill walks and lake boating",
-    emoji: "🌄",
-    items: [
-      {
-        name: "Rain Jacket / Poncho",
-        description: "Saputara's best season is monsoon and post-monsoon — a packable rain layer is essential, not optional, if visiting Jun-Oct.",
-        price: "₹899",
-        image: "🧥",
-        affiliateUrl: amazonSearchUrl("packable+rain+jacket+trekking"),
-        tag: "Monsoon essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Sudden downpours are common and expected during Saputara's peak green season.",
-      },
-      {
-        name: "Grip Sandals / Trekking Shoes",
-        description: "Viewpoint paths and the walk to Gira Falls can get slippery in wet conditions.",
-        price: "₹899",
-        image: "🥾",
-        affiliateUrl: amazonSearchUrl("trekking+sandals+grip+outdoor"),
-        tag: "Trail essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "Wet stone and mud paths around the viewpoints call for real grip underfoot.",
-      },
-      {
-        name: "Light Warm Layer",
-        description: "Evenings at Saputara's elevation are noticeably cooler than the Gujarat plains, even in the warmer months.",
-        price: "₹1,499",
-        image: "🧥",
-        affiliateUrl: amazonSearchUrl("light+warm+jacket+travel"),
-        tag: "Evening essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "The elevation gives Saputara noticeably cooler nights than the rest of the state.",
-      },
-      {
-        name: "Waterproof Phone Pouch",
-        description: "Useful for boating on Saputara Lake and any monsoon-season sightseeing.",
-        price: "₹299",
-        image: "📱",
-        affiliateUrl: amazonSearchUrl("waterproof+phone+pouch+travel"),
-        tag: "Boating essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "Boating and rain don't mix well with an unprotected phone in your pocket.",
-      },
-    ],
-  },
-];
-
 export default function SaputaraGuidePage() {
   return (
     <>
@@ -206,8 +152,8 @@ export default function SaputaraGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/coorg/coorg.jpg"
-              alt="Misty green hill-station scenery representative of Saputara, Gujarat"
+              src="/images/blogs/gujarat/saputara/saputara-lake.webp"
+              alt="Saputara Lake, Gujarat"
               fill
               priority
               sizes="100vw"
@@ -405,8 +351,8 @@ export default function SaputaraGuidePage() {
                   <h2>Top Things to Do in Saputara</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/coorg/coorg.jpg"
-                      alt="Hill-station scenery around Saputara"
+                      src="/images/blogs/gujarat/saputara/saputara-2.webp"
+                      alt="View of Saputara, Gujarat"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -596,7 +542,6 @@ export default function SaputaraGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={SAPUTARA_GEAR} destination="Saputara" />
               <RelatedPostsGrid currentSlug="saputara-travel-guide" />
             </article>
 

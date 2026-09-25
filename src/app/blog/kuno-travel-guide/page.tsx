@@ -7,10 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Kuno National Park Travel Guide: Cheetahs, Safaris & Best Time",
@@ -24,7 +20,7 @@ export const metadata: Metadata = {
     url: "https://club.kudozz.in/blog/kuno-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/coorg/abbey-falls.jpg", width: 1200, height: 630, alt: "Forest landscape representative of Kuno National Park, Madhya Pradesh" }],
+    images: [{ url: "/images/destinations/coorg/abbey-falls.jpg", width: 2560, height: 1920, alt: "Forest landscape representative of Kuno National Park, Madhya Pradesh" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -102,20 +98,6 @@ const tableOfContents = [
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
-];
-
-const KUNO_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for a still-developing, more basic safari destination",
-    emoji: "🐆",
-    items: [
-      { name: "Neutral/Khaki Clothing", description: "Standard safari practice — neutral tones are less disruptive to wildlife and less visually jarring in open grassland.", price: "₹1,299",  image: "🧥", affiliateUrl: amazonSearchUrl("khaki+safari+clothing+set"), tag: "Safari essential", tagColor: "bg-amber-100 text-amber-700", why: "Bright colors stand out sharply against Kuno's open dry-deciduous terrain." },
-      { name: "Binoculars", description: "Given the still-developing sighting odds here, binoculars matter even more than at busier reserves — you'll want to make the most of distant views.", price: "₹1,999",  image: "🔭", affiliateUrl: amazonSearchUrl("binoculars+wildlife+safari"), tag: "Non-negotiable", tagColor: "bg-red-100 text-red-700", why: "Kuno's cheetahs and other wildlife range across wide, open terrain — binoculars turn a distant blur into an actual sighting." },
-      { name: "Telephoto Camera / Lens", description: "For photographing wildlife at a safe, respectful distance across Kuno's open grassland and forest edges.", price: "₹8,999+",  image: "📷", affiliateUrl: amazonSearchUrl("telephoto+lens+wildlife+photography"), tag: "Photography essential", tagColor: "bg-purple-100 text-purple-700", why: "A longer lens is the difference between a usable photo and a speck on the horizon here." },
-      { name: "Sturdy Footwear", description: "Facilities at Kuno are more basic than at MP's bigger reserves — sturdy, comfortable shoes help for any walking around the gate/lodge area.", price: "₹1,999",  image: "🥾", affiliateUrl: amazonSearchUrl("sturdy+outdoor+shoes+travel"), tag: "Comfort essential", tagColor: "bg-forest-100 text-forest-700", why: "This is a more remote, less-developed destination than Kanha or Bandhavgarh — comfortable footwear helps everywhere." },
-    ],
-  },
 ];
 
 export default function KunoGuidePage() {
@@ -358,7 +340,6 @@ export default function KunoGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={KUNO_GEAR} destination="Kuno National Park" />
               <RelatedPostsGrid currentSlug="kuno-travel-guide" />
             </article>
 

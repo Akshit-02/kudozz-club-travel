@@ -524,15 +524,6 @@ export default function VemulawadaGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Temple & Rituals</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/telangana/vemulawada/raja-rajeshwara-swamy-temple-gopuram-vemulawada.webp"
-                      alt="Illuminated gopuram of Sri Raja Rajeshwara Swamy Temple in Vemulawada at night"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Sri Raja Rajeswara Swamy Temple</h3>
                   <p>
                     The main Shiva shrine, the reason for the town's

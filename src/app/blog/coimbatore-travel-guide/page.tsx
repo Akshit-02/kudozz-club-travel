@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/chandigarh/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "City skyline landscape, evoking Coimbatore's role as a gateway city in western Tamil Nadu",
+        url: "/images/blogs/tamil-nadu/coimbatore/marudamalai-temple-coimbatore-2.webp",
+        width: 1600,
+        height: 1200,
+        alt: "Marudamalai Temple, Coimbatore",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Coimbatore Travel Guide: Gateway to the Nilgiris",
     description:
       "A textile city turned spiritual landmark and Nilgiris gateway — the complete Coimbatore guide.",
-    images: ["/images/destinations/chandigarh/hero.jpg"],
+    images: ["/images/blogs/tamil-nadu/coimbatore/marudamalai-temple-coimbatore-2.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/coimbatore-travel-guide",
@@ -59,7 +60,7 @@ function ArticleSchema() {
           headline: "Coimbatore Travel Guide: Gateway to the Nilgiris",
           description:
             "Complete Coimbatore guide — the Adiyogi statue at Isha Yoga Center, Marudamalai Temple, best time to visit, how to reach, and using the city as a base for Ooty and Valparai.",
-          image: "https://club.kudozz.in/images/destinations/chandigarh/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/tamil-nadu/coimbatore/marudamalai-temple-coimbatore-2.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -195,8 +196,8 @@ export default function CoimbatoreGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/chandigarh/hero.jpg"
-              alt="City skyline landscape, evoking Coimbatore's role as a gateway city in western Tamil Nadu"
+              src="/images/blogs/tamil-nadu/coimbatore/marudamalai-temple-coimbatore-2.webp"
+              alt="Marudamalai Temple, Coimbatore"
               fill
               priority
               sizes="100vw"
@@ -489,16 +490,8 @@ export default function CoimbatoreGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Adiyogi, Temples & Parks</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/chandigarh/hero.jpg"
-                      alt="City landscape, evoking Coimbatore's blend of urban and Western Ghats scenery"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Adiyogi Statue & Isha Yoga Center</h3>
+                  <GuideFigure src="/images/blogs/tamil-nadu/coimbatore/adiyogi-statue-and-isha-yoga-center-coimbatore.webp" alt="Adiyogi Statue & Isha Yoga Center, Coimbatore" />
                   <p>
                     A 112-foot bust of Shiva on the city's outskirts,
                     created under the guidance of spiritual teacher
@@ -507,12 +500,14 @@ export default function CoimbatoreGuidePage() {
                     casual tourists alike.
                   </p>
                   <h3>Marudamalai Temple</h3>
+                  <GuideFigure src="/images/blogs/tamil-nadu/coimbatore/marudamalai-temple-coimbatore.webp" alt="Marudamalai Temple, Coimbatore" />
                   <p>
                     A notable Murugan temple set on a hillock at the city's
                     edge, reachable by road or a flight of steps, with wide
                     views over Coimbatore from the top.
                   </p>
                   <h3>Perur Pateeswarar Temple</h3>
+                  <GuideFigure src="/images/blogs/tamil-nadu/coimbatore/perur-pateeswarar-temple-coimbatore.webp" alt="Perur Pateeswarar Temple, Coimbatore" />
                   <p>
                     A historic Chola-era Shiva temple known for its
                     intricate stone carvings and mandapams.

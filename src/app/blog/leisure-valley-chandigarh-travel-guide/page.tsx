@@ -25,8 +25,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/blogs/chandigarh/leisure-valley/leisure-valley-open-lawn-parkland-chandigarh.webp",
-        width: 1600,
-        height: 1200,
+        width: 1216,
+        height: 913,
         alt: "Open lawns and mature shade trees along a stretch of Chandigarh's Leisure Valley linear park",
       },
     ],
@@ -384,6 +384,15 @@ export default function LeisureValleyGuidePage() {
                     wanting to — this is the page to start from.
                   </p>
 
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/chandigarh/leisure-valley/leisure-valley-tree-lined-walking-trail.webp"
+                      alt="A shaded, tree-lined walking trail through Chandigarh's Leisure Valley, connecting one garden to the next"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   {/* At a Glance */}
                   <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 my-8">
                     <h4
@@ -572,15 +581,6 @@ export default function LeisureValleyGuidePage() {
                     green islands.
                   </p>
 
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/chandigarh/leisure-valley/leisure-valley-tree-lined-walking-trail.webp"
-                      alt="A shaded, tree-lined walking trail through Chandigarh's Leisure Valley, connecting one garden to the next"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
 
                   <p>
                     Decades later, that decision is exactly what makes
@@ -617,15 +617,6 @@ export default function LeisureValleyGuidePage() {
                     outing. Here's what sits along or branches off the
                     corridor:
                   </p>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/chandigarh/rose-garden/close-up-rose-bloom-zakir-hussain-rose-garden.webp"
-                      alt="Close-up of a rose in bloom at the Zakir Hussain Rose Garden, one of the anchor gardens along the Leisure Valley corridor"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <ul>
                     <li>
                       <strong>

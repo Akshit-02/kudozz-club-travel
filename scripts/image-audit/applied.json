@@ -1,0 +1,5624 @@
+{
+ "abhaneri-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 2,
+  "at": "2026-09-25 09:06"
+ },
+ "abohar-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 1,
+  "at": "2026-09-25 09:06"
+ },
+ "achanakmar-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/meghalaya/dawki-river.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "adi-kailash-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/uttarakhand/adi-kailash/adi-kailash-peak-parvati-kund-reflection.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "agartala-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 2,
+  "removed_unverified": [
+   "/images/blogs/tripura/agartala/agartala-town-hall.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "agatti-island-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 3,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/lakshadweep/agatti-island/agatti-anthan-beach-lagoon-kayaks.webp",
+   "/images/blogs/lakshadweep/agatti-island/agatti-coral-reef-fish.webp",
+   "/images/blogs/lakshadweep/agatti-island/agatti-lagoon-fishing-boat.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "agonda-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/kerala/hero.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "agra-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 4,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/uttar-pradesh/agra/agra-fort-red-sandstone-ramparts-yamuna.webp",
+   "/images/blogs/uttar-pradesh/agra/itmad-ud-daulah-baby-taj-marble-tomb.webp",
+   "/images/blogs/uttar-pradesh/agra/mehtab-bagh-garden-taj-mahal-view.webp",
+   "/images/blogs/uttar-pradesh/agra/pietra-dura-marble-inlay-detail.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "agroha-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/hampi/hero.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "aharbal-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 3,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/jammu-and-kashmir/aharbal/aharbal-falls-wide-angle-gorge-kashmir.webp",
+   "/images/blogs/jammu-and-kashmir/aharbal/aharbal-falls-rocks-visitors-close-view.webp",
+   "/images/blogs/jammu-and-kashmir/aharbal/veshaw-river-footbridge-kongwattan-trail.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "ahmedabad-travel-guide": {
+  "hero": 1,
+  "replaced": 1,
+  "removed": 0,
+  "added": 3,
+  "at": "2026-09-25 09:06"
+ },
+ "ahobilam-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/hampi/virupaksha.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "aizawl-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 1,
+  "at": "2026-09-25 09:06"
+ },
+ "ajanta-ellora-travel-guide": {
+  "hero": 1,
+  "replaced": 1,
+  "removed": 0,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "ajmer-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 3,
+  "at": "2026-09-25 09:06"
+ },
+ "ajodhya-hills-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "akshardham-delhi-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 3,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/delhi/akshardham/akshardham-complex-dusk-view-delhi.webp",
+   "/images/blogs/delhi/akshardham/akshardham-sahaj-anand-musical-fountain-water-show.webp",
+   "/images/blogs/delhi/akshardham/akshardham-bharat-upvan-gardens-delhi.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "alampur-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 1,
+  "removed_unverified": [
+   "/images/blogs/telangana/alampur/navabrahma-temples-cluster-alampur.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "alappuzha-travel-guide": {
+  "hero": 1,
+  "replaced": 1,
+  "removed": 0,
+  "added": 2,
+  "at": "2026-09-25 09:06"
+ },
+ "alibaug-travel-guide": {
+  "hero": 1,
+  "replaced": 1,
+  "removed": 0,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "amaravati-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/hampi/hero.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "amarkantak-travel-guide": {
+  "hero": 1,
+  "replaced": 1,
+  "removed": 0,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "amritsar-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 4,
+  "at": "2026-09-25 09:06"
+ },
+ "anandpur-sahib-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 3,
+  "at": "2026-09-25 09:06"
+ },
+ "ananthagiri-hills-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 1,
+  "removed_unverified": [
+   "/images/blogs/telangana/ananthagiri-hills/ananthagiri-hills-forest-viewpoint-vikarabad.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "andaman-islands-travel-guide": {
+  "hero": 1,
+  "replaced": 1,
+  "removed": 6,
+  "added": 2,
+  "removed_unverified": [
+   "/images/destinations/andaman/corbyns-cove-beach-port-blair.webp",
+   "/images/destinations/andaman/natural-bridge-bharatpur-neil-island.webp",
+   "/images/destinations/andaman/ross-island-ruins-banyan-roots.webp",
+   "/images/destinations/andaman/north-bay-island-coral-reef.webp",
+   "/images/destinations/andaman/baratang-limestone-caves-interior.webp",
+   "/images/destinations/andaman/cellular-jail-radiating-wings-port-blair.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "andhra-pradesh-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 3,
+  "added": 2,
+  "removed_unverified": [
+   "/images/blogs/andhra-pradesh/tirupati/tirumala-venkateswara-temple-gopuram-tirupati.webp",
+   "/images/blogs/andhra-pradesh/andhra-pradesh/shiva-parvati-statues-kailasagiri-visakhapatnam.webp",
+   "/images/blogs/andhra-pradesh/andhra-pradesh/veerabhadra-temple-pillars-lepakshi-andhra-pradesh.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "andro-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/manipur/andro/cultural-heritage-complex-wood-carvings-andro.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "anini-travel-guide": {
+  "hero": 0,
+  "replaced": 1,
+  "removed": 0,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "anjuna-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/goa/beach.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "araku-valley-travel-guide": {
+  "hero": 0,
+  "replaced": 1,
+  "removed": 0,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "aritar-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 2,
+  "at": "2026-09-25 09:06"
+ },
+ "arunachal-pradesh-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 5,
+  "added": 3,
+  "removed_unverified": [
+   "/images/blogs/arunachal-pradesh/arunachal-pradesh/tawang-monastery-arunachal-pradesh.webp",
+   "/images/blogs/arunachal-pradesh/ziro-valley-arunachal/apatani-rice-paddies-ziro-valley.webp",
+   "/images/blogs/arunachal-pradesh/arunachal-pradesh/bomdila-monastery-arunachal-pradesh.webp",
+   "/images/blogs/arunachal-pradesh/arunachal-pradesh/dirang-valley-apple-orchards-arunachal-pradesh.webp",
+   "/images/blogs/arunachal-pradesh/arunachal-pradesh/namdapha-national-park-forest-landscape.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "assam-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 4,
+  "added": 2,
+  "removed_unverified": [
+   "/images/blogs/assam/assam/elephant-safari-rhino-kaziranga.webp",
+   "/images/blogs/assam/assam/kamakhya-temple-shikhara-guwahati.webp",
+   "/images/blogs/assam/assam/uttar-kamalabari-satra-majuli.webp",
+   "/images/blogs/assam/assam/tea-garden-pluckers-assam.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "athirappilly-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/coorg/abbey-falls.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "auli-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 1,
+  "removed_unverified": [
+   "/images/blogs/uttarakhand/auli/auli-snow-slopes-mountain-view.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "ayodhya-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 1,
+  "removed_unverified": [
+   "/images/blogs/uttar-pradesh/ayodhya/ram-mandir-illuminated-gateway-ayodhya.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "badami-aihole-pattadakal-travel-guide": {
+  "hero": 0,
+  "replaced": 1,
+  "removed": 0,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "badrinath-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 4,
+  "removed_unverified": [
+   "/images/blogs/uttarakhand/badrinath/badrinath-temple-colorful-facade-mountains.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "baga-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/andaman/hero.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "balpakram-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "bandhavgarh-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/ziro/hero.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "bandipur-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/ziro/hero.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "barabar-caves-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 2,
+  "removed_unverified": [
+   "/images/destinations/spiti-valley/spiti-valley.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "baratang-andaman-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/andaman/hero.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "barnawapara-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/meghalaya/hero.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "bastar-travel-guide": {
+  "hero": 0,
+  "replaced": 1,
+  "removed": 0,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "bathinda-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 1,
+  "at": "2026-09-25 09:06"
+ },
+ "bekal-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 2,
+  "removed_unverified": [
+   "/images/destinations/jaisalmer/fort.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "belum-caves-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/udaipur/saheliyon.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "bengaluru-travel-guide": {
+  "hero": 1,
+  "replaced": 1,
+  "removed": 0,
+  "added": 3,
+  "at": "2026-09-25 09:06"
+ },
+ "benreu-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "betla-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/ziro/hero.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "betlingchhip-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/tripura/betlingchhip/thaidawr-tlang-betlingchhip-peak.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "bhaderwah-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 3,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/jammu-and-kashmir/bhaderwah/kailash-kund-glacial-lake-bhaderwah.webp",
+   "/images/blogs/jammu-and-kashmir/bhaderwah/jai-valley-bhaderwah-meadow-stream-camping.webp",
+   "/images/blogs/jammu-and-kashmir/bhaderwah/bhaderwah-valley-village-pine-forest-doda.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "bhadrachalam-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/telangana/bhadrachalam/bhadrachalam-sita-ramachandraswamy-temple.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "bhandardara-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 2,
+  "removed_unverified": [
+   "/images/destinations/manali/solang-valley.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "bharatpur-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 2,
+  "at": "2026-09-25 09:06"
+ },
+ "bhimbetka-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/spiti-valley/spiti-valley.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "bhindawas-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/meghalaya/dawki-river.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "bhitarkanika-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "bhopal-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 2,
+  "removed_unverified": [
+   "/images/destinations/jammu-kashmir/dal.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "bhoramdeo-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/hampi/virupaksha.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "bhubaneswar-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 4,
+  "at": "2026-09-25 09:06"
+ },
+ "bihar-travel-guide": {
+  "hero": 1,
+  "replaced": 1,
+  "removed": 3,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/bihar/bihar/nalanda-mahavihara-ruins-sariputta-stupa.webp",
+   "/images/blogs/bihar/bihar/golghar-granary-patna.webp",
+   "/images/blogs/bihar/bihar/sher-shah-suri-tomb-sasaram.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "bikaner-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 2,
+  "at": "2026-09-25 09:06"
+ },
+ "bir-billing-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/spiti-valley/spiti-valley.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "bishnupur-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 5,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/west-bengal/bishnupur/rasmancha-laterite-pyramidal-temple-bishnupur.webp",
+   "/images/blogs/west-bengal/bishnupur/madan-mohan-temple-active-worship-bishnupur.webp",
+   "/images/blogs/west-bengal/bishnupur/shyam-rai-pancharatna-temple-bishnupur.webp",
+   "/images/blogs/west-bengal/bishnupur/baluchari-saree-handloom-weaving-bishnupur.webp",
+   "/images/blogs/west-bengal/bishnupur/dalmadal-cannon-iron-relic-bishnupur.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "bodh-gaya-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 2,
+  "removed_unverified": [
+   "/images/destinations/hampi/hero.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "bogatha-waterfall-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/telangana/bogatha-waterfall/bogatha-waterfall-broad-cascade-mulugu.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "bomdila-travel-guide": {
+  "hero": 0,
+  "replaced": 1,
+  "removed": 0,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "borra-caves-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/coorg/abbey-falls.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "bougainvillea-garden-chandigarh-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/chandigarh/bougainvillea-garden/bougainvillea-glabra-yellow-orange-bracts.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "bundi-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 3,
+  "at": "2026-09-25 09:06"
+ },
+ "buxa-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 2,
+  "removed_unverified": [
+   "/images/blogs/west-bengal/buxa/buxa-fort-ruins-tiger-reserve.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "calangute-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/goa/beach.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "canacona-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/meghalaya/dawki-river.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "candolim-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/andaman/havelock.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "capitol-complex-chandigarh-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 5,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/chandigarh/chandigarh/capitol-complex-high-court-le-corbusier-chandigarh.webp",
+   "/images/blogs/chandigarh/capitol-complex/secretariat-building-facade-chandigarh.webp",
+   "/images/blogs/chandigarh/capitol-complex/vidhan-sabha-legislative-assembly-reflection-pool.webp",
+   "/images/blogs/chandigarh/capitol-complex/open-hand-monument-chandigarh.webp",
+   "/images/blogs/chandigarh/capitol-complex/geometric-hill-capitol-complex.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "cellular-jail-andaman-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/andaman/hero.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "chabimura-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/tripura/chabimura/rock-carvings-gomati-river-chabimura.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "champhai-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "chanakyapuri-delhi-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/delhi/chanakyapuri/gandhi-charkha-statue-gandhi-smriti.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "chandauli-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 1,
+  "removed_unverified": [
+   "/images/blogs/uttar-pradesh/chandauli/rajdari-waterfall-chandauli.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "chandigarh-botanical-garden-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/chandigarh/botanical-garden/birdwatching-chandigarh-forest-trail.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "chandigarh-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 5,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/chandigarh/chandigarh/rock-garden-mosaic-sculptures-chandigarh.webp",
+   "/images/blogs/chandigarh/chandigarh/sukhna-lake-boating-promenade-chandigarh.webp",
+   "/images/blogs/chandigarh/chandigarh/capitol-complex-high-court-le-corbusier-chandigarh.webp",
+   "/images/blogs/chandigarh/chandigarh/zakir-hussain-rose-garden-chandigarh.webp",
+   "/images/blogs/chandigarh/chandigarh/kasauli-hill-town-pine-forest-shivalik.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "chandil-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/kerala/alleppey.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "chandipur-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "chandni-chowk-delhi-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 6,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/delhi/old-delhi/kinari-bazaar-lane-old-delhi.webp",
+   "/images/blogs/delhi/chandni-chowk/khari-baoli-spice-market-stalls-old-delhi.webp",
+   "/images/blogs/delhi/chandni-chowk/paranthe-wali-gali-shopfront-chandni-chowk.webp",
+   "/images/blogs/delhi/old-delhi/gurudwara-sis-ganj-sahib-entrance-old-delhi.webp",
+   "/images/blogs/delhi/old-delhi/fatehpuri-masjid-facade-old-delhi.webp",
+   "/images/blogs/delhi/chandni-chowk/cycle-rickshaw-chandni-chowk-road.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "charaideo-travel-guide": {
+  "hero": 0,
+  "replaced": 1,
+  "removed": 0,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "charminar-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 0,
+  "added": 3,
+  "at": "2026-09-25 09:06"
+ },
+ "chennai-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 2,
+  "removed_unverified": [
+   "/images/blogs/tamil-nadu/chennai/fort-st-george-pavilion-memorial-chennai.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "cherrapunji-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 3,
+  "at": "2026-09-25 09:06"
+ },
+ "chettinad-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 1,
+  "at": "2026-09-25 09:06"
+ },
+ "chhatrapati-sambhajinagar-travel-guide": {
+  "hero": 0,
+  "replaced": 1,
+  "removed": 0,
+  "added": 3,
+  "at": "2026-09-25 09:06"
+ },
+ "chhattisgarh-travel-guide": {
+  "hero": 0,
+  "replaced": 1,
+  "removed": 3,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/chhattisgarh/chhattisgarh/bastar-dussehra-festival-jagdalpur.webp",
+   "/images/blogs/chhattisgarh/chhattisgarh/kanger-valley-national-park-cliffs.webp",
+   "/images/blogs/chhattisgarh/chhattisgarh/sirpur-buddhist-stupa-ruins.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "chidambaram-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 1,
+  "removed_unverified": [
+   "/images/blogs/tamil-nadu/chidambaram/thillai-nataraja-temple-tower-base-chidambaram.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "chidiya-tapu-andaman-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/andaman/hero.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "chikmagalur-travel-guide": {
+  "hero": 1,
+  "replaced": 1,
+  "removed": 0,
+  "added": 3,
+  "at": "2026-09-25 09:06"
+ },
+ "chilika-lake-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 2,
+  "at": "2026-09-25 09:06"
+ },
+ "chitkul-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 2,
+  "removed_unverified": [
+   "/images/destinations/spiti-valley/spiti-valley.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "chitrakoot-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 1,
+  "removed_unverified": [
+   "/images/blogs/uttar-pradesh/chitrakoot/ramghat-mandakini-river.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "chitrakote-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/coorg/abbey-falls.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "chittorgarh-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 3,
+  "at": "2026-09-25 09:06"
+ },
+ "chopta-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 2,
+  "removed_unverified": [
+   "/images/blogs/uttarakhand/chopta/chopta-meadow-camping-himalayan-view.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "coimbatore-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 3,
+  "at": "2026-09-25 09:06"
+ },
+ "connaught-place-delhi-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 4,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/delhi/connaught-place/radial-road-inner-circle-connaught-place.webp",
+   "/images/blogs/delhi/connaught-place/national-flag-central-park-connaught-place.webp",
+   "/images/blogs/delhi/connaught-place/palika-bazar-underground-market-entrance.webp",
+   "/images/blogs/delhi/connaught-place/connaught-place-colonnade-shops-night.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "cooch-behar-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 2,
+  "removed_unverified": [
+   "/images/blogs/west-bengal/cooch-behar/cooch-behar-royal-palace-facade.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "coorg-travel-guide": {
+  "hero": 1,
+  "replaced": 1,
+  "removed": 6,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/coorg/rajas-seat-viewpoint-madikeri.webp",
+   "/images/destinations/coorg/madikeri-fort-elephant-statues.webp",
+   "/images/destinations/coorg/nagarhole-kabini-reservoir.webp",
+   "/images/destinations/coorg/talakaveri-temple-kaveri-source.webp",
+   "/images/destinations/coorg/dubare-elephant-camp-kaveri-river.webp",
+   "/images/destinations/coorg/iruppu-falls-waterfall.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "courtallam-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 1,
+  "at": "2026-09-25 09:06"
+ },
+ "cuttack-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 2,
+  "at": "2026-09-25 09:06"
+ },
+ "dadra-nagar-haveli-daman-diu-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 5,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu/diu-fort-gateway.webp",
+   "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu/nagoa-beach-i-love-diu-hand-sculpture.webp",
+   "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu/ins-khukri-memorial-model-zampa-beach.webp",
+   "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/moti-daman/bom-jesus-church-interior-altar.webp",
+   "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/silvassa/damanganga-riverside-near-silvassa.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "dalhousie-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/coorg/coorg.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "daman-travel-guide": {
+  "hero": 0,
+  "replaced": 4,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/daman/devka-beach-sunset-tidal-flats.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "damdama-lake-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/jammu-kashmir/dal.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "dampa-tiger-reserve-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "dandeli-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/meghalaya/dawki-river.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "danteshwari-temple-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/jaisalmer/fort.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "daringbadi-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "darjeeling-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 5,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/west-bengal/darjeeling/darjeeling-himalayan-railway-toy-train.webp",
+   "/images/blogs/west-bengal/darjeeling/darjeeling-tea-garden-misty-hills.webp",
+   "/images/blogs/west-bengal/darjeeling/batasia-loop-war-memorial-darjeeling.webp",
+   "/images/blogs/west-bengal/darjeeling/ghoom-yiga-choeling-monastery-gate.webp",
+   "/images/blogs/west-bengal/darjeeling/red-panda-darjeeling-zoo.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "dawki-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 2,
+  "at": "2026-09-25 09:06"
+ },
+ "dayara-bugyal-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/uttarakhand/dayara-bugyal/alpine-meadow-himalayan-view-dayara-bugyal.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "delhi-travel-guide": {
+  "hero": 1,
+  "replaced": 1,
+  "removed": 4,
+  "added": 5,
+  "removed_unverified": [
+   "/images/blogs/delhi/delhi/humayuns-tomb-garden-delhi.webp",
+   "/images/blogs/delhi/delhi/qutub-minar-tower-delhi.webp",
+   "/images/blogs/delhi/delhi/jama-masjid-courtyard-old-delhi.webp",
+   "/images/blogs/delhi/delhi/chandni-chowk-street-market-old-delhi.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "deoghar-travel-guide": {
+  "hero": 1,
+  "replaced": 1,
+  "removed": 0,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "deomali-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "devka-beach-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 2,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/devka-beach/devka-beach-low-tide-rocky-flats.webp",
+   "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/daman/devka-beach-sunset-tidal-flats.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "dha-hanu-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 4,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/ladakh/dha-hanu/dah-nala-village-landscape-aryan-valley.webp",
+   "/images/blogs/ladakh/dha-hanu/darchik-village-house-millet-fields.webp",
+   "/images/blogs/ladakh/dha-hanu/apricots-dah-village-aryan-valley.webp",
+   "/images/blogs/ladakh/dha-hanu/batalik-sector-village-terraced-fields.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "dhanaulti-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/uttarakhand/dhanaulti/dhanaulti-eco-park-pine-forest.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "dharamshala-travel-guide": {
+  "hero": 1,
+  "replaced": 1,
+  "removed": 0,
+  "added": 2,
+  "at": "2026-09-25 09:06"
+ },
+ "dholavira-travel-guide": {
+  "hero": 0,
+  "replaced": 1,
+  "removed": 0,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "dibrugarh-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/coorg/coorg.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "digha-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 1,
+  "removed_unverified": [
+   "/images/blogs/west-bengal/digha/new-digha-beach-promenade-boulder-embankment.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "diglipur-andaman-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/andaman/hero.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "dimapur-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 1,
+  "at": "2026-09-25 09:06"
+ },
+ "dirang-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/manali/solang-valley.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "diu-fort-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 3,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu/diu-fort-gateway.webp",
+   "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu-fort/diu-fort-chapel-doorway-interior.webp",
+   "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu-fort/diu-fort-lighthouse-bastion-view.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "diu-travel-guide": {
+  "hero": 0,
+  "replaced": 2,
+  "removed": 6,
+  "added": 2,
+  "removed_unverified": [
+   "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu/diu-fort-gateway.webp",
+   "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu/ghoghla-beach-waves-sand-diu.webp",
+   "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu/st-pauls-church-facade-diu.webp",
+   "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu/naida-caves-sandstone-chamber-roots.webp",
+   "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu/gangeshwar-temple-shivlings-rock-shrine-diu.webp",
+   "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu/panikotha-fortim-do-mar-sea-fort.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "dongargarh-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/jaisalmer/hero.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "dooars-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 5,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/west-bengal/gorumara/jeep-safari-trail-gorumara-national-park.webp",
+   "/images/blogs/west-bengal/dooars/wild-elephant-forest-jaldapara-dooars.webp",
+   "/images/blogs/west-bengal/dooars/flat-plains-tea-garden-dooars.webp",
+   "/images/blogs/west-bengal/dooars/murti-river-rocky-bed-lataguri-dooars.webp",
+   "/images/blogs/west-bengal/dooars/bindu-border-village-jaldhaka-valley-dooars.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "doodhpathri-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 3,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/jammu-and-kashmir/doodhpathri/doodhpathri-pine-forest-snow-mountains.webp",
+   "/images/blogs/jammu-and-kashmir/doodhpathri/shaliganga-stream-boulders-pine-forest.webp",
+   "/images/blogs/jammu-and-kashmir/doodhpathri/pony-riders-doodhpathri-meadow.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "doyang-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 1,
+  "at": "2026-09-25 09:06"
+ },
+ "drass-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/ladakh/drass/kargil-war-memorial-howitzer-display.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "dudhni-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 3,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/dudhni/dudhni-lake-island-hills.webp",
+   "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/dudhni/dudhni-lake-palm-tree-reservoir-edge.webp",
+   "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/madhuban-dam/madhuban-dam-reservoir-view-silvassa.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "dudhsagar-falls-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/coorg/abbey-falls.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "dudhwa-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/uttar-pradesh/dudhwa/swamp-deer-dudhwa-national-park.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "dumboor-lake-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/tripura/dumboor-lake/small-island-dumboor-lake-tripura.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "dwarka-delhi-travel-guide": {
+  "hero": 0,
+  "replaced": 1,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/delhi/dwarka/dwarka-sector-12-metro-station.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "dwarka-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/goa/hero.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "dzongu-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "dzukou-valley-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 1,
+  "at": "2026-09-25 09:06"
+ },
+ "fatehgarh-sahib-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 2,
+  "at": "2026-09-25 09:06"
+ },
+ "fatehpur-sikri-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 2,
+  "removed_unverified": [
+   "/images/blogs/uttar-pradesh/fatehpur-sikri/buland-darwaza-gateway-fatehpur-sikri.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "ferozepur-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 1,
+  "at": "2026-09-25 09:06"
+ },
+ "gandikota-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/spiti-valley/spiti-valley.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "gangasagar-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/west-bengal/gangasagar/kapil-muni-temple-gangasagar-sagar-island.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "gangeshwar-temple-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 3,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/gangeshwar-temple/gangeshwar-temple-entrance-gate-footwear-diu.webp",
+   "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/naida-caves/naida-caves-sunlit-rock-formations.webp",
+   "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu-fort/diu-fort-lighthouse-bastion-view.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "gangotri-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 2,
+  "removed_unverified": [
+   "/images/blogs/uttarakhand/gangotri/gangotri-temple-bhagirathi-valley.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "gangtok-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 2,
+  "at": "2026-09-25 09:06"
+ },
+ "ganpatipule-travel-guide": {
+  "hero": 1,
+  "replaced": 1,
+  "removed": 0,
+  "added": 2,
+  "at": "2026-09-25 09:06"
+ },
+ "garden-of-fragrance-chandigarh-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/chandigarh/garden-of-fragrance/jasminum-sambac-fragrant-white-flower.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "gavi-travel-guide": {
+  "hero": 0,
+  "replaced": 1,
+  "removed": 0,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "gaya-travel-guide": {
+  "hero": 1,
+  "replaced": 1,
+  "removed": 0,
+  "added": 2,
+  "at": "2026-09-25 09:06"
+ },
+ "ghatshila-travel-guide": {
+  "hero": 1,
+  "replaced": 1,
+  "removed": 0,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "ghoghla-beach-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/ghoghla-beach/ghoghla-beach-rocky-coastline.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "gir-national-park-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/ziro/hero.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "goa-beaches-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 7,
+  "added": 2,
+  "removed_unverified": [
+   "/images/blogs/goa/goa/anjuna-beach-curlies-goa.webp",
+   "/images/blogs/goa/goa/chapora-fort-vagator-goa.webp",
+   "/images/blogs/goa/goa/palolem-beach-south-goa.webp",
+   "/images/blogs/goa/goa/agonda-beach-huts-goa.webp",
+   "/images/blogs/goa/goa/basilica-of-bom-jesus-old-goa.webp",
+   "/images/blogs/goa/goa/dudhsagar-falls-goa-karnataka-border.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "gokarna-beaches-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 5,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/karnataka/gokarna/om-beach-gokarna.webp",
+   "/images/blogs/karnataka/gokarna/kudle-beach-gokarna.webp",
+   "/images/blogs/karnataka/gokarna/half-moon-beach-gokarna.webp",
+   "/images/blogs/karnataka/gokarna/paradise-beach-gokarna.webp",
+   "/images/blogs/karnataka/gokarna/mahabaleshwar-temple-gokarna.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "golconda-fort-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 0,
+  "added": 2,
+  "at": "2026-09-25 09:06"
+ },
+ "golden-temple-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 2,
+  "at": "2026-09-25 09:06"
+ },
+ "gorumara-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "govardhan-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 1,
+  "at": "2026-09-25 09:06"
+ },
+ "government-museum-chandigarh-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 1,
+  "at": "2026-09-25 09:06"
+ },
+ "gujarat-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 5,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/gujarat/gujarat/rann-of-kutch-white-desert-gujarat.webp",
+   "/images/blogs/gujarat/gujarat/somnath-temple-arabian-sea-coast.webp",
+   "/images/blogs/gujarat/gujarat/dwarkadhish-temple-dwarka-gomti-ghat.webp",
+   "/images/blogs/gujarat/gujarat/asiatic-lion-gir-national-park.webp",
+   "/images/blogs/gujarat/gujarat/statue-of-unity-narmada-kevadia.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "gulmarg-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 3,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/jammu-and-kashmir/gulmarg/gulmarg-gondola-snow-covered-station.webp",
+   "/images/destinations/jammu-kashmir/apharwat-peak-gulmarg-snow-slopes.webp",
+   "/images/destinations/jammu-kashmir/gulmarg-golf-course-meadow.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "gurez-valley-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 5,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/jammu-and-kashmir/gurez-valley/dawar-village-footbridge-wooden-houses.webp",
+   "/images/blogs/jammu-and-kashmir/gurez-valley/habba-khatoon-peak-close-view-river.webp",
+   "/images/blogs/jammu-and-kashmir/gurez-valley/kishanganga-river-rapids-valley.webp",
+   "/images/blogs/jammu-and-kashmir/gurez-valley/tulail-valley-river-bridge-fields.webp",
+   "/images/blogs/jammu-and-kashmir/gurez-valley/shina-cultural-centre-gate-dawar.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "gurudongmar-lake-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/leh-ladakh/leh-ladakh.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "gurugram-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 2,
+  "removed_unverified": [
+   "/images/destinations/chandigarh/hero.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "guruvayur-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/jaisalmer/hero.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "guwahati-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 3,
+  "removed_unverified": [
+   "/images/destinations/meghalaya/dawki-river.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "gwalior-travel-guide": {
+  "hero": 1,
+  "replaced": 1,
+  "removed": 0,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "haflong-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/manali/solang-valley.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "hajo-travel-guide": {
+  "hero": 1,
+  "replaced": 1,
+  "removed": 0,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "hampi-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 8,
+  "added": 1,
+  "removed_unverified": [
+   "/images/blogs/karnataka/hampi/virupaksha-temple-gopuram-hampi.webp",
+   "/images/blogs/karnataka/hampi/hampi-bazaar-stone-stalls-colonnade.webp",
+   "/images/blogs/karnataka/hampi/hemakuta-hill-temple-cluster-panorama-hampi.webp",
+   "/images/blogs/karnataka/hampi/stone-chariot-vittala-temple-hampi.webp",
+   "/images/blogs/karnataka/hampi/lotus-mahal-hampi.webp",
+   "/images/blogs/karnataka/hampi/queens-bath-hampi.webp",
+   "/images/blogs/karnataka/hampi/matanga-hill-sunrise-panorama-hampi.webp",
+   "/images/blogs/karnataka/hampi/anegundi-anjaneya-hanuman-hill.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "hanle-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 3,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/ladakh/hanle/indian-astronomical-observatory-hanle.webp",
+   "/images/blogs/ladakh/hanle/hanle-monastery-gompa-hillside.webp",
+   "/images/blogs/ladakh/hanle/hanle-village-stone-house-mountains.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "haridwar-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 4,
+  "added": 1,
+  "removed_unverified": [
+   "/images/blogs/uttarakhand/haridwar/sunrise-bathing-ghat-har-ki-pauri.webp",
+   "/images/blogs/uttarakhand/haridwar/mansa-devi-temple-hilltop-bilwa-parvat.webp",
+   "/images/blogs/uttarakhand/haridwar/chandi-devi-temple-neel-parvat-hilltop.webp",
+   "/images/blogs/uttarakhand/haridwar/spotted-deer-rajaji-national-park.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "haryana-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 4,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/haryana/haryana/krishna-arjun-chariot-statue-kurukshetra-haryana.webp",
+   "/images/blogs/haryana/haryana/surajkund-crafts-mela-faridabad.webp",
+   "/images/blogs/haryana/haryana/pinjore-gardens-yadavindra-panchkula.webp",
+   "/images/blogs/haryana/haryana/sultanpur-national-park-wetland-gurugram.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "hauz-khas-delhi-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 3,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/delhi/hauz-khas/reservoir-lake-evening-hauz-khas.webp",
+   "/images/blogs/delhi/hauz-khas/spotted-deer-hauz-khas-deer-park.webp",
+   "/images/blogs/delhi/hauz-khas/restaurant-cafe-hauz-khas-village-lanes.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "havelock-island-andaman-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 4,
+  "at": "2026-09-25 09:06"
+ },
+ "hazaribagh-travel-guide": {
+  "hero": 1,
+  "replaced": 1,
+  "removed": 0,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "hemis-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 8,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/ladakh/hemis/hemis-monastery-facade-courtyard.webp",
+   "/images/blogs/ladakh/hemis/hemis-monastery-courtyard-pillars.webp",
+   "/images/blogs/ladakh/hemis/hemis-festival-cham-masked-dancer.webp",
+   "/images/blogs/ladakh/hemis/hemis-national-park-snowy-valley.webp",
+   "/images/blogs/ladakh/hemis/snow-leopard-camouflaged-rocks-hemis.webp",
+   "/images/blogs/ladakh/hemis/bharal-blue-sheep-hemis-national-park.webp",
+   "/images/blogs/ladakh/hemis/stakna-monastery-indus-river.webp",
+   "/images/blogs/ladakh/hemis/rumbak-village-homestay.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "himachal-pradesh-travel-guide": {
+  "hero": 1,
+  "replaced": 2,
+  "removed": 2,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/himachal-pradesh/himachal-pradesh/christ-church-mall-road-shimla.webp",
+   "/images/blogs/himachal-pradesh/himachal-pradesh/mcleod-ganj-hillside-tibetan-flag.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "hisar-travel-guide": {
+  "hero": 0,
+  "replaced": 1,
+  "removed": 0,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "hmuifang-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "hogenakkal-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "horsley-hills-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/manali/hero.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "hunder-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 3,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/ladakh/hunder/bactrian-camel-resting-nubra-valley.webp",
+   "/images/blogs/ladakh/nubra-valley/hunder-dunes-bactrian-camels-nubra-valley.webp",
+   "/images/blogs/ladakh/nubra-valley/diskit-monastery-maitreya-buddha-statue.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "hyderabad-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 2,
+  "removed_unverified": [
+   "/images/blogs/telangana/hyderabad/laad-bazaar-street-view-from-charminar.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "imphal-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 1,
+  "removed_unverified": [
+   "/images/blogs/manipur/imphal/kangla-fort-gate-imphal.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "indore-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 2,
+  "removed_unverified": [
+   "/images/destinations/udaipur/hero.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "international-dolls-museum-chandigarh-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/chandigarh/hero.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "itanagar-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 2,
+  "removed_unverified": [
+   "/images/destinations/coorg/coorg.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "jabalpur-travel-guide": {
+  "hero": 1,
+  "replaced": 1,
+  "removed": 0,
+  "added": 2,
+  "at": "2026-09-25 09:06"
+ },
+ "jagdalpur-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/meghalaya/dawki-river.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "jageshwar-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/uttarakhand/jageshwar/ancient-stone-temple-cluster-jageshwar.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "jaipur-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 4,
+  "at": "2026-09-25 09:06"
+ },
+ "jammu-kashmir-travel-guide": {
+  "hero": 1,
+  "replaced": 1,
+  "removed": 4,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/jammu-and-kashmir/gulmarg/gulmarg-gondola-snow-covered-station.webp",
+   "/images/blogs/jammu-and-kashmir/pahalgam/pahalgam-valley-lidder-river-forest.webp",
+   "/images/blogs/jammu-and-kashmir/sonamarg/thajiwas-glacier-valley-sonamarg.webp",
+   "/images/blogs/jammu-and-kashmir/katra/vaishno-devi-shrine-mountain-valley.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "jammu-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 3,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/jammu-kashmir/raghunath-temple-shikhara-jammu.webp",
+   "/images/destinations/jammu-kashmir/mubarak-mandi-palace-facade.webp",
+   "/images/destinations/jammu-kashmir/tawi-river-valley-jammu.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "jampore-beach-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 3,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/jampore-beach/jampore-beach-fishing-boat-sea.webp",
+   "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/jampore-beach/jampore-beach-casuarina-grove-beach-shacks.webp",
+   "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/jampore-beach/jampore-beach-sunset-silhouette.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "jampui-hills-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/tripura/jampui-hills/misty-hill-valley-view.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "jamshedpur-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/chandigarh/hero.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "janakpuri-delhi-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/delhi/janakpuri/janakpuri-west-metro-interchange-signage.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "japanese-garden-chandigarh-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "jawai-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 1,
+  "at": "2026-09-25 09:06"
+ },
+ "jeypore-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "jhansi-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/uttar-pradesh/jhansi/jhansi-fort-ramparts.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "jhargram-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 2,
+  "removed_unverified": [
+   "/images/blogs/west-bengal/jhargram/chilkigarh-raj-palace-facade-jhargram.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "jharkhand-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 4,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/jharkhand/jharkhand/dassam-falls-near-ranchi-jharkhand.webp",
+   "/images/blogs/jharkhand/jharkhand/netarhat-sunset-hills-jharkhand.webp",
+   "/images/blogs/jharkhand/jharkhand/betla-national-park-entrance-gate-jharkhand.webp",
+   "/images/blogs/jharkhand/jharkhand/baidyanath-temple-deoghar-jharkhand.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "jibhi-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/manali/rohtang-pass.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "jim-corbett-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 4,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/uttarakhand/jim-corbett/forest-safari-track-sal-trees-jim-corbett.webp",
+   "/images/blogs/uttarakhand/jim-corbett/elephant-herd-dhikala-grassland-jim-corbett.webp",
+   "/images/blogs/uttarakhand/jim-corbett/garjiya-devi-temple-kosi-river-ramnagar.webp",
+   "/images/blogs/uttarakhand/jim-corbett/kosi-river-resort-belt-ramnagar.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "jodhpur-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 4,
+  "at": "2026-09-25 09:06"
+ },
+ "jog-falls-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/coorg/abbey-falls.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "jolly-buoy-island-andaman-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/andaman/hero.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "jorhat-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/coorg/abbey-falls.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "jowai-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "junagadh-girnar-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/manali/rohtang-pass.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "kaas-plateau-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 2,
+  "removed_unverified": [
+   "/images/destinations/meghalaya/hero.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "kabini-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/meghalaya/hero.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "kalimpong-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 1,
+  "removed_unverified": [
+   "/images/blogs/west-bengal/kalimpong/zang-dhok-palri-phodang-monastery-kalimpong.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "kalipur-andaman-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/andaman/hero.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "kamakhya-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/jaisalmer/hero.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "kanchipuram-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 2,
+  "removed_unverified": [
+   "/images/blogs/tamil-nadu/kanchipuram/ekambareswarar-temple-gopuram-kanchipuram.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "kanger-valley-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/ziro/hero.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "kangpokpi-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/manipur/kangpokpi/pineapple-terraces-kangpokpi-manipur.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "kanha-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/meghalaya/dawki-river.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "kanker-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/udaipur/saheliyon.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "kannauj-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/uttar-pradesh/kannauj/camel-skin-attar-perfume-bottles.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "kannur-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 2,
+  "removed_unverified": [
+   "/images/destinations/goa/hero.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "kanyakumari-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 3,
+  "at": "2026-09-25 09:06"
+ },
+ "kapurthala-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 1,
+  "at": "2026-09-25 09:06"
+ },
+ "karaikal-district-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 4,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/puducherry/karaikal-district/karaikal-ammaiyar-temple-facade-relief.webp",
+   "/images/blogs/puducherry/karaikal-district/karaikal-lighthouse-beach-view.webp",
+   "/images/blogs/puducherry/karaikal-district/nala-theertham-tank-dawn-tirunallar.webp",
+   "/images/blogs/puducherry/karaikal-district/swayambunathaswamy-temple-nedungadu-village.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "kargil-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 5,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/ladakh/kargil/kargil-war-memorial-drass.webp",
+   "/images/blogs/ladakh/kargil/mulbekh-chamba-buddha-rock-cut-statue.webp",
+   "/images/blogs/ladakh/kargil/kargil-town-bazaar-street-market.webp",
+   "/images/blogs/ladakh/kargil/nun-kun-massif-suru-valley-panikhar.webp",
+   "/images/blogs/ladakh/zanskar-valley/drang-drung-glacier-pensi-la.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "karnataka-travel-guide": {
+  "hero": 1,
+  "replaced": 1,
+  "removed": 3,
+  "added": 2,
+  "removed_unverified": [
+   "/images/blogs/karnataka/karnataka/bangalore-palace-tudor-facade.webp",
+   "/images/blogs/karnataka/karnataka/mysore-palace-arches-view.webp",
+   "/images/blogs/karnataka/karnataka/hoysaleswara-temple-halebidu.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "karol-bagh-delhi-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 2,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/delhi/karol-bagh/ajmal-khan-road-clothing-shops-karol-bagh.webp",
+   "/images/blogs/delhi/karol-bagh/gaffar-market-electronics-lane-karol-bagh.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "kasauli-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 2,
+  "removed_unverified": [
+   "/images/destinations/chandigarh/hero.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "kashmere-gate-delhi-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 4,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/delhi/kashmere-gate/kashmere-gate-sandstone-facade-traffic-island.webp",
+   "/images/blogs/delhi/kashmere-gate/st-james-church-cream-dome-exterior.webp",
+   "/images/blogs/delhi/kashmere-gate/nicholson-cemetery-gravestones-old-delhi.webp",
+   "/images/blogs/delhi/kashmere-gate/kashmere-gate-isbt-bus-terminal.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "kasol-kheerganga-trek-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 4,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/kasol/tosh-village-parvati-valley-real.webp",
+   "/images/destinations/kasol/malana-village-himachal.webp",
+   "/images/destinations/kasol/manikaran-sahib-hot-spring-temple.webp",
+   "/images/destinations/kasol/kheerganga-hot-spring-pool.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "katra-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 4,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/jammu-and-kashmir/katra/katra-town-aerial-view-jammu-kashmir.webp",
+   "/images/blogs/jammu-and-kashmir/katra/banganga-checkpoint-holy-stream-katra.webp",
+   "/images/blogs/jammu-and-kashmir/katra/ardhkuwari-cave-shrine-vaishno-devi-trek.webp",
+   "/images/blogs/jammu-and-kashmir/katra/bhairon-temple-katra-vaishno-devi.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "kausani-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 1,
+  "removed_unverified": [
+   "/images/blogs/uttarakhand/kausani/nanda-devi-trisul-himalayan-range-kausani.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "kavaratti-island-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 4,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/lakshadweep/kavaratti-island/kavaratti-beach-view-from-lighthouse.webp",
+   "/images/blogs/lakshadweep/kavaratti-island/kavaratti-lagoon-beach-sailboat.webp",
+   "/images/blogs/lakshadweep/kavaratti-island/kavaratti-aquarium-reef-fish.webp",
+   "/images/blogs/lakshadweep/kavaratti-island/kavaratti-fishing-boat-open-water.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "kawal-tiger-reserve-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/telangana/kawal-tiger-reserve/dry-deciduous-forest-grassland-kawal-tiger-reserve.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "kawardha-travel-guide": {
+  "hero": 1,
+  "replaced": 1,
+  "removed": 0,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "kaziranga-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/ziro/hero.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "kedarnath-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 1,
+  "removed_unverified": [
+   "/images/blogs/uttarakhand/kedarnath/kedarnath-temple-hillside-mountain-view.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "keibul-lamjao-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/manipur/keibul-lamjao/sangai-brow-antlered-deer-keibul-lamjao.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "kerala-backwaters-travel-guide": {
+  "hero": 1,
+  "replaced": 1,
+  "removed": 4,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/kerala/kerala/kumarakom-vembanad-lake-houseboats.webp",
+   "/images/blogs/kerala/kerala/ashtamudi-lake-boats-kollam.webp",
+   "/images/blogs/kerala/kerala/munroe-island-village-canal.webp",
+   "/images/blogs/kerala/kerala/kuttanad-paddy-fields-below-sea-level.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "khajjiar-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/ziro/hero.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "khajuraho-travel-guide": {
+  "hero": 0,
+  "replaced": 1,
+  "removed": 0,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "khanvel-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 3,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/khanvel/forest-owlet-dadra-nagar-haveli.webp",
+   "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/satmaliya-deer-sanctuary/spotted-deer-fawn-satmaliya-deer-park.webp",
+   "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/madhuban-dam/madhuban-dam-reservoir-view-silvassa.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "khardung-la-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 3,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/ladakh/khardung-la/khardung-la-summit-signboard-snow.webp",
+   "/images/blogs/ladakh/khardung-la/khardung-la-indus-valley-view-from-summit.webp",
+   "/images/blogs/ladakh/khardung-la/khardung-la-army-checkpost-prayer-flags.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "khatu-shyam-ji-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "khecheopalri-lake-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 1,
+  "at": "2026-09-25 09:06"
+ },
+ "khonoma-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "kinnaur-travel-guide": {
+  "hero": 1,
+  "replaced": 1,
+  "removed": 0,
+  "added": 3,
+  "at": "2026-09-25 09:06"
+ },
+ "kisama-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "kochi-travel-guide": {
+  "hero": 1,
+  "replaced": 1,
+  "removed": 0,
+  "added": 2,
+  "at": "2026-09-25 09:06"
+ },
+ "kodaikanal-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 4,
+  "at": "2026-09-25 09:06"
+ },
+ "kohima-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 2,
+  "at": "2026-09-25 09:06"
+ },
+ "kolhapur-travel-guide": {
+  "hero": 1,
+  "replaced": 1,
+  "removed": 0,
+  "added": 3,
+  "at": "2026-09-25 09:06"
+ },
+ "kolkata-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 7,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/west-bengal/kolkata/victoria-memorial-west-facade-kolkata.webp",
+   "/images/blogs/west-bengal/kolkata/mullick-ghat-flower-market-howrah-bridge-kolkata.webp",
+   "/images/blogs/west-bengal/kolkata/indian-museum-entrance-facade-kolkata.webp",
+   "/images/blogs/west-bengal/kolkata/dakshineswar-kali-temple-hooghly-river-kolkata.webp",
+   "/images/blogs/west-bengal/kolkata/college-street-book-market-kolkata.webp",
+   "/images/blogs/west-bengal/kolkata/kumartuli-idol-makers-workshop-kolkata.webp",
+   "/images/blogs/west-bengal/kolkata/kolkata-heritage-tram-street.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "kolli-hills-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 2,
+  "at": "2026-09-25 09:06"
+ },
+ "konark-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 1,
+  "at": "2026-09-25 09:06"
+ },
+ "koraput-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "kovalam-travel-guide": {
+  "hero": 1,
+  "replaced": 1,
+  "removed": 0,
+  "added": 2,
+  "at": "2026-09-25 09:06"
+ },
+ "krang-suri-falls-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "kullu-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/manali/hadimba-temple.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "kumarakom-travel-guide": {
+  "hero": 1,
+  "replaced": 1,
+  "removed": 0,
+  "added": 2,
+  "at": "2026-09-25 09:06"
+ },
+ "kumbhalgarh-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 2,
+  "at": "2026-09-25 09:06"
+ },
+ "kuno-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 0,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "kuntala-waterfall-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/telangana/kuntala-waterfall/kuntala-waterfall-valley-view-adilabad.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "kurukshetra-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/jaisalmer/hero.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "kushinagar-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/uttar-pradesh/kushinagar/ramabhar-stupa-kushinagar.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "lachen-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 2,
+  "at": "2026-09-25 09:06"
+ },
+ "lachung-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 1,
+  "at": "2026-09-25 09:06"
+ },
+ "laitlum-canyons-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "lajpat-nagar-delhi-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 2,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/delhi/lajpat-nagar/lajpat-nagar-crowded-market-lane.webp",
+   "/images/blogs/delhi/lajpat-nagar/golgappe-street-food-stall.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "laknavaram-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/telangana/laknavaram/laknavaram-lake-forested-islands-mulugu.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "lakshadweep-island-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 2,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/lakshadweep/agatti-island/agatti-island-lagoon-beach.webp",
+   "/images/blogs/lakshadweep/kavaratti-island/kavaratti-lagoon-fishing-boats.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "lamayuru-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 3,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/ladakh/lamayuru/lamayuru-moonscape-eroded-badlands.webp",
+   "/images/blogs/ladakh/lamayuru/lamayuru-monastery-entrance-prayer-flags.webp",
+   "/images/blogs/ladakh/lamayuru/wanla-gompa-monastery-ridge.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "lambasingi-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/manali/solang-valley.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "lansdowne-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/uttarakhand/lansdowne/bhulla-tal-lake-bridge-lansdowne.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "laxmi-nagar-delhi-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 3,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/delhi/laxmi-nagar/nirman-vihar-metro-station-signboard.webp",
+   "/images/blogs/delhi/laxmi-nagar/laxmi-nagar-street-shop-signboards.webp",
+   "/images/blogs/delhi/laxmi-nagar/golgappa-chaat-street-food.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "le-corbusier-centre-chandigarh-travel-guide": {
+  "hero": 0,
+  "replaced": 1,
+  "removed": 0,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "leh-ladakh-road-trip-travel-guide": {
+  "hero": 1,
+  "replaced": 1,
+  "removed": 6,
+  "added": 1,
+  "removed_unverified": [
+   "/images/blogs/ladakh/pangong-lake/pangong-tso-turquoise-water-mountains.webp",
+   "/images/blogs/ladakh/nubra-valley/hunder-dunes-bactrian-camels-nubra-valley.webp",
+   "/images/blogs/ladakh/khardung-la/khardung-la-winding-pass-road.webp",
+   "/images/blogs/ladakh/thiksey/thiksey-monastery-hilltop-view.webp",
+   "/images/blogs/ladakh/tso-moriri/tso-moriri-lake-korzok-village.webp",
+   "/images/blogs/ladakh/zanskar-valley/phugtal-monastery-cliff-zanskar.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "leh-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 6,
+  "added": 1,
+  "removed_unverified": [
+   "/images/destinations/leh-ladakh/leh-palace-facade-old-town.webp",
+   "/images/destinations/leh-ladakh/leh-market-main-bazaar.webp",
+   "/images/destinations/leh-ladakh/shanti-stupa-leh.webp",
+   "/images/destinations/leh-ladakh/namgyal-tsemo-fort-gompa.webp",
+   "/images/destinations/leh-ladakh/hall-of-fame-museum-leh.webp",
+   "/images/destinations/leh-ladakh/sankar-gompa-monastery-leh.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "leisure-valley-chandigarh-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 2,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/chandigarh/leisure-valley/leisure-valley-tree-lined-walking-trail.webp",
+   "/images/blogs/chandigarh/rose-garden/close-up-rose-bloom-zakir-hussain-rose-garden.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "little-andaman-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/andaman/hero.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "lodhi-garden-delhi-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 5,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/delhi/lodhi-garden/lodhi-garden-tomb-of-sikandar-lodi.webp",
+   "/images/blogs/delhi/lodhi-garden/mohammed-shah-tomb-lodhi-garden-delhi.webp",
+   "/images/blogs/delhi/lodhi-garden/bara-gumbad-lodhi-garden-delhi.webp",
+   "/images/blogs/delhi/lodhi-garden/sheesh-gumbad-lodhi-garden-delhi.webp",
+   "/images/blogs/delhi/lodhi-garden/athpula-bridge-lodhi-garden-delhi.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "loktak-lake-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/manipur/loktak-lake/loktak-lake-phumdi-floating-vegetation.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "lonavala-travel-guide": {
+  "hero": 0,
+  "replaced": 1,
+  "removed": 0,
+  "added": 2,
+  "at": "2026-09-25 09:06"
+ },
+ "long-island-andaman-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/andaman/hero.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "longtharai-valley-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/tripura/longtharai-valley/forest-road-gandacherra-dhalai-district-tripura.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "longwa-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "lucknow-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 6,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/uttar-pradesh/lucknow/bhul-bhulaiya-labyrinth-interior-bara-imambara.webp",
+   "/images/blogs/uttar-pradesh/lucknow/chota-imambara-lucknow.webp",
+   "/images/blogs/uttar-pradesh/lucknow/rumi-darwaza-gateway-lucknow.webp",
+   "/images/blogs/uttar-pradesh/lucknow/lucknow-residency-ruins-1857-revolt.webp",
+   "/images/blogs/uttar-pradesh/lucknow/chikankari-embroidery-lucknow.webp",
+   "/images/blogs/uttar-pradesh/lucknow/galouti-kebab-tunday-kababi-lucknow.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "madhuban-dam-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/madhuban-dam/madhuban-dam-reservoir-view-silvassa.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "madhubani-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/udaipur/saheliyon.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "madhya-pradesh-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 5,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/madhya-pradesh/madhya-pradesh/kandariya-mahadeva-temple-khajuraho-sunset.webp",
+   "/images/blogs/madhya-pradesh/madhya-pradesh/bengal-tiger-bandhavgarh-national-park.webp",
+   "/images/blogs/madhya-pradesh/madhya-pradesh/gwalior-fort-hilltop-fortress-madhya-pradesh.webp",
+   "/images/blogs/madhya-pradesh/madhya-pradesh/great-stupa-sanchi-buddhist-monument.webp",
+   "/images/blogs/madhya-pradesh/madhya-pradesh/mahakaleshwar-jyotirlinga-temple-ujjain.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "madurai-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 3,
+  "removed_unverified": [
+   "/images/blogs/tamil-nadu/madurai/meenakshi-temple-thousand-pillar-hall-madurai.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "mahabaleshwar-travel-guide": {
+  "hero": 1,
+  "replaced": 1,
+  "removed": 0,
+  "added": 2,
+  "at": "2026-09-25 09:06"
+ },
+ "mahabalipuram-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 1,
+  "removed_unverified": [
+   "/images/blogs/tamil-nadu/mahabalipuram/pancha-rathas-rock-cut-monuments-mahabalipuram.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "maharashtra-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 5,
+  "added": 2,
+  "removed_unverified": [
+   "/images/blogs/maharashtra/mumbai/gateway-of-india-evening-mumbai.webp",
+   "/images/blogs/maharashtra/maharashtra/ajanta-caves-rock-cut-facade-maharashtra.webp",
+   "/images/blogs/maharashtra/maharashtra/lonavala-valley-misty-hills-sahyadri.webp",
+   "/images/blogs/maharashtra/maharashtra/mahabaleshwar-needle-hole-point-rock-formation.webp",
+   "/images/blogs/maharashtra/maharashtra/sindhudurg-fort-island-malvan-coast.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "mahe-district-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 3,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/puducherry/mahe-district/mahe-walkway-riverfront-promenade-lampposts.webp",
+   "/images/blogs/puducherry/mahe-district/st-teresas-shrine-entrance-mahe.webp",
+   "/images/blogs/puducherry/mahe-district/mahe-beach-fishing-boats-shoreline.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "mainpat-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/manali/solang-valley.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "majnu-ka-tilla-delhi-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 3,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/delhi/majnu-ka-tilla/majnu-ka-tilla-narrow-market-lane-shops.webp",
+   "/images/blogs/delhi/majnu-ka-tilla/steamed-momos-chilli-chutney.webp",
+   "/images/blogs/delhi/majnu-ka-tilla/tibetan-monastery-entrance-prayer-wheels.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "majuli-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/kerala/alleppey.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "manali-travel-guide": {
+  "hero": 0,
+  "replaced": 3,
+  "removed": 0,
+  "added": 1,
+  "at": "2026-09-25 09:06"
+ },
+ "manas-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/meghalaya/hero.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "mandarmani-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 1,
+  "removed_unverified": [
+   "/images/blogs/west-bengal/mandarmani/mandarmani-beach-fishing-boats-stormy-sky.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "mandawa-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 1,
+  "at": "2026-09-25 09:06"
+ },
+ "mandrem-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/jammu-kashmir/dal.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "mandu-travel-guide": {
+  "hero": 1,
+  "replaced": 1,
+  "removed": 0,
+  "added": 2,
+  "at": "2026-09-25 09:06"
+ },
+ "mandvi-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 2,
+  "removed_unverified": [
+   "/images/destinations/goa/beach.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "mangaluru-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 2,
+  "removed_unverified": [
+   "/images/destinations/goa/hero.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "manipur-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 3,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/manipur/imphal/kangla-fort-gate-imphal.webp",
+   "/images/blogs/manipur/manipur/loktak-lake-floating-islands-manipur.webp",
+   "/images/blogs/manipur/moirang/ina-memorial-complex-moirang-manipur.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "maredumilli-travel-guide": {
+  "hero": 0,
+  "replaced": 1,
+  "removed": 0,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "massanjore-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/kerala/hero.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "matheran-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 3,
+  "removed_unverified": [
+   "/images/destinations/ziro/hero.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "mathura-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 1,
+  "at": "2026-09-25 09:06"
+ },
+ "mawlynnong-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 1,
+  "at": "2026-09-25 09:06"
+ },
+ "mawphanlur-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "mayabunder-andaman-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/andaman/hero.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "mayapur-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 1,
+  "removed_unverified": [
+   "/images/blogs/west-bengal/mayapur/iskcon-sri-krishna-temple-mayapur.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "mechuka-travel-guide": {
+  "hero": 0,
+  "replaced": 1,
+  "removed": 0,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "medaram-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/telangana/medaram/sammakka-gadde-shrine-jatara-crowd-medaram.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "meghalaya-travel-guide": {
+  "hero": 1,
+  "replaced": 1,
+  "removed": 4,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/meghalaya/meghalaya/single-decker-root-bridge-riwai.webp",
+   "/images/blogs/meghalaya/meghalaya/nohkalikai-falls-cherrapunji.webp",
+   "/images/blogs/meghalaya/meghalaya/mawlynnong-cleanest-village-meghalaya.webp",
+   "/images/blogs/meghalaya/meghalaya/wards-lake-shillong.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "meghamalai-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 1,
+  "at": "2026-09-25 09:06"
+ },
+ "mehrauli-delhi-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 4,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/delhi/mehrauli/qutub-minar-tower-ruins-mehrauli.webp",
+   "/images/blogs/delhi/mehrauli/jamali-kamali-mosque-tomb-mehrauli-archaeological-park.webp",
+   "/images/blogs/delhi/mehrauli/rajon-ki-baoli-stepwell-mehrauli.webp",
+   "/images/blogs/delhi/mehrauli/dargah-qutub-sahib-mehrauli-village.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "mirzapur-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/uttar-pradesh/mirzapur/chunar-fort-mirzapur.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "mizoram-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 4,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/mizoram/mizoram/aizawl-city-street-mizoram.webp",
+   "/images/blogs/mizoram/mizoram/reiek-heritage-village-mizoram.webp",
+   "/images/blogs/mizoram/mizoram/vantawng-falls-mizoram.webp",
+   "/images/blogs/mizoram/mizoram/tam-dil-lake-mizoram.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "mohali-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "moirang-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/manipur/moirang/ina-memorial-complex-moirang-manipur.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "mokokchung-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "mollem-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 2,
+  "removed_unverified": [
+   "/images/destinations/ziro/hero.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "mon-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "moreh-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/manipur/moreh/indo-myanmar-friendship-gate-moreh.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "morjim-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/meghalaya/hero.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "morni-hills-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/coorg/coorg.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "moti-daman-fort-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 4,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/moti-daman-fort/moti-daman-fort-rampart-stairway-archway.webp",
+   "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/moti-daman/bom-jesus-church-interior-altar.webp",
+   "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/moti-daman/moti-daman-fort-gate-arch.webp",
+   "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/moti-daman-fort/moti-daman-fort-lighthouse-estuary-view.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "moti-daman-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 4,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/moti-daman/moti-daman-fort-gate-arch.webp",
+   "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/moti-daman/dominican-monastery-ruins-moti-daman.webp",
+   "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/moti-daman/freedom-memorial-liberation-monument-moti-daman.webp",
+   "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/moti-daman/moti-daman-fort-inner-gate-ruins.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "mount-abu-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 2,
+  "at": "2026-09-25 09:06"
+ },
+ "mount-manipur-andaman-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/andaman/hero.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "mount-saramati-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "mukteshwar-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 1,
+  "removed_unverified": [
+   "/images/blogs/uttarakhand/mukteshwar/himalayan-sunset-ridge-view-mukteshwar.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "mukutmanipur-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/west-bengal/mukutmanipur/mukutmanipur-dam-reservoir-bankura.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "mumbai-travel-guide": {
+  "hero": 0,
+  "replaced": 1,
+  "removed": 1,
+  "added": 3,
+  "removed_unverified": [
+   "/images/blogs/maharashtra/mumbai/chhatrapati-shivaji-terminus-mumbai.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "munnar-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 2,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/kerala/munnar/eravikulam-national-park-munnar.webp",
+   "/images/blogs/kerala/munnar/mattupetty-dam-munnar.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "munroe-island-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/andaman/havelock.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "munsiyari-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 4,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/uttarakhand/munsiyari/panchachuli-range-clear-daytime-view-munsiyari.webp",
+   "/images/blogs/uttarakhand/munsiyari/thamri-kund-forest-trek-panchachuli-view.webp",
+   "/images/blogs/uttarakhand/munsiyari/nanda-devi-temple-munsiyari-town.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "murlen-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "murshidabad-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 2,
+  "removed_unverified": [
+   "/images/blogs/west-bengal/murshidabad/hazarduari-palace-front-lawn-murshidabad.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "murthal-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 0,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "mussoorie-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 5,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/uttarakhand/mussoorie/mussoorie-mall-road-street-view.webp",
+   "/images/blogs/uttarakhand/mussoorie/gun-hill-ropeway-cable-car-station.webp",
+   "/images/blogs/uttarakhand/mussoorie/kempty-falls-waterfall-pools-mussoorie.webp",
+   "/images/blogs/uttarakhand/mussoorie/company-garden-flower-path-mussoorie.webp",
+   "/images/blogs/uttarakhand/mussoorie/george-everest-house-ruins-landour.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "mysuru-travel-guide": {
+  "hero": 1,
+  "replaced": 1,
+  "removed": 0,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "nagaland-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 4,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/nagaland/nagaland/hornbill-festival-kisama-heritage-village-nagaland.webp",
+   "/images/blogs/nagaland/nagaland/kohima-war-cemetery-memorial-wall-nagaland.webp",
+   "/images/blogs/nagaland/nagaland/dzukou-valley-rolling-green-hills-nagaland.webp",
+   "/images/blogs/nagaland/nagaland/khonoma-green-village-nagaland.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "nagarjuna-sagar-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 2,
+  "removed_unverified": [
+   "/images/blogs/telangana/nagarjuna-sagar/nagarjuna-sagar-masonry-dam-crest-gates.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "nagoa-beach-travel-guide": {
+  "hero": 0,
+  "replaced": 1,
+  "removed": 2,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/nagoa-beach/nagoa-beach-watersports-equipment-shoreline.webp",
+   "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/nagoa-beach/nagoa-beach-sunset-diu.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "naida-caves-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/naida-caves/naida-caves-sunlit-rock-formations.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "naimisharanya-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/uttar-pradesh/naimisharanya/chakra-tirtha-sacred-pond.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "nainital-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 2,
+  "removed_unverified": [
+   "/images/blogs/uttarakhand/nainital/colorful-boats-naini-lake-nainital.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "najafgarh-delhi-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/delhi/najafgarh/najafgarh-drain-aerial-view.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "nalanda-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/hampi/virupaksha.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "namchi-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 1,
+  "at": "2026-09-25 09:06"
+ },
+ "namdapha-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/meghalaya/dawki-river.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "nameri-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/meghalaya/dawki-river.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "namsai-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/jaisalmer/hero.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "nandi-hills-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/manali/rohtang-pass.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "nani-daman-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 3,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/nani-daman/nani-daman-fort-archway-stairway.webp",
+   "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/nani-daman/nani-daman-fishing-boats-harbour.webp",
+   "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/nani-daman/daman-lighthouse-old-and-new-towers.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "narnaul-travel-guide": {
+  "hero": 1,
+  "replaced": 1,
+  "removed": 0,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "nashik-travel-guide": {
+  "hero": 1,
+  "replaced": 1,
+  "removed": 0,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "nathula-pass-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 1,
+  "at": "2026-09-25 09:06"
+ },
+ "neil-island-andaman-travel-guide": {
+  "hero": 1,
+  "replaced": 1,
+  "removed": 0,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "netarhat-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/manali/solang-valley.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "new-delhi-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 6,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/delhi/new-delhi/india-gate-lawns-new-delhi.webp",
+   "/images/blogs/delhi/new-delhi/kartavya-path-rajpath-boulevard-new-delhi.webp",
+   "/images/blogs/delhi/new-delhi/rashtrapati-bhavan-facade-new-delhi.webp",
+   "/images/blogs/delhi/new-delhi/sansad-bhavan-parliament-house-new-delhi.webp",
+   "/images/blogs/delhi/new-delhi/jantar-mantar-samrat-yantra-new-delhi.webp",
+   "/images/blogs/delhi/new-delhi/national-museum-facade-new-delhi.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "nizamuddin-delhi-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 6,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/delhi/nizamuddin/nizamuddin-dargah-courtyard-shops-delhi.webp",
+   "/images/blogs/delhi/nizamuddin/qawwali-performance-nizamuddin-dargah-delhi.webp",
+   "/images/blogs/delhi/nizamuddin/humayuns-tomb-mughal-garden-delhi.webp",
+   "/images/blogs/delhi/nizamuddin/mirza-ghalib-tomb-complex-delhi.webp",
+   "/images/blogs/delhi/nizamuddin/sunder-nursery-heritage-park-delhi.webp",
+   "/images/blogs/delhi/nizamuddin/nizamuddin-basti-lane-entrance-delhi.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "nongriat-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 2,
+  "at": "2026-09-25 09:06"
+ },
+ "north-bay-island-andaman-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 1,
+  "at": "2026-09-25 09:06"
+ },
+ "nubra-valley-travel-guide": {
+  "hero": 0,
+  "replaced": 2,
+  "removed": 3,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/ladakh/nubra-valley/diskit-monastery-maitreya-buddha-statue.webp",
+   "/images/blogs/ladakh/nubra-valley/samstanling-monastery-sumur-nubra-valley.webp",
+   "/images/blogs/ladakh/nubra-valley/ensa-gompa-wall-murals-nubra-valley.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "odisha-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 5,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/odisha/odisha/jagannath-temple-shikhara-puri.webp",
+   "/images/blogs/odisha/odisha/konark-sun-temple-facade-scaffolding-visitors.webp",
+   "/images/blogs/odisha/odisha/lingaraj-temple-complex-bhubaneswar.webp",
+   "/images/blogs/odisha/odisha/chilika-lake-tourist-boat-satapada.webp",
+   "/images/blogs/odisha/odisha/pattachitra-paintings-raghurajpur-village.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "old-delhi-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 6,
+  "added": 1,
+  "removed_unverified": [
+   "/images/blogs/delhi/old-delhi/jama-masjid-minaret-view-rooftops-old-delhi.webp",
+   "/images/blogs/delhi/chandni-chowk/chandni-chowk-bazaar-street-scene.webp",
+   "/images/blogs/delhi/old-delhi/kinari-bazaar-lane-old-delhi.webp",
+   "/images/blogs/delhi/old-delhi/fatehpuri-masjid-facade-old-delhi.webp",
+   "/images/blogs/delhi/old-delhi/gurudwara-sis-ganj-sahib-entrance-old-delhi.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "old-goa-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 3,
+  "removed_unverified": [
+   "/images/destinations/hampi/hero.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "omkareshwar-travel-guide": {
+  "hero": 1,
+  "replaced": 1,
+  "removed": 0,
+  "added": 2,
+  "at": "2026-09-25 09:06"
+ },
+ "ooty-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 4,
+  "at": "2026-09-25 09:06"
+ },
+ "orchha-travel-guide": {
+  "hero": 1,
+  "replaced": 1,
+  "removed": 0,
+  "added": 3,
+  "at": "2026-09-25 09:06"
+ },
+ "osian-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "pachmarhi-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 3,
+  "removed_unverified": [
+   "/images/destinations/coorg/coorg.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "padum-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 5,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/ladakh/padum/padum-fort-pipiting-ruins-town-view.webp",
+   "/images/blogs/ladakh/zanskar-valley/karsha-monastery-cascading-hillside-view.webp",
+   "/images/blogs/ladakh/padum/kanika-chaitya-stupa-sani-monastery.webp",
+   "/images/blogs/ladakh/padum/stongdey-monastery-hillside-zanskar.webp",
+   "/images/blogs/ladakh/padum/zangla-fort-palace-ruins-zanskar.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "pahalgam-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 4,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/jammu-and-kashmir/pahalgam/pahalgam-valley-lidder-river-forest.webp",
+   "/images/destinations/jammu-kashmir/aru-valley-pahalgam.webp",
+   "/images/destinations/jammu-kashmir/chandanwari-snow-bridge-lidder-river.webp",
+   "/images/destinations/jammu-kashmir/baisaran-meadow-pahalgam.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "paharganj-delhi-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 4,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/delhi/paharganj/new-delhi-railway-station-ajmeri-gate-paharganj.webp",
+   "/images/blogs/delhi/paharganj/main-bazaar-paharganj-street-scene.webp",
+   "/images/blogs/delhi/paharganj/paharganj-main-bazaar-luggage-shop.webp",
+   "/images/blogs/delhi/paharganj/paharganj-guesthouse-lane-old-buildings.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "pakke-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/coorg/abbey-falls.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "palak-dil-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "palitana-travel-guide": {
+  "hero": 0,
+  "replaced": 1,
+  "removed": 0,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "palolem-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/kerala/alleppey.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "pangong-lake-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 5,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/ladakh/pangong-lake/chang-la-pass-signboard-ladakh.webp",
+   "/images/blogs/ladakh/pangong-lake/shyok-river-valley-nubra.webp",
+   "/images/blogs/ladakh/pangong-lake/pangong-tso-shoreline-colour-change.webp",
+   "/images/blogs/ladakh/pangong-lake/pangong-lake-tent-camps-shore.webp",
+   "/images/blogs/ladakh/pangong-lake/pangong-lake-south-shore-spangmik.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "panipat-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/hampi/hero.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "panjim-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/goa/hero.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "panna-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/meghalaya/hero.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "papi-hills-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/kerala/hero.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "parasnath-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/spiti-valley/spiti-valley.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "pasighat-travel-guide": {
+  "hero": 1,
+  "replaced": 1,
+  "removed": 0,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "patan-travel-guide": {
+  "hero": 1,
+  "replaced": 1,
+  "removed": 0,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "patiala-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 1,
+  "at": "2026-09-25 09:06"
+ },
+ "patna-travel-guide": {
+  "hero": 1,
+  "replaced": 1,
+  "removed": 0,
+  "added": 2,
+  "at": "2026-09-25 09:06"
+ },
+ "patnitop-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 3,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/jammu-and-kashmir/patnitop/paragliding-launch-sanasar-meadow.webp",
+   "/images/blogs/jammu-and-kashmir/patnitop/sanasar-lake-meadow-forest.webp",
+   "/images/blogs/jammu-and-kashmir/patnitop/nathatop-viewpoint-snow-covered.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "patratu-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/manali/rohtang-pass.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "pawapuri-travel-guide": {
+  "hero": 1,
+  "replaced": 1,
+  "removed": 0,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "pelling-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 4,
+  "at": "2026-09-25 09:06"
+ },
+ "peren-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "phawngpui-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "phek-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "pilibhit-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/uttar-pradesh/pilibhit/chuka-spot-forest-pilibhit-tiger-reserve.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "pinjore-travel-guide": {
+  "hero": 0,
+  "replaced": 1,
+  "removed": 0,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "pobitora-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/kerala/hero.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "polo-forest-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/meghalaya/dawki-river.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "ponda-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 2,
+  "removed_unverified": [
+   "/images/destinations/coorg/coorg.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "port-blair-andaman-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/andaman/hero.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "prashar-lake-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/jammu-kashmir/dal.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "prayagraj-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 1,
+  "removed_unverified": [
+   "/images/blogs/uttar-pradesh/prayagraj/triveni-sangam-boats-prayagraj.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "puducherry-district-travel-guide": {
+  "hero": 1,
+  "replaced": 1,
+  "removed": 4,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/puducherry/puducherry/auroville-matrimandir-golden-dome.webp",
+   "/images/blogs/puducherry/puducherry/villianur-temple-gopuram-tank.webp",
+   "/images/blogs/puducherry/puducherry/arikamedu-archaeological-site-ruins.webp",
+   "/images/blogs/puducherry/puducherry/bahour-lake-irrigation-tank.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "puducherry-french-quarter-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 3,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/puducherry/french.jpg",
+   "/images/blogs/puducherry/puducherry/auroville-matrimandir-golden-dome.webp",
+   "/images/destinations/puducherry/paradise-beach-chunnambar.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "pune-travel-guide": {
+  "hero": 1,
+  "replaced": 1,
+  "removed": 0,
+  "added": 3,
+  "at": "2026-09-25 09:06"
+ },
+ "punjab-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 4,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/punjab/punjab/golden-temple-amritsar-punjab.webp",
+   "/images/blogs/punjab/punjab/wagah-border-ceremony-crowds-amritsar.webp",
+   "/images/blogs/punjab/punjab/qila-mubarak-fort-patiala.webp",
+   "/images/blogs/punjab/punjab/takht-keshgarh-sahib-anandpur-sahib.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "puri-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 4,
+  "at": "2026-09-25 09:06"
+ },
+ "pushkar-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 3,
+  "at": "2026-09-25 09:06"
+ },
+ "radhanagar-beach-andaman-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/andaman/havelock.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "rajahmundry-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 2,
+  "removed_unverified": [
+   "/images/destinations/kerala/alleppey.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "rajasthan-desert-travel-guide": {
+  "hero": 1,
+  "replaced": 1,
+  "removed": 6,
+  "added": 1,
+  "removed_unverified": [
+   "/images/destinations/jaisalmer/patwon-ki-haveli-carved-facade.webp",
+   "/images/destinations/jaisalmer/nathmal-ki-haveli-carved-facade.webp",
+   "/images/destinations/jaisalmer/gadisar-lake-jaisalmer.webp",
+   "/images/destinations/jaisalmer/sam-sand-dunes-camel-safari.webp",
+   "/images/destinations/jaisalmer/khuri-village-mud-thatch-house.webp",
+   "/images/destinations/jaisalmer/kuldhara-abandoned-village-ruins.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "rajasthan-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 6,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/rajasthan/rajasthan/mehrangarh-fort-blue-city-jodhpur.webp",
+   "/images/blogs/rajasthan/rajasthan/pushkar-lake-ghats-rajasthan.webp",
+   "/images/blogs/rajasthan/udaipur/udaipur-city-palace-lake-pichola.webp",
+   "/images/blogs/rajasthan/rajasthan/jaisalmer-fort-sunrise-golden-city.webp",
+   "/images/blogs/rajasthan/ranthambore-first-time-visitors/ranthambore-fort-from-forest-below.webp",
+   "/images/blogs/rajasthan/rajasthan/vijay-stambh-victory-tower-chittorgarh-fort.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "rajgir-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 2,
+  "removed_unverified": [
+   "/images/destinations/coorg/coorg.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "rajrappa-travel-guide": {
+  "hero": 0,
+  "replaced": 1,
+  "removed": 0,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "rameswaram-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 1,
+  "removed_unverified": [
+   "/images/blogs/tamil-nadu/rameswaram/pamban-bridge-sea-rameswaram.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "ranchi-travel-guide": {
+  "hero": 1,
+  "replaced": 1,
+  "removed": 0,
+  "added": 3,
+  "at": "2026-09-25 09:06"
+ },
+ "rangat-andaman-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/andaman/hero.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "ranikhet-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 1,
+  "removed_unverified": [
+   "/images/blogs/uttarakhand/ranikhet/sunset-point-himalayan-hills-ranikhet.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "ranjit-sagar-dam-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "rann-of-kutch-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 2,
+  "removed_unverified": [
+   "/images/destinations/jaisalmer/hero.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "ranthambore-first-time-visitors-travel-guide": {
+  "hero": 0,
+  "replaced": 1,
+  "removed": 0,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "ranthambore-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 1,
+  "at": "2026-09-25 09:06"
+ },
+ "ravangla-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 4,
+  "at": "2026-09-25 09:06"
+ },
+ "reiek-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 1,
+  "at": "2026-09-25 09:06"
+ },
+ "rewari-travel-guide": {
+  "hero": 0,
+  "replaced": 1,
+  "removed": 0,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "rishikesh-adventure-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 6,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/rishikesh/rishikesh-white-water-rafting-ganga.webp",
+   "/images/destinations/rishikesh/rishikesh-neer-garh-waterfall.webp",
+   "/images/destinations/rishikesh/rishikesh-laxman-jhula-suspension-bridge.webp",
+   "/images/destinations/rishikesh/rishikesh-ram-jhula-bridge-ganga.webp",
+   "/images/destinations/rishikesh/rishikesh-parmarth-niketan-ganga-aarti.webp",
+   "/images/destinations/rishikesh/rishikesh-beatles-ashram-eggman-dome.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "rock-garden-chandigarh-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 3,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/chandigarh/rock-garden/rock-garden-narrow-passage-walkway-chandigarh.webp",
+   "/images/blogs/chandigarh/rock-garden/rock-garden-ceramic-mosaic-wall-detail-chandigarh.webp",
+   "/images/blogs/chandigarh/chandigarh/sukhna-lake-boating-promenade-chandigarh.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "rohini-delhi-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 3,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/delhi/rohini/delhi-metro-red-line-train.webp",
+   "/images/blogs/delhi/rohini/japanese-park-monkey-sculpture-lawns-rohini.webp",
+   "/images/blogs/delhi/rohini/adventure-island-entrance-metro-walk-rohini.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "roing-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/meghalaya/hero.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "rose-garden-chandigarh-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 3,
+  "added": 2,
+  "removed_unverified": [
+   "/images/blogs/chandigarh/rose-garden/rose-garden-chandigarh-tourism-entrance-signage.webp",
+   "/images/blogs/chandigarh/rose-garden/chandigarh-rose-festival-entrance-decoration.webp",
+   "/images/blogs/chandigarh/rose-garden/close-up-rose-bloom-zakir-hussain-rose-garden.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "ross-and-smith-islands-andaman-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/andaman/hero.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "ross-island-andaman-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/andaman/hero.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "rourkela-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 1,
+  "at": "2026-09-25 09:06"
+ },
+ "sabroom-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "sakleshpur-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/manali/solang-valley.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "sambalpur-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 3,
+  "at": "2026-09-25 09:06"
+ },
+ "sanchi-travel-guide": {
+  "hero": 1,
+  "replaced": 1,
+  "removed": 0,
+  "added": 3,
+  "at": "2026-09-25 09:06"
+ },
+ "sandakphu-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/west-bengal/sandakphu/kanchenjunga-range-view-sandakphu-singalila.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "santiniketan-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 3,
+  "removed_unverified": [
+   "/images/blogs/west-bengal/santiniketan/udayan-tagore-house-santiniketan.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "saputara-travel-guide": {
+  "hero": 1,
+  "replaced": 1,
+  "removed": 0,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "saranda-forest-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/coorg/abbey-falls.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "sarnath-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/uttar-pradesh/sarnath/dhamek-stupa-sarnath.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "sarojini-nagar-delhi-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 3,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/delhi/sarojini-nagar/earrings-accessory-stall-sarojini-nagar-market.webp",
+   "/images/blogs/delhi/sarojini-nagar/clothing-sale-stall-shoppers-sarojini-nagar.webp",
+   "/images/blogs/delhi/sarojini-nagar/haldiram-restaurant-near-sarojini-nagar-market.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "sasaram-travel-guide": {
+  "hero": 1,
+  "replaced": 1,
+  "removed": 0,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "satkosia-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "satmaliya-deer-sanctuary-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/satmaliya-deer-sanctuary/spotted-deer-fawn-satmaliya-deer-park.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "sector-17-chandigarh-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 3,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/chandigarh/sector-17/sector-17-bus-stand-isbt-chandigarh.webp",
+   "/images/blogs/chandigarh/sector-17/sector-17-plaza-water-cascade-sculpture-chandigarh.webp",
+   "/images/blogs/chandigarh/sector-17/neelam-theatre-facade-sector-17-chandigarh.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "sector-22-chandigarh-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/chandigarh/hero.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "sector-26-chandigarh-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/chandigarh/hero.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "sector-35-chandigarh-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/chandigarh/hero.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "sela-pass-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/leh-ladakh/leh-ladakh.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "senapati-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/manipur/senapati/dzukou-valley-rolling-naga-hills-senapati.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "sepahijala-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/tripura/sepahijala/spotted-deer-sepahijala-wildlife-sanctuary.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "serchhip-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 1,
+  "at": "2026-09-25 09:06"
+ },
+ "shanti-kunj-chandigarh-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/chandigarh/hero.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "shilloi-lake-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "shillong-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 2,
+  "at": "2026-09-25 09:06"
+ },
+ "shimla-travel-guide": {
+  "hero": 1,
+  "replaced": 1,
+  "removed": 0,
+  "added": 2,
+  "at": "2026-09-25 09:06"
+ },
+ "shirdi-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 0,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "shirui-hills-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/manipur/shirui-hills/shirui-lily-rare-flower-manipur.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "shnongpdeng-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "shravasti-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 2,
+  "removed_unverified": [
+   "/images/blogs/uttar-pradesh/shravasti/anathapindikas-stupa-jetavana-shravasti.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "siju-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "sikkim-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 4,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/sikkim/sikkim/mg-marg-pedestrian-street-gangtok-sikkim.webp",
+   "/images/blogs/sikkim/sikkim/tsomgo-changu-lake-east-sikkim.webp",
+   "/images/blogs/sikkim/sikkim/yumthang-valley-alpine-landscape-sikkim.webp",
+   "/images/blogs/sikkim/sikkim/kanchenjunga-peak-view-from-pelling-sikkim.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "silchar-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/udaipur/hero.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "silvassa-travel-guide": {
+  "hero": 0,
+  "replaced": 1,
+  "removed": 4,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/silvassa/chital-spotted-deer-forest.webp",
+   "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/madhuban-dam/madhuban-dam-reservoir-view-silvassa.webp",
+   "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/silvassa/vanganga-garden-silvassa-evening-path.webp",
+   "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/silvassa/warli-tribal-painting-mud-wall.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "similipal-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "sirpur-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 2,
+  "removed_unverified": [
+   "/images/destinations/hampi/hero.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "sivasagar-travel-guide": {
+  "hero": 1,
+  "replaced": 1,
+  "removed": 0,
+  "added": 3,
+  "at": "2026-09-25 09:06"
+ },
+ "somnath-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/jaisalmer/fort.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "sonamarg-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 5,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/jammu-and-kashmir/sonamarg/thajiwas-snowfield-pine-forest-trail.webp",
+   "/images/blogs/jammu-and-kashmir/sonamarg/sindh-river-winter-flow-sonamarg.webp",
+   "/images/blogs/jammu-and-kashmir/sonamarg/zoji-la-pass-valley-view.webp",
+   "/images/blogs/jammu-and-kashmir/sonamarg/baltal-last-village-kashmir-valley.webp",
+   "/images/blogs/jammu-and-kashmir/sonamarg/krishansar-lake-great-lakes-trek.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "south-delhi-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 7,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/delhi/hauz-khas/hauz-khas-fort-madrasa-ruins.webp",
+   "/images/blogs/delhi/south-delhi/greater-kailash-1-main-road-south-delhi.webp",
+   "/images/blogs/delhi/south-delhi/select-citywalk-mall-saket-south-delhi.webp",
+   "/images/blogs/delhi/vasant-kunj/vasant-kunj-aerial-ongc-ambience-complex.webp",
+   "/images/blogs/delhi/mehrauli/qutub-minar-tower-ruins-mehrauli.webp",
+   "/images/blogs/delhi/lodhi-garden/lodhi-garden-tomb-of-sikandar-lodi.webp",
+   "/images/blogs/delhi/south-delhi/chhatarpur-temple-shikhara-south-delhi.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "spiti-valley-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 6,
+  "added": 1,
+  "removed_unverified": [
+   "/images/destinations/spiti-valley/sakya-tangyud-monastery-kaza-spiti.webp",
+   "/images/destinations/spiti-valley/key-monastery-tiered-whitewash-spiti.webp",
+   "/images/destinations/spiti-valley/chandratal-lake-turquoise-mountains-spiti.webp",
+   "/images/destinations/spiti-valley/kibber-village-whitewashed-houses-spiti.webp",
+   "/images/destinations/spiti-valley/langza-buddha-statue-fossil-village-spiti.webp",
+   "/images/destinations/spiti-valley/dhankar-monastery-cliff-spiti.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "srinagar-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 3,
+  "added": 3,
+  "removed_unverified": [
+   "/images/destinations/jammu-kashmir/dal-lake-houseboat-srinagar.webp",
+   "/images/destinations/jammu-kashmir/nishat-bagh-mughal-garden-srinagar.webp",
+   "/images/destinations/jammu-kashmir/jama-masjid-old-city-srinagar.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "srisailam-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 1,
+  "removed_unverified": [
+   "/images/blogs/telangana/srisailam/mallikarjuna-bhramaramba-temple-gopuram-srisailam.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "statue-of-unity-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/hampi/hero.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "sukhna-lake-chandigarh-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 3,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/chandigarh/sukhna-lake/shikara-boat-sukhna-lake-chandigarh.webp",
+   "/images/blogs/chandigarh/sukhna-lake/pedal-boats-shivalik-hills-sukhna-lake.webp",
+   "/images/blogs/chandigarh/sukhna-lake/garden-of-silence-terraced-walkway-sukhna-lake.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "sultanpur-lodhi-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "sultanpur-national-park-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/kerala/alleppey.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "sundarbans-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/west-bengal/sundarbans/tourist-boat-mangrove-forest-sundarbans-national-park.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "surajkund-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/udaipur/saheliyon.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "surat-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/jammu-kashmir/dal.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "tadoba-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/meghalaya/dawki-river.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "tamdil-lake-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "tamenglong-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/manipur/tamenglong/kianthok-hills-valley-tamenglong.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "tamil-nadu-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 7,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/tamil-nadu/chennai/marina-beach-shoreline-waves-chennai.webp",
+   "/images/blogs/tamil-nadu/tamil-nadu/meenakshi-temple-gopuram-madurai.webp",
+   "/images/blogs/tamil-nadu/mahabalipuram/shore-temple-pyramidal-tower-mahabalipuram.webp",
+   "/images/blogs/tamil-nadu/thanjavur/brihadeeswarar-temple-vimana-thanjavur.webp",
+   "/images/blogs/tamil-nadu/ooty/tea-plantation-nilgiri-hills-ooty.webp",
+   "/images/blogs/tamil-nadu/rameswaram/ramanathaswamy-temple-gopuram-rameswaram.webp",
+   "/images/blogs/tamil-nadu/kanyakumari/vivekananda-rock-memorial-kanyakumari.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "tarapith-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/west-bengal/tarapith/maa-tara-temple-dome-tarapith.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "tarkarli-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 2,
+  "removed_unverified": [
+   "/images/destinations/andaman/hero.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "tarn-taran-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 1,
+  "at": "2026-09-25 09:06"
+ },
+ "tatapani-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/jammu-kashmir/dal.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "tawang-travel-guide": {
+  "hero": 1,
+  "replaced": 1,
+  "removed": 0,
+  "added": 3,
+  "at": "2026-09-25 09:06"
+ },
+ "tehri-lake-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/uttarakhand/tehri-lake/tehri-lake-reservoir-aerial-view.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "telangana-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 4,
+  "added": 2,
+  "removed_unverified": [
+   "/images/blogs/telangana/hyderabad/hussain-sagar-buddha-statue-night-hyderabad.webp",
+   "/images/blogs/telangana/warangal-thousand-pillar-temple/thousand-pillar-temple-hanamakonda-warangal.webp",
+   "/images/blogs/telangana/yadadri/yadadri-narasimha-swamy-temple-gopuram.webp",
+   "/images/blogs/telangana/laknavaram/laknavaram-lake-forested-islands-mulugu.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "temi-tea-garden-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "terraced-garden-chandigarh-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/chandigarh/terraced-garden/leisure-valley-tree-arched-pathway-chandigarh.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "tezpur-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 2,
+  "removed_unverified": [
+   "/images/destinations/jammu-kashmir/dal.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "thanjavur-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 2,
+  "at": "2026-09-25 09:06"
+ },
+ "tharon-cave-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/manipur/tharon-cave/tharon-cave-interior-visitors-exploring.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "thekkady-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/meghalaya/dawki-river.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "thenzawl-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "thiksey-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 6,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/ladakh/thiksey/thiksey-monks-playing-ceremonial-horns-rooftop.webp",
+   "/images/blogs/ladakh/thiksey/thiksey-maitreya-buddha-golden-face-closeup.webp",
+   "/images/blogs/ladakh/thiksey/thiksey-monastery-young-monks-courtyard.webp",
+   "/images/blogs/ladakh/thiksey/thiksey-monastery-rooftop-chorten-indus-valley-view.webp",
+   "/images/blogs/ladakh/thiksey/shey-palace-prayer-flags-stupas-mountains.webp",
+   "/images/blogs/ladakh/hemis/stakna-monastery-indus-river.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "tirathgarh-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/coorg/coorg.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "tirthan-valley-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 2,
+  "removed_unverified": [
+   "/images/destinations/kasol/kasol.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "tirupati-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/andhra-pradesh/tirupati/maha-dwaram-gopuram-close-up-tirumala.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "tiruvannamalai-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 2,
+  "at": "2026-09-25 09:06"
+ },
+ "trikut-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/manali/hero.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "tripura-sundari-temple-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/tripura/tripura-sundari-temple/tripura-sundari-temple-facade.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "tripura-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 5,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/tripura/ujjayanta-palace/ujjayanta-palace-facade.webp",
+   "/images/blogs/tripura/tripura/neermahal-lake-palace-tripura.webp",
+   "/images/blogs/tripura/unakoti/rock-cut-carvings-unakoti.webp",
+   "/images/blogs/tripura/tripura-sundari-temple/tripura-sundari-temple-facade.webp",
+   "/images/blogs/tripura/sepahijala/spotted-deer-sepahijala-wildlife-sanctuary.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "trishna-wildlife-sanctuary-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 1,
+  "removed_unverified": [
+   "/images/blogs/tripura/trishna-wildlife-sanctuary/indian-gaur-bison-trishna-wildlife-sanctuary.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "tso-moriri-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 4,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/ladakh/tso-moriri/chumathang-hot-springs-ladakh.webp",
+   "/images/blogs/ladakh/tso-moriri/korzok-village-monastery-tso-moriri.webp",
+   "/images/blogs/ladakh/tso-moriri/kiang-tibetan-wild-ass-changthang-plateau.webp",
+   "/images/blogs/ladakh/tso-moriri/tso-kar-salt-lake-rupshu-plateau.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "tsomgo-lake-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "tughlaqabad-delhi-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 4,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/delhi/tughlaqabad/tughlaqabad-fort-sloping-ramparts.webp",
+   "/images/blogs/delhi/tughlaqabad/tughlaqabad-fort-gate-entrance.webp",
+   "/images/blogs/delhi/tughlaqabad/ghiyasuddin-tughlaq-tomb-tughlaqabad.webp",
+   "/images/blogs/delhi/tughlaqabad/tughlaqabad-fort-citadel-ruins.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "tura-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 1,
+  "at": "2026-09-25 09:06"
+ },
+ "turtuk-travel-guide": {
+  "hero": 0,
+  "replaced": 1,
+  "removed": 2,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/ladakh/turtuk/balti-stone-timber-house-tyakshi.webp",
+   "/images/blogs/ladakh/turtuk/apricot-kernels-turtuk-child.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "udaipur-city-of-lakes-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 7,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/rajasthan/udaipur/mor-chowk-city-palace-udaipur.webp",
+   "/images/blogs/rajasthan/udaipur/jag-mandir-lake-pichola-udaipur.webp",
+   "/images/blogs/rajasthan/udaipur/fateh-sagar-lake-udaipur.webp",
+   "/images/blogs/rajasthan/udaipur/saheliyon-ki-bari-udaipur.webp",
+   "/images/blogs/rajasthan/udaipur/bagore-ki-haveli-udaipur.webp",
+   "/images/blogs/rajasthan/udaipur/monsoon-palace-sajjangarh-udaipur.webp",
+   "/images/blogs/rajasthan/udaipur/jagdish-temple-udaipur.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "udaipur-tripura-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 1,
+  "at": "2026-09-25 09:06"
+ },
+ "udupi-travel-guide": {
+  "hero": 0,
+  "replaced": 1,
+  "removed": 0,
+  "added": 3,
+  "at": "2026-09-25 09:06"
+ },
+ "ujjain-travel-guide": {
+  "hero": 1,
+  "replaced": 1,
+  "removed": 0,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "ujjayanta-palace-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/tripura/ujjayanta-palace/ujjayanta-palace-facade.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "ukhrul-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/manipur/ukhrul/ukhrul-town-south-view-tangkhul-hills.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "umiam-lake-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "unakoti-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/tripura/unakoti/rock-cut-carvings-unakoti.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "uttar-pradesh-travel-guide": {
+  "hero": 1,
+  "replaced": 1,
+  "removed": 3,
+  "added": 2,
+  "removed_unverified": [
+   "/images/blogs/uttar-pradesh/uttar-pradesh/ganga-aarti-dashashwamedh-ghat-varanasi.webp",
+   "/images/blogs/uttar-pradesh/uttar-pradesh/bara-imambara-lucknow.webp",
+   "/images/blogs/uttar-pradesh/uttar-pradesh/ram-mandir-temple-ayodhya.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "uttarakhand-travel-guide": {
+  "hero": 1,
+  "replaced": 3,
+  "removed": 3,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/uttarakhand/haridwar/evening-ganga-aarti-har-ki-pauri.webp",
+   "/images/blogs/uttarakhand/auli/auli-snow-slopes-mountain-view.webp",
+   "/images/blogs/uttarakhand/jim-corbett/bengal-tiger-roaring-jim-corbett-reserve.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "vadodara-travel-guide": {
+  "hero": 1,
+  "replaced": 1,
+  "removed": 0,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "vagamon-travel-guide": {
+  "hero": 0,
+  "replaced": 1,
+  "removed": 0,
+  "added": 2,
+  "at": "2026-09-25 09:06"
+ },
+ "vagator-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 2,
+  "removed_unverified": [
+   "/images/destinations/jaisalmer/fort.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "vaishali-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/meghalaya/hero.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "valley-of-flowers-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 4,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/uttarakhand/valley-of-flowers/wildflower-bloom-valley-of-flowers.webp",
+   "/images/blogs/uttarakhand/valley-of-flowers/valley-floor-meadow-flowers-trail.webp",
+   "/images/blogs/uttarakhand/valley-of-flowers/hemkund-sahib-gurudwara-lake.webp",
+   "/images/blogs/uttarakhand/valley-of-flowers/ghangaria-base-camp-settlement.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "valmiki-nagar-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/ziro/hero.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "valparai-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "vanganga-lake-garden-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/vanganga-lake-garden/vanganga-lake-garden-lakeside-view-silvassa.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "vantawng-falls-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "varanasi-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 8,
+  "added": 1,
+  "removed_unverified": [
+   "/images/blogs/uttar-pradesh/varanasi/dashashwamedh-ghat-daytime-crowd-varanasi.webp",
+   "/images/blogs/uttar-pradesh/varanasi/assi-ghat-varanasi-steps-river.webp",
+   "/images/blogs/uttar-pradesh/varanasi/sunrise-boat-ride-ganga-varanasi-ghats.webp",
+   "/images/blogs/uttar-pradesh/varanasi/kashi-vishwanath-corridor-gateway-varanasi.webp",
+   "/images/blogs/uttar-pradesh/varanasi/manikarnika-ghat-view-from-boat-varanasi.webp",
+   "/images/blogs/uttar-pradesh/varanasi/narrow-lane-gali-old-city-varanasi.webp",
+   "/images/blogs/uttar-pradesh/varanasi/banarasi-silk-saree-handloom-weaving-varanasi.webp",
+   "/images/blogs/uttar-pradesh/sarnath/dhamek-stupa-sarnath.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "varkala-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/goa/beach.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "vasant-kunj-delhi-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 2,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/delhi/vasant-kunj/dlf-promenade-mall-exterior-vasant-kunj.webp",
+   "/images/blogs/delhi/vasant-kunj/rhesus-macaque-asola-bhatti-wildlife-sanctuary.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "vemulawada-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "vijayawada-travel-guide": {
+  "hero": 1,
+  "replaced": 1,
+  "removed": 0,
+  "added": 2,
+  "at": "2026-09-25 09:06"
+ },
+ "vikramshila-travel-guide": {
+  "hero": 0,
+  "replaced": 1,
+  "removed": 0,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "visakhapatnam-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/andaman/hero.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "vrindavan-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 1,
+  "removed_unverified": [
+   "/images/blogs/uttar-pradesh/vrindavan/prem-mandir-illuminated-night-vrindavan.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "wagah-border-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "walong-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/destinations/leh-ladakh/leh-ladakh.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "warangal-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 2,
+  "removed_unverified": [
+   "/images/blogs/telangana/warangal/warangal-fort-kakatiya-kala-thoranam-gateway.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "wayanad-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 2,
+  "removed_unverified": [
+   "/images/destinations/ziro/hero.jpg"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "west-bengal-travel-guide": {
+  "hero": 0,
+  "replaced": 1,
+  "removed": 3,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/west-bengal/west-bengal/darjeeling-himalayan-railway-toy-train.webp",
+   "/images/blogs/west-bengal/west-bengal/tourist-boat-sundarbans-mangrove-creek.webp",
+   "/images/blogs/west-bengal/west-bengal/zang-dhok-palri-monastery-kalimpong.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "yadadri-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/telangana/yadadri/yadadri-narasimha-swamy-temple-gopuram.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "yamunotri-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/uttarakhand/yamunotri/yamunotri-temple-gorge-shrine.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "yanam-district-travel-guide": {
+  "hero": 0,
+  "replaced": 1,
+  "removed": 4,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/puducherry/yanam-district/rajiv-gandhi-beach-shivalinga-monument-yanam.webp",
+   "/images/blogs/puducherry/yanam-district/yanam-tower-eiffel-replica.webp",
+   "/images/blogs/puducherry/yanam-district/historic-french-colonial-street-yanaon.webp",
+   "/images/blogs/puducherry/yanam-district/gowthami-river-godavari-delta-boat.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "yelagiri-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "yercaud-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 1,
+  "at": "2026-09-25 09:06"
+ },
+ "yuksom-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 2,
+  "at": "2026-09-25 09:06"
+ },
+ "yumthang-valley-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 2,
+  "at": "2026-09-25 09:06"
+ },
+ "yusmarg-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 3,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/jammu-and-kashmir/yusmarg/charar-e-sharief-shrine-minaret.webp",
+   "/images/blogs/jammu-and-kashmir/yusmarg/yusmarg-meadow-grazing-sheep-pines.webp",
+   "/images/blogs/jammu-and-kashmir/yusmarg/nilnag-lake-pine-forest-reflection.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "zanskar-valley-travel-guide": {
+  "hero": 0,
+  "replaced": 1,
+  "removed": 6,
+  "added": 1,
+  "removed_unverified": [
+   "/images/blogs/ladakh/zanskar-valley/drang-drung-glacier-pensi-la.webp",
+   "/images/blogs/ladakh/zanskar-valley/phugtal-monastery-vertical-cliff-view.webp",
+   "/images/blogs/ladakh/zanskar-valley/chadar-trek-trekkers-frozen-river-ice.webp",
+   "/images/blogs/ladakh/zanskar-valley/karsha-monastery-cascading-hillside-view.webp",
+   "/images/blogs/ladakh/zanskar-valley/sani-monastery-kanika-chorten-stupa.webp",
+   "/images/blogs/ladakh/zanskar-valley/rangdum-monastery-plain-mountains.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "zeilad-lake-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ },
+ "ziro-valley-arunachal-travel-guide": {
+  "hero": 0,
+  "replaced": 0,
+  "removed": 3,
+  "added": 0,
+  "removed_unverified": [
+   "/images/blogs/arunachal-pradesh/ziro-valley-arunachal/apatani-traditional-bamboo-house.webp",
+   "/images/blogs/arunachal-pradesh/ziro-valley-arunachal/ziro-terraced-paddy-fields-walk.webp",
+   "/images/blogs/arunachal-pradesh/ziro-valley-arunachal/ziro-music-festival-day-stage.webp"
+  ],
+  "at": "2026-09-25 09:06"
+ },
+ "zuluk-travel-guide": {
+  "hero": 1,
+  "replaced": 0,
+  "removed": 1,
+  "added": 0,
+  "at": "2026-09-25 09:06"
+ }
+}

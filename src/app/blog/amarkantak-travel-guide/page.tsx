@@ -7,10 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Amarkantak Travel Guide: Source of the Narmada & Son Rivers",
@@ -24,13 +20,13 @@ export const metadata: Metadata = {
     url: "https://club.kudozz.in/blog/amarkantak-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/manali/solang-valley.jpg", width: 1200, height: 630, alt: "Highland plateau and forest representative of Amarkantak, Madhya Pradesh" }],
+    images: [{ url: "/images/blogs/madhya-pradesh/amarkantak/amarkantak-2.webp", width: 1600, height: 1068, alt: "Amarkantak, Madhya Pradesh" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Amarkantak Travel Guide: Source of the Narmada & Son Rivers",
     description: "A plateau temple town where two of India's major rivers are born a few hundred metres apart — the complete guide to Amarkantak.",
-    images: ["/images/destinations/manali/solang-valley.jpg"],
+    images: ["/images/blogs/madhya-pradesh/amarkantak/amarkantak-2.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/amarkantak-travel-guide" },
 };
@@ -45,7 +41,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Amarkantak Travel Guide: Source of the Narmada & Son Rivers",
           description: "The complete Amarkantak travel guide.",
-          image: "https://club.kudozz.in/images/destinations/manali/solang-valley.jpg",
+          image: "https://club.kudozz.in/images/blogs/madhya-pradesh/amarkantak/amarkantak-2.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
@@ -104,20 +100,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const AMARKANTAK_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for temple walks and forest waterfall trails",
-    emoji: "🌊",
-    items: [
-      { name: "Comfortable Walking Shoes", description: "Narmada Kund, Sonmuda, and Kapil Dhara Falls all involve walking on uneven, sometimes wet stone paths.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Trek essential", tagColor: "bg-amber-100 text-amber-700", why: "Stone paths near the river sources and waterfall can be slippery, especially after rain." },
-      { name: "Modest Cotton Clothing", description: "Amarkantak is a genuine pilgrimage town — modest dress is expected at Narmada Kund and the surrounding temples.", price: "₹599",  image: "👕", affiliateUrl: amazonSearchUrl("modest+cotton+travel+clothing"), tag: "Temple essential", tagColor: "bg-purple-100 text-purple-700", why: "This is a spiritually significant site for many pilgrims — respectful dress matters more here than at a typical tourist stop." },
-      { name: "Rain Layer", description: "A packable rain jacket or poncho is useful in shoulder-monsoon months when Kapil Dhara Falls is at its fullest.", price: "₹899",  image: "🧥", affiliateUrl: amazonSearchUrl("packable+rain+jacket+travel"), tag: "Weather essential", tagColor: "bg-sky-100 text-sky-700", why: "The falls are most dramatic exactly when rain is most likely." },
-      { name: "Reusable Water Bottle", description: "Facilities are sparse between the main sites, so carrying water is sensible for a full day of walking.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "All-day essential", tagColor: "bg-forest-100 text-forest-700", why: "This is a quiet, spread-out town with fewer shops than bigger MP destinations." },
-    ],
-  },
-];
-
 export default function AmarkantakGuidePage() {
   return (
     <>
@@ -127,7 +109,7 @@ export default function AmarkantakGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/manali/solang-valley.jpg" alt="Highland plateau and forest representative of Amarkantak, Madhya Pradesh" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/madhya-pradesh/amarkantak/amarkantak-2.webp" alt="Amarkantak, Madhya Pradesh" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -236,7 +218,7 @@ export default function AmarkantakGuidePage() {
                 <section id="top-attractions">
                   <h2>Top Things to Do in Amarkantak</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/manali/solang-valley.jpg" alt="Forest and highland scenery around Amarkantak" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
+                    <Image src="/images/blogs/madhya-pradesh/amarkantak/mai-ki-bagiya-amarkantak-2.webp" alt="Mai ki Bagiya, Amarkantak" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
                   </div>
                   <ul>
                     <li><strong>Narmada Kund:</strong> The temple tank marking the traditional source of the Narmada River, ringed by small shrines — the spiritual centre of the town.</li>
@@ -359,7 +341,6 @@ export default function AmarkantakGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={AMARKANTAK_GEAR} destination="Amarkantak" />
               <RelatedPostsGrid currentSlug="amarkantak-travel-guide" />
             </article>
 

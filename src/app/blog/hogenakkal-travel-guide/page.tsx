@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/meghalaya/dawki-river.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Clear river water flowing through rocky terrain, evoking Hogenakkal's Kaveri river gorge",
+        url: "/images/blogs/tamil-nadu/hogenakkal/hogenakkal-falls.webp",
+        width: 1600,
+        height: 1200,
+        alt: "Hogenakkal Falls, Tamil Nadu",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Hogenakkal Falls Guide: Boating & Best Time",
     description:
       "A coracle ride through the Kaveri river gorge, and a riverside town built around it — the complete Hogenakkal guide.",
-    images: ["/images/destinations/meghalaya/dawki-river.jpg"],
+    images: ["/images/blogs/tamil-nadu/hogenakkal/hogenakkal-falls.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/hogenakkal-travel-guide",
@@ -60,7 +61,7 @@ function ArticleSchema() {
           description:
             "Complete Hogenakkal guide — coracle rides through the Kaveri river gorge, the riverside fish and oil massage tradition, how to reach from Dharmapuri or Bangalore, and a full visit plan.",
           image:
-            "https://club.kudozz.in/images/destinations/meghalaya/dawki-river.jpg",
+            "https://club.kudozz.in/images/blogs/tamil-nadu/hogenakkal/hogenakkal-falls.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -197,8 +198,8 @@ export default function HogenakkalGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/meghalaya/dawki-river.jpg"
-              alt="Clear river water flowing through rocky terrain, evoking Hogenakkal's Kaveri river gorge"
+              src="/images/blogs/tamil-nadu/hogenakkal/hogenakkal-falls.webp"
+              alt="Hogenakkal Falls, Tamil Nadu"
               fill
               priority
               sizes="100vw"
@@ -414,6 +415,7 @@ export default function HogenakkalGuidePage() {
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">
                   <h2>Best Time to Visit Hogenakkal</h2>
+                  <GuideFigure src="/images/blogs/tamil-nadu/hogenakkal/hogenakkal-falls-view.webp" alt="Hogenakkal Falls, Tamil Nadu" />
                   <p>
                     Water levels shape both the visual drama of the falls
                     and how reliable coracle rides are on any given day.
@@ -518,15 +520,6 @@ export default function HogenakkalGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Coracle Rides & Riverside Traditions</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/meghalaya/dawki-river.jpg"
-                      alt="River gorge with clear rapids near Hogenakkal"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Coracle Rides Through the Gorge</h3>
                   <p>
                     Local boatmen steer round woven coracles through the

@@ -25,8 +25,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/blogs/uttarakhand/mussoorie/mussoorie-ridge-town-himalayan-view.webp",
-        width: 1200,
-        height: 630,
+        width: 1600,
+        height: 1108,
         alt: "Panoramic view of Mussoorie town spread along the forested ridge with the Himalayas beyond, Uttarakhand",
       },
     ],

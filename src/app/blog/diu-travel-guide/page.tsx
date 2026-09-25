@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuidePhotoRow } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -567,6 +568,15 @@ export default function DiuTravelGuidePage() {
                       to 190 km (about 4 hours).
                     </li>
                   </ul>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu/ghoghla-beach-waves-sand-diu.webp"
+                      alt="Waves breaking on the wide, empty sandy shore of Ghoghla Beach, Diu"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <div
                     className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-xl my-4 text-sm"
                     style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -618,8 +628,8 @@ export default function DiuTravelGuidePage() {
                   <h2>Diu's Beaches</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu/nagoa-beach-i-love-diu-hand-sculpture.webp"
-                      alt="The iconic 'I Love Diu' hand sculpture framed by palm trees at Nagoa Beach"
+                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu/ghoghla-beach-diu-2.webp"
+                      alt="Ghoghla Beach, Diu"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -660,15 +670,12 @@ export default function DiuTravelGuidePage() {
                       spot among locals in the evening.
                     </li>
                   </ul>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu/ghoghla-beach-waves-sand-diu.webp"
-                      alt="Waves breaking on the wide, empty sandy shore of Ghoghla Beach, Diu"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
+                  <GuidePhotoRow
+                    images={[
+                      { src: "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu/nagoa-beach-diu-2.webp", alt: "Nagoa Beach, Diu", caption: "Nagoa Beach, Diu" },
+                      { src: "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu/chakratirth-beach-diu-3.webp", alt: "Chakratirth Beach, Diu", caption: "Chakratirth Beach, Diu" },
+                    ]}
+                  />
                 </section>
 
                 {/* ── Old Town & Churches ───────────────────────────────── */}
@@ -735,8 +742,8 @@ export default function DiuTravelGuidePage() {
                   </p>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu/ins-khukri-memorial-model-zampa-beach.webp"
-                      alt="Scale model of INS Khukri displayed at the ship's memorial on Zampa Beach, Diu"
+                      src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu/ins-khukri-memorial-diu.webp"
+                      alt="INS Khukri Memorial, Diu"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

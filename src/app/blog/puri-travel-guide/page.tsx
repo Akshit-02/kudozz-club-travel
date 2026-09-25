@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/goa/beach.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Golden sand beach with waves, evoking Puri's stretch of coastline in Odisha",
+        url: "/images/blogs/odisha/puri/puri.webp",
+        width: 1600,
+        height: 1067,
+        alt: "View of Puri, Odisha",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Puri Travel Guide: Jagannath Temple & Beach",
     description:
       "A Char Dham pilgrimage site, a chariot festival watched by millions, and a laid-back beach town — the complete Puri guide.",
-    images: ["/images/destinations/goa/beach.jpg"],
+    images: ["/images/blogs/odisha/puri/puri.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/puri-travel-guide",
@@ -59,7 +60,7 @@ function ArticleSchema() {
           headline: "Puri Travel Guide: Jagannath Temple & Beach",
           description:
             "Complete Puri guide — the Jagannath Temple, the Rath Yatra chariot festival, Puri Beach, Gundicha Temple, how to reach from Bhubaneswar, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/goa/beach.jpg",
+          image: "https://club.kudozz.in/images/blogs/odisha/puri/puri.webp",
           datePublished: "2026-09-04",
           dateModified: "2026-09-04",
           publisher: {
@@ -200,8 +201,8 @@ export default function PuriGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/goa/beach.jpg"
-              alt="Golden sand beach with waves, evoking Puri's stretch of coastline in Odisha"
+              src="/images/blogs/odisha/puri/puri.webp"
+              alt="View of Puri, Odisha"
               fill
               priority
               sizes="100vw"
@@ -523,16 +524,8 @@ export default function PuriGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Jagannath Temple, Rath Yatra & Beach</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/goa/beach.jpg"
-                      alt="Coastal beach scene evoking Puri's shoreline"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Jagannath Temple</h3>
+                  <GuideFigure src="/images/blogs/odisha/puri/jagannath-temple-puri.webp" alt="Jagannath Temple, Puri" />
                   <p>
                     The temple's soaring shikhara dominates Puri's skyline.
                     Non-Hindu visitors cannot enter the sanctum, but the
@@ -541,6 +534,7 @@ export default function PuriGuidePage() {
                     all worth exploring regardless.
                   </p>
                   <h3>Rath Yatra</h3>
+                  <GuideFigure src="/images/blogs/odisha/puri/rath-yatra-puri.webp" alt="Rath Yatra, Puri" />
                   <p>
                     Held annually (usually June/July), Rath Yatra sees the
                     deities pulled through Puri's streets on three enormous
@@ -549,6 +543,7 @@ export default function PuriGuidePage() {
                     religious gatherings on the planet.
                   </p>
                   <h3>Puri Beach</h3>
+                  <GuideFigure src="/images/blogs/odisha/puri/puri-beach.webp" alt="Puri Beach, Odisha" />
                   <p>
                     A long stretch of golden sand runs along the town's
                     edge, busiest at sunrise and sunset, lined with fishing
@@ -556,6 +551,7 @@ export default function PuriGuidePage() {
                     from more commercial Indian beaches.
                   </p>
                   <h3>Gundicha Temple</h3>
+                  <GuideFigure src="/images/blogs/odisha/puri/gundicha-temple-puri.webp" alt="Gundicha Temple, Puri" />
                   <p>
                     The symbolic destination of the Rath Yatra procession,
                     Gundicha Temple sits about 3 km from the main Jagannath

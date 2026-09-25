@@ -7,10 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Dandeli Travel Guide: White-Water Rafting & Wildlife Sanctuary",
@@ -24,13 +20,13 @@ export const metadata: Metadata = {
     url: "https://club.kudozz.in/blog/dandeli-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/meghalaya/dawki-river.jpg", width: 1200, height: 630, alt: "River and forest landscape representative of Dandeli, Karnataka" }],
+    images: [{ url: "/images/blogs/karnataka/dandeli/dandeli.webp", width: 1600, height: 1200, alt: "View of Dandeli, Karnataka" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Dandeli Travel Guide: White-Water Rafting & Wildlife Sanctuary",
     description: "Karnataka's best-known adventure sports hub — the complete guide to Dandeli.",
-    images: ["/images/destinations/meghalaya/dawki-river.jpg"],
+    images: ["/images/blogs/karnataka/dandeli/dandeli.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/dandeli-travel-guide" },
 };
@@ -45,7 +41,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Dandeli Travel Guide: White-Water Rafting & Wildlife Sanctuary",
           description: "The complete Dandeli travel guide.",
-          image: "https://club.kudozz.in/images/destinations/meghalaya/dawki-river.jpg",
+          image: "https://club.kudozz.in/images/blogs/karnataka/dandeli/dandeli.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
@@ -104,20 +100,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const DANDELI_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for rafting, kayaking, and forest wildlife walks",
-    emoji: "🚣",
-    items: [
-      { name: "Quick-Dry Clothing", description: "Rafting and kayaking mean you'll be wet for extended stretches — quick-dry fabrics are far more comfortable than cotton.", price: "₹799",  image: "👕", affiliateUrl: amazonSearchUrl("quick+dry+clothing+outdoor"), tag: "Rafting essential", tagColor: "bg-sky-100 text-sky-700", why: "Staying in wet cotton for hours is a common, avoidable discomfort on rafting trips." },
-      { name: "Water Shoes / Grip Sandals", description: "For getting in and out of rafts and kayaks over slippery riverbank rocks.", price: "₹899",  image: "🥾", affiliateUrl: amazonSearchUrl("water+shoes+grip+outdoor"), tag: "Rafting essential", tagColor: "bg-amber-100 text-amber-700", why: "Riverbank entry and exit points are often rocky and slick." },
-      { name: "Waterproof Dry Bag", description: "For keeping phones, wallets, and dry clothes safe during rafting and kayaking sessions.", price: "₹599",  image: "🎒", affiliateUrl: amazonSearchUrl("waterproof+dry+bag+rafting"), tag: "Non-negotiable", tagColor: "bg-red-100 text-red-700", why: "A soaked phone or wallet is the most common regret from a rafting day without one." },
-      { name: "Reef-Safe Sunscreen", description: "Extended time on the open river brings real sun exposure, especially reflected off the water.", price: "₹599",  image: "🧴", affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+SPF+50"), tag: "River essential", tagColor: "bg-forest-100 text-forest-700", why: "Sun reflected off moving water burns faster than most travelers expect." },
-    ],
-  },
-];
-
 export default function DandeliGuidePage() {
   return (
     <>
@@ -127,7 +109,7 @@ export default function DandeliGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/meghalaya/dawki-river.jpg" alt="River and forest landscape representative of Dandeli, Karnataka" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/karnataka/dandeli/dandeli.webp" alt="View of Dandeli, Karnataka" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -235,9 +217,6 @@ export default function DandeliGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Adventure Activities & Sights in Dandeli</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/meghalaya/dawki-river.jpg" alt="River rapids and forest around Dandeli" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>White-water rafting on the Kali River:</strong> Dandeli's signature activity, with rapids timed to scheduled dam water releases.</li>
                     <li><strong>Dandeli Wildlife Sanctuary:</strong> Dense forest home to black panthers, hornbills, and a strong reputation among birders.</li>
@@ -363,7 +342,6 @@ export default function DandeliGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={DANDELI_GEAR} destination="Dandeli" />
               <RelatedPostsGrid currentSlug="dandeli-travel-guide" />
             </article>
 

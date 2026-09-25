@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -527,15 +528,7 @@ export default function BhadrachalamGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Temple, Ghats & the Kalyanam</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/telangana/bhadrachalam/bhadrachalam-sita-ramachandraswamy-temple.webp"
-                      alt="Close view of the Sita Ramachandraswamy Temple towers at Bhadrachalam"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
+                  <GuideFigure src="/images/blogs/telangana/bhadrachalam/bhadrachalam-view.webp" alt="Bhadrachalam, Telangana" />
                   <h3>Sita Ramachandraswamy Temple</h3>
                   <p>
                     The town's centerpiece, dedicated to Rama, Sita, and

@@ -24,10 +24,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/ziro/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Green hills and forest landscape, evoking Kisama's Naga Heritage Village setting",
+        url: "/images/blogs/nagaland/kisama/kisama.webp",
+        width: 1600,
+        height: 1200,
+        alt: "View of Kisama, Nagaland",
       },
     ],
   },
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     title: "Kisama Guide: Hornbill Festival Heritage Village",
     description:
       "Every one of Nagaland's tribes, side by side, for ten days each December — the complete Kisama guide.",
-    images: ["/images/destinations/ziro/hero.jpg"],
+    images: ["/images/blogs/nagaland/kisama/kisama.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/kisama-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           headline: "Kisama Guide: Hornbill Festival Heritage Village",
           description:
             "Complete Kisama guide — the Naga Heritage Village, the annual Hornbill Festival, tribal morungs, visiting off-season, and how to reach from Kohima.",
-          image: "https://club.kudozz.in/images/destinations/ziro/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/nagaland/kisama/kisama.webp",
           datePublished: "2026-09-04",
           dateModified: "2026-09-04",
           publisher: {
@@ -195,8 +195,8 @@ export default function KisamaGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/ziro/hero.jpg"
-              alt="Green hills and forest landscape, evoking Kisama's Naga Heritage Village setting"
+              src="/images/blogs/nagaland/kisama/kisama.webp"
+              alt="View of Kisama, Nagaland"
               fill
               priority
               sizes="100vw"
@@ -511,15 +511,6 @@ export default function KisamaGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>The Festival & the Morungs</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/ziro/hero.jpg"
-                      alt="Forest and hill landscape around Kisama's Naga Heritage Village"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>The Hornbill Festival Experience</h3>
                   <p>
                     Ten days of traditional dance, music, and craft

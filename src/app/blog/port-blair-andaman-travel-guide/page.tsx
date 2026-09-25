@@ -24,10 +24,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/andaman/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Turquoise Andaman coastline near Sri Vijaya Puram (Port Blair), the capital and gateway to the Andaman Islands",
+        url: "/images/blogs/andaman-and-nicobar/port-blair-andaman/cellular-jail-sri-vijaya-puram-port-blair-3.webp",
+        width: 1600,
+        height: 1200,
+        alt: "Cellular Jail, Sri Vijaya Puram (Port Blair)",
       },
     ],
   },
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     title: "Sri Vijaya Puram (Port Blair) Travel Guide: Sights & Tips",
     description:
       "The capital and gateway of the Andaman Islands — Cellular Jail, Corbyn's Cove, and the ferries onward to Havelock and Neil.",
-    images: ["/images/destinations/andaman/hero.jpg"],
+    images: ["/images/blogs/andaman-and-nicobar/port-blair-andaman/cellular-jail-sri-vijaya-puram-port-blair-3.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/port-blair-andaman-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           headline: "Sri Vijaya Puram (Port Blair) Travel Guide: Sights & Tips",
           description:
             "Complete Sri Vijaya Puram (Port Blair) guide — the Andaman & Nicobar capital and gateway to the islands. Cellular Jail, Corbyn's Cove, the Chatham Saw Mill, ferries to Havelock and Neil, and how to plan your stay.",
-          image: "https://club.kudozz.in/images/destinations/andaman/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/andaman-and-nicobar/port-blair-andaman/cellular-jail-sri-vijaya-puram-port-blair-3.webp",
           datePublished: "2026-09-01",
           dateModified: "2026-09-01",
           publisher: {
@@ -201,8 +201,8 @@ export default function PortBlairGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/andaman/hero.jpg"
-              alt="Turquoise Andaman coastline near Sri Vijaya Puram (Port Blair), the capital and gateway to the Andaman Islands"
+              src="/images/blogs/andaman-and-nicobar/port-blair-andaman/cellular-jail-sri-vijaya-puram-port-blair-3.webp"
+              alt="Cellular Jail, Sri Vijaya Puram (Port Blair)"
               fill
               priority
               sizes="100vw"
@@ -544,15 +544,6 @@ export default function PortBlairGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Things to Do in Sri Vijaya Puram</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/andaman/hero.jpg"
-                      alt="Coastal view near Sri Vijaya Puram (Port Blair), gateway city of the Andaman Islands"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <ul>
                     <li>
                       <strong>Cellular Jail:</strong> The National Memorial

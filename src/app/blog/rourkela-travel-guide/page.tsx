@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/coorg/abbey-falls.jpg",
+        url: "/images/blogs/odisha/rourkela/rourkela-2.webp",
         width: 1200,
-        height: 630,
-        alt: "Waterfall cascading over rock, evoking Khandadhar Falls near Rourkela in Odisha",
+        height: 800,
+        alt: "Rourkela, Odisha",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Rourkela Travel Guide: Steel City & Waterfalls",
     description:
       "An industrial steel city and one of Odisha's most impressive waterfalls, a short drive apart — the complete Rourkela guide.",
-    images: ["/images/destinations/coorg/abbey-falls.jpg"],
+    images: ["/images/blogs/odisha/rourkela/rourkela-2.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/rourkela-travel-guide",
@@ -59,7 +60,7 @@ function ArticleSchema() {
           headline: "Rourkela Travel Guide: Steel City & Waterfalls",
           description:
             "Complete Rourkela guide — the steel city's industrial history, hockey heritage, the Hanging Bridge, Khandadhar Waterfall, how to reach, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/coorg/abbey-falls.jpg",
+          image: "https://club.kudozz.in/images/blogs/odisha/rourkela/rourkela-2.webp",
           datePublished: "2026-09-04",
           dateModified: "2026-09-04",
           publisher: {
@@ -196,8 +197,8 @@ export default function RourkelaGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/coorg/abbey-falls.jpg"
-              alt="Waterfall cascading over rock, evoking Khandadhar Falls near Rourkela in Odisha"
+              src="/images/blogs/odisha/rourkela/rourkela-2.webp"
+              alt="Rourkela, Odisha"
               fill
               priority
               sizes="100vw"
@@ -521,15 +522,6 @@ export default function RourkelaGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Steel Plant, Hockey & Khandadhar Falls</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/coorg/abbey-falls.jpg"
-                      alt="Waterfall near Rourkela, Odisha"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Rourkela Steel Plant</h3>
                   <p>
                     One of India's first integrated steel plants,
@@ -554,6 +546,7 @@ export default function RourkelaGuidePage() {
                     from the industrial surroundings.
                   </p>
                   <h3>Khandadhar Waterfall</h3>
+                  <GuideFigure src="/images/blogs/odisha/rourkela/khandadhar-waterfall-rourkela.webp" alt="Khandadhar Waterfall, Rourkela" />
                   <p>
                     A dramatic single-drop cascade roughly 55-60 km from
                     the city — one of Odisha's most impressive waterfalls,

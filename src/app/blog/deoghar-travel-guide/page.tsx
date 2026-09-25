@@ -7,10 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Deoghar Travel Guide: Baidyanath Temple & Jyotirlinga Pilgrimage",
@@ -24,13 +20,13 @@ export const metadata: Metadata = {
     url: "https://club.kudozz.in/blog/deoghar-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/jaisalmer/hero.jpg", width: 1200, height: 630, alt: "Temple town skyline representative of Deoghar, Jharkhand" }],
+    images: [{ url: "/images/blogs/jharkhand/deoghar/baidyanath-temple-deoghar.webp", width: 1600, height: 925, alt: "Baidyanath Temple, Deoghar" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Deoghar Travel Guide: Baidyanath Temple & Jyotirlinga Pilgrimage",
     description: "One of the 12 Jyotirlingas and among India's most important Shiva pilgrimage sites — the complete guide to Deoghar.",
-    images: ["/images/destinations/jaisalmer/hero.jpg"],
+    images: ["/images/blogs/jharkhand/deoghar/baidyanath-temple-deoghar.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/deoghar-travel-guide" },
 };
@@ -45,7 +41,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Deoghar Travel Guide: Baidyanath Temple & Jyotirlinga Pilgrimage",
           description: "The complete Deoghar travel guide.",
-          image: "https://club.kudozz.in/images/destinations/jaisalmer/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/jharkhand/deoghar/baidyanath-temple-deoghar.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
@@ -104,20 +100,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const DEOGHAR_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for temple queues and pilgrimage-town practicalities",
-    emoji: "🛕",
-    items: [
-      { name: "Comfortable Walking Shoes", description: "Long queue standing at Baidyanath Temple, especially outside Shravan month, calls for genuinely comfortable footwear you can slip off easily at entry.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Temple essential", tagColor: "bg-amber-100 text-amber-700", why: "Queue times can run long even on an ordinary day, let alone during festival season." },
-      { name: "Modest Cotton Clothing", description: "Deoghar is an active pilgrimage town — modest dress is expected throughout, not just inside the temple itself.", price: "₹599",  image: "👕", affiliateUrl: amazonSearchUrl("modest+cotton+travel+clothing"), tag: "Temple essential", tagColor: "bg-purple-100 text-purple-700", why: "This is one of India's most significant Shiva pilgrimage sites — respectful dress matters here more than at a leisure destination." },
-      { name: "Small Bag for Shoes/Valuables", description: "Useful for the queue and temple entry process, where shoes are left outside and phones/valuables need somewhere secure.", price: "₹299",  image: "🎒", affiliateUrl: amazonSearchUrl("small+crossbody+travel+bag"), tag: "Practical essential", tagColor: "bg-sky-100 text-sky-700", why: "Keeping shoes and valuables secure in a crowded temple queue is a genuine practical concern." },
-      { name: "Light Shawl / Stole", description: "Doubles as a head covering where expected and as a light layer for early-morning temple visits.", price: "₹399",  image: "🧣", affiliateUrl: amazonSearchUrl("cotton+shawl+travel"), tag: "Temple essential", tagColor: "bg-forest-100 text-forest-700", why: "A simple shawl covers several practical needs at once during temple visits." },
-    ],
-  },
-];
-
 export default function DeogharGuidePage() {
   return (
     <>
@@ -127,7 +109,7 @@ export default function DeogharGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/jaisalmer/hero.jpg" alt="Temple town skyline representative of Deoghar, Jharkhand" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/jharkhand/deoghar/baidyanath-temple-deoghar.webp" alt="Baidyanath Temple, Deoghar" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -236,7 +218,7 @@ export default function DeogharGuidePage() {
                 <section id="top-attractions">
                   <h2>Top Things to Do in Deoghar</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/jaisalmer/hero.jpg" alt="Temple architecture representative of Deoghar" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
+                    <Image src="/images/blogs/jharkhand/deoghar/trikut-hills-deoghar.webp" alt="Trikut Hills, Deoghar" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
                   </div>
                   <ul>
                     <li><strong>Baidyanath Temple:</strong> The central Jyotirlinga shrine and the reason most visitors come to Deoghar.</li>
@@ -359,7 +341,6 @@ export default function DeogharGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={DEOGHAR_GEAR} destination="Deoghar" />
               <RelatedPostsGrid currentSlug="deoghar-travel-guide" />
             </article>
 

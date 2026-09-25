@@ -7,8 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
   title: "Agonda Beach Travel Guide: Turtle Nesting & South Goa's Quiet Side",
@@ -22,13 +21,13 @@ export const metadata: Metadata = {
     url: "https://club.kudozz.in/blog/agonda-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/kerala/hero.jpg", width: 1200, height: 630, alt: "Palm-backed beach scenery representative of Agonda, Goa" }],
+    images: [{ url: "/images/blogs/goa/agonda/agonda-beach.webp", width: 1600, height: 1028, alt: "Agonda Beach, Goa" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Agonda Beach Travel Guide: Turtle Nesting & South Goa's Quiet Side",
     description: "A quiet South Goa beach with a no-loud-music local code and nesting turtles — the complete guide to Agonda.",
-    images: ["/images/destinations/kerala/hero.jpg"],
+    images: ["/images/blogs/goa/agonda/agonda-beach.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/agonda-travel-guide" },
 };
@@ -43,7 +42,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Agonda Beach Travel Guide: Turtle Nesting & South Goa's Quiet Side",
           description: "The complete Agonda travel guide.",
-          image: "https://club.kudozz.in/images/destinations/kerala/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/goa/agonda/agonda-beach.webp",
           datePublished: "2026-09-08",
           dateModified: "2026-09-08",
           publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
@@ -102,20 +101,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const AGONDA_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for a slow, quiet South Goa beach stay",
-    emoji: "🐢",
-    items: [
-      { name: "Reef-Safe Sunscreen (SPF 50)", description: "Agonda's long, shade-light stretch of sand calls for strong sun protection over a full beach day.", price: "₹599",  image: "🧴", affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+SPF+50"), tag: "Beach essential", tagColor: "bg-amber-100 text-amber-700", why: "Sunburn is the most common regret among travellers who underestimate a full day on Agonda's exposed sand." },
-      { name: "Yoga Mat", description: "Useful if you plan to join one of Agonda's many yoga sessions or practice independently on the beach at sunrise.", price: "₹999",  image: "🧘", affiliateUrl: amazonSearchUrl("travel+yoga+mat+lightweight"), tag: "Wellness essential", tagColor: "bg-purple-100 text-purple-700", why: "Agonda's calm reputation has drawn a strong yoga and wellness scene — a personal mat beats renting one." },
-      { name: "Comfortable Sandals", description: "For the walk between the beach, village, and any spice-plantation or Palolem day trip.", price: "₹899",  image: "👡", affiliateUrl: amazonSearchUrl("comfortable+sandals+travel"), tag: "All-day essential", tagColor: "bg-sky-100 text-sky-700", why: "Agonda's village and beach paths are sandy and uneven — proper sandals hold up better than flip-flops." },
-      { name: "Insect Repellent", description: "Evenings near the palm groves behind the beach bring a real mosquito presence.", price: "₹199",  image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Evening essential", tagColor: "bg-forest-100 text-forest-700", why: "The palm-backed setting that makes Agonda beautiful also makes it mosquito-friendly after dark." },
-    ],
-  },
-];
-
 export default function AgondaGuidePage() {
   return (
     <>
@@ -125,7 +110,7 @@ export default function AgondaGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/kerala/hero.jpg" alt="Palm-backed beach scenery representative of Agonda, Goa" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/goa/agonda/agonda-beach.webp" alt="Agonda Beach, Goa" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -233,9 +218,7 @@ export default function AgondaGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do in Agonda</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/kerala/hero.jpg" alt="Beach and palm grove scenery around Agonda" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
+                  <GuideFigure src="/images/blogs/goa/agonda/agonda-beach-view.webp" alt="Agonda Beach, Goa" />
                   <ul>
                     <li><strong>Agonda Beach:</strong> A long, uncrowded stretch of sand, genuinely quiet even in peak season by Goa standards.</li>
                     <li><strong>Turtle nesting spots:</strong> Marked, monitored areas where olive ridley turtles nest during the season — respect posted access limits.</li>
@@ -359,7 +342,6 @@ export default function AgondaGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={AGONDA_GEAR} destination="Agonda" />
               <RelatedPostsGrid currentSlug="agonda-travel-guide" />
             </article>
 

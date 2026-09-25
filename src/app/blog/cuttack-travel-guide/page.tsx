@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jaisalmer/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Historic city skyline at dusk, evoking Cuttack's former-capital heritage and Mahanadi riverside setting in Odisha",
+        url: "/images/blogs/odisha/cuttack/barabati-fort-cuttack-3.webp",
+        width: 1600,
+        height: 844,
+        alt: "Barabati Fort, Cuttack",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Cuttack Travel Guide: Silver City & Barabati Fort",
     description:
       "Odisha's former capital, famed for silver filigree craftsmanship and Barabati Fort's Mahanadi-side ruins — the complete Cuttack guide.",
-    images: ["/images/destinations/jaisalmer/hero.jpg"],
+    images: ["/images/blogs/odisha/cuttack/barabati-fort-cuttack-3.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/cuttack-travel-guide",
@@ -59,7 +60,7 @@ function ArticleSchema() {
           headline: "Cuttack Travel Guide: Silver City & Barabati Fort",
           description:
             "Complete Cuttack guide — the Silver City's tarakasi filigree tradition, Barabati Fort, the Bali Yatra festival, how to reach from Bhubaneswar, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/jaisalmer/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/odisha/cuttack/barabati-fort-cuttack-3.webp",
           datePublished: "2026-09-04",
           dateModified: "2026-09-04",
           publisher: {
@@ -195,8 +196,8 @@ export default function CuttackGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jaisalmer/hero.jpg"
-              alt="Historic city skyline at dusk, evoking Cuttack's former-capital heritage and Mahanadi riverside setting in Odisha"
+              src="/images/blogs/odisha/cuttack/barabati-fort-cuttack-3.webp"
+              alt="Barabati Fort, Cuttack"
               fill
               priority
               sizes="100vw"
@@ -515,15 +516,6 @@ export default function CuttackGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Filigree, Fort & Festival</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/jaisalmer/hero.jpg"
-                      alt="Historic riverside cityscape evoking Cuttack's old town and Mahanadi setting"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Tarakasi Silver Filigree</h3>
                   <p>
                     Cuttack&apos;s defining craft — fine silver wire twisted
@@ -533,6 +525,7 @@ export default function CuttackGuidePage() {
                     appreciation of the skill involved.
                   </p>
                   <h3>Barabati Fort</h3>
+                  <GuideFigure src="/images/blogs/odisha/cuttack/barabati-fort-cuttack-4.webp" alt="Barabati Fort, Cuttack" />
                   <p>
                     Riverside ruins of a medieval fort that once housed the
                     Gajapati rulers — atmospheric rather than intact, worth
@@ -540,6 +533,7 @@ export default function CuttackGuidePage() {
                     surviving structures.
                   </p>
                   <h3>Bali Yatra</h3>
+                  <GuideFigure src="/images/blogs/odisha/cuttack/bali-yatra-cuttack.webp" alt="Bali Yatra, Cuttack" />
                   <p>
                     An annual festival held on Kartik Purnima (typically
                     November) commemorating Cuttack&apos;s ancient maritime

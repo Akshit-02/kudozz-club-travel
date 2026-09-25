@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -407,6 +408,7 @@ export default function UjjayantaPalaceGuidePage() {
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">
                   <h2>Best Time to Visit Ujjayanta Palace</h2>
+                  <GuideFigure src="/images/blogs/tripura/ujjayanta-palace/ujjayanta-palace-view.webp" alt="Ujjayanta Palace, Tripura" />
                   <p>
                     Both the season and the time of day shape how good a
                     visit feels here.
@@ -514,15 +516,6 @@ export default function UjjayantaPalaceGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>History, Architecture & Galleries</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/tripura/ujjayanta-palace/ujjayanta-palace-facade.webp"
-                      alt="Arched colonnades and domed towers of Ujjayanta Palace's right wing"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>The Architecture</h3>
                   <p>
                     Built in 1901, the palace blends Mughal, colonial, and

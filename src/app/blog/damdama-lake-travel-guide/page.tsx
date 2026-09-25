@@ -7,8 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Damdama Lake Travel Guide: Haryana's Largest Natural Lake",
@@ -22,13 +20,13 @@ export const metadata: Metadata = {
     url: "https://club.kudozz.in/blog/damdama-lake-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/jammu-kashmir/dal.jpg", width: 1200, height: 630, alt: "Quiet lake scenery representative of Damdama Lake, Haryana" }],
+    images: [{ url: "/images/blogs/haryana/damdama-lake/damdama-lake.webp", width: 1600, height: 878, alt: "Damdama Lake, Haryana" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Damdama Lake Travel Guide: Haryana's Largest Natural Lake",
     description: "A quiet Aravalli-ringed lake near Gurugram — the complete guide to Damdama Lake.",
-    images: ["/images/destinations/jammu-kashmir/dal.jpg"],
+    images: ["/images/blogs/haryana/damdama-lake/damdama-lake.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/damdama-lake-travel-guide" },
 };
@@ -43,7 +41,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Damdama Lake Travel Guide: Haryana's Largest Natural Lake",
           description: "The complete Damdama Lake travel guide.",
-          image: "https://club.kudozz.in/images/destinations/jammu-kashmir/dal.jpg",
+          image: "https://club.kudozz.in/images/blogs/haryana/damdama-lake/damdama-lake.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: {
@@ -135,56 +133,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const DAMDAMA_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for a quiet lakeside day trip",
-    emoji: "🏞️",
-    items: [
-      {
-        name: "Comfortable Walking Shoes",
-        description: "For the walking trails around the lake edge and into the surrounding Aravalli scrubland.",
-        price: "₹1,999",
-        image: "👟",
-        affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
-        tag: "Trail essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "The lakeside trails involve uneven, natural terrain rather than paved paths.",
-      },
-      {
-        name: "Sun Hat",
-        description: "The exposed, low-elevation terrain around the lake offers little shade.",
-        price: "₹399",
-        image: "🧢",
-        affiliateUrl: amazonSearchUrl("sun+hat+travel+outdoor"),
-        tag: "Weather essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "This is genuinely one of the more sun-exposed day-trip spots near Gurugram.",
-      },
-      {
-        name: "Packed Food & Water",
-        description: "Facilities are minimal at Damdama — bring your own supplies rather than relying on nearby options.",
-        price: "₹—",
-        image: "🥪",
-        affiliateUrl: amazonSearchUrl("insulated+picnic+bag"),
-        tag: "Essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "This is a genuinely undeveloped spot — don't expect much in the way of food stalls.",
-      },
-      {
-        name: "Insect Repellent",
-        description: "Useful for time spent near the water's edge, especially in warmer months.",
-        price: "₹199",
-        image: "🦟",
-        affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"),
-        tag: "Lakeside essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "Standing water areas near the lake edge can bring mosquito activity.",
-      },
-    ],
-  },
-];
-
 export default function DamdamaLakeGuidePage() {
   return (
     <>
@@ -196,8 +144,8 @@ export default function DamdamaLakeGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jammu-kashmir/dal.jpg"
-              alt="Quiet lake scenery representative of Damdama Lake, Haryana"
+              src="/images/blogs/haryana/damdama-lake/damdama-lake.webp"
+              alt="Damdama Lake, Haryana"
               fill
               priority
               sizes="100vw"
@@ -400,15 +348,6 @@ export default function DamdamaLakeGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do at Damdama Lake</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/jammu-kashmir/dal.jpg"
-                      alt="Lake and hill scenery at Damdama Lake"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <ul>
                     <li>
                       <strong>Lakeside walks:</strong> Quiet trails around the lake edge, a genuine
@@ -640,8 +579,6 @@ export default function DamdamaLakeGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              <TrekGearRecommendations sections={DAMDAMA_GEAR} destination="Damdama Lake" />
 
               <RelatedPostsGrid currentSlug="damdama-lake-travel-guide" />
             </article>

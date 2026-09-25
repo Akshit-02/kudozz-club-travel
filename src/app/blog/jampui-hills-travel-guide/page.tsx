@@ -526,15 +526,6 @@ export default function JampuiHillsGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Orchards, Viewpoints & Villages</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/tripura/jampui-hills/misty-hill-valley-view.webp"
-                      alt="Cloud-covered valley seen from a Jampui Hills viewpoint"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Orange Orchards</h3>
                   <p>
                     Jampui's slopes are lined with orange orchards, best

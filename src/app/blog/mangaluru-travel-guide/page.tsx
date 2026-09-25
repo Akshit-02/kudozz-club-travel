@@ -7,10 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuidePhotoRow } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
   title: "Mangaluru Travel Guide: Beaches, Temples & Coastal Cuisine",
@@ -24,13 +21,13 @@ export const metadata: Metadata = {
     url: "https://club.kudozz.in/blog/mangaluru-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/goa/hero.jpg", width: 1200, height: 630, alt: "Arabian Sea coastline representative of Mangaluru, Karnataka" }],
+    images: [{ url: "/images/blogs/karnataka/mangaluru/panambur-beach-mangaluru.webp", width: 1600, height: 1064, alt: "Panambur Beach, Mangaluru" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Mangaluru Travel Guide: Beaches, Temples & Coastal Cuisine",
     description: "Fiery Mangalorean seafood curries, centuries-old temples, and Arabian Sea beaches — the complete guide to Mangaluru.",
-    images: ["/images/destinations/goa/hero.jpg"],
+    images: ["/images/blogs/karnataka/mangaluru/panambur-beach-mangaluru.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/mangaluru-travel-guide" },
 };
@@ -45,7 +42,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Mangaluru Travel Guide: Beaches, Temples & Coastal Cuisine",
           description: "The complete Mangaluru travel guide.",
-          image: "https://club.kudozz.in/images/destinations/goa/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/karnataka/mangaluru/panambur-beach-mangaluru.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
@@ -104,20 +101,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const MANGALURU_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for beach days, temple visits, and coastal humidity",
-    emoji: "🌊",
-    items: [
-      { name: "Light, Breathable Clothing", description: "Coastal Karnataka's humidity is intense year-round — loose cotton clothing beats synthetics by a wide margin.", price: "₹799",  image: "👕", affiliateUrl: amazonSearchUrl("breathable+cotton+travel+clothing"), tag: "Comfort essential", tagColor: "bg-sky-100 text-sky-700", why: "Mangaluru's coastal humidity makes lightweight, breathable fabric a genuine comfort upgrade." },
-      { name: "Reef-Safe Sunscreen", description: "For beach time at Panambur and Tannirbhavi.", price: "₹599",  image: "🧴", affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+SPF+50"), tag: "Beach essential", tagColor: "bg-amber-100 text-amber-700", why: "Coastal sun exposure adds up quickly across a full beach day." },
-      { name: "Modest Clothing for Temples", description: "Kadri Manjunath and Mangaladevi temples expect covered shoulders and knees.", price: "₹599",  image: "🙏", affiliateUrl: amazonSearchUrl("modest+travel+clothing"), tag: "Temple essential", tagColor: "bg-purple-100 text-purple-700", why: "Several of the city's key sights are active places of worship with expected dress standards." },
-      { name: "Comfortable Walking Shoes", description: "For exploring the temple district, St. Aloysius Chapel, and the beachfront promenades.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-forest-100 text-forest-700", why: "A day covering temples, beaches, and the old town adds up to a fair amount of walking." },
-    ],
-  },
-];
-
 export default function MangaluruGuidePage() {
   return (
     <>
@@ -127,7 +110,7 @@ export default function MangaluruGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/goa/hero.jpg" alt="Arabian Sea coastline representative of Mangaluru, Karnataka" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/karnataka/mangaluru/panambur-beach-mangaluru.webp" alt="Panambur Beach, Mangaluru" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -235,9 +218,6 @@ export default function MangaluruGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do in Mangaluru</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/goa/hero.jpg" alt="Coastal scenery representative of Mangaluru" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>Panambur Beach:</strong> Mangaluru's most popular city beach, good for a sunset walk.</li>
                     <li><strong>Tannirbhavi Beach:</strong> A quieter alternative beach across the estuary.</li>
@@ -246,6 +226,12 @@ export default function MangaluruGuidePage() {
                     <li><strong>St. Aloysius Chapel:</strong> Known for elaborate ceiling and wall frescoes painted by an Italian Jesuit artist.</li>
                     <li><strong>Sultan Battery:</strong> A small coastal watchtower built during Tipu Sultan's era.</li>
                   </ul>
+                  <GuidePhotoRow
+                    images={[
+                      { src: "/images/blogs/karnataka/mangaluru/tannirbhavi-beach-mangaluru.webp", alt: "Tannirbhavi Beach, Mangaluru", caption: "Tannirbhavi Beach, Mangaluru" },
+                      { src: "/images/blogs/karnataka/mangaluru/kadri-manjunath-temple-mangaluru.webp", alt: "Kadri Manjunath Temple, Mangaluru", caption: "Kadri Manjunath Temple, Mangaluru" },
+                    ]}
+                  />
                 </section>
 
                 <section id="where-to-stay">
@@ -363,7 +349,6 @@ export default function MangaluruGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={MANGALURU_GEAR} destination="Mangaluru" />
               <RelatedPostsGrid currentSlug="mangaluru-travel-guide" />
             </article>
 

@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/coorg/abbey-falls.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Multi-tiered waterfall in forested terrain, evoking Vantawng Falls in Mizoram",
+        url: "/images/blogs/mizoram/vantawng-falls/vantawng-falls.webp",
+        width: 1600,
+        height: 900,
+        alt: "Vantawng Falls, Mizoram",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Vantawng Falls Guide: Mizoram's Tallest Falls",
     description:
       "A multi-tiered cascade through forested gorge — Mizoram's highest and most spectacular waterfall.",
-    images: ["/images/destinations/coorg/abbey-falls.jpg"],
+    images: ["/images/blogs/mizoram/vantawng-falls/vantawng-falls.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/vantawng-falls-travel-guide",
@@ -59,7 +60,7 @@ function ArticleSchema() {
           headline: "Vantawng Falls Guide: Mizoram's Tallest Falls",
           description:
             "Complete Vantawng Falls guide — Mizoram's highest waterfall, the viewing platform, best time to see it at full flow, how to reach from Thenzawl, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/coorg/abbey-falls.jpg",
+          image: "https://club.kudozz.in/images/blogs/mizoram/vantawng-falls/vantawng-falls.webp",
           datePublished: "2026-09-04",
           dateModified: "2026-09-04",
           publisher: {
@@ -177,8 +178,8 @@ export default function VantawngFallsGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/coorg/abbey-falls.jpg"
-              alt="Multi-tiered waterfall in forested terrain, evoking Vantawng Falls in Mizoram"
+              src="/images/blogs/mizoram/vantawng-falls/vantawng-falls.webp"
+              alt="Vantawng Falls, Mizoram"
               fill
               priority
               sizes="100vw"
@@ -316,6 +317,7 @@ export default function VantawngFallsGuidePage() {
 
                 <section id="best-time">
                   <h2>Best Time to Visit Vantawng Falls</h2>
+                  <GuideFigure src="/images/blogs/mizoram/vantawng-falls/vantawng-falls-view.webp" alt="Vantawng Falls, Mizoram" />
                   <p>The falls&apos; flow and the region&apos;s road conditions both shape when a visit is at its best.</p>
 
                   <div className="grid sm:grid-cols-2 gap-4 my-6">
@@ -394,15 +396,6 @@ export default function VantawngFallsGuidePage() {
 
                 <section id="things-to-do">
                   <h2>The Falls & Viewing Platform</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/coorg/abbey-falls.jpg"
-                      alt="Waterfall cascading through forest, evoking Vantawng Falls"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>The Viewing Platform</h3>
                   <p>
                     A purpose-built platform offers a good vantage point over

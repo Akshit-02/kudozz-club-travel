@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -25,8 +26,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/blogs/uttarakhand/badrinath/badrinath-temple-colorful-facade-mountains.webp",
-        width: 1200,
-        height: 630,
+        width: 1600,
+        height: 1067,
         alt: "Close-up of the colourful, intricately painted facade of the Badrinath temple",
       },
     ],
@@ -553,16 +554,8 @@ export default function BadrinathGuidePage() {
                 {/* ── Attractions ────────────────────────────────────────── */}
                 <section id="attractions">
                   <h2>The Temple, Mana & Beyond</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/uttarakhand/badrinath/badrinath-temple-colorful-facade-mountains.webp"
-                      alt="The vividly painted entrance gate of the Badrinath temple"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Badrinath Temple & Tapt Kund</h3>
+                  <GuideFigure src="/images/blogs/uttarakhand/badrinath/badrinath-temple-and-tapt-kund-2.webp" alt="Badrinath Temple & Tapt Kund, Uttarakhand" />
                   <p>
                     The temple's brightly painted facade, rebuilt several
                     times over the centuries, is one of the most recognisable
@@ -573,6 +566,7 @@ export default function BadrinathGuidePage() {
                     mountain air before joining the queue for darshan.
                   </p>
                   <h3>Mana Village</h3>
+                  <GuideFigure src="/images/blogs/uttarakhand/badrinath/mana-village-badrinath-2.webp" alt="Mana Village, Badrinath" />
                   <p>
                     About 3km beyond Badrinath, <strong>Mana</strong> is
                     officially India's last inhabited village before the
@@ -583,6 +577,7 @@ export default function BadrinathGuidePage() {
                     across the Saraswati river for Draupadi to cross.
                   </p>
                   <h3>Vasudhara Falls</h3>
+                  <GuideFigure src="/images/blogs/uttarakhand/badrinath/vasudhara-falls-badrinath.webp" alt="Vasudhara Falls, Badrinath" />
                   <p>
                     A roughly 5-6km round-trip trek from Mana leads to{" "}
                     <strong>Vasudhara Falls</strong>, a slender waterfall
@@ -592,6 +587,7 @@ export default function BadrinathGuidePage() {
                     at Badrinath.
                   </p>
                   <h3>Neelkanth Peak</h3>
+                  <GuideFigure src="/images/blogs/uttarakhand/badrinath/neelkanth-peak-badrinath.webp" alt="Neelkanth Peak, Badrinath" />
                   <p>
                     Often called the "Garhwal Queen," Neelkanth's sharp,
                     pyramidal summit rises behind Badrinath and is visible

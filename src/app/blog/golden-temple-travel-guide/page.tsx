@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/manali/hadimba-temple.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Ornate temple architecture reflected in water, evoking the Golden Temple and its sacred Amrit Sarovar pool",
+        url: "/images/blogs/punjab/golden-temple/golden-temple-2.webp",
+        width: 1600,
+        height: 1067,
+        alt: "Golden Temple, Punjab",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Golden Temple Guide: Timings, Langar & Tips",
     description:
       "Sikhism's holiest shrine and one of the largest free community kitchens on earth — the complete Golden Temple guide.",
-    images: ["/images/destinations/manali/hadimba-temple.jpg"],
+    images: ["/images/blogs/punjab/golden-temple/golden-temple-2.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/golden-temple-travel-guide",
@@ -60,7 +61,7 @@ function ArticleSchema() {
           description:
             "Complete Golden Temple guide — Sri Harmandir Sahib's history and architecture, the Amrit Sarovar, the langar community kitchen, etiquette, best time to visit, and a full visit plan.",
           image:
-            "https://club.kudozz.in/images/destinations/manali/hadimba-temple.jpg",
+            "https://club.kudozz.in/images/blogs/punjab/golden-temple/golden-temple-2.webp",
           datePublished: "2026-09-04",
           dateModified: "2026-09-04",
           publisher: {
@@ -202,8 +203,8 @@ export default function GoldenTempleGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/manali/hadimba-temple.jpg"
-              alt="Ornate temple architecture reflected in water, evoking the Golden Temple and its sacred Amrit Sarovar pool"
+              src="/images/blogs/punjab/golden-temple/golden-temple-2.webp"
+              alt="Golden Temple, Punjab"
               fill
               priority
               sizes="100vw"
@@ -521,15 +522,6 @@ export default function GoldenTempleGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>The Temple, the Sarovar & the Langar</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/manali/hadimba-temple.jpg"
-                      alt="Temple architecture reflecting in a sacred pool"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>The Sanctum & Parikrama</h3>
                   <p>
                     Devotees circumambulate the Amrit Sarovar along a marble
@@ -538,6 +530,7 @@ export default function GoldenTempleGuidePage() {
                     of Sikh scripture takes place.
                   </p>
                   <h3>Langar — The Free Community Kitchen</h3>
+                  <GuideFigure src="/images/blogs/punjab/golden-temple/langar-golden-temple.webp" alt="Langar, Golden Temple" />
                   <p>
                     Langar operates continuously, serving simple vegetarian
                     meals to all visitors. Many travelers choose to
@@ -546,6 +539,7 @@ export default function GoldenTempleGuidePage() {
                     moving way to participate rather than just observe.
                   </p>
                   <h3>Akal Takht</h3>
+                  <GuideFigure src="/images/blogs/punjab/golden-temple/akal-takht-golden-temple.webp" alt="Akal Takht, Golden Temple" />
                   <p>
                     Standing adjacent to the main shrine, the Akal Takht is
                     the seat of Sikh temporal authority — one of the

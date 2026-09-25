@@ -7,8 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuidePhotoRow } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
   title: "Guwahati Travel Guide: Brahmaputra Sunset Cruises & City Guide",
@@ -21,9 +20,9 @@ export const metadata: Metadata = {
     description: "The gateway to Northeast India, where sunset river cruises on the Brahmaputra meet a hilltop temple older than most of the country's recorded history — the complete guide to Guwahati.",
     url: "https://club.kudozz.in/blog/guwahati-travel-guide",
     type: "article", siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/meghalaya/dawki-river.jpg", width: 1200, height: 630, alt: "Brahmaputra river scenery representative of Guwahati, Assam" }],
+    images: [{ url: "/images/blogs/assam/guwahati/guwahati-2.webp", width: 1600, height: 1200, alt: "View of Guwahati, Assam" }],
   },
-  twitter: { card: "summary_large_image", title: "Guwahati Travel Guide: Brahmaputra Sunset Cruises & City Guide", description: "Sunset river cruises and a hilltop temple — the complete guide to Guwahati, gateway to Northeast India.", images: ["/images/destinations/meghalaya/dawki-river.jpg"] },
+  twitter: { card: "summary_large_image", title: "Guwahati Travel Guide: Brahmaputra Sunset Cruises & City Guide", description: "Sunset river cruises and a hilltop temple — the complete guide to Guwahati, gateway to Northeast India.", images: ["/images/blogs/assam/guwahati/guwahati-2.webp"] },
   alternates: { canonical: "https://club.kudozz.in/blog/guwahati-travel-guide" },
 };
 
@@ -33,7 +32,7 @@ function ArticleSchema() {
       "@context": "https://schema.org", "@type": "BlogPosting",
       headline: "Guwahati Travel Guide: Brahmaputra Sunset Cruises & City Guide",
       description: "The complete Guwahati travel guide.",
-      image: "https://club.kudozz.in/images/destinations/meghalaya/dawki-river.jpg",
+      image: "https://club.kudozz.in/images/blogs/assam/guwahati/guwahati-2.webp",
       datePublished: "2026-09-08", dateModified: "2026-09-08",
       publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
       author: { "@type": "Organization", name: "Kudozz Club" },
@@ -80,16 +79,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const GUWAHATI_GEAR: GearSection[] = [{
-  title: "Things Worth Carrying", subtitle: "Gear for river cruises and city exploring", emoji: "🌅",
-  items: [
-    { name: "Light Rain Layer", description: "Assam sees significantly higher rainfall than most of India — useful across most months, not just peak monsoon.", price: "₹899",  image: "🌂", affiliateUrl: amazonSearchUrl("packable+rain+jacket+travel"), tag: "Weather essential", tagColor: "bg-sky-100 text-sky-700", why: "Guwahati's rainfall is genuinely higher and less predictable than most Indian cities." },
-    { name: "Comfortable Walking Shoes", description: "For exploring markets, the museum, and temple hill climbs.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-amber-100 text-amber-700", why: "A day covering Umananda Temple, the museum, and markets adds up in distance." },
-    { name: "Modest Clothing", description: "For temple visits including Kamakhya and Umananda, both active places of worship.", price: "₹599",  image: "👕", affiliateUrl: amazonSearchUrl("modest+travel+clothing"), tag: "Temple essential", tagColor: "bg-purple-100 text-purple-700", why: "Guwahati's major temples are active pilgrimage sites, not just monuments." },
-    { name: "Insect Repellent", description: "Riverside evenings and the humid climate bring mosquitoes.", price: "₹199",  image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Evening essential", tagColor: "bg-forest-100 text-forest-700", why: "Brahmaputus riverside evenings, especially during a sunset cruise, are prime mosquito hours." },
-  ],
-}];
-
 export default function GuwahatiGuidePage() {
   return (
     <>
@@ -97,7 +86,7 @@ export default function GuwahatiGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/meghalaya/dawki-river.jpg" alt="Brahmaputra river scenery representative of Guwahati, Assam" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/assam/guwahati/guwahati-2.webp" alt="View of Guwahati, Assam" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -201,9 +190,6 @@ export default function GuwahatiGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do in Guwahati</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/meghalaya/dawki-river.jpg" alt="Riverside scenery in Guwahati" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>Brahmaputra sunset cruise:</strong> A classic Guwahati evening activity, boats departing from various ghats along the river.</li>
                     <li><strong>Umananda Temple:</strong> A Shiva temple on Peacock Island in the middle of the Brahmaputra, reachable by short ferry — notable as one of the world's smallest inhabited river islands.</li>
@@ -212,6 +198,13 @@ export default function GuwahatiGuidePage() {
                     <li><strong>Fancy Bazaar and city markets:</strong> Guwahati's lively commercial core.</li>
                     <li><strong>Day trips:</strong> Hajo and Pobitora Wildlife Sanctuary are both easy day trips from the city — see our dedicated guides.</li>
                   </ul>
+                  <GuidePhotoRow
+                    images={[
+                      { src: "/images/blogs/assam/guwahati/umananda-temple-guwahati.webp", alt: "Umananda Temple, Guwahati", caption: "Umananda Temple, Guwahati" },
+                      { src: "/images/blogs/assam/guwahati/kamakhya-temple-guwahati.webp", alt: "Kamakhya Temple, Guwahati", caption: "Kamakhya Temple, Guwahati" },
+                      { src: "/images/blogs/assam/guwahati/assam-state-museum-guwahati.webp", alt: "Assam State Museum, Guwahati", caption: "Assam State Museum, Guwahati" },
+                    ]}
+                  />
                 </section>
 
                 <section id="where-to-stay">
@@ -329,7 +322,6 @@ export default function GuwahatiGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={GUWAHATI_GEAR} destination="Guwahati" />
               <RelatedPostsGrid currentSlug="guwahati-travel-guide" />
             </article>
             <div className="hidden xl:block w-64 2xl:w-72 flex-shrink-0"><div className="sticky top-24"><RelatedSidebar currentSlug="guwahati-travel-guide" /></div></div>

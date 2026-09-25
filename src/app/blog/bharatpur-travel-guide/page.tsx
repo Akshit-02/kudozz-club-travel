@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/kerala/alleppey.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Calm wetland backwaters, evoking Keoladeo National Park's marshland habitat in Bharatpur",
+        url: "/images/blogs/rajasthan/bharatpur/bharatpur.webp",
+        width: 1600,
+        height: 1065,
+        alt: "View of Bharatpur, Rajasthan",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Bharatpur Guide: Keoladeo Bird Sanctuary & Tips",
     description:
       "A UNESCO-listed wetland explored by cycle-rickshaw, home to hundreds of resident and migratory bird species — the complete Bharatpur guide.",
-    images: ["/images/destinations/kerala/alleppey.jpg"],
+    images: ["/images/blogs/rajasthan/bharatpur/bharatpur.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/bharatpur-travel-guide",
@@ -60,7 +61,7 @@ function ArticleSchema() {
           description:
             "Complete Bharatpur guide — Keoladeo National Park's UNESCO-listed wetlands, cycle-rickshaw birding, Lohagarh Fort, how to reach from Agra, and a full visit plan.",
           image:
-            "https://club.kudozz.in/images/destinations/kerala/alleppey.jpg",
+            "https://club.kudozz.in/images/blogs/rajasthan/bharatpur/bharatpur.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -197,8 +198,8 @@ export default function BharatpurGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/kerala/alleppey.jpg"
-              alt="Calm wetland backwaters, evoking Keoladeo National Park's marshland habitat in Bharatpur"
+              src="/images/blogs/rajasthan/bharatpur/bharatpur.webp"
+              alt="View of Bharatpur, Rajasthan"
               fill
               priority
               sizes="100vw"
@@ -514,16 +515,8 @@ export default function BharatpurGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Keoladeo Park & Lohagarh Fort</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/kerala/alleppey.jpg"
-                      alt="Wetland habitat evoking Keoladeo National Park in Bharatpur, Rajasthan"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Keoladeo National Park</h3>
+                  <GuideFigure src="/images/blogs/rajasthan/bharatpur/keoladeo-national-park-bharatpur.webp" alt="Keoladeo National Park, Bharatpur" />
                   <p>
                     Explored by cycle-rickshaw, bicycle, or on foot rather
                     than jeep, the park hosts hundreds of resident and
@@ -533,6 +526,7 @@ export default function BharatpurGuidePage() {
                     absent in recent decades.
                   </p>
                   <h3>Lohagarh Fort</h3>
+                  <GuideFigure src="/images/blogs/rajasthan/bharatpur/lohagarh-fort-bharatpur.webp" alt="Lohagarh Fort, Bharatpur" />
                   <p>
                     Bharatpur town&apos;s own fort, notable for having
                     reportedly never been captured despite several sieges —

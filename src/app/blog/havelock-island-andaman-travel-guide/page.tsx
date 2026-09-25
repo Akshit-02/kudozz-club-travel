@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/andaman/havelock.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Turquoise water and white sand at Swaraj Dweep (Havelock Island), Andaman",
+        url: "/images/blogs/andaman-and-nicobar/havelock-island-andaman/radhanagar-beach-swaraj-dweep-havelock-island.webp",
+        width: 1600,
+        height: 1067,
+        alt: "Radhanagar Beach, Swaraj Dweep (Havelock Island)",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Swaraj Dweep (Havelock Island) Travel Guide: Beaches & Diving",
     description:
       "Radhanagar Beach, Elephant Beach snorkelling, and the Andamans' biggest scuba diving hub — the complete Havelock Island guide.",
-    images: ["/images/destinations/andaman/havelock.jpg"],
+    images: ["/images/blogs/andaman-and-nicobar/havelock-island-andaman/radhanagar-beach-swaraj-dweep-havelock-island.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/havelock-island-andaman-travel-guide",
@@ -61,7 +62,7 @@ function ArticleSchema() {
           description:
             "Complete Swaraj Dweep (Havelock Island) guide — Radhanagar Beach, Elephant Beach snorkelling, scuba diving centres, how to reach from Port Blair, where to stay, and a full visit plan.",
           image:
-            "https://club.kudozz.in/images/destinations/andaman/havelock.jpg",
+            "https://club.kudozz.in/images/blogs/andaman-and-nicobar/havelock-island-andaman/radhanagar-beach-swaraj-dweep-havelock-island.webp",
           datePublished: "2026-09-01",
           dateModified: "2026-09-01",
           publisher: {
@@ -203,8 +204,8 @@ export default function HavelockIslandGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/andaman/havelock.jpg"
-              alt="Turquoise water and white sand at Swaraj Dweep (Havelock Island), Andaman"
+              src="/images/blogs/andaman-and-nicobar/havelock-island-andaman/radhanagar-beach-swaraj-dweep-havelock-island.webp"
+              alt="Radhanagar Beach, Swaraj Dweep (Havelock Island)"
               fill
               priority
               sizes="100vw"
@@ -540,16 +541,8 @@ export default function HavelockIslandGuidePage() {
                 {/* ── Beaches ────────────────────────────────────────────── */}
                 <section id="beaches">
                   <h2>The Beaches</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/andaman/havelock.jpg"
-                      alt="Havelock Island coastline, Andaman"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Radhanagar Beach (Beach No. 7)</h3>
+                  <GuideFigure src="/images/blogs/andaman-and-nicobar/havelock-island-andaman/radhanagar-beach-swaraj-dweep-havelock-island-2.webp" alt="Radhanagar Beach, Swaraj Dweep (Havelock Island)" />
                   <p>
                     Havelock's headline attraction and, for many visitors,
                     the reason they came to the Andamans at all. Named one of
@@ -563,6 +556,7 @@ export default function HavelockIslandGuidePage() {
                     allowed there.
                   </p>
                   <h3>Elephant Beach</h3>
+                  <GuideFigure src="/images/blogs/andaman-and-nicobar/havelock-island-andaman/elephant-beach-swaraj-dweep-havelock-island.webp" alt="Elephant Beach, Swaraj Dweep (Havelock Island)" />
                   <p>
                     Reached by a short boat ride or a muddy jungle trek,
                     Elephant Beach is Havelock's snorkelling and sea-walking
@@ -570,6 +564,7 @@ export default function HavelockIslandGuidePage() {
                     accessible even for first-timers.
                   </p>
                   <h3>Kalapathar Beach</h3>
+                  <GuideFigure src="/images/blogs/andaman-and-nicobar/havelock-island-andaman/kalapathar-beach-swaraj-dweep-havelock-island.webp" alt="Kalapathar Beach, Swaraj Dweep (Havelock Island)" />
                   <p>
                     A quieter, rockier beach on the opposite side of the
                     island from Radhanagar, known for dramatic sunrise light
@@ -577,6 +572,7 @@ export default function HavelockIslandGuidePage() {
                     scenery without the peak-hour footfall.
                   </p>
                   <h3>Vijaynagar Beach</h3>
+                  <GuideFigure src="/images/blogs/andaman-and-nicobar/havelock-island-andaman/vijaynagar-beach-swaraj-dweep-havelock-island.webp" alt="Vijaynagar Beach, Swaraj Dweep (Havelock Island)" />
                   <p>
                     A long, easy-walking beach close to the main market area,
                     convenient for an evening stroll without needing

@@ -7,8 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Narnaul Travel Guide: Mughal Tombs & Sher Shah Suri Connections",
@@ -20,9 +18,9 @@ export const metadata: Metadata = {
     title: "Narnaul Travel Guide: Mughal Tombs & Sher Shah Suri Connections",
     description: "A cluster of well-preserved Mughal-era tombs and gardens in a town most travelers drive straight past — the complete guide to Narnaul.",
     url: "https://club.kudozz.in/blog/narnaul-travel-guide", type: "article", siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/spiti-valley/spiti-valley.jpg", width: 1200, height: 630, alt: "Historic monument architecture representative of Narnaul, Haryana" }],
+    images: [{ url: "/images/blogs/haryana/narnaul/jal-mahal-narnaul.webp", width: 1600, height: 1062, alt: "Jal Mahal, Narnaul" }],
   },
-  twitter: { card: "summary_large_image", title: "Narnaul Travel Guide: Mughal Tombs & Sher Shah Suri Connections", description: "Well-preserved Mughal-era tombs and gardens — the complete guide to Narnaul.", images: ["/images/destinations/spiti-valley/spiti-valley.jpg"] },
+  twitter: { card: "summary_large_image", title: "Narnaul Travel Guide: Mughal Tombs & Sher Shah Suri Connections", description: "Well-preserved Mughal-era tombs and gardens — the complete guide to Narnaul.", images: ["/images/blogs/haryana/narnaul/jal-mahal-narnaul.webp"] },
   alternates: { canonical: "https://club.kudozz.in/blog/narnaul-travel-guide" },
 };
 
@@ -32,7 +30,7 @@ function ArticleSchema() {
       "@context": "https://schema.org", "@type": "BlogPosting",
       headline: "Narnaul Travel Guide: Mughal Tombs & Sher Shah Suri Connections",
       description: "The complete Narnaul travel guide.",
-      image: "https://club.kudozz.in/images/destinations/spiti-valley/spiti-valley.jpg",
+      image: "https://club.kudozz.in/images/blogs/haryana/narnaul/jal-mahal-narnaul.webp",
       datePublished: "2026-09-07", dateModified: "2026-09-07",
       publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
       author: { "@type": "Organization", name: "Kudozz Club" },
@@ -79,16 +77,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const NARNAUL_GEAR: GearSection[] = [{
-  title: "Things Worth Carrying", subtitle: "Gear for a monument-hopping heritage day", emoji: "🕌",
-  items: [
-    { name: "Comfortable Walking Shoes", description: "For covering the town's monument cluster on foot across a full day.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Sightseeing essential", tagColor: "bg-amber-100 text-amber-700", why: "Narnaul's monuments are spread across town, requiring a fair amount of walking." },
-    { name: "Sun Hat", description: "For a comfortable day outdoors at open-air tomb and garden sites.", price: "₹499",  image: "🧢", affiliateUrl: amazonSearchUrl("sun+hat+travel+outdoor"), tag: "Comfort essential", tagColor: "bg-sky-100 text-sky-700", why: "Most sites offer limited shade around the monument grounds." },
-    { name: "Camera", description: "The tombs' architectural detail rewards close photography.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Photography essential", tagColor: "bg-forest-100 text-forest-700", why: "Narnaul's Mughal-era architecture is genuinely underrated and photogenic." },
-    { name: "Background Reading / Offline Guide", description: "On-site interpretation can be limited — a bit of pre-trip reading adds real context.", price: "₹—",  image: "📖", affiliateUrl: amazonSearchUrl("north+india+heritage+travel+guide+book"), tag: "Context essential", tagColor: "bg-purple-100 text-purple-700", why: "Without context, the monuments' historical significance can be easy to miss." },
-  ],
-}];
-
 export default function NarnaulGuidePage() {
   return (
     <>
@@ -96,7 +84,7 @@ export default function NarnaulGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/spiti-valley/spiti-valley.jpg" alt="Historic monument architecture representative of Narnaul, Haryana" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/haryana/narnaul/jal-mahal-narnaul.webp" alt="Jal Mahal, Narnaul" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -201,7 +189,7 @@ export default function NarnaulGuidePage() {
                 <section id="top-attractions">
                   <h2>Top Things to Do in Narnaul</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/spiti-valley/spiti-valley.jpg" alt="Historic monument scenery around Narnaul" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
+                    <Image src="/images/blogs/haryana/narnaul/narnaul.webp" alt="Narnaul, Haryana" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
                   </div>
                   <ul>
                     <li><strong>Ibrahim Khan Sur's Tomb:</strong> The town's standout monument, linked to the Sur dynasty era and Sher Shah Suri's broader lineage.</li>
@@ -319,7 +307,6 @@ export default function NarnaulGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={NARNAUL_GEAR} destination="Narnaul" />
               <RelatedPostsGrid currentSlug="narnaul-travel-guide" />
             </article>
             <div className="hidden xl:block w-64 2xl:w-72 flex-shrink-0"><div className="sticky top-24"><RelatedSidebar currentSlug="narnaul-travel-guide" /></div></div>

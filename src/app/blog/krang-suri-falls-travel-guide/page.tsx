@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/kasol/kasol.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Turquoise mountain stream in a green valley, evoking Krang Suri Falls' vivid blue pool",
+        url: "/images/blogs/meghalaya/krang-suri-falls/krang-suri-falls.webp",
+        width: 1600,
+        height: 1200,
+        alt: "Krang Suri Falls, Meghalaya",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Krang Suri Falls Guide: Best Time & Tips",
     description:
       "A vividly turquoise waterfall and natural swimming pool near Jowai — the complete Krang Suri Falls guide.",
-    images: ["/images/destinations/kasol/kasol.jpg"],
+    images: ["/images/blogs/meghalaya/krang-suri-falls/krang-suri-falls.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/krang-suri-falls-travel-guide",
@@ -59,7 +60,7 @@ function ArticleSchema() {
           headline: "Krang Suri Falls Guide: Best Time & Tips",
           description:
             "Complete Krang Suri Falls guide — the turquoise-blue waterfall and swimming pool near Jowai, best time to see the vivid color, how to reach, and safety tips.",
-          image: "https://club.kudozz.in/images/destinations/kasol/kasol.jpg",
+          image: "https://club.kudozz.in/images/blogs/meghalaya/krang-suri-falls/krang-suri-falls.webp",
           datePublished: "2026-09-05",
           dateModified: "2026-09-05",
           publisher: {
@@ -195,8 +196,8 @@ export default function KrangSuriFallsGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/kasol/kasol.jpg"
-              alt="Turquoise mountain stream in a green valley, evoking Krang Suri Falls' vivid blue pool"
+              src="/images/blogs/meghalaya/krang-suri-falls/krang-suri-falls.webp"
+              alt="Krang Suri Falls, Meghalaya"
               fill
               priority
               sizes="100vw"
@@ -410,6 +411,7 @@ export default function KrangSuriFallsGuidePage() {
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">
                   <h2>Best Time to Visit Krang Suri Falls</h2>
+                  <GuideFigure src="/images/blogs/meghalaya/krang-suri-falls/krang-suri-falls-view.webp" alt="Krang Suri Falls, Meghalaya" />
                   <p>
                     Water clarity here follows a similar seasonal pattern
                     to Meghalaya's other famously clear rivers and pools.
@@ -512,15 +514,6 @@ export default function KrangSuriFallsGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>The Falls, the Pool & the Walk In</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/kasol/kasol.jpg"
-                      alt="Clear blue-green mountain water, evoking the pool at the base of Krang Suri Falls"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>The Turquoise Pool</h3>
                   <p>
                     The standout feature here is the color — a natural pool

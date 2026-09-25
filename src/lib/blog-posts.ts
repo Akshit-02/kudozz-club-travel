@@ -16,7 +16,7 @@ export const featuredPost = {
   title: "Leh Ladakh Road Trip Guide: Routes, Permits, Passes & Tips",
   excerpt:
     "Moonscapes, Buddhist monasteries, and the world's highest motorable passes — a complete 14-day Leh Ladakh road trip guide covering routes, permits, passes and acclimatisation.",
-  image: "/images/destinations/leh-ladakh/leh-ladakh.jpg",
+  image: "/images/blogs/ladakh/leh-ladakh-road-trip/leh-ladakh.webp",
   category: "Road Trip",
   categoryColor: "bg-stone-100 text-stone-700",
   tags: ["Ladakh", "Road Trip", "High Altitude"],
@@ -341,7 +341,7 @@ export const posts = [
     title: "Himachal Pradesh Travel Guide: Shimla, Manali & Dharamshala",
     excerpt:
       "From colonial Shimla's toy train to the Tibetan Buddhist calm of McLeod Ganj and the apple orchards of Kullu — a state-level guide to planning a multi-region Himachal Pradesh trip.",
-    image: "/images/destinations/manali/hero.jpg",
+    image: "/images/blogs/himachal-pradesh/himachal-pradesh/spiti-valley-himachal-pradesh.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Himachal Pradesh", "Shimla", "Dharamshala"],
@@ -365,7 +365,7 @@ export const posts = [
     title: "Karnataka Travel Guide: Bangalore, Mysore & Hampi",
     excerpt:
       "From Bangalore's tech-city energy to Mysore's royal palaces, the ancient ruins of Hampi, and coffee hills beyond — a complete guide to planning a multi-region trip across Karnataka.",
-    image: "/images/destinations/hampi/hero.jpg",
+    image: "/images/blogs/karnataka/karnataka/karnataka-2.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Karnataka", "Bangalore", "Mysore"],
@@ -401,7 +401,7 @@ export const posts = [
     title: "Assam Travel Guide: Kaziranga, Guwahati & Majuli Island",
     excerpt:
       "Rhino safaris in Kaziranga, a hilltop Shakti Peeth temple above the Brahmaputra, and the world's largest river island — Assam is the gateway to Northeast India and a destination worth its own trip.",
-    image: "/images/blogs/assam/assam/one-horned-rhinoceros-kaziranga-assam.webp",
+    image: "/images/blogs/assam/assam/assam-2.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Assam", "Kaziranga", "Majuli Island"],
@@ -413,7 +413,7 @@ export const posts = [
     title: "Bihar Travel Guide: Bodh Gaya, Nalanda & Patna",
     excerpt:
       "The place where Buddha attained enlightenment, the ruins of one of the world's oldest universities, and the ancient heartland of the Magadha empire — a complete guide to Bihar's temples, ruins, and history for travelers.",
-    image: "/images/blogs/bihar/bihar/mahabodhi-temple-bodh-gaya-bihar.webp",
+    image: "/images/blogs/bihar/bihar/bihar-2.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Bihar", "Bodh Gaya", "Nalanda"],
@@ -437,7 +437,7 @@ export const posts = [
     title: "Uttar Pradesh Travel Guide: Taj Mahal, Varanasi & Lucknow",
     excerpt:
       "The world's most famous monument to love, the ghats of Varanasi, and Lucknow's Nawabi elegance — the complete guide to India's most historically dense state.",
-    image: "/images/blogs/uttar-pradesh/uttar-pradesh/taj-mahal-agra-uttar-pradesh.webp",
+    image: "/images/blogs/uttar-pradesh/uttar-pradesh/uttar-pradesh.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Uttar Pradesh", "Taj Mahal", "Varanasi"],
@@ -449,7 +449,7 @@ export const posts = [
     title: "Uttarakhand Travel Guide: Char Dham, Nainital & Rishikesh",
     excerpt:
       "Sacred temples above 3,000 metres, the Ganga's first rush out of the mountains, and lake towns wrapped in pine forest — the complete guide to Dev Bhoomi.",
-    image: "/images/destinations/rishikesh/rishikesh.jpg",
+    image: "/images/blogs/uttarakhand/uttarakhand/uttarakhand.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Uttarakhand", "Char Dham", "Rishikesh"],
@@ -473,7 +473,7 @@ export const posts = [
     title: "Delhi Travel Guide: Red Fort, Qutub Minar & 3-Day Itinerary",
     excerpt:
       "Mughal forts, Sultanate-era minarets, colonial avenues, and one of the world's great street food scenes — the complete guide to India's layered capital.",
-    image: "/images/blogs/delhi/delhi/red-fort-lahori-gate-delhi.webp",
+    image: "/images/blogs/delhi/delhi/delhi.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Delhi", "Red Fort", "Street Food"],
@@ -581,7 +581,7 @@ export const posts = [
     title: "Japanese Garden Chandigarh: Pagodas, Ponds & Best Time",
     excerpt:
       "Arched bridges, pagoda pavilions, and a still pond — Chandigarh's quietest themed garden, built around Japanese design principles.",
-    image: "/images/destinations/chandigarh/hero.jpg",
+    image: "/images/blogs/chandigarh/japanese-garden-chandigarh/japanese-garden-chandigarh.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Japanese Garden", "Chandigarh", "Sector 31", "Gardens"],
@@ -725,7 +725,7 @@ export const posts = [
     title: "Jammu & Kashmir Travel Guide: Srinagar, Gulmarg & Pahalgam",
     excerpt:
       "Houseboats on Dal Lake, gondola rides above the snow line, and valleys that earned Kashmir the name 'Paradise on Earth' — the complete guide.",
-    image: "/images/destinations/jammu-kashmir/hero.jpg",
+    image: "/images/blogs/jammu-and-kashmir/jammu-kashmir/gulmarg-jammu-and-kashmir.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Jammu & Kashmir", "Srinagar", "Gulmarg"],
@@ -737,7 +737,7 @@ export const posts = [
     title: "Lakshadweep Travel Guide: Permits, Islands & Best Time to Visit",
     excerpt:
       "Coral atolls barely a kilometre wide, turquoise lagoons, and some of India's clearest diving water — the complete guide to India's least-visited tropical paradise.",
-    image: "/images/destinations/lakshadweep/hero.jpg",
+    image: "/images/blogs/lakshadweep/lakshadweep-island/lakshadweep.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Lakshadweep", "Coral Islands", "Scuba Diving"],
@@ -749,7 +749,7 @@ export const posts = [
     title: "Puducherry Travel Guide: French Quarter, Auroville & Beaches",
     excerpt:
       "Mustard-yellow colonial villas, a seafront promenade closed to traffic, and the golden Matrimandir at Auroville — the complete guide to India's most European town.",
-    image: "/images/destinations/puducherry/hero.jpg",
+    image: "/images/blogs/puducherry/puducherry-french-quarter/puducherry.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Puducherry", "Tamil Nadu", "French Quarter"],
@@ -761,7 +761,7 @@ export const posts = [
     title: "Puducherry District Travel Guide: All 7 Towns & Attractions",
     excerpt:
       "Beyond the French Quarter and Auroville — a full town-by-town guide to Puducherry District, covering Villianur's ancient temple, Ariyankuppam's Arikamedu ruins and Chunnambar boat rides, Bahour's lake, Nettapakkam, and Oulgaret.",
-    image: "/images/destinations/puducherry/hero.jpg",
+    image: "/images/blogs/puducherry/puducherry-district/puducherry-district-2.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Puducherry District", "Villianur", "Ariyankuppam"],
@@ -845,7 +845,7 @@ export const posts = [
     title: "Gokarna Travel Guide: Best Beaches, Temples & Itinerary",
     excerpt:
       "A temple town with world-class beaches — Om Beach, Half Moon, and Paradise — linked by a cliffside trek and still a fraction as commercial as Goa.",
-    image: "/images/destinations/gokarna/hero.jpg",
+    image: "/images/blogs/karnataka/gokarna-beaches/gokarna-beach.webp",
     category: "Beaches",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Gokarna", "Karnataka", "Beaches"],
@@ -881,7 +881,7 @@ export const posts = [
     title: "Meghalaya Travel Guide: Living Root Bridges, Cherrapunji & More",
     excerpt:
       "Double-decker living root bridges, the cleanest river in Asia, and waterfalls that drop straight out of the clouds — the complete guide to India's wettest state.",
-    image: "/images/destinations/meghalaya/hero.jpg",
+    image: "/images/blogs/meghalaya/meghalaya/meghalaya.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Meghalaya", "Northeast India"],
@@ -905,7 +905,7 @@ export const posts = [
     title: "Spiti Valley: The Complete Travel Guide",
     excerpt:
       "A cold desert between Tibet and India — monasteries, fossils, and roads that will test your nerve and reward your soul.",
-    image: "/images/destinations/spiti-valley/spiti-valley.jpg",
+    image: "/images/blogs/himachal-pradesh/spiti-valley/spiti-valley.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Spiti Valley", "Off-beat"],
@@ -917,7 +917,7 @@ export const posts = [
     title: "Rishikesh Travel Guide: Adventure, Yoga, Rafting & More",
     excerpt:
       "India's adventure capital where white-water rafting meets Ganga aarti — everything you need for the perfect Rishikesh trip.",
-    image: "/images/destinations/rishikesh/rishikesh.jpg",
+    image: "/images/blogs/uttarakhand/rishikesh-adventure/rishikesh.webp",
     category: "Adventure",
     categoryColor: "bg-amber-100 text-amber-700",
     tags: ["Rishikesh", "Rafting", "Yoga"],
@@ -929,7 +929,7 @@ export const posts = [
     title: "Coorg Travel Guide: Coffee, Waterfalls, Trekking & More",
     excerpt:
       "Misty coffee hills, thundering waterfalls, Nagarhole wildlife and Kodava warmth — South India's most quietly magnificent escape.",
-    image: "/images/destinations/coorg/coorg.jpg",
+    image: "/images/blogs/karnataka/coorg/coorg.webp",
     category: "Destination Guide",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Coorg", "Karnataka", "Coffee"],
@@ -953,7 +953,7 @@ export const posts = [
     title: "Kasol & Kheerganga: The Backpacker's Himalayan Trail",
     excerpt:
       "Follow the Parvati River to natural hot springs through pine forests and tiny Himalayan villages.",
-    image: "/images/destinations/kasol/kasol.jpg",
+    image: "/images/blogs/himachal-pradesh/kasol-kheerganga-trek/kasol-and-kheerganga.webp",
     category: "Trekking",
     categoryColor: "bg-green-100 text-green-700",
     tags: ["Kasol", "Trekking"],
@@ -965,7 +965,7 @@ export const posts = [
     title: "Andaman Islands Travel Guide: Beaches, Diving, Permits & Tips",
     excerpt:
       "Crystal-clear waters, pristine coral reefs, white sand beaches and the haunting history of Cellular Jail — the complete guide to the Andaman Islands.",
-    image: "/images/destinations/andaman/hero.jpg",
+    image: "/images/blogs/andaman-and-nicobar/andaman-islands/andaman-islands-2.webp",
     category: "Beaches",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Andaman", "Beaches", "Scuba Diving"],
@@ -977,7 +977,7 @@ export const posts = [
     title: "Sri Vijaya Puram (Port Blair) Travel Guide: Sights & Tips",
     excerpt:
       "The capital of the Andaman & Nicobar Islands and the gateway almost every traveller passes through — Cellular Jail, Corbyn's Cove, and the ferries onward.",
-    image: "/images/destinations/andaman/hero.jpg",
+    image: "/images/blogs/andaman-and-nicobar/port-blair-andaman/cellular-jail-sri-vijaya-puram-port-blair-3.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Sri Vijaya Puram", "Port Blair", "Andaman Islands", "Cellular Jail", "Gateway City", "Ross Island", "North Bay Island"],
@@ -989,7 +989,7 @@ export const posts = [
     title: "Cellular Jail Travel Guide: History, Timings & Light Show",
     excerpt:
       "A pentagonal British-era prison that became the most feared symbol of colonial punishment — and today, a moving National Memorial to India's freedom struggle.",
-    image: "/images/destinations/andaman/hero.jpg",
+    image: "/images/blogs/andaman-and-nicobar/cellular-jail-andaman/cellular-jail.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Cellular Jail", "Kaala Pani", "Sri Vijaya Puram", "Port Blair", "Veer Savarkar", "Freedom Struggle", "National Memorial", "Light and Sound Show"],
@@ -1001,7 +1001,7 @@ export const posts = [
     title: "Swaraj Dweep (Havelock Island) Travel Guide: Beaches & Diving",
     excerpt:
       "The Andamans' most popular island — Radhanagar Beach, Elephant Beach snorkelling, and the region's biggest scuba diving hub, a 90-minute ferry from Port Blair.",
-    image: "/images/destinations/andaman/havelock.jpg",
+    image: "/images/blogs/andaman-and-nicobar/havelock-island-andaman/radhanagar-beach-swaraj-dweep-havelock-island.webp",
     category: "Beaches",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Havelock Island", "Swaraj Dweep", "Radhanagar Beach", "Elephant Beach", "Scuba Diving", "Andaman", "Ritchie's Archipelago", "Beaches"],
@@ -1013,7 +1013,7 @@ export const posts = [
     title: "Radhanagar Beach Travel Guide: Timings, Sunset & Tips",
     excerpt:
       "Powder-white sand and shallow turquoise water on Havelock Island — once named one of Asia's best beaches by Time magazine, and still living up to it.",
-    image: "/images/destinations/andaman/havelock.jpg",
+    image: "/images/blogs/andaman-and-nicobar/radhanagar-beach-andaman/radhanagar-beach.webp",
     category: "Beaches",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Radhanagar Beach", "Beach No. 7", "Havelock Island", "Swaraj Dweep", "Sunset Point", "Andaman", "Best Beaches India"],
@@ -1025,7 +1025,7 @@ export const posts = [
     title: "Shaheed Dweep (Neil Island) Travel Guide: Beaches & Tips",
     excerpt:
       "Andaman's slower, quieter island — Bharatpur Beach, a natural rock bridge at Laxmanpur, and a village pace that makes Neil Island the perfect wind-down after Havelock.",
-    image: "/images/destinations/andaman/hero.jpg",
+    image: "/images/blogs/andaman-and-nicobar/neil-island-andaman/shaheed-dweep-shaheed-dweep-neil-island-2.webp",
     category: "Beaches",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Neil Island", "Shaheed Dweep", "Bharatpur Beach", "Laxmanpur Beach", "Sitapur Beach", "Andaman Islands", "Island Hopping"],
@@ -1037,7 +1037,7 @@ export const posts = [
     title: "Ross Island Travel Guide: Ruins, History & How to Visit",
     excerpt:
       "Once the 'Paris of the East' and the British administrative capital of the Andamans — now silent ruins overtaken by strangler figs, roamed by deer and peacocks.",
-    image: "/images/destinations/andaman/hero.jpg",
+    image: "/images/blogs/andaman-and-nicobar/ross-island-andaman/ross-island.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Ross Island", "Netaji Subhas Chandra Bose Dweep", "Colonial Ruins", "Port Blair", "North Bay Island", "Andaman Islands", "Andaman History"],
@@ -1049,7 +1049,7 @@ export const posts = [
     title: "Baratang Island Travel Guide: Caves, Mud Volcano & Convoy Tips",
     excerpt:
       "A police-escorted convoy through a protected tribal reserve, a mangrove creek boat ride to limestone caves, and a bubbling mud volcano — Baratang is Andaman's strangest day trip.",
-    image: "/images/destinations/andaman/hero.jpg",
+    image: "/images/blogs/andaman-and-nicobar/baratang-andaman/baratang-island-2.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Baratang Island", "Limestone Caves", "Mud Volcano", "Jarawa Tribal Reserve", "Andaman Trunk Road", "Parrot Island", "Day Trip"],
@@ -1085,7 +1085,7 @@ export const posts = [
     title: "Kalipur Beach Travel Guide: Turtles, Saddle Peak & Tips",
     excerpt:
       "A quiet turtle-nesting beach near Diglipur and the starting point for the Saddle Peak trek — Kalipur is North Andaman at its calmest.",
-    image: "/images/destinations/andaman/hero.jpg",
+    image: "/images/blogs/andaman-and-nicobar/kalipur-andaman/kalipur-beach.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Kalipur", "Diglipur", "North Andaman", "Turtle Nesting", "Saddle Peak", "Andaman Islands"],
@@ -1097,7 +1097,7 @@ export const posts = [
     title: "North Bay Island Andaman: Coral, Sea Walking & Visit Guide",
     excerpt:
       "A short boat ride from Port Blair — glass-bottom boats, snorkelling, and a helmet sea walk over coral, usually paired with a Ross Island visit.",
-    image: "/images/destinations/andaman/hero.jpg",
+    image: "/images/blogs/andaman-and-nicobar/north-bay-island-andaman/north-bay-island-andaman.webp",
     category: "Adventure",
     categoryColor: "bg-amber-100 text-amber-700",
     tags: ["North Bay Island", "Andaman", "Sea Walking", "Snorkelling", "Ross Island", "Port Blair", "Coral Reef", "Day Trip"],
@@ -1109,7 +1109,7 @@ export const posts = [
     title: "Jolly Buoy Island Andaman: Marine Park Visit Guide",
     excerpt:
       "Some of the clearest water and healthiest coral in the Andamans, protected inside a marine national park — with strict visitor limits and a seasonal closure.",
-    image: "/images/destinations/andaman/hero.jpg",
+    image: "/images/blogs/andaman-and-nicobar/jolly-buoy-island-andaman/jolly-buoy-island-andaman-2.webp",
     category: "Adventure",
     categoryColor: "bg-amber-100 text-amber-700",
     tags: ["Jolly Buoy Island", "Andaman", "Mahatma Gandhi Marine National Park", "Wandoor", "Snorkelling", "Coral Reef", "Port Blair"],
@@ -1121,7 +1121,7 @@ export const posts = [
     title: "Chidiya Tapu Travel Guide: Sunset Point, Birds & Tips",
     excerpt:
       "The southernmost tip of South Andaman — mangroves, birdlife, a small biological park, and consistently rated one of the best sunsets in the islands.",
-    image: "/images/destinations/andaman/hero.jpg",
+    image: "/images/blogs/andaman-and-nicobar/chidiya-tapu-andaman/chidiya-tapu-2.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Chidiya Tapu", "Andaman", "South Andaman", "Sunset Point", "Bird Island", "Munda Pahad Beach", "Off-beat"],
@@ -1193,7 +1193,7 @@ export const posts = [
     title: "Hampi Travel Guide: Ruins, Boulders, Temples & Tips",
     excerpt:
       "The extraordinary ruins of the Vijayanagara Empire scattered across a surreal boulder landscape — the complete guide to Hampi.",
-    image: "/images/destinations/hampi/hero.jpg",
+    image: "/images/blogs/karnataka/hampi/hampi.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Hampi", "Karnataka", "Heritage"],
@@ -1205,7 +1205,7 @@ export const posts = [
     title: "Kerala Backwaters Guide: Houseboats, Routes, Villages & Tips",
     excerpt:
       "A 900-km network of lagoons, canals and lakes explored by houseboat — the complete guide to Kerala's backwaters.",
-    image: "/images/destinations/kerala/hero.jpg",
+    image: "/images/blogs/kerala/kerala-backwaters/kerala-backwaters.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Kerala", "Backwaters", "Houseboat"],
@@ -1217,7 +1217,7 @@ export const posts = [
     title: "Jaisalmer & Thar Desert Travel Guide: Fort, Camel Safari & Tips",
     excerpt:
       "A living medieval fort rising from the Thar Desert, camel safaris into the dunes and the most spectacular havelis in Rajasthan — the complete guide to Jaisalmer.",
-    image: "/images/destinations/jaisalmer/hero.jpg",
+    image: "/images/blogs/rajasthan/rajasthan-desert/jaisalmer-and-thar-desert.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Jaisalmer", "Rajasthan", "Desert Safari"],
@@ -1241,7 +1241,7 @@ export const posts = [
     title: "Leh Travel Guide: Leh Palace, Market, Shanti Stupa & Tips",
     excerpt:
       "A whitewashed old town under a ruined nine-storey palace, at 3,524 metres — Leh Palace, the bazaar, Shanti Stupa, and everything you need to explore the capital of Ladakh itself.",
-    image: "/images/destinations/leh-ladakh/leh-ladakh.jpg",
+    image: "/images/blogs/ladakh/leh/leh.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Leh", "Ladakh", "Old Town", "High Altitude", "Monasteries"],
@@ -1433,7 +1433,7 @@ export const posts = [
     title: "Srinagar Travel Guide: Dal Lake, Houseboats & Mughal Gardens",
     excerpt:
       "Wake to a shikara gliding through Dal Lake's floating market, spend a night on a carved wooden houseboat, and walk the Mughal gardens the Zabarwan hills were built to frame.",
-    image: "/images/destinations/jammu-kashmir/dal.jpg",
+    image: "/images/blogs/jammu-and-kashmir/srinagar/nishat-bagh-srinagar.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Srinagar", "Jammu and Kashmir", "Dal Lake", "Houseboats", "Mughal Gardens", "Kashmir"],
@@ -1445,7 +1445,7 @@ export const posts = [
     title: "Gulmarg Travel Guide: Gondola, Skiing & Meadows",
     excerpt:
       "A cable car that climbs past 3,900 metres, ski slopes that rival anywhere in the Himalayas, and meadows that turn green the moment the snow retreats — Gulmarg does double duty as India's top winter and summer mountain escape.",
-    image: "/images/destinations/jammu-kashmir/hero.jpg",
+    image: "/images/blogs/jammu-and-kashmir/gulmarg/gulmarg.webp",
     category: "Adventure",
     categoryColor: "bg-amber-100 text-amber-700",
     tags: ["Gulmarg", "Jammu and Kashmir", "Kashmir", "Skiing", "Gondola", "Meadows"],
@@ -1457,7 +1457,7 @@ export const posts = [
     title: "Pahalgam Travel Guide: Betaab Valley, Aru & Chandanwari",
     excerpt:
       "A pine-forested valley along the Lidder River where Bollywood found its favourite backdrop and pilgrims begin the Amarnath Yatra — Betaab Valley, Aru, and Chandanwari, all in one gentle Kashmir escape.",
-    image: "/images/destinations/jammu-kashmir/hero.jpg",
+    image: "/images/blogs/jammu-and-kashmir/pahalgam/pahalgam.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Pahalgam", "Jammu and Kashmir", "Betaab Valley", "Aru Valley", "Chandanwari", "Amarnath Yatra", "Lidder River"],
@@ -2285,7 +2285,7 @@ export const posts = [
     title: "Gorumara National Park: Safari, Timings & Tips",
     excerpt:
       "Complete Gorumara National Park guide — rhino and elephant jeep safaris, watchtowers, safari timings, Murti riverside stays, Chapramari sanctuary, and how to plan your visit.",
-    image: "/images/blogs/west-bengal/gorumara/jeep-safari-trail-gorumara-national-park.webp",
+    image: "/images/blogs/west-bengal/gorumara/gorumara-national-park.webp",
     category: "Adventure",
     categoryColor: "bg-amber-100 text-amber-700",
     tags: ["Gorumara National Park", "Dooars", "West Bengal", "Wildlife Safari", "One-Horned Rhino", "Jeep Safari"],
@@ -2825,7 +2825,7 @@ export const posts = [
     title: "Udaipur Tripura Travel Guide: Lakes & Old Capital",
     excerpt:
       "Not the Rajasthan lake city — Tripura's own Udaipur was the old Manikya capital, ringed by sacred lakes and home to one of Hinduism's 51 Shakti Peethas.",
-    image: "/images/blogs/tripura/udaipur/udaipur-railway-station.webp",
+    image: "/images/blogs/tripura/udaipur-tripura/tripura-sundari-temple-udaipur-tripura-2.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Udaipur Tripura", "Tripura Sundari Temple", "Tripura", "Heritage"],
@@ -3233,7 +3233,7 @@ export const posts = [
     title: "Kanyakumari Travel Guide: Sunrise, Sunset & Tips",
     excerpt:
       "Three seas meet at India's southernmost tip, where sunrise and sunset can both be watched over water from nearly the same shore — the complete Kanyakumari guide.",
-    image: "/images/destinations/gokarna/hero.jpg",
+    image: "/images/blogs/tamil-nadu/kanyakumari/kanyakumari.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Kanyakumari", "Vivekananda Rock Memorial", "Tamil Nadu", "Cape Comorin"],
@@ -3245,7 +3245,7 @@ export const posts = [
     title: "Thanjavur Travel Guide: Brihadeeswarar Temple",
     excerpt:
       "An 80-tonne granite capstone hauled to the top of an 11th-century tower — the complete guide to Thanjavur and the Chola dynasty's greatest temple.",
-    image: "/images/destinations/udaipur/saheliyon.jpg",
+    image: "/images/blogs/tamil-nadu/thanjavur/brihadeeswarar-temple-thanjavur-3.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Thanjavur", "Brihadeeswarar Temple", "Tamil Nadu", "Chola Heritage"],
@@ -3257,7 +3257,7 @@ export const posts = [
     title: "Ooty Travel Guide: Nilgiris, Lakes & Best Time",
     excerpt:
       "A colonial-era hill station, a UNESCO toy train, and tea gardens rolling across the Nilgiris — the complete Ooty guide.",
-    image: "/images/destinations/manali/solang-valley.jpg",
+    image: "/images/blogs/tamil-nadu/ooty/ooty.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Ooty", "Nilgiris", "Tamil Nadu", "Hill Station"],
@@ -3269,7 +3269,7 @@ export const posts = [
     title: "Kodaikanal Travel Guide: Lake, Views & Tips",
     excerpt:
       "A star-shaped lake, ridge-top walks, and a flower that blooms only once every twelve years — the complete guide to the Princess of Hill Stations.",
-    image: "/images/destinations/kasol/kasol.jpg",
+    image: "/images/blogs/tamil-nadu/kodaikanal/kodaikanal.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Kodaikanal", "Palani Hills", "Tamil Nadu", "Hill Station"],
@@ -3281,7 +3281,7 @@ export const posts = [
     title: "Coimbatore Travel Guide: Gateway to the Nilgiris",
     excerpt:
       "A textile city turned home to one of the world's largest bust sculptures, and the most practical launchpad for Ooty and Valparai.",
-    image: "/images/destinations/chandigarh/hero.jpg",
+    image: "/images/blogs/tamil-nadu/coimbatore/marudamalai-temple-coimbatore-2.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Coimbatore", "Tamil Nadu", "Isha Yoga Center", "Nilgiris Gateway"],
@@ -3293,7 +3293,7 @@ export const posts = [
     title: "Yercaud Travel Guide: Coffee Hills & Best Time",
     excerpt:
       "A quieter alternative to Ooty and Kodaikanal, ringed by coffee and orange plantations in the Shevaroy Hills — the complete Yercaud guide.",
-    image: "/images/destinations/jammu-kashmir/hero.jpg",
+    image: "/images/blogs/tamil-nadu/yercaud/kiliyur-falls-yercaud.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Yercaud", "Shevaroy Hills", "Tamil Nadu", "Hill Station"],
@@ -3317,7 +3317,7 @@ export const posts = [
     title: "Courtallam Falls Guide: Best Time & How to Reach",
     excerpt:
       "Known as the 'Spa of South India' — a cluster of waterfalls with a devoted Aavani bathing season and a temple town built around them, the complete Courtallam guide.",
-    image: "/images/destinations/coorg/abbey-falls.jpg",
+    image: "/images/blogs/tamil-nadu/courtallam/courtallam-falls-2.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Courtallam", "Kutralam Falls", "Tamil Nadu", "Waterfall"],
@@ -3329,7 +3329,7 @@ export const posts = [
     title: "Hogenakkal Falls Guide: Boating & Best Time",
     excerpt:
       "Where the Kaveri drops through a rocky gorge, best seen from a traditional round coracle threading the rapids — the complete Hogenakkal guide.",
-    image: "/images/destinations/meghalaya/dawki-river.jpg",
+    image: "/images/blogs/tamil-nadu/hogenakkal/hogenakkal-falls.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Hogenakkal Falls", "Kaveri River", "Tamil Nadu", "Waterfall"],
@@ -3341,7 +3341,7 @@ export const posts = [
     title: "Chettinad Travel Guide: Mansions & Cuisine",
     excerpt:
       "Grand merchant mansions built with imported marble and teak, and one of India's boldest regional cuisines — the complete guide to Chettinad.",
-    image: "/images/destinations/jaisalmer/hero.jpg",
+    image: "/images/blogs/tamil-nadu/chettinad/chettinad.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Chettinad", "Karaikudi", "Tamil Nadu", "Chettinad Cuisine"],
@@ -3353,7 +3353,7 @@ export const posts = [
     title: "Tiruvannamalai Guide: Arunachala & Girivalam",
     excerpt:
       "A fire-element Shiva temple, a hill devotees regard as a living deity, and a 14 km barefoot walk that draws pilgrims and seekers from across India.",
-    image: "/images/destinations/manali/hadimba-temple.jpg",
+    image: "/images/blogs/tamil-nadu/tiruvannamalai/tiruvannamalai.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Tiruvannamalai", "Arunachaleswarar Temple", "Tamil Nadu", "Girivalam"],
@@ -3365,7 +3365,7 @@ export const posts = [
     title: "Kolli Hills Travel Guide: 70 Hairpin Bends & Tips",
     excerpt:
       "A famously winding ghat road, a quiet waterfall, and one of Tamil Nadu's least-crowded hill ranges — a genuine escape from the state's better-known hill stations.",
-    image: "/images/destinations/spiti-valley/spiti-valley.jpg",
+    image: "/images/blogs/tamil-nadu/kolli-hills/kolli-hills.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Kolli Hills", "Namakkal District", "Tamil Nadu", "Off-beat"],
@@ -3377,7 +3377,7 @@ export const posts = [
     title: "Meghamalai Guide: High Wavy Mountains & Tips",
     excerpt:
       "Tea and cardamom estates folded into a wildlife sanctuary in the Western Ghats — one of Tamil Nadu's most remote, lightly touristed hill ranges.",
-    image: "/images/destinations/meghalaya/hero.jpg",
+    image: "/images/blogs/tamil-nadu/meghamalai/meghamalai.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Meghamalai", "High Wavy Mountains", "Tamil Nadu", "Theni"],
@@ -3401,7 +3401,7 @@ export const posts = [
     title: "Gangtok Travel Guide: Sightseeing, Food & Tips",
     excerpt:
       "A pedestrian promenade, monasteries, and the logistical hub through which almost every Sikkim itinerary passes — the complete Gangtok guide.",
-    image: "/images/destinations/jammu-kashmir/hero.jpg",
+    image: "/images/blogs/sikkim/gangtok/gangtok.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Gangtok", "Sikkim", "MG Marg", "Himalayas"],
@@ -3413,7 +3413,7 @@ export const posts = [
     title: "Nathula Pass Guide: Permits, Height & Tips",
     excerpt:
       "An active Indo-China border trade post on the historic Old Silk Route, at 4,310 metres — the complete Nathula Pass guide.",
-    image: "/images/destinations/leh-ladakh/leh-ladakh.jpg",
+    image: "/images/blogs/sikkim/nathula-pass/nathula-pass.webp",
     category: "Adventure",
     categoryColor: "bg-amber-100 text-amber-700",
     tags: ["Nathula Pass", "Sikkim", "Indo-China Border", "Old Silk Route"],
@@ -3425,7 +3425,7 @@ export const posts = [
     title: "Tsomgo Lake Guide: Permits & Best Time",
     excerpt:
       "A glacial lake at 3,753 metres that shifts character completely with the seasons — the complete Tsomgo Lake guide.",
-    image: "/images/destinations/jammu-kashmir/dal.jpg",
+    image: "/images/blogs/sikkim/tsomgo-lake/tsomgo-lake.webp",
     category: "Adventure",
     categoryColor: "bg-amber-100 text-amber-700",
     tags: ["Tsomgo Lake", "Changu Lake", "Sikkim", "High Altitude Lake"],
@@ -3437,7 +3437,7 @@ export const posts = [
     title: "Zuluk Travel Guide: Old Silk Route & Tips",
     excerpt:
       "A tiny Old Silk Route hamlet famous for a 32-hairpin-bend zigzag road and quiet homestay life — the complete Zuluk guide.",
-    image: "/images/destinations/chandigarh/hero.jpg",
+    image: "/images/blogs/sikkim/zuluk/zuluk.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Zuluk", "Old Silk Route", "Sikkim", "Off-beat"],
@@ -3449,7 +3449,7 @@ export const posts = [
     title: "Pelling Travel Guide: Kanchenjunga Views & Tips",
     excerpt:
       "One of Sikkim's best sunrise viewpoints for the world's third-highest peak, paired with a centuries-old monastery and the ruins of a lost capital.",
-    image: "/images/destinations/spiti-valley/spiti-valley.jpg",
+    image: "/images/blogs/sikkim/pelling/pelling.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Pelling", "Kanchenjunga", "Sikkim", "West Sikkim"],
@@ -3461,7 +3461,7 @@ export const posts = [
     title: "Namchi Travel Guide: Char Dham & Samdruptse",
     excerpt:
       "A symbolic version of India's four holiest pilgrimage sites, and one of the tallest statues of Guru Padmasambhava anywhere — both in one South Sikkim town.",
-    image: "/images/destinations/hampi/virupaksha.jpg",
+    image: "/images/blogs/sikkim/namchi/namchi.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Namchi", "Char Dham", "Sikkim", "South Sikkim"],
@@ -3473,7 +3473,7 @@ export const posts = [
     title: "Ravangla Travel Guide: Buddha Park & Views",
     excerpt:
       "A giant seated Buddha with Kanchenjunga in the background, and one of South Sikkim's calmer, less-crowded bases.",
-    image: "/images/destinations/manali/hadimba-temple.jpg",
+    image: "/images/blogs/sikkim/ravangla/ravangla-2.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Ravangla", "Buddha Park", "Sikkim", "South Sikkim"],
@@ -3485,7 +3485,7 @@ export const posts = [
     title: "Temi Tea Garden Guide: Sikkim's Only Estate",
     excerpt:
       "Neat terraced tea rows climbing a South Sikkim hillside, with the Kanchenjunga range filling the horizon behind them.",
-    image: "/images/destinations/coorg/coorg.jpg",
+    image: "/images/blogs/sikkim/temi-tea-garden/temi-tea-garden.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Temi Tea Garden", "Sikkim", "South Sikkim", "Tea Estate"],
@@ -3497,7 +3497,7 @@ export const posts = [
     title: "Lachung Travel Guide: Gateway to Yumthang",
     excerpt:
       "A river-confluence village in North Sikkim, apple orchards, and the essential overnight base before an early-morning run into Yumthang Valley.",
-    image: "/images/destinations/manali/solang-valley.jpg",
+    image: "/images/blogs/sikkim/lachung/lachung.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Lachung", "North Sikkim", "Yumthang Valley", "Off-beat"],
@@ -3509,7 +3509,7 @@ export const posts = [
     title: "Yumthang Valley Guide: Flowers & Best Time",
     excerpt:
       "Sikkim's own Valley of Flowers — a rhododendron sanctuary in full bloom against snow peaks, plus a high-altitude Zero Point extension.",
-    image: "/images/destinations/manali/rohtang-pass.jpg",
+    image: "/images/blogs/sikkim/yumthang-valley/yumthang-valley.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Yumthang Valley", "North Sikkim", "Rhododendron Sanctuary", "Sikkim"],
@@ -3521,7 +3521,7 @@ export const posts = [
     title: "Lachen Travel Guide: Gateway to Gurudongmar",
     excerpt:
       "A high-altitude North Sikkim village where you acclimatize before the dramatic ascent to one of the world's highest accessible lakes.",
-    image: "/images/destinations/kasol/kasol.jpg",
+    image: "/images/blogs/sikkim/lachen/lachen.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Lachen", "North Sikkim", "Gurudongmar Lake", "Off-beat"],
@@ -3533,7 +3533,7 @@ export const posts = [
     title: "Gurudongmar Lake Guide: Permits & Altitude",
     excerpt:
       "A stark, sacred lake at roughly 5,183 metres, revered by both Buddhists and Sikhs — one of the highest lakes in the world accessible by vehicle.",
-    image: "/images/destinations/leh-ladakh/leh-ladakh.jpg",
+    image: "/images/blogs/sikkim/gurudongmar-lake/gurudongmar-lake.webp",
     category: "Adventure",
     categoryColor: "bg-amber-100 text-amber-700",
     tags: ["Gurudongmar Lake", "North Sikkim", "High Altitude Lake", "Sikkim"],
@@ -3545,7 +3545,7 @@ export const posts = [
     title: "Yuksom Travel Guide: Sikkim's First Capital",
     excerpt:
       "A 17th-century coronation site, Sikkim's oldest monastery, and the trailhead into a UNESCO-listed national park — Yuksom is where the kingdom of Sikkim began.",
-    image: "/images/destinations/ziro/hero.jpg",
+    image: "/images/blogs/sikkim/yuksom/yuksom.webp",
     category: "Trekking",
     categoryColor: "bg-green-100 text-green-700",
     tags: ["Yuksom", "West Sikkim", "Goecha La Trek", "Kanchenjunga National Park"],
@@ -3557,7 +3557,7 @@ export const posts = [
     title: "Khecheopalri Lake Guide: The Wishing Lake",
     excerpt:
       "A still forest lake revered by Buddhists and Hindus alike, where local legend says the birds themselves keep the water clean.",
-    image: "/images/destinations/meghalaya/dawki-river.jpg",
+    image: "/images/blogs/sikkim/khecheopalri-lake/khecheopalri-lake.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Khecheopalri Lake", "West Sikkim", "Wishing Lake", "Sikkim"],
@@ -3569,7 +3569,7 @@ export const posts = [
     title: "Aritar Travel Guide: Lake, Views & Tips",
     excerpt:
       "A horseshoe-shaped lake, orange orchards, and a relaxed rural pace — Aritar is East Sikkim's quiet counterpart to nearby Zuluk.",
-    image: "/images/destinations/kerala/alleppey.jpg",
+    image: "/images/blogs/sikkim/aritar/aritar-2.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Aritar", "Lampokhari Lake", "East Sikkim", "Off-beat"],
@@ -3581,7 +3581,7 @@ export const posts = [
     title: "Dzongu Travel Guide: Permits & Lepcha Culture",
     excerpt:
       "A restricted reserve set aside for Sikkim's indigenous Lepcha community, opening slowly to travelers who come to slow down, not check boxes.",
-    image: "/images/destinations/meghalaya/hero.jpg",
+    image: "/images/blogs/sikkim/dzongu/dzongu.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Dzongu", "Lepcha Reserve", "North Sikkim", "Sikkim"],
@@ -3593,7 +3593,7 @@ export const posts = [
     title: "Jaipur Travel Guide: Amber Fort, Hawa Mahal & Tips",
     excerpt:
       "A pink-washed old city, a hilltop fort reached by elephant, and a honeycombed palace built so royal women could watch the streets unseen — the complete Jaipur guide.",
-    image: "/images/destinations/jaisalmer/hero.jpg",
+    image: "/images/blogs/rajasthan/jaipur/jaipur.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Jaipur", "Rajasthan", "Pink City", "Amber Fort"],
@@ -3605,7 +3605,7 @@ export const posts = [
     title: "Jodhpur Travel Guide: Mehrangarh Fort & Blue City",
     excerpt:
       "One of India's largest, best-preserved forts rises over a sea of indigo-washed houses — the complete guide to Jodhpur, the Blue City of Marwar.",
-    image: "/images/destinations/jaisalmer/fort.jpg",
+    image: "/images/blogs/rajasthan/jodhpur/jodhpur-2.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Jodhpur", "Rajasthan", "Blue City", "Mehrangarh Fort"],
@@ -3617,7 +3617,7 @@ export const posts = [
     title: "Pushkar Travel Guide: Lake, Temple & Camel Fair",
     excerpt:
       "A sacred lake ringed by 52 ghats, one of the world's only Brahma temples, and a camel fair that turns the desert into a festival — the complete Pushkar guide.",
-    image: "/images/destinations/jammu-kashmir/dal.jpg",
+    image: "/images/blogs/rajasthan/pushkar/pushkar-lake-and-the-ghats-2.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Pushkar", "Pushkar Lake", "Rajasthan", "Camel Fair"],
@@ -3629,7 +3629,7 @@ export const posts = [
     title: "Ajmer Travel Guide: Dargah Sharif & Ana Sagar",
     excerpt:
       "One of India's most important Sufi shrines, a 12th-century lake, and a mosque built from a repurposed Sanskrit college — the complete Ajmer guide.",
-    image: "/images/destinations/rishikesh/rishikesh.jpg",
+    image: "/images/blogs/rajasthan/ajmer/ajmer-sharif-dargah-2.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Ajmer", "Dargah Sharif", "Rajasthan", "Ana Sagar Lake"],
@@ -3641,7 +3641,7 @@ export const posts = [
     title: "Ranthambore Safari Guide: Tigers & Fort",
     excerpt:
       "Tigers photographed against the ramparts of a 10th-century fort — one of India's most iconic, and most photogenic, tiger reserves.",
-    image: "/images/destinations/ziro/hero.jpg",
+    image: "/images/blogs/rajasthan/ranthambore/ranthambore-fort-ranthambore-safari.webp",
     category: "Adventure",
     categoryColor: "bg-amber-100 text-amber-700",
     tags: ["Ranthambore", "Tiger Safari", "Rajasthan", "National Park"],
@@ -3666,7 +3666,7 @@ export const posts = [
     title: "Mount Abu Travel Guide: Dilwara Temples & Tips",
     excerpt:
       "Rajasthan's only hill station, home to marble-carved Jain temples of extraordinary intricacy — the complete Mount Abu guide.",
-    image: "/images/destinations/kasol/kasol.jpg",
+    image: "/images/blogs/rajasthan/mount-abu/nakki-lake-mount-abu.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Mount Abu", "Dilwara Temples", "Rajasthan", "Hill Station"],
@@ -3678,7 +3678,7 @@ export const posts = [
     title: "Jawai Travel Guide: Leopard Hills & Rabari Villages",
     excerpt:
       "Granite hills where wild leopards roam within sight of shepherd villages — one of India's most distinctive, least conflict-driven wildlife stories.",
-    image: "/images/destinations/spiti-valley/spiti-valley.jpg",
+    image: "/images/blogs/rajasthan/jawai/jawai-dam-3.webp",
     category: "Adventure",
     categoryColor: "bg-amber-100 text-amber-700",
     tags: ["Jawai", "Leopard Safari", "Rajasthan", "Pali District"],
@@ -3690,7 +3690,7 @@ export const posts = [
     title: "Bharatpur Guide: Keoladeo Bird Sanctuary & Tips",
     excerpt:
       "A former royal hunting reserve turned UNESCO-listed wetland, explored by cycle-rickshaw rather than jeep — the complete Bharatpur guide.",
-    image: "/images/destinations/kerala/alleppey.jpg",
+    image: "/images/blogs/rajasthan/bharatpur/bharatpur.webp",
     category: "Adventure",
     categoryColor: "bg-amber-100 text-amber-700",
     tags: ["Bharatpur", "Keoladeo National Park", "Rajasthan", "Bird Sanctuary"],
@@ -3702,7 +3702,7 @@ export const posts = [
     title: "Chittorgarh Fort Guide: History & Tips",
     excerpt:
       "One of Asia's largest forts, and the setting for the legend of Rani Padmini and jauhar — the complete guide to Chittorgarh's history and how to visit.",
-    image: "/images/destinations/hampi/hero.jpg",
+    image: "/images/blogs/rajasthan/chittorgarh/chittorgarh-fort.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Chittorgarh Fort", "Rajasthan", "Rajput Heritage", "UNESCO"],
@@ -3714,7 +3714,7 @@ export const posts = [
     title: "Kumbhalgarh Fort Guide: The Great Wall of India",
     excerpt:
       "A 36-km fortified wall across the Aravalli hills, the birthplace of Maharana Pratap, and a wildlife sanctuary at its feet — the complete Kumbhalgarh guide.",
-    image: "/images/destinations/jammu-kashmir/hero.jpg",
+    image: "/images/blogs/rajasthan/kumbhalgarh/kumbhalgarh-fort-2.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Kumbhalgarh Fort", "Rajasthan", "Great Wall of India", "UNESCO"],
@@ -3726,7 +3726,7 @@ export const posts = [
     title: "Bikaner Travel Guide: Junagarh Fort & Desert",
     excerpt:
       "An unconquered fort, a temple full of sacred rats, and camel culture running through everything from safaris to snacks — the complete Bikaner guide.",
-    image: "/images/destinations/udaipur/hero.jpg",
+    image: "/images/blogs/rajasthan/bikaner/junagarh-fort-bikaner-2.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Bikaner", "Junagarh Fort", "Rajasthan", "Karni Mata Temple"],
@@ -3738,7 +3738,7 @@ export const posts = [
     title: "Bundi Travel Guide: Stepwells, Palace & Murals",
     excerpt:
       "A palace Kipling called finer than a dream, more ornate stepwells than anywhere else in Rajasthan, and a fraction of Jodhpur's crowds — the complete Bundi guide.",
-    image: "/images/destinations/udaipur/saheliyon.jpg",
+    image: "/images/blogs/rajasthan/bundi/bundi.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Bundi", "Bundi Palace", "Rajasthan", "Stepwells"],
@@ -3750,7 +3750,7 @@ export const posts = [
     title: "Mandawa Travel Guide: Shekhawati Havelis & Tips",
     excerpt:
       "A desert town where merchant fortunes were painted onto every wall — the complete guide to Mandawa's frescoed havelis and Shekhawati's open-air art tradition.",
-    image: "/images/destinations/chandigarh/hero.jpg",
+    image: "/images/blogs/rajasthan/mandawa/mandawa-fort-2.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Mandawa", "Shekhawati", "Rajasthan", "Havelis"],
@@ -3762,7 +3762,7 @@ export const posts = [
     title: "Abhaneri Guide: Chand Baori Stepwell & Tips",
     excerpt:
       "Thirteen stories of symmetrical zigzagging steps descend into the earth — one of the world's largest and deepest stepwells, hiding in a small Rajasthan village.",
-    image: "/images/destinations/leh-ladakh/leh-ladakh.jpg",
+    image: "/images/blogs/rajasthan/abhaneri/chand-baori-abhaneri.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Abhaneri", "Chand Baori", "Rajasthan", "Stepwell"],
@@ -3774,7 +3774,7 @@ export const posts = [
     title: "Osian Travel Guide: Desert Temples & Tips",
     excerpt:
       "Ancient Hindu and Jain temples rise straight out of the Thar Desert near Jodhpur — the complete guide to Osian's 8th-12th century heritage and quieter dunes.",
-    image: "/images/destinations/manali/hadimba-temple.jpg",
+    image: "/images/blogs/rajasthan/osian/osian-view.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Osian", "Rajasthan", "Desert Temples", "Jodhpur"],
@@ -3798,7 +3798,7 @@ export const posts = [
     title: "Amritsar Travel Guide: Golden Temple & Food",
     excerpt:
       "A shimmering gold shrine, a memorial garden that changed the course of Indian history, and kulchas that draw pilgrims and food lovers alike — the complete Amritsar guide.",
-    image: "/images/destinations/jaisalmer/hero.jpg",
+    image: "/images/blogs/punjab/amritsar/amritsar-2.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Amritsar", "Punjab", "Golden Temple", "Wagah Border"],
@@ -3810,7 +3810,7 @@ export const posts = [
     title: "Golden Temple Guide: Timings, Langar & Tips",
     excerpt:
       "Sikhism's holiest shrine, a free kitchen feeding tens of thousands daily regardless of faith, and a sarovar that gives Amritsar its name — the complete Golden Temple guide.",
-    image: "/images/destinations/manali/hadimba-temple.jpg",
+    image: "/images/blogs/punjab/golden-temple/golden-temple-2.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Golden Temple", "Harmandir Sahib", "Amritsar", "Punjab"],
@@ -3834,7 +3834,7 @@ export const posts = [
     title: "Anandpur Sahib Guide: Birthplace of the Khalsa",
     excerpt:
       "The Shivalik foothills town where Guru Gobind Singh founded the Khalsa in 1699 — one of the five Takhts of Sikhism, and the complete guide to visiting it.",
-    image: "/images/destinations/manali/hero.jpg",
+    image: "/images/blogs/punjab/anandpur-sahib/anandpur-sahib-2.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Anandpur Sahib", "Khalsa", "Punjab", "Sikh Heritage"],
@@ -3846,7 +3846,7 @@ export const posts = [
     title: "Patiala Travel Guide: Qila Mubarak & Tips",
     excerpt:
       "A royal fort that gave India two lasting cultural exports — the Patiala peg and the Patiala salwar — the complete guide to Punjab's former princely capital.",
-    image: "/images/destinations/jaisalmer/fort.jpg",
+    image: "/images/blogs/punjab/patiala/patiala.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Patiala", "Qila Mubarak", "Punjab", "Royal Heritage"],
@@ -3858,7 +3858,7 @@ export const posts = [
     title: "Kapurthala Travel Guide: The Paris of Punjab",
     excerpt:
       "A maharaja's obsession with French architecture left behind a Versailles-inspired palace and a Moorish mosque — the complete guide to Punjab's most unusual town.",
-    image: "/images/destinations/udaipur/hero.jpg",
+    image: "/images/blogs/punjab/kapurthala/jagatjit-palace-kapurthala.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Kapurthala", "Jagatjit Palace", "Punjab", "Paris of Punjab"],
@@ -3882,7 +3882,7 @@ export const posts = [
     title: "Bathinda Travel Guide: Qila Mubarak & History",
     excerpt:
       "An ancient fort linked to Razia Sultana, the only woman to rule the Delhi Sultanate — the honest guide to one of Punjab's oldest, least-touristed cities.",
-    image: "/images/destinations/hampi/virupaksha.jpg",
+    image: "/images/blogs/punjab/bathinda/bathinda.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Bathinda", "Qila Mubarak", "Punjab", "Razia Sultana"],
@@ -3894,7 +3894,7 @@ export const posts = [
     title: "Ferozepur Travel Guide: Hussainiwala & Tips",
     excerpt:
       "A quieter Beating Retreat ceremony and the memorial where Bhagat Singh, Rajguru, and Sukhdev were cremated — the complete Ferozepur guide.",
-    image: "/images/destinations/chandigarh/hero.jpg",
+    image: "/images/blogs/punjab/ferozepur/ferozepur.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Ferozepur", "Hussainiwala", "Punjab", "Border Town"],
@@ -3918,7 +3918,7 @@ export const posts = [
     title: "Tarn Taran Sahib Guide: The Largest Sarovar",
     excerpt:
       "Home to the largest sacred pool of any Sikh gurdwara, even larger than the Golden Temple's — the complete guide to Tarn Taran Sahib.",
-    image: "/images/destinations/jammu-kashmir/dal.jpg",
+    image: "/images/blogs/punjab/tarn-taran/tarn-taran-sahib.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Tarn Taran Sahib", "Punjab", "Sikh Heritage", "Amritsar District"],
@@ -3930,7 +3930,7 @@ export const posts = [
     title: "Fatehgarh Sahib Guide: History & Tips",
     excerpt:
       "One of the most solemn sites in Sikh history, marking the martyrdom of Guru Gobind Singh's two youngest sons — the complete Fatehgarh Sahib guide.",
-    image: "/images/destinations/hampi/hero.jpg",
+    image: "/images/blogs/punjab/fatehgarh-sahib/fatehgarh-sahib-2.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Fatehgarh Sahib", "Punjab", "Sikh Heritage", "Sirhind"],
@@ -3942,7 +3942,7 @@ export const posts = [
     title: "Abohar Travel Guide: Blackbuck Sanctuary & Tips",
     excerpt:
       "One of India's highest blackbuck population densities outside a dedicated deer park, and a citrus-growing belt stretching across Fazilka district — Punjab's most unexpected wildlife stop.",
-    image: "/images/destinations/ziro/hero.jpg",
+    image: "/images/blogs/punjab/abohar/abohar-wildlife-sanctuary.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Abohar", "Blackbuck Sanctuary", "Punjab", "Off-beat"],
@@ -3954,7 +3954,7 @@ export const posts = [
     title: "Ranjit Sagar Dam Guide: Best Time & Tips",
     excerpt:
       "A hill-backed reservoir on the Ravi river near the Punjab-J&K border — one of the state's quietest, most scenic departures from its flat agricultural plains.",
-    image: "/images/destinations/meghalaya/dawki-river.jpg",
+    image: "/images/blogs/punjab/ranjit-sagar-dam/ranjit-sagar-dam.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Ranjit Sagar Dam", "Thein Dam", "Punjab", "Off-beat"],
@@ -3966,7 +3966,7 @@ export const posts = [
     title: "Puri Travel Guide: Jagannath Temple & Beach",
     excerpt:
       "One of Hinduism's four holiest pilgrimage sites, a chariot festival watched by millions, and a laid-back golden-sand beach — the complete guide to Puri.",
-    image: "/images/destinations/goa/beach.jpg",
+    image: "/images/blogs/odisha/puri/puri.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Puri", "Jagannath Temple", "Odisha", "Rath Yatra"],
@@ -3978,7 +3978,7 @@ export const posts = [
     title: "Bhubaneswar Travel Guide: Temple City of India",
     excerpt:
       "Over 700 historic temples, ancient rock-cut caves, and a peace pagoda on the site of an ancient war — the complete guide to Odisha's capital city.",
-    image: "/images/destinations/hampi/virupaksha.jpg",
+    image: "/images/blogs/odisha/bhubaneswar/lingaraj-temple-bhubaneswar.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Bhubaneswar", "Odisha", "Temple City", "Lingaraj Temple"],
@@ -3990,7 +3990,7 @@ export const posts = [
     title: "Konark Sun Temple Guide: History & Tips",
     excerpt:
       "A 13th-century temple carved as a colossal stone chariot for the Sun God, with 24 wheels and seven horses — the complete guide to Konark.",
-    image: "/images/destinations/manali/hadimba-temple.jpg",
+    image: "/images/blogs/odisha/konark/konark-sun-temple.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Konark", "Sun Temple", "Odisha", "UNESCO"],
@@ -4002,7 +4002,7 @@ export const posts = [
     title: "Chilika Lake Guide: Dolphins, Birds & Boating",
     excerpt:
       "Asia's largest brackish water lagoon, home to Irrawaddy dolphins and hundreds of thousands of wintering migratory birds — the complete Chilika Lake guide.",
-    image: "/images/destinations/jammu-kashmir/dal.jpg",
+    image: "/images/blogs/odisha/chilika-lake/nalabana-bird-sanctuary-chilika-lake.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Chilika Lake", "Odisha", "Irrawaddy Dolphins", "Bird Sanctuary"],
@@ -4050,7 +4050,7 @@ export const posts = [
     title: "Cuttack Travel Guide: Silver City & Barabati Fort",
     excerpt:
       "Odisha's former capital, famed for delicate silver filigree craftsmanship, riverside fort ruins, and an annual festival commemorating an ancient seafaring past.",
-    image: "/images/destinations/jaisalmer/hero.jpg",
+    image: "/images/blogs/odisha/cuttack/barabati-fort-cuttack-3.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Cuttack", "Barabati Fort", "Odisha", "Silver Filigree"],
@@ -4098,7 +4098,7 @@ export const posts = [
     title: "Jeypore Travel Guide: Tribal Heritage & Tips",
     excerpt:
       "A former princely seat, a scenic waterfall, and the practical gateway to southern Odisha's tribal heartland — the complete Jeypore guide.",
-    image: "/images/destinations/kasol/kasol.jpg",
+    image: "/images/blogs/odisha/jeypore/duduma-falls-jeypore.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Jeypore", "Koraput District", "Odisha", "Duduma Falls"],
@@ -4110,7 +4110,7 @@ export const posts = [
     title: "Sambalpur Guide: Hirakud Dam & Sarees",
     excerpt:
       "One of the world's longest earthen dams, and a city where the looms have been running for centuries — the complete guide to Sambalpur.",
-    image: "/images/destinations/kerala/alleppey.jpg",
+    image: "/images/blogs/odisha/sambalpur/samaleswari-temple-sambalpur.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Sambalpur", "Hirakud Dam", "Odisha", "Sambalpuri Sarees"],
@@ -4122,7 +4122,7 @@ export const posts = [
     title: "Chandipur Beach Guide: The Vanishing Sea",
     excerpt:
       "A quiet stretch of Odisha coastline where the tide pulls the sea back as much as 5 kilometres, and brings it home again a few hours later.",
-    image: "/images/destinations/gokarna/hero.jpg",
+    image: "/images/blogs/odisha/chandipur/chandipur-beach.webp",
     category: "Beaches",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Chandipur", "Vanishing Sea", "Odisha", "Balasore"],
@@ -4134,7 +4134,7 @@ export const posts = [
     title: "Rourkela Travel Guide: Steel City & Waterfalls",
     excerpt:
       "India's first integrated steel plant, a genuine hockey heritage, and one of Odisha's most dramatic waterfalls just beyond the city limits.",
-    image: "/images/destinations/coorg/abbey-falls.jpg",
+    image: "/images/blogs/odisha/rourkela/rourkela-2.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Rourkela", "Sundargarh District", "Odisha", "Khandadhar Falls"],
@@ -4146,7 +4146,7 @@ export const posts = [
     title: "Kohima Travel Guide: War Cemetery & History",
     excerpt:
       "A hill capital where a WWII battle changed the course of the war, and the practical gateway to Nagaland's tribal heartland — the complete Kohima guide.",
-    image: "/images/destinations/jammu-kashmir/hero.jpg",
+    image: "/images/blogs/nagaland/kohima/kisama-and-the-hornbill-festival-kohima.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Kohima", "Nagaland", "War Cemetery", "Hornbill Festival"],
@@ -4158,7 +4158,7 @@ export const posts = [
     title: "Kisama Guide: Hornbill Festival Heritage Village",
     excerpt:
       "A purpose-built village where every one of Nagaland's tribes gathers each December — one of Northeast India's most significant cultural events.",
-    image: "/images/destinations/ziro/hero.jpg",
+    image: "/images/blogs/nagaland/kisama/kisama.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Kisama", "Hornbill Festival", "Nagaland", "Naga Heritage Village"],
@@ -4170,7 +4170,7 @@ export const posts = [
     title: "Dzukou Valley Trek Guide: Route & Best Time",
     excerpt:
       "Rolling green hills often compared to Scotland's highlands, and a rare lily found nowhere else on earth — the complete Dzukou Valley trek guide.",
-    image: "/images/destinations/manali/solang-valley.jpg",
+    image: "/images/blogs/nagaland/dzukou-valley/dzukou-valley-2.webp",
     category: "Trekking",
     categoryColor: "bg-green-100 text-green-700",
     tags: ["Dzukou Valley", "Nagaland", "Trekking", "Manipur Border"],
@@ -4182,7 +4182,7 @@ export const posts = [
     title: "Dimapur Travel Guide: Gateway to Nagaland",
     excerpt:
       "Nagaland's only airport and rail hub, sitting in the plains rather than the hills — and home to an ancient ruin with stone monoliths unlike anything else in the region.",
-    image: "/images/destinations/hampi/hero.jpg",
+    image: "/images/blogs/nagaland/dimapur/the-kachari-ruins-dimapur-2.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Dimapur", "Nagaland", "Kachari Ruins", "Gateway City"],
@@ -4194,7 +4194,7 @@ export const posts = [
     title: "Khonoma Guide: India's First Green Village",
     excerpt:
       "A village that fought off the British Empire now protects its own forest on its own terms — one of India's most inspiring community-conservation stories.",
-    image: "/images/destinations/coorg/coorg.jpg",
+    image: "/images/blogs/nagaland/khonoma/khonoma.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Khonoma", "Green Village", "Nagaland", "Angami Naga"],
@@ -4230,7 +4230,7 @@ export const posts = [
     title: "Mokokchung Guide: Ao Naga Heartland",
     excerpt:
       "The cultural home of the Ao Naga, and the town where a single missionary encounter reshaped Nagaland's religious and cultural identity.",
-    image: "/images/destinations/manali/hero.jpg",
+    image: "/images/blogs/nagaland/mokokchung/mokokchung.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Mokokchung", "Ao Naga", "Nagaland", "Christian Heritage"],
@@ -4242,7 +4242,7 @@ export const posts = [
     title: "Doyang Guide: Amur Falcon Capital of the World",
     excerpt:
       "Millions of migratory raptors, a river reservoir in Wokha district, and one of conservation's great community-led turnaround stories — the complete Doyang guide.",
-    image: "/images/destinations/jammu-kashmir/dal.jpg",
+    image: "/images/blogs/nagaland/doyang/doyang.webp",
     category: "Adventure",
     categoryColor: "bg-amber-100 text-amber-700",
     tags: ["Doyang", "Amur Falcon", "Nagaland", "Wokha District"],
@@ -4254,7 +4254,7 @@ export const posts = [
     title: "Phek Travel Guide: Terraced Fields & Tips",
     excerpt:
       "Striking hillside rice terraces, Chakhesang Naga villages, and a genuinely offbeat corner of Nagaland — the complete Phek guide.",
-    image: "/images/destinations/kerala/alleppey.jpg",
+    image: "/images/blogs/nagaland/phek/shilloi-lake-phek.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Phek", "Chakhesang Naga", "Nagaland", "Terraced Fields"],
@@ -4266,7 +4266,7 @@ export const posts = [
     title: "Shilloi Lake Guide: Nagaland's Largest Lake",
     excerpt:
       "A remote, high-altitude natural lake near the Myanmar border, wrapped in forested hills and Chakhesang legend — one of Nagaland's least-visited natural spots.",
-    image: "/images/destinations/meghalaya/dawki-river.jpg",
+    image: "/images/blogs/nagaland/shilloi-lake/shilloi-lake.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Shilloi Lake", "Phek District", "Nagaland", "Myanmar Border"],
@@ -4314,7 +4314,7 @@ export const posts = [
     title: "Aizawl Travel Guide: Sightseeing & Tips",
     excerpt:
       "A hill capital built across a ridge with a genuine reputation for having no traffic jams — and the practical base for exploring central Mizoram.",
-    image: "/images/destinations/meghalaya/hero.jpg",
+    image: "/images/blogs/mizoram/aizawl/aizawl-2.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Aizawl", "Mizoram", "Hill Capital", "Northeast India"],
@@ -4326,7 +4326,7 @@ export const posts = [
     title: "Reiek Travel Guide: Heritage Village & Views",
     excerpt:
       "A peak with sweeping views toward Bangladesh and Myanmar, and a heritage village recreating traditional Mizo tribal life — central Mizoram's most popular weekend escape.",
-    image: "/images/destinations/manali/solang-valley.jpg",
+    image: "/images/blogs/mizoram/reiek/reiek.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Reiek", "Mizoram", "Heritage Village", "Aizawl District"],
@@ -4338,7 +4338,7 @@ export const posts = [
     title: "Phawngpui Trek Guide: The Blue Mountain",
     excerpt:
       "Mizoram's highest peak, wreathed in a distinctive blue haze near the Myanmar border — one of Northeast India's most demanding, least-attempted treks.",
-    image: "/images/destinations/manali/rohtang-pass.jpg",
+    image: "/images/blogs/mizoram/phawngpui/phawngpui-view.webp",
     category: "Trekking",
     categoryColor: "bg-green-100 text-green-700",
     tags: ["Phawngpui", "Blue Mountain", "Mizoram's Highest Peak", "Trekking"],
@@ -4350,7 +4350,7 @@ export const posts = [
     title: "Champhai Travel Guide: Rice Bowl of Mizoram",
     excerpt:
       "Terraced paddy valleys, a mythologically significant border lake, and a trade town on the edge of Myanmar — the complete Champhai guide.",
-    image: "/images/destinations/coorg/coorg.jpg",
+    image: "/images/blogs/mizoram/champhai/champhai-view.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Champhai", "Rice Bowl of Mizoram", "Mizoram", "Myanmar Border"],
@@ -4374,7 +4374,7 @@ export const posts = [
     title: "Vantawng Falls Guide: Mizoram's Tallest Falls",
     excerpt:
       "A multi-tiered cascade dropping through a forested gorge — widely considered the single most spectacular natural sight in Mizoram.",
-    image: "/images/destinations/coorg/abbey-falls.jpg",
+    image: "/images/blogs/mizoram/vantawng-falls/vantawng-falls.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Vantawng Falls", "Mizoram", "Waterfall", "Serchhip District"],
@@ -4398,7 +4398,7 @@ export const posts = [
     title: "Serchhip Travel Guide: Gateway & Tips",
     excerpt:
       "A district headquarters town with a pleasant hill setting, and the natural base for exploring Vantawng Falls, Thenzawl, and Tamdil Lake.",
-    image: "/images/destinations/chandigarh/hero.jpg",
+    image: "/images/blogs/mizoram/serchhip/vantawng-falls-serchhip.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Serchhip", "Mizoram", "Serchhip District", "Gateway Town"],
@@ -4458,7 +4458,7 @@ export const posts = [
     title: "Shillong Travel Guide: Sightseeing & Tips",
     excerpt:
       "Rolling misty hills that earned it 'Scotland of the East,' a deep-rooted rock-music culture, and the essential gateway to the rest of Meghalaya.",
-    image: "/images/destinations/jammu-kashmir/hero.jpg",
+    image: "/images/blogs/meghalaya/shillong/shillong.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Shillong", "Meghalaya", "Scotland of the East", "Northeast India"],
@@ -4470,7 +4470,7 @@ export const posts = [
     title: "Cherrapunji Travel Guide: Waterfalls & Rainfall",
     excerpt:
       "One of the wettest places on Earth, wrapped around a dramatic gorge landscape of thundering waterfalls and limestone caves.",
-    image: "/images/destinations/coorg/abbey-falls.jpg",
+    image: "/images/blogs/meghalaya/cherrapunji/cherrapunji-2.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Cherrapunji", "Sohra", "Meghalaya", "Nohkalikai Falls"],
@@ -4482,7 +4482,7 @@ export const posts = [
     title: "Dawki Travel Guide: Crystal Clear River & Tips",
     excerpt:
       "Water so transparent that boats appear to float in mid-air — one of India's most photographed rivers, right on the Bangladesh border.",
-    image: "/images/destinations/kerala/alleppey.jpg",
+    image: "/images/blogs/meghalaya/dawki/dawki.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Dawki", "Umngot River", "Meghalaya", "Bangladesh Border"],
@@ -4494,7 +4494,7 @@ export const posts = [
     title: "Nongriat Trek Guide: Living Root Bridge",
     excerpt:
       "A bridge grown from living tree roots over generations, and a demanding 3,500-step descent through the forest to reach it.",
-    image: "/images/destinations/ziro/hero.jpg",
+    image: "/images/blogs/meghalaya/nongriat/nongriat.webp",
     category: "Trekking",
     categoryColor: "bg-green-100 text-green-700",
     tags: ["Nongriat", "Living Root Bridge", "Meghalaya", "Trekking"],
@@ -4506,7 +4506,7 @@ export const posts = [
     title: "Mawlynnong Guide: India's Cleanest Village",
     excerpt:
       "A village that has kept itself spotless for two decades through community habit alone, with a living root bridge and a bamboo tower looking toward Bangladesh.",
-    image: "/images/destinations/coorg/coorg.jpg",
+    image: "/images/blogs/meghalaya/mawlynnong/mawlynnong.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Mawlynnong", "Cleanest Village", "Meghalaya", "East Khasi Hills"],
@@ -4530,7 +4530,7 @@ export const posts = [
     title: "Jowai Travel Guide: Jaintia Hills & Tips",
     excerpt:
       "Ancient standing stones among the tallest in the world, a legend-steeped lake, and a tribal culture distinct from Meghalaya's better-known Khasi Hills circuit.",
-    image: "/images/destinations/manali/hero.jpg",
+    image: "/images/blogs/meghalaya/jowai/jowai.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Jowai", "Jaintia Hills", "Meghalaya", "Pnar Culture"],
@@ -4542,7 +4542,7 @@ export const posts = [
     title: "Krang Suri Falls Guide: Best Time & Tips",
     excerpt:
       "A vividly turquoise waterfall and natural swimming pool near Jowai — arguably as beautiful as Cherrapunji's famous falls, with a fraction of the crowds.",
-    image: "/images/destinations/kasol/kasol.jpg",
+    image: "/images/blogs/meghalaya/krang-suri-falls/krang-suri-falls.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Krang Suri Falls", "Jowai", "Meghalaya", "Waterfall"],
@@ -4566,7 +4566,7 @@ export const posts = [
     title: "Umiam Lake Guide: Boating & Best Time",
     excerpt:
       "A forested-hill reservoir minutes from Shillong, offering the easiest, quickest boating escape in the entire state.",
-    image: "/images/destinations/jammu-kashmir/dal.jpg",
+    image: "/images/blogs/meghalaya/umiam-lake/umiam-lake.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Umiam Lake", "Barapani", "Shillong", "Meghalaya"],
@@ -4578,7 +4578,7 @@ export const posts = [
     title: "Mawphanlur Guide: Grasslands & Camping",
     excerpt:
       "Rolling grasslands and small lakes that feel more Scottish highlands than Northeast India — one of Meghalaya's quietest, least-developed corners.",
-    image: "/images/destinations/manali/rohtang-pass.jpg",
+    image: "/images/blogs/meghalaya/mawphanlur/mawphanlur-view.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Mawphanlur", "Meghalaya", "Grasslands", "Camping"],
@@ -4590,7 +4590,7 @@ export const posts = [
     title: "Tura Travel Guide: Gateway to Garo Hills",
     excerpt:
       "A different Meghalaya entirely — matrilineal Garo culture, a citrus sanctuary on the region's highest peak, and the base for the state's wildest, least-visited corners.",
-    image: "/images/destinations/jaisalmer/hero.jpg",
+    image: "/images/blogs/meghalaya/tura/wangala-festival-tura.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Tura", "Garo Hills", "Meghalaya", "Nokrek National Park"],
@@ -4602,7 +4602,7 @@ export const posts = [
     title: "Balpakram National Park: Myths & Wildlife",
     excerpt:
       "A canyon-cut plateau the Garo believe carries souls to the afterlife, home to legend, rare wildlife, and some of Meghalaya's wildest, least-touched terrain.",
-    image: "/images/destinations/leh-ladakh/leh-ladakh.jpg",
+    image: "/images/blogs/meghalaya/balpakram/balpakram-national-park-2.webp",
     category: "Adventure",
     categoryColor: "bg-amber-100 text-amber-700",
     tags: ["Balpakram National Park", "Garo Hills", "Meghalaya", "South Garo Hills"],
@@ -4614,7 +4614,7 @@ export const posts = [
     title: "Siju Cave Guide: Caving & Best Time",
     excerpt:
       "One of India's longest cave systems, riverside in South Garo Hills — genuine, undeveloped caving for travelers who want adventure without a lit walkway.",
-    image: "/images/destinations/hampi/virupaksha.jpg",
+    image: "/images/blogs/meghalaya/siju/siju-cave.webp",
     category: "Adventure",
     categoryColor: "bg-amber-100 text-amber-700",
     tags: ["Siju Cave", "Simsang River", "Meghalaya", "South Garo Hills"],
@@ -4638,7 +4638,7 @@ export const posts = [
     title: "Lonavala Travel Guide: Waterfalls, Caves & Monsoon Getaway",
     excerpt:
       "Mist-wrapped ghats two hours from Mumbai and Pune, 2,000-year-old rock-cut caves, and waterfalls that roar to life every monsoon — the complete guide to Lonavala.",
-    image: "/images/destinations/coorg/coorg.jpg",
+    image: "/images/blogs/maharashtra/lonavala/bhaja-caves-lonavala-2.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Lonavala", "Maharashtra", "Sahyadri"],
@@ -4650,7 +4650,7 @@ export const posts = [
     title: "Mahabaleshwar Travel Guide: Viewpoints, Strawberries & Itinerary",
     excerpt:
       "Table-top viewpoints over the Western Ghats, strawberry farms lining every road, and the source of the Krishna River — the complete guide to Maharashtra's favourite hill station.",
-    image: "/images/destinations/coorg/abbey-falls.jpg",
+    image: "/images/blogs/maharashtra/mahabaleshwar/mahabaleshwar-2.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Mahabaleshwar", "Maharashtra", "Western Ghats"],
@@ -4662,7 +4662,7 @@ export const posts = [
     title: "Matheran Travel Guide: India's Only Vehicle-Free Hill Station",
     excerpt:
       "No cars, no bikes, not even bicycles allowed — just red mud trails, a century-old toy train, and panoramic points over the Sahyadris. The complete guide to Matheran.",
-    image: "/images/destinations/ziro/hero.jpg",
+    image: "/images/blogs/maharashtra/matheran/matheran.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Matheran", "Maharashtra", "Hill Station"],
@@ -4674,7 +4674,7 @@ export const posts = [
     title: "Pune Travel Guide: Shaniwar Wada, Sinhagad & City Guide",
     excerpt:
       "A Maratha empire capital turned India's education and IT hub, ringed by hill forts and famous for its food streets — the complete guide to Pune.",
-    image: "/images/destinations/chandigarh/hero.jpg",
+    image: "/images/blogs/maharashtra/pune/pune-2.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Pune", "Maharashtra", "Shaniwar Wada"],
@@ -4686,7 +4686,7 @@ export const posts = [
     title: "Alibaug Travel Guide: Beaches, Forts & Weekend Getaway",
     excerpt:
       "A ferry ride from Mumbai's Gateway of India lands you on black-sand beaches and a 16th-century sea fort still standing in the tide — the complete guide to Alibaug.",
-    image: "/images/destinations/goa/beach.jpg",
+    image: "/images/blogs/maharashtra/alibaug/alibaug-2.webp",
     category: "Beaches",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Alibaug", "Maharashtra", "Konkan Coast"],
@@ -4698,7 +4698,7 @@ export const posts = [
     title: "Tarkarli Travel Guide: Scuba Diving, Beaches & Malvan",
     excerpt:
       "Clear turquoise water rare on India's west coast, scuba diving over live coral, and Malvani seafood straight off the boat — the complete guide to Tarkarli.",
-    image: "/images/destinations/andaman/hero.jpg",
+    image: "/images/blogs/maharashtra/tarkarli/tarkarli-beach-2.webp",
     category: "Beaches",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Tarkarli", "Maharashtra", "Scuba Diving"],
@@ -4710,7 +4710,7 @@ export const posts = [
     title: "Chhatrapati Sambhajinagar Travel Guide: Bibi Ka Maqbara & Forts",
     excerpt:
       "A Mughal-era 'mini Taj Mahal', the hilltop Daulatabad Fort, and the gateway to Ajanta and Ellora — the complete guide to Chhatrapati Sambhajinagar (Aurangabad).",
-    image: "/images/destinations/hampi/virupaksha.jpg",
+    image: "/images/blogs/maharashtra/chhatrapati-sambhajinagar/aurangabad-caves-chhatrapati-sambhajinagar.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Chhatrapati Sambhajinagar", "Aurangabad", "Maharashtra"],
@@ -4722,7 +4722,7 @@ export const posts = [
     title: "Ajanta & Ellora Caves Travel Guide: History, Timings & Tips",
     excerpt:
       "Buddhist cave paintings 2,000 years old and a temple carved downward out of a single basalt cliff — the complete guide to India's two greatest rock-cut wonders.",
-    image: "/images/destinations/hampi/hero.jpg",
+    image: "/images/blogs/maharashtra/ajanta-ellora/ajanta-and-ellora-caves-2.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Ajanta Caves", "Ellora Caves", "Maharashtra"],
@@ -4734,7 +4734,7 @@ export const posts = [
     title: "Nashik Travel Guide: Vineyards, Temples & Godavari Ghats",
     excerpt:
       "India's wine capital, a riverside pilgrimage town on the Godavari, and the vineyards drawing weekend crowds from Mumbai and Pune — the complete guide to Nashik.",
-    image: "/images/destinations/kerala/hero.jpg",
+    image: "/images/blogs/maharashtra/nashik/trimbakeshwar-temple-nashik.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Nashik", "Maharashtra", "Sula Vineyards"],
@@ -4758,7 +4758,7 @@ export const posts = [
     title: "Bhandardara Travel Guide: Arthur Lake, Waterfalls & Camping",
     excerpt:
       "A quiet dam-side lake ringed by peaks, a waterfall that free-falls 300 feet, and some of Maharashtra's clearest night skies — the complete guide to Bhandardara.",
-    image: "/images/destinations/manali/solang-valley.jpg",
+    image: "/images/blogs/maharashtra/bhandardara/bhandardara-2.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Bhandardara", "Maharashtra", "Arthur Lake"],
@@ -4770,7 +4770,7 @@ export const posts = [
     title: "Tadoba Andhari Tiger Reserve: Safari Guide, Zones & Best Time",
     excerpt:
       "Maharashtra's oldest and largest national park, with among the best tiger-sighting odds in Central India — the complete safari guide to Tadoba.",
-    image: "/images/destinations/meghalaya/dawki-river.jpg",
+    image: "/images/blogs/maharashtra/tadoba/tadoba-andhari-tiger-reserve.webp",
     category: "Adventure",
     categoryColor: "bg-amber-100 text-amber-700",
     tags: ["Tadoba", "Maharashtra", "Tiger Safari"],
@@ -4782,7 +4782,7 @@ export const posts = [
     title: "Kaas Plateau Travel Guide: The Valley of Flowers of Maharashtra",
     excerpt:
       "A UNESCO World Heritage volcanic plateau that turns into a carpet of wildflowers for a few weeks every monsoon — the complete guide to Kaas Plateau.",
-    image: "/images/destinations/meghalaya/hero.jpg",
+    image: "/images/blogs/maharashtra/kaas-plateau/kaas-plateau-2.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Kaas Plateau", "Maharashtra", "UNESCO"],
@@ -4794,7 +4794,7 @@ export const posts = [
     title: "Kolhapur Travel Guide: Mahalaxmi Temple, Palace & Kolhapuri Food",
     excerpt:
       "A Shakti Peeth temple city, a New Palace built by an English architect, and the fieriest thali in Maharashtra — the complete guide to Kolhapur.",
-    image: "/images/destinations/udaipur/hero.jpg",
+    image: "/images/blogs/maharashtra/kolhapur/kolhapur.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Kolhapur", "Maharashtra", "Mahalaxmi Temple"],
@@ -4806,7 +4806,7 @@ export const posts = [
     title: "Ganpatipule Travel Guide: Beach, Temple & Konkan Coast",
     excerpt:
       "A swayambhu Ganesh temple facing the Arabian Sea, and one of the Konkan coast's cleanest, least-crowded beaches — the complete guide to Ganpatipule.",
-    image: "/images/destinations/kerala/alleppey.jpg",
+    image: "/images/blogs/maharashtra/ganpatipule/ganpatipule-temple.webp",
     category: "Beaches",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Ganpatipule", "Maharashtra", "Konkan Coast"],
@@ -4818,7 +4818,7 @@ export const posts = [
     title: "Indore Travel Guide: Sarafa Bazaar, Rajwada & Street Food Capital",
     excerpt:
       "India's cleanest city and its unofficial street food capital, with a night market that comes alive after 9pm and an 18th-century Holkar palace at its heart — the complete guide to Indore.",
-    image: "/images/destinations/udaipur/hero.jpg",
+    image: "/images/blogs/madhya-pradesh/indore/rajwada-palace-indore-2.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Indore", "Madhya Pradesh", "Street Food"],
@@ -4830,7 +4830,7 @@ export const posts = [
     title: "Bhopal Travel Guide: Lakes, Old City & Bhimbetka Gateway",
     excerpt:
       "A city of lakes split between a mosque-studded old quarter and leafy new Bhopal, and the gateway to India's oldest rock art at Bhimbetka — the complete guide to Bhopal.",
-    image: "/images/destinations/jammu-kashmir/dal.jpg",
+    image: "/images/blogs/madhya-pradesh/bhopal/upper-lake-bhopal.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Bhopal", "Madhya Pradesh", "Upper Lake"],
@@ -4842,7 +4842,7 @@ export const posts = [
     title: "Khajuraho Temples Travel Guide: History, Timings & Best Time to Visit",
     excerpt:
       "UNESCO-listed temples covered in some of the most intricate stone carving in India, built by the Chandela dynasty over a thousand years ago — the complete guide to Khajuraho.",
-    image: "/images/destinations/hampi/virupaksha.jpg",
+    image: "/images/blogs/madhya-pradesh/khajuraho/khajuraho-temples.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Khajuraho", "Madhya Pradesh", "UNESCO"],
@@ -4854,7 +4854,7 @@ export const posts = [
     title: "Ujjain Travel Guide: Mahakaleshwar Temple, Simhastha & Kumbh",
     excerpt:
       "One of Hinduism's seven sacred cities and home to a Jyotirlinga where the daily Bhasma Aarti draws pilgrims before dawn — the complete guide to Ujjain.",
-    image: "/images/destinations/jaisalmer/hero.jpg",
+    image: "/images/blogs/madhya-pradesh/ujjain/ram-ghat-ujjain.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Ujjain", "Mahakaleshwar Temple", "Madhya Pradesh"],
@@ -4866,7 +4866,7 @@ export const posts = [
     title: "Omkareshwar Travel Guide: Jyotirlinga Island Temple & Narmada Ghats",
     excerpt:
       "A Shiva temple on an island shaped like the sacred Om symbol, ringed by the Narmada River — the complete guide to Omkareshwar.",
-    image: "/images/destinations/kerala/alleppey.jpg",
+    image: "/images/blogs/madhya-pradesh/omkareshwar/omkareshwar.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Omkareshwar", "Narmada River", "Madhya Pradesh"],
@@ -4878,7 +4878,7 @@ export const posts = [
     title: "Mandu Travel Guide: Jahaz Mahal, Monsoon Palaces & Afghan Ruins",
     excerpt:
       "A ridge-top fort city of Afghan-era palaces built for the monsoon, including a 'ship palace' that seems to float between two lakes — the complete guide to Mandu.",
-    image: "/images/destinations/jaisalmer/fort.jpg",
+    image: "/images/blogs/madhya-pradesh/mandu/jahaz-mahal-mandu.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Mandu", "Madhya Pradesh", "Jahaz Mahal"],
@@ -4890,7 +4890,7 @@ export const posts = [
     title: "Pachmarhi Travel Guide: Waterfalls, Caves & Satpura's Only Hill Station",
     excerpt:
       "The Satpura range's only hill station, with cave temples, waterfalls hidden in sandstone gorges, and Madhya Pradesh's highest peak — the complete guide to Pachmarhi.",
-    image: "/images/destinations/coorg/coorg.jpg",
+    image: "/images/blogs/madhya-pradesh/pachmarhi/dhoopgarh-pachmarhi.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Pachmarhi", "Madhya Pradesh", "Satpura"],
@@ -4902,7 +4902,7 @@ export const posts = [
     title: "Kanha National Park: Tiger Safari Guide, Zones & Best Time",
     excerpt:
       "The forest that inspired The Jungle Book, and one of India's best-managed tiger reserves — the complete safari guide to Kanha.",
-    image: "/images/destinations/meghalaya/dawki-river.jpg",
+    image: "/images/blogs/madhya-pradesh/kanha/kanha-national-park.webp",
     category: "Adventure",
     categoryColor: "bg-amber-100 text-amber-700",
     tags: ["Kanha National Park", "Madhya Pradesh", "Tiger Safari"],
@@ -4914,7 +4914,7 @@ export const posts = [
     title: "Bandhavgarh National Park: Tiger Safari Guide, Zones & Best Time",
     excerpt:
       "The highest tiger density of any reserve in India, ringed by a 2,000-year-old hilltop fort — the complete safari guide to Bandhavgarh.",
-    image: "/images/destinations/ziro/hero.jpg",
+    image: "/images/blogs/madhya-pradesh/bandhavgarh/bandhavgarh-national-park.webp",
     category: "Adventure",
     categoryColor: "bg-amber-100 text-amber-700",
     tags: ["Bandhavgarh National Park", "Madhya Pradesh", "Tiger Safari"],
@@ -4926,7 +4926,7 @@ export const posts = [
     title: "Panna National Park Travel Guide: Tiger Safari & Ken River Gorge",
     excerpt:
       "A tiger reserve rebuilt from zero after a poaching crisis, cut through by the dramatic Ken River gorge — the complete guide to Panna.",
-    image: "/images/destinations/meghalaya/hero.jpg",
+    image: "/images/blogs/madhya-pradesh/panna/panna-national-park.webp",
     category: "Adventure",
     categoryColor: "bg-amber-100 text-amber-700",
     tags: ["Panna National Park", "Madhya Pradesh", "Tiger Safari"],
@@ -4938,7 +4938,7 @@ export const posts = [
     title: "Sanchi Stupa Travel Guide: Buddhist Monuments & History",
     excerpt:
       "The oldest stone structure in India still standing, and one of Buddhism's most important surviving monument complexes — the complete guide to Sanchi.",
-    image: "/images/destinations/hampi/hero.jpg",
+    image: "/images/blogs/madhya-pradesh/sanchi/sanchi-stupa.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Sanchi", "Madhya Pradesh", "Buddhist Heritage"],
@@ -4962,7 +4962,7 @@ export const posts = [
     title: "Gwalior Fort Travel Guide: History, Timings & City Guide",
     excerpt:
       "A hilltop fort Babur once called 'the pearl among fortresses of India', plus a palace with a working 15th-century water-lift system — the complete guide to Gwalior.",
-    image: "/images/destinations/jaisalmer/hero.jpg",
+    image: "/images/blogs/madhya-pradesh/gwalior/gwalior-fort.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Gwalior Fort", "Madhya Pradesh", "Man Singh Palace"],
@@ -4974,7 +4974,7 @@ export const posts = [
     title: "Orchha Travel Guide: Cenotaphs, Palaces & Betwa River",
     excerpt:
       "A 16th-century Bundela capital of sandstone palaces and riverside chhatris, still remarkably uncrowded — the complete guide to Orchha.",
-    image: "/images/destinations/udaipur/saheliyon.jpg",
+    image: "/images/blogs/madhya-pradesh/orchha/orchha.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Orchha", "Madhya Pradesh", "Betwa River"],
@@ -4986,7 +4986,7 @@ export const posts = [
     title: "Jabalpur Travel Guide: Marble Rocks, Dhuandhar Falls & Bhedaghat",
     excerpt:
       "Moonlit boat rides through white marble gorges and a waterfall known as the 'smoke cascade' — the complete guide to Jabalpur.",
-    image: "/images/destinations/andaman/hero.jpg",
+    image: "/images/blogs/madhya-pradesh/jabalpur/dhuandhar-falls-jabalpur-2.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Jabalpur", "Madhya Pradesh", "Marble Rocks"],
@@ -4998,7 +4998,7 @@ export const posts = [
     title: "Amarkantak Travel Guide: Source of the Narmada & Son Rivers",
     excerpt:
       "A plateau temple town where two of India's major rivers are born a few hundred metres apart, deep in dense Maikal hill forest — the complete guide to Amarkantak.",
-    image: "/images/destinations/manali/solang-valley.jpg",
+    image: "/images/blogs/madhya-pradesh/amarkantak/amarkantak-2.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Amarkantak", "Madhya Pradesh", "Narmada River"],
@@ -5034,7 +5034,7 @@ export const posts = [
     title: "Alappuzha (Alleppey) Travel Guide: Houseboats & Backwaters",
     excerpt:
       "The 'Venice of the East' — a maze of palm-lined backwater canals best explored overnight on a converted rice barge — the complete guide to Alappuzha.",
-    image: "/images/destinations/kerala/alleppey.jpg",
+    image: "/images/blogs/kerala/alappuzha/kuttanad-alappuzha-alleppey-2.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Alappuzha", "Alleppey", "Kerala"],
@@ -5046,7 +5046,7 @@ export const posts = [
     title: "Kochi Travel Guide: Fort Kochi, Chinese Nets & 3-Day Itinerary",
     excerpt:
       "Chinese fishing nets silhouetted against the sunset, spice-trade history layered under Portuguese and Dutch influence, and Kerala's most walkable old town — the complete guide to Kochi.",
-    image: "/images/destinations/kerala/hero.jpg",
+    image: "/images/blogs/kerala/kochi/mattancherry-palace-kochi.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Kochi", "Kerala", "Fort Kochi"],
@@ -5058,7 +5058,7 @@ export const posts = [
     title: "Wayanad Travel Guide: Waterfalls, Wildlife & Western Ghats",
     excerpt:
       "Misty coffee and spice plantations, ancient caves with 6,000-year-old rock carvings, and a wildlife sanctuary linking three states — the complete guide to Wayanad.",
-    image: "/images/destinations/ziro/hero.jpg",
+    image: "/images/blogs/kerala/wayanad/wayanad.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Wayanad", "Kerala", "Western Ghats"],
@@ -5070,7 +5070,7 @@ export const posts = [
     title: "Varkala Travel Guide: Cliff Beach, Yoga & Best Time to Visit",
     excerpt:
       "A red laterite cliff running straight along the Arabian Sea, lined with cafes above the sand — one of Kerala's few beaches with a view like this — the complete guide to Varkala.",
-    image: "/images/destinations/goa/beach.jpg",
+    image: "/images/blogs/kerala/varkala/janardanaswamy-temple-varkala.webp",
     category: "Beaches",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Varkala", "Kerala", "Cliff Beach"],
@@ -5082,7 +5082,7 @@ export const posts = [
     title: "Kovalam Travel Guide: Lighthouse Beach, Ayurveda & Itinerary",
     excerpt:
       "Three crescent coves anchored by a working lighthouse, and one of South India's original beach destinations for Ayurvedic wellness — the complete guide to Kovalam.",
-    image: "/images/destinations/andaman/hero.jpg",
+    image: "/images/blogs/kerala/kovalam/lighthouse-beach-kovalam-2.webp",
     category: "Beaches",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Kovalam", "Kerala", "Ayurveda"],
@@ -5094,7 +5094,7 @@ export const posts = [
     title: "Thekkady Travel Guide: Periyar Wildlife Sanctuary & Spice Plantations",
     excerpt:
       "Boat safaris across a reservoir ringed by elephant herds, and spice plantations still growing the cardamom and pepper that built Kerala's ancient trade routes — the complete guide to Thekkady.",
-    image: "/images/destinations/meghalaya/dawki-river.jpg",
+    image: "/images/blogs/kerala/thekkady/thekkady-view.webp",
     category: "Adventure",
     categoryColor: "bg-amber-100 text-amber-700",
     tags: ["Thekkady", "Periyar Wildlife Sanctuary", "Kerala"],
@@ -5106,7 +5106,7 @@ export const posts = [
     title: "Kumarakom Travel Guide: Vembanad Lake, Bird Sanctuary & Houseboats",
     excerpt:
       "A quieter, greener answer to Alleppey's backwaters, with a bird sanctuary on Kerala's largest lake — the complete guide to Kumarakom.",
-    image: "/images/destinations/jammu-kashmir/dal.jpg",
+    image: "/images/blogs/kerala/kumarakom/vembanad-lake-kumarakom-3.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Kumarakom", "Vembanad Lake", "Kerala"],
@@ -5118,7 +5118,7 @@ export const posts = [
     title: "Athirappilly Falls Travel Guide: Kerala's Niagara & Best Time to Visit",
     excerpt:
       "Kerala's biggest waterfall, thundering 80 feet through rainforest just outside a tiger reserve — the complete guide to Athirappilly.",
-    image: "/images/destinations/coorg/abbey-falls.jpg",
+    image: "/images/blogs/kerala/athirappilly/athirappilly-falls-2.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Athirappilly", "Kerala", "Waterfalls"],
@@ -5130,7 +5130,7 @@ export const posts = [
     title: "Bekal Travel Guide: Fort, Beach & North Kerala's Quiet Coast",
     excerpt:
       "Kerala's largest fort rising straight out of the Arabian Sea, on a coastline that still sees a fraction of Kovalam's crowds — the complete guide to Bekal.",
-    image: "/images/destinations/jaisalmer/fort.jpg",
+    image: "/images/blogs/kerala/bekal/bekal.webp",
     category: "Beaches",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Bekal", "Kerala", "Bekal Fort"],
@@ -5142,7 +5142,7 @@ export const posts = [
     title: "Kannur Travel Guide: Theyyam, Beaches & Handloom Heritage",
     excerpt:
       "A ritual dance-form where performers are worshipped as living deities, near-empty beaches, and centuries-old handloom weaving villages — the complete guide to Kannur.",
-    image: "/images/destinations/goa/hero.jpg",
+    image: "/images/blogs/kerala/kannur/kannur-2.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Kannur", "Kerala", "Theyyam"],
@@ -5154,7 +5154,7 @@ export const posts = [
     title: "Guruvayur Temple Travel Guide: Darshan, Timings & How to Reach",
     excerpt:
       "One of Kerala's most revered Krishna temples, home to a herd of temple elephants and a darshan queue that starts before sunrise — the complete guide to Guruvayur.",
-    image: "/images/destinations/jaisalmer/hero.jpg",
+    image: "/images/blogs/kerala/guruvayur/guruvayur-temple.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Guruvayur", "Kerala", "Krishna Temple"],
@@ -5166,7 +5166,7 @@ export const posts = [
     title: "Vagamon Travel Guide: Meadows, Pine Forests & Paragliding",
     excerpt:
       "Rolling grass meadows compared to Scotland, pine forests planted by a British-era estate, and Kerala's paragliding hub — the complete guide to Vagamon.",
-    image: "/images/destinations/manali/solang-valley.jpg",
+    image: "/images/blogs/kerala/vagamon/thangal-para-vagamon.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Vagamon", "Kerala", "Paragliding"],
@@ -5178,7 +5178,7 @@ export const posts = [
     title: "Gavi Travel Guide: Eco-Tourism, Forest Trails & Permits",
     excerpt:
       "A permit-only eco-tourism forest inside the Periyar Tiger Reserve buffer zone, with almost no crowds and some of Kerala's densest wildlife — the complete guide to Gavi.",
-    image: "/images/destinations/meghalaya/hero.jpg",
+    image: "/images/blogs/kerala/gavi/gavi.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Gavi", "Kerala", "Eco-Tourism"],
@@ -5190,7 +5190,7 @@ export const posts = [
     title: "Munroe Island Travel Guide: Backwater Canoeing & Village Life",
     excerpt:
       "A cluster of tiny islands where the Ashtamudi Lake meets the Kallada River, explored by narrow canoe through coir-village canals — the complete guide to Munroe Island.",
-    image: "/images/destinations/andaman/havelock.jpg",
+    image: "/images/blogs/kerala/munroe-island/munroe-island.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Munroe Island", "Kerala", "Backwaters"],
@@ -5202,7 +5202,7 @@ export const posts = [
     title: "Bengaluru Travel Guide: Gardens, Palaces & India's Tech Capital",
     excerpt:
       "Cubbon Park's green spread in the middle of a tech-boom skyline, a Tipu Sultan summer palace, and the country's best-known startup scene — the complete guide to Bengaluru.",
-    image: "/images/destinations/udaipur/saheliyon.jpg",
+    image: "/images/blogs/karnataka/bengaluru/lalbagh-botanical-garden-bengaluru-2.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Bengaluru", "Karnataka", "Cubbon Park"],
@@ -5214,7 +5214,7 @@ export const posts = [
     title: "Mysuru Travel Guide: Mysore Palace, Dasara & City Guide",
     excerpt:
       "A Wodeyar-dynasty palace lit by nearly 100,000 bulbs every evening, and a ten-day Dasara festival that turns the whole city into a procession — the complete guide to Mysuru.",
-    image: "/images/destinations/jaisalmer/hero.jpg",
+    image: "/images/blogs/karnataka/mysuru/mysore-palace-mysuru.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Mysuru", "Mysore Palace", "Karnataka"],
@@ -5226,7 +5226,7 @@ export const posts = [
     title: "Chikmagalur Travel Guide: Coffee Estates, Peaks & Waterfalls",
     excerpt:
       "Karnataka's coffee country, ringed by the Western Ghats' highest peaks and waterfalls that turn into full-throated cascades every monsoon — the complete guide to Chikmagalur.",
-    image: "/images/destinations/coorg/coorg.jpg",
+    image: "/images/blogs/karnataka/chikmagalur/chikmagalur.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Chikmagalur", "Karnataka", "Coffee"],
@@ -5238,7 +5238,7 @@ export const posts = [
     title: "Dandeli Travel Guide: White-Water Rafting & Wildlife Sanctuary",
     excerpt:
       "River rapids fed by a dam release, a wildlife sanctuary with black panthers and hornbills, and Karnataka's best-known adventure sports hub — the complete guide to Dandeli.",
-    image: "/images/destinations/meghalaya/dawki-river.jpg",
+    image: "/images/blogs/karnataka/dandeli/dandeli.webp",
     category: "Adventure",
     categoryColor: "bg-amber-100 text-amber-700",
     tags: ["Dandeli", "Karnataka", "White-Water Rafting"],
@@ -5250,7 +5250,7 @@ export const posts = [
     title: "Mangaluru Travel Guide: Beaches, Temples & Coastal Cuisine",
     excerpt:
       "A port city where fiery Mangalorean seafood curries meet centuries-old temples and Arabian Sea beaches — the complete guide to Mangaluru.",
-    image: "/images/destinations/goa/hero.jpg",
+    image: "/images/blogs/karnataka/mangaluru/panambur-beach-mangaluru.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Mangaluru", "Karnataka", "Coastal Cuisine"],
@@ -5262,7 +5262,7 @@ export const posts = [
     title: "Udupi Travel Guide: Krishna Temple, Beaches & Udupi Cuisine",
     excerpt:
       "The temple town that gave India its vegetarian restaurant chain culture, plus a quiet stretch of Karnataka coast — the complete guide to Udupi.",
-    image: "/images/destinations/kerala/hero.jpg",
+    image: "/images/blogs/karnataka/udupi/udupi.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Udupi", "Krishna Temple", "Karnataka"],
@@ -5274,7 +5274,7 @@ export const posts = [
     title: "Jog Falls Travel Guide: India's Tallest Plunge Waterfall",
     excerpt:
       "A four-pronged waterfall dropping nearly 830 feet in a single, undivided plunge — the complete guide to Jog Falls.",
-    image: "/images/destinations/coorg/abbey-falls.jpg",
+    image: "/images/blogs/karnataka/jog-falls/jog-falls.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Jog Falls", "Karnataka", "Waterfalls"],
@@ -5286,7 +5286,7 @@ export const posts = [
     title: "Badami, Aihole & Pattadakal Travel Guide: Chalukya Cave Temples",
     excerpt:
       "Rock-cut cave temples carved into a red sandstone cliff, and a UNESCO-listed cluster of Chalukyan temple experiments that shaped Indian architecture — the complete guide to the Badami-Aihole-Pattadakal circuit.",
-    image: "/images/destinations/hampi/hero.jpg",
+    image: "/images/blogs/karnataka/badami-aihole-pattadakal/badami-aihole-and-pattadakal-2.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Badami", "Aihole", "Pattadakal", "Karnataka"],
@@ -5298,7 +5298,7 @@ export const posts = [
     title: "Kabini Travel Guide: Wildlife Safari & Backwater Boat Rides",
     excerpt:
       "One of India's best spots for leopard sightings, plus boat safaris across a reservoir instead of the usual jeep-only format — the complete guide to Kabini.",
-    image: "/images/destinations/meghalaya/hero.jpg",
+    image: "/images/blogs/karnataka/kabini/kabini.webp",
     category: "Adventure",
     categoryColor: "bg-amber-100 text-amber-700",
     tags: ["Kabini", "Karnataka", "Wildlife Safari"],
@@ -5310,7 +5310,7 @@ export const posts = [
     title: "Bandipur National Park: Tiger Safari Guide, Zones & Best Time",
     excerpt:
       "One of India's first Project Tiger reserves, straddling the highway between Karnataka and the Nilgiris — the complete safari guide to Bandipur.",
-    image: "/images/destinations/ziro/hero.jpg",
+    image: "/images/blogs/karnataka/bandipur/bandipur-national-park.webp",
     category: "Adventure",
     categoryColor: "bg-amber-100 text-amber-700",
     tags: ["Bandipur National Park", "Karnataka", "Tiger Safari"],
@@ -5322,7 +5322,7 @@ export const posts = [
     title: "Sakleshpur Travel Guide: Coffee Trails, Railway Trek & Waterfalls",
     excerpt:
       "A misty Western Ghats coffee town famous for an abandoned railway trek through tunnels and bridges — the complete guide to Sakleshpur.",
-    image: "/images/destinations/manali/solang-valley.jpg",
+    image: "/images/blogs/karnataka/sakleshpur/sakleshpur.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Sakleshpur", "Karnataka", "Railway Trek"],
@@ -5346,7 +5346,7 @@ export const posts = [
     title: "Ranchi Travel Guide: Waterfalls, Lakes & Jharkhand's Capital",
     excerpt:
       "A capital city ringed by waterfalls close enough for an afternoon trip, and the gateway to Jharkhand's forested plateau country — the complete guide to Ranchi.",
-    image: "/images/destinations/meghalaya/dawki-river.jpg",
+    image: "/images/blogs/jharkhand/ranchi/hundru-falls-ranchi-2.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Ranchi", "Jharkhand", "Waterfalls"],
@@ -5358,7 +5358,7 @@ export const posts = [
     title: "Deoghar Travel Guide: Baidyanath Temple & Jyotirlinga Pilgrimage",
     excerpt:
       "One of the 12 Jyotirlingas and among India's most important Shiva pilgrimage sites, especially during the Shravani Mela — the complete guide to Deoghar.",
-    image: "/images/destinations/jaisalmer/hero.jpg",
+    image: "/images/blogs/jharkhand/deoghar/baidyanath-temple-deoghar.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Deoghar", "Baidyanath Temple", "Jharkhand"],
@@ -5370,7 +5370,7 @@ export const posts = [
     title: "Netarhat Travel Guide: Sunrise Point & Chotanagpur's Hill Queen",
     excerpt:
       "A pine-forested plateau hill station nicknamed the 'Queen of Chotanagpur', famous for sunrise and sunset points over the Netarhat range — the complete guide to Netarhat.",
-    image: "/images/destinations/manali/solang-valley.jpg",
+    image: "/images/blogs/jharkhand/netarhat/netarhat.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Netarhat", "Jharkhand", "Chotanagpur Plateau"],
@@ -5382,7 +5382,7 @@ export const posts = [
     title: "Betla National Park Travel Guide: Tiger Safari & Palamu Forts",
     excerpt:
       "One of India's earliest Project Tiger reserves, with two ruined forts hidden inside dense sal forest — the complete guide to Betla National Park.",
-    image: "/images/destinations/ziro/hero.jpg",
+    image: "/images/blogs/jharkhand/betla/betla-national-park-2.webp",
     category: "Adventure",
     categoryColor: "bg-amber-100 text-amber-700",
     tags: ["Betla National Park", "Jharkhand", "Tiger Safari"],
@@ -5394,7 +5394,7 @@ export const posts = [
     title: "Jamshedpur Travel Guide: Jubilee Park, Dimna Lake & Steel City",
     excerpt:
       "India's first planned industrial city, built around the Tata Steel works, with a lakeside park modeled loosely on Vrindavan Gardens — the complete guide to Jamshedpur.",
-    image: "/images/destinations/chandigarh/hero.jpg",
+    image: "/images/blogs/jharkhand/jamshedpur/dimna-lake-jamshedpur.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Jamshedpur", "Jharkhand", "Jubilee Park"],
@@ -5406,7 +5406,7 @@ export const posts = [
     title: "Patratu Valley Travel Guide: Dam, Ghati Road & Best Time to Visit",
     excerpt:
       "A hairpin-bend valley road above a reservoir, close enough to Ranchi for a half-day escape — the complete guide to Patratu Valley.",
-    image: "/images/destinations/manali/rohtang-pass.jpg",
+    image: "/images/blogs/jharkhand/patratu/patratu-valley.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Patratu", "Jharkhand", "Patratu Valley"],
@@ -5430,7 +5430,7 @@ export const posts = [
     title: "Rajrappa Travel Guide: Chhinnamasta Temple & River Confluence",
     excerpt:
       "A Tantric Shakti Peeth temple to Goddess Chhinnamasta at the confluence of two rivers — the complete guide to Rajrappa.",
-    image: "/images/destinations/jammu-kashmir/dal.jpg",
+    image: "/images/blogs/jharkhand/rajrappa/rajrappa.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Rajrappa", "Jharkhand", "Chhinnamasta Temple"],
@@ -5442,7 +5442,7 @@ export const posts = [
     title: "Ghatshila Travel Guide: Subarnarekha River & Dalma Hills",
     excerpt:
       "A quiet riverside town on the Subarnarekha that inspired Bengali literature, with the Dalma Wildlife Sanctuary a short drive away — the complete guide to Ghatshila.",
-    image: "/images/destinations/meghalaya/hero.jpg",
+    image: "/images/blogs/jharkhand/ghatshila/burudih-lake-ghatshila-2.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Ghatshila", "Jharkhand", "Subarnarekha River"],
@@ -5454,7 +5454,7 @@ export const posts = [
     title: "Chandil Dam Travel Guide: Reservoir, Boating & Day Trip Guide",
     excerpt:
       "A vast reservoir on the Subarnarekha River ringed by hills, one of the easiest day trips from Jamshedpur — the complete guide to Chandil.",
-    image: "/images/destinations/kerala/alleppey.jpg",
+    image: "/images/blogs/jharkhand/chandil/chandil-dam.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Chandil", "Jharkhand", "Chandil Dam"],
@@ -5466,7 +5466,7 @@ export const posts = [
     title: "Hazaribagh Travel Guide: Wildlife Sanctuary & Hazaribagh Lake",
     excerpt:
       "A plateau hill town named for its 'thousand gardens', with a wildlife sanctuary and canyon views over the Damodar valley — the complete guide to Hazaribagh.",
-    image: "/images/destinations/coorg/coorg.jpg",
+    image: "/images/blogs/jharkhand/hazaribagh/hazaribagh-lake.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Hazaribagh", "Jharkhand", "Wildlife Sanctuary"],
@@ -5490,7 +5490,7 @@ export const posts = [
     title: "Trikut Hills Travel Guide: Ropeway, Trekking & Deoghar Day Trip",
     excerpt:
       "Three volcanic hill peaks with a cable car climbing above the forest, a short detour from Deoghar's temple crowds — the complete guide to Trikut Hills.",
-    image: "/images/destinations/manali/hero.jpg",
+    image: "/images/blogs/jharkhand/trikut/trikut-hills.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Trikut Hills", "Jharkhand", "Ropeway"],
@@ -5502,7 +5502,7 @@ export const posts = [
     title: "Massanjore Dam Travel Guide: Mayurakshi Reservoir & Day Trip Guide",
     excerpt:
       "A colonial-era dam straddling the Jharkhand-West Bengal border, with a reservoir surrounded by sal forest — the complete guide to Massanjore.",
-    image: "/images/destinations/kerala/hero.jpg",
+    image: "/images/blogs/jharkhand/massanjore/massanjore-dam.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Massanjore", "Jharkhand", "Mayurakshi River"],
@@ -5514,7 +5514,7 @@ export const posts = [
     title: "Shimla Travel Guide: Mall Road, Toy Train & Best Time to Visit",
     excerpt:
       "A colonial-era hill capital linked by a UNESCO toy train, with a pedestrian ridge that's been the centre of town since the British Raj — the complete guide to Shimla.",
-    image: "/images/destinations/manali/hero.jpg",
+    image: "/images/blogs/himachal-pradesh/shimla/christ-church-shimla.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Shimla", "Himachal Pradesh", "Toy Train"],
@@ -5526,7 +5526,7 @@ export const posts = [
     title: "Dharamshala Travel Guide: McLeod Ganj, Triund Trek & Tibetan Culture",
     excerpt:
       "The seat-in-exile of the Dalai Lama, a Tibetan refugee town wrapped around Himalayan monasteries, and a short trek up to a grassy ridge with snow peaks close enough to touch — the complete guide to Dharamshala.",
-    image: "/images/destinations/manali/solang-valley.jpg",
+    image: "/images/blogs/himachal-pradesh/dharamshala/dharamshala-2.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Dharamshala", "McLeod Ganj", "Himachal Pradesh"],
@@ -5550,7 +5550,7 @@ export const posts = [
     title: "Dalhousie Travel Guide: Colonial Charm & Khajjiar Gateway",
     excerpt:
       "A quiet colonial-era hill town spread across five hills, and the gateway to a meadow nicknamed 'Mini Switzerland' — the complete guide to Dalhousie.",
-    image: "/images/destinations/coorg/coorg.jpg",
+    image: "/images/blogs/himachal-pradesh/dalhousie/dalhousie.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Dalhousie", "Himachal Pradesh", "Khajjiar"],
@@ -5562,7 +5562,7 @@ export const posts = [
     title: "Tirthan Valley Travel Guide: Trout Fishing & GHNP Gateway",
     excerpt:
       "A river valley still mostly free of Himachal's tourist crush, and the main gateway to the Great Himalayan National Park — the complete guide to Tirthan Valley.",
-    image: "/images/destinations/kasol/kasol.jpg",
+    image: "/images/blogs/himachal-pradesh/tirthan-valley/tirthan-valley.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Tirthan Valley", "Himachal Pradesh", "Great Himalayan National Park"],
@@ -5574,7 +5574,7 @@ export const posts = [
     title: "Kinnaur Travel Guide: Apple Orchards, Kinner Kailash & Sangla Valley",
     excerpt:
       "A tribal Himalayan district of apple orchards and dramatic river gorges, on the old Hindustan-Tibet road toward Spiti — the complete guide to Kinnaur.",
-    image: "/images/destinations/leh-ladakh/leh-ladakh.jpg",
+    image: "/images/blogs/himachal-pradesh/kinnaur/kinnaur.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Kinnaur", "Himachal Pradesh", "Sangla Valley"],
@@ -5586,7 +5586,7 @@ export const posts = [
     title: "Kullu Travel Guide: Valley of Gods & International Dussehra",
     excerpt:
       "The 'Valley of Gods', where a week-long Dussehra festival gathers hundreds of local deities in procession — the complete guide to Kullu.",
-    image: "/images/destinations/manali/hadimba-temple.jpg",
+    image: "/images/blogs/himachal-pradesh/kullu/kullu-2.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Kullu", "Himachal Pradesh", "Dussehra"],
@@ -5598,7 +5598,7 @@ export const posts = [
     title: "Khajjiar Travel Guide: Mini Switzerland of India",
     excerpt:
       "A saucer-shaped meadow ringed by deodar forest that earned the nickname 'Mini Switzerland of India' — the complete guide to Khajjiar.",
-    image: "/images/destinations/ziro/hero.jpg",
+    image: "/images/blogs/himachal-pradesh/khajjiar/khajjiar.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Khajjiar", "Himachal Pradesh", "Mini Switzerland"],
@@ -5610,7 +5610,7 @@ export const posts = [
     title: "Kasauli Travel Guide: Quiet Cantonment Hill Town Near Chandigarh",
     excerpt:
       "A small colonial cantonment hill town that's stayed genuinely quiet, an easy two-hour drive from Chandigarh — the complete guide to Kasauli.",
-    image: "/images/destinations/chandigarh/hero.jpg",
+    image: "/images/blogs/himachal-pradesh/kasauli/kasauli-2.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Kasauli", "Himachal Pradesh", "Cantonment Town"],
@@ -5622,7 +5622,7 @@ export const posts = [
     title: "Jibhi Travel Guide: Waterfalls, Cafes & Himachal's Quiet Village",
     excerpt:
       "A wooden-house Himalayan village turned quiet backpacker favourite, tucked into the Tirthan Valley's forested side — the complete guide to Jibhi.",
-    image: "/images/destinations/manali/rohtang-pass.jpg",
+    image: "/images/blogs/himachal-pradesh/jibhi/jalori-pass-jibhi.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Jibhi", "Himachal Pradesh", "Tirthan Valley"],
@@ -5634,7 +5634,7 @@ export const posts = [
     title: "Prashar Lake Trek Guide: Floating Island & Best Time to Visit",
     excerpt:
       "A high-altitude lake famous for a small floating island of vegetation, reached by an easy overnight trek above the Kullu valley — the complete guide to Prashar Lake.",
-    image: "/images/destinations/jammu-kashmir/dal.jpg",
+    image: "/images/blogs/himachal-pradesh/prashar-lake/prashar-lake.webp",
     category: "Trekking",
     categoryColor: "bg-green-100 text-green-700",
     tags: ["Prashar Lake", "Himachal Pradesh", "Trekking"],
@@ -5646,7 +5646,7 @@ export const posts = [
     title: "Chitkul Travel Guide: The Last Indian Village Before Tibet",
     excerpt:
       "The last inhabited village on the old Hindustan-Tibet road, sitting beside the Baspa River with snow peaks on every side — the complete guide to Chitkul.",
-    image: "/images/destinations/spiti-valley/spiti-valley.jpg",
+    image: "/images/blogs/himachal-pradesh/chitkul/chitkul.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Chitkul", "Himachal Pradesh", "Baspa Valley"],
@@ -5658,7 +5658,7 @@ export const posts = [
     title: "Gurugram Travel Guide: Cyber City, Kingdom of Dreams & Malls",
     excerpt:
       "A farmland-turned-skyline transformed into India's corporate hub in a generation, with a Bollywood-themed live entertainment venue unlike anything else in North India — the complete guide to Gurugram.",
-    image: "/images/destinations/chandigarh/hero.jpg",
+    image: "/images/blogs/haryana/gurugram/kingdom-of-dreams-gurugram.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Gurugram", "Haryana", "Cyber City"],
@@ -5670,7 +5670,7 @@ export const posts = [
     title: "Kurukshetra Travel Guide: Bhagavad Gita's Battlefield & Brahma Sarovar",
     excerpt:
       "The ground where the Bhagavad Gita is said to have been spoken, and a sacred tank where millions gather for a solar-eclipse bathing ritual — the complete guide to Kurukshetra.",
-    image: "/images/destinations/jaisalmer/hero.jpg",
+    image: "/images/blogs/haryana/kurukshetra/brahma-sarovar-kurukshetra.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Kurukshetra", "Haryana", "Brahma Sarovar"],
@@ -5682,7 +5682,7 @@ export const posts = [
     title: "Morni Hills Travel Guide: Haryana's Only Hill Station",
     excerpt:
       "Two natural lakes and a Shivalik-range fort ruin make up Haryana's sole hill station, an easy escape from Chandigarh and Panchkula — the complete guide to Morni Hills.",
-    image: "/images/destinations/coorg/coorg.jpg",
+    image: "/images/blogs/haryana/morni-hills/morni-hills.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Morni Hills", "Haryana", "Shivalik Hills"],
@@ -5694,7 +5694,7 @@ export const posts = [
     title: "Sultanpur National Park Travel Guide: Birdwatching Near Delhi",
     excerpt:
       "A wetland sanctuary that turns into a migratory bird spectacle every winter, barely an hour from Delhi's traffic — the complete guide to Sultanpur National Park.",
-    image: "/images/destinations/kerala/alleppey.jpg",
+    image: "/images/blogs/haryana/sultanpur-national-park/sultanpur-national-park.webp",
     category: "Adventure",
     categoryColor: "bg-amber-100 text-amber-700",
     tags: ["Sultanpur National Park", "Haryana", "Birdwatching"],
@@ -5706,7 +5706,7 @@ export const posts = [
     title: "Panipat Travel Guide: The Battlefield That Shaped Indian History",
     excerpt:
       "A small city that hosted three of the subcontinent's most decisive battles, plus a still-thriving handloom weaving tradition — the complete guide to Panipat.",
-    image: "/images/destinations/hampi/hero.jpg",
+    image: "/images/blogs/haryana/panipat/kabuli-bagh-mosque-panipat-2.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Panipat", "Haryana", "Battle of Panipat"],
@@ -5742,7 +5742,7 @@ export const posts = [
     title: "Damdama Lake Travel Guide: Haryana's Largest Natural Lake",
     excerpt:
       "A quiet Aravalli-ringed lake and a former paragliding hotspot, one of the easiest weekend escapes from Gurugram — the complete guide to Damdama Lake.",
-    image: "/images/destinations/jammu-kashmir/dal.jpg",
+    image: "/images/blogs/haryana/damdama-lake/damdama-lake.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Damdama Lake", "Haryana", "Aravalli Hills"],
@@ -5754,7 +5754,7 @@ export const posts = [
     title: "Pinjore Gardens Travel Guide: Mughal Terraces Near Chandigarh",
     excerpt:
       "A seven-tiered Mughal garden complex with cascading fountains, built as a royal retreat on the road to Shimla — the complete guide to Pinjore.",
-    image: "/images/destinations/jaisalmer/fort.jpg",
+    image: "/images/blogs/haryana/pinjore/pinjore-gardens.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Pinjore", "Haryana", "Mughal Gardens"],
@@ -5766,7 +5766,7 @@ export const posts = [
     title: "Rewari Travel Guide: Brass Town & 1857 Rebellion History",
     excerpt:
       "A centuries-old brassware manufacturing hub that also played a role in the 1857 rebellion, on the historic route between Delhi and Rajasthan — the complete guide to Rewari.",
-    image: "/images/destinations/hampi/virupaksha.jpg",
+    image: "/images/blogs/haryana/rewari/rewari.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Rewari", "Haryana", "Brassware"],
@@ -5778,7 +5778,7 @@ export const posts = [
     title: "Narnaul Travel Guide: Mughal Tombs & Sher Shah Suri Connections",
     excerpt:
       "A cluster of well-preserved Mughal-era tombs and gardens in a town most travelers drive straight past — the complete guide to Narnaul.",
-    image: "/images/destinations/spiti-valley/spiti-valley.jpg",
+    image: "/images/blogs/haryana/narnaul/jal-mahal-narnaul.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Narnaul", "Haryana", "Mughal Architecture"],
@@ -5802,7 +5802,7 @@ export const posts = [
     title: "Hisar Travel Guide: Firoz Shah Palace & Blackbuck Country",
     excerpt:
       "A 14th-century Tughlaq fort city that's now a gateway to some of North India's best blackbuck sightings — the complete guide to Hisar.",
-    image: "/images/destinations/ziro/hero.jpg",
+    image: "/images/blogs/haryana/hisar/hisar.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Hisar", "Haryana", "Firoz Shah Palace"],
@@ -5814,7 +5814,7 @@ export const posts = [
     title: "Agroha Travel Guide: Ancient Mound & Agroha Dham",
     excerpt:
       "An archaeological mound linked to the legendary origin of the Agarwal community, with excavated coins and pottery dating back over two millennia — the complete guide to Agroha.",
-    image: "/images/destinations/hampi/hero.jpg",
+    image: "/images/blogs/haryana/agroha/agroha.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Agroha", "Haryana", "Agroha Dham"],
@@ -5826,7 +5826,7 @@ export const posts = [
     title: "Ahmedabad Travel Guide: Heritage Walk, Sabarmati Ashram & Food",
     excerpt:
       "India's first UNESCO World Heritage City, home to Gandhi's ashram on the Sabarmati riverbank and a street-food scene that runs half the night — the complete guide to Ahmedabad.",
-    image: "/images/destinations/udaipur/hero.jpg",
+    image: "/images/blogs/gujarat/ahmedabad/ahmedabad-2.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Ahmedabad", "Gujarat", "Sabarmati Ashram"],
@@ -5838,7 +5838,7 @@ export const posts = [
     title: "Rann of Kutch Travel Guide: White Desert & Rann Utsav",
     excerpt:
       "A salt desert that turns silver-white under a full moon, and a month-long cultural festival that transforms it into a tent city every winter — the complete guide to the Rann of Kutch.",
-    image: "/images/destinations/jaisalmer/hero.jpg",
+    image: "/images/blogs/gujarat/rann-of-kutch/the-white-rann-rann-of-kutch.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Rann of Kutch", "Gujarat", "Rann Utsav"],
@@ -5850,7 +5850,7 @@ export const posts = [
     title: "Statue of Unity Travel Guide: World's Tallest Statue, Timings & Tips",
     excerpt:
       "The world's tallest statue, twice the height of the Statue of Liberty, rising from an island in the Narmada River — the complete guide to the Statue of Unity.",
-    image: "/images/destinations/hampi/hero.jpg",
+    image: "/images/blogs/gujarat/statue-of-unity/sardar-sarovar-dam-statue-of-unity.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Statue of Unity", "Gujarat", "Narmada River"],
@@ -5862,7 +5862,7 @@ export const posts = [
     title: "Dwarka Travel Guide: Krishna's Ancient Kingdom & Char Dham Site",
     excerpt:
       "One of Hinduism's four Char Dham pilgrimage sites, believed to be the ancient capital of Krishna's kingdom on the Arabian Sea coast — the complete guide to Dwarka.",
-    image: "/images/destinations/goa/hero.jpg",
+    image: "/images/blogs/gujarat/dwarka/dwarkadhish-temple.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Dwarka", "Gujarat", "Char Dham"],
@@ -5874,7 +5874,7 @@ export const posts = [
     title: "Somnath Temple Travel Guide: History, Timings & Light Show",
     excerpt:
       "The first of the 12 Jyotirlingas, destroyed and rebuilt multiple times over a thousand years, standing today rebuilt in Chalukya style facing the Arabian Sea — the complete guide to Somnath.",
-    image: "/images/destinations/jaisalmer/fort.jpg",
+    image: "/images/blogs/gujarat/somnath/somnath-temple.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Somnath", "Gujarat", "Jyotirlinga"],
@@ -5886,7 +5886,7 @@ export const posts = [
     title: "Gir National Park Travel Guide: Asiatic Lion Safari & Best Time",
     excerpt:
       "The last place on Earth with wild Asiatic lions outside Africa, and one of India's most successful conservation stories — the complete guide to Gir National Park.",
-    image: "/images/destinations/ziro/hero.jpg",
+    image: "/images/blogs/gujarat/gir-national-park/gir-national-park-2.webp",
     category: "Adventure",
     categoryColor: "bg-amber-100 text-amber-700",
     tags: ["Gir National Park", "Gujarat", "Asiatic Lion Safari"],
@@ -5898,7 +5898,7 @@ export const posts = [
     title: "Dholavira Travel Guide: Harappan City & UNESCO World Heritage Site",
     excerpt:
       "A 5,000-year-old Indus Valley Civilization city with a water conservation system centuries ahead of its time, on a remote island in the Rann of Kutch — the complete guide to Dholavira.",
-    image: "/images/destinations/spiti-valley/spiti-valley.jpg",
+    image: "/images/blogs/gujarat/dholavira/dholavira.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Dholavira", "Gujarat", "Indus Valley Civilization"],
@@ -5910,7 +5910,7 @@ export const posts = [
     title: "Vadodara Travel Guide: Laxmi Vilas Palace & Baroda's Heritage",
     excerpt:
       "A palace four times the size of Buckingham Palace, still home to the Gaekwad royal family — the complete guide to Vadodara.",
-    image: "/images/destinations/udaipur/saheliyon.jpg",
+    image: "/images/blogs/gujarat/vadodara/laxmi-vilas-palace-vadodara.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Vadodara", "Gujarat", "Laxmi Vilas Palace"],
@@ -5934,7 +5934,7 @@ export const posts = [
     title: "Saputara Travel Guide: Gujarat's Only Hill Station",
     excerpt:
       "A lake-centred hill station in the Sahyadri range, the one place in Gujarat that actually feels like a monsoon retreat — the complete guide to Saputara.",
-    image: "/images/destinations/coorg/coorg.jpg",
+    image: "/images/blogs/gujarat/saputara/saputara-lake.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Saputara", "Gujarat", "Sahyadri Hills"],
@@ -5946,7 +5946,7 @@ export const posts = [
     title: "Patan Travel Guide: Rani ki Vav Stepwell & Patola Sarees",
     excerpt:
       "A seven-storey inverted temple carved entirely underground, and a handwoven silk saree so intricate it takes months to make — the complete guide to Patan.",
-    image: "/images/destinations/hampi/virupaksha.jpg",
+    image: "/images/blogs/gujarat/patan/rani-ki-vav-patan.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Patan", "Gujarat", "Rani ki Vav"],
@@ -5958,7 +5958,7 @@ export const posts = [
     title: "Junagadh & Girnar Travel Guide: 10,000 Steps to Jain & Hindu Shrines",
     excerpt:
       "A hilltop pilgrimage of nearly 10,000 stone steps leading to Jain temples and a Hindu shrine at the summit, above a 2,000-year-old fort city — the complete guide to Junagadh and Girnar.",
-    image: "/images/destinations/manali/rohtang-pass.jpg",
+    image: "/images/blogs/gujarat/junagadh-girnar/junagadh-and-girnar.webp",
     category: "Trekking",
     categoryColor: "bg-green-100 text-green-700",
     tags: ["Junagadh", "Girnar", "Gujarat"],
@@ -5970,7 +5970,7 @@ export const posts = [
     title: "Mandvi Travel Guide: Beach, Shipbuilding Yards & Vijay Vilas Palace",
     excerpt:
       "A Kutch coastal town where wooden cargo ships are still built by hand on the beach, beside a Rajasthani-style seaside palace — the complete guide to Mandvi.",
-    image: "/images/destinations/goa/beach.jpg",
+    image: "/images/blogs/gujarat/mandvi/mandvi.webp",
     category: "Beaches",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Mandvi", "Gujarat", "Kutch Coast"],
@@ -5982,7 +5982,7 @@ export const posts = [
     title: "Palitana Travel Guide: 3,500 Steps to the World's Largest Jain Temple Complex",
     excerpt:
       "Over 900 marble temples clustered on a single hilltop, reached by a climb of more than 3,500 steps — the complete guide to Palitana.",
-    image: "/images/destinations/manali/hero.jpg",
+    image: "/images/blogs/gujarat/palitana/palitana.webp",
     category: "Trekking",
     categoryColor: "bg-green-100 text-green-700",
     tags: ["Palitana", "Gujarat", "Jain Temples"],
@@ -5994,7 +5994,7 @@ export const posts = [
     title: "Polo Forest Travel Guide: Ruined Temples in the Aravalli Jungle",
     excerpt:
       "15th-century temple ruins swallowed by dense Aravalli forest, one of Gujarat's most genuinely off-the-radar destinations — the complete guide to Polo Forest.",
-    image: "/images/destinations/meghalaya/dawki-river.jpg",
+    image: "/images/blogs/gujarat/polo-forest/polo-forest.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Polo Forest", "Gujarat", "Vijaynagar"],
@@ -6018,7 +6018,7 @@ export const posts = [
     title: "Calangute Beach Travel Guide: Goa's Busiest Beach & Nightlife",
     excerpt:
       "Goa's original beach resort town, still the busiest stretch of sand on the North Goa coast — the complete guide to Calangute.",
-    image: "/images/destinations/goa/beach.jpg",
+    image: "/images/blogs/goa/calangute/calangute-beach.webp",
     category: "Beaches",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Calangute", "Goa", "North Goa"],
@@ -6030,7 +6030,7 @@ export const posts = [
     title: "Baga Beach Travel Guide: Nightlife, Water Sports & Tito's Lane",
     excerpt:
       "Goa's most concentrated nightlife strip, packed with beach shacks, clubs, and every water sport on the coast — the complete guide to Baga.",
-    image: "/images/destinations/andaman/hero.jpg",
+    image: "/images/blogs/goa/baga/baga-beach-2.webp",
     category: "Beaches",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Baga", "Goa", "Nightlife"],
@@ -6042,7 +6042,7 @@ export const posts = [
     title: "Candolim Beach Travel Guide: Quiet Sands Near the Nightlife",
     excerpt:
       "A calmer, more upscale stretch of North Goa beach next door to Calangute and Baga's crowds — the complete guide to Candolim.",
-    image: "/images/destinations/andaman/havelock.jpg",
+    image: "/images/blogs/goa/candolim/candolim-beach.webp",
     category: "Beaches",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Candolim", "Goa", "North Goa"],
@@ -6066,7 +6066,7 @@ export const posts = [
     title: "Vagator Beach Travel Guide: Red Cliffs & Chapora Fort",
     excerpt:
       "Red laterite cliffs dropping into the Arabian Sea, beside the fort that made a cameo in every Goa road-trip photo since Dil Chahta Hai — the complete guide to Vagator.",
-    image: "/images/destinations/jaisalmer/fort.jpg",
+    image: "/images/blogs/goa/vagator/vagator-beach.webp",
     category: "Beaches",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Vagator", "Goa", "Chapora Fort"],
@@ -6078,7 +6078,7 @@ export const posts = [
     title: "Old Goa Travel Guide: Basilica of Bom Jesus & UNESCO Churches",
     excerpt:
       "A cluster of UNESCO World Heritage churches from Goa's days as the 'Rome of the East', including the tomb of St. Francis Xavier — the complete guide to Old Goa.",
-    image: "/images/destinations/hampi/hero.jpg",
+    image: "/images/blogs/goa/old-goa/old-goa.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Old Goa", "Goa", "Basilica of Bom Jesus"],
@@ -6090,7 +6090,7 @@ export const posts = [
     title: "Palolem Beach Travel Guide: South Goa's Postcard Crescent",
     excerpt:
       "A curved, palm-backed South Goa beach that's kept its laid-back character far better than the North Goa strip — the complete guide to Palolem.",
-    image: "/images/destinations/kerala/alleppey.jpg",
+    image: "/images/blogs/goa/palolem/palolem-beach.webp",
     category: "Beaches",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Palolem", "Goa", "South Goa"],
@@ -6102,7 +6102,7 @@ export const posts = [
     title: "Agonda Beach Travel Guide: Turtle Nesting & South Goa's Quiet Side",
     excerpt:
       "A long, quiet South Goa beach where olive ridley turtles still nest, with a strict no-nightlife, no-loud-music local code — the complete guide to Agonda.",
-    image: "/images/destinations/kerala/hero.jpg",
+    image: "/images/blogs/goa/agonda/agonda-beach.webp",
     category: "Beaches",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Agonda", "Goa", "South Goa"],
@@ -6114,7 +6114,7 @@ export const posts = [
     title: "Dudhsagar Falls Travel Guide: Jeep Safari & Best Time to Visit",
     excerpt:
       "A four-tiered waterfall dropping 310 metres through the Western Ghats, reached by jeep safari through a tiger reserve — the complete guide to Dudhsagar Falls.",
-    image: "/images/destinations/coorg/abbey-falls.jpg",
+    image: "/images/blogs/goa/dudhsagar-falls/dudhsagar-falls-2.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Dudhsagar Falls", "Goa", "Western Ghats"],
@@ -6126,7 +6126,7 @@ export const posts = [
     title: "Ponda Travel Guide: Hindu Temples & Spice Plantation Tours",
     excerpt:
       "Goa's temple town, where deities relocated during Portuguese rule still stand, surrounded by spice plantations open for tours — the complete guide to Ponda.",
-    image: "/images/destinations/coorg/coorg.jpg",
+    image: "/images/blogs/goa/ponda/ponda.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Ponda", "Goa", "Spice Plantations"],
@@ -6150,7 +6150,7 @@ export const posts = [
     title: "Mandrem Beach Travel Guide: Yoga Retreats & River-Meets-Sea Views",
     excerpt:
       "A quiet North Goa beach where a small river meets the sea, and yoga retreats have quietly replaced the party scene — the complete guide to Mandrem.",
-    image: "/images/destinations/jammu-kashmir/dal.jpg",
+    image: "/images/blogs/goa/mandrem/mandrem-beach.webp",
     category: "Beaches",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Mandrem", "Goa", "Yoga"],
@@ -6174,7 +6174,7 @@ export const posts = [
     title: "Mollem National Park Travel Guide: Wildlife & Waterfalls Near Dudhsagar",
     excerpt:
       "Goa's largest protected forest, home to the Bhagwan Mahavir Wildlife Sanctuary and the trailhead for Dudhsagar Falls — the complete guide to Mollem.",
-    image: "/images/destinations/ziro/hero.jpg",
+    image: "/images/blogs/goa/mollem/mollem-national-park-2.webp",
     category: "Adventure",
     categoryColor: "bg-amber-100 text-amber-700",
     tags: ["Mollem", "Goa", "Bhagwan Mahavir Wildlife Sanctuary"],
@@ -6186,7 +6186,7 @@ export const posts = [
     title: "Jagdalpur Travel Guide: Gateway to Bastar's Waterfalls & Tribal Culture",
     excerpt:
       "The district capital that opens onto Chhattisgarh's waterfall country and its deepest tribal heartland — the complete guide to Jagdalpur.",
-    image: "/images/destinations/meghalaya/dawki-river.jpg",
+    image: "/images/blogs/chhattisgarh/jagdalpur/jagdalpur-2.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Jagdalpur", "Chhattisgarh", "Bastar"],
@@ -6198,7 +6198,7 @@ export const posts = [
     title: "Chitrakote Falls Travel Guide: India's Widest Waterfall",
     excerpt:
       "A horseshoe-shaped waterfall nearly a kilometre wide on the Indravati River, wide enough to earn the nickname 'Niagara of India' — the complete guide to Chitrakote.",
-    image: "/images/destinations/coorg/abbey-falls.jpg",
+    image: "/images/blogs/chhattisgarh/chitrakote/chitrakote-falls.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Chitrakote Falls", "Chhattisgarh", "Indravati River"],
@@ -6246,7 +6246,7 @@ export const posts = [
     title: "Sirpur Travel Guide: Ancient Buddhist Ruins on the Mahanadi",
     excerpt:
       "A 1,500-year-old riverside city with excavated monasteries, temples, and one of India's most significant ongoing archaeological digs — the complete guide to Sirpur.",
-    image: "/images/destinations/hampi/hero.jpg",
+    image: "/images/blogs/chhattisgarh/sirpur/sirpur.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Sirpur", "Chhattisgarh", "Buddhist Heritage"],
@@ -6258,7 +6258,7 @@ export const posts = [
     title: "Bhoramdeo Temple Travel Guide: Chhattisgarh's Khajuraho",
     excerpt:
       "An 11th-century temple complex carved with the same intricate, occasionally erotic sculpture style as Khajuraho, earning it the nickname 'Khajuraho of Chhattisgarh' — the complete guide to Bhoramdeo.",
-    image: "/images/destinations/hampi/virupaksha.jpg",
+    image: "/images/blogs/chhattisgarh/bhoramdeo/bhoramdeo-temple.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Bhoramdeo", "Chhattisgarh", "Kawardha"],
@@ -6270,7 +6270,7 @@ export const posts = [
     title: "Kawardha Travel Guide: Palace Town & Bhoramdeo Gateway",
     excerpt:
       "A former princely-state palace town that's now the practical base for visiting the Bhoramdeo temples and Kabirdham's forests — the complete guide to Kawardha.",
-    image: "/images/destinations/udaipur/hero.jpg",
+    image: "/images/blogs/chhattisgarh/kawardha/bhoramdeo-temple-kawardha.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Kawardha", "Chhattisgarh", "Kawardha Palace"],
@@ -6282,7 +6282,7 @@ export const posts = [
     title: "Dongargarh Travel Guide: Bamleshwari Temple & Ropeway",
     excerpt:
       "A hilltop Shakti temple reached by nearly 1,000 steps or a ropeway, one of Chhattisgarh's most-visited pilgrimage sites — the complete guide to Dongargarh.",
-    image: "/images/destinations/jaisalmer/hero.jpg",
+    image: "/images/blogs/chhattisgarh/dongargarh/dongargarh.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Dongargarh", "Chhattisgarh", "Bamleshwari Temple"],
@@ -6354,7 +6354,7 @@ export const posts = [
     title: "Bastar Travel Guide: Tribal Culture, Bastar Dussehra & Dandami Art",
     excerpt:
       "A 75-day tribal Dussehra festival unlike any other in India, and a district that's home to some of the country's most distinct indigenous cultures — the complete guide to Bastar.",
-    image: "/images/destinations/ziro/hero.jpg",
+    image: "/images/blogs/chhattisgarh/bastar/bastar.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Bastar", "Chhattisgarh", "Bastar Dussehra"],
@@ -6366,7 +6366,7 @@ export const posts = [
     title: "Bodh Gaya Travel Guide: Mahabodhi Temple & Buddha's Enlightenment Site",
     excerpt:
       "The exact spot where Buddha is believed to have attained enlightenment under a descendant of the original Bodhi Tree — the complete guide to Bodh Gaya.",
-    image: "/images/destinations/hampi/hero.jpg",
+    image: "/images/blogs/bihar/bodh-gaya/the-bodhi-tree-bodh-gaya.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Bodh Gaya", "Bihar", "Mahabodhi Temple"],
@@ -6378,7 +6378,7 @@ export const posts = [
     title: "Nalanda Travel Guide: Ruins of the World's Oldest University",
     excerpt:
       "The excavated remains of a residential university that once housed thousands of monks and scholars from across Asia, over a thousand years before Oxford existed — the complete guide to Nalanda.",
-    image: "/images/destinations/hampi/virupaksha.jpg",
+    image: "/images/blogs/bihar/nalanda/nalanda.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Nalanda", "Bihar", "UNESCO"],
@@ -6390,7 +6390,7 @@ export const posts = [
     title: "Rajgir Travel Guide: Hot Springs, Ropeway & Buddhist Heritage",
     excerpt:
       "A hill-ringed town where Buddha spent years teaching, with natural hot springs, an ancient ropeway, and one of the world's oldest surviving jail sites — the complete guide to Rajgir.",
-    image: "/images/destinations/coorg/coorg.jpg",
+    image: "/images/blogs/bihar/rajgir/rajgir.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Rajgir", "Bihar", "Buddhist Heritage"],
@@ -6402,7 +6402,7 @@ export const posts = [
     title: "Patna Travel Guide: Golghar, Patna Sahib & Bihar's Capital",
     excerpt:
       "A riverside capital city with a colonial-era granary shaped like a beehive, and one of Sikhism's holiest gurdwaras — the complete guide to Patna.",
-    image: "/images/destinations/jaisalmer/hero.jpg",
+    image: "/images/blogs/bihar/patna/patna.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Patna", "Bihar", "Golghar"],
@@ -6414,7 +6414,7 @@ export const posts = [
     title: "Vaishali Travel Guide: The World's First Republic & Buddha's Last Sermon",
     excerpt:
       "A city often cited as the site of the world's earliest republic, where Buddha delivered his final sermon before his death — the complete guide to Vaishali.",
-    image: "/images/destinations/meghalaya/hero.jpg",
+    image: "/images/blogs/bihar/vaishali/vaishali.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Vaishali", "Bihar", "Ancient Republic"],
@@ -6426,7 +6426,7 @@ export const posts = [
     title: "Gaya Travel Guide: Vishnupad Temple & Pitru Paksha Pilgrimage",
     excerpt:
       "A temple town where Hindus perform ancestral rites believed to liberate departed souls, drawing pilgrims from across India every Pitru Paksha — the complete guide to Gaya.",
-    image: "/images/destinations/jaisalmer/fort.jpg",
+    image: "/images/blogs/bihar/gaya/vishnupad-temple-gaya-2.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Gaya", "Bihar", "Vishnupad Temple"],
@@ -6438,7 +6438,7 @@ export const posts = [
     title: "Pawapuri Travel Guide: Where Mahavira Attained Nirvana",
     excerpt:
       "A lotus-covered temple tank marking the spot where Lord Mahavira, the last Jain Tirthankara, is believed to have attained nirvana — the complete guide to Pawapuri.",
-    image: "/images/destinations/kerala/alleppey.jpg",
+    image: "/images/blogs/bihar/pawapuri/jal-mandir-pawapuri.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Pawapuri", "Bihar", "Jain Pilgrimage"],
@@ -6450,7 +6450,7 @@ export const posts = [
     title: "Sasaram Travel Guide: Sher Shah Suri's Tomb & Grand Trunk Road History",
     excerpt:
       "A monumental tomb rising from an artificial lake, built for the emperor who gave India the Grand Trunk Road and the rupee — the complete guide to Sasaram.",
-    image: "/images/destinations/jammu-kashmir/dal.jpg",
+    image: "/images/blogs/bihar/sasaram/sher-shah-suri-s-tomb-sasaram-2.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Sasaram", "Bihar", "Sher Shah Suri Tomb"],
@@ -6474,7 +6474,7 @@ export const posts = [
     title: "Madhubani Travel Guide: The Town Behind India's Famous Folk Art",
     excerpt:
       "The district that gave its name to a distinctive folk-painting style, still practiced by generations of local women artists — the complete guide to Madhubani.",
-    image: "/images/destinations/udaipur/saheliyon.jpg",
+    image: "/images/blogs/bihar/madhubani/madhubani.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Madhubani", "Bihar", "Madhubani Art"],
@@ -6486,7 +6486,7 @@ export const posts = [
     title: "Barabar Caves Travel Guide: India's Oldest Rock-Cut Caves",
     excerpt:
       "Polished granite caves carved under Emperor Ashoka nearly 2,300 years ago, believed to have inspired the Marabar Caves in A Passage to India — the complete guide to Barabar Caves.",
-    image: "/images/destinations/spiti-valley/spiti-valley.jpg",
+    image: "/images/blogs/bihar/barabar-caves/barabar-caves-2.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Barabar Caves", "Bihar", "Ashoka"],
@@ -6498,7 +6498,7 @@ export const posts = [
     title: "Vikramshila Travel Guide: The Other Great Ancient Buddhist University",
     excerpt:
       "A lesser-known counterpart to Nalanda, founded by a Pala king specifically to train Tantric Buddhist scholars — the complete guide to Vikramshila.",
-    image: "/images/destinations/meghalaya/dawki-river.jpg",
+    image: "/images/blogs/bihar/vikramshila/vikramshila.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Vikramshila", "Bihar", "Buddhist University"],
@@ -6510,7 +6510,7 @@ export const posts = [
     title: "Guwahati Travel Guide: Brahmaputra Sunset Cruises & City Guide",
     excerpt:
       "The gateway to Northeast India, where sunset river cruises on the Brahmaputra meet a hilltop temple older than most of the country's recorded history — the complete guide to Guwahati.",
-    image: "/images/destinations/meghalaya/dawki-river.jpg",
+    image: "/images/blogs/assam/guwahati/guwahati-2.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Guwahati", "Assam", "Brahmaputra River"],
@@ -6522,7 +6522,7 @@ export const posts = [
     title: "Kaziranga National Park Travel Guide: One-Horned Rhino Safari",
     excerpt:
       "Home to two-thirds of the world's remaining one-horned rhinos, and one of India's most successful wildlife conservation stories — the complete guide to Kaziranga.",
-    image: "/images/destinations/ziro/hero.jpg",
+    image: "/images/blogs/assam/kaziranga/kaziranga-national-park-2.webp",
     category: "Adventure",
     categoryColor: "bg-amber-100 text-amber-700",
     tags: ["Kaziranga National Park", "Assam", "One-Horned Rhino"],
@@ -6534,7 +6534,7 @@ export const posts = [
     title: "Majuli Travel Guide: The World's Largest River Island",
     excerpt:
       "A shifting, slowly-shrinking river island that's home to centuries-old Neo-Vaishnavite monasteries and mask-making villages — the complete guide to Majuli.",
-    image: "/images/destinations/kerala/alleppey.jpg",
+    image: "/images/blogs/assam/majuli/majuli.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Majuli", "Assam", "River Island"],
@@ -6546,7 +6546,7 @@ export const posts = [
     title: "Sivasagar Travel Guide: Ahom Dynasty Capital & Ancient Tanks",
     excerpt:
       "The former capital of the 600-year Ahom dynasty, ringed by a massive man-made tank and three of Assam's grandest surviving temples — the complete guide to Sivasagar.",
-    image: "/images/destinations/hampi/hero.jpg",
+    image: "/images/blogs/assam/sivasagar/sivasagar.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Sivasagar", "Assam", "Ahom Dynasty"],
@@ -6558,7 +6558,7 @@ export const posts = [
     title: "Manas National Park Travel Guide: Tiger Reserve & UNESCO Site",
     excerpt:
       "A UNESCO World Heritage tiger reserve on the Bhutan border, rebuilt from near-collapse into one of India's genuine conservation comeback stories — the complete guide to Manas.",
-    image: "/images/destinations/meghalaya/hero.jpg",
+    image: "/images/blogs/assam/manas/manas-national-park.webp",
     category: "Adventure",
     categoryColor: "bg-amber-100 text-amber-700",
     tags: ["Manas National Park", "Assam", "Tiger Reserve"],
@@ -6570,7 +6570,7 @@ export const posts = [
     title: "Dibrugarh Travel Guide: The Tea Capital of Assam",
     excerpt:
       "A city surrounded by more tea gardens than anywhere else on Earth, and the practical gateway to Assam's easternmost wilderness — the complete guide to Dibrugarh.",
-    image: "/images/destinations/coorg/coorg.jpg",
+    image: "/images/blogs/assam/dibrugarh/dibrugarh.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Dibrugarh", "Assam", "Tea Gardens"],
@@ -6594,7 +6594,7 @@ export const posts = [
     title: "Tezpur Travel Guide: The City of Eternal Romance",
     excerpt:
       "A riverside town wrapped in Mahabharata legend, ringed by ancient ruins and a hilltop garden overlooking the Brahmaputra — the complete guide to Tezpur.",
-    image: "/images/destinations/jammu-kashmir/dal.jpg",
+    image: "/images/blogs/assam/tezpur/agnigarh-hill-tezpur.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Tezpur", "Assam", "Brahmaputra River"],
@@ -6606,7 +6606,7 @@ export const posts = [
     title: "Nameri National Park Travel Guide: Rafting & Birdwatching",
     excerpt:
       "A forest park on the Jia Bhoroli River known for river rafting and some of Northeast India's best birdwatching — the complete guide to Nameri.",
-    image: "/images/destinations/meghalaya/dawki-river.jpg",
+    image: "/images/blogs/assam/nameri/nameri-national-park.webp",
     category: "Adventure",
     categoryColor: "bg-amber-100 text-amber-700",
     tags: ["Nameri National Park", "Assam", "River Rafting"],
@@ -6630,7 +6630,7 @@ export const posts = [
     title: "Pobitora Wildlife Sanctuary Travel Guide: Highest Rhino Density on Earth",
     excerpt:
       "A small sanctuary packing the highest density of one-horned rhinos found anywhere in the world, close enough to Guwahati for a day safari — the complete guide to Pobitora.",
-    image: "/images/destinations/kerala/hero.jpg",
+    image: "/images/blogs/assam/pobitora/pobitora-wildlife-sanctuary.webp",
     category: "Adventure",
     categoryColor: "bg-amber-100 text-amber-700",
     tags: ["Pobitora Wildlife Sanctuary", "Assam", "Rhino Safari"],
@@ -6642,7 +6642,7 @@ export const posts = [
     title: "Kamakhya Temple Travel Guide: Shakti Peetha & Ambubachi Mela",
     excerpt:
       "One of the most powerful Shakti Peethas in Hindu tradition, hosting an annual fertility festival unlike any other temple gathering in India — the complete guide to Kamakhya Temple.",
-    image: "/images/destinations/jaisalmer/hero.jpg",
+    image: "/images/blogs/assam/kamakhya/kamakhya-temple.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Kamakhya Temple", "Assam", "Guwahati"],
@@ -6654,7 +6654,7 @@ export const posts = [
     title: "Charaideo Travel Guide: The Pyramids of Assam",
     excerpt:
       "Earthen burial mounds holding the remains of Ahom kings, recently added to UNESCO's World Heritage list as the 'Pyramids of Assam' — the complete guide to Charaideo.",
-    image: "/images/destinations/hampi/virupaksha.jpg",
+    image: "/images/blogs/assam/charaideo/charaideo.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Charaideo", "Assam", "Ahom Maidams"],
@@ -6678,7 +6678,7 @@ export const posts = [
     title: "Hajo Travel Guide: A Temple Town Sacred to Four Religions",
     excerpt:
       "A small town where Hindus, Buddhists, and Muslims each hold a shrine to be sacred, all within walking distance of each other — the complete guide to Hajo.",
-    image: "/images/destinations/jaisalmer/fort.jpg",
+    image: "/images/blogs/assam/hajo/hayagriva-madhava-temple-hajo-2.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Hajo", "Assam", "Multi-Faith Pilgrimage"],
@@ -6690,7 +6690,7 @@ export const posts = [
     title: "Tawang Travel Guide: Monastery, War Memorial & Best Time to Visit",
     excerpt:
       "India's largest Buddhist monastery, a war memorial honoring the 1962 conflict, and some of the most dramatic high-altitude scenery in the Eastern Himalayas — the complete guide to Tawang.",
-    image: "/images/destinations/manali/rohtang-pass.jpg",
+    image: "/images/blogs/arunachal-pradesh/tawang/tawang.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Tawang", "Arunachal Pradesh", "Tawang Monastery"],
@@ -6702,7 +6702,7 @@ export const posts = [
     title: "Sela Pass Travel Guide: One of India's Highest Motorable Passes",
     excerpt:
       "A high-altitude pass ringed by a sacred lake and hundreds of smaller frozen ponds, on the only road connecting Tawang to the rest of India — the complete guide to Sela Pass.",
-    image: "/images/destinations/leh-ladakh/leh-ladakh.jpg",
+    image: "/images/blogs/arunachal-pradesh/sela-pass/sela-pass-view.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Sela Pass", "Arunachal Pradesh", "Mountain Pass"],
@@ -6714,7 +6714,7 @@ export const posts = [
     title: "Dirang Travel Guide: Hot Springs, Apple Orchards & Dirang Dzong",
     excerpt:
       "A valley town between Bomdila and Tawang with natural hot springs, apple orchards, and a fortified monastery few travelers stop long enough to see — the complete guide to Dirang.",
-    image: "/images/destinations/manali/solang-valley.jpg",
+    image: "/images/blogs/arunachal-pradesh/dirang/dirang-view.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Dirang", "Arunachal Pradesh", "Dirang Dzong"],
@@ -6726,7 +6726,7 @@ export const posts = [
     title: "Mechuka Travel Guide: A Hidden Valley on the Tibet Border",
     excerpt:
       "A remote, river-cut valley near the Tibet border that stayed almost entirely off the map until recently, with a wooden monastery and a suspension bridge older than most Indian cities' bridges — the complete guide to Mechuka.",
-    image: "/images/destinations/spiti-valley/spiti-valley.jpg",
+    image: "/images/blogs/arunachal-pradesh/mechuka/mechuka.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Mechuka", "Arunachal Pradesh", "Shi-Yomi"],
@@ -6738,7 +6738,7 @@ export const posts = [
     title: "Anini Travel Guide: India's Least Explored Valley",
     excerpt:
       "The headquarters of Dibang Valley, one of India's least populated districts, reached by a road that only recently made it possible at all — the complete guide to Anini.",
-    image: "/images/destinations/ziro/hero.jpg",
+    image: "/images/blogs/arunachal-pradesh/anini/anini-3.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Anini", "Arunachal Pradesh", "Dibang Valley"],
@@ -6750,7 +6750,7 @@ export const posts = [
     title: "Namdapha National Park Travel Guide: India's Most Biodiverse Park",
     excerpt:
       "The only park in the world confirmed to hold four big cat species — tiger, leopard, snow leopard, and clouded leopard — the complete guide to Namdapha.",
-    image: "/images/destinations/meghalaya/dawki-river.jpg",
+    image: "/images/blogs/arunachal-pradesh/namdapha/namdapha-national-park.webp",
     category: "Adventure",
     categoryColor: "bg-amber-100 text-amber-700",
     tags: ["Namdapha National Park", "Arunachal Pradesh", "Biodiversity"],
@@ -6762,7 +6762,7 @@ export const posts = [
     title: "Pasighat Travel Guide: Arunachal's Oldest Town on the Siang River",
     excerpt:
       "The state's oldest permanent settlement, sitting on the banks of the Siang River as it rushes out of the Himalayas onto the Assam plains — the complete guide to Pasighat.",
-    image: "/images/destinations/kerala/alleppey.jpg",
+    image: "/images/blogs/arunachal-pradesh/pasighat/siang-river-pasighat.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Pasighat", "Arunachal Pradesh", "Siang River"],
@@ -6774,7 +6774,7 @@ export const posts = [
     title: "Bomdila Travel Guide: Monastery Town & Gateway to Tawang",
     excerpt:
       "A ridge-top monastery town with panoramic Himalayan views, and the last comfortable stop before the long climb to Tawang — the complete guide to Bomdila.",
-    image: "/images/destinations/manali/hero.jpg",
+    image: "/images/blogs/arunachal-pradesh/bomdila/bomdila.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Bomdila", "Arunachal Pradesh", "Bomdila Monastery"],
@@ -6798,7 +6798,7 @@ export const posts = [
     title: "Namsai Travel Guide: The Golden Pagoda of Arunachal",
     excerpt:
       "A gleaming Buddhist pagoda modeled on Myanmar's temple architecture, at the heart of a district shaped by Tai Khamti culture — the complete guide to Namsai.",
-    image: "/images/destinations/jaisalmer/hero.jpg",
+    image: "/images/blogs/arunachal-pradesh/namsai/namsai.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Namsai", "Arunachal Pradesh", "Golden Pagoda"],
@@ -6822,7 +6822,7 @@ export const posts = [
     title: "Itanagar Travel Guide: Arunachal Pradesh's Capital City",
     excerpt:
       "A hillside capital built around a 14th-century fort, and the practical starting point for almost every trip into Arunachal Pradesh — the complete guide to Itanagar.",
-    image: "/images/destinations/coorg/coorg.jpg",
+    image: "/images/blogs/arunachal-pradesh/itanagar/itanagar.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Itanagar", "Arunachal Pradesh", "Ita Fort"],
@@ -6834,7 +6834,7 @@ export const posts = [
     title: "Pakke Tiger Reserve Travel Guide: Hornbills & Foothill Forest",
     excerpt:
       "A foothill tiger reserve known less for tigers than for a community-led hornbill conservation program that's become a genuine conservation model — the complete guide to Pakke.",
-    image: "/images/destinations/coorg/abbey-falls.jpg",
+    image: "/images/blogs/arunachal-pradesh/pakke/pakke-tiger-reserve.webp",
     category: "Adventure",
     categoryColor: "bg-amber-100 text-amber-700",
     tags: ["Pakke Tiger Reserve", "Arunachal Pradesh", "Hornbills"],
@@ -6858,7 +6858,7 @@ export const posts = [
     title: "Visakhapatnam Travel Guide: Beaches, Submarine Museum & Vizag City Guide",
     excerpt:
       "A port city where a decommissioned submarine sits beached as a museum, and the coastline curves into some of the Bay of Bengal's most underrated beaches — the complete guide to Visakhapatnam.",
-    image: "/images/destinations/andaman/hero.jpg",
+    image: "/images/blogs/andhra-pradesh/visakhapatnam/rk-beach-visakhapatnam-2.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Visakhapatnam", "Andhra Pradesh", "Vizag"],
@@ -6870,7 +6870,7 @@ export const posts = [
     title: "Araku Valley Travel Guide: Coffee Hills & the Train Journey Through 58 Tunnels",
     excerpt:
       "A coffee-growing tribal valley in the Eastern Ghats, reached by a train ride through 58 tunnels and dozens of bridges — the complete guide to Araku Valley.",
-    image: "/images/destinations/coorg/coorg.jpg",
+    image: "/images/blogs/andhra-pradesh/araku-valley/borra-caves-araku-valley-2.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Araku Valley", "Andhra Pradesh", "Eastern Ghats"],
@@ -6882,7 +6882,7 @@ export const posts = [
     title: "Gandikota Travel Guide: India's Grand Canyon",
     excerpt:
       "A red sandstone gorge carved by the Pennar River, ringed by a 13th-century fort, that's earned the nickname 'Grand Canyon of India' — the complete guide to Gandikota.",
-    image: "/images/destinations/spiti-valley/spiti-valley.jpg",
+    image: "/images/blogs/andhra-pradesh/gandikota/gandikota-2.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Gandikota", "Andhra Pradesh", "Pennar River"],
@@ -6894,7 +6894,7 @@ export const posts = [
     title: "Vijayawada Travel Guide: Kanaka Durga Temple & Krishna River",
     excerpt:
       "A hilltop Durga temple overlooking the Krishna River, and a business city that's become one of Andhra Pradesh's most important transit hubs — the complete guide to Vijayawada.",
-    image: "/images/destinations/jaisalmer/fort.jpg",
+    image: "/images/blogs/andhra-pradesh/vijayawada/prakasam-barrage-vijayawada-2.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Vijayawada", "Andhra Pradesh", "Krishna River"],
@@ -6918,7 +6918,7 @@ export const posts = [
     title: "Rajahmundry Travel Guide: Godavari Bridges & Papi Hills Gateway",
     excerpt:
       "A Godavari riverside city with one of Asia's longest road-cum-rail bridges, and the departure point for boat cruises into the Papi Hills gorge — the complete guide to Rajahmundry.",
-    image: "/images/destinations/kerala/alleppey.jpg",
+    image: "/images/blogs/andhra-pradesh/rajahmundry/rajahmundry.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Rajahmundry", "Andhra Pradesh", "Godavari River"],
@@ -6930,7 +6930,7 @@ export const posts = [
     title: "Maredumilli Travel Guide: Rainforest Eco-Tourism in the Eastern Ghats",
     excerpt:
       "A genuinely dense rainforest pocket of the Eastern Ghats, with waterfalls, hot springs, and tribal eco-tourism camps largely undiscovered by mainstream travelers — the complete guide to Maredumilli.",
-    image: "/images/destinations/meghalaya/dawki-river.jpg",
+    image: "/images/blogs/andhra-pradesh/maredumilli/maredumilli.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Maredumilli", "Andhra Pradesh", "Eastern Ghats"],
@@ -6954,7 +6954,7 @@ export const posts = [
     title: "Borra Caves Travel Guide: Million-Year-Old Limestone Caverns",
     excerpt:
       "Some of India's largest and oldest limestone caves, with stalactite formations that took over a million years to form — the complete guide to Borra Caves.",
-    image: "/images/destinations/coorg/abbey-falls.jpg",
+    image: "/images/blogs/andhra-pradesh/borra-caves/borra-caves.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Borra Caves", "Andhra Pradesh", "Ananthagiri Hills"],
@@ -6966,7 +6966,7 @@ export const posts = [
     title: "Belum Caves Travel Guide: India's Second-Longest Cave System",
     excerpt:
       "A sprawling underground cave system with galleries, freshwater passages, and meditation chambers once used by ancient monks — the complete guide to Belum Caves.",
-    image: "/images/destinations/udaipur/saheliyon.jpg",
+    image: "/images/blogs/andhra-pradesh/belum-caves/belum-caves.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Belum Caves", "Andhra Pradesh", "Kurnool"],
@@ -6978,7 +6978,7 @@ export const posts = [
     title: "Ahobilam Travel Guide: The Nine Forms of Lord Narasimha",
     excerpt:
       "Nine temples scattered across a forested hill range, each dedicated to a different form of Lord Narasimha, deep in the Nallamala forest — the complete guide to Ahobilam.",
-    image: "/images/destinations/hampi/virupaksha.jpg",
+    image: "/images/blogs/andhra-pradesh/ahobilam/ahobilam-2.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Ahobilam", "Andhra Pradesh", "Narasimha Temple"],
@@ -6990,7 +6990,7 @@ export const posts = [
     title: "Horsley Hills Travel Guide: A Quiet Hill Station in Rayalaseema",
     excerpt:
       "A cool, forested hill station between Tirupati and Bangalore that's stayed genuinely low-key despite its convenient location — the complete guide to Horsley Hills.",
-    image: "/images/destinations/manali/hero.jpg",
+    image: "/images/blogs/andhra-pradesh/horsley-hills/horsley-hills.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Horsley Hills", "Andhra Pradesh", "Rayalaseema"],
@@ -7002,7 +7002,7 @@ export const posts = [
     title: "Papi Hills Travel Guide: Godavari Gorge Boat Cruise",
     excerpt:
       "A gorge where the Godavari River narrows between forested hills, best seen from the deck of a slow boat cruise — the complete guide to Papi Hills.",
-    image: "/images/destinations/kerala/hero.jpg",
+    image: "/images/blogs/andhra-pradesh/papi-hills/papi-hills-view.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Papi Hills", "Andhra Pradesh", "Godavari River"],

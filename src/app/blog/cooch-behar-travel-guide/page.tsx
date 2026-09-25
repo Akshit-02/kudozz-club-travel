@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -527,15 +528,6 @@ export default function CoochBeharGuidePage() {
                 {/* ── Landmarks ─────────────────────────────────────────── */}
                 <section id="landmarks">
                   <h2>Palace, Temple & Sagardighi</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/west-bengal/cooch-behar/cooch-behar-royal-palace-facade.webp"
-                      alt="Domed corner towers and colonnaded balconies of the Cooch Behar royal palace"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Cooch Behar Palace (Victor Jubilee Palace)</h3>
                   <p>
                     Built in 1887 by Maharaja Nripendra Narayan and formally
@@ -550,6 +542,7 @@ export default function CoochBeharGuidePage() {
                     from the Koch dynasty on display.
                   </p>
                   <h3>Madan Mohan Temple</h3>
+                  <GuideFigure src="/images/blogs/west-bengal/cooch-behar/madan-mohan-temple-cooch-behar.webp" alt="Madan Mohan Temple, Cooch Behar" />
                   <p>
                     Built in 1889 and dedicated to a form of Krishna
                     considered the royal family's tutelary deity, this temple
@@ -559,6 +552,7 @@ export default function CoochBeharGuidePage() {
                     festivities.
                   </p>
                   <h3>Sagardighi</h3>
+                  <GuideFigure src="/images/blogs/west-bengal/cooch-behar/sagardighi-cooch-behar.webp" alt="Sagardighi, Cooch Behar" />
                   <p>
                     A large, rectangular artificial lake at the heart of
                     town, originally excavated during the Koch dynasty's

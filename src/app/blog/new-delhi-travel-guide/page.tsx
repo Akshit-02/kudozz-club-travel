@@ -7,10 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -199,84 +195,6 @@ const tableOfContents = [
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Tips", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
-];
-
-// ── New Delhi-specific gear ────────────────────────────────────────────────────
-const NEW_DELHI_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle:
-      "Gear for wide, shade-poor boulevards, security screening, and long stretches of open lawn and stone",
-    emoji: "🏛️",
-    items: [
-      {
-        name: "Comfortable Walking Shoes",
-        description:
-          "Kartavya Path alone is over 2 km of exposed walking between India Gate and the Vijay Chowk end near Rashtrapati Bhavan, with little shade along the way.",
-        price: "₹1,499",
-        image: "👟",
-        affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
-        tag: "Sightseeing essential",
-        tagColor: "bg-stone-100 text-stone-700",
-        why: "A single loop of India Gate, Kartavya Path, and the government buildings covers several flat but shade-poor kilometres on foot.",
-      },
-      {
-        name: "Wide-Brim Hat or Cap",
-        description:
-          "The lawns and avenues around India Gate and Kartavya Path are almost entirely open sky — there's very little tree cover directly on the boulevard.",
-        price: "₹399",
-        image: "🧢",
-        affiliateUrl: amazonSearchUrl("travel+sun+hat+cap"),
-        tag: "Sun protection",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "Unlike Old Delhi's narrow, shaded lanes, New Delhi's monumental avenues offer almost no shade cover during midday hours.",
-      },
-      {
-        name: "Reusable Water Bottle",
-        description:
-          "Vendors and cafés thin out considerably around the government core compared to markets elsewhere in the city — carrying your own water is genuinely useful.",
-        price: "₹699",
-        image: "🍶",
-        affiliateUrl: amazonSearchUrl("insulated+water+bottle+steel"),
-        tag: "Everyday essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Summer temperatures regularly cross 40°C on Kartavya Path's open stretches, with limited shops nearby to buy water on the spot.",
-      },
-      {
-        name: "Clear/Transparent Small Bag",
-        description:
-          "Security checks are routine and strict near India Gate, Kartavya Path, Rashtrapati Bhavan, and especially Parliament House — a smaller, simple bag clears faster.",
-        price: "₹899",
-        image: "🎒",
-        affiliateUrl: amazonSearchUrl("small+travel+daypack+clear"),
-        tag: "Security-friendly",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "Bags, backpacks and even large camera bags are frequently checked, and some items (drones, large tripods, certain electronics) may not be allowed near government buildings.",
-      },
-      {
-        name: "Power Bank (10,000 mAh)",
-        description:
-          "Useful for long stretches walking between Metro stations, monument gates, and booking counters where you'll rely heavily on your phone.",
-        price: "₹1,299",
-        image: "🔋",
-        affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
-        tag: "City-day essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "Between metro navigation, photos, and showing digital booking confirmations for Rashtrapati Bhavan or Amrit Udyan, phone battery drains fast on a full sightseeing day.",
-      },
-      {
-        name: "Compact Umbrella or Light Rain Shell",
-        description:
-          "Worth carrying if visiting during the monsoon months, since much of the government core sits well away from covered shopping arcades.",
-        price: "₹499",
-        image: "☂️",
-        affiliateUrl: amazonSearchUrl("compact+travel+umbrella"),
-        tag: "Monsoon essential",
-        tagColor: "bg-red-100 text-red-700",
-        why: "Sudden showers between July and September can catch you in the middle of an open, shade-free walk along Kartavya Path.",
-      },
-    ],
-  },
 ];
 
 // ── Page ─────────────────────────────────────────────────────────────────────
@@ -673,15 +591,6 @@ export default function NewDelhiGuidePage() {
                 {/* ── India Gate ────────────────────────────────────────── */}
                 <section id="india-gate">
                   <h2>India Gate & the National War Memorial</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/delhi/new-delhi/india-gate-lawns-new-delhi.webp"
-                      alt="The sandstone arch of India Gate with its surrounding lawns, New Delhi"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <p>
                     <strong>India Gate</strong> is a 42-metre sandstone and
                     granite triumphal arch designed by Edwin Lutyens,
@@ -1320,12 +1229,6 @@ export default function NewDelhiGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              {/* ── Gear Recommendations ──────────────────────────────── */}
-              <TrekGearRecommendations
-                sections={NEW_DELHI_GEAR}
-                destination="New Delhi"
-              />
 
               <RelatedPostsGrid currentSlug="new-delhi-travel-guide" />
             </article>

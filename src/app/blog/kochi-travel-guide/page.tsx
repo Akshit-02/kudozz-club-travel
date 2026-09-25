@@ -7,10 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuidePhotoRow } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
   title: "Kochi Travel Guide: Fort Kochi, Chinese Nets & 3-Day Itinerary",
@@ -27,10 +24,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/kerala/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Chinese fishing nets and coastline representative of Kochi, Kerala",
+        url: "/images/blogs/kerala/kochi/mattancherry-palace-kochi.webp",
+        width: 1600,
+        height: 1048,
+        alt: "Mattancherry Palace, Kochi",
       },
     ],
   },
@@ -39,7 +36,7 @@ export const metadata: Metadata = {
     title: "Kochi Travel Guide: Fort Kochi, Chinese Nets & 3-Day Itinerary",
     description:
       "Chinese fishing nets, colonial-era churches, and Kerala's most walkable old town — the complete guide to Kochi.",
-    images: ["/images/destinations/kerala/hero.jpg"],
+    images: ["/images/blogs/kerala/kochi/mattancherry-palace-kochi.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/kochi-travel-guide",
@@ -56,7 +53,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Kochi Travel Guide: Fort Kochi, Chinese Nets & 3-Day Itinerary",
           description: "The complete Kochi travel guide.",
-          image: "https://club.kudozz.in/images/destinations/kerala/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/kerala/kochi/mattancherry-palace-kochi.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: {
@@ -151,60 +148,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const KOCHI_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for walking Fort Kochi's streets and touring its heritage sites",
-    emoji: "⚓",
-    items: [
-      {
-        name: "Comfortable Walking Shoes",
-        description:
-          "Fort Kochi's cobbled and paved lanes reward walking over taxis — good shoes make a full day of sightseeing far more comfortable.",
-        price: "₹1,999",
-        image: "👟",
-        affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
-        tag: "City-walk essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "Most of Fort Kochi's best sights are close together but best explored slowly, on foot.",
-      },
-      {
-        name: "Light Cotton/Linen Clothing",
-        description:
-          "Kochi's coastal humidity makes breathable fabrics far more comfortable than synthetic blends, especially outside the cooler winter months.",
-        price: "₹799",
-        image: "👕",
-        affiliateUrl: amazonSearchUrl("breathable+cotton+travel+clothing"),
-        tag: "Comfort essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Humidity stays noticeable year-round in Kochi, even in the dry season.",
-      },
-      {
-        name: "Compact Umbrella",
-        description:
-          "Useful across seasons — for sudden showers in shoulder months and for shade during the hotter parts of the day.",
-        price: "₹399",
-        image: "☂️",
-        affiliateUrl: amazonSearchUrl("compact+travel+umbrella"),
-        tag: "Weather essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "Kochi's weather can shift quickly, especially outside the driest winter months.",
-      },
-      {
-        name: "Modest Cover-Up",
-        description:
-          "A light scarf or shawl comes in handy for the Paradesi Synagogue and St. Francis Church, both of which expect modest dress.",
-        price: "₹399",
-        image: "🧣",
-        affiliateUrl: amazonSearchUrl("cotton+scarf+travel+modest"),
-        tag: "Heritage-site essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "Fort Kochi's churches and synagogue are active places of worship, not just monuments.",
-      },
-    ],
-  },
-];
-
 export default function KochiGuidePage() {
   return (
     <>
@@ -216,8 +159,8 @@ export default function KochiGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/kerala/hero.jpg"
-              alt="Chinese fishing nets and coastline representative of Kochi, Kerala"
+              src="/images/blogs/kerala/kochi/mattancherry-palace-kochi.webp"
+              alt="Mattancherry Palace, Kochi"
               fill
               priority
               sizes="100vw"
@@ -374,8 +317,8 @@ export default function KochiGuidePage() {
                   <h2>Top Things to Do in Kochi</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/kerala/hero.jpg"
-                      alt="Fort Kochi waterfront scenery"
+                      src="/images/blogs/kerala/kochi/st-francis-church-kochi.webp"
+                      alt="St. Francis Church, Kochi"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -390,6 +333,12 @@ export default function KochiGuidePage() {
                     <li><strong>Kathakali performance:</strong> Several Fort Kochi venues stage evening shows with elaborate makeup demonstrations beforehand — a good introduction to Kerala's classical dance-drama.</li>
                     <li><strong>Marine Drive & Willingdon Island:</strong> Modern Ernakulam's waterfront promenade and the man-made island housing the naval base and port — worth a look for contrast with old Fort Kochi.</li>
                   </ul>
+                  <GuidePhotoRow
+                    images={[
+                      { src: "/images/blogs/kerala/kochi/chinese-fishing-nets-kochi.webp", alt: "Chinese Fishing Nets, Kochi", caption: "Chinese Fishing Nets, Kochi" },
+                      { src: "/images/blogs/kerala/kochi/paradesi-synagogue-jew-town-kochi.webp", alt: "Paradesi Synagogue, Jew Town, Kochi", caption: "Paradesi Synagogue, Jew Town, Kochi" },
+                    ]}
+                  />
                 </section>
 
                 <section id="where-to-stay">
@@ -540,8 +489,6 @@ export default function KochiGuidePage() {
                   <Link key={tag} href={`/blog?tag=${tag.toLowerCase().replace(/ /g, "-")}`} className="tag-pill">#{tag}</Link>
                 ))}
               </div>
-
-              <TrekGearRecommendations sections={KOCHI_GEAR} destination="Kochi" />
 
               <RelatedPostsGrid currentSlug="kochi-travel-guide" />
             </article>

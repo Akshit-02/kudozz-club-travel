@@ -7,10 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuidePhotoRow } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
   title: "Kannur Travel Guide: Theyyam, Beaches & Handloom Heritage",
@@ -24,13 +21,13 @@ export const metadata: Metadata = {
     url: "https://club.kudozz.in/blog/kannur-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/goa/hero.jpg", width: 1200, height: 630, alt: "Coastal scenery representative of Kannur, Kerala" }],
+    images: [{ url: "/images/blogs/kerala/kannur/kannur-2.webp", width: 1600, height: 1200, alt: "View of Kannur, Kerala" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Kannur Travel Guide: Theyyam, Beaches & Handloom Heritage",
     description: "Ritual Theyyam performances, quiet beaches, and handloom heritage — the complete guide to Kannur.",
-    images: ["/images/destinations/goa/hero.jpg"],
+    images: ["/images/blogs/kerala/kannur/kannur-2.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/kannur-travel-guide" },
 };
@@ -45,7 +42,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Kannur Travel Guide: Theyyam, Beaches & Handloom Heritage",
           description: "The complete Kannur travel guide.",
-          image: "https://club.kudozz.in/images/destinations/goa/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/kerala/kannur/kannur-2.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
@@ -104,20 +101,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const KANNUR_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for Theyyam viewing, forts, and drive-in beaches",
-    emoji: "🥁",
-    items: [
-      { name: "Modest, Respectful Clothing", description: "Theyyam performances are active religious rituals — modest dress shows appropriate respect as a visiting observer.", price: "₹799",  image: "👕", affiliateUrl: amazonSearchUrl("modest+travel+clothing+cotton"), tag: "Cultural essential", tagColor: "bg-purple-100 text-purple-700", why: "Theyyam is a living devotional tradition, not a tourist performance — dress accordingly." },
-      { name: "Comfortable Walking Shoes", description: "For exploring St. Angelo Fort and Kannur's handloom weaving villages.", price: "₹1,999",  image: "🥾", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Sightseeing essential", tagColor: "bg-amber-100 text-amber-700", why: "Fort grounds and village walks both reward sturdy, comfortable footwear." },
-      { name: "Swimwear & Beach Sandals", description: "For Payyambalam Beach and Muzhappilangad Drive-in Beach.", price: "₹699",  image: "🏖️", affiliateUrl: amazonSearchUrl("beach+sandals+travel"), tag: "Beach essential", tagColor: "bg-sky-100 text-sky-700", why: "Kannur's beaches are genuinely swimmable and quiet outside monsoon season." },
-      { name: "Camera", description: "For Theyyam's striking costumes and makeup (where photography is permitted) and the fort's coastal views.", price: "₹8,999+",  image: "📷", affiliateUrl: amazonSearchUrl("travel+camera+photography"), tag: "Cultural essential", tagColor: "bg-forest-100 text-forest-700", why: "Theyyam's visual intensity is genuinely one-of-a-kind, worth capturing respectfully." },
-    ],
-  },
-];
-
 export default function KannurGuidePage() {
   return (
     <>
@@ -127,7 +110,7 @@ export default function KannurGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/goa/hero.jpg" alt="Coastal scenery representative of Kannur, Kerala" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/kerala/kannur/kannur-2.webp" alt="View of Kannur, Kerala" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -235,9 +218,6 @@ export default function KannurGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do in Kannur</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/goa/hero.jpg" alt="Coastline and beach scenery near Kannur" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>Theyyam performances:</strong> Kannur's defining cultural experience — check current schedules and attend respectfully as an observer of an active religious ritual.</li>
                     <li><strong>Muzhappilangad Drive-in Beach:</strong> One of Asia's longest drive-on beaches, a distinctive Kannur experience within designated, permitted areas.</li>
@@ -246,6 +226,12 @@ export default function KannurGuidePage() {
                     <li><strong>Handloom weaving villages:</strong> Traditional textile cooperative villages that can be visited to see the craft firsthand.</li>
                     <li><strong>Parassinikadavu Snake Park:</strong> A nearby park worth a visit for those interested in reptiles and local wildlife.</li>
                   </ul>
+                  <GuidePhotoRow
+                    images={[
+                      { src: "/images/blogs/kerala/kannur/payyambalam-beach-kannur-2.webp", alt: "Payyambalam Beach, Kannur", caption: "Payyambalam Beach, Kannur" },
+                      { src: "/images/blogs/kerala/kannur/st-angelo-fort-kannur-2.webp", alt: "St. Angelo Fort, Kannur", caption: "St. Angelo Fort, Kannur" },
+                    ]}
+                  />
                 </section>
 
                 <section id="where-to-stay">
@@ -362,7 +348,6 @@ export default function KannurGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={KANNUR_GEAR} destination="Kannur" />
               <RelatedPostsGrid currentSlug="kannur-travel-guide" />
             </article>
 

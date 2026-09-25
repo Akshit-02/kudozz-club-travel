@@ -7,10 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Chandil Dam Travel Guide: Reservoir, Boating & Day Trip Guide",
@@ -24,13 +20,13 @@ export const metadata: Metadata = {
     url: "https://club.kudozz.in/blog/chandil-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/kerala/alleppey.jpg", width: 1200, height: 630, alt: "Reservoir and hills representative of Chandil Dam, Jharkhand" }],
+    images: [{ url: "/images/blogs/jharkhand/chandil/chandil-dam.webp", width: 1600, height: 1200, alt: "Chandil Dam, Jharkhand" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Chandil Dam Travel Guide: Reservoir, Boating & Day Trip Guide",
     description: "A vast hill-ringed reservoir, one of the easiest day trips from Jamshedpur — the complete guide to Chandil.",
-    images: ["/images/destinations/kerala/alleppey.jpg"],
+    images: ["/images/blogs/jharkhand/chandil/chandil-dam.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/chandil-travel-guide" },
 };
@@ -45,7 +41,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Chandil Dam Travel Guide: Reservoir, Boating & Day Trip Guide",
           description: "The complete Chandil Dam travel guide.",
-          image: "https://club.kudozz.in/images/destinations/kerala/alleppey.jpg",
+          image: "https://club.kudozz.in/images/blogs/jharkhand/chandil/chandil-dam.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
@@ -104,20 +100,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const CHANDIL_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for a low-key reservoir day trip",
-    emoji: "🚣",
-    items: [
-      { name: "Sun Hat & Sunglasses", description: "The reservoir offers little shade — sun protection matters for a few hours by the water.", price: "₹499",  image: "🧢", affiliateUrl: amazonSearchUrl("sun+hat+travel+outdoor"), tag: "Day-trip essential", tagColor: "bg-amber-100 text-amber-700", why: "Open reservoir edges offer minimal shade for most of the day." },
-      { name: "Reusable Water Bottle", description: "Facilities at Chandil are minimal by design — carry your own water.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "All-day essential", tagColor: "bg-sky-100 text-sky-700", why: "This is an undeveloped reservoir stop with few shops nearby." },
-      { name: "Comfortable Footwear", description: "For walking along the dam and reservoir edge.", price: "₹999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+outdoor+footwear"), tag: "Comfort essential", tagColor: "bg-forest-100 text-forest-700", why: "The dam and reservoir banks involve some uneven, sometimes muddy ground." },
-      { name: "Waterproof Phone Pouch", description: "Useful if you plan to go boating on the reservoir.", price: "₹299",  image: "📱", affiliateUrl: amazonSearchUrl("waterproof+phone+pouch+travel"), tag: "Boating essential", tagColor: "bg-purple-100 text-purple-700", why: "A dropped phone is a real risk on informal boat rides." },
-    ],
-  },
-];
-
 export default function ChandilGuidePage() {
   return (
     <>
@@ -127,7 +109,7 @@ export default function ChandilGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/kerala/alleppey.jpg" alt="Reservoir and hills representative of Chandil Dam, Jharkhand" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/jharkhand/chandil/chandil-dam.webp" alt="Chandil Dam, Jharkhand" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -234,9 +216,6 @@ export default function ChandilGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Things to Do at Chandil</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/kerala/alleppey.jpg" alt="Chandil reservoir and surrounding hills" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>Boating:</strong> The main activity on the reservoir — a simple, relaxed way to see the dam and surrounding hills from the water.</li>
                     <li><strong>Picnicking by the reservoir:</strong> A popular local activity, especially on weekends — bring your own food as facilities are minimal.</li>
@@ -345,7 +324,6 @@ export default function ChandilGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={CHANDIL_GEAR} destination="Chandil" />
               <RelatedPostsGrid currentSlug="chandil-travel-guide" />
             </article>
 

@@ -7,10 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Betla National Park Travel Guide: Tiger Safari & Palamu Forts",
@@ -24,13 +20,13 @@ export const metadata: Metadata = {
     url: "https://club.kudozz.in/blog/betla-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/ziro/hero.jpg", width: 1200, height: 630, alt: "Dense sal forest landscape representative of Betla National Park, Jharkhand" }],
+    images: [{ url: "/images/blogs/jharkhand/betla/betla-national-park-2.webp", width: 1600, height: 720, alt: "Betla National Park, Jharkhand" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Betla National Park Travel Guide: Tiger Safari & Palamu Forts",
     description: "One of India's earliest Project Tiger reserves, with two ruined forts hidden inside dense sal forest.",
-    images: ["/images/destinations/ziro/hero.jpg"],
+    images: ["/images/blogs/jharkhand/betla/betla-national-park-2.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/betla-travel-guide" },
 };
@@ -45,7 +41,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Betla National Park Travel Guide: Tiger Safari & Palamu Forts",
           description: "The complete Betla National Park travel guide.",
-          image: "https://club.kudozz.in/images/destinations/ziro/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/jharkhand/betla/betla-national-park-2.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
@@ -104,20 +100,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const BETLA_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for jeep safaris and the fort ruins within the forest",
-    emoji: "🐘",
-    items: [
-      { name: "Neutral/Khaki Clothing", description: "Standard safari practice — neutral tones are less disruptive to wildlife on the jeep safari.", price: "₹1,299",  image: "🧥", affiliateUrl: amazonSearchUrl("khaki+safari+clothing+set"), tag: "Safari essential", tagColor: "bg-amber-100 text-amber-700", why: "Bright colors are more visible to wildlife and stand out against Betla's forest terrain." },
-      { name: "Binoculars", description: "For spotting elephants, deer, and birdlife across the park's dense sal forest.", price: "₹1,999",  image: "🔭", affiliateUrl: amazonSearchUrl("binoculars+wildlife+safari"), tag: "Non-negotiable", tagColor: "bg-red-100 text-red-700", why: "Sal forest terrain means wildlife is often glimpsed at a distance through gaps in the trees." },
-      { name: "Comfortable Walking Shoes", description: "For exploring the Old and New Palamu Forts, which involve real walking on uneven ruined stonework.", price: "₹1,999",  image: "🥾", affiliateUrl: amazonSearchUrl("comfortable+trekking+shoes"), tag: "Fort essential", tagColor: "bg-sky-100 text-sky-700", why: "The fort ruins have uneven, sometimes overgrown stone paths." },
-      { name: "Insect Repellent", description: "Dense sal forest brings a real mosquito presence, especially at dawn and dusk safari times.", price: "₹199",  image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Forest essential", tagColor: "bg-forest-100 text-forest-700", why: "Jharkhand's dense sal forests and the wooded fringes of the park make mosquito presence significant." },
-    ],
-  },
-];
-
 export default function BetlaGuidePage() {
   return (
     <>
@@ -127,7 +109,7 @@ export default function BetlaGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/ziro/hero.jpg" alt="Dense sal forest landscape representative of Betla National Park, Jharkhand" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/jharkhand/betla/betla-national-park-2.webp" alt="Betla National Park, Jharkhand" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -235,9 +217,6 @@ export default function BetlaGuidePage() {
 
                 <section id="safari-zones">
                   <h2>Safaris & Palamu Forts</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/ziro/hero.jpg" alt="Forest terrain within Betla National Park" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>Jeep safaris:</strong> Cover the park's core and buffer zones, run by the Forest Department.</li>
                     <li><strong>Old Palamu Fort and New Palamu Fort:</strong> Ruined 16th-17th century Chero-dynasty forts hidden within the forest — a genuinely distinctive combination of safari and heritage ruins.</li>
@@ -358,7 +337,6 @@ export default function BetlaGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={BETLA_GEAR} destination="Betla National Park" />
               <RelatedPostsGrid currentSlug="betla-travel-guide" />
             </article>
 

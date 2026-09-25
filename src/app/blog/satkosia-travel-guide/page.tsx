@@ -25,8 +25,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/destinations/jammu-kashmir/hero.jpg",
-        width: 1200,
-        height: 630,
+        width: 2560,
+        height: 1707,
         alt: "Mountain river gorge landscape, evoking Satkosia's Mahanadi river gorge cutting through the Eastern Ghats in Odisha",
       },
     ],
@@ -520,15 +520,6 @@ export default function SatkosiaGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Boat Safaris & Wildlife</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/jammu-kashmir/hero.jpg"
-                      alt="Mahanadi river gorge landscape within Satkosia Tiger Reserve, Odisha"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>The River-Gorge Boat Safari</h3>
                   <p>
                     The signature Satkosia experience — a boat glides along

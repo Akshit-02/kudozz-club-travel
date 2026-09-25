@@ -7,10 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuidePhotoRow } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
   title: "Dharamshala Travel Guide: McLeod Ganj, Triund Trek & Tibetan Culture",
@@ -24,13 +21,13 @@ export const metadata: Metadata = {
     url: "https://club.kudozz.in/blog/dharamshala-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/manali/solang-valley.jpg", width: 1200, height: 630, alt: "Himalayan valley representative of Dharamshala, Himachal Pradesh" }],
+    images: [{ url: "/images/blogs/himachal-pradesh/dharamshala/dharamshala-2.webp", width: 1600, height: 1187, alt: "View of Dharamshala, Himachal Pradesh" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Dharamshala Travel Guide: McLeod Ganj, Triund Trek & Tibetan Culture",
     description: "McLeod Ganj, the Triund trek, and Tibetan Buddhist culture — the complete guide to Dharamshala.",
-    images: ["/images/destinations/manali/solang-valley.jpg"],
+    images: ["/images/blogs/himachal-pradesh/dharamshala/dharamshala-2.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/dharamshala-travel-guide" },
 };
@@ -45,7 +42,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Dharamshala Travel Guide: McLeod Ganj, Triund Trek & Tibetan Culture",
           description: "The complete Dharamshala travel guide.",
-          image: "https://club.kudozz.in/images/destinations/manali/solang-valley.jpg",
+          image: "https://club.kudozz.in/images/blogs/himachal-pradesh/dharamshala/dharamshala-2.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
@@ -104,20 +101,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const DHARAMSHALA_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for McLeod Ganj and the Triund trek",
-    emoji: "🏔️",
-    items: [
-      { name: "Trekking Shoes", description: "Essential for the Triund trail, which climbs steadily over rocky, sometimes loose terrain to nearly 2,850m.", price: "₹3,299",  image: "🥾", affiliateUrl: amazonSearchUrl("trekking+shoes+men+women"), tag: "Trek essential", tagColor: "bg-amber-100 text-amber-700", why: "Triund's terrain shifts from forest path to open rocky ridge — solid ankle support matters." },
-      { name: "Warm Layers", description: "Temperatures drop sharply at Triund's altitude even when McLeod Ganj feels mild — essential for an overnight camp.", price: "₹2,499",  image: "🧥", affiliateUrl: amazonSearchUrl("warm+trekking+jacket+layers"), tag: "Non-negotiable", tagColor: "bg-red-100 text-red-700", why: "Many trekkers underestimate how cold Triund gets after sunset, even in summer months." },
-      { name: "Rain Layer", description: "Dharamshala is one of India's wetter hill regions — a packable rain jacket is useful across most seasons.", price: "₹899",  image: "🌂", affiliateUrl: amazonSearchUrl("packable+rain+jacket+trekking"), tag: "Weather essential", tagColor: "bg-sky-100 text-sky-700", why: "Sudden showers are common here, not just during peak monsoon." },
-      { name: "Sleeping Bag", description: "For an overnight camp at Triund — most trekking operators rent these, but bringing your own guarantees fit and warmth.", price: "₹2,999",  image: "🎒", affiliateUrl: amazonSearchUrl("sleeping+bag+trekking+camping"), tag: "Overnight-trek essential", tagColor: "bg-purple-100 text-purple-700", why: "Rental sleeping bags at the campsite can be inconsistent quality — your own is a safer bet for a cold night." },
-    ],
-  },
-];
-
 export default function DharamshalaGuidePage() {
   return (
     <>
@@ -127,7 +110,7 @@ export default function DharamshalaGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/manali/solang-valley.jpg" alt="Himalayan valley representative of Dharamshala, Himachal Pradesh" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/himachal-pradesh/dharamshala/dharamshala-2.webp" alt="View of Dharamshala, Himachal Pradesh" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -237,7 +220,7 @@ export default function DharamshalaGuidePage() {
                 <section id="top-attractions">
                   <h2>Top Things to Do in Dharamshala</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/manali/solang-valley.jpg" alt="Mountain scenery around Dharamshala and McLeod Ganj" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
+                    <Image src="/images/blogs/himachal-pradesh/dharamshala/namgyal-monastery-dharamshala.webp" alt="Namgyal Monastery, Dharamshala" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
                   </div>
                   <ul>
                     <li><strong>Tsuglagkhang Complex:</strong> The Dalai Lama's main temple complex in McLeod Ganj, open to visitors when not restricted for events.</li>
@@ -247,6 +230,12 @@ export default function DharamshalaGuidePage() {
                     <li><strong>HPCA Cricket Stadium:</strong> One of India's most scenically situated cricket grounds, with Dhauladhar peaks as a backdrop.</li>
                     <li><strong>McLeod Ganj's cafe scene:</strong> A long-running mix of Tibetan and international menus reflecting the town's backpacker and spiritual-tourism history.</li>
                   </ul>
+                  <GuidePhotoRow
+                    images={[
+                      { src: "/images/blogs/himachal-pradesh/dharamshala/tsuglagkhang-complex-dharamshala.webp", alt: "Tsuglagkhang Complex, Dharamshala", caption: "Tsuglagkhang Complex, Dharamshala" },
+                      { src: "/images/blogs/himachal-pradesh/dharamshala/triund-trek-dharamshala.webp", alt: "Triund Trek, Dharamshala", caption: "Triund Trek, Dharamshala" },
+                    ]}
+                  />
                 </section>
 
                 <section id="where-to-stay">
@@ -364,7 +353,6 @@ export default function DharamshalaGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={DHARAMSHALA_GEAR} destination="Dharamshala" />
               <RelatedPostsGrid currentSlug="dharamshala-travel-guide" />
             </article>
 

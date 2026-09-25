@@ -7,10 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -185,84 +181,6 @@ const tableOfContents = [
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
-];
-
-// ── Ziro-specific gear ───────────────────────────────────────────────────────────
-const ZIRO_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle:
-      "Gear for rice-field walks, village visits, and cool valley evenings",
-    emoji: "🌾",
-    items: [
-      {
-        name: "Waterproof Trekking Shoes",
-        description:
-          "The bunds between Ziro's terraced rice-fish fields turn muddy and slick after rain, which falls unpredictably even outside monsoon — proper grip and waterproofing matter more here than in most valleys.",
-        price: "₹1,999",
-        image: "🥾",
-        affiliateUrl: amazonSearchUrl("waterproof+trekking+shoes"),
-        tag: "Rice-field essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "Slipping off the narrow field bunds into the paddy water is the single most common mishap for visitors walking through the villages.",
-      },
-      {
-        name: "Packable Rain Jacket",
-        description:
-          "Ziro sees sudden showers through most of the year, even in the drier winter months — a packable rain shell is more useful here than a bulky umbrella.",
-        price: "₹1,299",
-        image: "🧥",
-        affiliateUrl: amazonSearchUrl("packable+rain+jacket+travel"),
-        tag: "All-season essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Weather in Ziro changes fast — travellers without rain protection regularly get caught out mid-village-walk.",
-      },
-      {
-        name: "Warm Fleece Layer",
-        description:
-          "At ~1,700m elevation, Ziro's evenings drop sharply even in summer, and winter nights can approach freezing — a mid-weight fleece covers most of the year.",
-        price: "₹1,499",
-        image: "🧣",
-        affiliateUrl: amazonSearchUrl("fleece+jacket+travel+warm"),
-        tag: "Evening essential",
-        tagColor: "bg-stone-100 text-stone-700",
-        why: "Homestays and campsites rarely have heating — a proper layer makes the cold valley evenings comfortable rather than something to endure.",
-      },
-      {
-        name: "Power Bank (10,000 mAh)",
-        description:
-          "Electricity in outlying Apatani villages can be inconsistent, and network coverage is patchy across the valley — a charged power bank keeps your phone alive for photos and navigation.",
-        price: "₹1,299",
-        image: "🔋",
-        affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
-        tag: "Off-grid essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "Ziro's remoteness is exactly its appeal, but it also means fewer charging opportunities than most Indian destinations.",
-      },
-      {
-        name: "Insect Repellent",
-        description:
-          "The paddy fields and surrounding forest attract mosquitoes and biting insects, especially around dusk near the wetter Apatani villages.",
-        price: "₹199",
-        image: "🦟",
-        affiliateUrl: amazonSearchUrl("mosquito+repellent+travel"),
-        tag: "Evening essential",
-        tagColor: "bg-red-100 text-red-700",
-        why: "Rice-fish fields are mosquito breeding grounds by design — repellent is worth applying before any evening village walk.",
-      },
-      {
-        name: "Basic First Aid Kit",
-        description:
-          "The nearest well-equipped hospital is in Itanagar, several hours away — a compact kit for cuts, blisters, and altitude-related headaches is sensible for such a remote valley.",
-        price: "₹599",
-        image: "🩹",
-        affiliateUrl: amazonSearchUrl("travel+first+aid+kit"),
-        tag: "Remote-travel essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "Ziro's isolation is part of its charm, but it also means self-sufficiency matters more than on a typical hill-station trip.",
-      },
-    ],
-  },
 ];
 
 // ── Page ─────────────────────────────────────────────────────────────────────
@@ -1235,12 +1153,6 @@ export default function ZiroValleyGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              {/* ── Gear Recommendations ──────────────────────────────── */}
-              <TrekGearRecommendations
-                sections={ZIRO_GEAR}
-                destination="Ziro Valley"
-              />
 
               <RelatedPostsGrid currentSlug="ziro-valley-arunachal-travel-guide" />
             </article>

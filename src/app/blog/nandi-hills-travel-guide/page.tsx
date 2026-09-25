@@ -7,10 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -29,8 +25,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/destinations/manali/rohtang-pass.jpg",
-        width: 1200,
-        height: 630,
+        width: 2560,
+        height: 1446,
         alt: "Hilltop viewpoint scenery representative of Nandi Hills, Karnataka",
       },
     ],
@@ -152,57 +148,6 @@ const tableOfContents = [
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
-];
-
-// ── Gear ──────────────────────────────────────────────────────────────────────
-const NANDI_HILLS_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for a pre-dawn drive and a cool hilltop sunrise",
-    emoji: "🌄",
-    items: [
-      {
-        name: "Light Warm Layer / Jacket",
-        description: "The summit is noticeably cool before sunrise, even though Bengaluru itself rarely feels cold.",
-        price: "₹1,299",
-        image: "🧥",
-        affiliateUrl: amazonSearchUrl("light+jacket+travel+outdoor"),
-        tag: "Pre-dawn essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "The elevation and pre-dawn timing make Nandi Hills genuinely chilly compared to the city below.",
-      },
-      {
-        name: "Comfortable Walking Shoes",
-        description: "For the short walk from the parking area to the summit viewpoints, including some uneven fort terrain.",
-        price: "₹1,999",
-        image: "👟",
-        affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
-        tag: "Comfort essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "The fort area has some uneven stone paths and steps worth having proper footwear for." ,
-      },
-      {
-        name: "Insulated Flask",
-        description: "For carrying hot coffee or tea on the pre-dawn drive and while waiting for sunrise at the top.",
-        price: "₹699",
-        image: "☕",
-        affiliateUrl: amazonSearchUrl("insulated+flask+travel"),
-        tag: "Pre-dawn essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "Few food/drink options are open at the summit before sunrise — a flask solves this easily." ,
-      },
-      {
-        name: "Power Bank",
-        description: "For the drive and for photography at the summit — a dead phone battery is a common pre-dawn regret.",
-        price: "₹899",
-        image: "🔋",
-        affiliateUrl: amazonSearchUrl("power+bank+travel"),
-        tag: "Travel essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "Navigation and photos both drain battery fast on an early pre-dawn trip." ,
-      },
-    ],
-  },
 ];
 
 // ── Page ─────────────────────────────────────────────────────────────────────
@@ -364,15 +309,6 @@ export default function NandiHillsGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do at Nandi Hills</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/manali/rohtang-pass.jpg"
-                      alt="Hilltop viewpoint at sunrise, representative of Nandi Hills"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <ul>
                     <li><strong>Sunrise viewpoints:</strong> The main reason most people make the trip — arrive before dawn for the best light and the cloud-below-summit effect on the right morning.</li>
                     <li><strong>Tipu's Drop:</strong> A sheer cliff point linked to local legend, one of the more dramatic vantage spots on the hilltop.</li>
@@ -517,8 +453,6 @@ export default function NandiHillsGuidePage() {
                   <Link key={tag} href={`/blog?tag=${tag.toLowerCase().replace(/ /g, "-")}`} className="tag-pill">#{tag}</Link>
                 ))}
               </div>
-
-              <TrekGearRecommendations sections={NANDI_HILLS_GEAR} destination="Nandi Hills" />
 
               <RelatedPostsGrid currentSlug="nandi-hills-travel-guide" />
             </article>

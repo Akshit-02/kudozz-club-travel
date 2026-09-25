@@ -7,8 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Charaideo Travel Guide: The Pyramids of Assam",
@@ -22,13 +20,13 @@ export const metadata: Metadata = {
     url: "https://club.kudozz.in/blog/charaideo-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/hampi/virupaksha.jpg", width: 1200, height: 630, alt: "Ancient stone and earthen heritage site representative of Charaideo, Assam" }],
+    images: [{ url: "/images/blogs/assam/charaideo/charaideo.webp", width: 1200, height: 583, alt: "Charaideo, Assam" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Charaideo Travel Guide: The Pyramids of Assam",
     description: "Earthen burial mounds of Ahom kings, newly inscribed as a UNESCO World Heritage Site — the complete guide to Charaideo.",
-    images: ["/images/destinations/hampi/virupaksha.jpg"],
+    images: ["/images/blogs/assam/charaideo/charaideo.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/charaideo-travel-guide" },
 };
@@ -43,7 +41,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Charaideo Travel Guide: The Pyramids of Assam",
           description: "The complete Charaideo travel guide.",
-          image: "https://club.kudozz.in/images/destinations/hampi/virupaksha.jpg",
+          image: "https://club.kudozz.in/images/blogs/assam/charaideo/charaideo.webp",
           datePublished: "2026-09-08",
           dateModified: "2026-09-08",
           publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
@@ -102,20 +100,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const CHARAIDEO_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for walking the open Maidam grounds",
-    emoji: "🏛️",
-    items: [
-      { name: "Comfortable Walking Shoes", description: "The Maidam site involves walking across open, grassy mound terrain with little shade.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Site essential", tagColor: "bg-amber-100 text-amber-700", why: "The mounds are spread across open ground, and comfortable footwear makes exploring them at a relaxed pace easier." },
-      { name: "Sun Hat", description: "Little natural shade across the open Maidam grounds means direct sun exposure for most of the visit.", price: "₹399",  image: "🧢", affiliateUrl: amazonSearchUrl("sun+hat+travel+outdoor"), tag: "Weather essential", tagColor: "bg-sky-100 text-sky-700", why: "The site has minimal shade cover, so sun protection matters even on a short half-day visit." },
-      { name: "Reusable Water Bottle", description: "Facilities are minimal at this quiet, recently-recognized heritage site.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "Site essential", tagColor: "bg-forest-100 text-forest-700", why: "Shops and stalls near the site are limited, so carrying your own water is sensible." },
-      { name: "Camera", description: "For the mounds themselves and the surrounding rural Upper Assam landscape.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-purple-100 text-purple-700", why: "The mound site and its quiet rural setting make for genuinely good, uncrowded photography." },
-    ],
-  },
-];
-
 export default function CharaideoGuidePage() {
   return (
     <>
@@ -125,7 +109,9 @@ export default function CharaideoGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/hampi/virupaksha.jpg" alt="Ancient stone and earthen heritage site representative of Charaideo, Assam" fill priority sizes="100vw" className="object-cover" />
+            <Image
+              src="/images/blogs/assam/charaideo/charaideo.webp"
+              alt="Charaideo, Assam" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -235,9 +221,6 @@ export default function CharaideoGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to See in Charaideo</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/hampi/virupaksha.jpg" alt="Heritage mound site representative of Charaideo" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>The Ahom Maidams:</strong> A cluster of earthen burial mounds built to house Ahom royalty, the site's UNESCO-recognized centerpiece.</li>
                     <li><strong>Charaideo's founding history:</strong> The site of Chaolung Sukaphaa's first Ahom capital, before the dynasty later moved its seat to Sivasagar.</li>
@@ -356,7 +339,6 @@ export default function CharaideoGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={CHARAIDEO_GEAR} destination="Charaideo" />
               <RelatedPostsGrid currentSlug="charaideo-travel-guide" />
             </article>
 

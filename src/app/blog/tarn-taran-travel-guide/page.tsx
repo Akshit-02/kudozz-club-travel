@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jammu-kashmir/dal.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Large calm lake reflecting the sky, evoking the vast sarovar at Tarn Taran Sahib",
+        url: "/images/blogs/punjab/tarn-taran/tarn-taran-sahib.webp",
+        width: 1600,
+        height: 1198,
+        alt: "Tarn Taran Sahib, Punjab",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Tarn Taran Sahib Guide: The Largest Sarovar",
     description:
       "The largest sarovar of any Sikh gurdwara, founded by Guru Arjan Dev — a short, worthwhile trip from Amritsar.",
-    images: ["/images/destinations/jammu-kashmir/dal.jpg"],
+    images: ["/images/blogs/punjab/tarn-taran/tarn-taran-sahib.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/tarn-taran-travel-guide",
@@ -59,7 +60,7 @@ function ArticleSchema() {
           headline: "Tarn Taran Sahib Guide: The Largest Sarovar",
           description:
             "Complete Tarn Taran Sahib guide — the gurdwara with the largest sarovar of any Sikh shrine, its founding by Guru Arjan Dev, how to reach from Amritsar, and visiting etiquette.",
-          image: "https://club.kudozz.in/images/destinations/jammu-kashmir/dal.jpg",
+          image: "https://club.kudozz.in/images/blogs/punjab/tarn-taran/tarn-taran-sahib.webp",
           datePublished: "2026-09-04",
           dateModified: "2026-09-04",
           publisher: {
@@ -196,8 +197,8 @@ export default function TarnTaranGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jammu-kashmir/dal.jpg"
-              alt="Large calm lake reflecting the sky, evoking the vast sarovar at Tarn Taran Sahib"
+              src="/images/blogs/punjab/tarn-taran/tarn-taran-sahib.webp"
+              alt="Tarn Taran Sahib, Punjab"
               fill
               priority
               sizes="100vw"
@@ -511,15 +512,6 @@ export default function TarnTaranGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>The Gurdwara & Sarovar</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/jammu-kashmir/dal.jpg"
-                      alt="Large sacred pool at Tarn Taran Sahib, Punjab"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Sri Darbar Sahib Tarn Taran</h3>
                   <p>
                     The gurdwara itself, founded by Guru Arjan Dev, is a
@@ -528,6 +520,7 @@ export default function TarnTaranGuidePage() {
                     than the Golden Temple, but no less meaningful.
                   </p>
                   <h3>The Sarovar</h3>
+                  <GuideFigure src="/images/blogs/punjab/tarn-taran/the-sarovar-tarn-taran-sahib.webp" alt="The Sarovar, Tarn Taran Sahib" />
                   <p>
                     The sacred pool surrounding the gurdwara is the largest of
                     any Sikh shrine, and its scale is genuinely striking in

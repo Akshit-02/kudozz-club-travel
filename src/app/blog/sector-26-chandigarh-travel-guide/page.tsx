@@ -25,8 +25,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/destinations/chandigarh/hero.jpg",
-        width: 1200,
-        height: 630,
+        width: 2560,
+        height: 1920,
         alt: "A wide, orderly Chandigarh street at dusk, evoking the lit-up dhaba fronts of Sector 26's Grain Market food street",
       },
     ],
@@ -538,15 +538,6 @@ export default function Sector26GuidePage() {
                 {/* ── Grain Market ──────────────────────────────────────── */}
                 <section id="grain-market">
                   <h2>The Grain Market Food Street</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/chandigarh/hero.jpg"
-                      alt="A busy, well-lit Chandigarh commercial street at night, evoking the dhaba-lined Grain Market food street in Sector 26"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <p>
                     The Grain Market food street is a tightly packed cluster
                     of dhabas and restaurants, most of them specializing in

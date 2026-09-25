@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -525,6 +526,7 @@ export default function MaduraiGuidePage() {
                     />
                   </div>
                   <h3>Meenakshi Amman Temple</h3>
+                  <GuideFigure src="/images/blogs/tamil-nadu/madurai/meenakshi-amman-temple-madurai-2.webp" alt="Meenakshi Amman Temple, Madurai" />
                   <p>
                     The reason most people come to Madurai at all — a vast
                     complex with 14 gopurams, thousands of carved and painted
@@ -533,12 +535,14 @@ export default function MaduraiGuidePage() {
                     time here; rushing through does it no justice.
                   </p>
                   <h3>Thirumalai Nayakkar Palace</h3>
+                  <GuideFigure src="/images/blogs/tamil-nadu/madurai/thirumalai-nayakkar-palace-madurai.webp" alt="Thirumalai Nayakkar Palace, Madurai" />
                   <p>
                     A 17th-century Indo-Saracenic palace known for its huge
                     open courtyard and towering pillars — a striking contrast
                     in scale and style to the temple's dense ornamentation.
                   </p>
                   <h3>Gandhi Memorial Museum</h3>
+                  <GuideFigure src="/images/blogs/tamil-nadu/madurai/gandhi-memorial-museum-madurai.webp" alt="Gandhi Memorial Museum, Madurai" />
                   <p>
                     Housed in a former palace, this museum traces the freedom
                     struggle with a strong regional lens — a worthwhile,

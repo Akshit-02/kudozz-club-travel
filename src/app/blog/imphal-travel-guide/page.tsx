@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -499,15 +500,6 @@ export default function ImphalGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Things to Do in Imphal</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/manipur/imphal/kangla-fort-gate-imphal.webp"
-                      alt="The Kangla Sanathong gate at Kangla Fort, Imphal's most significant heritage landmark"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Kangla Fort</h3>
                   <p>
                     The former royal seat of the Meitei kings, Kangla Fort is
@@ -546,6 +538,7 @@ export default function ImphalGuidePage() {
                     theatre. Quiet, well-maintained, and a moving stop.
                   </p>
                   <h3>Sangai Festival</h3>
+                  <GuideFigure src="/images/blogs/manipur/imphal/sangai-festival-imphal.webp" alt="Sangai Festival, Imphal" />
                   <p>
                     Manipur's flagship annual cultural festival, usually held
                     in late November and organized by Manipur Tourism,

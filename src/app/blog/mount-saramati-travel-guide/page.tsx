@@ -25,8 +25,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/destinations/manali/rohtang-pass.jpg",
-        width: 1200,
-        height: 630,
+        width: 2560,
+        height: 1446,
         alt: "Snow-dusted high mountain pass, evoking the remote high-altitude terrain of Mount Saramati in Nagaland",
       },
     ],
@@ -523,15 +523,6 @@ export default function MountSaramatiGuidePage() {
                 {/* ── The Trek ──────────────────────────────────────────── */}
                 <section id="the-trek">
                   <h2>The Trek Itself</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/manali/rohtang-pass.jpg"
-                      alt="High mountain terrain evoking the remote trail toward Mount Saramati's summit"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Terrain & Difficulty</h3>
                   <p>
                     This is a genuinely demanding, multi-day trek across

@@ -7,10 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuidePhotoRow } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
   title: "Kumarakom Travel Guide: Vembanad Lake, Bird Sanctuary & Houseboats",
@@ -24,13 +21,13 @@ export const metadata: Metadata = {
     url: "https://club.kudozz.in/blog/kumarakom-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/jammu-kashmir/dal.jpg", width: 1200, height: 630, alt: "Lake landscape representative of Kumarakom, Kerala" }],
+    images: [{ url: "/images/blogs/kerala/kumarakom/vembanad-lake-kumarakom-3.webp", width: 1600, height: 1071, alt: "Vembanad Lake, Kumarakom" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Kumarakom Travel Guide: Vembanad Lake, Bird Sanctuary & Houseboats",
     description: "A quieter, greener answer to Alleppey's backwaters, with a bird sanctuary on Kerala's largest lake.",
-    images: ["/images/destinations/jammu-kashmir/dal.jpg"],
+    images: ["/images/blogs/kerala/kumarakom/vembanad-lake-kumarakom-3.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/kumarakom-travel-guide" },
 };
@@ -45,7 +42,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Kumarakom Travel Guide: Vembanad Lake, Bird Sanctuary & Houseboats",
           description: "The complete Kumarakom travel guide.",
-          image: "https://club.kudozz.in/images/destinations/jammu-kashmir/dal.jpg",
+          image: "https://club.kudozz.in/images/blogs/kerala/kumarakom/vembanad-lake-kumarakom-3.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
@@ -104,20 +101,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const KUMARAKOM_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for birdwatching and backwater resort stays",
-    emoji: "🦩",
-    items: [
-      { name: "Binoculars", description: "Essential for the Kumarakom Bird Sanctuary, especially during the winter migratory season.", price: "₹1,999",  image: "🔭", affiliateUrl: amazonSearchUrl("binoculars+birdwatching"), tag: "Sanctuary essential", tagColor: "bg-amber-100 text-amber-700", why: "Many bird species stay well back from the boardwalks — binoculars are the difference between a blur and a real sighting." },
-      { name: "Camera with Zoom Lens", description: "For capturing birdlife at the sanctuary and the lake scenery from a resort or houseboat.", price: "₹8,999+",  image: "📷", affiliateUrl: amazonSearchUrl("camera+zoom+lens+wildlife"), tag: "Photography essential", tagColor: "bg-purple-100 text-purple-700", why: "A zoom lens turns distant wetland birds into a usable photo." },
-      { name: "Insect Repellent", description: "Wetland and lake-edge settings mean mosquitoes are a real presence, especially at dusk.", price: "₹199",  image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Lake essential", tagColor: "bg-forest-100 text-forest-700", why: "Vembanad Lake's wetlands are prime mosquito territory in the evenings." },
-      { name: "Light, Breathable Clothing", description: "Kerala's coastal humidity is high year-round — loose cotton clothing is far more comfortable on a houseboat or resort deck.", price: "₹799",  image: "👕", affiliateUrl: amazonSearchUrl("breathable+cotton+travel+clothing"), tag: "Comfort essential", tagColor: "bg-sky-100 text-sky-700", why: "Humidity around the lake can be intense, especially in the afternoon." },
-    ],
-  },
-];
-
 export default function KumarakomGuidePage() {
   return (
     <>
@@ -127,7 +110,7 @@ export default function KumarakomGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/jammu-kashmir/dal.jpg" alt="Lake landscape representative of Kumarakom, Kerala" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/kerala/kumarakom/vembanad-lake-kumarakom-3.webp" alt="Vembanad Lake, Kumarakom" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -236,7 +219,7 @@ export default function KumarakomGuidePage() {
                 <section id="top-attractions">
                   <h2>Top Things to Do in Kumarakom</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/jammu-kashmir/dal.jpg" alt="Lake scenery around Kumarakom" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
+                    <Image src="/images/blogs/kerala/kumarakom/bay-island-driftwood-museum-kumarakom.webp" alt="Bay Island Driftwood Museum, Kumarakom" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
                   </div>
                   <ul>
                     <li><strong>Kumarakom Bird Sanctuary:</strong> A wetland sanctuary especially rewarding for migratory birds in winter, with boardwalks and boat-based birdwatching.</li>
@@ -245,6 +228,12 @@ export default function KumarakomGuidePage() {
                     <li><strong>Bay Island Driftwood Museum:</strong> A small, quirky museum of driftwood sculptures worth a short stop.</li>
                     <li><strong>Houseboat cruises:</strong> Similar to Alleppey but from a calmer, more resort-oriented base.</li>
                   </ul>
+                  <GuidePhotoRow
+                    images={[
+                      { src: "/images/blogs/kerala/kumarakom/kumarakom-bird-sanctuary-2.webp", alt: "Kumarakom Bird Sanctuary, Kerala", caption: "Kumarakom Bird Sanctuary, Kerala" },
+                      { src: "/images/blogs/kerala/kumarakom/pathiramanal-island-kumarakom-2.webp", alt: "Pathiramanal Island, Kumarakom", caption: "Pathiramanal Island, Kumarakom" },
+                    ]}
+                  />
                 </section>
 
                 <section id="where-to-stay">
@@ -362,7 +351,6 @@ export default function KumarakomGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={KUMARAKOM_GEAR} destination="Kumarakom" />
               <RelatedPostsGrid currentSlug="kumarakom-travel-guide" />
             </article>
 

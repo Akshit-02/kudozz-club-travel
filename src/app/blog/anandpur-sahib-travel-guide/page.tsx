@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/manali/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Hillside town landscape evoking Anandpur Sahib's setting in Rupnagar district, Punjab",
+        url: "/images/blogs/punjab/anandpur-sahib/anandpur-sahib-2.webp",
+        width: 1600,
+        height: 1200,
+        alt: "View of Anandpur Sahib, Punjab",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Anandpur Sahib Guide: Birthplace of the Khalsa",
     description:
       "One of the five Takhts of Sikhism, and the site where the Khalsa was founded in 1699 — the complete Anandpur Sahib guide.",
-    images: ["/images/destinations/manali/hero.jpg"],
+    images: ["/images/blogs/punjab/anandpur-sahib/anandpur-sahib-2.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/anandpur-sahib-travel-guide",
@@ -59,7 +60,7 @@ function ArticleSchema() {
           headline: "Anandpur Sahib Guide: Birthplace of the Khalsa",
           description:
             "Complete Anandpur Sahib guide — Gurdwara Kesgarh Sahib, the founding of the Khalsa, the Virasat-e-Khalsa museum, Hola Mohalla festival, how to reach, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/manali/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/punjab/anandpur-sahib/anandpur-sahib-2.webp",
           datePublished: "2026-09-04",
           dateModified: "2026-09-04",
           publisher: {
@@ -196,8 +197,8 @@ export default function AnandpurSahibGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/manali/hero.jpg"
-              alt="Hillside town landscape evoking Anandpur Sahib's setting in Rupnagar district, Punjab"
+              src="/images/blogs/punjab/anandpur-sahib/anandpur-sahib-2.webp"
+              alt="View of Anandpur Sahib, Punjab"
               fill
               priority
               sizes="100vw"
@@ -514,22 +515,15 @@ export default function AnandpurSahibGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Kesgarh Sahib, Virasat-e-Khalsa & More</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/manali/hero.jpg"
-                      alt="Hillside landscape evoking Anandpur Sahib's setting"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Gurdwara Kesgarh Sahib</h3>
+                  <GuideFigure src="/images/blogs/punjab/anandpur-sahib/gurdwara-kesgarh-sahib-anandpur-sahib-2.webp" alt="Gurdwara Kesgarh Sahib, Anandpur Sahib" />
                   <p>
                     The town's most significant shrine, marking the site
                     where Guru Gobind Singh founded the Khalsa in 1699 — the
                     essential stop for any visit to Anandpur Sahib.
                   </p>
                   <h3>Virasat-e-Khalsa</h3>
+                  <GuideFigure src="/images/blogs/punjab/anandpur-sahib/virasat-e-khalsa-anandpur-sahib-2.webp" alt="Virasat-e-Khalsa, Anandpur Sahib" />
                   <p>
                     A modern museum dedicated to Sikh heritage and history,
                     notable for its bold contemporary architecture as much
@@ -537,6 +531,7 @@ export default function AnandpurSahibGuidePage() {
                     rather than a quick pass-through.
                   </p>
                   <h3>Hola Mohalla</h3>
+                  <GuideFigure src="/images/blogs/punjab/anandpur-sahib/hola-mohalla-anandpur-sahib-2.webp" alt="Hola Mohalla, Anandpur Sahib" />
                   <p>
                     Held annually around Holi, this festival features
                     martial arts displays, mock battles, and processions by

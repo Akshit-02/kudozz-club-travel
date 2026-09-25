@@ -7,10 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -188,84 +184,6 @@ const tableOfContents = [
   { id: "tips", title: "Essential Travel Tips", level: 2 },
   { id: "places-to-explore", title: "Places to Explore in West Bengal", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
-];
-
-// ── West Bengal-specific gear ─────────────────────────────────────────────────
-const WEST_BENGAL_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle:
-      "Gear spanning humid Kolkata streets, cold Darjeeling mornings, and mangrove boat safaris",
-    emoji: "🍃",
-    items: [
-      {
-        name: "Layered Fleece Jacket",
-        description:
-          "Darjeeling and Kalimpong sit at altitude and get genuinely cold, especially at sunrise viewpoints like Tiger Hill — a stark contrast to muggy Kolkata.",
-        price: "₹1,899",
-        image: "🧥",
-        affiliateUrl: amazonSearchUrl("fleece+jacket+travel+trekking"),
-        tag: "Hill essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "The temperature swing between Kolkata and Darjeeling within the same trip regularly exceeds 15°C — packing layers matters more here than in most single-climate trips.",
-      },
-      {
-        name: "Comfortable Walking Shoes",
-        description:
-          "Kolkata's colonial architecture, College Street, and the Darjeeling Mall Road all reward walking — good shoes matter across both legs of the trip.",
-        price: "₹1,499",
-        image: "👟",
-        affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
-        tag: "City & hill essential",
-        tagColor: "bg-stone-100 text-stone-700",
-        why: "Between Kolkata's uneven pavements and Darjeeling's steep hill-town streets, footwear needs to handle two very different terrains.",
-      },
-      {
-        name: "Mosquito Repellent",
-        description:
-          "Essential for both Kolkata's humid evenings and especially a Sundarbans mangrove trip, where mosquito presence is significant.",
-        price: "₹199",
-        image: "🦟",
-        affiliateUrl: amazonSearchUrl("mosquito+repellent+travel"),
-        tag: "Sundarbans essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "The Sundarbans' dense mangrove environment has a serious mosquito presence year-round — this isn't optional if that leg is on your itinerary.",
-      },
-      {
-        name: "Binoculars",
-        description:
-          "For Sundarbans tiger and bird spotting from the boat, and for wide Kanchenjunga views from Darjeeling's viewpoints.",
-        price: "₹1,299",
-        image: "🔭",
-        affiliateUrl: amazonSearchUrl("compact+binoculars+travel"),
-        tag: "Wildlife essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "Royal Bengal Tiger sightings in the Sundarbans are rare and distant when they happen — binoculars significantly improve your chances of actually seeing one.",
-      },
-      {
-        name: "Power Bank (10,000 mAh)",
-        description:
-          "Useful for the long train or road transfers between Kolkata, NJP/Siliguri, and Darjeeling.",
-        price: "₹1,299",
-        image: "🔋",
-        affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
-        tag: "Travel-day essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "The Kolkata–Darjeeling transfer alone can take most of a day between train and shared-jeep legs — a charged power bank avoids a dead phone mid-journey.",
-      },
-      {
-        name: "Rain Jacket / Poncho",
-        description:
-          "North Bengal's hill regions see sudden showers even outside peak monsoon, and Kolkata's monsoon downpours are intense and frequent.",
-        price: "₹599",
-        image: "🌂",
-        affiliateUrl: amazonSearchUrl("rain+jacket+poncho+travel"),
-        tag: "Weather essential",
-        tagColor: "bg-red-100 text-red-700",
-        why: "Darjeeling's weather can turn from clear to misty and wet within an hour — worth having regardless of season.",
-      },
-    ],
-  },
 ];
 
 // ── Page ─────────────────────────────────────────────────────────────────────
@@ -610,8 +528,8 @@ export default function WestBengalGuidePage() {
                   <h2>Kolkata: The City of Joy</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/blogs/west-bengal/west-bengal/victoria-memorial-kolkata-west-bengal.webp"
-                      alt="The white marble domed facade and colonnade of the Victoria Memorial, Kolkata, West Bengal"
+                      src="/images/blogs/west-bengal/west-bengal/kolkata-west-bengal-2.webp"
+                      alt="Kolkata, West Bengal"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -1379,12 +1297,6 @@ export default function WestBengalGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              {/* ── Gear Recommendations ──────────────────────────────── */}
-              <TrekGearRecommendations
-                sections={WEST_BENGAL_GEAR}
-                destination="West Bengal"
-              />
 
               <RelatedPostsGrid currentSlug="west-bengal-travel-guide" />
             </article>

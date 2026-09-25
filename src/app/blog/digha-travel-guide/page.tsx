@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -536,15 +537,6 @@ export default function DighaGuidePage() {
                 {/* ── Attractions ────────────────────────────────────────── */}
                 <section id="attractions">
                   <h2>Beaches & Attractions</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/west-bengal/digha/new-digha-beach-promenade-boulder-embankment.webp"
-                      alt="New Digha beach's stone embankment and promenade lined with casuarina trees"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>New Digha Beach & Promenade</h3>
                   <p>
                     The main draw — a long, well-maintained beach drive and
@@ -569,6 +561,7 @@ export default function DighaGuidePage() {
                     eastern coast and a popular stop for families.
                   </p>
                   <h3>Digha Science Centre</h3>
+                  <GuideFigure src="/images/blogs/west-bengal/digha/digha-science-centre.webp" alt="Digha Science Centre, West Bengal" />
                   <p>
                     An interactive science museum with exhibits geared
                     mainly toward children and families, offering an

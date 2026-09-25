@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/kasol/kasol.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Mountain valley town scenery, evoking Lachen's high-altitude setting in North Sikkim",
+        url: "/images/blogs/sikkim/lachen/lachen.webp",
+        width: 1600,
+        height: 1067,
+        alt: "Lachen, Sikkim",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Lachen Travel Guide: Gateway to Gurudongmar",
     description:
       "A high-altitude North Sikkim village, Thangu Valley nearby, and the essential acclimatization stop before Gurudongmar Lake.",
-    images: ["/images/destinations/kasol/kasol.jpg"],
+    images: ["/images/blogs/sikkim/lachen/lachen.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/lachen-travel-guide",
@@ -59,7 +60,7 @@ function ArticleSchema() {
           headline: "Lachen Travel Guide: Gateway to Gurudongmar",
           description:
             "Complete Lachen guide — the North Sikkim base village, Lachen Monastery, Thangu Valley, permits, how to reach from Gangtok, and acclimatizing before Gurudongmar Lake.",
-          image: "https://club.kudozz.in/images/destinations/kasol/kasol.jpg",
+          image: "https://club.kudozz.in/images/blogs/sikkim/lachen/lachen.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -195,8 +196,8 @@ export default function LachenGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/kasol/kasol.jpg"
-              alt="Mountain valley town scenery, evoking Lachen's high-altitude setting in North Sikkim"
+              src="/images/blogs/sikkim/lachen/lachen.webp"
+              alt="Lachen, Sikkim"
               fill
               priority
               sizes="100vw"
@@ -516,16 +517,8 @@ export default function LachenGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Monastery, Thangu Valley & Acclimatizing</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/kasol/kasol.jpg"
-                      alt="High-altitude mountain village scenery around Lachen, North Sikkim"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Lachen Monastery</h3>
+                  <GuideFigure src="/images/blogs/sikkim/lachen/lachen-monastery.webp" alt="Lachen Monastery, Sikkim" />
                   <p>
                     A Buddhist gompa in the village, worth a quiet visit
                     before or after your Gurudongmar excursion — a peaceful
@@ -533,6 +526,7 @@ export default function LachenGuidePage() {
                     further up.
                   </p>
                   <h3>Thangu Valley</h3>
+                  <GuideFigure src="/images/blogs/sikkim/lachen/thangu-valley-lachen.webp" alt="Thangu Valley, Lachen" />
                   <p>
                     A scenic high-altitude meadow between Lachen and
                     Gurudongmar, often included in the same excursion —

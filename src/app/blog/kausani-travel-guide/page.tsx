@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -532,15 +533,6 @@ export default function KausaniGuidePage() {
                 {/* ── Attractions ────────────────────────────────────────── */}
                 <section id="attractions">
                   <h2>Things to Do in Kausani</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/uttarakhand/kausani/nanda-devi-trisul-himalayan-range-kausani.webp"
-                      alt="Panoramic view of the Trisul and Nanda Devi Himalayan peaks from a Kausani viewpoint"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Anasakti Ashram</h3>
                   <p>
                     Built around the cottage where Mahatma Gandhi stayed for
@@ -565,6 +557,7 @@ export default function KausaniGuidePage() {
                     walk through pine and oak forest to reach the falls.
                   </p>
                   <h3>Baijnath Temple</h3>
+                  <GuideFigure src="/images/blogs/uttarakhand/kausani/baijnath-temple-kausani-2.webp" alt="Baijnath Temple, Kausani" />
                   <p>
                     An 12th-13th century Katyuri-era temple complex dedicated
                     to Shiva, roughly 20 km from Kausani on the banks of the

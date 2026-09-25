@@ -7,10 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuidePhotoRow } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
   title: "Matheran Travel Guide: India's Only Vehicle-Free Hill Station",
@@ -25,13 +22,13 @@ export const metadata: Metadata = {
     url: "https://club.kudozz.in/blog/matheran-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/ziro/hero.jpg", width: 1200, height: 630, alt: "Green forested hills near Matheran, Maharashtra" }],
+    images: [{ url: "/images/blogs/maharashtra/matheran/matheran.webp", width: 1600, height: 1067, alt: "View of Matheran, Maharashtra" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Matheran Travel Guide: India's Only Vehicle-Free Hill Station",
     description: "The toy train, red mud trails, and panoramic points — the complete guide to Matheran.",
-    images: ["/images/destinations/ziro/hero.jpg"],
+    images: ["/images/blogs/maharashtra/matheran/matheran.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/matheran-travel-guide" },
 };
@@ -46,7 +43,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Matheran Travel Guide: India's Only Vehicle-Free Hill Station",
           description: "The complete Matheran travel guide.",
-          image: "https://club.kudozz.in/images/destinations/ziro/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/maharashtra/matheran/matheran.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
@@ -98,20 +95,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const MATHERAN_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for red mud trails and a car-free hill town",
-    emoji: "🐎",
-    items: [
-      { name: "Sturdy Walking Shoes", description: "Matheran's red laterite trails are soft, dusty, and can turn slick — Matheran is best explored entirely on foot, so grip and comfort both matter.", price: "₹1,499",  image: "👟", affiliateUrl: amazonSearchUrl("sturdy+walking+shoes+trail"), tag: "Essential", tagColor: "bg-red-100 text-red-700", why: "With no vehicles allowed, every attraction in Matheran is reached on foot — the wrong shoes make the whole trip harder." },
-      { name: "Wide-Brim Sun Hat", description: "The open viewpoints along Matheran's ridge offer little shade during midday walks.", price: "₹349",  image: "👒", affiliateUrl: amazonSearchUrl("wide+brim+sun+hat+travel"), tag: "Sun protection", tagColor: "bg-amber-100 text-amber-700", why: "Panorama Point and the other ridge viewpoints are fully exposed with no shade cover." },
-      { name: "Reusable Water Bottle", description: "With no vehicles to hop into for a break, staying hydrated across a day of walking between viewpoints matters more here.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "Everyday essential", tagColor: "bg-sky-100 text-sky-700", why: "Matheran's viewpoint circuit covers several kilometres with no vehicle option if you underestimate water needs." },
-      { name: "Small Daypack", description: "Useful for carrying snacks, water, and cash on the walk from Dasturi car park, since porters and horses are optional extras rather than default.", price: "₹899",  image: "🎒", affiliateUrl: amazonSearchUrl("small+daypack+travel"), tag: "Everyday essential", tagColor: "bg-forest-100 text-forest-700", why: "The 2.5 km walk from Dasturi into town is easier with essentials in a light, hands-free bag." },
-    ],
-  },
-];
-
 export default function MatheranGuidePage() {
   return (
     <>
@@ -121,7 +104,7 @@ export default function MatheranGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/ziro/hero.jpg" alt="Green forested hills near Matheran, Maharashtra" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/maharashtra/matheran/matheran.webp" alt="View of Matheran, Maharashtra" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -232,9 +215,6 @@ export default function MatheranGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Attractions</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/ziro/hero.jpg" alt="Forested viewpoint trail in Matheran" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>Charlotte Lake:</strong> Matheran's main water source and a quiet, forested spot for a peaceful walk, especially scenic just after monsoon.</li>
                     <li><strong>Echo Point:</strong> A popular viewpoint known for its clear echo across the valley — a favourite with families and first-time visitors.</li>
@@ -243,6 +223,13 @@ export default function MatheranGuidePage() {
                     <li><strong>Porcupine Point (Sunset Point):</strong> Widely regarded as Matheran's best sunset viewpoint, with layered ridgelines fading into the haze at dusk.</li>
                     <li><strong>The Matheran Hill Railway:</strong> Even a short ride on the heritage toy train (when running) is worth doing for its own sake — narrow-gauge tracks winding through dense forest.</li>
                   </ul>
+                  <GuidePhotoRow
+                    images={[
+                      { src: "/images/blogs/maharashtra/matheran/charlotte-lake-matheran.webp", alt: "Charlotte Lake, Matheran", caption: "Charlotte Lake, Matheran" },
+                      { src: "/images/blogs/maharashtra/matheran/echo-point-matheran.webp", alt: "Echo Point, Matheran", caption: "Echo Point, Matheran" },
+                      { src: "/images/blogs/maharashtra/matheran/panorama-point-matheran.webp", alt: "Panorama Point, Matheran", caption: "Panorama Point, Matheran" },
+                    ]}
+                  />
                 </section>
 
                 <section id="where-to-stay">
@@ -352,7 +339,6 @@ export default function MatheranGuidePage() {
                 {["Matheran", "Maharashtra", "Hill Station", "Toy Train", "Off-beat", "India"].map((tag) => <Link key={tag} href={`/blog?tag=${tag.toLowerCase().replace(/ /g, "-")}`} className="tag-pill">#{tag}</Link>)}
               </div>
 
-              <TrekGearRecommendations sections={MATHERAN_GEAR} destination="Matheran" />
               <RelatedPostsGrid currentSlug="matheran-travel-guide" />
             </article>
 

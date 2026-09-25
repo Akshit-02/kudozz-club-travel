@@ -7,9 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  HIMALAYAN_GEAR,
-} from "@/components/ui/TrekGearRecommendations";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -28,10 +26,10 @@ export const metadata: Metadata = {
     authors: ["Kudozz Club"],
     images: [
       {
-        url: "/images/destinations/spiti-valley/spiti-valley.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Spiti Valley landscape",
+        url: "/images/blogs/himachal-pradesh/spiti-valley/spiti-valley.webp",
+        width: 1600,
+        height: 1192,
+        alt: "Spiti Valley, Himachal Pradesh",
       },
     ],
   },
@@ -44,7 +42,7 @@ export const metadata: Metadata = {
     title: "Spiti Valley Travel Guide",
     description:
       "Roads, monasteries, hidden villages — the complete guide to Spiti Valley.",
-    images: ["/images/destinations/spiti-valley/spiti-valley.jpg"],
+    images: ["/images/blogs/himachal-pradesh/spiti-valley/spiti-valley.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/spiti-valley-travel-guide",
@@ -64,7 +62,7 @@ function ArticleSchema() {
             "Spiti Valley Travel Guide: Roads, Monasteries & Hidden Villages",
           description: "The most complete Spiti Valley travel guide.",
           image:
-            "https://club.kudozz.in/images/destinations/spiti-valley/spiti-valley.jpg",
+            "https://club.kudozz.in/images/blogs/himachal-pradesh/spiti-valley/spiti-valley.webp",
           datePublished: "2026-05-18",
           dateModified: "2026-07-12",
           publisher: {
@@ -221,8 +219,8 @@ export default function SpitiValleyPage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/spiti-valley/spiti-valley.jpg"
-              alt="Spiti Valley — barren moonscape with Key Monastery"
+              src="/images/blogs/himachal-pradesh/spiti-valley/spiti-valley.webp"
+              alt="Spiti Valley, Himachal Pradesh"
               fill
               priority
               sizes="100vw"
@@ -745,6 +743,7 @@ export default function SpitiValleyPage() {
 
                   <section id="pin-valley">
                     <h3>Pin Valley National Park</h3>
+                    <GuideFigure src="/images/blogs/himachal-pradesh/spiti-valley/pin-valley-national-park-spiti-valley.webp" alt="Pin Valley National Park, Spiti Valley" />
                     <p>
                       The <strong>Pin Valley</strong> branches off south from
                       Kaza and immediately feels different — greener, narrower,
@@ -1333,11 +1332,6 @@ export default function SpitiValleyPage() {
                   </Link>
                 ))}
               </div>
-
-              <TrekGearRecommendations
-                sections={HIMALAYAN_GEAR}
-                destination="Spiti"
-              />
 
               {/* Related Posts Grid */}
               <RelatedPostsGrid currentSlug="spiti-valley-travel-guide" />

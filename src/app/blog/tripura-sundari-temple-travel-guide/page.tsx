@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -413,6 +414,7 @@ export default function TripuraSundariTempleGuidePage() {
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">
                   <h2>Best Time to Visit</h2>
+                  <GuideFigure src="/images/blogs/tripura/tripura-sundari-temple/tripura-sundari-temple-view.webp" alt="Tripura Sundari Temple" />
                   <p>
                     Weather and festival crowds both shape the right timing
                     for a visit here.
@@ -520,15 +522,6 @@ export default function TripuraSundariTempleGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Temple, Lake & Festivals</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/tripura/tripura-sundari-temple/tripura-sundari-temple-facade.webp"
-                      alt="Pilgrims at the tortoise-shaped Tripura Sundari Temple, Matabari"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>The Temple's Tortoise-Shaped Architecture</h3>
                   <p>
                     Built around 1501 by Maharaja Dhanya Manikya, the temple

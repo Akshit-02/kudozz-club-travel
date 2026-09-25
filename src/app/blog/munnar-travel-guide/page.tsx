@@ -7,10 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -164,83 +160,6 @@ const tableOfContents = [
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
-];
-
-// ── Gear ─────────────────────────────────────────────────────────────────────
-const MUNNAR_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for tea-estate walks, viewpoints, and cool hill mornings",
-    emoji: "🍃",
-    items: [
-      {
-        name: "Light Fleece / Windproof Jacket",
-        description:
-          "Mornings and evenings at 1,600m+ get genuinely cool for a tropical state — a packable fleece or windbreaker earns its space for sunrise viewpoints and jeep rides.",
-        price: "₹1,299",
-        image: "🧥",
-        affiliateUrl: amazonSearchUrl("light+fleece+jacket+travel"),
-        tag: "Cool-mornings essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "First-time visitors consistently underestimate how cold Munnar's early mornings and open-jeep sunrise tours can feel.",
-      },
-      {
-        name: "Comfortable Walking Shoes",
-        description:
-          "Tea-estate paths, Eravikulam's shuttle-to-viewpoint walk, and uneven ground at Top Station all call for grippy, comfortable footwear over sandals.",
-        price: "₹1,799",
-        image: "👟",
-        affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+hiking"),
-        tag: "Everyday essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "Sloped, sometimes damp tea-garden paths are harder on flip-flops than they look from the road.",
-      },
-      {
-        name: "Compact Rain Jacket",
-        description:
-          "Munnar's weather shifts fast — even outside peak monsoon, a sudden shower on a viewpoint or plantation walk is common.",
-        price: "₹999",
-        image: "🌧️",
-        affiliateUrl: amazonSearchUrl("packable+rain+jacket+travel"),
-        tag: "Shoulder-season essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "Hill weather in the Western Ghats can turn in under an hour, even on nominally dry-season dates.",
-      },
-      {
-        name: "Binoculars",
-        description:
-          "Useful for spotting the endangered Nilgiri Tahr at Eravikulam and for scanning the Western Ghats ridgelines from Top Station.",
-        price: "₹1,499",
-        image: "🔭",
-        affiliateUrl: amazonSearchUrl("compact+binoculars+travel"),
-        tag: "Wildlife-spotting pick",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "Tahr and birdlife at Eravikulam are often visible but distant from the marked visitor trail.",
-      },
-      {
-        name: "Reusable Water Bottle",
-        description:
-          "Long days moving between tea estates, dams, and viewpoints add up — a proper bottle beats buying plastic at every stop.",
-        price: "₹449",
-        image: "💧",
-        affiliateUrl: amazonSearchUrl("insulated+reusable+water+bottle"),
-        tag: "Everyday essential",
-        tagColor: "bg-red-100 text-red-700",
-        why: "Munnar's viewpoints are spread out with limited shops in between, especially past Mattupetty toward Top Station.",
-      },
-      {
-        name: "Power Bank",
-        description:
-          "Hilly terrain means longer drives between stops — a power bank keeps navigation and cameras running through a full sightseeing day.",
-        price: "₹899",
-        image: "🔋",
-        affiliateUrl: amazonSearchUrl("power+bank+10000mah"),
-        tag: "Road-trip essential",
-        tagColor: "bg-stone-100 text-stone-700",
-        why: "Signal and charging options thin out the further you go past central Munnar toward Top Station.",
-      },
-    ],
-  },
 ];
 
 // ── Page ─────────────────────────────────────────────────────────────────────
@@ -823,8 +742,6 @@ export default function MunnarGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              <TrekGearRecommendations sections={MUNNAR_GEAR} destination="Munnar" />
 
               <RelatedPostsGrid currentSlug="munnar-travel-guide" />
             </article>

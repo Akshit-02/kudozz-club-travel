@@ -25,8 +25,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/blogs/uttarakhand/lansdowne/bhulla-tal-lake-bridge-lansdowne.webp",
-        width: 1200,
-        height: 630,
+        width: 1600,
+        height: 878,
         alt: "Bhulla Tal Lake with its footbridge, ringed by pine forest, in Lansdowne",
       },
     ],
@@ -536,15 +536,6 @@ export default function LansdowneGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Things to Do in Lansdowne</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/uttarakhand/lansdowne/bhulla-tal-lake-bridge-lansdowne.webp"
-                      alt="Visitors crossing the footbridge over Bhulla Tal Lake in Lansdowne"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Bhulla Lake</h3>
                   <p>
                     A small, man-made boating lake set in a forest clearing,

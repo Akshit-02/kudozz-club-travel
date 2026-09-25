@@ -7,10 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -187,84 +183,6 @@ const tableOfContents = [
   { id: "tips", title: "Essential Travel Tips", level: 2 },
   { id: "places-to-explore", title: "Places to Explore in Sikkim", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
-];
-
-// ── Sikkim-specific gear ─────────────────────────────────────────────────
-const SIKKIM_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle:
-      "Gear for high-altitude lake visits, alpine valleys, and restricted-area travel days",
-    emoji: "🏔️",
-    items: [
-      {
-        name: "Heavy-Duty Winter Jacket",
-        description:
-          "Tsomgo Lake (3,753m) and Nathula Pass (4,310m) get bitterly cold year-round, and Yumthang Valley isn't far behind — far colder than Gangtok itself.",
-        price: "₹2,999",
-        image: "🧥",
-        affiliateUrl: amazonSearchUrl("heavy+winter+jacket+himalayan+trekking"),
-        tag: "High-altitude essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Temperatures at Nathula Pass can drop well below freezing even in summer months — under-packing is the most common mistake on the East Sikkim circuit.",
-      },
-      {
-        name: "Sturdy Trekking Shoes",
-        description:
-          "Snow, ice, and uneven terrain are common at Tsomgo Lake, Nathula, and Yumthang Valley, even outside the harshest winter months.",
-        price: "₹2,999",
-        image: "🥾",
-        affiliateUrl: amazonSearchUrl("trekking+shoes+waterproof+himalayan"),
-        tag: "Terrain essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "Regular shoes handle Sikkim's high-altitude stops poorly — snow and slush around Tsomgo Lake are common even in the shoulder season.",
-      },
-      {
-        name: "Gloves & Woollen Cap",
-        description:
-          "Essential for the exposed viewpoints at Nathula Pass and Gurudongmar Lake, where wind chill makes the cold feel far more severe.",
-        price: "₹599",
-        image: "🧤",
-        affiliateUrl: amazonSearchUrl("winter+gloves+woollen+cap+set"),
-        tag: "High-pass essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "Wind chill at 4,000m+ passes makes exposed skin genuinely uncomfortable within minutes — small items make a big difference here.",
-      },
-      {
-        name: "Basic Altitude Sickness Kit",
-        description:
-          "Nathula Pass and Gurudongmar Lake both sit above 4,000m — mild altitude symptoms are common, especially without acclimatisation.",
-        price: "₹399",
-        image: "💊",
-        affiliateUrl: amazonSearchUrl("altitude+sickness+medicine+diamox"),
-        tag: "High-altitude essential",
-        tagColor: "bg-red-100 text-red-700",
-        why: "Many day trips to Nathula start straight from Gangtok's much lower altitude — consult a doctor and don't rush the ascent if you're prone to altitude symptoms.",
-      },
-      {
-        name: "Power Bank (10,000 mAh)",
-        description:
-          "Useful for long mountain drives to North Sikkim, where charging points are sparse beyond Lachung and Lachen.",
-        price: "₹1,299",
-        image: "🔋",
-        affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
-        tag: "Mountain essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "North Sikkim's permit-controlled circuit involves long shared-jeep days with limited charging infrastructure along the way.",
-      },
-      {
-        name: "Passport-Size Photos & ID Copies",
-        description:
-          "Required in physical form for the Protected/Restricted Area Permits needed for Nathula, Tsomgo, and North Sikkim.",
-        price: "N/A",
-        image: "🪪",
-        affiliateUrl: amazonSearchUrl("passport+photo+printer+travel"),
-        tag: "Permit essential",
-        tagColor: "bg-stone-100 text-stone-700",
-        why: "Sikkim's permit system is strictly enforced — arriving without physical photos and ID copies can delay or block access to Nathula and North Sikkim.",
-      },
-    ],
-  },
 ];
 
 // ── Page ─────────────────────────────────────────────────────────────────────
@@ -1355,12 +1273,6 @@ export default function SikkimGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              {/* ── Gear Recommendations ──────────────────────────────── */}
-              <TrekGearRecommendations
-                sections={SIKKIM_GEAR}
-                destination="Sikkim"
-              />
 
               <RelatedPostsGrid currentSlug="sikkim-travel-guide" />
             </article>

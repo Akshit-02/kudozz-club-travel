@@ -7,9 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  HIMALAYAN_GEAR,
-} from "@/components/ui/TrekGearRecommendations";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -28,8 +25,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/destinations/jammu-kashmir/bahu-fort-jammu-sunset.webp",
-        width: 1280,
-        height: 854,
+        width: 1600,
+        height: 1065,
         alt: "Bahu Fort's ramparts glowing at sunset above the wooded hillside in Jammu",
       },
     ],
@@ -1264,12 +1261,6 @@ export default function JammuGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              {/* ── Gear Recommendations ──────────────────────────────── */}
-              <TrekGearRecommendations
-                sections={HIMALAYAN_GEAR}
-                destination="Jammu"
-              />
 
               <RelatedPostsGrid currentSlug="jammu-travel-guide" />
             </article>

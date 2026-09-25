@@ -7,8 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Palitana Travel Guide: 3,500 Steps to the World's Largest Jain Temple Complex",
@@ -21,9 +19,9 @@ export const metadata: Metadata = {
     description: "Over 900 marble temples clustered on a single hilltop, reached by a climb of more than 3,500 steps — the complete guide to Palitana.",
     url: "https://club.kudozz.in/blog/palitana-travel-guide",
     type: "article", siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/manali/hero.jpg", width: 1200, height: 630, alt: "Hilltop temple pilgrimage scenery representative of Palitana, Gujarat" }],
+    images: [{ url: "/images/blogs/gujarat/palitana/palitana.webp", width: 1200, height: 769, alt: "Palitana, Gujarat" }],
   },
-  twitter: { card: "summary_large_image", title: "Palitana Travel Guide: 3,500 Steps to the World's Largest Jain Temple Complex", description: "Over 900 marble temples on a single hilltop — the complete guide to Palitana.", images: ["/images/destinations/manali/hero.jpg"] },
+  twitter: { card: "summary_large_image", title: "Palitana Travel Guide: 3,500 Steps to the World's Largest Jain Temple Complex", description: "Over 900 marble temples on a single hilltop — the complete guide to Palitana.", images: ["/images/blogs/gujarat/palitana/palitana.webp"] },
   alternates: { canonical: "https://club.kudozz.in/blog/palitana-travel-guide" },
 };
 
@@ -33,7 +31,7 @@ function ArticleSchema() {
       "@context": "https://schema.org", "@type": "BlogPosting",
       headline: "Palitana Travel Guide: 3,500 Steps to the World's Largest Jain Temple Complex",
       description: "The complete Palitana travel guide.",
-      image: "https://club.kudozz.in/images/destinations/manali/hero.jpg",
+      image: "https://club.kudozz.in/images/blogs/gujarat/palitana/palitana.webp",
       datePublished: "2026-09-07", dateModified: "2026-09-07",
       publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
       author: { "@type": "Organization", name: "Kudozz Club" },
@@ -80,16 +78,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const PALITANA_GEAR: GearSection[] = [{
-  title: "Things Worth Carrying", subtitle: "Gear for the 3,500-step pilgrimage climb", emoji: "🛕",
-  items: [
-    { name: "Sturdy Trekking Shoes", description: "Essential for over 3,500 stone steps — proper footwear makes a real difference on both the climb and the long descent.", price: "₹2,999",  image: "🥾", affiliateUrl: amazonSearchUrl("trekking+shoes+long+distance"), tag: "Non-negotiable", tagColor: "bg-red-100 text-red-700", why: "This is a genuinely long, sustained climb — worn-out sandals or unsuitable shoes make it far harder than it needs to be." },
-    { name: "Trekking Poles", description: "Useful for reducing strain on the knees during the long descent from the hilltop.", price: "₹1,299",  image: "🥢", affiliateUrl: amazonSearchUrl("trekking+poles+pair"), tag: "Descent essential", tagColor: "bg-amber-100 text-amber-700", why: "Many climbers find the descent harder on the knees than the ascent — poles genuinely help." },
-    { name: "Reusable Water Bottle (1L+)", description: "Facilities are limited along the climb — carrying enough water is essential.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("1l+reusable+water+bottle+steel"), tag: "Climb essential", tagColor: "bg-sky-100 text-sky-700", why: "There are limited water points on the long climb, especially before dawn." },
-    { name: "Sun Hat", description: "The upper stretches of the climb offer little shade once the sun is up.", price: "₹499",  image: "🧢", affiliateUrl: amazonSearchUrl("sun+hat+travel+outdoor"), tag: "Climb essential", tagColor: "bg-purple-100 text-purple-700", why: "Starting before dawn helps, but the climb often extends into direct sun by the later stretches." },
-  ],
-}];
-
 export default function PalitanaGuidePage() {
   return (
     <>
@@ -97,7 +85,9 @@ export default function PalitanaGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/manali/hero.jpg" alt="Hilltop temple pilgrimage scenery representative of Palitana, Gujarat" fill priority sizes="100vw" className="object-cover" />
+            <Image
+              src="/images/blogs/gujarat/palitana/palitana.webp"
+              alt="Palitana, Gujarat" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -201,9 +191,6 @@ export default function PalitanaGuidePage() {
 
                 <section id="top-attractions">
                   <h2>The Climb & Temple Complex</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/manali/hero.jpg" alt="Hilltop pilgrimage temple scenery around Palitana" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>Shatrunjaya Hill:</strong> Home to over 900 marble Jain temples spread across walled enclosures (tuks), built over many centuries.</li>
                     <li><strong>The step climb:</strong> Roughly 3,500-4,000 stone steps, typically taking 2-3+ hours one-way at a steady pace.</li>
@@ -326,7 +313,6 @@ export default function PalitanaGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={PALITANA_GEAR} destination="Palitana" />
               <RelatedPostsGrid currentSlug="palitana-travel-guide" />
             </article>
             <div className="hidden xl:block w-64 2xl:w-72 flex-shrink-0"><div className="sticky top-24"><RelatedSidebar currentSlug="palitana-travel-guide" /></div></div>

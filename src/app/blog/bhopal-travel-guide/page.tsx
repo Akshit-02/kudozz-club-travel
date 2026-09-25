@@ -7,10 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuidePhotoRow } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
   title: "Bhopal Travel Guide: Lakes, Old City & Bhimbetka Gateway",
@@ -26,14 +23,14 @@ export const metadata: Metadata = {
     type: "article",
     siteName: "Kudozz Club",
     images: [
-      { url: "/images/destinations/jammu-kashmir/dal.jpg", width: 1200, height: 630, alt: "A lake city landscape representative of Bhopal's Upper Lake" },
+      { url: "/images/blogs/madhya-pradesh/bhopal/upper-lake-bhopal.webp", width: 1600, height: 1200, alt: "Upper Lake, Bhopal" },
     ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Bhopal Travel Guide: Lakes, Old City & Bhimbetka Gateway",
     description: "A city of lakes, a mosque-studded old quarter, and the gateway to Bhimbetka's rock art — the complete guide to Bhopal.",
-    images: ["/images/destinations/jammu-kashmir/dal.jpg"],
+    images: ["/images/blogs/madhya-pradesh/bhopal/upper-lake-bhopal.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/bhopal-travel-guide" },
 };
@@ -48,7 +45,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Bhopal Travel Guide: Lakes, Old City & Bhimbetka Gateway",
           description: "The complete Bhopal travel guide.",
-          image: "https://club.kudozz.in/images/destinations/jammu-kashmir/dal.jpg",
+          image: "https://club.kudozz.in/images/blogs/madhya-pradesh/bhopal/upper-lake-bhopal.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
@@ -124,21 +121,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const BHOPAL_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for lakeside walks, the old city, and day trips out of town",
-    emoji: "🏞️",
-    items: [
-      { name: "Comfortable Walking Shoes", description: "The old city's narrow bazaar lanes and the Upper Lake promenade both call for shoes you can walk in for hours.", price: "₹1,199",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+outdoor"), tag: "City-day essential", tagColor: "bg-amber-100 text-amber-700", why: "A day covering the old city and the lakefront easily adds up to several kilometres of walking." },
-      { name: "Modest Clothing", description: "Covered shoulders and knees are appropriate near Taj-ul-Masajid and other active places of worship in the old city.", price: "₹599",  image: "🧣", affiliateUrl: amazonSearchUrl("modest+travel+clothing+cotton"), tag: "Old-city essential", tagColor: "bg-purple-100 text-purple-700", why: "Taj-ul-Masajid is an active mosque, not just a monument, and dress expectations are taken seriously." },
-      { name: "Sun Hat / Cap", description: "Useful for the Bhimbetka and Sanchi day trip, both of which involve walking exposed hillside and monument paths.", price: "₹349",  image: "🧢", affiliateUrl: amazonSearchUrl("travel+sun+hat+cap"), tag: "Day-trip essential", tagColor: "bg-orange-100 text-orange-700", why: "Both Bhimbetka's rock shelters and Sanchi's stupa complex offer little shade across a fair amount of walking." },
-      { name: "Reusable Water Bottle", description: "Handy for both city sightseeing and the Bhimbetka/Sanchi day trip, especially outside the cooler months.", price: "₹349",  image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "Travel essential", tagColor: "bg-sky-100 text-sky-700", why: "Neither Bhimbetka nor Sanchi has extensive shopping for water once you're on site." },
-      { name: "Compact Daypack", description: "For carrying water, a camera, and layers across a day that mixes city sightseeing with an out-of-town excursion.", price: "₹899",  image: "🎒", affiliateUrl: amazonSearchUrl("daypack+travel+lightweight"), tag: "Day-trip essential", tagColor: "bg-forest-100 text-forest-700", why: "A single day trip covering Bhimbetka or Sanchi plus city sights is easier with everything in one light bag." },
-    ],
-  },
-];
-
 export default function BhopalGuidePage() {
   return (
     <>
@@ -148,7 +130,7 @@ export default function BhopalGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/jammu-kashmir/dal.jpg" alt="A lake city landscape representative of Bhopal's Upper Lake" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/madhya-pradesh/bhopal/upper-lake-bhopal.webp" alt="Upper Lake, Bhopal" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -280,9 +262,6 @@ export default function BhopalGuidePage() {
 
                 <section id="attractions">
                   <h2>Top Attractions</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/jammu-kashmir/dal.jpg" alt="Lakeside scenery representative of Bhopal's Upper Lake" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>Upper Lake (Bhoj Wetland):</strong> A Ramsar-listed wetland and Bhopal's largest lake, popular for boating and sunset views along the promenade.</li>
                     <li><strong>Taj-ul-Masajid:</strong> One of the largest mosques in India, with an enormous courtyard and pink façade — an active place of worship, not just a monument.</li>
@@ -291,6 +270,12 @@ export default function BhopalGuidePage() {
                     <li><strong>Bharat Bhavan & State Museum:</strong> Bhopal's main arts, culture, and archaeology institutions, good options for a hot afternoon.</li>
                     <li><strong>Bhimbetka & Sanchi day trips:</strong> India's oldest painted rock shelters (~45 km) and one of Buddhism's most important surviving monument complexes (~55 km) — both realistic half-day excursions from Bhopal.</li>
                   </ul>
+                  <GuidePhotoRow
+                    images={[
+                      { src: "/images/blogs/madhya-pradesh/bhopal/old-bhopal.webp", alt: "Old Bhopal, Madhya Pradesh", caption: "Old Bhopal, Madhya Pradesh" },
+                      { src: "/images/blogs/madhya-pradesh/bhopal/van-vihar-national-park-bhopal.webp", alt: "Van Vihar National Park, Bhopal", caption: "Van Vihar National Park, Bhopal" },
+                    ]}
+                  />
                 </section>
 
                 <section id="where-to-stay">
@@ -410,7 +395,6 @@ export default function BhopalGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={BHOPAL_GEAR} destination="Bhopal" />
               <RelatedPostsGrid currentSlug="bhopal-travel-guide" />
             </article>
 

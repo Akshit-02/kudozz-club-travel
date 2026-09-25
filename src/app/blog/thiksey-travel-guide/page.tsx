@@ -7,9 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  HIMALAYAN_GEAR,
-} from "@/components/ui/TrekGearRecommendations";
 
 // ── Per-page SEO metadata ─────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -1148,10 +1145,6 @@ export default function ThikseyPage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations
-                sections={HIMALAYAN_GEAR}
-                destination="Thiksey"
-              />
               {/* Related Posts Grid at bottom */}
               <RelatedPostsGrid currentSlug="thiksey-travel-guide" />
             </article>

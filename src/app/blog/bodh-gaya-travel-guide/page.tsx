@@ -7,8 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuidePhotoRow } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
   title: "Bodh Gaya Travel Guide: Mahabodhi Temple & Buddha's Enlightenment Site",
@@ -22,13 +21,13 @@ export const metadata: Metadata = {
     url: "https://club.kudozz.in/blog/bodh-gaya-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/hampi/hero.jpg", width: 1200, height: 630, alt: "Ancient temple architecture representative of the Mahabodhi Temple, Bodh Gaya" }],
+    images: [{ url: "/images/blogs/bihar/bodh-gaya/the-bodhi-tree-bodh-gaya.webp", width: 800, height: 600, alt: "The Bodhi Tree, Bodh Gaya" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Bodh Gaya Travel Guide: Mahabodhi Temple & Buddha's Enlightenment Site",
     description: "Buddhism's most sacred pilgrimage site — the complete guide to Bodh Gaya.",
-    images: ["/images/destinations/hampi/hero.jpg"],
+    images: ["/images/blogs/bihar/bodh-gaya/the-bodhi-tree-bodh-gaya.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/bodh-gaya-travel-guide" },
 };
@@ -39,7 +38,7 @@ function ArticleSchema() {
       "@context": "https://schema.org", "@type": "BlogPosting",
       headline: "Bodh Gaya Travel Guide: Mahabodhi Temple & Buddha's Enlightenment Site",
       description: "The complete Bodh Gaya travel guide.",
-      image: "https://club.kudozz.in/images/destinations/hampi/hero.jpg",
+      image: "https://club.kudozz.in/images/blogs/bihar/bodh-gaya/the-bodhi-tree-bodh-gaya.webp",
       datePublished: "2026-09-08", dateModified: "2026-09-08",
       publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
       author: { "@type": "Organization", name: "Kudozz Club" },
@@ -86,16 +85,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const BODHGAYA_GEAR: GearSection[] = [{
-  title: "Things Worth Carrying", subtitle: "Gear for temple visits and walking between monasteries", emoji: "🙏",
-  items: [
-    { name: "Modest Cotton Clothing", description: "Covered shoulders and knees are expected throughout the Mahabodhi Temple complex and every monastery you'll visit.", price: "₹599",  image: "👕", affiliateUrl: amazonSearchUrl("modest+cotton+travel+clothing"), tag: "Temple essential", tagColor: "bg-purple-100 text-purple-700", why: "This is an active, deeply significant pilgrimage site — modest dress is a baseline expectation, not optional." },
-    { name: "Comfortable Walking Shoes", description: "The international monastery ring spans a wide area — expect a full day of walking between them.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-amber-100 text-amber-700", why: "Seeing more than just the main temple means real walking distance across town." },
-    { name: "Light Shawl", description: "Useful both for extra modesty coverage at religious sites and for cool winter mornings during peak season.", price: "₹399",  image: "🧣", affiliateUrl: amazonSearchUrl("cotton+shawl+travel"), tag: "Versatile essential", tagColor: "bg-sky-100 text-sky-700", why: "Doubles as modest covering and a layer against cool winter mornings, Bodh Gaya's peak season." },
-    { name: "Reusable Water Bottle", description: "A full day moving between the temple complex and monasteries adds up — stay hydrated.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "All-day essential", tagColor: "bg-forest-100 text-forest-700", why: "Extensive walking with limited shade between some sites makes hydration matter." },
-  ],
-}];
-
 export default function BodhGayaGuidePage() {
   return (
     <>
@@ -103,7 +92,9 @@ export default function BodhGayaGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/hampi/hero.jpg" alt="Ancient temple architecture representative of the Mahabodhi Temple, Bodh Gaya" fill priority sizes="100vw" className="object-cover" />
+            <Image
+              src="/images/blogs/bihar/bodh-gaya/the-bodhi-tree-bodh-gaya.webp"
+              alt="The Bodhi Tree, Bodh Gaya" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -207,9 +198,6 @@ export default function BodhGayaGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do in Bodh Gaya</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/hampi/hero.jpg" alt="Temple architecture at the Mahabodhi Temple complex" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>Mahabodhi Temple Complex:</strong> The UNESCO-listed centrepiece marking the traditional site of Buddha's enlightenment, with its distinctive pyramidal spire.</li>
                     <li><strong>The Bodhi Tree:</strong> A descendant of the original tree under which Buddha is said to have sat, traced through a lineage of cuttings via Sri Lanka.</li>
@@ -217,6 +205,11 @@ export default function BodhGayaGuidePage() {
                     <li><strong>International monasteries:</strong> A ring of Thai, Japanese, Tibetan, Bhutanese, and Vietnamese monasteries, each in its own distinct national style.</li>
                     <li><strong>Great Buddha Statue:</strong> A large seated Buddha statue a short distance from the main temple.</li>
                   </ul>
+                  <GuidePhotoRow
+                    images={[
+                      { src: "/images/blogs/bihar/bodh-gaya/vajrasana-bodh-gaya-2.webp", alt: "Vajrasana, Bodh Gaya", caption: "Vajrasana, Bodh Gaya" },
+                    ]}
+                  />
                 </section>
 
                 <section id="where-to-stay">
@@ -334,7 +327,6 @@ export default function BodhGayaGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={BODHGAYA_GEAR} destination="Bodh Gaya" />
               <RelatedPostsGrid currentSlug="bodh-gaya-travel-guide" />
             </article>
             <div className="hidden xl:block w-64 2xl:w-72 flex-shrink-0"><div className="sticky top-24"><RelatedSidebar currentSlug="bodh-gaya-travel-guide" /></div></div>

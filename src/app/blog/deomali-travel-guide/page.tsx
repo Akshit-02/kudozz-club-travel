@@ -25,8 +25,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/destinations/manali/rohtang-pass.jpg",
-        width: 1200,
-        height: 630,
+        width: 2560,
+        height: 1446,
         alt: "Mountain summit and ridgeline, evoking Deomali, Odisha's highest peak in the Eastern Ghats",
       },
     ],
@@ -523,15 +523,6 @@ export default function DeomaliGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>The Trek & the Summit</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/manali/rohtang-pass.jpg"
-                      alt="Forested mountain trail leading toward the Deomali summit, Odisha"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>The Trail</h3>
                   <p>
                     A generally moderate trek through dense forest, with

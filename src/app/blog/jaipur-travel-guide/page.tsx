@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jaisalmer/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Sandstone fort walls and desert-city architecture, evoking Jaipur's Pink City and Amber Fort",
+        url: "/images/blogs/rajasthan/jaipur/jaipur.webp",
+        width: 1600,
+        height: 1067,
+        alt: "View of Jaipur, Rajasthan",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Jaipur Travel Guide: Amber Fort, Hawa Mahal & Tips",
     description:
       "A hilltop fort-palace and a honeycombed pink facade of 953 windows — the complete guide to Jaipur, the Pink City.",
-    images: ["/images/destinations/jaisalmer/hero.jpg"],
+    images: ["/images/blogs/rajasthan/jaipur/jaipur.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/jaipur-travel-guide",
@@ -59,7 +60,7 @@ function ArticleSchema() {
           headline: "Jaipur Travel Guide: Amber Fort, Hawa Mahal & Tips",
           description:
             "Complete Jaipur guide — Amber Fort, Hawa Mahal, City Palace, Jantar Mantar, the Pink City's markets and food, how to reach, and a full 3-day visit plan.",
-          image: "https://club.kudozz.in/images/destinations/jaisalmer/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/rajasthan/jaipur/jaipur.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -200,8 +201,8 @@ export default function JaipurGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jaisalmer/hero.jpg"
-              alt="Sandstone fort walls and desert-city architecture, evoking Jaipur's Pink City and Amber Fort"
+              src="/images/blogs/rajasthan/jaipur/jaipur.webp"
+              alt="View of Jaipur, Rajasthan"
               fill
               priority
               sizes="100vw"
@@ -529,16 +530,8 @@ export default function JaipurGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Forts, Palaces & Observatory</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/jaisalmer/fort.jpg"
-                      alt="Sandstone fort ramparts, evoking Jaipur's Amber Fort and Nahargarh Fort"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Amber Fort</h3>
+                  <GuideFigure src="/images/blogs/rajasthan/jaipur/amber-fort-jaipur.webp" alt="Amber Fort, Jaipur" />
                   <p>
                     A UNESCO World Heritage Site on a hill just outside the
                     city, Amber Fort (Amer Fort) is Jaipur's marquee
@@ -550,6 +543,7 @@ export default function JaipurGuidePage() {
                     jeep or the walk.)
                   </p>
                   <h3>Hawa Mahal</h3>
+                  <GuideFigure src="/images/blogs/rajasthan/jaipur/hawa-mahal-jaipur.webp" alt="Hawa Mahal, Jaipur" />
                   <p>
                     The "Palace of Winds," instantly recognisable for its
                     honeycombed pink sandstone facade of 953 small windows,
@@ -557,6 +551,7 @@ export default function JaipurGuidePage() {
                     unseen — one of Jaipur's most photographed landmarks.
                   </p>
                   <h3>City Palace</h3>
+                  <GuideFigure src="/images/blogs/rajasthan/jaipur/city-palace-jaipur.webp" alt="City Palace, Jaipur" />
                   <p>
                     Still partly a royal residence and partly a museum, the
                     City Palace complex mixes Rajput and Mughal architectural
@@ -571,6 +566,7 @@ export default function JaipurGuidePage() {
                     Lake, best seen from the lakeside road at sunset.
                   </p>
                   <h3>Nahargarh Fort</h3>
+                  <GuideFigure src="/images/blogs/rajasthan/jaipur/nahargarh-fort-jaipur.webp" alt="Nahargarh Fort, Jaipur" />
                   <p>
                     Perched on the Aravalli hills above the city, Nahargarh
                     Fort offers one of Jaipur's best sunset viewpoints, with

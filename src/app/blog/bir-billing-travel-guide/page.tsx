@@ -7,8 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Bir Billing Travel Guide: Paragliding Capital of India",
@@ -22,7 +20,7 @@ export const metadata: Metadata = {
     url: "https://club.kudozz.in/blog/bir-billing-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/spiti-valley/spiti-valley.jpg", width: 1200, height: 630, alt: "Mountain valley representative of Bir Billing, Himachal Pradesh" }],
+    images: [{ url: "/images/destinations/spiti-valley/spiti-valley.jpg", width: 2560, height: 1920, alt: "Mountain valley representative of Bir Billing, Himachal Pradesh" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -85,16 +83,6 @@ const tableOfContents = [
   { id: "tips", title: "Essential Travel Tips", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
-
-const BIR_GEAR: GearSection[] = [{
-  title: "Things Worth Carrying", subtitle: "Gear for paragliding and Bir's cafe-and-monastery pace", emoji: "🪂",
-  items: [
-    { name: "Closed-Toe Sports Shoes", description: "Required for paragliding — most operators won't fly you in sandals or flip-flops.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("closed+toe+sports+shoes"), tag: "Paragliding essential", tagColor: "bg-red-100 text-red-700", why: "This is a hard requirement at every certified paragliding operator, not just a suggestion." },
-    { name: "Light Warm Layer", description: "Billing's takeoff altitude (~2,400m) is genuinely cold even when Bir village below feels mild.", price: "₹1,499",  image: "🧥", affiliateUrl: amazonSearchUrl("light+warm+jacket+travel"), tag: "Altitude essential", tagColor: "bg-sky-100 text-sky-700", why: "Many first-timers are surprised by the temperature difference between Bir and Billing." },
-    { name: "Action Camera / GoPro Mount", description: "If you want your own flight footage rather than relying on the operator's paid photo package.", price: "₹4,999+",  image: "📷", affiliateUrl: amazonSearchUrl("action+camera+mount"), tag: "Optional", tagColor: "bg-purple-100 text-purple-700", why: "Operator photo/video packages add up — bringing your own can be cheaper over a full trip." },
-    { name: "Sunglasses", description: "Direct sun exposure at altitude during the flight and on the takeoff site.", price: "₹599",  image: "🕶️", affiliateUrl: amazonSearchUrl("sunglasses+travel+outdoor"), tag: "Flight essential", tagColor: "bg-amber-100 text-amber-700", why: "Wind and sun exposure during the flight is more intense than it looks from the ground." },
-  ],
-}];
 
 export default function BirBillingGuidePage() {
   return (
@@ -208,9 +196,6 @@ export default function BirBillingGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do in Bir Billing</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/spiti-valley/spiti-valley.jpg" alt="Mountain scenery around Bir Billing" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>Tandem paragliding:</strong> The headline activity — flights depart from Billing and land in Bir, with certified pilots handling the flying.</li>
                     <li><strong>Bir's Tibetan colony:</strong> Working monasteries and a genuine Tibetan refugee community, distinct from the adrenaline scene up at Billing.</li>
@@ -332,7 +317,6 @@ export default function BirBillingGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={BIR_GEAR} destination="Bir Billing" />
               <RelatedPostsGrid currentSlug="bir-billing-travel-guide" />
             </article>
             <div className="hidden xl:block w-64 2xl:w-72 flex-shrink-0"><div className="sticky top-24"><RelatedSidebar currentSlug="bir-billing-travel-guide" /></div></div>

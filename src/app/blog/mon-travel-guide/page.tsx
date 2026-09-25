@@ -25,8 +25,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/destinations/meghalaya/hero.jpg",
-        width: 1200,
-        height: 630,
+        width: 2560,
+        height: 1920,
         alt: "Forested hill landscape, evoking the remote hills of Mon district in eastern Nagaland",
       },
     ],
@@ -405,15 +405,6 @@ export default function MonGuidePage() {
 
                 <section id="things-to-do">
                   <h2>Konyak Heritage & Village Life</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/meghalaya/hero.jpg"
-                      alt="Remote forested hills of eastern Nagaland's Mon district"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Meeting Konyak Elders, Respectfully</h3>
                   <p>
                     A local guide is the appropriate way to arrange

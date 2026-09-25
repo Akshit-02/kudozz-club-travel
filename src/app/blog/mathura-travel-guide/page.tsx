@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -555,15 +556,6 @@ export default function MathuraGuidePage() {
                 {/* ── Attractions ────────────────────────────────────────── */}
                 <section id="attractions">
                   <h2>Temples & Attractions in Mathura</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/uttar-pradesh/mathura/vishram-ghat-evening-yamuna-mathura.webp"
-                      alt="Temple spires and pilgrims near a riverside ghat, representative of Mathura's temple town atmosphere"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Krishna Janmabhoomi Temple</h3>
                   <p>
                     The spiritual centre of Mathura, this temple complex
@@ -596,6 +588,7 @@ export default function MathuraGuidePage() {
                     the two an easy pairing.
                   </p>
                   <h3>Mathura Museum</h3>
+                  <GuideFigure src="/images/blogs/uttar-pradesh/mathura/mathura-museum.webp" alt="Mathura Museum, Uttar Pradesh" />
                   <p>
                     Housed in a distinctive red sandstone building, this
                     museum holds one of India's finest collections of

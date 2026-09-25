@@ -7,10 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -29,8 +25,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/destinations/jaisalmer/hero.jpg",
-        width: 1200,
-        height: 630,
+        width: 2560,
+        height: 1083,
         alt: "Golden-hour temple town atmosphere representative of Shirdi, Maharashtra",
       },
     ],
@@ -148,56 +144,6 @@ const tableOfContents = [
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
-];
-
-const SHIRDI_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for long darshan queues and temple-town travel",
-    emoji: "🙏",
-    items: [
-      {
-        name: "Comfortable Walking Shoes",
-        description: "Standing and shuffling forward in the darshan queue can run into hours on busy days — supportive footwear matters more here than almost anywhere.",
-        price: "₹1,499",  image: "👟",
-        affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
-        tag: "Queue essential", tagColor: "bg-amber-100 text-amber-700",
-        why: "Long queue waits on foot are the single most physically demanding part of a Shirdi visit.",
-      },
-      {
-        name: "Modest Cotton Clothing Set",
-        description: "Covered shoulders and knees are expected inside the temple complex.",
-        price: "₹899",  image: "👕",
-        affiliateUrl: amazonSearchUrl("modest+cotton+travel+clothing"),
-        tag: "Temple essential", tagColor: "bg-purple-100 text-purple-700",
-        why: "Shirdi is an active, conservative pilgrimage town — appropriate dress avoids any issue at the entrance.",
-      },
-      {
-        name: "Small Cross-Body Bag",
-        description: "For valuables, shoes tokens, and documents — large bags are often restricted near the shrine and need to be deposited at lockers.",
-        price: "₹649",  image: "👝",
-        affiliateUrl: amazonSearchUrl("small+cross+body+travel+bag"),
-        tag: "Darshan essential", tagColor: "bg-stone-100 text-stone-700",
-        why: "Keeping essentials compact avoids the hassle of a large bag being turned away at the temple's security checkpoint.",
-      },
-      {
-        name: "Reusable Water Bottle",
-        description: "Long queue waits, especially in warmer months, mean hydration matters as much as footwear.",
-        price: "₹449",  image: "💧",
-        affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"),
-        tag: "Queue essential", tagColor: "bg-sky-100 text-sky-700",
-        why: "Water isn't always readily available once you're inside the queue lines.",
-      },
-      {
-        name: "Light Shawl / Stole",
-        description: "Doubles as a modesty cover-up and useful in cooler winter evenings walking between Dwarkamai, Chavadi, and Lendi Baug.",
-        price: "₹399",  image: "🧣",
-        affiliateUrl: amazonSearchUrl("cotton+shawl+stole+travel"),
-        tag: "Versatile pick", tagColor: "bg-forest-100 text-forest-700",
-        why: "One item that solves both the dress-code requirement and cool-evening comfort.",
-      },
-    ],
-  },
 ];
 
 export default function ShirdiGuidePage() {
@@ -546,8 +492,6 @@ export default function ShirdiGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              <TrekGearRecommendations sections={SHIRDI_GEAR} destination="Shirdi" />
 
               <RelatedPostsGrid currentSlug="shirdi-travel-guide" />
             </article>

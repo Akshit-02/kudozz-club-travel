@@ -7,8 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Tatapani Travel Guide: Chhattisgarh's Natural Hot Springs",
@@ -21,7 +19,7 @@ export const metadata: Metadata = {
     description: "Sulphur-rich natural hot springs on the Rihand River, believed to have therapeutic properties and revered locally as sacred — the complete guide to Tatapani.",
     url: "https://club.kudozz.in/blog/tatapani-travel-guide",
     type: "article", siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/jammu-kashmir/dal.jpg", width: 1200, height: 630, alt: "Natural water and forest landscape representative of Tatapani, Chhattisgarh" }],
+    images: [{ url: "/images/destinations/jammu-kashmir/dal.jpg", width: 2560, height: 1707, alt: "Natural water and forest landscape representative of Tatapani, Chhattisgarh" }],
   },
   twitter: { card: "summary_large_image", title: "Tatapani Travel Guide: Chhattisgarh's Natural Hot Springs", description: "Sulphur hot springs on the Rihand River — the complete guide to Tatapani.", images: ["/images/destinations/jammu-kashmir/dal.jpg"] },
   alternates: { canonical: "https://club.kudozz.in/blog/tatapani-travel-guide" },
@@ -79,16 +77,6 @@ const tableOfContents = [
   { id: "tips", title: "Essential Travel Tips", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
-
-const TATAPANI_GEAR: GearSection[] = [{
-  title: "Things Worth Carrying", subtitle: "Gear for a quiet, minimal-facility hot springs visit", emoji: "♨️",
-  items: [
-    { name: "Swimwear", description: "For entering the springs, if you plan to bathe.", price: "₹499",  image: "🩱", affiliateUrl: amazonSearchUrl("swimwear+travel"), tag: "Springs essential", tagColor: "bg-sky-100 text-sky-700", why: "There are no changing facilities to speak of — plan accordingly." },
-    { name: "Quick-Dry Towel", description: "Compact and practical for a site with minimal facilities.", price: "₹399",  image: "🧻", affiliateUrl: amazonSearchUrl("quick+dry+travel+towel"), tag: "Practical essential", tagColor: "bg-amber-100 text-amber-700", why: "A regular towel takes too long to dry and pack again at an undeveloped site." },
-    { name: "Sandals", description: "Comfortable, easy-to-remove footwear for the springs and surrounding area.", price: "₹499",  image: "👡", affiliateUrl: amazonSearchUrl("comfortable+sandals+travel"), tag: "All-day essential", tagColor: "bg-forest-100 text-forest-700", why: "Easy on and off matters at a site built around bathing." },
-    { name: "Reusable Water Bottle", description: "Facilities near the springs are minimal — carry your own water.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "Remote-site essential", tagColor: "bg-purple-100 text-purple-700", why: "This is a genuinely undeveloped site — don't count on nearby shops." },
-  ],
-}];
 
 export default function TatapaniGuidePage() {
   return (
@@ -200,9 +188,6 @@ export default function TatapaniGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do at Tatapani</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/jammu-kashmir/dal.jpg" alt="Water and forest scenery around Tatapani" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>The hot springs:</strong> Sulphur-rich natural springs on the Rihand River, locally believed to have therapeutic properties.</li>
                     <li><strong>The local temple:</strong> A small shrine at the site reflecting its sacred local status.</li>
@@ -321,7 +306,6 @@ export default function TatapaniGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={TATAPANI_GEAR} destination="Tatapani" />
               <RelatedPostsGrid currentSlug="tatapani-travel-guide" />
             </article>
             <div className="hidden xl:block w-64 2xl:w-72 flex-shrink-0"><div className="sticky top-24"><RelatedSidebar currentSlug="tatapani-travel-guide" /></div></div>

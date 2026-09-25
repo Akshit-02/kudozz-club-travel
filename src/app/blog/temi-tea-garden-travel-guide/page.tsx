@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/coorg/coorg.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Terraced tea plantation hillside, evoking Temi Tea Garden, Sikkim's only tea estate",
+        url: "/images/blogs/sikkim/temi-tea-garden/temi-tea-garden.webp",
+        width: 1600,
+        height: 1062,
+        alt: "Temi Tea Garden, Sikkim",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Temi Tea Garden Guide: Sikkim's Only Estate",
     description:
       "Sikkim's only tea estate, with organic gardens terraced across a hillside and the Kanchenjunga range in the backdrop.",
-    images: ["/images/destinations/coorg/coorg.jpg"],
+    images: ["/images/blogs/sikkim/temi-tea-garden/temi-tea-garden.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/temi-tea-garden-travel-guide",
@@ -59,7 +60,7 @@ function ArticleSchema() {
           headline: "Temi Tea Garden Guide: Sikkim's Only Estate",
           description:
             "Complete Temi Tea Garden guide — Sikkim's only tea estate, terraced hillside views with Kanchenjunga in the backdrop, the factory tour, tea tasting, how to reach, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/coorg/coorg.jpg",
+          image: "https://club.kudozz.in/images/blogs/sikkim/temi-tea-garden/temi-tea-garden.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -200,8 +201,8 @@ export default function TemiTeaGardenGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/coorg/coorg.jpg"
-              alt="Terraced tea plantation hillside, evoking Temi Tea Garden, Sikkim's only tea estate"
+              src="/images/blogs/sikkim/temi-tea-garden/temi-tea-garden.webp"
+              alt="Temi Tea Garden, Sikkim"
               fill
               priority
               sizes="100vw"
@@ -516,15 +517,7 @@ export default function TemiTeaGardenGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Gardens, Factory & Tasting</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/coorg/coorg.jpg"
-                      alt="Rows of tea bushes on a terraced hillside, evoking Temi Tea Garden's plantation views"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
+                  <GuideFigure src="/images/blogs/sikkim/temi-tea-garden/temi-tea-garden-view.webp" alt="Temi Tea Garden, Sikkim" />
                   <h3>Walking the Terraced Gardens</h3>
                   <p>
                     The main draw is simply walking through the neatly

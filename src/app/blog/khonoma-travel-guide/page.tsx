@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/coorg/coorg.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Terraced green hillside plantation, evoking Khonoma's alder-tree farming and forested Angami hills",
+        url: "/images/blogs/nagaland/khonoma/khonoma.webp",
+        width: 1600,
+        height: 1200,
+        alt: "View of Khonoma, Nagaland",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Khonoma Guide: India's First Green Village",
     description:
       "A village that fought the British and now protects its own forest — the complete Khonoma guide.",
-    images: ["/images/destinations/coorg/coorg.jpg"],
+    images: ["/images/blogs/nagaland/khonoma/khonoma.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/khonoma-travel-guide",
@@ -59,7 +60,7 @@ function ArticleSchema() {
           headline: "Khonoma Guide: India's First Green Village",
           description:
             "Complete Khonoma guide — the Battle of Khonoma history, the community-run Tragopan Sanctuary, alder-tree terrace farming, homestays, how to reach from Kohima, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/coorg/coorg.jpg",
+          image: "https://club.kudozz.in/images/blogs/nagaland/khonoma/khonoma.webp",
           datePublished: "2026-09-04",
           dateModified: "2026-09-04",
           publisher: {
@@ -196,8 +197,8 @@ export default function KhonomaGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/coorg/coorg.jpg"
-              alt="Terraced green hillside plantation, evoking Khonoma's alder-tree farming and forested Angami hills"
+              src="/images/blogs/nagaland/khonoma/khonoma.webp"
+              alt="View of Khonoma, Nagaland"
               fill
               priority
               sizes="100vw"
@@ -420,6 +421,7 @@ export default function KhonomaGuidePage() {
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">
                   <h2>Best Time to Visit Khonoma</h2>
+                  <GuideFigure src="/images/blogs/nagaland/khonoma/khonoma-view.webp" alt="Khonoma, Nagaland" />
                   <p>
                     Khonoma's climate follows the wider Nagaland pattern —
                     dry, clear months are far more pleasant than the wet
@@ -525,15 +527,6 @@ export default function KhonomaGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Battle History & the Tragopan Sanctuary</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/coorg/coorg.jpg"
-                      alt="Terraced plantation hillside, evoking Khonoma's alder-tree farming terraces"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>The Battle of Khonoma</h3>
                   <p>
                     In the 19th century, Khonoma was the site of fierce,

@@ -7,8 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Amaravati Travel Guide: Ancient Buddhist Stupa & New Capital",
@@ -20,7 +18,7 @@ export const metadata: Metadata = {
     title: "Amaravati Travel Guide: Ancient Buddhist Stupa & New Capital",
     description: "A 2,000-year-old Buddhist stupa site that gave its name to a distinct school of sculpture, now also the site of Andhra Pradesh's planned new capital — the complete guide to Amaravati.",
     url: "https://club.kudozz.in/blog/amaravati-travel-guide", type: "article", siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/hampi/hero.jpg", width: 1200, height: 630, alt: "Ancient stupa ruins representative of Amaravati, Andhra Pradesh" }],
+    images: [{ url: "/images/destinations/hampi/hero.jpg", width: 2560, height: 1759, alt: "Ancient stupa ruins representative of Amaravati, Andhra Pradesh" }],
   },
   twitter: { card: "summary_large_image", title: "Amaravati Travel Guide: Ancient Buddhist Stupa & New Capital", description: "An ancient Buddhist stupa site and Andhra Pradesh's planned new capital — the complete guide to Amaravati.", images: ["/images/destinations/hampi/hero.jpg"] },
   alternates: { canonical: "https://club.kudozz.in/blog/amaravati-travel-guide" },
@@ -78,16 +76,6 @@ const tableOfContents = [
   { id: "tips", title: "Essential Travel Tips", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
-
-const AMARAVATI_GEAR: GearSection[] = [{
-  title: "Things Worth Carrying", subtitle: "Gear for the open stupa site and museum visit", emoji: "🏛️",
-  items: [
-    { name: "Sun Hat & Sunscreen", description: "The stupa grounds are open and exposed with little shade.", price: "₹599",  image: "🧴", affiliateUrl: amazonSearchUrl("sunscreen+spf+50+travel"), tag: "Site essential", tagColor: "bg-amber-100 text-amber-700", why: "There's genuinely little shade across the open excavation site." },
-    { name: "Comfortable Walking Shoes", description: "For walking the stupa grounds and the Archaeological Museum galleries.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Sightseeing essential", tagColor: "bg-sky-100 text-sky-700", why: "Covers a fair amount of ground between the stupa and the museum." },
-    { name: "Reusable Water Bottle", description: "Facilities are limited across the open archaeological site.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "Day-trip essential", tagColor: "bg-forest-100 text-forest-700", why: "This is a low-infrastructure day-trip stop — bring your own water." },
-    { name: "Camera", description: "For the surviving carvings at the museum and the stupa site itself.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Heritage essential", tagColor: "bg-purple-100 text-purple-700", why: "The Archaeological Museum's surviving Amaravati-school carvings are genuinely worth documenting." },
-  ],
-}];
 
 export default function AmaravatiGuidePage() {
   return (
@@ -199,9 +187,6 @@ export default function AmaravatiGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do in Amaravati</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/hampi/hero.jpg" alt="Ancient ruins around Amaravati" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>Amaravati Stupa (Mahachaitya):</strong> The core ancient Buddhist stupa site, roughly 2,000 years old.</li>
                     <li><strong>Amaravati Archaeological Museum:</strong> Houses a genuine and worthwhile collection of surviving Amaravati-school carvings.</li>
@@ -320,7 +305,6 @@ export default function AmaravatiGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={AMARAVATI_GEAR} destination="Amaravati" />
               <RelatedPostsGrid currentSlug="amaravati-travel-guide" />
             </article>
             <div className="hidden xl:block w-64 2xl:w-72 flex-shrink-0"><div className="sticky top-24"><RelatedSidebar currentSlug="amaravati-travel-guide" /></div></div>

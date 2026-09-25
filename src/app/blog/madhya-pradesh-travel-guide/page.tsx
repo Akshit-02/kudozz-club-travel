@@ -7,10 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -187,84 +183,6 @@ const tableOfContents = [
   { id: "tips", title: "Essential Travel Tips", level: 2 },
   { id: "places-to-explore", title: "Places to Explore in Madhya Pradesh", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
-];
-
-// ── Madhya Pradesh-specific gear ───────────────────────────────────────────
-const MADHYA_PRADESH_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle:
-      "Gear for jeep safaris, temple sightseeing, and central India's hot, dry climate",
-    emoji: "🐅",
-    items: [
-      {
-        name: "Binoculars",
-        description:
-          "Essential for spotting tigers and other wildlife at a distance during jeep safaris in Bandhavgarh and Kanha.",
-        price: "₹1,899",
-        image: "🔭",
-        affiliateUrl: amazonSearchUrl("binoculars+wildlife+safari"),
-        tag: "Safari essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "Tiger sightings often happen at a distance across open grassland — binoculars make a real difference to the experience.",
-      },
-      {
-        name: "Neutral-Tone Clothing",
-        description:
-          "Bright colors are discouraged on jeep safaris in Bandhavgarh and Kanha, where muted tones blend better with the forest.",
-        price: "₹899",
-        image: "🧥",
-        affiliateUrl: amazonSearchUrl("neutral+color+safari+clothing"),
-        tag: "Safari essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "Most reserves recommend khaki, olive, or similar earth tones for safaris — it's both practical and often a house rule.",
-      },
-      {
-        name: "Comfortable Walking Shoes",
-        description:
-          "Khajuraho's temple complexes and Gwalior Fort both involve significant walking across stone courtyards and stairways.",
-        price: "₹1,499",
-        image: "👟",
-        affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
-        tag: "Sightseeing essential",
-        tagColor: "bg-stone-100 text-stone-700",
-        why: "Gwalior Fort's grounds are extensive, and Khajuraho's temple complexes involve a fair amount of walking between clusters.",
-      },
-      {
-        name: "Sunscreen (SPF 50)",
-        description:
-          "Central India's dry heat makes sun protection essential, especially on open-air safaris and temple visits.",
-        price: "₹399",
-        image: "🧴",
-        affiliateUrl: amazonSearchUrl("sunscreen+spf+50+travel"),
-        tag: "Everyday essential",
-        tagColor: "bg-red-100 text-red-700",
-        why: "Jeep safaris and temple sightseeing both mean hours in direct sun — Madhya Pradesh's dry heat makes this non-negotiable.",
-      },
-      {
-        name: "Power Bank (10,000 mAh)",
-        description:
-          "Useful for long safari days and travel between Khajuraho, the tiger reserves, and Gwalior.",
-        price: "₹1,299",
-        image: "🔋",
-        affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
-        tag: "Day-trip essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "Long transit days between towns and full-day safaris both drain devices faster than usual — worth the backup.",
-      },
-      {
-        name: "Reusable Water Bottle",
-        description:
-          "Handy across long safari drives and temple sightseeing in Khajuraho's heat.",
-        price: "₹699",
-        image: "🍶",
-        affiliateUrl: amazonSearchUrl("insulated+water+bottle+steel"),
-        tag: "Everyday essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Madhya Pradesh's dry inland climate means dehydration risk is real, especially on midday safaris and temple walks.",
-      },
-    ],
-  },
 ];
 
 // ── Page ─────────────────────────────────────────────────────────────────────
@@ -603,6 +521,15 @@ export default function MadhyaPradeshGuidePage() {
                       substantial.
                     </li>
                   </ul>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/madhya-pradesh/madhya-pradesh/great-stupa-sanchi-buddhist-monument.webp"
+                      alt="The Great Stupa at Sanchi, its dome and carved gateway (torana) dating to the 3rd century BCE"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <div
                     className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-xl my-4 text-sm"
                     style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -749,15 +676,6 @@ export default function MadhyaPradeshGuidePage() {
                       interiors.
                     </li>
                   </ul>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/madhya-pradesh/madhya-pradesh/great-stupa-sanchi-buddhist-monument.webp"
-                      alt="The Great Stupa at Sanchi, its dome and carved gateway (torana) dating to the 3rd century BCE"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                 </section>
 
                 {/* ── Other Sights ──────────────────────────────────────── */}
@@ -1340,12 +1258,6 @@ export default function MadhyaPradeshGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              {/* ── Gear Recommendations ──────────────────────────────── */}
-              <TrekGearRecommendations
-                sections={MADHYA_PRADESH_GEAR}
-                destination="Madhya Pradesh"
-              />
 
               <RelatedPostsGrid currentSlug="madhya-pradesh-travel-guide" />
             </article>

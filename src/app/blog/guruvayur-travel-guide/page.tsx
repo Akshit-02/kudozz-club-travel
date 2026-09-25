@@ -7,10 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
   title: "Guruvayur Temple Travel Guide: Darshan, Timings & How to Reach",
@@ -24,13 +21,13 @@ export const metadata: Metadata = {
     url: "https://club.kudozz.in/blog/guruvayur-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/jaisalmer/hero.jpg", width: 1200, height: 630, alt: "Temple town atmosphere representative of Guruvayur, Kerala" }],
+    images: [{ url: "/images/blogs/kerala/guruvayur/guruvayur-temple.webp", width: 1600, height: 1265, alt: "Guruvayur Temple, Kerala" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Guruvayur Temple Travel Guide: Darshan, Timings & How to Reach",
     description: "One of Kerala's most revered Krishna temples — the complete guide to Guruvayur.",
-    images: ["/images/destinations/jaisalmer/hero.jpg"],
+    images: ["/images/blogs/kerala/guruvayur/guruvayur-temple.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/guruvayur-travel-guide" },
 };
@@ -45,7 +42,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Guruvayur Temple Travel Guide: Darshan, Timings & How to Reach",
           description: "The complete Guruvayur travel guide.",
-          image: "https://club.kudozz.in/images/destinations/jaisalmer/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/kerala/guruvayur/guruvayur-temple.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
@@ -104,20 +101,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const GURUVAYUR_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for temple queues and traditional dress requirements",
-    emoji: "🛕",
-    items: [
-      { name: "Traditional Dhoti/Mundu Set", description: "The temple's dress code is strictly enforced — a proper mundu for men is non-negotiable for entry.", price: "₹499",  image: "🥻", affiliateUrl: amazonSearchUrl("mens+mundu+dhoti+cotton"), tag: "Temple essential", tagColor: "bg-purple-100 text-purple-700", why: "There are generally no exceptions to the dress code at Guruvayur — arriving prepared avoids a last-minute scramble." },
-      { name: "Comfortable Slip-On Footwear", description: "Long queue standing and frequent footwear removal make slip-ons far more practical than laced shoes.", price: "₹599",  image: "🩴", affiliateUrl: amazonSearchUrl("slip+on+sandals+travel"), tag: "Queue essential", tagColor: "bg-amber-100 text-amber-700", why: "Darshan queues at busy times can run long, and footwear comes off well before the sanctum." },
-      { name: "Small Cross-Body Bag", description: "For keeping shoes, phone, and valuables secure while moving through crowded temple queues.", price: "₹399",  image: "👝", affiliateUrl: amazonSearchUrl("small+crossbody+travel+bag"), tag: "Queue essential", tagColor: "bg-forest-100 text-forest-700", why: "Guruvayur can be genuinely crowded on weekends and festival days." },
-      { name: "Light Cotton Shawl", description: "Useful as an extra modesty layer and for early-morning darshan queues before sunrise.", price: "₹299",  image: "🧣", affiliateUrl: amazonSearchUrl("cotton+shawl+travel"), tag: "Comfort essential", tagColor: "bg-sky-100 text-sky-700", why: "Pre-dawn queue waits can be cool, and a shawl doubles as extra coverage." },
-    ],
-  },
-];
-
 export default function GuruvayurGuidePage() {
   return (
     <>
@@ -127,7 +110,7 @@ export default function GuruvayurGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/jaisalmer/hero.jpg" alt="Temple town atmosphere representative of Guruvayur, Kerala" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/kerala/guruvayur/guruvayur-temple.webp" alt="Guruvayur Temple, Kerala" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -235,9 +218,7 @@ export default function GuruvayurGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do in Guruvayur</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/jaisalmer/hero.jpg" alt="Temple town scenery around Guruvayur" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
+                  <GuideFigure src="/images/blogs/kerala/guruvayur/guruvayur-temple-view.webp" alt="Guruvayur Temple, Kerala" />
                   <ul>
                     <li><strong>Sree Krishna Temple darshan:</strong> The central experience of a Guruvayur visit — plan for queue time, especially on weekends and festival days.</li>
                     <li><strong>Punnathur Kotta:</strong> The Guruvayur Elephant Sanctuary, home to a large herd of temple elephants — a distinct, worthwhile stop.</li>
@@ -356,7 +337,6 @@ export default function GuruvayurGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={GURUVAYUR_GEAR} destination="Guruvayur" />
               <RelatedPostsGrid currentSlug="guruvayur-travel-guide" />
             </article>
 

@@ -7,10 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -186,84 +182,6 @@ const tableOfContents = [
   { id: "tips", title: "Essential Travel Tips", level: 2 },
   { id: "places-to-explore", title: "Places to Explore in Rajasthan", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
-];
-
-// ── Rajasthan-specific gear ─────────────────────────────────────────────────
-const RAJASTHAN_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle:
-      "Gear for fort climbs, desert heat, and long multi-city road journeys",
-    emoji: "🏰",
-    items: [
-      {
-        name: "Comfortable Walking Shoes",
-        description:
-          "Amber Fort, Mehrangarh Fort and Jaisalmer Fort all involve extended walking on uneven stone ramps and courtyards — good shoes matter across the whole circuit.",
-        price: "₹1,499",
-        image: "👟",
-        affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
-        tag: "Fort essential",
-        tagColor: "bg-stone-100 text-stone-700",
-        why: "A single day at Amber or Mehrangarh Fort easily covers several kilometres on stone ramparts — sandals wear out visitors fast here.",
-      },
-      {
-        name: "Reusable Water Bottle",
-        description:
-          "Rajasthan's desert climate makes hydration a genuine priority, especially at exposed fort complexes with little shade.",
-        price: "₹699",
-        image: "🍶",
-        affiliateUrl: amazonSearchUrl("insulated+water+bottle+steel"),
-        tag: "Everyday essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Jaisalmer and Jodhpur regularly cross 40°C for much of the year — dehydration is the most common issue for first-time desert-circuit travellers.",
-      },
-      {
-        name: "Wide-Brim Sun Hat",
-        description:
-          "Useful across every fort and desert stop on the circuit, particularly a Sam Sand Dunes camel safari near Jaisalmer.",
-        price: "₹399",
-        image: "👒",
-        affiliateUrl: amazonSearchUrl("wide+brim+sun+hat+travel"),
-        tag: "Sun essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "Rajasthan's forts and desert stops offer almost no shade — sun protection matters more here than in most parts of India.",
-      },
-      {
-        name: "Lightweight Cotton Layers",
-        description:
-          "Breathable, modest clothing works better in Rajasthan's dry heat than synthetic fabrics, and covers most temple and palace dress expectations.",
-        price: "₹799",
-        image: "👗",
-        affiliateUrl: amazonSearchUrl("lightweight+cotton+travel+clothing"),
-        tag: "Desert essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "Dry desert heat feels different from humid coastal heat — breathable cotton layers handle it far better than most 'travel' synthetic fabrics.",
-      },
-      {
-        name: "Power Bank (10,000 mAh)",
-        description:
-          "Useful for long inter-city road journeys between Jaipur, Jodhpur, Jaisalmer and Udaipur, which can each run 5-6 hours.",
-        price: "₹1,299",
-        image: "🔋",
-        affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
-        tag: "Road-trip essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "The classic Rajasthan circuit involves genuinely long driving days between cities — a charged power bank keeps navigation and entertainment running.",
-      },
-      {
-        name: "Dust Scarf / Bandana",
-        description:
-          "Handy for desert safaris and dusty fort courtyards, especially during a camel safari near Jaisalmer.",
-        price: "₹299",
-        image: "🧣",
-        affiliateUrl: amazonSearchUrl("bandana+dust+scarf+travel"),
-        tag: "Desert essential",
-        tagColor: "bg-red-100 text-red-700",
-        why: "Dust and sand are a constant on desert safaris — a simple scarf makes the experience noticeably more comfortable.",
-      },
-    ],
-  },
 ];
 
 // ── Page ─────────────────────────────────────────────────────────────────────
@@ -653,6 +571,24 @@ export default function RajasthanGuidePage() {
                       className="object-cover"
                     />
                   </div>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/rajasthan/rajasthan/vijay-stambh-victory-tower-chittorgarh-fort.webp"
+                      alt="The intricately carved Vijay Stambh (Victory Tower) inside Chittorgarh Fort"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/rajasthan/rajasthan/jaisalmer-fort-sunrise-golden-city.webp"
+                      alt="Jaisalmer Fort's golden sandstone ramparts glowing above the old city at sunrise"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p>
                     Named for the indigo-washed houses that cover its old
                     city, Jodhpur is dominated by one of India's most
@@ -737,24 +673,6 @@ export default function RajasthanGuidePage() {
                     circuit — each has enough depth for a dedicated guide,
                     linked below.
                   </p>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/rajasthan/udaipur/udaipur-city-palace-lake-pichola.webp"
-                      alt="Udaipur's City Palace rising above the still waters of Lake Pichola"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/rajasthan/rajasthan/jaisalmer-fort-sunrise-golden-city.webp"
-                      alt="Jaisalmer Fort's golden sandstone ramparts glowing above the old city at sunrise"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <ul>
                     <li>
                       <strong>Udaipur — the City of Lakes:</strong> Palaces
@@ -785,15 +703,6 @@ export default function RajasthanGuidePage() {
                     <Image
                       src="/images/blogs/rajasthan/ranthambore-first-time-visitors/ranthambore-fort-from-forest-below.webp"
                       alt="Ranthambore Fort seen rising above the forest of Ranthambore National Park"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/rajasthan/rajasthan/vijay-stambh-victory-tower-chittorgarh-fort.webp"
-                      alt="The intricately carved Vijay Stambh (Victory Tower) inside Chittorgarh Fort"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -1379,12 +1288,6 @@ export default function RajasthanGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              {/* ── Gear Recommendations ──────────────────────────────── */}
-              <TrekGearRecommendations
-                sections={RAJASTHAN_GEAR}
-                destination="Rajasthan"
-              />
 
               <RelatedPostsGrid currentSlug="rajasthan-travel-guide" />
             </article>

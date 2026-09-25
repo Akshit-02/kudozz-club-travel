@@ -7,10 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -28,10 +24,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/puducherry/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Mustard-yellow colonial buildings on a tree-lined street in Puducherry town",
+        url: "/images/blogs/puducherry/puducherry-district/puducherry-district-2.webp",
+        width: 1600,
+        height: 1258,
+        alt: "Puducherry District",
       },
     ],
   },
@@ -40,7 +36,7 @@ export const metadata: Metadata = {
     title: "Puducherry District Travel Guide: All 7 Towns & Attractions",
     description:
       "A full town-by-town guide to Puducherry District — French Quarter, Auroville, Villianur, Ariyankuppam, Bahour, Nettapakkam, and Oulgaret.",
-    images: ["/images/destinations/puducherry/hero.jpg"],
+    images: ["/images/blogs/puducherry/puducherry-district/puducherry-district-2.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/puducherry-district-travel-guide",
@@ -59,7 +55,7 @@ function ArticleSchema() {
           headline: "Puducherry District Travel Guide: All 7 Towns & Attractions",
           description:
             "The complete Puducherry District travel guide, covering Puducherry town, Auroville, Villianur, Ariyankuppam, Bahour, Nettapakkam, and Oulgaret.",
-          image: "https://club.kudozz.in/images/destinations/puducherry/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/puducherry/puducherry-district/puducherry-district-2.webp",
           datePublished: "2026-07-24",
           dateModified: "2026-07-24",
           publisher: {
@@ -189,84 +185,6 @@ function FAQSchema() {
   );
 }
 
-// ── Puducherry District gear ───────────────────────────────────────────────
-const PUDUCHERRY_DISTRICT_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle:
-      "Gear for French Quarter cycling, temple visits in Villianur and Bahour, and boat rides and wetlands out toward Ariyankuppam and Bahour Lake",
-    emoji: "🛶",
-    items: [
-      {
-        name: "Comfortable Walking Sandals",
-        description:
-          "Useful across White Town's cobbled lanes, Villianur's temple courtyards, and the walk down to Chunnambar's boat point.",
-        price: "₹1,299",
-        image: "👡",
-        affiliateUrl: amazonSearchUrl("comfortable+walking+sandals+travel"),
-        tag: "All-day essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Slip-on sandals make it easy to go barefoot at temple entrances in Villianur and Bahour without breaking stride.",
-      },
-      {
-        name: "Modest Temple-Appropriate Clothing",
-        description:
-          "Covered shoulders and knees for visits to the Villianur Temple, Bahour's Sri Moolanathaswamy Temple, and Puducherry's Manakula Vinayagar Temple.",
-        price: "₹899",
-        image: "🧣",
-        affiliateUrl: amazonSearchUrl("travel+modest+clothing+scarf"),
-        tag: "Temple essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "Several of the district's most significant sites are active temples, not monuments — dress code is enforced at the entrance, not optional.",
-      },
-      {
-        name: "Reef-Safe Sunscreen (SPF 50)",
-        description:
-          "For open stretches at Promenade Beach, Auroville Beach, Bahour Lake, and the boat ride out to Paradise Beach from Chunnambar.",
-        price: "₹549",
-        image: "🧴",
-        affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+spf+50"),
-        tag: "Daily essential",
-        tagColor: "bg-orange-100 text-orange-700",
-        why: "Much of the district's charm is outdoors and shadeless — the boat rides in particular offer no cover at all.",
-      },
-      {
-        name: "Compact Binoculars",
-        description:
-          "Worth having at Bahour Lake and the wetlands around it, and along the Chunnambar backwaters near Ariyankuppam.",
-        price: "₹1,499",
-        image: "🔭",
-        affiliateUrl: amazonSearchUrl("compact+binoculars+birdwatching"),
-        tag: "Wetland essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "Bahour Lake and the Ariyankuppam backwaters draw a genuine variety of waterbirds, especially early morning.",
-      },
-      {
-        name: "Mosquito Repellent",
-        description:
-          "Handy for the rural stretches around Nettapakkam and Bahour, and Auroville's forested paths near dusk.",
-        price: "₹199",
-        image: "🦟",
-        affiliateUrl: amazonSearchUrl("mosquito+repellent+travel"),
-        tag: "Rural essential",
-        tagColor: "bg-red-100 text-red-700",
-        why: "Away from the coast, the district's agricultural and wetland landscape means mosquitoes are a real factor at dawn and dusk.",
-      },
-      {
-        name: "Power Bank (10,000 mAh)",
-        description:
-          "Useful across a multi-town day covering Villianur, Bahour, and Ariyankuppam, where charging points are far more limited than in Puducherry town.",
-        price: "₹1,299",
-        image: "🔋",
-        affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
-        tag: "Day-trip essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "Navigating between the district's outlying communes relies heavily on maps, and charging infrastructure thins out fast outside the main town.",
-      },
-    ],
-  },
-];
-
 // ── Page ─────────────────────────────────────────────────────────────────────
 export default function PuducherryDistrictGuidePage() {
   return (
@@ -280,8 +198,8 @@ export default function PuducherryDistrictGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/puducherry/hero.jpg"
-              alt="Mustard-yellow colonial buildings on a tree-lined street in Puducherry town"
+              src="/images/blogs/puducherry/puducherry-district/puducherry-district-2.webp"
+              alt="Puducherry District"
               fill
               priority
               sizes="100vw"
@@ -625,8 +543,8 @@ export default function PuducherryDistrictGuidePage() {
                   <h2>Puducherry Town</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/puducherry/french.jpg"
-                      alt="Colonial villa with bougainvillea in Puducherry town's French Quarter"
+                      src="/images/blogs/puducherry/puducherry-district/mahe-district-puducherry-district.webp"
+                      alt="Mahe District, Puducherry District"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -1410,12 +1328,6 @@ export default function PuducherryDistrictGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              {/* ── Gear Recommendations ──────────────────────────────── */}
-              <TrekGearRecommendations
-                sections={PUDUCHERRY_DISTRICT_GEAR}
-                destination="Puducherry District"
-              />
 
               <RelatedPostsGrid currentSlug="puducherry-district-travel-guide" />
             </article>

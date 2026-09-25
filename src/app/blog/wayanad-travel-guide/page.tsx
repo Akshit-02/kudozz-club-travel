@@ -7,10 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuidePhotoRow } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
   title: "Wayanad Travel Guide: Waterfalls, Wildlife & Western Ghats",
@@ -27,10 +24,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/ziro/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Misty green hills representative of Wayanad, Kerala",
+        url: "/images/blogs/kerala/wayanad/wayanad.webp",
+        width: 1600,
+        height: 1200,
+        alt: "View of Wayanad, Kerala",
       },
     ],
   },
@@ -39,7 +36,7 @@ export const metadata: Metadata = {
     title: "Wayanad Travel Guide: Waterfalls, Wildlife & Western Ghats",
     description:
       "Coffee plantations, ancient rock carvings, and a wildlife sanctuary linking three states — the complete guide to Wayanad.",
-    images: ["/images/destinations/ziro/hero.jpg"],
+    images: ["/images/blogs/kerala/wayanad/wayanad.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/wayanad-travel-guide",
@@ -56,7 +53,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Wayanad Travel Guide: Waterfalls, Wildlife & Western Ghats",
           description: "The complete Wayanad travel guide.",
-          image: "https://club.kudozz.in/images/destinations/ziro/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/kerala/wayanad/wayanad.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: {
@@ -151,71 +148,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const WAYANAD_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for waterfalls, cave climbs, and the Chembra Peak trek",
-    emoji: "🌿",
-    items: [
-      {
-        name: "Trekking Shoes",
-        description:
-          "Essential for the Chembra Peak climb and the steps up to Edakkal Caves — both involve uneven, sometimes slippery terrain.",
-        price: "₹3,299",
-        image: "🥾",
-        affiliateUrl: amazonSearchUrl("trekking+shoes+men+women"),
-        tag: "Trek essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "Chembra Peak's trail and Edakkal's rock steps both punish flimsy footwear.",
-      },
-      {
-        name: "Rain Jacket",
-        description:
-          "Wayanad's forested hills see sudden showers well outside peak monsoon — a packable rain layer keeps plans on track.",
-        price: "₹899",
-        image: "🧥",
-        affiliateUrl: amazonSearchUrl("packable+rain+jacket+trekking"),
-        tag: "Weather essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Weather here shifts quickly given the elevation and forest cover.",
-      },
-      {
-        name: "Binoculars",
-        description:
-          "For wildlife safaris in Wayanad Wildlife Sanctuary and birdwatching around Pookode Lake and the plantation estates.",
-        price: "₹1,999",
-        image: "🔭",
-        affiliateUrl: amazonSearchUrl("binoculars+wildlife+safari"),
-        tag: "Safari essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "Wayanad's forest is dense — binoculars turn a distant rustle into an actual sighting.",
-      },
-      {
-        name: "Insect Repellent",
-        description:
-          "Forest trails, waterfall spray zones, and plantation walks all bring you close to mosquito habitat, especially at dusk.",
-        price: "₹199",
-        image: "🦟",
-        affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"),
-        tag: "Forest essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "Wayanad's dense forest cover means insect activity is a real, year-round consideration.",
-      },
-      {
-        name: "Light Warm Layer",
-        description:
-          "Evenings and early mornings can get genuinely cool at Wayanad's elevation, especially December through February.",
-        price: "₹1,299",
-        image: "🧶",
-        affiliateUrl: amazonSearchUrl("light+fleece+jacket+travel"),
-        tag: "Comfort essential",
-        tagColor: "bg-stone-100 text-stone-700",
-        why: "Many travelers underestimate how cool Wayanad's mornings get relative to coastal Kerala.",
-      },
-    ],
-  },
-];
-
 export default function WayanadGuidePage() {
   return (
     <>
@@ -227,8 +159,8 @@ export default function WayanadGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/ziro/hero.jpg"
-              alt="Misty green hills representative of Wayanad, Kerala"
+              src="/images/blogs/kerala/wayanad/wayanad.webp"
+              alt="View of Wayanad, Kerala"
               fill
               priority
               sizes="100vw"
@@ -383,15 +315,6 @@ export default function WayanadGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do in Wayanad</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/ziro/hero.jpg"
-                      alt="Forested hills and plantation scenery around Wayanad"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <ul>
                     <li><strong>Wayanad Wildlife Sanctuary:</strong> Part of the Nilgiri Biosphere Reserve, contiguous with Bandipur and Nagarhole (Karnataka) and Mudumalai (Tamil Nadu) — jeep safaris available.</li>
                     <li><strong>Edakkal Caves:</strong> Rock shelters with petroglyphs estimated several thousand years old, reached via a moderate climb.</li>
@@ -401,6 +324,12 @@ export default function WayanadGuidePage() {
                     <li><strong>Coffee & spice plantation tours:</strong> Working estates offering tours and stays, a good way to understand the district's agricultural character.</li>
                     <li><strong>Pookode Lake:</strong> A small, scenic freshwater lake good for a quieter half-day stop.</li>
                   </ul>
+                  <GuidePhotoRow
+                    images={[
+                      { src: "/images/blogs/kerala/wayanad/edakkal-caves-wayanad.webp", alt: "Edakkal Caves, Wayanad", caption: "Edakkal Caves, Wayanad" },
+                      { src: "/images/blogs/kerala/wayanad/chembra-peak-wayanad.webp", alt: "Chembra Peak, Wayanad", caption: "Chembra Peak, Wayanad" },
+                    ]}
+                  />
                 </section>
 
                 <section id="where-to-stay">
@@ -548,8 +477,6 @@ export default function WayanadGuidePage() {
                   <Link key={tag} href={`/blog?tag=${tag.toLowerCase().replace(/ /g, "-")}`} className="tag-pill">#{tag}</Link>
                 ))}
               </div>
-
-              <TrekGearRecommendations sections={WAYANAD_GEAR} destination="Wayanad" />
 
               <RelatedPostsGrid currentSlug="wayanad-travel-guide" />
             </article>

@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jammu-kashmir/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Himalayan mountain town landscape, evoking Gangtok's hillside setting in Sikkim",
+        url: "/images/blogs/sikkim/gangtok/gangtok.webp",
+        width: 1600,
+        height: 1064,
+        alt: "View of Gangtok, Sikkim",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Gangtok Travel Guide: Sightseeing, Food & Tips",
     description:
       "A pedestrian promenade, monasteries, and the logistical hub for the whole of Sikkim — the complete Gangtok guide.",
-    images: ["/images/destinations/jammu-kashmir/hero.jpg"],
+    images: ["/images/blogs/sikkim/gangtok/gangtok.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/gangtok-travel-guide",
@@ -59,7 +60,7 @@ function ArticleSchema() {
           headline: "Gangtok Travel Guide: Sightseeing, Food & Tips",
           description:
             "Complete Gangtok guide — MG Marg, Rumtek Monastery, Enchey Monastery, viewpoints, how to arrange Sikkim permits, where to eat, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/jammu-kashmir/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/sikkim/gangtok/gangtok.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -199,8 +200,8 @@ export default function GangtokGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jammu-kashmir/hero.jpg"
-              alt="Himalayan mountain town landscape, evoking Gangtok's hillside setting in Sikkim"
+              src="/images/blogs/sikkim/gangtok/gangtok.webp"
+              alt="View of Gangtok, Sikkim"
               fill
               priority
               sizes="100vw"
@@ -511,15 +512,6 @@ export default function GangtokGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>MG Marg, Monasteries & Viewpoints</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/jammu-kashmir/hero.jpg"
-                      alt="Hillside town and mountain backdrop, evoking Gangtok's setting"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>MG Marg</h3>
                   <p>
                     Gangtok's pedestrian-only promenade is the town's social
@@ -529,6 +521,7 @@ export default function GangtokGuidePage() {
                     capital.
                   </p>
                   <h3>Rumtek Monastery</h3>
+                  <GuideFigure src="/images/blogs/sikkim/gangtok/rumtek-monastery-gangtok.webp" alt="Rumtek Monastery, Gangtok" />
                   <p>
                     Roughly 24 km from town, Rumtek is the seat-in-exile of
                     the Karmapa, head of the Karma Kagyu lineage of Tibetan
@@ -536,6 +529,7 @@ export default function GangtokGuidePage() {
                     the region — a worthwhile half-day trip on its own.
                   </p>
                   <h3>Enchey Monastery</h3>
+                  <GuideFigure src="/images/blogs/sikkim/gangtok/enchey-monastery-gangtok.webp" alt="Enchey Monastery, Gangtok" />
                   <p>
                     A roughly 200-year-old Nyingma monastery within Gangtok
                     itself, easily combined with in-town sightseeing rather

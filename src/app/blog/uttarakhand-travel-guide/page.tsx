@@ -7,10 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -28,10 +24,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/rishikesh/rishikesh.jpg",
-        width: 1200,
-        height: 630,
-        alt: "The Ganges river flowing through Rishikesh with the Himalayan foothills in the background",
+        url: "/images/blogs/uttarakhand/uttarakhand/uttarakhand.webp",
+        width: 1600,
+        height: 810,
+        alt: "View of Uttarakhand",
       },
     ],
   },
@@ -40,7 +36,7 @@ export const metadata: Metadata = {
     title: "Uttarakhand Travel Guide: Char Dham, Nainital & Rishikesh",
     description:
       "Himalayan pilgrimage routes, Ganga-side towns, lake districts and tiger reserves — the complete guide to Uttarakhand.",
-    images: ["/images/destinations/rishikesh/rishikesh.jpg"],
+    images: ["/images/blogs/uttarakhand/uttarakhand/uttarakhand.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/uttarakhand-travel-guide",
@@ -60,7 +56,7 @@ function ArticleSchema() {
             "Uttarakhand Travel Guide: Char Dham, Nainital & Rishikesh",
           description: "The complete Uttarakhand travel guide.",
           image:
-            "https://club.kudozz.in/images/destinations/rishikesh/rishikesh.jpg",
+            "https://club.kudozz.in/images/blogs/uttarakhand/uttarakhand/uttarakhand.webp",
           datePublished: "2026-07-19",
           dateModified: "2026-07-19",
           publisher: {
@@ -188,84 +184,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-// ── Uttarakhand-specific gear ─────────────────────────────────────────────────
-const UTTARAKHAND_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle:
-      "Gear for high-altitude pilgrimage routes, riverside towns, and lake-district hill stations",
-    emoji: "🏔️",
-    items: [
-      {
-        name: "Layered Trekking Jacket",
-        description:
-          "The Char Dham temples sit above 3,000m and stay cold even in peak season — a proper layering system matters far more here than at Nainital or Rishikesh's lower elevation.",
-        price: "₹2,499",
-        image: "🧥",
-        affiliateUrl: amazonSearchUrl("trekking+jacket+layered+himalayan"),
-        tag: "Char Dham essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Kedarnath and Badrinath can drop to near-freezing even in May–June — under-packing for cold is the most common Char Dham mistake.",
-      },
-      {
-        name: "Sturdy Trekking Shoes",
-        description:
-          "Both the Char Dham temple approaches and Valley of Flowers/Auli trails involve rocky, uneven terrain that regular shoes handle poorly.",
-        price: "₹2,999",
-        image: "🥾",
-        affiliateUrl: amazonSearchUrl("trekking+shoes+waterproof+himalayan"),
-        tag: "Trail essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "The Kedarnath trek alone covers roughly 16km of rocky mountain trail each way — proper footwear isn't optional here.",
-      },
-      {
-        name: "Reusable Water Bottle",
-        description:
-          "Useful across the whole trip, from Rishikesh's ashrams to long Char Dham trekking days where refill points are limited.",
-        price: "₹699",
-        image: "🍶",
-        affiliateUrl: amazonSearchUrl("insulated+water+bottle+steel"),
-        tag: "Everyday essential",
-        tagColor: "bg-stone-100 text-stone-700",
-        why: "Altitude and physical exertion on pilgrimage routes make hydration more important than it seems at sea level.",
-      },
-      {
-        name: "Basic Altitude Sickness Kit",
-        description:
-          "Badrinath (3,133m) and Kedarnath (3,583m) sit high enough that mild altitude symptoms are common, especially without acclimatisation time.",
-        price: "₹399",
-        image: "💊",
-        affiliateUrl: amazonSearchUrl("altitude+sickness+medicine+diamox"),
-        tag: "Char Dham essential",
-        tagColor: "bg-red-100 text-red-700",
-        why: "Rushing the Char Dham circuit without acclimatisation days is the leading cause of altitude-related trip disruptions — consult a doctor before travel.",
-      },
-      {
-        name: "Rain Jacket / Poncho",
-        description:
-          "Uttarakhand's hill regions see sudden showers even outside monsoon — useful across Nainital, Mussoorie, and the Char Dham routes alike.",
-        price: "₹599",
-        image: "🌂",
-        affiliateUrl: amazonSearchUrl("rain+jacket+poncho+travel"),
-        tag: "Weather essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "Mountain weather changes fast here — a clear morning at Kedarnath can turn to sleet within hours.",
-      },
-      {
-        name: "Power Bank (10,000 mAh)",
-        description:
-          "Charging points are sparse along the Char Dham routes and at higher-altitude stops like Auli — worth carrying a backup.",
-        price: "₹1,299",
-        image: "🔋",
-        affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
-        tag: "Mountain essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "Long mountain drives and trek days between temples mean your phone (and navigation) needs to last well beyond a normal day.",
-      },
-    ],
-  },
-];
-
 // ── Page ─────────────────────────────────────────────────────────────────────
 export default function UttarakhandGuidePage() {
   return (
@@ -279,8 +197,8 @@ export default function UttarakhandGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/rishikesh/rishikesh.jpg"
-              alt="The Ganges river flowing through Rishikesh with the Himalayan foothills in the background"
+              src="/images/blogs/uttarakhand/uttarakhand/uttarakhand.webp"
+              alt="View of Uttarakhand"
               fill
               priority
               sizes="100vw"
@@ -611,8 +529,8 @@ export default function UttarakhandGuidePage() {
                   <h2>The Char Dham Yatra</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/blogs/uttarakhand/char-dham/kedarnath-temple-uttarakhand.webp"
-                      alt="Kedarnath Temple's stone shrine standing before the snow-capped Kedarnath massif, Uttarakhand"
+                      src="/images/blogs/uttarakhand/uttarakhand/the-char-dham-yatra-uttarakhand.webp"
+                      alt="The Char Dham Yatra, Uttarakhand"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -667,15 +585,6 @@ export default function UttarakhandGuidePage() {
                     older pilgrimage town, Rishikesh the adventure-and-yoga
                     capital.
                   </p>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/uttarakhand/haridwar/evening-ganga-aarti-har-ki-pauri.webp"
-                      alt="The evening Ganga Aarti ceremony with floating oil lamps at Har Ki Pauri, Haridwar"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <ul>
                     <li>
                       <strong>Ganga Aarti at Har Ki Pauri (Haridwar):</strong>{" "}
@@ -712,8 +621,8 @@ export default function UttarakhandGuidePage() {
                   <h2>Nainital, Mussoorie & Auli</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/blogs/uttarakhand/nainital/colorful-boats-naini-lake-nainital.webp"
-                      alt="Colourful rowboats moored on the pear-shaped Naini Lake in Nainital"
+                      src="/images/blogs/uttarakhand/uttarakhand/rishikesh-uttarakhand.webp"
+                      alt="Rishikesh, Uttarakhand"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -721,17 +630,8 @@ export default function UttarakhandGuidePage() {
                   </div>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/blogs/uttarakhand/mussoorie/mussoorie-ridge-town-himalayan-view.webp"
-                      alt="Mussoorie's ridge-top town spread across the hillside with Himalayan views beyond"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/uttarakhand/auli/auli-snow-slopes-mountain-view.webp"
-                      alt="Snow-covered ski slopes at Auli with sweeping Himalayan mountain views"
+                      src="/images/blogs/uttarakhand/uttarakhand/nainital-uttarakhand.webp"
+                      alt="Nainital, Uttarakhand"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -777,15 +677,6 @@ export default function UttarakhandGuidePage() {
                     oldest national park (established 1936), remains one of
                     the country's best chances to spot a wild Bengal Tiger.
                   </p>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/uttarakhand/jim-corbett/bengal-tiger-roaring-jim-corbett-reserve.webp"
-                      alt="A wild Bengal tiger in Jim Corbett National Park, India's oldest national park"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <ul>
                     <li>
                       <strong>Jeep safaris:</strong> Multiple zones (Dhikala,
@@ -1371,12 +1262,6 @@ export default function UttarakhandGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              {/* ── Gear Recommendations ──────────────────────────────── */}
-              <TrekGearRecommendations
-                sections={UTTARAKHAND_GEAR}
-                destination="Uttarakhand"
-              />
 
               <RelatedPostsGrid currentSlug="uttarakhand-travel-guide" />
             </article>

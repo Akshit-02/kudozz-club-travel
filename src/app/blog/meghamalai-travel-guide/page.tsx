@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/meghalaya/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Misty forested hills, evoking Meghamalai's High Wavy Mountains and Western Ghats plantation-and-forest landscape",
+        url: "/images/blogs/tamil-nadu/meghamalai/meghamalai.webp",
+        width: 1280,
+        height: 720,
+        alt: "Meghamalai, Tamil Nadu",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Meghamalai Guide: High Wavy Mountains & Tips",
     description:
       "Tea estates, cardamom plantations, and genuine wilderness in the Western Ghats — the complete Meghamalai guide.",
-    images: ["/images/destinations/meghalaya/hero.jpg"],
+    images: ["/images/blogs/tamil-nadu/meghamalai/meghamalai.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/meghamalai-travel-guide",
@@ -59,7 +60,7 @@ function ArticleSchema() {
           headline: "Meghamalai Guide: High Wavy Mountains & Tips",
           description:
             "Complete Meghamalai guide — the remote High Wavy Mountains, tea and cardamom estates, wildlife-sanctuary forest, how to reach from Theni, permits, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/meghalaya/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/tamil-nadu/meghamalai/meghamalai.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -196,8 +197,8 @@ export default function MeghamalaiGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/meghalaya/hero.jpg"
-              alt="Misty forested hills, evoking Meghamalai's High Wavy Mountains and Western Ghats plantation-and-forest landscape"
+              src="/images/blogs/tamil-nadu/meghamalai/meghamalai.webp"
+              alt="Meghamalai, Tamil Nadu"
               fill
               priority
               sizes="100vw"
@@ -521,16 +522,8 @@ export default function MeghamalaiGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Estates, Forest & Wildlife</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/meghalaya/hero.jpg"
-                      alt="Misty hill forest, evoking Meghamalai's High Wavy Mountains, Tamil Nadu"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Tea & Cardamom Estates</h3>
+                  <GuideFigure src="/images/blogs/tamil-nadu/meghamalai/tea-and-cardamom-estates-meghamalai.webp" alt="Tea & Cardamom Estates, Meghamalai" />
                   <p>
                     Working plantations stretch across much of the hillside,
                     offering a quieter, more working-landscape alternative to

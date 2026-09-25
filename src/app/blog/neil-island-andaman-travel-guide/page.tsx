@@ -24,10 +24,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/andaman/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Turquoise Andaman Sea water and white sand, evoking Neil Island's Bharatpur and Laxmanpur beaches",
+        url: "/images/blogs/andaman-and-nicobar/neil-island-andaman/shaheed-dweep-shaheed-dweep-neil-island-2.webp",
+        width: 1600,
+        height: 1067,
+        alt: "Shaheed Dweep, Shaheed Dweep (Neil Island)",
       },
     ],
   },
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     title: "Shaheed Dweep (Neil Island) Travel Guide: Beaches & Tips",
     description:
       "Bharatpur Beach, Laxmanpur's rock bridge, and a village pace — the complete Neil Island guide.",
-    images: ["/images/destinations/andaman/hero.jpg"],
+    images: ["/images/blogs/andaman-and-nicobar/neil-island-andaman/shaheed-dweep-shaheed-dweep-neil-island-2.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/neil-island-andaman-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           headline: "Shaheed Dweep (Neil Island) Travel Guide: Beaches & Tips",
           description:
             "Complete Shaheed Dweep (Neil Island) guide — Bharatpur Beach, Laxmanpur's natural rock bridge, Sitapur sunrise point, how to reach it from Port Blair or Havelock, and a full day plan.",
-          image: "https://club.kudozz.in/images/destinations/andaman/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/andaman-and-nicobar/neil-island-andaman/shaheed-dweep-shaheed-dweep-neil-island-2.webp",
           datePublished: "2026-09-01",
           dateModified: "2026-09-01",
           publisher: {
@@ -201,8 +201,8 @@ export default function NeilIslandGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/andaman/hero.jpg"
-              alt="Turquoise Andaman Sea water and white sand, evoking Neil Island's Bharatpur and Laxmanpur beaches"
+              src="/images/blogs/andaman-and-nicobar/neil-island-andaman/shaheed-dweep-shaheed-dweep-neil-island-2.webp"
+              alt="Shaheed Dweep, Shaheed Dweep (Neil Island)"
               fill
               priority
               sizes="100vw"
@@ -547,8 +547,8 @@ export default function NeilIslandGuidePage() {
                   <h2>Bharatpur Beach</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/andaman/hero.jpg"
-                      alt="Calm turquoise water over white sand, evoking Neil Island's Bharatpur Beach"
+                      src="/images/blogs/andaman-and-nicobar/neil-island-andaman/bharatpur-beach-shaheed-dweep-neil-island.webp"
+                      alt="Bharatpur Beach, Shaheed Dweep (Neil Island)"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"

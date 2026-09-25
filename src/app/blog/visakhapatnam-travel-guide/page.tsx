@@ -7,8 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Visakhapatnam Travel Guide: Beaches, Submarine Museum & Vizag City Guide",
@@ -20,9 +18,9 @@ export const metadata: Metadata = {
     title: "Visakhapatnam Travel Guide: Beaches, Submarine Museum & Vizag City Guide",
     description: "A port city where a decommissioned submarine sits beached as a museum, and the coastline curves into some of the Bay of Bengal's most underrated beaches — the complete guide to Visakhapatnam.",
     url: "https://club.kudozz.in/blog/visakhapatnam-travel-guide", type: "article", siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/andaman/hero.jpg", width: 1200, height: 630, alt: "Coastal scenery representative of Visakhapatnam, Andhra Pradesh" }],
+    images: [{ url: "/images/blogs/andhra-pradesh/visakhapatnam/rk-beach-visakhapatnam-2.webp", width: 1600, height: 833, alt: "RK Beach, Visakhapatnam" }],
   },
-  twitter: { card: "summary_large_image", title: "Visakhapatnam Travel Guide: Beaches, Submarine Museum & Vizag City Guide", description: "Beaches, a submarine museum, and an underrated Bay of Bengal coastline — the complete guide to Visakhapatnam.", images: ["/images/destinations/andaman/hero.jpg"] },
+  twitter: { card: "summary_large_image", title: "Visakhapatnam Travel Guide: Beaches, Submarine Museum & Vizag City Guide", description: "Beaches, a submarine museum, and an underrated Bay of Bengal coastline — the complete guide to Visakhapatnam.", images: ["/images/blogs/andhra-pradesh/visakhapatnam/rk-beach-visakhapatnam-2.webp"] },
   alternates: { canonical: "https://club.kudozz.in/blog/visakhapatnam-travel-guide" },
 };
 
@@ -32,7 +30,7 @@ function ArticleSchema() {
       "@context": "https://schema.org", "@type": "BlogPosting",
       headline: "Visakhapatnam Travel Guide: Beaches, Submarine Museum & Vizag City Guide",
       description: "The complete Visakhapatnam travel guide.",
-      image: "https://club.kudozz.in/images/destinations/andaman/hero.jpg",
+      image: "https://club.kudozz.in/images/blogs/andhra-pradesh/visakhapatnam/rk-beach-visakhapatnam-2.webp",
       datePublished: "2026-09-08", dateModified: "2026-09-08",
       publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
       author: { "@type": "Organization", name: "Kudozz Club" },
@@ -79,16 +77,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const VIZAG_GEAR: GearSection[] = [{
-  title: "Things Worth Carrying", subtitle: "Gear for beaches and city sightseeing", emoji: "⚓",
-  items: [
-    { name: "Reef-Safe Sunscreen", description: "For extended beach time at RK Beach and Rushikonda.", price: "₹599",  image: "🧴", affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+SPF+50"), tag: "Beach essential", tagColor: "bg-amber-100 text-amber-700", why: "Coastal Andhra sun is intense, especially outside winter months." },
-    { name: "Comfortable Walking Shoes", description: "For the Submarine Museum, Kailasagiri, and general city exploring.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "City essential", tagColor: "bg-sky-100 text-sky-700", why: "Vizag's attractions are spread across a genuinely walkable but sizable coastal city." },
-    { name: "Swimwear", description: "For Rushikonda Beach and any water sports activities.", price: "₹—",  image: "🏊", affiliateUrl: amazonSearchUrl("swimwear+travel+beach"), tag: "Beach essential", tagColor: "bg-forest-100 text-forest-700", why: "Rushikonda in particular is set up well for swimming and water sports." },
-    { name: "Camera", description: "For the Submarine Museum, Kailasagiri viewpoints, and coastal scenery.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-purple-100 text-purple-700", why: "Vizag's mix of naval history and coastline photographs unusually well." },
-  ],
-}];
-
 export default function VisakhapatnamGuidePage() {
   return (
     <>
@@ -96,7 +84,7 @@ export default function VisakhapatnamGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/andaman/hero.jpg" alt="Coastal scenery representative of Visakhapatnam, Andhra Pradesh" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/andhra-pradesh/visakhapatnam/rk-beach-visakhapatnam-2.webp" alt="RK Beach, Visakhapatnam" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -200,9 +188,6 @@ export default function VisakhapatnamGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do in Visakhapatnam</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/andaman/hero.jpg" alt="Coastal scenery around Visakhapatnam" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>INS Kurusura Submarine Museum:</strong> A decommissioned Navy submarine converted into a public museum — genuinely unusual and one of Vizag's must-see attractions.</li>
                     <li><strong>RK Beach:</strong> The main city beach promenade, lively and easily walkable.</li>
@@ -326,7 +311,6 @@ export default function VisakhapatnamGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={VIZAG_GEAR} destination="Visakhapatnam" />
               <RelatedPostsGrid currentSlug="visakhapatnam-travel-guide" />
             </article>
             <div className="hidden xl:block w-64 2xl:w-72 flex-shrink-0"><div className="sticky top-24"><RelatedSidebar currentSlug="visakhapatnam-travel-guide" /></div></div>

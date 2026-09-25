@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/hampi/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Ancient stone fort ruins and towers, evoking Chittorgarh Fort's Vijay Stambh and Rajput-era architecture",
+        url: "/images/blogs/rajasthan/chittorgarh/chittorgarh-fort.webp",
+        width: 1600,
+        height: 1067,
+        alt: "Chittorgarh Fort, Rajasthan",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Chittorgarh Fort Guide: History & Tips",
     description:
       "One of Asia's largest forts, and the setting for Rajasthan's most powerful stories of resistance — the complete Chittorgarh guide.",
-    images: ["/images/destinations/hampi/hero.jpg"],
+    images: ["/images/blogs/rajasthan/chittorgarh/chittorgarh-fort.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/chittorgarh-travel-guide",
@@ -59,7 +60,7 @@ function ArticleSchema() {
           headline: "Chittorgarh Fort Guide: History & Tips",
           description:
             "Complete Chittorgarh Fort guide — Vijay Stambh, Kirti Stambh, Rani Padmini's Palace and the legend of jauhar, the Meera Temple, how to reach from Udaipur, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/hampi/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/rajasthan/chittorgarh/chittorgarh-fort.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -196,8 +197,8 @@ export default function ChittorgarhGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/hampi/hero.jpg"
-              alt="Ancient stone fort ruins and towers, evoking Chittorgarh Fort's Vijay Stambh and Rajput-era architecture"
+              src="/images/blogs/rajasthan/chittorgarh/chittorgarh-fort.webp"
+              alt="Chittorgarh Fort, Rajasthan"
               fill
               priority
               sizes="100vw"
@@ -520,16 +521,8 @@ export default function ChittorgarhGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Vijay Stambh, Kirti Stambh & Rani Padmini's Palace</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/hampi/hero.jpg"
-                      alt="Ancient stone tower and fort ruins at Chittorgarh, Rajasthan"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Vijay Stambh (Tower of Victory)</h3>
+                  <GuideFigure src="/images/blogs/rajasthan/chittorgarh/vijay-stambh-chittorgarh-fort.webp" alt="Vijay Stambh, Chittorgarh Fort" />
                   <p>
                     A 9-story tower built in the 15th century, richly
                     carved from top to bottom — one of the fort's most
@@ -537,6 +530,7 @@ export default function ChittorgarhGuidePage() {
                     of medieval Rajput architecture and engineering.
                   </p>
                   <h3>Kirti Stambh (Tower of Fame)</h3>
+                  <GuideFigure src="/images/blogs/rajasthan/chittorgarh/kirti-stambh-chittorgarh-fort.webp" alt="Kirti Stambh, Chittorgarh Fort" />
                   <p>
                     An older Jain tower within the complex, smaller than
                     Vijay Stambh but historically significant in its own
@@ -553,6 +547,7 @@ export default function ChittorgarhGuidePage() {
                     powerful place in Rajasthani identity.
                   </p>
                   <h3>Meera Temple</h3>
+                  <GuideFigure src="/images/blogs/rajasthan/chittorgarh/meera-temple-chittorgarh-fort.webp" alt="Meera Temple, Chittorgarh Fort" />
                   <p>
                     A temple within the fort complex associated with the
                     poet-saint Meera Bai, adding a devotional, contemplative

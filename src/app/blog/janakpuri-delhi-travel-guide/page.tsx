@@ -529,15 +529,6 @@ export default function JanakpuriGuidePage() {
                 {/* ── District Park ─────────────────────────────────────── */}
                 <section id="district-park">
                   <h2>District Park, Janakpuri</h2>
-                  <div className="relative w-full rounded-xl my-6 h-64 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/delhi/janakpuri/janakpuri-west-metro-interchange-signage.webp"
-                      alt="Janakpuri West metro station, the interchange serving Janakpuri's residents near District Park"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <p>
                     Janakpuri's <strong>District Park</strong> is a large,
                     well-maintained public green space and genuinely the

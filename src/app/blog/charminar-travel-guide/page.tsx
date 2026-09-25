@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -514,6 +515,7 @@ export default function CharminarGuidePage() {
                 <section id="things-to-do">
                   <h2>Architecture, Bazaar & Mosque</h2>
                   <h3>The Monument</h3>
+                  <GuideFigure src="/images/blogs/telangana/charminar/the-monument-charminar-2.webp" alt="The Monument, Charminar" />
                   <p>
                     Charminar's four arches face the four cardinal
                     directions, with four minarets rising roughly 56 metres,
@@ -524,6 +526,7 @@ export default function CharminarGuidePage() {
                     of worship.
                   </p>
                   <h3>Laad Bazaar</h3>
+                  <GuideFigure src="/images/blogs/telangana/charminar/laad-bazaar-charminar-2.webp" alt="Laad Bazaar, Charminar" />
                   <p>
                     Directly beside Charminar, this narrow, colourful market
                     has traded bangles, pearls, and jewellery for
@@ -532,6 +535,7 @@ export default function CharminarGuidePage() {
                     see Old City commerce up close.
                   </p>
                   <h3>Mecca Masjid</h3>
+                  <GuideFigure src="/images/blogs/telangana/charminar/mecca-masjid-charminar.webp" alt="Mecca Masjid, Charminar" />
                   <p>
                     A short walk from Charminar, this is one of India's
                     oldest and largest mosques, built with bricks reportedly

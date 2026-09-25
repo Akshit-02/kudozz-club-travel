@@ -7,8 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
   title: "Panjim Travel Guide: Fontainhas, Latin Quarter & Goa's Capital",
@@ -20,7 +19,7 @@ export const metadata: Metadata = {
     title: "Panjim Travel Guide: Fontainhas, Latin Quarter & Goa's Capital",
     description: "Pastel-colored Portuguese townhouses lining narrow lanes in Fontainhas, and a riverside capital that still moves at old-Goa pace — the complete guide to Panjim.",
     url: "https://club.kudozz.in/blog/panjim-travel-guide", type: "article", siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/goa/hero.jpg", width: 1200, height: 630, alt: "Coastal Goan scenery representative of Panjim" }],
+    images: [{ url: "/images/destinations/goa/hero.jpg", width: 2560, height: 1707, alt: "Coastal Goan scenery representative of Panjim" }],
   },
   twitter: { card: "summary_large_image", title: "Panjim Travel Guide: Fontainhas, Latin Quarter & Goa's Capital", description: "Portuguese-era lanes and a riverside capital — the complete guide to Panjim.", images: ["/images/destinations/goa/hero.jpg"] },
   alternates: { canonical: "https://club.kudozz.in/blog/panjim-travel-guide" },
@@ -78,16 +77,6 @@ const tableOfContents = [
   { id: "tips", title: "Essential Travel Tips", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
-
-const PANJIM_GEAR: GearSection[] = [{
-  title: "Things Worth Carrying", subtitle: "Gear for heritage walks and riverfront evenings", emoji: "🏛️",
-  items: [
-    { name: "Comfortable Walking Shoes", description: "Fontainhas rewards slow wandering through narrow, sometimes uneven lanes.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Heritage-walk essential", tagColor: "bg-amber-100 text-amber-700", why: "Fontainhas's charm is in the details — comfortable footwear lets you actually slow down and look." },
-    { name: "Light Breathable Clothing", description: "Goa's coastal humidity is high year-round — loose cotton is far more comfortable than synthetics.", price: "₹799",  image: "👕", affiliateUrl: amazonSearchUrl("breathable+cotton+travel+clothing"), tag: "Comfort essential", tagColor: "bg-sky-100 text-sky-700", why: "Panjim's streets offer little shade at midday." },
-    { name: "Camera", description: "Fontainhas's pastel townhouses and wrought-iron balconies are genuinely photogenic.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Heritage-walk essential", tagColor: "bg-purple-100 text-purple-700", why: "This is one of Goa's most photogenic heritage precincts." },
-    { name: "Sun Hat", description: "For daytime walks around the riverfront and old town.", price: "₹399",  image: "🧢", affiliateUrl: amazonSearchUrl("sun+hat+travel+outdoor"), tag: "Daytime essential", tagColor: "bg-forest-100 text-forest-700", why: "Panjim's streets have limited shade during peak midday sun." },
-  ],
-}];
 
 export default function PanjimGuidePage() {
   return (
@@ -200,9 +189,7 @@ export default function PanjimGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do in Panjim</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/goa/hero.jpg" alt="Panjim riverfront and old-town scenery" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
+                  <GuideFigure src="/images/blogs/goa/panjim/panjim-view.webp" alt="Panjim, Goa" />
                   <ul>
                     <li><strong>Fontainhas Latin Quarter:</strong> Narrow lanes of pastel Portuguese-era townhouses with wrought-iron balconies — a genuinely well-preserved heritage precinct, best explored slowly on foot.</li>
                     <li><strong>Church of Our Lady of the Immaculate Conception:</strong> A landmark whitewashed church with a distinctive stepped facade overlooking the main square.</li>
@@ -327,7 +314,6 @@ export default function PanjimGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={PANJIM_GEAR} destination="Panjim" />
               <RelatedPostsGrid currentSlug="panjim-travel-guide" />
             </article>
             <div className="hidden xl:block w-64 2xl:w-72 flex-shrink-0"><div className="sticky top-24"><RelatedSidebar currentSlug="panjim-travel-guide" /></div></div>

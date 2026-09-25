@@ -7,10 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -28,10 +24,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/hampi/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Rock-cut cave temple architecture at Ajanta-Ellora, Maharashtra",
+        url: "/images/blogs/maharashtra/ajanta-ellora/ajanta-and-ellora-caves-2.webp",
+        width: 1600,
+        height: 1067,
+        alt: "Ajanta & Ellora Caves, Maharashtra",
       },
     ],
   },
@@ -40,7 +36,7 @@ export const metadata: Metadata = {
     title: "Ajanta & Ellora Caves Travel Guide: History, Timings & Tips",
     description:
       "The Kailasa Temple carved from a single rock, and 2,000-year-old Buddhist frescoes — the complete guide to Ajanta and Ellora.",
-    images: ["/images/destinations/hampi/hero.jpg"],
+    images: ["/images/blogs/maharashtra/ajanta-ellora/ajanta-and-ellora-caves-2.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/ajanta-ellora-travel-guide",
@@ -59,7 +55,7 @@ function ArticleSchema() {
           headline: "Ajanta & Ellora Caves Travel Guide: History, Timings & Tips",
           description:
             "The complete guide to Ajanta and Ellora Caves, Maharashtra's two UNESCO World Heritage rock-cut cave complexes.",
-          image: "https://club.kudozz.in/images/destinations/hampi/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/maharashtra/ajanta-ellora/ajanta-and-ellora-caves-2.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: {
@@ -165,82 +161,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const AJANTA_ELLORA_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for hours of walking, stairs, and dim cave interiors",
-    emoji: "🛕",
-    items: [
-      {
-        name: "Comfortable Walking/Hiking Shoes",
-        description:
-          "Both sites involve long stretches of uneven stone paths and stairs cut straight into rock — flip-flops and sandals get uncomfortable fast over a 3-4 hour visit.",
-        price: "₹1,499",
-        image: "👟",
-        affiliateUrl: amazonSearchUrl("comfortable+walking+hiking+shoes"),
-        tag: "Cave-visit essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "Sore feet from the stone stairways is the most common complaint from travellers who visit in sandals.",
-      },
-      {
-        name: "Wide-Brim Sun Hat",
-        description:
-          "Much of the walk between caves and the shuttle bus queue at Ajanta is in open sun — a hat matters more than sunscreen alone in the Deccan heat.",
-        price: "₹399",
-        image: "👒",
-        affiliateUrl: amazonSearchUrl("wide+brim+sun+hat+travel"),
-        tag: "Sun essential",
-        tagColor: "bg-orange-100 text-orange-700",
-        why: "There's very little shade on the approach paths and viewpoint above the Ajanta gorge.",
-      },
-      {
-        name: "2L Hydration Bottle",
-        description:
-          "A full day covering either site, especially in the warmer months, means several hours outdoors with limited shaded rest points.",
-        price: "₹449",
-        image: "💧",
-        affiliateUrl: amazonSearchUrl("2l+hydration+water+bottle+travel"),
-        tag: "Trek essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Water is sold near the entrances but not deep inside the cave complexes — carry your own.",
-      },
-      {
-        name: "Compact LED Torch",
-        description:
-          "Several of the smaller caves and interior chambers at both sites are dimly lit — a small torch (phone flash aside) helps pick out carving detail flash photography isn't allowed to capture.",
-        price: "₹349",
-        image: "🔦",
-        affiliateUrl: amazonSearchUrl("compact+led+torch+travel"),
-        tag: "Cave essential",
-        tagColor: "bg-stone-100 text-stone-700",
-        why: "Flash photography is prohibited near the Ajanta paintings to prevent damage, so a torch helps you actually see the detail rather than just photograph it.",
-      },
-      {
-        name: "Lightweight Daypack",
-        description:
-          "For water, sunscreen, a snack, and the ASI ticket/ID you'll need to keep handy across both a long walking day and the Ajanta shuttle bus ride.",
-        price: "₹899",
-        image: "🎒",
-        affiliateUrl: amazonSearchUrl("lightweight+daypack+travel"),
-        tag: "All-day essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "Large bags are often restricted near the cave entrances for conservation reasons — a small daypack avoids any issue at security checks.",
-      },
-      {
-        name: "Reef-Safe Sunscreen (SPF 50)",
-        description:
-          "Exposed stone courtyards and the open plateau above the Ajanta caves offer little shade during the hottest hours of the day.",
-        price: "₹599",
-        image: "🧴",
-        affiliateUrl: amazonSearchUrl("sunscreen+SPF+50+travel"),
-        tag: "Sun essential",
-        tagColor: "bg-red-100 text-red-700",
-        why: "Even in the cooler Nov–Mar window, midday sun at both sites is intense enough to burn exposed skin over a multi-hour visit.",
-      },
-    ],
-  },
-];
-
 export default function AjantaElloraGuidePage() {
   return (
     <>
@@ -253,8 +173,8 @@ export default function AjantaElloraGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/hampi/hero.jpg"
-              alt="Rock-cut cave temple architecture at Ajanta-Ellora, Maharashtra"
+              src="/images/blogs/maharashtra/ajanta-ellora/ajanta-and-ellora-caves-2.webp"
+              alt="Ajanta & Ellora Caves, Maharashtra"
               fill
               priority
               sizes="100vw"
@@ -480,8 +400,8 @@ export default function AjantaElloraGuidePage() {
                   <h2>Ajanta Caves</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/hampi/hero.jpg"
-                      alt="Rock-cut cave facade at Ajanta Caves"
+                      src="/images/blogs/maharashtra/ajanta-ellora/ajanta-caves-ajanta-and-ellora-caves-2.webp"
+                      alt="Ajanta Caves, Ajanta & Ellora Caves"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -742,8 +662,6 @@ export default function AjantaElloraGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              <TrekGearRecommendations sections={AJANTA_ELLORA_GEAR} destination="Ajanta & Ellora" />
 
               <RelatedPostsGrid currentSlug="ajanta-ellora-travel-guide" />
             </article>

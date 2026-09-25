@@ -25,8 +25,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/blogs/chandigarh/capitol-complex/capitol-complex-skyline-secretariat-high-court.webp",
-        width: 1600,
-        height: 1067,
+        width: 1400,
+        height: 933,
         alt: "The raw-concrete Secretariat slab and High Court's curved canopy roof rising above the trees at Le Corbusier's Capitol Complex in Chandigarh",
       },
     ],
@@ -576,6 +576,15 @@ export default function CapitolComplexGuidePage() {
                       themselves.
                     </li>
                   </ul>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/chandigarh/capitol-complex/geometric-hill-capitol-complex.webp"
+                      alt="The Geometric Hill's sloped, tiled earthwork mound with its curved inlaid pathway at Capitol Complex, Chandigarh"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <div
                     className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-xl my-4 text-sm"
                     style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -796,15 +805,6 @@ export default function CapitolComplexGuidePage() {
                       grand civic architecture.
                     </li>
                   </ul>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/chandigarh/capitol-complex/geometric-hill-capitol-complex.webp"
-                      alt="The Geometric Hill's sloped, tiled earthwork mound with its curved inlaid pathway at Capitol Complex, Chandigarh"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                 </section>
 
                 {/* ── Photography ────────────────────────────────────────── */}

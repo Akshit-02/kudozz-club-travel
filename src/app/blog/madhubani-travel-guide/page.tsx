@@ -7,8 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Madhubani Travel Guide: The Town Behind India's Famous Folk Art",
@@ -22,13 +20,13 @@ export const metadata: Metadata = {
     url: "https://club.kudozz.in/blog/madhubani-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/udaipur/saheliyon.jpg", width: 1200, height: 630, alt: "Traditional craft-village scenery representative of Madhubani, Bihar" }],
+    images: [{ url: "/images/blogs/bihar/madhubani/madhubani.webp", width: 1600, height: 898, alt: "Madhubani, Bihar" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Madhubani Travel Guide: The Town Behind India's Famous Folk Art",
     description: "Mithila painting's home region — the complete guide to Madhubani.",
-    images: ["/images/destinations/udaipur/saheliyon.jpg"],
+    images: ["/images/blogs/bihar/madhubani/madhubani.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/madhubani-travel-guide" },
 };
@@ -43,7 +41,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Madhubani Travel Guide: The Town Behind India's Famous Folk Art",
           description: "The complete Madhubani travel guide.",
-          image: "https://club.kudozz.in/images/destinations/udaipur/saheliyon.jpg",
+          image: "https://club.kudozz.in/images/blogs/bihar/madhubani/madhubani.webp",
           datePublished: "2026-09-08",
           dateModified: "2026-09-08",
           publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
@@ -102,20 +100,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const MADHUBANI_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for artist-village visits and craft shopping",
-    emoji: "🎨",
-    items: [
-      { name: "Comfortable Walking Shoes", description: "For moving between village lanes and artist workshops on foot.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Village-visit essential", tagColor: "bg-amber-100 text-amber-700", why: "Artist villages are best explored slowly on foot, often on unpaved lanes." },
-      { name: "Camera", description: "For documenting the intricate art and the process of watching it being made — with respectful consent from artists.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Craft-visit essential", tagColor: "bg-purple-100 text-purple-700", why: "Madhubani art's fine detail is genuinely worth capturing up close." },
-      { name: "Padded Art Carry Tube/Folder", description: "For safely transporting any paintings purchased directly from artists back home.", price: "₹599",  image: "🖼️", affiliateUrl: amazonSearchUrl("art+carry+tube+poster"), tag: "Purchase essential", tagColor: "bg-sky-100 text-sky-700", why: "Paper-based Madhubani paintings can crease or tear without proper protection in transit." },
-      { name: "Cash Pouch", description: "Most artist-village transactions are cash-based, especially for direct purchases from individual artists.", price: "₹299",  image: "👝", affiliateUrl: amazonSearchUrl("travel+cash+pouch"), tag: "Shopping essential", tagColor: "bg-forest-100 text-forest-700", why: "Card acceptance is limited in rural artist villages." },
-    ],
-  },
-];
-
 export default function MadhubaniGuidePage() {
   return (
     <>
@@ -125,7 +109,7 @@ export default function MadhubaniGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/udaipur/saheliyon.jpg" alt="Traditional craft-village scenery representative of Madhubani, Bihar" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/bihar/madhubani/madhubani.webp" alt="Madhubani, Bihar" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -233,9 +217,6 @@ export default function MadhubaniGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do in Madhubani</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/udaipur/saheliyon.jpg" alt="Craft-village scenery around Madhubani" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>Artist villages and cooperatives:</strong> Watch Madhubani art being made and buy directly from practicing artists — the most meaningful way to engage with the craft.</li>
                     <li><strong>Mithila cultural heritage:</strong> The broader region's folklore and traditions, including its association with Sita from the Ramayana.</li>
@@ -356,7 +337,6 @@ export default function MadhubaniGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={MADHUBANI_GEAR} destination="Madhubani" />
               <RelatedPostsGrid currentSlug="madhubani-travel-guide" />
             </article>
 

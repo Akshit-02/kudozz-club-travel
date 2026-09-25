@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -428,6 +429,7 @@ export default function AdiKailashGuidePage() {
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">
                   <h2>Best Time to Visit Adi Kailash</h2>
+                  <GuideFigure src="/images/blogs/uttarakhand/adi-kailash/adi-kailash-view.webp" alt="Adi Kailash, Uttarakhand" />
                   <p>
                     Both monsoon and winter close this route entirely, which
                     narrows the realistic travel window to two short
@@ -550,15 +552,6 @@ export default function AdiKailashGuidePage() {
                 {/* ── Attractions ────────────────────────────────────────── */}
                 <section id="attractions">
                   <h2>The Trek & Key Sites</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/uttarakhand/adi-kailash/adi-kailash-peak-parvati-kund-reflection.webp"
-                      alt="High-altitude Himalayan terrain near Adi Kailash and Om Parvat, Pithoragarh"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Adi Kailash Peak</h3>
                   <p>
                     The peak itself, seen from Jolingkong and the shores of

@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jammu-kashmir/hero.jpg",
+        url: "/images/blogs/nagaland/kohima/kisama-and-the-hornbill-festival-kohima.webp",
         width: 1200,
-        height: 630,
-        alt: "Green mountain landscape, evoking Kohima's hill-capital setting in Nagaland",
+        height: 900,
+        alt: "Kisama & the Hornbill Festival, Kohima",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Kohima Travel Guide: War Cemetery & History",
     description:
       "A hill capital where a WWII battle changed the course of the war — the complete Kohima guide.",
-    images: ["/images/destinations/jammu-kashmir/hero.jpg"],
+    images: ["/images/blogs/nagaland/kohima/kisama-and-the-hornbill-festival-kohima.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/kohima-travel-guide",
@@ -59,7 +60,7 @@ function ArticleSchema() {
           headline: "Kohima Travel Guide: War Cemetery & History",
           description:
             "Complete Kohima guide — the WWII War Cemetery, the Battle of Kohima's place in world history, Kohima State Museum, how to reach from Dimapur, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/jammu-kashmir/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/nagaland/kohima/kisama-and-the-hornbill-festival-kohima.webp",
           datePublished: "2026-09-04",
           dateModified: "2026-09-04",
           publisher: {
@@ -195,8 +196,8 @@ export default function KohimaGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jammu-kashmir/hero.jpg"
-              alt="Green mountain landscape, evoking Kohima's hill-capital setting in Nagaland"
+              src="/images/blogs/nagaland/kohima/kisama-and-the-hornbill-festival-kohima.webp"
+              alt="Kisama & the Hornbill Festival, Kohima"
               fill
               priority
               sizes="100vw"
@@ -506,15 +507,6 @@ export default function KohimaGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>War Cemetery, Museum & City Sights</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/jammu-kashmir/hero.jpg"
-                      alt="Hill landscape around Kohima, Nagaland"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Kohima War Cemetery</h3>
                   <p>
                     A Commonwealth War Graves site commemorating soldiers
@@ -548,6 +540,7 @@ export default function KohimaGuidePage() {
                     dance, music, food, and crafts.
                   </p>
                   <h3>Dzukou Valley</h3>
+                  <GuideFigure src="/images/blogs/nagaland/kohima/dzukou-valley-kohima.webp" alt="Dzukou Valley, Kohima" />
                   <p>
                     Nagaland's most celebrated trek, reached via Viswema
                     village a short drive from Kohima — see our full{" "}

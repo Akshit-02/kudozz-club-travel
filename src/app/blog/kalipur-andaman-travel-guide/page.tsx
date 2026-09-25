@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/andaman/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "A quiet North Andaman beach, evoking Kalipur near Diglipur",
+        url: "/images/blogs/andaman-and-nicobar/kalipur-andaman/kalipur-beach.webp",
+        width: 1600,
+        height: 1200,
+        alt: "Kalipur Beach, Andaman & Nicobar Islands",
       },
     ],
   },
@@ -36,7 +37,7 @@ export const metadata: Metadata = {
     title: "Kalipur Beach Travel Guide: Turtles, Saddle Peak & Tips",
     description:
       "North Andaman's turtle-nesting beach near Diglipur, and the gateway to the Saddle Peak trek.",
-    images: ["/images/destinations/andaman/hero.jpg"],
+    images: ["/images/blogs/andaman-and-nicobar/kalipur-andaman/kalipur-beach.webp"],
   },
   robots: {
     index: true,
@@ -59,7 +60,7 @@ function ArticleSchema() {
           headline: "Kalipur Beach Travel Guide: Turtles, Saddle Peak & Tips",
           description:
             "Complete Kalipur guide — North Andaman's quiet turtle-nesting beach near Diglipur, the gateway to the Saddle Peak trek.",
-          image: "https://club.kudozz.in/images/destinations/andaman/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/andaman-and-nicobar/kalipur-andaman/kalipur-beach.webp",
           datePublished: "2026-09-01",
           dateModified: "2026-09-01",
           publisher: {
@@ -201,8 +202,8 @@ export default function KalipurGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/andaman/hero.jpg"
-              alt="A quiet North Andaman beach, evoking Kalipur near Diglipur"
+              src="/images/blogs/andaman-and-nicobar/kalipur-andaman/kalipur-beach.webp"
+              alt="Kalipur Beach, Andaman & Nicobar Islands"
               fill
               priority
               sizes="100vw"
@@ -431,6 +432,7 @@ export default function KalipurGuidePage() {
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">
                   <h2>Best Time to Visit Kalipur</h2>
+                  <GuideFigure src="/images/blogs/andaman-and-nicobar/kalipur-andaman/kalipur-beach-view.webp" alt="Kalipur Beach, Andaman & Nicobar Islands" />
                   <p>
                     Kalipur's dry season runs roughly November through
                     March, and it happens to overlap neatly with turtle
@@ -541,15 +543,6 @@ export default function KalipurGuidePage() {
                 {/* ── Turtle Nesting ─────────────────────────────────────── */}
                 <section id="turtle-nesting">
                   <h2>Turtle Nesting Season</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/andaman/hero.jpg"
-                      alt="A calm, undeveloped Andaman beach at dusk, evoking Kalipur's turtle-nesting shoreline"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <p>
                     Kalipur is one of the better-known turtle nesting sites
                     in the Andamans, with leatherback and olive ridley

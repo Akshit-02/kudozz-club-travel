@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -419,6 +420,7 @@ export default function JhansiGuidePage() {
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">
                   <h2>Best Time to Visit Jhansi</h2>
+                  <GuideFigure src="/images/blogs/uttar-pradesh/jhansi/jhansi-view.webp" alt="Jhansi, Uttar Pradesh" />
                   <p>
                     Bundelkhand's climate runs to extremes, making the
                     timing of a Jhansi visit more important than in many
@@ -531,15 +533,6 @@ export default function JhansiGuidePage() {
                 {/* ── Attractions ────────────────────────────────────────── */}
                 <section id="attractions">
                   <h2>Jhansi Fort & the 1857 Revolt</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/uttar-pradesh/jhansi/jhansi-fort-ramparts.webp"
-                      alt="Crenellated stone bastions and entrance gate of Jhansi Fort"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Rani Lakshmibai's Stand at Jhansi</h3>
                   <p>
                     In 1857, as rebellion spread across northern and central

@@ -7,9 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  HIMALAYAN_GEAR,
-} from "@/components/ui/TrekGearRecommendations";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -582,6 +579,24 @@ export default function SonamargGuidePage() {
                       Sonamarg as an overnight halt before or after the pass.
                     </li>
                   </ul>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/jammu-and-kashmir/sonamarg/zoji-la-pass-valley-view.webp"
+                      alt="The Sindh valley and switchback road seen from the climb toward Zoji La pass, with snow-capped peaks behind"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/jammu-and-kashmir/sonamarg/baltal-last-village-kashmir-valley.webp"
+                      alt="A small settlement amid pine forest and a mountain stream near Baltal, the last village of the Kashmir Valley"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <div
                     className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-xl my-4 text-sm"
                     style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -705,24 +720,6 @@ export default function SonamargGuidePage() {
                       longer trek.
                     </li>
                   </ul>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/jammu-and-kashmir/sonamarg/zoji-la-pass-valley-view.webp"
-                      alt="The Sindh valley and switchback road seen from the climb toward Zoji La pass, with snow-capped peaks behind"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/jammu-and-kashmir/sonamarg/baltal-last-village-kashmir-valley.webp"
-                      alt="A small settlement amid pine forest and a mountain stream near Baltal, the last village of the Kashmir Valley"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                 </section>
 
                 {/* ── Adventure Activities ────────────────────────────────── */}
@@ -1233,12 +1230,6 @@ export default function SonamargGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              {/* ── Gear Recommendations ──────────────────────────────── */}
-              <TrekGearRecommendations
-                sections={HIMALAYAN_GEAR}
-                destination="Sonamarg"
-              />
 
               <RelatedPostsGrid currentSlug="sonamarg-travel-guide" />
             </article>

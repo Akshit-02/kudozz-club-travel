@@ -7,8 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Jorhat Travel Guide: Tea Estates & Gateway to Majuli",
@@ -20,7 +18,7 @@ export const metadata: Metadata = {
     title: "Jorhat Travel Guide: Tea Estates & Gateway to Majuli",
     description: "Upper Assam's tea and culture hub, and the main departure point for ferries to Majuli Island — the complete guide to Jorhat.",
     url: "https://club.kudozz.in/blog/jorhat-travel-guide", type: "article", siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/coorg/abbey-falls.jpg", width: 1200, height: 630, alt: "Tea estate landscape representative of Jorhat, Assam" }],
+    images: [{ url: "/images/destinations/coorg/abbey-falls.jpg", width: 2560, height: 1920, alt: "Tea estate landscape representative of Jorhat, Assam" }],
   },
   twitter: { card: "summary_large_image", title: "Jorhat Travel Guide: Tea Estates & Gateway to Majuli", description: "Tea estates and the ferry gateway to Majuli Island — the complete guide to Jorhat.", images: ["/images/destinations/coorg/abbey-falls.jpg"] },
   alternates: { canonical: "https://club.kudozz.in/blog/jorhat-travel-guide" },
@@ -78,16 +76,6 @@ const tableOfContents = [
   { id: "tips", title: "Essential Travel Tips", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
-
-const JORHAT_GEAR: GearSection[] = [{
-  title: "Things Worth Carrying", subtitle: "Gear for tea estates and the Majuli ferry crossing", emoji: "⛴️",
-  items: [
-    { name: "Comfortable Walking Shoes", description: "For tea estate walks and general city exploring before your ferry crossing.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-amber-100 text-amber-700", why: "Tea estate visits and a day exploring Jorhat add up in walking distance." },
-    { name: "Dry Bag / Waterproof Pouch", description: "Useful for the Nimati Ghat ferry crossing to protect valuables from river spray.", price: "₹499",  image: "🎒", affiliateUrl: amazonSearchUrl("waterproof+dry+bag+travel"), tag: "Ferry essential", tagColor: "bg-sky-100 text-sky-700", why: "River crossings carry a real risk of splash and spray reaching your bag." },
-    { name: "Light Rain Layer", description: "Upper Assam sees frequent showers, especially in shoulder-monsoon months.", price: "₹899",  image: "🌂", affiliateUrl: amazonSearchUrl("packable+rain+jacket+travel"), tag: "Weather essential", tagColor: "bg-forest-100 text-forest-700", why: "The humid tea-country climate means rain is a regular possibility." },
-    { name: "Cash Pouch", description: "Card acceptance drops off quickly outside city centres in this part of Assam.", price: "₹299",  image: "💰", affiliateUrl: amazonSearchUrl("travel+money+pouch"), tag: "Practical essential", tagColor: "bg-purple-100 text-purple-700", why: "Ferry tickets and rural vendors around Nimati Ghat are typically cash-only." },
-  ],
-}];
 
 export default function JorhatGuidePage() {
   return (
@@ -200,9 +188,6 @@ export default function JorhatGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do in Jorhat</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/coorg/abbey-falls.jpg" alt="Tea estate scenery around Jorhat" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>Nimati Ghat:</strong> The ferry departure point for Majuli Island, a short drive from town.</li>
                     <li><strong>Tocklai Tea Research Institute:</strong> One of the world's oldest tea research institutions, of genuine interest to tea enthusiasts.</li>
@@ -322,7 +307,6 @@ export default function JorhatGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={JORHAT_GEAR} destination="Jorhat" />
               <RelatedPostsGrid currentSlug="jorhat-travel-guide" />
             </article>
             <div className="hidden xl:block w-64 2xl:w-72 flex-shrink-0"><div className="sticky top-24"><RelatedSidebar currentSlug="jorhat-travel-guide" /></div></div>

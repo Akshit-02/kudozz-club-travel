@@ -25,8 +25,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/destinations/meghalaya/dawki-river.jpg",
-        width: 1200,
-        height: 630,
+        width: 2560,
+        height: 1921,
         alt: "Clear turquoise river winding through green hills, evoking the Umngot river at Shnongpdeng",
       },
     ],
@@ -517,15 +517,6 @@ export default function ShnongpdengGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Camping, Kayaking & Diving</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/meghalaya/dawki-river.jpg"
-                      alt="Clear river water with visible riverbed, evoking Shnongpdeng's exceptional water clarity"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Riverside Camping</h3>
                   <p>
                     Tented camps line the Umngot&apos;s banks at

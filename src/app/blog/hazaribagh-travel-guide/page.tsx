@@ -7,10 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Hazaribagh Travel Guide: Wildlife Sanctuary & Hazaribagh Lake",
@@ -24,13 +20,13 @@ export const metadata: Metadata = {
     url: "https://club.kudozz.in/blog/hazaribagh-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/coorg/coorg.jpg", width: 1200, height: 630, alt: "Misty plateau hills representative of Hazaribagh, Jharkhand" }],
+    images: [{ url: "/images/blogs/jharkhand/hazaribagh/hazaribagh-lake.webp", width: 1600, height: 1200, alt: "Hazaribagh Lake, Jharkhand" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Hazaribagh Travel Guide: Wildlife Sanctuary & Hazaribagh Lake",
     description: "A cool plateau hill town with a wildlife sanctuary and Damodar valley views — the complete guide to Hazaribagh.",
-    images: ["/images/destinations/coorg/coorg.jpg"],
+    images: ["/images/blogs/jharkhand/hazaribagh/hazaribagh-lake.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/hazaribagh-travel-guide" },
 };
@@ -45,7 +41,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Hazaribagh Travel Guide: Wildlife Sanctuary & Hazaribagh Lake",
           description: "The complete Hazaribagh travel guide.",
-          image: "https://club.kudozz.in/images/destinations/coorg/coorg.jpg",
+          image: "https://club.kudozz.in/images/blogs/jharkhand/hazaribagh/hazaribagh-lake.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
@@ -104,20 +100,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const HAZARIBAGH_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for a cool plateau town and a sanctuary safari drive",
-    emoji: "🌲",
-    items: [
-      { name: "Light Warm Layer", description: "Hazaribagh's elevation keeps mornings and evenings noticeably cooler than much of Jharkhand.", price: "₹1,299",  image: "🧥", affiliateUrl: amazonSearchUrl("light+fleece+jacket+travel"), tag: "Comfort essential", tagColor: "bg-sky-100 text-sky-700", why: "Cool mornings are a genuine feature of this plateau town, especially in winter." },
-      { name: "Binoculars", description: "Given the sanctuary's modest sighting odds, binoculars help make the most of any distant wildlife spotted on a safari drive.", price: "₹1,999",  image: "🔭", affiliateUrl: amazonSearchUrl("binoculars+wildlife+safari"), tag: "Safari essential", tagColor: "bg-amber-100 text-amber-700", why: "Sightings at Hazaribagh Wildlife Sanctuary tend to be more distant than at bigger reserves." },
-      { name: "Comfortable Walking Shoes", description: "For walking up to Canary Hill's viewpoint and around Hazaribagh Lake.", price: "₹1,999",  image: "🥾", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Trek essential", tagColor: "bg-forest-100 text-forest-700", why: "Canary Hill's watchtower involves a short but genuine climb." },
-      { name: "Camera / Zoom Lens", description: "For the Damodar valley views from the plateau edge and any wildlife spotted on safari.", price: "₹8,999+",  image: "📷", affiliateUrl: amazonSearchUrl("travel+camera+zoom+lens"), tag: "Photography essential", tagColor: "bg-purple-100 text-purple-700", why: "The plateau viewpoints are Hazaribagh's most rewarding photo spots." },
-    ],
-  },
-];
-
 export default function HazaribaghGuidePage() {
   return (
     <>
@@ -127,7 +109,7 @@ export default function HazaribaghGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/coorg/coorg.jpg" alt="Misty plateau hills representative of Hazaribagh, Jharkhand" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/jharkhand/hazaribagh/hazaribagh-lake.webp" alt="Hazaribagh Lake, Jharkhand" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -236,7 +218,7 @@ export default function HazaribaghGuidePage() {
                 <section id="top-attractions">
                   <h2>Top Things to Do in Hazaribagh</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/coorg/coorg.jpg" alt="Plateau forest and hills near Hazaribagh" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
+                    <Image src="/images/blogs/jharkhand/hazaribagh/hazaribagh.webp" alt="Hazaribagh, Jharkhand" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
                   </div>
                   <ul>
                     <li><strong>Hazaribagh Wildlife Sanctuary:</strong> A forested sanctuary with leopards, sambar deer, and other wildlife — go for the drive through the forest as much as any guaranteed sighting.</li>
@@ -358,7 +340,6 @@ export default function HazaribaghGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={HAZARIBAGH_GEAR} destination="Hazaribagh" />
               <RelatedPostsGrid currentSlug="hazaribagh-travel-guide" />
             </article>
 

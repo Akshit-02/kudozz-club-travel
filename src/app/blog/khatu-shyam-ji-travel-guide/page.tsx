@@ -25,8 +25,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/destinations/gokarna/hero.jpg",
-        width: 1200,
-        height: 630,
+        width: 2560,
+        height: 1707,
         alt: "A devotional temple town setting, evoking the pilgrimage atmosphere of Khatu Shyam Ji in Rajasthan",
       },
     ],
@@ -516,15 +516,6 @@ export default function KhatuShyamJiGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>The Temple, Rituals & Falgun Mela</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/gokarna/hero.jpg"
-                      alt="A devotional pilgrimage town setting evoking Khatu Shyam Ji, Rajasthan"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>The Main Temple</h3>
                   <p>
                     The Khatu Shyam Ji Temple itself is the focus of every

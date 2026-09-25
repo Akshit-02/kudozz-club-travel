@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/leh-ladakh/leh-ladakh.jpg",
-        width: 1200,
-        height: 630,
-        alt: "High-altitude mountain pass landscape, evoking Nathula Pass on the Sikkim-Tibet border",
+        url: "/images/blogs/sikkim/nathula-pass/nathula-pass.webp",
+        width: 1600,
+        height: 1200,
+        alt: "Nathula Pass, Sikkim",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Nathula Pass Guide: Permits, Height & Tips",
     description:
       "An active Indo-China border post on the historic Old Silk Route, at 4,310 metres — the complete Nathula Pass guide.",
-    images: ["/images/destinations/leh-ladakh/leh-ladakh.jpg"],
+    images: ["/images/blogs/sikkim/nathula-pass/nathula-pass.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/nathula-pass-travel-guide",
@@ -59,7 +60,7 @@ function ArticleSchema() {
           headline: "Nathula Pass Guide: Permits, Height & Tips",
           description:
             "Complete Nathula Pass guide — permits, the Old Silk Route, the Indo-China border post, Baba Mandir, best time to visit, and how to plan the day trip from Gangtok.",
-          image: "https://club.kudozz.in/images/destinations/leh-ladakh/leh-ladakh.jpg",
+          image: "https://club.kudozz.in/images/blogs/sikkim/nathula-pass/nathula-pass.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -199,8 +200,8 @@ export default function NathulaPassGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/leh-ladakh/leh-ladakh.jpg"
-              alt="High-altitude mountain pass landscape, evoking Nathula Pass on the Sikkim-Tibet border"
+              src="/images/blogs/sikkim/nathula-pass/nathula-pass.webp"
+              alt="Nathula Pass, Sikkim"
               fill
               priority
               sizes="100vw"
@@ -514,15 +515,6 @@ export default function NathulaPassGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>The Border Post & Baba Mandir</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/leh-ladakh/leh-ladakh.jpg"
-                      alt="High-altitude mountain border landscape, evoking Nathula Pass"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>The Border Post</h3>
                   <p>
                     Under military supervision, visitors can view the
@@ -533,6 +525,7 @@ export default function NathulaPassGuidePage() {
                     skirmish.
                   </p>
                   <h3>Baba Mandir</h3>
+                  <GuideFigure src="/images/blogs/sikkim/nathula-pass/baba-mandir-nathula-pass.webp" alt="Baba Mandir, Nathula Pass" />
                   <p>
                     A short distance from the pass, this shrine is
                     dedicated to Harbhajan Singh, an Indian soldier still

@@ -525,15 +525,6 @@ export default function KawalTigerReserveGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Safaris & Wildlife</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/telangana/kawal-tiger-reserve/dry-deciduous-forest-grassland-kawal-tiger-reserve.webp"
-                      alt="Grassland and dry deciduous forest inside Kawal Tiger Reserve, with low hills in the background, Adilabad district, Telangana"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Forest Safaris</h3>
                   <p>
                     Forest-department-run safaris cover the reserve's dry

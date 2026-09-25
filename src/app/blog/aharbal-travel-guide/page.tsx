@@ -7,9 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  HIMALAYAN_GEAR,
-} from "@/components/ui/TrekGearRecommendations";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -565,6 +562,15 @@ export default function AharbalGuidePage() {
                       winter snow.
                     </li>
                   </ul>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/jammu-and-kashmir/aharbal/aharbal-falls-rocks-visitors-close-view.webp"
+                      alt="Visitors seated on wet rocks right at the edge of Aharbal Falls, illustrating how close and slippery the unrailed sections can be"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <div
                     className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-xl my-4 text-sm"
                     style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -624,15 +630,6 @@ export default function AharbalGuidePage() {
                       worth asking a guide about.
                     </li>
                   </ul>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/jammu-and-kashmir/aharbal/aharbal-falls-rocks-visitors-close-view.webp"
-                      alt="Visitors seated on wet rocks right at the edge of Aharbal Falls, illustrating how close and slippery the unrailed sections can be"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <p>
                     The rocks closest to the water are perpetually wet and
                     genuinely slippery — this is the one place at Aharbal
@@ -1158,12 +1155,6 @@ export default function AharbalGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              {/* ── Gear Recommendations ──────────────────────────────── */}
-              <TrekGearRecommendations
-                sections={HIMALAYAN_GEAR}
-                destination="Aharbal"
-              />
 
               <RelatedPostsGrid currentSlug="aharbal-travel-guide" />
             </article>

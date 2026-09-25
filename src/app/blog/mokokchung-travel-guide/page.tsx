@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
   title: "Mokokchung Guide: Ao Naga Heartland",
@@ -23,10 +24,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/manali/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Green hill town landscape, evoking Mokokchung's hillside setting in the Ao Naga heartland",
+        url: "/images/blogs/nagaland/mokokchung/mokokchung.webp",
+        width: 1600,
+        height: 1200,
+        alt: "View of Mokokchung, Nagaland",
       },
     ],
   },
@@ -35,7 +36,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Mokokchung Guide: Ao Naga Heartland",
     description: "The cultural heartland of the Ao Naga — the complete Mokokchung guide.",
-    images: ["/images/destinations/manali/hero.jpg"],
+    images: ["/images/blogs/nagaland/mokokchung/mokokchung.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/mokokchung-travel-guide" },
 };
@@ -51,7 +52,7 @@ function ArticleSchema() {
           headline: "Mokokchung Guide: Ao Naga Heartland",
           description:
             "Complete Mokokchung guide — Ao Naga culture, the town's Christian mission history, traditional villages like Chuchuyimlang, how to reach from Kohima, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/manali/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/nagaland/mokokchung/mokokchung.webp",
           datePublished: "2026-09-04",
           dateModified: "2026-09-04",
           publisher: {
@@ -148,8 +149,8 @@ export default function MokokchungGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/manali/hero.jpg"
-              alt="Green hill town landscape, evoking Mokokchung's hillside setting in the Ao Naga heartland"
+              src="/images/blogs/nagaland/mokokchung/mokokchung.webp"
+              alt="View of Mokokchung, Nagaland"
               fill
               priority
               sizes="100vw"
@@ -285,6 +286,7 @@ export default function MokokchungGuidePage() {
 
                 <section id="best-time">
                   <h2>Best Time to Visit Mokokchung</h2>
+                  <GuideFigure src="/images/blogs/nagaland/mokokchung/mokokchung-view.webp" alt="Mokokchung, Nagaland" />
                   <div className="grid sm:grid-cols-2 gap-4 my-6">
                     {[
                       {
@@ -350,15 +352,6 @@ export default function MokokchungGuidePage() {
 
                 <section id="things-to-do">
                   <h2>Mission History & Traditional Villages</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/manali/hero.jpg"
-                      alt="Hillside town landscape typical of the Ao Naga heartland around Mokokchung"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>The Baptist Mission History</h3>
                   <p>
                     Mokokchung&apos;s churches and mission-era buildings

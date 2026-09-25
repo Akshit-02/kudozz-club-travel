@@ -7,10 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -28,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/hampi/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Hampi — Virupaksha Temple and boulder landscape at sunset",
+        url: "/images/blogs/karnataka/hampi/hampi.webp",
+        width: 1600,
+        height: 1067,
+        alt: "View of Hampi, Karnataka",
       },
     ],
   },
@@ -40,7 +37,7 @@ export const metadata: Metadata = {
     title: "Hampi Travel Guide",
     description:
       "Vijayanagara ruins, surreal boulder landscapes and the stone chariot of Vittala — the complete Hampi guide.",
-    images: ["/images/destinations/hampi/hero.jpg"],
+    images: ["/images/blogs/karnataka/hampi/hampi.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/hampi-travel-guide",
@@ -58,7 +55,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Hampi Travel Guide: Ruins, Boulders, Temples & Tips",
           description: "The complete Hampi travel guide.",
-          image: "https://club.kudozz.in/images/destinations/hampi/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/karnataka/hampi/hampi.webp",
           datePublished: "2026-06-29",
           dateModified: "2026-07-12",
           publisher: {
@@ -190,83 +187,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-// ── Hampi-specific gear ───────────────────────────────────────────────────────
-const HAMPI_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear that makes exploring Hampi's ruins genuinely better",
-    emoji: "🏛️",
-    items: [
-      {
-        name: "Hydration Backpack (2L bladder)",
-        description:
-          "Hampi's boulder landscape offers zero shade and temperatures regularly hit 38–42°C from March to June. A hands-free hydration pack means you drink constantly without stopping — critical when climbing boulders.",
-        price: "₹1,299",
-        image: "🎒",
-        affiliateUrl: amazonSearchUrl("hydration+backpack+2L+trekking"),
-        tag: "Heat essential",
-        tagColor: "bg-red-100 text-red-700",
-        why: "Hampi's ruins have almost no shade between sites. Dehydration sets in fast at 40°C on exposed rock. A hydration pack means you drink every few minutes without breaking pace.",
-      },
-      {
-        name: "Wide-Brim Sun Hat (UPF 50+)",
-        description:
-          "A full-brim hat — not a cap — protects your neck and ears while you're craning upward to photograph carvings. The Decathlon Trek 500 hat or similar is perfect for Hampi's exposed terrain.",
-        price: "₹799",
-        image: "👒",
-        affiliateUrl: amazonSearchUrl("wide+brim+sun+hat+UPF50+trekking"),
-        tag: "Shade for your neck",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "Neck and ear sunburn is the most common Hampi injury. You spend hours looking up at temple carvings and boulder formations — a cap leaves your neck completely exposed.",
-      },
-      {
-        name: "Lightweight Compact Camera or Phone Lens Kit",
-        description:
-          "Hampi's carvings demand a camera with decent zoom for architectural details and a wide angle for the boulder landscape panoramas. A clip-on wide-angle + macro lens kit transforms smartphone photography here.",
-        price: "₹999",
-        image: "📷",
-        affiliateUrl: amazonSearchUrl("smartphone+clip+on+lens+kit+wide+macro"),
-        tag: "Photography upgrade",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "The carvings inside Vittala Temple and the scale of the boulder landscape both require lenses your phone doesn't have built-in. A ₹1,000 clip-on kit changes your photos completely.",
-      },
-      {
-        name: "Electrolyte Powder Sachets (ORS / Glucon-D)",
-        description:
-          "Walking 15–20 km across sun-baked granite in 40°C heat depletes electrolytes faster than water alone replaces them. Carry ORS sachets or electrolyte powder — add to your water bottle every morning.",
-        price: "₹299",
-        image: "⚡",
-        affiliateUrl: amazonSearchUrl("ORS+electrolyte+powder+sachets+travel"),
-        tag: "Heat exhaustion prevention",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Heat exhaustion at Hampi is genuinely common — the combination of sun, granite heat, and distance between sites is relentless. ORS sachets cost ₹5 each and could save your trip.",
-      },
-      {
-        name: "Grippy Minimalist Walking Shoes (not flip flops)",
-        description:
-          "Boulder hopping and climbing the smooth granite at Hampi requires shoes with actual grip. Rubber-soled trail runners or minimalist shoes are ideal — thin enough to feel the rock, grippy enough to trust.",
-        price: "₹2,499",
-        image: "👟",
-        affiliateUrl: amazonSearchUrl("minimalist+trail+running+shoes+grip"),
-        tag: "For boulder hopping",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "Flip flops on Hampi's boulders are how people sprain ankles. The granite is smooth, steep, and deceptively slippery. Grippy rubber soles are the single most practical gear choice here.",
-      },
-      {
-        name: "Rechargeable Pocket Fan",
-        description:
-          "Small, USB-rechargeable, clips to a bag strap. When you're standing in line at Vittala Temple in October with 500 other tourists and zero breeze, this is the most appreciated item in your bag.",
-        price: "₹499",
-        image: "🌀",
-        affiliateUrl: amazonSearchUrl("rechargeable+pocket+fan+mini+USB"),
-        tag: "Queue survival",
-        tagColor: "bg-stone-100 text-stone-700",
-        why: "Hampi's major temples have queues — sometimes 20–40 minutes in the open sun. A pocket fan costs ₹500 and makes every queue tolerable.",
-      },
-    ],
-  },
-];
-
 // ── Page ─────────────────────────────────────────────────────────────────────
 export default function HampiPage() {
   return (
@@ -280,8 +200,8 @@ export default function HampiPage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/hampi/hero.jpg"
-              alt="Hampi — Virupaksha Temple and the surreal boulder landscape of the Vijayanagara Empire"
+              src="/images/blogs/karnataka/hampi/hampi.webp"
+              alt="View of Hampi, Karnataka"
               fill
               priority
               sizes="100vw"
@@ -1033,6 +953,7 @@ export default function HampiPage() {
                         className="object-cover"
                       />
                     </div>
+                    <GuideFigure src="/images/blogs/karnataka/hampi/lotus-mahal-and-elephant-stables-hampi.webp" alt="Lotus Mahal & Elephant Stables, Hampi" />
                     <p>
                       The <strong>Lotus Mahal</strong> is the most elegant
                       secular building in Hampi — a two-storey pavilion of
@@ -1787,12 +1708,6 @@ export default function HampiPage() {
                   </Link>
                 ))}
               </div>
-
-              {/* ── Gear Recommendations ──────────────────────────────── */}
-              <TrekGearRecommendations
-                sections={HAMPI_GEAR}
-                destination="Hampi"
-              />
 
               <RelatedPostsGrid currentSlug="hampi-travel-guide" />
             </article>

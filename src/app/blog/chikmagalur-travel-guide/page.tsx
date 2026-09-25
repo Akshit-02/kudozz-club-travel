@@ -7,10 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuidePhotoRow } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
   title: "Chikmagalur Travel Guide: Coffee Estates, Peaks & Waterfalls",
@@ -24,13 +21,13 @@ export const metadata: Metadata = {
     url: "https://club.kudozz.in/blog/chikmagalur-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/coorg/coorg.jpg", width: 1200, height: 630, alt: "Misty coffee estate hills representative of Chikmagalur, Karnataka" }],
+    images: [{ url: "/images/blogs/karnataka/chikmagalur/chikmagalur.webp", width: 1600, height: 1200, alt: "Chikmagalur, Karnataka" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Chikmagalur Travel Guide: Coffee Estates, Peaks & Waterfalls",
     description: "Karnataka's coffee country and the Western Ghats' highest peaks — the complete guide to Chikmagalur.",
-    images: ["/images/destinations/coorg/coorg.jpg"],
+    images: ["/images/blogs/karnataka/chikmagalur/chikmagalur.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/chikmagalur-travel-guide" },
 };
@@ -45,7 +42,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Chikmagalur Travel Guide: Coffee Estates, Peaks & Waterfalls",
           description: "The complete Chikmagalur travel guide.",
-          image: "https://club.kudozz.in/images/destinations/coorg/coorg.jpg",
+          image: "https://club.kudozz.in/images/blogs/karnataka/chikmagalur/chikmagalur.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
@@ -104,20 +101,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const CHIKMAGALUR_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for coffee-estate walks, peak drives, and waterfall trails",
-    emoji: "☕",
-    items: [
-      { name: "Trekking Shoes", description: "Mullayanagiri's short trek and Hebbe Falls' approach both cross uneven, sometimes slippery terrain.", price: "₹3,299",  image: "🥾", affiliateUrl: amazonSearchUrl("trekking+shoes+men+women"), tag: "Trek essential", tagColor: "bg-amber-100 text-amber-700", why: "Both signature sights require real walking on natural terrain, not paved paths." },
-      { name: "Rain Jacket / Poncho", description: "Chikmagalur's elevation brings frequent showers even outside peak monsoon.", price: "₹899",  image: "🧥", affiliateUrl: amazonSearchUrl("packable+rain+jacket+trekking"), tag: "Weather essential", tagColor: "bg-sky-100 text-sky-700", why: "Weather shifts fast in the Western Ghats, and Hebbe Falls is at its best exactly when rain is likely." },
-      { name: "Light Warm Layer", description: "Mornings and evenings at elevation can be genuinely cool, even in a warm-climate state.", price: "₹1,299",  image: "🧣", affiliateUrl: amazonSearchUrl("light+fleece+jacket+travel"), tag: "Comfort essential", tagColor: "bg-forest-100 text-forest-700", why: "Coffee estate mornings can be noticeably chillier than expected for South India." },
-      { name: "Reusable Water Bottle", description: "For the Mullayanagiri walk and a full day of estate touring.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "All-day essential", tagColor: "bg-purple-100 text-purple-700", why: "Facilities thin out quickly once you're away from the main town." },
-    ],
-  },
-];
-
 export default function ChikmagalurGuidePage() {
   return (
     <>
@@ -127,7 +110,7 @@ export default function ChikmagalurGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/coorg/coorg.jpg" alt="Misty coffee estate hills representative of Chikmagalur, Karnataka" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/karnataka/chikmagalur/chikmagalur.webp" alt="Chikmagalur, Karnataka" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -236,7 +219,7 @@ export default function ChikmagalurGuidePage() {
                 <section id="top-attractions">
                   <h2>Top Things to Do in Chikmagalur</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/coorg/coorg.jpg" alt="Coffee estate landscape in Chikmagalur" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
+                    <Image src="/images/blogs/karnataka/chikmagalur/baba-budangiri-chikmagalur.webp" alt="Baba Budangiri, Chikmagalur" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
                   </div>
                   <ul>
                     <li><strong>Mullayanagiri:</strong> Karnataka's highest peak, accessible by a drive plus a short trek, with sweeping Western Ghats views from the summit.</li>
@@ -246,6 +229,13 @@ export default function ChikmagalurGuidePage() {
                     <li><strong>Coffee estate stays and tours:</strong> A defining Chikmagalur experience — walk through working plantations and learn about processing over a homestay stay.</li>
                     <li><strong>Bhadra Wildlife Sanctuary:</strong> A nearby forest reserve for those wanting a wildlife add-on.</li>
                   </ul>
+                  <GuidePhotoRow
+                    images={[
+                      { src: "/images/blogs/karnataka/chikmagalur/mullayanagiri-chikmagalur.webp", alt: "Mullayanagiri, Chikmagalur", caption: "Mullayanagiri, Chikmagalur" },
+                      { src: "/images/blogs/karnataka/chikmagalur/kemmangundi-chikmagalur.webp", alt: "Kemmangundi, Chikmagalur", caption: "Kemmangundi, Chikmagalur" },
+                      { src: "/images/blogs/karnataka/chikmagalur/hebbe-falls-chikmagalur.webp", alt: "Hebbe Falls, Chikmagalur", caption: "Hebbe Falls, Chikmagalur" },
+                    ]}
+                  />
                 </section>
 
                 <section id="where-to-stay">
@@ -363,7 +353,6 @@ export default function ChikmagalurGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={CHIKMAGALUR_GEAR} destination="Chikmagalur" />
               <RelatedPostsGrid currentSlug="chikmagalur-travel-guide" />
             </article>
 

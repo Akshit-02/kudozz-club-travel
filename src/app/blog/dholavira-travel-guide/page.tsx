@@ -7,8 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Dholavira Travel Guide: Harappan City & UNESCO World Heritage Site",
@@ -22,13 +20,13 @@ export const metadata: Metadata = {
     url: "https://club.kudozz.in/blog/dholavira-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/spiti-valley/spiti-valley.jpg", width: 1200, height: 630, alt: "Arid excavated landscape representative of Dholavira, Gujarat" }],
+    images: [{ url: "/images/blogs/gujarat/dholavira/dholavira.webp", width: 1200, height: 900, alt: "Dholavira, Gujarat" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Dholavira Travel Guide: Harappan City & UNESCO World Heritage Site",
     description: "A 5,000-year-old Indus Valley city on a remote island in the Rann of Kutch — the complete guide to Dholavira.",
-    images: ["/images/destinations/spiti-valley/spiti-valley.jpg"],
+    images: ["/images/blogs/gujarat/dholavira/dholavira.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/dholavira-travel-guide" },
 };
@@ -43,7 +41,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Dholavira Travel Guide: Harappan City & UNESCO World Heritage Site",
           description: "The complete Dholavira travel guide.",
-          image: "https://club.kudozz.in/images/destinations/spiti-valley/spiti-valley.jpg",
+          image: "https://club.kudozz.in/images/blogs/gujarat/dholavira/dholavira.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
@@ -102,20 +100,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const DHOLAVIRA_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for an exposed archaeological site in remote Kutch",
-    emoji: "🏺",
-    items: [
-      { name: "Wide-Brim Sun Hat", description: "Dholavira's excavated site offers essentially no shade — real sun protection matters here.", price: "₹399",  image: "👒", affiliateUrl: amazonSearchUrl("wide+brim+sun+hat+travel"), tag: "Site essential", tagColor: "bg-amber-100 text-amber-700", why: "This is one of the most exposed heritage sites on the site's Gujarat coverage — shade is essentially nonexistent." },
-      { name: "High-SPF Sunscreen", description: "Extended walking across the exposed excavated grounds under direct Kutch sun.", price: "₹599",  image: "🧴", affiliateUrl: amazonSearchUrl("high+spf+sunscreen+travel"), tag: "Non-negotiable", tagColor: "bg-red-100 text-red-700", why: "Sunburn is a real, common regret for visitors who underestimate this site's exposure." },
-      { name: "2L Hydration Bottle", description: "Facilities near the remote site are minimal — carrying enough water is essential.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("2l+hydration+water+bottle+travel"), tag: "Remote-site essential", tagColor: "bg-sky-100 text-sky-700", why: "Given the distance from any town, running out of water here is a genuine problem, not just an inconvenience." },
-      { name: "Comfortable Walking Shoes", description: "For navigating the uneven excavated terrain of the citadel, middle town, and lower town.", price: "₹1,999",  image: "🥾", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+outdoor"), tag: "Site essential", tagColor: "bg-forest-100 text-forest-700", why: "The excavated grounds are uneven stone and packed earth, not paved paths." },
-    ],
-  },
-];
-
 export default function DholaviraGuidePage() {
   return (
     <>
@@ -125,7 +109,9 @@ export default function DholaviraGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/spiti-valley/spiti-valley.jpg" alt="Arid excavated landscape representative of Dholavira, Gujarat" fill priority sizes="100vw" className="object-cover" />
+            <Image
+              src="/images/blogs/gujarat/dholavira/dholavira.webp"
+              alt="Dholavira, Gujarat" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -232,9 +218,6 @@ export default function DholaviraGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to See at Dholavira</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/spiti-valley/spiti-valley.jpg" alt="Excavated ruins landscape at Dholavira" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>The water conservation system:</strong> Stepped tanks and channels engineered to harvest scarce water — the site's standout feature.</li>
                     <li><strong>The tripartite city layout:</strong> A walled citadel, middle town, and lower town, offering a rare clear view of Harappan urban planning.</li>
@@ -356,7 +339,6 @@ export default function DholaviraGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={DHOLAVIRA_GEAR} destination="Dholavira" />
               <RelatedPostsGrid currentSlug="dholavira-travel-guide" />
             </article>
 

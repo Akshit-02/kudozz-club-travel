@@ -7,8 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Jagdalpur Travel Guide: Gateway to Bastar's Waterfalls & Tribal Culture",
@@ -21,9 +19,9 @@ export const metadata: Metadata = {
     description: "The district capital that opens onto Chhattisgarh's waterfall country and its deepest tribal heartland — the complete guide to Jagdalpur.",
     url: "https://club.kudozz.in/blog/jagdalpur-travel-guide",
     type: "article", siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/meghalaya/dawki-river.jpg", width: 1200, height: 630, alt: "Forest and river landscape representative of Jagdalpur, Chhattisgarh" }],
+    images: [{ url: "/images/blogs/chhattisgarh/jagdalpur/jagdalpur-2.webp", width: 1600, height: 698, alt: "Jagdalpur, Chhattisgarh" }],
   },
-  twitter: { card: "summary_large_image", title: "Jagdalpur Travel Guide: Gateway to Bastar's Waterfalls & Tribal Culture", description: "The gateway to Chhattisgarh's waterfall country and tribal heartland — the complete guide to Jagdalpur.", images: ["/images/destinations/meghalaya/dawki-river.jpg"] },
+  twitter: { card: "summary_large_image", title: "Jagdalpur Travel Guide: Gateway to Bastar's Waterfalls & Tribal Culture", description: "The gateway to Chhattisgarh's waterfall country and tribal heartland — the complete guide to Jagdalpur.", images: ["/images/blogs/chhattisgarh/jagdalpur/jagdalpur-2.webp"] },
   alternates: { canonical: "https://club.kudozz.in/blog/jagdalpur-travel-guide" },
 };
 
@@ -33,7 +31,7 @@ function ArticleSchema() {
       "@context": "https://schema.org", "@type": "BlogPosting",
       headline: "Jagdalpur Travel Guide: Gateway to Bastar's Waterfalls & Tribal Culture",
       description: "The complete Jagdalpur travel guide.",
-      image: "https://club.kudozz.in/images/destinations/meghalaya/dawki-river.jpg",
+      image: "https://club.kudozz.in/images/blogs/chhattisgarh/jagdalpur/jagdalpur-2.webp",
       datePublished: "2026-09-08", dateModified: "2026-09-08",
       publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
       author: { "@type": "Organization", name: "Kudozz Club" },
@@ -80,16 +78,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const JAGDALPUR_GEAR: GearSection[] = [{
-  title: "Things Worth Carrying", subtitle: "Gear for waterfall day trips and tribal-village visits", emoji: "🌊",
-  items: [
-    { name: "Comfortable Walking Shoes", description: "For the Anthropological Museum grounds, tribal haats, and general day-trip walking around Bastar's waterfalls and forest sites.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-amber-100 text-amber-700", why: "Between museum grounds, haats, and waterfall viewpoints, a full day covers real ground." },
-    { name: "Modest Respectful Clothing", description: "For tribal village and haat visits — dressing modestly and respectfully matters here more than at typical tourist stops.", price: "₹799",  image: "👕", affiliateUrl: amazonSearchUrl("modest+travel+clothing"), tag: "Cultural-visit essential", tagColor: "bg-purple-100 text-purple-700", why: "These are living communities, not staged attractions — respectful dress reflects that." },
-    { name: "Insect Repellent", description: "Forest and lakeside areas around Jagdalpur bring a real mosquito presence, especially at dusk.", price: "₹199",  image: "🦟", affiliateUrl: amazonSearchUrl("insect+repellent+spray+travel"), tag: "Forest essential", tagColor: "bg-forest-100 text-forest-700", why: "Dalpat Sagar and the forested day-trip routes are prime mosquito habitat." },
-    { name: "Camera", description: "For the waterfalls, museum exhibits, and haat scenes — Bastar's landscapes and culture are genuinely photogenic.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-sky-100 text-sky-700", why: "This region offers some of Chhattisgarh's most distinctive photography opportunities." },
-  ],
-}];
-
 export default function JagdalpurGuidePage() {
   return (
     <>
@@ -97,7 +85,7 @@ export default function JagdalpurGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/meghalaya/dawki-river.jpg" alt="Forest and river landscape representative of Jagdalpur, Chhattisgarh" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/chhattisgarh/jagdalpur/jagdalpur-2.webp" alt="Jagdalpur, Chhattisgarh" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -201,9 +189,6 @@ export default function JagdalpurGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do in Jagdalpur</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/meghalaya/dawki-river.jpg" alt="Forest and river scenery around Jagdalpur" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>Bastar Palace:</strong> The former residence of the Bastar royal family, now partly a museum.</li>
                     <li><strong>Anthropological Museum:</strong> A genuinely notable museum documenting the diverse tribal cultures of Bastar district — Gond, Muria, Maria, and other indigenous communities, worth visiting for cultural context before heading further into tribal areas.</li>
@@ -327,7 +312,6 @@ export default function JagdalpurGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={JAGDALPUR_GEAR} destination="Jagdalpur" />
               <RelatedPostsGrid currentSlug="jagdalpur-travel-guide" />
             </article>
             <div className="hidden xl:block w-64 2xl:w-72 flex-shrink-0"><div className="sticky top-24"><RelatedSidebar currentSlug="jagdalpur-travel-guide" /></div></div>

@@ -531,15 +531,6 @@ export default function NaimisharanyaGuidePage() {
                 {/* ── Sacred Sites ───────────────────────────────────────── */}
                 <section id="sacred-sites">
                   <h2>Sacred Sites & Temples</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/uttar-pradesh/naimisharanya/chakra-tirtha-sacred-pond.webp"
-                      alt="The circular ghats of Chakra Tirtha, the sacred pond at Naimisharanya"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Chakra Tirtha</h3>
                   <p>
                     The spiritual heart of Naimisharanya, Chakra Tirtha is a

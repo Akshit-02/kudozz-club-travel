@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -533,15 +534,6 @@ export default function MukteshwarGuidePage() {
                 {/* ── Attractions ────────────────────────────────────────── */}
                 <section id="attractions">
                   <h2>Things to Do in Mukteshwar</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/uttarakhand/mukteshwar/himalayan-sunset-ridge-view-mukteshwar.webp"
-                      alt="Sweeping Himalayan ridge view near Mukteshwar, Kumaon"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Mukteshwar Dham</h3>
                   <p>
                     An ancient Shiva temple after which the town is named,
@@ -552,6 +544,7 @@ export default function MukteshwarGuidePage() {
                     peaks.
                   </p>
                   <h3>Chauli Ki Jali</h3>
+                  <GuideFigure src="/images/blogs/uttarakhand/mukteshwar/chauli-ki-jali-mukteshwar.webp" alt="Chauli Ki Jali, Mukteshwar" />
                   <p>
                     A dramatic cliff face near the temple that has become
                     Mukteshwar's adventure sports centre — rock climbing,

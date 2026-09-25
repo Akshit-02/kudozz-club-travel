@@ -7,10 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuidePhotoRow } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
   title: "Tarkarli Travel Guide: Scuba Diving, Beaches & Malvan",
@@ -24,13 +21,13 @@ export const metadata: Metadata = {
     url: "https://club.kudozz.in/blog/tarkarli-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/andaman/hero.jpg", width: 1200, height: 630, alt: "Clear turquoise coastal water representative of Tarkarli, Maharashtra" }],
+    images: [{ url: "/images/blogs/maharashtra/tarkarli/tarkarli-beach-2.webp", width: 800, height: 533, alt: "Tarkarli Beach, Maharashtra" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Tarkarli Travel Guide: Scuba Diving, Beaches & Malvan",
     description: "Scuba diving, Sindhudurg Fort, and Malvani seafood — the complete guide to Tarkarli.",
-    images: ["/images/destinations/andaman/hero.jpg"],
+    images: ["/images/blogs/maharashtra/tarkarli/tarkarli-beach-2.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/tarkarli-travel-guide" },
 };
@@ -45,7 +42,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Tarkarli Travel Guide: Scuba Diving, Beaches & Malvan",
           description: "The complete Tarkarli travel guide.",
-          image: "https://club.kudozz.in/images/destinations/andaman/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/maharashtra/tarkarli/tarkarli-beach-2.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
@@ -104,22 +101,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const TARKARLI_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for diving, snorkelling, and the beaches",
-    emoji: "🤿",
-    items: [
-      { name: "Rash Guard / Swim Shirt", description: "Protects against sun and reef contact during snorkelling and diving sessions off Malvan — most operators recommend one.", price: "₹899",  image: "🏊", affiliateUrl: amazonSearchUrl("rash+guard+swim+shirt"), tag: "Diving essential", tagColor: "bg-sky-100 text-sky-700", why: "Long boat rides and time in the water add up to serious sun exposure that a rash guard prevents far better than sunscreen alone." },
-      { name: "Waterproof Phone Pouch", description: "Useful for the boat rides to Sindhudurg Fort and Devbagh Sangam without risking a dropped or splashed phone.", price: "₹299",  image: "📱", affiliateUrl: amazonSearchUrl("waterproof+phone+pouch+beach"), tag: "Boat-ride essential", tagColor: "bg-purple-100 text-purple-700", why: "Open boat rides to the fort and backwater sangam both carry real risk of a soaked phone without one." },
-      { name: "Reef-Safe Sunscreen (SPF 50)", description: "Protects skin and the coral patches near Tarkarli's dive sites — regular sunscreen chemicals can harm reef ecosystems.", price: "₹599",  image: "🧴", affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+SPF+50"), tag: "Diving essential", tagColor: "bg-amber-100 text-amber-700", why: "Tarkarli's live coral patches are part of what makes the diving here worthwhile — reef-safe sunscreen helps keep it that way." },
-      { name: "Quick-Dry Beach Towel", description: "Compact and fast-drying for multiple water sessions across a diving-focused trip.", price: "₹499",  image: "🩴", affiliateUrl: amazonSearchUrl("quick+dry+beach+towel"), tag: "Beach essential", tagColor: "bg-forest-100 text-forest-700", why: "Between diving, snorkelling, and beach time, a slow-drying towel becomes a genuine hassle by day two." },
-      { name: "Waterproof Action Camera", description: "For capturing the underwater scuba experience — most dive operators can also provide GoPro footage for a fee, but your own gives more control.", price: "₹3,499",  image: "🎥", affiliateUrl: amazonSearchUrl("waterproof+action+camera"), tag: "Diving essential", tagColor: "bg-red-100 text-red-700", why: "This is one of India's few true scuba destinations outside the islands — worth capturing properly rather than relying only on the operator's photos." },
-      { name: "Dry Bag Backpack (20L)", description: "Keeps a change of clothes and electronics dry across boat rides, beach visits, and the diving day.", price: "₹899",  image: "🎒", affiliateUrl: amazonSearchUrl("waterproof+dry+bag+backpack+20L"), tag: "Trip essential", tagColor: "bg-sky-100 text-sky-700", why: "A day that moves between boats, beaches, and diving centres needs one dry bag that handles all of it." },
-    ],
-  },
-];
-
 export default function TarkarliGuidePage() {
   return (
     <>
@@ -129,7 +110,9 @@ export default function TarkarliGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/andaman/hero.jpg" alt="Clear turquoise coastal water representative of Tarkarli, Maharashtra" fill priority sizes="100vw" className="object-cover" />
+            <Image
+              src="/images/blogs/maharashtra/tarkarli/tarkarli-beach-2.webp"
+              alt="Tarkarli Beach, Maharashtra" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -250,9 +233,6 @@ export default function TarkarliGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Diving, Beaches & Sindhudurg Fort</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/andaman/hero.jpg" alt="Clear coastal water near Tarkarli" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>Scuba Diving & Snorkelling:</strong> Multiple licensed operators run beginner and certified dives over coral patches near Malvan — book in advance during peak months.</li>
                     <li><strong>Tarkarli Beach:</strong> The main beach, known for its exceptionally clear water for the Konkan coast and calm, swimmable conditions in season.</li>
@@ -261,6 +241,11 @@ export default function TarkarliGuidePage() {
                     <li><strong>Chivla Beach:</strong> A quieter stretch near Malvan, good for an early-morning or sunset walk away from the main crowds.</li>
                     <li><strong>Malvan Town:</strong> The nearby market town, worth a stop for Malvani cuisine and as the jumping-off point for Sindhudurg Fort boats.</li>
                   </ul>
+                  <GuidePhotoRow
+                    images={[
+                      { src: "/images/blogs/maharashtra/tarkarli/sindhudurg-fort-tarkarli.webp", alt: "Sindhudurg Fort, Tarkarli", caption: "Sindhudurg Fort, Tarkarli" },
+                    ]}
+                  />
                 </section>
 
                 <section id="where-to-stay">
@@ -382,7 +367,6 @@ export default function TarkarliGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={TARKARLI_GEAR} destination="Tarkarli" />
               <RelatedPostsGrid currentSlug="tarkarli-travel-guide" />
             </article>
 

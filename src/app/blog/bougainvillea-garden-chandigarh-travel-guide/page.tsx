@@ -372,6 +372,15 @@ export default function BougainvilleaGardenGuidePage() {
                     standing as an isolated destination.
                   </p>
 
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/chandigarh/bougainvillea-garden/bougainvillea-glabra-yellow-orange-bracts.webp"
+                      alt="Close-up of a bougainvillea cultivar with yellow-orange bracts, showing the range of colours found across the garden's trellised creepers"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   {/* At a Glance */}
                   <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 my-8">
                     <h4
@@ -560,15 +569,6 @@ export default function BougainvilleaGardenGuidePage() {
                     colour when the plants are in bloom.
                   </p>
 
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/chandigarh/bougainvillea-garden/bougainvillea-glabra-yellow-orange-bracts.webp"
-                      alt="Close-up of a bougainvillea cultivar with yellow-orange bracts, showing the range of colours found across the garden's trellised creepers"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
 
                   <p>
                     Unlike the tightly manicured flowerbeds of the Rose

@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/manali/solang-valley.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Rolling green valley landscape, evoking Dzukou Valley's rounded hills on the Nagaland-Manipur border",
+        url: "/images/blogs/nagaland/dzukou-valley/dzukou-valley-2.webp",
+        width: 1600,
+        height: 900,
+        alt: "Dzukou Valley, Nagaland",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Dzukou Valley Trek Guide: Route & Best Time",
     description:
       "Rolling green hills, a lily found nowhere else on earth — the complete Dzukou Valley trek guide.",
-    images: ["/images/destinations/manali/solang-valley.jpg"],
+    images: ["/images/blogs/nagaland/dzukou-valley/dzukou-valley-2.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/dzukou-valley-travel-guide",
@@ -60,7 +61,7 @@ function ArticleSchema() {
           description:
             "Complete Dzukou Valley trek guide — the route from Viswema, the rare Dzukou lily bloom season, trekker-hut camping, and best time to visit.",
           image:
-            "https://club.kudozz.in/images/destinations/manali/solang-valley.jpg",
+            "https://club.kudozz.in/images/blogs/nagaland/dzukou-valley/dzukou-valley-2.webp",
           datePublished: "2026-09-04",
           dateModified: "2026-09-04",
           publisher: {
@@ -196,8 +197,8 @@ export default function DzukouValleyGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/manali/solang-valley.jpg"
-              alt="Rolling green valley landscape, evoking Dzukou Valley's rounded hills on the Nagaland-Manipur border"
+              src="/images/blogs/nagaland/dzukou-valley/dzukou-valley-2.webp"
+              alt="Dzukou Valley, Nagaland"
               fill
               priority
               sizes="100vw"
@@ -521,15 +522,6 @@ export default function DzukouValleyGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>The Trek & the Valley</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/manali/solang-valley.jpg"
-                      alt="Green rolling hills in Dzukou Valley, Nagaland"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>The Climb from Viswema</h3>
                   <p>
                     The trek's toughest stretch comes early — a steep
@@ -545,6 +537,7 @@ export default function DzukouValleyGuidePage() {
                     India's most extraordinary landscapes.
                   </p>
                   <h3>The Dzukou Lily</h3>
+                  <GuideFigure src="/images/blogs/nagaland/dzukou-valley/the-dzukou-lily-dzukou-valley.webp" alt="The Dzukou Lily, Dzukou Valley" />
                   <p>
                     Found nowhere else on earth, this rare lily blooms
                     roughly June-July, drawing trekkers specifically for

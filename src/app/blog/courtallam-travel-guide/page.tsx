@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/coorg/abbey-falls.jpg",
-        width: 1200,
-        height: 630,
-        alt: "A forested waterfall cascading over rocks, evoking Courtallam's cluster of falls in Tenkasi district",
+        url: "/images/blogs/tamil-nadu/courtallam/courtallam-falls-2.webp",
+        width: 1600,
+        height: 900,
+        alt: "Courtallam Falls, Tamil Nadu",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Courtallam Falls Guide: Best Time & How to Reach",
     description:
       "The 'Spa of South India' — a cluster of waterfalls with a devoted bathing season and a temple town wrapped around them.",
-    images: ["/images/destinations/coorg/abbey-falls.jpg"],
+    images: ["/images/blogs/tamil-nadu/courtallam/courtallam-falls-2.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/courtallam-travel-guide",
@@ -60,7 +61,7 @@ function ArticleSchema() {
           description:
             "Complete Courtallam guide — the Main Falls, Five Falls, Old Falls and Tiger Falls, the Aavani bathing season, Kutralanathar Temple, how to reach Tenkasi district, and a full visit plan.",
           image:
-            "https://club.kudozz.in/images/destinations/coorg/abbey-falls.jpg",
+            "https://club.kudozz.in/images/blogs/tamil-nadu/courtallam/courtallam-falls-2.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -197,8 +198,8 @@ export default function CourtallamGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/coorg/abbey-falls.jpg"
-              alt="A forested waterfall cascading over rocks, evoking Courtallam's cluster of falls in Tenkasi district"
+              src="/images/blogs/tamil-nadu/courtallam/courtallam-falls-2.webp"
+              alt="Courtallam Falls, Tamil Nadu"
               fill
               priority
               sizes="100vw"
@@ -523,16 +524,8 @@ export default function CourtallamGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>The Falls & Kutralanathar Temple</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/coorg/abbey-falls.jpg"
-                      alt="Waterfall cascading through forest near Courtallam"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Main Falls (Chitraruvi)</h3>
+                  <GuideFigure src="/images/blogs/tamil-nadu/courtallam/main-falls-courtallam-falls-2.webp" alt="Main Falls, Courtallam Falls" />
                   <p>
                     The most visited and most developed of the falls, with a
                     managed bathing area suited to families and casual

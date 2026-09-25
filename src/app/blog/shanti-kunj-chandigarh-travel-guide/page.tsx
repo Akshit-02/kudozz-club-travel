@@ -25,8 +25,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/destinations/chandigarh/hero.jpg",
-        width: 1200,
-        height: 630,
+        width: 2560,
+        height: 1920,
         alt: "Quiet green park with walking paths and water features, evoking Chandigarh's Shanti Kunj in Sector 16",
       },
     ],
@@ -506,15 +506,6 @@ export default function ShantiKunjGuidePage() {
                 {/* ── Walking Paths ──────────────────────────────────────── */}
                 <section id="walking-paths">
                   <h2>Walking Paths & Layout</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/chandigarh/hero.jpg"
-                      alt="Calm garden pathway with trees and greenery, evoking the walking paths of Chandigarh's Shanti Kunj"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <p>
                     Where the Rose Garden is organised around flower beds and
                     open lawns, Shanti Kunj leans toward tree cover, modest

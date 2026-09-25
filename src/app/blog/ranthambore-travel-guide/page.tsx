@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/ziro/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Dense green forest landscape, evoking Ranthambore National Park's tiger habitat in Rajasthan",
+        url: "/images/blogs/rajasthan/ranthambore/ranthambore-fort-ranthambore-safari.webp",
+        width: 1600,
+        height: 1200,
+        alt: "Ranthambore Fort, Ranthambore Safari",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Ranthambore Safari Guide: Tigers & Fort",
     description:
       "Tigers photographed against a 10th-century fort's ramparts — the complete guide to Ranthambore National Park.",
-    images: ["/images/destinations/ziro/hero.jpg"],
+    images: ["/images/blogs/rajasthan/ranthambore/ranthambore-fort-ranthambore-safari.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/ranthambore-travel-guide",
@@ -59,7 +60,7 @@ function ArticleSchema() {
           headline: "Ranthambore Safari Guide: Tigers & Fort",
           description:
             "Complete Ranthambore guide — tiger safaris against the backdrop of a 10th-century fort, the zone system, best time and zone for sightings, how to reach from Jaipur, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/ziro/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/rajasthan/ranthambore/ranthambore-fort-ranthambore-safari.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -200,8 +201,8 @@ export default function RanthamboreGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/ziro/hero.jpg"
-              alt="Dense green forest landscape, evoking Ranthambore National Park's tiger habitat in Rajasthan"
+              src="/images/blogs/rajasthan/ranthambore/ranthambore-fort-ranthambore-safari.webp"
+              alt="Ranthambore Fort, Ranthambore Safari"
               fill
               priority
               sizes="100vw"
@@ -514,15 +515,6 @@ export default function RanthamboreGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Safaris, Zones & the Fort</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/ziro/hero.jpg"
-                      alt="Forest habitat within Ranthambore National Park, Rajasthan"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Tiger Safaris & the Zone System</h3>
                   <p>
                     Ranthambore is divided into multiple numbered safari
@@ -534,6 +526,7 @@ export default function RanthamboreGuidePage() {
                     fixed &quot;best zone&quot; list you&apos;ll find online.
                   </p>
                   <h3>Ranthambore Fort</h3>
+                  <GuideFigure src="/images/blogs/rajasthan/ranthambore/ranthambore-fort-ranthambore-safari-2.webp" alt="Ranthambore Fort, Ranthambore Safari" />
                   <p>
                     The ruined 10th-century fort stands within the park
                     itself, visible from several zones and safari routes,

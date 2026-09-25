@@ -7,8 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
   title: "Papi Hills Travel Guide: Godavari Gorge Boat Cruise",
@@ -21,9 +20,9 @@ export const metadata: Metadata = {
     description: "A gorge where the Godavari River narrows between forested hills, best seen from the deck of a slow boat cruise — the complete guide to Papi Hills.",
     url: "https://club.kudozz.in/blog/papi-hills-travel-guide",
     type: "article", siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/kerala/hero.jpg", width: 1200, height: 630, alt: "Forested river gorge scenery representative of Papi Hills, Andhra Pradesh" }],
+    images: [{ url: "/images/blogs/andhra-pradesh/papi-hills/papi-hills-view.webp", width: 1200, height: 900, alt: "Papi Hills, Andhra Pradesh" }],
   },
-  twitter: { card: "summary_large_image", title: "Papi Hills Travel Guide: Godavari Gorge Boat Cruise", description: "A gorge where the Godavari narrows between forested hills — the complete guide to Papi Hills.", images: ["/images/destinations/kerala/hero.jpg"] },
+  twitter: { card: "summary_large_image", title: "Papi Hills Travel Guide: Godavari Gorge Boat Cruise", description: "A gorge where the Godavari narrows between forested hills — the complete guide to Papi Hills.", images: ["/images/blogs/andhra-pradesh/papi-hills/papi-hills-view.webp"] },
   alternates: { canonical: "https://club.kudozz.in/blog/papi-hills-travel-guide" },
 };
 
@@ -33,7 +32,7 @@ function ArticleSchema() {
       "@context": "https://schema.org", "@type": "BlogPosting",
       headline: "Papi Hills Travel Guide: Godavari Gorge Boat Cruise",
       description: "The complete Papi Hills travel guide.",
-      image: "https://club.kudozz.in/images/destinations/kerala/hero.jpg",
+      image: "https://club.kudozz.in/images/blogs/andhra-pradesh/papi-hills/papi-hills-view.webp",
       datePublished: "2026-09-08", dateModified: "2026-09-08",
       publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
       author: { "@type": "Organization", name: "Kudozz Club" },
@@ -80,16 +79,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const PAPI_GEAR: GearSection[] = [{
-  title: "Things Worth Carrying", subtitle: "Gear for a day on the Godavari boat cruise", emoji: "🚤",
-  items: [
-    { name: "Reef-Safe Sunscreen (SPF 50)", description: "Much of the cruise offers direct sun exposure with little shade on deck.", price: "₹599",  image: "🧴", affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+SPF+50"), tag: "Cruise essential", tagColor: "bg-amber-100 text-amber-700", why: "Sunburn is the top regret among travelers who underestimate a full day on an open boat deck." },
-    { name: "Sun Hat", description: "Extended sun exposure on the boat makes a wide-brim hat genuinely useful.", price: "₹399",  image: "🧢", affiliateUrl: amazonSearchUrl("wide+brim+sun+hat+travel"), tag: "Cruise essential", tagColor: "bg-sky-100 text-sky-700", why: "Cabin/covered seating is limited on most cruise boats." },
-    { name: "Light Jacket", description: "Morning and evening portions of the cruise can be noticeably cooler on the water.", price: "₹1,499",  image: "🧥", affiliateUrl: amazonSearchUrl("light+jacket+travel"), tag: "Comfort essential", tagColor: "bg-forest-100 text-forest-700", why: "River breeze makes early departures and late returns cooler than expected." },
-    { name: "Camera", description: "For the forested gorge scenery and the Perantalapalli waterfall stop.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-purple-100 text-purple-700", why: "The gorge scenery is genuinely one of the trip's main draws." },
-  ],
-}];
-
 export default function PapiHillsGuidePage() {
   return (
     <>
@@ -97,7 +86,9 @@ export default function PapiHillsGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/kerala/hero.jpg" alt="Forested river gorge scenery representative of Papi Hills, Andhra Pradesh" fill priority sizes="100vw" className="object-cover" />
+            <Image
+              src="/images/blogs/andhra-pradesh/papi-hills/papi-hills-view.webp"
+              alt="Papi Hills, Andhra Pradesh" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -200,9 +191,6 @@ export default function PapiHillsGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do at Papi Hills</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/kerala/hero.jpg" alt="River gorge scenery around Papi Hills" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>The gorge boat cruise:</strong> The signature experience — a multi-hour journey through the narrowing, forested Godavari gorge.</li>
                     <li><strong>Perantalapalli waterfall stop:</strong> A common stop on many cruise itineraries.</li>
@@ -324,7 +312,6 @@ export default function PapiHillsGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={PAPI_GEAR} destination="Papi Hills" />
               <RelatedPostsGrid currentSlug="papi-hills-travel-guide" />
             </article>
             <div className="hidden xl:block w-64 2xl:w-72 flex-shrink-0"><div className="sticky top-24"><RelatedSidebar currentSlug="papi-hills-travel-guide" /></div></div>

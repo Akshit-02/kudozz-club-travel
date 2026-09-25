@@ -7,10 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -192,84 +188,6 @@ const tableOfContents = [
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
-];
-
-// ── Mahe District gear ───────────────────────────────────────────────────────
-const MAHE_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle:
-      "Gear for riverfront walks in Mahe town, church visits, and the quiet river villages around Palloor, Pandakkal, Chalakkara, and Parakkal",
-    emoji: "🌊",
-    items: [
-      {
-        name: "Comfortable Walking Sandals",
-        description:
-          "Ideal for the Mahe Walkway along the riverfront and the short strolls through Tagore Park and around St. Teresa's Shrine.",
-        price: "₹1,299",
-        image: "👡",
-        affiliateUrl: amazonSearchUrl("comfortable+walking+sandals+travel"),
-        tag: "All-day essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Mahe's compact riverfront and church grounds are best covered slowly on foot rather than by vehicle.",
-      },
-      {
-        name: "Modest Clothing for Church Visits",
-        description:
-          "Covered shoulders for St. Teresa's Shrine and the smaller village churches around Palloor and Pandakkal.",
-        price: "₹899",
-        image: "🧣",
-        affiliateUrl: amazonSearchUrl("travel+modest+clothing+scarf"),
-        tag: "Church essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "St. Teresa's Shrine is an active place of worship, especially busy during its annual feast — modest dress is expected.",
-      },
-      {
-        name: "Reef-Safe Sunscreen (SPF 50)",
-        description:
-          "For open stretches at Mahe Beach, the lighthouse walk, and boat trips along the Mahe and Chalakkara rivers.",
-        price: "₹549",
-        image: "🧴",
-        affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+spf+50"),
-        tag: "Coastal essential",
-        tagColor: "bg-orange-100 text-orange-700",
-        why: "The Malabar coast sun is strong and near-constant, with little shade along the river mouth and beach.",
-      },
-      {
-        name: "Reusable Water Bottle",
-        description:
-          "Useful for the drive out to Chalakkara and Parakkal, where shops are sparser than in Mahe town itself.",
-        price: "₹699",
-        image: "🍶",
-        affiliateUrl: amazonSearchUrl("insulated+water+bottle+steel"),
-        tag: "Everyday essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "Mahe town has plenty of shops, but the surrounding villages thin out quickly once you're past the commune limits.",
-      },
-      {
-        name: "Mosquito Repellent",
-        description:
-          "Worth having near the Mahe and Chalakkara river surroundings, especially at dawn and dusk.",
-        price: "₹199",
-        image: "🦟",
-        affiliateUrl: amazonSearchUrl("mosquito+repellent+travel"),
-        tag: "Riverside essential",
-        tagColor: "bg-red-100 text-red-700",
-        why: "Mahe's river-mouth geography and the smaller rivers around Chalakkara and Pandakkal mean mosquito presence is a genuine everyday factor.",
-      },
-      {
-        name: "Power Bank (10,000 mAh)",
-        description:
-          "Useful for a day covering Palloor, Pandakkal, Chalakkara, and Parakkal, where charging points are limited outside Mahe town.",
-        price: "₹1,299",
-        image: "🔋",
-        affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
-        tag: "Day-trip essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "Mahe is a compact district, but reliable charging infrastructure is concentrated almost entirely in the town centre.",
-      },
-    ],
-  },
 ];
 
 // ── Page ─────────────────────────────────────────────────────────────────────
@@ -601,6 +519,24 @@ export default function MaheDistrictGuidePage() {
                       on any Malabar coast road trip rather than a detour.
                     </li>
                   </ul>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/puducherry/mahe-district/mahe-beach-fishing-boats-shoreline.webp"
+                      alt="Mahe Beach with colourful fishing boats lined along the shore near the river mouth"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/puducherry/mahe-district/st-teresas-shrine-entrance-mahe.webp"
+                      alt="Decorated entrance of St. Teresa's Shrine in Mahe, with the church's name board visible"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <div
                     className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-xl my-4 text-sm"
                     style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -648,15 +584,6 @@ export default function MaheDistrictGuidePage() {
                       landmarks, especially lively during its annual feast.
                     </li>
                   </ul>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/puducherry/mahe-district/st-teresas-shrine-entrance-mahe.webp"
-                      alt="Decorated entrance of St. Teresa's Shrine in Mahe, with the church's name board visible"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <ul>
                     <li>
                       <strong>Tagore Park:</strong> A small, well-kept public
@@ -674,15 +601,6 @@ export default function MaheDistrictGuidePage() {
                       marking the coast, worth the short walk for sea views.
                     </li>
                   </ul>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/puducherry/mahe-district/mahe-beach-fishing-boats-shoreline.webp"
-                      alt="Mahe Beach with colourful fishing boats lined along the shore near the river mouth"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <div
                     className="bg-forest-50 border-l-4 border-forest-500 p-4 rounded-r-xl my-4 text-sm"
                     style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -1154,12 +1072,6 @@ export default function MaheDistrictGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              {/* ── Gear Recommendations ──────────────────────────────── */}
-              <TrekGearRecommendations
-                sections={MAHE_GEAR}
-                destination="Mahe District"
-              />
 
               <RelatedPostsGrid currentSlug="mahe-district-travel-guide" />
             </article>

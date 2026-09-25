@@ -7,10 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuidePhotoRow } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
   title: "Pune Travel Guide: Shaniwar Wada, Sinhagad & City Guide",
@@ -25,13 +22,13 @@ export const metadata: Metadata = {
     url: "https://club.kudozz.in/blog/pune-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/chandigarh/hero.jpg", width: 1200, height: 630, alt: "City skyline view representing Pune, Maharashtra" }],
+    images: [{ url: "/images/blogs/maharashtra/pune/pune-2.webp", width: 1600, height: 1199, alt: "View of Pune, Maharashtra" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Pune Travel Guide: Shaniwar Wada, Sinhagad & City Guide",
     description: "Shaniwar Wada, Sinhagad Fort, and Pune's famous food streets — the complete guide.",
-    images: ["/images/destinations/chandigarh/hero.jpg"],
+    images: ["/images/blogs/maharashtra/pune/pune-2.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/pune-travel-guide" },
 };
@@ -46,7 +43,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Pune Travel Guide: Shaniwar Wada, Sinhagad & City Guide",
           description: "The complete Pune travel guide.",
-          image: "https://club.kudozz.in/images/destinations/chandigarh/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/maharashtra/pune/pune-2.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
@@ -98,20 +95,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const PUNE_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for fort visits, heritage walks, and Pune's food streets",
-    emoji: "🏯",
-    items: [
-      { name: "Trekking Shoes", description: "The Sinhagad Fort climb involves uneven stone steps and loose gravel — proper grip matters even on the shorter, more popular routes.", price: "₹1,799",  image: "🥾", affiliateUrl: amazonSearchUrl("trekking+shoes+fort+climb"), tag: "Fort-trek essential", tagColor: "bg-red-100 text-red-700", why: "Sinhagad's stone steps and loose gravel sections are easy to slip on in regular sneakers." },
-      { name: "Sun Cap & Sunglasses", description: "Both the heritage walk through Shaniwar Wada and the fort climb at Sinhagad offer little shade for stretches at a time.", price: "₹599",  image: "🧢", affiliateUrl: amazonSearchUrl("sun+cap+sunglasses+travel"), tag: "Sun protection", tagColor: "bg-amber-100 text-amber-700", why: "Both the fort trail and the old-city heritage walk are largely exposed with little tree cover." },
-      { name: "Reusable Water Bottle", description: "Essential for the Sinhagad climb and long city walking days between heritage sites.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "Everyday essential", tagColor: "bg-sky-100 text-sky-700", why: "Stalls thin out on the upper stretch of the Sinhagad trail — carrying your own water avoids relying on them." },
-      { name: "Compact Crossbody Bag", description: "Handy for navigating crowded areas like Dagdusheth Ganpati Temple and FC Road's busy shopping stretch.", price: "₹799",  image: "🎒", affiliateUrl: amazonSearchUrl("compact+crossbody+travel+bag"), tag: "City essential", tagColor: "bg-purple-100 text-purple-700", why: "Pune's busiest markets and temple areas get crowded enough that a secure, close bag is worth it." },
-    ],
-  },
-];
-
 export default function PuneGuidePage() {
   return (
     <>
@@ -121,7 +104,7 @@ export default function PuneGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/chandigarh/hero.jpg" alt="City skyline view representing Pune, Maharashtra" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/maharashtra/pune/pune-2.webp" alt="View of Pune, Maharashtra" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -230,7 +213,7 @@ export default function PuneGuidePage() {
                 <section id="top-attractions">
                   <h2>Top Attractions in Pune</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/chandigarh/hero.jpg" alt="Heritage city architecture representing Pune" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
+                    <Image src="/images/blogs/maharashtra/pune/dagdusheth-halwai-ganpati-temple-pune.webp" alt="Dagdusheth Halwai Ganpati Temple, Pune" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
                   </div>
                   <ul>
                     <li><strong>Shaniwar Wada:</strong> The fortified 18th-century palace that was the seat of the Peshwa rulers — now partly in ruins after a fire, but its grand gate and walls still convey its former scale.</li>
@@ -241,6 +224,13 @@ export default function PuneGuidePage() {
                     <li><strong>Parvati Hill Temple:</strong> A hilltop temple complex offering panoramic city views, reached by a short flight of steps.</li>
                     <li><strong>Koregaon Park:</strong> Pune's most fashionable neighbourhood, known for its cafes, restaurants, and nightlife.</li>
                   </ul>
+                  <GuidePhotoRow
+                    images={[
+                      { src: "/images/blogs/maharashtra/pune/shaniwar-wada-pune-2.webp", alt: "Shaniwar Wada, Pune", caption: "Shaniwar Wada, Pune" },
+                      { src: "/images/blogs/maharashtra/pune/aga-khan-palace-pune.webp", alt: "Aga Khan Palace, Pune", caption: "Aga Khan Palace, Pune" },
+                      { src: "/images/blogs/maharashtra/pune/sinhagad-fort-pune.webp", alt: "Sinhagad Fort, Pune", caption: "Sinhagad Fort, Pune" },
+                    ]}
+                  />
                 </section>
 
                 <section id="where-to-stay">
@@ -350,7 +340,6 @@ export default function PuneGuidePage() {
                 {["Pune", "Maharashtra", "Shaniwar Wada", "Sinhagad Fort", "City Guide", "India"].map((tag) => <Link key={tag} href={`/blog?tag=${tag.toLowerCase().replace(/ /g, "-")}`} className="tag-pill">#{tag}</Link>)}
               </div>
 
-              <TrekGearRecommendations sections={PUNE_GEAR} destination="Pune" />
               <RelatedPostsGrid currentSlug="pune-travel-guide" />
             </article>
 

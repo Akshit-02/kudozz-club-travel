@@ -7,8 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Bomdila Travel Guide: Monastery Town & Gateway to Tawang",
@@ -21,9 +19,9 @@ export const metadata: Metadata = {
     description: "A ridge-top monastery town with panoramic Himalayan views, and the last comfortable stop before the long climb to Tawang — the complete guide to Bomdila.",
     url: "https://club.kudozz.in/blog/bomdila-travel-guide",
     type: "article", siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/manali/hero.jpg", width: 1200, height: 630, alt: "Himalayan ridge-top town scenery representative of Bomdila, Arunachal Pradesh" }],
+    images: [{ url: "/images/blogs/arunachal-pradesh/bomdila/bomdila.webp", width: 1200, height: 900, alt: "Bomdila, Arunachal Pradesh" }],
   },
-  twitter: { card: "summary_large_image", title: "Bomdila Travel Guide: Monastery Town & Gateway to Tawang", description: "A ridge-top monastery town on the road to Tawang — the complete guide to Bomdila.", images: ["/images/destinations/manali/hero.jpg"] },
+  twitter: { card: "summary_large_image", title: "Bomdila Travel Guide: Monastery Town & Gateway to Tawang", description: "A ridge-top monastery town on the road to Tawang — the complete guide to Bomdila.", images: ["/images/blogs/arunachal-pradesh/bomdila/bomdila.webp"] },
   alternates: { canonical: "https://club.kudozz.in/blog/bomdila-travel-guide" },
 };
 
@@ -33,7 +31,7 @@ function ArticleSchema() {
       "@context": "https://schema.org", "@type": "BlogPosting",
       headline: "Bomdila Travel Guide: Monastery Town & Gateway to Tawang",
       description: "The complete Bomdila travel guide.",
-      image: "https://club.kudozz.in/images/destinations/manali/hero.jpg",
+      image: "https://club.kudozz.in/images/blogs/arunachal-pradesh/bomdila/bomdila.webp",
       datePublished: "2026-09-08", dateModified: "2026-09-08",
       publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
       author: { "@type": "Organization", name: "Kudozz Club" },
@@ -80,16 +78,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const BOMDILA_GEAR: GearSection[] = [{
-  title: "Things Worth Carrying", subtitle: "Gear for the first leg of the Tawang circuit", emoji: "🏯",
-  items: [
-    { name: "Warm Layers", description: "Bomdila's ridge-top elevation makes for cool mornings and evenings even outside winter.", price: "₹1,999",  image: "🧥", affiliateUrl: amazonSearchUrl("warm+jacket+hill+travel"), tag: "Trip essential", tagColor: "bg-sky-100 text-sky-700", why: "This is your first stop at meaningful elevation on the route to Tawang." },
-    { name: "Comfortable Walking Shoes", description: "For exploring the monastery grounds and ridge-top viewpoints.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-amber-100 text-amber-700", why: "Bomdila's viewpoints and monastery grounds involve some walking on uneven terrain." },
-    { name: "Camera", description: "For the genuinely panoramic Himalayan foothill views from Bomdila's ridge.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Sightseeing essential", tagColor: "bg-forest-100 text-forest-700", why: "Bomdila's ridge-top position gives some of the best early views on the Tawang route." },
-    { name: "Modest Clothing", description: "For visiting Bomdila Monastery respectfully.", price: "₹599",  image: "👕", affiliateUrl: amazonSearchUrl("modest+travel+clothing"), tag: "Temple essential", tagColor: "bg-purple-100 text-purple-700", why: "This is an active monastery, not just a photo stop." },
-  ],
-}];
-
 export default function BomdilaGuidePage() {
   return (
     <>
@@ -97,7 +85,9 @@ export default function BomdilaGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/manali/hero.jpg" alt="Himalayan ridge-top town scenery representative of Bomdila, Arunachal Pradesh" fill priority sizes="100vw" className="object-cover" />
+            <Image
+              src="/images/blogs/arunachal-pradesh/bomdila/bomdila.webp"
+              alt="Bomdila, Arunachal Pradesh" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -202,9 +192,6 @@ export default function BomdilaGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do in Bomdila</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/manali/hero.jpg" alt="Ridge-top monastery and mountain views around Bomdila" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>Bomdila Monastery:</strong> A Tibetan Buddhist monastery modeled on Tibet's Tsona Gontse Monastery, established with the Dalai Lama's involvement.</li>
                     <li><strong>Ridge-top viewpoints:</strong> Panoramic views over the surrounding Himalayan foothills.</li>
@@ -324,7 +311,6 @@ export default function BomdilaGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={BOMDILA_GEAR} destination="Bomdila" />
               <RelatedPostsGrid currentSlug="bomdila-travel-guide" />
             </article>
             <div className="hidden xl:block w-64 2xl:w-72 flex-shrink-0"><div className="sticky top-24"><RelatedSidebar currentSlug="bomdila-travel-guide" /></div></div>

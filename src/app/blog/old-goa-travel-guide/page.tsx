@@ -7,8 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuidePhotoRow } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
   title: "Old Goa Travel Guide: Basilica of Bom Jesus & UNESCO Churches",
@@ -20,9 +19,9 @@ export const metadata: Metadata = {
     title: "Old Goa Travel Guide: Basilica of Bom Jesus & UNESCO Churches",
     description: "A cluster of UNESCO World Heritage churches from Goa's days as the 'Rome of the East', including the tomb of St. Francis Xavier — the complete guide to Old Goa.",
     url: "https://club.kudozz.in/blog/old-goa-travel-guide", type: "article", siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/hampi/hero.jpg", width: 1200, height: 630, alt: "Colonial-era church heritage representative of Old Goa" }],
+    images: [{ url: "/images/blogs/goa/old-goa/old-goa.webp", width: 1600, height: 1067, alt: "View of Old Goa" }],
   },
-  twitter: { card: "summary_large_image", title: "Old Goa Travel Guide: Basilica of Bom Jesus & UNESCO Churches", description: "UNESCO churches from Goa's colonial past — the complete guide to Old Goa.", images: ["/images/destinations/hampi/hero.jpg"] },
+  twitter: { card: "summary_large_image", title: "Old Goa Travel Guide: Basilica of Bom Jesus & UNESCO Churches", description: "UNESCO churches from Goa's colonial past — the complete guide to Old Goa.", images: ["/images/blogs/goa/old-goa/old-goa.webp"] },
   alternates: { canonical: "https://club.kudozz.in/blog/old-goa-travel-guide" },
 };
 
@@ -32,7 +31,7 @@ function ArticleSchema() {
       "@context": "https://schema.org", "@type": "BlogPosting",
       headline: "Old Goa Travel Guide: Basilica of Bom Jesus & UNESCO Churches",
       description: "The complete Old Goa travel guide.",
-      image: "https://club.kudozz.in/images/destinations/hampi/hero.jpg",
+      image: "https://club.kudozz.in/images/blogs/goa/old-goa/old-goa.webp",
       datePublished: "2026-09-08", dateModified: "2026-09-08",
       publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
       author: { "@type": "Organization", name: "Kudozz Club" },
@@ -79,16 +78,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const OLDGOA_GEAR: GearSection[] = [{
-  title: "Things Worth Carrying", subtitle: "Gear for a heritage church walk", emoji: "⛪",
-  items: [
-    { name: "Modest Cotton Clothing", description: "Covered shoulders and knees are expected across Old Goa's active churches.", price: "₹799",  image: "👕", affiliateUrl: amazonSearchUrl("modest+travel+clothing+cotton"), tag: "Church essential", tagColor: "bg-purple-100 text-purple-700", why: "These are living places of worship, not museum pieces — dress accordingly." },
-    { name: "Comfortable Walking Shoes", description: "For walking between the churches spread across the Old Goa complex.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "Sightseeing essential", tagColor: "bg-amber-100 text-amber-700", why: "The site covers a fair walking distance between its main churches." },
-    { name: "Sun Hat", description: "Old Goa is an outdoor, exposed heritage site with limited shade between buildings.", price: "₹399",  image: "👒", affiliateUrl: amazonSearchUrl("sun+hat+travel+outdoor"), tag: "Weather essential", tagColor: "bg-sky-100 text-sky-700", why: "There's real sun exposure walking the grounds between churches." },
-    { name: "Camera", description: "For the churches' facades and interiors, and the surrounding historic grounds.", price: "₹—",  image: "📷", affiliateUrl: amazonSearchUrl("compact+camera+travel"), tag: "Heritage essential", tagColor: "bg-forest-100 text-forest-700", why: "The architecture here is genuinely significant and photogenic." },
-  ],
-}];
-
 export default function OldGoaGuidePage() {
   return (
     <>
@@ -96,7 +85,7 @@ export default function OldGoaGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/hampi/hero.jpg" alt="Colonial-era church heritage representative of Old Goa" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/goa/old-goa/old-goa.webp" alt="View of Old Goa" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -205,15 +194,19 @@ export default function OldGoaGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to See in Old Goa</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/hampi/hero.jpg" alt="Historic church architecture at Old Goa" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
                   <ul>
                     <li><strong>Basilica of Bom Jesus:</strong> Holds the remains of St. Francis Xavier, exposed for public veneration only during a decennial exposition.</li>
                     <li><strong>Sé Cathedral:</strong> One of Asia's largest churches, notable for its distinctive single-tower facade after lightning damaged the other tower.</li>
                     <li><strong>Church of St. Francis of Assisi:</strong> Houses the Archaeological Museum, with artifacts from Goa's colonial history.</li>
                     <li><strong>Church of Our Lady of the Rosary and Chapel of St. Catherine:</strong> Additional heritage churches within the complex, less crowded than the main two.</li>
                   </ul>
+                  <GuidePhotoRow
+                    images={[
+                      { src: "/images/blogs/goa/old-goa/basilica-of-bom-jesus-old-goa.webp", alt: "Basilica of Bom Jesus, Old Goa", caption: "Basilica of Bom Jesus, Old Goa" },
+                      { src: "/images/blogs/goa/old-goa/s-cathedral-old-goa.webp", alt: "Sé Cathedral, Old Goa", caption: "Sé Cathedral, Old Goa" },
+                      { src: "/images/blogs/goa/old-goa/church-of-st-francis-of-assisi-old-goa.webp", alt: "Church of St. Francis of Assisi, Old Goa", caption: "Church of St. Francis of Assisi, Old Goa" },
+                    ]}
+                  />
                 </section>
 
                 <section id="where-to-stay">
@@ -328,7 +321,6 @@ export default function OldGoaGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={OLDGOA_GEAR} destination="Old Goa" />
               <RelatedPostsGrid currentSlug="old-goa-travel-guide" />
             </article>
             <div className="hidden xl:block w-64 2xl:w-72 flex-shrink-0"><div className="sticky top-24"><RelatedSidebar currentSlug="old-goa-travel-guide" /></div></div>

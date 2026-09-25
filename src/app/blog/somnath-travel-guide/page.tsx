@@ -7,8 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
   title: "Somnath Temple Travel Guide: History, Timings & Light Show",
@@ -22,13 +21,13 @@ export const metadata: Metadata = {
     url: "https://club.kudozz.in/blog/somnath-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/jaisalmer/fort.jpg", width: 1200, height: 630, alt: "Sandstone temple architecture representative of Somnath, Gujarat" }],
+    images: [{ url: "/images/blogs/gujarat/somnath/somnath-temple.webp", width: 1600, height: 1132, alt: "View of Somnath Temple, Gujarat" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Somnath Temple Travel Guide: History, Timings & Light Show",
     description: "One of the 12 Jyotirlingas, rebuilt to face the Arabian Sea — the complete guide to Somnath.",
-    images: ["/images/destinations/jaisalmer/fort.jpg"],
+    images: ["/images/blogs/gujarat/somnath/somnath-temple.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/somnath-travel-guide" },
 };
@@ -43,7 +42,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Somnath Temple Travel Guide: History, Timings & Light Show",
           description: "The complete Somnath travel guide.",
-          image: "https://club.kudozz.in/images/destinations/jaisalmer/fort.jpg",
+          image: "https://club.kudozz.in/images/blogs/gujarat/somnath/somnath-temple.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
@@ -102,20 +101,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const SOMNATH_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for temple visits and the seafront evening show",
-    emoji: "🛕",
-    items: [
-      { name: "Modest Cotton Clothing", description: "Somnath is an active pilgrimage site expecting covered shoulders and legs throughout the temple complex.", price: "₹599",  image: "👕", affiliateUrl: amazonSearchUrl("modest+travel+clothing+cotton"), tag: "Temple essential", tagColor: "bg-purple-100 text-purple-700", why: "Somnath is a genuinely active worship site, not a sightseeing-only monument." },
-      { name: "Comfortable Walking Shoes", description: "For the temple grounds, museum, and a walk along the seafront promenade.", price: "₹1,999",  image: "👟", affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"), tag: "All-day essential", tagColor: "bg-amber-100 text-amber-700", why: "Stone temple grounds and the seafront walk add up over a full day." },
-      { name: "Light Shawl / Stole", description: "Useful as an extra layer of modesty inside the temple and for cooler evening sea breezes during the light show.", price: "₹399",  image: "🧣", affiliateUrl: amazonSearchUrl("light+shawl+travel+stole"), tag: "Temple essential", tagColor: "bg-sky-100 text-sky-700", why: "Sea breeze in the evening can be cooler than the daytime heat suggests." },
-      { name: "Reusable Water Bottle", description: "For a full day covering the temple, museum, Triveni Sangam, and Bhalka Tirth.", price: "₹449",  image: "💧", affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"), tag: "Day-trip essential", tagColor: "bg-forest-100 text-forest-700", why: "Coastal Gujarat heat makes hydration important even in cooler months." },
-    ],
-  },
-];
-
 export default function SomnathGuidePage() {
   return (
     <>
@@ -125,7 +110,7 @@ export default function SomnathGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/jaisalmer/fort.jpg" alt="Sandstone temple architecture representative of Somnath, Gujarat" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/gujarat/somnath/somnath-temple.webp" alt="View of Somnath Temple, Gujarat" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -233,9 +218,7 @@ export default function SomnathGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do in Somnath</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/jaisalmer/fort.jpg" alt="Temple architecture representative of Somnath" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
+                  <GuideFigure src="/images/blogs/gujarat/somnath/somnath-temple-view.webp" alt="Somnath Temple, Gujarat" />
                   <ul>
                     <li><strong>Somnath Temple:</strong> The main shrine, rebuilt in Chalukya style, with its distinctive seafront setting on the Arabian Sea.</li>
                     <li><strong>Evening Light & Sound Show:</strong> A daily program narrating the temple's history — check current timing locally.</li>
@@ -360,7 +343,6 @@ export default function SomnathGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={SOMNATH_GEAR} destination="Somnath" />
               <RelatedPostsGrid currentSlug="somnath-travel-guide" />
             </article>
 

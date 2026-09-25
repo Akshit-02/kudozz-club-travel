@@ -7,10 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -187,84 +183,6 @@ const tableOfContents = [
   { id: "tips", title: "Essential Travel Tips", level: 2 },
   { id: "places-to-explore", title: "Places to Explore in Tamil Nadu", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
-];
-
-// ── Tamil Nadu-specific gear ─────────────────────────────────────────────────
-const TAMIL_NADU_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle:
-      "Gear for temple complexes, hot coastal towns, and a cool hill-station detour",
-    emoji: "🛕",
-    items: [
-      {
-        name: "Comfortable, Easy-Off Sandals",
-        description:
-          "Temples across Tamil Nadu require removing footwear at the entrance, often for long stretches over hot stone — slip-on sandals are far more practical than laced shoes.",
-        price: "₹899",
-        image: "🩴",
-        affiliateUrl: amazonSearchUrl("slip+on+sandals+travel"),
-        tag: "Temple essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "Madurai's Meenakshi Temple and Thanjavur's Brihadeeswarar Temple both involve long barefoot stretches on stone that gets very hot by midday.",
-      },
-      {
-        name: "Reusable Water Bottle",
-        description:
-          "Chennai, Madurai, and the coastal towns get genuinely hot most of the year, with long uncovered temple courtyards.",
-        price: "₹699",
-        image: "🍶",
-        affiliateUrl: amazonSearchUrl("insulated+water+bottle+steel"),
-        tag: "Everyday essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Tamil Nadu's plains stay hot and humid for most of the year — hydration matters across nearly every part of this itinerary.",
-      },
-      {
-        name: "Modest Travel Clothing",
-        description:
-          "Covered shoulders and knees are expected at Tamil Nadu's major temples — a lightweight, modest outfit works better than negotiating rental cloths at the entrance.",
-        price: "₹799",
-        image: "👗",
-        affiliateUrl: amazonSearchUrl("modest+travel+clothing+lightweight"),
-        tag: "Temple essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "Several major temples enforce dress codes strictly, sometimes requiring men to remove shirts or wear a dhoti — packing appropriately avoids last-minute scrambling.",
-      },
-      {
-        name: "Layered Jacket (for Ooty)",
-        description:
-          "The Nilgiri hills get genuinely cold, especially mornings and evenings — a sharp contrast to the plains' heat.",
-        price: "₹1,899",
-        image: "🧥",
-        affiliateUrl: amazonSearchUrl("fleece+jacket+travel+trekking"),
-        tag: "Hill essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "The Chennai/Madurai-to-Ooty temperature swing regularly exceeds 15°C — most travellers under-pack for the hill leg.",
-      },
-      {
-        name: "Power Bank (10,000 mAh)",
-        description:
-          "Useful for long inter-city drives and the Nilgiri Mountain Railway journey up to Ooty.",
-        price: "₹1,299",
-        image: "🔋",
-        affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
-        tag: "Travel-day essential",
-        tagColor: "bg-stone-100 text-stone-700",
-        why: "Tamil Nadu's major sights are spread across a genuinely large state — expect long travel days between temple towns.",
-      },
-      {
-        name: "Sun Hat / Umbrella",
-        description:
-          "Useful for both temple courtyards and coastal sightseeing at Mahabalipuram and Kanyakumari.",
-        price: "₹399",
-        image: "👒",
-        affiliateUrl: amazonSearchUrl("wide+brim+sun+hat+travel"),
-        tag: "Sun essential",
-        tagColor: "bg-red-100 text-red-700",
-        why: "Coastal and temple-town sightseeing both mean long stretches with little shade under intense South Indian sun.",
-      },
-    ],
-  },
 ];
 
 // ── Page ─────────────────────────────────────────────────────────────────────
@@ -616,6 +534,24 @@ export default function TamilNaduGuidePage() {
                       className="object-cover"
                     />
                   </div>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/tamil-nadu/kanyakumari/vivekananda-rock-memorial-kanyakumari.webp"
+                      alt="The Vivekananda Rock Memorial and Thiruvalluvar Statue off the coast of Kanyakumari, where three seas meet"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/tamil-nadu/thanjavur/brihadeeswarar-temple-vimana-thanjavur.webp"
+                      alt="The towering vimana of the Chola-era Brihadeeswarar Temple in Thanjavur at dusk"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <ul>
                     <li>
                       <strong>Marina Beach:</strong> One of the world's
@@ -643,15 +579,6 @@ export default function TamilNaduGuidePage() {
                 {/* ── Madurai ───────────────────────────────────────────── */}
                 <section id="madurai">
                   <h2>Madurai: The Meenakshi Temple</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/tamil-nadu/tamil-nadu/meenakshi-temple-gopuram-madurai.webp"
-                      alt="The painted south gopuram of the Meenakshi Amman Temple, the heart of Madurai"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <p>
                     One of India's oldest continuously inhabited cities,
                     Madurai is built almost entirely around the{" "}
@@ -695,15 +622,6 @@ export default function TamilNaduGuidePage() {
                     <Image
                       src="/images/blogs/tamil-nadu/mahabalipuram/shore-temple-pyramidal-tower-mahabalipuram.webp"
                       alt="The 7th-century Shore Temple's pyramidal tower standing on the Bay of Bengal at Mahabalipuram"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/tamil-nadu/thanjavur/brihadeeswarar-temple-vimana-thanjavur.webp"
-                      alt="The towering vimana of the Chola-era Brihadeeswarar Temple in Thanjavur at dusk"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -788,15 +706,6 @@ export default function TamilNaduGuidePage() {
                     <Image
                       src="/images/blogs/tamil-nadu/rameswaram/ramanathaswamy-temple-gopuram-rameswaram.webp"
                       alt="The towering white gopuram of the Ramanathaswamy Temple in Rameswaram"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/tamil-nadu/kanyakumari/vivekananda-rock-memorial-kanyakumari.webp"
-                      alt="The Vivekananda Rock Memorial and Thiruvalluvar Statue off the coast of Kanyakumari, where three seas meet"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -1382,12 +1291,6 @@ export default function TamilNaduGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              {/* ── Gear Recommendations ──────────────────────────────── */}
-              <TrekGearRecommendations
-                sections={TAMIL_NADU_GEAR}
-                destination="Tamil Nadu"
-              />
 
               <RelatedPostsGrid currentSlug="tamil-nadu-travel-guide" />
             </article>

@@ -3,10 +3,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import SiteHeader from "@/components/layout/SiteHeader";
 import { RelatedPostsGrid, RelatedSidebar } from "@/components/ui/RelatedPosts";
 import TableOfContents from "@/components/ui/TableOfContents";
-import TrekGearRecommendations, {
-  HIMALAYAN_GEAR,
-  SPIRITUAL_GEAR,
-} from "@/components/ui/TrekGearRecommendations";
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
@@ -29,10 +25,10 @@ export const metadata: Metadata = {
     authors: ["Kudozz Club"],
     images: [
       {
-        url: "/images/destinations/rishikesh/rishikesh.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Rishikesh Ganges river and suspension bridge",
+        url: "/images/blogs/uttarakhand/rishikesh-adventure/rishikesh.webp",
+        width: 1600,
+        height: 1200,
+        alt: "View of Rishikesh, Uttarakhand",
       },
     ],
   },
@@ -45,7 +41,7 @@ export const metadata: Metadata = {
     title: "Rishikesh Travel Guide",
     description:
       "Adventure, yoga, rafting and Ganga aarti — everything you need to plan your Rishikesh trip.",
-    images: ["/images/destinations/rishikesh/rishikesh.jpg"],
+    images: ["/images/blogs/uttarakhand/rishikesh-adventure/rishikesh.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/rishikesh-adventure-travel-guide",
@@ -65,7 +61,7 @@ function ArticleSchema() {
           description:
             "The complete Rishikesh travel guide — rafting, yoga, bungee, Ganga aarti, cafes, stays and insider tips.",
           image:
-            "https://club.kudozz.in/images/destinations/rishikesh/rishikesh.jpg",
+            "https://club.kudozz.in/images/blogs/uttarakhand/rishikesh-adventure/rishikesh.webp",
           datePublished: "2026-05-19",
           dateModified: "2026-07-12",
           publisher: {
@@ -214,8 +210,8 @@ export default function RishikeshPage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/rishikesh/rishikesh.jpg"
-              alt="Rishikesh — Ganges river, suspension bridge and Himalayan foothills"
+              src="/images/blogs/uttarakhand/rishikesh-adventure/rishikesh.webp"
+              alt="View of Rishikesh, Uttarakhand"
               fill
               priority
               sizes="100vw"
@@ -1603,19 +1599,6 @@ export default function RishikeshPage() {
                   </Link>
                 ))}
               </div>
-
-              <TrekGearRecommendations
-                sections={[
-                  {
-                    ...HIMALAYAN_GEAR[0],
-                    title: "Things Worth Carrying",
-                    subtitle:
-                      "Gear for rafting, trekking, and ashram life in Rishikesh",
-                  },
-                  ...SPIRITUAL_GEAR,
-                ]}
-                destination="Rishikesh"
-              />
 
               {/* Related Posts Grid */}
               <RelatedPostsGrid currentSlug="rishikesh-adventure-travel-guide" />

@@ -24,10 +24,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/gokarna/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Quiet coastal beach with open sand, evoking Chandipur's vanishing-sea tidal beach in Odisha",
+        url: "/images/blogs/odisha/chandipur/chandipur-beach.webp",
+        width: 1600,
+        height: 1060,
+        alt: "Chandipur Beach, Odisha",
       },
     ],
   },
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     title: "Chandipur Beach Guide: The Vanishing Sea",
     description:
       "A beach where the sea disappears up to 5 km at low tide — the complete Chandipur guide.",
-    images: ["/images/destinations/gokarna/hero.jpg"],
+    images: ["/images/blogs/odisha/chandipur/chandipur-beach.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/chandipur-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           headline: "Chandipur Beach Guide: The Vanishing Sea",
           description:
             "Complete Chandipur guide — the vanishing-sea tide that pulls the water back up to 5 km, tide timings, how to reach from Balasore, where to stay, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/gokarna/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/odisha/chandipur/chandipur-beach.webp",
           datePublished: "2026-09-04",
           dateModified: "2026-09-04",
           publisher: {
@@ -196,8 +196,8 @@ export default function ChandipurGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/gokarna/hero.jpg"
-              alt="Quiet coastal beach with open sand, evoking Chandipur's vanishing-sea tidal beach in Odisha"
+              src="/images/blogs/odisha/chandipur/chandipur-beach.webp"
+              alt="Chandipur Beach, Odisha"
               fill
               priority
               sizes="100vw"
@@ -511,15 +511,6 @@ export default function ChandipurGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>The Vanishing Sea & More</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/gokarna/hero.jpg"
-                      alt="Open coastal sand and calm water near Chandipur, Odisha"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Watching the Sea Recede</h3>
                   <p>
                     The main event: at low tide, the water pulls back

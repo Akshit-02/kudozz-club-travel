@@ -7,10 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuidePhotoRow } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
   title: "Gaya Travel Guide: Vishnupad Temple & Pitru Paksha Pilgrimage",
@@ -27,10 +24,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jaisalmer/fort.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Historic temple architecture evoking Vishnupad Temple in Gaya, Bihar",
+        url: "/images/blogs/bihar/gaya/vishnupad-temple-gaya-2.webp",
+        width: 1600,
+        height: 1005,
+        alt: "Vishnupad Temple, Gaya",
       },
     ],
   },
@@ -38,7 +35,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Gaya Travel Guide: Vishnupad Temple & Pitru Paksha Pilgrimage",
     description: "Vishnupad Temple and the Pitru Paksha ancestral pilgrimage — the complete guide to Gaya.",
-    images: ["/images/destinations/jaisalmer/fort.jpg"],
+    images: ["/images/blogs/bihar/gaya/vishnupad-temple-gaya-2.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/gaya-travel-guide",
@@ -55,7 +52,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Gaya Travel Guide: Vishnupad Temple & Pitru Paksha Pilgrimage",
           description: "The complete Gaya travel guide.",
-          image: "https://club.kudozz.in/images/destinations/jaisalmer/fort.jpg",
+          image: "https://club.kudozz.in/images/blogs/bihar/gaya/vishnupad-temple-gaya-2.webp",
           datePublished: "2026-09-08",
           dateModified: "2026-09-08",
           publisher: {
@@ -147,56 +144,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const GAYA_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for temple visits and the Brahmayoni Hill climb",
-    emoji: "🛕",
-    items: [
-      {
-        name: "Modest, Breathable Clothing",
-        description: "Vishnupad Temple is an active place of worship — covered shoulders and knees are expected.",
-        price: "₹899",
-        image: "🧣",
-        affiliateUrl: amazonSearchUrl("modest+travel+clothing+cotton"),
-        tag: "Respectful travel",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "This is a living pilgrimage site, not a monument — dress accordingly.",
-      },
-      {
-        name: "Comfortable Walking Shoes",
-        description: "Easy slip-on footwear helps for Brahmayoni Hill's steps and temple courtyard walking.",
-        price: "₹1,499",
-        image: "👟",
-        affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
-        tag: "Sightseeing essential",
-        tagColor: "bg-stone-100 text-stone-700",
-        why: "Shoes come off at the temple entrance, so slip-ons save hassle at each stop.",
-      },
-      {
-        name: "Reusable Water Bottle",
-        description: "Useful across a full day of temple visits and the Brahmayoni Hill steps in Bihar's dry heat.",
-        price: "₹699",
-        image: "🍶",
-        affiliateUrl: amazonSearchUrl("insulated+water+bottle+steel"),
-        tag: "Everyday essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Crowds during pilgrimage season can make quick access to bottled water harder.",
-      },
-      {
-        name: "Small Bag for Shoes/Valuables",
-        description: "A compact bag to carry shoes and valuables while inside temple grounds.",
-        price: "₹299",
-        image: "👝",
-        affiliateUrl: amazonSearchUrl("small+travel+pouch+bag"),
-        tag: "Temple essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "Shoe storage at busy pilgrimage temples can be crowded or unreliable during peak season.",
-      },
-    ],
-  },
-];
-
 export default function GayaGuidePage() {
   return (
     <>
@@ -208,8 +155,8 @@ export default function GayaGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jaisalmer/fort.jpg"
-              alt="Historic temple architecture evoking Vishnupad Temple in Gaya, Bihar"
+              src="/images/blogs/bihar/gaya/vishnupad-temple-gaya-2.webp"
+              alt="Vishnupad Temple, Gaya"
               fill
               priority
               sizes="100vw"
@@ -424,8 +371,8 @@ export default function GayaGuidePage() {
                   <h2>Top Things to Do in Gaya</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
-                      src="/images/destinations/jaisalmer/fort.jpg"
-                      alt="Temple architecture at Vishnupad Temple, Gaya"
+                      src="/images/blogs/bihar/gaya/gaya-2.webp"
+                      alt="Gaya, Bihar"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
@@ -449,6 +396,12 @@ export default function GayaGuidePage() {
                       guide since most travelers combine both.
                     </li>
                   </ul>
+                  <GuidePhotoRow
+                    images={[
+                      { src: "/images/blogs/bihar/gaya/brahmayoni-hill-gaya-2.webp", alt: "Brahmayoni Hill, Gaya", caption: "Brahmayoni Hill, Gaya" },
+                      { src: "/images/blogs/bihar/gaya/falgu-river-gaya-2.webp", alt: "Falgu River, Gaya", caption: "Falgu River, Gaya" },
+                    ]}
+                  />
                 </section>
 
                 <section id="where-to-stay">
@@ -697,8 +650,6 @@ export default function GayaGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              <TrekGearRecommendations sections={GAYA_GEAR} destination="Gaya" />
 
               <RelatedPostsGrid currentSlug="gaya-travel-guide" />
             </article>

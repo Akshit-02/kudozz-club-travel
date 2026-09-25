@@ -7,10 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Saranda Forest Travel Guide: Asia's Largest Sal Forest",
@@ -28,8 +24,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/destinations/coorg/abbey-falls.jpg",
-        width: 1200,
-        height: 630,
+        width: 2560,
+        height: 1920,
         alt: "Dense forest canopy representative of Saranda Forest, Jharkhand",
       },
     ],
@@ -149,60 +145,6 @@ const tableOfContents = [
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
-];
-
-const SARANDA_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for a genuinely remote, low-infrastructure forest trip",
-    emoji: "🌲",
-    items: [
-      {
-        name: "Sturdy Trekking Shoes",
-        description:
-          "Interior forest tracks are uneven and largely unmaintained — proper footwear matters more here than at any developed Jharkhand site.",
-        price: "₹2,999",
-        image: "🥾",
-        affiliateUrl: amazonSearchUrl("sturdy+trekking+shoes+forest"),
-        tag: "Non-negotiable",
-        tagColor: "bg-red-100 text-red-700",
-        why: "There is no polished path system here — trails are genuine forest tracks, and good footwear is the single most important item.",
-      },
-      {
-        name: "Insect Repellent",
-        description:
-          "Dense sal canopy and minimal development mean a strong, sustained mosquito and insect presence throughout the forest.",
-        price: "₹199",
-        image: "🦟",
-        affiliateUrl: amazonSearchUrl("insect+repellent+spray+forest"),
-        tag: "Forest essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "Saranda's undisturbed canopy is prime insect habitat, especially near any water sources.",
-      },
-      {
-        name: "Extra Water & Basic Supplies",
-        description:
-          "Shops and facilities are minimal to nonexistent once you're inside the forest tract — carry more than you think you'll need.",
-        price: "₹449",
-        image: "💧",
-        affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"),
-        tag: "Non-negotiable",
-        tagColor: "bg-red-100 text-red-700",
-        why: "This is not a destination with roadside shops every few kilometres — self-sufficiency matters.",
-      },
-      {
-        name: "Power Bank",
-        description:
-          "Mobile network is patchy to absent in much of the interior — a charged power bank helps if you need to reach your guide or driver.",
-        price: "₹1,299",
-        image: "🔋",
-        affiliateUrl: amazonSearchUrl("power+bank+travel"),
-        tag: "Remote-travel essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "Charging options disappear fast once you leave the main road, and connectivity is unreliable throughout.",
-      },
-    ],
-  },
 ];
 
 export default function SarandaForestGuidePage() {
@@ -424,15 +366,6 @@ export default function SarandaForestGuidePage() {
 
                 <section id="top-attractions">
                   <h2>What to See & Do in Saranda Forest</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/coorg/abbey-falls.jpg"
-                      alt="Dense sal forest canopy in Saranda, Jharkhand"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <ul>
                     <li>
                       <strong>The sal forest itself:</strong> The main draw — an unbroken, dense canopy
@@ -676,8 +609,6 @@ export default function SarandaForestGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              <TrekGearRecommendations sections={SARANDA_GEAR} destination="Saranda Forest" />
 
               <RelatedPostsGrid currentSlug="saranda-forest-travel-guide" />
             </article>

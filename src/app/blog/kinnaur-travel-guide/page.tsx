@@ -7,8 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuidePhotoRow } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
   title: "Kinnaur Travel Guide: Apple Orchards, Kinner Kailash & Sangla Valley",
@@ -20,9 +19,9 @@ export const metadata: Metadata = {
     title: "Kinnaur Travel Guide: Apple Orchards, Kinner Kailash & Sangla Valley",
     description: "A tribal Himalayan district of apple orchards and dramatic river gorges, on the old Hindustan-Tibet road toward Spiti — the complete guide to Kinnaur.",
     url: "https://club.kudozz.in/blog/kinnaur-travel-guide", type: "article", siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/leh-ladakh/leh-ladakh.jpg", width: 1200, height: 630, alt: "High-altitude Himalayan valley representative of Kinnaur, Himachal Pradesh" }],
+    images: [{ url: "/images/blogs/himachal-pradesh/kinnaur/kinnaur.webp", width: 1600, height: 900, alt: "View of Kinnaur, Himachal Pradesh" }],
   },
-  twitter: { card: "summary_large_image", title: "Kinnaur Travel Guide: Apple Orchards, Kinner Kailash & Sangla Valley", description: "Apple orchards, dramatic gorges, and the old Hindustan-Tibet road — the complete guide to Kinnaur.", images: ["/images/destinations/leh-ladakh/leh-ladakh.jpg"] },
+  twitter: { card: "summary_large_image", title: "Kinnaur Travel Guide: Apple Orchards, Kinner Kailash & Sangla Valley", description: "Apple orchards, dramatic gorges, and the old Hindustan-Tibet road — the complete guide to Kinnaur.", images: ["/images/blogs/himachal-pradesh/kinnaur/kinnaur.webp"] },
   alternates: { canonical: "https://club.kudozz.in/blog/kinnaur-travel-guide" },
 };
 
@@ -32,7 +31,7 @@ function ArticleSchema() {
       "@context": "https://schema.org", "@type": "BlogPosting",
       headline: "Kinnaur Travel Guide: Apple Orchards, Kinner Kailash & Sangla Valley",
       description: "The complete Kinnaur travel guide.",
-      image: "https://club.kudozz.in/images/destinations/leh-ladakh/leh-ladakh.jpg",
+      image: "https://club.kudozz.in/images/blogs/himachal-pradesh/kinnaur/kinnaur.webp",
       datePublished: "2026-09-07", dateModified: "2026-09-07",
       publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
       author: { "@type": "Organization", name: "Kudozz Club" },
@@ -79,16 +78,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const KINNAUR_GEAR: GearSection[] = [{
-  title: "Things Worth Carrying", subtitle: "Gear for a long high-altitude road trip", emoji: "🏔️",
-  items: [
-    { name: "Warm Layers", description: "Essential even in summer — Kinnaur's higher villages get genuinely cold, especially at night.", price: "₹2,499",  image: "🧥", affiliateUrl: amazonSearchUrl("warm+trekking+jacket+layers"), tag: "Non-negotiable", tagColor: "bg-red-100 text-red-700", why: "Temperature swings between valley floor and higher villages can be dramatic." },
-    { name: "Sturdy Footwear", description: "For walking around villages, viewpoints, and any short treks toward Kinner Kailash views.", price: "₹2,999",  image: "🥾", affiliateUrl: amazonSearchUrl("trekking+shoes+mountain"), tag: "Trip essential", tagColor: "bg-amber-100 text-amber-700", why: "Terrain around Kalpa and Sangla is uneven and hilly." },
-    { name: "Sunscreen (High SPF)", description: "High-altitude sun exposure is significantly more intense than at sea level.", price: "₹599",  image: "🧴", affiliateUrl: amazonSearchUrl("high+spf+sunscreen+travel"), tag: "Altitude essential", tagColor: "bg-sky-100 text-sky-700", why: "Sunburn at altitude happens faster than most travelers expect." },
-    { name: "Basic First-Aid Kit", description: "Sensible for the long, remote stretches of road between towns in Kinnaur.", price: "₹499",  image: "🩹", affiliateUrl: amazonSearchUrl("travel+first+aid+kit"), tag: "Remote-travel essential", tagColor: "bg-purple-100 text-purple-700", why: "Medical facilities are sparse between the district's main towns." },
-  ],
-}];
-
 export default function KinnaurGuidePage() {
   return (
     <>
@@ -96,7 +85,7 @@ export default function KinnaurGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/leh-ladakh/leh-ladakh.jpg" alt="High-altitude Himalayan valley representative of Kinnaur, Himachal Pradesh" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/himachal-pradesh/kinnaur/kinnaur.webp" alt="View of Kinnaur, Himachal Pradesh" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -201,7 +190,7 @@ export default function KinnaurGuidePage() {
                 <section id="top-attractions">
                   <h2>Top Things to Do in Kinnaur</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/leh-ladakh/leh-ladakh.jpg" alt="Mountain landscape around Kinnaur" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
+                    <Image src="/images/blogs/himachal-pradesh/kinnaur/reckong-peo-kinnaur.webp" alt="Reckong Peo, Kinnaur" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
                   </div>
                   <ul>
                     <li><strong>Sangla Valley:</strong> A lush valley leading toward Chitkul, one of Kinnaur's most scenic stretches.</li>
@@ -210,6 +199,13 @@ export default function KinnaurGuidePage() {
                     <li><strong>Nako village and lake:</strong> Further along toward Spiti, part of the broader Kinnaur-Spiti circuit.</li>
                     <li><strong>Reckong Peo:</strong> The district headquarters and practical hub for permits and supplies.</li>
                   </ul>
+                  <GuidePhotoRow
+                    images={[
+                      { src: "/images/blogs/himachal-pradesh/kinnaur/sangla-valley-kinnaur.webp", alt: "Sangla Valley, Kinnaur", caption: "Sangla Valley, Kinnaur" },
+                      { src: "/images/blogs/himachal-pradesh/kinnaur/kalpa-kinnaur.webp", alt: "Kalpa, Kinnaur", caption: "Kalpa, Kinnaur" },
+                      { src: "/images/blogs/himachal-pradesh/kinnaur/kinner-kailash-kinnaur.webp", alt: "Kinner Kailash, Kinnaur", caption: "Kinner Kailash, Kinnaur" },
+                    ]}
+                  />
                 </section>
 
                 <section id="where-to-stay">
@@ -327,7 +323,6 @@ export default function KinnaurGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={KINNAUR_GEAR} destination="Kinnaur" />
               <RelatedPostsGrid currentSlug="kinnaur-travel-guide" />
             </article>
             <div className="hidden xl:block w-64 2xl:w-72 flex-shrink-0"><div className="sticky top-24"><RelatedSidebar currentSlug="kinnaur-travel-guide" /></div></div>

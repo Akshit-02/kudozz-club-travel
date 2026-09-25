@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jammu-kashmir/dal.jpg",
+        url: "/images/blogs/odisha/chilika-lake/nalabana-bird-sanctuary-chilika-lake.webp",
         width: 1200,
-        height: 630,
-        alt: "Calm lake waters with hills in the distance, evoking the scale of Chilika Lake in Odisha",
+        height: 900,
+        alt: "Nalabana Bird Sanctuary, Chilika Lake",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Chilika Lake Guide: Dolphins, Birds & Boating",
     description:
       "Irrawaddy dolphins, a major migratory bird sanctuary, and an island temple — the complete guide to Chilika Lake.",
-    images: ["/images/destinations/jammu-kashmir/dal.jpg"],
+    images: ["/images/blogs/odisha/chilika-lake/nalabana-bird-sanctuary-chilika-lake.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/chilika-lake-travel-guide",
@@ -59,7 +60,7 @@ function ArticleSchema() {
           headline: "Chilika Lake Guide: Dolphins, Birds & Boating",
           description:
             "Complete Chilika Lake guide — Irrawaddy dolphin spotting at Satapada, the migratory bird season at Nalabana Bird Sanctuary, Kalijai Temple, how to reach from Puri, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/jammu-kashmir/dal.jpg",
+          image: "https://club.kudozz.in/images/blogs/odisha/chilika-lake/nalabana-bird-sanctuary-chilika-lake.webp",
           datePublished: "2026-09-04",
           dateModified: "2026-09-04",
           publisher: {
@@ -196,8 +197,8 @@ export default function ChilikaLakeGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jammu-kashmir/dal.jpg"
-              alt="Calm lake waters with hills in the distance, evoking the scale of Chilika Lake in Odisha"
+              src="/images/blogs/odisha/chilika-lake/nalabana-bird-sanctuary-chilika-lake.webp"
+              alt="Nalabana Bird Sanctuary, Chilika Lake"
               fill
               priority
               sizes="100vw"
@@ -515,15 +516,6 @@ export default function ChilikaLakeGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Dolphins, Birds & Kalijai Temple</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/jammu-kashmir/dal.jpg"
-                      alt="Wide lake waters evoking a Chilika Lake boat safari"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>Dolphin-Spotting Boat Safaris</h3>
                   <p>
                     Boats head out from Satapada into the lake's deeper
@@ -541,6 +533,7 @@ export default function ChilikaLakeGuidePage() {
                     and Siberia.
                   </p>
                   <h3>Kalijai Temple</h3>
+                  <GuideFigure src="/images/blogs/odisha/chilika-lake/kalijai-temple-chilika-lake-2.webp" alt="Kalijai Temple, Chilika Lake" />
                   <p>
                     A small temple on an island within the lake, reached by
                     boat, and a notable pilgrimage stop — often combined

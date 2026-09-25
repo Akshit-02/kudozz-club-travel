@@ -7,8 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
   title: "Kullu Travel Guide: Valley of Gods & International Dussehra",
@@ -20,9 +19,9 @@ export const metadata: Metadata = {
     title: "Kullu Travel Guide: Valley of Gods & International Dussehra",
     description: "The 'Valley of Gods', where a week-long Dussehra festival gathers hundreds of local deities in procession — the complete guide to Kullu.",
     url: "https://club.kudozz.in/blog/kullu-travel-guide", type: "article", siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/manali/hadimba-temple.jpg", width: 1200, height: 630, alt: "Himalayan valley temple scenery representative of Kullu, Himachal Pradesh" }],
+    images: [{ url: "/images/blogs/himachal-pradesh/kullu/kullu-2.webp", width: 1600, height: 1067, alt: "View of Kullu, Himachal Pradesh" }],
   },
-  twitter: { card: "summary_large_image", title: "Kullu Travel Guide: Valley of Gods & International Dussehra", description: "The Valley of Gods and its famous Dussehra festival — the complete guide to Kullu.", images: ["/images/destinations/manali/hadimba-temple.jpg"] },
+  twitter: { card: "summary_large_image", title: "Kullu Travel Guide: Valley of Gods & International Dussehra", description: "The Valley of Gods and its famous Dussehra festival — the complete guide to Kullu.", images: ["/images/blogs/himachal-pradesh/kullu/kullu-2.webp"] },
   alternates: { canonical: "https://club.kudozz.in/blog/kullu-travel-guide" },
 };
 
@@ -32,7 +31,7 @@ function ArticleSchema() {
       "@context": "https://schema.org", "@type": "BlogPosting",
       headline: "Kullu Travel Guide: Valley of Gods & International Dussehra",
       description: "The complete Kullu travel guide.",
-      image: "https://club.kudozz.in/images/destinations/manali/hadimba-temple.jpg",
+      image: "https://club.kudozz.in/images/blogs/himachal-pradesh/kullu/kullu-2.webp",
       datePublished: "2026-09-07", dateModified: "2026-09-07",
       publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
       author: { "@type": "Organization", name: "Kudozz Club" },
@@ -79,16 +78,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-const KULLU_GEAR: GearSection[] = [{
-  title: "Things Worth Carrying", subtitle: "Gear for temple visits and the Bijli Mahadev walk", emoji: "🛕",
-  items: [
-    { name: "Comfortable Walking/Trekking Shoes", description: "For the walk/climb to Bijli Mahadev Temple and general valley exploring.", price: "₹2,499",  image: "🥾", affiliateUrl: amazonSearchUrl("trekking+shoes+moderate+hike"), tag: "Trek essential", tagColor: "bg-amber-100 text-amber-700", why: "The Bijli Mahadev approach involves genuine elevation gain on uneven paths." },
-    { name: "Warm Layers", description: "Evenings in the valley cool down quickly, especially outside peak summer.", price: "₹1,999",  image: "🧥", affiliateUrl: amazonSearchUrl("warm+jacket+hill+station"), tag: "Evening essential", tagColor: "bg-sky-100 text-sky-700", why: "Kullu Valley's elevation means noticeably cooler nights than the plains." },
-    { name: "Modest Clothing", description: "For Raghunath Temple and other active religious sites in and around Kullu.", price: "₹599",  image: "👕", affiliateUrl: amazonSearchUrl("modest+travel+clothing"), tag: "Temple essential", tagColor: "bg-purple-100 text-purple-700", why: "Kullu's temples are active worship sites, not just tourist stops." },
-    { name: "Daypack", description: "For carrying water and layers across a day of temple-hopping and the Bijli Mahadev walk.", price: "₹899",  image: "🎒", affiliateUrl: amazonSearchUrl("daypack+travel+trekking"), tag: "All-day essential", tagColor: "bg-forest-100 text-forest-700", why: "Useful for a full day covering temples plus the Bijli Mahadev trek." },
-  ],
-}];
-
 export default function KulluGuidePage() {
   return (
     <>
@@ -96,7 +85,7 @@ export default function KulluGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/manali/hadimba-temple.jpg" alt="Himalayan valley temple scenery representative of Kullu, Himachal Pradesh" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/himachal-pradesh/kullu/kullu-2.webp" alt="View of Kullu, Himachal Pradesh" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
@@ -201,9 +190,7 @@ export default function KulluGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do in Kullu</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image src="/images/destinations/manali/hadimba-temple.jpg" alt="Temple and valley scenery around Kullu" fill sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw" className="object-cover" />
-                  </div>
+                  <GuideFigure src="/images/blogs/himachal-pradesh/kullu/kullu-view.webp" alt="Kullu, Himachal Pradesh" />
                   <ul>
                     <li><strong>Raghunath Temple:</strong> The valley's principal deity temple, central to the Dussehra festivities.</li>
                     <li><strong>Bijli Mahadev Temple:</strong> A hilltop temple across the valley, notable for a tall staff believed to attract lightning, reached via a moderate trek or road-plus-short-walk.</li>
@@ -327,7 +314,6 @@ export default function KulluGuidePage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations sections={KULLU_GEAR} destination="Kullu" />
               <RelatedPostsGrid currentSlug="kullu-travel-guide" />
             </article>
             <div className="hidden xl:block w-64 2xl:w-72 flex-shrink-0"><div className="sticky top-24"><RelatedSidebar currentSlug="kullu-travel-guide" /></div></div>

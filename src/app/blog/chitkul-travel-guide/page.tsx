@@ -7,10 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuidePhotoRow } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -28,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/spiti-valley/spiti-valley.jpg",
-        width: 1200,
-        height: 630,
-        alt: "High-altitude Himalayan village scenery representative of Chitkul, Himachal Pradesh",
+        url: "/images/blogs/himachal-pradesh/chitkul/chitkul.webp",
+        width: 1600,
+        height: 1064,
+        alt: "View of Chitkul, Himachal Pradesh",
       },
     ],
   },
@@ -40,7 +37,7 @@ export const metadata: Metadata = {
     title: "Chitkul Travel Guide: The Last Indian Village Before Tibet",
     description:
       "The last inhabited village on the old Hindustan-Tibet road, beside the Baspa River — the complete guide to Chitkul.",
-    images: ["/images/destinations/spiti-valley/spiti-valley.jpg"],
+    images: ["/images/blogs/himachal-pradesh/chitkul/chitkul.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/chitkul-travel-guide",
@@ -59,7 +56,7 @@ function ArticleSchema() {
           headline: "Chitkul Travel Guide: The Last Indian Village Before Tibet",
           description: "The complete Chitkul travel guide.",
           image:
-            "https://club.kudozz.in/images/destinations/spiti-valley/spiti-valley.jpg",
+            "https://club.kudozz.in/images/blogs/himachal-pradesh/chitkul/chitkul.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: {
@@ -183,61 +180,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-// ── Chitkul-specific gear ───────────────────────────────────────────────────
-const CHITKUL_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for a remote, high-altitude border village",
-    emoji: "🏔️",
-    items: [
-      {
-        name: "Warm Layers",
-        description:
-          "Genuinely cold even in summer at roughly 3,450m — pack proper insulation regardless of season.",
-        price: "₹2,499",
-        image: "🧥",
-        affiliateUrl: amazonSearchUrl("warm+trekking+jacket+layers"),
-        tag: "Non-negotiable",
-        tagColor: "bg-red-100 text-red-700",
-        why: "Chitkul's altitude means cold weather is the norm, not the exception, throughout the accessible season.",
-      },
-      {
-        name: "Comfortable Walking Shoes",
-        description:
-          "For walking around the village and along the Baspa River.",
-        price: "₹1,999",
-        image: "👟",
-        affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
-        tag: "All-day essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "The village and riverside paths involve uneven, rocky ground." ,
-      },
-      {
-        name: "High-SPF Sunscreen",
-        description:
-          "High-altitude sun exposure is significantly more intense than at sea level.",
-        price: "₹599",
-        image: "🧴",
-        affiliateUrl: amazonSearchUrl("high+spf+sunscreen+travel"),
-        tag: "Altitude essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Sunburn happens fast at this elevation, even on cool or overcast days.",
-      },
-      {
-        name: "ID Documents & Basic First-Aid Kit",
-        description:
-          "Given the border-proximate location and remote setting, carry proper identification and basic medical supplies.",
-        price: "₹499",
-        image: "🩹",
-        affiliateUrl: amazonSearchUrl("travel+first+aid+kit"),
-        tag: "Remote-travel essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "Facilities are minimal this far into the mountains, and ID verification may be required en route.",
-      },
-    ],
-  },
-];
-
 // ── Page ─────────────────────────────────────────────────────────────────────
 export default function ChitkulGuidePage() {
   return (
@@ -251,8 +193,8 @@ export default function ChitkulGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/spiti-valley/spiti-valley.jpg"
-              alt="High-altitude Himalayan village scenery representative of Chitkul, Himachal Pradesh"
+              src="/images/blogs/himachal-pradesh/chitkul/chitkul.webp"
+              alt="View of Chitkul, Himachal Pradesh"
               fill
               priority
               sizes="100vw"
@@ -550,15 +492,6 @@ export default function ChitkulGuidePage() {
                 {/* ── Top Attractions ──────────────────────────────────── */}
                 <section id="top-attractions">
                   <h2>Top Things to Do in Chitkul</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/spiti-valley/spiti-valley.jpg"
-                      alt="Mountain and river scenery around Chitkul"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
 
                   <ul>
                     <li>
@@ -586,6 +519,12 @@ export default function ChitkulGuidePage() {
                       slow pace.
                     </li>
                   </ul>
+                  <GuidePhotoRow
+                    images={[
+                      { src: "/images/blogs/himachal-pradesh/chitkul/mathi-temple-chitkul.webp", alt: "Mathi Temple, Chitkul", caption: "Mathi Temple, Chitkul" },
+                      { src: "/images/blogs/himachal-pradesh/chitkul/sangla-valley-chitkul.webp", alt: "Sangla Valley, Chitkul", caption: "Sangla Valley, Chitkul" },
+                    ]}
+                  />
                 </section>
 
                 {/* ── Where to Stay ─────────────────────────────────────── */}
@@ -932,12 +871,6 @@ export default function ChitkulGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              {/* ── Gear Recommendations ──────────────────────────────── */}
-              <TrekGearRecommendations
-                sections={CHITKUL_GEAR}
-                destination="Chitkul"
-              />
 
               <RelatedPostsGrid currentSlug="chitkul-travel-guide" />
             </article>

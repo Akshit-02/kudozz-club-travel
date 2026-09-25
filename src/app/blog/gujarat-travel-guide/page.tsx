@@ -7,10 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -186,84 +182,6 @@ const tableOfContents = [
   { id: "tips", title: "Essential Travel Tips", level: 2 },
   { id: "places-to-explore", title: "Places to Explore in Gujarat", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
-];
-
-// ── Gujarat-specific gear ────────────────────────────────────────────────────
-const GUJARAT_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle:
-      "Gear for desert heat in the Rann of Kutch, jeep safaris in Gir, and long days of temple sightseeing",
-    emoji: "🏜️",
-    items: [
-      {
-        name: "Sunscreen (SPF 50)",
-        description:
-          "The white salt desert of the Rann of Kutch reflects sunlight relentlessly — sun protection here isn't optional.",
-        price: "₹399",
-        image: "🧴",
-        affiliateUrl: amazonSearchUrl("sunscreen+spf+50+travel"),
-        tag: "Desert essential",
-        tagColor: "bg-red-100 text-red-700",
-        why: "Between the salt flats' glare and Gir's open jeep safaris, unprotected skin takes a beating fast in Gujarat's sun.",
-      },
-      {
-        name: "Comfortable Walking Shoes",
-        description:
-          "Ahmedabad's old city, Somnath's temple grounds, and the walk out to the white desert all call for sturdy, broken-in footwear.",
-        price: "₹1,499",
-        image: "👟",
-        affiliateUrl: amazonSearchUrl("comfortable+walking+shoes+travel"),
-        tag: "Sightseeing essential",
-        tagColor: "bg-stone-100 text-stone-700",
-        why: "From stepwells to salt flats, a lot of Gujarat's highlights are covered on foot across uneven, sun-baked ground.",
-      },
-      {
-        name: "Light Cotton Clothing",
-        description:
-          "Loose, breathable cotton copes far better with Gujarat's dry heat than synthetic fabrics, especially in Kutch and Gir.",
-        price: "₹1,299",
-        image: "👕",
-        affiliateUrl: amazonSearchUrl("light+cotton+travel+clothing"),
-        tag: "Everyday essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "Daytime temperatures in Kutch and Saurashtra climb fast outside the winter months — breathable layers make a real difference.",
-      },
-      {
-        name: "Reusable Water Bottle",
-        description:
-          "Essential across long desert drives, temple visits, and jeep safaris where bottled water isn't always close at hand.",
-        price: "₹699",
-        image: "🍶",
-        affiliateUrl: amazonSearchUrl("insulated+water+bottle+steel"),
-        tag: "Everyday essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Gujarat's dry climate and long transit distances make steady hydration important, particularly around the Rann.",
-      },
-      {
-        name: "Power Bank (10,000 mAh)",
-        description:
-          "Useful for long road transfers between Ahmedabad, Kutch, Gir, and the temple towns, plus full-day safari outings.",
-        price: "₹1,299",
-        image: "🔋",
-        affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
-        tag: "Day-trip essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "Gujarat's distances are considerable, and phones double as cameras, maps, and safari trackers on long travel days.",
-      },
-      {
-        name: "Basic First Aid Kit",
-        description:
-          "A compact kit covering dehydration, minor cuts, and motion sickness is worth having on remote Kutch and Gir routes.",
-        price: "₹599",
-        image: "🩹",
-        affiliateUrl: amazonSearchUrl("compact+first+aid+kit+travel"),
-        tag: "Safety essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "Medical facilities thin out fast once you're deep in Kutch's border villages or Gir's forest roads — a basic kit is cheap insurance.",
-      },
-    ],
-  },
 ];
 
 // ── Page ─────────────────────────────────────────────────────────────────────
@@ -611,6 +529,15 @@ export default function GujaratGuidePage() {
                       substantial — expect long travel days.
                     </li>
                   </ul>
+                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
+                    <Image
+                      src="/images/blogs/gujarat/gujarat/dwarkadhish-temple-dwarka-gomti-ghat.webp"
+                      alt="Dwarkadhish Temple's flag-topped spire rising above Dwarka, reflected in the Gomti ghat at sunset"
+                      fill
+                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <div
                     className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-xl my-4 text-sm"
                     style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -625,15 +552,6 @@ export default function GujaratGuidePage() {
                 {/* ── Rann of Kutch ─────────────────────────────────────── */}
                 <section id="rann-of-kutch">
                   <h2>Rann of Kutch: The White Desert</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/gujarat/gujarat/rann-of-kutch-white-desert-gujarat.webp"
-                      alt="The vast white salt flats of the Great Rann of Kutch stretching to the horizon under a clear sky"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <p>
                     The <strong>Great Rann of Kutch</strong> is one of the
                     largest salt deserts on Earth — a flat, white expanse
@@ -712,15 +630,6 @@ export default function GujaratGuidePage() {
                       those visiting Dwarka.
                     </li>
                   </ul>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/gujarat/gujarat/dwarkadhish-temple-dwarka-gomti-ghat.webp"
-                      alt="Dwarkadhish Temple's flag-topped spire rising above Dwarka, reflected in the Gomti ghat at sunset"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <div
                     className="bg-forest-50 border-l-4 border-forest-500 p-4 rounded-r-xl my-4 text-sm"
                     style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -1257,6 +1166,12 @@ export default function GujaratGuidePage() {
                         Dholavira Travel Guide: Harappan City & UNESCO World Heritage Site
                       </Link>
                       <Link
+                        href="/blog/dwarka-travel-guide"
+                        className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
+                      >
+                        Dwarka Travel Guide: Krishna&apos;s Ancient Kingdom & Char Dham Site
+                      </Link>
+                      <Link
                         href="/blog/gir-national-park-travel-guide"
                         className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
                       >
@@ -1378,12 +1293,6 @@ export default function GujaratGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              {/* ── Gear Recommendations ──────────────────────────────── */}
-              <TrekGearRecommendations
-                sections={GUJARAT_GEAR}
-                destination="Gujarat"
-              />
 
               <RelatedPostsGrid currentSlug="gujarat-travel-guide" />
             </article>

@@ -7,10 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -28,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jammu-kashmir/dal.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Calm river-meets-sea waterway representative of Mandrem, Goa",
+        url: "/images/blogs/goa/mandrem/mandrem-beach.webp",
+        width: 1600,
+        height: 835,
+        alt: "Mandrem Beach, Goa",
       },
     ],
   },
@@ -40,7 +37,7 @@ export const metadata: Metadata = {
     title: "Mandrem Beach Travel Guide: Yoga Retreats & River-Meets-Sea Views",
     description:
       "A quiet North Goa beach where a river meets the sea and yoga retreats have replaced the party scene — the complete guide to Mandrem.",
-    images: ["/images/destinations/jammu-kashmir/dal.jpg"],
+    images: ["/images/blogs/goa/mandrem/mandrem-beach.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/mandrem-travel-guide",
@@ -59,7 +56,7 @@ function ArticleSchema() {
           headline:
             "Mandrem Beach Travel Guide: Yoga Retreats & River-Meets-Sea Views",
           description: "The complete Mandrem travel guide.",
-          image: "https://club.kudozz.in/images/destinations/jammu-kashmir/dal.jpg",
+          image: "https://club.kudozz.in/images/blogs/goa/mandrem/mandrem-beach.webp",
           datePublished: "2026-09-08",
           dateModified: "2026-09-08",
           publisher: {
@@ -183,72 +180,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-// ── Mandrem-specific gear ───────────────────────────────────────────────────────
-const MANDREM_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for a slow, wellness-focused beach stay",
-    emoji: "🧘",
-    items: [
-      {
-        name: "Travel Yoga Mat",
-        description:
-          "A lightweight, foldable mat is genuinely useful if you're joining drop-in sessions at Mandrem's retreat centres rather than relying on rentals.",
-        price: "₹1,299",
-        image: "🧘",
-        affiliateUrl: amazonSearchUrl("travel+yoga+mat+foldable"),
-        tag: "Retreat essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "Rental mats at busy retreat centres can run out during peak season — carrying your own removes the uncertainty.",
-      },
-      {
-        name: "Reef-Safe Sunscreen (SPF 50)",
-        description:
-          "Long beach walks between Mandrem and Ashwem offer very little shade — reef-safe formulas protect both your skin and the shallow coastal waters.",
-        price: "₹599",
-        image: "🧴",
-        affiliateUrl: amazonSearchUrl("reef+safe+sunscreen+SPF+50"),
-        tag: "Beach essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "Mandrem's flat, exposed sand means sunburn risk builds up fast on longer walks.",
-      },
-      {
-        name: "Wide-Brim Sun Hat",
-        description:
-          "Useful for the river-mouth walk and any time spent outside during the midday sun, which is intense even outside peak summer.",
-        price: "₹399",
-        image: "👒",
-        affiliateUrl: amazonSearchUrl("wide+brim+sun+hat+travel"),
-        tag: "Comfort essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Shade is scarce along the open river-mouth stretch that makes Mandrem distinctive.",
-      },
-      {
-        name: "Light Cotton Wrap / Sarong",
-        description:
-          "Practical for beach cover-up, yoga sessions, and the occasional cooler evening breeze.",
-        price: "₹449",
-        image: "🧣",
-        affiliateUrl: amazonSearchUrl("cotton+sarong+beach+wrap"),
-        tag: "Versatile essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "One of the most-used, least-packed items on a slow beach trip — doubles as towel, wrap, and yoga cover-up.",
-      },
-      {
-        name: "Insulated Water Bottle",
-        description:
-          "Refillable water matters here — Mandrem's shack and cafe density is lower than Baga or Calangute, so you can't always count on a nearby stop.",
-        price: "₹599",
-        image: "💧",
-        affiliateUrl: amazonSearchUrl("insulated+water+bottle+steel"),
-        tag: "All-day essential",
-        tagColor: "bg-red-100 text-red-700",
-        why: "Fewer shacks per kilometre than the busier North Goa beaches means it pays to carry your own water.",
-      },
-    ],
-  },
-];
-
 // ── Page ─────────────────────────────────────────────────────────────────────
 export default function MandremGuidePage() {
   return (
@@ -262,8 +193,8 @@ export default function MandremGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jammu-kashmir/dal.jpg"
-              alt="Calm river-meets-sea waterway representative of Mandrem, Goa"
+              src="/images/blogs/goa/mandrem/mandrem-beach.webp"
+              alt="Mandrem Beach, Goa"
               fill
               priority
               sizes="100vw"
@@ -574,15 +505,7 @@ export default function MandremGuidePage() {
                 {/* ── Top Attractions ──────────────────────────────────── */}
                 <section id="top-attractions">
                   <h2>Top Things to Do in Mandrem</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/jammu-kashmir/dal.jpg"
-                      alt="Calm backwater channel meeting the sea near Mandrem"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
+                  <GuideFigure src="/images/blogs/goa/mandrem/mandrem-beach-view.webp" alt="Mandrem Beach, Goa" />
 
                   <ul>
                     <li>
@@ -977,12 +900,6 @@ export default function MandremGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              {/* ── Gear Recommendations ──────────────────────────────── */}
-              <TrekGearRecommendations
-                sections={MANDREM_GEAR}
-                destination="Mandrem"
-              />
 
               <RelatedPostsGrid currentSlug="mandrem-travel-guide" />
             </article>

@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/andaman/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Andaman Sea coastline, evoking the harbour views around Ross Island near Port Blair",
+        url: "/images/blogs/andaman-and-nicobar/ross-island-andaman/ross-island.webp",
+        width: 1600,
+        height: 1067,
+        alt: "Ross Island, Andaman & Nicobar Islands",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Ross Island Travel Guide: Ruins, History & How to Visit",
     description:
       "The British capital of the Andamans, now ruins reclaimed by nature — the complete Ross Island guide.",
-    images: ["/images/destinations/andaman/hero.jpg"],
+    images: ["/images/blogs/andaman-and-nicobar/ross-island-andaman/ross-island.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/ross-island-andaman-travel-guide",
@@ -59,7 +60,7 @@ function ArticleSchema() {
           headline: "Ross Island Travel Guide: Ruins, History & How to Visit",
           description:
             "Complete Ross Island guide — the former British capital of the Andamans, now ruins reclaimed by strangler figs. History, the Smritika museum, wildlife, timings, and how to combine it with North Bay Island.",
-          image: "https://club.kudozz.in/images/destinations/andaman/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/andaman-and-nicobar/ross-island-andaman/ross-island.webp",
           datePublished: "2026-09-01",
           dateModified: "2026-09-01",
           publisher: {
@@ -200,8 +201,8 @@ export default function RossIslandGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/andaman/hero.jpg"
-              alt="Andaman Sea coastline, evoking the harbour views around Ross Island near Port Blair"
+              src="/images/blogs/andaman-and-nicobar/ross-island-andaman/ross-island.webp"
+              alt="Ross Island, Andaman & Nicobar Islands"
               fill
               priority
               sizes="100vw"
@@ -430,6 +431,7 @@ export default function RossIslandGuidePage() {
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">
                   <h2>Best Time to Visit Ross Island</h2>
+                  <GuideFigure src="/images/blogs/andaman-and-nicobar/ross-island-andaman/ross-island-view.webp" alt="Ross Island, Andaman & Nicobar Islands" />
                   <p>
                     Ross Island is an outdoor site with a fair amount of
                     walking between ruins, so weather and sea conditions
@@ -560,15 +562,6 @@ export default function RossIslandGuidePage() {
                 {/* ── Ruins Today ────────────────────────────────────────── */}
                 <section id="ruins-today">
                   <h2>The Ruins Today</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/andaman/hero.jpg"
-                      alt="Coastal ruins overtaken by tropical vegetation, evoking Ross Island's colonial-era buildings"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <p>
                     What makes Ross Island genuinely striking isn't any
                     single building — it's the visual collision between

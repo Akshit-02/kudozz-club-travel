@@ -7,10 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuidePhotoRow } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -28,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/blogs/assam/assam/one-horned-rhinoceros-kaziranga-assam.webp",
+        url: "/images/blogs/assam/assam/assam-2.webp",
         width: 1600,
-        height: 1143,
-        alt: "A one-horned Indian rhinoceros grazing on grassland in Kaziranga National Park, Assam",
+        height: 746,
+        alt: "Assam",
       },
     ],
   },
@@ -61,7 +58,7 @@ function ArticleSchema() {
           headline: "Assam Travel Guide: Kaziranga, Guwahati & Majuli Island",
           description: "The complete Assam travel guide.",
           image:
-            "https://club.kudozz.in/images/blogs/assam/assam/one-horned-rhinoceros-kaziranga-assam.webp",
+            "https://club.kudozz.in/images/blogs/assam/assam/assam-2.webp",
           datePublished: "2026-07-22",
           dateModified: "2026-07-22",
           publisher: {
@@ -189,84 +186,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-// ── Assam-specific gear ──────────────────────────────────────────────────────
-const ASSAM_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle:
-      "Gear for wildlife safaris, river crossings, and Assam's humid, monsoon-prone climate",
-    emoji: "🦏",
-    items: [
-      {
-        name: "Binoculars",
-        description:
-          "Essential for spotting rhinos, wild elephants, and birdlife across Kaziranga's open grasslands and wetlands.",
-        price: "₹1,899",
-        image: "🔭",
-        affiliateUrl: amazonSearchUrl("binoculars+wildlife+safari"),
-        tag: "Safari essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "Kaziranga's grasslands stretch far in every direction — binoculars turn a distant grey shape into an unmistakable rhino sighting.",
-      },
-      {
-        name: "Mosquito Repellent",
-        description:
-          "Assam's wetlands, tea gardens, and river islands make mosquito protection a genuine necessity, especially outside the dry winter months.",
-        price: "₹249",
-        image: "🦟",
-        affiliateUrl: amazonSearchUrl("mosquito+repellent+travel"),
-        tag: "Everyday essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "Between Kaziranga's marshy zones and Majuli's riverbanks, mosquitoes are a constant presence — worth packing before you land.",
-      },
-      {
-        name: "Lightweight Rain Jacket",
-        description:
-          "Assam sees rain outside the core monsoon months too, and river crossings to Majuli can turn damp fast.",
-        price: "₹1,199",
-        image: "🧥",
-        affiliateUrl: amazonSearchUrl("lightweight+rain+jacket+travel"),
-        tag: "Weather essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Even in the drier months, showers can appear with little warning — a packable rain shell earns its space in the bag.",
-      },
-      {
-        name: "Power Bank (10,000 mAh)",
-        description:
-          "Useful for long safari mornings, ferry crossings to Majuli, and travel between Guwahati, Kaziranga, and Jorhat.",
-        price: "₹1,299",
-        image: "🔋",
-        affiliateUrl: amazonSearchUrl("power+bank+10000mAh+travel"),
-        tag: "Day-trip essential",
-        tagColor: "bg-purple-100 text-purple-700",
-        why: "Ferry waits and pre-dawn safari starts both drain a phone fast — a backup keeps the camera running for the rhino sighting.",
-      },
-      {
-        name: "Reusable Water Bottle",
-        description:
-          "Handy across long safari drives, river cruises, and Majuli's satra circuit.",
-        price: "₹699",
-        image: "🍶",
-        affiliateUrl: amazonSearchUrl("insulated+water+bottle+steel"),
-        tag: "Everyday essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Assam's humidity adds up over a full day of sightseeing — refillable bottles cut down on plastic in areas with limited waste disposal.",
-      },
-      {
-        name: "Basic First Aid Kit",
-        description:
-          "A compact kit for cuts, motion sickness on ferry crossings, and general travel mishaps in more remote areas like Majuli.",
-        price: "₹499",
-        image: "🩹",
-        affiliateUrl: amazonSearchUrl("travel+first+aid+kit"),
-        tag: "Safety essential",
-        tagColor: "bg-red-100 text-red-700",
-        why: "Medical facilities thin out fast once you're off Guwahati's grid — a basic kit covers the gap on Majuli and around Kaziranga.",
-      },
-    ],
-  },
-];
-
 // ── Page ─────────────────────────────────────────────────────────────────────
 export default function AssamGuidePage() {
   return (
@@ -280,8 +199,8 @@ export default function AssamGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/blogs/assam/assam/one-horned-rhinoceros-kaziranga-assam.webp"
-              alt="A one-horned Indian rhinoceros grazing on grassland in Kaziranga National Park, Assam"
+              src="/images/blogs/assam/assam/assam-2.webp"
+              alt="Assam"
               fill
               priority
               sizes="100vw"
@@ -786,6 +705,12 @@ export default function AssamGuidePage() {
                       history beyond the wildlife circuit.
                     </li>
                   </ul>
+                  <GuidePhotoRow
+                    images={[
+                      { src: "/images/blogs/assam/assam/tea-gardens-assam-2.webp", alt: "Tea Gardens, Assam", caption: "Tea Gardens, Assam" },
+                      { src: "/images/blogs/assam/assam/manas-national-park-assam-2.webp", alt: "Manas National Park, Assam", caption: "Manas National Park, Assam" },
+                    ]}
+                  />
                 </section>
 
                 {/* ── Where to Stay ─────────────────────────────────────── */}
@@ -1340,12 +1265,6 @@ export default function AssamGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              {/* ── Gear Recommendations ──────────────────────────────── */}
-              <TrekGearRecommendations
-                sections={ASSAM_GEAR}
-                destination="Assam"
-              />
 
               <RelatedPostsGrid currentSlug="assam-travel-guide" />
             </article>

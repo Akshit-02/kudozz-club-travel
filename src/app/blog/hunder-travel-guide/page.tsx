@@ -2,9 +2,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import SiteHeader from "@/components/layout/SiteHeader";
 import { RelatedPostsGrid, RelatedSidebar } from "@/components/ui/RelatedPosts";
 import TableOfContents from "@/components/ui/TableOfContents";
-import TrekGearRecommendations, {
-  HIMALAYAN_GEAR,
-} from "@/components/ui/TrekGearRecommendations";
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
@@ -1120,10 +1117,6 @@ export default function HunderPage() {
                 ))}
               </div>
 
-              <TrekGearRecommendations
-                sections={HIMALAYAN_GEAR}
-                destination="Hunder"
-              />
               {/* Related Posts Grid at bottom */}
               <RelatedPostsGrid currentSlug="hunder-travel-guide" />
             </article>

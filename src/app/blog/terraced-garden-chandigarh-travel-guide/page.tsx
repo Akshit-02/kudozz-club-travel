@@ -564,15 +564,6 @@ export default function TerracedGardenGuidePage() {
                     the next as you climb or descend.
                   </p>
 
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/chandigarh/terraced-garden/leisure-valley-tree-arched-pathway-chandigarh.webp"
-                      alt="A tree-arched walking path in Chandigarh's Leisure Valley, the green corridor connecting Sector 33's Terraced Garden to the city's other gardens"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
 
                   <p>
                     Each level typically combines well-kept lawns with

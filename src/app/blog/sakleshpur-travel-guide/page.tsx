@@ -7,10 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, {
-  GearSection,
-} from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -28,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/manali/solang-valley.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Misty hill and forest scenery representative of Sakleshpur, Karnataka",
+        url: "/images/blogs/karnataka/sakleshpur/sakleshpur.webp",
+        width: 1600,
+        height: 900,
+        alt: "View of Sakleshpur, Karnataka",
       },
     ],
   },
@@ -39,7 +36,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Sakleshpur Travel Guide: Coffee Trails, Railway Trek & Waterfalls",
     description: "Coffee country, a star-shaped fort, and an old railway trek — the complete guide to Sakleshpur.",
-    images: ["/images/destinations/manali/solang-valley.jpg"],
+    images: ["/images/blogs/karnataka/sakleshpur/sakleshpur.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/sakleshpur-travel-guide",
@@ -57,7 +54,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Sakleshpur Travel Guide: Coffee Trails, Railway Trek & Waterfalls",
           description: "The complete Sakleshpur travel guide.",
-          image: "https://club.kudozz.in/images/destinations/manali/solang-valley.jpg",
+          image: "https://club.kudozz.in/images/blogs/karnataka/sakleshpur/sakleshpur.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: {
@@ -154,57 +151,6 @@ const tableOfContents = [
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
 ];
 
-// ── Gear ──────────────────────────────────────────────────────────────────────
-const SAKLESHPUR_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for coffee-country trails, tunnels, and viewpoints",
-    emoji: "☕",
-    items: [
-      {
-        name: "Sturdy Trekking Shoes",
-        description: "Essential for the railway trek's uneven ballast track and any coffee-estate trail walking.",
-        price: "₹3,299",
-        image: "🥾",
-        affiliateUrl: amazonSearchUrl("trekking+shoes+men+women"),
-        tag: "Trek essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "The old railway alignment's gravel and ballast surface is hard on regular sneakers over any distance.",
-      },
-      {
-        name: "Headlamp / Torch",
-        description: "For the tunnel sections of the railway trek, where accessible — some stretches run genuinely dark inside.",
-        price: "₹599",
-        image: "🔦",
-        affiliateUrl: amazonSearchUrl("headlamp+torch+trekking"),
-        tag: "Tunnel essential",
-        tagColor: "bg-stone-100 text-stone-700",
-        why: "Phone flashlights aren't a reliable substitute for a proper headlamp inside the longer tunnel stretches.",
-      },
-      {
-        name: "Rain Jacket / Poncho",
-        description: "Sakleshpur's Western Ghats location means sudden showers are common even outside peak monsoon.",
-        price: "₹899",
-        image: "🧥",
-        affiliateUrl: amazonSearchUrl("packable+rain+jacket+trekking"),
-        tag: "Weather essential",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Weather can shift quickly across the misty coffee-estate hills." ,
-      },
-      {
-        name: "Light Warm Layer",
-        description: "Mornings and evenings in the estate country get noticeably cool, even though this is South India.",
-        price: "₹1,299",
-        image: "🧣",
-        affiliateUrl: amazonSearchUrl("light+fleece+jacket+travel"),
-        tag: "Comfort essential",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "Coffee-estate elevation keeps early mornings genuinely chilly for a South Indian destination." ,
-      },
-    ],
-  },
-];
-
 // ── Page ─────────────────────────────────────────────────────────────────────
 export default function SakleshpurGuidePage() {
   return (
@@ -217,8 +163,8 @@ export default function SakleshpurGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/manali/solang-valley.jpg"
-              alt="Misty hill and forest scenery representative of Sakleshpur, Karnataka"
+              src="/images/blogs/karnataka/sakleshpur/sakleshpur.webp"
+              alt="View of Sakleshpur, Karnataka"
               fill
               priority
               sizes="100vw"
@@ -365,15 +311,7 @@ export default function SakleshpurGuidePage() {
 
                 <section id="top-attractions">
                   <h2>Top Things to Do in Sakleshpur</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/manali/solang-valley.jpg"
-                      alt="Coffee estate hills around Sakleshpur"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
+                  <GuideFigure src="/images/blogs/karnataka/sakleshpur/sakleshpur-view.webp" alt="Sakleshpur, Karnataka" />
                   <ul>
                     <li><strong>Green Route railway trek:</strong> A trek along a decommissioned/reduced-use British-era railway alignment through numerous tunnels and bridges — verify current access before planning around it.</li>
                     <li><strong>Manjarabad Fort:</strong> A distinctive star-shaped fort built by Tipu Sultan, notable for its unusual octagonal layout.</li>
@@ -518,8 +456,6 @@ export default function SakleshpurGuidePage() {
                   <Link key={tag} href={`/blog?tag=${tag.toLowerCase().replace(/ /g, "-")}`} className="tag-pill">#{tag}</Link>
                 ))}
               </div>
-
-              <TrekGearRecommendations sections={SAKLESHPUR_GEAR} destination="Sakleshpur" />
 
               <RelatedPostsGrid currentSlug="sakleshpur-travel-guide" />
             </article>

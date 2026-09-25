@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/chandigarh/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Open plains and civic architecture, evoking Ferozepur's border-town character in Punjab",
+        url: "/images/blogs/punjab/ferozepur/ferozepur.webp",
+        width: 1600,
+        height: 900,
+        alt: "View of Ferozepur, Punjab",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Ferozepur Travel Guide: Hussainiwala & Tips",
     description:
       "A solemn martyrs' memorial and a quieter border ceremony than Wagah — the complete Ferozepur guide.",
-    images: ["/images/destinations/chandigarh/hero.jpg"],
+    images: ["/images/blogs/punjab/ferozepur/ferozepur.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/ferozepur-travel-guide",
@@ -59,7 +60,7 @@ function ArticleSchema() {
           headline: "Ferozepur Travel Guide: Hussainiwala & Tips",
           description:
             "Complete Ferozepur guide — the National Martyrs Memorial at Hussainiwala, a quieter alternative to the Wagah Border ceremony, how to reach from Amritsar, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/chandigarh/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/punjab/ferozepur/ferozepur.webp",
           datePublished: "2026-09-04",
           dateModified: "2026-09-04",
           publisher: {
@@ -200,8 +201,8 @@ export default function FerozepurGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/chandigarh/hero.jpg"
-              alt="Open plains and civic architecture, evoking Ferozepur's border-town character in Punjab"
+              src="/images/blogs/punjab/ferozepur/ferozepur.webp"
+              alt="View of Ferozepur, Punjab"
               fill
               priority
               sizes="100vw"
@@ -513,16 +514,8 @@ export default function FerozepurGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Hussainiwala & the Cantonment</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/chandigarh/hero.jpg"
-                      alt="Open plains near the India-Pakistan border at Ferozepur"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>National Martyrs Memorial</h3>
+                  <GuideFigure src="/images/blogs/punjab/ferozepur/national-martyrs-memorial-ferozepur.webp" alt="National Martyrs Memorial, Ferozepur" />
                   <p>
                     The memorial at Hussainiwala marks the cremation site of
                     Bhagat Singh, Rajguru, and Sukhdev, and stands as one of

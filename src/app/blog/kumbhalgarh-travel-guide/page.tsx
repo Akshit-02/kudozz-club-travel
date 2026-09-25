@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -24,10 +25,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jammu-kashmir/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Sweeping mountain and fortified-wall landscape, evoking Kumbhalgarh Fort's 36 km wall across the Aravalli hills",
+        url: "/images/blogs/rajasthan/kumbhalgarh/kumbhalgarh-fort-2.webp",
+        width: 1600,
+        height: 900,
+        alt: "View of Kumbhalgarh Fort, Rajasthan",
       },
     ],
   },
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Kumbhalgarh Fort Guide: The Great Wall of India",
     description:
       "A 36 km fortified wall, Maharana Pratap's birthplace, and a wildlife sanctuary at its feet — the complete Kumbhalgarh guide.",
-    images: ["/images/destinations/jammu-kashmir/hero.jpg"],
+    images: ["/images/blogs/rajasthan/kumbhalgarh/kumbhalgarh-fort-2.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/kumbhalgarh-travel-guide",
@@ -59,7 +60,7 @@ function ArticleSchema() {
           headline: "Kumbhalgarh Fort Guide: The Great Wall of India",
           description:
             "Complete Kumbhalgarh Fort guide — the 36 km fortified wall, Maharana Pratap's birthplace, the evening light and sound show, Kumbhalgarh Wildlife Sanctuary, how to reach from Udaipur, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/jammu-kashmir/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/rajasthan/kumbhalgarh/kumbhalgarh-fort-2.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -196,8 +197,8 @@ export default function KumbhalgarhGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jammu-kashmir/hero.jpg"
-              alt="Sweeping mountain and fortified-wall landscape, evoking Kumbhalgarh Fort's 36 km wall across the Aravalli hills"
+              src="/images/blogs/rajasthan/kumbhalgarh/kumbhalgarh-fort-2.webp"
+              alt="View of Kumbhalgarh Fort, Rajasthan"
               fill
               priority
               sizes="100vw"
@@ -523,15 +524,6 @@ export default function KumbhalgarhGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>The Wall, Light Show & Wildlife Sanctuary</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/jammu-kashmir/hero.jpg"
-                      alt="Fortified wall and hills at Kumbhalgarh, Rajasthan"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>The 36 km Fortified Wall</h3>
                   <p>
                     The wall itself is the headline attraction — a
@@ -542,6 +534,7 @@ export default function KumbhalgarhGuidePage() {
                     surrounding Aravalli landscape.
                   </p>
                   <h3>Maharana Pratap's Birthplace</h3>
+                  <GuideFigure src="/images/blogs/rajasthan/kumbhalgarh/maharana-pratap-s-birthplace-kumbhalgarh-fort.webp" alt="Maharana Pratap's Birthplace, Kumbhalgarh Fort" />
                   <p>
                     Kumbhalgarh holds particular significance as the
                     birthplace of Maharana Pratap, celebrated across
@@ -556,6 +549,7 @@ export default function KumbhalgarhGuidePage() {
                     out a day here.
                   </p>
                   <h3>Kumbhalgarh Wildlife Sanctuary</h3>
+                  <GuideFigure src="/images/blogs/rajasthan/kumbhalgarh/kumbhalgarh-wildlife-sanctuary-kumbhalgarh-fort.webp" alt="Kumbhalgarh Wildlife Sanctuary, Kumbhalgarh Fort" />
                   <p>
                     Surrounding the fort, the sanctuary is home to wolves,
                     leopards, and other Aravalli-range wildlife, offering

@@ -7,6 +7,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -423,6 +424,7 @@ export default function BogathaWaterfallGuidePage() {
                 {/* ── Best Time ─────────────────────────────────────────── */}
                 <section id="best-time">
                   <h2>Best Time to Visit Bogatha Waterfall</h2>
+                  <GuideFigure src="/images/blogs/telangana/bogatha-waterfall/bogatha-waterfall-view.webp" alt="Bogatha Waterfall, Telangana" />
                   <p>
                     Timing matters more here than at almost any other
                     Telangana destination — get the season wrong and there
@@ -533,15 +535,6 @@ export default function BogathaWaterfallGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>The Waterfall & Viewpoint</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/blogs/telangana/bogatha-waterfall/bogatha-waterfall-broad-cascade-mulugu.webp"
-                      alt="Broad tiered cascade of Bogatha Waterfall, Mulugu district"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>The Main Cascade</h3>
                   <p>
                     Bogatha's water spreads across a wide, tiered rock face

@@ -25,8 +25,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/destinations/puducherry/hero.jpg",
-        width: 1200,
-        height: 630,
+        width: 2560,
+        height: 1920,
         alt: "Modern planned city streets, evoking Mohali's contemporary urban character as Chandigarh's satellite city",
       },
     ],
@@ -511,15 +511,6 @@ export default function MohaliGuidePage() {
                 {/* ── Things to Do ──────────────────────────────────────── */}
                 <section id="things-to-do">
                   <h2>Cricket Stadium & City Life</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/puducherry/hero.jpg"
-                      alt="Contemporary city streets, evoking Mohali's modern urban character"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <h3>PCA IS Bindra Stadium</h3>
                   <p>
                     One of India's prominent cricket venues, hosting

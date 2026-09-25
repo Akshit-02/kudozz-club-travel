@@ -7,8 +7,6 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
-import TrekGearRecommendations, { GearSection } from "@/components/ui/TrekGearRecommendations";
-import { amazonSearchUrl } from "@/lib/common";
 
 export const metadata: Metadata = {
   title: "Bhindawas Wildlife Sanctuary Travel Guide: Haryana's Largest Wetland",
@@ -26,8 +24,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/destinations/meghalaya/dawki-river.jpg",
-        width: 1200,
-        height: 630,
+        width: 2560,
+        height: 1921,
         alt: "Wetland reservoir representative of Bhindawas Wildlife Sanctuary, Haryana",
       },
     ],
@@ -147,58 +145,6 @@ const tableOfContents = [
   { id: "budget", title: "Budget Breakdown", level: 2 },
   { id: "tips", title: "Essential Travel Tips", level: 2 },
   { id: "faq", title: "Frequently Asked Questions", level: 2 },
-];
-
-const BHINDAWAS_GEAR: GearSection[] = [
-  {
-    title: "Things Worth Carrying",
-    subtitle: "Gear for a self-sufficient day of birdwatching",
-    emoji: "🦆",
-    items: [
-      {
-        name: "Binoculars (8x42)",
-        description:
-          "Non-negotiable here — most of the birdlife sits well out over open water, and you won't get a real look without them.",
-        price: "₹2,499",
-        image: "🔭",
-        affiliateUrl: amazonSearchUrl("binoculars+8x42+birdwatching"),
-        tag: "Essential",
-        tagColor: "bg-red-100 text-red-700",
-        why: "There's minimal on-site infrastructure to bring you closer to the birds — binoculars do all the work.",
-      },
-      {
-        name: "Zoom Camera / Telephoto Lens",
-        description:
-          "For anyone wanting usable bird photographs rather than just a good look through binoculars.",
-        price: "₹8,999",
-        image: "📷",
-        affiliateUrl: amazonSearchUrl("telephoto+zoom+camera+birdwatching"),
-        tag: "Recommended",
-        tagColor: "bg-sky-100 text-sky-700",
-        why: "Birds here keep their distance across open reservoir water — a real zoom range matters.",
-      },
-      {
-        name: "Neutral-Toned Clothing",
-        description: "Muted greens, browns, and greys keep you less conspicuous near the water's edge.",
-        price: "₹899",
-        image: "🧥",
-        affiliateUrl: amazonSearchUrl("neutral+outdoor+birdwatching+clothing"),
-        tag: "Good Practice",
-        tagColor: "bg-forest-100 text-forest-700",
-        why: "Bright colours are more likely to startle waterbirds before you get a good look.",
-      },
-      {
-        name: "Water and Snacks",
-        description: "There are essentially no shops or stalls inside the sanctuary — come prepared.",
-        price: "—",
-        image: "🥤",
-        affiliateUrl: amazonSearchUrl("reusable+water+bottle+travel"),
-        tag: "Essential",
-        tagColor: "bg-amber-100 text-amber-700",
-        why: "This is a genuinely low-facility destination — self-sufficiency is expected.",
-      },
-    ],
-  },
 ];
 
 export default function BhindawasGuidePage() {
@@ -425,15 +371,6 @@ export default function BhindawasGuidePage() {
 
                 <section id="top-attractions">
                   <h2>What to See at Bhindawas</h2>
-                  <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
-                    <Image
-                      src="/images/destinations/meghalaya/dawki-river.jpg"
-                      alt="Reservoir wetland at Bhindawas Wildlife Sanctuary"
-                      fill
-                      sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
                   <ul>
                     <li>
                       <strong>The reservoir wetland:</strong> The sanctuary's core — open water and marshy edges
@@ -701,8 +638,6 @@ export default function BhindawasGuidePage() {
                   </Link>
                 ))}
               </div>
-
-              <TrekGearRecommendations sections={BHINDAWAS_GEAR} destination="Bhindawas" />
 
               <RelatedPostsGrid currentSlug="bhindawas-travel-guide" />
             </article>
