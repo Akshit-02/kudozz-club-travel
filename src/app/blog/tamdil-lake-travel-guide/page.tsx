@@ -24,10 +24,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jammu-kashmir/dal.jpg",
+        url: "/images/blogs/mizoram/tamdil-lake/tamdil-lake-saitual.webp",
         width: 2560,
         height: 1707,
-        alt: "Calm lake surrounded by hills, evoking Tamdil Lake in central Mizoram",
+        alt: "Tam Dil lake near Saitual, Mizoram",
       },
     ],
   },
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     title: "Tamdil Lake Guide: Legend, Boating & Tips",
     description:
       "A natural lake born from local legend, popular for boating and lakeside stays in central Mizoram.",
-    images: ["/images/destinations/jammu-kashmir/dal.jpg"],
+    images: ["/images/blogs/mizoram/tamdil-lake/tamdil-lake-saitual.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/tamdil-lake-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           headline: "Tamdil Lake Guide: Legend, Boating & Tips",
           description:
             "Complete Tamdil Lake guide — the mustard-plant origin legend, boating and lakeside resorts, how to reach from Thenzawl and Aizawl, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/jammu-kashmir/dal.jpg",
+          image: "https://club.kudozz.in/images/blogs/mizoram/tamdil-lake/tamdil-lake-saitual.webp",
           datePublished: "2026-09-04",
           dateModified: "2026-09-04",
           publisher: {
@@ -177,8 +177,8 @@ export default function TamdilLakeGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jammu-kashmir/dal.jpg"
-              alt="Calm lake surrounded by hills, evoking Tamdil Lake in central Mizoram"
+              src="/images/blogs/mizoram/tamdil-lake/tamdil-lake-saitual.webp"
+              alt="Tam Dil lake near Saitual, Mizoram"
               fill
               priority
               sizes="100vw"

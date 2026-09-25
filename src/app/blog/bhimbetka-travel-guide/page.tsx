@@ -24,10 +24,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/spiti-valley/spiti-valley.jpg",
+        url: "/images/blogs/madhya-pradesh/bhimbetka/bhimbetka-rock-paintings.webp",
         width: 2560,
         height: 1920,
-        alt: "Sandstone rock outcrops, representative of the Bhimbetka Rock Shelters, Madhya Pradesh",
+        alt: "Prehistoric rock paintings at Bhimbetka, Madhya Pradesh",
       },
     ],
   },
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     title: "Bhimbetka Rock Shelters: Prehistoric Cave Art Travel Guide",
     description:
       "Over 700 painted rock shelters spanning tens of thousands of years of human history — the complete guide to Bhimbetka.",
-    images: ["/images/destinations/spiti-valley/spiti-valley.jpg"],
+    images: ["/images/blogs/madhya-pradesh/bhimbetka/bhimbetka-rock-paintings.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/bhimbetka-travel-guide" },
 };
@@ -53,7 +53,7 @@ function ArticleSchema() {
           headline: "Bhimbetka Rock Shelters: Prehistoric Cave Art Travel Guide",
           description:
             "The complete guide to the Bhimbetka Rock Shelters, a UNESCO World Heritage prehistoric art site in Madhya Pradesh.",
-          image: "https://club.kudozz.in/images/destinations/spiti-valley/spiti-valley.jpg",
+          image: "https://club.kudozz.in/images/blogs/madhya-pradesh/bhimbetka/bhimbetka-rock-paintings.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: {
@@ -156,8 +156,8 @@ export default function BhimbetkaGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/spiti-valley/spiti-valley.jpg"
-              alt="Sandstone rock outcrops, representative of the Bhimbetka Rock Shelters, Madhya Pradesh"
+              src="/images/blogs/madhya-pradesh/bhimbetka/bhimbetka-rock-paintings.webp"
+              alt="Prehistoric rock paintings at Bhimbetka, Madhya Pradesh"
               fill
               priority
               sizes="100vw"

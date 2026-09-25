@@ -1,0 +1,343 @@
+{
+  "slug": "things-to-do-in-chandigarh",
+  "destination": "Chandigarh",
+  "guide": "chandigarh-travel-guide",
+  "type": "city",
+  "title": "Things to Do in Chandigarh: Rock Garden, Sukhna Lake & Le Corbusier's City",
+  "seoTitle": "Things to Do in Chandigarh: Rock Garden, Lake & More | Kudozz Club",
+  "description": "Things to do in Chandigarh: Nek Chand's Rock Garden, Sukhna Lake, the UNESCO-listed Capitol Complex and Open Hand, the Rose Garden, Sector 17, the Government Museum, Le Corbusier Centre, Pinjore Gardens, the cactus garden and trips to Morni and Kasauli.",
+  "dek": "India's best-known planned city, designed by Le Corbusier in the 1950s, with wide green sectors, modernist buildings and a sculpture garden made of city waste.",
+  "primaryKeyword": "things to do in Chandigarh",
+  "secondaryKeywords": [
+    "places to visit in Chandigarh",
+    "Rock Garden Chandigarh",
+    "Sukhna Lake",
+    "Capitol Complex tour",
+    "Rose Garden Chandigarh",
+    "Chandigarh day trips"
+  ],
+  "searchIntent": "Travellers spending one or two days in Chandigarh, often on the way to Shimla, Kasauli or Manali, and families from nearby cities.",
+  "tags": [
+    "Chandigarh",
+    "City",
+    "Architecture",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/chandigarh/chandigarh/sukhna-lake-boating-promenade-chandigarh.webp",
+    "alt": "Sukhna Lake promenade with boats and the Shivalik hills",
+    "caption": "Sukhna Lake"
+  },
+  "intro": [
+    "Chandigarh was built in the 1950s as the new capital of Punjab after Partition, and it now serves as the capital of both Punjab and Haryana. The Swiss-French architect Le Corbusier drew its master plan, dividing the city into numbered sectors with markets, schools and green belts, and designed the Capitol Complex, now part of a UNESCO World Heritage listing of his work.",
+    "The best things to do in Chandigarh include Nek Chand's Rock Garden, a walk along Sukhna Lake, a tour of the Capitol Complex, the city's many gardens and its museums on art and architecture. Its roads and cycle tracks make it one of the easiest Indian cities to get around.",
+    "Two days covers the city; add a day for Pinjore Gardens, Morni Hills or Kasauli. October to March is the best season; summers get very hot."
+  ],
+  "quickAnswer": [
+    "Explore Nek Chand's Rock Garden",
+    "Walk or boat on Sukhna Lake",
+    "Tour the Capitol Complex and see the Open Hand",
+    "See the Zakir Hussain Rose Garden",
+    "Visit the Government Museum and Art Gallery",
+    "See the Le Corbusier Centre and Pierre Jeanneret Museum",
+    "Walk around Sector 17 Plaza",
+    "Visit Pinjore Gardens",
+    "See the cactus garden in Panchkula",
+    "Drive up to Morni Hills or Kasauli"
+  ],
+  "sections": [
+    {
+      "id": "icons",
+      "heading": "Chandigarh icons",
+      "items": [
+        {
+          "name": "Explore the Rock Garden",
+          "image": {
+            "src": "/images/blogs/chandigarh/rock-garden/rock-garden-narrow-passage-walkway-chandigarh.webp",
+            "alt": "Narrow passage lined with stone walls in the Rock Garden, Chandigarh",
+            "caption": "Rock Garden"
+          },
+          "body": [
+            "The Rock Garden was created by Nek Chand, a road inspector who began building it in secret in the late 1950s on government land, using stones, broken ceramics, bangles and other waste. By the time it was discovered, it covered several acres. Today it spreads over about 40 acres of courtyards, waterfalls and thousands of sculptures of people and animals.",
+            "The winding paths and low doorways make it fun for children. Allow time; it is bigger than it looks."
+          ],
+          "links": [
+            {
+              "label": "Rock Garden guide",
+              "href": "/blog/rock-garden-chandigarh-travel-guide"
+            }
+          ],
+          "facts": {
+            "Time needed": "2 hours",
+            "Best time": "Morning or late afternoon",
+            "Good for": "Everyone"
+          }
+        },
+        {
+          "name": "Walk along Sukhna Lake",
+          "body": [
+            "Sukhna Lake, created in 1958 at the foot of the Shivalik hills, is where the city goes to walk, jog, boat and watch the sunset. Pedal boats and shikaras can be hired, and the Garden of Silence at the far end is a peaceful corner. Winter brings migratory birds."
+          ],
+          "links": [
+            {
+              "label": "Sukhna Lake guide",
+              "href": "/blog/sukhna-lake-chandigarh-travel-guide"
+            }
+          ],
+          "facts": {
+            "Time needed": "1–2 hours",
+            "Best time": "Sunrise or sunset",
+            "Good for": "Families, couples"
+          }
+        },
+        {
+          "name": "Tour the Capitol Complex",
+          "image": {
+            "src": "/images/blogs/chandigarh/capitol-complex/open-hand-monument-chandigarh.webp",
+            "alt": "The Open Hand monument at the Capitol Complex, Chandigarh",
+            "caption": "The Open Hand"
+          },
+          "body": [
+            "The Capitol Complex in Sector 1 includes the High Court, the Secretariat and the Legislative Assembly, designed by Le Corbusier in raw concrete, along with the Open Hand monument, the city's symbol. It is part of the UNESCO-listed Architectural Work of Le Corbusier. Visits are by guided tour with ID; book at the tourist office in advance."
+          ],
+          "links": [
+            {
+              "label": "Capitol Complex guide",
+              "href": "/blog/capitol-complex-chandigarh-travel-guide"
+            }
+          ],
+          "facts": {
+            "Time needed": "1.5–2 hours",
+            "Good to know": "Guided tours only; carry ID",
+            "Good for": "Architecture lovers"
+          }
+        },
+        {
+          "name": "See the Rose Garden",
+          "image": {
+            "src": "/images/blogs/chandigarh/chandigarh/zakir-hussain-rose-garden-chandigarh.webp",
+            "alt": "Zakir Hussain Rose Garden, Chandigarh",
+            "caption": "Zakir Hussain Rose Garden"
+          },
+          "body": [
+            "The Zakir Hussain Rose Garden in Sector 16 has hundreds of varieties of roses over about 30 acres. It is at its best from late January to March, and the annual Rose Festival, usually in February, brings stalls, music and competitions."
+          ],
+          "facts": {
+            "Best time": "February to March"
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "heading": "Museums and architecture",
+      "items": [
+        {
+          "name": "Visit the Government Museum and Art Gallery",
+          "image": {
+            "src": "/images/blogs/chandigarh/government-museum-chandigarh/gandhara-sculpture-government-museum-chandigarh.webp",
+            "alt": "Gandhara sculpture in the Government Museum, Chandigarh",
+            "caption": "Gandhara sculpture, Government Museum"
+          },
+          "body": [
+            "The Government Museum and Art Gallery in Sector 10, in a building by Le Corbusier, has a fine collection of Gandhara sculptures, Pahari and Rajasthani miniature paintings and modern Indian art. The natural history museum is next door. Museums are closed on Mondays."
+          ],
+          "facts": {
+            "Time needed": "2 hours",
+            "Good to know": "Closed on Mondays"
+          }
+        },
+        {
+          "name": "See the Le Corbusier Centre and Pierre Jeanneret Museum",
+          "body": [
+            "The Le Corbusier Centre in Sector 19, in the architect's old site office, has drawings, letters and photographs about the making of the city. The Pierre Jeanneret Museum in Sector 5, in the house of Le Corbusier's cousin and collaborator, shows the teak-and-cane furniture designed for the city's offices."
+          ],
+          "facts": {
+            "Time needed": "1 hour each"
+          }
+        },
+        {
+          "name": "Walk around Sector 17",
+          "body": [
+            "Sector 17 is Chandigarh's central shopping plaza, a large pedestrian space designed as the city's heart, with fountains, cinemas and shops. It is lively in the evening."
+          ],
+          "links": [
+            {
+              "label": "Sector 17 guide",
+              "href": "/blog/sector-17-chandigarh-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Walk through the city's gardens",
+          "body": [
+            "Leisure Valley runs through the city as a linear park linking several gardens: the Bougainvillea Garden, the Garden of Fragrance, the Terraced Garden (home to a chrysanthemum show in winter) and the Japanese Garden. The Botanical Garden in Sarangpur is good for birdwatching."
+          ],
+          "facts": {
+            "Good for": "Walkers, families"
+          }
+        }
+      ]
+    },
+    {
+      "id": "day-trips",
+      "heading": "Around Chandigarh",
+      "items": [
+        {
+          "name": "Visit Pinjore Gardens",
+          "body": [
+            "The Yadavindra Gardens at Pinjore, about 20 km away, are a 17th-century terraced Mughal garden with fountains, pavilions and water channels, restored by the Patiala royal family. They are lit up in the evening."
+          ],
+          "links": [
+            {
+              "label": "Pinjore guide",
+              "href": "/blog/pinjore-travel-guide"
+            }
+          ],
+          "facts": {
+            "Time needed": "2 hours"
+          }
+        },
+        {
+          "name": "See the cactus garden and Mansa Devi",
+          "body": [
+            "The National Cactus and Succulent Botanical Garden in Panchkula is one of the largest of its kind in Asia. The Mata Mansa Devi Temple, an important Shakti shrine, is nearby, as is the Chhatbir Zoo."
+          ]
+        },
+        {
+          "name": "Drive up to Morni Hills",
+          "body": [
+            "Morni Hills, about 40 km away, is the only hill station in Haryana, with forests, two lakes at Tikkar Tal, a small fort and trekking trails. It is a quiet day trip."
+          ],
+          "links": [
+            {
+              "label": "Morni Hills guide",
+              "href": "/blog/morni-hills-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Head to Kasauli",
+          "body": [
+            "Kasauli, about 65 km away in Himachal Pradesh, is a small cantonment town of pine walks and colonial churches, easily done as a day trip or overnight."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Kasauli",
+              "href": "/blog/things-to-do-in-kasauli"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "more",
+      "heading": "More to do in Chandigarh",
+      "items": [
+        {
+          "name": "Cycle the city",
+          "body": [
+            "Chandigarh has a network of cycle tracks along its main roads and green belts, and a public bike-sharing system has operated in the city. Cycling from Sukhna Lake through Leisure Valley is a pleasant way to see the planned layout up close."
+          ],
+          "facts": {
+            "Best time": "Early morning, October to March"
+          }
+        },
+        {
+          "name": "See the Chrysanthemum Show and Rose Festival",
+          "body": [
+            "The Terraced Garden in Sector 33 hosts a chrysanthemum show in December, and the Rose Festival in February fills the Rose Garden with music, food stalls and competitions. The Garden Tourism Festival is held at Yadavindra Gardens, Pinjore, in spring."
+          ],
+          "facts": {
+            "Best time": "December and February"
+          }
+        },
+        {
+          "name": "Eat in Chandigarh",
+          "body": [
+            "Chandigarh's food scene leans Punjabi: butter chicken, dal makhani, chhole bhature and lassi at the city's long-running dhabas, and a lively café culture in Sectors 7, 8 and 26. Sector 17 and Elante in the Industrial Area have many restaurants too."
+          ],
+          "facts": {
+            "Good for": "Food lovers"
+          }
+        },
+        {
+          "name": "See the Sukhna Wildlife Sanctuary",
+          "body": [
+            "The forested catchment of Sukhna Lake, in the Shivalik foothills, is a wildlife sanctuary with trails and birdlife. Access and permits are managed by the forest department; check before you go."
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Families",
+      "text": "The Rock Garden, boating on Sukhna Lake, the Rose Garden and Chhatbir Zoo keep children busy."
+    },
+    {
+      "who": "Architecture lovers",
+      "text": "The Capitol Complex tour, the Government Museum, the Le Corbusier Centre and the Pierre Jeanneret Museum."
+    },
+    {
+      "who": "Travellers heading to the hills",
+      "text": "Spend one day on the Rock Garden and Sukhna Lake before continuing to Kasauli or Shimla."
+    }
+  ],
+  "oneDay": "Start with sunrise at Sukhna Lake, then visit the Rock Garden when it opens. Take the Capitol Complex tour late morning. After lunch, visit the Government Museum and Art Gallery, then walk through the Rose Garden and end at Sector 17 in the evening.",
+  "tips": [
+    "Chandigarh has an international airport and a major railway station; Delhi is about four hours by road or three by train.",
+    "Sectors are numbered and easy to navigate; cycle tracks and app cabs make getting around simple.",
+    "Book Capitol Complex tours in advance and carry photo ID.",
+    "Many museums close on Mondays."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Chandigarh?",
+      "a": "Visit the Rock Garden, Sukhna Lake, the Capitol Complex, the Rose Garden, the Government Museum, the Le Corbusier Centre and Sector 17, and take trips to Pinjore Gardens, Morni Hills and Kasauli."
+    },
+    {
+      "q": "How do I visit the Capitol Complex?",
+      "a": "Only on guided tours, arranged at the tourist information centre. Carry photo ID and book ahead."
+    },
+    {
+      "q": "How many days are enough for Chandigarh?",
+      "a": "Two days for the city; three with a day trip."
+    },
+    {
+      "q": "What is the best time to visit Chandigarh?",
+      "a": "October to March. February is especially good for the Rose Festival."
+    },
+    {
+      "q": "Is Chandigarh worth visiting for a day?",
+      "a": "Yes. In one day you can see the Rock Garden, Sukhna Lake, the Capitol Complex on a guided tour and the Rose Garden, which together show why the city is unique in India."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Kasauli",
+      "href": "/blog/things-to-do-in-kasauli",
+      "note": "pine walks, 65 km away"
+    },
+    {
+      "name": "Things to do in Shimla",
+      "href": "/blog/things-to-do-in-shimla",
+      "note": "the Raj-era hill capital"
+    },
+    {
+      "name": "Things to do in Amritsar",
+      "href": "/blog/things-to-do-in-amritsar",
+      "note": "the Golden Temple, about four hours away"
+    },
+    {
+      "name": "Things to do in Patiala",
+      "href": "/blog/things-to-do-in-patiala",
+      "note": "a princely city about an hour away"
+    }
+  ],
+  "styles": [
+    "family-holidays",
+    "weekend-getaways"
+  ],
+  "metaDescription": "Things to do in Chandigarh: Nek Chand's Rock Garden, Sukhna Lake, the UNESCO-listed Capitol Complex and Open Hand, the Rose Garden, Sector 17, the Government Museum and more."
+}

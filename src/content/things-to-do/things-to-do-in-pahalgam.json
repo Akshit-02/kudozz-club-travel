@@ -1,0 +1,275 @@
+{
+  "slug": "things-to-do-in-pahalgam",
+  "destination": "Pahalgam",
+  "guide": "pahalgam-travel-guide",
+  "type": "valley town",
+  "title": "Things to Do in Pahalgam: Betaab Valley, Aru, Chandanwari & the Lidder",
+  "seoTitle": "Things to Do in Pahalgam: Valleys, River & Treks | Kudozz Club",
+  "description": "Things to do in Pahalgam: Betaab Valley, Aru valley, Chandanwari, riverside walks along the Lidder, pony rides, rafting, trout fishing, the Mamaleshwar temple, treks to Kolahoi and Tarsar-Marsar, and the Amarnath Yatra route.",
+  "dek": "A riverside town where the Lidder leaves the high mountains, with pine-fringed side valleys, meadows and the start of some of Kashmir's best treks.",
+  "primaryKeyword": "things to do in Pahalgam",
+  "secondaryKeywords": [
+    "places to visit in Pahalgam",
+    "Betaab Valley",
+    "Aru valley",
+    "Chandanwari",
+    "Pahalgam rafting",
+    "Kolahoi glacier trek"
+  ],
+  "searchIntent": "Couples and families planning two to three days in Pahalgam as part of a Kashmir trip.",
+  "tags": [
+    "Pahalgam",
+    "Jammu & Kashmir",
+    "Valley",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/jammu-and-kashmir/pahalgam/pahalgam-valley-lidder-river-forest.webp",
+    "alt": "The Lidder river flowing through pine forest at Pahalgam",
+    "caption": "The Lidder at Pahalgam"
+  },
+  "intro": [
+    "Pahalgam, at about 2,200 metres in Anantnag district, is about 90 km from Srinagar. It sits at the meeting of the East and West Lidder streams, surrounded by pine forest and mountains. For centuries it was a shepherds' village; today it is one of Kashmir's main resorts and the base for the Amarnath Yatra.",
+    "The best things to do in Pahalgam are in the side valleys: Betaab Valley, Aru and Chandanwari, all reached by local taxis. Along the Lidder there are riverside walks, rafting and trout fishing, and from Aru, treks lead to the Kolahoi glacier and the Tarsar and Marsar lakes.",
+    "Two to three days is ideal. Local rules require visitors to use Pahalgam's own taxis for the side valleys, and access to some meadows has been restricted at times; check the latest situation locally."
+  ],
+  "quickAnswer": [
+    "Visit Betaab Valley",
+    "Drive to Aru valley and walk its meadows",
+    "See Chandanwari and its snow bridge",
+    "Walk along the Lidder river",
+    "Go river rafting on the Lidder",
+    "Try trout fishing with a permit",
+    "Visit the ancient Mamaleshwar temple",
+    "Trek to Kolahoi glacier or Tarsar-Marsar lakes"
+  ],
+  "sections": [
+    {
+      "id": "valleys",
+      "heading": "Side valleys",
+      "items": [
+        {
+          "name": "Visit Betaab Valley",
+          "body": [
+            "Betaab Valley, about 15 km from Pahalgam on the Chandanwari road, is a green meadow along the East Lidder surrounded by pine forest and mountains. It was named after the 1983 Hindi film Betaab, shot here. There is an entry fee and a small park with walking paths."
+          ],
+          "facts": {
+            "Time needed": "1.5 hours",
+            "Good for": "Families, couples"
+          }
+        },
+        {
+          "name": "Explore Aru valley",
+          "image": {
+            "src": "/images/destinations/jammu-kashmir/aru-valley-pahalgam.webp",
+            "alt": "Aru valley meadow and village near Pahalgam",
+            "caption": "Aru valley"
+          },
+          "body": [
+            "Aru, about 12 km up the West Lidder, is a village surrounded by wide meadows and forest. It is quieter than Betaab and good for walks, pony rides and picnics. Aru is also the starting point of treks to the Kolahoi glacier and the Tarsar and Marsar lakes."
+          ],
+          "facts": {
+            "Time needed": "Half a day",
+            "Good for": "Walkers, trekkers"
+          }
+        },
+        {
+          "name": "See Chandanwari",
+          "image": {
+            "src": "/images/destinations/jammu-kashmir/chandanwari-snow-bridge-lidder-river.webp",
+            "alt": "Snow bridge over the Lidder at Chandanwari",
+            "caption": "Chandanwari snow bridge"
+          },
+          "body": [
+            "Chandanwari, about 16 km from Pahalgam, is the starting point of the Amarnath Yatra on foot. It is known for a snow bridge over the river that often persists into summer, where visitors can walk on the snow and go sledging. During the yatra season in July and August, access for tourists may be restricted."
+          ],
+          "facts": {
+            "Best time": "May to June",
+            "Good to know": "Restricted during the Amarnath Yatra"
+          }
+        },
+        {
+          "name": "Baisaran meadow",
+          "image": {
+            "src": "/images/destinations/jammu-kashmir/baisaran-meadow-pahalgam.webp",
+            "alt": "Baisaran meadow surrounded by pine forest above Pahalgam",
+            "caption": "Baisaran meadow"
+          },
+          "body": [
+            "Baisaran, a meadow above Pahalgam surrounded by pine forest, was long reached by pony or on foot. Access has been closed or restricted in recent times; check with local authorities whether it is open before planning a visit."
+          ],
+          "facts": {
+            "Good to know": "Check current access status"
+          }
+        }
+      ]
+    },
+    {
+      "id": "river",
+      "heading": "On the river",
+      "items": [
+        {
+          "name": "Walk along the Lidder",
+          "body": [
+            "Pahalgam's riverside is its best feature. Walks along the Lidder from the main market lead to quiet stretches with pine forest and boulder-strewn water. The Lidder Park and the banks near the hotels are pleasant in the evening."
+          ],
+          "facts": {
+            "Best time": "Morning and evening"
+          }
+        },
+        {
+          "name": "Go river rafting",
+          "body": [
+            "Rafting on the Lidder runs from around Yannar, a few kilometres from Pahalgam, with mostly moderate rapids suitable for beginners. It is best in early summer when the snowmelt raises the water. Use registered operators and wear the safety gear provided."
+          ],
+          "facts": {
+            "Best time": "April to June",
+            "Good for": "Groups, first-time rafters"
+          }
+        },
+        {
+          "name": "Try trout fishing",
+          "body": [
+            "The Lidder has long been known for brown trout. The fisheries department issues permits for designated beats; ask your hotel to help arrange one."
+          ],
+          "facts": {
+            "Good to know": "Permit required"
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture-treks",
+      "heading": "Temples, golf and treks",
+      "items": [
+        {
+          "name": "Visit Mamaleshwar Temple",
+          "body": [
+            "The Mamaleshwar Temple, across the river from the main town, is a small stone Shiva temple believed to date back many centuries, with a spring-fed tank in front. It is linked in legend to Ganesha guarding Parvati."
+          ],
+          "facts": {
+            "Time needed": "30 minutes"
+          }
+        },
+        {
+          "name": "Play golf",
+          "body": [
+            "Pahalgam has a golf course set among pine forest and mountains. Visitors can play by arrangement with the club."
+          ]
+        },
+        {
+          "name": "Trek to Kolahoi glacier or Tarsar-Marsar",
+          "body": [
+            "From Aru, a trek of two to three days leads through Lidderwat to the Kolahoi glacier below Kolahoi peak. Another popular trek goes to the twin lakes of Tarsar and Marsar over several days. Both need good fitness and a registered local guide."
+          ],
+          "facts": {
+            "Time needed": "2–7 days",
+            "Best time": "July to September",
+            "Good for": "Trekkers"
+          }
+        },
+        {
+          "name": "Walk to Tulian Lake",
+          "body": [
+            "Tulian Lake, a high lake often frozen until early summer, lies above Baisaran and is reached by a long day or overnight trek. It is only for fit walkers with a local guide, and access depends on current rules for the area."
+          ],
+          "facts": {
+            "Best time": "July to September",
+            "Good to know": "Check access and go with a guide"
+          }
+        }
+      ]
+    },
+    {
+      "id": "seasons",
+      "heading": "Pahalgam by season",
+      "items": [
+        {
+          "name": "Spring and early summer",
+          "body": [
+            "April to June brings snowmelt, full rivers for rafting, fresh green meadows and snow at Chandanwari. It is the most popular time to visit."
+          ]
+        },
+        {
+          "name": "Yatra season",
+          "body": [
+            "In July and August, the Amarnath Yatra passes through Pahalgam and Chandanwari. The town is busy with pilgrims and security arrangements, and some roads may be restricted for tourists."
+          ]
+        },
+        {
+          "name": "Autumn and winter",
+          "body": [
+            "September and October are calm and golden. From December, snow covers the valley; Pahalgam becomes a quiet winter destination, though many hotels close."
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Couples",
+      "text": "A riverside stay, a morning in Aru, an afternoon at Betaab and slow evenings by the Lidder."
+    },
+    {
+      "who": "Families",
+      "text": "Betaab Valley's park, the snow at Chandanwari in early summer, pony rides and rafting for older children."
+    },
+    {
+      "who": "Trekkers",
+      "text": "Use Aru as the base for Kolahoi glacier or Tarsar-Marsar in summer."
+    }
+  ],
+  "oneDay": "Hire a local taxi and visit Aru valley in the morning for a walk and pony ride. After lunch in Pahalgam, go to Betaab Valley and Chandanwari. End the day walking along the Lidder in town.",
+  "tips": [
+    "Pahalgam is about 90 km from Srinagar, a drive of around two and a half hours.",
+    "Private cars and taxis from outside are usually not allowed to go to Aru, Betaab and Chandanwari; hire from the local taxi stand at fixed rates.",
+    "Agree on pony rates and routes in advance, and use registered pony-wallahs.",
+    "Check the latest security advisories and access status for meadows before your trip."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Pahalgam?",
+      "a": "Visit Betaab Valley, Aru valley and Chandanwari, walk along the Lidder, go rafting, try trout fishing, visit Mamaleshwar Temple and trek to Kolahoi glacier or Tarsar-Marsar."
+    },
+    {
+      "q": "How many days are enough for Pahalgam?",
+      "a": "Two to three days to see the valleys at a relaxed pace; a day trip from Srinagar only covers one or two."
+    },
+    {
+      "q": "Can I use my own taxi to visit Aru and Betaab Valley?",
+      "a": "Usually not. Local rules require using Pahalgam's taxi union for the side valleys."
+    },
+    {
+      "q": "What is the best time to visit Pahalgam?",
+      "a": "April to June for spring and snowmelt, July to September for treks, and October for autumn colours. Winter brings snow but many services close."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Srinagar",
+      "href": "/blog/things-to-do-in-srinagar",
+      "note": "about two and a half hours away"
+    },
+    {
+      "name": "Aharbal",
+      "href": "/blog/aharbal-travel-guide",
+      "note": "Kashmir's great waterfall in the south"
+    },
+    {
+      "name": "Things to do in Gulmarg",
+      "href": "/blog/things-to-do-in-gulmarg",
+      "note": "the gondola and ski slopes"
+    },
+    {
+      "name": "Things to do in Sonamarg",
+      "href": "/blog/things-to-do-in-sonamarg",
+      "note": "the glacier valley on the Ladakh road"
+    }
+  ],
+  "styles": [
+    "honeymoon",
+    "family-holidays",
+    "adventure-tours"
+  ],
+  "metaDescription": "Things to do in Pahalgam: Betaab Valley, Aru valley, Chandanwari, riverside walks along the Lidder, pony rides, rafting, trout fishing, the Mamaleshwar temple and more."
+}

@@ -1,0 +1,380 @@
+{
+  "slug": "things-to-do-in-delhi",
+  "destination": "Delhi",
+  "guide": "delhi-travel-guide",
+  "type": "city",
+  "title": "Things to Do in Delhi: Monuments, Markets, Food & Neighbourhoods",
+  "seoTitle": "Things to Do in Delhi: Monuments, Food & Markets | Kudozz Club",
+  "description": "Things to do in Delhi: the Red Fort, Jama Masjid and Chandni Chowk, Humayun's Tomb and Qutub Minar, India Gate and Kartavya Path, Lodhi Garden and Sunder Nursery, Nizamuddin qawwali, Akshardham, Lotus Temple, museums, markets and street food.",
+  "dek": "India's capital, where seven historic cities overlap: Mughal forts, Sultanate ruins, Lutyens' boulevards and some of the best street food in the country.",
+  "primaryKeyword": "things to do in Delhi",
+  "secondaryKeywords": [
+    "places to visit in Delhi",
+    "Delhi sightseeing",
+    "Old Delhi food walk",
+    "Humayun's Tomb",
+    "Qutub Minar",
+    "things to do in Delhi at night",
+    "Delhi with family"
+  ],
+  "searchIntent": "First-time visitors, business travellers with free time and families planning two to four days in Delhi, often before Agra and Jaipur.",
+  "tags": [
+    "Delhi",
+    "City",
+    "Heritage",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/delhi/delhi/humayuns-tomb-garden-delhi.webp",
+    "alt": "Humayun's Tomb and its Mughal garden, Delhi",
+    "caption": "Humayun's Tomb"
+  },
+  "intro": [
+    "Delhi has been the seat of empires for centuries. Within today's city lie the ruins and monuments of several historic capitals, from the Qutub complex of the Delhi Sultanate to Shahjahanabad (Old Delhi), built by the Mughal emperor Shah Jahan, and New Delhi, designed by Edwin Lutyens and Herbert Baker in the early 20th century.",
+    "The best things to do in Delhi mix these layers. Spend a morning in Old Delhi's bazaars and at the Red Fort and Jama Masjid. See the three UNESCO World Heritage Sites: the Red Fort, Humayun's Tomb and the Qutub Minar. Walk Lodhi Garden, listen to qawwali at Nizamuddin, eat your way through chaat and kebabs, and shop at Dilli Haat and Khan Market. The metro makes most of it easy to reach.",
+    "Three days is a comfortable minimum. October to March is the best time; summers are extremely hot, and November and December can bring heavy smog."
+  ],
+  "quickAnswer": [
+    "Explore the Red Fort, Jama Masjid and Chandni Chowk",
+    "Visit Humayun's Tomb and Sunder Nursery",
+    "See the Qutub Minar and Mehrauli Archaeological Park",
+    "Walk from India Gate along Kartavya Path",
+    "Listen to qawwali at Nizamuddin Dargah",
+    "Stroll through Lodhi Garden",
+    "Visit Akshardham and the Lotus Temple",
+    "Eat on an Old Delhi food walk",
+    "Shop at Dilli Haat, Khan Market and Janpath",
+    "Spend an evening at Hauz Khas"
+  ],
+  "sections": [
+    {
+      "id": "old-delhi",
+      "heading": "Old Delhi",
+      "items": [
+        {
+          "name": "Explore the Red Fort",
+          "image": {
+            "src": "/images/blogs/delhi/delhi/red-fort-delhi.webp",
+            "alt": "Red sandstone walls of the Red Fort, Delhi",
+            "caption": "Red Fort"
+          },
+          "body": [
+            "The Red Fort (Lal Qila), built by Shah Jahan between 1639 and 1648, was the palace of the Mughal emperors for two centuries. Inside the massive red sandstone walls are the Diwan-i-Aam and Diwan-i-Khas audience halls, royal pavilions and several museums, including one on India's freedom struggle. It is a UNESCO World Heritage Site and the place where the Prime Minister raises the flag on Independence Day.",
+            "The fort is closed on Mondays. An evening sound and light show tells its story."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Old Delhi",
+              "href": "/blog/things-to-do-in-old-delhi"
+            }
+          ],
+          "facts": {
+            "Time needed": "2–3 hours",
+            "Good to know": "Closed on Mondays",
+            "Good for": "Everyone"
+          }
+        },
+        {
+          "name": "Visit Jama Masjid",
+          "body": [
+            "Jama Masjid, completed in 1656, is one of the largest mosques in India. Its courtyard can hold thousands of worshippers, and a climb up the southern minaret gives a view over the rooftops of Old Delhi. Visitors must dress modestly, and entry is not allowed during prayer times."
+          ],
+          "facts": {
+            "Time needed": "1 hour",
+            "Good to know": "Dress modestly; avoid prayer times"
+          }
+        },
+        {
+          "name": "Walk through Chandni Chowk",
+          "image": {
+            "src": "/images/blogs/delhi/delhi/chandni-chowk-street-market-old-delhi.webp",
+            "alt": "Chandni Chowk street market, Old Delhi",
+            "caption": "Chandni Chowk"
+          },
+          "body": [
+            "Chandni Chowk, laid out in the 17th century, is Old Delhi's main street and the gateway to its bazaars. Gurudwara Sis Ganj Sahib, the Digambar Jain Lal Mandir with its bird hospital, and Fatehpuri Masjid line it. Side lanes lead to Kinari Bazaar for wedding trimmings, Dariba Kalan for silver, and Khari Baoli, one of Asia's largest spice markets. A cycle-rickshaw ride is the classic way to see it."
+          ],
+          "links": [
+            {
+              "label": "Chandni Chowk guide",
+              "href": "/blog/chandni-chowk-delhi-travel-guide"
+            }
+          ],
+          "facts": {
+            "Best time": "Mid-morning",
+            "Good for": "Shoppers, photographers"
+          }
+        },
+        {
+          "name": "Eat on an Old Delhi food walk",
+          "body": [
+            "Old Delhi is the heart of the city's food culture. Try stuffed parathas in Paranthe Wali Gali, kebabs and nihari around Jama Masjid, jalebis, kulfi and, in winter, the airy daulat ki chaat. Go with an empty stomach or join a guided food walk."
+          ],
+          "facts": {
+            "Best time": "Late morning or evening",
+            "Good for": "Food lovers"
+          }
+        }
+      ]
+    },
+    {
+      "id": "monuments",
+      "heading": "Monuments and gardens",
+      "items": [
+        {
+          "name": "Visit Humayun's Tomb",
+          "body": [
+            "Humayun's Tomb, completed around 1570, was the first great garden tomb in India and a clear precursor of the Taj Mahal. Its red sandstone and marble mausoleum sits in a charbagh garden of water channels and walkways. The complex, a UNESCO World Heritage Site, also includes Isa Khan's tomb and other structures. Next door, Sunder Nursery is a restored Mughal-era park with monuments, lawns and a lake."
+          ],
+          "facts": {
+            "Time needed": "2–3 hours with Sunder Nursery",
+            "Best time": "Morning or late afternoon"
+          }
+        },
+        {
+          "name": "See the Qutub Minar",
+          "image": {
+            "src": "/images/blogs/delhi/delhi/qutub-minar-tower-delhi.webp",
+            "alt": "Qutub Minar tower, Delhi",
+            "caption": "Qutub Minar"
+          },
+          "body": [
+            "The Qutub Minar, a fluted tower of red sandstone and marble about 73 metres tall, was begun in the late 12th century by Qutb-ud-din Aibak and completed by his successors. The complex includes the Quwwat-ul-Islam Mosque, the Alai Darwaza gateway and a famous iron pillar that has not rusted in about 1,600 years. Next door, the Mehrauli Archaeological Park has over a hundred monuments, including Jamali Kamali and Rajon ki Baoli."
+          ],
+          "links": [
+            {
+              "label": "Mehrauli guide",
+              "href": "/blog/mehrauli-delhi-travel-guide"
+            }
+          ],
+          "facts": {
+            "Time needed": "2–3 hours"
+          }
+        },
+        {
+          "name": "Walk from India Gate along Kartavya Path",
+          "body": [
+            "India Gate, a war memorial arch completed in 1931, stands at one end of Kartavya Path (formerly Rajpath), the ceremonial avenue leading to Rashtrapati Bhavan. The National War Memorial, opened in 2019, is next to it. Evenings bring families, ice-cream sellers and lit-up monuments. The Republic Day parade takes place here on 26 January."
+          ],
+          "links": [
+            {
+              "label": "New Delhi guide",
+              "href": "/blog/new-delhi-travel-guide"
+            }
+          ],
+          "facts": {
+            "Best time": "Evening",
+            "Good for": "Families"
+          }
+        },
+        {
+          "name": "Stroll through Lodhi Garden",
+          "image": {
+            "src": "/images/blogs/delhi/lodhi-garden/bara-gumbad-lodhi-garden-delhi.webp",
+            "alt": "Bara Gumbad in Lodhi Garden, Delhi",
+            "caption": "Bara Gumbad, Lodhi Garden"
+          },
+          "body": [
+            "Lodhi Garden is a large park in the heart of New Delhi with 15th- and 16th-century tombs of the Sayyid and Lodi dynasties, including Muhammad Shah's tomb, Bara Gumbad and Sheesh Gumbad. It is where Delhi jogs, walks and picnics, and it is especially lovely on winter mornings. The nearby Lodhi Colony has large public murals."
+          ],
+          "links": [
+            {
+              "label": "Lodhi Garden guide",
+              "href": "/blog/lodhi-garden-delhi-travel-guide"
+            }
+          ],
+          "facts": {
+            "Best time": "Early morning"
+          }
+        },
+        {
+          "name": "See Tughlaqabad and Hauz Khas",
+          "body": [
+            "Tughlaqabad, a vast ruined 14th-century fort city in south Delhi, is atmospheric and usually quiet. Hauz Khas has a medieval reservoir, a madrasa and tombs overlooking a lake and deer park; the adjoining village is full of cafés, bars and boutiques."
+          ],
+          "links": [
+            {
+              "label": "Hauz Khas guide",
+              "href": "/blog/hauz-khas-delhi-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "heading": "Faith and spiritual sites",
+      "items": [
+        {
+          "name": "Listen to qawwali at Nizamuddin",
+          "body": [
+            "The dargah of the Sufi saint Hazrat Nizamuddin Auliya, reached through narrow lanes of the Nizamuddin basti, is one of the most important Sufi shrines in India. On Thursday evenings, and on many other evenings, qawwals sing in the courtyard after the evening prayer. The poet Amir Khusrau is buried nearby, and Mirza Ghalib's tomb is a short walk away."
+          ],
+          "links": [
+            {
+              "label": "Nizamuddin guide",
+              "href": "/blog/nizamuddin-delhi-travel-guide"
+            }
+          ],
+          "facts": {
+            "Best time": "Thursday evening after sunset",
+            "Good to know": "Cover your head; dress modestly"
+          }
+        },
+        {
+          "name": "Visit Gurudwara Bangla Sahib",
+          "body": [
+            "Gurudwara Bangla Sahib, near Connaught Place, is associated with the eighth Sikh Guru, Guru Har Krishan. Visitors can walk around the sarovar, listen to kirtan and eat at the free langar. Cover your head and remove your shoes."
+          ],
+          "facts": {
+            "Time needed": "1 hour"
+          }
+        },
+        {
+          "name": "See Akshardham",
+          "image": {
+            "src": "/images/blogs/delhi/akshardham/akshardham-temple-domes-delhi.webp",
+            "alt": "Carved domes of Akshardham temple, Delhi",
+            "caption": "Akshardham"
+          },
+          "body": [
+            "Swaminarayan Akshardham, opened in 2005 on the banks of the Yamuna, is a vast temple complex of carved pink sandstone and marble, with exhibitions and an evening water show. Phones, cameras and bags are not allowed inside; use the cloakroom. It is closed on Mondays."
+          ],
+          "links": [
+            {
+              "label": "Akshardham guide",
+              "href": "/blog/akshardham-delhi-travel-guide"
+            }
+          ],
+          "facts": {
+            "Time needed": "3 hours",
+            "Good to know": "No phones inside; closed Mondays"
+          }
+        },
+        {
+          "name": "Visit the Lotus Temple",
+          "body": [
+            "The Bahá'í House of Worship, known as the Lotus Temple, was completed in 1986. Its white marble petals form one of Delhi's most recognisable buildings. It is open to people of all faiths for silent prayer and meditation."
+          ],
+          "facts": {
+            "Time needed": "1 hour",
+            "Good to know": "Usually closed on Mondays"
+          }
+        }
+      ]
+    },
+    {
+      "id": "modern",
+      "heading": "Museums, markets and evenings",
+      "items": [
+        {
+          "name": "Visit Delhi's museums",
+          "body": [
+            "The National Museum on Janpath covers five thousand years of Indian art and history. The National Gallery of Modern Art is in Jaipur House near India Gate. The Crafts Museum at Pragati Maidan, the National Rail Museum in Chanakyapuri and the Pradhanmantri Sangrahalaya at Teen Murti are also worth visiting. Most major museums close on Mondays."
+          ],
+          "facts": {
+            "Good for": "History lovers, families"
+          }
+        },
+        {
+          "name": "Shop at Dilli Haat, Janpath and Khan Market",
+          "body": [
+            "Dilli Haat, an open-air market run by the government, has stalls selling crafts and food from different states. Janpath and Sarojini Nagar are for budget shopping and bargaining; Khan Market is upmarket, with bookshops and cafés. Lajpat Nagar is famous for fabrics and wedding shopping."
+          ],
+          "facts": {
+            "Good for": "Shoppers"
+          }
+        },
+        {
+          "name": "Spend an evening at Connaught Place or Hauz Khas",
+          "body": [
+            "Connaught Place, built in the 1930s as a circle of colonnaded Georgian buildings, is Delhi's central shopping and dining hub. Hauz Khas Village and Mehrauli have lively cafés and bars, and Majnu ka Tilla, a Tibetan colony in north Delhi, is good for momos and laphing."
+          ],
+          "links": [
+            {
+              "label": "Connaught Place guide",
+              "href": "/blog/connaught-place-delhi-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "See the Amrit Udyan at Rashtrapati Bhavan",
+          "body": [
+            "The gardens of Rashtrapati Bhavan, now called Amrit Udyan, open to the public for a few weeks, usually in February and March, when the tulips and roses bloom. Guided tours of Rashtrapati Bhavan itself and its museum are available on set days with advance booking."
+          ],
+          "facts": {
+            "Best time": "February to March",
+            "Good to know": "Book online in advance"
+          }
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "First-time visitors",
+      "text": "Day 1 for Old Delhi, day 2 for Humayun's Tomb, Lodhi Garden and India Gate, day 3 for Qutub Minar, Mehrauli and Hauz Khas."
+    },
+    {
+      "who": "Families",
+      "text": "Akshardham, the Rail Museum, India Gate in the evening and the Red Fort's sound and light show work well with children."
+    },
+    {
+      "who": "Food lovers",
+      "text": "An Old Delhi food walk, kebabs at Nizamuddin, chaat in Bengali Market and momos at Majnu ka Tilla."
+    }
+  ],
+  "oneDay": "Start at the Red Fort and Jama Masjid, then take a cycle rickshaw through Chandni Chowk and eat parathas for lunch. In the afternoon, visit Humayun's Tomb and walk through Lodhi Garden. End at India Gate at dusk and dinner at Connaught Place.",
+  "tips": [
+    "The Delhi Metro is the fastest way around; buy a travel card or use a contactless card or QR tickets.",
+    "Many monuments and museums are closed on Mondays; plan accordingly.",
+    "Check air quality in November and December, and carry a mask on bad days.",
+    "Use app-based cabs or prepaid taxis at stations and airports, and be wary of touts offering 'tourist offices'."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Delhi?",
+      "a": "See the Red Fort, Jama Masjid and Chandni Chowk, Humayun's Tomb, Qutub Minar, India Gate, Lodhi Garden, Nizamuddin qawwali, Akshardham and the Lotus Temple, and eat on an Old Delhi food walk."
+    },
+    {
+      "q": "How many days are enough for Delhi?",
+      "a": "Three days covers the main sights comfortably. Add a day for museums, markets or a day trip."
+    },
+    {
+      "q": "What are the best things to do in Delhi at night?",
+      "a": "Qawwali at Nizamuddin on Thursday evenings, India Gate lit up, the Red Fort sound and light show, the Akshardham water show and dinner at Connaught Place or Hauz Khas."
+    },
+    {
+      "q": "What is the best time to visit Delhi?",
+      "a": "October to March. Late February to March and October to early November are the most pleasant; summers are very hot and winter can bring fog and smog."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Old Delhi",
+      "href": "/blog/things-to-do-in-old-delhi",
+      "note": "the walled city in detail"
+    },
+    {
+      "name": "Things to do in Agra",
+      "href": "/blog/things-to-do-in-agra",
+      "note": "the Taj Mahal, under two hours by express train"
+    },
+    {
+      "name": "Things to do in Jaipur",
+      "href": "/blog/things-to-do-in-jaipur",
+      "note": "the third point of the Golden Triangle"
+    },
+    {
+      "name": "Things to do in Gurgaon",
+      "href": "/blog/things-to-do-in-gurgaon",
+      "note": "the neighbouring city"
+    }
+  ],
+  "styles": [
+    "family-holidays",
+    "weekend-getaways",
+    "group-tours"
+  ],
+  "metaDescription": "Things to do in Delhi: the Red Fort, Jama Masjid and Chandni Chowk, Humayun's Tomb and Qutub Minar, India Gate and Kartavya Path, Lodhi Garden and Sunder Nursery and more."
+}

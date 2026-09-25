@@ -1,0 +1,266 @@
+{
+  "slug": "things-to-do-in-mangalore",
+  "destination": "Mangaluru",
+  "guide": "mangaluru-travel-guide",
+  "type": "coastal city",
+  "title": "Things to Do in Mangalore (Mangaluru): Temples, Beaches, Kambala & Coastal Food",
+  "seoTitle": "Things to Do in Mangalore (Mangaluru) | Kudozz Club",
+  "description": "Things to do in Mangalore: Kadri Manjunath and Mangaladevi temples, St Aloysius Chapel's frescoes, Panambur and Tannirbhavi beaches, Sultan Battery, Pilikula, Yakshagana and Kambala, Mangalorean food, and trips to Moodbidri, Karkala, Dharmasthala and Mulki for surfing.",
+  "dek": "Karnataka's main port on the Arabian Sea, a meeting place of Tulu, Konkani and Beary cultures, known for its temples, painted chapel and some of India's best seafood.",
+  "primaryKeyword": "things to do in Mangalore",
+  "secondaryKeywords": [
+    "things to do in Mangaluru",
+    "places to visit in Mangalore",
+    "St Aloysius Chapel",
+    "Panambur beach",
+    "Kambala",
+    "Mangalorean food",
+    "Yakshagana"
+  ],
+  "searchIntent": "Travellers spending one to three days in Mangaluru, often combined with Udupi or the temples of Dakshina Kannada.",
+  "tags": [
+    "Mangaluru",
+    "Karnataka",
+    "Coastal City",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/karnataka/mangaluru/tannirbhavi-beach-mangaluru.webp",
+    "alt": "Tannirbhavi beach, Mangaluru",
+    "caption": "Tannirbhavi beach"
+  },
+  "intro": [
+    "Mangaluru, in Dakshina Kannada district, lies where the Netravati and Gurupura rivers meet the Arabian Sea. It has been a trading port for centuries and is home to many communities, speaking Tulu, Konkani, Kannada and Beary. The city takes its name from the goddess Mangaladevi.",
+    "The things to do in Mangalore include old temples, a chapel covered in Italian frescoes, uncrowded beaches, and cultural traditions such as Yakshagana theatre, bhoota kola rituals and Kambala buffalo races. Above all, it is a food city: fish thalis, ghee roast, kori rotti, neer dosa and Mangalore buns.",
+    "Two days covers the city; add a day for Udupi or the Jain towns of Moodbidri and Karkala. October to March is the best season; the monsoon is very heavy."
+  ],
+  "quickAnswer": [
+    "Visit Kadri Manjunath Temple",
+    "See the Mangaladevi Temple",
+    "See the frescoes of St Aloysius Chapel",
+    "Walk on Panambur beach",
+    "Take the ferry from Sultan Battery to Tannirbhavi beach",
+    "Visit Kudroli Gokarnanatha Temple",
+    "Spend a day at Pilikula Nisargadhama",
+    "Watch Yakshagana or a Kambala race",
+    "Eat a Mangalorean fish thali and ghee roast",
+    "Take trips to Moodbidri, Karkala and Dharmasthala"
+  ],
+  "sections": [
+    {
+      "id": "temples-churches",
+      "heading": "Temples and churches",
+      "items": [
+        {
+          "name": "Visit Kadri Manjunath Temple",
+          "image": {
+            "src": "/images/blogs/karnataka/mangaluru/kadri-manjunath-temple-mangaluru.webp",
+            "alt": "Kadri Manjunath Temple, Mangaluru",
+            "caption": "Kadri Manjunath Temple"
+          },
+          "body": [
+            "Kadri Manjunath Temple, on Kadri Hill, is one of the oldest temples in the region, with bronze images from around the 10th century. Tanks fed by springs lie above the temple, and caves nearby are linked to the Pandavas in local tradition."
+          ],
+          "facts": {
+            "Time needed": "1 hour"
+          }
+        },
+        {
+          "name": "See Mangaladevi and Kudroli temples",
+          "body": [
+            "The Mangaladevi Temple, dedicated to the goddess who gives the city its name, is especially busy during Navratri. The Kudroli Gokarnanatha Temple, built in 1912 at the initiative of the reformer Sree Narayana Guru, is known for its colourful Dasara celebrations."
+          ],
+          "facts": {
+            "Best time": "Navratri and Dasara"
+          }
+        },
+        {
+          "name": "See the frescoes of St Aloysius Chapel",
+          "body": [
+            "St Aloysius Chapel, on the campus of St Aloysius College, has walls and ceilings covered with paintings by the Italian Jesuit Antonio Moscheni, completed in 1899. It is often compared with the Sistine Chapel. Photography may be restricted."
+          ],
+          "facts": {
+            "Time needed": "45 minutes",
+            "Good for": "Art lovers"
+          }
+        },
+        {
+          "name": "Visit Rosario Cathedral and Milagres Church",
+          "body": [
+            "Rosario Cathedral, one of the oldest churches on the Karnataka coast, and Milagres Church in Hampankatta reflect the city's Konkani Catholic heritage."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beaches",
+      "heading": "Beaches and the waterfront",
+      "items": [
+        {
+          "name": "Walk on Panambur beach",
+          "image": {
+            "src": "/images/blogs/karnataka/mangaluru/panambur-beach-mangaluru.webp",
+            "alt": "Panambur beach at sunset",
+            "caption": "Panambur beach"
+          },
+          "body": [
+            "Panambur, near the New Mangalore Port, is the city's best-maintained beach, with lifeguards, food stalls and sometimes camel and jet ski rides. Kite festivals have been held here. Sunsets are lovely."
+          ],
+          "facts": {
+            "Best time": "Sunset",
+            "Good for": "Families"
+          }
+        },
+        {
+          "name": "Take the ferry to Tannirbhavi",
+          "body": [
+            "From Sultan Battery, a small watchtower built under Tipu Sultan, a ferry crosses the Gurupura river to Tannirbhavi beach, a quieter stretch with casuarina trees and a tree park."
+          ],
+          "facts": {
+            "Time needed": "2–3 hours"
+          }
+        },
+        {
+          "name": "See Someshwar and Ullal",
+          "body": [
+            "Someshwar beach, south of the city, has large rocks, a Shiva temple and good sunset views. Ullal nearby has the Syed Madani dargah, an important shrine."
+          ]
+        },
+        {
+          "name": "Surf at Mulki",
+          "body": [
+            "Mulki, about 30 km north, has a surf school on a river-mouth beach with gentle waves for beginners, and stand-up paddleboarding and kayaking on the river."
+          ],
+          "facts": {
+            "Best time": "October to May",
+            "Good for": "Adventure seekers"
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture-food",
+      "heading": "Culture and food",
+      "items": [
+        {
+          "name": "Watch Yakshagana",
+          "body": [
+            "Yakshagana is a dramatic all-night folk theatre of coastal Karnataka, with elaborate costumes, headgear, drums and dance, telling stories from the epics. Performances are held through the dry season; ask locally for schedules."
+          ],
+          "facts": {
+            "Best time": "November to May"
+          }
+        },
+        {
+          "name": "See a Kambala race",
+          "body": [
+            "Kambala is a traditional buffalo race run through slushy paddy fields, held in villages across coastal Karnataka between about November and March. Races are loud, fast and festive."
+          ],
+          "facts": {
+            "Best time": "November to March"
+          }
+        },
+        {
+          "name": "Eat Mangalorean food",
+          "body": [
+            "Try a fish thali with rice, fish curry and fried fish; chicken ghee roast; kori rotti (chicken curry with crisp rice wafers); neer dosa; kane (ladyfish) fry; Mangalore buns for breakfast; and gadbad ice cream. Konkani and Beary homes add their own dishes."
+          ],
+          "facts": {
+            "Good for": "Food lovers"
+          }
+        },
+        {
+          "name": "Spend a day at Pilikula",
+          "body": [
+            "Pilikula Nisargadhama, on the city's edge, has a biological park, a science centre and planetarium, a heritage village with a traditional Guttu house, a lake with boating and a golf course."
+          ],
+          "facts": {
+            "Good for": "Families"
+          }
+        }
+      ]
+    },
+    {
+      "id": "day-trips",
+      "heading": "Day trips",
+      "items": [
+        {
+          "name": "See Moodbidri and Karkala",
+          "body": [
+            "Moodbidri, about 35 km away, is a Jain centre with many basadis, including the Saavira Kambada Basadi (thousand-pillared temple). Karkala, further on, has a 13-metre monolithic statue of Bahubali on a hill, carved in the 15th century."
+          ],
+          "facts": {
+            "Time needed": "Full day"
+          }
+        },
+        {
+          "name": "Visit Dharmasthala and Kukke Subramanya",
+          "body": [
+            "Dharmasthala, about 75 km away, has the Manjunatha Temple, run by a Jain family and known for feeding thousands of pilgrims daily. Kukke Subramanya, in the Western Ghats, is an important temple to Subrahmanya."
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Food lovers",
+      "text": "A fish thali lunch, ghee roast dinner and Mangalore buns and gadbad ice cream in between."
+    },
+    {
+      "who": "Families",
+      "text": "Panambur beach, Pilikula and the ferry to Tannirbhavi."
+    },
+    {
+      "who": "Culture seekers",
+      "text": "St Aloysius Chapel, a Yakshagana performance and Moodbidri's basadis."
+    }
+  ],
+  "oneDay": "Visit Kadri Manjunath Temple and Mangaladevi Temple in the morning, then St Aloysius Chapel. Have a fish thali for lunch, take the ferry from Sultan Battery to Tannirbhavi, and end the day at Panambur beach for sunset.",
+  "tips": [
+    "Mangaluru International Airport is at Bajpe, about 15 km from the city; Mangaluru Central and Junction are the main railway stations.",
+    "The monsoon (June to September) is very heavy; beaches are unsafe for swimming.",
+    "Dress modestly at temples; some require men to remove shirts.",
+    "Swim only in guarded areas."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Mangalore?",
+      "a": "Visit Kadri Manjunath and Mangaladevi temples, see St Aloysius Chapel, relax at Panambur and Tannirbhavi beaches, watch Yakshagana or Kambala, eat Mangalorean food and visit Moodbidri, Karkala and Dharmasthala."
+    },
+    {
+      "q": "What is Mangalore famous for?",
+      "a": "Its seafood and ghee roast, temples, St Aloysius Chapel, Yakshagana and Kambala, and Mangalore tiles."
+    },
+    {
+      "q": "How many days are enough for Mangalore?",
+      "a": "Two days; three with Udupi or Moodbidri and Karkala."
+    },
+    {
+      "q": "What is the best time to visit Mangalore?",
+      "a": "October to March."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Udupi",
+      "href": "/blog/things-to-do-in-udupi",
+      "note": "Krishna temple and beaches, an hour north"
+    },
+    {
+      "name": "Things to do in Coorg",
+      "href": "/blog/things-to-do-in-coorg",
+      "note": "coffee hills, about four hours east"
+    },
+    {
+      "name": "Things to do in Chikmagalur",
+      "href": "/blog/things-to-do-in-chikmagalur",
+      "note": "peaks and estates"
+    }
+  ],
+  "styles": [
+    "family-holidays",
+    "spiritual-tours"
+  ],
+  "metaDescription": "Things to do in Mangalore: Kadri Manjunath and Mangaladevi temples, St Aloysius Chapel's frescoes, Panambur and Tannirbhavi beaches, Sultan Battery, Pilikula and more."
+}

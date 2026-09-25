@@ -1,0 +1,254 @@
+{
+  "slug": "things-to-do-in-khajuraho",
+  "destination": "Khajuraho",
+  "guide": "khajuraho-travel-guide",
+  "type": "temple town",
+  "title": "Things to Do in Khajuraho: Chandela Temples, Light Show, Panna & Raneh Falls",
+  "seoTitle": "Things to Do in Khajuraho: Temples, Panna & More | Kudozz Club",
+  "description": "Things to do in Khajuraho: the Western Group of temples including Kandariya Mahadeva, the Eastern Jain temples, the Southern Group, the light and sound show, the Archaeological Museum, the Khajuraho Dance Festival, Panna National Park and Raneh Falls.",
+  "dek": "A small village in Bundelkhand with some of the most celebrated temple sculpture in the world, built by the Chandela kings a thousand years ago.",
+  "primaryKeyword": "things to do in Khajuraho",
+  "secondaryKeywords": [
+    "Khajuraho temples",
+    "Kandariya Mahadeva",
+    "Khajuraho light and sound show",
+    "Khajuraho Dance Festival",
+    "Panna National Park",
+    "Raneh Falls"
+  ],
+  "searchIntent": "Travellers planning one or two days in Khajuraho, often with Orchha or Panna.",
+  "tags": [
+    "Khajuraho",
+    "Madhya Pradesh",
+    "Heritage",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/madhya-pradesh/madhya-pradesh/kandariya-mahadeva-temple-khajuraho-sunset.webp",
+    "alt": "Kandariya Mahadeva Temple at sunset, Khajuraho",
+    "caption": "Kandariya Mahadeva Temple"
+  },
+  "intro": [
+    "Khajuraho, in the Chhatarpur district of Madhya Pradesh, was a religious centre of the Chandela dynasty, which built around 85 temples here between about 950 and 1050 CE. Around 25 survive, and together they were listed as a UNESCO World Heritage Site in 1986.",
+    "The temples are famous for their sculpture: thousands of figures of gods, celestial dancers, musicians, warriors, animals and scenes of daily life, among which the erotic carvings are only a small part. The things to do in Khajuraho include the Western, Eastern and Southern groups of temples, the museum, the evening light show and, nearby, Panna National Park and the canyon at Raneh Falls.",
+    "One to two days is enough. October to March is the best time; the Khajuraho Dance Festival is held in February."
+  ],
+  "quickAnswer": [
+    "Explore the Western Group of temples",
+    "See Kandariya Mahadeva, the largest temple",
+    "Visit the Jain temples of the Eastern Group",
+    "See Duladeo and Chaturbhuj in the Southern Group",
+    "Watch the light and sound show",
+    "Visit the Archaeological Museum",
+    "Attend the Khajuraho Dance Festival",
+    "Go on a safari in Panna National Park",
+    "See the canyon at Raneh Falls",
+    "Cycle to nearby villages"
+  ],
+  "sections": [
+    {
+      "id": "western",
+      "heading": "The Western Group",
+      "items": [
+        {
+          "name": "Explore the Western Group",
+          "body": [
+            "The Western Group, in a landscaped enclosure, holds the finest temples, including Lakshmana, Kandariya Mahadeva, Vishwanath, Chitragupta and Devi Jagadambi. Each stands on a high platform with rising towers meant to evoke Mount Kailash, and bands of carvings wrap around the walls. Hiring a licensed guide helps you read the sculptures.",
+            "Look for the sculptures of apsaras applying make-up, writing letters or removing thorns from their feet, and the friezes of armies, hunting scenes and processions along the plinths. The Lakshmana Temple is one of the best preserved, with a full set of subsidiary shrines at its corners."
+          ],
+          "facts": {
+            "Time needed": "2–3 hours",
+            "Best time": "Early morning or late afternoon"
+          }
+        },
+        {
+          "name": "See Kandariya Mahadeva",
+          "body": [
+            "Kandariya Mahadeva, dedicated to Shiva, is the largest and most elaborate temple at Khajuraho, with over 800 sculptures and a tower about 31 metres high.",
+            "Walk around the temple clockwise to follow the carved bands, then look up at how the smaller towers climb towards the main spire, mirroring a mountain range. Late afternoon light brings out the depth of the carving."
+          ],
+          "image": {
+            "src": "/images/blogs/madhya-pradesh/madhya-pradesh/khajuraho-devi-jagadambi-temple-madhya-pradesh.webp",
+            "alt": "Devi Jagadambi Temple, Khajuraho",
+            "caption": "Devi Jagadambi Temple"
+          }
+        },
+        {
+          "name": "Visit Matangeshwar Temple",
+          "body": [
+            "Matangeshwar, next to the Western Group, is the only temple still in active worship, with a huge lingam. It is busy during Mahashivratri."
+          ]
+        },
+        {
+          "name": "Watch the light and sound show",
+          "body": [
+            "An evening light and sound show in the Western Group tells the story of the Chandelas and the temples, in English and Hindi."
+          ],
+          "facts": {
+            "Best time": "Evening"
+          }
+        }
+      ]
+    },
+    {
+      "id": "eastern-southern",
+      "heading": "Eastern and Southern groups",
+      "items": [
+        {
+          "name": "Visit the Jain temples",
+          "body": [
+            "The Eastern Group includes Jain temples such as Parsvanath, Adinath and Shantinath, with fine carvings, and Hindu temples such as Vamana and Javari."
+          ]
+        },
+        {
+          "name": "See Duladeo and Chaturbhuj",
+          "body": [
+            "The Southern Group has the Duladeo Temple, one of the last built, and the Chaturbhuj Temple, with a large carved image of Vishnu. They are quieter and good at sunset."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "more",
+      "heading": "Museum, culture and nature",
+      "items": [
+        {
+          "name": "Visit the Archaeological Museum",
+          "body": [
+            "The ASI museum opposite the Western Group has sculptures from the temples, including fine figures that were found loose around the site. It is closed on Fridays."
+          ],
+          "facts": {
+            "Time needed": "1 hour"
+          }
+        },
+        {
+          "name": "Attend the Khajuraho Dance Festival",
+          "body": [
+            "Every February, the Khajuraho Dance Festival brings India's leading classical dancers to an open-air stage with the illuminated temples as backdrop."
+          ],
+          "facts": {
+            "Best time": "February"
+          }
+        },
+        {
+          "name": "Go on a safari in Panna",
+          "body": [
+            "Panna National Park, about 25 km away, is a tiger reserve along the Ken river, where tigers were successfully reintroduced after they had disappeared. Jeep safaris and boat rides on the Ken are possible.",
+            "Pandav Falls, near the park, is a waterfall over a rock overhang with caves linked in legend to the Pandavas. The park is also good for vultures, crocodiles and birds along the river."
+          ],
+          "facts": {
+            "Best time": "October to June"
+          },
+          "links": [
+            {
+              "label": "Panna guide",
+              "href": "/blog/panna-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "See Raneh Falls",
+          "body": [
+            "Raneh Falls, about 20 km away, flows through a canyon of pink, red and grey granite. It is dramatic after the monsoon; in the dry season the rock formations themselves are the attraction. The Ken Gharial Sanctuary is nearby."
+          ]
+        },
+        {
+          "name": "Cycle to nearby villages",
+          "body": [
+            "Renting a bicycle to ride between temple groups and into the surrounding villages is a pleasant way to see rural Bundelkhand."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seasons",
+      "heading": "By season",
+      "items": [
+        {
+          "name": "October to March",
+          "body": [
+            "The best season for temples and safaris; the Dance Festival is in February."
+          ]
+        },
+        {
+          "name": "April to June",
+          "body": [
+            "Very hot; see the temples at dawn and dusk. Panna safaris have good sightings."
+          ]
+        },
+        {
+          "name": "July to September",
+          "body": [
+            "The monsoon brings green fields and full waterfalls; Panna's core zone is closed."
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "History and art lovers",
+      "text": "A guided morning at the Western Group, the museum and the Southern Group at sunset."
+    },
+    {
+      "who": "Wildlife lovers",
+      "text": "Panna safaris and a boat on the Ken."
+    },
+    {
+      "who": "Culture seekers",
+      "text": "Time a visit for the Dance Festival in February."
+    },
+    {
+      "who": "Families",
+      "text": "The light and sound show, cycling between temple groups and a boat ride on the Ken river at Panna."
+    }
+  ],
+  "oneDay": "Visit the Western Group at opening time with a guide, then the Archaeological Museum. After lunch, cycle to the Eastern and Southern groups, and return for the evening light and sound show.",
+  "tips": [
+    "Khajuraho has a small airport and railway station; Jhansi is about four hours away.",
+    "Hire licensed guides at the ticket office.",
+    "Carry water and a hat; there is little shade.",
+    "Combine with Orchha and Panna for a longer trip.",
+    "Mornings are the best time for photography at the Western Group, before the crowds and heat."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Khajuraho?",
+      "a": "See the Western, Eastern and Southern groups of temples, watch the light and sound show, visit the Archaeological Museum, attend the Dance Festival and visit Panna National Park and Raneh Falls."
+    },
+    {
+      "q": "Are all Khajuraho carvings erotic?",
+      "a": "No. Erotic sculptures are only a small part; most show gods, dancers, musicians, animals and daily life."
+    },
+    {
+      "q": "How many days are enough for Khajuraho?",
+      "a": "One to two days."
+    },
+    {
+      "q": "When is the Khajuraho Dance Festival?",
+      "a": "Usually in February."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Orchha",
+      "href": "/blog/things-to-do-in-orchha",
+      "note": "Bundela palaces, about four hours away"
+    },
+    {
+      "name": "Panna",
+      "href": "/blog/panna-travel-guide",
+      "note": "tiger reserve nearby"
+    },
+    {
+      "name": "Things to do in Varanasi",
+      "href": "/blog/things-to-do-in-varanasi",
+      "note": "the ghats, reachable by train"
+    }
+  ],
+  "styles": [
+    "group-tours",
+    "wildlife-tours"
+  ],
+  "metaDescription": "Things to do in Khajuraho: the Western Group of temples including Kandariya Mahadeva, the Eastern Jain temples, the Southern Group, the light and sound show and more."
+}

@@ -1,0 +1,348 @@
+{
+  "slug": "things-to-do-in-srinagar",
+  "destination": "Srinagar",
+  "guide": "srinagar-travel-guide",
+  "type": "city",
+  "title": "Things to Do in Srinagar: Dal Lake, Mughal Gardens & the Old City",
+  "seoTitle": "Things to Do in Srinagar: Dal Lake, Gardens & More | Kudozz Club",
+  "description": "Things to do in Srinagar: shikara rides and the floating market on Dal Lake, houseboat stays, Shalimar, Nishat and Chashme Shahi gardens, Pari Mahal, the tulip garden, Hazratbal, the Jama Masjid, old-city crafts and wazwan.",
+  "dek": "Kashmir's summer capital, built around lakes and canals, with Mughal gardens on the hills and an old city of wooden shrines and craft workshops along the Jhelum.",
+  "primaryKeyword": "things to do in Srinagar",
+  "secondaryKeywords": [
+    "places to visit in Srinagar",
+    "Dal Lake shikara",
+    "Srinagar Mughal gardens",
+    "tulip garden Srinagar",
+    "floating market Srinagar",
+    "Srinagar old city",
+    "houseboat Srinagar"
+  ],
+  "searchIntent": "Travellers spending two to four days in Srinagar, often as the base for Gulmarg, Pahalgam and Sonamarg.",
+  "tags": [
+    "Srinagar",
+    "Jammu & Kashmir",
+    "City",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/destinations/jammu-kashmir/dal-lake-houseboat-srinagar.webp",
+    "alt": "Houseboats on Dal Lake, Srinagar",
+    "caption": "Dal Lake"
+  },
+  "intro": [
+    "Srinagar, at about 1,585 metres, is the largest city in Kashmir and the summer capital of Jammu and Kashmir. It spreads along the Jhelum and around Dal, Nigeen and other lakes, with the Zabarwan hills rising behind the eastern shore.",
+    "The main things to do in Srinagar are on and around the water: shikara rides, houseboat stays and the floating market. Along the hills are the Mughal gardens, laid out in the 17th century; in spring the tulip garden blooms below them. The old city, Shahr-e-Khaas, has the Jama Masjid, wooden shrines and craft workshops, and it is where you taste Kashmiri food at its best.",
+    "Two to three days covers the city itself. Many travellers stay longer and use Srinagar as a base for day trips."
+  ],
+  "quickAnswer": [
+    "Take a shikara ride on Dal Lake",
+    "See the floating vegetable market at dawn",
+    "Spend a night on a houseboat",
+    "Visit Shalimar Bagh, Nishat Bagh and Chashme Shahi",
+    "Watch sunset from Pari Mahal",
+    "See the tulip garden in spring",
+    "Visit Hazratbal Shrine",
+    "Explore the Jama Masjid and Khanqah-e-Moula in the old city",
+    "Climb to the Shankaracharya Temple",
+    "Eat wazwan and buy local crafts"
+  ],
+  "sections": [
+    {
+      "id": "lakes",
+      "heading": "On the lakes",
+      "items": [
+        {
+          "name": "Take a shikara ride on Dal Lake",
+          "body": [
+            "Shikara rides leave from the ghats along the Boulevard Road. A one-hour ride takes in the houseboats and the Char Chinar island; longer rides go through the lake's inner channels, past floating gardens, lotus beds (in summer) and lakeside houses. Rates are officially fixed at many ghats; confirm the route and time before you go."
+          ],
+          "facts": {
+            "Time needed": "1–3 hours",
+            "Best time": "Sunrise or sunset",
+            "Good for": "Everyone"
+          }
+        },
+        {
+          "name": "See the floating market",
+          "body": [
+            "Before sunrise, farmers from the lake's floating gardens paddle their boats full of vegetables to a meeting point in the inner lake to trade. It is short-lived and over soon after dawn, so book a shikara the evening before."
+          ],
+          "facts": {
+            "Best time": "Around 5 to 7 a.m.",
+            "Good for": "Photographers"
+          }
+        },
+        {
+          "name": "Stay on a houseboat",
+          "body": [
+            "Staying on a carved cedar houseboat on Dal or the quieter Nigeen Lake is one of Srinagar's classic experiences. Families running the boats serve home-cooked meals and kahwa. Choose a registered boat with good recent reviews; standards range widely."
+          ],
+          "facts": {
+            "Good for": "Couples, families"
+          }
+        }
+      ]
+    },
+    {
+      "id": "gardens",
+      "heading": "Mughal gardens and viewpoints",
+      "items": [
+        {
+          "name": "Visit Shalimar Bagh",
+          "image": {
+            "src": "/images/blogs/jammu-and-kashmir/srinagar/shalimar-bagh-srinagar.webp",
+            "alt": "Shalimar Bagh terraces and fountains, Srinagar",
+            "caption": "Shalimar Bagh"
+          },
+          "body": [
+            "Shalimar Bagh was laid out by Emperor Jahangir in 1619 for Nur Jahan. Its terraces descend with a central water channel, fountains and pavilions, framed by chinar trees. It is the largest of the Mughal gardens in Srinagar."
+          ],
+          "facts": {
+            "Time needed": "1 hour",
+            "Best time": "April to October"
+          }
+        },
+        {
+          "name": "Walk through Nishat Bagh",
+          "image": {
+            "src": "/images/destinations/jammu-kashmir/nishat-bagh-mughal-garden-srinagar.webp",
+            "alt": "Nishat Bagh terraces facing Dal Lake",
+            "caption": "Nishat Bagh"
+          },
+          "body": [
+            "Nishat Bagh, the garden of joy, was built in the 1630s by Asif Khan, brother of Nur Jahan. With twelve terraces rising from the lake towards the Zabarwan hills, it has the best views of Dal Lake of all the gardens."
+          ],
+          "facts": {
+            "Time needed": "1 hour"
+          }
+        },
+        {
+          "name": "See Chashme Shahi and Pari Mahal",
+          "image": {
+            "src": "/images/blogs/jammu-and-kashmir/srinagar/chashme-shahi-srinagar.webp",
+            "alt": "Chashme Shahi garden, Srinagar",
+            "caption": "Chashme Shahi"
+          },
+          "body": [
+            "Chashme Shahi, the royal spring, is a smaller garden built by Shah Jahan around a natural spring whose water is said to have healing qualities. Above it, Pari Mahal, a terraced garden built by Dara Shikoh, once served as a school of astrology. Its views over the lake at sunset are among the finest in the city."
+          ],
+          "facts": {
+            "Time needed": "1.5 hours",
+            "Best time": "Late afternoon"
+          }
+        },
+        {
+          "name": "See the tulip garden",
+          "image": {
+            "src": "/images/blogs/jammu-and-kashmir/srinagar/indira-gandhi-memorial-tulip-garden-srinagar.webp",
+            "alt": "Rows of tulips at the Indira Gandhi Memorial Tulip Garden, Srinagar",
+            "caption": "Tulip garden"
+          },
+          "body": [
+            "The Indira Gandhi Memorial Tulip Garden, on the slopes of the Zabarwan range, has over a million tulips in dozens of varieties. It is open for only a few weeks in spring, usually from late March into April. Weekday mornings are the least crowded."
+          ],
+          "facts": {
+            "Best time": "Late March to April",
+            "Good to know": "Open only during the bloom"
+          }
+        },
+        {
+          "name": "Climb to the Shankaracharya Temple",
+          "body": [
+            "The Shankaracharya Temple, dedicated to Shiva, stands on a hill about 300 metres above the city, reached by a road and then a flight of steps. It offers a sweeping view of Srinagar, Dal Lake and the Jhelum. Phones and cameras may need to be deposited at the security point."
+          ],
+          "facts": {
+            "Time needed": "1.5 hours"
+          }
+        }
+      ]
+    },
+    {
+      "id": "more",
+      "heading": "More to see around the city",
+      "items": [
+        {
+          "name": "Stay or row on Nigeen Lake",
+          "body": [
+            "Nigeen Lake, connected to Dal to the north-west, is calmer and less commercial, with houseboats set among willows and fewer shikara touts. It is a good choice for a quieter houseboat stay and for an early-morning row."
+          ],
+          "facts": {
+            "Good for": "Couples, slow travellers"
+          }
+        },
+        {
+          "name": "See Hari Parbat",
+          "body": [
+            "Hari Parbat, a hill in the old city crowned by an 18th-century Durrani fort, has a temple to Sharika Devi, the shrine of Makhdoom Sahib and a gurudwara on its slopes, reflecting the city's mixed heritage. The Mughal-era wall around the hill was built under Akbar."
+          ],
+          "facts": {
+            "Time needed": "1.5 hours"
+          }
+        },
+        {
+          "name": "Look for the hangul in Dachigam",
+          "body": [
+            "Dachigam National Park, about 20 km from the city, is the last stronghold of the hangul, or Kashmir stag, a critically endangered deer. The lower park can be visited with permission from the wildlife department, and autumn is the best time to hear stags calling. Himalayan black bears also live here."
+          ],
+          "facts": {
+            "Best time": "October to November",
+            "Good to know": "Entry permit from the wildlife department"
+          }
+        },
+        {
+          "name": "Visit the SPS Museum",
+          "body": [
+            "The Sri Pratap Singh Museum near the Jhelum has collections of Kashmiri shawls, papier-mâché, arms, manuscripts and archaeological finds from sites such as Harwan and Parihaspora. It is a good introduction to the valley's arts."
+          ],
+          "facts": {
+            "Time needed": "1–1.5 hours"
+          }
+        }
+      ]
+    },
+    {
+      "id": "old-city",
+      "heading": "The old city and its crafts",
+      "items": [
+        {
+          "name": "Visit Hazratbal Shrine",
+          "body": [
+            "Hazratbal, a white marble mosque on the northern shore of Dal Lake, houses a relic believed to be a hair of the Prophet Muhammad. It is the most important Muslim shrine in Kashmir. Women may not be allowed into all parts of the prayer hall; dress modestly."
+          ],
+          "facts": {
+            "Time needed": "45 minutes",
+            "Best time": "Friday afternoon for the atmosphere (non-prayer times for visits)"
+          }
+        },
+        {
+          "name": "See the Jama Masjid",
+          "image": {
+            "src": "/images/destinations/jammu-kashmir/jama-masjid-old-city-srinagar.webp",
+            "alt": "Jama Masjid, Srinagar old city",
+            "caption": "Jama Masjid"
+          },
+          "body": [
+            "Srinagar's Jama Masjid, first built around 1400 under Sultan Sikandar, has a vast courtyard and prayer halls supported by hundreds of deodar pillars. Its Indo-Saracenic design with pagoda-like roofs is unlike mosques elsewhere in India."
+          ],
+          "facts": {
+            "Time needed": "45 minutes"
+          }
+        },
+        {
+          "name": "Visit Khanqah-e-Moula",
+          "body": [
+            "Khanqah-e-Moula, on the banks of the Jhelum, is a wooden shrine dedicated to the Sufi saint Mir Sayyid Ali Hamadani, credited with bringing many crafts to Kashmir. Its painted and carved wooden interiors are extraordinary. Non-Muslims and women may be restricted from the inner hall."
+          ]
+        },
+        {
+          "name": "Walk the old city and buy crafts",
+          "body": [
+            "The old city's lanes around Zaina Kadal and the bridges over the Jhelum are full of old wooden houses and workshops. Look for papier-mâché, walnut-wood carving, pashmina, carpets and copperware. Government emporiums are a reliable place to compare prices."
+          ],
+          "facts": {
+            "Good for": "Shoppers, photographers"
+          }
+        },
+        {
+          "name": "Eat wazwan and bakery bread",
+          "body": [
+            "Try a wazwan meal with rogan josh, rista and gushtaba, and in the mornings, fresh breads such as girda and lavasa from neighbourhood kandur bakeries. Noon chai (salted pink tea) and kahwa are the local drinks."
+          ],
+          "facts": {
+            "Good for": "Food lovers"
+          }
+        }
+      ]
+    },
+    {
+      "id": "seasons",
+      "heading": "Srinagar by season",
+      "items": [
+        {
+          "name": "Autumn chinars",
+          "body": [
+            "From late October into November, the chinar trees in the gardens, at Naseem Bagh and along the Boulevard turn red and gold. It is one of the most beautiful times to be in Srinagar, with crisp days and fewer crowds."
+          ],
+          "facts": {
+            "Best time": "Late October to mid-November"
+          }
+        },
+        {
+          "name": "Winter in the city",
+          "body": [
+            "During Chillai Kalan, the 40 coldest days from late December, parts of Dal Lake can freeze at the edges and the city is quiet. Locals keep warm with kangris (fire pots) and pherans, and eat harissa, a slow-cooked mutton dish sold at dawn in the old city."
+          ],
+          "facts": {
+            "Best time": "Late December to January"
+          }
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Couples",
+      "text": "A houseboat night, a sunset shikara, Nishat Bagh and sunset at Pari Mahal."
+    },
+    {
+      "who": "Families",
+      "text": "The Mughal gardens, a short shikara ride and the tulip garden in spring are easy with children. Base in a hotel on Boulevard Road for convenience."
+    },
+    {
+      "who": "Photographers",
+      "text": "The floating market at dawn, old-city bridges and the gardens in autumn when the chinars turn red."
+    }
+  ],
+  "oneDay": "Take a dawn shikara to the floating market, then visit Shalimar Bagh and Nishat Bagh. After lunch, see Hazratbal and the old city's Jama Masjid and Khanqah-e-Moula. End at Pari Mahal for sunset over Dal Lake.",
+  "tips": [
+    "Srinagar's airport has flights from major cities; Srinagar also has a railway station on the valley rail network.",
+    "Carry ID at all times and follow local advisories.",
+    "Many shops and gardens close earlier in winter; check timings.",
+    "Some areas close on Fridays during prayer times; plan visits to shrines around them."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Srinagar?",
+      "a": "Take a shikara on Dal Lake, see the floating market, stay on a houseboat, visit Shalimar, Nishat and Chashme Shahi gardens and Pari Mahal, see the tulip garden in spring, visit Hazratbal and the old city, and eat wazwan."
+    },
+    {
+      "q": "When does the Srinagar tulip garden open?",
+      "a": "Usually from late March to April, for a few weeks during the bloom. Dates are announced each year."
+    },
+    {
+      "q": "How many days are enough for Srinagar?",
+      "a": "Two to three days for the city; five to six if you use it as a base for Gulmarg, Pahalgam and Sonamarg."
+    },
+    {
+      "q": "What is the best time for a shikara ride?",
+      "a": "Sunrise, when the lake is calm and the floating market is on, or sunset for the light over the mountains."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Gulmarg",
+      "href": "/blog/things-to-do-in-gulmarg",
+      "note": "the gondola and skiing, about two hours away"
+    },
+    {
+      "name": "Things to do in Pahalgam",
+      "href": "/blog/things-to-do-in-pahalgam",
+      "note": "river valleys, about two and a half hours away"
+    },
+    {
+      "name": "Things to do in Sonamarg",
+      "href": "/blog/things-to-do-in-sonamarg",
+      "note": "the glacier meadow on the Ladakh road"
+    },
+    {
+      "name": "Doodhpathri",
+      "href": "/blog/doodhpathri-travel-guide",
+      "note": "a quieter meadow day trip"
+    }
+  ],
+  "styles": [
+    "honeymoon",
+    "family-holidays"
+  ],
+  "metaDescription": "Things to do in Srinagar: shikara rides and the floating market on Dal Lake, houseboat stays, Shalimar, Nishat and Chashme Shahi gardens, Pari Mahal, the tulip garden and more."
+}

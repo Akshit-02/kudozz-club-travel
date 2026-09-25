@@ -29,9 +29,9 @@ function hashPair(a: string, b: string): number {
 // Ranks candidates by shared tags (topical relevance) with same-category as
 // a smaller bonus, then breaks ties with a per-post-pair hash so the result
 // varies across posts instead of always returning a fixed top-N.
-function getRelatedPosts(currentSlug: string, count: number): Post[] {
+function getRelatedPosts(currentSlug: string, count: number, excludeSlug?: string): Post[] {
   const current = ALL_POSTS.find((p) => p.slug === currentSlug);
-  const rest = ALL_POSTS.filter((p) => p.slug !== currentSlug);
+  const rest = ALL_POSTS.filter((p) => p.slug !== currentSlug && p.slug !== excludeSlug);
   if (!current) return rest.slice(0, count);
 
   return rest
@@ -52,8 +52,8 @@ function getRelatedPosts(currentSlug: string, count: number): Post[] {
 }
 
 // ── Sidebar Widget ────────────────────────────────────────────────────────────
-export function RelatedSidebar({ currentSlug }: { currentSlug: string }) {
-  const related = getRelatedPosts(currentSlug, 3);
+export function RelatedSidebar({ currentSlug, excludeSlug }: { currentSlug: string; excludeSlug?: string }) {
+  const related = getRelatedPosts(currentSlug, 3, excludeSlug);
   const current = ALL_POSTS.find((p) => p.slug === currentSlug);
   const ctx = getGuideContext(currentSlug);
 
@@ -211,8 +211,8 @@ export function RelatedSidebar({ currentSlug }: { currentSlug: string }) {
 }
 
 // ── Bottom Related Grid ───────────────────────────────────────────────────────
-export function RelatedPostsGrid({ currentSlug }: { currentSlug: string }) {
-  const related = getRelatedPosts(currentSlug, 4);
+export function RelatedPostsGrid({ currentSlug, excludeSlug }: { currentSlug: string; excludeSlug?: string }) {
+  const related = getRelatedPosts(currentSlug, 4, excludeSlug);
   const ctx = getGuideContext(currentSlug);
 
   return (

@@ -1,0 +1,296 @@
+{
+  "slug": "things-to-do-in-ranchi",
+  "destination": "Ranchi",
+  "guide": "ranchi-travel-guide",
+  "type": "city",
+  "title": "Things to Do in Ranchi: Waterfalls, Hills, Temples & Tribal Heritage",
+  "seoTitle": "Things to Do in Ranchi: Waterfalls, Hills & More | Kudozz Club",
+  "description": "Things to do in Ranchi: Hundru, Dassam and Jonha falls, Tagore Hill, Pahari Mandir, Kanke Dam and the Rock Garden, the Jagannath Temple, the Birsa Munda memorial, the Tribal Research Institute museum, Patratu Valley, the Sun Temple at Bundu, Netarhat and Betla.",
+  "dek": "The capital of Jharkhand on the Chota Nagpur plateau, known as the city of waterfalls, with forested hills and a strong tribal culture.",
+  "primaryKeyword": "things to do in Ranchi",
+  "secondaryKeywords": [
+    "places to visit in Ranchi",
+    "Hundru Falls",
+    "Dassam Falls",
+    "Jonha Falls",
+    "Patratu Valley",
+    "Tagore Hill",
+    "Netarhat"
+  ],
+  "searchIntent": "Weekenders and travellers spending one to three days in and around Ranchi.",
+  "tags": [
+    "Ranchi",
+    "Jharkhand",
+    "City",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/jharkhand/ranchi/dassam-falls-ranchi.webp",
+    "alt": "Dassam Falls near Ranchi",
+    "caption": "Dassam Falls"
+  },
+  "intro": [
+    "Ranchi, at about 650 metres on the Chota Nagpur plateau, is the capital of Jharkhand. Its mild climate made it the summer capital of Bihar under British rule. The region is home to Munda, Oraon, Santhal and other Adivasi communities, and Ranchi is closely linked to the tribal leader Birsa Munda, who led an uprising against colonial rule in the 1890s.",
+    "The things to do in Ranchi centre on its waterfalls, where rivers tumble off the plateau: Hundru, Dassam, Jonha and others. In the city are hilltop temples and viewpoints, lakes and gardens, and museums on tribal history. The winding roads of Patratu Valley, the Sun Temple at Bundu, and further afield Netarhat and Betla National Park make good excursions.",
+    "Two to three days is ideal. The waterfalls are best from the monsoon to early winter, roughly July to December."
+  ],
+  "quickAnswer": [
+    "See Hundru Falls",
+    "Visit Dassam Falls",
+    "Walk down to Jonha Falls",
+    "Watch sunset from Tagore Hill",
+    "Climb to Pahari Mandir",
+    "Relax at Kanke Dam and the Rock Garden",
+    "Visit the Jagannath Temple",
+    "See the Birsa Munda memorial and museum",
+    "Drive the hairpin roads of Patratu Valley",
+    "See the Sun Temple at Bundu"
+  ],
+  "sections": [
+    {
+      "id": "falls",
+      "heading": "Waterfalls",
+      "items": [
+        {
+          "name": "See Hundru Falls",
+          "body": [
+            "Hundru Falls, about 45 km from Ranchi, is where the Subarnarekha river drops about 98 metres off the plateau. Steps lead down to the base, where the water forms pools among rocks. It is most spectacular in and after the monsoon."
+          ],
+          "image": {
+            "src": "/images/blogs/jharkhand/ranchi/hundru-falls-ranchi.webp",
+            "alt": "Hundru Falls, Ranchi",
+            "caption": "Hundru Falls"
+          },
+          "facts": {
+            "Best time": "July to December",
+            "Good to know": "Rocks are slippery; do not swim in strong flows"
+          }
+        },
+        {
+          "name": "Visit Dassam Falls",
+          "body": [
+            "Dassam Falls, about 40 km away on the Kanchi river, falls in a curtain of streams into a gorge. The name refers to ten streams. Swimming here is dangerous; stay on the viewing areas."
+          ],
+          "facts": {
+            "Good to know": "Do not enter the water"
+          }
+        },
+        {
+          "name": "Walk down to Jonha Falls",
+          "body": [
+            "Jonha Falls, also called Gautamdhara after a Buddhist temple nearby, is reached by about 700 steps and has a pleasant pool at the base in the dry season."
+          ],
+          "image": {
+            "src": "/images/blogs/jharkhand/ranchi/jonha-falls-ranchi.webp",
+            "alt": "Jonha Falls near Ranchi",
+            "caption": "Jonha Falls"
+          }
+        },
+        {
+          "name": "See Hirni and Sita falls",
+          "body": [
+            "Hirni Falls, surrounded by forest, and Sita Falls, near Jonha, are quieter falls often combined in a day trip."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "city",
+      "heading": "In the city",
+      "items": [
+        {
+          "name": "Watch sunset from Tagore Hill",
+          "body": [
+            "Tagore Hill, named after Jyotirindranath Tagore, elder brother of Rabindranath, who built a retreat here in the early 20th century, has a small pavilion at the top and views over the city."
+          ],
+          "image": {
+            "src": "/images/blogs/jharkhand/ranchi/tagore-hill-ranchi.webp",
+            "alt": "Tagore Hill, Ranchi",
+            "caption": "Tagore Hill"
+          },
+          "facts": {
+            "Best time": "Sunset"
+          }
+        },
+        {
+          "name": "Climb to Pahari Mandir",
+          "body": [
+            "Pahari Mandir, a Shiva temple on a hill in the city, was once the site where freedom fighters were hanged by the British. The national flag is raised here on Independence Day and Republic Day."
+          ]
+        },
+        {
+          "name": "Relax at Kanke Dam and the Rock Garden",
+          "body": [
+            "The Rock Garden, built on the hills beside Kanke Dam, has sculptures, waterfalls and views over the reservoir. It is a popular evening spot for families."
+          ],
+          "facts": {
+            "Good for": "Families"
+          }
+        },
+        {
+          "name": "Visit the Jagannath Temple",
+          "body": [
+            "The Jagannath Temple, built in 1691 on a hillock, is modelled on the temple at Puri and holds its own Rath Yatra fair."
+          ]
+        },
+        {
+          "name": "See the Birsa Munda memorial and museums",
+          "body": [
+            "The Birsa Munda Museum and memorial, in the old Ranchi jail where he died in 1900, honours the tribal leader. The Tribal Research Institute museum displays tools, dress and art of Jharkhand's communities."
+          ],
+          "facts": {
+            "Good for": "History lovers"
+          }
+        }
+      ]
+    },
+    {
+      "id": "excursions",
+      "heading": "Excursions",
+      "items": [
+        {
+          "name": "Drive through Patratu Valley",
+          "body": [
+            "Patratu Valley, about 35 km away, is known for its winding hairpin roads through forested hills, with viewpoints over the Patratu reservoir. Boating is available at the dam."
+          ],
+          "links": [
+            {
+              "label": "Patratu guide",
+              "href": "/blog/patratu-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "See the Sun Temple at Bundu",
+          "body": [
+            "The Sun Temple at Bundu, about 40 km away, is a modern temple built in the shape of a chariot with 18 wheels and seven horses, set by a pond."
+          ]
+        },
+        {
+          "name": "Watch sunrise at Netarhat",
+          "body": [
+            "Netarhat, about 150 km away at over 1,100 metres, is known as the queen of Chota Nagpur for its forests and viewpoints, especially Magnolia Point at sunset and the sunrise point."
+          ],
+          "links": [
+            {
+              "label": "Netarhat guide",
+              "href": "/blog/netarhat-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Go on a safari at Betla",
+          "body": [
+            "Betla National Park, in the Palamau Tiger Reserve about 170 km away, has elephants, gaur, deer and a ruined fort in the forest."
+          ],
+          "links": [
+            {
+              "label": "Betla guide",
+              "href": "/blog/betla-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Eat Jharkhand food",
+          "body": [
+            "Try dhuska (fried rice and lentil bread) with aloo, rugra (a local mushroom) in the monsoon, and pitha. Tribal festivals such as Sarhul in spring and Karma in autumn bring dances and music."
+          ],
+          "facts": {
+            "Good for": "Food lovers"
+          }
+        }
+      ]
+    },
+    {
+      "id": "seasons",
+      "heading": "By season",
+      "items": [
+        {
+          "name": "July to October",
+          "body": [
+            "The waterfalls are at their fullest and the hills are green."
+          ]
+        },
+        {
+          "name": "November to February",
+          "body": [
+            "Cool, clear weather for excursions; the falls still flow in early winter."
+          ]
+        },
+        {
+          "name": "March to June",
+          "body": [
+            "Hot, and many falls reduce to a trickle."
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Families",
+      "text": "Kanke Dam's Rock Garden, Hundru Falls and Patratu Valley."
+    },
+    {
+      "who": "Nature lovers",
+      "text": "A waterfall circuit, Netarhat and Betla."
+    },
+    {
+      "who": "History lovers",
+      "text": "The Birsa Munda memorial, the Tribal Research Institute museum and Pahari Mandir."
+    }
+  ],
+  "oneDay": "Drive to Hundru Falls in the morning, then Jonha Falls. Return to the city for the Birsa Munda memorial, and end at Tagore Hill for sunset.",
+  "tips": [
+    "Birsa Munda Airport and Ranchi Junction are well connected.",
+    "Waterfalls can be dangerous; stay on viewing areas and never swim in strong flows.",
+    "Hire a car for the waterfall circuit.",
+    "Carry cash; facilities at the falls are basic.",
+    "Start early for the waterfall circuit; the roads are slow and the falls are spread out."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Ranchi?",
+      "a": "See Hundru, Dassam and Jonha falls, watch sunset from Tagore Hill, visit Pahari Mandir, Kanke Dam and the Jagannath Temple, see the Birsa Munda memorial, drive through Patratu Valley and visit the Sun Temple at Bundu."
+    },
+    {
+      "q": "When is the best time to see Ranchi's waterfalls?",
+      "a": "From about July to December, during and after the monsoon."
+    },
+    {
+      "q": "How many days are enough for Ranchi?",
+      "a": "Two to three days."
+    },
+    {
+      "q": "Why is Ranchi called the city of waterfalls?",
+      "a": "Several large waterfalls lie within an hour or two of the city, where rivers drop off the Chota Nagpur plateau."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Netarhat",
+      "href": "/blog/netarhat-travel-guide",
+      "note": "queen of Chota Nagpur"
+    },
+    {
+      "name": "Betla",
+      "href": "/blog/betla-travel-guide",
+      "note": "elephants and forest"
+    },
+    {
+      "name": "Patratu",
+      "href": "/blog/patratu-travel-guide",
+      "note": "hairpin roads and a lake"
+    },
+    {
+      "name": "Deoghar",
+      "href": "/blog/deoghar-travel-guide",
+      "note": "Baidyanath Jyotirlinga"
+    }
+  ],
+  "styles": [
+    "weekend-getaways",
+    "family-holidays"
+  ],
+  "metaDescription": "Things to do in Ranchi: Hundru, Dassam and Jonha falls, Tagore Hill, Pahari Mandir, Kanke Dam and the Rock Garden, the Jagannath Temple, the Birsa Munda memorial and more."
+}

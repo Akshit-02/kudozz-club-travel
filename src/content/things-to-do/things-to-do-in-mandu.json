@@ -1,0 +1,240 @@
+{
+  "slug": "things-to-do-in-mandu",
+  "destination": "Mandu",
+  "guide": "mandu-travel-guide",
+  "type": "heritage town",
+  "title": "Things to Do in Mandu: Jahaz Mahal, Rupmati's Pavilion & Afghan Architecture",
+  "seoTitle": "Things to Do in Mandu: Palaces, Tombs & Views | Kudozz Club",
+  "description": "Things to do in Mandu: Jahaz Mahal and Hindola Mahal, Hoshang Shah's marble tomb, the Jami Masjid, Rupmati's Pavilion and Baz Bahadur's Palace, Rewa Kund, the Nilkanth Mahal, baobab trees, monsoon views and the Mandu festival.",
+  "dek": "A fortified plateau in Malwa where the sultans of Mandu built palaces, mosques and tombs among lakes and baobab trees, and where a famous romance is still retold.",
+  "primaryKeyword": "things to do in Mandu",
+  "secondaryKeywords": [
+    "Jahaz Mahal",
+    "Hoshang Shah's tomb",
+    "Rupmati Pavilion",
+    "Baz Bahadur Palace",
+    "Mandu in monsoon",
+    "Mandu from Indore"
+  ],
+  "searchIntent": "History lovers and weekenders from Indore planning one or two days in Mandu.",
+  "tags": [
+    "Mandu",
+    "Madhya Pradesh",
+    "Heritage",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/madhya-pradesh/mandu/hoshang-shah-s-tomb-mandu.webp",
+    "alt": "Marble tomb of Hoshang Shah, Mandu",
+    "caption": "Hoshang Shah's tomb"
+  },
+  "intro": [
+    "Mandu (Mandav), about 95 km from Indore, sits on a plateau above the Narmada valley, ringed by walls and deep ravines. It became the capital of the Malwa sultanate in the 15th century, and its rulers built palaces, mosques, tombs and reservoirs in a bold Afghan style.",
+    "The things to do in Mandu include the Royal Enclave with the ship-like Jahaz Mahal and the sloping walls of Hindola Mahal, the marble tomb of Hoshang Shah that is said to have inspired the Taj Mahal's builders, the grand Jami Masjid, and the pavilion of Rani Rupmati, whose love story with Baz Bahadur is part of local legend. The plateau is dotted with baobab trees brought from Africa centuries ago.",
+    "One or two days is enough. The monsoon (July to September) is the most beautiful season, when the lakes fill and the plateau turns green."
+  ],
+  "quickAnswer": [
+    "See Jahaz Mahal between two lakes",
+    "Visit Hindola Mahal",
+    "See Hoshang Shah's marble tomb",
+    "Visit the Jami Masjid",
+    "Watch the view from Rupmati's Pavilion",
+    "Explore Baz Bahadur's Palace",
+    "See Rewa Kund",
+    "Visit the Nilkanth Mahal",
+    "Taste baobab fruit (khurasani imli)",
+    "Attend the Mandu festival"
+  ],
+  "sections": [
+    {
+      "id": "royal",
+      "heading": "The Royal Enclave",
+      "items": [
+        {
+          "name": "See Jahaz Mahal",
+          "body": [
+            "Jahaz Mahal (Ship Palace), built in the 15th century by Sultan Ghiyas-ud-din Khilji, stretches between two lakes, Munj Talao and Kapur Talao, so that it seems to float like a ship when they are full. It has open pavilions, terraces and bathing pools.",
+            "It is especially beautiful in the monsoon, and a light and sound show in the Royal Enclave tells Mandu's history in the evening."
+          ],
+          "image": {
+            "src": "/images/blogs/madhya-pradesh/mandu/jahaz-mahal-mandu.webp",
+            "alt": "Jahaz Mahal between two lakes, Mandu",
+            "caption": "Jahaz Mahal"
+          },
+          "facts": {
+            "Best time": "Monsoon and late afternoon"
+          }
+        },
+        {
+          "name": "Visit Hindola Mahal",
+          "body": [
+            "Hindola Mahal (Swinging Palace) gets its name from its steeply sloping side walls, which make it seem to sway. It was probably an audience hall.",
+            "The hall's massive buttresses and plain, powerful lines are typical of the Malwa style. Nearby are the Taveli Mahal, now a small museum of sculptures found on the plateau, and the Gada Shah's shop and house."
+          ]
+        },
+        {
+          "name": "See the Champa Baoli",
+          "body": [
+            "The Champa Baoli, a stepwell with underground rooms that stayed cool in summer, lies in the Royal Enclave."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "village",
+      "heading": "The village group",
+      "items": [
+        {
+          "name": "See Hoshang Shah's tomb",
+          "body": [
+            "Hoshang Shah's tomb, completed in the 15th century, is considered the first marble monument in India. An inscription records that Shah Jahan sent architects, including one associated with the Taj Mahal, to study it.",
+            "The white marble dome, latticed windows and quiet courtyard make it one of the most elegant buildings on the plateau. Look for the carved jali screens and the inscription near the entrance."
+          ],
+          "facts": {
+            "Time needed": "45 minutes"
+          }
+        },
+        {
+          "name": "Visit the Jami Masjid",
+          "body": [
+            "The Jami Masjid, modelled on the great mosque at Damascus, has a vast courtyard, domes and colonnades, and is one of the finest examples of Afghan architecture in India."
+          ],
+          "image": {
+            "src": "/images/blogs/madhya-pradesh/mandu/jami-masjid-mandu.webp",
+            "alt": "Jami Masjid, Mandu",
+            "caption": "Jami Masjid"
+          }
+        },
+        {
+          "name": "See Ashrafi Mahal",
+          "body": [
+            "Ashrafi Mahal, opposite the Jami Masjid, was a madrasa and later a tomb complex. Its ruins include the base of a seven-storey victory tower."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rewa-kund",
+      "heading": "Rupmati and Baz Bahadur",
+      "items": [
+        {
+          "name": "Watch the view from Rupmati's Pavilion",
+          "body": [
+            "Rupmati's Pavilion, at the southern edge of the plateau, has two domed pavilions looking over the Narmada valley. According to legend, the singer Rupmati, beloved of Sultan Baz Bahadur, would look from here towards the sacred river each day. Sunset here is memorable.",
+            "The pavilion was originally built as an army observation post, and its high position shows why: the plain drops away hundreds of metres below. On clear days the Narmada's line can be picked out in the distance."
+          ],
+          "facts": {
+            "Best time": "Sunset"
+          }
+        },
+        {
+          "name": "Explore Baz Bahadur's Palace",
+          "body": [
+            "Baz Bahadur's Palace, below the pavilion, has courtyards and halls built in the 16th century, with echoes that musicians are said to have used."
+          ]
+        },
+        {
+          "name": "See Rewa Kund and Nilkanth Mahal",
+          "body": [
+            "Rewa Kund, a reservoir fed by an aqueduct, supplied water to Rupmati's Pavilion. The Nilkanth Mahal, built by a Mughal governor over a spring, is now a Shiva shrine with views over a ravine."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nature",
+      "heading": "Baobabs and seasons",
+      "items": [
+        {
+          "name": "Look for baobab trees",
+          "body": [
+            "Mandu has many African baobab trees, locally called khurasani imli, believed to have been brought by traders centuries ago. Their fruit is sold in the market."
+          ]
+        },
+        {
+          "name": "Attend the Mandu festival",
+          "body": [
+            "The Mandu festival, held in winter, brings music, adventure activities and cultural events to the plateau."
+          ],
+          "facts": {
+            "Best time": "December or January (check dates)"
+          }
+        },
+        {
+          "name": "See Mandu in the monsoon",
+          "body": [
+            "From July to September, clouds sweep across the plateau, waterfalls pour into the ravines and the lakes around Jahaz Mahal fill up. It is Mandu's most romantic season."
+          ],
+          "facts": {
+            "Best time": "July to September"
+          }
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "History lovers",
+      "text": "The Royal Enclave in the morning, the village group at midday and Rupmati's Pavilion at sunset."
+    },
+    {
+      "who": "Couples",
+      "text": "The monsoon, the pavilion at sunset and the light show."
+    },
+    {
+      "who": "Weekenders from Indore",
+      "text": "Drive up in the morning, see the main groups and return after sunset, or stay overnight."
+    }
+  ],
+  "oneDay": "See Jahaz Mahal and Hindola Mahal in the morning, then visit the Jami Masjid and Hoshang Shah's tomb. After lunch, drive to Rewa Kund and Baz Bahadur's Palace, and end at Rupmati's Pavilion for sunset.",
+  "tips": [
+    "Indore, about 95 km away, has the nearest airport and major railway station.",
+    "Hire a car or rickshaw to move between the groups; they are spread across the plateau.",
+    "Carry water and a hat outside the monsoon.",
+    "Accommodation is limited; book ahead in the monsoon."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Mandu?",
+      "a": "See Jahaz Mahal and Hindola Mahal, visit Hoshang Shah's tomb and the Jami Masjid, watch sunset from Rupmati's Pavilion, explore Baz Bahadur's Palace and Rewa Kund, and see the baobab trees."
+    },
+    {
+      "q": "What is the best time to visit Mandu?",
+      "a": "The monsoon (July to September) for greenery and full lakes, and October to March for pleasant weather."
+    },
+    {
+      "q": "How far is Mandu from Indore?",
+      "a": "About 95 km, roughly two and a half hours by road."
+    },
+    {
+      "q": "How many days are enough for Mandu?",
+      "a": "One to two days."
+    },
+    {
+      "q": "Is there a light and sound show at Mandu?",
+      "a": "Yes. A light and sound show is held in the Royal Enclave in the evening; check timings locally, as schedules vary with the season."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Indore",
+      "href": "/blog/things-to-do-in-indore",
+      "note": "food and palaces"
+    },
+    {
+      "name": "Omkareshwar",
+      "href": "/blog/omkareshwar-travel-guide",
+      "note": "Jyotirlinga on the Narmada"
+    },
+    {
+      "name": "Things to do in Ujjain",
+      "href": "/blog/things-to-do-in-ujjain",
+      "note": "Mahakaleshwar"
+    }
+  ],
+  "styles": [
+    "weekend-getaways",
+    "group-tours"
+  ],
+  "metaDescription": "Things to do in Mandu: Jahaz Mahal and Hindola Mahal, Hoshang Shah's marble tomb, the Jami Masjid, Rupmati's Pavilion and Baz Bahadur's Palace, Rewa Kund, the Nilkanth Mahal and more."
+}

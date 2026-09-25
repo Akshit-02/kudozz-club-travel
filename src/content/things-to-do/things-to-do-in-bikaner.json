@@ -1,0 +1,248 @@
+{
+  "slug": "things-to-do-in-bikaner",
+  "destination": "Bikaner",
+  "guide": "bikaner-travel-guide",
+  "type": "desert city",
+  "title": "Things to Do in Bikaner: Junagarh Fort, Havelis, Camels & Bhujia",
+  "seoTitle": "Things to Do in Bikaner: Fort, Havelis & Camels | Kudozz Club",
+  "description": "Things to do in Bikaner: Junagarh Fort's painted palaces, the Rampuria havelis, the Karni Mata temple at Deshnoke, the National Research Centre on Camel and Bikaner's famous bhujia.",
+  "dek": "A desert trading city with a fort that was never taken, merchant havelis in red sandstone, a camel breeding farm and the snack that made its name famous across India.",
+  "primaryKeyword": "things to do in Bikaner",
+  "secondaryKeywords": [
+    "places to visit in Bikaner",
+    "Junagarh Fort",
+    "Karni Mata Temple Deshnoke",
+    "Bikaner camel research centre",
+    "Bikaner food"
+  ],
+  "searchIntent": "Travellers on a northern Rajasthan or desert route planning one to two days in Bikaner.",
+  "tags": [
+    "Bikaner",
+    "Rajasthan",
+    "Thar Desert",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/rajasthan/bikaner/junagarh-fort-bikaner.webp",
+    "alt": "Sandstone palaces of Junagarh Fort, Bikaner",
+    "caption": "Junagarh Fort"
+  },
+  "intro": [
+    "Bikaner was founded in 1488 by Rao Bika, a son of Jodhpur's founder Rao Jodha, and grew into a wealthy stop on the caravan routes across the Thar. Unlike most Rajasthani capitals, its fort stands on the plain rather than a hill, and it is known for never having been captured.",
+    "The city sees far fewer visitors than Jaipur or Jaisalmer, which is part of its appeal. Two days covers Junagarh Fort and the old city's havelis on one day, and the Karni Mata temple and camel research centre on the other."
+  ],
+  "quickAnswer": [
+    "Tour Junagarh Fort and its painted palace rooms",
+    "Walk the old city to see the Rampuria havelis",
+    "Visit the Karni Mata temple at Deshnoke",
+    "See the camel breeding farm at the National Research Centre on Camel",
+    "Explore Lalgarh Palace",
+    "Buy Bikaneri bhujia and rasgulla in the old city",
+    "See the Bhandasar Jain Temple's painted interiors"
+  ],
+  "sections": [
+    {
+      "id": "fort-city",
+      "heading": "Fort, palaces and havelis",
+      "items": [
+        {
+          "name": "Tour Junagarh Fort",
+          "image": {
+            "src": "/images/blogs/rajasthan/bikaner/junagarh-fort-bikaner-2.webp",
+            "alt": "Courtyard and balconies inside Junagarh Fort, Bikaner",
+            "caption": "Inside Junagarh Fort"
+          },
+          "body": [
+            "Junagarh was built in the late 16th century by Raja Rai Singh, a general in Akbar's army. Behind plain outer walls are richly decorated palaces: Anup Mahal, with red and gold lacquer work, Phool Mahal, with mirror and glass inlay, and Badal Mahal, painted with blue clouds, a rare sight in the desert. The museum includes a World War I biplane.",
+            "Visits are guided in groups through the palace rooms, which helps with the history."
+          ],
+          "facts": {
+            "Time needed": "2–3 hours",
+            "Best time": "Morning",
+            "Good for": "Everyone"
+          }
+        },
+        {
+          "name": "Walk to the Rampuria havelis",
+          "body": [
+            "In the old walled city, the Rampuria havelis are a cluster of red sandstone mansions built by a merchant family in the late 19th and early 20th centuries, mixing Rajput carving with European details. Walking the lanes around them, past other havelis and small temples, is one of the best free things to do in Bikaner."
+          ],
+          "facts": {
+            "Time needed": "1.5 hours",
+            "Best time": "Late afternoon",
+            "Good for": "Photographers"
+          }
+        },
+        {
+          "name": "See the Bhandasar Jain Temple",
+          "body": [
+            "This 15th-century Jain temple has vividly painted interiors and mirror work. A local story says its foundations were mixed with ghee rather than water. It is on the edge of the old city."
+          ],
+          "facts": {
+            "Time needed": "45 minutes"
+          }
+        },
+        {
+          "name": "Visit Lalgarh Palace",
+          "body": [
+            "Built in the early 20th century for Maharaja Ganga Singh, Lalgarh is a red sandstone palace in Indo-Saracenic style. Part is a heritage hotel and part houses the Shri Sadul Museum with photographs and royal memorabilia."
+          ],
+          "facts": {
+            "Time needed": "1 hour"
+          }
+        },
+        {
+          "name": "Walk the old city bazaars",
+          "body": [
+            "The old walled city's markets, reached through Kote Gate, sell lac bangles, camel-leather goods, block-printed textiles and brassware alongside spices and dry fruit. The area is at its best in the late afternoon, when it is cooler and the sweet shops start frying snacks."
+          ],
+          "facts": {
+            "Time needed": "1–2 hours",
+            "Best time": "Late afternoon"
+          }
+        }
+      ]
+    },
+    {
+      "id": "beyond",
+      "heading": "Beyond the city",
+      "items": [
+        {
+          "name": "Visit Karni Mata Temple at Deshnoke",
+          "image": {
+            "src": "/images/blogs/rajasthan/bikaner/karni-mata-temple-bikaner.webp",
+            "alt": "Marble facade of Karni Mata Temple, Deshnoke",
+            "caption": "Karni Mata Temple, Deshnoke"
+          },
+          "body": [
+            "About 30 km south of Bikaner, this temple to the goddess Karni Mata is famous for the thousands of rats that live inside and are revered as holy. Seeing a white rat is considered especially auspicious. The silver doors and marble facade were donated by Maharaja Ganga Singh.",
+            "You must enter barefoot, so bring socks if you prefer. It is not for everyone, but it is one of the most extraordinary temples in India."
+          ],
+          "facts": {
+            "Where": "Deshnoke, 30 km south",
+            "Time needed": "Half a day with travel",
+            "Good to know": "Barefoot entry"
+          }
+        },
+        {
+          "name": "See the National Research Centre on Camel",
+          "body": [
+            "This government research farm on the city's outskirts breeds several camel breeds and has a small museum. The best time to visit is late afternoon when the herds return from grazing. Its café serves camel-milk products, including ice cream and lassi."
+          ],
+          "facts": {
+            "Where": "About 8 km from the city",
+            "Time needed": "1–1.5 hours",
+            "Best time": "Late afternoon",
+            "Good for": "Families"
+          }
+        },
+        {
+          "name": "Watch birds of prey at Jorbeer",
+          "body": [
+            "The Jorbeer area near Bikaner, where livestock carcasses are disposed of, attracts large numbers of vultures and eagles in winter, including migratory species. It is a specialist stop for birders and photographers."
+          ],
+          "facts": {
+            "Best time": "November to February",
+            "Good for": "Birdwatchers"
+          }
+        },
+        {
+          "name": "Camel Festival",
+          "body": [
+            "Bikaner's Camel Festival, held in January, celebrates the desert's working animal with decorated camels, races, dances and competitions. Dates are announced each year by Rajasthan Tourism."
+          ]
+        },
+        {
+          "name": "Stay at a desert camp or haveli",
+          "body": [
+            "The dunes outside Bikaner are quieter than Jaisalmer's, and several camps and rural homestays offer camel rides and nights in the desert. In town, restored havelis and Lalgarh's heritage wing are atmospheric places to stay."
+          ],
+          "facts": {
+            "Good for": "Couples, families"
+          }
+        },
+        {
+          "name": "Visit Gajner Palace and Lake",
+          "body": [
+            "About 30 km west, Gajner was the royal family's hunting lodge, built beside a lake. It is now a heritage hotel, and the lake and surrounding sanctuary attract birds in winter."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "heading": "Food: bhujia, rasgulla and more",
+      "items": [
+        {
+          "name": "Taste Bikaneri bhujia",
+          "body": [
+            "Bikaner is home to bhujia, the crisp moth-bean and gram-flour snack sold across India. In the old city's sweet and namkeen shops you can taste it fresh, along with Bikaneri rasgulla, ghevar and kachori. Bikaneri bhujia has a Geographical Indication tag."
+          ],
+          "facts": {
+            "Good for": "Food lovers"
+          }
+        }
+      ]
+    }
+  ],
+  "oneDay": "Spend the morning at Junagarh Fort, then walk through the old city to the Rampuria havelis and Bhandasar Jain Temple, stopping for bhujia and kachori. In the afternoon, drive to Deshnoke for the Karni Mata Temple and return via the camel research farm in time to see the herds come in.",
+  "faqs": [
+    {
+      "q": "What are the best things to do in Bikaner?",
+      "a": "Tour Junagarh Fort, walk the old city to the Rampuria havelis, visit the Karni Mata Temple at Deshnoke, see the camel research farm and eat Bikaneri bhujia and sweets."
+    },
+    {
+      "q": "How many days do I need in Bikaner?",
+      "a": "Two days is comfortable: one for Junagarh Fort and the old city, one for Deshnoke and the camel research centre."
+    },
+    {
+      "q": "What is Bikaner famous for?",
+      "a": "Junagarh Fort, the rat temple of Karni Mata at Deshnoke, camels, red sandstone havelis, and bhujia and rasgulla."
+    },
+    {
+      "q": "What is the best time to visit Bikaner?",
+      "a": "October to March. The Camel Festival is held in January. April to June is extremely hot."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Jaisalmer",
+      "href": "/blog/things-to-do-in-jaisalmer",
+      "note": "the golden fort and dunes to the south-west"
+    },
+    {
+      "name": "Things to do in Jodhpur",
+      "href": "/blog/things-to-do-in-jodhpur",
+      "note": "Mehrangarh and the Blue City to the south"
+    },
+    {
+      "name": "Mandawa",
+      "href": "/blog/mandawa-travel-guide",
+      "note": "painted havelis of Shekhawati on the way to Jaipur or Delhi"
+    }
+  ],
+  "styles": [
+    "family-holidays",
+    "budget-holidays"
+  ],
+  "byTraveller": [
+    {
+      "who": "Families",
+      "text": "The camel research farm, Junagarh Fort's biplane and palace rooms, and a short camel ride suit children well."
+    },
+    {
+      "who": "Food lovers",
+      "text": "Bikaner is one of India's great snack cities: plan a morning around bhujia, kachori, rasgulla and ghevar in the old city."
+    },
+    {
+      "who": "Birdwatchers",
+      "text": "Jorbeer and Gajner in winter are among the best places in Rajasthan for raptors and migratory birds."
+    }
+  ],
+  "tips": [
+    "Junagarh Fort visits are guided in groups; allow time for the tour to form in peak season.",
+    "Deshnoke's Karni Mata Temple requires bare feet; carry socks or wet wipes if you prefer.",
+    "Bikaner is well connected by overnight train to Delhi and Jaipur, and by road to Jaisalmer (about five to six hours) and Jodhpur.",
+    "Evenings in winter are cold in the desert, so pack a warm layer even if days feel warm."
+  ]
+}

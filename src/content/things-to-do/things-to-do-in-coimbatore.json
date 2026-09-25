@@ -1,0 +1,282 @@
+{
+  "slug": "things-to-do-in-coimbatore",
+  "destination": "Coimbatore",
+  "guide": "coimbatore-travel-guide",
+  "type": "city",
+  "title": "Things to Do in Coimbatore: Adiyogi, Hill Temples, Waterfalls & Gateway Trips",
+  "seoTitle": "Things to Do in Coimbatore: Adiyogi, Temples & More | Kudozz Club",
+  "description": "Things to do in Coimbatore: the Adiyogi statue and Isha Yoga Centre, Marudamalai and Perur temples, Kovai Kutralam falls, the Gass Forest Museum, the Velliangiri hills, Kongu food, and trips to Ooty, Valparai, Topslip and Monkey Falls.",
+  "dek": "A textile and industrial city at the foot of the Western Ghats, with hill temples, a giant Shiva bust, waterfalls and quick routes up to the Nilgiris and Anamalais.",
+  "primaryKeyword": "things to do in Coimbatore",
+  "secondaryKeywords": [
+    "places to visit in Coimbatore",
+    "Adiyogi statue",
+    "Isha Yoga Centre",
+    "Marudamalai temple",
+    "Kovai Kutralam",
+    "Coimbatore to Ooty",
+    "Coimbatore food"
+  ],
+  "searchIntent": "Travellers passing through Coimbatore to Ooty or Kerala, and weekend visitors wanting to see Adiyogi and nearby temples and falls.",
+  "tags": [
+    "Coimbatore",
+    "Tamil Nadu",
+    "City",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/tamil-nadu/coimbatore/adiyogi-statue-and-isha-yoga-center-coimbatore.webp",
+    "alt": "Adiyogi statue at the Isha Yoga Centre near Coimbatore",
+    "caption": "Adiyogi"
+  },
+  "intro": [
+    "Coimbatore, often called the Manchester of South India for its textile mills, lies in the Kongu region of western Tamil Nadu, near the Palakkad Gap. It is a pleasant, orderly city with a mild climate, known for engineering, education and the famously sweet water of the Siruvani.",
+    "The things to do in Coimbatore include the Adiyogi statue and Isha Yoga Centre in the Velliangiri foothills, hill temples such as Marudamalai, the carved Perur Pateeswarar Temple, the Kovai Kutralam falls and the Gass Forest Museum. It is also the gateway to Ooty, Valparai and the Anamalai Tiger Reserve.",
+    "One day covers the city's highlights; add days for the hills. October to March is the most comfortable time."
+  ],
+  "quickAnswer": [
+    "See the Adiyogi statue and its evening light show",
+    "Visit the Dhyanalinga at the Isha Yoga Centre",
+    "Climb to Marudamalai Temple",
+    "See the carvings at Perur Pateeswarar Temple",
+    "Visit Kovai Kutralam falls",
+    "See the Gass Forest Museum",
+    "Visit the Kasthuri Srinivasan Art Gallery and textile museum",
+    "Eat Kongu Nadu food",
+    "Take the road or toy train to Ooty",
+    "Visit Valparai, Topslip and Monkey Falls"
+  ],
+  "sections": [
+    {
+      "id": "isha",
+      "heading": "Adiyogi and Isha",
+      "items": [
+        {
+          "name": "See the Adiyogi statue",
+          "body": [
+            "The Adiyogi, a 34-metre (112-foot) steel bust of Shiva unveiled in 2017, stands at the Isha Yoga Centre about 30 km west of the city, below the Velliangiri hills. It is recognised by Guinness World Records as the largest bust sculpture. A light and sound show is projected on it on some evenings."
+          ],
+          "facts": {
+            "Time needed": "2 hours",
+            "Best time": "Evening for the show",
+            "Good for": "Everyone"
+          }
+        },
+        {
+          "name": "Visit the Dhyanalinga and Linga Bhairavi",
+          "body": [
+            "At the Isha Yoga Centre, the Dhyanalinga is a meditation space under a dome where visitors sit in silence. Linga Bhairavi is a temple to the goddess. Dress modestly and follow the centre's rules on silence and photography."
+          ]
+        },
+        {
+          "name": "Trek the Velliangiri hills",
+          "body": [
+            "The Velliangiri hills, sacred to Shiva, have a demanding pilgrimage trek over seven hills to a shrine at the top, traditionally undertaken between February and May. It is steep and long; go only if fit and with local guidance."
+          ],
+          "facts": {
+            "Best time": "February to May",
+            "Good to know": "Very strenuous"
+          }
+        }
+      ]
+    },
+    {
+      "id": "temples",
+      "heading": "Temples",
+      "items": [
+        {
+          "name": "Climb to Marudamalai Temple",
+          "image": {
+            "src": "/images/blogs/tamil-nadu/coimbatore/marudamalai-temple-coimbatore.webp",
+            "alt": "Marudamalai Murugan temple on a hill near Coimbatore",
+            "caption": "Marudamalai Temple"
+          },
+          "body": [
+            "Marudamalai, a Murugan temple on a hill about 15 km west of the city, is reached by road or a flight of steps. It is surrounded by forest and gives views over Coimbatore."
+          ],
+          "facts": {
+            "Time needed": "1.5 hours"
+          }
+        },
+        {
+          "name": "See Perur Pateeswarar Temple",
+          "image": {
+            "src": "/images/blogs/tamil-nadu/coimbatore/perur-pateeswarar-temple-coimbatore.webp",
+            "alt": "Perur Pateeswarar Temple, Coimbatore",
+            "caption": "Perur Pateeswarar Temple"
+          },
+          "body": [
+            "The Perur Pateeswarar Temple, on the Noyyal river, is an ancient Shiva temple famous for the carved pillars of its Kanaka Sabha, added in the Nayak period, with finely detailed sculptures."
+          ],
+          "facts": {
+            "Time needed": "1 hour",
+            "Good for": "Art lovers"
+          }
+        },
+        {
+          "name": "Visit Eachanari Vinayagar Temple",
+          "body": [
+            "The Eachanari Vinayagar Temple, on the Pollachi road, has a large Ganesha idol and is busy with travellers who stop to pray before journeys."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nature-museums",
+      "heading": "Falls and museums",
+      "items": [
+        {
+          "name": "Visit Kovai Kutralam falls",
+          "body": [
+            "Kovai Kutralam, in the Siruvani foothills about 35 km away, is a waterfall in forest reached by a forest department vehicle and a short walk. Bathing is allowed in season. It closes when the flow is dangerous or for forest reasons."
+          ],
+          "facts": {
+            "Best time": "After the monsoon",
+            "Good to know": "Check whether it is open"
+          }
+        },
+        {
+          "name": "See the Gass Forest Museum",
+          "body": [
+            "The Gass Forest Museum, founded in 1902 at the Forest College campus, has one of the oldest collections on forestry in India, with specimens of wood, animals and insects."
+          ],
+          "facts": {
+            "Time needed": "1 hour"
+          }
+        },
+        {
+          "name": "Visit the Kasthuri Srinivasan Art Gallery and textile museum",
+          "body": [
+            "This museum on Avinashi Road has a gallery of paintings and an exhibition on the history of textiles and cotton in the region."
+          ]
+        },
+        {
+          "name": "Eat Kongu Nadu food",
+          "body": [
+            "Kongu cuisine features dishes such as arisi paruppu sadam (rice and lentils), kola urundai, pepper chicken and mutton, and sweets from the city's famous sweet shops. Vegetarian meal halls are also excellent."
+          ],
+          "facts": {
+            "Good for": "Food lovers"
+          }
+        }
+      ]
+    },
+    {
+      "id": "gateway",
+      "heading": "Gateway trips",
+      "items": [
+        {
+          "name": "Head up to Ooty",
+          "body": [
+            "Ooty is about three hours away by road via Mettupalayam, where the Nilgiri Mountain Railway begins."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Ooty",
+              "href": "/blog/things-to-do-in-ooty"
+            }
+          ]
+        },
+        {
+          "name": "Visit Valparai, Topslip and Monkey Falls",
+          "body": [
+            "South of Pollachi, the Anamalai Tiger Reserve has Topslip for jungle safaris and elephant camps, Monkey Falls for a quick dip, and the road up to Valparai, a tea town of 40 hairpin bends with lion-tailed macaques along the way."
+          ],
+          "links": [
+            {
+              "label": "Valparai guide",
+              "href": "/blog/valparai-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seasons",
+      "heading": "By season",
+      "items": [
+        {
+          "name": "Winter (November to February)",
+          "body": [
+            "Pleasant weather and clear evenings for the Adiyogi show. Mahashivratri, in February or March, brings an all-night celebration at Isha with huge crowds."
+          ]
+        },
+        {
+          "name": "Summer and monsoon (March to October)",
+          "body": [
+            "Warm but milder than much of Tamil Nadu thanks to the Palakkad Gap breeze. Waterfalls flow strongly after the monsoon."
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Spiritual travellers",
+      "text": "The Isha Yoga Centre, Adiyogi's evening show and Marudamalai."
+    },
+    {
+      "who": "Families",
+      "text": "Adiyogi, Kovai Kutralam, the Gass Forest Museum and a day at a water park near the city."
+    },
+    {
+      "who": "Travellers in transit",
+      "text": "A day for Adiyogi and Perur before heading up to Ooty or Valparai."
+    },
+    {
+      "who": "Nature lovers",
+      "text": "Kovai Kutralam, Monkey Falls, Topslip safaris and the drive up to Valparai."
+    }
+  ],
+  "oneDay": "Visit Perur Pateeswarar Temple in the morning and Marudamalai before lunch. Spend the afternoon at the Isha Yoga Centre, see the Dhyanalinga, and stay for the evening show at the Adiyogi statue.",
+  "tips": [
+    "Coimbatore has an international airport and a major railway junction.",
+    "Isha has dress and silence rules; check before visiting.",
+    "Kovai Kutralam may close; check before you go.",
+    "Traffic to Adiyogi can be heavy on weekends and festival days such as Mahashivratri."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Coimbatore?",
+      "a": "See the Adiyogi statue and Isha Yoga Centre, visit Marudamalai and Perur temples, see Kovai Kutralam falls and the Gass Forest Museum, eat Kongu food, and head to Ooty or Valparai."
+    },
+    {
+      "q": "How far is Adiyogi from Coimbatore?",
+      "a": "About 30 km west of the city, roughly an hour by road."
+    },
+    {
+      "q": "How many days are enough for Coimbatore?",
+      "a": "One day for the city; more to add Ooty or Valparai."
+    },
+    {
+      "q": "What is the best time to visit Coimbatore?",
+      "a": "October to March."
+    },
+    {
+      "q": "When is the Adiyogi light show?",
+      "a": "The Adiyogi Divya Darshanam light show is held on some evenings. Timings change, so check with the Isha Yoga Centre before you go."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Ooty",
+      "href": "/blog/things-to-do-in-ooty",
+      "note": "the Nilgiris"
+    },
+    {
+      "name": "Valparai",
+      "href": "/blog/valparai-travel-guide",
+      "note": "tea and wildlife in the Anamalais"
+    },
+    {
+      "name": "Things to do in Kochi",
+      "href": "/blog/things-to-do-in-kochi",
+      "note": "across the Palakkad Gap"
+    }
+  ],
+  "styles": [
+    "spiritual-tours",
+    "weekend-getaways"
+  ],
+  "metaDescription": "Things to do in Coimbatore: the Adiyogi statue and Isha Yoga Centre, Marudamalai and Perur temples, Kovai Kutralam falls, the Gass Forest Museum, the Velliangiri hills and more."
+}

@@ -1,0 +1,261 @@
+{
+  "slug": "things-to-do-in-patnitop",
+  "destination": "Patnitop",
+  "guide": "patnitop-travel-guide",
+  "type": "hill station",
+  "title": "Things to Do in Patnitop: Pine Meadows, Sanasar & Winter Snow",
+  "seoTitle": "Things to Do in Patnitop: Sanasar, Snow & Treks | Kudozz Club",
+  "description": "Things to do in Patnitop: pine forest walks, Nathatop viewpoint, paragliding at Sanasar, the old Nag Temple, Sudh Mahadev and Gauri Kund, Shiv Garh, snow play and skiing in winter, and Kud's patisa.",
+  "dek": "A plateau of deodar and pine on the Jammu–Srinagar road, where meadows turn to ski slopes in winter and paragliders take off in summer.",
+  "primaryKeyword": "things to do in Patnitop",
+  "secondaryKeywords": [
+    "Sanasar",
+    "Nathatop",
+    "Patnitop in winter",
+    "Sudh Mahadev",
+    "Patnitop paragliding",
+    "Patnitop snowfall"
+  ],
+  "searchIntent": "Families and weekenders from Jammu, Punjab and Delhi planning one or two days in Patnitop, often for snow in winter.",
+  "tags": [
+    "Patnitop",
+    "Jammu & Kashmir",
+    "Hill Station",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/jammu-and-kashmir/patnitop/sanasar-lake-meadow-forest.webp",
+    "alt": "Sanasar meadow and small lake surrounded by forest",
+    "caption": "Sanasar"
+  },
+  "intro": [
+    "Patnitop is a hill resort at about 2,000 metres in Udhampur district, around 110 km from Jammu. It sits on a wooded plateau on the old Jammu–Srinagar highway, with dense deodar and pine forest and views across the Chenab valley.",
+    "Since the Chenani–Nashri tunnel opened in 2017, highway traffic bypasses Patnitop, which has made it quieter. The things to do here are simple: forest walks and meadows, viewpoints such as Nathatop, paragliding at Sanasar, old temples, and snow in winter.",
+    "One to two days is enough. Snow usually arrives between late December and February, and it is the most popular time to visit."
+  ],
+  "quickAnswer": [
+    "Walk through Patnitop's pine and deodar forests",
+    "See the view from Nathatop",
+    "Paraglide at Sanasar or Patnitop",
+    "Visit the old Nag Temple",
+    "Visit Sudh Mahadev and Gauri Kund",
+    "Walk to Shiv Garh viewpoint",
+    "Play in the snow and try skiing in winter",
+    "Eat patisa at Kud"
+  ],
+  "sections": [
+    {
+      "id": "outdoors",
+      "heading": "Meadows and viewpoints",
+      "items": [
+        {
+          "name": "Walk the forest trails",
+          "body": [
+            "Patnitop's main attraction is its forest. Well-marked walking paths wind through deodar and pine around the resort, with meadows and viewpoints along the way. Early morning and late afternoon walks are especially peaceful."
+          ],
+          "facts": {
+            "Best time": "Morning and late afternoon",
+            "Good for": "Walkers, families"
+          }
+        },
+        {
+          "name": "See the view from Nathatop",
+          "image": {
+            "src": "/images/blogs/jammu-and-kashmir/patnitop/nathatop-viewpoint-snow-covered.webp",
+            "alt": "Snow-covered Nathatop viewpoint near Patnitop",
+            "caption": "Nathatop"
+          },
+          "body": [
+            "Nathatop, a few kilometres above Patnitop, is a high meadow with views of peaks of the Pir Panjal and beyond on clear days. It gets heavy snow in winter and is used for snow activities."
+          ],
+          "facts": {
+            "Time needed": "1–2 hours",
+            "Best time": "Clear days; December to February for snow"
+          }
+        },
+        {
+          "name": "Paraglide at Sanasar",
+          "image": {
+            "src": "/images/blogs/jammu-and-kashmir/patnitop/paragliding-launch-sanasar-meadow.webp",
+            "alt": "Paragliding launch area on Sanasar meadow",
+            "caption": "Paragliding at Sanasar"
+          },
+          "body": [
+            "Sanasar, about 17 km from Patnitop, is a cup-shaped meadow with a small lake, surrounded by forest. It is a popular spot for tandem paragliding, and it also offers horse riding, camping and short walks. Use registered operators."
+          ],
+          "facts": {
+            "Time needed": "Half a day",
+            "Best time": "April to June, September to November",
+            "Good for": "Adventure seekers, families"
+          }
+        },
+        {
+          "name": "Walk to Shiv Garh",
+          "body": [
+            "Shiv Garh is a high ridge near Patnitop with wide views over the valleys. It makes a pleasant half-day walk through forest and meadows."
+          ],
+          "facts": {
+            "Time needed": "Half a day"
+          }
+        },
+        {
+          "name": "Drive to Madhatop",
+          "body": [
+            "Madhatop, a meadow a short drive above Patnitop, is quieter than the main resort and gets heavy snow in winter. In summer it is good for picnics and pony rides."
+          ],
+          "facts": {
+            "Good for": "Families"
+          }
+        }
+      ]
+    },
+    {
+      "id": "temples",
+      "heading": "Temples",
+      "items": [
+        {
+          "name": "Visit the Nag Temple",
+          "body": [
+            "The Nag Temple in Patnitop, a small wooden shrine dedicated to the serpent deity, is said to be several centuries old. It is a short walk from the main meadow, and locals visit on festival days, especially Nag Panchami."
+          ],
+          "facts": {
+            "Time needed": "30 minutes"
+          }
+        },
+        {
+          "name": "See Sudh Mahadev and Gauri Kund",
+          "body": [
+            "Sudh Mahadev, a short drive from Patnitop, has an old Shiva temple with a trident believed to be very ancient, and it is the site of a large fair in summer. Gauri Kund, a spring nearby, is associated with Parvati. The Devak stream flows through the area."
+          ],
+          "facts": {
+            "Time needed": "2–3 hours",
+            "Good for": "Pilgrims, families"
+          }
+        }
+      ]
+    },
+    {
+      "id": "winter",
+      "heading": "Winter and food",
+      "items": [
+        {
+          "name": "Play in the snow",
+          "body": [
+            "From late December to February, Patnitop, Nathatop and Sanasar often have deep snow. Sledging, snowball fights and snow walks are popular, and basic skiing is offered on beginner slopes by local operators. Roads can be closed briefly after heavy snowfall; check conditions before you travel."
+          ],
+          "facts": {
+            "Best time": "Late December to February",
+            "Good for": "Families, first-time snow visitors"
+          }
+        },
+        {
+          "name": "Stop at Kud for patisa",
+          "body": [
+            "Kud, a few kilometres below Patnitop on the old highway, is known for its patisa, a flaky gram-flour sweet sold at old shops along the road. Batote, the junction town, has dhabas for simple meals."
+          ],
+          "facts": {
+            "Good for": "Food lovers"
+          }
+        }
+      ]
+    },
+    {
+      "id": "seasons",
+      "heading": "Patnitop by season",
+      "items": [
+        {
+          "name": "Winter (December to February)",
+          "body": [
+            "Snow covers the meadows and forests, and Patnitop is at its busiest on winter weekends. Roads are cleared quickly but may close for short periods after heavy snowfall."
+          ],
+          "facts": {
+            "Best time": "January for the most snow"
+          }
+        },
+        {
+          "name": "Spring and summer (March to June)",
+          "body": [
+            "Mild days, green meadows and good paragliding weather. It is a popular escape from the heat of Jammu and the plains of Punjab."
+          ]
+        },
+        {
+          "name": "Monsoon and autumn",
+          "body": [
+            "July and August bring rain and mist, with some landslide risk on the roads. September to November is clear, cool and quiet, a good time for walks."
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Families",
+      "text": "Winter snow at Nathatop, forest walks and a visit to Sanasar for pony rides and paragliding for older children."
+    },
+    {
+      "who": "Couples",
+      "text": "A quiet stay in the forest, sunset from Shiv Garh and a morning at Sanasar."
+    },
+    {
+      "who": "Pilgrims",
+      "text": "Combine Patnitop with Sudh Mahadev and the Nag Temple, and Vaishno Devi on the way back."
+    }
+  ],
+  "oneDay": "Start with a forest walk and a visit to the Nag Temple. Drive to Nathatop for views, then on to Sanasar for paragliding and lunch. On the way back, visit Sudh Mahadev and stop at Kud for patisa.",
+  "tips": [
+    "Patnitop is about 110 km from Jammu; Jammu has the nearest airport and major railway station, and Udhampur has a railway station closer by.",
+    "Since the tunnel opened, you need to take the old road to reach Patnitop; follow signs from Chenani or Nashri.",
+    "Carry warm clothes and snow gear in winter, and check road conditions after snowfall.",
+    "Prepaid SIM cards from other states do not work in J&K.",
+    "Local dhabas close early in winter; confirm meal arrangements with your hotel."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Patnitop?",
+      "a": "Walk the forest trails, see Nathatop, paraglide at Sanasar, visit the Nag Temple and Sudh Mahadev, walk to Shiv Garh, and play in the snow in winter."
+    },
+    {
+      "q": "When does it snow in Patnitop?",
+      "a": "Usually between late December and February, with January the snowiest month."
+    },
+    {
+      "q": "How many days are enough for Patnitop?",
+      "a": "One to two days covers Patnitop, Nathatop and Sanasar."
+    },
+    {
+      "q": "How far is Sanasar from Patnitop?",
+      "a": "About 17 km, roughly a 40-minute drive."
+    },
+    {
+      "q": "Is Patnitop worth visiting in summer?",
+      "a": "Yes. It is cool and green from March to June, with paragliding at Sanasar and forest walks, and much less crowded than in snow season."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Jammu",
+      "href": "/blog/things-to-do-in-jammu",
+      "note": "the city of temples, three hours south"
+    },
+    {
+      "name": "Katra",
+      "href": "/blog/katra-travel-guide",
+      "note": "base for Vaishno Devi"
+    },
+    {
+      "name": "Bhaderwah",
+      "href": "/blog/bhaderwah-travel-guide",
+      "note": "meadows and treks east of Patnitop"
+    },
+    {
+      "name": "Things to do in Kashmir",
+      "href": "/blog/things-to-do-in-kashmir",
+      "note": "the valley beyond the Banihal tunnel"
+    }
+  ],
+  "styles": [
+    "family-holidays",
+    "weekend-getaways"
+  ],
+  "metaDescription": "Things to do in Patnitop: pine forest walks, Nathatop viewpoint, paragliding at Sanasar, the old Nag Temple, Sudh Mahadev and Gauri Kund, Shiv Garh and more."
+}

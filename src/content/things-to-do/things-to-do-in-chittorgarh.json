@@ -1,0 +1,213 @@
+{
+  "slug": "things-to-do-in-chittorgarh",
+  "destination": "Chittorgarh",
+  "guide": "chittorgarh-travel-guide",
+  "type": "heritage town",
+  "title": "Things to Do in Chittorgarh: Exploring India's Largest Fort",
+  "seoTitle": "Things to Do in Chittorgarh: Fort, Towers & Palaces | Kudozz Club",
+  "description": "Things to do in Chittorgarh: explore the fort's Vijay Stambh and Kirti Stambh, Rani Padmini's palace, Meera Temple and Rana Kumbha's palace, watch the evening sound and light show, and see nearby Bassi and Menal.",
+  "dek": "A fort covering some 700 acres on a mesa above the plains, holding towers of victory, temples, palaces and the stories of Rajasthan's most famous sieges.",
+  "primaryKeyword": "things to do in Chittorgarh",
+  "secondaryKeywords": [
+    "Chittorgarh Fort",
+    "Vijay Stambh",
+    "Padmini Palace",
+    "Meera Temple Chittorgarh",
+    "Chittorgarh sound and light show"
+  ],
+  "searchIntent": "History-minded travellers visiting Chittorgarh as a day trip from Udaipur or a stop between Udaipur and Jaipur.",
+  "tags": [
+    "Chittorgarh",
+    "Rajasthan",
+    "Forts",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/rajasthan/chittorgarh/vijay-stambh-chittorgarh-fort.webp",
+    "alt": "Vijay Stambh, the Tower of Victory, at Chittorgarh Fort",
+    "caption": "Vijay Stambh"
+  },
+  "intro": [
+    "Chittorgarh Fort, capital of Mewar for around 800 years, is one of the largest forts in India, spread over roughly 700 acres on a plateau about 180 metres above the surrounding plains. It was besieged three times, by Alauddin Khalji in 1303, Bahadur Shah of Gujarat in 1535 and Akbar in 1568, and each defeat is remembered in stories of jauhar and saka. It is part of the UNESCO Hill Forts of Rajasthan.",
+    "Almost everything worth doing in Chittorgarh is inside the fort. A circuit road links its gates, towers, palaces and temples, and a full day with a car or auto-rickshaw lets you see it properly. The town below is a practical base; Udaipur is about two hours away."
+  ],
+  "quickAnswer": [
+    "Drive through the seven gates up to the fort",
+    "Climb the Vijay Stambh, the Tower of Victory",
+    "See the older Kirti Stambh, the Tower of Fame",
+    "Visit Rani Padmini's Palace by its lotus pool",
+    "See the Meera Temple and Kumbha Shyam Temple",
+    "Explore the ruins of Rana Kumbha's Palace",
+    "Watch the evening sound and light show"
+  ],
+  "sections": [
+    {
+      "id": "fort",
+      "heading": "Inside Chittorgarh Fort",
+      "intro": "Allow at least half a day, ideally a full day, for the fort. Hiring a local guide at the gate makes the stories and ruins much easier to follow.",
+      "items": [
+        {
+          "name": "Climb the Vijay Stambh",
+          "body": [
+            "The nine-storey Tower of Victory was built by Rana Kumbha in the 15th century to mark a victory over the Sultan of Malwa. Every surface is carved with Hindu deities. A narrow internal stair climbs to the top, with views across the fort. It is the fort's defining landmark and the symbol of Mewar."
+          ],
+          "facts": {
+            "Time needed": "45 minutes",
+            "Good to know": "The stairway is narrow and steep"
+          }
+        },
+        {
+          "name": "See the Kirti Stambh",
+          "image": {
+            "src": "/images/blogs/rajasthan/chittorgarh/kirti-stambh-chittorgarh-fort.webp",
+            "alt": "Kirti Stambh, the Tower of Fame, Chittorgarh",
+            "caption": "Kirti Stambh"
+          },
+          "body": [
+            "Older and smaller than the Vijay Stambh, the 12th-century Kirti Stambh (Tower of Fame) was built by a Jain merchant and is dedicated to Adinatha, the first Jain tirthankara. It is decorated with Jain figures and stands beside a temple."
+          ],
+          "facts": {
+            "Time needed": "30 minutes"
+          }
+        },
+        {
+          "name": "Visit Rani Padmini's Palace",
+          "body": [
+            "Padmini's Palace is a white building beside a lotus pool, with a small pavilion in the water. According to legend, Alauddin Khalji was allowed to see Rani Padmini's reflection here, which led to the siege of 1303. Historians debate the legend, but the palace and its setting are central to Chittorgarh's story."
+          ],
+          "facts": {
+            "Time needed": "30 minutes"
+          }
+        },
+        {
+          "name": "See the Meera and Kumbha Shyam temples",
+          "image": {
+            "src": "/images/blogs/rajasthan/chittorgarh/meera-temple-chittorgarh-fort.webp",
+            "alt": "Meera Temple inside Chittorgarh Fort",
+            "caption": "Meera Temple"
+          },
+          "body": [
+            "Meera Bai, the 16th-century poet-saint devoted to Krishna, lived at Chittorgarh as a Mewar princess. The Meera Temple stands in the same compound as the larger Kumbha Shyam Temple, built in the Indo-Aryan style with a tall spire."
+          ],
+          "facts": {
+            "Time needed": "30 minutes"
+          }
+        },
+        {
+          "name": "Explore Rana Kumbha's Palace",
+          "body": [
+            "The ruins of Rana Kumbha's 15th-century palace are the oldest monument in the fort. This is where Udai Singh, the founder of Udaipur, is said to have been born, and where the loyal nurse Panna Dai saved him as an infant by sacrificing her own son. The ruins of the zenana and the jauhar site are nearby."
+          ],
+          "facts": {
+            "Time needed": "45 minutes"
+          }
+        },
+        {
+          "name": "See Gaumukh Kund",
+          "body": [
+            "Gaumukh Kund is a reservoir fed by a spring that flows from a rock carved as a cow's mouth. It was an important water source during sieges, and its cliffside setting is peaceful."
+          ]
+        },
+        {
+          "name": "See the fort's gates",
+          "body": [
+            "The road up to the fort passes through seven gates (pols), including Padan Pol, Bhairon Pol, Hanuman Pol, Ganesh Pol and Ram Pol. Memorials near some of them honour warriors who fell in the sieges, such as Jaimal and Patta during Akbar's attack. Stopping at a couple of them on the way up sets the scene."
+          ]
+        },
+        {
+          "name": "Visit Fateh Prakash Palace Museum",
+          "body": [
+            "Built in the late 19th and early 20th centuries by Maharana Fateh Singh, this palace inside the fort houses a museum of sculpture, weapons and local crafts. It is a useful stop for context before exploring the older ruins."
+          ],
+          "facts": {
+            "Time needed": "45 minutes"
+          }
+        }
+      ]
+    },
+    {
+      "id": "evening-nearby",
+      "heading": "Evening and nearby",
+      "items": [
+        {
+          "name": "Watch the sound and light show",
+          "body": [
+            "An evening sound and light show at the fort narrates the history of the sieges and the rulers of Mewar. Check the language schedule, as shows alternate between Hindi and English on different days."
+          ],
+          "facts": {
+            "Best time": "After sunset",
+            "Good for": "Families"
+          }
+        },
+        {
+          "name": "Bassi and Menal",
+          "body": [
+            "Bassi Wildlife Sanctuary and the Bassi Fort palace (now a hotel) lie about 25 km east. Further towards Bundi, Menal has a gorge, a seasonal waterfall and a cluster of 11th-century Shiva temples, a good stop if you are driving on to Bundi."
+          ]
+        },
+        {
+          "name": "Sanwariya Seth Temple",
+          "body": [
+            "About 40 km from Chittorgarh on the Udaipur road, the Sanwariya Seth (Krishna) temple is one of the most visited in the region, with an elaborately decorated modern complex. Many travellers stop here in transit."
+          ]
+        }
+      ]
+    }
+  ],
+  "oneDay": "Enter the fort in the morning and follow the circuit road: Rana Kumbha's Palace, the Meera and Kumbha Shyam temples, the Vijay Stambh, Gaumukh Kund, Padmini's Palace and the Kirti Stambh. After a late lunch in town, return for the sound and light show.",
+  "faqs": [
+    {
+      "q": "What are the best things to do in Chittorgarh?",
+      "a": "Explore Chittorgarh Fort: climb the Vijay Stambh, see the Kirti Stambh, Padmini's Palace, the Meera Temple and Rana Kumbha's Palace, and watch the evening sound and light show."
+    },
+    {
+      "q": "How much time do you need at Chittorgarh Fort?",
+      "a": "At least half a day, ideally a full day. The fort covers about 700 acres, and a car or auto-rickshaw is needed to get between sights."
+    },
+    {
+      "q": "Can Chittorgarh be done as a day trip from Udaipur?",
+      "a": "Yes. It is about two hours by road, and many travellers visit on a day trip or stop on the way between Udaipur and Jaipur or Bundi."
+    },
+    {
+      "q": "What is Chittorgarh famous for?",
+      "a": "Its vast fort, the Vijay Stambh, the legend of Rani Padmini, the poet-saint Meera Bai and the three great sieges of 1303, 1535 and 1568."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Udaipur",
+      "href": "/blog/things-to-do-in-udaipur",
+      "note": "about two hours to the west"
+    },
+    {
+      "name": "Things to do in Bundi",
+      "href": "/blog/things-to-do-in-bundi",
+      "note": "stepwells and palace murals, about three hours north-east"
+    },
+    {
+      "name": "Kumbhalgarh",
+      "href": "/blog/kumbhalgarh-travel-guide",
+      "note": "another of Mewar's great hill forts"
+    }
+  ],
+  "styles": [
+    "family-holidays"
+  ],
+  "byTraveller": [
+    {
+      "who": "History lovers",
+      "text": "Hire a local guide at the gate, visit the museum first for context, then follow the circuit through the ruins, gates and towers."
+    },
+    {
+      "who": "Families",
+      "text": "The Vijay Stambh climb, the lotus pool at Padmini's Palace and the evening show make the fort engaging for older children."
+    }
+  ],
+  "tips": [
+    "The fort is large; hire an auto-rickshaw or bring a car for the circuit road rather than trying to walk it all.",
+    "There is little shade on the plateau, so carry water and a hat, especially outside winter.",
+    "The Vijay Stambh's interior stair is dark and narrow; skip it if you are claustrophobic.",
+    "Chittorgarh has a railway junction with connections to Udaipur, Jaipur and Delhi, and sits on the main highway between Udaipur and Jaipur."
+  ],
+  "metaDescription": "Things to do in Chittorgarh: explore the fort's Vijay Stambh and Kirti Stambh, Rani Padmini's palace, Meera Temple and Rana Kumbha's palace and more."
+}

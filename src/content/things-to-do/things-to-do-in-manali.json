@@ -1,0 +1,287 @@
+{
+  "slug": "things-to-do-in-manali",
+  "destination": "Manali",
+  "guide": "manali-travel-guide",
+  "type": "hill station",
+  "title": "Things to Do in Manali: Snow, Adventure, Old Temples & Café Lanes",
+  "seoTitle": "Things to Do in Manali: Snow, Adventure & More | Kudozz Club",
+  "description": "Things to do in Manali: Hadimba Devi Temple, Old Manali cafés, Vashisht hot springs, Solang Valley paragliding and skiing, Rohtang Pass and the Atal Tunnel to Sissu, Naggar Castle, Jogini Falls, treks and winter snow.",
+  "dek": "A Beas valley town at the head of the Kullu valley, part adventure base, part old Himachali village, and the gateway to Lahaul, Spiti and Ladakh.",
+  "primaryKeyword": "things to do in Manali",
+  "secondaryKeywords": [
+    "places to visit in Manali",
+    "Solang Valley activities",
+    "Rohtang Pass permit",
+    "Old Manali cafés",
+    "Manali in winter",
+    "Manali for couples",
+    "Atal Tunnel Sissu"
+  ],
+  "searchIntent": "Honeymooners, families, groups of friends and adventure seekers planning four to six days in Manali and deciding between snow, adventure and sightseeing.",
+  "tags": [
+    "Manali",
+    "Himachal Pradesh",
+    "Hill Station",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/himachal-pradesh/manali/solang-valley-manali.webp",
+    "alt": "Solang Valley slopes near Manali with snow-capped peaks",
+    "caption": "Solang Valley"
+  },
+  "intro": [
+    "Manali sits at about 2,050 metres at the northern end of the Kullu valley in Himachal Pradesh, on the banks of the Beas. It is one of India's most visited hill destinations, and it serves many different trips at once: honeymoons, family snow holidays, college groups, trekking and road trips to Lahaul, Spiti and Ladakh.",
+    "The things to do in Manali fall into a few clear groups. In town, there are the 16th-century Hadimba Devi Temple, the cafés and lanes of Old Manali and the hot springs at Vashisht. Up the valley, Solang has paragliding in summer and skiing in winter, and the Atal Tunnel and Rohtang Pass lead to high-altitude snow. Down the valley are Naggar's castle and art gallery, river rafting and apple orchards.",
+    "Five days is a good length for a first trip. Weekends, May to June and the Christmas to New Year period are very crowded, and traffic up to Solang and Rohtang can be slow."
+  ],
+  "quickAnswer": [
+    "Visit Hadimba Devi Temple in the cedar forest",
+    "Wander Old Manali's lanes and cafés",
+    "Bathe in the hot springs at Vashisht",
+    "Paraglide, ski or ride the ropeway at Solang Valley",
+    "Drive through the Atal Tunnel to Sissu in Lahaul",
+    "Visit Rohtang Pass with a permit (seasonal)",
+    "See Naggar Castle and the Roerich Art Gallery",
+    "Walk to Jogini Falls",
+    "Go river rafting on the Beas near Kullu",
+    "Trek to Hampta Pass, Bhrigu Lake or Beas Kund"
+  ],
+  "sections": [
+    {
+      "id": "must-see",
+      "heading": "Must-see in Manali",
+      "items": [
+        {
+          "name": "Visit Hadimba Devi Temple",
+          "image": {
+            "src": "/images/blogs/himachal-pradesh/manali/hadimba-devi-temple-manali.webp",
+            "alt": "Wooden pagoda-roofed Hadimba Devi Temple in the Dhungri cedar forest, Manali",
+            "caption": "Hadimba Devi Temple"
+          },
+          "body": [
+            "Hadimba Devi Temple, built in 1553 under Raja Bahadur Singh, stands in the Dhungri deodar forest above town. Its four-tiered wooden roof and carved doorway are fine examples of Himachali temple architecture, and it is dedicated to Hidimba, wife of Bhima in the Mahabharata.",
+            "Go early in the morning to see it before the crowds and yak-photo stalls get busy. The Dhungri Van Vihar forest around it is pleasant for a short walk, and the Ghatotkach shrine nearby honours Hidimba's son."
+          ],
+          "facts": {
+            "Time needed": "1 hour",
+            "Best time": "Early morning",
+            "Good for": "Everyone"
+          }
+        },
+        {
+          "name": "Wander Old Manali",
+          "image": {
+            "src": "/images/blogs/himachal-pradesh/manali/old-manali.webp",
+            "alt": "Old Manali village lanes and traditional houses",
+            "caption": "Old Manali"
+          },
+          "body": [
+            "Across the Manalsu stream, Old Manali has stone-and-wood houses, apple orchards and a lane full of cafés, bakeries and guesthouses popular with backpackers. The Manu Temple, dedicated to the sage Manu, sits at the top of the village. Evenings here are more relaxed than on the Mall."
+          ],
+          "facts": {
+            "Time needed": "Half a day",
+            "Best time": "Afternoon into evening",
+            "Good for": "Couples, young travellers"
+          }
+        },
+        {
+          "name": "Bathe at Vashisht hot springs",
+          "body": [
+            "Vashisht village, about 3 km from Manali across the Beas, has natural sulphur hot springs with separate bathing tanks for men and women beside the old Vashisht Temple. It is a warming stop on a cold day. The village itself, with its carved wooden houses, is worth a stroll."
+          ],
+          "facts": {
+            "Time needed": "1–2 hours",
+            "Good for": "Everyone"
+          }
+        },
+        {
+          "name": "Stroll the Mall Road",
+          "body": [
+            "Manali's Mall Road is a pedestrian-friendly shopping street with woollens, Kullu shawls and caps, dry fruits and restaurants. The Tibetan monasteries near the Mall, including Gadhan Thekchhokling Gompa, are calm and colourful stops."
+          ],
+          "facts": {
+            "Best time": "Evening"
+          }
+        }
+      ]
+    },
+    {
+      "id": "snow-adventure",
+      "heading": "Snow and adventure",
+      "items": [
+        {
+          "name": "Go to Solang Valley",
+          "body": [
+            "Solang Valley, about 14 km from Manali, is the adventure hub of the area. In summer it offers paragliding, zorbing, ATV rides and a ropeway up the slope towards Mount Phatru. In winter it becomes a snow playground, with ski schools and snow activities on the slopes.",
+            "Prices and quality vary a lot between operators; agree on duration and price before you start, and use registered operators for paragliding."
+          ],
+          "facts": {
+            "Time needed": "Half day to full day",
+            "Best time": "December to February for snow, April to June for paragliding",
+            "Good for": "Families, groups, couples"
+          }
+        },
+        {
+          "name": "Drive through the Atal Tunnel to Sissu",
+          "body": [
+            "The Atal Tunnel, opened in 2020 and about 9 km long, runs under the Rohtang range and brings Lahaul within about an hour of Manali. On the north side, Sissu has a waterfall, a small lake and wide views of a much starker, drier valley. In winter, the Lahaul side is often under deep snow.",
+            "Access can be restricted after heavy snowfall, and self-drive rules change with conditions; check with local authorities before setting off."
+          ],
+          "facts": {
+            "Time needed": "Half day",
+            "Good for": "Snow seekers, road-trippers"
+          }
+        },
+        {
+          "name": "Visit Rohtang Pass",
+          "image": {
+            "src": "/images/blogs/himachal-pradesh/manali/rohtang-pass-manali.webp",
+            "alt": "Snow and road at Rohtang Pass above Manali",
+            "caption": "Rohtang Pass"
+          },
+          "body": [
+            "Rohtang Pass, at about 3,980 metres, is the classic snow trip from Manali. It is usually open from around May to October or November, depending on snow. A permit is required for vehicles, and daily numbers are capped, so book through the official system in advance and start early.",
+            "At this height the weather changes quickly and altitude can affect some people. Carry warm clothes and water, and do not overexert yourself."
+          ],
+          "facts": {
+            "Best time": "May to June, September to October",
+            "Good to know": "Permit required; daily vehicle limit"
+          }
+        },
+        {
+          "name": "Raft the Beas",
+          "body": [
+            "River rafting on the Beas runs on stretches near Kullu, including around Pirdi, in the warmer months. It is gentler than the Ganga at Rishikesh and suitable for first-timers. Rafting stops in the monsoon when the river is high."
+          ],
+          "facts": {
+            "Best time": "April to June, September to October",
+            "Good for": "Groups, first-time rafters"
+          }
+        },
+        {
+          "name": "Trek from Manali",
+          "body": [
+            "Manali is a base for some of India's most popular treks. Hampta Pass crosses from green Kullu to stark Lahaul in about four to five days. Bhrigu Lake is a high glacial lake reached in three to four days. Beas Kund, the source of the Beas, is a shorter trek below the Pir Panjal peaks. Go with a registered operator."
+          ],
+          "facts": {
+            "Best time": "June to September (varies by trek)",
+            "Good for": "Trekkers"
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "heading": "Culture and quieter corners",
+      "items": [
+        {
+          "name": "See Naggar Castle and the Roerich Art Gallery",
+          "body": [
+            "Naggar, about 20 km down the valley, was the old capital of the Kullu kingdom. Its castle, built in stone and timber, is now a heritage hotel with a small museum and a temple courtyard. Nearby, the Roerich Estate was the home of the Russian painter Nicholas Roerich; the gallery shows his Himalayan paintings."
+          ],
+          "facts": {
+            "Time needed": "Half a day",
+            "Good for": "Art and history lovers, couples"
+          }
+        },
+        {
+          "name": "Walk to Jogini Falls",
+          "body": [
+            "A trail of about 2 to 3 km from Vashisht village climbs through orchards and forest to Jogini Falls, a tall waterfall with a small shrine at its base. It is an easy, rewarding half-day walk."
+          ],
+          "facts": {
+            "Time needed": "3 hours return",
+            "Good for": "Walkers, families with older children"
+          }
+        },
+        {
+          "name": "Pick apples and see the orchards",
+          "body": [
+            "The Kullu and Manali area is apple country. From August to October the orchards are heavy with fruit, and some homestays and farms let visitors walk through or pick. Spring blossom in March and April is also lovely."
+          ],
+          "facts": {
+            "Best time": "August to October for fruit, March to April for blossom"
+          }
+        },
+        {
+          "name": "Stay in Sethan or a village above town",
+          "body": [
+            "Villages such as Sethan, Goshal and Prini offer quieter stays. In winter, Sethan is known for snow camps and igloo stays set up by local operators."
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Couples",
+      "text": "Stay in Old Manali or a village above town, visit Hadimba early, spend an afternoon at Naggar and an evening in the cafés. Winter snow at Solang or Sissu adds a classic honeymoon moment."
+    },
+    {
+      "who": "Families",
+      "text": "Solang Valley, Hadimba, Vashisht hot springs and a snow day via the Atal Tunnel work well. Carry snow gear or rent it locally, and avoid peak weekends."
+    },
+    {
+      "who": "Friends and adventure seekers",
+      "text": "Paragliding at Solang, rafting on the Beas, a Hampta Pass or Bhrigu Lake trek and nights in Old Manali."
+    }
+  ],
+  "oneDay": "Visit Hadimba Devi Temple early, walk down to Old Manali for breakfast and the Manu Temple, then cross to Vashisht for the hot springs. After lunch, drive to Solang Valley for paragliding or snow play, and come back to the Mall Road in the evening.",
+  "tips": [
+    "The nearest airport is Bhuntar, about 50 km away; most visitors come by overnight Volvo bus from Delhi or Chandigarh.",
+    "Book Rohtang permits in advance and confirm current rules for Atal Tunnel and Lahaul access before setting off.",
+    "Traffic to Solang and the tunnel builds up quickly on weekends; leave early.",
+    "Rent snow boots and jackets from registered shops rather than roadside touts."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Manali?",
+      "a": "Visit Hadimba Devi Temple, explore Old Manali and Vashisht, go to Solang Valley for paragliding or snow, drive through the Atal Tunnel to Sissu, visit Rohtang Pass, see Naggar Castle and walk to Jogini Falls."
+    },
+    {
+      "q": "Where can I see snow near Manali?",
+      "a": "In winter, Solang Valley and the Lahaul side of the Atal Tunnel usually have snow. From May to October, Rohtang Pass often has snow patches, and the Lahaul valley is higher and colder."
+    },
+    {
+      "q": "Do I need a permit for Rohtang Pass?",
+      "a": "Yes. Vehicles need a permit and there is a daily limit, so book through the official system in advance."
+    },
+    {
+      "q": "How many days are enough for Manali?",
+      "a": "Five days covers the town, Solang, a snow trip and Naggar without rushing. Add more for treks or a Lahaul road trip."
+    },
+    {
+      "q": "Is Manali good for a honeymoon?",
+      "a": "Yes. Couples enjoy the quieter villages above town, Old Manali's cafés, Naggar and snow at Solang or Sissu. Avoid peak holiday weeks if you want calm."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Kasol",
+      "href": "/blog/things-to-do-in-kasol",
+      "note": "the Parvati valley, about three hours away"
+    },
+    {
+      "name": "Kullu",
+      "href": "/blog/kullu-travel-guide",
+      "note": "the valley town with the famous Dussehra"
+    },
+    {
+      "name": "Things to do in Spiti Valley",
+      "href": "/blog/things-to-do-in-spiti-valley",
+      "note": "the cold desert beyond Kunzum Pass"
+    },
+    {
+      "name": "Jibhi",
+      "href": "/blog/jibhi-travel-guide",
+      "note": "wooden villages in the Banjar valley"
+    }
+  ],
+  "styles": [
+    "honeymoon",
+    "adventure-tours",
+    "family-holidays",
+    "group-tours"
+  ],
+  "metaDescription": "Things to do in Manali: Hadimba Devi Temple, Old Manali cafés, Vashisht hot springs, Solang Valley paragliding and skiing, Rohtang Pass and the Atal Tunnel to Sissu and more."
+}

@@ -1,0 +1,219 @@
+{
+  "slug": "things-to-do-in-bundi",
+  "destination": "Bundi",
+  "guide": "bundi-travel-guide",
+  "type": "heritage town",
+  "title": "Things to Do in Bundi: Stepwells, Palace Murals & a Quiet Old Town",
+  "seoTitle": "Things to Do in Bundi: Stepwells, Murals & Forts | Kudozz Club",
+  "description": "Things to do in Bundi: see the Chitrashala murals in Bundi Palace, climb to Taragarh Fort, visit Raniji ki Baori and other stepwells, the 84-pillared cenotaph, Sukh Mahal and the old blue lanes.",
+  "dek": "A small Hadoti town beneath a hillside palace, with some of Rajasthan's finest murals, dozens of stepwells and far fewer visitors than it deserves.",
+  "primaryKeyword": "things to do in Bundi",
+  "secondaryKeywords": [
+    "Bundi Palace",
+    "Chitrashala Bundi",
+    "Raniji ki Baori",
+    "Taragarh Fort Bundi",
+    "Bundi stepwells"
+  ],
+  "searchIntent": "Slow travellers and repeat Rajasthan visitors looking for a quieter heritage town, often combined with Chittorgarh or Ranthambore.",
+  "tags": [
+    "Bundi",
+    "Rajasthan",
+    "Heritage",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/rajasthan/bundi/bundi-palace.webp",
+    "alt": "Bundi Palace rising above the old town, Rajasthan"
+  },
+  "intro": [
+    "Bundi, in the Hadoti region of south-eastern Rajasthan, was the capital of the Hada Chauhan Rajputs. Its palace climbs the hillside above a small town of blue-washed houses, stepwells and lakes. Rudyard Kipling stayed here, and the palace is often cited as an inspiration for his descriptions of Indian palaces.",
+    "Bundi is compact and slow, and most of what there is to do is on foot. Two days is enough to see the palace and its murals, the stepwells, the lakes and the cenotaphs, and to enjoy the unhurried atmosphere that makes it a favourite of repeat visitors to Rajasthan."
+  ],
+  "quickAnswer": [
+    "See the murals of the Chitrashala in Bundi Palace",
+    "Climb to Taragarh Fort above the palace",
+    "Visit Raniji ki Baori, Bundi's finest stepwell",
+    "See the 84-Pillared Cenotaph (Chaurasi Khambon ki Chhatri)",
+    "Walk around Nawal Sagar and Sukh Mahal",
+    "Explore the blue lanes of the old town",
+    "Watch sunset over the town from the palace or a rooftop"
+  ],
+  "sections": [
+    {
+      "id": "palace-fort",
+      "heading": "Palace and fort",
+      "items": [
+        {
+          "name": "See the Chitrashala murals",
+          "body": [
+            "Bundi Palace (Garh Palace) is known for its wall paintings in the Bundi school of miniature style. The Chitrashala, a courtyard gallery built in the 18th century, is covered in murals of Krishna legends, court scenes and processions in deep blues and greens. Parts of the main palace, such as the Chhatra Mahal and Badal Mahal, have more murals and are opened selectively."
+          ],
+          "facts": {
+            "Time needed": "2 hours",
+            "Best time": "Morning",
+            "Good for": "Art and history lovers"
+          }
+        },
+        {
+          "name": "Climb to Taragarh Fort",
+          "image": {
+            "src": "/images/blogs/rajasthan/bundi/taragarh-fort-bundi.webp",
+            "alt": "Walls of Taragarh Fort above Bundi",
+            "caption": "Taragarh Fort"
+          },
+          "body": [
+            "Taragarh, the Star Fort, crowns the hill above the palace and dates from the 14th century. It is largely overgrown and home to many monkeys, which gives it an abandoned, atmospheric feel. The climb is steep; carry a stick to deter monkeys and go with company."
+          ],
+          "facts": {
+            "Time needed": "1.5–2 hours",
+            "Good to know": "Steep path and many monkeys"
+          }
+        }
+      ]
+    },
+    {
+      "id": "stepwells-lakes",
+      "heading": "Stepwells, lakes and cenotaphs",
+      "items": [
+        {
+          "name": "Visit Raniji ki Baori",
+          "body": [
+            "Built in 1699 by Rani Nathavati, this multi-storey stepwell is one of the finest in Rajasthan, with carved elephants and pillars along its long descent. Bundi has dozens of stepwells; Raniji ki Baori is the one to prioritise, followed by Nagar Sagar Kund in the market."
+          ],
+          "facts": {
+            "Time needed": "45 minutes"
+          }
+        },
+        {
+          "name": "See the 84-Pillared Cenotaph",
+          "image": {
+            "src": "/images/blogs/rajasthan/bundi/84-pillared-cenotaph-bundi.webp",
+            "alt": "84-Pillared Cenotaph (Chaurasi Khambon ki Chhatri), Bundi",
+            "caption": "Chaurasi Khambon ki Chhatri"
+          },
+          "body": [
+            "Chaurasi Khambon ki Chhatri is a 17th-century cenotaph supported by 84 pillars, raised on a platform carved with animals. It stands in a garden a short drive from the centre."
+          ],
+          "facts": {
+            "Time needed": "30 minutes"
+          }
+        },
+        {
+          "name": "Walk by Nawal Sagar and Sukh Mahal",
+          "body": [
+            "Nawal Sagar, the lake below the palace, has a half-submerged temple in the middle and reflects the palace in still weather. Sukh Mahal, a summer palace on Jait Sagar lake, is where Kipling is said to have stayed. Kshar Bagh, next to it, holds royal cenotaphs."
+          ],
+          "facts": {
+            "Best time": "Morning or late afternoon"
+          }
+        }
+      ]
+    },
+    {
+      "id": "town",
+      "heading": "Old town and around",
+      "items": [
+        {
+          "name": "See Nagar Sagar Kund and the smaller stepwells",
+          "body": [
+            "Nagar Sagar Kund is a pair of identical stepwells in the middle of the market, and walking between Bundi's lesser-known baoris and kunds is a rewarding way to explore. Some are well kept, others overgrown; together they show how the town once stored water for a dry climate."
+          ],
+          "facts": {
+            "Time needed": "1 hour"
+          }
+        },
+        {
+          "name": "Explore the old town",
+          "body": [
+            "The lanes below the palace have blue-washed houses, small temples and a bazaar selling textiles and everyday goods. Rooftop cafés and guesthouses give views of the palace, which is lit up after dark."
+          ]
+        },
+        {
+          "name": "Day trip to Rameshwar Mahadev and Bhimlat",
+          "body": [
+            "Outside town, the Rameshwar Mahadev cave temple and the seasonal waterfalls at Bhimlat are pleasant excursions after the monsoon, when the Hadoti countryside is green."
+          ]
+        },
+        {
+          "name": "Bundi Utsav",
+          "body": [
+            "The Bundi Utsav, held in November, brings folk performances, processions and crafts to the town. Check dates with Rajasthan Tourism."
+          ]
+        },
+        {
+          "name": "Take a Hadoti countryside drive",
+          "body": [
+            "The countryside around Bundi has sandstone villages, small forts and lakes. A half-day drive with a local driver through villages towards Kota or Menal gives a sense of rural Rajasthan that busier routes miss."
+          ]
+        },
+        {
+          "name": "Visit Kota's riverfront",
+          "body": [
+            "Kota, about an hour away, has a large city palace museum with Kota-school paintings and a rebuilt Chambal riverfront. Boat rides on the Chambal are possible from Kota, and the Garadia Mahadev viewpoint overlooks a dramatic bend of the river."
+          ]
+        }
+      ]
+    }
+  ],
+  "oneDay": "Start at the palace and Chitrashala in the morning, then climb to Taragarh if you are feeling energetic. After lunch in the old town, see Raniji ki Baori and Nagar Sagar Kund, then visit the 84-Pillared Cenotaph and Sukh Mahal. Watch the palace lit up from a rooftop café.",
+  "faqs": [
+    {
+      "q": "What are the best things to do in Bundi?",
+      "a": "See the Chitrashala murals in Bundi Palace, climb to Taragarh Fort, visit Raniji ki Baori and other stepwells, see the 84-Pillared Cenotaph and Sukh Mahal, and wander the blue old town."
+    },
+    {
+      "q": "How many days are enough for Bundi?",
+      "a": "Two days covers the palace, fort, stepwells and lakes at a relaxed pace."
+    },
+    {
+      "q": "Is Bundi worth visiting?",
+      "a": "Yes, especially for travellers who enjoy art and quieter towns. Its palace murals are among the best in Rajasthan, and it sees far fewer visitors than Jaipur or Udaipur."
+    },
+    {
+      "q": "How do I combine Bundi with other places?",
+      "a": "Bundi fits between Chittorgarh and Ranthambore, or on a route from Udaipur to Jaipur. Kota, with the nearest major railway station, is about an hour away."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Chittorgarh",
+      "href": "/blog/things-to-do-in-chittorgarh",
+      "note": "Rajasthan's largest fort, about three hours south-west"
+    },
+    {
+      "name": "Ranthambore",
+      "href": "/blog/ranthambore-travel-guide",
+      "note": "tiger safaris to the north-east"
+    },
+    {
+      "name": "Things to do in Jaipur",
+      "href": "/blog/things-to-do-in-jaipur",
+      "note": "about four hours north"
+    }
+  ],
+  "styles": [
+    "budget-holidays"
+  ],
+  "byTraveller": [
+    {
+      "who": "Art lovers",
+      "text": "Bundi's Chitrashala and palace murals, followed by Kota's museum, are the best introduction to the Hadoti school of painting."
+    },
+    {
+      "who": "Slow travellers",
+      "text": "Stay three nights in a haveli guesthouse, walk the stepwells and lanes each morning, and spend evenings on a rooftop watching the palace lit up."
+    },
+    {
+      "who": "Photographers",
+      "text": "Nawal Sagar in morning light, blue lanes in the afternoon and the palace from rooftops after dark."
+    }
+  ],
+  "tips": [
+    "The path to Taragarh is steep and shared with monkeys; wear good shoes and do not carry food in your hands.",
+    "Bundi Palace and Chitrashala have separate entry points; allow time for both.",
+    "Kota Junction, about an hour away, is the nearest major railway station.",
+    "The town is small and most sights are walkable; hire an auto-rickshaw only for the cenotaph and Sukh Mahal."
+  ],
+  "metaDescription": "Things to do in Bundi: see the Chitrashala murals in Bundi Palace, climb to Taragarh Fort, visit Raniji ki Baori and other stepwells, the 84-pillared cenotaph and more."
+}

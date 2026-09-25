@@ -1,0 +1,266 @@
+{
+  "slug": "things-to-do-in-gurgaon",
+  "destination": "Gurugram",
+  "guide": "gurugram-travel-guide",
+  "type": "city",
+  "title": "Things to Do in Gurgaon (Gurugram): Birds, Museums, Food & Weekend Escapes",
+  "seoTitle": "Things to Do in Gurgaon (Gurugram) | Kudozz Club",
+  "description": "Things to do in Gurgaon (Gurugram): Sultanpur National Park's birds, the Heritage Transport Museum, Museo Camera, Aravalli Biodiversity Park, Cyber Hub, Farrukhnagar's Sheesh Mahal and baoli, Damdama Lake and the Surajkund crafts mela.",
+  "dek": "Delhi's corporate neighbour, better known for glass towers and malls, but with birding wetlands, surprising museums and Aravalli escapes within an hour.",
+  "primaryKeyword": "things to do in Gurgaon",
+  "secondaryKeywords": [
+    "things to do in Gurugram",
+    "Sultanpur bird sanctuary",
+    "Heritage Transport Museum",
+    "Museo Camera",
+    "Cyber Hub",
+    "Damdama Lake",
+    "weekend in Gurgaon"
+  ],
+  "searchIntent": "Residents, business travellers and weekend visitors looking for things to do in and around Gurugram beyond malls.",
+  "tags": [
+    "Gurugram",
+    "Haryana",
+    "City",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/haryana/haryana/sultanpur-national-park-wetland-gurugram.webp",
+    "alt": "Wetland at Sultanpur National Park near Gurugram",
+    "caption": "Sultanpur National Park"
+  },
+  "intro": [
+    "Gurugram, still widely called Gurgaon, is a fast-grown city in Haryana just south-west of Delhi. It is home to many corporate offices, and much of its life revolves around malls, restaurants and gated neighbourhoods. But the city and the countryside around it also offer birding wetlands, quirky museums, Aravalli forests and old towns with Mughal-era monuments.",
+    "The best things to do in Gurgaon mix these: an early morning at Sultanpur National Park, a half day at the Heritage Transport Museum or Museo Camera, a walk in the Aravalli Biodiversity Park, evenings at Cyber Hub, and weekend escapes to Damdama Lake or Farrukhnagar.",
+    "Gurugram is connected to Delhi by the Yellow Line metro and the Rapid Metro. October to March is the best time for outdoor plans."
+  ],
+  "quickAnswer": [
+    "Go birdwatching at Sultanpur National Park",
+    "Visit the Heritage Transport Museum",
+    "See Museo Camera, a museum of photography",
+    "Walk the Aravalli Biodiversity Park",
+    "Eat and drink at Cyber Hub",
+    "See Farrukhnagar's Sheesh Mahal and stepwell",
+    "Spend a day at Damdama Lake",
+    "Visit the Surajkund crafts mela in February"
+  ],
+  "sections": [
+    {
+      "id": "nature",
+      "heading": "Nature and birds",
+      "items": [
+        {
+          "name": "Go birdwatching at Sultanpur",
+          "body": [
+            "Sultanpur National Park, about 15 km from the city, is a wetland famous for migratory birds in winter, including painted storks, bar-headed geese, flamingos in some years, and many ducks and waders. A trail around the lake has watchtowers. The ornithologist Salim Ali campaigned for its protection."
+          ],
+          "links": [
+            {
+              "label": "Sultanpur National Park guide",
+              "href": "/blog/sultanpur-national-park-travel-guide"
+            }
+          ],
+          "facts": {
+            "Time needed": "2–3 hours",
+            "Best time": "November to March, early morning",
+            "Good for": "Birdwatchers, families"
+          }
+        },
+        {
+          "name": "Walk in the Aravalli Biodiversity Park",
+          "body": [
+            "The Aravalli Biodiversity Park, on the old mining land between Gurugram and Delhi, has been restored with native Aravalli plants. Walking trails, birdlife and seasonal nature walks make it a green escape inside the city."
+          ],
+          "facts": {
+            "Best time": "Early morning",
+            "Good for": "Walkers, birdwatchers"
+          }
+        },
+        {
+          "name": "Spend a day at Damdama Lake",
+          "body": [
+            "Damdama Lake, in the Aravalli hills near Sohna, is a large reservoir with boating, camps and adventure activities such as zip lines and rock climbing. Water levels vary with the monsoon."
+          ],
+          "links": [
+            {
+              "label": "Damdama Lake guide",
+              "href": "/blog/damdama-lake-travel-guide"
+            }
+          ],
+          "facts": {
+            "Time needed": "Half day to full day",
+            "Good for": "Groups, families"
+          }
+        }
+      ]
+    },
+    {
+      "id": "museums",
+      "heading": "Museums",
+      "items": [
+        {
+          "name": "Visit the Heritage Transport Museum",
+          "body": [
+            "The Heritage Transport Museum at Taoru, about an hour from Gurugram, traces the history of transport in India through carriages, palanquins, vintage cars, motorcycles, a railway saloon and even an aircraft. It is well laid out and popular with children."
+          ],
+          "facts": {
+            "Time needed": "2–3 hours",
+            "Good for": "Families, car enthusiasts"
+          }
+        },
+        {
+          "name": "See Museo Camera",
+          "body": [
+            "Museo Camera, a centre for photographic arts in Sector 28, has a large collection of vintage cameras and hosts photography exhibitions and workshops."
+          ],
+          "facts": {
+            "Time needed": "1.5 hours",
+            "Good for": "Photographers"
+          }
+        }
+      ]
+    },
+    {
+      "id": "city",
+      "heading": "Food, shopping and evenings",
+      "items": [
+        {
+          "name": "Eat and drink at Cyber Hub",
+          "image": {
+            "src": "/images/blogs/haryana/gurugram/cyber-hub-gurugram.webp",
+            "alt": "DLF Cyber Hub restaurants and walkway, Gurugram",
+            "caption": "Cyber Hub"
+          },
+          "body": [
+            "DLF Cyber Hub, in the office district of Cyber City, is a pedestrian complex of restaurants, cafés and bars that fills up after work and at weekends. Galleria Market and Golf Course Road have more options."
+          ],
+          "facts": {
+            "Best time": "Evening"
+          }
+        },
+        {
+          "name": "Check what's on at Kingdom of Dreams",
+          "body": [
+            "The Kingdom of Dreams entertainment complex, known for its Bollywood-style musicals and food court themed on Indian states, was a Gurugram landmark for years but has been shut in recent times. Check its status before planning a visit."
+          ],
+          "facts": {
+            "Good to know": "Check whether it is operating"
+          }
+        },
+        {
+          "name": "Visit the Surajkund crafts mela",
+          "body": [
+            "The Surajkund International Crafts Mela, held every February at Surajkund in Faridabad, brings artisans and performers from across India and abroad. It is one of the best places to buy handmade crafts and see folk performances."
+          ],
+          "links": [
+            {
+              "label": "Surajkund guide",
+              "href": "/blog/surajkund-travel-guide"
+            }
+          ],
+          "facts": {
+            "Best time": "February"
+          }
+        },
+        {
+          "name": "Walk around Leisure Valley and Tau Devi Lal park",
+          "body": [
+            "Gurugram's large parks, including Leisure Valley in Sector 29 and the Tau Devi Lal Biodiversity Park, are green spaces for morning walks, jogging and weekend picnics. Sector 29 is also a busy dining and nightlife area."
+          ],
+          "facts": {
+            "Best time": "Morning or evening"
+          }
+        }
+      ]
+    },
+    {
+      "id": "heritage",
+      "heading": "Heritage nearby",
+      "items": [
+        {
+          "name": "See Farrukhnagar",
+          "body": [
+            "Farrukhnagar, about 25 km from Gurugram, was founded in the early 18th century. It has a Sheesh Mahal, a crumbling but atmospheric palace, and the Ghaus Ali Shah baoli, an unusual octagonal stepwell. The town also had a historic salt trade."
+          ],
+          "facts": {
+            "Time needed": "Half a day",
+            "Good for": "History lovers"
+          }
+        },
+        {
+          "name": "Visit the Sheetla Mata Mandir",
+          "body": [
+            "The Sheetla Mata Mandir in old Gurugram is an important temple for the region, visited by pilgrims especially during the Chaitra mela in spring. Mundan (first haircut) ceremonies for children are commonly held here."
+          ]
+        },
+        {
+          "name": "Explore Sohna and the Aravallis",
+          "body": [
+            "Sohna, south of Gurugram, has hot springs linked to a Shiva temple and is the gateway to the Aravalli hills, with short treks and resort stays for weekend breaks."
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Families",
+      "text": "Heritage Transport Museum, Sultanpur on a winter morning and a day at Damdama Lake."
+    },
+    {
+      "who": "Business travellers",
+      "text": "An evening at Cyber Hub, a morning walk in the Aravalli Biodiversity Park and Museo Camera if you have a few hours."
+    },
+    {
+      "who": "Weekenders",
+      "text": "Farrukhnagar and Sultanpur in one day, or a night at a Sohna or Damdama resort."
+    }
+  ],
+  "oneDay": "Go to Sultanpur National Park at dawn for the birds, then drive to Farrukhnagar for the Sheesh Mahal and baoli. After lunch, visit Museo Camera and end the day at Cyber Hub for dinner.",
+  "tips": [
+    "Indira Gandhi International Airport is about 15 km away; the Yellow Line metro connects Gurugram with Delhi.",
+    "Traffic can be heavy at office hours; plan trips outside peak times.",
+    "Winter mornings can be foggy; allow extra time for drives.",
+    "Check air quality in November and December."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Gurgaon?",
+      "a": "Birdwatching at Sultanpur, the Heritage Transport Museum, Museo Camera, the Aravalli Biodiversity Park, Cyber Hub, Farrukhnagar and Damdama Lake."
+    },
+    {
+      "q": "Is Kingdom of Dreams open?",
+      "a": "It has been shut in recent times. Check its current status before planning a visit."
+    },
+    {
+      "q": "When is the best time to visit Sultanpur National Park?",
+      "a": "November to March, early in the morning, when migratory birds are present."
+    },
+    {
+      "q": "What can I do in Gurgaon on a weekend?",
+      "a": "Go birdwatching at Sultanpur, visit the Heritage Transport Museum, spend a day at Damdama Lake or explore Farrukhnagar."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Delhi",
+      "href": "/blog/things-to-do-in-delhi",
+      "note": "a short metro ride away"
+    },
+    {
+      "name": "Sultanpur National Park",
+      "href": "/blog/sultanpur-national-park-travel-guide",
+      "note": "the bird wetland, 15 km away"
+    },
+    {
+      "name": "Things to do in Jaipur",
+      "href": "/blog/things-to-do-in-jaipur",
+      "note": "about four hours down the highway"
+    }
+  ],
+  "styles": [
+    "weekend-getaways",
+    "family-holidays"
+  ],
+  "metaDescription": "Things to do in Gurgaon (Gurugram): Sultanpur National Park's birds, the Heritage Transport Museum, Museo Camera, Aravalli Biodiversity Park, Cyber Hub and more."
+}

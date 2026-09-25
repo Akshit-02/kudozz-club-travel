@@ -1,0 +1,372 @@
+{
+  "slug": "things-to-do-in-jaipur",
+  "destination": "Jaipur",
+  "guide": "jaipur-travel-guide",
+  "type": "city",
+  "title": "Things to Do in Jaipur: Forts, Bazaars, Food & Heritage Experiences",
+  "seoTitle": "Things to Do in Jaipur: Forts, Bazaars & Experiences | Kudozz Club",
+  "description": "The best things to do in Jaipur, from Amber Fort and Hawa Mahal to bazaar walks, block-printing villages, sunset at Nahargarh and Rajasthani food, with practical tips.",
+  "dek": "Hill forts above the city, a royal palace still lived in, bazaars laid out in the 1720s, and a food scene built on kachori, lassi and slow-cooked Rajasthani thalis.",
+  "primaryKeyword": "things to do in Jaipur",
+  "secondaryKeywords": [
+    "best things to do in Jaipur",
+    "Jaipur activities",
+    "Jaipur experiences",
+    "places to visit in Jaipur",
+    "things to do in Jaipur at night",
+    "Jaipur with family"
+  ],
+  "searchIntent": "Travellers planning 2–3 days in Jaipur who want to know which forts, palaces, markets and experiences are worth their time, and how to fit them together.",
+  "tags": [
+    "Jaipur",
+    "Rajasthan",
+    "Heritage",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/rajasthan/rajasthan/hawa-mahal-facade-jaipur.webp",
+    "alt": "Pink sandstone facade of Hawa Mahal in Jaipur, Rajasthan"
+  },
+  "intro": [
+    "Jaipur is the capital of Rajasthan and the city most first-time visitors to the state start with. It was planned in 1727 by Maharaja Sawai Jai Singh II on a grid of wide streets and market blocks, and the old walled city, painted its famous terracotta pink, is now a UNESCO World Heritage Site.",
+    "Most of what makes Jaipur worth a trip falls into four groups: the hill forts on the Aravalli ridge (Amber, Jaigarh and Nahargarh), the royal and scientific monuments inside the old city (City Palace, Hawa Mahal, Jantar Mantar), the bazaars and craft traditions, and the food. Two to three days covers the essentials without rushing.",
+    "This guide groups Jaipur's activities by type rather than ranking them, with the time each one needs, when to go and who it suits, so you can build a plan around your own interests."
+  ],
+  "quickAnswer": [
+    "Explore Amber Fort early in the morning, before the crowds",
+    "Walk the ramparts of Jaigarh Fort to see the Jaivana cannon",
+    "Photograph Hawa Mahal's facade from a café across the street",
+    "Tour the City Palace museums and courtyards",
+    "See the giant stone instruments at Jantar Mantar",
+    "Watch sunset over the city from Nahargarh Fort",
+    "Shop for jewellery and textiles in Johari and Bapu Bazaars",
+    "Try pyaaz kachori, lassi and a full Rajasthani thali",
+    "Learn block printing in Sanganer or Bagru",
+    "Visit Panna Meena ka Kund stepwell and the Anokhi Museum in Amer"
+  ],
+  "sections": [
+    {
+      "id": "must-see",
+      "heading": "Must-see experiences in Jaipur",
+      "intro": "These are the sights most people travel to Jaipur for. Three of them, Amber Fort, Jantar Mantar and the walled city itself, are UNESCO World Heritage Sites.",
+      "items": [
+        {
+          "name": "Explore Amber Fort",
+          "image": {
+            "src": "/images/blogs/rajasthan/jaipur/amber-fort-jaipur.webp",
+            "alt": "Courtyard of Amber Fort in Amer, near Jaipur",
+            "caption": "Amber (Amer) Fort, on the ridge north of Jaipur"
+          },
+          "body": [
+            "Amber Fort (also spelt Amer) was the Kachwaha rulers' capital before Jaipur was built, and it is the single most impressive monument in the area. The approach climbs past Maota Lake to a series of courtyards, each grander than the last, ending at the Sheesh Mahal, a hall lined with thousands of tiny mirror pieces.",
+            "Go early. The fort gets crowded and hot by late morning, especially between October and March when tour groups arrive from Delhi. You can walk up the ramp from the road, take a jeep, or use the elephant rides, though many travellers now avoid those on animal-welfare grounds. The evening light-and-sound show below the fort is worth adding if you are staying nearby."
+          ],
+          "facts": {
+            "Where": "Amer, about 11 km north of the old city",
+            "Time needed": "2–3 hours",
+            "Best time": "Opening time, before 10 am",
+            "Good for": "Everyone; comfortable shoes for the ramps",
+            "Good to know": "Combine with Jaigarh Fort and Panna Meena ka Kund, which are minutes away"
+          }
+        },
+        {
+          "name": "Walk Jaigarh Fort's ramparts",
+          "body": [
+            "Jaigarh sits on the hill directly above Amber and was built to protect it. It is less ornate and far quieter, which is part of the appeal: long walls, water tanks carved into the rock, and the Jaivana, one of the largest wheeled cannons of its era. A tunnel historically linked Jaigarh with Amber below.",
+            "The views over Amber Fort and Maota Lake are among the best in Jaipur, and there is usually far less crowding than at Amber."
+          ],
+          "facts": {
+            "Where": "Above Amber Fort, on the Aravalli ridge",
+            "Time needed": "1–2 hours",
+            "Good for": "History enthusiasts, photographers"
+          }
+        },
+        {
+          "name": "See Hawa Mahal, the Palace of Winds",
+          "body": [
+            "Hawa Mahal is Jaipur's most photographed building, a five-storey pink sandstone screen with 953 small windows, built in 1799 so that women of the royal household could watch street processions without being seen.",
+            "The famous view is the street facade, and the best way to see it is from one of the rooftop cafés on the opposite side of the road, ideally in the morning when the sun lights the front. The interior is a set of narrow ramps and small chambers; it takes about 30 to 45 minutes and gives views down Siredeori Bazaar."
+          ],
+          "facts": {
+            "Where": "Badi Chaupar, old city",
+            "Time needed": "30–60 minutes",
+            "Best time": "Morning, for light on the facade",
+            "Good for": "Photographers, first-time visitors"
+          }
+        },
+        {
+          "name": "Tour the City Palace",
+          "image": {
+            "src": "/images/blogs/rajasthan/jaipur/city-palace-jaipur.webp",
+            "alt": "Mubarak Mahal inside the City Palace complex, Jaipur",
+            "caption": "Mubarak Mahal, City Palace"
+          },
+          "body": [
+            "The City Palace is still home to Jaipur's former royal family, and part of it, the Chandra Mahal, remains a residence. The public sections include the Mubarak Mahal textile gallery, an armoury, the Diwan-i-Khas with its two enormous silver urns, and Pitam Niwas Chowk, a courtyard with four painted gateways representing the seasons.",
+            "Allow a couple of hours if you enjoy museums. The palace sits right next to Jantar Mantar, so the two fit naturally into one morning."
+          ],
+          "facts": {
+            "Where": "Centre of the walled city",
+            "Time needed": "1.5–2 hours",
+            "Good for": "Families, history and design lovers"
+          }
+        },
+        {
+          "name": "Understand Jantar Mantar",
+          "body": [
+            "Jantar Mantar is an 18th-century astronomical observatory built by Sawai Jai Singh II, with around 20 fixed stone instruments. The largest, the Samrat Yantra, is a sundial that can tell local time to within about two seconds.",
+            "The site makes much more sense with an audio guide or a local guide who can explain how each instrument works; on your own it can feel like an abstract sculpture park. It is one of the most interesting places in Jaipur for children who like science."
+          ],
+          "facts": {
+            "Where": "Next to the City Palace",
+            "Time needed": "1 hour",
+            "Good for": "Families, curious minds",
+            "Good to know": "There is little shade, so avoid the midday heat"
+          }
+        },
+        {
+          "name": "Watch sunset from Nahargarh Fort",
+          "image": {
+            "src": "/images/blogs/rajasthan/jaipur/nahargarh-fort-jaipur.webp",
+            "alt": "Walls of Nahargarh Fort on the Aravalli hills above Jaipur",
+            "caption": "Nahargarh Fort above the city"
+          },
+          "body": [
+            "Nahargarh stands on the ridge directly above the old city, and from its walls you can see the whole grid of Jaipur spread below. Late afternoon into sunset is the time to go. Inside, the Madhavendra Bhawan has nine near-identical suites built for the king's queens, linked by corridors.",
+            "The road up is winding; most people go by car or auto-rickshaw. There are cafés on the fort where you can wait for the light to change."
+          ],
+          "facts": {
+            "Where": "Aravalli ridge, north-west of the old city",
+            "Time needed": "2 hours including sunset",
+            "Best time": "Late afternoon to sunset",
+            "Good for": "Couples, photographers"
+          }
+        }
+      ]
+    },
+    {
+      "id": "old-city",
+      "heading": "Old city walks, markets and shopping",
+      "intro": "The walled city was designed as a market town, and shopping is part of the experience rather than an afterthought. Bargaining is normal in the bazaars; keep it friendly.",
+      "items": [
+        {
+          "name": "Shop Johari Bazaar and Bapu Bazaar",
+          "body": [
+            "Johari Bazaar is the jewellers' street, with gemstones, silver and traditional Kundan and Meenakari work; Jaipur has long been one of the world's major centres for cutting coloured gemstones. Bapu Bazaar and Nehru Bazaar are better for textiles, block-printed fabric, mojari shoes and lac bangles.",
+            "Buy expensive gemstones only from established shops that give certificates, and be wary of anyone who approaches you on the street with a business opportunity involving gems."
+          ],
+          "facts": {
+            "Where": "Inside the walled city, around Badi and Chhoti Chaupar",
+            "Time needed": "2–3 hours",
+            "Best time": "Late afternoon and evening, when it is cooler",
+            "Good to know": "Some shops close on Sundays"
+          }
+        },
+        {
+          "name": "Take a heritage walk through the walled city",
+          "body": [
+            "A guided morning walk is the easiest way to make sense of the old city's layout: its nine rectangular blocks, the chaupars (large squares) where main streets cross, temples tucked behind shopfronts, and havelis with painted facades. Several local operators run these walks, usually starting early to avoid traffic.",
+            "If you prefer to walk alone, start at Hawa Mahal, walk the Tripolia Bazaar, and finish at Chandpole."
+          ],
+          "facts": {
+            "Time needed": "2–3 hours",
+            "Best time": "Early morning",
+            "Good for": "Culture lovers, photographers"
+          }
+        },
+        {
+          "name": "See the Patrika Gate and Albert Hall",
+          "body": [
+            "Patrika Gate at Jawahar Circle is a modern, brightly painted gateway that has become one of Jaipur's most photographed spots. Albert Hall, in Ram Niwas Garden, is the state museum, housed in an Indo-Saracenic building from the late 1800s, with collections of miniature paintings, carpets and an Egyptian mummy. It is lit up in the evening."
+          ],
+          "facts": {
+            "Time needed": "1 hour each",
+            "Good for": "Families, photographers"
+          }
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "heading": "Food experiences in Jaipur",
+      "intro": "Rajasthani food is rich, vegetarian-led and built around ingredients that keep well in a desert climate. Jaipur is one of the best places to try it.",
+      "items": [
+        {
+          "name": "Eat a full Rajasthani thali",
+          "body": [
+            "A thali brings together the state's signature dishes on one plate: dal baati churma (baked wheat balls with lentils and a sweet crumbled mixture), gatte ki sabzi (gram-flour dumplings in a yoghurt curry), ker sangri (desert beans and berries), bajra roti and several sweets. Many restaurants serve unlimited thalis at lunch.",
+            "Laal maas, a fiery mutton curry, is the best-known non-vegetarian dish if you eat meat."
+          ],
+          "facts": {
+            "Time needed": "A long lunch",
+            "Good for": "Everyone"
+          }
+        },
+        {
+          "name": "Go on a street food walk",
+          "body": [
+            "Jaipur's street food is best in the morning and early evening. Look for pyaaz kachori (onion-filled fried pastries), mirchi vada, thick lassi served in clay cups, and ghewar, a honeycomb-like sweet that is especially popular around the monsoon festivals of Teej. Masala Chowk, an open-air food court near Albert Hall, collects well-known street food stalls in one place and is an easy introduction."
+          ],
+          "facts": {
+            "Best time": "Breakfast or evening",
+            "Good for": "Food lovers, families"
+          }
+        },
+        {
+          "name": "Spend an evening at Chokhi Dhani",
+          "body": [
+            "Chokhi Dhani, on the southern edge of the city, is a recreated Rajasthani village with folk dance, puppet shows, camel rides and a traditional dinner served seated on the floor. It is touristy and busy, but children tend to love it and it is an easy evening out for families."
+          ],
+          "facts": {
+            "Where": "Tonk Road, about 20 km south of the centre",
+            "Time needed": "3–4 hours in the evening",
+            "Good for": "Families, groups"
+          }
+        }
+      ]
+    },
+    {
+      "id": "offbeat",
+      "heading": "Offbeat and lesser-known experiences",
+      "items": [
+        {
+          "name": "Visit Panna Meena ka Kund",
+          "body": [
+            "This small 16th-century stepwell near Amber Fort has criss-crossing staircases on all four sides that make it very photogenic. It takes 15 minutes to see and fits easily between Amber and Jaigarh. Visitors are generally not allowed to walk on the steps."
+          ],
+          "facts": {
+            "Where": "Amer, a short walk from Amber Fort",
+            "Time needed": "15–30 minutes"
+          }
+        },
+        {
+          "name": "Learn about hand block printing",
+          "body": [
+            "The villages of Sanganer and Bagru, just outside Jaipur, have practised hand block printing on cotton for centuries. You can watch printers at work, and some workshops offer short hands-on sessions where you print your own scarf or cloth. The Anokhi Museum of Hand Printing, in a restored haveli in Amer, explains the craft well and is a calm stop after Amber Fort."
+          ],
+          "facts": {
+            "Where": "Sanganer (south), Bagru (west), Anokhi Museum (Amer)",
+            "Time needed": "Half a day for a workshop",
+            "Good for": "Craft lovers, families with older children"
+          }
+        },
+        {
+          "name": "Climb to Galta Ji",
+          "body": [
+            "Galta Ji is a temple complex in a gorge east of the city, with natural spring-fed tanks where pilgrims bathe and a large population of macaques, which is why it is often called the Monkey Temple. The walk up to the Sun Temple on the ridge gives a view back over Jaipur."
+          ],
+          "facts": {
+            "Where": "About 10 km east of the old city",
+            "Time needed": "1.5–2 hours",
+            "Good to know": "Keep food out of sight because of the monkeys"
+          }
+        },
+        {
+          "name": "Take a hot air balloon ride",
+          "body": [
+            "Hot air balloon flights operate over the Amer area in the cooler months, usually at sunrise, giving views of the forts, villages and Aravalli hills. Flights depend on weather and are operated by licensed companies; book ahead and check the current season dates."
+          ],
+          "facts": {
+            "Best time": "Winter mornings",
+            "Good for": "Couples, special occasions"
+          }
+        }
+      ]
+    },
+    {
+      "id": "seasonal",
+      "heading": "Seasonal experiences and festivals",
+      "items": [
+        {
+          "name": "Kite flying on Makar Sankranti",
+          "body": [
+            "On 14 January (Makar Sankranti, also called Uttarayan), Jaipur's rooftops fill with people flying kites from morning to dusk. If you are in the city that day, find a rooftop in the old city and join in."
+          ]
+        },
+        {
+          "name": "Teej and Gangaur processions",
+          "body": [
+            "Teej (in the monsoon, usually July or August) and Gangaur (in March or April, after Holi) are women's festivals marked by processions from the City Palace through the old city. Dates follow the Hindu calendar, so check before you travel."
+          ]
+        },
+        {
+          "name": "Jaipur Literature Festival",
+          "body": [
+            "Held each year in late January, the Jaipur Literature Festival brings writers and speakers from around the world for several days of talks. Accommodation fills up quickly during the festival."
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Families",
+      "text": "Jantar Mantar, the City Palace, Albert Hall and Chokhi Dhani work well with children. Keep fort visits to the morning, and build in an afternoon break at the hotel during warmer months."
+    },
+    {
+      "who": "Couples",
+      "text": "Sunset at Nahargarh, dinner at a heritage hotel, a hot air balloon flight over Amer and a quiet morning at Jal Mahal (the palace in Man Sagar Lake, seen from the lakeside road) suit couples well."
+    },
+    {
+      "who": "First-time visitors to India",
+      "text": "Jaipur is the third stop on the Golden Triangle with Delhi and Agra. Two full days here, with Amber in the morning of day one and the old city on day two, is a good minimum."
+    },
+    {
+      "who": "Shoppers",
+      "text": "Plan at least half a day for Johari, Bapu and Tripolia bazaars, and consider a block-printing workshop in Sanganer."
+    }
+  ],
+  "oneDay": "Start at Amber Fort at opening time, then see Panna Meena ka Kund and drive back past Jal Mahal. After lunch in the old city, visit the City Palace and Jantar Mantar, photograph Hawa Mahal from across the road, and walk through Johari Bazaar. Finish with sunset at Nahargarh Fort and dinner in the city.",
+  "faqs": [
+    {
+      "q": "What are the best things to do in Jaipur?",
+      "a": "The essentials are Amber Fort, Jaigarh Fort, Hawa Mahal, the City Palace, Jantar Mantar and sunset at Nahargarh Fort, followed by the old-city bazaars and Rajasthani food. With extra time, add a block-printing visit to Sanganer or Bagru and Galta Ji."
+    },
+    {
+      "q": "How many days are enough for Jaipur?",
+      "a": "Two to three days is comfortable: one day for Amber, Jaigarh and Nahargarh, and one to two days for the City Palace, Hawa Mahal, Jantar Mantar, Jal Mahal and the markets."
+    },
+    {
+      "q": "What is Jaipur famous for?",
+      "a": "Jaipur is known as the Pink City for its painted old town, and is famous for Amber Fort, Hawa Mahal, the City Palace, Jantar Mantar, gemstone jewellery, block-printed textiles, blue pottery and Rajasthani food."
+    },
+    {
+      "q": "What can I do in Jaipur at night?",
+      "a": "Watch sunset from Nahargarh Fort, see Albert Hall and Patrika Gate lit up, eat at Masala Chowk or a rooftop restaurant, spend an evening at Chokhi Dhani, or catch the light-and-sound show at Amber Fort."
+    },
+    {
+      "q": "Is Jaipur good for families?",
+      "a": "Yes. Jantar Mantar, the City Palace museums, Albert Hall and Chokhi Dhani are popular with children, and the city is easy to get around by car. Plan outdoor sightseeing for mornings in the warmer months."
+    },
+    {
+      "q": "What is the best time to visit Jaipur?",
+      "a": "October to March, when days are cool and dry. April to June is very hot, which makes fort visits hard in the middle of the day."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Pushkar",
+      "href": "/blog/things-to-do-in-pushkar",
+      "note": "a holy lake town about three hours south-west, known for its ghats and the Brahma temple"
+    },
+    {
+      "name": "Things to do in Ajmer",
+      "href": "/blog/things-to-do-in-ajmer",
+      "note": "home to the Ajmer Sharif Dargah, next door to Pushkar"
+    },
+    {
+      "name": "Abhaneri",
+      "href": "/blog/abhaneri-travel-guide",
+      "note": "the Chand Baori stepwell, an easy stop on the road to Agra"
+    },
+    {
+      "name": "Ranthambore",
+      "href": "/blog/ranthambore-travel-guide",
+      "note": "tiger safaris about three to four hours away"
+    }
+  ],
+  "styles": [
+    "family-holidays",
+    "luxury-holidays"
+  ]
+}

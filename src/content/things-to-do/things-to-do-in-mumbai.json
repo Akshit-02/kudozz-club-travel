@@ -1,0 +1,306 @@
+{
+  "slug": "things-to-do-in-mumbai",
+  "destination": "Mumbai",
+  "guide": "mumbai-travel-guide",
+  "type": "city",
+  "title": "Things to Do in Mumbai: Heritage, Sea Faces, Street Food & Island Caves",
+  "seoTitle": "Things to Do in Mumbai: Heritage, Food & More | Kudozz Club",
+  "description": "Things to do in Mumbai: the Gateway of India and Colaba, Elephanta Caves, CSMT and the Art Deco sea front, Marine Drive at sunset, Kala Ghoda's museums and galleries, Haji Ali and Siddhivinayak, Banganga, Bandra, Sanjay Gandhi National Park and Kanheri caves, and street food.",
+  "dek": "India's biggest city, built on seven islands, where Victorian Gothic stations, Art Deco apartments, ancient caves and a relentless food culture share the same crowded peninsula.",
+  "primaryKeyword": "things to do in Mumbai",
+  "secondaryKeywords": [
+    "places to visit in Mumbai",
+    "Mumbai sightseeing",
+    "Elephanta Caves",
+    "Marine Drive",
+    "Mumbai street food",
+    "things to do in Mumbai at night",
+    "Kala Ghoda"
+  ],
+  "searchIntent": "First-time visitors, business travellers and weekenders planning two to four days in Mumbai.",
+  "tags": [
+    "Mumbai",
+    "Maharashtra",
+    "City",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/maharashtra/mumbai/marine-drive-night-mumbai.webp",
+    "alt": "Marine Drive lit up at night, Mumbai",
+    "caption": "Marine Drive"
+  },
+  "intro": [
+    "Mumbai grew from seven islands that were joined by land reclamation, first under Portuguese and then British rule, into India's commercial capital. It is the home of the Hindi film industry, the stock exchange and millions of people from every part of India, and it moves at its own relentless pace.",
+    "The things to do in Mumbai include its heritage in south Mumbai, with the Gateway of India, the UNESCO-listed Chhatrapati Shivaji Maharaj Terminus and the Victorian Gothic and Art Deco ensembles; a ferry to the Elephanta Caves; Marine Drive at sunset; museums and galleries at Kala Ghoda; temples and shrines; the suburbs of Bandra and Juhu; a national park with ancient caves inside the city; and some of India's best street food.",
+    "Three days covers the essentials. November to February is the most pleasant season; the monsoon (June to September) is dramatic but very wet."
+  ],
+  "quickAnswer": [
+    "See the Gateway of India and walk through Colaba",
+    "Take a ferry to the Elephanta Caves",
+    "See Chhatrapati Shivaji Maharaj Terminus",
+    "Walk Marine Drive at sunset",
+    "Explore Kala Ghoda's museums and galleries",
+    "Visit Haji Ali Dargah and Siddhivinayak Temple",
+    "See Banganga Tank in Walkeshwar",
+    "Explore Bandra's lanes, sea face and cafés",
+    "See the Kanheri Caves in Sanjay Gandhi National Park",
+    "Eat vada pav, pav bhaji and bhel at Chowpatty"
+  ],
+  "sections": [
+    {
+      "id": "south-mumbai",
+      "heading": "South Mumbai heritage",
+      "items": [
+        {
+          "name": "See the Gateway of India and Colaba",
+          "image": {
+            "src": "/images/blogs/maharashtra/mumbai/gateway-of-india-mumbai.webp",
+            "alt": "Gateway of India on the Mumbai waterfront",
+            "caption": "Gateway of India"
+          },
+          "body": [
+            "The Gateway of India, an Indo-Saracenic arch completed in 1924, faces the harbour opposite the Taj Mahal Palace hotel of 1903. Around it, Colaba has the Causeway market for street shopping, old cafés and colonial buildings."
+          ],
+          "facts": {
+            "Best time": "Early morning or evening",
+            "Good for": "Everyone"
+          }
+        },
+        {
+          "name": "See Chhatrapati Shivaji Maharaj Terminus",
+          "image": {
+            "src": "/images/blogs/maharashtra/mumbai/chhatrapati-shivaji-maharaj-terminus-mumbai.webp",
+            "alt": "Chhatrapati Shivaji Maharaj Terminus, Mumbai",
+            "caption": "CSMT"
+          },
+          "body": [
+            "Chhatrapati Shivaji Maharaj Terminus (formerly Victoria Terminus), completed in 1888, is a UNESCO World Heritage Site and one of the finest Victorian Gothic buildings in the world, still a busy railway station. A small heritage gallery offers guided tours on some days. It is lit up beautifully in the evening."
+          ],
+          "facts": {
+            "Time needed": "45 minutes"
+          }
+        },
+        {
+          "name": "Walk past the Victorian Gothic and Art Deco ensembles",
+          "body": [
+            "Around the Oval Maidan, the Bombay High Court, the University of Mumbai with its Rajabai Clock Tower, and a row of Art Deco apartment buildings face each other across the ground. Together they form a UNESCO World Heritage Site listed in 2018. Heritage walks explain the styles."
+          ],
+          "facts": {
+            "Best time": "Late afternoon",
+            "Good for": "Architecture lovers"
+          }
+        },
+        {
+          "name": "Explore Kala Ghoda",
+          "body": [
+            "Kala Ghoda is Mumbai's arts district, with the Chhatrapati Shivaji Maharaj Vastu Sangrahalaya (the former Prince of Wales Museum), the Jehangir Art Gallery, the National Gallery of Modern Art, and bookshops and cafés. The Kala Ghoda Arts Festival in February fills the streets with installations and events."
+          ],
+          "facts": {
+            "Time needed": "Half a day",
+            "Good to know": "Museums close on Mondays"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sea",
+      "heading": "Sea faces and islands",
+      "items": [
+        {
+          "name": "Take a ferry to the Elephanta Caves",
+          "image": {
+            "src": "/images/blogs/maharashtra/mumbai/elephanta-caves-mumbai.webp",
+            "alt": "Sculpture inside the Elephanta Caves",
+            "caption": "Elephanta Caves"
+          },
+          "body": [
+            "Ferries from the Gateway of India take about an hour to Elephanta Island, where rock-cut caves from around the 5th to 7th centuries hold magnificent Shiva sculptures, including the three-headed Sadashiva (Trimurti). The caves are a UNESCO World Heritage Site and are closed on Mondays. Ferries do not run in rough monsoon weather."
+          ],
+          "facts": {
+            "Time needed": "Half a day",
+            "Good to know": "Closed on Mondays"
+          }
+        },
+        {
+          "name": "Walk Marine Drive at sunset",
+          "body": [
+            "Marine Drive curves for about 3.5 km along the bay from Nariman Point to Girgaum Chowpatty. At night its streetlights form the Queen's Necklace. Sit on the sea wall at sunset with the city, and end at Chowpatty beach for bhel puri and kulfi."
+          ],
+          "facts": {
+            "Best time": "Sunset and evening"
+          }
+        },
+        {
+          "name": "Visit Haji Ali Dargah",
+          "body": [
+            "Haji Ali Dargah, a white mosque and tomb on an islet off Worli, is reached by a causeway that floods at high tide. It is visited by people of all faiths. Check the tide times before you go."
+          ],
+          "facts": {
+            "Good to know": "Visit at low tide"
+          }
+        },
+        {
+          "name": "See Bandra's sea face",
+          "image": {
+            "src": "/images/blogs/maharashtra/mumbai/bandra-mumbai.webp",
+            "alt": "Bandra Bandstand and sea face",
+            "caption": "Bandra"
+          },
+          "body": [
+            "In Bandra, Bandstand promenade and Bandra Fort look out over the Bandra–Worli Sea Link. The suburb's old Catholic villages, such as Ranwar, have colourful houses and street art, and Mount Mary Basilica sits on the hill. Hill Road and Linking Road are shopping streets."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "heading": "Temples and old neighbourhoods",
+      "items": [
+        {
+          "name": "Visit Siddhivinayak and Mahalaxmi temples",
+          "body": [
+            "Siddhivinayak Temple in Prabhadevi, dedicated to Ganesha, is one of Mumbai's busiest temples, especially on Tuesdays. The Mahalaxmi Temple, near the sea at Breach Candy, is dedicated to the city's patron goddess."
+          ]
+        },
+        {
+          "name": "See Banganga Tank",
+          "body": [
+            "Banganga, a temple tank in Walkeshwar surrounded by old temples, steps and houses, is a pocket of calm in the city. The Banganga Festival of classical music is held here in winter."
+          ],
+          "facts": {
+            "Best time": "Morning"
+          }
+        },
+        {
+          "name": "See Dhobi Ghat and Crawford Market",
+          "body": [
+            "Dhobi Ghat at Mahalaxmi is a huge open-air laundry, best seen from the bridge above. Crawford Market (Mahatma Jyotiba Phule Mandai), with its Victorian building and fruit, spice and dry fruit stalls, and the lanes of Bhuleshwar and Chor Bazaar nearby, show old Mumbai's trading life."
+          ]
+        },
+        {
+          "name": "Celebrate Ganesh Chaturthi",
+          "body": [
+            "Ganesh Chaturthi, in August or September, is Mumbai's biggest festival, with huge Ganesha idols in public pandals such as Lalbaugcha Raja and immersion processions to the sea on the last day. Crowds are immense."
+          ],
+          "facts": {
+            "Best time": "August or September"
+          }
+        }
+      ]
+    },
+    {
+      "id": "nature-food",
+      "heading": "Nature and food",
+      "items": [
+        {
+          "name": "See the Kanheri Caves",
+          "body": [
+            "Sanjay Gandhi National Park, a large forest inside the city limits in Borivali, contains the Kanheri Caves, a group of more than 100 Buddhist caves carved between about the 1st century BCE and 10th century CE. The park also has trails and a lion and tiger safari."
+          ],
+          "facts": {
+            "Time needed": "Half a day",
+            "Good for": "Families, history lovers"
+          }
+        },
+        {
+          "name": "Eat Mumbai street food",
+          "body": [
+            "Try vada pav, pav bhaji, bhel puri, pani puri and kheema pav, as well as bun maska and chai at old Irani cafés. Mohammed Ali Road is famous for evening food during Ramzan. Seafood restaurants serve Malvani and Konkani fish curries and Bombay duck."
+          ],
+          "facts": {
+            "Good for": "Food lovers"
+          }
+        },
+        {
+          "name": "Ride a local train",
+          "body": [
+            "Mumbai's suburban trains carry millions every day. Riding one outside rush hour, in the first-class or ladies' compartment if you prefer, is a quick way to feel the city's pulse."
+          ],
+          "facts": {
+            "Good to know": "Avoid peak hours"
+          }
+        },
+        {
+          "name": "See the Global Vipassana Pagoda",
+          "body": [
+            "The Global Vipassana Pagoda at Gorai, on Mumbai's northern edge, is a huge golden meditation dome modelled on Myanmar's Shwedagon Pagoda. Its hall, built without pillars, can seat thousands of meditators. Ferries and roads reach it from Borivali."
+          ],
+          "facts": {
+            "Time needed": "2 hours"
+          }
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "First-time visitors",
+      "text": "Day 1 for Colaba, the Gateway and Elephanta, day 2 for CSMT, Kala Ghoda and Marine Drive, day 3 for Bandra and a food walk."
+    },
+    {
+      "who": "Families",
+      "text": "Elephanta by ferry, the Nehru Science Centre, Sanjay Gandhi National Park and Chowpatty in the evening."
+    },
+    {
+      "who": "Food lovers",
+      "text": "Irani cafés for breakfast, a street-food walk and a Malvani seafood dinner."
+    }
+  ],
+  "oneDay": "Start at the Gateway of India and take the morning ferry to Elephanta. Back in the city, walk through Kala Ghoda and the Oval Maidan to CSMT, then spend the evening on Marine Drive and eat at Chowpatty.",
+  "tips": [
+    "Chhatrapati Shivaji Maharaj International Airport serves the city; Navi Mumbai also has a new airport.",
+    "Use the metro, local trains and app cabs to beat traffic.",
+    "The monsoon brings heavy rain and flooding; Elephanta ferries stop in rough weather.",
+    "Keep valuables secure in crowded markets and trains."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Mumbai?",
+      "a": "See the Gateway of India and CSMT, take a ferry to the Elephanta Caves, walk Marine Drive, explore Kala Ghoda, visit Haji Ali and Siddhivinayak, see Banganga and Bandra, visit the Kanheri Caves and eat street food."
+    },
+    {
+      "q": "What are the best things to do in Mumbai at night?",
+      "a": "Walk Marine Drive, eat at Chowpatty, see CSMT lit up, visit Bandra's cafés and bars, and in Ramzan, the food stalls of Mohammed Ali Road."
+    },
+    {
+      "q": "How many days are enough for Mumbai?",
+      "a": "Three days."
+    },
+    {
+      "q": "When are the Elephanta Caves closed?",
+      "a": "On Mondays, and ferries may not run in rough monsoon weather."
+    },
+    {
+      "q": "What is the best time to visit Mumbai?",
+      "a": "November to February, when it is cooler and drier. The monsoon from June to September is dramatic but brings heavy rain and flooding."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Lonavala",
+      "href": "/blog/things-to-do-in-lonavala",
+      "note": "hills and caves, about two hours away"
+    },
+    {
+      "name": "Things to do in Alibaug",
+      "href": "/blog/things-to-do-in-alibaug",
+      "note": "beaches across the harbour"
+    },
+    {
+      "name": "Things to do in Matheran",
+      "href": "/blog/things-to-do-in-matheran",
+      "note": "a car-free hill station"
+    },
+    {
+      "name": "Things to do in Pune",
+      "href": "/blog/things-to-do-in-pune",
+      "note": "the Peshwa city, three hours away"
+    }
+  ],
+  "styles": [
+    "family-holidays",
+    "weekend-getaways",
+    "group-tours"
+  ],
+  "metaDescription": "Things to do in Mumbai: the Gateway of India and Colaba, Elephanta Caves, CSMT and the Art Deco sea front, Marine Drive at sunset, Kala Ghoda's museums and galleries and more."
+}

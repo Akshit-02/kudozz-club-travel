@@ -1,0 +1,284 @@
+{
+  "slug": "things-to-do-in-nashik",
+  "destination": "Nashik",
+  "guide": "nashik-travel-guide",
+  "type": "city",
+  "title": "Things to Do in Nashik: Trimbakeshwar, Panchavati, Caves & Vineyards",
+  "seoTitle": "Things to Do in Nashik: Temples, Caves & Wineries | Kudozz Club",
+  "description": "Things to do in Nashik: Trimbakeshwar Jyotirlinga and the Brahmagiri hill, Ramkund and the temples of Panchavati, the Pandavleni caves, vineyard tours and tastings, the coin museum, Anjaneri and Harihar treks, Saptashrungi, and trips to Bhandardara and Shirdi.",
+  "dek": "An ancient pilgrimage city on the Godavari, linked to the Ramayana and the Kumbh Mela, that has also become India's wine capital.",
+  "primaryKeyword": "things to do in Nashik",
+  "secondaryKeywords": [
+    "places to visit in Nashik",
+    "Trimbakeshwar",
+    "Panchavati",
+    "Pandavleni caves",
+    "Nashik vineyards",
+    "Sula vineyards",
+    "Nashik Kumbh Mela"
+  ],
+  "searchIntent": "Pilgrims, wine lovers and weekenders from Mumbai and Pune planning one or two days in Nashik.",
+  "tags": [
+    "Nashik",
+    "Maharashtra",
+    "Pilgrimage",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/maharashtra/nashik/pandavleni-caves-nashik.webp",
+    "alt": "Pandavleni Buddhist caves on a hillside in Nashik",
+    "caption": "Pandavleni caves"
+  },
+  "intro": [
+    "Nashik, on the banks of the Godavari in northern Maharashtra, is one of the four cities that host the Kumbh Mela. In the Ramayana, Rama, Sita and Lakshmana are said to have lived in exile at Panchavati here. The source of the Godavari is at Trimbak nearby, home to one of the twelve Jyotirlingas.",
+    "The things to do in Nashik include the temples of Panchavati and the Ramkund ghat, Trimbakeshwar, the Buddhist Pandavleni caves and, in a very different mood, the vineyards that have made Nashik the centre of Indian wine. Hill forts and dams nearby are popular in the monsoon.",
+    "One or two days is enough. October to March is the best time; the grape harvest runs from about January to March."
+  ],
+  "quickAnswer": [
+    "Visit Trimbakeshwar Jyotirlinga",
+    "Climb Brahmagiri to the source of the Godavari",
+    "See Ramkund and the Panchavati temples",
+    "Visit the Kalaram Temple and Sita Gufa",
+    "Explore the Pandavleni caves",
+    "Tour a vineyard and taste wine",
+    "See the coin museum at Anjaneri",
+    "Trek Anjaneri or Harihar Fort",
+    "Visit Saptashrungi Devi",
+    "Take trips to Bhandardara and Shirdi"
+  ],
+  "sections": [
+    {
+      "id": "pilgrimage",
+      "heading": "Temples and ghats",
+      "items": [
+        {
+          "name": "Visit Trimbakeshwar",
+          "image": {
+            "src": "/images/blogs/maharashtra/nashik/trimbakeshwar-temple-nashik.webp",
+            "alt": "Trimbakeshwar Temple, Nashik",
+            "caption": "Trimbakeshwar Temple"
+          },
+          "body": [
+            "Trimbakeshwar, about 28 km from Nashik, is one of the twelve Jyotirlingas, with a black-stone temple rebuilt in the 18th century by the Peshwa Balaji Bajirao. Its lingam has three faces representing Brahma, Vishnu and Shiva. Queues can be long; special darshan tickets are available. Many pilgrims perform rituals such as Narayan Nagbali here."
+          ],
+          "facts": {
+            "Time needed": "2–3 hours",
+            "Best time": "Early morning on weekdays"
+          }
+        },
+        {
+          "name": "Climb Brahmagiri",
+          "body": [
+            "Brahmagiri hill, above Trimbak, is considered the source of the Godavari. Steps lead up to the Gangadwar shrine and further up to the top, with views over the valley. The climb is best in the cooler months."
+          ],
+          "facts": {
+            "Time needed": "3–4 hours"
+          }
+        },
+        {
+          "name": "See Ramkund and Panchavati",
+          "body": [
+            "Ramkund, a sacred bathing tank on the Godavari in Panchavati, is where pilgrims take a holy dip, and it is the centre of the Kumbh Mela, held every 12 years. The Kalaram Temple, with its black stone image of Rama, Sita Gufa (a narrow cave linked to Sita) and the Kapaleshwar Temple are nearby.",
+            "The ghats are liveliest in the evening, when lamps are floated on the river and the aarti is performed. The narrow lanes around Panchavati are full of shops selling puja items, brassware and local sweets."
+          ],
+          "facts": {
+            "Best time": "Morning and evening aarti"
+          }
+        },
+        {
+          "name": "Visit Saptashrungi Devi",
+          "body": [
+            "Saptashrungi, about 60 km north at Vani, is a hilltop temple to the goddess, surrounded by seven peaks. A ropeway and steps lead up. It is one of the three and a half Shakti Peethas of Maharashtra."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "heading": "Caves and museums",
+      "items": [
+        {
+          "name": "Explore the Pandavleni caves",
+          "body": [
+            "The Pandavleni (Trirashmi) caves, carved into a hill about 8 km from the city, are a group of Buddhist caves from around the 1st century BCE to the 3rd century CE, with inscriptions, a chaitya and viharas. The climb is short and the view over Nashik is good."
+          ],
+          "facts": {
+            "Time needed": "1.5 hours"
+          }
+        },
+        {
+          "name": "See the coin museum",
+          "body": [
+            "The Indian Institute of Research in Numismatic Studies at Anjaneri has a museum of Indian coins from ancient to modern times."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vineyards",
+      "heading": "Wine country",
+      "items": [
+        {
+          "name": "Tour a vineyard",
+          "body": [
+            "Nashik's vineyards produce most of India's wine. Several wineries offer tours of the winemaking process, tastings, restaurants and stays. Sula Vineyards' music festival in February is a big event."
+          ],
+          "facts": {
+            "Best time": "January to March for harvest",
+            "Good for": "Couples, friends",
+            "Good to know": "Drink responsibly and arrange a driver"
+          }
+        },
+        {
+          "name": "Stay among the vines",
+          "body": [
+            "Winery resorts and farm stays let you wake up among the vines and walk through them in the morning. Grape stomping events are held in harvest season."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outdoors",
+      "heading": "Forts, dams and day trips",
+      "items": [
+        {
+          "name": "Trek Anjaneri and Harihar Fort",
+          "body": [
+            "Anjaneri hill, believed by many to be Hanuman's birthplace, is a moderate trek with a plateau and a small lake. Harihar Fort is known for its steep rock-cut steps carved almost vertically into the cliff, a thrilling climb for experienced trekkers."
+          ],
+          "facts": {
+            "Best time": "Monsoon and winter",
+            "Good for": "Trekkers"
+          }
+        },
+        {
+          "name": "Visit Bhandardara",
+          "image": {
+            "src": "/images/blogs/maharashtra/bhandardara/umbrella-falls-bhandardara.webp",
+            "alt": "Umbrella Falls at Bhandardara",
+            "caption": "Umbrella Falls, Bhandardara"
+          },
+          "body": [
+            "Bhandardara, about 70 km away, has Arthur Lake, Wilson Dam, Umbrella Falls in the monsoon and Mount Kalsubai, the highest peak in Maharashtra. Randha Falls is nearby. Fireflies light up the forests in May and June."
+          ],
+          "links": [
+            {
+              "label": "Bhandardara guide",
+              "href": "/blog/bhandardara-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Go to Shirdi",
+          "body": [
+            "Shirdi, about 90 km east, is the town of Sai Baba, one of India's most visited pilgrimage sites."
+          ],
+          "links": [
+            {
+              "label": "Shirdi guide",
+              "href": "/blog/shirdi-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Eat Nashik misal",
+          "body": [
+            "Nashik's misal is fiery and much loved; try it at an old eatery for breakfast. Grapes, wine and chivda are good buys."
+          ],
+          "facts": {
+            "Good for": "Food lovers"
+          }
+        }
+      ]
+    },
+    {
+      "id": "seasons",
+      "heading": "By season",
+      "items": [
+        {
+          "name": "October to March",
+          "body": [
+            "Pleasant weather for temples and vineyards; the grape harvest and wine festivals run from about December to March."
+          ]
+        },
+        {
+          "name": "April to June",
+          "body": [
+            "Hot days; visit Trimbakeshwar early in the morning."
+          ]
+        },
+        {
+          "name": "July to September",
+          "body": [
+            "The monsoon turns the hills green, with waterfalls at Bhandardara and good trekking."
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Pilgrims",
+      "text": "Trimbakeshwar, Ramkund, Kalaram Temple and Saptashrungi, with Shirdi nearby."
+    },
+    {
+      "who": "Couples and friends",
+      "text": "A vineyard stay, wine tasting and a monsoon trek."
+    },
+    {
+      "who": "Trekkers",
+      "text": "Harihar, Anjaneri and Kalsubai in the monsoon."
+    },
+    {
+      "who": "Families",
+      "text": "Pandavleni caves, the coin museum, a vineyard lunch and the Ramkund aarti in the evening."
+    }
+  ],
+  "oneDay": "Visit Trimbakeshwar early, then drive back to see the Pandavleni caves. After lunch, visit Ramkund and the Kalaram Temple, and end with a vineyard tour and tasting at sunset.",
+  "tips": [
+    "Nashik Road is the main railway station; Mumbai is about four hours by road.",
+    "Trimbakeshwar is crowded on Mondays and festivals.",
+    "Book vineyard tours in advance on weekends.",
+    "Plan early if visiting during the Kumbh Mela; the next one is expected in 2027."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Nashik?",
+      "a": "Visit Trimbakeshwar, see Ramkund and Panchavati, explore the Pandavleni caves, tour a vineyard, trek Anjaneri or Harihar, and visit Saptashrungi, Bhandardara and Shirdi."
+    },
+    {
+      "q": "How far is Trimbakeshwar from Nashik?",
+      "a": "About 28 km, roughly 45 minutes by road."
+    },
+    {
+      "q": "When is the best time to visit Nashik vineyards?",
+      "a": "From about December to March, during the harvest season."
+    },
+    {
+      "q": "How many days are enough for Nashik?",
+      "a": "One to two days."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Shirdi",
+      "href": "/blog/shirdi-travel-guide",
+      "note": "about 90 km away"
+    },
+    {
+      "name": "Things to do in Aurangabad",
+      "href": "/blog/things-to-do-in-aurangabad",
+      "note": "Ajanta and Ellora"
+    },
+    {
+      "name": "Things to do in Mumbai",
+      "href": "/blog/things-to-do-in-mumbai",
+      "note": "about four hours away"
+    }
+  ],
+  "styles": [
+    "spiritual-tours",
+    "weekend-getaways"
+  ],
+  "metaDescription": "Things to do in Nashik: Trimbakeshwar Jyotirlinga and the Brahmagiri hill, Ramkund and the temples of Panchavati, the Pandavleni caves, vineyard tours and tastings and more."
+}

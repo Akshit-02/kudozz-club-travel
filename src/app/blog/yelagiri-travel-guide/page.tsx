@@ -24,10 +24,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jammu-kashmir/dal.jpg",
+        url: "/images/blogs/tamil-nadu/yelagiri/yelagiri-hills-view.webp",
         width: 2560,
         height: 1707,
-        alt: "Calm lake surrounded by hills, evoking Yelagiri's Punganur Lake and surrounding orchard countryside",
+        alt: "Forested slopes of the Yelagiri hills, Tamil Nadu",
       },
     ],
   },
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     title: "Yelagiri Travel Guide: Lake, Hills & Best Time",
     description:
       "A lake, a rose garden, and paragliding over the hills — the complete guide to Yelagiri, Tamil Nadu's easiest weekend hill escape.",
-    images: ["/images/destinations/jammu-kashmir/dal.jpg"],
+    images: ["/images/blogs/tamil-nadu/yelagiri/yelagiri-hills-view.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/yelagiri-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           headline: "Yelagiri Travel Guide: Lake, Hills & Best Time",
           description:
             "Complete Yelagiri guide — Punganur Lake, Swamimalai Hill, paragliding, the rose garden, how to reach from Chennai and Bangalore, and a full weekend visit plan.",
-          image: "https://club.kudozz.in/images/destinations/jammu-kashmir/dal.jpg",
+          image: "https://club.kudozz.in/images/blogs/tamil-nadu/yelagiri/yelagiri-hills-view.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",
           publisher: {
@@ -196,8 +196,8 @@ export default function YelagiriGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jammu-kashmir/dal.jpg"
-              alt="Calm lake surrounded by hills, evoking Yelagiri's Punganur Lake and surrounding orchard countryside"
+              src="/images/blogs/tamil-nadu/yelagiri/yelagiri-hills-view.webp"
+              alt="Forested slopes of the Yelagiri hills, Tamil Nadu"
               fill
               priority
               sizes="100vw"

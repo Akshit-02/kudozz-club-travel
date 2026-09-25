@@ -1,0 +1,357 @@
+{
+  "slug": "things-to-do-in-ladakh",
+  "destination": "Ladakh",
+  "guide": "leh-ladakh-road-trip-travel-guide",
+  "type": "region",
+  "title": "Things to Do in Ladakh: High Lakes, Monasteries, Passes & Road Trips",
+  "seoTitle": "Things to Do in Ladakh: Lakes, Monasteries & Treks | Kudozz Club",
+  "description": "Things to do in Ladakh: Pangong Tso and Tso Moriri, Nubra's dunes and Diskit, the monasteries of Thiksey, Hemis and Lamayuru, Khardung La and Chang La, Leh's palace and market, Zanskar, Turtuk, Hanle's dark skies, river rafting and snow leopard treks.",
+  "dek": "A high desert on the roof of India, with blue lakes at over 4,000 metres, whitewashed monasteries on hilltops and some of the world's highest motorable roads.",
+  "primaryKeyword": "things to do in Ladakh",
+  "secondaryKeywords": [
+    "places to visit in Ladakh",
+    "Pangong Lake",
+    "Nubra Valley",
+    "Ladakh monasteries",
+    "Ladakh road trip",
+    "Tso Moriri",
+    "Ladakh in winter"
+  ],
+  "searchIntent": "Road-trippers, bikers, families and first-time visitors planning a seven- to fourteen-day Ladakh trip and choosing which lakes, valleys and monasteries to include.",
+  "tags": [
+    "Ladakh",
+    "Leh",
+    "Road Trip",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/ladakh/pangong-lake/pangong-tso-turquoise-water-mountains.webp",
+    "alt": "Turquoise water of Pangong Tso with bare mountains",
+    "caption": "Pangong Tso"
+  },
+  "intro": [
+    "Ladakh is a union territory in the far north of India, between the Karakoram and the Great Himalaya. Most of it lies above 3,000 metres, with Leh at about 3,500 metres. It is a cold desert of bare mountains, green oases along the Indus and its tributaries, and a Buddhist culture closely linked to Tibet, alongside Muslim communities in Kargil and the Balti villages of Nubra.",
+    "The best things to do in Ladakh are spread over a large area. From Leh, trips go north over Khardung La to Nubra Valley, east over Chang La to Pangong Tso, and south-east to Tso Moriri and Hanle. The monasteries of Thiksey, Hemis, Alchi and Lamayuru lie along the Indus. Further west are Kargil, Drass and the Zanskar valley.",
+    "Plan at least seven days, and more if you drive in from Manali or Srinagar. Acclimatisation is essential: rest for the first day or two in Leh. Indian nationals need an Inner Line Permit for Nubra, Pangong, Tso Moriri and other protected areas."
+  ],
+  "quickAnswer": [
+    "See Pangong Tso change colour",
+    "Cross Khardung La to Nubra Valley and ride camels at Hunder",
+    "Visit Thiksey, Hemis and Diskit monasteries",
+    "Explore Leh Palace, the old town and Shanti Stupa",
+    "Drive to Tso Moriri and the Changthang plateau",
+    "See Lamayuru's moonland and Alchi's murals",
+    "Visit Turtuk, a Balti village near the border",
+    "Stargaze at Hanle's dark sky reserve",
+    "Raft the Zanskar and Indus rivers",
+    "Trek in Markha valley or look for snow leopards in winter"
+  ],
+  "sections": [
+    {
+      "id": "lakes",
+      "heading": "High-altitude lakes",
+      "items": [
+        {
+          "name": "See Pangong Tso",
+          "image": {
+            "src": "/images/blogs/ladakh/pangong-lake/pangong-tso-shoreline-colour-change.webp",
+            "alt": "Pangong Tso shoreline showing bands of blue and green",
+            "caption": "Pangong Tso"
+          },
+          "body": [
+            "Pangong Tso is a long, narrow lake at about 4,250 metres, stretching from Ladakh into Tibet. Its water shifts between shades of blue and green through the day. Most visitors reach it from Leh over Chang La in five to six hours and stay a night in camps at Spangmik, Lukung or Merak.",
+            "Nights are very cold even in summer, and the altitude is higher than Leh. Do not visit on your first day in Ladakh."
+          ],
+          "links": [
+            {
+              "label": "Pangong Lake travel guide",
+              "href": "/blog/pangong-lake-travel-guide"
+            }
+          ],
+          "facts": {
+            "Time needed": "2 days from Leh",
+            "Best time": "June to September",
+            "Good to know": "Inner Line Permit needed"
+          }
+        },
+        {
+          "name": "Drive to Tso Moriri",
+          "image": {
+            "src": "/images/blogs/ladakh/tso-moriri/tso-moriri-lake-korzok-village.webp",
+            "alt": "Tso Moriri lake and Korzok village",
+            "caption": "Tso Moriri"
+          },
+          "body": [
+            "Tso Moriri, at around 4,500 metres in the Changthang plateau, is quieter and wilder than Pangong. Korzok village and its monastery sit on the shore, and the area is home to nomadic Changpa herders, kiang (Tibetan wild ass) and bar-headed geese. Tso Kar, a salt lake, lies on the way."
+          ],
+          "links": [
+            {
+              "label": "Tso Moriri travel guide",
+              "href": "/blog/tso-moriri-travel-guide"
+            }
+          ],
+          "facts": {
+            "Time needed": "2 days",
+            "Best time": "June to September"
+          }
+        }
+      ]
+    },
+    {
+      "id": "valleys",
+      "heading": "Valleys and passes",
+      "items": [
+        {
+          "name": "Cross Khardung La to Nubra",
+          "body": [
+            "Khardung La, one of the highest motorable passes in the world at around 5,300 metres, lies on the road from Leh to Nubra Valley. Stop briefly at the top for photos; staying long at that altitude is unwise. In Nubra, visit the Maitreya Buddha at Diskit Monastery, the sand dunes of Hunder with their double-humped Bactrian camels, and the Panamik hot springs."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Nubra Valley",
+              "href": "/blog/things-to-do-in-nubra-valley"
+            }
+          ],
+          "facts": {
+            "Time needed": "2 days from Leh"
+          }
+        },
+        {
+          "name": "Visit Turtuk",
+          "image": {
+            "src": "/images/blogs/ladakh/turtuk/turtuk-village-shyok-valley.webp",
+            "alt": "Turtuk village in the Shyok valley",
+            "caption": "Turtuk"
+          },
+          "body": [
+            "Turtuk, beyond Nubra near the Line of Control, is a Balti village that was part of Pakistan until 1971. It has apricot orchards, stone houses, a small royal museum and a very different culture from Buddhist Ladakh. It opened to tourists in 2010."
+          ],
+          "links": [
+            {
+              "label": "Turtuk travel guide",
+              "href": "/blog/turtuk-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Explore Zanskar",
+          "image": {
+            "src": "/images/blogs/ladakh/zanskar-valley/phugtal-monastery-cliff-zanskar.webp",
+            "alt": "Phugtal Monastery built into a cliff in Zanskar",
+            "caption": "Phugtal Monastery, Zanskar"
+          },
+          "body": [
+            "The Zanskar valley, reached from Kargil over Pensi La, is one of the most remote parts of Ladakh. Highlights include the Drang Drung glacier, Karsha monastery near Padum and the cliffside Phugtal monastery, reached by a trek. In winter, the frozen Zanskar river becomes the Chadar trek route."
+          ],
+          "links": [
+            {
+              "label": "Zanskar valley travel guide",
+              "href": "/blog/zanskar-valley-travel-guide"
+            }
+          ],
+          "facts": {
+            "Time needed": "4–6 days",
+            "Best time": "July to September"
+          }
+        },
+        {
+          "name": "Stargaze at Hanle",
+          "body": [
+            "Hanle, in south-east Ladakh, is home to the Indian Astronomical Observatory and is part of the Hanle Dark Sky Reserve, established in 2022. Village homestays offer telescope sessions under some of the darkest skies in India. Permits are required and the drive is long."
+          ],
+          "links": [
+            {
+              "label": "Hanle travel guide",
+              "href": "/blog/hanle-travel-guide"
+            }
+          ],
+          "facts": {
+            "Best time": "Moonless nights, June to October"
+          }
+        }
+      ]
+    },
+    {
+      "id": "monasteries",
+      "heading": "Monasteries and heritage",
+      "items": [
+        {
+          "name": "Visit Thiksey Monastery",
+          "image": {
+            "src": "/images/blogs/ladakh/thiksey/thiksey-monastery-hilltop-view.webp",
+            "alt": "Thiksey Monastery rising up a hill in the Indus valley",
+            "caption": "Thiksey Monastery"
+          },
+          "body": [
+            "Thiksey, about 19 km from Leh, climbs up a hill in tiers and resembles the Potala Palace in Lhasa. Its Maitreya temple has a two-storey seated Buddha. Morning prayers, with monks blowing horns from the roof, begin early; arrive around dawn to see them."
+          ],
+          "links": [
+            {
+              "label": "Thiksey travel guide",
+              "href": "/blog/thiksey-travel-guide"
+            }
+          ],
+          "facts": {
+            "Best time": "Early morning prayers"
+          }
+        },
+        {
+          "name": "See Hemis Monastery",
+          "body": [
+            "Hemis, about 45 km from Leh, is the largest and wealthiest monastery in Ladakh. It is famous for the Hemis festival in June or July, when monks perform masked cham dances in the courtyard, and it has a good museum. Hemis National Park nearby is snow leopard country."
+          ],
+          "links": [
+            {
+              "label": "Hemis travel guide",
+              "href": "/blog/hemis-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Visit Lamayuru and Alchi",
+          "image": {
+            "src": "/images/blogs/ladakh/lamayuru/lamayuru-monastery-moonland.webp",
+            "alt": "Lamayuru Monastery above eroded moonland terrain",
+            "caption": "Lamayuru"
+          },
+          "body": [
+            "West of Leh on the road to Kargil, Alchi has some of the oldest and finest Buddhist murals in the Himalaya, dating to around the 11th and 12th centuries. Lamayuru, further on, is set above eroded yellow badlands known as the moonland. Likir, Basgo and the Magnetic Hill lie on the same road."
+          ],
+          "links": [
+            {
+              "label": "Lamayuru travel guide",
+              "href": "/blog/lamayuru-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Explore Leh",
+          "body": [
+            "Leh has a nine-storey palace built in the 17th century, a maze of old town lanes, the Namgyal Tsemo gompa above it, and the white Shanti Stupa with sunset views. The main bazaar is full of cafés, bookshops and handicraft stores."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Leh",
+              "href": "/blog/things-to-do-in-leh"
+            }
+          ]
+        },
+        {
+          "name": "Pay respects at the Kargil War Memorial",
+          "body": [
+            "The Kargil War Memorial at Drass, on the Srinagar–Leh highway, honours the soldiers who died in the 1999 conflict. The site looks towards Tololing and Tiger Hill, and the army's narrative of the war is moving."
+          ],
+          "links": [
+            {
+              "label": "Drass travel guide",
+              "href": "/blog/drass-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adventure",
+      "heading": "Adventure",
+      "items": [
+        {
+          "name": "Raft the Zanskar and Indus",
+          "body": [
+            "White-water rafting on the Zanskar river from Chiling to Nimmu, where it meets the Indus, passes through a dramatic gorge. The Indus offers gentler stretches for beginners. Rafting runs in the summer months; the water is freezing, so operators provide wetsuits."
+          ],
+          "facts": {
+            "Best time": "July to August",
+            "Good for": "Adventure seekers"
+          }
+        },
+        {
+          "name": "Trek the Markha valley",
+          "body": [
+            "The Markha valley trek, through Hemis National Park, passes villages, monasteries and river crossings over about six days, with a high pass at Kongmaru La. Homestays along the route make it one of the best cultural treks in India."
+          ],
+          "facts": {
+            "Best time": "July to September",
+            "Good for": "Trekkers"
+          }
+        },
+        {
+          "name": "Look for snow leopards in winter",
+          "body": [
+            "From January to March, local guides in Rumbak (Hemis National Park) and Ulley run snow leopard tracking trips. Sightings are never guaranteed, but chances are among the best anywhere. Conditions are extreme."
+          ],
+          "facts": {
+            "Best time": "January to March",
+            "Good for": "Wildlife enthusiasts"
+          }
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "First-time visitors",
+      "text": "Fly into Leh, rest two days, then do Nubra and Pangong on a seven- to eight-day loop."
+    },
+    {
+      "who": "Bikers and road-trippers",
+      "text": "Ride in from Manali or Srinagar and out the other way, with time for Tso Moriri or Hanle."
+    },
+    {
+      "who": "Families",
+      "text": "Keep altitude in mind with children and older travellers. Stay in Leh with day trips, and choose one overnight trip to Nubra or Pangong."
+    }
+  ],
+  "oneDay": "After acclimatising, start with morning prayers at Thiksey, then visit Shey Palace and Hemis. Return to Leh for lunch, visit Leh Palace and the old town in the afternoon, and climb to Shanti Stupa for sunset.",
+  "tips": [
+    "Rest for at least 24 to 48 hours in Leh before going higher; learn the signs of acute mountain sickness.",
+    "Get Inner Line Permits online or in Leh for Nubra, Pangong, Tso Moriri, Hanle and other protected areas.",
+    "Carry cash, as ATMs are limited outside Leh, and note that only postpaid SIMs from other states work.",
+    "Respect local customs: walk clockwise around stupas and ask before photographing people."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Ladakh?",
+      "a": "Visit Pangong Tso and Tso Moriri, cross Khardung La to Nubra, see Thiksey, Hemis and Lamayuru monasteries, explore Leh, visit Turtuk and Zanskar, stargaze at Hanle and go rafting or trekking."
+    },
+    {
+      "q": "How many days do I need for Ladakh?",
+      "a": "Seven days for Leh, Nubra and Pangong with acclimatisation; ten to fourteen days to add Tso Moriri, Zanskar or a road trip in or out."
+    },
+    {
+      "q": "Do I need a permit for Ladakh?",
+      "a": "Leh town does not need a permit, but Indian nationals need an Inner Line Permit for Nubra, Pangong, Tso Moriri and other protected areas. Foreigners need a Protected Area Permit."
+    },
+    {
+      "q": "What is the best time to visit Ladakh?",
+      "a": "June to September for road trips and lakes. Winter (January to March) is for the Chadar trek and snow leopards, but very cold."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Leh",
+      "href": "/blog/things-to-do-in-leh",
+      "note": "the capital, its palace and cafés"
+    },
+    {
+      "name": "Things to do in Nubra Valley",
+      "href": "/blog/things-to-do-in-nubra-valley",
+      "note": "dunes, camels and Diskit"
+    },
+    {
+      "name": "Things to do in Spiti Valley",
+      "href": "/blog/things-to-do-in-spiti-valley",
+      "note": "another high desert in Himachal"
+    },
+    {
+      "name": "Things to do in Sonamarg",
+      "href": "/blog/things-to-do-in-sonamarg",
+      "note": "the Kashmir side of Zoji La"
+    }
+  ],
+  "styles": [
+    "adventure-tours",
+    "group-tours",
+    "family-holidays"
+  ],
+  "metaDescription": "Things to do in Ladakh: Pangong Tso and Tso Moriri, Nubra's dunes and Diskit, the monasteries of Thiksey, Hemis and Lamayuru, Khardung La and Chang La, Leh's palace and market and more."
+}

@@ -1,0 +1,258 @@
+{
+  "slug": "things-to-do-in-orchha",
+  "destination": "Orchha",
+  "guide": "orchha-travel-guide",
+  "type": "heritage town",
+  "title": "Things to Do in Orchha: Bundela Palaces, Riverside Chhatris & Ram Raja Temple",
+  "seoTitle": "Things to Do in Orchha: Palaces, Temples & River | Kudozz Club",
+  "description": "Things to do in Orchha: Raja Mahal and Jahangir Mahal, the Ram Raja Temple and its guard of honour, Chaturbhuj Temple, Laxminarayan Temple murals, the royal chhatris on the Betwa, the light and sound show, river rafting, cycling and the Orchha Wildlife Sanctuary.",
+  "dek": "A small riverside town in Bundelkhand where the Bundela kings left palaces, temples and cenotaphs almost untouched by time.",
+  "primaryKeyword": "things to do in Orchha",
+  "secondaryKeywords": [
+    "places to visit in Orchha",
+    "Jahangir Mahal",
+    "Ram Raja Temple",
+    "Orchha chhatris",
+    "Chaturbhuj Temple",
+    "Orchha from Jhansi"
+  ],
+  "searchIntent": "Travellers planning one or two days in Orchha, often with Gwalior and Khajuraho.",
+  "tags": [
+    "Orchha",
+    "Madhya Pradesh",
+    "Heritage",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/madhya-pradesh/orchha/the-chhatris-orchha.webp",
+    "alt": "Royal chhatris on the Betwa river, Orchha",
+    "caption": "Orchha chhatris"
+  },
+  "intro": [
+    "Orchha, on the Betwa river about 16 km from Jhansi, was founded in the 16th century as the capital of the Bundela Rajputs. Its kings built a fort complex of palaces on an island, soaring temples and a row of cenotaphs (chhatris) by the river. The town never grew into a city, so its monuments stand in a quiet, rural setting.",
+    "The things to do in Orchha include the Raja Mahal and Jahangir Mahal, the Ram Raja Temple where Rama is worshipped as a king, the towering Chaturbhuj Temple, the murals of the Laxminarayan Temple, sunset at the chhatris, and rafting or cycling in the countryside.",
+    "One or two days is ideal. October to March is the best time."
+  ],
+  "quickAnswer": [
+    "Explore Raja Mahal and its murals",
+    "See Jahangir Mahal",
+    "Visit the Ram Raja Temple",
+    "Climb Chaturbhuj Temple for views",
+    "See the murals of Laxminarayan Temple",
+    "Watch sunset at the chhatris",
+    "Watch the light and sound show",
+    "Raft or kayak on the Betwa",
+    "Cycle to villages",
+    "Walk in the Orchha Wildlife Sanctuary"
+  ],
+  "sections": [
+    {
+      "id": "fort",
+      "heading": "The fort complex",
+      "items": [
+        {
+          "name": "Explore Raja Mahal",
+          "body": [
+            "Raja Mahal, begun in the 16th century, has plain exteriors but inner rooms covered in murals of Vishnu's avatars, the Ramayana and court life. From its upper floors there are views over the town and temples.",
+            "The palace was built in stages by successive Bundela rulers, and its courtyards, audience halls and zenana quarters show how royal life was organised. Many ceilings still carry their original colours, and bats roost in the darker rooms."
+          ],
+          "image": {
+            "src": "/images/blogs/madhya-pradesh/orchha/raja-mahal-orchha.webp",
+            "alt": "Raja Mahal, Orchha",
+            "caption": "Raja Mahal"
+          },
+          "facts": {
+            "Time needed": "1 hour"
+          }
+        },
+        {
+          "name": "See Jahangir Mahal",
+          "body": [
+            "Jahangir Mahal, built by Bir Singh Deo to honour the Mughal emperor Jahangir's visit in the early 17th century, is a grand palace of domes, balconies and turquoise tiles around a central courtyard. Its entrance is guarded by stone elephants.",
+            "Climb to the upper terraces for views across the Betwa to the chhatris and temples, and look for the small hanging balconies and the patterned stone screens. The palace mixes Rajput and Mughal features in a way typical of Bundela architecture."
+          ],
+          "image": {
+            "src": "/images/blogs/madhya-pradesh/orchha/jahangir-mahal-orchha-2.webp",
+            "alt": "Jahangir Mahal, Orchha",
+            "caption": "Jahangir Mahal"
+          },
+          "facts": {
+            "Time needed": "1 hour"
+          }
+        },
+        {
+          "name": "See Rai Praveen Mahal",
+          "body": [
+            "Rai Praveen Mahal, a smaller palace in a garden, was built for Rai Praveen, a poet and musician at the Orchha court, whose story is told by local guides."
+          ]
+        },
+        {
+          "name": "Watch the light and sound show",
+          "body": [
+            "An evening light and sound show in the fort complex tells Orchha's history."
+          ],
+          "facts": {
+            "Best time": "Evening"
+          }
+        }
+      ]
+    },
+    {
+      "id": "temples",
+      "heading": "Temples",
+      "items": [
+        {
+          "name": "Visit the Ram Raja Temple",
+          "body": [
+            "The Ram Raja Temple is the only temple where Rama is worshipped as a king, and police give a guard of honour to the deity daily. According to legend, the idol was meant for the Chaturbhuj Temple but could not be moved from the palace where it was placed."
+          ],
+          "image": {
+            "src": "/images/blogs/madhya-pradesh/orchha/ram-raja-temple-orchha.webp",
+            "alt": "Ram Raja Temple, Orchha",
+            "caption": "Ram Raja Temple"
+          },
+          "facts": {
+            "Best time": "Morning and evening aarti"
+          }
+        },
+        {
+          "name": "Climb Chaturbhuj Temple",
+          "body": [
+            "Chaturbhuj Temple, on a high platform, has one of the tallest temple spires in India. Steep stairs lead up to the roof, with views over Orchha's palaces, temples and the Betwa.",
+            "The temple was built on a massive raised platform, and its inner hall has a soaring vaulted ceiling. It was designed to house the Ram Raja idol, which, according to legend, refused to move from the palace."
+          ],
+          "facts": {
+            "Good to know": "Steep, narrow stairs"
+          }
+        },
+        {
+          "name": "See Laxminarayan Temple",
+          "body": [
+            "The Laxminarayan Temple, on a hill west of town, is part fort, part temple, and has some of the finest murals in Orchha, including scenes of the 1857 uprising and the Rani of Jhansi."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "river",
+      "heading": "River and countryside",
+      "items": [
+        {
+          "name": "Watch sunset at the chhatris",
+          "body": [
+            "The chhatris, cenotaphs of the Bundela rulers, rise along the Betwa river. The best view is from the far bank at sunset, when the domes reflect in the water.",
+            "There are around 14 chhatris, raised on platforms with tiered spires, and vultures have long nested on their tops. A footpath and small bridge let you walk along the riverbank beside them."
+          ],
+          "facts": {
+            "Best time": "Sunset"
+          }
+        },
+        {
+          "name": "Raft or kayak on the Betwa",
+          "body": [
+            "In the cooler months, gentle rafting and kayaking trips run on the Betwa through rocky channels and islands."
+          ],
+          "facts": {
+            "Best time": "October to March"
+          }
+        },
+        {
+          "name": "Cycle to villages",
+          "body": [
+            "Cycling through fields and villages around Orchha is a good way to see rural Bundelkhand. Some homestays offer guided rides."
+          ]
+        },
+        {
+          "name": "Walk in the Orchha Wildlife Sanctuary",
+          "body": [
+            "The Orchha Wildlife Sanctuary, on an island between the Betwa and Jamni rivers, has walking trails with birds, deer and langurs."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seasons",
+      "heading": "By season",
+      "items": [
+        {
+          "name": "October to March",
+          "body": [
+            "Pleasant weather for palaces and the river; the Orchha festival is held in winter."
+          ]
+        },
+        {
+          "name": "April to June",
+          "body": [
+            "Hot days; explore early and late."
+          ]
+        },
+        {
+          "name": "July to September",
+          "body": [
+            "Monsoon rains and a full river."
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "History lovers",
+      "text": "The fort complex with a guide, Laxminarayan Temple murals and Chaturbhuj's view."
+    },
+    {
+      "who": "Couples",
+      "text": "Sunset at the chhatris and a heritage stay."
+    },
+    {
+      "who": "Families",
+      "text": "The light show, cycling and a gentle river trip."
+    }
+  ],
+  "oneDay": "Explore Raja Mahal and Jahangir Mahal in the morning, then the Ram Raja and Chaturbhuj temples. After lunch, visit Laxminarayan Temple, watch sunset at the chhatris and end with the light and sound show.",
+  "tips": [
+    "Jhansi, about 16 km away, has the nearest major railway station; Gwalior has the nearest airport.",
+    "Orchha is small; walk or cycle between monuments.",
+    "Dress modestly at the Ram Raja Temple.",
+    "Combine with Gwalior and Khajuraho."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Orchha?",
+      "a": "Explore Raja Mahal and Jahangir Mahal, visit the Ram Raja, Chaturbhuj and Laxminarayan temples, watch sunset at the chhatris, see the light show and raft on the Betwa."
+    },
+    {
+      "q": "How far is Orchha from Jhansi?",
+      "a": "About 16 km, around 30 minutes by road."
+    },
+    {
+      "q": "How many days are enough for Orchha?",
+      "a": "One to two days."
+    },
+    {
+      "q": "What is special about the Ram Raja Temple?",
+      "a": "Rama is worshipped here as a king and receives a daily guard of honour from the police."
+    },
+    {
+      "q": "Is there a light and sound show in Orchha?",
+      "a": "Yes. An evening show is held in the fort complex, in Hindi and English. Check timings locally."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Gwalior",
+      "href": "/blog/things-to-do-in-gwalior",
+      "note": "the fort city"
+    },
+    {
+      "name": "Things to do in Khajuraho",
+      "href": "/blog/things-to-do-in-khajuraho",
+      "note": "Chandela temples"
+    }
+  ],
+  "styles": [
+    "group-tours",
+    "weekend-getaways"
+  ],
+  "metaDescription": "Things to do in Orchha: Raja Mahal and Jahangir Mahal, the Ram Raja Temple and its guard of honour, Chaturbhuj Temple, Laxminarayan Temple murals and more."
+}

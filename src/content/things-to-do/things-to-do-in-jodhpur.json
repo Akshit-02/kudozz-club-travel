@@ -1,0 +1,320 @@
+{
+  "slug": "things-to-do-in-jodhpur",
+  "destination": "Jodhpur",
+  "guide": "jodhpur-travel-guide",
+  "type": "city",
+  "title": "Things to Do in Jodhpur: Mehrangarh, the Blue City & Marwar Experiences",
+  "seoTitle": "Things to Do in Jodhpur: Mehrangarh & Blue City | Kudozz Club",
+  "description": "Things to do in Jodhpur: explore Mehrangarh Fort, walk the blue lanes of Brahmpuri, see Jaswant Thada and Umaid Bhawan, eat mirchi bada at the Clock Tower and try a zipline over the fort walls.",
+  "dek": "A fort on a cliff, a sea of indigo houses below it, and a Clock Tower market where the evening starts with a mirchi bada and a glass of makhaniya lassi.",
+  "primaryKeyword": "things to do in Jodhpur",
+  "secondaryKeywords": [
+    "best things to do in Jodhpur",
+    "Jodhpur sightseeing",
+    "Blue City walk",
+    "Mehrangarh Fort",
+    "Jodhpur food",
+    "Jodhpur activities"
+  ],
+  "searchIntent": "Rajasthan-circuit travellers with one or two days in Jodhpur who want to prioritise the fort, the Blue City and the food.",
+  "tags": [
+    "Jodhpur",
+    "Rajasthan",
+    "Blue City",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/rajasthan/rajasthan/mehrangarh-fort-blue-city-jodhpur.webp",
+    "alt": "Mehrangarh Fort above the blue houses of Jodhpur, Rajasthan"
+  },
+  "intro": [
+    "Jodhpur is the second-largest city in Rajasthan and the historic capital of Marwar, founded by Rao Jodha in 1459. It sits on the edge of the Thar Desert, and its skyline is dominated by Mehrangarh Fort, which rises around 120 metres above the plain on a sheer rock outcrop.",
+    "Below the fort, the old city's houses are washed in shades of blue, which gives Jodhpur its nickname. Most of the best things to do here are within a few kilometres of each other: the fort and its museum, the royal cenotaphs at Jaswant Thada, the Clock Tower market, and the lanes of the blue old town.",
+    "Two days is a comfortable amount of time, including a half-day trip to the temples and dunes of Osian."
+  ],
+  "quickAnswer": [
+    "Explore Mehrangarh Fort and its museum galleries",
+    "Walk through the blue lanes of Brahmpuri below the fort",
+    "See the white marble cenotaph of Jaswant Thada",
+    "Visit the museum wing of Umaid Bhawan Palace",
+    "Browse Sardar Market around the Clock Tower",
+    "Try mirchi bada, pyaaz kachori and makhaniya lassi",
+    "Fly the zipline circuit over Mehrangarh's walls",
+    "Take a day trip to the temples and dunes of Osian"
+  ],
+  "sections": [
+    {
+      "id": "must-see",
+      "heading": "Must-see experiences in Jodhpur",
+      "items": [
+        {
+          "name": "Explore Mehrangarh Fort",
+          "image": {
+            "src": "/images/blogs/rajasthan/jodhpur/mehrangarh-fort-jodhpur.webp",
+            "alt": "Walls and palaces of Mehrangarh Fort, Jodhpur",
+            "caption": "Mehrangarh Fort"
+          },
+          "body": [
+            "Mehrangarh is one of the largest and best-preserved forts in India, and it is run as a museum by a trust set up by the former royal family. The entrance climbs through a series of seven gates, some still marked by cannonball impacts and the handprints of royal widows. Inside are palaces with carved sandstone screens, the gilded Phool Mahal, Sheesh Mahal and galleries of palanquins, howdahs, weapons and miniature paintings.",
+            "The audio guide is excellent and worth taking. From the ramparts you get the classic view of the blue city spreading out below. There is a lift for part of the climb for visitors who need it."
+          ],
+          "facts": {
+            "Where": "On the hill above the old city",
+            "Time needed": "3 hours",
+            "Best time": "Morning",
+            "Good for": "Everyone"
+          }
+        },
+        {
+          "name": "Walk the Blue City",
+          "body": [
+            "The blue-washed houses are concentrated in Brahmpuri and the lanes between the fort and the Clock Tower. The blue was traditionally associated with Brahmin households, and is also said to keep houses cooler and deter insects. The best way to see it is on foot, walking down from the fort through the narrow lanes, or with a local guide who can show you stepwells, small temples and viewpoints.",
+            "The lanes are residential, so be respectful when taking photographs of homes and people."
+          ],
+          "facts": {
+            "Time needed": "1.5–2 hours",
+            "Best time": "Early morning or late afternoon",
+            "Good for": "Photographers, walkers"
+          }
+        },
+        {
+          "name": "See Jaswant Thada",
+          "image": {
+            "src": "/images/blogs/rajasthan/jodhpur/jaswant-thada-jodhpur.webp",
+            "alt": "White marble cenotaph of Jaswant Thada, Jodhpur",
+            "caption": "Jaswant Thada"
+          },
+          "body": [
+            "A short drive from Mehrangarh, Jaswant Thada is a cenotaph built in 1899 for Maharaja Jaswant Singh II, carved from marble so thin that parts of it glow in the sun. It stands among small gardens and a lake, and is a quiet counterpoint to the fort. Musicians often play inside."
+          ],
+          "facts": {
+            "Time needed": "45 minutes",
+            "Good for": "Everyone; a calm stop after the fort"
+          }
+        },
+        {
+          "name": "Visit Umaid Bhawan Palace",
+          "image": {
+            "src": "/images/blogs/rajasthan/jodhpur/umaid-bhawan-palace-jodhpur.webp",
+            "alt": "Umaid Bhawan Palace on Chittar Hill, Jodhpur",
+            "caption": "Umaid Bhawan Palace"
+          },
+          "body": [
+            "Completed in 1943, Umaid Bhawan is one of the largest private residences in the world. It is divided between the royal family's home, a luxury hotel and a museum. The museum wing covers the palace's Art Deco design and the family's history, with a collection of clocks and vintage cars outside."
+          ],
+          "facts": {
+            "Where": "Chittar Hill, south-east of the centre",
+            "Time needed": "1 hour",
+            "Good to know": "Only the museum is open to non-hotel guests"
+          }
+        }
+      ]
+    },
+    {
+      "id": "markets-food",
+      "heading": "Markets and food",
+      "items": [
+        {
+          "name": "Browse Sardar Market and the Clock Tower",
+          "image": {
+            "src": "/images/blogs/rajasthan/jodhpur/clock-tower-and-sardar-market-jodhpur.webp",
+            "alt": "Clock Tower and Sardar Market in Jodhpur's old city",
+            "caption": "Ghanta Ghar and Sardar Market"
+          },
+          "body": [
+            "Sardar Market, built around the Ghanta Ghar (Clock Tower), is the busiest part of the old city. Spices, textiles, bandhani fabric, silver, lac bangles and leather juttis are the main things to buy. It is loud, crowded and enjoyable, especially in the late afternoon. Bargaining is expected."
+          ],
+          "facts": {
+            "Time needed": "1.5–2 hours",
+            "Best time": "Late afternoon",
+            "Good for": "Shoppers, photographers"
+          }
+        },
+        {
+          "name": "Eat Jodhpur's street food",
+          "body": [
+            "Jodhpur's signature snack is the mirchi bada, a large green chilli stuffed with spiced potato and deep-fried in gram-flour batter. Around the Clock Tower you will also find pyaaz kachori and makhaniya lassi, thick saffron-coloured lassi topped with cream. For a full meal, try a Marwari thali or ker sangri, a dish of desert beans and berries."
+          ],
+          "facts": {
+            "Best time": "Breakfast or evening",
+            "Good for": "Food lovers"
+          }
+        },
+        {
+          "name": "Shop for antiques and textiles",
+          "body": [
+            "Jodhpur is known for its furniture and antique warehouses on the city's outskirts, and for bandhani (tie-dye) textiles and leather juttis in the old city. Large items can be shipped, but compare prices and check what exactly you are buying before paying."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adventure-offbeat",
+      "heading": "Adventure and offbeat experiences",
+      "items": [
+        {
+          "name": "Fly the zipline over Mehrangarh",
+          "body": [
+            "A zipline circuit has operated over the fort's walls and lakes for years, with several lines that give you a view of Mehrangarh few visitors see. Check that it is running when you visit, and note the age and weight limits."
+          ],
+          "facts": {
+            "Time needed": "About 1.5 hours",
+            "Good for": "Adventure seekers, older children"
+          }
+        },
+        {
+          "name": "Walk the Rao Jodha Desert Rock Park",
+          "body": [
+            "Next to Mehrangarh, this park has restored the rocky land around the fort with native desert plants. Walking trails cross volcanic rock and small canyons, with views up to the fort walls. Mornings and late afternoons are best; it gets very hot at midday."
+          ],
+          "facts": {
+            "Time needed": "1–2 hours",
+            "Good for": "Nature lovers, walkers"
+          }
+        },
+        {
+          "name": "Discover the stepwells",
+          "body": [
+            "Toorji ka Jhalra, a restored 18th-century stepwell near the Clock Tower, has become a popular gathering spot with cafés around it. It is a good example of the water architecture that desert cities depended on."
+          ],
+          "facts": {
+            "Time needed": "30 minutes"
+          }
+        },
+        {
+          "name": "Take a village safari",
+          "body": [
+            "Several operators run half-day trips to Bishnoi villages south of Jodhpur. The Bishnoi community is known for protecting trees and wildlife, and you often see blackbuck and chinkara near the villages. Visits usually include potters and weavers' homes."
+          ],
+          "facts": {
+            "Time needed": "Half a day",
+            "Good for": "Culture and wildlife interest"
+          }
+        },
+        {
+          "name": "Watch sunset at Kaylana Lake",
+          "body": [
+            "Kaylana is an artificial lake about 8 km west of the city, built in the late 19th century. Low rocky hills surround it, and it is a quiet place to watch the sun set and see migratory birds in winter. Boating is sometimes available."
+          ],
+          "facts": {
+            "Time needed": "1–2 hours",
+            "Best time": "Sunset",
+            "Good for": "Couples, families"
+          }
+        },
+        {
+          "name": "Visit Chamunda Mata Temple inside Mehrangarh",
+          "body": [
+            "At the southern end of Mehrangarh stands the Chamunda Mata Temple, dedicated to the fort's guardian goddess, whose idol Rao Jodha brought from Mandore. It is especially busy during Navratri."
+          ],
+          "facts": {
+            "Time needed": "20 minutes, combined with the fort"
+          }
+        },
+        {
+          "name": "See Mehrangarh lit up at night",
+          "body": [
+            "After dark the fort is floodlit, and the rooftop restaurants of the old city and the area around Toorji ka Jhalra give a clear view of it. It is one of the most memorable sights in Rajasthan and a good way to end a day in Jodhpur."
+          ],
+          "facts": {
+            "Best time": "After sunset",
+            "Good for": "Couples, photographers"
+          }
+        }
+      ]
+    },
+    {
+      "id": "day-trips",
+      "heading": "Day trips from Jodhpur",
+      "items": [
+        {
+          "name": "Osian",
+          "image": {
+            "src": "/images/blogs/rajasthan/osian/osian-view.webp",
+            "alt": "Temples of Osian near Jodhpur, Rajasthan",
+            "caption": "Osian"
+          },
+          "body": [
+            "About an hour's drive away, Osian has a cluster of 8th to 12th-century Hindu and Jain temples, including the Sachiya Mata Temple, and small sand dunes where camel rides and desert camps operate. It works as a half-day or full-day trip."
+          ],
+          "links": [
+            {
+              "label": "Osian travel guide",
+              "href": "/blog/osian-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Mandore Gardens",
+          "body": [
+            "Mandore, the older capital of Marwar before Jodhpur, is a short drive north. Its gardens hold the cenotaphs of earlier rulers, built in temple-like red sandstone rather than the usual domed style."
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Families",
+      "text": "Mehrangarh's galleries, the zipline for older children, Umaid Bhawan's vintage cars and the Rock Park are all good with kids."
+    },
+    {
+      "who": "Photographers",
+      "text": "Shoot the Blue City from the fort ramparts in the morning, walk Brahmpuri in soft afternoon light, and photograph Mehrangarh lit up from a rooftop after dark."
+    },
+    {
+      "who": "Rajasthan circuit travellers",
+      "text": "Jodhpur sits between Jaipur and Jaisalmer, and is the usual gateway to the Thar Desert. Two nights here is the norm."
+    }
+  ],
+  "oneDay": "Spend the morning at Mehrangarh Fort with the audio guide, then walk down through the blue lanes of Brahmpuri. After lunch, see Jaswant Thada and the Umaid Bhawan museum. End the day around the Clock Tower and Sardar Market with mirchi bada and lassi, and have dinner on a rooftop with a view of the fort lit up.",
+  "faqs": [
+    {
+      "q": "What are the best things to do in Jodhpur?",
+      "a": "Explore Mehrangarh Fort, walk the blue lanes of the old city, see Jaswant Thada, visit the Umaid Bhawan museum, browse Sardar Market at the Clock Tower and try Jodhpur's street food. Osian makes a good half-day trip."
+    },
+    {
+      "q": "How many days are enough for Jodhpur?",
+      "a": "Two days is comfortable: one for Mehrangarh, Jaswant Thada and the old city, and one for Umaid Bhawan, the markets and a trip to Osian."
+    },
+    {
+      "q": "Why is Jodhpur called the Blue City?",
+      "a": "Many houses in the old town are painted blue, a tradition linked to Brahmin households and said to help keep homes cool and repel insects. The best view is from Mehrangarh's ramparts."
+    },
+    {
+      "q": "What is Jodhpur famous for?",
+      "a": "Mehrangarh Fort, the blue old city, Umaid Bhawan Palace, Marwari food such as mirchi bada and makhaniya lassi, bandhani textiles and its position as the gateway to the Thar Desert."
+    },
+    {
+      "q": "What is the best time to visit Jodhpur?",
+      "a": "October to March, when days are cool and dry. April to June is extremely hot."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Jaisalmer",
+      "href": "/blog/things-to-do-in-jaisalmer",
+      "note": "the golden fort and Thar dunes, about 280 km west"
+    },
+    {
+      "name": "Osian",
+      "href": "/blog/osian-travel-guide",
+      "note": "ancient temples and small dunes, an hour away"
+    },
+    {
+      "name": "Things to do in Udaipur",
+      "href": "/blog/things-to-do-in-udaipur",
+      "note": "the City of Lakes, via the Ranakpur temple"
+    },
+    {
+      "name": "Things to do in Bikaner",
+      "href": "/blog/things-to-do-in-bikaner",
+      "note": "Junagarh Fort and the Karni Mata temple to the north"
+    }
+  ],
+  "styles": [
+    "family-holidays",
+    "luxury-holidays"
+  ],
+  "metaDescription": "Things to do in Jodhpur: explore Mehrangarh Fort, walk the blue lanes of Brahmpuri, see Jaswant Thada and Umaid Bhawan and more."
+}

@@ -1,0 +1,344 @@
+{
+  "slug": "things-to-do-in-coorg",
+  "destination": "Coorg",
+  "guide": "coorg-travel-guide",
+  "type": "hill district",
+  "title": "Things to Do in Coorg: Coffee Estates, Waterfalls, Peaks & Kodava Culture",
+  "seoTitle": "Things to Do in Coorg: Coffee, Falls & Treks | Kudozz Club",
+  "description": "Things to do in Coorg: coffee plantation stays and tours, Raja's Seat, Madikeri Fort and Omkareshwara Temple, Abbey and Iruppu falls, Mandalpatti, Talakaveri and Bhagamandala, the Tadiandamol trek, Dubare, Nagarhole safaris, Bylakuppe's Golden Temple and Kodava food.",
+  "dek": "Karnataka's misty coffee country in the Western Ghats, where estate bungalows, forested peaks and the source of the Kaveri meet a proud, distinctive Kodava culture.",
+  "primaryKeyword": "things to do in Coorg",
+  "secondaryKeywords": [
+    "places to visit in Coorg",
+    "Coorg coffee estate",
+    "Madikeri",
+    "Abbey Falls",
+    "Mandalpatti",
+    "Tadiandamol trek",
+    "Coorg for couples"
+  ],
+  "searchIntent": "Couples, families and weekenders from Bengaluru planning three to four days in Coorg, mixing coffee country, waterfalls and treks.",
+  "tags": [
+    "Coorg",
+    "Karnataka",
+    "Hill Station",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/destinations/coorg/rajas-seat-viewpoint-madikeri.webp",
+    "alt": "View over the hills from Raja's Seat, Madikeri",
+    "caption": "Raja's Seat, Madikeri"
+  },
+  "intro": [
+    "Coorg, officially Kodagu, is a hilly district in the Western Ghats of southern Karnataka, about five to six hours from Bengaluru. It is India's largest coffee-growing region, and its slopes are covered with coffee shaded by tall trees, along with pepper, cardamom and oranges. Madikeri, at around 1,150 metres, is the main town.",
+    "The Kodava people, Coorg's best-known community, have their own language, martial traditions, dress and cuisine; many of India's army officers and sportspeople have come from here. The things to do in Coorg include estate stays and coffee tours, viewpoints and waterfalls, treks to its highest peaks, the source of the Kaveri at Talakaveri, wildlife at Nagarhole and a Tibetan settlement at Bylakuppe.",
+    "Three to four days is ideal. October to March is the best time; the monsoon (June to September) is very wet but lush."
+  ],
+  "quickAnswer": [
+    "Stay on a coffee estate and take a plantation walk",
+    "Watch sunset from Raja's Seat in Madikeri",
+    "See Madikeri Fort and Omkareshwara Temple",
+    "Visit Abbey Falls",
+    "Take a jeep up to Mandalpatti",
+    "See the source of the Kaveri at Talakaveri",
+    "Trek Tadiandamol, Coorg's highest peak",
+    "Go on a safari in Nagarhole",
+    "Visit Dubare on the Kaveri",
+    "See the Golden Temple at Bylakuppe"
+  ],
+  "sections": [
+    {
+      "id": "coffee-madikeri",
+      "heading": "Coffee and Madikeri",
+      "items": [
+        {
+          "name": "Stay on a coffee estate",
+          "body": [
+            "The best way to experience Coorg is to stay on a coffee estate, in a homestay or heritage bungalow. Plantation walks explain how arabica and robusta are grown, picked, dried and roasted, and many estates grow pepper, cardamom and oranges as well. The harvest runs from about November to February; the white coffee blossom, with its jasmine-like scent, appears around March and April after the first showers."
+          ],
+          "facts": {
+            "Best time": "November to February for harvest; March to April for blossom",
+            "Good for": "Couples, families"
+          }
+        },
+        {
+          "name": "Watch sunset from Raja's Seat",
+          "body": [
+            "Raja's Seat, a garden on a cliff edge in Madikeri, is where the Kodagu kings are said to have watched the sunset over the valleys. It has a musical fountain in the evening and a toy train for children."
+          ],
+          "facts": {
+            "Best time": "Sunset",
+            "Good for": "Everyone"
+          }
+        },
+        {
+          "name": "See Madikeri Fort and Omkareshwara Temple",
+          "image": {
+            "src": "/images/destinations/coorg/madikeri-fort-elephant-statues.webp",
+            "alt": "Elephant statues at Madikeri Fort",
+            "caption": "Madikeri Fort"
+          },
+          "body": [
+            "Madikeri Fort, first built in the 17th century and rebuilt by Tipu Sultan, has a palace, a colonial church converted into a museum and two life-sized stone elephants. Omkareshwara Temple, built in 1820, blends Islamic and Gothic styles with a tank in front."
+          ],
+          "facts": {
+            "Time needed": "1.5 hours"
+          }
+        },
+        {
+          "name": "Visit Abbey Falls",
+          "image": {
+            "src": "/images/blogs/karnataka/coorg/abbey-falls-coorg.webp",
+            "alt": "Abbey Falls in Coorg surrounded by forest",
+            "caption": "Abbey Falls"
+          },
+          "body": [
+            "Abbey Falls, about 8 km from Madikeri, is reached by a short walk through a coffee and spice estate. It is at its most powerful in and just after the monsoon."
+          ],
+          "facts": {
+            "Time needed": "1 hour",
+            "Best time": "July to October"
+          }
+        }
+      ]
+    },
+    {
+      "id": "peaks-rivers",
+      "heading": "Peaks, rivers and waterfalls",
+      "items": [
+        {
+          "name": "Take a jeep up to Mandalpatti",
+          "body": [
+            "Mandalpatti, a grassy viewpoint at about 1,600 metres, is reached by jeep on a rough track from Madikeri. It sits above the clouds on many mornings and gives views across the Pushpagiri forests."
+          ],
+          "facts": {
+            "Best time": "Early morning",
+            "Good for": "Couples, photographers"
+          }
+        },
+        {
+          "name": "See Talakaveri and Bhagamandala",
+          "image": {
+            "src": "/images/destinations/coorg/talakaveri-temple-kaveri-source.webp",
+            "alt": "Talakaveri temple at the source of the Kaveri",
+            "caption": "Talakaveri"
+          },
+          "body": [
+            "Talakaveri, on the Brahmagiri hills, is considered the source of the Kaveri river, with a small tank and temple. Steps lead up to a viewpoint. Below it, Bhagamandala has the Triveni Sangam, where three rivers meet, and a temple in Kerala style. Kaveri Sankramana in October draws thousands of pilgrims."
+          ],
+          "facts": {
+            "Time needed": "Half a day"
+          }
+        },
+        {
+          "name": "Trek Tadiandamol",
+          "body": [
+            "Tadiandamol, at about 1,750 metres, is the highest peak in Coorg. A trek of around 7 km each way from near Nalknad Palace climbs through shola forest and grassland to a rocky summit. Forest department rules on timings and permits apply."
+          ],
+          "facts": {
+            "Time needed": "5–7 hours",
+            "Best time": "October to February",
+            "Good for": "Trekkers"
+          }
+        },
+        {
+          "name": "See Iruppu Falls",
+          "image": {
+            "src": "/images/destinations/coorg/iruppu-falls-waterfall.webp",
+            "alt": "Iruppu Falls in south Coorg",
+            "caption": "Iruppu Falls"
+          },
+          "body": [
+            "Iruppu Falls, in south Coorg on the edge of the Brahmagiri sanctuary, falls in several streams. A Rama temple at the base draws pilgrims during Shivaratri."
+          ]
+        },
+        {
+          "name": "Raft on the Barapole or at Dubare",
+          "body": [
+            "White-water rafting on the Barapole river in south Coorg runs during the monsoon, with strong rapids. Gentler rafting on the Kaveri at Dubare runs in other months. Use licensed operators."
+          ],
+          "facts": {
+            "Best time": "June to September for Barapole"
+          }
+        },
+        {
+          "name": "See Chelavara Falls and Nalknad Palace",
+          "body": [
+            "Chelavara Falls, near Virajpet, drops over rocks into a pool in a quiet forest setting. Nalknad Palace, a modest 18th-century royal hideout of the Kodagu kings with painted interiors, is near the start of the Tadiandamol trek."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wildlife-culture",
+      "heading": "Wildlife and culture",
+      "items": [
+        {
+          "name": "Go on a safari in Nagarhole",
+          "image": {
+            "src": "/images/destinations/coorg/nagarhole-kabini-reservoir.webp",
+            "alt": "Kabini reservoir at the edge of Nagarhole",
+            "caption": "Kabini, Nagarhole"
+          },
+          "body": [
+            "Nagarhole National Park (Rajiv Gandhi National Park), on Coorg's southern edge, is part of one of India's best tiger and elephant landscapes. Safaris run from the Nanachi gate and from Kabini, where boat safaris on the reservoir are also possible."
+          ],
+          "links": [
+            {
+              "label": "Kabini guide",
+              "href": "/blog/kabini-travel-guide"
+            }
+          ],
+          "facts": {
+            "Best time": "October to May"
+          }
+        },
+        {
+          "name": "Visit Dubare",
+          "image": {
+            "src": "/images/destinations/coorg/dubare-elephant-camp-kaveri-river.webp",
+            "alt": "Dubare on the Kaveri river",
+            "caption": "Dubare"
+          },
+          "body": [
+            "Dubare, on the Kaveri, is a forest department elephant camp where visitors can watch trained elephants being bathed and fed in the morning. Coracle rides and a riverside walk are also possible. Rules on interacting with elephants have tightened for animal welfare; follow the staff's guidance."
+          ],
+          "facts": {
+            "Best time": "Morning"
+          }
+        },
+        {
+          "name": "See the Golden Temple at Bylakuppe",
+          "body": [
+            "Bylakuppe, one of the largest Tibetan settlements in India, is home to the Namdroling Monastery, known as the Golden Temple. Its main hall has three large gilded statues, and the settlement has Tibetan eateries and shops."
+          ],
+          "facts": {
+            "Time needed": "2 hours"
+          }
+        },
+        {
+          "name": "Eat Kodava food",
+          "body": [
+            "Pandi curry (pork with a dark kachampuli vinegar), kadambuttu (rice balls), akki roti, noolputtu and bamboo shoot curry are Kodava staples. Many homestays cook them for guests. Buy coffee, honey, pepper and homemade wine to take home."
+          ],
+          "facts": {
+            "Good for": "Food lovers"
+          }
+        },
+        {
+          "name": "Catch a Kodava festival",
+          "body": [
+            "Puttari, the harvest festival in November or December, and Kailpodh, a festival of arms in September, are important Kodava celebrations, with traditional dress, dances and feasts."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seasons",
+      "heading": "Coorg by season",
+      "items": [
+        {
+          "name": "Winter (October to February)",
+          "body": [
+            "Post-monsoon Coorg is green, misty in the mornings and cool, with the coffee harvest underway from November. This is the best time for treks, viewpoints and estate stays."
+          ],
+          "facts": {
+            "Best time": "October to February"
+          }
+        },
+        {
+          "name": "Spring (March to May)",
+          "body": [
+            "The first showers bring the coffee blossom, when estates turn white and fragrant for a few days. Days are warmer but still pleasant in the hills."
+          ]
+        },
+        {
+          "name": "Monsoon (June to September)",
+          "body": [
+            "Coorg receives very heavy rain. Waterfalls are at their fullest and the landscape is intensely green, but landslides, leeches and closed trails are common. Barapole rafting runs in this season."
+          ],
+          "facts": {
+            "Good to know": "Check road conditions"
+          }
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Couples",
+      "text": "An estate bungalow, Mandalpatti at sunrise, Raja's Seat at sunset and slow coffee mornings."
+    },
+    {
+      "who": "Families",
+      "text": "Abbey Falls, Raja's Seat, Dubare, the Golden Temple and a plantation walk."
+    },
+    {
+      "who": "Adventure seekers",
+      "text": "Tadiandamol trek, Barapole rafting in the monsoon and a Nagarhole safari."
+    },
+    {
+      "who": "Weekenders from Bengaluru",
+      "text": "Leave early on Friday, stay two nights on an estate near Madikeri, and cover Abbey Falls, Raja's Seat and Mandalpatti before heading back via the Golden Temple at Bylakuppe."
+    }
+  ],
+  "oneDay": "Take a jeep to Mandalpatti at sunrise, then visit Abbey Falls. After lunch in Madikeri, see the fort and Omkareshwara Temple, and end at Raja's Seat for sunset.",
+  "tips": [
+    "Mysuru, about three hours away, has the nearest railway station; Bengaluru and Mangaluru have the nearest major airports.",
+    "Roads are narrow and winding; allow extra time, especially in the monsoon.",
+    "Leeches are common in the wet season; wear leech socks on treks.",
+    "Book homestays early for long weekends and Christmas.",
+    "Many estates welcome visitors only on guided tours; book a plantation walk through your homestay.",
+    "Mobile networks can be patchy on remote estates; download offline maps."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Coorg?",
+      "a": "Stay on a coffee estate, see Raja's Seat, Madikeri Fort, Abbey Falls and Mandalpatti, visit Talakaveri, trek Tadiandamol, go on a Nagarhole safari, visit Dubare and see the Golden Temple at Bylakuppe."
+    },
+    {
+      "q": "How many days are enough for Coorg?",
+      "a": "Three to four days."
+    },
+    {
+      "q": "What is the best time to visit Coorg?",
+      "a": "October to March. The monsoon is very wet but lush."
+    },
+    {
+      "q": "Is Coorg good for couples?",
+      "a": "Yes. Estate stays, misty viewpoints and quiet walks make it one of South India's favourite honeymoon destinations."
+    },
+    {
+      "q": "What should I buy in Coorg?",
+      "a": "Estate coffee, pepper, cardamom, honey, homemade wines and Coorg oranges in season. Buy from estates or cooperative shops for good quality."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Mysuru",
+      "href": "/blog/things-to-do-in-mysore",
+      "note": "palaces, about three hours away"
+    },
+    {
+      "name": "Things to do in Chikmagalur",
+      "href": "/blog/things-to-do-in-chikmagalur",
+      "note": "coffee country and peaks to the north"
+    },
+    {
+      "name": "Things to do in Wayanad",
+      "href": "/blog/things-to-do-in-wayanad",
+      "note": "Kerala's hill district next door"
+    },
+    {
+      "name": "Kabini",
+      "href": "/blog/kabini-travel-guide",
+      "note": "wildlife on the reservoir"
+    }
+  ],
+  "styles": [
+    "honeymoon",
+    "family-holidays",
+    "weekend-getaways"
+  ],
+  "metaDescription": "Things to do in Coorg: coffee plantation stays and tours, Raja's Seat, Madikeri Fort and Omkareshwara Temple, Abbey and Iruppu falls, Mandalpatti, Talakaveri and Bhagamandala and more."
+}

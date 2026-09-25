@@ -1,0 +1,262 @@
+{
+  "slug": "things-to-do-in-tawang",
+  "destination": "Tawang",
+  "guide": "tawang-travel-guide",
+  "type": "mountain town",
+  "title": "Things to Do in Tawang: Monasteries, High Lakes, Passes & War Memorials",
+  "seoTitle": "Things to Do in Tawang: Monastery, Lakes & Bum La | Kudozz Club",
+  "description": "Things to do in Tawang: Tawang Monastery, Urgelling, the Tawang War Memorial, Sela Pass and lake, Jaswant Garh, Nuranang Falls, Bum La Pass and Madhuri (Sangetsar) Lake, PT Tso, Gorsam Chorten, the craft centre, and Torgya and Losar festivals.",
+  "dek": "A high valley in western Arunachal Pradesh, crowned by one of the largest Buddhist monasteries in India and reached over the 4,000-metre Sela Pass.",
+  "primaryKeyword": "things to do in Tawang",
+  "secondaryKeywords": [
+    "Tawang Monastery",
+    "Sela Pass",
+    "Bum La Pass",
+    "Madhuri Lake",
+    "Nuranang Falls",
+    "Tawang permit",
+    "Tawang in winter"
+  ],
+  "searchIntent": "Travellers planning a five- to seven-day Tawang road trip from Guwahati, including Dirang, Sela Pass and Bum La.",
+  "tags": [
+    "Tawang",
+    "Arunachal Pradesh",
+    "Monasteries",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/arunachal-pradesh/tawang/tawang-monastery.webp",
+    "alt": "Tawang Monastery on its ridge",
+    "caption": "Tawang Monastery"
+  },
+  "intro": [
+    "Tawang, at about 3,000 metres in the far west of Arunachal Pradesh, borders Bhutan and Tibet. It is the homeland of the Monpa people, who follow Tibetan Buddhism, and its great monastery, founded in the 17th century, dominates the valley. The sixth Dalai Lama was born nearby, and the region saw heavy fighting in the 1962 war with China.",
+    "Things to do in Tawang include the monastery and nearby nunneries, war memorials, high-altitude lakes, the drive over Sela Pass and, with special permission, a visit to Bum La Pass on the border. The journey from Guwahati via Bhalukpong, Bomdila and Dirang is long but spectacular.",
+    "Allow three to four days in Tawang and two days each way for the road. An Inner Line Permit is required for Indian nationals and a Protected Area Permit for foreigners."
+  ],
+  "quickAnswer": [
+    "Visit Tawang Monastery",
+    "See Urgelling, the birthplace of the sixth Dalai Lama",
+    "Visit the Tawang War Memorial",
+    "Cross Sela Pass and see Sela Lake",
+    "Pay respects at Jaswant Garh",
+    "See Nuranang (Jang) Falls",
+    "Visit Bum La Pass and Madhuri Lake (with permits)",
+    "See PT Tso and other high lakes",
+    "Visit Gorsam Chorten at Zemithang",
+    "Catch Torgya or Losar"
+  ],
+  "sections": [
+    {
+      "id": "town",
+      "heading": "In and around Tawang",
+      "items": [
+        {
+          "name": "Visit Tawang Monastery",
+          "body": [
+            "Tawang Monastery (Galden Namgey Lhatse), founded around 1680–81 under the fifth Dalai Lama, is the largest monastery in India. Its three-storey assembly hall holds a tall gilded Buddha, and its library keeps old scriptures. Monks' quarters, a museum and a courtyard used for festival dances surround it. Morning prayers are a special time to visit."
+          ],
+          "facts": {
+            "Time needed": "2 hours",
+            "Best time": "Morning prayers",
+            "Good for": "Everyone"
+          }
+        },
+        {
+          "name": "See Urgelling Monastery",
+          "body": [
+            "Urgelling, a small monastery a few kilometres from town, marks the birthplace of Tsangyang Gyatso, the sixth Dalai Lama, in 1683. It is peaceful and important to devotees."
+          ],
+          "facts": {
+            "Time needed": "45 minutes"
+          }
+        },
+        {
+          "name": "Visit the Tawang War Memorial",
+          "image": {
+            "src": "/images/blogs/arunachal-pradesh/tawang/tawang-war-memorial.webp",
+            "alt": "Tawang War Memorial stupa",
+            "caption": "Tawang War Memorial"
+          },
+          "body": [
+            "The Tawang War Memorial, a stupa-shaped memorial, honours Indian soldiers who died in the 1962 war. A small museum and an evening light and sound show tell the story."
+          ],
+          "facts": {
+            "Time needed": "1 hour",
+            "Best time": "Evening for the show"
+          }
+        },
+        {
+          "name": "See the craft centre and nunneries",
+          "body": [
+            "The Tawang craft centre sells carpets, wooden masks and Monpa handicrafts. Ani Gompa nunneries such as Gyangong and Brama Dung Chung are on hillsides with views over the valley."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lakes-passes",
+      "heading": "Passes and lakes",
+      "items": [
+        {
+          "name": "Cross Sela Pass",
+          "image": {
+            "src": "/images/blogs/arunachal-pradesh/sela-pass/sela-pass-view.webp",
+            "alt": "Sela Pass and lake in snow",
+            "caption": "Sela Pass"
+          },
+          "body": [
+            "Sela Pass, at about 4,170 metres, is the gateway to Tawang. A lake near the top, sacred to Buddhists, freezes in winter. The Sela tunnel, opened in 2024, now offers an all-weather route below the pass, but many travellers still drive over the top for the views in good weather."
+          ],
+          "links": [
+            {
+              "label": "Sela Pass guide",
+              "href": "/blog/sela-pass-travel-guide"
+            }
+          ],
+          "facts": {
+            "Good to know": "Snow and ice in winter; very cold"
+          }
+        },
+        {
+          "name": "Pay respects at Jaswant Garh",
+          "body": [
+            "Jaswant Garh, below Sela, is a memorial to Rifleman Jaswant Singh Rawat, who held off Chinese forces for days in 1962. The army maintains the site and serves tea to visitors."
+          ]
+        },
+        {
+          "name": "See Nuranang Falls",
+          "image": {
+            "src": "/images/blogs/arunachal-pradesh/tawang/nuranang-falls-tawang.webp",
+            "alt": "Nuranang (Jang) Falls near Tawang",
+            "caption": "Nuranang Falls"
+          },
+          "body": [
+            "Nuranang Falls, also called Jang Falls, is a powerful waterfall of about 100 metres near Jang, between Sela and Tawang. It is a short detour from the main road."
+          ],
+          "facts": {
+            "Time needed": "1 hour"
+          }
+        },
+        {
+          "name": "Visit Bum La and Madhuri Lake",
+          "image": {
+            "src": "/images/blogs/arunachal-pradesh/tawang/bum-la-pass-tawang.webp",
+            "alt": "Bum La Pass on the India–China border",
+            "caption": "Bum La Pass"
+          },
+          "body": [
+            "Bum La Pass, at about 4,600 metres on the India–China border, can be visited by Indian nationals with a special permit from the Deputy Commissioner's office and army clearance in Tawang. The road passes high lakes, including Madhuri (Sangetsar) Lake, formed by an earthquake and named after a film shot there, and PT Tso. The route is closed in heavy snow."
+          ],
+          "facts": {
+            "Good to know": "Special permit needed; Indians only"
+          }
+        },
+        {
+          "name": "Visit Gorsam Chorten at Zemithang",
+          "body": [
+            "Zemithang, about 90 km from Tawang near the Bhutan border, has Gorsam Chorten, a large stupa similar in style to Boudhanath in Kathmandu. The valley is green and quiet. Permits may be required."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "heading": "Culture and food",
+      "items": [
+        {
+          "name": "Catch Torgya or Losar",
+          "body": [
+            "Torgya, held at Tawang Monastery in January, features masked dances to drive away evil spirits. Losar, the Monpa new year, is celebrated in February or March. Dates follow the lunar calendar."
+          ],
+          "facts": {
+            "Best time": "January to March"
+          }
+        },
+        {
+          "name": "Eat Monpa food",
+          "body": [
+            "Try thukpa, momos, zan (millet porridge), yak cheese (chhurpi) and butter tea. Local eateries in the old market serve simple, warming meals."
+          ]
+        },
+        {
+          "name": "Stop in Dirang and Bomdila",
+          "body": [
+            "On the way, Dirang has a dzong (fortified village), hot springs, apple and kiwi orchards and a yak research centre. Bomdila has monasteries and views of the Kangto range."
+          ],
+          "links": [
+            {
+              "label": "Dirang guide",
+              "href": "/blog/dirang-travel-guide"
+            },
+            {
+              "label": "Bomdila guide",
+              "href": "/blog/bomdila-travel-guide"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Road-trippers",
+      "text": "Guwahati–Dirang–Tawang with a night in Dirang each way, plus Bum La and Zemithang."
+    },
+    {
+      "who": "Culture seekers",
+      "text": "Time a visit for Torgya or Losar and spend mornings at the monastery."
+    },
+    {
+      "who": "Families",
+      "text": "Keep altitude in mind with small children and older travellers; stay in Dirang to break the climb."
+    }
+  ],
+  "oneDay": "Start with morning prayers at Tawang Monastery, then visit Urgelling and the craft centre. After lunch, visit a nunnery for the valley views and end at the War Memorial for the evening light and sound show.",
+  "tips": [
+    "Apply for the Arunachal ILP online in advance; foreigners need a Protected Area Permit.",
+    "Guwahati to Tawang takes about two days by road; Tezpur is the nearest major airport.",
+    "Carry warm clothes year-round and prepare for snow from December to March.",
+    "Photography is restricted near military areas and the border."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Tawang?",
+      "a": "Visit Tawang Monastery and Urgelling, the War Memorial, Sela Pass, Jaswant Garh, Nuranang Falls, Bum La Pass and Madhuri Lake, and Gorsam Chorten."
+    },
+    {
+      "q": "Do I need a permit for Tawang?",
+      "a": "Yes. Indian nationals need an Inner Line Permit for Arunachal Pradesh, and a separate permit for Bum La. Foreigners need a Protected Area Permit."
+    },
+    {
+      "q": "How many days are needed for Tawang?",
+      "a": "Three to four days in Tawang, plus about two days each way by road."
+    },
+    {
+      "q": "Can I visit Tawang in winter?",
+      "a": "Yes, with care. Snow can close Sela Pass and Bum La, although the Sela tunnel helps. Check road conditions."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Dirang",
+      "href": "/blog/dirang-travel-guide",
+      "note": "orchards and hot springs on the way"
+    },
+    {
+      "name": "Things to do in Ziro",
+      "href": "/blog/things-to-do-in-ziro",
+      "note": "the Apatani valley"
+    },
+    {
+      "name": "Things to do in Guwahati",
+      "href": "/blog/things-to-do-in-guwahati",
+      "note": "the starting point"
+    }
+  ],
+  "styles": [
+    "adventure-tours",
+    "spiritual-tours"
+  ],
+  "metaDescription": "Things to do in Tawang: Tawang Monastery, Urgelling, the Tawang War Memorial, Sela Pass and lake, Jaswant Garh, Nuranang Falls, Bum La Pass and Madhuri (Sangetsar) Lake and more."
+}

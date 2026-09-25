@@ -1,0 +1,228 @@
+{
+  "slug": "things-to-do-in-mount-abu",
+  "destination": "Mount Abu",
+  "guide": "mount-abu-travel-guide",
+  "type": "hill station",
+  "title": "Things to Do in Mount Abu: Dilwara Temples, Nakki Lake & Aravalli Views",
+  "seoTitle": "Things to Do in Mount Abu: Dilwara, Nakki Lake & More | Kudozz Club",
+  "description": "Things to do in Mount Abu, Rajasthan's only hill station: the marble Dilwara Jain temples, boating on Nakki Lake, sunset point, Guru Shikhar, Achalgarh and wildlife walks in the sanctuary.",
+  "dek": "Rajasthan's only hill station, on a granite plateau in the Aravallis, with some of the finest marble carving in India and cool air when the plains are baking.",
+  "primaryKeyword": "things to do in Mount Abu",
+  "secondaryKeywords": [
+    "places to visit in Mount Abu",
+    "Dilwara Temples",
+    "Nakki Lake",
+    "Guru Shikhar",
+    "Mount Abu sunset point"
+  ],
+  "searchIntent": "Families and couples, many from Gujarat and Rajasthan, planning a two-day hill-station break.",
+  "tags": [
+    "Mount Abu",
+    "Rajasthan",
+    "Hill Station",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/rajasthan/mount-abu/nakki-lake-mount-abu-2.webp",
+    "alt": "Nakki Lake surrounded by hills in Mount Abu, Rajasthan"
+  },
+  "intro": [
+    "Mount Abu sits at around 1,200 metres on a plateau in the Aravalli range in south-western Rajasthan, close to the Gujarat border. It has been a retreat from the summer heat since the days of the Rajput rulers and the British, and it is Rajasthan's only hill station.",
+    "The town is small and walkable, centred on Nakki Lake. Its most important sight is the group of Dilwara Jain temples, carved from white marble between the 11th and 13th centuries. Around them are viewpoints, temples on the higher peaks and a wildlife sanctuary covering much of the plateau. Two days is enough to see the main things."
+  ],
+  "quickAnswer": [
+    "See the marble carving of the Dilwara Jain Temples",
+    "Go boating on Nakki Lake",
+    "Watch sunset from Sunset Point or Honeymoon Point",
+    "Drive up to Guru Shikhar, the highest point in the Aravallis",
+    "Visit Achalgarh Fort and the Achaleshwar Mahadev Temple",
+    "Climb to the Adhar Devi cave temple",
+    "Walk a trail in Mount Abu Wildlife Sanctuary"
+  ],
+  "sections": [
+    {
+      "id": "must-see",
+      "heading": "Must-see experiences",
+      "items": [
+        {
+          "name": "See the Dilwara Jain Temples",
+          "body": [
+            "The five Dilwara temples, built between the 11th and 13th centuries, contain some of the most intricate marble carving in the world. The Vimal Vasahi (dedicated to Adinatha) and Luna Vasahi (dedicated to Neminatha) are the most celebrated, with domed ceilings carved so finely that the marble looks almost translucent.",
+            "Photography is not allowed inside, and the temples open to non-Jain visitors only for set hours in the afternoon, so check timings before you go. Leather items are not permitted."
+          ],
+          "facts": {
+            "Where": "About 2.5 km from the town centre",
+            "Time needed": "1.5 hours",
+            "Good to know": "No photography; limited visiting hours for tourists"
+          }
+        },
+        {
+          "name": "Go boating on Nakki Lake",
+          "image": {
+            "src": "/images/blogs/rajasthan/mount-abu/nakki-lake-mount-abu.webp",
+            "alt": "Boats on Nakki Lake, Mount Abu",
+            "caption": "Nakki Lake"
+          },
+          "body": [
+            "Nakki Lake is the heart of Mount Abu, ringed by hills and rock formations such as Toad Rock. Pedal and rowing boats are available, and the lakeside promenade with its snack stalls is busy every evening. Walk up to Toad Rock for a view over the lake."
+          ],
+          "facts": {
+            "Time needed": "1–2 hours",
+            "Best time": "Late afternoon",
+            "Good for": "Families, couples"
+          }
+        },
+        {
+          "name": "Watch the sunset",
+          "body": [
+            "Sunset Point, a short walk or pony ride from the town, is where crowds gather each evening to watch the sun drop over the plains. Honeymoon Point (Anadra Point) is quieter and also gives views over the valley. Arrive early in peak season."
+          ],
+          "facts": {
+            "Best time": "Sunset",
+            "Good for": "Couples, families"
+          }
+        }
+      ]
+    },
+    {
+      "id": "peaks-temples",
+      "heading": "Peaks, forts and temples",
+      "items": [
+        {
+          "name": "Drive up to Guru Shikhar",
+          "body": [
+            "At about 1,722 metres, Guru Shikhar is the highest point in the Aravalli range. A road goes most of the way, followed by steps to a small Dattatreya temple and a large bell. On clear days the views over the plateau are wide. The Mount Abu observatory is nearby."
+          ],
+          "facts": {
+            "Where": "About 15 km from town",
+            "Time needed": "2 hours",
+            "Best time": "Morning, for clear air"
+          }
+        },
+        {
+          "name": "Visit Achalgarh Fort",
+          "body": [
+            "Achalgarh is a ruined fort rebuilt by Rana Kumbha of Mewar in the 15th century. At its base, the Achaleshwar Mahadev Temple is unusual for worshipping what is believed to be the toe of Shiva, with a large brass Nandi outside. The climb to the upper fort is steep but short."
+          ],
+          "facts": {
+            "Time needed": "1.5 hours"
+          }
+        },
+        {
+          "name": "Climb to Adhar Devi Temple",
+          "body": [
+            "Also called Arbuda Devi, this temple is set in a natural cave on a cliff, reached by around 350 steps. It is one of the town's oldest shrines and has good views from the top."
+          ],
+          "facts": {
+            "Time needed": "1 hour",
+            "Good to know": "The final passage into the cave is low"
+          }
+        },
+        {
+          "name": "Visit the Brahma Kumaris centre",
+          "body": [
+            "Mount Abu is the world headquarters of the Brahma Kumaris spiritual movement. Its Peace Park, between Guru Shikhar and the town, has gardens and meditation spaces open to visitors."
+          ]
+        },
+        {
+          "name": "Visit the Mount Abu Government Museum",
+          "body": [
+            "The small museum near Raj Bhavan displays sculptures and artefacts from the region, including pieces from nearby temple sites. It is a short, cool stop on a hot afternoon."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nature",
+      "heading": "Nature and wildlife",
+      "items": [
+        {
+          "name": "Walk in Mount Abu Wildlife Sanctuary",
+          "image": {
+            "src": "/images/blogs/rajasthan/mount-abu/mount-abu-wildlife-sanctuary.webp",
+            "alt": "Forested hills of Mount Abu Wildlife Sanctuary",
+            "caption": "Mount Abu Wildlife Sanctuary"
+          },
+          "body": [
+            "The sanctuary covers most of the Mount Abu plateau and has forests unusual for Rajasthan, with bamboo, wild roses and orchids. Sloth bears, leopards, langurs and many birds live here, though sightings of larger mammals are rare. Guided nature walks and trails such as the one to Trevor's Tank, a small lake with crocodiles and birdlife, are the best way to explore."
+          ],
+          "facts": {
+            "Time needed": "2–3 hours",
+            "Good for": "Nature lovers, birdwatchers"
+          }
+        },
+        {
+          "name": "Trek to Toad Rock and the Nakki trails",
+          "body": [
+            "Short trails lead from Nakki Lake up to Toad Rock and other granite outcrops, with views over the lake and town. Longer guided treks through the sanctuary's forests can be arranged in town. Go with a guide on longer routes, as trails are not always marked."
+          ],
+          "facts": {
+            "Time needed": "1–4 hours",
+            "Good for": "Active travellers"
+          }
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Families",
+      "text": "Nakki Lake boating, Sunset Point, the Peace Park and a drive to Guru Shikhar keep children busy without long walks."
+    },
+    {
+      "who": "Couples",
+      "text": "Honeymoon Point at sunset, a quiet boat on Nakki Lake in the morning, and a heritage hotel stay."
+    },
+    {
+      "who": "Weekenders from Gujarat",
+      "text": "Mount Abu is a short drive from Palanpur and Abu Road, making it a popular long-weekend escape. Book early for Diwali and summer holidays, when the town is at its busiest."
+    }
+  ],
+  "oneDay": "Visit Guru Shikhar in the morning for clear views, stopping at the Brahma Kumaris Peace Park and Achalgarh on the way back. After lunch, see the Dilwara Temples during the afternoon visiting hours, then take a boat on Nakki Lake and finish at Sunset Point.",
+  "faqs": [
+    {
+      "q": "What are the best things to do in Mount Abu?",
+      "a": "See the Dilwara Jain Temples, go boating on Nakki Lake, watch sunset from Sunset Point, drive up to Guru Shikhar, visit Achalgarh and walk in the wildlife sanctuary."
+    },
+    {
+      "q": "How many days are enough for Mount Abu?",
+      "a": "Two days is enough for the main sights at a relaxed pace."
+    },
+    {
+      "q": "Can you take photos inside Dilwara Temples?",
+      "a": "No, photography is not allowed inside the Dilwara temples. Bags and phones are usually deposited outside."
+    },
+    {
+      "q": "What is the best time to visit Mount Abu?",
+      "a": "March to June, when it offers relief from the heat of the plains, and September to November after the monsoon."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Udaipur",
+      "href": "/blog/things-to-do-in-udaipur",
+      "note": "about three hours to the east"
+    },
+    {
+      "name": "Things to do in Ahmedabad",
+      "href": "/blog/things-to-do-in-ahmedabad",
+      "note": "Gujarat's heritage city to the south"
+    },
+    {
+      "name": "Jawai",
+      "href": "/blog/jawai-travel-guide",
+      "note": "leopard country between Mount Abu and Jodhpur"
+    }
+  ],
+  "styles": [
+    "family-holidays",
+    "honeymoon",
+    "weekend-getaways"
+  ],
+  "tips": [
+    "Abu Road, about 27 km below the town, is the nearest railway station, with frequent trains from Ahmedabad and Jaipur.",
+    "Check the Dilwara Temples' tourist visiting hours before you go, as non-Jain visitors are admitted only for part of the day.",
+    "Weekends and Gujarati festival holidays are very busy; weekdays are much quieter.",
+    "Evenings are cool even in summer, so pack a light jacket."
+  ]
+}

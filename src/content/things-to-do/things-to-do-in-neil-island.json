@@ -1,0 +1,263 @@
+{
+  "slug": "things-to-do-in-neil-island",
+  "destination": "Neil Island",
+  "guide": "neil-island-andaman-travel-guide",
+  "type": "island",
+  "title": "Things to Do in Neil Island (Shaheed Dweep): Natural Bridge, Reefs & Slow Days",
+  "seoTitle": "Things to Do in Neil Island (Shaheed Dweep) | Kudozz Club",
+  "description": "Things to do in Neil Island: the natural rock bridge, snorkelling and glass-bottom boats at Bharatpur beach, sunset at Laxmanpur, sunrise at Sitapur, scuba diving, cycling through farms and villages, and fresh seafood.",
+  "dek": "A small, green and quiet island in the Andamans, with a natural rock arch, coral close to shore and villages of vegetable farms and banana groves.",
+  "primaryKeyword": "things to do in Neil Island",
+  "secondaryKeywords": [
+    "Shaheed Dweep",
+    "natural bridge Neil Island",
+    "Bharatpur beach",
+    "Laxmanpur beach",
+    "Sitapur beach",
+    "Neil Island snorkelling"
+  ],
+  "searchIntent": "Andaman travellers adding one or two nights on Neil Island between Port Blair and Havelock.",
+  "tags": [
+    "Neil Island",
+    "Andaman",
+    "Beaches",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/andaman-and-nicobar/neil-island-andaman/bharatpur-beach-shaheed-dweep-neil-island.webp",
+    "alt": "Bharatpur beach, Neil Island",
+    "caption": "Bharatpur beach"
+  },
+  "intro": [
+    "Neil Island, renamed Shaheed Dweep in 2018, is a small island about 40 km from Port Blair and an hour's ferry ride from Havelock. It is only a few kilometres across, with farming villages that grow vegetables for the Andamans, and beaches on every side. Life here is slow, and that is its charm.",
+    "The things to do on Neil include the natural rock bridge at low tide, snorkelling over coral at Bharatpur beach, sunset at Laxmanpur, sunrise at Sitapur, diving with small dive schools, and cycling between beaches and villages.",
+    "One to two nights is ideal. October to May is the best season."
+  ],
+  "quickAnswer": [
+    "See the natural rock bridge at low tide",
+    "Snorkel at Bharatpur beach",
+    "Take a glass-bottom boat ride",
+    "Watch sunset at Laxmanpur beach",
+    "Watch sunrise at Sitapur beach",
+    "Try scuba diving",
+    "Cycle around the island",
+    "Walk through the villages and farms",
+    "Eat seafood at local restaurants",
+    "Explore rock pools at low tide"
+  ],
+  "sections": [
+    {
+      "id": "beaches",
+      "heading": "Beaches",
+      "items": [
+        {
+          "name": "See the natural bridge",
+          "image": {
+            "src": "/images/destinations/andaman/natural-bridge-bharatpur-neil-island.webp",
+            "alt": "Natural rock bridge on Neil Island",
+            "caption": "Natural bridge"
+          },
+          "body": [
+            "The natural bridge, a rock arch on the shore near Laxmanpur beach No. 2, is Neil's best-known sight. It is reached by walking over rocks and coral at low tide, when rock pools reveal sea cucumbers, starfish and small fish. Check tide times, wear sturdy footwear and do not step on live coral.",
+            "Local guides at the site can point out marine life in the pools and suggest the safest path. Early morning low tides are cooler and less crowded than afternoon ones."
+          ],
+          "facts": {
+            "Best time": "Low tide",
+            "Good to know": "Check tide times; wear good shoes"
+          }
+        },
+        {
+          "name": "Snorkel at Bharatpur beach",
+          "body": [
+            "Bharatpur beach, near the jetty, has calm, shallow water with coral close to shore. Snorkelling, glass-bottom boat rides and other water sports are offered."
+          ],
+          "facts": {
+            "Best time": "Morning",
+            "Good for": "Families"
+          }
+        },
+        {
+          "name": "Watch sunset at Laxmanpur",
+          "body": [
+            "Laxmanpur beach No. 1, on the west coast, is a wide stretch of white sand and the island's sunset point."
+          ],
+          "facts": {
+            "Best time": "Sunset"
+          }
+        },
+        {
+          "name": "Watch sunrise at Sitapur",
+          "body": [
+            "Sitapur, at the eastern tip, is where the island greets the sunrise, with rocky outcrops and waves."
+          ],
+          "facts": {
+            "Best time": "Sunrise"
+          }
+        },
+        {
+          "name": "Relax at Ramnagar beach",
+          "body": [
+            "Ramnagar beach, on the southern side, is one of the quietest beaches on the island, with shallow water and very few people. It is a peaceful spot to spend an afternoon."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "activities",
+      "heading": "Diving and exploring",
+      "items": [
+        {
+          "name": "Try scuba diving",
+          "body": [
+            "Neil has a handful of dive schools offering try dives and courses. Its sites are generally less crowded than Havelock's, with coral gardens and reef fish."
+          ],
+          "facts": {
+            "Best time": "November to April",
+            "Good for": "Beginners and divers"
+          }
+        },
+        {
+          "name": "Cycle around the island",
+          "body": [
+            "The island is small and flat enough to explore by bicycle or scooter. Roads run through paddy fields, banana groves and villages between the beaches.",
+            "The main loop is only about 15 km, with gentle slopes, so it is easy to cycle from Sitapur in the east to Laxmanpur in the west and stop at beaches along the way."
+          ],
+          "facts": {
+            "Good for": "Couples, active travellers"
+          }
+        },
+        {
+          "name": "Walk through the villages",
+          "body": [
+            "Neil's villages are named after figures from the Ramayana, including Sitapur, Laxmanpur, Bharatpur and Ramnagar. Many residents are settlers from Bengal. The small market near the jetty sells fruit and vegetables grown on the island."
+          ]
+        },
+        {
+          "name": "Explore rock pools",
+          "body": [
+            "At low tide, the coral flats on several beaches turn into rock pools full of life. Go with a local guide to learn what you are seeing, and avoid touching the animals."
+          ]
+        },
+        {
+          "name": "Eat seafood",
+          "body": [
+            "Small restaurants serve grilled fish, prawn curry and Bengali dishes. Fresh coconut water is everywhere."
+          ],
+          "facts": {
+            "Good for": "Food lovers"
+          }
+        },
+        {
+          "name": "Take a boat to the reefs",
+          "body": [
+            "Small boats from the jetty take visitors to reefs off the island for snorkelling in deeper, clearer water than at the beaches. Trips usually last one to two hours."
+          ],
+          "facts": {
+            "Good for": "Swimmers"
+          }
+        },
+        {
+          "name": "Visit the local market",
+          "body": [
+            "The small market near the jetty is where islanders sell vegetables, fruit and fish. It is a good place to buy fresh coconuts and bananas and see everyday island life."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seasons",
+      "heading": "Neil by season",
+      "items": [
+        {
+          "name": "October to December",
+          "body": [
+            "Calm seas after the monsoon, green fields and quieter beaches before the peak season."
+          ]
+        },
+        {
+          "name": "January to April",
+          "body": [
+            "The best time for snorkelling and diving, with clear, calm water and sunny days."
+          ]
+        },
+        {
+          "name": "May to September",
+          "body": [
+            "Monsoon rain, rough seas and cancelled ferries. Many small stays close."
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Couples",
+      "text": "Cycling to Laxmanpur for sunset, Sitapur at dawn and a quiet beach cottage."
+    },
+    {
+      "who": "Families",
+      "text": "Glass-bottom boat at Bharatpur, the natural bridge at low tide and calm snorkelling."
+    },
+    {
+      "who": "Divers",
+      "text": "A few days of uncrowded diving after Havelock."
+    },
+    {
+      "who": "Slow travellers",
+      "text": "Stay three nights, cycle every day, snorkel off different beaches and do very little else."
+    }
+  ],
+  "oneDay": "Watch sunrise at Sitapur, then snorkel at Bharatpur beach. Visit the natural bridge at low tide, have a seafood lunch, cycle through the villages and end with sunset at Laxmanpur.",
+  "tips": [
+    "Ferries link Neil with Port Blair and Havelock; book in advance in peak season.",
+    "Check low-tide times for the natural bridge.",
+    "ATMs are limited; carry cash.",
+    "Accommodation is simple; book ahead in December and January.",
+    "Rent bicycles or scooters near the jetty; the whole island can be covered in a day.",
+    "Carry reef shoes for walking over coral flats and rocky shores at low tide."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do on Neil Island?",
+      "a": "See the natural bridge, snorkel at Bharatpur beach, watch sunset at Laxmanpur and sunrise at Sitapur, try scuba diving and cycle around the island."
+    },
+    {
+      "q": "How many days are enough for Neil Island?",
+      "a": "One to two nights."
+    },
+    {
+      "q": "When can you see the natural bridge on Neil Island?",
+      "a": "At low tide, when the rocks and coral flats can be crossed on foot."
+    },
+    {
+      "q": "Is Neil Island better than Havelock?",
+      "a": "Neil is smaller and quieter, with fewer facilities. Havelock has more beaches, dive options and restaurants. Many visitors enjoy both."
+    },
+    {
+      "q": "How do I get to Neil Island?",
+      "a": "By government or private ferry from Port Blair (about one and a half to two hours) or Havelock (about an hour). Book in advance in peak season."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Havelock Island",
+      "href": "/blog/things-to-do-in-havelock-island",
+      "note": "an hour by ferry"
+    },
+    {
+      "name": "Things to do in Port Blair",
+      "href": "/blog/things-to-do-in-port-blair",
+      "note": "the capital"
+    },
+    {
+      "name": "Things to do in Andaman",
+      "href": "/blog/things-to-do-in-andaman",
+      "note": "the whole island group"
+    }
+  ],
+  "styles": [
+    "honeymoon",
+    "family-holidays"
+  ],
+  "metaDescription": "Things to do in Neil Island: the natural rock bridge, snorkelling and glass-bottom boats at Bharatpur beach, sunset at Laxmanpur, sunrise at Sitapur, scuba diving and more."
+}

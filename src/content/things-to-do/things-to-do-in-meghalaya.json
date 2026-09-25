@@ -1,0 +1,377 @@
+{
+  "slug": "things-to-do-in-meghalaya",
+  "destination": "Meghalaya",
+  "guide": "meghalaya-travel-guide",
+  "type": "state",
+  "title": "Things to Do in Meghalaya: Living Root Bridges, Waterfalls, Caves & Clear Rivers",
+  "seoTitle": "Things to Do in Meghalaya: Root Bridges & Waterfalls | Kudozz Club",
+  "description": "Things to do in Meghalaya: trek to the double-decker living root bridge, see Nohkalikai and Seven Sisters falls, boat on the clear Umngot at Dawki, visit Mawlynnong, explore caves, see Laitlum canyons, Krang Suri falls, Umiam Lake, Shillong's music scene and Khasi food.",
+  "dek": "The abode of clouds, a plateau of rolling hills and deep gorges where rivers run glass-clear, waterfalls plunge off cliffs and villages grow bridges from living roots.",
+  "primaryKeyword": "things to do in Meghalaya",
+  "secondaryKeywords": [
+    "places to visit in Meghalaya",
+    "living root bridges",
+    "Dawki river",
+    "Nohkalikai falls",
+    "Mawlynnong",
+    "Meghalaya caves",
+    "Meghalaya itinerary"
+  ],
+  "searchIntent": "Travellers planning a five- to eight-day Meghalaya trip from Guwahati, deciding which root bridges, waterfalls and villages to include.",
+  "tags": [
+    "Meghalaya",
+    "Northeast India",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/meghalaya/nongriat/the-umshiang-double-decker-root-bridge-nongriat.webp",
+    "alt": "Umshiang double-decker living root bridge at Nongriat",
+    "caption": "Double-decker root bridge, Nongriat"
+  },
+  "intro": [
+    "Meghalaya, in north-east India, is a hilly plateau bordering Bangladesh, home mainly to the Khasi, Jaintia and Garo communities. Its southern edge catches the monsoon head-on, making places such as Sohra (Cherrapunji) and Mawsynram among the wettest on earth. The rain feeds waterfalls, cave systems and rivers of remarkable clarity.",
+    "The best things to do in Meghalaya are outdoors. Walk down to the living root bridges, bridges grown over generations from the roots of rubber fig trees by Khasi and Jaintia villagers. See the waterfalls around Sohra, boat on the Umngot at Dawki, visit Mawlynnong village, explore limestone caves and sit above the Laitlum canyons. Shillong, the capital, adds music, cafés and markets.",
+    "Six days covers Shillong, Sohra, the root bridges, Mawlynnong and Dawki. October to April is the best time; the monsoon makes waterfalls spectacular but trails slippery. Indian citizens do not need a permit."
+  ],
+  "quickAnswer": [
+    "Trek to the double-decker root bridge at Nongriat",
+    "See the Riwai root bridge near Mawlynnong",
+    "Watch Nohkalikai Falls plunge into its pool",
+    "Boat on the clear Umngot river at Dawki",
+    "Visit Mawlynnong village",
+    "Explore Mawsmai, Arwah or Siju caves",
+    "See the Laitlum canyons at sunrise",
+    "Swim at Krang Suri Falls",
+    "Kayak or boat on Umiam Lake",
+    "Listen to live music and eat Khasi food in Shillong"
+  ],
+  "sections": [
+    {
+      "id": "root-bridges",
+      "heading": "Living root bridges",
+      "items": [
+        {
+          "name": "Trek to the double-decker at Nongriat",
+          "body": [
+            "The Umshiang double-decker root bridge at Nongriat, below Tyrna village near Sohra, is the most famous living root bridge. The walk down involves roughly 3,000 or more steps and takes one and a half to two hours each way. Beyond the bridge, a further walk leads to Rainbow Falls and its blue pool. Stay overnight in a Nongriat homestay to avoid doing the climb twice in one day.",
+            "The bridges are living structures maintained by villages; do not pull at roots, and follow any limits on how many people may cross at once."
+          ],
+          "links": [
+            {
+              "label": "Nongriat guide",
+              "href": "/blog/nongriat-travel-guide"
+            }
+          ],
+          "facts": {
+            "Time needed": "Full day or overnight",
+            "Good for": "Active travellers",
+            "Good to know": "Steep steps; carry water"
+          }
+        },
+        {
+          "name": "See the Riwai root bridge",
+          "image": {
+            "src": "/images/blogs/meghalaya/meghalaya/single-decker-root-bridge-riwai.webp",
+            "alt": "Single-decker living root bridge at Riwai",
+            "caption": "Riwai root bridge"
+          },
+          "body": [
+            "The single-decker root bridge at Riwai, next to Mawlynnong, is a short walk from the road and suitable for families and older travellers who cannot manage Nongriat's steps."
+          ],
+          "facts": {
+            "Time needed": "1 hour",
+            "Good for": "Families"
+          }
+        }
+      ]
+    },
+    {
+      "id": "waterfalls-caves",
+      "heading": "Waterfalls, canyons and caves",
+      "items": [
+        {
+          "name": "See Nohkalikai Falls",
+          "image": {
+            "src": "/images/blogs/meghalaya/meghalaya/nohkalikai-falls-cherrapunji.webp",
+            "alt": "Nohkalikai Falls near Cherrapunji",
+            "caption": "Nohkalikai Falls"
+          },
+          "body": [
+            "Nohkalikai Falls near Sohra drops about 340 metres into a green pool and is often described as the tallest plunge waterfall in India. A viewing area at the top gives the classic view. Seven Sisters Falls, Dainthlen and Wei Sawdong are other falls in the area."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Cherrapunji",
+              "href": "/blog/things-to-do-in-cherrapunji"
+            }
+          ],
+          "facts": {
+            "Best time": "September to November for strong flow and clear views"
+          }
+        },
+        {
+          "name": "See the Laitlum canyons",
+          "body": [
+            "Laitlum, about an hour from Shillong, is a ridge at the edge of deep, green gorges, especially beautiful at sunrise when mist fills the valleys. Steps lead down to the village of Rasong below for fit walkers."
+          ],
+          "links": [
+            {
+              "label": "Laitlum guide",
+              "href": "/blog/laitlum-canyons-travel-guide"
+            }
+          ],
+          "facts": {
+            "Best time": "Sunrise"
+          }
+        },
+        {
+          "name": "Swim at Krang Suri Falls",
+          "image": {
+            "src": "/images/blogs/meghalaya/krang-suri-falls/krang-suri-falls.webp",
+            "alt": "Blue pool of Krang Suri Falls",
+            "caption": "Krang Suri Falls"
+          },
+          "body": [
+            "Krang Suri Falls in the Jaintia Hills has a turquoise pool where swimming is allowed with life jackets in the dry season. It is often part of a trip to Jowai."
+          ],
+          "links": [
+            {
+              "label": "Krang Suri Falls guide",
+              "href": "/blog/krang-suri-falls-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Explore the caves",
+          "image": {
+            "src": "/images/blogs/meghalaya/siju/siju-cave.webp",
+            "alt": "Entrance of Siju Cave, Garo Hills",
+            "caption": "Siju Cave"
+          },
+          "body": [
+            "Meghalaya has some of the longest cave systems in South Asia. Mawsmai Cave near Sohra is a short, lit show cave; Arwah Cave has fossils in its walls. Siju in the Garo Hills and the Krem Liat Prah system in the Jaintia Hills are for serious cavers with guides."
+          ],
+          "facts": {
+            "Good for": "Families (Mawsmai), adventurers (wild caves)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "rivers-villages",
+      "heading": "Rivers and villages",
+      "items": [
+        {
+          "name": "Boat on the Umngot at Dawki",
+          "image": {
+            "src": "/images/blogs/meghalaya/meghalaya/dawki-and-the-umngot-river-meghalaya.webp",
+            "alt": "Boats on the clear Umngot river at Dawki",
+            "caption": "Umngot river, Dawki"
+          },
+          "body": [
+            "The Umngot river at Dawki, near the Bangladesh border, is so clear in the dry months that boats seem to float on air. Rowing boat rides, the old suspension bridge and a view of the border market are the main draws. Shnongpdeng, a few kilometres upstream, has riverside camping, kayaking and snorkelling."
+          ],
+          "links": [
+            {
+              "label": "Dawki guide",
+              "href": "/blog/dawki-travel-guide"
+            },
+            {
+              "label": "Shnongpdeng guide",
+              "href": "/blog/shnongpdeng-travel-guide"
+            }
+          ],
+          "facts": {
+            "Best time": "November to April",
+            "Good to know": "Water is murky in the monsoon"
+          }
+        },
+        {
+          "name": "Visit Mawlynnong",
+          "image": {
+            "src": "/images/blogs/meghalaya/meghalaya/mawlynnong-cleanest-village-meghalaya.webp",
+            "alt": "Flower-lined path in Mawlynnong village",
+            "caption": "Mawlynnong"
+          },
+          "body": [
+            "Mawlynnong, a Khasi village near the Bangladesh border, became famous after being called one of Asia's cleanest villages. Its bamboo dustbins, flower-lined paths and community rules make it a pleasant stop, along with a bamboo sky-view platform and the nearby Riwai root bridge."
+          ],
+          "links": [
+            {
+              "label": "Mawlynnong guide",
+              "href": "/blog/mawlynnong-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Kayak on Umiam Lake",
+          "body": [
+            "Umiam Lake, a reservoir on the road from Guwahati to Shillong, has kayaking, boating and lakeside stays. It is a lovely first stop on arrival."
+          ],
+          "facts": {
+            "Good for": "Families, couples"
+          }
+        },
+        {
+          "name": "Walk in the Mawphlang sacred forest",
+          "body": [
+            "The sacred grove at Mawphlang, protected by Khasi tradition for centuries, is a dense forest where nothing may be removed. Local guides explain the beliefs and monoliths within."
+          ],
+          "facts": {
+            "Good for": "Nature and culture lovers"
+          }
+        },
+        {
+          "name": "Boat through Wari Chora",
+          "body": [
+            "Wari Chora, in the Garo Hills, is a narrow river gorge with sheer rock walls, explored by small boat. It is remote and needs a local guide, but it is one of the most dramatic landscapes in the state."
+          ],
+          "facts": {
+            "Best time": "November to March"
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "heading": "Shillong, food and festivals",
+      "items": [
+        {
+          "name": "Spend time in Shillong",
+          "body": [
+            "Shillong, the capital, is known for its music scene, colonial-era buildings, Ward's Lake, the Don Bosco Museum of Indigenous Cultures and busy Police Bazar."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Shillong",
+              "href": "/blog/things-to-do-in-shillong"
+            }
+          ]
+        },
+        {
+          "name": "Eat Khasi food",
+          "body": [
+            "Try jadoh (rice cooked with pork), dohneiiong (pork with black sesame), tungrymbai (fermented soybean) and pukhlein (sweet rice fritters). Vegetarian options are limited in villages but available in Shillong."
+          ]
+        },
+        {
+          "name": "Catch a festival",
+          "body": [
+            "Wangala, the Garo harvest festival, is held in November. Behdienkhlam in the Jaintia Hills takes place in summer, and Shad Suk Mynsiem, a Khasi thanksgiving dance, in spring. Shillong's cherry blossom festival in November has drawn crowds in recent years."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beyond",
+      "heading": "Beyond the classic circuit",
+      "items": [
+        {
+          "name": "Explore the Jaintia Hills",
+          "body": [
+            "East of Shillong, the Jaintia Hills have the Nartiang monoliths, a field of standing stones erected by the Jaintia kings, the Krang Suri and Phe Phe falls, and Jowai town. It is far less visited than Sohra."
+          ],
+          "links": [
+            {
+              "label": "Jowai guide",
+              "href": "/blog/jowai-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Go to the Garo Hills",
+          "body": [
+            "The Garo Hills in the west have Balpakram National Park, a canyon-like plateau sacred to the Garo people, Siju Cave and Nokrek, a biosphere reserve known for wild citrus. Tura is the main town. Travel here needs more time and planning."
+          ],
+          "facts": {
+            "Best time": "November for Wangala"
+          }
+        },
+        {
+          "name": "Camp at Shnongpdeng",
+          "body": [
+            "Shnongpdeng, upstream of Dawki, has riverside camps, kayaking, snorkelling in clear water and cliff jumping with operators. Nights under the stars by the Umngot are a highlight for many visitors."
+          ],
+          "facts": {
+            "Best time": "November to April"
+          }
+        },
+        {
+          "name": "Walk the David Scott trail",
+          "body": [
+            "The David Scott trail follows part of a 19th-century route through the Khasi Hills from Mawphlang towards Lad Mawphlang, passing streams, meadows and villages. It is a moderate day walk best done with a local guide."
+          ],
+          "facts": {
+            "Good for": "Walkers"
+          }
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Active travellers",
+      "text": "Overnight at Nongriat, sunrise at Laitlum and caving with a guide."
+    },
+    {
+      "who": "Families",
+      "text": "Riwai root bridge, Mawlynnong, Dawki boating, Mawsmai Cave and Umiam Lake."
+    },
+    {
+      "who": "Couples",
+      "text": "Riverside camping at Shnongpdeng, the viewpoints of Sohra and cafés in Shillong."
+    }
+  ],
+  "oneDay": "From Shillong, drive to Sohra, stopping at the Mawkdok valley viewpoint. See Nohkalikai and Seven Sisters Falls and Mawsmai Cave, then return via Laitlum or Elephant Falls in the late afternoon.",
+  "tips": [
+    "Guwahati's airport and railway station are about three hours from Shillong; Shillong also has a small airport at Umroi.",
+    "Carry rain gear all year and shoes with good grip for wet steps.",
+    "Many villages charge small entry or parking fees that support community upkeep.",
+    "Roads are winding; allow more time than maps suggest."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Meghalaya?",
+      "a": "Trek to the double-decker root bridge, see Nohkalikai Falls, boat on the Umngot at Dawki, visit Mawlynnong, explore caves, see Laitlum canyons, swim at Krang Suri and spend time in Shillong."
+    },
+    {
+      "q": "How many days are enough for Meghalaya?",
+      "a": "Six days covers Shillong, Sohra, the root bridges, Mawlynnong and Dawki. Add days for the Jaintia or Garo Hills."
+    },
+    {
+      "q": "Do I need a permit for Meghalaya?",
+      "a": "No Inner Line Permit is needed for Indian citizens. Foreign nationals should carry passports and may need to register."
+    },
+    {
+      "q": "When is the Dawki river clearest?",
+      "a": "From about November to April. In the monsoon the water becomes muddy."
+    },
+    {
+      "q": "Can families with children visit the living root bridges?",
+      "a": "Yes. The Riwai root bridge near Mawlynnong is a short, easy walk. The double-decker at Nongriat involves thousands of steep steps and suits older, fit children."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Guwahati",
+      "href": "/blog/things-to-do-in-guwahati",
+      "note": "the gateway city, three hours away"
+    },
+    {
+      "name": "Things to do in Kaziranga",
+      "href": "/blog/things-to-do-in-kaziranga",
+      "note": "rhinos in Assam"
+    },
+    {
+      "name": "Jowai",
+      "href": "/blog/jowai-travel-guide",
+      "note": "the Jaintia Hills"
+    }
+  ],
+  "styles": [
+    "adventure-tours",
+    "honeymoon",
+    "family-holidays"
+  ],
+  "metaDescription": "Things to do in Meghalaya: trek to the double-decker living root bridge, see Nohkalikai and Seven Sisters falls, boat on the clear Umngot at Dawki, visit Mawlynnong and more."
+}

@@ -1,0 +1,277 @@
+{
+  "slug": "things-to-do-in-kovalam",
+  "destination": "Kovalam",
+  "guide": "kovalam-travel-guide",
+  "type": "beach town",
+  "title": "Things to Do in Kovalam: Lighthouse Beach, Ayurveda & Thiruvananthapuram Day Trips",
+  "seoTitle": "Things to Do in Kovalam: Beaches, Ayurveda & More | Kudozz Club",
+  "description": "Things to do in Kovalam: Lighthouse, Hawa and Samudra beaches, climbing the Vizhinjam lighthouse, Ayurveda, surfing and catamaran rides, the Vizhinjam rock-cut cave temple, Poovar's estuary and golden sand, and day trips to Thiruvananthapuram's temples, museums and palaces.",
+  "dek": "Three crescent beaches below a red-and-white lighthouse, just south of Kerala's capital, with Ayurveda centres, fishing harbours and an estuary nearby.",
+  "primaryKeyword": "things to do in Kovalam",
+  "secondaryKeywords": [
+    "Kovalam beach",
+    "Lighthouse beach Kovalam",
+    "Poovar",
+    "Vizhinjam",
+    "Kovalam Ayurveda",
+    "Trivandrum day trip"
+  ],
+  "searchIntent": "Couples, families and wellness travellers planning two or three days in Kovalam, often with a day in Thiruvananthapuram.",
+  "tags": [
+    "Kovalam",
+    "Kerala",
+    "Beach",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/kerala/kovalam/vizhinjam-lighthouse-kovalam.webp",
+    "alt": "Vizhinjam lighthouse above Kovalam's beaches",
+    "caption": "Vizhinjam lighthouse"
+  },
+  "intro": [
+    "Kovalam, about 16 km south of Thiruvananthapuram, has been one of Kerala's best-known beach destinations since the 1970s. Three neighbouring crescent beaches, separated by rocky headlands, lie below the Vizhinjam lighthouse, with hotels and cafés climbing the slopes behind them.",
+    "The things to do in Kovalam are gentle: swimming and sunbathing, climbing the lighthouse, Ayurveda treatments, catamaran and surf sessions, and exploring the fishing harbour and cave temple at Vizhinjam. Poovar's estuary and golden-sand beach are a short drive south, and the temples, museums and palaces of Thiruvananthapuram make an easy day trip.",
+    "Two to three days is ideal. September to March is the best time; the monsoon brings rough seas."
+  ],
+  "quickAnswer": [
+    "Relax on Lighthouse, Hawa and Samudra beaches",
+    "Climb the Vizhinjam lighthouse",
+    "Take an Ayurveda treatment",
+    "Try surfing or a catamaran ride",
+    "See the Vizhinjam rock-cut cave temple",
+    "Watch the fishing boats at Vizhinjam harbour",
+    "Boat through Poovar's estuary to the golden sand beach",
+    "Visit the Padmanabhaswamy Temple area in Thiruvananthapuram",
+    "See the Napier Museum and Kuthiramalika Palace",
+    "Watch a kalaripayattu demonstration"
+  ],
+  "sections": [
+    {
+      "id": "beaches",
+      "heading": "Beaches",
+      "items": [
+        {
+          "name": "Relax on Lighthouse beach",
+          "image": {
+            "src": "/images/blogs/kerala/kovalam/lighthouse-beach-kovalam.webp",
+            "alt": "Lighthouse beach at Kovalam",
+            "caption": "Lighthouse beach"
+          },
+          "body": [
+            "Lighthouse beach, the southernmost and busiest of Kovalam's beaches, has a promenade of cafés, shops and Ayurveda centres. Lifeguards mark safe swimming areas with flags."
+          ],
+          "facts": {
+            "Best time": "Sunset",
+            "Good to know": "Swim between the flags"
+          }
+        },
+        {
+          "name": "Walk to Hawa and Samudra beaches",
+          "body": [
+            "Hawa (Eve's) beach, in the middle, is smaller and quieter, and fishing boats land here in the morning. Samudra, the northernmost, is calmer still, with fewer shops."
+          ]
+        },
+        {
+          "name": "Climb the Vizhinjam lighthouse",
+          "body": [
+            "The red-and-white striped lighthouse on the headland above Lighthouse beach can be climbed for views of the coast. Opening hours are limited, usually in the afternoon."
+          ],
+          "facts": {
+            "Time needed": "45 minutes",
+            "Good to know": "Limited opening hours"
+          }
+        },
+        {
+          "name": "Try surfing or a catamaran ride",
+          "body": [
+            "Kovalam has a surf club and schools offering lessons on beginner-friendly waves. Local fishermen also offer short rides on traditional catamarans (kattumaram)."
+          ],
+          "facts": {
+            "Best time": "October to April"
+          }
+        }
+      ]
+    },
+    {
+      "id": "vizhinjam-poovar",
+      "heading": "Vizhinjam and Poovar",
+      "items": [
+        {
+          "name": "See the Vizhinjam rock-cut cave temple",
+          "body": [
+            "The rock-cut cave temple at Vizhinjam, believed to date from around the 8th century, has an image of Vinadhara Dakshinamurthy, a form of Shiva, and unfinished reliefs. It is small but historically important."
+          ],
+          "facts": {
+            "Time needed": "30 minutes"
+          }
+        },
+        {
+          "name": "Watch the fishing boats at Vizhinjam",
+          "body": [
+            "Vizhinjam is an old fishing harbour with a busy morning fish auction and colourful boats. A new deep-water international port has been built nearby."
+          ],
+          "facts": {
+            "Best time": "Early morning"
+          }
+        },
+        {
+          "name": "Boat to Poovar's golden sand beach",
+          "body": [
+            "Poovar, about 20 km south, is where the Neyyar river meets the sea. Boat rides go through mangrove-lined backwaters to a sandbar known as golden sand beach, with the river on one side and the sea on the other. Several resorts offer floating cottages."
+          ],
+          "facts": {
+            "Time needed": "Half a day",
+            "Good for": "Couples, families"
+          }
+        }
+      ]
+    },
+    {
+      "id": "trivandrum",
+      "heading": "Thiruvananthapuram day trip",
+      "items": [
+        {
+          "name": "See the Padmanabhaswamy Temple area",
+          "body": [
+            "The Sree Padmanabhaswamy Temple, dedicated to Vishnu reclining on a serpent, is one of the most important temples in Kerala. Entry is only for Hindus, with a strict dress code, but the temple's gopuram and tank and the surrounding old streets of East Fort can be seen by everyone."
+          ],
+          "facts": {
+            "Good to know": "Hindus only inside; dress code"
+          }
+        },
+        {
+          "name": "Visit the Napier Museum and Kuthiramalika Palace",
+          "body": [
+            "The Napier Museum, in a Victorian building with Kerala-style roofs, has bronzes, carvings and ornaments. The Sree Chitra Art Gallery nearby holds paintings by Raja Ravi Varma and Nicholas Roerich. Kuthiramalika Palace, near the temple, has 122 carved wooden horses supporting its eaves and a museum of royal objects."
+          ],
+          "facts": {
+            "Time needed": "Half a day",
+            "Good to know": "Museums close on Mondays"
+          }
+        },
+        {
+          "name": "Watch kalaripayattu",
+          "body": [
+            "Kalari schools in Thiruvananthapuram, among the oldest centres of the martial art, hold training and occasional demonstrations that visitors can watch."
+          ]
+        },
+        {
+          "name": "Walk Shankumugham beach",
+          "body": [
+            "Shankumugham, the city's beach near the airport, has a large sculpture of a mermaid (Jalakanyaka) and is busy with families at sunset."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wellness",
+      "heading": "Ayurveda and food",
+      "items": [
+        {
+          "name": "Take an Ayurveda treatment",
+          "body": [
+            "Kovalam has many Ayurvedic resorts and clinics offering massages and longer residential programmes. Choose certified centres with qualified doctors."
+          ],
+          "facts": {
+            "Good for": "Wellness seekers"
+          }
+        },
+        {
+          "name": "Eat seafood by the sea",
+          "body": [
+            "Beach restaurants display the day's catch in the evening; pick your fish and have it grilled or cooked Kerala style. Agree the price by weight first."
+          ],
+          "facts": {
+            "Good for": "Food lovers"
+          }
+        }
+      ]
+    },
+    {
+      "id": "seasons",
+      "heading": "Kovalam by season",
+      "items": [
+        {
+          "name": "Winter (October to March)",
+          "body": [
+            "Calm seas, sunny days and the busiest season. Swimming is safest now, and surf schools and catamaran rides operate."
+          ]
+        },
+        {
+          "name": "Monsoon (June to September)",
+          "body": [
+            "Rough seas close the water to swimmers, but the season is traditionally considered best for Ayurvedic treatments, and rates drop."
+          ],
+          "facts": {
+            "Good for": "Ayurveda"
+          }
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Couples",
+      "text": "Sunsets on Lighthouse beach, a Poovar floating cottage and an Ayurveda couples' treatment."
+    },
+    {
+      "who": "Families",
+      "text": "Samudra beach, the lighthouse climb, a Poovar boat ride and the Napier Museum."
+    },
+    {
+      "who": "Wellness seekers",
+      "text": "A week of Ayurveda with quiet beach walks."
+    }
+  ],
+  "oneDay": "Start with the fishing harbour at Vizhinjam and the cave temple, then spend the late morning on Lighthouse beach. After lunch, take a boat through Poovar's backwaters to golden sand beach, and return to climb the lighthouse and watch the sunset.",
+  "tips": [
+    "Thiruvananthapuram airport is about 15 km away; the city's central station has trains across India.",
+    "Swim only between the lifeguard flags; currents can be strong.",
+    "Beachwear is fine on the beach but dress modestly in town and temples.",
+    "The monsoon brings rough seas and closes many beach businesses."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Kovalam?",
+      "a": "Relax on Lighthouse, Hawa and Samudra beaches, climb the lighthouse, take an Ayurveda treatment, try surfing, see Vizhinjam, boat to Poovar's golden sand beach and take a day trip to Thiruvananthapuram."
+    },
+    {
+      "q": "How far is Kovalam from Thiruvananthapuram?",
+      "a": "About 16 km, roughly 30 to 45 minutes by road."
+    },
+    {
+      "q": "How many days are enough for Kovalam?",
+      "a": "Two to three days."
+    },
+    {
+      "q": "Kovalam or Varkala: which is better?",
+      "a": "Kovalam has gentler, crescent beaches and is closer to the city; Varkala has dramatic cliffs and a livelier café scene."
+    },
+    {
+      "q": "Is Kovalam good for families?",
+      "a": "Yes. Samudra and Hawa beaches are calmer, the lighthouse climb and Poovar boat ride are easy outings, and Thiruvananthapuram's museums are close by."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Varkala",
+      "href": "/blog/things-to-do-in-varkala",
+      "note": "cliff beaches, about an hour north"
+    },
+    {
+      "name": "Things to do in Kanyakumari",
+      "href": "/blog/things-to-do-in-kanyakumari",
+      "note": "India's southern tip, about two hours south"
+    },
+    {
+      "name": "Things to do in Kerala",
+      "href": "/blog/things-to-do-in-kerala",
+      "note": "the whole state"
+    }
+  ],
+  "styles": [
+    "honeymoon",
+    "family-holidays"
+  ],
+  "metaDescription": "Things to do in Kovalam: Lighthouse, Hawa and Samudra beaches, climbing the Vizhinjam lighthouse, Ayurveda, surfing and catamaran rides, the Vizhinjam rock-cut cave temple and more."
+}

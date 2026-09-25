@@ -1,0 +1,265 @@
+{
+  "slug": "things-to-do-in-aurangabad",
+  "destination": "Chhatrapati Sambhajinagar",
+  "guide": "chhatrapati-sambhajinagar-travel-guide",
+  "type": "city",
+  "title": "Things to Do in Aurangabad (Chhatrapati Sambhajinagar): Ajanta, Ellora & Mughal Heritage",
+  "seoTitle": "Things to Do in Aurangabad: Ajanta, Ellora & More | Kudozz Club",
+  "description": "Things to do in Aurangabad (Chhatrapati Sambhajinagar): the Ajanta murals, Ellora's Kailasa temple, Bibi ka Maqbara, Daulatabad Fort, the Aurangabad Caves, Panchakki, Grishneshwar Jyotirlinga, Khuldabad, Paithani and Himroo weaving, and naan qalia.",
+  "dek": "The gateway to two of India's greatest cave sites, a city of Mughal tombs and gates, with a vast hill fort and a Jyotirlinga temple close by.",
+  "primaryKeyword": "things to do in Aurangabad",
+  "secondaryKeywords": [
+    "things to do in Chhatrapati Sambhajinagar",
+    "Ajanta caves",
+    "Ellora caves",
+    "Kailasa temple",
+    "Bibi ka Maqbara",
+    "Daulatabad fort",
+    "Grishneshwar"
+  ],
+  "searchIntent": "Travellers planning two to three days to see Ajanta, Ellora and the city's monuments.",
+  "tags": [
+    "Aurangabad",
+    "Maharashtra",
+    "Heritage",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/maharashtra/maharashtra/ellora-caves-maharashtra.webp",
+    "alt": "Kailasa temple carved from rock at Ellora",
+    "caption": "Ellora"
+  },
+  "intro": [
+    "Chhatrapati Sambhajinagar, known until 2023 as Aurangabad, is a city in central Maharashtra named in its earlier form after the Mughal emperor Aurangzeb, who spent many years here. It is known for its many gates, Mughal tombs and textiles, and above all as the base for visiting the Ajanta and Ellora caves, both UNESCO World Heritage Sites.",
+    "The things to do in Aurangabad start with Ellora's Buddhist, Hindu and Jain caves, including the monolithic Kailasa temple, and Ajanta's painted Buddhist caves. In and around the city are Bibi ka Maqbara, Daulatabad Fort, the Aurangabad Caves, Panchakki and the Grishneshwar Jyotirlinga.",
+    "Plan two to three days: one for Ellora, one for Ajanta and one for the city. October to March is the best time; Ajanta is closed on Mondays and Ellora on Tuesdays."
+  ],
+  "quickAnswer": [
+    "See the painted caves of Ajanta",
+    "Explore Ellora and its Kailasa temple",
+    "Visit Bibi ka Maqbara",
+    "Climb Daulatabad Fort",
+    "See the Aurangabad Caves",
+    "Visit Panchakki, the water mill",
+    "Pray at Grishneshwar Jyotirlinga",
+    "See Aurangzeb's tomb at Khuldabad",
+    "Buy Paithani and Himroo textiles",
+    "Eat naan qalia"
+  ],
+  "sections": [
+    {
+      "id": "caves",
+      "heading": "Ajanta and Ellora",
+      "items": [
+        {
+          "name": "Explore Ellora",
+          "body": [
+            "Ellora, about 30 km away, has 34 caves carved between about the 6th and 10th centuries: Buddhist, Hindu and Jain monuments side by side. The highlight is Cave 16, the Kailasa temple, carved from a single rock from the top down, a colossal temple with courtyards, elephants and towers. The Buddhist Vishvakarma cave and the Jain caves are also superb. Ellora is closed on Tuesdays."
+          ],
+          "links": [
+            {
+              "label": "Ajanta and Ellora guide",
+              "href": "/blog/ajanta-ellora-travel-guide"
+            }
+          ],
+          "facts": {
+            "Time needed": "Half day to full day",
+            "Good to know": "Closed on Tuesdays"
+          }
+        },
+        {
+          "name": "See the Ajanta murals",
+          "image": {
+            "src": "/images/blogs/maharashtra/maharashtra/ajanta-caves-rock-cut-facade-maharashtra.webp",
+            "alt": "Rock-cut façades of the Ajanta caves",
+            "caption": "Ajanta"
+          },
+          "body": [
+            "Ajanta, about 100 km north, has around 30 Buddhist caves cut into a horseshoe-shaped cliff above the Waghur river, from about the 2nd century BCE to the 5th century CE. Their paintings of the Buddha's life and Jataka tales, including the famous Padmapani, are among the finest surviving ancient paintings in the world. Buses run from the visitor centre to the caves. Ajanta is closed on Mondays."
+          ],
+          "facts": {
+            "Time needed": "Full day",
+            "Good to know": "Closed on Mondays; lighting is dim to protect the paintings"
+          }
+        }
+      ]
+    },
+    {
+      "id": "city",
+      "heading": "The city",
+      "items": [
+        {
+          "name": "Visit Bibi ka Maqbara",
+          "image": {
+            "src": "/images/blogs/maharashtra/chhatrapati-sambhajinagar/bibi-ka-maqbara-chhatrapati-sambhajinagar.webp",
+            "alt": "Bibi ka Maqbara, Chhatrapati Sambhajinagar",
+            "caption": "Bibi ka Maqbara"
+          },
+          "body": [
+            "Bibi ka Maqbara, built in the 1660s by Aurangzeb's son Azam Shah in memory of his mother Dilras Banu Begum, is modelled on the Taj Mahal and often called the Taj of the Deccan. It is smaller, with marble only in parts, but the setting in Mughal gardens is lovely."
+          ],
+          "facts": {
+            "Time needed": "1 hour",
+            "Best time": "Late afternoon"
+          }
+        },
+        {
+          "name": "See the Aurangabad Caves",
+          "body": [
+            "The Aurangabad Caves, on a hillside behind Bibi ka Maqbara, are Buddhist caves from around the 6th and 7th centuries with fine sculptures of bodhisattvas and female figures. They are usually quiet and give views over the city."
+          ]
+        },
+        {
+          "name": "Visit Panchakki",
+          "image": {
+            "src": "/images/blogs/maharashtra/chhatrapati-sambhajinagar/panchakki-chhatrapati-sambhajinagar.webp",
+            "alt": "Panchakki water mill, Chhatrapati Sambhajinagar",
+            "caption": "Panchakki"
+          },
+          "body": [
+            "Panchakki is a 17th-century water mill powered by water brought through underground channels from the hills. It stands in a garden near the shrine of the Sufi saint Baba Shah Musafir."
+          ]
+        },
+        {
+          "name": "Walk through the gates and markets",
+          "body": [
+            "The city was known for its 52 gates, several of which survive. The old bazaars sell Himroo shawls, Paithani saris and bidriware."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nearby",
+      "heading": "Nearby",
+      "items": [
+        {
+          "name": "Climb Daulatabad Fort",
+          "image": {
+            "src": "/images/blogs/maharashtra/chhatrapati-sambhajinagar/daulatabad-fort-chhatrapati-sambhajinagar.webp",
+            "alt": "Daulatabad Fort on its conical hill",
+            "caption": "Daulatabad Fort"
+          },
+          "body": [
+            "Daulatabad (Devagiri), about 15 km away on the road to Ellora, is a hill fort on a conical rock surrounded by a moat. Muhammad bin Tughlaq moved his capital here from Delhi in the 14th century. A dark tunnel, the Chand Minar and several gates and walls make the climb to the top memorable."
+          ],
+          "facts": {
+            "Time needed": "2–3 hours",
+            "Good to know": "Steep climb; carry a torch"
+          }
+        },
+        {
+          "name": "Visit Grishneshwar Jyotirlinga",
+          "body": [
+            "The Grishneshwar Temple, near Ellora, is one of the twelve Jyotirlingas, rebuilt in the 18th century by Ahilyabai Holkar in red stone with fine carvings. Men must remove shirts to enter the sanctum."
+          ]
+        },
+        {
+          "name": "See Aurangzeb's tomb at Khuldabad",
+          "body": [
+            "At Khuldabad, near Ellora, the Mughal emperor Aurangzeb is buried in a simple open grave, as he wished, in the complex of a Sufi saint's dargah."
+          ]
+        },
+        {
+          "name": "See Paithani weaving at Paithan",
+          "body": [
+            "Paithan, about 55 km south, is the home of the Paithani silk sari with its peacock and lotus motifs. Weavers' workshops and the Paithani centre show the craft."
+          ]
+        },
+        {
+          "name": "Eat naan qalia",
+          "body": [
+            "Naan qalia, a mutton curry with naan, is the city's signature dish, traced back to the Mughal army's kitchens. Try it in the old city."
+          ],
+          "facts": {
+            "Good for": "Food lovers"
+          }
+        }
+      ]
+    },
+    {
+      "id": "seasons",
+      "heading": "By season",
+      "items": [
+        {
+          "name": "October to March",
+          "body": [
+            "Pleasant weather for the caves and fort climbs; the most popular time."
+          ]
+        },
+        {
+          "name": "April to June",
+          "body": [
+            "Very hot; visit the caves early in the morning."
+          ]
+        },
+        {
+          "name": "July to September",
+          "body": [
+            "The monsoon brings waterfalls at Ajanta and green hills, a lovely time if you do not mind the rain."
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "History lovers",
+      "text": "A full day each for Ajanta and Ellora, plus Daulatabad and Bibi ka Maqbara."
+    },
+    {
+      "who": "Pilgrims",
+      "text": "Grishneshwar Jyotirlinga with Ellora, and Shirdi on the way."
+    },
+    {
+      "who": "Families",
+      "text": "Ellora and Daulatabad in one day, Bibi ka Maqbara and Panchakki in the evening."
+    }
+  ],
+  "oneDay": "Leave early for Daulatabad Fort, then continue to Ellora for the Kailasa temple and the Buddhist and Jain caves. Visit Grishneshwar and Khuldabad on the way back, and end at Bibi ka Maqbara in the late afternoon.",
+  "tips": [
+    "The city has an airport and a railway station; Ajanta is about two and a half hours away by road.",
+    "Remember closing days: Ajanta on Mondays, Ellora on Tuesdays.",
+    "Carry water and a hat; the caves involve walking in the sun.",
+    "Hire a licensed guide at Ajanta and Ellora to understand the art."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Aurangabad?",
+      "a": "See the Ajanta murals and Ellora's Kailasa temple, visit Bibi ka Maqbara, climb Daulatabad Fort, see the Aurangabad Caves and Panchakki, visit Grishneshwar and eat naan qalia."
+    },
+    {
+      "q": "Is Aurangabad now called Chhatrapati Sambhajinagar?",
+      "a": "Yes. The city was officially renamed Chhatrapati Sambhajinagar in 2023."
+    },
+    {
+      "q": "Can Ajanta and Ellora be done in one day?",
+      "a": "It is possible but rushed, as they are in opposite directions. A day for each is much better."
+    },
+    {
+      "q": "When are Ajanta and Ellora closed?",
+      "a": "Ajanta is closed on Mondays and Ellora on Tuesdays."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Ajanta and Ellora",
+      "href": "/blog/ajanta-ellora-travel-guide",
+      "note": "the caves in detail"
+    },
+    {
+      "name": "Shirdi",
+      "href": "/blog/shirdi-travel-guide",
+      "note": "Sai Baba's town, about two and a half hours away"
+    },
+    {
+      "name": "Things to do in Nashik",
+      "href": "/blog/things-to-do-in-nashik",
+      "note": "temples and vineyards"
+    }
+  ],
+  "styles": [
+    "group-tours",
+    "family-holidays"
+  ],
+  "metaDescription": "Things to do in Aurangabad (Chhatrapati Sambhajinagar): the Ajanta murals, Ellora's Kailasa temple, Bibi ka Maqbara, Daulatabad Fort, the Aurangabad Caves, Panchakki and more."
+}

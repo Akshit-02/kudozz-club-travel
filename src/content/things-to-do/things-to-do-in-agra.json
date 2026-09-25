@@ -1,0 +1,306 @@
+{
+  "slug": "things-to-do-in-agra",
+  "destination": "Agra",
+  "guide": "agra-travel-guide",
+  "type": "heritage city",
+  "title": "Things to Do in Agra: The Taj Mahal and Beyond",
+  "seoTitle": "Things to Do in Agra: Taj Mahal, Agra Fort & More | Kudozz Club",
+  "description": "The best things to do in Agra: the Taj Mahal at sunrise, Agra Fort, the Baby Taj, sunset from Mehtab Bagh, Fatehpur Sikri, Akbar's tomb at Sikandra, marble inlay workshops, petha and Mughlai food.",
+  "dek": "Most people come for one building. Stay a little longer and Agra reveals a Mughal fort, a jewel-box tomb, a garden built to face the Taj across the river and an abandoned red sandstone capital.",
+  "primaryKeyword": "things to do in Agra",
+  "secondaryKeywords": [
+    "places to visit in Agra",
+    "Taj Mahal sunrise",
+    "Agra Fort",
+    "Mehtab Bagh sunset",
+    "Fatehpur Sikri day trip",
+    "Agra in one day"
+  ],
+  "searchIntent": "First-time visitors, often on the Golden Triangle, deciding whether to stay one day or two in Agra and what to see beyond the Taj Mahal.",
+  "tags": [
+    "Agra",
+    "Uttar Pradesh",
+    "Taj Mahal",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/uttar-pradesh/uttar-pradesh/agra-uttar-pradesh.webp",
+    "alt": "The Taj Mahal in Agra, Uttar Pradesh"
+  },
+  "intro": [
+    "Agra, on the Yamuna river in western Uttar Pradesh, was the capital of the Mughal Empire for much of the 16th and 17th centuries. That period left the city three UNESCO World Heritage Sites: the Taj Mahal, Agra Fort and, 40 km away, Fatehpur Sikri.",
+    "Many visitors arrive from Delhi, see the Taj and leave the same day. That works, but it misses a great deal. With two days you can see the Taj at sunrise and sunset from different sides, explore Agra Fort, visit the delicate tomb of Itmad-ud-Daulah, walk around Fatehpur Sikri and eat properly.",
+    "Remember that the Taj Mahal is closed on Fridays."
+  ],
+  "quickAnswer": [
+    "See the Taj Mahal at sunrise, right at opening time",
+    "Explore Agra Fort, where Shah Jahan spent his last years",
+    "Visit Itmad-ud-Daulah, the 'Baby Taj'",
+    "Watch sunset over the Taj from Mehtab Bagh across the river",
+    "Take a day trip to Fatehpur Sikri",
+    "See Akbar's tomb at Sikandra",
+    "Watch marble inlay (pietra dura) being made",
+    "Eat bedai and jalebi for breakfast and buy Agra petha"
+  ],
+  "sections": [
+    {
+      "id": "taj",
+      "heading": "The Taj Mahal",
+      "items": [
+        {
+          "name": "See the Taj Mahal at sunrise",
+          "body": [
+            "Shah Jahan built the Taj Mahal between 1632 and around 1653 as a tomb for his wife Mumtaz Mahal. Nothing prepares you for seeing it through the arch of the Great Gate. The marble changes colour through the day, from soft pink at dawn to bright white at noon and warm gold towards evening.",
+            "Arrive at opening time, around sunrise. The light is best, the heat has not set in and the complex is at its quietest before tour groups arrive. Go inside the main mausoleum to see the cenotaphs and the pietra dura inlay up close, and walk to the mosque and guest house on either side for different angles."
+          ],
+          "facts": {
+            "Where": "South bank of the Yamuna, Taj Ganj",
+            "Time needed": "2–3 hours",
+            "Best time": "Sunrise",
+            "Good to know": "Closed on Fridays; no food, tobacco or large bags allowed; vehicles stop some distance from the gates"
+          }
+        },
+        {
+          "name": "Watch sunset from Mehtab Bagh",
+          "image": {
+            "src": "/images/blogs/uttar-pradesh/agra/mehtab-bagh-garden-taj-mahal-view.webp",
+            "alt": "View of the Taj Mahal across the Yamuna from Mehtab Bagh, Agra",
+            "caption": "The Taj from Mehtab Bagh"
+          },
+          "body": [
+            "Mehtab Bagh, the Moonlight Garden, is a Mughal garden on the opposite bank of the Yamuna, aligned exactly with the Taj. From here you see the back of the Taj reflected in the river without the crowds, and it is the best place in Agra to watch the sun go down."
+          ],
+          "facts": {
+            "Time needed": "1 hour",
+            "Best time": "Late afternoon to sunset",
+            "Good for": "Couples, photographers"
+          }
+        },
+        {
+          "name": "View the Taj by moonlight",
+          "body": [
+            "On a few nights around each full moon (not on Fridays or during Ramzan), a limited number of visitors are admitted in small time slots for night viewing. Tickets must be booked in advance through the Archaeological Survey of India, and numbers are very limited."
+          ],
+          "facts": {
+            "Good to know": "Book well ahead; check dates with the ASI"
+          }
+        }
+      ]
+    },
+    {
+      "id": "mughal-agra",
+      "heading": "Mughal monuments beyond the Taj",
+      "items": [
+        {
+          "name": "Explore Agra Fort",
+          "image": {
+            "src": "/images/blogs/uttar-pradesh/agra/agra-fort-red-sandstone-ramparts-yamuna.webp",
+            "alt": "Red sandstone ramparts of Agra Fort beside the Yamuna",
+            "caption": "Agra Fort"
+          },
+          "body": [
+            "Agra Fort was the main residence of the Mughal emperors until the capital moved to Delhi. Akbar built its red sandstone walls in the 1560s, and Shah Jahan added the white marble palaces inside, including the Diwan-i-Aam, the Diwan-i-Khas and the Musamman Burj. It was from this octagonal tower that Shah Jahan, imprisoned by his son Aurangzeb, is said to have gazed at the Taj Mahal until his death.",
+            "The fort is huge; give it at least two hours, and consider a licensed guide to bring the stories to life."
+          ],
+          "facts": {
+            "Where": "About 2.5 km upriver from the Taj",
+            "Time needed": "2 hours",
+            "Good for": "Everyone"
+          }
+        },
+        {
+          "name": "Visit Itmad-ud-Daulah, the Baby Taj",
+          "image": {
+            "src": "/images/blogs/uttar-pradesh/agra/itmad-ud-daulah-baby-taj-marble-tomb.webp",
+            "alt": "Marble tomb of Itmad-ud-Daulah, the Baby Taj, in Agra",
+            "caption": "Itmad-ud-Daulah"
+          },
+          "body": [
+            "Built by Empress Nur Jahan for her father between 1622 and 1628, this riverside tomb was the first Mughal building faced entirely in white marble with pietra dura inlay, and it anticipates the Taj Mahal. It is small, beautifully detailed and usually quiet."
+          ],
+          "facts": {
+            "Where": "East bank of the Yamuna",
+            "Time needed": "45 minutes",
+            "Good for": "Architecture lovers"
+          }
+        },
+        {
+          "name": "See Akbar's tomb at Sikandra",
+          "body": [
+            "Akbar's tomb at Sikandra, on the edge of Agra, sits in a large walled garden where blackbuck and langurs roam. The gateway, with its four white marble minarets, is one of the most striking pieces of Mughal architecture in the city. It is often missed and is well worth an hour."
+          ],
+          "facts": {
+            "Where": "Sikandra, about 10 km north-west of the centre",
+            "Time needed": "1 hour"
+          }
+        },
+        {
+          "name": "Stop at Chini ka Rauza",
+          "body": [
+            "A short way north of Itmad-ud-Daulah, this 17th-century tomb of Shah Jahan's prime minister is decorated with coloured glazed tiles in a Persian style unusual in Agra. It is a quick stop on the same bank of the river."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day-trip",
+      "heading": "Day trips from Agra",
+      "items": [
+        {
+          "name": "Walk through Fatehpur Sikri",
+          "body": [
+            "Akbar built Fatehpur Sikri as his new capital in the 1570s, then abandoned it within about 15 years. The red sandstone palace complex, including the Diwan-i-Khas with its carved central pillar, the Panch Mahal and Jodha Bai's palace, is remarkably intact. Next to it, the Jama Masjid and the white marble tomb of the Sufi saint Salim Chishti are still in active use.",
+            "It is about 40 km from Agra and fits on the way to Jaipur or Bharatpur."
+          ],
+          "facts": {
+            "Where": "40 km west of Agra",
+            "Time needed": "3–4 hours",
+            "Good for": "History lovers"
+          },
+          "links": [
+            {
+              "label": "Fatehpur Sikri travel guide",
+              "href": "/blog/fatehpur-sikri-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Visit Mathura and Vrindavan",
+          "body": [
+            "The towns associated with Krishna's birth and childhood are about an hour north of Agra, on the road to Delhi. They are especially lively around Janmashtami and Holi."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Mathura",
+              "href": "/blog/things-to-do-in-mathura"
+            },
+            {
+              "label": "Things to do in Vrindavan",
+              "href": "/blog/things-to-do-in-vrindavan"
+            }
+          ]
+        },
+        {
+          "name": "See the birds at Keoladeo, Bharatpur",
+          "body": [
+            "Keoladeo National Park in Bharatpur, about an hour from Agra, is a UNESCO-listed wetland and one of the best birdwatching sites in Asia in winter."
+          ],
+          "links": [
+            {
+              "label": "Bharatpur travel guide",
+              "href": "/blog/bharatpur-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "food-crafts",
+      "heading": "Food and crafts",
+      "items": [
+        {
+          "name": "Watch marble inlay being made",
+          "image": {
+            "src": "/images/blogs/uttar-pradesh/agra/pietra-dura-marble-inlay-detail.webp",
+            "alt": "Pietra dura marble inlay of coloured stones in floral patterns",
+            "caption": "Pietra dura inlay"
+          },
+          "body": [
+            "Agra's artisans still practise pietra dura, cutting semi-precious stones into thin slivers and setting them into marble, the same technique used on the Taj. Watching the cutting and polishing is interesting in itself.",
+            "Be careful when buying. Buy from government emporiums or well-established workshops, and be wary of drivers or guides who insist on taking you to a particular shop."
+          ],
+          "facts": {
+            "Good for": "Craft lovers"
+          }
+        },
+        {
+          "name": "Eat an Agra breakfast and buy petha",
+          "body": [
+            "Agra's classic breakfast is bedai, a puffed, spiced fried bread served with potato curry, followed by jalebi. Petha, a translucent sweet made from ash gourd, is sold in dozens of flavours across the city and is the gift everyone takes home. For dinner, Mughlai curries and kebabs are the local speciality."
+          ],
+          "facts": {
+            "Best time": "Morning for bedai"
+          }
+        },
+        {
+          "name": "Watch the Mohabbat the Taj show",
+          "body": [
+            "A long-running stage show near the Taj tells the story of Shah Jahan and Mumtaz Mahal with costumes and sets. It is theatrical and popular with families."
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Couples",
+      "text": "Sunrise at the Taj, sunset from Mehtab Bagh and, if dates allow, a moonlight viewing. Stay at a hotel with a Taj view for the full effect."
+    },
+    {
+      "who": "Families",
+      "text": "The Taj, Agra Fort's ramparts and Fatehpur Sikri's courtyards give children plenty of space. Keep sightseeing to mornings and late afternoons in the warmer months."
+    },
+    {
+      "who": "Golden Triangle travellers",
+      "text": "Stay at least one night so you can see the Taj at sunrise. Fatehpur Sikri fits neatly on the drive to Jaipur."
+    }
+  ],
+  "oneDay": "Enter the Taj Mahal at sunrise and spend two hours there. After breakfast, see Agra Fort, then cross the river for Itmad-ud-Daulah and lunch. In the afternoon, visit Akbar's tomb at Sikandra or a marble inlay workshop, and finish at Mehtab Bagh for sunset over the Taj.",
+  "tips": [
+    "The Taj Mahal is closed every Friday; Agra Fort and other monuments stay open.",
+    "Book Taj tickets online to skip the ticket queue, and carry only essentials, as security is strict.",
+    "Agree on fares and guide fees before starting, and use licensed guides from the official counters.",
+    "Fast trains from Delhi reach Agra in about 100 to 120 minutes, making a day trip possible, though an overnight stay is more relaxed.",
+    "Wear shoes that are easy to take off, or use the shoe covers provided, for the Taj mausoleum."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Agra?",
+      "a": "See the Taj Mahal at sunrise, explore Agra Fort, visit Itmad-ud-Daulah, watch sunset from Mehtab Bagh, take a day trip to Fatehpur Sikri and see Akbar's tomb at Sikandra."
+    },
+    {
+      "q": "Is one day enough for Agra?",
+      "a": "One full day covers the Taj Mahal and Agra Fort. Two days is better if you want to add Itmad-ud-Daulah, Mehtab Bagh and Fatehpur Sikri without rushing."
+    },
+    {
+      "q": "What is the best time to see the Taj Mahal?",
+      "a": "Sunrise, right at opening time, when the light is soft, the heat is low and crowds are thinnest. The Taj is closed on Fridays."
+    },
+    {
+      "q": "What else is there to do in Agra besides the Taj Mahal?",
+      "a": "Agra Fort, Itmad-ud-Daulah (the Baby Taj), Mehtab Bagh, Akbar's tomb at Sikandra, Chini ka Rauza, marble inlay workshops and Agra's food, plus day trips to Fatehpur Sikri, Mathura, Vrindavan and Bharatpur."
+    },
+    {
+      "q": "What is the best time of year to visit Agra?",
+      "a": "October to March is the most comfortable. April to June is very hot, and the monsoon months are humid but quieter."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Fatehpur Sikri",
+      "href": "/blog/fatehpur-sikri-travel-guide",
+      "note": "Akbar's abandoned capital, 40 km west"
+    },
+    {
+      "name": "Things to do in Mathura",
+      "href": "/blog/things-to-do-in-mathura",
+      "note": "Krishna's birthplace, about an hour north"
+    },
+    {
+      "name": "Things to do in Jaipur",
+      "href": "/blog/things-to-do-in-jaipur",
+      "note": "the third point of the Golden Triangle"
+    },
+    {
+      "name": "Things to do in Delhi",
+      "href": "/blog/things-to-do-in-delhi",
+      "note": "about two to three hours by expressway or fast train"
+    }
+  ],
+  "styles": [
+    "family-holidays",
+    "honeymoon",
+    "luxury-holidays"
+  ],
+  "metaDescription": "The best things to do in Agra: the Taj Mahal at sunrise, Agra Fort, the Baby Taj, sunset from Mehtab Bagh, Fatehpur Sikri, Akbar's tomb at Sikandra, marble inlay workshops and more."
+}

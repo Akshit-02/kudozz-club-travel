@@ -1,0 +1,260 @@
+{
+  "slug": "things-to-do-in-daman",
+  "destination": "Daman",
+  "guide": "daman-travel-guide",
+  "type": "coastal town",
+  "title": "Things to Do in Daman: Portuguese Forts, Churches, Beaches & Lake Gardens",
+  "seoTitle": "Things to Do in Daman: Forts, Churches & Beaches | Kudozz Club",
+  "description": "Things to do in Daman: the forts of Moti Daman and Nani Daman, the Bom Jesus Church, Our Lady of the Sea Church, the lighthouse, Devka and Jampore beaches, Mirasol and Vanganga lake gardens, the Daman Ganga riverfront and seafood.",
+  "dek": "A former Portuguese enclave on Gujarat's southern coast, with two walled forts facing each other across a river and beaches popular for weekend breaks.",
+  "primaryKeyword": "things to do in Daman",
+  "secondaryKeywords": [
+    "places to visit in Daman",
+    "Moti Daman Fort",
+    "Nani Daman Fort",
+    "Devka beach",
+    "Jampore beach",
+    "Bom Jesus Church Daman"
+  ],
+  "searchIntent": "Weekenders from Mumbai, Surat and Vapi planning one or two days in Daman.",
+  "tags": [
+    "Daman",
+    "Daman and Diu",
+    "Beach",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/daman/devka-beach-sunset-tidal-flats.webp",
+    "alt": "Devka beach at sunset, Daman",
+    "caption": "Devka beach"
+  },
+  "intro": [
+    "Daman, on the Gulf of Khambhat about 190 km north of Mumbai, was held by the Portuguese from 1559 until 1961 and is now part of the union territory of Dadra and Nagar Haveli and Daman and Diu. The Daman Ganga river divides it into Moti (big) Daman and Nani (small) Daman, each with its own fort.",
+    "The things to do in Daman include walking the walls of Moti Daman's fort, with its baroque church and lighthouse, the Fort of St Jerome in Nani Daman, beaches such as Devka and Jampore, and lake gardens for families. It is a popular weekend escape, partly because its liquor laws differ from neighbouring Gujarat.",
+    "One or two days is enough. October to March is the best time."
+  ],
+  "quickAnswer": [
+    "Walk the walls of Moti Daman Fort",
+    "See the Bom Jesus Church",
+    "Climb near the lighthouse",
+    "Visit the Fort of St Jerome in Nani Daman",
+    "See Our Lady of the Sea Church",
+    "Walk the Devka beach promenade",
+    "Relax at Jampore beach",
+    "Visit Mirasol and Vanganga lake gardens",
+    "Walk along the Daman Ganga riverfront",
+    "Eat seafood"
+  ],
+  "sections": [
+    {
+      "id": "forts",
+      "heading": "Forts and churches",
+      "items": [
+        {
+          "name": "Walk the walls of Moti Daman Fort",
+          "body": [
+            "The fort of Moti Daman, completed in the late 16th century, encloses government buildings, old houses and churches within walls and bastions. Walking along the ramparts gives views of the river, the sea and Nani Daman.",
+            "Inside, quiet lanes lead past old Portuguese houses with tiled roofs, government offices in colonial buildings, and small squares with statues. It is peaceful in the mornings, when few visitors are around."
+          ],
+          "image": {
+            "src": "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/daman/daman.webp",
+            "alt": "Moti Daman fort walls",
+            "caption": "Moti Daman"
+          },
+          "facts": {
+            "Time needed": "1.5 hours",
+            "Best time": "Morning or late afternoon"
+          }
+        },
+        {
+          "name": "See the Bom Jesus Church",
+          "body": [
+            "The Bom Jesus Church, built in 1603 inside Moti Daman fort, has a grand baroque façade and a finely carved and gilded altar."
+          ]
+        },
+        {
+          "name": "See the lighthouse and Chapel of Our Lady of Rosary",
+          "body": [
+            "The lighthouse inside the fort gives views over the coast, and the small Chapel of Our Lady of Rosary has remarkable carved and painted wooden panels."
+          ]
+        },
+        {
+          "name": "Visit the Fort of St Jerome",
+          "body": [
+            "The Fort of St Jerome in Nani Daman, smaller than Moti Daman's, has a massive gateway with a statue of St Jerome and giant human figures. Inside are the Church of Our Lady of the Sea and a cemetery.",
+            "The fort was built in the 17th century to protect Nani Daman from Mughal attacks. Its walls look over the river mouth, and the grotto and cemetery inside are quiet and atmospheric."
+          ],
+          "image": {
+            "src": "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/daman/fort-of-st-jerome-gate-daman.webp",
+            "alt": "Gateway of the Fort of St Jerome, Nani Daman",
+            "caption": "Fort of St Jerome"
+          }
+        }
+      ]
+    },
+    {
+      "id": "beaches",
+      "heading": "Beaches",
+      "items": [
+        {
+          "name": "Walk the Devka beach promenade",
+          "body": [
+            "Devka beach has a landscaped promenade with gardens, fountains, lights and an amusement park. The tide goes out a long way, exposing rocky flats. Swimming is not recommended because of currents and rocks.",
+            "The promenade is lit up at night with coloured lights and fountains, and it is busy with families and food stalls. Early mornings are calm, when joggers and walkers have it to themselves."
+          ],
+          "facts": {
+            "Best time": "Evening",
+            "Good to know": "Not suited to swimming"
+          }
+        },
+        {
+          "name": "Relax at Jampore beach",
+          "body": [
+            "Jampore beach, south of Moti Daman, is quieter, with casuarina trees and water sports in season.",
+            "The beach is best at low tide for long walks, and at sunset when fishermen bring their boats in. Small stalls sell snacks and coconut water."
+          ],
+          "facts": {
+            "Good for": "Families"
+          }
+        }
+      ]
+    },
+    {
+      "id": "gardens-food",
+      "heading": "Gardens, river and food",
+      "items": [
+        {
+          "name": "Visit Mirasol and Vanganga lake gardens",
+          "body": [
+            "Mirasol Lake Garden has islands, boating and a water park. Vanganga Lake Garden has bridges and walking paths around a lake, popular with families."
+          ],
+          "image": {
+            "src": "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/daman/vanganga-lake-garden-daman.webp",
+            "alt": "Vanganga Lake Garden, Daman",
+            "caption": "Vanganga Lake Garden"
+          },
+          "facts": {
+            "Good for": "Families"
+          }
+        },
+        {
+          "name": "Walk along the Daman Ganga",
+          "body": [
+            "The riverfront between the two forts is lively in the evening, with fishing boats and views of the forts. The jetty garden is a pleasant spot."
+          ],
+          "facts": {
+            "Best time": "Evening"
+          }
+        },
+        {
+          "name": "Eat seafood",
+          "body": [
+            "Daman's restaurants serve fresh pomfret, prawns, crab and lobster in Goan, Gujarati and Parsi styles.",
+            "Try the local Daman style of fish curry with coconut and kokum, bombil (Bombay duck) fry and prawn balchão, a pickle-like dish of Goan and Portuguese origin."
+          ],
+          "facts": {
+            "Good for": "Food lovers"
+          }
+        }
+      ]
+    },
+    {
+      "id": "seasons",
+      "heading": "By season",
+      "items": [
+        {
+          "name": "October to March",
+          "body": [
+            "Pleasant weather and calmer seas; the best time to visit."
+          ]
+        },
+        {
+          "name": "April to June",
+          "body": [
+            "Hot and humid."
+          ]
+        },
+        {
+          "name": "July to September",
+          "body": [
+            "Heavy monsoon rain and rough seas."
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Weekenders",
+      "text": "The forts in the morning, Jampore in the afternoon and the Devka promenade in the evening."
+    },
+    {
+      "who": "Families",
+      "text": "Mirasol and Vanganga gardens, Devka's amusement park and the forts."
+    },
+    {
+      "who": "History lovers",
+      "text": "The two forts, their churches and the old houses of Moti Daman."
+    },
+    {
+      "who": "Couples",
+      "text": "A beach resort at Jampore, sunset on the riverfront and a quiet walk through Moti Daman's old lanes."
+    }
+  ],
+  "oneDay": "Walk the walls of Moti Daman Fort and visit the Bom Jesus Church in the morning. Cross to Nani Daman for the Fort of St Jerome, then relax at Jampore beach after lunch, and end with the Devka beach promenade in the evening.",
+  "tips": [
+    "Vapi, about 12 km away, is the nearest major railway station; Surat and Mumbai have the nearest airports.",
+    "Carry ID; there are checkposts at the Gujarat border.",
+    "Swim only where it is safe and permitted.",
+    "Weekends are busy; book stays early.",
+    "Evenings on the promenade are busy on weekends; weekdays are quieter."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Daman?",
+      "a": "Walk the walls of Moti Daman Fort, see the Bom Jesus Church and the lighthouse, visit the Fort of St Jerome, relax at Devka and Jampore beaches, visit the lake gardens and eat seafood."
+    },
+    {
+      "q": "How far is Daman from Mumbai?",
+      "a": "About 190 km, roughly four hours by road."
+    },
+    {
+      "q": "How many days are enough for Daman?",
+      "a": "One to two days."
+    },
+    {
+      "q": "What is the best time to visit Daman?",
+      "a": "October to March."
+    },
+    {
+      "q": "Is Daman good for a family weekend?",
+      "a": "Yes. The forts, lake gardens, Devka's amusement park and Jampore beach make an easy family break close to Mumbai and Surat."
+    },
+    {
+      "q": "Can you swim at Devka beach?",
+      "a": "It is not recommended, because of strong currents and rocky flats at low tide. Jampore beach is calmer, but swim only where it is safe."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Diu",
+      "href": "/blog/things-to-do-in-diu",
+      "note": "the other Portuguese island"
+    },
+    {
+      "name": "Things to do in Surat",
+      "href": "/blog/things-to-do-in-surat",
+      "note": "food and heritage"
+    },
+    {
+      "name": "Things to do in Mumbai",
+      "href": "/blog/things-to-do-in-mumbai",
+      "note": "about four hours south"
+    }
+  ],
+  "styles": [
+    "weekend-getaways",
+    "family-holidays"
+  ],
+  "metaDescription": "Things to do in Daman: the forts of Moti Daman and Nani Daman, the Bom Jesus Church, Our Lady of the Sea Church, the lighthouse, Devka and Jampore beaches and more."
+}

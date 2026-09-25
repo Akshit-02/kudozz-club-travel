@@ -1,0 +1,250 @@
+{
+  "slug": "things-to-do-in-jammu",
+  "destination": "Jammu",
+  "guide": "jammu-travel-guide",
+  "type": "city",
+  "title": "Things to Do in Jammu: Temples, Dogra Palaces & the Road to Vaishno Devi",
+  "seoTitle": "Things to Do in Jammu: Temples, Palaces & Food | Kudozz Club",
+  "description": "Things to do in Jammu: Raghunath Temple, Bahu Fort and Bagh-e-Bahu, Mubarak Mandi Palace, Amar Mahal Museum, Peer Kho and Ranbireshwar temples, Dogra food, Mansar and Surinsar lakes, and trips to Vaishno Devi and Shiv Khori.",
+  "dek": "The winter capital of Jammu and Kashmir and the old seat of the Dogra kings, known as the city of temples and the gateway to Vaishno Devi.",
+  "primaryKeyword": "things to do in Jammu",
+  "secondaryKeywords": [
+    "places to visit in Jammu",
+    "Raghunath Temple",
+    "Bahu Fort",
+    "Amar Mahal Palace",
+    "Mansar Lake",
+    "Jammu food",
+    "Jammu to Vaishno Devi"
+  ],
+  "searchIntent": "Pilgrims and travellers passing through Jammu on the way to Katra, Patnitop or Kashmir, with one or two days to see the city.",
+  "tags": [
+    "Jammu",
+    "Jammu & Kashmir",
+    "Temples",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/destinations/jammu-kashmir/raghunath-temple-shikhara-jammu.webp",
+    "alt": "Gilded spires of the Raghunath Temple, Jammu",
+    "caption": "Raghunath Temple"
+  },
+  "intro": [
+    "Jammu, on the Tawi river where the plains meet the Shivalik hills, is the winter capital of Jammu and Kashmir and the largest city of the Jammu region. It was the capital of the Dogra dynasty, whose rulers built its main temples and palaces in the 19th century, and it is often called the city of temples.",
+    "Most travellers pass through Jammu on the way to the Vaishno Devi shrine near Katra, but the city is worth a day of its own. The things to do in Jammu include the Raghunath Temple complex, Bahu Fort above the Tawi, the Mubarak Mandi and Amar Mahal palaces, cave temples and Dogra food. Mansar and Surinsar lakes make pleasant half-day trips.",
+    "One day covers the main sights; two days adds the palaces and a lake. October to March is the most comfortable time; summers are very hot."
+  ],
+  "quickAnswer": [
+    "Visit the Raghunath Temple complex",
+    "See Bahu Fort and the Bawe Wali Mata temple",
+    "Walk in Bagh-e-Bahu gardens above the Tawi",
+    "Tour the Amar Mahal Palace Museum",
+    "See the Mubarak Mandi palace complex",
+    "Visit the Peer Kho cave temple and Ranbireshwar Temple",
+    "Eat Dogra food: kalari, rajma and khatta meat",
+    "Take a trip to Mansar and Surinsar lakes",
+    "Continue to Vaishno Devi via Katra"
+  ],
+  "sections": [
+    {
+      "id": "temples",
+      "heading": "Temples",
+      "items": [
+        {
+          "name": "Visit the Raghunath Temple",
+          "body": [
+            "The Raghunath Temple, begun by Maharaja Gulab Singh and completed by his son Ranbir Singh in the mid-19th century, is one of the largest temple complexes in North India. It is dedicated to Rama, and its seven shrines hold a remarkable number of lingams and saligrams. The gilded spires and the bazaar around it are the heart of old Jammu.",
+            "Security is tight: phones, cameras and bags usually have to be deposited in lockers outside."
+          ],
+          "facts": {
+            "Time needed": "1 hour",
+            "Good for": "Pilgrims, history lovers",
+            "Good to know": "Deposit phones and bags outside"
+          }
+        },
+        {
+          "name": "See the Ranbireshwar Temple",
+          "body": [
+            "The Ranbireshwar Temple, built by Maharaja Ranbir Singh in 1883, is dedicated to Shiva and has a tall central lingam and many smaller crystal lingams. It is near the Secretariat on Shalimar Road."
+          ],
+          "facts": {
+            "Time needed": "30 minutes"
+          }
+        },
+        {
+          "name": "Visit Peer Kho cave temple",
+          "body": [
+            "Peer Kho, on the banks of the Tawi, is a cave temple with a naturally formed lingam. Legend links it to Jambavan of the Ramayana. The cave and the river views make it a peaceful stop."
+          ],
+          "facts": {
+            "Time needed": "45 minutes"
+          }
+        }
+      ]
+    },
+    {
+      "id": "forts-palaces",
+      "heading": "Forts and palaces",
+      "items": [
+        {
+          "name": "See Bahu Fort and Bawe Wali Mata",
+          "image": {
+            "src": "/images/destinations/jammu-kashmir/bahu-fort-jammu-sunset.webp",
+            "alt": "Bahu Fort above the Tawi river at sunset, Jammu",
+            "caption": "Bahu Fort"
+          },
+          "body": [
+            "Bahu Fort, on a rocky outcrop on the left bank of the Tawi, is one of the oldest structures in Jammu. Inside is the Bawe Wali Mata temple dedicated to Kali, which is especially crowded on Tuesdays and Sundays and during Navratri.",
+            "Below the fort, Bagh-e-Bahu is a terraced garden with fountains and views across the river to the city, and it has an aquarium popular with families."
+          ],
+          "facts": {
+            "Time needed": "2 hours",
+            "Best time": "Late afternoon to sunset",
+            "Good for": "Families, pilgrims"
+          }
+        },
+        {
+          "name": "Tour Amar Mahal Palace Museum",
+          "body": [
+            "Amar Mahal, a red sandstone palace built in the 1890s for Raja Amar Singh in the style of a French chateau, overlooks the Tawi. It is now a museum with Pahari miniature paintings, a library and a golden throne said to weigh about 120 kg of gold. Check opening days; it is closed on certain days of the week."
+          ],
+          "facts": {
+            "Time needed": "1.5 hours",
+            "Good for": "Art and history lovers"
+          }
+        },
+        {
+          "name": "See Mubarak Mandi",
+          "image": {
+            "src": "/images/destinations/jammu-kashmir/mubarak-mandi-palace-facade.webp",
+            "alt": "Façade of the Mubarak Mandi palace complex, Jammu",
+            "caption": "Mubarak Mandi"
+          },
+          "body": [
+            "The Mubarak Mandi complex was the royal residence of the Dogra rulers from the early 19th century, a mix of Rajasthani, Mughal and European styles. Parts of it are being restored after years of neglect, and the Dogra Art Museum has been housed in its Pink Hall. It is a striking place to walk through, though some sections may be closed for work."
+          ],
+          "facts": {
+            "Time needed": "1 hour",
+            "Good to know": "Parts under restoration"
+          }
+        }
+      ]
+    },
+    {
+      "id": "food-trips",
+      "heading": "Food and day trips",
+      "items": [
+        {
+          "name": "Eat Dogra food",
+          "body": [
+            "Jammu's food is quite different from Kashmiri cuisine. Try kalari (a local cheese, pan-fried and served in a kulcha), rajma chawal made with Bhaderwah rajma, khatta meat (mutton in a sour sauce), ambal (sweet-sour pumpkin) and auriya (a mustard-flavoured yoghurt dish). Sweets shops in the old city sell patisa and other treats."
+          ],
+          "facts": {
+            "Good for": "Food lovers"
+          }
+        },
+        {
+          "name": "Visit Mansar and Surinsar lakes",
+          "body": [
+            "Mansar Lake, about 60 km from Jammu, is ringed by forested hills and has temples on its banks, including shrines linked to the serpent deity Sheshnag. Surinsar, a smaller lake nearby, is quieter. Both have boating and walking paths and make an easy half-day trip."
+          ],
+          "facts": {
+            "Time needed": "Half a day",
+            "Good for": "Families"
+          }
+        },
+        {
+          "name": "Go to Vaishno Devi",
+          "body": [
+            "The Vaishno Devi shrine, one of the most visited pilgrimage sites in India, is reached from Katra, about 50 km from Jammu. The trek to the Bhawan is about 12 km each way, with ponies, palkis, battery cars on part of the route and helicopter services to Sanjichhat. Registration is required."
+          ],
+          "links": [
+            {
+              "label": "Katra and Vaishno Devi guide",
+              "href": "/blog/katra-travel-guide"
+            }
+          ],
+          "facts": {
+            "Time needed": "1–2 days",
+            "Good for": "Pilgrims, families"
+          }
+        },
+        {
+          "name": "See Shiv Khori",
+          "body": [
+            "Shiv Khori, in Reasi district about three to four hours from Jammu, is a long natural cave with a lingam formed inside. The walk from Ransoo to the cave is about 3 km. It is busy around Mahashivratri."
+          ],
+          "facts": {
+            "Time needed": "Full day"
+          }
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Pilgrims",
+      "text": "Visit Raghunath Temple and Bawe Wali Mata before continuing to Katra for Vaishno Devi, and add Shiv Khori if time allows."
+    },
+    {
+      "who": "Families",
+      "text": "Bagh-e-Bahu's gardens and aquarium, Mansar Lake and the palace museum make a good day."
+    },
+    {
+      "who": "Culture lovers",
+      "text": "Amar Mahal's Pahari paintings, Mubarak Mandi and Dogra food in the old city."
+    }
+  ],
+  "oneDay": "Visit the Raghunath Temple in the morning and walk through Raghunath Bazaar. Drive to Amar Mahal Palace Museum, then have a Dogra lunch. In the afternoon, see Peer Kho, and finish at Bahu Fort and Bagh-e-Bahu for sunset over the Tawi.",
+  "tips": [
+    "Jammu Tawi is a major railway station and Jammu has an airport; Katra has its own station for Vaishno Devi.",
+    "Summers (April to June) are very hot; plan sightseeing for mornings and evenings.",
+    "Most temples ban phones, cameras and leather items; use lockers.",
+    "Prepaid SIM cards from other states do not work in J&K; carry a postpaid connection."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Jammu?",
+      "a": "Visit Raghunath Temple, Bahu Fort and Bagh-e-Bahu, Amar Mahal Palace Museum, Mubarak Mandi, Peer Kho and Ranbireshwar temples, eat Dogra food, and take trips to Mansar Lake, Vaishno Devi and Shiv Khori."
+    },
+    {
+      "q": "How far is Vaishno Devi from Jammu?",
+      "a": "Katra, the base town, is about 50 km from Jammu. The trek from Katra to the shrine is about 12 km."
+    },
+    {
+      "q": "How many days are enough for Jammu?",
+      "a": "One day for the city; two to three days with Vaishno Devi."
+    },
+    {
+      "q": "What is the best time to visit Jammu?",
+      "a": "October to March. Summers are very hot, and the monsoon brings heavy rain."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Katra",
+      "href": "/blog/katra-travel-guide",
+      "note": "the base for Vaishno Devi"
+    },
+    {
+      "name": "Things to do in Patnitop",
+      "href": "/blog/things-to-do-in-patnitop",
+      "note": "pine meadows about three hours north"
+    },
+    {
+      "name": "Bhaderwah",
+      "href": "/blog/bhaderwah-travel-guide",
+      "note": "a green valley known as mini Kashmir"
+    },
+    {
+      "name": "Things to do in Amritsar",
+      "href": "/blog/things-to-do-in-amritsar",
+      "note": "about four to five hours south"
+    }
+  ],
+  "styles": [
+    "spiritual-tours",
+    "family-holidays"
+  ],
+  "metaDescription": "Things to do in Jammu: Raghunath Temple, Bahu Fort and Bagh-e-Bahu, Mubarak Mandi Palace, Amar Mahal Museum, Peer Kho and Ranbireshwar temples, Dogra food and more."
+}

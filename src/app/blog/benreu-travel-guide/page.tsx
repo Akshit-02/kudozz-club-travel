@@ -24,10 +24,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/spiti-valley/spiti-valley.jpg",
+        url: "/images/blogs/nagaland/nagaland/dzukou-valley-rolling-green-hills-nagaland.webp",
         width: 2560,
         height: 1920,
-        alt: "Remote hill valley landscape, evoking the quiet, lightly-touristed setting of Benreu village in Nagaland",
+        alt: "Green hills of Nagaland (regional image)",
       },
     ],
   },
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     title: "Benreu Village Guide: Zeliang Naga Heritage",
     description:
       "A Zeliang Naga village offering genuine homestay-based community tourism in Peren district — the complete Benreu guide.",
-    images: ["/images/destinations/spiti-valley/spiti-valley.jpg"],
+    images: ["/images/blogs/nagaland/nagaland/dzukou-valley-rolling-green-hills-nagaland.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/benreu-travel-guide",
@@ -60,7 +60,7 @@ function ArticleSchema() {
           description:
             "Complete Benreu village guide — Zeliang Naga heritage and traditional architecture, community-based homestays, proximity to Barail Wildlife Sanctuary, how to reach Peren district, and what to expect.",
           image:
-            "https://club.kudozz.in/images/destinations/spiti-valley/spiti-valley.jpg",
+            "https://club.kudozz.in/images/blogs/nagaland/nagaland/dzukou-valley-rolling-green-hills-nagaland.webp",
           datePublished: "2026-09-04",
           dateModified: "2026-09-04",
           publisher: {
@@ -197,8 +197,8 @@ export default function BenreuGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/spiti-valley/spiti-valley.jpg"
-              alt="Remote hill valley landscape, evoking the quiet, lightly-touristed setting of Benreu village in Nagaland"
+              src="/images/blogs/nagaland/nagaland/dzukou-valley-rolling-green-hills-nagaland.webp"
+              alt="Green hills of Nagaland (regional image)"
               fill
               priority
               sizes="100vw"

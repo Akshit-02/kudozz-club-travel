@@ -1,0 +1,259 @@
+{
+  "slug": "things-to-do-in-thanjavur",
+  "destination": "Thanjavur",
+  "guide": "thanjavur-travel-guide",
+  "type": "temple city",
+  "title": "Things to Do in Thanjavur: Brihadeeswarar Temple, Chola Bronzes & Crafts",
+  "seoTitle": "Things to Do in Thanjavur: Big Temple & Chola Art | Kudozz Club",
+  "description": "Things to do in Thanjavur: the UNESCO-listed Brihadeeswarar Temple, the palace and Saraswathi Mahal Library, the Chola bronze gallery, Thanjavur paintings and dolls, veena makers, Darasuram and Gangaikondacholapuram, Kumbakonam, Swamimalai and Srirangam.",
+  "dek": "The capital of the Chola empire, crowned by an 11th-century granite temple tower, and the heart of a delta rich in temples, music and crafts.",
+  "primaryKeyword": "things to do in Thanjavur",
+  "secondaryKeywords": [
+    "Brihadeeswarar Temple",
+    "Big Temple Thanjavur",
+    "Great Living Chola Temples",
+    "Thanjavur palace",
+    "Thanjavur paintings",
+    "Darasuram",
+    "Kumbakonam temples"
+  ],
+  "searchIntent": "Travellers planning one to three days in Thanjavur and the Kaveri delta temples.",
+  "tags": [
+    "Thanjavur",
+    "Tamil Nadu",
+    "Heritage",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/tamil-nadu/thanjavur/brihadeeswarar-temple-vimana-thanjavur.webp",
+    "alt": "Vimana of the Brihadeeswarar Temple, Thanjavur",
+    "caption": "Brihadeeswarar Temple"
+  },
+  "intro": [
+    "Thanjavur, in the fertile Kaveri delta, was the capital of the Chola dynasty at its height. The Brihadeeswarar Temple, built by Rajaraja Chola I and completed in 1010, is one of the greatest achievements of Indian architecture. With the temples at Gangaikondacholapuram and Darasuram, it forms the UNESCO World Heritage Site of the Great Living Chola Temples.",
+    "Later, Nayak and Maratha rulers made Thanjavur a centre of music, painting and learning. The things to do in Thanjavur include the Big Temple, the palace with its library and bronze gallery, and the city's crafts: Thanjavur paintings, bobble-headed dolls, veenas and art plates. The delta around it is full of temples.",
+    "One day covers Thanjavur; two or three days allow Kumbakonam, Darasuram and Gangaikondacholapuram. November to February is the most comfortable time."
+  ],
+  "quickAnswer": [
+    "Visit the Brihadeeswarar Temple at sunrise and sunset",
+    "See the Big Temple's Nandi and Chola frescoes",
+    "Explore the Thanjavur Palace",
+    "See manuscripts at the Saraswathi Mahal Library",
+    "See the Chola bronzes at the Art Gallery",
+    "Buy Thanjavur paintings and dolls",
+    "Visit a veena maker",
+    "See the Airavatesvara Temple at Darasuram",
+    "Visit Gangaikondacholapuram",
+    "Explore Kumbakonam's temples and Swamimalai's bronze foundries"
+  ],
+  "sections": [
+    {
+      "id": "big-temple",
+      "heading": "The Big Temple",
+      "items": [
+        {
+          "name": "Visit the Brihadeeswarar Temple",
+          "image": {
+            "src": "/images/blogs/tamil-nadu/thanjavur/brihadeeswarar-temple-thanjavur-2.webp",
+            "alt": "Brihadeeswarar Temple complex, Thanjavur",
+            "caption": "Brihadeeswarar Temple"
+          },
+          "body": [
+            "The Brihadeeswarar (Peruvudaiyar) Temple, dedicated to Shiva, has a granite vimana (tower) about 66 metres tall, capped by a huge stone. A monolithic Nandi faces the shrine, and inscriptions on the walls record the temple's construction and endowments. The granite glows gold at sunrise and sunset.",
+            "The temple is still in worship; remove shoes, dress modestly and respect ongoing rituals."
+          ],
+          "facts": {
+            "Time needed": "2 hours",
+            "Best time": "Early morning or late afternoon",
+            "Good for": "Everyone"
+          }
+        },
+        {
+          "name": "Look for the Chola frescoes",
+          "body": [
+            "The corridors around the sanctum hold Chola-period frescoes, some later overpainted by the Nayaks, that are among the finest early paintings in South India. Access to them is limited; ask at the temple."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "palace",
+      "heading": "Palace, library and gallery",
+      "items": [
+        {
+          "name": "Explore the Thanjavur Palace",
+          "body": [
+            "The Thanjavur Palace, built by the Nayaks and expanded by the Marathas, has a Durbar hall, bell tower and armoury tower. It houses several museums, including the Royal Museum."
+          ],
+          "facts": {
+            "Time needed": "1.5 hours"
+          }
+        },
+        {
+          "name": "See the Saraswathi Mahal Library",
+          "image": {
+            "src": "/images/blogs/tamil-nadu/thanjavur/saraswathi-mahal-library-thanjavur.webp",
+            "alt": "Saraswathi Mahal Library, Thanjavur",
+            "caption": "Saraswathi Mahal Library"
+          },
+          "body": [
+            "The Saraswathi Mahal Library, one of the oldest libraries in Asia, holds tens of thousands of palm-leaf and paper manuscripts in Tamil, Sanskrit, Marathi and other languages, collected by the Nayak and Maratha rulers. A small museum displays selections."
+          ],
+          "facts": {
+            "Good for": "History lovers"
+          }
+        },
+        {
+          "name": "See the Chola bronzes",
+          "body": [
+            "The Art Gallery in the palace complex has an outstanding collection of Chola bronzes, including graceful Natarajas, as well as stone sculptures from the region."
+          ],
+          "facts": {
+            "Time needed": "1 hour",
+            "Good for": "Art lovers"
+          }
+        }
+      ]
+    },
+    {
+      "id": "crafts",
+      "heading": "Crafts",
+      "items": [
+        {
+          "name": "Buy Thanjavur paintings and dolls",
+          "body": [
+            "Thanjavur paintings are rich, gilded devotional paintings with raised surfaces and inlaid glass. Thanjavur dolls (thalaiyatti bommai) have bobbing heads and are a GI-tagged craft. Both are sold at workshops and government emporiums."
+          ],
+          "facts": {
+            "Good for": "Shoppers"
+          }
+        },
+        {
+          "name": "Visit a veena maker",
+          "body": [
+            "Thanjavur is known for making the veena, the classical stringed instrument, carved from jackwood. Some workshops welcome visitors."
+          ]
+        },
+        {
+          "name": "See the Schwartz Church",
+          "body": [
+            "The Schwartz Church, built in the 18th century by the Maratha ruler Serfoji II in honour of the Danish missionary Christian Friedrich Schwartz, is in the palace area."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "delta",
+      "heading": "The Kaveri delta",
+      "items": [
+        {
+          "name": "See the Airavatesvara Temple at Darasuram",
+          "body": [
+            "The Airavatesvara Temple at Darasuram, about 35 km away near Kumbakonam, was built in the 12th century and is part of the UNESCO listing. It is smaller than the Big Temple but covered with exquisite carvings, and has musical steps and a chariot-shaped mandapa."
+          ],
+          "facts": {
+            "Time needed": "1 hour"
+          }
+        },
+        {
+          "name": "Visit Gangaikondacholapuram",
+          "body": [
+            "Gangaikondacholapuram, about 70 km north, was built by Rajendra Chola I to celebrate his campaigns to the Ganges. Its temple has a graceful vimana and fine sculpture."
+          ]
+        },
+        {
+          "name": "Explore Kumbakonam and Swamimalai",
+          "body": [
+            "Kumbakonam is a temple town with dozens of temples and the Mahamaham tank, where a festival held every 12 years draws huge crowds. Nearby Swamimalai is known for bronze casting by the lost-wax method; foundries can be visited."
+          ]
+        },
+        {
+          "name": "See Srirangam and Trichy",
+          "body": [
+            "Srirangam, near Tiruchirappalli about 55 km away, has the Ranganathaswamy Temple, one of the largest functioning Hindu temples in the world. Trichy's Rock Fort Temple crowns a huge rock with city views."
+          ]
+        },
+        {
+          "name": "Attend the Thyagaraja Aradhana",
+          "body": [
+            "At Thiruvaiyaru, about 13 km away, musicians gather every January at the samadhi of the saint-composer Thyagaraja to sing his compositions together in the Thyagaraja Aradhana."
+          ],
+          "facts": {
+            "Best time": "January"
+          }
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "History and art lovers",
+      "text": "The Big Temple at both sunrise and sunset, the bronze gallery, and Darasuram and Gangaikondacholapuram."
+    },
+    {
+      "who": "Pilgrims",
+      "text": "The Big Temple, Kumbakonam's temples and Srirangam."
+    },
+    {
+      "who": "Craft lovers",
+      "text": "Thanjavur painting and doll workshops, veena makers and Swamimalai's bronze foundries."
+    }
+  ],
+  "oneDay": "Visit the Brihadeeswarar Temple at sunrise, then explore the palace, Saraswathi Mahal Library and Art Gallery. After lunch, drive to Darasuram for the Airavatesvara Temple, and return to the Big Temple for sunset.",
+  "tips": [
+    "Thanjavur has a railway station; Tiruchirappalli airport is about an hour away.",
+    "Remove shoes at temples; the stone floors get very hot at midday.",
+    "Hire a licensed guide to understand the inscriptions and carvings.",
+    "Check museum closing days before you go.",
+    "Carry socks for walking on the hot stone floors."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Thanjavur?",
+      "a": "Visit the Brihadeeswarar Temple, the palace, Saraswathi Mahal Library and Chola bronze gallery, buy Thanjavur paintings and dolls, and visit Darasuram, Gangaikondacholapuram, Kumbakonam and Srirangam."
+    },
+    {
+      "q": "When was the Brihadeeswarar Temple built?",
+      "a": "It was completed in 1010 under Rajaraja Chola I."
+    },
+    {
+      "q": "How many days are enough for Thanjavur?",
+      "a": "One day for the city; two to three with the delta temples."
+    },
+    {
+      "q": "What are the Great Living Chola Temples?",
+      "a": "A UNESCO World Heritage Site made up of the Brihadeeswarar Temple at Thanjavur, the temple at Gangaikondacholapuram and the Airavatesvara Temple at Darasuram."
+    },
+    {
+      "q": "Can non-Hindus enter the Brihadeeswarar Temple?",
+      "a": "Yes. Visitors of all faiths can enter the complex, though the innermost sanctum may be restricted. Dress modestly and remove shoes."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Madurai",
+      "href": "/blog/things-to-do-in-madurai",
+      "note": "about three and a half hours south"
+    },
+    {
+      "name": "Chidambaram",
+      "href": "/blog/chidambaram-travel-guide",
+      "note": "the Nataraja temple"
+    },
+    {
+      "name": "Chettinad",
+      "href": "/blog/chettinad-travel-guide",
+      "note": "mansions and cuisine"
+    },
+    {
+      "name": "Things to do in Pondicherry",
+      "href": "/blog/things-to-do-in-pondicherry",
+      "note": "the French Quarter"
+    }
+  ],
+  "styles": [
+    "spiritual-tours",
+    "group-tours"
+  ],
+  "metaDescription": "Things to do in Thanjavur: the UNESCO-listed Brihadeeswarar Temple, the palace and Saraswathi Mahal Library, the Chola bronze gallery, Thanjavur paintings and dolls and more."
+}

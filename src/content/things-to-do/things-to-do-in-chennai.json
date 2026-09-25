@@ -1,0 +1,344 @@
+{
+  "slug": "things-to-do-in-chennai",
+  "destination": "Chennai",
+  "guide": "chennai-travel-guide",
+  "type": "city",
+  "title": "Things to Do in Chennai: Temples, Beaches, Colonial Heritage, Music & Food",
+  "seoTitle": "Things to Do in Chennai: Heritage, Food & Culture | Kudozz Club",
+  "description": "Things to do in Chennai: Marina and Elliot's beaches, Kapaleeshwarar Temple and Mylapore, San Thome Basilica, Fort St George, the Government Museum's Chola bronzes, the December music season, Kalakshetra, DakshinaChitra, T Nagar silk shopping and South Indian food.",
+  "dek": "The capital of Tamil Nadu on the Bay of Bengal, where one of India's oldest British settlements, ancient temples, classical music and filter coffee share a long seafront.",
+  "primaryKeyword": "things to do in Chennai",
+  "secondaryKeywords": [
+    "places to visit in Chennai",
+    "Marina beach",
+    "Kapaleeshwarar Temple",
+    "Fort St George",
+    "Chennai music season",
+    "Chennai food",
+    "Chennai day trips"
+  ],
+  "searchIntent": "Visitors, business travellers and weekenders planning one to three days in Chennai, often before Mahabalipuram, Pondicherry or Kanchipuram.",
+  "tags": [
+    "Chennai",
+    "Tamil Nadu",
+    "City",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/tamil-nadu/chennai/mylapore-and-kapaleeshwarar-temple-chennai.webp",
+    "alt": "Kapaleeshwarar Temple gopuram, Mylapore, Chennai",
+    "caption": "Kapaleeshwarar Temple, Mylapore"
+  },
+  "intro": [
+    "Chennai, formerly Madras, grew around Fort St George, which the East India Company built in 1644 on a stretch of coast granted by local rulers. Much older neighbourhoods such as Mylapore and Triplicane, with their great temples, were absorbed into the city. Today it is the capital of Tamil Nadu and a centre of Carnatic music, Bharatanatyam, Tamil cinema and industry.",
+    "The things to do in Chennai include long walks on Marina and Elliot's beaches, the Kapaleeshwarar and Parthasarathy temples, San Thome Basilica, the fort and its museum, and the Government Museum's world-class Chola bronzes. December brings the music and dance season. Food is a highlight, from idli and filter coffee to Chettinad curries.",
+    "Two to three days covers the city; add Mahabalipuram or Kanchipuram as day trips. November to February is the most comfortable time."
+  ],
+  "quickAnswer": [
+    "Walk on Marina beach at sunrise or sunset",
+    "Visit Kapaleeshwarar Temple and explore Mylapore",
+    "See San Thome Basilica",
+    "Visit Fort St George and its museum",
+    "See the Chola bronzes at the Government Museum",
+    "Attend a concert during the December music season",
+    "Watch a Bharatanatyam performance at Kalakshetra",
+    "Visit DakshinaChitra on the East Coast Road",
+    "Shop for silk in T Nagar",
+    "Eat idli, dosa and filter coffee at an old tiffin house"
+  ],
+  "sections": [
+    {
+      "id": "beaches",
+      "heading": "Beaches",
+      "items": [
+        {
+          "name": "Walk on Marina beach",
+          "image": {
+            "src": "/images/blogs/tamil-nadu/chennai/marina-beach-shoreline-waves-chennai.webp",
+            "alt": "Marina beach shoreline, Chennai",
+            "caption": "Marina beach"
+          },
+          "body": [
+            "Marina beach stretches for about 12 km along the city's shore, one of the longest urban beaches in the world. Early mornings bring joggers and fishermen; evenings bring families, snack stalls and kite sellers. The sea has strong currents and swimming is dangerous and discouraged.",
+            "The promenade is lined with memorials, statues and colonial buildings such as the University of Madras and Presidency College."
+          ],
+          "facts": {
+            "Best time": "Sunrise or evening",
+            "Good to know": "Do not swim",
+            "Good for": "Everyone"
+          }
+        },
+        {
+          "name": "Relax at Elliot's beach",
+          "body": [
+            "Elliot's beach in Besant Nagar is smaller and calmer than Marina, with cafés nearby and the Karl Schmidt memorial. The Ashtalakshmi Temple and Velankanni Church are close by. The Theosophical Society's gardens, with a huge old banyan tree, are nearby in Adyar."
+          ],
+          "facts": {
+            "Best time": "Evening"
+          }
+        }
+      ]
+    },
+    {
+      "id": "temples-churches",
+      "heading": "Temples and churches",
+      "items": [
+        {
+          "name": "Visit Kapaleeshwarar Temple and Mylapore",
+          "body": [
+            "The Kapaleeshwarar Temple, dedicated to Shiva, has a towering gopuram covered in painted figures and a large temple tank. The surrounding streets of Mylapore, one of Chennai's oldest neighbourhoods, are full of flower sellers, brass shops, old houses and tiffin places. The Arubathimoovar festival in March or April is a spectacular procession."
+          ],
+          "facts": {
+            "Time needed": "2 hours",
+            "Best time": "Morning or evening puja"
+          }
+        },
+        {
+          "name": "See San Thome Basilica",
+          "image": {
+            "src": "/images/blogs/tamil-nadu/chennai/san-thome-basilica-chennai.webp",
+            "alt": "White neo-Gothic San Thome Basilica, Chennai",
+            "caption": "San Thome Basilica"
+          },
+          "body": [
+            "San Thome Basilica, a white neo-Gothic church rebuilt in 1896, stands over what is believed to be the tomb of St Thomas the Apostle. A small museum and the tomb chapel are open to visitors."
+          ],
+          "facts": {
+            "Time needed": "45 minutes"
+          }
+        },
+        {
+          "name": "Visit Parthasarathy Temple",
+          "body": [
+            "The Parthasarathy Temple in Triplicane, dedicated to Krishna as Arjuna's charioteer, is one of the oldest temples in the city, dating back to the 8th century in origin. The streets around it are lively and traditional."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "heritage",
+      "heading": "Heritage and museums",
+      "items": [
+        {
+          "name": "Visit Fort St George",
+          "image": {
+            "src": "/images/blogs/tamil-nadu/chennai/fort-st-george-pavilion-memorial-chennai.webp",
+            "alt": "Fort St George, Chennai",
+            "caption": "Fort St George"
+          },
+          "body": [
+            "Fort St George, the first British fortress in India, now houses the Tamil Nadu Legislative Assembly and Secretariat. Inside, the Fort Museum displays arms, uniforms, coins and portraits, and St Mary's Church, consecrated in 1680, is the oldest Anglican church in India."
+          ],
+          "facts": {
+            "Time needed": "1.5 hours",
+            "Good to know": "Museum closed on Fridays"
+          }
+        },
+        {
+          "name": "See the Government Museum",
+          "body": [
+            "The Government Museum in Egmore, founded in 1851, has one of the world's finest collections of Chola bronzes, including the famous Nataraja figures, along with Amaravati sculptures and archaeological, natural history and art galleries."
+          ],
+          "facts": {
+            "Time needed": "2–3 hours",
+            "Good for": "History and art lovers"
+          }
+        },
+        {
+          "name": "Visit DakshinaChitra",
+          "body": [
+            "DakshinaChitra, about 25 km south on the East Coast Road, is a heritage museum of reassembled traditional houses from Tamil Nadu, Kerala, Karnataka and Andhra Pradesh, with craft demonstrations and workshops. Cholamandal Artists' Village, one of India's oldest artists' communes, is nearby."
+          ],
+          "facts": {
+            "Time needed": "3 hours",
+            "Good for": "Families, culture seekers"
+          }
+        }
+      ]
+    },
+    {
+      "id": "more",
+      "heading": "More of Chennai",
+      "items": [
+        {
+          "name": "See Chennai's colonial buildings",
+          "body": [
+            "Along the Marina and around Parry's Corner are grand Indo-Saracenic buildings: the Madras High Court, one of the largest court complexes in the world, the University of Madras Senate House, the Ripon Building and Chennai Central station. A heritage walk with a local group is the best way to see them."
+          ],
+          "facts": {
+            "Good for": "Architecture lovers"
+          }
+        },
+        {
+          "name": "Walk through George Town",
+          "body": [
+            "George Town, the old 'Black Town' north of the fort, is a maze of wholesale markets, temples, churches, mosques and old merchant houses. Streets specialise in flowers, spices, paper, jewellery and more."
+          ],
+          "facts": {
+            "Best time": "Morning"
+          }
+        },
+        {
+          "name": "Visit Guindy National Park and the Snake Park",
+          "body": [
+            "Guindy National Park is one of the few national parks inside a city, with blackbuck and spotted deer. The Chennai Snake Park next door has reptiles and educational talks. Vandalur's Arignar Anna Zoological Park, further south, is one of the largest zoos in India."
+          ],
+          "facts": {
+            "Good for": "Families"
+          }
+        },
+        {
+          "name": "See Pulicat Lake",
+          "body": [
+            "Pulicat Lake, about 60 km north, is a large lagoon with flamingos and other birds in winter, a Dutch cemetery and fishing villages."
+          ],
+          "facts": {
+            "Best time": "November to February"
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "heading": "Music, dance and shopping",
+      "items": [
+        {
+          "name": "Attend the December music season",
+          "body": [
+            "Every December and early January, Chennai's sabhas (music societies) host hundreds of Carnatic music and dance performances in what is known as the Margazhi season. Many morning and afternoon concerts are free or inexpensive, and sabha canteens serve excellent food."
+          ],
+          "facts": {
+            "Best time": "December to early January"
+          }
+        },
+        {
+          "name": "Visit Kalakshetra",
+          "body": [
+            "Kalakshetra Foundation, founded in 1936 by Rukmini Devi Arundale, is a leading school of Bharatanatyam and the arts, on a peaceful campus in Thiruvanmiyur. Performances and festivals are held through the year; the weaving centre sells handloom saris."
+          ]
+        },
+        {
+          "name": "Shop for silk in T Nagar",
+          "body": [
+            "T Nagar's Pondy Bazaar and Ranganathan Street are Chennai's busiest shopping areas, known for large silk and jewellery stores. Kanchipuram silk saris are the classic buy."
+          ],
+          "facts": {
+            "Good for": "Shoppers"
+          }
+        }
+      ]
+    },
+    {
+      "id": "food-trips",
+      "heading": "Food and day trips",
+      "items": [
+        {
+          "name": "Eat at a tiffin house",
+          "body": [
+            "Start the day with idli, vada, pongal and dosa with sambar and chutneys, followed by filter coffee, at one of Mylapore's or Triplicane's old tiffin places. Try Chettinad chicken, a banana-leaf meal and Chennai's own biryani for lunch."
+          ],
+          "facts": {
+            "Good for": "Food lovers"
+          }
+        },
+        {
+          "name": "Take a day trip to Mahabalipuram or Kanchipuram",
+          "body": [
+            "Mahabalipuram, about 55 km south, has UNESCO-listed Pallava monuments by the sea. Kanchipuram, about 75 km west, is a temple city famous for its silk weaving."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Mahabalipuram",
+              "href": "/blog/things-to-do-in-mahabalipuram"
+            },
+            {
+              "label": "Kanchipuram guide",
+              "href": "/blog/kanchipuram-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "See the Crocodile Bank",
+          "body": [
+            "The Madras Crocodile Bank Trust, on the road to Mahabalipuram, is a conservation centre with crocodiles, gharials, turtles and snakes from around the world."
+          ],
+          "facts": {
+            "Good for": "Families"
+          }
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Culture seekers",
+      "text": "Visit in December for concerts, see the Government Museum's bronzes and spend an evening in Mylapore."
+    },
+    {
+      "who": "Families",
+      "text": "DakshinaChitra, the Crocodile Bank, Marina in the evening and the zoo at Vandalur."
+    },
+    {
+      "who": "Food lovers",
+      "text": "A tiffin breakfast in Mylapore, a Chettinad lunch and sabha canteen food in the season."
+    },
+    {
+      "who": "Business travellers",
+      "text": "With an evening free, walk Besant Nagar beach, eat dinner in Mylapore and catch a concert if it is the season."
+    }
+  ],
+  "oneDay": "Start with a sunrise walk on Marina beach, then breakfast in Mylapore and a visit to Kapaleeshwarar Temple and San Thome Basilica. Spend the afternoon at the Government Museum and Fort St George, and end the evening with shopping in T Nagar or dinner in Besant Nagar.",
+  "tips": [
+    "Chennai International Airport and Chennai Central are well connected; the metro and suburban trains help avoid traffic.",
+    "Summers (April to June) are very hot; plan outdoor visits for mornings and evenings.",
+    "The north-east monsoon (October to December) can bring heavy rain and flooding.",
+    "Dress modestly at temples; some require men to remove shirts.",
+    "Autorickshaws often refuse meters; use app-based autos or cabs for fair fares."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Chennai?",
+      "a": "Walk on Marina beach, visit Kapaleeshwarar Temple, San Thome Basilica and Fort St George, see the Chola bronzes at the Government Museum, attend the December music season, visit DakshinaChitra and eat South Indian food."
+    },
+    {
+      "q": "Can you swim at Marina beach?",
+      "a": "No. Currents are strong and swimming is dangerous and discouraged."
+    },
+    {
+      "q": "How many days are enough for Chennai?",
+      "a": "Two to three days, plus day trips to Mahabalipuram or Kanchipuram."
+    },
+    {
+      "q": "When is the Chennai music season?",
+      "a": "In December and early January (the Tamil month of Margazhi)."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Mahabalipuram",
+      "href": "/blog/things-to-do-in-mahabalipuram",
+      "note": "Pallava monuments by the sea"
+    },
+    {
+      "name": "Things to do in Pondicherry",
+      "href": "/blog/things-to-do-in-pondicherry",
+      "note": "French Quarter, about three hours south"
+    },
+    {
+      "name": "Kanchipuram",
+      "href": "/blog/kanchipuram-travel-guide",
+      "note": "temples and silk"
+    },
+    {
+      "name": "Tiruvannamalai",
+      "href": "/blog/tiruvannamalai-travel-guide",
+      "note": "the sacred Arunachala hill"
+    }
+  ],
+  "styles": [
+    "family-holidays",
+    "spiritual-tours",
+    "weekend-getaways"
+  ],
+  "metaDescription": "Things to do in Chennai: Marina and Elliot's beaches, Kapaleeshwarar Temple and Mylapore, San Thome Basilica, Fort St George, the Government Museum's Chola bronzes and more."
+}

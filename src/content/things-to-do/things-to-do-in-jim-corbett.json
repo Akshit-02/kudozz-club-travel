@@ -1,0 +1,236 @@
+{
+  "slug": "things-to-do-in-jim-corbett",
+  "destination": "Jim Corbett",
+  "guide": "jim-corbett-travel-guide",
+  "type": "national park",
+  "title": "Things to Do in Jim Corbett: Safaris, Rivers & Wildlife Experiences",
+  "seoTitle": "Things to Do in Jim Corbett: Safaris & Wildlife | Kudozz Club",
+  "description": "Things to do in Jim Corbett National Park: jeep and canter safaris in Dhikala, Bijrani and Jhirna, a night in a forest lodge, birdwatching, the Corbett Museum, Garjiya Devi Temple and river walks on the Kosi.",
+  "dek": "India's oldest national park, where sal forest meets grassland along the Ramganga, and the chance of a tiger is only part of the story.",
+  "primaryKeyword": "things to do in Jim Corbett",
+  "secondaryKeywords": [
+    "Jim Corbett safari",
+    "Dhikala zone",
+    "Corbett safari zones",
+    "Corbett Museum",
+    "birdwatching Corbett",
+    "Jim Corbett with family"
+  ],
+  "searchIntent": "Wildlife lovers and families from Delhi NCR planning a two- to three-day Corbett trip, choosing safari zones and things to do between safaris.",
+  "tags": [
+    "Jim Corbett",
+    "Uttarakhand",
+    "Wildlife",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/uttarakhand/jim-corbett/elephant-herd-dhikala-grassland-jim-corbett.webp",
+    "alt": "Elephant herd on the Dhikala grassland, Jim Corbett National Park"
+  },
+  "intro": [
+    "Jim Corbett National Park, established in 1936 as Hailey National Park, is India's oldest national park and the place where Project Tiger was launched in 1973. It lies in the foothills of Nainital and Pauri districts in Uttarakhand, with the town of Ramnagar as its main gateway, about five to six hours from Delhi.",
+    "Most things to do at Corbett revolve around safaris into its zones, each with a different landscape. Between safaris there is birdwatching, the Corbett Museum at Jim Corbett's old home in Kaladhungi, the Garjiya Devi Temple on a rock in the Kosi river, and walks and stays along the river.",
+    "Two to three days with two to four safaris across different zones is a good balance. Most zones are open from mid-October or mid-November to June, while Jhirna and Dhela are open year-round."
+  ],
+  "quickAnswer": [
+    "Take a jeep safari in Bijrani, Jhirna, Dhela or Durga Devi zone",
+    "Stay overnight at Dhikala inside the park, or take a canter safari there",
+    "Go birdwatching along the Kosi and Ramganga rivers",
+    "Visit the Corbett Museum in Kaladhungi",
+    "See the Garjiya Devi Temple on a rock in the Kosi",
+    "Walk to Corbett Falls",
+    "Take a riverside nature walk or cycle ride"
+  ],
+  "sections": [
+    {
+      "id": "safaris",
+      "heading": "Safaris in Corbett",
+      "intro": "Safari permits are issued through the official Corbett Tiger Reserve booking system and sell out quickly for weekends and holidays. Book well ahead and carry the ID used for booking.",
+      "items": [
+        {
+          "name": "Take a jeep safari",
+          "image": {
+            "src": "/images/blogs/uttarakhand/jim-corbett/forest-safari-track-sal-trees-jim-corbett.webp",
+            "alt": "Safari track through sal forest, Jim Corbett National Park",
+            "caption": "A safari track through sal forest"
+          },
+          "body": [
+            "Morning and afternoon jeep safaris run in the Bijrani, Jhirna, Dhela, Durga Devi, Garjiya and other zones. Bijrani, close to Ramnagar, has open grassland and dense sal forest and is one of the best for tiger sightings. Jhirna and Dhela are open year-round. Durga Devi, in the north-east, is known for birds and the Ramganga river.",
+            "Tiger sightings are never guaranteed. Enjoy the elephants, deer, jackals, crocodiles and birds, and a sighting becomes a bonus."
+          ],
+          "facts": {
+            "Time needed": "About 3–4 hours per safari",
+            "Best time": "Morning safaris, March to June for sightings",
+            "Good for": "Everyone; children must be accompanied"
+          }
+        },
+        {
+          "name": "Stay at Dhikala",
+          "body": [
+            "Dhikala, deep inside the park on the edge of the vast Ramganga grasslands, is the most celebrated zone. Staying overnight in the forest rest house, booked through the official system, is the best way to experience it. Day visitors can see it on a canter (large open bus) safari. Elephant herds on the grassland (the chaurs) are a common sight."
+          ],
+          "facts": {
+            "Best time": "November to June",
+            "Good to know": "Forest rest house rooms sell out months ahead"
+          }
+        },
+        {
+          "name": "Go birdwatching",
+          "body": [
+            "Corbett has recorded more than 600 bird species. Winter brings migratory birds to the rivers and reservoirs, and the area around the Kosi and the edges of the park are rich for birding even outside safaris. Local naturalists can be hired for dedicated birding walks."
+          ],
+          "facts": {
+            "Best time": "November to March",
+            "Good for": "Birdwatchers, photographers"
+          }
+        }
+      ]
+    },
+    {
+      "id": "beyond-safari",
+      "heading": "Beyond the safari",
+      "items": [
+        {
+          "name": "Visit the Corbett Museum in Kaladhungi",
+          "body": [
+            "Jim Corbett, the hunter-turned-conservationist and author of Man-Eaters of Kumaon, lived in Kaladhungi, about 30 km from Ramnagar. His house is now a museum with his belongings, letters and photographs, and there is a small village nearby that he helped establish."
+          ],
+          "facts": {
+            "Time needed": "1 hour",
+            "Good for": "History and book lovers"
+          }
+        },
+        {
+          "name": "See Garjiya Devi Temple",
+          "image": {
+            "src": "/images/blogs/uttarakhand/jim-corbett/garjiya-devi-temple-kosi-river-ramnagar.webp",
+            "alt": "Garjiya Devi Temple on a rock in the Kosi river near Ramnagar",
+            "caption": "Garjiya Devi Temple"
+          },
+          "body": [
+            "The Garjiya Devi Temple stands on a large rock in the middle of the Kosi river, reached by a flight of steps. It is busy on festival days, especially around Kartik Purnima."
+          ],
+          "facts": {
+            "Time needed": "45 minutes"
+          }
+        },
+        {
+          "name": "Walk to Corbett Falls",
+          "body": [
+            "Corbett Falls, a waterfall of about 20 metres near Kaladhungi, is reached by a short walk through forest. It is a pleasant stop on the way to or from the museum."
+          ],
+          "facts": {
+            "Time needed": "1 hour",
+            "Good for": "Families"
+          }
+        },
+        {
+          "name": "Relax by the Kosi",
+          "image": {
+            "src": "/images/blogs/uttarakhand/jim-corbett/kosi-river-resort-belt-ramnagar.webp",
+            "alt": "Kosi river and riverside resorts near Ramnagar",
+            "caption": "The Kosi river near Ramnagar"
+          },
+          "body": [
+            "Many resorts line the Kosi river between Ramnagar and Mohan. Riverside walks, cycling, angling (catch-and-release, where permitted) and village visits fill the time between safaris."
+          ]
+        },
+        {
+          "name": "Explore Sitabani",
+          "body": [
+            "Sitabani, a forest area outside the core reserve, has a temple associated with Sita and a quieter landscape where birding and drives are possible. Because it is outside the tiger reserve's core, rules and permits differ; ask your resort or a local guide what is currently allowed."
+          ],
+          "facts": {
+            "Good for": "Birdwatchers, repeat visitors"
+          }
+        }
+      ]
+    },
+    {
+      "id": "seasons",
+      "heading": "Corbett by season",
+      "items": [
+        {
+          "name": "Winter (November to February)",
+          "body": [
+            "Cool mornings, mist over the grasslands and migratory birds on the rivers make winter lovely for birding and photography. Dhikala opens around mid-November. Safari mornings are very cold in open jeeps."
+          ]
+        },
+        {
+          "name": "Summer (March to June)",
+          "body": [
+            "Vegetation thins and animals gather near water, so summer gives the best chance of tiger and elephant sightings. Afternoons are hot; the morning safari is more comfortable."
+          ]
+        },
+        {
+          "name": "Monsoon (July to mid-October)",
+          "body": [
+            "Most zones, including Dhikala and Bijrani, close for the monsoon. Jhirna and Dhela remain open, subject to conditions, and the forest is at its greenest."
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Families",
+      "text": "Choose a resort by the Kosi, book two jeep safaris in different zones, and add Corbett Falls and the museum. Keep expectations about tigers realistic with children."
+    },
+    {
+      "who": "Wildlife enthusiasts",
+      "text": "Aim for a night at Dhikala, several safaris across zones and a dedicated birding walk with a naturalist."
+    },
+    {
+      "who": "Weekenders from Delhi",
+      "text": "Corbett is five to six hours by road; two nights with two or three safaris is a common, restful break."
+    }
+  ],
+  "oneDay": "Take an early-morning jeep safari in Bijrani or Jhirna. After breakfast, visit Garjiya Devi Temple, then drive to Kaladhungi for the Corbett Museum and Corbett Falls. Return for an afternoon safari in another zone.",
+  "tips": [
+    "Book safaris only through the official Corbett Tiger Reserve website or authorised agents, and carry the same ID.",
+    "Wear neutral colours, avoid perfume and keep quiet during safaris.",
+    "Mornings in winter are very cold in open jeeps; bring warm layers, a hat and gloves.",
+    "Ramnagar has a railway station with trains from Delhi; Pantnagar is the nearest airport."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Jim Corbett?",
+      "a": "Take jeep safaris in zones such as Bijrani, Jhirna and Dhela, stay overnight or take a canter safari at Dhikala, go birdwatching, visit the Corbett Museum and Garjiya Devi Temple, and walk to Corbett Falls."
+    },
+    {
+      "q": "Which is the best zone in Jim Corbett?",
+      "a": "Dhikala is the most celebrated, especially with an overnight stay. Bijrani is excellent for day safaris near Ramnagar, and Jhirna and Dhela are open all year."
+    },
+    {
+      "q": "How many days are enough for Jim Corbett?",
+      "a": "Two to three days with two to four safaris in different zones is a good balance."
+    },
+    {
+      "q": "What is the best time to visit Jim Corbett?",
+      "a": "November to June. March to June gives the best chance of seeing tigers, as vegetation thins and animals gather near water. Most zones close in the monsoon."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Nainital",
+      "href": "/blog/things-to-do-in-nainital",
+      "note": "lakes and viewpoints, about two to three hours north"
+    },
+    {
+      "name": "Things to do in Ranikhet",
+      "href": "/blog/things-to-do-in-ranikhet",
+      "note": "a quiet hill town beyond the foothills"
+    },
+    {
+      "name": "Wildlife trips in India",
+      "href": "/packages/wildlife-tours",
+      "note": "other national parks we plan trips to"
+    }
+  ],
+  "styles": [
+    "wildlife-tours",
+    "family-holidays",
+    "weekend-getaways"
+  ],
+  "metaDescription": "Things to do in Jim Corbett National Park: jeep and canter safaris in Dhikala, Bijrani and Jhirna, a night in a forest lodge, birdwatching, the Corbett Museum and more."
+}

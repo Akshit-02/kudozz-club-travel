@@ -1,0 +1,260 @@
+{
+  "slug": "things-to-do-in-kohima",
+  "destination": "Kohima",
+  "guide": "kohima-travel-guide",
+  "type": "hill city",
+  "title": "Things to Do in Kohima: War Cemetery, Hornbill Festival, Khonoma & Dzukou",
+  "seoTitle": "Things to Do in Kohima: Hornbill, Dzukou & More | Kudozz Club",
+  "description": "Things to do in Kohima: the Kohima War Cemetery, Kisama Heritage Village and the Hornbill Festival, the State Museum, the Cathedral of Reconciliation, the local market, Khonoma green village, the Dzukou Valley trek, Japfu Peak and Naga food.",
+  "dek": "Nagaland's hill capital, where the Second World War was fought across a tennis court and Naga tribes gather every December for the Hornbill Festival.",
+  "primaryKeyword": "things to do in Kohima",
+  "secondaryKeywords": [
+    "places to visit in Kohima",
+    "Hornbill Festival",
+    "Kohima War Cemetery",
+    "Dzukou Valley trek",
+    "Khonoma village",
+    "Nagaland food"
+  ],
+  "searchIntent": "Travellers planning two to four days in Kohima, often for the Hornbill Festival or the Dzukou Valley trek.",
+  "tags": [
+    "Kohima",
+    "Nagaland",
+    "Culture",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/nagaland/nagaland/kohima-war-cemetery-memorial-wall-nagaland.webp",
+    "alt": "Memorial at the Kohima War Cemetery",
+    "caption": "Kohima War Cemetery"
+  },
+  "intro": [
+    "Kohima, at about 1,450 metres, is the capital of Nagaland and the home of the Angami Naga. In April to June 1944, the Battle of Kohima halted the Japanese advance into India, with some of the fiercest fighting taking place around the Deputy Commissioner's bungalow and its tennis court. Today the city is a mix of hillside neighbourhoods, churches and markets.",
+    "The things to do in Kohima include the War Cemetery, the State Museum, Kisama Heritage Village (the venue of the Hornbill Festival), the green village of Khonoma and treks to the Dzukou Valley and Japfu Peak. Naga food, with its smoked meats, fermented soybean and fiery chillies, is a highlight.",
+    "Two days covers the city; four days allows Dzukou and Khonoma. Indian nationals need an Inner Line Permit, available online."
+  ],
+  "quickAnswer": [
+    "Visit the Kohima War Cemetery",
+    "Attend the Hornbill Festival at Kisama (1–10 December)",
+    "See the Nagaland State Museum",
+    "Visit the Cathedral of Reconciliation",
+    "Walk through the local market",
+    "Visit Khonoma, Asia's first green village",
+    "Trek to Dzukou Valley",
+    "Climb Japfu Peak",
+    "Eat smoked pork with bamboo shoot"
+  ],
+  "sections": [
+    {
+      "id": "history",
+      "heading": "History and museums",
+      "items": [
+        {
+          "name": "Visit the Kohima War Cemetery",
+          "body": [
+            "The War Cemetery, on the slopes of Garrison Hill, holds the graves of over a thousand Commonwealth soldiers. The tennis court lines where the fighting was fiercest are marked in white. The Kohima Epitaph, 'When you go home, tell them of us and say, for your tomorrow, we gave our today', is inscribed on the memorial to the 2nd Division."
+          ],
+          "facts": {
+            "Time needed": "1 hour",
+            "Good for": "History lovers"
+          }
+        },
+        {
+          "name": "See the Nagaland State Museum",
+          "body": [
+            "The State Museum has displays on the Naga tribes, with costumes, weapons, jewellery, a ceremonial drum and model villages. It is a good way to understand the diversity of Nagaland's communities."
+          ],
+          "facts": {
+            "Time needed": "1–1.5 hours"
+          }
+        },
+        {
+          "name": "Visit the Cathedral of Reconciliation",
+          "body": [
+            "The Mary Help of Christians Cathedral on Aradura Hill, built with help from Japanese donors as a symbol of reconciliation after the war, has a large carved wooden crucifix and a distinctive façade inspired by Naga houses."
+          ]
+        },
+        {
+          "name": "Walk through the local market",
+          "body": [
+            "Kohima's local market sells fresh vegetables, chillies, bamboo shoots and more unusual items such as silkworms, snails and river fish, reflecting Naga food traditions."
+          ],
+          "facts": {
+            "Best time": "Morning"
+          }
+        }
+      ]
+    },
+    {
+      "id": "hornbill",
+      "heading": "The Hornbill Festival",
+      "items": [
+        {
+          "name": "Attend the Hornbill Festival",
+          "image": {
+            "src": "/images/blogs/nagaland/nagaland/hornbill-festival-kisama-heritage-village-nagaland.webp",
+            "alt": "Hornbill Festival at Kisama Heritage Village",
+            "caption": "Hornbill Festival"
+          },
+          "body": [
+            "The Hornbill Festival, held every year from 1 to 10 December at Kisama Heritage Village about 12 km from Kohima, brings together all the major Naga tribes. Each has a morung (traditional house) at the venue, and there are dances, songs, games, crafts, food stalls and a rock concert in the evenings.",
+            "Accommodation in Kohima fills up months in advance; many visitors stay in homestays or camps."
+          ],
+          "facts": {
+            "Best time": "1–10 December",
+            "Good to know": "Book stays very early"
+          }
+        },
+        {
+          "name": "See Kisama at other times",
+          "body": [
+            "Outside the festival, Kisama Heritage Village is quiet, but the morungs and the World War II museum on site can still be visited."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outdoors",
+      "heading": "Villages and treks",
+      "items": [
+        {
+          "name": "Visit Khonoma",
+          "image": {
+            "src": "/images/blogs/nagaland/khonoma/khonoma-view.webp",
+            "alt": "Khonoma village and terraced fields",
+            "caption": "Khonoma"
+          },
+          "body": [
+            "Khonoma, about 20 km from Kohima, is an Angami village known for its terraced fields, stone gateways and history of resistance to the British in the 19th century. In the 1990s, the villagers banned hunting and logging and set up a conservation sanctuary; it is often described as Asia's first green village. Homestays and guided walks are available."
+          ],
+          "links": [
+            {
+              "label": "Khonoma guide",
+              "href": "/blog/khonoma-travel-guide"
+            }
+          ],
+          "facts": {
+            "Time needed": "Half a day or overnight"
+          }
+        },
+        {
+          "name": "Trek to Dzukou Valley",
+          "image": {
+            "src": "/images/blogs/nagaland/dzukou-valley/dzukou-valley-2.webp",
+            "alt": "Rolling green hills of Dzukou Valley",
+            "caption": "Dzukou Valley"
+          },
+          "body": [
+            "Dzukou Valley, on the Nagaland–Manipur border at about 2,400 metres, is a valley of rolling green hills covered in dwarf bamboo, with streams and seasonal flowers, including the endemic Dzukou lily in summer. Treks start from Viswema or Zakhama, a steep climb of three to five hours. Overnight stays are in a basic rest house or tents."
+          ],
+          "links": [
+            {
+              "label": "Dzukou Valley guide",
+              "href": "/blog/dzukou-valley-travel-guide"
+            }
+          ],
+          "facts": {
+            "Time needed": "1–2 days",
+            "Best time": "June to September for flowers; October to March for clear days"
+          }
+        },
+        {
+          "name": "Climb Japfu Peak",
+          "body": [
+            "Japfu Peak, at about 3,000 metres, is the second-highest mountain in Nagaland. A day hike from Kigwema village climbs through forest to the top, with sunrise views over the hills on clear days. The area also has what is often cited as the tallest rhododendron tree in the world."
+          ],
+          "facts": {
+            "Good for": "Active travellers"
+          }
+        },
+        {
+          "name": "See Tuophema village",
+          "body": [
+            "Tuophema, about 40 km from Kohima, has a community-run tourist village with traditional huts, a small museum and cultural programmes, and gives a sense of Angami village life."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "heading": "Naga food",
+      "items": [
+        {
+          "name": "Eat smoked pork and axone",
+          "body": [
+            "Naga cuisine is built around smoked meats, bamboo shoot, axone (fermented soybean) and raja mircha, one of the world's hottest chillies. Try smoked pork with bamboo shoot, galho (a rice and vegetable porridge) and local rice beer. Restaurants in Kohima also serve milder options."
+          ],
+          "facts": {
+            "Good for": "Food lovers"
+          }
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Festival travellers",
+      "text": "Stay for at least three days of Hornbill and add a day at Khonoma."
+    },
+    {
+      "who": "Trekkers",
+      "text": "Dzukou Valley overnight and Japfu Peak for sunrise."
+    },
+    {
+      "who": "History lovers",
+      "text": "The War Cemetery, the Kisama WWII museum and Khonoma's resistance history."
+    }
+  ],
+  "oneDay": "Start at the War Cemetery, then visit the State Museum and the local market. After lunch, drive to Khonoma for a guided village walk, and return to Kohima for Naga food in the evening.",
+  "tips": [
+    "Dimapur, about 75 km away, has the nearest airport and railway station.",
+    "Apply for the Nagaland ILP online before travel.",
+    "Sundays are quiet; many shops and restaurants close as most of the population attends church.",
+    "Ask before photographing people, especially in villages."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Kohima?",
+      "a": "Visit the War Cemetery and State Museum, attend the Hornbill Festival, visit the Cathedral and local market, see Khonoma, and trek to Dzukou Valley or Japfu Peak."
+    },
+    {
+      "q": "When is the Hornbill Festival?",
+      "a": "Every year from 1 to 10 December at Kisama Heritage Village near Kohima."
+    },
+    {
+      "q": "Do I need a permit for Kohima?",
+      "a": "Yes. Indian nationals need an Inner Line Permit for Nagaland."
+    },
+    {
+      "q": "How hard is the Dzukou Valley trek?",
+      "a": "It is a moderate trek with a steep initial climb of about three to five hours from Viswema or Zakhama."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Khonoma",
+      "href": "/blog/khonoma-travel-guide",
+      "note": "the green village, 20 km away"
+    },
+    {
+      "name": "Dzukou Valley",
+      "href": "/blog/dzukou-valley-travel-guide",
+      "note": "the valley trek"
+    },
+    {
+      "name": "Things to do in Imphal",
+      "href": "/blog/things-to-do-in-imphal",
+      "note": "Manipur's capital to the south"
+    },
+    {
+      "name": "Mokokchung",
+      "href": "/blog/mokokchung-travel-guide",
+      "note": "the Ao Naga heartland"
+    }
+  ],
+  "styles": [
+    "adventure-tours",
+    "group-tours"
+  ],
+  "metaDescription": "Things to do in Kohima: the Kohima War Cemetery, Kisama Heritage Village and the Hornbill Festival, the State Museum, the Cathedral of Reconciliation, the local market and more."
+}

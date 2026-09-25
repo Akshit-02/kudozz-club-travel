@@ -1,0 +1,239 @@
+{
+  "slug": "things-to-do-in-pushkar",
+  "destination": "Pushkar",
+  "guide": "pushkar-travel-guide",
+  "type": "pilgrimage town",
+  "title": "Things to Do in Pushkar: Ghats, Temples, Sunsets & the Camel Fair",
+  "seoTitle": "Things to Do in Pushkar: Ghats, Temples & Camel Fair | Kudozz Club",
+  "description": "What to do in Pushkar: evening aarti on the ghats, the Brahma Temple, sunset hikes to Savitri and Gayatri temples, the bazaar, cafés and the November Camel Fair, with practical tips.",
+  "dek": "A small holy town wrapped around a lake, with 52 ghats, one of India's very few Brahma temples, hilltop sunsets and one of the world's best-known camel fairs.",
+  "primaryKeyword": "things to do in Pushkar",
+  "secondaryKeywords": [
+    "Pushkar Camel Fair",
+    "Pushkar ghats",
+    "Brahma Temple Pushkar",
+    "Savitri Temple ropeway",
+    "Pushkar sunset point"
+  ],
+  "searchIntent": "Travellers adding a night or two in Pushkar to a Rajasthan trip, often from Jaipur or Ajmer, who want to know what there is to do beyond the lake.",
+  "tags": [
+    "Pushkar",
+    "Rajasthan",
+    "Pilgrimage",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/rajasthan/pushkar/pushkar-lake-and-the-ghats.webp",
+    "alt": "Pushkar Lake and its bathing ghats, Rajasthan"
+  },
+  "intro": [
+    "Pushkar is a small town in the Aravalli hills about 15 km from Ajmer, built around a lake that Hindus regard as one of the most sacred in India. According to legend, the lake formed where a lotus fell from Brahma's hand. The town has more than 50 ghats and hundreds of temples, and alcohol and meat are not served within its limits.",
+    "Beyond its religious importance, Pushkar has become a relaxed stop on the Rajasthan backpacker trail, with rooftop cafés, a long bazaar and hilltop temples for sunrise and sunset. In late October or November it hosts the Pushkar Camel Fair, when the town swells with traders, livestock and visitors.",
+    "One or two nights is enough for most people outside fair time."
+  ],
+  "quickAnswer": [
+    "Attend the evening aarti at Varaha or Gau Ghat",
+    "Visit the Brahma Temple",
+    "Climb or take the ropeway to Savitri Temple for sunset",
+    "Hike up to Gayatri (Pap Mochani) Temple for sunrise",
+    "Shop the Sadar Bazaar for textiles, silver and leather",
+    "Eat malpua and dal baati at the town's old eateries",
+    "Visit during the Pushkar Camel Fair",
+    "Ride a camel or horse into the dunes outside town"
+  ],
+  "sections": [
+    {
+      "id": "ghats-temples",
+      "heading": "Ghats and temples",
+      "items": [
+        {
+          "name": "Watch the evening aarti on the ghats",
+          "body": [
+            "Every evening, priests perform aarti on the ghats with lamps, bells and chanting as the sun sets behind the hills. Varaha Ghat and Gau Ghat are the main places to watch. Sit quietly on the steps and follow local customs: remove shoes near the water, and ask before photographing people bathing.",
+            "Be aware of people offering flowers and then asking for large donations for a puja. A polite refusal is fine; if you want to make an offering, agree on the amount first."
+          ],
+          "facts": {
+            "Time needed": "1 hour",
+            "Best time": "Sunset",
+            "Good to know": "Remove shoes on the ghats"
+          }
+        },
+        {
+          "name": "Visit the Brahma Temple",
+          "image": {
+            "src": "/images/blogs/rajasthan/pushkar/brahma-temple-pushkar.webp",
+            "alt": "Red spire of the Brahma Temple, Pushkar",
+            "caption": "Jagatpita Brahma Temple"
+          },
+          "body": [
+            "The Jagatpita Brahma Temple, with its red spire, is one of the very few temples in India dedicated to Brahma, the creator in the Hindu trinity. The present structure dates largely from the 14th century. Cameras and phones are usually not permitted inside; there are lockers nearby."
+          ],
+          "facts": {
+            "Time needed": "30–45 minutes",
+            "Good to know": "Leave bags, cameras and shoes outside"
+          }
+        },
+        {
+          "name": "Take the ropeway or climb to Savitri Temple",
+          "body": [
+            "Savitri Temple sits on Ratnagiri Hill south-west of the lake and is dedicated to Brahma's consort. A ropeway runs to the top, or you can climb the steps in about 45 minutes. Sunset from here, with the whole town and lake below and the desert beyond, is one of the best views in Rajasthan."
+          ],
+          "facts": {
+            "Time needed": "1.5–2 hours",
+            "Best time": "Sunset (or sunrise)",
+            "Good for": "Couples, photographers"
+          }
+        },
+        {
+          "name": "Hike to Gayatri Temple for sunrise",
+          "body": [
+            "On the opposite side of town, a shorter climb leads to the Gayatri (Pap Mochani) Temple. It faces east and is the better choice for sunrise, looking over the lake as the town wakes up."
+          ],
+          "facts": {
+            "Time needed": "1 hour",
+            "Best time": "Sunrise"
+          }
+        },
+        {
+          "name": "See the Rangji and Old Rangji temples",
+          "body": [
+            "The Rangji Temple, dedicated to Vishnu, is unusual for its mix of south Indian gopuram, Rajput and Mughal styles. It is a short walk from the main bazaar."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "town-food",
+      "heading": "Bazaar, cafés and food",
+      "items": [
+        {
+          "name": "Shop the Sadar Bazaar",
+          "body": [
+            "The main bazaar runs in a long curve around the lake and sells embroidered and block-printed textiles, silver jewellery, leather bags and journals, bells and musical instruments. It is one of the better places in Rajasthan for inexpensive clothes and gifts. Bargain gently."
+          ],
+          "facts": {
+            "Time needed": "2 hours",
+            "Best time": "Late afternoon and evening"
+          }
+        },
+        {
+          "name": "Eat malpua and rooftop thalis",
+          "body": [
+            "Pushkar is fully vegetarian and alcohol-free. Try malpua, sweet fried pancakes soaked in syrup and sold hot from old sweet shops near the main bazaar, along with kachori and lassi. Rooftop cafés serve everything from thalis to Israeli and Italian food, a reflection of the town's long-staying travellers."
+          ],
+          "facts": {
+            "Good for": "Food lovers"
+          }
+        },
+        {
+          "name": "Join a music or yoga session",
+          "body": [
+            "Pushkar's long-staying traveller community means there are yoga classes, meditation sessions and small music workshops (tabla, harmonium) available through guesthouses and studios. Quality varies; ask for recommendations and try a single class first."
+          ],
+          "facts": {
+            "Good for": "Long-stay travellers"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fair-desert",
+      "heading": "The Camel Fair and desert experiences",
+      "items": [
+        {
+          "name": "Experience the Pushkar Camel Fair",
+          "image": {
+            "src": "/images/blogs/rajasthan/pushkar/pushkar-camel-fair.webp",
+            "alt": "Camels and traders at the Pushkar Camel Fair",
+            "caption": "Pushkar Camel Fair"
+          },
+          "body": [
+            "The Pushkar Mela is held around the Kartik Purnima full moon, usually in November. For several days, herders from across Rajasthan trade camels, horses and cattle on the fairground west of town, followed by the religious festival when pilgrims bathe in the lake. There are camel races, competitions, folk performances and a large market.",
+            "Accommodation fills months ahead and prices rise sharply. The trading days at the start of the fair are the most authentic; the full-moon days are the most crowded."
+          ],
+          "facts": {
+            "When": "Around Kartik Purnima, usually November",
+            "Time needed": "2–3 days",
+            "Good to know": "Book stays very early"
+          }
+        },
+        {
+          "name": "Ride into the dunes",
+          "body": [
+            "Small dunes begin just outside Pushkar, and camel or horse rides at sunset are easy to arrange through guesthouses. It is a gentler, shorter taste of the desert than Jaisalmer, and there are several overnight camps in the area."
+          ],
+          "facts": {
+            "Time needed": "2–3 hours",
+            "Best time": "Late afternoon",
+            "Good for": "Families, first-time visitors"
+          }
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Couples",
+      "text": "Sunset from Savitri Temple, a quiet rooftop dinner overlooking the lake and a camel ride into the dunes."
+    },
+    {
+      "who": "Families",
+      "text": "The ropeway, the evening aarti, short camel rides and the bazaar work well with children; the town is small and walkable."
+    },
+    {
+      "who": "Pilgrims",
+      "text": "A holy dip in the lake, the Brahma Temple and the hilltop temples of Savitri and Gayatri, ideally around Kartik Purnima."
+    }
+  ],
+  "oneDay": "Climb to Gayatri Temple for sunrise, then walk the ghats and visit the Brahma Temple before it gets busy. Spend the late morning in the bazaar and have lunch on a rooftop. In the afternoon, take the ropeway to Savitri Temple for sunset, then come down for the evening aarti and a dinner of thali and malpua.",
+  "faqs": [
+    {
+      "q": "What are the best things to do in Pushkar?",
+      "a": "Watch the evening aarti on the ghats, visit the Brahma Temple, see sunset from Savitri Temple and sunrise from Gayatri Temple, shop the Sadar Bazaar, and, in November, visit the Pushkar Camel Fair."
+    },
+    {
+      "q": "How many days are enough for Pushkar?",
+      "a": "One or two nights is enough outside fair time. During the Camel Fair, two to three days lets you see the trading and the festivities."
+    },
+    {
+      "q": "When is the Pushkar Camel Fair?",
+      "a": "It is held around the Kartik Purnima full moon, usually in November. Exact dates change each year with the lunar calendar."
+    },
+    {
+      "q": "Is alcohol available in Pushkar?",
+      "a": "No. Pushkar is a holy town, and alcohol, meat and eggs are not served within town limits."
+    },
+    {
+      "q": "How far is Pushkar from Ajmer and Jaipur?",
+      "a": "Pushkar is about 15 km from Ajmer, across Nag Pahar, and roughly three hours by road from Jaipur. Ajmer is the nearest major railway station."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Ajmer",
+      "href": "/blog/things-to-do-in-ajmer",
+      "note": "the Ajmer Sharif Dargah, 15 km away"
+    },
+    {
+      "name": "Things to do in Jaipur",
+      "href": "/blog/things-to-do-in-jaipur",
+      "note": "about three hours north-east"
+    },
+    {
+      "name": "Things to do in Jodhpur",
+      "href": "/blog/things-to-do-in-jodhpur",
+      "note": "Mehrangarh and the Blue City to the west"
+    }
+  ],
+  "styles": [
+    "spiritual-tours",
+    "budget-holidays"
+  ],
+  "tips": [
+    "Pushkar is fully vegetarian and alcohol-free; respect this in your guesthouse too.",
+    "Politely decline flower offerings on the ghats unless you want to take part in a puja, and agree any donation amount in advance.",
+    "Remove shoes before stepping onto the ghats and ask before photographing people bathing.",
+    "During the Camel Fair, prices for rooms and tents rise sharply and book out months ahead.",
+    "Ajmer, 15 km away, is the nearest large railway station."
+  ]
+}

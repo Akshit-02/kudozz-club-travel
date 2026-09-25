@@ -1,3 +1,5 @@
+import { thingsToDoIndex } from "./things-to-do-links";
+
 // `id` matches the `category` value used on each post in `posts` below,
 // so filtering is a direct equality check with no separate mapping table.
 export const categories = [
@@ -9,6 +11,7 @@ export const categories = [
   { id: "Trekking", label: "Trekking" },
   { id: "Road Trip", label: "Road Trip" },
   { id: "Adventure", label: "Adventure" },
+  { id: "Things to Do", label: "Things to Do" },
 ];
 
 export const featuredPost = {
@@ -23,7 +26,7 @@ export const featuredPost = {
   readTime: "26 min",
 };
 
-export const posts = [
+const guidePosts = [
   {
     slug: "odisha-travel-guide",
     title: "Odisha Travel Guide: Konark, Puri & Chilika Lake",
@@ -497,7 +500,7 @@ export const posts = [
     title: "Rock Garden Chandigarh: Nek Chand's Sculpture Garden Guide",
     excerpt:
       "Thousands of mosaic sculptures built secretly from industrial waste and broken bangles — Nek Chand's Rock Garden is Chandigarh's strangest, most beloved attraction.",
-    image: "/images/destinations/chandigarh/hero.jpg",
+    image: "/images/blogs/chandigarh/chandigarh/rock-garden-mosaic-sculptures-chandigarh.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Rock Garden", "Chandigarh", "Nek Chand", "Sector 1"],
@@ -509,7 +512,7 @@ export const posts = [
     title: "Sukhna Lake Chandigarh: Promenade, Boating & Best Time",
     excerpt:
       "A man-made lake at the foot of the Shivalik hills, ringed by a 3-km promenade — Sukhna Lake is Chandigarh's favourite sunrise and sunset spot.",
-    image: "/images/destinations/chandigarh/hero.jpg",
+    image: "/images/blogs/chandigarh/chandigarh/sukhna-lake-boating-promenade-chandigarh.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Sukhna Lake", "Chandigarh", "Sector 1", "Shivalik Hills"],
@@ -521,7 +524,7 @@ export const posts = [
     title: "Zakir Hussain Rose Garden: Chandigarh's Rose Festival Guide",
     excerpt:
       "Asia's largest rose garden — 30 acres and over 1,600 rose varieties in full bloom every February, right in the heart of Sector 16.",
-    image: "/images/destinations/chandigarh/hero.jpg",
+    image: "/images/blogs/chandigarh/chandigarh/zakir-hussain-rose-garden-chandigarh.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Rose Garden", "Chandigarh", "Sector 16", "Rose Festival"],
@@ -533,7 +536,7 @@ export const posts = [
     title: "Capitol Complex Chandigarh: Le Corbusier's UNESCO Site Guide",
     excerpt:
       "The High Court, Secretariat, and Assembly that anchor Le Corbusier's masterplan — a UNESCO World Heritage Site, and the reason architects fly to Chandigarh.",
-    image: "/images/destinations/chandigarh/hero.jpg",
+    image: "/images/blogs/chandigarh/capitol-complex/capitol-complex-skyline-secretariat-high-court.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Capitol Complex", "Chandigarh", "Le Corbusier", "UNESCO", "Open Hand Monument"],
@@ -545,7 +548,7 @@ export const posts = [
     title: "Sector 17 Chandigarh: Plaza, Shopping & Nightlife Guide",
     excerpt:
       "Chandigarh's pedestrian-only city centre — fountains, cafés, Neelam Cinema, and the plaza every evening in the city eventually passes through.",
-    image: "/images/destinations/chandigarh/hero.jpg",
+    image: "/images/blogs/chandigarh/sector-17/sector-17-plaza-rooster-fountain-chandigarh.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Sector 17", "Chandigarh", "Shopping", "City Guide"],
@@ -593,7 +596,7 @@ export const posts = [
     title: "Leisure Valley Chandigarh: The City's Green Corridor Guide",
     excerpt:
       "A continuous green spine linking the Rose Garden, Bougainvillea Garden, and more — here's how to walk or cycle Chandigarh's Leisure Valley end to end.",
-    image: "/images/destinations/chandigarh/hero.jpg",
+    image: "/images/blogs/chandigarh/leisure-valley/leisure-valley-open-lawn-parkland-chandigarh.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Leisure Valley", "Chandigarh", "Gardens", "Walking"],
@@ -605,7 +608,7 @@ export const posts = [
     title: "Garden of Fragrance Chandigarh: Scented Plants & Braille Trail",
     excerpt:
       "A small garden built around scent rather than sight, with Braille signage for visually impaired visitors — one of Chandigarh's most thoughtful lesser-known gardens.",
-    image: "/images/destinations/chandigarh/hero.jpg",
+    image: "/images/blogs/chandigarh/garden-of-fragrance/garden-of-fragrance-lawn-flowerbeds-sector-36.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Garden of Fragrance", "Chandigarh", "Sector 36", "Gardens"],
@@ -665,7 +668,7 @@ export const posts = [
     title: "Terraced Garden Chandigarh: Sector 33 Visit Guide",
     excerpt:
       "Stepped lawns and seasonal flowerbeds across multiple levels — a quieter picnic and photography alternative to the Rose Garden.",
-    image: "/images/destinations/chandigarh/hero.jpg",
+    image: "/images/blogs/chandigarh/terraced-garden/leisure-valley-open-lawn-chandigarh.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Terraced Garden", "Chandigarh", "Sector 33", "Gardens"],
@@ -689,7 +692,7 @@ export const posts = [
     title: "Bougainvillea Garden Chandigarh: Blooms & Best Time",
     excerpt:
       "Trellised arches and pruned bougainvillea shrubs bursting into colour every summer — a quiet, mostly-local garden along the Leisure Valley.",
-    image: "/images/destinations/chandigarh/hero.jpg",
+    image: "/images/blogs/chandigarh/bougainvillea-garden/bougainvillea-blooms-magenta-pink-trellis.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Bougainvillea Garden", "Chandigarh", "Sector 3", "Gardens"],
@@ -701,7 +704,7 @@ export const posts = [
     title: "Chandigarh Botanical Garden: Sarangpur Visit Guide",
     excerpt:
       "A sprawling, research-driven botanical garden on the city's outskirts — Chandigarh's most off-beat green escape, far removed from the manicured city gardens.",
-    image: "/images/destinations/chandigarh/hero.jpg",
+    image: "/images/blogs/chandigarh/botanical-garden/chandigarh-forest-tree-canopy.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Chandigarh Botanical Garden", "Sarangpur", "Chandigarh", "Nature"],
@@ -941,7 +944,7 @@ export const posts = [
     title: "Leh Ladakh Road Trip Guide",
     excerpt:
       "Pangong Tso, Nubra Valley, Khardung La and 14 days on the most dramatic roads on earth.",
-    image: "/images/destinations/leh-ladakh/leh-ladakh.jpg",
+    image: "/images/blogs/ladakh/leh-ladakh-road-trip/leh-ladakh.webp",
     category: "Road Trip",
     categoryColor: "bg-stone-100 text-stone-700",
     tags: ["Ladakh", "Road Trip"],
@@ -1913,7 +1916,7 @@ export const posts = [
     title: "Nagoa Beach Diu: Water Sports, Timings & Tips",
     excerpt:
       "A horseshoe-shaped bay of calm water, coconut-lined promenade and Diu's only real watersports scene — everything you need for a half-day at Nagoa Beach.",
-    image: "/images/destinations/goa/beach.jpg",
+    image: "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/nagoa-beach/nagoa-beach-horseshoe-bay-diu.webp",
     category: "Beaches",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Nagoa Beach", "Diu", "Daman and Diu", "Water Sports", "Swimming"],
@@ -3389,7 +3392,7 @@ export const posts = [
     title: "Yelagiri Travel Guide: Lake, Hills & Best Time",
     excerpt:
       "A small, quiet hill station with a lake, orchards, and one of Tamil Nadu's best paragliding spots — an easy weekend escape from Chennai or Bangalore.",
-    image: "/images/destinations/jammu-kashmir/dal.jpg",
+    image: "/images/blogs/tamil-nadu/yelagiri/yelagiri-hills-view.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Yelagiri", "Tirupattur District", "Tamil Nadu", "Weekend Getaway"],
@@ -4290,7 +4293,7 @@ export const posts = [
     title: "Benreu Village Guide: Zeliang Naga Heritage",
     excerpt:
       "A Zeliang Naga village in Peren district where community-run homestays offer a genuine, unhurried window into traditional village life — the complete Benreu guide.",
-    image: "/images/destinations/spiti-valley/spiti-valley.jpg",
+    image: "/images/blogs/nagaland/nagaland/dzukou-valley-rolling-green-hills-nagaland.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Benreu", "Zeliang Naga", "Peren District", "Nagaland"],
@@ -4386,7 +4389,7 @@ export const posts = [
     title: "Tamdil Lake Guide: Legend, Boating & Tips",
     excerpt:
       "A lake said to have formed when a giant mustard plant collapsed — today, one of Mizoram's most popular boating and picnic destinations.",
-    image: "/images/destinations/jammu-kashmir/dal.jpg",
+    image: "/images/blogs/mizoram/tamdil-lake/tamdil-lake-saitual.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Tamdil Lake", "Mizoram", "Legend", "Saitual District"],
@@ -4446,7 +4449,7 @@ export const posts = [
     title: "Hmuifang Guide: Paragliding & Views",
     excerpt:
       "A scenic hill south of Aizawl where paragliders launch over sweeping Mizoram views, backed by traditional village heritage and an easy weekend-trip distance.",
-    image: "/images/destinations/spiti-valley/spiti-valley.jpg",
+    image: "/images/blogs/mizoram/hmuifang/hmuifang-hill-mizoram.webp",
     category: "Adventure",
     categoryColor: "bg-amber-100 text-amber-700",
     tags: ["Hmuifang", "Mizoram", "Paragliding", "Weekend Getaway"],
@@ -4554,7 +4557,7 @@ export const posts = [
     title: "Laitlum Canyons Guide: Meghalaya's Grand Canyon",
     excerpt:
       "Sweeping views over a deep gorge and distant villages — one of the easiest, most rewarding sunset viewpoints near Shillong.",
-    image: "/images/destinations/spiti-valley/spiti-valley.jpg",
+    image: "/images/blogs/meghalaya/laitlum-canyons/laitlum-canyons-meghalaya.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Laitlum Canyons", "Shillong", "Meghalaya", "Viewpoint"],
@@ -4950,7 +4953,7 @@ export const posts = [
     title: "Bhimbetka Rock Shelters: Prehistoric Cave Art Travel Guide",
     excerpt:
       "Painted rock shelters up to 30,000 years old, tucked into sandstone outcrops on the edge of the Vindhya hills — the complete guide to Bhimbetka.",
-    image: "/images/destinations/spiti-valley/spiti-valley.jpg",
+    image: "/images/blogs/madhya-pradesh/bhimbetka/bhimbetka-rock-paintings.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Bhimbetka", "Madhya Pradesh", "Rock Art"],
@@ -5418,7 +5421,7 @@ export const posts = [
     title: "Parasnath Hill Travel Guide: Jain Temples & Jharkhand's Highest Peak",
     excerpt:
       "Jharkhand's highest peak and one of Jainism's most sacred pilgrimage sites, where 20 of the 24 Tirthankaras are believed to have attained liberation — the complete guide to Parasnath.",
-    image: "/images/destinations/spiti-valley/spiti-valley.jpg",
+    image: "/images/blogs/jharkhand/parasnath/parasnath-hill-shikharji.webp",
     category: "Trekking",
     categoryColor: "bg-green-100 text-green-700",
     tags: ["Parasnath", "Jharkhand", "Jain Pilgrimage"],
@@ -5538,7 +5541,7 @@ export const posts = [
     title: "Bir Billing Travel Guide: Paragliding Capital of India",
     excerpt:
       "The takeoff and landing sites that make this Himachal village the paragliding capital of India, plus a quiet Tibetan monastery settlement below — the complete guide to Bir Billing.",
-    image: "/images/destinations/spiti-valley/spiti-valley.jpg",
+    image: "/images/blogs/himachal-pradesh/bir-billing/chokling-monastery-bir.webp",
     category: "Adventure",
     categoryColor: "bg-amber-100 text-amber-700",
     tags: ["Bir Billing", "Himachal Pradesh", "Paragliding"],
@@ -5922,7 +5925,7 @@ export const posts = [
     title: "Surat Travel Guide: Diamond City, Riverfront & Street Food",
     excerpt:
       "A city that cuts and polishes most of the world's diamonds, with a revamped Tapi riverfront and a street food culture to match Ahmedabad's — the complete guide to Surat.",
-    image: "/images/destinations/jammu-kashmir/dal.jpg",
+    image: "/images/blogs/gujarat/surat/dumas-beach-surat.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Surat", "Gujarat", "Tapi Riverfront"],
@@ -6342,7 +6345,7 @@ export const posts = [
     title: "Tatapani Travel Guide: Chhattisgarh's Natural Hot Springs",
     excerpt:
       "Sulphur-rich natural hot springs on the Rihand River, believed to have therapeutic properties and revered locally as sacred — the complete guide to Tatapani.",
-    image: "/images/destinations/jammu-kashmir/dal.jpg",
+    image: "/images/blogs/chhattisgarh/chhattisgarh/kanger-valley-national-park-cliffs.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Tatapani", "Chhattisgarh", "Hot Springs"],
@@ -7010,6 +7013,21 @@ export const posts = [
     featured: false,
   },
 ];
+
+// "Things to Do" articles (src/content/things-to-do), from the generated index.
+const thingsToDoPosts = thingsToDoIndex.map((e) => ({
+  slug: e.slug,
+  title: e.title,
+  excerpt: e.excerpt,
+  image: e.image,
+  category: "Things to Do",
+  categoryColor: "bg-amber-100 text-amber-800",
+  tags: e.tags,
+  readTime: e.readTime,
+  featured: false,
+}));
+
+export const posts = [...guidePosts, ...thingsToDoPosts];
 
 export const popularTags = [
   "Himachal Pradesh",

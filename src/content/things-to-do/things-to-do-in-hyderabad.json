@@ -1,0 +1,367 @@
+{
+  "slug": "things-to-do-in-hyderabad",
+  "destination": "Hyderabad",
+  "guide": "hyderabad-travel-guide",
+  "type": "city",
+  "title": "Things to Do in Hyderabad: Charminar, Golconda, Palaces, Biryani & More",
+  "seoTitle": "Things to Do in Hyderabad: Heritage & Food | Kudozz Club",
+  "description": "Things to do in Hyderabad: the Charminar and Laad Bazaar, Mecca Masjid, Chowmahalla Palace, the Salar Jung Museum, Golconda Fort and its light show, the Qutb Shahi tombs, Hussain Sagar, Birla Mandir, Ramoji Film City, the Statue of Equality, biryani, haleem and Irani chai.",
+  "dek": "The city of the Qutb Shahis and the Nizams, where a 16th-century monument, royal palaces and one of India's greatest museums meet a booming tech city and a legendary food culture.",
+  "primaryKeyword": "things to do in Hyderabad",
+  "secondaryKeywords": [
+    "places to visit in Hyderabad",
+    "Charminar",
+    "Golconda Fort",
+    "Salar Jung Museum",
+    "Chowmahalla Palace",
+    "Hyderabad biryani",
+    "things to do in Hyderabad at night"
+  ],
+  "searchIntent": "First-time visitors, families and business travellers planning two to three days in Hyderabad.",
+  "tags": [
+    "Hyderabad",
+    "Telangana",
+    "City",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/telangana/charminar/the-monument-charminar-2.webp",
+    "alt": "Charminar, Hyderabad",
+    "caption": "Charminar"
+  },
+  "intro": [
+    "Hyderabad was founded in 1591 by Muhammad Quli Qutb Shah, fifth ruler of the Qutb Shahi dynasty, who moved his capital from the fortress of Golconda. From the 18th century until 1948, it was ruled by the Nizams, among the richest rulers in the world. Today it is the capital of Telangana and one of India's biggest technology hubs.",
+    "The things to do in Hyderabad span four centuries: the Charminar and the bazaars and mosques of the old city, the Nizams' Chowmahalla Palace, the vast Salar Jung Museum, the ruined fortress of Golconda and the domed Qutb Shahi tombs, and the lake of Hussain Sagar. Newer attractions include Ramoji Film City and the Statue of Equality. And there is the food: biryani, haleem, Irani chai and Osmania biscuits.",
+    "Two to three days covers the city. October to February is the most comfortable time."
+  ],
+  "quickAnswer": [
+    "See the Charminar and shop in Laad Bazaar",
+    "Visit Mecca Masjid",
+    "Tour Chowmahalla Palace",
+    "Explore the Salar Jung Museum",
+    "Climb Golconda Fort and watch its light show",
+    "See the Qutb Shahi tombs",
+    "Take a boat to the Buddha statue on Hussain Sagar",
+    "Visit Birla Mandir at sunset",
+    "Spend a day at Ramoji Film City",
+    "Eat biryani, haleem and Irani chai"
+  ],
+  "sections": [
+    {
+      "id": "old-city",
+      "heading": "The old city",
+      "items": [
+        {
+          "name": "See the Charminar",
+          "image": {
+            "src": "/images/blogs/telangana/charminar/charminar-angled-view-street-life-hyderabad.webp",
+            "alt": "Charminar with street life around it",
+            "caption": "Charminar"
+          },
+          "body": [
+            "The Charminar, built in 1591, is a square monument with four minarets about 56 metres high, standing at the heart of the old city. Visitors can climb to the first floor for views of the bazaars. It is lit up in the evening, and the area is busiest and most atmospheric during Ramzan nights."
+          ],
+          "facts": {
+            "Time needed": "1 hour",
+            "Best time": "Morning or evening"
+          }
+        },
+        {
+          "name": "Shop in Laad Bazaar",
+          "image": {
+            "src": "/images/blogs/telangana/charminar/laad-bazaar-charminar-2.webp",
+            "alt": "Bangle stalls in Laad Bazaar",
+            "caption": "Laad Bazaar"
+          },
+          "body": [
+            "Laad Bazaar, leading west from the Charminar, is famous for lacquer bangles studded with stones, along with bridal wear, perfumes (attar) and pearls. Hyderabad has long been known as the city of pearls; buy from reputed shops."
+          ],
+          "facts": {
+            "Good for": "Shoppers"
+          }
+        },
+        {
+          "name": "Visit Mecca Masjid",
+          "image": {
+            "src": "/images/blogs/telangana/charminar/mecca-masjid-charminar.webp",
+            "alt": "Mecca Masjid near the Charminar",
+            "caption": "Mecca Masjid"
+          },
+          "body": [
+            "Mecca Masjid, near the Charminar, is one of the largest mosques in India, begun in the 1610s. Bricks made with soil brought from Mecca are said to be set above the central arch. Visitors should dress modestly and avoid prayer times."
+          ]
+        },
+        {
+          "name": "Tour Chowmahalla Palace",
+          "body": [
+            "Chowmahalla Palace, the seat of the Asaf Jahi Nizams, has four palaces around courtyards, a grand Durbar Hall with crystal chandeliers, and collections of vintage cars, clothes and arms. It is closed on Fridays."
+          ],
+          "facts": {
+            "Time needed": "1.5 hours",
+            "Good to know": "Closed on Fridays"
+          }
+        },
+        {
+          "name": "Explore the Salar Jung Museum",
+          "body": [
+            "The Salar Jung Museum holds one of the world's largest collections assembled by a single person, Salar Jung III, including the Veiled Rebecca marble sculpture, a musical clock that draws crowds at every hour, Mughal miniatures, jade, textiles and European art. It is closed on Fridays."
+          ],
+          "facts": {
+            "Time needed": "3 hours",
+            "Good to know": "Closed on Fridays"
+          }
+        }
+      ]
+    },
+    {
+      "id": "golconda",
+      "heading": "Golconda and the tombs",
+      "items": [
+        {
+          "name": "Climb Golconda Fort",
+          "image": {
+            "src": "/images/blogs/telangana/golconda-fort/golconda-fort-ramparts-hyderabad.webp",
+            "alt": "Ramparts of Golconda Fort",
+            "caption": "Golconda Fort"
+          },
+          "body": [
+            "Golconda Fort, west of the city, was the capital of the Qutb Shahi kingdom and a centre of the diamond trade; the Koh-i-Noor is believed to have come from mines in the region. A clap at the Fateh Darwaza gate can be heard at the top of the hill, an early acoustic warning system. The climb to the Baradari at the top takes about 30 to 45 minutes."
+          ],
+          "facts": {
+            "Time needed": "2–3 hours",
+            "Best time": "Late afternoon"
+          }
+        },
+        {
+          "name": "Watch the light and sound show",
+          "image": {
+            "src": "/images/blogs/telangana/golconda-fort/sound-and-light-show-golconda-fort.webp",
+            "alt": "Sound and light show at Golconda Fort",
+            "caption": "Golconda light show"
+          },
+          "body": [
+            "The evening sound and light show at Golconda narrates the fort's history, with shows in English, Hindi and Telugu on different days."
+          ],
+          "facts": {
+            "Best time": "Evening"
+          }
+        },
+        {
+          "name": "See the Qutb Shahi tombs",
+          "image": {
+            "src": "/images/blogs/telangana/golconda-fort/qutb-shahi-tombs-golconda-fort.webp",
+            "alt": "Domed Qutb Shahi tombs",
+            "caption": "Qutb Shahi tombs"
+          },
+          "body": [
+            "The Qutb Shahi tombs, a short drive from Golconda, are a group of domed tombs of the dynasty's rulers and their families, set in gardens. A long restoration has brought the complex back to life, with a heritage park and stepwells."
+          ],
+          "facts": {
+            "Time needed": "1.5 hours"
+          }
+        }
+      ]
+    },
+    {
+      "id": "city",
+      "heading": "Lakes, temples and new sights",
+      "items": [
+        {
+          "name": "Take a boat to the Buddha statue",
+          "body": [
+            "Hussain Sagar, a lake built in 1562, has a large monolithic Buddha statue on a rock in the middle, reached by boat from Lumbini Park or Eat Street. Necklace Road around the lake is lively in the evening, and a laser show is held at Lumbini Park."
+          ],
+          "facts": {
+            "Best time": "Evening"
+          }
+        },
+        {
+          "name": "Visit Birla Mandir",
+          "body": [
+            "Birla Mandir, a white marble temple to Venkateswara on Naubat Pahad, has views over Hussain Sagar, especially at sunset. Phones and cameras are not allowed inside."
+          ]
+        },
+        {
+          "name": "Spend a day at Ramoji Film City",
+          "image": {
+            "src": "/images/blogs/telangana/hyderabad/ramoji-film-city-hyderabad.webp",
+            "alt": "Film sets at Ramoji Film City",
+            "caption": "Ramoji Film City"
+          },
+          "body": [
+            "Ramoji Film City, about 30 km from the city, is one of the world's largest film studio complexes, with film sets, shows, rides and gardens. It is a full-day outing popular with families."
+          ],
+          "facts": {
+            "Time needed": "Full day",
+            "Good for": "Families"
+          }
+        },
+        {
+          "name": "See the Statue of Equality",
+          "body": [
+            "The Statue of Equality at Muchintal, unveiled in 2022, is a 216-foot seated statue of the 11th-century philosopher Ramanuja, with a complex of 108 shrines and a musical fountain show."
+          ]
+        },
+        {
+          "name": "Visit Chilkur Balaji",
+          "body": [
+            "The Chilkur Balaji Temple, on the city's edge, is popularly known as the visa temple, as many devotees pray here for successful visa applications."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "more",
+      "heading": "More of Hyderabad",
+      "items": [
+        {
+          "name": "See the Paigah Tombs",
+          "body": [
+            "The Paigah Tombs, the burial ground of a noble family closely linked to the Nizams, have remarkable marble lattice screens, stucco work and inlaid decoration. They are rarely crowded."
+          ]
+        },
+        {
+          "name": "Visit Falaknuma Palace",
+          "body": [
+            "Falaknuma Palace, built in the 1890s on a hilltop and later owned by the Nizams, is now a luxury hotel. Access is generally for guests and for dining or heritage experiences booked in advance."
+          ]
+        },
+        {
+          "name": "See Taramati Baradari and Shilparamam",
+          "body": [
+            "Taramati Baradari, a Qutb Shahi pavilion near Golconda, hosts cultural events. Shilparamam, a crafts village in Madhapur, has stalls of handicrafts from across India and folk performances."
+          ],
+          "facts": {
+            "Good for": "Shoppers, families"
+          }
+        },
+        {
+          "name": "Walk around Durgam Cheruvu",
+          "body": [
+            "Durgam Cheruvu, a lake in the tech district, has a cable-stayed bridge that is lit up at night and a lakeside walkway, a favourite modern evening spot."
+          ],
+          "facts": {
+            "Best time": "Evening"
+          }
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "heading": "Food and festivals",
+      "items": [
+        {
+          "name": "Eat Hyderabadi biryani and haleem",
+          "body": [
+            "Hyderabadi biryani, made in the kachchi (raw marinated meat) style, is the city's pride. During Ramzan, haleem, a slow-cooked wheat and meat dish with a GI tag, is sold from evening stalls. Try double ka meetha and qubani ka meetha for dessert."
+          ],
+          "facts": {
+            "Good for": "Food lovers"
+          }
+        },
+        {
+          "name": "Drink Irani chai with Osmania biscuits",
+          "body": [
+            "The city's Irani cafés serve sweet, milky chai with Osmania biscuits and bun maska. Some near the Charminar have been open for generations."
+          ]
+        },
+        {
+          "name": "Celebrate Bathukamma or Numaish",
+          "body": [
+            "Bathukamma, a floral festival of Telangana in September or October, fills the city with flower towers and dancing women. The Numaish, an annual industrial exhibition and fair, runs from January to February."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seasons",
+      "heading": "By season",
+      "items": [
+        {
+          "name": "October to February",
+          "body": [
+            "Pleasant weather for the old city, Golconda and the lakes. The Deccan Festival and Numaish exhibition bring events and food fairs."
+          ]
+        },
+        {
+          "name": "March to June",
+          "body": [
+            "Very hot days; plan indoor museums at midday and forts in the late afternoon. Ramzan, when it falls in these months, brings night food markets around the Charminar."
+          ]
+        },
+        {
+          "name": "July to September",
+          "body": [
+            "Monsoon showers cool the city; Bathukamma and Bonalu festivals add colour."
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "History lovers",
+      "text": "The Charminar, Chowmahalla, Salar Jung Museum, Golconda and the Qutb Shahi tombs."
+    },
+    {
+      "who": "Families",
+      "text": "Ramoji Film City, the Nehru Zoological Park, Hussain Sagar and the Birla Science Museum."
+    },
+    {
+      "who": "Food lovers",
+      "text": "A biryani lunch, Irani chai near the Charminar and haleem in Ramzan."
+    }
+  ],
+  "oneDay": "Start at the Charminar and Mecca Masjid, walk through Laad Bazaar, and visit Chowmahalla Palace. After a biryani lunch, spend the afternoon at Golconda Fort and stay for the light and sound show.",
+  "tips": [
+    "Rajiv Gandhi International Airport is about 30 km from the centre.",
+    "Several museums and palaces close on Fridays; plan around them.",
+    "Use the metro and app cabs to avoid traffic.",
+    "Summers are very hot; see Golconda in the late afternoon."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Hyderabad?",
+      "a": "See the Charminar and Laad Bazaar, Mecca Masjid, Chowmahalla Palace, the Salar Jung Museum, Golconda Fort and the Qutb Shahi tombs, take a boat on Hussain Sagar, visit Ramoji Film City and eat biryani."
+    },
+    {
+      "q": "What are the best things to do in Hyderabad at night?",
+      "a": "The Golconda light and sound show, Necklace Road and the Hussain Sagar laser show, Birla Mandir at dusk and, in Ramzan, the food stalls around the Charminar."
+    },
+    {
+      "q": "How many days are enough for Hyderabad?",
+      "a": "Two to three days."
+    },
+    {
+      "q": "What is the best time to visit Hyderabad?",
+      "a": "October to February."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Warangal",
+      "href": "/blog/things-to-do-in-warangal",
+      "note": "Kakatiya temples, about three hours away"
+    },
+    {
+      "name": "Nagarjuna Sagar",
+      "href": "/blog/nagarjuna-sagar-travel-guide",
+      "note": "dam and Buddhist island museum"
+    },
+    {
+      "name": "Srisailam",
+      "href": "/blog/srisailam-travel-guide",
+      "note": "Jyotirlinga in the Nallamala forest"
+    },
+    {
+      "name": "Ananthagiri Hills",
+      "href": "/blog/ananthagiri-hills-travel-guide",
+      "note": "a green weekend escape"
+    }
+  ],
+  "styles": [
+    "family-holidays",
+    "weekend-getaways"
+  ],
+  "metaDescription": "Things to do in Hyderabad: the Charminar and Laad Bazaar, Mecca Masjid, Chowmahalla Palace, the Salar Jung Museum, Golconda Fort and its light show, the Qutb Shahi tombs and more."
+}

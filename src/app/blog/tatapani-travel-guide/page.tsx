@@ -19,9 +19,9 @@ export const metadata: Metadata = {
     description: "Sulphur-rich natural hot springs on the Rihand River, believed to have therapeutic properties and revered locally as sacred — the complete guide to Tatapani.",
     url: "https://club.kudozz.in/blog/tatapani-travel-guide",
     type: "article", siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/jammu-kashmir/dal.jpg", width: 2560, height: 1707, alt: "Natural water and forest landscape representative of Tatapani, Chhattisgarh" }],
+    images: [{ url: "/images/blogs/chhattisgarh/chhattisgarh/kanger-valley-national-park-cliffs.webp", width: 2560, height: 1707, alt: "Forested hills of Chhattisgarh (regional image)" }],
   },
-  twitter: { card: "summary_large_image", title: "Tatapani Travel Guide: Chhattisgarh's Natural Hot Springs", description: "Sulphur hot springs on the Rihand River — the complete guide to Tatapani.", images: ["/images/destinations/jammu-kashmir/dal.jpg"] },
+  twitter: { card: "summary_large_image", title: "Tatapani Travel Guide: Chhattisgarh's Natural Hot Springs", description: "Sulphur hot springs on the Rihand River — the complete guide to Tatapani.", images: ["/images/blogs/chhattisgarh/chhattisgarh/kanger-valley-national-park-cliffs.webp"] },
   alternates: { canonical: "https://club.kudozz.in/blog/tatapani-travel-guide" },
 };
 
@@ -31,7 +31,7 @@ function ArticleSchema() {
       "@context": "https://schema.org", "@type": "BlogPosting",
       headline: "Tatapani Travel Guide: Chhattisgarh's Natural Hot Springs",
       description: "The complete Tatapani travel guide.",
-      image: "https://club.kudozz.in/images/destinations/jammu-kashmir/dal.jpg",
+      image: "https://club.kudozz.in/images/blogs/chhattisgarh/chhattisgarh/kanger-valley-national-park-cliffs.webp",
       datePublished: "2026-09-08", dateModified: "2026-09-08",
       publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
       author: { "@type": "Organization", name: "Kudozz Club" },
@@ -85,7 +85,7 @@ export default function TatapaniGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/jammu-kashmir/dal.jpg" alt="Natural water and forest landscape representative of Tatapani, Chhattisgarh" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/chhattisgarh/chhattisgarh/kanger-valley-national-park-cliffs.webp" alt="Forested hills of Chhattisgarh (regional image)" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>

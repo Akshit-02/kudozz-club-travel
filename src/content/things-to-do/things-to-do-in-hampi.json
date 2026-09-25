@@ -1,0 +1,334 @@
+{
+  "slug": "things-to-do-in-hampi",
+  "destination": "Hampi",
+  "guide": "hampi-travel-guide",
+  "type": "heritage site",
+  "title": "Things to Do in Hampi: Temples, Royal Ruins, Boulders & Sunrise Hills",
+  "seoTitle": "Things to Do in Hampi: Ruins, Temples & Sunsets | Kudozz Club",
+  "description": "Things to do in Hampi: Virupaksha Temple, Hemakuta and Matanga hills at sunrise, the Vittala Temple and stone chariot, the Royal Centre, Lotus Mahal and Elephant Stables, the Queen's Bath, coracle rides, bouldering, Anegundi and cycling among the ruins.",
+  "dek": "The ruined capital of the Vijayanagara Empire, spread across a surreal landscape of granite boulders, banana groves and the Tungabhadra river.",
+  "primaryKeyword": "things to do in Hampi",
+  "secondaryKeywords": [
+    "places to visit in Hampi",
+    "Vittala Temple",
+    "Hampi sunrise",
+    "Hampi coracle ride",
+    "Hampi bouldering",
+    "Anegundi",
+    "Hampi itinerary"
+  ],
+  "searchIntent": "History lovers, backpackers and photographers planning two to four days in Hampi and wanting to organise the ruins sensibly.",
+  "tags": [
+    "Hampi",
+    "Karnataka",
+    "Heritage",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/karnataka/hampi/stone-chariot-vittala-temple-hampi.webp",
+    "alt": "Stone chariot at Vittala Temple, Hampi",
+    "caption": "The stone chariot, Vittala Temple"
+  },
+  "intro": [
+    "Hampi, in Vijayanagara district of Karnataka, was the capital of the Vijayanagara Empire from the 14th to 16th centuries, one of the largest and richest cities in the world at its height. It was sacked after the Battle of Talikota in 1565. The ruins, spread over more than 40 square kilometres, were listed as a UNESCO World Heritage Site in 1986.",
+    "The landscape is as striking as the monuments: piles of golden granite boulders, the Tungabhadra river and green paddy and banana fields. Things to do in Hampi fall into the Sacred Centre around Virupaksha Temple and the river, and the Royal Centre with its palaces, baths and stables, plus Anegundi across the river.",
+    "Three days is ideal. October to February is the best time; summers are extremely hot."
+  ],
+  "quickAnswer": [
+    "Visit Virupaksha Temple",
+    "Watch sunrise from Matanga Hill or sunset from Hemakuta Hill",
+    "See the Vittala Temple, stone chariot and musical pillars",
+    "Walk along the river past Achyutaraya Temple",
+    "Explore the Royal Enclosure and stepped tank",
+    "See Lotus Mahal and the Elephant Stables",
+    "Visit the Queen's Bath",
+    "See the Ugra Narasimha and Badavilinga",
+    "Take a coracle ride on the Tungabhadra",
+    "Cross to Anegundi and climb Anjanadri Hill"
+  ],
+  "sections": [
+    {
+      "id": "sacred",
+      "heading": "The Sacred Centre",
+      "items": [
+        {
+          "name": "Visit Virupaksha Temple",
+          "image": {
+            "src": "/images/blogs/karnataka/hampi/virupaksha-temple-gopuram-hampi.webp",
+            "alt": "Gopuram of Virupaksha Temple, Hampi",
+            "caption": "Virupaksha Temple"
+          },
+          "body": [
+            "Virupaksha Temple, dedicated to Shiva as Virupaksha, is older than the Vijayanagara Empire and still an active place of worship. Its tall eastern gopuram dominates Hampi Bazaar. Inside, look for the pinhole camera effect, where an inverted image of the gopuram appears on a wall."
+          ],
+          "facts": {
+            "Time needed": "1 hour",
+            "Best time": "Early morning"
+          }
+        },
+        {
+          "name": "Watch sunset from Hemakuta Hill",
+          "image": {
+            "src": "/images/blogs/karnataka/hampi/hemakuta-hill-temple-cluster-panorama-hampi.webp",
+            "alt": "Temples on Hemakuta Hill at sunset",
+            "caption": "Hemakuta Hill"
+          },
+          "body": [
+            "Hemakuta Hill, beside Virupaksha, is covered with small pre-Vijayanagara temples and gives a wide view over the temple and boulders. It is the most popular sunset spot. The giant Kadalekalu and Sasivekalu Ganesha statues are at its base."
+          ],
+          "facts": {
+            "Best time": "Sunset"
+          }
+        },
+        {
+          "name": "Climb Matanga Hill for sunrise",
+          "image": {
+            "src": "/images/blogs/karnataka/hampi/matanga-hill-sunrise-panorama-hampi.webp",
+            "alt": "Sunrise panorama from Matanga Hill, Hampi",
+            "caption": "Sunrise from Matanga Hill"
+          },
+          "body": [
+            "Matanga Hill, the highest point in central Hampi, offers the best sunrise views over the ruins, boulders and river. The climb over rock steps takes 20 to 30 minutes; start before dawn with a torch and go in a group."
+          ],
+          "facts": {
+            "Best time": "Sunrise",
+            "Good to know": "Go in a group; carry a torch"
+          }
+        },
+        {
+          "name": "Walk the river path to Vittala",
+          "body": [
+            "A path from Hampi Bazaar follows the Tungabhadra past Achyutaraya Temple and its long courtesan's street, the King's Balance and small shrines to the Vittala Temple. It takes about an hour and is one of the most atmospheric walks in Hampi."
+          ],
+          "facts": {
+            "Time needed": "1–2 hours",
+            "Best time": "Early morning"
+          }
+        }
+      ]
+    },
+    {
+      "id": "vittala",
+      "heading": "Vittala Temple",
+      "items": [
+        {
+          "name": "See the stone chariot and musical pillars",
+          "body": [
+            "The Vittala Temple complex is Hampi's finest monument. Its stone chariot, a shrine to Garuda built to look like a temple car, appears on the Indian 50-rupee note. The maha mandapa has pillars said to produce musical notes when tapped; visitors are no longer allowed to tap them, to prevent damage."
+          ],
+          "facts": {
+            "Time needed": "1.5–2 hours",
+            "Good to know": "Ticketed; battery vehicles run from the car park"
+          }
+        }
+      ]
+    },
+    {
+      "id": "royal",
+      "heading": "The Royal Centre",
+      "items": [
+        {
+          "name": "Explore the Royal Enclosure",
+          "body": [
+            "The Royal Enclosure includes the Mahanavami Dibba, a tall stone platform with carved friezes from which kings watched festivals, and the elegant stepped tank (pushkarani), rediscovered by excavation. Nearby, the Hazara Rama Temple has walls carved with Ramayana scenes."
+          ],
+          "facts": {
+            "Time needed": "2 hours"
+          }
+        },
+        {
+          "name": "See Lotus Mahal and the Elephant Stables",
+          "image": {
+            "src": "/images/blogs/karnataka/hampi/lotus-mahal-hampi.webp",
+            "alt": "Lotus Mahal in the Zenana Enclosure, Hampi",
+            "caption": "Lotus Mahal"
+          },
+          "body": [
+            "Lotus Mahal, in the Zenana Enclosure, is a two-storey pavilion blending Hindu and Islamic arches. The long Elephant Stables next to it have eleven domed chambers."
+          ],
+          "facts": {
+            "Time needed": "1 hour"
+          }
+        },
+        {
+          "name": "Visit the Queen's Bath",
+          "image": {
+            "src": "/images/blogs/karnataka/hampi/queens-bath-hampi.webp",
+            "alt": "Arched corridor and pool of the Queen's Bath",
+            "caption": "Queen's Bath"
+          },
+          "body": [
+            "The Queen's Bath is a plain building from outside with an ornate interior: arched corridors and projecting balconies around a large pool. It was likely a royal pleasure bath."
+          ]
+        },
+        {
+          "name": "See Ugra Narasimha and Badavilinga",
+          "body": [
+            "The Ugra Narasimha is a monolithic statue about 6.7 metres tall of Vishnu's man-lion form. Next to it, the Badavilinga, a large lingam, stands in water inside a small shrine. The Underground Shiva Temple is nearby."
+          ]
+        },
+        {
+          "name": "Visit the Archaeological Museum",
+          "body": [
+            "The ASI museum at Kamalapura has sculptures, weapons, coins and a large model of the Hampi site. It is closed on Fridays."
+          ],
+          "facts": {
+            "Good to know": "Closed on Fridays"
+          }
+        }
+      ]
+    },
+    {
+      "id": "river-activities",
+      "heading": "River, boulders and Anegundi",
+      "items": [
+        {
+          "name": "Take a coracle ride",
+          "body": [
+            "Round wicker coracles take visitors along the Tungabhadra past boulders and riverside shrines, a peaceful way to see Hampi from the water. Rides depend on water levels."
+          ],
+          "facts": {
+            "Best time": "October to February"
+          }
+        },
+        {
+          "name": "Try bouldering",
+          "body": [
+            "Hampi's granite boulders make it one of India's best bouldering destinations. Local climbing shops rent crash pads and shoes and can guide beginners. Mornings and late afternoons are coolest."
+          ],
+          "facts": {
+            "Good for": "Climbers"
+          }
+        },
+        {
+          "name": "Cross to Anegundi and Anjanadri Hill",
+          "image": {
+            "src": "/images/blogs/karnataka/hampi/anegundi-anjaneya-hanuman-hill.webp",
+            "alt": "Anjanadri Hill with Hanuman temple near Anegundi",
+            "caption": "Anjanadri Hill"
+          },
+          "body": [
+            "Across the river, Anegundi is an older village with houses, craft workshops making banana-fibre products, and the Pampa Sarovar. Anjanadri Hill, believed by many to be the birthplace of Hanuman, has a temple at the top reached by about 575 steps and superb sunset views."
+          ],
+          "facts": {
+            "Best time": "Sunset"
+          }
+        },
+        {
+          "name": "Cycle around Hampi",
+          "body": [
+            "Renting a bicycle or an electric scooter is a good way to move between the Sacred and Royal centres. The roads are mostly flat, but it gets very hot by midday."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "more",
+      "heading": "More to discover",
+      "items": [
+        {
+          "name": "See the Kadalekalu and Sasivekalu Ganesha",
+          "body": [
+            "At the foot of Hemakuta Hill, two giant monolithic Ganesha statues sit in open halls: Sasivekalu (mustard seed Ganesha) and the larger Kadalekalu (gram seed Ganesha), named after the shape of their bellies. Both are carved from single boulders."
+          ]
+        },
+        {
+          "name": "Visit the Hampi Bazaar and Virupapur",
+          "body": [
+            "Hampi Bazaar, the long colonnaded street in front of Virupaksha, once held a busy market; its stone pavilions remain. Across the river by ferry, Virupapur Gaddi was long a backpacker hub of guesthouses and cafés, though many were demolished for heritage protection; check what is operating."
+          ]
+        },
+        {
+          "name": "See the Daroji bear sanctuary",
+          "body": [
+            "Daroji Sloth Bear Sanctuary, about 15 km from Hampi, protects rocky scrubland where sloth bears can be watched from a viewing tower in the late afternoon, along with peacocks and other birds."
+          ],
+          "facts": {
+            "Best time": "Late afternoon"
+          }
+        },
+        {
+          "name": "Attend Hampi Utsav",
+          "body": [
+            "Hampi Utsav, the state-run cultural festival, brings music, dance, puppetry and light shows to the monuments, usually in winter. Dates vary from year to year."
+          ],
+          "facts": {
+            "Best time": "Winter (check dates)"
+          }
+        },
+        {
+          "name": "Visit Tungabhadra Dam",
+          "body": [
+            "The Tungabhadra Dam near Hosapete has gardens and viewpoints over the reservoir, and it makes an easy evening outing, especially when the gates are open after the monsoon."
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "History lovers",
+      "text": "Hire a licensed guide for the Royal Centre and Vittala Temple, and visit the museum."
+    },
+    {
+      "who": "Photographers",
+      "text": "Sunrise at Matanga, sunset at Hemakuta and Anjanadri, and the river path in early light."
+    },
+    {
+      "who": "Families",
+      "text": "Battery cars at Vittala, a coracle ride and short climbs; avoid the midday heat."
+    }
+  ],
+  "oneDay": "Climb Matanga Hill for sunrise, walk down through Hampi Bazaar to Virupaksha, then follow the river path to the Vittala Temple. After lunch, drive to the Royal Centre for the Royal Enclosure, Lotus Mahal and the Queen's Bath, and end at Hemakuta Hill for sunset.",
+  "tips": [
+    "Hosapete (Hospet) is the nearest railway station, about 13 km away; Jindal Vijaynagar airport at Toranagallu has limited flights.",
+    "Start early and rest in the afternoon; it is very hot from March to June.",
+    "Carry water and wear a hat; there is little shade among the ruins.",
+    "A single ticket covers several monuments; keep it with you.",
+    "Hire a licensed guide at the ticket counters for the Royal Centre and Vittala; they bring the ruins to life."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Hampi?",
+      "a": "Visit Virupaksha and Vittala temples, watch sunrise from Matanga Hill and sunset from Hemakuta, explore the Royal Centre, Lotus Mahal and the Queen's Bath, take a coracle ride and visit Anegundi."
+    },
+    {
+      "q": "How many days are needed for Hampi?",
+      "a": "Three days is ideal; two days covers the highlights at a faster pace."
+    },
+    {
+      "q": "What is the best time to visit Hampi?",
+      "a": "October to February. Hampi Utsav, the cultural festival, is usually held in winter."
+    },
+    {
+      "q": "Can you touch the musical pillars at Vittala Temple?",
+      "a": "No. Tapping the pillars is no longer allowed, to protect them."
+    },
+    {
+      "q": "Is Hampi good for families?",
+      "a": "Yes. Battery vehicles at Vittala Temple, a coracle ride and the open ruins keep children interested. Plan outdoor visits for mornings and late afternoons to avoid the heat."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Badami, Aihole and Pattadakal",
+      "href": "/blog/badami-aihole-pattadakal-travel-guide",
+      "note": "Chalukya temples, about three hours away"
+    },
+    {
+      "name": "Things to do in Goa",
+      "href": "/blog/things-to-do-in-goa",
+      "note": "beaches, about seven hours west"
+    },
+    {
+      "name": "Things to do in Bangalore",
+      "href": "/blog/things-to-do-in-bangalore",
+      "note": "about six hours south"
+    }
+  ],
+  "styles": [
+    "group-tours",
+    "family-holidays"
+  ],
+  "metaDescription": "Things to do in Hampi: Virupaksha Temple, Hemakuta and Matanga hills at sunrise, the Vittala Temple and stone chariot, the Royal Centre, Lotus Mahal and Elephant Stables and more."
+}

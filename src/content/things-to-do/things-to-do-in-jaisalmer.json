@@ -1,0 +1,321 @@
+{
+  "slug": "things-to-do-in-jaisalmer",
+  "destination": "Jaisalmer",
+  "guide": "rajasthan-desert-travel-guide",
+  "type": "desert city",
+  "title": "Things to Do in Jaisalmer: Golden Fort, Havelis & Thar Desert Experiences",
+  "seoTitle": "Things to Do in Jaisalmer: Fort, Havelis & Desert | Kudozz Club",
+  "description": "The best things to do in Jaisalmer: the living Golden Fort, carved havelis, Gadisar Lake at sunrise, a camel safari and night under the stars in the Thar, and the ghost village of Kuldhara.",
+  "dek": "A sandstone fort where people still live, merchant mansions carved like lace, and the Thar Desert beginning just beyond the edge of town.",
+  "primaryKeyword": "things to do in Jaisalmer",
+  "secondaryKeywords": [
+    "Jaisalmer desert safari",
+    "Sam sand dunes",
+    "Jaisalmer Fort",
+    "things to do in Jaisalmer at night",
+    "Khuri dunes",
+    "Kuldhara"
+  ],
+  "searchIntent": "Travellers planning two to four days in Jaisalmer who want to combine the fort and havelis with a desert experience, and need to choose between Sam and Khuri and between a sunset ride and an overnight safari.",
+  "tags": [
+    "Jaisalmer",
+    "Rajasthan",
+    "Thar Desert",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/rajasthan/rajasthan/jaisalmer-fort-sunrise-golden-city.webp",
+    "alt": "Jaisalmer Fort glowing gold at sunrise, Rajasthan"
+  },
+  "intro": [
+    "Jaisalmer lies deep in the Thar Desert in far western Rajasthan, not far from the Pakistan border. It grew rich as a stop on caravan routes, and that wealth paid for the yellow sandstone fort and the elaborately carved havelis of its merchant families. The stone turns gold in the late-afternoon light, which is why Jaisalmer is called the Golden City.",
+    "The things to do here fall into two halves. In town: the fort (one of the few in the world still lived in), the havelis, Gadisar Lake and the Jain temples. Outside town: the dunes at Sam and Khuri, camel rides, desert camps and the abandoned village of Kuldhara. Three to four days lets you do both without hurrying.",
+    "Late December to early February is the most comfortable time. From April to June daytime temperatures can pass 45°C."
+  ],
+  "quickAnswer": [
+    "Explore Jaisalmer Fort, the Raj Mahal and its Jain temples",
+    "Visit Patwon ki Haveli and Nathmal ki Haveli",
+    "Watch sunrise at Gadisar Lake",
+    "Take a camel ride into the dunes at sunset",
+    "Stay overnight at a desert camp near Khuri or Sam",
+    "Walk through the abandoned village of Kuldhara",
+    "Watch sunset over the fort from a rooftop",
+    "See the cenotaphs at Bada Bagh"
+  ],
+  "sections": [
+    {
+      "id": "in-town",
+      "heading": "Things to do in Jaisalmer town",
+      "items": [
+        {
+          "name": "Explore Jaisalmer Fort",
+          "image": {
+            "src": "/images/blogs/rajasthan/rajasthan-desert/jaisalmer-fort-jaisalmer-and-thar-desert.webp",
+            "alt": "Bastions of Jaisalmer Fort (Sonar Quila), Rajasthan",
+            "caption": "Sonar Quila, the Golden Fort"
+          },
+          "body": [
+            "Built in 1156 by Rawal Jaisal, Sonar Quila is a living fort: a few thousand people still live inside its walls, in houses, guesthouses and shops along narrow lanes. It is part of the UNESCO Hill Forts of Rajasthan. Inside, visit the seven-storey Raj Mahal (the former royal palace, now a museum), the Laxminath Temple and the viewpoints along the western ramparts.",
+            "Because the fort is inhabited, water use and drainage put strain on its foundations. Many travellers now choose to stay outside the walls to reduce that pressure."
+          ],
+          "facts": {
+            "Time needed": "Half a day",
+            "Best time": "Morning, then again for sunset views",
+            "Good for": "Everyone"
+          }
+        },
+        {
+          "name": "See the Jain temples inside the fort",
+          "image": {
+            "src": "/images/blogs/rajasthan/rajasthan-desert/jain-temples-jaisalmer-and-thar-desert.webp",
+            "alt": "Carved Jain temple inside Jaisalmer Fort",
+            "caption": "Jain temples, Jaisalmer Fort"
+          },
+          "body": [
+            "Seven interconnected Jain temples, built between the 12th and 15th centuries, have some of the finest stone carving in Rajasthan. They are open to visitors for part of the day, and leather items such as belts and bags are not permitted inside."
+          ],
+          "facts": {
+            "Time needed": "1 hour",
+            "Good to know": "Remove leather items and shoes before entering"
+          }
+        },
+        {
+          "name": "Visit the havelis",
+          "image": {
+            "src": "/images/destinations/jaisalmer/patwon-ki-haveli-carved-facade.webp",
+            "alt": "Carved sandstone facade of Patwon ki Haveli, Jaisalmer",
+            "caption": "Patwon ki Haveli"
+          },
+          "body": [
+            "Jaisalmer's merchant mansions are covered in stone carving so fine it looks like lace. Patwon ki Haveli is a cluster of five houses built by a family of traders in the 19th century; one of them is a museum. Nathmal ki Haveli is known for its facade, said to have been carved by two brothers working on either side who never quite matched each other. Salim Singh ki Haveli has a distinctive peacock-shaped roof."
+          ],
+          "facts": {
+            "Where": "Old town, below the fort",
+            "Time needed": "2 hours for all three",
+            "Good for": "Architecture lovers, photographers"
+          }
+        },
+        {
+          "name": "Watch sunrise at Gadisar Lake",
+          "image": {
+            "src": "/images/destinations/jaisalmer/gadisar-lake-jaisalmer.webp",
+            "alt": "Gadisar Lake with shrines and pavilions, Jaisalmer",
+            "caption": "Gadisar Lake"
+          },
+          "body": [
+            "Gadisar Lake was built in the 14th century as the town's water supply and is ringed with shrines, ghats and chhatris. Early morning is the best time, when the light is soft and the pavilions reflect in the water. Paddle boats are available later in the day."
+          ],
+          "facts": {
+            "Time needed": "1 hour",
+            "Best time": "Sunrise",
+            "Good for": "Photographers, families"
+          }
+        },
+        {
+          "name": "See the cenotaphs at Bada Bagh",
+          "body": [
+            "Bada Bagh, a few kilometres north of town, is a garden of royal cenotaphs (chhatris) on a low ridge. With the wind turbines of the desert behind it, the site is especially atmospheric at sunset."
+          ],
+          "facts": {
+            "Time needed": "1 hour",
+            "Best time": "Sunset"
+          }
+        },
+        {
+          "name": "Watch sunset from Vyas Chhatri",
+          "body": [
+            "Vyas Chhatri is a group of sandstone cenotaphs on a small hill near the fort, dedicated to the sage Vyasa. Its domed pavilions frame the fort walls in the evening light, and it is one of the most popular sunset viewpoints in town."
+          ],
+          "facts": {
+            "Time needed": "1 hour",
+            "Best time": "Sunset",
+            "Good for": "Photographers, couples"
+          }
+        },
+        {
+          "name": "Visit Amar Sagar and Lodurva",
+          "body": [
+            "Amar Sagar, about 5 km west, is a lake and garden with a carved Jain temple. A little further, Lodurva was the capital of the Bhati rulers before Jaisalmer was founded; its rebuilt Jain temple has fine carving and a sculpted tree of life. Both fit easily on the way to the dunes."
+          ],
+          "facts": {
+            "Time needed": "1.5 hours for both",
+            "Good for": "Architecture lovers"
+          }
+        },
+        {
+          "name": "Catch an evening puppet show",
+          "body": [
+            "The Desert Culture Centre and Museum near Gadisar Lake holds collections on the region's folk culture and runs short evening puppet shows that children tend to enjoy."
+          ],
+          "facts": {
+            "Time needed": "1 hour",
+            "Good for": "Families"
+          }
+        }
+      ]
+    },
+    {
+      "id": "desert",
+      "heading": "Thar Desert experiences",
+      "intro": "Most visitors want at least one evening in the dunes. The main choice is between Sam (closer to town, bigger and much busier) and Khuri (further, quieter, with a more traditional village).",
+      "items": [
+        {
+          "name": "Take a camel ride at sunset",
+          "image": {
+            "src": "/images/destinations/jaisalmer/sam-sand-dunes-camel-safari.webp",
+            "alt": "Camels on the Sam sand dunes near Jaisalmer",
+            "caption": "Sam sand dunes"
+          },
+          "body": [
+            "A sunset camel ride on the dunes is the classic Jaisalmer experience. Sam, about 40 km west, has the largest open dunes but gets very crowded in peak season with jeeps, stalls and music. Khuri, about 45 km south-west, has smaller dunes and a fraction of the crowds.",
+            "Book through your hotel or an established operator rather than street touts, and ask how the camels are cared for."
+          ],
+          "facts": {
+            "Time needed": "2–3 hours",
+            "Best time": "Late afternoon into sunset",
+            "Good for": "Everyone"
+          }
+        },
+        {
+          "name": "Spend a night in a desert camp",
+          "body": [
+            "Overnight safaris combine a camel ride with dinner, folk music and a night in a tent or under the open sky. Camps range from basic to luxurious. Desert nights in winter are cold, often dropping close to freezing, so bring warm layers.",
+            "For real quiet and dark skies, look for camps away from the main Sam strip or choose Khuri."
+          ],
+          "facts": {
+            "Time needed": "Overnight",
+            "Best time": "November to February",
+            "Good for": "Couples, families, stargazers"
+          }
+        },
+        {
+          "name": "Try jeep safaris and dune bashing",
+          "body": [
+            "Jeep rides over the dunes are offered at Sam and Khuri for those who want something faster than a camel. Quality varies, so ask your camp about safety standards before booking."
+          ],
+          "facts": {
+            "Time needed": "30–60 minutes",
+            "Good for": "Adventure seekers"
+          }
+        },
+        {
+          "name": "Walk through Kuldhara",
+          "image": {
+            "src": "/images/destinations/jaisalmer/kuldhara-abandoned-village-ruins.webp",
+            "alt": "Ruined houses of the abandoned village of Kuldhara near Jaisalmer",
+            "caption": "Kuldhara"
+          },
+          "body": [
+            "Kuldhara, about 18 km from town, was a Paliwal Brahmin village abandoned in the early 19th century. The reasons are debated, from water shortage to conflict with the state's minister, and local legend says the departing villagers cursed the site. Today its roofless stone houses are a haunting place to walk, and it fits easily on the way to the dunes."
+          ],
+          "facts": {
+            "Time needed": "45 minutes",
+            "Good for": "History lovers, families"
+          }
+        },
+        {
+          "name": "Visit Desert National Park",
+          "body": [
+            "Desert National Park, near Sam, protects a large area of Thar grassland and dunes. It is one of the last refuges of the great Indian bustard, and also has chinkara, desert foxes and many raptors in winter. Visits need a permit and a local guide."
+          ],
+          "facts": {
+            "Good for": "Birdwatchers, wildlife enthusiasts"
+          }
+        },
+        {
+          "name": "Drive to Tanot and Longewala",
+          "body": [
+            "Longewala, about 120 km from Jaisalmer, was the site of a famous 1971 battle and has a war memorial and museum. Tanot Mata Temple, further on near the border, is associated with stories from the 1965 and 1971 wars and is looked after by the Border Security Force. The trip is a long day through open desert; check current access rules before setting out."
+          ],
+          "facts": {
+            "Time needed": "Full day",
+            "Good for": "History enthusiasts, road-trippers"
+          }
+        }
+      ]
+    },
+    {
+      "id": "food-culture",
+      "heading": "Food, music and culture",
+      "items": [
+        {
+          "name": "Eat Jaisalmeri food",
+          "body": [
+            "Try ker sangri, ghotua ladoo, a local sweet, and dal baati churma. Rooftop restaurants in the old town and around the fort serve thalis with views of the walls lit up at night."
+          ]
+        },
+        {
+          "name": "Hear Manganiyar folk music",
+          "body": [
+            "The Manganiyar and Langa communities of the Thar are hereditary musicians, and their music is one of the great folk traditions of India. Many desert camps and some haveli hotels host evening performances."
+          ]
+        },
+        {
+          "name": "Desert Festival",
+          "body": [
+            "The Desert Festival, held around the February full moon, brings camel races, folk performances and the Mr Desert contest. Dates follow the lunar calendar, so check before booking."
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Couples",
+      "text": "A private desert camp with dinner under the stars, sunset from the fort walls and a heritage haveli stay are the romantic side of Jaisalmer."
+    },
+    {
+      "who": "Families",
+      "text": "The fort, Gadisar Lake, Kuldhara and a short camel ride work well with children. Choose a camp with proper tents and bring warm clothes for night-time."
+    },
+    {
+      "who": "Photographers",
+      "text": "Sunrise at Gadisar, carved haveli details in morning light, the fort from Vyas Chhatri at sunset and dune silhouettes at dusk."
+    }
+  ],
+  "oneDay": "Start with sunrise at Gadisar Lake, then spend the morning inside the fort and the Jain temples. After lunch, see Patwon ki Haveli and Nathmal ki Haveli. In the afternoon drive out via Kuldhara to the dunes for a sunset camel ride, and either return to town or stay overnight in a desert camp.",
+  "faqs": [
+    {
+      "q": "What are the best things to do in Jaisalmer?",
+      "a": "Explore the living Jaisalmer Fort and its Jain temples, visit Patwon ki Haveli and Nathmal ki Haveli, see sunrise at Gadisar Lake, take a camel ride into the dunes at sunset, spend a night in a desert camp and walk through Kuldhara."
+    },
+    {
+      "q": "Is Sam or Khuri better for a desert camp?",
+      "a": "Sam has bigger dunes and is closer to town, but is crowded in peak season. Khuri is quieter with a more traditional village feel, and many travellers prefer it for an overnight stay."
+    },
+    {
+      "q": "How many days are enough for Jaisalmer?",
+      "a": "Three to four days covers the fort, havelis, lakes, an overnight camel safari and Kuldhara without rushing. Two days is possible if you combine the dunes with an evening only."
+    },
+    {
+      "q": "What can I do in Jaisalmer at night?",
+      "a": "Stay in a desert camp with folk music and stargazing, watch the fort lit up from a rooftop restaurant, or walk the old town lanes in the cool of the evening."
+    },
+    {
+      "q": "What is the best time to visit Jaisalmer?",
+      "a": "Late December to early February is the most comfortable, with warm days and cold nights. October to March is the wider season. Avoid May and June, when temperatures reach 45–48°C."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Jodhpur",
+      "href": "/blog/things-to-do-in-jodhpur",
+      "note": "Mehrangarh and the Blue City, about five to six hours east"
+    },
+    {
+      "name": "Things to do in Bikaner",
+      "href": "/blog/things-to-do-in-bikaner",
+      "note": "Junagarh Fort and camel country to the north-east"
+    },
+    {
+      "name": "Osian",
+      "href": "/blog/osian-travel-guide",
+      "note": "temples and small dunes on the road to Jodhpur"
+    }
+  ],
+  "styles": [
+    "adventure-tours",
+    "honeymoon",
+    "family-holidays"
+  ]
+}

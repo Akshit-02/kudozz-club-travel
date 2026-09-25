@@ -1,0 +1,335 @@
+{
+  "slug": "things-to-do-in-shillong",
+  "destination": "Shillong",
+  "guide": "shillong-travel-guide",
+  "type": "city",
+  "title": "Things to Do in Shillong: Lakes, Waterfalls, Music & Khasi Culture",
+  "seoTitle": "Things to Do in Shillong: Music, Lakes & Falls | Kudozz Club",
+  "description": "Things to do in Shillong: Ward's Lake, Elephant Falls, the Don Bosco Museum, Shillong Peak, Police Bazar and Bara Bazar, the live music scene, All Saints' Cathedral, Umiam Lake, Laitlum canyons, the Mawphlang sacred forest and Khasi food.",
+  "dek": "Meghalaya's capital, a pine-covered hill city with colonial bungalows, a famous rock music culture and some of the Northeast's best cafés.",
+  "primaryKeyword": "things to do in Shillong",
+  "secondaryKeywords": [
+    "places to visit in Shillong",
+    "Ward's Lake",
+    "Elephant Falls",
+    "Don Bosco Museum",
+    "Shillong music",
+    "Umiam Lake",
+    "Shillong day trips"
+  ],
+  "searchIntent": "Travellers spending two days in Shillong and using it as a base for Sohra, Dawki and other day trips.",
+  "tags": [
+    "Shillong",
+    "Meghalaya",
+    "City",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/meghalaya/umiam-lake/umiam-lake-view.webp",
+    "alt": "Umiam Lake near Shillong",
+    "caption": "Umiam Lake"
+  },
+  "intro": [
+    "Shillong, at about 1,500 metres, is the capital of Meghalaya and was the capital of undivided Assam under British rule. Its pine-covered hills, colonial architecture and cool climate earned it the name Scotland of the East. It is a lively, youthful city known across India for its rock and blues music, football and cafés.",
+    "Things to do in Shillong include Ward's Lake and Elephant Falls, the excellent Don Bosco Museum of Indigenous Cultures, viewpoints from Shillong Peak, markets at Police Bazar and Bara Bazar, and evenings of live music. Just outside the city are Umiam Lake, the Laitlum canyons and the sacred forest at Mawphlang.",
+    "Two days covers the city; most visitors stay longer and use it as a base for Sohra and Dawki. October to May is the most comfortable time."
+  ],
+  "quickAnswer": [
+    "Walk around Ward's Lake",
+    "See the three tiers of Elephant Falls",
+    "Visit the Don Bosco Museum of Indigenous Cultures",
+    "See the city from Shillong Peak",
+    "Shop at Police Bazar and explore Bara Bazar",
+    "Listen to live music at a café or bar",
+    "See All Saints' Cathedral and the colonial quarters",
+    "Kayak at Umiam Lake",
+    "Watch sunrise at the Laitlum canyons",
+    "Walk through the Mawphlang sacred forest"
+  ],
+  "sections": [
+    {
+      "id": "city",
+      "heading": "In the city",
+      "items": [
+        {
+          "name": "Walk around Ward's Lake",
+          "image": {
+            "src": "/images/blogs/meghalaya/shillong/ward-s-lake-shillong.webp",
+            "alt": "Ward's Lake with bridge, Shillong",
+            "caption": "Ward's Lake"
+          },
+          "body": [
+            "Ward's Lake, a horseshoe-shaped lake from the late 19th century near the Raj Bhavan, has a wooden bridge, paddle boats and gardens. It is a peaceful spot for a morning walk. The Botanical Garden is next door."
+          ],
+          "facts": {
+            "Time needed": "1 hour",
+            "Good for": "Families, couples"
+          }
+        },
+        {
+          "name": "Visit the Don Bosco Museum",
+          "body": [
+            "The Don Bosco Museum of Indigenous Cultures in Mawlai is a seven-storey museum on the peoples of Northeast India, with galleries on dress, weapons, music, crafts and beliefs. It is one of the best museums in the region. The rooftop skywalk gives views of the city."
+          ],
+          "facts": {
+            "Time needed": "2–3 hours",
+            "Good for": "Culture seekers, families"
+          }
+        },
+        {
+          "name": "Shop at Police Bazar and Bara Bazar",
+          "body": [
+            "Police Bazar is the central shopping area, with hotels, restaurants and stalls. Bara Bazar (Iewduh) is one of the largest traditional markets in the Northeast, run largely by Khasi women, selling everything from betel nut and dried fish to cane baskets."
+          ],
+          "facts": {
+            "Good for": "Shoppers, photographers"
+          }
+        },
+        {
+          "name": "Listen to live music",
+          "body": [
+            "Shillong has a deep music culture; Bob Dylan's birthday has been celebrated in the city for years, and many bars and cafés host live rock, blues and folk bands. Laitumkhrah and Police Bazar have the most options."
+          ],
+          "facts": {
+            "Best time": "Evening",
+            "Good for": "Music lovers"
+          }
+        },
+        {
+          "name": "See the churches and colonial quarters",
+          "body": [
+            "All Saints' Cathedral, a white timber church near Ward's Lake, and the Cathedral of Mary Help of Christians in Laitumkhrah are landmarks. Old bungalows with sloping tin roofs are scattered through neighbourhoods such as Laban and Oakland."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nature",
+      "heading": "Viewpoints and waterfalls",
+      "items": [
+        {
+          "name": "See Elephant Falls",
+          "image": {
+            "src": "/images/blogs/meghalaya/shillong/elephant-falls-shillong.webp",
+            "alt": "Elephant Falls near Shillong",
+            "caption": "Elephant Falls"
+          },
+          "body": [
+            "Elephant Falls, about 12 km from the city on the road to Shillong Peak, has three tiers reached by steps through a fern-filled gorge. The British named it after a rock that resembled an elephant; the Khasi name means three-step waterfall."
+          ],
+          "facts": {
+            "Time needed": "1 hour",
+            "Best time": "After the monsoon"
+          }
+        },
+        {
+          "name": "See the city from Shillong Peak",
+          "body": [
+            "Shillong Peak, at about 1,965 metres, is the highest point in the area and offers a sweeping view of the city. It lies within an Indian Air Force area, so ID is needed and access can be closed at times."
+          ],
+          "facts": {
+            "Good to know": "Carry ID; may be closed"
+          }
+        },
+        {
+          "name": "Watch sunrise at Laitlum",
+          "body": [
+            "The Laitlum canyons, about an hour away, are a series of deep gorges seen from a grassy ridge. Sunrise, with mist in the valleys, is magical."
+          ],
+          "links": [
+            {
+              "label": "Laitlum guide",
+              "href": "/blog/laitlum-canyons-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "around",
+      "heading": "Around Shillong",
+      "items": [
+        {
+          "name": "Kayak at Umiam Lake",
+          "body": [
+            "Umiam Lake, about 15 km before Shillong on the Guwahati road, is a large reservoir with water sports, viewpoints and lakeside resorts. Kayaking and boating are available at the water sports complex."
+          ],
+          "facts": {
+            "Good for": "Families, couples"
+          }
+        },
+        {
+          "name": "Walk in the Mawphlang sacred forest",
+          "body": [
+            "Mawphlang's sacred grove, about 25 km away, has been protected for generations by Khasi custom. Guided walks explain the plants, monoliths and rules, including that nothing may be taken from the forest."
+          ],
+          "facts": {
+            "Time needed": "2 hours"
+          }
+        },
+        {
+          "name": "Take day trips to Sohra and Dawki",
+          "body": [
+            "Sohra (Cherrapunji), with its waterfalls and caves, is about 55 km away, and Dawki, with its clear river, about 80 km. Both are usually done as day trips or with an overnight stay."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Cherrapunji",
+              "href": "/blog/things-to-do-in-cherrapunji"
+            },
+            {
+              "label": "Dawki guide",
+              "href": "/blog/dawki-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Walk the Shillong Golf Course",
+          "body": [
+            "The Shillong Golf Course, laid out in the late 19th century in a valley of pine trees, is one of the oldest in India and often called one of the most scenic. Visitors can walk its edges, and play can be arranged with the club."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "more",
+      "heading": "More to see",
+      "items": [
+        {
+          "name": "Visit the Cathedral and Air Force Museum",
+          "body": [
+            "The Cathedral of Mary Help of Christians in Laitumkhrah, rebuilt in 1947 after a fire, is a striking red-brick church with stained glass. The Eastern Air Command Museum in Upper Shillong has aircraft and exhibits on the Indian Air Force; carry ID."
+          ],
+          "facts": {
+            "Good to know": "ID needed at the Air Force museum"
+          }
+        },
+        {
+          "name": "Walk in Lady Hydari Park",
+          "body": [
+            "Lady Hydari Park, laid out in the 1930s, has gardens, a small zoo and a pond, and is a favourite with local families on weekends."
+          ],
+          "facts": {
+            "Good for": "Families"
+          }
+        },
+        {
+          "name": "See Sweet Falls and Crinoline Falls",
+          "body": [
+            "Sweet Falls, near Happy Valley, drops about 90 metres in a slender stream; it is best seen from a viewpoint, as the rocks around it are dangerous. Crinoline Falls is close to the city centre."
+          ],
+          "facts": {
+            "Good to know": "Do not go near the edge at Sweet Falls"
+          }
+        },
+        {
+          "name": "Catch the cherry blossom and autumn festivals",
+          "body": [
+            "In November, Shillong's cherry trees flower and the city has held a cherry blossom festival with concerts and food. The Autumn Festival and other music events bring bands from across the Northeast."
+          ],
+          "facts": {
+            "Best time": "November"
+          }
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "heading": "Food",
+      "items": [
+        {
+          "name": "Eat Khasi food",
+          "body": [
+            "Try jadoh, dohneiiong, doh khlieh (a pork salad) and tungtap chutney in local eateries around Police Bazar and Laitumkhrah. Shillong also has an excellent café culture and bakeries."
+          ],
+          "facts": {
+            "Good for": "Food lovers"
+          }
+        },
+        {
+          "name": "Try the cafés and bakeries",
+          "body": [
+            "Shillong's café scene is one of the best in the Northeast, with small places in Laitumkhrah, Police Bazar and Upper Shillong serving local coffee, bakes and fusion food, often with live or recorded music. Street stalls near Police Bazar sell momos, jadoh and fried snacks in the evening."
+          ],
+          "facts": {
+            "Best time": "Afternoon and evening"
+          }
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Families",
+      "text": "Ward's Lake, Elephant Falls, the Don Bosco Museum and Umiam Lake."
+    },
+    {
+      "who": "Couples",
+      "text": "Laitlum at sunrise, cafés in Laitumkhrah and an evening of live music."
+    },
+    {
+      "who": "Culture seekers",
+      "text": "The Don Bosco Museum, Bara Bazar and a guided walk at Mawphlang."
+    },
+    {
+      "who": "Music lovers",
+      "text": "Plan your evenings around live gigs in Laitumkhrah and Police Bazar, and check listings for concerts and festivals during your stay."
+    }
+  ],
+  "oneDay": "Start at Ward's Lake, then spend the late morning at the Don Bosco Museum. After lunch, drive to Elephant Falls and Shillong Peak, and end the day in Police Bazar with Khasi food and live music.",
+  "tips": [
+    "Guwahati airport is about three hours by road; shared taxis run from Guwahati.",
+    "Traffic in Shillong can be slow at peak hours.",
+    "Carry rain gear; showers are common year-round.",
+    "Many shops close early on Sundays.",
+    "Taxis are the main way to reach viewpoints and falls; agree on the fare or hire for the day."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Shillong?",
+      "a": "Walk Ward's Lake, see Elephant Falls, visit the Don Bosco Museum, see Shillong Peak, shop at Police Bazar and Bara Bazar, listen to live music, and visit Umiam Lake, Laitlum and Mawphlang."
+    },
+    {
+      "q": "How many days are enough for Shillong?",
+      "a": "Two days for the city; four to six with day trips to Sohra and Dawki."
+    },
+    {
+      "q": "What is the best time to visit Shillong?",
+      "a": "October to May. The monsoon brings heavy rain."
+    },
+    {
+      "q": "Is Shillong good for a family trip?",
+      "a": "Yes. Lakes, waterfalls, the Don Bosco Museum and easy day trips suit families well."
+    },
+    {
+      "q": "What is Shillong famous for?",
+      "a": "Its pine-covered hills, rock and blues music culture, colonial architecture, the Don Bosco Museum, and as a base for Meghalaya's waterfalls, caves and root bridges."
+    },
+    {
+      "q": "How far is Cherrapunji from Shillong?",
+      "a": "About 55 km, roughly one and a half to two hours by road, with viewpoints such as Mawkdok on the way."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Cherrapunji",
+      "href": "/blog/things-to-do-in-cherrapunji",
+      "note": "waterfalls and caves, 55 km away"
+    },
+    {
+      "name": "Things to do in Meghalaya",
+      "href": "/blog/things-to-do-in-meghalaya",
+      "note": "the whole state"
+    },
+    {
+      "name": "Things to do in Guwahati",
+      "href": "/blog/things-to-do-in-guwahati",
+      "note": "the gateway city"
+    }
+  ],
+  "styles": [
+    "honeymoon",
+    "family-holidays"
+  ],
+  "metaDescription": "Things to do in Shillong: Ward's Lake, Elephant Falls, the Don Bosco Museum, Shillong Peak, Police Bazar and Bara Bazar, the live music scene, All Saints' Cathedral and more."
+}

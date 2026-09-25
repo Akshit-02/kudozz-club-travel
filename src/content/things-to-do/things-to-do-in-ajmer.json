@@ -1,0 +1,235 @@
+{
+  "slug": "things-to-do-in-ajmer",
+  "destination": "Ajmer",
+  "guide": "ajmer-travel-guide",
+  "type": "pilgrimage city",
+  "title": "Things to Do in Ajmer: Dargah Sharif, Ana Sagar & Historic Sites",
+  "seoTitle": "Things to Do in Ajmer: Dargah, Ana Sagar & More | Kudozz Club",
+  "description": "Things to do in Ajmer: visit the Ajmer Sharif Dargah and hear qawwali, see Adhai Din ka Jhonpra, walk Ana Sagar's baradari, explore the Soniji ki Nasiyan Jain temple and Taragarh Fort.",
+  "dek": "One of India's most visited Sufi shrines, a 12th-century mosque built from temple pillars, and a lake with marble pavilions, all a short drive from Pushkar.",
+  "primaryKeyword": "things to do in Ajmer",
+  "secondaryKeywords": [
+    "Ajmer Sharif Dargah",
+    "places to visit in Ajmer",
+    "Ana Sagar Lake",
+    "Adhai Din ka Jhonpra",
+    "Ajmer qawwali"
+  ],
+  "searchIntent": "Pilgrims and Rajasthan travellers spending a day in Ajmer, usually combined with Pushkar, who want to know what to see beyond the dargah.",
+  "tags": [
+    "Ajmer",
+    "Rajasthan",
+    "Sufi",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/rajasthan/ajmer/ajmer-sharif-dargah-4.webp",
+    "alt": "Gateway and courtyard of the Ajmer Sharif Dargah, Rajasthan"
+  },
+  "intro": [
+    "Ajmer, in central Rajasthan, is best known for the Dargah of Khwaja Moinuddin Chishti, the 13th-century Sufi saint whose shrine draws pilgrims of every faith from across South Asia. The city was founded in the 7th century by the Chauhan dynasty and later became an important Mughal centre, so its sights span Rajput, Sultanate and Mughal history.",
+    "Most visitors spend a day in Ajmer and stay in Pushkar, 15 km away across Nag Pahar hill. A full day lets you see the dargah, the neighbouring Adhai Din ka Jhonpra, Ana Sagar Lake and the gilded Jain temple of Soniji ki Nasiyan."
+  ],
+  "quickAnswer": [
+    "Visit the Ajmer Sharif Dargah and stay for Thursday or evening qawwali",
+    "See the carved pillars of Adhai Din ka Jhonpra",
+    "Walk the marble baradari at Ana Sagar Lake",
+    "See the golden Ayodhya model in Soniji ki Nasiyan",
+    "Drive up to Taragarh Fort for views over the city",
+    "Explore Akbar's palace, now the Ajmer Museum",
+    "Try the sohan halwa sold around the dargah"
+  ],
+  "sections": [
+    {
+      "id": "spiritual",
+      "heading": "The dargah and spiritual Ajmer",
+      "items": [
+        {
+          "name": "Visit the Ajmer Sharif Dargah",
+          "image": {
+            "src": "/images/blogs/rajasthan/ajmer/ajmer-sharif-dargah-2.webp",
+            "alt": "Domes and courtyard of the Dargah of Khwaja Moinuddin Chishti, Ajmer",
+            "caption": "Dargah Sharif"
+          },
+          "body": [
+            "The shrine of Khwaja Moinuddin Chishti, founder of the Chishti Sufi order in India, is reached through a busy market lane and a series of gates, including the Buland Darwaza. Inside are the saint's tomb, a mosque built by Shah Jahan and two huge cauldrons (degs) in which food is cooked for the poor. Pilgrims bring chadars (cloth offerings) and roses.",
+            "Cover your head (scarves and caps are sold at the gate), leave shoes at the stands outside and keep valuables close, as crowds can be dense. The Urs festival marking the saint's death anniversary draws enormous crowds; visit at another time if you prefer calm."
+          ],
+          "facts": {
+            "Time needed": "1–2 hours",
+            "Best time": "Early morning or evening",
+            "Good to know": "Head covering required; photography restricted near the tomb"
+          }
+        },
+        {
+          "name": "Listen to qawwali",
+          "body": [
+            "Qawwali, devotional Sufi music, is performed in the dargah courtyard, most famously on Thursday evenings and during Urs. Sitting among pilgrims as the music builds is one of the most moving experiences in Rajasthan."
+          ],
+          "facts": {
+            "Best time": "Thursday evening",
+            "Good for": "Music and culture lovers"
+          }
+        },
+        {
+          "name": "See Soniji ki Nasiyan",
+          "body": [
+            "This 19th-century Digambar Jain temple, also called the Red Temple, has a hall containing a large gilded model of Ayodhya and the Jain cosmos, with golden temples, ships and flying vimanas. Visitors view it from a gallery. It is unlike anything else in the city."
+          ],
+          "facts": {
+            "Time needed": "45 minutes"
+          }
+        },
+        {
+          "name": "Visit Nareli Jain Temple",
+          "body": [
+            "On the Kishangarh road about 7 km from the city, Nareli is a modern Jain temple complex built on a hillside, with a main temple in marble and smaller shrines climbing the slope. It is quiet and has wide views over the Aravallis."
+          ],
+          "facts": {
+            "Time needed": "1 hour"
+          }
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "heading": "History and heritage",
+      "items": [
+        {
+          "name": "See Adhai Din ka Jhonpra",
+          "image": {
+            "src": "/images/blogs/rajasthan/ajmer/adhai-din-ka-jhonpra-ajmer-2.webp",
+            "alt": "Carved arches of Adhai Din ka Jhonpra mosque, Ajmer",
+            "caption": "Adhai Din ka Jhonpra"
+          },
+          "body": [
+            "A few minutes' walk beyond the dargah, this mosque was built from 1192 onwards under Qutb-ud-din Aibak, on the orders of Muhammad of Ghor, on the site of an earlier Sanskrit college, and it reuses that building's carved pillars. Its screen of seven arches, added in the early 13th century under Iltutmish, carries fine calligraphy. The name, meaning 'hut of two and a half days', refers to a legend about how quickly it was built, or to a fair once held here."
+          ],
+          "facts": {
+            "Time needed": "30–45 minutes",
+            "Good for": "History and architecture lovers"
+          }
+        },
+        {
+          "name": "Walk around Ana Sagar Lake",
+          "image": {
+            "src": "/images/blogs/rajasthan/ajmer/ana-sagar-lake-and-daulat-bagh-ajmer-2.webp",
+            "alt": "Marble pavilions at Ana Sagar Lake and Daulat Bagh, Ajmer",
+            "caption": "Ana Sagar Lake and the baradari"
+          },
+          "body": [
+            "Ana Sagar is a 12th-century artificial lake. Shah Jahan added marble pavilions (baradari) along its embankment, and Jahangir laid out the Daulat Bagh garden beside it. Evenings along the promenade are relaxed, with boating on the lake."
+          ],
+          "facts": {
+            "Time needed": "1–2 hours",
+            "Best time": "Late afternoon to sunset",
+            "Good for": "Families, couples"
+          }
+        },
+        {
+          "name": "Visit the Ajmer Museum in Akbar's palace",
+          "body": [
+            "Akbar built a palace-fort in Ajmer in the 16th century, and it is where Jahangir received Sir Thomas Roe, the English ambassador, in 1616. It now houses a government museum with sculpture, arms and miniature paintings."
+          ],
+          "facts": {
+            "Time needed": "1 hour"
+          }
+        },
+        {
+          "name": "Drive up to Taragarh Fort",
+          "body": [
+            "Taragarh, on the hill above the city, is one of the oldest hill forts in India. Little of the structure remains, but the drive up and the views over Ajmer and the lake make it worthwhile. It also has a shrine of Miran Sahib."
+          ],
+          "facts": {
+            "Time needed": "1.5 hours",
+            "Good for": "Views"
+          }
+        },
+        {
+          "name": "See Mayo College from outside",
+          "body": [
+            "Mayo College, founded in 1875 to educate the sons of Rajput princes, is one of India's oldest boarding schools. Its white marble main building is a landmark of Indo-Saracenic architecture. The campus is not generally open to visitors, but the building can be seen from the road."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "heading": "Food in Ajmer",
+      "items": [
+        {
+          "name": "Eat around the dargah bazaar",
+          "body": [
+            "The lanes leading to the dargah are lined with stalls selling kebabs, biryani and nihari, as well as Ajmer's famous sohan halwa, a dense, sticky sweet that pilgrims take home. Kadhi kachori is a local breakfast staple."
+          ]
+        },
+        {
+          "name": "Try kadhi kachori and milk sweets",
+          "body": [
+            "Kadhi kachori, a kachori broken into a spiced yoghurt curry, is Ajmer's classic breakfast. The city's sweet shops also sell kalakand and other milk sweets. Around the dargah, kebab and biryani stalls stay busy late into the evening, especially on Thursdays."
+          ]
+        }
+      ]
+    }
+  ],
+  "oneDay": "Visit the dargah early in the morning, then walk to Adhai Din ka Jhonpra. After lunch, see Soniji ki Nasiyan and the Ajmer Museum, then spend the late afternoon at Ana Sagar Lake. On Thursday, return to the dargah for qawwali in the evening, or drive over the hill to Pushkar for the evening aarti.",
+  "faqs": [
+    {
+      "q": "What are the best things to do in Ajmer?",
+      "a": "Visit the Ajmer Sharif Dargah and hear qawwali, see Adhai Din ka Jhonpra, walk around Ana Sagar Lake, see the golden model in Soniji ki Nasiyan and drive up to Taragarh Fort."
+    },
+    {
+      "q": "Is one day enough for Ajmer?",
+      "a": "Yes, one full day covers the main sights. Most travellers stay in Pushkar, 15 km away, and visit Ajmer on a day trip."
+    },
+    {
+      "q": "What is the dress code at Ajmer Sharif Dargah?",
+      "a": "Dress modestly and cover your head; scarves and caps are sold near the entrance. Shoes are left outside."
+    },
+    {
+      "q": "When is qawwali performed at Ajmer Dargah?",
+      "a": "Qawwali is performed regularly in the courtyard, with Thursday evenings the best-known time. During the Urs festival it continues for days."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Pushkar",
+      "href": "/blog/things-to-do-in-pushkar",
+      "note": "the holy lake town, 15 km away"
+    },
+    {
+      "name": "Things to do in Jaipur",
+      "href": "/blog/things-to-do-in-jaipur",
+      "note": "about two and a half hours north-east"
+    },
+    {
+      "name": "Things to do in Chittorgarh",
+      "href": "/blog/things-to-do-in-chittorgarh",
+      "note": "Rajasthan's largest fort, to the south"
+    }
+  ],
+  "styles": [
+    "spiritual-tours"
+  ],
+  "byTraveller": [
+    {
+      "who": "Pilgrims",
+      "text": "Plan the dargah visit for early morning when crowds are lighter, return on Thursday evening for qawwali, and combine with the Brahma Temple in Pushkar for a pilgrimage of two faiths in two days."
+    },
+    {
+      "who": "History lovers",
+      "text": "Adhai Din ka Jhonpra, Akbar's palace museum and Taragarh cover more than 800 years of Ajmer's history in a single day."
+    },
+    {
+      "who": "Families",
+      "text": "Ana Sagar Lake, boating and the golden hall of Soniji ki Nasiyan hold children's attention better than the busy dargah lanes."
+    }
+  ],
+  "tips": [
+    "The lanes to the dargah are narrow and crowded; leave large bags at your hotel and keep valuables in a front pocket.",
+    "Buy a head covering at the gate if you do not have one, and dress modestly in shoulders-and-knees-covered clothing.",
+    "During the Urs (dates follow the Islamic calendar), crowds and security are at their peak; book stays well ahead or avoid those dates if you want a calm visit.",
+    "Pushkar is 15 km away over Nag Pahar hill; buses and taxis run frequently, so staying in one and visiting the other is easy.",
+    "Ajmer Junction is the main railway station for both Ajmer and Pushkar, with good connections to Jaipur and Delhi."
+  ]
+}

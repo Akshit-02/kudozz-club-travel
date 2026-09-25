@@ -1,0 +1,266 @@
+{
+  "slug": "things-to-do-in-chikmagalur",
+  "destination": "Chikmagalur",
+  "guide": "chikmagalur-travel-guide",
+  "type": "hill district",
+  "title": "Things to Do in Chikmagalur: Coffee, Karnataka's Highest Peak & Hoysala Temples",
+  "seoTitle": "Things to Do in Chikmagalur: Peaks, Coffee & Falls | Kudozz Club",
+  "description": "Things to do in Chikmagalur: sunrise at Mullayanagiri, Baba Budangiri, Kemmangundi and Z Point, Hebbe and Jhari falls, coffee estate stays, the Kudremukh trek, Bhadra safaris, Hirekolale lake, and the Hoysala temples of Belur and Halebidu.",
+  "dek": "The birthplace of coffee in India, with Karnataka's highest peak, shola grasslands, waterfalls and some of the country's finest carved temples nearby.",
+  "primaryKeyword": "things to do in Chikmagalur",
+  "secondaryKeywords": [
+    "places to visit in Chikmagalur",
+    "Mullayanagiri",
+    "Baba Budangiri",
+    "Hebbe Falls",
+    "Kudremukh trek",
+    "Belur Halebidu",
+    "Chikmagalur coffee estate"
+  ],
+  "searchIntent": "Weekenders from Bengaluru and trekkers planning two or three days in Chikmagalur for peaks, coffee and waterfalls.",
+  "tags": [
+    "Chikmagalur",
+    "Karnataka",
+    "Hill Station",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/karnataka/chikmagalur/mullayanagiri-chikmagalur.webp",
+    "alt": "Mullayanagiri peak and grasslands, Chikmagalur",
+    "caption": "Mullayanagiri"
+  },
+  "intro": [
+    "Chikmagalur (Chikkamagaluru) lies in the Baba Budan hills of the Western Ghats, about five hours from Bengaluru. According to legend, coffee first came to India here in the 17th century, when the Sufi saint Baba Budan brought seven beans from Yemen and planted them in the hills. Today the district is covered in coffee estates shaded by tall trees.",
+    "The things to do in Chikmagalur combine the outdoors and heritage: sunrise at Mullayanagiri, Karnataka's highest peak; the shrine at Baba Budangiri; waterfalls such as Hebbe and Jhari; treks in Kudremukh; safaris in Bhadra; and the Hoysala temples of Belur and Halebidu, recognised by UNESCO in 2023.",
+    "Two to three days is ideal. October to March is best for views and treks; the monsoon brings dramatic waterfalls but slippery trails."
+  ],
+  "quickAnswer": [
+    "Watch sunrise from Mullayanagiri",
+    "Visit the shrine at Baba Budangiri",
+    "See Kemmangundi and Z Point",
+    "Take a jeep to Hebbe Falls",
+    "Visit Jhari (Buttermilk) Falls",
+    "Stay on a coffee estate",
+    "Trek in Kudremukh National Park",
+    "Go on a safari in Bhadra Tiger Reserve",
+    "Watch sunset at Hirekolale Lake",
+    "See the Hoysala temples at Belur and Halebidu"
+  ],
+  "sections": [
+    {
+      "id": "peaks",
+      "heading": "Peaks and viewpoints",
+      "items": [
+        {
+          "name": "Watch sunrise from Mullayanagiri",
+          "body": [
+            "Mullayanagiri, at about 1,930 metres, is the highest peak in Karnataka. A road climbs most of the way, and steps lead to a small temple at the top. At sunrise, clouds often fill the valleys below. Weekends are crowded and vehicle entry may be regulated; go early on a weekday if you can."
+          ],
+          "facts": {
+            "Best time": "Sunrise, October to February",
+            "Good to know": "Crowd and vehicle limits at weekends"
+          }
+        },
+        {
+          "name": "Visit Baba Budangiri",
+          "image": {
+            "src": "/images/blogs/karnataka/chikmagalur/baba-budangiri-chikmagalur.webp",
+            "alt": "Baba Budangiri hills, Chikmagalur",
+            "caption": "Baba Budangiri"
+          },
+          "body": [
+            "Baba Budangiri, a range next to Mullayanagiri, has a cave shrine revered by both Hindus, as Sri Guru Dattatreya Peetha, and Muslims, as the shrine of Baba Budan. The grasslands around it are beautiful, and Manikyadhara Falls is nearby."
+          ],
+          "facts": {
+            "Time needed": "2 hours"
+          }
+        },
+        {
+          "name": "See Kemmangundi and Z Point",
+          "image": {
+            "src": "/images/blogs/karnataka/chikmagalur/kemmangundi-chikmagalur.webp",
+            "alt": "Kemmangundi hill station, Chikmagalur",
+            "caption": "Kemmangundi"
+          },
+          "body": [
+            "Kemmangundi, a small hill station developed by the Mysore kings, has gardens and a short trek to Z Point, a ridge with views across the Shola forests and valleys. Shanti Falls is on the way."
+          ],
+          "facts": {
+            "Time needed": "Half a day"
+          }
+        }
+      ]
+    },
+    {
+      "id": "falls",
+      "heading": "Waterfalls",
+      "items": [
+        {
+          "name": "Take a jeep to Hebbe Falls",
+          "image": {
+            "src": "/images/blogs/karnataka/chikmagalur/hebbe-falls-chikmagalur.webp",
+            "alt": "Hebbe Falls in the forest near Kemmangundi",
+            "caption": "Hebbe Falls"
+          },
+          "body": [
+            "Hebbe Falls, near Kemmangundi, drops about 168 metres in two stages inside a forest. Jeeps run through coffee estates and forest to near the falls, followed by a short walk. Access depends on forest department rules and may close in heavy rain."
+          ],
+          "facts": {
+            "Best time": "September to December",
+            "Good to know": "Access can close in heavy rain"
+          }
+        },
+        {
+          "name": "Visit Jhari Falls",
+          "body": [
+            "Jhari Falls, also called Buttermilk Falls for its white water, is reached by jeep through coffee estates and a short walk. It has a small pool at the base."
+          ]
+        },
+        {
+          "name": "See Kalhatti Falls",
+          "body": [
+            "Kalhatti Falls, near Kemmangundi, flows beside an old Veerabhadra temple and is popular with pilgrims and visitors after the monsoon."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coffee-wildlife",
+      "heading": "Coffee, forests and wildlife",
+      "items": [
+        {
+          "name": "Stay on a coffee estate",
+          "body": [
+            "Chikmagalur has many estate homestays and resorts where you can walk through the plantations, see how coffee is picked and processed, and drink estate-grown coffee. The Coffee Board's museum in town explains the crop's history. Harvest is from about November to February."
+          ],
+          "facts": {
+            "Good for": "Couples, families"
+          }
+        },
+        {
+          "name": "Trek in Kudremukh",
+          "body": [
+            "Kudremukh National Park, about 95 km away, protects rolling shola grasslands and forest. The trek to Kudremukh peak, whose profile is said to resemble a horse's face, is one of Karnataka's best, around 20 km return. It requires a forest department permit and a guide, and numbers are limited."
+          ],
+          "facts": {
+            "Time needed": "Full day",
+            "Best time": "October to February",
+            "Good to know": "Permit and guide required"
+          }
+        },
+        {
+          "name": "Go on a safari in Bhadra",
+          "body": [
+            "Bhadra Tiger Reserve, south of the Baba Budan hills, has tigers, elephants, gaur and many birds. Jeep safaris run from Lakkavalli and Muthodi, and boat safaris on the Bhadra reservoir are possible."
+          ],
+          "facts": {
+            "Best time": "October to May"
+          }
+        },
+        {
+          "name": "Watch sunset at Hirekolale Lake",
+          "body": [
+            "Hirekolale Lake, a few kilometres from town, reflects the Mullayanagiri range and is a quiet spot for sunset."
+          ],
+          "facts": {
+            "Best time": "Sunset"
+          }
+        }
+      ]
+    },
+    {
+      "id": "temples",
+      "heading": "Temples nearby",
+      "items": [
+        {
+          "name": "See Belur and Halebidu",
+          "image": {
+            "src": "/images/blogs/karnataka/karnataka/hoysaleswara-temple-halebidu.webp",
+            "alt": "Carved walls of the Hoysaleswara Temple, Halebidu",
+            "caption": "Hoysaleswara Temple, Halebidu"
+          },
+          "body": [
+            "The Chennakeshava Temple at Belur (12th century) and the Hoysaleswara Temple at Halebidu are masterpieces of Hoysala architecture, covered with intricate soapstone carvings of deities, dancers, animals and epics. Along with Somanathapura, they were inscribed as a UNESCO World Heritage Site in 2023. Belur is about 25 km and Halebidu about 30 km from Chikmagalur."
+          ],
+          "facts": {
+            "Time needed": "Half a day for both",
+            "Good to know": "Hire a guide to read the carvings"
+          }
+        },
+        {
+          "name": "Visit Sringeri and Horanadu",
+          "body": [
+            "Sringeri, on the Tunga river, is home to the Sharada Peetham founded by Adi Shankaracharya and the Vidyashankara Temple with its zodiac pillars. Horanadu's Annapoorneshwari Temple, in the hills, serves free meals to all visitors."
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Weekenders from Bengaluru",
+      "text": "Mullayanagiri at sunrise, Baba Budangiri, a coffee estate stay and Belur on the way back."
+    },
+    {
+      "who": "Trekkers",
+      "text": "Kudremukh with a permit, Z Point and the Baba Budan grasslands."
+    },
+    {
+      "who": "Culture seekers",
+      "text": "Belur, Halebidu and Sringeri for temple art and philosophy."
+    }
+  ],
+  "oneDay": "Drive to Mullayanagiri for sunrise and then to Baba Budangiri. After lunch, take a jeep to Jhari Falls and end the day at Hirekolale Lake for sunset.",
+  "tips": [
+    "Kadur and Chikmagalur have railway stations; Bengaluru and Mangaluru are the nearest major airports.",
+    "Roads to the peaks are narrow and winding; drive carefully, especially in mist.",
+    "Leeches are common in the monsoon; wear leech socks.",
+    "Weekend crowds at Mullayanagiri can be heavy; start early."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Chikmagalur?",
+      "a": "Watch sunrise at Mullayanagiri, visit Baba Budangiri, Kemmangundi and Z Point, see Hebbe and Jhari falls, stay on a coffee estate, trek Kudremukh, go on a Bhadra safari and visit Belur and Halebidu."
+    },
+    {
+      "q": "How many days are enough for Chikmagalur?",
+      "a": "Two to three days."
+    },
+    {
+      "q": "What is the best time to visit Chikmagalur?",
+      "a": "October to March for clear views and treks; the monsoon for waterfalls."
+    },
+    {
+      "q": "Is Chikmagalur good for a weekend trip from Bangalore?",
+      "a": "Yes. It is about five hours by road and makes a relaxed two- or three-day break."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Coorg",
+      "href": "/blog/things-to-do-in-coorg",
+      "note": "coffee country to the south"
+    },
+    {
+      "name": "Sakleshpur",
+      "href": "/blog/sakleshpur-travel-guide",
+      "note": "estates and treks nearby"
+    },
+    {
+      "name": "Things to do in Udupi",
+      "href": "/blog/things-to-do-in-udupi",
+      "note": "down the ghats to the coast"
+    },
+    {
+      "name": "Things to do in Bangalore",
+      "href": "/blog/things-to-do-in-bangalore",
+      "note": "about five hours away"
+    }
+  ],
+  "styles": [
+    "weekend-getaways",
+    "adventure-tours",
+    "honeymoon"
+  ],
+  "metaDescription": "Things to do in Chikmagalur: sunrise at Mullayanagiri, Baba Budangiri, Kemmangundi and Z Point, Hebbe and Jhari falls, coffee estate stays, the Kudremukh trek, Bhadra safaris and more."
+}

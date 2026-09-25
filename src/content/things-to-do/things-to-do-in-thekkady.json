@@ -1,0 +1,260 @@
+{
+  "slug": "things-to-do-in-thekkady",
+  "destination": "Thekkady",
+  "guide": "thekkady-travel-guide",
+  "type": "wildlife town",
+  "title": "Things to Do in Thekkady: Periyar Boat Safari, Jungle Walks & Spice Gardens",
+  "seoTitle": "Things to Do in Thekkady: Periyar, Spices & Treks | Kudozz Club",
+  "description": "Things to do in Thekkady: the Periyar lake boat safari, bamboo rafting and nature walks run by the forest department, spice plantation tours, Kathakali and kalaripayattu in Kumily, Chellarkovil and Ramakkalmedu viewpoints, Gavi, and the Mangala Devi temple festival.",
+  "dek": "The gateway to Periyar Tiger Reserve in Kerala's cardamom hills, where elephants come down to a forest lake and spice gardens surround the town.",
+  "primaryKeyword": "things to do in Thekkady",
+  "secondaryKeywords": [
+    "Periyar boat safari",
+    "Periyar Tiger Reserve",
+    "Thekkady spice plantation",
+    "bamboo rafting Periyar",
+    "Gavi",
+    "Ramakkalmedu"
+  ],
+  "searchIntent": "Families and couples spending one or two days in Thekkady between Munnar and the backwaters.",
+  "tags": [
+    "Thekkady",
+    "Kerala",
+    "Wildlife",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/kerala/thekkady/periyar-lake-boat-thekkady.webp",
+    "alt": "Periyar lake in Periyar Tiger Reserve, Thekkady"
+  },
+  "intro": [
+    "Thekkady, in Idukki district near the Tamil Nadu border, is the base for visiting Periyar Tiger Reserve, one of India's best-known protected areas. The lake at its heart was formed in 1895 by the Mullaperiyar Dam, and the drowned trees still stand in the water. The neighbouring town of Kumily is where most hotels, spice shops and restaurants are.",
+    "The things to do in Thekkady centre on Periyar: a boat safari on the lake, and eco-tourism activities such as nature walks, bamboo rafting and border hikes led by trained local guides, many of them from forest-dependent communities. Outside the park are spice plantations, cultural shows, viewpoints over Tamil Nadu and the forest eco-tourism at Gavi.",
+    "One to two days is enough. October to April is the best time; sightings are often better in the drier months."
+  ],
+  "quickAnswer": [
+    "Take a boat safari on Periyar lake",
+    "Go on a guided nature walk",
+    "Try bamboo rafting",
+    "Hike the border trail",
+    "Tour a spice plantation",
+    "Watch Kathakali and kalaripayattu in Kumily",
+    "See the view from Chellarkovil",
+    "Visit Ramakkalmedu's hilltop",
+    "Take a jeep trip to Gavi",
+    "Shop for cardamom, pepper and tea"
+  ],
+  "sections": [
+    {
+      "id": "periyar",
+      "heading": "Periyar Tiger Reserve",
+      "items": [
+        {
+          "name": "Take a boat safari on the lake",
+          "body": [
+            "Boats run by the forest department and KTDC cruise Periyar lake for about 90 minutes, past drowned trees and forested banks where elephants, gaur, sambar, wild boar and otters come to the water. The first boat of the morning usually has the best chances. Tickets are sold online and at the counter, and queues can be long in season."
+          ],
+          "facts": {
+            "Time needed": "1.5 hours",
+            "Best time": "First boat in the morning",
+            "Good for": "Everyone"
+          }
+        },
+        {
+          "name": "Go on a guided nature walk",
+          "body": [
+            "Short nature walks of two to three hours, led by trained guides, go into the forest in small groups. You may see birds, giant squirrels, Nilgiri langurs and signs of larger animals. Leech socks are provided in the wet season."
+          ],
+          "facts": {
+            "Time needed": "2–3 hours",
+            "Good for": "Nature lovers"
+          }
+        },
+        {
+          "name": "Try bamboo rafting",
+          "body": [
+            "The full-day bamboo rafting programme combines forest trekking with a slow raft ride on the lake, in small groups with armed guards and guides. It is one of the best ways to experience Periyar and needs booking in advance."
+          ],
+          "facts": {
+            "Time needed": "Full day",
+            "Good to know": "Limited places; book ahead"
+          }
+        },
+        {
+          "name": "Hike the border trail",
+          "body": [
+            "The border hiking programme follows the ridge along the Kerala–Tamil Nadu border inside the reserve, with views over the plains. Other options include night patrols and the multi-day Tiger Trail. Programmes change; check with the eco-tourism centre."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spices-culture",
+      "heading": "Spices and culture",
+      "items": [
+        {
+          "name": "Tour a spice plantation",
+          "body": [
+            "Spice gardens around Kumily offer guided walks showing cardamom, pepper, cinnamon, nutmeg, cloves, vanilla and coffee. Many sell spices at the end of the tour."
+          ],
+          "facts": {
+            "Time needed": "1.5 hours",
+            "Good for": "Families"
+          }
+        },
+        {
+          "name": "Watch Kathakali and kalaripayattu",
+          "body": [
+            "Kumily has several small theatres with evening shows of Kathakali, often with the make-up session open to watch, and kalaripayattu, Kerala's martial art."
+          ],
+          "facts": {
+            "Best time": "Evening"
+          }
+        },
+        {
+          "name": "Shop for spices and tea",
+          "body": [
+            "Kumily's main road is lined with spice shops. Cardamom, pepper, cloves and tea are good buys. Vandanmedu, nearby, has cardamom auction centres."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "viewpoints",
+      "heading": "Viewpoints and day trips",
+      "items": [
+        {
+          "name": "See the view from Chellarkovil",
+          "body": [
+            "Chellarkovil, about 15 km away, looks down steep slopes into the plains of Tamil Nadu, with a small waterfall in the monsoon."
+          ],
+          "facts": {
+            "Best time": "Morning"
+          }
+        },
+        {
+          "name": "Visit Ramakkalmedu",
+          "body": [
+            "Ramakkalmedu, about 40 km away, is a windy hilltop with wind turbines, rock formations and a large statue of a Kuravan and Kurathi, figures from local legend. The view over Tamil Nadu is wide."
+          ]
+        },
+        {
+          "name": "Take a jeep trip to Gavi",
+          "body": [
+            "Gavi, in the forests south of Thekkady, is reached through a controlled forest route and is run as an eco-tourism destination by the Kerala Forest Development Corporation, with trekking, boating and stays. Entry is regulated; book in advance."
+          ],
+          "facts": {
+            "Good to know": "Regulated entry"
+          }
+        },
+        {
+          "name": "See the Mangala Devi temple festival",
+          "body": [
+            "Mangala Devi Kannagi Temple, on a hilltop inside the reserve, is open to pilgrims only on Chitra Pournami, the full moon in April or May, when thousands walk or drive up."
+          ],
+          "facts": {
+            "Best time": "Chitra Pournami (April or May)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "seasons",
+      "heading": "Thekkady by season",
+      "items": [
+        {
+          "name": "Winter (October to February)",
+          "body": [
+            "Cool, pleasant weather and good conditions for walks and rafting. It is the busiest season, so book boat tickets and eco-tourism programmes early."
+          ]
+        },
+        {
+          "name": "Summer (March to May)",
+          "body": [
+            "The forest dries out and animals come to the lake to drink, which often improves sightings on the boat safari. Afternoons are warm but the hills stay cooler than the plains."
+          ],
+          "facts": {
+            "Good for": "Wildlife sightings"
+          }
+        },
+        {
+          "name": "Monsoon (June to September)",
+          "body": [
+            "Heavy rain, leeches and lush forest. Some programmes are suspended or shortened in heavy weather."
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Families",
+      "text": "The first boat on the lake, a spice plantation tour and an evening cultural show."
+    },
+    {
+      "who": "Nature lovers",
+      "text": "Bamboo rafting, a nature walk and a trip to Gavi."
+    },
+    {
+      "who": "Couples",
+      "text": "A plantation stay, sunset at Chellarkovil and a quiet morning nature walk."
+    }
+  ],
+  "oneDay": "Take the first boat safari on Periyar lake, then a short nature walk. After lunch, tour a spice plantation and drive to Chellarkovil for the view, ending with a Kathakali show in Kumily.",
+  "tips": [
+    "Kochi airport is about four hours away; Kottayam is the nearest major railway station.",
+    "Book boat safaris and eco-tourism programmes online in advance in peak season.",
+    "Wear neutral colours on walks and follow your guide's instructions.",
+    "Carry leech socks and rain gear in the monsoon."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Thekkady?",
+      "a": "Take a boat safari on Periyar lake, go on a nature walk or bamboo rafting, tour a spice plantation, watch Kathakali, see Chellarkovil and Ramakkalmedu, and visit Gavi."
+    },
+    {
+      "q": "Can you see tigers in Periyar?",
+      "a": "Tigers are present but rarely seen. Elephants, gaur, sambar and birds are much more common."
+    },
+    {
+      "q": "How many days are enough for Thekkady?",
+      "a": "One to two days."
+    },
+    {
+      "q": "What is the best time to visit Thekkady?",
+      "a": "October to April."
+    },
+    {
+      "q": "How do I book the Periyar boat safari?",
+      "a": "Tickets are sold online through the official Periyar Tiger Reserve and KTDC booking systems, and at the counter near the boat landing. Book ahead in peak season, especially for the first boat."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Munnar",
+      "href": "/blog/things-to-do-in-munnar",
+      "note": "tea hills, about three hours north"
+    },
+    {
+      "name": "Things to do in Kumarakom",
+      "href": "/blog/things-to-do-in-kumarakom",
+      "note": "backwaters, about three and a half hours west"
+    },
+    {
+      "name": "Vagamon",
+      "href": "/blog/vagamon-travel-guide",
+      "note": "meadows and pine forests on the way"
+    },
+    {
+      "name": "Things to do in Madurai",
+      "href": "/blog/things-to-do-in-madurai",
+      "note": "the temple city in Tamil Nadu"
+    }
+  ],
+  "styles": [
+    "family-holidays",
+    "wildlife-tours",
+    "honeymoon"
+  ],
+  "metaDescription": "Things to do in Thekkady: the Periyar lake boat safari, bamboo rafting and nature walks run by the forest department, spice plantation tours and more."
+}

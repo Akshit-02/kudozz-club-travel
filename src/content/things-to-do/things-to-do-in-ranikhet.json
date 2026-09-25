@@ -1,0 +1,228 @@
+{
+  "slug": "things-to-do-in-ranikhet",
+  "destination": "Ranikhet",
+  "guide": "ranikhet-travel-guide",
+  "type": "hill station",
+  "title": "Things to Do in Ranikhet: Orchards, Pine Walks & a Quiet Cantonment",
+  "seoTitle": "Things to Do in Ranikhet: Orchards, Temples & Walks | Kudozz Club",
+  "description": "Things to do in Ranikhet: Jhula Devi Temple and its bells, Chaubatia orchards, the Upat golf course, the Kumaon Regimental Centre Museum, pine forest walks, Bhalu Dam, Majkhali views and day trips to Dwarahat.",
+  "dek": "A clean, green cantonment town in Kumaon, home of the Kumaon Regiment, where pine forests, apple orchards and Himalayan views make for unhurried days.",
+  "primaryKeyword": "things to do in Ranikhet",
+  "secondaryKeywords": [
+    "places to visit in Ranikhet",
+    "Jhula Devi Temple",
+    "Chaubatia Gardens",
+    "Upat golf course",
+    "Ranikhet sightseeing",
+    "Kumaon Regimental Centre Museum"
+  ],
+  "searchIntent": "Families and couples looking for a quieter alternative to Nainital, planning one or two nights in Ranikhet as part of a Kumaon trip.",
+  "tags": [
+    "Ranikhet",
+    "Uttarakhand",
+    "Hill Station",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/uttarakhand/ranikhet/jhula-devi-temple-ranikhet.webp",
+    "alt": "Jhula Devi Temple hung with bells, Ranikhet",
+    "caption": "Jhula Devi Temple"
+  },
+  "intro": [
+    "Ranikhet, at about 1,800 metres in Almora district, was developed by the British in the 1860s as a cantonment and is still home to the Kumaon Regimental Centre and the Naga Regiment. The army's presence keeps the town orderly and green, and it has escaped much of the building rush seen in other hill stations.",
+    "The name is often said to mean the queen's meadow, after a local legend of a Kumaoni queen who loved the place. Things to do in Ranikhet are unhurried: temple visits, orchard walks, a round of golf, a regimental museum, and plenty of time in the pine and oak forests with views of Nanda Devi and Trishul on clear days.",
+    "One to two nights is enough for the main sights. Ranikhet pairs well with Nainital, Almora, Kausani and Corbett on a Kumaon circuit."
+  ],
+  "quickAnswer": [
+    "Visit Jhula Devi Temple, hung with thousands of bells",
+    "Walk through Chaubatia's orchards and fruit gardens",
+    "Play or walk the Upat golf course",
+    "See the Kumaon Regimental Centre Museum",
+    "Take a pine forest walk around the Mall and cantonment",
+    "Picnic at Bhalu Dam",
+    "Watch the Himalaya from Majkhali",
+    "Take a day trip to the Dwarahat temples"
+  ],
+  "sections": [
+    {
+      "id": "town",
+      "heading": "In and around town",
+      "items": [
+        {
+          "name": "Visit Jhula Devi Temple",
+          "body": [
+            "Jhula Devi, a temple to Durga near Chaubatia, is famous for the thousands of brass bells tied up by devotees whose wishes have been granted. Local tradition says the goddess protected villagers from wild animals. A Ram temple stands next to it."
+          ],
+          "facts": {
+            "Time needed": "30–45 minutes",
+            "Good for": "Everyone"
+          }
+        },
+        {
+          "name": "See the Kumaon Regimental Centre Museum",
+          "body": [
+            "The museum of the Kumaon and Naga regiments tells the story of these units through uniforms, weapons, medals and war trophies. It includes material on Major Somnath Sharma, the first recipient of the Param Vir Chakra, who served with the Kumaon Regiment. Photography and timings are governed by army rules, so check at the gate."
+          ],
+          "facts": {
+            "Time needed": "1 hour",
+            "Good for": "History lovers, families",
+            "Good to know": "Check opening days with the cantonment"
+          }
+        },
+        {
+          "name": "Walk the Mall and cantonment roads",
+          "body": [
+            "The cantonment's quiet roads, lined with pine and oak, are ideal for long walks. Old churches such as St Bridget's, army grounds and colonial bungalows give the town its character. Early mornings bring birdsong and, on clear days, views of the snow peaks."
+          ],
+          "facts": {
+            "Best time": "Early morning"
+          }
+        },
+        {
+          "name": "Stop at the Haidakhan Babaji temple",
+          "body": [
+            "The Haidakhan Babaji temple, a few kilometres from town on the Chilianaula side, is a peaceful ashram with views of the Himalaya and attracts visitors from India and abroad."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outdoors",
+      "heading": "Orchards, golf and viewpoints",
+      "items": [
+        {
+          "name": "Walk through Chaubatia Gardens",
+          "body": [
+            "Chaubatia, about 10 km from town, has a government fruit research station and orchards of apple, plum, peach and apricot. The orchards bloom in spring and fruit from summer into autumn, and there are walking paths and viewpoints over the valleys."
+          ],
+          "facts": {
+            "Time needed": "1–2 hours",
+            "Best time": "March to April for blossom, July to September for fruit",
+            "Good for": "Families, walkers"
+          }
+        },
+        {
+          "name": "Picnic at Bhalu Dam",
+          "body": [
+            "A short walk from Chaubatia, Bhalu Dam is a small reservoir in the forest, a quiet spot for a picnic and some birdwatching."
+          ],
+          "facts": {
+            "Time needed": "1–2 hours"
+          }
+        },
+        {
+          "name": "Play or walk the Upat golf course",
+          "body": [
+            "Upat, about 6 km from Ranikhet, has a nine-hole army-run golf course on a wide green meadow, often described as one of the highest in Asia. Visitors can play by arrangement or simply walk the edges for the views. The Kalika temple and forest are nearby."
+          ],
+          "facts": {
+            "Good for": "Golfers, couples"
+          }
+        },
+        {
+          "name": "Watch the Himalaya from Majkhali",
+          "body": [
+            "Majkhali, on the road towards Almora, is an open ridge with one of the clearest views of the snow peaks in the area. It is a good sunrise or sunset stop and has a few quiet stays."
+          ],
+          "facts": {
+            "Best time": "Sunrise or sunset, October to March"
+          }
+        }
+      ]
+    },
+    {
+      "id": "day-trips",
+      "heading": "Day trips",
+      "items": [
+        {
+          "name": "See the Dwarahat temples",
+          "body": [
+            "Dwarahat, about 35 km away, has several groups of old stone temples built under the Katyuri rulers, along with a stepwell. Dunagiri, a hilltop Durga temple reached by steps, is nearby and gives wide views."
+          ],
+          "facts": {
+            "Time needed": "Half a day",
+            "Good for": "History and temple lovers"
+          }
+        },
+        {
+          "name": "Visit Almora and Kasar Devi",
+          "body": [
+            "Almora, about 50 km away, is the cultural capital of Kumaon, known for its old bazaar, bal mithai and the Kasar Devi ridge, where writers and seekers have stayed since the 1960s."
+          ]
+        },
+        {
+          "name": "Stop at Kainchi Dham",
+          "body": [
+            "The ashram of Neem Karoli Baba at Kainchi, on the road between Nainital and Ranikhet, draws large numbers of devotees. It is a natural stop on the drive; the June foundation-day fair brings very heavy crowds."
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Families",
+      "text": "Chaubatia's orchards, the regimental museum, Jhula Devi and picnics at Bhalu Dam keep days easy and varied."
+    },
+    {
+      "who": "Couples",
+      "text": "Long forest walks, sunset at Majkhali and a quiet stay away from the Nainital crowds."
+    },
+    {
+      "who": "Older travellers",
+      "text": "Ranikhet's gentle roads and cleaner, calmer town make it one of the more comfortable hill stations for a slow holiday."
+    }
+  ],
+  "oneDay": "Start with a morning walk in the cantonment and a visit to the Kumaon Regimental Centre Museum. Drive to Jhula Devi Temple and on to Chaubatia's orchards, with a picnic at Bhalu Dam. In the afternoon, visit Upat golf course, then drive to Majkhali for sunset.",
+  "tips": [
+    "Kathgodam, about 80 km away, is the nearest railway station; Pantnagar is the nearest airport.",
+    "Ranikhet is a cantonment: some areas are restricted and photography of army installations is not allowed.",
+    "Most shops close early; plan dinners at your hotel or in the Sadar Bazaar.",
+    "Carry warm clothes; evenings are cool even in summer and winter nights are cold."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Ranikhet?",
+      "a": "Visit Jhula Devi Temple, walk through Chaubatia's orchards, see the Kumaon Regimental Centre Museum, visit the Upat golf course, walk the pine forests, watch the Himalaya from Majkhali and take a day trip to Dwarahat."
+    },
+    {
+      "q": "Is Ranikhet better than Nainital?",
+      "a": "Ranikhet is quieter and less commercial, with more forest and fewer crowds. Nainital has the lake and more activities. Many travellers visit both."
+    },
+    {
+      "q": "How many days are enough for Ranikhet?",
+      "a": "One to two nights covers the main sights at a relaxed pace."
+    },
+    {
+      "q": "What is the best time to visit Ranikhet?",
+      "a": "March to June for pleasant weather and October to December for clear mountain views. Winter nights are cold and it occasionally snows."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Nainital",
+      "href": "/blog/things-to-do-in-nainital",
+      "note": "the lake town, about two hours away"
+    },
+    {
+      "name": "Things to do in Kausani",
+      "href": "/blog/things-to-do-in-kausani",
+      "note": "wide Himalayan views further north"
+    },
+    {
+      "name": "Things to do in Jim Corbett",
+      "href": "/blog/things-to-do-in-jim-corbett",
+      "note": "safaris in the foothills"
+    },
+    {
+      "name": "Mukteshwar",
+      "href": "/blog/mukteshwar-travel-guide",
+      "note": "orchards and cliff views near Nainital"
+    }
+  ],
+  "styles": [
+    "family-holidays",
+    "honeymoon"
+  ],
+  "metaDescription": "Things to do in Ranikhet: Jhula Devi Temple and its bells, Chaubatia orchards, the Upat golf course, the Kumaon Regimental Centre Museum, pine forest walks, Bhalu Dam and more."
+}

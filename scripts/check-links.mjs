@@ -17,6 +17,12 @@ const blogSlugs = new Set(
   fs.readdirSync(blogDir).filter((d) => fs.existsSync(path.join(blogDir, d, "page.tsx"))),
 );
 
+// Things-to-do articles are JSON content rendered by /blog/[slug].
+const ttdDir = path.join(root, "src", "content", "things-to-do");
+const ttdSlugs = new Set(
+  fs.existsSync(ttdDir) ? fs.readdirSync(ttdDir).filter((f) => f.endsWith(".json")).map((f) => f.slice(0, -5)) : [],
+);
+
 function read(f) {
   return fs.readFileSync(f, "utf8");
 }
@@ -57,6 +63,10 @@ for (const f of files) {
     checked++;
     if (!blogSlugs.has(m[1])) errors.push(`${rel}: unknown blog slug ${m[1]}`);
   }
+  for (const m of t.matchAll(/\/blog\/(things-to-do-in-[a-z0-9-]+)(?=["'`#?/])/g)) {
+    checked++;
+    if (!ttdSlugs.has(m[1])) errors.push(`${rel}: unknown things-to-do article ${m[1]}`);
+  }
   for (const m of t.matchAll(/["'`]\/packages\/([a-z0-9-]+)["'`#?]/g)) {
     checked++;
     if (!pkgSlugs.has(m[1])) errors.push(`${rel}: unknown package /packages/${m[1]}`);
@@ -84,7 +94,7 @@ for (const f of ["destination-profiles.ts", "travel-styles-data.ts", "combo-pack
   }
 }
 
-console.log(`Checked ${checked} references across ${files.length} files (${blogSlugs.size} guides, ${pkgSlugs.size} package pages).`);
+console.log(`Checked ${checked} references across ${files.length} files (${blogSlugs.size} guides, ${ttdSlugs.size} things-to-do articles, ${pkgSlugs.size} package pages).`);
 if (errors.length) {
   console.error(`\n${errors.length} broken reference(s):`);
   for (const e of [...new Set(errors)]) console.error("  " + e);

@@ -1,0 +1,346 @@
+{
+  "slug": "things-to-do-in-pune",
+  "destination": "Pune",
+  "guide": "pune-travel-guide",
+  "type": "city",
+  "title": "Things to Do in Pune: Peshwa Heritage, Hill Forts, Food & Monsoon Escapes",
+  "seoTitle": "Things to Do in Pune: Forts, Heritage & Food | Kudozz Club",
+  "description": "Things to do in Pune: Shaniwar Wada, Aga Khan Palace, Dagdusheth Ganpati, the Raja Dinkar Kelkar Museum, Parvati Hill, Pataleshwar caves, Sinhagad and other forts, Ganeshotsav, misal pav, Koregaon Park cafés, and day trips to Lonavala and Bhimashankar.",
+  "dek": "The former seat of the Peshwas, a university city on the Deccan plateau ringed by Sahyadri forts, with a lively food scene and green monsoon escapes.",
+  "primaryKeyword": "things to do in Pune",
+  "secondaryKeywords": [
+    "places to visit in Pune",
+    "Shaniwar Wada",
+    "Aga Khan Palace",
+    "Sinhagad fort",
+    "Pune Ganeshotsav",
+    "Pune food",
+    "treks near Pune"
+  ],
+  "searchIntent": "Visitors, students and weekenders looking for sights, food and short trips in and around Pune.",
+  "tags": [
+    "Pune",
+    "Maharashtra",
+    "City",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/maharashtra/pune/shaniwar-wada-pune-2.webp",
+    "alt": "Fortified gateway of Shaniwar Wada, Pune",
+    "caption": "Shaniwar Wada"
+  },
+  "intro": [
+    "Pune, about 150 km south-east of Mumbai, became the seat of the Peshwas, the prime ministers of the Maratha Empire, in the 18th century. It later became a British cantonment and an important centre of India's reform and freedom movements, and today it is known for its universities, IT industry and mild climate.",
+    "The things to do in Pune include the Peshwa-era Shaniwar Wada, the Aga Khan Palace where Gandhi was imprisoned, the city's temples and museums, and treks to the Maratha hill forts that ring the city, such as Sinhagad. Ganeshotsav, which Lokmanya Tilak turned into a public festival here, is spectacular. Pune's food, from misal pav to Irani bakeries, is a highlight.",
+    "Two days covers the city; add days for forts and the Western Ghats. October to February is the most comfortable season, and the monsoon is beautiful in the hills."
+  ],
+  "quickAnswer": [
+    "Explore Shaniwar Wada and watch its evening show",
+    "Visit Aga Khan Palace and Gandhi's memorial",
+    "See Dagdusheth Halwai Ganpati Temple",
+    "Visit the Raja Dinkar Kelkar Museum",
+    "Climb Parvati Hill",
+    "See the Pataleshwar cave temple",
+    "Trek to Sinhagad Fort",
+    "Celebrate Ganeshotsav",
+    "Eat misal pav and visit old bakeries",
+    "Take day trips to Lonavala, Bhimashankar and Rajgad"
+  ],
+  "sections": [
+    {
+      "id": "heritage",
+      "heading": "Heritage",
+      "items": [
+        {
+          "name": "Explore Shaniwar Wada",
+          "body": [
+            "Shaniwar Wada, the Peshwas' palace-fortress built from 1732, burnt in 1828 and today only its massive walls, gates with anti-elephant spikes, foundations and gardens remain. An evening sound and light show recounts its history, including the legend of Narayanrao Peshwa's murder.",
+            "Look for the Delhi Darwaza, the main gate, with its spikes to stop elephants, and the Hazari Karanje, once a thousand-jet lotus fountain. The foundations show how large the seven-storey palace once was."
+          ],
+          "facts": {
+            "Time needed": "1–1.5 hours",
+            "Best time": "Evening for the show"
+          }
+        },
+        {
+          "name": "Visit Aga Khan Palace",
+          "image": {
+            "src": "/images/blogs/maharashtra/pune/aga-khan-palace-pune.webp",
+            "alt": "Aga Khan Palace, Pune",
+            "caption": "Aga Khan Palace"
+          },
+          "body": [
+            "The Aga Khan Palace, built in 1892, is where Mahatma Gandhi, Kasturba Gandhi and Mahadev Desai were held from 1942 to 1944 during the Quit India movement. Kasturba and Mahadev Desai died here, and their samadhis are in the grounds. A museum displays photographs and personal items."
+          ],
+          "facts": {
+            "Time needed": "1 hour",
+            "Good for": "History lovers"
+          }
+        },
+        {
+          "name": "See the Raja Dinkar Kelkar Museum",
+          "body": [
+            "The Raja Dinkar Kelkar Museum is a remarkable private collection of everyday objects, including lamps, nutcrackers, musical instruments, textiles and a reconstructed Mastani Mahal."
+          ],
+          "facts": {
+            "Time needed": "1.5 hours"
+          }
+        },
+        {
+          "name": "See Lal Mahal and Vishrambaug Wada",
+          "body": [
+            "Lal Mahal, a reconstruction of the house where Shivaji spent his childhood, and Vishrambaug Wada, a Peshwa mansion with carved wooden balconies, are in the old city."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "temples",
+      "heading": "Temples and hills",
+      "items": [
+        {
+          "name": "Visit Dagdusheth Halwai Ganpati",
+          "image": {
+            "src": "/images/blogs/maharashtra/pune/dagdusheth-halwai-ganpati-temple-pune.webp",
+            "alt": "Dagdusheth Halwai Ganpati Temple, Pune",
+            "caption": "Dagdusheth Ganpati"
+          },
+          "body": [
+            "The Dagdusheth Halwai Ganpati Temple, founded by a sweet-maker in the 19th century, has a gold-adorned Ganesha idol and is Pune's most popular temple, lit up at night and especially busy during Ganeshotsav."
+          ]
+        },
+        {
+          "name": "Climb Parvati Hill",
+          "body": [
+            "Parvati Hill has a group of Peshwa-era temples reached by a flight of 100-odd steps, with views over the city. It is a favourite morning walk."
+          ],
+          "facts": {
+            "Best time": "Early morning"
+          }
+        },
+        {
+          "name": "See Pataleshwar caves",
+          "body": [
+            "Pataleshwar, a rock-cut cave temple dedicated to Shiva from around the 8th century, sits unexpectedly in the middle of the city on Jangli Maharaj Road."
+          ]
+        },
+        {
+          "name": "Celebrate Ganeshotsav",
+          "body": [
+            "Pune's Ganesh festival, made into a public celebration by Lokmanya Tilak in 1893 to unite people against British rule, features five 'manache' Ganpatis, dhol-tasha drum troupes and grand immersion processions on the last day."
+          ],
+          "facts": {
+            "Best time": "August or September"
+          }
+        }
+      ]
+    },
+    {
+      "id": "forts",
+      "heading": "Forts and treks",
+      "items": [
+        {
+          "name": "Trek to Sinhagad Fort",
+          "image": {
+            "src": "/images/blogs/maharashtra/pune/sinhagad-fort-pune.webp",
+            "alt": "Sinhagad Fort walls on a hilltop near Pune",
+            "caption": "Sinhagad Fort"
+          },
+          "body": [
+            "Sinhagad, about 35 km from Pune, is a hill fort famous for the battle of 1670 in which Tanaji Malusare captured it for Shivaji and died in the attempt. You can trek up from the base or drive near the top. Stalls at the top sell pithla-bhakri, kanda bhaji and curd.",
+            "At the top, see Tanaji's memorial, the Kalyan Darwaza gate, and the tomb of Rajaram, Shivaji's younger son. On clear days, the views stretch over Khadakwasla lake and the Sahyadri ranges."
+          ],
+          "facts": {
+            "Time needed": "Half a day",
+            "Best time": "Monsoon and winter mornings"
+          }
+        },
+        {
+          "name": "Climb Rajgad and Torna",
+          "body": [
+            "Rajgad, Shivaji's capital for over two decades, and Torna, the first fort he captured, are longer and more demanding treks, popular with experienced hikers."
+          ],
+          "facts": {
+            "Good for": "Trekkers"
+          }
+        },
+        {
+          "name": "Visit Bhimashankar",
+          "body": [
+            "Bhimashankar, about 110 km away in the Sahyadris, has one of the twelve Jyotirlingas and a wildlife sanctuary home to the Indian giant squirrel (shekru), Maharashtra's state animal."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "city-life",
+      "heading": "Food and city life",
+      "items": [
+        {
+          "name": "Eat misal pav and Maharashtrian food",
+          "body": [
+            "Pune's misal pav, a spicy sprouted-lentil curry with bread, is a breakfast institution. Try vada pav, sabudana khichdi, puran poli and a Maharashtrian thali. Old Irani bakeries in Camp sell shrewsbury biscuits and bun maska."
+          ],
+          "facts": {
+            "Good for": "Food lovers"
+          }
+        },
+        {
+          "name": "Spend an evening in Koregaon Park or FC Road",
+          "body": [
+            "Koregaon Park has cafés, restaurants and bars among leafy lanes. FC Road and JM Road are lively student hangouts with food stalls and shopping."
+          ],
+          "facts": {
+            "Best time": "Evening"
+          }
+        },
+        {
+          "name": "See Osho's garden",
+          "body": [
+            "The Osho Teerth Park in Koregaon Park, a landscaped garden with bamboo groves and streams next to the Osho meditation resort, is open to the public and makes a calm walk."
+          ]
+        },
+        {
+          "name": "Attend the Sawai Gandharva festival",
+          "body": [
+            "The Sawai Gandharva Bhimsen Mahotsav, held every December, is one of India's most important festivals of Hindustani classical music."
+          ],
+          "facts": {
+            "Best time": "December"
+          }
+        }
+      ]
+    },
+    {
+      "id": "more",
+      "heading": "More around Pune",
+      "items": [
+        {
+          "name": "Walk through Mahatma Phule Mandai",
+          "body": [
+            "The city's old central market, housed in an octagonal Victorian building from 1886, is full of vegetables, fruit and flowers, and the lanes around it sell spices and brassware."
+          ]
+        },
+        {
+          "name": "See the Pu La Deshpande Garden",
+          "body": [
+            "Also known as the Pune–Okayama Friendship Garden, this Japanese-style garden is modelled on the Korakuen garden in Okayama, Pune's sister city."
+          ]
+        },
+        {
+          "name": "Visit the National War Memorial Southern Command",
+          "body": [
+            "The memorial in the cantonment honours soldiers who died after independence, with a museum and a MiG aircraft and other displays."
+          ]
+        },
+        {
+          "name": "Drive to Mulshi and Tamhini Ghat",
+          "body": [
+            "In the monsoon, the road past Mulshi Lake to Tamhini Ghat is lined with waterfalls and green valleys, a favourite weekend drive from the city."
+          ]
+        },
+        {
+          "name": "See Khadakwasla Dam",
+          "body": [
+            "Khadakwasla Dam, on the way to Sinhagad, is a popular evening spot where families sit by the water with snacks."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seasons",
+      "heading": "Pune by season",
+      "items": [
+        {
+          "name": "Monsoon (June to September)",
+          "body": [
+            "The Sahyadris turn green and the forts and ghats are at their most beautiful, with waterfalls everywhere. Treks are slippery; go with experienced groups."
+          ]
+        },
+        {
+          "name": "Winter (October to February)",
+          "body": [
+            "Cool, clear days and the best time for city sightseeing and longer treks. The Sawai Gandharva music festival takes place in December."
+          ]
+        },
+        {
+          "name": "Summer (March to May)",
+          "body": [
+            "Hot afternoons, though milder than Mumbai's humidity. Plan outdoor visits for mornings and evenings."
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "History lovers",
+      "text": "Shaniwar Wada, Aga Khan Palace, the Kelkar Museum and a trek to Sinhagad."
+    },
+    {
+      "who": "Weekenders",
+      "text": "A fort trek in the monsoon, misal for breakfast and an evening in Koregaon Park."
+    },
+    {
+      "who": "Families",
+      "text": "Shaniwar Wada's show, the Kelkar Museum, Parvati Hill and a drive to Sinhagad."
+    }
+  ],
+  "oneDay": "Climb Parvati Hill early, then visit Shaniwar Wada and walk through the old city to Dagdusheth Ganpati and the Kelkar Museum. After lunch, see Aga Khan Palace, and return to Shaniwar Wada for the evening show.",
+  "tips": [
+    "Pune has an airport and a major railway station; Mumbai is about three hours by the expressway.",
+    "Weekend traffic to Sinhagad and Lonavala is heavy; start early.",
+    "Forts are slippery in the monsoon; wear good shoes.",
+    "Many museums close one day a week; check timings.",
+    "Use the Pune Metro and app cabs for the city; auto fares can be steep."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Pune?",
+      "a": "Explore Shaniwar Wada and Aga Khan Palace, visit Dagdusheth Ganpati and the Kelkar Museum, climb Parvati Hill, trek to Sinhagad, celebrate Ganeshotsav and eat misal pav."
+    },
+    {
+      "q": "What are the best treks near Pune?",
+      "a": "Sinhagad, Rajgad, Torna, Lohagad and Rajmachi are popular, especially in the monsoon and winter."
+    },
+    {
+      "q": "How many days are enough for Pune?",
+      "a": "Two days for the city; more for forts and day trips."
+    },
+    {
+      "q": "When is Ganeshotsav in Pune?",
+      "a": "In August or September, over ten days."
+    },
+    {
+      "q": "Is Pune good for a weekend trip from Mumbai?",
+      "a": "Yes. It is about three hours away by expressway or train, with enough heritage, food and fort treks for two full days."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Lonavala",
+      "href": "/blog/things-to-do-in-lonavala",
+      "note": "hills and caves, about an hour away"
+    },
+    {
+      "name": "Things to do in Mahabaleshwar",
+      "href": "/blog/things-to-do-in-mahabaleshwar",
+      "note": "strawberries and viewpoints"
+    },
+    {
+      "name": "Things to do in Mumbai",
+      "href": "/blog/things-to-do-in-mumbai",
+      "note": "about three hours away"
+    },
+    {
+      "name": "Shirdi",
+      "href": "/blog/shirdi-travel-guide",
+      "note": "Sai Baba's town"
+    }
+  ],
+  "styles": [
+    "weekend-getaways",
+    "adventure-tours"
+  ],
+  "metaDescription": "Things to do in Pune: Shaniwar Wada, Aga Khan Palace, Dagdusheth Ganpati, the Raja Dinkar Kelkar Museum, Parvati Hill, Pataleshwar caves, Sinhagad and other forts, Ganeshotsav and more."
+}

@@ -1,0 +1,281 @@
+{
+  "slug": "things-to-do-in-old-delhi",
+  "destination": "Old Delhi",
+  "guide": "old-delhi-travel-guide",
+  "type": "historic quarter",
+  "title": "Things to Do in Old Delhi: Red Fort, Bazaars, Havelis & Street Food",
+  "seoTitle": "Things to Do in Old Delhi: Food, Bazaars & Forts | Kudozz Club",
+  "description": "Things to do in Old Delhi: the Red Fort and its sound and light show, climbing Jama Masjid's minaret, a Chandni Chowk food walk, Khari Baoli spice market, Dariba Kalan and Kinari Bazaar, Sis Ganj Sahib, havelis, Ghalib's house and a rickshaw ride.",
+  "dek": "Shahjahanabad, the walled Mughal capital of the 17th century, where the Red Fort faces a maze of bazaars, mosques, temples and family-run food shops.",
+  "primaryKeyword": "things to do in Old Delhi",
+  "secondaryKeywords": [
+    "Chandni Chowk food walk",
+    "Old Delhi street food",
+    "Khari Baoli",
+    "Jama Masjid minaret",
+    "Red Fort sound and light show",
+    "Old Delhi heritage walk"
+  ],
+  "searchIntent": "Visitors spending a half or full day in Old Delhi who want to plan a route through the fort, mosque, bazaars and food lanes.",
+  "tags": [
+    "Old Delhi",
+    "Delhi",
+    "Heritage",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/delhi/old-delhi/jama-masjid-minaret-view-rooftops-old-delhi.webp",
+    "alt": "View over Old Delhi's rooftops from the Jama Masjid minaret",
+    "caption": "Old Delhi from the Jama Masjid minaret"
+  },
+  "intro": [
+    "Old Delhi was founded as Shahjahanabad by the Mughal emperor Shah Jahan, who moved his capital here from Agra in the 1640s. The walled city was built around the Red Fort and the Jama Masjid, with Chandni Chowk as its grand avenue. Several of its gates still stand, including Ajmeri Gate, Delhi Gate and Kashmere Gate.",
+    "Today it is one of the most crowded and characterful parts of India. The best things to do in Old Delhi are the Red Fort and Jama Masjid, a walk through specialist bazaars, time in its temples and gurudwaras, and above all its food. A half day covers the highlights; a full day lets you slow down in the lanes and havelis.",
+    "Take the metro to Chandni Chowk, Jama Masjid or Lal Qila stations; driving here is slow and parking is difficult."
+  ],
+  "quickAnswer": [
+    "Explore the Red Fort",
+    "Climb the Jama Masjid minaret",
+    "Eat parathas in Paranthe Wali Gali",
+    "Walk through Khari Baoli spice market",
+    "Shop in Kinari Bazaar and Dariba Kalan",
+    "Visit Gurudwara Sis Ganj Sahib",
+    "See the Digambar Jain Lal Mandir and its bird hospital",
+    "Visit Fatehpuri Masjid",
+    "See Ghalib's haveli in Ballimaran",
+    "Take a cycle rickshaw ride"
+  ],
+  "sections": [
+    {
+      "id": "fort-mosque",
+      "heading": "The fort and the mosque",
+      "items": [
+        {
+          "name": "Explore the Red Fort",
+          "image": {
+            "src": "/images/blogs/delhi/old-delhi/independence-day-at-red-fort-old-delhi.webp",
+            "alt": "Lahori Gate of the Red Fort with flags",
+            "caption": "Red Fort"
+          },
+          "body": [
+            "Enter through Lahori Gate and walk through Chhatta Chowk, a covered Mughal bazaar, to the Diwan-i-Aam, where the emperor gave public audience, and the marble Diwan-i-Khas, once home to the Peacock Throne. The fort also has museums on the freedom struggle and on Indian art. It is closed on Mondays.",
+            "The sound and light show in the evening tells the fort's history. On Independence Day, 15 August, the Prime Minister addresses the nation from its ramparts."
+          ],
+          "facts": {
+            "Time needed": "2–3 hours",
+            "Good to know": "Closed on Mondays",
+            "Good for": "Everyone"
+          }
+        },
+        {
+          "name": "Climb the Jama Masjid minaret",
+          "body": [
+            "Jama Masjid, completed in 1656, is one of India's largest mosques. After exploring the courtyard, pay the small fee to climb the narrow spiral stairs of the southern minaret for a view over the domes, the Red Fort and the rooftops of Old Delhi. Dress modestly; robes are provided at the gate if needed. The mosque is closed to visitors during prayers."
+          ],
+          "facts": {
+            "Time needed": "1 hour",
+            "Best time": "Morning or late afternoon"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bazaars",
+      "heading": "Bazaars",
+      "items": [
+        {
+          "name": "Walk through Khari Baoli",
+          "image": {
+            "src": "/images/blogs/delhi/chandni-chowk/khari-baoli-spice-market-stalls-old-delhi.webp",
+            "alt": "Spice stalls in Khari Baoli, Old Delhi",
+            "caption": "Khari Baoli spice market"
+          },
+          "body": [
+            "Khari Baoli, at the western end of Chandni Chowk, is one of the largest wholesale spice markets in Asia. Sacks of chillies, turmeric, dried fruit and nuts line the street, porters carry loads on their heads and the air is thick with spice. Some guides take visitors up to the rooftop of Gadodia Market for a view of the courtyard; ask locally."
+          ],
+          "facts": {
+            "Best time": "Late morning",
+            "Good for": "Photographers, food lovers"
+          }
+        },
+        {
+          "name": "Shop in Kinari Bazaar and Dariba Kalan",
+          "image": {
+            "src": "/images/blogs/delhi/old-delhi/kinari-bazaar-lane-old-delhi.webp",
+            "alt": "Kinari Bazaar lane with wedding trimmings, Old Delhi",
+            "caption": "Kinari Bazaar"
+          },
+          "body": [
+            "Kinari Bazaar is a narrow lane of shops selling ribbons, gota lace, sequins and everything needed for weddings. Dariba Kalan, nearby, has been the street of silver and jewellery for centuries; Gulab Singh Johri Mal's attar shop here has been selling traditional perfumes since the 19th century. Chawri Bazaar sells paper and brassware."
+          ],
+          "facts": {
+            "Good for": "Shoppers"
+          }
+        },
+        {
+          "name": "Take a cycle-rickshaw ride",
+          "body": [
+            "The easiest way to see the lanes around Chandni Chowk is by cycle rickshaw. Agree on a route and price before starting, and let the rickshaw-wallah take you through the side streets to the havelis and markets."
+          ],
+          "facts": {
+            "Time needed": "1 hour"
+          }
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "heading": "Temples, gurudwaras and mosques",
+      "items": [
+        {
+          "name": "Visit Gurudwara Sis Ganj Sahib",
+          "image": {
+            "src": "/images/blogs/delhi/old-delhi/gurudwara-sis-ganj-sahib-entrance-old-delhi.webp",
+            "alt": "Gurudwara Sis Ganj Sahib, Chandni Chowk",
+            "caption": "Gurudwara Sis Ganj Sahib"
+          },
+          "body": [
+            "Gurudwara Sis Ganj Sahib, on Chandni Chowk, marks the place where the ninth Sikh Guru, Guru Tegh Bahadur, was executed in 1675. Visitors are welcome; cover your head, remove your shoes and join the langar if you wish."
+          ],
+          "facts": {
+            "Time needed": "45 minutes"
+          }
+        },
+        {
+          "name": "See the Jain Lal Mandir and bird hospital",
+          "body": [
+            "The Digambar Jain Lal Mandir, opposite the Red Fort, is the oldest Jain temple in Delhi. Its charity bird hospital, run on the Jain principle of non-violence, treats injured birds. Leather items are not allowed inside."
+          ]
+        },
+        {
+          "name": "Visit Fatehpuri Masjid",
+          "image": {
+            "src": "/images/blogs/delhi/old-delhi/fatehpuri-masjid-facade-old-delhi.webp",
+            "alt": "Fatehpuri Masjid façade, Old Delhi",
+            "caption": "Fatehpuri Masjid"
+          },
+          "body": [
+            "Fatehpuri Masjid, at the western end of Chandni Chowk, was built in 1650 by Fatehpuri Begum, one of Shah Jahan's wives. It is quieter than Jama Masjid, with a large courtyard and red sandstone façade."
+          ]
+        },
+        {
+          "name": "See the Gauri Shankar Temple and St James Church",
+          "body": [
+            "The Gauri Shankar Temple, near the Red Fort, is an old Shiva temple popular with locals. At the northern edge of the old city, St James Church, consecrated in 1836, is one of Delhi's oldest churches, near the historic Kashmere Gate."
+          ],
+          "links": [
+            {
+              "label": "Kashmere Gate guide",
+              "href": "/blog/kashmere-gate-delhi-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "food-havelis",
+      "heading": "Food and havelis",
+      "items": [
+        {
+          "name": "Eat your way through Chandni Chowk",
+          "image": {
+            "src": "/images/blogs/delhi/chandni-chowk/paranthe-wali-gali-shopfront-chandni-chowk.webp",
+            "alt": "Paranthe Wali Gali shopfront, Chandni Chowk",
+            "caption": "Paranthe Wali Gali"
+          },
+          "body": [
+            "Paranthe Wali Gali has served deep-fried stuffed parathas for generations. Nearby are famous jalebi and kachori shops, and around Jama Masjid are kebab, nihari and korma restaurants. In winter, look for daulat ki chaat, a cloud-like milk dessert sold only in the cold months. Kulfi, rabri and falooda are everywhere."
+          ],
+          "facts": {
+            "Best time": "Late morning to evening",
+            "Good for": "Food lovers"
+          }
+        },
+        {
+          "name": "See Ghalib's haveli",
+          "body": [
+            "The poet Mirza Ghalib lived in a haveli in Gali Qasim Jaan, Ballimaran, in the 19th century. Part of it has been restored as a small memorial with his verses and personal items."
+          ],
+          "facts": {
+            "Time needed": "30 minutes"
+          }
+        },
+        {
+          "name": "Explore the havelis",
+          "body": [
+            "Old Delhi's lanes hide many havelis, the courtyard homes of merchants and nobles. Some are crumbling, while others, such as Haveli Dharampura, have been restored as heritage hotels and restaurants. Naughara, a lane of nine carved Jain havelis off Kinari Bazaar, is one of the prettiest corners of the old city."
+          ],
+          "facts": {
+            "Good for": "Architecture lovers"
+          }
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "First-timers",
+      "text": "Take the metro to Chandni Chowk, walk to the Red Fort, then Jama Masjid, a food stop and a rickshaw through the bazaars."
+    },
+    {
+      "who": "Food lovers",
+      "text": "Join a guided food walk that covers Paranthe Wali Gali, Jama Masjid kebabs and sweet shops."
+    },
+    {
+      "who": "Photographers",
+      "text": "Khari Baoli in the late morning, the Jama Masjid minaret and Naughara's carved havelis."
+    }
+  ],
+  "oneDay": "Start at the Red Fort when it opens, then walk to Jama Masjid and climb the minaret. Lunch on kebabs near the mosque, then take a rickshaw along Chandni Chowk to Sis Ganj Sahib, Kinari Bazaar and Khari Baoli. End with parathas and jalebis, and return to the Red Fort for the evening sound and light show.",
+  "tips": [
+    "Use the metro: Chandni Chowk, Jama Masjid and Lal Qila stations are all close.",
+    "Wear comfortable shoes and modest clothing; you will visit religious sites.",
+    "Keep valuables secure in crowded lanes.",
+    "Many shops close on Sundays; the Red Fort is closed on Mondays."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Old Delhi?",
+      "a": "Explore the Red Fort, climb the Jama Masjid minaret, eat in Paranthe Wali Gali, walk Khari Baoli and Kinari Bazaar, visit Sis Ganj Sahib and the Jain Lal Mandir, and take a rickshaw ride."
+    },
+    {
+      "q": "Is Old Delhi safe for tourists?",
+      "a": "Yes, generally. It is crowded, so watch your belongings, use registered rickshaws and avoid very late nights in quiet lanes."
+    },
+    {
+      "q": "How much time do I need for Old Delhi?",
+      "a": "A half day for the highlights; a full day to include food, bazaars and havelis at a slower pace."
+    },
+    {
+      "q": "What is the best time to visit Chandni Chowk?",
+      "a": "Mid-morning, once shops open but before the busiest hours. Evenings are atmospheric but very crowded."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Delhi",
+      "href": "/blog/things-to-do-in-delhi",
+      "note": "the rest of the city"
+    },
+    {
+      "name": "Chandni Chowk guide",
+      "href": "/blog/chandni-chowk-delhi-travel-guide",
+      "note": "the main street and its lanes"
+    },
+    {
+      "name": "Majnu ka Tilla",
+      "href": "/blog/majnu-ka-tilla-delhi-travel-guide",
+      "note": "Delhi's Tibetan colony, north of the old city"
+    },
+    {
+      "name": "Things to do in Agra",
+      "href": "/blog/things-to-do-in-agra",
+      "note": "Shah Jahan's earlier capital"
+    }
+  ],
+  "styles": [
+    "group-tours",
+    "family-holidays"
+  ],
+  "metaDescription": "Things to do in Old Delhi: the Red Fort and its sound and light show, climbing Jama Masjid's minaret, a Chandni Chowk food walk, Khari Baoli spice market and more."
+}

@@ -1,0 +1,323 @@
+{
+  "slug": "things-to-do-in-kolkata",
+  "destination": "Kolkata",
+  "guide": "kolkata-travel-guide",
+  "type": "city",
+  "title": "Things to Do in Kolkata: Heritage, Temples, Books, Food & Durga Puja",
+  "seoTitle": "Things to Do in Kolkata: Heritage, Food & More | Kudozz Club",
+  "description": "Things to do in Kolkata: the Victoria Memorial, Howrah Bridge and the flower market, Dakshineswar and Belur Math by ferry, Kalighat, College Street and the Indian Coffee House, Kumartuli, Park Street, the Indian Museum, Jorasanko, Chinatown breakfast, phuchka and Durga Puja.",
+  "dek": "The former capital of British India on the Hooghly, a city of grand colonial buildings, riverside temples, bookshops, adda and some of India's most loved street food.",
+  "primaryKeyword": "things to do in Kolkata",
+  "secondaryKeywords": [
+    "places to visit in Kolkata",
+    "Kolkata sightseeing",
+    "Durga Puja Kolkata",
+    "Kolkata food",
+    "Victoria Memorial",
+    "Kumartuli",
+    "Kolkata heritage walk"
+  ],
+  "searchIntent": "First-time visitors and weekenders planning two to four days in Kolkata, including those timing a trip for Durga Puja.",
+  "tags": [
+    "Kolkata",
+    "West Bengal",
+    "City",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/west-bengal/kolkata/victoria-memorial-west-facade-kolkata.webp",
+    "alt": "White marble Victoria Memorial, Kolkata",
+    "caption": "Victoria Memorial"
+  },
+  "intro": [
+    "Kolkata, on the east bank of the Hooghly, grew from three villages into the capital of British India until 1911. It left the city with grand colonial buildings, a strong intellectual tradition and the cultural movement known as the Bengal Renaissance. Rabindranath Tagore, Satyajit Ray, Swami Vivekananda and many others shaped its identity.",
+    "The best things to do in Kolkata cover several sides of the city. See the Victoria Memorial and the Maidan, cross Howrah Bridge and wander the flower market below it, take a ferry between Dakshineswar and Belur Math, browse the books of College Street, and watch clay idols being made in Kumartuli. Then eat: phuchka, kathi rolls, biryani, fish curry and endless sweets.",
+    "Three to four days is a good length. October to February is the most comfortable time, and Durga Puja, usually in September or October, is the most spectacular."
+  ],
+  "quickAnswer": [
+    "Visit the Victoria Memorial",
+    "Walk across Howrah Bridge and see Mullick Ghat flower market",
+    "Take a ferry between Dakshineswar Kali Temple and Belur Math",
+    "Browse College Street and drink coffee at the Indian Coffee House",
+    "Watch idol-makers at work in Kumartuli",
+    "Visit the Indian Museum and the Marble Palace",
+    "See Tagore's house at Jorasanko",
+    "Eat a Chinese breakfast at Tiretta Bazaar",
+    "Walk Park Street and South Park Street Cemetery",
+    "Experience Durga Puja pandal-hopping"
+  ],
+  "sections": [
+    {
+      "id": "colonial",
+      "heading": "Colonial Kolkata",
+      "items": [
+        {
+          "name": "Visit the Victoria Memorial",
+          "body": [
+            "The Victoria Memorial, a white marble building completed in 1921 in memory of Queen Victoria, stands in large gardens at the edge of the Maidan. Inside is a museum with paintings, sculptures and galleries on Kolkata's history. The building is lit up in the evening, and the gardens are a favourite place for a walk. It is closed on Mondays."
+          ],
+          "facts": {
+            "Time needed": "2 hours",
+            "Good to know": "Closed on Mondays",
+            "Good for": "Everyone"
+          }
+        },
+        {
+          "name": "See the Indian Museum",
+          "image": {
+            "src": "/images/blogs/west-bengal/kolkata/indian-museum-entrance-facade-kolkata.webp",
+            "alt": "Façade of the Indian Museum, Kolkata",
+            "caption": "Indian Museum"
+          },
+          "body": [
+            "The Indian Museum, founded in 1814, is the oldest museum in India. Its galleries cover archaeology, art, coins, natural history and an Egyptian mummy, with highlights such as the Bharhut stupa railings and Gandhara sculptures."
+          ],
+          "facts": {
+            "Time needed": "2–3 hours",
+            "Good to know": "Closed on Mondays"
+          }
+        },
+        {
+          "name": "Walk Park Street and the old cemetery",
+          "body": [
+            "Park Street is Kolkata's traditional dining and nightlife street, famous for its old restaurants and its Christmas lights. At its end, South Park Street Cemetery, opened in 1767, has grand tombs of colonial-era residents and is one of the oldest non-church cemeteries in the world. St Paul's Cathedral, completed in 1847, is nearby."
+          ],
+          "facts": {
+            "Best time": "Evening for Park Street; morning for the cemetery"
+          }
+        },
+        {
+          "name": "Take in the Maidan, Princep Ghat and the river",
+          "body": [
+            "The Maidan is a vast open ground at the centre of the city, with Fort William, Eden Gardens cricket stadium and many clubs around it. Princep Ghat, a Palladian memorial on the river, is a popular spot at sunset with views of Vidyasagar Setu. Boat rides on the Hooghly leave from nearby ghats."
+          ],
+          "facts": {
+            "Best time": "Sunset"
+          }
+        }
+      ]
+    },
+    {
+      "id": "river-temples",
+      "heading": "River, bridges and temples",
+      "items": [
+        {
+          "name": "Cross Howrah Bridge and see the flower market",
+          "image": {
+            "src": "/images/blogs/west-bengal/kolkata/mullick-ghat-flower-market-howrah-bridge-kolkata.webp",
+            "alt": "Mullick Ghat flower market with Howrah Bridge",
+            "caption": "Mullick Ghat flower market"
+          },
+          "body": [
+            "Howrah Bridge, a cantilever bridge completed in 1943, is one of the busiest bridges in the world. Below it on the Kolkata side, Mullick Ghat flower market is a sea of marigolds and garlands from early morning. Walk across the bridge, watch the river and take a ferry back. Photography of the bridge itself may be restricted in places."
+          ],
+          "facts": {
+            "Best time": "Early morning",
+            "Good for": "Photographers"
+          }
+        },
+        {
+          "name": "Take the ferry from Dakshineswar to Belur Math",
+          "image": {
+            "src": "/images/blogs/west-bengal/kolkata/dakshineswar-kali-temple-hooghly-river-kolkata.webp",
+            "alt": "Dakshineswar Kali Temple on the Hooghly",
+            "caption": "Dakshineswar Kali Temple"
+          },
+          "body": [
+            "The Dakshineswar Kali Temple, built in 1855 by Rani Rashmoni on the east bank of the Hooghly, is where the mystic Sri Ramakrishna served as priest. Across the river, Belur Math, founded by Swami Vivekananda, is the headquarters of the Ramakrishna Math and Mission, with a main temple that blends Hindu, Islamic and Christian architectural motifs. A short ferry links the two."
+          ],
+          "facts": {
+            "Time needed": "Half a day",
+            "Good to know": "Belur Math closes in the afternoon for a break"
+          }
+        },
+        {
+          "name": "Visit Kalighat Temple",
+          "body": [
+            "Kalighat Temple, in south Kolkata, is one of the most important Kali temples and a Shakti Peetha. It is busy and intense, with long queues on Tuesdays and Saturdays. Be firm with touts offering quick darshan. Mother Teresa's first home for the dying, Nirmal Hriday, is next door, and the Mother House is in central Kolkata."
+          ],
+          "facts": {
+            "Good to know": "Avoid touts; go early"
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "heading": "Books, art and neighbourhoods",
+      "items": [
+        {
+          "name": "Browse College Street",
+          "image": {
+            "src": "/images/blogs/west-bengal/kolkata/college-street-book-market-kolkata.webp",
+            "alt": "Bookstalls on College Street, Kolkata",
+            "caption": "College Street"
+          },
+          "body": [
+            "College Street, near the University of Calcutta and Presidency University, is lined with stalls and shops selling new, second-hand and rare books. Upstairs in Albert Hall, the Indian Coffee House has been a meeting place for writers, students and activists for decades. Order an infusion or cold coffee and a cutlet and settle in."
+          ],
+          "facts": {
+            "Time needed": "2 hours",
+            "Good for": "Book lovers"
+          }
+        },
+        {
+          "name": "Watch the idol-makers of Kumartuli",
+          "image": {
+            "src": "/images/blogs/west-bengal/kolkata/kumartuli-idol-makers-workshop-kolkata.webp",
+            "alt": "Clay idols being made in a Kumartuli workshop",
+            "caption": "Kumartuli"
+          },
+          "body": [
+            "Kumartuli, in north Kolkata, is the potters' quarter where artisans craft clay idols for Durga Puja and other festivals. The weeks before Puja are the busiest, when workshops are full of half-finished goddesses. Ask before photographing, and be careful not to get in the way of work."
+          ],
+          "facts": {
+            "Best time": "August to October",
+            "Good for": "Photographers"
+          }
+        },
+        {
+          "name": "See Jorasanko Thakur Bari and the Marble Palace",
+          "body": [
+            "Jorasanko Thakur Bari, the ancestral home of the Tagore family, where Rabindranath Tagore was born and died, is now a museum. The Marble Palace, a 19th-century mansion full of statues, chandeliers and paintings, still belongs to the family that built it; visitors usually need a permit from the West Bengal tourism office."
+          ],
+          "facts": {
+            "Time needed": "1–1.5 hours each"
+          }
+        },
+        {
+          "name": "Ride a heritage tram",
+          "image": {
+            "src": "/images/blogs/west-bengal/kolkata/kolkata-heritage-tram-street.webp",
+            "alt": "A heritage tram on a Kolkata street",
+            "caption": "Kolkata tram"
+          },
+          "body": [
+            "Kolkata has run trams since the 19th century, the only city in India still to do so. Services have been cut back sharply in recent years, and only a limited heritage route may be operating. Check what is running; a ride through the Maidan is still a lovely way to see the city."
+          ],
+          "facts": {
+            "Good to know": "Routes are limited; check before going"
+          }
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "heading": "Food",
+      "items": [
+        {
+          "name": "Eat Kolkata's street food",
+          "body": [
+            "Phuchka (the Kolkata version of pani puri), kathi rolls, jhal muri, ghugni and telebhaja are the city's snacks. Kolkata biryani is known for its potato and egg. For meals, try shorshe ilish (hilsa in mustard), chingri malai curry, kosha mangsho and luchi."
+          ],
+          "facts": {
+            "Good for": "Food lovers"
+          }
+        },
+        {
+          "name": "Taste Bengali sweets",
+          "body": [
+            "Rosogolla, sandesh, mishti doi, chhanar jilipi and nolen gur (date palm jaggery) sweets in winter are essential. Many sweet shops in north and south Kolkata have been in business for generations."
+          ]
+        },
+        {
+          "name": "Have breakfast in Chinatown",
+          "body": [
+            "Early mornings at Tiretta Bazaar in central Kolkata bring a small street breakfast market run by the city's Chinese-Indian community, with dumplings, pork buns and soups. It is over by around 8 a.m. Tangra, in the east, is the city's other Chinatown, known for Indian-Chinese restaurants."
+          ],
+          "facts": {
+            "Best time": "6 to 8 a.m."
+          }
+        }
+      ]
+    },
+    {
+      "id": "puja",
+      "heading": "Durga Puja and festivals",
+      "items": [
+        {
+          "name": "Go pandal-hopping at Durga Puja",
+          "body": [
+            "Durga Puja, inscribed by UNESCO as an Intangible Cultural Heritage in 2021, turns Kolkata into a giant open-air gallery. Thousands of pandals, some traditional and others elaborate art installations, are visited by millions over five days. Go at night, use the metro, and expect huge crowds. Hotels fill up months ahead."
+          ],
+          "facts": {
+            "Best time": "September or October (dates vary)"
+          }
+        },
+        {
+          "name": "Christmas on Park Street and the Book Fair",
+          "body": [
+            "Park Street is lit up for Christmas and New Year, with crowds and festive food. The International Kolkata Book Fair, usually held in late January or February, is one of the largest in the world."
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "First-time visitors",
+      "text": "Day 1: Victoria Memorial, Maidan and Park Street. Day 2: Howrah Bridge, flower market, Dakshineswar and Belur Math. Day 3: College Street, Kumartuli and Jorasanko."
+    },
+    {
+      "who": "Food lovers",
+      "text": "A Chinatown breakfast, phuchka and kathi rolls, a Bengali thali, biryani and a sweet-shop crawl."
+    },
+    {
+      "who": "Families",
+      "text": "Victoria Memorial, Science City, the Botanical Garden with its Great Banyan tree and a river cruise."
+    }
+  ],
+  "oneDay": "Start at Mullick Ghat flower market at dawn and walk across Howrah Bridge. Take a ferry up to Dakshineswar and across to Belur Math. After lunch, visit College Street and the Indian Coffee House, then the Victoria Memorial in the late afternoon. End with dinner on Park Street.",
+  "tips": [
+    "The Kolkata Metro, the first in India, is the fastest way to get around; yellow taxis and app cabs are widely available.",
+    "Many museums, including the Victoria Memorial and Indian Museum, close on Mondays.",
+    "Summers are hot and humid, and the monsoon brings waterlogging; October to February is best.",
+    "Book hotels early for Durga Puja, Christmas and the Book Fair."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Kolkata?",
+      "a": "Visit the Victoria Memorial, cross Howrah Bridge, take the ferry between Dakshineswar and Belur Math, browse College Street, see Kumartuli, visit the Indian Museum and Jorasanko, and eat your way through the city's street food and sweets."
+    },
+    {
+      "q": "When is Durga Puja in Kolkata?",
+      "a": "Usually in September or October, following the lunar calendar. The main days are Saptami to Dashami."
+    },
+    {
+      "q": "How many days are enough for Kolkata?",
+      "a": "Three to four days covers the main sights and food."
+    },
+    {
+      "q": "What is Kolkata famous for?",
+      "a": "Its colonial architecture, Durga Puja, literature and art, the Howrah Bridge, trams, sweets such as rosogolla and street food such as phuchka and kathi rolls."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Sundarbans",
+      "href": "/blog/things-to-do-in-sundarbans",
+      "note": "mangrove boat trips, three to four hours away"
+    },
+    {
+      "name": "Things to do in Digha",
+      "href": "/blog/things-to-do-in-digha",
+      "note": "Bengal's favourite beach town"
+    },
+    {
+      "name": "Bishnupur",
+      "href": "/blog/bishnupur-travel-guide",
+      "note": "terracotta temples and Baluchari sarees"
+    },
+    {
+      "name": "Murshidabad",
+      "href": "/blog/murshidabad-travel-guide",
+      "note": "the old capital of the Nawabs of Bengal"
+    }
+  ],
+  "styles": [
+    "family-holidays",
+    "weekend-getaways",
+    "spiritual-tours"
+  ],
+  "metaDescription": "Things to do in Kolkata: the Victoria Memorial, Howrah Bridge and the flower market, Dakshineswar and Belur Math by ferry, Kalighat, College Street and the Indian Coffee House and more."
+}

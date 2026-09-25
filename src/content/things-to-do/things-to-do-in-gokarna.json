@@ -1,0 +1,252 @@
+{
+  "slug": "things-to-do-in-gokarna",
+  "destination": "Gokarna",
+  "guide": "gokarna-beaches-travel-guide",
+  "type": "temple town and beaches",
+  "title": "Things to Do in Gokarna: Beach Trek, Temples & Quiet Coves",
+  "seoTitle": "Things to Do in Gokarna: Beaches, Trek & Temples | Kudozz Club",
+  "description": "Things to do in Gokarna: the beach-hopping trek from Kudle to Om, Half Moon and Paradise beaches, the Mahabaleshwar and Maha Ganapati temples, Kotitirtha, sunsets, kayaking, Mirjan Fort, Yana rocks and Murudeshwar with scuba at Netrani.",
+  "dek": "A Shiva pilgrimage town on the Karnataka coast, with a chain of cove beaches linked by clifftop trails just beyond its temple streets.",
+  "primaryKeyword": "things to do in Gokarna",
+  "secondaryKeywords": [
+    "Gokarna beach trek",
+    "Om beach",
+    "Kudle beach",
+    "Half Moon beach",
+    "Mahabaleshwar temple Gokarna",
+    "Yana caves",
+    "Murudeshwar"
+  ],
+  "searchIntent": "Backpackers, couples and pilgrims planning two to four days in Gokarna, often as a quieter alternative to Goa.",
+  "tags": [
+    "Gokarna",
+    "Karnataka",
+    "Beaches",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/karnataka/gokarna/om-beach-gokarna.webp",
+    "alt": "Om Beach, Gokarna, with its curved shoreline",
+    "caption": "Om Beach"
+  },
+  "intro": [
+    "Gokarna is a temple town in Uttara Kannada district, Karnataka, where the Aghanashini river meets the Arabian Sea. For Hindus it is one of the most sacred Shiva pilgrimage centres in South India, home of the Mahabaleshwar Temple and its Atmalinga. For travellers, it is also known for a string of beautiful beaches just south of town.",
+    "The things to do in Gokarna mix both sides: temple visits and the old car street in the morning, then beaches, a clifftop trek between coves, swimming, kayaking and sunsets. It is quieter and less developed than Goa, with simple shacks and guesthouses rather than big resorts.",
+    "Three days is enough. October to February is best; the monsoon brings rough seas and closes most beach businesses."
+  ],
+  "quickAnswer": [
+    "Visit the Mahabaleshwar and Maha Ganapati temples",
+    "Walk the car street and Kotitirtha tank",
+    "Do the beach trek from Kudle to Paradise",
+    "Swim and watch sunset at Kudle Beach",
+    "Relax at Om Beach",
+    "Reach Half Moon and Paradise beaches by trail or boat",
+    "Kayak or take a boat along the coast",
+    "Visit Mirjan Fort",
+    "See the Yana rock formations",
+    "Visit Murudeshwar and dive at Netrani Island"
+  ],
+  "sections": [
+    {
+      "id": "town",
+      "heading": "The temple town",
+      "items": [
+        {
+          "name": "Visit Mahabaleshwar Temple",
+          "image": {
+            "src": "/images/blogs/karnataka/gokarna/mahabaleshwar-temple-gokarna.webp",
+            "alt": "Mahabaleshwar Temple, Gokarna",
+            "caption": "Mahabaleshwar Temple"
+          },
+          "body": [
+            "The Mahabaleshwar Temple enshrines the Atmalinga, which, according to legend, Ravana was tricked into setting down here by Ganesha. It is an important pilgrimage site, especially at Mahashivratri. Dress codes apply: men may be asked to remove shirts inside the sanctum, and non-Hindus may have restricted access to the inner shrine."
+          ],
+          "facts": {
+            "Time needed": "1 hour",
+            "Good to know": "Dress codes apply",
+            "Best time": "Early morning"
+          }
+        },
+        {
+          "name": "See Maha Ganapati Temple and the car street",
+          "body": [
+            "The Maha Ganapati Temple, near Mahabaleshwar, honours Ganesha for his role in the legend. The car street, where the temple chariots are pulled during festivals, is lined with old houses, shops and eateries serving simple vegetarian meals."
+          ]
+        },
+        {
+          "name": "Walk to Kotitirtha",
+          "body": [
+            "Kotitirtha is a large sacred tank where pilgrims bathe and perform rituals, surrounded by small shrines and houses. It is a peaceful place in the early morning."
+          ]
+        },
+        {
+          "name": "Walk on Gokarna Main Beach",
+          "body": [
+            "The main beach, next to town, is where pilgrims take a ritual dip. It is long and good for evening walks, though less suited to swimming than the coves to the south."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beaches",
+      "heading": "Beaches and the trek",
+      "items": [
+        {
+          "name": "Do the beach-hopping trek",
+          "body": [
+            "A trail over the headlands links Gokarna Main Beach, Kudle, Om, Half Moon and Paradise beaches, about 8 to 10 km in all. Parts are rocky and steep; wear good shoes, carry water and start early to avoid the midday heat. Boats can bring you back from Half Moon or Paradise."
+          ],
+          "facts": {
+            "Time needed": "Half day to full day",
+            "Best time": "Early morning, November to February",
+            "Good for": "Active travellers"
+          }
+        },
+        {
+          "name": "Watch sunset at Kudle Beach",
+          "image": {
+            "src": "/images/blogs/karnataka/gokarna/kudle-beach-gokarna.webp",
+            "alt": "Kudle Beach, Gokarna",
+            "caption": "Kudle Beach"
+          },
+          "body": [
+            "Kudle is a wide, sandy beach with cafés and guesthouses, and one of the best spots for sunset. It is good for swimming when the sea is calm."
+          ],
+          "facts": {
+            "Best time": "Sunset"
+          }
+        },
+        {
+          "name": "Relax at Om Beach",
+          "body": [
+            "Om Beach is named for its shape, two curves said to resemble the Om symbol. It has cafés, some water sports and rocky areas. Be careful when swimming, as currents can be strong in places."
+          ],
+          "facts": {
+            "Good to know": "Swim only where it is calm"
+          }
+        },
+        {
+          "name": "Reach Half Moon and Paradise",
+          "image": {
+            "src": "/images/blogs/karnataka/gokarna/half-moon-beach-gokarna.webp",
+            "alt": "Half Moon Beach, Gokarna",
+            "caption": "Half Moon Beach"
+          },
+          "body": [
+            "Half Moon and Paradise beaches are small coves reached only by trail or boat, with very basic facilities. They are the quietest beaches in Gokarna. Overnight camping rules have changed over time; check before planning to stay."
+          ],
+          "facts": {
+            "Good for": "Backpackers, couples"
+          }
+        },
+        {
+          "name": "Kayak or take a boat",
+          "body": [
+            "Kayaking and boat trips along the coast, sometimes with dolphin sightings, run from Om and Kudle beaches in the season."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day-trips",
+      "heading": "Day trips",
+      "items": [
+        {
+          "name": "Visit Mirjan Fort",
+          "body": [
+            "Mirjan Fort, about 20 km from Gokarna, is a laterite fort from the 16th century with moats, walls and wells, overgrown with greenery. It is atmospheric and usually quiet."
+          ],
+          "facts": {
+            "Time needed": "1 hour"
+          }
+        },
+        {
+          "name": "See the Yana rocks",
+          "body": [
+            "Yana, about 50 km away in the Western Ghats, has two massive black limestone outcrops rising out of the forest, reached by a short walk. The Bhairaveshwara cave temple sits at their base. Vibhooti Falls is nearby."
+          ],
+          "facts": {
+            "Time needed": "Half a day"
+          }
+        },
+        {
+          "name": "Go to Murudeshwar and Netrani",
+          "body": [
+            "Murudeshwar, about 75 km south, has a huge seated Shiva statue and a towering gopuram on a headland by the sea. Netrani Island, offshore, is one of India's best scuba diving sites, with coral and reef fish; dives run from about October to May."
+          ],
+          "facts": {
+            "Best time": "October to May for diving"
+          }
+        },
+        {
+          "name": "Paddle the Honnavar backwaters",
+          "body": [
+            "Near Honnavar, the Sharavathi river meets the sea through mangroves, and kayaking or boat rides go through the backwaters and past small islands."
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Backpackers",
+      "text": "Stay at Kudle or Om, do the full beach trek and a day trip to Yana."
+    },
+    {
+      "who": "Couples",
+      "text": "A quiet room at Kudle for sunsets, a boat to Paradise and a morning in the old town."
+    },
+    {
+      "who": "Pilgrims",
+      "text": "Mahabaleshwar, Maha Ganapati and a ritual dip at the main beach or Kotitirtha, with Murudeshwar nearby."
+    }
+  ],
+  "oneDay": "Visit the Mahabaleshwar and Maha Ganapati temples early, then walk the car street and to Kotitirtha. Start the beach trek to Kudle and Om, have lunch at a shack, continue to Half Moon, and take a boat back in time for sunset at Kudle.",
+  "tips": [
+    "Gokarna Road is the nearest railway station, about 10 km away; Goa's airports are about three to four hours by road.",
+    "Dress modestly in the town and temples.",
+    "Carry cash; ATMs can run dry in peak season.",
+    "Avoid swimming in the monsoon and in rough seas."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Gokarna?",
+      "a": "Visit Mahabaleshwar Temple, walk the old town, do the beach trek from Kudle to Paradise, relax at Om Beach, watch sunset at Kudle, and take day trips to Mirjan Fort, Yana and Murudeshwar."
+    },
+    {
+      "q": "How long is the Gokarna beach trek?",
+      "a": "About 8 to 10 km from the main beach to Paradise Beach, over rocky headlands. Allow half a day or more."
+    },
+    {
+      "q": "Is Gokarna better than Goa?",
+      "a": "Gokarna is quieter and simpler, with fewer crowds and less nightlife. Goa has more variety and facilities."
+    },
+    {
+      "q": "What is the best time to visit Gokarna?",
+      "a": "October to February."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Goa",
+      "href": "/blog/things-to-do-in-goa",
+      "note": "about three hours north"
+    },
+    {
+      "name": "Things to do in Udupi",
+      "href": "/blog/things-to-do-in-udupi",
+      "note": "temple town and beaches further south"
+    },
+    {
+      "name": "Jog Falls",
+      "href": "/blog/jog-falls-travel-guide",
+      "note": "one of India's highest waterfalls"
+    }
+  ],
+  "styles": [
+    "honeymoon",
+    "group-tours",
+    "weekend-getaways"
+  ],
+  "metaDescription": "Things to do in Gokarna: the beach-hopping trek from Kudle to Om, Half Moon and Paradise beaches, the Mahabaleshwar and Maha Ganapati temples, Kotitirtha, sunsets, kayaking and more."
+}

@@ -1,0 +1,250 @@
+{
+  "slug": "things-to-do-in-kaziranga",
+  "destination": "Kaziranga",
+  "guide": "kaziranga-travel-guide",
+  "type": "national park",
+  "title": "Things to Do in Kaziranga: Rhino Safaris, Wetlands & Tea Country",
+  "seoTitle": "Things to Do in Kaziranga: Safaris, Rhinos & More | Kudozz Club",
+  "description": "Things to do in Kaziranga: jeep safaris in the Central, Western and Eastern ranges, one-horned rhinos, wild buffalo and elephants, birdwatching on the beels, the Orchid and Biodiversity Park, tea estate visits, Karbi villages and Kakochang waterfall.",
+  "dek": "A UNESCO-listed floodplain of tall grass, wetlands and forest on the Brahmaputra, home to about two-thirds of the world's greater one-horned rhinos.",
+  "primaryKeyword": "things to do in Kaziranga",
+  "secondaryKeywords": [
+    "Kaziranga safari",
+    "Kaziranga safari zones",
+    "one-horned rhino",
+    "Kaziranga best time",
+    "Kaziranga birdwatching",
+    "Kaziranga tea estate"
+  ],
+  "searchIntent": "Wildlife lovers and families planning two to three days in Kaziranga, choosing safari zones and what to do between drives.",
+  "tags": [
+    "Kaziranga",
+    "Assam",
+    "Wildlife",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/assam/assam/elephant-safari-rhino-kaziranga.webp",
+    "alt": "One-horned rhino in the grasslands of Kaziranga",
+    "caption": "One-horned rhino, Kaziranga"
+  },
+  "intro": [
+    "Kaziranga National Park, in Golaghat and Nagaon districts of Assam, spreads across the floodplain of the Brahmaputra with the Karbi Anglong hills to the south. It became a UNESCO World Heritage Site in 1985 and a tiger reserve in 2006. The park holds about two-thirds of the world's greater one-horned rhinos, along with wild water buffalo, eastern swamp deer, Asian elephants and one of the highest densities of tigers anywhere.",
+    "The main thing to do in Kaziranga is the safari. Jeep safaris run in several ranges, each with a different mix of grassland, wetlands (beels) and woodland. Between drives, you can visit the Orchid and Biodiversity Park, walk through tea estates, meet Karbi and Mising communities and go birdwatching.",
+    "Two to three days with three or four safaris is ideal. The park is usually open from October or November to April or May and closes during the monsoon floods."
+  ],
+  "quickAnswer": [
+    "Take a jeep safari in the Central (Kohora) range",
+    "Look for rhinos and buffalo in the Western (Bagori) range",
+    "Go birdwatching in the Eastern (Agaratoli) range",
+    "Watch elephants and deer on the grasslands",
+    "Visit the Kaziranga Orchid and Biodiversity Park",
+    "Walk through a tea estate",
+    "Visit a Karbi or Mising village",
+    "See Kakochang waterfall"
+  ],
+  "sections": [
+    {
+      "id": "safaris",
+      "heading": "Safaris",
+      "items": [
+        {
+          "name": "Take a jeep safari in the Central range",
+          "image": {
+            "src": "/images/blogs/assam/kaziranga/kaziranga-national-park-view.webp",
+            "alt": "Grasslands and wetlands of Kaziranga",
+            "caption": "Kaziranga grasslands"
+          },
+          "body": [
+            "The Central (Kohora) range is the most visited and has a varied landscape of grassland, beels and forest. Rhinos, wild buffalo, swamp deer and elephants are regularly seen, and tigers occasionally. Morning safaris are usually best for light and activity.",
+            "Jeeps are booked through the forest department or authorised operators; permits and guides are included."
+          ],
+          "facts": {
+            "Time needed": "2–3 hours per safari",
+            "Best time": "November to April, early morning",
+            "Good for": "Everyone"
+          }
+        },
+        {
+          "name": "Visit the Western range",
+          "body": [
+            "The Western (Bagori) range has open grassland and many wetlands, and is often considered the best for close rhino and buffalo sightings. It is a shorter circuit, good for photography."
+          ]
+        },
+        {
+          "name": "Go birdwatching in the Eastern range",
+          "body": [
+            "The Eastern (Agaratoli) range has large beels that attract pelicans, storks, ducks and raptors, especially in winter. Kaziranga is an Important Bird Area, home to the Bengal florican and many water birds."
+          ],
+          "facts": {
+            "Best time": "November to March",
+            "Good for": "Birdwatchers"
+          }
+        },
+        {
+          "name": "Choose your safari responsibly",
+          "body": [
+            "Elephant-back safaris have also been offered at Kaziranga. Many travellers now choose jeeps instead, out of concern for the welfare of captive elephants. Whatever you choose, keep noise down and follow the guide's instructions."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beyond",
+      "heading": "Beyond the safari",
+      "items": [
+        {
+          "name": "See the Orchid and Biodiversity Park",
+          "body": [
+            "The Kaziranga National Orchid and Biodiversity Park, near Kohora, has hundreds of orchid species, a cactus house, rice and bamboo collections, and cultural performances of local dances."
+          ],
+          "facts": {
+            "Time needed": "1.5 hours",
+            "Good for": "Families"
+          }
+        },
+        {
+          "name": "Walk through a tea estate",
+          "image": {
+            "src": "/images/blogs/assam/assam/tea-gardens-assam-2.webp",
+            "alt": "Tea gardens in Assam",
+            "caption": "Assam tea gardens"
+          },
+          "body": [
+            "Tea estates surround Kaziranga. Walks among the bushes and, where allowed, factory visits show how Assam's famous tea is grown and processed. Some heritage bungalows offer stays."
+          ]
+        },
+        {
+          "name": "Visit Karbi and Mising villages",
+          "body": [
+            "The Karbi people live in the hills south of the park, and the Mising in stilt houses along the rivers. Community tourism initiatives offer village walks, weaving and home-cooked meals."
+          ],
+          "facts": {
+            "Good for": "Culture seekers"
+          }
+        },
+        {
+          "name": "See Kakochang waterfall",
+          "body": [
+            "Kakochang waterfall, about 13 km from Bokakhat, flows through rubber and coffee plantations. The ruins of Numaligarh are nearby."
+          ]
+        },
+        {
+          "name": "See the hoolock gibbons at Hollongapar",
+          "body": [
+            "Hollongapar Gibbon Sanctuary, near Jorhat, protects India's only ape, the hoolock gibbon, in a small forest surrounded by tea gardens. Early morning walks with forest guides give a good chance of hearing and seeing them. It is about two hours from Kaziranga."
+          ],
+          "facts": {
+            "Best time": "Early morning"
+          }
+        },
+        {
+          "name": "Watch a Bihu or cultural performance",
+          "body": [
+            "Many resorts and the Orchid Park host evening performances of Bihu, the Assamese folk dance, and Karbi dances. In April, Rongali Bihu marks the Assamese new year with celebrations in villages around the park."
+          ],
+          "facts": {
+            "Best time": "April for Rongali Bihu"
+          }
+        }
+      ]
+    },
+    {
+      "id": "seasons",
+      "heading": "Kaziranga by season",
+      "items": [
+        {
+          "name": "Winter (November to February)",
+          "body": [
+            "Pleasant days, morning mist and many migratory birds. Grass is tall early in the season and gets burnt and cleared later, improving visibility."
+          ]
+        },
+        {
+          "name": "Spring (March to April)",
+          "body": [
+            "Hot afternoons but the best visibility, as the grass is shorter and animals gather near water. Many consider this the best time for rhino and tiger sightings."
+          ]
+        },
+        {
+          "name": "Monsoon (May to October)",
+          "body": [
+            "The park closes as the Brahmaputra floods the plains. Animals move to higher ground, and the highway alongside the park has speed limits to protect them."
+          ],
+          "facts": {
+            "Good to know": "Park closed"
+          }
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Wildlife enthusiasts",
+      "text": "Book four safaris across the Central, Western and Eastern ranges over three days."
+    },
+    {
+      "who": "Families",
+      "text": "Two morning safaris, the Orchid Park and a tea estate walk."
+    },
+    {
+      "who": "Photographers",
+      "text": "The Western range in March and April for close rhinos in open grass."
+    }
+  ],
+  "oneDay": "Take an early-morning jeep safari in the Central range. After breakfast, visit the Orchid and Biodiversity Park and a tea estate. In the afternoon, do a second safari in the Western range.",
+  "tips": [
+    "Jorhat Airport is about two hours away and Guwahati about five hours by road.",
+    "Book safaris in advance for peak months (December to March).",
+    "Wear neutral colours and carry binoculars.",
+    "Respect speed limits on the highway, which runs along animal corridors."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Kaziranga?",
+      "a": "Jeep safaris in the Central, Western and Eastern ranges, birdwatching, the Orchid and Biodiversity Park, tea estate walks and village visits."
+    },
+    {
+      "q": "When is Kaziranga open?",
+      "a": "Usually from October or November to April or May. It closes during the monsoon floods."
+    },
+    {
+      "q": "How many days are needed for Kaziranga?",
+      "a": "Two to three days with three or four safaris."
+    },
+    {
+      "q": "Which is the best zone in Kaziranga?",
+      "a": "The Central range is the most varied; the Western range is known for close rhino sightings; the Eastern range is best for birds."
+    },
+    {
+      "q": "Where should I stay near Kaziranga?",
+      "a": "Most lodges are around Kohora, near the Central range, which is convenient for most safaris. Bagori suits the Western range and Agaratoli the Eastern range."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Majuli",
+      "href": "/blog/things-to-do-in-majuli",
+      "note": "the river island, via Jorhat"
+    },
+    {
+      "name": "Things to do in Guwahati",
+      "href": "/blog/things-to-do-in-guwahati",
+      "note": "about five hours west"
+    },
+    {
+      "name": "Manas",
+      "href": "/blog/manas-travel-guide",
+      "note": "another UNESCO-listed park in Assam"
+    },
+    {
+      "name": "Tezpur",
+      "href": "/blog/tezpur-travel-guide",
+      "note": "on the way to Arunachal"
+    }
+  ],
+  "styles": [
+    "wildlife-tours",
+    "family-holidays"
+  ],
+  "metaDescription": "Things to do in Kaziranga: jeep safaris in the Central, Western and Eastern ranges, one-horned rhinos, wild buffalo and elephants, birdwatching on the beels and more."
+}

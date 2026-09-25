@@ -1,0 +1,289 @@
+{
+  "slug": "things-to-do-in-nubra-valley",
+  "destination": "Nubra Valley",
+  "guide": "nubra-valley-travel-guide",
+  "type": "valley",
+  "title": "Things to Do in Nubra Valley: Dunes, Diskit, Hot Springs & Turtuk",
+  "seoTitle": "Things to Do in Nubra Valley: Dunes, Camels & Turtuk | Kudozz Club",
+  "description": "Things to do in Nubra Valley: Khardung La, Diskit Monastery and its Maitreya Buddha, Bactrian camel rides on the Hunder dunes, Sumur and Samstanling, Panamik hot springs, Ensa Gompa, Turtuk's Balti village and apricot orchards.",
+  "dek": "A wide desert valley where the Shyok and Nubra rivers meet, with sand dunes, double-humped camels and green villages below the Karakoram.",
+  "primaryKeyword": "things to do in Nubra Valley",
+  "secondaryKeywords": [
+    "Hunder sand dunes",
+    "Diskit Monastery",
+    "Bactrian camel ride",
+    "Turtuk village",
+    "Panamik hot springs",
+    "Khardung La"
+  ],
+  "searchIntent": "Ladakh travellers planning a one- or two-night trip to Nubra from Leh and deciding what to see and whether to add Turtuk.",
+  "tags": [
+    "Nubra Valley",
+    "Ladakh",
+    "Valley",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/ladakh/nubra-valley/diskit-monastery-maitreya-buddha-statue.webp",
+    "alt": "Maitreya Buddha statue at Diskit Monastery, Nubra Valley",
+    "caption": "The Maitreya Buddha at Diskit"
+  },
+  "intro": [
+    "Nubra Valley lies north of Leh, across the Ladakh range, where the Shyok and Nubra rivers meet. It is lower than Leh, at around 3,000 to 3,200 metres, and its villages are green with barley fields, poplars and apricot orchards between stretches of sand and rock. Nubra was once a stop on the Silk Route towards Yarkand.",
+    "The things to do in Nubra Valley start with the drive over Khardung La. In the valley, you visit Diskit Monastery and its giant Maitreya Buddha, ride Bactrian camels on the Hunder dunes, see the monasteries of Sumur and Ensa, bathe at Panamik hot springs and, if time allows, continue to the Balti village of Turtuk.",
+    "The classic trip is two days and one night from Leh; allow three days to include Turtuk. An Inner Line Permit is required."
+  ],
+  "quickAnswer": [
+    "Cross Khardung La, one of the world's highest motorable passes",
+    "Visit Diskit Monastery and the Maitreya Buddha",
+    "Ride a Bactrian camel on the Hunder sand dunes",
+    "See Samstanling Monastery in Sumur",
+    "Soak at Panamik hot springs",
+    "Walk to Ensa Gompa",
+    "Visit Turtuk, a Balti village near the border",
+    "Stay in a village homestay or orchard camp"
+  ],
+  "sections": [
+    {
+      "id": "main",
+      "heading": "Diskit and Hunder",
+      "items": [
+        {
+          "name": "Cross Khardung La",
+          "body": [
+            "The road from Leh climbs to Khardung La at around 5,300 metres before dropping into Nubra. Stop for a few photos at the top, but do not linger; the air is very thin. Road conditions change quickly, and the pass can be closed by snow even in summer."
+          ],
+          "links": [
+            {
+              "label": "Khardung La travel guide",
+              "href": "/blog/khardung-la-travel-guide"
+            }
+          ],
+          "facts": {
+            "Time needed": "5–6 hours from Leh to Diskit",
+            "Good to know": "Do not stay long at the top"
+          }
+        },
+        {
+          "name": "Visit Diskit Monastery",
+          "body": [
+            "Diskit, the oldest and largest monastery in Nubra, dates from the 14th century and clings to a hill above the village. Below it stands a 32-metre statue of the Maitreya Buddha, inaugurated in 2010, facing down the valley towards the border. The view of the Shyok valley from here is superb."
+          ],
+          "facts": {
+            "Time needed": "1.5 hours",
+            "Best time": "Morning"
+          }
+        },
+        {
+          "name": "Ride a camel on the Hunder dunes",
+          "image": {
+            "src": "/images/blogs/ladakh/nubra-valley/hunder-sand-dunes-and-bactrian-camels-nubra-valley.webp",
+            "alt": "Bactrian camels on the Hunder sand dunes",
+            "caption": "Hunder dunes"
+          },
+          "body": [
+            "The sand dunes between Diskit and Hunder are home to double-humped Bactrian camels, descendants of animals used on the old trade routes. Short camel rides are offered in the late afternoon, when the light is best. Walking on the dunes at sunset, with snow peaks behind, is just as enjoyable."
+          ],
+          "links": [
+            {
+              "label": "Hunder travel guide",
+              "href": "/blog/hunder-travel-guide"
+            }
+          ],
+          "facts": {
+            "Time needed": "1–2 hours",
+            "Best time": "Late afternoon",
+            "Good for": "Families, couples"
+          }
+        },
+        {
+          "name": "Walk through Hunder village",
+          "body": [
+            "Beyond the dunes, Hunder village has barley fields, willow-lined streams and a small old gompa on the hillside. A walk through the village in the evening, when families bring animals home, is a calm counterpoint to the busy dunes."
+          ],
+          "facts": {
+            "Best time": "Evening"
+          }
+        }
+      ]
+    },
+    {
+      "id": "nubra-side",
+      "heading": "The Nubra river side",
+      "items": [
+        {
+          "name": "See Samstanling Monastery, Sumur",
+          "image": {
+            "src": "/images/blogs/ladakh/nubra-valley/samstanling-monastery-sumur-nubra-valley.webp",
+            "alt": "Samstanling Monastery in Sumur, Nubra Valley",
+            "caption": "Samstanling Monastery"
+          },
+          "body": [
+            "Samstanling, above the village of Sumur on the Nubra river side, was founded in the 1840s. Its colourful prayer halls and murals are well kept, and Sumur itself is a pleasant village with orchard guesthouses."
+          ],
+          "facts": {
+            "Time needed": "1 hour"
+          }
+        },
+        {
+          "name": "Soak at Panamik hot springs",
+          "body": [
+            "Panamik, further up the Nubra river, has sulphur hot springs with bathing facilities. It was once the last major stop before caravans headed to the Karakoram Pass."
+          ],
+          "facts": {
+            "Time needed": "1 hour"
+          }
+        },
+        {
+          "name": "Walk to Ensa Gompa",
+          "image": {
+            "src": "/images/blogs/ladakh/nubra-valley/ensa-gompa-wall-murals-nubra-valley.webp",
+            "alt": "Wall murals at Ensa Gompa, Nubra Valley",
+            "caption": "Murals at Ensa Gompa"
+          },
+          "body": [
+            "Ensa Gompa, across the river from Panamik, is a small, old monastery reached by a walk up the hillside. It is quiet and has fine murals and views over the valley."
+          ],
+          "facts": {
+            "Good for": "Walkers, culture seekers"
+          }
+        }
+      ]
+    },
+    {
+      "id": "turtuk",
+      "heading": "Turtuk and the Shyok valley",
+      "items": [
+        {
+          "name": "Visit Turtuk",
+          "image": {
+            "src": "/images/blogs/ladakh/nubra-valley/turtuk-nubra-valley.webp",
+            "alt": "Turtuk village with apricot trees and mountains",
+            "caption": "Turtuk"
+          },
+          "body": [
+            "Turtuk, about 80 km beyond Hunder along the Shyok, is a Balti village that came under Indian control in 1971 and opened to tourists in 2010. Its stone houses, terraced fields, apricot orchards and irrigation channels are very different from Buddhist Ladakh. A small museum run by the family of the old Yabgo rulers tells the village's history."
+          ],
+          "links": [
+            {
+              "label": "Turtuk travel guide",
+              "href": "/blog/turtuk-travel-guide"
+            }
+          ],
+          "facts": {
+            "Time needed": "Overnight",
+            "Best time": "July to September for apricots and harvest"
+          }
+        },
+        {
+          "name": "Stay in a village homestay",
+          "body": [
+            "Homestays and orchard camps in Hunder, Sumur and Turtuk give you home-cooked Ladakhi and Balti food and a quieter night than the busier camps. Many families serve apricot jam, butter tea and fresh bread."
+          ],
+          "facts": {
+            "Good for": "Slow travellers"
+          }
+        },
+        {
+          "name": "Take the Shyok road to Pangong",
+          "body": [
+            "A road along the Shyok river links Nubra with Pangong Tso via Agham and Shyok village, allowing a loop trip without returning to Leh. Conditions vary, and there can be river crossings; check with locals before setting out."
+          ],
+          "facts": {
+            "Good to know": "Road condition varies; start early"
+          }
+        }
+      ]
+    },
+    {
+      "id": "seasons",
+      "heading": "Nubra by season",
+      "items": [
+        {
+          "name": "Summer (June to August)",
+          "body": [
+            "Warm days, green fields and all roads usually open. It is the busiest time, and the dunes and camps can be crowded in July and August."
+          ]
+        },
+        {
+          "name": "Early autumn (September)",
+          "body": [
+            "Apricot and poplar leaves turn gold, harvests are underway, and Khardung La is quieter. Many consider it the best time for Nubra."
+          ]
+        },
+        {
+          "name": "Winter",
+          "body": [
+            "Khardung La stays open for much of the year but can close after snowfall. The valley is cold and very quiet, and many camps shut. Travel only with local advice and confirmed stays."
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "First-time visitors",
+      "text": "Two days: Diskit and Hunder dunes on day one, Sumur and Panamik on day two, back over Khardung La."
+    },
+    {
+      "who": "Culture seekers",
+      "text": "Add a night in Turtuk and time in orchard homestays."
+    },
+    {
+      "who": "Road-trippers",
+      "text": "Loop from Leh to Nubra, then via Shyok to Pangong and back over Chang La."
+    }
+  ],
+  "oneDay": "Leave Leh early and cross Khardung La. Visit Diskit Monastery and the Maitreya Buddha around midday, check into Hunder, and spend the late afternoon on the dunes with the Bactrian camels.",
+  "tips": [
+    "Acclimatise in Leh for at least two days before crossing Khardung La.",
+    "An Inner Line Permit is required; carry several photocopies for checkposts.",
+    "Fuel is available at Diskit; fill up before continuing to Turtuk or Pangong.",
+    "Nights are cool even in summer; carry a warm jacket."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Nubra Valley?",
+      "a": "Cross Khardung La, visit Diskit Monastery, ride Bactrian camels at Hunder, see Samstanling in Sumur, soak at Panamik, walk to Ensa Gompa and visit Turtuk."
+    },
+    {
+      "q": "How many days are enough for Nubra Valley?",
+      "a": "Two days and one night from Leh; three days to include Turtuk."
+    },
+    {
+      "q": "Do I need a permit for Nubra Valley?",
+      "a": "Yes. Indian nationals need an Inner Line Permit; foreigners need a Protected Area Permit."
+    },
+    {
+      "q": "Is Turtuk worth visiting?",
+      "a": "Yes, for its Balti culture, stone villages and orchards, which are very different from the rest of Ladakh."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Leh",
+      "href": "/blog/things-to-do-in-leh",
+      "note": "back over Khardung La"
+    },
+    {
+      "name": "Turtuk",
+      "href": "/blog/turtuk-travel-guide",
+      "note": "the Balti village near the border"
+    },
+    {
+      "name": "Pangong Lake",
+      "href": "/blog/pangong-lake-travel-guide",
+      "note": "reachable via the Shyok road"
+    },
+    {
+      "name": "Things to do in Ladakh",
+      "href": "/blog/things-to-do-in-ladakh",
+      "note": "the whole region"
+    }
+  ],
+  "styles": [
+    "adventure-tours",
+    "group-tours"
+  ],
+  "metaDescription": "Things to do in Nubra Valley: Khardung La, Diskit Monastery and its Maitreya Buddha, Bactrian camel rides on the Hunder dunes, Sumur and Samstanling, Panamik hot springs and more."
+}

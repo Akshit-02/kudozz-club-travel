@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/spiti-valley/spiti-valley.jpg",
+        url: "/images/blogs/jharkhand/parasnath/parasnath-hill-shikharji.webp",
         width: 2560,
         height: 1920,
-        alt: "High mountain ridge representative of Parasnath Hill, Jharkhand",
+        alt: "Temples on the Parasnath (Shikharji) ridge, Jharkhand",
       },
     ],
   },
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Parasnath Hill Travel Guide: Jain Temples & Jharkhand's Highest Peak",
     description: "A major Jain pilgrimage climb to Jharkhand's highest peak — the complete guide to Parasnath.",
-    images: ["/images/destinations/spiti-valley/spiti-valley.jpg"],
+    images: ["/images/blogs/jharkhand/parasnath/parasnath-hill-shikharji.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/parasnath-travel-guide" },
 };
@@ -49,7 +49,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Parasnath Hill Travel Guide: Jain Temples & Jharkhand's Highest Peak",
           description: "The complete Parasnath (Shikharji) travel guide.",
-          image: "https://club.kudozz.in/images/destinations/spiti-valley/spiti-valley.jpg",
+          image: "https://club.kudozz.in/images/blogs/jharkhand/parasnath/parasnath-hill-shikharji.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: {
@@ -151,8 +151,8 @@ export default function ParasnathGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/spiti-valley/spiti-valley.jpg"
-              alt="High mountain ridge representative of Parasnath Hill, Jharkhand"
+              src="/images/blogs/jharkhand/parasnath/parasnath-hill-shikharji.webp"
+              alt="Temples on the Parasnath (Shikharji) ridge, Jharkhand"
               fill
               priority
               sizes="100vw"

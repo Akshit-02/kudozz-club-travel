@@ -1,0 +1,249 @@
+{
+  "slug": "things-to-do-in-tirupati",
+  "destination": "Tirupati",
+  "guide": "tirupati-travel-guide",
+  "type": "pilgrimage town",
+  "title": "Things to Do in Tirupati: Tirumala Darshan, Hill Walks & Nearby Temples",
+  "seoTitle": "Things to Do in Tirupati: Tirumala & Temples | Kudozz Club",
+  "description": "Things to do in Tirupati: darshan at the Tirumala Venkateswara Temple, climbing the Alipiri or Srivari Mettu footpaths, the laddu prasadam, Akasa Ganga and Papavinasanam, the Silathoranam arch, the Padmavathi Temple, Kapila Theertham, Srikalahasti, Chandragiri Fort and Talakona Falls.",
+  "dek": "The gateway to Tirumala, one of the world's most visited pilgrimage sites, set in the Seshachalam hills with sacred waterfalls and ancient temples around it.",
+  "primaryKeyword": "things to do in Tirupati",
+  "secondaryKeywords": [
+    "Tirumala darshan",
+    "Tirupati temple",
+    "Alipiri footpath",
+    "Tirupati laddu",
+    "Srikalahasti",
+    "Padmavathi temple",
+    "Tirupati Brahmotsavam"
+  ],
+  "searchIntent": "Pilgrims and families planning a Tirumala darshan trip of one to three days and wanting to know what else to see.",
+  "tags": [
+    "Tirupati",
+    "Andhra Pradesh",
+    "Pilgrimage",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/andhra-pradesh/tirupati/maha-dwaram-gopuram-close-up-tirumala.webp",
+    "alt": "Maha Dwaram gopuram at Tirumala",
+    "caption": "Maha Dwaram, Tirumala"
+  },
+  "intro": [
+    "Tirupati, in Andhra Pradesh, lies at the foot of the Seshachalam hills. On the hilltop at Tirumala stands the Sri Venkateswara Temple, dedicated to a form of Vishnu, which receives tens of thousands of pilgrims every day and is one of the richest and most visited religious sites in the world. The temple is run by the Tirumala Tirupati Devasthanams (TTD).",
+    "The things to do in Tirupati centre on the darshan at Tirumala, often combined with walking up the hill on one of the ancient footpaths, offering hair (tonsure) and collecting the famous laddu prasadam. Around Tirumala are sacred waterfalls and a natural rock arch; in and near the town are the Padmavathi Temple, Kapila Theertham, the Vayu Lingam at Srikalahasti and the fort at Chandragiri.",
+    "One to two days is typical. Darshan tickets and accommodation should be booked in advance through the official TTD system."
+  ],
+  "quickAnswer": [
+    "Have darshan at the Tirumala Venkateswara Temple",
+    "Walk up the Alipiri or Srivari Mettu footpath",
+    "Offer hair at the Kalyana Katta",
+    "Collect the Tirupati laddu",
+    "See Akasa Ganga and Papavinasanam",
+    "Visit the Silathoranam rock arch",
+    "Visit the Padmavathi Temple at Tiruchanur",
+    "Bathe at Kapila Theertham",
+    "Visit Srikalahasti",
+    "See Chandragiri Fort"
+  ],
+  "sections": [
+    {
+      "id": "tirumala",
+      "heading": "Tirumala",
+      "items": [
+        {
+          "name": "Have darshan at Sri Venkateswara Temple",
+          "image": {
+            "src": "/images/blogs/andhra-pradesh/tirupati/tirumala-venkateswara-temple-gopuram-tirupati.webp",
+            "alt": "Gopuram of the Venkateswara Temple, Tirumala",
+            "caption": "Venkateswara Temple"
+          },
+          "body": [
+            "The temple's golden vimana (Ananda Nilayam) rises above the sanctum, and the darshan itself lasts only a few seconds after hours of queuing. Options include free darshan, special entry darshan booked online, and various sevas. Waiting times range from a couple of hours to more than a day at peak times.",
+            "A strict dress code applies: traditional clothes such as dhotis or kurta-pyjamas for men and saris or churidars for women. Phones and cameras must be deposited."
+          ],
+          "facts": {
+            "Time needed": "Half a day to a full day",
+            "Good to know": "Book darshan and rooms on the official TTD portal"
+          }
+        },
+        {
+          "name": "Walk up the footpath",
+          "body": [
+            "Many pilgrims climb to Tirumala on foot. The Alipiri footpath, about 9 km with thousands of steps, takes around four to six hours; the Srivari Mettu route is shorter and steeper. Both are covered and have water points. Walkers can receive a divya darshan token, subject to current rules."
+          ],
+          "facts": {
+            "Best time": "Early morning or evening",
+            "Good for": "Fit pilgrims"
+          }
+        },
+        {
+          "name": "Offer hair and collect the laddu",
+          "body": [
+            "Offering hair (tonsure) at the Kalyana Katta is a common vow. The Tirupati laddu, a sweet with a GI tag, is given as prasadam and can be bought in extra quantities at counters."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "around-tirumala",
+      "heading": "Around Tirumala",
+      "items": [
+        {
+          "name": "See Akasa Ganga and Papavinasanam",
+          "body": [
+            "Akasa Ganga, a waterfall about 3 km from the temple, is said to provide water for the deity's rituals. Papavinasanam, a little further, is a sacred waterfall and dam where pilgrims bathe to wash away sins."
+          ],
+          "facts": {
+            "Time needed": "2 hours"
+          }
+        },
+        {
+          "name": "Visit the Silathoranam",
+          "body": [
+            "The Silathoranam, a natural rock arch near the temple, is a rare geological formation believed to be very ancient. It is set in a small garden."
+          ]
+        },
+        {
+          "name": "See the Sri Vari Museum",
+          "body": [
+            "The TTD's museum at Tirumala has exhibits on the temple's history, rituals and art, including models and old artefacts."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "town",
+      "heading": "In and around Tirupati",
+      "items": [
+        {
+          "name": "Visit the Padmavathi Temple",
+          "body": [
+            "The Padmavathi Temple at Tiruchanur, about 5 km from Tirupati, is dedicated to Venkateswara's consort. Tradition says a pilgrimage to Tirumala is complete only after visiting her."
+          ]
+        },
+        {
+          "name": "Bathe at Kapila Theertham",
+          "body": [
+            "Kapila Theertham, at the foot of the hills, is a Shiva temple with a waterfall and a holy pond, especially lovely after the monsoon."
+          ]
+        },
+        {
+          "name": "See the Govindaraja Swamy Temple",
+          "body": [
+            "The Govindaraja Swamy Temple, in the centre of Tirupati, has a tall gopuram and is one of the town's oldest temples."
+          ]
+        },
+        {
+          "name": "Visit Srikalahasti",
+          "body": [
+            "Srikalahasti, about 36 km away, has an important Shiva temple with the Vayu (wind) lingam, one of the five elemental lingams. It is also the centre of Kalamkari, hand-painted textile art; workshops can be visited."
+          ],
+          "facts": {
+            "Time needed": "Half a day"
+          }
+        },
+        {
+          "name": "See Chandragiri Fort",
+          "body": [
+            "Chandragiri Fort, about 15 km away, was a later capital of the Vijayanagara Empire. Its Raja Mahal palace houses a museum, and a sound and light show is held in the evening."
+          ]
+        },
+        {
+          "name": "See Talakona Falls",
+          "body": [
+            "Talakona, about 50 km away in the Sri Venkateswara National Park, is one of the highest waterfalls in Andhra Pradesh, with a forest walk to the falls."
+          ],
+          "facts": {
+            "Best time": "After the monsoon"
+          }
+        }
+      ]
+    },
+    {
+      "id": "seasons",
+      "heading": "By season",
+      "items": [
+        {
+          "name": "Brahmotsavam (September or October)",
+          "body": [
+            "The nine-day Brahmotsavam festival brings grand processions of the deity on different vahanams (vehicles) and enormous crowds."
+          ]
+        },
+        {
+          "name": "Vaikuntha Ekadasi (December or January)",
+          "body": [
+            "A special entrance, the Vaikuntha Dwaram, is opened, and devotees throng the temple."
+          ]
+        },
+        {
+          "name": "Summer holidays",
+          "body": [
+            "April to June is very crowded with school holidays and hot. Weekdays outside holidays are calmer."
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Pilgrims",
+      "text": "Walk up via Alipiri, have darshan, visit Padmavathi and Srikalahasti."
+    },
+    {
+      "who": "Families",
+      "text": "Book special entry darshan online, stay a night at Tirumala, and visit Akasa Ganga and the museum."
+    },
+    {
+      "who": "History lovers",
+      "text": "Chandragiri Fort and Srikalahasti's Kalamkari workshops."
+    }
+  ],
+  "oneDay": "Take an early darshan slot at Tirumala, collect the laddu, and visit Akasa Ganga, Papavinasanam and the Silathoranam. Come down to Tirupati for the Padmavathi Temple and Kapila Theertham in the evening.",
+  "tips": [
+    "Tirupati has an airport at Renigunta and a railway station; Chennai is about three hours away.",
+    "Book darshan and TTD accommodation well in advance on the official website.",
+    "Follow the dress code and deposit phones before darshan.",
+    "Beware of touts offering quick darshan; use official channels only."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Tirupati?",
+      "a": "Have darshan at Tirumala, walk up the footpath, visit Akasa Ganga, Papavinasanam and the Silathoranam, the Padmavathi Temple and Kapila Theertham, and visit Srikalahasti and Chandragiri Fort."
+    },
+    {
+      "q": "How do I book Tirumala darshan?",
+      "a": "Through the official Tirumala Tirupati Devasthanams website or app, well in advance."
+    },
+    {
+      "q": "How long does it take to walk to Tirumala?",
+      "a": "The Alipiri footpath takes about four to six hours; Srivari Mettu is shorter."
+    },
+    {
+      "q": "What is the dress code for Tirumala?",
+      "a": "Traditional dress: dhoti or kurta-pyjama for men, and sari or churidar with dupatta for women."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Chennai",
+      "href": "/blog/things-to-do-in-chennai",
+      "note": "about three hours away"
+    },
+    {
+      "name": "Kanchipuram",
+      "href": "/blog/kanchipuram-travel-guide",
+      "note": "temples and silk"
+    },
+    {
+      "name": "Srisailam",
+      "href": "/blog/srisailam-travel-guide",
+      "note": "another Jyotirlinga"
+    }
+  ],
+  "styles": [
+    "spiritual-tours",
+    "family-holidays"
+  ],
+  "metaDescription": "Things to do in Tirupati: darshan at the Tirumala Venkateswara Temple, climbing the Alipiri or Srivari Mettu footpaths, the laddu prasadam, Akasa Ganga and Papavinasanam and more."
+}

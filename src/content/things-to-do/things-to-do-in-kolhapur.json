@@ -1,0 +1,280 @@
+{
+  "slug": "things-to-do-in-kolhapur",
+  "destination": "Kolhapur",
+  "guide": "kolhapur-travel-guide",
+  "type": "city",
+  "title": "Things to Do in Kolhapur: Mahalaxmi Temple, Palaces, Panhala & Fiery Food",
+  "seoTitle": "Things to Do in Kolhapur: Temples, Forts & Food | Kudozz Club",
+  "description": "Things to do in Kolhapur: the Mahalaxmi (Ambabai) Temple, New Palace and its museum, Rankala Lake, Panhala Fort, Jyotiba Temple, the Town Hall Museum, wrestling at a talim, Kolhapuri chappals and saaj jewellery, and tambda-pandhra rassa.",
+  "dek": "A historic Maratha capital in southern Maharashtra, known for its goddess temple, royal palace, wrestling culture, leather chappals and very spicy food.",
+  "primaryKeyword": "things to do in Kolhapur",
+  "secondaryKeywords": [
+    "places to visit in Kolhapur",
+    "Mahalaxmi Temple Kolhapur",
+    "New Palace Kolhapur",
+    "Rankala Lake",
+    "Panhala Fort",
+    "Kolhapuri food",
+    "Kolhapuri chappals"
+  ],
+  "searchIntent": "Pilgrims and travellers planning one or two days in Kolhapur, often on the way to Goa or the Konkan.",
+  "tags": [
+    "Kolhapur",
+    "Maharashtra",
+    "Heritage",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/maharashtra/kolhapur/mahalaxmi-temple-kolhapur.webp",
+    "alt": "Mahalaxmi Temple, Kolhapur",
+    "caption": "Mahalaxmi Temple"
+  },
+  "intro": [
+    "Kolhapur, on the Panchganga river in southern Maharashtra, was the capital of a Maratha princely state founded by Tarabai in the early 18th century. Its ruler Shahu Maharaj (1874–1922) was a pioneering social reformer, and the city has a strong tradition of wrestling, music and cinema.",
+    "The things to do in Kolhapur include darshan at the ancient Mahalaxmi Temple, the New Palace and its royal museum, evenings at Rankala Lake, a drive up to Panhala Fort and the Jyotiba Temple, and shopping for Kolhapuri chappals and traditional jewellery. The food, especially the red and white mutton curries, is famous and fiery.",
+    "One or two days is enough. October to February is the most comfortable time."
+  ],
+  "quickAnswer": [
+    "Visit the Mahalaxmi (Ambabai) Temple",
+    "Tour the New Palace and Shahu Chhatrapati Museum",
+    "Watch sunset at Rankala Lake",
+    "Explore Panhala Fort",
+    "Visit the Jyotiba Temple",
+    "See the Town Hall Museum",
+    "Watch wrestlers train at a talim",
+    "Buy Kolhapuri chappals and saaj jewellery",
+    "Eat tambda and pandhra rassa",
+    "Try Kolhapuri misal"
+  ],
+  "sections": [
+    {
+      "id": "temples",
+      "heading": "Temples",
+      "items": [
+        {
+          "name": "Visit Mahalaxmi Temple",
+          "body": [
+            "The Mahalaxmi (Ambabai) Temple, in the heart of the old city, is one of the Shakti Peethas and among the most important temples in Maharashtra. Its stone structure dates in part to the Chalukya period. During the Kiranotsav, on a few days in January or February and in November, the setting sun's rays reach the idol.",
+            "The temple's outer walls are covered with carvings, and the complex includes smaller shrines to other deities. The streets around it are full of stalls selling flowers, bangles, kumkum and the green saris that devotees offer to the goddess."
+          ],
+          "facts": {
+            "Time needed": "1–2 hours",
+            "Best time": "Early morning or evening aarti"
+          }
+        },
+        {
+          "name": "Visit the Jyotiba Temple",
+          "body": [
+            "The Jyotiba Temple, on a hill about 17 km north-west, is dedicated to a local form of Shiva. During its spring fair, devotees throw pink gulal, turning the hill pink."
+          ],
+          "facts": {
+            "Best time": "Chaitra Purnima fair (spring)"
+          }
+        },
+        {
+          "name": "See Kaneri Math",
+          "body": [
+            "The Siddhagiri Gramjivan Museum at Kaneri Math, about 12 km away, has life-size sculptures recreating traditional Indian village life, a popular outing for families."
+          ],
+          "facts": {
+            "Good for": "Families"
+          }
+        }
+      ]
+    },
+    {
+      "id": "royal",
+      "heading": "Royal Kolhapur",
+      "items": [
+        {
+          "name": "Tour the New Palace",
+          "image": {
+            "src": "/images/blogs/maharashtra/kolhapur/new-palace-kolhapur-2.webp",
+            "alt": "New Palace, Kolhapur",
+            "caption": "New Palace"
+          },
+          "body": [
+            "The New Palace, built of black stone between 1877 and 1884 in a blend of Indo-Saracenic styles, is still the residence of the royal family. Part of it houses the Shahu Chhatrapati Museum, with arms, hunting trophies, costumes and royal belongings."
+          ],
+          "facts": {
+            "Time needed": "1.5 hours"
+          }
+        },
+        {
+          "name": "See the Town Hall Museum",
+          "body": [
+            "The Town Hall Museum, in a colonial building with gardens, has archaeological finds from the Brahmapuri excavations, paintings and weapons."
+          ]
+        },
+        {
+          "name": "Watch wrestlers at a talim",
+          "body": [
+            "Kolhapur is famous for kushti, traditional Indian wrestling. Wrestlers train in mud pits at talims (akhadas) such as Motibag. Visitors can sometimes watch early-morning training with permission, and bouts are held at the Khasbag stadium."
+          ],
+          "facts": {
+            "Best time": "Early morning"
+          }
+        }
+      ]
+    },
+    {
+      "id": "outdoors",
+      "heading": "Lake and forts",
+      "items": [
+        {
+          "name": "Watch sunset at Rankala Lake",
+          "image": {
+            "src": "/images/blogs/maharashtra/kolhapur/rankala-lake-kolhapur-2.webp",
+            "alt": "Rankala Lake at sunset, Kolhapur",
+            "caption": "Rankala Lake"
+          },
+          "body": [
+            "Rankala Lake, on the western edge of the city, has a promenade with food stalls and horse rides, a small temple in the water and the Shalini Palace on its shore. It is the city's favourite evening spot."
+          ],
+          "facts": {
+            "Best time": "Sunset"
+          }
+        },
+        {
+          "name": "Explore Panhala Fort",
+          "image": {
+            "src": "/images/blogs/maharashtra/kolhapur/panhala-fort-kolhapur.webp",
+            "alt": "Walls of Panhala Fort near Kolhapur",
+            "caption": "Panhala Fort"
+          },
+          "body": [
+            "Panhala, about 20 km north-west, is one of the largest forts in the Deccan, with granaries, gates and walls on a plateau. It is famous for Shivaji's escape from a siege in 1660, covered by Baji Prabhu Deshpande's last stand at Pavankhind. Panhala is also a small hill station.",
+            "Look for the Sajja Kothi pavilion, where Shivaji is said to have planned his escape, the three-storey Andhar Bavdi (hidden well) and the Teen Darwaza gate. The ramparts give views across the Warna and Kasari valleys."
+          ],
+          "facts": {
+            "Time needed": "Half a day",
+            "Good for": "History lovers"
+          }
+        },
+        {
+          "name": "Visit Dajipur and Radhanagari",
+          "body": [
+            "The Radhanagari Wildlife Sanctuary, including Dajipur, about 80 km away, protects forests with Indian gaur (bison) and many birds and butterflies."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "food-shopping",
+      "heading": "Food and shopping",
+      "items": [
+        {
+          "name": "Eat tambda and pandhra rassa",
+          "body": [
+            "Kolhapuri mutton is served with two curries: tambda rassa, a fiery red gravy, and pandhra rassa, a mild white gravy made with coconut milk. Kolhapuri misal and the local bhakri are also famous. Spice levels are high; ask for milder versions if needed."
+          ],
+          "facts": {
+            "Good for": "Food lovers"
+          }
+        },
+        {
+          "name": "Buy Kolhapuri chappals and saaj",
+          "body": [
+            "Kolhapuri chappals, hand-crafted leather sandals with a GI tag, are sold in the Chappal Line market. Kolhapuri saaj, a traditional gold necklace, and jaggery from the region are other classic buys."
+          ],
+          "facts": {
+            "Good for": "Shoppers"
+          }
+        }
+      ]
+    },
+    {
+      "id": "seasons",
+      "heading": "By season",
+      "items": [
+        {
+          "name": "October to February",
+          "body": [
+            "The most pleasant time, with Navratri celebrations at the Mahalaxmi Temple in autumn."
+          ]
+        },
+        {
+          "name": "March to May",
+          "body": [
+            "Hot days; the Jyotiba fair takes place in spring."
+          ]
+        },
+        {
+          "name": "June to September",
+          "body": [
+            "Heavy monsoon rain on the Sahyadri side, green landscapes and flooding risk along the Panchganga."
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Pilgrims",
+      "text": "Mahalaxmi at dawn, Jyotiba and the evening aarti."
+    },
+    {
+      "who": "Families",
+      "text": "New Palace museum, Rankala Lake, Kaneri Math and Panhala."
+    },
+    {
+      "who": "Food lovers",
+      "text": "A Kolhapuri mutton thali, misal for breakfast and jaggery to take home."
+    },
+    {
+      "who": "Road-trippers",
+      "text": "Break the Pune–Goa drive in Kolhapur for a night: temple in the evening, mutton thali for dinner and Panhala at dawn."
+    }
+  ],
+  "oneDay": "Visit the Mahalaxmi Temple early, then tour the New Palace museum. After a Kolhapuri lunch, drive to Panhala Fort for the afternoon, and return to Rankala Lake for sunset and street food.",
+  "tips": [
+    "Kolhapur has a railway station and a small airport; Pune is about four hours by road.",
+    "The temple is crowded on Fridays and during Navratri.",
+    "Spice levels are high; ask for less if needed.",
+    "Buy chappals from established shops for genuine quality."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Kolhapur?",
+      "a": "Visit Mahalaxmi Temple, tour the New Palace, watch sunset at Rankala Lake, explore Panhala Fort, visit Jyotiba, watch wrestlers train and eat Kolhapuri food."
+    },
+    {
+      "q": "What is Kolhapur famous for?",
+      "a": "The Mahalaxmi Temple, Kolhapuri chappals, spicy mutton curries, wrestling and its royal heritage."
+    },
+    {
+      "q": "How far is Panhala from Kolhapur?",
+      "a": "About 20 km, around 45 minutes by road."
+    },
+    {
+      "q": "How many days are enough for Kolhapur?",
+      "a": "One to two days."
+    },
+    {
+      "q": "When is Kiranotsav at Mahalaxmi Temple?",
+      "a": "On a few days around late January or early February and again in November, when the setting sun's rays fall on the idol."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Mahabaleshwar",
+      "href": "/blog/things-to-do-in-mahabaleshwar",
+      "note": "viewpoints and strawberries"
+    },
+    {
+      "name": "Things to do in Goa",
+      "href": "/blog/things-to-do-in-goa",
+      "note": "about four hours south-west"
+    },
+    {
+      "name": "Tarkarli",
+      "href": "/blog/tarkarli-travel-guide",
+      "note": "beaches and Sindhudurg Fort"
+    }
+  ],
+  "styles": [
+    "spiritual-tours",
+    "family-holidays"
+  ],
+  "metaDescription": "Things to do in Kolhapur: the Mahalaxmi (Ambabai) Temple, New Palace and its museum, Rankala Lake, Panhala Fort, Jyotiba Temple, the Town Hall Museum, wrestling at a talim and more."
+}

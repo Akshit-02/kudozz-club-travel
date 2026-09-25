@@ -1,0 +1,289 @@
+{
+  "slug": "things-to-do-in-agartala",
+  "destination": "Agartala",
+  "guide": "agartala-travel-guide",
+  "type": "city",
+  "title": "Things to Do in Agartala: Palaces, Temples, the Border Ceremony & Neermahal",
+  "seoTitle": "Things to Do in Agartala: Palaces & Day Trips | Kudozz Club",
+  "description": "Things to do in Agartala: Ujjayanta Palace and the State Museum, Heritage Park, the Akhaura border retreat ceremony, Chaturdash Devata and Jagannath Bari temples, Sepahijala Wildlife Sanctuary, Neermahal lake palace, Tripura Sundari Temple and the Unakoti rock carvings.",
+  "dek": "Tripura's calm capital near the Bangladesh border, built around a royal palace, with a lake palace, ancient rock carvings and a Shakti temple within reach.",
+  "primaryKeyword": "things to do in Agartala",
+  "secondaryKeywords": [
+    "places to visit in Agartala",
+    "Ujjayanta Palace",
+    "Neermahal",
+    "Akhaura border ceremony",
+    "Tripura Sundari Temple",
+    "Unakoti",
+    "Tripura tourism"
+  ],
+  "searchIntent": "Travellers spending two to four days in Agartala and Tripura, combining city sights with Neermahal, Udaipur and Unakoti.",
+  "tags": [
+    "Agartala",
+    "Tripura",
+    "City",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/tripura/agartala/ujjayanta-palace-agartala.webp",
+    "alt": "White Ujjayanta Palace and gardens, Agartala",
+    "caption": "Ujjayanta Palace"
+  },
+  "intro": [
+    "Agartala, the capital of Tripura, lies on the Haora river just a few kilometres from the Bangladesh border. It was the capital of the Manikya kings, one of the oldest ruling dynasties in India, who built palaces and temples here and across the state. Rabindranath Tagore had close ties with the royal family.",
+    "The things to do in Agartala include the white Ujjayanta Palace and its museum, temples old and new, parks and the flag-lowering ceremony at the Akhaura border. Day trips lead to Neermahal, a palace in a lake; the Tripura Sundari Temple at Udaipur; Sepahijala's wildlife; and the remarkable rock carvings of Unakoti.",
+    "Two days covers the city; three to four with day trips. October to March is the best time."
+  ],
+  "quickAnswer": [
+    "Visit Ujjayanta Palace and the Tripura State Museum",
+    "Walk through Heritage Park",
+    "Watch the Akhaura border retreat ceremony",
+    "See the Chaturdash Devata Temple",
+    "Visit Jagannath Bari and Laxmi Narayan Bari",
+    "See Neermahal, the lake palace",
+    "Visit Tripura Sundari Temple in Udaipur",
+    "See clouded leopards and langurs at Sepahijala",
+    "See the rock carvings of Unakoti"
+  ],
+  "sections": [
+    {
+      "id": "city",
+      "heading": "In the city",
+      "items": [
+        {
+          "name": "Visit Ujjayanta Palace",
+          "image": {
+            "src": "/images/blogs/tripura/ujjayanta-palace/ujjayanta-palace-view.webp",
+            "alt": "Ujjayanta Palace façade and pools",
+            "caption": "Ujjayanta Palace"
+          },
+          "body": [
+            "Ujjayanta Palace, completed in 1901 under Maharaja Radha Kishore Manikya, is a white Indo-Saracenic palace with domes, Mughal-style gardens and pools. It now houses the Tripura State Museum, with galleries on the state's history, tribal cultures, royal artefacts and art. It is lit up in the evening."
+          ],
+          "facts": {
+            "Time needed": "2 hours",
+            "Good to know": "Closed on Mondays",
+            "Good for": "Everyone"
+          }
+        },
+        {
+          "name": "Walk through Heritage Park",
+          "image": {
+            "src": "/images/blogs/tripura/agartala/heritage-park-agartala.webp",
+            "alt": "Heritage Park, Agartala",
+            "caption": "Heritage Park"
+          },
+          "body": [
+            "Heritage Park has miniature models of Tripura's major monuments, such as Neermahal and Unakoti, set in gardens. It is a good introduction for families before visiting the real sites."
+          ],
+          "facts": {
+            "Time needed": "1 hour",
+            "Good for": "Families"
+          }
+        },
+        {
+          "name": "Watch the Akhaura border ceremony",
+          "body": [
+            "At the Agartala–Akhaura integrated check post, about 3 km from the city centre, the Border Security Force and Bangladesh's border guards hold a flag-lowering retreat ceremony in the late afternoon, similar to but smaller than the Wagah ceremony. Carry ID."
+          ],
+          "facts": {
+            "Best time": "Late afternoon"
+          }
+        },
+        {
+          "name": "Visit the city temples",
+          "body": [
+            "Jagannath Bari, near the palace, is an ISKCON-run temple beside a lake. Laxmi Narayan Bari was built by the royal family. The Chaturdash Devata Temple at Old Agartala, dedicated to fourteen deities, hosts the Kharchi Puja in July."
+          ],
+          "facts": {
+            "Best time": "July for Kharchi Puja"
+          }
+        },
+        {
+          "name": "See Kunjaban and Pushpabanta palaces",
+          "body": [
+            "Kunjaban Palace, built by the royals and linked with Tagore's visits, now serves as the Governor's residence; part of its gardens may be open. Rabindra Kanan, a park nearby, commemorates the poet's association with Tripura."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day-trips",
+      "heading": "Day trips",
+      "items": [
+        {
+          "name": "See Neermahal",
+          "image": {
+            "src": "/images/blogs/tripura/tripura/neermahal-lake-palace-tripura.webp",
+            "alt": "Neermahal lake palace, Tripura",
+            "caption": "Neermahal"
+          },
+          "body": [
+            "Neermahal, about 55 km from Agartala, is a summer palace built in the 1930s by Maharaja Bir Bikram Kishore Manikya in the middle of Rudrasagar Lake. Boats cross to the palace, which blends Hindu and Mughal styles. A light and sound show runs in the evening, and the Neermahal water festival is held in winter."
+          ],
+          "facts": {
+            "Time needed": "Half a day",
+            "Best time": "October to March"
+          }
+        },
+        {
+          "name": "Visit Tripura Sundari Temple",
+          "image": {
+            "src": "/images/blogs/tripura/tripura-sundari-temple/tripura-sundari-temple-facade.webp",
+            "alt": "Tripura Sundari Temple, Udaipur",
+            "caption": "Tripura Sundari Temple"
+          },
+          "body": [
+            "The Tripura Sundari Temple at Udaipur, about 55 km from Agartala, was built around 1501 and is one of the 51 Shakti Peethas. It stands on a small hill shaped like a tortoise's back, beside the Kalyan Sagar lake with its large turtles. Diwali brings a big fair."
+          ],
+          "links": [
+            {
+              "label": "Udaipur (Tripura) guide",
+              "href": "/blog/udaipur-tripura-travel-guide"
+            }
+          ],
+          "facts": {
+            "Time needed": "2 hours"
+          }
+        },
+        {
+          "name": "Visit Sepahijala Wildlife Sanctuary",
+          "image": {
+            "src": "/images/blogs/tripura/sepahijala/spotted-deer-sepahijala-wildlife-sanctuary.webp",
+            "alt": "Spotted deer at Sepahijala Wildlife Sanctuary",
+            "caption": "Sepahijala"
+          },
+          "body": [
+            "Sepahijala, about 25 km from Agartala, has a small zoo, a clouded leopard enclosure, boating on a lake and forests known for the spectacled (Phayre's) langur and many birds. It is often combined with Neermahal."
+          ],
+          "links": [
+            {
+              "label": "Sepahijala guide",
+              "href": "/blog/sepahijala-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "See the rock carvings of Unakoti",
+          "image": {
+            "src": "/images/blogs/tripura/unakoti/rock-cut-carvings-unakoti.webp",
+            "alt": "Giant rock-cut carvings at Unakoti",
+            "caption": "Unakoti"
+          },
+          "body": [
+            "Unakoti, about 170 km north-east of Agartala, has huge rock-cut reliefs of Shiva and other deities, carved into a forested hillside from roughly the 7th to 9th centuries. The central Shiva head, Unakotishwara Kal Bhairava, is several metres tall. It is a long trip, best with an overnight stay in Kailashahar."
+          ],
+          "links": [
+            {
+              "label": "Unakoti guide",
+              "href": "/blog/unakoti-travel-guide"
+            }
+          ],
+          "facts": {
+            "Time needed": "Full day or overnight"
+          }
+        },
+        {
+          "name": "Visit Jampui Hills",
+          "body": [
+            "Jampui Hills, in north Tripura near the Mizoram border, is a range of Mizo and Reang villages known for orange orchards and views over Bangladesh and Mizoram. The orange festival, held in November, celebrates the harvest. It is a long drive, best with an overnight stay."
+          ],
+          "facts": {
+            "Best time": "November"
+          }
+        },
+        {
+          "name": "See Chabimura's river carvings",
+          "body": [
+            "Chabimura, on the Gomati river near Amarpur, has large rock carvings of Hindu deities on a steep cliff face, seen from a boat. The trip through the jungle-lined river is atmospheric."
+          ],
+          "facts": {
+            "Best time": "October to March"
+          }
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "heading": "Food and shopping",
+      "items": [
+        {
+          "name": "Try Tripuri and Bengali food",
+          "body": [
+            "Tripura's food blends Bengali cooking with Tripuri dishes such as mui borok, made with berma (fermented fish), and bamboo shoot preparations. Fish curries, rice and sweets are everywhere."
+          ]
+        },
+        {
+          "name": "Buy bamboo and cane crafts",
+          "body": [
+            "Tripura is known for its bamboo and cane work and handloom textiles such as the risa, a traditional Tripuri scarf. Government emporiums in Agartala are a reliable place to buy."
+          ],
+          "facts": {
+            "Good for": "Shoppers"
+          }
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Families",
+      "text": "Ujjayanta Palace, Heritage Park, Sepahijala and a boat to Neermahal."
+    },
+    {
+      "who": "Pilgrims",
+      "text": "Tripura Sundari Temple, Chaturdash Devata and Jagannath Bari."
+    },
+    {
+      "who": "History lovers",
+      "text": "Ujjayanta Palace's museum and an overnight trip to Unakoti."
+    }
+  ],
+  "oneDay": "Visit Ujjayanta Palace and the State Museum in the morning, then Jagannath Bari and Heritage Park. After lunch, watch the Akhaura border ceremony in the late afternoon and return to see the palace lit up.",
+  "tips": [
+    "Maharaja Bir Bikram Airport has flights from Kolkata, Guwahati and Delhi; Agartala is also on the rail network.",
+    "No Inner Line Permit is needed for Tripura.",
+    "Most museums close on Mondays.",
+    "October to March is best; summers are humid and the monsoon is heavy."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Agartala?",
+      "a": "Visit Ujjayanta Palace and the State Museum, Heritage Park, the Akhaura border ceremony and the city temples, and take day trips to Neermahal, Tripura Sundari Temple, Sepahijala and Unakoti."
+    },
+    {
+      "q": "How far is Neermahal from Agartala?",
+      "a": "About 55 km, roughly one and a half hours by road."
+    },
+    {
+      "q": "Do I need a permit for Tripura?",
+      "a": "No Inner Line Permit is required for Indian nationals."
+    },
+    {
+      "q": "How many days are enough for Agartala?",
+      "a": "Two days for the city; three to four with day trips."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Unakoti",
+      "href": "/blog/unakoti-travel-guide",
+      "note": "ancient rock carvings"
+    },
+    {
+      "name": "Sepahijala",
+      "href": "/blog/sepahijala-travel-guide",
+      "note": "wildlife and boating"
+    },
+    {
+      "name": "Things to do in Aizawl",
+      "href": "/blog/things-to-do-in-aizawl",
+      "note": "Mizoram's capital"
+    }
+  ],
+  "styles": [
+    "family-holidays",
+    "spiritual-tours"
+  ],
+  "metaDescription": "Things to do in Agartala: Ujjayanta Palace and the State Museum, Heritage Park, the Akhaura border retreat ceremony, Chaturdash Devata and Jagannath Bari temples and more."
+}

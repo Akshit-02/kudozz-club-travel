@@ -1091,7 +1091,7 @@ function shortTitle(fullTitle: string): string {
 const handAuthoredSlugs = new Set(allDestinations.map((d) => d.slug));
 
 const derivedDestinations = blogPosts
-  .filter((post) => !handAuthoredSlugs.has(post.slug))
+  .filter((post) => !handAuthoredSlugs.has(post.slug) && post.category !== "Things to Do")
   .map((post) => ({
     slug: post.slug,
     title: shortTitle(post.title),

@@ -1,0 +1,255 @@
+{
+  "slug": "things-to-do-in-warangal",
+  "destination": "Warangal",
+  "guide": "warangal-travel-guide",
+  "type": "heritage city",
+  "title": "Things to Do in Warangal: Kakatiya Gateways, Ramappa Temple & Forest Lakes",
+  "seoTitle": "Things to Do in Warangal: Ramappa & Kakatiya Sites | Kudozz Club",
+  "description": "Things to do in Warangal: the Warangal Fort and Kakatiya Kala Thoranam gateways, the Thousand Pillar Temple, the UNESCO-listed Ramappa Temple, Bhadrakali Temple and lake, Laknavaram's hanging bridge, Bogatha waterfall, Pakhal Lake and the Medaram Jatara.",
+  "dek": "The old capital of the Kakatiya dynasty in Telangana, known for its carved stone gateways, star-shaped temples and a UNESCO-listed masterpiece in the countryside.",
+  "primaryKeyword": "things to do in Warangal",
+  "secondaryKeywords": [
+    "Warangal Fort",
+    "Thousand Pillar Temple",
+    "Ramappa Temple",
+    "Laknavaram lake",
+    "Bhadrakali Temple Warangal",
+    "Medaram Jatara"
+  ],
+  "searchIntent": "Heritage travellers and weekenders from Hyderabad planning one or two days in Warangal.",
+  "tags": [
+    "Warangal",
+    "Telangana",
+    "Heritage",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/telangana/warangal/ramappa-temple-warangal.webp",
+    "alt": "Ramappa Temple at Palampet near Warangal",
+    "caption": "Ramappa Temple"
+  },
+  "intro": [
+    "Warangal, about 150 km north-east of Hyderabad, was the capital of the Kakatiya dynasty from the 12th to the early 14th century. The Kakatiyas built reservoirs, forts and temples in a distinctive style, with star-shaped plans, black basalt pillars and intricate carvings. Their gateway arch, the Kakatiya Kala Thoranam, is the emblem of Telangana.",
+    "The things to do in Warangal include the ruins of Warangal Fort, the Thousand Pillar Temple in Hanamkonda, the Bhadrakali Temple on its lake, and a trip to the Ramappa Temple, a UNESCO World Heritage Site since 2021. The forests and lakes of Mulugu district, such as Laknavaram and Bogatha waterfall, add nature to the trip.",
+    "One to two days is enough. October to February is the most comfortable time."
+  ],
+  "quickAnswer": [
+    "See the Kakatiya Kala Thoranam at Warangal Fort",
+    "Visit the Thousand Pillar Temple",
+    "See the UNESCO-listed Ramappa Temple",
+    "Visit Bhadrakali Temple and lake",
+    "Walk the hanging bridge at Laknavaram Lake",
+    "See Bogatha waterfall",
+    "Relax at Pakhal Lake",
+    "See the Kush Mahal",
+    "Buy Warangal durries",
+    "Attend the Medaram Jatara"
+  ],
+  "sections": [
+    {
+      "id": "heritage",
+      "heading": "Kakatiya heritage",
+      "items": [
+        {
+          "name": "See Warangal Fort",
+          "image": {
+            "src": "/images/blogs/telangana/warangal/warangal-fort-kakatiya-kala-thoranam-gateway.webp",
+            "alt": "Kakatiya Kala Thoranam gateway at Warangal Fort",
+            "caption": "Kakatiya Kala Thoranam"
+          },
+          "body": [
+            "Warangal Fort, begun in the 13th century, once had concentric walls of earth and stone. Inside, the ruins of a great Shiva temple are marked by four magnificent carved stone gateways, the Kakatiya Kala Thoranam, and scattered sculptures. A sound and light show is held in the evening."
+          ],
+          "facts": {
+            "Time needed": "1.5 hours",
+            "Best time": "Late afternoon"
+          }
+        },
+        {
+          "name": "Visit the Thousand Pillar Temple",
+          "body": [
+            "The Thousand Pillar Temple in Hanamkonda, built in 1163 under King Rudra Deva, is a star-shaped temple dedicated to Shiva, Vishnu and Surya, with finely carved pillars and a large Nandi carved from a single stone.",
+            "The temple has three shrines arranged around a central hall, and the Nandi in front is polished black basalt. Restoration work has reassembled parts of the mandapa."
+          ],
+          "facts": {
+            "Time needed": "1 hour"
+          }
+        },
+        {
+          "name": "See the Ramappa Temple",
+          "body": [
+            "The Ramappa (Rudreswara) Temple at Palampet, about 70 km away, was built in 1213 and is named after its sculptor. Its bracket figures of dancers and mythical beasts, carved in polished black basalt, are among the finest in India. The temple is famous for its roof bricks, which are light enough to float. It was listed by UNESCO in 2021.",
+            "The temple stands near the Ramappa lake, another Kakatiya reservoir, and a small Kameshwara temple and other shrines lie in the same complex. Local guides explain the dancer figures, which are said to reflect the Perini Shivatandavam dance form."
+          ],
+          "facts": {
+            "Time needed": "Half day with travel",
+            "Good for": "History and art lovers"
+          }
+        },
+        {
+          "name": "See the Kush Mahal",
+          "body": [
+            "The Kush Mahal, a later royal hall near the fort built in the 14th century, has a small collection of sculptures."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "temples-lakes",
+      "heading": "Temples and lakes",
+      "items": [
+        {
+          "name": "Visit Bhadrakali Temple",
+          "image": {
+            "src": "/images/blogs/telangana/warangal/bhadrakali-temple-warangal.webp",
+            "alt": "Bhadrakali Temple on its lake, Warangal",
+            "caption": "Bhadrakali Temple"
+          },
+          "body": [
+            "The Bhadrakali Temple, on a hill between Warangal and Hanamkonda, is dedicated to the goddess Kali. It overlooks the Bhadrakali lake and is especially busy during Navratri."
+          ]
+        },
+        {
+          "name": "Walk the hanging bridge at Laknavaram",
+          "body": [
+            "Laknavaram Lake, a Kakatiya-era reservoir about 70 km away in forested hills, has suspension bridges linking small islands, boating and lakeside cottages. It is especially beautiful after the monsoon."
+          ],
+          "facts": {
+            "Best time": "September to February",
+            "Good for": "Families, couples"
+          }
+        },
+        {
+          "name": "See Bogatha waterfall",
+          "body": [
+            "Bogatha waterfall, deep in the forests of Mulugu district, is a wide cascade often called the Niagara of Telangana. It is at its best in and after the monsoon; swimming in the pool is restricted in high flow."
+          ],
+          "facts": {
+            "Best time": "July to November"
+          }
+        },
+        {
+          "name": "Relax at Pakhal Lake",
+          "body": [
+            "Pakhal Lake, another Kakatiya reservoir from the 13th century, lies inside a wildlife sanctuary and is a quiet place for birdwatching."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "heading": "Crafts and festivals",
+      "items": [
+        {
+          "name": "Buy Warangal durries",
+          "body": [
+            "Warangal durries, flat-woven cotton rugs with a GI tag, are made by weavers in Kothawada. Workshops and shops sell them in many colours and patterns."
+          ],
+          "facts": {
+            "Good for": "Shoppers"
+          }
+        },
+        {
+          "name": "Attend the Medaram Jatara",
+          "body": [
+            "The Sammakka Saralamma Jatara at Medaram, held every two years in February, is one of the largest tribal festivals in the world, honouring two Koya women warriors. Millions attend, offering jaggery as bangaram (gold)."
+          ],
+          "facts": {
+            "Best time": "February in Jatara years"
+          }
+        },
+        {
+          "name": "Eat Telangana food",
+          "body": [
+            "Try Telangana dishes such as sarva pindi (a spicy rice-flour pancake), jonna rotte (sorghum flatbread) and spicy chicken and mutton curries."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seasons",
+      "heading": "By season",
+      "items": [
+        {
+          "name": "October to February",
+          "body": [
+            "Pleasant weather for temples and forts, and lakes full after the monsoon."
+          ]
+        },
+        {
+          "name": "March to June",
+          "body": [
+            "Very hot; visit monuments early in the morning or late in the afternoon."
+          ]
+        },
+        {
+          "name": "July to September",
+          "body": [
+            "The monsoon fills the lakes and waterfalls and turns the forests green, a good time for Bogatha and Laknavaram."
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "History lovers",
+      "text": "The fort, the Thousand Pillar Temple and a half day at Ramappa."
+    },
+    {
+      "who": "Families",
+      "text": "Laknavaram's bridges and boating, Bhadrakali Temple and the fort's light show."
+    },
+    {
+      "who": "Weekenders from Hyderabad",
+      "text": "Drive out on Saturday for Warangal's monuments and spend Sunday at Ramappa and Laknavaram."
+    }
+  ],
+  "oneDay": "Visit the Thousand Pillar Temple and Bhadrakali Temple in the morning, then drive to Palampet for the Ramappa Temple. Stop at Laknavaram Lake on the way back, and end at Warangal Fort for the evening light and sound show.",
+  "tips": [
+    "Warangal and Kazipet have railway stations; Hyderabad airport is about three hours away.",
+    "Ramappa and Laknavaram are best combined in one day.",
+    "Carry water and a hat; there is little shade at the fort.",
+    "Dress modestly at temples.",
+    "Start early for Ramappa and Laknavaram; the forest roads are slow."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Warangal?",
+      "a": "See Warangal Fort and the Kakatiya gateways, the Thousand Pillar Temple, the Ramappa Temple and Bhadrakali Temple, walk the bridges at Laknavaram and see Bogatha waterfall."
+    },
+    {
+      "q": "How far is Ramappa Temple from Warangal?",
+      "a": "About 70 km, roughly one and a half hours by road."
+    },
+    {
+      "q": "Is Ramappa Temple a UNESCO site?",
+      "a": "Yes. It was inscribed as a UNESCO World Heritage Site in 2021."
+    },
+    {
+      "q": "How many days are enough for Warangal?",
+      "a": "One to two days."
+    },
+    {
+      "q": "What is the Kakatiya Kala Thoranam?",
+      "a": "It is the carved stone gateway at Warangal Fort built by the Kakatiya dynasty, now the emblem of Telangana."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Hyderabad",
+      "href": "/blog/things-to-do-in-hyderabad",
+      "note": "about three hours away"
+    },
+    {
+      "name": "Bhadrachalam",
+      "href": "/blog/bhadrachalam-travel-guide",
+      "note": "temple town on the Godavari"
+    }
+  ],
+  "styles": [
+    "weekend-getaways",
+    "group-tours"
+  ],
+  "metaDescription": "Things to do in Warangal: the Warangal Fort and Kakatiya Kala Thoranam gateways, the Thousand Pillar Temple, the UNESCO-listed Ramappa Temple, Bhadrakali Temple and lake and more."
+}

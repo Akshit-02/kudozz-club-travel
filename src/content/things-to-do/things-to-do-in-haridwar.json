@@ -1,0 +1,236 @@
+{
+  "slug": "things-to-do-in-haridwar",
+  "destination": "Haridwar",
+  "guide": "haridwar-travel-guide",
+  "type": "pilgrimage city",
+  "title": "Things to Do in Haridwar: Har ki Pauri, Ganga Aarti & Hilltop Temples",
+  "seoTitle": "Things to Do in Haridwar: Aarti, Ghats & Temples | Kudozz Club",
+  "description": "Things to do in Haridwar: the evening Ganga Aarti at Har ki Pauri, a dawn dip, ropeways to Mansa Devi and Chandi Devi, Maya Devi Temple, Bara Bazaar, Rajaji National Park and the start of the Char Dham.",
+  "dek": "One of Hinduism's seven holy cities, where the Ganga enters the plains and every evening thousands gather at Har ki Pauri to float lamps on the river.",
+  "primaryKeyword": "things to do in Haridwar",
+  "secondaryKeywords": [
+    "Har ki Pauri aarti",
+    "places to visit in Haridwar",
+    "Mansa Devi ropeway",
+    "Chandi Devi temple",
+    "Haridwar Rishikesh trip"
+  ],
+  "searchIntent": "Pilgrims and families spending one or two days in Haridwar, often combined with Rishikesh or before the Char Dham Yatra.",
+  "tags": [
+    "Haridwar",
+    "Uttarakhand",
+    "Pilgrimage",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/uttarakhand/haridwar/sunrise-bathing-ghat-har-ki-pauri.webp",
+    "alt": "Pilgrims bathing at Har ki Pauri at sunrise, Haridwar"
+  },
+  "intro": [
+    "Haridwar, in Uttarakhand, is where the Ganga leaves the Shivalik hills and enters the Indo-Gangetic plain. It is one of the seven holiest cities in Hinduism and one of the four sites of the Kumbh Mela, and it is the traditional gateway to the Char Dham pilgrimage in the Garhwal Himalaya.",
+    "The heart of Haridwar is Har ki Pauri, the ghat where Vishnu is believed to have left his footprint. Most things to do here are spiritual: a dip in the Ganga, the evening aarti, and the hilltop temples of Mansa Devi and Chandi Devi. Add a morning in Rajaji National Park and an evening in the bazaar, and one to two days is enough. Rishikesh is 25 km upstream."
+  ],
+  "quickAnswer": [
+    "Watch the evening Ganga Aarti at Har ki Pauri",
+    "Take a dip at Har ki Pauri at dawn",
+    "Ride the ropeway to Mansa Devi Temple",
+    "Take the ropeway to Chandi Devi Temple",
+    "Visit Maya Devi Temple, one of the Shakti Peethas",
+    "Shop and eat in Bara Bazaar and Moti Bazaar",
+    "Go on a jeep safari in Rajaji National Park",
+    "Visit Bharat Mata Mandir and Shantikunj"
+  ],
+  "sections": [
+    {
+      "id": "ghats",
+      "heading": "Har ki Pauri and the ghats",
+      "items": [
+        {
+          "name": "Watch the evening Ganga Aarti",
+          "body": [
+            "Every evening at sunset, priests at Har ki Pauri wave large multi-tiered brass lamps over the river as bells ring and hymns are sung, and thousands of devotees release leaf-boat lamps (diyas) onto the fast-flowing water. It is one of the most powerful sights in India.",
+            "Arrive at least an hour early to get a place on the ghat or the bridges, and keep valuables secure. Be wary of people collecting 'donations' in the crowd without official identification."
+          ],
+          "facts": {
+            "Where": "Har ki Pauri",
+            "Time needed": "1.5 hours",
+            "Best time": "Arrive an hour before sunset",
+            "Good for": "Everyone"
+          }
+        },
+        {
+          "name": "Take a dip at dawn",
+          "body": [
+            "Early morning at Har ki Pauri is calmer, with pilgrims bathing and performing rituals as the sun rises. Chains along the ghat help bathers hold on against the strong current; the water is cold and fast, so be careful and do not go beyond the chains."
+          ],
+          "facts": {
+            "Best time": "Sunrise",
+            "Good to know": "Hold the safety chains; the current is strong"
+          }
+        },
+        {
+          "name": "Walk the other ghats",
+          "body": [
+            "Beyond Har ki Pauri, ghats such as Kushavarta Ghat and Vishnu Ghat are quieter and used for rituals including shraddha (rites for ancestors). The walk along the river is a good way to see daily life in the city."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "temples",
+      "heading": "Temples",
+      "items": [
+        {
+          "name": "Ride up to Mansa Devi Temple",
+          "image": {
+            "src": "/images/blogs/uttarakhand/haridwar/mansa-devi-temple-hilltop-bilwa-parvat.webp",
+            "alt": "Mansa Devi Temple on Bilwa Parvat above Haridwar",
+            "caption": "Mansa Devi Temple"
+          },
+          "body": [
+            "Mansa Devi Temple sits on Bilwa Parvat above the city and is dedicated to the goddess believed to fulfil wishes. A ropeway (cable car) runs up from near the bazaar, or you can walk up the steps in about 30 to 45 minutes. The top gives views over Haridwar and the river."
+          ],
+          "facts": {
+            "Time needed": "1.5–2 hours with queues",
+            "Good to know": "Queues are long on weekends and festivals"
+          }
+        },
+        {
+          "name": "Take the ropeway to Chandi Devi",
+          "image": {
+            "src": "/images/blogs/uttarakhand/haridwar/chandi-devi-temple-neel-parvat-hilltop.webp",
+            "alt": "Chandi Devi Temple on Neel Parvat, Haridwar",
+            "caption": "Chandi Devi Temple"
+          },
+          "body": [
+            "Chandi Devi Temple is on Neel Parvat, across the river, and is reached by a separate ropeway. Many pilgrims visit both hilltop temples on the same day; combined ropeway tickets are usually available."
+          ],
+          "facts": {
+            "Time needed": "1.5 hours"
+          }
+        },
+        {
+          "name": "Visit Maya Devi Temple",
+          "image": {
+            "src": "/images/blogs/uttarakhand/haridwar/maya-devi-temple-haridwar.webp",
+            "alt": "Maya Devi Temple, Haridwar",
+            "caption": "Maya Devi Temple"
+          },
+          "body": [
+            "Maya Devi, the presiding deity of Haridwar, is honoured in one of the city's oldest temples. It is counted among the Shakti Peethas, where parts of the goddess Sati are believed to have fallen."
+          ],
+          "facts": {
+            "Time needed": "30 minutes"
+          }
+        },
+        {
+          "name": "See Bharat Mata Mandir and Shantikunj",
+          "body": [
+            "Bharat Mata Mandir, a multi-storey temple dedicated to Mother India, has floors devoted to freedom fighters, saints and deities. Shantikunj, the headquarters of the All World Gayatri Pariwar, is a large spiritual centre on the Rishikesh road that welcomes visitors."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "more",
+      "heading": "Bazaars, food and nature",
+      "items": [
+        {
+          "name": "Shop and eat in Bara Bazaar",
+          "body": [
+            "The bazaars near Har ki Pauri sell brass lamps, rudraksha beads, bangles, religious books and Ayurvedic products. Haridwar is vegetarian and alcohol-free; try kachori and aloo sabzi for breakfast, and the famous sweet shops for jalebi and rabri."
+          ],
+          "facts": {
+            "Best time": "Morning and evening"
+          }
+        },
+        {
+          "name": "Go on a safari in Rajaji National Park",
+          "image": {
+            "src": "/images/blogs/uttarakhand/haridwar/spotted-deer-rajaji-national-park.webp",
+            "alt": "Spotted deer in Rajaji National Park near Haridwar",
+            "caption": "Spotted deer, Rajaji National Park"
+          },
+          "body": [
+            "Rajaji National Park, on the edge of Haridwar, protects Shivalik forests that are home to elephants, leopards, deer and many birds. Jeep safaris from the Chilla and other gates run in the morning and afternoon during the open season (usually from mid-November to mid-June)."
+          ],
+          "facts": {
+            "Time needed": "3 hours",
+            "Best time": "Early morning safari",
+            "Good for": "Families, wildlife lovers"
+          }
+        },
+        {
+          "name": "Start the Char Dham or the Kumbh",
+          "body": [
+            "Haridwar is the traditional starting point for the Char Dham Yatra to Yamunotri, Gangotri, Kedarnath and Badrinath. Every 12 years it hosts the Kumbh Mela, with an Ardh Kumbh in between."
+          ],
+          "links": [
+            {
+              "label": "Char Dham Yatra packages",
+              "href": "/packages/char-dham-yatra"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Families",
+      "text": "The ropeways, the aarti and a Rajaji safari make Haridwar engaging for children. Keep a close eye on young children near the fast-flowing river."
+    },
+    {
+      "who": "Pilgrims",
+      "text": "A dawn dip at Har ki Pauri, the three temples of Mansa Devi, Chandi Devi and Maya Devi, and the evening aarti."
+    }
+  ],
+  "oneDay": "Take a dip at Har ki Pauri at sunrise and have breakfast in Bara Bazaar. Ride the ropeways to Mansa Devi and Chandi Devi temples in the morning, and visit Maya Devi Temple after lunch. Rest in the afternoon, then return to Har ki Pauri an hour before sunset for the Ganga Aarti.",
+  "tips": [
+    "Haridwar is vegetarian and alcohol-free.",
+    "The Ganga's current is strong at Har ki Pauri; hold the chains and do not wade out.",
+    "Avoid peak days such as the Kanwar Yatra in the monsoon and major snan dates unless you want to be part of them.",
+    "Haridwar has a major railway station, and Dehradun's Jolly Grant Airport is about 35 km away."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Haridwar?",
+      "a": "Watch the evening Ganga Aarti at Har ki Pauri, take a dawn dip, ride the ropeways to Mansa Devi and Chandi Devi temples, visit Maya Devi Temple, shop in Bara Bazaar and go on a safari in Rajaji National Park."
+    },
+    {
+      "q": "What time is the Ganga Aarti at Har ki Pauri?",
+      "a": "It is held every evening around sunset, so the time changes through the year. Arrive about an hour early to find a good spot."
+    },
+    {
+      "q": "How many days are enough for Haridwar?",
+      "a": "One full day covers Har ki Pauri, the aarti and one or two hilltop temples. Two days allows a Rajaji safari and a more relaxed pace."
+    },
+    {
+      "q": "Can I combine Haridwar and Rishikesh?",
+      "a": "Yes. They are only 25 km apart, and many travellers see Haridwar's aarti on one evening and Rishikesh's on another."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Rishikesh",
+      "href": "/blog/things-to-do-in-rishikesh",
+      "note": "rafting, yoga and a calmer aarti, 25 km upstream"
+    },
+    {
+      "name": "Things to do in Mussoorie",
+      "href": "/blog/things-to-do-in-mussoorie",
+      "note": "the hill station above Dehradun"
+    },
+    {
+      "name": "Char Dham Yatra",
+      "href": "/packages/char-dham-yatra",
+      "note": "the four Himalayan shrines, starting from Haridwar"
+    }
+  ],
+  "styles": [
+    "spiritual-tours",
+    "family-holidays",
+    "weekend-getaways"
+  ],
+  "metaDescription": "Things to do in Haridwar: the evening Ganga Aarti at Har ki Pauri, a dawn dip, ropeways to Mansa Devi and Chandi Devi, Maya Devi Temple, Bara Bazaar and more."
+}

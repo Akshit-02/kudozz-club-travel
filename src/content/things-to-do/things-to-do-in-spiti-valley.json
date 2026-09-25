@@ -1,0 +1,311 @@
+{
+  "slug": "things-to-do-in-spiti-valley",
+  "destination": "Spiti Valley",
+  "guide": "spiti-valley-travel-guide",
+  "type": "region",
+  "title": "Things to Do in Spiti Valley: Monasteries, High Villages & Chandratal",
+  "seoTitle": "Things to Do in Spiti Valley: Monasteries & Lakes | Kudozz Club",
+  "description": "Things to do in Spiti Valley: Key Monastery, Dhankar and Tabo, Chandratal Lake, the high villages of Kibber, Langza, Hikkim and Komic, fossil hunting, Pin Valley, the Chicham bridge, homestays and the snow leopard season.",
+  "dek": "A high cold desert on the Tibetan side of the Himalaya, where thousand-year-old monasteries cling to cliffs and villages sit above 4,000 metres.",
+  "primaryKeyword": "things to do in Spiti Valley",
+  "secondaryKeywords": [
+    "places to visit in Spiti",
+    "Key Monastery",
+    "Chandratal Lake",
+    "Hikkim post office",
+    "Langza fossils",
+    "Spiti road trip",
+    "snow leopard Spiti"
+  ],
+  "searchIntent": "Road-trippers, bikers and adventure travellers planning a seven- to ten-day Spiti circuit and deciding what to see along the route.",
+  "tags": [
+    "Spiti Valley",
+    "Himachal Pradesh",
+    "Road Trip",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/destinations/spiti-valley/key-monastery-tiered-whitewash-spiti.webp",
+    "alt": "Key Monastery rising in tiers on a hill above the Spiti river",
+    "caption": "Key Monastery"
+  },
+  "intro": [
+    "Spiti is a high-altitude valley in the Lahaul and Spiti district of Himachal Pradesh, bordering Tibet. The name is often translated as the middle land, between Tibet and India. It is a cold desert of bare mountains, river terraces and whitewashed villages, and most of it lies between about 3,000 and 4,500 metres.",
+    "Things to do in Spiti revolve around its Buddhist monasteries, some over a thousand years old, its high villages, and the journey itself. Kaza is the main town and base. The valley is reached either from Shimla through Kinnaur, a route that climbs gradually and helps acclimatisation, or from Manali over Kunzum Pass, which is open only in summer.",
+    "Plan at least seven to ten days for a full circuit with acclimatisation. Roads are rough in places, services are basic, and altitude sickness is a real risk if you rush."
+  ],
+  "quickAnswer": [
+    "Visit Key Monastery above Kibber",
+    "See Tabo Monastery, founded in 996",
+    "Walk to Dhankar Monastery and Dhankar Lake",
+    "Camp or walk by Chandratal Lake (summer)",
+    "Visit the high villages of Kibber, Langza, Hikkim and Komic",
+    "Send a postcard from Hikkim's high-altitude post office",
+    "Look for marine fossils around Langza",
+    "Cross the Chicham bridge over a deep gorge",
+    "Explore Pin Valley National Park and Mud village",
+    "Stay in a village homestay"
+  ],
+  "sections": [
+    {
+      "id": "monasteries",
+      "heading": "Monasteries",
+      "items": [
+        {
+          "name": "Visit Key Monastery",
+          "body": [
+            "Key (or Kye) Gompa, near Kaza, is the largest monastery in Spiti and one of its most photographed sights: a jumble of white buildings stacked on a conical hill above the river. It belongs to the Gelug school and houses murals, old scriptures and a community of monks. Visitors can often join morning prayers and share butter tea."
+          ],
+          "facts": {
+            "Time needed": "1.5 hours",
+            "Best time": "Morning prayers",
+            "Good for": "Everyone"
+          }
+        },
+        {
+          "name": "See Tabo Monastery",
+          "body": [
+            "Tabo Monastery, founded in 996, is one of the oldest continuously functioning Buddhist monasteries in the Himalaya. From outside it looks like a set of plain mud buildings; inside, its dim halls hold remarkable murals and clay sculptures. Photography is not allowed in the old temples, and a torch helps. Caves on the hillside above were once used for meditation."
+          ],
+          "facts": {
+            "Time needed": "1.5–2 hours",
+            "Good for": "History and art lovers"
+          }
+        },
+        {
+          "name": "Walk to Dhankar Monastery and lake",
+          "image": {
+            "src": "/images/destinations/spiti-valley/dhankar-monastery-cliff-spiti.webp",
+            "alt": "Dhankar Monastery perched on a cliff above the Spiti and Pin rivers",
+            "caption": "Dhankar Monastery"
+          },
+          "body": [
+            "Dhankar, the old capital of Spiti, has a monastery perched on a crumbling spur above the meeting of the Spiti and Pin rivers. A newer monastery sits below. A steep walk of about an hour from the village leads to Dhankar Lake, a small lake with views of the Manirang peaks."
+          ],
+          "facts": {
+            "Time needed": "Half a day",
+            "Good for": "Walkers, photographers"
+          }
+        },
+        {
+          "name": "See the Kaza monasteries",
+          "image": {
+            "src": "/images/destinations/spiti-valley/sakya-tangyud-monastery-kaza-spiti.webp",
+            "alt": "Sakya Tangyud Monastery in Kaza, Spiti",
+            "caption": "Sakya Tangyud Monastery, Kaza"
+          },
+          "body": [
+            "Kaza has the colourful Sakya Tangyud Monastery and a small market with cafés, a few shops and a petrol pump, one of the few in the valley. It is the natural base for day trips to the high villages."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "villages",
+      "heading": "High villages",
+      "items": [
+        {
+          "name": "Visit Kibber",
+          "image": {
+            "src": "/images/destinations/spiti-valley/kibber-village-whitewashed-houses-spiti.webp",
+            "alt": "Whitewashed houses of Kibber village in Spiti",
+            "caption": "Kibber village"
+          },
+          "body": [
+            "Kibber, at about 4,200 metres, is one of the highest villages in the region connected by road. It lies next to the Kibber Wildlife Sanctuary, and in winter, local guides run snow leopard tracking trips from here. The Chicham bridge, spanning a deep gorge, is a short drive away and connects Kibber with Chicham village."
+          ],
+          "facts": {
+            "Best time": "June to September; January to March for snow leopard trips",
+            "Good for": "Wildlife lovers, road-trippers"
+          }
+        },
+        {
+          "name": "See Langza and its fossils",
+          "image": {
+            "src": "/images/destinations/spiti-valley/langza-buddha-statue-fossil-village-spiti.webp",
+            "alt": "Buddha statue above Langza village, Spiti",
+            "caption": "The Buddha statue at Langza"
+          },
+          "body": [
+            "Langza is known for a large Buddha statue overlooking the valley and for the marine fossils found in its soil, a reminder that this land lay under the Tethys Sea before the Himalaya rose. Fossils should be looked at and photographed, not taken away; selling or removing them harms the site."
+          ],
+          "facts": {
+            "Time needed": "1–2 hours",
+            "Good to know": "Do not buy or remove fossils"
+          }
+        },
+        {
+          "name": "Post a card from Hikkim",
+          "body": [
+            "Hikkim, at over 4,400 metres, has a post office often described as the highest in the world. Sending a postcard home from here is a favourite ritual. Komic, nearby, is one of the highest villages with a motorable road and has an old monastery."
+          ],
+          "facts": {
+            "Good to know": "Post office hours vary; go in the late morning"
+          }
+        },
+        {
+          "name": "Stay in a homestay",
+          "body": [
+            "Staying with a family in Langza, Kibber, Demul or another village is one of the best things to do in Spiti. You eat home-cooked thukpa and tsampa, see how people live through the harsh year, and support local incomes directly. Many village homestays are organised through local cooperatives."
+          ],
+          "facts": {
+            "Good for": "Slow travellers, solo travellers"
+          }
+        }
+      ]
+    },
+    {
+      "id": "lakes-nature",
+      "heading": "Lakes, valleys and wildlife",
+      "items": [
+        {
+          "name": "See Chandratal Lake",
+          "image": {
+            "src": "/images/destinations/spiti-valley/chandratal-lake-turquoise-mountains-spiti.webp",
+            "alt": "Turquoise Chandratal Lake surrounded by bare mountains",
+            "caption": "Chandratal Lake"
+          },
+          "body": [
+            "Chandratal, the moon lake, lies at about 4,300 metres near Kunzum Pass on the Lahaul side of Spiti. Its colour shifts from blue to green through the day. Camps are set up a few kilometres away, and you walk the last stretch to the lake. It is reachable only from about June to October, when the roads are open."
+          ],
+          "facts": {
+            "Best time": "June to September",
+            "Good for": "Everyone",
+            "Good to know": "Very cold at night even in summer"
+          }
+        },
+        {
+          "name": "Explore Pin Valley",
+          "body": [
+            "Pin Valley National Park, south of the Spiti river, protects a greener side valley that is home to the Siberian ibex and snow leopard. Mud village, at the road's end, is the start of treks to Bhaba Pass and Pin Parvati Pass, and has simple homestays. Kungri monastery lies on the way."
+          ],
+          "facts": {
+            "Good for": "Trekkers, wildlife lovers"
+          }
+        },
+        {
+          "name": "Look for snow leopards in winter",
+          "body": [
+            "From January to March, local guides in Kibber and nearby villages run snow leopard expeditions. Conditions are extreme, with temperatures well below freezing, but sightings are possible. Only go with experienced local operators and prepare properly for the cold."
+          ],
+          "facts": {
+            "Best time": "January to March",
+            "Good for": "Experienced wildlife travellers"
+          }
+        },
+        {
+          "name": "Stargaze",
+          "body": [
+            "With dry air, high altitude and almost no light pollution, Spiti has some of the darkest night skies in India. Moonless nights in summer and autumn are best, and several homestays and camps offer telescope sessions."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "route",
+      "heading": "Along the Kinnaur route",
+      "items": [
+        {
+          "name": "Stop at Nako Lake",
+          "body": [
+            "Nako, a village on the Kinnaur side at about 3,600 metres, has a small lake ringed by willows and poplars, old monastery buildings and a good choice of homestays. It is a natural acclimatisation stop before Tabo."
+          ],
+          "facts": {
+            "Good for": "Road-trippers, photographers"
+          }
+        },
+        {
+          "name": "See the Gue mummy",
+          "body": [
+            "Gue, a village near Sumdo, holds a naturally mummified monk in a small shrine, believed to be around 500 years old. It is a short detour on the way to Tabo and is treated with reverence by locals."
+          ],
+          "facts": {
+            "Time needed": "45 minutes including detour"
+          }
+        },
+        {
+          "name": "Drive the Kaza–Losar road and Kunzum Pass",
+          "body": [
+            "From Kaza the road west passes Losar, the last village before Kunzum Pass at about 4,550 metres, where travellers circle the small Kunzum Mata shrine before crossing into Lahaul. The views of the Bara Shigri glacier area are among the best on the route."
+          ],
+          "facts": {
+            "Best time": "June to October",
+            "Good to know": "Road opens only when snow is cleared"
+          }
+        },
+        {
+          "name": "Catch a monastery festival",
+          "body": [
+            "Several Spiti monasteries hold festivals with masked cham dances, including Key in summer and Tabo in autumn, and the Ladarcha fair in Kaza has long been a meeting point for traders and villagers. Dates follow the lunar calendar; ask locally."
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Road-trippers and bikers",
+      "text": "Enter from Shimla via Kinnaur for gradual acclimatisation and exit over Kunzum to Manali, with nights at Kalpa, Tabo, Kaza and Chandratal."
+    },
+    {
+      "who": "First-time high-altitude travellers",
+      "text": "Go slowly, drink water, avoid alcohol for the first days and do not go straight from Manali to Kaza in one day."
+    },
+    {
+      "who": "Culture seekers",
+      "text": "Spend time in Tabo and Key, stay in village homestays and ask your hosts about local festivals."
+    }
+  ],
+  "oneDay": "From Kaza, drive to Key Monastery for morning prayers, then continue to Kibber and the Chicham bridge. After lunch, drive to Langza for the Buddha statue and fossil fields, Hikkim for a postcard, and Komic before returning to Kaza by evening.",
+  "tips": [
+    "Acclimatise: the Shimla–Kinnaur route helps; plan rest days, and learn the signs of altitude sickness.",
+    "Fuel is available at a few points only, including Kaza; fill up whenever you can.",
+    "Network coverage is limited; BSNL and Jio work in some places. Carry cash.",
+    "Foreign nationals may need an Inner Line Permit for parts of the route near the border; check current rules."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Spiti Valley?",
+      "a": "Visit Key, Tabo and Dhankar monasteries, see Chandratal Lake, explore the high villages of Kibber, Langza, Hikkim and Komic, stay in a homestay, cross the Chicham bridge and explore Pin Valley."
+    },
+    {
+      "q": "How many days do I need for Spiti Valley?",
+      "a": "Seven to ten days for a full circuit with acclimatisation stops."
+    },
+    {
+      "q": "When is the best time to visit Spiti?",
+      "a": "June to September, when both the Kinnaur and Kunzum routes are usually open and Chandratal is accessible. Winter trips via Kinnaur are possible but only for well-prepared travellers."
+    },
+    {
+      "q": "Is Chandratal Lake open all year?",
+      "a": "No. It is usually accessible from about June to October, when the roads over Kunzum are open."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Kinnaur",
+      "href": "/blog/kinnaur-travel-guide",
+      "note": "the approach from Shimla, with Kalpa and Nako"
+    },
+    {
+      "name": "Chitkul",
+      "href": "/blog/chitkul-travel-guide",
+      "note": "the last village on the Baspa river"
+    },
+    {
+      "name": "Things to do in Manali",
+      "href": "/blog/things-to-do-in-manali",
+      "note": "the exit over Kunzum and Atal Tunnel"
+    },
+    {
+      "name": "Things to do in Ladakh",
+      "href": "/blog/things-to-do-in-ladakh",
+      "note": "another high desert further north"
+    }
+  ],
+  "styles": [
+    "adventure-tours",
+    "group-tours"
+  ],
+  "metaDescription": "Things to do in Spiti Valley: Key Monastery, Dhankar and Tabo, Chandratal Lake, the high villages of Kibber, Langza, Hikkim and Komic, fossil hunting, Pin Valley and more."
+}

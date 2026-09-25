@@ -1,0 +1,303 @@
+{
+  "slug": "things-to-do-in-patna",
+  "destination": "Patna",
+  "guide": "patna-travel-guide",
+  "type": "city",
+  "title": "Things to Do in Patna: Bihar Museum, Golghar, Takht Sri Patna Sahib & the Ganga",
+  "seoTitle": "Things to Do in Patna: Museums, Heritage & Ghats | Kudozz Club",
+  "description": "Things to do in Patna: the Bihar Museum and Patna Museum, Golghar and its view, Takht Sri Patna Sahib, the Mauryan ruins of Kumhrar and Agam Kuan, the Ganga aarti at Gandhi Ghat, the Khuda Bakhsh Library, Buddha Smriti Park, Chhath Puja, litti chokha, and trips to Vaishali and Nalanda.",
+  "dek": "One of the oldest continuously inhabited cities in the world, the Pataliputra of the Mauryas and Guptas, on the banks of the Ganga.",
+  "primaryKeyword": "things to do in Patna",
+  "secondaryKeywords": [
+    "places to visit in Patna",
+    "Bihar Museum",
+    "Golghar",
+    "Takht Sri Patna Sahib",
+    "Kumhrar",
+    "Patna Chhath Puja",
+    "Patna day trips"
+  ],
+  "searchIntent": "Travellers spending one or two days in Patna, often as a gateway to Bodh Gaya, Rajgir, Nalanda and Vaishali.",
+  "tags": [
+    "Patna",
+    "Bihar",
+    "City",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/bihar/patna/golghar-patna-2.webp",
+    "alt": "Golghar granary, Patna",
+    "caption": "Golghar"
+  },
+  "intro": [
+    "Patna, on the south bank of the Ganga, was Pataliputra, capital of the Mauryan Empire under Chandragupta Maurya and Ashoka and later of the Gupta Empire. Megasthenes, the Greek ambassador, described its wooden walls in the 4th century BCE. It is also the birthplace of Guru Gobind Singh, the tenth Sikh Guru.",
+    "The things to do in Patna include the outstanding Bihar Museum, the old Patna Museum, the beehive-shaped Golghar granary, Takht Sri Patna Sahib, the Mauryan ruins at Kumhrar, evening aarti on the Ganga, and the Khuda Bakhsh Oriental Library. Chhath Puja, in October or November, transforms the ghats. Vaishali and Nalanda are easy day trips.",
+    "One to two days is enough. October to March is the most comfortable time."
+  ],
+  "quickAnswer": [
+    "Explore the Bihar Museum",
+    "See the Didarganj Yakshi and Patna Museum",
+    "Climb Golghar for the view",
+    "Visit Takht Sri Patna Sahib",
+    "See the Mauryan ruins at Kumhrar",
+    "See Agam Kuan",
+    "Watch the Ganga aarti at Gandhi Ghat",
+    "Visit the Khuda Bakhsh Library",
+    "Walk in Buddha Smriti Park",
+    "Eat litti chokha"
+  ],
+  "sections": [
+    {
+      "id": "museums",
+      "heading": "Museums",
+      "items": [
+        {
+          "name": "Explore the Bihar Museum",
+          "body": [
+            "The Bihar Museum, opened in 2015 in a striking modern building, is one of India's best museums, with galleries on the region's history from prehistory to the Mauryan, Gupta and Pala periods, Buddhist and Jain art, and Bihar's folk traditions. It is closed on Mondays."
+          ],
+          "facts": {
+            "Time needed": "3 hours",
+            "Good for": "Everyone"
+          }
+        },
+        {
+          "name": "See the Patna Museum",
+          "body": [
+            "The Patna Museum, in an Indo-Saracenic building from 1917, has fine stone and bronze sculptures, a fossil tree and, famously, a casket said to contain relics of the Buddha. The Didarganj Yakshi, a polished Mauryan-era statue, is now displayed at the Bihar Museum."
+          ]
+        },
+        {
+          "name": "Visit the Khuda Bakhsh Library",
+          "body": [
+            "The Khuda Bakhsh Oriental Library, opened in 1891, holds rare Arabic and Persian manuscripts, Mughal paintings and a manuscript said to have been in Emperor Akbar's collection."
+          ],
+          "facts": {
+            "Good for": "History lovers"
+          }
+        }
+      ]
+    },
+    {
+      "id": "heritage",
+      "heading": "Heritage and faith",
+      "items": [
+        {
+          "name": "Climb Golghar",
+          "body": [
+            "Golghar, built in 1786 as a granary after a famine, is a beehive-shaped building with two spiral staircases winding around the outside to the top. The view over the city and the Ganga is excellent, and a light and sound show is held in the evening."
+          ],
+          "facts": {
+            "Best time": "Late afternoon"
+          }
+        },
+        {
+          "name": "Visit Takht Sri Patna Sahib",
+          "body": [
+            "Takht Sri Patna Sahib (Harmandir Sahib), in the old city, marks the birthplace of Guru Gobind Singh in 1666 and is one of the five Takhts, or seats of authority, in Sikhism. The gurudwara has a museum and serves langar. Cover your head and remove your shoes."
+          ],
+          "image": {
+            "src": "/images/blogs/bihar/patna/takht-sri-patna-sahib-2.webp",
+            "alt": "Takht Sri Patna Sahib",
+            "caption": "Takht Sri Patna Sahib"
+          },
+          "facts": {
+            "Time needed": "1 hour"
+          }
+        },
+        {
+          "name": "See the ruins at Kumhrar",
+          "body": [
+            "Kumhrar, in the south of the city, has the excavated remains of a Mauryan pillared hall from around the 3rd century BCE, part of ancient Pataliputra, in a quiet park."
+          ],
+          "image": {
+            "src": "/images/blogs/bihar/patna/kumhrar-patna.webp",
+            "alt": "Mauryan ruins at Kumhrar, Patna",
+            "caption": "Kumhrar"
+          }
+        },
+        {
+          "name": "See Agam Kuan",
+          "body": [
+            "Agam Kuan, an ancient well linked in legend to Emperor Ashoka, stands near a Sitala Devi temple."
+          ]
+        },
+        {
+          "name": "Visit Mahavir Mandir and Patan Devi",
+          "body": [
+            "Mahavir Mandir, a Hanuman temple near the railway station, is one of the busiest temples in Bihar, known for its naivedyam laddus. Patan Devi, in the old city, is an important Shakti shrine."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "river",
+      "heading": "The Ganga and parks",
+      "items": [
+        {
+          "name": "Watch the aarti at Gandhi Ghat",
+          "body": [
+            "Gandhi Ghat, where some of Gandhi's ashes were immersed, holds a Ganga aarti on weekend evenings. Boat rides on the Ganga are available from nearby ghats."
+          ],
+          "facts": {
+            "Best time": "Evening"
+          }
+        },
+        {
+          "name": "Walk in Buddha Smriti Park",
+          "body": [
+            "Buddha Smriti Park, built for the 2,554th birth anniversary of the Buddha, has a stupa, a museum, a meditation centre and a sapling of the Bodhi Tree."
+          ]
+        },
+        {
+          "name": "See Gandhi Maidan",
+          "body": [
+            "Gandhi Maidan, the city's great open ground, has a tall statue of Gandhi and has hosted many historic rallies."
+          ]
+        },
+        {
+          "name": "Celebrate Chhath Puja",
+          "body": [
+            "Chhath Puja, dedicated to the sun god, is Bihar's most important festival, held six days after Diwali. Millions gather on the Ganga ghats at sunset and sunrise to make offerings standing in the water."
+          ],
+          "facts": {
+            "Best time": "October or November"
+          }
+        }
+      ]
+    },
+    {
+      "id": "food-trips",
+      "heading": "Food and day trips",
+      "items": [
+        {
+          "name": "Eat litti chokha",
+          "body": [
+            "Litti chokha, baked wheat balls stuffed with roasted gram flour, served with a mash of roasted aubergine, tomato and potato, is Bihar's signature dish. Try khaja, thekua and malpua as sweets."
+          ],
+          "facts": {
+            "Good for": "Food lovers"
+          }
+        },
+        {
+          "name": "Visit Vaishali",
+          "body": [
+            "Vaishali, about 55 km north, is linked to the Buddha's last sermon and the birth of Mahavira, with an Ashokan pillar topped by a lion and ancient stupas."
+          ],
+          "links": [
+            {
+              "label": "Vaishali guide",
+              "href": "/blog/vaishali-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Go to Nalanda and Rajgir",
+          "body": [
+            "Nalanda's ruins and Rajgir's hills are about 90 to 100 km south-east, a full day trip or an overnight stay."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Rajgir",
+              "href": "/blog/things-to-do-in-rajgir"
+            }
+          ]
+        },
+        {
+          "name": "See the Sonepur Mela",
+          "body": [
+            "The Sonepur Mela, held in November across the river at the confluence of the Gandak and the Ganga, is one of Asia's largest traditional fairs."
+          ],
+          "facts": {
+            "Best time": "November"
+          }
+        }
+      ]
+    },
+    {
+      "id": "seasons",
+      "heading": "By season",
+      "items": [
+        {
+          "name": "October to March",
+          "body": [
+            "Pleasant weather; Chhath Puja and the Sonepur Mela in autumn."
+          ]
+        },
+        {
+          "name": "April to June",
+          "body": [
+            "Very hot; visit museums at midday."
+          ]
+        },
+        {
+          "name": "July to September",
+          "body": [
+            "Monsoon rains and a swollen Ganga."
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "History lovers",
+      "text": "The Bihar Museum, Kumhrar, the Khuda Bakhsh Library and a trip to Vaishali."
+    },
+    {
+      "who": "Pilgrims",
+      "text": "Takht Sri Patna Sahib, Mahavir Mandir and the Ganga aarti."
+    },
+    {
+      "who": "Families",
+      "text": "The Bihar Museum, Golghar, the zoo and Eco Park."
+    }
+  ],
+  "oneDay": "Spend the morning at the Bihar Museum, then visit Takht Sri Patna Sahib in the old city. Climb Golghar in the late afternoon and end with the Ganga aarti at Gandhi Ghat.",
+  "tips": [
+    "Patna has an airport and major railway junctions.",
+    "Bihar is a dry state; alcohol is prohibited.",
+    "Traffic in the old city is heavy; allow extra time.",
+    "The Bihar Museum closes on Mondays."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Patna?",
+      "a": "Explore the Bihar Museum and Patna Museum, climb Golghar, visit Takht Sri Patna Sahib, see Kumhrar and Agam Kuan, watch the Ganga aarti, visit the Khuda Bakhsh Library and eat litti chokha."
+    },
+    {
+      "q": "How many days are enough for Patna?",
+      "a": "One to two days."
+    },
+    {
+      "q": "When is Chhath Puja?",
+      "a": "Six days after Diwali, in October or November."
+    },
+    {
+      "q": "What is the best time to visit Patna?",
+      "a": "October to March."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Vaishali",
+      "href": "/blog/vaishali-travel-guide",
+      "note": "Ashokan pillar and stupas"
+    },
+    {
+      "name": "Things to do in Rajgir",
+      "href": "/blog/things-to-do-in-rajgir",
+      "note": "hills and Nalanda"
+    },
+    {
+      "name": "Things to do in Bodh Gaya",
+      "href": "/blog/things-to-do-in-bodh-gaya",
+      "note": "the Mahabodhi Temple"
+    }
+  ],
+  "styles": [
+    "spiritual-tours",
+    "family-holidays"
+  ],
+  "metaDescription": "Things to do in Patna: the Bihar Museum and Patna Museum, Golghar and its view, Takht Sri Patna Sahib, the Mauryan ruins of Kumhrar and Agam Kuan and more."
+}

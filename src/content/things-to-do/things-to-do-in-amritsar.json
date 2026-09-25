@@ -1,0 +1,327 @@
+{
+  "slug": "things-to-do-in-amritsar",
+  "destination": "Amritsar",
+  "guide": "amritsar-travel-guide",
+  "type": "city",
+  "title": "Things to Do in Amritsar: The Golden Temple, Wagah Border & Punjabi Food",
+  "seoTitle": "Things to Do in Amritsar: Golden Temple & More | Kudozz Club",
+  "description": "Things to do in Amritsar: the Golden Temple at dawn and night, the langar, Jallianwala Bagh, the Partition Museum, the Wagah–Attari ceremony, Gobindgarh Fort, Ram Bagh, Durgiana Temple, the heritage street and kulchas, lassi and Amritsari fish.",
+  "dek": "The spiritual centre of Sikhism, built around a golden shrine in a pool of water, where history, faith and some of India's best food meet.",
+  "primaryKeyword": "things to do in Amritsar",
+  "secondaryKeywords": [
+    "places to visit in Amritsar",
+    "Golden Temple",
+    "Wagah border ceremony",
+    "Partition Museum",
+    "Jallianwala Bagh",
+    "Amritsar food",
+    "Golden Temple palki ceremony"
+  ],
+  "searchIntent": "Pilgrims, families and travellers planning one to three days in Amritsar, usually timed around the Golden Temple and the Wagah ceremony.",
+  "tags": [
+    "Amritsar",
+    "Punjab",
+    "Pilgrimage",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/punjab/golden-temple/golden-temple-2.webp",
+    "alt": "The Golden Temple and its sarovar, Amritsar",
+    "caption": "The Golden Temple"
+  },
+  "intro": [
+    "Amritsar, in Punjab near the Pakistan border, was founded in the 16th century around a sacred pool by the fourth Sikh Guru, Guru Ram Das. The Harmandir Sahib, or Golden Temple, built in the middle of that pool, is the holiest shrine of Sikhism and one of the most visited places in India. Its upper storeys were covered in gold under Maharaja Ranjit Singh in the early 19th century.",
+    "The best things to do in Amritsar start at the Golden Temple, ideally more than once: at dawn, during the day for the langar and at night for the closing ceremony. Around it are Jallianwala Bagh, the Partition Museum and the old city's lanes. In the late afternoon, the flag-lowering ceremony at the Attari–Wagah border draws crowds. And the food, from kulchas to lassi, is reason enough to come.",
+    "Two days is ideal. October to March is the most comfortable time; summers are very hot."
+  ],
+  "quickAnswer": [
+    "Visit the Golden Temple at dawn and at night",
+    "Eat at the langar and volunteer in the kitchen",
+    "Watch the Palki Sahib ceremony",
+    "See Jallianwala Bagh",
+    "Visit the Partition Museum",
+    "Watch the Attari–Wagah border ceremony",
+    "Explore Gobindgarh Fort",
+    "See Ram Bagh and the Maharaja Ranjit Singh Panorama",
+    "Visit Durgiana Temple",
+    "Eat Amritsari kulcha, lassi and fish"
+  ],
+  "sections": [
+    {
+      "id": "golden-temple",
+      "heading": "The Golden Temple",
+      "items": [
+        {
+          "name": "Visit the Golden Temple at different times",
+          "body": [
+            "The Harmandir Sahib is open around the clock to people of all faiths. Walk the marble parikrama around the sarovar, cross the causeway to the golden shrine and listen to continuous gurbani kirtan. Dawn is calm and luminous, midday is busy and festive, and at night the gold glows over the water.",
+            "Cover your head (scarves are provided), remove your shoes and socks at the shoe counters, wash your feet at the entrance and avoid tobacco and alcohol."
+          ],
+          "links": [
+            {
+              "label": "Golden Temple guide",
+              "href": "/blog/golden-temple-travel-guide"
+            }
+          ],
+          "facts": {
+            "Time needed": "2–3 hours per visit",
+            "Best time": "Pre-dawn and late evening",
+            "Good for": "Everyone"
+          }
+        },
+        {
+          "name": "Eat at the langar",
+          "image": {
+            "src": "/images/blogs/punjab/golden-temple/langar-golden-temple.webp",
+            "alt": "Rows of people eating at the Golden Temple langar",
+            "caption": "The langar"
+          },
+          "body": [
+            "The Guru Ka Langar serves free vegetarian meals to tens of thousands of people every day, all seated together on the floor regardless of religion or status. The kitchens are run largely by volunteers. You can join to help roll rotis, peel vegetables or wash plates, a humbling and memorable experience."
+          ],
+          "facts": {
+            "Good for": "Everyone",
+            "Good to know": "Free; volunteers welcome"
+          }
+        },
+        {
+          "name": "Watch the Palki Sahib ceremony",
+          "body": [
+            "Every night, the Guru Granth Sahib is carried in a palanquin from the Harmandir Sahib to the Akal Takht in the Sukhasan ceremony, with devotees taking turns to carry the palki. It returns in the early morning Prakash ceremony. Timings change with the season; ask at the information office."
+          ],
+          "facts": {
+            "Best time": "Late night and pre-dawn"
+          }
+        },
+        {
+          "name": "See the Akal Takht and the museum",
+          "image": {
+            "src": "/images/blogs/punjab/golden-temple/akal-takht-golden-temple.webp",
+            "alt": "Akal Takht facing the Golden Temple",
+            "caption": "Akal Takht"
+          },
+          "body": [
+            "The Akal Takht, facing the Harmandir Sahib, is the highest seat of temporal authority in Sikhism. The Central Sikh Museum in the complex has paintings and artefacts from Sikh history."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "heading": "History",
+      "items": [
+        {
+          "name": "See Jallianwala Bagh",
+          "image": {
+            "src": "/images/blogs/punjab/amritsar/jallianwala-bagh-amritsar-2.webp",
+            "alt": "Memorial at Jallianwala Bagh, Amritsar",
+            "caption": "Jallianwala Bagh"
+          },
+          "body": [
+            "Jallianwala Bagh, a short walk from the Golden Temple, is where British troops under General Dyer fired on an unarmed crowd on 13 April 1919, killing hundreds. The memorial garden preserves bullet marks on the walls and the well into which people jumped. Galleries tell the story of the massacre."
+          ],
+          "facts": {
+            "Time needed": "1 hour"
+          }
+        },
+        {
+          "name": "Visit the Partition Museum",
+          "image": {
+            "src": "/images/blogs/punjab/amritsar/partition-museum-amritsar-2.webp",
+            "alt": "Partition Museum in the Town Hall, Amritsar",
+            "caption": "Partition Museum"
+          },
+          "body": [
+            "The Partition Museum, opened in 2017 in the restored Town Hall, tells the story of the 1947 Partition of India through oral histories, letters, photographs and objects donated by families. It is deeply moving; allow at least two hours. It is closed on Mondays."
+          ],
+          "facts": {
+            "Time needed": "2 hours",
+            "Good to know": "Closed on Mondays"
+          }
+        },
+        {
+          "name": "Explore Gobindgarh Fort",
+          "body": [
+            "Gobindgarh Fort, strengthened by Maharaja Ranjit Singh, was used by the army for decades and has been opened to the public as a heritage attraction with museums, performances and a light show in the evening."
+          ],
+          "facts": {
+            "Time needed": "2 hours"
+          }
+        },
+        {
+          "name": "See Ram Bagh and the Panorama",
+          "body": [
+            "Ram Bagh was the summer palace garden of Maharaja Ranjit Singh. The Maharaja Ranjit Singh Panorama nearby uses a large painted panorama to tell the story of his battles and life."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "border-city",
+      "heading": "The border, temples and food",
+      "items": [
+        {
+          "name": "Watch the Attari–Wagah ceremony",
+          "image": {
+            "src": "/images/blogs/punjab/amritsar/wagah-border-amritsar-2.webp",
+            "alt": "Crowds at the Attari–Wagah border ceremony",
+            "caption": "Attari–Wagah border ceremony"
+          },
+          "body": [
+            "Every evening before sunset, the Border Security Force and the Pakistan Rangers perform a flag-lowering ceremony at the Attari–Wagah border, about 30 km from Amritsar, with high kicks, stamping and patriotic crowds on both sides. Arrive early to get a good seat, carry ID and do not bring bags."
+          ],
+          "links": [
+            {
+              "label": "Wagah Border guide",
+              "href": "/blog/wagah-border-travel-guide"
+            }
+          ],
+          "facts": {
+            "Time needed": "Half a day including travel",
+            "Best time": "Arrive two hours before sunset",
+            "Good to know": "Carry ID; no bags"
+          }
+        },
+        {
+          "name": "Visit Durgiana Temple",
+          "body": [
+            "The Durgiana Temple, also called the Lakshmi Narayan Temple, is a Hindu temple built in a style similar to the Golden Temple, set in the middle of a tank. It is an important pilgrimage site and peaceful in the evening."
+          ],
+          "facts": {
+            "Time needed": "45 minutes"
+          }
+        },
+        {
+          "name": "Walk the heritage street",
+          "body": [
+            "The pedestrian heritage street leading to the Golden Temple, with its restored façades and statues, links Town Hall to the temple complex. The old city's bazaars around it are full of shops selling phulkari embroidery, juttis and papads."
+          ],
+          "facts": {
+            "Best time": "Evening"
+          }
+        },
+        {
+          "name": "Eat Amritsari food",
+          "body": [
+            "Amritsar is one of India's great food cities. Try Amritsari kulcha (a crisp stuffed bread) with chhole for breakfast, thick lassi, Amritsari fried fish, chicken tikka, and phirni or kulfi for dessert. The dhabas around the old city have served some of these dishes for decades."
+          ],
+          "facts": {
+            "Good for": "Food lovers"
+          }
+        }
+      ]
+    },
+    {
+      "id": "around",
+      "heading": "Around Amritsar and festivals",
+      "items": [
+        {
+          "name": "Visit Tarn Taran Sahib",
+          "body": [
+            "Tarn Taran, about 25 km from Amritsar, was founded by Guru Arjan Dev and has one of the largest sarovars of any gurdwara. It is far quieter than the Golden Temple and makes a peaceful half-day trip."
+          ],
+          "links": [
+            {
+              "label": "Tarn Taran guide",
+              "href": "/blog/tarn-taran-travel-guide"
+            }
+          ],
+          "facts": {
+            "Time needed": "Half a day"
+          }
+        },
+        {
+          "name": "See village life at a living museum",
+          "body": [
+            "Several heritage villages and living museums on the outskirts of Amritsar recreate rural Punjabi life, with mud houses, charpoys, folk music, bhangra and home-style food. They are popular with families and groups; quality varies, so check recent reviews."
+          ],
+          "facts": {
+            "Good for": "Families, groups"
+          }
+        },
+        {
+          "name": "Be there for Gurpurab or Diwali",
+          "body": [
+            "The Golden Temple is especially beautiful on Guru Nanak's birth anniversary (Gurpurab, usually in November) and on Diwali, which Sikhs mark as Bandi Chhor Divas, when the complex is lit with lamps and fireworks. Baisakhi in April is also celebrated with great energy. Expect very large crowds."
+          ],
+          "facts": {
+            "Best time": "Gurpurab, Diwali and Baisakhi"
+          }
+        },
+        {
+          "name": "Visit Khalsa College",
+          "body": [
+            "Khalsa College, founded in 1892, is a striking Indo-Saracenic building on the Grand Trunk Road. Its façade can be seen from the grounds and has appeared in several films."
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Pilgrims",
+      "text": "The Golden Temple at dawn and night, the Palki Sahib ceremony, langar seva and a visit to Tarn Taran Sahib."
+    },
+    {
+      "who": "Families",
+      "text": "Golden Temple, Wagah ceremony and Gobindgarh Fort's shows work well with children."
+    },
+    {
+      "who": "History lovers",
+      "text": "Jallianwala Bagh, the Partition Museum and Gobindgarh Fort together tell a powerful story."
+    }
+  ],
+  "oneDay": "Visit the Golden Temple before dawn and stay for breakfast at the langar. Walk to Jallianwala Bagh and the Partition Museum, then have kulchas for lunch. Drive to the Attari–Wagah border for the evening ceremony and return for the Golden Temple at night.",
+  "tips": [
+    "Amritsar has an international airport and a major railway station with fast trains from Delhi.",
+    "Leave bags and valuables at your hotel on the Wagah trip; bags are not allowed.",
+    "Dress modestly and keep your head covered in gurudwaras.",
+    "Summers are very hot; plan outdoor visits for early morning and evening."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Amritsar?",
+      "a": "Visit the Golden Temple at dawn and night, eat at the langar, see Jallianwala Bagh and the Partition Museum, watch the Wagah border ceremony, explore Gobindgarh Fort and eat Amritsari food."
+    },
+    {
+      "q": "What time is the Wagah border ceremony?",
+      "a": "It takes place every day just before sunset, so the time changes through the year. Arrive about two hours early."
+    },
+    {
+      "q": "How many days are enough for Amritsar?",
+      "a": "Two days is ideal; one full day covers the essentials."
+    },
+    {
+      "q": "Can non-Sikhs visit the Golden Temple?",
+      "a": "Yes. It is open to people of all faiths, 24 hours a day. Cover your head, remove your shoes and follow the etiquette."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Tarn Taran",
+      "href": "/blog/tarn-taran-travel-guide",
+      "note": "a historic gurudwara with a large sarovar"
+    },
+    {
+      "name": "Kapurthala",
+      "href": "/blog/kapurthala-travel-guide",
+      "note": "a French-style palace and Moorish mosque"
+    },
+    {
+      "name": "Things to do in Dharamshala",
+      "href": "/blog/things-to-do-in-dharamshala",
+      "note": "the hills, about five hours away"
+    },
+    {
+      "name": "Things to do in Chandigarh",
+      "href": "/blog/things-to-do-in-chandigarh",
+      "note": "the planned capital"
+    }
+  ],
+  "styles": [
+    "spiritual-tours",
+    "family-holidays",
+    "weekend-getaways"
+  ],
+  "metaDescription": "Things to do in Amritsar: the Golden Temple at dawn and night, the langar, Jallianwala Bagh, the Partition Museum, the Wagah–Attari ceremony, Gobindgarh Fort, Ram Bagh and more."
+}

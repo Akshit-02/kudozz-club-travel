@@ -1,0 +1,255 @@
+{
+  "slug": "things-to-do-in-alibaug",
+  "destination": "Alibaug",
+  "guide": "alibaug-travel-guide",
+  "type": "coastal town",
+  "title": "Things to Do in Alibaug: Sea Forts, Beaches & Konkan Coast Days",
+  "seoTitle": "Things to Do in Alibaug: Forts, Beaches & Food | Kudozz Club",
+  "description": "Things to do in Alibaug: walk to Kolaba Fort at low tide, beach days at Nagaon, Kashid, Kihim and Varsoli, the island fortress of Murud-Janjira, Korlai Fort and its Creole-speaking village, Revdanda, Kanakeshwar temple and Konkani seafood.",
+  "dek": "A coastal town across the harbour from Mumbai, with sea forts reachable at low tide, casuarina-lined beaches and quiet Konkan villages.",
+  "primaryKeyword": "things to do in Alibaug",
+  "secondaryKeywords": [
+    "places to visit in Alibaug",
+    "Kolaba Fort",
+    "Murud-Janjira",
+    "Kashid beach",
+    "Nagaon beach",
+    "Alibaug ferry",
+    "Korlai fort"
+  ],
+  "searchIntent": "Weekenders from Mumbai and Pune planning one or two days in Alibaug and the nearby coast.",
+  "tags": [
+    "Alibaug",
+    "Maharashtra",
+    "Beach",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/maharashtra/alibaug/kashid-beach-alibaug-2.webp",
+    "alt": "Kashid beach near Alibaug",
+    "caption": "Kashid beach"
+  },
+  "intro": [
+    "Alibaug, in Raigad district, lies on the Konkan coast just south of Mumbai, reached by ferry across the harbour or by road. It was a stronghold of the Maratha navy under Kanhoji Angre in the 18th century, and several sea forts guard its coast. Today it is a favourite weekend retreat, with villas, beach resorts and fishing villages.",
+    "The things to do in Alibaug include walking to Kolaba Fort in the sea at low tide, beach days at Nagaon, Kihim, Varsoli and Kashid, a boat to the unconquered island fortress of Murud-Janjira, the Portuguese fort at Korlai, temples and Konkani seafood.",
+    "One or two days is typical. October to March is the best time; the monsoon brings rough seas and ferry suspensions."
+  ],
+  "quickAnswer": [
+    "Walk to Kolaba Fort at low tide",
+    "Try water sports at Nagaon beach",
+    "Relax on Kashid beach",
+    "Birdwatch at Kihim",
+    "Take a boat to Murud-Janjira Fort",
+    "See Korlai Fort and its village",
+    "Visit Revdanda Fort and beach",
+    "Climb to Kanakeshwar Temple",
+    "See the Karmarkar sculpture museum",
+    "Eat Konkani seafood"
+  ],
+  "sections": [
+    {
+      "id": "forts",
+      "heading": "Sea forts",
+      "items": [
+        {
+          "name": "Walk to Kolaba Fort",
+          "image": {
+            "src": "/images/blogs/maharashtra/alibaug/alibaug-2.webp",
+            "alt": "Kolaba Fort off Alibaug beach",
+            "caption": "Kolaba Fort"
+          },
+          "body": [
+            "Kolaba Fort, about a kilometre off Alibaug beach, was fortified by Shivaji and later became a base of the Maratha admiral Kanhoji Angre. At low tide you can walk to it across the sand; at high tide, horse carts or boats take visitors. It has temples and a sweet-water well inside. Check tide times and return before the tide turns.",
+            "Inside the walls are a Siddhivinayak temple, shrines and a freshwater well that has never run dry, remarkable for a fort surrounded by the sea. The fort is also a good vantage point for sunset over Alibaug beach."
+          ],
+          "facts": {
+            "Time needed": "1.5 hours",
+            "Good to know": "Go at low tide; check return time"
+          }
+        },
+        {
+          "name": "Take a boat to Murud-Janjira",
+          "body": [
+            "Murud-Janjira, about 55 km south, is an island fortress built by the Siddis in the 17th century, famously never captured despite attacks by the Portuguese, British and Marathas. Sailboats from Rajpuri jetty take visitors across; its walls, cannons and water tanks are impressive.",
+            "The fort once had a palace, mosques, water tanks and dozens of bastions with cannons, including a huge one called Kalal Bangadi. Guides at the jetty explain its long history of resisting sieges."
+          ],
+          "facts": {
+            "Time needed": "Half a day",
+            "Good to know": "Boats may not run in rough weather"
+          }
+        },
+        {
+          "name": "See Korlai Fort and village",
+          "body": [
+            "Korlai Fort, on a headland near Revdanda, was built by the Portuguese in the 16th century. The village below is home to a community speaking Korlai Portuguese Creole, a rare legacy of the period."
+          ]
+        },
+        {
+          "name": "Visit Revdanda",
+          "body": [
+            "Revdanda has the ruins of a Portuguese fort, an old church and a quiet beach. A plaque marks the visit of the Russian traveller Afanasy Nikitin in the 15th century."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beaches",
+      "heading": "Beaches",
+      "items": [
+        {
+          "name": "Try water sports at Nagaon",
+          "body": [
+            "Nagaon beach, lined with casuarina and coconut trees, is the liveliest beach near Alibaug, with parasailing, jet skis and banana boat rides."
+          ],
+          "facts": {
+            "Good for": "Families, friends"
+          }
+        },
+        {
+          "name": "Relax on Kashid",
+          "body": [
+            "Kashid, about 30 km south, has white sand and clear water, and is one of the prettiest beaches on this stretch. It is busy on weekends."
+          ]
+        },
+        {
+          "name": "Birdwatch at Kihim",
+          "body": [
+            "Kihim, a quiet beach north of Alibaug, is backed by woods where the ornithologist Salim Ali once studied birds and butterflies. It is peaceful in the early morning."
+          ],
+          "facts": {
+            "Best time": "Early morning"
+          }
+        },
+        {
+          "name": "Walk on Varsoli and Awas beaches",
+          "body": [
+            "Varsoli and Awas are clean, quieter beaches close to Alibaug, good for long walks and sunsets."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "temples-culture",
+      "heading": "Temples, art and food",
+      "items": [
+        {
+          "name": "Climb to Kanakeshwar Temple",
+          "body": [
+            "The Kanakeshwar Temple, dedicated to Shiva, sits on a hill about 13 km from Alibaug, reached by about 700 steps through forest. The top gives wide views."
+          ],
+          "facts": {
+            "Time needed": "2 hours"
+          }
+        },
+        {
+          "name": "See the Karmarkar sculpture museum",
+          "body": [
+            "At Sasawane, the Karmarkar Sculpture Museum displays the works of sculptor Vinayak Pandurang Karmarkar, including life-size figures of people and animals."
+          ]
+        },
+        {
+          "name": "Eat Konkani seafood",
+          "body": [
+            "Try fish thalis with pomfret, surmai and prawns in coconut curry, sol kadhi (a kokum and coconut drink) and rice bhakri. Beachside shacks and homestays serve excellent home-style food."
+          ],
+          "facts": {
+            "Good for": "Food lovers"
+          }
+        }
+      ]
+    },
+    {
+      "id": "seasons",
+      "heading": "By season",
+      "items": [
+        {
+          "name": "October to March",
+          "body": [
+            "Calm seas, pleasant weather and ferries running; the best time for forts and beaches."
+          ]
+        },
+        {
+          "name": "April to May",
+          "body": [
+            "Hot and humid, but the sea is still calm and weekday stays are quiet."
+          ]
+        },
+        {
+          "name": "June to September",
+          "body": [
+            "Heavy monsoon rain and rough seas. Ferries from Mumbai stop, swimming is unsafe, but the countryside is lush."
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Families",
+      "text": "Kolaba Fort at low tide, water sports at Nagaon and a seafood lunch."
+    },
+    {
+      "who": "Couples",
+      "text": "A villa or homestay near Kihim, sunsets at Varsoli and a day trip to Kashid and Janjira."
+    },
+    {
+      "who": "History lovers",
+      "text": "Kolaba, Murud-Janjira, Korlai and Revdanda forts."
+    },
+    {
+      "who": "Weekenders from Mumbai",
+      "text": "Take the Saturday morning ferry, spend the day at Kolaba Fort and Nagaon, and drive to Kashid and Murud-Janjira on Sunday before the evening ferry back."
+    }
+  ],
+  "oneDay": "Take an early ferry from Mumbai, walk to Kolaba Fort at low tide, spend the late morning at Nagaon beach and have a seafood lunch. Drive to Korlai and Revdanda in the afternoon, and watch sunset at Varsoli before heading back.",
+  "tips": [
+    "Ferries run from the Gateway of India to Mandwa, and a RoRo ferry from Mumbai carries cars; road travel takes about three hours.",
+    "Ferries are suspended in the monsoon; check schedules.",
+    "Check tide times for Kolaba Fort.",
+    "Swim only in calm conditions and designated areas."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Alibaug?",
+      "a": "Walk to Kolaba Fort at low tide, enjoy Nagaon, Kashid, Kihim and Varsoli beaches, take a boat to Murud-Janjira, see Korlai and Revdanda forts, climb to Kanakeshwar Temple and eat Konkani seafood."
+    },
+    {
+      "q": "How do I reach Alibaug from Mumbai?",
+      "a": "By ferry from the Gateway of India to Mandwa, by RoRo ferry with a car, or by road in about three hours."
+    },
+    {
+      "q": "Can you walk to Kolaba Fort?",
+      "a": "Yes, at low tide. At high tide, horse carts or boats are used."
+    },
+    {
+      "q": "How many days are enough for Alibaug?",
+      "a": "One to two days."
+    },
+    {
+      "q": "What is the best time to visit Alibaug?",
+      "a": "October to March, when the sea is calm and ferries run."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Mumbai",
+      "href": "/blog/things-to-do-in-mumbai",
+      "note": "across the harbour"
+    },
+    {
+      "name": "Ganpatipule",
+      "href": "/blog/ganpatipule-travel-guide",
+      "note": "further down the Konkan coast"
+    },
+    {
+      "name": "Tarkarli",
+      "href": "/blog/tarkarli-travel-guide",
+      "note": "Sindhudurg's beaches and diving"
+    }
+  ],
+  "styles": [
+    "weekend-getaways",
+    "family-holidays"
+  ],
+  "metaDescription": "Things to do in Alibaug: walk to Kolaba Fort at low tide, beach days at Nagaon, Kashid, Kihim and Varsoli, the island fortress of Murud-Janjira and more."
+}

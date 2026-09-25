@@ -1,0 +1,217 @@
+{
+  "slug": "things-to-do-in-ayodhya",
+  "destination": "Ayodhya",
+  "guide": "ayodhya-travel-guide",
+  "type": "pilgrimage city",
+  "title": "Things to Do in Ayodhya: Ram Mandir, Hanuman Garhi & the Saryu Ghats",
+  "seoTitle": "Things to Do in Ayodhya: Ram Mandir, Temples & Ghats | Kudozz Club",
+  "description": "Things to do in Ayodhya: darshan at the Ram Mandir, Hanuman Garhi, Kanak Bhawan, the evening Saryu aarti at Ram ki Paidi, Guptar Ghat and Deepotsav, with practical tips for pilgrims.",
+  "dek": "The city associated with Lord Ram's birth, where a new temple stands at the centre of a much older pilgrimage landscape of shrines, ghats and river rituals.",
+  "primaryKeyword": "things to do in Ayodhya",
+  "secondaryKeywords": [
+    "places to visit in Ayodhya",
+    "Ram Mandir darshan",
+    "Hanuman Garhi",
+    "Saryu aarti",
+    "Ayodhya Deepotsav"
+  ],
+  "searchIntent": "Pilgrims and families planning a one- or two-day visit to Ayodhya, focused on the Ram Mandir and the main temples and ghats.",
+  "tags": [
+    "Ayodhya",
+    "Uttar Pradesh",
+    "Pilgrimage",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/uttar-pradesh/uttar-pradesh/ram-mandir-temple-ayodhya.webp",
+    "alt": "The Ram Mandir in Ayodhya, Uttar Pradesh"
+  },
+  "intro": [
+    "Ayodhya, on the banks of the Saryu river in eastern Uttar Pradesh, is revered as the birthplace of Lord Ram and is one of the seven sacred cities (Sapta Puri) of Hinduism. The Ram Mandir, consecrated in January 2024, has made it one of the most visited pilgrimage destinations in India.",
+    "Beyond the new temple, Ayodhya has a dense cluster of older shrines, including Hanuman Garhi and Kanak Bhawan, and a long riverfront of ghats where evening aarti is performed. One or two days is enough for most visitors. Lucknow, about two to three hours away, is the nearest large city."
+  ],
+  "quickAnswer": [
+    "Have darshan at the Ram Mandir",
+    "Climb the steps to Hanuman Garhi",
+    "Visit Kanak Bhawan and Dashrath Mahal",
+    "Watch the evening aarti on the Saryu at Ram ki Paidi",
+    "Take a boat on the Saryu",
+    "Visit Guptar Ghat and Nageshwarnath Temple",
+    "Attend Deepotsav on the eve of Diwali"
+  ],
+  "sections": [
+    {
+      "id": "temples",
+      "heading": "Temples",
+      "items": [
+        {
+          "name": "Have darshan at the Ram Mandir",
+          "body": [
+            "The Ram Mandir, built in the Nagara style of temple architecture in pink sandstone, houses the image of Ram Lalla (the child Ram). Security arrangements are extensive: phones, bags, electronics and many personal items are not allowed, and there are free deposit counters near the entrance. Queues vary greatly with the day and season.",
+            "Check the official Shri Ram Janmabhoomi Teerth Kshetra website for current darshan timings and rules before you go."
+          ],
+          "facts": {
+            "Time needed": "2–4 hours including queues",
+            "Best time": "Early morning on weekdays",
+            "Good to know": "Deposit phones and bags before entering"
+          }
+        },
+        {
+          "name": "Climb to Hanuman Garhi",
+          "image": {
+            "src": "/images/blogs/uttar-pradesh/ayodhya/hanuman-garhi-ayodhya-2.webp",
+            "alt": "Hanuman Garhi temple on a mound in Ayodhya",
+            "caption": "Hanuman Garhi"
+          },
+          "body": [
+            "Hanuman Garhi, a fortress-like 10th-century temple on a mound reached by around 76 steps, is traditionally visited before the Ram Mandir, as Hanuman is regarded as the guardian of Ayodhya. It is busiest on Tuesdays and Saturdays."
+          ],
+          "facts": {
+            "Time needed": "45 minutes",
+            "Good to know": "Watch out for monkeys"
+          }
+        },
+        {
+          "name": "Visit Kanak Bhawan",
+          "body": [
+            "Kanak Bhawan, believed to have been gifted to Sita by Kaikeyi, is a temple with images of Ram and Sita wearing golden crowns. Devotional singing is often under way in its courtyard."
+          ],
+          "facts": {
+            "Time needed": "30–45 minutes"
+          }
+        },
+        {
+          "name": "See Dashrath Mahal and Nageshwarnath",
+          "body": [
+            "Dashrath Mahal is identified with the palace of King Dashrath, Ram's father. Nageshwarnath Temple, near Ram ki Paidi, is a Shiva temple said to have been established by Kush, Ram's son."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "saryu",
+      "heading": "The Saryu river",
+      "items": [
+        {
+          "name": "Watch the evening aarti at Ram ki Paidi",
+          "body": [
+            "Ram ki Paidi is a series of ghats along a channel of the Saryu. The evening Saryu aarti, with lamps and chanting, is a peaceful way to end the day, and the ghats are illuminated at night."
+          ],
+          "facts": {
+            "Best time": "Sunset",
+            "Good for": "Everyone"
+          }
+        },
+        {
+          "name": "Take a boat on the Saryu",
+          "body": [
+            "Boats can be hired at the ghats for short rides on the river, which give a view of the riverfront temples, particularly at sunset."
+          ]
+        },
+        {
+          "name": "Visit Guptar Ghat",
+          "body": [
+            "Guptar Ghat, a few kilometres west of the town centre, is where, according to tradition, Ram took jal samadhi in the Saryu at the end of his earthly life. It is quieter than the central ghats and has several temples."
+          ],
+          "facts": {
+            "Time needed": "1 hour"
+          }
+        },
+        {
+          "name": "Attend Deepotsav",
+          "body": [
+            "On the eve of Diwali, Ayodhya holds Deepotsav, when lakhs of oil lamps are lit along the ghats of the Saryu, with processions, cultural performances and fireworks. It draws very large crowds; book accommodation well ahead."
+          ],
+          "facts": {
+            "When": "The evening before Diwali",
+            "Good to know": "Very crowded; book early"
+          }
+        }
+      ]
+    },
+    {
+      "id": "more",
+      "heading": "Beyond the main temples",
+      "items": [
+        {
+          "name": "Walk Ram Path and the old town",
+          "body": [
+            "The widened Ram Path and the lanes around it are lined with sweet shops, stalls selling religious items and small temples. Try peda and laddu, and the simple vegetarian thalis served near the temples."
+          ]
+        },
+        {
+          "name": "Visit Bharat Kund and Sita ki Rasoi",
+          "body": [
+            "Sita ki Rasoi, an ancient kitchen shrine near the Ram Janmabhoomi area, and Bharat Kund at Nandigram, about 15 km south, where Bharat is said to have ruled on Ram's behalf during his exile, are part of the wider pilgrimage circuit."
+          ]
+        },
+        {
+          "name": "See Deepotsav at Diwali",
+          "body": [
+            "On the eve of Diwali, Ayodhya holds Deepotsav, when lakhs of earthen lamps are lit along the ghats of Ram ki Paidi and the Saryu, with light shows and cultural programmes. It has set lamp-lighting records in recent years. Crowds are enormous and hotels book out months ahead."
+          ],
+          "facts": {
+            "Best time": "Diwali (October or November)",
+            "Good to know": "Book stays well in advance"
+          }
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Families with elderly members",
+      "text": "Battery vehicles and wheelchairs are available at the Ram Mandir; plan darshan in the early morning and keep the rest of the day light."
+    },
+    {
+      "who": "Pilgrims",
+      "text": "Traditionally, visit Hanuman Garhi before the Ram Mandir, then Kanak Bhawan, and end with the Saryu aarti at Ram ki Paidi."
+    }
+  ],
+  "oneDay": "Start early at Hanuman Garhi, then join the queue for darshan at the Ram Mandir. After lunch, visit Kanak Bhawan, Dashrath Mahal and Nageshwarnath, then Guptar Ghat if time allows. End with a boat ride and the evening aarti at Ram ki Paidi.",
+  "tips": [
+    "Rules on what you can carry into the Ram Mandir are strict; leave phones, bags and electronics at the deposit counters or your hotel.",
+    "Avoid major festival days, such as Ram Navami and Deepotsav, unless you specifically want to experience them, as crowds are enormous.",
+    "Ayodhya has an airport and a railway station, and Lucknow is about two to three hours away by road.",
+    "Dress modestly and wear shoes that are easy to remove."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Ayodhya?",
+      "a": "Have darshan at the Ram Mandir, visit Hanuman Garhi and Kanak Bhawan, watch the evening aarti at Ram ki Paidi, take a boat on the Saryu and visit Guptar Ghat."
+    },
+    {
+      "q": "How many days are enough for Ayodhya?",
+      "a": "One day covers the main temples and the evening aarti. Two days allows for Guptar Ghat, Bharat Kund and a slower pace."
+    },
+    {
+      "q": "What is not allowed inside the Ram Mandir?",
+      "a": "Phones, bags, electronic items and many personal belongings are not allowed. Free deposit counters are available near the entrance. Check the official website for the latest rules."
+    },
+    {
+      "q": "What is the best time to visit Ayodhya?",
+      "a": "October to March has the most comfortable weather. Deepotsav, on the eve of Diwali, is spectacular but extremely crowded."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Lucknow",
+      "href": "/blog/things-to-do-in-lucknow",
+      "note": "Nawabi monuments and food, two to three hours away"
+    },
+    {
+      "name": "Things to do in Varanasi",
+      "href": "/blog/things-to-do-in-varanasi",
+      "note": "the ghats of the Ganga, about four to five hours south-east"
+    },
+    {
+      "name": "Things to do in Prayagraj",
+      "href": "/blog/things-to-do-in-prayagraj",
+      "note": "the Triveni Sangam"
+    }
+  ],
+  "styles": [
+    "spiritual-tours",
+    "family-holidays"
+  ]
+}

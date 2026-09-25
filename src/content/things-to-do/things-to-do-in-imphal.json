@@ -1,0 +1,258 @@
+{
+  "slug": "things-to-do-in-imphal",
+  "destination": "Imphal",
+  "guide": "imphal-travel-guide",
+  "type": "city",
+  "title": "Things to Do in Imphal: Kangla Fort, Ima Market, Loktak Lake & Manipuri Culture",
+  "seoTitle": "Things to Do in Imphal: Kangla, Ima Market & Loktak | Kudozz Club",
+  "description": "Things to do in Imphal: Kangla Fort, Ima Keithel women's market, Shree Govindajee Temple, the Manipur State Museum, the Imphal War Cemetery, polo at Mapal Kangjeibung, Loktak Lake's floating phumdis, Keibul Lamjao, Moirang's INA memorial and the Sangai Festival.",
+  "dek": "The capital of Manipur in a green bowl of hills, with an ancient royal fort, a market run entirely by women and a lake of floating islands nearby.",
+  "primaryKeyword": "things to do in Imphal",
+  "secondaryKeywords": [
+    "places to visit in Imphal",
+    "Kangla Fort",
+    "Ima Keithel",
+    "Loktak Lake",
+    "Sangai Festival",
+    "Keibul Lamjao",
+    "Manipur tourism"
+  ],
+  "searchIntent": "Travellers planning two or three days in Imphal and Loktak Lake, and checking whether and how to visit Manipur.",
+  "tags": [
+    "Imphal",
+    "Manipur",
+    "City",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/manipur/loktak-lake/loktak-lake-phumdi-floating-vegetation.webp",
+    "alt": "Floating phumdis on Loktak Lake",
+    "caption": "Loktak Lake"
+  },
+  "intro": [
+    "Imphal lies in a wide valley at about 780 metres, surrounded by the hills of Manipur. It was the seat of the Meitei kings for centuries, and its culture is known for Manipuri classical dance, martial arts such as thang-ta, and the game of polo, which developed here in its modern form. In 1944 the Battle of Imphal was one of the turning points of the Second World War in Asia.",
+    "Things to do in Imphal include Kangla Fort, the old royal seat; Ima Keithel, one of the largest markets in Asia run entirely by women; temples, museums and war cemeteries; and a day trip to Loktak Lake with its floating phumdis and the world's only floating national park.",
+    "Two days covers Imphal; add a day for Loktak and Moirang. Indian nationals need an Inner Line Permit. Manipur has seen ethnic violence since 2023; check the current situation and official advisories carefully before planning a visit."
+  ],
+  "quickAnswer": [
+    "Explore Kangla Fort",
+    "Shop at Ima Keithel, the women's market",
+    "Visit Shree Govindajee Temple",
+    "See the Manipur State Museum",
+    "Visit the Imphal War Cemetery",
+    "Watch polo at Mapal Kangjeibung",
+    "See the floating phumdis of Loktak Lake",
+    "Look for sangai deer at Keibul Lamjao",
+    "Visit the INA Memorial at Moirang",
+    "Attend the Sangai Festival in November"
+  ],
+  "sections": [
+    {
+      "id": "city",
+      "heading": "In Imphal",
+      "items": [
+        {
+          "name": "Explore Kangla Fort",
+          "image": {
+            "src": "/images/blogs/manipur/imphal/kangla-fort-gate-imphal.webp",
+            "alt": "Gate of Kangla Fort, Imphal",
+            "caption": "Kangla Fort"
+          },
+          "body": [
+            "Kangla, on the banks of the Imphal river, was the traditional seat of the Meitei kings and is sacred in Meitei belief. The site has moats, the ruins of the old palace, rebuilt kangla sha (dragon-lion) statues, temples and a museum. It was used by the army until 2004 and is now a heritage park."
+          ],
+          "facts": {
+            "Time needed": "2 hours",
+            "Good for": "History lovers"
+          }
+        },
+        {
+          "name": "Shop at Ima Keithel",
+          "body": [
+            "Ima Keithel, the mothers' market, has thousands of stalls run only by women, selling fish, vegetables, textiles, pottery and household goods. It has existed in some form for centuries and is a symbol of the social and economic role of Manipuri women."
+          ],
+          "facts": {
+            "Best time": "Morning",
+            "Good for": "Shoppers, photographers"
+          }
+        },
+        {
+          "name": "Visit Shree Govindajee Temple",
+          "body": [
+            "Shree Govindajee Temple, next to the royal palace, is the centre of Manipuri Vaishnavism. Its twin domes and large hall host devotional music and dance, including Raas Leela performances during festivals."
+          ],
+          "facts": {
+            "Time needed": "45 minutes"
+          }
+        },
+        {
+          "name": "See the State Museum",
+          "body": [
+            "The Manipur State Museum has galleries on the state's communities, costumes, weapons, archaeology and a royal boat. It is a good introduction to Manipur's diversity."
+          ],
+          "facts": {
+            "Time needed": "1–1.5 hours"
+          }
+        },
+        {
+          "name": "Visit the Imphal War Cemetery",
+          "body": [
+            "The Imphal War Cemetery, maintained by the Commonwealth War Graves Commission, holds the graves of soldiers who died in the 1944 battles. It is peaceful and well kept."
+          ]
+        },
+        {
+          "name": "Watch polo at Mapal Kangjeibung",
+          "body": [
+            "Mapal Kangjeibung is often described as one of the oldest polo grounds in the world. Traditional polo (sagol kangjei) is played on Manipuri ponies, and tournaments are held during festivals."
+          ],
+          "facts": {
+            "Good for": "Sports lovers"
+          }
+        }
+      ]
+    },
+    {
+      "id": "loktak",
+      "heading": "Loktak Lake and Moirang",
+      "items": [
+        {
+          "name": "See the phumdis of Loktak",
+          "image": {
+            "src": "/images/blogs/manipur/loktak-lake/loktak-lake-fishing-nets-manipur.webp",
+            "alt": "Fishing nets and phumdis on Loktak Lake",
+            "caption": "Fishing on Loktak Lake"
+          },
+          "body": [
+            "Loktak Lake, about 45 km from Imphal, is the largest freshwater lake in north-east India, known for its phumdis, floating masses of vegetation and soil. Fishermen live on some of them in small huts. Sendra Island has a viewpoint and cafeteria overlooking the lake."
+          ],
+          "links": [
+            {
+              "label": "Loktak Lake guide",
+              "href": "/blog/loktak-lake-travel-guide"
+            }
+          ],
+          "facts": {
+            "Time needed": "Half a day",
+            "Best time": "October to March"
+          }
+        },
+        {
+          "name": "Look for sangai at Keibul Lamjao",
+          "image": {
+            "src": "/images/blogs/manipur/keibul-lamjao/floating-phumdi-islands-keibul-lamjao.webp",
+            "alt": "Floating phumdi islands at Keibul Lamjao",
+            "caption": "Keibul Lamjao"
+          },
+          "body": [
+            "Keibul Lamjao National Park, on the southern part of Loktak, is the only floating national park in the world. It is the last natural home of the sangai, the endangered brow-antlered deer and Manipur's state animal. Watchtowers offer a chance to see them, usually early in the morning."
+          ],
+          "facts": {
+            "Best time": "Early morning, November to March"
+          }
+        },
+        {
+          "name": "Visit the INA Memorial at Moirang",
+          "body": [
+            "At Moirang, near Loktak, the Indian National Army under Subhas Chandra Bose's command raised the Indian tricolour on Indian soil in April 1944. The INA Memorial Complex has a museum on the INA's campaign."
+          ],
+          "links": [
+            {
+              "label": "Moirang guide",
+              "href": "/blog/moirang-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "heading": "Culture and food",
+      "items": [
+        {
+          "name": "Attend the Sangai Festival",
+          "body": [
+            "The Sangai Festival, held in November, showcases Manipur's dances, music, crafts, food and sports, including polo and martial arts. It is the best time to see the state's culture in one place, when conditions allow the festival to be held."
+          ],
+          "facts": {
+            "Best time": "November"
+          }
+        },
+        {
+          "name": "Watch Manipuri dance",
+          "body": [
+            "Manipuri, one of India's classical dance forms, is performed at the Jawaharlal Nehru Manipur Dance Academy and during temple festivals. Thang-ta, the martial art, is often demonstrated at cultural events."
+          ]
+        },
+        {
+          "name": "Eat Manipuri food",
+          "body": [
+            "Try eromba (vegetables mashed with fermented fish and chillies), singju (a spicy salad), kangshoi (a light stew) and chak-hao kheer, a dessert made with black rice."
+          ],
+          "facts": {
+            "Good for": "Food lovers"
+          }
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "History lovers",
+      "text": "Kangla Fort, the War Cemetery and the INA Memorial at Moirang."
+    },
+    {
+      "who": "Nature lovers",
+      "text": "Dawn at Keibul Lamjao for sangai and a boat on Loktak."
+    },
+    {
+      "who": "Culture seekers",
+      "text": "Time a visit for the Sangai Festival and a morning at Ima Keithel."
+    }
+  ],
+  "oneDay": "Spend the morning at Kangla Fort and Shree Govindajee Temple, then walk through Ima Keithel. After lunch, visit the State Museum and the War Cemetery, and end with Manipuri food in the evening.",
+  "tips": [
+    "Imphal has an airport with flights from Guwahati, Kolkata and Delhi.",
+    "Indian nationals need an Inner Line Permit for Manipur, available online.",
+    "Check official advisories and local news before travel; curfews and closures can occur at short notice.",
+    "Carry cash; network and banking can be disrupted at times."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Imphal?",
+      "a": "Explore Kangla Fort, shop at Ima Keithel, visit Shree Govindajee Temple and the State Museum, see the War Cemetery, watch polo, and take a trip to Loktak Lake, Keibul Lamjao and Moirang."
+    },
+    {
+      "q": "Is it safe to visit Imphal?",
+      "a": "Manipur has experienced ethnic violence since 2023. Conditions change, so check official advisories and local guidance before planning a trip."
+    },
+    {
+      "q": "Do I need a permit for Manipur?",
+      "a": "Yes. Indian nationals need an Inner Line Permit."
+    },
+    {
+      "q": "What is Loktak Lake known for?",
+      "a": "Its floating phumdis and Keibul Lamjao, the world's only floating national park and home of the sangai deer."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Loktak Lake",
+      "href": "/blog/loktak-lake-travel-guide",
+      "note": "floating islands, 45 km away"
+    },
+    {
+      "name": "Ukhrul",
+      "href": "/blog/ukhrul-travel-guide",
+      "note": "the Tangkhul hills and Shirui lily"
+    },
+    {
+      "name": "Things to do in Kohima",
+      "href": "/blog/things-to-do-in-kohima",
+      "note": "Nagaland's capital"
+    }
+  ],
+  "styles": [
+    "group-tours"
+  ],
+  "metaDescription": "Things to do in Imphal: Kangla Fort, Ima Keithel women's market, Shree Govindajee Temple, the Manipur State Museum, the Imphal War Cemetery, polo at Mapal Kangjeibung and more."
+}

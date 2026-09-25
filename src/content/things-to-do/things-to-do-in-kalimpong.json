@@ -1,0 +1,224 @@
+{
+  "slug": "things-to-do-in-kalimpong",
+  "destination": "Kalimpong",
+  "guide": "kalimpong-travel-guide",
+  "type": "hill town",
+  "title": "Things to Do in Kalimpong: Monasteries, Nurseries & Teesta Views",
+  "seoTitle": "Things to Do in Kalimpong: Monasteries & Nurseries | Kudozz Club",
+  "description": "Things to do in Kalimpong: Durpin Monastery on Deolo ridge, Deolo Hill, orchid and cactus nurseries, Dr Graham's Homes, MacFarlane Church, Morgan House, the haat bazaar, Kalimpong cheese and lollipops, Teesta rafting, and trips to Lava, Lolegaon and Rishyap.",
+  "dek": "A calm hill town on a ridge above the Teesta, once a Tibet trade post, now known for its monasteries, flower nurseries and mission schools.",
+  "primaryKeyword": "things to do in Kalimpong",
+  "secondaryKeywords": [
+    "places to visit in Kalimpong",
+    "Durpin Monastery",
+    "Deolo Hill",
+    "Kalimpong nurseries",
+    "Lava Lolegaon",
+    "Teesta rafting"
+  ],
+  "searchIntent": "Travellers adding one or two nights in Kalimpong to a Darjeeling–Gangtok trip, looking for a quieter hill town.",
+  "tags": [
+    "Kalimpong",
+    "West Bengal",
+    "Hill Station",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/west-bengal/kalimpong/durpin-monastery-kalimpong.webp",
+    "alt": "Durpin Monastery on the ridge above Kalimpong",
+    "caption": "Durpin Monastery"
+  },
+  "intro": [
+    "Kalimpong, at about 1,250 metres, sits on a ridge above the Teesta river in the north of West Bengal. Until the mid-20th century it was an important market on the trade route between India and Tibet via the Jelep La pass, and its bazaars were full of wool, mules and traders. Scottish missionaries built schools and churches here, and Tibetan and Bhutanese influences remain strong.",
+    "Things to do in Kalimpong are relaxed: monasteries with valley views, Deolo Hill, nurseries of orchids and cacti, heritage buildings from the mission era, and the local haat bazaar. It is lower, warmer and quieter than Darjeeling, and a good base for the forest villages of Lava and Lolegaon.",
+    "Two days covers the town; add a day for Lava, Lolegaon or Rishyap."
+  ],
+  "quickAnswer": [
+    "Visit Durpin (Zang Dhok Palri Phodang) Monastery",
+    "See the views from Deolo Hill",
+    "Walk through the orchid and cactus nurseries",
+    "Visit Dr Graham's Homes",
+    "See MacFarlane Church and Morgan House",
+    "Browse the haat bazaar",
+    "Try Kalimpong cheese and lollipops",
+    "Go rafting on the Teesta",
+    "Take a trip to Lava, Lolegaon or Rishyap"
+  ],
+  "sections": [
+    {
+      "id": "monasteries-views",
+      "heading": "Monasteries and viewpoints",
+      "items": [
+        {
+          "name": "Visit Durpin Monastery",
+          "body": [
+            "Zang Dhok Palri Phodang, better known as Durpin Monastery, sits on Durpin Dara hill and was consecrated by the Dalai Lama in 1976. It holds rare Buddhist scriptures and has fine murals, and the views over the Teesta valley and, on clear days, Kanchenjunga are excellent. The nearby army golf course adds to the open setting."
+          ],
+          "facts": {
+            "Time needed": "1 hour",
+            "Best time": "Morning",
+            "Good for": "Everyone"
+          }
+        },
+        {
+          "name": "See the view from Deolo Hill",
+          "body": [
+            "Deolo Hill, the highest point in Kalimpong at around 1,700 metres, has a park, small reservoirs and views of the Teesta and Relli valleys and the snow peaks on clear days. There is a tourist lodge on top and paragliding has operated here at times."
+          ],
+          "facts": {
+            "Time needed": "1–2 hours",
+            "Best time": "Sunrise or clear afternoons"
+          }
+        },
+        {
+          "name": "Visit Tharpa Choling and Thongsa monasteries",
+          "body": [
+            "Tharpa Choling Monastery, of the Gelug school, was founded in the 1930s and is close to the town. Thongsa Gompa, the oldest in Kalimpong, was founded by Bhutanese settlers in the 17th century."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "heritage-nurseries",
+      "heading": "Nurseries and heritage",
+      "items": [
+        {
+          "name": "Walk through the flower nurseries",
+          "body": [
+            "Kalimpong is one of India's leading centres for orchids, gladioli, amaryllis and cacti. Several nurseries welcome visitors, including large cactus collections under glass. Spring is the best time for blooms."
+          ],
+          "facts": {
+            "Best time": "March to May",
+            "Good for": "Plant lovers, families"
+          }
+        },
+        {
+          "name": "Visit Dr Graham's Homes",
+          "body": [
+            "Dr Graham's Homes, founded in 1900 by the Scottish missionary John Anderson Graham, began as a home for Anglo-Indian children and is still a school. Its campus of cottages, a chapel and gardens on the hill is peaceful to walk around, with respect for school activities."
+          ]
+        },
+        {
+          "name": "See MacFarlane Church and Morgan House",
+          "body": [
+            "MacFarlane Memorial Church, built in the late 19th century in memory of a Scottish missionary, is a landmark of the town. Morgan House, a colonial bungalow on Durpin hill now run as a heritage lodge, is known for its ivy-covered walls and ghost stories."
+          ]
+        },
+        {
+          "name": "Browse the haat bazaar",
+          "body": [
+            "Kalimpong's haat, the weekly market, fills the town centre with vegetables, spices, cheese, yak products and household goods from surrounding villages. Local noodle shops and bakeries are nearby. Try Kalimpong cheese and the town's famous lollipops, a legacy of a dairy started by Swiss Jesuits."
+          ],
+          "facts": {
+            "Good for": "Food lovers, photographers"
+          }
+        },
+        {
+          "name": "See the Mangal Dham and the science centre",
+          "body": [
+            "Mangal Dham, a large Krishna temple built in memory of a religious teacher, is known for its carved interiors and is peaceful in the evening. The Kalimpong Science Centre on Deolo Hill has simple exhibits and a garden, popular with children."
+          ],
+          "facts": {
+            "Good for": "Families"
+          }
+        }
+      ]
+    },
+    {
+      "id": "outdoors",
+      "heading": "Rivers and forest villages",
+      "items": [
+        {
+          "name": "Raft the Teesta",
+          "body": [
+            "The Teesta and Rangeet rivers below Kalimpong are used for white-water rafting, with operators near Teesta Bazaar and Melli. Rafting runs mainly from October to May."
+          ],
+          "facts": {
+            "Best time": "October to May",
+            "Good for": "Adventure seekers"
+          }
+        },
+        {
+          "name": "Visit Lava and Neora Valley",
+          "body": [
+            "Lava, about 30 km away at around 2,100 metres, is a forest village with a monastery and is the gateway to Neora Valley National Park, a dense forest with red pandas and many birds. Park entry needs a permit and is closed during the monsoon."
+          ],
+          "facts": {
+            "Time needed": "Full day or overnight"
+          }
+        },
+        {
+          "name": "See Lolegaon and Rishyap",
+          "body": [
+            "Lolegaon, a Lepcha village in the forest, has a canopy walk among old trees and views of Kanchenjunga. Rishyap, higher up, is known for its sweeping Himalayan panorama at sunrise. Both have homestays."
+          ],
+          "facts": {
+            "Good for": "Slow travellers, nature lovers"
+          }
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Couples",
+      "text": "Stay in a heritage bungalow, visit Durpin at dawn and spend a night in Rishyap or Lolegaon."
+    },
+    {
+      "who": "Families",
+      "text": "Deolo Hill park, the nurseries and a rafting trip for older children."
+    },
+    {
+      "who": "Nature lovers",
+      "text": "Neora Valley via Lava, and the Lolegaon canopy walk."
+    }
+  ],
+  "oneDay": "Start at Durpin Monastery in the morning, then drive up to Deolo Hill. After lunch in town, visit a cactus and orchid nursery, Dr Graham's Homes and MacFarlane Church, and end with a walk through the bazaar.",
+  "tips": [
+    "Bagdogra Airport and NJP station are about three hours away.",
+    "Kalimpong is warmer than Darjeeling; light woollens are usually enough except in winter.",
+    "Neora Valley requires a permit and is closed in the monsoon.",
+    "Roads can be affected by landslides in the monsoon.",
+    "The haat bazaar is busiest on market days; ask your hotel which days it runs during your stay."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Kalimpong?",
+      "a": "Visit Durpin Monastery, see Deolo Hill, walk through the nurseries, visit Dr Graham's Homes and MacFarlane Church, browse the haat and take trips to Lava, Lolegaon and Rishyap."
+    },
+    {
+      "q": "Is Kalimpong worth visiting?",
+      "a": "Yes, for travellers who want a quieter hill town with monasteries, nurseries and forest villages nearby."
+    },
+    {
+      "q": "How many days are enough for Kalimpong?",
+      "a": "Two days for the town; three with Lava or Lolegaon."
+    },
+    {
+      "q": "What is the best time to visit Kalimpong?",
+      "a": "March to June and October to December. Spring is best for flowers."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Darjeeling",
+      "href": "/blog/things-to-do-in-darjeeling",
+      "note": "about three hours away"
+    },
+    {
+      "name": "Things to do in Gangtok",
+      "href": "/blog/things-to-do-in-gangtok",
+      "note": "Sikkim's capital, about three hours north"
+    },
+    {
+      "name": "Gorumara",
+      "href": "/blog/gorumara-travel-guide",
+      "note": "rhino and elephant country in the Dooars"
+    }
+  ],
+  "styles": [
+    "honeymoon",
+    "family-holidays"
+  ],
+  "metaDescription": "Things to do in Kalimpong: Durpin Monastery on Deolo ridge, Deolo Hill, orchid and cactus nurseries, Dr Graham's Homes, MacFarlane Church, Morgan House, the haat bazaar and more."
+}

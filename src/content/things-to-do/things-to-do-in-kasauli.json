@@ -1,0 +1,234 @@
+{
+  "slug": "things-to-do-in-kasauli",
+  "destination": "Kasauli",
+  "guide": "kasauli-travel-guide",
+  "type": "hill station",
+  "title": "Things to Do in Kasauli: Mall Walks, Old Churches & Shivalik Sunsets",
+  "seoTitle": "Things to Do in Kasauli: Walks, Churches & Views | Kudozz Club",
+  "description": "Things to do in Kasauli: the Mall Road and Lower Mall, Christ Church, the Gilbert Trail, Sunset Point, the Monkey Point temple (subject to access rules), Sanawar, Dagshai's jail museum, the Timber Trail ropeway and a slow weekend in the pines.",
+  "dek": "A small, quiet cantonment town on a Shivalik ridge, a short drive above Chandigarh, known for its pine walks, colonial buildings and unhurried weekends.",
+  "primaryKeyword": "things to do in Kasauli",
+  "secondaryKeywords": [
+    "places to visit in Kasauli",
+    "Gilbert Trail",
+    "Monkey Point Kasauli",
+    "Christ Church Kasauli",
+    "Dagshai jail museum",
+    "Kasauli weekend"
+  ],
+  "searchIntent": "Weekenders from Chandigarh, Punjab and Delhi planning one or two quiet days in Kasauli.",
+  "tags": [
+    "Kasauli",
+    "Himachal Pradesh",
+    "Hill Station",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/himachal-pradesh/kasauli/christ-church-kasauli.webp",
+    "alt": "Christ Church, Kasauli",
+    "caption": "Christ Church, Kasauli"
+  },
+  "intro": [
+    "Kasauli is a small hill town at about 1,800 metres in Solan district, Himachal Pradesh, about 65 km from Chandigarh. It was established as a cantonment in the 1840s and much of it is still under army control, which is why its lanes remain green and uncluttered.",
+    "There are no big attractions here, and that is the point. The things to do in Kasauli are walking along the Mall and the forest trails, visiting old churches and schools, watching the sun set over the plains, and making short trips to nearby Sanawar, Dagshai and the Timber Trail ropeway. Writer Khushwant Singh spent many summers here, and the town hosts an annual literature festival in his name.",
+    "One to two days is enough. Weekends bring visitors from Chandigarh and Delhi; weekdays are very quiet."
+  ],
+  "quickAnswer": [
+    "Walk the Mall Road and Lower Mall",
+    "See Christ Church, built in the 1850s",
+    "Walk the Gilbert Trail along the ridge",
+    "Watch sunset from Sunset Point",
+    "Visit Monkey Point, if access is open",
+    "See the Lawrence School campus at Sanawar from outside",
+    "Visit the jail museum in Dagshai",
+    "Ride the Timber Trail ropeway at Parwanoo"
+  ],
+  "sections": [
+    {
+      "id": "town",
+      "heading": "In town",
+      "items": [
+        {
+          "name": "Walk the Mall and Lower Mall",
+          "body": [
+            "Kasauli's Mall Road is a short, pedestrian-friendly stretch of shops, bakeries and old buildings. The Lower Mall runs through the old bazaar with its small eateries and wooden houses. Together they make a pleasant walking loop, especially in the evening."
+          ],
+          "facts": {
+            "Time needed": "1–2 hours",
+            "Best time": "Evening",
+            "Good for": "Everyone"
+          }
+        },
+        {
+          "name": "See Christ Church",
+          "body": [
+            "Christ Church, built in the 1850s, is a Gothic-style church with fine stained-glass windows, set among tall trees near the Mall. It is Kasauli's best-known landmark and still holds services."
+          ],
+          "facts": {
+            "Time needed": "30 minutes"
+          }
+        },
+        {
+          "name": "Eat at the old bakeries and dhabas",
+          "body": [
+            "Kasauli's bakeries and small cafés are known for their buns, cakes and bread, and the Lower Mall has dhabas serving simple North Indian food. Many visitors plan their walks around a stop for tea and something baked."
+          ],
+          "facts": {
+            "Good for": "Food lovers"
+          }
+        }
+      ]
+    },
+    {
+      "id": "walks-views",
+      "heading": "Walks and viewpoints",
+      "items": [
+        {
+          "name": "Walk the Gilbert Trail",
+          "body": [
+            "The Gilbert Trail is a short, level nature walk of about 1.5 km along the ridge near the Air Force area, with steep drops on one side and views of the valleys. It is shaded by pine and oak and good for birdwatching. Parts of the area are restricted, so follow signs."
+          ],
+          "facts": {
+            "Time needed": "1 hour",
+            "Best time": "Morning",
+            "Good for": "Walkers, birdwatchers"
+          }
+        },
+        {
+          "name": "Watch sunset from Sunset Point",
+          "body": [
+            "Sunset Point, near the Upper Mall, looks out over the plains towards Chandigarh. On clear evenings the sunset is lovely, and after dark you can see the lights of the cities below."
+          ],
+          "facts": {
+            "Best time": "Sunset"
+          }
+        },
+        {
+          "name": "Visit Monkey Point",
+          "body": [
+            "Monkey Point, the highest point in Kasauli, has a small Hanuman temple associated with a legend from the Ramayana and wide views on clear days. It lies within an Air Force area, and access for civilians has been restricted or closed at times. Check whether it is open before you go and carry ID."
+          ],
+          "facts": {
+            "Good to know": "Access controlled by the Air Force; may be closed"
+          }
+        },
+        {
+          "name": "See Sanawar",
+          "image": {
+            "src": "/images/blogs/himachal-pradesh/kasauli/sanawar-kasauli.webp",
+            "alt": "Sanawar hill near Kasauli with Himalayan views",
+            "caption": "Sanawar"
+          },
+          "body": [
+            "Sanawar, about 6 km from Kasauli, is home to the Lawrence School, founded in 1847 and one of the oldest boarding schools in Asia. The campus is private, but the drive and the views over the hills are worthwhile, and the school's old buildings can be seen from outside."
+          ],
+          "facts": {
+            "Good to know": "The school is private; no entry without permission"
+          }
+        }
+      ]
+    },
+    {
+      "id": "nearby",
+      "heading": "Nearby",
+      "items": [
+        {
+          "name": "Visit the Dagshai jail museum",
+          "body": [
+            "Dagshai, about 20 km away, is one of the oldest cantonments in the region. Its small jail, built in the 1840s, is now a museum. Mahatma Gandhi is said to have visited Irish prisoners held here in 1920, and the cells, including solitary confinement, are a stark reminder of the past."
+          ],
+          "facts": {
+            "Time needed": "1 hour",
+            "Good for": "History lovers"
+          }
+        },
+        {
+          "name": "Ride the Timber Trail ropeway",
+          "body": [
+            "At Parwanoo, on the way up from Chandigarh, the Timber Trail cable car carries visitors across a valley to a hilltop resort with views. It is a fun short ride, especially with children. Check operating status and timings."
+          ],
+          "facts": {
+            "Time needed": "1–2 hours",
+            "Good for": "Families"
+          }
+        },
+        {
+          "name": "Stop at Barog and Solan",
+          "body": [
+            "Barog, on the Kalka–Shimla railway, is known for its long tunnel and a quiet station set in the forest. Solan, the district town, has the old Mohan Meakin brewery, whose history goes back to the 1850s, and is known for mushrooms."
+          ]
+        },
+        {
+          "name": "Attend the literature festival",
+          "body": [
+            "The Khushwant Singh Literature Festival, held in Kasauli in autumn, brings writers, journalists and readers to the town for a weekend of talks. Dates are announced each year."
+          ],
+          "facts": {
+            "Best time": "October (check dates)"
+          }
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Weekenders from Chandigarh",
+      "text": "Drive up on Saturday morning, walk the Mall and Gilbert Trail, watch sunset, and visit Dagshai on Sunday before heading back."
+    },
+    {
+      "who": "Couples",
+      "text": "Stay in a heritage property in the pines and spend the days walking and reading."
+    },
+    {
+      "who": "Families",
+      "text": "The Timber Trail ropeway, Sunset Point and the Mall are easy outings; there are no big amusement attractions."
+    }
+  ],
+  "oneDay": "Walk the Mall and Lower Mall in the morning, with a stop at Christ Church and a bakery. Walk the Gilbert Trail before lunch. In the afternoon drive to Sanawar and Dagshai, and return to Sunset Point in the evening.",
+  "tips": [
+    "Chandigarh, about 65 km away, has the nearest major airport; Kalka is the nearest railway station.",
+    "Kasauli is a cantonment: parts of it are restricted and photography of army and Air Force areas is not allowed.",
+    "Parking in town is limited on weekends; many hotels arrange pick-ups from the parking areas.",
+    "Evenings can be cool even in summer; carry a light jacket."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Kasauli?",
+      "a": "Walk the Mall and Lower Mall, see Christ Church, walk the Gilbert Trail, watch sunset at Sunset Point, visit Monkey Point if open, see Sanawar and Dagshai, and ride the Timber Trail ropeway."
+    },
+    {
+      "q": "Is Monkey Point open to tourists?",
+      "a": "It lies in an Air Force area and access has been restricted or closed at times. Check locally before visiting."
+    },
+    {
+      "q": "How many days are enough for Kasauli?",
+      "a": "One to two days is enough for a relaxed visit."
+    },
+    {
+      "q": "What is the best time to visit Kasauli?",
+      "a": "March to June and September to November. Winter is cold with occasional light snow; the monsoon brings fog and rain."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Shimla",
+      "href": "/blog/things-to-do-in-shimla",
+      "note": "the state capital, about two hours up the road"
+    },
+    {
+      "name": "Things to do in Chandigarh",
+      "href": "/blog/things-to-do-in-chandigarh",
+      "note": "the planned city at the foot of the hills"
+    },
+    {
+      "name": "Things to do in Tirthan Valley",
+      "href": "/blog/things-to-do-in-tirthan-valley",
+      "note": "a quieter valley further into the mountains"
+    }
+  ],
+  "styles": [
+    "weekend-getaways",
+    "honeymoon"
+  ],
+  "metaDescription": "Things to do in Kasauli: the Mall Road and Lower Mall, Christ Church, the Gilbert Trail, Sunset Point, the Monkey Point temple (subject to access rules), Sanawar and more."
+}

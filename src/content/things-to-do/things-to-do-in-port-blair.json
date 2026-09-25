@@ -1,0 +1,268 @@
+{
+  "slug": "things-to-do-in-port-blair",
+  "destination": "Port Blair",
+  "guide": "port-blair-andaman-travel-guide",
+  "type": "island capital",
+  "title": "Things to Do in Port Blair (Sri Vijaya Puram): Cellular Jail, Islands & Sunsets",
+  "seoTitle": "Things to Do in Port Blair (Sri Vijaya Puram) | Kudozz Club",
+  "description": "Things to do in Port Blair: the Cellular Jail and its light show, Ross Island, North Bay's corals, Corbyn's Cove, Chidiya Tapu sunset, the Samudrika and Anthropological museums, Wandoor and Jolly Buoy, Mount Harriet and a day trip to Baratang.",
+  "dek": "The capital of the Andaman and Nicobar Islands, renamed Sri Vijaya Puram in 2024, with a sobering colonial jail, ruined island headquarters and reefs a short boat ride away.",
+  "primaryKeyword": "things to do in Port Blair",
+  "secondaryKeywords": [
+    "Sri Vijaya Puram",
+    "Cellular Jail light show",
+    "Ross Island",
+    "North Bay Island",
+    "Corbyn's Cove",
+    "Chidiya Tapu",
+    "Port Blair sightseeing"
+  ],
+  "searchIntent": "Andaman visitors spending one to three days in Port Blair before or after Havelock and Neil.",
+  "tags": [
+    "Port Blair",
+    "Andaman",
+    "Island Capital",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/destinations/andaman/corbyns-cove-beach-port-blair.webp",
+    "alt": "Corbyn's Cove beach near Port Blair",
+    "caption": "Corbyn's Cove"
+  },
+  "intro": [
+    "Port Blair, renamed Sri Vijaya Puram in 2024, is the capital of the Andaman and Nicobar Islands and the arrival point for nearly every visitor. The British founded a penal settlement here in the 1850s after the uprising of 1857, and the town's history is closely tied to India's freedom struggle.",
+    "The things to do in Port Blair include the Cellular Jail and its evening light and sound show, boat trips to Ross Island and North Bay, the beach at Corbyn's Cove, sunset at Chidiya Tapu, museums on the islands' marine life and tribes, and day trips to the marine national park at Wandoor and the caves of Baratang.",
+    "One to two days here is typical, split around a trip to Havelock and Neil. October to May is the best season."
+  ],
+  "quickAnswer": [
+    "Visit the Cellular Jail",
+    "Watch the Cellular Jail light and sound show",
+    "Take a boat to Ross Island",
+    "Snorkel or sea walk at North Bay",
+    "Relax at Corbyn's Cove",
+    "Watch sunset at Chidiya Tapu",
+    "See the Samudrika Naval Marine Museum",
+    "Visit the Anthropological Museum",
+    "Snorkel at Jolly Buoy from Wandoor",
+    "Take a day trip to Baratang"
+  ],
+  "sections": [
+    {
+      "id": "history",
+      "heading": "History",
+      "items": [
+        {
+          "name": "Visit the Cellular Jail",
+          "image": {
+            "src": "/images/blogs/andaman-and-nicobar/cellular-jail-andaman/cellular-jail-view.webp",
+            "alt": "Cellular Jail, Port Blair",
+            "caption": "Cellular Jail"
+          },
+          "body": [
+            "The Cellular Jail, completed in 1906, was built with seven wings radiating from a central tower, each with rows of solitary cells, so that prisoners could not communicate. Freedom fighters including Veer Savarkar were held here. Three wings survive, and the building is now a National Memorial with galleries and a museum. The tower gives views over the harbour."
+          ],
+          "links": [
+            {
+              "label": "Cellular Jail guide",
+              "href": "/blog/cellular-jail-andaman-travel-guide"
+            }
+          ],
+          "facts": {
+            "Time needed": "1.5–2 hours",
+            "Good to know": "Closed on Mondays and some holidays"
+          }
+        },
+        {
+          "name": "Watch the light and sound show",
+          "body": [
+            "The evening light and sound show in the jail courtyard narrates the prison's history. Shows in Hindi and English run at set times; tickets sell out, so book early in the day."
+          ],
+          "facts": {
+            "Best time": "Evening"
+          }
+        },
+        {
+          "name": "Explore Ross Island",
+          "image": {
+            "src": "/images/blogs/andaman-and-nicobar/ross-island-andaman/ross-island.webp",
+            "alt": "Ruins on Ross Island",
+            "caption": "Ross Island"
+          },
+          "body": [
+            "Ross Island, now Netaji Subhas Chandra Bose Dweep, was the British administrative headquarters with a church, club, bakery and bungalows. Abandoned after the 1941 earthquake and Japanese occupation, its ruins are now overgrown with roots. Deer and peacocks roam freely. A light show is held in the evening."
+          ],
+          "facts": {
+            "Time needed": "2 hours",
+            "Good to know": "Closed on Wednesdays"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sea",
+      "heading": "Sea and beaches",
+      "items": [
+        {
+          "name": "Snorkel or sea walk at North Bay",
+          "image": {
+            "src": "/images/blogs/andaman-and-nicobar/north-bay-island-andaman/the-lighthouse-north-bay-island-andaman.webp",
+            "alt": "Lighthouse on North Bay Island",
+            "caption": "North Bay lighthouse"
+          },
+          "body": [
+            "North Bay Island, visible from Port Blair, has coral reefs with glass-bottom boat rides, snorkelling, sea walking and scuba. Boats usually combine North Bay and Ross Island in a half day."
+          ],
+          "facts": {
+            "Time needed": "Half day with Ross Island",
+            "Good for": "Families, beginners"
+          }
+        },
+        {
+          "name": "Relax at Corbyn's Cove",
+          "body": [
+            "Corbyn's Cove, about 7 km from town, is a palm-fringed beach with water sports and cafés. Japanese bunkers from the Second World War can be seen along the coast road.",
+            "The coast road from town to Corbyn's Cove is itself a pleasant ride, passing the sea wall, small memorials and views across the harbour."
+          ],
+          "facts": {
+            "Best time": "Afternoon"
+          }
+        },
+        {
+          "name": "Watch sunset at Chidiya Tapu",
+          "image": {
+            "src": "/images/blogs/andaman-and-nicobar/chidiya-tapu-andaman/chidiya-tapu-2.webp",
+            "alt": "Coast at Chidiya Tapu at dusk",
+            "caption": "Chidiya Tapu"
+          },
+          "body": [
+            "Chidiya Tapu, about 25 km south, is known for its sunsets and birdlife. A forest trek leads to Munda Pahar beach, and there is a small biological park."
+          ],
+          "facts": {
+            "Best time": "Sunset"
+          }
+        },
+        {
+          "name": "Snorkel at Jolly Buoy from Wandoor",
+          "body": [
+            "Boats from Wandoor, about 30 km away, go to Jolly Buoy (in the dry season) or Red Skin (in the monsoon) in the Mahatma Gandhi Marine National Park, with some of the best snorkelling near Port Blair. Permits are limited and plastic is not allowed."
+          ],
+          "facts": {
+            "Good to know": "Book permits a day ahead"
+          }
+        }
+      ]
+    },
+    {
+      "id": "museums",
+      "heading": "Museums and viewpoints",
+      "items": [
+        {
+          "name": "See the Samudrika Naval Marine Museum",
+          "body": [
+            "Run by the Indian Navy, Samudrika has displays on the islands' geography, marine life, shells and corals, as well as their history and tribes."
+          ],
+          "facts": {
+            "Time needed": "1 hour",
+            "Good for": "Families"
+          }
+        },
+        {
+          "name": "Visit the Anthropological Museum",
+          "body": [
+            "The Anthropological Museum explains the indigenous peoples of the islands, including the Great Andamanese, Onge, Jarawa, Sentinelese and Nicobarese, with tools, models and photographs."
+          ]
+        },
+        {
+          "name": "See the view from Mount Harriet",
+          "body": [
+            "Mount Harriet (Mount Manipur) National Park, across the harbour, has a hilltop with views over the islands and forest trails. The view appears on the old 20-rupee note along with North Bay's lighthouse."
+          ],
+          "links": [
+            {
+              "label": "Mount Manipur guide",
+              "href": "/blog/mount-manipur-andaman-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Take a day trip to Baratang",
+          "body": [
+            "Baratang, about 100 km north, is reached by an early-morning road convoy through the Jarawa reserve, then a boat through mangroves to limestone caves. It is a long but memorable day."
+          ],
+          "links": [
+            {
+              "label": "Baratang guide",
+              "href": "/blog/baratang-andaman-travel-guide"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Families",
+      "text": "Cellular Jail and its show, Ross Island and North Bay, and Samudrika museum."
+    },
+    {
+      "who": "Couples",
+      "text": "Corbyn's Cove in the afternoon and sunset at Chidiya Tapu."
+    },
+    {
+      "who": "History lovers",
+      "text": "Cellular Jail, Ross Island, the Anthropological Museum and the Japanese bunkers."
+    },
+    {
+      "who": "Wildlife lovers",
+      "text": "Chidiya Tapu for birds, Mount Harriet's forest trails and snorkelling at Jolly Buoy."
+    }
+  ],
+  "oneDay": "Visit the Cellular Jail in the morning, then take a boat to Ross Island and North Bay for snorkelling or a glass-bottom boat ride. Relax at Corbyn's Cove in the late afternoon and return for the light and sound show at the jail.",
+  "tips": [
+    "The airport is close to town; flights arrive from Kolkata, Chennai, Delhi and other cities.",
+    "Ferries to Havelock and Neil leave from Haddo wharf and the Phoenix Bay jetty; book ahead.",
+    "Check closing days: the Cellular Jail and Ross Island close on different days.",
+    "Carry cash for boat tickets and small shops, though UPI is widely used.",
+    "Carry a light raincoat; short showers are common even outside the monsoon."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Port Blair?",
+      "a": "Visit the Cellular Jail and its light show, see Ross Island and North Bay, relax at Corbyn's Cove, watch sunset at Chidiya Tapu, visit Samudrika and the Anthropological Museum, and go to Jolly Buoy or Baratang."
+    },
+    {
+      "q": "Is Port Blair now called Sri Vijaya Puram?",
+      "a": "Yes. It was officially renamed Sri Vijaya Puram in 2024."
+    },
+    {
+      "q": "How many days are enough for Port Blair?",
+      "a": "One to two days, plus a day for Baratang if you wish."
+    },
+    {
+      "q": "What time is the Cellular Jail light show?",
+      "a": "There are evening shows in Hindi and English at set times; check and book on the day."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Havelock Island",
+      "href": "/blog/things-to-do-in-havelock-island",
+      "note": "beaches and diving, about two hours by ferry"
+    },
+    {
+      "name": "Things to do in Neil Island",
+      "href": "/blog/things-to-do-in-neil-island",
+      "note": "the quiet island"
+    },
+    {
+      "name": "Things to do in Andaman",
+      "href": "/blog/things-to-do-in-andaman",
+      "note": "the whole island group"
+    }
+  ],
+  "styles": [
+    "family-holidays",
+    "honeymoon"
+  ],
+  "metaDescription": "Things to do in Port Blair: the Cellular Jail and its light show, Ross Island, North Bay's corals, Corbyn's Cove, Chidiya Tapu sunset and more."
+}

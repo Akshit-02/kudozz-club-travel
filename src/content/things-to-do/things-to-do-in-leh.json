@@ -1,0 +1,310 @@
+{
+  "slug": "things-to-do-in-leh",
+  "destination": "Leh",
+  "guide": "leh-travel-guide",
+  "type": "town",
+  "title": "Things to Do in Leh: Palace, Old Town, Stupas & Indus Valley Monasteries",
+  "seoTitle": "Things to Do in Leh: Palace, Monasteries & Cafés | Kudozz Club",
+  "description": "Things to do in Leh: Leh Palace and the old town, Namgyal Tsemo, Shanti Stupa at sunset, the main bazaar and cafés, the Hall of Fame, Sankar Gompa, Thiksey, Shey and Hemis, Magnetic Hill, the Sangam and Spituk, and acclimatisation walks.",
+  "dek": "Ladakh's capital, a small mud-brick town below a 17th-century palace, where acclimatisation days are spent among stupas, bakeries and monasteries on the Indus.",
+  "primaryKeyword": "things to do in Leh",
+  "secondaryKeywords": [
+    "places to visit in Leh",
+    "Leh Palace",
+    "Shanti Stupa",
+    "Leh market",
+    "Thiksey Monastery",
+    "Magnetic Hill",
+    "Leh acclimatisation"
+  ],
+  "searchIntent": "Travellers arriving in Leh who need gentle things to do during two to three days of acclimatisation before heading to Nubra and Pangong.",
+  "tags": [
+    "Leh",
+    "Ladakh",
+    "Town",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/destinations/leh-ladakh/leh-palace-facade-old-town.webp",
+    "alt": "Leh Palace above the old town",
+    "caption": "Leh Palace"
+  },
+  "intro": [
+    "Leh, at about 3,500 metres, is the capital of Ladakh and was once a stop on caravan routes between Tibet, Kashmir and Central Asia. The old town clusters below Leh Palace, built by King Sengge Namgyal in the 17th century, with Namgyal Tsemo gompa on the ridge above.",
+    "The first days in Leh should be slow. That suits the town well: things to do in Leh include short walks in the old town, the palace, stupas and small monasteries, the main bazaar and its cafés, and easy half-day drives to Thiksey, Shey and Hemis on the Indus. Once you are acclimatised, Leh is the base for trips to Nubra, Pangong and beyond.",
+    "Two to three days in Leh itself is ideal. Leh town needs no permit; the Inner Line Permit is only needed for protected areas beyond."
+  ],
+  "quickAnswer": [
+    "Rest on day one, then walk the old town",
+    "Visit Leh Palace",
+    "Climb to Namgyal Tsemo gompa",
+    "Watch sunset at Shanti Stupa",
+    "Browse Leh's main bazaar and cafés",
+    "See the Hall of Fame museum",
+    "Visit Sankar Gompa",
+    "Take a half-day to Thiksey, Shey and Hemis",
+    "See Magnetic Hill and the Indus–Zanskar Sangam",
+    "Visit Spituk and Phyang monasteries"
+  ],
+  "sections": [
+    {
+      "id": "town",
+      "heading": "Leh town",
+      "items": [
+        {
+          "name": "Walk the old town",
+          "body": [
+            "Leh's old town, below the palace, is a warren of mud-brick houses, prayer wheels, chortens and narrow lanes. Several houses have been restored as part of heritage projects. It is a gentle walk, ideal for the first days, and best early in the morning."
+          ],
+          "facts": {
+            "Time needed": "1–2 hours",
+            "Best time": "Morning",
+            "Good for": "Everyone"
+          }
+        },
+        {
+          "name": "Visit Leh Palace",
+          "body": [
+            "The nine-storey Leh Palace, modelled in part on the Potala Palace in Lhasa, was the royal residence until the 19th century. It is maintained by the Archaeological Survey of India. Inside, you can see old rooms, a small gallery and, from the roof, sweeping views of Leh and the Stok range."
+          ],
+          "facts": {
+            "Time needed": "1 hour",
+            "Good to know": "Steep steps; go slowly"
+          }
+        },
+        {
+          "name": "Climb to Namgyal Tsemo",
+          "image": {
+            "src": "/images/destinations/leh-ladakh/namgyal-tsemo-fort-gompa.webp",
+            "alt": "Namgyal Tsemo gompa and fort above Leh",
+            "caption": "Namgyal Tsemo"
+          },
+          "body": [
+            "Namgyal Tsemo, a gompa and fort ruins on the ridge above the palace, has a large Maitreya statue and prayer flags strung across the hill. The climb is steep; do it only after a day or two of acclimatisation, or drive up by the road at the back."
+          ],
+          "facts": {
+            "Time needed": "1.5 hours"
+          }
+        },
+        {
+          "name": "Watch sunset at Shanti Stupa",
+          "image": {
+            "src": "/images/destinations/leh-ladakh/shanti-stupa-leh.webp",
+            "alt": "White Shanti Stupa on a hill above Leh",
+            "caption": "Shanti Stupa"
+          },
+          "body": [
+            "Shanti Stupa, a white stupa built by Japanese and Ladakhi Buddhists and inaugurated in 1991, stands on a hill at Changspa. You can drive up or climb the steps. The view of Leh and the mountains at sunset is the town's classic evening."
+          ],
+          "facts": {
+            "Best time": "Sunset",
+            "Good for": "Everyone"
+          }
+        },
+        {
+          "name": "Browse the main bazaar",
+          "image": {
+            "src": "/images/destinations/leh-ladakh/leh-market-main-bazaar.webp",
+            "alt": "Leh main bazaar with shops and mountains",
+            "caption": "Leh main bazaar"
+          },
+          "body": [
+            "The pedestrianised main bazaar is lined with shops selling pashmina, Tibetan jewellery, prayer flags and apricot products. Ladakhi women sell fresh vegetables along the pavement. The cafés and bakeries in and around the bazaar and on Changspa Road serve everything from Ladakhi skyu and thukpa to apricot cake."
+          ],
+          "facts": {
+            "Best time": "Late afternoon and evening"
+          }
+        },
+        {
+          "name": "See the Hall of Fame",
+          "image": {
+            "src": "/images/destinations/leh-ladakh/hall-of-fame-museum-leh.webp",
+            "alt": "Hall of Fame museum near Leh",
+            "caption": "Hall of Fame"
+          },
+          "body": [
+            "The Hall of Fame, run by the Indian Army a few kilometres from town, is a museum dedicated to soldiers who died defending the region, with exhibits on the wars and on Ladakh's culture and wildlife. The evening light and sound show adds to the visit."
+          ],
+          "facts": {
+            "Time needed": "1–1.5 hours"
+          }
+        },
+        {
+          "name": "Visit Sankar Gompa",
+          "image": {
+            "src": "/images/destinations/leh-ladakh/sankar-gompa-monastery-leh.webp",
+            "alt": "Sankar Gompa in Leh",
+            "caption": "Sankar Gompa"
+          },
+          "body": [
+            "Sankar Gompa, a small monastery a short walk north of the town centre, belongs to the Gelug school and has a statue of Avalokiteshvara with many arms and heads. It is quiet and easy to reach."
+          ],
+          "facts": {
+            "Time needed": "45 minutes"
+          }
+        }
+      ]
+    },
+    {
+      "id": "indus",
+      "heading": "Along the Indus",
+      "items": [
+        {
+          "name": "See Thiksey and Shey",
+          "body": [
+            "Thiksey Monastery, about 19 km south-east of Leh, is a hilltop complex with a two-storey Maitreya Buddha. Arrive for morning prayers around dawn. On the way, Shey Palace, the old summer palace, has a large seated Buddha statue and views over the Indus."
+          ],
+          "links": [
+            {
+              "label": "Thiksey travel guide",
+              "href": "/blog/thiksey-travel-guide"
+            }
+          ],
+          "facts": {
+            "Time needed": "Half a day"
+          }
+        },
+        {
+          "name": "Visit Hemis",
+          "body": [
+            "Hemis Monastery, about 45 km from Leh, is the largest in Ladakh and hosts the colourful Hemis festival in June or July. Its museum holds thangkas, statues and ritual objects."
+          ],
+          "links": [
+            {
+              "label": "Hemis travel guide",
+              "href": "/blog/hemis-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "See Magnetic Hill and the Sangam",
+          "body": [
+            "West of Leh on the Srinagar road, Magnetic Hill is a stretch where an optical illusion makes vehicles appear to roll uphill. Nearby, at Nimmu, the muddy Zanskar meets the blue-green Indus at the Sangam. Gurudwara Pathar Sahib, on the same road, is linked to Guru Nanak."
+          ],
+          "facts": {
+            "Time needed": "Half a day"
+          }
+        },
+        {
+          "name": "Visit Spituk and Phyang",
+          "body": [
+            "Spituk Monastery, near the airport, sits on a hill above the Indus and hosts a winter festival. Phyang, a few kilometres west, is a large monastery with a summer festival and a quieter atmosphere."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "heading": "Food, museums and festivals",
+      "items": [
+        {
+          "name": "Eat Ladakhi food",
+          "body": [
+            "Try skyu (hand-rolled pasta stew), thukpa, momos, khambir (a thick local bread) with apricot jam, and butter tea (gur gur cha). Several small restaurants in and around the old town serve home-style Ladakhi dishes, and the Women's Alliance of Ladakh has run a café serving traditional food. Seabuckthorn juice, made from a hardy local berry, is everywhere."
+          ],
+          "facts": {
+            "Good for": "Food lovers"
+          }
+        },
+        {
+          "name": "See the Central Asian Museum and LAMO",
+          "body": [
+            "The Central Asian Museum, in the old town, is built like a traditional fort-tower and tells the story of Leh's place on caravan routes to Yarkand, Tibet and Kashmir. LAMO (Ladakh Arts and Media Organisation), in two restored old-town houses, hosts exhibitions and has views over the rooftops."
+          ],
+          "facts": {
+            "Time needed": "1–1.5 hours each"
+          }
+        },
+        {
+          "name": "Visit Stok Palace",
+          "body": [
+            "Stok Palace, about 15 km across the Indus, is the residence of the former Ladakhi royal family. Part of it is a museum with royal costumes, jewellery, thangkas and the queen's turquoise headdress (perak). Part of it has also operated as a heritage stay."
+          ],
+          "facts": {
+            "Time needed": "1.5 hours"
+          }
+        },
+        {
+          "name": "Catch a festival",
+          "body": [
+            "The Ladakh Festival, held in Leh in September, has parades, masked dances, archery and polo. Monastery festivals with cham dances take place through the year, including Hemis in summer and Spituk and Thiksey in winter. Losar, the Ladakhi new year, falls in December or January. Dates follow the lunar calendar."
+          ],
+          "facts": {
+            "Best time": "September for the Ladakh Festival"
+          }
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "First-day arrivals",
+      "text": "Rest completely on day one, drink water, then do only the old town and Shanti Stupa by car on day two."
+    },
+    {
+      "who": "Culture seekers",
+      "text": "Morning prayers at Thiksey, Hemis museum, the old town and a long café afternoon in the bazaar."
+    },
+    {
+      "who": "Families",
+      "text": "Hall of Fame, Magnetic Hill and the Sangam, and the palace are easy with children once acclimatised."
+    }
+  ],
+  "oneDay": "Drive to Thiksey for morning prayers, then visit Shey Palace. Return to Leh for lunch in the bazaar. Walk through the old town to Leh Palace in the afternoon, visit the Hall of Fame and end at Shanti Stupa for sunset.",
+  "tips": [
+    "Rest for 24 to 48 hours on arrival; avoid alcohol and strenuous walks until you have acclimatised.",
+    "Leh's airport has flights from Delhi and other cities; roads from Manali and Srinagar are open roughly from May or June to October.",
+    "Water is scarce in Leh; use it carefully and refill bottles at water stations to reduce plastic.",
+    "Get Inner Line Permits for onward trips in advance, online or at the DC office."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Leh?",
+      "a": "Walk the old town, visit Leh Palace and Namgyal Tsemo, watch sunset at Shanti Stupa, explore the main bazaar, see the Hall of Fame and Sankar Gompa, and take half-day trips to Thiksey, Shey, Hemis, Magnetic Hill and the Sangam."
+    },
+    {
+      "q": "Do I need a permit to visit Leh?",
+      "a": "No. Permits are only needed for protected areas such as Nubra, Pangong and Tso Moriri."
+    },
+    {
+      "q": "How many days should I spend in Leh?",
+      "a": "Two to three days for acclimatisation and local sightseeing before heading to higher areas."
+    },
+    {
+      "q": "What is the best time to visit Leh?",
+      "a": "June to September for the full range of trips. Early September is quieter and still warm."
+    },
+    {
+      "q": "How do I avoid altitude sickness in Leh?",
+      "a": "Rest completely for the first day, drink plenty of water, avoid alcohol and heavy exertion for two days, and ascend gradually. Headache, nausea and breathlessness at rest are warning signs; if they worsen, descend and see a doctor. Leh has a well-equipped hospital."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Ladakh",
+      "href": "/blog/things-to-do-in-ladakh",
+      "note": "the full region, from Pangong to Zanskar"
+    },
+    {
+      "name": "Things to do in Nubra Valley",
+      "href": "/blog/things-to-do-in-nubra-valley",
+      "note": "over Khardung La"
+    },
+    {
+      "name": "Pangong Lake",
+      "href": "/blog/pangong-lake-travel-guide",
+      "note": "the famous lake, five to six hours east"
+    },
+    {
+      "name": "Hemis",
+      "href": "/blog/hemis-travel-guide",
+      "note": "the great monastery and national park"
+    }
+  ],
+  "styles": [
+    "adventure-tours",
+    "family-holidays",
+    "group-tours"
+  ],
+  "metaDescription": "Things to do in Leh: Leh Palace and the old town, Namgyal Tsemo, Shanti Stupa at sunset, the main bazaar and cafés, the Hall of Fame, Sankar Gompa, Thiksey, Shey and Hemis and more."
+}

@@ -1,0 +1,325 @@
+{
+  "slug": "things-to-do-in-alleppey",
+  "destination": "Alappuzha",
+  "guide": "alappuzha-travel-guide",
+  "type": "backwater town",
+  "title": "Things to Do in Alleppey (Alappuzha): Houseboats, Canals, Beaches & Boat Races",
+  "seoTitle": "Things to Do in Alleppey (Alappuzha) | Kudozz Club",
+  "description": "Things to do in Alleppey: a houseboat night on the backwaters, canoe and kayak rides through village canals, Kuttanad's below-sea-level paddy fields, Alappuzha beach and pier, Marari beach, the Nehru Trophy Boat Race, Krishnapuram Palace, Ambalappuzha and Kerala food.",
+  "dek": "Kerala's backwater capital, a canal town on Vembanad Lake where houseboats, snake boats and village canoes share the water.",
+  "primaryKeyword": "things to do in Alleppey",
+  "secondaryKeywords": [
+    "things to do in Alappuzha",
+    "Alleppey houseboat",
+    "Alleppey canoe ride",
+    "Nehru Trophy Boat Race",
+    "Marari beach",
+    "Kuttanad",
+    "Alleppey for couples"
+  ],
+  "searchIntent": "Honeymooners and families planning one or two nights in Alleppey, choosing between houseboats, canoes and beaches.",
+  "tags": [
+    "Alappuzha",
+    "Kerala",
+    "Backwaters",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/kerala/alappuzha/punnamada-lake-alappuzha-alleppey-2.webp",
+    "alt": "Houseboats on Punnamada Lake, Alappuzha",
+    "caption": "Punnamada Lake"
+  },
+  "intro": [
+    "Alappuzha, still widely called Alleppey, lies between Vembanad Lake and the Arabian Sea in central Kerala. Its canals and the network of backwaters around it earned it the name Venice of the East. It was once an important port and centre of the coir industry, and today it is the starting point for most houseboat cruises in Kerala.",
+    "The things to do in Alleppey centre on the water: a night on a houseboat, canoe and kayak trips through narrow village canals, the paddy fields of Kuttanad that lie below sea level, and, in August, the thunderous Nehru Trophy Boat Race. Alappuzha beach and Marari beach add sand and sunsets, and nearby temples and palaces add history.",
+    "One or two nights is typical. September to March is the best season; the monsoon is lush and brings the boat races, but it is wet."
+  ],
+  "quickAnswer": [
+    "Spend a night on a houseboat",
+    "Take a canoe through village canals",
+    "Kayak on the backwaters at sunrise",
+    "See Kuttanad's paddy fields below sea level",
+    "Watch sunset at Alappuzha beach and pier",
+    "Stay near the sand at Marari beach",
+    "See the Nehru Trophy Boat Race (August)",
+    "Visit Krishnapuram Palace",
+    "Taste palpayasam at Ambalappuzha",
+    "Eat karimeen and Kerala toddy-shop food"
+  ],
+  "sections": [
+    {
+      "id": "water",
+      "heading": "On the backwaters",
+      "items": [
+        {
+          "name": "Spend a night on a houseboat",
+          "body": [
+            "A standard cruise starts around noon from Alleppey's Finishing Point or Punnamada, sails through the backwaters with lunch, tea and dinner cooked on board, moors for the night and returns the next morning. Boats range from simple to luxurious, with one to several bedrooms. Night cruising is not allowed, and boats moor by around 5.30 p.m.",
+            "Book with registered operators, confirm the route, meals and air-conditioning hours in writing, and read recent reviews."
+          ],
+          "facts": {
+            "Time needed": "About 21 hours",
+            "Best time": "September to March",
+            "Good for": "Couples, families"
+          }
+        },
+        {
+          "name": "Take a canoe through the canals",
+          "image": {
+            "src": "/images/blogs/kerala/alappuzha/kuttanad-alappuzha-alleppey-2.webp",
+            "alt": "Narrow canal through Kuttanad paddy fields",
+            "caption": "Kuttanad"
+          },
+          "body": [
+            "Small canoes and shikaras reach narrow village canals where houseboats cannot go. Three- or four-hour trips pass homes, small temples and churches, coir makers, fishermen and paddy fields, often with a stop for toddy or a home-cooked meal."
+          ],
+          "facts": {
+            "Time needed": "3–4 hours",
+            "Best time": "Morning"
+          }
+        },
+        {
+          "name": "Kayak at sunrise",
+          "body": [
+            "Guided kayak tours through the quieter canals at dawn are a peaceful way to see village life waking up and spot kingfishers and herons."
+          ],
+          "facts": {
+            "Best time": "Sunrise",
+            "Good for": "Active travellers"
+          }
+        },
+        {
+          "name": "See Kuttanad's farms below sea level",
+          "body": [
+            "Kuttanad, the rice bowl of Kerala, is one of the few places in the world where farming takes place below sea level, protected by dykes. The system has been recognised by the FAO as a Globally Important Agricultural Heritage System."
+          ]
+        },
+        {
+          "name": "Take the public ferry",
+          "body": [
+            "The state water transport ferries between Alappuzha and Kottayam or Changanassery cross the backwaters and Vembanad Lake for a tiny fare. The journey of two to three hours passes villages and paddy fields and is a favourite with budget travellers."
+          ],
+          "facts": {
+            "Good for": "Budget travellers"
+          }
+        }
+      ]
+    },
+    {
+      "id": "beaches",
+      "heading": "Beaches",
+      "items": [
+        {
+          "name": "Watch sunset at Alappuzha beach",
+          "image": {
+            "src": "/images/blogs/kerala/alappuzha/alappuzha-beach-alappuzha-alleppey-2.webp",
+            "alt": "Alappuzha beach and pier",
+            "caption": "Alappuzha beach"
+          },
+          "body": [
+            "Alappuzha beach has the remains of a pier more than 150 years old and a lighthouse that can be climbed for views. It is busy with families in the evening."
+          ],
+          "facts": {
+            "Best time": "Sunset"
+          }
+        },
+        {
+          "name": "Stay at Marari beach",
+          "body": [
+            "Marari, about 11 km north, is a quiet fishing-village beach with homestays and resorts under coconut palms. Fishermen launch boats in the morning."
+          ],
+          "facts": {
+            "Good for": "Couples"
+          }
+        }
+      ]
+    },
+    {
+      "id": "more",
+      "heading": "More around Alleppey",
+      "items": [
+        {
+          "name": "Visit Pathiramanal island",
+          "body": [
+            "Pathiramanal, a small island in Vembanad Lake reached by boat from Alappuzha or Kumarakom, is covered in trees and is a resting place for many birds, especially in winter. Some houseboat routes stop here."
+          ],
+          "facts": {
+            "Best time": "November to February",
+            "Good for": "Birdwatchers"
+          }
+        },
+        {
+          "name": "See Champakulam and its church",
+          "body": [
+            "Champakulam, a village on the Pamba river, has one of the oldest churches in Kerala, St Mary's Forane Church, and hosts the Champakulam Moolam boat race in early summer, one of the oldest snake boat races in the state."
+          ]
+        },
+        {
+          "name": "Cycle along the canals",
+          "body": [
+            "Renting a bicycle is a pleasant way to explore Alleppey town's canals, old warehouses and the lighthouse, and to ride out along the lake roads to villages. Early morning and late afternoon are coolest."
+          ],
+          "facts": {
+            "Good for": "Active travellers"
+          }
+        },
+        {
+          "name": "Visit Mullakkal Temple and St Andrew's Church, Arthunkal",
+          "body": [
+            "Mullakkal Rajarajeswari Temple in the town centre is a busy local temple with a colourful festival in December. St Andrew's Church at Arthunkal, on the coast north of town, dates back to the Portuguese period and holds a large feast in January."
+          ]
+        },
+        {
+          "name": "See the Revi Karuna Karan Museum",
+          "body": [
+            "The Revi Karuna Karan Memorial Museum in Alappuzha has a private collection of ivory, crystal, porcelain and art, housed in a building with a striking façade. It is a good rainy-day stop."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "heading": "Races, temples and palaces",
+      "items": [
+        {
+          "name": "Watch the Nehru Trophy Boat Race",
+          "body": [
+            "The Nehru Trophy Boat Race, held on Punnamada Lake usually on the second Saturday of August, pits huge snake boats (chundan vallams) with over a hundred rowers each against each other, with songs and drums. It began in 1952 after a visit by Jawaharlal Nehru. Tickets for the pavilions are sold in advance."
+          ],
+          "facts": {
+            "Best time": "August"
+          }
+        },
+        {
+          "name": "Visit Krishnapuram Palace",
+          "body": [
+            "Krishnapuram Palace, about 45 km south near Kayamkulam, is an 18th-century palace in Kerala style. It has one of the largest single murals in Kerala, the Gajendra Moksham, and a small museum."
+          ],
+          "facts": {
+            "Time needed": "1 hour"
+          }
+        },
+        {
+          "name": "Taste palpayasam at Ambalappuzha",
+          "body": [
+            "The Sri Krishna Temple at Ambalappuzha, about 14 km south, is famous for its palpayasam, a rice and milk pudding offered to the deity and sold to devotees."
+          ]
+        },
+        {
+          "name": "See the coir heritage",
+          "body": [
+            "Alappuzha was the centre of Kerala's coir industry, making rope and mats from coconut fibre. Coir museums and small workshops show the process."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "heading": "Food",
+      "items": [
+        {
+          "name": "Eat karimeen and toddy-shop food",
+          "body": [
+            "Try karimeen pollichathu (pearl spot fish in banana leaf), duck roast, tapioca with fish curry and appam. Toddy shops, which serve palm toddy with spicy food, are part of local life."
+          ],
+          "facts": {
+            "Good for": "Food lovers"
+          }
+        }
+      ]
+    },
+    {
+      "id": "seasons",
+      "heading": "Alleppey by season",
+      "items": [
+        {
+          "name": "Winter (October to February)",
+          "body": [
+            "Pleasant days, calm water and migrant birds make this the peak houseboat season. December and January are busiest and most expensive."
+          ]
+        },
+        {
+          "name": "Monsoon (June to September)",
+          "body": [
+            "Heavy rain turns the paddy fields bright green, and houseboat rates are lower. The Nehru Trophy Boat Race in August is the highlight. Cruises continue, but weather can be unpredictable."
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Honeymooners",
+      "text": "A private houseboat, a morning kayak and two nights at Marari beach."
+    },
+    {
+      "who": "Families",
+      "text": "A houseboat with a few bedrooms, a canoe ride and sunset at Alappuzha beach."
+    },
+    {
+      "who": "Budget travellers",
+      "text": "A canoe tour and the public ferry to Kottayam for a cheap backwater ride."
+    },
+    {
+      "who": "Photographers",
+      "text": "Sunrise kayaking in the narrow canals, Kuttanad's paddy fields in the monsoon and the snake boat races in August."
+    }
+  ],
+  "oneDay": "Kayak or canoe through the village canals in the morning. Board a houseboat at noon for lunch and an afternoon cruise, or if you are not staying overnight, spend the afternoon at Alappuzha beach and climb the lighthouse for sunset.",
+  "tips": [
+    "Alappuzha is about 85 km from Kochi airport; the town has a railway station.",
+    "The state water transport ferry from Alappuzha to Kottayam is a cheap backwater ride.",
+    "Carry insect repellent for the evenings.",
+    "Book houseboats early for December and January.",
+    "Houseboats moor for the night by about 5.30 p.m.; the best cruising light is in the afternoon."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Alleppey?",
+      "a": "Stay on a houseboat, take a canoe through village canals, kayak at sunrise, see Kuttanad, watch sunset at Alappuzha beach, stay at Marari and watch the Nehru Trophy Boat Race in August."
+    },
+    {
+      "q": "How long is a houseboat cruise in Alleppey?",
+      "a": "A standard overnight cruise lasts about 21 hours, from around noon to 9 a.m. the next day."
+    },
+    {
+      "q": "When is the Nehru Trophy Boat Race?",
+      "a": "Usually on the second Saturday of August."
+    },
+    {
+      "q": "Alleppey or Kumarakom: which is better?",
+      "a": "Alleppey has more houseboats and canals; Kumarakom is quieter, with lakeside resorts and a bird sanctuary."
+    },
+    {
+      "q": "What should I check before booking an Alleppey houseboat?",
+      "a": "Confirm that the operator is registered, the boat's size and number of bedrooms, the route, what meals are included, air-conditioning hours (often only at night) and check-in and check-out times. Read recent reviews and look at photos of the actual boat."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Kumarakom",
+      "href": "/blog/things-to-do-in-kumarakom",
+      "note": "across Vembanad Lake"
+    },
+    {
+      "name": "Things to do in Kochi",
+      "href": "/blog/things-to-do-in-kochi",
+      "note": "about an hour and a half north"
+    },
+    {
+      "name": "Things to do in Varkala",
+      "href": "/blog/things-to-do-in-varkala",
+      "note": "cliff beaches to the south"
+    },
+    {
+      "name": "Munroe Island",
+      "href": "/blog/munroe-island-travel-guide",
+      "note": "canoe trips near Kollam"
+    }
+  ],
+  "styles": [
+    "honeymoon",
+    "family-holidays"
+  ],
+  "metaDescription": "Things to do in Alleppey: a houseboat night on the backwaters, canoe and kayak rides through village canals, Kuttanad's below-sea-level paddy fields, Alappuzha beach and pier and more."
+}

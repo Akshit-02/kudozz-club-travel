@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/jammu-kashmir/dal.jpg",
+        url: "/images/blogs/gujarat/surat/dumas-beach-surat.webp",
         width: 2560,
         height: 1707,
-        alt: "Riverfront promenade scenery representative of Surat, Gujarat",
+        alt: "Dumas beach at sunset, Surat",
       },
     ],
   },
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     title: "Surat Travel Guide: Diamond City, Riverfront & Street Food",
     description:
       "The Tapi Riverfront, Surat Castle, and a street food scene that rivals Ahmedabad's — the complete guide to Surat.",
-    images: ["/images/destinations/jammu-kashmir/dal.jpg"],
+    images: ["/images/blogs/gujarat/surat/dumas-beach-surat.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/surat-travel-guide" },
 };
@@ -50,7 +50,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Surat Travel Guide: Diamond City, Riverfront & Street Food",
           description: "The complete Surat travel guide.",
-          image: "https://club.kudozz.in/images/destinations/jammu-kashmir/dal.jpg",
+          image: "https://club.kudozz.in/images/blogs/gujarat/surat/dumas-beach-surat.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
           publisher: {
@@ -153,8 +153,8 @@ export default function SuratGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/jammu-kashmir/dal.jpg"
-              alt="Riverfront promenade scenery representative of Surat, Gujarat"
+              src="/images/blogs/gujarat/surat/dumas-beach-surat.webp"
+              alt="Dumas beach at sunset, Surat"
               fill
               priority
               sizes="100vw"

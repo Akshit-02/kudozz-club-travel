@@ -1,0 +1,296 @@
+{
+  "slug": "things-to-do-in-puri",
+  "destination": "Puri",
+  "guide": "puri-travel-guide",
+  "type": "temple town",
+  "title": "Things to Do in Puri: Jagannath Temple, Rath Yatra, Beaches & Konark",
+  "seoTitle": "Things to Do in Puri: Jagannath, Beach & Konark | Kudozz Club",
+  "description": "Things to do in Puri: the Jagannath Temple and its Mahaprasad, the Rath Yatra, Puri beach and sand art, Golden Beach, Swargadwar, Raghurajpur's pattachitra painters, the Konark Sun Temple, Chandrabhaga beach, Chilika Lake's dolphins and Pipli's appliqué work.",
+  "dek": "One of the Char Dham on the Bay of Bengal, home of Lord Jagannath and his chariot festival, with a long beach and some of Odisha's greatest art within an hour.",
+  "primaryKeyword": "things to do in Puri",
+  "secondaryKeywords": [
+    "places to visit in Puri",
+    "Jagannath Temple Puri",
+    "Rath Yatra",
+    "Puri beach",
+    "Konark Sun Temple",
+    "Raghurajpur",
+    "Chilika Lake"
+  ],
+  "searchIntent": "Pilgrims and families planning two or three days in Puri, often with Konark and Bhubaneswar.",
+  "tags": [
+    "Puri",
+    "Odisha",
+    "Pilgrimage",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/odisha/puri/puri-beach.webp",
+    "alt": "Puri beach on the Bay of Bengal",
+    "caption": "Puri beach"
+  },
+  "intro": [
+    "Puri, on the coast of Odisha, is one of the four Char Dham pilgrimage sites and the home of Lord Jagannath, a form of Vishnu worshipped with his siblings Balabhadra and Subhadra. The 12th-century temple dominates the town, and the annual Rath Yatra, when the deities ride huge chariots through the streets, draws millions.",
+    "The things to do in Puri include darshan at the Jagannath Temple and tasting its Mahaprasad, walking the long beach where sand artists work, visiting the Gundicha Temple and the painters' village of Raghurajpur. Konark's Sun Temple, a UNESCO World Heritage Site, and Chilika Lake, Asia's largest brackish-water lagoon, are easy day trips.",
+    "Two to three days is ideal. October to March is the best season; the Rath Yatra falls in June or July."
+  ],
+  "quickAnswer": [
+    "Visit the Jagannath Temple",
+    "Eat Mahaprasad at Ananda Bazar",
+    "Witness the Rath Yatra",
+    "Walk Puri beach and see the sand art",
+    "Relax at Golden Beach",
+    "Visit the Gundicha Temple",
+    "Meet the pattachitra painters of Raghurajpur",
+    "See the Konark Sun Temple",
+    "Look for dolphins on Chilika Lake",
+    "Buy Pipli appliqué"
+  ],
+  "sections": [
+    {
+      "id": "temple",
+      "heading": "Jagannath Temple",
+      "items": [
+        {
+          "name": "Visit the Jagannath Temple",
+          "image": {
+            "src": "/images/blogs/odisha/puri/jagannath-temple-puri.webp",
+            "alt": "Jagannath Temple, Puri",
+            "caption": "Jagannath Temple"
+          },
+          "body": [
+            "The Jagannath Temple, built in the 12th century under the Eastern Ganga king Anantavarman Chodaganga Deva, rises in the Kalinga style to a height of about 65 metres. Entry is restricted to Hindus. Non-Hindus can view the temple from the roof of the Raghunandan Library opposite the main gate. Phones, cameras and leather items are not allowed inside."
+          ],
+          "facts": {
+            "Time needed": "2 hours",
+            "Good to know": "Hindus only inside; no phones"
+          }
+        },
+        {
+          "name": "Eat Mahaprasad",
+          "body": [
+            "The temple kitchen, one of the largest in the world, cooks food in earthen pots on wood fires. After being offered to Jagannath, it is sold as Mahaprasad at Ananda Bazar inside the temple complex. Rice, dal, vegetables and sweets are served on leaf plates."
+          ]
+        },
+        {
+          "name": "Witness the Rath Yatra",
+          "image": {
+            "src": "/images/blogs/odisha/puri/rath-yatra-puri.webp",
+            "alt": "Chariots during the Rath Yatra, Puri",
+            "caption": "Rath Yatra"
+          },
+          "body": [
+            "During the Rath Yatra, in June or July, Jagannath, Balabhadra and Subhadra are brought out in three towering wooden chariots, newly built each year, and pulled by devotees along the Grand Road to the Gundicha Temple. Crowds are immense; book stays months in advance and follow official guidance."
+          ],
+          "facts": {
+            "Best time": "June or July"
+          }
+        },
+        {
+          "name": "Visit the Gundicha Temple",
+          "image": {
+            "src": "/images/blogs/odisha/puri/gundicha-temple-puri.webp",
+            "alt": "Gundicha Temple, Puri",
+            "caption": "Gundicha Temple"
+          },
+          "body": [
+            "The Gundicha Temple, at the other end of the Grand Road, is where the deities stay for about a week during the Rath Yatra. It sits in a garden and is calmer at other times."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beaches",
+      "heading": "Beaches",
+      "items": [
+        {
+          "name": "Walk Puri beach",
+          "body": [
+            "Puri's long beach is busy with pilgrims, fishermen and families. Sand artists create sculptures, and the internationally known sand artist Sudarsan Pattnaik is from here. Currents are strong; swim only with lifeguards and where flags show it is safe."
+          ],
+          "facts": {
+            "Best time": "Sunrise and evening",
+            "Good to know": "Swim only in safe, guarded areas"
+          }
+        },
+        {
+          "name": "Relax at Golden Beach",
+          "body": [
+            "Golden Beach, a Blue Flag-certified stretch of Puri beach, has cleaner sand, facilities and lifeguards."
+          ],
+          "facts": {
+            "Good for": "Families"
+          }
+        },
+        {
+          "name": "See Swargadwar",
+          "body": [
+            "Swargadwar, on the beach, is the cremation ground considered sacred by Hindus. Pilgrims also bathe in the sea here."
+          ]
+        },
+        {
+          "name": "Drive the Marine Drive to Konark",
+          "body": [
+            "The coastal road from Puri to Konark runs past casuarina forests, fishing villages and the Balukhand sanctuary, with beaches such as Ramchandi and Chandrabhaga along the way."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day-trips",
+      "heading": "Day trips",
+      "items": [
+        {
+          "name": "See the Konark Sun Temple",
+          "image": {
+            "src": "/images/blogs/odisha/konark/the-wheels-and-horses-konark-sun-temple.webp",
+            "alt": "Carved stone wheel at the Konark Sun Temple",
+            "caption": "Konark Sun Temple"
+          },
+          "body": [
+            "The Konark Sun Temple, about 35 km away, was built in the 13th century as a colossal chariot of the sun god, with 24 carved stone wheels and seven horses. It is a UNESCO World Heritage Site. Its walls are covered with carvings of daily life, music, dance and erotic figures. The Konark Dance Festival is held in December."
+          ],
+          "links": [
+            {
+              "label": "Konark guide",
+              "href": "/blog/konark-travel-guide"
+            }
+          ],
+          "facts": {
+            "Time needed": "2–3 hours",
+            "Best time": "Morning or late afternoon"
+          }
+        },
+        {
+          "name": "Meet the painters of Raghurajpur",
+          "image": {
+            "src": "/images/blogs/odisha/odisha/pattachitra-paintings-raghurajpur-village.webp",
+            "alt": "Pattachitra paintings at Raghurajpur",
+            "caption": "Raghurajpur"
+          },
+          "body": [
+            "Raghurajpur, about 14 km away, is a heritage crafts village where nearly every house is a studio for pattachitra (cloth scroll painting), palm-leaf engraving, masks and toys. It is also the birthplace of the Odissi guru Kelucharan Mohapatra and of the Gotipua dance tradition."
+          ],
+          "facts": {
+            "Time needed": "2 hours",
+            "Good for": "Art lovers"
+          }
+        },
+        {
+          "name": "Look for dolphins on Chilika Lake",
+          "body": [
+            "Chilika, about 50 km away, is Asia's largest brackish-water lagoon. Boat trips from Satapada look for Irrawaddy dolphins, and in winter the lake hosts huge numbers of migratory birds, especially at Nalabana."
+          ],
+          "links": [
+            {
+              "label": "Chilika Lake guide",
+              "href": "/blog/chilika-lake-travel-guide"
+            }
+          ],
+          "facts": {
+            "Best time": "November to March"
+          }
+        },
+        {
+          "name": "Buy Pipli appliqué",
+          "body": [
+            "Pipli, on the road to Bhubaneswar, is famous for colourful appliqué work: canopies, lamp shades, bags and wall hangings."
+          ],
+          "facts": {
+            "Good for": "Shoppers"
+          }
+        }
+      ]
+    },
+    {
+      "id": "seasons",
+      "heading": "By season",
+      "items": [
+        {
+          "name": "October to March",
+          "body": [
+            "Pleasant weather for temples, beaches and day trips; the Konark Dance Festival is held in December."
+          ]
+        },
+        {
+          "name": "April to June",
+          "body": [
+            "Hot and humid, but festival season builds towards the Snana Purnima and Rath Yatra."
+          ]
+        },
+        {
+          "name": "July to September",
+          "body": [
+            "Monsoon rain; the Rath Yatra usually falls at the start of this period, and the sea is rough."
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Pilgrims",
+      "text": "Jagannath darshan, Mahaprasad, Gundicha and the Rath Yatra if you can manage the crowds."
+    },
+    {
+      "who": "Families",
+      "text": "Golden Beach, Konark and a boat on Chilika."
+    },
+    {
+      "who": "Culture seekers",
+      "text": "Raghurajpur, Konark's carvings and the Konark Dance Festival in December."
+    }
+  ],
+  "oneDay": "Have darshan at the Jagannath Temple early and eat Mahaprasad for lunch. Visit Raghurajpur in the afternoon, and end with a sunset walk on Puri beach among the sand sculptures.",
+  "tips": [
+    "Puri has a railway station; Bhubaneswar airport is about 60 km away.",
+    "Beware of touts and priests demanding money at the temple; use official counters.",
+    "Book rooms months ahead for the Rath Yatra.",
+    "Swim only in guarded areas."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Puri?",
+      "a": "Visit the Jagannath Temple and eat Mahaprasad, walk Puri and Golden beaches, visit Gundicha and Raghurajpur, see the Konark Sun Temple and take a boat on Chilika Lake."
+    },
+    {
+      "q": "Can non-Hindus enter the Jagannath Temple?",
+      "a": "No. Non-Hindus can view the temple from the roof of the Raghunandan Library opposite."
+    },
+    {
+      "q": "When is the Rath Yatra?",
+      "a": "In June or July, on the second day of the bright fortnight of Ashadha."
+    },
+    {
+      "q": "How far is Konark from Puri?",
+      "a": "About 35 km, under an hour by road."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Bhubaneswar",
+      "href": "/blog/things-to-do-in-bhubaneswar",
+      "note": "the temple city, about 60 km away"
+    },
+    {
+      "name": "Konark",
+      "href": "/blog/konark-travel-guide",
+      "note": "the Sun Temple"
+    },
+    {
+      "name": "Chilika Lake",
+      "href": "/blog/chilika-lake-travel-guide",
+      "note": "dolphins and birds"
+    },
+    {
+      "name": "Things to do in Digha",
+      "href": "/blog/things-to-do-in-digha",
+      "note": "Bengal's beach town"
+    }
+  ],
+  "styles": [
+    "spiritual-tours",
+    "family-holidays"
+  ],
+  "metaDescription": "Things to do in Puri: the Jagannath Temple and its Mahaprasad, the Rath Yatra, Puri beach and sand art, Golden Beach, Swargadwar, Raghurajpur's pattachitra painters and more."
+}

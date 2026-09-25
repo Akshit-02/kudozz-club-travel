@@ -1,0 +1,256 @@
+{
+  "slug": "things-to-do-in-yercaud",
+  "destination": "Yercaud",
+  "guide": "yercaud-travel-guide",
+  "type": "hill station",
+  "title": "Things to Do in Yercaud: Lake, Viewpoints, Coffee Estates & the Loop Road",
+  "seoTitle": "Things to Do in Yercaud: Lake, Views & Coffee | Kudozz Club",
+  "description": "Things to do in Yercaud: boating on Yercaud Lake, Lady's Seat and Pagoda Point views, Kiliyur Falls, the Shevaroyan Temple on the highest point, the Botanical Garden and orchidarium, coffee estate walks, the Loop Road drive and the summer festival.",
+  "dek": "A small, unhurried hill station in the Shevaroy hills above Salem, with coffee and pepper estates, a lake at its centre and sweeping views over the plains.",
+  "primaryKeyword": "things to do in Yercaud",
+  "secondaryKeywords": [
+    "places to visit in Yercaud",
+    "Yercaud lake",
+    "Lady's Seat",
+    "Kiliyur Falls",
+    "Pagoda Point",
+    "Yercaud weekend"
+  ],
+  "searchIntent": "Families and weekenders from Bengaluru, Chennai and Salem planning one or two days in Yercaud.",
+  "tags": [
+    "Yercaud",
+    "Tamil Nadu",
+    "Hill Station",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/tamil-nadu/yercaud/yercaud-lake-view.webp",
+    "alt": "Yercaud Lake in the Shevaroy hills"
+  },
+  "intro": [
+    "Yercaud, at about 1,500 metres in the Shevaroy hills of Salem district, is a small hill station reached by a road with 20 hairpin bends. It was developed by the British in the 19th century, and coffee, pepper and orange estates still cover its slopes. It is often called the jewel of the south, and it is quieter and less expensive than Ooty or Kodaikanal.",
+    "The things to do in Yercaud are relaxed: boating on the lake, viewpoints such as Lady's Seat and Pagoda Point, the Shevaroyan Temple at the highest point, Kiliyur Falls, gardens and coffee estate walks, and a scenic drive around the Loop Road.",
+    "One to two days is enough. October to June is the best time; the May summer festival brings flower shows and crowds."
+  ],
+  "quickAnswer": [
+    "Go boating on Yercaud Lake",
+    "Watch the view from Lady's Seat",
+    "See Pagoda Point",
+    "Walk down to Kiliyur Falls",
+    "Visit the Shevaroyan Temple",
+    "See the Botanical Garden and orchidarium",
+    "Walk through a coffee estate",
+    "Drive the Loop Road",
+    "Visit Bear's Cave",
+    "Attend the Yercaud Summer Festival in May"
+  ],
+  "sections": [
+    {
+      "id": "town",
+      "heading": "Around the lake",
+      "items": [
+        {
+          "name": "Go boating on Yercaud Lake",
+          "body": [
+            "Yercaud Lake, also called Emerald Lake, is the centre of the town, surrounded by gardens and trees. Rowing and pedal boats are available, and a deer park and Anna Park are nearby."
+          ],
+          "facts": {
+            "Time needed": "1 hour",
+            "Good for": "Families"
+          }
+        },
+        {
+          "name": "See Anna Park and the Rose Garden",
+          "body": [
+            "Anna Park, near the lake, has flower beds and a Japanese-style garden, and hosts the flower show during the summer festival. The Rose Garden has many varieties in bloom in summer."
+          ],
+          "facts": {
+            "Best time": "April to June"
+          }
+        },
+        {
+          "name": "Visit the Botanical Garden and orchidarium",
+          "body": [
+            "The Botanical Survey of India's garden at Yercaud has an orchidarium with native orchids and a collection of rare plants of the Eastern Ghats."
+          ],
+          "facts": {
+            "Good for": "Plant lovers"
+          }
+        },
+        {
+          "name": "See the Montfort School and old churches",
+          "body": [
+            "Yercaud has old institutions from its colonial days, including the Montfort School, founded in 1917, and the Holy Trinity Church, with its quiet churchyard. They add to the town's calm, old-hill-station feel."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "viewpoints",
+      "heading": "Viewpoints and temples",
+      "items": [
+        {
+          "name": "Watch the view from Lady's Seat",
+          "body": [
+            "Lady's Seat is a rocky viewpoint on the edge of the hills with views over the ghat road and Salem town below. At night the lights of the plains are spread out beneath you. Gent's Seat and Children's Seat are nearby."
+          ],
+          "facts": {
+            "Best time": "Sunset and evening"
+          }
+        },
+        {
+          "name": "See Pagoda Point",
+          "body": [
+            "Pagoda Point, on the eastern edge, takes its name from piles of stones built by local communities that look like pagodas. It has wide views over the valleys and villages."
+          ]
+        },
+        {
+          "name": "Visit the Shevaroyan Temple",
+          "body": [
+            "The Shevaroyan Temple, on the highest point of the Shevaroy hills at about 1,600 metres, is a small cave temple dedicated to the local deity Servarayan. A festival in May draws people from the surrounding villages."
+          ],
+          "facts": {
+            "Best time": "May for the festival"
+          }
+        },
+        {
+          "name": "See Bear's Cave",
+          "body": [
+            "Bear's Cave, a natural rock cave on a private estate, was once said to shelter bears. It is a short stop on the way around the hill."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outdoors",
+      "heading": "Falls, estates and drives",
+      "items": [
+        {
+          "name": "Walk down to Kiliyur Falls",
+          "body": [
+            "Kiliyur Falls, about 3 km from the lake, is a seasonal waterfall reached by a steep walk down rocky steps. It is at its best after the monsoon and can be almost dry in summer. Take care on the slippery path."
+          ],
+          "facts": {
+            "Best time": "August to December",
+            "Good to know": "Steep, slippery path"
+          }
+        },
+        {
+          "name": "Walk through a coffee estate",
+          "body": [
+            "Yercaud's slopes are covered with coffee shaded by silver oak, with pepper vines, oranges and jackfruit. Several estate homestays and resorts offer plantation walks, and local coffee and spices can be bought in town."
+          ],
+          "facts": {
+            "Good for": "Couples, families"
+          }
+        },
+        {
+          "name": "Drive the Loop Road",
+          "body": [
+            "The Loop Road, about 32 km, circles the plateau through coffee estates, forest and small villages, with viewpoints along the way. It is a lovely drive or cycle on a clear day."
+          ],
+          "facts": {
+            "Time needed": "2–3 hours"
+          }
+        },
+        {
+          "name": "Attend the Summer Festival",
+          "body": [
+            "The Yercaud Summer Festival, usually in May, brings a flower show, boat races, dog shows and cultural programmes. Accommodation fills up quickly."
+          ],
+          "facts": {
+            "Best time": "May"
+          }
+        }
+      ]
+    },
+    {
+      "id": "seasons",
+      "heading": "By season",
+      "items": [
+        {
+          "name": "Summer (March to June)",
+          "body": [
+            "The most popular season, with cool weather compared with the plains and the May festival."
+          ]
+        },
+        {
+          "name": "Monsoon and winter (July to February)",
+          "body": [
+            "Green hills and flowing falls after the monsoon; winter is cool and clear, with quiet weekdays."
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Families",
+      "text": "Lake boating, Anna Park, Lady's Seat and the Botanical Garden."
+    },
+    {
+      "who": "Couples",
+      "text": "A coffee estate stay, the Loop Road drive and sunset at Lady's Seat."
+    },
+    {
+      "who": "Weekenders",
+      "text": "Arrive Saturday morning, see the viewpoints and lake, and walk down to Kiliyur Falls on Sunday."
+    },
+    {
+      "who": "Budget travellers",
+      "text": "Yercaud is one of the most affordable hill stations in South India, with simple lodges near the lake."
+    }
+  ],
+  "oneDay": "Go boating on the lake and visit Anna Park in the morning, then the Botanical Garden. After lunch, drive the Loop Road via Pagoda Point and the Shevaroyan Temple, and end at Lady's Seat for sunset.",
+  "tips": [
+    "Salem, about 30 km away, is the nearest railway station and has a small airport; Bengaluru is about four hours by road.",
+    "The ghat road has 20 hairpin bends; drive carefully and avoid it after dark if unfamiliar.",
+    "Carry a light jacket; evenings are cool.",
+    "Kiliyur Falls may be dry in summer.",
+    "Weekends in May are crowded; weekdays are calm."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Yercaud?",
+      "a": "Go boating on Yercaud Lake, see Lady's Seat and Pagoda Point, visit the Shevaroyan Temple, walk down to Kiliyur Falls, see the Botanical Garden, walk through a coffee estate and drive the Loop Road."
+    },
+    {
+      "q": "How many days are enough for Yercaud?",
+      "a": "One to two days."
+    },
+    {
+      "q": "What is the best time to visit Yercaud?",
+      "a": "October to June. May is busy with the summer festival."
+    },
+    {
+      "q": "Is Yercaud good for a weekend from Bangalore?",
+      "a": "Yes. It is about four hours away and makes a quiet, affordable weekend break."
+    },
+    {
+      "q": "Is Yercaud good for families?",
+      "a": "Yes. The lake, parks, viewpoints and Botanical Garden are easy outings, and it is less crowded than larger hill stations."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Kolli Hills",
+      "href": "/blog/kolli-hills-travel-guide",
+      "note": "70 hairpin bends and waterfalls"
+    },
+    {
+      "name": "Hogenakkal",
+      "href": "/blog/hogenakkal-travel-guide",
+      "note": "coracle rides by the falls"
+    },
+    {
+      "name": "Things to do in Bangalore",
+      "href": "/blog/things-to-do-in-bangalore",
+      "note": "about four hours away"
+    }
+  ],
+  "styles": [
+    "weekend-getaways",
+    "family-holidays"
+  ],
+  "metaDescription": "Things to do in Yercaud: boating on Yercaud Lake, Lady's Seat and Pagoda Point views, Kiliyur Falls, the Shevaroyan Temple on the highest point and more."
+}

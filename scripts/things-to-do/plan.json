@@ -1,0 +1,3783 @@
+{
+ "eligible": [
+  {
+   "guide": "leh-ladakh-road-trip-travel-guide",
+   "slug": "things-to-do-in-ladakh",
+   "destination": "Ladakh",
+   "tier": "A",
+   "type": "region",
+   "state": "Ladakh"
+  },
+  {
+   "guide": "sikkim-travel-guide",
+   "slug": "things-to-do-in-sikkim",
+   "destination": "Sikkim",
+   "tier": "A",
+   "type": "state",
+   "state": "Sikkim"
+  },
+  {
+   "guide": "imphal-travel-guide",
+   "slug": "things-to-do-in-imphal",
+   "destination": "Imphal",
+   "tier": "B",
+   "type": "city",
+   "state": "Manipur"
+  },
+  {
+   "guide": "delhi-travel-guide",
+   "slug": "things-to-do-in-delhi",
+   "destination": "Delhi",
+   "tier": "A",
+   "type": "city",
+   "state": "Delhi"
+  },
+  {
+   "guide": "chandigarh-travel-guide",
+   "slug": "things-to-do-in-chandigarh",
+   "destination": "Chandigarh",
+   "tier": "A",
+   "type": "city",
+   "state": "Chandigarh"
+  },
+  {
+   "guide": "jammu-kashmir-travel-guide",
+   "slug": "things-to-do-in-kashmir",
+   "destination": "Kashmir",
+   "tier": "A",
+   "type": "region",
+   "state": "Jammu & Kashmir"
+  },
+  {
+   "guide": "lakshadweep-island-travel-guide",
+   "slug": "things-to-do-in-lakshadweep",
+   "destination": "Lakshadweep",
+   "tier": "B",
+   "type": "island territory",
+   "state": "Lakshadweep"
+  },
+  {
+   "guide": "puducherry-district-travel-guide",
+   "slug": "things-to-do-in-pondicherry",
+   "destination": "Puducherry (Pondicherry)",
+   "tier": "A",
+   "type": "coastal town",
+   "state": "Puducherry"
+  },
+  {
+   "guide": "ziro-valley-arunachal-travel-guide",
+   "slug": "things-to-do-in-ziro",
+   "destination": "Ziro",
+   "tier": "B",
+   "type": "valley",
+   "state": "Arunachal Pradesh"
+  },
+  {
+   "guide": "gokarna-beaches-travel-guide",
+   "slug": "things-to-do-in-gokarna",
+   "destination": "Gokarna",
+   "tier": "B",
+   "type": "beach destination",
+   "state": "Karnataka"
+  },
+  {
+   "guide": "goa-beaches-travel-guide",
+   "slug": "things-to-do-in-goa",
+   "destination": "Goa",
+   "tier": "A",
+   "type": "beach destination",
+   "state": "Goa"
+  },
+  {
+   "guide": "udaipur-city-of-lakes-travel-guide",
+   "slug": "things-to-do-in-udaipur",
+   "destination": "Udaipur",
+   "tier": "A",
+   "type": "city",
+   "state": "Rajasthan"
+  },
+  {
+   "guide": "meghalaya-travel-guide",
+   "slug": "things-to-do-in-meghalaya",
+   "destination": "Meghalaya",
+   "tier": "A",
+   "type": "state",
+   "state": "Meghalaya"
+  },
+  {
+   "guide": "manali-travel-guide",
+   "slug": "things-to-do-in-manali",
+   "destination": "Manali",
+   "tier": "A",
+   "type": "hill station",
+   "state": "Himachal Pradesh"
+  },
+  {
+   "guide": "spiti-valley-travel-guide",
+   "slug": "things-to-do-in-spiti-valley",
+   "destination": "Spiti Valley",
+   "tier": "A",
+   "type": "mountain desert valley",
+   "state": "Himachal Pradesh"
+  },
+  {
+   "guide": "rishikesh-adventure-travel-guide",
+   "slug": "things-to-do-in-rishikesh",
+   "destination": "Rishikesh",
+   "tier": "A",
+   "type": "adventure and spiritual town",
+   "state": "Uttarakhand"
+  },
+  {
+   "guide": "coorg-travel-guide",
+   "slug": "things-to-do-in-coorg",
+   "destination": "Coorg",
+   "tier": "A",
+   "type": "hill region",
+   "state": "Karnataka"
+  },
+  {
+   "guide": "kasol-kheerganga-trek-travel-guide",
+   "slug": "things-to-do-in-kasol",
+   "destination": "Kasol",
+   "tier": "B",
+   "type": "mountain village",
+   "state": "Himachal Pradesh"
+  },
+  {
+   "guide": "andaman-islands-travel-guide",
+   "slug": "things-to-do-in-andaman",
+   "destination": "Andaman Islands",
+   "tier": "A",
+   "type": "island region",
+   "state": "Andaman & Nicobar Islands"
+  },
+  {
+   "guide": "port-blair-andaman-travel-guide",
+   "slug": "things-to-do-in-port-blair",
+   "destination": "Port Blair (Sri Vijaya Puram)",
+   "tier": "B",
+   "type": "city",
+   "state": "Andaman & Nicobar Islands"
+  },
+  {
+   "guide": "havelock-island-andaman-travel-guide",
+   "slug": "things-to-do-in-havelock-island",
+   "destination": "Havelock Island (Swaraj Dweep)",
+   "tier": "B",
+   "type": "island",
+   "state": "Andaman & Nicobar Islands"
+  },
+  {
+   "guide": "neil-island-andaman-travel-guide",
+   "slug": "things-to-do-in-neil-island",
+   "destination": "Neil Island (Shaheed Dweep)",
+   "tier": "B",
+   "type": "island",
+   "state": "Andaman & Nicobar Islands"
+  },
+  {
+   "guide": "hampi-travel-guide",
+   "slug": "things-to-do-in-hampi",
+   "destination": "Hampi",
+   "tier": "A",
+   "type": "heritage destination",
+   "state": "Karnataka"
+  },
+  {
+   "guide": "kerala-backwaters-travel-guide",
+   "slug": "things-to-do-in-kerala",
+   "destination": "Kerala",
+   "tier": "A",
+   "type": "state",
+   "state": "Kerala"
+  },
+  {
+   "guide": "rajasthan-desert-travel-guide",
+   "slug": "things-to-do-in-jaisalmer",
+   "destination": "Jaisalmer",
+   "tier": "A",
+   "type": "desert city",
+   "state": "Rajasthan"
+  },
+  {
+   "guide": "leh-travel-guide",
+   "slug": "things-to-do-in-leh",
+   "destination": "Leh",
+   "tier": "A",
+   "type": "mountain town",
+   "state": "Ladakh"
+  },
+  {
+   "guide": "nubra-valley-travel-guide",
+   "slug": "things-to-do-in-nubra-valley",
+   "destination": "Nubra Valley",
+   "tier": "B",
+   "type": "valley",
+   "state": "Ladakh"
+  },
+  {
+   "guide": "srinagar-travel-guide",
+   "slug": "things-to-do-in-srinagar",
+   "destination": "Srinagar",
+   "tier": "A",
+   "type": "city",
+   "state": "Jammu & Kashmir"
+  },
+  {
+   "guide": "gulmarg-travel-guide",
+   "slug": "things-to-do-in-gulmarg",
+   "destination": "Gulmarg",
+   "tier": "B",
+   "type": "hill station",
+   "state": "Jammu & Kashmir"
+  },
+  {
+   "guide": "pahalgam-travel-guide",
+   "slug": "things-to-do-in-pahalgam",
+   "destination": "Pahalgam",
+   "tier": "B",
+   "type": "hill station",
+   "state": "Jammu & Kashmir"
+  },
+  {
+   "guide": "sonamarg-travel-guide",
+   "slug": "things-to-do-in-sonamarg",
+   "destination": "Sonamarg",
+   "tier": "B",
+   "type": "mountain destination",
+   "state": "Jammu & Kashmir"
+  },
+  {
+   "guide": "jammu-travel-guide",
+   "slug": "things-to-do-in-jammu",
+   "destination": "Jammu",
+   "tier": "B",
+   "type": "city",
+   "state": "Jammu & Kashmir"
+  },
+  {
+   "guide": "patnitop-travel-guide",
+   "slug": "things-to-do-in-patnitop",
+   "destination": "Patnitop",
+   "tier": "B",
+   "type": "hill station",
+   "state": "Jammu & Kashmir"
+  },
+  {
+   "guide": "old-delhi-travel-guide",
+   "slug": "things-to-do-in-old-delhi",
+   "destination": "Old Delhi",
+   "tier": "B",
+   "type": "historic district",
+   "state": "Delhi"
+  },
+  {
+   "guide": "diu-travel-guide",
+   "slug": "things-to-do-in-diu",
+   "destination": "Diu",
+   "tier": "B",
+   "type": "coastal town",
+   "state": "Dadra and Nagar Haveli and Daman and Diu"
+  },
+  {
+   "guide": "daman-travel-guide",
+   "slug": "things-to-do-in-daman",
+   "destination": "Daman",
+   "tier": "B",
+   "type": "coastal town",
+   "state": "Dadra and Nagar Haveli and Daman and Diu"
+  },
+  {
+   "guide": "kolkata-travel-guide",
+   "slug": "things-to-do-in-kolkata",
+   "destination": "Kolkata",
+   "tier": "A",
+   "type": "city",
+   "state": "West Bengal"
+  },
+  {
+   "guide": "darjeeling-travel-guide",
+   "slug": "things-to-do-in-darjeeling",
+   "destination": "Darjeeling",
+   "tier": "A",
+   "type": "hill station",
+   "state": "West Bengal"
+  },
+  {
+   "guide": "kalimpong-travel-guide",
+   "slug": "things-to-do-in-kalimpong",
+   "destination": "Kalimpong",
+   "tier": "B",
+   "type": "hill town",
+   "state": "West Bengal"
+  },
+  {
+   "guide": "sundarbans-travel-guide",
+   "slug": "things-to-do-in-sundarbans",
+   "destination": "Sundarbans",
+   "tier": "B",
+   "type": "mangrove national park",
+   "state": "West Bengal"
+  },
+  {
+   "guide": "digha-travel-guide",
+   "slug": "things-to-do-in-digha",
+   "destination": "Digha",
+   "tier": "B",
+   "type": "beach town",
+   "state": "West Bengal"
+  },
+  {
+   "guide": "mussoorie-travel-guide",
+   "slug": "things-to-do-in-mussoorie",
+   "destination": "Mussoorie",
+   "tier": "A",
+   "type": "hill station",
+   "state": "Uttarakhand"
+  },
+  {
+   "guide": "haridwar-travel-guide",
+   "slug": "things-to-do-in-haridwar",
+   "destination": "Haridwar",
+   "tier": "B",
+   "type": "pilgrimage city",
+   "state": "Uttarakhand"
+  },
+  {
+   "guide": "nainital-travel-guide",
+   "slug": "things-to-do-in-nainital",
+   "destination": "Nainital",
+   "tier": "A",
+   "type": "hill station",
+   "state": "Uttarakhand"
+  },
+  {
+   "guide": "jim-corbett-travel-guide",
+   "slug": "things-to-do-in-jim-corbett",
+   "destination": "Jim Corbett",
+   "tier": "B",
+   "type": "national park",
+   "state": "Uttarakhand"
+  },
+  {
+   "guide": "auli-travel-guide",
+   "slug": "things-to-do-in-auli",
+   "destination": "Auli",
+   "tier": "B",
+   "type": "ski and mountain destination",
+   "state": "Uttarakhand"
+  },
+  {
+   "guide": "chopta-travel-guide",
+   "slug": "things-to-do-in-chopta",
+   "destination": "Chopta",
+   "tier": "B",
+   "type": "mountain meadow",
+   "state": "Uttarakhand"
+  },
+  {
+   "guide": "kausani-travel-guide",
+   "slug": "things-to-do-in-kausani",
+   "destination": "Kausani",
+   "tier": "B",
+   "type": "hill station",
+   "state": "Uttarakhand"
+  },
+  {
+   "guide": "ranikhet-travel-guide",
+   "slug": "things-to-do-in-ranikhet",
+   "destination": "Ranikhet",
+   "tier": "B",
+   "type": "hill station",
+   "state": "Uttarakhand"
+  },
+  {
+   "guide": "lansdowne-travel-guide",
+   "slug": "things-to-do-in-lansdowne",
+   "destination": "Lansdowne",
+   "tier": "B",
+   "type": "hill station",
+   "state": "Uttarakhand"
+  },
+  {
+   "guide": "agra-travel-guide",
+   "slug": "things-to-do-in-agra",
+   "destination": "Agra",
+   "tier": "A",
+   "type": "heritage city",
+   "state": "Uttar Pradesh"
+  },
+  {
+   "guide": "mathura-travel-guide",
+   "slug": "things-to-do-in-mathura",
+   "destination": "Mathura",
+   "tier": "B",
+   "type": "pilgrimage city",
+   "state": "Uttar Pradesh"
+  },
+  {
+   "guide": "vrindavan-travel-guide",
+   "slug": "things-to-do-in-vrindavan",
+   "destination": "Vrindavan",
+   "tier": "B",
+   "type": "pilgrimage town",
+   "state": "Uttar Pradesh"
+  },
+  {
+   "guide": "varanasi-travel-guide",
+   "slug": "things-to-do-in-varanasi",
+   "destination": "Varanasi",
+   "tier": "A",
+   "type": "pilgrimage city",
+   "state": "Uttar Pradesh"
+  },
+  {
+   "guide": "prayagraj-travel-guide",
+   "slug": "things-to-do-in-prayagraj",
+   "destination": "Prayagraj",
+   "tier": "B",
+   "type": "city",
+   "state": "Uttar Pradesh"
+  },
+  {
+   "guide": "ayodhya-travel-guide",
+   "slug": "things-to-do-in-ayodhya",
+   "destination": "Ayodhya",
+   "tier": "B",
+   "type": "pilgrimage city",
+   "state": "Uttar Pradesh"
+  },
+  {
+   "guide": "lucknow-travel-guide",
+   "slug": "things-to-do-in-lucknow",
+   "destination": "Lucknow",
+   "tier": "A",
+   "type": "city",
+   "state": "Uttar Pradesh"
+  },
+  {
+   "guide": "agartala-travel-guide",
+   "slug": "things-to-do-in-agartala",
+   "destination": "Agartala",
+   "tier": "B",
+   "type": "city",
+   "state": "Tripura"
+  },
+  {
+   "guide": "hyderabad-travel-guide",
+   "slug": "things-to-do-in-hyderabad",
+   "destination": "Hyderabad",
+   "tier": "A",
+   "type": "city",
+   "state": "Telangana"
+  },
+  {
+   "guide": "warangal-travel-guide",
+   "slug": "things-to-do-in-warangal",
+   "destination": "Warangal",
+   "tier": "B",
+   "type": "heritage city",
+   "state": "Telangana"
+  },
+  {
+   "guide": "chennai-travel-guide",
+   "slug": "things-to-do-in-chennai",
+   "destination": "Chennai",
+   "tier": "A",
+   "type": "city",
+   "state": "Tamil Nadu"
+  },
+  {
+   "guide": "mahabalipuram-travel-guide",
+   "slug": "things-to-do-in-mahabalipuram",
+   "destination": "Mahabalipuram",
+   "tier": "B",
+   "type": "heritage coastal town",
+   "state": "Tamil Nadu"
+  },
+  {
+   "guide": "madurai-travel-guide",
+   "slug": "things-to-do-in-madurai",
+   "destination": "Madurai",
+   "tier": "A",
+   "type": "temple city",
+   "state": "Tamil Nadu"
+  },
+  {
+   "guide": "rameswaram-travel-guide",
+   "slug": "things-to-do-in-rameswaram",
+   "destination": "Rameswaram",
+   "tier": "B",
+   "type": "pilgrimage island town",
+   "state": "Tamil Nadu"
+  },
+  {
+   "guide": "kanyakumari-travel-guide",
+   "slug": "things-to-do-in-kanyakumari",
+   "destination": "Kanyakumari",
+   "tier": "B",
+   "type": "coastal town",
+   "state": "Tamil Nadu"
+  },
+  {
+   "guide": "thanjavur-travel-guide",
+   "slug": "things-to-do-in-thanjavur",
+   "destination": "Thanjavur",
+   "tier": "B",
+   "type": "heritage city",
+   "state": "Tamil Nadu"
+  },
+  {
+   "guide": "ooty-travel-guide",
+   "slug": "things-to-do-in-ooty",
+   "destination": "Ooty",
+   "tier": "A",
+   "type": "hill station",
+   "state": "Tamil Nadu"
+  },
+  {
+   "guide": "kodaikanal-travel-guide",
+   "slug": "things-to-do-in-kodaikanal",
+   "destination": "Kodaikanal",
+   "tier": "B",
+   "type": "hill station",
+   "state": "Tamil Nadu"
+  },
+  {
+   "guide": "coimbatore-travel-guide",
+   "slug": "things-to-do-in-coimbatore",
+   "destination": "Coimbatore",
+   "tier": "B",
+   "type": "city",
+   "state": "Tamil Nadu"
+  },
+  {
+   "guide": "yercaud-travel-guide",
+   "slug": "things-to-do-in-yercaud",
+   "destination": "Yercaud",
+   "tier": "B",
+   "type": "hill station",
+   "state": "Tamil Nadu"
+  },
+  {
+   "guide": "gangtok-travel-guide",
+   "slug": "things-to-do-in-gangtok",
+   "destination": "Gangtok",
+   "tier": "A",
+   "type": "hill city",
+   "state": "Sikkim"
+  },
+  {
+   "guide": "pelling-travel-guide",
+   "slug": "things-to-do-in-pelling",
+   "destination": "Pelling",
+   "tier": "B",
+   "type": "hill town",
+   "state": "Sikkim"
+  },
+  {
+   "guide": "jaipur-travel-guide",
+   "slug": "things-to-do-in-jaipur",
+   "destination": "Jaipur",
+   "tier": "A",
+   "type": "city",
+   "state": "Rajasthan"
+  },
+  {
+   "guide": "jodhpur-travel-guide",
+   "slug": "things-to-do-in-jodhpur",
+   "destination": "Jodhpur",
+   "tier": "A",
+   "type": "city",
+   "state": "Rajasthan"
+  },
+  {
+   "guide": "pushkar-travel-guide",
+   "slug": "things-to-do-in-pushkar",
+   "destination": "Pushkar",
+   "tier": "B",
+   "type": "pilgrimage town",
+   "state": "Rajasthan"
+  },
+  {
+   "guide": "ajmer-travel-guide",
+   "slug": "things-to-do-in-ajmer",
+   "destination": "Ajmer",
+   "tier": "B",
+   "type": "pilgrimage city",
+   "state": "Rajasthan"
+  },
+  {
+   "guide": "mount-abu-travel-guide",
+   "slug": "things-to-do-in-mount-abu",
+   "destination": "Mount Abu",
+   "tier": "B",
+   "type": "hill station",
+   "state": "Rajasthan"
+  },
+  {
+   "guide": "chittorgarh-travel-guide",
+   "slug": "things-to-do-in-chittorgarh",
+   "destination": "Chittorgarh",
+   "tier": "B",
+   "type": "heritage town",
+   "state": "Rajasthan"
+  },
+  {
+   "guide": "bikaner-travel-guide",
+   "slug": "things-to-do-in-bikaner",
+   "destination": "Bikaner",
+   "tier": "B",
+   "type": "desert city",
+   "state": "Rajasthan"
+  },
+  {
+   "guide": "bundi-travel-guide",
+   "slug": "things-to-do-in-bundi",
+   "destination": "Bundi",
+   "tier": "B",
+   "type": "heritage town",
+   "state": "Rajasthan"
+  },
+  {
+   "guide": "amritsar-travel-guide",
+   "slug": "things-to-do-in-amritsar",
+   "destination": "Amritsar",
+   "tier": "A",
+   "type": "city",
+   "state": "Punjab"
+  },
+  {
+   "guide": "patiala-travel-guide",
+   "slug": "things-to-do-in-patiala",
+   "destination": "Patiala",
+   "tier": "B",
+   "type": "heritage city",
+   "state": "Punjab"
+  },
+  {
+   "guide": "puri-travel-guide",
+   "slug": "things-to-do-in-puri",
+   "destination": "Puri",
+   "tier": "B",
+   "type": "pilgrimage and beach town",
+   "state": "Odisha"
+  },
+  {
+   "guide": "bhubaneswar-travel-guide",
+   "slug": "things-to-do-in-bhubaneswar",
+   "destination": "Bhubaneswar",
+   "tier": "B",
+   "type": "city",
+   "state": "Odisha"
+  },
+  {
+   "guide": "kohima-travel-guide",
+   "slug": "things-to-do-in-kohima",
+   "destination": "Kohima",
+   "tier": "B",
+   "type": "hill city",
+   "state": "Nagaland"
+  },
+  {
+   "guide": "aizawl-travel-guide",
+   "slug": "things-to-do-in-aizawl",
+   "destination": "Aizawl",
+   "tier": "B",
+   "type": "hill city",
+   "state": "Mizoram"
+  },
+  {
+   "guide": "shillong-travel-guide",
+   "slug": "things-to-do-in-shillong",
+   "destination": "Shillong",
+   "tier": "A",
+   "type": "hill city",
+   "state": "Meghalaya"
+  },
+  {
+   "guide": "cherrapunji-travel-guide",
+   "slug": "things-to-do-in-cherrapunji",
+   "destination": "Cherrapunji (Sohra)",
+   "tier": "B",
+   "type": "hill destination",
+   "state": "Meghalaya"
+  },
+  {
+   "guide": "mumbai-travel-guide",
+   "slug": "things-to-do-in-mumbai",
+   "destination": "Mumbai",
+   "tier": "A",
+   "type": "city",
+   "state": "Maharashtra"
+  },
+  {
+   "guide": "lonavala-travel-guide",
+   "slug": "things-to-do-in-lonavala",
+   "destination": "Lonavala",
+   "tier": "B",
+   "type": "hill station",
+   "state": "Maharashtra"
+  },
+  {
+   "guide": "mahabaleshwar-travel-guide",
+   "slug": "things-to-do-in-mahabaleshwar",
+   "destination": "Mahabaleshwar",
+   "tier": "B",
+   "type": "hill station",
+   "state": "Maharashtra"
+  },
+  {
+   "guide": "matheran-travel-guide",
+   "slug": "things-to-do-in-matheran",
+   "destination": "Matheran",
+   "tier": "B",
+   "type": "hill station",
+   "state": "Maharashtra"
+  },
+  {
+   "guide": "pune-travel-guide",
+   "slug": "things-to-do-in-pune",
+   "destination": "Pune",
+   "tier": "A",
+   "type": "city",
+   "state": "Maharashtra"
+  },
+  {
+   "guide": "alibaug-travel-guide",
+   "slug": "things-to-do-in-alibaug",
+   "destination": "Alibaug",
+   "tier": "B",
+   "type": "beach town",
+   "state": "Maharashtra"
+  },
+  {
+   "guide": "chhatrapati-sambhajinagar-travel-guide",
+   "slug": "things-to-do-in-aurangabad",
+   "destination": "Chhatrapati Sambhajinagar (Aurangabad)",
+   "tier": "B",
+   "type": "heritage city",
+   "state": "Maharashtra"
+  },
+  {
+   "guide": "nashik-travel-guide",
+   "slug": "things-to-do-in-nashik",
+   "destination": "Nashik",
+   "tier": "B",
+   "type": "city",
+   "state": "Maharashtra"
+  },
+  {
+   "guide": "kolhapur-travel-guide",
+   "slug": "things-to-do-in-kolhapur",
+   "destination": "Kolhapur",
+   "tier": "B",
+   "type": "city",
+   "state": "Maharashtra"
+  },
+  {
+   "guide": "indore-travel-guide",
+   "slug": "things-to-do-in-indore",
+   "destination": "Indore",
+   "tier": "B",
+   "type": "city",
+   "state": "Madhya Pradesh"
+  },
+  {
+   "guide": "bhopal-travel-guide",
+   "slug": "things-to-do-in-bhopal",
+   "destination": "Bhopal",
+   "tier": "B",
+   "type": "city",
+   "state": "Madhya Pradesh"
+  },
+  {
+   "guide": "khajuraho-travel-guide",
+   "slug": "things-to-do-in-khajuraho",
+   "destination": "Khajuraho",
+   "tier": "B",
+   "type": "heritage town",
+   "state": "Madhya Pradesh"
+  },
+  {
+   "guide": "ujjain-travel-guide",
+   "slug": "things-to-do-in-ujjain",
+   "destination": "Ujjain",
+   "tier": "B",
+   "type": "pilgrimage city",
+   "state": "Madhya Pradesh"
+  },
+  {
+   "guide": "mandu-travel-guide",
+   "slug": "things-to-do-in-mandu",
+   "destination": "Mandu",
+   "tier": "B",
+   "type": "heritage town",
+   "state": "Madhya Pradesh"
+  },
+  {
+   "guide": "pachmarhi-travel-guide",
+   "slug": "things-to-do-in-pachmarhi",
+   "destination": "Pachmarhi",
+   "tier": "B",
+   "type": "hill station",
+   "state": "Madhya Pradesh"
+  },
+  {
+   "guide": "gwalior-travel-guide",
+   "slug": "things-to-do-in-gwalior",
+   "destination": "Gwalior",
+   "tier": "B",
+   "type": "heritage city",
+   "state": "Madhya Pradesh"
+  },
+  {
+   "guide": "orchha-travel-guide",
+   "slug": "things-to-do-in-orchha",
+   "destination": "Orchha",
+   "tier": "B",
+   "type": "heritage town",
+   "state": "Madhya Pradesh"
+  },
+  {
+   "guide": "jabalpur-travel-guide",
+   "slug": "things-to-do-in-jabalpur",
+   "destination": "Jabalpur",
+   "tier": "B",
+   "type": "city",
+   "state": "Madhya Pradesh"
+  },
+  {
+   "guide": "munnar-travel-guide",
+   "slug": "things-to-do-in-munnar",
+   "destination": "Munnar",
+   "tier": "A",
+   "type": "hill station",
+   "state": "Kerala"
+  },
+  {
+   "guide": "alappuzha-travel-guide",
+   "slug": "things-to-do-in-alleppey",
+   "destination": "Alappuzha (Alleppey)",
+   "tier": "A",
+   "type": "backwater destination",
+   "state": "Kerala"
+  },
+  {
+   "guide": "kochi-travel-guide",
+   "slug": "things-to-do-in-kochi",
+   "destination": "Kochi",
+   "tier": "A",
+   "type": "coastal city",
+   "state": "Kerala"
+  },
+  {
+   "guide": "wayanad-travel-guide",
+   "slug": "things-to-do-in-wayanad",
+   "destination": "Wayanad",
+   "tier": "B",
+   "type": "hill region",
+   "state": "Kerala"
+  },
+  {
+   "guide": "varkala-travel-guide",
+   "slug": "things-to-do-in-varkala",
+   "destination": "Varkala",
+   "tier": "B",
+   "type": "beach town",
+   "state": "Kerala"
+  },
+  {
+   "guide": "kovalam-travel-guide",
+   "slug": "things-to-do-in-kovalam",
+   "destination": "Kovalam",
+   "tier": "B",
+   "type": "beach town",
+   "state": "Kerala"
+  },
+  {
+   "guide": "thekkady-travel-guide",
+   "slug": "things-to-do-in-thekkady",
+   "destination": "Thekkady",
+   "tier": "B",
+   "type": "wildlife destination",
+   "state": "Kerala"
+  },
+  {
+   "guide": "kumarakom-travel-guide",
+   "slug": "things-to-do-in-kumarakom",
+   "destination": "Kumarakom",
+   "tier": "B",
+   "type": "backwater destination",
+   "state": "Kerala"
+  },
+  {
+   "guide": "bengaluru-travel-guide",
+   "slug": "things-to-do-in-bangalore",
+   "destination": "Bengaluru (Bangalore)",
+   "tier": "A",
+   "type": "city",
+   "state": "Karnataka"
+  },
+  {
+   "guide": "mysuru-travel-guide",
+   "slug": "things-to-do-in-mysore",
+   "destination": "Mysuru (Mysore)",
+   "tier": "A",
+   "type": "heritage city",
+   "state": "Karnataka"
+  },
+  {
+   "guide": "chikmagalur-travel-guide",
+   "slug": "things-to-do-in-chikmagalur",
+   "destination": "Chikmagalur",
+   "tier": "B",
+   "type": "hill station",
+   "state": "Karnataka"
+  },
+  {
+   "guide": "mangaluru-travel-guide",
+   "slug": "things-to-do-in-mangalore",
+   "destination": "Mangaluru (Mangalore)",
+   "tier": "B",
+   "type": "coastal city",
+   "state": "Karnataka"
+  },
+  {
+   "guide": "udupi-travel-guide",
+   "slug": "things-to-do-in-udupi",
+   "destination": "Udupi",
+   "tier": "B",
+   "type": "temple town",
+   "state": "Karnataka"
+  },
+  {
+   "guide": "ranchi-travel-guide",
+   "slug": "things-to-do-in-ranchi",
+   "destination": "Ranchi",
+   "tier": "B",
+   "type": "city",
+   "state": "Jharkhand"
+  },
+  {
+   "guide": "shimla-travel-guide",
+   "slug": "things-to-do-in-shimla",
+   "destination": "Shimla",
+   "tier": "A",
+   "type": "hill station",
+   "state": "Himachal Pradesh"
+  },
+  {
+   "guide": "dharamshala-travel-guide",
+   "slug": "things-to-do-in-dharamshala",
+   "destination": "Dharamshala and McLeod Ganj",
+   "tier": "A",
+   "type": "hill town",
+   "state": "Himachal Pradesh"
+  },
+  {
+   "guide": "bir-billing-travel-guide",
+   "slug": "things-to-do-in-bir-billing",
+   "destination": "Bir Billing",
+   "tier": "B",
+   "type": "adventure destination",
+   "state": "Himachal Pradesh"
+  },
+  {
+   "guide": "dalhousie-travel-guide",
+   "slug": "things-to-do-in-dalhousie",
+   "destination": "Dalhousie",
+   "tier": "B",
+   "type": "hill station",
+   "state": "Himachal Pradesh"
+  },
+  {
+   "guide": "tirthan-valley-travel-guide",
+   "slug": "things-to-do-in-tirthan-valley",
+   "destination": "Tirthan Valley",
+   "tier": "B",
+   "type": "valley",
+   "state": "Himachal Pradesh"
+  },
+  {
+   "guide": "kasauli-travel-guide",
+   "slug": "things-to-do-in-kasauli",
+   "destination": "Kasauli",
+   "tier": "B",
+   "type": "hill station",
+   "state": "Himachal Pradesh"
+  },
+  {
+   "guide": "gurugram-travel-guide",
+   "slug": "things-to-do-in-gurgaon",
+   "destination": "Gurugram (Gurgaon)",
+   "tier": "B",
+   "type": "city",
+   "state": "Haryana"
+  },
+  {
+   "guide": "ahmedabad-travel-guide",
+   "slug": "things-to-do-in-ahmedabad",
+   "destination": "Ahmedabad",
+   "tier": "A",
+   "type": "city",
+   "state": "Gujarat"
+  },
+  {
+   "guide": "rann-of-kutch-travel-guide",
+   "slug": "things-to-do-in-kutch",
+   "destination": "Kutch",
+   "tier": "B",
+   "type": "desert region",
+   "state": "Gujarat"
+  },
+  {
+   "guide": "dwarka-travel-guide",
+   "slug": "things-to-do-in-dwarka",
+   "destination": "Dwarka",
+   "tier": "B",
+   "type": "pilgrimage town",
+   "state": "Gujarat"
+  },
+  {
+   "guide": "vadodara-travel-guide",
+   "slug": "things-to-do-in-vadodara",
+   "destination": "Vadodara",
+   "tier": "B",
+   "type": "city",
+   "state": "Gujarat"
+  },
+  {
+   "guide": "surat-travel-guide",
+   "slug": "things-to-do-in-surat",
+   "destination": "Surat",
+   "tier": "B",
+   "type": "city",
+   "state": "Gujarat"
+  },
+  {
+   "guide": "saputara-travel-guide",
+   "slug": "things-to-do-in-saputara",
+   "destination": "Saputara",
+   "tier": "B",
+   "type": "hill station",
+   "state": "Gujarat"
+  },
+  {
+   "guide": "bodh-gaya-travel-guide",
+   "slug": "things-to-do-in-bodh-gaya",
+   "destination": "Bodh Gaya",
+   "tier": "B",
+   "type": "pilgrimage town",
+   "state": "Bihar"
+  },
+  {
+   "guide": "rajgir-travel-guide",
+   "slug": "things-to-do-in-rajgir",
+   "destination": "Rajgir",
+   "tier": "B",
+   "type": "heritage town",
+   "state": "Bihar"
+  },
+  {
+   "guide": "patna-travel-guide",
+   "slug": "things-to-do-in-patna",
+   "destination": "Patna",
+   "tier": "B",
+   "type": "city",
+   "state": "Bihar"
+  },
+  {
+   "guide": "guwahati-travel-guide",
+   "slug": "things-to-do-in-guwahati",
+   "destination": "Guwahati",
+   "tier": "B",
+   "type": "city",
+   "state": "Assam"
+  },
+  {
+   "guide": "kaziranga-travel-guide",
+   "slug": "things-to-do-in-kaziranga",
+   "destination": "Kaziranga",
+   "tier": "B",
+   "type": "national park",
+   "state": "Assam"
+  },
+  {
+   "guide": "majuli-travel-guide",
+   "slug": "things-to-do-in-majuli",
+   "destination": "Majuli",
+   "tier": "B",
+   "type": "river island",
+   "state": "Assam"
+  },
+  {
+   "guide": "tawang-travel-guide",
+   "slug": "things-to-do-in-tawang",
+   "destination": "Tawang",
+   "tier": "B",
+   "type": "mountain town",
+   "state": "Arunachal Pradesh"
+  },
+  {
+   "guide": "tirupati-travel-guide",
+   "slug": "things-to-do-in-tirupati",
+   "destination": "Tirupati",
+   "tier": "B",
+   "type": "pilgrimage town",
+   "state": "Andhra Pradesh"
+  },
+  {
+   "guide": "visakhapatnam-travel-guide",
+   "slug": "things-to-do-in-vizag",
+   "destination": "Visakhapatnam (Vizag)",
+   "tier": "B",
+   "type": "coastal city",
+   "state": "Andhra Pradesh"
+  },
+  {
+   "guide": "araku-valley-travel-guide",
+   "slug": "things-to-do-in-araku-valley",
+   "destination": "Araku Valley",
+   "tier": "B",
+   "type": "hill station",
+   "state": "Andhra Pradesh"
+  }
+ ],
+ "skipped": [
+  {
+   "guide": "odisha-travel-guide",
+   "reason": "State/UT-level guide: things-to-do intent is served by the state's destination articles",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "punjab-travel-guide",
+   "reason": "State/UT-level guide: things-to-do intent is served by the state's destination articles",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "rajasthan-travel-guide",
+   "reason": "State/UT-level guide: things-to-do intent is served by the state's destination articles",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "tamil-nadu-travel-guide",
+   "reason": "State/UT-level guide: things-to-do intent is served by the state's destination articles",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "tripura-travel-guide",
+   "reason": "State/UT-level guide: things-to-do intent is served by the state's destination articles",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "nagaland-travel-guide",
+   "reason": "State/UT-level guide: things-to-do intent is served by the state's destination articles",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "mizoram-travel-guide",
+   "reason": "State/UT-level guide: things-to-do intent is served by the state's destination articles",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "manipur-travel-guide",
+   "reason": "State/UT-level guide: things-to-do intent is served by the state's destination articles",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "loktak-lake-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "moirang-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "keibul-lamjao-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "andro-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "zeilad-lake-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "ukhrul-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "shirui-hills-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "tharon-cave-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "tamenglong-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "senapati-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "kangpokpi-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "moreh-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "maharashtra-travel-guide",
+   "reason": "State/UT-level guide: things-to-do intent is served by the state's destination articles",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "madhya-pradesh-travel-guide",
+   "reason": "State/UT-level guide: things-to-do intent is served by the state's destination articles",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "gujarat-travel-guide",
+   "reason": "State/UT-level guide: things-to-do intent is served by the state's destination articles",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "haryana-travel-guide",
+   "reason": "State/UT-level guide: things-to-do intent is served by the state's destination articles",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "himachal-pradesh-travel-guide",
+   "reason": "State/UT-level guide: things-to-do intent is served by the state's destination articles",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "jharkhand-travel-guide",
+   "reason": "State/UT-level guide: things-to-do intent is served by the state's destination articles",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "karnataka-travel-guide",
+   "reason": "State/UT-level guide: things-to-do intent is served by the state's destination articles",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "andhra-pradesh-travel-guide",
+   "reason": "State/UT-level guide: things-to-do intent is served by the state's destination articles",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "arunachal-pradesh-travel-guide",
+   "reason": "State/UT-level guide: things-to-do intent is served by the state's destination articles",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "assam-travel-guide",
+   "reason": "State/UT-level guide: things-to-do intent is served by the state's destination articles",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "bihar-travel-guide",
+   "reason": "State/UT-level guide: things-to-do intent is served by the state's destination articles",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "chhattisgarh-travel-guide",
+   "reason": "State/UT-level guide: things-to-do intent is served by the state's destination articles",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "uttar-pradesh-travel-guide",
+   "reason": "State/UT-level guide: things-to-do intent is served by the state's destination articles",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "uttarakhand-travel-guide",
+   "reason": "State/UT-level guide: things-to-do intent is served by the state's destination articles",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "west-bengal-travel-guide",
+   "reason": "State/UT-level guide: things-to-do intent is served by the state's destination articles",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "rock-garden-chandigarh-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-chandigarh",
+   "action": "Skip",
+   "parent": "chandigarh"
+  },
+  {
+   "guide": "sukhna-lake-chandigarh-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-chandigarh",
+   "action": "Skip",
+   "parent": "chandigarh"
+  },
+  {
+   "guide": "rose-garden-chandigarh-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-chandigarh",
+   "action": "Skip",
+   "parent": "chandigarh"
+  },
+  {
+   "guide": "capitol-complex-chandigarh-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-chandigarh",
+   "action": "Skip",
+   "parent": "chandigarh"
+  },
+  {
+   "guide": "sector-17-chandigarh-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-chandigarh",
+   "action": "Skip",
+   "parent": "chandigarh"
+  },
+  {
+   "guide": "le-corbusier-centre-chandigarh-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-chandigarh",
+   "action": "Skip",
+   "parent": "chandigarh"
+  },
+  {
+   "guide": "government-museum-chandigarh-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-chandigarh",
+   "action": "Skip",
+   "parent": "chandigarh"
+  },
+  {
+   "guide": "japanese-garden-chandigarh-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-chandigarh",
+   "action": "Skip",
+   "parent": "chandigarh"
+  },
+  {
+   "guide": "leisure-valley-chandigarh-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-chandigarh",
+   "action": "Skip",
+   "parent": "chandigarh"
+  },
+  {
+   "guide": "garden-of-fragrance-chandigarh-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-chandigarh",
+   "action": "Skip",
+   "parent": "chandigarh"
+  },
+  {
+   "guide": "international-dolls-museum-chandigarh-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-chandigarh",
+   "action": "Skip",
+   "parent": "chandigarh"
+  },
+  {
+   "guide": "sector-22-chandigarh-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-chandigarh",
+   "action": "Skip",
+   "parent": "chandigarh"
+  },
+  {
+   "guide": "sector-26-chandigarh-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-chandigarh",
+   "action": "Skip",
+   "parent": "chandigarh"
+  },
+  {
+   "guide": "sector-35-chandigarh-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-chandigarh",
+   "action": "Skip",
+   "parent": "chandigarh"
+  },
+  {
+   "guide": "terraced-garden-chandigarh-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-chandigarh",
+   "action": "Skip",
+   "parent": "chandigarh"
+  },
+  {
+   "guide": "shanti-kunj-chandigarh-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-chandigarh",
+   "action": "Skip",
+   "parent": "chandigarh"
+  },
+  {
+   "guide": "bougainvillea-garden-chandigarh-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-chandigarh",
+   "action": "Skip",
+   "parent": "chandigarh"
+  },
+  {
+   "guide": "chandigarh-botanical-garden-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "dadra-nagar-haveli-daman-diu-travel-guide",
+   "reason": "State/UT-level guide: things-to-do intent is served by the state's destination articles",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "puducherry-french-quarter-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-pondicherry",
+   "action": "Skip",
+   "parent": "pondicherry"
+  },
+  {
+   "guide": "karaikal-district-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "mahe-district-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "yanam-district-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "kavaratti-island-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "agatti-island-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "cellular-jail-andaman-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-andaman",
+   "action": "Skip",
+   "parent": "andaman"
+  },
+  {
+   "guide": "radhanagar-beach-andaman-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-andaman",
+   "action": "Skip",
+   "parent": "andaman"
+  },
+  {
+   "guide": "ross-island-andaman-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-andaman",
+   "action": "Skip",
+   "parent": "andaman"
+  },
+  {
+   "guide": "baratang-andaman-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-andaman",
+   "action": "Skip",
+   "parent": "andaman"
+  },
+  {
+   "guide": "diglipur-andaman-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-andaman",
+   "action": "Skip",
+   "parent": "andaman"
+  },
+  {
+   "guide": "ross-and-smith-islands-andaman-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-andaman",
+   "action": "Skip",
+   "parent": "andaman"
+  },
+  {
+   "guide": "kalipur-andaman-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-andaman",
+   "action": "Skip",
+   "parent": "andaman"
+  },
+  {
+   "guide": "north-bay-island-andaman-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-andaman",
+   "action": "Skip",
+   "parent": "andaman"
+  },
+  {
+   "guide": "jolly-buoy-island-andaman-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-andaman",
+   "action": "Skip",
+   "parent": "andaman"
+  },
+  {
+   "guide": "chidiya-tapu-andaman-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-andaman",
+   "action": "Skip",
+   "parent": "andaman"
+  },
+  {
+   "guide": "mount-manipur-andaman-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-andaman",
+   "action": "Skip",
+   "parent": "andaman"
+  },
+  {
+   "guide": "rangat-andaman-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-andaman",
+   "action": "Skip",
+   "parent": "andaman"
+  },
+  {
+   "guide": "mayabunder-andaman-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-andaman",
+   "action": "Skip",
+   "parent": "andaman"
+  },
+  {
+   "guide": "little-andaman-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-andaman",
+   "action": "Skip",
+   "parent": "andaman"
+  },
+  {
+   "guide": "long-island-andaman-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-andaman",
+   "action": "Skip",
+   "parent": "andaman"
+  },
+  {
+   "guide": "valley-of-flowers-travel-guide",
+   "reason": "Limited standalone things-to-do search intent; activities are covered in its guide",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "pangong-lake-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-ladakh",
+   "action": "Skip",
+   "parent": "ladakh"
+  },
+  {
+   "guide": "hunder-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-nubra-valley",
+   "action": "Skip",
+   "parent": "nubra-valley"
+  },
+  {
+   "guide": "tso-moriri-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-ladakh",
+   "action": "Skip",
+   "parent": "ladakh"
+  },
+  {
+   "guide": "kargil-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "drass-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "zanskar-valley-travel-guide",
+   "reason": "Limited standalone things-to-do search intent; activities are covered in its guide",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "hanle-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "turtuk-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-nubra-valley",
+   "action": "Skip",
+   "parent": "nubra-valley"
+  },
+  {
+   "guide": "lamayuru-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-ladakh",
+   "action": "Skip",
+   "parent": "ladakh"
+  },
+  {
+   "guide": "hemis-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-leh",
+   "action": "Skip",
+   "parent": "leh"
+  },
+  {
+   "guide": "thiksey-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-leh",
+   "action": "Skip",
+   "parent": "leh"
+  },
+  {
+   "guide": "khardung-la-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-leh",
+   "action": "Skip",
+   "parent": "leh"
+  },
+  {
+   "guide": "dha-hanu-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "padum-travel-guide",
+   "reason": "Limited standalone things-to-do search intent; activities are covered in its guide",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "katra-travel-guide",
+   "reason": "Limited standalone things-to-do search intent; activities are covered in its guide",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "gurez-valley-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "doodhpathri-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-srinagar",
+   "action": "Skip",
+   "parent": "srinagar"
+  },
+  {
+   "guide": "yusmarg-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-srinagar",
+   "action": "Skip",
+   "parent": "srinagar"
+  },
+  {
+   "guide": "aharbal-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-srinagar",
+   "action": "Skip",
+   "parent": "srinagar"
+  },
+  {
+   "guide": "bhaderwah-travel-guide",
+   "reason": "Limited standalone things-to-do search intent; activities are covered in its guide",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "new-delhi-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-delhi",
+   "action": "Skip",
+   "parent": "delhi"
+  },
+  {
+   "guide": "mehrauli-delhi-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-delhi",
+   "action": "Skip",
+   "parent": "delhi"
+  },
+  {
+   "guide": "south-delhi-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-delhi",
+   "action": "Skip",
+   "parent": "delhi"
+  },
+  {
+   "guide": "hauz-khas-delhi-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-delhi",
+   "action": "Skip",
+   "parent": "delhi"
+  },
+  {
+   "guide": "nizamuddin-delhi-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-delhi",
+   "action": "Skip",
+   "parent": "delhi"
+  },
+  {
+   "guide": "akshardham-delhi-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-delhi",
+   "action": "Skip",
+   "parent": "delhi"
+  },
+  {
+   "guide": "tughlaqabad-delhi-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-delhi",
+   "action": "Skip",
+   "parent": "delhi"
+  },
+  {
+   "guide": "connaught-place-delhi-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-delhi",
+   "action": "Skip",
+   "parent": "delhi"
+  },
+  {
+   "guide": "chandni-chowk-delhi-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-delhi",
+   "action": "Skip",
+   "parent": "delhi"
+  },
+  {
+   "guide": "majnu-ka-tilla-delhi-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-delhi",
+   "action": "Skip",
+   "parent": "delhi"
+  },
+  {
+   "guide": "chanakyapuri-delhi-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-delhi",
+   "action": "Skip",
+   "parent": "delhi"
+  },
+  {
+   "guide": "lodhi-garden-delhi-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-delhi",
+   "action": "Skip",
+   "parent": "delhi"
+  },
+  {
+   "guide": "vasant-kunj-delhi-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-delhi",
+   "action": "Skip",
+   "parent": "delhi"
+  },
+  {
+   "guide": "dwarka-delhi-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-delhi",
+   "action": "Skip",
+   "parent": "delhi"
+  },
+  {
+   "guide": "karol-bagh-delhi-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-delhi",
+   "action": "Skip",
+   "parent": "delhi"
+  },
+  {
+   "guide": "lajpat-nagar-delhi-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-delhi",
+   "action": "Skip",
+   "parent": "delhi"
+  },
+  {
+   "guide": "sarojini-nagar-delhi-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-delhi",
+   "action": "Skip",
+   "parent": "delhi"
+  },
+  {
+   "guide": "paharganj-delhi-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-delhi",
+   "action": "Skip",
+   "parent": "delhi"
+  },
+  {
+   "guide": "kashmere-gate-delhi-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-delhi",
+   "action": "Skip",
+   "parent": "delhi"
+  },
+  {
+   "guide": "rohini-delhi-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-delhi",
+   "action": "Skip",
+   "parent": "delhi"
+  },
+  {
+   "guide": "janakpuri-delhi-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-delhi",
+   "action": "Skip",
+   "parent": "delhi"
+  },
+  {
+   "guide": "laxmi-nagar-delhi-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-delhi",
+   "action": "Skip",
+   "parent": "delhi"
+  },
+  {
+   "guide": "najafgarh-delhi-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-delhi",
+   "action": "Skip",
+   "parent": "delhi"
+  },
+  {
+   "guide": "silvassa-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "dudhni-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "nagoa-beach-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "jampore-beach-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "devka-beach-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "diu-fort-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "moti-daman-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "naida-caves-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "ghoghla-beach-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "khanvel-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "moti-daman-fort-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "nani-daman-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "satmaliya-deer-sanctuary-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "vanganga-lake-garden-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "madhuban-dam-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "gangeshwar-temple-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "sandakphu-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "dooars-travel-guide",
+   "reason": "Limited standalone things-to-do search intent; activities are covered in its guide",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "mandarmani-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "santiniketan-travel-guide",
+   "reason": "Limited standalone things-to-do search intent; activities are covered in its guide",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "bishnupur-travel-guide",
+   "reason": "Limited standalone things-to-do search intent; activities are covered in its guide",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "murshidabad-travel-guide",
+   "reason": "Limited standalone things-to-do search intent; activities are covered in its guide",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "mayapur-travel-guide",
+   "reason": "Limited standalone things-to-do search intent; activities are covered in its guide",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "tarapith-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "cooch-behar-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "ajodhya-hills-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "jhargram-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "mukutmanipur-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "gorumara-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "buxa-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "gangasagar-travel-guide",
+   "reason": "Limited standalone things-to-do search intent; activities are covered in its guide",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "badrinath-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "kedarnath-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "gangotri-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "yamunotri-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "munsiyari-travel-guide",
+   "reason": "Limited standalone things-to-do search intent; activities are covered in its guide",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "tehri-lake-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "dhanaulti-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-mussoorie",
+   "action": "Skip",
+   "parent": "mussoorie"
+  },
+  {
+   "guide": "mukteshwar-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-nainital",
+   "action": "Skip",
+   "parent": "nainital"
+  },
+  {
+   "guide": "jageshwar-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "adi-kailash-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "dayara-bugyal-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "fatehpur-sikri-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-agra",
+   "action": "Skip",
+   "parent": "agra"
+  },
+  {
+   "guide": "govardhan-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-mathura",
+   "action": "Skip",
+   "parent": "mathura"
+  },
+  {
+   "guide": "sarnath-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-varanasi",
+   "action": "Skip",
+   "parent": "varanasi"
+  },
+  {
+   "guide": "chandauli-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "kushinagar-travel-guide",
+   "reason": "Limited standalone things-to-do search intent; activities are covered in its guide",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "shravasti-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "dudhwa-travel-guide",
+   "reason": "Limited standalone things-to-do search intent; activities are covered in its guide",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "pilibhit-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "mirzapur-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "kannauj-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "naimisharanya-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "chitrakoot-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "jhansi-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "ujjayanta-palace-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-agartala",
+   "action": "Skip",
+   "parent": "agartala"
+  },
+  {
+   "guide": "udaipur-tripura-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "tripura-sundari-temple-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "unakoti-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "jampui-hills-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "betlingchhip-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "dumboor-lake-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "chabimura-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "sepahijala-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "trishna-wildlife-sanctuary-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "longtharai-valley-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "sabroom-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "telangana-travel-guide",
+   "reason": "State/UT-level guide: things-to-do intent is served by the state's destination articles",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "charminar-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-hyderabad",
+   "action": "Skip",
+   "parent": "hyderabad"
+  },
+  {
+   "guide": "golconda-fort-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-hyderabad",
+   "action": "Skip",
+   "parent": "hyderabad"
+  },
+  {
+   "guide": "yadadri-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "bhadrachalam-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "vemulawada-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "srisailam-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "nagarjuna-sagar-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "ananthagiri-hills-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "laknavaram-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "bogatha-waterfall-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "kuntala-waterfall-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "alampur-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "medaram-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "kawal-tiger-reserve-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "kanchipuram-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "chidambaram-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "valparai-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "courtallam-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "hogenakkal-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "chettinad-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "tiruvannamalai-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "kolli-hills-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "meghamalai-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "yelagiri-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "nathula-pass-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-gangtok",
+   "action": "Skip",
+   "parent": "gangtok"
+  },
+  {
+   "guide": "tsomgo-lake-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-gangtok",
+   "action": "Skip",
+   "parent": "gangtok"
+  },
+  {
+   "guide": "zuluk-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "namchi-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "ravangla-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "temi-tea-garden-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "lachung-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "yumthang-valley-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "lachen-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "gurudongmar-lake-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "yuksom-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "khecheopalri-lake-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "aritar-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "dzongu-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "ranthambore-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "ranthambore-first-time-visitors-travel-guide",
+   "reason": "Existing \u2014 Audited: already targets 'things to do in Ranthambore'",
+   "action": "Existing \u2014 Audited"
+  },
+  {
+   "guide": "jawai-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "bharatpur-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "kumbhalgarh-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "mandawa-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "abhaneri-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-jaipur",
+   "action": "Skip",
+   "parent": "jaipur"
+  },
+  {
+   "guide": "osian-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "khatu-shyam-ji-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "golden-temple-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-amritsar",
+   "action": "Skip",
+   "parent": "amritsar"
+  },
+  {
+   "guide": "wagah-border-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-amritsar",
+   "action": "Skip",
+   "parent": "amritsar"
+  },
+  {
+   "guide": "anandpur-sahib-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "kapurthala-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "mohali-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "bathinda-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "ferozepur-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "sultanpur-lodhi-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "tarn-taran-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "fatehgarh-sahib-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "abohar-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "ranjit-sagar-dam-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "konark-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-puri",
+   "action": "Skip",
+   "parent": "puri"
+  },
+  {
+   "guide": "chilika-lake-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "similipal-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "bhitarkanika-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "satkosia-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "cuttack-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "daringbadi-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "koraput-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "deomali-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "jeypore-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "sambalpur-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "chandipur-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "rourkela-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "kisama-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "dzukou-valley-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "dimapur-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "khonoma-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "mon-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "longwa-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "mokokchung-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "doyang-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "phek-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "shilloi-lake-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "mount-saramati-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "benreu-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "peren-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "reiek-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "phawngpui-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "champhai-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "thenzawl-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "vantawng-falls-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "tamdil-lake-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "serchhip-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "palak-dil-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "dampa-tiger-reserve-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "murlen-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "hmuifang-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "dawki-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-meghalaya",
+   "action": "Skip",
+   "parent": "meghalaya"
+  },
+  {
+   "guide": "nongriat-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-meghalaya",
+   "action": "Skip",
+   "parent": "meghalaya"
+  },
+  {
+   "guide": "mawlynnong-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-meghalaya",
+   "action": "Skip",
+   "parent": "meghalaya"
+  },
+  {
+   "guide": "shnongpdeng-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "jowai-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "krang-suri-falls-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-meghalaya",
+   "action": "Skip",
+   "parent": "meghalaya"
+  },
+  {
+   "guide": "laitlum-canyons-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-meghalaya",
+   "action": "Skip",
+   "parent": "meghalaya"
+  },
+  {
+   "guide": "umiam-lake-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-meghalaya",
+   "action": "Skip",
+   "parent": "meghalaya"
+  },
+  {
+   "guide": "mawphanlur-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "tura-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "balpakram-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "siju-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "tarkarli-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "ajanta-ellora-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "shirdi-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "bhandardara-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "tadoba-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "kaas-plateau-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-pune",
+   "action": "Skip",
+   "parent": "pune"
+  },
+  {
+   "guide": "ganpatipule-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "omkareshwar-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "kanha-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "bandhavgarh-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "panna-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "sanchi-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "bhimbetka-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "amarkantak-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "kuno-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "athirappilly-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-kerala",
+   "action": "Skip",
+   "parent": "kerala"
+  },
+  {
+   "guide": "bekal-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "kannur-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "guruvayur-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "vagamon-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-kerala",
+   "action": "Skip",
+   "parent": "kerala"
+  },
+  {
+   "guide": "gavi-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-kerala",
+   "action": "Skip",
+   "parent": "kerala"
+  },
+  {
+   "guide": "munroe-island-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-kerala",
+   "action": "Skip",
+   "parent": "kerala"
+  },
+  {
+   "guide": "dandeli-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "jog-falls-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "badami-aihole-pattadakal-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "kabini-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-mysore",
+   "action": "Skip",
+   "parent": "mysore"
+  },
+  {
+   "guide": "bandipur-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-mysore",
+   "action": "Skip",
+   "parent": "mysore"
+  },
+  {
+   "guide": "sakleshpur-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "nandi-hills-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-bangalore",
+   "action": "Skip",
+   "parent": "bangalore"
+  },
+  {
+   "guide": "deoghar-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "netarhat-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "betla-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "jamshedpur-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "patratu-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "parasnath-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "rajrappa-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "ghatshila-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "chandil-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "hazaribagh-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "saranda-forest-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "trikut-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "massanjore-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "kinnaur-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "kullu-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-manali",
+   "action": "Skip",
+   "parent": "manali"
+  },
+  {
+   "guide": "khajjiar-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-dalhousie",
+   "action": "Skip",
+   "parent": "dalhousie"
+  },
+  {
+   "guide": "jibhi-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-tirthan-valley",
+   "action": "Skip",
+   "parent": "tirthan-valley"
+  },
+  {
+   "guide": "prashar-lake-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "chitkul-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "kurukshetra-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "morni-hills-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "sultanpur-national-park-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "panipat-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "murthal-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "surajkund-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "damdama-lake-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "pinjore-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "rewari-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "narnaul-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "bhindawas-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "hisar-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "agroha-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "statue-of-unity-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "somnath-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "gir-national-park-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "dholavira-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "patan-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "junagadh-girnar-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "mandvi-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "palitana-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "polo-forest-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "panjim-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-goa",
+   "action": "Skip",
+   "parent": "goa"
+  },
+  {
+   "guide": "calangute-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-goa",
+   "action": "Skip",
+   "parent": "goa"
+  },
+  {
+   "guide": "baga-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-goa",
+   "action": "Skip",
+   "parent": "goa"
+  },
+  {
+   "guide": "candolim-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-goa",
+   "action": "Skip",
+   "parent": "goa"
+  },
+  {
+   "guide": "anjuna-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-goa",
+   "action": "Skip",
+   "parent": "goa"
+  },
+  {
+   "guide": "vagator-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-goa",
+   "action": "Skip",
+   "parent": "goa"
+  },
+  {
+   "guide": "old-goa-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-goa",
+   "action": "Skip",
+   "parent": "goa"
+  },
+  {
+   "guide": "palolem-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-goa",
+   "action": "Skip",
+   "parent": "goa"
+  },
+  {
+   "guide": "agonda-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-goa",
+   "action": "Skip",
+   "parent": "goa"
+  },
+  {
+   "guide": "dudhsagar-falls-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-goa",
+   "action": "Skip",
+   "parent": "goa"
+  },
+  {
+   "guide": "ponda-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-goa",
+   "action": "Skip",
+   "parent": "goa"
+  },
+  {
+   "guide": "morjim-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-goa",
+   "action": "Skip",
+   "parent": "goa"
+  },
+  {
+   "guide": "mandrem-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-goa",
+   "action": "Skip",
+   "parent": "goa"
+  },
+  {
+   "guide": "canacona-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-goa",
+   "action": "Skip",
+   "parent": "goa"
+  },
+  {
+   "guide": "mollem-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-goa",
+   "action": "Skip",
+   "parent": "goa"
+  },
+  {
+   "guide": "jagdalpur-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "chitrakote-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "tirathgarh-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "kanger-valley-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "mainpat-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "sirpur-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "bhoramdeo-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "kawardha-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "dongargarh-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "danteshwari-temple-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "kanker-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "barnawapara-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "achanakmar-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "tatapani-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "bastar-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "nalanda-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "vaishali-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "gaya-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "pawapuri-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "sasaram-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "valmiki-nagar-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "madhubani-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "barabar-caves-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "vikramshila-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "sivasagar-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "manas-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "dibrugarh-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "jorhat-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "tezpur-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "nameri-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "haflong-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "pobitora-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "kamakhya-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-guwahati",
+   "action": "Skip",
+   "parent": "guwahati"
+  },
+  {
+   "guide": "charaideo-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "silchar-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "hajo-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "sela-pass-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "dirang-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "mechuka-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "anini-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "namdapha-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "pasighat-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "bomdila-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "roing-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "namsai-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "walong-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "itanagar-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "pakke-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "gandikota-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "vijayawada-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "amaravati-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "rajahmundry-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "maredumilli-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "lambasingi-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "borra-caves-travel-guide",
+   "reason": "Part of a larger destination: covered in things-to-do-in-araku-valley",
+   "action": "Skip",
+   "parent": "araku-valley"
+  },
+  {
+   "guide": "belum-caves-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "ahobilam-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "horsley-hills-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  },
+  {
+   "guide": "papi-hills-travel-guide",
+   "reason": "Single attraction or small place with a narrow range of activities; its guide already covers them",
+   "action": "Skip",
+   "parent": null
+  }
+ ]
+}

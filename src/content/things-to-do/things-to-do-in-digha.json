@@ -1,0 +1,277 @@
+{
+  "slug": "things-to-do-in-digha",
+  "destination": "Digha",
+  "guide": "digha-travel-guide",
+  "type": "beach town",
+  "title": "Things to Do in Digha: Beaches, Seafood & Weekend Escapes from Kolkata",
+  "seoTitle": "Things to Do in Digha: Beaches, Temples & Seafood | Kudozz Club",
+  "description": "Things to do in Digha: sunrise on New Digha beach, the Old Digha promenade, the Marine Aquarium and Science Centre, the Jagannath Temple, Chandaneswar, Shankarpur fishing harbour, Tajpur, Mandarmani and Udaipur beaches, and fresh fried fish.",
+  "dek": "West Bengal's favourite seaside town on the Bay of Bengal, a quick train ride from Kolkata, with long beaches, seafood stalls and quieter beaches nearby.",
+  "primaryKeyword": "things to do in Digha",
+  "secondaryKeywords": [
+    "places to visit in Digha",
+    "New Digha beach",
+    "Digha Jagannath temple",
+    "Digha marine aquarium",
+    "Mandarmani",
+    "Tajpur beach",
+    "Digha weekend trip"
+  ],
+  "searchIntent": "Families and friends from Kolkata and eastern India planning a two-day beach weekend in Digha.",
+  "tags": [
+    "Digha",
+    "West Bengal",
+    "Beach",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/west-bengal/digha/digha-sea-beach-view.webp",
+    "alt": "The beach at Digha, West Bengal"
+  },
+  "intro": [
+    "Digha is a seaside town in Purba Medinipur district, close to the Odisha border and roughly 180 km from Kolkata. For generations it has been the classic weekend beach for Bengali families, and it stays lively all year, especially on holidays.",
+    "Things to do in Digha are simple and cheerful: sunrise and sunset on the beach, evening strolls on the promenade, fried fish from beach stalls, the marine aquarium and science centre, and temples old and new. For quieter sand, go to the nearby beaches of Udaipur, Tajpur, Shankarpur and Mandarmani.",
+    "Two days is enough. October to February is the best season; the sea is rough in the monsoon, and swimming is often unsafe."
+  ],
+  "quickAnswer": [
+    "Watch sunrise on New Digha beach",
+    "Stroll the Old Digha promenade at sunset",
+    "Visit the Marine Aquarium and Regional Centre",
+    "Explore the Digha Science Centre",
+    "See the new Jagannath Temple",
+    "Visit Chandaneswar Shiva temple",
+    "See the catch at Shankarpur fishing harbour",
+    "Spend a day at Tajpur or Mandarmani",
+    "Eat fried pomfret and prawns at beach stalls"
+  ],
+  "sections": [
+    {
+      "id": "beaches",
+      "heading": "Beaches",
+      "items": [
+        {
+          "name": "Watch sunrise on New Digha",
+          "body": [
+            "New Digha has a wider, flatter beach than the old town and a long promenade. Early morning is the best time, when fishermen bring in boats and the beach is calm. The sea here can have strong currents; swim only where lifeguards are present and never in rough weather."
+          ],
+          "facts": {
+            "Best time": "Sunrise",
+            "Good for": "Families",
+            "Good to know": "Swim only in safe, guarded areas"
+          }
+        },
+        {
+          "name": "Stroll the Old Digha promenade",
+          "body": [
+            "Old Digha's promenade, above a boulder sea wall, is where the crowds gather in the evening for snacks, shopping for shell crafts and watching the waves. It has a festive, busy atmosphere on weekends."
+          ],
+          "facts": {
+            "Best time": "Sunset"
+          }
+        },
+        {
+          "name": "Go to Udaipur beach",
+          "body": [
+            "Udaipur beach, a short drive west towards the Odisha border, is quieter than Digha's main beaches and good for a long walk on the sand."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "attractions",
+      "heading": "Temples and attractions",
+      "items": [
+        {
+          "name": "Visit the Marine Aquarium",
+          "body": [
+            "The Marine Aquarium and Regional Centre, run by the Zoological Survey of India, has tanks of marine fish and a museum on coastal life. It is popular with children."
+          ],
+          "facts": {
+            "Time needed": "1 hour",
+            "Good for": "Families"
+          }
+        },
+        {
+          "name": "Explore the Science Centre",
+          "image": {
+            "src": "/images/blogs/west-bengal/digha/digha-science-centre.webp",
+            "alt": "Digha Science Centre building",
+            "caption": "Digha Science Centre"
+          },
+          "body": [
+            "The Digha Science Centre has interactive science exhibits, a 3D theatre and a park, and makes a good break from the sun."
+          ],
+          "facts": {
+            "Time needed": "1.5 hours",
+            "Good for": "Families"
+          }
+        },
+        {
+          "name": "See the Jagannath Temple",
+          "body": [
+            "A large Jagannath Temple modelled on the shrine at Puri opened in Digha in 2025 and has quickly become one of the town's main attractions. Expect crowds on festival days and weekends, and follow temple rules on dress and phones."
+          ],
+          "facts": {
+            "Good to know": "Busy on weekends and festivals"
+          }
+        },
+        {
+          "name": "Visit Chandaneswar Temple",
+          "body": [
+            "Chandaneswar, a Shiva temple just across the border in Odisha, is a short drive from Digha and is especially crowded during the Chaitra festival in spring."
+          ]
+        },
+        {
+          "name": "Relax at Amarabati Park",
+          "body": [
+            "Amarabati Park, near Old Digha, has a lake with boating, gardens and a ropeway-style ride. It is an easy evening outing with children."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nearby",
+      "heading": "Nearby beaches and the harbour",
+      "items": [
+        {
+          "name": "See Shankarpur fishing harbour",
+          "body": [
+            "Shankarpur, about 14 km away, has a busy fishing harbour where trawlers unload their catch in the morning, and a quiet beach with casuarina trees."
+          ],
+          "facts": {
+            "Best time": "Morning"
+          }
+        },
+        {
+          "name": "Spend a day at Tajpur",
+          "body": [
+            "Tajpur is a small, quiet beach known for red crabs on the sand and casuarina groves. It has a handful of resorts and is ideal for doing very little."
+          ]
+        },
+        {
+          "name": "Stay at Mandarmani",
+          "image": {
+            "src": "/images/blogs/west-bengal/mandarmani/mandarmani-beach-fishing-boats-stormy-sky.webp",
+            "alt": "Fishing boats on Mandarmani beach",
+            "caption": "Mandarmani"
+          },
+          "body": [
+            "Mandarmani, about 30 km from Digha, has a long, flat beach and many resorts, and is popular for weekend stays. Driving on the beach is restricted; follow local rules."
+          ],
+          "links": [
+            {
+              "label": "Mandarmani guide",
+              "href": "/blog/mandarmani-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Eat seafood at the stalls",
+          "body": [
+            "Beach stalls fry pomfret, prawns, crab and bhetki to order. Check freshness, agree on the price per piece before cooking and stick to busy stalls."
+          ],
+          "facts": {
+            "Good for": "Food lovers"
+          }
+        }
+      ]
+    },
+    {
+      "id": "seasons",
+      "heading": "Digha by season",
+      "items": [
+        {
+          "name": "Winter (October to February)",
+          "body": [
+            "Cool, clear days and calm evenings on the promenade make this the best time for Digha. Weekends and the Christmas to New Year week are very busy."
+          ]
+        },
+        {
+          "name": "Summer (March to June)",
+          "body": [
+            "Hot and humid, though sea breezes help in the evenings. Weekday visits are quiet and hotels offer lower rates."
+          ]
+        },
+        {
+          "name": "Monsoon (July to September)",
+          "body": [
+            "Dramatic waves crash against the sea wall at Old Digha, which draws some visitors, but swimming is unsafe and cyclone warnings can close the beaches. Follow local advisories."
+          ],
+          "facts": {
+            "Good to know": "Do not enter the sea in rough weather"
+          }
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Families",
+      "text": "Aquarium, Science Centre, Amarabati Park and evenings on the promenade."
+    },
+    {
+      "who": "Couples",
+      "text": "Stay in Tajpur or Mandarmani for quieter beaches and day trips into Digha."
+    },
+    {
+      "who": "Pilgrims",
+      "text": "The Jagannath Temple and Chandaneswar."
+    },
+    {
+      "who": "Groups of friends",
+      "text": "Stay at Mandarmani or Tajpur for beach evenings, and come into Digha for the seafood stalls and promenade."
+    }
+  ],
+  "oneDay": "Watch sunrise on New Digha beach, then visit the Marine Aquarium and Science Centre. After a seafood lunch, see the Jagannath Temple and drive to Shankarpur and Tajpur. Return to the Old Digha promenade for sunset.",
+  "tips": [
+    "Trains from Howrah reach Digha in about three and a half to four hours; buses and cars take a similar time.",
+    "Swim only in designated areas and follow lifeguards' instructions.",
+    "Weekends and holidays are crowded; book hotels in advance.",
+    "The monsoon brings rough seas and occasional cyclone warnings.",
+    "Carry cash for beach stalls and small shops, although UPI is widely accepted in town."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Digha?",
+      "a": "Enjoy sunrise on New Digha beach, stroll the Old Digha promenade, visit the Marine Aquarium, Science Centre and Jagannath Temple, and make trips to Shankarpur, Tajpur and Mandarmani."
+    },
+    {
+      "q": "Is it safe to swim in Digha?",
+      "a": "Only in calm conditions and in areas watched by lifeguards. Currents can be strong, and swimming is unsafe in the monsoon."
+    },
+    {
+      "q": "How many days are enough for Digha?",
+      "a": "Two days for Digha and nearby beaches."
+    },
+    {
+      "q": "What is the best time to visit Digha?",
+      "a": "October to February."
+    },
+    {
+      "q": "How far is Mandarmani from Digha?",
+      "a": "About 30 km, around an hour by road. Tajpur and Shankarpur lie on the way."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Mandarmani",
+      "href": "/blog/mandarmani-travel-guide",
+      "note": "a long, quiet beach about 30 km away"
+    },
+    {
+      "name": "Things to do in Kolkata",
+      "href": "/blog/things-to-do-in-kolkata",
+      "note": "about four hours away"
+    },
+    {
+      "name": "Things to do in Puri",
+      "href": "/blog/things-to-do-in-puri",
+      "note": "Odisha's temple town and beach"
+    }
+  ],
+  "styles": [
+    "family-holidays",
+    "weekend-getaways"
+  ],
+  "metaDescription": "Things to do in Digha: sunrise on New Digha beach, the Old Digha promenade, the Marine Aquarium and Science Centre, the Jagannath Temple, Chandaneswar and more."
+}

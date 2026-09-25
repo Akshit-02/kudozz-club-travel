@@ -1,0 +1,266 @@
+{
+  "slug": "things-to-do-in-jabalpur",
+  "destination": "Jabalpur",
+  "guide": "jabalpur-travel-guide",
+  "type": "city",
+  "title": "Things to Do in Jabalpur: Marble Rocks, Dhuandhar Falls & the Road to Kanha",
+  "seoTitle": "Things to Do in Jabalpur: Marble Rocks & Falls | Kudozz Club",
+  "description": "Things to do in Jabalpur: a boat through the Marble Rocks at Bhedaghat, Dhuandhar Falls and its ropeway, the Chausath Yogini Temple, Madan Mahal Fort, the Balancing Rock, Gwarighat's Narmada aarti, Bargi Dam, and safaris in Kanha and Bandhavgarh.",
+  "dek": "A city on the Narmada where the river cuts through gleaming marble cliffs, and the gateway to central India's best tiger reserves.",
+  "primaryKeyword": "things to do in Jabalpur",
+  "secondaryKeywords": [
+    "Bhedaghat marble rocks",
+    "Dhuandhar Falls",
+    "Chausath Yogini Temple Jabalpur",
+    "Madan Mahal Fort",
+    "Jabalpur to Kanha",
+    "Bhedaghat boat ride"
+  ],
+  "searchIntent": "Travellers passing through Jabalpur on the way to Kanha or Bandhavgarh, and weekenders visiting Bhedaghat.",
+  "tags": [
+    "Jabalpur",
+    "Madhya Pradesh",
+    "City",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/madhya-pradesh/jabalpur/bhedaghat-marble-rocks-jabalpur.webp",
+    "alt": "Marble Rocks gorge at Bhedaghat, Jabalpur",
+    "caption": "Marble Rocks, Bhedaghat"
+  },
+  "intro": [
+    "Jabalpur, on the banks of the Narmada in central Madhya Pradesh, was once part of the Gond kingdom of Garha, whose queen Rani Durgavati died fighting the Mughals in 1564. Today it is a busy city and a major railway junction.",
+    "The things to do in Jabalpur centre on Bhedaghat, where the Narmada flows through a gorge of white and grey marble cliffs and plunges over Dhuandhar Falls. The 10th-century Chausath Yogini Temple, the Gond fort of Madan Mahal and the evening aarti at Gwarighat add history and faith. Jabalpur is also the gateway to Kanha and Bandhavgarh tiger reserves.",
+    "One day covers Jabalpur's sights. October to March is the most comfortable time; the Marble Rocks are especially magical on full-moon nights."
+  ],
+  "quickAnswer": [
+    "Take a boat through the Marble Rocks",
+    "See Dhuandhar Falls and ride the ropeway",
+    "Visit the Chausath Yogini Temple",
+    "Climb to Madan Mahal Fort",
+    "See the Balancing Rock",
+    "Watch the Narmada aarti at Gwarighat",
+    "Take a cruise on Bargi Dam",
+    "Visit the Rani Durgavati Museum",
+    "Head to Kanha National Park",
+    "Head to Bandhavgarh National Park"
+  ],
+  "sections": [
+    {
+      "id": "bhedaghat",
+      "heading": "Bhedaghat",
+      "items": [
+        {
+          "name": "Take a boat through the Marble Rocks",
+          "body": [
+            "At Bhedaghat, about 20 km from the city, boats glide for about an hour through a gorge where marble cliffs rise up to around 30 metres on both sides, their colours changing with the light. Boatmen narrate the sights with rhymes and jokes. On full-moon nights, when boating is allowed, the cliffs glow silver.",
+            "Along the way, look for formations the boatmen call the elephant's foot and monkey's jump, where the cliffs almost meet. The quiet stretches of water under the cliffs are home to kingfishers and cormorants."
+          ],
+          "facts": {
+            "Time needed": "1 hour",
+            "Best time": "Morning or full-moon nights",
+            "Good to know": "Boating stops in the monsoon"
+          }
+        },
+        {
+          "name": "See Dhuandhar Falls",
+          "body": [
+            "Dhuandhar Falls, a short distance upstream, is where the Narmada plunges into the gorge, throwing up a cloud of spray that gives it the name smoke cascade. A ropeway crosses the gorge for views of the falls from above.",
+            "A walkway leads to viewing points close to the falls, and small stalls line the path. The spray and roar are strongest just after the monsoon."
+          ],
+          "image": {
+            "src": "/images/blogs/madhya-pradesh/jabalpur/dhuandhar-falls-jabalpur.webp",
+            "alt": "Dhuandhar Falls on the Narmada",
+            "caption": "Dhuandhar Falls"
+          },
+          "facts": {
+            "Time needed": "1 hour"
+          }
+        },
+        {
+          "name": "Visit the Chausath Yogini Temple",
+          "body": [
+            "The Chausath Yogini Temple, on a hill above Bhedaghat reached by about 150 steps, is a circular temple from the 10th century with carved figures of the yoginis around its cloister. A later shrine of Shiva and Parvati riding Nandi stands in the centre."
+          ],
+          "image": {
+            "src": "/images/blogs/madhya-pradesh/jabalpur/chausath-yogini-temple-jabalpur.webp",
+            "alt": "Chausath Yogini Temple, Jabalpur",
+            "caption": "Chausath Yogini Temple"
+          },
+          "facts": {
+            "Time needed": "45 minutes"
+          }
+        },
+        {
+          "name": "Buy marble crafts",
+          "body": [
+            "Stalls at Bhedaghat sell small carvings and souvenirs made from local marble and soapstone."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "city",
+      "heading": "In the city",
+      "items": [
+        {
+          "name": "Climb to Madan Mahal Fort",
+          "body": [
+            "Madan Mahal Fort, built by the Gond ruler Madan Shah in the 11th century on a rocky hill, gives views over the city. The nearby Balancing Rock, a large boulder poised on another, has survived earthquakes."
+          ]
+        },
+        {
+          "name": "Watch the Narmada aarti at Gwarighat",
+          "body": [
+            "Gwarighat, on the Narmada, has an evening aarti with lamps and chants, and a gurudwara on an island linked to Guru Nanak's visit."
+          ],
+          "facts": {
+            "Best time": "Evening"
+          }
+        },
+        {
+          "name": "Visit the Rani Durgavati Museum",
+          "body": [
+            "The Rani Durgavati Museum has sculptures from the region's temples, including fine Kalachuri-era pieces, and exhibits on the Gond queen."
+          ]
+        },
+        {
+          "name": "Cruise on Bargi Dam",
+          "body": [
+            "Bargi Dam, about 40 km away, has a large reservoir with boat cruises and a tourism resort, pleasant at sunset."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wildlife",
+      "heading": "Tiger reserves",
+      "items": [
+        {
+          "name": "Head to Kanha National Park",
+          "body": [
+            "Kanha, about 160 to 170 km away, is one of India's finest tiger reserves, known for its meadows, sal forests and the hard-ground barasingha (swamp deer), saved from extinction here."
+          ],
+          "links": [
+            {
+              "label": "Kanha guide",
+              "href": "/blog/kanha-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Head to Bandhavgarh National Park",
+          "body": [
+            "Bandhavgarh, about 190 km away, has a high density of tigers and an ancient hilltop fort with rock-cut statues of Vishnu."
+          ],
+          "links": [
+            {
+              "label": "Bandhavgarh guide",
+              "href": "/blog/bandhavgarh-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seasons",
+      "heading": "By season",
+      "items": [
+        {
+          "name": "October to March",
+          "body": [
+            "The best time for Bhedaghat boats and safaris in Kanha and Bandhavgarh."
+          ]
+        },
+        {
+          "name": "April to June",
+          "body": [
+            "Hot, but good for tiger sightings in the parks."
+          ]
+        },
+        {
+          "name": "July to September",
+          "body": [
+            "Dhuandhar Falls is at its most powerful, but boating at the Marble Rocks is suspended and the parks' core zones close."
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Families",
+      "text": "The Marble Rocks boat ride, Dhuandhar ropeway and Bargi Dam."
+    },
+    {
+      "who": "Wildlife lovers",
+      "text": "A day at Bhedaghat before heading to Kanha or Bandhavgarh."
+    },
+    {
+      "who": "History lovers",
+      "text": "Chausath Yogini, Madan Mahal and the Rani Durgavati Museum."
+    },
+    {
+      "who": "Weekenders",
+      "text": "Stay a night at Bhedaghat to see the Marble Rocks at sunrise or under a full moon, and visit the city's fort and ghats the next day."
+    }
+  ],
+  "oneDay": "Drive to Bhedaghat in the morning for the Marble Rocks boat ride, Dhuandhar Falls and the Chausath Yogini Temple. Return for Madan Mahal Fort and the Balancing Rock in the afternoon, and end at Gwarighat for the evening aarti.",
+  "tips": [
+    "Jabalpur has an airport and a major railway junction.",
+    "Boats at Bhedaghat do not run in the monsoon.",
+    "Hire a car for Bhedaghat, which is about 20 km out of town.",
+    "Book safaris in Kanha and Bandhavgarh well in advance.",
+    "Carry a light jacket for evening boat rides in winter; it gets cool on the water.",
+    "Try khoya jalebi, a Jabalpur speciality, in the old city."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Jabalpur?",
+      "a": "Take a boat through the Marble Rocks, see Dhuandhar Falls, visit the Chausath Yogini Temple and Madan Mahal Fort, watch the Gwarighat aarti and head on to Kanha or Bandhavgarh."
+    },
+    {
+      "q": "When is the best time for the Bhedaghat boat ride?",
+      "a": "From October to June, especially in the morning or on full-moon nights. Boats do not run in the monsoon."
+    },
+    {
+      "q": "How far is Kanha from Jabalpur?",
+      "a": "About 160 to 170 km, roughly four hours by road."
+    },
+    {
+      "q": "How many days are enough for Jabalpur?",
+      "a": "One day."
+    },
+    {
+      "q": "Can I see Bhedaghat in half a day?",
+      "a": "Yes. The boat ride, Dhuandhar Falls and the Chausath Yogini Temple can be covered in about four hours from Jabalpur."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Kanha",
+      "href": "/blog/kanha-travel-guide",
+      "note": "tigers and barasingha"
+    },
+    {
+      "name": "Bandhavgarh",
+      "href": "/blog/bandhavgarh-travel-guide",
+      "note": "tiger country with an ancient fort"
+    },
+    {
+      "name": "Things to do in Pachmarhi",
+      "href": "/blog/things-to-do-in-pachmarhi",
+      "note": "the Satpura hills"
+    },
+    {
+      "name": "Amarkantak",
+      "href": "/blog/amarkantak-travel-guide",
+      "note": "the source of the Narmada"
+    }
+  ],
+  "styles": [
+    "wildlife-tours",
+    "family-holidays"
+  ],
+  "metaDescription": "Things to do in Jabalpur: a boat through the Marble Rocks at Bhedaghat, Dhuandhar Falls and its ropeway, the Chausath Yogini Temple, Madan Mahal Fort, the Balancing Rock and more."
+}

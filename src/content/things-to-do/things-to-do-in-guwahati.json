@@ -1,0 +1,277 @@
+{
+  "slug": "things-to-do-in-guwahati",
+  "destination": "Guwahati",
+  "guide": "guwahati-travel-guide",
+  "type": "city",
+  "title": "Things to Do in Guwahati: Kamakhya, the Brahmaputra & Gateway Day Trips",
+  "seoTitle": "Things to Do in Guwahati: Kamakhya, River & More | Kudozz Club",
+  "description": "Things to do in Guwahati: Kamakhya Temple, the Umananda island temple, a Brahmaputra sunset cruise, the river ropeway, Assam State Museum, Srimanta Sankardeva Kalakshetra, Deepor Beel, and trips to Pobitora's rhinos, Hajo and the silk village of Sualkuchi.",
+  "dek": "The largest city of the Northeast, on the banks of the mighty Brahmaputra, with a hilltop Shakti shrine, river islands and rhinos less than an hour away.",
+  "primaryKeyword": "things to do in Guwahati",
+  "secondaryKeywords": [
+    "places to visit in Guwahati",
+    "Kamakhya Temple",
+    "Umananda temple",
+    "Brahmaputra cruise",
+    "Pobitora rhino",
+    "Sualkuchi silk",
+    "Guwahati ropeway"
+  ],
+  "searchIntent": "Travellers passing through Guwahati on the way to Meghalaya, Kaziranga or Arunachal, with one or two days to fill.",
+  "tags": [
+    "Guwahati",
+    "Assam",
+    "City",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/assam/guwahati/kamakhya-temple-guwahati.webp",
+    "alt": "Kamakhya Temple on Nilachal Hill, Guwahati",
+    "caption": "Kamakhya Temple"
+  },
+  "intro": [
+    "Guwahati, on the south bank of the Brahmaputra, is the largest city in north-east India and the gateway to the region, with the main airport and railway hub. It was known in ancient times as Pragjyotishpura and has been a centre of Shakti worship for many centuries.",
+    "The best things to do in Guwahati include darshan at the Kamakhya Temple on Nilachal Hill, a boat to the Umananda temple on its river island, a sunset cruise or ropeway ride over the Brahmaputra, and the city's museums and cultural centres. Short trips lead to Pobitora Wildlife Sanctuary for rhinos, the multi-faith pilgrimage town of Hajo and the silk-weaving village of Sualkuchi.",
+    "One to two days is enough for the city. October to March is the most comfortable time."
+  ],
+  "quickAnswer": [
+    "Visit Kamakhya Temple on Nilachal Hill",
+    "Take a ferry to Umananda Temple on Peacock Island",
+    "Take a Brahmaputra sunset cruise",
+    "Ride the river ropeway to North Guwahati",
+    "See the Assam State Museum",
+    "Visit Srimanta Sankardeva Kalakshetra",
+    "Go birdwatching at Deepor Beel",
+    "See one-horned rhinos at Pobitora",
+    "Visit Hajo's temples and mosque",
+    "Watch silk weavers at Sualkuchi"
+  ],
+  "sections": [
+    {
+      "id": "temples",
+      "heading": "Temples and the river",
+      "items": [
+        {
+          "name": "Visit Kamakhya Temple",
+          "image": {
+            "src": "/images/blogs/assam/kamakhya/kamakhya-temple.webp",
+            "alt": "Kamakhya Temple beehive-shaped shikhara",
+            "caption": "Kamakhya Temple"
+          },
+          "body": [
+            "Kamakhya, on Nilachal Hill, is one of the most important Shakti Peethas and a major centre of Tantric worship. The present temple was rebuilt in the 16th and 17th centuries under the Koch and Ahom kings. Queues for the inner sanctum can take several hours; special darshan tickets are available. The Ambubachi Mela in June draws huge crowds."
+          ],
+          "facts": {
+            "Time needed": "2–4 hours",
+            "Best time": "Early morning on weekdays",
+            "Good to know": "Very busy during Ambubachi in June"
+          }
+        },
+        {
+          "name": "Take a ferry to Umananda",
+          "image": {
+            "src": "/images/blogs/assam/guwahati/umananda-temple-guwahati.webp",
+            "alt": "Umananda Temple on Peacock Island in the Brahmaputra",
+            "caption": "Umananda Temple"
+          },
+          "body": [
+            "Umananda Temple, dedicated to Shiva, sits on Peacock Island in the middle of the Brahmaputra, often described as one of the smallest inhabited river islands in the world. Ferries leave from Umananda Ghat near the High Court. The island is home to golden langurs, a rare primate."
+          ],
+          "facts": {
+            "Time needed": "1.5 hours",
+            "Good for": "Families"
+          }
+        },
+        {
+          "name": "Cruise the Brahmaputra at sunset",
+          "body": [
+            "Sunset cruises on the Brahmaputra leave from the riverfront, with music and snacks on board. The river is wide here and sunsets over the water can be spectacular. The Guwahati ropeway, one of the longest river ropeways in India, crosses from the city to North Guwahati and gives aerial views."
+          ],
+          "facts": {
+            "Best time": "Sunset",
+            "Good for": "Couples, families"
+          }
+        },
+        {
+          "name": "See Basistha Ashram and Navagraha Temple",
+          "body": [
+            "Basistha Ashram, at the city's southern edge, is a temple linked to the sage Vasishtha, set among streams and forest. The Navagraha Temple on Chitrachal Hill is dedicated to the nine planets and was historically a centre of astronomy."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "heading": "Museums and culture",
+      "items": [
+        {
+          "name": "See the Assam State Museum",
+          "image": {
+            "src": "/images/blogs/assam/guwahati/assam-state-museum-guwahati.webp",
+            "alt": "Assam State Museum, Guwahati",
+            "caption": "Assam State Museum"
+          },
+          "body": [
+            "The Assam State Museum near Dighalipukhuri tank has sculptures, inscriptions, manuscripts, textiles and a gallery on the region's tribal cultures. It is a good introduction to Assam's history."
+          ],
+          "facts": {
+            "Time needed": "1.5 hours",
+            "Good to know": "Closed on Mondays"
+          }
+        },
+        {
+          "name": "Visit Srimanta Sankardeva Kalakshetra",
+          "body": [
+            "Srimanta Sankardeva Kalakshetra is a cultural complex named after the 15th- and 16th-century saint-reformer. It has museums on Assamese culture, a heritage park with traditional houses, and hosts performances of Sattriya dance and Bihu."
+          ],
+          "facts": {
+            "Time needed": "2 hours",
+            "Good for": "Culture seekers"
+          }
+        },
+        {
+          "name": "Shop at Fancy Bazar and Pan Bazar",
+          "body": [
+            "Fancy Bazar is Guwahati's busy wholesale market for clothes, spices and household goods. Look for Assam silk (muga, pat and eri), gamosa towels and Assam tea in the shops of Pan Bazar and Paltan Bazar."
+          ]
+        },
+        {
+          "name": "Eat Assamese food",
+          "body": [
+            "Try an Assamese thali with masor tenga (sour fish curry), khar, duck with ash gourd, aloo pitika and pitha. Assam tea, of course, is everywhere."
+          ],
+          "facts": {
+            "Good for": "Food lovers"
+          }
+        }
+      ]
+    },
+    {
+      "id": "day-trips",
+      "heading": "Day trips",
+      "items": [
+        {
+          "name": "See rhinos at Pobitora",
+          "image": {
+            "src": "/images/blogs/assam/pobitora/pobitora-wildlife-sanctuary.webp",
+            "alt": "Grassland and wetland at Pobitora Wildlife Sanctuary",
+            "caption": "Pobitora"
+          },
+          "body": [
+            "Pobitora Wildlife Sanctuary, about 50 km from Guwahati, has one of the highest densities of one-horned rhinos in the world. Jeep safaris in the morning often bring close sightings, making it a good option if you cannot go to Kaziranga."
+          ],
+          "links": [
+            {
+              "label": "Pobitora guide",
+              "href": "/blog/pobitora-travel-guide"
+            }
+          ],
+          "facts": {
+            "Best time": "November to April"
+          }
+        },
+        {
+          "name": "Visit Hajo",
+          "image": {
+            "src": "/images/blogs/assam/hajo/hayagriva-madhava-temple-hajo-2.webp",
+            "alt": "Hayagriva Madhava Temple at Hajo",
+            "caption": "Hayagriva Madhava Temple"
+          },
+          "body": [
+            "Hajo, across the river, is a pilgrimage town sacred to Hindus, Buddhists and Muslims. The Hayagriva Madhava Temple is believed by some Buddhists to be where the Buddha attained nirvana, and the Poa Mecca mosque on a nearby hill is an important Muslim shrine."
+          ],
+          "links": [
+            {
+              "label": "Hajo guide",
+              "href": "/blog/hajo-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Watch silk weavers at Sualkuchi",
+          "body": [
+            "Sualkuchi, near Hajo, is known as the silk village of Assam. Almost every house has a loom, weaving muga and pat silk mekhela chadors. Visitors can watch weavers at work and buy directly."
+          ],
+          "facts": {
+            "Good for": "Shoppers, culture seekers"
+          }
+        },
+        {
+          "name": "Go birdwatching at Deepor Beel",
+          "body": [
+            "Deepor Beel, a Ramsar wetland on the western edge of the city, attracts migratory ducks, storks and waders in winter. Wild elephants sometimes visit from nearby forests."
+          ],
+          "facts": {
+            "Best time": "November to February"
+          }
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Pilgrims",
+      "text": "Kamakhya at dawn, Umananda by ferry and a day at Hajo."
+    },
+    {
+      "who": "Families",
+      "text": "The river cruise, ropeway, Umananda's langurs and a morning safari at Pobitora."
+    },
+    {
+      "who": "Travellers in transit",
+      "text": "With half a day, visit Kamakhya and take a sunset cruise before heading to Shillong or Kaziranga."
+    }
+  ],
+  "oneDay": "Visit Kamakhya early, then take the ferry to Umananda. After lunch, see the Assam State Museum and Srimanta Sankardeva Kalakshetra, and end with a Brahmaputra sunset cruise.",
+  "tips": [
+    "Lokpriya Gopinath Bordoloi International Airport is about 25 km from the city centre.",
+    "Traffic can be heavy; allow extra time for the airport.",
+    "Dress modestly at temples; leather items may not be allowed at Kamakhya.",
+    "Monsoon (June to September) brings flooding in parts of Assam; check conditions."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Guwahati?",
+      "a": "Visit Kamakhya Temple, take a ferry to Umananda, enjoy a Brahmaputra sunset cruise and the ropeway, see the Assam State Museum and Kalakshetra, and take trips to Pobitora, Hajo and Sualkuchi."
+    },
+    {
+      "q": "How long does darshan take at Kamakhya?",
+      "a": "It varies widely, from under an hour on quiet weekday mornings to several hours on weekends and festivals. Special darshan tickets reduce the wait."
+    },
+    {
+      "q": "How many days are enough for Guwahati?",
+      "a": "One to two days, plus a day for Pobitora or Hajo."
+    },
+    {
+      "q": "Can I see rhinos near Guwahati?",
+      "a": "Yes, at Pobitora Wildlife Sanctuary, about 50 km away."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Shillong",
+      "href": "/blog/things-to-do-in-shillong",
+      "note": "about three hours away"
+    },
+    {
+      "name": "Things to do in Kaziranga",
+      "href": "/blog/things-to-do-in-kaziranga",
+      "note": "rhinos and tigers, about five hours east"
+    },
+    {
+      "name": "Things to do in Majuli",
+      "href": "/blog/things-to-do-in-majuli",
+      "note": "the river island of satras"
+    },
+    {
+      "name": "Things to do in Tawang",
+      "href": "/blog/things-to-do-in-tawang",
+      "note": "Arunachal's monastery town"
+    }
+  ],
+  "styles": [
+    "spiritual-tours",
+    "family-holidays"
+  ],
+  "metaDescription": "Things to do in Guwahati: Kamakhya Temple, the Umananda island temple, a Brahmaputra sunset cruise, the river ropeway, Assam State Museum, Srimanta Sankardeva Kalakshetra and more."
+}

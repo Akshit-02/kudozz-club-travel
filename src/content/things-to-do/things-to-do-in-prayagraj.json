@@ -1,0 +1,196 @@
+{
+  "slug": "things-to-do-in-prayagraj",
+  "destination": "Prayagraj",
+  "guide": "prayagraj-travel-guide",
+  "type": "city",
+  "title": "Things to Do in Prayagraj: Triveni Sangam, Kumbh and Heritage Sites",
+  "seoTitle": "Things to Do in Prayagraj: Sangam, Kumbh & Heritage | Kudozz Club",
+  "description": "Things to do in Prayagraj: a boat to the Triveni Sangam, the Magh Mela and Kumbh, Anand Bhawan, Khusro Bagh, Allahabad Fort's Akshayavat, All Saints Cathedral and the city's colonial heritage.",
+  "dek": "The meeting point of the Ganga, the Yamuna and the mythical Saraswati, home to the world's largest religious gathering and to the house where much of India's freedom struggle was planned.",
+  "primaryKeyword": "things to do in Prayagraj",
+  "secondaryKeywords": [
+    "places to visit in Prayagraj",
+    "Triveni Sangam boat ride",
+    "Kumbh Mela",
+    "Magh Mela",
+    "Anand Bhawan",
+    "Allahabad"
+  ],
+  "searchIntent": "Pilgrims and heritage travellers visiting Prayagraj (formerly Allahabad) for the Sangam, a Mela or its freedom-struggle history.",
+  "tags": [
+    "Prayagraj",
+    "Uttar Pradesh",
+    "Sangam",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/uttar-pradesh/prayagraj/triveni-sangam-prayagraj.webp",
+    "alt": "Boats at the Triveni Sangam, Prayagraj"
+  },
+  "intro": [
+    "Prayagraj, known until 2018 as Allahabad, sits in southern Uttar Pradesh where the Ganga and the Yamuna meet. Hindus believe the invisible Saraswati joins them here, making the Triveni Sangam one of the most sacred places in India and the site of the Kumbh Mela, the largest religious gathering in the world.",
+    "Outside Mela time, the main things to do are a boat to the Sangam, a visit to the Akshayavat inside the fort, and the city's history: Anand Bhawan, the Nehru family home, the Mughal tombs at Khusro Bagh and colonial landmarks such as All Saints Cathedral. One or two days is enough."
+  ],
+  "quickAnswer": [
+    "Take a boat to the Triveni Sangam and take a holy dip",
+    "Experience the Magh Mela or Kumbh Mela",
+    "Visit the Akshayavat and Patalpuri Temple in Allahabad Fort",
+    "Tour Anand Bhawan and Swaraj Bhawan",
+    "See the Mughal tombs at Khusro Bagh",
+    "Visit All Saints Cathedral",
+    "See Chandra Shekhar Azad Park and the Allahabad Museum",
+    "Try the city's kachori and lassi"
+  ],
+  "sections": [
+    {
+      "id": "sangam",
+      "heading": "The Sangam and the Melas",
+      "items": [
+        {
+          "name": "Take a boat to the Triveni Sangam",
+          "body": [
+            "Boats leave from ghats near the fort and take you out to the confluence, where you can see the different colours of the muddy Ganga and the greener Yamuna meeting. Pilgrims take a holy dip from platforms set up in the river. Agree the price and route with the boatman before setting off.",
+            "Early morning is the calmest time, with migratory birds such as Siberian gulls on the river in winter."
+          ],
+          "facts": {
+            "Time needed": "1.5–2 hours",
+            "Best time": "Early morning",
+            "Good for": "Everyone"
+          }
+        },
+        {
+          "name": "Experience the Magh Mela or Kumbh Mela",
+          "body": [
+            "Every January and February, the Magh Mela turns the sandbanks at the Sangam into a tent city of pilgrims, sadhus and kalpvasis, who live by the river for a month. Every six years there is an Ardh Kumbh and every twelve years the Maha Kumbh, which draws tens of millions of people over several weeks. The main bathing days (snan dates) are the most spectacular and the most crowded.",
+            "If you plan to go, book accommodation or camp tents months in advance and follow official guidance on crowd movement."
+          ],
+          "facts": {
+            "When": "January–February each year; Kumbh on a longer cycle",
+            "Good to know": "Book very early; avoid peak bathing days if you dislike crowds"
+          }
+        }
+      ]
+    },
+    {
+      "id": "heritage",
+      "heading": "History and heritage",
+      "items": [
+        {
+          "name": "See the Akshayavat in Allahabad Fort",
+          "image": {
+            "src": "/images/blogs/uttar-pradesh/prayagraj/allahabad-fort-prayagraj.webp",
+            "alt": "Walls of Allahabad Fort at the confluence, Prayagraj",
+            "caption": "Allahabad Fort"
+          },
+          "body": [
+            "Akbar built Allahabad Fort in 1583 at the confluence. Much of it is used by the Army and is closed to the public, but visitors can reach the Patalpuri underground temple and the Akshayavat, an 'immortal' banyan tree revered in Hindu tradition. An Ashokan pillar also stands within the fort."
+          ],
+          "facts": {
+            "Time needed": "1 hour",
+            "Good to know": "Only certain parts are open to visitors"
+          }
+        },
+        {
+          "name": "Tour Anand Bhawan and Swaraj Bhawan",
+          "body": [
+            "Anand Bhawan was the home of the Nehru family and a centre of India's independence movement; Indira Gandhi grew up here. It is now a museum with rooms preserved as they were, including those used by Gandhi on his visits. Swaraj Bhawan next door, the family's earlier home, was donated to the Indian National Congress and also houses a museum. A planetarium is on the same grounds."
+          ],
+          "facts": {
+            "Time needed": "1.5 hours",
+            "Good for": "History lovers, families",
+            "Good to know": "Closed on Mondays"
+          }
+        },
+        {
+          "name": "Visit Khusro Bagh",
+          "body": [
+            "Khusro Bagh is a walled Mughal garden with three sandstone tombs, including those of Prince Khusrau, Jahangir's eldest son, and his mother Shah Begum. The tombs have fine painted interiors and are surrounded by guava orchards."
+          ],
+          "facts": {
+            "Time needed": "45 minutes"
+          }
+        },
+        {
+          "name": "See All Saints Cathedral",
+          "body": [
+            "All Saints Cathedral, known locally as Patthar Girja (stone church), was designed by William Emerson, who also designed the Victoria Memorial in Kolkata, and completed in the late 19th century. It is one of the finest Gothic Revival churches in India."
+          ]
+        },
+        {
+          "name": "Chandra Shekhar Azad Park and the Allahabad Museum",
+          "body": [
+            "The large park, formerly Alfred Park, is where the revolutionary Chandra Shekhar Azad died in 1931. The Allahabad Museum inside the park has sculpture, paintings and freedom-struggle collections, including items connected to the Nehrus."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "heading": "Food",
+      "items": [
+        {
+          "name": "Eat Prayagraj street food",
+          "body": [
+            "Prayagraj's old-city markets around Chowk and Civil Lines are known for kachori-sabzi, samosa, chaat and thick lassi, and for guavas from the region's orchards in winter."
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Pilgrims",
+      "text": "A dawn boat and holy dip at the Sangam, the Akshayavat and Patalpuri Temple, and the Bade Hanuman temple near the fort, where Hanuman is shown reclining."
+    },
+    {
+      "who": "History lovers",
+      "text": "Anand Bhawan, Swaraj Bhawan, Azad Park and the museum tell the story of Prayagraj's role in the independence movement."
+    }
+  ],
+  "oneDay": "Take an early boat to the Sangam, then visit the Bade Hanuman temple and the Akshayavat inside the fort. After lunch, tour Anand Bhawan and Swaraj Bhawan, then see Khusro Bagh and All Saints Cathedral before ending with street food in Civil Lines.",
+  "tips": [
+    "Agree boat fares before leaving the ghat and keep valuables in a waterproof bag.",
+    "During the Magh Mela and Kumbh, roads near the Sangam are closed and you may need to walk long distances.",
+    "Anand Bhawan and several museums are closed on Mondays.",
+    "Prayagraj has an airport and a major railway junction, and Varanasi is about three hours away by road."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Prayagraj?",
+      "a": "Take a boat to the Triveni Sangam, visit the Akshayavat in Allahabad Fort, tour Anand Bhawan, see the tombs at Khusro Bagh and All Saints Cathedral, and experience the Magh Mela if you visit in January or February."
+    },
+    {
+      "q": "When is the Magh Mela held?",
+      "a": "Every year in January and February, around the Hindu month of Magh, on the sandbanks at the Sangam."
+    },
+    {
+      "q": "How many days are enough for Prayagraj?",
+      "a": "One or two days outside Mela time. During the Magh Mela or Kumbh, allow extra time for crowds and road closures."
+    },
+    {
+      "q": "What is the best time to visit Prayagraj?",
+      "a": "October to March. January and February are the busiest months because of the Magh Mela."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Varanasi",
+      "href": "/blog/things-to-do-in-varanasi",
+      "note": "the ghats of the Ganga, about three hours east"
+    },
+    {
+      "name": "Chitrakoot",
+      "href": "/blog/chitrakoot-travel-guide",
+      "note": "a Ramayana pilgrimage town to the south-west"
+    },
+    {
+      "name": "Things to do in Ayodhya",
+      "href": "/blog/things-to-do-in-ayodhya",
+      "note": "the Ram Mandir and Saryu ghats to the north"
+    }
+  ],
+  "styles": [
+    "spiritual-tours"
+  ],
+  "metaDescription": "Things to do in Prayagraj: a boat to the Triveni Sangam, the Magh Mela and Kumbh, Anand Bhawan, Khusro Bagh, Allahabad Fort's Akshayavat and more."
+}

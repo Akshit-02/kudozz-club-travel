@@ -1,0 +1,228 @@
+{
+  "slug": "things-to-do-in-kausani",
+  "destination": "Kausani",
+  "guide": "kausani-travel-guide",
+  "type": "hill village",
+  "title": "Things to Do in Kausani: Himalayan Sunrise, Tea Gardens & Gandhi's Ashram",
+  "seoTitle": "Things to Do in Kausani: Views, Ashrams & Temples | Kudozz Club",
+  "description": "Things to do in Kausani: sunrise over Trishul and Nanda Devi, Anasakti Ashram, the Sumitranandan Pant museum, Kausani Tea Estate, Lakshmi Ashram, Rudradhari Falls, and the Baijnath and Bageshwar temples.",
+  "dek": "A quiet ridge in Kumaon with one of the widest Himalayan panoramas in India, where Gandhi spent two weeks in 1929 and a Hindi poet was born.",
+  "primaryKeyword": "things to do in Kausani",
+  "secondaryKeywords": [
+    "places to visit in Kausani",
+    "Anasakti Ashram",
+    "Baijnath temple",
+    "Kausani tea estate",
+    "Rudradhari Falls",
+    "Kausani sunrise"
+  ],
+  "searchIntent": "Couples, families and slow travellers adding one or two nights in Kausani to a Kumaon trip, looking for views and gentle sightseeing.",
+  "tags": [
+    "Kausani",
+    "Uttarakhand",
+    "Hill Station",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/uttarakhand/kausani/baijnath-temple-kausani-2.webp",
+    "alt": "Stone temples of the Baijnath complex on the Gomti river near Kausani",
+    "caption": "Baijnath temples, a short drive from Kausani"
+  },
+  "intro": [
+    "Kausani is a small village at about 1,890 metres on a pine-covered ridge in Bageshwar district, Kumaon. It is known for its uninterrupted view of about 300 km of the Himalaya, from Trishul and Nanda Devi to Panchachuli, across the Someshwar and Garur valleys.",
+    "Mahatma Gandhi stayed here in 1929 and wrote his commentary on the Gita, Anasakti Yoga, at what is now Anasakti Ashram. The Hindi poet Sumitranandan Pant was born in Kausani. Both give the village a quiet, reflective character that has survived tourism well.",
+    "Things to do in Kausani are gentle: sunrise and sunset over the peaks, the ashrams, a tea estate, a waterfall and a set of old temples down in the valley. One to two nights is ideal, often as part of a Kumaon circuit with Nainital, Almora or Ranikhet."
+  ],
+  "quickAnswer": [
+    "Watch sunrise light up Trishul, Nanda Devi and Panchachuli",
+    "Visit Anasakti Ashram, where Gandhi stayed in 1929",
+    "See the Sumitranandan Pant Museum",
+    "Walk through Kausani Tea Estate",
+    "Visit Lakshmi Ashram and the local shawl weavers",
+    "Walk to Rudradhari Falls and caves",
+    "See the Baijnath temples on the Gomti river",
+    "Visit the Bagnath Temple in Bageshwar"
+  ],
+  "sections": [
+    {
+      "id": "views",
+      "heading": "Views and ashrams",
+      "items": [
+        {
+          "name": "Watch sunrise over the Himalaya",
+          "body": [
+            "The main reason to stay overnight in Kausani is the first light on the snow peaks. Trishul, Nanda Ghunti, Nanda Devi and Panchachuli glow pink and gold as the sun rises, and on the clearest days the panorama stretches for hundreds of kilometres. Many hotels face the range; the Anasakti Ashram grounds and the ridge above the market are also good spots."
+          ],
+          "facts": {
+            "Best time": "Sunrise, October to December and March to May",
+            "Good for": "Everyone, photographers"
+          }
+        },
+        {
+          "name": "Visit Anasakti Ashram",
+          "body": [
+            "Gandhi stayed at this guesthouse for about two weeks in 1929 and is said to have compared Kausani to Switzerland. Now Anasakti Ashram, it has a small museum of photographs and a prayer hall where evening prayers are held. It offers simple rooms and is a calm place to watch the sunset."
+          ],
+          "facts": {
+            "Time needed": "1 hour",
+            "Best time": "Evening prayers",
+            "Good for": "History lovers"
+          }
+        },
+        {
+          "name": "See the Sumitranandan Pant Museum",
+          "body": [
+            "The childhood home of Sumitranandan Pant, one of the leading poets of the Chhayavad movement in Hindi literature, has been turned into a small museum with his manuscripts, letters and awards."
+          ],
+          "facts": {
+            "Time needed": "30–45 minutes"
+          }
+        },
+        {
+          "name": "Visit Lakshmi Ashram",
+          "body": [
+            "Lakshmi Ashram was founded in 1946 by Sarala Behn, a British disciple of Gandhi, as a school and residence for hill girls. It is still active; visitors are welcome with respect for its routine. Shawl and weaving units in the village sell handwoven woollens."
+          ],
+          "facts": {
+            "Good for": "Slow travellers, shoppers"
+          }
+        }
+      ]
+    },
+    {
+      "id": "nature",
+      "heading": "Tea, falls and forests",
+      "items": [
+        {
+          "name": "Walk through Kausani Tea Estate",
+          "body": [
+            "The tea gardens a few kilometres from the village produce Girias tea, and visitors can walk among the bushes and buy tea from the estate outlet. It is a pleasant short outing with views of the valley."
+          ],
+          "facts": {
+            "Time needed": "1 hour"
+          }
+        },
+        {
+          "name": "Walk to Rudradhari Falls and caves",
+          "body": [
+            "Rudradhari, about 12 km from Kausani, is a waterfall and group of caves associated with Shiva and Vishnu, reached by a walk through terraced fields and pine forest. It is best after the monsoon, when the water is flowing well."
+          ],
+          "facts": {
+            "Time needed": "Half a day",
+            "Best time": "September to November",
+            "Good for": "Walkers, families"
+          }
+        },
+        {
+          "name": "Explore the pine forests on foot",
+          "body": [
+            "The ridge around Kausani is covered in chir pine, with village paths linking farms and hamlets. Short walks to nearby villages are a good way to see Kumaoni houses and terraced farming. Ask your hotel for a local guide if you want a longer loop."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "temples",
+      "heading": "Temples in the valley",
+      "items": [
+        {
+          "name": "See the Baijnath temples",
+          "body": [
+            "About 16 km from Kausani, on the banks of the Gomti river, Baijnath has a group of stone temples built by the Katyuri kings around the 12th and 13th centuries. The main temple is dedicated to Shiva, and a small lake beside the complex is full of fish that visitors feed. Garur, the nearby town, was once the Katyuri capital."
+          ],
+          "facts": {
+            "Time needed": "1.5 hours",
+            "Good for": "History and architecture lovers"
+          }
+        },
+        {
+          "name": "Visit Bagnath Temple in Bageshwar",
+          "body": [
+            "Bageshwar, about 40 km away at the confluence of the Saryu and Gomti, is an important pilgrimage town with the Bagnath Temple. The Uttarayani Mela in January is one of the largest fairs in Kumaon."
+          ],
+          "facts": {
+            "Best time": "January for the Uttarayani Mela"
+          }
+        },
+        {
+          "name": "Go further into Kumaon",
+          "body": [
+            "Kausani is a common stop between Almora and Munsiyari, and on the way to Bageshwar-side treks such as Pindari Glacier. Munsiyari, much further north, has an even closer view of Panchachuli."
+          ],
+          "links": [
+            {
+              "label": "Munsiyari travel guide",
+              "href": "/blog/munsiyari-travel-guide"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Couples",
+      "text": "A room facing the range, sunrise from the balcony, a walk through the tea garden and evening prayers at Anasakti Ashram."
+    },
+    {
+      "who": "Families",
+      "text": "The tea estate, the fish-feeding lake at Baijnath and the walk to Rudradhari Falls are easy outings with children."
+    },
+    {
+      "who": "Slow travellers",
+      "text": "Kausani rewards staying still: read, walk to villages and watch the peaks change through the day."
+    }
+  ],
+  "oneDay": "Wake early for sunrise over Trishul and Nanda Devi. After breakfast, visit Anasakti Ashram and the Pant Museum, then walk through the tea estate. Drive down to Baijnath for the temples in the afternoon, and return to Kausani for sunset and evening prayers at the ashram.",
+  "tips": [
+    "Kathgodam, about 130–140 km away, is the nearest railway station; the drive takes about five hours.",
+    "Mountain views are best in the morning and are often hidden by haze or cloud in the monsoon.",
+    "Kausani has few restaurants beyond hotel kitchens and small dhabas; try Kumaoni food such as bhatt ki dal and madua roti where available.",
+    "Evenings are cold for much of the year; pack warm layers."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Kausani?",
+      "a": "Watch sunrise over the Himalaya, visit Anasakti Ashram and the Sumitranandan Pant Museum, walk through the tea estate, see Rudradhari Falls, and visit the Baijnath temples and Bageshwar."
+    },
+    {
+      "q": "Which peaks can you see from Kausani?",
+      "a": "On clear days you can see a wide stretch of the Himalaya including Trishul, Nanda Ghunti, Nanda Devi and Panchachuli."
+    },
+    {
+      "q": "How many days are enough for Kausani?",
+      "a": "One to two nights is enough for the viewpoints, ashrams, tea estate and a half-day trip to Baijnath or Rudradhari."
+    },
+    {
+      "q": "What is the best time to visit Kausani?",
+      "a": "October to December and March to May give the clearest views. Winter can bring occasional snow; the monsoon often hides the peaks."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Ranikhet",
+      "href": "/blog/things-to-do-in-ranikhet",
+      "note": "a cantonment town about three hours away"
+    },
+    {
+      "name": "Things to do in Nainital",
+      "href": "/blog/things-to-do-in-nainital",
+      "note": "the lake town at the start of most Kumaon trips"
+    },
+    {
+      "name": "Munsiyari",
+      "href": "/blog/munsiyari-travel-guide",
+      "note": "close views of Panchachuli further north"
+    },
+    {
+      "name": "Mukteshwar",
+      "href": "/blog/mukteshwar-travel-guide",
+      "note": "orchards and cliffs near Nainital"
+    }
+  ],
+  "styles": [
+    "honeymoon",
+    "family-holidays"
+  ],
+  "metaDescription": "Things to do in Kausani: sunrise over Trishul and Nanda Devi, Anasakti Ashram, the Sumitranandan Pant museum, Kausani Tea Estate, Lakshmi Ashram, Rudradhari Falls and more."
+}

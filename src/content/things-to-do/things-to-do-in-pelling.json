@@ -1,0 +1,283 @@
+{
+  "slug": "things-to-do-in-pelling",
+  "destination": "Pelling",
+  "guide": "pelling-travel-guide",
+  "type": "hill town",
+  "title": "Things to Do in Pelling: Kanchenjunga Sunrise, Old Monasteries & Sacred Lakes",
+  "seoTitle": "Things to Do in Pelling: Kanchenjunga & Monasteries | Kudozz Club",
+  "description": "Things to do in Pelling: sunrise over Kanchenjunga, Pemayangtse Monastery, the Rabdentse ruins, the Sanga Choeling skywalk, Khecheopalri Lake, Kanchenjunga Falls, Rimbi and Yuksom's Norbugang and Dubdi Monastery.",
+  "dek": "A small West Sikkim town facing Kanchenjunga at close range, surrounded by the old capitals, monasteries and lakes of the Chogyal kingdom.",
+  "primaryKeyword": "things to do in Pelling",
+  "secondaryKeywords": [
+    "places to visit in Pelling",
+    "Pemayangtse Monastery",
+    "Rabdentse ruins",
+    "Pelling skywalk",
+    "Khecheopalri Lake",
+    "Kanchenjunga Falls"
+  ],
+  "searchIntent": "Travellers adding two nights in Pelling to a Sikkim trip for mountain views and West Sikkim sightseeing.",
+  "tags": [
+    "Pelling",
+    "Sikkim",
+    "Hill Station",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/sikkim/pelling/the-kanchenjunga-viewpoint-pelling.webp",
+    "alt": "Kanchenjunga from the viewpoint at Pelling",
+    "caption": "Kanchenjunga from Pelling"
+  },
+  "intro": [
+    "Pelling, at about 2,150 metres in the Gyalshing (West Sikkim) district, is best known for its close, uninterrupted view of Kanchenjunga and its neighbouring peaks. The town itself is small and mostly made up of hotels, but the area around it is rich in history: Rabdentse was the second capital of the Sikkimese kingdom, and Pemayangtse is one of the state's most important monasteries.",
+    "The things to do in Pelling include watching sunrise on the mountains, visiting Pemayangtse and Rabdentse, walking the glass skywalk at Sanga Choeling, and day trips to Khecheopalri Lake, Kanchenjunga Falls and Yuksom.",
+    "Two days is a comfortable length; keep a spare morning in case clouds hide Kanchenjunga."
+  ],
+  "quickAnswer": [
+    "Watch sunrise on Kanchenjunga",
+    "Visit Pemayangtse Monastery",
+    "Walk through the Rabdentse ruins",
+    "Walk the Sanga Choeling skywalk",
+    "See the sacred Khecheopalri Lake",
+    "Visit Kanchenjunga Falls",
+    "See Yuksom's coronation throne and Dubdi Monastery",
+    "Walk around Rimbi and its orange orchards"
+  ],
+  "sections": [
+    {
+      "id": "pelling",
+      "heading": "Around Pelling",
+      "items": [
+        {
+          "name": "Watch sunrise on Kanchenjunga",
+          "body": [
+            "From Pelling's ridge, many hotels and the helipad area face Kanchenjunga directly. At sunrise, the peak and its neighbours glow gold and pink. Views are clearest from October to December and March to May; clouds often gather by mid-morning."
+          ],
+          "facts": {
+            "Best time": "Sunrise",
+            "Good for": "Everyone"
+          }
+        },
+        {
+          "name": "Visit Pemayangtse Monastery",
+          "image": {
+            "src": "/images/blogs/sikkim/pelling/pemayangtse-monastery-pelling.webp",
+            "alt": "Pemayangtse Monastery near Pelling",
+            "caption": "Pemayangtse Monastery"
+          },
+          "body": [
+            "Pemayangtse, founded in the early 18th century, is one of Sikkim's oldest and most important Nyingma monasteries. Its top floor holds Zangdok Palri, an elaborate carved wooden model of Guru Padmasambhava's heavenly palace, made by a single lama over several years."
+          ],
+          "facts": {
+            "Time needed": "1 hour"
+          }
+        },
+        {
+          "name": "Walk through Rabdentse ruins",
+          "image": {
+            "src": "/images/blogs/sikkim/pelling/rabdentse-ruins-pelling.webp",
+            "alt": "Stone ruins of Rabdentse palace",
+            "caption": "Rabdentse ruins"
+          },
+          "body": [
+            "Rabdentse was the capital of the Chogyals from 1670 until the late 18th century. A forest walk leads to the stone ruins of the palace and chortens on a ridge, with views of Kanchenjunga and the valleys. The site is maintained by the Archaeological Survey of India."
+          ],
+          "facts": {
+            "Time needed": "1 hour",
+            "Good for": "History lovers"
+          }
+        },
+        {
+          "name": "Walk the skywalk",
+          "image": {
+            "src": "/images/blogs/sikkim/pelling/sanga-choeling-skywalk-pelling.webp",
+            "alt": "Glass skywalk and Chenrezig statue at Sanga Choeling, Pelling",
+            "caption": "Sanga Choeling skywalk"
+          },
+          "body": [
+            "A glass-floored skywalk at Sanga Choeling leads to a large statue of Chenrezig (Avalokiteshvara), with views over the valleys. Sanga Choeling Monastery, one of the oldest in Sikkim, is a steep walk above it."
+          ],
+          "facts": {
+            "Time needed": "1 hour",
+            "Good for": "Families"
+          }
+        },
+        {
+          "name": "Watch sunset from the helipad ground",
+          "body": [
+            "The open helipad ground in upper Pelling is a popular local spot for sunset over the ridges and, on clear evenings, pink light on Kanchenjunga. It is an easy walk from most hotels."
+          ],
+          "facts": {
+            "Best time": "Sunset"
+          }
+        }
+      ]
+    },
+    {
+      "id": "lakes-falls",
+      "heading": "Lakes and waterfalls",
+      "items": [
+        {
+          "name": "See Khecheopalri Lake",
+          "body": [
+            "Khecheopalri Lake, about 25 km from Pelling, is a sacred lake in a forest bowl, revered by Buddhists and Hindus as a wish-fulfilling lake. Locals say birds pick up any leaf that falls on its surface. A short walk leads to the water, with prayer flags and a small monastery. Behave quietly and do not touch the water."
+          ],
+          "links": [
+            {
+              "label": "Khecheopalri Lake guide",
+              "href": "/blog/khecheopalri-lake-travel-guide"
+            }
+          ],
+          "facts": {
+            "Time needed": "2 hours"
+          }
+        },
+        {
+          "name": "Visit Kanchenjunga Falls",
+          "body": [
+            "Kanchenjunga Falls, on the road to Yuksom, is a tall waterfall that is at its fullest after the monsoon. Rimbi Falls and the river are nearby, and the area is known for orange orchards."
+          ],
+          "facts": {
+            "Best time": "September to November"
+          }
+        }
+      ]
+    },
+    {
+      "id": "more",
+      "heading": "More around Pelling",
+      "items": [
+        {
+          "name": "Visit Sanga Choeling Monastery",
+          "body": [
+            "Sanga Choeling, one of the oldest monasteries in Sikkim, sits on a ridge above Pelling and is reached by a steep forest path. It is quiet and has fine views of Kanchenjunga."
+          ],
+          "facts": {
+            "Good to know": "Steep climb; allow an hour"
+          }
+        },
+        {
+          "name": "Walk to Rimbi and the orange orchards",
+          "body": [
+            "Rimbi, below Pelling, has a river, a small waterfall and orange orchards that ripen in winter. It is a pleasant half-day outing, sometimes combined with Kanchenjunga Falls."
+          ],
+          "facts": {
+            "Best time": "November to January for oranges"
+          }
+        },
+        {
+          "name": "Cross the Singshore Bridge",
+          "body": [
+            "The Singshore Bridge, a high suspension bridge over a deep gorge near Uttarey, is one of the highest in Sikkim and a popular stop for those driving further west."
+          ]
+        },
+        {
+          "name": "See the Darap village",
+          "body": [
+            "Darap, a Limboo village near Pelling, offers homestays, farm walks and a close look at village life and traditional food."
+          ],
+          "facts": {
+            "Good for": "Slow travellers"
+          }
+        }
+      ]
+    },
+    {
+      "id": "yuksom",
+      "heading": "Yuksom",
+      "items": [
+        {
+          "name": "See Norbugang and Dubdi Monastery",
+          "body": [
+            "Yuksom, about 40 km from Pelling, is where the first Chogyal of Sikkim was crowned in 1642. The Norbugang Coronation Throne, a stone seat under a tree, marks the spot. Dubdi Monastery, a steep walk above the village, is one of the oldest in Sikkim, and Kathok Lake sits in the village."
+          ],
+          "links": [
+            {
+              "label": "Yuksom guide",
+              "href": "/blog/yuksom-travel-guide"
+            }
+          ],
+          "facts": {
+            "Time needed": "Half a day"
+          }
+        },
+        {
+          "name": "Start a trek",
+          "body": [
+            "Yuksom is the base for the Dzongri and Goecha La treks into Kanchenjunga National Park, a UNESCO World Heritage Site. Permits and a registered guide are required."
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Couples",
+      "text": "A mountain-facing room, sunrise from the balcony, and a quiet afternoon at Khecheopalri Lake."
+    },
+    {
+      "who": "Families",
+      "text": "The skywalk, Kanchenjunga Falls and Pemayangtse."
+    },
+    {
+      "who": "History lovers",
+      "text": "Rabdentse, Pemayangtse and Yuksom's Norbugang throne tell the story of the Sikkimese kingdom."
+    },
+    {
+      "who": "Trekkers",
+      "text": "Use Pelling for acclimatisation and views before heading to Yuksom for the Dzongri or Goecha La trek."
+    }
+  ],
+  "oneDay": "Watch sunrise on Kanchenjunga, then visit Pemayangtse and walk to Rabdentse. After lunch, visit the skywalk and drive to Khecheopalri Lake for the afternoon.",
+  "tips": [
+    "Pelling is about five to six hours from Bagdogra and about four to five hours from Gangtok.",
+    "Keep a spare morning for mountain views in case of clouds.",
+    "Pelling itself does not need a special permit for Indian nationals.",
+    "Carry warm clothes for early mornings.",
+    "Hotels in upper Pelling have the best mountain views; ask for a Kanchenjunga-facing room."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Pelling?",
+      "a": "Watch sunrise on Kanchenjunga, visit Pemayangtse Monastery and the Rabdentse ruins, walk the skywalk, see Khecheopalri Lake and Kanchenjunga Falls, and visit Yuksom."
+    },
+    {
+      "q": "How many days are enough for Pelling?",
+      "a": "Two days, with a spare morning for views."
+    },
+    {
+      "q": "What is the best time to see Kanchenjunga from Pelling?",
+      "a": "October to December and March to May, in the early morning."
+    },
+    {
+      "q": "How far is Yuksom from Pelling?",
+      "a": "About 40 km, around one and a half to two hours by road."
+    },
+    {
+      "q": "Is Pelling good for families?",
+      "a": "Yes. The skywalk, Pemayangtse, Rabdentse and waterfalls are easy outings, and many hotels face Kanchenjunga."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Gangtok",
+      "href": "/blog/things-to-do-in-gangtok",
+      "note": "Sikkim's capital"
+    },
+    {
+      "name": "Ravangla",
+      "href": "/blog/ravangla-travel-guide",
+      "note": "Buddha Park in South Sikkim"
+    },
+    {
+      "name": "Things to do in Darjeeling",
+      "href": "/blog/things-to-do-in-darjeeling",
+      "note": "tea and the toy train"
+    }
+  ],
+  "styles": [
+    "honeymoon",
+    "family-holidays"
+  ],
+  "metaDescription": "Things to do in Pelling: sunrise over Kanchenjunga, Pemayangtse Monastery, the Rabdentse ruins, the Sanga Choeling skywalk, Khecheopalri Lake, Kanchenjunga Falls and more."
+}

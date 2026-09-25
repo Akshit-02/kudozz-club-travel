@@ -4086,7 +4086,8 @@
     {
       "path": "blogs/chhattisgarh/chhattisgarh/kanger-valley-national-park-cliffs.webp",
       "usedIn": [
-        "chhattisgarh-travel-guide"
+        "chhattisgarh-travel-guide",
+        "tatapani-travel-guide (regional placeholder hero)"
       ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Rock_Hills_ofKanger_valley_National_park.jpg",
@@ -4326,7 +4327,8 @@
     {
       "path": "blogs/nagaland/nagaland/dzukou-valley-rolling-green-hills-nagaland.webp",
       "usedIn": [
-        "nagaland-travel-guide"
+        "nagaland-travel-guide",
+        "benreu-travel-guide (regional placeholder hero)"
       ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Breathtaking_beauty_of_Dzukou_Valley_in_Manipur-Nagaland_border_(edit).jpg",
@@ -19888,6 +19890,246 @@
       "author": "Ravindraoudeptling",
       "attribution": "Photo by Ravindraoudeptling, CC BY 4.0, via Wikimedia Commons",
       "location": "Yadadri Temple",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "blogs/uttar-pradesh/mathura/keshav-dev-temple-krishna-janmabhoomi-mathura.webp",
+      "usedIn": [
+        "things-to-do-in-mathura (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Mathura_Temple-Mathura-India0002.JPG",
+      "originalFile": "Mathura Temple-Mathura-India0002.JPG",
+      "license": "CC BY-SA 4.0",
+      "author": "Diego Delso",
+      "attribution": "Photo by Diego Delso, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "Keshav Dev Temple at the Krishna Janmabhoomi complex, Mathura",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "blogs/uttar-pradesh/prayagraj/triveni-sangam-prayagraj.webp",
+      "usedIn": [
+        "things-to-do-in-prayagraj (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Boat_Pilgrims_Triveni_Sangam_Allahabad_Jan24_A7C_08513.jpg",
+      "originalFile": "Boat Pilgrims Triveni Sangam Allahabad Jan24 A7C 08513.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Timothy A. Gonsalves",
+      "attribution": "Photo by Timothy A. Gonsalves, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "Boats at the Triveni Sangam, Prayagraj",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "blogs/uttarakhand/lansdowne/lansdowne-hills-view.webp",
+      "usedIn": [
+        "things-to-do-in-lansdowne (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Lansdowne_Landscape.jpg",
+      "originalFile": "Lansdowne Landscape.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Ravi krishnan gupta",
+      "attribution": "Photo by Ravi krishnan gupta, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "Hills around Lansdowne, Uttarakhand",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "blogs/west-bengal/digha/digha-sea-beach-view.webp",
+      "usedIn": [
+        "things-to-do-in-digha (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:New_Digha_Sea_beach_in_Digha_02.jpg",
+      "originalFile": "New Digha Sea beach in Digha 02.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Pinakpani",
+      "attribution": "Photo by Pinakpani, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "The beach at Digha, West Bengal",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "blogs/kerala/thekkady/periyar-lake-boat-thekkady.webp",
+      "usedIn": [
+        "things-to-do-in-thekkady (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:View_from_Periyar_Tiger_Reserve,_Thekkady,_Idukki.jpg",
+      "originalFile": "View from Periyar Tiger Reserve, Thekkady, Idukki.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Ardra Balakrishnan",
+      "attribution": "Photo by Ardra Balakrishnan, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "Periyar lake in Periyar Tiger Reserve, Thekkady",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "blogs/kerala/varkala/varkala-cliff-beach.webp",
+      "usedIn": [
+        "things-to-do-in-varkala (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Varkala_beach_-_cliff_view.JPG",
+      "originalFile": "Varkala beach - cliff view.JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "Lukas Vacovsky",
+      "attribution": "Photo by Lukas Vacovsky, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "Red cliffs above the beach at Varkala",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "blogs/tamil-nadu/yercaud/yercaud-lake-view.webp",
+      "usedIn": [
+        "things-to-do-in-yercaud (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Yercaud_lake_View.jpg",
+      "originalFile": "Yercaud lake View.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Mohammed Aswath Ali",
+      "attribution": "Photo by Mohammed Aswath Ali, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "Yercaud Lake in the Shevaroy hills",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "blogs/himachal-pradesh/bir-billing/bir-billing-paragliding-valley.webp",
+      "usedIn": [
+        "things-to-do-in-bir-billing (hero)",
+        "bir-billing guide (hero, replaces a wrong-place image)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Paragliding_at_Bir,_HP.jpg",
+      "originalFile": "Paragliding at Bir, HP.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "PanWoyteczek (derivative work: UnpetitproleX)",
+      "attribution": "Photo by PanWoyteczek (derivative work: UnpetitproleX), CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "Paragliders above the valley at Bir Billing",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "blogs/gujarat/surat/surat-castle-tapi-river.webp",
+      "usedIn": [
+        "things-to-do-in-surat (hero)",
+        "surat guide (hero, replaces a wrong-place image)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Surat_Fort_(15345082318).jpg",
+      "originalFile": "Surat Fort (15345082318).jpg",
+      "license": "CC BY-SA 2.0",
+      "author": "yndesai",
+      "attribution": "Photo by yndesai, CC BY-SA 2.0, via Wikimedia Commons",
+      "location": "Surat Castle (Old Fort) on the banks of the Tapi",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "blogs/gujarat/surat/dumas-beach-surat.webp",
+      "usedIn": [
+        "surat-travel-guide (hero, replaces a wrong-place image)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Dumas_beach_of_Surat.jpg",
+      "originalFile": "Dumas beach of Surat.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "बृहस्पति",
+      "attribution": "Photo by बृहस्पति, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "Dumas beach at sunset, Surat",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "blogs/himachal-pradesh/bir-billing/chokling-monastery-bir.webp",
+      "usedIn": [
+        "bir-billing-travel-guide (hero, replaces a wrong-place image)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Chokling_Monastery,_Bir,_Himachal_Pradesh.jpg",
+      "originalFile": "Chokling Monastery, Bir, Himachal Pradesh.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Gannu03",
+      "attribution": "Photo by Gannu03, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "Chokling Monastery in the Tibetan colony, Bir",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "blogs/tamil-nadu/yelagiri/yelagiri-hills-view.webp",
+      "usedIn": [
+        "yelagiri-travel-guide (hero, replaces a wrong-place image)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Yelagiri_Hills.jpg",
+      "originalFile": "Yelagiri Hills.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "SingaravelanG",
+      "attribution": "Photo by SingaravelanG, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "Forested slopes of the Yelagiri hills, Tamil Nadu",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "blogs/mizoram/hmuifang/hmuifang-hill-mizoram.webp",
+      "usedIn": [
+        "hmuifang-travel-guide (hero, replaces a wrong-place image)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Hmuifang_tlang.jpg",
+      "originalFile": "Hmuifang tlang.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Suaktawta",
+      "attribution": "Photo by Suaktawta, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "Hmuifang hill and village, Mizoram",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "blogs/meghalaya/laitlum-canyons/laitlum-canyons-meghalaya.webp",
+      "usedIn": [
+        "laitlum-canyons-travel-guide (hero, replaces a wrong-place image)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Laitlum_Canyon_(4).jpg",
+      "originalFile": "Laitlum Canyon (4).jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "ANKAN",
+      "attribution": "Photo by ANKAN, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "The Laitlum canyons, Meghalaya",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "blogs/madhya-pradesh/bhimbetka/bhimbetka-rock-paintings.webp",
+      "usedIn": [
+        "bhimbetka-travel-guide (hero, replaces a wrong-place image)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Rock_Shelter_8,_Bhimbetka_03.jpg",
+      "originalFile": "Rock Shelter 8, Bhimbetka 03.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Bernard Gagnon",
+      "attribution": "Photo by Bernard Gagnon, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "Prehistoric rock paintings at Bhimbetka, Madhya Pradesh",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "blogs/jharkhand/parasnath/parasnath-hill-shikharji.webp",
+      "usedIn": [
+        "parasnath-travel-guide (hero, replaces a wrong-place image)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Shikharji_Parasnath_Giridih.jpg",
+      "originalFile": "Shikharji Parasnath Giridih.jpg",
+      "license": "Public domain",
+      "author": "CaptVijay",
+      "attribution": "Photo by CaptVijay, Public domain, via Wikimedia Commons",
+      "location": "Temples on the Parasnath (Shikharji) ridge, Jharkhand",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "blogs/mizoram/tamdil-lake/tamdil-lake-saitual.webp",
+      "usedIn": [
+        "tamdil-lake-travel-guide (hero, replaces a wrong-place image)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Tam_Dil_Lake_in_Saitual.jpg",
+      "originalFile": "Tam Dil Lake in Saitual.jpg",
+      "license": "CC0",
+      "author": "Georgeluvpotato",
+      "attribution": "Photo by Georgeluvpotato, CC0, via Wikimedia Commons",
+      "location": "Tam Dil lake near Saitual, Mizoram",
       "accessed": "2026-09-25"
     }
   ]

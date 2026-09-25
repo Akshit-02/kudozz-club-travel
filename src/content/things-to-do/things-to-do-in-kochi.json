@@ -1,0 +1,351 @@
+{
+  "slug": "things-to-do-in-kochi",
+  "destination": "Kochi",
+  "guide": "kochi-travel-guide",
+  "type": "city",
+  "title": "Things to Do in Kochi: Fort Kochi, Jew Town, Kathakali & Harbour Life",
+  "seoTitle": "Things to Do in Kochi: Fort Kochi, Food & Culture | Kudozz Club",
+  "description": "Things to do in Kochi: the Chinese fishing nets, St Francis Church and Santa Cruz Basilica, Mattancherry Palace, the Paradesi Synagogue and Jew Town, Kathakali and kalaripayattu, the Kochi-Muziris Biennale, Hill Palace, harbour ferries, the Water Metro, Cherai beach and Kerala seafood.",
+  "dek": "Kerala's port city, where centuries of trade in pepper and spices left Portuguese churches, a Dutch palace, a 16th-century synagogue and fishing nets from distant shores.",
+  "primaryKeyword": "things to do in Kochi",
+  "secondaryKeywords": [
+    "things to do in Fort Kochi",
+    "places to visit in Kochi",
+    "Chinese fishing nets",
+    "Paradesi Synagogue",
+    "Kathakali show Kochi",
+    "Kochi-Muziris Biennale",
+    "Kochi Water Metro"
+  ],
+  "searchIntent": "Travellers starting or ending a Kerala trip in Kochi, spending two or three days in Fort Kochi, Mattancherry and Ernakulam.",
+  "tags": [
+    "Kochi",
+    "Kerala",
+    "City",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/kerala/kochi/chinese-fishing-nets-kochi.webp",
+    "alt": "Chinese fishing nets at sunset, Fort Kochi",
+    "caption": "Chinese fishing nets, Fort Kochi"
+  },
+  "intro": [
+    "Kochi (Cochin) has been a major port on the spice route since the 14th century, when floods opened its natural harbour. Arab, Chinese, Jewish, Portuguese, Dutch and British traders all left their mark. Vasco da Gama died here in 1524, and India's oldest European church and one of its oldest active synagogues stand within a short walk of each other.",
+    "The best things to do in Kochi are in Fort Kochi and Mattancherry, on the peninsula: the Chinese fishing nets, colonial churches and cemeteries, the Dutch Palace, the Paradesi Synagogue, spice warehouses and antique shops, plus evenings of Kathakali. The mainland city, Ernakulam, has markets, malls and a waterfront, and ferries and the new Water Metro link the islands.",
+    "Two to three days is ideal. October to March is the most comfortable time."
+  ],
+  "quickAnswer": [
+    "Watch the Chinese fishing nets at sunset",
+    "Visit St Francis Church and Santa Cruz Basilica",
+    "See the murals of Mattancherry Palace",
+    "Visit the Paradesi Synagogue and Jew Town",
+    "Watch a Kathakali performance",
+    "See a kalaripayattu demonstration",
+    "Visit the Kochi-Muziris Biennale (when on)",
+    "Explore Hill Palace in Tripunithura",
+    "Ride a ferry or the Water Metro",
+    "Eat fresh seafood and appam with stew"
+  ],
+  "sections": [
+    {
+      "id": "fort-kochi",
+      "heading": "Fort Kochi",
+      "items": [
+        {
+          "name": "Watch the Chinese fishing nets",
+          "body": [
+            "The cantilevered Chinese fishing nets along the Fort Kochi waterfront are believed to have been introduced by traders from China centuries ago. Teams of fishermen raise and lower the huge nets with counterweights. Sunset is the best time; fishmongers nearby will cook your pick of the catch at small stalls."
+          ],
+          "facts": {
+            "Best time": "Sunset",
+            "Good for": "Everyone"
+          }
+        },
+        {
+          "name": "Visit St Francis Church",
+          "image": {
+            "src": "/images/blogs/kerala/kochi/st-francis-church-kochi.webp",
+            "alt": "St Francis Church, Fort Kochi",
+            "caption": "St Francis Church"
+          },
+          "body": [
+            "St Francis Church, built by the Portuguese in the early 16th century, is one of the oldest European churches in India. Vasco da Gama was buried here in 1524 before his remains were taken to Portugal; his gravestone remains inside."
+          ],
+          "facts": {
+            "Time needed": "30 minutes"
+          }
+        },
+        {
+          "name": "See Santa Cruz Basilica and the Dutch Cemetery",
+          "body": [
+            "Santa Cruz Basilica, rebuilt in 1905, has a bright painted interior. The Dutch Cemetery, from the 18th century, is one of the oldest European cemeteries in India; it is usually viewed from the gate."
+          ]
+        },
+        {
+          "name": "Walk the heritage streets",
+          "body": [
+            "Princess Street, Burgher Street and the lanes around them have colonial houses, cafés, art galleries and homestays. Cycling or walking is the best way to explore. The Indo-Portuguese Museum and the Maritime Museum are nearby."
+          ],
+          "facts": {
+            "Best time": "Morning and late afternoon"
+          }
+        },
+        {
+          "name": "Cycle around Fort Kochi",
+          "body": [
+            "Bicycles can be rented in Fort Kochi, and the flat, compact streets are ideal for cycling between the fishing nets, churches, the Dutch Cemetery and the beach promenade. Early morning rides are cool and quiet."
+          ],
+          "facts": {
+            "Best time": "Early morning"
+          }
+        }
+      ]
+    },
+    {
+      "id": "mattancherry",
+      "heading": "Mattancherry and Jew Town",
+      "items": [
+        {
+          "name": "See Mattancherry Palace",
+          "image": {
+            "src": "/images/blogs/kerala/kochi/mattancherry-palace-kochi.webp",
+            "alt": "Mattancherry Palace, Kochi",
+            "caption": "Mattancherry Palace"
+          },
+          "body": [
+            "Mattancherry Palace, built by the Portuguese around 1555 for the Raja of Kochi and later renovated by the Dutch, is known as the Dutch Palace. Its walls are covered with some of the finest Kerala murals, depicting scenes from the Ramayana and Puranas. It is closed on Fridays."
+          ],
+          "facts": {
+            "Time needed": "1 hour",
+            "Good to know": "Closed on Fridays"
+          }
+        },
+        {
+          "name": "Visit the Paradesi Synagogue",
+          "image": {
+            "src": "/images/blogs/kerala/kochi/paradesi-synagogue-jew-town-kochi.webp",
+            "alt": "Paradesi Synagogue, Jew Town, Kochi",
+            "caption": "Paradesi Synagogue"
+          },
+          "body": [
+            "The Paradesi Synagogue, built in 1568, is one of the oldest active synagogues in the Commonwealth. Its floor is laid with hand-painted Chinese tiles, and Belgian chandeliers hang from the ceiling. It is closed on Fridays, Saturdays and Jewish holidays; shoulders and knees must be covered."
+          ],
+          "facts": {
+            "Time needed": "30 minutes",
+            "Good to know": "Closed Fridays, Saturdays and Jewish holidays"
+          }
+        },
+        {
+          "name": "Shop in Jew Town and the spice market",
+          "body": [
+            "Jew Town's lanes are full of antique shops, handicraft stores and spice warehouses where ginger, pepper and cardamom are still traded. The smell of spices fills the air."
+          ],
+          "facts": {
+            "Good for": "Shoppers"
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "heading": "Performance and art",
+      "items": [
+        {
+          "name": "Watch Kathakali",
+          "body": [
+            "Several centres in Fort Kochi and Ernakulam stage short Kathakali shows for visitors every evening, often with the make-up session (which takes about an hour) open to watch. An introduction explains the gestures and expressions."
+          ],
+          "facts": {
+            "Best time": "Evening",
+            "Good for": "Culture seekers"
+          }
+        },
+        {
+          "name": "See kalaripayattu",
+          "body": [
+            "Kalaripayattu, Kerala's ancient martial art, is demonstrated in evening shows with sword and shield fights, acrobatics and stick fighting."
+          ]
+        },
+        {
+          "name": "Visit the Kochi-Muziris Biennale",
+          "body": [
+            "The Kochi-Muziris Biennale, India's largest contemporary art exhibition, takes over warehouses and heritage buildings in Fort Kochi and Mattancherry for several months, usually from December. Aspinwall House is the main venue. Check the current edition's dates."
+          ],
+          "facts": {
+            "Best time": "December to March in Biennale years"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ernakulam",
+      "heading": "Ernakulam and markets",
+      "items": [
+        {
+          "name": "Walk Marine Drive",
+          "body": [
+            "Marine Drive in Ernakulam is a waterfront promenade looking over the backwaters and harbour, with the Rainbow Bridge and boat jetties. It is busy with families and walkers at sunset."
+          ],
+          "facts": {
+            "Best time": "Sunset"
+          }
+        },
+        {
+          "name": "Browse Broadway and the Ernakulam market",
+          "body": [
+            "Broadway, one of the oldest shopping streets in Ernakulam, has spice shops, fabric stores and hardware in narrow lanes. Nearby, the Ernakulam market sells fruit, vegetables and fish."
+          ],
+          "facts": {
+            "Good for": "Shoppers"
+          }
+        },
+        {
+          "name": "See the Kerala Folklore Museum",
+          "body": [
+            "The Kerala Folklore Museum near Thevara, in a building combining Kerala's architectural styles, has a large collection of masks, costumes, musical instruments and ritual objects from across South India, and a small theatre for performances."
+          ],
+          "facts": {
+            "Time needed": "1.5 hours",
+            "Good for": "Culture seekers"
+          }
+        },
+        {
+          "name": "Visit Bolgatty Palace",
+          "body": [
+            "Bolgatty Palace, built by the Dutch in the 18th century on Bolgatty Island, later served as the British Resident's home and is now a heritage hotel. The island is a short ferry ride from Ernakulam."
+          ]
+        },
+        {
+          "name": "Explore the Muziris heritage sites",
+          "body": [
+            "North of Kochi, the Muziris Heritage Project covers sites linked to the ancient port of Muziris, including synagogues at Paravur, the Cheraman Juma Masjid at Kodungallur (often called India's oldest mosque), palaces and museums. Boat tours connect several sites."
+          ],
+          "facts": {
+            "Time needed": "Full day"
+          }
+        }
+      ]
+    },
+    {
+      "id": "beyond",
+      "heading": "Beyond Fort Kochi",
+      "items": [
+        {
+          "name": "Explore Hill Palace",
+          "body": [
+            "Hill Palace in Tripunithura, the former residence of the Kochi royal family, is Kerala's largest archaeological museum, with royal regalia, paintings, weapons and a deer park."
+          ],
+          "facts": {
+            "Time needed": "2 hours"
+          }
+        },
+        {
+          "name": "Ride a ferry or the Water Metro",
+          "body": [
+            "Public ferries between Fort Kochi, Ernakulam and Vypeen are cheap and scenic. The Kochi Water Metro, launched in 2023, runs electric boats to several islands."
+          ],
+          "facts": {
+            "Good for": "Families, budget travellers"
+          }
+        },
+        {
+          "name": "Relax at Cherai beach",
+          "body": [
+            "Cherai beach, on Vypeen Island about 25 km north, has the sea on one side and backwaters on the other."
+          ]
+        },
+        {
+          "name": "Visit Kumbalangi village",
+          "body": [
+            "Kumbalangi, near Fort Kochi, has model tourism village programmes showing crab farming, fishing and coir making on the backwaters."
+          ]
+        },
+        {
+          "name": "Eat Kochi's seafood",
+          "body": [
+            "Try appam with stew, fish moilee, karimeen pollichathu, prawn roast, and Kerala parotta with beef fry. Fort Kochi has cafés in old houses."
+          ],
+          "facts": {
+            "Good for": "Food lovers"
+          }
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "First-time visitors",
+      "text": "Day 1 for Fort Kochi and sunset at the nets, day 2 for Mattancherry, Jew Town and Kathakali."
+    },
+    {
+      "who": "Art lovers",
+      "text": "The Biennale, Mattancherry's murals and Fort Kochi's galleries."
+    },
+    {
+      "who": "Families",
+      "text": "Ferries, the Water Metro, Hill Palace and an evening kalaripayattu show."
+    },
+    {
+      "who": "Food lovers",
+      "text": "Seafood from the fishing nets cooked at a stall, appam and stew for breakfast and a Kerala meal in a heritage café."
+    }
+  ],
+  "oneDay": "Start at the Chinese fishing nets and St Francis Church, walk through Fort Kochi's streets, then go to Mattancherry Palace and the Paradesi Synagogue. Browse Jew Town's spice shops in the afternoon and watch a Kathakali show in the evening.",
+  "tips": [
+    "Cochin International Airport is about 40 km from Fort Kochi; Ernakulam Junction is the main railway station.",
+    "The synagogue and Mattancherry Palace have different closing days; plan around them.",
+    "Use ferries to hop between Fort Kochi and Ernakulam.",
+    "Summers are humid; plan walks for mornings and evenings.",
+    "Cover shoulders and knees at churches, the synagogue and temples."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Kochi?",
+      "a": "See the Chinese fishing nets, St Francis Church, Mattancherry Palace and the Paradesi Synagogue, shop in Jew Town, watch Kathakali, visit the Biennale and Hill Palace, and ride the ferries."
+    },
+    {
+      "q": "How many days are enough for Kochi?",
+      "a": "Two to three days."
+    },
+    {
+      "q": "When is the Paradesi Synagogue closed?",
+      "a": "On Fridays, Saturdays and Jewish holidays."
+    },
+    {
+      "q": "What is the best time to visit Kochi?",
+      "a": "October to March."
+    },
+    {
+      "q": "What are the best things to do in Fort Kochi at night?",
+      "a": "Watch sunset at the Chinese fishing nets, see a Kathakali or kalaripayattu show, and eat at the cafés and seafood stalls along the waterfront and heritage streets."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Alleppey",
+      "href": "/blog/things-to-do-in-alleppey",
+      "note": "houseboats, about an hour and a half south"
+    },
+    {
+      "name": "Things to do in Munnar",
+      "href": "/blog/things-to-do-in-munnar",
+      "note": "tea hills, about four hours east"
+    },
+    {
+      "name": "Athirappilly",
+      "href": "/blog/athirappilly-travel-guide",
+      "note": "Kerala's largest waterfall"
+    },
+    {
+      "name": "Things to do in Kerala",
+      "href": "/blog/things-to-do-in-kerala",
+      "note": "the whole state"
+    }
+  ],
+  "styles": [
+    "family-holidays",
+    "honeymoon",
+    "weekend-getaways"
+  ],
+  "metaDescription": "Things to do in Kochi: the Chinese fishing nets, St Francis Church and Santa Cruz Basilica, Mattancherry Palace, the Paradesi Synagogue and Jew Town and more."
+}

@@ -1,0 +1,296 @@
+{
+  "slug": "things-to-do-in-rishikesh",
+  "destination": "Rishikesh",
+  "guide": "rishikesh-adventure-travel-guide",
+  "type": "adventure and spiritual town",
+  "title": "Things to Do in Rishikesh: Rafting, Yoga, Ganga Aarti & Himalayan Treks",
+  "seoTitle": "Things to Do in Rishikesh: Rafting, Yoga & Aarti | Kudozz Club",
+  "description": "The best things to do in Rishikesh: white-water rafting on the Ganga, bungee and ziplines, yoga and ashrams, the Parmarth Niketan aarti, the Beatles Ashram, Kunjapuri sunrise, waterfalls and riverside cafés.",
+  "dek": "Where the Ganga leaves the Himalaya: rapids in the morning, yoga in the afternoon and an aarti by the river at dusk, all within a few kilometres.",
+  "primaryKeyword": "things to do in Rishikesh",
+  "secondaryKeywords": [
+    "Rishikesh rafting",
+    "Rishikesh adventure activities",
+    "Rishikesh yoga",
+    "Beatles Ashram",
+    "things to do in Rishikesh for couples",
+    "Rishikesh with family"
+  ],
+  "searchIntent": "Adventure seekers, yoga travellers, couples and families planning three to five days in Rishikesh who want to balance adventure, spirituality and downtime.",
+  "tags": [
+    "Rishikesh",
+    "Uttarakhand",
+    "Adventure",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/destinations/rishikesh/rishikesh-white-water-rafting-ganga.webp",
+    "alt": "Rafters on white water on the Ganga near Rishikesh",
+    "caption": "Rafting on the Ganga"
+  },
+  "intro": [
+    "Rishikesh sits where the Ganga emerges from the Garhwal Himalaya into the plains, about 25 km upstream from Haridwar in Uttarakhand. It has long been a place of pilgrimage and study, with ashrams lining both banks, and it calls itself the Yoga Capital of the World. Since the 1990s it has also become India's best-known base for white-water rafting.",
+    "That combination is what makes Rishikesh unusual. On the same day you can run rapids, jump from India's highest fixed bungee platform, attend a yoga class and watch the evening aarti by the river. The town is vegetarian and alcohol is not served in the main areas.",
+    "Five days lets you do all of this without rushing. October to November and March to April are the best months; rafting stops during the monsoon, roughly June to September."
+  ],
+  "quickAnswer": [
+    "Go white-water rafting on the Ganga",
+    "Bungee jump, zipline or ride the giant swing at Mohan Chatti",
+    "Take a yoga or meditation class",
+    "Watch the Ganga Aarti at Parmarth Niketan or Triveni Ghat",
+    "Walk across the Ram Jhula suspension bridge",
+    "Explore the Beatles Ashram (Chaurasi Kutia)",
+    "Hike to Kunjapuri Temple for sunrise over the Himalaya",
+    "Camp on a riverside beach",
+    "Visit Neelkanth Mahadev Temple and Neer Garh Waterfall",
+    "Spend an afternoon in the cafés of Tapovan"
+  ],
+  "sections": [
+    {
+      "id": "adventure",
+      "heading": "Adventure activities in Rishikesh",
+      "intro": "All adventure operators in Rishikesh should be licensed by the state; ask to see the licence and check the safety equipment before booking.",
+      "items": [
+        {
+          "name": "Go white-water rafting",
+          "body": [
+            "Rafting trips run on stretches of the Ganga upstream of town and end near Rishikesh. The most popular are the 16 km run from Shivpuri, with rapids graded around II to III+ such as Roller Coaster and Golf Course, and the longer 26 km run from Marine Drive. Beginners can start with the short Brahmpuri stretch.",
+            "No experience is needed, as each raft has a trained guide. Trips include a safety briefing, and many stop at a beach for cliff jumping or body surfing in calm water."
+          ],
+          "facts": {
+            "Where": "Shivpuri, Marine Drive and Brahmpuri put-in points",
+            "Time needed": "2–4 hours",
+            "Best time": "October to November, March to May",
+            "Good for": "Teens and adults; age limits apply",
+            "Good to know": "Rafting closes during the monsoon"
+          }
+        },
+        {
+          "name": "Bungee jump, zipline or swing",
+          "body": [
+            "At Mohan Chatti, about 20 km from Rishikesh, a cantilever platform over a gorge is home to one of India's highest fixed bungee jumps, run by an operator with international safety standards. The same site has a flying fox zipline and a giant swing. Book ahead in peak season and check weight and age limits."
+          ],
+          "facts": {
+            "Where": "Mohan Chatti",
+            "Time needed": "Half a day",
+            "Good for": "Thrill seekers"
+          }
+        },
+        {
+          "name": "Camp by the river",
+          "body": [
+            "Beach and forest camps along the Ganga upstream of Rishikesh, especially around Shivpuri, combine rafting with a night in tents, bonfires and volleyball on the sand. Standards vary; choose camps with proper toilets and good reviews."
+          ],
+          "facts": {
+            "Time needed": "Overnight",
+            "Good for": "Groups, couples, families"
+          }
+        },
+        {
+          "name": "Hike to Kunjapuri for sunrise",
+          "body": [
+            "Kunjapuri Devi Temple, on a hilltop above Narendra Nagar, is reached by road and a flight of steps. On a clear morning you see the Garhwal Himalaya, including peaks such as Bandarpunch and Chaukhamba, turning pink at sunrise. Many visitors drive up in the dark and walk the final steps; some walk down the forest trail afterwards."
+          ],
+          "facts": {
+            "Where": "About 25 km from Rishikesh",
+            "Time needed": "3–4 hours",
+            "Best time": "Sunrise, October to March"
+          }
+        },
+        {
+          "name": "Try kayaking, mountain biking or trekking",
+          "body": [
+            "Kayaking courses, mountain biking along forest roads and short treks to waterfalls such as Patna Falls are all available. Rishikesh is also the starting point for longer Himalayan treks and the Char Dham pilgrimage."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spiritual",
+      "heading": "Yoga and spiritual Rishikesh",
+      "items": [
+        {
+          "name": "Take a yoga or meditation class",
+          "body": [
+            "Dozens of ashrams and schools offer drop-in classes, week-long retreats and 200-hour teacher training courses. Parmarth Niketan, Sivananda Ashram and many smaller schools around Tapovan and Laxman Jhula welcome beginners. The International Yoga Festival is held every March."
+          ],
+          "facts": {
+            "Time needed": "From a single class to a month-long course",
+            "Good for": "Everyone"
+          }
+        },
+        {
+          "name": "Watch the Ganga Aarti",
+          "image": {
+            "src": "/images/destinations/rishikesh/rishikesh-parmarth-niketan-ganga-aarti.webp",
+            "alt": "Evening Ganga Aarti at Parmarth Niketan, Rishikesh",
+            "caption": "Ganga Aarti at Parmarth Niketan"
+          },
+          "body": [
+            "The evening aarti at Parmarth Niketan's ghat is calmer and more musical than Haridwar's, with devotional singing, lamps and a large Shiva statue by the river. Triveni Ghat, in the older part of town, has a more traditional aarti. Arrive before sunset to find a place on the steps."
+          ],
+          "facts": {
+            "Best time": "Sunset",
+            "Good for": "Everyone"
+          }
+        },
+        {
+          "name": "Explore the Beatles Ashram",
+          "image": {
+            "src": "/images/destinations/rishikesh/rishikesh-beatles-ashram-eggman-dome.webp",
+            "alt": "Painted meditation domes at the Beatles Ashram (Chaurasi Kutia), Rishikesh",
+            "caption": "Beatles Ashram"
+          },
+          "body": [
+            "The former ashram of Maharishi Mahesh Yogi, where the Beatles stayed in 1968 and wrote many songs, was abandoned for decades and is now managed by the forest department. Its meditation domes and buildings are covered in murals, making it one of the most photogenic places in Rishikesh."
+          ],
+          "facts": {
+            "Where": "Near Swarg Ashram, inside Rajaji Tiger Reserve",
+            "Time needed": "1.5 hours",
+            "Good for": "Music fans, photographers"
+          }
+        },
+        {
+          "name": "Visit Neelkanth Mahadev Temple",
+          "body": [
+            "Neelkanth Mahadev, about 30 km from Rishikesh in the forested hills, marks the place where Shiva is said to have drunk the poison from the churning of the ocean. The drive is scenic; some pilgrims trek the older route through the forest. It is extremely busy during the Kanwar Yatra in the monsoon."
+          ],
+          "facts": {
+            "Time needed": "Half a day"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sightseeing",
+      "heading": "Bridges, waterfalls and cafés",
+      "items": [
+        {
+          "name": "Cross Ram Jhula and Laxman Jhula",
+          "image": {
+            "src": "/images/destinations/rishikesh/rishikesh-ram-jhula-bridge-ganga.webp",
+            "alt": "Ram Jhula suspension bridge over the Ganga, Rishikesh",
+            "caption": "Ram Jhula"
+          },
+          "body": [
+            "The iron suspension bridges of Ram Jhula and Laxman Jhula are Rishikesh's landmarks, linking temples and ashrams on either bank. Laxman Jhula was closed for safety reasons in recent years, and a replacement bridge with glass walkway sections has been under construction beside it; check which crossings are open when you visit. Walking across, with the river below and temples on both banks, is part of every visit."
+          ]
+        },
+        {
+          "name": "Visit Neer Garh Waterfall",
+          "image": {
+            "src": "/images/destinations/rishikesh/rishikesh-neer-garh-waterfall.webp",
+            "alt": "Neer Garh Waterfall in the forest near Rishikesh",
+            "caption": "Neer Garh Waterfall"
+          },
+          "body": [
+            "A short walk from the road beyond Laxman Jhula leads through forest to Neer Garh's series of cascades and pools. It is best after the monsoon, from September to November."
+          ],
+          "facts": {
+            "Time needed": "2 hours",
+            "Good for": "Families, couples"
+          }
+        },
+        {
+          "name": "Spend an afternoon in Tapovan's cafés",
+          "body": [
+            "The Tapovan and Laxman Jhula area is full of relaxed cafés with river views, serving everything from Israeli and Italian food to thalis and fresh juices, alongside bookshops and yoga-wear stores. It is where many visitors spend their downtime."
+          ]
+        },
+        {
+          "name": "Take a day trip to Haridwar",
+          "body": [
+            "Haridwar, 25 km downstream, has the grand evening aarti at Har ki Pauri, hilltop temples reached by ropeway and busy bazaars."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Haridwar",
+              "href": "/blog/things-to-do-in-haridwar"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Couples",
+      "text": "Riverside camping, sunrise at Kunjapuri, rafting together, sunset at the Parmarth aarti and café evenings in Tapovan."
+    },
+    {
+      "who": "Families",
+      "text": "The Brahmpuri rafting stretch for older children, the aarti, bridges, Neer Garh Waterfall and the Beatles Ashram. Choose camps with proper facilities."
+    },
+    {
+      "who": "Solo travellers",
+      "text": "Rishikesh is one of India's easiest places to travel alone, with yoga courses, group rafting trips and a sociable café scene."
+    },
+    {
+      "who": "Groups of friends",
+      "text": "The 16 km rafting run, a camp night with bonfire, and bungee at Mohan Chatti."
+    }
+  ],
+  "oneDay": "Raft the Shivpuri stretch in the morning. After lunch in Tapovan, walk across Laxman Jhula and Ram Jhula, then explore the Beatles Ashram. Finish at Parmarth Niketan for the evening Ganga Aarti.",
+  "tips": [
+    "Rishikesh is a vegetarian town and alcohol is not served in the main areas.",
+    "Book rafting only with licensed operators, and check life jackets and helmets before setting off.",
+    "Rafting is closed during the monsoon, roughly June to September, when the river is too high.",
+    "Dehradun's Jolly Grant Airport is about 35 km away; Haridwar and Rishikesh have railway stations.",
+    "Weekends see large crowds from Delhi; weekdays are much calmer."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Rishikesh?",
+      "a": "White-water rafting, bungee jumping at Mohan Chatti, yoga classes, the Ganga Aarti at Parmarth Niketan, the Beatles Ashram, a sunrise at Kunjapuri, riverside camping and the cafés of Tapovan."
+    },
+    {
+      "q": "How many days are enough for Rishikesh?",
+      "a": "Five days lets you combine rafting, bungee, yoga, the Beatles Ashram, a Kunjapuri sunrise and a day trip to Haridwar without rushing. Two to three days covers the highlights."
+    },
+    {
+      "q": "When is rafting open in Rishikesh?",
+      "a": "Rafting generally runs from September or October to June and closes during the monsoon. October and November, and March to May, are the best months."
+    },
+    {
+      "q": "Is Rishikesh good for couples?",
+      "a": "Yes. Riverside camps, rafting, sunrise hikes, the evening aarti and quiet cafés make it a popular short break for couples."
+    },
+    {
+      "q": "Is Rishikesh good for families?",
+      "a": "Yes, with the shorter Brahmpuri rafting stretch for older children, the aarti, waterfalls and bridges. Most adventure activities have minimum age limits."
+    },
+    {
+      "q": "What is the best time to visit Rishikesh?",
+      "a": "October to November and March to April for good weather and rafting. The monsoon brings heavy rain and closes rafting."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Haridwar",
+      "href": "/blog/things-to-do-in-haridwar",
+      "note": "the Har ki Pauri aarti, 25 km downstream"
+    },
+    {
+      "name": "Things to do in Mussoorie",
+      "href": "/blog/things-to-do-in-mussoorie",
+      "note": "the hill station above Dehradun, about two hours away"
+    },
+    {
+      "name": "Things to do in Chopta",
+      "href": "/blog/things-to-do-in-chopta",
+      "note": "the Tungnath trek, further into Garhwal"
+    },
+    {
+      "name": "Tehri Lake",
+      "href": "/blog/tehri-lake-travel-guide",
+      "note": "water sports on a Himalayan reservoir"
+    }
+  ],
+  "styles": [
+    "adventure-tours",
+    "spiritual-tours",
+    "weekend-getaways",
+    "group-tours"
+  ],
+  "metaDescription": "The best things to do in Rishikesh: white-water rafting on the Ganga, bungee and ziplines, yoga and ashrams, the Parmarth Niketan aarti, the Beatles Ashram, Kunjapuri sunrise and more."
+}

@@ -1,0 +1,245 @@
+{
+  "slug": "things-to-do-in-dalhousie",
+  "destination": "Dalhousie",
+  "guide": "dalhousie-travel-guide",
+  "type": "hill station",
+  "title": "Things to Do in Dalhousie: Colonial Walks, Dainkund Peak & Khajjiar",
+  "seoTitle": "Things to Do in Dalhousie: Khajjiar, Churches & Walks | Kudozz Club",
+  "description": "Things to do in Dalhousie: Gandhi Chowk and Subhash Chowk, St John's Church, Subhash Baoli, Panchpula, Dainkund Peak, the Kalatop sanctuary, Khajjiar's meadow and lake, and a day trip to Chamba's temples and museum.",
+  "dek": "A quiet Raj-era hill station spread over five hills in Chamba district, with deodar forests, old churches and the meadow of Khajjiar close by.",
+  "primaryKeyword": "things to do in Dalhousie",
+  "secondaryKeywords": [
+    "places to visit in Dalhousie",
+    "Khajjiar",
+    "Dainkund Peak",
+    "Kalatop sanctuary",
+    "Chamba day trip",
+    "Dalhousie Khajjiar trip"
+  ],
+  "searchIntent": "Families and couples, often from Punjab and Delhi, planning two to three days in Dalhousie and Khajjiar.",
+  "tags": [
+    "Dalhousie",
+    "Himachal Pradesh",
+    "Hill Station",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/himachal-pradesh/khajjiar/khajjiar-view.webp",
+    "alt": "Khajjiar meadow and deodar forest near Dalhousie",
+    "caption": "Khajjiar, a short drive from Dalhousie"
+  },
+  "intro": [
+    "Dalhousie, at around 2,000 metres in Chamba district, was established by the British in 1854 as a sanatorium and named after Lord Dalhousie, then Governor-General. It spreads across five hills, Kathlog, Potreyn, Tehra, Bakrota and Balun, linked by quiet roads through deodar and pine.",
+    "It is a slower, less crowded hill station than Shimla or Manali. The things to do in Dalhousie are walks between its old squares and churches, a climb to Dainkund Peak, and trips to Khajjiar's meadow and the temple town of Chamba. Rabindranath Tagore and Subhas Chandra Bose both spent time here, and places around town remember them.",
+    "Two days covers Dalhousie and Khajjiar; a third day adds Chamba. Pathankot, about 80 km away, is the nearest railway station."
+  ],
+  "quickAnswer": [
+    "Walk between Gandhi Chowk and Subhash Chowk",
+    "See St John's Church and St Francis Church",
+    "Visit Subhash Baoli and Panchpula",
+    "Climb Dainkund Peak for views of the Pir Panjal",
+    "Walk the Kalatop Wildlife Sanctuary trail",
+    "Spend a day at Khajjiar's meadow and lake",
+    "Visit Chamba's Laxmi Narayan temples and Bhuri Singh Museum",
+    "Walk Bakrota's upper circular road"
+  ],
+  "sections": [
+    {
+      "id": "town",
+      "heading": "In Dalhousie",
+      "items": [
+        {
+          "name": "Walk between Gandhi Chowk and Subhash Chowk",
+          "body": [
+            "Gandhi Chowk and Subhash Chowk are the two main squares of Dalhousie, linked by a flat mall road lined with shops, cafés and views. Tibetan stalls near Gandhi Chowk sell woollens and handicrafts. The walk takes about half an hour and is best in the evening."
+          ],
+          "facts": {
+            "Time needed": "1–2 hours",
+            "Best time": "Evening",
+            "Good for": "Everyone"
+          }
+        },
+        {
+          "name": "See the old churches",
+          "body": [
+            "St John's Church near Gandhi Chowk, built in 1863, is the oldest church in Dalhousie, with stained glass and a quiet interior. St Francis Church at Subhash Chowk dates from 1894. Both are good examples of the town's colonial architecture."
+          ],
+          "facts": {
+            "Time needed": "45 minutes"
+          }
+        },
+        {
+          "name": "Visit Subhash Baoli and Panchpula",
+          "body": [
+            "Subhash Baoli is a spring in a forested spot where Subhas Chandra Bose is said to have spent time in 1937 while recovering his health. Panchpula, about 3 km away, is a spot where streams meet under small bridges, with a memorial to freedom fighter Sardar Ajit Singh, uncle of Bhagat Singh."
+          ],
+          "facts": {
+            "Time needed": "2 hours",
+            "Good for": "Families, history lovers"
+          }
+        },
+        {
+          "name": "Walk Bakrota's upper road",
+          "body": [
+            "The Upper Bakrota circular road is one of the quietest walks in town, shaded by deodars with views over the valleys. It is ideal for an early morning walk."
+          ],
+          "facts": {
+            "Best time": "Early morning",
+            "Good for": "Walkers, couples"
+          }
+        }
+      ]
+    },
+    {
+      "id": "nature",
+      "heading": "Peaks and forests",
+      "items": [
+        {
+          "name": "Climb Dainkund Peak",
+          "body": [
+            "Dainkund Peak, at about 2,750 metres and roughly 10 km from Dalhousie, is the highest point around town. A short walk from the road leads to the Pohlani Mata temple on the summit, with wide views of the Pir Panjal and Dhauladhar ranges and the Chenab and Ravi valleys. The wind through the trees here is sometimes called the singing hill."
+          ],
+          "facts": {
+            "Time needed": "2–3 hours",
+            "Best time": "Clear mornings",
+            "Good for": "Everyone"
+          }
+        },
+        {
+          "name": "Walk the Kalatop trail",
+          "body": [
+            "The Kalatop Khajjiar Wildlife Sanctuary protects dense deodar and blue pine forest between Dalhousie and Khajjiar. A walk of a few kilometres from Lakkar Mandi to the forest rest house at Kalatop is peaceful and good for birdwatching; you may also see langurs. Vehicle entry into the sanctuary is controlled."
+          ],
+          "facts": {
+            "Time needed": "Half a day",
+            "Good for": "Walkers, birdwatchers"
+          }
+        },
+        {
+          "name": "Spend a day in Khajjiar",
+          "image": {
+            "src": "/images/blogs/himachal-pradesh/khajjiar/khajjiar.webp",
+            "alt": "Khajjiar lake and meadow surrounded by trees",
+            "caption": "Khajjiar"
+          },
+          "body": [
+            "Khajjiar, about 24 km from Dalhousie, is a saucer-shaped meadow ringed by deodars with a small lake and the Khajji Nag Temple. It is often called the mini Switzerland of India, a label linked to a Swiss envoy's visit in 1992. Horse rides, zorbing and paragliding are offered around the meadow.",
+            "Weekends bring crowds and many touts; weekdays and early mornings are more peaceful."
+          ],
+          "links": [
+            {
+              "label": "Khajjiar travel guide",
+              "href": "/blog/khajjiar-travel-guide"
+            }
+          ],
+          "facts": {
+            "Time needed": "Half a day to full day",
+            "Good for": "Families, couples"
+          }
+        },
+        {
+          "name": "See snow in winter",
+          "body": [
+            "Dalhousie and especially Dainkund and Khajjiar often get snow between December and February. Roads can become slippery or blocked, so check conditions and carry chains if you are driving."
+          ],
+          "facts": {
+            "Best time": "December to February"
+          }
+        }
+      ]
+    },
+    {
+      "id": "chamba",
+      "heading": "Day trip to Chamba",
+      "items": [
+        {
+          "name": "Visit the Laxmi Narayan temples",
+          "body": [
+            "Chamba, about 50 km from Dalhousie on the Ravi, was the capital of one of the oldest princely states in the Himalaya. Its Laxmi Narayan temple complex, with shikhara temples dating back over a thousand years, is the town's most important site."
+          ],
+          "facts": {
+            "Time needed": "1 hour"
+          }
+        },
+        {
+          "name": "See the Bhuri Singh Museum and the Chaugan",
+          "body": [
+            "The Bhuri Singh Museum has a fine collection of Pahari miniature paintings, carved fountain stones and Chamba rumals, embroidered handkerchiefs that are a local art form. The Chaugan, a large open ground at the centre of town, hosts the Minjar fair in summer."
+          ],
+          "facts": {
+            "Time needed": "1.5 hours",
+            "Good for": "Art and history lovers"
+          }
+        },
+        {
+          "name": "Stop at Chamera Lake",
+          "body": [
+            "Chamera Lake, the reservoir of a hydroelectric dam on the Ravi, lies between Dalhousie and Chamba and has boating facilities. It is a pleasant stop on the drive."
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Families",
+      "text": "Khajjiar's meadow, Panchpula, the squares and a snow day in winter keep children happy."
+    },
+    {
+      "who": "Couples",
+      "text": "Early walks on Bakrota, sunset at Dainkund and a quiet weekday at Khajjiar."
+    },
+    {
+      "who": "Culture lovers",
+      "text": "A day in Chamba for the temples, museum and rumal embroidery."
+    }
+  ],
+  "oneDay": "Start with a walk from Gandhi Chowk to Subhash Chowk, visiting St John's Church. Drive to Dainkund Peak in the late morning, then continue through Kalatop to Khajjiar for the afternoon. Return to Dalhousie for an evening on the mall.",
+  "tips": [
+    "Pathankot, about 80 km away, is the nearest railway station; Pathankot and Gaggal have the nearest airports.",
+    "Dalhousie is hilly but its main roads are fairly level; wear comfortable walking shoes.",
+    "Agree on prices for horse rides and activities in Khajjiar before starting.",
+    "Carry warm clothes; winter nights are cold and snow is common."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Dalhousie?",
+      "a": "Walk between Gandhi Chowk and Subhash Chowk, see St John's Church, visit Subhash Baoli and Panchpula, climb Dainkund Peak, walk in Kalatop, spend a day at Khajjiar and visit Chamba."
+    },
+    {
+      "q": "How far is Khajjiar from Dalhousie?",
+      "a": "About 24 km, roughly an hour by road through the Kalatop forest."
+    },
+    {
+      "q": "How many days are enough for Dalhousie?",
+      "a": "Two days covers Dalhousie and Khajjiar; add a third for Chamba."
+    },
+    {
+      "q": "Does it snow in Dalhousie?",
+      "a": "Yes, usually between December and February. Dainkund and Khajjiar often get more snow than the town."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Khajjiar",
+      "href": "/blog/khajjiar-travel-guide",
+      "note": "the meadow and lake, 24 km away"
+    },
+    {
+      "name": "Things to do in Dharamshala",
+      "href": "/blog/things-to-do-in-dharamshala",
+      "note": "McLeod Ganj and Triund, about four hours away"
+    },
+    {
+      "name": "Things to do in Amritsar",
+      "href": "/blog/things-to-do-in-amritsar",
+      "note": "the Golden Temple, about four to five hours away"
+    }
+  ],
+  "styles": [
+    "family-holidays",
+    "honeymoon",
+    "weekend-getaways"
+  ],
+  "metaDescription": "Things to do in Dalhousie: Gandhi Chowk and Subhash Chowk, St John's Church, Subhash Baoli, Panchpula, Dainkund Peak, the Kalatop sanctuary, Khajjiar's meadow and lake and more."
+}

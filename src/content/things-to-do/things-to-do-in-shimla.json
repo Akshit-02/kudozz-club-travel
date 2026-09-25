@@ -1,0 +1,291 @@
+{
+  "slug": "things-to-do-in-shimla",
+  "destination": "Shimla",
+  "guide": "shimla-travel-guide",
+  "type": "hill station",
+  "title": "Things to Do in Shimla: The Ridge, the Toy Train & Colonial Heritage",
+  "seoTitle": "Things to Do in Shimla: Ridge, Toy Train & More | Kudozz Club",
+  "description": "Things to do in Shimla: The Ridge and Mall Road, Christ Church, Jakhoo Temple, the Kalka–Shimla toy train, the Viceregal Lodge, Gaiety Theatre, Lakkar Bazaar, Kufri, Mashobra, Chail and winter snow.",
+  "dek": "The former summer capital of British India, spread over seven ridges, where Gothic churches, the heritage toy train and deodar forests sit alongside a busy modern state capital.",
+  "primaryKeyword": "things to do in Shimla",
+  "secondaryKeywords": [
+    "places to visit in Shimla",
+    "Shimla toy train",
+    "Viceregal Lodge",
+    "Jakhoo Temple",
+    "Kufri",
+    "Shimla in winter",
+    "Shimla with family"
+  ],
+  "searchIntent": "Families, couples and first-time hill travellers planning two to three days in Shimla, often as part of a Shimla–Manali trip.",
+  "tags": [
+    "Shimla",
+    "Himachal Pradesh",
+    "Hill Station",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/himachal-pradesh/shimla/mall-road-and-the-ridge-shimla.webp",
+    "alt": "The Ridge and Mall Road in Shimla",
+    "caption": "The Ridge, Shimla"
+  },
+  "intro": [
+    "Shimla, at about 2,200 metres, is the capital of Himachal Pradesh and was the summer capital of British India from 1864. The Raj left behind a remarkable set of buildings: Christ Church on the Ridge, the Viceregal Lodge on Observatory Hill, the Gaiety Theatre, and the narrow-gauge railway from Kalka, now a UNESCO World Heritage Site.",
+    "Most things to do in Shimla are within walking distance of the Ridge and Mall Road, which are closed to general traffic. Beyond town, the forests and orchards of Kufri, Mashobra, Naldehra and Chail make easy day trips, and in winter the surrounding hills often get snow.",
+    "Two days covers the town and Kufri; add a day for the toy train or a quieter stay outside town. Shimla is very busy on weekends and holidays."
+  ],
+  "quickAnswer": [
+    "Walk the Ridge and Mall Road",
+    "See Christ Church and the Scandal Point views",
+    "Climb or ride up to Jakhoo Temple",
+    "Ride the Kalka–Shimla toy train",
+    "Tour the Viceregal Lodge (Rashtrapati Niwas)",
+    "Catch a show or tour at the Gaiety Theatre",
+    "Shop in Lakkar Bazaar and the Lower Bazaar",
+    "Take a day trip to Kufri and Mashobra",
+    "Visit Chail and its palace",
+    "See snow in winter"
+  ],
+  "sections": [
+    {
+      "id": "town",
+      "heading": "The Ridge and Mall Road",
+      "items": [
+        {
+          "name": "Walk the Ridge and Mall Road",
+          "body": [
+            "The Ridge is a wide open space at the heart of Shimla, with views over the hills in every direction. The Mall Road runs below it, lined with colonial buildings, shops, cafés and the old post office. Both are pedestrian areas and are at their best in the early morning and evening.",
+            "Scandal Point, where the Ridge meets the Mall, is the main meeting spot and has a statue of Lala Lajpat Rai."
+          ],
+          "facts": {
+            "Time needed": "2–3 hours",
+            "Best time": "Morning and evening",
+            "Good for": "Everyone"
+          }
+        },
+        {
+          "name": "See Christ Church",
+          "body": [
+            "Christ Church, completed in the 1850s, is the second-oldest church in North India and Shimla's most recognisable landmark. Its stained-glass windows and the view from the steps are worth a short visit. The church is lit up beautifully at night."
+          ],
+          "facts": {
+            "Time needed": "30 minutes"
+          }
+        },
+        {
+          "name": "Visit the Gaiety Theatre",
+          "body": [
+            "The Gaiety Theatre, opened in 1887 on the Mall, is a Victorian theatre that has hosted performances for more than a century. It still stages plays and events, and guided visits are available at times. The complex also has art galleries."
+          ],
+          "facts": {
+            "Good for": "Culture lovers"
+          }
+        },
+        {
+          "name": "Shop in Lakkar Bazaar",
+          "body": [
+            "Lakkar Bazaar, just off the Ridge, is known for wooden crafts, walking sticks and souvenirs. The Lower Bazaar below the Mall is the local market for spices, dry fruits and woollens. Look for Himachali caps and Kullu shawls."
+          ],
+          "facts": {
+            "Best time": "Afternoon"
+          }
+        }
+      ]
+    },
+    {
+      "id": "heritage",
+      "heading": "Heritage and temples",
+      "items": [
+        {
+          "name": "Climb up to Jakhoo Temple",
+          "image": {
+            "src": "/images/blogs/himachal-pradesh/shimla/jakhoo-temple-shimla.webp",
+            "alt": "Hanuman statue at Jakhoo Temple above Shimla",
+            "caption": "Jakhoo Temple"
+          },
+          "body": [
+            "Jakhoo Temple, on Shimla's highest hill, is dedicated to Hanuman and marked by a very tall statue of the god that is visible from across town. You can walk up a steep path from the Ridge (about 30 to 45 minutes), take a taxi or use the ropeway. The monkeys here are notorious for snatching glasses and phones, so keep them in your bag."
+          ],
+          "facts": {
+            "Time needed": "1.5–2 hours",
+            "Good to know": "Keep glasses and phones away from the monkeys"
+          }
+        },
+        {
+          "name": "Tour the Viceregal Lodge",
+          "body": [
+            "The Viceregal Lodge on Observatory Hill, completed in 1888, was the summer residence of the Viceroys. It is a grand Scottish baronial-style building where key discussions before Partition took place. Today it houses the Indian Institute of Advanced Study; guided tours of parts of the building and the lawns are offered at set times."
+          ],
+          "facts": {
+            "Time needed": "1.5 hours",
+            "Good for": "History lovers"
+          }
+        },
+        {
+          "name": "Ride the Kalka–Shimla toy train",
+          "body": [
+            "The narrow-gauge Kalka–Shimla Railway, opened in 1903, climbs through over 100 tunnels and hundreds of bridges on its way up the hills. It is part of the UNESCO-listed Mountain Railways of India. The full journey takes around five to six hours; if you are short on time, ride a section, for example between Shimla and Barog or Shoghi."
+          ],
+          "facts": {
+            "Time needed": "5–6 hours for the full ride",
+            "Good to know": "Book in advance in peak season",
+            "Good for": "Families, rail lovers"
+          }
+        },
+        {
+          "name": "Visit the State Museum and Annandale",
+          "body": [
+            "The Himachal State Museum has a good collection of Pahari miniature paintings, sculptures and textiles. Annandale, a large flat ground below the town, once hosted races and fairs and now has an army heritage museum."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day-trips",
+      "heading": "Day trips and snow",
+      "items": [
+        {
+          "name": "Go to Kufri",
+          "image": {
+            "src": "/images/blogs/himachal-pradesh/shimla/kufri-shimla.webp",
+            "alt": "Snow-covered slopes at Kufri near Shimla",
+            "caption": "Kufri"
+          },
+          "body": [
+            "Kufri, about 15 km from Shimla, is the most popular day trip, with pony rides to Mahasu Peak, an amusement park and the Himalayan Nature Park. In winter it is often the easiest place near Shimla to see snow. It can be crowded and commercial, so agree on pony prices in advance."
+          ],
+          "facts": {
+            "Time needed": "Half a day",
+            "Best time": "December to February for snow",
+            "Good for": "Families"
+          }
+        },
+        {
+          "name": "Relax in Mashobra and Naldehra",
+          "body": [
+            "Mashobra, about 12 km away, is a quieter area of apple orchards and forest with a few upscale stays. Naldehra, further on, has a golf course on a meadow ringed by deodars, said to have been laid out at the wish of Lord Curzon."
+          ]
+        },
+        {
+          "name": "Visit Chail",
+          "body": [
+            "Chail, about 45 km from Shimla, was the summer retreat of the Maharaja of Patiala. The Chail Palace is now a heritage hotel, and the town is known for a cricket ground often described as one of the highest in the world, in a cantonment area."
+          ],
+          "facts": {
+            "Time needed": "Full day"
+          }
+        },
+        {
+          "name": "Walk the Glen and Summer Hill",
+          "body": [
+            "The Glen, a forested valley below Shimla, and Summer Hill, a quiet suburb with the Himachal Pradesh University, offer shady walks away from the crowds. Chadwick Falls, near Summer Hill, flows best after the monsoon."
+          ],
+          "facts": {
+            "Good for": "Walkers"
+          }
+        }
+      ]
+    },
+    {
+      "id": "food-seasons",
+      "heading": "Food and seasons",
+      "items": [
+        {
+          "name": "Eat your way along the Mall",
+          "body": [
+            "Shimla's old cafés and restaurants on the Mall have served generations of visitors; the Indian Coffee House, run by a workers' cooperative, is a classic stop for coffee and dosa. Try Himachali dishes such as sidu, madra (chickpeas in yoghurt) and babru where available, and the local dham, a festive meal served on leaf plates."
+          ],
+          "facts": {
+            "Good for": "Food lovers"
+          }
+        },
+        {
+          "name": "Christmas and New Year on the Ridge",
+          "body": [
+            "Christ Church holds Christmas services, and the Ridge is lit up and crowded between Christmas and New Year, when many visitors hope for a white Christmas. Snow on these dates is possible but not guaranteed. Hotels fill up weeks ahead."
+          ],
+          "facts": {
+            "Best time": "Late December",
+            "Good to know": "Book early; heavy crowds"
+          }
+        },
+        {
+          "name": "Apple season in the hills",
+          "body": [
+            "From July to October, the orchards of Kotgarh, Thanedar and Narkanda, beyond Shimla, are harvested. The apple industry here was shaped by Samuel Evans Stokes, an American who introduced new varieties in the early 20th century. A drive to Narkanda and Thanedar makes a lovely day trip in the season."
+          ],
+          "facts": {
+            "Best time": "July to October"
+          }
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Families",
+      "text": "The toy train, Kufri, Jakhoo and the Ridge work well with children. Winter snow days are popular; book well in advance."
+    },
+    {
+      "who": "Couples",
+      "text": "Stay in Mashobra or a heritage hotel, walk the Mall at dusk and take a day trip to Chail."
+    },
+    {
+      "who": "History lovers",
+      "text": "The Viceregal Lodge, Gaiety Theatre, Christ Church and the State Museum give a full picture of Raj-era Shimla."
+    }
+  ],
+  "oneDay": "Walk the Ridge and Mall Road in the morning and visit Christ Church. Climb to Jakhoo Temple before lunch, then take a taxi to the Viceregal Lodge for the afternoon tour. Return to Lakkar Bazaar and the Mall for the evening.",
+  "tips": [
+    "Kalka is the railhead for the toy train; Chandigarh has the nearest major airport, about 115 km away.",
+    "The Mall and Ridge are closed to most vehicles; wear comfortable shoes for the slopes.",
+    "Winter roads can be icy; check conditions before driving to Kufri or beyond.",
+    "Water shortages sometimes affect Shimla in peak summer; use water carefully."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Shimla?",
+      "a": "Walk the Ridge and Mall Road, see Christ Church, visit Jakhoo Temple, ride the Kalka–Shimla toy train, tour the Viceregal Lodge, shop in Lakkar Bazaar and take day trips to Kufri, Mashobra and Chail."
+    },
+    {
+      "q": "How long is the Shimla toy train journey?",
+      "a": "The full Kalka to Shimla ride takes around five to six hours. You can also ride shorter sections."
+    },
+    {
+      "q": "Where can I see snow near Shimla?",
+      "a": "Kufri and Narkanda are the usual places for snow from December to February. Shimla town gets snow in some winters too."
+    },
+    {
+      "q": "How many days are enough for Shimla?",
+      "a": "Two days covers the town and Kufri; add a third for the toy train or Chail."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Kasauli",
+      "href": "/blog/things-to-do-in-kasauli",
+      "note": "a small cantonment town on the way up"
+    },
+    {
+      "name": "Things to do in Manali",
+      "href": "/blog/things-to-do-in-manali",
+      "note": "the classic next stop, about eight hours away"
+    },
+    {
+      "name": "Kinnaur",
+      "href": "/blog/kinnaur-travel-guide",
+      "note": "the road east to Spiti"
+    },
+    {
+      "name": "Things to do in Chandigarh",
+      "href": "/blog/things-to-do-in-chandigarh",
+      "note": "the nearest city and airport"
+    }
+  ],
+  "styles": [
+    "family-holidays",
+    "honeymoon",
+    "weekend-getaways"
+  ],
+  "metaDescription": "Things to do in Shimla: The Ridge and Mall Road, Christ Church, Jakhoo Temple, the Kalka–Shimla toy train, the Viceregal Lodge, Gaiety Theatre, Lakkar Bazaar, Kufri, Mashobra and more."
+}

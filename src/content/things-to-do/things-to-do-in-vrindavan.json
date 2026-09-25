@@ -1,0 +1,216 @@
+{
+  "slug": "things-to-do-in-vrindavan",
+  "destination": "Vrindavan",
+  "guide": "vrindavan-travel-guide",
+  "type": "pilgrimage town",
+  "title": "Things to Do in Vrindavan: Temples, Kirtan, Parikrama & Braj Festivals",
+  "seoTitle": "Things to Do in Vrindavan: Temples, Kirtan & Holi | Kudozz Club",
+  "description": "Things to do in Vrindavan: darshan at Banke Bihari, kirtan at ISKCON's Krishna Balaram Mandir, Prem Mandir's evening lights, Nidhivan, Radha Raman, the parikrama path, Keshi Ghat and flower Holi.",
+  "dek": "The town of Krishna's youth, with some 5,000 temples by popular count, chanting that never seems to stop and one of the most joyful Holi celebrations in India.",
+  "primaryKeyword": "things to do in Vrindavan",
+  "secondaryKeywords": [
+    "Vrindavan temples",
+    "Banke Bihari Temple",
+    "Prem Mandir",
+    "ISKCON Vrindavan",
+    "Vrindavan parikrama",
+    "Holi in Vrindavan"
+  ],
+  "searchIntent": "Devotees and travellers planning a day or weekend in Vrindavan, often combined with Mathura, looking for the key temples, timings and experiences.",
+  "tags": [
+    "Vrindavan",
+    "Uttar Pradesh",
+    "Krishna",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/uttar-pradesh/vrindavan/banke-bihari-temple-vrindavan.webp",
+    "alt": "Banke Bihari Temple in Vrindavan, Uttar Pradesh"
+  },
+  "intro": [
+    "Vrindavan lies on the Yamuna about 15 km north of Mathura in the Braj region, and is where, according to tradition, Krishna spent his youth among the cowherds and the gopis. It has been a centre of Krishna devotion (bhakti) for centuries, with temples built by Vaishnava saints from the 16th century onward and modern temples of movements such as ISKCON.",
+    "Almost everything to do in Vrindavan revolves around devotion: darshan at the main temples, kirtan (devotional singing), walking the parikrama path around the town and watching the evening aartis. Even for non-religious visitors, the atmosphere is unlike anywhere else. A full day covers the main temples; two days allows a slower pace and time for Mathura.",
+    "Temples close for part of the afternoon, so plan around morning and evening darshan."
+  ],
+  "quickAnswer": [
+    "Have darshan at Banke Bihari Temple",
+    "Join the kirtan at ISKCON's Krishna Balaram Mandir",
+    "See Prem Mandir lit up in the evening",
+    "Visit Nidhivan and the Radha Raman Temple",
+    "Watch the aarti at Keshi Ghat on the Yamuna",
+    "Walk the parikrama path around Vrindavan",
+    "Experience flower Holi at the temples",
+    "Visit the older Govind Dev and Madan Mohan temples"
+  ],
+  "sections": [
+    {
+      "id": "temples",
+      "heading": "The main temples",
+      "items": [
+        {
+          "name": "Have darshan at Banke Bihari",
+          "body": [
+            "Banke Bihari is Vrindavan's most famous temple, home to an image of Krishna installed in the 19th century and associated with the saint Swami Haridas. A curtain is drawn across the image every few minutes during darshan, a tradition explained by the belief that no devotee should gaze too long. The temple is small and can be extremely crowded, especially on weekends and festivals.",
+            "Keep bags light and valuables secure, and be ready for jostling crowds at peak times."
+          ],
+          "facts": {
+            "Time needed": "1 hour",
+            "Best time": "Weekday mornings",
+            "Good to know": "Very crowded on weekends and festivals"
+          }
+        },
+        {
+          "name": "Join the kirtan at ISKCON Vrindavan",
+          "body": [
+            "The Krishna Balaram Mandir, built by the International Society for Krishna Consciousness in 1975, is one of the easiest places for visitors to experience kirtan, with devotees from around the world singing and dancing during the aarti. The marble samadhi of its founder, A.C. Bhaktivedanta Swami Prabhupada, is next to the temple."
+          ],
+          "facts": {
+            "Time needed": "1 hour",
+            "Best time": "Morning or evening aarti",
+            "Good for": "Everyone"
+          }
+        },
+        {
+          "name": "See Prem Mandir lit up",
+          "body": [
+            "Prem Mandir, opened in 2012, is a large white marble temple with gardens showing scenes from Krishna's life. It is best visited in the evening, when the temple is illuminated in changing colours and there are fountain and light displays."
+          ],
+          "facts": {
+            "Time needed": "1–1.5 hours",
+            "Best time": "After dark",
+            "Good for": "Families"
+          }
+        },
+        {
+          "name": "Visit Nidhivan and Radha Raman",
+          "body": [
+            "Nidhivan is a grove of low, twisted tulsi trees where, according to local belief, Krishna and Radha perform the raas leela at night, which is why it is closed after dark. Nearby, the Radha Raman Temple, founded in 1542 by Gopal Bhatta Goswami, is one of the most revered in the town."
+          ],
+          "facts": {
+            "Time needed": "1 hour",
+            "Good to know": "Nidhivan is closed at night"
+          }
+        },
+        {
+          "name": "See the Govind Dev and Madan Mohan temples",
+          "body": [
+            "Govind Dev Temple, built in red sandstone in 1590 with support from Raja Man Singh of Amber, was once seven storeys high; its upper floors were destroyed in the 17th century, but its vaulted interior is still impressive. Madan Mohan, on a mound above the old riverbank, is among the oldest temples in Vrindavan."
+          ],
+          "facts": {
+            "Good for": "Architecture and history lovers"
+          }
+        }
+      ]
+    },
+    {
+      "id": "river-walks",
+      "heading": "The Yamuna, parikrama and daily life",
+      "items": [
+        {
+          "name": "Watch the aarti at Keshi Ghat",
+          "body": [
+            "Keshi Ghat, with its red sandstone pavilions on the Yamuna, is the town's most beautiful ghat. An evening aarti is held here, and boats can be hired for a short ride on the river at sunset."
+          ],
+          "facts": {
+            "Best time": "Sunset"
+          }
+        },
+        {
+          "name": "Walk the Vrindavan parikrama",
+          "body": [
+            "Devotees walk the parikrama path, roughly 10 km around the town, often barefoot and chanting. Walking part of it in the early morning, with pilgrims, cows and roadside shrines, is a good way to see everyday Vrindavan."
+          ],
+          "facts": {
+            "Time needed": "2–3 hours for the full circuit",
+            "Best time": "Early morning"
+          }
+        },
+        {
+          "name": "Eat prasad and Braj sweets",
+          "body": [
+            "The food in Vrindavan is vegetarian. Try the prasad at temples, kachori and jalebi in the morning, peda and rabri, and the thalis at ISKCON's restaurant, which is popular with visitors."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "festivals",
+      "heading": "Festivals",
+      "items": [
+        {
+          "name": "Phoolon ki Holi",
+          "body": [
+            "In the days before Holi, Vrindavan's temples celebrate with flowers rather than colour. At Banke Bihari, priests shower devotees with petals in a festival that is joyous and very crowded. The wider Braj Holi, including Lathmar Holi at Barsana and Nandgaon, runs over about a week."
+          ],
+          "facts": {
+            "When": "February or March, before Holi",
+            "Good to know": "Keep valuables at your hotel"
+          }
+        },
+        {
+          "name": "Janmashtami and Jhulan Yatra",
+          "body": [
+            "Krishna's birthday in August or September and the monsoon swing festival (Jhulan Yatra) bring special decorations and night-time celebrations to the temples."
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Families",
+      "text": "Prem Mandir's evening lights and gardens, ISKCON's kirtan and a boat at Keshi Ghat work well with children; avoid Banke Bihari at peak times with small children."
+    },
+    {
+      "who": "Devotees",
+      "text": "Morning darshan at Banke Bihari and Radha Raman, the parikrama, kirtan at ISKCON and an evening at Keshi Ghat make a full devotional day."
+    }
+  ],
+  "oneDay": "Have early darshan at Banke Bihari, then visit Radha Raman and Nidhivan. Mid-morning, join the kirtan and have lunch at ISKCON. After the temples reopen in the afternoon, see Govind Dev and walk to Keshi Ghat for sunset and the aarti, then finish at Prem Mandir to see it lit up.",
+  "tips": [
+    "Most temples close for a few hours in the afternoon; check timings for each.",
+    "Monkeys in Vrindavan are known to snatch glasses, phones and bags; keep them secure, especially near the old temples.",
+    "Wear easily removable shoes and modest clothing.",
+    "Mathura Junction, about 15 km away, is the nearest major railway station."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Vrindavan?",
+      "a": "Have darshan at Banke Bihari, join the kirtan at ISKCON, see Prem Mandir at night, visit Nidhivan and Radha Raman, watch the aarti at Keshi Ghat and walk part of the parikrama path."
+    },
+    {
+      "q": "How many days do you need in Vrindavan?",
+      "a": "One full day covers the main temples. Two days, including Mathura, allows a more relaxed visit."
+    },
+    {
+      "q": "What is the best time to visit Vrindavan?",
+      "a": "October to March for the weather, or around Holi and Janmashtami for the festivals, when crowds are very large."
+    },
+    {
+      "q": "Why is Nidhivan closed at night?",
+      "a": "Local belief holds that Krishna and Radha perform the raas leela in Nidhivan at night, so no one is allowed to stay after dark."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Mathura",
+      "href": "/blog/things-to-do-in-mathura",
+      "note": "Krishna's birthplace, 15 km south"
+    },
+    {
+      "name": "Govardhan",
+      "href": "/blog/govardhan-travel-guide",
+      "note": "the Govardhan Hill parikrama"
+    },
+    {
+      "name": "Things to do in Agra",
+      "href": "/blog/things-to-do-in-agra",
+      "note": "about 75 km south"
+    }
+  ],
+  "styles": [
+    "spiritual-tours",
+    "weekend-getaways"
+  ],
+  "metaDescription": "Things to do in Vrindavan: darshan at Banke Bihari, kirtan at ISKCON's Krishna Balaram Mandir, Prem Mandir's evening lights, Nidhivan, Radha Raman, the parikrama path and more."
+}

@@ -1,0 +1,404 @@
+{
+  "slug": "things-to-do-in-kerala",
+  "destination": "Kerala",
+  "guide": "kerala-backwaters-travel-guide",
+  "type": "state",
+  "title": "Things to Do in Kerala: Backwaters, Tea Hills, Beaches, Wildlife & Culture",
+  "seoTitle": "Things to Do in Kerala: Backwaters, Hills & More | Kudozz Club",
+  "description": "Things to do in Kerala: a houseboat night in Alleppey, village canoe rides, Munnar's tea hills, Periyar in Thekkady, Fort Kochi, Kathakali and kalaripayattu, Varkala's cliffs, Wayanad, Athirappilly Falls, Theyyam, snake boat races, Ayurveda and Kerala food.",
+  "dek": "A long, green strip between the Western Ghats and the Arabian Sea, with backwaters, tea-covered hills, spice forests and deep performing traditions.",
+  "primaryKeyword": "things to do in Kerala",
+  "secondaryKeywords": [
+    "places to visit in Kerala",
+    "Kerala houseboat",
+    "Kerala itinerary",
+    "Kerala for honeymoon",
+    "Kerala with family",
+    "Theyyam",
+    "Kerala backwaters"
+  ],
+  "searchIntent": "Honeymooners, families and first-time visitors planning a six- to ten-day Kerala trip and choosing which regions and experiences to include.",
+  "tags": [
+    "Kerala",
+    "Backwaters",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/kerala/kerala/kumarakom-vembanad-lake-houseboats.webp",
+    "alt": "Houseboats on Vembanad Lake near Kumarakom",
+    "caption": "Houseboats on Vembanad Lake"
+  },
+  "intro": [
+    "Kerala runs along India's south-west coast between the Western Ghats and the Arabian Sea. Its network of lagoons, lakes and canals, the backwaters, links villages and paddy fields that lie at or below sea level. Inland, the hills rise to tea and spice plantations and forests with elephants and tigers.",
+    "The things to do in Kerala are varied. Spend a night on a houseboat, see the tea estates of Munnar, look for elephants at Periyar, walk through the old port of Fort Kochi, watch Kathakali and kalaripayattu, relax on the cliffs of Varkala and in Wayanad's forests, and eat Kerala's rich, coconut-based cuisine. North Kerala's Theyyam and the snake boat races are among India's great festivals.",
+    "A first trip of six to eight days usually covers Kochi, Munnar, Thekkady and the backwaters, with beaches if time allows. September to March is the most comfortable time; the monsoon (June to August) is heavy but popular for Ayurveda."
+  ],
+  "quickAnswer": [
+    "Spend a night on a houseboat in Alleppey or Kumarakom",
+    "Take a canoe through village canals",
+    "Walk through Munnar's tea estates",
+    "See Periyar and spice plantations in Thekkady",
+    "Explore Fort Kochi and Mattancherry",
+    "Watch Kathakali and kalaripayattu",
+    "Relax on Varkala's cliffs",
+    "See Athirappilly Falls",
+    "Explore Wayanad's caves and peaks",
+    "Watch Theyyam in North Kerala"
+  ],
+  "sections": [
+    {
+      "id": "backwaters",
+      "heading": "Backwaters",
+      "items": [
+        {
+          "name": "Spend a night on a houseboat",
+          "body": [
+            "The kettuvallam, once a rice barge, has been converted into houseboats with bedrooms, a deck and a cook on board. A one-night cruise from Alappuzha (Alleppey) or Kumarakom glides through the backwaters, past villages, churches and paddy fields, with Kerala meals prepared on board. Boats moor at night, as cruising after dark is not permitted."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Alleppey",
+              "href": "/blog/things-to-do-in-alleppey"
+            }
+          ],
+          "facts": {
+            "Time needed": "One night",
+            "Best time": "September to March",
+            "Good for": "Couples, families"
+          }
+        },
+        {
+          "name": "Take a village canoe ride",
+          "image": {
+            "src": "/images/blogs/kerala/kerala/munroe-island-village-canal.webp",
+            "alt": "Narrow canal through a village on Munroe Island",
+            "caption": "Munroe Island canal"
+          },
+          "body": [
+            "Small canoes and shikaras reach narrow canals that houseboats cannot, past coir-making, fishing and toddy tapping. Munroe Island near Kollam and the canals around Alleppey and Kumarakom are the best places for this."
+          ],
+          "links": [
+            {
+              "label": "Munroe Island guide",
+              "href": "/blog/munroe-island-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Birdwatch at Kumarakom",
+          "body": [
+            "Kumarakom, on the eastern shore of Vembanad Lake, has a bird sanctuary with herons, egrets, cormorants and migrants in winter, and many lakeside resorts."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Kumarakom",
+              "href": "/blog/things-to-do-in-kumarakom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hills",
+      "heading": "Hills, spices and wildlife",
+      "items": [
+        {
+          "name": "Walk through Munnar's tea estates",
+          "body": [
+            "Munnar, at about 1,600 metres, is covered in tea estates. Visit the Tea Museum, Eravikulam National Park for the Nilgiri tahr, Mattupetty Dam and Top Station, and take a sunrise jeep ride to Kolukkumalai."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Munnar",
+              "href": "/blog/things-to-do-in-munnar"
+            }
+          ],
+          "facts": {
+            "Time needed": "2–3 days"
+          }
+        },
+        {
+          "name": "See Periyar and the spice gardens of Thekkady",
+          "body": [
+            "Thekkady is the gateway to Periyar Tiger Reserve, where a boat ride on the lake and nature walks offer chances to see elephants, gaur and birds. Spice plantation tours show cardamom, pepper, cinnamon and vanilla."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Thekkady",
+              "href": "/blog/things-to-do-in-thekkady"
+            }
+          ]
+        },
+        {
+          "name": "Explore Wayanad",
+          "image": {
+            "src": "/images/blogs/kerala/wayanad/edakkal-caves-wayanad.webp",
+            "alt": "Edakkal Caves carvings, Wayanad",
+            "caption": "Edakkal Caves"
+          },
+          "body": [
+            "Wayanad, in the north, has the Edakkal Caves with prehistoric carvings, Chembra Peak with its heart-shaped lake, Banasura Sagar Dam and wildlife sanctuaries."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Wayanad",
+              "href": "/blog/things-to-do-in-wayanad"
+            }
+          ]
+        },
+        {
+          "name": "See Athirappilly Falls",
+          "image": {
+            "src": "/images/blogs/kerala/athirappilly/athirappilly-falls-2.webp",
+            "alt": "Athirappilly Falls in full flow",
+            "caption": "Athirappilly Falls"
+          },
+          "body": [
+            "Athirappilly, about 70 km from Kochi, is Kerala's largest waterfall, a wide curtain of water on the Chalakudy river that is most powerful in and after the monsoon. Vazhachal Falls is nearby."
+          ],
+          "links": [
+            {
+              "label": "Athirappilly guide",
+              "href": "/blog/athirappilly-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Walk in the spice hills of Idukki",
+          "body": [
+            "Between Munnar and Thekkady, the Idukki hills are covered in cardamom and pepper gardens. Short walks with local guides show how spices grow under forest shade, and small farms sell produce directly."
+          ],
+          "facts": {
+            "Good for": "Families, food lovers"
+          }
+        }
+      ]
+    },
+    {
+      "id": "coast-culture",
+      "heading": "Coast and culture",
+      "items": [
+        {
+          "name": "Explore Fort Kochi",
+          "image": {
+            "src": "/images/blogs/kerala/kochi/chinese-fishing-nets-kochi.webp",
+            "alt": "Chinese fishing nets at Fort Kochi",
+            "caption": "Chinese fishing nets, Fort Kochi"
+          },
+          "body": [
+            "Fort Kochi and Mattancherry preserve layers of Portuguese, Dutch, British, Jewish and Arab history: the Chinese fishing nets, St Francis Church, the Paradesi Synagogue and Mattancherry Palace."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Kochi",
+              "href": "/blog/things-to-do-in-kochi"
+            }
+          ]
+        },
+        {
+          "name": "Watch Kathakali and kalaripayattu",
+          "body": [
+            "Kathakali, Kerala's classical dance-drama, uses elaborate make-up and costumes. Kochi and Thekkady have short shows for visitors, often with the make-up session open to watch. Kalaripayattu, one of the world's oldest martial arts, is demonstrated in the same towns."
+          ]
+        },
+        {
+          "name": "Relax at Varkala and Kovalam",
+          "body": [
+            "Varkala's beach lies below red laterite cliffs lined with cafés, and Kovalam near Thiruvananthapuram has crescent beaches and a lighthouse."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Varkala",
+              "href": "/blog/things-to-do-in-varkala"
+            },
+            {
+              "label": "Things to do in Kovalam",
+              "href": "/blog/things-to-do-in-kovalam"
+            }
+          ]
+        },
+        {
+          "name": "Watch Theyyam in North Kerala",
+          "body": [
+            "Theyyam is a ritual performance of North Kerala in which performers, in towering headdresses and vivid make-up, are believed to become deities. Performances are held at village shrines around Kannur and Kasaragod, mostly between December and April."
+          ],
+          "links": [
+            {
+              "label": "Kannur guide",
+              "href": "/blog/kannur-travel-guide"
+            }
+          ],
+          "facts": {
+            "Best time": "December to April"
+          }
+        },
+        {
+          "name": "See a snake boat race",
+          "body": [
+            "Long chundan vallams (snake boats), rowed by over a hundred oarsmen, race on the backwaters in the monsoon season. The Nehru Trophy Boat Race on Punnamada Lake in Alappuzha, usually in August, is the most famous."
+          ],
+          "facts": {
+            "Best time": "August to September"
+          }
+        }
+      ]
+    },
+    {
+      "id": "more",
+      "heading": "More of Kerala",
+      "items": [
+        {
+          "name": "See Thiruvananthapuram",
+          "body": [
+            "The capital has the Sree Padmanabhaswamy Temple (open to Hindus only, with a strict dress code), the Napier Museum and Sree Chitra Art Gallery with works by Raja Ravi Varma, and the Kuthiramalika Palace. Kovalam beach is 16 km away."
+          ]
+        },
+        {
+          "name": "Stay in Vagamon",
+          "body": [
+            "Vagamon, a quieter hill town between Kottayam and Idukki, has rolling meadows, pine forests and paragliding in season. It is a good alternative to busy Munnar."
+          ],
+          "links": [
+            {
+              "label": "Vagamon guide",
+              "href": "/blog/vagamon-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "See Bekal Fort",
+          "body": [
+            "Bekal Fort in Kasaragod, one of the largest forts in Kerala, is a keyhole-shaped laterite fort on the sea, with walkways along its walls and a beach below."
+          ],
+          "links": [
+            {
+              "label": "Bekal guide",
+              "href": "/blog/bekal-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Visit Guruvayur",
+          "body": [
+            "Guruvayur, near Thrissur, has one of Kerala's most important Krishna temples (open to Hindus only) and the Punnathur Kotta elephant sanctuary, where temple elephants are kept."
+          ],
+          "links": [
+            {
+              "label": "Guruvayur guide",
+              "href": "/blog/guruvayur-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Drive the coastal route",
+          "body": [
+            "The drive along the coast from Kochi to Kollam and Varkala passes fishing villages, churches, backwater bridges and beaches such as Marari and Andhakaranazhi. It is a good way to see everyday Kerala between sights."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wellness-food",
+      "heading": "Ayurveda, festivals and food",
+      "items": [
+        {
+          "name": "Take an Ayurveda treatment",
+          "body": [
+            "Kerala is the home of traditional Ayurvedic treatments. Choose centres certified by the state and, for longer programmes, one supervised by qualified doctors. The monsoon is traditionally considered the best season."
+          ]
+        },
+        {
+          "name": "Eat a sadya and Kerala seafood",
+          "body": [
+            "A sadya is a vegetarian feast served on a banana leaf, especially during Onam. Try appam and stew, puttu and kadala, karimeen pollichathu (pearl spot fish in banana leaf), Malabar biryani and parotta with beef or chicken fry."
+          ],
+          "facts": {
+            "Good for": "Food lovers"
+          }
+        },
+        {
+          "name": "Celebrate Onam or Thrissur Pooram",
+          "body": [
+            "Onam, the harvest festival in August or September, brings flower carpets, feasts and boat races. Thrissur Pooram, in April or May, is a spectacular temple festival with caparisoned elephants and percussion ensembles."
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Honeymooners",
+      "text": "Munnar, a private houseboat night and a few days at Varkala or Marari."
+    },
+    {
+      "who": "Families",
+      "text": "Kochi, Thekkady's spice gardens and Periyar boat ride, and a backwater cruise."
+    },
+    {
+      "who": "Culture seekers",
+      "text": "Kathakali in Kochi, Theyyam in Kannur and a temple festival."
+    },
+    {
+      "who": "Wellness travellers",
+      "text": "A week or two at a certified Ayurveda centre, ideally during the monsoon, with time at Varkala or Kovalam."
+    }
+  ],
+  "oneDay": "In Kochi, see the Chinese fishing nets and St Francis Church, then the Paradesi Synagogue and Mattancherry Palace. In the afternoon, take a short backwater cruise or ferry, and watch a Kathakali performance in the evening.",
+  "tips": [
+    "Kochi, Thiruvananthapuram, Kozhikode and Kannur have international airports.",
+    "Book houseboats through registered operators with good recent reviews.",
+    "Dress modestly at temples; many restrict entry to Hindus.",
+    "The monsoon brings very heavy rain; check for landslides in hill areas.",
+    "Carry light cotton clothes and an umbrella; showers can come at any time of year."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Kerala?",
+      "a": "Take a houseboat on the backwaters, visit Munnar's tea estates and Periyar, explore Fort Kochi, watch Kathakali, relax at Varkala, see Athirappilly Falls and experience Theyyam or a snake boat race."
+    },
+    {
+      "q": "How many days are enough for Kerala?",
+      "a": "Six to eight days for Kochi, Munnar, Thekkady and the backwaters; ten or more to add beaches or North Kerala."
+    },
+    {
+      "q": "What is the best time to visit Kerala?",
+      "a": "September to March. The monsoon is popular for Ayurveda and boat races."
+    },
+    {
+      "q": "Is Kerala good for a honeymoon?",
+      "a": "Yes. Hill resorts in Munnar, a private houseboat and quiet beaches make it one of India's favourite honeymoon destinations."
+    },
+    {
+      "q": "Which is better for a first Kerala trip, the hills or the backwaters?",
+      "a": "Most first-time visitors do both: two nights in Munnar or Thekkady, one night on a houseboat and time in Kochi. Add a beach if you have more days."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Kochi",
+      "href": "/blog/things-to-do-in-kochi",
+      "note": "the gateway city"
+    },
+    {
+      "name": "Things to do in Munnar",
+      "href": "/blog/things-to-do-in-munnar",
+      "note": "tea hills"
+    },
+    {
+      "name": "Things to do in Alleppey",
+      "href": "/blog/things-to-do-in-alleppey",
+      "note": "houseboats"
+    },
+    {
+      "name": "Things to do in Kanyakumari",
+      "href": "/blog/things-to-do-in-kanyakumari",
+      "note": "India's southern tip"
+    }
+  ],
+  "styles": [
+    "honeymoon",
+    "family-holidays",
+    "weekend-getaways"
+  ],
+  "metaDescription": "Things to do in Kerala: a houseboat night in Alleppey, village canoe rides, Munnar's tea hills, Periyar in Thekkady, Fort Kochi, Kathakali and kalaripayattu, Varkala's cliffs and more."
+}

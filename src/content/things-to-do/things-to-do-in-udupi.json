@@ -1,0 +1,250 @@
+{
+  "slug": "things-to-do-in-udupi",
+  "destination": "Udupi",
+  "guide": "udupi-travel-guide",
+  "type": "temple town",
+  "title": "Things to Do in Udupi: Sri Krishna Matha, Malpe & St Mary's Island",
+  "seoTitle": "Things to Do in Udupi: Temples, Beaches & Food | Kudozz Club",
+  "description": "Things to do in Udupi: Sri Krishna Matha and the Car Street, the Ashta Mathas and Paryaya festival, Malpe beach, the boat to St Mary's Island, Kaup lighthouse, Delta beach, Maravanthe, Manipal's heritage village and Udupi's famous vegetarian food.",
+  "dek": "A temple town on the Karnataka coast, home of the 13th-century Krishna Matha, the cuisine that spread Udupi restaurants across India, and basalt islands off its beaches.",
+  "primaryKeyword": "things to do in Udupi",
+  "secondaryKeywords": [
+    "places to visit in Udupi",
+    "Sri Krishna Matha",
+    "St Mary's Island",
+    "Malpe beach",
+    "Kaup beach",
+    "Udupi food",
+    "Maravanthe"
+  ],
+  "searchIntent": "Pilgrims and travellers planning one or two days in Udupi, often combined with Mangaluru, Murudeshwar or Gokarna.",
+  "tags": [
+    "Udupi",
+    "Karnataka",
+    "Temple Town",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/karnataka/udupi/st-mary-s-island-udupi.webp",
+    "alt": "Basalt rock columns on St Mary's Island near Udupi",
+    "caption": "St Mary's Island"
+  },
+  "intro": [
+    "Udupi, on the coast of Karnataka about 60 km north of Mangaluru, grew around the Sri Krishna Matha, founded in the 13th century by the philosopher Madhvacharya. Eight mathas (monasteries) take turns to manage worship at the temple, and the town remains an important pilgrimage centre.",
+    "Udupi also gave India a style of vegetarian cooking and the Udupi restaurant, found from Mumbai to Delhi. The things to do in Udupi include the temple and its Car Street, beaches at Malpe, Kaup and Delta, a boat trip to the unusual basalt rocks of St Mary's Island, and the university town of Manipal.",
+    "One to two days is enough. October to March is the best time; St Mary's Island boats run only in the dry season."
+  ],
+  "quickAnswer": [
+    "Visit Sri Krishna Matha and see the deity through the Kanakana Kindi",
+    "Walk around the Car Street and the Ashta Mathas",
+    "See the Anantheshwara and Chandramouleshwara temples",
+    "Relax on Malpe beach",
+    "Take a boat to St Mary's Island",
+    "See the lighthouse at Kaup beach",
+    "Visit Delta beach at Kodi Bengre",
+    "Drive the Maravanthe coastal road",
+    "See the Hasta Shilpa Heritage Village in Manipal",
+    "Eat an Udupi meal and masala dosa"
+  ],
+  "sections": [
+    {
+      "id": "temple",
+      "heading": "Sri Krishna Matha",
+      "items": [
+        {
+          "name": "Visit Sri Krishna Matha",
+          "image": {
+            "src": "/images/blogs/karnataka/udupi/sri-krishna-matha-udupi.webp",
+            "alt": "Sri Krishna Matha, Udupi",
+            "caption": "Sri Krishna Matha"
+          },
+          "body": [
+            "At Sri Krishna Matha, devotees view the idol of Krishna through the Kanakana Kindi, a small window with nine holes. Tradition says Krishna turned to face the poet-saint Kanakadasa, who was not allowed inside. The matha runs a large kitchen that serves free meals to thousands of visitors daily."
+          ],
+          "facts": {
+            "Time needed": "1–2 hours",
+            "Best time": "Early morning",
+            "Good to know": "Dress codes apply"
+          }
+        },
+        {
+          "name": "Walk the Car Street and Ashta Mathas",
+          "body": [
+            "Around the temple, the Car Street (Ratha Beedi) is lined with the eight mathas, the Anantheshwara and Chandramouleshwara temples and shops selling brass lamps and religious items. Temple cars are pulled here during festivals."
+          ]
+        },
+        {
+          "name": "See the Paryaya festival",
+          "body": [
+            "Every two years, in January, management of the temple passes from one matha to the next in the Paryaya festival, with processions, music and a festive atmosphere across town."
+          ],
+          "facts": {
+            "Best time": "January of Paryaya years"
+          }
+        }
+      ]
+    },
+    {
+      "id": "beaches",
+      "heading": "Beaches and islands",
+      "items": [
+        {
+          "name": "Relax on Malpe beach",
+          "image": {
+            "src": "/images/blogs/karnataka/udupi/malpe-beach-udupi.webp",
+            "alt": "Malpe beach, Udupi",
+            "caption": "Malpe beach"
+          },
+          "body": [
+            "Malpe, about 6 km from Udupi, is a busy fishing harbour and a wide beach with water sports, a sea walk and food stalls. It is the departure point for boats to St Mary's Island."
+          ],
+          "facts": {
+            "Best time": "Sunset",
+            "Good for": "Families"
+          }
+        },
+        {
+          "name": "Take a boat to St Mary's Island",
+          "body": [
+            "St Mary's Island, a short boat ride from Malpe, is known for its columnar basalt formations, formed by volcanic activity millions of years ago, and is a National Geological Monument. There is no shade or food on the island; carry water and a hat. Boats run from about October to May, depending on the sea."
+          ],
+          "facts": {
+            "Time needed": "2–3 hours",
+            "Best time": "October to May",
+            "Good to know": "No boats in the monsoon"
+          }
+        },
+        {
+          "name": "See the lighthouse at Kaup",
+          "body": [
+            "Kaup beach, about 12 km south of Udupi, has a lighthouse on the rocks that visitors can often climb for views of the coast, and a clean, quiet beach."
+          ],
+          "facts": {
+            "Best time": "Late afternoon"
+          }
+        },
+        {
+          "name": "Visit Delta beach",
+          "body": [
+            "Delta beach at Kodi Bengre is where the Swarna and Sita rivers meet the sea, with the river on one side and the ocean on the other."
+          ]
+        },
+        {
+          "name": "Drive the Maravanthe coastal road",
+          "body": [
+            "At Maravanthe, about 50 km north, the highway runs on a narrow strip between the Arabian Sea and the Souparnika river, one of the most scenic drives on the coast."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "manipal-food",
+      "heading": "Manipal and food",
+      "items": [
+        {
+          "name": "See the Hasta Shilpa Heritage Village",
+          "body": [
+            "In Manipal, the Hasta Shilpa Heritage Village is a collection of traditional houses and buildings from across India, rescued and reassembled with their furnishings and crafts. Visits are by appointment or guided tour."
+          ],
+          "facts": {
+            "Good for": "Architecture lovers"
+          }
+        },
+        {
+          "name": "Watch sunset at Manipal End Point",
+          "body": [
+            "End Point, at the edge of the Manipal plateau, overlooks the Swarna river valley and is a popular sunset spot with students."
+          ]
+        },
+        {
+          "name": "Eat an Udupi meal",
+          "body": [
+            "Udupi cuisine is vegetarian, often without onion and garlic in temple cooking, and uses coconut, jaggery and local vegetables. Try a banana-leaf meal with saaru, huli, pathrode and payasa, as well as masala dosa and goli baje at local restaurants."
+          ],
+          "facts": {
+            "Good for": "Food lovers"
+          }
+        }
+      ]
+    },
+    {
+      "id": "nearby",
+      "heading": "Nearby temples and nature",
+      "items": [
+        {
+          "name": "Visit Kollur Mookambika",
+          "body": [
+            "The Kollur Mookambika Temple, about 80 km north at the foot of the Kodachadri hills, is an important Devi temple visited by pilgrims from across South India."
+          ]
+        },
+        {
+          "name": "See Kudlu Falls",
+          "body": [
+            "Kudlu Falls, near Agumbe in the Western Ghats, is reached by a forest walk and is best after the monsoon. Agumbe, one of the wettest places in South India, is known for king cobras and rainforest."
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Pilgrims",
+      "text": "Sri Krishna Matha at dawn, the Car Street temples and Kollur Mookambika."
+    },
+    {
+      "who": "Families",
+      "text": "Malpe beach, St Mary's Island and Kaup lighthouse."
+    },
+    {
+      "who": "Food lovers",
+      "text": "A temple meal, an Udupi thali and masala dosa at an old restaurant."
+    }
+  ],
+  "oneDay": "Visit Sri Krishna Matha early and walk the Car Street. After breakfast, drive to Malpe and take a boat to St Mary's Island. Have lunch in Udupi, then visit Kaup beach and its lighthouse for the late afternoon.",
+  "tips": [
+    "Udupi railway station is on the Konkan Railway; Mangaluru airport is about an hour away.",
+    "Men may be asked to remove shirts inside the temple.",
+    "St Mary's Island boats do not run from June to September.",
+    "Carry water and sun protection for the island."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Udupi?",
+      "a": "Visit Sri Krishna Matha and the Car Street, relax on Malpe beach, take a boat to St Mary's Island, see Kaup lighthouse and Delta beach, and eat Udupi food."
+    },
+    {
+      "q": "When do boats run to St Mary's Island?",
+      "a": "From about October to May, depending on sea conditions. They stop during the monsoon."
+    },
+    {
+      "q": "How many days are enough for Udupi?",
+      "a": "One to two days."
+    },
+    {
+      "q": "What is Udupi famous for?",
+      "a": "The Sri Krishna Matha, Udupi vegetarian cuisine and masala dosa, and nearby beaches and islands."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Mangalore",
+      "href": "/blog/things-to-do-in-mangalore",
+      "note": "about an hour south"
+    },
+    {
+      "name": "Things to do in Gokarna",
+      "href": "/blog/things-to-do-in-gokarna",
+      "note": "beaches and temples, about three hours north"
+    },
+    {
+      "name": "Things to do in Chikmagalur",
+      "href": "/blog/things-to-do-in-chikmagalur",
+      "note": "up the ghats"
+    }
+  ],
+  "styles": [
+    "spiritual-tours",
+    "family-holidays"
+  ],
+  "metaDescription": "Things to do in Udupi: Sri Krishna Matha and the Car Street, the Ashta Mathas and Paryaya festival, Malpe beach, the boat to St Mary's Island, Kaup lighthouse, Delta beach and more."
+}

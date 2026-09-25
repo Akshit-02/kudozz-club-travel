@@ -1,0 +1,271 @@
+{
+  "slug": "things-to-do-in-mahabalipuram",
+  "destination": "Mahabalipuram",
+  "guide": "mahabalipuram-travel-guide",
+  "type": "heritage town",
+  "title": "Things to Do in Mahabalipuram: Shore Temple, Rock Carvings & Beach Days",
+  "seoTitle": "Things to Do in Mahabalipuram: Temples & Beaches | Kudozz Club",
+  "description": "Things to do in Mahabalipuram: the Shore Temple, Pancha Rathas, Arjuna's Penance, Krishna's Butterball, the cave temples, the lighthouse, the Tiger Cave, stone-carving workshops, the dance festival, surfing and seafood.",
+  "dek": "A Pallava port on the Tamil Nadu coast where 7th- and 8th-century sculptors carved temples, caves and giant reliefs directly from the granite.",
+  "primaryKeyword": "things to do in Mahabalipuram",
+  "secondaryKeywords": [
+    "Mamallapuram",
+    "Shore Temple",
+    "Pancha Rathas",
+    "Arjuna's Penance",
+    "Krishna's Butterball",
+    "Mahabalipuram dance festival",
+    "surfing Mahabalipuram"
+  ],
+  "searchIntent": "Day-trippers from Chennai and travellers on the East Coast Road planning one or two days in Mahabalipuram.",
+  "tags": [
+    "Mahabalipuram",
+    "Tamil Nadu",
+    "Heritage",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/tamil-nadu/mahabalipuram/pancha-rathas-rock-cut-monuments-mahabalipuram.webp",
+    "alt": "Pancha Rathas monolithic temples, Mahabalipuram",
+    "caption": "Pancha Rathas"
+  },
+  "intro": [
+    "Mahabalipuram, also called Mamallapuram, was a busy port of the Pallava kings. In the 7th and 8th centuries, especially under Narasimhavarman I (Mamalla) and his successors, its sculptors created cave temples, monolithic shrines, huge open-air reliefs and structural temples. The Group of Monuments at Mahabalipuram was listed by UNESCO in 1984.",
+    "The things to do in Mahabalipuram are mostly within walking or cycling distance: the Shore Temple by the sea, the Pancha Rathas, Arjuna's Penance, Krishna's Butterball and the cave temples, the lighthouse and the Tiger Cave. Stone carvers still work in the town, and the beach, seafood and surfing at nearby Kovalam (Covelong) make it more than a heritage stop.",
+    "One full day covers the monuments; two days lets you relax. November to February is the best time; afternoons are hot."
+  ],
+  "quickAnswer": [
+    "See the Shore Temple",
+    "Visit the Pancha Rathas",
+    "See the Arjuna's Penance relief",
+    "Watch Krishna's Butterball balance on the slope",
+    "Explore the Varaha and Mahishasuramardini caves",
+    "Climb the lighthouse",
+    "Visit the Tiger Cave at Saluvankuppam",
+    "Watch stone carvers at work",
+    "Attend the Mamallapuram Dance Festival",
+    "Surf or eat seafood by the beach"
+  ],
+  "sections": [
+    {
+      "id": "monuments",
+      "heading": "The monuments",
+      "items": [
+        {
+          "name": "See the Shore Temple",
+          "image": {
+            "src": "/images/blogs/tamil-nadu/mahabalipuram/shore-temple-pyramidal-tower-mahabalipuram.webp",
+            "alt": "Shore Temple by the sea, Mahabalipuram",
+            "caption": "Shore Temple"
+          },
+          "body": [
+            "The Shore Temple, built in the early 8th century, is one of the oldest structural stone temples in South India. Its two shrines to Shiva and a reclining Vishnu stand right by the sea, with rows of Nandi figures on the walls. It is especially beautiful at sunrise and when lit in the evening."
+          ],
+          "facts": {
+            "Time needed": "1 hour",
+            "Best time": "Early morning",
+            "Good for": "Everyone"
+          }
+        },
+        {
+          "name": "Visit the Pancha Rathas",
+          "body": [
+            "The Pancha Rathas are five monolithic shrines, each carved from a single rock and named after the Pandavas and Draupadi. Each shows a different style of temple architecture, and life-size elephant, lion and Nandi sculptures stand among them. They were never consecrated."
+          ],
+          "facts": {
+            "Time needed": "1 hour"
+          }
+        },
+        {
+          "name": "See Arjuna's Penance",
+          "image": {
+            "src": "/images/blogs/tamil-nadu/mahabalipuram/arjuna-s-penance-mahabalipuram.webp",
+            "alt": "Arjuna's Penance relief carved on a rock face",
+            "caption": "Arjuna's Penance"
+          },
+          "body": [
+            "Arjuna's Penance, also called the Descent of the Ganges, is one of the largest open-air rock reliefs in the world, carved on two huge boulders. It shows gods, sages, animals, elephants and a natural cleft representing the river. Look for the playful cat imitating an ascetic."
+          ],
+          "facts": {
+            "Time needed": "30–45 minutes"
+          }
+        },
+        {
+          "name": "See Krishna's Butterball",
+          "body": [
+            "Krishna's Butterball is a huge granite boulder balanced on a slope, seemingly about to roll. It has stayed put for centuries and is a favourite photo spot."
+          ]
+        },
+        {
+          "name": "Explore the cave temples",
+          "body": [
+            "Rock-cut mandapas such as the Varaha Cave, the Krishna Mandapa and the Mahishasuramardini Cave have finely carved panels of Vishnu's boar avatar, Krishna lifting Govardhan hill and Durga battling the buffalo demon."
+          ]
+        },
+        {
+          "name": "Climb the lighthouse",
+          "body": [
+            "The lighthouse on the hill above the caves can be climbed for views over the town, monuments and sea. Next to it, the Olakkannesvara Temple once served as an early lighthouse."
+          ],
+          "facts": {
+            "Best time": "Late afternoon"
+          }
+        }
+      ]
+    },
+    {
+      "id": "beyond",
+      "heading": "Beyond the main group",
+      "items": [
+        {
+          "name": "Visit the Tiger Cave",
+          "body": [
+            "The Tiger Cave at Saluvankuppam, about 5 km north, is a rock-cut shrine framed by carved heads of yalis (mythical lions). It is set among trees near the beach and is usually quiet."
+          ],
+          "facts": {
+            "Time needed": "45 minutes"
+          }
+        },
+        {
+          "name": "Watch stone carvers at work",
+          "body": [
+            "Mahabalipuram's stone-carving tradition is still alive, and workshops along the main roads produce sculptures for temples and homes. The Government College of Architecture and Sculpture trains carvers in traditional techniques."
+          ],
+          "facts": {
+            "Good for": "Art lovers"
+          }
+        },
+        {
+          "name": "See the ASI museum",
+          "body": [
+            "A small site museum run by the Archaeological Survey of India displays sculptures and fragments found around the site."
+          ]
+        },
+        {
+          "name": "Visit Tirukalukundram",
+          "body": [
+            "Tirukalukundram, about 15 km inland, has a Shiva temple on a hilltop reached by steps, with views over the countryside and a large temple tank below."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beach",
+      "heading": "Beach, festivals and food",
+      "items": [
+        {
+          "name": "Surf at Kovalam (Covelong)",
+          "body": [
+            "Kovalam (Covelong), about 20 km north, and Mahabalipuram itself have surf schools with gentle waves for beginners. Lessons and board rental are available."
+          ],
+          "facts": {
+            "Best time": "Year-round, best from March to October",
+            "Good for": "Active travellers"
+          }
+        },
+        {
+          "name": "Attend the Mamallapuram Dance Festival",
+          "body": [
+            "The Mamallapuram Dance Festival, held in December and January, brings Bharatanatyam, Kuchipudi, Kathakali and folk dance performances to an open-air stage in front of Arjuna's Penance."
+          ],
+          "facts": {
+            "Best time": "December to January"
+          }
+        },
+        {
+          "name": "Eat seafood by the beach",
+          "body": [
+            "Beach-side restaurants serve freshly caught fish, prawns and crab, grilled or cooked in South Indian styles. Agree prices before ordering."
+          ],
+          "facts": {
+            "Good for": "Food lovers"
+          }
+        }
+      ]
+    },
+    {
+      "id": "seasons",
+      "heading": "By season",
+      "items": [
+        {
+          "name": "Winter (November to February)",
+          "body": [
+            "The best time for sightseeing and the Dance Festival. Mornings are cool and the light on the stone is lovely."
+          ]
+        },
+        {
+          "name": "Summer and monsoon (March to October)",
+          "body": [
+            "Hot afternoons, but surfing is good from March to October. The north-east monsoon brings heavy rain in October and November."
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "History lovers",
+      "text": "Hire a guide to read the reliefs, and visit the Tiger Cave and ASI museum."
+    },
+    {
+      "who": "Families",
+      "text": "The Butterball, lighthouse, Pancha Rathas and the Crocodile Bank on the way from Chennai."
+    },
+    {
+      "who": "Couples",
+      "text": "Sunrise at the Shore Temple, a beach resort and seafood dinners."
+    }
+  ],
+  "oneDay": "See the Shore Temple at sunrise, then the Pancha Rathas. After breakfast, visit Arjuna's Penance, Krishna's Butterball and the cave temples. Rest through the heat, climb the lighthouse in the late afternoon and end with a seafood dinner by the beach.",
+  "tips": [
+    "Mahabalipuram is about 55 km from Chennai; buses and taxis run along the East Coast Road.",
+    "A single ASI ticket covers the Shore Temple and Pancha Rathas; keep it handy.",
+    "Rent a bicycle to move between monuments.",
+    "Carry water and a hat; there is little shade.",
+    "Visit the Shore Temple and Pancha Rathas early; the site is busiest late morning."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Mahabalipuram?",
+      "a": "See the Shore Temple, Pancha Rathas and Arjuna's Penance, Krishna's Butterball and the cave temples, climb the lighthouse, visit the Tiger Cave, watch stone carvers and enjoy the beach."
+    },
+    {
+      "q": "Can Mahabalipuram be done as a day trip from Chennai?",
+      "a": "Yes. It is about one and a half hours away. Start early to see the monuments before the heat."
+    },
+    {
+      "q": "When is the Mamallapuram Dance Festival?",
+      "a": "In December and January."
+    },
+    {
+      "q": "How many days are enough for Mahabalipuram?",
+      "a": "One day for the monuments; two to relax and enjoy the beach."
+    },
+    {
+      "q": "Is Mahabalipuram a UNESCO World Heritage Site?",
+      "a": "Yes. The Group of Monuments at Mahabalipuram was listed by UNESCO in 1984."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Chennai",
+      "href": "/blog/things-to-do-in-chennai",
+      "note": "about 55 km north"
+    },
+    {
+      "name": "Things to do in Pondicherry",
+      "href": "/blog/things-to-do-in-pondicherry",
+      "note": "about two hours south"
+    },
+    {
+      "name": "Kanchipuram",
+      "href": "/blog/kanchipuram-travel-guide",
+      "note": "another Pallava capital"
+    }
+  ],
+  "styles": [
+    "family-holidays",
+    "weekend-getaways"
+  ],
+  "metaDescription": "Things to do in Mahabalipuram: the Shore Temple, Pancha Rathas, Arjuna's Penance, Krishna's Butterball, the cave temples, the lighthouse, the Tiger Cave and more."
+}

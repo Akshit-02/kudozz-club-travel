@@ -1,0 +1,252 @@
+{
+  "slug": "things-to-do-in-vadodara",
+  "destination": "Vadodara",
+  "guide": "vadodara-travel-guide",
+  "type": "city",
+  "title": "Things to Do in Vadodara: Laxmi Vilas Palace, Champaner-Pavagadh & Navratri",
+  "seoTitle": "Things to Do in Vadodara: Palaces, Champaner & Garba | Kudozz Club",
+  "description": "Things to do in Vadodara: Laxmi Vilas Palace and the Fateh Singh Museum's Raja Ravi Varma paintings, the Baroda Museum in Sayaji Baug, the EME Temple, Sursagar Lake, the UNESCO-listed Champaner-Pavagadh park, the Statue of Unity and Navratri garba.",
+  "dek": "The former capital of the Gaekwads, a cultured city of palaces, museums and gardens, with a UNESCO site and the world's tallest statue within reach.",
+  "primaryKeyword": "things to do in Vadodara",
+  "secondaryKeywords": [
+    "places to visit in Vadodara",
+    "Laxmi Vilas Palace",
+    "Champaner Pavagadh",
+    "Baroda Museum",
+    "Vadodara Navratri",
+    "Statue of Unity from Vadodara"
+  ],
+  "searchIntent": "Travellers spending one or two days in Vadodara, often with Champaner and the Statue of Unity.",
+  "tags": [
+    "Vadodara",
+    "Gujarat",
+    "City",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/gujarat/vadodara/champaner-pavagadh-archaeological-park-vadodara.webp",
+    "alt": "Monuments of the Champaner-Pavagadh Archaeological Park",
+    "caption": "Champaner-Pavagadh"
+  },
+  "intro": [
+    "Vadodara (Baroda) was the capital of the Gaekwad rulers of the Marathas. Maharaja Sayajirao Gaekwad III (reigned 1875–1939) made it one of India's most progressive princely states, founding schools, libraries, a university and museums, and building grand palaces.",
+    "The things to do in Vadodara include the enormous Laxmi Vilas Palace and its museum of paintings by Raja Ravi Varma, the Baroda Museum in Sayaji Baug, temples and lakes, and the city's famous Navratri garba. Nearby are the ruined Sultanate city of Champaner and the hill shrine of Pavagadh, a UNESCO World Heritage Site, and the Statue of Unity.",
+    "One or two days is enough. October to February is the most comfortable time; Navratri, in September or October, is the highlight of the year."
+  ],
+  "quickAnswer": [
+    "Tour Laxmi Vilas Palace",
+    "See Raja Ravi Varma paintings at the Fateh Singh Museum",
+    "Visit the Baroda Museum and Sayaji Baug",
+    "See the EME Temple",
+    "Walk around Sursagar Lake",
+    "Visit Kirti Mandir and Nyay Mandir",
+    "Explore Champaner-Pavagadh",
+    "Ride the ropeway to Pavagadh",
+    "Go to the Statue of Unity",
+    "Dance garba at Navratri"
+  ],
+  "sections": [
+    {
+      "id": "palaces",
+      "heading": "Palaces and museums",
+      "items": [
+        {
+          "name": "Tour Laxmi Vilas Palace",
+          "body": [
+            "Laxmi Vilas Palace, completed in 1890 for Sayajirao Gaekwad III, is often described as one of the largest private residences ever built, about four times the size of Buckingham Palace. Its Indo-Saracenic halls have mosaics, stained glass and a Durbar Hall; an audio tour covers the public rooms, and the grounds include a golf course.",
+            "Look for the Venetian mosaics in the Durbar Hall, the bronze and marble sculptures by the Italian artist Augusto Felici, and the carefully kept gardens. Parts of the palace are still the royal family's residence and are closed to visitors."
+          ],
+          "image": {
+            "src": "/images/blogs/gujarat/vadodara/laxmi-vilas-palace-vadodara.webp",
+            "alt": "Laxmi Vilas Palace, Vadodara",
+            "caption": "Laxmi Vilas Palace"
+          },
+          "facts": {
+            "Time needed": "1.5–2 hours"
+          }
+        },
+        {
+          "name": "See the Fateh Singh Museum",
+          "body": [
+            "The Maharaja Fateh Singh Museum, in a former royal school building within the palace grounds, has an outstanding collection of paintings by Raja Ravi Varma, commissioned by the Gaekwads, along with European art and sculptures."
+          ],
+          "facts": {
+            "Good for": "Art lovers"
+          }
+        },
+        {
+          "name": "Visit the Baroda Museum and Sayaji Baug",
+          "body": [
+            "The Baroda Museum and Picture Gallery, in Sayaji Baug, has sculptures, an Egyptian mummy, a blue whale skeleton and European paintings. Sayaji Baug itself is a large park with a zoo, planetarium and toy train."
+          ],
+          "facts": {
+            "Good for": "Families"
+          }
+        },
+        {
+          "name": "See Kirti Mandir and Nyay Mandir",
+          "body": [
+            "Kirti Mandir, the Gaekwads' cenotaph, has murals by the artist Nandalal Bose. Nyay Mandir, the old court building, is a fine Indo-Saracenic structure."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "city",
+      "heading": "Temples and lakes",
+      "items": [
+        {
+          "name": "See the EME Temple",
+          "body": [
+            "The EME Temple, built by the army's Electrical and Mechanical Engineers corps, is a geodesic-dome temple clad in aluminium, dedicated to Shiva as Dakshinamurthy."
+          ]
+        },
+        {
+          "name": "Walk around Sursagar Lake",
+          "body": [
+            "Sursagar Lake, in the city centre, has a large gold-coloured Shiva statue standing in the water, lit up at night."
+          ],
+          "facts": {
+            "Best time": "Evening"
+          }
+        },
+        {
+          "name": "See the Sevasi stepwell and Mandvi gate",
+          "body": [
+            "The Sevasi stepwell, on the edge of the city, is a 16th-century vav. Mandvi, an old gate pavilion in the market, is at the heart of the walled city."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day-trips",
+      "heading": "Champaner and beyond",
+      "items": [
+        {
+          "name": "Explore Champaner-Pavagadh",
+          "body": [
+            "The Champaner-Pavagadh Archaeological Park, about 50 km away, preserves the 15th- and 16th-century capital of Sultan Mahmud Begada, with the magnificent Jami Masjid, other mosques, walls, stepwells and palaces. It became a UNESCO World Heritage Site in 2004.",
+            "Among the highlights are the Jami Masjid, with its carved minarets and 172 pillars, the Saher ki Masjid, Kevda Masjid and Helical stepwell. The park combines Hindu and Islamic architecture from before the Mughal era."
+          ],
+          "facts": {
+            "Time needed": "Full day"
+          }
+        },
+        {
+          "name": "Ride the ropeway to Pavagadh",
+          "body": [
+            "Pavagadh hill rises above Champaner, with the Kalika Mata Temple, an important Shakti shrine, at the top. A ropeway runs up most of the way, followed by steps. It is very busy during Navratri."
+          ]
+        },
+        {
+          "name": "Go to the Statue of Unity",
+          "body": [
+            "The Statue of Unity, portraying Sardar Vallabhbhai Patel, stands 182 metres tall near the Sardar Sarovar Dam at Kevadia, about 90 km away. Its viewing gallery, the valley of flowers, the jungle safari park and evening light shows make it a full-day trip."
+          ],
+          "links": [
+            {
+              "label": "Statue of Unity guide",
+              "href": "/blog/statue-of-unity-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Walk in Jambughoda",
+          "body": [
+            "Jambughoda Wildlife Sanctuary, about 80 km away, has forests, lakes and heritage stays in a former palace."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "heading": "Culture and food",
+      "items": [
+        {
+          "name": "Dance garba at Navratri",
+          "body": [
+            "Vadodara is often called the cultural capital of Gujarat, and its Navratri garba, with live traditional music and thousands of dancers, is among the most famous in the state. Many grounds welcome visitors with passes."
+          ],
+          "facts": {
+            "Best time": "September or October"
+          }
+        },
+        {
+          "name": "Eat Vadodara's snacks",
+          "body": [
+            "Try sev usal, a spicy pea curry topped with sev, lilo chevdo, and pedas from old sweet shops."
+          ],
+          "facts": {
+            "Good for": "Food lovers"
+          }
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "History lovers",
+      "text": "Laxmi Vilas, the Fateh Singh Museum and a day at Champaner."
+    },
+    {
+      "who": "Families",
+      "text": "Sayaji Baug, the Baroda Museum and the Statue of Unity."
+    },
+    {
+      "who": "Festival lovers",
+      "text": "Navratri garba and Pavagadh during the festival."
+    }
+  ],
+  "oneDay": "Tour Laxmi Vilas Palace and the Fateh Singh Museum in the morning, then visit the Baroda Museum in Sayaji Baug. See the EME Temple in the afternoon and end at Sursagar Lake in the evening.",
+  "tips": [
+    "Vadodara has an airport and a major railway junction; Ahmedabad is about two hours away.",
+    "Gujarat is a dry state; alcohol requires a permit.",
+    "Champaner is hot and exposed; start early.",
+    "Book Navratri passes in advance.",
+    "Many museums close one day a week; check before visiting."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Vadodara?",
+      "a": "Tour Laxmi Vilas Palace and the Fateh Singh Museum, visit the Baroda Museum and Sayaji Baug, see the EME Temple and Sursagar Lake, explore Champaner-Pavagadh and visit the Statue of Unity."
+    },
+    {
+      "q": "How far is the Statue of Unity from Vadodara?",
+      "a": "About 90 km, roughly two hours by road."
+    },
+    {
+      "q": "How many days are enough for Vadodara?",
+      "a": "One day for the city; two with Champaner or the Statue of Unity."
+    },
+    {
+      "q": "Is Champaner-Pavagadh a UNESCO site?",
+      "a": "Yes, since 2004."
+    },
+    {
+      "q": "Is Vadodara famous for Navratri?",
+      "a": "Yes. Its garba nights, with live traditional music and huge grounds, are among the most celebrated in Gujarat."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Ahmedabad",
+      "href": "/blog/things-to-do-in-ahmedabad",
+      "note": "the heritage city"
+    },
+    {
+      "name": "Statue of Unity",
+      "href": "/blog/statue-of-unity-travel-guide",
+      "note": "the world's tallest statue"
+    },
+    {
+      "name": "Things to do in Surat",
+      "href": "/blog/things-to-do-in-surat",
+      "note": "diamonds and food"
+    }
+  ],
+  "styles": [
+    "family-holidays",
+    "weekend-getaways"
+  ],
+  "metaDescription": "Things to do in Vadodara: Laxmi Vilas Palace and the Fateh Singh Museum's Raja Ravi Varma paintings, the Baroda Museum in Sayaji Baug, the EME Temple, Sursagar Lake and more."
+}

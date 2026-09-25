@@ -1,0 +1,387 @@
+{
+  "slug": "things-to-do-in-andaman",
+  "destination": "Andaman Islands",
+  "guide": "andaman-islands-travel-guide",
+  "type": "island group",
+  "title": "Things to Do in the Andaman Islands: Beaches, Diving, History & Jungle Creeks",
+  "seoTitle": "Things to Do in Andaman: Beaches, Diving & More | Kudozz Club",
+  "description": "Things to do in the Andaman Islands: Radhanagar and Elephant beaches on Havelock, scuba diving and snorkelling, Neil Island's natural bridge, the Cellular Jail light show, Ross Island, North Bay, Baratang's limestone caves, Jolly Buoy, Chidiya Tapu sunsets and Diglipur's twin islands.",
+  "dek": "A chain of forested islands in the Bay of Bengal with white-sand beaches, coral reefs, mangrove creeks and a moving history of India's freedom struggle.",
+  "primaryKeyword": "things to do in Andaman",
+  "secondaryKeywords": [
+    "places to visit in Andaman",
+    "Andaman scuba diving",
+    "Havelock Island",
+    "Cellular Jail",
+    "Andaman honeymoon",
+    "Andaman itinerary",
+    "Baratang caves"
+  ],
+  "searchIntent": "Honeymooners, families and divers planning a five- to eight-day Andaman trip and deciding which islands and experiences to include.",
+  "tags": [
+    "Andaman",
+    "Islands",
+    "Beaches",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/andaman-and-nicobar/andaman-islands/radhanagar-beach-andaman-islands.webp",
+    "alt": "Radhanagar beach on Havelock (Swaraj Dweep)",
+    "caption": "Radhanagar beach"
+  },
+  "intro": [
+    "The Andaman Islands, part of the union territory of Andaman and Nicobar, lie in the Bay of Bengal, closer to Myanmar than to mainland India. Of more than 300 islands, only a few dozen are inhabited, and much of the land is protected forest and tribal reserve. Sri Vijaya Puram (formerly Port Blair) is the capital and entry point.",
+    "The things to do in the Andamans combine beaches and the sea with history and nature. Swim at Radhanagar, dive and snorkel off Havelock (Swaraj Dweep) and Neil (Shaheed Dweep), visit the Cellular Jail where freedom fighters were imprisoned, explore the ruins of Ross Island, and take a boat through mangroves to Baratang's limestone caves.",
+    "Five to seven days covers Port Blair, Havelock and Neil. October to May is the best season; the south-west monsoon (roughly May to September) brings rough seas and cancelled ferries."
+  ],
+  "quickAnswer": [
+    "Swim and watch sunset at Radhanagar beach",
+    "Scuba dive or snorkel off Havelock",
+    "See the natural rock bridge on Neil Island",
+    "Watch the light and sound show at the Cellular Jail",
+    "Explore the ruins of Ross Island",
+    "Snorkel or sea walk at North Bay",
+    "Visit Baratang's mangrove creek and limestone caves",
+    "Snorkel at Jolly Buoy in the marine national park",
+    "Watch sunset at Chidiya Tapu",
+    "See the twin islands of Ross and Smith near Diglipur"
+  ],
+  "sections": [
+    {
+      "id": "beaches",
+      "heading": "Beaches and islands",
+      "items": [
+        {
+          "name": "Spend a day at Radhanagar beach",
+          "body": [
+            "Radhanagar (Beach No. 7) on Havelock is a long curve of white sand backed by tall forest, with calm, clear water for much of the season. Sunsets here are the most famous in the Andamans. Lifeguards are posted and flags mark safe areas."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Havelock Island",
+              "href": "/blog/things-to-do-in-havelock-island"
+            }
+          ],
+          "facts": {
+            "Best time": "Afternoon to sunset",
+            "Good for": "Everyone"
+          }
+        },
+        {
+          "name": "Snorkel at Elephant beach",
+          "image": {
+            "src": "/images/blogs/andaman-and-nicobar/havelock-island-andaman/elephant-beach-swaraj-dweep-havelock-island.webp",
+            "alt": "Elephant beach, Havelock",
+            "caption": "Elephant beach"
+          },
+          "body": [
+            "Elephant beach on Havelock, reached by boat or a forest trek, has shallow reefs for snorkelling and water sports such as sea walking and jet skis."
+          ],
+          "facts": {
+            "Good for": "Families, first-time snorkellers"
+          }
+        },
+        {
+          "name": "See Neil Island's natural bridge",
+          "image": {
+            "src": "/images/destinations/andaman/natural-bridge-bharatpur-neil-island.webp",
+            "alt": "Natural rock bridge on Neil Island",
+            "caption": "Natural bridge, Neil Island"
+          },
+          "body": [
+            "Neil (Shaheed Dweep) is a small, quiet island with a natural rock arch on the shore, reached at low tide, as well as calm Bharatpur beach, Laxmanpur for sunset and Sitapur for sunrise."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Neil Island",
+              "href": "/blog/things-to-do-in-neil-island"
+            }
+          ]
+        },
+        {
+          "name": "Walk on the Ross and Smith sandbar",
+          "body": [
+            "In the far north, near Diglipur, Ross and Smith islands are joined by a narrow sandbar with water on both sides. The area also has Saddle Peak, the highest point in the islands, and Kalipur beach, where turtles nest."
+          ],
+          "links": [
+            {
+              "label": "Diglipur guide",
+              "href": "/blog/diglipur-andaman-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "underwater",
+      "heading": "Under the water",
+      "items": [
+        {
+          "name": "Scuba dive",
+          "image": {
+            "src": "/images/blogs/andaman-and-nicobar/andaman-islands/scuba-diving-andaman-islands-2.webp",
+            "alt": "Scuba diver over coral in the Andaman Islands",
+            "caption": "Diving in the Andamans"
+          },
+          "body": [
+            "The Andamans are one of India's best places to learn to dive. Havelock and Neil have many dive schools offering try dives for beginners and certification courses. Sites have coral, reef fish, turtles and occasionally rays. Choose operators affiliated with recognised agencies and check their safety record."
+          ],
+          "facts": {
+            "Best time": "November to April",
+            "Good for": "Beginners and certified divers"
+          }
+        },
+        {
+          "name": "Snorkel and sea walk at North Bay",
+          "image": {
+            "src": "/images/destinations/andaman/north-bay-island-coral-reef.webp",
+            "alt": "Coral reef at North Bay Island",
+            "caption": "North Bay coral reef"
+          },
+          "body": [
+            "North Bay, a short boat ride from Port Blair, offers snorkelling, glass-bottom boat rides, sea walking and semi-submarine trips over coral. Its lighthouse appears on the old 20-rupee note."
+          ],
+          "links": [
+            {
+              "label": "North Bay guide",
+              "href": "/blog/north-bay-island-andaman-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Snorkel at Jolly Buoy",
+          "body": [
+            "Jolly Buoy, in the Mahatma Gandhi Marine National Park near Wandoor, has some of the clearest water and healthiest coral near Port Blair. It is open in the dry season, with Red Skin island open in the monsoon. Plastic is strictly banned on the islands."
+          ],
+          "links": [
+            {
+              "label": "Jolly Buoy guide",
+              "href": "/blog/jolly-buoy-island-andaman-travel-guide"
+            }
+          ],
+          "facts": {
+            "Good to know": "Permits and limited numbers; no plastic"
+          }
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "heading": "History",
+      "items": [
+        {
+          "name": "Visit the Cellular Jail",
+          "image": {
+            "src": "/images/destinations/andaman/cellular-jail-radiating-wings-port-blair.webp",
+            "alt": "Cellular Jail wings in Port Blair",
+            "caption": "Cellular Jail"
+          },
+          "body": [
+            "The Cellular Jail, completed in 1906, held Indian freedom fighters in solitary cells; it was known as Kala Pani. Now a National Memorial, it has a museum and an evening light and sound show that tells its story.",
+            "Of the seven original wings, only three remain; the rest were demolished after independence. The museum inside lists the names of prisoners, and the gallows and the oil-mill yard where prisoners were forced to work are still preserved."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Port Blair",
+              "href": "/blog/things-to-do-in-port-blair"
+            }
+          ],
+          "facts": {
+            "Time needed": "2 hours plus the show"
+          }
+        },
+        {
+          "name": "Explore Ross Island",
+          "image": {
+            "src": "/images/destinations/andaman/ross-island-ruins-banyan-roots.webp",
+            "alt": "Ruins of Ross Island overgrown with banyan roots",
+            "caption": "Ross Island"
+          },
+          "body": [
+            "Ross Island, renamed Netaji Subhas Chandra Bose Dweep, was the British administrative headquarters until an earthquake in 1941 and the Japanese occupation. Its church, bakery and houses are now ruins wrapped in tree roots, with deer and peacocks wandering among them."
+          ],
+          "links": [
+            {
+              "label": "Ross Island guide",
+              "href": "/blog/ross-island-andaman-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nature",
+      "heading": "Mangroves, caves and sunsets",
+      "items": [
+        {
+          "name": "Visit Baratang's caves",
+          "image": {
+            "src": "/images/destinations/andaman/baratang-limestone-caves-interior.webp",
+            "alt": "Limestone caves at Baratang",
+            "caption": "Baratang limestone caves"
+          },
+          "body": [
+            "Baratang, north of Port Blair, is reached on the Andaman Trunk Road through a tribal reserve in regulated convoys. A speedboat through a mangrove creek and a forest walk lead to limestone caves. A mud volcano and Parrot Island are nearby. Photography of and contact with the Jarawa people are strictly prohibited."
+          ],
+          "links": [
+            {
+              "label": "Baratang guide",
+              "href": "/blog/baratang-andaman-travel-guide"
+            }
+          ],
+          "facts": {
+            "Time needed": "Full day",
+            "Good to know": "Very early start; strict rules in the reserve"
+          }
+        },
+        {
+          "name": "Watch sunset at Chidiya Tapu",
+          "body": [
+            "Chidiya Tapu, at the southern tip of South Andaman, is known for its birdlife and sunsets. A short trek leads to Munda Pahar beach."
+          ],
+          "links": [
+            {
+              "label": "Chidiya Tapu guide",
+              "href": "/blog/chidiya-tapu-andaman-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "See bioluminescence",
+          "body": [
+            "On dark, moonless nights, some beaches on Havelock glow with bioluminescent plankton. Guided night kayaking trips through mangroves are the best way to see it."
+          ],
+          "facts": {
+            "Best time": "Moonless nights"
+          }
+        }
+      ]
+    },
+    {
+      "id": "further",
+      "heading": "Further afield",
+      "items": [
+        {
+          "name": "Visit Long Island and Lalaji Bay",
+          "body": [
+            "Long Island, in Middle Andaman, is a quiet island with a forest trek to Lalaji Bay, a secluded white-sand beach with clear water. Ferries are infrequent, so it suits travellers with time."
+          ]
+        },
+        {
+          "name": "Surf at Little Andaman",
+          "body": [
+            "Little Andaman, a long ferry ride south, has surf breaks, waterfalls in the forest and Butler Bay beach. Facilities are basic, and parts of the island are tribal reserve."
+          ]
+        },
+        {
+          "name": "See Rangat and Mayabunder",
+          "body": [
+            "On the drive north along the Andaman Trunk Road, Rangat has mangrove walkways and turtle nesting beaches, and Mayabunder has creeks and villages of Karen settlers from Myanmar."
+          ]
+        },
+        {
+          "name": "Eat Andaman seafood",
+          "body": [
+            "Grilled lobster, crab, prawns and reef fish are widely available, often cooked in Bengali or South Indian styles. Ask for the day's catch and agree prices first."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seasons",
+      "heading": "Andaman by season",
+      "items": [
+        {
+          "name": "October to December",
+          "body": [
+            "The seas calm after the monsoon, the islands are green, and it is a good time for diving and beaches. December is peak season with high prices."
+          ]
+        },
+        {
+          "name": "January to April",
+          "body": [
+            "Clear skies, calm water and the best visibility for diving and snorkelling. The most popular time for families and honeymooners."
+          ]
+        },
+        {
+          "name": "May to September",
+          "body": [
+            "The south-west monsoon brings heavy rain and rough seas. Ferries and water sports are often cancelled, but prices drop and the forests are lush."
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Honeymooners",
+      "text": "Two nights in Port Blair, three on Havelock and one on Neil, with a sunset at Radhanagar and a try dive."
+    },
+    {
+      "who": "Families",
+      "text": "Cellular Jail show, Ross Island, North Bay's glass-bottom boat and calm beaches on Havelock and Neil."
+    },
+    {
+      "who": "Divers",
+      "text": "A week or more on Havelock and Neil for a certification course and fun dives."
+    }
+  ],
+  "oneDay": "In Port Blair, visit the Cellular Jail in the morning, take a boat to Ross Island and North Bay for snorkelling, and return for the evening light and sound show at the jail.",
+  "tips": [
+    "Veer Savarkar International Airport at Sri Vijaya Puram (Port Blair) has flights from major cities.",
+    "Book inter-island ferries in advance in peak season; they can be cancelled in rough weather.",
+    "Foreign nationals receive a Restricted Area Permit on arrival; some islands have further rules.",
+    "Plastic is restricted; carry a reusable bottle.",
+    "Do not collect shells, coral or sand; it is illegal and checked at the airport."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in the Andaman Islands?",
+      "a": "Relax at Radhanagar, dive and snorkel off Havelock and Neil, see the Cellular Jail and Ross Island, visit North Bay and Jolly Buoy, explore Baratang's caves and watch sunset at Chidiya Tapu."
+    },
+    {
+      "q": "How many days are enough for Andaman?",
+      "a": "Five to seven days for Port Blair, Havelock and Neil; more for the north."
+    },
+    {
+      "q": "What is the best time to visit the Andamans?",
+      "a": "October to May, when seas are calmer. November to April is best for diving."
+    },
+    {
+      "q": "Do Indians need a permit for the Andamans?",
+      "a": "Indian citizens do not need a permit for the main tourist islands. Tribal reserves are off-limits."
+    },
+    {
+      "q": "Is Andaman good for a honeymoon?",
+      "a": "Yes. Quiet beaches, sunsets at Radhanagar, try dives and island resorts on Havelock and Neil make it one of India's most popular honeymoon destinations."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Port Blair",
+      "href": "/blog/things-to-do-in-port-blair",
+      "note": "the capital and gateway"
+    },
+    {
+      "name": "Things to do in Havelock Island",
+      "href": "/blog/things-to-do-in-havelock-island",
+      "note": "beaches and diving"
+    },
+    {
+      "name": "Things to do in Neil Island",
+      "href": "/blog/things-to-do-in-neil-island",
+      "note": "the quiet island"
+    },
+    {
+      "name": "Things to do in Lakshadweep",
+      "href": "/blog/things-to-do-in-lakshadweep",
+      "note": "India's other island group"
+    }
+  ],
+  "styles": [
+    "honeymoon",
+    "family-holidays",
+    "adventure-tours"
+  ],
+  "metaDescription": "Things to do in the Andaman Islands: Radhanagar and Elephant beaches on Havelock, scuba diving and snorkelling, Neil Island's natural bridge, the Cellular Jail light show and more."
+}

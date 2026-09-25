@@ -1,0 +1,287 @@
+{
+  "slug": "things-to-do-in-kumarakom",
+  "destination": "Kumarakom",
+  "guide": "kumarakom-travel-guide",
+  "type": "lakeside village",
+  "title": "Things to Do in Kumarakom: Bird Sanctuary, Vembanad Lake & Village Life",
+  "seoTitle": "Things to Do in Kumarakom: Birds, Lake & Village Tours | Kudozz Club",
+  "description": "Things to do in Kumarakom: the bird sanctuary at dawn, sunset cruises and houseboats on Vembanad Lake, Pathiramanal island, village life and toddy-tapping tours, canoe rides, the Bay Island Driftwood Museum, Ayurveda, and trips to Kottayam and Vaikom.",
+  "dek": "A cluster of islands and canals on the eastern shore of Vembanad, Kerala's largest lake, with a heronry, lakeside resorts and quiet village backwaters.",
+  "primaryKeyword": "things to do in Kumarakom",
+  "secondaryKeywords": [
+    "Kumarakom bird sanctuary",
+    "Vembanad Lake",
+    "Kumarakom houseboat",
+    "Pathiramanal island",
+    "Kumarakom village tour",
+    "Bay Island Driftwood Museum"
+  ],
+  "searchIntent": "Couples and families planning one or two nights in Kumarakom, choosing between resort stays, cruises and village experiences.",
+  "tags": [
+    "Kumarakom",
+    "Kerala",
+    "Backwaters",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/kerala/kumarakom/kumarakom-bird-sanctuary-2.webp",
+    "alt": "Waterways in the Kumarakom Bird Sanctuary",
+    "caption": "Kumarakom Bird Sanctuary"
+  },
+  "intro": [
+    "Kumarakom, about 15 km from Kottayam, is a group of low islands and canals on the eastern shore of Vembanad Lake. It is quieter and more upmarket than Alappuzha, with lakeside resorts, Ayurveda and village stays, and it is where Kerala's Responsible Tourism programme first connected visitors with local farmers, fishermen and craftspeople.",
+    "The things to do in Kumarakom include birdwatching at the sanctuary, cruises and houseboat nights on Vembanad Lake, boat trips to Pathiramanal island, canoe rides through village canals, experiences of toddy tapping, coir making and fishing, and a quirky driftwood museum.",
+    "One or two nights is typical. October to March is the best time; migratory birds arrive in winter, while many resident birds nest in the monsoon."
+  ],
+  "quickAnswer": [
+    "Walk through the Kumarakom Bird Sanctuary at dawn",
+    "Take a sunset cruise on Vembanad Lake",
+    "Stay a night on a houseboat",
+    "Visit Pathiramanal island",
+    "Take a village life tour",
+    "Canoe through narrow canals",
+    "See the Bay Island Driftwood Museum",
+    "Take an Ayurveda treatment",
+    "Visit Vaikom Temple and Kottayam's old churches",
+    "Eat karimeen and duck curry"
+  ],
+  "sections": [
+    {
+      "id": "lake-birds",
+      "heading": "Birds and the lake",
+      "items": [
+        {
+          "name": "Walk through the bird sanctuary",
+          "body": [
+            "The Kumarakom Bird Sanctuary covers about 14 acres of mangrove and woodland on the lakeshore. Early morning walks along the trail reveal herons, egrets, cormorants, darters, kingfishers and, in winter, migratory birds. Many resident species nest here from June to August."
+          ],
+          "facts": {
+            "Time needed": "2 hours",
+            "Best time": "Early morning, November to February for migrants",
+            "Good for": "Birdwatchers, families"
+          }
+        },
+        {
+          "name": "Take a sunset cruise",
+          "image": {
+            "src": "/images/blogs/kerala/kumarakom/vembanad-lake-kumarakom-3.webp",
+            "alt": "Vembanad Lake at Kumarakom",
+            "caption": "Vembanad Lake"
+          },
+          "body": [
+            "Vembanad is Kerala's largest lake, and a motorboat or houseboat cruise at sunset, as fishermen head home, is one of Kumarakom's best experiences."
+          ],
+          "facts": {
+            "Best time": "Sunset"
+          }
+        },
+        {
+          "name": "Stay a night on a houseboat",
+          "body": [
+            "Houseboat cruises from Kumarakom cover Vembanad Lake and nearby canals, with meals cooked on board. They are usually quieter than routes from Alappuzha."
+          ],
+          "facts": {
+            "Good for": "Couples, families"
+          }
+        },
+        {
+          "name": "Visit Pathiramanal island",
+          "image": {
+            "src": "/images/blogs/kerala/kumarakom/pathiramanal-island-kumarakom-2.webp",
+            "alt": "Pathiramanal island in Vembanad Lake",
+            "caption": "Pathiramanal island"
+          },
+          "body": [
+            "Pathiramanal, a small wooded island in the middle of Vembanad, is reached by boat. It has walking paths and is a haven for birds."
+          ],
+          "facts": {
+            "Time needed": "2 hours"
+          }
+        }
+      ]
+    },
+    {
+      "id": "village",
+      "heading": "Village life",
+      "items": [
+        {
+          "name": "Take a village life tour",
+          "body": [
+            "Village tours run under Kerala's Responsible Tourism programme let you watch toddy tapping, coir making, weaving of coconut-leaf mats, clam fishing and traditional farming, with a home-cooked lunch. The income goes directly to local families."
+          ],
+          "facts": {
+            "Time needed": "Half a day",
+            "Good for": "Culture seekers, families"
+          }
+        },
+        {
+          "name": "Canoe through the canals",
+          "body": [
+            "Small country boats and canoes paddle through the narrow canals of Kumarakom and nearby villages such as Kavanattinkara, past homes, paddy fields and waterside shrines."
+          ],
+          "facts": {
+            "Best time": "Morning"
+          }
+        },
+        {
+          "name": "See the Bay Island Driftwood Museum",
+          "image": {
+            "src": "/images/blogs/kerala/kumarakom/bay-island-driftwood-museum-kumarakom.webp",
+            "alt": "Driftwood sculptures at the Bay Island Driftwood Museum",
+            "caption": "Bay Island Driftwood Museum"
+          },
+          "body": [
+            "The Bay Island Driftwood Museum displays sculptural pieces of driftwood collected from the Andaman Islands by a teacher, shaped by the sea into animals and figures."
+          ],
+          "facts": {
+            "Time needed": "45 minutes"
+          }
+        },
+        {
+          "name": "Try fishing with local fishermen",
+          "body": [
+            "Some village experiences include going out with fishermen in the early morning to cast nets or dive for clams in the lake, a hands-on glimpse of how families here have made a living for generations."
+          ],
+          "facts": {
+            "Best time": "Early morning"
+          }
+        }
+      ]
+    },
+    {
+      "id": "nearby",
+      "heading": "Nearby",
+      "items": [
+        {
+          "name": "Visit Vaikom",
+          "body": [
+            "Vaikom, across the lake, has the Vaikom Mahadeva Temple, one of Kerala's important Shiva temples, and memorials to the 1924–25 Vaikom Satyagraha, a landmark campaign for the right of all castes to use the roads around the temple."
+          ]
+        },
+        {
+          "name": "See Kottayam's churches and temples",
+          "body": [
+            "Kottayam, 15 km away, has old churches such as the Valiyapally (St Mary's Knanaya Church) with Persian crosses, and the Thirunakkara Mahadeva Temple. It is also the gateway to Kumarakom by rail."
+          ]
+        },
+        {
+          "name": "See Aruvikkuzhi waterfall",
+          "body": [
+            "Aruvikkuzhi, about 18 km away, is a small waterfall set among rubber plantations, best after the monsoon."
+          ]
+        },
+        {
+          "name": "Take an Ayurveda treatment",
+          "body": [
+            "Many Kumarakom resorts have Ayurveda centres offering massages and longer programmes. Choose certified centres with qualified practitioners."
+          ],
+          "facts": {
+            "Good for": "Wellness seekers"
+          }
+        },
+        {
+          "name": "Eat karimeen and duck curry",
+          "body": [
+            "Try karimeen pollichathu, duck curry (tharavu), fish moilee and appam. Village tours and some toddy shops serve simple, spicy local food."
+          ],
+          "facts": {
+            "Good for": "Food lovers"
+          }
+        }
+      ]
+    },
+    {
+      "id": "seasons",
+      "heading": "Kumarakom by season",
+      "items": [
+        {
+          "name": "Winter (November to February)",
+          "body": [
+            "Migratory birds, clear skies and cool evenings make this the peak season for resorts and cruises."
+          ]
+        },
+        {
+          "name": "Monsoon (June to August)",
+          "body": [
+            "The lake is full, paddy fields are bright green and resident birds nest in the sanctuary. Resorts offer lower rates and Ayurveda programmes."
+          ],
+          "facts": {
+            "Good for": "Ayurveda, nesting birds"
+          }
+        },
+        {
+          "name": "Onam and the boat races",
+          "body": [
+            "In August or September, Onam brings feasts and snake boat races to the region, including the Kumarakom race on the lake around Sree Narayana Jayanthi."
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Couples",
+      "text": "A lakeside resort, a sunset cruise and an Ayurveda treatment."
+    },
+    {
+      "who": "Families",
+      "text": "The bird sanctuary, a village tour and a boat to Pathiramanal."
+    },
+    {
+      "who": "Birdwatchers",
+      "text": "Dawn at the sanctuary, Pathiramanal and the paddy fields in winter."
+    }
+  ],
+  "oneDay": "Walk through the bird sanctuary at dawn, then take a village life tour with lunch at a local home. Visit the driftwood museum in the afternoon and end with a sunset cruise on Vembanad Lake.",
+  "tips": [
+    "Kottayam railway station is about 15 km away; Kochi airport is about two hours by road.",
+    "Carry insect repellent, especially in the evenings.",
+    "Book village tours through the Responsible Tourism programme or your resort.",
+    "Winter is peak season; book resorts early.",
+    "Resorts can arrange sanctuary visits with a naturalist; ask the day before."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Kumarakom?",
+      "a": "Visit the bird sanctuary, cruise Vembanad Lake, stay on a houseboat, see Pathiramanal island, take a village life tour, canoe through canals and see the driftwood museum."
+    },
+    {
+      "q": "What is the best time for birdwatching in Kumarakom?",
+      "a": "November to February for migrants, early in the morning. Resident birds nest from June to August."
+    },
+    {
+      "q": "How many days are enough for Kumarakom?",
+      "a": "One to two nights."
+    },
+    {
+      "q": "Kumarakom or Alleppey: which is better?",
+      "a": "Kumarakom is quieter with lakeside resorts and birdlife; Alleppey has more houseboats, canals and a busier town."
+    },
+    {
+      "q": "Can I do a day trip to Kumarakom from Kochi?",
+      "a": "Yes. It is about two hours away. A day trip covers the bird sanctuary, a short cruise and a village tour, but staying a night lets you see the lake at sunset and dawn."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Alleppey",
+      "href": "/blog/things-to-do-in-alleppey",
+      "note": "houseboats across the lake"
+    },
+    {
+      "name": "Things to do in Kochi",
+      "href": "/blog/things-to-do-in-kochi",
+      "note": "about two hours north"
+    },
+    {
+      "name": "Things to do in Thekkady",
+      "href": "/blog/things-to-do-in-thekkady",
+      "note": "Periyar and spice hills"
+    }
+  ],
+  "styles": [
+    "honeymoon",
+    "family-holidays"
+  ],
+  "metaDescription": "Things to do in Kumarakom: the bird sanctuary at dawn, sunset cruises and houseboats on Vembanad Lake, Pathiramanal island, village life and toddy-tapping tours, canoe rides and more."
+}

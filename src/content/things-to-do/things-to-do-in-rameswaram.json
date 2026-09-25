@@ -1,0 +1,250 @@
+{
+  "slug": "things-to-do-in-rameswaram",
+  "destination": "Rameswaram",
+  "guide": "rameswaram-travel-guide",
+  "type": "island pilgrimage town",
+  "title": "Things to Do in Rameswaram: Temple Corridors, Pamban Bridge & Dhanushkodi",
+  "seoTitle": "Things to Do in Rameswaram: Temple & Dhanushkodi | Kudozz Club",
+  "description": "Things to do in Rameswaram: the Ramanathaswamy Temple and its corridors, the 22 theertham baths, Agni Theertham, the Pamban bridges, Dhanushkodi and Arichal Munai, the Kalam memorial and house, Gandhamadhana Parvatham, Kothandaramaswamy Temple and island beaches.",
+  "dek": "An island town at the tip of India's south-east coast, one of the Char Dham, where a great Shiva temple meets a ghost town and the sea road to Sri Lanka.",
+  "primaryKeyword": "things to do in Rameswaram",
+  "secondaryKeywords": [
+    "Ramanathaswamy Temple",
+    "Dhanushkodi",
+    "Pamban bridge",
+    "Agni Theertham",
+    "Kalam memorial",
+    "Rameswaram theertham"
+  ],
+  "searchIntent": "Pilgrims and families planning one or two days in Rameswaram, often with Madurai, and wanting to include Dhanushkodi.",
+  "tags": [
+    "Rameswaram",
+    "Tamil Nadu",
+    "Pilgrimage",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/tamil-nadu/rameswaram/dhanushkodi-rameswaram.webp",
+    "alt": "Dhanushkodi's sandy spit between two seas",
+    "caption": "Dhanushkodi"
+  },
+  "intro": [
+    "Rameswaram lies on Pamban Island, between the Gulf of Mannar and Palk Bay, linked to the mainland by road and rail bridges. It is one of the four Char Dham pilgrimage sites and has one of the twelve Jyotirlingas. According to the Ramayana, Rama worshipped Shiva here and built a bridge to Lanka from its shores.",
+    "The things to do in Rameswaram start at the Ramanathaswamy Temple, with its immense corridors and ritual baths in 22 wells. Beyond the temple are the Pamban bridges, the ruined town of Dhanushkodi destroyed by a cyclone in 1964, the road's end at Arichal Munai, and the memorial to former President APJ Abdul Kalam, who grew up here.",
+    "One to two days is enough. October to April is the best time."
+  ],
+  "quickAnswer": [
+    "Visit the Ramanathaswamy Temple and walk its corridors",
+    "Bathe in the 22 theerthams",
+    "Take a dip at Agni Theertham",
+    "See the Pamban bridges from the road bridge",
+    "Visit the ruins of Dhanushkodi",
+    "Drive to Arichal Munai, where the road ends",
+    "See the Kalam National Memorial and House of Kalam",
+    "Visit Gandhamadhana Parvatham",
+    "See the Kothandaramaswamy Temple",
+    "Watch the sunset over the sea"
+  ],
+  "sections": [
+    {
+      "id": "temple",
+      "heading": "Ramanathaswamy Temple",
+      "items": [
+        {
+          "name": "Walk the temple corridors",
+          "body": [
+            "The Ramanathaswamy Temple is famous for its pillared corridors, among the longest of any temple in India, with thousands of carved pillars in long, painted perspectives. The temple, expanded over centuries, especially under the Sethupathi rulers, has one of the twelve Jyotirlingas.",
+            "Dress codes apply; phones and cameras are generally not allowed inside."
+          ],
+          "facts": {
+            "Time needed": "2–3 hours",
+            "Best time": "Early morning",
+            "Good to know": "No phones inside; dress code"
+          }
+        },
+        {
+          "name": "Bathe in the 22 theerthams",
+          "body": [
+            "Inside the temple are 22 wells (theerthams), each believed to have its own sacred water. Pilgrims move from well to well while attendants pour water over them, before darshan. Wear clothes you can get wet and bring a change."
+          ],
+          "facts": {
+            "Time needed": "1–2 hours",
+            "Good to know": "Bring a change of clothes"
+          }
+        },
+        {
+          "name": "Take a dip at Agni Theertham",
+          "body": [
+            "Agni Theertham, the sea in front of the temple's east entrance, is where pilgrims take a holy dip before entering. The water is shallow and calm."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dhanushkodi",
+      "heading": "Pamban and Dhanushkodi",
+      "items": [
+        {
+          "name": "See the Pamban bridges",
+          "image": {
+            "src": "/images/blogs/tamil-nadu/rameswaram/pamban-bridge-sea-rameswaram.webp",
+            "alt": "Pamban rail bridge across the sea",
+            "caption": "Pamban bridge"
+          },
+          "body": [
+            "The Pamban rail bridge, opened in 1914, was India's first sea bridge, with a section that opened for ships. A new vertical-lift rail bridge opened in 2025 alongside it. The road bridge next to them gives a good view of both and of the fishing boats below."
+          ],
+          "facts": {
+            "Best time": "Morning"
+          }
+        },
+        {
+          "name": "Visit the ruins of Dhanushkodi",
+          "body": [
+            "Dhanushkodi, at the south-eastern tip of the island, was a busy town with a railway station, church and port until a cyclone destroyed it in December 1964. The ruins of the church, station and houses stand on a sandy spit between the Bay of Bengal and the Indian Ocean. A new road now runs through."
+          ],
+          "facts": {
+            "Time needed": "Half a day",
+            "Good for": "Everyone"
+          }
+        },
+        {
+          "name": "Drive to Arichal Munai",
+          "body": [
+            "The road ends at Arichal Munai, the tip of the spit, where a memorial marks the point. Sri Lanka is less than 30 km away across the water. The sea on either side can be rough; swimming is unsafe."
+          ],
+          "facts": {
+            "Good to know": "Do not swim here"
+          }
+        },
+        {
+          "name": "See the Kothandaramaswamy Temple",
+          "body": [
+            "The Kothandaramaswamy Temple, on the way to Dhanushkodi, is said to be where Vibhishana surrendered to Rama. It survived the 1964 cyclone."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "town",
+      "heading": "In and around town",
+      "items": [
+        {
+          "name": "See the Kalam National Memorial",
+          "body": [
+            "The Dr APJ Abdul Kalam National Memorial at Pei Karumbu, opened in 2017, honours the scientist and former President of India, who was born in Rameswaram. It displays his life, work, models of missiles and personal items. His childhood home, the House of Kalam, is a small museum in town."
+          ],
+          "facts": {
+            "Time needed": "1–1.5 hours",
+            "Good for": "Families, students"
+          }
+        },
+        {
+          "name": "Visit Gandhamadhana Parvatham",
+          "body": [
+            "Gandhamadhana Parvatham, the highest point on the island, has a shrine with an imprint believed to be Rama's footprints and views over the island and sea."
+          ]
+        },
+        {
+          "name": "See the floating stones",
+          "body": [
+            "Some temples in town, such as the Panchmukhi Hanuman Temple, display floating pumice stones linked by devotees to the legend of Rama's bridge."
+          ]
+        },
+        {
+          "name": "Relax at Ariyaman beach",
+          "body": [
+            "Ariyaman beach, near the mainland end of the bridge, is a clean, calm beach with casuarina trees and boating, popular with families."
+          ],
+          "facts": {
+            "Good for": "Families"
+          }
+        }
+      ]
+    },
+    {
+      "id": "seasons",
+      "heading": "By season",
+      "items": [
+        {
+          "name": "October to April",
+          "body": [
+            "Pleasant weather and calm seas; the best time for Dhanushkodi and the temple. Mahashivratri and Ramanavami are major festivals."
+          ]
+        },
+        {
+          "name": "May to September",
+          "body": [
+            "Hot and windy, with strong gusts at Dhanushkodi. The Aadi Amavasai day in July or August draws many pilgrims for ancestral rites."
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Pilgrims",
+      "text": "Agni Theertham, the 22 theerthams, darshan, and Dhanushkodi for rituals."
+    },
+    {
+      "who": "Families",
+      "text": "Pamban bridge, Dhanushkodi, the Kalam memorial and Ariyaman beach."
+    },
+    {
+      "who": "Photographers",
+      "text": "The bridges at sunrise and Dhanushkodi's ruins in the late afternoon light."
+    }
+  ],
+  "oneDay": "Take a dip at Agni Theertham at dawn, bathe in the 22 theerthams and have darshan. After breakfast, drive to Dhanushkodi and Arichal Munai, stopping at Kothandaramaswamy Temple. Visit the Kalam memorial in the afternoon and watch sunset from the Pamban road bridge.",
+  "tips": [
+    "Rameswaram has a railway station; Madurai airport is about three and a half hours away.",
+    "The temple is crowded on weekends and festivals; go early.",
+    "Carry a change of clothes for the theertham bath.",
+    "Dhanushkodi is exposed and hot; carry water and a hat.",
+    "Carry cash; ATMs can be crowded during festivals."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Rameswaram?",
+      "a": "Visit the Ramanathaswamy Temple and bathe in the 22 theerthams, take a dip at Agni Theertham, see the Pamban bridges, visit Dhanushkodi and Arichal Munai, and see the Kalam memorial."
+    },
+    {
+      "q": "What happened to Dhanushkodi?",
+      "a": "It was destroyed by a cyclone in December 1964. Its ruins remain on the sandy spit at the island's tip."
+    },
+    {
+      "q": "How many days are enough for Rameswaram?",
+      "a": "One to two days."
+    },
+    {
+      "q": "What is the best time to visit Rameswaram?",
+      "a": "October to April."
+    },
+    {
+      "q": "Can I visit Dhanushkodi in the evening?",
+      "a": "Access to the spit is usually restricted after late afternoon for safety. Visit in the morning or early afternoon."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Madurai",
+      "href": "/blog/things-to-do-in-madurai",
+      "note": "the temple city"
+    },
+    {
+      "name": "Things to do in Kanyakumari",
+      "href": "/blog/things-to-do-in-kanyakumari",
+      "note": "India's southern tip"
+    },
+    {
+      "name": "Chettinad",
+      "href": "/blog/chettinad-travel-guide",
+      "note": "mansions and cuisine on the way"
+    }
+  ],
+  "styles": [
+    "spiritual-tours",
+    "family-holidays"
+  ],
+  "metaDescription": "Things to do in Rameswaram: the Ramanathaswamy Temple and its corridors, the 22 theertham baths, Agni Theertham, the Pamban bridges, Dhanushkodi and Arichal Munai and more."
+}

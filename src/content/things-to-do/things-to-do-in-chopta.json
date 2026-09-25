@@ -1,0 +1,231 @@
+{
+  "slug": "things-to-do-in-chopta",
+  "destination": "Chopta",
+  "guide": "chopta-travel-guide",
+  "type": "trekking base",
+  "title": "Things to Do in Chopta: Tungnath, Chandrashila & Deoria Tal",
+  "seoTitle": "Things to Do in Chopta: Tungnath & Chandrashila | Kudozz Club",
+  "description": "Things to do in Chopta: the trek to Tungnath, the world's highest Shiva temple, the climb to Chandrashila summit, Deoria Tal lake, rhododendron forests, birdwatching for the Himalayan monal, camping and winter snow treks.",
+  "dek": "A meadow and forest clearing in the Kedarnath Wildlife Sanctuary, and the starting point for the short, steep walk to Tungnath and the 360-degree view from Chandrashila.",
+  "primaryKeyword": "things to do in Chopta",
+  "secondaryKeywords": [
+    "Tungnath trek",
+    "Chandrashila trek",
+    "Deoria Tal",
+    "Chopta in winter",
+    "Chopta camping",
+    "Chopta Tungnath Chandrashila"
+  ],
+  "searchIntent": "Beginner and weekend trekkers planning a two- to three-day Chopta, Tungnath and Chandrashila trip, often with Deoria Tal.",
+  "tags": [
+    "Chopta",
+    "Uttarakhand",
+    "Trekking",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/uttarakhand/chopta/tungnath-temple-chopta.webp",
+    "alt": "Tungnath Temple, the highest Shiva temple, above Chopta",
+    "caption": "Tungnath Temple"
+  },
+  "intro": [
+    "Chopta is a small meadow settlement at about 2,700 metres on the road between Ukhimath and Gopeshwar in Rudraprayag district, Uttarakhand. It lies inside the Kedarnath Wildlife Sanctuary and has no real town, just a few dhabas, camps and guesthouses among oak, deodar and rhododendron forest.",
+    "People come to Chopta for one short but spectacular trek: about 3.5 km up a stone path to Tungnath, the highest Shiva temple in the world and one of the Panch Kedar, and another 1.5 km to the summit of Chandrashila at around 4,000 metres. From the top, Nanda Devi, Trishul, Chaukhamba and the Kedarnath peaks stand in a wide circle.",
+    "Add Deoria Tal, a lake that reflects Chaukhamba, and two to three days is a complete trip. It is one of the best introductions to Himalayan trekking in India."
+  ],
+  "quickAnswer": [
+    "Trek to Tungnath Temple, the highest Shiva temple",
+    "Climb to Chandrashila summit for a 360-degree Himalayan view",
+    "Walk to Deoria Tal and see Chaukhamba reflected in the lake",
+    "See the rhododendron forests bloom in spring",
+    "Look for the Himalayan monal and other high-altitude birds",
+    "Camp in the Chopta meadows",
+    "Do the winter snow trek to Chandrashila",
+    "Visit the Omkareshwar Temple in Ukhimath"
+  ],
+  "sections": [
+    {
+      "id": "trek",
+      "heading": "Tungnath and Chandrashila",
+      "items": [
+        {
+          "name": "Trek to Tungnath Temple",
+          "body": [
+            "The paved trail from Chopta climbs about 3.5 km through meadows to Tungnath at roughly 3,680 metres. The stone temple is the highest of the Panch Kedar, the five Shiva shrines linked to the Pandavas in Garhwal tradition, and is believed to be over a thousand years old.",
+            "The climb is steep but well marked, and most reasonably fit people take two to three hours to go up. The temple closes for winter, usually around Diwali, and reopens in late April or May; during the closed months the deity is worshipped at Makkumath."
+          ],
+          "facts": {
+            "Distance": "About 3.5 km one way",
+            "Time needed": "2–3 hours up",
+            "Best time": "April to June, September to November",
+            "Good for": "Beginner trekkers, pilgrims"
+          }
+        },
+        {
+          "name": "Climb to Chandrashila summit",
+          "image": {
+            "src": "/images/blogs/uttarakhand/chopta/chandrashila-summit-chopta.webp",
+            "alt": "Small temple on Chandrashila summit above Tungnath",
+            "caption": "The shrine on Chandrashila summit"
+          },
+          "body": [
+            "From Tungnath, a steeper, rockier path of about 1.5 km leads to Chandrashila summit at around 4,000 metres, crowned by a small shrine. On a clear morning you can see Nanda Devi, Trishul, Chaukhamba, Kedarnath and Bandarpunch at once.",
+            "Many trekkers start from Chopta before dawn to reach the top for sunrise. The last stretch can be icy or snow-covered from December to March, so good shoes and a guide are important in winter."
+          ],
+          "facts": {
+            "Distance": "About 1.5 km beyond Tungnath",
+            "Time needed": "Full morning from Chopta",
+            "Best time": "Sunrise on clear days",
+            "Good to know": "Icy in winter; go with a guide"
+          }
+        },
+        {
+          "name": "Do the winter snow trek",
+          "body": [
+            "From December to March the whole route, and often Chopta itself, is under snow. The winter trek to Chandrashila is popular with beginners who want a first snow trek, and several operators run fixed departures. Roads may be blocked beyond a point after heavy snowfall, adding a walk to the start."
+          ],
+          "facts": {
+            "Best time": "January to March",
+            "Good for": "Beginners wanting a snow trek"
+          }
+        }
+      ]
+    },
+    {
+      "id": "lakes-forest",
+      "heading": "Lakes, forests and wildlife",
+      "items": [
+        {
+          "name": "Walk to Deoria Tal",
+          "body": [
+            "Deoria Tal is a small lake at about 2,400 metres above Sari village, around 30 km from Chopta. A trail of roughly 2.5 to 3 km climbs through forest to the lake, and on clear mornings Chaukhamba's peaks are reflected in the water. Some trekkers camp nearby with permitted operators, and a longer trail links Deoria Tal to Chopta over two to three days."
+          ],
+          "facts": {
+            "Distance": "About 2.5–3 km one way from Sari",
+            "Time needed": "Half a day",
+            "Best time": "Early morning",
+            "Good for": "Families, beginner trekkers"
+          }
+        },
+        {
+          "name": "See the rhododendrons bloom",
+          "body": [
+            "In March and April the forests around Chopta turn red and pink as the rhododendron (buransh) trees flower. It is one of the prettiest times to visit, with snow still on the peaks and fewer crowds than in May and June. Buransh juice, made from the flowers, is sold across Garhwal."
+          ],
+          "facts": {
+            "Best time": "March to April"
+          }
+        },
+        {
+          "name": "Look for the Himalayan monal",
+          "body": [
+            "The Kedarnath Wildlife Sanctuary is one of the best places in Uttarakhand for high-altitude birds. The Himalayan monal, the state bird with its shimmering colours, is often seen on the slopes near Tungnath early in the morning. The sanctuary is also known for the musk deer, which is rarely seen."
+          ],
+          "facts": {
+            "Best time": "Early mornings, spring and autumn",
+            "Good for": "Birdwatchers, photographers"
+          }
+        },
+        {
+          "name": "Camp in the meadows",
+          "body": [
+            "Camping and simple homestays around Chopta, Baniyakund and Duggalbitta let you wake up close to the trailhead. Rules on camping inside the sanctuary change from time to time, so book with operators who have the required permissions."
+          ],
+          "facts": {
+            "Good to know": "Use permitted campsites only"
+          }
+        }
+      ]
+    },
+    {
+      "id": "temples",
+      "heading": "Temples on the way",
+      "items": [
+        {
+          "name": "Visit Omkareshwar Temple, Ukhimath",
+          "body": [
+            "Ukhimath, about 30 km from Chopta, is home to the Omkareshwar Temple, the winter seat of Kedarnath, where the deity is brought when the Kedarnath shrine closes. It is also a convenient place to break the journey."
+          ],
+          "links": [
+            {
+              "label": "Kedarnath travel guide",
+              "href": "/blog/kedarnath-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Stop at Rudraprayag",
+          "body": [
+            "Rudraprayag, on the drive from Rishikesh, is where the Alaknanda and Mandakini rivers meet. The confluence and its temples are a short stop, and the town is linked to Jim Corbett's famous account of the man-eating leopard of Rudraprayag."
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "First-time trekkers",
+      "text": "Tungnath and Chandrashila are short enough for fit beginners. Walk slowly, drink water, and start early to beat afternoon clouds."
+    },
+    {
+      "who": "Families",
+      "text": "Deoria Tal and the Tungnath walk suit active families with older children. Ponies are available on the Tungnath trail for those who cannot walk the whole way."
+    },
+    {
+      "who": "Photographers",
+      "text": "Sunrise on Chandrashila, Chaukhamba reflected in Deoria Tal and the monal in spring are the classic shots."
+    }
+  ],
+  "oneDay": "Leave Chopta before dawn and climb to Chandrashila for sunrise. Walk down to Tungnath for darshan, then descend to Chopta for a late breakfast at a dhaba. In the afternoon, drive to Sari and walk up to Deoria Tal to see the lake in the evening light.",
+  "tips": [
+    "Chopta is about 200 km from Rishikesh, usually an 8 to 9 hour drive. Most visitors break the journey or arrive in the evening and trek the next day.",
+    "There are no ATMs at Chopta and phone signal is patchy; carry cash and let someone know your plans.",
+    "Afternoon clouds often hide the peaks; the clearest views are early in the morning.",
+    "Carry a warm jacket even in summer; it is cold at Chandrashila at dawn."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Chopta?",
+      "a": "Trek to Tungnath Temple, climb to Chandrashila summit, walk to Deoria Tal, see the rhododendrons in spring, look for the Himalayan monal and camp in the meadows."
+    },
+    {
+      "q": "How difficult is the Tungnath and Chandrashila trek?",
+      "a": "It is a short, steep, easy-to-moderate trek of about 5 km one way from Chopta. Fit beginners can do it; the last section to Chandrashila is steeper and rocky."
+    },
+    {
+      "q": "When is Tungnath Temple open?",
+      "a": "Usually from late April or May until around Diwali. In winter the deity is worshipped at Makkumath, though the trek itself remains possible in snow."
+    },
+    {
+      "q": "Can I visit Chopta in winter?",
+      "a": "Yes. December to March brings snow, and the winter trek to Chandrashila is popular. Road access may be restricted after heavy snowfall."
+    },
+    {
+      "q": "How many days do I need for Chopta?",
+      "a": "Two to three days covers Tungnath, Chandrashila and Deoria Tal, not counting the drive from Rishikesh or Haridwar."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Kedarnath",
+      "href": "/blog/kedarnath-travel-guide",
+      "note": "the Char Dham shrine, with its winter seat at Ukhimath"
+    },
+    {
+      "name": "Things to do in Auli",
+      "href": "/blog/things-to-do-in-auli",
+      "note": "ski slopes and meadows above Joshimath"
+    },
+    {
+      "name": "Things to do in Rishikesh",
+      "href": "/blog/things-to-do-in-rishikesh",
+      "note": "the usual starting point for the drive"
+    }
+  ],
+  "styles": [
+    "adventure-tours",
+    "group-tours",
+    "weekend-getaways"
+  ],
+  "metaDescription": "Things to do in Chopta: the trek to Tungnath, the world's highest Shiva temple, the climb to Chandrashila summit, Deoria Tal lake, rhododendron forests and more."
+}

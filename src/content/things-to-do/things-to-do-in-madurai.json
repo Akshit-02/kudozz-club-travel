@@ -1,0 +1,349 @@
+{
+  "slug": "things-to-do-in-madurai",
+  "destination": "Madurai",
+  "guide": "madurai-travel-guide",
+  "type": "temple city",
+  "title": "Things to Do in Madurai: Meenakshi Temple, Nayak Palace, Markets & Food",
+  "seoTitle": "Things to Do in Madurai: Meenakshi Temple & More | Kudozz Club",
+  "description": "Things to do in Madurai: the Meenakshi Amman Temple and its night ceremony, the Hall of a Thousand Pillars, Thirumalai Nayakkar Palace, the Gandhi Memorial Museum, the Teppakulam tank, Alagar Kovil and Thiruparankundram, the jasmine market, jigarthanda and the Chithirai festival.",
+  "dek": "One of India's oldest continuously inhabited cities, built around a vast temple to the goddess Meenakshi and alive from dawn to midnight.",
+  "primaryKeyword": "things to do in Madurai",
+  "secondaryKeywords": [
+    "places to visit in Madurai",
+    "Meenakshi Temple",
+    "Thirumalai Nayakkar Palace",
+    "Madurai night ceremony",
+    "Madurai food",
+    "Chithirai festival",
+    "Keezhadi museum"
+  ],
+  "searchIntent": "Pilgrims and travellers planning one or two days in Madurai, often combined with Rameswaram, Kodaikanal or Thekkady.",
+  "tags": [
+    "Madurai",
+    "Tamil Nadu",
+    "Temples",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/tamil-nadu/madurai/meenakshi-amman-temple-madurai-2.webp",
+    "alt": "Colourful gopurams of the Meenakshi Amman Temple, Madurai",
+    "caption": "Meenakshi Amman Temple"
+  },
+  "intro": [
+    "Madurai, on the Vaigai river, has been a centre of Tamil culture for over two thousand years. It was the capital of the Pandya kings and is linked with the ancient Sangam academies of Tamil poetry. The Nayak rulers, from the 16th century, rebuilt and expanded its great temple and built a grand palace.",
+    "The things to do in Madurai revolve around the Meenakshi Amman Temple, a walled city of towers, halls and shrines at the centre of town. Around it are the Nayak palace, the Gandhi Memorial Museum, bustling markets, and temples on the city's outskirts. Madurai is also known as the city that never sleeps, with food stalls open late into the night.",
+    "One to two days is enough. October to March is the most comfortable time; the Chithirai festival in April or May is spectacular."
+  ],
+  "quickAnswer": [
+    "Explore the Meenakshi Amman Temple",
+    "See the night ceremony (Palliarai) at the temple",
+    "Visit the Hall of a Thousand Pillars museum",
+    "Tour Thirumalai Nayakkar Palace and see the light show",
+    "See the Gandhi Memorial Museum",
+    "Visit the Vandiyur Mariamman Teppakulam",
+    "See Alagar Kovil and Thiruparankundram",
+    "Walk through the jasmine market",
+    "Drink jigarthanda and eat kari dosa",
+    "Visit the Keezhadi excavation museum"
+  ],
+  "sections": [
+    {
+      "id": "temple",
+      "heading": "Meenakshi Amman Temple",
+      "items": [
+        {
+          "name": "Explore the temple",
+          "body": [
+            "The Meenakshi Amman Temple, dedicated to Meenakshi (Parvati) and Sundareswarar (Shiva), covers about 14 acres and has 14 gopurams, the tallest over 50 metres, covered with thousands of painted figures. Inside are pillared halls, the Golden Lotus Tank, and shrines busy with worshippers from before dawn until late at night.",
+            "Phones and cameras are not allowed inside; use the lockers. Non-Hindus can visit most areas but not the innermost sanctums. Dress modestly."
+          ],
+          "facts": {
+            "Time needed": "2–3 hours",
+            "Best time": "Early morning or evening",
+            "Good to know": "No phones inside"
+          }
+        },
+        {
+          "name": "Watch the night ceremony",
+          "body": [
+            "Every night, around 9 p.m., Sundareswarar's image is carried in a palanquin to Meenakshi's shrine in the Palliarai (bedtime) ceremony, with music, lamps and chanting. It is one of the most atmospheric rituals in South India."
+          ],
+          "facts": {
+            "Best time": "Around 9 p.m.",
+            "Good for": "Culture seekers"
+          }
+        },
+        {
+          "name": "See the Hall of a Thousand Pillars",
+          "image": {
+            "src": "/images/blogs/tamil-nadu/madurai/meenakshi-temple-thousand-pillar-hall-madurai.webp",
+            "alt": "Carved pillars in the Thousand Pillar Hall, Meenakshi Temple",
+            "caption": "Hall of a Thousand Pillars"
+          },
+          "body": [
+            "The Hall of a Thousand Pillars, built in the 16th century, has 985 carved pillars and now houses the temple's art museum, with bronzes, paintings and sculpture. Musical pillars nearby produce different notes when struck."
+          ],
+          "facts": {
+            "Time needed": "45 minutes"
+          }
+        },
+        {
+          "name": "Watch the Chithirai festival",
+          "body": [
+            "The Chithirai festival, in April or May, celebrates the divine wedding of Meenakshi and Sundareswarar with processions, chariot festivals and the dramatic entry of Kallazhagar into the Vaigai river. Lakhs of people attend."
+          ],
+          "facts": {
+            "Best time": "April or May"
+          }
+        }
+      ]
+    },
+    {
+      "id": "city",
+      "heading": "Around the city",
+      "items": [
+        {
+          "name": "Tour Thirumalai Nayakkar Palace",
+          "image": {
+            "src": "/images/blogs/tamil-nadu/madurai/thirumalai-nayakkar-palace-madurai.webp",
+            "alt": "Arches and columns of Thirumalai Nayakkar Palace",
+            "caption": "Thirumalai Nayakkar Palace"
+          },
+          "body": [
+            "Thirumalai Nayakkar Palace, built in 1636, blends Dravidian and Islamic styles with huge columns, arches and a domed courtyard. Only part of the original survives. A sound and light show is held in the evening."
+          ],
+          "facts": {
+            "Time needed": "1 hour",
+            "Best time": "Evening for the show"
+          }
+        },
+        {
+          "name": "See the Gandhi Memorial Museum",
+          "image": {
+            "src": "/images/blogs/tamil-nadu/madurai/gandhi-memorial-museum-madurai.webp",
+            "alt": "Gandhi Memorial Museum, Madurai",
+            "caption": "Gandhi Memorial Museum"
+          },
+          "body": [
+            "The Gandhi Memorial Museum, in a 17th-century palace, tells the story of India's freedom struggle and holds the blood-stained dhoti Gandhi was wearing when he was assassinated. It was in Madurai, in 1921, that Gandhi adopted the simple loincloth."
+          ],
+          "facts": {
+            "Time needed": "1–1.5 hours"
+          }
+        },
+        {
+          "name": "Visit Vandiyur Mariamman Teppakulam",
+          "body": [
+            "This huge temple tank, with a shrine on an island in the middle, is the site of the Float Festival in January or February, when deities are taken around the tank on a lit raft."
+          ],
+          "facts": {
+            "Best time": "January or February for the Float Festival"
+          }
+        },
+        {
+          "name": "Walk through the markets",
+          "body": [
+            "Madurai malli, the city's famous jasmine, is sold by the heap at the flower market near Mattuthavani early each morning. Pudhu Mandapam, opposite the temple, is an old pillared hall full of tailors and shops."
+          ],
+          "facts": {
+            "Best time": "Early morning for the flower market"
+          }
+        }
+      ]
+    },
+    {
+      "id": "outskirts",
+      "heading": "Temples and history nearby",
+      "items": [
+        {
+          "name": "See Thiruparankundram",
+          "body": [
+            "Thiruparankundram, about 8 km south, is one of the six abodes of Lord Murugan, a rock-cut temple at the foot of a hill."
+          ]
+        },
+        {
+          "name": "Visit Alagar Kovil",
+          "body": [
+            "Alagar Kovil, about 20 km north, is a Vishnu temple in the forested Alagar hills, closely linked to the Chithirai festival. Pazhamudircholai, another Murugan abode, is further up the hill."
+          ]
+        },
+        {
+          "name": "See the Keezhadi museum",
+          "body": [
+            "Keezhadi, about 12 km south-east, is an excavation site that has revealed an urban settlement of the Sangam period. A museum opened in 2023 displays pottery, beads and other finds that shed light on early Tamil civilisation."
+          ],
+          "facts": {
+            "Good for": "History lovers"
+          }
+        },
+        {
+          "name": "See the Samanar Hills",
+          "body": [
+            "The Samanar Hills near Keelakuyilkudi have Jain rock beds, carvings and inscriptions from the early centuries AD, and a lotus pond at the base."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "more",
+      "heading": "More around Madurai",
+      "items": [
+        {
+          "name": "See St Mary's Cathedral and the Goripalayam Dargah",
+          "body": [
+            "St Mary's Cathedral, a Gothic church from the 19th century, and the Goripalayam Dargah, a Sufi shrine with a large dome, reflect Madurai's mixed heritage beyond its temples."
+          ]
+        },
+        {
+          "name": "Visit Koodal Azhagar Temple",
+          "body": [
+            "The Koodal Azhagar Temple, a Vishnu temple in the city centre, has a three-tiered vimana with shrines to Vishnu in standing, sitting and reclining postures, and fine sculptures."
+          ],
+          "facts": {
+            "Time needed": "45 minutes"
+          }
+        },
+        {
+          "name": "See a Madurai sari weaving centre",
+          "body": [
+            "Madurai is known for Sungudi saris, tie-dyed cotton saris made by the Saurashtra community. Small workshops and shops in the old city sell them."
+          ],
+          "facts": {
+            "Good for": "Shoppers"
+          }
+        },
+        {
+          "name": "Walk the Masi streets at night",
+          "body": [
+            "The streets around the temple, named after Tamil months, stay busy late into the evening with textile shops, flower sellers and food stalls. A night walk shows why Madurai is called the city that never sleeps."
+          ],
+          "facts": {
+            "Best time": "Evening"
+          }
+        },
+        {
+          "name": "Visit Athisayam or a day trip to Chettinad",
+          "body": [
+            "Families can spend a day at a water theme park on the Dindigul road, and culture lovers can drive about two hours to Chettinad, known for grand merchant mansions, Athangudi tiles and its fiery cuisine."
+          ],
+          "links": [
+            {
+              "label": "Chettinad guide",
+              "href": "/blog/chettinad-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "heading": "Food",
+      "items": [
+        {
+          "name": "Drink jigarthanda and eat late",
+          "body": [
+            "Jigarthanda, a cold drink of milk, almond gum, sarsaparilla syrup and ice cream, is a Madurai speciality. Try kari dosa (dosa topped with minced meat), bun parotta, idli with multiple chutneys and the city's famous mutton dishes. Many eateries stay open late."
+          ],
+          "facts": {
+            "Good for": "Food lovers"
+          }
+        }
+      ]
+    },
+    {
+      "id": "seasons",
+      "heading": "By season",
+      "items": [
+        {
+          "name": "Winter (November to February)",
+          "body": [
+            "Cooler days make this the best time for temple visits and walking the old city. The Float Festival at the Teppakulam falls in January or February."
+          ]
+        },
+        {
+          "name": "Summer (March to June)",
+          "body": [
+            "Very hot afternoons, but the Chithirai festival in April or May is the biggest event of the year. Plan temple visits for early morning and night."
+          ]
+        },
+        {
+          "name": "Monsoon (July to October)",
+          "body": [
+            "Moderate rain and humid weather. Crowds are thinner, and Navaratri brings kolu doll displays at the temple."
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Pilgrims",
+      "text": "Morning darshan, the night ceremony and Thiruparankundram and Alagar Kovil."
+    },
+    {
+      "who": "History lovers",
+      "text": "The palace, the Gandhi Memorial Museum, Keezhadi and the Samanar Hills."
+    },
+    {
+      "who": "Food lovers",
+      "text": "An evening food walk for jigarthanda, kari dosa and parotta."
+    }
+  ],
+  "oneDay": "Visit the Meenakshi Temple early and the Thousand Pillar Hall museum. Tour Thirumalai Nayakkar Palace and the Gandhi Memorial Museum after lunch, see the Teppakulam, and return to the temple for the night ceremony, followed by jigarthanda.",
+  "tips": [
+    "Madurai has an airport and a major railway station.",
+    "Deposit phones and cameras at the temple's lockers.",
+    "Men may be asked to wear dhotis or trousers, and women to cover shoulders.",
+    "Summer afternoons are very hot; sightsee in the morning and evening.",
+    "Stay near the temple to walk to the night ceremony and the old city's evening food streets."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Madurai?",
+      "a": "Explore the Meenakshi Amman Temple and watch its night ceremony, visit Thirumalai Nayakkar Palace and the Gandhi Memorial Museum, see the Teppakulam, visit Thiruparankundram, Alagar Kovil and Keezhadi, and try the food."
+    },
+    {
+      "q": "What time is the night ceremony at Meenakshi Temple?",
+      "a": "Usually around 9 p.m., though timings can vary; ask at the temple."
+    },
+    {
+      "q": "How many days are enough for Madurai?",
+      "a": "One to two days."
+    },
+    {
+      "q": "When is the Chithirai festival?",
+      "a": "In April or May."
+    },
+    {
+      "q": "What should I eat in Madurai?",
+      "a": "Jigarthanda, kari dosa, bun parotta with salna, idli with multiple chutneys, mutton chukka and the city's famous sweets. Madurai malli (jasmine) is the thing to buy."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Rameswaram",
+      "href": "/blog/things-to-do-in-rameswaram",
+      "note": "island temple, about three and a half hours away"
+    },
+    {
+      "name": "Things to do in Kodaikanal",
+      "href": "/blog/things-to-do-in-kodaikanal",
+      "note": "hill station, about three hours away"
+    },
+    {
+      "name": "Chettinad",
+      "href": "/blog/chettinad-travel-guide",
+      "note": "mansions and cuisine"
+    },
+    {
+      "name": "Things to do in Thekkady",
+      "href": "/blog/things-to-do-in-thekkady",
+      "note": "Periyar in Kerala"
+    }
+  ],
+  "styles": [
+    "spiritual-tours",
+    "family-holidays"
+  ],
+  "metaDescription": "Things to do in Madurai: the Meenakshi Amman Temple and its night ceremony, the Hall of a Thousand Pillars, Thirumalai Nayakkar Palace, the Gandhi Memorial Museum and more."
+}

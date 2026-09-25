@@ -1,0 +1,253 @@
+{
+  "slug": "things-to-do-in-dwarka",
+  "destination": "Dwarka",
+  "guide": "dwarka-travel-guide",
+  "type": "pilgrimage town",
+  "title": "Things to Do in Dwarka: Dwarkadhish Temple, Bet Dwarka & the Saurashtra Coast",
+  "seoTitle": "Things to Do in Dwarka: Temples, Bet Dwarka & Beaches | Kudozz Club",
+  "description": "Things to do in Dwarka: the Dwarkadhish Temple and its flag ceremony, Gomti Ghat and Sudama Setu, Bet Dwarka across the Sudarshan Setu, Nageshwar Jyotirlinga, the Rukmini Devi Temple, Shivrajpur's Blue Flag beach, Bhadkeshwar Mahadev and the lighthouse, and Janmashtami.",
+  "dek": "Krishna's legendary kingdom on the western tip of Saurashtra, one of the Char Dham, with a five-storey temple, an island shrine and clean beaches nearby.",
+  "primaryKeyword": "things to do in Dwarka",
+  "secondaryKeywords": [
+    "Dwarkadhish Temple",
+    "Bet Dwarka",
+    "Sudarshan Setu",
+    "Nageshwar Jyotirlinga",
+    "Shivrajpur beach",
+    "Dwarka Janmashtami"
+  ],
+  "searchIntent": "Pilgrims and families planning one or two days in Dwarka, often with Somnath and Porbandar.",
+  "tags": [
+    "Dwarka",
+    "Gujarat",
+    "Pilgrimage",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/gujarat/gujarat/dwarkadhish-temple-dwarka-gomti-ghat.webp",
+    "alt": "Dwarkadhish Temple above Gomti Ghat, Dwarka",
+    "caption": "Dwarkadhish Temple"
+  },
+  "intro": [
+    "Dwarka, at the western tip of the Saurashtra peninsula where the Gomti river meets the Arabian Sea, is revered as the capital of Krishna's kingdom after he left Mathura. It is one of the Char Dham and one of the seven sacred cities of Hinduism. Marine archaeologists have studied submerged structures off its coast, adding to its legends.",
+    "The things to do in Dwarka centre on the Dwarkadhish Temple, with its tall spire and its flag changed several times a day, and the ghats of the Gomti. Around it are the island shrine of Bet Dwarka, now reached by a new cable-stayed bridge, the Nageshwar Jyotirlinga, the Rukmini Devi Temple and the clean sands of Shivrajpur beach.",
+    "One or two days is enough. October to March is the best time; Janmashtami in August is the biggest festival."
+  ],
+  "quickAnswer": [
+    "Have darshan at the Dwarkadhish Temple",
+    "Watch the flag being changed on the spire",
+    "Walk Gomti Ghat and cross Sudama Setu",
+    "Cross the Sudarshan Setu to Bet Dwarka",
+    "Visit Nageshwar Jyotirlinga",
+    "See the Rukmini Devi Temple",
+    "Relax at Shivrajpur beach",
+    "See Bhadkeshwar Mahadev and the lighthouse at sunset",
+    "Celebrate Janmashtami",
+    "Take a trip to Somnath or Porbandar"
+  ],
+  "sections": [
+    {
+      "id": "temple",
+      "heading": "Dwarkadhish Temple",
+      "items": [
+        {
+          "name": "Have darshan at Dwarkadhish",
+          "body": [
+            "The Dwarkadhish Temple (Jagat Mandir) rises five storeys on 72 carved pillars, with a spire about 50 metres high. The present structure dates largely from the 15th and 16th centuries. It has two gates: Moksha Dwar, facing the town, and Swarga Dwar, with 56 steps down to the Gomti.",
+            "Phones and cameras are not allowed inside; lockers are available near the entrance."
+          ],
+          "facts": {
+            "Time needed": "1–2 hours",
+            "Best time": "Morning or evening aarti",
+            "Good to know": "No phones inside"
+          }
+        },
+        {
+          "name": "Watch the flag ceremony",
+          "body": [
+            "The temple's large flag is changed several times a day by members of a family who hold the hereditary right, climbing the spire to replace it. Devotees sponsor the flags, often booked years in advance. It is a striking sight from the ghats."
+          ]
+        },
+        {
+          "name": "Walk Gomti Ghat and Sudama Setu",
+          "body": [
+            "Gomti Ghat, below the temple, is where pilgrims bathe at the meeting of river and sea. Sudama Setu, a pedestrian bridge across the Gomti, leads to the Panchkui (five wells) and gives views of the temple.",
+            "At the ghat, small shrines and bathing steps line the water, and in the evening pilgrims float lamps as the temple's bells ring above. Camel rides are offered on the sand near the river mouth."
+          ],
+          "facts": {
+            "Best time": "Evening"
+          }
+        }
+      ]
+    },
+    {
+      "id": "around",
+      "heading": "Around Dwarka",
+      "items": [
+        {
+          "name": "Cross to Bet Dwarka",
+          "body": [
+            "Bet Dwarka, an island off Okha about 30 km north, is believed to have been Krishna's residence. Its temples are busy with pilgrims. The Sudarshan Setu, a cable-stayed bridge opened in 2024, now links it to the mainland, replacing the old ferry crossing.",
+            "On the island, the main temple complex has shrines to Krishna and his queens, and small lanes lead to the harbour and beaches. Pilgrims often offer rice to the deity here, remembering the story of Sudama's gift of rice to Krishna."
+          ],
+          "facts": {
+            "Time needed": "Half a day"
+          }
+        },
+        {
+          "name": "Visit Nageshwar Jyotirlinga",
+          "body": [
+            "Nageshwar, on the road to Bet Dwarka, is regarded by many as one of the twelve Jyotirlingas and has a very large seated Shiva statue outside."
+          ]
+        },
+        {
+          "name": "See the Rukmini Devi Temple",
+          "body": [
+            "The Rukmini Devi Temple, a small 12th-century temple about 2 km outside town, is richly carved. Legend explains why it stands apart from Krishna's temple, and the priests often tell the story to visitors."
+          ]
+        },
+        {
+          "name": "Relax at Shivrajpur beach",
+          "body": [
+            "Shivrajpur beach, about 12 km away, has Blue Flag certification for cleanliness and safety, with clear water, facilities and water sports. Scuba and snorkelling trips have been introduced here."
+          ],
+          "facts": {
+            "Good for": "Families"
+          }
+        },
+        {
+          "name": "See Bhadkeshwar Mahadev and the lighthouse",
+          "body": [
+            "Bhadkeshwar Mahadev, a Shiva temple on a rock in the sea, is cut off at high tide. Sunset here and at the nearby Dwarka lighthouse, which visitors can climb at set hours, is lovely."
+          ],
+          "facts": {
+            "Best time": "Sunset"
+          }
+        }
+      ]
+    },
+    {
+      "id": "festivals-trips",
+      "heading": "Festivals and day trips",
+      "items": [
+        {
+          "name": "Celebrate Janmashtami",
+          "body": [
+            "Janmashtami, Krishna's birthday in August or September, is celebrated with midnight rituals, music and huge crowds. Holi and Sharad Purnima are also important."
+          ],
+          "facts": {
+            "Best time": "August or September"
+          }
+        },
+        {
+          "name": "Visit Porbandar and Somnath",
+          "body": [
+            "Porbandar, about 100 km south, has Kirti Mandir, Gandhi's birthplace. Somnath, about 230 km away, has one of the twelve Jyotirlingas by the sea."
+          ],
+          "links": [
+            {
+              "label": "Somnath guide",
+              "href": "/blog/somnath-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "See the Gopi Talav",
+          "body": [
+            "Gopi Talav, on the way to Bet Dwarka, is a pond linked to the gopis of Krishna's story, known for its yellow clay (gopichandan) used in tilak."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seasons",
+      "heading": "By season",
+      "items": [
+        {
+          "name": "October to March",
+          "body": [
+            "Pleasant weather for temples and beaches."
+          ]
+        },
+        {
+          "name": "April to June",
+          "body": [
+            "Hot and humid; visit temples early and late."
+          ]
+        },
+        {
+          "name": "July to September",
+          "body": [
+            "Monsoon rains and Janmashtami celebrations."
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Pilgrims",
+      "text": "Dwarkadhish darshan, Bet Dwarka, Nageshwar and Rukmini Devi."
+    },
+    {
+      "who": "Families",
+      "text": "Shivrajpur beach, the Sudarshan Setu and the lighthouse at sunset."
+    },
+    {
+      "who": "Road-trippers",
+      "text": "Combine Dwarka with Porbandar, Somnath and Gir."
+    },
+    {
+      "who": "Photographers",
+      "text": "The temple spire at dawn from Sudama Setu, the flag ceremony and sunset at Bhadkeshwar."
+    }
+  ],
+  "oneDay": "Have darshan at the Dwarkadhish Temple in the morning and walk the Gomti Ghat. Drive to Nageshwar and across the Sudarshan Setu to Bet Dwarka, and return via Rukmini Devi Temple to Bhadkeshwar Mahadev for sunset.",
+  "tips": [
+    "Dwarka has a railway station; Jamnagar and Porbandar have the nearest airports.",
+    "Deposit phones before entering the temple.",
+    "Gujarat is a dry state; alcohol requires a permit.",
+    "Crowds are huge at Janmashtami; book rooms early.",
+    "Carry a scarf or shawl for temple visits."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Dwarka?",
+      "a": "Visit the Dwarkadhish Temple and watch the flag ceremony, walk Gomti Ghat and Sudama Setu, cross to Bet Dwarka, visit Nageshwar and Rukmini Devi temples, and relax at Shivrajpur beach."
+    },
+    {
+      "q": "How do I reach Bet Dwarka?",
+      "a": "By road across the Sudarshan Setu bridge from Okha, opened in 2024."
+    },
+    {
+      "q": "How many days are enough for Dwarka?",
+      "a": "One to two days."
+    },
+    {
+      "q": "When is the best time to visit Dwarka?",
+      "a": "October to March, or at Janmashtami for the festival."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Somnath",
+      "href": "/blog/somnath-travel-guide",
+      "note": "Jyotirlinga by the sea"
+    },
+    {
+      "name": "Gir National Park",
+      "href": "/blog/gir-national-park-travel-guide",
+      "note": "Asiatic lions"
+    },
+    {
+      "name": "Things to do in Diu",
+      "href": "/blog/things-to-do-in-diu",
+      "note": "Portuguese island and beaches"
+    }
+  ],
+  "styles": [
+    "spiritual-tours",
+    "family-holidays"
+  ],
+  "metaDescription": "Things to do in Dwarka: the Dwarkadhish Temple and its flag ceremony, Gomti Ghat and Sudama Setu, Bet Dwarka across the Sudarshan Setu, Nageshwar Jyotirlinga and more."
+}

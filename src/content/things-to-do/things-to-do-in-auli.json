@@ -1,0 +1,254 @@
+{
+  "slug": "things-to-do-in-auli",
+  "destination": "Auli",
+  "guide": "auli-travel-guide",
+  "type": "ski resort",
+  "title": "Things to Do in Auli: Skiing, Meadow Walks & Nanda Devi Views",
+  "seoTitle": "Things to Do in Auli: Skiing, Treks & Views | Kudozz Club",
+  "description": "Things to do in Auli: skiing and snow courses in winter, the chair lift and the Joshimath ropeway (when running), Auli Lake, the Gorson Bugyal walk, Kuari Pass and Kwani Bugyal treks, and trips to Joshimath and Badrinath.",
+  "dek": "High meadows above Joshimath that turn into India's best-known ski slopes in winter, facing Nanda Devi and a long line of Garhwal peaks.",
+  "primaryKeyword": "things to do in Auli",
+  "secondaryKeywords": [
+    "Auli skiing",
+    "Gorson Bugyal",
+    "Auli ropeway",
+    "Auli in winter",
+    "Auli in summer",
+    "Kuari Pass trek"
+  ],
+  "searchIntent": "Travellers planning a snow or skiing trip in winter, or a meadow-and-views break in spring and autumn, usually for two to three days.",
+  "tags": [
+    "Auli",
+    "Uttarakhand",
+    "Skiing",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/uttarakhand/auli/auli-lake-2.webp",
+    "alt": "Auli Lake with snow on the surrounding slopes in February",
+    "caption": "Auli Lake in winter"
+  },
+  "intro": [
+    "Auli is a set of high slopes and meadows at roughly 2,500 to 3,000 metres above Joshimath in Chamoli district, Uttarakhand. In winter the oak-fringed slopes are covered in snow and used for skiing; the rest of the year they are open grassland (bugyal) with a wide view of Nanda Devi, Dronagiri, Kamet and other peaks of the Garhwal Himalaya.",
+    "What you can do in Auli depends heavily on the season. January to March is for snow, skiing courses and snowshoe walks. April to June and September to November are for meadow walks, treks such as Kuari Pass and clear mountain views. The monsoon brings rain and landslide risk on the long road up from Rishikesh.",
+    "Two to three days is enough for most visitors; add more if you are learning to ski or trekking. Auli is a small place with limited facilities, and Joshimath, 16 km below, is the nearest town."
+  ],
+  "quickAnswer": [
+    "Ski or take a beginners' course (January to March)",
+    "Walk or snowshoe up to Gorson Bugyal",
+    "See Auli Lake, the artificial lake above the slopes",
+    "Ride the chair lift along the ski slope",
+    "Take the Joshimath–Auli ropeway, if it is operating",
+    "Trek to Kuari Pass or Kwani Bugyal",
+    "Visit Joshimath's Narsingh Temple and Jyotirmath",
+    "Take a day trip to Badrinath (May to November)"
+  ],
+  "sections": [
+    {
+      "id": "snow",
+      "heading": "Snow and skiing (January to March)",
+      "items": [
+        {
+          "name": "Ski or learn to ski",
+          "body": [
+            "Auli's slopes are the most developed ski area in Uttarakhand. Garhwal Mandal Vikas Nigam (GMVN) has run multi-day skiing courses for beginners, and private instructors and rental shops near the slopes hire out skis, boots and poles. A first-timer can usually manage simple runs after a few days of lessons.",
+            "Snow cover depends on the year. Late January to early March is usually the most reliable window; check snow conditions before booking, especially early and late in the season. Auli has also hosted national winter games and skiing championships."
+          ],
+          "facts": {
+            "Best time": "January to early March",
+            "Time needed": "3–7 days for a course",
+            "Good for": "Beginners and intermediate skiers",
+            "Good to know": "Snow cover varies year to year"
+          }
+        },
+        {
+          "name": "Play in the snow",
+          "body": [
+            "If skiing is not for you, the snow is still the main attraction: sledging, snowball fights, snowshoe walks on the upper slopes and simply watching the peaks turn pink at sunset. Families with young children should dress them in waterproof layers and keep sessions short in the cold."
+          ],
+          "facts": {
+            "Good for": "Families, first-time snow visitors"
+          }
+        },
+        {
+          "name": "Ride the chair lift",
+          "body": [
+            "A chair lift runs along the main slope, carrying skiers up and giving non-skiers a quick ride with views. Timings and operation depend on weather and maintenance."
+          ],
+          "facts": {
+            "Time needed": "30–45 minutes"
+          }
+        },
+        {
+          "name": "The Joshimath–Auli ropeway",
+          "body": [
+            "The cable car between Joshimath and Auli, about 4 km long, is one of the longest in Asia and was long a highlight of the trip. It has been suspended for extended periods, including after the Joshimath land subsidence of 2023. Check the current status before you plan around it; the road from Joshimath is the dependable route."
+          ],
+          "facts": {
+            "Good to know": "Operation has been suspended at times; confirm locally"
+          }
+        }
+      ]
+    },
+    {
+      "id": "meadows",
+      "heading": "Meadows, lakes and treks",
+      "items": [
+        {
+          "name": "Walk to Gorson Bugyal",
+          "body": [
+            "Gorson Bugyal is a high meadow above Auli, reached by a walk of about 3 km through oak and conifer forest from the top of the slopes. In spring and autumn it is green and open, with views of Nanda Devi, Trishul and Dronagiri; in winter the same route becomes a snow walk. Tali Lake, a small pond further up, is a good extension for fit walkers."
+          ],
+          "facts": {
+            "Time needed": "3–4 hours return",
+            "Best time": "April to June, September to November",
+            "Good for": "Walkers, families with older children"
+          }
+        },
+        {
+          "name": "See Auli Lake",
+          "body": [
+            "Auli Lake is an artificial lake at the top of the slopes, built to supply snow-making equipment for the ski runs. It is among the highest man-made lakes in the country, and the view of the peaks behind it makes it a popular photo stop in every season."
+          ],
+          "facts": {
+            "Time needed": "30 minutes"
+          }
+        },
+        {
+          "name": "Trek to Kuari Pass or Kwani Bugyal",
+          "body": [
+            "The Kuari Pass trek, often called the Lord Curzon Trail, starts in the Joshimath area and takes about five to six days through forests and meadows to a pass with one of the widest views in the Garhwal Himalaya. Kwani Bugyal is a shorter meadow trek in the same area. Both should be done with a registered trekking operator."
+          ],
+          "facts": {
+            "Time needed": "2–6 days",
+            "Best time": "Spring, autumn; Kuari Pass is also done in snow in winter",
+            "Good for": "Trekkers"
+          }
+        },
+        {
+          "name": "Watch sunrise over Nanda Devi",
+          "body": [
+            "The main reason to stay overnight in Auli rather than visiting from Joshimath is the dawn light on Nanda Devi, India's second-highest peak, and its neighbours. Clear mornings in October, November and after winter snow give the best views."
+          ],
+          "facts": {
+            "Best time": "Sunrise, October to March"
+          }
+        }
+      ]
+    },
+    {
+      "id": "around",
+      "heading": "Joshimath and beyond",
+      "items": [
+        {
+          "name": "Visit Narsingh Temple and Jyotirmath",
+          "body": [
+            "Joshimath is one of the four maths (monastic seats) established by Adi Shankaracharya. Jyotirmath and the Kalpavriksha tree associated with him are here, and the Narsingh Temple is the winter seat of Badrinath, where the deity is worshipped when the Badrinath shrine closes for the season."
+          ],
+          "facts": {
+            "Time needed": "2 hours"
+          }
+        },
+        {
+          "name": "Take a day trip to Badrinath",
+          "body": [
+            "Badrinath, one of the Char Dham, is about 45 km from Joshimath and open roughly from late April or May to November. From Auli, it makes a long but rewarding day trip that can include Mana, described as the last village before the Tibet border, and Vasudhara Falls."
+          ],
+          "links": [
+            {
+              "label": "Badrinath travel guide",
+              "href": "/blog/badrinath-travel-guide"
+            }
+          ],
+          "facts": {
+            "Best time": "May to June, September to October",
+            "Good for": "Pilgrims, families"
+          }
+        },
+        {
+          "name": "Head to the Valley of Flowers",
+          "body": [
+            "Govindghat, the start of the Valley of Flowers and Hemkund Sahib treks, is about 20 km from Joshimath. The valley blooms from July to September, when Auli itself is in the monsoon."
+          ],
+          "links": [
+            {
+              "label": "Valley of Flowers travel guide",
+              "href": "/blog/valley-of-flowers-travel-guide"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "First-time snow visitors",
+      "text": "Plan for February, book a stay near the slopes, and spend a day playing in the snow and a day on a short ski lesson."
+    },
+    {
+      "who": "Families",
+      "text": "Auli is good for children in snow season if they are dressed warmly. Keep the days short, and allow an extra night on the long road from Rishikesh."
+    },
+    {
+      "who": "Trekkers",
+      "text": "Combine Auli with the Kuari Pass trek, or use it as an acclimatisation stop before higher walks."
+    }
+  ],
+  "oneDay": "Watch the sunrise on Nanda Devi from the slopes, then walk up to Auli Lake and continue to Gorson Bugyal for a picnic lunch. Come back down by the chair lift if it is running, and in winter spend the afternoon on a ski lesson or sledging. In the evening, drive down to Joshimath for the Narsingh Temple.",
+  "tips": [
+    "The drive from Rishikesh to Joshimath is about 250 km on mountain roads and usually takes 9 to 11 hours; many travellers break it at Rudraprayag or Chamoli.",
+    "The nearest railway station is Yog Nagari Rishikesh; the nearest airport is Jolly Grant, Dehradun.",
+    "Carry proper thermals, waterproof boots and gloves in winter; temperatures drop well below freezing at night.",
+    "ATMs and shops are limited in Auli; stock up in Joshimath."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Auli?",
+      "a": "Skiing and snow play in winter, walks to Gorson Bugyal and Auli Lake, the chair lift, sunrise views of Nanda Devi, treks such as Kuari Pass, and trips to Joshimath and Badrinath."
+    },
+    {
+      "q": "When is the best time for snow in Auli?",
+      "a": "Late January to early March usually has the most reliable snow for skiing. Light snow can start in December, but cover varies from year to year."
+    },
+    {
+      "q": "Is the Auli ropeway working?",
+      "a": "The Joshimath–Auli ropeway has been suspended for long periods, including after the 2023 Joshimath subsidence. Check locally before your trip; the road from Joshimath is always the backup."
+    },
+    {
+      "q": "Can beginners ski in Auli?",
+      "a": "Yes. Multi-day courses and private instructors cater to complete beginners, and equipment can be rented near the slopes."
+    },
+    {
+      "q": "How many days are enough for Auli?",
+      "a": "Two to three days covers the slopes, Gorson Bugyal and Joshimath. Allow a week for a skiing course or a trek such as Kuari Pass."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Badrinath",
+      "href": "/blog/badrinath-travel-guide",
+      "note": "the Char Dham shrine about 45 km beyond Joshimath"
+    },
+    {
+      "name": "Valley of Flowers",
+      "href": "/blog/valley-of-flowers-travel-guide",
+      "note": "monsoon blooms, starting near Govindghat"
+    },
+    {
+      "name": "Things to do in Chopta",
+      "href": "/blog/things-to-do-in-chopta",
+      "note": "Tungnath and Chandrashila, another high-meadow base"
+    },
+    {
+      "name": "Things to do in Rishikesh",
+      "href": "/blog/things-to-do-in-rishikesh",
+      "note": "the usual starting point for the drive up"
+    }
+  ],
+  "styles": [
+    "adventure-tours",
+    "family-holidays",
+    "honeymoon"
+  ],
+  "metaDescription": "Things to do in Auli: skiing and snow courses in winter, the chair lift and the Joshimath ropeway (when running), Auli Lake, the Gorson Bugyal walk and more."
+}

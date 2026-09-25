@@ -1,0 +1,274 @@
+{
+  "slug": "things-to-do-in-surat",
+  "destination": "Surat",
+  "guide": "surat-travel-guide",
+  "type": "city",
+  "title": "Things to Do in Surat: Food Streets, Heritage, Beaches & Diamond City Life",
+  "seoTitle": "Things to Do in Surat: Food, Heritage & Beaches | Kudozz Club",
+  "description": "Things to do in Surat: eat your way through locho, undhiyu, ghari and ponk, see Surat Castle and the Dutch and Armenian cemeteries, walk the Tapi riverfront, visit Dumas and Suvali beaches, the Sardar Patel Museum and the Science Centre, and take trips to Dandi, Tithal and Saputara.",
+  "dek": "A historic Mughal port turned India's diamond and textile capital, loved across Gujarat for its food and its easygoing, fun-loving spirit.",
+  "primaryKeyword": "things to do in Surat",
+  "secondaryKeywords": [
+    "places to visit in Surat",
+    "Surat food",
+    "Surat Castle",
+    "Dumas beach",
+    "Surat diamond industry",
+    "Surat ghari",
+    "Surat to Saputara"
+  ],
+  "searchIntent": "Business travellers, foodies and weekenders spending one or two days in Surat.",
+  "tags": [
+    "Surat",
+    "Gujarat",
+    "City",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/gujarat/surat/surat-castle-tapi-river.webp",
+    "alt": "Surat Castle (Old Fort) on the banks of the Tapi"
+  },
+  "intro": [
+    "Surat, on the Tapi river near the Gulf of Khambhat, was one of the richest ports of Mughal India, where the English, Dutch, Portuguese and French set up trading posts in the 17th century. Today it is one of India's fastest-growing cities, the centre of the diamond cutting and polishing industry and a major hub for synthetic textiles.",
+    "The things to do in Surat are less about big monuments and more about the city's life and food. Surtis are famous for loving to eat, and the city is full of food streets and snacks. Heritage sites include Surat Castle and the old European cemeteries, and beaches and historic Dandi are within easy reach.",
+    "One or two days is enough. November to February is the best time, when the famous winter snacks are in season."
+  ],
+  "quickAnswer": [
+    "Eat locho, khaman and Surti snacks",
+    "Try undhiyu and ponk in winter",
+    "Buy Surti ghari on Chandani Padvo",
+    "See Surat Castle",
+    "Visit the Dutch and Armenian cemeteries",
+    "Walk the Tapi riverfront",
+    "Watch sunset at Dumas beach",
+    "See the Sardar Patel Museum",
+    "Visit the Science Centre",
+    "Take a trip to Dandi and Tithal"
+  ],
+  "sections": [
+    {
+      "id": "food",
+      "heading": "Food",
+      "items": [
+        {
+          "name": "Eat locho and Surti snacks",
+          "body": [
+            "Locho, a soft, spicy steamed gram-flour snack topped with butter, sev and chutney, is Surat's signature breakfast. Try khaman, sev khamni, alu puri and rasawala khaman at old stalls in the city's food streets. There is a local saying that one should eat in Surat and die in Kashi.",
+            "Food streets around Chowk Bazaar, Bhagal and Athwa are busiest in the evenings."
+          ],
+          "facts": {
+            "Good for": "Food lovers",
+            "Best time": "Morning and evening"
+          }
+        },
+        {
+          "name": "Try undhiyu and ponk in winter",
+          "body": [
+            "In winter, Surat makes undhiyu, a mixed vegetable dish cooked slowly with spices, often in earthen pots. Ponk, tender green sorghum roasted and eaten with sev and chutney, is sold at roadside ponk centres from about December to February."
+          ],
+          "facts": {
+            "Best time": "December to February"
+          }
+        },
+        {
+          "name": "Buy ghari on Chandani Padvo",
+          "body": [
+            "Ghari, a rich sweet made with ghee, mawa and dry fruits, is eaten across the city on Chandani Padvo, the day after Sharad Purnima in autumn. Sweet shops sell it all year."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "heritage",
+      "heading": "Heritage",
+      "items": [
+        {
+          "name": "See Surat Castle",
+          "body": [
+            "Surat Castle (the Old Fort), built in the 16th century to defend the city against the Portuguese, has been restored and opened as a heritage site with galleries on Surat's history. It stands near the Tapi."
+          ],
+          "facts": {
+            "Time needed": "1 hour"
+          }
+        },
+        {
+          "name": "Visit the Dutch and Armenian cemeteries",
+          "body": [
+            "The Dutch and English cemeteries in Katargam have grand tombs of traders from the 17th and 18th centuries, among the oldest European cemeteries in India. The Armenian cemetery reflects the city's once-thriving Armenian merchant community."
+          ]
+        },
+        {
+          "name": "Visit the Sardar Patel Museum",
+          "body": [
+            "The Sardar Vallabhbhai Patel Museum, one of the oldest museums in Gujarat, has textiles, arms, coins, ceramics and a gallery on Surat's history."
+          ]
+        },
+        {
+          "name": "See the diamond city",
+          "body": [
+            "Much of the world's diamonds are cut and polished in Surat. Large diamond companies are not generally open to casual visits, but the Surat Diamond Bourse and busy Varachha area show the industry's scale."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outdoors",
+      "heading": "Riverfront and beaches",
+      "items": [
+        {
+          "name": "Walk the Tapi riverfront",
+          "body": [
+            "The riverfront promenades and gardens along the Tapi are busy in the evening, with food stalls and views of the bridges lit up at night."
+          ],
+          "facts": {
+            "Best time": "Evening"
+          }
+        },
+        {
+          "name": "Watch sunset at Dumas beach",
+          "body": [
+            "Dumas beach, about 20 km away, has black sand and a lively food stretch with bhajias and corn. It is known in local lore for ghost stories. Swimming is not recommended because of currents."
+          ],
+          "facts": {
+            "Best time": "Sunset",
+            "Good to know": "Not suited to swimming"
+          }
+        },
+        {
+          "name": "Visit Suvali and Ubharat beaches",
+          "body": [
+            "Suvali and Ubharat beaches are quieter alternatives, with casuarina groves and fewer crowds."
+          ]
+        },
+        {
+          "name": "Visit the Science Centre",
+          "body": [
+            "The Science Centre in Citylight has a planetarium, science galleries and a museum, popular with families."
+          ],
+          "facts": {
+            "Good for": "Families"
+          }
+        }
+      ]
+    },
+    {
+      "id": "day-trips",
+      "heading": "Day trips",
+      "items": [
+        {
+          "name": "Visit Dandi",
+          "body": [
+            "Dandi, about 45 km south, is where Gandhi ended the Salt March in 1930 by picking up a handful of salt. The National Salt Satyagraha Memorial has sculptures of the marchers, a solar-powered salt pan and a museum.",
+            "The memorial's walkway, lined with statues of the marchers, ends at a canopy over Gandhi's figure, and the beach where he picked up salt is a short walk away. It is especially meaningful on 6 April, the anniversary."
+          ],
+          "facts": {
+            "Time needed": "Half a day"
+          }
+        },
+        {
+          "name": "Relax at Tithal beach",
+          "body": [
+            "Tithal, near Valsad, is a black-sand beach with a Swaminarayan temple and a Sai Baba temple, popular with families."
+          ]
+        },
+        {
+          "name": "Go up to Saputara",
+          "body": [
+            "Saputara, Gujarat's hill station, is about four hours away in the Sahyadri foothills."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Saputara",
+              "href": "/blog/things-to-do-in-saputara"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seasons",
+      "heading": "By season",
+      "items": [
+        {
+          "name": "November to February",
+          "body": [
+            "Pleasant weather and the season for undhiyu and ponk."
+          ]
+        },
+        {
+          "name": "March to June",
+          "body": [
+            "Hot and humid; evenings on the riverfront are pleasant."
+          ]
+        },
+        {
+          "name": "July to October",
+          "body": [
+            "Heavy monsoon rain, followed by Navratri and Chandani Padvo in autumn."
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Food lovers",
+      "text": "A breakfast locho crawl, winter ponk and undhiyu, and evening food streets."
+    },
+    {
+      "who": "Families",
+      "text": "The Science Centre, Surat Castle and Dumas beach."
+    },
+    {
+      "who": "History lovers",
+      "text": "The castle, the European cemeteries and a trip to Dandi."
+    }
+  ],
+  "oneDay": "Start with locho for breakfast, then visit Surat Castle and the Dutch cemetery. After lunch, see the Sardar Patel Museum and the Science Centre, and end at Dumas beach for sunset and snacks.",
+  "tips": [
+    "Surat has an airport and a major railway station on the Mumbai–Delhi line.",
+    "Gujarat is a dry state; alcohol requires a permit.",
+    "Traffic can be heavy; use app cabs.",
+    "Winter is the best season for food."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Surat?",
+      "a": "Eat locho, undhiyu, ponk and ghari, see Surat Castle and the European cemeteries, walk the Tapi riverfront, visit Dumas beach, the Sardar Patel Museum and the Science Centre, and take trips to Dandi and Saputara."
+    },
+    {
+      "q": "What is Surat famous for?",
+      "a": "Diamond cutting and polishing, textiles and its food."
+    },
+    {
+      "q": "How many days are enough for Surat?",
+      "a": "One to two days."
+    },
+    {
+      "q": "What is the best time to visit Surat?",
+      "a": "November to February."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Saputara",
+      "href": "/blog/things-to-do-in-saputara",
+      "note": "Gujarat's hill station"
+    },
+    {
+      "name": "Things to do in Vadodara",
+      "href": "/blog/things-to-do-in-vadodara",
+      "note": "palaces and Champaner"
+    },
+    {
+      "name": "Things to do in Daman",
+      "href": "/blog/things-to-do-in-daman",
+      "note": "Portuguese forts and beaches"
+    }
+  ],
+  "styles": [
+    "weekend-getaways",
+    "family-holidays"
+  ],
+  "metaDescription": "Things to do in Surat: eat your way through locho, undhiyu, ghari and ponk, see Surat Castle and the Dutch and Armenian cemeteries, walk the Tapi riverfront and more."
+}

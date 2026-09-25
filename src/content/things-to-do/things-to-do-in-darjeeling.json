@@ -1,0 +1,330 @@
+{
+  "slug": "things-to-do-in-darjeeling",
+  "destination": "Darjeeling",
+  "guide": "darjeeling-travel-guide",
+  "type": "hill station",
+  "title": "Things to Do in Darjeeling: Kanchenjunga Sunrise, Toy Train & Tea Gardens",
+  "seoTitle": "Things to Do in Darjeeling: Tiger Hill, Toy Train & Tea | Kudozz Club",
+  "description": "Things to do in Darjeeling: sunrise over Kanchenjunga at Tiger Hill, the Darjeeling Himalayan Railway joy ride, Batasia Loop, Ghoom Monastery, tea estate tours and tastings, the Himalayan Mountaineering Institute and zoo, the Mall and Chowrasta, the ropeway and the Sandakphu trek.",
+  "dek": "A ridge-top hill town facing the third-highest mountain in the world, surrounded by tea gardens and linked to the plains by a UNESCO-listed toy train.",
+  "primaryKeyword": "things to do in Darjeeling",
+  "secondaryKeywords": [
+    "places to visit in Darjeeling",
+    "Tiger Hill sunrise",
+    "Darjeeling toy train",
+    "Darjeeling tea garden tour",
+    "Batasia Loop",
+    "Himalayan Mountaineering Institute"
+  ],
+  "searchIntent": "Families, couples and first-time hill travellers planning three days in Darjeeling, often combined with Gangtok or Kalimpong.",
+  "tags": [
+    "Darjeeling",
+    "West Bengal",
+    "Hill Station",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/west-bengal/darjeeling/darjeeling-himalayan-railway-toy-train.webp",
+    "alt": "Darjeeling Himalayan Railway toy train on the hill road",
+    "caption": "Darjeeling Himalayan Railway"
+  },
+  "intro": [
+    "Darjeeling, at about 2,050 metres in the north of West Bengal, was developed by the British from the 1830s as a sanatorium and summer retreat. Tea planting followed, and today the name Darjeeling is known worldwide for its fine tea. On clear days, the town faces Kanchenjunga, at 8,586 metres the third-highest mountain on earth.",
+    "The best things to do in Darjeeling include the pre-dawn trip to Tiger Hill for sunrise on Kanchenjunga, a ride on the Darjeeling Himalayan Railway, a tea estate visit with a tasting, monasteries at Ghoom and around town, the Himalayan Mountaineering Institute and the zoo with its red pandas, and evenings on the Mall and Chowrasta.",
+    "Three days covers the essentials. March to May and October to December give the best chance of clear mountain views."
+  ],
+  "quickAnswer": [
+    "Watch sunrise on Kanchenjunga from Tiger Hill",
+    "Ride the toy train to Ghoom via Batasia Loop",
+    "Tour a tea estate and do a tasting",
+    "Visit Ghoom Monastery",
+    "See the Himalayan Mountaineering Institute",
+    "See red pandas at the Padmaja Naidu Zoological Park",
+    "Walk the Mall and Chowrasta",
+    "Visit the Japanese Peace Pagoda",
+    "Ride the Rangeet Valley ropeway",
+    "Trek to Sandakphu for views of Everest"
+  ],
+  "sections": [
+    {
+      "id": "views-train",
+      "heading": "Sunrise and the toy train",
+      "items": [
+        {
+          "name": "Watch sunrise from Tiger Hill",
+          "body": [
+            "Tiger Hill, about 11 km from Darjeeling, is the classic viewpoint for sunrise over Kanchenjunga and the eastern Himalaya. On clear mornings, the snow peaks turn pink and gold, and Everest may be visible in the distance. Jeeps leave town around 4 a.m. It gets very crowded in season; a viewing gallery charges a fee.",
+            "Views depend entirely on the weather. If the morning is cloudy, try again the next day."
+          ],
+          "facts": {
+            "Time needed": "3–4 hours including travel",
+            "Best time": "October to December, March to April",
+            "Good to know": "Leave around 4 a.m."
+          }
+        },
+        {
+          "name": "Ride the Darjeeling Himalayan Railway",
+          "body": [
+            "The Darjeeling Himalayan Railway, opened in 1881 and a UNESCO World Heritage Site, climbs from the plains to Darjeeling on a narrow two-foot gauge, with loops and zigzags. The popular joy ride runs from Darjeeling to Ghoom and back, often with steam locomotives, stopping at Batasia Loop. Book in advance, especially in peak season."
+          ],
+          "facts": {
+            "Time needed": "2 hours for the joy ride",
+            "Good for": "Families, rail lovers",
+            "Good to know": "Book ahead"
+          }
+        },
+        {
+          "name": "See Batasia Loop",
+          "image": {
+            "src": "/images/blogs/west-bengal/darjeeling/batasia-loop-war-memorial-darjeeling.webp",
+            "alt": "Batasia Loop and war memorial, Darjeeling",
+            "caption": "Batasia Loop"
+          },
+          "body": [
+            "Batasia Loop is a spiral where the toy train turns a full circle to gain height. The garden inside the loop has a Gorkha war memorial and, on clear days, a fine view of Kanchenjunga and Darjeeling."
+          ],
+          "facts": {
+            "Time needed": "30 minutes"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tea-monasteries",
+      "heading": "Tea and monasteries",
+      "items": [
+        {
+          "name": "Tour a tea estate",
+          "image": {
+            "src": "/images/blogs/west-bengal/darjeeling/darjeeling-tea-garden-misty-hills.webp",
+            "alt": "Tea garden on misty hillsides near Darjeeling",
+            "caption": "Darjeeling tea garden"
+          },
+          "body": [
+            "Darjeeling has dozens of tea estates on its slopes. Happy Valley, close to town, is one of the easiest to visit, and several estates offer factory tours and tastings. The first flush, picked in spring, is the most prized. Some estates have bungalow stays for a night among the bushes."
+          ],
+          "facts": {
+            "Time needed": "1.5–2 hours",
+            "Best time": "March to May and October for plucking",
+            "Good to know": "Factories may close on some days"
+          }
+        },
+        {
+          "name": "Visit Ghoom Monastery",
+          "image": {
+            "src": "/images/blogs/west-bengal/darjeeling/ghoom-yiga-choeling-monastery-gate.webp",
+            "alt": "Gate of Ghoom Yiga Choeling Monastery",
+            "caption": "Ghoom Monastery"
+          },
+          "body": [
+            "Yiga Choeling Monastery at Ghoom, founded in 1850, is one of the oldest Tibetan Buddhist monasteries in the area. It houses a large statue of the Maitreya Buddha. Ghoom itself is the highest station on the toy train line."
+          ],
+          "facts": {
+            "Time needed": "45 minutes"
+          }
+        },
+        {
+          "name": "See the Peace Pagoda and Observatory Hill",
+          "body": [
+            "The Japanese Peace Pagoda, built by the Nipponzan Myohoji order, is a white stupa with views of the ranges. Observatory Hill, above Chowrasta, has the Mahakal Temple, where Hindu and Buddhist worship take place side by side under prayer flags."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "town",
+      "heading": "In town",
+      "items": [
+        {
+          "name": "Visit the Himalayan Mountaineering Institute",
+          "body": [
+            "The Himalayan Mountaineering Institute was founded in 1954 after the first ascent of Everest, with Tenzing Norgay as its first director of field training. Its museum displays equipment and stories from Himalayan expeditions, and Tenzing's memorial is nearby."
+          ],
+          "facts": {
+            "Time needed": "1–1.5 hours",
+            "Good for": "Adventure lovers, families"
+          }
+        },
+        {
+          "name": "See red pandas at the zoo",
+          "image": {
+            "src": "/images/blogs/west-bengal/darjeeling/red-panda-darjeeling-zoo.webp",
+            "alt": "Red panda at Darjeeling zoo",
+            "caption": "Red panda, Padmaja Naidu Himalayan Zoological Park"
+          },
+          "body": [
+            "The Padmaja Naidu Himalayan Zoological Park, next to the HMI, specialises in high-altitude animals and runs breeding programmes for the red panda and snow leopard. It is closed on Thursdays."
+          ],
+          "facts": {
+            "Good to know": "Closed on Thursdays",
+            "Good for": "Families"
+          }
+        },
+        {
+          "name": "Walk the Mall and Chowrasta",
+          "body": [
+            "Chowrasta is the open square at the top of the Mall, the heart of Darjeeling, with views on clear days and pony rides for children. The Mall and the lanes below have old bakeries, tea shops, bookshops and restaurants serving momos and thukpa."
+          ],
+          "facts": {
+            "Best time": "Evening"
+          }
+        },
+        {
+          "name": "Ride the ropeway and visit the Tibetan centre",
+          "body": [
+            "The Darjeeling Ropeway descends from North Point into the Rangeet valley over tea gardens. Nearby, the Tibetan Refugee Self Help Centre, set up in 1959, sells carpets and crafts made by the community. Check ropeway operation, as it closes at times."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "food-shopping",
+      "heading": "Food, tea shopping and gardens",
+      "items": [
+        {
+          "name": "Eat in Darjeeling's old cafés and bakeries",
+          "body": [
+            "Darjeeling's century-old bakeries and tea rooms on the Mall and Nehru Road are part of the experience: tea with a view, cakes and breakfasts. For local food, try momos, thukpa, shaphaley (fried meat-filled bread), sel roti and churpi, a hard cheese made from yak or cow milk."
+          ],
+          "facts": {
+            "Good for": "Food lovers"
+          }
+        },
+        {
+          "name": "Buy tea properly",
+          "body": [
+            "Darjeeling tea is graded by flush (first flush in spring, second flush in early summer, autumnal) and by leaf grade. Buy from estate outlets or established tea shops, where you can taste before buying. Look for the Darjeeling logo, which marks tea grown in the region under its Geographical Indication."
+          ],
+          "facts": {
+            "Good to know": "Taste before you buy"
+          }
+        },
+        {
+          "name": "Walk through Lloyd's Botanical Garden",
+          "body": [
+            "Lloyd's Botanical Garden, laid out in the 19th century on land donated by a banker, has Himalayan plants, orchids and a cactus house on terraced slopes below the town. It is a quiet walk away from the Mall."
+          ],
+          "facts": {
+            "Time needed": "1 hour"
+          }
+        },
+        {
+          "name": "See St Andrew's Church and the old town",
+          "body": [
+            "St Andrew's Church, near Observatory Hill, dates from the 1840s (rebuilt later) and is one of several colonial buildings that give the ridge its character. The town's old schools, such as St Paul's, and the Raj Bhavan are seen from outside."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beyond",
+      "heading": "Beyond Darjeeling",
+      "items": [
+        {
+          "name": "Trek to Sandakphu",
+          "body": [
+            "Sandakphu, at about 3,630 metres on the Singalila Ridge along the Nepal border, is the highest point in West Bengal. From the top, four of the world's five highest peaks, Everest, Kanchenjunga, Lhotse and Makalu, can be seen on clear days. The trek from Manebhanjan takes four to six days with a guide; jeeps also go to the top."
+          ],
+          "links": [
+            {
+              "label": "Sandakphu guide",
+              "href": "/blog/sandakphu-travel-guide"
+            }
+          ],
+          "facts": {
+            "Best time": "October to December, March to May"
+          }
+        },
+        {
+          "name": "Visit Mirik and Kurseong",
+          "body": [
+            "Mirik, about 50 km away, has a lake with boating and tea gardens around it. Kurseong, lower down the toy train line, is quieter than Darjeeling, with tea estates and old schools."
+          ]
+        },
+        {
+          "name": "Go on to Kalimpong or Gangtok",
+          "body": [
+            "Kalimpong, about three hours away, has monasteries and nurseries; Gangtok, in Sikkim, is about four hours."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Kalimpong",
+              "href": "/blog/things-to-do-in-kalimpong"
+            },
+            {
+              "label": "Things to do in Gangtok",
+              "href": "/blog/things-to-do-in-gangtok"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Families",
+      "text": "Toy train joy ride, zoo and HMI, pony rides at Chowrasta and the ropeway."
+    },
+    {
+      "who": "Couples",
+      "text": "Tiger Hill sunrise, a tea estate bungalow stay and quiet evenings in the old bakeries."
+    },
+    {
+      "who": "Trekkers",
+      "text": "Add the Sandakphu trek along the Singalila Ridge."
+    }
+  ],
+  "oneDay": "Go to Tiger Hill for sunrise, stopping at Ghoom Monastery and Batasia Loop on the way back. After breakfast, visit the HMI and the zoo, then take the ropeway or visit Happy Valley Tea Estate. Spend the evening on the Mall and Chowrasta.",
+  "tips": [
+    "Bagdogra Airport and New Jalpaiguri (NJP) railway station are about three hours away by road.",
+    "Book the toy train joy ride and Tiger Hill jeeps in advance in season.",
+    "Carry warm clothes; mornings and nights are cold for much of the year.",
+    "Landslides can disrupt roads in the monsoon (June to September)."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Darjeeling?",
+      "a": "Watch sunrise from Tiger Hill, ride the toy train, visit a tea estate, see Ghoom Monastery and Batasia Loop, visit the HMI and the zoo, walk the Mall and ride the ropeway."
+    },
+    {
+      "q": "What is the best time to see Kanchenjunga from Darjeeling?",
+      "a": "October to December, and March to April, on clear early mornings."
+    },
+    {
+      "q": "How many days are enough for Darjeeling?",
+      "a": "Three days covers the essentials; add more for Mirik, Kalimpong or the Sandakphu trek."
+    },
+    {
+      "q": "Is the Darjeeling toy train worth it?",
+      "a": "Yes. The joy ride to Ghoom and back, via Batasia Loop, is a short way to experience a UNESCO-listed mountain railway."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Kalimpong",
+      "href": "/blog/things-to-do-in-kalimpong",
+      "note": "a quieter hill town across the Teesta"
+    },
+    {
+      "name": "Things to do in Gangtok",
+      "href": "/blog/things-to-do-in-gangtok",
+      "note": "Sikkim's capital, about four hours away"
+    },
+    {
+      "name": "Sandakphu",
+      "href": "/blog/sandakphu-travel-guide",
+      "note": "the Singalila Ridge trek"
+    },
+    {
+      "name": "Dooars",
+      "href": "/blog/dooars-travel-guide",
+      "note": "forests and tea gardens in the foothills"
+    }
+  ],
+  "styles": [
+    "family-holidays",
+    "honeymoon",
+    "weekend-getaways"
+  ],
+  "metaDescription": "Things to do in Darjeeling: sunrise over Kanchenjunga at Tiger Hill, the Darjeeling Himalayan Railway joy ride, Batasia Loop, Ghoom Monastery, tea estate tours and tastings and more."
+}

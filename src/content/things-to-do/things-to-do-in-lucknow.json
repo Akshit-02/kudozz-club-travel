@@ -1,0 +1,303 @@
+{
+  "slug": "things-to-do-in-lucknow",
+  "destination": "Lucknow",
+  "guide": "lucknow-travel-guide",
+  "type": "city",
+  "title": "Things to Do in Lucknow: Nawabi Monuments, Kebabs & Chikankari",
+  "seoTitle": "Things to Do in Lucknow: Imambaras, Kebabs & Chikan | Kudozz Club",
+  "description": "Things to do in Lucknow: explore Bara Imambara and the Bhul Bhulaiya, Chota Imambara and Rumi Darwaza, the 1857 Residency, a kebab trail through Chowk and Aminabad, and chikankari shopping.",
+  "dek": "The capital of the Nawabs of Awadh, where monuments were built on a grand scale, kebabs were refined to melt in the mouth and courtesy became a civic art.",
+  "primaryKeyword": "things to do in Lucknow",
+  "secondaryKeywords": [
+    "places to visit in Lucknow",
+    "Bara Imambara",
+    "Lucknow food walk",
+    "chikankari shopping",
+    "Lucknow at night",
+    "Rumi Darwaza"
+  ],
+  "searchIntent": "Visitors planning two or three days in Lucknow who want to combine its monuments with its famous food and crafts.",
+  "tags": [
+    "Lucknow",
+    "Uttar Pradesh",
+    "Nawabi",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/uttar-pradesh/lucknow/rumi-darwaza-gateway-lucknow.webp",
+    "alt": "Rumi Darwaza gateway in Lucknow, Uttar Pradesh",
+    "caption": "Rumi Darwaza"
+  },
+  "intro": [
+    "Lucknow, the capital of Uttar Pradesh, was the seat of the Nawabs of Awadh from the late 18th century. Their patronage produced grand imambaras and gateways, a celebrated cuisine and crafts such as chikankari embroidery, along with a culture of refined manners known as tehzeeb. The city was also a major centre of the 1857 uprising.",
+    "Most of the historic monuments are in the old city around Husainabad, close enough to cover in a day. The rest of a visit is about food and shopping, in Chowk, Aminabad and Hazratganj. Two to three days is enough.",
+    "October to March is the most pleasant time to visit."
+  ],
+  "quickAnswer": [
+    "Explore Bara Imambara and get lost in the Bhul Bhulaiya",
+    "Photograph Rumi Darwaza at sunset",
+    "See the chandeliers of Chota Imambara",
+    "Walk through the ruins of the 1857 Residency",
+    "Follow a kebab and biryani trail through Chowk and Aminabad",
+    "Shop for chikankari in Chowk and Hazratganj",
+    "Eat kulfi falooda and try a Lucknowi paan",
+    "Stroll Hazratganj in the evening"
+  ],
+  "sections": [
+    {
+      "id": "monuments",
+      "heading": "Nawabi monuments",
+      "items": [
+        {
+          "name": "Explore Bara Imambara and the Bhul Bhulaiya",
+          "image": {
+            "src": "/images/blogs/uttar-pradesh/lucknow/bhul-bhulaiya-labyrinth-interior-bara-imambara.webp",
+            "alt": "Narrow passages of the Bhul Bhulaiya labyrinth inside Bara Imambara, Lucknow",
+            "caption": "Inside the Bhul Bhulaiya"
+          },
+          "body": [
+            "Bara Imambara was built by Nawab Asaf-ud-Daula in 1784, partly as a famine-relief project. Its central hall is one of the largest vaulted halls in the world built without beams or pillars. Above it is the Bhul Bhulaiya, a labyrinth of more than a thousand narrow passages and identical doorways that is genuinely disorienting; hire an official guide at the gate.",
+            "The complex also includes the Asfi Mosque and the Shahi Baoli, a stepwell with several storeys underground."
+          ],
+          "facts": {
+            "Where": "Husainabad, old Lucknow",
+            "Time needed": "2 hours",
+            "Best time": "Morning",
+            "Good to know": "Dress modestly; the complex includes an active mosque"
+          }
+        },
+        {
+          "name": "See Rumi Darwaza",
+          "body": [
+            "The 18th-century Rumi Darwaza, a 60-foot gateway just outside Bara Imambara, is the symbol of Lucknow. It is best photographed in late afternoon light or when lit up at night."
+          ],
+          "facts": {
+            "Time needed": "20 minutes",
+            "Best time": "Late afternoon or after dark"
+          }
+        },
+        {
+          "name": "Visit Chota Imambara",
+          "image": {
+            "src": "/images/blogs/uttar-pradesh/lucknow/chota-imambara-lucknow.webp",
+            "alt": "Chota Imambara with its gilded dome, Lucknow",
+            "caption": "Chota Imambara"
+          },
+          "body": [
+            "Built in 1838 by Muhammad Ali Shah, Chota Imambara is known as the Palace of Lights for the chandeliers and glass lamps inside, which are lit during Muharram. Its facade is covered in Arabic calligraphy, and replicas of the Taj Mahal stand in its garden."
+          ],
+          "facts": {
+            "Time needed": "45 minutes"
+          }
+        },
+        {
+          "name": "Walk through the Residency",
+          "image": {
+            "src": "/images/blogs/uttar-pradesh/lucknow/lucknow-residency-ruins-1857-revolt.webp",
+            "alt": "Ruins of the British Residency in Lucknow, damaged in 1857",
+            "caption": "The Residency"
+          },
+          "body": [
+            "The Residency was the British headquarters in Lucknow and was besieged for months during the uprising of 1857. Its shell-scarred ruins stand in quiet gardens, with a museum and cemetery. It is an important and moving site in India's history."
+          ],
+          "facts": {
+            "Time needed": "1.5 hours",
+            "Good for": "History lovers"
+          }
+        },
+        {
+          "name": "Other sights in the old city",
+          "body": [
+            "Near Bara Imambara, see the Husainabad Clock Tower, the tallest clock tower in India when it was built in the 1880s, and the Picture Gallery with portraits of the Nawabs. The Jama Masjid in Chowk and the 18th-century Chattar Manzil by the Gomti are also worth a look."
+          ]
+        },
+        {
+          "name": "Explore Dilkusha Kotha and La Martiniere",
+          "body": [
+            "Dilkusha Kotha, built in the early 1800s as a Nawabi hunting lodge in an English Baroque style, now stands as a picturesque ruin in a garden and was fought over during 1857. Nearby, La Martiniere College, founded under the will of the French soldier Claude Martin, is one of the most extraordinary buildings in India, mixing Gothic and Indian elements. The college grounds are not generally open, but the building is visible from the approach."
+          ],
+          "facts": {
+            "Time needed": "1–1.5 hours",
+            "Good for": "Architecture and history lovers"
+          }
+        },
+        {
+          "name": "See Kaiserbagh and the Safed Baradari",
+          "body": [
+            "Kaiserbagh was the vast palace complex of Wajid Ali Shah, the last Nawab of Awadh. Much of it was destroyed after 1857, but the white Safed Baradari pavilion and some gateways with the Nawabi fish emblem survive in the heart of the city."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "heading": "Food experiences in Lucknow",
+      "intro": "Awadhi food is built around slow cooking, delicate spicing and the dum method, where food is sealed and cooked in its own steam.",
+      "items": [
+        {
+          "name": "Follow a kebab trail",
+          "image": {
+            "src": "/images/blogs/uttar-pradesh/lucknow/galouti-kebab-tunday-kababi-lucknow.webp",
+            "alt": "Plate of galouti kebabs, Lucknow",
+            "caption": "Galouti kebabs"
+          },
+          "body": [
+            "Galouti kebabs, finely minced meat so soft it needs no chewing, are said to have been created for a Nawab who had lost his teeth. Aminabad and Chowk are the classic places to eat them, along with kakori kebabs, seekh kebabs and boti. Guided evening food walks through Chowk are a good introduction."
+          ],
+          "facts": {
+            "Best time": "Evening",
+            "Good for": "Food lovers"
+          }
+        },
+        {
+          "name": "Eat Awadhi biryani and nihari",
+          "body": [
+            "Lucknow's dum-cooked biryani is lighter and more fragrant than the Hyderabadi style. Nihari, a slow-cooked meat stew eaten with kulcha, is a breakfast tradition in the old city, especially in winter."
+          ]
+        },
+        {
+          "name": "Try kulfi falooda, makhan malai and paan",
+          "body": [
+            "Finish with kulfi falooda, dense kulfi with vermicelli and rose syrup. In winter mornings, look for makhan malai (also called nimish), a foamy milk dessert. Lucknow's paan tradition is its own art, with sweet and savoury preparations."
+          ]
+        },
+        {
+          "name": "Eat vegetarian chaat",
+          "body": [
+            "Lucknow is not only about meat. Its chaat, including basket chaat, tokri chaat and matar kulcha, is excellent, especially around Hazratganj."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shopping",
+      "heading": "Shopping and evenings",
+      "items": [
+        {
+          "name": "Shop for chikankari",
+          "image": {
+            "src": "/images/blogs/uttar-pradesh/lucknow/chikankari-embroidery-lucknow.webp",
+            "alt": "Fine white chikankari embroidery on fabric, Lucknow",
+            "caption": "Chikankari embroidery"
+          },
+          "body": [
+            "Chikankari is Lucknow's white-thread shadow embroidery, traditionally worked on fine muslin. Chowk is the traditional centre, with family workshops and wholesale shops; Hazratganj has polished boutiques. Hand-embroidered pieces take much longer to make than machine work and cost more, so ask to see the reverse of the fabric."
+          ],
+          "facts": {
+            "Where": "Chowk, Aminabad, Hazratganj",
+            "Time needed": "2 hours"
+          }
+        },
+        {
+          "name": "Stroll Hazratganj",
+          "body": [
+            "Hazratganj, the city's colonial-era shopping street, is where Lucknowis go for an evening walk (ganjing). Its restored facades, bookshops and cafés make it a pleasant place to spend an evening."
+          ],
+          "facts": {
+            "Best time": "Evening"
+          }
+        },
+        {
+          "name": "Walk along the Gomti riverfront and Ambedkar Park",
+          "body": [
+            "The Gomti riverfront and the large, sandstone-heavy memorial parks such as Ambedkar Memorial Park are lit up in the evening and popular with families."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "heading": "Culture and family outings",
+      "items": [
+        {
+          "name": "See a Kathak performance",
+          "body": [
+            "Lucknow is one of the historic centres of Kathak, the classical dance that flourished at Wajid Ali Shah's court, and the Lucknow gharana is one of its main schools. Performances are held at venues such as the Sangeet Natak Akademi and the Kathak Kendra; check listings during your stay."
+          ],
+          "facts": {
+            "Good for": "Culture lovers"
+          }
+        },
+        {
+          "name": "Visit the Lucknow Zoo and State Museum",
+          "body": [
+            "The Nawab Wajid Ali Shah Zoological Garden, one of the older zoos in India, is set in large green grounds in the city centre and houses the State Museum, with sculpture, coins and an Egyptian mummy. It makes an easy morning with children."
+          ],
+          "facts": {
+            "Time needed": "2–3 hours",
+            "Good for": "Families"
+          }
+        },
+        {
+          "name": "Fly kites or watch the Lucknow Mahotsav",
+          "body": [
+            "Kite flying is an old Lucknow pastime, especially around Jamghat after Diwali. The Lucknow Mahotsav, held around late November to December, is a festival of crafts, food and performances."
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Food lovers",
+      "text": "Plan a full evening for a kebab trail through Chowk and Aminabad, a morning for nihari and a winter dawn for makhan malai."
+    },
+    {
+      "who": "History lovers",
+      "text": "Bara and Chota Imambara, the Residency and a guided heritage walk through the old city cover both Nawabi and 1857 history."
+    },
+    {
+      "who": "Families",
+      "text": "The Bhul Bhulaiya is a hit with children, as are evenings at Hazratganj and the riverfront."
+    }
+  ],
+  "oneDay": "Start at Bara Imambara and the Bhul Bhulaiya as they open, then walk to Rumi Darwaza, the Clock Tower and Chota Imambara. After a biryani lunch, spend the afternoon at the Residency. In the evening, shop for chikankari in Chowk and follow a kebab trail through Aminabad, finishing with kulfi falooda.",
+  "tips": [
+    "Hire an official guide for the Bhul Bhulaiya; the passages are genuinely confusing.",
+    "Visit the imambaras in the morning, as they get hot and busy by midday.",
+    "During Muharram, the imambaras have special observances and some areas may be closed to tourists.",
+    "Lucknow's airport and Charbagh railway station connect it to most Indian cities, making it a good base for Ayodhya and Naimisharanya."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Lucknow?",
+      "a": "Explore Bara Imambara and the Bhul Bhulaiya, see Rumi Darwaza and Chota Imambara, walk through the Residency, follow a kebab trail in Chowk and Aminabad, and shop for chikankari."
+    },
+    {
+      "q": "How many days are enough for Lucknow?",
+      "a": "Two to three days covers the monuments, food and shopping comfortably."
+    },
+    {
+      "q": "What is Lucknow famous for?",
+      "a": "Nawabi architecture such as Bara Imambara and Rumi Darwaza, Awadhi food including galouti kebabs and biryani, chikankari embroidery and its tradition of courtesy (tehzeeb)."
+    },
+    {
+      "q": "What can I do in Lucknow at night?",
+      "a": "See Rumi Darwaza lit up, eat kebabs in Chowk and Aminabad, walk Hazratganj and visit the illuminated riverfront and memorial parks."
+    },
+    {
+      "q": "What is the best time to visit Lucknow?",
+      "a": "October to March. Winter mornings are also the only time to find makhan malai."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Ayodhya",
+      "href": "/blog/things-to-do-in-ayodhya",
+      "note": "Ram Janmabhoomi and the Saryu ghats, about two to three hours east"
+    },
+    {
+      "name": "Naimisharanya",
+      "href": "/blog/naimisharanya-travel-guide",
+      "note": "a sacred forest town about two hours north-west"
+    },
+    {
+      "name": "Kannauj",
+      "href": "/blog/kannauj-travel-guide",
+      "note": "India's perfume town"
+    }
+  ],
+  "styles": [
+    "family-holidays"
+  ]
+}

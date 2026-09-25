@@ -1,0 +1,255 @@
+{
+  "slug": "things-to-do-in-cherrapunji",
+  "destination": "Cherrapunji",
+  "guide": "cherrapunji-travel-guide",
+  "type": "hill town",
+  "title": "Things to Do in Cherrapunji (Sohra): Waterfalls, Caves & Root Bridges",
+  "seoTitle": "Things to Do in Cherrapunji (Sohra) | Kudozz Club",
+  "description": "Things to do in Cherrapunji (Sohra): Nohkalikai Falls, Seven Sisters Falls, Mawsmai and Arwah caves, the double-decker root bridge and Rainbow Falls at Nongriat, Dainthlen and Wei Sawdong falls, Mawkdok valley, Thangkharang Park and Eco Park.",
+  "dek": "A plateau town on the edge of the Khasi Hills, famous for record rainfall, where waterfalls pour off the escarpment towards the plains of Bangladesh.",
+  "primaryKeyword": "things to do in Cherrapunji",
+  "secondaryKeywords": [
+    "places to visit in Cherrapunji",
+    "Sohra",
+    "Nohkalikai Falls",
+    "Nongriat root bridge",
+    "Mawsmai cave",
+    "Seven Sisters Falls"
+  ],
+  "searchIntent": "Travellers planning one or two days in Cherrapunji, usually from Shillong, including the root bridge trek.",
+  "tags": [
+    "Cherrapunji",
+    "Meghalaya",
+    "Waterfalls",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/meghalaya/cherrapunji/nohkalikai-falls-cherrapunji-2.webp",
+    "alt": "Nohkalikai Falls plunging into its green pool",
+    "caption": "Nohkalikai Falls"
+  },
+  "intro": [
+    "Cherrapunji, known locally as Sohra, lies at about 1,480 metres on the southern edge of the Khasi Hills, around 55 km from Shillong. It has held world records for rainfall, and nearby Mawsynram is often called the wettest place on earth. All that rain pours off the plateau in spectacular waterfalls and has carved caves and gorges into the limestone.",
+    "The things to do in Cherrapunji are mostly natural wonders: Nohkalikai and Seven Sisters falls, caves such as Mawsmai and Arwah, viewpoints over Bangladesh, and the trek down to the living root bridges at Nongriat. It is also a quiet place to stay among the clouds.",
+    "Two days is ideal, with a night at Nongriat or near Sohra for the root bridge. October to April gives clearer views; the monsoon brings the biggest waterfalls but also heavy fog."
+  ],
+  "quickAnswer": [
+    "See Nohkalikai Falls",
+    "See Seven Sisters Falls",
+    "Explore Mawsmai Cave",
+    "See the fossils in Arwah Cave",
+    "Trek to the double-decker root bridge and Rainbow Falls",
+    "Stop at the Mawkdok valley viewpoint",
+    "See Dainthlen and Wei Sawdong falls",
+    "Look over Bangladesh from Thangkharang Park",
+    "Visit Mawsynram and its cave"
+  ],
+  "sections": [
+    {
+      "id": "falls",
+      "heading": "Waterfalls and viewpoints",
+      "items": [
+        {
+          "name": "See Nohkalikai Falls",
+          "body": [
+            "Nohkalikai Falls drops about 340 metres into a green-blue pool and is one of the tallest plunge waterfalls in India. A local legend about a grieving mother gives it its name. The viewing area has stalls and steps; fit visitors can walk down a trail towards the pool with a guide."
+          ],
+          "facts": {
+            "Time needed": "1 hour",
+            "Best time": "September to November"
+          }
+        },
+        {
+          "name": "See Seven Sisters Falls",
+          "image": {
+            "src": "/images/blogs/meghalaya/cherrapunji/seven-sisters-falls-cherrapunji-2.webp",
+            "alt": "Seven Sisters Falls near Mawsmai",
+            "caption": "Seven Sisters Falls"
+          },
+          "body": [
+            "Seven Sisters (Nohsngithiang) Falls near Mawsmai is a set of seven parallel streams falling over a limestone cliff. It is at its fullest in and just after the monsoon and can be almost dry in late winter."
+          ],
+          "facts": {
+            "Best time": "July to October"
+          }
+        },
+        {
+          "name": "See Dainthlen and Wei Sawdong",
+          "body": [
+            "Dainthlen Falls flows over flat rock shelves with carvings linked to a Khasi legend about a serpent. Wei Sawdong, a three-tiered fall with blue pools, is reached by a steep path and makes a good photo stop."
+          ],
+          "facts": {
+            "Good to know": "Paths can be slippery"
+          }
+        },
+        {
+          "name": "Stop at Mawkdok and Thangkharang",
+          "body": [
+            "The Mawkdok (Duwan Sing Syiem) viewpoint on the road from Shillong overlooks a deep valley, with a zipline over it. Thangkharang Park, on the edge of the escarpment, looks out over the plains of Bangladesh and Kynrem Falls."
+          ]
+        },
+        {
+          "name": "Walk through Eco Park",
+          "body": [
+            "Eco Park, on the edge of the Sohra plateau, has walkways along streams that flow over the cliff as the Green Rock Ravine falls, with views of the plains of Bangladesh on clear days. It is easy and good for children."
+          ],
+          "facts": {
+            "Good for": "Families"
+          }
+        }
+      ]
+    },
+    {
+      "id": "caves",
+      "heading": "Caves",
+      "items": [
+        {
+          "name": "Explore Mawsmai Cave",
+          "image": {
+            "src": "/images/blogs/meghalaya/cherrapunji/mawsmai-cave-cherrapunji-2.webp",
+            "alt": "Inside Mawsmai Cave, Cherrapunji",
+            "caption": "Mawsmai Cave"
+          },
+          "body": [
+            "Mawsmai is a lit limestone cave about 150 metres long, with stalactites and narrow squeezes. It takes about 20 to 30 minutes to walk through and is suitable for most visitors, though not for those uncomfortable in tight spaces."
+          ],
+          "facts": {
+            "Time needed": "30 minutes",
+            "Good for": "Families"
+          }
+        },
+        {
+          "name": "See fossils in Arwah Cave",
+          "body": [
+            "Arwah Cave, reached by a walkway along a cliff, is larger and less crowded than Mawsmai. Its walls hold marine fossils, a reminder that the area was once under the sea."
+          ],
+          "facts": {
+            "Time needed": "1 hour"
+          }
+        }
+      ]
+    },
+    {
+      "id": "root-bridges",
+      "heading": "Root bridges",
+      "items": [
+        {
+          "name": "Trek to Nongriat",
+          "image": {
+            "src": "/images/blogs/meghalaya/nongriat/rainbow-falls-nongriat.webp",
+            "alt": "Rainbow Falls near Nongriat",
+            "caption": "Rainbow Falls"
+          },
+          "body": [
+            "From Tyrna village near Sohra, around 3,000 or more steps lead down through forest and villages to Nongriat and its double-decker living root bridge. A further walk of about an hour leads to Rainbow Falls, where rainbows form in the spray on sunny mornings. Staying overnight in a homestay makes the trip much more pleasant."
+          ],
+          "links": [
+            {
+              "label": "Nongriat guide",
+              "href": "/blog/nongriat-travel-guide"
+            }
+          ],
+          "facts": {
+            "Time needed": "Full day or overnight",
+            "Good for": "Active travellers"
+          }
+        },
+        {
+          "name": "Visit Mawsynram",
+          "body": [
+            "Mawsynram, west of Sohra, is often cited as the wettest place on earth. Its Mawjymbuin cave has a stalagmite shaped like a lingam, revered by visitors."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stay",
+      "heading": "Staying in Sohra",
+      "items": [
+        {
+          "name": "Spend a night in the clouds",
+          "body": [
+            "Sohra's resorts and homestays sit on the edge of the plateau, and waking up above a sea of clouds is one of the best experiences here. Evenings are quiet and cool; bring a warm layer even in summer."
+          ]
+        },
+        {
+          "name": "Eat local food",
+          "body": [
+            "Local eateries serve jadoh, pork dishes, dal and rice. Vegetarian choices are simpler; ask your stay to prepare meals in advance."
+          ]
+        },
+        {
+          "name": "See Sohra in the monsoon",
+          "body": [
+            "From June to September, rain is heavy and constant, waterfalls are at full power and clouds often hide the views. Some travellers come specifically for this; roads and trails need extra care."
+          ],
+          "facts": {
+            "Good to know": "Trails get slippery; views are often fogged in"
+          }
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Active travellers",
+      "text": "Stay a night in Nongriat for the root bridge and Rainbow Falls."
+    },
+    {
+      "who": "Families",
+      "text": "Nohkalikai, Mawsmai Cave, Seven Sisters and Eco Park are easy stops."
+    },
+    {
+      "who": "Photographers",
+      "text": "Monsoon waterfalls and the misty Mawkdok valley at dawn."
+    }
+  ],
+  "oneDay": "Drive from Shillong via Mawkdok viewpoint. See Nohkalikai Falls, then Mawsmai Cave and Seven Sisters Falls. After lunch, visit Arwah Cave and Thangkharang Park, and return to Shillong or stay the night in Sohra.",
+  "tips": [
+    "Sohra is about one and a half to two hours from Shillong.",
+    "Fog can hide the falls completely in the monsoon; mornings are usually clearer.",
+    "Wear shoes with good grip and carry rain gear.",
+    "Carry cash; ATMs are few.",
+    "Book homestays in Nongriat ahead in peak season; rooms are few."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Cherrapunji?",
+      "a": "See Nohkalikai and Seven Sisters falls, explore Mawsmai and Arwah caves, trek to the double-decker root bridge at Nongriat, and visit viewpoints such as Mawkdok and Thangkharang."
+    },
+    {
+      "q": "How many days are enough for Cherrapunji?",
+      "a": "Two days, including a night near Nongriat for the root bridge."
+    },
+    {
+      "q": "When is the best time to visit Cherrapunji?",
+      "a": "October to April for clear views; July to October for the most powerful waterfalls."
+    },
+    {
+      "q": "How hard is the Nongriat trek?",
+      "a": "It involves around 3,000 or more steep steps down and back up, taking about one and a half to two hours each way. It is manageable for reasonably fit people."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Shillong",
+      "href": "/blog/things-to-do-in-shillong",
+      "note": "the capital, 55 km away"
+    },
+    {
+      "name": "Things to do in Meghalaya",
+      "href": "/blog/things-to-do-in-meghalaya",
+      "note": "the whole state"
+    },
+    {
+      "name": "Mawlynnong",
+      "href": "/blog/mawlynnong-travel-guide",
+      "note": "the famously clean village"
+    }
+  ],
+  "styles": [
+    "adventure-tours",
+    "family-holidays"
+  ],
+  "metaDescription": "Things to do in Cherrapunji (Sohra): Nohkalikai Falls, Seven Sisters Falls, Mawsmai and Arwah caves, the double-decker root bridge and Rainbow Falls at Nongriat and more."
+}

@@ -1,0 +1,301 @@
+{
+  "slug": "things-to-do-in-aizawl",
+  "destination": "Aizawl",
+  "guide": "aizawl-travel-guide",
+  "type": "hill city",
+  "title": "Things to Do in Aizawl: Ridge Views, Mizo Culture & Day Trips to Reiek",
+  "seoTitle": "Things to Do in Aizawl: Views, Culture & Day Trips | Kudozz Club",
+  "description": "Things to do in Aizawl: Solomon's Temple, Durtlang Hills, the Mizoram State Museum, Bara Bazar, KV Paradise, Reiek's heritage village, Tamdil Lake, Hmuifang, Vantawng Falls and Chapchar Kut with its bamboo dance.",
+  "dek": "Mizoram's capital, stacked along a steep ridge above the Tlawng valley, known for its quiet streets, church choirs and bamboo-dance festivals.",
+  "primaryKeyword": "things to do in Aizawl",
+  "secondaryKeywords": [
+    "places to visit in Aizawl",
+    "Solomon's Temple Aizawl",
+    "Reiek",
+    "Tamdil Lake",
+    "Chapchar Kut",
+    "Vantawng Falls",
+    "Mizoram tourism"
+  ],
+  "searchIntent": "Travellers planning two to four days in Aizawl and nearby Mizoram, looking for sights and cultural experiences.",
+  "tags": [
+    "Aizawl",
+    "Mizoram",
+    "City",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/mizoram/mizoram/aizawl-city-street-mizoram.webp",
+    "alt": "Aizawl city buildings on the ridge",
+    "caption": "Aizawl"
+  },
+  "intro": [
+    "Aizawl, at about 1,130 metres, is the capital of Mizoram, built along steep ridges with buildings stepping down the hillsides. The Mizo people are mostly Christian, and churches, choirs and community life are central to the city. Aizawl is also known for its orderly traffic, where drivers queue patiently and rarely use their horns.",
+    "Things to do in Aizawl include viewpoints such as Durtlang Hills, Solomon's Temple, the State Museum and Bara Bazar, and day trips to Reiek's heritage village, Tamdil Lake, Hmuifang and Vantawng Falls. March brings Chapchar Kut, the spring festival with the famous bamboo dance, cheraw.",
+    "Two days covers the city; add one or two for day trips. Indian nationals need an Inner Line Permit, available online or on arrival at the airport."
+  ],
+  "quickAnswer": [
+    "Visit Solomon's Temple",
+    "Watch sunrise from Durtlang Hills",
+    "See the Mizoram State Museum",
+    "Walk through Bara Bazar",
+    "See KV Paradise",
+    "Visit Reiek's heritage village",
+    "Picnic at Tamdil Lake",
+    "See Vantawng Falls",
+    "Watch cheraw at Chapchar Kut in March"
+  ],
+  "sections": [
+    {
+      "id": "city",
+      "heading": "In the city",
+      "items": [
+        {
+          "name": "Visit Solomon's Temple",
+          "body": [
+            "Solomon's Temple, a large white church built by the Kohhran Thianghlim denomination, is one of Aizawl's landmarks, with landscaped grounds and views over the city. Visitors are welcome outside service times."
+          ],
+          "facts": {
+            "Time needed": "1 hour"
+          }
+        },
+        {
+          "name": "Watch sunrise from Durtlang Hills",
+          "body": [
+            "Durtlang Hills, on the northern edge of Aizawl, gives panoramic views of the city and the surrounding ridges. Sunrise, with mist in the valleys, is especially beautiful."
+          ],
+          "facts": {
+            "Best time": "Sunrise"
+          }
+        },
+        {
+          "name": "See the Mizoram State Museum",
+          "image": {
+            "src": "/images/blogs/mizoram/aizawl/mizoram-state-museum-aizawl-2.webp",
+            "alt": "Mizoram State Museum, Aizawl",
+            "caption": "Mizoram State Museum"
+          },
+          "body": [
+            "The State Museum has displays of Mizo costumes, textiles, weapons, musical instruments and historical artefacts, and explains the traditions of Mizo communities."
+          ],
+          "facts": {
+            "Time needed": "1 hour"
+          }
+        },
+        {
+          "name": "Walk through Bara Bazar",
+          "body": [
+            "Bara Bazar is the main market, with stalls selling vegetables, meat, Mizo textiles such as the puan (wrap skirt), and imported goods from Myanmar. It is lively in the morning."
+          ],
+          "facts": {
+            "Best time": "Morning"
+          }
+        },
+        {
+          "name": "See KV Paradise",
+          "body": [
+            "KV Paradise, in Durtlang, is a three-storey marble mausoleum built by a man in memory of his wife, sometimes called Mizoram's Taj Mahal. It has a garden and views."
+          ]
+        },
+        {
+          "name": "See the Bara Bazar lanes and Millennium Centre",
+          "body": [
+            "Around Bara Bazar, the Millennium Centre and the lanes of shops sell everything from electronics to traditional puan textiles and bamboo goods. Look for Mizo shawls and the colourful puanchei worn at weddings and festivals."
+          ],
+          "facts": {
+            "Good for": "Shoppers"
+          }
+        }
+      ]
+    },
+    {
+      "id": "day-trips",
+      "heading": "Day trips",
+      "items": [
+        {
+          "name": "Visit Reiek",
+          "image": {
+            "src": "/images/blogs/mizoram/reiek/heritage-village-reiek.webp",
+            "alt": "Traditional Mizo houses at Reiek Heritage Village",
+            "caption": "Reiek Heritage Village"
+          },
+          "body": [
+            "Reiek, about 30 km from Aizawl, has a heritage village with traditional Mizo houses, including a bachelors' dormitory (zawlbuk) and houses of a chief and a widow. A walk up Reiek Tlang gives views as far as Bangladesh on clear days."
+          ],
+          "links": [
+            {
+              "label": "Reiek guide",
+              "href": "/blog/reiek-travel-guide"
+            }
+          ],
+          "facts": {
+            "Time needed": "Half a day"
+          }
+        },
+        {
+          "name": "Picnic at Tamdil Lake",
+          "image": {
+            "src": "/images/blogs/mizoram/mizoram/tam-dil-lake-mizoram.webp",
+            "alt": "Tamdil Lake in Mizoram",
+            "caption": "Tamdil Lake"
+          },
+          "body": [
+            "Tamdil, a natural lake surrounded by forest about 85 km from Aizawl, has boating and a tourist resort. A local legend explains its origin from a giant mustard plant."
+          ],
+          "facts": {
+            "Time needed": "Full day"
+          }
+        },
+        {
+          "name": "Walk on Hmuifang",
+          "body": [
+            "Hmuifang, a forested hill about 50 km south of Aizawl, has been protected since the time of Mizo chiefs and is a good place for walks and birdwatching."
+          ]
+        },
+        {
+          "name": "See Vantawng Falls",
+          "image": {
+            "src": "/images/blogs/mizoram/vantawng-falls/vantawng-falls.webp",
+            "alt": "Vantawng Falls in Mizoram",
+            "caption": "Vantawng Falls"
+          },
+          "body": [
+            "Vantawng Falls, near Thenzawl in Serchhip district, drops in two tiers through thick forest and is one of the highest waterfalls in Mizoram. It is seen from a viewpoint across the gorge. Thenzawl is also known for handloom weaving."
+          ],
+          "facts": {
+            "Best time": "After the monsoon"
+          }
+        },
+        {
+          "name": "Visit Champhai",
+          "body": [
+            "Champhai, near the Myanmar border in the east, has wide rice fields, vineyards and viewpoints over the hills, and is known for its grapes and wine. It is a long drive from Aizawl and best with a night's stay."
+          ],
+          "links": [
+            {
+              "label": "Champhai guide",
+              "href": "/blog/champhai-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "heading": "Culture and food",
+      "items": [
+        {
+          "name": "Watch cheraw at Chapchar Kut",
+          "body": [
+            "Chapchar Kut, held in March after the jungle is cleared for jhum cultivation, is Mizoram's biggest festival. Its highlight is cheraw, the bamboo dance, in which dancers step nimbly between clapping bamboo poles."
+          ],
+          "facts": {
+            "Best time": "March"
+          }
+        },
+        {
+          "name": "Hear a church choir",
+          "body": [
+            "Mizo choirs are known for their harmonies. Sunday services and choral competitions are a moving experience; visitors are welcome if they are respectful."
+          ]
+        },
+        {
+          "name": "Eat Mizo food",
+          "body": [
+            "Try bai (a vegetable stew with bamboo shoot), vawksa rep (smoked pork), sawhchiar (rice porridge with meat) and fresh chutneys. Food is usually mild, with chilli served on the side."
+          ],
+          "facts": {
+            "Good for": "Food lovers"
+          }
+        }
+      ]
+    },
+    {
+      "id": "seasons",
+      "heading": "Aizawl by season",
+      "items": [
+        {
+          "name": "Winter (November to February)",
+          "body": [
+            "Cool, clear days and good views from the ridges. Christmas is celebrated across the city with lights, carols and community feasts, and it is one of the most festive times to visit."
+          ],
+          "facts": {
+            "Best time": "December for Christmas"
+          }
+        },
+        {
+          "name": "Spring (March to April)",
+          "body": [
+            "Chapchar Kut brings dances and music in March. The weather warms up but stays pleasant."
+          ]
+        },
+        {
+          "name": "Monsoon (May to September)",
+          "body": [
+            "Heavy rain and occasional landslides on the roads into Mizoram. The hills are green, but travel can be disrupted."
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Culture seekers",
+      "text": "Time a visit for Chapchar Kut and spend Sunday listening to a choir."
+    },
+    {
+      "who": "Nature lovers",
+      "text": "Reiek, Hmuifang and Vantawng Falls."
+    },
+    {
+      "who": "Slow travellers",
+      "text": "Stay a few days, walk the ridges and enjoy the city's unhurried pace."
+    }
+  ],
+  "oneDay": "Watch sunrise from Durtlang Hills and visit KV Paradise. After breakfast, see the State Museum and walk through Bara Bazar. Visit Solomon's Temple in the afternoon and end at a viewpoint over the city at sunset.",
+  "tips": [
+    "Lengpui Airport is about 30 km from Aizawl; a new rail link to Sairang near Aizawl has also opened.",
+    "Apply for the Mizoram ILP online or get it on arrival at Lengpui Airport.",
+    "Sundays are very quiet, with most businesses closed.",
+    "Follow local traffic etiquette: no honking and no queue-jumping."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Aizawl?",
+      "a": "Visit Solomon's Temple, Durtlang Hills, the State Museum, Bara Bazar and KV Paradise, and take day trips to Reiek, Tamdil Lake, Hmuifang and Vantawng Falls."
+    },
+    {
+      "q": "Do I need a permit for Aizawl?",
+      "a": "Yes. Indian nationals need an Inner Line Permit for Mizoram."
+    },
+    {
+      "q": "When is Chapchar Kut?",
+      "a": "Usually in March."
+    },
+    {
+      "q": "How many days are enough for Aizawl?",
+      "a": "Two days for the city; three to four with day trips."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Reiek",
+      "href": "/blog/reiek-travel-guide",
+      "note": "heritage village and hill, 30 km away"
+    },
+    {
+      "name": "Champhai",
+      "href": "/blog/champhai-travel-guide",
+      "note": "vineyards near the Myanmar border"
+    },
+    {
+      "name": "Things to do in Agartala",
+      "href": "/blog/things-to-do-in-agartala",
+      "note": "Tripura's capital"
+    }
+  ],
+  "styles": [
+    "group-tours"
+  ],
+  "metaDescription": "Things to do in Aizawl: Solomon's Temple, Durtlang Hills, the Mizoram State Museum, Bara Bazar, KV Paradise, Reiek's heritage village, Tamdil Lake, Hmuifang and more."
+}

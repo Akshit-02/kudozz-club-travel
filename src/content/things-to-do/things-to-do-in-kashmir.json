@@ -1,0 +1,355 @@
+{
+  "slug": "things-to-do-in-kashmir",
+  "destination": "Kashmir",
+  "guide": "jammu-kashmir-travel-guide",
+  "type": "region",
+  "title": "Things to Do in Kashmir: Houseboats, Meadows, Snow & Mughal Gardens",
+  "seoTitle": "Things to Do in Kashmir: Best Experiences by Season | Kudozz Club",
+  "description": "Things to do in Kashmir: a houseboat night and shikara ride on Dal Lake, the Mughal gardens and tulip season in Srinagar, the Gulmarg gondola and skiing, Pahalgam's valleys, Sonamarg's glacier, Doodhpathri and Gurez, the Great Lakes trek and Kashmiri food and crafts.",
+  "dek": "A high valley ringed by the Pir Panjal and the Great Himalaya, where lakes, orchards and pine meadows change completely with each season.",
+  "primaryKeyword": "things to do in Kashmir",
+  "secondaryKeywords": [
+    "places to visit in Kashmir",
+    "Kashmir in winter",
+    "Kashmir in spring",
+    "tulip garden Srinagar",
+    "Gulmarg gondola",
+    "Kashmir honeymoon",
+    "Kashmir with family"
+  ],
+  "searchIntent": "First-time visitors, honeymooners and families planning a five- to eight-day Kashmir trip and choosing experiences by season.",
+  "tags": [
+    "Kashmir",
+    "Jammu & Kashmir",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/jammu-and-kashmir/jammu-kashmir/srinagar-and-dal-lake-jammu-and-kashmir.webp",
+    "alt": "Dal Lake and Srinagar with mountains behind",
+    "caption": "Dal Lake, Srinagar"
+  },
+  "intro": [
+    "The Kashmir valley, in the union territory of Jammu and Kashmir, is an oval valley about 1,600 metres high, drained by the Jhelum and surrounded by high ranges. Srinagar is its capital and hub, and three famous hill resorts, Gulmarg, Pahalgam and Sonamarg, each lie within about two to three hours of the city.",
+    "Things to do in Kashmir depend strongly on the season. Spring (late March to May) brings almond blossom and the tulip garden. Summer (June to August) is for meadows, treks and cool weather. Autumn (September to November) turns the chinar trees red and gold. Winter (December to February) brings snow and skiing at Gulmarg.",
+    "Six days covers Srinagar and day trips to the three resorts; add more for Doodhpathri, Gurez, a trek or Vaishno Devi in Jammu. Check current travel advisories before you go, as access to some areas can change at short notice."
+  ],
+  "quickAnswer": [
+    "Stay on a houseboat and take a shikara ride on Dal Lake",
+    "Visit the Mughal gardens of Srinagar",
+    "See the tulip garden in bloom (spring)",
+    "Ride the Gulmarg gondola and ski in winter",
+    "Explore Betaab and Aru valleys around Pahalgam",
+    "Walk or ride to Thajiwas Glacier at Sonamarg",
+    "Spend a day at Doodhpathri or Yusmarg meadows",
+    "Trek the Kashmir Great Lakes",
+    "Eat a Kashmiri wazwan and drink kahwa",
+    "Buy pashmina, papier-mâché and walnut-wood crafts"
+  ],
+  "sections": [
+    {
+      "id": "srinagar",
+      "heading": "Srinagar",
+      "items": [
+        {
+          "name": "Stay on a Dal Lake houseboat",
+          "image": {
+            "src": "/images/destinations/jammu-kashmir/dal-lake-houseboat-srinagar.webp",
+            "alt": "Carved wooden houseboats on Dal Lake, Srinagar",
+            "caption": "Houseboats on Dal Lake"
+          },
+          "body": [
+            "Houseboats, ornately carved in cedar wood, have been moored on Dal and Nigeen lakes since the colonial era, when outsiders were not allowed to own land in Kashmir. A night or two aboard, with a family serving kahwa and Kashmiri meals, is one of the defining things to do in Kashmir.",
+            "Standards vary a lot, from simple to luxurious. Book a houseboat that is registered with the tourism department and read recent reviews."
+          ],
+          "facts": {
+            "Time needed": "1–2 nights",
+            "Good for": "Couples, families"
+          }
+        },
+        {
+          "name": "Take a shikara ride at dawn",
+          "body": [
+            "The shikara, a small covered boat, is the way to see Dal Lake up close: floating gardens, lotus beds in summer, and lanes of water between houses. At dawn, a floating vegetable market takes place in the lake's inner channels. Agree on the route, time and price before you step in."
+          ],
+          "facts": {
+            "Time needed": "1–3 hours",
+            "Best time": "Sunrise or sunset",
+            "Good for": "Everyone"
+          }
+        },
+        {
+          "name": "Visit the Mughal gardens",
+          "body": [
+            "The Mughal emperors built terraced gardens along the lake shore below the Zabarwan hills. Shalimar Bagh (built by Jahangir), Nishat Bagh (by Asif Khan, Nur Jahan's brother), Chashme Shahi (by Shah Jahan) and Pari Mahal above it are the most famous, with water channels, fountains and chinar trees."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Srinagar",
+              "href": "/blog/things-to-do-in-srinagar"
+            }
+          ],
+          "facts": {
+            "Time needed": "Half a day",
+            "Best time": "April to October"
+          }
+        },
+        {
+          "name": "See the tulip garden",
+          "body": [
+            "The Indira Gandhi Memorial Tulip Garden below the Zabarwan hills is one of the largest tulip gardens in Asia, with over a million bulbs in many varieties. It opens for only a few weeks, usually from late March into April, and is extremely popular."
+          ],
+          "facts": {
+            "Best time": "Late March to April",
+            "Good to know": "Opening dates depend on the bloom"
+          }
+        }
+      ]
+    },
+    {
+      "id": "resorts",
+      "heading": "Gulmarg, Pahalgam and Sonamarg",
+      "items": [
+        {
+          "name": "Ride the Gulmarg gondola",
+          "image": {
+            "src": "/images/blogs/jammu-and-kashmir/gulmarg/gulmarg-gondola-snow-covered-station.webp",
+            "alt": "Gulmarg gondola station in snow",
+            "caption": "Gulmarg gondola"
+          },
+          "body": [
+            "Gulmarg's gondola climbs in two phases from the meadow to Kongdori and then to near the top of Apharwat, at close to 4,000 metres. In winter it serves skiers on some of the most exciting slopes in India; in summer it gives views across the valley and, on clear days, towards Nanga Parbat. Book tickets online in advance."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Gulmarg",
+              "href": "/blog/things-to-do-in-gulmarg"
+            }
+          ],
+          "facts": {
+            "Best time": "December to March for snow, May to October for meadows"
+          }
+        },
+        {
+          "name": "Explore the valleys around Pahalgam",
+          "image": {
+            "src": "/images/destinations/jammu-kashmir/aru-valley-pahalgam.webp",
+            "alt": "Aru valley meadow near Pahalgam",
+            "caption": "Aru valley"
+          },
+          "body": [
+            "Pahalgam sits where the Lidder river leaves the high mountains. Local taxis run to Betaab Valley, Aru valley and Chandanwari, the start of the Amarnath Yatra route, each with meadows, forests and river views. Pony rides and walks lead to other meadows."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Pahalgam",
+              "href": "/blog/things-to-do-in-pahalgam"
+            }
+          ]
+        },
+        {
+          "name": "See Thajiwas Glacier at Sonamarg",
+          "body": [
+            "Sonamarg, the meadow of gold, lies on the road to Ladakh along the Sindh river. A pony ride or walk leads to Thajiwas Glacier, where snow often lingers into summer. It is also the base for the Great Lakes trek and the Amarnath route from Baltal."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Sonamarg",
+              "href": "/blog/things-to-do-in-sonamarg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "offbeat",
+      "heading": "Quieter valleys and treks",
+      "items": [
+        {
+          "name": "Spend a day at Doodhpathri",
+          "image": {
+            "src": "/images/blogs/jammu-and-kashmir/doodhpathri/doodhpathri-meadow-pine-forest.webp",
+            "alt": "Doodhpathri meadow and pine forest",
+            "caption": "Doodhpathri"
+          },
+          "body": [
+            "Doodhpathri, about 40 km from Srinagar in Budgam district, is a wide meadow crossed by the Shaliganga stream and ringed by pine forest. It is less crowded than Gulmarg and makes a good day trip."
+          ],
+          "links": [
+            {
+              "label": "Doodhpathri travel guide",
+              "href": "/blog/doodhpathri-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Go to Yusmarg or Aharbal",
+          "body": [
+            "Yusmarg is a quiet meadow in the Pir Panjal foothills with walks to Nilnag Lake, while Aharbal has one of Kashmir's most powerful waterfalls on the Veshaw river. Both are in south Kashmir and make easy day trips."
+          ],
+          "links": [
+            {
+              "label": "Yusmarg travel guide",
+              "href": "/blog/yusmarg-travel-guide"
+            },
+            {
+              "label": "Aharbal travel guide",
+              "href": "/blog/aharbal-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Visit Gurez valley",
+          "body": [
+            "Gurez, north of Srinagar across the Razdan Pass, is a remote valley on the Kishanganga river with wooden villages and the pyramid-shaped Habba Khatoon peak. It is open roughly from May to November and needs a registration process; check current requirements."
+          ],
+          "links": [
+            {
+              "label": "Gurez valley travel guide",
+              "href": "/blog/gurez-valley-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Trek the Kashmir Great Lakes",
+          "body": [
+            "The Kashmir Great Lakes trek, starting near Sonamarg, crosses high passes past a chain of alpine lakes including Vishansar, Krishansar and Gangbal over about seven days. It is one of the most beautiful treks in India and needs good fitness and a registered operator."
+          ],
+          "facts": {
+            "Time needed": "About 7 days",
+            "Best time": "July to September"
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "heading": "Food, crafts and faith",
+      "items": [
+        {
+          "name": "Eat a wazwan",
+          "body": [
+            "The wazwan is Kashmir's ceremonial multi-course meal, cooked by specialist chefs called wazas. Rogan josh, rista, gushtaba and tabak maaz are highlights. Many restaurants in Srinagar serve smaller wazwan platters. Vegetarians can try dum aloo, nadru (lotus stem) and haak saag. Finish with kahwa, green tea with saffron and almonds."
+          ],
+          "facts": {
+            "Good for": "Food lovers"
+          }
+        },
+        {
+          "name": "Shop for crafts",
+          "body": [
+            "Kashmir is known for pashmina shawls, carpets, papier-mâché, walnut-wood carving, crewel embroidery and saffron from Pampore. Buy from government emporiums or well-known shops, and be wary of cheap 'pashmina' that is not genuine."
+          ]
+        },
+        {
+          "name": "Visit shrines and temples",
+          "body": [
+            "Hazratbal Shrine on the banks of Dal Lake, the Jama Masjid and Khanqah-e-Moula in the old city, and the Shankaracharya Temple on a hill above Srinagar reflect the valley's layered religious history. In Jammu, the Vaishno Devi shrine near Katra draws millions of pilgrims a year."
+          ],
+          "links": [
+            {
+              "label": "Katra and Vaishno Devi",
+              "href": "/blog/katra-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seasons",
+      "heading": "Kashmir by season",
+      "items": [
+        {
+          "name": "Spring (March to May)",
+          "body": [
+            "Almond blossom at Badamwari in March, the tulip garden in April and green meadows at Gulmarg and Pahalgam by May. Snow still lingers higher up, and it is a fine time for sightseeing."
+          ]
+        },
+        {
+          "name": "Summer (June to August)",
+          "body": [
+            "Warm days in Srinagar, flowers in the high meadows and the best trekking season. The Amarnath Yatra runs in July and August, which affects access around Pahalgam, Chandanwari, Sonamarg and Baltal."
+          ]
+        },
+        {
+          "name": "Autumn (September to November)",
+          "body": [
+            "Chinars turn red and gold, apple and saffron harvests take place, and the skies are clear. Many consider this the best time for photography."
+          ]
+        },
+        {
+          "name": "Winter (December to February)",
+          "body": [
+            "Snow covers Gulmarg, Pahalgam and often Srinagar. Skiing and snow play are the highlights. Some roads and services close, and power cuts are more common."
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Honeymooners",
+      "text": "A houseboat night, a sunset shikara, a day at Gulmarg and two nights in Pahalgam along the Lidder make a classic week."
+    },
+    {
+      "who": "Families",
+      "text": "Base in Srinagar and take day trips; the gondola, pony rides and gardens are easy with children. Plan snow gear for winter."
+    },
+    {
+      "who": "Adventure seekers",
+      "text": "Ski at Gulmarg in winter, trek the Great Lakes in summer or raft the Lidder and Sindh rivers."
+    }
+  ],
+  "oneDay": "Take a shikara at sunrise to see the floating market, then visit Shalimar Bagh, Nishat Bagh and Pari Mahal. After a wazwan lunch, walk through the old city to the Jama Masjid and Khanqah-e-Moula, and end at Hazratbal for sunset.",
+  "tips": [
+    "Srinagar has the main airport; Jammu Tawi and the rail link in the valley connect by train.",
+    "Check current advisories and local conditions before travelling, and keep your ID handy for checkpoints.",
+    "Prepaid SIM cards from other states do not work in J&K; postpaid connections usually do.",
+    "Dress modestly, especially at shrines and in the old city."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Kashmir?",
+      "a": "Stay on a Dal Lake houseboat, take a shikara ride, visit the Mughal gardens, ride the Gulmarg gondola, explore Pahalgam's valleys, see Sonamarg's glacier, visit Doodhpathri or Gurez, and eat a wazwan."
+    },
+    {
+      "q": "What is the best time to visit Kashmir?",
+      "a": "April to June for spring and meadows, September to November for autumn colours, and December to February for snow. Each season suits different things to do."
+    },
+    {
+      "q": "How many days are enough for Kashmir?",
+      "a": "Six days for Srinagar with Gulmarg, Pahalgam and Sonamarg; eight to ten if you add quieter valleys or a trek."
+    },
+    {
+      "q": "Is Kashmir good for a honeymoon?",
+      "a": "Yes. Houseboats, shikara rides, Gulmarg's snow and Pahalgam's river stays make it one of India's most popular honeymoon destinations."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Srinagar",
+      "href": "/blog/things-to-do-in-srinagar",
+      "note": "the lakes, gardens and old city in detail"
+    },
+    {
+      "name": "Things to do in Jammu",
+      "href": "/blog/things-to-do-in-jammu",
+      "note": "the winter capital and temple city"
+    },
+    {
+      "name": "Things to do in Ladakh",
+      "href": "/blog/things-to-do-in-ladakh",
+      "note": "over Zoji La from Sonamarg"
+    },
+    {
+      "name": "Things to do in Patnitop",
+      "href": "/blog/things-to-do-in-patnitop",
+      "note": "pine meadows on the Jammu side"
+    }
+  ],
+  "styles": [
+    "honeymoon",
+    "family-holidays",
+    "adventure-tours"
+  ],
+  "metaDescription": "Things to do in Kashmir: a houseboat night and shikara ride on Dal Lake, the Mughal gardens and tulip season in Srinagar, the Gulmarg gondola and skiing, Pahalgam's valleys and more."
+}

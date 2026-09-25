@@ -1,0 +1,260 @@
+{
+  "slug": "things-to-do-in-kutch",
+  "destination": "Rann of Kutch",
+  "guide": "rann-of-kutch-travel-guide",
+  "type": "region",
+  "title": "Things to Do in Kutch: White Rann, Craft Villages, Bhuj Palaces & Dholavira",
+  "seoTitle": "Things to Do in Kutch: White Rann, Crafts & More | Kudozz Club",
+  "description": "Things to do in Kutch: the White Rann at sunset and under a full moon, the Rann Utsav tent city, Kalo Dungar, Bhuj's Aina Mahal and Prag Mahal, craft villages such as Bhujodi, Nirona and Ajrakhpur, the Harappan city of Dholavira, Mandvi beach and Lakhpat Fort.",
+  "dek": "India's largest district, a land of salt desert, craft villages and ancient cities on the border with Pakistan, famous for its winter festival on the White Rann.",
+  "primaryKeyword": "things to do in Kutch",
+  "secondaryKeywords": [
+    "Rann of Kutch",
+    "White Rann",
+    "Rann Utsav",
+    "Kalo Dungar",
+    "Bhuj",
+    "Dholavira",
+    "Kutch craft villages"
+  ],
+  "searchIntent": "Travellers planning three to five days in Kutch, often timed for the Rann Utsav.",
+  "tags": [
+    "Kutch",
+    "Gujarat",
+    "Desert",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/gujarat/gujarat/rann-of-kutch-white-desert-gujarat.webp",
+    "alt": "The White Rann salt desert in Kutch",
+    "caption": "The White Rann"
+  },
+  "intro": [
+    "Kutch, in western Gujarat, is India's largest district and one of its most distinctive landscapes. The Great Rann of Kutch, a vast seasonal salt marsh, floods during the monsoon and dries into a dazzling white desert of salt from about November. Kutch was hit hard by an earthquake in 2001 and has rebuilt with remarkable resilience.",
+    "The things to do in Kutch include the White Rann at Dhordo, especially at sunset and under a full moon; the Rann Utsav festival with its tent city; the viewpoint at Kalo Dungar; the palaces and museum of Bhuj; the craft villages where embroidery, weaving, block printing, rogan painting and bell-making are still living traditions; the Harappan city of Dholavira; and the old port of Mandvi.",
+    "Plan three to five days. November to February is the season; the White Rann is flooded or muddy in the monsoon."
+  ],
+  "quickAnswer": [
+    "Watch sunset on the White Rann",
+    "See the White Rann under a full moon",
+    "Stay at the Rann Utsav tent city",
+    "See the view from Kalo Dungar",
+    "Explore Aina Mahal and Prag Mahal in Bhuj",
+    "Visit the Kutch Museum",
+    "Meet weavers at Bhujodi",
+    "See rogan art at Nirona",
+    "Watch ajrakh block printing at Ajrakhpur",
+    "Visit Dholavira and Mandvi"
+  ],
+  "sections": [
+    {
+      "id": "rann",
+      "heading": "The White Rann",
+      "items": [
+        {
+          "name": "Watch sunset on the White Rann",
+          "body": [
+            "At Dhordo, near the village of Hodka, a walkway leads out onto the White Rann, a flat expanse of salt crust stretching to the horizon. At sunset the salt turns pink and gold, and after dark the silence is total. A permit is required; it is sold online or at the checkpost at Bhirandiyara.",
+            "Camels and carts take visitors further out; agree prices first."
+          ],
+          "facts": {
+            "Best time": "Sunset, November to February",
+            "Good to know": "Permit required"
+          }
+        },
+        {
+          "name": "See it under a full moon",
+          "body": [
+            "On full-moon nights, the salt glows almost white under the moonlight, one of the most memorable sights in India. Rann Utsav dates are often planned around full moons."
+          ],
+          "facts": {
+            "Best time": "Full-moon nights"
+          }
+        },
+        {
+          "name": "Stay at the Rann Utsav",
+          "body": [
+            "The Rann Utsav, run from roughly November to February, has a large tent city at Dhordo with cultural performances, craft stalls, activities and guided trips. Village homestays in bhungas (round mud huts) at Hodka and nearby are a more local alternative."
+          ],
+          "facts": {
+            "Best time": "November to February"
+          }
+        },
+        {
+          "name": "See the view from Kalo Dungar",
+          "body": [
+            "Kalo Dungar (Black Hill), the highest point in Kutch, looks over the Great Rann towards the Pakistan border. A Dattatreya temple at the top continues a centuries-old tradition of feeding the local jackals."
+          ],
+          "image": {
+            "src": "/images/blogs/gujarat/rann-of-kutch/kalo-dungar-rann-of-kutch.webp",
+            "alt": "View from Kalo Dungar over the Rann",
+            "caption": "Kalo Dungar"
+          },
+          "facts": {
+            "Best time": "Sunset"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bhuj",
+      "heading": "Bhuj",
+      "items": [
+        {
+          "name": "Explore Aina Mahal and Prag Mahal",
+          "body": [
+            "Bhuj, the capital of Kutch, has two palaces next to each other. Aina Mahal, from the 18th century, has a hall of mirrors, pleasure pools and European clocks and tiles. Prag Mahal, built in the 19th century in Italian Gothic style, has a clock tower with views over the city. Both were damaged in 2001 and parts are restored."
+          ],
+          "facts": {
+            "Time needed": "2 hours"
+          }
+        },
+        {
+          "name": "Visit the Kutch Museum",
+          "body": [
+            "The Kutch Museum, founded in 1877, is the oldest museum in Gujarat, with Kshatrapa inscriptions, textiles, coins and ethnographic displays."
+          ]
+        },
+        {
+          "name": "See Smritivan",
+          "body": [
+            "Smritivan, on Bhujia Hill, is a memorial and museum to the victims of the 2001 earthquake, with an earthquake simulator and thousands of trees planted in their memory."
+          ],
+          "facts": {
+            "Time needed": "2 hours"
+          }
+        }
+      ]
+    },
+    {
+      "id": "crafts",
+      "heading": "Craft villages",
+      "items": [
+        {
+          "name": "Meet the weavers of Bhujodi",
+          "body": [
+            "Bhujodi, about 8 km from Bhuj, is a village of weavers making shawls, stoles and rugs on pit looms. Families welcome visitors to watch and buy. Vankar Vishram Valji's workshop and the Shrujan crafts centre are well-known stops."
+          ],
+          "facts": {
+            "Good for": "Shoppers, craft lovers"
+          }
+        },
+        {
+          "name": "See rogan art at Nirona",
+          "body": [
+            "At Nirona, a family of artists keeps alive rogan painting, in which thick castor-oil paint is drawn onto cloth with a stick. The village also makes copper bells and lacquered woodwork."
+          ]
+        },
+        {
+          "name": "Watch ajrakh printing at Ajrakhpur",
+          "body": [
+            "Ajrakhpur, near Bhuj, was set up by block-printing families after the 2001 earthquake. Ajrakh, a complex resist-dyed print in indigo and madder, is made here using natural dyes."
+          ]
+        },
+        {
+          "name": "See embroidery in Banni villages",
+          "body": [
+            "The villages of the Banni grasslands near the Rann, such as Hodka and Ludiya, are known for mirror-work embroidery and painted mud houses."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history-coast",
+      "heading": "History and the coast",
+      "items": [
+        {
+          "name": "Visit Dholavira",
+          "body": [
+            "Dholavira, on an island in the Rann about 220 km from Bhuj, is one of the largest cities of the Harappan civilisation, with reservoirs, a citadel and a famous signboard inscription. It became a UNESCO World Heritage Site in 2021."
+          ],
+          "links": [
+            {
+              "label": "Dholavira guide",
+              "href": "/blog/dholavira-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Relax in Mandvi",
+          "body": [
+            "Mandvi, on the coast about 60 km from Bhuj, has a beach, the Vijay Vilas Palace of the Kutch rulers and a centuries-old tradition of building wooden dhows by hand."
+          ],
+          "links": [
+            {
+              "label": "Mandvi guide",
+              "href": "/blog/mandvi-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "See Lakhpat Fort",
+          "body": [
+            "Lakhpat, in the far north-west, is a walled town that declined when the Indus changed course. Its gurudwara is linked to Guru Nanak's journeys, and the ruins are atmospheric at sunset."
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Culture seekers",
+      "text": "Craft villages, a bhunga homestay and the Rann at full moon."
+    },
+    {
+      "who": "Families",
+      "text": "The Rann Utsav tent city, Kalo Dungar and Bhuj's palaces."
+    },
+    {
+      "who": "History lovers",
+      "text": "Dholavira, Lakhpat and the Kutch Museum."
+    }
+  ],
+  "oneDay": "Visit Aina Mahal and Prag Mahal in Bhuj in the morning, then the craft villages of Bhujodi and Nirona. Drive to Kalo Dungar in the late afternoon and on to the White Rann at Dhordo for sunset.",
+  "tips": [
+    "Bhuj has an airport and railway station; Ahmedabad is about six to seven hours by road.",
+    "Get the White Rann permit online or at the checkpost.",
+    "Nights in the desert are cold in winter; carry warm clothes.",
+    "Buy crafts directly from artisans where possible."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Kutch?",
+      "a": "Watch sunset and the full moon on the White Rann, stay at the Rann Utsav, see Kalo Dungar, explore Bhuj's palaces and museum, visit craft villages, and see Dholavira and Mandvi."
+    },
+    {
+      "q": "When is the White Rann best?",
+      "a": "From about November to February, when the salt is dry and white. Full-moon nights are especially beautiful."
+    },
+    {
+      "q": "Do I need a permit for the White Rann?",
+      "a": "Yes. A permit is bought online or at the Bhirandiyara checkpost."
+    },
+    {
+      "q": "How many days are enough for Kutch?",
+      "a": "Three to five days."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Dholavira",
+      "href": "/blog/dholavira-travel-guide",
+      "note": "Harappan city"
+    },
+    {
+      "name": "Mandvi",
+      "href": "/blog/mandvi-travel-guide",
+      "note": "beach and dhow-building"
+    },
+    {
+      "name": "Things to do in Ahmedabad",
+      "href": "/blog/things-to-do-in-ahmedabad",
+      "note": "the heritage city"
+    }
+  ],
+  "styles": [
+    "group-tours",
+    "family-holidays"
+  ],
+  "metaDescription": "Things to do in Kutch: the White Rann at sunset and under a full moon, the Rann Utsav tent city, Kalo Dungar, Bhuj's Aina Mahal and Prag Mahal, craft villages such as Bhujodi and more."
+}

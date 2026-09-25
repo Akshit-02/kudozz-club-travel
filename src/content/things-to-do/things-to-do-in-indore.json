@@ -1,0 +1,268 @@
+{
+  "slug": "things-to-do-in-indore",
+  "destination": "Indore",
+  "guide": "indore-travel-guide",
+  "type": "city",
+  "title": "Things to Do in Indore: Rajwada, Night Food Markets & Day Trips to Mandu and Omkareshwar",
+  "seoTitle": "Things to Do in Indore: Food, Palaces & Day Trips | Kudozz Club",
+  "description": "Things to do in Indore: Rajwada and Lal Bagh Palace, Sarafa Bazaar's night food market, Chappan Dukan, Khajrana Ganesh, the Kanch Mandir, the Central Museum, Patalpani falls and the heritage train, and day trips to Mandu, Maheshwar, Omkareshwar and Ujjain.",
+  "dek": "The commercial capital of Madhya Pradesh and the old seat of the Holkars, famous for its clean streets and even more for its street food.",
+  "primaryKeyword": "things to do in Indore",
+  "secondaryKeywords": [
+    "places to visit in Indore",
+    "Sarafa Bazaar",
+    "Chappan Dukan",
+    "Rajwada Indore",
+    "Lal Bagh Palace",
+    "Indore street food",
+    "Indore day trips"
+  ],
+  "searchIntent": "Food lovers, business travellers and pilgrims spending one to three days in Indore and using it as a base for Ujjain, Omkareshwar and Mandu.",
+  "tags": [
+    "Indore",
+    "Madhya Pradesh",
+    "City",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/madhya-pradesh/indore/lal-bagh-palace-indore.webp",
+    "alt": "Lal Bagh Palace, Indore",
+    "caption": "Lal Bagh Palace"
+  },
+  "intro": [
+    "Indore, on the Malwa plateau, was the capital of the Holkar dynasty of the Marathas, whose most famous ruler, Ahilyabai Holkar, is remembered for building temples and ghats across India. Today it is Madhya Pradesh's largest city and its commercial hub, and it has been ranked India's cleanest city in national surveys for several years running.",
+    "The things to do in Indore include the Holkar palaces of Rajwada and Lal Bagh, temples such as Khajrana Ganesh and the glass-mirrored Kanch Mandir, and, above all, eating: poha-jalebi in the morning and the night food market of Sarafa Bazaar. Indore is also the best base for Ujjain, Omkareshwar, Maheshwar and Mandu.",
+    "One or two days covers the city; add days for the excursions. October to March is the most comfortable time."
+  ],
+  "quickAnswer": [
+    "Eat at Sarafa Bazaar's night food market",
+    "Snack your way through Chappan Dukan",
+    "See Rajwada, the Holkar palace",
+    "Tour Lal Bagh Palace",
+    "Visit Khajrana Ganesh Temple",
+    "See the mirrored Kanch Mandir",
+    "Visit the Central Museum",
+    "Ride the heritage train to Patalpani and Kalakund",
+    "Take a day trip to Maheshwar and Omkareshwar",
+    "Visit Mandu or Ujjain"
+  ],
+  "sections": [
+    {
+      "id": "heritage",
+      "heading": "Palaces and temples",
+      "items": [
+        {
+          "name": "See Rajwada",
+          "body": [
+            "Rajwada, the seven-storey palace of the Holkars in the heart of the old city, blends Maratha, Mughal and French styles. It has been damaged by fire several times and restored; the façade and courtyard can be visited, and the surrounding market is the busiest in Indore."
+          ],
+          "image": {
+            "src": "/images/blogs/madhya-pradesh/indore/rajwada-palace-indore.webp",
+            "alt": "Rajwada palace façade, Indore",
+            "caption": "Rajwada"
+          },
+          "facts": {
+            "Time needed": "45 minutes"
+          }
+        },
+        {
+          "name": "Tour Lal Bagh Palace",
+          "body": [
+            "Lal Bagh Palace, built between 1886 and 1921 as a Holkar residence, has European-style interiors, ballrooms, chandeliers and gates said to be modelled on those of Buckingham Palace. It is now a museum; check opening days."
+          ],
+          "facts": {
+            "Time needed": "1.5 hours"
+          }
+        },
+        {
+          "name": "Visit Khajrana Ganesh Temple",
+          "body": [
+            "Khajrana Ganesh Temple, built by Ahilyabai Holkar, is one of the most popular temples in the city, especially on Wednesdays."
+          ]
+        },
+        {
+          "name": "See the Kanch Mandir",
+          "body": [
+            "The Kanch Mandir, a Jain temple from the early 20th century, is covered floor to ceiling in mirrors, glass beads and painted glass panels."
+          ],
+          "facts": {
+            "Time needed": "30 minutes"
+          }
+        },
+        {
+          "name": "Visit the Central Museum",
+          "body": [
+            "The Central Museum has a fine collection of Parmara-period sculptures from the region, along with coins and arms."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "heading": "Food",
+      "items": [
+        {
+          "name": "Eat at Sarafa Bazaar",
+          "body": [
+            "By day, Sarafa Bazaar is a jewellers' street. After the shops close in the evening, food stalls take over until late at night, selling bhutte ka kees (spiced grated corn), garadu (fried yam, in winter), sabudana khichdi, dahi vada, malpua, rabri and many sweets. It is one of India's most famous night food markets.",
+            "Popular items include the giant jalebi (jalebo), shikanji (a thick sweet milk drink, different from lemonade), coconut crush and hot gulab jamun. The stalls change little over the years, and many have been run by the same families for decades."
+          ],
+          "facts": {
+            "Best time": "9 p.m. to midnight",
+            "Good for": "Food lovers"
+          }
+        },
+        {
+          "name": "Snack at Chappan Dukan",
+          "body": [
+            "Chappan Dukan (56 shops), a pedestrian food street in New Palasia, has dozens of stalls selling poha-jalebi, chaat, hot dogs Indore-style, shakes and sweets. It is busy from breakfast to late evening."
+          ]
+        },
+        {
+          "name": "Try poha-jalebi",
+          "body": [
+            "Indore's breakfast is poha topped with sev and pomegranate, served with hot jalebis. Every street corner sells it from early morning."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day-trips",
+      "heading": "Day trips",
+      "items": [
+        {
+          "name": "Ride the heritage train to Patalpani",
+          "body": [
+            "A heritage metre-gauge train from Mhow runs through forests and tunnels to Patalpani, where a waterfall drops into a gorge, and on to Kalakund. It is especially scenic in and after the monsoon. Mhow is also the birthplace of Dr B R Ambedkar, with a memorial."
+          ],
+          "facts": {
+            "Best time": "July to October"
+          }
+        },
+        {
+          "name": "Visit Maheshwar and Omkareshwar",
+          "body": [
+            "Maheshwar, about 90 km away, has Ahilyabai Holkar's fort and ghats on the Narmada and is famous for Maheshwari saris. Omkareshwar, about 80 km away, has one of the twelve Jyotirlingas on an island in the Narmada.",
+            "At Maheshwar, watch sarees being woven at the Rehwa Society workshops and sit on the ghats at sunset. At Omkareshwar, boats cross the Narmada and a path circles the island past temples and ashrams."
+          ],
+          "links": [
+            {
+              "label": "Omkareshwar guide",
+              "href": "/blog/omkareshwar-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "See Mandu and Ujjain",
+          "body": [
+            "Mandu, about 95 km away, has Afghan-era palaces on a plateau, and Ujjain, about 55 km away, has the Mahakaleshwar Jyotirlinga."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Mandu",
+              "href": "/blog/things-to-do-in-mandu"
+            },
+            {
+              "label": "Things to do in Ujjain",
+              "href": "/blog/things-to-do-in-ujjain"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seasons",
+      "heading": "By season",
+      "items": [
+        {
+          "name": "October to March",
+          "body": [
+            "Pleasant weather for sightseeing and night food walks; winter brings garadu and other seasonal snacks to Sarafa."
+          ]
+        },
+        {
+          "name": "April to June",
+          "body": [
+            "Hot days; explore in the morning and evening, and spend the night at the food markets."
+          ]
+        },
+        {
+          "name": "July to September",
+          "body": [
+            "The monsoon turns the countryside green, and Patalpani and the Mandu plateau are at their best."
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Food lovers",
+      "text": "Poha-jalebi for breakfast, Chappan Dukan in the afternoon and Sarafa at night."
+    },
+    {
+      "who": "Pilgrims",
+      "text": "Khajrana Ganesh, Ujjain's Mahakaleshwar and Omkareshwar on day trips."
+    },
+    {
+      "who": "History lovers",
+      "text": "Rajwada, Lal Bagh, Maheshwar and Mandu."
+    }
+  ],
+  "oneDay": "Start with poha-jalebi, then visit Rajwada, the Kanch Mandir and Lal Bagh Palace. After lunch, see Khajrana Ganesh and snack at Chappan Dukan, and end the night at Sarafa Bazaar.",
+  "tips": [
+    "Devi Ahilyabai Holkar Airport has flights from major cities; Indore Junction is well connected by rail.",
+    "Sarafa gets crowded after 10 p.m.; go hungry and pace yourself.",
+    "Hire a car for a day to combine Omkareshwar and Maheshwar.",
+    "Check palace and museum opening days."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Indore?",
+      "a": "Eat at Sarafa Bazaar and Chappan Dukan, see Rajwada and Lal Bagh Palace, visit Khajrana Ganesh and the Kanch Mandir, ride the Patalpani heritage train and take day trips to Maheshwar, Omkareshwar, Mandu and Ujjain."
+    },
+    {
+      "q": "What time does Sarafa Bazaar open?",
+      "a": "Food stalls set up after the jewellery shops close in the evening and stay open until late at night."
+    },
+    {
+      "q": "How many days are enough for Indore?",
+      "a": "One to two days for the city, plus a day or two for excursions."
+    },
+    {
+      "q": "What is Indore famous for?",
+      "a": "Its street food, especially poha-jalebi and Sarafa's night market, its cleanliness rankings and its Holkar heritage."
+    },
+    {
+      "q": "Can Omkareshwar and Maheshwar be done in one day from Indore?",
+      "a": "Yes. They are about 65 km apart and both about 80 to 90 km from Indore, so a full-day circuit by car works well."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Ujjain",
+      "href": "/blog/things-to-do-in-ujjain",
+      "note": "Mahakaleshwar, 55 km away"
+    },
+    {
+      "name": "Things to do in Mandu",
+      "href": "/blog/things-to-do-in-mandu",
+      "note": "Afghan palaces on a plateau"
+    },
+    {
+      "name": "Omkareshwar",
+      "href": "/blog/omkareshwar-travel-guide",
+      "note": "Jyotirlinga on the Narmada"
+    },
+    {
+      "name": "Things to do in Bhopal",
+      "href": "/blog/things-to-do-in-bhopal",
+      "note": "the lake city, three hours away"
+    }
+  ],
+  "styles": [
+    "spiritual-tours",
+    "weekend-getaways"
+  ],
+  "metaDescription": "Things to do in Indore: Rajwada and Lal Bagh Palace, Sarafa Bazaar's night food market, Chappan Dukan, Khajrana Ganesh, the Kanch Mandir, the Central Museum and more."
+}

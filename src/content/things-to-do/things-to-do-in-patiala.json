@@ -1,0 +1,235 @@
+{
+  "slug": "things-to-do-in-patiala",
+  "destination": "Patiala",
+  "guide": "patiala-travel-guide",
+  "type": "city",
+  "title": "Things to Do in Patiala: Royal Palaces, Gurdwaras & Old Bazaars",
+  "seoTitle": "Things to Do in Patiala: Palaces, Bazaars & Food | Kudozz Club",
+  "description": "Things to do in Patiala: Qila Mubarak, the Sheesh Mahal and its medal gallery, Moti Bagh Palace, Baradari Gardens, Gurdwara Dukh Niwaran Sahib, Kali Devi Temple, Bahadurgarh Fort, and shopping for Patiala salwars, juttis and parandas.",
+  "dek": "The former capital of one of Punjab's richest princely states, with a fort in the old city, royal palaces and bazaars famous for salwars and juttis.",
+  "primaryKeyword": "things to do in Patiala",
+  "secondaryKeywords": [
+    "places to visit in Patiala",
+    "Qila Mubarak Patiala",
+    "Sheesh Mahal Patiala",
+    "Moti Bagh Palace",
+    "Patiala shopping",
+    "Dukh Niwaran Sahib"
+  ],
+  "searchIntent": "Travellers visiting Patiala for a day or two, often from Chandigarh or Delhi, interested in royal heritage and shopping.",
+  "tags": [
+    "Patiala",
+    "Punjab",
+    "Heritage",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/punjab/punjab/qila-mubarak-fort-patiala.webp",
+    "alt": "Qila Mubarak fort in Patiala",
+    "caption": "Qila Mubarak"
+  },
+  "intro": [
+    "Patiala was founded in 1763 by Baba Ala Singh and grew into the capital of the princely state of Patiala, one of the largest and wealthiest in Punjab. Its maharajas were famous for their lavish lifestyle, patronage of sport and music, and a few inventions attributed to them, including the generous 'Patiala peg'.",
+    "The things to do in Patiala centre on its royal buildings: Qila Mubarak in the old city, the Sheesh Mahal and its museum, and the grand Moti Bagh Palace. Add Gurdwara Dukh Niwaran Sahib, the Kali Devi Temple, and the bazaars known for the Patiala salwar, juttis and parandas.",
+    "One day covers the main sights; two allow a relaxed pace and a trip to Bahadurgarh Fort or Fatehgarh Sahib. Patiala is about 70 km from Chandigarh."
+  ],
+  "quickAnswer": [
+    "Explore Qila Mubarak in the old city",
+    "See the Sheesh Mahal and its medal gallery",
+    "See Moti Bagh Palace and the NIS campus",
+    "Walk in Baradari Gardens",
+    "Visit Gurdwara Dukh Niwaran Sahib",
+    "See the Kali Devi Temple",
+    "Shop for Patiala salwars, juttis and parandas",
+    "Visit Bahadurgarh Fort"
+  ],
+  "sections": [
+    {
+      "id": "royal",
+      "heading": "Royal Patiala",
+      "items": [
+        {
+          "name": "Explore Qila Mubarak",
+          "body": [
+            "Qila Mubarak, at the heart of the old city, was the original fort-palace of the Patiala rulers. The complex includes the Qila Androon (inner palace) with painted rooms, and the Darbar Hall, which has housed a museum of arms, chandeliers and royal objects. Restoration has been ongoing, so some sections may be closed; check at the gate."
+          ],
+          "facts": {
+            "Time needed": "1.5–2 hours",
+            "Good to know": "Some areas under restoration",
+            "Good for": "History lovers"
+          }
+        },
+        {
+          "name": "See the Sheesh Mahal",
+          "body": [
+            "The Sheesh Mahal, built by Maharaja Narinder Singh in the 19th century behind Moti Bagh, is decorated with mirror work and wall paintings. It houses a museum with miniature paintings and one of the largest collections of medals and decorations in the world. A lake in front is crossed by a suspension bridge modelled on Rishikesh's Lakshman Jhula."
+          ],
+          "facts": {
+            "Time needed": "1.5 hours",
+            "Good for": "Art and history lovers"
+          }
+        },
+        {
+          "name": "See Moti Bagh Palace",
+          "image": {
+            "src": "/images/blogs/punjab/patiala/moti-bagh-palace-patiala.webp",
+            "alt": "Moti Bagh Palace, Patiala",
+            "caption": "Moti Bagh Palace"
+          },
+          "body": [
+            "The Old Moti Bagh Palace, built in the late 19th century, is one of the largest residences in Asia. It is now home to the Netaji Subhas National Institute of Sports (NIS), where many of India's athletes train. The grounds and façade can be seen; access inside is limited."
+          ],
+          "facts": {
+            "Time needed": "45 minutes"
+          }
+        },
+        {
+          "name": "Walk in Baradari Gardens",
+          "body": [
+            "Baradari Gardens, laid out around a 19th-century palace built by Maharaja Rajinder Singh, have old trees, a fernery and rose beds. The palace itself has been restored as a heritage hotel. The gardens are popular for morning walks."
+          ],
+          "facts": {
+            "Best time": "Morning"
+          }
+        },
+        {
+          "name": "Hear Patiala's music heritage",
+          "body": [
+            "Patiala gave its name to the Patiala gharana of Hindustani classical music, associated with singers such as Bade Ghulam Ali Khan. Punjabi University and local cultural centres host classical concerts and festivals; check listings during your visit."
+          ],
+          "facts": {
+            "Good for": "Music lovers"
+          }
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "heading": "Gurdwaras and temples",
+      "items": [
+        {
+          "name": "Visit Gurdwara Dukh Niwaran Sahib",
+          "body": [
+            "Gurdwara Dukh Niwaran Sahib is associated with the ninth Sikh Guru, Guru Tegh Bahadur, and its sarovar is believed by devotees to heal suffering. It is one of the most important gurdwaras in the region and has a peaceful atmosphere, especially in the evening."
+          ],
+          "facts": {
+            "Time needed": "1 hour"
+          }
+        },
+        {
+          "name": "See the Kali Devi Temple",
+          "body": [
+            "The Kali Devi Temple, opposite Baradari Gardens, was built by Maharaja Bhupinder Singh, who brought an idol of Kali from Bengal. It draws large crowds during Navratri."
+          ]
+        },
+        {
+          "name": "Visit Bahadurgarh Fort",
+          "body": [
+            "Bahadurgarh Fort, about 6 km from Patiala, was built by Nawab Saif Khan in the 17th century and later renamed by Maharaja Karam Singh to honour Guru Tegh Bahadur, who is said to have stayed here. It has a gurdwara within its walls and is now used by a police training institute, so access may be restricted."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shopping-food",
+      "heading": "Shopping and food",
+      "items": [
+        {
+          "name": "Shop for Patiala salwars, juttis and parandas",
+          "body": [
+            "The Adalat Bazaar, Tripuri market and the lanes around Qila Mubarak sell the voluminous Patiala salwar, embroidered juttis, colourful parandas (hair tassels) and phulkari. Prices are fair, and bargaining is expected in smaller shops."
+          ],
+          "facts": {
+            "Good for": "Shoppers"
+          }
+        },
+        {
+          "name": "Eat Punjabi food",
+          "body": [
+            "Try chhole bhature, lassi, pinni and other Punjabi sweets in the old city. Patiala's dhabas and sweet shops are busy from morning to night."
+          ],
+          "facts": {
+            "Good for": "Food lovers"
+          }
+        },
+        {
+          "name": "Visit Fatehgarh Sahib",
+          "body": [
+            "Fatehgarh Sahib, about 40 km away, is a major Sikh pilgrimage site commemorating the martyrdom of Guru Gobind Singh's younger sons in 1704. Sirhind, next to it, has Mughal-era monuments."
+          ],
+          "links": [
+            {
+              "label": "Fatehgarh Sahib guide",
+              "href": "/blog/fatehgarh-sahib-travel-guide"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "History lovers",
+      "text": "Qila Mubarak, the Sheesh Mahal's medal gallery and Bahadurgarh Fort."
+    },
+    {
+      "who": "Shoppers",
+      "text": "A morning in Adalat Bazaar for salwars, juttis and parandas."
+    },
+    {
+      "who": "Pilgrims",
+      "text": "Dukh Niwaran Sahib and a trip to Fatehgarh Sahib."
+    }
+  ],
+  "oneDay": "Start at Qila Mubarak and walk through the old city bazaars. After lunch, visit the Sheesh Mahal and see Moti Bagh Palace. End the day at Gurdwara Dukh Niwaran Sahib and a walk in Baradari Gardens.",
+  "tips": [
+    "Patiala has a railway station; Chandigarh, about 70 km away, has the nearest major airport.",
+    "Many museums close on Mondays; check timings before you go.",
+    "The old city is crowded and best explored on foot or by rickshaw.",
+    "Summers are very hot; October to March is best."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Patiala?",
+      "a": "Explore Qila Mubarak, the Sheesh Mahal and Moti Bagh Palace, walk in Baradari Gardens, visit Gurdwara Dukh Niwaran Sahib and the Kali Devi Temple, and shop for Patiala salwars and juttis."
+    },
+    {
+      "q": "How many days are enough for Patiala?",
+      "a": "One day for the main sights; two days to add Bahadurgarh and Fatehgarh Sahib."
+    },
+    {
+      "q": "What is Patiala famous for?",
+      "a": "Its royal heritage, the Patiala salwar, juttis and parandas, the Sheesh Mahal's medal collection and the National Institute of Sports at Moti Bagh."
+    },
+    {
+      "q": "What is the best time to visit Patiala?",
+      "a": "October to March, when the weather is pleasant for sightseeing."
+    },
+    {
+      "q": "Is the Sheesh Mahal in Patiala open to visitors?",
+      "a": "Yes, the museum in the Sheesh Mahal is usually open to visitors, though timings and closures can change during restoration work. Check locally before going, and note that many museums close on Mondays."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Chandigarh",
+      "href": "/blog/things-to-do-in-chandigarh",
+      "note": "about an hour and a half away"
+    },
+    {
+      "name": "Fatehgarh Sahib",
+      "href": "/blog/fatehgarh-sahib-travel-guide",
+      "note": "a major gurdwara, 40 km away"
+    },
+    {
+      "name": "Things to do in Amritsar",
+      "href": "/blog/things-to-do-in-amritsar",
+      "note": "the Golden Temple"
+    }
+  ],
+  "styles": [
+    "spiritual-tours",
+    "weekend-getaways"
+  ],
+  "metaDescription": "Things to do in Patiala: Qila Mubarak, the Sheesh Mahal and its medal gallery, Moti Bagh Palace, Baradari Gardens, Gurdwara Dukh Niwaran Sahib, Kali Devi Temple and more."
+}

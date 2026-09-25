@@ -1,0 +1,270 @@
+{
+  "slug": "things-to-do-in-rajgir",
+  "destination": "Rajgir",
+  "guide": "rajgir-travel-guide",
+  "type": "pilgrimage town",
+  "title": "Things to Do in Rajgir: Vulture's Peak, Peace Pagoda, Hot Springs & Nalanda",
+  "seoTitle": "Things to Do in Rajgir: Stupa, Springs & Nalanda | Kudozz Club",
+  "description": "Things to do in Rajgir: the ropeway to the Vishwa Shanti Stupa, Vulture's Peak where the Buddha taught, the hot springs of Brahmakund, Saptaparni Cave, Bimbisara's Jail, the Cyclopean Wall, Venuvana, Jain temples on the hills, the glass bridge, Ghora Katora lake and the ruins of Nalanda.",
+  "dek": "The ancient capital of Magadha, ringed by five hills, where the Buddha and Mahavira taught, and a short drive from the ruins of Nalanda.",
+  "primaryKeyword": "things to do in Rajgir",
+  "secondaryKeywords": [
+    "places to visit in Rajgir",
+    "Vishwa Shanti Stupa",
+    "Vulture's Peak",
+    "Rajgir hot springs",
+    "Rajgir glass bridge",
+    "Nalanda ruins",
+    "Ghora Katora"
+  ],
+  "searchIntent": "Pilgrims and history lovers planning one or two days in Rajgir and Nalanda, often with Bodh Gaya.",
+  "tags": [
+    "Rajgir",
+    "Bihar",
+    "Pilgrimage",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/bihar/rajgir/vishwa-shanti-stupa-rajgir.webp",
+    "alt": "Vishwa Shanti Stupa on Ratnagiri hill, Rajgir",
+    "caption": "Vishwa Shanti Stupa"
+  },
+  "intro": [
+    "Rajgir (ancient Rajagriha) was the first capital of the Magadha kingdom, ruled by Bimbisara and Ajatashatru in the 6th and 5th centuries BCE. The Buddha spent many rainy seasons here and gave important sermons on Vulture's Peak, and Mahavira, the 24th Jain Tirthankara, also lived and taught here. After the Buddha's death, the first Buddhist council was held in a cave in the hills.",
+    "The things to do in Rajgir include the ropeway up Ratnagiri hill to the white Vishwa Shanti Stupa, the walk to Vulture's Peak, the hot springs at the foot of Vaibhar hill, ancient ruins such as Bimbisara's Jail and the Cyclopean Wall, Jain temples on the hills, newer attractions such as the glass bridge and nature safari, and a visit to Nalanda's ruins nearby.",
+    "One to two days is enough. October to March is the best time; the Rajgir Mahotsav is held in autumn or winter."
+  ],
+  "quickAnswer": [
+    "Ride the ropeway to the Vishwa Shanti Stupa",
+    "Walk up to Vulture's Peak",
+    "Bathe at the Brahmakund hot springs",
+    "See Saptaparni Cave",
+    "Visit Bimbisara's Jail",
+    "See the ancient Cyclopean Wall",
+    "Walk in Venuvana",
+    "Visit the Jain temples on the hills",
+    "Walk the glass bridge at the nature safari",
+    "Explore the ruins of Nalanda"
+  ],
+  "sections": [
+    {
+      "id": "hills",
+      "heading": "Hills and Buddhist sites",
+      "items": [
+        {
+          "name": "Ride the ropeway to the Vishwa Shanti Stupa",
+          "body": [
+            "The Vishwa Shanti Stupa, a white peace pagoda built by the Japanese Nipponzan Myohoji order and inaugurated in 1969, stands on Ratnagiri hill with gold statues of the Buddha in four niches. A chairlift and a newer cabin ropeway run up the hill.",
+            "From the top, paths lead across the ridge towards Vulture's Peak, and a Japanese temple beside the stupa holds daily prayers with drums. Early morning, before the crowds and heat, is the calmest time."
+          ],
+          "facts": {
+            "Time needed": "1.5 hours",
+            "Good for": "Everyone"
+          }
+        },
+        {
+          "name": "Walk up to Vulture's Peak",
+          "body": [
+            "Griddhakuta, or Vulture's Peak, is a rocky outcrop where the Buddha is believed to have given many sermons, including teachings associated with the Lotus Sutra. A stone path leads up to the remains of brick platforms, where pilgrims pray and meditate."
+          ],
+          "image": {
+            "src": "/images/blogs/bihar/rajgir/griddhakuta-hill-rajgir.webp",
+            "alt": "Griddhakuta (Vulture's Peak), Rajgir",
+            "caption": "Vulture's Peak"
+          },
+          "facts": {
+            "Best time": "Early morning or sunset"
+          }
+        },
+        {
+          "name": "See Saptaparni Cave",
+          "body": [
+            "Saptaparni Cave, on Vaibhar hill, is where the first Buddhist council was held after the Buddha's passing to compile his teachings. It is reached by a steep climb."
+          ]
+        },
+        {
+          "name": "Walk in Venuvana",
+          "body": [
+            "Venuvana, a bamboo grove gifted to the Buddha by King Bimbisara, is now a landscaped park with a pond, a peaceful spot to rest."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "heading": "Ancient ruins",
+      "items": [
+        {
+          "name": "Visit Bimbisara's Jail",
+          "body": [
+            "The ruins known as Bimbisara's Jail mark where King Bimbisara is said to have been imprisoned by his son Ajatashatru. According to tradition, he chose this site because he could see the Buddha on Vulture's Peak from here."
+          ]
+        },
+        {
+          "name": "See the Cyclopean Wall",
+          "body": [
+            "The Cyclopean Wall, a massive dry-stone wall that once ran for about 40 km around the city, is one of the oldest stone structures in India, dating from before the Mauryan period."
+          ]
+        },
+        {
+          "name": "See the Swarna Bhandar caves",
+          "body": [
+            "The Son Bhandar caves, two rock-cut chambers with Jain inscriptions, are linked in local legend to a hidden treasure."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "springs-new",
+      "heading": "Hot springs, Jain temples and new attractions",
+      "items": [
+        {
+          "name": "Bathe at the Brahmakund hot springs",
+          "body": [
+            "At the foot of Vaibhar hill, hot springs feed bathing tanks at the Brahmakund, where pilgrims bathe for their healing properties. It is busy in winter and during festivals."
+          ]
+        },
+        {
+          "name": "Visit the Jain temples",
+          "body": [
+            "The five hills around Rajgir have Jain temples on their summits, reached by steps, as Mahavira spent many monsoons here. Pawapuri, where Mahavira attained nirvana, is about 35 km away and has the white Jal Mandir in a lotus pond."
+          ],
+          "links": [
+            {
+              "label": "Pawapuri guide",
+              "href": "/blog/pawapuri-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Walk the glass bridge",
+          "body": [
+            "The Rajgir Nature Safari, opened in recent years, has a glass skywalk bridge suspended over a valley, zip lines and a safari zone. The Rajgir Zoo Safari nearby has big cats and other animals in large enclosures."
+          ],
+          "facts": {
+            "Good for": "Families",
+            "Good to know": "Book tickets online"
+          }
+        },
+        {
+          "name": "Relax at Ghora Katora",
+          "body": [
+            "Ghora Katora, a lake surrounded by hills in a protected area, has a large Buddha statue in the water and electric boats. Only non-polluting transport is allowed on the approach."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nalanda",
+      "heading": "Nalanda",
+      "items": [
+        {
+          "name": "Explore the ruins of Nalanda",
+          "body": [
+            "Nalanda, about 15 km north, was one of the greatest centres of learning in the ancient world, flourishing from the 5th to 12th centuries, with thousands of students and teachers. Its red-brick monasteries, temples and stupas, including the great Sariputta Stupa, are a UNESCO World Heritage Site. The site museum and the Xuanzang Memorial Hall are nearby."
+          ],
+          "image": {
+            "src": "/images/blogs/bihar/bihar/nalanda-mahavihara-ruins-sariputta-stupa.webp",
+            "alt": "Ruins of Nalanda and the Sariputta Stupa",
+            "caption": "Nalanda Mahavihara"
+          },
+          "facts": {
+            "Time needed": "Half a day",
+            "Good for": "History lovers"
+          },
+          "links": [
+            {
+              "label": "Nalanda guide",
+              "href": "/blog/nalanda-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seasons",
+      "heading": "By season",
+      "items": [
+        {
+          "name": "October to March",
+          "body": [
+            "Pleasant weather for walking the hills and ruins; the Rajgir Mahotsav cultural festival is held in this season."
+          ]
+        },
+        {
+          "name": "April to June",
+          "body": [
+            "Very hot; visit early."
+          ]
+        },
+        {
+          "name": "July to September",
+          "body": [
+            "Monsoon rains green the hills; some trails are slippery."
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Pilgrims",
+      "text": "Vulture's Peak at dawn, the Peace Pagoda, Saptaparni and Nalanda."
+    },
+    {
+      "who": "Families",
+      "text": "The ropeway, the glass bridge, the zoo safari and Ghora Katora."
+    },
+    {
+      "who": "History lovers",
+      "text": "Nalanda, Bimbisara's Jail and the Cyclopean Wall."
+    }
+  ],
+  "oneDay": "Walk up to Vulture's Peak at dawn and take the ropeway to the Vishwa Shanti Stupa. After breakfast, visit Venuvana, Bimbisara's Jail and the hot springs, then drive to Nalanda for the afternoon.",
+  "tips": [
+    "The nearest airports are Gaya and Patna; Rajgir has a railway station.",
+    "Bihar is a dry state; alcohol is prohibited.",
+    "Book nature and zoo safari tickets in advance.",
+    "Carry water and a hat for the hill climbs."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Rajgir?",
+      "a": "Ride the ropeway to the Vishwa Shanti Stupa, walk up to Vulture's Peak, bathe at the hot springs, see Saptaparni Cave, Bimbisara's Jail and the Cyclopean Wall, walk the glass bridge and visit Nalanda."
+    },
+    {
+      "q": "How far is Nalanda from Rajgir?",
+      "a": "About 15 km, roughly 30 minutes by road."
+    },
+    {
+      "q": "How many days are enough for Rajgir?",
+      "a": "One to two days, including Nalanda."
+    },
+    {
+      "q": "Is Nalanda a UNESCO site?",
+      "a": "Yes. The Nalanda Mahavihara was inscribed in 2016."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Nalanda",
+      "href": "/blog/nalanda-travel-guide",
+      "note": "the ancient university"
+    },
+    {
+      "name": "Things to do in Bodh Gaya",
+      "href": "/blog/things-to-do-in-bodh-gaya",
+      "note": "the Mahabodhi Temple"
+    },
+    {
+      "name": "Things to do in Patna",
+      "href": "/blog/things-to-do-in-patna",
+      "note": "museums and the Ganga"
+    }
+  ],
+  "styles": [
+    "spiritual-tours",
+    "family-holidays"
+  ],
+  "metaDescription": "Things to do in Rajgir: the ropeway to the Vishwa Shanti Stupa, Vulture's Peak where the Buddha taught, the hot springs of Brahmakund, Saptaparni Cave, Bimbisara's Jail and more."
+}

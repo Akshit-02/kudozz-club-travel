@@ -1,0 +1,254 @@
+{
+  "slug": "things-to-do-in-kodaikanal",
+  "destination": "Kodaikanal",
+  "guide": "kodaikanal-travel-guide",
+  "type": "hill station",
+  "title": "Things to Do in Kodaikanal: The Lake, Coaker's Walk, Forests & Viewpoints",
+  "seoTitle": "Things to Do in Kodaikanal: Lake, Walks & Views | Kudozz Club",
+  "description": "Things to do in Kodaikanal: boating and cycling around Kodai Lake, Coaker's Walk, Bryant Park, Pillar Rocks, the Pine Forest, Guna Caves, Berijam Lake, Silver Cascade and Bear Shola falls, Dolphin's Nose, Poombarai and Mannavanur, and homemade chocolate.",
+  "dek": "The princess of hill stations, founded by missionaries in the Palani hills, with a star-shaped lake, cliffside walks and forests of pine and shola.",
+  "primaryKeyword": "things to do in Kodaikanal",
+  "secondaryKeywords": [
+    "places to visit in Kodaikanal",
+    "Kodai Lake",
+    "Coaker's Walk",
+    "Pillar Rocks",
+    "Berijam Lake",
+    "Dolphin's Nose Kodaikanal",
+    "Kodaikanal honeymoon"
+  ],
+  "searchIntent": "Couples and families planning two or three days in Kodaikanal, often with Madurai.",
+  "tags": [
+    "Kodaikanal",
+    "Tamil Nadu",
+    "Hill Station",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/tamil-nadu/kodaikanal/kodaikanal-lake.webp",
+    "alt": "Kodaikanal Lake surrounded by trees",
+    "caption": "Kodaikanal Lake"
+  },
+  "intro": [
+    "Kodaikanal, at about 2,100 metres in the Palani hills of Dindigul district, was founded in 1845 by American missionaries as a refuge from the heat of the plains. Its star-shaped lake, created in 1863, is the centre of town, and old schools, churches and bungalows dot the slopes. It is often called the Princess of Hill Stations.",
+    "The things to do in Kodaikanal include boating and cycling around the lake, walks along Coaker's Walk and through pine forests, viewpoints such as Pillar Rocks and Green Valley View, waterfalls, forest lakes such as Berijam, and villages like Poombarai with terraced farms. Homemade chocolate and eucalyptus oil are local specialities.",
+    "Two to three days is ideal. April to June and September to November are popular; winters are cold and clear."
+  ],
+  "quickAnswer": [
+    "Go boating or cycle around Kodai Lake",
+    "Walk along Coaker's Walk",
+    "See the flowers at Bryant Park",
+    "See the view from Pillar Rocks",
+    "Walk through the Pine Forest",
+    "See Guna Caves (from the viewing area)",
+    "Visit Berijam Lake with a forest permit",
+    "See Silver Cascade and Bear Shola falls",
+    "Trek to Dolphin's Nose",
+    "Visit Poombarai and Mannavanur"
+  ],
+  "sections": [
+    {
+      "id": "town",
+      "heading": "Around the lake",
+      "items": [
+        {
+          "name": "Boat or cycle around Kodai Lake",
+          "body": [
+            "Kodai Lake, a star-shaped lake of about 60 acres, has rowing and pedal boats, and a 5 km road around it that is popular for walking, cycling and pony rides. Early morning, when mist hangs over the water, is the most atmospheric time."
+          ],
+          "facts": {
+            "Best time": "Early morning",
+            "Good for": "Families, couples"
+          }
+        },
+        {
+          "name": "Walk along Coaker's Walk",
+          "body": [
+            "Coaker's Walk, built in 1872 by a British officer, is a paved path of about 1 km along a cliff edge with views of the plains, valleys and, on clear days, the town of Periyakulam far below. A telescope house is along the way."
+          ],
+          "facts": {
+            "Time needed": "1 hour",
+            "Best time": "Morning"
+          }
+        },
+        {
+          "name": "See Bryant Park",
+          "image": {
+            "src": "/images/blogs/tamil-nadu/kodaikanal/bryant-park-kodaikanal.webp",
+            "alt": "Flowerbeds in Bryant Park, Kodaikanal",
+            "caption": "Bryant Park"
+          },
+          "body": [
+            "Bryant Park, next to the lake, is a botanical garden with flower beds, a glasshouse and old trees. The summer flower show in May is a major event."
+          ],
+          "facts": {
+            "Best time": "April to June"
+          }
+        },
+        {
+          "name": "See the Solar Observatory and Shenbaganur Museum",
+          "body": [
+            "The Kodaikanal Solar Observatory, established in 1899, has a small museum open on limited days. The Shenbaganur Museum of Natural History, run by Sacred Heart College, has collections of orchids, insects and animals."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "viewpoints",
+      "heading": "Viewpoints, forests and falls",
+      "items": [
+        {
+          "name": "See Pillar Rocks",
+          "image": {
+            "src": "/images/blogs/tamil-nadu/kodaikanal/pillar-rocks-kodaikanal.webp",
+            "alt": "Pillar Rocks, Kodaikanal",
+            "caption": "Pillar Rocks"
+          },
+          "body": [
+            "Pillar Rocks are three granite pillars rising about 120 metres, often wrapped in mist. The viewpoint and garden in front are one of Kodaikanal's most visited spots. Green Valley View, nearby, looks down a deep valley."
+          ],
+          "facts": {
+            "Best time": "Morning before the mist"
+          }
+        },
+        {
+          "name": "Walk through the Pine Forest",
+          "body": [
+            "The Pine Forest, planted in the early 20th century, has tall, straight trees and soft paths that are pleasant for walks and photography."
+          ]
+        },
+        {
+          "name": "See Guna Caves",
+          "body": [
+            "Guna Caves, also called Devil's Kitchen, are deep crevices made famous by the 1991 Tamil film Guna and a 2024 Malayalam film. Entry into the caves is prohibited after accidents; visitors can see them from a fenced viewing area."
+          ],
+          "facts": {
+            "Good to know": "Viewing only; caves are off-limits"
+          }
+        },
+        {
+          "name": "Visit Berijam Lake",
+          "body": [
+            "Berijam Lake, about 20 km away in reserve forest, is reached on a forest road with a permit from the forest department office in Kodaikanal. Vehicle numbers are limited, and the route passes viewpoints and shola forest where gaur are often seen."
+          ],
+          "facts": {
+            "Good to know": "Permit required; limited vehicles"
+          }
+        },
+        {
+          "name": "See Silver Cascade and Bear Shola falls",
+          "image": {
+            "src": "/images/blogs/tamil-nadu/kodaikanal/silver-cascade-falls-kodaikanal.webp",
+            "alt": "Silver Cascade Falls on the road to Kodaikanal",
+            "caption": "Silver Cascade Falls"
+          },
+          "body": [
+            "Silver Cascade Falls, on the ghat road about 8 km before town, drops about 55 metres beside the road. Bear Shola Falls, a short walk from town through forest, flows mainly after the monsoon."
+          ]
+        },
+        {
+          "name": "Trek to Dolphin's Nose",
+          "body": [
+            "From Vattakanal, a small village below town, a walk of about an hour leads to Dolphin's Nose, a flat rock jutting over a deep gorge. The path passes streams and small cafés."
+          ],
+          "facts": {
+            "Time needed": "Half a day",
+            "Good for": "Active travellers"
+          }
+        }
+      ]
+    },
+    {
+      "id": "villages",
+      "heading": "Villages and food",
+      "items": [
+        {
+          "name": "Visit Poombarai and Mannavanur",
+          "body": [
+            "Poombarai, about 18 km away, is a village of terraced farms and an old Murugan temple, overlooking a valley. Mannavanur, further on, has a lake, grassland and a sheep and rabbit farm."
+          ],
+          "facts": {
+            "Time needed": "Half a day"
+          }
+        },
+        {
+          "name": "See Kurinji Andavar Temple",
+          "body": [
+            "The Kurinji Andavar Temple, dedicated to Murugan, is linked to the Neelakurinji flower that blooms across the Palani hills every 12 years."
+          ]
+        },
+        {
+          "name": "Buy chocolate and eucalyptus oil",
+          "body": [
+            "Kodaikanal is known for homemade chocolate, plums, eucalyptus oil and cheese. Buy from established shops in town."
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Couples",
+      "text": "Morning boating on the lake, Coaker's Walk, Pine Forest and a quiet walk to Dolphin's Nose."
+    },
+    {
+      "who": "Families",
+      "text": "Boating and cycling, Bryant Park, Pillar Rocks and the falls."
+    },
+    {
+      "who": "Nature lovers",
+      "text": "Berijam Lake with a permit, Poombarai and the shola forests."
+    }
+  ],
+  "oneDay": "Cycle or boat around the lake in the morning, then walk Coaker's Walk. After lunch, see Pillar Rocks, Green Valley View, the Guna Caves viewpoint and the Pine Forest, and return to Bryant Park and the bazaar in the evening.",
+  "tips": [
+    "Kodaikanal Road railway station is about 80 km away; Madurai airport is about three hours away.",
+    "Get Berijam permits early in the morning at the forest office.",
+    "Carry warm layers; evenings are cold year-round.",
+    "Weekends and summer holidays are crowded; weekdays are calmer."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Kodaikanal?",
+      "a": "Boat or cycle around Kodai Lake, walk Coaker's Walk, see Bryant Park and Pillar Rocks, walk in the Pine Forest, visit Berijam Lake, see the waterfalls, trek to Dolphin's Nose and visit Poombarai."
+    },
+    {
+      "q": "Can you go inside Guna Caves?",
+      "a": "No. Entry into the caves is prohibited; they can be seen from a fenced viewing area."
+    },
+    {
+      "q": "How many days are enough for Kodaikanal?",
+      "a": "Two to three days."
+    },
+    {
+      "q": "What is the best time to visit Kodaikanal?",
+      "a": "April to June and September to November. Winters are cold but clear."
+    },
+    {
+      "q": "Is Kodaikanal good for a honeymoon?",
+      "a": "Yes. Misty mornings on the lake, Coaker's Walk, quiet forest walks and cosy stays make it a popular honeymoon choice."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Madurai",
+      "href": "/blog/things-to-do-in-madurai",
+      "note": "the temple city, about three hours away"
+    },
+    {
+      "name": "Things to do in Munnar",
+      "href": "/blog/things-to-do-in-munnar",
+      "note": "Kerala's tea hills"
+    },
+    {
+      "name": "Things to do in Ooty",
+      "href": "/blog/things-to-do-in-ooty",
+      "note": "the Nilgiris"
+    }
+  ],
+  "styles": [
+    "honeymoon",
+    "family-holidays"
+  ],
+  "metaDescription": "Things to do in Kodaikanal: boating and cycling around Kodai Lake, Coaker's Walk, Bryant Park, Pillar Rocks, the Pine Forest, Guna Caves, Berijam Lake and more."
+}

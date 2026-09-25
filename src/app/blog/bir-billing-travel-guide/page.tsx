@@ -20,13 +20,13 @@ export const metadata: Metadata = {
     url: "https://club.kudozz.in/blog/bir-billing-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/spiti-valley/spiti-valley.jpg", width: 2560, height: 1920, alt: "Mountain valley representative of Bir Billing, Himachal Pradesh" }],
+    images: [{ url: "/images/blogs/himachal-pradesh/bir-billing/chokling-monastery-bir.webp", width: 1600, height: 1200, alt: "Chokling Monastery in the Tibetan colony, Bir" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Bir Billing Travel Guide: Paragliding Capital of India",
     description: "Tandem paragliding and Tibetan culture — the complete guide to Bir Billing.",
-    images: ["/images/destinations/spiti-valley/spiti-valley.jpg"],
+    images: ["/images/blogs/himachal-pradesh/bir-billing/chokling-monastery-bir.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/bir-billing-travel-guide" },
 };
@@ -37,7 +37,7 @@ function ArticleSchema() {
       "@context": "https://schema.org", "@type": "BlogPosting",
       headline: "Bir Billing Travel Guide: Paragliding Capital of India",
       description: "The complete Bir Billing travel guide.",
-      image: "https://club.kudozz.in/images/destinations/spiti-valley/spiti-valley.jpg",
+      image: "https://club.kudozz.in/images/blogs/himachal-pradesh/bir-billing/chokling-monastery-bir.webp",
       datePublished: "2026-09-07", dateModified: "2026-09-07",
       publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
       author: { "@type": "Organization", name: "Kudozz Club" },
@@ -91,7 +91,7 @@ export default function BirBillingGuidePage() {
       <main>
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
-            <Image src="/images/destinations/spiti-valley/spiti-valley.jpg" alt="Mountain valley representative of Bir Billing, Himachal Pradesh" fill priority sizes="100vw" className="object-cover" />
+            <Image src="/images/blogs/himachal-pradesh/bir-billing/chokling-monastery-bir.webp" alt="Chokling Monastery in the Tibetan colony, Bir" fill priority sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>

@@ -1,0 +1,225 @@
+{
+  "slug": "things-to-do-in-gulmarg",
+  "destination": "Gulmarg",
+  "guide": "gulmarg-travel-guide",
+  "type": "ski resort",
+  "title": "Things to Do in Gulmarg: Gondola, Skiing & Summer Meadows",
+  "seoTitle": "Things to Do in Gulmarg: Gondola, Skiing & More | Kudozz Club",
+  "description": "Things to do in Gulmarg: the two-phase gondola to Apharwat, skiing and snowboarding in winter, snow play and sledging, the Khilanmarg walk, Alpather Lake, St Mary's Church, the Maharani temple, the golf course and Drang waterfall.",
+  "dek": "A bowl-shaped meadow at over 2,600 metres, turned into India's best ski resort in winter and a pony-trail of flowers and pine forest in summer.",
+  "primaryKeyword": "things to do in Gulmarg",
+  "secondaryKeywords": [
+    "Gulmarg gondola",
+    "Gulmarg skiing",
+    "Gulmarg in winter",
+    "Gulmarg in summer",
+    "Khilanmarg",
+    "Alpather Lake"
+  ],
+  "searchIntent": "Visitors planning a day trip or one to two nights in Gulmarg, looking for gondola tips and winter or summer activities.",
+  "tags": [
+    "Gulmarg",
+    "Jammu & Kashmir",
+    "Skiing",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/destinations/jammu-kashmir/apharwat-peak-gulmarg-snow-slopes.webp",
+    "alt": "Snow slopes of Apharwat above Gulmarg",
+    "caption": "Apharwat slopes"
+  },
+  "intro": [
+    "Gulmarg, the meadow of flowers, lies at about 2,650 metres in Baramulla district, around 50 km from Srinagar. It was a summer retreat for Kashmir's rulers and later for the British, who laid out its golf course. Today it is best known for the Gulmarg Gondola and for powder skiing on the slopes of Apharwat.",
+    "Things to do in Gulmarg change completely with the season. From December to March, it is snow: skiing, snowboarding, sledging and gondola rides above the clouds. From May to October, the meadow is green, the gondola leads to snowfields and views, and walks go to Khilanmarg and Alpather Lake.",
+    "One full day covers the gondola and main viewpoints; two days allow skiing or longer walks. Many visitors stay in Srinagar and visit on a day trip."
+  ],
+  "quickAnswer": [
+    "Ride the Gulmarg Gondola to Kongdori and Apharwat",
+    "Ski or snowboard in winter",
+    "Try sledging and snow play near the meadow",
+    "Walk or ride a pony to Khilanmarg",
+    "Hike to Alpather Lake (summer)",
+    "See St Mary's Church and the Maharani temple",
+    "Walk the golf course meadow",
+    "Visit Drang waterfall near Tangmarg"
+  ],
+  "sections": [
+    {
+      "id": "gondola-snow",
+      "heading": "Gondola and snow",
+      "items": [
+        {
+          "name": "Ride the Gulmarg Gondola",
+          "body": [
+            "The gondola runs in two phases. Phase 1 climbs from Gulmarg to Kongdori at about 3,050 metres, with meadows and snow depending on the season. Phase 2 continues to near the top of Apharwat at close to 4,000 metres, among the highest cable cars in the world, with views across the Pir Panjal and, on clear days, to Nanga Parbat.",
+            "Tickets are sold online through the official system and sell out on busy days; book early. Phase 2 may close in high winds or bad weather. It is very cold at the top in all seasons."
+          ],
+          "facts": {
+            "Time needed": "3–4 hours for both phases",
+            "Best time": "Morning, before clouds build",
+            "Good for": "Everyone",
+            "Good to know": "Book tickets online in advance"
+          }
+        },
+        {
+          "name": "Ski or snowboard",
+          "body": [
+            "Gulmarg has groomed beginner slopes near the resort and some of the most famous off-piste powder skiing in Asia from the top of the gondola. Ski schools and certified instructors offer lessons for beginners, and equipment can be rented locally. Experienced skiers going off-piste should hire a certified guide and check avalanche conditions."
+          ],
+          "facts": {
+            "Best time": "January to early March",
+            "Good for": "Beginners to experts",
+            "Good to know": "Hire certified guides for off-piste"
+          }
+        },
+        {
+          "name": "Play in the snow",
+          "body": [
+            "Non-skiers can enjoy sledging (pulled by local sledge-men), snow walks and snowball fights on the slopes near the meadow. Agree on sledge prices and duration before starting, and rent boots and jackets from registered shops."
+          ],
+          "facts": {
+            "Good for": "Families, first-time snow visitors"
+          }
+        }
+      ]
+    },
+    {
+      "id": "summer",
+      "heading": "Summer meadows and walks",
+      "items": [
+        {
+          "name": "Walk or ride to Khilanmarg",
+          "body": [
+            "Khilanmarg is a meadow above Gulmarg, reached by a walk of about 5 km through pine forest or by pony. In early summer it is covered in flowers, and it offers wide views of the valley and the Himalaya, including Nanga Parbat on clear days. In winter it becomes a ski slope."
+          ],
+          "facts": {
+            "Time needed": "3–4 hours",
+            "Best time": "June to September"
+          }
+        },
+        {
+          "name": "Hike to Alpather Lake",
+          "body": [
+            "Alpather Lake lies below the Apharwat peaks at around 3,800 metres, reached from the gondola's upper station by a walk or pony ride. It stays frozen until early summer and is at its best from June to September. The altitude makes the walk tiring; go slowly."
+          ],
+          "facts": {
+            "Best time": "June to September",
+            "Good for": "Active travellers"
+          }
+        },
+        {
+          "name": "Walk along Ningle Nallah",
+          "body": [
+            "Ningle Nallah is a stream that flows from the Apharwat snowfields and Alpather Lake through a valley of pine forest and meadows. A walk along it is peaceful and far from the crowds."
+          ]
+        },
+        {
+          "name": "Walk the golf course meadow",
+          "image": {
+            "src": "/images/destinations/jammu-kashmir/gulmarg-golf-course-meadow.webp",
+            "alt": "Gulmarg golf course meadow with pine forest",
+            "caption": "Gulmarg golf course"
+          },
+          "body": [
+            "The Gulmarg Golf Club, established in the colonial era, has one of the highest green golf courses in the world. Visitors can play by arrangement or simply walk the edges of the meadow."
+          ],
+          "facts": {
+            "Best time": "May to October"
+          }
+        }
+      ]
+    },
+    {
+      "id": "heritage",
+      "heading": "Heritage and nearby",
+      "items": [
+        {
+          "name": "See St Mary's Church",
+          "body": [
+            "St Mary's Church, a small stone church from the early 20th century, stands in the middle of the Gulmarg meadow. It is one of the few surviving colonial buildings in the resort and looks especially pretty in the snow."
+          ],
+          "facts": {
+            "Time needed": "20 minutes"
+          }
+        },
+        {
+          "name": "Visit the Maharani Temple",
+          "body": [
+            "The Maharani Temple (Mohinishwar Shivalaya), built by the royal family of Kashmir in the early 20th century, sits on a small hillock with views over the meadow. Its red roof is visible from across Gulmarg, and it has featured in several Hindi films."
+          ]
+        },
+        {
+          "name": "Stop at Drang waterfall",
+          "body": [
+            "Drang, a village near Tangmarg on the road up to Gulmarg, has a waterfall that freezes into ice formations in deep winter. It is a short detour and a popular winter photo stop."
+          ],
+          "facts": {
+            "Best time": "January to February for frozen falls"
+          }
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "First-time snow visitors",
+      "text": "Visit in January or February, ride the gondola early, then spend the afternoon sledging and walking in the snow."
+    },
+    {
+      "who": "Skiers",
+      "text": "Stay at least three to five days in Gulmarg itself to ski the top of the gondola; hire a guide for off-piste."
+    },
+    {
+      "who": "Summer visitors",
+      "text": "Ride both gondola phases, walk to Khilanmarg and visit the church and temple on the meadow."
+    }
+  ],
+  "oneDay": "Arrive early and ride the gondola to Kongdori and, if open, Apharwat. Come down for lunch, then walk across the meadow to St Mary's Church and the Maharani Temple. In winter, spend the afternoon sledging; in summer, walk towards Khilanmarg before heading back to Srinagar.",
+  "tips": [
+    "Gulmarg is about 50 km from Srinagar airport; the drive takes around two hours.",
+    "Local taxi and guide unions operate on the meadow; agree on rates before hiring.",
+    "Carry sunglasses and sunscreen; snow glare is strong at altitude.",
+    "Weather can close the upper gondola phase at short notice; keep your plans flexible."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Gulmarg?",
+      "a": "Ride the gondola to Kongdori and Apharwat, ski or play in the snow in winter, walk to Khilanmarg and Alpather Lake in summer, and see St Mary's Church and the Maharani Temple."
+    },
+    {
+      "q": "How do I book the Gulmarg gondola?",
+      "a": "Tickets are sold online through the official booking system. Book in advance for busy days, especially in winter and summer holidays."
+    },
+    {
+      "q": "When is the best time for snow in Gulmarg?",
+      "a": "January to early March usually has the best snow for skiing. Light snow can start in December."
+    },
+    {
+      "q": "Can Gulmarg be done as a day trip from Srinagar?",
+      "a": "Yes. Leave early to beat queues for the gondola and return by evening."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Srinagar",
+      "href": "/blog/things-to-do-in-srinagar",
+      "note": "lakes and gardens, two hours away"
+    },
+    {
+      "name": "Things to do in Pahalgam",
+      "href": "/blog/things-to-do-in-pahalgam",
+      "note": "the Lidder valley"
+    },
+    {
+      "name": "Doodhpathri",
+      "href": "/blog/doodhpathri-travel-guide",
+      "note": "another meadow, quieter and closer to Srinagar"
+    }
+  ],
+  "styles": [
+    "honeymoon",
+    "adventure-tours",
+    "family-holidays"
+  ],
+  "metaDescription": "Things to do in Gulmarg: the two-phase gondola to Apharwat, skiing and snowboarding in winter, snow play and sledging, the Khilanmarg walk, Alpather Lake, St Mary's Church and more."
+}

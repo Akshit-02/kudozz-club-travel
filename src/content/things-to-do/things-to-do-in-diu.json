@@ -1,0 +1,290 @@
+{
+  "slug": "things-to-do-in-diu",
+  "destination": "Diu",
+  "guide": "diu-travel-guide",
+  "type": "island town",
+  "title": "Things to Do in Diu: Portuguese Fort, Churches, Beaches & Seaside Cafés",
+  "seoTitle": "Things to Do in Diu: Fort, Beaches & Churches | Kudozz Club",
+  "description": "Things to do in Diu: the 16th-century Diu Fort and the sea fort of Panikotha, St Paul's Church and St Thomas Church museum, Nagoa, Ghoghla and Chakratirth beaches, the Naida Caves, Gangeshwar Temple, the INS Khukri memorial, Zampa Gateway and seafood.",
+  "dek": "A small island off the southern tip of Saurashtra that was Portuguese for over 400 years, with a sea-battered fort, baroque churches and quiet beaches.",
+  "primaryKeyword": "things to do in Diu",
+  "secondaryKeywords": [
+    "places to visit in Diu",
+    "Diu Fort",
+    "Nagoa beach",
+    "Naida Caves",
+    "St Paul's Church Diu",
+    "Gangeshwar temple",
+    "INS Khukri memorial"
+  ],
+  "searchIntent": "Families and couples from Gujarat and beyond planning two or three days in Diu, often with Somnath and Gir.",
+  "tags": [
+    "Diu",
+    "Daman and Diu",
+    "Island",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu/panikotha-fortim-do-mar-sea-fort.webp",
+    "alt": "Panikotha sea fort off Diu",
+    "caption": "Panikotha sea fort"
+  },
+  "intro": [
+    "Diu, a small island linked by bridges to the coast of Gujarat, was held by the Portuguese from 1535 until 1961. It is now part of the union territory of Dadra and Nagar Haveli and Daman and Diu. Its whitewashed churches, colourful houses and a fort battered by the waves give it a character quite unlike the rest of Saurashtra.",
+    "The things to do in Diu include exploring the fort and the sea fort of Panikotha, visiting its churches, relaxing on beaches such as Nagoa and Ghoghla, wandering through the caves at Naida, seeing the sea temple of Gangeshwar and the INS Khukri memorial, and eating fresh seafood. As a union territory, its liquor laws differ from dry Gujarat, which draws many weekend visitors.",
+    "Two to three days is ideal. October to March is the best time."
+  ],
+  "quickAnswer": [
+    "Explore Diu Fort",
+    "See Panikotha, the sea fort",
+    "Visit St Paul's Church",
+    "See the museum in St Thomas Church",
+    "Relax on Nagoa beach",
+    "Watch sunset at Chakratirth beach",
+    "Wander through the Naida Caves",
+    "See the sea-washed lingams at Gangeshwar",
+    "Visit the INS Khukri memorial",
+    "Walk through the old town and Zampa Gateway"
+  ],
+  "sections": [
+    {
+      "id": "fort-churches",
+      "heading": "Fort and churches",
+      "items": [
+        {
+          "name": "Explore Diu Fort",
+          "body": [
+            "Diu Fort, completed in 1535 at the eastern end of the island, is a massive stone fortress surrounded by the sea on three sides and a moat on the fourth. Cannons, a lighthouse, chapels and a jail lie within its walls, and the ramparts give wide views.",
+            "Look for the old Portuguese coats of arms above gateways, the cannonballs lying on the ramparts, and the small chapel of St George. The lighthouse inside the fort is one of the landmarks of the island."
+          ],
+          "image": {
+            "src": "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu/diu-fort-gateway.webp",
+            "alt": "Gateway of Diu Fort",
+            "caption": "Diu Fort"
+          },
+          "facts": {
+            "Time needed": "1.5 hours",
+            "Best time": "Late afternoon"
+          }
+        },
+        {
+          "name": "See Panikotha",
+          "body": [
+            "Panikotha (Fortim do Mar), a small fort built in the sea opposite the main fort, looks like a ship at anchor. It is best seen from the jetty or the fort ramparts; boat access varies."
+          ]
+        },
+        {
+          "name": "Visit St Paul's Church",
+          "body": [
+            "St Paul's Church, founded in 1610, is one of the finest Portuguese baroque churches in India, with an ornate white façade and carved woodwork inside."
+          ],
+          "image": {
+            "src": "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu/st-pauls-church-facade-diu.webp",
+            "alt": "Baroque façade of St Paul's Church, Diu",
+            "caption": "St Paul's Church"
+          }
+        },
+        {
+          "name": "See St Thomas Church museum",
+          "body": [
+            "St Thomas Church, a Gothic church from the late 16th century, now houses the Diu Museum, with wooden sculptures of saints and Portuguese-era artefacts."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beaches",
+      "heading": "Beaches",
+      "items": [
+        {
+          "name": "Relax on Nagoa beach",
+          "body": [
+            "Nagoa beach, a horseshoe-shaped bay lined with palms, is Diu's most popular beach, with water sports, parasailing and cafés.",
+            "The beach's calm water makes it one of the better swimming spots in the area, and the landmark 'I love Diu' hand sculpture is here. Palm trees called hoka palms, found rarely in India, grow on the island."
+          ],
+          "image": {
+            "src": "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu/nagoa-beach-diu-2.webp",
+            "alt": "Nagoa beach, Diu",
+            "caption": "Nagoa beach"
+          },
+          "facts": {
+            "Good for": "Families"
+          }
+        },
+        {
+          "name": "Walk on Ghoghla beach",
+          "body": [
+            "Ghoghla, a long, quiet beach on the mainland side, has Blue Flag certification and gentle waves."
+          ],
+          "image": {
+            "src": "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu/ghoghla-beach-waves-sand-diu.webp",
+            "alt": "Ghoghla beach, Diu",
+            "caption": "Ghoghla beach"
+          }
+        },
+        {
+          "name": "Watch sunset at Chakratirth",
+          "body": [
+            "Chakratirth beach, near the town, is a small beach with a sunset point and an open-air theatre on a hillock."
+          ],
+          "facts": {
+            "Best time": "Sunset"
+          }
+        },
+        {
+          "name": "See Jallandhar beach",
+          "body": [
+            "Jallandhar beach, near a small shrine, is a rocky, quiet stretch good for walks."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "more",
+      "heading": "Caves, temples and memorials",
+      "items": [
+        {
+          "name": "Wander through the Naida Caves",
+          "body": [
+            "The Naida Caves, near the fort, are a network of chambers and passages formed where the Portuguese quarried stone. Sunlight falls through openings in the roof, and tree roots hang from above, making them popular with photographers.",
+            "Go in the morning or late afternoon, when shafts of light through the openings are most dramatic. Paths are uneven; wear good shoes."
+          ],
+          "image": {
+            "src": "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu/naida-caves-sandstone-chamber-roots.webp",
+            "alt": "Chamber and tree roots in the Naida Caves",
+            "caption": "Naida Caves"
+          },
+          "facts": {
+            "Time needed": "1 hour"
+          }
+        },
+        {
+          "name": "See Gangeshwar Temple",
+          "body": [
+            "At Gangeshwar, near Fudam village, five Shiva lingams set in the rocks on the shore are washed by the sea at high tide. Legend links them to the Pandavas."
+          ],
+          "facts": {
+            "Best time": "High tide"
+          }
+        },
+        {
+          "name": "Visit the INS Khukri memorial",
+          "body": [
+            "The INS Khukri memorial, on a hillock by the sea, honours the sailors lost when the frigate was sunk in the 1971 war. A scale model of the ship stands in a glass case."
+          ],
+          "image": {
+            "src": "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/diu/ins-khukri-memorial-model-zampa-beach.webp",
+            "alt": "INS Khukri memorial model, Diu",
+            "caption": "INS Khukri memorial"
+          }
+        },
+        {
+          "name": "Walk through the old town",
+          "body": [
+            "The old town's lanes have colourful houses, small chapels, the Zampa Gateway with its carved figures, and a vegetable market. Cycling or scooter rides are a good way to explore."
+          ]
+        },
+        {
+          "name": "Eat seafood",
+          "body": [
+            "Diu's restaurants and shacks serve fresh fish, prawns and lobster in Goan and Gujarati styles."
+          ],
+          "facts": {
+            "Good for": "Food lovers"
+          }
+        }
+      ]
+    },
+    {
+      "id": "seasons",
+      "heading": "By season",
+      "items": [
+        {
+          "name": "October to March",
+          "body": [
+            "Pleasant weather and calm seas; the Diu Festival is held in winter."
+          ]
+        },
+        {
+          "name": "April to June",
+          "body": [
+            "Hot but breezy; quiet weekdays."
+          ]
+        },
+        {
+          "name": "July to September",
+          "body": [
+            "Monsoon rain and rough seas; water sports stop."
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Families",
+      "text": "Nagoa beach, the fort, the INS Khukri memorial and Gangeshwar."
+    },
+    {
+      "who": "Couples",
+      "text": "Sunset at Chakratirth, the Naida Caves and quiet Ghoghla."
+    },
+    {
+      "who": "Road-trippers",
+      "text": "Combine Diu with Somnath, Gir and Dwarka."
+    }
+  ],
+  "oneDay": "Explore Diu Fort and the Naida Caves in the morning, then visit St Paul's Church and St Thomas Church museum. After a seafood lunch, see Gangeshwar Temple and the INS Khukri memorial, and end at Chakratirth for sunset.",
+  "tips": [
+    "Diu has a small airport; Veraval and Delwada are the nearest railway stations.",
+    "Rent a scooter or bicycle to explore.",
+    "Swim only at designated beaches.",
+    "Carry ID; there are checkposts between Gujarat and Diu.",
+    "Mornings and late afternoons are best for the fort and caves, before and after the midday heat."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Diu?",
+      "a": "Explore Diu Fort and Panikotha, visit St Paul's Church and the museum, relax on Nagoa and Ghoghla beaches, see the Naida Caves and Gangeshwar Temple, visit the INS Khukri memorial and eat seafood."
+    },
+    {
+      "q": "How many days are enough for Diu?",
+      "a": "Two to three days."
+    },
+    {
+      "q": "How far is Diu from Somnath?",
+      "a": "About 90 km, roughly two hours by road."
+    },
+    {
+      "q": "What is the best time to visit Diu?",
+      "a": "October to March."
+    },
+    {
+      "q": "Is Diu good for a family holiday?",
+      "a": "Yes. Calm beaches such as Nagoa, the fort, caves and memorials make it an easy, relaxed family destination."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Somnath",
+      "href": "/blog/somnath-travel-guide",
+      "note": "Jyotirlinga by the sea"
+    },
+    {
+      "name": "Gir National Park",
+      "href": "/blog/gir-national-park-travel-guide",
+      "note": "Asiatic lions"
+    },
+    {
+      "name": "Things to do in Daman",
+      "href": "/blog/things-to-do-in-daman",
+      "note": "the other Portuguese enclave"
+    }
+  ],
+  "styles": [
+    "weekend-getaways",
+    "family-holidays",
+    "honeymoon"
+  ],
+  "metaDescription": "Things to do in Diu: the 16th-century Diu Fort and the sea fort of Panikotha, St Paul's Church and St Thomas Church museum, Nagoa, Ghoghla and Chakratirth beaches and more."
+}

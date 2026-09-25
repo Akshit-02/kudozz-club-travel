@@ -1,0 +1,282 @@
+{
+  "slug": "things-to-do-in-bhopal",
+  "destination": "Bhopal",
+  "guide": "bhopal-travel-guide",
+  "type": "city",
+  "title": "Things to Do in Bhopal: Lakes, Mosques, Museums & Sanchi and Bhimbetka",
+  "seoTitle": "Things to Do in Bhopal: Lakes, Museums & More | Kudozz Club",
+  "description": "Things to do in Bhopal: the Upper Lake at sunset, Taj-ul-Masajid and the old city, the Tribal Museum, the open-air Manav Sangrahalaya, Bharat Bhavan, Van Vihar, the State Museum, and day trips to Sanchi, Bhimbetka and Bhojpur.",
+  "dek": "The capital of Madhya Pradesh, a city of lakes shaped by a line of women rulers, with some of India's finest museums and two UNESCO sites nearby.",
+  "primaryKeyword": "things to do in Bhopal",
+  "secondaryKeywords": [
+    "places to visit in Bhopal",
+    "Upper Lake Bhopal",
+    "Tribal Museum Bhopal",
+    "Taj-ul-Masajid",
+    "Sanchi from Bhopal",
+    "Bhimbetka",
+    "Bhojpur temple"
+  ],
+  "searchIntent": "Travellers spending one to three days in Bhopal, including Sanchi and Bhimbetka.",
+  "tags": [
+    "Bhopal",
+    "Madhya Pradesh",
+    "City",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/madhya-pradesh/bhopal/old-bhopal.webp",
+    "alt": "Old Bhopal skyline with mosque domes",
+    "caption": "Old Bhopal"
+  },
+  "intro": [
+    "Bhopal, the capital of Madhya Pradesh, is built around two large lakes. Legend links its name to the 11th-century king Raja Bhoj, who is said to have created the Upper Lake. In the 18th century it became a princely state, ruled for over a century by a line of begums who built mosques, palaces and gardens.",
+    "The things to do in Bhopal include boating and sunsets on the Upper Lake, the grand Taj-ul-Masajid and the old city bazaars, and some of the best museums in India, including the Tribal Museum and the open-air Manav Sangrahalaya. Within an hour are two UNESCO World Heritage Sites: the Buddhist stupas of Sanchi and the prehistoric rock shelters of Bhimbetka.",
+    "Two to three days is ideal. October to March is the best time."
+  ],
+  "quickAnswer": [
+    "Watch sunset over the Upper Lake",
+    "See Taj-ul-Masajid",
+    "Explore the old city and Chowk Bazaar",
+    "Visit the Madhya Pradesh Tribal Museum",
+    "Walk through the Manav Sangrahalaya",
+    "See art at Bharat Bhavan",
+    "Drive through Van Vihar National Park",
+    "Visit the Great Stupa at Sanchi",
+    "See the rock paintings of Bhimbetka",
+    "Visit the Bhojpur Shiva temple"
+  ],
+  "sections": [
+    {
+      "id": "lakes-city",
+      "heading": "Lakes and the old city",
+      "items": [
+        {
+          "name": "Watch sunset over the Upper Lake",
+          "body": [
+            "The Upper Lake (Bhojtal) is the heart of Bhopal. Boating from the Boat Club, a walk along the lake road and sunset from the VIP Road or Shamla Hills are favourite activities. A statue of Raja Bhoj stands on a pillar in the lake."
+          ],
+          "image": {
+            "src": "/images/blogs/madhya-pradesh/bhopal/upper-lake-bhopal.webp",
+            "alt": "Upper Lake, Bhopal",
+            "caption": "Upper Lake"
+          },
+          "facts": {
+            "Best time": "Sunset",
+            "Good for": "Everyone"
+          }
+        },
+        {
+          "name": "See Taj-ul-Masajid",
+          "body": [
+            "Taj-ul-Masajid, begun in the 19th century by Shah Jahan Begum and completed decades later, is one of the largest mosques in India, with pink façades, white domes and tall minarets. Visitors should dress modestly and avoid prayer times."
+          ],
+          "facts": {
+            "Time needed": "45 minutes"
+          }
+        },
+        {
+          "name": "Explore the old city",
+          "body": [
+            "Around Chowk Bazaar, the old city has the Jama Masjid, Moti Masjid, Gohar Mahal and Shaukat Mahal, with lanes selling zardozi embroidered batuas (purses), silver jewellery and attar.",
+            "The Moti Masjid, built by Sikander Begum in 1860, is a smaller mosque of white marble, while Gohar Mahal, on the lake shore, is a palace of the first begum, Qudsia Begum, blending Hindu and Mughal styles. Craft fairs are sometimes held there."
+          ],
+          "facts": {
+            "Best time": "Late afternoon"
+          }
+        }
+      ]
+    },
+    {
+      "id": "museums",
+      "heading": "Museums and art",
+      "items": [
+        {
+          "name": "Visit the Tribal Museum",
+          "body": [
+            "The Madhya Pradesh Tribal Museum is one of the most imaginative museums in India, with large galleries created by tribal artists themselves showing the homes, beliefs, art and games of communities such as the Gond, Bhil and Baiga. It is closed on Mondays."
+          ],
+          "facts": {
+            "Time needed": "2–3 hours",
+            "Good for": "Everyone"
+          }
+        },
+        {
+          "name": "Walk through the Manav Sangrahalaya",
+          "body": [
+            "The Indira Gandhi Rashtriya Manav Sangrahalaya, on Shamla Hills, is an open-air anthropology museum with full-size traditional houses from across India, set on a hillside above the lake. It is closed on Mondays."
+          ],
+          "facts": {
+            "Time needed": "3 hours"
+          }
+        },
+        {
+          "name": "See Bharat Bhavan",
+          "body": [
+            "Bharat Bhavan, an arts centre designed by Charles Correa by the lake, has galleries of modern and tribal art, theatres and a library."
+          ]
+        },
+        {
+          "name": "See the State Museum",
+          "body": [
+            "The State Museum has sculptures, coins, manuscripts and a gallery of Jain bronzes."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nature",
+      "heading": "Wildlife and gardens",
+      "items": [
+        {
+          "name": "Drive through Van Vihar",
+          "body": [
+            "Van Vihar National Park, by the Upper Lake, is a rescue and conservation park where tigers, leopards, bears and deer live in large enclosures. You can walk, cycle or drive through it."
+          ],
+          "image": {
+            "src": "/images/blogs/madhya-pradesh/bhopal/van-vihar-national-park-bhopal.webp",
+            "alt": "Van Vihar National Park, Bhopal",
+            "caption": "Van Vihar"
+          },
+          "facts": {
+            "Good for": "Families"
+          }
+        }
+      ]
+    },
+    {
+      "id": "day-trips",
+      "heading": "Day trips",
+      "items": [
+        {
+          "name": "Visit Sanchi",
+          "body": [
+            "Sanchi, about 46 km north-east, has the Great Stupa, first built under Emperor Ashoka in the 3rd century BCE, with four richly carved gateways added later. It is a UNESCO World Heritage Site and one of the most important Buddhist monuments in India.",
+            "Around the Great Stupa are smaller stupas, an Ashokan pillar, temples and monasteries, and a small museum at the foot of the hill displays the pillar's lion capital and other sculptures. Udayagiri's Gupta-era caves at Vidisha are nearby."
+          ],
+          "facts": {
+            "Time needed": "Half a day"
+          },
+          "links": [
+            {
+              "label": "Sanchi guide",
+              "href": "/blog/sanchi-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "See Bhimbetka",
+          "body": [
+            "Bhimbetka, about 45 km south, has hundreds of rock shelters with paintings, some thought to be many thousands of years old, showing hunting, dancing and animals. It is a UNESCO World Heritage Site."
+          ],
+          "links": [
+            {
+              "label": "Bhimbetka guide",
+              "href": "/blog/bhimbetka-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Visit the Bhojpur temple",
+          "body": [
+            "The Bhojeshwar Temple at Bhojpur, about 28 km away, is an unfinished 11th-century Shiva temple with a huge lingam over 2 metres tall. Ramps and plans carved into the rock show how it was being built. It is easily combined with Bhimbetka."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seasons",
+      "heading": "By season",
+      "items": [
+        {
+          "name": "October to March",
+          "body": [
+            "Pleasant weather for lakes, museums and day trips."
+          ]
+        },
+        {
+          "name": "April to June",
+          "body": [
+            "Very hot; visit museums at midday and lakes in the evening."
+          ]
+        },
+        {
+          "name": "July to September",
+          "body": [
+            "The lakes fill up and the hills around the city turn green."
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Families",
+      "text": "Van Vihar, the Tribal Museum, boating on the Upper Lake and the Manav Sangrahalaya."
+    },
+    {
+      "who": "History lovers",
+      "text": "Sanchi, Bhimbetka, Bhojpur and the old city."
+    },
+    {
+      "who": "Art lovers",
+      "text": "The Tribal Museum, Bharat Bhavan and the State Museum."
+    }
+  ],
+  "oneDay": "Visit the Tribal Museum and the State Museum in the morning, then the Manav Sangrahalaya after lunch. Explore the old city and Taj-ul-Masajid in the late afternoon, and end with sunset on the Upper Lake.",
+  "tips": [
+    "Raja Bhoj Airport and Bhopal Junction are well connected.",
+    "Most museums close on Mondays.",
+    "Combine Bhimbetka and Bhojpur in one half-day trip, and Sanchi in another.",
+    "Dress modestly in the old city and mosques."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Bhopal?",
+      "a": "Watch sunset over the Upper Lake, see Taj-ul-Masajid and the old city, visit the Tribal Museum and Manav Sangrahalaya, drive through Van Vihar and take day trips to Sanchi, Bhimbetka and Bhojpur."
+    },
+    {
+      "q": "How far is Sanchi from Bhopal?",
+      "a": "About 46 km, roughly an hour by road."
+    },
+    {
+      "q": "How many days are enough for Bhopal?",
+      "a": "Two to three days, including Sanchi and Bhimbetka."
+    },
+    {
+      "q": "Is the Tribal Museum worth visiting?",
+      "a": "Yes. It is one of the most original museums in India, created with tribal artists."
+    },
+    {
+      "q": "Can Sanchi and Bhimbetka be done in one day?",
+      "a": "It is possible but rushed, as they lie in opposite directions from Bhopal. A half day for each is more comfortable."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Sanchi",
+      "href": "/blog/sanchi-travel-guide",
+      "note": "the Great Stupa"
+    },
+    {
+      "name": "Bhimbetka",
+      "href": "/blog/bhimbetka-travel-guide",
+      "note": "prehistoric rock art"
+    },
+    {
+      "name": "Things to do in Pachmarhi",
+      "href": "/blog/things-to-do-in-pachmarhi",
+      "note": "the Satpura hills"
+    },
+    {
+      "name": "Things to do in Indore",
+      "href": "/blog/things-to-do-in-indore",
+      "note": "food capital, three hours away"
+    }
+  ],
+  "styles": [
+    "family-holidays",
+    "weekend-getaways"
+  ],
+  "metaDescription": "Things to do in Bhopal: the Upper Lake at sunset, Taj-ul-Masajid and the old city, the Tribal Museum, the open-air Manav Sangrahalaya, Bharat Bhavan, Van Vihar and more."
+}

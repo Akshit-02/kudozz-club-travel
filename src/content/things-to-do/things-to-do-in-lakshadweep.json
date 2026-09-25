@@ -1,0 +1,289 @@
+{
+  "slug": "things-to-do-in-lakshadweep",
+  "destination": "Lakshadweep",
+  "guide": "lakshadweep-island-travel-guide",
+  "type": "island group",
+  "title": "Things to Do in Lakshadweep: Lagoons, Coral Reefs & Island Life",
+  "seoTitle": "Things to Do in Lakshadweep: Lagoons & Diving | Kudozz Club",
+  "description": "Things to do in Lakshadweep: snorkelling and scuba diving over coral reefs, kayaking in turquoise lagoons, glass-bottom boat rides, Agatti, Bangaram, Kavaratti and Minicoy, island village walks, fishing trips and ship cruises from Kochi, with permit guidance.",
+  "dek": "India's smallest union territory, a scatter of coral atolls in the Arabian Sea with lagoons of improbable blue, where visits are permitted in controlled numbers.",
+  "primaryKeyword": "things to do in Lakshadweep",
+  "secondaryKeywords": [
+    "Lakshadweep permit",
+    "Agatti island",
+    "Bangaram",
+    "Kavaratti",
+    "Minicoy",
+    "Lakshadweep scuba diving",
+    "Lakshadweep cruise"
+  ],
+  "searchIntent": "Travellers planning a Lakshadweep trip who need to understand permits, access and which islands offer which activities.",
+  "tags": [
+    "Lakshadweep",
+    "Islands",
+    "Beaches",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/lakshadweep/agatti-island/agatti-island-lagoon-beach.webp",
+    "alt": "Turquoise lagoon and beach at Agatti, Lakshadweep",
+    "caption": "Agatti lagoon"
+  },
+  "intro": [
+    "Lakshadweep is a group of 36 coral islands in the Arabian Sea, about 200 to 400 km off the Kerala coast. Only ten are inhabited, mostly by Malayalam-speaking Muslim communities, with Minicoy having its own Mahl language and culture. The islands are low atolls ringed by lagoons and reefs.",
+    "The things to do in Lakshadweep are mostly in the water: snorkelling and diving over coral, kayaking and paddling in lagoons, glass-bottom boat rides and fishing trips, along with walks through island villages. Tourism is tightly controlled to protect the fragile environment, and all visitors need an entry permit, usually arranged through a tour package.",
+    "A trip usually lasts four to seven days. October to mid-May is the best season; the monsoon brings rough seas."
+  ],
+  "quickAnswer": [
+    "Snorkel over coral in the lagoons",
+    "Learn to scuba dive or go on fun dives",
+    "Kayak on a turquoise lagoon",
+    "Take a glass-bottom boat ride",
+    "Stay on Agatti or Bangaram",
+    "Visit Kavaratti, the capital, and its marine aquarium",
+    "See Minicoy's lighthouse and culture",
+    "Go on a fishing trip with local fishermen",
+    "Walk through island villages",
+    "Cruise from Kochi on a Lakshadweep ship"
+  ],
+  "sections": [
+    {
+      "id": "water",
+      "heading": "In the water",
+      "items": [
+        {
+          "name": "Snorkel in the lagoons",
+          "image": {
+            "src": "/images/blogs/lakshadweep/agatti-island/agatti-coral-reef-fish.webp",
+            "alt": "Reef fish over coral at Agatti",
+            "caption": "Coral reef, Agatti"
+          },
+          "body": [
+            "The shallow, clear lagoons of islands such as Agatti, Bangaram, Kadmat and Kavaratti have coral gardens and reef fish within easy reach. Snorkelling gear is available through resorts and water sports centres. Do not stand on or touch coral."
+          ],
+          "facts": {
+            "Best time": "October to April",
+            "Good for": "Everyone who can swim"
+          }
+        },
+        {
+          "name": "Scuba dive",
+          "body": [
+            "Dive centres on islands such as Kadmat, Kavaratti, Agatti and Bangaram offer try dives and certification courses. Outer reefs have walls, coral, turtles and pelagic fish. Visibility is often excellent in the dry season."
+          ],
+          "facts": {
+            "Best time": "November to April",
+            "Good for": "Beginners and divers"
+          }
+        },
+        {
+          "name": "Kayak and paddle",
+          "image": {
+            "src": "/images/blogs/lakshadweep/agatti-island/agatti-anthan-beach-lagoon-kayaks.webp",
+            "alt": "Kayaks on the lagoon at Agatti",
+            "caption": "Kayaking at Agatti"
+          },
+          "body": [
+            "Kayaks and paddleboards are available on the lagoons, which are calm and shallow. Kadmat has a well-known water sports centre."
+          ]
+        },
+        {
+          "name": "Take a glass-bottom boat ride",
+          "body": [
+            "Glass-bottom boats let non-swimmers see the coral and fish. Most islands open to tourists offer them."
+          ],
+          "facts": {
+            "Good for": "Families, non-swimmers"
+          }
+        },
+        {
+          "name": "Go fishing with locals",
+          "image": {
+            "src": "/images/blogs/lakshadweep/agatti-island/agatti-lagoon-fishing-boat.webp",
+            "alt": "Fishing boat on the lagoon at Agatti",
+            "caption": "Fishing boat, Agatti"
+          },
+          "body": [
+            "Tuna fishing is central to island life, especially on Minicoy and Agatti. Some operators arrange trips with local fishermen."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "islands",
+      "heading": "The islands",
+      "items": [
+        {
+          "name": "Stay on Agatti",
+          "body": [
+            "Agatti has the only airport in Lakshadweep, with flights from Kochi, and is the gateway for most visitors. It has beaches, a lagoon and resorts, and is a base for trips to nearby islands such as Bangaram and Thinnakara."
+          ],
+          "links": [
+            {
+              "label": "Agatti guide",
+              "href": "/blog/agatti-island-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Relax on Bangaram",
+          "body": [
+            "Bangaram is an uninhabited island with a resort, surrounded by a large lagoon. It is one of the most beautiful places in Lakshadweep, with excellent snorkelling. Access depends on current resort operations and permits."
+          ]
+        },
+        {
+          "name": "See Kavaratti",
+          "image": {
+            "src": "/images/blogs/lakshadweep/kavaratti-island/kavaratti-beach-view-from-lighthouse.webp",
+            "alt": "View over Kavaratti from the lighthouse",
+            "caption": "Kavaratti from the lighthouse"
+          },
+          "body": [
+            "Kavaratti, the capital, has a lagoon for water sports, a marine aquarium, the carved Ujra Mosque and a lighthouse that gives views over the island and reef."
+          ],
+          "links": [
+            {
+              "label": "Kavaratti guide",
+              "href": "/blog/kavaratti-island-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Visit Minicoy",
+          "body": [
+            "Minicoy (Maliku), the southernmost island, is culturally closer to the Maldives, with its own language, Mahl, and traditional lava dances. Its lighthouse, built by the British in 1885, can be climbed. Minicoy is known for tuna fishing and boat-building."
+          ]
+        },
+        {
+          "name": "Try water sports at Kadmat",
+          "body": [
+            "Kadmat, a long, narrow island with lagoons on both sides, has one of the best water sports and diving centres in Lakshadweep, with kayaks, snorkelling and dives on nearby reefs."
+          ],
+          "facts": {
+            "Good for": "Divers, active travellers"
+          }
+        }
+      ]
+    },
+    {
+      "id": "practical",
+      "heading": "Getting there and culture",
+      "items": [
+        {
+          "name": "Arrange your permit",
+          "body": [
+            "All visitors, including Indian citizens, need an entry permit issued by the Lakshadweep Administration. Most travellers get it through a registered tour operator or the official tourism packages, which include transport and stays. Foreign nationals can visit only certain islands. Rules change, so check the latest process well in advance.",
+            "Allow several weeks for the paperwork, and keep copies of your permit and ID with you on the islands, as they are checked on arrival and when moving between islands."
+          ],
+          "facts": {
+            "Good to know": "Permit required for everyone"
+          }
+        },
+        {
+          "name": "Cruise from Kochi",
+          "body": [
+            "Government passenger ships from Kochi to the islands take about 14 to 20 hours. Some packages are cruise-based, with visits to several islands by day and nights on board."
+          ]
+        },
+        {
+          "name": "Walk through an island village",
+          "body": [
+            "Village walks show coral-stone houses, coconut groves, mosques and daily life. The islanders are conservative; dress modestly away from the beach, and ask before taking photographs."
+          ],
+          "facts": {
+            "Good for": "Culture seekers"
+          }
+        },
+        {
+          "name": "Eat island food",
+          "body": [
+            "Island food centres on tuna, coconut and rice, with dishes such as mas podichathu (dried tuna), fish curries and coconut sweets."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seasons",
+      "heading": "Lakshadweep by season",
+      "items": [
+        {
+          "name": "October to mid-May",
+          "body": [
+            "Calm seas and clear water; the season for tourism, diving and ship travel."
+          ]
+        },
+        {
+          "name": "Mid-May to September",
+          "body": [
+            "The south-west monsoon brings rough seas; most tourist operations pause and ships run less often."
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Honeymooners",
+      "text": "A few nights on Agatti or Bangaram, with snorkelling, kayaking and sunsets over the lagoon."
+    },
+    {
+      "who": "Divers",
+      "text": "A week with dives on the outer reefs of Kadmat, Kavaratti and Agatti."
+    },
+    {
+      "who": "Families",
+      "text": "Glass-bottom boats, shallow lagoons and simple beach days."
+    }
+  ],
+  "oneDay": "Snorkel in the lagoon in the morning, take a glass-bottom boat ride before lunch, kayak in the afternoon and watch the sunset from the beach.",
+  "tips": [
+    "Agatti Airport has flights from Kochi; ships also run from Kochi.",
+    "Permits are compulsory; start the process early.",
+    "Alcohol is restricted; check rules for your island.",
+    "Carry reef-safe sunscreen and avoid single-use plastic."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Lakshadweep?",
+      "a": "Snorkel and dive over coral reefs, kayak on the lagoons, take glass-bottom boat rides, stay on Agatti or Bangaram, visit Kavaratti and Minicoy, and walk through island villages."
+    },
+    {
+      "q": "Do Indians need a permit for Lakshadweep?",
+      "a": "Yes. All visitors need an entry permit from the Lakshadweep Administration, usually arranged through a tour operator or package."
+    },
+    {
+      "q": "How do I reach Lakshadweep?",
+      "a": "By flight from Kochi to Agatti, or by passenger ship from Kochi."
+    },
+    {
+      "q": "What is the best time to visit Lakshadweep?",
+      "a": "October to mid-May."
+    },
+    {
+      "q": "Which Lakshadweep islands can tourists visit?",
+      "a": "Islands open to tourists include Agatti, Bangaram, Kadmat, Kavaratti, Minicoy and a few others, depending on current rules and packages. Foreign nationals have more limited access."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Kochi",
+      "href": "/blog/things-to-do-in-kochi",
+      "note": "the departure point"
+    },
+    {
+      "name": "Things to do in Andaman",
+      "href": "/blog/things-to-do-in-andaman",
+      "note": "India's other island group"
+    },
+    {
+      "name": "Kavaratti",
+      "href": "/blog/kavaratti-island-travel-guide",
+      "note": "the capital island"
+    }
+  ],
+  "styles": [
+    "honeymoon",
+    "adventure-tours"
+  ],
+  "metaDescription": "Things to do in Lakshadweep: snorkelling and scuba diving over coral reefs, kayaking in turquoise lagoons, glass-bottom boat rides, Agatti, Bangaram, Kavaratti and Minicoy and more."
+}

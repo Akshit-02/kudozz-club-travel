@@ -1,0 +1,299 @@
+{
+  "slug": "things-to-do-in-dharamshala",
+  "destination": "Dharamshala",
+  "guide": "dharamshala-travel-guide",
+  "type": "hill town",
+  "title": "Things to Do in Dharamshala & McLeod Ganj: Monasteries, Treks & Tibetan Culture",
+  "seoTitle": "Things to Do in Dharamshala & McLeod Ganj | Kudozz Club",
+  "description": "Things to do in Dharamshala and McLeod Ganj: the Tsuglagkhang complex, Namgyal Monastery, the Tibet Museum, Bhagsu Falls, the Triund trek, St John in the Wilderness, Norbulingka, the cricket stadium, tea gardens and Tibetan food.",
+  "dek": "Home of the Dalai Lama and the Tibetan government in exile, set on forested slopes below the snow wall of the Dhauladhar range.",
+  "primaryKeyword": "things to do in Dharamshala",
+  "secondaryKeywords": [
+    "things to do in McLeod Ganj",
+    "Triund trek",
+    "Bhagsu Falls",
+    "Dalai Lama temple",
+    "Norbulingka Institute",
+    "Dharamshala cricket stadium"
+  ],
+  "searchIntent": "Backpackers, couples and culture seekers planning two to four days in Dharamshala and McLeod Ganj, often including the Triund trek.",
+  "tags": [
+    "Dharamshala",
+    "McLeod Ganj",
+    "Himachal Pradesh",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/himachal-pradesh/dharamshala/tsuglagkhang-complex-dharamshala.webp",
+    "alt": "Tsuglagkhang complex, the Dalai Lama's temple in McLeod Ganj",
+    "caption": "Tsuglagkhang complex, McLeod Ganj"
+  },
+  "intro": [
+    "Dharamshala, in Kangra district, is really several towns stacked on a hillside. Lower Dharamshala is the administrative town. About 10 km up, McLeod Ganj at around 2,000 metres is the home of the 14th Dalai Lama and the Central Tibetan Administration, and it is where most travellers stay. Above it, Bhagsu and Dharamkot lead to the trails of the Dhauladhar range.",
+    "The things to do here combine Tibetan Buddhist culture and mountain walks. You can visit the Dalai Lama's temple, learn about Tibet's recent history at the Tibet Museum, eat momos and thukpa, take a meditation class, walk to Bhagsu Falls and trek to Triund for a view straight at the snow peaks.",
+    "Two days covers McLeod Ganj and the main sights; add a day for Triund and one more for Norbulingka and the Kangra valley."
+  ],
+  "quickAnswer": [
+    "Visit the Tsuglagkhang complex, the Dalai Lama's temple",
+    "See the Tibet Museum and Namgyal Monastery",
+    "Walk the kora around the temple complex",
+    "Trek to Triund for Dhauladhar views",
+    "Walk to Bhagsu Falls and Bhagsunag Temple",
+    "Explore the cafés of Dharamkot and Bhagsu",
+    "See St John in the Wilderness church",
+    "Visit Norbulingka Institute",
+    "Watch cricket or see the view at the HPCA Stadium",
+    "Take a meditation or Tibetan cooking class"
+  ],
+  "sections": [
+    {
+      "id": "tibetan",
+      "heading": "Tibetan McLeod Ganj",
+      "items": [
+        {
+          "name": "Visit the Tsuglagkhang complex",
+          "body": [
+            "The Tsuglagkhang complex is the Dalai Lama's temple and the spiritual heart of the Tibetan community in exile. It includes the main temple with a large gilded Buddha, Namgyal Monastery and the Dalai Lama's residence, which is not open to visitors. Monks debate in the courtyard on many afternoons, with dramatic claps and gestures.",
+            "Public teachings by the Dalai Lama happen on some dates; check the official schedule and register in advance if you want to attend. Security checks apply."
+          ],
+          "facts": {
+            "Time needed": "1.5–2 hours",
+            "Best time": "Afternoon for monk debates",
+            "Good for": "Everyone"
+          }
+        },
+        {
+          "name": "See the Tibet Museum",
+          "body": [
+            "The Tibet Museum, next to the temple complex, tells the story of Tibet's history, the events of 1959 and the exile community through photographs, documents and personal accounts. It is small but moving, and it gives context for everything else you see in McLeod Ganj."
+          ],
+          "facts": {
+            "Time needed": "1 hour",
+            "Good for": "History lovers"
+          }
+        },
+        {
+          "name": "Walk the kora",
+          "body": [
+            "The kora is a circular path around the Tsuglagkhang complex, lined with prayer wheels and prayer flags. Walking it clockwise with Tibetans in the early morning or evening is a peaceful experience."
+          ],
+          "facts": {
+            "Time needed": "45 minutes",
+            "Best time": "Early morning"
+          }
+        },
+        {
+          "name": "Eat momos and learn Tibetan cooking",
+          "body": [
+            "McLeod Ganj is one of the best places in India for Tibetan food: momos, thukpa, thenthuk, tingmo and butter tea. Several cafés and community organisations run short Tibetan cooking classes. Evening stalls near the main square sell cheap, fresh momos."
+          ],
+          "facts": {
+            "Good for": "Food lovers"
+          }
+        },
+        {
+          "name": "Take a meditation or language class",
+          "body": [
+            "The Tushita Meditation Centre in Dharamkot and the Library of Tibetan Works and Archives in lower Dharamshala run courses on Buddhist philosophy and meditation. Courses need advance registration, so check dates."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outdoors",
+      "heading": "Treks, waterfalls and viewpoints",
+      "items": [
+        {
+          "name": "Trek to Triund",
+          "image": {
+            "src": "/images/blogs/himachal-pradesh/dharamshala/triund-trek-dharamshala.webp",
+            "alt": "Triund ridge with the Dhauladhar range behind",
+            "caption": "Triund"
+          },
+          "body": [
+            "Triund, a grassy ridge at about 2,850 metres, is the most popular trek from McLeod Ganj. The trail of roughly 9 km from McLeod Ganj (shorter from Dharamkot or Gallu Devi Temple) climbs through oak and rhododendron forest to a meadow facing the Dhauladhar peaks. It can be done as a long day hike or with an overnight camp.",
+            "Forest department rules on camping and registration have changed over the years; check the current process and carry your waste back down. The last stretch is steep and rocky."
+          ],
+          "facts": {
+            "Distance": "About 9 km one way",
+            "Time needed": "Full day or overnight",
+            "Best time": "March to June, September to November",
+            "Good for": "Beginner trekkers"
+          }
+        },
+        {
+          "name": "Walk to Bhagsu Falls",
+          "body": [
+            "From Bhagsu village, about 2 km from McLeod Ganj, a short path leads past the Bhagsunag Temple, an old Shiva temple with a bathing pool, to Bhagsu Falls. The falls are best during and just after the monsoon. The Shiva Café above the falls is a popular stop."
+          ],
+          "facts": {
+            "Time needed": "2 hours",
+            "Good for": "Families, walkers"
+          }
+        },
+        {
+          "name": "Explore Dharamkot",
+          "body": [
+            "Dharamkot, a small village above McLeod Ganj, has quiet guesthouses, cafés, yoga and meditation centres, and views over the Kangra valley. It is a calmer place to stay and a shorter starting point for Triund."
+          ],
+          "facts": {
+            "Good for": "Long-stay travellers"
+          }
+        },
+        {
+          "name": "See Naddi and Dal Lake",
+          "body": [
+            "Naddi, a village about 3 km from McLeod Ganj, has one of the best close views of the Dhauladhar, especially at sunset. Dal Lake, a small lake on the way, is ringed by deodars and has a temple."
+          ],
+          "facts": {
+            "Best time": "Sunset"
+          }
+        }
+      ]
+    },
+    {
+      "id": "heritage",
+      "heading": "Heritage and the Kangra valley",
+      "items": [
+        {
+          "name": "Visit St John in the Wilderness",
+          "body": [
+            "St John in the Wilderness, a neo-Gothic stone church from 1852 in the forest between McLeod Ganj and Forsyth Ganj, has Belgian stained-glass windows. Lord Elgin, a Viceroy of India, is buried in the churchyard."
+          ],
+          "facts": {
+            "Time needed": "30–45 minutes"
+          }
+        },
+        {
+          "name": "See the Norbulingka Institute",
+          "body": [
+            "Norbulingka, near Sidhbari about 10 km below Dharamshala, is an institute dedicated to preserving Tibetan arts. Its Japanese-inspired gardens and workshops let you watch thangka painters, woodcarvers and metalworkers at work, and the shop sells their crafts."
+          ],
+          "facts": {
+            "Time needed": "2 hours",
+            "Good for": "Art lovers, families"
+          }
+        },
+        {
+          "name": "See the HPCA Stadium",
+          "body": [
+            "The Himachal Pradesh Cricket Association Stadium in lower Dharamshala has the snow-capped Dhauladhar as its backdrop and is often called one of the most scenic cricket grounds in the world. It hosts international and IPL matches, and visitors can sometimes see the ground on non-match days."
+          ]
+        },
+        {
+          "name": "Explore the Kangra valley",
+          "body": [
+            "Day trips from Dharamshala include the ruins of Kangra Fort, one of the oldest forts in India; the Masroor rock-cut temples; the tea gardens of Palampur; and the Chamunda Devi Temple. Bir, for paragliding, is about two hours away."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Bir Billing",
+              "href": "/blog/things-to-do-in-bir-billing"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seasonal",
+      "heading": "Festivals and seasons",
+      "items": [
+        {
+          "name": "Losar, the Tibetan New Year",
+          "body": [
+            "Losar, usually in February or early March, is the biggest festival in the Tibetan calendar. In McLeod Ganj, monasteries hold special prayers and masked dances, and families prepare festive food. Dates follow the lunar calendar, so check each year."
+          ],
+          "facts": {
+            "Best time": "February to March"
+          }
+        },
+        {
+          "name": "The Dalai Lama's birthday",
+          "body": [
+            "The Dalai Lama's birthday on 6 July is celebrated in McLeod Ganj with cultural programmes, prayers and performances by the Tibetan Institute of Performing Arts (TIPA). TIPA, near McLeod Ganj, also stages Tibetan opera and folk performances at other times of the year."
+          ],
+          "facts": {
+            "Best time": "6 July"
+          }
+        },
+        {
+          "name": "Snow on the Dhauladhar",
+          "body": [
+            "From December to February the Dhauladhar peaks are heavily snow-covered and Triund and the higher trails can get snow. McLeod Ganj itself gets occasional light snow. It is a quiet, cold time with clear, sharp views on fine days."
+          ],
+          "facts": {
+            "Best time": "December to February",
+            "Good to know": "Triund can be icy; go with a guide"
+          }
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Backpackers",
+      "text": "Stay in Dharamkot, trek to Triund, take a short meditation course and eat your way through McLeod Ganj."
+    },
+    {
+      "who": "Couples",
+      "text": "The kora at dawn, Naddi sunset, café mornings in Bhagsu and a day at Norbulingka."
+    },
+    {
+      "who": "Families",
+      "text": "Bhagsu Falls, Norbulingka, the stadium and the Tibet Museum are easy outings; Triund suits older, active children."
+    }
+  ],
+  "oneDay": "Walk the kora early and visit the Tsuglagkhang complex and Tibet Museum. Have momos for lunch, then walk to Bhagsunag Temple and Bhagsu Falls. In the late afternoon, visit St John in the Wilderness and end with sunset at Naddi.",
+  "tips": [
+    "Gaggal (Kangra) Airport is about 15 km from Dharamshala; overnight buses from Delhi reach McLeod Ganj directly.",
+    "The monsoon (July to August) is very wet here; Dharamshala is one of the rainiest hill towns in India.",
+    "McLeod Ganj's roads are narrow and steep; walking is often faster than driving.",
+    "Dress modestly and remove shoes where asked in monasteries; ask before photographing monks."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Dharamshala and McLeod Ganj?",
+      "a": "Visit the Tsuglagkhang complex and Tibet Museum, walk the kora, trek to Triund, walk to Bhagsu Falls, visit St John in the Wilderness and Norbulingka, see the HPCA Stadium and eat Tibetan food."
+    },
+    {
+      "q": "Can I meet the Dalai Lama in Dharamshala?",
+      "a": "Private meetings are rare, but he gives public teachings on some dates. Check the official schedule and register in advance."
+    },
+    {
+      "q": "How difficult is the Triund trek?",
+      "a": "It is an easy-to-moderate trek of about 9 km one way from McLeod Ganj, with a steep final section. Fit beginners manage it well."
+    },
+    {
+      "q": "How many days are enough for Dharamshala?",
+      "a": "Two days for McLeod Ganj and the main sights, three with Triund, and four if you add Norbulingka and the Kangra valley."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Bir Billing",
+      "href": "/blog/things-to-do-in-bir-billing",
+      "note": "paragliding and monasteries, about two hours away"
+    },
+    {
+      "name": "Things to do in Dalhousie",
+      "href": "/blog/things-to-do-in-dalhousie",
+      "note": "a colonial hill station to the north-west"
+    },
+    {
+      "name": "Things to do in Amritsar",
+      "href": "/blog/things-to-do-in-amritsar",
+      "note": "the Golden Temple, about five hours away"
+    },
+    {
+      "name": "Things to do in Manali",
+      "href": "/blog/things-to-do-in-manali",
+      "note": "the Kullu valley, about six hours away"
+    }
+  ],
+  "styles": [
+    "spiritual-tours",
+    "adventure-tours",
+    "honeymoon"
+  ],
+  "metaDescription": "Things to do in Dharamshala and McLeod Ganj: the Tsuglagkhang complex, Namgyal Monastery, the Tibet Museum, Bhagsu Falls, the Triund trek, St John in the Wilderness and more."
+}

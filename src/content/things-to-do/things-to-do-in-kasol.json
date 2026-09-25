@@ -1,0 +1,228 @@
+{
+  "slug": "things-to-do-in-kasol",
+  "destination": "Kasol",
+  "guide": "kasol-kheerganga-trek-travel-guide",
+  "type": "valley village",
+  "title": "Things to Do in Kasol: Parvati Valley Walks, Kheerganga & Village Cafés",
+  "seoTitle": "Things to Do in Kasol: Kheerganga, Tosh & Cafés | Kudozz Club",
+  "description": "Things to do in Kasol: riverside walks to Chalal, the café scene, Manikaran Sahib hot springs, Tosh and Kalga villages, the Kheerganga trek and hot pool, Malana (with respect for local rules) and camping in the Parvati valley.",
+  "dek": "A riverside village in the Parvati valley with pine forest, backpacker cafés and trails into some of Himachal's best-loved villages and hot springs.",
+  "primaryKeyword": "things to do in Kasol",
+  "secondaryKeywords": [
+    "Kheerganga trek",
+    "Tosh village",
+    "Chalal village",
+    "Manikaran Sahib",
+    "Kasol cafés",
+    "Parvati valley"
+  ],
+  "searchIntent": "Young travellers, friends and solo backpackers planning three to five days in the Parvati valley, often including the Kheerganga trek.",
+  "tags": [
+    "Kasol",
+    "Himachal Pradesh",
+    "Backpacking",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/destinations/kasol/tosh-village-parvati-valley-real.webp",
+    "alt": "Tosh village houses on a slope in the Parvati valley",
+    "caption": "Tosh village, Parvati valley"
+  },
+  "intro": [
+    "Kasol is a small village at about 1,600 metres on the Parvati river, around 30 km from Bhuntar in Kullu district. It became famous with Israeli backpackers in the 1990s, which is why many cafés serve shakshuka and falafel, and it is now a base for Indian travellers exploring the Parvati valley.",
+    "The things to do in Kasol are mostly outside the village. You walk through pine forest to Chalal, take the road up to Manikaran's hot springs and gurudwara, climb to the hillside villages of Tosh and Kalga, and trek to Kheerganga for a dip in a hot pool with a view of the mountains.",
+    "Three days covers Kasol and its side trips; five days allows the Kheerganga trek without rushing. The valley has a reputation for drugs; stay clear of them, as possession is a serious offence in India."
+  ],
+  "quickAnswer": [
+    "Walk along the Parvati to Chalal village",
+    "Spend an afternoon in Kasol's riverside cafés",
+    "Visit Manikaran Sahib and its hot springs",
+    "Explore Tosh village and its views",
+    "Walk to Kalga, Pulga and the fairy forest",
+    "Trek to Kheerganga and bathe in the hot pool",
+    "Camp by the river or in the meadows",
+    "See Malana from outside, respecting local rules"
+  ],
+  "sections": [
+    {
+      "id": "kasol",
+      "heading": "In and around Kasol",
+      "items": [
+        {
+          "name": "Walk to Chalal",
+          "body": [
+            "Chalal is a small village about 30 minutes' walk from Kasol, reached by crossing a footbridge over the Parvati and following a forest trail along the river. It has guesthouses, cafés and quiet riverside spots, and is calmer than Kasol itself."
+          ],
+          "facts": {
+            "Time needed": "2 hours",
+            "Best time": "Morning",
+            "Good for": "Walkers, couples"
+          }
+        },
+        {
+          "name": "Spend time in the cafés",
+          "body": [
+            "Kasol's cafés, many with riverside seating and floor cushions, serve Israeli, Italian and Himachali food alongside strong coffee. Spending a slow afternoon in one is a big part of the Kasol experience. Try siddu, a steamed Himachali bread, and trout where it is available."
+          ],
+          "facts": {
+            "Good for": "Food lovers, friends"
+          }
+        },
+        {
+          "name": "Visit Manikaran Sahib",
+          "image": {
+            "src": "/images/destinations/kasol/manikaran-sahib-hot-spring-temple.webp",
+            "alt": "Manikaran Sahib gurudwara with steam rising from hot springs",
+            "caption": "Manikaran Sahib"
+          },
+          "body": [
+            "Manikaran, about 4 km from Kasol, is an important pilgrimage site for both Sikhs and Hindus. The gurudwara, linked to Guru Nanak, stands beside natural hot springs, and rice and dal for the langar are cooked in the boiling water. The Ram Temple and bathing tanks sit nearby. Cover your head in the gurudwara."
+          ],
+          "facts": {
+            "Time needed": "2 hours",
+            "Good for": "Everyone"
+          }
+        }
+      ]
+    },
+    {
+      "id": "villages",
+      "heading": "Villages up the valley",
+      "items": [
+        {
+          "name": "Explore Tosh",
+          "body": [
+            "Tosh, at the head of a side valley near Barshaini, is a village of wooden houses and guesthouses with wide views of snow peaks. It is reached by a short, steep walk from the road head. It has become busy, but the upper village and the walks beyond are still peaceful."
+          ],
+          "facts": {
+            "Time needed": "Half a day or overnight",
+            "Good for": "Backpackers, photographers"
+          }
+        },
+        {
+          "name": "Walk to Kalga and Pulga",
+          "body": [
+            "From Barshaini, trails lead to Kalga and Pulga, small villages among apple orchards and forest. The forest near Pulga, often called the fairy forest, has tall, moss-covered trees and is a lovely short walk."
+          ],
+          "facts": {
+            "Time needed": "Half a day"
+          }
+        },
+        {
+          "name": "See Malana, with respect",
+          "image": {
+            "src": "/images/destinations/kasol/malana-village-himachal.webp",
+            "alt": "Malana village in the Himalayas",
+            "caption": "Malana village"
+          },
+          "body": [
+            "Malana, in a side valley, is an ancient village with its own dialect, customs and council. Villagers traditionally do not allow outsiders to touch their houses, temples or people, and some areas are off-limits. Visitors should follow signs, not touch walls, and pay any fines asked for breaking rules. Malana is also associated with cannabis cultivation; stay away from it."
+          ],
+          "facts": {
+            "Good to know": "Do not touch houses or temples; follow local rules"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kheerganga",
+      "heading": "Kheerganga trek",
+      "items": [
+        {
+          "name": "Trek to Kheerganga",
+          "image": {
+            "src": "/images/destinations/kasol/kheerganga-hot-spring-pool.webp",
+            "alt": "Hot spring pool at Kheerganga with mountains behind",
+            "caption": "Kheerganga hot spring"
+          },
+          "body": [
+            "Kheerganga is a meadow at about 2,950 metres with a natural hot spring pool, reached by a trek of roughly 12 km from Barshaini. There are two main routes, through Nakthan village or via Rudranag, and the walk takes five to seven hours up through forest, waterfalls and villages.",
+            "At the top, the hot pool is a reward after the climb, and the view of the peaks at sunrise is beautiful. Camping rules at the meadow have changed over time to protect it; check current arrangements before you go and carry your rubbish back down."
+          ],
+          "facts": {
+            "Distance": "About 12 km one way",
+            "Time needed": "2 days (up and down)",
+            "Best time": "April to June, September to October",
+            "Good for": "Beginner and moderate trekkers"
+          }
+        },
+        {
+          "name": "Camp in the valley",
+          "body": [
+            "Riverside and forest campsites around Kasol, Chalal and Barshaini offer tents, bonfires and meals. Choose registered campsites away from the riverbed, especially in the monsoon when the Parvati rises quickly."
+          ],
+          "facts": {
+            "Good to know": "Avoid riverbed camps in the monsoon"
+          }
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Friends",
+      "text": "Café-hopping in Kasol, a night in Tosh and the Kheerganga trek make a classic four- to five-day trip."
+    },
+    {
+      "who": "Solo travellers",
+      "text": "Kasol has many hostels and easy company. Tell someone your route before trekking alone and avoid remote trails after dark."
+    },
+    {
+      "who": "Couples",
+      "text": "Stay in Chalal or a quiet guesthouse, walk the river trails and spend a slow day at Manikaran."
+    }
+  ],
+  "oneDay": "Walk to Chalal after breakfast and come back to Kasol for a riverside café lunch. In the afternoon, visit Manikaran Sahib and bathe in the hot springs, then return to Kasol for an evening in the market.",
+  "tips": [
+    "Bhuntar, about 30 km away, has the nearest airport; overnight buses from Delhi go to Bhuntar or directly to Kasol.",
+    "Drugs are illegal and penalties are severe; do not buy or carry anything.",
+    "ATMs in Kasol can run out of cash in peak season; carry some with you.",
+    "The monsoon brings landslides and a dangerous river; avoid July and August for treks."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Kasol?",
+      "a": "Walk to Chalal, enjoy the riverside cafés, visit Manikaran Sahib, explore Tosh, Kalga and Pulga, trek to Kheerganga and camp in the valley."
+    },
+    {
+      "q": "How difficult is the Kheerganga trek?",
+      "a": "It is an easy-to-moderate trek of about 12 km each way from Barshaini, suitable for reasonably fit beginners."
+    },
+    {
+      "q": "How many days are enough for Kasol?",
+      "a": "Three days for Kasol and side trips; four to five days if you add Kheerganga."
+    },
+    {
+      "q": "What is the best time to visit Kasol?",
+      "a": "March to June and September to November. Winter is cold but quiet, and the monsoon brings landslide risk."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Manali",
+      "href": "/blog/things-to-do-in-manali",
+      "note": "about three hours up the Kullu valley"
+    },
+    {
+      "name": "Kullu",
+      "href": "/blog/kullu-travel-guide",
+      "note": "the valley town near Bhuntar"
+    },
+    {
+      "name": "Things to do in Tirthan Valley",
+      "href": "/blog/things-to-do-in-tirthan-valley",
+      "note": "a quieter valley for trout and forest walks"
+    },
+    {
+      "name": "Jibhi",
+      "href": "/blog/jibhi-travel-guide",
+      "note": "wooden villages near Jalori Pass"
+    }
+  ],
+  "styles": [
+    "adventure-tours",
+    "group-tours",
+    "weekend-getaways"
+  ],
+  "metaDescription": "Things to do in Kasol: riverside walks to Chalal, the café scene, Manikaran Sahib hot springs, Tosh and Kalga villages, the Kheerganga trek and hot pool and more."
+}

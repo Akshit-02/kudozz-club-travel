@@ -1,0 +1,224 @@
+{
+  "slug": "things-to-do-in-mathura",
+  "destination": "Mathura",
+  "guide": "mathura-travel-guide",
+  "type": "pilgrimage city",
+  "title": "Things to Do in Mathura: Krishna's Birthplace, Ghats & Braj Traditions",
+  "seoTitle": "Things to Do in Mathura: Temples, Ghats & Holi | Kudozz Club",
+  "description": "Things to do in Mathura: visit Krishna Janmabhoomi, the Yamuna aarti at Vishram Ghat, Dwarkadhish Temple and the Mathura Museum, eat Mathura peda, and experience Holi and Janmashtami in the Braj region.",
+  "dek": "The city where Krishna is believed to have been born, with ghats on the Yamuna, a remarkable museum of early Indian sculpture and festivals that are among the most exuberant in India.",
+  "primaryKeyword": "things to do in Mathura",
+  "secondaryKeywords": [
+    "places to visit in Mathura",
+    "Krishna Janmabhoomi",
+    "Vishram Ghat aarti",
+    "Mathura Holi",
+    "Mathura Vrindavan trip"
+  ],
+  "searchIntent": "Pilgrims and travellers visiting Mathura, usually together with Vrindavan and often from Delhi or Agra, who want to plan a day or two in the Braj region.",
+  "tags": [
+    "Mathura",
+    "Uttar Pradesh",
+    "Krishna",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/uttar-pradesh/mathura/keshav-dev-temple-krishna-janmabhoomi-mathura.webp",
+    "alt": "Keshav Dev Temple at the Krishna Janmabhoomi complex, Mathura"
+  },
+  "intro": [
+    "Mathura, on the Yamuna in western Uttar Pradesh, is revered as the birthplace of Krishna and is the centre of Braj, the region of Krishna's childhood that also includes Vrindavan, Gokul, Govardhan, Barsana and Nandgaon. It is also one of India's oldest cities, and was a major centre of art under the Kushan dynasty in the first centuries CE.",
+    "For most visitors, the main things to do are the Krishna Janmabhoomi complex, the evening aarti at Vishram Ghat and the temples of the old city. Mathura is only about 15 km from Vrindavan, so most people see both in one or two days, and it is about an hour from Agra and around three hours from Delhi.",
+    "The city comes most alive at Janmashtami and during the Braj Holi festivities, which run for more than a week."
+  ],
+  "quickAnswer": [
+    "Visit the Krishna Janmabhoomi temple complex",
+    "Watch the evening Yamuna aarti at Vishram Ghat",
+    "Take a boat along the ghats on the Yamuna",
+    "See Dwarkadhish Temple in the old city",
+    "Explore early Indian sculpture at the Mathura Museum",
+    "Eat Mathura peda and street breakfasts of kachori and jalebi",
+    "Experience Holi or Janmashtami in the Braj region",
+    "Take a day trip to Vrindavan, Gokul and Govardhan"
+  ],
+  "sections": [
+    {
+      "id": "temples-ghats",
+      "heading": "Temples and ghats",
+      "items": [
+        {
+          "name": "Visit Krishna Janmabhoomi",
+          "body": [
+            "The Krishna Janmabhoomi complex marks the place where Krishna is believed to have been born, in a prison cell of his uncle Kamsa. The complex includes the Garbha Griha (the birthplace shrine) and the larger Keshav Dev Temple. Security is tight: phones, cameras and bags are not allowed, and there are cloakrooms outside.",
+            "Mornings are calmer than evenings, and the complex is extremely busy at Janmashtami."
+          ],
+          "facts": {
+            "Time needed": "1.5–2 hours",
+            "Best time": "Morning",
+            "Good to know": "No phones, bags or cameras inside"
+          }
+        },
+        {
+          "name": "Watch the aarti at Vishram Ghat",
+          "body": [
+            "Vishram Ghat is the most important of Mathura's 25 or so ghats; according to tradition, Krishna rested here after killing Kamsa. Each evening a Yamuna aarti is performed with lamps and bells, and devotees float small leaf-boat lamps on the river. Boats can be hired for a short ride along the ghats before the ceremony."
+          ],
+          "facts": {
+            "Time needed": "1 hour",
+            "Best time": "Sunset",
+            "Good for": "Everyone"
+          }
+        },
+        {
+          "name": "See Dwarkadhish Temple",
+          "body": [
+            "Built in the early 19th century, Dwarkadhish Temple in the old city is one of Mathura's most visited, known for its painted ceilings and elaborate decorations for festivals, especially the swing festival (Jhulan Yatra) in the monsoon. Check darshan timings, as the temple closes in the afternoon."
+          ],
+          "facts": {
+            "Time needed": "45 minutes"
+          }
+        },
+        {
+          "name": "Walk the old city lanes",
+          "body": [
+            "The lanes between Vishram Ghat and Dwarkadhish Temple are full of sweet shops, stalls selling Krishna idols, clothing and puja items, and small temples. Walking here in the early evening, on your way to the aarti, gives a good sense of Mathura as a living pilgrimage town."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history-food",
+      "heading": "History and food",
+      "items": [
+        {
+          "name": "Explore the Mathura Museum",
+          "image": {
+            "src": "/images/blogs/uttar-pradesh/mathura/mathura-museum.webp",
+            "alt": "Government Museum building in Mathura",
+            "caption": "Mathura Museum"
+          },
+          "body": [
+            "The Government Museum is one of the finest collections of early Indian sculpture, focused on the Mathura school of the Kushan and Gupta periods, when artists here produced some of the earliest images of the Buddha in human form. Its red sandstone Buddhas, Jain tirthankaras and Hindu deities are a highlight for anyone interested in art history."
+          ],
+          "facts": {
+            "Time needed": "1–1.5 hours",
+            "Good for": "Art and history lovers",
+            "Good to know": "Usually closed on Mondays"
+          }
+        },
+        {
+          "name": "Eat Mathura peda and a Braj breakfast",
+          "body": [
+            "Mathura is famous for its peda, a sweet made from reduced milk, often browned for a caramel flavour. Breakfast in the old city means kachori, aloo sabzi and jalebi, followed by lassi. The food is vegetarian throughout the pilgrimage areas."
+          ],
+          "facts": {
+            "Best time": "Morning"
+          }
+        }
+      ]
+    },
+    {
+      "id": "braj",
+      "heading": "Festivals and the Braj region",
+      "items": [
+        {
+          "name": "Celebrate Holi in Braj",
+          "body": [
+            "Holi in the Braj region is celebrated over more than a week, with different events in different towns: Lathmar Holi in Barsana and Nandgaon, where women playfully chase men with sticks, the flower Holi (Phoolon ki Holi) at Vrindavan's temples, and colour celebrations in Mathura itself. It is joyful and extremely crowded; go with a local guide and keep valuables at your hotel."
+          ],
+          "facts": {
+            "When": "February or March, before Holi",
+            "Good for": "Festival lovers"
+          }
+        },
+        {
+          "name": "Janmashtami",
+          "body": [
+            "Krishna's birthday, in August or September, is marked with midnight celebrations at Krishna Janmabhoomi and temples across the city. Expect huge crowds and very tight security."
+          ]
+        },
+        {
+          "name": "Visit Gokul and Govardhan",
+          "body": [
+            "Gokul, across the Yamuna, is where Krishna is believed to have spent his early childhood. Govardhan, about 25 km west, is centred on the Govardhan Hill that Krishna is said to have lifted; many pilgrims walk the 21 km parikrama (circumambulation) around it."
+          ],
+          "links": [
+            {
+              "label": "Govardhan travel guide",
+              "href": "/blog/govardhan-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Visit Vrindavan",
+          "body": [
+            "Vrindavan, 15 km north, is where Krishna spent his youth. Its temples, including Banke Bihari, ISKCON and Prem Mandir, make it an essential part of any Mathura visit."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Vrindavan",
+              "href": "/blog/things-to-do-in-vrindavan"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Pilgrims",
+      "text": "Krishna Janmabhoomi, Dwarkadhish, the Vishram Ghat aarti and the Vrindavan temples, with the Govardhan parikrama if you have an extra day."
+    },
+    {
+      "who": "Day-trippers from Delhi or Agra",
+      "text": "Combine Mathura's birthplace temple and museum with Vrindavan's temples in one long day, ending at the Vishram Ghat aarti or Prem Mandir's evening lights."
+    }
+  ],
+  "oneDay": "Visit Krishna Janmabhoomi early, then see Dwarkadhish Temple and walk the old city with a peda stop. Spend late morning at the Mathura Museum. After lunch drive to Vrindavan for Banke Bihari and ISKCON, then return to Mathura for the evening aarti at Vishram Ghat, or stay in Vrindavan for Prem Mandir's lights.",
+  "tips": [
+    "Temples close for a few hours in the afternoon; plan temple visits for mornings and evenings.",
+    "Phones and bags are not permitted at Krishna Janmabhoomi; carry only what you need.",
+    "During Holi and Janmashtami, book accommodation early and expect roads to be closed near the main temples.",
+    "Mathura Junction is well connected by train to Delhi and Agra, and the Yamuna Expressway makes the drive from Delhi straightforward."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Mathura?",
+      "a": "Visit Krishna Janmabhoomi, watch the Vishram Ghat aarti, see Dwarkadhish Temple, explore the Mathura Museum, eat Mathura peda and visit nearby Vrindavan, Gokul and Govardhan."
+    },
+    {
+      "q": "How many days are enough for Mathura and Vrindavan?",
+      "a": "One full day covers the main temples in both towns. Two days is better if you want the museum, Gokul, Govardhan and the evening aartis without rushing."
+    },
+    {
+      "q": "When is the best time to visit Mathura?",
+      "a": "October to March for comfortable weather, or at Holi (February or March) and Janmashtami (August or September) for the festivals, if you do not mind very large crowds."
+    },
+    {
+      "q": "How far is Mathura from Agra and Delhi?",
+      "a": "Mathura is about an hour from Agra and around three hours from Delhi by road or train."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Vrindavan",
+      "href": "/blog/things-to-do-in-vrindavan",
+      "note": "Krishna's childhood home, 15 km north"
+    },
+    {
+      "name": "Govardhan",
+      "href": "/blog/govardhan-travel-guide",
+      "note": "the sacred hill and its parikrama, 25 km west"
+    },
+    {
+      "name": "Things to do in Agra",
+      "href": "/blog/things-to-do-in-agra",
+      "note": "the Taj Mahal, about an hour south"
+    }
+  ],
+  "styles": [
+    "spiritual-tours",
+    "weekend-getaways"
+  ],
+  "metaDescription": "Things to do in Mathura: visit Krishna Janmabhoomi, the Yamuna aarti at Vishram Ghat, Dwarkadhish Temple and the Mathura Museum, eat Mathura peda and more."
+}

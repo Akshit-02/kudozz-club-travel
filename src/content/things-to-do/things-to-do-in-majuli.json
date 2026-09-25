@@ -1,0 +1,247 @@
+{
+  "slug": "things-to-do-in-majuli",
+  "destination": "Majuli",
+  "guide": "majuli-travel-guide",
+  "type": "river island",
+  "title": "Things to Do in Majuli: Satras, Mask-Making & River Island Life",
+  "seoTitle": "Things to Do in Majuli: Satras, Masks & Cycling | Kudozz Club",
+  "description": "Things to do in Majuli: the ferry across the Brahmaputra, the Vaishnavite satras of Kamalabari, Auniati, Dakhinpat and Garamur, mask-making at Samaguri, Salmora's pottery, Mising villages, cycling, birdwatching and the Raas festival.",
+  "dek": "A large inhabited island in the Brahmaputra, home to monasteries of Assamese Vaishnavism, masked theatre, pottery villages and a slow rhythm of rice fields and river.",
+  "primaryKeyword": "things to do in Majuli",
+  "secondaryKeywords": [
+    "Majuli satras",
+    "Majuli mask making",
+    "Samaguri Satra",
+    "Majuli ferry",
+    "Raas festival Majuli",
+    "Mising village Majuli"
+  ],
+  "searchIntent": "Culture travellers planning one or two days on Majuli, usually from Jorhat, and wanting to know which satras and villages to visit.",
+  "tags": [
+    "Majuli",
+    "Assam",
+    "Culture",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/assam/assam/uttar-kamalabari-satra-majuli.webp",
+    "alt": "Uttar Kamalabari Satra on Majuli island",
+    "caption": "Uttar Kamalabari Satra"
+  },
+  "intro": [
+    "Majuli, in the Brahmaputra in upper Assam, was recognised by Guinness World Records in 2016 as the world's largest river island, and it became India's first island district the same year. Erosion by the river has shrunk it considerably over the past century, and its future is a serious concern for its residents.",
+    "Majuli is the heart of Assamese neo-Vaishnavism, the devotional movement founded by the saint Srimanta Sankardeva in the 15th and 16th centuries. Its satras (monasteries) preserve Sattriya dance, bhaona theatre and the art of mask-making. The island is also home to the Mising community, who live in stilt houses along the water.",
+    "The things to do in Majuli are gentle: visiting satras, watching craftsmen, cycling between villages, and watching sunsets over the river. One to two days is enough; October to March is best, as the monsoon brings floods."
+  ],
+  "quickAnswer": [
+    "Cross the Brahmaputra on the ferry from Nimati Ghat",
+    "Visit Uttar and Dakhin Kamalabari satras",
+    "See Auniati and Dakhinpat satras",
+    "Watch mask-makers at Samaguri Satra",
+    "See hand-moulded pottery at Salmora",
+    "Visit a Mising stilt-house village",
+    "Cycle around the island",
+    "Watch sunset over the Brahmaputra",
+    "Attend the Raas festival in November"
+  ],
+  "sections": [
+    {
+      "id": "satras",
+      "heading": "The satras",
+      "items": [
+        {
+          "name": "Visit the Kamalabari satras",
+          "body": [
+            "Uttar Kamalabari and Dakhin Kamalabari satras are known for their tradition of Sattriya dance, performed by celibate monks, and for their calm courtyards and prayer halls (namghar). Visitors may be able to watch rehearsals or evening prayers; ask politely."
+          ],
+          "facts": {
+            "Time needed": "1–2 hours",
+            "Good for": "Culture seekers"
+          }
+        },
+        {
+          "name": "See Auniati and Dakhinpat",
+          "body": [
+            "Auniati Satra has a small museum with old utensils, jewellery and manuscripts. Dakhinpat Satra, one of the oldest, is known for its carved and painted namghar and for the Raas Leela celebrations."
+          ]
+        },
+        {
+          "name": "Watch mask-making at Samaguri",
+          "body": [
+            "Samaguri Satra is famous for its masks, made from bamboo, clay, cloth and cow dung and painted in bright colours for bhaona performances of the epics. Craftsmen here make everything from small face masks to large full-body figures, and some sell pieces to visitors."
+          ],
+          "facts": {
+            "Good for": "Art lovers, families"
+          }
+        },
+        {
+          "name": "See Garamur Satra",
+          "body": [
+            "Garamur Satra, near the main town, keeps ancient weapons and hosts important festivals. It is close to the island's main market and easy to include."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "villages",
+      "heading": "Villages and crafts",
+      "items": [
+        {
+          "name": "See pottery at Salmora",
+          "body": [
+            "In Salmora village, potters shape clay by hand and by beating, without using a wheel, and fire the pots in open kilns. This style of pottery has been traced back a very long way. The village is also known for boat-building."
+          ],
+          "facts": {
+            "Good for": "Craft lovers"
+          }
+        },
+        {
+          "name": "Visit a Mising village",
+          "body": [
+            "The Mising community lives in bamboo stilt houses (chang ghar) that protect against floods. Village visits show weaving on backstrap and floor looms, rice beer (apong) and daily life. Several homestays are run by Mising families."
+          ],
+          "facts": {
+            "Good for": "Culture seekers"
+          }
+        },
+        {
+          "name": "Cycle around the island",
+          "body": [
+            "Majuli is flat, and hiring a bicycle is one of the best ways to explore paddy fields, wetlands and villages at your own pace. Many homestays rent cycles."
+          ],
+          "facts": {
+            "Best time": "Morning or late afternoon"
+          }
+        },
+        {
+          "name": "See handloom weaving",
+          "body": [
+            "Mising and Assamese women on Majuli weave on looms under their houses, making mekhela chadors, gamosas and Mising textiles with bold geometric patterns. Buying directly supports island families."
+          ],
+          "facts": {
+            "Good for": "Shoppers"
+          }
+        }
+      ]
+    },
+    {
+      "id": "river",
+      "heading": "River and festivals",
+      "items": [
+        {
+          "name": "Cross by ferry",
+          "body": [
+            "Ferries cross from Nimati Ghat near Jorhat to Kamalabari Ghat on Majuli in about an hour, carrying people, bikes and cars. The crossing itself, over the wide braided Brahmaputra, is part of the experience. Timings are limited and change with the season; check the last ferry back."
+          ],
+          "facts": {
+            "Good to know": "Check ferry timings"
+          }
+        },
+        {
+          "name": "Watch birds and sunsets",
+          "body": [
+            "Majuli's wetlands attract migratory birds in winter, including storks and ducks. Sunsets over the river from the ghats and embankments are memorable."
+          ],
+          "facts": {
+            "Best time": "Winter; sunset"
+          }
+        },
+        {
+          "name": "Attend the Raas festival",
+          "body": [
+            "The Raas festival, held around the full moon of Kartik (usually November), celebrates the life of Krishna with performances in the satras and villages. It is Majuli's biggest event and accommodation fills up quickly."
+          ],
+          "facts": {
+            "Best time": "November"
+          }
+        }
+      ]
+    },
+    {
+      "id": "seasons",
+      "heading": "Majuli by season",
+      "items": [
+        {
+          "name": "Winter (October to March)",
+          "body": [
+            "The best time to visit: dry roads, reliable ferries, migratory birds and the Raas festival. Mornings can be foggy on the river."
+          ]
+        },
+        {
+          "name": "Summer and monsoon (April to September)",
+          "body": [
+            "Rising water and floods affect large parts of the island. Ferries can be suspended, and some roads and villages are cut off. Travel only with local advice."
+          ],
+          "facts": {
+            "Good to know": "Floods can disrupt travel"
+          }
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Culture seekers",
+      "text": "Two days, with evening prayers at Kamalabari, Samaguri's masks and a night in a Mising homestay."
+    },
+    {
+      "who": "Photographers",
+      "text": "The ferry crossing, stilt houses at dawn and river sunsets."
+    },
+    {
+      "who": "Slow travellers",
+      "text": "Rent a bicycle and spend a few unhurried days between satras and villages."
+    }
+  ],
+  "oneDay": "Take the morning ferry from Nimati Ghat. Visit Uttar Kamalabari and Auniati satras, then Samaguri for mask-making after lunch. Cycle or drive to a Mising village and watch sunset by the river, staying the night on the island.",
+  "tips": [
+    "Jorhat, the nearest town, has an airport and railway connections; Nimati Ghat is about 15 km from Jorhat.",
+    "The monsoon floods parts of the island; October to March is the reliable season.",
+    "Dress modestly and remove shoes at satras; ask before photographing monks or performances.",
+    "Accommodation is mostly homestays and small lodges; book ahead for Raas."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Majuli?",
+      "a": "Visit the Kamalabari, Auniati, Dakhinpat and Samaguri satras, watch mask-making, see pottery at Salmora, visit a Mising village, cycle and watch river sunsets."
+    },
+    {
+      "q": "How do I reach Majuli?",
+      "a": "By ferry from Nimati Ghat near Jorhat, about an hour's crossing."
+    },
+    {
+      "q": "How many days are enough for Majuli?",
+      "a": "One to two days."
+    },
+    {
+      "q": "What is the best time to visit Majuli?",
+      "a": "October to March. November is especially lively during the Raas festival."
+    },
+    {
+      "q": "Is Majuli shrinking?",
+      "a": "Yes. River erosion has reduced its area considerably over the past century, and protecting the island is an ongoing concern for its residents and the government."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Kaziranga",
+      "href": "/blog/things-to-do-in-kaziranga",
+      "note": "rhino safaris, about two hours away"
+    },
+    {
+      "name": "Jorhat",
+      "href": "/blog/jorhat-travel-guide",
+      "note": "the gateway town and tea capital"
+    },
+    {
+      "name": "Sivasagar",
+      "href": "/blog/sivasagar-travel-guide",
+      "note": "the old Ahom capital"
+    }
+  ],
+  "styles": [
+    "family-holidays",
+    "spiritual-tours"
+  ],
+  "metaDescription": "Things to do in Majuli: the ferry across the Brahmaputra, the Vaishnavite satras of Kamalabari, Auniati, Dakhinpat and Garamur, mask-making at Samaguri, Salmora's pottery and more."
+}

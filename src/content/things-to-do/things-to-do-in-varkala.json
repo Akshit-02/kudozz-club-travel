@@ -1,0 +1,240 @@
+{
+  "slug": "things-to-do-in-varkala",
+  "destination": "Varkala",
+  "guide": "varkala-travel-guide",
+  "type": "beach town",
+  "title": "Things to Do in Varkala: Cliffs, Beaches, Temples & Slow Days",
+  "seoTitle": "Things to Do in Varkala: Cliff, Beaches & Yoga | Kudozz Club",
+  "description": "Things to do in Varkala: sunset on the North Cliff, Papanasham beach and the Janardanaswamy Temple, Sivagiri Mutt, Black Beach and Odayam, Kappil where backwater meets sea, Ponnumthuruthu island, Anjengo Fort, surfing, yoga and Ayurveda.",
+  "dek": "Red laterite cliffs above the Arabian Sea on Kerala's southern coast, with cafés along the edge, a sacred beach below and backwaters just inland.",
+  "primaryKeyword": "things to do in Varkala",
+  "secondaryKeywords": [
+    "Varkala cliff",
+    "Papanasham beach",
+    "Janardanaswamy Temple",
+    "Kappil beach",
+    "Varkala surfing",
+    "Varkala yoga",
+    "Ponnumthuruthu island"
+  ],
+  "searchIntent": "Couples, solo travellers and wellness seekers planning two days to a week in Varkala.",
+  "tags": [
+    "Varkala",
+    "Kerala",
+    "Beach",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/kerala/varkala/varkala-cliff-beach.webp",
+    "alt": "Red cliffs above the beach at Varkala"
+  },
+  "intro": [
+    "Varkala, about 50 km north of Thiruvananthapuram, is the only place on the Kerala coast where cliffs rise directly above the beach. The red laterite North Cliff is lined with cafés, guesthouses, yoga studios and Ayurveda centres, while the beach below, Papanasham, is sacred to Hindus, who perform rituals for their ancestors in the sea.",
+    "The things to do in Varkala are relaxed: watching the sunset from the cliff, swimming and surfing, visiting the ancient Janardanaswamy Temple and Sivagiri Mutt, walking to quieter beaches, and paddling through the backwaters to Ponnumthuruthu island. Many visitors come for yoga courses and Ayurvedic treatments.",
+    "Two days is enough for the sights; many people stay a week or more. October to March is the best time; the monsoon brings rough seas and erosion on the cliff."
+  ],
+  "quickAnswer": [
+    "Watch sunset from the North Cliff",
+    "Swim at Papanasham beach",
+    "Visit the Janardanaswamy Temple",
+    "See Sivagiri Mutt, the samadhi of Sree Narayana Guru",
+    "Walk to Black Beach and Odayam",
+    "See Kappil, where backwaters meet the sea",
+    "Canoe to Ponnumthuruthu island",
+    "Visit Anjengo Fort",
+    "Take a surf lesson",
+    "Join a yoga class or an Ayurveda treatment"
+  ],
+  "sections": [
+    {
+      "id": "cliff-beaches",
+      "heading": "The cliff and beaches",
+      "items": [
+        {
+          "name": "Watch sunset from the North Cliff",
+          "body": [
+            "The North Cliff's walkway runs along the edge above the sea, lined with cafés and shops. Sunset here, with the sky reflected on the wet sand below, is Varkala's defining experience. Keep well back from the edge; parts of the cliff are eroding, and some sections have been fenced off."
+          ],
+          "facts": {
+            "Best time": "Sunset",
+            "Good to know": "Stay back from the eroding edge",
+            "Good for": "Couples, everyone"
+          }
+        },
+        {
+          "name": "Swim at Papanasham beach",
+          "body": [
+            "Papanasham, below the cliff, is the main beach. Its name refers to the washing away of sins, and pilgrims come to perform rituals for ancestors, especially on Karkidaka Vavu in July or August. Lifeguards patrol parts of the beach; swim only between the flags, as currents can be strong."
+          ],
+          "facts": {
+            "Good to know": "Swim between the flags"
+          }
+        },
+        {
+          "name": "Walk to Black Beach and Odayam",
+          "body": [
+            "North of the cliff, Black Beach, named for its patches of dark mineral sand, is quieter. Further on, Odayam beach is secluded and good for long walks."
+          ]
+        },
+        {
+          "name": "See Kappil beach",
+          "body": [
+            "Kappil, about 9 km north, is where a backwater lake meets the sea, with a strip of sand between them. A small bridge and boating on the lake make it a peaceful stop, especially at sunset."
+          ],
+          "facts": {
+            "Best time": "Late afternoon"
+          }
+        },
+        {
+          "name": "Take a surf lesson",
+          "body": [
+            "Varkala's beach breaks are good for beginners, and several surf schools rent boards and offer lessons in the dry season."
+          ],
+          "facts": {
+            "Best time": "October to April",
+            "Good for": "Active travellers"
+          }
+        }
+      ]
+    },
+    {
+      "id": "temples",
+      "heading": "Temples and heritage",
+      "items": [
+        {
+          "name": "Visit the Janardanaswamy Temple",
+          "body": [
+            "The Janardanaswamy Temple, dedicated to Vishnu, stands on a hill near Papanasham and is believed to be about 2,000 years old. It is an important pilgrimage site; entry to the inner temple is restricted to Hindus, and a dress code applies."
+          ],
+          "facts": {
+            "Time needed": "45 minutes"
+          }
+        },
+        {
+          "name": "See Sivagiri Mutt",
+          "body": [
+            "Sivagiri Mutt, on a hill in Varkala town, was founded by the social reformer Sree Narayana Guru, whose samadhi is here. The Sivagiri pilgrimage in late December and early January draws huge crowds."
+          ],
+          "facts": {
+            "Best time": "Late December to early January for the pilgrimage"
+          }
+        },
+        {
+          "name": "Visit Anjengo Fort",
+          "body": [
+            "Anjengo (Anchuthengu) Fort, about 15 km south, was built by the British East India Company in the 1690s and is one of its earliest settlements in Kerala. A lighthouse nearby can be climbed for views, and there is an old cemetery."
+          ],
+          "facts": {
+            "Time needed": "1.5 hours"
+          }
+        }
+      ]
+    },
+    {
+      "id": "backwaters-wellness",
+      "heading": "Backwaters and wellness",
+      "items": [
+        {
+          "name": "Canoe to Ponnumthuruthu island",
+          "body": [
+            "Ponnumthuruthu, the golden island, is a small island in the Anjengo backwaters with an old temple, reached by canoe from Nedunganda. The trip through mangroves and quiet water is a lovely half day."
+          ],
+          "facts": {
+            "Time needed": "Half a day"
+          }
+        },
+        {
+          "name": "See the Varkala Tunnel",
+          "body": [
+            "The Varkala Tunnel, built in the 1870s and 1880s, carries a canal of the old waterway between Kollam and Thiruvananthapuram through a hill. It is a curiosity of Kerala's canal history."
+          ]
+        },
+        {
+          "name": "Join a yoga class or course",
+          "body": [
+            "Many studios on the cliff offer drop-in classes and multi-week teacher-training courses. Check teachers' credentials and read reviews."
+          ],
+          "facts": {
+            "Good for": "Wellness seekers"
+          }
+        },
+        {
+          "name": "Take an Ayurveda treatment",
+          "body": [
+            "Varkala has many Ayurvedic centres, from massage clinics to residential treatment programmes. Choose centres with qualified doctors and certification, especially for longer treatments."
+          ]
+        },
+        {
+          "name": "Eat at the cliff cafés",
+          "body": [
+            "Cliff cafés serve fresh seafood, Kerala dishes and international food. Choose your fish from the display in the evening and have it grilled. Try a Kerala breakfast of puttu and kadala in town."
+          ],
+          "facts": {
+            "Good for": "Food lovers"
+          }
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Couples",
+      "text": "A cliff-view room, sunset cafés, Kappil at dusk and a canoe trip to Ponnumthuruthu."
+    },
+    {
+      "who": "Solo travellers",
+      "text": "Yoga in the morning, surf lessons, and a friendly café scene."
+    },
+    {
+      "who": "Wellness seekers",
+      "text": "A week-long Ayurveda programme with yoga and quiet beach walks."
+    }
+  ],
+  "oneDay": "Visit the Janardanaswamy Temple early, then swim at Papanasham. Walk north to Black Beach and Odayam, have lunch on the cliff, and drive to Kappil in the late afternoon before returning to the North Cliff for sunset.",
+  "tips": [
+    "Varkala Sivagiri railway station is a few kilometres from the cliff; Thiruvananthapuram airport is about an hour away.",
+    "Dress modestly in town and at temples; beachwear belongs on the beach.",
+    "Cliff paths are unlit in places; carry a torch at night.",
+    "Many businesses close during the monsoon."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Varkala?",
+      "a": "Watch sunset from the North Cliff, swim at Papanasham, visit the Janardanaswamy Temple and Sivagiri Mutt, walk to Black Beach and Odayam, see Kappil, canoe to Ponnumthuruthu and try surfing, yoga or Ayurveda."
+    },
+    {
+      "q": "Is it safe to swim in Varkala?",
+      "a": "In calm conditions and between the lifeguard flags. Currents can be strong, and the sea is rough in the monsoon."
+    },
+    {
+      "q": "How many days are enough for Varkala?",
+      "a": "Two days for the sights; a week or more for yoga or Ayurveda."
+    },
+    {
+      "q": "What is the best time to visit Varkala?",
+      "a": "October to March."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Kovalam",
+      "href": "/blog/things-to-do-in-kovalam",
+      "note": "lighthouse beach, about an hour south"
+    },
+    {
+      "name": "Munroe Island",
+      "href": "/blog/munroe-island-travel-guide",
+      "note": "backwater canoe trips near Kollam"
+    },
+    {
+      "name": "Things to do in Alleppey",
+      "href": "/blog/things-to-do-in-alleppey",
+      "note": "houseboats, about three hours north"
+    }
+  ],
+  "styles": [
+    "honeymoon",
+    "weekend-getaways"
+  ],
+  "metaDescription": "Things to do in Varkala: sunset on the North Cliff, Papanasham beach and the Janardanaswamy Temple, Sivagiri Mutt, Black Beach and Odayam, Kappil where backwater meets sea and more."
+}

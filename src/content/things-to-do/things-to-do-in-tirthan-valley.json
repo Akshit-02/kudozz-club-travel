@@ -1,0 +1,237 @@
+{
+  "slug": "things-to-do-in-tirthan-valley",
+  "destination": "Tirthan Valley",
+  "guide": "tirthan-valley-travel-guide",
+  "type": "valley",
+  "title": "Things to Do in Tirthan Valley: River Stays, Jalori Pass & the Great Himalayan National Park",
+  "seoTitle": "Things to Do in Tirthan Valley & Jibhi | Kudozz Club",
+  "description": "Things to do in Tirthan Valley and Jibhi: riverside stays, trout fishing, Chhoie waterfall, walks into the Great Himalayan National Park, Jalori Pass, Serolsar Lake and Raghupur Fort, Chaini Kothi and wooden village temples.",
+  "dek": "A clear-water river valley in Kullu district, at the edge of a UNESCO-listed national park, with wooden villages, trout streams and forest trails.",
+  "primaryKeyword": "things to do in Tirthan Valley",
+  "secondaryKeywords": [
+    "Great Himalayan National Park",
+    "Jalori Pass",
+    "Serolsar Lake",
+    "Raghupur Fort",
+    "Chhoie waterfall",
+    "things to do in Jibhi",
+    "Tirthan trout fishing"
+  ],
+  "searchIntent": "Travellers looking for an offbeat, quiet alternative to Manali, planning two to four days in Tirthan and Jibhi.",
+  "tags": [
+    "Tirthan Valley",
+    "Jibhi",
+    "Himachal Pradesh",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/himachal-pradesh/tirthan-valley/great-himalayan-national-park-tirthan-valley.webp",
+    "alt": "Forested slopes of the Great Himalayan National Park near Tirthan Valley",
+    "caption": "Great Himalayan National Park"
+  },
+  "intro": [
+    "The Tirthan valley follows the Tirthan river in the Banjar area of Kullu district, Himachal Pradesh. The river rises inside the Great Himalayan National Park (GHNP), a UNESCO World Heritage Site since 2014, and villages such as Gushaini, Nagini and Bathad line its banks. Nearby Jibhi, in a side valley towards Jalori Pass, is often visited on the same trip.",
+    "The things to do here are simple and outdoors: sitting by the river, walking to waterfalls, fishing for trout, day walks at the edge of the national park, and a drive up to Jalori Pass for forest trails to Serolsar Lake and Raghupur Fort. The villages have fine examples of kath-kuni architecture, built in alternating layers of wood and stone.",
+    "Two to three days is a good length; add more if you plan to trek inside GHNP. The valley is about 50 km from Bhuntar and just off the Chandigarh–Manali highway at Aut."
+  ],
+  "quickAnswer": [
+    "Stay in a riverside homestay and listen to the Tirthan",
+    "Walk to Chhoie waterfall",
+    "Try catch-and-release trout fishing with a permit",
+    "Walk into the Great Himalayan National Park",
+    "Drive up to Jalori Pass",
+    "Walk to Serolsar Lake through oak forest",
+    "Hike to the meadows of Raghupur Fort",
+    "See the tall wooden tower of Chaini Kothi",
+    "Visit Jibhi waterfall and its villages"
+  ],
+  "sections": [
+    {
+      "id": "river",
+      "heading": "Along the river",
+      "items": [
+        {
+          "name": "Stay by the river",
+          "body": [
+            "The best way to experience Tirthan is to stay in a homestay or guesthouse right on the river, where the sound of the water fills the day. Most properties are family-run and serve home-cooked Himachali meals. Gushaini and Nagini are the main clusters."
+          ],
+          "facts": {
+            "Good for": "Couples, families, remote workers"
+          }
+        },
+        {
+          "name": "Walk to Chhoie waterfall",
+          "body": [
+            "Chhoie waterfall, near Nagini, is reached by a walk of about 2 km through a village and forest after crossing the river. The fall is at its fullest after the monsoon, and the trail is pleasant in any season."
+          ],
+          "facts": {
+            "Time needed": "2–3 hours",
+            "Good for": "Families, walkers"
+          }
+        },
+        {
+          "name": "Fish for trout",
+          "body": [
+            "The Tirthan is known for brown trout, and angling is allowed in designated stretches with a permit from the fisheries department. Catch-and-release is encouraged, and some homestays can help arrange permits and gear. Fishing is closed during the breeding season, usually in winter."
+          ],
+          "facts": {
+            "Good to know": "Permit required; seasonal closure",
+            "Good for": "Anglers"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ghnp",
+      "heading": "The Great Himalayan National Park",
+      "items": [
+        {
+          "name": "Walk into the park",
+          "body": [
+            "GHNP protects high forests, alpine meadows and glaciers, and is home to the western tragopan, Himalayan monal, musk deer and Himalayan tahr. Day walks start from Gushaini and Ropa towards Rolla, following the river into the forest. Deeper treks to Shilt, Rakhundi or the high meadows take several days and need a permit and registered guide.",
+            "The park's information centre and the local community ecotourism society can help with permits and guides. Rules change, so confirm before you go."
+          ],
+          "facts": {
+            "Time needed": "Day walk to multi-day trek",
+            "Best time": "April to June, September to November",
+            "Good for": "Trekkers, birdwatchers",
+            "Good to know": "Permit needed for the core zone"
+          }
+        },
+        {
+          "name": "Go birdwatching",
+          "body": [
+            "The valley and the edges of GHNP are rich for birdwatching, with species such as the Himalayan monal, kalij pheasant, white-capped redstart and plumbeous water redstart along the river. Early mornings in spring and autumn are best."
+          ],
+          "facts": {
+            "Best time": "Early morning"
+          }
+        }
+      ]
+    },
+    {
+      "id": "jalori-jibhi",
+      "heading": "Jalori Pass and Jibhi",
+      "items": [
+        {
+          "name": "Drive up to Jalori Pass",
+          "image": {
+            "src": "/images/blogs/himachal-pradesh/tirthan-valley/jalori-pass-tirthan-valley.webp",
+            "alt": "Jalori Pass road and forest",
+            "caption": "Jalori Pass"
+          },
+          "body": [
+            "Jalori Pass, at about 3,120 metres, links the Kullu valley with the Shimla side. The road climbs steeply through forest, and the top has a small temple, dhabas and views of the peaks. It is often closed by snow in winter."
+          ],
+          "facts": {
+            "Best time": "April to November",
+            "Good to know": "Often snowbound in winter; steep road"
+          }
+        },
+        {
+          "name": "Walk to Serolsar Lake",
+          "body": [
+            "From Jalori Pass, an easy trail of about 5 km through oak forest leads to Serolsar Lake, a small, clear lake with a temple to Budhi Nagin. It is one of the prettiest walks in the area and suitable for most people."
+          ],
+          "facts": {
+            "Distance": "About 5 km one way",
+            "Time needed": "3–4 hours return",
+            "Good for": "Families, beginners"
+          }
+        },
+        {
+          "name": "Hike to Raghupur Fort",
+          "body": [
+            "In the other direction from Jalori Pass, a steeper trail of about 3 km leads to the ruins of Raghupur Fort on a high meadow with panoramic views of the Himalaya. Very little of the fort remains, but the meadow is the real reward."
+          ],
+          "facts": {
+            "Distance": "About 3 km one way",
+            "Time needed": "3 hours return",
+            "Good for": "Active travellers"
+          }
+        },
+        {
+          "name": "See Chaini Kothi and Jibhi",
+          "body": [
+            "Chaini village, near Banjar, has a tall wooden tower-temple, Chaini Kothi, built in the kath-kuni style and said to be centuries old. Jibhi, a short drive away, has a small waterfall, wooden houses and many homestays and treehouse stays. The Shringa Rishi Temple at Bagi is another important village temple."
+          ],
+          "links": [
+            {
+              "label": "Jibhi travel guide",
+              "href": "/blog/jibhi-travel-guide"
+            }
+          ],
+          "facts": {
+            "Good for": "Architecture lovers, photographers"
+          }
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Couples",
+      "text": "A riverside stay, the Serolsar walk and slow evenings by the water make a peaceful break."
+    },
+    {
+      "who": "Families",
+      "text": "Chhoie waterfall, Serolsar Lake and the river bank are safe, easy outings. Keep children away from the fast current."
+    },
+    {
+      "who": "Trekkers",
+      "text": "Use Tirthan as a base for multi-day treks into the Great Himalayan National Park."
+    }
+  ],
+  "oneDay": "Walk to Chhoie waterfall in the morning and have lunch at your homestay. Drive up to Jalori Pass in the early afternoon, walk to Serolsar Lake, and return via Jibhi for tea by the waterfall before heading back to the river.",
+  "tips": [
+    "Bhuntar Airport is about 50 km away; buses from Delhi and Chandigarh stop at Aut, where taxis go to Tirthan.",
+    "Mobile coverage is patchy in parts of the valley; download maps offline.",
+    "The river is cold and fast; do not swim, especially in the monsoon.",
+    "Carry cash; ATMs are limited to Banjar."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Tirthan Valley?",
+      "a": "Stay by the river, walk to Chhoie waterfall, try trout fishing with a permit, walk into the Great Himalayan National Park, drive to Jalori Pass, walk to Serolsar Lake, hike to Raghupur Fort and see Chaini Kothi and Jibhi."
+    },
+    {
+      "q": "Do I need a permit for the Great Himalayan National Park?",
+      "a": "Yes, for entry into the core zone and for multi-day treks. Check the current process at the park office."
+    },
+    {
+      "q": "How many days are enough for Tirthan Valley?",
+      "a": "Two to three days for the river, Jalori Pass and Jibhi; more for treks in the national park."
+    },
+    {
+      "q": "Is Tirthan Valley better than Manali?",
+      "a": "It is much quieter and less commercial, with river stays and forest walks rather than shopping and adventure parks."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Jibhi",
+      "href": "/blog/jibhi-travel-guide",
+      "note": "wooden village stays near Jalori Pass"
+    },
+    {
+      "name": "Things to do in Kasol",
+      "href": "/blog/things-to-do-in-kasol",
+      "note": "the Parvati valley beyond Bhuntar"
+    },
+    {
+      "name": "Things to do in Manali",
+      "href": "/blog/things-to-do-in-manali",
+      "note": "about three hours north"
+    },
+    {
+      "name": "Things to do in Shimla",
+      "href": "/blog/things-to-do-in-shimla",
+      "note": "over Jalori Pass and down the other side"
+    }
+  ],
+  "styles": [
+    "weekend-getaways",
+    "adventure-tours"
+  ],
+  "metaDescription": "Things to do in Tirthan Valley and Jibhi: riverside stays, trout fishing, Chhoie waterfall, walks into the Great Himalayan National Park, Jalori Pass and more."
+}

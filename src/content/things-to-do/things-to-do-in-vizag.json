@@ -1,0 +1,289 @@
+{
+  "slug": "things-to-do-in-vizag",
+  "destination": "Visakhapatnam",
+  "guide": "visakhapatnam-travel-guide",
+  "type": "coastal city",
+  "title": "Things to Do in Vizag (Visakhapatnam): Beaches, Submarine Museum & Hills",
+  "seoTitle": "Things to Do in Vizag (Visakhapatnam) | Kudozz Club",
+  "description": "Things to do in Vizag: RK Beach and the Submarine Museum, the TU-142 aircraft museum, Kailasagiri ropeway, Rushikonda and Yarada beaches, the Dolphin's Nose, Simhachalam Temple, the Buddhist sites of Thotlakonda and Bavikonda, Bheemili and the train to Araku.",
+  "dek": "Andhra Pradesh's largest city, a naval port between the Eastern Ghats and the Bay of Bengal, with long beaches, hilltop parks, ancient Buddhist sites and a real submarine to walk through.",
+  "primaryKeyword": "things to do in Vizag",
+  "secondaryKeywords": [
+    "things to do in Visakhapatnam",
+    "places to visit in Vizag",
+    "Submarine Museum Vizag",
+    "Kailasagiri",
+    "Rushikonda beach",
+    "Simhachalam",
+    "Vizag to Araku"
+  ],
+  "searchIntent": "Families and weekenders planning two or three days in Vizag, often with Araku Valley.",
+  "tags": [
+    "Visakhapatnam",
+    "Andhra Pradesh",
+    "Coastal City",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/andhra-pradesh/andhra-pradesh/sunrise-tenneti-beach-visakhapatnam-andhra-pradesh.webp",
+    "alt": "Sunrise at Tenneti beach, Visakhapatnam",
+    "caption": "Tenneti beach at sunrise"
+  },
+  "intro": [
+    "Visakhapatnam, or Vizag, is Andhra Pradesh's largest city and the headquarters of the Indian Navy's Eastern Naval Command. It lies in a bay framed by hills of the Eastern Ghats, with a long coastline of beaches to the north and a busy port to the south.",
+    "The things to do in Vizag include walking the beach road, touring a decommissioned submarine and a naval aircraft, riding the ropeway up Kailasagiri, swimming and surfing at Rushikonda, visiting the Simhachalam Temple and exploring 2,000-year-old Buddhist monasteries on the hills. It is also the starting point for the scenic train journey to Araku Valley.",
+    "Two days covers the city; add two for Araku. October to March is the best time."
+  ],
+  "quickAnswer": [
+    "Walk RK Beach and Beach Road",
+    "Tour the INS Kursura Submarine Museum",
+    "See the TU-142 Aircraft Museum",
+    "Ride the ropeway to Kailasagiri",
+    "Swim or surf at Rushikonda beach",
+    "Visit Yarada beach and the Dolphin's Nose",
+    "Visit Simhachalam Temple",
+    "Explore Thotlakonda and Bavikonda Buddhist sites",
+    "Drive to Bheemili",
+    "Take the train to Araku Valley"
+  ],
+  "sections": [
+    {
+      "id": "beach-road",
+      "heading": "Beach Road",
+      "items": [
+        {
+          "name": "Walk RK Beach",
+          "image": {
+            "src": "/images/blogs/andhra-pradesh/andhra-pradesh/rk-beach-andhra-pradesh-2.webp",
+            "alt": "RK Beach promenade, Visakhapatnam",
+            "caption": "RK Beach"
+          },
+          "body": [
+            "Ramakrishna (RK) Beach is the city's main promenade, with a long beach road, the Victory at Sea war memorial, the Kali Temple and evening food stalls. The sea here has strong currents; swimming is not safe."
+          ],
+          "facts": {
+            "Best time": "Morning and evening",
+            "Good to know": "Do not swim"
+          }
+        },
+        {
+          "name": "Tour the Submarine Museum",
+          "body": [
+            "INS Kursura, a Soviet-built submarine that served in the Indian Navy from 1969 to 2001, has been turned into a museum on RK Beach. Former naval personnel guide visitors through the narrow compartments, torpedoes and control room. It is closed on Mondays."
+          ],
+          "facts": {
+            "Time needed": "45 minutes",
+            "Good for": "Families",
+            "Good to know": "Closed on Mondays"
+          }
+        },
+        {
+          "name": "See the TU-142 Aircraft Museum",
+          "body": [
+            "Across the road, a decommissioned TU-142 maritime reconnaissance aircraft has been turned into a museum on the navy's anti-submarine operations. The Sea Harrier museum is nearby."
+          ],
+          "facts": {
+            "Time needed": "45 minutes"
+          }
+        }
+      ]
+    },
+    {
+      "id": "hills-beaches",
+      "heading": "Hills and beaches",
+      "items": [
+        {
+          "name": "Ride the ropeway to Kailasagiri",
+          "image": {
+            "src": "/images/blogs/andhra-pradesh/andhra-pradesh/shiva-parvati-statues-kailasagiri-visakhapatnam.webp",
+            "alt": "Shiva and Parvati statues at Kailasagiri",
+            "caption": "Kailasagiri"
+          },
+          "body": [
+            "Kailasagiri, a hilltop park above the beach road, has large white statues of Shiva and Parvati, gardens, a toy train and panoramic views of the city and coast. A ropeway runs up from the foot of the hill.",
+            "The hilltop also has a telescope point, a floral clock and a skywalk, and a road winds up for those who prefer to drive."
+          ],
+          "facts": {
+            "Time needed": "2 hours",
+            "Best time": "Late afternoon",
+            "Good for": "Families"
+          }
+        },
+        {
+          "name": "Swim or surf at Rushikonda",
+          "body": [
+            "Rushikonda beach, about 10 km north, is one of the best beaches in the area and has held Blue Flag certification for cleanliness and safety. Swimming is possible in designated zones, and surf and water sports schools operate here."
+          ],
+          "facts": {
+            "Good for": "Families, active travellers"
+          }
+        },
+        {
+          "name": "Visit Yarada beach and the Dolphin's Nose",
+          "body": [
+            "Yarada beach, south of the port, is a quiet cove surrounded by hills. On the way, the Dolphin's Nose is a rocky headland with a lighthouse and views over the harbour."
+          ]
+        },
+        {
+          "name": "See Tenneti Park and the coastline",
+          "body": [
+            "Tenneti Park, on the beach road, is a good sunrise spot. The coastal road north to Bheemili has viewpoints over the sea."
+          ],
+          "facts": {
+            "Best time": "Sunrise"
+          }
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "heading": "Temples and Buddhist sites",
+      "items": [
+        {
+          "name": "Visit Simhachalam Temple",
+          "body": [
+            "The Varaha Lakshmi Narasimha Temple at Simhachalam, on a hill about 16 km from the city, dates to the 11th century and blends Kalinga and Chola styles. The deity is covered in sandalwood paste all year and revealed only during the Chandanotsavam festival in April or May."
+          ],
+          "facts": {
+            "Time needed": "2 hours"
+          }
+        },
+        {
+          "name": "Explore Thotlakonda and Bavikonda",
+          "body": [
+            "Thotlakonda and Bavikonda, on hills near the Bheemili road, are Buddhist monastic sites from around the 3rd century BCE to the 3rd century CE, with stupas, chaityas, monks' cells and rock-cut cisterns overlooking the sea."
+          ],
+          "facts": {
+            "Good for": "History lovers"
+          }
+        },
+        {
+          "name": "Drive to Bheemili",
+          "body": [
+            "Bheemunipatnam (Bheemili), about 25 km north, was a Dutch trading post in the 17th century. It has a Dutch cemetery, an old lighthouse and a quiet beach where the Gosthani river meets the sea."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "araku-food",
+      "heading": "Araku and food",
+      "items": [
+        {
+          "name": "Take the train to Araku",
+          "body": [
+            "The Visakhapatnam–Kirandul line climbs through the Eastern Ghats to Araku Valley, passing dozens of tunnels and bridges. Glass-roofed vistadome coaches offer the best views; book early. Borra Caves are a stop on the way."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Araku Valley",
+              "href": "/blog/things-to-do-in-araku-valley"
+            }
+          ]
+        },
+        {
+          "name": "Eat Andhra seafood",
+          "body": [
+            "Try Andhra-style fish and prawn curries, crab masala, pesarattu, and spicy Andhra meals with gongura chutney."
+          ],
+          "facts": {
+            "Good for": "Food lovers"
+          }
+        }
+      ]
+    },
+    {
+      "id": "seasons",
+      "heading": "By season",
+      "items": [
+        {
+          "name": "October to March",
+          "body": [
+            "Pleasant weather, calm seas and the Visakha Utsav festival in winter."
+          ]
+        },
+        {
+          "name": "April to June",
+          "body": [
+            "Hot and humid; spend days indoors at museums and evenings on the beach."
+          ]
+        },
+        {
+          "name": "July to September",
+          "body": [
+            "Monsoon showers; the ghats to Araku are green and waterfalls flow."
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Families",
+      "text": "Submarine and aircraft museums, Kailasagiri, Rushikonda and the zoo."
+    },
+    {
+      "who": "Couples",
+      "text": "Sunrise at Tenneti, a drive to Bheemili and sunset at Yarada."
+    },
+    {
+      "who": "History lovers",
+      "text": "Thotlakonda, Bavikonda and Simhachalam."
+    },
+    {
+      "who": "Weekenders",
+      "text": "Two days in Vizag and a night in Araku, travelling up by train and back by road via Borra Caves."
+    }
+  ],
+  "oneDay": "Watch sunrise at Tenneti Park, then visit the Submarine and Aircraft museums. Ride the ropeway to Kailasagiri, have lunch, and drive north to Rushikonda and Thotlakonda in the afternoon, returning along the coast.",
+  "tips": [
+    "Visakhapatnam has an airport and a major railway station.",
+    "Swim only at designated beaches such as Rushikonda.",
+    "Book vistadome train seats to Araku well in advance.",
+    "The museums close on Mondays."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Vizag?",
+      "a": "Walk RK Beach, tour the Submarine and TU-142 museums, ride to Kailasagiri, visit Rushikonda and Yarada beaches, see Simhachalam and the Buddhist sites, and take the train to Araku."
+    },
+    {
+      "q": "Is it safe to swim at RK Beach?",
+      "a": "No. Currents are strong. Rushikonda has designated swimming areas."
+    },
+    {
+      "q": "How many days are enough for Vizag?",
+      "a": "Two days for the city; four with Araku Valley."
+    },
+    {
+      "q": "What is the best time to visit Vizag?",
+      "a": "October to March."
+    },
+    {
+      "q": "Is Vizag good for a family holiday?",
+      "a": "Yes. The submarine and aircraft museums, Kailasagiri's ropeway, Rushikonda beach and the zoo make it one of South India's best cities for families."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Araku Valley",
+      "href": "/blog/things-to-do-in-araku-valley",
+      "note": "coffee hills and caves"
+    },
+    {
+      "name": "Borra Caves",
+      "href": "/blog/borra-caves-travel-guide",
+      "note": "limestone caves on the way to Araku"
+    },
+    {
+      "name": "Lambasingi",
+      "href": "/blog/lambasingi-travel-guide",
+      "note": "misty hills in winter"
+    }
+  ],
+  "styles": [
+    "family-holidays",
+    "weekend-getaways"
+  ],
+  "metaDescription": "Things to do in Vizag: RK Beach and the Submarine Museum, the TU-142 aircraft museum, Kailasagiri ropeway, Rushikonda and Yarada beaches, the Dolphin's Nose and more."
+}

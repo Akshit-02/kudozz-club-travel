@@ -1,0 +1,345 @@
+{
+  "slug": "things-to-do-in-goa",
+  "destination": "Goa",
+  "guide": "goa-beaches-travel-guide",
+  "type": "state",
+  "title": "Things to Do in Goa: Beaches, Old Goa, Markets, Forts & Beyond the Sand",
+  "seoTitle": "Things to Do in Goa: Beaches & Beyond | Kudozz Club",
+  "description": "Things to do in Goa: North and South Goa beaches, the churches of Old Goa, Fontainhas in Panjim, Chapora and Aguada forts, night and flea markets, Dudhsagar Falls, spice plantations, river islands, water sports, festivals and Goan food.",
+  "dek": "India's smallest state, with a hundred kilometres of coastline, whitewashed churches, Portuguese-era quarters, spice farms and a food culture all its own.",
+  "primaryKeyword": "things to do in Goa",
+  "secondaryKeywords": [
+    "places to visit in Goa",
+    "North Goa vs South Goa",
+    "things to do in Goa at night",
+    "Goa beyond beaches",
+    "Old Goa churches",
+    "Goa for couples",
+    "Goa with family"
+  ],
+  "searchIntent": "Couples, families, friends and first-time visitors planning four to six days in Goa and looking for more than just beaches.",
+  "tags": [
+    "Goa",
+    "Beaches",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/goa/goa/palolem-beach-south-goa.webp",
+    "alt": "Palolem beach in South Goa lined with palm trees",
+    "caption": "Palolem, South Goa"
+  },
+  "intro": [
+    "Goa, on India's west coast, was a Portuguese colony for about 450 years until 1961. That long history left it with baroque churches, colourful Latin-style neighbourhoods, and a distinct cuisine and culture, alongside Hindu temples in the interior and a coastline of more than 30 beaches.",
+    "The things to do in Goa go well beyond the sand. North Goa has lively beaches, clubs, forts and markets; South Goa is quieter, with wide, clean beaches and old Portuguese villages. Inland are the UNESCO-listed churches of Old Goa, the Latin Quarter of Panjim, spice plantations, temples and Dudhsagar Falls on the Karnataka border.",
+    "Five days covers North and South Goa with a day inland. November to February is peak season; the monsoon (June to September) is green and quiet, but many beach shacks close and swimming is unsafe."
+  ],
+  "quickAnswer": [
+    "Relax on South Goa beaches such as Palolem, Agonda and Cola",
+    "Enjoy North Goa's Baga, Anjuna, Vagator and Arambol",
+    "Visit the churches of Old Goa",
+    "Walk through Fontainhas, Panjim's Latin Quarter",
+    "Watch sunset from Chapora Fort",
+    "See Fort Aguada and its lighthouse",
+    "Shop at the Anjuna flea market and Saturday night market",
+    "Take a jeep to Dudhsagar Falls",
+    "Tour a spice plantation and Ponda's temples",
+    "Eat fish curry rice, xacuti and bebinca"
+  ],
+  "sections": [
+    {
+      "id": "beaches",
+      "heading": "Beaches",
+      "items": [
+        {
+          "name": "Relax in South Goa",
+          "image": {
+            "src": "/images/blogs/goa/goa/agonda-beach-huts-goa.webp",
+            "alt": "Beach huts at Agonda, South Goa",
+            "caption": "Agonda"
+          },
+          "body": [
+            "Palolem is a crescent of sand with calm water, beach huts and boat trips to Butterfly Beach and dolphin-spotting. Agonda, next door, is quieter and a nesting site for olive ridley turtles. Further north, Colva, Benaulim, Varca and Cavelossim are long, open beaches; Cola has a lagoon meeting the sea. South Goa suits couples, families and anyone wanting calm."
+          ],
+          "links": [
+            {
+              "label": "Palolem guide",
+              "href": "/blog/palolem-travel-guide"
+            },
+            {
+              "label": "Agonda guide",
+              "href": "/blog/agonda-travel-guide"
+            }
+          ],
+          "facts": {
+            "Best time": "November to March",
+            "Good for": "Couples, families"
+          }
+        },
+        {
+          "name": "Enjoy North Goa's beaches",
+          "image": {
+            "src": "/images/blogs/goa/goa/anjuna-beach-curlies-goa.webp",
+            "alt": "Anjuna beach rocks and shacks, North Goa",
+            "caption": "Anjuna"
+          },
+          "body": [
+            "Calangute and Baga are busy beaches with water sports, shacks and nightlife. Anjuna and Vagator have red cliffs, rocky coves and a long association with Goa's party scene. Further north, Morjim, Ashwem, Mandrem and Arambol are more relaxed, with yoga retreats and drum circles at sunset in Arambol."
+          ],
+          "links": [
+            {
+              "label": "Baga guide",
+              "href": "/blog/baga-travel-guide"
+            },
+            {
+              "label": "Vagator guide",
+              "href": "/blog/vagator-travel-guide"
+            }
+          ],
+          "facts": {
+            "Good for": "Friends, nightlife lovers"
+          }
+        },
+        {
+          "name": "Try water sports and scuba",
+          "body": [
+            "Parasailing, jet skis and banana boat rides are offered at Baga, Calangute and Candolim. Scuba diving and snorkelling trips go to Grande Island off the Mormugao peninsula. Choose registered operators with safety equipment, and avoid the sea when red flags are up."
+          ],
+          "facts": {
+            "Best time": "November to April",
+            "Good to know": "Water sports stop in the monsoon"
+          }
+        }
+      ]
+    },
+    {
+      "id": "heritage",
+      "heading": "Old Goa, Panjim and the forts",
+      "items": [
+        {
+          "name": "Visit the churches of Old Goa",
+          "image": {
+            "src": "/images/blogs/goa/goa/basilica-of-bom-jesus-old-goa.webp",
+            "alt": "Basilica of Bom Jesus, Old Goa",
+            "caption": "Basilica of Bom Jesus"
+          },
+          "body": [
+            "Old Goa, once the capital of Portuguese India, has a group of churches and convents listed by UNESCO in 1986. The Basilica of Bom Jesus holds the relics of St Francis Xavier, and the vast Sé Cathedral has one of the largest church bells in Asia. The Church of St Francis of Assisi, the Church of St Cajetan and the Archaeological Museum are close by."
+          ],
+          "links": [
+            {
+              "label": "Old Goa guide",
+              "href": "/blog/old-goa-travel-guide"
+            }
+          ],
+          "facts": {
+            "Time needed": "Half a day",
+            "Good to know": "Dress modestly",
+            "Good for": "History lovers"
+          }
+        },
+        {
+          "name": "Walk through Fontainhas",
+          "body": [
+            "Fontainhas, the Latin Quarter of Panjim, is a neighbourhood of narrow lanes and colourful Portuguese-era houses with tiled roofs and balconies. Heritage walks, art galleries and small cafés make it a lovely morning. The white Our Lady of the Immaculate Conception Church stands above Panjim's main square."
+          ],
+          "links": [
+            {
+              "label": "Panjim guide",
+              "href": "/blog/panjim-travel-guide"
+            }
+          ],
+          "facts": {
+            "Best time": "Early morning",
+            "Good for": "Photographers, couples"
+          }
+        },
+        {
+          "name": "Watch sunset from Chapora Fort",
+          "image": {
+            "src": "/images/blogs/goa/goa/chapora-fort-vagator-goa.webp",
+            "alt": "Chapora Fort ramparts above Vagator",
+            "caption": "Chapora Fort"
+          },
+          "body": [
+            "Chapora Fort, above Vagator, is a ruined 17th-century fort made famous by a Hindi film. Its ramparts look over the Chapora river and the sea, and it is a popular sunset spot."
+          ],
+          "facts": {
+            "Best time": "Sunset"
+          }
+        },
+        {
+          "name": "See Fort Aguada and Reis Magos",
+          "body": [
+            "Fort Aguada, built by the Portuguese in the early 17th century at the mouth of the Mandovi, has a lighthouse and sweeping views. The restored Reis Magos Fort across the bay has exhibitions on Goan history. Cabo de Rama in South Goa is a quieter fort with cliffside views."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "markets-nights",
+      "heading": "Markets and nights",
+      "items": [
+        {
+          "name": "Shop at the flea and night markets",
+          "body": [
+            "The Anjuna flea market, held on Wednesdays in season, sells clothes, jewellery, crafts and souvenirs. The Saturday night market at Arpora adds live music and food stalls. Mapusa's Friday market is a local affair with spices, sausages and pottery."
+          ],
+          "facts": {
+            "Best time": "November to April"
+          }
+        },
+        {
+          "name": "Take a Mandovi river cruise",
+          "body": [
+            "Evening cruises on the Mandovi from Panjim offer Goan folk dances and music. Floating casinos are moored on the same river."
+          ],
+          "facts": {
+            "Best time": "Evening"
+          }
+        },
+        {
+          "name": "Go out in North Goa",
+          "body": [
+            "Baga, Anjuna, Vagator and Assagao have beach clubs, bars and live music venues. Large music festivals are held in December. Follow local rules on noise and drugs; drug offences carry heavy penalties."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inland",
+      "heading": "Inland Goa",
+      "items": [
+        {
+          "name": "Take a jeep to Dudhsagar Falls",
+          "image": {
+            "src": "/images/blogs/goa/dudhsagar-falls/dudhsagar-falls-2.webp",
+            "alt": "Dudhsagar Falls cascading through forest",
+            "caption": "Dudhsagar Falls"
+          },
+          "body": [
+            "Dudhsagar, a four-tiered waterfall of about 310 metres on the Goa–Karnataka border, lies inside Bhagwan Mahaveer Sanctuary. Jeeps run from Kulem through the forest in the dry season; the falls are closed to visitors during the monsoon for safety. Tambdi Surla, a 12th- or 13th-century stone temple of the Kadamba period, is in the same area."
+          ],
+          "links": [
+            {
+              "label": "Dudhsagar Falls guide",
+              "href": "/blog/dudhsagar-falls-travel-guide"
+            }
+          ],
+          "facts": {
+            "Time needed": "Full day",
+            "Best time": "October to May"
+          }
+        },
+        {
+          "name": "Tour a spice plantation and Ponda's temples",
+          "image": {
+            "src": "/images/blogs/goa/ponda/shri-mangeshi-temple-ponda.webp",
+            "alt": "Shri Mangeshi Temple near Ponda",
+            "caption": "Shri Mangeshi Temple"
+          },
+          "body": [
+            "Around Ponda, spice farms offer guided walks through pepper, cardamom, nutmeg and cashew trees, often with a Goan lunch. The area also has Goa's most important Hindu temples, including Shri Mangeshi and Shri Shantadurga, moved inland during the Portuguese period."
+          ],
+          "facts": {
+            "Time needed": "Half a day",
+            "Good for": "Families"
+          }
+        },
+        {
+          "name": "Cross to Divar and Chorao",
+          "body": [
+            "Free ferries cross the Mandovi to the islands of Divar and Chorao, with quiet villages, old churches and paddy fields. The Salim Ali Bird Sanctuary on Chorao protects mangroves and their birds; canoe rides are available."
+          ],
+          "facts": {
+            "Good for": "Slow travellers, birdwatchers"
+          }
+        }
+      ]
+    },
+    {
+      "id": "food-festivals",
+      "heading": "Food and festivals",
+      "items": [
+        {
+          "name": "Eat Goan food",
+          "body": [
+            "Goan food blends Konkani, Portuguese and other influences: fish curry rice, prawn balchão, chicken xacuti, pork vindaloo and sorpotel, choris pão (sausage bread), and bebinca, a layered coconut dessert. Try feni, the local spirit made from cashew or coconut."
+          ],
+          "facts": {
+            "Good for": "Food lovers"
+          }
+        },
+        {
+          "name": "Catch a festival",
+          "body": [
+            "The Goa Carnival, before Lent in February or March, fills the streets with floats and music. Shigmo, the Hindu spring festival, follows. The Feast of St Francis Xavier on 3 December draws huge crowds to Old Goa, and Christmas and New Year are the busiest time of the year. São João in June celebrates the monsoon with people jumping into wells and streams."
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Couples",
+      "text": "Stay in South Goa at Palolem or Agonda, add a heritage morning in Fontainhas and a sunset at Chapora."
+    },
+    {
+      "who": "Families",
+      "text": "Calm South Goa beaches, a spice plantation, Old Goa's churches and a river cruise."
+    },
+    {
+      "who": "Friends",
+      "text": "Base in Anjuna or Vagator, hit the night market and beach clubs, and take a day trip to Dudhsagar."
+    }
+  ],
+  "oneDay": "Start with a walk through Fontainhas, then drive to Old Goa for the Basilica of Bom Jesus and Sé Cathedral. Have a Goan lunch, visit Fort Aguada in the afternoon and end with sunset at Chapora Fort.",
+  "tips": [
+    "Goa has two airports: Dabolim in the south and Manohar International at Mopa in the north. Madgaon and Thivim are the main railway stations.",
+    "Renting a scooter is common; wear a helmet and carry your licence.",
+    "Swim only in flagged areas with lifeguards, and never in the monsoon.",
+    "December prices are high and rooms sell out; book early.",
+    "Carry some cash for beach shacks and markets, although most places accept UPI."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Goa?",
+      "a": "Relax on North and South Goa beaches, visit Old Goa's churches, walk through Fontainhas, watch sunset at Chapora Fort, shop at the flea and night markets, visit Dudhsagar Falls and a spice plantation, and eat Goan food."
+    },
+    {
+      "q": "Is North Goa or South Goa better?",
+      "a": "North Goa is livelier with more nightlife; South Goa is quieter with cleaner, calmer beaches. Many visitors split their stay."
+    },
+    {
+      "q": "How many days are enough for Goa?",
+      "a": "Four to five days covers North and South Goa with a day inland."
+    },
+    {
+      "q": "What can I do in Goa during the monsoon?",
+      "a": "Visit waterfalls and spice farms, drive through the green countryside, enjoy Goan food and festivals such as São João. Beaches are unsafe for swimming."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Gokarna",
+      "href": "/blog/things-to-do-in-gokarna",
+      "note": "quieter beaches and a temple town, three hours south"
+    },
+    {
+      "name": "Things to do in Hampi",
+      "href": "/blog/things-to-do-in-hampi",
+      "note": "the Vijayanagara ruins, about seven hours inland"
+    },
+    {
+      "name": "Dandeli",
+      "href": "/blog/dandeli-travel-guide",
+      "note": "rafting and forests in Karnataka"
+    }
+  ],
+  "styles": [
+    "honeymoon",
+    "family-holidays",
+    "group-tours",
+    "weekend-getaways"
+  ],
+  "metaDescription": "Things to do in Goa: North and South Goa beaches, the churches of Old Goa, Fontainhas in Panjim, Chapora and Aguada forts, night and flea markets, Dudhsagar Falls and more."
+}

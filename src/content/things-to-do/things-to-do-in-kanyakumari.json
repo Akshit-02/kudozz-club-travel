@@ -1,0 +1,261 @@
+{
+  "slug": "things-to-do-in-kanyakumari",
+  "destination": "Kanyakumari",
+  "guide": "kanyakumari-travel-guide",
+  "type": "coastal town",
+  "title": "Things to Do in Kanyakumari: Sunrise at India's Tip, Vivekananda Rock & Temples",
+  "seoTitle": "Things to Do in Kanyakumari: Sunrise & Memorials | Kudozz Club",
+  "description": "Things to do in Kanyakumari: sunrise and sunset where three seas meet, the Vivekananda Rock Memorial and Thiruvalluvar statue, the Kumari Amman Temple, Gandhi Memorial Mandapam, Suchindram, Padmanabhapuram Palace, Vattakottai Fort and Mathur aqueduct.",
+  "dek": "The southern tip of mainland India, where the Arabian Sea, Indian Ocean and Bay of Bengal meet, with a rock memorial offshore and sunrises and sunsets over water.",
+  "primaryKeyword": "things to do in Kanyakumari",
+  "secondaryKeywords": [
+    "places to visit in Kanyakumari",
+    "Vivekananda Rock Memorial",
+    "Thiruvalluvar statue",
+    "Kanyakumari sunrise",
+    "Padmanabhapuram Palace",
+    "Suchindram"
+  ],
+  "searchIntent": "Pilgrims, families and travellers on a South India loop planning one or two days in Kanyakumari.",
+  "tags": [
+    "Kanyakumari",
+    "Tamil Nadu",
+    "Pilgrimage",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/tamil-nadu/kanyakumari/vivekananda-rock-memorial-kanyakumari.webp",
+    "alt": "Vivekananda Rock Memorial off Kanyakumari",
+    "caption": "Vivekananda Rock Memorial"
+  },
+  "intro": [
+    "Kanyakumari, at the southern tip of mainland India, is where the Arabian Sea, the Indian Ocean and the Bay of Bengal meet. The town is named after Kanya Kumari, the virgin goddess whose temple stands on the shore. Swami Vivekananda meditated on a rock offshore in 1892, and a memorial now stands there.",
+    "The things to do in Kanyakumari are simple but memorable: watch the sunrise and sunset over the sea, take the ferry to the Vivekananda Rock Memorial and Thiruvalluvar statue, visit the Kumari Amman Temple and the Gandhi Memorial, and take day trips to the carved temple at Suchindram and the wooden Padmanabhapuram Palace.",
+    "One to two days is enough. October to March is the best time."
+  ],
+  "quickAnswer": [
+    "Watch sunrise over the sea",
+    "Take the ferry to the Vivekananda Rock Memorial",
+    "See the Thiruvalluvar statue and glass bridge",
+    "Visit the Kumari Amman Temple",
+    "See the Gandhi Memorial Mandapam",
+    "Watch sunset from the sunset point",
+    "Visit the Wandering Monk exhibition at Vivekanandapuram",
+    "See Suchindram's Thanumalayan Temple",
+    "Tour Padmanabhapuram Palace",
+    "Visit Vattakottai Fort and the Mathur aqueduct"
+  ],
+  "sections": [
+    {
+      "id": "tip",
+      "heading": "At the tip",
+      "items": [
+        {
+          "name": "Watch sunrise over the sea",
+          "body": [
+            "Kanyakumari is one of the few places in India where you can watch the sun both rise and set over the sea. Crowds gather on the shore and hotel rooftops before dawn. On Chitra Pournami, the full moon in April or May, the sun sets and moon rises at the same time over the horizon."
+          ],
+          "facts": {
+            "Best time": "Sunrise, October to March",
+            "Good for": "Everyone"
+          }
+        },
+        {
+          "name": "Visit the Vivekananda Rock Memorial",
+          "body": [
+            "The Vivekananda Rock Memorial, completed in 1970, stands on one of two rocks about 500 metres offshore, where Swami Vivekananda meditated before his journey to the West. It has a meditation hall and the Shripada Mandapam, marking a footprint associated with the goddess Kumari. Ferries run from the shore; queues can be long."
+          ],
+          "facts": {
+            "Time needed": "2 hours including the ferry",
+            "Good to know": "Go early to avoid long queues"
+          }
+        },
+        {
+          "name": "See the Thiruvalluvar statue",
+          "body": [
+            "The 133-foot statue of the Tamil poet Thiruvalluvar, author of the Thirukkural, stands on the second rock. A glass-floored bridge linking it to the Vivekananda rock was opened in December 2024. Ferry access depends on sea conditions."
+          ]
+        },
+        {
+          "name": "Visit the Kumari Amman Temple",
+          "image": {
+            "src": "/images/blogs/tamil-nadu/kanyakumari/kanyakumari-amman-temple.webp",
+            "alt": "Kumari Amman Temple on the shore",
+            "caption": "Kumari Amman Temple"
+          },
+          "body": [
+            "The Kumari Amman Temple, on the shore, is dedicated to the goddess Kanya Kumari and is counted among the Shakti Peethas. Men must remove shirts, and cameras are not allowed inside."
+          ],
+          "facts": {
+            "Time needed": "45 minutes",
+            "Good to know": "Dress code applies"
+          }
+        },
+        {
+          "name": "See the Gandhi Memorial Mandapam",
+          "image": {
+            "src": "/images/blogs/tamil-nadu/kanyakumari/gandhi-memorial-mandapam-kanyakumari.webp",
+            "alt": "Gandhi Memorial Mandapam, Kanyakumari",
+            "caption": "Gandhi Memorial Mandapam"
+          },
+          "body": [
+            "The Gandhi Memorial Mandapam marks where an urn of Gandhi's ashes was kept before immersion. It is designed so that on 2 October, his birthday, the sun's rays fall on the spot where the urn stood. The Kamaraj Memorial is next door."
+          ]
+        },
+        {
+          "name": "Visit Vivekanandapuram",
+          "body": [
+            "Vivekanandapuram, a campus of the Vivekananda Kendra just outside town, has the Wandering Monk exhibition on Vivekananda's travels, gardens and a quiet beach."
+          ],
+          "facts": {
+            "Time needed": "1.5 hours"
+          }
+        }
+      ]
+    },
+    {
+      "id": "day-trips",
+      "heading": "Day trips",
+      "items": [
+        {
+          "name": "See Suchindram Temple",
+          "body": [
+            "The Thanumalayan Temple at Suchindram, about 13 km away, is dedicated to Shiva, Vishnu and Brahma in a single form. It has a huge Hanuman statue, musical pillars and fine carvings."
+          ],
+          "facts": {
+            "Time needed": "1 hour"
+          }
+        },
+        {
+          "name": "Tour Padmanabhapuram Palace",
+          "body": [
+            "Padmanabhapuram Palace, about 35 km away, was the seat of the Travancore rulers until the late 18th century. It is one of the finest examples of traditional Kerala wooden architecture, with carved ceilings, polished floors, murals and a council chamber. It is administered by Kerala and closed on Mondays."
+          ],
+          "facts": {
+            "Time needed": "1.5–2 hours",
+            "Good to know": "Closed on Mondays"
+          }
+        },
+        {
+          "name": "See Vattakottai Fort",
+          "body": [
+            "Vattakottai, a small 18th-century seaside fort built by the Travancore kingdom, looks out over the sea on one side and the Western Ghats on the other."
+          ]
+        },
+        {
+          "name": "Walk the Mathur aqueduct",
+          "body": [
+            "The Mathur Hanging Trough, about 60 km away, is one of the tallest and longest aqueducts in Asia, carrying an irrigation canal across a valley. You can walk along it. Thirparappu Falls is nearby."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "more",
+      "heading": "More in town",
+      "items": [
+        {
+          "name": "See Our Lady of Ransom Church",
+          "body": [
+            "Our Lady of Ransom Church, a white Gothic church by the sea, is a landmark of the town's fishing community."
+          ]
+        },
+        {
+          "name": "Shop for shells and eat seafood",
+          "body": [
+            "Stalls near the shore sell shell crafts, coloured sand and souvenirs. Local restaurants serve fish curries and South Indian meals."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seasons",
+      "heading": "By season",
+      "items": [
+        {
+          "name": "Winter (October to March)",
+          "body": [
+            "Calm seas, clear sunrises and the busiest season. December and January bring many pilgrims, including those returning from Sabarimala."
+          ]
+        },
+        {
+          "name": "Summer and monsoon (April to September)",
+          "body": [
+            "Hot and windy, with rough seas that can stop the ferries. Chitra Pournami in April or May brings the rare simultaneous sunset and moonrise."
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Pilgrims",
+      "text": "Sunrise, Kumari Amman Temple, the rock memorial and Suchindram."
+    },
+    {
+      "who": "Families",
+      "text": "Sunrise, the ferry to the memorials, Vivekanandapuram and Padmanabhapuram Palace."
+    },
+    {
+      "who": "History lovers",
+      "text": "Padmanabhapuram Palace, Vattakottai and the Gandhi Memorial."
+    }
+  ],
+  "oneDay": "Watch sunrise, then take an early ferry to the Vivekananda Rock Memorial and Thiruvalluvar statue. Visit the Kumari Amman Temple and the Gandhi Memorial, drive to Suchindram after lunch, and return for sunset.",
+  "tips": [
+    "Kanyakumari has a railway station; Thiruvananthapuram airport is about two and a half hours away.",
+    "Ferries stop in rough seas; plan the memorial visit early in your stay.",
+    "Dress codes apply at the temples.",
+    "Sunrise times vary; check the evening before.",
+    "Book a sea-facing room if you want to watch sunrise without joining the crowds."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Kanyakumari?",
+      "a": "Watch sunrise and sunset over the sea, visit the Vivekananda Rock Memorial and Thiruvalluvar statue, see the Kumari Amman Temple and Gandhi Memorial, and take trips to Suchindram and Padmanabhapuram Palace."
+    },
+    {
+      "q": "What time do the ferries to Vivekananda Rock run?",
+      "a": "They usually run from early morning to late afternoon, subject to sea conditions. Go early to avoid queues."
+    },
+    {
+      "q": "How many days are enough for Kanyakumari?",
+      "a": "One to two days."
+    },
+    {
+      "q": "Can you see sunrise and sunset in Kanyakumari?",
+      "a": "Yes, both over the sea, from different points on the shore."
+    },
+    {
+      "q": "Is the glass bridge to the Thiruvalluvar statue open?",
+      "a": "A glass bridge between the Vivekananda Rock and the Thiruvalluvar statue opened in December 2024. Access depends on sea conditions and ferry operations."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Kovalam",
+      "href": "/blog/things-to-do-in-kovalam",
+      "note": "beaches in Kerala, about two hours away"
+    },
+    {
+      "name": "Things to do in Madurai",
+      "href": "/blog/things-to-do-in-madurai",
+      "note": "the temple city"
+    },
+    {
+      "name": "Things to do in Rameswaram",
+      "href": "/blog/things-to-do-in-rameswaram",
+      "note": "island temple town"
+    },
+    {
+      "name": "Courtallam",
+      "href": "/blog/courtallam-travel-guide",
+      "note": "waterfalls in the Western Ghats"
+    }
+  ],
+  "styles": [
+    "spiritual-tours",
+    "family-holidays"
+  ],
+  "metaDescription": "Things to do in Kanyakumari: sunrise and sunset where three seas meet, the Vivekananda Rock Memorial and Thiruvalluvar statue, the Kumari Amman Temple and more."
+}

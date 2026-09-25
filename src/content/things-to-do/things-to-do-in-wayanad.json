@@ -1,0 +1,243 @@
+{
+  "slug": "things-to-do-in-wayanad",
+  "destination": "Wayanad",
+  "guide": "wayanad-travel-guide",
+  "type": "hill district",
+  "title": "Things to Do in Wayanad: Caves, Peaks, Waterfalls & Wildlife",
+  "seoTitle": "Things to Do in Wayanad: Caves, Falls & Safaris | Kudozz Club",
+  "description": "Things to do in Wayanad: Edakkal Caves' prehistoric carvings, Chembra Peak's heart-shaped lake, Banasura Sagar Dam, Soochipara and Meenmutty falls, Kuruva Island, safaris at Muthanga and Tholpetty, Pookode Lake, Thirunelli Temple and plantation stays.",
+  "dek": "A green plateau in the Western Ghats of northern Kerala, with Stone Age rock art, forests full of elephants, waterfalls and coffee, pepper and tea estates.",
+  "primaryKeyword": "things to do in Wayanad",
+  "secondaryKeywords": [
+    "places to visit in Wayanad",
+    "Edakkal Caves",
+    "Chembra Peak",
+    "Banasura Sagar Dam",
+    "Muthanga safari",
+    "Kuruva Island",
+    "Wayanad resorts"
+  ],
+  "searchIntent": "Families and weekenders from Bengaluru, Kozhikode and Mysuru planning two or three days in Wayanad.",
+  "tags": [
+    "Wayanad",
+    "Kerala",
+    "Hill District",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/kerala/wayanad/edakkal-caves-wayanad.webp",
+    "alt": "Prehistoric carvings inside Edakkal Caves, Wayanad",
+    "caption": "Edakkal Caves"
+  },
+  "intro": [
+    "Wayanad is a hilly district in northern Kerala, on a plateau of the Western Ghats bordering Karnataka and Tamil Nadu. It is known for its forests, which are part of the Nilgiri Biosphere Reserve, its spice, coffee and tea estates, and a large population of indigenous communities. Kalpetta, Mananthavady and Sulthan Bathery are its main towns.",
+    "The things to do in Wayanad include the Edakkal Caves with carvings thousands of years old, the climb to Chembra Peak, Banasura Sagar Dam, waterfalls, wildlife safaris at Muthanga and Tholpetty, Kuruva Island in the Kabini river, and plantation stays.",
+    "Two to three days is ideal. October to May is the best time. Parts of the Meppadi area were devastated by landslides in July 2024; check which areas and routes are open before planning."
+  ],
+  "quickAnswer": [
+    "See the prehistoric carvings in Edakkal Caves",
+    "Trek to Chembra Peak and its heart-shaped lake",
+    "Visit Banasura Sagar Dam",
+    "See Soochipara and Meenmutty falls",
+    "Walk on Kuruva Island",
+    "Go on a jeep safari at Muthanga or Tholpetty",
+    "Boat on Pookode Lake",
+    "Visit Thirunelli Temple",
+    "See the Jain temple at Sulthan Bathery",
+    "Stay on a coffee or spice plantation"
+  ],
+  "sections": [
+    {
+      "id": "heritage",
+      "heading": "Caves and temples",
+      "items": [
+        {
+          "name": "See Edakkal Caves",
+          "body": [
+            "Edakkal Caves, on Ambukuthi Hill near Sulthan Bathery, are not true caves but a natural cleft between huge rocks. Their walls carry carvings of human and animal figures and symbols believed to date back to the Neolithic period. Reaching them involves a steep walk and climb of about an hour. Visitor numbers are limited, and the site is closed on Mondays."
+          ],
+          "facts": {
+            "Time needed": "2–3 hours",
+            "Good to know": "Closed on Mondays; steep climb"
+          }
+        },
+        {
+          "name": "Visit Thirunelli Temple",
+          "body": [
+            "Thirunelli Temple, in the Brahmagiri hills near the Karnataka border, is an ancient Vishnu temple in a forest setting. Pilgrims perform rites for ancestors at the Papanasini stream nearby. The Pakshipathalam trek starts from here with forest department permission."
+          ]
+        },
+        {
+          "name": "See the Jain temple at Sulthan Bathery",
+          "body": [
+            "The 13th-century Jain temple in Sulthan Bathery was later used by Tipu Sultan as an ammunition store, which gave the town its name. The granite temple has fine carvings."
+          ]
+        },
+        {
+          "name": "Visit the Wayanad Heritage Museum",
+          "body": [
+            "The Wayanad Heritage Museum at Ambalavayal displays tools, weapons, pottery and objects of the district's indigenous communities and early history."
+          ],
+          "facts": {
+            "Time needed": "1 hour"
+          }
+        }
+      ]
+    },
+    {
+      "id": "nature",
+      "heading": "Peaks, lakes and waterfalls",
+      "items": [
+        {
+          "name": "Trek to Chembra Peak",
+          "image": {
+            "src": "/images/blogs/kerala/wayanad/chembra-peak-wayanad.webp",
+            "alt": "Heart-shaped lake on the slopes of Chembra Peak",
+            "caption": "Chembra Peak"
+          },
+          "body": [
+            "Chembra Peak, at about 2,100 metres, is the highest point in Wayanad. The trek passes tea estates and grassland to a small heart-shaped lake partway up. The forest department controls permits and numbers, and the trek has been closed for periods; check current status before planning."
+          ],
+          "facts": {
+            "Time needed": "Half a day",
+            "Good to know": "Permits required; may be closed"
+          }
+        },
+        {
+          "name": "Visit Banasura Sagar Dam",
+          "body": [
+            "Banasura Sagar is often described as India's largest earthen dam, with a reservoir dotted with small islands and the Banasura hills behind. Speedboat and pedal boat rides are offered, and the view is lovely in the evening."
+          ],
+          "facts": {
+            "Good for": "Families"
+          }
+        },
+        {
+          "name": "See Soochipara and Meenmutty falls",
+          "body": [
+            "Soochipara (Sentinel Rock) Falls drops in three tiers through forest, reached by a walk down steps. Meenmutty Falls, near Kalpetta, is reached by a forest trail. Both are best after the monsoon, and access can close in heavy rain or be affected by landslide damage."
+          ],
+          "facts": {
+            "Best time": "September to January"
+          }
+        },
+        {
+          "name": "Boat on Pookode Lake",
+          "body": [
+            "Pookode Lake, a small natural freshwater lake surrounded by forest near Lakkidi, has pedal boats and a walking path. Lakkidi viewpoint nearby looks down the hairpin bends of the Thamarassery ghat road."
+          ]
+        },
+        {
+          "name": "Walk on Kuruva Island",
+          "body": [
+            "Kuruva Island (Kuruvadweep) is a cluster of forested river islands in the Kabini, reached by bamboo rafts. Visitor numbers are capped and the islands have been closed at times for conservation; check before going."
+          ],
+          "facts": {
+            "Good to know": "Limited entry; may be closed"
+          }
+        }
+      ]
+    },
+    {
+      "id": "wildlife",
+      "heading": "Wildlife and plantations",
+      "items": [
+        {
+          "name": "Go on a safari at Muthanga or Tholpetty",
+          "body": [
+            "Wayanad Wildlife Sanctuary has two ranges: Muthanga in the south and Tholpetty in the north. Jeep safaris in the early morning and late afternoon offer chances to see elephants, gaur, deer and, occasionally, tigers and leopards. Entry numbers are limited; arrive early."
+          ],
+          "facts": {
+            "Best time": "October to May, early morning",
+            "Good for": "Wildlife lovers"
+          }
+        },
+        {
+          "name": "Stay on a plantation",
+          "body": [
+            "Many homestays and resorts in Wayanad are set on coffee, pepper, cardamom or tea estates. Plantation walks explain how the crops are grown, and some offer treehouse stays."
+          ],
+          "facts": {
+            "Good for": "Couples, families"
+          }
+        },
+        {
+          "name": "Visit a tribal heritage village",
+          "body": [
+            "En Ooru, a tribal heritage village near Pookode run with indigenous communities, shows traditional architecture, crafts and food, and sells local products."
+          ],
+          "facts": {
+            "Good for": "Culture seekers"
+          }
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Families",
+      "text": "Banasura Sagar, Pookode Lake, a Muthanga safari and a plantation stay."
+    },
+    {
+      "who": "Trekkers",
+      "text": "Chembra Peak (if open), Pakshipathalam and Banasura Hill with forest department guides."
+    },
+    {
+      "who": "History lovers",
+      "text": "Edakkal Caves, the Jain temple and the Heritage Museum."
+    }
+  ],
+  "oneDay": "Climb to Edakkal Caves in the morning, then visit the Jain temple at Sulthan Bathery. After lunch, take an afternoon safari at Muthanga or drive to Banasura Sagar Dam for the evening.",
+  "tips": [
+    "Kozhikode airport is about 90 km away; Mysuru and Bengaluru are the other main gateways by road.",
+    "Night traffic through the Bandipur and Muthanga forests is restricted; plan road trips from Karnataka for the daytime.",
+    "Check which sites are open after heavy rain or landslides.",
+    "Carry leech socks and rain gear in the monsoon."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Wayanad?",
+      "a": "See Edakkal Caves, trek Chembra Peak if open, visit Banasura Sagar Dam, Soochipara and Meenmutty falls, Kuruva Island and Pookode Lake, go on a Muthanga or Tholpetty safari and stay on a plantation."
+    },
+    {
+      "q": "How many days are enough for Wayanad?",
+      "a": "Two to three days."
+    },
+    {
+      "q": "What is the best time to visit Wayanad?",
+      "a": "October to May. The monsoon is lush but brings heavy rain and landslide risk."
+    },
+    {
+      "q": "Is Chembra Peak open?",
+      "a": "The trek is controlled by the forest department and has been closed for periods. Check its current status before planning."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Coorg",
+      "href": "/blog/things-to-do-in-coorg",
+      "note": "coffee country across the border"
+    },
+    {
+      "name": "Things to do in Ooty",
+      "href": "/blog/things-to-do-in-ooty",
+      "note": "the Nilgiris, about three hours away"
+    },
+    {
+      "name": "Things to do in Mysuru",
+      "href": "/blog/things-to-do-in-mysore",
+      "note": "palaces, about three hours away"
+    },
+    {
+      "name": "Kabini",
+      "href": "/blog/kabini-travel-guide",
+      "note": "wildlife on the reservoir"
+    }
+  ],
+  "styles": [
+    "family-holidays",
+    "weekend-getaways",
+    "honeymoon"
+  ],
+  "metaDescription": "Things to do in Wayanad: Edakkal Caves' prehistoric carvings, Chembra Peak's heart-shaped lake, Banasura Sagar Dam, Soochipara and Meenmutty falls, Kuruva Island and more."
+}

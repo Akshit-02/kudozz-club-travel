@@ -1,0 +1,256 @@
+{
+  "slug": "things-to-do-in-pachmarhi",
+  "destination": "Pachmarhi",
+  "guide": "pachmarhi-travel-guide",
+  "type": "hill station",
+  "title": "Things to Do in Pachmarhi: Waterfalls, Caves, Dhoopgarh Sunsets & Satpura Safaris",
+  "seoTitle": "Things to Do in Pachmarhi: Falls, Caves & Views | Kudozz Club",
+  "description": "Things to do in Pachmarhi: sunset at Dhoopgarh, Bee Falls and Rajat Prapat, Jata Shankar and the Pandav Caves, Priyadarshini Point, Handi Khoh gorge, Apsara Vihar, the Chauragarh climb, Satpura Tiger Reserve safaris and colonial Christ Church.",
+  "dek": "Madhya Pradesh's only hill station, a green plateau in the Satpura range with waterfalls, sandstone caves, rock art and forest safaris.",
+  "primaryKeyword": "things to do in Pachmarhi",
+  "secondaryKeywords": [
+    "places to visit in Pachmarhi",
+    "Dhoopgarh sunset",
+    "Bee Falls",
+    "Pandav Caves",
+    "Jata Shankar",
+    "Satpura safari",
+    "Chauragarh"
+  ],
+  "searchIntent": "Families and weekenders from Bhopal, Nagpur and Jabalpur planning two or three days in Pachmarhi.",
+  "tags": [
+    "Pachmarhi",
+    "Madhya Pradesh",
+    "Hill Station",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/madhya-pradesh/pachmarhi/bee-falls-pachmarhi.webp",
+    "alt": "Bee Falls, Pachmarhi",
+    "caption": "Bee Falls"
+  },
+  "intro": [
+    "Pachmarhi, at about 1,070 metres in the Satpura range of Hoshangabad (Narmadapuram) district, was brought to British attention in 1857 by Captain James Forsyth and developed as a sanatorium and army station. It is still a cantonment and lies within the Satpura Tiger Reserve and the Pachmarhi Biosphere Reserve.",
+    "The things to do in Pachmarhi are mostly outdoors: sunsets at Dhoopgarh, the highest point in Madhya Pradesh; waterfalls such as Bee Falls, Apsara Vihar and Rajat Prapat; sandstone caves with ancient rock paintings; gorges and viewpoints; the climb to the Chauragarh shrine; and jeep safaris in Satpura. Many points are reached only in forest department or MP Tourism gypsies.",
+    "Two to three days is ideal. October to June is the main season; the monsoon is very green but some routes close."
+  ],
+  "quickAnswer": [
+    "Watch sunset from Dhoopgarh",
+    "Bathe at Bee Falls",
+    "See Rajat Prapat and Apsara Vihar",
+    "Visit Jata Shankar cave",
+    "See the Pandav Caves",
+    "Watch the view from Priyadarshini Point",
+    "Look into Handi Khoh gorge",
+    "Climb to Chauragarh",
+    "Go on a Satpura safari",
+    "See Christ Church"
+  ],
+  "sections": [
+    {
+      "id": "views",
+      "heading": "Viewpoints",
+      "items": [
+        {
+          "name": "Watch sunset from Dhoopgarh",
+          "body": [
+            "Dhoopgarh, at about 1,350 metres, is the highest point in Madhya Pradesh and the best place in Pachmarhi for sunset, with layers of the Satpura hills turning gold and blue. Gypsies take visitors up the forest road."
+          ],
+          "image": {
+            "src": "/images/blogs/madhya-pradesh/pachmarhi/dhoopgarh-pachmarhi.webp",
+            "alt": "Sunset view from Dhoopgarh",
+            "caption": "Dhoopgarh"
+          },
+          "facts": {
+            "Best time": "Sunset"
+          }
+        },
+        {
+          "name": "See Priyadarshini Point",
+          "body": [
+            "Priyadarshini Point (Forsyth Point) is where Captain Forsyth first saw the Pachmarhi plateau in 1857. It has views over forested valleys."
+          ]
+        },
+        {
+          "name": "Look into Handi Khoh",
+          "body": [
+            "Handi Khoh is a deep, forested gorge with sheer cliffs about 100 metres high. A viewing platform looks down into it, and local legend links it to a serpent."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "water",
+      "heading": "Waterfalls",
+      "items": [
+        {
+          "name": "Bathe at Bee Falls",
+          "body": [
+            "Bee Falls, reached by a short walk down steps, is Pachmarhi's most popular waterfall and supplies the town's drinking water. Visitors can stand under the falls when the flow is moderate; it can be dangerous in heavy rain.",
+            "The walk down passes through forest with langurs and birds, and small stalls near the top sell snacks and tea. Early mornings are quieter than midday."
+          ],
+          "facts": {
+            "Good for": "Families",
+            "Good to know": "Avoid in heavy flow"
+          }
+        },
+        {
+          "name": "See Rajat Prapat and Apsara Vihar",
+          "body": [
+            "Rajat Prapat (Big Falls) drops over a cliff in a long silver ribbon, seen from a viewpoint after a forest walk. Apsara Vihar, on the same trail, has a shallow pool suitable for a dip."
+          ],
+          "facts": {
+            "Best time": "July to October"
+          }
+        },
+        {
+          "name": "See Duchess Falls",
+          "body": [
+            "Duchess Falls is reached by a steeper trek of a few kilometres and falls in three cascades, less crowded than the others."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "caves",
+      "heading": "Caves and temples",
+      "items": [
+        {
+          "name": "Visit Jata Shankar",
+          "body": [
+            "Jata Shankar is a cave shrine to Shiva in a deep ravine, with rock formations said to resemble his matted hair and a natural stream flowing beneath.",
+            "Steps lead down into the gorge, where pilgrims wade through a cool stream to the cave shrine. The rock overhangs and natural lingam formations make it an atmospheric visit."
+          ]
+        },
+        {
+          "name": "See the Pandav Caves",
+          "body": [
+            "The Pandav Caves, five rock-cut chambers on a hillock in town, are linked by legend to the Pandavas' exile, though they are thought to have been cut by Buddhist monks. A garden surrounds them."
+          ],
+          "image": {
+            "src": "/images/blogs/madhya-pradesh/pachmarhi/pandav-caves-pachmarhi.webp",
+            "alt": "Pandav Caves, Pachmarhi",
+            "caption": "Pandav Caves"
+          }
+        },
+        {
+          "name": "Climb to Chauragarh",
+          "body": [
+            "Chauragarh, a hilltop Shiva shrine reached by about 1,300 steps, is famous for the thousands of tridents left by devotees. It is the focus of a large fair at Mahashivratri."
+          ],
+          "facts": {
+            "Best time": "Early morning; Mahashivratri fair"
+          }
+        },
+        {
+          "name": "See rock paintings and Christ Church",
+          "body": [
+            "Pachmarhi's rock shelters, such as those at Dhoopgarh and elsewhere, contain prehistoric and later paintings; ask guides for accessible sites. Christ Church, built in 1875, is a fine colonial church in the cantonment."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wildlife",
+      "heading": "Wildlife",
+      "items": [
+        {
+          "name": "Go on a Satpura safari",
+          "body": [
+            "Satpura Tiger Reserve offers jeep safaris from Pachmarhi and from Madhai, as well as canoe rides and walking safaris in some zones, unusual for Indian tiger reserves. Leopards, gaur, sloth bears, giant squirrels and many birds are seen.",
+            "Madhai, on the reserve's southern edge, is the main safari gate and has lodges by the Denwa river, where boat safaris offer a chance to see crocodiles and birds. Walking safaris with guides are one of Satpura's special experiences."
+          ],
+          "facts": {
+            "Best time": "October to June",
+            "Good for": "Wildlife lovers"
+          }
+        }
+      ]
+    },
+    {
+      "id": "seasons",
+      "heading": "By season",
+      "items": [
+        {
+          "name": "October to February",
+          "body": [
+            "Cool days and cold nights; clear views from Dhoopgarh."
+          ]
+        },
+        {
+          "name": "March to June",
+          "body": [
+            "Warm but pleasant compared with the plains; peak season for families."
+          ]
+        },
+        {
+          "name": "July to September",
+          "body": [
+            "Heavy rain, lush forests and full waterfalls; some gypsy routes and trails may close."
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Families",
+      "text": "Bee Falls, the Pandav Caves, Dhoopgarh sunset and a gypsy tour of the points."
+    },
+    {
+      "who": "Nature lovers",
+      "text": "Satpura safaris, Duchess Falls and quiet forest walks."
+    },
+    {
+      "who": "Pilgrims",
+      "text": "Jata Shankar and the Chauragarh climb at Mahashivratri."
+    }
+  ],
+  "oneDay": "Visit the Pandav Caves and Jata Shankar in the morning, then walk to Bee Falls. After lunch, take a gypsy to Handi Khoh and Priyadarshini Point, and end at Dhoopgarh for sunset.",
+  "tips": [
+    "Pipariya, about 50 km away, is the nearest railway station; Bhopal airport is about five hours away.",
+    "Many points require an authorised gypsy; book at the MP Tourism or forest office.",
+    "Carry warm clothes in winter.",
+    "Swim only where permitted and avoid falls in heavy flow."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Pachmarhi?",
+      "a": "Watch sunset at Dhoopgarh, see Bee Falls, Rajat Prapat and Apsara Vihar, visit Jata Shankar and the Pandav Caves, look into Handi Khoh, climb to Chauragarh and go on a Satpura safari."
+    },
+    {
+      "q": "How many days are enough for Pachmarhi?",
+      "a": "Two to three days."
+    },
+    {
+      "q": "What is the best time to visit Pachmarhi?",
+      "a": "October to June; the monsoon is beautiful but some routes close."
+    },
+    {
+      "q": "Is Pachmarhi good for families?",
+      "a": "Yes. Waterfalls, caves, viewpoints and safaris make it a varied family trip."
+    },
+    {
+      "q": "Do I need a gypsy to visit Pachmarhi's points?",
+      "a": "Many forest points, such as Dhoopgarh and Handi Khoh, are reached by authorised gypsies booked through the forest or tourism office. Some sites in town can be visited on foot."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Bhopal",
+      "href": "/blog/things-to-do-in-bhopal",
+      "note": "the lake city, about five hours away"
+    },
+    {
+      "name": "Things to do in Jabalpur",
+      "href": "/blog/things-to-do-in-jabalpur",
+      "note": "marble rocks on the Narmada"
+    }
+  ],
+  "styles": [
+    "family-holidays",
+    "weekend-getaways",
+    "wildlife-tours"
+  ],
+  "metaDescription": "Things to do in Pachmarhi: sunset at Dhoopgarh, Bee Falls and Rajat Prapat, Jata Shankar and the Pandav Caves, Priyadarshini Point, Handi Khoh gorge, Apsara Vihar and more."
+}

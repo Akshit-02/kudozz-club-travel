@@ -1,0 +1,353 @@
+{
+  "slug": "things-to-do-in-sikkim",
+  "destination": "Sikkim",
+  "guide": "sikkim-travel-guide",
+  "type": "state",
+  "title": "Things to Do in Sikkim: High Lakes, Monasteries, Valleys & Kanchenjunga",
+  "seoTitle": "Things to Do in Sikkim: Lakes, Monasteries & Views | Kudozz Club",
+  "description": "Things to do in Sikkim: Gangtok's MG Marg and monasteries, Tsomgo Lake and Nathula Pass, Yumthang Valley and Gurudongmar Lake in the north, Kanchenjunga views from Pelling, Yuksom and the Goecha La trek, Ravangla's Buddha Park, Namchi, Zuluk's Silk Route and Sikkimese food.",
+  "dek": "A small Himalayan state dominated by Kanchenjunga, where Buddhist monasteries, rhododendron valleys and high glacial lakes lie within a day's drive of each other.",
+  "primaryKeyword": "things to do in Sikkim",
+  "secondaryKeywords": [
+    "places to visit in Sikkim",
+    "North Sikkim tour",
+    "Tsomgo Lake",
+    "Nathula Pass",
+    "Yumthang Valley",
+    "Sikkim permits",
+    "Sikkim honeymoon"
+  ],
+  "searchIntent": "Families, honeymooners and groups planning a six- to nine-day Sikkim trip, deciding between East, North, West and South Sikkim.",
+  "tags": [
+    "Sikkim",
+    "Northeast India",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/sikkim/sikkim/kanchenjunga-peak-view-from-pelling-sikkim.webp",
+    "alt": "Kanchenjunga seen from Pelling, Sikkim",
+    "caption": "Kanchenjunga from Pelling"
+  },
+  "intro": [
+    "Sikkim, a former Himalayan kingdom that became a state of India in 1975, is one of the country's smallest states but rises from subtropical valleys to Kanchenjunga, at 8,586 metres the third-highest mountain in the world and a guardian deity for the Sikkimese. Lepcha, Bhutia and Nepali communities give it a mixed culture, and Buddhist monasteries crown many of its ridges. It was declared India's first fully organic state in 2016.",
+    "The things to do in Sikkim fall into four regions. East Sikkim has Gangtok, Tsomgo Lake, Nathula Pass and the old Silk Route at Zuluk. North Sikkim has Lachung, Yumthang Valley, Lachen and Gurudongmar Lake. West Sikkim has Pelling, Pemayangtse, Rabdentse and Yuksom. South Sikkim has Ravangla, Namchi and Temi tea garden.",
+    "Six days covers Gangtok, East Sikkim and one other region. Permits are needed for several areas, and road access, especially in the north, can be disrupted by landslides; check current conditions."
+  ],
+  "quickAnswer": [
+    "Walk MG Marg and visit Rumtek and Enchey monasteries in Gangtok",
+    "See Tsomgo Lake and Nathula Pass (with permits)",
+    "Visit Yumthang Valley in rhododendron season",
+    "See Gurudongmar Lake, one of the highest lakes in India",
+    "Watch sunrise on Kanchenjunga from Pelling",
+    "Visit Pemayangtse Monastery and Rabdentse ruins",
+    "Explore Yuksom, Sikkim's first capital",
+    "See the giant Buddha at Ravangla and Char Dham at Namchi",
+    "Drive the zigzag Silk Route road at Zuluk",
+    "Eat momos, thukpa and phagshapa"
+  ],
+  "sections": [
+    {
+      "id": "east",
+      "heading": "Gangtok and East Sikkim",
+      "items": [
+        {
+          "name": "Explore Gangtok",
+          "image": {
+            "src": "/images/blogs/sikkim/sikkim/mg-marg-pedestrian-street-gangtok-sikkim.webp",
+            "alt": "MG Marg pedestrian street, Gangtok",
+            "caption": "MG Marg, Gangtok"
+          },
+          "body": [
+            "Gangtok, the capital, spreads along a ridge at about 1,650 metres. MG Marg, its pedestrian high street, is famously clean and litter-free. Around the city are Rumtek Monastery, the Namgyal Institute of Tibetology, Enchey Monastery, Do Drul Chorten and viewpoints such as Tashi View Point and Ganesh Tok."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Gangtok",
+              "href": "/blog/things-to-do-in-gangtok"
+            }
+          ],
+          "facts": {
+            "Time needed": "2 days"
+          }
+        },
+        {
+          "name": "See Tsomgo Lake and Nathula Pass",
+          "image": {
+            "src": "/images/blogs/sikkim/sikkim/tsomgo-changu-lake-east-sikkim.webp",
+            "alt": "Tsomgo (Changu) Lake, East Sikkim",
+            "caption": "Tsomgo Lake"
+          },
+          "body": [
+            "Tsomgo (Changu) Lake, at about 3,750 metres and around 38 km from Gangtok, is a glacial lake that freezes in winter and is surrounded by snow for much of the year. Nathula Pass, further on at the India–China border, can be visited by Indian nationals with a permit on permitted days. The Baba Harbhajan Singh Mandir, a shrine to a soldier, is on the way."
+          ],
+          "links": [
+            {
+              "label": "Tsomgo Lake guide",
+              "href": "/blog/tsomgo-lake-travel-guide"
+            },
+            {
+              "label": "Nathula Pass guide",
+              "href": "/blog/nathula-pass-travel-guide"
+            }
+          ],
+          "facts": {
+            "Time needed": "Full day",
+            "Good to know": "Permit required; Nathula open only on certain days"
+          }
+        },
+        {
+          "name": "Drive the Silk Route at Zuluk",
+          "body": [
+            "Zuluk, in East Sikkim, lies on a branch of the old trade route to Tibet. The road climbs in dozens of hairpin bends that look spectacular from Thambi View Point, and on clear days Kanchenjunga rises above the ridges. Permits are required, and homestays offer simple rooms."
+          ],
+          "links": [
+            {
+              "label": "Zuluk guide",
+              "href": "/blog/zuluk-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "north",
+      "heading": "North Sikkim",
+      "items": [
+        {
+          "name": "Visit Yumthang Valley",
+          "image": {
+            "src": "/images/blogs/sikkim/sikkim/yumthang-valley-alpine-landscape-sikkim.webp",
+            "alt": "Yumthang Valley alpine meadows, North Sikkim",
+            "caption": "Yumthang Valley"
+          },
+          "body": [
+            "Yumthang, at around 3,560 metres above Lachung, is a valley of meadows and the Lachung river, set within the Shingba Rhododendron Sanctuary. In April and May it blooms with rhododendrons and primulas; in winter it is covered in snow. Zero Point (Yumesamdong), higher up, often has snow even in summer."
+          ],
+          "links": [
+            {
+              "label": "Yumthang Valley guide",
+              "href": "/blog/yumthang-valley-travel-guide"
+            }
+          ],
+          "facts": {
+            "Best time": "April to May for flowers",
+            "Good to know": "Permit required; check road status"
+          }
+        },
+        {
+          "name": "See Gurudongmar Lake",
+          "body": [
+            "Gurudongmar Lake, at about 5,400 metres beyond Lachen, is one of the highest lakes in the world and sacred to Buddhists, Sikhs and Hindus. The drive leaves Lachen before dawn to reach the lake in the morning. The altitude is extreme; do not attempt it without a night in Lachen first, and keep your stay at the lake short."
+          ],
+          "links": [
+            {
+              "label": "Gurudongmar Lake guide",
+              "href": "/blog/gurudongmar-lake-travel-guide"
+            }
+          ],
+          "facts": {
+            "Good to know": "Very high altitude; acclimatise at Lachen"
+          }
+        },
+        {
+          "name": "Stay in Lachung or Lachen",
+          "body": [
+            "Lachung and Lachen are mountain villages with wooden houses and monasteries that serve as bases for Yumthang and Gurudongmar. North Sikkim trips are usually arranged as two- or three-day packages from Gangtok."
+          ],
+          "links": [
+            {
+              "label": "Lachung guide",
+              "href": "/blog/lachung-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "west-south",
+      "heading": "West and South Sikkim",
+      "items": [
+        {
+          "name": "Watch sunrise from Pelling",
+          "body": [
+            "Pelling, in West Sikkim, faces Kanchenjunga at close range. Nearby are Pemayangtse Monastery (founded in the early 18th century), the ruins of Rabdentse, the second capital of Sikkim's kings, and the Sanga Choeling skywalk."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Pelling",
+              "href": "/blog/things-to-do-in-pelling"
+            }
+          ]
+        },
+        {
+          "name": "Visit Yuksom and Khecheopalri Lake",
+          "image": {
+            "src": "/images/blogs/sikkim/yuksom/dubdi-monastery-yuksom.webp",
+            "alt": "Dubdi Monastery above Yuksom",
+            "caption": "Dubdi Monastery, Yuksom"
+          },
+          "body": [
+            "Yuksom is where the first Chogyal (king) of Sikkim was crowned in 1642, at the stone throne of Norbugang. Dubdi Monastery above it is among the oldest in Sikkim. Yuksom is also the start of the Goecha La trek towards Kanchenjunga. Khecheopalri Lake, sacred and surrounded by forest, lies between Yuksom and Pelling."
+          ],
+          "links": [
+            {
+              "label": "Yuksom guide",
+              "href": "/blog/yuksom-travel-guide"
+            },
+            {
+              "label": "Khecheopalri Lake guide",
+              "href": "/blog/khecheopalri-lake-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "See Ravangla and Namchi",
+          "image": {
+            "src": "/images/blogs/sikkim/ravangla/buddha-park-ravangla.webp",
+            "alt": "Giant Buddha statue at Buddha Park, Ravangla",
+            "caption": "Buddha Park, Ravangla"
+          },
+          "body": [
+            "Ravangla's Buddha Park (Tathagata Tsal) has a large standing Buddha with mountain views. Namchi, nearby, has the Char Dham complex with replicas of major Hindu shrines and a huge Shiva statue, and Samdruptse hill with a tall statue of Guru Padmasambhava. Temi, Sikkim's only tea estate, lies between them."
+          ],
+          "links": [
+            {
+              "label": "Ravangla guide",
+              "href": "/blog/ravangla-travel-guide"
+            },
+            {
+              "label": "Namchi guide",
+              "href": "/blog/namchi-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Trek to Goecha La",
+          "body": [
+            "The Goecha La trek from Yuksom climbs through rhododendron forest and high meadows to a viewpoint facing Kanchenjunga's east face, over about eight to ten days. It is one of India's classic high-altitude treks and needs fitness, permits and a registered operator."
+          ],
+          "facts": {
+            "Best time": "April to May, October to November"
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "heading": "Food and festivals",
+      "items": [
+        {
+          "name": "Eat Sikkimese food",
+          "body": [
+            "Try momos, thukpa and thenthuk, phagshapa (pork with radish and dried chillies), gundruk (fermented greens), sel roti, chhurpi (cheese) and the fiery dalle chilli. Local millet beer, served in bamboo mugs, is called tongba in some areas."
+          ],
+          "facts": {
+            "Good for": "Food lovers"
+          }
+        },
+        {
+          "name": "Catch a festival",
+          "body": [
+            "Losar, the Tibetan new year, falls around February or March; Saga Dawa in late spring marks the Buddha's birth, enlightenment and death; and Pang Lhabsol in late summer honours Kanchenjunga. Monasteries such as Rumtek hold masked cham dances at different times of year."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "more",
+      "heading": "Quieter corners",
+      "items": [
+        {
+          "name": "Visit Aritar Lake",
+          "body": [
+            "Aritar, in East Sikkim, has a boot-shaped lake ringed by forest, with boating and a monastery on the hill above. It is often combined with Zuluk and the old Silk Route."
+          ]
+        },
+        {
+          "name": "See Temi Tea Garden",
+          "body": [
+            "Temi, in South Sikkim, is the state's only tea estate, spread across a hillside with views of Kanchenjunga. Its organic tea is sold at the estate."
+          ]
+        },
+        {
+          "name": "Visit Dzongu",
+          "body": [
+            "Dzongu in North Sikkim is a reserve for the Lepcha community, with homestays, hot springs and forest walks. Special permits are needed, and visits should respect local customs."
+          ],
+          "facts": {
+            "Good to know": "Special permit required"
+          }
+        },
+        {
+          "name": "Stay in a village homestay",
+          "body": [
+            "Homestays across Sikkim, from Yuksom to Lachung, offer home-cooked food and a quieter, more personal experience than hotels. Many are part of community tourism schemes."
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Honeymooners",
+      "text": "Gangtok, a night in Lachung for Yumthang, and two nights in Pelling facing Kanchenjunga."
+    },
+    {
+      "who": "Families",
+      "text": "Gangtok, Tsomgo Lake for snow, Ravangla and Namchi. Keep North Sikkim's high altitude in mind with small children and elderly relatives."
+    },
+    {
+      "who": "Trekkers",
+      "text": "Goecha La from Yuksom, or the Dzongri trek for a shorter taste."
+    }
+  ],
+  "oneDay": "From Gangtok, drive early to Tsomgo Lake and, with a permit and on an open day, continue to Nathula Pass and Baba Mandir. Return by afternoon, then walk MG Marg in the evening.",
+  "tips": [
+    "Bagdogra Airport and New Jalpaiguri station are about four to five hours from Gangtok; Pakyong Airport near Gangtok has limited flights.",
+    "Permits for Tsomgo, Nathula and North Sikkim are arranged through registered agents; carry ID and photos. Foreign nationals need a Restricted Area Permit for Sikkim.",
+    "Plastic water bottles and some plastics are banned or restricted in parts of Sikkim; carry a refillable bottle.",
+    "The monsoon (June to September) brings landslides; check road status for North Sikkim before booking.",
+    "Carry some cash; ATMs are scarce outside the main towns."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Sikkim?",
+      "a": "Explore Gangtok, see Tsomgo Lake and Nathula Pass, visit Yumthang Valley and Gurudongmar Lake, watch Kanchenjunga from Pelling, visit Pemayangtse and Yuksom, and see Ravangla and Namchi."
+    },
+    {
+      "q": "Do I need a permit for Sikkim?",
+      "a": "Indian nationals need permits for Tsomgo, Nathula and North Sikkim, arranged by registered agents. Foreign nationals need a Restricted Area Permit to enter Sikkim."
+    },
+    {
+      "q": "How many days are enough for Sikkim?",
+      "a": "Six days for Gangtok, East Sikkim and one more region; eight to nine for East, North and West."
+    },
+    {
+      "q": "What is the best time to visit Sikkim?",
+      "a": "March to May for flowers and October to December for clear Kanchenjunga views. Winter brings snow to the high areas."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Darjeeling",
+      "href": "/blog/things-to-do-in-darjeeling",
+      "note": "the tea town, about four hours from Gangtok"
+    },
+    {
+      "name": "Things to do in Kalimpong",
+      "href": "/blog/things-to-do-in-kalimpong",
+      "note": "monasteries and nurseries"
+    },
+    {
+      "name": "Things to do in Tawang",
+      "href": "/blog/things-to-do-in-tawang",
+      "note": "another Himalayan Buddhist region in Arunachal"
+    }
+  ],
+  "styles": [
+    "honeymoon",
+    "family-holidays",
+    "adventure-tours"
+  ],
+  "metaDescription": "Things to do in Sikkim: Gangtok's MG Marg and monasteries, Tsomgo Lake and Nathula Pass, Yumthang Valley and Gurudongmar Lake in the north, Kanchenjunga views from Pelling and more."
+}

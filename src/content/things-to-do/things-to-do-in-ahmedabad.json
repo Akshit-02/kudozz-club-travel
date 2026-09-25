@@ -1,0 +1,307 @@
+{
+  "slug": "things-to-do-in-ahmedabad",
+  "destination": "Ahmedabad",
+  "guide": "ahmedabad-travel-guide",
+  "type": "city",
+  "title": "Things to Do in Ahmedabad: Heritage Walks, Gandhi's Ashram, Stepwells & Street Food",
+  "seoTitle": "Things to Do in Ahmedabad: Heritage, Food & Culture | Kudozz Club",
+  "description": "Things to do in Ahmedabad: the old city heritage walk through the pols, Sabarmati Ashram, Sidi Saiyyed Mosque and its stone lattice, the Jama Masjid, Adalaj stepwell, the Hutheesing Jain temple, the Calico Museum, the Sabarmati Riverfront, Manek Chowk's night market, Uttarayan and Navratri, and day trips to Rani ki Vav and Modhera.",
+  "dek": "India's first UNESCO World Heritage City, where Sultanate mosques, carved wooden pol houses and Gandhi's ashram sit within a fast-growing business city.",
+  "primaryKeyword": "things to do in Ahmedabad",
+  "secondaryKeywords": [
+    "places to visit in Ahmedabad",
+    "Ahmedabad heritage walk",
+    "Sabarmati Ashram",
+    "Sidi Saiyyed Mosque",
+    "Adalaj stepwell",
+    "Manek Chowk",
+    "Ahmedabad food"
+  ],
+  "searchIntent": "Visitors and business travellers planning two to three days in Ahmedabad, often with Rani ki Vav, Modhera and the Statue of Unity.",
+  "tags": [
+    "Ahmedabad",
+    "Gujarat",
+    "City",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/gujarat/ahmedabad/sidi-saiyyed-mosque-ahmedabad-2.webp",
+    "alt": "Stone lattice window of Sidi Saiyyed Mosque, Ahmedabad",
+    "caption": "Sidi Saiyyed Mosque"
+  },
+  "intro": [
+    "Ahmedabad was founded in 1411 by Sultan Ahmed Shah on the banks of the Sabarmati. Its walled old city, with more than 600 pols (gated neighbourhoods of carved wooden houses), mosques, temples and tombs, became India's first UNESCO World Heritage City in 2017. Mahatma Gandhi lived here from 1917 to 1930, and set out on the Salt March from his ashram on the river.",
+    "The things to do in Ahmedabad include a morning heritage walk through the pols, the Sultanate-era mosques with their famous stone lattices, Gandhi's Sabarmati Ashram, the Adalaj stepwell, Jain temples, excellent museums and the Sabarmati Riverfront. The city's food, from Manek Chowk's night market to Gujarati thalis, is a highlight, and its festivals, especially Uttarayan in January and Navratri in autumn, are spectacular.",
+    "Two to three days covers the city; add a day for Rani ki Vav at Patan and the Modhera Sun Temple. November to February is the most comfortable time."
+  ],
+  "quickAnswer": [
+    "Take the old city heritage walk through the pols",
+    "Visit Sabarmati Ashram",
+    "See the lattice window of Sidi Saiyyed Mosque",
+    "Visit the Jama Masjid and Bhadra Fort",
+    "See Adalaj stepwell",
+    "Visit the Hutheesing Jain Temple",
+    "Tour the Calico Museum of Textiles",
+    "Walk the Sabarmati Riverfront and Atal Bridge",
+    "Eat at Manek Chowk's night market",
+    "Fly kites at Uttarayan or dance garba at Navratri"
+  ],
+  "sections": [
+    {
+      "id": "old-city",
+      "heading": "The old city",
+      "items": [
+        {
+          "name": "Take the heritage walk",
+          "body": [
+            "The Ahmedabad Municipal Corporation's morning heritage walk starts at the Swaminarayan Temple in Kalupur and winds through the pols, past carved wooden house fronts, hidden temples, chabutras (bird feeders), secret passages and community wells, ending at the Jama Masjid. Private guides also run food and craft walks.",
+            "Start early; the walk takes about two and a half hours and is best before the lanes get busy."
+          ],
+          "facts": {
+            "Time needed": "2.5 hours",
+            "Best time": "Early morning",
+            "Good for": "Everyone"
+          }
+        },
+        {
+          "name": "See Sidi Saiyyed Mosque",
+          "body": [
+            "Sidi Saiyyed Mosque, built in 1573, is famous for its jali windows carved from stone in the pattern of intertwined trees, often called the tree of life. The design has become a symbol of the city. Women may not be allowed inside the prayer hall; the windows can be seen from the courtyard."
+          ],
+          "facts": {
+            "Time needed": "30 minutes"
+          }
+        },
+        {
+          "name": "Visit the Jama Masjid and Bhadra Fort",
+          "body": [
+            "The Jama Masjid, completed in 1424, has 260 pillars and blends Hindu, Jain and Islamic design. Bhadra Fort and the Teen Darwaza gateway nearby were part of the original citadel; the Bhadra Kali Temple and the lively streets around them are worth exploring. Rani no Hajiro, the tombs of the queens, is next to a busy market."
+          ],
+          "image": {
+            "src": "/images/blogs/gujarat/ahmedabad/jama-masjid-ahmedabad-2.webp",
+            "alt": "Jama Masjid, Ahmedabad",
+            "caption": "Jama Masjid"
+          }
+        },
+        {
+          "name": "Visit the Hutheesing Jain Temple",
+          "body": [
+            "The Hutheesing Jain Temple, built in 1848 in white marble, has intricately carved domes, pillars and 52 shrines around a courtyard.",
+            "The temple was built by a merchant family and completed by his widow, and its craftsmen came from the same guilds that built the city's pol houses. It is calm in the early morning, when worshippers perform puja."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gandhi-museums",
+      "heading": "Gandhi, museums and the river",
+      "items": [
+        {
+          "name": "Visit Sabarmati Ashram",
+          "body": [
+            "Sabarmati Ashram, on the banks of the river, was Gandhi's home for over a decade. His simple cottage, Hriday Kunj, is preserved, and a museum designed by Charles Correa tells his story through photographs, letters and quotes. It was from here that he began the Dandi Salt March in 1930."
+          ],
+          "image": {
+            "src": "/images/blogs/gujarat/ahmedabad/sabarmati-ashram-ahmedabad-2.webp",
+            "alt": "Sabarmati Ashram, Ahmedabad",
+            "caption": "Sabarmati Ashram"
+          },
+          "facts": {
+            "Time needed": "1.5 hours",
+            "Good for": "Everyone"
+          }
+        },
+        {
+          "name": "Tour the Calico Museum of Textiles",
+          "body": [
+            "The Calico Museum of Textiles, in the Sarabhai family's Shahibaug estate, has one of the world's finest collections of Indian textiles. Visits are by guided tour only, with limited places and specific timings; book in advance."
+          ],
+          "facts": {
+            "Good to know": "Guided tours only; book ahead"
+          }
+        },
+        {
+          "name": "Walk the Sabarmati Riverfront",
+          "body": [
+            "The Sabarmati Riverfront has promenades, gardens and the Atal Bridge, a pedestrian bridge with a colourful canopy, lit up at night. Kankaria Lake, in the south of the city, has a promenade, a zoo, a toy train and a carnival in the last week of December."
+          ],
+          "image": {
+            "src": "/images/blogs/gujarat/ahmedabad/kankaria-lake-ahmedabad-2.webp",
+            "alt": "Kankaria Lake, Ahmedabad",
+            "caption": "Kankaria Lake"
+          },
+          "facts": {
+            "Best time": "Evening"
+          }
+        },
+        {
+          "name": "See Adalaj stepwell",
+          "body": [
+            "Adalaj stepwell (vav), about 18 km north, was built in 1499 and has five storeys of carved galleries descending to the water, cool even in summer. Its carvings blend Hindu, Jain and Islamic motifs."
+          ],
+          "facts": {
+            "Time needed": "1 hour"
+          }
+        },
+        {
+          "name": "See Sarkhej Roza and Auto World",
+          "body": [
+            "Sarkhej Roza, a 15th-century complex of mosque, tombs and a tank on the city's edge, is a peaceful place at sunset. The Auto World Vintage Car Museum has a large collection of classic cars."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "food-festivals",
+      "heading": "Food and festivals",
+      "items": [
+        {
+          "name": "Eat at Manek Chowk",
+          "body": [
+            "Manek Chowk, a jewellers' square in the old city by day, turns into a food market at night, with pav bhaji, sandwiches, kulfi and chocolate pizza. It stays busy until well after midnight."
+          ],
+          "facts": {
+            "Best time": "9 p.m. onwards",
+            "Good for": "Food lovers"
+          }
+        },
+        {
+          "name": "Have a Gujarati thali",
+          "body": [
+            "A Gujarati thali, with dal, kadhi, several vegetables, rotli, rice and sweets, is best eaten at one of the city's old thali restaurants. Try dhokla, khandvi, fafda-jalebi on Sunday mornings and undhiyu in winter."
+          ]
+        },
+        {
+          "name": "Fly kites at Uttarayan",
+          "body": [
+            "On 14 January, Uttarayan (Makar Sankranti), the whole city goes up to the rooftops to fly kites from dawn to dusk, and an International Kite Festival is held on the riverfront. In the evening, paper lanterns float into the sky."
+          ],
+          "facts": {
+            "Best time": "14 January"
+          }
+        },
+        {
+          "name": "Dance at Navratri",
+          "body": [
+            "During Navratri, in September or October, the city dances garba and dandiya raas late into the night at community grounds and large venues. Visitors are welcome at many events."
+          ],
+          "facts": {
+            "Best time": "September or October"
+          }
+        }
+      ]
+    },
+    {
+      "id": "day-trips",
+      "heading": "Day trips",
+      "items": [
+        {
+          "name": "See Rani ki Vav and Modhera",
+          "body": [
+            "Rani ki Vav at Patan, about 125 km away, is a magnificent 11th-century stepwell with hundreds of sculptures, and a UNESCO World Heritage Site. The Modhera Sun Temple, from the same period, has a stepped tank and exquisitely carved halls. Both make a full-day trip."
+          ],
+          "links": [
+            {
+              "label": "Patan guide",
+              "href": "/blog/patan-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Visit Lothal and Nal Sarovar",
+          "body": [
+            "Lothal, about 80 km south-west, is a Harappan port town with a dockyard and a museum. Nal Sarovar, a large lake about 60 km away, attracts flamingos and migratory birds in winter."
+          ],
+          "facts": {
+            "Best time": "November to February for birds"
+          }
+        },
+        {
+          "name": "Go to the Statue of Unity",
+          "body": [
+            "The Statue of Unity, the world's tallest statue at 182 metres, portrays Sardar Vallabhbhai Patel and stands near the Sardar Sarovar Dam, about 200 km away. It is usually visited with an overnight stay."
+          ],
+          "links": [
+            {
+              "label": "Statue of Unity guide",
+              "href": "/blog/statue-of-unity-travel-guide"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "History lovers",
+      "text": "The heritage walk, the mosques, Adalaj and a day at Rani ki Vav and Modhera."
+    },
+    {
+      "who": "Food lovers",
+      "text": "Fafda-jalebi on Sunday morning, a thali lunch and Manek Chowk at night."
+    },
+    {
+      "who": "Families",
+      "text": "Sabarmati Ashram, Science City, Kankaria Lake and the riverfront."
+    }
+  ],
+  "oneDay": "Join the morning heritage walk in the old city, then see Sidi Saiyyed Mosque and Bhadra Fort. After a Gujarati thali lunch, visit Sabarmati Ashram and Adalaj stepwell, and end the evening on the riverfront and at Manek Chowk.",
+  "tips": [
+    "Sardar Vallabhbhai Patel International Airport serves the city; Ahmedabad Junction is a major railway station.",
+    "Gujarat is a dry state; alcohol requires a permit.",
+    "Book the Calico Museum tour well in advance.",
+    "Summers are very hot; plan outdoor visits for early morning and evening.",
+    "Use the metro and BRTS buses to reach the old city and riverfront; parking in the pols is difficult.",
+    "Carry cash for pol shops and street food."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Ahmedabad?",
+      "a": "Take the old city heritage walk, visit Sabarmati Ashram, see Sidi Saiyyed Mosque, the Jama Masjid and Adalaj stepwell, visit the Hutheesing temple and the Calico Museum, walk the riverfront and eat at Manek Chowk."
+    },
+    {
+      "q": "When is the Ahmedabad heritage walk?",
+      "a": "The municipal heritage walk runs every morning from the Swaminarayan Temple in Kalupur. Check the current start time and booking process."
+    },
+    {
+      "q": "How many days are enough for Ahmedabad?",
+      "a": "Two to three days, plus a day for Rani ki Vav and Modhera."
+    },
+    {
+      "q": "What is the best time to visit Ahmedabad?",
+      "a": "November to February, or January for Uttarayan and autumn for Navratri."
+    },
+    {
+      "q": "Is Ahmedabad a UNESCO World Heritage City?",
+      "a": "Yes. The historic walled city of Ahmedabad was inscribed in 2017, the first Indian city to receive the status."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Vadodara",
+      "href": "/blog/things-to-do-in-vadodara",
+      "note": "palaces and Champaner, two hours away"
+    },
+    {
+      "name": "Patan",
+      "href": "/blog/patan-travel-guide",
+      "note": "Rani ki Vav"
+    },
+    {
+      "name": "Things to do in Kutch",
+      "href": "/blog/things-to-do-in-kutch",
+      "note": "the White Rann"
+    },
+    {
+      "name": "Statue of Unity",
+      "href": "/blog/statue-of-unity-travel-guide",
+      "note": "the world's tallest statue"
+    }
+  ],
+  "styles": [
+    "family-holidays",
+    "weekend-getaways",
+    "group-tours"
+  ],
+  "metaDescription": "Things to do in Ahmedabad: the old city heritage walk through the pols, Sabarmati Ashram, Sidi Saiyyed Mosque and its stone lattice, the Jama Masjid, Adalaj stepwell and more."
+}

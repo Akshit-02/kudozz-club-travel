@@ -1,0 +1,272 @@
+{
+  "slug": "things-to-do-in-havelock-island",
+  "destination": "Havelock Island",
+  "guide": "havelock-island-andaman-travel-guide",
+  "type": "island",
+  "title": "Things to Do in Havelock Island (Swaraj Dweep): Beaches, Diving & Sunsets",
+  "seoTitle": "Things to Do in Havelock Island (Swaraj Dweep) | Kudozz Club",
+  "description": "Things to do in Havelock Island: sunset at Radhanagar, snorkelling and sea walks at Elephant beach, scuba diving courses and fun dives, Kalapathar and Vijaynagar beaches, night kayaking for bioluminescence, forest walks and island cafés.",
+  "dek": "The best-known island in the Andamans, with a long white beach famous for its sunsets, clear water over coral reefs and a relaxed dive-town feel.",
+  "primaryKeyword": "things to do in Havelock Island",
+  "secondaryKeywords": [
+    "Swaraj Dweep",
+    "Radhanagar beach",
+    "Elephant beach",
+    "Havelock scuba diving",
+    "Havelock bioluminescence",
+    "Kalapathar beach"
+  ],
+  "searchIntent": "Honeymooners, families and divers planning two to four nights on Havelock and deciding what to book.",
+  "tags": [
+    "Havelock Island",
+    "Andaman",
+    "Beaches",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/andaman-and-nicobar/havelock-island-andaman/radhanagar-beach-swaraj-dweep-havelock-island-2.webp",
+    "alt": "White sand of Radhanagar beach, Havelock",
+    "caption": "Radhanagar beach"
+  },
+  "intro": [
+    "Havelock Island, officially renamed Swaraj Dweep in 2018, lies about two hours by ferry north-east of Port Blair. It is the most visited island in the Andamans, with a few villages, a string of beaches on its eastern and western coasts and dense tropical forest in between.",
+    "The things to do on Havelock are mostly about the sea: long afternoons and sunsets at Radhanagar, snorkelling and water sports at Elephant beach, scuba diving with dozens of dive schools, quieter beaches such as Kalapathar and Vijaynagar, and, on dark nights, kayaking through mangroves lit by bioluminescence.",
+    "Two to four nights is ideal. October to May is the best season; November to April is best for diving."
+  ],
+  "quickAnswer": [
+    "Watch sunset at Radhanagar beach",
+    "Snorkel and try a sea walk at Elephant beach",
+    "Do a try dive or learn to scuba dive",
+    "Go fun diving at sites such as the Wall and Dixon's Pinnacle",
+    "Watch sunrise at Kalapathar beach",
+    "Relax on Vijaynagar beach",
+    "Kayak through mangroves at night for bioluminescence",
+    "Walk the forest trail to Elephant beach",
+    "Eat at island cafés and seafood shacks",
+    "Take a day trip to Neil Island"
+  ],
+  "sections": [
+    {
+      "id": "beaches",
+      "heading": "Beaches",
+      "items": [
+        {
+          "name": "Watch sunset at Radhanagar",
+          "body": [
+            "Radhanagar beach, on the west coast, is a long crescent of white sand backed by tall trees. The water is calm and clear for much of the season, and the sunset draws everyone on the island. Lifeguards are on duty during the day; heed flags and avoid swimming after dark.",
+            "The beach gets crowded in the late afternoon in peak season. For quieter moments, go in the morning, or walk towards the northern end where a small path leads to Neil's Cove, a sheltered corner with clear water."
+          ],
+          "facts": {
+            "Best time": "Afternoon and sunset",
+            "Good for": "Everyone"
+          }
+        },
+        {
+          "name": "Snorkel at Elephant beach",
+          "image": {
+            "src": "/images/blogs/andaman-and-nicobar/havelock-island-andaman/elephant-beach-swaraj-dweep-havelock-island.webp",
+            "alt": "Elephant beach and reef, Havelock",
+            "caption": "Elephant beach"
+          },
+          "body": [
+            "Elephant beach, reached by boat from the jetty or by a trek of about 2 km through forest, has shallow coral close to shore. Snorkelling, sea walking, glass-bottom boats and jet skis are offered."
+          ],
+          "facts": {
+            "Best time": "Morning",
+            "Good for": "Families, first-time snorkellers"
+          }
+        },
+        {
+          "name": "Watch sunrise at Kalapathar",
+          "image": {
+            "src": "/images/blogs/andaman-and-nicobar/havelock-island-andaman/kalapathar-beach-swaraj-dweep-havelock-island.webp",
+            "alt": "Kalapathar beach with black rocks",
+            "caption": "Kalapathar beach"
+          },
+          "body": [
+            "Kalapathar, on the east coast, is a quiet beach with black rocks, turquoise water and a road running alongside. It is the best spot on the island for sunrise."
+          ],
+          "facts": {
+            "Best time": "Sunrise"
+          }
+        },
+        {
+          "name": "Relax on Vijaynagar beach",
+          "image": {
+            "src": "/images/blogs/andaman-and-nicobar/havelock-island-andaman/vijaynagar-beach-swaraj-dweep-havelock-island.webp",
+            "alt": "Vijaynagar beach, Havelock",
+            "caption": "Vijaynagar beach"
+          },
+          "body": [
+            "Vijaynagar (Beach No. 5), on the east coast, is lined with resorts and mahua trees. At low tide the sea retreats far out, and it is a peaceful place for walks."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "diving",
+      "heading": "Diving and water",
+      "items": [
+        {
+          "name": "Do a try dive",
+          "body": [
+            "Many dive schools offer a try dive (discover scuba) for non-divers, with a short briefing and a shallow dive with an instructor. No swimming ability is strictly required at some schools, but you should be comfortable in water. Choose a reputable operator affiliated with an international agency."
+          ],
+          "facts": {
+            "Time needed": "Half a day",
+            "Good for": "Beginners"
+          }
+        },
+        {
+          "name": "Get certified or fun dive",
+          "body": [
+            "Havelock is one of the best places in India to learn to dive, with courses of three to four days. Certified divers can explore sites such as the Wall, Dixon's Pinnacle, Aquarium and Johnny's Gorge, with coral, reef fish, turtles, rays and sometimes sharks."
+          ],
+          "facts": {
+            "Best time": "November to April",
+            "Good for": "Divers"
+          }
+        },
+        {
+          "name": "Kayak for bioluminescence",
+          "body": [
+            "Guided night kayaking trips through the mangrove creeks on dark nights, around the new moon, reveal bioluminescent plankton glowing with every paddle stroke. Daytime mangrove kayaking is also offered."
+          ],
+          "facts": {
+            "Best time": "Moonless nights",
+            "Good for": "Couples, adventurous families"
+          }
+        },
+        {
+          "name": "Try game fishing or a snorkelling boat trip",
+          "body": [
+            "Boat trips go to snorkelling spots around the island, and some operators offer game fishing trips further out. Check licences and safety equipment."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "island-life",
+      "heading": "Island life",
+      "items": [
+        {
+          "name": "Walk the forest trail",
+          "body": [
+            "The trail from the main road to Elephant beach passes through forest with huge trees and birdsong. It can be muddy after rain; go with a guide and wear good shoes."
+          ]
+        },
+        {
+          "name": "Eat at cafés and seafood shacks",
+          "body": [
+            "Havelock's villages along the main road have cafés, bakeries and seafood restaurants, many run by settlers from Bengal and elsewhere. Try grilled fish, crab and Bengali fish curry."
+          ],
+          "facts": {
+            "Good for": "Food lovers"
+          }
+        },
+        {
+          "name": "Take a day trip to Neil Island",
+          "body": [
+            "Neil (Shaheed Dweep) is about an hour away by ferry, with a natural rock bridge and quiet beaches. Many travellers stay a night there after Havelock."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Neil Island",
+              "href": "/blog/things-to-do-in-neil-island"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seasons",
+      "heading": "Havelock by season",
+      "items": [
+        {
+          "name": "October to December",
+          "body": [
+            "Seas calm after the monsoon, the island is green and diving season begins. December is busy and expensive."
+          ]
+        },
+        {
+          "name": "January to April",
+          "body": [
+            "The best time for diving and snorkelling, with clear water and calm seas."
+          ]
+        },
+        {
+          "name": "May to September",
+          "body": [
+            "Monsoon rain and rough seas; ferries are sometimes cancelled and many dive schools slow down or close."
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Honeymooners",
+      "text": "Sunset at Radhanagar, a try dive, night kayaking and a quiet resort on Vijaynagar."
+    },
+    {
+      "who": "Families",
+      "text": "Elephant beach snorkelling and glass-bottom boats, and calm afternoons at Radhanagar."
+    },
+    {
+      "who": "Divers",
+      "text": "Four to five days for a certification course and fun dives."
+    }
+  ],
+  "oneDay": "Watch sunrise at Kalapathar, then take a boat to Elephant beach for snorkelling. After lunch, spend the afternoon at Radhanagar and stay for sunset. On a dark night, join a bioluminescence kayak trip.",
+  "tips": [
+    "Government and private ferries run from Port Blair; book early in peak season.",
+    "ATMs on the island can run out of cash; carry some.",
+    "Mobile data is slow; download maps offline.",
+    "Do not touch or stand on coral when snorkelling."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do on Havelock Island?",
+      "a": "Watch sunset at Radhanagar, snorkel at Elephant beach, scuba dive, see sunrise at Kalapathar, relax at Vijaynagar and kayak for bioluminescence."
+    },
+    {
+      "q": "Can non-swimmers scuba dive on Havelock?",
+      "a": "Many schools offer try dives for non-swimmers with close instructor support, but being comfortable in water is important. Check with the operator."
+    },
+    {
+      "q": "How many days are enough for Havelock?",
+      "a": "Two to four nights."
+    },
+    {
+      "q": "Is Havelock now called Swaraj Dweep?",
+      "a": "Yes. It was renamed Swaraj Dweep in 2018, though Havelock is still widely used."
+    },
+    {
+      "q": "When is bioluminescence visible on Havelock?",
+      "a": "On dark nights around the new moon, especially in the dry season. Guided kayak trips through the mangroves offer the best chance."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Neil Island",
+      "href": "/blog/things-to-do-in-neil-island",
+      "note": "an hour by ferry"
+    },
+    {
+      "name": "Things to do in Port Blair",
+      "href": "/blog/things-to-do-in-port-blair",
+      "note": "the capital"
+    },
+    {
+      "name": "Radhanagar beach",
+      "href": "/blog/radhanagar-beach-andaman-travel-guide",
+      "note": "the famous beach in detail"
+    }
+  ],
+  "styles": [
+    "honeymoon",
+    "adventure-tours",
+    "family-holidays"
+  ],
+  "metaDescription": "Things to do in Havelock Island: sunset at Radhanagar, snorkelling and sea walks at Elephant beach, scuba diving courses and fun dives, Kalapathar and Vijaynagar beaches and more."
+}

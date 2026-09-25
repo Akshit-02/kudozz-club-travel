@@ -24,10 +24,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/spiti-valley/spiti-valley.jpg",
+        url: "/images/blogs/mizoram/hmuifang/hmuifang-hill-mizoram.webp",
         width: 2560,
         height: 1920,
-        alt: "Scenic hill valley landscape, evoking Hmuifang's paragliding viewpoints south of Aizawl, Mizoram",
+        alt: "Hmuifang hill and village, Mizoram",
       },
     ],
   },
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     title: "Hmuifang Guide: Paragliding & Views",
     description:
       "Paragliding, sweeping views, and traditional Mizo village heritage south of Aizawl — the complete Hmuifang guide.",
-    images: ["/images/destinations/spiti-valley/spiti-valley.jpg"],
+    images: ["/images/blogs/mizoram/hmuifang/hmuifang-hill-mizoram.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/hmuifang-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           headline: "Hmuifang Guide: Paragliding & Views",
           description:
             "Complete Hmuifang guide — paragliding above the Mizoram hills, sweeping viewpoints, traditional Mizo village heritage, how to reach from Aizawl, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/spiti-valley/spiti-valley.jpg",
+          image: "https://club.kudozz.in/images/blogs/mizoram/hmuifang/hmuifang-hill-mizoram.webp",
           datePublished: "2026-09-04",
           dateModified: "2026-09-04",
           publisher: {
@@ -168,8 +168,8 @@ export default function HmuifangGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/spiti-valley/spiti-valley.jpg"
-              alt="Scenic hill valley landscape, evoking Hmuifang's paragliding viewpoints south of Aizawl, Mizoram"
+              src="/images/blogs/mizoram/hmuifang/hmuifang-hill-mizoram.webp"
+              alt="Hmuifang hill and village, Mizoram"
               fill
               priority
               sizes="100vw"

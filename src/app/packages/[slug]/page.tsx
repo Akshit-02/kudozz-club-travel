@@ -18,6 +18,7 @@ import {
   type SuggestedRoute,
 } from "@/lib/destination-profiles";
 import { posts, featuredPost } from "@/lib/blog-posts";
+import { thingsToDoForPackage } from "@/lib/things-to-do-links";
 import { SITE_URL } from "@/lib/site";
 
 // ── Shared data ──────────────────────────────────────────────────────────────
@@ -330,6 +331,31 @@ function PlacesGrid({ slugs, title, intro }: { slugs: string[]; title: string; i
   );
 }
 
+function ThingsToDoLinks({ slug, name }: { slug: string; name: string }) {
+  const items = thingsToDoForPackage(slug);
+  if (!items.length) return null;
+  return (
+    <section className="bg-white pb-16 md:pb-20">
+      <div className="container-site">
+        <SectionTitle
+          eyebrow="Experiences"
+          title={`Things to do in ${name}`}
+          intro="Activities, sights and local experiences, grouped by destination, to help you decide what to include."
+        />
+        <ul className="mt-6 flex flex-wrap gap-2">
+          {items.map((e) => (
+            <li key={e.slug}>
+              <Link href={`/blog/${e.slug}`} className="inline-block rounded-full bg-stone-50 px-3.5 py-1.5 font-sans text-sm text-stone-700 ring-1 ring-stone-200 hover:text-forest-700 hover:ring-forest-300">
+                Things to do in {e.destination}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </section>
+  );
+}
+
 function StyleLinks({ name }: { name: string }) {
   return (
     <section className="bg-stone-50 py-16 md:py-20">
@@ -627,6 +653,8 @@ function StatePackageView({ state }: { state: StatePackage }) {
             intro={`Mix and match from ${placeSlugs.length} ${name} destinations we have detailed guides for. Tell us which ones interest you.`}
           />
         )}
+
+        <ThingsToDoLinks slug={state.slug} name={name} />
 
         {profile && (
           <section className="bg-white pb-16 md:pb-20">

@@ -1,0 +1,335 @@
+{
+  "slug": "things-to-do-in-bangalore",
+  "destination": "Bengaluru",
+  "guide": "bengaluru-travel-guide",
+  "type": "city",
+  "title": "Things to Do in Bangalore (Bengaluru): Gardens, Palaces, Food & Weekend Escapes",
+  "seoTitle": "Things to Do in Bangalore (Bengaluru) | Kudozz Club",
+  "description": "Things to do in Bangalore: Lalbagh and Cubbon Park, Bangalore Palace, Tipu Sultan's Summer Palace, the Bull Temple, museums including MAP and Visvesvaraya, breakfast at old tiffin rooms, VV Puram food street, craft breweries, Nandi Hills sunrise and Bannerghatta.",
+  "dek": "India's tech capital on the Deccan plateau, with a mild climate, century-old gardens, busy food streets and hills and forests an hour away.",
+  "primaryKeyword": "things to do in Bangalore",
+  "secondaryKeywords": [
+    "things to do in Bengaluru",
+    "places to visit in Bangalore",
+    "Lalbagh",
+    "Cubbon Park",
+    "Nandi Hills sunrise",
+    "Bangalore food",
+    "things to do in Bangalore at night"
+  ],
+  "searchIntent": "Visitors, new residents and weekenders looking for sights, food and short trips in and around Bengaluru.",
+  "tags": [
+    "Bengaluru",
+    "Karnataka",
+    "City",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/karnataka/bengaluru/cubbon-park-bengaluru.webp",
+    "alt": "Tree-lined paths in Cubbon Park, Bengaluru",
+    "caption": "Cubbon Park"
+  },
+  "intro": [
+    "Bengaluru, the capital of Karnataka, sits at about 900 metres on the Deccan plateau, which gives it a mild climate most of the year. Founded as a mud fort by Kempe Gowda in 1537, it grew under Hyder Ali and Tipu Sultan and then as a British cantonment. Today it is India's technology hub and one of its fastest-growing cities.",
+    "The things to do in Bangalore include its famous gardens, Lalbagh and Cubbon Park; palaces and old temples; excellent museums; and above all its food, from dosa breakfasts at tiffin rooms that are decades old to street-food lanes and craft breweries. Within an hour or two are Nandi Hills, Bannerghatta National Park and rocky hills for climbing.",
+    "Two days covers the city; add a day for Nandi Hills or Mysuru. Traffic is heavy, so use the metro where you can."
+  ],
+  "quickAnswer": [
+    "Walk through Lalbagh Botanical Garden",
+    "Spend a morning in Cubbon Park",
+    "Tour Bangalore Palace",
+    "See Tipu Sultan's Summer Palace",
+    "Visit the Bull Temple in Basavanagudi",
+    "See the Museum of Art & Photography (MAP)",
+    "Eat breakfast at an old tiffin room",
+    "Try street food on VV Puram food street",
+    "Visit a craft brewery",
+    "Watch sunrise at Nandi Hills"
+  ],
+  "sections": [
+    {
+      "id": "gardens",
+      "heading": "Gardens and palaces",
+      "items": [
+        {
+          "name": "Walk through Lalbagh",
+          "image": {
+            "src": "/images/blogs/karnataka/bengaluru/lalbagh-botanical-garden-bengaluru.webp",
+            "alt": "Lalbagh Botanical Garden and glass house",
+            "caption": "Lalbagh"
+          },
+          "body": [
+            "Lalbagh, a botanical garden begun under Hyder Ali in 1760 and expanded by Tipu Sultan, covers about 240 acres with old trees, a lake and a Victorian glass house. Flower shows are held around Independence Day and Republic Day. A rock outcrop in the garden, one of the oldest rock formations on earth, has one of Kempe Gowda's watchtowers."
+          ],
+          "facts": {
+            "Time needed": "2 hours",
+            "Best time": "Early morning",
+            "Good for": "Everyone"
+          }
+        },
+        {
+          "name": "Spend a morning in Cubbon Park",
+          "body": [
+            "Cubbon Park, laid out in 1870, is a green heart of the city with bamboo groves, lawns and red colonial buildings, including the State Central Library and the High Court. The granite Vidhana Soudha, seat of the state legislature, faces it. On weekend mornings, parts of the park are closed to traffic and fill with walkers and families."
+          ],
+          "facts": {
+            "Best time": "Weekend mornings"
+          }
+        },
+        {
+          "name": "Tour Bangalore Palace",
+          "image": {
+            "src": "/images/blogs/karnataka/bengaluru/bangalore-palace-bengaluru.webp",
+            "alt": "Tudor-style façade of Bangalore Palace",
+            "caption": "Bangalore Palace"
+          },
+          "body": [
+            "Bangalore Palace, built from 1887 for the Wodeyar rulers, has turrets and battlements inspired by English castles. An audio tour covers its ballroom, paintings and hunting trophies. The grounds host concerts and events."
+          ],
+          "facts": {
+            "Time needed": "1.5 hours"
+          }
+        },
+        {
+          "name": "See Tipu Sultan's Summer Palace",
+          "image": {
+            "src": "/images/blogs/karnataka/bengaluru/tipu-sultan-s-summer-palace-bengaluru-2.webp",
+            "alt": "Tipu Sultan's Summer Palace in Bengaluru",
+            "caption": "Tipu Sultan's Summer Palace"
+          },
+          "body": [
+            "Tipu Sultan's Summer Palace, completed in 1791, is a two-storey teak palace with carved arches and painted walls, near the old Bangalore Fort. A small museum covers Tipu's life. The Kote Venkataramana Temple is next door."
+          ],
+          "facts": {
+            "Time needed": "45 minutes"
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "heading": "Temples and museums",
+      "items": [
+        {
+          "name": "Visit the Bull Temple",
+          "body": [
+            "The Dodda Basavana Gudi in Basavanagudi houses a huge monolithic Nandi. Every November or December, the Kadalekai Parishe groundnut fair fills the streets around it. The Dodda Ganapathi Temple and Bugle Rock park are nearby."
+          ],
+          "facts": {
+            "Best time": "Kadalekai Parishe in November or December"
+          }
+        },
+        {
+          "name": "See the Museum of Art & Photography",
+          "body": [
+            "The Museum of Art & Photography (MAP), opened in 2023 on Kasturba Road, has a large collection of Indian art, photography, textiles and popular culture, with changing exhibitions and a good café. The National Gallery of Modern Art, in Manikyavelu Mansion, is nearby."
+          ],
+          "facts": {
+            "Time needed": "2 hours",
+            "Good for": "Art lovers"
+          }
+        },
+        {
+          "name": "Visit the Visvesvaraya Museum",
+          "body": [
+            "The Visvesvaraya Industrial and Technological Museum next to Cubbon Park has interactive science and engineering exhibits, popular with children. The HAL Heritage Centre and Aerospace Museum has aircraft on display."
+          ],
+          "facts": {
+            "Good for": "Families"
+          }
+        },
+        {
+          "name": "See ISKCON and the Karaga festival",
+          "body": [
+            "The ISKCON temple on a hill in Rajajinagar is a large, modern temple complex. Bengaluru's own festival, Karaga, held in spring around the Dharmaraya Swamy Temple, features an all-night procession through the old city."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "food-nights",
+      "heading": "Food and evenings",
+      "items": [
+        {
+          "name": "Eat breakfast at an old tiffin room",
+          "body": [
+            "Bengaluru's darshinis and old tiffin rooms serve crisp masala dosas, rava idli, filter coffee and kesari bath. Some in Basavanagudi, Malleswaram and Lalbagh Road have been running for over 70 years; expect queues on weekend mornings."
+          ],
+          "facts": {
+            "Best time": "Morning",
+            "Good for": "Food lovers"
+          }
+        },
+        {
+          "name": "Try VV Puram food street",
+          "body": [
+            "VV Puram's food street, near Basavanagudi, comes alive in the evening with stalls selling dosas, holige, akki roti, chaats and sweets. In winter, the avarekai (hyacinth bean) mela brings special dishes."
+          ],
+          "facts": {
+            "Best time": "Evening"
+          }
+        },
+        {
+          "name": "Visit a craft brewery",
+          "body": [
+            "Bengaluru was one of the first Indian cities with a craft beer scene, and has dozens of brewpubs in Indiranagar, Koramangala and along Outer Ring Road."
+          ],
+          "facts": {
+            "Best time": "Evening"
+          }
+        },
+        {
+          "name": "Shop on Commercial Street and at KR Market",
+          "body": [
+            "Commercial Street is the classic shopping street for clothes and accessories. KR Market, the old city market, is a riot of flowers early in the morning, with mountains of jasmine and marigold."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "neighbourhoods",
+      "heading": "Neighbourhoods to explore",
+      "items": [
+        {
+          "name": "Walk Malleswaram and Basavanagudi",
+          "body": [
+            "Malleswaram and Basavanagudi are two of Bengaluru's oldest planned neighbourhoods, laid out in the late 1890s after a plague outbreak. Their tree-lined streets, old houses, temples, flower sellers and traditional sweet and snack shops show a quieter, older side of the city. Heritage walks are run by local groups."
+          ],
+          "facts": {
+            "Best time": "Morning",
+            "Good for": "Walkers, food lovers"
+          }
+        },
+        {
+          "name": "Browse Church Street and MG Road",
+          "body": [
+            "Church Street is known for bookshops, cafés and live music venues, and MG Road and Brigade Road have been the city's shopping and nightlife centre for decades. St Mark's Cathedral, consecrated in 1816, is at one end of MG Road."
+          ],
+          "facts": {
+            "Best time": "Evening"
+          }
+        },
+        {
+          "name": "See Chickpet and the old fort area",
+          "body": [
+            "Chickpet and Avenue Road are the old trading heart of Bengaluru, packed with shops selling silk sarees, brass, books and wholesale goods. The remains of Bangalore Fort, rebuilt by Hyder Ali, are nearby."
+          ],
+          "facts": {
+            "Good for": "Shoppers, photographers"
+          }
+        }
+      ]
+    },
+    {
+      "id": "day-trips",
+      "heading": "Day trips",
+      "items": [
+        {
+          "name": "Watch sunrise at Nandi Hills",
+          "body": [
+            "Nandi Hills, about 60 km north, is a hill fort at about 1,480 metres where Tipu Sultan had a summer retreat. At sunrise, the plains below are often covered in a sea of clouds. Entry timings are regulated; check before leaving."
+          ],
+          "links": [
+            {
+              "label": "Nandi Hills guide",
+              "href": "/blog/nandi-hills-travel-guide"
+            }
+          ],
+          "facts": {
+            "Best time": "Sunrise, October to February"
+          }
+        },
+        {
+          "name": "Visit Bannerghatta National Park",
+          "body": [
+            "Bannerghatta, about 22 km south, has a zoo, a butterfly park and safari rides through enclosures with lions, tigers, bears and herbivores. It is popular with families."
+          ],
+          "facts": {
+            "Good for": "Families",
+            "Good to know": "Closed on Tuesdays"
+          }
+        },
+        {
+          "name": "Climb at Ramanagara",
+          "body": [
+            "The granite hills of Ramanagara, about 50 km away, are known for rock climbing and for featuring in the film Sholay. The area has a vulture sanctuary."
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Food lovers",
+      "text": "A tiffin-room breakfast, VV Puram in the evening and a brewery in Indiranagar."
+    },
+    {
+      "who": "Families",
+      "text": "Lalbagh, Visvesvaraya Museum, Bannerghatta and Cubbon Park on a Sunday morning."
+    },
+    {
+      "who": "Weekenders",
+      "text": "Nandi Hills at sunrise, then Mysuru or Coorg for longer escapes."
+    },
+    {
+      "who": "Culture seekers",
+      "text": "MAP, the National Gallery of Modern Art, Chitrakala Parishath and a heritage walk in Basavanagudi or Malleswaram."
+    }
+  ],
+  "oneDay": "Start with a dosa breakfast in Basavanagudi and the Bull Temple, then walk through Lalbagh. After lunch, visit Tipu Sultan's Summer Palace and MAP, and end with a walk in Cubbon Park and dinner in Indiranagar.",
+  "tips": [
+    "Kempegowda International Airport is about 35 to 40 km from the city centre; allow plenty of time.",
+    "Use the Namma Metro to avoid traffic where possible.",
+    "Bengaluru's weather is pleasant most of the year; carry an umbrella from June to October.",
+    "Check whether attractions close on Mondays or Tuesdays before visiting."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Bangalore?",
+      "a": "Walk Lalbagh and Cubbon Park, tour Bangalore Palace and Tipu's Summer Palace, visit the Bull Temple and MAP, eat at old tiffin rooms and VV Puram, and take trips to Nandi Hills and Bannerghatta."
+    },
+    {
+      "q": "What can I do in Bangalore at night?",
+      "a": "Visit craft breweries in Indiranagar and Koramangala, eat at VV Puram food street, or catch live music and comedy."
+    },
+    {
+      "q": "How many days are enough for Bangalore?",
+      "a": "Two days for the city; a third for Nandi Hills or Mysuru."
+    },
+    {
+      "q": "What is the best time to visit Bangalore?",
+      "a": "October to February, though the climate is mild all year."
+    },
+    {
+      "q": "What are the best weekend trips from Bangalore?",
+      "a": "Nandi Hills for sunrise, Mysuru for palaces, Coorg and Chikmagalur for coffee country, Ramanagara for climbing, and Bannerghatta for a family day out."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Mysuru",
+      "href": "/blog/things-to-do-in-mysore",
+      "note": "palaces, about three hours away"
+    },
+    {
+      "name": "Nandi Hills",
+      "href": "/blog/nandi-hills-travel-guide",
+      "note": "sunrise above the clouds"
+    },
+    {
+      "name": "Things to do in Coorg",
+      "href": "/blog/things-to-do-in-coorg",
+      "note": "coffee country, five to six hours away"
+    },
+    {
+      "name": "Things to do in Chikmagalur",
+      "href": "/blog/things-to-do-in-chikmagalur",
+      "note": "hills and coffee, about five hours away"
+    }
+  ],
+  "styles": [
+    "weekend-getaways",
+    "family-holidays"
+  ],
+  "metaDescription": "Things to do in Bangalore: Lalbagh and Cubbon Park, Bangalore Palace, Tipu Sultan's Summer Palace, the Bull Temple, museums including MAP and Visvesvaraya and more."
+}

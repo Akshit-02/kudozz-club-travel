@@ -1,0 +1,332 @@
+{
+  "slug": "things-to-do-in-mysore",
+  "destination": "Mysuru",
+  "guide": "mysuru-travel-guide",
+  "type": "city",
+  "title": "Things to Do in Mysore (Mysuru): Palaces, Dasara, Markets & Srirangapatna",
+  "seoTitle": "Things to Do in Mysore (Mysuru) | Kudozz Club",
+  "description": "Things to do in Mysore: Mysore Palace and its Sunday illuminations, Dasara and the Jamboo Savari, Chamundi Hill, Jaganmohan Palace art gallery, St Philomena's Church, Devaraja Market, the zoo, Brindavan Gardens, Srirangapatna, Ranganathittu and Somanathapura.",
+  "dek": "The royal city of the Wodeyars, famous for its illuminated palace, the Dasara festival, silk, sandalwood and the sweet that carries its name.",
+  "primaryKeyword": "things to do in Mysore",
+  "secondaryKeywords": [
+    "things to do in Mysuru",
+    "places to visit in Mysore",
+    "Mysore Palace illumination",
+    "Mysore Dasara",
+    "Chamundi Hill",
+    "Brindavan Gardens",
+    "Srirangapatna"
+  ],
+  "searchIntent": "Families and weekenders from Bengaluru and South India planning two days in Mysuru, sometimes timed for Dasara.",
+  "tags": [
+    "Mysuru",
+    "Karnataka",
+    "Heritage",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/karnataka/karnataka/mysore-palace-arches-view.webp",
+    "alt": "Arches and domes of Mysore Palace",
+    "caption": "Mysore Palace"
+  },
+  "intro": [
+    "Mysuru, about 145 km south-west of Bengaluru, was the capital of the Kingdom of Mysore under the Wodeyar dynasty. The city they shaped is spacious and green, with palaces, broad avenues and markets. It is known for its silk, sandalwood, incense, Mysore pak and as a global centre for Ashtanga yoga.",
+    "The things to do in Mysore start with the Mysore Palace, which is lit up with thousands of bulbs on Sunday evenings and during Dasara. Chamundi Hill, the Jaganmohan Palace art gallery, St Philomena's Church and Devaraja Market fill a second day. Nearby are Srirangapatna, Tipu Sultan's island fortress, the Ranganathittu bird sanctuary and the Hoysala temple at Somanathapura.",
+    "Two days is ideal. October to February is the best season; Dasara, usually in October, is spectacular but very crowded."
+  ],
+  "quickAnswer": [
+    "Tour Mysore Palace",
+    "See the palace illuminated on Sunday evenings",
+    "Experience Dasara and the Jamboo Savari",
+    "Climb Chamundi Hill and see the giant Nandi",
+    "See Raja Ravi Varma paintings at Jaganmohan Palace",
+    "Visit St Philomena's Church",
+    "Walk through Devaraja Market",
+    "Visit Mysore Zoo",
+    "Watch the fountain show at Brindavan Gardens",
+    "Explore Srirangapatna and Ranganathittu"
+  ],
+  "sections": [
+    {
+      "id": "palace",
+      "heading": "The palace and Dasara",
+      "items": [
+        {
+          "name": "Tour Mysore Palace",
+          "image": {
+            "src": "/images/blogs/karnataka/mysuru/mysore-palace-mysuru.webp",
+            "alt": "Mysore Palace façade",
+            "caption": "Mysore Palace"
+          },
+          "body": [
+            "The present Mysore Palace, completed in 1912 after an earlier palace burned down, is an Indo-Saracenic building with domes, arches and towers. Inside, the Kalyana Mantapa (marriage hall) with its stained-glass ceiling and the Durbar Hall with its painted pillars are highlights. An audio guide explains the rooms. Shoes must be removed and photography inside is restricted."
+          ],
+          "facts": {
+            "Time needed": "2 hours",
+            "Good for": "Everyone"
+          }
+        },
+        {
+          "name": "See the palace illuminated",
+          "body": [
+            "On Sundays, public holidays and during Dasara, the palace is lit up by nearly a hundred thousand bulbs for a short time in the evening, usually around 7 p.m. The lights come on all at once, and the effect is magical. A sound and light show is held on some evenings."
+          ],
+          "facts": {
+            "Best time": "Sunday evenings",
+            "Good to know": "Check current timings"
+          }
+        },
+        {
+          "name": "Experience Dasara",
+          "body": [
+            "Mysuru Dasara, the ten-day Navratri festival, is celebrated here with great pomp, a tradition dating back to the Vijayanagara kings. The city is lit up, cultural events take place across town, and on Vijayadashami the Jamboo Savari procession carries the goddess Chamundeshwari in a golden howdah on an elephant. A torchlight parade follows in the evening."
+          ],
+          "facts": {
+            "Best time": "October (dates vary)",
+            "Good to know": "Book stays months ahead"
+          }
+        }
+      ]
+    },
+    {
+      "id": "city",
+      "heading": "Around the city",
+      "items": [
+        {
+          "name": "Climb Chamundi Hill",
+          "body": [
+            "Chamundi Hill, about 13 km from the city, is crowned by the Chamundeshwari Temple, dedicated to the goddess who is the royal family's deity. You can drive up or climb about 1,000 steps. Two-thirds of the way up is a large monolithic Nandi, carved in the 17th century. The top gives views over Mysuru."
+          ],
+          "facts": {
+            "Time needed": "2–3 hours",
+            "Best time": "Early morning"
+          }
+        },
+        {
+          "name": "See Jaganmohan Palace art gallery",
+          "body": [
+            "Jaganmohan Palace, an older royal building, houses the Sri Jayachamarajendra Art Gallery with paintings by Raja Ravi Varma, traditional Mysore-style paintings, musical instruments and curiosities."
+          ],
+          "facts": {
+            "Time needed": "1 hour",
+            "Good for": "Art lovers"
+          }
+        },
+        {
+          "name": "Visit St Philomena's Church",
+          "body": [
+            "St Philomena's Cathedral, built in the neo-Gothic style between 1936 and 1956, has tall twin spires and stained-glass windows. It is one of the largest churches in India."
+          ],
+          "facts": {
+            "Time needed": "30 minutes"
+          }
+        },
+        {
+          "name": "Walk through Devaraja Market",
+          "image": {
+            "src": "/images/blogs/karnataka/mysuru/devaraja-market-mysuru.webp",
+            "alt": "Colourful stalls in Devaraja Market, Mysuru",
+            "caption": "Devaraja Market"
+          },
+          "body": [
+            "Devaraja Market, over a century old, is a colourful maze of stalls selling flowers, fruit, vegetables, kumkum powder in cones of colour, incense and bananas. It is one of the most photogenic markets in South India. Parts of the old building have been under repair; check which sections are open."
+          ],
+          "facts": {
+            "Best time": "Morning",
+            "Good for": "Photographers"
+          }
+        },
+        {
+          "name": "Visit Mysore Zoo",
+          "body": [
+            "Sri Chamarajendra Zoological Gardens, founded in 1892, is one of the oldest and best-run zoos in India, with a wide collection of animals in large enclosures. It is closed on Tuesdays."
+          ],
+          "facts": {
+            "Good for": "Families",
+            "Good to know": "Closed on Tuesdays"
+          }
+        },
+        {
+          "name": "See the Rail Museum and Karanji Lake",
+          "body": [
+            "The Mysuru Rail Museum has old locomotives and royal saloons, including the Maharani's carriage, and a toy train for children. Karanji Lake, near the zoo, has a walk-through aviary, a butterfly park and boating."
+          ],
+          "facts": {
+            "Good for": "Families"
+          }
+        }
+      ]
+    },
+    {
+      "id": "shopping-food",
+      "heading": "Silk, sandalwood and food",
+      "items": [
+        {
+          "name": "Buy Mysore silk and sandalwood",
+          "body": [
+            "The government silk factory in Mysuru, where Mysore silk sarees are woven, has a showroom, and factory visits have been possible at times. The Cauvery Arts and Crafts Emporium sells sandalwood items, rosewood inlay and other crafts. Look for official tags to ensure authenticity."
+          ],
+          "facts": {
+            "Good for": "Shoppers"
+          }
+        },
+        {
+          "name": "Eat Mysore masala dosa and Mysore pak",
+          "body": [
+            "Try the Mysore masala dosa with its red chutney, and the famous soft, buttery dosas at old restaurants in the city. Mysore pak, a rich sweet of gram flour, ghee and sugar, is said to have been created in the palace kitchens."
+          ],
+          "facts": {
+            "Good for": "Food lovers"
+          }
+        },
+        {
+          "name": "Practise yoga",
+          "body": [
+            "Mysuru, especially the Gokulam area, is internationally known for Ashtanga yoga. Many shalas offer drop-in classes or longer courses; book ahead."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day-trips",
+      "heading": "Day trips",
+      "items": [
+        {
+          "name": "Explore Srirangapatna",
+          "body": [
+            "Srirangapatna, an island in the Kaveri about 15 km away, was Tipu Sultan's capital. See the Ranganathaswamy Temple, Daria Daulat Bagh (his painted summer palace), the Gumbaz where he and Hyder Ali are buried, and the spot where Tipu fell in 1799."
+          ],
+          "facts": {
+            "Time needed": "Half a day"
+          }
+        },
+        {
+          "name": "See birds at Ranganathittu",
+          "body": [
+            "Ranganathittu Bird Sanctuary, near Srirangapatna, has islands in the Kaveri where painted storks, spoonbills, pelicans and other water birds nest. Boat rides pass close to the islands and to basking crocodiles."
+          ],
+          "facts": {
+            "Best time": "December to June for nesting"
+          }
+        },
+        {
+          "name": "Watch the fountains at Brindavan Gardens",
+          "body": [
+            "Brindavan Gardens, below the Krishna Raja Sagara dam about 20 km away, are terraced gardens with a musical fountain show in the evening."
+          ],
+          "facts": {
+            "Best time": "Evening"
+          }
+        },
+        {
+          "name": "See Somanathapura",
+          "body": [
+            "The Keshava Temple at Somanathapura, about 35 km away, is a star-shaped Hoysala temple built in 1268, covered with exquisite carvings. It is one of the finest examples of Hoysala art."
+          ],
+          "facts": {
+            "Time needed": "1.5 hours including travel"
+          }
+        }
+      ]
+    },
+    {
+      "id": "seasons",
+      "heading": "Mysuru by season",
+      "items": [
+        {
+          "name": "Dasara season (September to October)",
+          "body": [
+            "The city is decorated, the palace is lit every evening and events run across town. It is the most exciting time to visit but also the most crowded and expensive."
+          ]
+        },
+        {
+          "name": "Winter (November to February)",
+          "body": [
+            "Pleasant days and cool evenings make this the most comfortable time for sightseeing, and birds are nesting at Ranganathittu from around December."
+          ]
+        },
+        {
+          "name": "Summer and monsoon (March to August)",
+          "body": [
+            "Summer afternoons are warm, and the monsoon brings moderate rain. Crowds are thinner, and it is a good time for a quieter visit."
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Families",
+      "text": "The palace, zoo, Chamundi Hill, Brindavan Gardens and Ranganathittu's boat ride."
+    },
+    {
+      "who": "History lovers",
+      "text": "The palace, Jaganmohan gallery, Srirangapatna and Somanathapura."
+    },
+    {
+      "who": "Weekenders from Bengaluru",
+      "text": "Arrive by train on Saturday, see the palace illumination on Sunday evening and head back that night."
+    },
+    {
+      "who": "Yoga travellers",
+      "text": "Stay in Gokulam for a week or more, join a shala and explore the city at an easy pace."
+    }
+  ],
+  "oneDay": "Climb Chamundi Hill early, then tour Mysore Palace. Walk through Devaraja Market and have a masala dosa lunch. In the afternoon, visit St Philomena's Church and the Jaganmohan gallery, then return to see the palace illuminated if it is a Sunday or holiday.",
+  "tips": [
+    "Mysuru Junction has frequent trains from Bengaluru, and the expressway makes the drive about three hours.",
+    "The palace is lit only on certain evenings; check the day and time.",
+    "Dasara brings huge crowds and higher prices; book well ahead.",
+    "The zoo is closed on Tuesdays.",
+    "Hire an autorickshaw or taxi for the day to cover Srirangapatna, Ranganathittu and Brindavan Gardens together."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Mysore?",
+      "a": "Tour Mysore Palace and see its illumination, climb Chamundi Hill, visit Jaganmohan Palace, St Philomena's Church, Devaraja Market and the zoo, and take trips to Srirangapatna, Ranganathittu, Brindavan Gardens and Somanathapura."
+    },
+    {
+      "q": "When is Mysore Palace lit up?",
+      "a": "On Sundays, public holidays and during Dasara, for a short time in the evening, usually around 7 p.m."
+    },
+    {
+      "q": "When is Mysore Dasara?",
+      "a": "Usually in October, over ten days ending on Vijayadashami. Dates follow the lunar calendar."
+    },
+    {
+      "q": "How many days are enough for Mysore?",
+      "a": "Two days, including Srirangapatna."
+    },
+    {
+      "q": "Is Mysore good for a family trip?",
+      "a": "Yes. The palace, zoo, Rail Museum, Brindavan Gardens and the boat ride at Ranganathittu make it one of South India's easiest family destinations."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Coorg",
+      "href": "/blog/things-to-do-in-coorg",
+      "note": "coffee country, about three hours away"
+    },
+    {
+      "name": "Things to do in Ooty",
+      "href": "/blog/things-to-do-in-ooty",
+      "note": "the Nilgiris, about three and a half hours away"
+    },
+    {
+      "name": "Bandipur",
+      "href": "/blog/bandipur-travel-guide",
+      "note": "tiger reserve on the Ooty road"
+    },
+    {
+      "name": "Things to do in Bangalore",
+      "href": "/blog/things-to-do-in-bangalore",
+      "note": "about three hours north-east"
+    }
+  ],
+  "styles": [
+    "family-holidays",
+    "weekend-getaways"
+  ],
+  "metaDescription": "Things to do in Mysore: Mysore Palace and its Sunday illuminations, Dasara and the Jamboo Savari, Chamundi Hill, Jaganmohan Palace art gallery, St Philomena's Church and more."
+}

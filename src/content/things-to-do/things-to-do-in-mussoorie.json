@@ -1,0 +1,305 @@
+{
+  "slug": "things-to-do-in-mussoorie",
+  "destination": "Mussoorie",
+  "guide": "mussoorie-travel-guide",
+  "type": "hill station",
+  "title": "Things to Do in Mussoorie: Mall Road, Landour Walks & Himalayan Views",
+  "seoTitle": "Things to Do in Mussoorie: Landour, Mall Road & More | Kudozz Club",
+  "description": "Things to do in Mussoorie: Mall Road and Camel's Back Road, the Gun Hill ropeway, Kempty Falls, Lal Tibba and the Landour walks, George Everest's house, Company Garden and a day trip to Dhanaulti.",
+  "dek": "A ridge-top Raj-era hill station above Dehradun, with a busy Mall Road on one side and the quiet cottages, bakeries and forest walks of Landour on the other.",
+  "primaryKeyword": "things to do in Mussoorie",
+  "secondaryKeywords": [
+    "places to visit in Mussoorie",
+    "Landour",
+    "Kempty Falls",
+    "George Everest House",
+    "Mussoorie Mall Road",
+    "Mussoorie with family"
+  ],
+  "searchIntent": "Families and couples, largely from Delhi NCR, planning a two- or three-day hill-station trip and deciding between the busy Mall and the quieter Landour side.",
+  "tags": [
+    "Mussoorie",
+    "Uttarakhand",
+    "Hill Station",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/uttarakhand/mussoorie/mussoorie-mall-road-street-view.webp",
+    "alt": "Mall Road in Mussoorie, Uttarakhand"
+  },
+  "intro": [
+    "Mussoorie, at around 2,000 metres on a ridge above Dehradun, became a British summer retreat in the 1820s and is often called the Queen of the Hills. On clear days it looks north to the snow peaks of the Garhwal Himalaya and south over the Doon Valley.",
+    "The town has two quite different moods. The Mall Road and its surroundings are lively, with shops, cafés, ropeway rides and crowds. Landour, the old cantonment above it, is quiet, with pine and deodar forest, colonial cottages, bakeries and walking loops. Most visitors do a bit of both.",
+    "Two days covers the main sights; three lets you slow down in Landour or add a day trip to Dhanaulti. Dehradun, with the nearest airport and railway station, is about an hour away."
+  ],
+  "quickAnswer": [
+    "Walk the Mall Road and Camel's Back Road",
+    "Ride the ropeway to Gun Hill",
+    "Walk the Landour Chakkar and Lal Tibba",
+    "Have tea and baked goods at Landour's old cafés",
+    "Hike to George Everest's House",
+    "See Kempty Falls",
+    "Visit Company Garden",
+    "Take a day trip to Dhanaulti"
+  ],
+  "sections": [
+    {
+      "id": "town",
+      "heading": "Mall Road and the town",
+      "items": [
+        {
+          "name": "Walk the Mall Road and Camel's Back Road",
+          "body": [
+            "The Mall Road, running between Library Chowk and Picture Palace, is Mussoorie's main promenade, lined with shops, restaurants and viewpoints over the Doon Valley. Camel's Back Road, a quieter path along the ridge, is named after a rock formation that looks like a camel's hump and is a lovely walk at sunset."
+          ],
+          "facts": {
+            "Time needed": "2 hours",
+            "Best time": "Evening",
+            "Good for": "Everyone"
+          }
+        },
+        {
+          "name": "Ride the ropeway to Gun Hill",
+          "image": {
+            "src": "/images/blogs/uttarakhand/mussoorie/gun-hill-ropeway-cable-car-station.webp",
+            "alt": "Gun Hill ropeway cable car in Mussoorie",
+            "caption": "Gun Hill ropeway"
+          },
+          "body": [
+            "Gun Hill, Mussoorie's second-highest point, was once where a cannon was fired at noon so residents could set their clocks. A short ropeway runs up from the Mall, and the top has views of the Himalaya on clear mornings and of the town below."
+          ],
+          "facts": {
+            "Time needed": "1 hour",
+            "Good for": "Families"
+          }
+        },
+        {
+          "name": "Visit Company Garden",
+          "image": {
+            "src": "/images/blogs/uttarakhand/mussoorie/company-garden-flower-path-mussoorie.webp",
+            "alt": "Flower-lined path in Company Garden, Mussoorie",
+            "caption": "Company Garden"
+          },
+          "body": [
+            "Company Garden, laid out in the 19th century as a botanical garden, has flower beds, a small lake with boating and an artificial waterfall. It is popular with families and easy to add to a day in town."
+          ],
+          "facts": {
+            "Time needed": "1 hour",
+            "Good for": "Families"
+          }
+        }
+      ]
+    },
+    {
+      "id": "landour",
+      "heading": "Landour: Mussoorie's quiet side",
+      "items": [
+        {
+          "name": "Walk the Chakkar and Lal Tibba",
+          "body": [
+            "Landour's Chakkar is a roughly 5 km loop road through deodar forest, passing old churches, cottages and viewpoints. Lal Tibba, the highest point in the area, has telescopes pointed at the Himalaya, including peaks such as Bandarpunch and Kedarnath on a clear day. Early morning is the best time for views."
+          ],
+          "facts": {
+            "Time needed": "2–3 hours",
+            "Best time": "Early morning",
+            "Good for": "Walkers, couples"
+          }
+        },
+        {
+          "name": "Stop at Char Dukan and the bakeries",
+          "body": [
+            "Char Dukan, a cluster of small shops near St Paul's Church, has been serving pancakes, maggi and ginger-lemon-honey tea to walkers for decades. Landour's old bakeries sell breads, cakes and peanut butter, and the area is known for its writers, including Ruskin Bond, who has lived here for many years."
+          ],
+          "facts": {
+            "Good for": "Food lovers, book lovers"
+          }
+        },
+        {
+          "name": "Hike to George Everest's House",
+          "image": {
+            "src": "/images/blogs/uttarakhand/mussoorie/george-everest-house-ruins-landour.webp",
+            "alt": "Ruins of George Everest's house near Mussoorie",
+            "caption": "George Everest's House"
+          },
+          "body": [
+            "Park Estate, about 6 km west of the Mall, was the home and laboratory of Sir George Everest, Surveyor General of India, after whom the world's highest mountain is named. The restored building sits on an open ridge with views of the Doon Valley and the Himalaya, and it is a popular short hike or drive for sunset."
+          ],
+          "facts": {
+            "Time needed": "2–3 hours",
+            "Best time": "Late afternoon",
+            "Good for": "History lovers, walkers"
+          }
+        }
+      ]
+    },
+    {
+      "id": "offbeat",
+      "heading": "Quieter corners and viewpoints",
+      "items": [
+        {
+          "name": "See the Winterline from the ridge",
+          "body": [
+            "Between roughly October and January, Mussoorie is one of the few places where you can see the Winterline, a false horizon formed at sunset when a band of haze below the setting sun glows orange and red above the Doon Valley. Camel's Back Road, Lal Tibba and George Everest's House are good places to watch for it.",
+            "It is not visible every evening; clear, cold days after a spell of dry weather give the best chance."
+          ],
+          "facts": {
+            "Best time": "Sunset, October to January",
+            "Good for": "Photographers, couples"
+          }
+        },
+        {
+          "name": "Walk to Cloud's End and Benog",
+          "body": [
+            "Cloud's End, at the western edge of the Mussoorie ridge, is a heritage bungalow surrounded by thick oak and deodar forest. The nearby Benog Wildlife Sanctuary, part of the Mussoorie Wildlife Sanctuary area, is known for birds such as the cheer pheasant and the red-billed blue magpie, and the Jwala Devi temple on Benog Hill gives wide views."
+          ],
+          "facts": {
+            "Time needed": "Half a day",
+            "Good for": "Birdwatchers, walkers"
+          }
+        },
+        {
+          "name": "Visit the Tibetan temple in Happy Valley",
+          "body": [
+            "Mussoorie was one of the first places where Tibetan refugees settled in 1959–60. The Shedup Choepelling Temple in Happy Valley, with its prayer wheels and flags, is a peaceful stop, and the surrounding area has small Tibetan eateries."
+          ],
+          "facts": {
+            "Time needed": "45 minutes"
+          }
+        },
+        {
+          "name": "See Landour's churches and Kellogg's",
+          "body": [
+            "St Paul's Church (1840) near Char Dukan and Kellogg Memorial Church, which now houses the Landour Language School where Hindi has been taught to foreigners since the early 20th century, are among the old buildings on the Landour loop."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nature",
+      "heading": "Waterfalls and day trips",
+      "items": [
+        {
+          "name": "See Kempty Falls",
+          "image": {
+            "src": "/images/blogs/uttarakhand/mussoorie/kempty-falls-waterfall-pools-mussoorie.webp",
+            "alt": "Kempty Falls and bathing pools near Mussoorie",
+            "caption": "Kempty Falls"
+          },
+          "body": [
+            "Kempty Falls, about 15 km from Mussoorie on the road to Yamunotri, is a waterfall with bathing pools that is very popular with day-trippers. It gets crowded and commercial, especially in summer; weekdays and mornings are calmer."
+          ],
+          "facts": {
+            "Time needed": "2 hours",
+            "Good for": "Families",
+            "Good to know": "Very busy on weekends"
+          }
+        },
+        {
+          "name": "Take a day trip to Dhanaulti",
+          "body": [
+            "Dhanaulti, about 25 km away, is a quieter hill station with deodar forests, eco-parks and the Surkanda Devi Temple, reached by a steep walk or ropeway, with some of the widest Himalayan views in the region."
+          ],
+          "links": [
+            {
+              "label": "Dhanaulti travel guide",
+              "href": "/blog/dhanaulti-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Visit Bhatta Falls and Jharipani",
+          "body": [
+            "Smaller waterfalls such as Bhatta Falls and Jharipani Falls lie below Mussoorie on the old Dehradun road and are less crowded than Kempty."
+          ]
+        },
+        {
+          "name": "Try paragliding and adventure activities",
+          "body": [
+            "Seasonal paragliding, zip lines and adventure parks operate around Mussoorie and Dhanaulti. Check operators' licences and safety standards before booking."
+          ]
+        },
+        {
+          "name": "See snow in winter",
+          "body": [
+            "Mussoorie gets light snowfall in some winters, usually between late December and February, though it is not guaranteed every year. Dhanaulti and Surkanda Devi, higher up, see snow more reliably. Roads can be slippery; check conditions before driving."
+          ],
+          "facts": {
+            "Best time": "Late December to February",
+            "Good to know": "Snowfall varies year to year"
+          }
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Families",
+      "text": "Gun Hill ropeway, Company Garden, Kempty Falls and evenings on the Mall work well with children."
+    },
+    {
+      "who": "Couples",
+      "text": "Stay in Landour, walk the Chakkar at dawn, have tea at Char Dukan and watch sunset from George Everest's House or Camel's Back Road."
+    },
+    {
+      "who": "Book lovers",
+      "text": "Landour's association with Ruskin Bond, the Cambridge Book Depot on the Mall and quiet café mornings make it a literary stop."
+    }
+  ],
+  "oneDay": "Start early with a walk around Landour's Chakkar and breakfast at Char Dukan. Come down to the Mall for Gun Hill and Company Garden, then drive to George Everest's House for late afternoon. End with a sunset walk on Camel's Back Road and dinner on the Mall.",
+  "tips": [
+    "Dehradun, about 35 km away, has the nearest railway station; Jolly Grant Airport is about 60 km away.",
+    "Traffic between Dehradun and Mussoorie can be heavy on weekends; start early.",
+    "Clear Himalayan views are most likely in the mornings between October and February.",
+    "Wear good walking shoes: Landour's lanes are steep."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Mussoorie?",
+      "a": "Walk the Mall Road and Camel's Back Road, ride the Gun Hill ropeway, explore Landour and Lal Tibba, hike to George Everest's House, visit Company Garden and Kempty Falls and take a day trip to Dhanaulti."
+    },
+    {
+      "q": "How many days are enough for Mussoorie?",
+      "a": "Two days covers the main sights. Three days lets you explore Landour properly or add Dhanaulti."
+    },
+    {
+      "q": "Is Landour worth visiting?",
+      "a": "Yes. It is quieter than Mussoorie's Mall, with forest walks, old cafés, colonial buildings and some of the best Himalayan viewpoints in the area."
+    },
+    {
+      "q": "What is the best time to visit Mussoorie?",
+      "a": "March to June for pleasant weather, and October to February for clear mountain views. The monsoon brings heavy rain."
+    },
+    {
+      "q": "What is the Winterline in Mussoorie?",
+      "a": "It is a band of glowing light seen along the horizon at sunset in winter, caused by a layer of haze below the setting sun. It appears on some clear evenings between about October and January."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Dhanaulti",
+      "href": "/blog/dhanaulti-travel-guide",
+      "note": "forests and Surkanda Devi, 25 km away"
+    },
+    {
+      "name": "Things to do in Rishikesh",
+      "href": "/blog/things-to-do-in-rishikesh",
+      "note": "rafting and yoga, about two hours away"
+    },
+    {
+      "name": "Things to do in Haridwar",
+      "href": "/blog/things-to-do-in-haridwar",
+      "note": "the Har ki Pauri aarti"
+    },
+    {
+      "name": "Tehri Lake",
+      "href": "/blog/tehri-lake-travel-guide",
+      "note": "water sports, about two hours north-east"
+    }
+  ],
+  "styles": [
+    "family-holidays",
+    "honeymoon",
+    "weekend-getaways"
+  ],
+  "metaDescription": "Things to do in Mussoorie: Mall Road and Camel's Back Road, the Gun Hill ropeway, Kempty Falls, Lal Tibba and the Landour walks, George Everest's house and more."
+}

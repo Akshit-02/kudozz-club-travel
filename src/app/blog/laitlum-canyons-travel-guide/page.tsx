@@ -24,10 +24,10 @@ export const metadata: Metadata = {
     siteName: "Kudozz Club",
     images: [
       {
-        url: "/images/destinations/spiti-valley/spiti-valley.jpg",
+        url: "/images/blogs/meghalaya/laitlum-canyons/laitlum-canyons-meghalaya.webp",
         width: 2560,
         height: 1920,
-        alt: "Dramatic canyon and valley landscape, evoking Laitlum Canyons' sweeping gorge views near Shillong",
+        alt: "The Laitlum canyons, Meghalaya",
       },
     ],
   },
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     title: "Laitlum Canyons Guide: Meghalaya's Grand Canyon",
     description:
       "A deep gorge, distant villages far below, and one of Meghalaya's most dramatic sunset viewpoints.",
-    images: ["/images/destinations/spiti-valley/spiti-valley.jpg"],
+    images: ["/images/blogs/meghalaya/laitlum-canyons/laitlum-canyons-meghalaya.webp"],
   },
   alternates: {
     canonical: "https://club.kudozz.in/blog/laitlum-canyons-travel-guide",
@@ -59,7 +59,7 @@ function ArticleSchema() {
           headline: "Laitlum Canyons Guide: Meghalaya's Grand Canyon",
           description:
             "Complete Laitlum Canyons guide — sweeping gorge views near Shillong, the best sunset viewpoint, how to reach, and a full visit plan.",
-          image: "https://club.kudozz.in/images/destinations/spiti-valley/spiti-valley.jpg",
+          image: "https://club.kudozz.in/images/blogs/meghalaya/laitlum-canyons/laitlum-canyons-meghalaya.webp",
           datePublished: "2026-09-05",
           dateModified: "2026-09-05",
           publisher: {
@@ -182,8 +182,8 @@ export default function LaitlumCanyonsGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/spiti-valley/spiti-valley.jpg"
-              alt="Dramatic canyon and valley landscape, evoking Laitlum Canyons' sweeping gorge views near Shillong"
+              src="/images/blogs/meghalaya/laitlum-canyons/laitlum-canyons-meghalaya.webp"
+              alt="The Laitlum canyons, Meghalaya"
               fill
               priority
               sizes="100vw"

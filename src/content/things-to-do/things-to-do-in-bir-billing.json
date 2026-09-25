@@ -1,0 +1,226 @@
+{
+  "slug": "things-to-do-in-bir-billing",
+  "destination": "Bir Billing",
+  "guide": "bir-billing-travel-guide",
+  "type": "adventure village",
+  "title": "Things to Do in Bir Billing: Paragliding, Monasteries & Tea Gardens",
+  "seoTitle": "Things to Do in Bir Billing: Paragliding & More | Kudozz Club",
+  "description": "Things to do in Bir Billing: tandem paragliding from Billing, the Tibetan colony and monasteries, Sherabling, the tea gardens, the Baijnath Shiva temple, Gunehar village and waterfall, treks to Rajgundha and Barot, and café evenings.",
+  "dek": "A Tibetan settlement and tea-growing village below one of the world's best paragliding take-off sites, in the Kangra valley.",
+  "primaryKeyword": "things to do in Bir Billing",
+  "secondaryKeywords": [
+    "Bir Billing paragliding",
+    "Bir Tibetan colony",
+    "Sherabling monastery",
+    "Billing to Rajgundha trek",
+    "Gunehar waterfall",
+    "Baijnath temple"
+  ],
+  "searchIntent": "Adventure travellers and friends planning one to three days in Bir, mainly for paragliding, and looking for what else to do.",
+  "tags": [
+    "Bir Billing",
+    "Himachal Pradesh",
+    "Paragliding",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/himachal-pradesh/bir-billing/bir-billing-paragliding-valley.webp",
+    "alt": "Paragliders above the valley at Bir Billing"
+  },
+  "intro": [
+    "Bir is a village of about 1,400 metres in the Kangra district of Himachal Pradesh, and Billing is a meadow roughly 14 km uphill at about 2,400 metres. Billing is the take-off point and Bir the landing site for paragliding flights that ride thermals along the Dhauladhar. The site hosted the Paragliding World Cup in 2015 and is considered one of the best in Asia.",
+    "Bir is also a Tibetan settlement, with several monasteries, a stupa, craft workshops and a café culture that draws long-stay travellers. Tea gardens slope down towards the valley, and the old temples of Baijnath are a short drive away.",
+    "One day is enough for a tandem flight; two or three days let you slow down and add a monastery walk, a village visit or a trek. Flying depends on the weather, so leave a buffer day if paragliding is the main goal."
+  ],
+  "quickAnswer": [
+    "Take a tandem paragliding flight from Billing",
+    "Watch pilots land at the Bir landing site",
+    "Visit the Tibetan colony and Chokling Monastery",
+    "See Palpung Sherabling Monastery",
+    "Walk through the Bir tea gardens",
+    "Visit the Baijnath Shiva temple",
+    "See Gunehar village and waterfall",
+    "Trek from Billing to Rajgundha and Barot",
+    "Take a short course at the Deer Park Institute"
+  ],
+  "sections": [
+    {
+      "id": "paragliding",
+      "heading": "Paragliding",
+      "items": [
+        {
+          "name": "Take a tandem flight from Billing",
+          "body": [
+            "Tandem flights take off from Billing and last anywhere from about 15 to 30 minutes or more, depending on the package and the wind. You fly with a trained pilot over forests, villages and tea gardens with the Dhauladhar behind you, and land in the open field at Bir. No experience is needed.",
+            "Choose a registered operator with certified pilots, ask about insurance and equipment, and do not push a pilot to fly in poor conditions. Flights stop during the monsoon, usually from July to mid-September, and may be paused on windy or cloudy days."
+          ],
+          "facts": {
+            "Time needed": "Half a day including transfers",
+            "Best time": "October to November, March to May",
+            "Good for": "First-time flyers, adventure seekers",
+            "Good to know": "Flying is weather-dependent"
+          }
+        },
+        {
+          "name": "Learn to fly solo",
+          "body": [
+            "Several schools in Bir run multi-day courses, from introductory ground handling to courses leading to solo flights. They need one to two weeks and settled weather. Check the school's certification and safety record carefully."
+          ],
+          "facts": {
+            "Time needed": "1–2 weeks",
+            "Good for": "Serious learners"
+          }
+        },
+        {
+          "name": "Watch the landing site at sunset",
+          "body": [
+            "Even if you do not fly, the landing site in Bir is a lively place in the afternoon, with dozens of colourful wings coming in to land against the hills. Cafés and stalls nearby make it a good spot to sit and watch."
+          ],
+          "facts": {
+            "Best time": "Late afternoon"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tibetan",
+      "heading": "Tibetan Bir",
+      "items": [
+        {
+          "name": "Visit the Tibetan colony and Chokling Monastery",
+          "body": [
+            "The Tibetan colony at Chowgan, in lower Bir, has Chokling Monastery with its large stupa, prayer wheels and a quiet courtyard. Nearby workshops produce handicrafts and carpets, and the colony's lanes are full of small cafés serving momos, thukpa and coffee."
+          ],
+          "facts": {
+            "Time needed": "2 hours",
+            "Good for": "Everyone"
+          }
+        },
+        {
+          "name": "See Palpung Sherabling Monastery",
+          "body": [
+            "Sherabling, a large monastery set in pine forest a few kilometres from Bir, is the seat of the Tai Situ Rinpoche in India. Its main temple and grounds are impressive and peaceful. Visitors are welcome at set hours; dress modestly and keep noise down."
+          ],
+          "facts": {
+            "Time needed": "1.5 hours",
+            "Good for": "Culture seekers"
+          }
+        },
+        {
+          "name": "Study at the Deer Park Institute",
+          "body": [
+            "The Deer Park Institute in Bir runs short courses and retreats on Buddhist philosophy, meditation, Indian classical traditions and arts. Check the schedule and register in advance."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "around",
+      "heading": "Tea, temples and treks",
+      "items": [
+        {
+          "name": "Walk through the tea gardens",
+          "body": [
+            "The Kangra valley is one of India's lesser-known tea regions, and the gardens around Bir make for gentle walks, especially in the late afternoon light. Some estates sell tea directly."
+          ],
+          "facts": {
+            "Best time": "Late afternoon"
+          }
+        },
+        {
+          "name": "Visit Baijnath Temple",
+          "body": [
+            "The Baijnath Temple, about 15 km from Bir, is a stone Shiva temple dating from 1204, built in the Nagara style with fine carvings. It is one of the most important temples in the Kangra valley, and it is busy during Mahashivratri."
+          ],
+          "facts": {
+            "Time needed": "1 hour",
+            "Good for": "History and temple lovers"
+          }
+        },
+        {
+          "name": "See Gunehar village and waterfall",
+          "body": [
+            "Gunehar, a village near Bir with old slate-roofed houses, has hosted art festivals in the past and is a pleasant walk. A short trail from the village leads to a waterfall that is best after the monsoon."
+          ],
+          "facts": {
+            "Time needed": "Half a day",
+            "Good for": "Walkers, photographers"
+          }
+        },
+        {
+          "name": "Trek from Billing to Rajgundha and Barot",
+          "body": [
+            "From Billing, a forest trail leads to the meadows of Rajgundha in the Chhota Bhangal valley, and on to the Barot valley with its river and trout. It can be done over two to three days, and some trekkers continue over Thamsar Pass. Go with a local guide; weather can change quickly."
+          ],
+          "facts": {
+            "Time needed": "2–3 days",
+            "Best time": "May to June, September to October",
+            "Good for": "Trekkers"
+          }
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Friends",
+      "text": "A tandem flight, an evening at the landing site and café-hopping in the Tibetan colony make a great two-day trip."
+    },
+    {
+      "who": "Couples",
+      "text": "Stay near the tea gardens, fly in the morning and spend the afternoon at Sherabling and Baijnath."
+    },
+    {
+      "who": "Families",
+      "text": "Children can enjoy watching flights and walking the colony; minimum age and weight rules apply for tandem flights, so check with the operator."
+    }
+  ],
+  "oneDay": "Take a morning tandem flight from Billing. After lunch in the Tibetan colony, visit Chokling Monastery and walk through the tea gardens. Drive to Sherabling in the afternoon and return to the landing site to watch the evening flights.",
+  "tips": [
+    "Gaggal (Kangra) Airport is about 70 km away; overnight buses from Delhi reach Baijnath or Bir Road.",
+    "Leave a buffer day for paragliding in case of bad weather.",
+    "Carry a light jacket for the drive up to Billing; it is noticeably cooler at 2,400 metres.",
+    "Book paragliding with registered operators and confirm what is included."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Bir Billing?",
+      "a": "Take a tandem paragliding flight, watch the landings, visit the Tibetan colony and Chokling and Sherabling monasteries, walk through the tea gardens, visit Baijnath Temple and trek to Rajgundha."
+    },
+    {
+      "q": "What is the best time for paragliding at Bir Billing?",
+      "a": "October to November and March to May usually have the best conditions. Flights stop during the monsoon."
+    },
+    {
+      "q": "Is paragliding in Bir Billing safe?",
+      "a": "It is generally safe with registered operators and certified pilots, but it is an adventure sport. Check credentials and never pressure a pilot to fly in poor weather."
+    },
+    {
+      "q": "How many days are enough for Bir Billing?",
+      "a": "One day for a flight; two to three days to enjoy the monasteries, tea gardens and villages at a relaxed pace."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Dharamshala",
+      "href": "/blog/things-to-do-in-dharamshala",
+      "note": "McLeod Ganj and Triund, about two hours away"
+    },
+    {
+      "name": "Things to do in Manali",
+      "href": "/blog/things-to-do-in-manali",
+      "note": "more adventure in the Kullu valley"
+    },
+    {
+      "name": "Things to do in Tirthan Valley",
+      "href": "/blog/things-to-do-in-tirthan-valley",
+      "note": "forest and river stays near the Great Himalayan National Park"
+    }
+  ],
+  "styles": [
+    "adventure-tours",
+    "group-tours",
+    "weekend-getaways"
+  ],
+  "metaDescription": "Things to do in Bir Billing: tandem paragliding from Billing, the Tibetan colony and monasteries, Sherabling, the tea gardens, the Baijnath Shiva temple and more."
+}

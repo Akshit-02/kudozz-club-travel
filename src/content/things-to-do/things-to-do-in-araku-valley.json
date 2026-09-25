@@ -1,0 +1,267 @@
+{
+  "slug": "things-to-do-in-araku-valley",
+  "destination": "Araku Valley",
+  "guide": "araku-valley-travel-guide",
+  "type": "hill valley",
+  "title": "Things to Do in Araku Valley: Coffee, Caves, Waterfalls & the Vistadome Train",
+  "seoTitle": "Things to Do in Araku Valley: Coffee, Caves & Train | Kudozz Club",
+  "description": "Things to do in Araku Valley: the vistadome train from Vizag, Borra Caves, the Tribal Museum and Coffee Museum, coffee plantation walks, Padmapuram Gardens, Galikonda viewpoint, Chaparai and Katiki waterfalls, Dhimsa dance, bamboo chicken and Lambasingi's winter mists.",
+  "dek": "A green valley in the Eastern Ghats of Andhra Pradesh, home to tribal communities, award-winning coffee and a scenic railway through dozens of tunnels.",
+  "primaryKeyword": "things to do in Araku Valley",
+  "secondaryKeywords": [
+    "Araku valley tour",
+    "Borra Caves",
+    "Araku coffee",
+    "Vizag to Araku train",
+    "Katiki waterfall",
+    "Lambasingi",
+    "Araku Tribal Museum"
+  ],
+  "searchIntent": "Travellers from Vizag and beyond planning one or two days in Araku, usually by train one way and road the other.",
+  "tags": [
+    "Araku Valley",
+    "Andhra Pradesh",
+    "Hill Station",
+    "Things to Do"
+  ],
+  "hero": {
+    "src": "/images/blogs/andhra-pradesh/borra-caves/borra-caves-view.webp",
+    "alt": "Inside Borra Caves near Araku",
+    "caption": "Borra Caves"
+  },
+  "intro": [
+    "Araku Valley lies at about 900 metres in the Eastern Ghats, around 115 km from Visakhapatnam. It is home to several tribal communities, and its coffee, grown by small tribal farmers and marketed through cooperatives and brands, has won international recognition.",
+    "The things to do in Araku include the train journey up from Vizag, the vast limestone Borra Caves, the Tribal Museum and Coffee Museum, coffee plantation walks, gardens and viewpoints, waterfalls in the forest and evenings of Dhimsa dance and bamboo chicken. In winter, nearby Lambasingi is famous for mist and occasional frost.",
+    "One to two days is enough. September to February is the best season, when the valley is green and cool."
+  ],
+  "quickAnswer": [
+    "Ride the vistadome train from Vizag",
+    "Explore Borra Caves",
+    "Visit the Tribal Museum",
+    "Taste coffee at the Coffee Museum",
+    "Walk through a coffee plantation",
+    "See Padmapuram Gardens and its treehouses",
+    "Watch the view from Galikonda",
+    "See Chaparai and Katiki waterfalls",
+    "Watch Dhimsa dance and eat bamboo chicken",
+    "Visit Lambasingi on a winter morning"
+  ],
+  "sections": [
+    {
+      "id": "getting-there",
+      "heading": "The journey and caves",
+      "items": [
+        {
+          "name": "Ride the vistadome train",
+          "body": [
+            "The train from Visakhapatnam to Araku climbs through the Eastern Ghats, passing through dozens of tunnels and over many bridges, with valleys, waterfalls and coffee country outside. Vistadome coaches have glass roofs and wide windows. Many travellers take the train up and return by road to see Borra Caves and the ghats. Book well ahead."
+          ],
+          "facts": {
+            "Time needed": "About 4–5 hours",
+            "Good for": "Everyone"
+          }
+        },
+        {
+          "name": "Explore Borra Caves",
+          "image": {
+            "src": "/images/blogs/andhra-pradesh/borra-caves/borra-caves.webp",
+            "alt": "Limestone formations in Borra Caves",
+            "caption": "Borra Caves"
+          },
+          "body": [
+            "Borra Caves, about 30 km before Araku, are among the largest caves in India, with limestone formations of stalactites and stalagmites built over a very long time. A river flows through part of the caves. They were documented by the British geologist William King in 1807. Lighting highlights the formations.",
+            "Inside, a large chamber opens up with formations lit in different colours, and a small shrine where locals worship a formation resembling a Shivalinga. The Gosthani river, which begins in these hills, flows out from the caves."
+          ],
+          "links": [
+            {
+              "label": "Borra Caves guide",
+              "href": "/blog/borra-caves-travel-guide"
+            }
+          ],
+          "facts": {
+            "Time needed": "1.5 hours",
+            "Good to know": "Steps can be slippery"
+          }
+        }
+      ]
+    },
+    {
+      "id": "valley",
+      "heading": "In the valley",
+      "items": [
+        {
+          "name": "Visit the Tribal Museum",
+          "body": [
+            "The Tribal Museum in Araku, built in the style of traditional houses, shows the lifestyles, tools, ornaments and rituals of the region's tribal communities, with life-size models. Shops sell local crafts.",
+            "Look for the displays on Dhimsa dance and traditional hunting and farming tools, and the models of village life. The museum has a small open-air area with huts built in local styles."
+          ],
+          "facts": {
+            "Time needed": "1 hour"
+          }
+        },
+        {
+          "name": "Taste coffee at the Coffee Museum",
+          "body": [
+            "The Coffee Museum traces the history of coffee from its discovery to Araku's own plantations, and serves coffee and coffee-based chocolates. Araku coffee beans are a good buy."
+          ],
+          "facts": {
+            "Good for": "Coffee lovers"
+          }
+        },
+        {
+          "name": "Walk through a coffee plantation",
+          "body": [
+            "Coffee is grown under shade trees on small tribal farms around the valley. Plantation walks near Ananthagiri and Araku explain cultivation and processing; the harvest is from about November to February."
+          ],
+          "facts": {
+            "Best time": "November to February"
+          }
+        },
+        {
+          "name": "See Padmapuram Gardens",
+          "body": [
+            "Padmapuram Gardens, originally set up to grow vegetables for troops during the Second World War, has flower beds, a toy train and tree-top huts for stays."
+          ],
+          "facts": {
+            "Good for": "Families"
+          }
+        },
+        {
+          "name": "Watch the view from Galikonda",
+          "body": [
+            "Galikonda viewpoint, on the ghat road, looks over layers of the Eastern Ghats and is one of the highest points in the region."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "falls-culture",
+      "heading": "Waterfalls and culture",
+      "items": [
+        {
+          "name": "See Chaparai and Katiki waterfalls",
+          "body": [
+            "Chaparai is a series of small cascades over rocks, good for a picnic. Katiki waterfall, near Borra, is reached by jeep and a short trek through forest, and is at its best after the monsoon."
+          ],
+          "facts": {
+            "Best time": "September to December"
+          }
+        },
+        {
+          "name": "Watch Dhimsa and eat bamboo chicken",
+          "body": [
+            "Dhimsa, a traditional group dance of the local tribal communities, is performed at resorts and during festivals. Bamboo chicken, marinated chicken cooked inside a bamboo stem over coals, is the local speciality."
+          ],
+          "facts": {
+            "Best time": "Evening"
+          }
+        },
+        {
+          "name": "Visit Lambasingi",
+          "body": [
+            "Lambasingi, about 100 km from Vizag in a separate part of the Ghats, is known for thick morning mist and, occasionally, near-freezing temperatures in December and January. Strawberry farms and coffee estates surround it."
+          ],
+          "links": [
+            {
+              "label": "Lambasingi guide",
+              "href": "/blog/lambasingi-travel-guide"
+            }
+          ],
+          "facts": {
+            "Best time": "December to January mornings"
+          }
+        }
+      ]
+    },
+    {
+      "id": "seasons",
+      "heading": "By season",
+      "items": [
+        {
+          "name": "Winter (November to February)",
+          "body": [
+            "Cool days, cold mornings, coffee harvest and mist; the most popular season. The Araku Utsav festival has been held in winter."
+          ]
+        },
+        {
+          "name": "Monsoon (July to September)",
+          "body": [
+            "Lush and green, with full waterfalls, though roads can be slippery and some trails muddy."
+          ]
+        },
+        {
+          "name": "Summer (March to June)",
+          "body": [
+            "Warm days but cooler than the coast; fewer crowds."
+          ]
+        }
+      ]
+    }
+  ],
+  "byTraveller": [
+    {
+      "who": "Families",
+      "text": "Train up, Tribal Museum, Padmapuram Gardens and Borra Caves on the drive back."
+    },
+    {
+      "who": "Couples",
+      "text": "A cottage in the valley, coffee plantation walks and Lambasingi at dawn."
+    },
+    {
+      "who": "Coffee lovers",
+      "text": "The Coffee Museum, estate tours and fresh beans to take home."
+    }
+  ],
+  "oneDay": "Take the morning train from Vizag, visit the Tribal Museum and Coffee Museum, and see Padmapuram Gardens after lunch. Drive back via Galikonda viewpoint and Borra Caves, arriving in Vizag by evening.",
+  "tips": [
+    "Book the vistadome train early; seats sell out on weekends.",
+    "Roads through the ghats are winding; carry motion-sickness remedies if needed.",
+    "Carry warm clothes in winter; mornings are cold.",
+    "Buy coffee from cooperatives or established shops.",
+    "Winter mornings are cold; carry a jacket for the early train and viewpoints."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Araku Valley?",
+      "a": "Ride the vistadome train, explore Borra Caves, visit the Tribal and Coffee museums, walk through coffee plantations, see Padmapuram Gardens and Galikonda, and visit the waterfalls and Lambasingi."
+    },
+    {
+      "q": "How far is Araku from Vizag?",
+      "a": "About 115 km, roughly four hours by road or train."
+    },
+    {
+      "q": "Can Araku be done as a day trip?",
+      "a": "Yes, by train up and road back, though an overnight stay is more relaxed."
+    },
+    {
+      "q": "What is the best time to visit Araku Valley?",
+      "a": "September to February."
+    },
+    {
+      "q": "Is Araku good for a family trip?",
+      "a": "Yes. The train ride, Borra Caves, the Tribal Museum and Padmapuram Gardens are all easy with children, and the cool climate is a welcome break from the coast."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Things to do in Vizag",
+      "href": "/blog/things-to-do-in-vizag",
+      "note": "the coastal city"
+    },
+    {
+      "name": "Borra Caves",
+      "href": "/blog/borra-caves-travel-guide",
+      "note": "the caves in detail"
+    },
+    {
+      "name": "Lambasingi",
+      "href": "/blog/lambasingi-travel-guide",
+      "note": "mist and strawberries in winter"
+    }
+  ],
+  "styles": [
+    "weekend-getaways",
+    "family-holidays"
+  ],
+  "metaDescription": "Things to do in Araku Valley: the vistadome train from Vizag, Borra Caves, the Tribal Museum and Coffee Museum, coffee plantation walks, Padmapuram Gardens and more."
+}
