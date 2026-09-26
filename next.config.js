@@ -11,17 +11,11 @@ const nextConfig = {
     },
   },
 
-  // Image optimization
+  // Images: Vercel's Image Optimization is off to stay inside the Hobby plan's
+  // transformation quota. Source files in public/images are already WebP and
+  // sized for the web, so <Image> serves them as-is (lazy loading still works).
   images: {
-    formats: ["image/avif", "image/webp"],
-    deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048],
-    imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "**.cloudinary.com",
-      },
-    ],
+    unoptimized: true,
   },
 
   // Compression
