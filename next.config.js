@@ -3,6 +3,14 @@ const nextConfig = {
   // Enable React strict mode for better development experience
   reactStrictMode: true,
 
+  // Keep serverless functions small: never trace repo tooling, images or
+  // build caches into them (Vercel caps functions at 250 MB uncompressed).
+  experimental: {
+    outputFileTracingExcludes: {
+      "*": [".git/**", "scripts/**", "docs/**", "public/**", ".next/cache/**", ".env*"],
+    },
+  },
+
   // Image optimization
   images: {
     formats: ["image/avif", "image/webp"],

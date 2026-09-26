@@ -87,11 +87,13 @@ export interface AdventureArticle {
   updated: string;
 }
 
-/** Reads every article JSON in a content directory (server only). Shared by
- * the Adventure Travel and Beach Travel clusters, which use the same schema. */
-export function loadClusterDir(dir: string): Map<string, AdventureArticle> {
+/** Reads every article JSON in src/content/<cluster> (server only). Shared by
+ * the Adventure Travel and Beach Travel clusters, which use the same schema.
+ * The "src/content" prefix must stay a literal so Next's file tracer only
+ * bundles that folder into the function, not the whole project. */
+export function loadClusterDir(cluster: string): Map<string, AdventureArticle> {
   const out = new Map<string, AdventureArticle>();
-  const full = path.join(process.cwd(), dir);
+  const full = path.join(process.cwd(), "src/content", cluster);
   if (fs.existsSync(full)) {
     for (const f of fs.readdirSync(full)) {
       if (!f.endsWith(".json")) continue;
@@ -105,7 +107,7 @@ export function loadClusterDir(dir: string): Map<string, AdventureArticle> {
 let cache: Map<string, AdventureArticle> | null = null;
 
 function load() {
-  if (!cache) cache = loadClusterDir("src/content/adventure");
+  if (!cache) cache = loadClusterDir("adventure");
   return cache;
 }
 

@@ -6,7 +6,7 @@ import { loadClusterDir, type AdventureArticle } from "./adventure";
 let cache: Map<string, AdventureArticle> | null = null;
 
 function load() {
-  if (!cache) cache = loadClusterDir("src/content/spiritual");
+  if (!cache) cache = loadClusterDir("spiritual");
   return cache;
 }
 
