@@ -3,7 +3,7 @@
 // docs/adventure-travel-cannibalization.md) and links down to every activity,
 // destination, seasonal and planning article, and across to packages.
 import type { Metadata } from "next";
-import Link from "next/link";
+import Link from "@/components/ui/Link";
 import Image from "next/image";
 import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";

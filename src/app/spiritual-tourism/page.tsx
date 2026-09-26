@@ -4,7 +4,7 @@
 // links to every spiritual article, the existing destination guides that own
 // each sacred place, their itineraries, and the spiritual packages.
 import type { Metadata } from "next";
-import Link from "next/link";
+import Link from "@/components/ui/Link";
 import Image from "next/image";
 import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";

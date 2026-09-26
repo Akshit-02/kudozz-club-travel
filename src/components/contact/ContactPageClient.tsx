@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import Link from "next/link";
+import Link from "@/components/ui/Link";
 import { faqs } from "@/lib/contact-faqs";
 
 const reasons = [

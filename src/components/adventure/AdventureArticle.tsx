@@ -2,7 +2,7 @@
 // (src/content/adventure) and Beach Travel (src/content/beach).
 // Order: hero, intro, quick answer, key takeaways, one planning CTA, the
 // article sections, safety, packing, next steps (second CTA), FAQs, related.
-import Link from "next/link";
+import Link from "@/components/ui/Link";
 import Image from "next/image";
 import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";

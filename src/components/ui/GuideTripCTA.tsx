@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/ui/Link";
 import { getGuideContext } from "@/lib/guide-context";
 import { thingsToDoForGuide } from "@/lib/things-to-do-links";
 import { adventureForGuide } from "@/lib/adventure-links";

@@ -9,7 +9,7 @@
 // take precedence over this dynamic segment, and dynamicParams = false means
 // only slugs with a content file are served (anything else is a 404).
 import type { Metadata } from "next";
-import Link from "next/link";
+import Link from "@/components/ui/Link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import SiteHeader from "@/components/layout/SiteHeader";

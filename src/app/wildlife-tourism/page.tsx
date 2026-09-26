@@ -4,7 +4,7 @@
 // article, the existing national park guides that own each park's safari
 // intent, their itineraries, and the wildlife packages.
 import type { Metadata } from "next";
-import Link from "next/link";
+import Link from "@/components/ui/Link";
 import Image from "next/image";
 import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";

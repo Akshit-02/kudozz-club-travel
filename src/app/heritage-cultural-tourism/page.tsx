@@ -3,7 +3,7 @@
 // see docs/heritage-cultural-cannibalization.md) and links to every heritage article, the existing
 // destination guides that own each place, the itineraries and the heritage packages.
 import type { Metadata } from "next";
-import Link from "next/link";
+import Link from "@/components/ui/Link";
 import Image from "next/image";
 import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";

@@ -4,7 +4,7 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import { RelatedPostsGrid, RelatedSidebar } from "@/components/ui/RelatedPosts";
 import TableOfContents from "@/components/ui/TableOfContents";
 import type { Metadata } from "next";
-import Link from "next/link";
+import Link from "@/components/ui/Link";
 import Image from "next/image";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
 

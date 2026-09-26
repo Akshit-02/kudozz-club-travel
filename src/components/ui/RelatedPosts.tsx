@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/ui/Link";
 import Image from "next/image";
 import { posts, featuredPost } from "@/lib/blog-posts";
 import { getGuideContext } from "@/lib/guide-context";
